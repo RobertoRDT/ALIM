@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:id="CDB02_APP01">
+    <fileDesc>
+      <titleStmt>
+        <title>Codice diplomatico Barese - 02 - Appendice 01</title>
+        <respStmt>
+          <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+          <name>Giovanni Battista Nitto De Rossi</name>
+          <name>Francesco Nitti Di Vito</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+          <name key="EDAr">Elisa D'Argenio</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure quantity="10478" unit="words">Parole: 10478</measure>
+        <measure quantity="63925" unit="characters_without_spaces">Caratteri (spazi esclusi): 63925</measure>
+      </extent>
+      <publicationStmt>
+        <publisher><ref target="http://alim.unisi.it/">ALIM</ref>
+                </publisher>
+        <date when="2018-07-30">30/07/2018</date>
+        <availability>
+          <p>Copyright 2018 - progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <imprint>
+              <pubPlace>Bari</pubPlace>
+              <publisher>V. Vecchi</publisher>
+              <date>1899</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+        <list><item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item></list></ab>
+        <ab type="level">ALIM2_1</ab>
+        <ab type="specific"><list><item>La digitalizzazione della raccolta non ha riguardato né il regesto,
+          né le note diplomatistiche o di commento (con alcune eccezioni segnalate di seguito). Nel volume sono presenti tre 
+          facsimili in fototipia.</item></list></ab>
+        <ab type="specific"><list>
+          <item>Il simbolo † rappresenta la croce presente nell’originale a stampa.</item>
+          <item>Il segno 'ȩ' rappresenta nei documenti il dittongo 'ae'.</item></list></ab>
+        <ab type="specific"> Nell'originale a stampa:
+          <list><item>le parentesi quadre indicano integrazione dell'editore;</item>
+            <item>le parentesi tonde indicano congettura dell'editore;</item>
+            <item>le parentesi angolari indicano aggiunte sopralineari del rogatario;</item>
+            <item>una serie di punti indica una lacuna che l'editore non è stato in grado di colmare;</item>   
+            <item>'<hi rend="italic">(manca)</hi>' indica uno spazio lasciato in bianco dal rogatario.</item></list></ab>
+        <ab type="specific">Trattamento delle abbreviazioni presenti nell'originale a stampa:
+          <list><item>l'abbreviazione 'f.' è stata sciolta secondo l'indicazione dell'editore: 
+            "Int. sempre « filius » o « filia » in caso retto o in caso obliquo, sing. o pl." 
+            (Codice Diplomatico Barese, volume I, p. 3). In particolare, a causa delle 
+            notevoli oscillazioni delle desinenze nei documenti, per lo scioglimento dell'abbreviazione 
+            si è tenuto conto oltre che del contesto sintattico di occorrenza, anche della forma del sintagma nominale 
+            a cui il termine è apposto, della forma di eventuali altre apposizioni, e, quando presenti 
+            della forma di aggettivi ad esso riferiti;</item>
+            <item>l'abbreviazione 'qd.'  è stata sciolta secondo l'indicazione dell'editore: 
+              "Int. sempre « quondam »" (Codice Diplomatico Barese, volume I, p. 3);</item> 
+            <item>l'abbreviazione 'qs.' è stata sciolta secondo l'indicazione dell'editore: 
+              "Int. sempre « qui supra » o « que supra » secondo i casi" (Codice Diplomatico Barese, volume 1, p.4);</item></list></ab>
+        <ab type="specific">Resa nell'edizione digitale di soluzioni peculiari adottate nell'originale a stampa:
+          <list><item>porzioni di testo identiche o simili che si ripetono 
+            nello stesso documento o in documenti differenti sono compendiate dall’editore a stampa con 
+            '<hi rend="italic">ecc.</hi>' o '<hi rend="italic">etc.</hi>'. 
+            Nell’edizione digitale, per non interferire con i motori di ricerca, 
+            '<hi rend="italic">ecc.</hi>' e '<hi rend="italic">etc.</hi>' 
+            sono sostituiti da tre trattini brevi '---'.
+            Eventuali indicazioni dell’editore a stampa sul documento in cui è possibile 
+            leggere il testo omesso, fornite in corsivo e tra parentesi tonde, sono riportate 
+            nell’edizione digitale sotto forma di nota. Quando ritenuto utile, il riferimento 
+            indicato dall’editore a stampa è stato integrato dal responsabile dell’edizione digitale. 
+            L’integrazione segue la forma generalmente usata dall’editore a stampa ed è fornita 
+            in tondo e preceduta da un uguale;</item>
+            <item>quando il testo di due documenti è uguale o simile in molti punti, 
+              l’editore a stampa adotta due soluzioni: 1) non pubblica il testo del 
+              secondo documento, ma si limita a rinviare con un commento al primo documento. Eventuali 
+              differenze sono segnalate soltanto nel commento, mentre possono 
+              essere fornite a testo le eventuali aggiunte del secondo documento 
+              rispetto al primo. Nell’edizione digitale il commento è riportato 
+              sotto forma di nota; 2) quando il testo di due documenti 
+              è uguale o simile in molti punti 
+              l’editore a stampa pubblica soltanto il testo del primo 
+              documento, che contrassegna 
+              con la lettera A, ma fornisce tutte le informazioni del secondo documento, 
+              che contrassegna con la lettera B, e ne segnala le varianti sotto forma di 
+              note marginali al testo del primo documento. Nell’edizione digitale il 
+              secondo documento è riportato per intero e risulterà collocato alle medesime 
+              pagine del primo documento;</item>
+            <item>fa eccezione il documento n. 19 dell'Appendice 'Le pergamene di Giovinazzo' per il quale 
+              l’editore a stampa ha adottato una soluzione diversa: sebbene le varianti del secondo documento 
+              siano segnalate in note marginali al testo del primo documento, il secondo documento 
+              non è contrassegnato con un proprio riferimento ed è menzionato soltanto in una nota posta 
+              al ventiduesimo rigo del documento n. 19. Nell’edizione digitale si riporta sotto forma di nota 
+              sia il testo della nota sia le varianti del secondo documento nella forma 
+              'nota marginale n. X, pag. X, r. X: <hi rend="italics">Y</hi> invece di Z'.</item></list></ab>
+         <ab type="specific">Correzioni all'originale a stampa: 
+           <list><item>documento n. 23, p. 207, r. 40 diaconus] dioconus ed.</item></list></ab>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="region">Italia meridionale</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date when-iso="1124/1266">1124-1266</date>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_001">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 1</title>
+          <respStmt>
+          <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+          <name key="EDAr">Elisa D'Argenio</name>
+        </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 169-170</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1124">1124</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="169"/>
+          <lb/>+ Eterni regis incarnationis anno millesimo centesimo vicesimo quarto, mense martio 
+          <lb/>indictione secunda. Ego Kurizzi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Basilii turmarche civitatis Bari, intus civitate Iuvenacii 
+          <lb/>in claustro beate et singularis virginis dei genitricis Marie quod est episcopium huius civitatis 
+          <lb/>Iuvenacii, coram Iohanne archidiacono et Iohanne presbitero et primicerio, et Leone 
+          <lb/>diacono et primicerio et Ursone presbitero, declaro. quoniam pertinet michi partem in ecclesia 
+          <lb/>sancte Marie ubi sunt reliquie beatorum martirum Iohannis et Pauli, que est intus 
+          <lb/>hac civitate Iuvenacii, et in rebus eiusdem ecclesie. Et partem in ecclesia beatissimi sancti 
+          <lb/>Pauli apostoli que foris civitatis est, et in rebus ipsius ecclesie. Nunc vero voluntarie pro 
+          <lb/>anima de nominato patre meo, et mea, offero ipsi predicto episcopio et per fustem trado 
+          <lb/>nominatas par<supplied reason="illegible" resp="print_editor">te</supplied>s que pertinent michi in ambobus ecclesiis predictis, et in omnibus rebus 
+          <lb/>illarum. Quam oblationem et traditionem meam. Domnus Urso venerabilis episcopus, vice 
+          <lb/>de nominato episcopio accepit, una cum Maiore iudice et advocato suo. Hac ratione, quatinus 
+          <lb/>prephata oblatio et traditio amodo in antea transactive pro anima patris mei et mea 
+          <lb/>sit eiusdem ecclesie episcopii sine mea meorumque heredum, et uxoris mee, omniumque 
+          <lb/>hominum pro nostra et uxoris mee parte eandem ecclesia episcopii exinde querentium 
+          <lb/>contradictione. Unde mea sponte wadiam et me mediatorem eidem domno Ursoni venerabili 
+          <lb/>episcopo do que accepit cum nominato advocato suo. Hac condicione quatinus numquam 
+          <lb/>ego et mei heredes hanc oblationem et traditionem prephate ecclesie episcopii modo quolibet
+          <pb n="170"/>
+          <lb/>removeamus. Immo illam ipsi ecclesie defendamus a parte uxoris mee et ab omnibus 
+          <lb/>hominibus qui pro nostra et uxoris mee parte iamdictam ecclesiam episcopii exinde quesierint. 
+          <lb/>Quod si omnia ut preleguntur non adimpleverimus viginti solidorum penam predicto 
+          <lb/>episcopio suisque posterioribus demus, et omnia ut preleguntur adimpleamus, licentiamque 
+          <lb/>eidem episcopo suisque posterioribus tribui pignerare me meosque heredes per omnes res 
+          <lb/>nostras licitas et inlicitas, sine appellatione. usque quo omnia ut preleguntur adimpleverimus. 
+          <lb/>Et hoc breve scripsit Falco notarius presens enim fuit. 
+          <lb/>+ Archilevita probat hoc breve sospite vita.
+          <lb/>+ Iohannes presbiter testis sum. 
+          <lb/>+ Leo diacono et primicerio testis. 
+          <lb/>+ Urso. presbiter. testis sum.
+        </p>
+      </body>
+    </text>
+  </TEI>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader xml:id="CDB02_APP01_002">
+        <fileDesc>
+          <titleStmt>
+            <title>Codice diplomatico Barese, volume II, appendice I, documento n. 2</title>
+            <respStmt>
+              <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+              <name key="EDAr">Elisa D'Argenio</name>
+            </respStmt>
+            <respStmt>
+              <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+              <name>Giovanni Battista Nitto De Rossi</name>
+              <name>Francesco Nitti Di Vito</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>ALIM</publisher>
+            <date when="2018-07-30">30/07/2018</date>
+          </publicationStmt>
+          <sourceDesc>
+            <bibl type="edizioneAStampaDiRiferimento">
+              <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+              <editor>Giovanni Battista Nitto De Rossi</editor>
+              <editor>Francesco Nitti Di Vito</editor>
+              <pubPlace>Bari</pubPlace>
+              <publisher>V. Vecchi</publisher>
+              <date>1899</date>
+              <biblScope unit="pp">pp 170-171</biblScope>
+            </bibl>
+            <bibl type="documentoMedievale">
+              <pubPlace cert="high">Benevento</pubPlace>
+              <date cert="high" when="1130">1130</date>
+            </bibl>
+          </sourceDesc>
+        </fileDesc>
+      </teiHeader>
+      <text>
+        <body>
+          <p><pb n="170"/> 
+            <lb/>Anacletus episcopus servus servorum dei. Venerabili fratri Urso Iuvenaciensi episcopo,
+            <lb/>eiusque successoribus canonice promovendis, in perpetuum.
+            <lb/>Ex apostolicȩ sedis officio nobis iniuncto compellimur, fratribus nostris episcopis et
+            <lb/>ȩcclesiis a deo sibi commissis, tuitionis et protectionis nostrȩ manum extendere, et suam
+            <lb/>omnibus largiente domino iustitiam conservare. Ea propter Karissime frater Urse. Episcope 
+            <lb/>tuis rationabilibus clementer postulationibus annuentes. iuvenaciensem beatȩ Mariȩ 
+            <lb/>semper virginis ȩcclesiam cui deo auctore presidere videris. beati Petri patrocinio et presentis 
+            <lb/>scripti pagina duximus roborandam. Quecumque igitur bona et possessiones prefata
+            <lb/>ȩcclesia in presen<supplied reason="illegible" resp="print_editor">tia</supplied>rum iuste et legitime possidet, firma tibi  <supplied reason="illegible" resp="print_editor">tu</supplied>isque successoribus et
+            <lb/>illibata permaneant. In quibus hec propriis nominibus exprimuntur. In civitate iuvenaciensi.
+            <pb n="171"/>
+            <lb/>monasterium sanctȩ Mariȩ, ȩcclesiam sancti Salvatoris. extra civitatem. ȩcclesiam sancti
+            <lb/>Leonis, ȩcclesiam sancti Silvestri, ȩcclesiam sanctȩ Eugeniȩ, ȩcclesiam sanctorum martyrum
+            <lb/>Iohannis et Pauli, cum pertinentiis earum. Apud castrum Trilicium. ȩcclesiam sancti Angeli,
+            <lb/>ȩcclesiam sanctȩ Mariȩ, ȩcclesiam sancti Nycholai, ȩcclesiam sanctȩ Luciȩ, ȩcclesiam 
+            <lb/>sancti Iuliani, cum pertinentiis earum, Casale Urassanum, cum ȩcclesiis suis, Casale sancti
+            <lb/>Leucii, et ȩcclesias suas, Casale Circitanum cum ȩcclesiis suis. Quȩcumque prȩterea infuturum 
+            <lb/>largiente deo iustis modis poteris adipisci. firma tibi tuisque successoribus et integra
+            <lb/>conserventur. Decernimus ergo ut nulli omnino hominum liceat eandem ȩcclesiam temere
+            <lb/>perturbare, aut eius possessiones auferre. vel ablatas retinere minuere. seu temerariis vexationibus 
+            <lb/>fatigare. Sed omnia integra conserventur. tam tibi quam clericorum et pauperum
+            <lb/>usibus omnimodis profutura. Si qua igitur in posterum ȩcclesiastica secularisve persona
+            <lb/>hanc nostrȩ constitutionis paginam sciens, contra eam temere venire temptaverit. secundo
+            <lb/>tertiove commonita, si non satisfactione congrua emendaverit. potestatis et honoris sui careat
+            <lb/>dignitate, reamque se divino iudicio existere de perpetrata iniquitate cognoscat, et a sacratissimo 
+            <lb/>corpore et sanguine dei et domini nostri iesu christi redemptoris aliena fiat, atque
+            <lb/>in extremo examine districte ultioni subiaceat. Cunctis autem ȩcclesiȩ iustitiam servantibus.
+            <lb/>sit pax domini nostri iesu christi. quatinus et hic fructum bonȩ actionis percipiant. et apud
+            <lb/>districtum iudicem premia ȩternȩ pacis inveniant.
+            <lb/>Ego anacletus catho<supplied reason="illegible" resp="print_editor">licȩ</supplied> ecclesiȩ episcopus.
+            <lb/><seg rend="italic">Dominus fortitudo plebis sue.<note>Il testo è contenuto nel cerchio di una rota.</note></seg> Bene Valete.
+            <lb/>Datum <add place="supralinear">Beneventi</add> per manum Saxonis sanctȩ Romanȩ ȩcclesiȩ presbite<supplied reason="illegible" resp="print_editor">r</supplied>i cardinalis
+            <lb/>et cancellarii, incarnationis dominicȩ anno M. C. XXX. indictione VIII. Pontificatus autem
+            <lb/>domini Anacleti II Pape anno I.
+          </p>
+        </body>
+      </text>
+    </TEI>
+      <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader xml:id="CDB02_APP01_003">
+          <fileDesc>
+            <titleStmt>
+              <title>Codice diplomatico Barese, volume II, appendice I, documento n. 3</title>
+              <respStmt>
+                <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+                <name key="EDAr">Elisa D'Argenio</name>
+              </respStmt>
+              <respStmt>
+                <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+                <name>Giovanni Battista Nitto De Rossi</name>
+                <name>Francesco Nitti Di Vito</name>
+              </respStmt>
+            </titleStmt>
+            <publicationStmt>
+              <publisher>ALIM</publisher>
+              <date when="2018-07-30">30/07/2018</date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl type="edizioneAStampaDiRiferimento">
+                <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+                <editor>Giovanni Battista Nitto De Rossi</editor>
+                <editor>Francesco Nitti Di Vito</editor>
+                <pubPlace>Bari</pubPlace>
+                <publisher>V. Vecchi</publisher>
+                <date>1899</date>
+                <biblScope unit="pp">pp 172-173</biblScope>
+              </bibl>
+              <bibl type="documentoMedievale">
+                <pubPlace cert="high">Bari</pubPlace>
+                <date cert="high" when="1131">1131</date>
+              </bibl>
+            </sourceDesc>
+          </fileDesc>
+        </teiHeader>
+        <text>
+          <body>
+            <p><pb n="172"/>
+              <lb/>Angelus dei gratia Barensis que et Canusina est sedis archiepiscopus dilecto fratri
+              <lb/>et venerabili Urso iuvenacino episcopo et eius successoribus  <supplied reason="illegible" resp="print_editor">in</supplied>perpetuum. Omnipotentis dei
+              <lb/>benignitas ad hoc barensis ecclesie moderamen nobis  <supplied reason="illegible" resp="print_editor">c</supplied>ontulit. ut personis reverendis honores 
+              <lb/>debitos conferamus. et nostri archiepiscopatus ecclesiis matricibus antiquas et dignitates 
+              <lb/>et possessiones conservemus et confirmemus. Et quia iuvenacina cui deo auctore presides 
+              <lb/>ecclesia nullo metropolitane sedis privilegio predecessorum tuorum negligentia munita
+              <lb/>dinoscitur intelligibili providentia ecclesiam prenominatam cum parochialibus ecclesiis et
+              <lb/>iustis suis omnibus possessionibus nostri decreti pagina confirmari et communiri postulasti.
+              <lb/>Tue ita<supplied reason="illegible" resp="print_editor">que</supplied> f<supplied reason="illegible" resp="print_editor">ra</supplied>te<supplied reason="illegible" resp="print_editor">rnitati</supplied>s petitioni legitime effectum non denegantes absque preiuditio
+              <lb/>alicuius ecclesie presenti <supplied reason="illegible" resp="print_editor">auctoritati</supplied>s decreto tam tibi quam et successoribus tuis totam
+              <lb/><supplied reason="illegible" resp="print_editor">iuvenacini</supplied> episcopatus parochiam disponendam <supplied reason="illegible" resp="print_editor">semper ten</supplied>endam et possidendam concedimus 
+              <lb/>et confirmamus, Videlicet Iuvenacium Trilicium cum omnibus monasteriis servorum
+              <lb/>dei et puellarum que in eorum pertinentiis. seu intra ea sita sunt. Urassanum. <supplied reason="illegible" resp="print_editor">dua</supplied>s ecclesias 
+              <lb/>sancti Leucii. alteram que dicitur in cavallaro. alteram in deserto. Guarassanum numinum. 
+              <lb/>Ferulatium. Balenam. Suberitum. Mappasanum. Circitanum. Casam maximam. Mazaricum. 
+              <lb/>sanctam Eugeniam. sanctum Quiriacum de vinealibus. Sayda. Salecte. Saulanum.
+              <lb/>Cilianum. Valenzanum. Arvette. Sanctum Demetrium. Sanctam Mariam in lama. Priminianum.
+              <lb/>Puzillum. Villam. Lacum meridianum. Paternum. Villulam. Specculam. Cursinianum. Sanctam
+              <lb/>Agathen. Sanctum Nicholaum de lapedicio. Sanctum Petrum de casellis. Sanctum Cosmam
+              <lb/>de portu. Sanctum Salvatorem. Quecumque etiam sepedicta ecclesia iuvenacina ad presens
+              <lb/>seu in posterum concessione pontificum. liberalitate principum. oblatione fidelium poterit
+              <pb n="173"/>
+              <lb/>adipisci. tibi tuisque successoribus  <supplied reason="illegible" resp="print_editor">semper</supplied> illibata permanere decernimus. Sed et si quando
+              <lb/>concilium provinciale iuxta quod canones precipiunt celebraverimus. primam post nos in
+              <lb/>consessu fratrum cathedram a dextris habere tibi <supplied reason="illegible" resp="print_editor">tuisque successoribus in perpetuum</supplied>  concedimus. 
+              <lb/>Sane si quis in futurum, quod absit contra huius nostre auctoritatis inscriptionem
+              <lb/>facere temptaverit. secundo tertiove commonitus nisi resipuerit. a christi et ecclesie corpore
+              <lb/>alienus fiat. Conservantibus autem, pax a deo, et misericordia. presentibus ac faturis seculis 
+              <lb/>conservetur. Actum anno Incarnationis Dominice. Millesimo. Centesimo. Tricesimo
+              <lb/>primo. Mense martio. indictione nona. Pontificatus nostri anno primo. Scriptum a Donato
+              <lb/>subdiacono nostro.
+              <lb/>Angelus dei gratia barensis et canusinus archiepiscopus subscripsi.
+            </p>
+          </body>
+        </text>
+      </TEI>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+          <teiHeader xml:id="CDB02_APP01_004">
+            <fileDesc>
+              <titleStmt>
+                <title>Codice diplomatico Barese, volume II, appendice I, documento n. 4</title>
+                <respStmt>
+                  <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+                  <name key="EDAr">Elisa D'Argenio</name>
+                </respStmt>
+                <respStmt>
+                  <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+                  <name>Giovanni Battista Nitto De Rossi</name>
+                  <name>Francesco Nitti Di Vito</name>
+                </respStmt>
+              </titleStmt>
+              <publicationStmt>
+                <publisher>ALIM</publisher>
+                <date when="2018-07-30">30/07/2018</date>
+              </publicationStmt>
+              <sourceDesc>
+                <bibl type="edizioneAStampaDiRiferimento">
+                  <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+                  <editor>Giovanni Battista Nitto De Rossi</editor>
+                  <editor>Francesco Nitti Di Vito</editor>
+                  <pubPlace>Bari</pubPlace>
+                  <publisher>V. Vecchi</publisher>
+                  <date>1899</date>
+                  <biblScope unit="pp">pp 173-174</biblScope>
+                </bibl>
+                <bibl type="documentoMedievale">
+                  <pubPlace cert="high">Salerno</pubPlace>
+                  <date cert="high" when="1134">1134</date>
+                </bibl>
+              </sourceDesc>
+            </fileDesc>
+          </teiHeader>
+          <text>
+            <body>
+              <p><pb n="173"/> 
+                <lb/>† In nomine domini dei eterni ac salvatoris nostri iesu cristi anno incarnationis 
+                <lb/>eiusdem millesimo centesimo tricesimo quarto indictione duodecima. Ego Rogerius
+                <lb/>dei gratia sicilie et italie rex. Rogerii primi comitis heres et filius. Si iuste postulatio
+                <lb/>voluntatis omnibus dei cultoribus locisque venerabilibus studio debet persequente compleri,
+                <lb/>illis precipue qui pro culpis et offensionibus nostris dei misericordiam orationibus insistendo
+                <lb/>incessanter invocant. piȩ postulationis effectum iugiter impendere debemus. Eapropter Urso
+                <lb/>iuvenacensis ȩcclesiȩ venerabilis episcope petitionibus tuis clementius annuentes. pro salute
+                <lb/>animȩ patris nostri gloriosȩ memoriȩ Rogerii comitis, matrisque nostrȩ Adelaidȩ reginȩ et
+                <lb/>nostra nostrorum denique parentum, donamus et concedimus. tibi tuisque successoribus. et
+                <lb/>episcopatui sanctȩ Mariȩ cui deo auctore presides. totam diocesim suam cum omnibus ȩcclesiis 
+                <lb/>suȩ dicioni ubique iure pertinentibus. Decimas quoque reddituum civitatis nostrȩ Iuvenacii. 
+                <lb/>et ut pars ȩcclesiȩ affidandi quadraginta affidatos potestatem habeat. quos ȩcclesia 
+                <lb/>omni tempore libere atque quiete teneat et possideat. Presbiteri quoque et omnis ecclesiastici 
+                <lb/>ordinis gradus. canonicalis videlicet et monachalis predictȩ diocesis consistentes in
+                <pb n="174"/> 
+                <lb/>predictȩ ȩcclesiȩ et tua successorumque tuorum iudicatione libere consistant. Ista imquam
+                <lb/>predicta. et omnia illa quicquid predecessorum nostrorum privilegiis, seu donatione iam
+                <lb/>sepedicta ȩcclesia iuste atque canonice tenet et possidet, vel quȩ in posterum liberalitate
+                <lb/>principum. oblatione fidelium. concessione pontificum poterit adipisci. concedimus habenda.
+                <lb/>tenenda, et perpetuo iure possidenda sine nostra nostrorumque heredum vel successorum
+                <lb/>contrarietate. Si qua vero quod absit magna humilisve persona. huius nostre concessionis
+                <lb/>paginam etiam in aliquo violare vel interrumpere quolibet modo presumpserit, sciat se compositurum 
+                <lb/>auri libras decem. medietatem palat<supplied reason="illegible" resp="print_editor">i</supplied>o nostro. et aliam medietatem parti prenominatȩ 
+                <lb/>iuvenaciensi ȩcclesiȩ presensque decretum pristinum robur obtineat. Porro ad hu<supplied reason="illegible" resp="print_editor">i</supplied>us
+                <lb/>nostre concessionis et confirmationis indicium per manus Widonis nostri notarii scribi.
+                <lb/>nostroque sigillo insigniri prec<supplied reason="illegible" resp="print_editor">ip</supplied>imus. Data Salerni per manus Guarini nostri cancellarii
+                <lb/>duodecimo Kalendas augusti anno regni nostri IIIJ.
+                <lb/><seg rend="italic">Rex semper vivas pius et clemens domini vas. Hac cruce signatum stabo numquam 
+                <lb/>violatum. Ego Rogerius Rex qui supra.<note>Il testo è contenuto in una rota.</note></seg>
+              </p>
+            </body>
+          </text>
+        </TEI>
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader xml:id="CDB02_APP01_005">
+              <fileDesc>
+                <titleStmt>
+                  <title>Codice diplomatico Barese, volume II, appendice I, documento n. 5</title>
+                  <respStmt>
+                    <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+                    <name key="EDAr">Elisa D'Argenio</name>
+                  </respStmt>
+                  <respStmt>
+                    <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+                    <name>Giovanni Battista Nitto De Rossi</name>
+                    <name>Francesco Nitti Di Vito</name>
+                  </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                  <publisher>ALIM</publisher>
+                  <date when="2018-07-30">30/07/2018</date>
+                </publicationStmt>
+                <sourceDesc>
+                  <bibl type="edizioneAStampaDiRiferimento">
+                    <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+                    <editor>Giovanni Battista Nitto De Rossi</editor>
+                    <editor>Francesco Nitti Di Vito</editor>
+                    <pubPlace>Bari</pubPlace>
+                    <publisher>V. Vecchi</publisher>
+                    <date>1899</date>
+                    <biblScope unit="pp">pp 174-175</biblScope>
+                  </bibl>
+                  <bibl type="documentoMedievale">
+                    <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+                    <date cert="high" when="1143">1143</date>
+                  </bibl>
+                </sourceDesc>
+              </fileDesc>
+            </teiHeader>
+            <text>
+              <body>
+                <p><pb n="174"/>
+                  <lb/>Redemptionis humane incarnationis anno millesimo centesimo quadragesimo tertio. Anno
+                  <lb/>vero tertiodecimo domini nostri Rogerii Magnifici Regis Italie Sicilie. Mense septembris sexta
+                  <lb/>indictione. Nos Iohannes Paulus ac Grusostamus fratres <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Leonis et Iohannes <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Benedicti
+                  <lb/>tessetoris civitatis Iuvenacie, in eadem bonis coram hominibus. declaramus quia pertinet
+                  <lb/>nobis quartam in una petia olibarum pro parte Tottadonne consobrine nostre, Grusostamus
+                  <lb/>et Iohannes Paulus et matertere mee, <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes. que tota petia est in loco padule his circumdata 
+                  <lb/>finibus. Primo fine quomodo advolvit in parte orientis a mediis parietibus est macletella 
+                  <lb/>eclesie sancti Martini qui vocatur lacumeriiano. Et iterum quomodo revolvit in antea 
+                  <lb/>a mediis signis sunt olibe episcopii huius civitatis secundo fine a mediis signis sunt
+                  <lb/>olibe domnice, et in antea in eodem fine a mediis signis sunt olibe ecclesie sancti Felicis,
+                  <pb n="175"/>
+                  <lb/>tertio fine a mediis signis, et quarto fine a medio pariete sunt olibe nominati nostri episcopii. 
+                  <lb/>Quam prenominatam quartam. voluntarie coram prenominatis donamus et per fustem
+                  <lb/>tradimus ecclesie sancte Marie semper virginis, ubi sunt reliquie beatorum martirum Iohannis 
+                  <lb/>et Pauli, pro nostris et nostrorum parentum animabus, accipiente pro eadem ecclesia
+                  <lb/>domino Iacobo presbitero <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Maraldi nominate civitatis. In tali quidem ordine donamus et
+                  <lb/>per fustem tradimus nominate ecclesie prenominatam quartam, cum trasitu et exitu suo et
+                  <lb/>omnibus infra habitis et suis pertinentiis quatinus amodo et deinceps sit de eadem ecclesia 
+                  <lb/>ad faciendum de ea et in ea omne quod voluerit, sine nostra nostrorumque heredum
+                  <lb/>omniumque hominum controversia et impedimento. Nam relique tres partes de eadem petia 
+                  <lb/>sunt de eadem ecclesia iuxta ordinationem quam exinde fecit Stefanus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Grusafi. Teneat 
+                  <lb/>tamen et refudiet ad suam proprietatem ipsam nominatam quartam donec vixerit nominatus 
+                  <lb/>domnus Iacobus presbiter. post eius vero mortem sit de eadem ecclesia. Quapropter 
+                  <lb/>nos prenominati Iohannes et Paulus ac Grusostamus et Iohannes, sponte guadiam et
+                  <lb/>nos ipsos mediatores eidem domno Iacobo presbitero damus, quam cum Kurinicolao suo
+                  <lb/>advocato causa ecclesiastice dignitatis accipit, cum quo prephatam accepit traditionem,
+                  <lb/>quam traditionem accipit vice nominate ecclesie ut supradictum est. Eo tinore quo numquam 
+                  <lb/>nos vel nostri heredes removeamus aut minuamus nominatum donum quod iam prenominate 
+                  <lb/>ecclesie pro nostris et nostrorum parentum animabus fecimus qualiter dictum est
+                  <lb/>verum defendamus eum nominate ecclesie a parte uxorum nostrarum et ab earum heredibus, 
+                  <lb/>nec non et ab omnibus hominibus, quod nisi fecerimus que predicta sunt omnia viginti 
+                  <lb/>solidos pena parti nominate ecclesie demus, predictis omnibus postmodum peractis,
+                  <lb/>ob quod parti iamdicte ecclesie licentiam tribuimus pignerare nos et nostros heredes per
+                  <lb/>omnes nostras res legales et inlegales pignera sine appellatione quousque predicta omnia
+                  <lb/>perficiantur. Et hoc brebe Maragdus notarius scripsit eo quod affuit.
+                  <lb/>† Mirandus testis sum.
+                </p>
+              </body>
+            </text>
+          </TEI>
+            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+              <teiHeader xml:id="CDB02_APP01_006">
+                <fileDesc>
+                  <titleStmt>
+                    <title>Codice diplomatico Barese, volume II, appendice I, documento n. 6</title>
+                    <respStmt>
+                      <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+                      <name key="EDAr">Elisa D'Argenio</name>
+                    </respStmt>
+                    <respStmt>
+                      <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+                      <name>Giovanni Battista Nitto De Rossi</name>
+                      <name>Francesco Nitti Di Vito</name>
+                    </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                    <publisher>ALIM</publisher>
+                    <date when="2018-07-30">30/07/2018</date>
+                  </publicationStmt>
+                  <sourceDesc>
+                    <bibl type="edizioneAStampaDiRiferimento">
+                      <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+                      <editor>Giovanni Battista Nitto De Rossi</editor>
+                      <editor>Francesco Nitti Di Vito</editor>
+                      <pubPlace>Bari</pubPlace>
+                      <publisher>V. Vecchi</publisher>
+                      <date>1899</date>
+                      <biblScope unit="pp">pp 176-177</biblScope>
+                    </bibl>
+                    <bibl type="documentoMedievale">
+                      <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+                      <date cert="high" when="1152">1152</date>
+                    </bibl>
+                  </sourceDesc>
+                </fileDesc>
+              </teiHeader>
+              <text>
+                <body>
+                  <p><pb n="176"/>
+                    <lb/>† <gap reason="illegible" quantity="9" unit="dots_separated_by_spaces"/> christi anno millesimo centesimo q<supplied reason="illegible" resp="print_editor">uin</supplied>qu<supplied reason="illegible" resp="print_editor">a</supplied>gesimo secundo. Regni vero felicissimi 
+                    <lb/>domini nostri Rogerii invictissimi et excellentissimi regis Sicilie et Italie vicesimo
+                    <lb/>secundo, et regni domini nostri Guilielmi filii sui similiter invictissimi regis Sicilie et Italie
+                    <lb/>cum eodem domino et patre suo regnante anno secundo mense martio indictione quintadecima. 
+                    <lb/>Ego Lupus Fasanus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Melis civitatis Iuvenacie in eadem civitate coram bonis hominibus. 
+                    <lb/>Voluntarie vendo ac per fustis traditionem trado domno Mundoni presbitero et
+                    <lb/>primicerio <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Kurazzii <supplied reason="illegible" resp="print_editor">predic</supplied>te civitatis accipienti cum Falcone notario et advocato suo,
+                    <lb/>unum ortum meum qui est foras prope hac civitate Iuvenacii per hos fines. Primo fine a
+                    <lb/>medio pariete est ortum ecclesie sancti Clementis. secundo fine a medio pariete est ortus
+                    <lb/>Laurentii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Gaudii, ipopatricii, et de Kurileone <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Supponis patricii ac turmarche. Et in eodem
+                    <lb/>fine in antea a medio pariete contangit aliquantulum de orto filiorum Supponis agnomine
+                    <lb/>de li mannarini. Tertio fine a medio pariete est terra ecclesie sancti Andree apostoli et
+                    <lb/>terra ecclesie sancte dei genitricis semperque virginis Marie episcopii huius civitatis Iuvenacii. 
+                    <lb/>Quarto fine a medio pariete est terra ipsius emptoris. Et in eodem fine quomodo
+                    <lb/>advolvit et revolvit a mediis parietibus est predictus ortus ecclesie sancti Clementis. Et ob
+                    <lb/>confirmationem huius mee venditionis et traditionis statim accepi ab eodem domno Mundone 
+                    <lb/>presbitero et primicerio emptore ducentos ducales bonos scilicet ipsorum ducalium
+                    <lb/>corpora. Idest totum pretium prephate mee venditionis. Quatinus amodo in antea hec mea
+                    <lb/>venditio et traditio cum ingressu et egressu suo et omnibus infra habitis ac suis pertinentiis 
+                    <lb/>trasactive sit in sua et suorum heredum potestate et dominatione ad habendum et possidendum, 
+                    <lb/>et faciendum de ea et in ea omne quod voluerint sine mea meorumque heredum
+                    <lb/>et uxoris mee eiusque heredum et omnium hominum contradictione et requisitione. Insuper
+                    <lb/>ego <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Lupus Fasanus mea sponte guadiam eidem domno Mundoni presbitero et primicerio
+                    <lb/>do et me ipsum mediatorem pono, quam accepit cum predicto advocato suo. Eo tinore,
+                    <lb/>quo ego et mei heredis defendamus sibi et suis heredibus nominatam meam venditionem
+                    <lb/>et traditionem a parte uxoris mee eiusque heredum et ab omnibus hominibus qui illos
+                    <pb n="177"/> 
+                    <lb/>exinde quesierint modoquolibet. Et quotiens eam illis defendere noluerimus a compellantibus
+                    <lb/>vel a calumniantibus et in curte super nos exinde interpellaverint per unamquamque vicem
+                    <lb/>de nostro proprio in curte demus eptagi usque ad quindecim ducales bonos plus non per
+                    <lb/>omnem vicem posteaque venditionem ipsam eis defendamus et que predicta sunt observemus
+                    <lb/>et adimpleamus. Quod nisi fecerimus viginti solidos pena eis demus et predicta omnia observemus 
+                    <lb/>et adimpleamus, licentiamque eis tribui pignerare nos per omnes res nostras pignera 
+                    <lb/>legitima et inlegitima sine appellatione donec observemus et adimpleamus omnia
+                    <lb/>predicta. Et hoc brebe scripsi ego Petrus subdiaconus et notarius qui interfui.
+                    <lb/>† Hoc firmat Vernerius.
+                  </p>
+                </body>
+              </text>
+            </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_007">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 7</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 177-178</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1154">1154</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="177"/>
+          <lb/>† Nostri redemtoris iesu christi incarnationis anno millesimo centesimo quinquagesimo
+          <lb/>quarto et quarto anno regni domini nostri Guilielmi invictissimi et excellentissimi regis Sicilie 
+          <lb/>et Italie filii et heredis domini regis Rogerii felicissime recordationis mense apbrilio
+          <lb/>indictione secunda. Ego Benedictus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Mathei civitatis Iuvenacie in eadem presentibus bonis
+          <lb/>hominibus iacens lecto domi nimia detentus egritudine ex qua magis reor mori quam evadere. 
+          <lb/>Voluntarie iudico et per fustem trado domno Sifando diacono et primicerio domni
+          <lb/>Leonis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> ac domno Matheo presbitero spirituali patri meo <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> domni Maionis nominate civitatis, 
+          <lb/>duas petiolas meas de terra cum arboribus olibarum quas habeo in loco Cursinian
+          <lb/>ambobus habentibus in hoc advocatum Maionem socerum meum, una quarum est per hos
+          <lb/>fines. Primo fine est a media antica. Secundo et tertio fine a mediis signis et quomodo
+          <lb/>revolvit a medio pariete sunt olibe filiorum Luciani. Quarto vero fine a medio pariete sunt
+          <lb/>olibe ecclesie sancti Nicolai qui dicitur de la terrecella. Reliqua vero petiola finibus his determinatur. 
+          <lb/>Primo fine sunt olibe a mediis signis ecclesie sancti Iohannis monasterii puellarum, 
+          <lb/>secundo fine a mediis signis sunt olibe Domniciari. Tertio fine a mediis signis
+          <lb/>sunt olibe filiorum Simeonis. Quarto fine a medio pariete sunt olibe nominate ecclesie sancti
+          <lb/>Iohannis cum ingressibus egressibusque suis et omnibus infra habitis ac suis pertinentiis.
+          <lb/>Ita tamen ut predictis clericis post obitum meum teneant cultent et refrudient easdem
+          <pb n="178"/>
+          <lb/>petiolas donec vixerint et earum refrudium ad eorum proprietatem habeant mea pro anima
+          <lb/>meorumque parentum. Insuper predicti videlicet domnus Sifandus primicerius et diaconus
+          <lb/>ac domnus Matheus presbiter spiritualis pater meus potestatem habeant ordinandi nominatas 
+          <lb/>petiolas de terris cum arboribus olibarum dandi aliis presbiteris quibus voluerint ut
+          <lb/>per unamquamque epdomadam duas missas cantent mea pro anima, que petiole eant a
+          <lb/>presbiteris in presbiteros usque in sempiternum secundum pretitulatas condiciones. Et si
+          <lb/>ipsi voluerint dividere nominatas petiolas in duabus partibus inter se dividant in ordine
+          <lb/>predicto. Unde sponte guadiam dedi eisdem clericis haccipientibus cum predicto <add place="supralinear">eorum?</add>
+          <lb/>advocato et Meliciaccam generum meum <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filium</expan></choice> Nicolai eiusdem civitatis mediatorem posui. Eo
+          <lb/>tinore. Quatinus aliquando mei heredes non removeant que predicta sunt. Sed defendant
+          <lb/>easdem petiolas mea pro anima eis et quibuscumque presbiteris habuerint. Quod si ut predictum 
+          <lb/>est mei heredes minime observaverint viginti solidos pena eis dent et que predicta
+          <lb/>sunt in predicto ordine et ratione observent et adimpleant. Insuper ego <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Meliciacca
+          <lb/>mediator licentiam prefatis videlicet domno Sifando diacono et primicerio et domno Matheo
+          <lb/>presbitero vel quibuscumque presbiteris habuerint in supradicto ordine et ratione tribui pignerare 
+          <lb/>me vel meos heredes per omnes res nostras tam legitime proibitas quam concessas
+          <lb/>sine appellatione usque quo omnia predicta adimpleta fuerint. Et de hoc facta sunt duo
+          <lb/>brebia unum ad habendum pars nominati primicerii, sic tamen ut si predictus primicerius
+          <lb/>sine testamento obierit quicumque presbiter ipsum brebe salvum habuerit teneat in supradicto 
+          <lb/>ordine et ratione pretitulatas olibas, aliut ad habendum pars predicti Mathei presbiteri
+          <lb/>in supradicta ratione que scripsit Iohannes Muscati notarius affirmans idem quod fuit.
+          <lb/>† Ego Maior testis.
+          <lb/>† Pandilfus.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_008">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 8</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 178-180</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1155">1155</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="178"/>
+          <lb/>† Mediatoris dei et hominum christi iesu incarnationis anno millesimo centesimo quinquagesimo 
+          <lb/>quinto. Et quinto <supplied reason="illegible" resp="print_editor">anno</supplied> regni domini nostri Guillelmi invictissimi et excellentissimi 
+          <lb/>regis Sicilie et Italie filii et heredis domini magnifici regis Rogerii felicissime recordationis
+          <pb n="179"/>
+          <lb/>mense magio indictione tertia. Ego Zitusleo <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Kuristephani natus in civitate Iuvenacii
+          <lb/>in eadem coram presentia domni Bisantii Iohannoccarides et domni Porfiri Maiorides, ac
+          <lb/>domni Bisantii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> domini Petri curialium Iudicum et bonorum hominum. Declaro quoniam
+          <lb/>Bisantius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> item Bisantii fratris mei multas habuit mecum altercationes de rebus stabilibus
+          <lb/>inter nos divisis quas sibi pertinere dicebat videlicet terris et olivis ac fructibus earum.
+          <lb/>Unde rogatione et laudamento nostrorum parentum et amicorum finem huiusce convenientie
+          <lb/>inter nos fecimus hoc vero videlicet ab eodem Bisantio dimissis michi controversiis de quibusdam 
+          <lb/>rebus secundum quod meum brebe declarat sponte per eandem convenientiam per
+          <lb/>fustis traditionem causa restitutionis pro quibusdam rebus a me sibi iure restituendis dedi
+          <lb/>eidem Bisantio nepoti meo. Unam petiam meam de terra quoquivelina et crudia cum arboribus
+          <lb/>olivarum et termitum, et cum una curticella ipsi petie coniuncta cum arboribus in ea stantibus
+          <lb/>et cum una piscina rubta in eadem sita, que sunt in loco Corbuli per hos fines. Primo fine a
+          <lb/>medio pariete est casile meum, et in antea in eodem fine est speccla in qua debet construi paries, 
+          <lb/>qui paries communis debet esse. Secundo fine a mediis signis est terra mea cum arboribus. 
+          <lb/>Tertio fine a media antica. Quarto fine a medii signi est terra ipsius Bisantii nepotis 
+          <lb/>mei. Et in antea in eodem fine quomodo advolvit et revolvit a medio pariete et a
+          <lb/>mediis signis est terra cum olivis predicti Bisantii, in qua terra sunt septem arbores olivarum
+          <lb/>iuxta modo dictas signas de quibus altercationes cum eodem Bisantio habui et eas controversias 
+          <lb/>similiter amisi predicto Bisantio secundum quod inferius denotatur. Hac ratione ut
+          <lb/>prephate tradite res cum omnibus suis pertinentiis sicut per fines designate sunt amodo et
+          <lb/>in antea sint in potestate sua suorumque heredum habendi et faciendi quod voluerint sine
+          <lb/>contrarietate mea vel cuiuslibet hominis. Insuper per eandem convenientiam amisi omnes
+          <lb/>controversias de predictis septem arboribus olivarum inter nos habitas in eodem iam sitis
+          <lb/>ipsas namque arbores iure sibi pertinere cognovi. Necnon per eandem convenientiam amisi
+          <lb/>eidem Bisantio nepoti meo omnes altercationes et controversias quas adversus prephatum
+          <lb/>patrem suum et adversus Bisantium a retro tempore usque nunc de quibuslibet rebus vel
+          <lb/>culpis quomodocumque aud cum brebe aud sine brebe habere potui. Unde ego <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Zitusleo
+          <lb/>mea gratuita voluntate guadiam ipsi Bisantio nepoti meo dedi et me fideiussorem posui.
+          <lb/>Eo tinore quatinus aliquando nec ego nec mei heredes removeamus nec removeri queramus
+          <lb/>ipsam amisionem. Verum defendamus prephatas traditas res eidem Bisantio et suis heredibus 
+          <lb/>a parte uxoris mee eiusque heredum necnon et ab omnibus qui illos exinde quesierint
+          <lb/>aud molestare voluerint quolibet modo, sed si predicta omnia in prephata ratione sepedicto
+          <lb/>Bisantio et suis heredibus non observemus et in curia vel in causationes illos exinde miserimus 
+          <lb/>iustam eptagi que curie inde dare promiserint nos nostro de proprio demus et que
+          <lb/>predicta sunt omnia observemus et adimpleamus. Sic enim inter nos stetit et convenit.
+          <lb/>Quod si predicta omnia in nominata ratione non observaverimus viginti solidos pena eis
+          <lb/>demus observaturi omnia in prescripta ratione. Licentiamque eis tribui pignerare nos per
+          <pb n="180"/>
+          <lb/>omnes res nostras licitas et inlicitas sine appellatione donec observemus et adimpleamus
+          <lb/>omnia predicta. Et hoc brebe scripsit Eupstasius protonotarius presens enim fuit.
+          <lb/>† Bisantius Iohannoccarides testis sum.
+          <lb/>† Iuris defensor fert Porfirus hec fore censor.
+          <lb/>† Bisantius Iudex <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice>.
+          <lb/>† Dumnandus testis est.
+          <lb/>† Bisantius Maioris Iudicis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_009">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 9</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 180</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Palermo</pubPlace>
+            <date cert="high" when="1172">1172</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="180"/>
+          <lb/>† In nomine domini eterni et salvatoris nostri iesu christi amen. Wilelmus divina
+          <lb/>favente clementia rex Sicilie ducatus apulie et principatus capue. Regie liberalitatis munificentia 
+          <lb/>semper ecclesias christi suo consuevit benignitatis suffragio relevare et beneficiorum
+          <lb/>muneribus ampliare. Tu itaque Berte venerabilis iuvenacensis episcope fidelis noster, dum
+          <lb/>ecclesie tue inopiam nostro conspectui presentares et exponeres, maiestati nostre attentius
+          <lb/>supplicasti, ut concederemus tibi et ecclesie tue potestatem affidandi vigintiquinque homines
+          <lb/>ad opus ipsius ecclesie. Nos autem peticionibus tuis aures nostre celsitudinis inclinantes,
+          <lb/>tibi et ecclesie iuvenacensi potestatem indulsimus ad opus ipsius ecclesie vigintiquinque
+          <lb/>homines affidandi, iuxta usum et consuetudinem ecclesiarum et baronum illarum parcium
+          <lb/>qui potestatem habent affidandi. Ad huius autem nostre concessionis memoriam et inviolabile 
+          <lb/>firmamentum, presens scriptum per manus Tancredi nostri notarii scribi et bulla plumbea
+          <lb/>nostro tipario inpressa iussimus insigniri. Anno, mense et indictione subscriptis.
+          <lb/>Data in urbe felici Panormi, per manus Gualterii, dei gratia venerabilis panormitani
+          <lb/>archiepiscopi regii familiaris, et Mathei domini Regis vicecancellarii. Anno dominice incarnationis 
+          <lb/>Millesimo Centesimo Septuagesimo secundo mense iulio, indictione quinta. Regni
+          <lb/>vero <supplied reason="illegible" resp="print_editor">pre</supplied>dicti domini nostri Wilelmi, dei gratia gloriosissimi et magnificentissimi Regis
+          <lb/>Sicilie, ducatus Apulie et principatus Capue, anno septimo felici<supplied reason="illegible" resp="print_editor">te</supplied>r. Amen, amen, amen.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_010">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 10</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 181-182</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1179">1179</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="181"/>
+          <lb/>+ Inlustrantis mundum regis etherni filii incarnati. anno Millesimo Centesimo Septuagesimo 
+          <lb/>Nono. et regni domini nostri Wilelmi, regis eximii Sicilie et Italie filii et heredis 
+          <lb/>domini regis Wilelmi, felicissime recordationis Quartodecimo anno, et vicesimo sexto die 
+          <lb/>mensis aprilis indictionis duodecime. Nos Iohannes Marcus et Eustasius fratres <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Simeonis 
+          <lb/>vuliaffari civitatis Iuvenacie in eadem bonis coram hominibus convenimus cum Mele fratre 
+          <lb/>nostro <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> predicti patris nostri et divisimus inter nos rebus stabilibus quas comunes habuimus. 
+          <lb/>Voluntarie damus et per fustem tradimus ei in sortem duas corrigias et unam petiam 
+          <lb/>de terris cum arboribus olivarum in loco Pendo. et unam domum cum curte et unum casalinellum 
+          <lb/>intus in predicta civitate. Est autem una de predictis corrigiis olivarum per 
+          <lb/>hos fines. primo a medio pariete sunt olive Benedicti et Salvali fratrum filiorum Bisantii 
+          <lb/>de numino. secundo a medio pariete sunt olive que fuerunt Nicolai bonedomne, et 
+          <lb/>in antea a medio pariete sunt olive Rigandi notarii. terzio a media antica. quarto a medio 
+          <lb/>pariete sunt olive Bisantii tercli. Altera vero corrigia olivarum hos habet fines. primo a 
+          <lb/>media antica. secundo a medio pariete est plantatum quod fuit Palme Nicolai de achano. 
+          <lb/>et in antea a medio pariete est terra ecclesie sancti Petri pavonis. terzio a medio pariete 
+          <lb/>est terra comunis. quarto a media antica. Petia vero predicta olivarum his clauditur finibus. 
+          <lb/>primo a medio pariete et secundo a mediis signis sunt olive que fuerunt predicti Nicolai 
+          <lb/>bonedomne. terzio a medio pariete sunt olive predictorum filiorum Bisantii de numino. 
+          <lb/>quarto a medio pariete sunt olive Iohannis Petracce salati. Domus autem predicta et curtis 
+          <lb/>his determinantur finibus. primo a media stricta. et in antea a medio pariete est domus 
+          <lb/>Iohannis presbiteri <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Eustasii. et in antea a medio pariete est domus mea <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes 
+          <lb/>Marcus, secundo extra pariete est trasenda communis cum vicinorum casis, terzio a medio 
+          <lb/>pariete est domus Curet <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Tedeperti. et in antea a medio pariete et quarto a medio 
+          <lb/>pariete sunt domus domni Mundonis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Teutardi. Et predictum casalinellum congiratur his 
+          <lb/>finibus. primo est casile uxoris mee <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes Marcus. secundo et terzio est curtis comunis. 
+          <lb/>quarto a medio pariete est domus Angeli <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Iohannis de coscia. A presenti itaque 
+          <lb/>die in antea predicte res tradite finibus designate cum ingressibus et egressibus earum et
+          <pb n="182"/>
+          <lb/>omnibus infra habitis ac earum pertinentiis sint in potestate et dominio eiusdem Melis fratris 
+          <lb/>nostri illiusque heredum habendi possidendi ac de eis et in eis omne quod voluerint 
+          <lb/>faciendi sine cuiuslibet contrarietate ac requisitione. Guadiam quoque et nos fideiussores 
+          <lb/>eidem Meli fratri nostro damus ac ponimus, quo nos et nostri heredes defendamus ei et 
+          <lb/>eius heredibus ipsas res traditas ab omnibus hominibus illos exinde quolibet modo querentibus. 
+          <lb/>Sin demus eis penaliter solidos viginti prelecta observaturi. ob quod licentiam eis 
+          <lb/>tribuimus pignerare nos nostrosque heredes per omnes res nostras licitas et inlicitas sine 
+          <lb/>appellatione donec omnia predicta perficiantur. Et hoc scriptum scripsit Petrus Frucinus 
+          <lb/>notarius presens enim fuit.
+          <lb/>Ego Benedictus notarius.
+          <lb/><seg rend="italic">Benedictus notarius et Iohannes Maioris. <note>Lista dei testimoni aggiunta dal notaio in fondo al documento.</note></seg>
+        </p>
+      </body>
+    </text>
+  </TEI> 
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_011">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 11</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 182-183</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1184">1184</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="182"/>
+          <lb/>+ Inlustrantis mundum regis etherni filii incarnati anno millesimo centesimo octogesimo 
+          <lb/>quarto. Nonodecimo anno triumphatore domino nostro Rege Wilelmo regnante quartodecimo 
+          <lb/>die madii indictionis secunde. Nos Angelus de Gaido <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Stephani et Ursus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Marini 
+          <lb/>agnomine de Saracena uterini fratris et Iohannes da Rabello <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Pantaleonis et Beniamin 
+          <lb/><choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Angeli nepos eiusdem Iohannis civitatis Iuvenacii, in eadem presente Iohanne regali 
+          <lb/>ac curiali Iudice <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> domini Churiane (?) iam catepani et bonis hominibus voluntarie vendimus 
+          <lb/>et per fustem tradimus domno Paolino venerabili episcopo predicte civitatis accipienti cum 
+          <lb/>domno P <supplied reason="illegible" resp="print_editor">o</supplied>r <supplied reason="illegible" resp="print_editor">fi</supplied>ro regali ac curiali Iudice advocato suo vice matris ecclesie sancte Marie 
+          <lb/>semper virginis episcopii ipsius civitatis in qua sedes eiusdem venerabilis episcopi est unam 
+          <lb/>petiam nostram de terra cum vineis vitium desertis in qua est curticella cum palmento. 
+          <lb/>et duas piscinas nostras secus ipsam petiam venditam, et unam petiam nostram de terra 
+          <pb n="183"/>
+          <lb/>coquivelina cum altera piscina nostra que intus est in loco Ciliano. Et pro eadem venditione 
+          <lb/>et traditione confirmanda recepimus ab eodem domino episcopo dante nobis pro 
+          <lb/>eadem matre ecclesia totum inter nos statutum pretium idest unam unciam et mediam 
+          <lb/>auri tarenorum bonorum Sicilie. Est autem nominata petia de terra cum vineis vitium desertis 
+          <lb/>et cum predicta curticella et palmento in eodem loco Ciliano per hos fines. primo a 
+          <lb/>media antica. in septentrionali capite cuius antice sunt predicte due piscine cum platea 
+          <lb/>earum. secundo a medio pariete sunt coquiveline ipsius episcopii. terzio a medio limite 
+          <lb/>sunt vinee eiusdem episcopii. quarto a medio limite est terra ipsius episcopii. Nominate 
+          <lb/>vero piscine cum earum plateis sunt in capite semptentrionis predicte antice ut prelegitur.
+          <lb/>et sunt iuxta nominatam terram eiusdem ecclesie. et iuxta terram predicti indicis Porfiri
+          <lb/>et sire B <supplied reason="illegible" resp="print_editor">is</supplied>an <supplied reason="illegible" resp="print_editor">t</supplied>ii..... fratris eius. Et prefata petia terre coquivelina vendita in qua altera
+          <lb/>piscina ut prelegitur fundata est. in eodem loco Ciliano. hos h<supplied reason="illegible" resp="print_editor">abet fines</supplied>. primo a medio 
+          <lb/>pariete est terra coquivelina Leonis de aranea civitatis Botonti. secundo a media antica. 
+          <lb/>terzio a medio pariete sunt terre ipsius e<supplied reason="illegible" resp="print_editor">piscopii</supplied>. quarto a medio pariete est coquivelina 
+          <lb/>ipsius episcopii. A presenti itaque die in antea predicta petia terre cum vineis vitium desertis 
+          <lb/>cum predicta curticella et palmento et nominate due piscine cum platea earum. et 
+          <lb/>predicta petia terre coquivelina cum piscina ibi fundata. sicut per fines designate sunt 
+          <lb/>cum ingressibus et egressibus earum. et omnibus infra habitis ac earum pertinentiis, sint 
+          <lb/>in potestate et dominio eiusdem matris ecclesie ad habendum et faciendum ipse dominus 
+          <lb/>episcopus et eius successores de eis et in eis omne quod voluerint. sine cuiuslibet contrarietate 
+          <lb/>et requisitione. Guadiam quoque et nos fideiussores eidem domino Paulino venerabili episcopo 
+          <lb/>damus ac ponimus cum prefato Iudice Porfiro advocato suo recipienti. vice ipsius matris 
+          <lb/>ecclesie. quo nos et nostri heredes defendamus ipsi domino episcopo et eius successoribus 
+          <lb/>predictam venditionem et traditionem, ab omnibus hominibus illos exinde quolibet modo querentibus, 
+          <lb/>sin demus iustam eptagi curie ab eis promissam et penaliter solidos viginti prelecta 
+          <lb/>observaturi, et nos <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Angelus. Ursus. Iohannes. et Beniamin venditores. obligatores. 
+          <lb/>et fideiussores. licentiam eidem domino episcopo et eius successoribus tribuimus pignerare 
+          <lb/>nos nostrosque heredes per omnes res nostras licitas et inlicitas sine appellatione donec 
+          <lb/>omnia predicta perficiantur. Et hoc scriptum scripsit Petrus Frucinus notarius presens 
+          <lb/>enim fuit.
+          <lb/>+ Regalis ac curialis Iuvenacii Iudex <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes. 
+          <lb/>+ Teodosius notarius Sifandi notarii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>. 
+          <lb/>+ Petrus Iudicis Bisantii.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_012">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 12</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 184-185</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1192">1192</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="184"/>
+          <lb/>+ Inlustrantis mundum regis etherni filii incarnati, anno millesimo centesimo nonagesimo 
+          <lb/>secundo, regnante domino nostro Tancredo rege magnifico anno terzio penultimo die 
+          <lb/>martii indictione decima. Nos Iohannes iam catepanus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Ckurinicolai olim catepani et 
+          <lb/>Pulcraissema <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filia</expan></choice> Iaquinti de Madelmo et uxor eiusdem Iohannis civitatis Iuvenacii in eadem 
+          <lb/>presente Maiore regali ac curiali Iudice <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice>Bisantii de terclo et bonis hominibus consentientibus 
+          <lb/>michi <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">que supra</expan></choice> Pulcraissema in omnibus subscriptis eodem viro meo et Pavone ac 
+          <lb/>Leone filiis et mundoaldis meis et Madelmo fratre meo, aliisque parentibus meis proximioribus 
+          <lb/>et consentientibus inquisita etiam et absoluta ab eodem iudice legali me diligentia 
+          <lb/>inquirente suasam seu etiam coactam me minime fore respondens fatemur nos legitime 
+          <lb/>vendidisse Meli <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Simeonis vuliaffari eiusdem civitatis pro vigintiseptem unciis auri tarenorum 
+          <lb/>bonorum Sicilie unam petiam nostram de terra cum arboribus olivarum in loco 
+          <lb/>sancti Petri Pavonis iuxta continentiam scripti sui exinde facti, set quoniam eam emere 
+          <lb/>nolebat nisi subscriptam obligationem ei faceremus. Idcirco, voluntarie per convenientiam 
+          <lb/>guadiam et nos ac predictos Pavonem et Leonem filios nostros fedeiussores eidem Meli 
+          <lb/>damus ac ponimus quo numquam nos vel nostri heredes queramus minuere vel alleviare 
+          <lb/>nos de puplico tributo pro predicta venditione quam ei fecimus set semper absque aliqua 
+          <lb/>questione tributum quod pro eadem petia vendita nobis stabilitum fuit parti regie pro 
+          <lb/>eodem Mele vel eius heredibus tribuamus. Sin demus iustam eptagi curie ab eis promissam 
+          <lb/>prelecta observaturi. et nos obligatores et fideiussores ac nos <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Pavo et Leo fratres  
+          <lb/>fideiussores licentiam eis tribuimus pignerare nos nostrosque heredes per omnes res nostras 
+          <lb/>licitas et inlicitas sine appellatione in quocumque nostrum <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> pater et filii sive in 
+          <lb/>solidum sive pro parte se de predictis tenere voluerint alio ex nobis electo ad alium vel 
+          <lb/>ad alios regressum obtineant si voluerint sic et de nostris heredibus donec omnia predicta 
+          <lb/>perficiantur. Est autem predicta petia terre cum arboribus olivarum vendita per hos fines.
+          <pb n="185"/>
+          <lb/>primo a medio pariete quomodo advolvit et revolvit sunt terre vacive et cum ensetis et 
+          <lb/>termitibus ecclesie sancti Petri Pavonis. secundo et terzio a mediis anticis. quarto a medio 
+          <lb/>pariete est terra cum olivis ipsius ecclesie. Et hoc scriptum scripsit Petrus Frucinus 
+          <lb/>notarius presens enim fuit.
+          <lb/>+ Predicta Maior regius curialis Iudex testatur. 
+          <lb/>+ Iseus testis sum.
+          <lb/>Henricus Mundonis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_013">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 13</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 189-190</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1199">1199</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="189"/>
+          <lb/>+ Inlustrantis mundum regis etherni filii incarnati anno Millesimo Centesimo Nonagesimo 
+          <lb/>Nono, regnante domino nostre Frederico rege magnifico anno secundo ultima die 
+          <lb/>agusti indictionis secunde. Ego Bella <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filia</expan></choice> Disigii et relicta Iohannis civitatis Iuvenacii in 
+          <lb/>eadem presente Leone de Gilia imperiali ac curiali Iudice et bonis hominibus consentientibus 
+          <lb/>michi in omnibus subscriptis Mauroaldo <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> et mundoaldo meo aliisque parentibus 
+          <lb/>meis proximioribus inquisita etiam et absoluta ab eodem Iudice legali me diligentia inquirente 
+          <lb/>suasam seu etiam coactam me minime fore respondens fateor in millesimo centesimo 
+          <lb/>nonagesimo quinto anno dominice incarnationis mense ianuario terziedecime preterite indictionis 
+          <lb/>tradidisse domno Pasce presbitero <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Ursonis Maniakii eiusdem civitatis, terziam 
+          <lb/>partem meam pertinentem michi iure patronatus in ecclesia sancti Andree de Viscillito et 
+          <lb/>in rebus eiusdem ecclesie ad tenendum et refrudiandum eandem terziam ipsarum rerum 
+          <lb/>usque ad duodecim annos expletos. Verum quia ipse presbiter scriptum eiusdem traditionis 
+          <lb/>ammisit et illud minime habere potest. Proinde voluntarie do et per fustem retrado eidem 
+          <lb/>domno Pasce presbitero ipsam terziam meam ipsius ecclesie sancti Andree apostoli et rerum 
+          <lb/>suarum. quatinus usque ad predictos duodecim annos expletos ipse presbiter eandem 
+          <lb/>terziam ipsarum rerum teneat et refrudiet. et de refrudio quod voluerit faciat serviens 
+          <lb/>ipsi ecclesie de divino officio iuxta quod deus eum inspiraverit. Guadiam quoque me mediatrice 
+          <lb/>ei do cum advocato in his omnibus accipienti, quo ego et mei heredes defendamus
+          <pb n="190"/>
+          <lb/>sibi eandem retraditionem ab omni humana persona, sin demus ei penaliter solidos viginti 
+          <lb/>prelecta observaturi. ob quod licentiam ei tribui pignerare me meosque heredes per omnes 
+          <lb/>res nostras licitas et inlicitas sine appellatione donec omnia predicta perficiantur. Et hoc 
+          <lb/>scriptum scripsit Petrus Frucinus notarius presens enim f<supplied reason="illegible" resp="print_editor">uit</supplied>.
+          <lb/>Iudex his aptis. Gilie Leo consonat actis.
+          <lb/>Lupo Iudicis Bisantii.
+          <lb/>Leo Smaraldi ecatepani <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_014">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 14</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 190-191</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1234">1234</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="190"/>
+          <lb/>+ Anno salutifere incarnationis domini nostri iesu christi millesimo ducentesimo tricesimo 
+          <lb/>quarto. Imperante domino nostro Frederico Romanorum Imperatore semper augusto anno 
+          <lb/>quartodecimo. et regni Ierusalem anno nono. regnique Sicilie anno tricesimo septimo. quarto
+          <lb/>die mensis madii indictionis septime. Nos Iohannes <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire..... usii. et Gaita <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filia</expan></choice> <gap reason="omitted_in_original" rend="italic"/>
+          <lb/>vir et uxor civitatis Iuvenacii in eadem presente Salica terclo <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> sire Bisantii imperiali ac 
+          <lb/>curiali Iudice et bonis hominibus. consentientibus michi <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">que supra</expan></choice> mulier in omnibus subscriptis 
+          <lb/>eodem viro meo et sire Lupone catepano <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Leonis de petra mundoaldo meo pro parte imperatoris 
+          <lb/>aliisque parentibus meis proximioribus inquisita etiam et absoluta ab eodem 
+          <lb/>Iudice legali me diligentia inquirente suasam seu etiam coactam me minime respondens. 
+          <lb/>Voluntarie damus et per fustem tradimus pro animabus nostris domno Meli diacono <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> 
+          <lb/>Iohannis Luponis recipienti vice communitatis nostri episcopii duas petias de terra quas 
+          <lb/>habemus in loco sancti Martini silve una vero de ipsis terris vocatur de planca et altera 
+          <lb/>vocatur lama. ita tamen ut post mortem nostram sit predicte ipsius communitatis. Ego 
+          <lb/><choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes trado ipsi domno Meli tres partes predictarum terrarum et ego nominata 
+          <lb/>Gaita trado quartam partem ipsius terre pertinente michi iure mei morgincapitis ab 
+          <lb/>eodem viro meo michi traditi. tali condicione ut domnus Palmerius episcopus predicte civitatis 
+          <pb n="191"/>
+          <lb/>teneat ipsas terras donec vixerit. cultet. et refrudiet. vel aliis id ad faciendum tribuat 
+          <lb/>et de refrudio omne quod voluerit faciat. post mortem vero ipsius episcopi predicte
+          <lb/>terre deveniant in potestate iamdicte communitatis. quatinus a presenti die in antea predictas 
+          <lb/>terras cum ingressu et egressu suo et omnibus infra habitis ac earum pertinentiis 
+          <lb/>transactive sit in potestate et dominio ipsius communitatis ad faciendum de eis et in eis 
+          <lb/>omne quod voluerint faciendi sine cuiuslibet contrarietate et requisitione. Vadiam quoque 
+          <lb/>nobis fideiussoribus positis eidem domno Meli damus accipienti cum advocato vice ipsius 
+          <lb/>communitatis quo nos et nostri heredes defendamus ipsi communitati predictas terras ab 
+          <lb/>omnibus hominibus. Sin demus tricesimam curie predicta observaturi ob quod licentiam 
+          <lb/>eis tribuimus pignerare nos nostrosque heredes per omnes res nostras licitas et illicitas 
+          <lb/>sine appellatione donec omnia predicta perficiantur. terra vero de planca hos habet fines 
+          <lb/>primo a medio limite sunt terre nostre. secundo pergit via puplica. terzio a medio limite 
+          <lb/>est terra ecclesie predicte sancti Felicis. quarto est terra ecclesie sancti Martini. alia vero 
+          <lb/>petia terre que vocatur lama est per hos fines primo a medio pariete diruto est terra 
+          <lb/>iamdicte ecclesie sancti Martini. secundo est via qua itur Ferulacio. terzio a medio limite 
+          <lb/>est terra <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/>
+          cenobii, quarto a medio limite est terra predicte ecclesie sancti Martini. 
+          <lb/>Et hoc brebe scripsit Leo notarius Petri Iudicis Leonis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> presens enim fuit.
+          <lb/>Salica terclus Imperialis Iudex.
+          <lb/>Porfirus Bisantii tercli.
+          <lb/>Maio Iudicis Leonis.
+          <lb/><seg rend="italic">coram sire Porfiro sire Pandilfo et Maione fratre suo. <note>Lista dei testimoni aggiunta dal notaio in fondo al documento.</note></seg>
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_015">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 15</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 191-194</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1247">1247</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="191"/>
+          <lb/>+ Anno salutifere incarnationis domini nostri iesu christi millesimo ducentesimo quadragesimo 
+          <lb/>septimo. Imperante domino nostro Frederico invictissimo romanorum Imperatore 
+          <lb/>semper augusto anno vicesimo septimo et regni Ierusalem rege anno vicesimo secundo regnique 
+          <pb n="192"/>
+          <lb/>Sicilie anno quinquagesimo nonodecimo die mensis ianuarii indictionis quinte. Nos 
+          <lb/>Simeon <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Robberti imperialis Iuvenacii Iudex, Leo <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Petri puplicus eiusdem terre 
+          <lb/>notarius et testes subscripti presentis scripti serie declaramus notarium Iohannem <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filium</expan></choice> Iudicis 
+          <lb/>Luponis de eadem terra ostendisse nobis intuendos et legendos quasdam licteras trasmissas 
+          <lb/>sibi a nobili viro domino Iudice Gilberto de Essculo magistro camerario terre Bari 
+          <lb/>in quibus sacre imperialis licte<supplied reason="illegible" resp="print_editor">re continebantur</supplied> quarum licterarum eiusdem Iudicis Gilberti 
+          <lb/>continentia talis erat. Prudenti viro notario Iohanni de Iuvenacio amico suo Iudex 
+          <lb/>Gilbertus de Essculo magister camerarius terre Bari salutem et amorem sincerum. A domino 
+          <lb/>nostro serenissimo Imperatore nuper recepimus licteras in hac forma. Fredericus dei gratia 
+          <lb/>et cetera. Iudici Gilberto de Esculo magistro camerario terre Bari et cetera, fidelitati tue 
+          <lb/>precipiendo mandamus quatinus omnes decimas consuetas exsolvi de baiulationibus veterum 
+          <lb/>demaniorum nostrorum, prelatis et clericis quibus debentur exsolvas, nec queras alias 
+          <lb/>probationes ab eis nisi quod tempore obitus dive auguste Imperatricis Constantie recordationis 
+          <lb/>inclite matris nostre et abinde usque nunc in pacifica possessione fuerint perceptionis 
+          <lb/>ipsarum, aut si forte ipsarum aliquis per officialium malitiam eas sibi subtractas asserat 
+          <lb/>aut queratur, probare sufficiat ad hoc ut restitui valeat spoliatus. quod precedente  
+          <lb/>tempore supradicti fuerint in possessione pacifica perceptionis earum. de alio iure suo prelatus 
+          <lb/>aut clericus probare cogatur invitus. liceat tamen tibi vel officialibus aliis non destituendo 
+          <lb/>eos de iure prelatorum et clericorum querere si credatis eis decimas non deberi 
+          <lb/>et prelati aut clerici de iure suo non destitui tamen ostendatis quos autem ex eis privilegia 
+          <lb/>nostra seu progenitorum nostrorum non habere reppereris ostensionem ipsorum. pro qualitate 
+          <lb/>locorum eis certo et brebi termino prefinito sententialiter censeas decimarum ipsarum 
+          <lb/>perceptione privandos idem etiam de decimis baronum et iudicum ad porzionem ipsorum 
+          <lb/>vel conquestionem etiam prelatorum te precipimus servaturum pena dubbli scilicet quod 
+          <lb/>simplum de suo curie nostre solvant imposita tam officialibus quam baronibus si decimas 
+          <lb/>ipsas malitiose subtraant non tamen prelatis eos excommunicari permittitur sed quod superiores 
+          <lb/>adeant. per quos non solventes debeatur ad solutionem arceri. qui superiores si 
+          <lb/>super hoc iustitiam negaverint aut detractaverint puniantur tamquam in officio delinquentes 
+          <lb/>in causis aliorum fidelium privatorum. data Ticine quarto decembris quinte indictionis. 
+          <lb/>Cupientes igitur prescriptum imperiale generale mandatum essequi reverenter quia ad hoc 
+          <lb/>personaliter interesse non possumus aliis imperialibus servitiis occupati prudentie vestre 
+          <lb/>in hac parte committimus vices nostras vobis ex imperiali parte qua fungimur auctoritate 
+          <lb/>mandantes quatinus forma prescripti generalis imperialis mandati diligenter intenta inquiratis. 
+          <lb/>iuxta ipsius mandati tenorem si episcopus et clerici maioris iuvenaciensis eclesie 
+          <lb/>tempore obitus dicte auguste domine Imperatricis Constantie matris domini nostri Imperatoris 
+          <lb/>et abinde usque nunc fuerunt in pacifica possessione perceptionis decime veterum probentuum 
+          <lb/>servitii curie in Iuvenacio et de ipsa inquisitione facias fieri duo consimilia instrumenta 
+          <pb n="193"/>
+          <lb/>quorum uno penes ecclesiam dictam dimisso, relicum ad nos ad cautelam curie 
+          <lb/>quam citius transmissurus. Data Trani nonodecimo decembris quinte indictionis. Ostendit 
+          <lb/>etiam nobis dictus notarius Iohannes infrascriptam inquisitionem ab eo factam seu idem 
+          <lb/>mandatum predictum de capitulis supradictis cuius continentia talis erat. Maraldus Porfidi 
+          <lb/>iuratus et interrogatus de predictis dixit se scire quod episcopi et clerici maioris iuvenaciensis 
+          <lb/>ecclesie qui pro tempore fuerunt a tempore obitus dive auguste domine Imperatricis 
+          <lb/>Constantie matris domini nostri Imperatoris et abinde usque ad hec felicia tempora 
+          <lb/>predicti domini nostri serenissimi Imperatoris fuerunt in pacifica perceptione decime veterum 
+          <lb/>prebentium servicii curie in Iuvenacio de quibus decimis episcopi ipsius ecclesie qui 
+          <lb/>pro tempore fuerunt habebant tres partes et clerici ipsius ecclesie habebant reliquam quartam 
+          <lb/>partem. Interrogatus quomodo sciret dixit se interfuisse et vidisse quando magistri 
+          <lb/>procuratores et camerarii curie qui pro tempore fuerunt tempore obitus dive auguste predicte 
+          <lb/>Imperatricis constantis Constantie et ab eo tempore usque nunc solverunt fere 
+          <lb/>singulis annis episcopis et clericis <supplied reason="illegible" resp="print_editor">qui</supplied> pro tempore fuerunt in ipsa ecclesia in predicto 
+          <lb/>modo decimam predictorum proventuum servitii curie in Iuvenacio. Henricus Mundonis, Grisoiohannes 
+          <lb/><choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Sansonis, Paximadius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Iudicis Mathie, Iudex Bisantius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> domini 
+          <lb/>Petri, Petracca domini Grifi, Iudex <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Rigalis Iohannis, Simeon Andree, Gaudius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Madelmi, 
+          <lb/>Leo Scipionis, Iudex Goffridus, Nicolaus de Modestino et Ionathas <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Nicolai iurati 
+          <lb/>et interrogati de predictis omnibus diligenter dixerunt idem per omnia quod primus. Matheus 
+          <lb/>sire Petracce iuratus et interrogatus de predictis omnibus diligenter dixit se vidisse 
+          <lb/>et interfuisse quando collectores <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> servitii Iuvenacii de mandato officialium curie solverunt 
+          <lb/>et dederunt episcopis et clericis qui pro tempore fuerunt in prescripta maiori iuvenaciensi 
+          <lb/>ecclesia decimas proventuum servicii curie in Iuvenacio dividendas inter eos modo 
+          <lb/>predicto. Interrogatus de causa scientie dixit quod cum ipse testis esset collector eiusdem 
+          <lb/>servitii in Iuvenacio per plures annos sub tempore predicti domini nostri serenissimi Imperatoris 
+          <lb/>solvit episcopis qui pro tempore fuerunt in dicta ecclesia et clericis nominatis 
+          <lb/>pro parte ipsius ecclesie de mandato officialium curie qui ipsum ad idem servicium statuerant 
+          <lb/>colligendum decimas proventuum servicii predicti. Videlicet tres partes ipsius decime 
+          <lb/>episcopo qui pro tempore erat in ipsa ecclesia, et reliquam quartam partem clericis ipsius 
+          <lb/>ecclesie ut est dictum. Maio Iaquinti, Petrus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Iudicis Pandolfi, Commitus Leo, Iohannes 
+          <lb/>Petri, iurati et interrogati de predictis dixerunt idem per omnia quod Matheus sire Petracce 
+          <lb/>predictus. pro quibus memorie mandandis et cautelam  tam imperialis curie quam 
+          <lb/>ecclesiae nominate duo consimilia scripta exinde fieri fecimus subscriptionibus nostris 
+          <lb/>et subscriptorum testium roborata, hoc unum ad habendum a parte maioris ecclesie Iuvenacii 
+          <pb n="194"/>
+          <lb/>per manus Leonis notarii supradicti. Quod e scripsi ego predictus Leo notarius 
+          <lb/>et in eo solito signo signavi.
+          <lb/>+ Imperialis Iuvenaciensis Simeon Iudex.
+          <lb/>Bartholomeus Boamundi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Rogerius Tomasii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>. 
+          <lb/>Leo Petri <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Leo Sasso Grimoaldi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Nicolaus Iohannacii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Bisantius sire Meliciacce <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_016">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 16</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 194-195</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1247">1247</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="194"/>
+          <lb/>+ Virginis ex quo satus veniens luxit orbe <gap reason="illegible" quantity="7" unit="dots_separated_by_spaces"/> anno Millesimo ducentesimo quadragesimo 
+          <lb/>septimo. Imperante domino nostro Frederico invictissimo romanorum imperatore 
+          <lb/>semper augusto anno vicesimo septimo et regni Ierusalem anno vicesimo secundo. regnique 
+          <lb/>Sicilie anno quinquagesimo. duodecimo die mensis iunii indictionis quinte. Nos Maio <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Iudicis 
+          <lb/>Leonis imperialis Iuvenatii Iudex. Philippus puplicus eiusdem terre notarius et testes 
+          <lb/>subscripti. fatemur quod Leo diaconus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Petruzii prior maioris ecclesie Iuvenacie habens 
+          <lb/>secum advocatum. veniens ad nos. supplicavit nobis pro parte dicte maioris ecclesie. ut 
+          <lb/>de quodam instrumento coram nobis ostenso instrumentum consimile sibi pro parte nominate 
+          <lb/>ecclesie fieri faceremus asserens valde eidem ecclesie necessarium fore ipsum rescribere 
+          <lb/>ne cum expedierit ex eo copiam habere non possit. cuius instrumenti continentia 
+          <lb/>talis erat. Incarnati Regis divinitus anno Millesimo ducentesimo trigesimo quinto imperante 
+          <lb/>domino nostro Frederico invictissimo romanorum Imperatore semper augusto anno quintodecimo. 
+          <lb/>et rege Sicilie regni anno trigesimo octavo. et Ierusalem anno decimo. quintodecimo 
+          <lb/>mensis iulii indictionis octave. Ego Iohannes <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Carusii civitatis Iuvenatii in eadem 
+          <lb/>presente Symeone <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> sire Robberti. imperiali et curiali Iudice et bonis hominibus. quia
+          <pb n="195"/>
+          <lb/>iturus sum ad visitandum sepulchrum domini. pro remedio anime mee. ne intestatus decederem. 
+          <lb/>et res mee scinderentur ultra meum velle. testamentum michi condere satis utile 
+          <lb/>duxi. Ideoque inter cetera que in ipso testamento meo disposui et ordinavi. ordino iudico 
+          <lb/>ac dispono ut mortua Ckuramaria matre mea. dompnus Santorus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Iudicis Nicolai. et presbiter 
+          <lb/>Iohannes <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Simeonis consanguinei mei. teneant donec vixerint medietatem unius petie 
+          <lb/>terre mee. que dicitur petrosa. de loco sancti Martini de silva. Nam altera medietas 
+          <lb/>ipsius terre comunitati nostri episcopii ordinavi. ut me officient annuatim cleri comunitatis 
+          <lb/>eiusdem ex quibus prefatis clericis, si unus decesserit, alter qui remanserit, dictam medietatem 
+          <lb/>terre teneat. orando pro anima mea et meorum parentum. ipsis autem deficientibus 
+          <lb/>dicta medietas terre deveniat prefate comunitati. relinquo etiam prefato Santoro diacono 
+          <lb/>ius patronatus quod habeo in ecclesia sancti Clementis. que sita est iuxta portum Iuvenatii. 
+          <lb/>ut post meam dictum ius ecclesie in sua transeat potestate. Quam meam ordinationem 
+          <lb/>iudicationem et dispositionem nullus meus heres eam movere vel irruere presumat. 
+          <lb/>verum defendant eam ab omnibus hominibus. contra que si fecerint obligo eos composituros 
+          <lb/>solidos viginti. predictis omnibus in statu suo durantibus. Ob quod licentiam eis tribui. 
+          <lb/>pignerare  <supplied reason="illegible" resp="print_editor">ipsos</supplied> heredes meos per omnes res eorum licitas et illicitas sine appellatione. donec 
+          <lb/>omnia predicta perficiantur. que tota nominata terra petrosa est iuxta terram a medio 
+          <lb/>limite cum terra ecclesie sancti Eustasii. et a medio limite cum terris episcopii huius 
+          <lb/>civitatis. et a medio limite cum terris Silvestri scannamamma de Botonto et a medio limite 
+          <lb/>cum terris Nicolai Iohannis de betrana civitatis Botonti. Et hoc scriptum scripsit Thomas 
+          <lb/>puplicus Iuvenatii et curialis notarius Boamundi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> hiis enim affuit. Et erat ibi signum 
+          <lb/>ipsius notarii et testes ita erant subscripti. Imperialis Iuvenaciensis Simeon Iudex. Bisantius 
+          <lb/>Iohannis Nauclerii. Petracca Leonis Ade. Nos vero <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iudex Maio Philippus notarius 
+          <lb/>et testes subscripti. petitionem predicti Leonis diaconi tamquam iustam admittentes. videntes 
+          <lb/>ipsum instrumentum non cancellatum non abolitum nec in aliqua sui parte viciatum. 
+          <lb/>set omni carens vicio et suspitione. ipsum in presenti carta seriatim de verbo ad verbum 
+          <lb/>per singula scribi fecimus. et cum maxima diligentia puplicari. cum quo quotiens eidem
+          <lb/>ecclesie necesse fuerit <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> cum autentico agere possit. per manus meas <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Philippus
+          <lb/>puplicus iuvenaciensis notarius. quod ego predictus Philippus notarius scripsi  <supplied reason="illegible" resp="print_editor">et</supplied> meo signo 
+          <lb/>signavi.
+          <lb/>Maio Imperialis Iuvenaciensis Iudex.
+          <lb/>Iohannes paulus sire <gap reason="illegible" quantity="7" unit="dots_separated_by_spaces"/>
+          <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Matheus Iohannis Petri notarii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_017">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 17</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 196</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1249">1249</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="196"/>
+          <lb/>+ Ex quo dei gratiis descendit ab hethere natus. Anno Millesimo ducentesimo quadragesimo 
+          <lb/>nono imperante domino nostro Frederico invictissimo romanorum Imperatore semper 
+          <lb/>augusto anno vicesimo nono et regni Ierusalem rege anno vicesimo quarto, regnique Sicilie 
+          <lb/>anno quinquagesimo secundo, nono die mensis iunii septime indictionis. Ego Boranella <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filia</expan></choice> 
+          <lb/>Petruttii et relicta Alfani civitatis Iuvenatii in eadem presente Simeon <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> sire Robberti imperiali 
+          <lb/>ac curiali Iudice eiusdem terre et bonis hominibus, consentiente michi in omnibus 
+          <lb/>subscriptis sire Leone <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> et mundoaldo meo aliisque parentibus meis proximioribus inquisita 
+          <lb/>etiam et absoluta ab eodem Iudice legali me diligentia inquirente suasam seu etiam coactam 
+          <lb/>me minime fore respondens. Voluntarie do et per fustem trado in feodum domno Alefanto 
+          <lb/>presbitero <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> Petri de Alefanto ipsius civitatis recipienti cum advocato unam petiam 
+          <lb/>de terra lamosam que est eclesie sanctorum martirum Iohannis et Pauli intus 
+          <lb/>in Iuvenatio sunt, in qua petia pertinet michi ius dandi eam presbiteris in dicta eclesia 
+          <lb/>servientibus, quatenus donec vixerit ipsam petiam de terra teneat cultet et refrudiet vel 
+          <lb/>aliis id ad refrudiandum tribuat et de eius refrudio omne quod voluerint faciat sic 
+          <lb/>tamen ut exinde oret pro anima mea et parentum meorum in ecclesia predicta. Vadiam 
+          <lb/>quoque posito fideiussore predicto Leone <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> meo eidem Alefanto presbitero do. quo ego vel 
+          <lb/>mei heredes defendamus ei predictam traditionem in predicto modo ab omnibus hominibus. 
+          <lb/>Sin demus trigesimam curie predicta omnia adimpleturi. Ob quod ego <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">que supra</expan></choice> mulier. ac ego 
+          <lb/><choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> fideiussor licentiam ei tribuimus pignerare nos et nostros heredes per omnes res nostras
+          <lb/>licitas et illicitas sine appellatione donec omnia predicta perficiantur. Dicta....... petia de
+          <lb/>terra est non multum longe ab ecclesia sancti Iacobi constructa in suburvio civitatis predicte, 
+          <lb/>iuxta meam proprietatem, et terram domne Gayte <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filie</expan></choice> Iudicis Maioris et uxoris sire 
+          <lb/>Guillelmi de Rubo. et iuxta terram quam tenet in feodum domnus Iohannes sacerdos <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Simeonis 
+          <lb/>et prope terram Petracce <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Maionis. Et hoc scriptum scripsit Iohannes notarius 
+          <lb/>Luponis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> qui in hiis interfuit. 
+          <lb/>+ Imperialis Iuvenaciensis Simeon Iudex. Philippus <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> Iudicis Iohannis.
+          <lb/>Maraldus Bartholomei <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/><seg rend="italic">coram Maraldo Bartholomei et Philippo Iudice testibus. <note>Lista dei testimoni aggiunta dal notaio in fondo al documento.</note></seg> 
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_018">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 18</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 197</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1254">1254</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="197"/>
+          <lb/>+ Ex incarnatione dei et salvatoris nostri iesu christi, anno Millesimo ducentesimo 
+          <lb/>quinquagesimo quarto. Regnante domino nostro Conrado dei gratia romanorum in regem 
+          <lb/>electo. Ierusalem et Sicilie illustrissimo rege anno quarto. vicesimo die mensis madii inditionis 
+          <lb/>duodecime. Nos Rogerius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Thomasii. Regius Iuvenatii Iudex. Matheus puplicus 
+          <lb/>eiusdem terre notarius et testes subscripti de eadem terra litterati. ad hoc specialiter vocati 
+          <lb/>et rogati. presentis scripti serie declaramus quod convocatis intus in maiori ecclesia 
+          <lb/>Iuvenaciensi a venerabili viro domino Leonardo humili iuvenaciensi episcopo. Idem dominus 
+          <lb/>episcopus presentavit coram nobis et puplice exhibuit ad legendum quoddam scriptum petens 
+          <lb/>quia sua interesse dicebat. ipsum puplicatum habere et in formam puplicam per nos 
+          <lb/>redigi. maxime quia filum sigilli appositi in eodem scripto propter nimiam vetustatem consumabatur. 
+          <lb/>Cuius petitione admissa utpote iusta. videntes ipsum scriptum non cancellatum 
+          <lb/>non abolitum nec in aliqua sui parte viciatum et tam in contestu continentie principalis 
+          <lb/>quam forma sigilli predicti. pendentis in eodem scripto. ac subscriptione venerabilis viri 
+          <lb/>domini Angeli dudum barine et canusine sedis archiepiscopi nulla litura seu vicio laborare 
+          <lb/>ipsum de verbo ad verbum in presenti carta transcribi atque puplicari fecimus. ut eodem  
+          <lb/>transcripto seu puplicato cum expedierit. uti valeat velut ipso autentico. Cuius autentici 
+          <lb/>scripti forma per omnia talis est. Angelus dei gratia, --- <note type="editorial" resp="print_editor"><hi rend="italic">V. </hi> <note type="editorial" resp="EDAr">= Codice Diplomatico Barese, vol. II, appendice I, pag. 172</note> <hi rend="italic"> n. 3 sino a</hi> Donato subdiacono nostro, <hi rend="italic"> indi segue</hi></note>
+          <lb/>et subscriptio dicti domini archiepiscopi erat ibi in hec verba Angelus 
+          <lb/>dei gratia barensis et canusinus archiepiscopus. et sigillum eiusdem domni archiepiscopi 
+          <lb/>pendens in plumbo erat in eodem scripto. quod fide vidimus oculata. Quod scriptum 
+          <lb/>puplicationis scripsi ego predictus Matheus puplicus Iuvenatii notarius. signo meo solito. 
+          <lb/>subscriptionibus mei predicti Iudicis et subscriptorum testium roboratum. 
+          <lb/>+ Regalis Iuvenatii Rogerius Iudex.
+          <lb/>Nicolaus. Iohannacii. <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Maior domni Adi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Grimoaldus Leonis Saxi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>. 
+          <lb/>+ Iudex Tomasius de Iuvenatio.
+          <lb/>Ego Iohannes paulus puplicus Iuvenatii notarius testor.
+        </p>
+        </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_019">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 19</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 198-200</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1254">1254</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="198"/>
+          <lb/>+ Splenduit in mundo quo christus flamine mundo anno Millesimo 
+          <lb/>ducentesimo quinquagesimo quarto. regnante domino nostro 
+          <lb/>Corrado dei gratia romanorum in regem electo semper augusto, Ierusalem 
+          <lb/>et Sicilie illustrissimo rege anno quarto septimo die 
+          <lb/>mensis iunii duodecime indictionis. Nos Rogerius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Tomasii, 
+          <lb/>regius Iudex Iuvenatii, Iohannes paulus puplicus eiusdem terre 
+          <lb/>notarius, et testes subscripti de eadem terra ad hoc specialiter 
+          <lb/>vocati et rogati. Presentis scripti serie declaramus, quia convocatis 
+          <lb/>nobis a venerabili viro domino fratre Leonardo humili iuvenaciensi 
+          <lb/>episcopo intus in maiori iuvenaciensi ecclesia, idem dominus 
+          <lb/>episcopus ostendit nobis et exhibuit ad legendum quoddam 
+          <lb/>scriptum, petens a nobis quia sua interesse dicebat, ut ipsum 
+          <lb/>in presenti carta, transcribi adque puplicari faceremus. Cuius petitione 
+          <lb/>admissa utpote iusta, videntes ipsum scriptum non cancellatum, 
+          <lb/>non abollitum nec in aliqua sui parte vitiatum, set 
+          <lb/>tam in contestu continentie principalis, quam in sigillo apposito 
+          <lb/>in eodem ac subscriptione testium nulla litura seu vicio laborare 
+          <lb/>ipsum in presenti carta de verbo ad verbum transcribi adque 
+          <lb/>puplicari fecimus. Cuius scripti continentia talis est. Raynaldus 
+          <lb/>dei gratia barensis et canusinus archiepiscopus, venerabili fratri 
+          <lb/>Berto iuvenaciensi episcopo, eiusque successoribus canonice substituendis 
+          <lb/>in perpetuum.  <note type="editorial" resp="print_editor">La bolla di Andrea Arcivescovo di Bari, transunta nella carta a questa 
+            seguente, presenta le identiche formole di questa: ad evitare una inutile ripetizione, 
+            noteremo in note marginali le variande. 
+            Note marginali: n. I, pag. 199, r. 29: <hi rend="italic">itaque</hi> invece di <hi rend="italic">utique</hi>; 
+            n. II, pag. 199, r. 33: <hi rend="italic">predecessorum nostrorum Mathei et Raynaldi barensium archiepiscoporum 
+            quod oculata fide inspeximus</hi> invece di <hi rend="italic">predecessoris nostri Mathei barensis archiepiscopi</hi>; 
+            n. III, pag. 199, r. 34: <hi rend="italic">dignosceris</hi> invece di <hi rend="italic">dinosceris</hi>;
+            n. IV, pag. 199, r. 42: <hi rend="italic">Terlicium</hi> invece di <hi rend="italic">Terdicium</hi>;
+            n. V, pag. 199, r. 43: <hi rend="italic">caballaro</hi> invece di <hi rend="italic">cavallaro</hi>;
+            n. VI, pag. 199, r. 44: <hi rend="italic">Speluncam</hi> invece di <hi rend="italic">Spleluncam</hi>;
+            n. VII, pag. 199, r. 46: <hi rend="italic">Ciriaclum</hi> invece di <hi rend="italic">Kyriacum</hi>;
+            n. VIII, pag. 199, r. 46: <hi rend="italic">Saidam</hi> invece di <hi rend="italic">Saydam</hi>;
+            n. IX, pag. 199, r. 46: <hi rend="italic">Saillactam</hi> invece di <hi rend="italic">Seillaicte</hi>;
+            n. X, pag. 199, r. 47: <hi rend="italic">Solanum</hi> invece di <hi rend="italic">Saulanum</hi>;
+            n. XI, pag. 199, r. 47: <hi rend="italic">Aurecte</hi> invece di <hi rend="italic">Arvaicte</hi>;
+            n. XII, pag. 199, r. 49: <hi rend="italic">Quaternum</hi> invece di <hi rend="italic">Paternum</hi>;
+            n. XIII, pag. 199, r. 49: <hi rend="italic">Padulam</hi> invece di <hi rend="italic">Padule</hi>;
+            n. XIV, pag. 199, r. 49: <hi rend="italic">Specclam</hi> invece di <hi rend="italic">Speccam</hi>;
+            n. XV, pag. 199, r. 54: <hi rend="italic">planitieribus</hi> invece di <hi rend="italic">planitiebus</hi>;
+            n. XVI, pag. 199, r. 58: <hi rend="italic">parrocciam</hi> invece di <hi rend="italic">parrocchia</hi>;
+            n. XVII, pag. 200, r. 61: <hi rend="italic">concedimus et confirmamus</hi> invece di <hi rend="italic">confirmamus</hi>;
+            n. XVIII, pag. 200, r. 63: manca <hi rend="italic">ut</hi>;
+            n. XIX, pag. 200, r. 66: <hi rend="italic">dexteram</hi> invece di <hi rend="italic">desteram</hi>;
+            n. XX, pag. 200, r. 75: <hi rend="italic">correpserit</hi> invece di <hi rend="italic">correxerit</hi>;
+            n. XXI, pag. 200, r. 83: <hi rend="italic">consequantur</hi> invece di <hi rend="italic">inveniat amen amen</hi>;</note> Cum barensis ecclesie regimen domino 
+          <lb/>disponente quamquam immeriti suscepimus, ea nos oportet diligentia 
+          <pb n="199"/>
+          <lb/>vigilare, et suscepti officii studio insudare, quatinus et ecclesia 
+          <lb/>nobis domino volente commissa operis executione clarescat, et que 
+          <lb/>a predecessoribus nostris iuste ac canonice facta sunt, precipue 
+          <lb/>que ad dilatandam pontificalis glorie dignitatem, spectare videntur, 
+          <lb/>auctoritatis nostre robore debeant domino predicto communiri. 
+          <lb/>huius utique rei consideratione venerabilis in christo frater 
+          <lb/>episcope provocati, et speciali quam ad tuam personam habemus 
+          <lb/>affectione inducti, tuis iustis postulationibus clementer et benigne 
+          <lb/>annimus, et ad exemplar sancte recordationis predecessoris nostri 
+          <lb/>Mathei barensis archiepiscopi, prefatam invenaciensem ecclesiam, 
+          <lb/>cui deo auctore preesse dinosceris, sub barensis ecclesie et nostra 
+          <lb/>protectione suscipimus, et de gratuita voluntate totius capituli 
+          <lb/>nostri, presentis scripti privilegio communimus. Statuentes 
+          <lb/>ut quascumque possessiones, quecumque bona eadem ecclesia concessione 
+          <lb/>pontificum, largitione regum vel principum, oblatione fidelium. 
+          <lb/>seu aliis iustis modis possidet, aut in futurum poterit adipisci, 
+          <lb/>tibi et successoribus tuis firma semper et illibata permaneant, 
+          <lb/>in quibus hec propriis duximus exprimenda vocabulis. Iuvenacium. 
+          <lb/>Terdicium. Circlum. Urassanum. Sanctum Leucium in 
+          <lb/>cavallaro. Sanctum Leucium in deserto. Guarassanum. Numinum. 
+          <lb/>Ferulacium. Balenam. Suberitum. Spleluncam. Mappasanum. 
+          <lb/>Circitanum. Casamaximam. Mazaricum. Sanctam Eugeniam. Sanctum 
+          <lb/>Kyriacum de vinealis. Saydam. Sellaicte. Saulanum. 
+          <lb/>Cilianum. Valenzanum. Arvaicte. Sanctum Demetrium. 
+          <lb/>Sanctam Mariam in lama. Priminianum. Puzillum. Villam. Lacum 
+          <lb/>meridianum. Paternum. Villulam. Padule. Speccam. 
+          <lb/>Cursinianum. Sanctam Agathen. Sanctum Nicolaum de lapedizo. 
+          <lb/>Sanctum Petrum de casellis. Sanctum Cosmam de portu. et Sanctum 
+          <lb/>Salvatorem. Ad hec omnes fundos et casalia, una cum domibus, 
+          <lb/>olivis, et vineis, servis et ancillis, massis et massariciis, 
+          <lb/>molendinis, portubus, montibus, planitiebus et pratis, simul cum 
+          <lb/>plebibus, sive etiam omnibus titulis vel cappellis suis, et cum 
+          <lb/>omnibus monasteriis virorum seu feminarum, grecis aut latinis, 
+          <lb/>intus in civitate vel de foris, et cum universis ordinibus ecclesiasticis, 
+          <lb/>nec non et parrocchia tua, et quicquid honoris, possessionis, 
+          <lb/>sive dignitatis, tu et eadem ecclesia iuste et rationabiliter 
+          <lb/>possidetis, tibi et successoribus tuis, presenti privilegio confirmamus. 
+          <pb n="200"/>
+          <lb/>Et quia ecclesiam tuam. speciali cupimus privilegio decorare, 
+          <lb/>concedimus tibi et successoribus tuis. ut quotiescumque 
+          <lb/>pro conventu. vel concilio celebrando, aut sollempnitatibus 
+          <lb/>pro quibus ad barensem ecclesiam de iure venire debetis. a nobis 
+          <lb/>vel successoribus nostris tu vel successores tui fueritis pervocati, 
+          <lb/>primam a nobis sedem desteram videlicet habeatis. Decernimus 
+          <lb/>ergo ut nulli omnino hominum liceat prefatam ecclesiam temere 
+          <lb/>perturbare, aut eius possessiones auferre, vel ablatas retinere, minuere, 
+          <lb/>seu quibuslibet vexationibus fatigare, set illibata omnia et 
+          <lb/>integra conserventur eorum pro quorum gubernatione et substentatione 
+          <lb/>concessa sunt, usibus omnimodis profutura. Salva barensis 
+          <lb/>ecclesie auctoritate. Si qua igitur in futurum ecclesiastica secularisve 
+          <lb/>persona, hanc paginam nostre constitutionis sciens, contra 
+          <lb/>eam temere venire temptaverit, secundo, tertiove commonita, 
+          <lb/>nisi presuncionem suam. digna satisfactione correxerit. potestatis 
+          <lb/>honorisque sui dignitate careat, reamque se divino iudicio 
+          <lb/>existere de perpetrata iniquitate cognoscat, et a sacratissimo 
+          <lb/>corpore et sanguine dei et domini redemptoris nostri iesu christi 
+          <lb/>aliena fiat, atque in extremo exanime districte ultioni subiaceat. 
+          <lb/>Cunctis autem eidem ecclesie servantibus sua iura sit pax domini 
+          <lb/>nostri iesu christi quatinus et hic fructum bone actionis percipiant. 
+          <lb/>et apud districtum iudicem pacis eterne premia inveniant 
+          <lb/>amen amen. Et sigillum plumbeum eiusdem domini archiepiscopi 
+          <lb/>pendentis erat ibi et ipsius subtestatio in hec verba. Ego 
+          <lb/>Raynaldus dei gratia barensis archiepiscopus et canusinus. et scriptum 
+          <lb/>erat inferius iuxta sigillum plumbeum in hec verba. Datum 
+          <lb/>Barii, per manum Petri camerarii et scriniarii domini barensis 
+          <lb/>archiepiscopi, octavo Kalendas decembris indictione sexta. Incarnationis 
+          <lb/>dominice anno Millesimo, centesimo, septuagesimo secundo, 
+          <lb/>pontificatus vero domini Raynaldi barensis et canusini archiepiscopi 
+          <lb/>anno secundo. Quod scriptum puplicationis scripsi ego 
+          <lb/><choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Iohannes paulus puplicus iuvenaciensis notarius qui interfui 
+          <lb/>et meo signo consueto signavi.
+          <lb/>+ Regalis Iuvenacii Rogerius Iudex.
+          <lb/>Nicolaus Iohannacii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_020">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 20</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 201-202</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1254">1254</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="201"/>
+          <lb/>+ Ex incarnatione dei et salvatoris nostri iesu christi anno Mil<supplied reason="illegible" resp="print_editor">lesimo centesimo</supplied> quinquagesimo 
+          <lb/>quarto regnante domino nostro Conrado dei gratia r<supplied reason="illegible" resp="print_editor">omanorum in</supplied> regem electo 
+          <lb/>semper augusto, Ierusalem et Sicilie illustrissimo rege anno quarto, decimo die mensis iunii, 
+          <lb/>indictione duodecima. Nos  <supplied reason="illegible" resp="print_editor">Ro</supplied>gerius <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Thomasii regius iuvenaciensis Iudex. Matheus 
+          <lb/>puplicus eiusdem  <supplied reason="illegible" resp="print_editor">ter</supplied>re notarius. et testes subscripti de eadem terra ad hoc specialiter 
+          <lb/>vocati et rogati. presentis scripti serie declaramus quod convo<supplied reason="illegible" resp="print_editor">catis</supplied> nobis a venerabili 
+          <lb/>viro domino Leonardo humili iuvenaciensi episcopo intus in maiori iuvenaciensi ecclesia
+          <pb n="202"/>
+          <lb/>ostendit nobis et exhibuit ad legendum quoddam scriptum. petens a nobis quia sua interesse 
+          <lb/>dicebat. ut ipsum in presenti carta transcribi atque puplicari face<supplied reason="illegible" resp="print_editor">re</supplied>mus. Cuius petitione 
+          <lb/>admissa utpote iusta videntes ipsum scriptum non cancellatum non abolitum nec 
+          <lb/>in aliqua sui parte viciatum. <supplied reason="illegible" resp="print_editor">sed tam in conte</supplied>stu continentie principalis quam in sigillo 
+          <lb/>apposito in eo et subscriptione testium nulla litura seu vicio laborare. ipsum in presenti 
+          <lb/>carta de verbo ad verbum transcribi atque publicari fecimus cuius <supplied reason="illegible" resp="print_editor">scripti con</supplied>tinentia talis 
+          <lb/>est. Andreas dei gratia licet immeritus metropolitanus barine et canusine sedis venerabili 
+          <lb/>fratri Ma<supplied reason="omitted_in_original" resp="print_editor">ralditio</supplied> invenaciensi episcopo eiusque successoribus canonice substituendis 
+          <lb/>in perpetuum, ---. <note type="editorial" resp="print_editor"><hi rend="italic">Segue come nella carta precedente</hi> <note type="editorial" resp="EDAr">= Codice Diplomatico Barese, vol. II, appendice I, pag. 198, n. 19, nota</note> <hi rend="italic"> sino alla parola</hi> consequantur, <hi rend="italic"> indi segue:</hi></note>
+          <lb/>Ad huius nostre concessionis et confirmationis inviolabilem firmi <supplied reason="illegible" resp="print_editor">tatem</supplied> presens 
+          <lb/>privilegium mandavimus fieri per manus <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> notarii nostri barensis clerici et
+          <lb/>cum plumbeo sigillo si <supplied reason="illegible" resp="print_editor">gnavi</supplied> <gap reason="illegible" quantity="4" unit="dots_separated_by_spaces"/> et a nostri clericis subtestatum, anno incarnationis
+          <lb/>domini Millesimo ducentesimo septimodecimo mense iunio undecimo eiusdem <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/>
+          <lb/><gap reason="illegible" quantity="56" unit="dots_separated_by_spaces"/>
+          <lb/><gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> ipsius subtestacio et <gap reason="illegible" quantity="6" unit="dots_separated_by_spaces"/> clericorum suorum in hec verba. Andreas dei
+          <lb/>gratia licet immeritus metropolitanus barine et canusine sedis. Ego Iacobus presbiter et 
+          <lb/>primicerius. Ego Palmerius barensis canonicus. Ego Philippus presbiter. Ego Lupus presbiter
+          <lb/>et primicerius. Ego Ioffridus abbas. Nicolaus Gattucius, necnon et subtestatio venerabilium 
+          <lb/>nostrorum dominorum episcoporum Melfitte et Poliniani erat in eo in hac forma. Acc<supplied reason="omitted_in_original" resp="print_editor">ius?</supplied>
+          <lb/>Melfictensis episcopus. Ego Boetius Polinianensis episcopus. Quod scriptum publicationis 
+          <lb/>scripsi ego predictus Matheus puplicus Iuvenatii notarius. subscriptionibus mei predicti 
+          <lb/>Iudicis et subscriptorum testium roboratum.
+          <lb/>+ Regalis Iuvenacii Rogerius Iudex.
+          <lb/>Nicolaus Iohannacii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Maior domni Adi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Grimoaldus  <supplied reason="illegible" resp="print_editor">Leonis</supplied> Saxi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>. 
+          <lb/>+ Iudex Tomasius de Iuvenacio.
+          <lb/>Ego Iohannes paulus publicus invenaciensis notarius testor.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_021">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 21</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 203-204</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1261">1261</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="203"/>
+          <lb/>+ Spenduit in mundo quo christus flamine mundo. anno millesimo ducentesimo sexagesimo 
+          <lb/>primo. regnante domino nostro Manfrido illustrissimo rege Sicilie anno tertio, duodecimo 
+          <lb/>die mensis iunii indictionis quarte. Nos frater Leonardus dei gratia humilis iuvenaciensis 
+          <lb/>episcopus habentes in hiis omnibus advocatum. astantibus etiam nobiscum Bisantio 
+          <lb/>archidiacono. Ursone archipresbitero. abbate Sassone et Leone primiceriis et quam pluribus 
+          <lb/>clericis aliis capituli maioris ecclesie nostre. causa ecclesiastice dignitatis. in presentia 
+          <lb/>Nicolai <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> sire Iudicis regii iuvenaciensis Iudicis et testium subscriptorum ad hoc specialiter 
+          <lb/>vocatorum, volumptarie per fustem tradentes damus atque locamus Guidoni <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> 
+          <lb/><gap reason="omitted_in_original" rend="italic"/> habitatori civitatis Iuvenacii duas vineas et mediam terre intus in terris quas 
+          <lb/>dicta maior ecclesia tenet in loco sancti Spiritus non multum longe ab hac civitate que	
+          <lb/>sunt per fines subscriptos. Sic tamen ut dictus Guidus dictas terras a me sibi traditas 
+          <lb/>ut dictum est suis propriis expensis faciat parietibus circumdari. teneant etiam ipse et eius 
+          <lb/>descendentes terras easdem donec vixerint, cultent ipsas et refrudiant et de eius refrudio 
+          <lb/>faciant suum velle. nichilominus dent nobis seu nostris successoribus pro parte ipsius ecclesie 
+          <lb/>anno quolibet donec vixerint pro locatione dicte terre in festo sancte Marie mensis  
+          <lb/>augusti tarenos auri boni Sicilie tres et grana auri quindecim. sive si ipsas terras seminaverint 
+          <lb/>sive non. Stetit etiam inter nos ex pacto conveniencie ut in quocumque anno donec 
+          <lb/>ipsas terras habuerint contigerit ipsos in eis plantare cepas. dent et assignent nobis 
+          <lb/>vel nostris successoribus de ipsis cepis sertas decem, superadditis tarenis predictis. Vadiam 
+          <lb/>quoque eidem Guidoni damus nobis fideiubentibus. quo nos vel nostri successores defendamus 
+          <lb/>sibi vel suis descendentibus predictam traditionem seu locationem in predicto modo 
+          <lb/>factam ab omni humana persona. Deficiente vero nominato Guidone seu eius descendentibus. 
+          <lb/>nominate terre ipsius ecclesie nostre cum toto beneficio in ipsis ab eis illato ad manus 
+          <lb/>nostras sive nostrorum successorum deveniant pleno iure. ob quod licentiam eis tribuimus 
+          <lb/>pignerare nos et nostros successores per omnia ipsius ecclesie licita et illicita preter 
+          <lb/>sacra sine appellatione donec omnia predicta perficiantur. Sunt autem predicto terre a nobis 
+          <pb n="204"/>
+          <lb/>tradite per hos fines primo a medio pariete mictendo est terra ipsius ecclesie secundo
+          <lb/>estra parietem mictendum est via puplica. Tercio a medio pariete mictendo est terra dicte
+          <lb/>ecclesie a nobis concessa <gap reason="illegible" quantity="4" unit="dots_separated_by_spaces"/> Iohanni <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filio</expan></choice> maioris. Quarto est litus maris. Et hoc scriptum
+          <lb/>scripsit Iohannes paulus Maioris <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> puplicus Iuvenacii notarius presens enim fuit. 
+          <lb/>+ Nos frater Leonardus humilis invenaciensis episcopus. 
+          <lb/>+ Ego Bisantius archidiaconus.
+          <lb/>Sasso Maior primicerius. 
+          <lb/>+ Ego Leo primicerius.
+          <lb/>Nicolaus regius Iuvenacii Iudex.
+          <lb/>Nicolaus Iohannacii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/><gap reason="illegible" quantity="24" unit="dots_separated_by_spaces"/>
+          <lb/>+ Testor ne <gap reason="illegible" quantity="6" unit="dots_separated_by_spaces"/> hoc opus sacerdos Iohannes.
+          <lb/>Iohannes abbas testatur.
+          <lb/>Ego dompnus Palma presbiter.
+        </p>
+      </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_022">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 22</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 204-206</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1265">1265</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="204"/>
+          <lb/>+ Ex quo regis eterni <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> descendit in utero virginali, anno Millesimo ducentesimo 
+          <lb/>sexagesimo quinto. regnante domino nostro Manfrido illustrissimo rege Sicilie anno septimo 
+          <lb/>quintodecimo die mensis marcii indictionis octave. Nos Nicolaus sire Iudicis regius invenaciensis 
+          <lb/>Iudex. Maraldus puplicus eiusdem terre notarius et testes subscripti licterati cives 
+          <lb/>eiusdem terre ad hoc specialiter convocati et rogati presenti scripto fatemur quod nobis 
+          <lb/>manentibus in regia curia Iuvenacii. abbas Iohannes <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice> sire Nicolai civis noster in nostra 
+          <lb/>presentia constitutus pro parte domini Leonardi <supplied reason="illegible" resp="print_editor">iuvenaciensis episcopi</supplied> presentavit nobis 
+          <lb/>et exibuit ad legendum quedam duo privilegia que sunt de decima baiulationis banci et 
+          <lb/>tributi curie in Iuvenacio quam dictus episcopus consuevit percipere et habere, que privilegia 
+          <lb/>dictus abbas Iohannes sibi pro parte dicti domini episcopi autenticari petiit et in publicam 
+          <lb/>redigi formam. dicebat  <supplied reason="illegible" resp="print_editor">enim?</supplied> quod dictus dominus episcopus privilegia ipsa autenticata 
+          <lb/>assignare volebat nobili viro domino Iudici Gaudio de Barulo vice secreto curie
+          <pb n="205"/>
+          <lb/>in terra Bari dimictenda penes eum ad suam cautelam et petitionem. autentica vero ipsa 
+          <lb/>penes se retinere. dicebat etiam nobis abbas Iohannes predictus quod dictus Iudex Gaudius 
+          <lb/>predictam decimam prefato domino episcopo nuper in (?) anno presenti de mandato regio 
+          <lb/>dare debet. Nos vero petitionem eandem nobis pro parte dicti domini episcopi porrectam 
+          <lb/>utpote iustam et iuri consonam admittentes. privilegia ipsa vidimus et legimus. non cancellata 
+          <lb/>non abollita non abrasa omni vitio et  <supplied reason="illegible" resp="print_editor">su</supplied>spectione carentia. que privilegia ad 
+          <lb/>cautelam dicti domini Iudicis Gaudii et ipsius domini episcopi de  <supplied reason="illegible" resp="print_editor">verbo</supplied> ad verbum transcribi 
+          <lb/>fecimus et in hac puplica redigi forma per manus mei predicti Maraldi puplici <supplied reason="illegible" resp="print_editor">iuvenaciensis</supplied> 
+          <lb/>notarii. Quorum privilegiorum tenor per omnia unius talis est. In nomine domini 
+          <lb/>dei eterni ac salvatoris nostri iesu christi anno incarnationis eiusdem millesimo centesimo 
+          <lb/>trigesimo quarto indictione duodecima ---. <note type="editorial" resp="print_editor"><hi rend="italic">V. l'originale a </hi> <note type="editorial" resp="EDAr">= Codice Diplomatico Barese, vol. II, appendice I</note> <hi rend="italic"> a n. 4 pag 173.</hi></note>Item
+          <lb/>subscriptum erat in una cruce sul <gap reason="illegible" quantity="5" unit="dots_separated_by_spaces"/> ta ad rotundum per eamdem crucem sic: Rex
+          <lb/>semper vivas pius et clemens domini vas. Hac cruce signatum stabo hunquam violatum. 
+          <lb/>Item et intra eadem cruce infrascriptum erat: Ego Rogerius Rex <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> Quod privilegium sigillatum 
+          <lb/>erat sigillo plumbeo pendenti cum seta rubea. Alterius vero privilegii tenor per omnia 
+          <lb/>talis est. Anno dominice incarnationis Millesimo centesimo tertiodecimo. mense decembri 
+          <lb/>indictione sexta. Quia et secundum deum et homines laudabile est benefacere et quod iustum 
+          <lb/>est dei ecclesie non negare. Idcirco ego Constantia Regis Francorum <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filia</expan></choice> et <choice><abbr resp="print_editor">qd.</abbr><expan resp="EDAr">quondam</expan></choice> illustris 
+          <lb/>viri Boamundi Anthioceni principis uxor concedo pro anima predicti viri mei et mea 
+          <lb/>parentumque meorum sancte Marie ecclesie iuvenaciensi que est episcopatus. ubi Bernerius 
+          <lb/>dominus olim noster cappellanus nunc autem dei gratia episcopus presidet. Cunctam decimam 
+          <lb/>rerum illarum que nostro iuri pertinet de introhitibus nostre civitatis Iuvenacii videlicet 
+          <lb/>de animatis et inanimatis. mobilibus. frumento. ordeo. leguminibus  <supplied reason="illegible" resp="print_editor">vi</supplied>no. oleo. animalibus. 
+          <lb/>de tributo etiam civitatis et affidatura affidatorum presentium et futurorum insuper 
+          <lb/>pro amore dei et salute prefati viri mei anime et mea. et ut deus filios meos hon<supplied reason="illegible" resp="print_editor">orificet</supplied>
+          <lb/>et exaltet concedo etiam eidem ecclesie presbiteros eiusdem civitatis ut amodo predictus 
+          <lb/>reverentissimus presul eiusque successores habeant eos in sua potestate et iudicent eos de 
+          <lb/>offensis in quibus offenderunt. Cui prefate ecclesie integram decimam omnium predictarum 
+          <lb/>rerum ut dixi <gap reason="illegible" quantity="10" unit="dots_separated_by_spaces"/> legibus et illis rebus de quibus decima dari non convenit. Et ut
+          <lb/>hec omnia que predicta sunt firma et stabilia omni tempore prenominate ecclesie permaneant 
+          <lb/>sine contrarietate mea meorumque filiorum et omnium ordinatorum exactorumque 
+          <lb/>nostrorum et omnium hominum iussi hoc preceptum scribi a Fulco nostro notario et plumbea 
+          <lb/>bulla nostri tiparii bullari, prefatoque venerabili episcopo vice nominate ecclesie dari, 
+          <lb/>et subscriptum erat in eo sic Gumstancia Quod privilegium sigillatum e <supplied reason="illegible" resp="print_editor">ra</supplied>t sigillo plumbeo 
+          <lb/>pendenti cum seta citrina. Quod transcriptum ab autenticis et originalibus privilegiis
+          <pb n="206"/>
+          <lb/>transumptum ego predictus Maraldus puplicus Iuvenacii notarius de verbo ad verbum nichil 
+          <lb/>addito diminuto vel mutato transcripsi fideliter et exemplavi. et in hac prescripta forma 
+          <lb/>redegi et signo meo consueto signavi, et ut huic transcripto fides indubitata valeat adhiberi 
+          <lb/>ego predictus Iudex Nicolaus presens instrumentum sigillo et subscriptione mea et nos 
+          <lb/>infrascripti testes subscriptionibus nostris duximus roborandum.
+          <lb/>+ Nicolaus regius Iuvenatii Iudex.
+          <lb/>Ego Leo notarius Sindolfi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Ego Franciscus notarius Iohannis <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/><gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> Sanson Leonis Sassi <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Nicolaus Iohannacii <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+          <lb/>Maraldus <gap reason="illegible" quantity="8" unit="dots_separated_by_spaces"/> <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filius</expan></choice>.
+        </p>
+        </body>
+    </text>
+  </TEI>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="CDB02_APP01_023">
+      <fileDesc>
+        <titleStmt>
+          <title>Codice diplomatico Barese, volume II, appendice I, documento n. 23</title>
+          <respStmt>
+            <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+            <name key="EDAr">Elisa D'Argenio</name>
+          </respStmt>
+          <respStmt>
+            <resp key="print_editor">Edizione a stampa di riferimento curata da</resp>
+            <name>Giovanni Battista Nitto De Rossi</name>
+            <name>Francesco Nitti Di Vito</name>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>ALIM</publisher>
+          <date when="2018-07-30">30/07/2018</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl type="edizioneAStampaDiRiferimento">
+            <title>Codice diplomatico Barese. II: Appendice I. Le carte di Giovinazzo (1124-1266)</title>
+            <editor>Giovanni Battista Nitto De Rossi</editor>
+            <editor>Francesco Nitti Di Vito</editor>
+            <pubPlace>Bari</pubPlace>
+            <publisher>V. Vecchi</publisher>
+            <date>1899</date>
+            <biblScope unit="pp">pp 206-207</biblScope>
+          </bibl>
+          <bibl type="documentoMedievale">
+            <pubPlace cert="high">Giovinazzo (BA)</pubPlace>
+            <date cert="high" when="1266">1266</date>
+          </bibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <p><pb n="206"/>
+          <lb/>+ Splenduit in mundo quo christus flamine mundo anno Millesimo ducentesimo sexagesimo 
+          <lb/>sexto. regnante domino nostro Manfrido illustrissimo rege Sicilie anno octavo. sexto
+          <lb/>die mensis decembris indictionis none. Cum divinus cultus diminui non debeat sed augeri, 
+          <lb/>ad curam et solicitudinem boni pastoris spectare dignoscitur, res ecclesiasticas taliter ordinare. 
+          <lb/>quod clericorum cetus victus decentes inde percipiat et res ipse cultu debito non 
+          <lb/>fraudentur. Quapropter nos frater Leonardus humilis iuvenaciensis episcopus hac consideratione 
+          <lb/>ducti una cum capitulo nostro antiquam et rationabilem consuetudinem a nostris 
+          <lb/>predecessoribus in maiori iuvenaciensi ecclesia editam et usque ad presentia tempora firmiter 
+          <lb/>observatam, duximus confirmandam. videlicet quod si quis canonicorum ipsius ecclesie 
+          <lb/>a primo die mensis martii usque ad ultimum diem mensis decembris eiusdem anni 
+          <lb/>obierit. omnes fructus olivarum et redditus beneficii sui tam presentes quam futuros, infra 
+          <lb/>eundem annum usque ad primam diem venturi mensis ianuarii post eius obitum possit libere 
+          <lb/>legare vendere vel alienare cuicumque voluerit, sine requisitione sui prelati vel contradictione 
+          <lb/>ecclesiastice seu secularis persone. si arbores olivarum vel alias res sui beneficii 
+          <lb/>ipse canonicus heres vel cui legaverit vel vendiderit fructus ipsarum infra dictum annum 
+          <lb/>cultu excolerint condecenti. Corporali a quolibet nostrum prestito iuramento. ut nos
+          <pb n="207"/>
+          <lb/>nec posteriores nostri contra eamdem laudabilem et rationabilem consuetudinem ullo tempore 
+          <lb/>veniamus set ipsam observemus perpetuo illibatam. excommunicationis sententia innodantes 
+          <lb/>si quis contra hanc salubrem consuetudinem aliquid presumpserit actemptare, 
+          <lb/>cum per observationem talis consuetudinis possessionis nostre ecclesie melius excolantur, et 
+          <lb/>canonici ipsius ecclesie spe futurorum fructuum facilius pecuniam inveniant mutuo ex qua 
+          <lb/>alimenta suscipiant in divinis obsequiis impendendis. quoniam ecclesiasticis ministeriis deputati 
+          <lb/>non debent iuxta statuta sacrorum canonum in vituperium clericalis ordinis miserabiliter 
+          <lb/>mendicare. Et ut premissis adhiberi possit et valeat vera fides presens inde scriptum 
+          <lb/>publicum fieri fecimus per manus Iohannis pauli <choice><abbr resp="print_editor">f.</abbr><expan resp="EDAr">filii</expan></choice> Maioris puplici Iuvenacii notarii, 
+          <lb/>sigillo pendenti nostri <choice><abbr resp="print_editor">qs.</abbr><expan resp="EDAr">qui supra</expan></choice> episcopi et ipsorum canonicorum subscripcionibus roboratum. 
+          <lb/>Quod ego dictus Iohannes paulus notarius scripsi et meo signo consueto signavi.
+          <lb/>+ Ego magister Urso archipresbiter.
+          <lb/>Sasso Maior primicerius.
+          <lb/>+ Leo primicerius. 
+          <lb/>+ Ego dompnus Iohannes presbiter.
+          <lb/>+ Ego domnus Bisancius.
+          <lb/>+ Ego dompnus Iohannes de Seraphi (?) presbiter. 
+          <lb/>+ Ego Petrus presbiter.
+          <lb/>+ Ego dopnus Mathia presbiter.	
+          <lb/>+ Ego dopnus Leo presbiter. 
+          <lb/>+ Ego dopnus Gualterius presbiter.
+          <lb/>Ego Santorus diaconus.
+          <lb/>Ego Vincensius diaconus.
+          <lb/>Ego Ricardus <choice><corr resp="EDAr">diaconus</corr><sic resp="print_editor">dioconus</sic></choice>.
+          <lb/>Abbas Maior diaconus.
+          <lb/>Ego Robertus subdiaconus.
+        </p>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>
