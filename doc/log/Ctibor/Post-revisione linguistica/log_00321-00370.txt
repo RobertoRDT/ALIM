@@ -1,0 +1,104 @@
+﻿
+321
+-ok
+
+322
+-pag. 154 conteneva lo stesso testo della pagina 155
+-dalla pagina 148 in poi il testo non è diviso in righe, i <lb/> indicano l'inizio di un paragrafo
+-ci sono ogni tanto errori OCR (sopratutto: "l" o "I" invece di "1"). Ho corretto quelli che ho trovato, ma non so quanti non ne ho trovati...
+-il cap. 43 del libro VI manca (pag. 205/206)
+-il cap. 33 del libro VII non ha il titolo (pag. 230)
+
+323
+-ok
+
+324
+-ok
+
+325
+-nel <sourceDesc>: rist(ampato?): come si segna?
+-testo ok
+
+326
+-ok
+
+327
+-ok
+
+328
+-ok
+-la struttura è abbastanza intricata (va fino al livello 5 ed è molto varia fra le sezioni singole...), se c'è magari qualcuno che conosce bene il testo dovrebbe controllare se è tutto corretto.
+
+329
+-ok
+
+330
+-ok
+
+331
+-ok. È diviso in cinque "Tabulae", ma queste non sembrano di essere divise in <p>. Ogni tabula è quindi un <p> molto lungo. Si potrebbe dividere secondo i due punti (Imperatrix salutatur sic: <lb/> "blabla") che spesso si trovano alla fine di una riga, ma al contrario, spesso sono in mezzo, e anche se sono alla fine, non c'è nessun caso in cui sarebbe chiaro e innegabile che sia la fine di un paragrafo (cioè la riga sarebbe più corta rispetto alle altre). Bisogna vedere l'edizione stampata.
+
+332
+-ok, ma...
+-ci sono molte frasi esemplari introdotte con e. g. "dicitur sic: <lb/> Sententia exemplaris." Graficamente sembrano come paragrafi, ma logicamente non lo sono (direi io), e se in tali casi mettessi i <p>, nascerebbero situazioni assurde come se ci fossero molti <p> davvero brevissimi (tipo: "vel sic:"). Ma se si decide di fare così, inserirò i <p> anche in questi casi
+
+333
+-ok
+
+360
+-ok, ma:
+1) è un poema lungo (292 versi) diviso in strofe di 4 versi. I versi erano però numerati attraverso tutto il poema (1-292), mentre i numeri erano segnati alla fine di ogni quinto verso. Ho cancellato questi numeri, ma ho numerato l'opera nello stesso modo: i @n di <l> vanno allora da 5 a 290, non si contano per le strofe singole. È ok cosi?
+2) si tratta di versi divisi in due parti, separate con una lacuna:
+"Inclitorum Pisanorum            scripturus istoriam"
+...
+Questa lacuna era scritta come una serie di spazi vuoti. Il problema è che i browser ignorano tali serie di spazi e le riducono a solo uno spazio (si vede anche al sito ALIM: http://it.alim.unisi.it/dl/resource/360).
+Secondo le TEI guidlines, per tali versi si deve usare il tag <seg> per ognuna delle due metà (<l><seg>Inclitorum Pisanorum</seg> <seg>scripturus istoriam</seg></l>). Ho quindi seguito questa indicazione. 
+
+362
+-ok, ma anche qui c'è un problema con i <p>: in alcuni passi, le righe sono brevissime e non si può decidere con sicurezza dove mettere i <p>
+-c'erano cinque righe con un escaped html code (tipo: <lb/>[&lt;NOCOUNT&gt;&lt;TABLE width=100% border=0&gt;&lt;TR&gt;&lt;NOCOUNT&gt;&lt;TD valign=top NOWRAP class="normale" id="SUPPCOLONNA1" width="50%"&gt;]). Le ho cancellate.
+
+363
+-ok, ma:
+-il testo è riportato due volte, secondo due manoscritti. Ho segnato ogni versione con <div type="treatise">
+-alla fine della p. 93, c'è "C. I. XII. De tironibus. Nullus tiro ga aut veteranus aut censibus obnoxius ad militia accedat.". Non capisco però cosa sia il C. I. XII.: in questa parte, i capitoli sono numerati con numeri arabi (e non ne manca nessuno)... E ancora sulla stessa riga: "Nullus tiro ga aut veteranus..." Cosa è il "ga"? 
+-versione 1 - XI: "De raptum virginum". L'ho corretto in "De raptu"
+
+364
+-ok, ma:
+-alla fine della p. 90, non manca qualcosa?
+-perché alla fine del file è inserita una pagina 371, ovviamente da un testo diverso? Un errore?
+- (Ci possono essere anche altri errori simili, che non ho trovato)
+
+366
+-ok
+
+
+367
+-un testo in versi, ma con struttura molto ricca (i testi in versi normalmente non sono strutturati): in alcuni passi va fino al quarto livello (PARS -> CAPITULUM -> Articulus -> §)
+-ho messo tutti i CAP., Art. e § in <div> separati, e i <lg> sono solo allo livelo più basso. Spesso tali <lg> hanno solo uno o due versi.
+-ho numerato i versi nelle singole Partes
+-i titoli di singole sezioni, Partes/CAP./Art/§, erano tutti scritti sulla stessa riga, insieme con il primo verso. Questo mi sembra strano, perché poi ci sarebbero righe molto lunghe come:
+"<lb/>PARS NONA - NOSOLOGICA. - CAP. I. Febres - Art. 1. Species febrium - Trina riget, quotidiana friget, tetraceus horrit."
+In tali casi ho spostato il verso sotto il <lg> e ho dato i titoli singoli in <head> separati positi in <div> corrispondenti:
+<div type="book">
+	<head>PARS NONA</head>
+	<div type="chapter">
+		<head>CAP. I. Febres</head>
+		<div type="section">
+			<head>Art. 1. Species febrium</head>
+			<lg>
+				<l>Trina riget, quotidiana friget, tetraceus horrit.</l>
+				...
+il problema è che se davvero era tutto su una riga (ma mi sembra strano), ora è diviso in due (<lb/> e <lg><l>)
+-ci sono alcune particolarità nella numerazione: nella PARS I, gli Articoli nei Capitoli I-IV sono numerati con i numeri romani, però dal Capitolo VII in poi sono sempre numerati con numeri arabi...
+Così, anche i § del PARS I/Cap II/Art. IV sono numerati con numeri romani, altrove con numeri arabi...
+
+368
+-ok
+
+369
+-ok
+
+370
+-ok

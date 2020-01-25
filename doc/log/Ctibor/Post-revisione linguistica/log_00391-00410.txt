@@ -1,0 +1,82 @@
+﻿
+391
+-ok
+
+392
+-ok. Anche qui si (mi pare) vi sono versi divisi in due parti, separate con una lacuna. Questa lacuna era scritta come una serie di spazi vuoti. Il problema è che i browser ignorano tali serie di spazi e le riducono a solo uno spazio. Seguendo le TEI guidlines, per tali versi si deve usare il tag <seg> per ognuna delle due metà (<l><seg>Inclitorum Pisanorum</seg> <seg>scripturus istoriam</seg></l>). Ho quindi seguito questa indicazione. 
+
+393
+-ok
+
+394
+-ok
+
+395
+-ok
+
+396
+-ok
+
+397
+-ho unito le parole divise in due righe
+
+398
+-la struttura è particolare. Si tratta di Statuta della Comune Mergotii. La prima parte è chiara, ci sono 59 punti (statuta). Poi seguono alcune lettere "confirmatorie" (vidimationes), delle quale una contiene alcune aggiunte agli Statuta originari (60-64). Poi seguono altre vidimationes. 
+Ho quindi creato questa struttura:
+<div1>
+(Statuta...)
+	<div2>[1]...</div2>
+	...
+	<div2>[59]...</div2>
+</div1>
+<div1>
+(Vidimatio)
+</div1>
+... (altre vidimationes)
+<div1>
+	<div2>[60]...</div2> (aggiunte agli Statuta)
+</div1>
+
+<div1>
+(un altra Vidimatio)
+</div1>
+...
+
+
+399
+-non ho trovata nessuna autorità moderna (editore)...
+
+400
+-ok
+
+401
+-ok
+
+402
+-ok
+
+403
+-ok
+
+404
+-è un poema molto lungo che però non è diviso in libri o capitoli, ma solo in 23 gruppi di versi con titoli strani come, ad esempio, "4,2 vv. 6277-6614". Sembra che ci siano i libri e anche i capitoli, ma nel testo stesso non si trova nessuna indicazione o confine di sezione... Ho quindi lasciato questa struttura e ho numerato i versi attraverso tutto il testo, in modo da farli corrispondere con i numeri indicati negli header. In futuro si potrebbero numerare i versi secondo i <div> singoli
+-il verso 6149 mancava: l'ho aggiunto 
+
+405
+-manca la pagina 127 (nella pagina 127 c'era lo stesso testo della pagina 126: l'ho cancellato)
+
+406
+-ok
+
+407
+-ok
+-ho sostituito le "virgolette" &lt;&lt; e &gt;&gt; con « e »
+
+408
+-non so come fare con i <div>: logicamente ci sono molte sezioni (è un testo scolastico), però formalmente ci sono più o meno solo i paragrafi (mancano titoli, spesso le sezioni singole logice cominciano in mezzo di un paragrafo testuale etc.). Ho quindi usato solo i <p>, i <div> sono da discutere.
+
+409
+-ok
+
+410
+-ok

@@ -1,0 +1,96 @@
+﻿
+175
+- molto confuso e pieno di errori
+
+176
+- verso la fine c'e una nota in italiano. Mettere in <note> (o simile), o lasciare nel testo?
+
+180
+- [foglio I recto] ??? ogni tanto appaiono nel testo note dell'edizione critica, come per esempio questa. Lasciare nel testo come sono, cancellare o marcare con un tag?
+
+181
+- la struttura è abbastanza complicata. Il livello più alto è stato marcato con @type="chapter": il livello seguente deve avere @type="section"? La struttura varia fra i capitoli.
+- c'è un problema strutturale. Alcuni capitoli hanno la seguente struttura:
+<div1><p>In hoc capitulo dicitur de hoc et illo. Et haec materia dividitur in XY partes.</p>
+    <div2><head>Pars I</head><p>Aliquid...</p></div2>
+    ...
+    <div2><head>Pars XY</head><p>Aliquid...</p></div2>
+    <p>Nunc dictum est de XY partibus huius materiae. Videmus, quod haec materia est talis et talis...</p>
+</div1>
+Cioè: all'inizio c'è un testo introduttivo in <p>, poi seguono alcuni <div> e alla fine c'è un riassunto dei punti precedenti, teoricamente anche questo in un <p>. Però al TEI validator non piace quando in un <div(1)> c'è un altro <div(2)>, dopo il quale segue un <p> allo stesso livello, cioè un child-node del <div(1)>. Quando, invece, il <p> precede i <div(2)>, sembra ok. In questo caso, ho messo anche i <p> all'inizio e alla fine in un <div(2)>, ma non so se è la soluzione giusta.
+- Ci sono fino a tre livelli di <head>:
+<lb/><head type="h2"><hi rend="bold">I</hi></head>
+<lb/><head type="h2_2">De prima parte</head>
+<lb/><head type="h2_3"><hi rend="bold">Quae est de alphabeto huius Artis</hi></head>
+Per ora li ho marcati come "h2", "h2_2", "h2_3"...
+
+187
+- tralasciato: il testo sembra molto caotico, i capitoli non si succedono correttamente uno dopo l'altro e tutto sembra semplicemente strano e confuso
+
+188
+- ho tolto il [&lt;PRE&gt;] e [&lt;/PRE&gt;] all'inizio e alla fine di ogni strofa
+
+189
+- in questo testo, c'è un lungo brano preso dal Waltharius, ma in una maniera particolare. Sembrano tutti versi, però solo alcuni sono davvero versi dell'originale. Gli altri, anche se hanno più o meno lo stesso contenuto dell'originale, non sono corretti, non corrispondono precisamente (alcune parole sono state omesse, l'ordine delle parole è diverso etc.) e, inoltre, spesso non hanno la struttura metrica corretta (non sono esametri). L'editore ha segnato solo i versi "veri", quelli che corrispondono davvero all'originale. Io l'ho seguito e quindi ho messo in <lg> solo i versi veri; gli altri li ho lasciati semplicemente in un <p>. Quando ci sono alcuni versi in fila (220-225), li ho messi in un unico <lg>, però quando la sequenza dei versi non corrisponde all'originale (e.g. 220 e poi 222), sono in <lg> separati.
+- un'altra questione: cosa mettere nel @n di <l>? La posizione all'interno di <lg> attuale o la posizione nell'originale? La posizione originale è segnalata nella parentesi alla fine di ogni sequenza di versi (vv. 245.247), come era nell'originale. 
+- e ancora una cosa: le prime pagine di ogni libro sono state omesse. Ogni libro comincia quindi con un sommario dei capitoli. Lasciare cosi o aggiungere i titoli dei libri?
+
+190
+- tralasciato. In questo testo si mischiano e confondono tre diversi livelli di numerazione: I, II...IV (livello L1), poi un altro livello di numeri romani: I, II... XXVIII (L2), e alla fine 1, 2...99 (L3). Tutti e tre questi livelli scorrono attraverso tutto il testo senza interruzione. 
+I problemi sono:
+1) il testo non comincia con L1, ma con L2. Il primo titolo di L1 si trova solo dopo (L2)/II e (L3)/6:
+I (L2) 1...2...3...4
+II (L2) 5...6
+I (L1) III (L2) 7-10 
+2) il livello L3 marca spesso l'inizio di un paragrafo, ma non sempre. Spesso una sezione di L3 comincia a metà di una riga. Cosa fare in tali casi? Marcare i <p> senza rispetto ai numeri di L3?
+3) il (L2)/V si trova due volte nel testo - credo che il secondo sia "VI" e il "VI che segue è, in realtà, il "VII" (perché ora il "VII" manca)
+
+191
+- questo testo era gia diviso in <p>, ma mancano gli <lb/>
+
+192
+- testo semplice in versi, senza struttura: ho messo un <div> intorno all'intera opera. È giusto?
+- il <pb> ha come @n "vv. 1-260". È giusto?
+
+193
+- testo semplice in versi, senza struttura: ho messo un <div> intorno all'intera opera. È giusto?
+- nel <pb> alcune pagine si ripetono due volte e dopo il numero di pagina c'è una strana numerazione (I-V). Togliere?
+
+194
+- tralasciato. C'è un altro problema con la struttura. C'è la numerazione 1-13: la maggior parte sono capitoli, ma i numeri 8, 9 e 10 sono in mezzo ad un paragrafo, in mezzo alle righe e dividono solo le frasi. È un problema simile a quello in 190 - problema 2. Usare i <div> senza <head>, oppure non usare i <div>, ma solo i <p>?
+
+195
+- ok
+
+196
+- ok
+
+197
+- il testo consiste in 18 lettere. Queste sono numerate (1-18), ma non sono sicuro che i numeri siano davvero gli <head> delle lettere. Alternative? Lasciarli come un <p> semplice?
+
+198
+- la stessa domanda del 197
+
+199
+- il testo è suddiviso nei <div> con le esegesi dei singoli articoli del Simbolo. Ogni sezione comincia con una frase del tipo: "sequitur: ET IN SPIRITUM SANCTUM". Queste frasi sono state inserite nell'<head>. Non so, però, cosa fare con la prima sezione, che segue direttamente dopo l'introduzione e questo "titolo" è parte dell'ultima frase dell'introduzione... Lasciare questa sezione senza <head>? O marcare tutto solo con <p>?
+
+200
+- ok
+
+201
+- ok
+- struttura:
+	<div type="book">
+		<div><head>Incipiunt capitula libri XY</head>
+		...</div>
+		<div>
+			<div type="chapter"><head>I.</head><p>...<p></div>
+(cioè, sotto ogni <div type="book"> ci sono due div: uno con l'indice dei capitoli, l'altro con il testo, all'interno del quale sono presenti altri <div> con i singoli capitoli)
+
+202
+- alcune righe sono molto lunghe, probabilmente è stato dimenticato <lb/>
+- i tre capitoli iniziali sono stati collocati tutti e tre in un unico div. Sembrano essere una prefazione (non è esplicitamente detto, però i capitoli seguenti cominciano di nuovo da I, II, III...)
+
+203
+- c'erano già i <p>, ma mancano gli <lb/>
+- la struttura va fino al terzo livello

@@ -1,0 +1,99 @@
+﻿204
+- c'erano già i <p>, ma mancavano i <lb>. Ho messo un <lb/> sul'inizio di ogni riga, ma non so, se è giusto, se le righe nel file corrispondono con quelle nella edizione a stampa...
+- ci sono due livelli di <head>:
+<lb/><head>I. </head>
+<lb/><head type="h_2">Epistola imperatoris cuiuslibet ciuitatis consulibus et populo. </head>
+...
+
+
+205
+- ok
+
+206
+- ok
+- è un dialogo. Esistono alchune instruzioni speciali per i dialogi? E. g. se le battute singole devono essere anche in <div> singoli, o basta <p>?
+
+207
+-ok
+
+208
+-ok(BHL 5877-5877a)
+
+209
+-ok
+
+210
+- non sono sicuro, in che volume di CCM è stato pubblicato (3, o 4)
+- alcune capitoli non avevano il <seg...>, ma [&lt;SMALL&gt;] - probabilmente un tag sbagliatamente convertito nel testo. L'ho convertito nel <head type="4"> e i capitoli correspondenti nel div di quarto livello (mi sa, che originariamente marchavano questi <small> un sotto-capitolo)
+
+211
+-il volume dovrebbe contenere ep. 91-151, però il testo finisce con la lettera n. 124 !!!! Il resto manca...
+
+212
+-ok
+
+
+
+213
+-la pagina 98 non è stata trascritta (resp., c'era per la seconda volta il testo della pagina 96)!
+-era già diviso nei paragrafi, ma senza i <lb>
+-la divisione nei paragrafi è però molto spesso sbagliata: i "paragrafi" finiscono in mezzo di una frase. Per ora ho almeno combinato tali paragrafi in uno.
+-Sara bisongno controllare i <p> nella edizione a stampa!
+-ci sono rimasti segnalazioni di colonne del testo originario ("[88ra]" etc.) Le ho messo in <note>.
+
+
+
+214
+-anche qui erano già i <p> (qui tutti corretti) e mancano i <lb/>
+-manchano anche i <pb>. C'era solo uno, all'inizio, ma senza @n, l'ho tolto
+
+
+
+215
+-ok
+
+
+
+216
+-ok
+
+
+
+217
+i <p> e <lb>: lo stesso come nel testo 213
+-struttura:
+<div>Incipiunt epistulae...</div>
+<div>Epistula I...</div>
+
+o
+
+<div>Incipiunt epistulae...
+  <div>Epistula I...</div>
+  ...
+</div>
+?
+
+
+
+218
+-ok
+
+
+
+219
+1) la struttura è piena di tali casi:
+<div>
+	<p>Spiegazio di qalche problema...</p>
+	<div><p>Lettera modello, in cui si mostra questo problema</p>
+		<p>La lettera ha spesso più paragrafi</p>
+	</div>
+	<p>Di nuovo si parla del problema...</p>
+</div>
+Cioè, dopo un <div> segue un <p> allo stesso livello, ciò che non è corretto secondo il TEI XML
+
+2) il testo è spesso diviso due colonne, le quale contengono diverse versioni testuali di diversi manoscritti Probabilmente), e rendono la struttura ancora molto più intricata. Come li devo segnare? Posso usare il <cb/>? Mi sa però, che questo sia un caso diverso
+
+220
+è lo stesso caso
+
+tutti e due questi documenti ho adeguato in modo molto semplice e elementare...

@@ -1,0 +1,59 @@
+﻿511
+-ok
+
+512
+-ok
+
+513
+-ok
+
+514
+-ok. I primi due paragrafi si potrebbero considerare anche come <div> (resp. un div il primo paragrafo, il quale comincia con "De Valentia", e il resto del testo un altro div, cominciando con "De Sancto Gemino").
+
+515
+-ok. La struttura è un po discutibile (soprattutto le lettere alla fine e la parte principale con i indici dei capitoli). 
+
+516
+-ok
+
+517
+-ok
+
+518
+-ok. Comincia con "2. Incipit..." - non c'è nesun "1. ...". Il testo stesso non è diviso in <p>
+
+521
+Il testo ha più manoscritti e le versioni diverse sono riportate ogni tanto in due colonne su una pagina, ogni tanto si trovano note editoriali nel testo (tipo: <hi rend="italic">P. 140 v. 24 post</hi> per <hi rend="italic">notavit Pertz in</hi> A <hi rend="italic">auctorem variis locis sequentia interponere</hi>...). È un caso simile a quello di n. 175.
+Penso, che sarà bisogno stabilire istruzioni e metodi più precisi e sofisticati per tali testi: come segnare le colonne? Come fare i <div>, quando ci sono più colonne (esempio: un <div> comincia su pagina 1, col. 1, ma poi vienne (pag. 1,) col. 2, dove comincia un altro <div>, ma poi comincia pag. 2, col. 1, dove continua il primo <div> etc.)? Come segnare le note editoriali? Etc. 
+Le note anche non sono state inserite nel luogo essato nel testo, al quale la nota si riferisce, ma nelle fini delle pagine. Ho trovato anche casi, che tale nota in realtà continua sulla pagina succedente, ma nel xml no... Anche questo testo esige una cura molto più profonda, che io gli potevo dare nei limiti del mio impegno.
+
+522
+-ok. I <div> continenti i capitoli di singoli libri sono allo stesso livello come i libri stessi. O è meglio fare un <div>, che contenerebbe tutti due questi <div> (cioè i capita e il libro stesso?)
+
+
+523
+-ok
+
+524
+-ok. È un testo scolastico, quindi ha una struttura ricca e un po problematica. Sono 15 quaestiones, che ho diviso come segue:
+<div>Quaestio...
+   <div>Arguitur, quod non
+      <div>1. ...
+      <div>2. ...
+   <div>In contrarium arguitur...
+   <div>Ad hanc quaestionem dicendum
+   <div>Tunc ad rationes in oppositum respondendum
+      <div>1. ...
+      <div>2. ...
+
+La parte "In contrarium arguitur" è spesso solo una frasi (tipo: "In contrarium dicit Priscianus, quod sic")
+
+-mancano i <pb>: nel file originale i <pb> indicavano l'inizio di ogni quaestio (e come @n avevano "Quaestio [0-9]+"). Li ho trasformati in <!-- Quaestio [0-9]+ -->. 
+
+
+525
+-ok. 
+-l'indice al'inizio è strano: dopo il <pb n="200">, la numerazione va di nuovo da 1. Non so, perché
+
+526-530
+-ok

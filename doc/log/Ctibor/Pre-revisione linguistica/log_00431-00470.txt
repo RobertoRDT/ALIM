@@ -1,0 +1,72 @@
+﻿431
+-commentaria al testo precedente. I singoli commenti ho messo solo in <p>.
+-c'erano tag strani <hi rend="italic"/>. Li ho tolti.
+
+432
+-ok
+-sono lettere. Non so, se fare trasformare le salutaciones in <head>. In alcuni casi fa senso ("Littere de cappellania, per Stephanum."), però in molti sembra strano ("Idem eidem"). Per ora non ho messo nessuno <head> (con eccezione degli ultimi due testi, che non sono lettere, ma sermones) così sia consistente, ma è da discutere (non solo in questo file, ma in generale)
+-in alcune righe era presente escaped html code: [&lt;br&gt;], l'ho tolto
+
+
+433
+-ok
+
+434
+-ok. È una poesia e nel <pb> non è indicato il numero della pagina, ma dei versi... (e forse un <pb> mancha, non mi sembra verosimile, che ci fossero 80 versi su una pagina)
+
+435
+-ok
+
+437, 438 - Commenti di Th. Aq. - tralasciato
+
+439
+-ok
+
+440
+-ok
+
+442
+-ok
+
+443
+-ok
+
+445
+-ok
+
+446
+-ok, ma non sono sicuro, se è meglio numerare i versi dentro ogni <lg>, o attraverso tutto il testo. Ho fatto il primo, ma si può cambiare facilmente
+
+448
+-non sono sicuro, come fare la struttura. Si tratta di un'ordo missae, quindi il testo consiste da una serie di istruzioni, che descrivono, cosa il vescovo deve fare (tipo: "Cum venerit ante altare dicat hanc orationem") e di testi stessi, i quali deve dire ("Deus qui de indignis dignos facis. de peccatoribus &lt;iustos. de&gt; inmundis... ...). Spesso però succede, che in una istruzione si trovano più testi, i quali poi sono introdotti con e. g. "ALIA ORATIO", "ALIA" etc. Per questo motivo ho tutti le istruzione messo al livello <div1> e tutti i testi in loro contenuti al livello <div2>, anche se non hanno il suo titolo (come e. g. "ALIA ORATIO"). Perché volevo essere coerente, occorono anche casi un po' assurdi:
+<div1><p>Perlecto ewangelio dicat episcopus</p>
+   <div2><p>Pax tibi</p></div2>
+</div1>
+Nel <head> ho messo solo i "titoli" scritti in maiuscola come "ALIA ORATIO" e "ALIA", ma anche questo non mi piace molto. Le istruzioni ogni tanto potrebbero essere in <head> ("Oratio sacerdotis ante altare"), ma più spesso non ("Lavatis autem manibus ad altare ascendat et cum humilitate dicat hanc orationem.").
+
+In breve, è brutto questo testo...
+
+
+449
+-ok
+
+451
+-ok
+
+465
+-ok
+
+467
+-ok
+
+468
+-ok
+
+469
+-è un testo bruttissimo! È una cronaca di un monastero, in cui sono inseriti diversi documenti (privilegia, praecepta, lettere etc.), i quali rendono il testo molto confuso: spesso non è chiaro, dove finisce il documento e comincia il testo della cronaca stessa, ugualmente è dificile trovare, dove i documenti singoli cominciano (mancano qualsiasi punti strutturali, come numerazione, titoli in maiuscola, tags come <hi rend...> etc). Il testo è anche pieno di errori OCR. Io feci, quae potui, ma il testo vorrà ancora molto lavoro e molto tempo...
+
+470
+-ok
+-al'inizio di ogni lettera, c'era <pb n="xy Ep. [0-9]">, anche se non era l'inizio della pagina. In tali casi ho tolto queso <pb...>
+-dovrebbe essere una edizione con traduzione al fronte (e quindi i numeri di pagine aumentano di 2), ma dalla pagina 150 aumentano di 1, non so perché. Ma poi, dopo p. 159, segue solo p. 166, non so quindi, se non manca qualcosa.
+-sulle pagine 96-98, c'è una breve storia di Gregorio VII, che non è una lettera (e quindi non capisco, come si è trovata in una serie di lettere)
