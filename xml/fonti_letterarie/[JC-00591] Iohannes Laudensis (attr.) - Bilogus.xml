@@ -1,0 +1,1215 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Bilogus</title>
+				<author>Iohannes Laudensis (attr.)</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>J. Leclercq O. S. B.</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4990" unit="words">Parole: 4990</measure>
+				<measure quantity="29195" unit="characters_without_spaces">Caratteri (spazi esclusi): 29195</measure>
+				<measure quantity="33454" unit="characters_witht_spaces">Caratteri (spazi inclusi): 33454</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2007-06-19">19/06/2007</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 5.067&#13;
+Caratteri spazi esclusi: 29.536&#13;
+CD</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>J. Leclercq O. S. B.</editor>
+						<title>Une paraphrase en vers de proverbes bibliques attribuable à Jean de Lodi</title>
+					</analytic>
+					<monogr>
+						<title level="m">Studi medievali s. III</title>
+						<imprint>
+							<date>1963</date>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="page">325-349</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi/prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok. È un prosimetro, non so se - ed eventualmente dove - mettere i &lt;p&gt;.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<pb n="332"/>
+			<head><lb/>INCIPIT LIBER QUI DICITUR BILOGUS EX SALOMONIS FONTE IN POEMATE
+			<lb/>DERIVATUS. INCIPIT PROLOGUS.</head>
+			<p><lb/>Domino P., uenerabili episcopo, Iohannes, monachici habitus uir devotus:
+			<lb/>optatissimam in Christo salutem.</p>
+			<p><lb/>Licet, pater carissime, in rebus utilibus proferendis peritiae me inopia
+				<lb/>litteralis angustet, solumque silentium linguae meae inter doctiloquos imperet,
+				<lb/>affectus tamen adipiscendae sapientiae, et ea quae ignoro discere et
+				<lb/>ea quae didici ruminare et ruminata in cordis mei pera perpetuo retinere
+				<lb/>compellit. Hactinus uero desiderii cupido iamdiu ad amplectendam Salomonici
+				<lb/>libri sapientiam animum meum prae ceteris excitauit, quia priscos
+				<lb/>sacri uerbi doctores eiusdem uiri doctrinam plurimum admirari et admirando
+				<lb/>comitari cognoui. Quod aliter me posse facere nullatenus estimaui, nisi ut
+				<lb/>quasi ex aliquo mei exercitii glutino et illius fabricae praeclaro bitumine
+				<lb/>summae arcis aedificium aliquod consumarem. Sed quia cuncta illius prouerbia
+				<lb/>me difficile arbitratus sum meo poemate posse per singula exornare,
+				<lb/>studui praestantiora quaedam excerpere, ut ne uel superuacua lectori stomachum
+				<lb/>commouerent, aut nimium breuia de tantis rebus ridiculum facerent
+				<lb/>praesumptorem. Tua siquidem, pater, et quorumdam fratrum dulcis
+				<lb/>exortatio ad hoc opus me ardentissimum inflammauit. Eiusdem etiam Salomonis
+				<lb/>me admonitio concitauit, qui iussit mihi aquam de cisterna mea bibere
+				<lb/>et fontes meos per plateas in populo deriuare. Simulque etiam illud orrui
+				<lb/>arguendum quod ait: <hi rend="italic">Otiositas inimica est animae</hi> . Expaui quoque quod
+				<lb/>idem ipse dixit: <hi rend="italic">Thesaurus absconditus et sapientia inuisa, quae utilitas in
+				<lb/>utrisque?</hi> Tibi igitur, pater, hoc laboris mei opusculum offero, cui debeo
+				<lb/>quicquid in me est quod mea conscientia siue comprobat siue reprehendit.
+				<lb/>Addidi quoque huic libello carmine uestitum illud praeclarae famae miraculum
+				<lb/>quod felicissimus Athanasius episcopus uulgi auribus intimauit: uidelicet
+				<lb/>de sanguine qui ex stipite statuae Christi mirabiliter prodiit, quam Iudaei
+				<lb/>Beritum urbem habitantes, zelo auorum excitati, cruci affixerunt; qui
+				<lb/>sanguis in pluribus urbibus orbis habetur insignis.
+				<lg>
+					<l>Qui uult doctrinam Salomonis discere miram</l>
+					<l>Hunc studeat Bilogum uolere sepe librum.</l>
+					<l>Istic comperiet stilo Prouerbia prisco</l>
+					<l>Quae comit ex fuco mite poema suo.</l>
+					<l n="5">Hic ueteres formas pictura nouella subornat,</l>
+					<l>Et recreat sucos herba uetusta suos.</l>
+					<l>Hic rudis antiquam cenam pinguedo saginat,</l>
+					<pb n="333"/>
+					<l>Fertque nouum merum una recensque uetus.</l>
+					<l>Hic tibi si placeat Salomon dat prandia lectori;</l>
+					<l n="10">Si noua delectent fert tibi carmen opes.</l>
+					<l>Quae tibi per mensas latoris prosa ministrat,</l>
+					<l>Versibusque haec piperis condit amicus ibi.</l>
+				</lg>
+			</p>
+			<p><lb/>Audi, fili mi, disciplinam patris tui, et ne dimittas legem matris, et disce
+				<lb/>iustitiam, et aequitatem et iudicium, ut addatur gratia capiti tuo.
+				<lg>
+					<l>Fili mi, praecepta tuo mea figito cordi,</l>
+					<l>Iustitiaeque uiam disce perire piam.</l>
+				</lg>
+				<lb/>Audiens sapiens sapientior erit, et intelligens gubernacula possidebit.
+				<lg>
+					<l>Auditor sapiens fiet sapientior ipse;</l>
+					<l>Vir nutriet regimen utilis egregie.</l>
+				</lg>
+				<lb/>Fili mi, si te lactauerint peccatores, ne adquiescas eis: pedes enim illorum
+				<lb/>currunt ut effundant sanguinem.
+				<lg>
+					<l>Non te subuertant prauorum mollia uerba,</l>
+					<l>Nec sociare neci sanguinis innocui.</l>
+					<l>Frustra autem iacitur rete ante oculos pennatorum.</l>
+					<l>Ut uolucres fugiunt dum cernunt retia tensa,</l>
+					<l n="5">Sic animo sapiens seua futura cauet.</l>
+				</lg>
+				<lb/>Sapientia foras praedicat in foribus portarum urbis. Profert uerba sua
+				<lb/>dicens: Usquequo, paruuli, diligitis infantiam, dispexistis omne consilium
+				<lb/>meum et increpationes meas neglexistis? Ego quoque in interitu uestro ridebo
+				<lb/>et subsannabo, cum uobis quod timebatis aduenerit, quando uenerit
+				<lb/>super uos tribulatio et angustia.
+				<lg>
+					<l>Alta foras clamat promta sapientia uoce,</l>
+					<l>In portis urbis praedicat atque foris:</l>
+					<l>Cur, pueri, stulta puerilia semper amatis?</l>
+					<l>Ad mea corde pio iussa redite cito.</l>
+					<l n="5">Consilium nunc quippe meum quia spernitis altum,</l>
+					<l>Nolentes uestrum perpes amare decus.</l>
+					<l>Interitus uestros ego, cum perspexero seuos,</l>
+					<l>Ridebo, spernam, sic miseros feriam.</l>
+				</lg>
+				<lb/>Auersio paruulorum interficiet eos, et prosperitas stultorum perdet
+				<lb/>illos. Qui autem me audierit, absque terrore quiescet.
+				<lg>
+					<l>Successu stultos perimunt, aduersa puisillos;</l>
+					<l>Sed qui me sequitur non erit hic trepidus.</l>
+				</lg>
+				<lb/>Inclina cor tuum ad cognoscendam sapientiam; quam si quesieris,
+				<lb/>tunc intelliges timorem Domini et scientiam inuenies.
+				<lg>
+					<l>Ut diuina Deum mete sit sapientia tecum,</l>
+					<l>Quam si quesieris protinus ille dabit.</l>
+				</lg>
+				<pb n="334"/>
+				<lb/>Tunc intelliges iustitiam et iudicium et equitatem et omnem semitam
+				<lb/>bonam, si intrauerit sapientia cor tuum.
+				<lg>
+					<l>Iustitiam cernes si ius cognoscere certes,</l>
+					<l>Monstrabitque uiam lex tibi nota piam.</l>
+				</lg>
+				<lb/>Qui laetantur cum male fecerint et exultant in rebus pessimis, horum
+				<lb/>uiae peruersae sunt et infames gressus eorum.
+				<lg>
+					<l>Si fueris sapiens, actus contempne malorum</l>
+					<l>Qui plaudunt manibus tum mala cum faciunt.</l>
+				</lg>
+				<lb/>Ut eruaris a muliere aliena quae mollit sermones suos.
+				<lg>
+					<l>Verba meretricis fuge mollia semper iniquae,</l>
+					<l>Ut te non blandis decipiat labiis.</l>
+				</lg>
+				<lb/>Qui enim recti sunt habitabunt in terra; impii uero de terra perdentur,
+				<lb/>et qui inique agunt auferentur ex ea.
+				<lg>
+					<l>De tellure uiri uitae perdentur iniqui;</l>
+					<l>Simplicibus rectis pax bene fructus erit.</l>
+				</lg>
+				<lb/>Ne sis sapiens apud temetipsum; time Deum et recede a malo.
+				<lg>
+					<l>Ne uideare tibi sapiens sed prouidus esto,</l>
+					<l>Et Dominum metuens improba cuncta fuge.</l>
+				</lg>
+				<lb/>Honora Deum de tua substantia et de primitiis frugum tuarum, et implebuntur
+				<lb/>orrea tua saturitate et uino torcularia redundabunt.
+				<lg>
+					<l>Primitias frugum Domino deferto tuarum,</l>
+					<l>Ut repleat fructus horrea tota tuus.</l>
+				</lg>
+				<lb/>Ne deficias cum a Domino corripieris. Quem enim diligit Dominus corripit
+				<lb/>et quasi pater in filio complacet sibi.
+				<lg>
+					<l>Ne labare pia cum te Deus arguit ira;</l>
+					<l>Quem cupit heredem fer sibi flagra parens.</l>
+				</lg>
+				<lb/>Noli prohibere benefacere eum qui potest; si uales, et ipse benefac.
+				<lg>
+					<l>Recta patrare uirum noli prohibere uolentem;</l>
+					<l>Sed si recta uales tu bene fac sapiens.</l>
+				</lg>
+				<lb/>Ne dicas amico tuo: Vade et revertere et cras dabo tibi, cum statim possis
+				<lb/>dare.
+				<lg>
+					<l>Ne dicas aliquid cito cum dare possis amico:</l>
+					<l>Cras ad me rediens pollicitata feres.</l>
+				</lg>
+				<lb/>Ne moliaris amico tuo malum, cum ille in the habeat fiduciam.
+				<lg>
+					<l>Nunquam tu fido ferus insidieris amico,</l>
+					<l>Necnon ledenti impia uerba dabis.</l>
+				</lg>
+				<lb/>Abhominatio Domini est omnis illusor, et cum simplicibus sermocinatio
+				<lb/>eius.
+				<lg>
+					<l>Illusor Domino manet execrabilis omnis,</l>
+					<l>Et cum simplicibus colloquitur Dominus.</l>
+				</lg>
+				<lb/>Omni custodia serua cor tuum, quia ex ipso uita procedit.
+				<lg>
+					<l>Cor bene recta tuum semper custodia seruet,</l>
+					<l>Ex ipso quia fit uita salusque tibi.</l>
+				</lg>
+				<pb n="335"/>
+				<lb/>Vias enim quae a dextris sunt nouit Dominus; peruersae uero sunt quae
+				<lb/>a sinistris sunt.
+				<lg>
+					<l>Nota Deo semper fit partis semita dextrae;</l>
+					<l>Ignorat leuum rectus iter Dominus.</l>
+				</lg>
+				<lb/>Caue ut custodias cogitationes, et disciplinam labia tua conseruent.
+				<lg>
+					<l>Custodi, fili, quid mens tua cogitet intus,</l>
+					<l>Doctrinamque tua uociferent labia.</l>
+				</lg>
+				<lb/>Ne des alienis onorem tuum et annos tuos crudeli.
+				<lg>
+					<l>Ne des ipse tuos aliis incautus onores,</l>
+					<l>Nec seuis annos consocies proprios.</l>
+				</lg>
+				<lb/>Bibe aquam
+				<lg>
+					<l>Cisternae potabis aquam puteique fluenta;</l>
+					<l>Diuide fontis aquas, solus habeto tuas.</l>
+				</lg>
+				<lb/>Vade ad formicam, o piger, et considera uias eius et disce sapientiam.
+				<lg>
+					<l>Formicae tibi disce uiam, piger, sapiens ut sis,</l>
+					<l>Ut locuples fias sollicitus uigila.</l>
+				</lg>
+				<lb/>Homo apostata, uir inutilis, graditur ore peruerso, annuit oculis,
+				<lb/>terit pede, digito loquitur, prauo corde machinatur malum.
+				<lg>
+					<l>Peruerso graditur semper uir apostata cursu,</l>
+					<l>Annuit ungue, labris, lumine, calce terit.</l>
+				</lg>
+				<lb/>Sex sunt que odit Dominus et septimum detestatur anima eius: oculos
+				<lb/>sublimes, linguam mendacem, manus effundentes innoxium sanguinem,
+				<lb/>cor machinans cogitationes pessimas, pedes ueloces ad currendum in malum,
+				<lb/>proferentem mendacia testem fallacem, et eum qui seminat inter fratres discordias.
+				<lg>
+					<l>Sex odit Dominus quibus est pars septima peior</l>
+					<l>Quam detestatur ex animo Dominus:</l>
+					<l>Sublimes oculos, mendacem famine linguam,</l>
+					<l>Quique uirum perimit sanguinis innocui,</l>
+					<l n="5">Cor machinans malum niueo uelamine tectum,</l>
+					<l>Ad mala ueloces perficienda pedes,</l>
+					<l>Productum testem mendacia seua ferentem,</l>
+					<l>Inter fratres rixas murmure qui generat.</l>
+				</lg>
+				<lb/>Ut custodias te a muliere mala et a blanda lingua extraneae.
+				<lg>
+					<l>Non mulier et decipiat mala famine blando,</l>
+					<l>Perspice decipula ne capiare sua.</l>
+				</lg>
+				<lb/>Non grandis culpa est cum quis furatur: furatur enim ut esurientem
+				<lb/>impleat animam. Qui autem adulter est propter cordis inopiam perdet animam
+				<lb/>suam, turpitudinem et ignominiam congregat sibi.
+				<lg>
+					<l>Maius crimen habet quam qui furatur adulter:</l>
+					<l>Iste famen pellit, ipse animam perimit.</l>
+				</lg>
+				<pb n="336"/>
+				<lb/>Ira et furor Domini non parcet in die uindictae, nec adquiescet cuiusquam
+				<lb/>precibus, nec suscipiet pro redemptione dona plurima.
+				<lg>
+					<l>Ultio non parcet reprobis in fine superna;</l>
+					<l>Hos nec et eripere plurima dona queent.</l>
+				</lg>
+				<lb/>Multos enim uulneratos deicit mulier blanda, et fortissimi quique interfecti
+				<lb/>sunt ab ea.
+				<lg>
+					<l>Fortes blanda uiros mulier deneruat amicos:</l>
+					<l>Inferi namque uias ire facit miseros.</l>
+				</lg>
+				<lb/>Melior est sapientia cunctis opibus pretiosissimis, et omne desiderabile
+				<lb/>ei non potest comparari.
+				<lg>
+					<l>Est opibus mundi melior sapientia cunctis,</l>
+					<l>Cui nequit aequari quicquid hic orbis habet.</l>
+				</lg>
+				<lb/>Noli arguere derisorem ne oderit te; argue sapientem et diliget te. Da
+				<lb/>sapienti occasionem et addetur ei sapientia.
+				<lg>
+					<l>Si mitem, gaudet, si stultum corripis, odit.</l>
+					<l>Stultus te ridet, laetus amat sapiens.</l>
+				</lg>
+				<lb/>Sapientia aedificauit sibi domum, scidit columnas septem.
+				<lg>
+					<l>Aedificare domum studuit sapientia pulchram,</l>
+					<l>Quam septena petrae scissa columna tenet.</l>
+				</lg>
+				<lb/>Principium sapientiae timor Domini, et scientia sanctorum prudentia.
+				<lg>
+					<l>Principio timor est Domini sapientia uera.</l>
+					<l>Vir sapiens est hic qui Dominum metuit.</l>
+				</lg>
+				<lb/>Filius sapiens laetificat patrem; filius uero stultus mestitia est matri
+				<lb/>suae.
+				<lg>
+					<l>Exilarat patrem prolis sapientia karae,</l>
+					<l>Natus iners matri fit dolor atque patri.</l>
+				</lg>
+				<lb/>Non proderunt thesauri impietatis; iustitia uero liberabit a morte.
+				<lg>
+					<l>Thesaurus miseris non proderit impietatis;</l>
+					<l>Iustitiae cultu(s) soluit ab interitu.</l>
+				</lg>
+				<lb/>Non affliget Deus fame animam iusti, et insidias impiorum subuertet.
+				<lg>
+					<l>Esurie iustum Deus aut lacerabit amara;</l>
+					<l>Prauorum fictas subruet insidias.</l>
+				</lg>
+				<lb/>Egestatem operata est manus remissa; manus autem fortium diuitias
+				<lb/>parat.
+				<lg>
+					<l>Brachia diuitias adquirunt fortia multas,</l>
+					<l>Ac manus esuriem congerit omnis iners.</l>
+				</lg>
+				<lb/>Qui congregat in messe filius sapiens est; qui autem stertit aestate, filius
+				<lb/>confusionis.
+				<lg>
+					<l>Congregat estatis sapiens sibi tempore messem;</l>
+					<l>Segnis omnis stertit probra ferensque genuit.</l>
+				</lg>
+				<lb/>Memoria iusti cum laudibus, et nomen impiorum putrescet.
+				<lg>
+					<l>Fama uiri iusti metam cum laudibus affert;</l>
+					<l>Seua patrare studens nomen et ipse ruet.</l>
+				</lg>
+				<pb n="337"/>
+				<lb/>Qui ambulat simpliciter ambulat confidenter; qui autem deprauat uias
+				<lb/>suas manifestus erit.
+				<lg>
+					<l>Simpliciter uir eundo metu non angitur ullo;</l>
+					<l>Qui deprauat iter procidet ipse miser.</l>
+				</lg>
+				<lb/>Odium suscitat rixas, et uniuersa delicta operit caritas.
+				<lg>
+					<l>Fert odium rixas latitans sub corde doloso;</l>
+					<l>Verus amor mentis crimina cuncta tegit.</l>
+				</lg>
+				<lb/>Substantia diuitis urbs fortitudinis eius; pauor pauperum egestas rerum.
+				<lg>
+					<l>Creditur urbs fortis substantia magna potentis;</l>
+					<l>Pauperies tenuis haec timor est inopis.</l>
+				</lg>
+				<lb/>Abscondunt odium labia mendacia; qui profert contumelias insipiens
+				<lb/>est.
+				<lg>
+					<l>Abscondunt odium mendacia fraude labella;</l>
+					<l>Probra leuis profert protinus insipiens.</l>
+				</lg>
+				<lb/>In multiloq&lt;u&gt;o peccatum non deerit; qui autem moderatur labia
+				<lb/>sua prudentissimus est.
+				<lg>
+					<l>Pluribus eloquiis peccatum semper adheret;</l>
+					<l>Vir uitam linguam qui moderatur amat.</l>
+				</lg>
+				<lb/>Labia iusti erudiunt plurimos; qui autem indocti sunt, in cordis egestate
+				<lb/>morientur.
+				<lg>
+					<l>Erudit ad uitam multos prudentia iusti;</l>
+					<l>Cordis egestatem uir male uiuet habens.</l>
+				</lg>
+				<lb/>Quasi per risum stultus operatur scelus; sapientia est autem uiro prouidentia.
+				<lg>
+					<l>Peccatum quasi per risus operatur iniquus;</l>
+					<l>At sapiens animo prouidus extat homo.</l>
+				</lg>
+				<lb/>Sicut acetum dentibus et fumus oculis, sic piger his qui miserunt eum.
+				<lg>
+					<l>Fumus adest oculis acre, dentibus et fit acetum;</l>
+					<l>Et piger a quibus est missus ineptus homo est.</l>
+				</lg>
+				<lb/>Timor Domini apponit dies; anni impiorum breuiabuntur.
+				<lg>
+					<l>Annos atque dies timor Domini auget habenti;</l>
+					<l>Annus crudelis adbreuiatus erit.</l>
+				</lg>
+				<lb/>Os iusti parturiet sapientiam; lingua prauorum peribit.
+				<lg>
+					<l>Doctrinam parit os iusti grauidante sophya;</l>
+					<l>Praui lingua uiri non moderata perit.</l>
+				</lg>
+				<lb/>Statera dolosa abominatio est apud Deum; et pondus aequum uoluntas
+				<lb/>eius.
+				<lg>
+					<l>Statera plena dolo Domino fit odibilis alto;</l>
+					<l>Aequum pondus amet cui bene recta placent.</l>
+				</lg>
+				<lb/>Ubi fuerit superbia, ibi erit et contumelia; ubi autem humilitas, ibi et
+				<lb/>sapientia.
+				<lg>
+					<l>Elatam semper sequitur discordia mentem;</l>
+					<l>Exornat mitem gloria, pax humilem.</l>
+				</lg>
+				<pb n="338"/>
+				<lb/>Simplicitas iustorum diriget eos, et supplantatio peruersorum vastabit
+				<lb/>illos.
+				<lg>
+					<l>Simplicitas rectos per calles diriget aequos;</l>
+					<l>Deceptor studiis fallitur ipse suis.</l>
+				</lg>
+				<lb/>Iustitia rectorum liberabit eos, et in insidiis suis capientur iniqui.
+				<lg>
+					<l>Insidiis propriis lapsi capientur iniqui;</l>
+					<l>Iustos iustitia liberat ipsa sua.</l>
+				</lg>
+				<lb/>Simulator ore decipit amicum suum; iusti autem liberabuntur scientia.
+				<lg>
+					<l>Decipit ore suum blando simulator amicum,</l>
+					<l>At sapiens seuis liber erit laqueis.</l>
+				</lg>
+				<lb/>In benedictione iustorum exaltabitur ciuitas, et ore impiorum subuertetur.
+				<lg>
+					<l>Urbes exaltat iusti benedictio magna;</l>
+					<l>Subuertit muros ore nefandus homo.</l>
+				</lg>
+				<lb/>Qui ambulat fraudulenter, reuelat archana; qui autem fidelis est, celat
+				<lb/>animi commissum.
+				<lg>
+					<l>Fraude malus seua fallax archana reuelat,</l>
+					<l>Inque fide felix cuncta secreta tegit.</l>
+				</lg>
+				<lb/>Ubi non est gubernator, populus corruet; salus autem ubi multa consilia.
+				<lg>
+					<l>Corruit hic populus sapiens quem nemo gubernat,</l>
+					<l>Consiliisque salus iungitur utilibus.</l>
+				</lg>
+				<lb/>Afligetur malo qui fidem facit pro extraneo; qui autem cauet laqueos
+				<lb/>securus est.
+				<lg>
+					<l>Afficitur poenis infidus sponsor amici;</l>
+					<l>Qui laqueos cernit ipse quietus erit.</l>
+				</lg>
+				<lb/>Benefacit animae suae uir misericors; qui autem crudelis est, et propinquos abicit.
+				<lg>
+					<l>Vir miserans animam propriam saluabit egenis;</l>
+					<l>Fratres crudelis deiciendo ferit.</l>
+				</lg>
+				<lb/>Impius facit opus instabile; seminanti autem iustitiam merces fidelis.
+				<lg>
+					<l>Iustitiam merces dabitur benefida serenti;</l>
+					<l>At opus instabile semper iniquus aget.</l>
+				</lg>
+				<lb/>Clementia praeparabit uitam, et sectatio malorum mortem.
+				<lg>
+					<l>Fert infinitam felix clementia uitam;</l>
+					<l>Iniustus mortem quam sequitur capiet.</l>
+				</lg>
+				<lb/>Alii diuidunt propria, et ditiores fiunt; alii rapiunt non sua, et semper
+				<lb/>in egestate sunt.
+				<lg>
+					<l>Sunt sua qui tribuunt et habent et semper habundant;</l>
+					<l>Sunt aliena quidem qui rapiunt et egent.</l>
+				</lg>
+				<lb/>Qui abscondit frumenta maledicitur in populo; benedictio autem
+				<lb/>super caput uendentium.
+				<lg>
+					<l>Qui frumenta tegit uulgo maledicitur omni;</l>
+					<l>Qui cererem uendit hic benedictus erit.</l>
+				</lg>
+				<pb n="339"/>
+				<lb/>Qui conturbat domum suam possidebit uentos, et qui stultus est seruiet
+				<lb/>sapienti.
+				<lg>
+					<l>Possidet hic uentos propriam qui dissipat aedem;</l>
+					<l>Insipiens docto seruiet ipse uiro.</l>
+				</lg>
+				<lb/>Fructus iusti lignum uitae, et qui suscipit animas sapiens est.
+				<lg>
+					<l>Fructus erit iusti lignum pro munere uitae;</l>
+					<l>Est sapiens animas qui capit indigenas.</l>
+				</lg>
+				<lb/>Non roborabitur homo ex impietate, et radix iustorum non commouebitur.
+				<lg>
+					<l>Impietas hominem prauo non roborat usu;</l>
+					<l>Iustorum radix inclita se&lt;m&gt;per abit.</l>
+				</lg>
+				<lb/>Verte impios et non erunt; domus autem iustorum permanebit.
+				<lg>
+					<l>Verte malos nec erunt, animo mutante figuras,</l>
+					<l>Et bene iustorum permanet alta domus.</l>
+				</lg>
+				<lb/>Doctrina sua dinoscitur uir; qui autem malus et excors est patebit
+				<lb/>contemptui.
+				<lg>
+					<l>Doctum nota uirum patulo sapientia prodit;</l>
+					<l>Contemptui miser est debitus insipiens.</l>
+				</lg>
+				<lb/>Melior est pauper et sufficiens sibi quam uir gloriosus et indigens pane.
+				<lg>
+					<l>Pauper sufficiens melior sibi dicitur insons</l>
+					<l>Quam quem res breuis et gloria uana fouerit.</l>
+				</lg>
+				<lb/>Nouit iustus animas iumentorum suorum; uiscera autem impiorum
+				<lb/>crudelia.
+				<lg>
+					<l>Vir iumentorum sapit aequus corda suorum;</l>
+					<l>Viscera crudeles impia se&lt;m&gt;per habent.</l>
+				</lg>
+				<lb/>Propter peccata labiorum ruinae proximat malum.
+				<lg>
+					<l>Propter praua uiro labiorum crimina diro</l>
+					<l>Imminet et plagam magna ruina parat.</l>
+				</lg>
+				<lb/>Via stulti recta in oculis eius; qui autem sapiens est audit consilia.
+				<lg>
+					<l>Semita recta uiri stulti sua creditur ipsi;</l>
+					<l>Consilium sapiens audit et est sapiens.</l>
+				</lg>
+				<lb/>Fatuus statim indicat iram suam; qui autem dissimulat, callidus est.
+				<lg>
+					<l>Insipiens iram confestim prodit iniquam;</l>
+					<l>Aspera probra gemens dissimulat sapiens.</l>
+				</lg>
+				<lb/>Non contristabit iustum quicquid ei acciderit; impii autem replebuntur
+				<lb/>malo.
+				<lg>
+					<l>Iustus in accessu non contristabitur ullo;</l>
+					<l>Impius aduersis conteritur grauibus.</l>
+				</lg>
+				<lb/>Qui neglegit damnum propter amicos iustus est; iter autem impiorum
+				<lb/>decipiet eos.
+				<lg>
+					<l>Qui neglegit damnum sapien&lt;s&gt; est propter amicum;</l>
+					<l>Et sua uecordes semita decipiet.</l>
+				</lg>
+				<pb n="340"/>
+				<lb/>Qui custodit os suum custodit animam suam.
+				<lg>
+					<l>Os quicumque suum uerbi moderamine frenat</l>
+					<l>Custodit propriam laqueis animam.</l>
+				</lg>
+				<lb/>Vult et non uult piger; anima autem operantium impinguabitur.
+				<lg>
+					<l>Vult piger et non uult, animorum motibus herens;</l>
+					<l>Est operosa manus hic ubi multa salus.</l>
+				</lg>
+				<lb/>Inter superbos semper iurgia sunt; qui autem agunt cuncta consilio
+				<lb/>reguntur sapientia.
+				<lg>
+					<l>Iurgia sunt inter semper diffusa superbos;</l>
+					<l>Vir prudens melius consilio regitur.</l>
+				</lg>
+				<lb/>Qui cum sapientibus graditur, sapiens erit; amicus stultorum efficietur
+				<lb/>similis.
+				<lg>
+					<l>Cum docto gradiens fiet quoque doctus et ipse;</l>
+					<l>Participans stultis efficitur similis.</l>
+				</lg>
+				<lb/>Qui parcit uirgae suae odit filium suum; qui autem diligit illum, instanter
+				<lb/>erudit.
+				<lg>
+					<l>Qui parcit uirgae natum quem diligit odit;</l>
+					<l>Quos amat instanter erudit ille pater.</l>
+				</lg>
+				<lb/>Sapiens mulier aedificabit domum suam; insipiens extructam quoque
+				<lb/>destruet manibus.
+				<lg>
+					<l>Docta domum mulier sub stemate condit amoeno;</l>
+					<l>Insipiens structum destruit euacuans.</l>
+				</lg>
+				<lb/>Domus impiorum delebitur; tabernacula uero iustorum germinabunt.
+				<lg>
+					<l>Prauorum domus instabilis delebitur alta;</l>
+					<l>Germina grata pii munda taberna dabit.</l>
+				</lg>
+				<lb/>Est uia quae uidetur homini iusta, nouissima autem eius ducit ad mortem.
+				<lg>
+					<l>Est uia quae iusto simulatur tramite duci,</l>
+					<l>Diram meta necem cuius amara feret.</l>
+				</lg>
+				<lb/>Risus dolore miscebitur, et extrema gaudii luctus occupat.
+				<lg>
+					<l>Risus habet semper mixtus in fine dolores;</l>
+					<l>Occupat et meror gaudia cuncta ferox.</l>
+				</lg>
+				<lb/>Sapiens timet et declinat malum; stultus transilit et confidit.
+				<lg>
+					<l>Formidat sapiens uitans discrimina seua;</l>
+					<l>Stultus confidit, transilit, inde cadit.</l>
+				</lg>
+				<lb/>Qui despicit proximum suum peccat; qui autem miseretur pauperi beatus
+				<lb/>erit.
+				<lg>
+					<l>Despiciens inopem peccatum congerit i&lt;n&gt;gens;</l>
+					<l>Vitam felicem qui miseretur habet.</l>
+				</lg>
+				<lb/>In multitudine populi dignitas regis, et in paucitate plebis ignominia
+				<lb/>principis.
+				<lg>
+					<l>Regis honor daret populi stipatio magni,</l>
+					<l>Et raro princeps milite turpis hebet.</l>
+				</lg>
+				<pb n="341"/>
+				<lb/>Vita carnium sanitas cordis; putredo ossium inuidia.
+				<lg>
+					<l>Carnea uita simul cordis fit uita salubris,</l>
+					<l>Internisque putrent ossibus inuidiae.</l>
+				</lg>
+				<lb/>Iustitia eleuat gentem; miseros facit populos peccatum.
+				<lg>
+					<l>Iustitiam gentem leuat alma cupido uolentem;</l>
+					<l>Peccatum miseros grande facit populos.</l>
+				</lg>
+				<lb/>Responsio mollis frangit iram; sermo durus suscitat furorem.
+				<lg>
+					<l>Iram feruentem frangit responsio mollis,</l>
+					<l>Et surgit duro famine sepe furor.</l>
+				</lg>
+				<lb/>Victimae impiorum abhominabiles Domino; uota iustorum placabilia.
+				<lg>
+					<l>Victima prauorum Domino est inamabilis aequo;</l>
+					<l>Vota placent iusta luminibus Domini.</l>
+				</lg>
+				<lb/>Melius est parum cum timore Domini quam thesauri magni et insatiabiles.
+				<lg>
+					<l>Paruula res melior Domini fit iuncta timori</l>
+					<l>Thesauris frugi quos tenet arca uiri.</l>
+				</lg>
+				<lb/>Melius est uocare ad olera cum karitate quam ad uitulum saginatum
+				<lb/>cum odio.
+				<lg>
+					<l>Gratius est olus exhibitum tribuentis amore</l>
+					<l>Quam uitulus pinguis qui calet ex odiis.</l>
+				</lg>
+				<lb/>Vir iracundus prouocat rixas; qui patiens est mitigat suscitatas.
+				<lg>
+					<l>Iracundus homo rixas diffundit amaras;</l>
+					<l>Mitigat iratos uir patiens animos.</l>
+				</lg>
+				<lb/>Dissipantur cogitationes ubi non est consilium; ubi uero plures sunt
+				<lb/>consiliarii, confirmantur.
+				<lg>
+					<l>Vir sine consilio quod sperat dissipat omne;</l>
+					<l>Firmantur multis commoda consiliis.</l>
+				</lg>
+				<lb/>Conturbat domum suam qui sectatur auaritiam; qui autem odit munera
+				<lb/>uiuet.
+				<lg>
+					<l>Ille domum turbat mentem qui nutrit auaram;</l>
+					<l>Munera conte&lt;m&gt;pnens hic uiget ut sapiens.</l>
+				</lg>
+				<lb/>Hominis est animum praeparare, et Dei gubernare linguam.
+				<lg>
+					<l>Preparet incertos animos homo quisque futuri,</l>
+					<l>At linguam Dominus soluit alitque pius.</l>
+				</lg>
+				<lb/>Cum placuerint Domino uiae hominis, inimicos quoque eius convertet
+				<lb/>ad pacem.
+				<lg>
+					<l>Semita quando uiri Domino placet utilis aequi,</l>
+					<l>Huic hostes uertens pace Deus rediget.</l>
+				</lg>
+				<lb/>Cor hominis disponet uiam suam, sed Domini est dirigere gressus eius.
+				<lg>
+					<l>Mens iterare uias hominis disponit amicas,</l>
+					<l>Ad Dominus gressus dirigit eximius.</l>
+				</lg>
+				<pb n="342"/>
+				<lb/>In illaritate uultus regis uita; et clementia eius quasi ymber serotinus.
+				<lg>
+					<l>In placido regis uultu fit uita beatis;</l>
+					<l>Imber ut est aptus tempore serotinus.</l>
+				</lg>
+				<lb/>Contritionem praecedit superbia, et ante ruinam exaltabis spiritus.
+				<lb/>/*
+				<lg>
+					<l>Preuenit instante sue sana superbia casus;</l>
+					<l>Spiritus exultat quam prius ille ruat.</l>
+				</lg>
+				<lb/>Homo peruersus suscitat lites, et uerbosus separat principes.
+				<lg>
+					<l>Peruersus lites homo fratribus ingerit altas;</l>
+					<l>Verbosus reges separat et comites.</l>
+				</lg>
+				<lb/>Melior patiens est uiro forte et qui dominatur animo suo, expugnatore
+				<lb/>urbium.
+				<lg>
+					<l>Est melior patiens urbes pugnante superbas,</l>
+					<l>Et dominando sui fortior est aliis.</l>
+				</lg>
+				<lb/>Seruus sapiens dominabitur filiis stultis, et inter fratres hereditatem
+				<lb/>diuidet.
+				<lg>
+					<l>Diuidet in stultis dominis patrimonia seruus,</l>
+					<l>Utilis heredes instituens hebetes.</l>
+				</lg>
+				<lb/>Qui despicit pauperem exprobrat Factori eius; et qui in ruina laetatur
+				<lb/>alterius non erit impunitus.
+				<lg>
+					<l>Despiciens inopem Factorem despicit eius;</l>
+					<l>Alterius gaudens casibus ipse cadet.</l>
+				</lg>
+				<lb/>Qui reddit mala pro bonis non recedit mala de domo eius.
+				<lg>
+					<l>Est homo non felix qui pro mala reddit honestis,</l>
+					<l>Et domus illius peste carere nequit.</l>
+				</lg>
+				<lb/>Qui dimittit aquam caput est iurgiorum, et antequam patiatur contumeliam,
+				<lb/>iudicium deserit.
+				<lg>
+					<l>Qui dimittit aquam fiet caput ille dolorum;</l>
+					<l>Iurgia qui fundit dedecoratus erit.</l>
+				</lg>
+				<lb/>Est qui iustificat impium, et qui condempnat iustum: est abhominabilis
+				<lb/>uterque apud Deum.
+				<lg>
+					<l>Iustificans nequam, rectos examine damnans,</l>
+					<l>Iudicio Domini talis uterque perit.</l>
+				</lg>
+				<lb/>Omni tempore diligit qui amicus est, et frater in angustiis comprobatur.
+				<lg>
+					<l>Fidus homo fidos umquam non linquit amicos;</l>
+					<l>Aduersis frater carus amicus adest.</l>
+				</lg>
+				<lb/>Munera de sinu impius accipit ut peruertat semitas iudicii.
+				<lg>
+					<l>De gremio nummos peccantum sumit iniquus;</l>
+					<l>Subuertit captus munere iudicium.</l>
+				</lg>
+				<lb/>Stultus quoque si tacuerit sapiens putabitur; et si compresserit labia
+				<lb/>sua intelligens.
+				<lg>
+					<l>Dum tacet insipiens sapiens in plebe putatur;</l>
+					<l>Creditur intendens indice labia tegens.</l>
+				</lg>
+				<pb n="343"/>
+				<lb/>Occasiones querit qui uult recedere ab amico; omni tempore erit exprobrabilis.
+				<lg>
+					<l>A fido causas cupiens discedere querit;</l>
+					<l>Afficitur probris qui studet ire dolis.</l>
+				</lg>
+				<lb/>Impius cum in profundum uenerit peccatorum contempnit, sed sequetur
+				<lb/>ignominia et obprobrium.
+				<lg>
+					<l>Impius in puteum peccati crimina tempnit;</l>
+					<l>Hunc tamen inuisum dedecus insequitur.</l>
+				</lg>
+				<lb/>Verba bilinguis quasi simplicia, et ipsa perueniunt usque ad interiora
+				<lb/>uentris.
+				<lg>
+					<l>Verba susurronis quasi simplicis oris;</l>
+					<l>Haec tamen ad uentris uiscera prona fluunt.</l>
+				</lg>
+				<lb/>Qui prius respondet quam audiat, stultum se esse demonstrat et confusione
+				<lb/>dignum.
+				<lg>
+					<l>Respondens citius quam sollers audiat esse</l>
+					<l>Monstrat se stultum, consilio uacuum.</l>
+				</lg>
+				<lb/>Iustus prior est accusator sui; uenit amicus eius et inuestigabit eum.
+				<lg>
+					<l>Se prior accusans Domino uir iustus habetur;</l>
+					<l>Iudicio placidus discutiet Deus hunc.</l>
+				</lg>
+				<lb/>Mors et uita in manu linguae; et qui comedent eam fructum eius.
+				<lg>
+					<l>In manibus linguae mors est et uita loquentis;</l>
+					<l>Fructibus illius hanc retinens fruitur.</l>
+				</lg>
+				<lb/>Vir amicabilis ad societatem magis amicus erit quam frater.
+				<lg>
+					<l>Qui blando fit conueniens et amabilis ore.</l>
+					<l>Dulcior est fratre, carior atque patre.</l>
+				</lg>
+				<lb/>Testis falsus non erit impunitus, et qui mendacia loquitur non effugiet.
+				<lb/>/*
+				<lg>
+					<l>Non erit impunitus fallax in crimine testis.</l>
+					<l>Nec fugiet penam qui loquitur reproba.</l>
+				</lg>
+				<lb/>Fratres hominis pauperis oderunt eum; insuper et amici procul recesserunt
+				<lb/>ab eo.
+				<lg>
+					<l>Exhorrent inopem crudelia pectora fratrem;</l>
+					<l>Pauperis aequeuum spernit amicus eum.</l>
+				</lg>
+				<lb/>Doctrina uiri per patientiam noscitur, et gloria eius est iniqua praetergredi.
+				<lg>
+					<l>Doctum prona uirum fieri patientia monstrat,</l>
+					<l>Gloria cui magna fit reprobare nefas.</l>
+				</lg>
+				<lb/>Sicut fremitus leonis, ita et ira regis; et sicut ros super erbam, ita ilaritas
+				<lb/>eius.
+				<lg>
+					<l>Sic furor est regis fremitus uelut ore leonis;</l>
+					<l>Ros uelut est erbis est ita rex ilaris.</l>
+				</lg>
+				<pb n="344"/>
+				<lb/>Feneratur Domino qui miseretur pauperis, et uicissitudinem suam
+				<lb/>reddet ei.
+				<lg>
+					<l>Fenerat ille Deo quisquis miseretur egeno,</l>
+					<l>Atque uicem recipit qui pia dona dedit.</l>
+				</lg>
+				<lb/>Luxuriosa res uinum et tumultuosa ebrietas: quicumque his delectatur
+				<lb/>non erit sapiens.
+				<lg>
+					<l>Ex uino luxus fluit ebrietasque tumultus:</l>
+					<l>His se qui miscet non agit ut sapiens.</l>
+				</lg>
+				<lb/>Propter frigus piger arare noluit; mendicabit ergo estate, et non dabitur
+				<lb/>ei.
+				<lg>
+					<l>Nolit arare piger frigens algore minaci;</l>
+					<l>Meret in estate fertilitate carens.</l>
+				</lg>
+				<lb/>Iustus qui ambulat in simplicitate sua beatos post se filios derelinquet.
+				<lg>
+					<l>Vir iustus peragrans in simplicitate beata</l>
+					<l>Ipse bonam prolem tempore mortis habet.</l>
+				</lg>
+				<lb/>Pondus et pondus, et mensura et mensura: utrumque abhominabile
+				<lb/>est apud Deum.
+				<lg>
+					<l>Est odium pondus Domino mensuraque duplex.</l>
+					<l>Exsecratur et hunc qui patrat ista Deus.</l>
+				</lg>
+				<lb/>Dissipat impios rex sapiens et incuruat super eos fornicem.
+				<lg>
+					<l>Rex sapiens reprobos disperdit iure tirannos,</l>
+					<l>Et super hos curuo fornice tecta leuat.</l>
+				</lg>
+				<lb/>Mul&lt;c&gt;tato pestilente sapientior erit paruulus, et qui sequitur
+				<lb/>sapientiam sumet scientiam.
+				<lg>
+					<l>Viro pestifero metuens fit mitior ulto;</l>
+					<l>Qui sequitur docile ipse peritus adest.</l>
+				</lg>
+				<lb/>Qui diligit epulas in egestate erit; qui amat uinum et pinguia non
+				<lb/>ditabitur.
+				<lg>
+					<l>Pauper amans epulas uitam patietur amaram,</l>
+					<l>Nam faciunt hominem Bachus, adeps, inopem.</l>
+				</lg>
+				<lb/>Melius est habitare in terra deserta quam cum muliere rixosa et iracunda.
+				<lg>
+					<l>Desertas homini melius puto uertere terras</l>
+					<l>Quam cum rixosa coniuge ferre moras.</l>
+				</lg>
+				<lb/>Non est sapientia, non est prudentia, non est consilium contra Dominum.
+				<lg>
+					<l>Aduersus Deum non est prudentia quicquam.</l>
+					<l>Nec contra fit eum consilium ualidum.</l>
+				</lg>
+				<lb/>Melius est nomen bonum quam diuitiae multae; super argentum uero
+				<lb/>et aurum gratia bona.
+				<lg>
+					<l>Diuitias multas famae praecellit honestas.</l>
+					<l>Argento et auro gratia fit melior.</l>
+				</lg>
+				<pb n="345"/>
+				<lb/>Qui calumpniatur pauperem ut augeat diuitias suas dabit ipse ditiori
+				<lb/>et egebit.
+				<lg>
+					<l>Cum quis diuitias augens extorquet egenis,</l>
+					<l>Illo post alter ditior has rapiet.</l>
+				</lg>
+				<lb/>Non facias uiolentiam pauperi quia pauper est, neque conteras egenum
+				<lb/>in porta, quia Dominus iudicabit causam eius et configet eos qui confixerunt
+				<lb/>animam eius.
+				<lg>
+					<l>Ne facias homini uim tu uiolentus amaram,</l>
+					<l>Nam pius illius ultor erit Dominus.</l>
+				</lg>
+				<lb/>Noli esse amicus homini iracundo, neque ambules cum uiro furioso.
+				<lg>
+					<l>Non iracundo fias ignauus amicus,</l>
+					<l>Nec tibi sit comes hic qui furiosus adit.</l>
+				</lg>
+				<lb/>Nec erigas oculos tuos ad opes quas habere non potes, quia faciunt sibi
+				<lb/>pennas quasi aquilae et uolabunt in celum.
+				<lg>
+					<l>Non inhies opibus quas accumulare nequibis,</l>
+					<l>Nam faciunt pennas ut uolucresque uolant.</l>
+				</lg>
+				<lb/>Noli esse in conuiuiis potatorum nec in comessationibus eorum, quia
+				<lb/>carnes ad uescendum conferunt.
+				<lg>
+					<l>Potantum nimium sobrius conuiuia sperne</l>
+					<l>Qui se collata hos fuge carne cibant.</l>
+				</lg>
+				<lb/>Gloria Dei celare uerbum, et gloria regum inuestigare sermonem.
+				<lg>
+					<l>Gloria fit Domini uerbum celare silendum;</l>
+					<l>Regum sermones nosse bonos decus est.</l>
+				</lg>
+				<lb/>Si esurierit inimicus tuus ciba illum; si sitierit, da ei aquam bibere.
+				<lg>
+					<l>Si tuus esurit hostis tu eum pane cibato;</l>
+					<l>Si sitiet placidam porrige mitis aquam.</l>
+				</lg>
+				<lb/>Sicut qui mel multum comedit non est ei bonum, sic qui scrutator est
+				<lb/>maiestatis oprimitur gloria.
+				<lg>
+					<l>Qui multum mellis comedit patietur amare;</l>
+					<l>A ardua deprimitur discutiens nimium.</l>
+				</lg>
+				<lb/>Sicut urbs patens et absque murorum ambitu, ita uir qui non potest
+				<lb/>in loquendo cohibere spiritum suum.
+				<lg>
+					<l>Urbs ut tota patens nullo tutatur ab hoste:</l>
+					<l>Sic uir non cohibens os sed inepta loquens.</l>
+				</lg>
+				<lb/>Responde stulto iuxta stultitiam suam, ne sibi sapiens esse uideatur.
+				<lg>
+					<l>Responde stulto iuxta quod digna meretur.</l>
+					<l>Ne sibi cernatur famine doctiloquus.</l>
+				</lg>
+				<lb/>Verba susurronis quasi simplicia, et ipsa perueniunt usque ad intima
+				<lb/>uentris.
+				<lg>
+					<l>Sermo susurronis gladio cor figit acuto;</l>
+					<l>Fit ferus interius mollis ab ore fluens.</l>
+				</lg>
+				<pb n="346"/>
+				<lb/>Laudet te alienum et non os tuum, extraneus et non labia tua.
+				<lg>
+					<l>Non tua te laudet populi sed proximi lingua</l>
+					<l>Quamque tuum potius alterius labium.</l>
+				</lg>
+				<lb/>Substantia festinata minuetur; quae autem paulatim colligitur manu
+				<lb/>multiplicabitur.
+				<lg>
+					<l>Festinata cito substantia labitur aucta;</l>
+					<l>Paulatim manibus multiplicata uiget.</l>
+				</lg>
+				<lb/>Melior est manifesta correptio quam amor absconditus.
+				<lg>
+					<l>Utilior patulis homini correptio uerbis</l>
+					<l>Quam sit amor magnus conditus interius.</l>
+				</lg>
+				<lb/>Infernus et perditio non replebuntur; similiter oculi hominum insatiabiles.
+				<lg>
+					<l>Infernus nequit impleri per saecula sicut,</l>
+					<l>Sic oculus cupidi non satiatus erit.</l>
+				</lg>
+				<lb/>Fugit impius nemine persequente; iustus autem quasi leo confidens
+				<lb/>absque terrore erit.
+				<lg>
+					<l>Quem non persequitur trepidus fugit impius alter.</l>
+					<l>Iustus confidit, ut leo fortis adit.</l>
+				</lg>
+				<lb/>Qui declinat aurem suam ne audiat legem, oratio eius erit execrabilis.
+				<lg>
+					<l>Aures declinat ne leges audiat excors:</l>
+					<l>Illius oratus oderit hinc Dominus.</l>
+				</lg>
+				<lb/>Qui abscondit scelera sua non dirigetur; qui autem confessus fuerit
+				<lb/>et reliquerit ea, misericordiam consequetur.
+				<lg>
+					<l>Qui peccata tegit proprios non dirigit actus;</l>
+					<l>Qui prodit lacrimans huic Deus est miserans.</l>
+				</lg>
+				<lb/>Beatus homo qui semper est pauidus; qui uero mentis est durae corruet
+				<lb/>in malum.
+				<lg>
+					<l>Qui pauidus semper fit felix ille quiescet;</l>
+					<l>At mentis durae qui manet ipse ruet.</l>
+				</lg>
+				<lb/>Qui operatur terram suam saturabitur panibus; qui sectatur otium replebitur
+				<lb/>egestate.
+				<lg>
+					<l>Vir terram operans saturatur panibus aptis;</l>
+					<l>Otia quisquis amat uiscera fert uacua.</l>
+				</lg>
+				<lb/>Vir qui festinat ditari et aliis inuidet ignorat quod egestas superueniet ei.
+				<lg>
+					<l>Ditari cito festinans uir et inuidus omnis</l>
+					<l>Non sapit infelix quam cito pauper erit.</l>
+				</lg>
+				<lb/>In multiplicatione iustorum letabitur uulgus; cum impii sumpserint
+				<lb/>principatum gemet populus.
+				<lg>
+					<l>In sociis multis uulgus letatur honestis,</l>
+					<l>Principibusque feris est gemitus populis.</l>
+				</lg>
+				<lb/>Totum spiritum suum profert stultus; sapiens difert et reseruat in posterum.
+				<lg>
+					<l>Insipiens totum quod sentit uocibus effert;</l>
+					<l>At sapiens seruat corde loquenda probans.</l>
+				</lg>
+				<pb n="347"/>
+				<lb/>Qui delicate a pueritia nutrit seruum suum, postea illum sentiet contumacem.
+				<lg>
+					<l>Delitiis quisquis seruum puerum nutrit altis.</l>
+					<l>Hunc obsistentem post sibi sentit hebes.</l>
+				</lg>
+				<lb/>Nullum secretum est ubi regnat ebrietas.
+				<lg>
+					<l>Secretum semper patet ebrietate frequenti;</l>
+					<l>Incumbens uino mentis habetur inops.</l>
+				</lg>
+				<lb/>Ad locum unde exeunt flumina reuertuntur ut iterum fluant.
+				<lg>
+					<l>Unde fluunt redeunt decursis flumina limphis</l>
+					<l>Ut rursus regrada clarior unda fluat.</l>
+				</lg>
+				<lb/>In multa sapientia multa est indignatio, et qui apponit scientiam apponit
+				<lb/>dolorem.
+				<lg>
+					<l>Vir sapiens animo semper suspirat amaro;</l>
+					<l>Plurima discenti a.a! dolor altus erit.</l>
+				</lg>
+				<lb/>Funiculus triplex difficile rumpitur. Melior est pauper et sapiens rege
+				<lb/>sene et stulto.
+				<lg>
+					<l>Funiculus triplex facili non rumpitur hictu.</l>
+					<l>Rege sene et stulto doctus inops melior.</l>
+				</lg>
+				<lb/>Multas curas secuntur somnia, et in multis sermonibus inuenitur stultitia.
+				<lg>
+					<l>Multiplices curas imitantur somnia dura;</l>
+					<l>In uerbis multis improba lingua ruit.</l>
+				</lg>
+				<lb/>Multo melius est non uouere quam post uotum promissa non reddere.
+				<lg>
+					<l>Vota Deo cuiquam non prodest fundere iusta,</l>
+					<l>Ni pia promissa post bene perficiat.</l>
+				</lg>
+				<lb/>Auarus non impletur pecunia, et qui amat diuitias fructus non capiet
+				<lb/>ex eis.
+				<lg>
+					<l>Non umquam nummis inhians impletur auarus;</l>
+					<l>Fructus non capiet diuitias cupiens.</l>
+				</lg>
+				<lb/>Sicut egressus est homo nudus de utero matris suae, sic reuertetur,
+				<lb/>et nichil affert secum de labore suo.
+				<lg>
+					<l>Ut puer egreditur nudus genitricis ab aluo</l>
+					<l>Sic illuc rediet nec sua parta uehet.</l>
+				</lg>
+				<lb/>Melius est ire ad domum luctus quam ad domum conuiuii.
+				<lg>
+					<l>Ira domum melius luctus est funere tristem</l>
+					<l>Quam conuiuantum ludibriis hilarem.</l>
+				</lg>
+				<lb/>Cor sapientium ubi tristitia est, et cor stultorum ubi laetitia.
+				<lg>
+					<l>Est ibi cor sapientis ubi tribulatio flentis;</l>
+					<l>Stultum semper amat prodere laetitiam.</l>
+				</lg>
+				<lb/>Ne uelox sis ad irascendum, quia ira in sinu stulti requiescit.
+				<lg>
+					<l>Ne uelox fias ad iniquam feruidus iram,</l>
+					<l>Namque sinu stulti conditur ira uiri.</l>
+				</lg>
+				<pb n="348"/>
+				<lb/>Virum de mille unum repperi; mulierem ex omnibus non inueni.
+				<lg>
+					<l>Vir fieri de mille ualet uix sobrius unus;</l>
+					<l>Ex cunctis mulier nulla pudica manet.</l>
+				</lg>
+				<lb/>Non est in hominis ditione prohibere spiritum, nec habet potestatem in
+				<lb/>die mortis.
+				<lg>
+					<l>In ditione sua non est spirare uolentis,</l>
+					<l>Nec ualet eripere se nece uir moriens.</l>
+				</lg>
+				<lb/>Quodcumque potest manus tua facere instanter operare, quia nec opus,
+				<lb/>nec ratio, nec scientia, nec sapientia erunt apud inferos quo tu properas.
+				<lg>
+					<l>Quae potes instanter miseris solatia ferto:</l>
+					<l>Non apud infernos est opus aut ratio.</l>
+				</lg>
+				<lb/>Ve tibi terra cuius rex puer, est, et cuius principes mane comedunt.
+				<lg>
+					<l>Ve tibi terra quam rex infrena gubernat</l>
+					<l>Et cuius princeps mane sedet comedens.</l>
+				</lg>
+				<lb/>Si ceciderit lignum ad austrum aut ad aquilonem, in quocumque loco
+				<lb/>ceciderit ibi erit.
+				<lg>
+					<l>Ad partem quamcumque cadens aquilonis et austri,</l>
+					<l>Lignum fiet ibi: sic homo cum ruerit.</l>
+				</lg>
+				<lb/>Inuidia autem diaboli mors introiuit in orbem terrarum; imitantur autem
+				<lb/>illum qui sunt ex parte illius.
+				<lg>
+					<l>Inuidia sontis mors orbem perculit hostis;</l>
+					<l>Nunc illum fratrem qui comitantur habent.</l>
+				</lg>
+				<lb/>Custodite ergo uos a murmuratione quae nichil prodest, et a detractione
+				<lb/>parcite linguae.
+				<lg>
+					<l>Murmura non uestras animas laetalia sternant,</l>
+					<l>Nec fratris uitam proxima lingua trahat.</l>
+				</lg>
+				<lb/>Bonorum enim labiorum gloriosus est fructus, et quae non concidat radix
+				<lb/>sapientiae.
+				<lg>
+					<l>Fructus rectorum cumulantur fine laborum,</l>
+					<l>Et quorum radix marcida nulla cadit.</l>
+				</lg>
+				<lb/>Condempnat autem iustus mortuus uiuos impios, et iuuentus celerius
+				<lb/>consumata longam uitam iniusti.
+				<lg>
+					<l>Defunctus uiuos iustus condemnat iniquos,</l>
+					<l>Et iuuenis celeris mors mala facta senis.</l>
+				</lg>
+				<lb/>Iudicium durissimum in his qui praesunt fiet: exiguo enim conceditur
+				<lb/>misericordia; potentes autem potenter tormenta patiuntur.
+				<lg>
+					<l>Iudicium reprobis praelatis amarum,</l>
+					<l>Et locuples poena potentis erit.</l>
+				</lg>
+				<lb/>Non enim subtrahet personam cuiusquam Dominus, nec reuerebitur
+				<lb/>magnitudinem cuiusquam Deus.
+				<lg>
+					<l>Non Dominus parcet cuiquam sub fine potenti,</l>
+					<l>Nec magnum Iudex ipse uirum metuet.</l>
+				</lg>
+				<pb n="349"/>
+				<lb/>Unus ergo introitus omnibus, et similis exitus.
+				<lg>
+					<l>Introitus uitae est cunctis mortalibus unus,</l>
+					<l>Et cunctis erit his exitus assimilis.</l>
+				</lg>
+				<lb/>Corpus quod corrumpitur aggrauat animam, et deprimit terrena inhabitatio
+				<lb/>sensum multa cogitantem.
+				<lg>
+					<l>Aggrauat inclusas animas dilabile corpus;</l>
+					<l>Deprimit et sensum terrea iure domus.</l>
+				</lg>
+				<lb/>Acerbo enim luctu dolens pater, cito sibi rapti filii fecit imaginem. Illum
+				<lb/>qui tunc homo mortuus fuerat, nunc tanquam deum colere cepit, et
+				<lb/>constituit inter seruos sacra et sacrificia. Deinde, interueniente tempore,
+				<lb/>ualescente iniqua consuetudine, hic error tanquam lex custoditum est, et
+				<lb/>tirannorum imperio colebantur figmenta; et eum quem antea tanquam homo
+				<lg>
+					<l>honoratus fuerat, nunc ut deum adorauerunt.</l>
+					<l>Forte dolens cari genitor de funere nati</l>
+					<l>Effigiem ligni huic similem statuit.</l>
+					<l>Hanc inter famulos sacratam censet haberi</l>
+					<l n="5">Et iubet hoc magno numen honore coli.</l>
+					<l>Hinc miser excreuit mos in mortalia corda</l>
+					<l>Ut ueneretur homo quos facit ipse deos.</l>
+					<l>O mens stulta nimis oculos quae figit in imis</l>
+					<l>Qui nequeunt orat ullum parare bona!</l>
+				</lg>
+				<lb/>Cum enim quietum silentium contineret omnia, et nox in suo cursu
+				<lb/>medium iter haberet, omnipotens sermo tuus, Domine, de caelo a regalibus
+				<lb/>sedibus uenit; durus debellator in mediam exterminii terram prosiliuit, gladium
+				<lb/>acutum insimilatum imperium portans tuum; et stans repleuit
+				<lb/>omnia morte, et usque ad caelum attigebat stans in terra.
+				<lg>
+					<l>Dum fierent cunctis tenebrosa silentia terris,</l>
+					<l>Et nox obscura curreret acqua rota,</l>
+					<l>Sermo Deo missus uerbum sapientia Christus</l>
+					<l>Claustrum uirginei uentris ab arce petit,</l>
+					<l n="5">Bellator durus gladio portauit acutum,</l>
+					<l>Imperiumque tenens omnia morte replet.</l>
+				</lg>
+			</p>
+		</div>
+	</body>
+</text>
+</TEI>

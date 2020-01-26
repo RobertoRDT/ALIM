@@ -1,0 +1,3841 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Opera poetica</title>
+				<author>Petrus Damiani</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>M. Lokrantz</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="12743" unit="words">Parole: 12743</measure>
+				<measure quantity="74212" unit="characters_without_spaces">Caratteri (spazi esclusi): 74212</measure>
+				<measure quantity="84383" unit="characters_witht_spaces">Caratteri (spazi inclusi): 84383</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2005-10-15">15/10/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Teologia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: 13.044 parole&#13;
+100.729 caratteri&#13;
+LDF</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">L'opera poetica di S. Pier Damiani: Descrizione dei manoscritti, edizione del testo, esame prosodico metrico, discussione delle questioni d'autenticita</title>
+						<editor>M. Lokrantz</editor>
+						<imprint>
+							<publisher>Almquist &amp; Wilksell</publisher>
+							<pubPlace>Stockholm</pubPlace>
+							<date>1964</date>
+							<biblScope unit="page">53-158</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Teologia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok. Il testo consiste di numerose poesie di diversa struttura e metri. Quando la poesia è divisa in strofe le ho marcate con &lt;lg&gt;, ma la numerazione dei versi non riparte ad ogni &lt;lg&gt;: è ininterrotta dall'inizio alla fine della poesia (ciascuna delle quali occupa un &lt;div&gt;). Ogni tanto mancano i numeri delle poesie (quando c'era rimasto il punto, ho aggiunto il numero [come e.g. &lt;lb/&gt;. RHYTMUVS PAENITENTIS MONACHI. --&gt; &lt;lb/&gt;6. RHYTMUVS PAENITENTIS MONACHI.], ma quando non c'era il punto, non l'ho fatto. Ma questi casi si possono trovare facilmente.)</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="53"/>
+		<div>
+			<head><lb/>A.</head>
+			<div>
+				<head><lb/>I. DE ANNVNCIATIONE DOMINI.</head>
+				<lg>
+					<l>Ecce parat clausam regi praenuntius aulam.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>II. DE NATIVITATE.</head>
+				<lg>
+					<l>Natus ab aeterno prodit de uirginis aluo.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>III. DE CENA DOMINI.</head>
+				<lg>
+					<l>Qui caput est iustis, uestigia tergit alumnis.</l>
+					<l>Quod uetuit parti Petrus, uult soluere toti.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>IV. DE BAPTISIMO DOMINI.</head>
+				<lg>
+					<l>En fluuuis fontem, mundum lauat unda lauantem.</l>
+					<l>Ablue, Iordanis, a quo magis ipse lauaris.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>V. DE IOHANNE BAPTISTA.</head>
+				<lg>
+					<l>Praeuia materno uerbum vox sensit in aluo.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>VI. DE OBLATIONE DOMINI.</head>
+				<lg>
+					<l>Non capitur caelis, Simeon quem stringit in ulnis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>VII. VBI PVERI DICVUNT « HOSANNA ».</head>
+				<lg>
+					<l>Astra, polus, terra metuunt, quem portant asella.</l>
+					<l>Voce Deo magna coetus depromit « Hosanna ».</l>
+				</lg>
+			</div>
+			<pb n="54"/>
+			<div>
+				<head><lb/>VIII. TRANSFIGVRATIO DOMINI.</head>
+				<lg>
+					<l>Hic Deus ostendit, quod carnis tegmine clausit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>IX. DOMINVS DICIT DISCIPVLIS : « VIGILATE ».</head>
+				<lg>
+					<l>Quos sopor oppressit uigilum, rex surgere iussit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>X. VBI IVDAS DOMINVM TRADIT.</head>
+				<lg>
+					<l>Falsa ferox blando lupus oscula porrigit agno.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XI. DE PATENA.</head>
+				<lg>
+					<l>Esum perpetuae pariunt haec fercula uitae.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XII. VBI CHRISTVS ROGAT PATREM.</head>
+				<lg>
+					<l>Patrem, Christe, rogas, cum quo simul omnia donas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XIII. DE ASCENSIONE.</head>
+				<lg>
+					<l>Ima Deus petiit sed non excelsa reliquit.</l>
+					<l>Est ibi, quo tendit; permanet, unde venit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XIV. DE SANCTO PETRO ET PAVLO.</head>
+				<lg>
+					<l>Sperne maris nauem, caeli, Petre, suscipe clauem.</l>
+					<l>Mellifluis omnem Paulus rigat imbribus orbem.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XV. DE ILLO QVI MORATVR IN ODIO.</head>
+				<lg>
+					<l>Qui manet in tenebris, nesci uestigia pacis.</l>
+					<l>Collyrium releuet, cum te glaucoma perurget.</l>
+					<l>Acre suaue creat, tegmen male tecta reuelat.</l>
+					<l>Nox reparat lucem, dolor aufert saepe dolorem.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XVI. DE ILLO QVI PLACET DVOBVS INIMICIS.</head>
+				<lg>
+					<l>Dum placet utrique, perdit metoccus utrumque.</l>
+				</lg>
+			</div>
+			<pb n="55"/>
+			<div>
+				<head><lb/>XVII. DE HILDEPRANDO.</head>
+				<lg>
+					<l>Viuere uis Romae, clara depromito voce:</l>
+					<l>« Plus Domino papae quam domno pareo papae. »</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XVIII. DE EODEM HILDEPRANDO.</head>
+				<lg>
+					<l>Qui rabiem tigidum domat, ora cruenta leonum,</l>
+					<l>Te nunc usque lupum mihi mitem uertat in agnum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XIX. DE ILLO QVI OMNIA TIMET VEL NIHIL TIMET.</head>
+				<lg>
+					<l>Nil metuens et cuncta timens ridendus uterque:</l>
+					<l>Hic tumet, ille iacet, medius discrimine pollet.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XX. DE VIRGA MOYSI.</head>
+				<lg>
+					<l>Virga uorat magicos in se reparanda chelydros.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXI. DE ARCA NOE.</head>
+				<lg>
+					<l>Arca dat ecclesiae, baptisimatis unda figuram.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXII. QVOD MELIVS EST, VT SCRIBARIS REX IN FERRO QVAM SERVVS IN AVRO.</head>
+				<lg>
+					<l>Elige rex ferro quam scribi seruus in auro;</l>
+					<l>Clarior in casula rex est quam seruus in aula.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXIII. DE ILLO QVI PRIVS DONAT ET POSTEA REPETIT.</head>
+				<lg>
+					<l>Foedus amicitiae uiolat sua dona reposcens;</l>
+					<l>Vnca manus retrahit, quod prius ampla dedit.</l>
+					<l>Qui repetit donum, merito mox perdit amicum.</l>
+					<l>Munere de uestro gaudia digna fero.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXIV. QVAM VANA HVIVS MVNDI SINT BONA.</head>
+				<lg>
+					<l>Cum cineres regum uideamus et ossa potentum</l>
+					<l>Arida puluifluis congesta iacere sepulcris,</l>
+					<l>Quo libeat carni uigor aut possessio menti?</l>
+				</lg>
+			</div>
+			<pb n="56"/>
+			<div>
+				<head><lb/>XXV. DOMNVS PAPA SINE ME REM INCIPIEBAT ET CVM COMPLERE VOLEBAT SICQVE MECVM DICEBAT:« SICVT ERAT IN PRINCIPIO », CVM MECVM NON
+				<lb/>DIXISSET:« GLORIA PATRI ».</head>
+				<lg>
+					<l>« Sicut erat » damno, quia numquam « Gloria » canto;</l>
+					<l>Qui caput abrosit, caudam quoque iure morabit;</l>
+					<l>Ossibus ora terat, qui sorbuit ante medullas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXVI. ILLIS HOC DICITVR, QVI FALSAM PACEM FACIVNT.</head>
+				<lg>
+					<l>Vt ualeant oris, iungantur et oscula cordis.</l>
+					<l>Pax dirimit litem, capiunt cum iurgia finem.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXVII. QVOD SAEPE AMICVS VIDETVR IRASCI ET INIMICVS
+				<lb/>FRAVDVLENTER BLANDIRI.</head>
+				<lg>
+					<l>Saeuit amor iusti, liuor blanditur iniqui.</l>
+					<l>Est amor immitis, dulcis furor, ira fidelis.</l>
+					<l>Sunt etiam blandi sub ouina pelle tyranni.</l>
+					<l>Sic et amica patres reddit censura feroces.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXVIII. AD PAPAM NE AVARITIAE STVDEAT.</head>
+				<lg>
+					<l>Sedis apostolicae qui uult retinere uigorem,</l>
+					<l>Aequa libret rigidae pondera iustitiae.</l>
+					<l>Iuris enim pariles nescit suspendere lances,</l>
+					<l>Quem fauor inflectit, spes uel auara trahit.</l>
+					<l n="5">Muneribus plenae cui laxat ora crumenae,</l>
+					<l>Iustitia uacuam perdit inops animam.</l>
+					<l>Caeli Roma seras tenet et regit orbis habenas;</l>
+					<l>His si plura uelit, Tartara sola petit.</l>
+				</lg>
+			</div>
+			<pb n="57"/>
+			<div>
+				<head><lb/>XXIX. HOC SERVVS DEI FACERE DEBET.</head>
+				<lg>
+					<l>Multa quidem tollo sed fratribus omnia trado.</l>
+					<l>Aufero diuitibus, praebeo pauperibus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXX. PRANSVRI DICIMVS: « EDENT PAVPERES »; SILENTIVM SOLVENTES
+				<lb/>DICIMVS:« PRETIOSA IN CONSPECTV DOMINI »</head>
+				<lg>
+					<l>Sicut « Edent » mensas, reddit « Pretiosa » loquelas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXI.</head>
+				<lg>
+					<l>Insipiens in corde suo « Non est Deus » inquit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXII. DE ODIO.</head>
+				<lg>
+					<l>Vt lita pestifero perimit catapulta ueneno,</l>
+					<l>Sic animas hominum perdit edax odium.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXIII. QVI CASTRATVS EST, NON DEBET EPISCOPARI.</head>
+				<lg>
+					<l>Qui nequit abscidi, non debet honori potiri.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXIV. DE ROMANIS FEBRIBVS.</head>
+				<lg>
+					<l>Roma, uorax hominum, domat ardua colla uirorum;</l>
+					<l>Roma, ferax febrium, necis est uberrima frugum.</l>
+					<l>Romanae febres stabili sunt iure fideles;</l>
+					<l>Quem semel inuadunt, uix a uiuente recedunt.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXV. QVOD QVI IGNORAT LEGEM, VITIORVM NEQVIT EVITARE PERNICIEM.</head>
+				<lg>
+					<l>Qui ius ignorat, uitiorum peste laborat;</l>
+					<l>Virtutem uitium, fas putat illicitum.</l>
+					<l>Non sit securus quis iudicis ore solutus;</l>
+					<l>Sunt a lege poli dissona iura fori.</l>
+					<l n="5">Arbiter internus ligat hunc, quem soluit apertus,</l>
+					<l>Nec fugit esse reus, nam uidet acta Deus.</l>
+				</lg>
+			</div>
+			<pb n="58"/>
+			<div>
+				<head><lb/>XXXVI. DE TRIDVANO IEIVNIO.</head>
+				<lg>
+					<l>Quam, triduana, grauem soleas illidere calcem,</l>
+					<l>Hic rudis ignorat, stomachum qui sedulus inflat,</l>
+					<l>Crebius efflantem reprimit cui fistula uentrem,</l>
+					<l>Vtque fabri follem uacuat spiramen utrumque.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXVII. CADALOO NON PASTORI SED ANTIQVO DRACONI.</head>
+				<lg>
+					<l>Desinit esse reus, qui punit flendo reatum;</l>
+					<l>Sacrilegat coeptam geminata superbia culpam.</l>
+					<l>Caede necans urbem nunc auro destruis orbem;</l>
+					<l>Heu gladio ferri gladius traculentior auri.</l>
+					<l n="5">Is animam penetrat, carnem foris ille cruentat,</l>
+					<l>Vimque tenet iaculi radiantis uena metalli.</l>
+					<l>Nil differt, ferro perimatur quisque uel auro.</l>
+					<l>Quid iuuat, an fuluis furuisne quis occidat armis?</l>
+					<l>Hos, homicida, uibras miseros et utroque trucidas.</l>
+					<l n="10">E caelo rueras, sed adhunc, draco lubrice, sufflas;</l>
+					<l>Ore nomeus rabiem taetrum diffundis odorem;</l>
+					<l>Fractus adhuc reptas et flammas naribus efflas;</l>
+					<l>Offa picis dirum perimat coniecta chelydrum,</l>
+					<l>Desinat horrenda squamis attollere colla.</l>
+					<l n="15">Vt populus uiuat, uitam mala bestia perdat,</l>
+					<l>Torua draconteas reprimat iam uipera chelas.</l>
+					<l>Te super aggestus lapidum cumuletur aceruus;</l>
+					<pb n="59"/>
+					<l>Rudet erit lapidum concors sententia patrum.</l>
+					<l>Haec, scrobis atra, lues, tumido ne gutture suffles,</l>
+					<l n="20">Mille uorax hominum crepet insatiabile monstrum.</l>
+					<l>Te super infernae sua claudant ora cauernae,</l>
+					<l>Ne reditus pateat, sed mundi bella quiescant.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXVIII. TRISTE TRISTICHON CADALOO.</head>
+				<lg>
+					<l>Fumea uita uolat, mors improuisa propinquat;</l>
+					<l>Imminet expleti praepes tibi terminus aeui;</l>
+					<l>Non ego te fallo: coepto morieris in anno.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XXXIX. CVIDAM FRASTRI CVI IEIVNIVM ET VIGILIAE LONGO VSV IN
+				<lb/>NATVRAM VENERANT.</head>
+				<lg>
+					<l>Agrigentinum Siculis sal gignitur oris.</l>
+					<l>Quod fluit in flammis, crepitat, si mergitur undis.</l>
+					<l>Qui naturales trahit in contraria leges,</l>
+					<l>Congruit auctori, quantum sibi dissidet uni.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XL. QVOD QVIDAM BENEFACTIS OFFENDITVUR, OFFENSIONE PLACATVR.</head>
+				<lg>
+					<l>Officium stimulat quosdam, percussio placat.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLI.</head>
+				<lg>
+					<l>Os in corde scius, cor ponit in ore nabaldus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLII. DE DENTE ET LENTE.</head>
+				<lg>
+					<l>Littera mutetur: quod edebat, rursus edetur.</l>
+				</lg>
+			</div>
+			<pb n="60"/>
+			<div>
+				<head><lb/>XLIII. QVOD CARO SINE PRAEDICATIONE PRORVMPIT IN SILVAM VITIORVM.</head>
+				<lg>
+					<l>Siluesit uitiis caro uerbi libera cultris.</l>
+					<l>Ditescunt steriles sariente ligone nouales.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLIV.</head>
+				<lg>
+					<l>Nouimus Hannibalem uscumque fuisse Neronem,</l>
+					<l>Quem ramex etiam pressit, cum sceptra leuarent.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLV. DE BACVLO RECTORIS.</head>
+				<lg>
+					<l>Suscipe diuersum moderaminis arte bacillum:</l>
+					<l>quos ferrum pupugit, cornu pietate reducit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLVI. DE MISERIA HVMANAE CONDICIONIS.</head>
+				<lg>
+					<l>Pro dolor infelix humanae stirpis origo!</l>
+					<l>Per traducem carnis fit adhuc obnoxia morti</l>
+					<l>Et miseros gignit, quos uitae limite claudit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLVII.</head>
+				<lg>
+					<l>Qui non uxorem nisi prolis tangit amore,</l>
+					<l>Etsi mirandus, non omnibus est imitandus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLVIII.</head>
+				<lg>
+					<l>Non sine membellis ualet esse refectio membris.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XLIX.</head>
+				<lg>
+					<l>Saepe nouercalis fit mens materna pupillis,</l>
+					<l>Legeque peruersa grauis est de matre nouerca.</l>
+				</lg>
+			</div>
+			<pb n="61"/>
+			<div>
+				<head><lb/>L. VBI SPIRITVS SANCTVS DESCENDIT SVPER APOSTOLOS.</head>
+				<lg>
+					<l>Ignit apostolicum linguarum flamma senatum</l>
+					<l>Germinat et uarias quasi uox fecunda loquelas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LI. DE EO QVI PREDICAT IVSTVM ET DIMITTIT IMPIVM.</head>
+				<lg>
+					<l>Fundit aquam fluuiis uecors sitientibus hortis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LII. LAVS ELEMOSINAE.</head>
+				<lg>
+					<l>Fenerat ille Deo, qui sumptum praebet egeno;</l>
+					<l>Reddere promisit, qui non mendacia nouit.</l>
+					<l>Soluitur expletum grauiori fenore lucrum;</l>
+					<l>Pro modico magnum, pro cano redditur aurum.</l>
+					<l n="5">Sic hemina batum, lucratum dragma talentum;</l>
+					<l>Sic obolus regnum, cyathus mercatur Olympum;</l>
+					<l>Caelica terrenis redhibentur, fixa caducis.</l>
+					<l>Ignes unda necat, lapsus elemosina purgat;</l>
+					<l>Est aqua mors flammae, mors est elemosina culpae;</l>
+					<l n="10">Haec replet irriguis lacrimarum corda fluentis,</l>
+					<l>Haec uitiis uacuat, uirtutum floribus ornat,</l>
+					<l>Haec redimunt ipsum pietatis uiscera Christum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LIII. AVARO DIVITI.</head>
+				<lg>
+					<l>Qui cedros olidis scit contignare cupressis,</l>
+					<l>Fundamenta struit nullis obnoxia flabris.</l>
+					<l>Ditior es caeno quam sis, Pactole, fluento:</l>
+					<l>Vnda leuat cumulum, flauescit arena metallum;</l>
+					<pb n="62"/>
+					<l n="5">Lama tulit fruges, rupes praerupta cacumen.</l>
+					<l>His uitam regimus, procul hoc adstare uidemus;</l>
+					<l>In uidua diues Deus est, in diuite pauper.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LIV. VIRO SVPERBO.</head>
+				<lg>
+					<l>Mens scatet in ueras causa perhibente loquelas.</l>
+					<l>Vere licet rubeat, numquam rosa pulchra perannat.</l>
+					<l>Qui stat, praesto cadit, ceu flos caro lapsa patrescit.</l>
+					<l>Vita uolans hominis decurrit more fluenti.</l>
+					<l n="5">Te patulum uento folium pendere memento.</l>
+					<l>Turgida colla suis subigit mors improba plantis.</l>
+					<l>Viuere qui patitur, felici morte fruetur;</l>
+					<l>Qui fruitur uita, mortem patietur amaram.</l>
+					<l>Vita breuis prohibet, ne longum uiuere speres.</l>
+					<l n="10">Viue memor mortis, quo semper uiuere possisi.</l>
+					<l>Totus siue Deo, totus tibi mortuus esto.</l>
+					<l>Vita parit mortem, mors uitam parua perennem.</l>
+					<l>Qui sibi nunc uiuit, semper moriendo peribit;</l>
+					<l>In se qui moritur, hunc uita beata sequetur.</l>
+					<l n="15">Sic requies fesso redhibetur, uita perempto.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LV. LIVIDO OBTRECTATORI.</head>
+				<lg>
+					<l>Esse foret panem melius quam rodere fratrem;</l>
+					<l>Corporis una cibus, animae res altera uirus.</l>
+					<l>Rosus non moritur, rodens homicida tenetur.</l>
+					<l>Non alios capreae, te cernas lumine talpae.</l>
+					<l n="5">Non mihi des multum promptus tibi uertere tergum,</l>
+					<pb n="63"/>
+					<l>Me faciens speculum, cum sis tibi mantica factus;</l>
+					<l>Polypus haerenti de se non foetet olenti.</l>
+					<l>Lyncea lux radios in uiscera figit acutos;</l>
+					<l>Cum se non uideat, penetrat procul omne, quod adstat.</l>
+					<l n="10">Obtunsae cotes acuunt, non caedere possunt,</l>
+					<l>Nec sibi sed uario parent sua iuria metallo;</l>
+					<l>scabra polire lima nouit, non ipsa poliri:</l>
+					<l>Praua manet, sentum scoriis dum leuigat aurum.</l>
+					<l>Num scabiosa canis titulo fit digna fidelis,</l>
+					<l n="15">Si rictu rabido uernam cum fure lacessit?</l>
+					<l>Qui quod uult dicit, quod non uult saepius audit.</l>
+					<l>Non habet os lingua, frangi facit ossa sed ipsa,</l>
+					<l>Vnaque diuersis parit infortunia membris.</l>
+					<l>Pone modum linguae, quam uibras more sagittae,</l>
+					<l n="20">Ne gladii conto referantur, saxa lapillo.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LVI. DVOBVS INIMICIS VT AD PACEM REDEANT.</head>
+				<lg>
+					<l>Hamat amor uarios, scindit discordia iunctos.</l>
+					<l>Non ibi lux pacis, ubi fit diuisio cordis.</l>
+					<l>Pax docet ignaros, discordia caecat acutos,</l>
+					<l>Non status est rebus, fortunae uertitur ordo,</l>
+					<l n="5">Ceruici rigidae mors improuisa minatur.</l>
+					<l>Turgida colla suis subigit febris ignea plantis</l>
+					<l>Ac domat indomitos diuino iure solutos.</l>
+					<l>Qui tumuere Deo, coguntur cedere morbo;</l>
+					<l>Quod dant languori, uerae uetuere saluti.</l>
+					<l n="10">Vultu saepe trucem, flammas uelut ore momentem,</l>
+					<l>Oraque terribilem, frendentia uerba tonantem</l>
+					<l>Funda perexiguo strauit contorta lapillo.</l>
+				</lg>
+			</div>
+			<pb n="64"/>
+			<div>
+				<head><lb/>LVII. AD PAENITENTIAM PROVOCAT.</head>
+				<lg>
+					<l>Cum cruor execrescit, nemitorem uena requirit,</l>
+					<l>Vulnus et incolumen facit, affert plaga salutem.</l>
+					<l>Mens fluuidum generat, pia quod confessio purgat:</l>
+					<l>Sic animae sanguis per uenam profluit oris.</l>
+					<l n="5">Egere, letifero uiolat quod uiscera tabo.</l>
+					<l>Esto uomax proprii salubri conamine morbi,</l>
+					<l>Vt mentis stomachus releuetur mole reatus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LVIII. CVM IDEM SCRIPTVM BIS MITTITVR.</head>
+				<lg>
+					<l>Iure notatur, idem qui saepe rescribit eidem.</l>
+					<l>Non tamen absurdum, cum res habet ipsa recursum,</l>
+					<l>Indiga uerborum dumsit geminatio rerum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LIX. DE CRVCE.</head>
+				<lg>
+					<l>Omnibus est una spes haec metuenda figura;</l>
+					<l>Cernite librata pretium pendere statera,</l>
+					<l>Quod mundum redimit, protoplasti debita soluit.</l>
+					<l>Crux est uita mihi, mors, inimice, tibi.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LX. ITEM DE SANCTA CRVCE DVODVS INVICEM INIMICIS.</head>
+				<lg>
+					<l>Ecce rubet Christi crux sanguine tincta recenti;</l>
+					<l>Haec caelum terris confoederat, infima summis.</l>
+					<l>Haec iubet, in uobis ut lux oriatur amoris,</l>
+					<l>Litibus sedatis succedant oscula pacis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXI. CANTORIBVS ALTE CANENTIBVS.</head>
+				<lg>
+					<l>Qui philomelinis depromitis organa fibris,</l>
+					<l>Intima uox cordis modulis bene concinat oris.</l>
+				</lg>
+			</div>
+			<pb n="65"/>
+			<div>
+				<head><lb/>LXII. INSIMVLAT VICEM CARMINIBVS NON REDDENTEM.</head>
+				<lg>
+					<l>Diptycha tot misi, quot flumina sunt paradisi,</l>
+					<l>Fonte sed ex uestro nec mihi stilla fluit.</l>
+					<l>Nunc igitur scriptis totidem nisi scripta remittis,</l>
+					<l>Implebit uacuam penna retunsa tegam.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXIII. DE QVIBVSDAM ANTIDOTIS.</head>
+				<lg>
+					<l>Mors aloen aequat, copulat sapor unus utramque.</l>
+					<l>His quoque tu parilem pigra sortiris acrorem:</l>
+					<l>serapion cunctis fatear praestare uenenis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXIV. QVOD QVI SVMIT MVNUS, DEBET VICEM REDDERE.</head>
+				<lg>
+					<l>Alterutrum caros componit munus amicos,</l>
+					<l>Si gerulus referat, si dator accipiat.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXV. QVOD VERMIS ERIS ET A VERME VORABERIS.</head>
+				<lg>
+					<l>Eius, homo, quod eris, datus es, ut et ore uoreris.</l>
+					<l>Cur, cinis et uermis, tumida ceruice superbis?</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXVI. QVIBVS BENEDICTIO DE COCLEARIBVUS MITTITVR.</head>
+				<lg>
+					<l>Dent alii fuluum trutina librante metallum.</l>
+					<l>Sed mundus uiuit, quia ligno uita pependit:</l>
+					<l>Sic modicum magno, lignum pretiosus auro.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXVII. PONTIFICALI DEXTERAE COCLEARIA MITTVNTVR.</head>
+				<lg>
+					<l>Magna, perexiguum, manus aurea, suscipe lignum.</l>
+					<l>Nolo datum trutines sed dantis uiscera libres.</l>
+					<l>Audeo, quod parti non est, praesumere toti.</l>
+					<pb n="66"/>
+					<l>Carmina quot scripsi, totidem tibi ligna poliui;</l>
+					<l n="5">Chartula uenalis, donantur cetera gratis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXVIII. AMICVM TERRET.</head>
+				<lg>
+					<l>Quot digitis scribo, totidem tibi carmina mitto.</l>
+					<l>Aspera uox:«Ite»; nimium iucunda: « Venite ».</l>
+					<l>Congregat haec agnos, uox altera dissipat haedos.</l>
+					<l>Perpensae uoces poterunt componere mores.</l>
+					<l n="5">Si regni requiem cupimus, metuamus et ignem.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXIX. AD INIMICVM.</head>
+				<lg>
+					<l>Inter bella silent leges, in pace loquuntur.</l>
+					<l>Tempus adest belli, uenient sua tempora legi.</l>
+					<l>Sic lis obtineat, ne pax post bellica perdat.</l>
+					<l>Ne uincare foro, qui temptas uincere campo.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXX. DISCRETIO INTER LEVEM ET GRAVEM.</head>
+				<lg>
+					<l>Horrens praecipitem, noli te ferre limacem;</l>
+					<l>Cum grauitate leuis, sic leuitate grauis.</l>
+					<l>Sic grauis incessus nec iam quasi compende nexus.</l>
+					<l>Nil uitio uitium cedere proficuum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXI. QVIBVS BENEDICTIO DE COCLEARIBVS MITTITVR.</head>
+				<lg>
+					<l>Marmoribus latomi, fabri dant signa metallis;</l>
+					<l>Sandapilas inopes compingunt uispiliones,</l>
+					<l>Nec nos signa ferimus sed ligna calonum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXII. QVOD MELIVS SIT AGRICOLAE LABORANTI QVAM DOMINO PROELIANTI.</head>
+				<lg>
+					<l>Bella ciet dominus, proscindit rura colonus;</l>
+					<l>Ille patet iaculis, hic frugum gaudet aceruis.</l>
+				</lg>
+			</div>
+			<pb n="67"/>
+			<div>
+				<head><lb/>LXXIII. DE HIS QVI NON SE SED ALIOS CARPVNT.</head>
+				<lg>
+					<l>Polypus haerenti de se non foetet olenti.</l>
+					<l>Sunt, sua qui palpant, aliena piacula damnant.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXIV. DAMIANO EXORTATO, VT MONACHVS FIAT.</head>
+				<lg>
+					<l>Omnipotens agamus docet, ut quod fecit agamus.</l>
+					<l>Desumt iura tori, teritur si semita Christi.</l>
+					<l>Iam pater es, suboli spatium largire sequenti,</l>
+					<l>Vt tua contiguis pateant uestigia plantis,</l>
+					<l n="5">Et seges erumpat, dum non quod protulit obstat.</l>
+					<l>Subdita maternis torpent uitulamina ramis.</l>
+					<l>Praesto fluunt ueteres ad florum germina frondes,</l>
+					<l>Herbaque sectricem uocat orto semine falcem.</l>
+					<l>Incipiens igitur terreno caespite uelli,</l>
+					<l n="10">Transplantare polo, spes hinc animata uirescat;</l>
+					<l>Sic radix cordis caeli se transferat aruis,</l>
+					<l>Et non lapurus prorumpat in arbore fructus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXV. QVOD ESVRIENS ET SITIENS VILE QVODLIBET LIBENTER SVMIT.</head>
+				<lg>
+					<l>Faucibus atra fames herbas commendat agrestes;</l>
+					<l>Hausibilem densam reddit sitis ignea uappam;</l>
+					<l>Esuriens comedit, uacuo satur ore ligurrit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXVI. DE ILLO QVI GLORIATVUR IN ALTITVDINE VOCIS.</head>
+				<lg>
+					<l>Voce satis celsa uocalis rudit asella;</l>
+					<l>Dulce melos placidis format uox cignea bombis.</l>
+				</lg>
+			</div>
+			<pb n="68"/>
+			<div>
+				<head><lb/>LXXVII. DE HIS QVI LORICAS INDVVNT AD CARNEM.</head>
+				<lg>
+					<l>Hamatae uestes praebent inamabile tegmen;</l>
+					<l>Vestes hamatae gemina sunt peste perosae:</l>
+					<l>Ossa premit pondus, constringitur uiscera frigus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXVIII. DE HILDEPRANDO QUI PARVAE QVIDEM STATVRAE SED MAGNAE
+				<lb/>VIDETVR ESSE PRVDENTIAE.</head>
+				<lg>
+					<l>Parua tigris missas aequat properando sagittas;</l>
+					<l>Vile quidem ferrum tamen edomat omne metallum,</l>
+					<l>Sed trahit hoc validus sua post uestigia magnes.</l>
+					<l>Hunc, qui cuncta domat, Sisyphi mensura coartat,</l>
+					<l n="5">Quemque tremunt multi, nolens mihi subditur uni.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXIX. DE PAPA ET HILDEPRANDO.</head>
+				<lg>
+					<l>Papam rite colo sed te prostratus adoro;</l>
+					<l>Tu facis hunc dominum,te facit iste deum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXX. ROMANO ARCHIDIACONO QVI MIHI MEDICVM PISCEM MISIT.</head>
+				<lg>
+					<l>Non mirum, Petrus si sit mihi semper egenus,</l>
+					<l>Cum generent medios flumina pisciculos.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXI. VRBANE GRATVLATUR, QVI ROMAE FACTVS EST
+				<lb/>PAVPER EPISCOPVS.</head>
+				<lg>
+					<l>Quod sibi Bethsaide, nunc est mihi Petrus in urbe:</l>
+					<l>Hoc, cum sceptra tenet, quod erat, cum retia neret;</l>
+					<l>Semper lina lauat, pelagi mihi caerula sulcat;</l>
+					<l>Me premit in terris, qui pressus egebat in undis;</l>
+					<l n="5">Me siliquis recreat, modicus quem piscis alebat.</l>
+				</lg>
+			</div>
+			<pb n="69"/>
+			<div>
+				<head><lb/>LXXXII. DE ILLO QVI FILIVM HABET.</head>
+				<lg>
+					<l>Cum superest suboles, uiuunt de morte parentes,</l>
+					<l>Et uelut una caro uiret in radice propago.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXIII. VT HI QVI PRAEDICANT, INVICEM NON DISCORDENT.</head>
+				<lg>
+					<l>Non sapiens stulto, non bos societur asello;</l>
+					<l>Qui diuina docent, a se non prorsus oberrent.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXIV. DE STERCORE TVRDI FIT VISCVS, VNDE TVRDVS
+				<lb/>IPSE CAPITVR.</head>
+				<lg>
+					<l>Podice digeritur, pede quo turdela tenetur.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXV. ILLI CVI EGO PROLIXAM MISI EPISTOLAM, ET IPSE
+				<lb/>MIHI PARVAM.</head>
+				<lg>
+					<l>Non obolus solidum, non aequat libra talentum;</l>
+					<l>Plane gomor modio cedit, et iste coro.</l>
+					<l>Non licet exiguum compensat epistola librum,</l>
+					<l>Contrutinet lances pendula libra pares.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXVI. DE FLORENTIA IN QVA PAPA STEPHANVS OBIT, ET NICOLAVS
+				<lb/>PAPA EX EADEM PROCESSIT.</head>
+				<lg>
+					<l>Parua uirum uiduae debet Florentia Romae;</l>
+					<l>Quae tenet exstinctum, cogatur reddere uiuum.</l>
+					<l>Sic nona Bethleis lux mundo fulsit ab oris.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXVII. DE ILLO QVI SEMETIPSVM SVBIVGAT, VT SVA RECIPIAT.</head>
+				<lg>
+					<l>Nil sibi prorsus emit, qui se sub fenore uendit.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXVIII. QVOD ROMA MVNDO PRAEFVIT, DONEC LEGIBVS OBOEDIVIT.</head>
+				<lg>
+					<l>Praefuit urbs orbi, fuerat dum subdita legi;</l>
+					<l>Iustitiae spretis regnum contraxit habenis.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>LXXXIX. QVOD PLERIQVE CASTI SVNT TENACES.</head>
+				<lg>
+					<l>Vix opibus largum uideas et corpore castum.</l>
+				</lg>
+			</div>
+			<pb n="70"/>
+			<div>
+				<head><lb/>XC. DE ILLO QVI NVTRITVS ARRETII, POMPOSIAE ABBAS FVIT.</head>
+				<lg>
+					<l>Qui solet insipidis uentrem satiare lupinis,</l>
+					<l>Gutture nunc epulas ructat turgente marinas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCI. DE DOMNO HVMBERTO ARCHIEPISCOPO QVI SEDERAT AD
+				<lb/>DEXTERAM PAPAE ET EGO AD SINISTRAM.</head>
+				<lg>
+					<l>Sortior haedinam, tu sedem tollis ouinam;</l>
+					<l>Laeuus habet dextram, dexter quandoque sinistram.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCII. SVPER SAECVLARIBVS ELEGIDIA.</head>
+				<lg>
+					<l>Lugeo uos, miseri, quibus est mens dedita carni;</l>
+					<l>Caelum despicitis, quaestus bona summa putatis.</l>
+					<l>Quid uos horter ego, quid uos optare monebo?</l>
+					<l>Nunc male iucundas mundi sorbete medullas,</l>
+					<l n="5">Exta replete cibis, artus onerate saginis,</l>
+					<l>Ne pereant uermes macie, uos semper edentes;</l>
+					<l>Fontibus irriguas gelidis exendite uillas.</l>
+					<l>Non numerus nummis, non sit mensura metallis.</l>
+					<l>Post erit angustum possessio uestra sepulcrum.</l>
+					<l n="10">At quos spes fuluo ditat prestiosior auro.</l>
+					<l>Quorum diuitiae uerae sunt praemia uitae,</l>
+					<l>Quas fur non temerat, nec edax male tarmula sulcat,</l>
+					<l>Vana repentinis obnoxia lucra ruinis</l>
+					<l>Spernite; lapsuro cedant sua munera mundo.</l>
+					<l n="15">Sufficiant Christi famulis patrimonia caeli;</l>
+					<l>Pectoris eximium fidei tegat arca talentum.</l>
+					<l>Sit studium rutilas uirtutum condere gemmas</l>
+					<l>Et male nascentes uitiorum uellere sentes.</l>
+					<l>Turbida fluctiuagi uitate negotia mundi.</l>
+					<l n="20">Incubet eloquiis iugiter mens libera sacris;</l>
+					<l>iam modice gustet mel, quo post plena redundet;</l>
+					<pb n="71"/>
+					<l>Ad sua sic nostra redeat primordia forma.</l>
+					<l>Hae cumulentur opes, isti quaerantur honores;</l>
+					<l>His homo iure potens, his fit per saecula diues.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCIII. PARACTERICVM CARMEN SANCTAE CRVCIS.</head>
+				<lg><head>1.</head> <l>Vnica spes hominum, crux o uenerabile signum,</l>
+					<l>Omnibus esto salus, unica spes hominum.</l>
+				</lg>
+				<lg><head>2.</head> <l>Baiula tu pretii, quod mundi debita soluit,</l>
+					<l>Quo meruit redimi, baiula tu pretii. Vnica</l>
+				</lg>
+				<lg><head>3.</head> <l n="5">Tartara uicta tuis spolium cessere triumphis;</l>
+					<l>Lugent uexillis Tartara uicta tuis.</l>
+				</lg>
+				<lg><head>4.</head> <l>Pandis et astra piis, proprio quos stigmate signas;</l>
+					<l>Das requiem fessis, pandis et astra piis. Vnica</l>
+				</lg>
+				<lg><head>5.</head> <l>Chirographum uetiti, pepigit quod cautio, ligni,</l>
+					<l n="10">Diluis et pomi chirographum uetiti.</l>
+				</lg>
+				<lg><head>6.</head> <l>Lux, honor, imperium, laus, gloria, doxa per aeuum.</l>
+					<l>Sic tibi, trine Deus, lux, honor, imperium. Vnica</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCIV. PARACTERICVM CARMEN SANCTAE MARIAE.</head>
+				<lg>
+					<l>Scala thronusque Dei, nitor orbis, ianua caeli,</l>
+					<l>Mater, aue, Christi, scala thronusque Dei.</l>
+					<l>Tu nona stella maris, qua lux est reddita terris,</l>
+					<l>Ortus et es solis, tu nona stella maris.</l>
+					<l n="5">Concipis absque uiro, tu sola puerpera uirgo,</l>
+					<l>Quae uerbum uerbo concipis absque uiro.</l>
+					<l>Tartata quod metuunt, tellus pauet, astra uerentur,</l>
+					<l>Pectoris antra ferunt, Tartara quod metuunt.</l>
+					<l>Virgine uita redit homini, quem uirgo peremit;</l>
+					<l n="10">Mors nece uicta perit, uirgine uita redit.</l>
+					<l>Tu super astra leua, petimus, quos subruit Eua;</l>
+					<l>Illa grauat culpa, tu super astra leua.</l>
+					<l>Gloria summa patri, genitae sit gloria proli</l>
+					<l>Flamine cum parili, gloria summa patri.</l>
+					<l n="15">Amen.</l>
+				</lg>
+			</div>
+			<pb n="72"/>
+			<div>
+				<head><lb/>XCV. EPITAPHIUM LODOICI SANCTI PRESBYTERI.</head>
+				<lg>
+					<l>Vir Domini clauso iacet hoc Ladoicus in antro,</l>
+					<l>Cui sine carnificum fit nece martyrium.</l>
+					<l>Vinum respuerat, panem non prorsus edebat;</l>
+					<l>Hebdomas binum sic dabat una cibum.</l>
+					<l n="5">Ordine diuerso pictor fuit atque sacerdos;</l>
+					<l>Obtulit ex aequo munus utrumque Deo.</l>
+					<l>Lux oriens urbi, lux omni claruit orbi;</l>
+					<l>Arsit et incendit, iuit et ire dedit.</l>
+					<l>Ecclesiae speculum, uiuus lapis, hostia, templum,</l>
+					<l n="10">Nos precibus releua, quos mala nostra grauant.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCVI. ALVID EPITAPHIUM.</head>
+				<lg>
+					<l>Quod nunc es, fuimus; esquod sumus, ipse futurus.</l>
+					<l>Hic sit nulla fides, quae peritura uides.</l>
+					<l>Friuola sinceris, praecurrunt somnia ueris;</l>
+					<l>Succedunt breuibus saecula temporibus.</l>
+					<l n="5">Viue memor mortis, quo semper uiuere possis.</l>
+					<l>Quicquid adest, transit; quod manet, ecce uenit.</l>
+					<l>Quam bene prouidit, qui te, male munde, reliquit,</l>
+					<l>Mente prius carni quam tibi carne mori.</l>
+					<l>Caelica terrenis, prefer mansura caducis.</l>
+					<l n="10">Mens repetat proprium libera principium.</l>
+					<l>Spiritus alta petat, quo prodit fonte, recurrat;</l>
+					<l>Sub se despiciat, quicquid in ima grauat.</l>
+					<l>Sis memor, oro, mei, cineres pius inspice Petri;</l>
+					<l>Cum prece, cum gemitu dic:«Sibi parce, Deus».</l>
+					<pb n="73"/>
+					<l n="15">Vt tibi mella fluant epulae, pigmenta rubescant,</l>
+					<l>Amplaque conditos praebat olla cibos.</l>
+					<l>Scabra fit ut nostris desint uel cantabra mensis.</l>
+					<l>Dum tibi seruo dapes, me manet atra fames.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCVIII. VERSVUS PAVPERIS.</head>
+				<lg>
+					<l>Vlceribus uacuus sed paupertate repletus</l>
+					<l>Lazarus ecce uenit, qui micis uiuere quaerit.</l>
+					<l>Absunt ora canum, non desunt rostra pedonum;</l>
+					<l>Illa cutem lambunt, haec membra scatentia rodunt.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>XCIX.</head>
+				<lg>
+					<l>Ariminum, luge, lacrimarum flumina funde;</l>
+					<l>Laus tua Benno fuit, pro dolor ecce ruit.</l>
+					<l>Benno decus regni, Romanae gloria genti,</l>
+					<l>Ipse pater patriae, lux erat Italiae.</l>
+					<l n="5">Hunc socium miseri, durum sensere superbi;</l>
+					<l>Lapsos restituit, turgida colla premit.</l>
+					<l>Fit leo pugnanti frendens, tener agnus inermi;</l>
+					<l>Hinc semper iustus perstitit, inde pius.</l>
+					<l>Hic fidei dum iura colit, dum cedere nescit,</l>
+					<l n="10">Firma tenens rigidae pondera iustitiae,</l>
+					<l>Reticolae iugulus prauorum pertulit ictus.</l>
+					<l>Per quem pax uiguit, bellica sors perimit.</l>
+					<l>Obsecro, tam diram sapientes flete ruinam</l>
+					<l>Et pia pro socio fundite uota Deo.</l>
+				</lg>
+			</div>
+			<pb n="74"/>
+			<div>
+				<head><lb/>C. VERSVS DE SIMONIACIS.</head>
+				<lg>
+					<l>Incudem Simonis fabrilis et antra monetae</l>
+					<l>Damnat pestiferas Deus euertendo cathedras;</l>
+					<l>Nam postica latro per diuerticula repit;</l>
+					<l>Peruia gratuito pastor petit ostia gressu.</l>
+					<l n="5">Ast ubi mangorum scelerata negotia desunt,</l>
+					<l>Nec graue corbina turget uenale talentum,</l>
+					<l>Non distractor obest, quia non commercia sordent.</l>
+					<l>Nam quid mummati, nequeunt ubi laedere nummi?</l>
+					<l>Immo quid arboreis manus obsit squalida plantis?</l>
+					<l n="10">Saepe salutiferam medicus dedit aeger oryzam;</l>
+					<l>Mancipites pugilem, caeci genuere uidentem;</l>
+					<l>Clinica procerum peperit, male foeda uenustum,</l>
+					<l>Nec suboles noxis est addicenda paternis.</l>
+					<l>Quisque sua premitur, socii nec labe tenetur.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>CI.</head>
+				<lg>
+					<l>Segnes rumpe moras, torporis frange catenas.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>CII. VERSVS.</head>
+				<lg>
+					<l>Vltio diuina, populi, Cadaloe, ruina,</l>
+					<l>Te manet, ut diro medium transuerberet ictu.</l>
+					<l>Altipetax, Simonem sequeris, Simon, astra petentem.</l>
+					<l>Te quoque Tartareus simul absorbebit hiatus.</l>
+				</lg>
+			</div>
+			<pb n="75"/>
+			<div>
+				<head><lb/>CIII.</head>
+				<lg>
+					<l>Non canonem soluit, qui psallens nocte redormit.</l>
+					<l>Ne tamen hoc passim ponat caput ante synaxium.</l>
+				</lg>
+			</div>
+		</div>
+		<pb n="76"/>
+		<div>
+			<head><lb/>B.</head>
+			<div>
+				<head><lb/>1. RHYTMVS SANCTAE MARIAE VIRGINIS.</head>
+				<lg><head>1.</head> <l>O genitix aeterni,</l>
+					<l>Virgo Maria,uerbi,</l>
+					<l>Quae uox, quae lingua carnis</l>
+					<l>Par erit tuae laudis?</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu noua maris stella,</l>
+					<l>Celsa poli fenestra,</l>
+					<l>Scala, quae caelum terris</l>
+					<l>Iungis, ima supernis.</l>
+				</lg>
+				<lg><head>3.</head> <l>Immensum concepisti,</l>
+					<l n="10">Parentem reperisti;</l>
+					<l>Fit factor ex factura,</l>
+					<l>Creans ex creatura.</l>
+				</lg>
+				<lg><head>4.</head> <l>Quem mundus ferre nequit,</l>
+					<l>Totum uulua concepit;</l>
+					<l n="15">Quo circuitur aether,</l>
+					<l>Puellae clausit uenter.</l>
+				</lg>
+				<lg><head>5.</head> <l>Serui forma indutus,</l>
+					<l>Diuina non extus</l>
+					<pb n="77"/>
+					<l>Suscepit quidem tua</l>
+					<l n="20">Sed non amisit sua.</l>
+				</lg>
+				<lg><head>6.</head> <l>Oritur ortus rerum,</l>
+					<l>Fit antiquus dierum.</l>
+					<l>Orbis origo coepit,</l>
+					<l>Factus ex his, quae fecit.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Conceptus fecundauit,</l>
+					<l>Natus non uiolauit.</l>
+					<l>Intrauit et exiuit</l>
+					<l>Sed clausam dereliquit.</l>
+				</lg>
+				<lg><head>8.</head> <l>Tu Aaron es uirga,</l>
+					<l n="30">Fecunda licet sicca,</l>
+					<l>Quae germen protulisti</l>
+					<l>Sed uirgo permansisti.</l>
+				</lg>
+				<lg><head>9.</head> <l>Tu rubus praelucebat,</l>
+					<l>Qui ardens non ardebat,</l>
+					<l n="35">Quae sine aestu mentis</l>
+					<l>Fructum dedisti uentris.</l>
+				</lg>
+				<lg><head>10.</head> <l>Es ante partum uirgo</l>
+					<l>Sed post uirginum uirgo;</l>
+					<l>Creuit in ortu prolis</l>
+					<l n="40">Integritas pudoris.</l>
+				</lg>
+				<lg><head>11.</head> <l>Est angelorum cibus</l>
+					<l>Tuo lacte nutritus;</l>
+					<l>Qui mari praebet undas,</l>
+					<l>Papillae sugit guttas.</l>
+				</lg>
+				<pb n="78"/>
+				<lg><head>12.</head> <l n="45">Geris in sinu prolem,</l>
+					<l>Qui terrae librat molem.</l>
+					<l>Foues a quo foueris,</l>
+					<l>Seruas a quo tueris.</l>
+				</lg>
+				<lg><head>13.</head> <l>Blandire, mater, caro,</l>
+					<l n="50">Qui te creauit, nato;</l>
+					<l>Oscula grata fige,</l>
+					<l>Fasciis membra cinge.</l>
+				</lg>
+				<lg><head>14.</head> <l>Amplectere caelestem,</l>
+					<l>Quem genuisti, regem,</l>
+					<l n="55">Cui seruit sol et luna</l>
+					<l>Et omnis creatura.</l>
+				</lg>
+				<lg><head>15.</head> <l>Chori uirtutum tremunt,</l>
+					<l>Quem uiles panni tegunt;</l>
+					<l>Pauet caelum et terra,</l>
+					<l n="60">Quem baiulat puella.</l>
+				</lg>
+				<lg><head>16.</head> <l>Vagit in sinu matris,</l>
+					<l>Regnat in throno patris.</l>
+					<l>Legem matris obseruat,</l>
+					<l>Mundi iura gubernat.</l>
+				</lg>
+				<lg><head>17.</head> <l n="65">Tu fontis fons uiuentis,</l>
+					<l>Oriens orientis,</l>
+					<l>Liber ille signatus</l>
+					<l>Lectori uiro datus.</l>
+				</lg>
+				<pb n="79"/>
+				<lg><head>18.</head> <l>Tu porta templi clausa,</l>
+					<l n="70">Superni regis aula,</l>
+					<l>Aerarium talenti,</l>
+					<l>Per quod sumus redempti.</l>
+				</lg>
+				<lg><head>19.</head> <l>Hortus deliciarum,</l>
+					<l>Odor suauitatum,</l>
+					<l n="75">Tu ager ille plenus,</l>
+					<l>Cui benedixit Deus.</l>
+				</lg>
+				<lg><head>20.</head> <l>Ex te botrus egressus,</l>
+					<l>Qui crucis prelo pressus</l>
+					<l>Vino rigat arentes</l>
+					<l n="80">Sancti Spritus mentes.</l>
+				</lg>
+				<lg><head>21.</head> <l>Es et terra caelestis,</l>
+					<l>Ferax lactis et mellis,</l>
+					<l>Ex qua ueritas orta</l>
+					<l>Tollit errorum dogma.</l>
+				</lg>
+				<lg><head>22.</head> <l n="85">Arcem nobilitatis</l>
+					<l>De prolis stirpe trahis,</l>
+					<l>Filia quidem regum</l>
+					<l>Sed mater regis regum.</l>
+				</lg>
+				<lg><head>23.</head> <l>Salue iam, uirgo feta,</l>
+					<l n="90">Aue, gratia plena;</l>
+					<l>Nostrum «Aue» digneris</l>
+					<l>Vt illud Gabrielis.</l>
+				</lg>
+				<lg><head>24.</head> <l>Ille dum te salutat,</l>
+					<l>Euae nomen commutat.</l>
+					<pb n="80"/>
+					<l n="95">Reduc nos, uirgo sancta,</l>
+					<l>Vnde est nequam lapsa.</l>
+				</lg>
+				<lg><head>25.</head> <l>Tu solue, quod debemus,</l>
+					<l>Auerte, quod timemus,</l>
+					<l>Impetra, quod optamus,</l>
+					<l n="100">Perfice, quod speramus.</l>
+				</lg>
+				<lg><head>26.</head> <l>Sit salus trinitati,</l>
+					<l>Sit decus unitati,</l>
+					<l>Cui lex et ordo rerum</l>
+					<l>Per omne paret aeuum.</l>
+					<l n="105">Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>2. RHYTMVS DE GAVDIO PARADISI.</head>
+				<lg><head>1.</head> <l>Ad perennis uitae fontem mens sitiuit arida.</l>
+					<l>Claustra carnis praesto frangi clausa quaerit anima,</l>
+					<l>Gliscit, ambit, eluctatur exsul frui patria.</l>
+				</lg>
+				<lg><head>2.</head> <l>Dum pressuris ac aerumnis se gemit obnoxiam,</l>
+					<l n="5">Quam amisit, cum deliquit, contemplatur gloriam,</l>
+					<l>Praesens malum auget boni perditi memoria.</l>
+				</lg>
+				<lg><head>3.</head> <l>Nam quis promat, summae pacis quanta sit laetitia,</l>
+					<l>Vbi uiuis margaritis surgunt aedificia,</l>
+					<l>Auro celsa micant tecta, radiant triclinia?</l>
+				</lg>
+				<pb n="81"/>
+				<lg><head>4.</head> <l n="10">Solis gemmis pretiosis haec structura nectitur,</l>
+					<l>Auro mundo tamquam uitro urbis uia sternitur;</l>
+					<l>Abest limus, deest fimus, lues nulla teritur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Hiems horrens, aestas torrens illic numquam saeuiunt;</l>
+					<l>Flos purpureus rosarum uer agit perpetuum;</l>
+					<l n="15">Candent lilia, rubescit crocus, sudat balsamum.</l>
+				</lg>
+				<lg><head>6.</head> <l>Virent prata, uernant sata, riui mellis influunt;</l>
+					<l>Pigmentorum spirat odor liquor et aromatum;</l>
+					<l>Pendent poma floscidorum non lapsura nemorum.</l>
+				</lg>
+				<lg><head>7.</head> <l>Non alternat luna uices, sol uel cursus siderum;</l>
+					<l n="20">Agnus est felicis urbis lumen inocciduum;</l>
+					<l>Nox et tempus desunt, aeuum diem fert continuum.</l>
+				</lg>
+				<lg><head>8.</head> <l>Nam et sancti quique uelut sol praeclarus rutilant,</l>
+					<l>Post triumphum coronati mutuo coniubilant</l>
+					<l>Et prostrati pugnas hostis iam securi numerant.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Omni labe defaecati carnis bella nesciunt;</l>
+					<l>Caro facta spiritalis et mens unum sentiunt;</l>
+					<l>Pace multa perfruentes scandala non perferunt.</l>
+				</lg>
+				<pb n="82"/>
+				<lg><head>10.</head> <l>Mutabilibus exuti repetunt originem</l>
+					<l>Et praesentem ueritatis contemplantur speciem;</l>
+					<l n="30">Hinc uitalem uiui fontis hariunt dulcedinem.</l>
+				</lg>
+				<lg><head>11.</head> <l>Inde statum semper idem exsistendi capiunt:</l>
+					<l>Clari, uiuidi, iucundi nullis patent casibus;</l>
+					<l>Absunt morbi semper sanis, senectus iuuenibus.</l>
+				</lg>
+				<lg><head>12.</head> <l>Hinc perenne tenent esse, nam transire transiit;</l>
+					<l n="35">Inde uirent, uigent, florent; corruptela corruit;</l>
+					<l>Immortalitatis uigor mortis ius absorbuit.</l>
+				</lg>
+				<lg><head>13.</head> <l>Qui scientem cuncta sciunt, quid nescire nequeunt</l>
+					<l>Nam et pectoris arcana penetrant alterutrum;</l>
+					<l>Vnum uolunt, unum norunt, unitas est mentium.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">Licet cuique sit diuersum pro labore meritum,</l>
+					<l>Caritas hoc suum facit, quod amat in altero;</l>
+					<l>Proprium sic singulorum commune fit omnium.</l>
+				</lg>
+				<lg><head>15.</head> <l>Vbi corpus, illic iure congregantur aquilae;</l>
+					<l>Quo cum angelis et sanctae recreantur animae;</l>
+					<l n="45">Vno pane uiuunt ciues utriusque patriae.</l>
+				</lg>
+				<lg><head>16.</head> <l>Auidi semper et pleni, quod habent, desiderant.</l>
+					<l>Non satietas fastidit, neque fames cruciant;</l>
+					<l>Inhiantes semper edunt et edentes inhiant.</l>
+				</lg>
+				<pb n="83"/>
+				<lg><head>17.</head> <l>Nonas semper harmonias uox meloda conrepat,</l>
+					<l n="50">Et in iubilum prolata mulcent aures organa;</l>
+					<l>Digna, per quem sunt uictores, regi dant praeconia.</l>
+				</lg>
+				<lg><head>18.</head> <l>Felix, caeli quae presentem regem cernit, anima</l>
+					<l>Et sub sede spectat altam orbis uolui machinam,</l>
+					<l>Solem, lunam et globosa bini cursus sidera.</l>
+				</lg>
+				<lg><head>19.</head> <l n="55">Christe, palma bellatorum, hoc in municipium</l>
+					<l>Introduc me post solutum militare cingulum;</l>
+					<l>Fac consortem donatiui beatorum ciuium.</l>
+				</lg>
+				<lg><head>20.</head> <l>Praebe uires inexhausto laboranti proelio,</l>
+					<l>Vt qietem post procinctum debeas emerito,</l>
+					<l n="60">Teque merear potiri sine fine praemio.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>3. RHYTMVS PASCHALIS.</head>
+				<lg><head>1.</head> <l>Pascalis festi gaudium mundi replet ambitum.</l>
+					<l>Caelum, tellus ac maria laeta promat carmina</l>
+					<l>Et «Alleluia» consonis modulentur organis.</l>
+				</lg>
+				<lg><head>2.</head> <l>Solus ululet Tartarus rapta praeda uacuus,</l>
+					<l n="5">Fractos uectes et ferrea strata ploret moenia,</l>
+					<l>Quae subruit rex gloriae cum laude uictoriae</l>
+				</lg>
+				<pb n="84"/>
+				<lg><head>3.</head> <l>Stupenda lex mysterii, nouum genus proelii!</l>
+					<l>Ligatus nexos liberat, mortuus uiuificat,</l>
+					<l>Dumque uita perimitur, mortis mors efficitur.</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">Statera crucis pendulum mundi librat pretium;</l>
+					<l>Quod dum exactor petiit, ius antiquum perdidit;</l>
+					<l>Escam gluttire nititur sed hamo transfigitur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Composuit chirographum protoplastus hominum,</l>
+					<l>Quod Christus post in alia soluit ligni tabula;</l>
+					<l n="15">Quae primus Adam scripserat, secundus oblitterat.</l>
+				</lg>
+				<lg><head>6.</head> <l>Cum auctor uitae moritur, orbis et commoritur.</l>
+					<l>Sol radios operiut, lugens terra tremuit;</l>
+					<l>Templi uelum diuiditur, uis saxorum scinditur.</l>
+				</lg>
+				<lg><head>7.</head> <l>Breui sepulcro clauditur, qui caelo non capitur.</l>
+					<l n="20">Praeda uallatus diuite uicto mortis principe</l>
+					<l>Triumphali potentia surgit die tertia.</l>
+				</lg>
+				<lg><head>8.</head> <l>Reddite Christum, uigiles, quem seruastis, milites.</l>
+					<l>Vel mortuum ostendite uel in uiuum credite.</l>
+					<l>Cur gratis uera dicitis, empti falsa fingitis?</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Mox intonat angelicus sermo muliribus,</l>
+					<l>Apostolis ut dulcia haec deferrent nuntia:</l>
+					<l>« In Galilaeam pergite, ibi Christum cernite. »</l>
+				</lg>
+				<lg><head>10.</head> <l>Iam regis Aegyptiaci seruitute liberi</l>
+					<l>Post Maris Rubri transitum nouum demus canticum;</l>
+					<l n="30">Mortis soluit legibus Christo consurreximus.</l>
+				</lg>
+				<pb n="85"/>
+				<lg><head>11.</head> <l>Colite, noui populi, rite pascha Domini,</l>
+					<l>Paschalis agni sanguine pestes domus tingite,</l>
+					<l>Fermentum uetus pellite, azyma comedite.</l>
+				</lg>
+				<lg><head>12.</head> <l>Totis, Christe, uisceribus tibi laudes reddimus,</l>
+					<l n="35">Qui resurgens a mortuis ultra iam non moreris.</l>
+					<l>Sit patri laus et parili decus omne flamini.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>4. RHYTMVS IN EOS QVI DE REGIS VLTIONE SECVRI
+				<lb/>SVNT SED CHRISTVM EVADERE NEQVEVNT.</head>
+				<lg><head>1.</head> <l>Iucundantur et laetantur simul omnes reprobi,</l>
+					<l>Qui regis aduentum prius exspectabant territi,</l>
+					<l>Fremunt, caedunt, intumescunt et insultant miseris.</l>
+				</lg>
+				<lg><head>2.</head> <l>Quique sunt lugendi totis lacrimarum fontibus,</l>
+					<l n="5">In superbiae sublimes extolluntur cornibus,</l>
+					<l>Phrenesim robur putantes sanis rident flentibus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sed quid iuuat, o peruersi, o Gehennae filii,</l>
+					<l>Non uitare sed mutare tribunal iudicii?</l>
+					<l>Sub mortali rege tuti Christum non euaditis.</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">Ecce ueniet ut fulgur, minax ac terribilis.</l>
+					<l>Solis ardor, lunae candor inuoluentur tenebris;</l>
+					<l>Ima terrae petent stellae caeli uulsae cardine.</l>
+				</lg>
+				<pb n="86"/>
+				<lg><head>5.</head> <l>Terra funditus ardebit, caeli trement climata,</l>
+					<l>Elementa turbantur, rugient tonitrua,</l>
+					<l n="15">Ignei micant corusci, creba cadunt fulmina.</l>
+				</lg>
+				<lg><head>6.</head> <l>In furore uenientis fit tempestas ualida.</l>
+					<l>Tota mundi tremefacta conquassatur machina,</l>
+					<l>Aestuantis flammae globus uastum perflat aera.</l>
+				</lg>
+				<lg><head>7.</head> <l>Tunc qui eum pupugerunt, cernunt omnes impii</l>
+					<l n="20">Throno igneo subnixum specie terribili.</l>
+					<l>Rogant montes, orant colles, postulantes obrui.</l>
+				</lg>
+				<lg><head>8.</head> <l>Mox occulta singulorum cunctis patent cordium;</l>
+					<l>Verba, facta, mens uidentur uelut corpus solidum</l>
+					<l>Et amarum in auctores reddunt testimonium.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Ipsi spiritus iniqui probra, quae suggesserant,</l>
+					<l>Longis exarata tomis relegentes explicant;</l>
+					<l>Loca, tempora gestorum et modos enumerant.</l>
+				</lg>
+				<lg><head>10.</head> <l>Irascuntur cuncta prauis angelorum agmina;</l>
+					<l>Aduersantur elementa, caelum, terra, maria;</l>
+					<l n="30">Omnis rerum creatura imminet contraria.</l>
+				</lg>
+				<lg><head>11.</head> <l>Ecce caput iniquorum, ferox illa bestia</l>
+					<l>Sub cunctorum denudata trahitur praesentia.</l>
+					<l>Patent artes, furta, doli, fraudes et ingenia.</l>
+				</lg>
+				<lg><head>12.</head> <l>O quam dura, quam horrenda uoce iudex intonat,</l>
+					<l n="35">Cum paratis mergi flammis maledictos imperat.</l>
+					<l>Mox degluttiens uiuentes Stygis olla deuorat.</l>
+				</lg>
+				<pb n="87"/>
+				<lg><head>13.</head> <l>Vaporantur infelices intus et extrinsecus;</l>
+					<l>Crepitantes strident flammae uelut ardens clibanus,</l>
+					<l>Ore, naribus et ipsis profllunt luminibus.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">Immortalis mors occidit nec omnino perimit;</l>
+					<l>Ignis urit, non consumit nec defectum recipit;</l>
+					<l>Vita moritur, mors uiuit, finis semper incipit.</l>
+				</lg>
+				<lg><head>15.</head> <l>Rediuiua septem plagae renouant supplicia:</l>
+					<l>Fumus, foetor, algor, ardor, fames, sitis ignea,</l>
+					<l n="45">Vermes numquam satiantur, qui corrodunt uiscera.</l>
+				</lg>
+				<lg><head>16.</head> <l>Illic dolor, cruciatus, fletus, stidor dentium,</l>
+					<l>Adsunt fremitus leonum, sibilli serpentium,</l>
+					<l>Quibus mixti confunduntur ululatus flentium.</l>
+				</lg>
+				<lg><head>17.</head> <l>Molis trabeae dracones laxa pandunt guttura,</l>
+					<l n="50">Quorum oculi sagittas iaculantur igneas,</l>
+					<l>Caudae chelas scorponium, plantae produnt uiperas.</l>
+				</lg>
+				<lg><head>18.</head> <l>Tendunt quidem ad nos esse sed non esse desinunt.</l>
+					<l>Viuunt morti, uolunt mori sed omnino nequeunt.</l>
+					<l>Qui male uixere, uitam pro tormento perferunt.</l>
+				</lg>
+				<lg><head>19.</head> <l n="55">Haec prae oculis, uesani, formidantes ponite;</l>
+					<l>Haec subtili pertractantes studio reuoluite</l>
+					<l>Et prauorum uinclis morum colla mentis soluite</l>
+					<pb n="88"/>
+					<l>Nam paratus est conuersis indulgere ueniam,</l>
+					<l>Qui peruersis adhuc premit uindictae sententiam.</l>
+					<l n="60">Salus, honor pio regi per aeterna saecula.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>5. RHYTMVS DE DIE MORTIS.</head>
+				<lg><head>1.</head> <l>Graui me terrore pulsas, uitae dies ultima;</l>
+					<l>Maeret cor, soluuntur renes, laesa tremunt uiscera,</l>
+					<l>Tui speciem dum sibi mens depingit anxia.</l>
+				</lg>
+				<lg><head>2.</head> <l>Quis enim pauendum illud explicet spectaculum,</l>
+					<l n="5">Cum dimenso uitae cursu carnis aegrae nexibus</l>
+					<l>Anima luctatur solui propinquans ad exitum?</l>
+				</lg>
+				<lg><head>3.</head> <l>Perit sensus, lingua riget, reuoluuntur oculi,</l>
+					<l>Pectus palpitat, anhelat raucum guttur hominis,</l>
+					<l>Stupent membra, pallent ora, decor abit corporis.</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">Ecce diuersorum partes confluunt spiritum,</l>
+					<l>Hinc angelicae uirtutes, illinc turba daemonum.</l>
+					<l>Illi propius accedunt, quos inuitat meritum.</l>
+				</lg>
+				<lg><head>5.</head> <l>Praesto sunt et cogitatus, uerba, cursus, opera,</l>
+					<l>Et prae oculis nolentis glomerantur omnia;</l>
+					<l n="15">Illuc tendat, huc se uertat, coram uidet posita.</l>
+				</lg>
+				<lg><head>6.</head> <l>Torquet ipsa reum suum mordax conscientia,</l>
+					<l>Plorat apta corrigendi defluxisse tempora.</l>
+					<l>Plena luctu caret fructu sera paenitentia.</l>
+				</lg>
+				<pb n="89"/>
+				<lg><head>7.</head> <l>Falsa tunc dulcendo carnis in amarum uertitur,</l>
+					<l n="20">Quando beuem uoluptatem perpes poena sequitur.</l>
+					<l>Iam quod magnum credebatur, nil fuisse cernitur.</l>
+				</lg>
+				<lg><head>8.</head> <l>At quae mens in summae lucis gloriam sustollitur,</l>
+					<l>Aspernatur lutum carnis, quo mersa prouoluitur,</l>
+					<l>Et ut carcerali nexu laetabunda soluitur.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Sed egressa durum iter experitur anima,</l>
+					<l>Quam incursant furiosa dirae pestis agmina</l>
+					<l>Et diuersa suis locis instruunt certamina.</l>
+				</lg>
+				<lg><head>10.</head> <l>Nam hic incentores gulae, illic auaritiae,</l>
+					<l>Alibi fautores irae, alibi superbiae;</l>
+					<l n="30">Vitii cuiusque globus suas parat acies.</l>
+				</lg>
+				<lg><head>11.</head> <l>Iam si cedat una turma, mox insurgit altera.</l>
+					<l>Omnis ars temptatur belli, omnis pugnae machina,</l>
+					<l>Ne ad hostium pudorem sic euadat anima.</l>
+				</lg>
+				<lg><head>12.</head> <l>O quam torua bellatorum monstra sunt feralium!</l>
+					<l n="35">Taetri, truces, truculenti flammas efflant naribus,</l>
+					<l>Dracontea tument colla, uirus stilant faucibus.</l>
+				</lg>
+				<lg><head>13.</head> <l>Serpentinis armant spiris manus doctas proeliis;</l>
+					<l>His oppugnant aduentates telis uelut ferreis,</l>
+					<l>His quos attrahunt, aeternis mancipant incendiis.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">Quaeso, Christe, rex inuicte, tu succurre misero</l>
+					<l>Sub extremae sortis hora, cum iussus obiero.</l>
+					<l>Nullum in me ius tyranno praebeatur impio.</l>
+				</lg>
+				<lg><head>15.</head> <l>Cadat princeps tenebrarum, cedat pars Tartarea.</l>
+					<l>Pastor, ouem iam redemptam tunc reduc ad patriam,</l>
+					<l n="45">Vbi te uiuendi causa perfruar in saecula.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<pb n="90"/>
+			<div>
+				<head><lb/>6. RHYTMUVS PAENITENTIS MONACHI.</head>
+				<lg><head>1.</head> <l>Quis infelicis fletus aquam capiti,</l>
+					<l>Quis lacrimarum fontem dabit oculis?</l>
+					<l>Flendo, pupillae, tenebras obducite.</l>
+					<l>Vae mihi lapso!</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Nam guttae maris, non arenae litoris</l>
+					<l>Aequantur meis scelerum flagitiis;</l>
+					<l>Excedunt stellas pluuiasque numero,</l>
+					<l>Pondere montes.</l>
+				</lg>
+				<lg><head>3.</head> <l>Nam quibus non sim uitiis obnoxius,</l>
+					<l n="10">Qui prauis semper deseruiui moribus?</l>
+					<l>Deo solutus carnis uixi legibus</l>
+					<l>Fluxus in ima.</l>
+				</lg>
+				<lg><head>4.</head> <l>Spreui praecepta, ausus sum prohibita,</l>
+					<l>Plures euerti praua per indicia.</l>
+					<l n="15">Noxius mihi, aliis inutilis</l>
+					<l>Artor utrimque,</l>
+				</lg>
+				<lg><head>5.</head> <l>Non caelum dignus oculis aspicere,</l>
+					<l>Non Dei nomen labiis exprimere.</l>
+					<l>Prohibent aedis sacrae limen terere</l>
+					<l n="20">Culpa remordens.</l>
+				</lg>
+				<lg><head>6.</head> <l>Nunc quoque sacris deditus obsequiis</l>
+					<l>Veteris uitae stimulor illecebris,</l>
+					<l>Vt fugitiuum repetunt in famulum</l>
+					<l>Iura tyranni.</l>
+				</lg>
+				<pb n="91"/>
+				<lg><head>7.</head> <l n="25">Conor in fletu, riget cor lapideum;</l>
+					<l>Precibus insto, uagus abit spiritus;</l>
+					<l>Lumen inquiro, tenebrae phantasmatum</l>
+					<l>Protinus adsunt.</l>
+				</lg>
+				<lg><head>8.</head> <l>Efferum ira, tumidum superbia,</l>
+					<l n="30">Edacem gula, uanum cenodoxia</l>
+					<l>Omnium frendens criminum barbaries</l>
+					<l>Subdere temptat.</l>
+				</lg>
+				<lg><head>9.</head> <l>Saepe resisto armaque corripio,</l>
+					<l>Mihi congressus mecum ipse dimico,</l>
+					<l n="35">Sed legi carnis lex dum cedit spiritus,</l>
+					<l>Praeda fit hosti.</l>
+				</lg>
+				<lg><head>10.</head> <l>Saepe diuino igne cor accenditur,</l>
+					<l>Seque trascendens mens in alta rapitur</l>
+					<l>Sed genuinae corruptelae labitur</l>
+					<l n="40">Pondere pressa.</l>
+				</lg>
+				<lg><head>11.</head> <l>Lux inaccesa micat ut per rimulas,</l>
+					<l>Cui mens intenta sitienter inhiat,</l>
+					<l>Cuius obtutus ecce carnis obuians</l>
+					<l>Vmbra retundit.</l>
+				</lg>
+				<lg><head>12.</head> <l n="45">Hostis antiqui telis mille sauciam</l>
+					<l>Ploro peremptam in peccatis animam.</l>
+					<l>Qui uacuasti mortis iura mortuus,</l>
+					<l>Tange, resurgat.</l>
+				</lg>
+				<lg><head>13.</head> <l>Palma iustorum spesque paenitentium,</l>
+					<l n="50">Da, Christe, manum et profundis erutum</l>
+					<l>Solue peractis, hinc ab imminentibus</l>
+					<l>Eripe noxis.</l>
+				</lg>
+				<pb n="92"/>
+				<lg><head>14.</head> <l>Tu peccatrici lacrimas non respuis;</l>
+					<l>Tu publicanum paenitem recipis;</l>
+					<l n="55">Vitam latroni iam in morte posito</l>
+					<l>Te dare spondes.</l>
+				</lg>
+				<lg><head>15.</head> <l>Per haec te quaeso pietatis uiscera:</l>
+					<l>Et me de uinculis tot culparum libera.</l>
+					<l>Mereor iram, effunde clementiam,</l>
+					<l n="60">Fons pietatis.</l>
+				</lg>
+				<lg><head>16.</head> <l>Da tuis semper obsequar imperiis</l>
+					<l>Sicque supernis dignum redde praemiis.</l>
+					<l>Qui patri compar Sanctoque Spiritui</l>
+					<l>Cuncta gubernas.</l>
+					<l n="65">Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>7. RHYTMVS SANCTII VINCENTII.</head>
+				<lg>
+					<l>A a. Caelum, terra, pontus, aetra,</l>
+					<l>Pariter</l>
+					<l>Elementa cuncta promant</l>
+					<l>Triumphalem</l>
+					<l n="5">Summi regis gloriam,</l>
+					<l>b. Qui leonis rugientis</l>
+					<l>Rabiem</l>
+					<l>Per robustum bellatorem</l>
+					<l>Mox victorem</l>
+					<l n="10">Conculcauit Vincentium.</l>
+					<l>B 1 a. Ille nempe Datiani</l>
+					<l>Spreuit iram iudicis,</l>
+					<l>Truces minas et furorem</l>
+					<l>Ceu susurros culicis,</l>
+					<l n="15">Vincla, flagra, carcerales</l>
+					<l>Tenebras.</l>
+					<pb n="93"/>
+					<l>Ipsae plagae uulnerantur,</l>
+					<l>Mortes mortibus adduntur,</l>
+					<l>Sed domus</l>
+					<l n="20">Supra firmam fixa petram</l>
+					<l>Nequit sterni</l>
+					<l>Vi uentorum uel fluminum.</l>
+					<l>b. Fame corpus maceratum</l>
+					<l>Cernitur</l>
+					<l n="25">Velut epulis nutritum</l>
+					<l>Sumptuosis</l>
+					<l>Ac cibis regalibus.</l>
+					<l>c. Angelorum quippe cibus</l>
+					<l>Reficit</l>
+					<l n="30">Ventrem mentis se quarentis,</l>
+					<l>Quae nil sitis</l>
+					<l>Praeter Deum uel esurit.</l>
+					<l>2a. Saeuit, fremit, efferatur</l>
+					<l>Mox cruenta bestia,</l>
+					<l n="35">Feruet, frendet, mouet cuncta</l>
+					<l>Tormentorum genera:</l>
+					<l>Ferrum, ignes, eculeum,</l>
+					<l>Testulas;</l>
+					<l>Torquet, torret et compages</l>
+					<l n="40">Diuidit articulorum,</l>
+					<l>Imprimit</l>
+					<l>Ignitarum laminarum</l>
+					<l>Sectis membris</l>
+					<l>Caecus furor cauterium.</l>
+					<l n="45">b. Christi miles premit uires</l>
+					<l>Viribus;</l>
+					<l>Cordis igne carnis ignes</l>
+					<l>Extinguebat</l>
+					<l>Sancto plenus Spiritu.</l>
+					<pb n="94"/>
+					<l n="50">Caesus flagris, fossus plagis</l>
+					<l>Iubilat;</l>
+					<l>Desides horret tortores,</l>
+					<l>Solam timet</l>
+					<l>Lenitatem carnificum.</l>
+					<l n="55">3 a. Bella fremunt, hostes cedunt,</l>
+					<l>Haec est lex uictoriae.</l>
+					<l>Pugna surgit, palma crescit</l>
+					<l>Et corona gloriae.</l>
+					<l>Clarus Christi triumphator</l>
+					<l n="60">Curiam</l>
+					<l>Summi caeli purpuratus</l>
+					<l>Introiuit comitatus</l>
+					<l>Niueo</l>
+					<l>Splendidorum angelorum</l>
+					<l n="65">Dulce carmen</l>
+					<l>Modulante collegio.</l>
+					<l>b. Mox in latos corpus agros</l>
+					<l>Iacitur</l>
+					<l>Insepultum; pauent canes,</l>
+					<l n="70">Tremunt aues</l>
+					<l>Proprius accedere.</l>
+					<l>c. Diues aruum fert thesaurum</l>
+					<l>Nobilem;</l>
+					<l>Non praedones, non latrones,</l>
+					<l n="75">Vt occultent,</l>
+					<l>Valent illud effodere.</l>
+					<l>4 a. Nam uesanus Datianus</l>
+					<l>Suit hunc erunculo,</l>
+					<l>Velut in parricidali</l>
+					<l n="80">Reum claudat culleo,</l>
+					<l>Et marinis iubet mergi</l>
+					<l>Fluctibus;</l>
+					<pb n="95"/>
+					<l>Nequit pontus sacrum pondus</l>
+					<l>Cohibere, sed ad litus</l>
+					<l n="85">Caelitus</l>
+					<l>Gubernatum deportatur</l>
+					<l>Et festinos</l>
+					<l>Praeuenit uelox remiges.</l>
+					<l>b. Nunc serenum uictor caelum</l>
+					<l n="90">Possides,</l>
+					<l>O beate, coronate</l>
+					<l>Post triumphum,</l>
+					<l>Martyr inuictissime,</l>
+					<l>c. In aeterni luce regni</l>
+					<l n="95">Radians</l>
+					<l>Lapis uiuus, clarum sidus</l>
+					<l>Cum ignitis</l>
+					<l>Angelorum agminibus.</l>
+					<l>a. Post sudorem et laborem,</l>
+					<l n="100">Post peractum stadium,</l>
+					<l>Tribuente iusto rege,</l>
+					<l>Fers promissum brauium</l>
+					<l>Trabeatus stola candi-</l>
+					<l>dissima.</l>
+					<l n="105">Solis ardor, lunae candor</l>
+					<l>Tuae cedunt claritati.</l>
+					<l>Omnia</l>
+					<l>Superantur, quae mirandum</l>
+					<l>Sui praebent</l>
+					<l n="110">In hoc orbe spectalum.</l>
+					<l>b. Rector caeli, nate Dei,</l>
+					<l>Petimus:</l>
+					<l>Leua mersos, solue nexos</l>
+					<l>Magnis sancti</l>
+					<l n="115">Meritis Vincentii.</l>
+					<l>c. Tu quos multae premunt culpae,</l>
+					<l>Suscita,</l>
+					<pb n="96"/>
+					<l>Fige nostra sursum corda,</l>
+					<l>Quo nil ament</l>
+					<l n="120">Praeter sola caelestia.</l>
+					<l>C. Da terrenis in extremis</l>
+					<l>Caeli celsa scandere,</l>
+					<l>Quos misertus redemisti</l>
+					<l>Pretioso sanguine,</l>
+					<l n="125">Qui per aeuum iura rerum</l>
+					<l>Ordinas,</l>
+					<l>Rex immensum et aeternus,</l>
+					<l>Cuius nutum cuncta tremunt</l>
+					<l>Condita,</l>
+					<l n="130">Qui cum patre Spirituque</l>
+					<l>Sancto regnas</l>
+					<l>Infinita per saecula.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>8. HYMNVS SANCTI GREGORII PAPAE.</head>
+				<lg><head>1.</head> <l>Anglorum iam apostolus,</l>
+					<l>Nunc angelorum socius,</l>
+					<l>Vt tunc, Gregori, gentibus,</l>
+					<l>Succurre iam credentibus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu largas opum copias</l>
+					<l>Omnemque mundi gloriam</l>
+					<l>Spernis, ut inops inopem</l>
+					<l>Iesum sequaris principem.</l>
+				</lg>
+				<lg><head>3.</head> <l>Videtur egens naufragus,</l>
+					<l n="10">Dum stipem petit angelus;</l>
+					<l>Tu minus iam post geminum</l>
+					<l>Praebes et uas argenteum.</l>
+				</lg>
+				<pb n="97"/>
+				<lg><head>4.</head> <l>Ex hoc te Christus tempore</l>
+					<l>Suae praefert ecclesiae;</l>
+					<l n="15">Sic Petri gradum percipis,</l>
+					<l>Cuius et normam sequeris.</l>
+				</lg>
+				<lg><head>5.</head> <l>O pontifex egregie,</l>
+					<l>Lux et decus ecclesiae,</l>
+					<l>Non sinas in periculis,</l>
+					<l n="20">Quos tot mandatis instruis.</l>
+				</lg>
+				<lg><head>6.</head> <l>Mella cor obdulcantia</l>
+					<l>Tua distillant labia;</l>
+					<l>Fraglantum uim aromatum</l>
+					<l>Tuum uincit eloquium.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Scripturae sacrae mystica</l>
+					<l>Mire soluis aenigmata;</l>
+					<l>Theorica mysteria</l>
+					<l>Te docet ipsa ueritas.</l>
+				</lg>
+				<lg><head>8.</head> <l>Tu nactus apostolicam</l>
+					<l n="30">Vicem simul et gloriam,</l>
+					<l>Nos solue culpae nexibus,</l>
+					<l>Redde polorum sedibus.</l>
+				</lg>
+				<lg><head>9.</head> <l>Sit patri laus ingenito,</l>
+					<l>Sit decus unigenito,</l>
+					<l n="35">Sit utriusque parili</l>
+					<l>Maiestas summa flamini.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>9. HYMNVS SANCTI BENEDICTI AD VESPERVM.</head>
+				<lg><head>1.</head> <l>Gemma celestis pretiosa regis,</l>
+					<l>Norma iustorum, uia monachorum,</l>
+					<pb n="98"/>
+					<l>Nos ab immundi, Benedicte, mundi</l>
+					<l>Subtrahe caeno.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu solum spernens, cor in astra figens</l>
+					<l>Cogis heredes fieri parentes.</l>
+					<l>Vas Deo plenus reparare fractum</l>
+					<l>Promeruisti.</l>
+				</lg>
+				<lg><head>3.</head> <l>Magnus in paruis eremita membris</l>
+					<l n="10">Vincis aetatem, superas laborem,</l>
+					<l>Arta districtae rudimenta uitae</l>
+					<l>Feruidus imples.</l>
+				</lg>
+				<lg><head>4.</head> <l>Strage saxorum puerum sepultum,</l>
+					<l>Mox ut orasti, prece suscitasti;</l>
+					<l n="15">Sensus hinc carni, caro sanitati</l>
+					<l>Redditur aeque.</l>
+				</lg>
+				<lg><head>5.</head> <l>Iure sub blande specie columbae</l>
+					<l>Nesciam fellis animam sororis</l>
+					<l>Summa stellati penetrare caeli</l>
+					<l n="20">Culmina cernis.</l>
+				</lg>
+				<lg><head>6.</head> <l>Ipse post clarum referens triumphum</l>
+					<l>Celsa deuicto petis astra mundo.</l>
+					<l>Luce flammantem radiante callem</l>
+					<l>Pallia sternunt.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Laus, honor patri parilique proli,</l>
+					<l>Vna maiestas, eadem potestas,</l>
+					<l>Cum quibus Sanctus simul implet omnem</l>
+					<l>Spiritus orbem.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<pb n="99"/>
+			<div>
+				<head><lb/>HYMNVS AD NOCTVRNVM.</head>
+				<lg><head>1.</head> <l>Signifer inuictissime</l>
+					<l>Sacraque dux militiae,</l>
+					<l>Nos, Benedicte, ualido</l>
+					<l>Precum defende brachio.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">His armis exsecrabilem</l>
+					<l>Leonis uince rabiem,</l>
+					<l>Quibus olim taeterrimam</l>
+					<l>Pellis ab ore merulam.</l>
+				</lg>
+				<lg><head>3.</head> <l>Vrticae iunctae uepribus</l>
+					<l n="10">Vulnus curant uulneribus;</l>
+					<l>Flammata mens diuinitus</l>
+					<l>Ignes extinguit ignibus.</l>
+				</lg>
+				<lg><head>4.</head> <l>Crucem mittens ut lapidem</l>
+					<l>Veneni frangis calicem;</l>
+					<l n="15">Non ualet mortis uasculum</l>
+					<l>Vitae ferre signaculum.</l>
+				</lg>
+				<lg><head>5.</head> <l>Frater quem tunc nequissimus</l>
+					<l>Vagum raptabat spiritus,</l>
+					<l>Dum tua uirga caeditur,</l>
+					<l n="20">Stabilitati redditur.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>11. IN LAVDIBVS</head>
+				<lg><head>1.</head> <l>Aurora surgit aurea</l>
+					<l>Festa restaurans annua,</l>
+					<pb n="100"/>
+					<l>Cum Benedictus arduum</l>
+					<l>Caeli scandit palatium.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Quanta in summis accipit,</l>
+					<l>Qui sic in imis claruit,</l>
+					<l>Cuius micant prodigia</l>
+					<l>Per ampla mundi climata!</l>
+				</lg>
+				<lg><head>3.</head> <l>Eius carentum gratia</l>
+					<l n="10">Tellus uomit cadauera;</l>
+					<l>Deuotis unda liquida</l>
+					<l>Sicca lambit uestigia.</l>
+				</lg>
+				<lg><head>4.</head> <l>Totius orbis ambitum</l>
+					<l>Per solis uidet radium</l>
+					<l n="15">Mens in auctore posita</l>
+					<l>Subiecta cernit omnia.</l>
+				</lg>
+				<lg><head>5.</head> <l>Te, pater alme, petimus</l>
+					<l>Pronae mentis uisceribus,</l>
+					<l>Vt caelum des ascendere,</l>
+					<l n="20">Quos terram doces spernere.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>12. HYMNVS SANCTI VITALIS IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Insigne decus martyrum,</l>
+					<l>Astrum Vitalis aureum</l>
+					<pb n="101"/>
+					<l>Per gloriam certaminis</l>
+					<l>Orbem perfundit radiis.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Ense praecinctus fidei</l>
+					<l>Christi succurrit militi;</l>
+					<l>Dum lapso manum porrigit,</l>
+					<l>Hostem calcare docuit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Eculeo suspenditur,</l>
+					<l n="10">Sed poena paruipenditur.</l>
+					<l>Amoris ardor intimi</l>
+					<l>Non sentit uim supplicii.</l>
+				</lg>
+				<lg><head>4.</head> <l>Terrae mersus infonditur</l>
+					<l>Sed super astra tollitur;</l>
+					<l n="15">Obruitur ruderubus,</l>
+					<l>Radiat in caelestibus.</l>
+				</lg>
+				<lg><head>5.</head> <l>Nos, martyr inuintissime,</l>
+					<l>Da post ruinam uincere</l>
+					<l>Digneque post uictoriam</l>
+					<l n="20">Ad caeli transfer gloriam.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>13. HYMNVS IN ASCENSA DOMINI IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Clara polorum culmina</l>
+					<l>Laeta mirentur lumina,</l>
+					<l>Quae penetrat rex gloriae</l>
+					<l>Cum triumpho uictoriae.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Qui moriturus uenerat,</l>
+					<l>Perempta morte remeat</l>
+					<l>Victor ad astra nobilis</l>
+					<l>Raptis Gehennae spoliis.</l>
+				</lg>
+				<pb n="102"/>
+				<lg><head>3.</head> <l>Acclinis ut erigeret,</l>
+					<l n="10">Venitus ut redimeret,</l>
+					<l>Spretis errantem pascuis</l>
+					<l>Ouem reportat scapulis.</l>
+				</lg>
+				<lg><head>4.</head> <l>Iam, caro, lutum despice,</l>
+					<l>Caelum, tellus, ingredere,</l>
+					<l n="15">Nam membris uia sternitur,</l>
+					<l>Quo caput ire cernitur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Iesu, decus angelicum,</l>
+					<l>Dulcendo, desiderium,</l>
+					<l>Et nos totis uisceribus</l>
+					<l n="20">Te fac ambire, quaesumus.</l>
+				</lg>
+				<lg><head>6.</head> <l>Da nobis in te uiuere,</l>
+					<l>Ad te cor nostrum dirige;</l>
+					<l>Accedat nostra pectora</l>
+					<l>Tuus amor in saecula.</l>
+					<l n="25">Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>14. HYMNVS SANCTI PETRI APOSTOLI.</head>
+				<lg><head>1.</head> <l>Senatus apostolici</l>
+					<l>Princeps et praeco Domini,</l>
+					<l>Pastor prime fidelium,</l>
+					<l>Custodi gregem creditum.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Per pascua uirentia</l>
+					<l>Nos uerbi fruge recrea;</l>
+					<l>Refectas oues praeuius</l>
+					<l>Caulis infer caelestibus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Supernae claues ianuae</l>
+					<l n="10">Tibi, Petre, sunt traditae,</l>
+					<l>Tuisque patent legibus</l>
+					<l>Terrena cum caelestibus.</l>
+				</lg>
+				<pb n="103"/>
+				<lg><head>4.</head> <l>Tu petram uerae fidei,</l>
+					<l>Tu basim aedificii</l>
+					<l n="15">Fundas, in qua catholica</l>
+					<l>Fixa surgit ecclesia.</l>
+				</lg>
+				<lg><head>5.</head> <l>Vmbra tua, dum graderis,</l>
+					<l>Fit medicina languidis.</l>
+					<l>Textrinis usa uestium</l>
+					<l n="20">Spreuit Tabitha feretrum.</l>
+				</lg>
+				<lg><head>6.</head> <l>Catena uinctum gemina</l>
+					<l>Virtus soluit angelica;</l>
+					<l>Veste sumpta cum caligis</l>
+					<l>Patescunt fores carceris.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Sit patri laus ingenito.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>15. HYMNVS SANCTI PAVLI APOSTOLI.</head>
+				<lg><head>1.</head> <l>Paule, doctor egregie,</l>
+					<l>Tuba clangens ecclesiae,</l>
+					<l>Nubs uolans ac tonitruum</l>
+					<l>Per amplum mundi circulum,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Nobis potenter intona</l>
+					<l>Ruraque cordis irriga</l>
+					<l>Caelestis imbre gratiae;</l>
+					<l>Mentes uirescant aridae.</l>
+				</lg>
+				<lg><head>3.</head> <l>O magnum Pauli meritum!</l>
+					<l n="10">Caelum conscendit tertium,</l>
+					<pb n="104"/>
+					<l>Audit uerba mysterii,</l>
+					<l>Quae nullis audet eloqui.</l>
+				</lg>
+				<lg><head>4.</head> <l>Dum ueri spargit semina;</l>
+					<l>Seges surgit uberrima;</l>
+					<l n="15">Sic caeli replent horreum</l>
+					<l>Bonorum fruges operum.</l>
+				</lg>
+				<lg><head>5.</head> <l>Micantis more lampadis</l>
+					<l>Perfundit orbem radiis,</l>
+					<l>Fugat errorum tenebras,</l>
+					<l n="20">Vt sola regnet ueritas.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>16. IN SANCTI APOLENARIS HYMNVS AD VESPERVM.</head>
+				<lg><head>1.</head> <l>Consul aeterni trabeate regni,</l>
+					<l>Mente deuota petimus, labora</l>
+					<l>Curiam caeli reserare plebi,</l>
+					<l>Apolenaris.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Ianitor summi pius hoc Olympi</l>
+					<l>Annuat tanti famulis alumni,</l>
+					<l>Qui tuas gaudent resonare laudes</l>
+					<l>Dulcibus hymnis.</l>
+				</lg>
+				<lg><head>3.</head> <l>Intimis pressam tenebris Rauennam</l>
+					<l n="10">Daemonum uanis inhiando sacris</l>
+					<l>Clarus Eois ueniens ab oris</l>
+					<l>Lucifer intrans.</l>
+				</lg>
+				<pb n="105"/>
+				<lg><head>4.</head> <l>Caesus orbati puer Hirenei</l>
+					<l>Te probat dextrum rutilare sidus,</l>
+					<l n="15">Qui patri cordis subolique frontis</l>
+					<l>Lumina pandis.</l>
+				</lg>
+				<lg><head>5.</head> <l>Nil potest aegrae medicina Teclae,</l>
+					<l>Nil profanorum numerus deorum.</l>
+					<l>Tu cor ad caelum facis atque laetum</l>
+					<l n="20">Tollere uultum.</l>
+				</lg>
+				<lg><head>6.</head> <l>Laeta Classensis mouet ora ciuis</l>
+					<l>Viribus sacrae reserata linguae;</l>
+					<l>Patris aeternum reparata uerbum</l>
+					<l>Verba fatentur.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Morte defunctam duplici puellam</l>
+					<l>Reddis utrique miserando uitae;</l>
+					<l>Flatus hinc carnem, Deus inde mentem</l>
+					<l>Protinus implet.</l>
+				</lg>
+				<lg><head>8.</head> <l>Gloriam patri referamus illi,</l>
+					<l n="30">Tanta qui dignis tribuit ministris;</l>
+					<l>Sit decus nato flaminique sancto</l>
+					<l>Omne per aeuum.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>17. AD NOCTVRNVM.</head>
+				<lg><head>1.</head> <l>Chorus exultet caelitum,</l>
+					<l>Turba plaudat fidelium;</l>
+					<l>Apolenaris passio</l>
+					<l>Mundi sit exultatio.</l>
+				</lg>
+				<pb n="106"/>
+				<lg><head>2.</head> <l n="5">Hic in feruore spiritus</l>
+					<l>Dum praedicat gentilibus,</l>
+					<l>Quae eius membra perferunt,</l>
+					<l>Referri lingua nequeunt.</l>
+				</lg>
+				<lg><head>3.</head> <l>Christum in igne positus</l>
+					<l n="10">Summis testatur uocibus;</l>
+					<l>Alter nimirum coquitur</l>
+					<l>Et alter est, qui loquitur.</l>
+				</lg>
+				<lg><head>4.</head> <l>Eculeo suspenditur,</l>
+					<l>Torta caro diuellitur;</l>
+					<l n="15">Iam poena poenam cruciat,</l>
+					<l>Et uulnus plaga uulnerat.</l>
+				</lg>
+				<lg><head>5.</head> <l>Igne iam membra torrida</l>
+					<l>Elixat aqua feruida;</l>
+					<l>Sic duo sacrificia</l>
+					<l n="20">Ex una fiunt uictima.</l>
+				</lg>
+				<lg><head>6.</head> <l>Tanta Rauennae gloria</l>
+					<l>Fertur ab Antiochia,</l>
+					<l>Haec mittit, illa recipit;</l>
+					<l>Haec gignit, illa perimit.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Sic trinitati gloria,</l>
+					<l>Quae sic disponit condita,</l>
+					<l>Vt antiquorum scelera</l>
+					<l>Noua lucrentur saecula.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<pb n="107"/>
+			<div>
+				<head><lb/>IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Dum caeli sphaera uoluitur,</l>
+					<l>Praeclara dies oritur,</l>
+					<l>Quam martyr apostolicus</l>
+					<l>Luce perfundit obitus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Quam gloriose moritur,</l>
+					<l>Qui moriendo oritur!</l>
+					<l>Tunc uere uitam inuenit,</l>
+					<l>Cum morte carnis interit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sancto exutus corpore</l>
+					<l n="10">Stola uestitur gloriae;</l>
+					<l>Carnis exit ergastulum,</l>
+					<l>Caeli scandit palatium.</l>
+				</lg>
+				<lg><head>4.</head> <l>Exulta iam, metropolis,</l>
+					<l>Rauenna uere nobilis;</l>
+					<l n="15">Quod Roma in clauigero,</l>
+					<l>Tu habes in discipulo.</l>
+				</lg>
+				<lg><head>5.</head> <l>Te, summe praesul, poscimus</l>
+					<l>Cordis orisque uocibus,</l>
+					<l>Vt nos uenturo iudici</l>
+					<l n="20">Commendes prece supplici.</l>
+				</lg>
+				<lg><head>6.</head> <l>Gloria sit ingenito</l>
+					<l>Patri et unigenito,</l>
+					<l>Sancto simul Spiritui,</l>
+					<l>Deo indiuisibili.</l>
+					<l n="25">Amen.</l>
+				</lg>
+			</div>
+			<pb n="108"/>
+			<div>
+				<head><lb/>IN NATALI SANCTI APOLENARIS SEQVENTIA.</head>
+				<lg><head>1.</head> <l>Clara nobilis praeconia</l>
+				</lg>
+				<lg><head>2 a.</head> <l>Apolenaris caelica 2 b. Omnis et orbis quadrua</l>
+					<l>Martyris laetis promat Dramatum dulce melos</l>
+					<l>uocibus agmina, resonent climata.</l>
+				</lg>
+				<lg><head>3 a.</head> <l n="5">Extultent merito nimis alumna 3 b. Plaudat praecipue felix</l>
+					<l>Tam egregii ciuis Antiochia. Rauenna</l>
+					<l>Sacro eius cruore purpurata.</l>
+				</lg>
+				<lg><head>4 a.</head> <l>O uirtus noua uinci nescia, 4 b.Alta uiscerum ridens ulnera,</l>
+					<l>O turris Dauid inuictissima, Dura uerberum spernens</l>
+					<l n="10">Cuncta pro nihilo deputans stigmata:</l>
+					<l>Tormentorum genera, Aqua refrigerat feruida</l>
+					<l>Membra flammis torrida.</l>
+				</lg>
+				<lg><head>5 a.</head> <l>Carcerales hinc tenebras, b. Catenarum mox uincula</l>
+					<l>Longa ferens exilia Sacra uinciunt brachia,</l>
+					<l n="15">Famis quoque pertulit Contundere non timet os</l>
+					<l>inopiam, rabida</l>
+					<l>Sustinuit eculei suspendia. Iam lapide carnificis insania.</l>
+				</lg>
+				<lg><head>6 a.</head> <l>Euiscerans claustra Tartarea 6 b. Quis referat, quot caecorum</l>
+					<l>Examinem patricii lumina,</l>
+					<l n="20">suscitauit filiam. Quot languida diuinitus</l>
+					<l>reparauit corpora?</l>
+				</lg>
+				<lg><head>7 a.</head> <l>Petimus, ecclesia radians 7 b. Pectora nostra precesedula</l>
+					<l>Sidus et lucerna, Vitiis emunda,</l>
+					<l>Pontificum nitida Virtutibus robora,</l>
+					<l n="25">Martyrumque gemma, Cor in astra leua</l>
+				</lg>
+				<lg><head>8.</head> <l>Et Christum nos cernere fac in saecula. Amen.</l>
+				</lg>
+			</div>
+			<pb n="109"/>
+			<div>
+				<head><lb/>HYMNVS SANCTORVM DONATI ET HILARIANI.</head>
+				<lg><head>1.</head> <l>Gloriam clari canimus triumphi</l>
+					<l>Quo polum victor petiit Donatus</l>
+					<l>Compar et ponae simul et coronae</l>
+					<l>Hilarianus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Hi uelut binae radiant lucernae</l>
+					<l>Orbis et taetras remouent tenebras,</l>
+					<l>Dum tonant uerbis rutilantque signis</l>
+					<l>Prodigiorum.</l>
+				</lg>
+				<lg><head>3.</head> <l>Daemones captis spoliant rapinis,</l>
+					<l n="10">Quos precum duris cruciant flagellis,</l>
+					<l>Robus aegrotis reparantque caecis</l>
+					<l>Lumen utrumque.</l>
+				</lg>
+				<lg><head>4.</head> <l>Mensibus clauso tribus e sepulcro</l>
+					<l>Prodit infossum mulier talentum;</l>
+					<l n="15">Functa sic uiuo tribuit marito,</l>
+					<l>Ne moreretur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Fragmen obtriti calcis priorem</l>
+					<l>Surgit in formam, peruente parua</l>
+					<pb n="110"/>
+					<l>Parte, sed nullus liquor inde stilla,</l>
+					<l n="20">Res noua mundo!</l>
+				</lg>
+				<lg><head>6.</head> <l>Quaesumus, celsi proceres Olympi:</l>
+					<l>Nos simul uestris precibus paternis</l>
+					<l>Erigat lapsos solidetque fractos</l>
+					<l>Dextera Christi.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Laus, honor patri parilique proli</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>21.</head>
+				<lg><head>1.</head> <l>Donate, sidus aureum,</l>
+					<l>Martyr et proles martyrum,</l>
+					<l>Sed quos ad fidem praeuenis,</l>
+					<l>Martyrio praecederis.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Nobis, praesul egregie,</l>
+					<l>Decus et lux ecclesiae,</l>
+					<l>Tibi festa colentibus</l>
+					<l>Sacris succurre precibus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Qui das trimenstri mortuae</l>
+					<l n="10">Viua uerba depromere,</l>
+					<l>Resuscita per spiritum</l>
+					<l>Sepultos mole criminum.</l>
+				</lg>
+				<lg><head>4.</head> <l>Vita luxit et moribus</l>
+					<l>Hilarianus monachus;</l>
+					<l n="15">Iure functus hospitii</l>
+					<l>Fit consors et martyrii.</l>
+				</lg>
+				<pb n="111"/>
+				<lg><head>5.</head> <l>Vos, clarae mundi lampades</l>
+					<l>Caelique uiui lapides,</l>
+					<l>Nos infelices meritis</l>
+					<l n="20">Vestris adscite praemiis.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patris laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>22. IN ASSVMPTIONE SANCTAE MARIAE HYMNVS.</head>
+				<lg><head>1.</head> <l>Gaudium mundi, noua stella caeli,</l>
+					<l>Procerans solem, pariens parentem,</l>
+					<l>Da manum lapsis, fer opem caducis,</l>
+					<l>Virgo Maria.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Te Deo factam liquet esse scalam,</l>
+					<l>Qua tenens summa petit altus ima.</l>
+					<l>Nos ad excelsi remeare caeli</l>
+					<l>Culmina dona.</l>
+				</lg>
+				<lg><head>3.</head> <l>Te beatorum chorus angelorum,</l>
+					<l n="10">Te prophetarum et apostolorum</l>
+					<l>Ordo praelatam sibi cernit unam</l>
+					<l>Post deitatem.</l>
+				</lg>
+				<lg><head>4.</head> <l>Aula caelestis speciosa regis</l>
+					<l>Fulta septenis sophiae columnis,</l>
+					<l n="15">Quem nequit totus cohibere mundus,</l>
+					<l>Claudis in aluo.</l>
+				</lg>
+				<lg><head>5.</head> <l>Quem tremunt caeli, metuunt abyssi,</l>
+					<l>Fluminum guttae maris et procellae,</l>
+					<pb n="112"/>
+					<l>Laudat occasus, ueneratur ortus,</l>
+					<l n="20">Stringis in ulnis.</l>
+				</lg>
+				<lg><head>6.</head> <l>Lacte nutritur cibus angelorum,</l>
+					<l>Fertur innuptae gremio puellae,</l>
+					<l>Qui sua latae dicione terrae</l>
+					<l>Pondera librat.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Sit decus summo sine fine Christo,</l>
+					<l>Virgo quem sancta genuit Maria,</l>
+					<l>Qui patri compar flaminique sancto</l>
+					<l>Regnat in aeuum.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>23. AD NOCTVRNVM.</head>
+				<lg><head>1.</head> <l>Terrena cuncta iubilent,</l>
+					<l>Astra laubibus intonent;</l>
+					<l>Virginis ante thalamum</l>
+					<l>Laudes alternent dragmatum.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Haec uirgo uerbo grauida</l>
+					<l>Fit paradisi ianua:</l>
+					<l>Quae Deum mundo reddidit,</l>
+					<l>Caelum nobis aperuit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Felix ista puerpera</l>
+					<l n="10">Euae lege liberrima</l>
+					<l>Concepit sine coitu,</l>
+					<l>Emisit absque gemitu.</l>
+				</lg>
+				<lg><head>4.</head> <l>Diues Mariae gremium</l>
+					<l>Mundi gestauit pretium,</l>
+					<pb n="113"/>
+					<l n="15">Quo gloriamur redimi</l>
+					<l>Soluti iugo debiti.</l>
+				</lg>
+				<lg><head>5.</head> <l>Quam patris implet filius,</l>
+					<l>Sanctus obumbrat Spiritus.</l>
+					<l>Caelum fiunt castissima</l>
+					<l n="20">Sacrae puellae uiscera.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit tibi laus, altissime,</l>
+					<l>Qui natus es ex virgine,</l>
+					<l>Sit honor ineffabili</l>
+					<l>Patri sanctoque flamini.</l>
+					<l n="25">Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>24. IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Aurora uelut fulgida</l>
+					<l>Ad caeli meat culmina,</l>
+					<l>Vt sol Maria splendida,</l>
+					<l>Tamquam luma pulcherrima.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Regina mundi hodie</l>
+					<l>Thronum conscendit gloriae</l>
+					<l>Illum enixa filium,</l>
+					<l>Qui est ante luciferum.</l>
+				</lg>
+				<lg><head>3.</head> <l>Assumpta super angelos</l>
+					<l n="10">Excedit et archangelos.</l>
+					<l>Cuncta sanctorum merita</l>
+					<l>Trascendit una femina.</l>
+				</lg>
+				<lg><head>4.</head> <l>Quem fouerat in gremio,</l>
+					<l>Locarat in praesaepio,</l>
+					<pb n="114"/>
+					<l n="15">Nunc regem super omnia</l>
+					<l>Patris uidet in gloria.</l>
+				</lg>
+				<lg><head>5.</head> <l>Pro nobis, uirgo uirginum,</l>
+					<l>Tuum deposce filium,</l>
+					<l>Per quam nostra susceperat,</l>
+					<l n="20">Vt sua nobis praebeat.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>25. HYMNVS SANCTAE CRVCIS.</head>
+				<lg><head>1.</head> <l>Crux, orbis salus perditi,</l>
+					<l>Perempti uita saeculi,</l>
+					<l>Quam uicta tremunt Tartara,</l>
+					<l>Caeli uerentur agmina,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">In te dum uita moritur,</l>
+					<l>Mortis catena soluitur.</l>
+					<l>Aegypti iugo liberi</l>
+					<l>Verae sunt lucis filii.</l>
+				</lg>
+				<lg><head>3.</head> <l>Te ponit iudex omnium,</l>
+					<l n="10">Cum iudicatur, solium.</l>
+					<l>Iam tunc haedos ab ouibus</l>
+					<l>Segregat in latronibus.</l>
+				</lg>
+				<pb n="115"/>
+				<lg><head>4.</head> <l>Tu mundi ludis principem,</l>
+					<l>Dum punis impassibilem;</l>
+					<l n="15">Reos offerre solita</l>
+					<l>Quem nunc das, aufert spolia.</l>
+				</lg>
+				<lg><head>5.</head> <l>In te mactatur uictima,</l>
+					<l>Quae mundi purgat crimina;</l>
+					<l>Tibi talentum creditur,</l>
+					<l n="20">Adae quod soluit debitum.</l>
+				</lg>
+				<lg><head>6.</head> <l>Nos, uitae signum, protege,</l>
+					<l>Quo rex triumphat gloriae.</l>
+					<l>Per te ad regnum prouehat,</l>
+					<l>Quos seruitute liberat.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>26. IN LAVBIVS.</head>
+				<lg><head>1.</head> <l>Crux, mundi benedictio,</l>
+					<l>Spes et certa redempio,</l>
+					<l>Olim gehennae baiula,</l>
+					<l>Nunc clara caeli ianua,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">In te leuatur hostia,</l>
+					<l>Ad se qui traxit omnia;</l>
+					<l>Quam mundi princeps impetit</l>
+					<l>Suumque nihil inuenit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Tuae legis articulus</l>
+					<l n="10">Vetus cassat chirographum;</l>
+					<l>Antiqua perit seruitus,</l>
+					<l>Vera libertas redditur.</l>
+				</lg>
+				<pb n="116"/>
+				<lg><head>4.</head> <l>Odoris tui copia</l>
+					<l>Cuncta uincit aromata;</l>
+					<l n="15">Tui dulcendo nectaris</l>
+					<l>Replet arcana pectoris.</l>
+				</lg>
+				<lg><head>5.</head> <l>Per crucem, Christe, quaesumus:</l>
+					<l>Ad uitae transfer praemium,</l>
+					<l>Quos ligni fixus stipite</l>
+					<l n="20">Dignatus es redimere.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>27. HYMNVS SANCTI ANDREAE APOSTOLI.</head>
+				<lg><head>1.</head> <l>Captator olim piscium,</l>
+					<l>Iam nunc piscator hominum,</l>
+					<l>Tuis, Andrea, retibus</l>
+					<l>Mundi nos rape fluctibus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Germanus Petri corpore</l>
+					<l>Nec mortis dispar ordine;</l>
+					<l>Quos una caro genuit,</l>
+					<l>Crux caelo fratres edidit.</l>
+				</lg>
+				<lg><head>3.</head> <l>O germen uere nobile,</l>
+					<l n="10">O par corona gloriae!</l>
+					<l>Ecclesiae patres pii</l>
+					<l>Crucis sunt aeque filii.</l>
+				</lg>
+				<lg><head>4.</head> <l>Ad Iesum fratri praeuius,</l>
+					<l>Indexque uitae strenuus,</l>
+					<l n="15">Et nobis esto miseris</l>
+					<l>Beati dux itineris.</l>
+				</lg>
+				<lg><head>5.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<pb n="117"/>
+			<div>
+				<head><lb/>28.</head>
+				<lg><head>1.</head> <l>Andreae festum colitur,</l>
+					<l>Lux clara piis oritur,</l>
+					<l>Per quem tenebras deserunt,</l>
+					<l>Ad uerum lumen redeunt.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Egeas in apostolum</l>
+					<l>Minaci frendet spiritu,</l>
+					<l>Per quem Achaiae populum</l>
+					<l>Cernit ire post Dominum.</l>
+				</lg>
+				<lg><head>3.</head> <l>Nescit minas pauescere,</l>
+					<l n="10">Nequit tormentis cedere;</l>
+					<l>Flammantis ardor fidei</l>
+					<l>Non sentit uim supplicii.</l>
+				</lg>
+				<lg><head>4.</head> <l>Crucis uinctus patibulo</l>
+					<l>Laetus pendebat biduo;</l>
+					<l n="15">In ipsa morte positus</l>
+					<l>Vitae manat eloquium.</l>
+				</lg>
+				<lg><head>5.</head> <l>Luce delapsa caelitus</l>
+					<l>Repente circumfunditur;</l>
+					<l>Qui sic obire meruit,</l>
+					<l n="20">Lucis auctorem petiit.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>29. HYMNVS SANCTAE REPARATAE.</head>
+				<lg><head>1.</head> <l>Clarum puellae meritum</l>
+					<l>Chori promant fidelium,</l>
+					<l>Cum saeptum carnis exiit,</l>
+					<l>Et uictrix astra petiit.</l>
+				</lg>
+				<pb n="118"/>
+				<lg><head>2.</head> <l n="5">Calcat insignis femina</l>
+					<l>Noua poenarum genera.</l>
+					<l>Liquescens plumbum tepuit,</l>
+					<l>Camini uis deferbuit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sed Reparata mediis</l>
+					<l n="10">Dum psallit in incendiis,</l>
+					<l>Machaera mox adhibita</l>
+					<l>Secantur eius uiscera.</l>
+				</lg>
+				<lg><head>4.</head> <l>Hinc decaluata ducitur</l>
+					<l>Christi sponsa per publicum;</l>
+					<l n="15">Non turpe, non ignobile,</l>
+					<l>Sed est corona gloriae.</l>
+				</lg>
+				<lg><head>5.</head> <l>Gloria sit ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>30.</head>
+				<lg><head>1.</head> <l>O uere uirgo nobilis</l>
+					<l>Magnis digna praeconiis,</l>
+					<l>Quam dura frusta feriunt,</l>
+					<l>Mulcere blanda nequeunt.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Virile pectus uirginis</l>
+					<l>Nullis cedit suppliciis;</l>
+					<l>Per ignes, ferrum, uulnera</l>
+					<l>Caeli conscendit culmina.</l>
+				</lg>
+				<lg><head>3.</head> <l>Neci felix addicitur,</l>
+					<l n="10">Sacrum caput absciditur.</l>
+					<l>Ore columba deuolat</l>
+					<l>Palamque caelum penetrat.</l>
+				</lg>
+				<pb n="119"/>
+				<lg><head>4.</head> <l>Te, sacra uirgo, petimus</l>
+					<l>Mentis pronae uisceribus,</l>
+					<l n="15">Vt nos uenturo iudici</l>
+					<l>Commendes prece supplici.</l>
+				</lg>
+				<lg><head>5.</head> <l>Gloria sit ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>31. HYMNVS IN NATALI PONTIFICUM.</head>
+				<lg><head>1.</head> <l>Sacri pontificis annuus emicat</l>
+					<l>Natalis. Celebrans plebs pia gaudeat</l>
+					<l>Et laeto resonet pectore carmina</l>
+					<l>Christo, qui regit omnia.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Hic spernens proprii gaudia corporis,</l>
+					<l>Longum sustinuit martyrium crucis.</l>
+					<l>Tormentum grauius uulnere pertulit,</l>
+					<l>Qui tortor suus exstitit.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sacrae militiae signifer inclutus</l>
+					<l n="10">Virtutum fuerat forma sequentibus</l>
+					<l>Accendens ualidis pectora uocibus,</l>
+					<l>Praeclaris quoque moribus.</l>
+				</lg>
+				<lg><head>4.</head> <l>Bis senos lapides pectore detulit,</l>
+					<l>Bis tinctae tunicae tegmine splenduit,</l>
+					<l n="15">Tintinnabula cui dulciter obstrepunt,</l>
+					<l>Mala Punica defluunt.</l>
+				</lg>
+				<lg><head>5.</head> <l>Ipsius precibus, conditor omnium,</l>
+					<l>Dimersos releua pondere criminum,</l>
+					<l>Cui laus, imperium summaque gloria</l>
+					<l n="20">Sit per omnia saecula.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>32. IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Christe, sanctorum gloria,</l>
+					<l>Certantium uictoria,</l>
+					<l>Nos confessoris precibus</l>
+					<l>Culparum solue nexibus.</l>
+				</lg>
+				<pb n="120"/>
+				<lg><head>2.</head> <l n="5">Fac nos imitabilia</l>
+					<l>Eius sequi uestigia</l>
+					<l>Tu sis commune praemium,</l>
+					<l>Qui factus est et pretium.</l>
+				</lg>
+				<lg><head>3.</head> <l>Nam hic in imo positus</l>
+					<l n="10">Celsis praestabat moribus;</l>
+					<l>Humilis erat ordine,</l>
+					<l>Claro sublimis opere.</l>
+				</lg>
+				<lg><head>4.</head> <l>Intenta mens caelestibus</l>
+					<l>Mundanos horret strepitus;</l>
+					<l n="15">Nil iam delectat anxiam,</l>
+					<l>Quod non ducit ad patriam.</l>
+				</lg>
+				<lg><head>5.</head> <l>Accensus illuc spiritus</l>
+					<l>Totis anhelat nisibus.</l>
+					<l>Iam cernit in aenigmate.</l>
+					<l n="20">Lumen inaccessibile.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>33. HYMNVS SANCTI IANVARII EPISCOPI ET MARTYRIS</head>
+				<lg><head>1.</head> <l>Clare famosi titulis triumphi,</l>
+					<l>Raptor aeterni uiolente regni,</l>
+					<l>Sit tuis per te uia, Ianuari,</l>
+					<l>Ianua caeli.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Funde pro nostris pia uota noxis,</l>
+					<l>Vt Dei iusta reprimatur ira,</l>
+					<l>Reddat amissam merito coronam</l>
+					<l>Gratia Christi.</l>
+				</lg>
+				<pb n="121"/>
+				<lg><head>3.</head> <l>Te queunt nullae superare poenae.</l>
+					<l n="10">Membra discerptis patuere neruis,</l>
+					<l>Carcerum taetrae cohibent tenebrae</l>
+					<l>Sidus Olympi.</l>
+				</lg>
+				<lg><head>4.</head> <l>Flamma succensi triduo camini</l>
+					<l>Cessit ingenti fidei calori;</l>
+					<l n="15">Dum uapor carnis furit, inde mentis</l>
+					<l>Aestuat ignis.</l>
+				</lg>
+				<lg><head>5.</head> <l>Senserat frenum rabies ferarum,</l>
+					<l>Praepes ut sacros laniaret artus;</l>
+					<l>Beluae blandos imitantur agnos</l>
+					<l n="20">Vertice prono.</l>
+				</lg>
+				<lg><head>6.</head> <l>Terminus longae datur ense pugnae</l>
+					<l>Flante felicem iugulo cruorem.</l>
+					<l>Splendidus rubra rutilante stola</l>
+					<l>Tendis ad astra.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Laus honor patri parilique proli</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>34. AD NOCTVRNVM.</head>
+				<lg><head>1.</head> <l>Caelum, tellus ac maria,</l>
+					<l>Mellita promant carmina;</l>
+					<l>His nempe dignus laubibus</l>
+					<l>Est praesul Ianuarius.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Hic martyr inuictissimus</l>
+					<l>Diuinis fultus uiribus</l>
+					<l>Minas contemnit principum,</l>
+					<l>Manus nescit carnificum.</l>
+				</lg>
+				<lg><head>3.</head> <l>Laetus adit supplicia</l>
+					<l n="10">Ieiunus ut conuiuia.</l>
+					<l>Noua poenarum genera</l>
+					<l>Mens transit imperterrita</l>
+				</lg>
+				<pb n="122"/>
+				<lg><head>4.</head> <l>Praesens, quem iniquissimus</l>
+					<l>Corde caecarat spiritus,</l>
+					<l n="15">Carnis etiam lumine</l>
+					<l>Deo priuatur iudice.</l>
+				</lg>
+				<lg><head>5.</head> <l>Cui martyr ut egregius</l>
+					<l>Fusis medetur praecibus,</l>
+					<l>Multi tenebrans deserunt,</l>
+					<l n="20">Ad uerum lumen redeunt.</l>
+				</lg>
+				<lg><head>6.</head> <l>Gloria sit ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>35. IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Lux alma sacri martyris</l>
+					<l>Orbem perfundit radiis,</l>
+					<l>Qua purpuratus fulgidam</l>
+					<l>Caeli conscendit curiam.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Abiecto carnis onere</l>
+					<l>Stolam suscepit gloriae,</l>
+					<l>Prostrato mundi principe</l>
+					<l>Palman refert iustitiae.</l>
+				</lg>
+				<lg><head>3.</head> <l>Gaude, felix Arretium,</l>
+					<l n="10">Tantorum aula principum!</l>
+					<l>Donatum, decus martyrum,</l>
+					<l>Claudis et Ianuarium.</l>
+				</lg>
+				<lg><head>4.</head> <l>Vt frons duorum luminum,</l>
+					<l>Lucerna, fulges, urbium.</l>
+					<l n="15">Caelo sanctorum merita</l>
+					<l>Beata tollunt moenia.</l>
+				</lg>
+				<pb n="123"/>
+				<lg><head>5.</head> <l>Te, martyr alme, petimus</l>
+					<l>Mentis orisque precibus,</l>
+					<l>Vt tua soluant merita,</l>
+					<l n="20">Quos sua ligant debita.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>36. HYMNVS SANCTI AMBROSII EPISCOPI IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Ambrosi, sidus aureum</l>
+					<l>Orbis illustrans ambitum,</l>
+					<l>Tu nostris lumen mentibus</l>
+					<l>Sacris infunde precibus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu uerbi uibrans iaculum</l>
+					<l>Vt flumen sternis Arrium.</l>
+					<l>Fugas errorum tenebras,</l>
+					<l>Vt mera cluat ueritas.</l>
+				</lg>
+				<lg><head>3.</head> <l>Clangor tubae terribilis,</l>
+					<l n="10">Coruscas et prodigiis:</l>
+					<l>Quem deflet mater mortuum,</l>
+					<l>Reddis uitae Pansophium.</l>
+				</lg>
+				<lg><head>4.</head> <l>Tuae uocis imperium</l>
+					<l>Pauescit agmen daemonum.</l>
+					<l n="15">Flent spiritus nequissimi</l>
+					<l>Solutum ius hospitii.</l>
+				</lg>
+				<lg><head>5.</head> <l>Qua ui procellas meriti,</l>
+					<l>Experiuntur aemuli;</l>
+					<l>Qui te laedunt uel detrahunt,</l>
+					<l n="20">Vltore Deo pereunt.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<pb n="124"/>
+			<div>
+				<head><lb/>37. HYMNVS SANCTAE MARIAE AD VESPERVM.</head>
+				<lg><head>1.</head> <l>Sidus, Maria, splendidum,</l>
+					<l>Te laudat omne saeculum,</l>
+					<l>Ex qua sub mundi uespere</l>
+					<l>Sol ortus est iustitiae.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Da cor tenebris eripi,</l>
+					<l>Da uera luce perfrui,</l>
+					<l>Quae noctem uitae ueteris</l>
+					<l>Nouis illustret meritis.</l>
+				</lg>
+				<lg><head>3.</head> <l>Per te purgemur uitiis,</l>
+					<l n="10">Soluamur culpae uinculis,</l>
+					<l>Mens uulsis spinis eruta</l>
+					<l>Virtutum ferat germina.</l>
+				</lg>
+				<lg><head>4.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>38. HYMNVS AD PRIMAM.</head>
+				<lg><head>1.</head> <l>Beata Dei genetrix,</l>
+					<l>Nitor humani generis,</l>
+					<l>Per quam de seruis liberi</l>
+					<l>Lucisque sumus filii,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Fac tuum nobis filium</l>
+					<l>Pia prece propitium;</l>
+					<l>Quem grauiter offendimus,</l>
+					<l>Tu mitem redde, quaesumus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<pb n="125"/>
+			<div>
+				<head><lb/>HYMNVS AD TERTIAM.</head>
+				<lg><head>1.</head> <l>Maria, decus hominum,</l>
+					<l>Regis aeterni solium,</l>
+					<l>Septem columnis edita</l>
+					<l>Domus a sapientia,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu nos uenturo iudici</l>
+					<l>Commenda prece supplici:</l>
+					<l>Tuis intentos laudibus</l>
+					<l>Mitis cernat ac placidus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>40. HYMNVS AD SEXTAM.</head>
+				<lg><head>1.</head> <l>Maria, templum Domini,</l>
+					<l>Dei mater et hominis,</l>
+					<l>Tunc uere uirgo uirginum,</l>
+					<l>Cum peperisti filium,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Da nobis hunc in feruido</l>
+					<l>Mentis gestare gremio;</l>
+					<l>Ex tua carne genitus</l>
+					<l>Nostris regnet in sensibus.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<pb n="126"/>
+			<div>
+				<head><lb/>HYMNVS AD NONAM.</head>
+				<lg><head>1.</head> <l>O singularis femina,</l>
+					<l>Sola uirgo puerpera,</l>
+					<l>Praeclara uitae ianua,</l>
+					<l>Quia caeli patent atria,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu nos culparum nexibus</l>
+					<l>Sacris absolue precibus;</l>
+					<l>Tua promentes merita</l>
+					<l>Ad caeli transfer praemia.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>42. HYMNVS AD COMPLETORIVM.</head>
+				<lg><head>1.</head> <l>Maria, uirgo regia,</l>
+					<l>Dauid stirpe progenita,</l>
+					<l>Non tam paterna nobilis</l>
+					<l>Quam dignitate subolis,</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu nos auulsos ueteri</l>
+					<l>Complanta nouo germini;</l>
+					<l>Per te sit genus hominum</l>
+					<l>Regale sacerdotium.</l>
+				</lg>
+				<lg><head>3.</head> <l>Sit tibi laus, altissime</l>
+				</lg>
+			</div>
+			<pb n="127"/>
+			<div>
+				<head><lb/>HYMNVS SANCTI VRSICINI.</head>
+				<lg><head>1.</head> <l>Dulce martyr eximius</l>
+					<l>Festum praebet Vrsicinus,</l>
+					<l>Quo uictus uictor exstitit</l>
+					<l>Et clarus astra petiit.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Nam poenas post horrificas</l>
+					<l>Carnis pauet infirmitas</l>
+					<l>Sed mox ad cor reuertitur</l>
+					<l>Et laetus ense caeditur.</l>
+				</lg>
+				<lg><head>3.</head> <l>Digne raptor erabuit,</l>
+					<l n="10">Rapinae cum succubuit,</l>
+					<l>Et hoste lapso perdidit,</l>
+					<l>Qui stanti uulnus intulit.</l>
+				</lg>
+				<lg><head>4.</head> <l>Et nos inter certamina,</l>
+					<l>Martyr insignis, adiuua,</l>
+					<l n="15">Da diffidentes fidere</l>
+					<l>Victosque rursum uincere.</l>
+				</lg>
+				<lg><head>5.</head> <l>Sic, animarum medicus,</l>
+					<l>Affer opem languentibus:</l>
+					<l>Haustu caelestis gratiae</l>
+					<l n="20">Aegrae curentur animae.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>44. HYMNVS SANCTI RVPHINI.</head>
+				<lg><head>1.</head> <l>Magnum Ruphini meritum</l>
+					<l>Turba canat fidelium,</l>
+					<pb n="128"/>
+					<l>Quo mundi uictor exstitit</l>
+					<l>Et liber astra petiit.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Bellator inuictisssimus</l>
+					<l>Praebet ora lapidibus,</l>
+					<l>Sed uerbis grando uerberum</l>
+					<l>Non indidit silentium.</l>
+				</lg>
+				<lg><head>3.</head> <l>Plumbatis inde caeditur,</l>
+					<l n="10">Iamiam obisse creditur</l>
+					<l>Sed qui putatur mortuus,</l>
+					<l>Surgit in arma promptius.</l>
+				</lg>
+				<lg><head>4.</head> <l>Detruditur in clibanum</l>
+					<l>Furentem flammis ignium,</l>
+					<l n="15">Caminus sed incendii</l>
+					<l>Fit nemus refrigerii.</l>
+				</lg>
+				<lg><head>5.</head> <l>Nam flammis crepitantibus</l>
+					<l>Clarus immersit angelus,</l>
+					<l>Ad cuius mox imperium</l>
+					<l n="20">Perdit uires incendium.</l>
+				</lg>
+				<lg><head>6.</head> <l>Certat martyr egregius</l>
+					<l>Vt leo uinci nescius;</l>
+					<l>Cuncta poenarum genera</l>
+					<l>Mente calcat intrepida.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Saxum collo suspenditur,</l>
+					<l>Sic fluctibus immergitur;</l>
+					<l>Quem aqua Christo genuit,</l>
+					<l>Per hanc ad ipsum peruenit.</l>
+				</lg>
+				<lg><head>8.</head> <l>Nunc carnis liber onere</l>
+					<l n="30">Rubro uestitur podere,</l>
+					<l>Corona plexus capite</l>
+					<l>De pretioso lapide.</l>
+				</lg>
+				<pb n="129"/>
+				<lg><head>9.</head> <l>Te, martyr alme, petimus</l>
+					<l>Mentis pronae uisceribus:</l>
+					<l n="35">Nos tua soluant merita,</l>
+					<l>Quos nostra grauant debita.</l>
+				</lg>
+				<lg><head>10.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>45. HYMNVS EIVSDEM SANCTI FIDELIS.</head>
+				<lg><head>1.</head> <l>Magna Fidelis merita</l>
+					<l>Sancta promat ecclesia,</l>
+					<l>Qui morte mortem perdidit</l>
+					<l>Et uictor astra petiit.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Abiecto carnis onere</l>
+					<l>Stola uestitur gloriae;</l>
+					<l>Tersis ab ore lacrimis</l>
+					<l>Veris potitur gaudiis.</l>
+				</lg>
+				<lg><head>3.</head> <l>Vt ense caesus moritur,</l>
+					<l n="10">Saeua tempestas oritur;</l>
+					<l>Sic intentatur impiis</l>
+					<l>Vindicta iusti iudicis.</l>
+				</lg>
+				<lg><head>4.</head> <l>Quendam ex carnificibus</l>
+					<l>Malus inuadit spiritus;</l>
+					<l n="15">Mox sacrae glebae iungitur,</l>
+					<l>Dira pestis excluditur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Cordis orisque precibus</l>
+					<l>Te, martyr alme, petimus:</l>
+					<pb n="130"/>
+					<l>Nos tua uestigia</l>
+					<l n="20">Ad uitae ducas praemia.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>46. HYMNVS SANCTI IOHANNIS AD VESPERVM.</head>
+				<lg><head>1.</head> <l>Virginis uirgo uenerande custos,</l>
+					<l>Magnus aeterni logotheta uerbi,</l>
+					<l>Dele seruorum facinus tuorum,</l>
+					<l>Sancte Iohannes.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Tu patrem carnis subito reliquis</l>
+					<l>Sicque caelestem sequeris parentem;</l>
+					<l>Piscibus spretis hominum iuberis</l>
+					<l>Claudere turbam.</l>
+				</lg>
+				<lg><head>3.</head> <l>Fonte prorumpens fluuius perenni</l>
+					<l n="10">Curris, arentis satiator orbis;</l>
+					<l>Hausit ex pleno, modo quod propinat,</l>
+					<l>Pector pectus.</l>
+				</lg>
+				<lg><head>4.</head> <l>Tu decus mundi iubar atque caeli,</l>
+					<l>Impetra nostris ueniam ruinis,</l>
+					<l n="15">Da sacramentum penetrare summum,</l>
+					<l>Quod docuisti.</l>
+				</lg>
+				<lg><head>5.</head> <l>Patris arcanum speculando uerbum</l>
+					<l>Tollis errorem fidei per orbem.</l>
+					<l>Nos ad aeternam speciem fruendam,</l>
+					<l n="20">Dux bone, transfer.</l>
+				</lg>
+				<lg><head>6.</head> <l>Laus, honor patri parilique proli</l>
+				</lg>
+			</div>
+			<pb n="131"/>
+			<div>
+				<head><lb/>HYMNVS AD NOCTVRNVM.</head>
+				<lg><head>1.</head> <l>Fidelis plebs cum angelis</l>
+					<l>Festiuis plaudant gaudiis:</l>
+					<l>Natiuitati Domini</l>
+					<l>Occurrit laus apostoli.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Dilectus hic prae ceteris</l>
+					<l>Apud magistrum tenuit</l>
+					<l>Ob uirginale meritum</l>
+					<l>Amoris priuilegium.</l>
+				</lg>
+				<lg><head>3.</head> <l>Hausit ex Christi pectore</l>
+					<l n="10">Fluentia sapientiae;</l>
+					<l>Hinc arua cordis irrigat</l>
+					<l>Et uerbum patris intonat.</l>
+				</lg>
+				<lg><head>4.</head> <l>Huic et in cruce positus</l>
+					<l>Matrem commendat Dominus;</l>
+					<l n="15">Fit mater uirgo uirgini,</l>
+					<l>Quem fouet uice filii.</l>
+				</lg>
+				<lg><head>5.</head> <l>Te pronis, alme, cordibus,</l>
+					<l>Caeli senator, poscimus:</l>
+					<l>Da uerbi uultum cernere,</l>
+					<l n="20">Quos uerbum doces credere.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<pb n="132"/>
+			<div>
+				<head><lb/>HYMNVS IN LAVDIBVS.</head>
+				<lg><head>1.</head> <l>Magna Iohannis merita</l>
+					<l>Sancta promat ecclesia,</l>
+					<l>Quam tenebris euacuat,</l>
+					<l>Vitae uerbis irradiat.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Huius cor in sublimibus</l>
+					<l>Sanctus suspendit Spiritus,</l>
+					<l>Vt profunde latentia</l>
+					<l>Cernat alta mysteria.</l>
+				</lg>
+				<lg><head>3.</head> <l>En illa felix aquila</l>
+					<l n="10">Ad escam uolat auida,</l>
+					<l>Quae caeli ciues uegebat</l>
+					<l>Et nos in uia recreat.</l>
+				</lg>
+				<lg><head>4.</head> <l>Hic in choro tot milium</l>
+					<l>Primatum tenet uirginum,</l>
+					<l n="15">Fit agno sic pedissequus</l>
+					<l>Vt matris indiuiduus.</l>
+				</lg>
+				<lg><head>5.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>49. HYMNVS SANCTI ANTIMI.</head>
+				<lg><head>1.</head> <l>Insigne decus martyrum</l>
+					<l>Laus nostra promat Antimum,</l>
+					<l>Cuius testantur omnia</l>
+					<l>Elementa uictoriam.</l>
+				</lg>
+				<pb n="133"/>
+				<lg><head>2.</head> <l n="5">Furores calcat principum,</l>
+					<l>Manus ridet carnificum;</l>
+					<l>Fundatae robur fidei</l>
+					<l>Non quassat uis supplicii.</l>
+				</lg>
+				<lg><head>3.</head> <l>Post carcerum custodias,</l>
+					<l n="10">Post uerberum uictorias</l>
+					<l>Saxum uincto suspenditur,</l>
+					<l>Et sic in fluctus mergitur.</l>
+				</lg>
+				<lg><head>4.</head> <l>Sed o felicem naufragum!</l>
+					<l>Mox clarum cernit angelum,</l>
+					<l n="15">Deponit praesto uinculum,</l>
+					<l>Liber redit hospitium.</l>
+				</lg>
+				<lg><head>5.</head> <l>Caput caesus interiit</l>
+					<l>Sed uictor astra petiit;</l>
+					<l>Dum mortis fert atrociam,</l>
+					<l n="20">Vitae mercatur gloriam.</l>
+				</lg>
+				<lg><head>6.</head> <l>Magnis uotorum laudibus</l>
+					<l>Dignus est martyr Antimus,</l>
+					<l>Qui signis et mirificis</l>
+					<l>Tot claruit prodigiis.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Hic Piniani languidam</l>
+					<l>Carnem simul et animam</l>
+					<l>Cunctis morborum nexibus</l>
+					<l>Sacris absoluit precibus.</l>
+				</lg>
+				<lg><head>8.</head> <l>Vesana daemon furia</l>
+					<l n="30">Quendam uexat in uulnera;</l>
+					<l>Pacis hostis expellitur,</l>
+					<l>Sic mens pacata redditur.</l>
+				</lg>
+				<pb n="134"/>
+				<lg><head>9.</head> <l>Te, martyr alme, poscimus</l>
+					<l>Cordis orisque uocibus,</l>
+					<l n="35">Vt nos tremendo iudici</l>
+					<l>Commendes prece supplici.</l>
+				</lg>
+				<lg><head>10.</head> <l>Sit patri laus ingenito</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>50. RHYTMVS.</head>
+				<lg><head>1.</head> <l>Heu sedes apostolica, orbis olim gloria,</l>
+					<l>Nunc pro dolor efficeris officina Simonis;</l>
+					<l>Terunt incudem mallei, nummi sunt Tartarei.</l>
+				</lg>
+				<lg><head>2.</head> <l>Iusto Dei iudicio fit ista condicio,</l>
+					<l n="5">Vt quisquis apostolicam sedem semel comparat,</l>
+					<l>Redimere non desinat, donec male pereat.</l>
+				</lg>
+				<lg><head>3.</head> <l>Cathedram pestilentiae pressus anathemate</l>
+					<l>Tenet cum sacerdotibus Christi peremptoribus;</l>
+					<l>Fit sibi terra ferrea, caeli sedes aenea.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>51. DE SANCTO IANVARIO.</head>
+				<lg><head>1.</head> <l>Auratis Deum citharis laudet et in cymbalis</l>
+					<l>Cum Tuscia, Italia, nobili monarchia,</l>
+					<l>Sanctorum domicilium quam sacrat Arretium.</l>
+				</lg>
+				<pb n="135"/>
+				<lg><head>2.</head> <l>In qua lucerna praesulum, uia, forma, speculum,</l>
+					<l n="5">Donatus martyr inclutam obtinet basilicam;</l>
+					<l>Seruat et Ianuarium, caeli sidus aureum.</l>
+				</lg>
+				<lg><head>3.</head> <l>Quem non humana studia, non linguae facundia</l>
+					<l>Digne ualet extollere pro merito gloriae;</l>
+					<l>Nam quae perferre potuit, quis referre poterit?</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">Caminus per continuum uaporatur triduum,</l>
+					<l>Vt, quo crematur longius, cremet post uelocius;</l>
+					<l>Hunc martyr dum ingreditur, nec capillus laeditur.</l>
+				</lg>
+				<lg><head>5.</head> <l>Solante mox angelico gaudet contubernio;</l>
+					<l>Dum globi strident ignei, crescit ardor fidei;</l>
+					<l n="15">Sic flamma desiderii perit uis incendii.</l>
+				</lg>
+				<lg><head>6.</head> <l>Victor ab igne trahitur, ad tribunal rapitur;</l>
+					<l>Consulitur, impetitur: eadem uox redditur,</l>
+					<l>Nam fixa super stabilem domus uiget lapidem.</l>
+				</lg>
+				<lg><head>7.</head> <l>Dum caro poenis cingitur, mens in astra figitur;</l>
+					<l n="20">Tormenta reddunt leuia uisa illic praemia;</l>
+					<l>Sic poenas mille mortium dulce credit otium.</l>
+				</lg>
+				<lg><head>8.</head> <l>Saeuae manus carnificum neruos uellunt uiscerum,</l>
+					<l>Compages laxa soluitur, postquam nexus tollitur;</l>
+					<l>Fit per diuersos exitus multiplex interitus.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Hinc traditur ferocibus beluarum morsibus,</l>
+					<l>Ferae sed indomabilem deponentes rabiem</l>
+					<l>Dimissa colla caelitus sacris flectunt precibus.</l>
+				</lg>
+				<pb n="136"/>
+				<lg><head>10.</head> <l>O lucifer Hesperiae, o decus ecclesiae,</l>
+					<l>Quis tua possit omnia promere praeconia?</l>
+					<l n="30">Nos hoc implere nitimur sed gaudendo uincimur.</l>
+				</lg>
+				<lg><head>11.</head> <l>Te pronis ergo mentibus supplicantes petimus:</l>
+					<l>Nos culpae nostrae debitis tuis solue meritis</l>
+					<l>Et electorum coetibus sacris iunge precibus.</l>
+				</lg>
+				<lg><head>12.</head> <l>Sit patri laus ingenito, eius unigenito,</l>
+					<l n="35">Sit utriusque parili decus omne flamini,</l>
+					<l>Cuius una potentia cuncta regis saecula.</l>
+				</lg>
+			</div>
+		</div>
+		<pb n="137"/>
+		<div>
+			<head><lb/>C.</head>
+			<div>
+				<head><lb/>D.1 VERSVS PETRI EPISCOPI IN GESTIS APOSTOLORVM.</head>
+				<lg>
+					<l>Continet hoc corpus, Christus quos lumna pandit —</l>
+					<l>Sal mundi pariter — esse sacrata Dei,</l>
+					<l>Omnia falsorum per quos figmenta deorum —</l>
+					<l>Ecclesia fulgent — diruta ualde iacent,</l>
+					<l n="5">Eligerit mundo Domnus quos ante creator</l>
+					<l>Saecula praenoscens esse Dei suboles,</l>
+					<l>Pectora repeuit quorum pia Spiritus almus</l>
+					<l>Dans uariis linguis alta tonare Dei.</l>
+					<l>Transferri montes soluendi iure ligandi</l>
+					<l n="10">Terris ac tribuit his pietate polis —</l>
+					<l>Istorum imperio fugiunt daemonia saecli,</l>
+					<l>Corpora sanctorum uel rediuiua vigent —</l>
+					<l>Mentibus his sacris dans intima cernere cordis</l>
+					<l>Caelitus et fieri mira patrante Deo.</l>
+					<l n="15">Hos uocitant caelos, uates nubesque uolantes,</l>
+					<l>Arida qui sancto dogmate corda rigant.</l>
+					<l>Languores uarios depellunt famine solo</l>
+					<l>Corporis ast animae per pietatis opem.</l>
+					<l>Lector, apostolicas bene prudens perlege palmas,</l>
+					<l n="20">Credere ne dubites, quas tenet alma fides!</l>
+					<pb n="138"/>
+					<l>Istorum fines nescit, qui neglegit istas,</l>
+					<l>Qualiter aetheria regna beata tenent.</l>
+					<l>Coetus apostolicus Domini praecepta sequendo</l>
+					<l>Per fidei dogma clarus in orbe nitet.</l>
+					<l n="25">Hic codex retinet Petrum Paulumque beatos</l>
+					<l>Et geminos Iacobos Bartholomaeumque, Thomam,</l>
+					<l>Andream sanctum, Simoneon Thadeumque, Philippum,</l>
+					<l>Euangelistas quattor et proceres,</l>
+					<l>Matthiam, pariter Barnabam, regia uasa.</l>
+					<l n="30">………………</l>
+					<l>Hi lapides nitidi fulgent in stemmate Christi,</l>
+					<l>Climata per mundi quos uenerare licet.</l>
+					<l>Vna fides tenuit, quos nunc tenet alma corona,</l>
+					<l>Vna quidem in Christo gloria semper habet.</l>
+					<l n="35">Martyriale decus confessorumque beatum</l>
+					<l>Ex his incipiunt uirgineusque pudor.</l>
+					<l>Christicolae cuncti, hos semper celebrate patronos</l>
+					<l>Tempore solemni uoce canendo Deo!</l>
+					<l>Cum quibus adueniens iudex in lumine saecli</l>
+					<l n="40">Reddere laeta bonis, tristia rite malis</l>
+					<l>Omnipotens Dominus donet consortia nobis</l>
+					<l>Omnibus in sanctis luce perenne frui.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>D.2. CVIVS SVPRA.</head>
+				<lg>
+					<l>Spiritus alme, ueni perflando dindyma nostra,</l>
+					<l>Ad nostrum uotum, Spiritus alme, ueni,</l>
+					<l>Templa dicata tibi ualeam quo extollere digne,</l>
+					<l>Laudibus exaltem templa dicata tibi,</l>
+					<pb n="139"/>
+					<l n="5">Quae sine fine tenent caelorum gaudia celsa,</l>
+					<l>«Gloria» cum meritis quae sine fine tenent.</l>
+					<l>Ore Dei subolem cecinerunt rite prophetae,</l>
+					<l>Coetus apostolicus ore Dei subolem.</l>
+					<l>Virginis hic genitus purgauit crimina mundi,</l>
+					<l n="10">Tartara conteruit uirginis hic genitus.</l>
+					<l>Damna poli Dominus restaurat morte perempta,</l>
+					<l>Sanguine restituit damna poli Dominus.</l>
+					<l>Rex pius ipse pios praecepit mergere lymphis,</l>
+					<l>Vexit ad alta poli rex pius ipse pios.</l>
+					<l n="15">Semina parua sator cumulauit fructibus amplis,</l>
+					<l>Centuplicare dedit semina parua sator.</l>
+					<l>Effera corda nitent istorum flamine sancto,</l>
+					<l>Per uarios flores effera corda nitent.</l>
+					<l>Lilia mixta rosis uiolaque per aequora flagrant,</l>
+					<l n="20">Sancta fides retinet lilia mixta rosis.</l>
+					<l>Aurea regna poli dispensat Christus ubique,</l>
+					<l>Discipulis tribuit aurea regna poli.</l>
+					<l>Primitus alma fides per Petrum clarior exstat,</l>
+					<l>Eius odore nitet primitus alma fides.</l>
+					<l n="25">Roma beata, nites, Petri de corpore sancti</l>
+					<l>Dogmate deque suo, Roma beata, nites.</l>
+					<l>Alma tropaea crucis pro Christo pertulit ille,</l>
+					<l>Vertice uersus agit alma tropaea crucis.</l>
+					<l>Splendet ubique potens Paulus, mirabilis auctor,</l>
+					<l n="30">Abscisus capite splendet ubique potens.</l>
+					<l>O ueneranda nimis Petri Paulique decore,</l>
+					<l>Romula, quos retines, o ueneranda nimis.</l>
+					<l>Facta salutis agens Iacobus per cuncta necatur,</l>
+					<l>Galliciae recubans, facta salutis agens.</l>
+					<pb n="140"/>
+					<l n="35">Idola caeca colens Lycaonia Armenia nec non</l>
+					<l>Vertitur ad Cristum idola caeca colens.</l>
+					<l>Excoriate, nites in mundo, Bartholomaee,</l>
+					<l>Vertice praecisus, exoriate, nites.</l>
+					<l>Optima gesta canit Macedonia rite — Mathaeus</l>
+					<l n="40">In Persis passus ‚ optima gesta canit.</l>
+					<l>In cruce, Petre, tuus germanus praedicat orbem,</l>
+					<l>Achaiam saluat in cruce, Petre, tuus.</l>
+					<l>Eripit ille Simon crucifixus famine saluans</l>
+					<l>Aegyptumque simul eripit ille Simon.</l>
+					<l n="45">Milia multa uirum Thaddaeus contulit audax,</l>
+					<l>Pontus et Armenia milia multa uirum.</l>
+					<l>Dogmata multa tulit Thomas transfossus in orbe,</l>
+					<l>Persis et Medis dogmata multa tolit.</l>
+					<l>Se super astra ferens purgauit schisma Iohannes,</l>
+					<l n="50">Quem tenet Ephesius, se super astra ferens.</l>
+					<l>Fartus amore Dei lapidatur nempe Philippus,</l>
+					<l>Conuertit Gallos fartus amore Dei.</l>
+					<l>Iacobe, ecce nites, Domini sanctissime frater,</l>
+					<l>Praecipitatus obis, Iacobe, ecce nites.</l>
+					<l n="55">Inter apostolicas numeraris sorte, Mathia,</l>
+					<l>Iudaeam saluans inter apostolicos.</l>
+					<l>Vritur igne Dei Barnabas dogmata dando</l>
+					<l>Dumque crematus obit, uritur igne Dei.</l>
+					<l>Quam speciosa micas, Alexandria, sanguine Marci,</l>
+					<l n="60">Constantina simul, quam speciosa micas!</l>
+					<l>Te retinendo nitet fulgens Bithynia, Luca,</l>
+					<l>Vrbs quoque regalis te retinendo nitet.</l>
+					<pb n="141"/>
+					<l>Carmina parua dedit famulus pro munere supplex,</l>
+					<l>Paruus, iners, tenuis carmina parua dedit.</l>
+					<l n="65">Culmen apostolicum, dignater suscipe munus,</l>
+					<l>Vota precesque pias, culmen apostolicum.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>D.3. VERSVS VTILES CONTRA TEMPVS NVBILOSVM.</head>
+				<lg>
+					<l>O miseratrix, o dominatrix, praecipe dictu,</l>
+					<l>Ne deuastemur, ne lapiddemur grandinis ictu.</l>
+					<l>Est tibi latus pontificatus, mater, ab aeuo;</l>
+					<l>Ergo precamur, ne moriamur turbine saeuo.</l>
+					<l n="5">Turbida leni daque sereni temporis usum,</l>
+					<l>Redde serenum sidus amoenum, nube reclusum.</l>
+					<l>Virgo, rogamus, ne pereamus peste uel ira;</l>
+					<l>Taetra diescant, atque quiescant fulgura dira.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>D.4. IN PVRIFICATIONE BEATAE MARIAE VIRGINIS.</head>
+				<lg><head>1.</head> <l>Laetur omne saeculum ueritatis reditum,</l>
+					<l>Diei penset pretium, retractet mysterium:</l>
+					<l>Templo Deus pro homine praesentatur hodie.</l>
+				</lg>
+				<lg><head>2.</head> <l>Magnus ante luciferum et mundi principium</l>
+					<l n="5">Fit paruus, fit infantulus uerus, non phantasticus;</l>
+					<l>Ex casta Deus uirgine factus est mirifice.</l>
+				</lg>
+				<lg><head>3.</head> <l>Diues rex sine tempore fit pauper in tempore;</l>
+					<l>Caeli sedens palatio nascitur in stabulo;</l>
+					<l>Virgo, mater et baiula, nulla ibi altera.</l>
+				</lg>
+				<pb n="142"/>
+				<lg><head>4.</head> <l n="10">Nutritur et uiuificat, crescit, qui magnificat;</l>
+					<l>Datis oboedit legibus subditus parentibus;</l>
+					<l>Deus creator omnium iussa complet hominum.</l>
+				</lg>
+				<lg><head>5.</head> <l>Mira haec dispensatio, mira haec dignatio!</l>
+					<l>Non lucens sed lucibilis, Deus inuisibilis</l>
+					<l n="15">Videtur in praesaepio, uirginis in gremio.</l>
+				</lg>
+				<lg><head>6.</head> <l>Legem seruat purissimus, ne oblatret impius:</l>
+					<l>Sicut in lege scribitur, infans circumciditur,</l>
+					<l>Seruantur dies prouide et complentur hodie.</l>
+				</lg>
+				<lg><head>7.</head> <l>Maria, sancta femina, uirgo integerrima,</l>
+					<l n="20">Nullis tacta excessibus nihil debet legibus;</l>
+					<l>Iussa seruat legalia pro peccatis habita.</l>
+				</lg>
+				<lg><head>8.</head> <l>In templo mater puerum laeta ducit plurimum,</l>
+					<l>Praesentat Deo filium, ipsum Deum inclutum,</l>
+					<l>Columbas atque turtures offert Deo supplices.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">In columba dilectio mutua perpetuo,</l>
+					<l>In turture est castitas geminaque sanctitas;</l>
+					<l>Haec quia uirgo meruit, haec offerre debuit.</l>
+				</lg>
+				<lg><head>10.</head> <l>Hunc Simeon ut aspicit iustus, ulnis accipit,</l>
+					<l>«Dimittite», dicit, «Domine, me in pace hodie;</l>
+					<l n="30">Viderunt oculi mei salutare Domini,</l>
+				</lg>
+				<lg><head>11.</head> <l>Paratum omni populo longinquo et proximo,</l>
+					<l>Omnium lumen gentium, gratia et praemium,</l>
+					<l>Lumen et plebis gloria Israel non modica.»</l>
+				</lg>
+				<lg><head>12.</head> <l>Omnes gentes, accedite, cernite et credite:</l>
+					<l n="35">Lumen inaccessibile, lumen inuisibile</l>
+					<l>Apparet et illuminat et in templo rutilat.</l>
+				</lg>
+				<pb n="143"/>
+				<lg><head>13.</head> <l>Vidite, omnes populi, omnes Christum Domini,</l>
+					<l>Deum, lumen de lumine accurentes sumite,</l>
+					<l>Accedite, precamini et illuminamini.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">Fert lumen in cordibus hoc diebus omnibus —</l>
+					<l>Luceat corpus actibus — ferte lumen manibus;</l>
+					<l>Candelas manus teneant, ut obscura pereant.</l>
+				</lg>
+				<lg><head>15.</head> <l>Hoc lumen cor illuminet et hoc corpus rutilet,</l>
+					<l>Vt mente atque corpore clarefacti optime</l>
+					<l n="45">Laudetis Deum plenius uestris in operibus.</l>
+				</lg>
+				<lg><head>16.</head> <l>Hoc lumen est altissimus summi patris filius;</l>
+					<l>Puer iste tenerissimus Deus est interminus,</l>
+					<l>Dierum antiquissimus, primus et nouissimus.</l>
+				</lg>
+				<lg><head>17.</head> <l>Hoc lumine castissima genetrix dignissima</l>
+					<l n="50">Hoc lumen uentre pertulit, hoc intacta peperit,</l>
+					<l>Istud ad templum detulit; Simeon hoc extulit.</l>
+				</lg>
+				<lg><head>18.</head> <l>Quibus te, uirgo, laudibus efferam in talibus,</l>
+					<l>Mens nescit; sermo deficit, stupor sensum eximit,</l>
+					<l>Filium habens, domina, non per uiri opera.</l>
+				</lg>
+				<lg><head>19.</head> <l n="55">Moti sunt dialectici, uicti sunt haeretici;</l>
+					<l>Concubuit, sic peperit: syllogismus periit;</l>
+					<l>Mundana sapientia uicta est a femina.</l>
+				</lg>
+				<lg><head>20.</head> <l>Sion, adorna thalamum et intende canticum,</l>
+					<l>Surge, appare fulgide, Christum regem suscipe,</l>
+					<l n="60">Quem uirgo mater genuit, uirgo mater peperit.</l>
+				</lg>
+			</div>
+			<pb n="144"/>
+			<div>
+				<head><lb/>D.5. DE OMNIBVS ORDINIBVS OMNIVM HOMINVM IN HOC
+				<lb/>SAECVLO VIVENTIVM RVBRICA.</head>
+				<lg><head>1.</head> <l>Episcopi, attendite,</l>
+					<l>Dei uerba discernite;</l>
+					<l>Vobis praecepit Dominus</l>
+					<l>Pro uestris mori ouibus.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Si bona, quae loquimini,</l>
+					<l>Operibus feceritis,</l>
+					<l>Exempla bona dabitis</l>
+					<l>Vestris commissis filiis.</l>
+				</lg>
+				<lg><head>3.</head> <l>Presbyteri, diaconi,</l>
+					<l n="10">Qui fertis uasa Domini,</l>
+					<l>Estote semper nitidi</l>
+					<l>In conspectu altissimi.</l>
+				</lg>
+				<lg><head>4.</head> <l>Qui uult esse canonicus,</l>
+					<l>Sit bonus et idoneus,</l>
+					<l n="15">Oboediat episcopo</l>
+					<l>Vt seniori indito.</l>
+				</lg>
+				<lg><head>5.</head> <l>Ad matutinum ueniat,</l>
+					<l>Cum signum horae resonat;</l>
+					<l>Postposita pigritia</l>
+					<l n="20">Festinet ad officia.</l>
+				</lg>
+				<pb n="145"/>
+				<lg><head>6.</head> <l>Plebani recte audiant,</l>
+					<l>Quod sancti patres clamitant,</l>
+					<l>Vt acquisita praedia</l>
+					<l>Relinquant in ecclesia.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Magister doctus litteris</l>
+					<l>Flagella det discipulis,</l>
+					<l>Vt docti ab infantia</l>
+					<l>Doctrinam bene sapiant.</l>
+				</lg>
+				<lg><head>8.</head> <l>Scriptores recta linea</l>
+					<l n="30">Veraces scribant litteras,</l>
+					<l>Distinctiones proprias</l>
+					<l>Vsque ad finem compleant.</l>
+				</lg>
+				<lg><head>9.</head> <l>Illitteratus clericus</l>
+					<l>Elationi deditus,</l>
+					<l n="35">Despiciens mysteria,</l>
+					<l>Vt stulta iacet bestia.</l>
+				</lg>
+				<lg><head>10.</head> <l>Discurrit per basilicam</l>
+					<l>Pro uanitate nimia;</l>
+					<l>In loco si permanserit,</l>
+					<l n="40">Ceruice torta respicit.</l>
+				</lg>
+				<lg><head>11.</head> <l>Verba Dei non nuntiat,</l>
+					<l>Priuatim semper mussitat</l>
+					<l>Et recitat parabolas</l>
+					<l>Inanes atque uacuas.</l>
+				</lg>
+				<lg><head>12.</head> <l n="45">Abbates semper uigilent</l>
+					<l>Ab omni namque crimine;</l>
+					<pb n="146"/>
+					<l>Non pro mundi asutia</l>
+					<l>Sancta relinquant studia.</l>
+				</lg>
+				<lg><head>13.</head> <l>Non potest esse monachus,</l>
+					<l n="50">Qui uagus est et prodigus;</l>
+					<l>Sit uiuit sine regula,</l>
+					<l>Peribit morte pessima.</l>
+				</lg>
+				<lg><head>14.</head> <l>Deo deuotae monachae,</l>
+					<l>Seruate legem optime;</l>
+					<l n="55">Viuentes casto corpore</l>
+					<l>Terrena cuncta spernite.</l>
+				</lg>
+				<lg><head>15.</head> <l>Potestas est in populo</l>
+					<l>A summo data Domino;</l>
+					<l>Ei cum fide seruiant,</l>
+					<l n="60">Qui sacramenta fecerant.</l>
+				</lg>
+				<lg><head>16.</head> <l>Pro nullo modo merito —</l>
+					<l>Vel placitato pretio</l>
+					<l>Aut aliqua amicitia —</l>
+					<l>Vertant uera iudicia.</l>
+				</lg>
+				<lg><head>17.</head> <l n="65">Iudex sedens in placito</l>
+					<l>Non speret de byzantio</l>
+					<l>Sed Deum recte timeat</l>
+					<l>Et legem cito finiat.</l>
+				</lg>
+				<lg><head>18.</head> <l>Testes, pro nullo munere</l>
+					<l n="70">Falsa loqui praesumite</l>
+					<pb n="147"/>
+					<l>Sed uera uerba dicite</l>
+					<l>Praesente uero principe.</l>
+				</lg>
+				<lg><head>19.</head> <l>Veraces sint notarii</l>
+					<l>Tenendo fidem animi</l>
+					<l n="75">Nec umquam pro denariis</l>
+					<l>Falsa scribant in chartulis.</l>
+				</lg>
+				<lg><head>20.</head> <l>Castaldiones populi</l>
+					<l>Et omnes uicedomini</l>
+					<l>Ne torqueant iustitiam</l>
+					<l n="80">Nec manducent seruitia.</l>
+				</lg>
+				<lg><head>21.</head> <l>Tenentes ministeria</l>
+					<l>Cum malis non conueniant;</l>
+					<l>Recta cum fide seruiant,</l>
+					<l>Ne bona perdant merita.</l>
+				</lg>
+				<lg><head>22.</head> <l n="85">Aduocatores placita</l>
+					<l>Ne fraudent arte aliqua;</l>
+					<l>Relaxent cordis uitia</l>
+					<l>Et exquirant iudicia.</l>
+				</lg>
+				<lg><head>23.</head> <l>Nullus consiliarius</l>
+					<l n="90">Aut auricularius</l>
+					<l>Propter mundana prospera</l>
+					<l>Se confidat in gloria.</l>
+				</lg>
+				<lg><head>24.</head> <l>Missus prudenter sapiat</l>
+					<l>Enarrare missatica,</l>
+					<l n="95">Ne stupefactus publice</l>
+					<l>Verbum dicant inutile.</l>
+				</lg>
+				<pb n="148"/>
+				<lg><head>25.</head> <l>Nutritus atque sapiens,</l>
+					<l>Timens Deum ueraciter,</l>
+					<l>Amandus est a domino,</l>
+					<l n="100">Laudandus est a populo.</l>
+				</lg>
+				<lg><head>26.</head> <l>Deceptor calans uitia</l>
+					<l>Vt falsa canit fistula;</l>
+					<l>Ridendo uerba recitat,</l>
+					<l>In corde mala seminat.</l>
+				</lg>
+				<lg><head>27.</head> <l n="105">Hypocrita se simulans</l>
+					<l>Multa abscondit uitia;</l>
+					<l>Vultum demonstrat placidum,</l>
+					<l>In corde portat glaudium.</l>
+				</lg>
+				<lg><head>28.</head> <l>Ebriosi miserrimi</l>
+					<l n="110">Infremunt ut phrenetici,</l>
+					<l>Mentis perdunt memoriam,</l>
+					<l>Nihil boni exogitant.</l>
+				</lg>
+				<lg><head>29.</head> <l>Audite, omnes laici,</l>
+					<l>Qui Christi estis famuli:</l>
+					<l n="115">Pro ullo umquam crimine</l>
+					<l>Pastores non despicite.</l>
+				</lg>
+				<lg><head>30.</head> <l>Dum uobis in ecclesia</l>
+					<l>Diuina uerba praedicant,</l>
+					<l>Operibus perficite,</l>
+					<l n="120">In cordibus describite.</l>
+				</lg>
+				<lg><head>31.</head> <l>Antequam mors adueniat,</l>
+					<l>Deo donatae decimas;</l>
+					<pb n="149"/>
+					<l>Securi hinc exibitis</l>
+					<l>Et caelum possidebitis.</l>
+				</lg>
+				<lg><head>32.</head> <l n="125">Vxores uos diligite,</l>
+					<l>Natos uestros corripite;</l>
+					<l>Seruos, ancillas regite,</l>
+					<l>Opus eis impendite.</l>
+				</lg>
+				<lg><head>33.</head> <l>Qui timet Deum omnium,</l>
+					<l n="130">Non iuret per negotium</l>
+					<l>Nec pro concupiscentia</l>
+					<l>Vllius fraudet pretia.</l>
+				</lg>
+				<lg><head>34.</head> <l>Diues cum beneficiis,</l>
+					<l>Stet pauper cum seruitiis,</l>
+					<l n="135">Ad inuicem conueniant,</l>
+					<l>Deo cum fide seruiant.</l>
+				</lg>
+				<lg><head>35.</head> <l>Miles ad pugnam peragrans</l>
+					<l>Deum in mente teneat;</l>
+					<l>Fillones semper caueant,</l>
+					<l n="140">Ne dicant plus quam audiant.</l>
+				</lg>
+				<lg><head>36.</head> <l>Placentes per mendacium</l>
+					<l>Peccatum agunt maximum;</l>
+					<l>Viles appparent saeculo</l>
+					<l>Et sunt in uituperio.</l>
+				</lg>
+				<lg><head>37.</head> <l n="145">Potestas mundet uitia,</l>
+					<l>Furta et latrocinia,</l>
+					<l>Vt ceteri perterriti</l>
+					<l>Timeant poenam consequi.</l>
+				</lg>
+				<pb n="150"/>
+				<lg><head>38.</head> <l>O coniugate feminae,</l>
+					<l n="150">Tenete fidem prouide,</l>
+					<l>Domos uestras disponite,</l>
+					<l>Ad templum Dei currite.</l>
+				</lg>
+				<lg><head>39.</head> <l>Mutate uestem, uiduae,</l>
+					<l>In castitate uenite,</l>
+					<l n="155">Luxuriantes fugite,</l>
+					<l>Ne possint uos decipere.</l>
+				</lg>
+				<lg><head>40.</head> <l>Puellae se custodiant</l>
+					<l>Ab omni uana gloria,</l>
+					<l>Ne iuuentute feruida</l>
+					<l n="160">Cadant in adulteria.</l>
+				</lg>
+				<lg><head>41.</head> <l>Meretrices, conuertite,</l>
+					<l>Veniam uobis quaerite;</l>
+					<l>Qui semper solet parcere,</l>
+					<l>Expectat uos cottidie.</l>
+				</lg>
+				<lg><head>42.</head> <l n="165">Serui, cum recto animo</l>
+					<l>Vestro seruite domino;</l>
+					<l>Ancillae et utiliter</l>
+					<l>Deseruiant similiter.</l>
+				</lg>
+				<lg><head>43.</head> <l>In prosperis laetitiam,</l>
+					<l n="170">In aduersis tristitiam</l>
+					<l>Supra modum non habeat</l>
+					<l>Vlla fidelis anima.</l>
+				</lg>
+				<lg><head>44.</head> <l>Qui uiuitis in saeculo</l>
+					<l>Omnes, seruite Domino,</l>
+					<l n="175">Vt iuti sua dextera</l>
+					<l>Regnetis semper aethera.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<pb n="151"/>
+			<div>
+				<head><lb/>D.6. ISTI SVNT VERSVS QVIDAM SANCTISSIMI DAMIANI
+				<lb/>RAVENNATIS ARCHIEPISCOPI.</head>
+				<lg><head>1.</head> <l>Luget, plorat, lamentatur sancta nunc ecclesia,</l>
+					<l>Cum suorum tantam uidet abbatum miseriam</l>
+					<l>Et eorum contemplatur diuersa pericula.</l>
+				</lg>
+				<lg><head>2.</head> <l>Nullus paene abbas modo ualet esse monachus,</l>
+					<l n="5">Dum diuersum et nociuum sustinet negotium</l>
+					<l>Et quod nolit, sustinere uelut incus cogitur.</l>
+				</lg>
+				<lg><head>3.</head> <l>Monachorum tamquam seruus intus fert superbiam</l>
+					<l>Et multarum foris rerum sustinet molestiam;</l>
+					<l>Hanc abbatis collum portat seruitutem geminam.</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">Spiritaliter abbatem uolunt fratres uiuere</l>
+					<l>Et per causas saeculares cogunt illum pergere;</l>
+					<l>Per tam itaque diuersa quis ualet incedere?</l>
+				</lg>
+				<lg><head>5.</head> <l>Nam dum equitat, mox esse dicitur uagatio;</l>
+					<l>Eius namque hebetudo est claustralis statio;</l>
+					<l n="15">Quicquid semper miser facit, fit inde detractio.</l>
+				</lg>
+				<lg><head>6.</head> <l>Delinquentes dum emendat, omnes clamat impium;</l>
+					<l>Si quandoque illis parcit, dicunt esse tepidum;</l>
+					<l>Quis portare ego ualet uulgus tam ambiguum?</l>
+				</lg>
+				<pb n="152"/>
+				<lg><head>7.</head> <l>Finees si imitatur, fugit uel expellitur,</l>
+					<l n="20">Si Heli, tunc irridetur atque paruipenditur;</l>
+					<l>Odiosus, si est feruens, et uilis, si tepidus.</l>
+				</lg>
+				<lg><head>8.</head> <l>Valet forsan emendare facta, si sint laeuia,</l>
+					<l>Et quae duas tantum poscumt siue unam ueniam;</l>
+					<l>Grauoria quae sunt, abbas supprimit, ne pereat.</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Nam si uelut de immundo loqui quaedam uitio,</l>
+					<l>Monachorum intestina oritur seditio,</l>
+					<l>Et occulte statim eius tractatur proditio.</l>
+				</lg>
+				<lg><head>10.</head> <l>Si quandoque uel ieiunat uel tenet silentium,</l>
+					<l>Vanae laudi mox abbatem dicunt esse deditum,</l>
+					<l n="30">Et si loquitur uel mandit, ut fur reprehenditur.</l>
+				</lg>
+				<lg><head>11.</head> <l>Si sermonem facit abbs, denotatur garrulus,</l>
+					<l>Et si tacens nil exponit, accusatur fatuus;</l>
+					<l>Huc se uertat, illuc pergat, semper erit anxius.</l>
+				</lg>
+				<lg><head>12.</head> <l>Intus, foris si contingat quaelibet aduersitas,</l>
+					<l n="35">Hoc incuriae abbatis fratres omnes deputant;</l>
+					<l>Illum rodunt atque produnt et appellant bestiam.</l>
+				</lg>
+				<lg><head>13.</head> <l>Domus sancta si non crescit, in abbatem inuehunt;</l>
+					<l>Si decrescit, mox abbatem uelut hostes expetunt;</l>
+					<l>Vt incudem sic abbatem simul omnes feriunt.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">O beatum tale caput, quod a membris roditur!</l>
+					<l>Bonus pastor, quem depascunt saeui dentes ouium!</l>
+					<l>Felix pater filiorum morsus timet omnium.</l>
+				</lg>
+				<lg><head>15.</head> <l>Istud malum monachorum intus abbas tolerat</l>
+					<l>Saecularium et foris simul portat onera;</l>
+					<l n="45">Anxiatur et tristatur, quem sic premunt omnia.</l>
+				</lg>
+				<pb n="153"/>
+				<lg><head>16.</head> <l>Noctem namque curis pressus uerbosus dimidiat</l>
+					<l>Et auroram, ut loquatur, saepius anticipat;</l>
+					<l>Totum diem in loquendo postmodum continuat.</l>
+				</lg>
+				<lg><head>17.</head> <l>Haec et alia praelatus sustinet quam plurima:</l>
+					<l n="50">Saeculares foris pungunt, intus fratres uulnerant;</l>
+					<l>Illi corpus persequuntur, hi corrodunt uiscera.</l>
+				</lg>
+				<lg><head>18.</head> <l>Dic, praelate, rogo, care, quae est ista dignitas?</l>
+					<l>Intus dolor, foris labor, hinc, inde calamitas;</l>
+					<l>Corpus, fateor, his malis perditur et anima.</l>
+				</lg>
+				<lg><head>19.</head> <l n="55">Quis enim abbatum ualet ferreo nunc tempore</l>
+					<l>Inter tot calamitates uirgas ferre fertiles?</l>
+					<l>Praelatorum certe modo sunt honores steriles.</l>
+				</lg>
+				<lg><head>20.</head> <l>His honoribus, abbates uenerandi, cedite,</l>
+					<l>Graue pondus et inane ultro iam abicite</l>
+					<l n="60">Et de cetero quieti ac securi uiuite.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>D.7. ADVERSVS SIMONIACOS.</head>
+				<lg><head>1.</head> <l>Mundi turba turbolenta, error et diuisio,</l>
+					<l>Haeresis Simoniana, zelus et ambitio</l>
+					<l>In lamentum nos compellunt stili sub officio.</l>
+				</lg>
+				<lg><head>2.</head> <l>Exarentur ergo cuncta strictim a principio,</l>
+					<l n="5">Ex quo summae sedis praesul Sancto doctus Spiritu</l>
+					<l>Scelestorum proba coepit emendare liquido.</l>
+				</lg>
+				<pb n="154"/>
+				<lg><head>3.</head> <l>Cuius uox erat ut patris corrigentis filios;</l>
+					<l>Vt apostoli uox erat mitis ad Corinthios,</l>
+					<l>Sic se mitem exhibebat erga coepiscopos:</l>
+				</lg>
+				<lg><head>4.</head> <l n="10">« Scitis, fratres, uos pastorum suscepisse regimen;</l>
+					<l>Hinc uos decet ut doctores primum recte uiuere,</l>
+					<l>Obsecrare, increpare, postmodum arguere,</l>
+				</lg>
+				<lg><head>5.</head> <l>Non elatos, non inflatos, non ex uino turgidos,</l>
+					<l>Non in ueste pretiosa sed uirtute fulgidos,</l>
+					<l n="15">Sine causa non laedentes, castos atque sobrios.</l>
+				</lg>
+				<lg><head>6.</head> <l>Sint in promptu gesta patrum sintque sancti canones;</l>
+					<l>Cibis uestris recreentur debiles ac pauperes,</l>
+					<l>Orphanorum mater plorans ante uos non clamitet.</l>
+				</lg>
+				<lg><head>7.</head> <l>Cedant equi phalerati, cedant scachi rabulae,</l>
+					<l n="20">Cedant canes uenatores ac minorum fabulae</l>
+					<l>Et accipitres rapaces nec non aues garrulae.</l>
+				</lg>
+				<lg><head>8.</head> <l>Ad haec Simonis leprosam exsecrate haeresim</l>
+					<l>Sacerdotum simul atque scelus adulterii;</l>
+					<l>Laicorum dominatus cedat ab ecclesis.»</l>
+				</lg>
+				<lg><head>9.</head> <l n="25">Ecce papae gloriosi monita Gregorii,</l>
+					<l>Ecce uerba summae sedis praesulis catholici,</l>
+					<l>Quibus irruunt in eum ciues Babylonici.</l>
+				</lg>
+				<lg><head>10.</head> <l>Hincque Caesaris exarsit itra in ecclesia,</l>
+					<l>Inde tumuit in eum praesulum superbia;</l>
+					<l n="30">Sacerdotum, populorum surgit insolentia.</l>
+				</lg>
+				<lg><head>11.</head> <l>Ex quo Simon contra Petrum turrim stuxit magiae,</l>
+					<l>Inde cecidit percussus angulari lapide,</l>
+					<l>Contra cuius ictum plane nihil est durabile.</l>
+				</lg>
+				<lg><head>12.</head> <l>Quorum rex est alter Christus, alter est Leuiathan;</l>
+					<l n="35">Ille uitae, iste mortis regnat super agmina;</l>
+					<l>Ergo quorum quis sit uictor, nemo sanus ambigit.</l>
+				</lg>
+				<pb n="155"/>
+				<lg><head>13.</head> <l>Resipiscant inde cuncti et ad corda redeant,</l>
+					<l>Qui non pure, non sincere sed mente maleuola</l>
+					<l>Sacerdotem populorum rodunt atque lacerant.</l>
+				</lg>
+				<lg><head>14.</head> <l n="40">Illi uero quos cibauit fides apostolica,</l>
+					<l>Solidentur et fundentur Petri petra solida,</l>
+					<l>Vt post pugnam consequantur pleniter uictoriam.</l>
+					<l>Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>D.8. RHYTMVS DEVOTVS SVPER SALVATIONE ANGELICA.</head>
+				<lg><head>1.</head> <l>Aue, David filia, sancta mundo nata,</l>
+					<l>Virgo prudens, sobria, Joseph desponsata,</l>
+					<l>Ad salutem omnium in exemplum data,</l>
+					<l>Supernorum ciuium consors iam probata.</l>
+				</lg>
+				<lg><head>2.</head> <l n="5">Maria, miseria per te terminatur,</l>
+					<l>Et misericordia per te reuocatur;</l>
+					<l>Per te nauigantibus stella maris datur,</l>
+					<l>Lumen uiae panditur, portus demonstratur.</l>
+				</lg>
+				<lg><head>3.</head> <l>Gratia te reddidit cunctis gratiosam,</l>
+					<l n="10">Te uestiuit lilio, sparsit in te rosam,</l>
+					<l>Te uirtutum floribus fecit speciosam,</l>
+					<l>Intus et exterius totoam luminosam.</l>
+				</lg>
+				<lg><head>4.</head> <l>Plena medicamine, abundans unguentis,</l>
+					<l>Terge sordes criminum, plagam sana mentis</l>
+					<l n="15">Huius tui supplicis in te confidentis</l>
+					<l>Et hos sacros rhytimos coram te psallentis.</l>
+				</lg>
+				<lg><head>5.</head> <l>Dominus, rex omnium, ex te sibi fecit</l>
+					<l>Cellam pigmentarium, quam cunctis praefecit,</l>
+					<l>In qua miras species saluator confecit,</l>
+					<l n="20">Quibus omnes dulciter electos refecit.</l>
+				</lg>
+				<pb n="156"/>
+				<lg><head>6.</head> <l>Tecum tota trinitas facit mansionem,</l>
+					<l>Pater, uerbum, Spiritus fixit sessionem,</l>
+					<l>Propter quod nunc largius ad deuotionem</l>
+					<l>Te ipsam fidelibus praebes lectionem.</l>
+				</lg>
+				<lg><head>7.</head> <l n="25">Benedicta, benedic te benedicentes,</l>
+					<l>Fac in tuis laudibus sint proficientes,</l>
+					<l>Infige dulcedinem in tuorum mentes,</l>
+					<l>Vt in bonis actibus semper sint feruentes.</l>
+				</lg>
+				<lg><head>8.</head> <l>Tu in mulieribus optima figura,</l>
+					<l n="30">Quae regis es gloriae mater, uirgo pura,</l>
+					<l>Quo probaris dignior omni creatura,</l>
+					<l>Hoc agente Domino singulari cura.</l>
+				</lg>
+				<lg><head>9.</head> <l>Et benedictus Deus, qui cuncta creauit,</l>
+					<l>Qui matris in utero te santificauit;</l>
+					<l n="35">Benedictus filius, quem tuus portauit</l>
+					<l>Virginalis uterus, quem ipse formauit.</l>
+				</lg>
+				<lg><head>10.</head> <l>Fructus tuus, domina, fructus est caelorum,</l>
+					<l>Quo pascuntur angeli coetusque sanctorum;</l>
+					<l>Christi meditatio cibus est eorum,</l>
+					<l n="40">Qui per uiam ambulant eius mandatorum.</l>
+				</lg>
+				<lg><head>11.</head> <l>Ventris habitaculum rex regum intrauit,</l>
+					<l>Cuius tabernaculum sibi dedicauit</l>
+					<l>Condens ibi gladium, per quem hostem strauit,</l>
+					<l>Et manna dulcissimum, quo fideles pauit.</l>
+				</lg>
+				<lg><head>12.</head> <l n="45">Tui sapor germinis nostrum est solamen;</l>
+					<l>Per te uiae sumpimus aeternae libamen,</l>
+					<l>Quam det nobis Dominus per tuum iuuamen,</l>
+					<l>Qui uiuit in saecula saeculorum. Amen.</l>
+				</lg>
+			</div>
+			<pb n="157"/>
+			<div>
+				<head><lb/>D.9.</head>
+				<lg>
+					<l>Cernite, uiuentes, uestri similes morientes,</l>
+					<l>Cernite, mortales, lapsus depingi uitales.</l>
+					<l>Mortua letiferis uita sit au&lt; spic &gt;iis.</l>
+					<l>Maestificet uultum mortis maerore sepulcrum,</l>
+					<l n="5">Vitam mortificet &lt; qu &gt;ae modo laeta uiget.</l>
+					<l>Expedit hunc pontem necis ut pertranseat; &lt; amn &gt;em</l>
+					<l>Hinc pertransibis, cuius amara bibis.</l>
+					<l>Petrus, quem cernis, tumuli requiesco tenebris,</l>
+					<l>Peccator monachus, sed premit hunc obitus</l>
+					<l n="10">Qui multis premitur, nullis sublime leuatur,</l>
+					<l>Noxis ualde reus. Dic, peto: « Parce, Deus »</l>
+					<l>Hoc † amens †carnem uolui contexere carmen,</l>
+					<l>Vt quasi iam morerer, dum sic quererer.</l>
+					<l>Nunc prece fraterna faciem deposce paternam,</l>
+					<l n="15">Vlla sit ut requies, sit satis ulla quies.</l>
+					<l>Sum meritis nudus, scelerum quoque sordidus udus,</l>
+					<l>Pauper inopsque bonis; nulla metreta malis.</l>
+					<l>His igitur posco, frater dulcissime: « Nostro</l>
+					<l>In tumulo lacrimas cum prece funde pias.</l>
+					<l n="20">At memor esto tui, te plasmatis esse caduci;</l>
+					<l>Actibus ergo sacris sit tibi uita patris.</l>
+					<l>Quod mortale uehis, super immortale reuoluas,</l>
+					<l>Quod miserum toleras, pace perenne uehas,</l>
+					<l>Gaudia sed pacis mihi, pascua posce quietis.</l>
+					<l n="25">Lux, pax, uita, Deus sis sibi, Christe, pius.</l>
+					<l>Deditus his uanis nec te frusteris inanis.</l>
+					<l>Exulis immo polus fac sit amoena domus.</l>
+					<pb n="158"/>
+					<l>Haec non semper erit neque lux diuturna manebit.</l>
+					<l>Transit et esse perit, cui cito finis erit.</l>
+					<l n="30">Semper uiuentem lucem perquire manentem.</l>
+					<l>Pax, lux, uita tibi certa domus sit ibi.» Amen.</l>
+				</lg>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

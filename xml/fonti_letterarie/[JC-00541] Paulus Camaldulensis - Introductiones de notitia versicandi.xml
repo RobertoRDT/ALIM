@@ -1,0 +1,1218 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Introductiones de notitia versicandi</title>
+				<author>Paulus Camaldulensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>V. Sivo</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="6229" unit="words">Parole: 6229</measure>
+				<measure quantity="33979" unit="characters_without_spaces">Caratteri (spazi esclusi): 33979</measure>
+				<measure quantity="39703" unit="characters_witht_spaces">Caratteri (spazi inclusi): 39703</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2003-04-06">06/04/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Grammatica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: Parole: 6393&#13;
+Caratteri: 34460&#13;
+&lt;..&gt; indicano integrazioni dell'editore&#13;
+[..] indicano espunzioni dell'editore&#13;
+GCA</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Le Introductiones de notititia versificandi di Paolo Camaldolese (testo inedito del sec. XII ex.)</title>
+						<editor>V. Sivo</editor>
+					</analytic>
+					<monogr>
+						<title level="j">Studi e ricerche del'Istituto di civiltà classica cristina medievale</title>
+						<imprint>
+							<publisher>Istituto di civiltà classica e orientale, Università degli Studi di Genova, Facoltà di Magistero</publisher>
+							<pubPlace>Genova</pubPlace>
+							<date>1982</date>
+							<biblScope unit="volume">5</biblScope>
+							<biblScope unit="page">119-149</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Grammatica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-non sono sicuro, se è i "Studi e ricerche" è una rivista, o una collana</item><item type="itemNotaJC">-ci sono molti esempi di versi, ma spesso sono parti di versi o sono sulla stessa riga, come il resto del testo (e quindi non ho usato il &lt;lg&gt;&lt;l&gt;...).</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<pb n="124"/>
+			<div>
+				<head type="h_1"><lb/>1.</head> <p>Sancti Spiritus gratia nobis assit assidua et his quae
+					<lb/>de notitia uersificandi a nobis exterius proferentur, intus
+				<lb/>per inspirantem materiam nos repleat.</p>
+				<p><lb/>Cupientibus autem notitiam metrorum uel uersuum consequi
+					<lb/>primo loco diligenter oportet considerari quare metra
+				<lb/>uel uersus sunt uocati.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>2.</head> <head type="h_2"><hi rend="italic">Quare metra dicantur.</hi></head> <p> Metra uocantur, quia ce &lt; r&gt; tis
+					<lb/>pedum mensuris atque spatiis terminantur, nec ultra dimensionem
+				<lb/>temporum constitutam procedunt.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>3.</head> <head type="h_2"><hi rend="italic">Quare uersus uocentur.</hi></head> <p> Versus quoque sunt dicti, ab
+					<lb/>eo quod pedibus in ordine suo dispositis certo fine moderantur;
+					<lb/>qui ne lo &lt; n &gt; gius prouoluerentur quam iudicium
+					<lb/>posset sustinere, modum ratio statuit quomodo uerterentur,
+				<lb/>unde non inmerito uersus a uertendo uocantur.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>4.</head> <p>Sed quoniam, uelut praediximus, tam uretra quam
+					<lb/>uersus certa pedum lege constringimus, pedes autem fiunt
+					<lb/>ex syllabis, syllabae uero constant ex litteris, uidendum nobis
+					<lb/>est quare litterae sint inuentae, quid etiam sit littera,
+					<lb/>unde dicatur, quomodo diuidatur, quas etiam proprietates
+				<lb/>habeat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; I. De litteris &gt;</head>
+				<div>
+					<head type="h_1"><lb/>1.</head> <head type="h_2"><hi rend="italic">Quare litterae sint inuentae.</hi></head> <p> Vsus litterarum repertus
+						<lb/>est propter memoriam rerum. Vitae na &lt; m &gt; que praesentis
+						<lb/>uarietate nec audiendo di&lt;s&gt;ci poterant omnia nec memoria
+						<lb/>contineri; inuentae sunt igitur litterae, ne res fugiant
+						<lb/>obliuione. Quae litterae sunt indices rerum, signa
+						<lb/>uerborum, quibus etiam tanta uis est, ut nobis absentium dicta sine
+					<lb/>uoce loquantur.</p>
+				</div>
+				<pb n="125"/>
+				<div>
+					<head type="h_1"><lb/>2.</head> <head type="h_2"><hi rend="italic">Quid sit littera.</hi></head> <p> Littera est minima pars uocis compositae,
+						<lb/>hoc est uox quae constat ex compositione litterarum,
+						<lb/>minima autem quantum ad totam comprehensionem
+						<lb/>uocis litteratae. Ad hanc enim etiam productae uocales partes
+						<lb/>inueniuntur; unde supra littera est breuissimum eorum,
+						<lb/>quae possunt diuidi. Item aliter possumus et sic diffinire:
+					<lb/>littera est uox, &lt;quae&gt; scribi potest indiuidua.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>3.</head> <head type="h_2"><hi rend="italic">Vnde dicatur littera.</hi></head> <p> Dicitur autem littera quasi legittera,
+						<lb/>quod legendi iter praebeat; aliter: uel a lituris, ut quibusdam
+						<lb/>placet, quod plerumque in ceratis tabulis antiqui
+					<lb/>scribere solebant.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>4.</head> <head type="h_2"><hi rend="italic">Qua similitudine litterae dicantur elementa.</hi></head> <p> Litteras
+						<lb/>autem i ad similitudinem prorsus elementorum uocamus
+						<lb/>multotiens elementa: sicut enim illa coeuntia corpus omne
+						<lb/>perficiunt, sic etiam litterae simul iunctae litteralem uocem
+						<lb/>quasi corpus aliquod componunt. Littera igitur est nota elementi
+						<lb/>et uelut imago quaedam uocis litteratae, quae cognoscitur
+					<lb/>ex qualitate et quantitate figurae linearum.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>5.</head> <head type="h_2"><hi rend="italic">De differentia eorum.</hi></head> <p> Hoc autem interest inter elementa
+						<lb/>et litteras, quod elementa dicuntur ipsae pronuntiationes,
+					<lb/>notae uero earum litterae.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>6.</head> <head type="h_2"><hi rend="italic">De abusione eorundem.</hi></head> <p> Abusiue tamen elementa pro
+						<lb/>litteris et litterae pro elementis uocantur. Exemplum praedictorum:
+						<lb/>cum enim dicimus non posse constare in eadem
+						<lb/>syllaba r ante p, non de litteris dicimus, sed de pronuntiatione
+						<lb/>earum; nam quantum ad scripturam possunt coniungi,
+					<lb/>non tamen etiam pronuntiari, nisi postposita r, ut princeps.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>7.</head> <head type="h_2"><hi rend="italic">De figuris et numero litterarum.</hi></head> <p> Sunt igitur figurae
+						<lb/>litterarum quibus Latini nunc utuntur uiginti tres, uidelicet
+					<lb/>a b c d e f g h i k 1 m n o p q r s t u x y z.</p>
+				</div>
+				<pb n="126"/>
+				<div>
+					<head type="h_1"><lb/>8.</head> <head type="h_2"><hi rend="italic">De accidentibus litterarum.</hi></head> <p> Vnicuique autem litterae
+						<lb/>accidunt quattuor. Nomen quo uocentur uelut a b. Litterarum
+						<lb/>uero nomina omnia sunt indeclinabilia. Quare? Quoniam
+						<lb/>a barbaris dicuntur inuenta siue quod simplicia haec
+						<lb/>et stabilia esse debent, quasi fundamentum omnis doctrinae
+						<lb/>immobile. Nomina siquidem litterarum gentes ex sono propriae
+						<lb/>linguae dederunt notatis oris sonis &lt;at&gt;que di[s]scretis.
+						<lb/>Nam apud Hebraeos, a quibus litterae Grecae ac Latinae
+						<lb/>uidentur exortae, prius dictum est aleph; deinde ex simili
+						<lb/>pronuntiatione apud Grecos tractum est alfa, inde apud Latinos
+						<lb/>a, ut nosse possimus Hebraicam linguam omnium linguarum
+					<lb/>ac litterarum matrem.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>9.</head> <head type="h_2"><hi rend="italic">De ordine litterarum.</hi></head> <p> Ordo quoque litteris accidit,
+						<lb/>uidelicet quae praecedat, quae sequatur, ut a prior sit, sequens
+					<lb/>b.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>10.</head> <head type="h_2"><hi rend="italic">Quare a praecedat.</hi></head> <p> A uero in omnium linguarum litteris
+						<lb/>ideo praecedit, quoniam ipsa prior uocem nascentibus
+					<lb/>aperit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>11.</head> <head type="h_2"><hi rend="italic"> De figuris litterarum.</hi></head> <p>Figurae similiter, hoc est caracteres
+						<lb/>quibus signentur, accidunt litteris sicut uidemus in
+						<lb/>singulis earum. Hae uero figurae partim ex placito, partim
+						<lb/>ex sono litterarum formantur, ut puta i et o, quarum uni
+						<lb/>sicut exilis sonus est, ita tenuis formata est uirgula; alterius
+					<lb/>pinguis est sonus, sic et plena figura.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>12.</head> <head type="h_2"><hi rend="italic">De potestate earum.</hi></head> <p> Potestas etiam, uidelicet ipsa
+						<lb/>pronuntiatio propter quam nomina et figurae factae sunt,
+						<lb/>accidit litterae, ut sic discernitur quae uocalis, quae consonans
+					<lb/>habeatur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>13.</head> <head type="h_2"><hi rend="italic">De diuisione earunde &lt; m &gt; .</hi></head> <p> Litterarum igitur aliae
+					<lb/>sunt uocales, aliae consonantes.</p>
+				</div>
+				<pb n="127"/>
+				<div>
+					<head type="h_1"><lb/>14.</head> <head type="h_2"><hi rend="italic">De numero uocacalium.</hi></head> <p> Vocales autem sunt numero
+					<lb/>quinque, a e i o u.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>15.</head> <head type="h_2"><hi rend="italic">Quare dicantur uocales.</hi></head> <p> Istae uero uocales dicuntur,
+						<lb/>quoniam per se uocem faciunt, uel quia uox litteralis nequit
+					<lb/>fieri sine aliqua istarum.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>16.</head> <head type="h_2"><hi rend="italic">De i et u.</hi></head> <p> Ex his uocalibus duae i in uim consonantium
+						<lb/>quandoque transeunt, uidelicet i et u sequente alia
+					<lb/>uocali in eadem syllaba, ut Iuno et Venus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>17.</head> <head type="h_2"><hi rend="italic">De i.</hi></head> <p> I quoque pro duplici consonante multotiens
+						<lb/>accipitur, scilicet cum inter duas uocales inuenitur, ut maius
+						<lb/>peius (geminatur enim ibi sonus eius); in quo loco antiqui
+						<lb/>solebant geminare &lt;e&gt;andem i litteram et maiius ci peiius
+					<lb/>scribere.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>18.</head> <head type="h_2"><hi rend="italic">De u.</hi></head> <p> V si post g uel post q ponitur, ut quis sanguis, nec
+						<lb/>uocalis nec consonane habetur. Vocalis enim non est, quia i
+						<lb/>sequitur, consonans non est, quoniam q uel g praecedit; solum
+					<lb/>igitur sibilum asperioris soni praesentabit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>19.</head> <head type="h_2"><hi rend="italic">De consonantibus.</hi></head> <p> Ceterae litterae praeter supradictas
+					<lb/>uocales omnes sunt consonantes, quia simul sonant cum istis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>20.</head> <head type="h_2"><hi rend="italic">De diuisione consonantium.</hi></head> <p> Consonantium uero aliae
+					<lb/>sunt semiuocales, aliae mutae.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>21.</head> <head type="h_2"><hi rend="italic">De numero semiuocalium.</hi></head> <p> Semiuocales sunt, ut plerisque
+					<lb/>Latinorum placuit, septem: f l m n r s x.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>22.</head> <head type="h_2"><hi rend="italic">De f.</hi></head> <p> F uero multis modis ostenditur muta magis.
+						<lb/>Omnis enim semiuocalis terminat dictionem; sed f non terminat
+						<pb n="128"/>
+					<lb/>dictionem, [e]ergo non est semiuocalis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>23.</head> <head type="h_2"><hi rend="italic">Alia ratio.</hi></head> <p> Omnis littera quae duplicatur in praeterito
+						<lb/>est muta; sed f duplicatur in praeterito, ut fallo fefelli,
+					<lb/>ergo est muta.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>24.</head> <head type="h_2"><hi rend="italic">Oppositio.</hi></head> <p> Hic opponuntur tria haec uerba: mordeo
+					<lb/>momordi, spondeo spopondi, sto [s]steti.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>25.</head> <head type="h_2"><hi rend="italic">Solutio.</hi></head> <p> Sed dicimus quia m habet uim mutae
+						<lb/>in duplicatione praeteriti et quod ante liquidam ponitur more
+						<lb/>mutae, ut Ramnes, et facit communem syllabam. Sto autem
+					<lb/>et spondeo: non duplicatur s in praeterito.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>26.</head> <p>F quoque ante liquidam ponitur, ut flagellum, unde
+						<lb/>hic muta esse demonstratur. Potestate igitur muta probatur;
+						<lb/>sed quoniam a uocali incipit prolatione nominis, ideo semiuocalis
+					<lb/>quibusdam uidetur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>27.</head> <head type="h_2"><hi rend="italic">De x.</hi></head> <p> X uero duplex demonstratur, quoniam modo
+						<lb/>pro cs modo pro gs accipitur, ut apex apicis, grex gregis.
+						<lb/>Haec nouissime a Latinis a &lt; s &gt; sumpta post omnes litteras ponitur,
+					<lb/>quibus litteris Latinae dictiones egent.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>28.</head> <head type="h_2"><hi rend="italic">Quare dicantur semiuocales.</hi></head> <p> Semiuocales igitur praedictae
+						<lb/>litterae uocantur, eo quod quiddam semis de uocalibus
+						<lb/>habeant. Incipiunt enim ab e uocali et desinunt in naturalem
+					<lb/>sonum, ut ef el em en er es ix.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>29.</head> <head type="h_2"><hi rend="italic">Quare x ab i incipiat.</hi></head> <p> X autem sola[m] ab i incipit
+						<lb/>per anastrophen Greci nominis xi, quia necesse fuit, cum sit
+						<lb/>semiuocalis, a uocali incipere et in se terminare; quod
+						<lb/>Eustropius confirmat dicens: "una x duplex est, quae ideo
+					<lb/>ab i incipit, quia apud Grecos in ea &lt; n &gt; dem desinit".</p>
+				</div>
+				<pb n="129"/>
+				<div>
+					<head type="h_1"><lb/>30.</head> <head type="h_2"><hi rend="italic">De liquidis.</hi></head> <p> Ex his autem semiuocalibus quattuor
+					<lb/>sunt liquidae: l m n r.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>31.</head> <head type="h_2"><hi rend="italic">Quare dicuntur liquidae.</hi></head> <p> Quae propterea dicuntur
+						<lb/>liquidati, quoniam interdum in una syllaba postpositae aliis consonantibus deficiunt et a metro
+					<lb/>excluduntur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>32.</head> <head type="h_2"><hi rend="italic">De mutis.</hi></head> <p> Reliquae sunt mutae, ut quibusdam placet,
+					<lb/>numero nouem: b c d g h k p q t.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>33.</head> <head type="h_2"><hi rend="italic">De h.</hi></head> <p> H uero pro sola aspiratione posita est, unde a
+						<lb/>plerisque aspiratio putatur esse, non littera; quae proinde
+						<lb/>aspirationis nota dicitur, quia uocem eleuat. Aspiratio enim
+					<lb/>est sonus uberius elatus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>34.</head> <head type="h_2"><hi rend="italic">Probatio.</hi></head> <p> H quidem si foret i littera, esset uocalis
+						<lb/>aut consonans. Vocalis non est, quia a se uocem non facit,
+						<lb/>quod est uocalium; semiuocalis non est, quia nulla syllaba
+					<lb/>Latina uel Greca per integras dictiones in eam desinit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>35.</head> <head type="h_2"><hi rend="italic">Oppositio.</hi></head> <p> Hic opponitur uah et ah.
+					<lb/>. <hi rend="italic">Solutio</hi> Sed sunt appocopata; perfecta enim eorum sunt uaha et aha.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>36.</head> <head type="h_2"><hi rend="italic">Quod non sit h muta.</hi></head> <p> Muta non est, cum in eadem syllaba
+						<lb/>cum duabus mutis bis ponitur, ut Phthius Erichthonius.
+						<lb/>Nulla enim syllaba plus duabus mutis potest habere iuxta se
+						<lb/>positis, nec plus tribus consonantibus continuare. H igitur,
+						<lb/>ut praediximus, aspirationis sit nota; sed quamuis nullam
+						<lb/>litterae proprietatem habet, pro sola figura qua scribitur
+					<lb/>inter alias uocetur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>37.</head> <head type="h_2"><hi rend="italic">De k.</hi></head> <p> K uero litteram Saluius, ludi magister, Latinis
+						<lb/>aditi[i]cit, ut in sono discrimen faceret duarum litterarum
+						<lb/>c et q; quae tamen k ideo superuacua dicitur, quia exceptis
+						<lb/>Kalendis superflua iudicatur: per c enim uniuersa exprimimus.
+						<lb/>Teste namque Prisciano, nulla uidetur ratio cur a sequente
+						<lb/>k scribi debeat. Carthago enim et caput siue per c
+						<pb n="130"/>
+						<lb/>siue per k scribantur, nulla differentia est nec in sono nec
+					<lb/>in potestate eiusdem consonantis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>38.</head> <head type="h_2"><hi rend="italic">De q.</hi></head> <p> Q litteram nec Greci resonant nec Hebraei.
+						<lb/>Exceptis enim Latinis hanc nulla[m] alia lingua habet; unde
+						<lb/>et ipsa superuacua est uocata, quoniam per c cuncta ueteres
+						<lb/>scripserunt. Q etenim nisi eandem uim haberet quam c,
+						<lb/>numquam in principiis infinitiuorum et interrogatiuorum quorundam nominum per obliquos casus in c litteram transiret,
+						<lb/>ut quis cuius cui. Similiter a uerbis q habentibus in
+						<lb/>quibusdam participiis in c transfertur, ut sequor secutus,
+					<lb/>loquor locutus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>39.</head> <head type="h_2"><hi rend="italic">Q quare consueuit scribi.</hi></head> <p> Q autem quibusdam
+						<lb/>propter nichil aliud uidet&lt;ur&gt; scribenda esse, nisi
+						<lb/>ut ostendat sequens u ante alteram uocalem in eadem syllaba[m]
+						<lb/>positam perdere uim litterae in metro. Quod si
+						<lb/>ideo alia littera est extimanda q quam c, debet g similiter,
+						<lb/>cum praeponitur u amittenti uim litterae, alia putari, et alia,
+						<lb/>cum id non facit. Dicimus enim anguis sicuti quis et augur
+						<lb/>sicubi cur. C igitur et k et q licet nomine et figura differant,
+					<lb/>unum sunt potestate.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>40.</head> <head type="h_2"><hi rend="italic">Quare dicantur mutae.</hi></head> <p> Mutae autem dicuntur, non
+						<lb/>quod omnino mutescant, sed quia ad comparationem bene
+						<lb/>sonantium exiguam uocem tenent. Sic etiam informis mulier
+						<lb/>dicitur, non quod omnino forma careat, sed quia male est
+					<lb/>formata.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>41.</head> <head type="h_2"><hi rend="italic"> Vnde incipiant et quomodo finiant.</hi></head> <p>Mutae itaque a se
+						<lb/>incipiunt et in e uocalem desinunt, ut be ce, praeter k quae
+					<lb/>desinit in a, et praeter q quae finitur in u.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>42.</head> <head type="h_2"><hi rend="italic">De y et z.</hi></head> <p> A Grecis duas litteras mutuauit Latinitas,
+						<lb/>y et z, propter nomina Greca. Istae namque, uidelicet y et z,
+						<pb n="131"/>
+						<lb/>apud Romanos usque ad Augusti tempus non scribebantur,
+						<lb/>sed pro z duas ss scribebant, ut ylarissat pro ylarizat; pro
+					<lb/>y autem scribebatur i.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>43.</head> <head type="h_2"><hi rend="italic"> De titula.</hi></head> <p> Inter litteras autem et apicem illum,
+						<lb/>qui ultimus ponitur et titula uocatur, ueteres distinxerunt dicentes
+						<lb/>apicem, eo quod longe sit a pedibus, sed in cacumine
+						<lb/>litterae apponitur. Est enim linea iacens super litterarum
+					<lb/>figuras aequaliter ducta.</p>
+					<p><lb/>Possent de litteris adhuc plures proprietates designari,
+					<lb/>sed de his ad praesens taceamus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; II. De syllaba &gt;</head>
+				<div>
+					<head type="h_1"><lb/>1.</head> <head type="h_2"><hi rend="italic">De syllaba.</hi></head> <p> Syllaba est comprehensio litterarum consequens
+						<lb/>sub uno accentu et uno spiritu indistanter prolata.
+						<lb/>Abusiue tamen etiam singularium uocalium sonos syllabas
+					<lb/>uocamus. </p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>2.</head> <head type="h_2"><hi rend="italic">Quomodo diffinitur.</hi></head> <p> Possumus etiam sic diffinire syllabam:
+						<lb/>syllaba est uox litteralis, quae sub uno accentu et
+					<lb/>uno spiritu profertur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>3.</head> <head type="h_2"><hi rend="italic">Quot litteris constat.</hi></head> <p> A singulis tamen incipiens,
+						<lb/>non plus quam ad sex litteras procedere syllaba in Latino sermone
+					<lb/>potest, ut a ab ars Mars stans stirps.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>4.</head> <head type="h_2"><hi rend="italic">Nota.</hi></head> <p> Et notandum quod syllabae, quae constant ex
+						<lb/>singulis litteris, non plures &lt;sunt&gt; quam ipsae uocales, ex
+					<lb/>quibus fiunt.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>5.</head> <head type="h_2"><hi rend="italic">Nota.</hi></head> <p> Hoc utique sciendum, quoniam nulla syllaba
+						<lb/>tres uocales habet, unde u et i non aliter iunguntur diptongis,
+					<lb/>nisi loco consonantium positae.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>6.</head> <head type="h_2"><hi rend="italic">De u.</hi></head> <p> V tamen tunc potest iungi diptongo, cum amit&lt; t &gt; it
+					<lb/>uim litterae, ut quae linguae.</p>
+				</div>
+				<pb n="132"/>
+				<div>
+					<head type="h_1"><lb/>7.</head> <p>Item non plus quam tres consonantes antecedere uocalem,
+						<lb/>nec rursus sequi nisi tres possunt, hoc siquidem modo
+						<lb/>ut, si tres consonantes praecedant uocalem, non possunt
+						<lb/>nisi duae sequi, ut monstrans, et ite &lt; ru &gt; m si consequantur
+					<lb/>tres, non ualent antecedere nisi duae, ut stirps.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>8.</head> <head type="h_2"><hi rend="italic">Vnde dicatur syllaba.</hi></head> <p> Syllaba autem Grece dicitur in
+						<lb/>Latinum conceptio litterarum, a maiore et frequentiore parte
+					<lb/>sic uocata.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>9.</head> <head type="h_2"><hi rend="italic">De diuisione syllabarum.</hi></head> <p> Syllabarum quidem aliae
+						<lb/>sunt longae, aliae breues, quaedam uero communes. Longa
+						<lb/>habet duo tempora, breuis unum, communis tempus et dimidium.
+						<lb/>Tempus autem &lt; in &gt; syllabis nominamus morulas
+						<lb/>pronuntiationis; tantum enim in una longa syllaba moramur,
+					<lb/>quantum in duabus breuibus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>10.</head> <p>His ita decursis, quot modis syllabae noscantur uideamus.
+						<lb/>Syllabae, sicut placet nonnullis, cognosci ualent octo
+						<lb/>modis: positione, compositione, diminutione, uocali ante
+					<lb/>alteram uocalem, di &lt; p &gt; tongo, accentu, regula et exemplo.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>11.</head> <head type="h_2"><hi rend="italic">Quid sit positio.</hi></head> <p> Positio est quotienscumque duae
+						<lb/>consonantes secuntur unam uocalem, ut arma, aut una
+						<lb/>quaeuis duplex, ut lux, uel i reperitur inter duas uocales, ut
+					<lb/>rnaius.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>12.</head> <head type="h_2"><hi rend="italic">Quare dicitur positio.</hi></head> <p> Dicitur autem positio a pono
+						<lb/>uerbo, eo quod oppositionem, uidelicet obstaculum, uoci
+						<lb/>faciat, non permittens eam transire uelociter; inde procedit
+					<lb/>quod positio semper longa est.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>13.</head> <head type="h_2"><hi rend="italic">De compositio &lt; ne &gt; .</hi></head> <p> Compositione quoque syllabas
+						<lb/>cognoscimus, quoniam syllaba tanta est in simplici, quanta in
+						<pb n="133"/>
+						<lb/>composito. Cum itaque ignoramus lego, utrum prima longa sit
+						<lb/>uel breuis, recurrere debemus ad eius compositum perlego,
+						<lb/>et sicut in composito reperitur, sic in simplici iudicabitur. Licet
+						<lb/>in aliquantis hoc fallat; nam cum di &lt; ci &gt; mus nubo, nu
+						<lb/>siquidem longa est, in compositione uero pronuba et innuba
+					<lb/>breuiatur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>14.</head> <head type="h_2"><hi rend="italic">De dim &lt; in &gt; utione.</hi></head> <p> Diminutione quoque syllaba &lt; s &gt;
+						<lb/>cognoscemus, cum dictionem, quae tetrasyllaba uel
+						<lb/>polisyllaba fuerit, sic diminuemus, donec ipsa syllaba de qua
+						<lb/>dubitatur paenultima fuerit, ut significatio. Ecce ca antepaenultima
+						<lb/>hic est et, si dubitatur utrum longa
+						<lb/>uel breuis sit, recurrendum est ad participium a quo uenit, correpta
+						<lb/>i et assumpta o in genit &lt; iu &gt; o, ut signif &lt; i &gt; catus significati
+						<lb/>significatio; et quanta in participio iudicatur, tanta
+					<lb/>in eius deriuatiuo monstrabitur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>15.</head> <head type="h_2"><hi rend="italic">De uocali ante alteram uocalem.</hi></head> <p> Vocali ante alteram
+						<lb/>uocalem cognoscitur syllaba, ut b &lt; e &gt; atus. Vocalis enim ante
+						<lb/>alteram uocalem in Latinis dictionibus corripitur, praeter fio
+						<lb/>uerbum quando est bisyllabum, et praeter genitiuos et datiuos
+						<lb/>quintae declinationis, ut diei, ex quibus excipitur rei
+						<lb/>spei fidei, et exceptis genitiuis quorundam nominum seu
+						<lb/>pronominum in ius desinentium, qui indifferenter ponuntur,
+						<lb/>ut unius illius, ex quibus excipitur alterius, qui semper
+					<lb/>breuiatur, et alius, qui semper producitur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>16.</head> <head type="h_2"><hi rend="italic">Quaestio.</hi></head> <p> Quare alterius semper breuiatur et alius
+					<lb/>semper producitur?</p>
+					<p><lb/><hi rend="italic">Solutio.</hi> Quia in talibus nominibus seu pronominibus
+						<lb/>genitiuus solet superare nominatiuum una syllaba, ut unus
+						<lb/>unius, ille illius; alterius autem duabus syllabis suum nominatiuum
+						<lb/>superauit, unde merito quod in syllabis plus habuit,
+						<lb/>in productione perdidit et alius, quod in syllabis habere
+					<lb/>non ualuit, in longitudine acquisiuit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>17.</head> <head type="h_2"><hi rend="italic">De accento.</hi></head> <p> Accentus etiam in cognoscendis syllabis
+					<lb/>satis mo &lt; n &gt; stratur utilis.</p>
+				</div>
+				<pb n="134"/>
+				<div>
+					<head type="h_1"><lb/>18.</head> <head type="h_2"><hi rend="italic">Vnde dicatur.</hi></head> <p> Accentus autem dicitur quasi ad cantus,
+					<lb/>eo quod ad cantum uocis syllabas cognoscere nos faciat.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>19.</head> <head type="h_2"><hi rend="italic">De diuisione accentutun.</hi></head> <p> Accentus itaque alius dicitur
+						<lb/>acutus, eo quod acuat et erigat syllabam, alius grauis, ideo
+						<lb/>quod deponat et deprimat (est enim contrarius acuto); circumflexus,
+						<lb/>quia de acuto et graui constat: incipiens enim
+						<lb/>ab acuto in grauem desinit atque ita, dum ascendit et descendit,
+						<lb/>circumflexus efficitur. Acutus autem et circumflexus
+						<lb/>similes sunt; nam uterque leuat syllabam. Grauis contrarius
+						<lb/>uidetur ambobus; nam semper deprimit syllabas, cum illi
+						<lb/>leuent, ut <hi rend="italic">Vnde uenit Titan et nox ubi sidera condit.</hi> Vnde
+						<lb/>hic grauis est; minus enim sonat quam acutus et circumflexus.
+						<lb/>Monosyllaba autem pars oratio &lt; n &gt; is, si naturaliter
+						<lb/>breuis est, ut uir, aut longa positione, ut ars, acutum accentum
+						<lb/>habebit; si uero naturaliter longa, ut res, circumflexum.
+						<lb/>Disyllaba pars orationis, si priorem naturaliter longam
+						<lb/>habet et posteriorem breuem, ut Musa, circumflectetur;
+						<lb/>aliter acuetu &lt; r &gt; . Trisyllaba pars orationis si mediam breuem
+						<lb/>habet, ut tibiam, tunc primam acuimus; si uero naturaliter
+						<lb/>longam habet mediam et ultimam breuem, ut Metellus,
+						<lb/>tunc mediam circumflectimus. Tetrasyllaba quoque &lt; et &gt;
+						<lb/>pentasyllaba trisyllabarum ratione retinentur. Grauis accentus
+						<lb/>cum uno accentu poni potest in dictione una, cum
+						<lb/>utrisque numquam, ut &lt; . .&gt; ; in composita dictione unus
+					<lb/>accentus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>20.</head> <head type="h_2"><hi rend="italic">Quoniam reper[i]ti sunt accentus.</hi></head> <p> Acce&lt;n&gt;tus autem
+						<lb/>reperti sunt uel propter differentiam demonstrandam
+						<lb/>per accentum, ut cum dicimus "uidi angelos supernos". Supernos
+						<lb/>enim si pro una parte ponitur, grauabitur in fine, ut
+						<lb/>dicatur supernos; si uero pro duabus partibus ponitur,
+					<lb/>tunc ultima acuetur et dicetur super nos.</p>
+				</div>
+				<pb n="135"/>
+				<div>
+					<head type="h_1"><lb/>21.</head> <head type="h_2"><hi rend="italic"> Alia ratio.</hi></head> <p>Propter enuntiationem quoque reperti
+						<lb/>sunt accentus, ne dicas morticinum, si a morte et caedo
+						<lb/>feceris compositum. Morticinum enim, uidelicet "morte
+						<lb/>caesum", cum producto accentu pronuntiatur, a morte et
+						<lb/>caedo caedis, cuius prima producitur, deriuatur. Cum uero
+						<lb/>morticinum correpto accentu[m] protuleris, a morte et cado
+						<lb/>cadis, cuius prima breuiatur, deriuari feceris, ut dicas
+					<lb/>morticinum, hoc est "morte cadens".</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>22.</head> <head type="h_2"><hi rend="italic">Item alia ratio de eodem.</hi></head> <p> Item pro discernenda&lt;e&gt;
+						<lb/>ambiguitatis causa accentibus utimur, ut ergo. Nam cum producimus
+						<lb/>go, causam significat; cum autem corripitur, in coniunctionem
+					<lb/>transit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>23.</head> <head type="h_2"><hi rend="italic">De figuris accentuum.</hi></head> <p> Figurae quidem accentuum
+						<lb/>decem sunt, quae a grammaticis pro uerborum distinctionibus
+						<lb/>diligenter debent inquiri. Versificatoribus autem duo accentus
+						<lb/>sunt necessarii, uidelicet productus et correptus. Productus
+						<lb/>itaque accentus est, quotiens medias syllabas cum
+						<lb/>longa mora uocis pronuntiamus, ut fortuna natura. Correptus
+						<lb/>accentus est, quotiens medias syllabas cum parua mora
+					<lb/>uocis enuntiamus, ut macula tabula.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>24.</head> <head type="h_2"><hi rend="italic">De diptongo.</hi></head> <p> Cognoscuntur quoque syllabae per
+					<lb/>diptongon. Sed quid est diptongus?</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>25.</head> <head type="h_2"><hi rend="italic">Vnde diptongus dicatur.</hi></head> <p> Dicitur autem diptongus
+						<lb/>duarum uocalium sonus. Dia enim Gr &lt; e &gt; ce, duo interpretatur
+						<lb/>Latine; ptongus sonus: inde diptongus, uidelicet duarum
+						<lb/>uocalium in eadem syllaba sonus. Nam singulae uocales
+					<lb/>ibi suas uoces habent.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>26.</head> <head type="h_2"><hi rend="italic">De numero diptongorum.</hi></head> <p> Sunt igitur diptongi, quibus
+					<lb/>nos utimur, quattuor.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>27.</head> <head type="h_2"><hi rend="italic">De ae.</hi></head> <p> Ae, ut aequus; pro iusto namque debet diptongari,
+					<lb/>sed pro animali per e solam scribi.</p>
+				</div>
+				<pb n="136"/>
+				<div>
+					<head type="h_1"><lb/>28.</head> <head type="h_2"><hi rend="italic">De oe.</hi></head> <p> Oe, ut foedus pro pacto; foedus enim quod
+						<lb/>est pactum cum oe diptongo, sed fedus pro deformi per e
+					<lb/>solam scribi debet.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>29.</head> <head type="h_2"><hi rend="italic">De au.</hi></head> <p> Au, ut aurum.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>30.</head> <head type="h_2"><hi rend="italic">De eu.</hi></head> <p> Eu, ut Eurus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>31.</head> <head type="h_2"><hi rend="italic"> Quare inuentae diptongi.</hi></head> <p> Sciendum est autem diptongos
+						<lb/>duabus causis esse inuentas, uidelicet causa differentiae,
+						<lb/>ut quae per diptongum a que coniun &lt; c &gt; tione discernatur;
+						<lb/>uel causa breuitatis, ut significatio duarum partium
+						<lb/>in una dictione conglutinetur, ut celum idem ualet quam
+					<lb/>"casa elyos".</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>32.</head> <head type="h_2"><hi rend="italic">Quare subtrahantur diptongi. [&lt;/I&gt; Ergo cum tanta utilitate</hi></head> <p>
+						<lb/>inuentae sint diptongi, quare subtrahuntur in quibusdam
+					<lb/>dictionibus?</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>33.</head> <head type="h_2"><hi rend="italic">Solutio.</hi></head> <p> Causa melioris sonoritatis. Pulchrius enim
+					<lb/>sonat celum, nec est ibi tantus hiatus oris.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>34.</head> <head type="h_2"><hi rend="italic">Nota.</hi></head> <p> Et sciendum, quod nulla diptongus in duas
+						<lb/>consonantes potest desinere; in duplicem uero inuenitur, ut
+					<lb/>faux faucis et faex faecis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>35.</head> <head type="h_2"><hi rend="italic">Alia nota.</hi></head> <p> Hoc quoque notandum, quoniam omnis
+						<lb/>diptongus semper est longa. Quare? Quia, sicut quidam non
+						<lb/>sine ratione dicunt, singulae earum unum et semis te&lt;m&gt;pus
+						<lb/>habent; ideoque, si consequatur consonans, quae dimidium
+						<lb/>tempus habet, omnino producitur. Inuenitur tamen diptongus
+						<lb/>haec i&lt;n&gt; media dictione correpta tunc, quando compositae
+						<lb/>dictionis antecedentis in fine est sequente uocali, ut
+						<lb/>praeustis; unde Virgilius: <hi rend="italic">] Stipitibus duris agitur sudibusue</hi>
+					<lb/>praeustis. [&lt;/I&gt;</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>36.</head> <head type="h_2"><hi rend="italic">De regula.</hi></head> <p> Regula quippe cognoscuntur syllabae.</p>
+				</div>
+				<pb n="137"/>
+				<div>
+					<head type="h_1"><lb/>37.</head> <head type="h_2"><hi rend="italic">Quid sit regula.</hi></head> <p> Regula uero est approbata diuersorum
+						<lb/>testimonio perspicax et euidens rei cuiuslibet manifestatio
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>38.</head> <head type="h_2"><hi rend="italic">Vnde dicatur.</hi></head> <p> Dicitur autem regula quasi rectula, eo
+						<lb/>quod sit recta et nichil offendiculi contra ueritatem habeat,
+						<lb/>ut haec: « sunt uerba quae breuiant primas syllabas praesentis
+						<lb/>temporis et omnium, quae formantur ab eo; in praeterito
+						<lb/>autem et in omnibus ab eo formatis producunt, ut facio
+						<lb/>feci, capio cepi, faueo faui, sedeo sedi, fodio fodi, uideo uidi,
+						<lb/>foueo foui, &lt; uo &gt; ueo uoui, iuuo iuui, ago egi, emo emi, lauo
+						<lb/>laui, odio odi, eo iui, queo quiui, scio sciui, sino siui, sero
+					<lb/>seui ».</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>39.</head> <head type="h_2"><hi rend="italic">Alia regula.</hi></head> <p> « Sunt quaedam uerba, quae in primis
+						<lb/>praesentis temporis syllabis et in omnibus quae a praesente
+						<lb/>formantur, producuntur; sed in praeterito et in his quae
+					<lb/>formantur ab eo breuiantur, ut pono posui ».</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>40.</head> <head type="h_2"><hi rend="italic">Item alia regula.</hi></head> <p> « Omnia praeterita duplicantia[m]
+					<lb/>corripiu&lt;n&gt;t primas syllabas, ut totondi pependi ».</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>41.</head> <head type="h_2"><hi rend="italic">De quae et prae.</hi></head> <p> Quae et prae quotiens in primis
+						<lb/>syllabis inueniuntur, produci debent, exceptis pretium precor
+						<lb/>premo prehendo et queror (cum lamentationem significat).
+						<lb/>Excipiuntur qhoque illa quae ab his per deriuationem uel
+						<lb/>declinationem ueniunt; cum quibus breuiandis que coniunctionem
+					<lb/>breuiamus.</p>
+					<p><lb/>Haec ad praesens de regulis primae syllabae sufficiant.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>42.</head> <head type="h_2"><hi rend="italic">De exemplo.</hi></head> <p> Quid autem de exemplo ad cognosce &lt; n &gt; das
+					<lb/>syllabas dicemus?</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>43.</head> <head type="h_2"><hi rend="italic">Quid sit exemplum.</hi></head> <p> Exemplum quippe est ueterum
+						<lb/>actoritas qua, sicut inreprehensibiliter usi sunt, sic nos, cum
+						<lb/>de rebus certitudinem non habemus, eorum uestigiis adhaerere
+					<lb/>de&lt;be&gt;mus.</p>
+				</div>
+				<pb n="138"/>
+				<div>
+					<head type="h_1"><lb/>44.</head> <head type="h_2"><hi rend="italic">Vnde dicatur exemplum.</hi></head> <p> Dicitur autem exemplum
+					<lb/>ab extra et amplo, eo quod sit extra amplum.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>45.</head> <p>Facile namque de omnibus notitiam poteris habere,
+						<lb/>si maiorum dicta uolueris diligenter notare. Verbi gratia,
+						<lb/>ignoramus alicuius dictionis primam syllabam &lt;utrum&gt; longa
+						<lb/>sit uel breuis. Ponamus exemplum alicuius actoris et in
+						<lb/>scansione[m] pedum uideamus, quomodo actor eam posuerit.
+						<lb/>Vt puta, si nescimus huius nominis uir[o] quanta sit prima,
+						<lb/>quaeramus inde exemplum Virgilii. Dicit enim <hi rend="italic">Arma uirumque
+					<lb/>cano Troiae qui primus ab oris.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>46.</head> <p>Assignatis itaque octo modis quibus syllabae quorundam
+						<lb/>iudicio cognoscuntur, ab his, ut nonnullis placet,
+						<lb/>compositionem, diminutionem et accentum remouemus et,
+						<lb/>plurimorum sententia, uelut superflua his rationibus iudicamus.
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>47.</head> <p>Omne namque simplex prius est suo composito.
+						<lb/>Quod si uerum est, immo quia sine dubio uerum est nec falli
+						<lb/>potest, habet omne simplex naturam longitudinis et breuitatis,
+						<lb/>prius quam ad suum compositum perueniat. Nullum
+						<lb/>quod prius est, cognoscitur per id quod posterius est. Syllaba
+						<lb/>igitur non co &lt; m &gt; positione cognosci debet, sed sui
+						<lb/>simplicis ratione, quoniam tanta manet in composito quanta
+					<lb/>iudicatur in simplici.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>48.</head> <p>Diminutio quoque nec non et accentus ideo a praedictis
+						<lb/>superflua iudicantur, quoniam per se nullam certitudinem
+						<lb/>faciunt, nisi regula uel actoritate cognoscantur.
+						<lb/>Praedictorum igitur sententia prima syllaba quinque modis
+						<lb/>cognoscitur: positione, ut arcus, uocali ante alteram uocalem,
+						<lb/>ut beatus, diptongo, ut aurum, exemplo, ut <hi rend="italic">Arma
+					<lb/>uirumque cano</hi>, regula, sicut exposuimus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>49.</head> <head type="h_2"><hi rend="italic">De mediis syllabis.</hi></head> <p> Medias quoque syllabas quinque
+						<lb/>modis cognoscimus, uidelicet positione, ut insulsus, uocali
+						<pb n="139"/>
+						<lb/>ante alteram uocalem, ut impius, diptongo, ut exaudio, regula,
+						<lb/>ut « omnis paenultima infinitiui primae coniugationis
+						<lb/>producitur praeter dare »; accentu[m] quidem medias syllabas
+						<lb/>cognoscimus, producto longas et correpto breues, ut
+					<lb/>macula.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>50.</head> <head type="h_2"><hi rend="italic">De ultima syllaba.</hi></head> <p> Vltima syllaba tribus modis cognoscitur:
+						<lb/>positione, ut amans, diptongo, ut Musae, regula,
+					<lb/>ut in seque &lt; n &gt; tibus manifestabitur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>51.</head> <head type="h_2"><hi rend="italic">De regulis ultimarum syllabarum.</hi></head> <p> Omnis dictio desinens
+						<lb/>in a, si fuerit nominatiuus primae declinationis, corripitur,
+						<lb/>ut Musa. Vocatiui quoque eiusdem declinationis corripiuntur,
+						<lb/>nisi ueniant a nominatiuis in as uel in es desinentibus,
+						<lb/>qui indifferenter ponu[u]ntur, ut Aenea. Corripiuntur
+						<lb/>quoque nominatiui, accusatiui et uocatiui tam secundae
+						<lb/>quam tertiae declinationis, in a si fuerint desinentia, ut scanna
+						<lb/>tempora; praeter numerum demonstrantia quae, in ginta
+						<lb/>si desinunt, producuntur, ut triginta. Cum his etiam producuntur
+						<lb/>monosyllaba ablatiui singularis primae declinationis
+						<lb/>nominis, ut Musa, et tertii modi pronominis, ut tua, participiorum,
+						<lb/>ut lecta, et secunda persona &lt; imperatiui &gt; primae
+						<lb/>coniugationis, ut ama, et aduerbia, ut una; praeter ita et
+						<lb/>puta, quae breuiamus. Coniunctiones (praeter ita et quia)
+					<lb/>et praepositiones in a desinentes producimus, ut contra.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>52.</head> <head type="h_2"><hi rend="italic">Desinentia in b.</hi></head> <p> Omnia quae terminantur in b breuiantur,
+					<lb/>nisi accentata in fine, ut Iacob.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>53.</head> <head type="h_2"><hi rend="italic">De c.</hi></head> <p> Omnis syllaba quae desinit in c producitur, ut
+						<lb/>allec et huc fac, praeter lac nec et donec, quae breuiantur,
+						<lb/>et hic pronomen et hoc (quando pro nominatiuo uel accusatiuo
+						<lb/>ponitur), et praeter ac coniunctionem, quae communia
+					<lb/>iudicantur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>54.</head> <head type="h_2"><hi rend="italic">Desinentia in d.</hi></head> <p> Omnes syllabae finientes in d breuiantur,
+						<lb/>ut aliud, praeter accentata, ut Dauid, et nisi positione
+					<lb/>defenda &lt; n &gt; tur uel diptongo, ut haud pro non.</p>
+				</div>
+				<pb n="140"/>
+				<div>
+					<head type="h_1"><lb/>55.</head> <head type="h_2"><hi rend="italic">Terminantia in e.</hi></head> <p> In e producuntur ablatiui quintae
+						<lb/>declinationis cum suis compositis, ut die hodie, et secunda
+						<lb/>persona praesentis temporis imperatiui modi secundae
+						<lb/>coniugationis, ut doce, a quibus excipimus uale et caue, quae
+						<lb/>indifferenter ponuntur. Aduerbia etiam quae a nominibus
+						<lb/>secundae declinationis ueniunt producuntur, ut docte, praeter
+						<lb/>bene et male et quae diptongantur, ut Musae, uel in fine
+						<lb/>accentantur, ut Libie, et monosyllaba, ut me te se (praeter
+						<lb/>que pro et et ue pro uel et ne pro an uel pro certe). Cetera
+						<lb/>similiter in e breuiantur, ut mare, excepto fame et excepta
+						<lb/>re praepositione, quae ubique breuiatur, nisi in reicio et
+					<lb/>refero (quando significat distantiam).</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>56.</head> <head type="h_2"><hi rend="italic"> De f.</hi></head> <p> F nullam finit syllabam et ideo utrum producat
+					<lb/>uel breuiet, nulla fit mentio.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>57.</head> <head type="h_2"><hi rend="italic"> In g.</hi></head> <p> In g breuiantur omnia, nisi positione defenda &lt; n &gt; tur
+					<lb/>aut accentu, ut Og.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>58.</head> <head type="h_2"><hi rend="italic">De h.</hi></head> <p> In h nulla desinit syllaba; uah namque et ah
+						<lb/>sunt appocopata, sicut teste Prisciano probauimus. Barbara
+					<lb/>uero accentantur in fine, ut Enoch Ioseph Ruth et Iudith.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>59.</head> <head type="h_2"><hi rend="italic"> De i.</hi></head> <p> Omnia in i producuntur, ut magistri. Excipiunt &lt; ur &gt;
+						<lb/>michi tibi sibi, quae indifferenter ponuntur, et quasi et
+						<lb/>ubi ibi et nisi, quae semper breuiantur, et praeter datiuos Grecos,
+					<lb/>ut Palladi, et uocatiuos, ut o Alexi, breues.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>60.</head> <head type="h_2"><hi rend="italic">De k.</hi></head> <p> K nulli&lt;u&gt;s syllabae potest esse terminalis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>61.</head> <head type="h_2"><hi rend="italic">Desinentia in 1.</hi></head> <p> In 1 omnia breuiantur, ut semel,
+						<lb/>praeter sal sol nil et praeter barbara accentata in fine, ut
+					<lb/>Michael.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>62.</head> <head type="h_2"><hi rend="italic">In m.</hi></head> <p> In m omnia breuiantur, nisi positione defendantur.
+					<lb/>/*</p>
+				</div>
+				<pb n="141"/>
+				<div>
+					<head type="h_1"><lb/>63.</head> <head type="h_2"><hi rend="italic">In n.</hi></head> <p> Dictiones terminantes in n, si habuerint a ante
+						<lb/>n, producuntur, ut Titan, alias breuiantur, ut Ilon. Quae
+						<lb/>uero habent e ante n in nominatiuo et mutant e in i in genitiuo,
+						<lb/>breuiantur, ut carmen carminis; si uero seruant e in
+						<lb/>genitiuo, producuntur, ut lien splen. Cetera in n breuiantur,
+						<lb/>ut an forsan forsitan et in; praeter non et en et praeter
+						<lb/>coniunctiones i ante n habentes, ut quin et sin, quae producuntur.
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>64.</head> <head type="h_2"><hi rend="italic">Terminantia in ar.</hi></head> <p> In ar monosyllaba producuntur,
+						<lb/>ut par Lar Nar, et composita ab eo, ut compar impar dispar
+					<lb/>separ; supra syllabam breuiantur, ut Caesar.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>65.</head> <head type="h_2"><hi rend="italic">In er.</hi></head> <p> In er omnia breuiantur, ut pater. Excipitur
+					<lb/>aer aether uer Iber Celtiber.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>66.</head> <head type="h_2"><hi rend="italic">Finientia in ir et in or et in ur.</hi></head> <p> Omnis dictio terminata
+					<lb/>in ir et in or et &lt;in&gt; ur breuiatur, praeter cur et fur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>67.</head> <head type="h_2"><hi rend="italic">Desinentia in as.</hi></head> <p> In as omnia producuntur, ut pietas
+						<lb/>amas et das, nisi eorum genitiuus fiat in dis, quae breuiantur,
+					<lb/>ut Pallas Palladis (praeter uas uadis).</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>68.</head> <head type="h_2"><hi rend="italic">Terminantia in &lt;e&gt;s.</hi></head> <p> In es terminantia, si habuerint
+						<lb/>pares syllabas in nominatiuo &lt;et&gt; in genitiuo, ut proles
+						<lb/>prolis, producuntur; similiter si habuerint e longam in
+						<lb/>genitiuo crescente, ut merces mercedis, uel si fuerint monosyllaba
+						<lb/>aut ab eo composita, ut pes bipes, aut etiam si fuerint
+						<lb/>quintae declinationis, ut dies. Si autem habuerint e
+						<lb/>breuem in genitiuo crescente, ut seges segetis, breuiantur;
+						<lb/>praeter Ceres et pes cum suis compositis et abies aries et
+					<lb/>paries, quae producuntur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>69.</head> <head type="h_2"><hi rend="italic">Desinentia in is.</hi></head> <p> In is omnia breuiantur, ut collis,
+						<lb/>nisi producant paenultimam genitiui, ut Samnis Samnitis, et
+						<pb n="142"/>
+						<lb/>nisi sint monosyllaba, ut glis (et de monosyllabis breuiantur
+						<lb/>is bis et quis), et nisi sint Greca, quorum nominatiuus desinat
+						<lb/>in in et in is, ut delfin delfis. Datiui quoque et ablatiui
+						<lb/>in is producuntur et secunda persona quartae coniugationis,
+					<lb/>ut audis, et cum his sis uis et uelis cum suis compositis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>70.</head> <head type="h_2"><hi rend="italic">In os.</hi></head> <p> In os terminantia, si habuerint o longam in
+						<lb/>paenultima genitiui, producuntur, ut custos custodis; si uero
+						<lb/>in paenultima genitiui o breuem tenuerint, corripiuntur, ut
+						<lb/>compos compotis. Accusatiui quoque in os pro &lt; ducuntur&gt; .
+					<lb/>Os autem pro bucca producitur, pro osse siquidem breuiatur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>71.</head> <head type="h_2"><hi rend="italic">In us.</hi></head> <p> In us omnia breuiantur, ut deus legimus,
+						<lb/>praeter monosyllaba, ut mus thus rus sus plus, et praeter
+						<lb/>habentia u longam in genitiuo, ut uirtus uirtutis, a quibus
+					<lb/>excipitur palus paludis.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>72.</head> <head type="h_2"><hi rend="italic">In o.</hi></head> <p> Omnis dictio desinens in o communis est, ut
+						<lb/>uirgo, praeter monosyllaba, ut sto no do flo et o, et praeter
+						<lb/>datiuos et ablatiuos secundae declinationis, ut magistro,
+						<lb/>et praeter Greca, ut Dido Sapho, bibo et ergo, quae exceptantur.
+						<lb/>Ablatiui quoque in aduerbia transituri productionem
+					<lb/>seruant, ut illo, nisi in paucis communibus, ut cito modo.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>73.</head> <head type="h_2"><hi rend="italic">De p quod nullam syllabam finalem terminet.</hi></head> <p> P nullam
+						<lb/>terminat syllabam, nisi sequens ab eadem incipiat, ut
+					<lb/>lippus apparet.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>74.</head> <head type="h_2"><hi rend="italic">De q.</hi></head> <p> Q nullius syllabae finalis inuenitur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>75.</head> <head type="h_2"><hi rend="italic">&lt;In t.&gt;</hi></head> <p> In t omnia breuiantur, ut amat docet et legit
+						<lb/>sicut caput sinciput, nisi positione defendantur, ut amant docent
+					<lb/>et legunt, uel sincopa, ut fumat pro fumauit, uel diptongo, ut aut.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>76.</head> <head type="h_2"><hi rend="italic">In x.</hi></head> <p> In x omnia producuntur, ut rex pax crux et
+					<lb/>lux.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>77.</head> <head type="h_2"><hi rend="italic">De y et z.</hi></head> <p> In z et in y apud nos finales non habentur,
+					<lb/>unde de his certas regulas non damus.</p>
+					<pb n="143"/>
+					<p><lb/>Sed tam de his quam de aliis praedictae regulae sufficiant,
+					<lb/>ut de pedibus uersuum quantulumcumque dicere ualeamus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; III. De pedibus &gt;</head>
+				<div>
+					<head type="h_1"><lb/>1.</head> <head type="h_2"><hi rend="italic">De pedibus.</hi></head> <p> Pedes sunt qui certis syllabarum consistunt
+					<lb/>temporibus nec umquam a legitimo spatio recedunt.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>2.</head> <head type="h_2"><hi rend="italic">Quare pede &lt; s &gt; in metris sint.</hi></head> <p> Pedes autem sunt
+						<lb/>dicti, ab eo quod per ipsos metra ambulent; nam sicut nos
+					<lb/>pedibus incedimus, sic metra quasi pedibus gradiuntur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>3.</head> <head type="h_2"><hi rend="italic">De numero pedum.</hi></head> <p> Pedes uero sunt centum uiginti
+						<lb/>quattuor. Moderni tamen non utuntur nisi tribus pedibus
+					<lb/>dactilo, spondeo et trochaeo.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>4.</head> <head type="h_2"><hi rend="italic">Quare sic uocentur.</hi></head> <p> Ipsi pedes habent spetiales causas
+					<lb/>quibus sic uocentur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>5.</head> <head type="h_2"><hi rend="italic">Vnde dicitur dactilus.</hi></head> <p> Dactilus enim a digito, quoniam
+						<lb/>sicut a longiori nodo inchoat et in duos breues nodos
+						<lb/>desinit, sic pes iste i ab una longa incipit et &lt; in &gt; duas
+					<lb/>breues syllabas desinit.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>6.</head> <head type="h_2"><hi rend="italic">Vnde constat dactilus.</hi></head> <p> Dactilus itaque constat ex una
+						<lb/>longa syllaba et duabus breuibus temporum quattuor, ut
+						<lb/>Menalus. Hinc quidam sapiens ait: <hi rend="italic">Dactilus est actus longa
+					<lb/>breuibusque duabus.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>7.</head> <head type="h_2"><hi rend="italic">De spondeo.</hi></head> <p> Spondeus dicitur, quia tractim sonat.
+						<lb/>Nam spondeus tractus quidam dicitur, id est sonus qui
+						<lb/>circa aures sacrificantium fundebatur; unde et hii qui tubis
+					<lb/>in sacris gentilium canebant, spondiales nominabantur.</p>
+				</div>
+				<pb n="144"/>
+				<div>
+					<head type="h_1"><lb/>8.</head> <p>Constat itaque spondeus ex duabus longis syllabis
+						<lb/>temporum quattuor, ut aestas. Hinc bene per sapientem dicitur:
+						<lb/><hi rend="italic">Bina spondeus fit longa fitque trochaeus ex prima
+					<lb/>longa, breuis est de fine secunda.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>9.</head> <head type="h_2"><hi rend="italic">De trochaeo.</hi></head> <p> Trochaeus uero dictus est, eo quod celerem
+						<lb/>conuersionem faciat cantilenae et quasi rota uelociter
+						<lb/>currat in metris. Trochos enim Grece, dicitur rota Latine;
+					<lb/>inde trochus cum quo pueri ludunt, eo quod celeriter uoluitur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>10.</head> <head type="h_2"><hi rend="italic">In quibus locis sedeant.</hi></head> <p> Nunc uidendum est &lt;in&gt;
+					<lb/>quibus locis quisque ex illis sedere ualeat.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>11.</head> <head type="h_2"><hi rend="italic">De dactilo.</hi></head> <p> Dactilus quidem in omnibus locis sedere
+						<lb/>potest nisi in sexto pede. Hinc utique dicitur: <hi rend="italic">Dactile, cuncta
+					<lb/>tene, semper de fine recede.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>12.</head> <head type="h_2"><hi rend="italic">De spondeo.</hi></head> <p> Spondeus quintam sedem tantummodo uitat.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>13.</head> <head type="h_2"><hi rend="italic">De trochaeo.</hi></head> <p> Trochaeus caudam conseruat sicut in
+					<lb/>audax.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>14.</head> <head type="h_2"><hi rend="italic">De synalinpha.</hi></head> <p> Sciendum uero quoniam nostri praedecessores
+						<lb/>synalimpha solent uti. Sinalimpha quippe conglutinatio
+						<lb/>est syllabae, quod fit cum praecedens dictio in m
+						<lb/>uel in quamlibet uocalem desinit, sequens uero a uocali
+						<lb/>incipit, et tunc in scansione[m] antecedens subtrahitur, ut
+						<lb/>est illud Virgil[l]ii: <hi rend="italic">Illum expirantem transfixo pectore flammas.</hi>
+						<lb/>Quod a modernis uitatur non quia non liccat, sed quoniam
+					<lb/>rustico modo prolatum uidetur.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>15.</head> <p>Vltimam quoque dictionis breuem in principio tertii
+						<lb/>pedis licentia ponimus longam, ut est illud: <hi rend="italic">Quid sit natura
+						<lb/>res est cognoscere dura.</hi> Poetae in secundo et in quarto
+						<lb/>id faciunt; in secundo, ut Lucanus: <hi rend="italic">Dum sanguis inerat dum
+						<lb/>uis materna, peregi</hi>; in quarto, ut est illud Prudentii: <hi rend="italic">Et
+					<lb/>domus et domini paribus adoleuimus annis.</hi></p>
+				</div>
+			</div>
+			<div type="chapter">
+				<pb n="145"/>
+				<div>
+					<head type="h_1"><lb/>1.</head> <head type="h_2"><hi rend="italic">Vnde metra dactilica.</hi></head> <p> Metra quaedam a pedibus sunt
+						<lb/>uocata, ut dactilica, quoniam omnes pedes dactilicos habent,
+						<lb/>ut est: <hi rend="italic">O caro candida, post breue foetida, faex es, umaris.</hi>
+					<lb/>Sic et alia a suis pedibus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>2.</head> <head type="h_2"><hi rend="italic">De exametro.</hi></head> <p> A numero pedum, ut exametrum pentametrum.
+						<lb/>Exametrum namque dicimus a numero sex pedum:
+						<lb/>constat enim praedictis tribus pedibus usque ad senarium
+						<lb/>multiplicatis. Priscianus enim dicit quoniam legitima
+						<lb/>libra constat duodecim unciis (uidelicet propter duodenarium
+						<lb/>numerum apostolorum); unciae uero constant uiginti
+						<lb/>quattuor scripulis (ob reuerentiam uiginti quattuor seniorum).
+						<lb/>Sic utique perfectus uersus sex pedibus in scansione
+						<lb/>distributis uiginti quattuor tempora debet habere, ut aequa
+						<lb/>lance penset in priori parte per duodecim tempora et totidem
+						<lb/>similiter in sequenti parte tempora retineat. Actores tamen
+						<lb/>trochaeum in fine uersus ponunt et contra praedictam
+						<lb/>rationem dicunt quoniam omnem ult &lt; i &gt; mam syllabam
+						<lb/>breuem in tertio et in ultimo pede ad uotum poetae licet
+					<lb/>producere.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>3.</head> <head type="h_2"><hi rend="italic">De pentametro.</hi></head> <p> Pentametrum appellamus a quinque
+						<lb/>pedibus. Recipit enim in prima sui parte duos pedes indiscretos,
+						<lb/>sic ut uterque possit esse dactilus uel uterque spondeus,
+						<lb/>aut primus dactilus et secundus spondeus uel primus
+						<lb/>spondeus et secundus dactilus. Quibus praepositis, sequitur
+						<lb/>syllaba sola quae pentimemeris, hoc est membrum quinti pedis,
+						<lb/>dicitur; sequentes uero duo semper debent esse dactili,
+						<lb/>quibus subiungitur syllaba, quae iuncta cum praedicta facit
+					<lb/>pedem aliquando spondeum, quandoque trochaeum.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>4.</head> <head type="h_2"><hi rend="italic">Ab inventore.</hi></head> <p> Ab inuentoribus, ut Saphica a Sapho
+					<lb/>muliere eorum inuentrice.</p>
+				</div>
+				<pb n="146"/>
+				<div>
+					<head type="h_1"><lb/>5.</head> <p>A rebus quae scribuntur metra uocabulum trahunt,
+						<lb/>ut eroicum dicitur, quo uirorum fortium res et facta narrantur.
+						<lb/>Nam eroes appellantur uiri quasi aerei et celo digni
+						<lb/>propter fortitudinem et sapientiam. Quod metrum actoritate
+						<lb/>cetera metra praecellit; unum ex omnibus tam maximis
+						<lb/>quam paruis operibus aptum, suauitatis et dulcedinis aeque
+						<lb/>cappax. Quod propter notandas eroum res eroicum dicitur,
+						<lb/>unde Oratius: <hi rend="italic">Res gestae regumque ducumque et tristia bella.</hi>
+						<lb/>Quo scribi possent numero monstrauit Homerus, qui
+					<lb/>praedicto metro scripsit, constatque praedictis tribus pedibus.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>6.</head> <head type="h_2"><hi rend="italic">De eroico.</hi></head> <p> Hoc primum Moyses Deutero &lt; no &gt; mium
+						<lb/>cecinisse probatur. Vnde apparet apud Hebraeos studium
+						<lb/>carminum fuisse priusquam apud gentiles; siquidem et Iob
+						<lb/>Moysi temporibus adaequatus est metro, dactilo spondeoque
+						<lb/>decurrit. Et sicut quidam sapiens ait: <hi rend="italic">Psalterium lirici composuere</hi>
+						<lb/>pedes; unde probatur quoniam metrica uis sacris
+					<lb/><hi rend="italic">non est incognita libris.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>7.</head> <head type="h_2"><hi rend="italic">De eligiaco.</hi></head> <p> Eligiacum interpretatur carmen miseriae
+						<lb/>ideo, quod eius modulatio conueniat miseris. Antiqui enim
+						<lb/>ephitaphia et miserias hoc metro scribebant; iuniores uero
+						<lb/>de ludis et miseriis eo scripserunt, ut Ouidius et quidam alii.
+						<lb/>Si quis tamen recte considerat, non eos super hoc reprehendi &lt; t &gt; ,
+						<lb/>quoniam omnis amor talis miseria est. Constat autem
+						<lb/>tribus pedibus assignatis, sed uersu[m] exametro et
+					<lb/>pentametro.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>8.</head> <head type="h_2"><hi rend="italic">&lt;De&gt; diuersitate uersuum.</hi></head> <p> Versus alii dicuntur consonantes,
+					<lb/>alii leonini.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>9.</head> <head type="h_2"><hi rend="italic">De consonantibus uersibus.</hi></head> <p> Consonantes dicuntur qui
+						<lb/>in principio tertii pedis et in fine ultimi aliquam consonantiam
+						<lb/>tenent, ut est illud: <hi rend="italic">Aethiopum terras iam feruida torruit
+						<lb/>aestas.</hi> In hoc etenim uersu, sicut praediximus, in principio
+					<lb/>tertii et in fine ultimi as consonat.</p>
+				</div>
+				<pb n="147"/>
+				<div>
+					<head type="h_1"><lb/>10.</head> <head type="h_2"><hi rend="italic">De leoninis.</hi></head> <p> Leonini dicuntur ad similitudinem leonis,
+						<lb/>qui totam fortitudinem et pulcritudinem specialiter in pectore
+						<lb/>et in cauda uidetur habere. Similiter isti in secundo uel
+						<lb/>tertio et in ultimo pede propter duarum uocalium armoniam
+						<lb/>in pectore et in cauda, id est in medio et in fine uersus, suam
+						<lb/>pulchritudinem notantur demonstrare, ut est: <hi rend="italic">Filius iste Dei,</hi>
+						<lb/>quem cernitis, o Galilaei, sic est uenturus mundo finem
+					<lb/><hi rend="italic">positurus.</hi> Alii caudati, alii catenati.</p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>11.</head> <head type="h_2"><hi rend="italic">De caudatis.</hi></head> <p> Caudati uidelicet in cauda similes, ut
+						<lb/>est: <hi rend="italic">Quem peperit Virgo, Deus in praesepe locatur; auro,
+					<lb/>mirra, thure magus puerum ueneratur.</hi></p>
+				</div>
+				<div>
+					<head type="h_1"><lb/>12.</head> <head type="h_2"><hi rend="italic">De catenatis.</hi></head> <p> Catenati qui ad similitudinem catenae
+						<lb/>sic iun &lt; c &gt; ti sunt, ut principium unius finis sit alterius, ut est:
+						<lb/><hi rend="italic">Non homo factus homo restaurat perdita pomo; sic Deus
+					<lb/>est et homo non homo factus homo.</hi></p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>&lt; Appendix &gt;</head>
+				<head type="h_2"><lb/><hi rend="italic">De modo declinationis secundum longam et breuem.</hi></head> <p>His
+					<lb/>itaque licet perpaucis de multitudine metrorum dictis, secundum
+					<lb/>longitudinem et breuitatem unum uersum declinemus,
+				<lb/>ut per eius formam ceteros declinare ualeamus.</p>
+				<p><lb/>Vt autem in facili et peruulgato consistamus exemplo,
+					<lb/>occurrat nobis iste:
+					<lg>
+						<l>Si deus est animus nobis ut carmina dicunt.</l>
+					</lg>
+					<lb/><hi rend="italic">D.</hi> Si quot litterarum? <hi rend="italic">M.</hi> Duarum. D. Quae uocalis, quae
+					<lb/>alia? <hi rend="italic">M.</hi> I est uocalis, s est semiuocalis. <hi rend="italic">D.</hi> Quot syllabarum?
+					<lb/><hi rend="italic">M.</hi>. Vnius. D. Ipsa quanta? <hi rend="italic">M.</hi> Longa. <hi rend="italic">D.</hi> Quomodo? M. Regula.
+					<lb/><hi rend="italic">D.</hi> Dic regulam. <hi rend="italic">M.</hi> In i omnia producuntur et cetera.
+					<pb n="148"/>
+					<lb/><hi rend="italic">D.</hi> Deus quot litterarum? <hi rend="italic">M.</hi>. Quattuor. <hi rend="italic">D.</hi> Quae uocales,
+					<lb/>quae aliae? <hi rend="italic">M.</hi> E et u sunt uocales, s est semiuocalis, d est
+					<lb/>muta. <hi rend="italic">D.</hi> Quot syllabarum? <hi rend="italic">M.</hi> Duarum. <hi rend="italic">D.</hi> Prior quanta? <hi rend="italic">M.</hi>
+					<lb/>Breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Vocali ante alteram uocalem. <hi rend="italic">D.</hi>
+					<lb/>Dic regulam. <hi rend="italic">M.</hi> Vocalis et cetera. <hi rend="italic">D.</hi> Posterior quanta? <hi rend="italic">M.</hi>
+					<lb/>Breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Regula. <hi rend="italic">D.</hi> Dic regulam. <hi rend="italic">M.</hi> In us
+				<lb/>omnia breuiantur.</p>
+				<p><lb/><hi rend="italic">D.</hi> Est quot litterarum? <hi rend="italic">M.</hi>. Trium. <hi rend="italic">D.</hi> Quae uocales, quae
+					<lb/>aliae? <hi rend="italic">M.</hi> E est uocalis, s est semiuocalis, t est muta. <hi rend="italic">D.</hi> Quot
+					<lb/>syllabarum? <hi rend="italic">M.</hi> Vnius. <hi rend="italic">D.</hi> Ipsa quanta? <hi rend="italic">M.</hi> Longa. D. Quomodo?
+					<lb/><hi rend="italic">M.</hi> Positione. <hi rend="italic">D.</hi> Quid est positio? <hi rend="italic">M.</hi> Positio est quotienscumque
+				<lb/>et cetera.</p>
+				<p><lb/><hi rend="italic">D.</hi> Animus quot litterarum? <hi rend="italic">M.</hi> Sex. <hi rend="italic">D.</hi> Quae uocales,
+					<lb/>quae aliae? <hi rend="italic">M.</hi> A, i et u sunt uocales, m et .n sunt semiuocales
+					<lb/>&lt;et&gt; liquidae, s est semiuocalis. <hi rend="italic">D.</hi> Quot syllabarum? <hi rend="italic">M.</hi>
+					<lb/>Trium. <hi rend="italic">D.</hi> Prima quanta? <hi rend="italic">M.</hi>. Breuis. <hi rend="italic">D.</hi> Quomodo? M. Exemplo.
+					<lb/><hi rend="italic">D.</hi> Dic exemplum. <hi rend="italic">M.</hi> Si deus est et cetera. <hi rend="italic">D.</hi> Media
+					<lb/>quanta? <hi rend="italic">M.</hi> Breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Correpto accentu. <hi rend="italic">D.</hi>
+					<lb/>Correptus accentus quid est? <hi rend="italic">M.</hi> Quotiens et cetera. <hi rend="italic">D.</hi> Vltima
+					<lb/>quanta? <hi rend="italic">M.</hi>. In hoc loco longa positione, sed naturaliter est
+					<lb/>breuis regula. <hi rend="italic">D.</hi> Dic regulam. <hi rend="italic">M.</hi> In us omnia, ut superius dictum est.
+					<lb/><hi rend="italic">D.</hi> Nobis quot litterarum? <hi rend="italic">M.</hi> Quinque. <hi rend="italic">D.</hi> Quae uocales,
+					<lb/>quae aliae? <hi rend="italic">M.</hi>. O et i sunt uocales, n et s sunt semiuocales,
+					<lb/>b est muta. <hi rend="italic">D.</hi> Quot syllabarum? <hi rend="italic">M.</hi> Duarum. D. Prior quanta?
+					<lb/><hi rend="italic">M.</hi> Longa. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Exemplo. <hi rend="italic">D.</hi>. Dic exemplum.
+					<lb/><hi rend="italic">M.</hi> Si deus et cetera.
+					<lb/><hi rend="italic">D.</hi> Vt quot litterarum? <hi rend="italic">M.</hi> Duarum. <hi rend="italic">D.</hi> Quae uocalis,
+					<lb/>quae alia? <hi rend="italic">M.</hi> V est uocalis, t est muta. <hi rend="italic">D.</hi> Quot syllabarum?
+					<lb/><hi rend="italic">M.</hi> Vnius. <hi rend="italic">D.</hi> Ipsa quanta? <hi rend="italic">M.</hi> Hic longa posìtione, sed naturaliter
+					<lb/>breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Regula. <hi rend="italic">D.</hi> Dic regulam. <hi rend="italic">M.</hi>
+				<lb/>In t omnia, ut superius.</p>
+				<p><lb/><hi rend="italic">D.</hi> Carmina quot litterarum? <hi rend="italic">M.</hi> Septem. <hi rend="italic">D.</hi> Quae uocales,
+					<lb/>quae aliae? <hi rend="italic">M.</hi> A bis posita et i sunt uocales, r m n sunt
+					<pb n="149"/>
+					<lb/>semiuocales et liquidae, c est muta. <hi rend="italic">D.</hi> Quot syllabarum? <hi rend="italic">M.</hi>
+					<lb/>Trium. <hi rend="italic">D.</hi> Prima quanta? <hi rend="italic">M.</hi> Longa. <hi rend="italic">D.</hi> Quomodo? M. Positione.
+					<lb/><hi rend="italic">D.</hi> Quid est positio? <hi rend="italic">M.</hi> Quotienscumque. <hi rend="italic">D.</hi>. Media
+					<lb/>quanta? <hi rend="italic">M.</hi> Breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Correpto accentu. <hi rend="italic">D.</hi>
+					<lb/>Correptus accentus quid est? <hi rend="italic">M.</hi> Quotienscumque. <hi rend="italic">D.</hi> Vltima
+					<lb/>quanta? <hi rend="italic">M.</hi>Breuis. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Regula. <hi rend="italic">D.</hi> Dic regula &lt; m &gt; .
+					<lb/><hi rend="italic">M.</hi> Omnis dictio desinens in a.
+					<lb/><hi rend="italic">D.</hi> Dicunt quot syllabarum? <hi rend="italic">M.</hi> Duarum. <hi rend="italic">D.</hi> Prior quanta?
+					<lb/><hi rend="italic">M.</hi> Longa. <hi rend="italic">D.</hi> Quomodo? <hi rend="italic">M.</hi> Exemplo. <hi rend="italic">D.</hi> Dic exemplum.
+					<lb/><hi rend="italic">M.</hi> Si deus et cetera. <hi rend="italic">D.</hi>. Vltima quanta? <hi rend="italic">M.</hi> Longa positione.
+					<lb/><hi rend="italic">D.</hi> Quid est positio? <hi rend="italic">M.</hi> Quotienscumque duae.
+					<lb/><hi rend="italic">De pedibus.</hi>&lt;<hi rend="italic">D.</hi>.&gt; Si deus quis pes? <hi rend="italic">M.</hi> Dactilus. <hi rend="italic">D.</hi>
+					<lb/>Dacti[l]lus unde constat? <hi rend="italic">M.</hi> Ex una longa et duabus breuibus
+					<lb/>temporum quattuor, ut Menalus. <hi rend="italic">D.</hi> Dactilus unde dicitur?
+					<lb/><hi rend="italic">M.</hi> A digito, quoniam sicut et cetera. <hi rend="italic">D.</hi> Dactilus in quibus
+					<lb/>locis sedere ualet? <hi rend="italic">M.</hi> In omnibus nisi et cetera. <hi rend="italic">D.</hi> Est
+				<lb/>ani quis pes? &lt;<hi rend="italic">M.</hi>&gt; Dactilus.</p>
+				<p><lb/>&lt;<hi rend="italic">D.</hi> &gt; Mus no quis pes? <hi rend="italic">M.</hi> Spondeus. <hi rend="italic">D.</hi> Spondeus unde
+					<lb/>constat? <hi rend="italic">M.</hi> Ex duabus longis syllabis temporum quattuor, ut
+					<lb/>aestas. <hi rend="italic">D.</hi> Spondeus quare dicitur? <hi rend="italic">M.</hi> Quia tractim et cetera.
+					<lb/><hi rend="italic">D.</hi> In quibus locis sedere ualet? <hi rend="italic">M.</hi> In omnibus nisi in quinto,
+				<lb/>unde est: spondeus quintam.</p>
+				<p><lb/><hi rend="italic">D.</hi> Bis ut quis pes? <hi rend="italic">M.</hi> Hic spo &lt; n &gt; deus, sed naturaliter
+					<lb/>trochaeus. <hi rend="italic">D.</hi> Trochaeus unde constat? <hi rend="italic">M.</hi> Ex una longa
+					<lb/>et altera breui temporum trium, ut meta. <hi rend="italic">D.</hi> Trochaeus quare
+					<lb/>dictus est? <hi rend="italic">M.</hi> Eo quod celerem, ut superius. <hi rend="italic">D.</hi> In quibus
+					<lb/>locis sedere ualet? <hi rend="italic">M.</hi> In sexto tantum. <hi rend="italic">D.</hi> Vnde est: trochaeus
+				<lb/>caudam, ut supra.</p>
+				<p><lb/>Haec itaque de notitia longitudinis et breuitatis ad praesens
+					<lb/>sufficiant. Qui uero plura inde scire uoluerit, maiorum
+				<lb/>dicta quaerat et ea diligenter legat.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

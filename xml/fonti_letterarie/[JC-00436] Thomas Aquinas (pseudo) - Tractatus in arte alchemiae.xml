@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Tractatus in arte alchemiae</title>
+				<author>Thomas Aquinas (pseudo)</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>P. Cortesi</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2158" unit="words">Parole: 2158</measure>
+				<measure quantity="12428" unit="characters_without_spaces">Caratteri (spazi esclusi): 12428</measure>
+				<measure quantity="14327" unit="characters_witht_spaces">Caratteri (spazi inclusi): 14327</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-08-08">08/08/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Filosofia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell' opera: forse dopo il 1351/52
+					Parole: 2204
+					Caratteri: 12602
+					Il testo (pp. 55-77) è stato pubblicato con la traduzione a fronte (testo latino alle pagine pari)
+					Correzioni al testo:
+					p. 60 rubedinis] rubedis <hi rend="italic">ed.</hi>
+				GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Tomasso d'Aquino</author>
+						<title level="m">L'alchimia ovvero Trattato della pietra filosofale</title>
+						<editor>P. Cortesi</editor>
+						<imprint>
+							<publisher>Tascabili economici Newton</publisher>
+							<pubPlace>Roma</pubPlace>
+							<date>1996</date>
+							<biblScope unit="page">55-77</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinit&#224; Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' &#232; stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola &#232; sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola &#232; stata registrata tutta nella riga in cui essa termina.
+						&#200; stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Filosofia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1301/1400">XIV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="55"/>
+		<div>
+			<head><lb/>Tractatus D. Thomae de Aquino datus fratri
+			<lb/>Reinaldo in arte Alchemiae</head>
+			<pb n="56"/>
+			<div>
+				<head><lb/>[Tuis rogationibus assiduis]</head>
+				<p><lb/>Tuis rogationibus assiduis, carissime frater, superatus tractatum
+					<lb/>brevem de arte nostra, certas regulas operationis leves et efficaces,
+					<lb/>et tincturas verissimas continentem, propono tibi praepingere
+					<lb/>in octo capitula partium, volens te in tribus habere precatum.
+					<lb/>Primo quod non cures multum de verbis Philosophorum modernorum
+					<lb/>et antiquorum in hac scientia loquentium, quoniam in
+					<lb/>capacitate intellectus et in demonstratione experimentali, tota
+					<lb/>ars Alchemica sedem sibi constituit Philosophi vero celare volentes
+					<lb/>scientiae veritatem, quasi omnia figurative locuti sunt.
+					<lb/>Secundo noli pluralitates rerum appreciare, nec compositiones
+					<lb/>diversarum specierum, nam natura nunquam nisi sibi simile producit,
+					<lb/>quamvis ex equo et asino mulus generetur productione imperfecta,
+					<lb/>sicut quidam scientiam imitantes, ex pluribus quandam
+				<lb/>multiplicationem producunt.</p>
+				<p><lb/>Tertio ne sis garrulus, sed pone ori tuo custodiam, et ut filius sapientum,
+				<lb/>margaritas ante porcos non proiicies.</p>
+				<p><lb/>Cum Deo tuo pacem habendo finem ordinatum in opere tuo
+					<lb/>semper in mente praefige. Credas pro certo, quod si dictas regulas
+					<lb/>mihi a D. Alberto traditas, ante oculos habueris, non oportebit
+					<lb/>te Reges et Magnates quaerere, sed Reges et Magnates omnem
+					<lb/>honorem tibi impendent. Suspectus enim omnis hac arte
+					<lb/>serviens Regibus et Praelatis, cum ipse non solum iis subvenire
+					<lb/>potest verum omnibus indigentibus gradatim, quod autem gratis
+					<lb/>accepit, pro pretio nulli in aeternum praestare debet.
+					<lb/>Sint ergo regulae praefatae in corde tuo secreto signaculo indubitabiliter
+					<lb/>signatae et sigillatae, nam in superiori libro vulgaribus
+					<lb/>tradito, philosophice locutus sum, tibi autem et filio secretissimo
+				<lb/>apertius de tua taciturnitate confisus scripsi.</p>
+			</div>
+			<pb n="58"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT II</head>
+				<head type="h_2"><lb/>De operatione</head>
+				<p><lb/>Quoniam secundum Avicennam in epistola ad Assam Regem:
+					<lb/>Nos quaerimus substantiam veram et unam facere ex pluribus
+					<lb/>coactam fixam, quae super ignem posita ipsum sustineat, quae
+					<lb/>erit penetrativa et ingressiva, tingens Mercurium et alia corpora
+					<lb/>verissima tinctura cum pondere debito, cuius tincturae nobilitas
+					<lb/>mundi thesaurum excedit universum. Nam una res nostra facit
+					<lb/>esse tria, tria duo, duo unum, finaliter existunt. Quomodo tandem
+					<lb/>sit substantia una ut dicit Avicenna, habere oportet patientiam
+					<lb/>moram et instrumentum. Patientiam, quia secundum Gebrum
+					<lb/>festinantia a diabolo est; ideo qui patientiam non habet, ab
+					<lb/>operatione manuali suspendat. Mora est etiam necessaria, quia
+					<lb/>omnis actio naturalis, quam sequitur ars nostra, suum habet modum
+					<lb/>et tempus determinatum. Instrumenta vero sunt necessaria,
+					<lb/>non tamen multa prout in sequentibus patebit quoniam opus
+					<lb/>nostrum in una re, uno vase, una via, secundum Hermetem, et
+					<lb/>una operatione perficitur. Quae quidem medicina licet sit ex
+					<lb/>pluribus aggregata, est tamen una sola materia; nulla alia extranea
+					<lb/>indigens, nisi fermento albo vel rubeo. Quare est pura naturalis
+					<lb/>in nullo unquam alio opere posita, ex quo in regimine operis,
+				<lb/>diversi colores secundum tempora apparebunt.</p>
+				<p><lb/>In primis etiam diebus oportet mane surgere, et videre si vinea
+					<lb/>floruit, in subsequentibus corvinum transmutatum in solitudine
+					<lb/>caeci, et multiplices colores in quibus omnibus intensus color albus
+					<lb/>est spectandus, quo habito, expectemus sine quocunque errore
+					<lb/>Regem nostrum, elixir vel pulverem sine tactu simplicem,
+					<lb/>qui lapis habet tot nomina quot sunt res in mundo: sed ut breviter
+					<lb/>me expediam, materia nostra sive magnesia est argentum vivum
+					<lb/>nostrum Minerale, urina puerorum duodecim annorum debite
+					<lb/>praeparata, quae statim venit de vena, et nunquam fuit in
+					<lb/>aliquo opere magno quod scripsi vulgaribus, notavi terram Hispanicam
+					<lb/>vel antimonium, non tamen hic nota argentum vivum
+					<lb/>commune, quo aliqui multiplicatores utuntur et sophistae, ex
+					<lb/>quo si aliquid sit, dicitur solum moltiplicatio, modicum tamen
+					<lb/>tingit respectu magisterii, quamvis dabit largas expensas, et si
+					<lb/>placebit laborare in illo, invenies in illo veritatem, sed requirit
+					<pb n="60"/>
+					<lb/>longam digestionem. Sequere ergo Divum Albertum Magnum
+					<lb/>magistrum meum, et labora cum argento vivo minerali, et ipsum
+					<lb/>est operis nostri perfectivum ad ustionis, salvificativum et fusionis
+					<lb/>effectivum, cum enim figitur, est tinctura albedinis vel rubedinis
+					<lb/>uberrimae refectionis, fulgidi splendoris, et non recedit a
+					<lb/>commixto quod est amicabile metallis et medium coniungendi
+					<lb/>tincturas, quoniam commiscetur cum eis in prufundum ingrediens,
+				<lb/>et penetrans naturaliter, quod est, adhaeret eis .</p>
+			</div>
+			<pb n="62"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT III</head>
+				<head type="h_2"><lb/>De Mercurii compositione et eius separatione</head>
+				<p><lb/>Et quamvis ex Mercurio nostro solo opus nostrum perficitur, indiget
+					<lb/>tamen fermento rubeo, vel albo, miscetur ergo facilius cum
+					<lb/>Sole et Luna, et sit unum cum eo, cum ista duo corpora magis
+					<lb/>participent suam naturam, ergo sunt aliis perfectiora.
+					<lb/>Ratio est quia corpora sunt maioris perfectionis quae plus de
+					<lb/>Mercurio continent. Sol ergo et Luna plus de eo continentes
+					<lb/>commiscentur ad rubeum et album, figuntur in igne stando,
+					<lb/>quoniam ipse Mercurius solus est ille qui perficit opus, et in
+					<lb/>illo invenimus omnia quibus ad opus nostrum indigemus, cui
+					<lb/>nihil extraneum debet adiungi, Sol et Luna sibi non sunt extranea,
+					<lb/>quoniam ipsa rediguntur in operis inceptione in suam primam
+					<lb/>naturam id est Mercurium, quare ab illo sumserunt suam
+				<lb/>originem.</p>
+				<p><lb/>Quidam autem nituntur ex solo Mercurio, vel simplici Magnesia
+					<lb/>complere opus suum, lavantes eum in aceto acerrimo, coquentes
+					<lb/>in oleo, sublimando, assando, calcinando, destillando,
+					<lb/>quintam essentiam extrahendo, cum elementis et aliis infinitis
+					<lb/>martyrizationibus ipsum Mercurium torquentes, et suis operationibus
+					<lb/>credentes aliqui magni ex eis inveniri, finaliter modicum
+				<lb/>lucrum inveniunt.</p>
+				<p><lb/>Sed crede mihi, fili, quod totum magisterium nostrum sit solum
+					<lb/>in regimine ignis ex capacitate industriae. Nos enim nihil operamur,
+					<lb/>sed virtus ignis bene recti lapidem nostrum operatur modico
+					<lb/>labore, et paucis expensis, puta quod lapis noster cum fuerit in
+					<lb/>suam primam naturam, scilicet in primam aquam vel lac virginis
+					<lb/>vel caudam draconis semel solutus, tunc ipse lapis seipsum calcinat,
+					<lb/>sublimat, destillat, reducit, lavat, congelat, et virtute ignis
+					<lb/>proportionati, seipsum perficit in unico vase sine alterius manuali
+				<lb/>operatione.</p>
+				<p><lb/>Agnosce ergo fili, quomodo philosophi de manualibus operationibus
+					<lb/>figurative locuti sunt, ut ergo securus sis de Mercurii nostri
+					<lb/>purgatione, vera docebo operatione Mercurium nostrum
+					<lb/>communem levissime praeparari. Recipe ergo Mercurium mineralem
+					<lb/>sive terram Hispanicam, Antimonium nostrum, vel terram
+					<lb/>nigram oculosam, quae omnia idem sunt non inferiora sui generis,
+					<pb n="64"/>
+					<lb/>et qui prius in nullo opere sit positus, libras quinque et viginti
+					<lb/>aut plus, et fac ipsum transire per pannum lineum spissum tribus
+					<lb/>vicibus, deinde fac ipsum transire per corium leporis, et ultimo
+					<lb/>fac ipsum transire per pannum lineum spissum, et haec est lotio
+					<lb/>vera, et attende si aliquid remanet in corio de eius grossitie, seu
+					<lb/>aliqua spissitudo sordiciei vel faetus, tunc ipse Mercurius non valet
+					<lb/>pro opere nostro. Sin autem nihil appareat tibi bonus est.
+					<lb/>Nota quod cum isto Mercurio, nullo sibi addito, potest utrumque
+				<lb/>opus perfici.</p>
+			</div>
+			<pb n="66"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT IV</head>
+				<head type="h_2"><lb/>De modo amalgamandi</head>
+				<p><lb/>Quoniam ex solo Mercurio nullo extraneo addito opus nostrum
+					<lb/>perficitur, ideo de modo componendi Amalgama breviter dictum
+				<lb/>est.</p>
+				<p><lb/>Quidam vero hic male intelligunt philosophos, quia credunt ex
+					<lb/>solo ipso Mercurio sine sorore vel compari eius, opus perficere.
+					<lb/>Ego autem tibi dico secure, quod cum Mercurio et compari eius
+					<lb/>labores et Mercurio nihil extranei addas, et scias quod aurum et
+					<lb/>argentum non sunt extranea Mercurio, imo vicinius participant
+					<lb/>suam naturam quam alia quaevis corpora. Ideo reducta in suam
+					<lb/>primam naturam, dicuntur sorores et compares Mercurii, ex sua
+					<lb/>compositione et simul fixione, lac virginis emanabit, si locum
+				<lb/>istum clare intellexeris.</p>
+				<p><lb/>Et si cum Mercurio nulla re extranea addita operatus fueris,
+				<lb/>consequeris optatum.</p>
+			</div>
+			<pb n="68"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT V</head>
+				<head type="h_2"><lb/>De compositione Solis et Mercurii</head>
+				<p><lb/>Recipe solis depurati communis, id est, in igne calefacti, quia
+					<lb/>fermentum rubedinis est, uncias duas, et incide in frusta parva
+					<lb/>cum forcipe, addito Mercurii uncias decem et quatuor, et fac
+					<lb/>Mercurium fumigare in tegula, et solve meum Solem et move
+					<lb/>cum baculo ligneo, donec Sol bene solvatur et misceatur, et tunc
+					<lb/>totum funde in aquam claram, et in una scutella vitrea vel lapidea,
+					<lb/>et lava saepius tergendo et mutando tam diu, quod nigredo
+					<lb/>tota ab aqua recedat, tunc si advertere vis, vox turturis audita est
+					<lb/>in terra nostra, qua mundata fac amalgama per corium transire
+					<lb/>superius bene ligatum, exprimendo totum amalgama absque unciis
+					<lb/>duabus, et remanebunt in corio unciae decem et quatuor, et
+					<lb/>illae quatuordecim unciae sunt res aptae ad nostram operationem:
+					<lb/>et attende quod debent esse nec magis nec minus quam unciae
+					<lb/>duae totius materiae in corio remanentis. Si esset plus diminue,
+				<lb/>si esset minus adde.</p>
+				<p><lb/>Et istas duas uncias expressas, quae dicuntur lac virginis, reserva
+					<lb/>ad secundam operationem. Ponatur ergo materia de corio in
+					<lb/>vitrum, et vitrum in furnellum superius descriptum, et lampade
+					<lb/>accensa infra, ite continue ardendo nocte dieque quod nunquam
+					<lb/>extinguatur, et flamma semel inclusum recto tramite percutiat,
+					<lb/>non tamen ollam tangat omnibus partibus furnelli bene lutatis similiter.
+					<lb/>Si autem post mensem vel duos inspicere volueris flores vivos et
+					<lb/>colores principales, puta nigrum, album, citrinum, et rubeum,
+					<lb/>tunc sine aliqua operatione manuum tuarum, regimine solius
+					<lb/>ignis, manifestum erit absconditum et absconditum manifestum
+				<lb/>sit.</p>
+				<p><lb/>Quare materia nostra seipsam ad perfectum elixir perducit,
+					<lb/>vertendo se in pulverem subtilissimum, qui dicitur terra mortua,
+					<lb/>vel homo mortuus in sepulcro, et anima quasi recessit. Permitte
+					<lb/>ergo stare tunc a principio usque ad sex et viginti septimanas, et
+					<lb/>grossum tunc factum est gracile, leve ponderosum, asperum
+					<lb/>molle, et dulce amarum, conversione naturarum, virtute ignis
+				<lb/>occulte completa.</p>
+				<pb n="70"/>
+				<p><lb/>Cum ergo videris pulveres tuos exsiccatos, et si probam et expensas
+					<lb/>desideras, tingent: postea docebo unam vel duas partes,
+					<lb/>quoniam una pars operis nostri solum septem tingit Mercurii
+				<lb/>bene purgati.</p>
+			</div>
+			<pb n="72"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT VI</head>
+				<head type="h_2"><lb/>De amalgamatione ad album</head>
+				<p><lb/>Eodem modo processus sit ad album, id est lunam, hoc est fermentum
+					<lb/>albedinis, cum septem partibus Mercurii purgati misqueris
+				<lb/>in eodem modo sicut et rubeum fecisti procedas.</p>
+				<p><lb/>Nam in omni opere albo, nihil intrat nisi album, et in omni opere
+					<lb/>rubeo, nil nisi rubeum intrare debet: ex eadem enim aqua nostra
+					<lb/>sit rubeum et album, diverso tamen fermento addito et tempore
+					<lb/>supradicto elapso, potest tingere ad album super Mercurium,
+				<lb/>sicut ad rubeum fecisti.</p>
+				<p><lb/>Nota tamen quod Argentum foliatum in ista materia est magis
+					<lb/>utile quam argentum massale, quia habet in se mixturam quarundam
+					<lb/>saecum Mercurii, et debet amalgamari cum Mercurio
+					<lb/>frigido, et non calido. Alioquin hoc operando maxime errant,
+					<lb/>solventes amalgama in aqua forti ad ipsum purgandum, et si volunt
+					<lb/>respicere naturam compositionis aquae fortis, ipsa per hoc
+				<lb/>magis destruitur.</p>
+				<p><lb/>Aliqui volunt etiam laborare cum sole vel luna minerali, secundum
+					<lb/>regulas huius libri, et errant, dicentes quod sol nullam habeat
+					<lb/>humiditatem, et calidus in manifesto, et ideo optimus, imo
+					<lb/>quinta essentia extrahitur subtili ignis ingenio in vase circulationis,
+					<lb/>quod dicitur pellicanus ab illo. Sol autem mineralis et luna
+					<lb/>habent secum permixtam tantam fecis immunditiem, quod eorum
+					<lb/>purificatio ad nostrum valens, non esset opus mulierum et
+					<lb/>lusus puerorum, sed potius labores fortissimi viri senioris, solvendo,
+				<lb/>calcinando, et aliis operationibus magnae artis insistendo.</p>
+			</div>
+			<pb n="74"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT VII</head>
+				<head type="h_2"><lb/>De secunda et tertia operatione</head>
+				<p><lb/>Finito primo isto opere ad secundam practicam procedamus.
+					<lb/>Ubi corpus primi operis nostri cum cauda draconis, id est lacte
+					<lb/>virginis, additis Mercurio novo septem partibus super materia
+					<lb/>remanente, secundum pondus pulverum, Mercurio dico purificato
+					<lb/>et mundificato, fac transire per corium, et retinere septem
+					<lb/>partes totius, lava et impone vitro et furnello, ut in primo opere
+					<lb/>fecisti, per totum regendo tali tempore vel circa, quousque videris
+					<lb/>pulveres iterum factos, quod iterum excipe vel extrahe, et si
+					<lb/>vis tinge, et isti pulveres sunt multo subtiliores primis, quare magis
+					<lb/>digesti sunt, eo quod una pars tingit septies septem in Elixir.
+					<lb/>Tunc procedas ad tertiam practicam, sicut in prima et secunda
+					<lb/>operatione fecisti; et pone super pondus pulveris secundi operis
+					<lb/>Mercurii purgati partes septem, et pone in corio, ita quod septem
+					<lb/>partes in totum remanebant ut prius. Et iterum coque et fac
+					<lb/>pulveres, qui quidem pulveres subtilissimi sunt, quorum uncia
+					<lb/>una tingit partes septies quadraginta novem, quae sunt trecentae
+				<lb/>et quadraginta tres partes, et hoc super Mercurio.</p>
+				<p><lb/>Ratio est quia quanto plus digeritur medicina nostra, tanto subtilior
+					<lb/>efficitur, et quanto subtilior erit, tanto penetrabilior, et
+					<lb/>quanto penetrabilior tanto plus ingrediendo tingit. Pro fine
+					<lb/>huius notandum, quod si non habes argentum vivum minerale,
+					<lb/>secure poteris laborare cum Mercurio communi, quia quamvis
+				<lb/>non tantum valeat, sicut iste, dat tamen largas expensas.</p>
+			</div>
+			<pb n="76"/>
+			<div>
+				<head type="h_1"><lb/>CAPUT VIII</head>
+				<head type="h_2"><lb/>De modo operandi in materia seu Mercurio</head>
+				<p><lb/>Cum autem tingere vis Mercurium. Recipe tegulam aurifabrorum
+					<lb/>et line interius modicum cum sevo, et pone in eam secundum
+					<lb/>proportionem Medicinae super lentissimum ignem, et cum
+					<lb/>Mercurius ceperit fumigare, proiice intus medicinam tuam in
+					<lb/>cera munda clausam, vel in papyro, et habeas carbonem ignitum
+					<lb/>fortem et latum praeparatum ad hoc et pone super os tegulae et
+					<lb/>da fortem ignem, et cum totum liquefactum fuerit, proiice in
+					<lb/>cannam cum sevo linitam, et habebis solem et lunam finissimam,
+				<lb/>secundum fermenti additionem.</p>
+				<p><lb/>Si autem medicinam tuam multiplicare volueris, in fimo equino
+					<lb/>hoc fac, sicut te oretenus docui, ut scis, quod tibi non scribo, quoniam
+					<lb/>peccatum esset hoc secretum viris secularibus revelare, qui
+					<lb/>magis hanc scientiam propter vanitatem, quam propter debitum
+					<lb/>finem et Dei honorem quaerunt, cui honor et gloria in saecula
+				<lb/>saeculorum. Amen.</p>
+				<p><lb/>Verum opus illud quod vulgaribus stylo satis Physico conscripsi,
+					<lb/>a D. Alberto semel pro semper laborare vidi de Antimonio, et de
+				<lb/>terra Hispanica tibi nota.</p>
+				<p><lb/>Sed quia magis lucri et temporis indebita expensio, consului tibi
+					<lb/>levius operandum, illud breve opus conscripsi in quo nullus error,
+					<lb/>modicae expensae levitas operis, brevitas temporis, et finis
+					<lb/>vere desideratus. Ex quo tu et omnes tui sine falso percipietis.
+					<lb/>Noli ergo te, carissime, cum maiori opere occupare, quia propter
+					<lb/>salutis, et Christi praedicationis officium, et lucrando tempus
+					<lb/>magis debes attendere divitiis spiritualibus, quam lucris temporalibus
+				<lb/>inhiare.</p>
+				<p><lb/>Explicit tractatus D. Thomae de Aquino de multiplicatione artis,
+					<lb/>editus et datus fratri et socio suo fratri Reinaldo pro thesauro
+				<lb/>secretissimo.</p>
+				<p><lb/>FINIS</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

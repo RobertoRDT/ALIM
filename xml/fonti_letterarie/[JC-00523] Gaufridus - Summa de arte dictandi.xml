@@ -1,0 +1,1172 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Summa de arte dictandi</title>
+				<author>Gaufridus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>V. Licitra</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7725" unit="words">Parole: 7725</measure>
+				<measure quantity="48343" unit="characters_without_spaces">Caratteri (spazi esclusi): 48343</measure>
+				<measure quantity="55184" unit="characters_witht_spaces">Caratteri (spazi inclusi): 55184</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-06-10">10/06/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Correzioni al testo:&#13;
+III,4 orphanata]frphanata ed.&#13;
+In corsivo le autocitazioni e gli esempi.&#13;
+</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>V. Licitra</editor>
+						<title>La Summa de arte dictandi di maestro Goffredo</title>
+					</analytic>
+					<monogr>
+						<title level="j">Studi medievali s. III</title>
+						<imprint>
+							<date>1966</date>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="page">865-913</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="885"/>
+		<div type="chapter">
+			<head><lb/>PROLOGUS</head>
+			<lg>
+				<l>Sepe mihi dubiam traxit sententia mentem</l>
+				<l>Taxauique diu mecum sociisne ualerem</l>
+				<l>Dictandi reserare uiam: set me titubantem</l>
+				<l>Vester cogit amor tanto seruire labori.</l>
+				<l n="5">Ergo diu trepidus, uix tandem ueste pudoris</l>
+				<l>Abiecta, uobis referam quo sidere uestrum</l>
+				<l>Dictamen lucere queat, quo clausula possit</l>
+				<l>Lasciuire gradu, quis sit dictaminis ordo,</l>
+				<l>Que partes, ubi fessa suum distinctio sistat</l>
+				<l n="10">Vel remoretur iter, que sint connubia uocum,</l>
+				<l>Et quibus auxiliis uerbi redimatur egestas.</l>
+				<l>Tabescens igitur liuor macrescat in euum,</l>
+				<l>Nec presens corrodat opus, nec clara lituret</l>
+				<l>Dictis dicta suis, nec uerbis uerba uenenet,</l>
+				<l n="15">Nec pudeat quosdam per opem dictaminis huius</l>
+				<l>Dictamen reparare suum disiunctaque uerba</l>
+				<l>Iungere et exangues quasi uiuificare loquelas.</l>
+				<l>Ne tamen auditum prolixa prohemia ledant,</l>
+				<l>Hic metris precludo uiam, museque quietem</l>
+				<l n="20">Largior et faciles ad cetera dirigo cursus.</l>
+			</lg>
+			<div type="section">
+				<head><lb/>1. QUID SIT DICTAMEN.</head>
+				<p><lb/>Dictamen est orationum series perfectarum interuallis intercisa distantibus,
+					<lb/>nullis metrorum legibus obligata. Singula in hac diffinitione operantur.
+					<lb/>Per hoc quod dicit <hi rend="italic">perfectarum orationum series</hi>, excludo imperfectas
+					<lb/>orationes, que licet ad dictamen faciant, illud tamen non perficiunt.
+					<lb/>Per hoc quod sequitur <hi rend="italic">interuallis intercisa distantibus</hi>, ostenditur
+					<lb/>quod dictamen cum distinctione procedere debet et punctatim.
+					<lb/>Per hoc quod annectitur <hi rend="italic">nullis metrorum legibus obligata</hi>, uersus et
+					<lb/>rithmos excipio, qui sub lege metrica cohercentur. Nam, si uersus
+					<lb/>et rithmi legi dictaminum subiacerent, tunc uersificari dictare et uersificator
+					<pb n="886"/>
+					<lb/>dictator, quod absurdum est, diceretur. Dictaminum aliud
+					<lb/>epistolare, aliud non. De non epistolari nichil ad presens. De epistolari
+					<lb/>procedamus. Epistolare dictamen est idem quod epistola. Epistola est
+					<lb/>libellus absenti destinatus persone, quandoque salutationem continens,
+				<lb/>quandoque contrarium, semper affectum denuntians destinantis.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2. QUOT SINT PARTES EPISTOLE.</head>
+				<p><lb/>Secundum scolastice consuetudinis disciplinam, quatuor sunt partes
+					<lb/>epistole: salutatio, exordium, narratio et conclusio. Salutatio autem
+					<lb/>dicitur pars epistole, non quia semper in epistola ueniat, set quia in
+					<lb/>epistola solet frequentius euenire. Qui autem stilum romane curie
+					<lb/>profitentur, aut exordium abiciunt, aut in ipso narrationis ingressu tam
+					<lb/>curialiter implicant, ut non per se subsistere, set narrationis pars quodammodo
+					<lb/>uideatur. Nos igitur, de singulis partibus epistole prosequentes,
+					<lb/>primo quid sit salutatio uideamus. Est autem salutatio limen epistole, personam
+					<lb/>mittentis et cui mittitur continens nominatim. Contingit interdum
+					<lb/>quod nomen appellatiuum cum nomine adiectiuo ciuitatis designaturo,
+					<lb/>uel cuiuslibet alterius loci, uim proprii nominis optinet in salutatione,
+					<lb/>ut hoc: <hi rend="italic">Populus bononiensis florentine potestati salutem.</hi> Et quoniam
+					<lb/>omnis salutatio quasi trahit originem a persona, primo uideamus
+					<lb/>quid sit in hac facultate persona, secundo que sit diuersitas personarum,
+					<lb/>tercio quibus personis salutatio debeatur et quibus non, quarto que persone
+					<lb/>quibus personis debeant in salutatione preponi, quinto et ultimo quam diuersitatem
+					<lb/>in diuersis generet thematibus diuersitas personarum. Est enim
+					<lb/>in hac facultate persona rationabilis creatura rationem habens in habitu
+					<lb/>et in usu. Per hoc quod dico <hi rend="italic">rationabilis creatura</hi>, excludo pecudem et
+					<lb/>omne aliud aliter ab homine. Non enim dirigitur salutatio ab homine
+					<lb/>usque ad pecus, sed tantum ab homine ad hominem, nisi quis uelit prosopopeia
+					<lb/>uti. Per hoc quod dicitur <hi rend="italic">rationem habens in habitu et in usu</hi>,
+					<lb/>excludo infantes et furiosos, quorum uoluntas in manu tutorum uel
+				<lb/>curatorum est, et ideo nulla solet eis epistola destinari.</p>
+			</div>
+			<div type="section">
+				<head><lb/>3. DE DIVERSITATE PERSONARUM.</head>
+				<p><lb/>Personarum autem alie sunt hostiles, alie non. Hostis hosti non
+					<lb/>supplicat uel uix supplicat, sibique salutationem non destinat,
+					<lb/>quia sese mutuis rancoribus persecuntur. Quibus autem circumlocutionibus
+					<pb n="887"/>
+					<lb/>hostes inuicem coutantur, per tale patefiat exemplum: <hi rend="italic">Philippus
+					<lb/>Dei gratia Rex Francorum procuratori Sathane Saladino in laqueos
+					<lb/>incidere quos tetendit.</hi> Vel sic: <hi rend="italic">Salutem quam meruit.</hi> Vel sic: <hi rend="italic">Iram
+					<lb/>Dei quam prouocat inuenire.</hi> Vel sic: <hi rend="italic">Non aue salutiferum, set ue mortiferum.</hi>
+					<lb/>Vel sic: <hi rend="italic">Eterne calamitatis augmentum.</hi> Vel sic: <hi rend="italic">Eternam per
+					<lb/>antifrasim sospitatem.</hi> Vel sic: <hi rend="italic">Quidquid lupus ouicule.</hi> Vel: <hi rend="italic">Quidquid
+					<lb/>accipiter turturi uel columbe.</hi> Et quoniam in maledicendo quantumlibet
+					<lb/>dociles sumus, et semper procliuior usus in peiora datur, hoc de hostili
+					<lb/>salutatione sufficiat prelibasse. Nunc de personis non hostilibus prosequamur,
+					<lb/>unde iterum talis facienda est diuisio personarum. Personarum
+					<lb/>alie humiles, alie mediocres et alie sublimes. De humilibus primo
+					<lb/>per ordinem prosequamur, tali regula prelibata. Dignior persona
+					<lb/>indigniori preponitur; si pari gaudeant dignitate, mittens locum ultimum
+					<lb/>sortiatur. Et quia humilitatis est amica rudis simplicitas rusticorum,
+				<lb/>de illorum salutationibus tale ponamus exemplum.</p>
+			</div>
+			<div type="section">
+				<head><lb/>4. SALUTATIO RUSTICORUM.</head>
+				<p><lb/><hi rend="italic">Coridon nobilissimus rusticorum suo compari Melibeo salutem et ubertate
+					<lb/>lactis et fecunditate pecorum feliciter abundare.</hi> Vel sic: <hi rend="italic">Salutem et de
+					<lb/>lucro captando et de crastino cogitare.</hi> Vel sic: <hi rend="italic">Pratis et noualibus curam
+					<lb/>iugiter adhibere.</hi> Vel sic: <hi rend="italic">Tantis abundare successibus, quod uniuersitas
+					<lb/>inuideat rusticorum.</hi> Vel sic: <hi rend="italic">Fetum et multitudinem pecorum gregem
+					<lb/>uincere Poliphemi.</hi> Humilitatem rusticorum ueloci pede transiuimus:
+					<lb/>nunc ad mediocres personas redeamus. Et quia inter mediocres
+					<lb/>personas tam laici quam clerici locum habent, interdum de laicis utpote
+					<lb/>inferioribus primo loco dicendum esset, nisi lenta orationum progressio
+					<lb/>et sompnolentiam induceret et ob suam tarditatem auditorum
+				<lb/>beniuolentiam sibi tardius compararet.</p>
+			</div>
+			<div type="section">
+				<head><lb/>5. SALUTATIO AD AVAROS.</head>
+				<p><lb/>Qualiter ergo ad auariciam tam clericus quam laicus inuitari ualeat
+					<lb/>uideamus hoc modo: <hi rend="italic">Salutem nec morum gratiam, set nummorum copiam
+					<lb/>adorare.</hi> Vel sic: <hi rend="italic">Denariorum maiestatem iugiter adorare.</hi> Vel sic: <hi rend="italic">Post
+					<lb/>Deum denariorum cumulum summopere uenerari.</hi> Vel sic: <hi rend="italic">Ut marsupium
+					<lb/>satietur nulla ieiunia formidare.</hi> Vel sic: <hi rend="italic">Ditioribus inseparabiliter
+				<lb/>et insuperabiliter adherere.</hi></p>
+			</div>
+			<pb n="888"/>
+			<div type="section">
+				<head><lb/>6. SALUTATIO AD LARGOS.</head>
+				<p><lb/>Dictum est qualiter ad auariciam dicendum est qualiter quis ad eius
+					<lb/>contrarium possit trahi, hoc modo: <hi rend="italic">Salutem et honesto largitatis nomine
+					<lb/>titulari.</hi> Vel sic: <hi rend="italic">Amplissimis donationibus Titum Tatium imitari.</hi> Vel
+					<lb/>sic: <hi rend="italic">Gratis promittere, set gratius dare uel elargiri.</hi> Vel sic: Auariciam,
+					<lb/><hi rend="italic">que est idolorum seruitus, uiriliter expugnare.</hi> Vel sic: <hi rend="italic">In omni donatione
+					<lb/>maternam consulere largitatem.</hi> Vel sic: <hi rend="italic">Necessitatem patientibus
+				<lb/>largitatis dexteram aperire.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>7. SALUTATIO AD SCOLARES.</head>
+				<p><lb/>Set quia scolares quandoque in auariciam declinant et quandoque
+					<lb/>ad largitatis tramites reuertuntur, de scolarium salutationibus merito
+					<lb/>est dicendum. Scribunt enim inuicem hoc modo: <hi rend="italic">Salutem et facundiam
+					<lb/>consequi tullianam.</hi> Vel sic: <hi rend="italic">Ad scientie plenitudinem totis animi uiribus
+					<lb/>anhelare.</hi> Vel sic: <hi rend="italic">Ad philosophie pedes sub crebris uigiliis accumbere.</hi>
+					<lb/>Vel sic: <hi rend="italic">In grammatica precellere Priscianum.</hi> Vel sic: <hi rend="italic">Aristotilicam induere
+					<lb/>probitatem.</hi> Vel sic: <hi rend="italic">In sacris canonibus Gratiani gratiam promereri.</hi>
+					<lb/>Vel sic: <hi rend="italic">Iustinianum iuris prudentia superare.</hi> Vel sic: <hi rend="italic">Arte boni et equi
+				<lb/>Cremonensem Crisostomum adequare.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>8. SALUTATIO DISCIPULI AD MAGISTRUM.</head>
+				<p><lb/>Nunc uidendum est qualiter discipulus magistro, hoc modo: <hi rend="italic">Salutem
+					<lb/>et quidquid suo Aristotili Alexander.</hi> Vel sic: <hi rend="italic">Magistri nomen
+					<lb/>antonomasice promereri.</hi> Vel sic: <hi rend="italic">Sicut nomine, sic dignitatis titulo prefulgere.</hi>
+					<lb/>Vel sic: <hi rend="italic">Innumerosa multitudine scolarium uenerari.</hi> Vel sic:
+				<lb/><hi rend="italic">Illud agere unde stupeant et inuideant ignorantes.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>9. SALUTATIO AD IUDICES.</head>
+				<p><lb/>Et quia magistrorum peritia facit ut interdum eligantur et erigantur
+					<lb/>in iudices, de iudicum salutationibus est dicendum, hoc modo: <hi rend="italic">Salutem
+					<lb/>et ad libram rationis singula iudicia ponderare.</hi> Vel sic: <hi rend="italic">Rigorem iuris
+					<lb/>misericorditer temperare.</hi> Vel sic: <hi rend="italic">Salutem et per iusticie tramitem
+					<lb/>commendabiliter ambulare.</hi> Vel sic: <hi rend="italic">Salutem et iniquitates calumpniantium
+					<lb/>uiriliter refrenare.</hi> Vel sic: <hi rend="italic">Salutem et in omni iudicio magistram
+				<lb/>consulere rationem.</hi></p>
+			</div>
+			<pb n="889"/>
+			<div type="section">
+				<p><lb/>Et quoniam in mediocribus personis et humilibus amicicie confederatio
+					<lb/>reperitur, de amicorum salutationibus aliquid annectamus, hoc
+					<lb/>modo: <hi rend="italic">Amicus amico salutem et omne bonum.</hi> Vel sic: <hi rend="italic">Salutem et sincere
+					<lb/>dilectionis affectum.</hi> Vel sic: <hi rend="italic">Salutem in plenitudine gaudiorum.</hi>
+					<lb/>Vel sic: <hi rend="italic">Salutem et prosperos ad uota successus.</hi> Vel sic: <hi rend="italic">Salutem et quidquid
+					<lb/>Theseus Pirithoo.</hi> Vel sic: <hi rend="italic">Salutem et quidquid suo Tydeus Polinici.</hi> Vel sic:
+					<lb/><hi rend="italic">Salutem in eternitatis gremio collocatam.</hi> Vel sic: <hi rend="italic">Salutem et quam sibi desiderat
+					<lb/>sospitatem.</hi> Vel sic: <hi rend="italic">Salutem et continue sospitatis augmentum.</hi> Vel sic:
+					<lb/><hi rend="italic">Salutem et quidquid melius est salute.</hi> Vel sic: <hi rend="italic">Salutem et affectum consequi
+					<lb/>cum effectu.</hi> Vel: <hi rend="italic">Salutem et quidquid diuersos in unum solet animos solidare,</hi>
+					<lb/>uel <hi rend="italic">quicquid solet scissuram federis renodare.</hi> Vel sic: <hi rend="italic">Salutem et quidquid
+				<lb/>uarias confibulat uoluntates.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>11. SALUTATIO FILIORUM AD PATRES.</head>
+				<p><lb/>Quia uero inter parentes et filios perpetuum dilectionis fedus natura
+					<lb/>firmauit, uidendum est qualiter circa parentes et filios salutationis circumlocutio
+					<lb/>uariet, hoc modo: <hi rend="italic">Suo dilectissimo patri salutem et obedientiam
+					<lb/>filialem.</hi> Vel sic: <hi rend="italic">Quidquid Ioseph simplicitas patri suo Iacob potuit
+					<lb/>exoptare.</hi> Vel: <hi rend="italic">Paterne pietatis affectum circa filios exercere.</hi> Vel:
+					<lb/><hi rend="italic">Carnem suam odio non habere.</hi> Vel: <hi rend="italic">Pulsantibus filiis libentius quam extraneis
+					<lb/>aperire.</hi> Vel: <hi rend="italic">Errantem filium uirga dilectionis et mansuetudinis
+				<lb/>castigare.</hi> Vel: <hi rend="italic">Dilecte paternitatis nomen paternis operibus dulcorare.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>12. SALUTATIO PATRUM AD FILIOS.</head>
+				<p><lb/>E contrario filiis patres scribunt hoc modo: <hi rend="italic">Salutem et filii mores
+					<lb/>gerere, non priuigni.</hi> Vel: <hi rend="italic">Salutem et paterne suauitatis imperium filialiter
+					<lb/>adimplere.</hi> Vel: <hi rend="italic">Salutem et ab ingratitudinis uicio modis omnibus declinare.</hi>
+					<lb/>Vel: <hi rend="italic">Patris dedecus uindicare.</hi> Vel: <hi rend="italic">Salutem et paterne paternitatis
+					<lb/>iugum suauiter sustinere.</hi> Vel: <hi rend="italic">Nulla contradictionis repagula
+				<lb/>obicere genitori.</hi></p>
+			</div>
+			<pb n="890"/>
+			<div type="section">
+				<head><lb/>13. SALUTATIO IMPERATORIS AD SUBDITOS.</head>
+				<p><lb/>Hactenus per mediocritates personarum uelud per aquas tenuiores
+					<lb/>mea cucurrit nauicula. Nunc necesse est altius nauigare. Ad sublimiores
+					<lb/>igitur personas stilum humilem sublimando, qualiter ab imperatoria
+					<lb/>maiestate salutatio inclinetur ad subditos et a subditis ad imperatoris
+					<lb/>preeminentiam transmittatur, expedito cursu utiliter demonstrabo.
+					<lb/>Notandum igitur quod imperator nulli supplicat, nulli cedit,
+					<lb/>nisi domino Pape tantum, unde semper in salutatione nomen imperatoris
+					<lb/>preponitur, nisi domino Pape scribat uel ab eo sibi scribatur. Omnes
+					<lb/>autem uiri seculares romano imperatori reuerentiam debent. Quorum triplex
+					<lb/>est usus: alii enim sunt <hi rend="italic">illustres</hi>, alii <hi rend="italic">spectabiles</hi>, alii <hi rend="italic">clarissimi.
+					<lb/>Illustres</hi> sunt reges, prouinciarum presides et conscripti patres. <hi rend="italic">Spectabiles</hi>
+					<lb/>uero duces, comites et marchiones. <hi rend="italic">Clarissimi</hi>, barones, ualuassores,
+				<lb/>et forsitan ciuitatum consules.</p>
+			</div>
+			<div type="section">
+				<head><lb/>14. SALUTATIO REGIS AD IMPERATOREM.</head>
+				<p><lb/>Rex imperatori potest scribere in hunc modum: <hi rend="italic">F. Dei gratia uictoriosissimo
+					<lb/>Romanorum Imperatori et semper Augusto Ph. eadem Dei
+					<lb/>gratia Rex Francorum salutem et obsequium.</hi> Et nota quod in salutationibus
+					<lb/>magnatum suarum consuetudo amplectenda est curiarum. Usus enim longeui
+					<lb/>non modica est auctoritas. <hi rend="italic">Spectabiles</hi> uiri et <hi rend="italic">clarissimi</hi> domino
+					<lb/>imperatori scribentes dicunt se <hi rend="italic">dilectos</hi> uel <hi rend="italic">fideles</hi> uel <hi rend="italic">subditos.</hi>
+				<lb/>Similiter dominus imperator eis scribens uocat eos <hi rend="italic">fideles suos.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>15. SALUTATIO IMPERATORIS AD PAPAM.</head>
+				<p><lb/>Dominus imperator sic scribit domino Pape: <hi rend="italic">Sanctissimo Patri et Domino
+					<lb/>Clementi Dei gratia summo Pontifici F. Dei gratia Romanorum
+					<lb/>Imperator et semper Augustus deuotus Sanctitatis sue filius salutem et deuote
+					<lb/>fidelitatis obsequium.</hi> Eodem modo et alie seculares persone. In hoc tantum
+					<lb/>est differentia, quod ubi dominus imperator ponit <hi rend="italic">deuote fidelitatis
+					<lb/>obsequium</hi>, ibi alii solent ponere <hi rend="italic">obedientiam tam debitam quam
+					<lb/>deuotam.</hi> Item dominus imperator scribens episcopis uocat eos <hi rend="italic">uenerabiles
+				<lb/>patres.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>16. SALUTATIO EPISCOPI VEL ARCHIEPISCOPI AD PAPAM.</head>
+				<p><lb/>Episcopus uero, quando scribit domino Pape, humiliat se in hunc
+					<lb/>modum: <hi rend="italic">Sancitissimo Patri et Domino Clementi Dei gratia summo Pontifici</hi>
+					<pb n="891"/>
+					<lb/> <hi rend="italic">Raclerus florentinus episcopus licet indignus uel humilis minister obedientiam
+					<lb/>tam debitam quam deuotam.</hi> Nota quod dominus Papa scribens
+					<lb/>archiepiscopis uel cardinalibus uocat eos <hi rend="italic">dilectos fratres</hi>, omnes alios
+					<lb/>catholicos <hi rend="italic">dilectos filios</hi> uocat. Episcopus scribens coepiscopo uel
+					<lb/>suffraganeo uocat eum <hi rend="italic">uenerabilem fratrem</hi>, si uero archiepiscopo uel
+					<lb/>cardinali, uocat eum <hi rend="italic">reuerendum patrem</hi>; eodem modo metropolitanum
+					<lb/>suum uel primatem. Et quoniam singulis patet qualiter dominus Papa
+				<lb/>scribere soleat, ideo non immerito supersideo.</p>
+			</div>
+			<div type="section">
+				<head><lb/>17. SALUTATIO AD PRELATOS.</head>
+				<p><lb/>Sed, ne prelatorum salutationes transire uidear, oculis semiclausis
+					<lb/>finem salutationibus imponens, succincte prosequar qualiter prelatis
+					<lb/>ecclesie et religiosis uiris generaliter sit scribendum, hoc modo: <hi rend="italic">Salutem
+					<lb/>et Petri nauiculam sibi commissam feliciter gubernare.</hi> Vel sic: <hi rend="italic">Salutem et
+					<lb/>filiam Syon insompni oculo custodire.</hi> Vel: <hi rend="italic">Salutem et sponsam Christi
+					<lb/>lorica iusticie et clipeo fidei defensare.</hi> Vel: <hi rend="italic">Transire per bona temporalia
+					<lb/>ut non amittantur eterna.</hi> Vel: <hi rend="italic">Ab altiori gradu casum precipitem
+					<lb/>cogitare.</hi> Vel: <hi rend="italic">Salutem et uillicationis sue plenam posse reddere
+				<lb/>rationem.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>18. SALUTATIO AD RELIGIOSOS.</head>
+				<p><lb/>Et quia religionis sinceritas etiam ultra ecclesie prelatos extenditur,
+					<lb/>de religiosis generaliter est dicendum. Scribunt ergo religiosi religiosis
+					<lb/>in hunc modum: <hi rend="italic">Salutem et carnis tyrannidem diuturnis ieiuniis</hi>
+					<lb/>uel <hi rend="italic">uigiliis edomare.</hi> Vel: <hi rend="italic">Per singulos dies mortem hospitam expectare.</hi>
+					<lb/>Vel: <hi rend="italic">Omnem diem reputare supremum.</hi> Vel: <hi rend="italic">Diuturnis orationibus
+					<lb/>fatigare.</hi> Vel: <hi rend="italic">Sicut terrenis corpore, sic animo celestibus insudare.</hi>
+					<lb/>Vel: <hi rend="italic">Inextinguibili desiderio legem Domini affectare.</hi> Omnes iste
+					<lb/>circumlocutiones plurimum ad religionem inuitant. Et notandum
+					<lb/>quod illa clausula que sequitur hanc omnem salutationem
+					<lb/>semper attribuitur ei cui epistula destinatur. Et hec de salutationibus
+				<lb/>sufficiant prelibasse.</p>
+			</div>
+		</div>
+		<pb n="892"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>II</head>
+			<head type="h_2"><lb/>DE EXORDIO VEL PROVERBIIS.</head>
+			<lg>
+				<l>Iam fundata suo lucescit epistola cultu,</l>
+				<l>Iam didicit uarium forma salutis iter.</l>
+				<l>Nunc age, Musa recens, exordia necte saluti</l>
+				<l>Et primo medium continuare stude.</l>
+				<l n="5">Set propera ne uela cadant: te semper oportet</l>
+				<l>Currere, nam restat longa dieta tibi.</l>
+				<l>Ordo, modus, breuitas, proprium, translatio, tecum</l>
+				<l>Enitantur opus continuare nouum.</l>
+				<l>Si tamen insidians opponat sibila liuor,</l>
+				<l n="10">Perfer et addiscas scandala posse pati.</l>
+			</lg>
+			<div type="section">
+				<head><lb/>1. QUID SIT EXORDIUM.</head>
+				<p><lb/>Exordium siue prouerbium est oratio sententiam continens prodeuntem
+					<lb/>a consuetudine uel a natura. A consuetudine, hoc modo: <hi rend="italic">Seruitiorum
+					<lb/>modus dilectionis terminos uel abreuiat uel producit.</hi> A natura, sic:
+					<lb/><hi rend="italic">Nec irasci columbam uidimus, nec mansuescere scorpionem.</hi> Prouerbiorum
+					<lb/>quedam sunt generalissima, quedam minus generalia. Generalissima
+					<lb/>sunt que pluribus possunt negotiis applicari, hoc modo: <hi rend="italic">Repulsam pati
+					<lb/>meretur petitio quam causa peperit inhonesta.</hi> Habet enim locum hoc prouerbium
+					<lb/>ubi aliquis in petendo est importunus, uel petit quod
+					<lb/>non sibi debetur, uel aliquid fieri postulat inhonestum. Minus generalia
+					<lb/>sunt que ad pauca negotia restringuntur, hoc modo: <hi rend="italic">Illis specialiter subuenire
+					<lb/>tenemur, qui de lumbis nostris in hanc uallem miserie descenderunt.</hi>
+					<lb/>Nullam autem differentiam credimus esse inter prouerbium et exordium,
+					<lb/>nisi quod exordium dicitur illa generalis sententia que inter
+					<lb/>salutationem et narrationem ponitur: alibi uero separatim positum,
+					<lb/>prouerbium nominatur. De prouerbiis igitur tam minus generalibus quam
+					<lb/>generalissimis prosequentes, uideamus quibus possint uti prouerbiis
+					<lb/>quilibet opem in necessitate postulantes. Et quia nulli homines magis
+					<pb n="893"/>
+					<lb/>indigent auxilio quam captiui, uidendum est qualiter captiui redemptionis
+					<lb/>gaudium implorantes sue possint lamentationis exordia
+				<lb/>uariare hoc modo.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2. EXORDIUM CAPTIVORUM.</head>
+				<p><lb/><hi rend="italic">Nullus asperitatis nodus perhibetur astrictior quam sub clade tyrannica
+					<lb/>immisericorditer captiuari.</hi> Vel sic: <hi rend="italic">Non potest intelligere quid sit dolor
+					<lb/>qui captiuitatis amaritudinem non gustauit.</hi> Vel sic: <hi rend="italic">Respectu captiuitatis
+					<lb/>quantalibet aduersitas summe beatitudinis est imago.</hi> Vel: <hi rend="italic">In fornace
+				<lb/>captiuitatis excocti, dilectionis examinant ueritatem.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>3. EXORDIUM OBSESSORUM AB INIMICIS.</head>
+				<p><lb/>Et quoniam obsessi parum discrepant a captiuis, uidendum est
+					<lb/>quo exordiorum ornatu possint suam epistolam inchoare, hoc modo:
+					<lb/><hi rend="italic">Parum distat a leso qui non potest ictus effugere iam suspensos.</hi> Vel sic:
+					<lb/><hi rend="italic">Fere tantum distat obsessus a capto, quantum domus a ruina, si careat fundamento.</hi>
+					<lb/>Vel sic: <hi rend="italic">Nichil magis obsessos excruciat expectantes, quam
+					<lb/>opitulationis dilationem expectare.</hi> Vel: <hi rend="italic">Cui spectata denegantur
+					<lb/>suffragia, non est mirum si sit proximus desperanti.</hi> Dictum est de obsessis
+					<lb/>ab hostibus; dicendum est de obsessis a paupertate. Sue
+				<lb/>paupertati solatium postulantes sua texant exordia hoc modo.</p>
+			</div>
+			<div type="section">
+				<head><lb/>4. EXORDIUM PAUPERUM.</head>
+				<p><lb/><hi rend="italic">Quidquid iubet</hi> uel <hi rend="italic">iniungit esuries, id Codrus exequi non formidat.</hi>
+					<lb/>Vel: <hi rend="italic">Effrons uel ieiuna pauperies frenum uerecundie postulantibus
+					<lb/>subtrahit.</hi> Vel: <hi rend="italic">Repulsam pauperi non opponat quisquis
+					<lb/>militat sub fortuna: rosas enim sub rore matutino uernantes certe ante solis
+					<lb/>occasum frequenter uidimus desiccari.</hi> Vel: <hi rend="italic">Mirice uentos non timent,
+					<lb/>set ad minas aquilonis pinus titubant, et arborum tremit uniuersitas altiorum.</hi>
+					<lb/>Vel: <hi rend="italic">Illud suum est hominis, quod pauperibus erogauit: reliquum non
+					<lb/>est hominis, set fortune.</hi> Vel: <hi rend="italic">Nichil de substantia diuitum amittit fortuna,
+				<lb/>nisi quod misericors largitas subplantauit.</hi></p>
+			</div>
+			<pb n="894"/>
+			<div type="section">
+				<head><lb/>5. EXORDIUM AMICORUM.</head>
+				<p><lb/>Dictum est qualiter pauperes sua texere didicerunt exordia,
+					<lb/>quilibet a quolibet ignem postulantes. Nunc qualiter amici soleant
+					<lb/>scribere, quantum ad exordia pertinet, uideamus. Amicus amico
+					<lb/>diuiti, sic: <hi rend="italic">Non minus ad amicos quam ad parentes in necessitate confugimus,
+					<lb/>cum sincera dilectio quandam gerat imaginem parentele.</hi> Vel:
+					<lb/><hi rend="italic">Quos eadem muniuit et uniuit dilectio, necesse est ut opem et opes sibi
+					<lb/>mutuent relatiuas.</hi> Vel: <hi rend="italic">Absurdum est ut, quos leta prosperitas cognouit
+					<lb/>amicos, tristis aduersitas inueniat inconstantes.</hi> Vel: <hi rend="italic">Aduersitatis
+					<lb/>turbo uere radices amicicie non euellit.</hi> Vel: <hi rend="italic">Vbi necessitatis
+				<lb/>urget imperium, cum minori uerecundia recurritur ad amicum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>6. EXORDIUM FILIORUM AD PARENTES.</head>
+				<p><lb/>Et quoniam non longe parentes discrepant ab amicis, uideamus
+					<lb/>exordia que possunt dirigi parentibus, et primo qualiter filiorum necessitas
+					<lb/>paterne texat exordia pietati, hoc modo: <hi rend="italic">Natura relatiuorum non
+					<lb/>patitur quod patre sospite filialis sospitas sopiatur.</hi> Vel: <hi rend="italic">Nec consuetudo
+					<lb/>patitur nec natura quod paterne caritatis feruor circa filium refrigescat.</hi>
+					<lb/>Vel: <hi rend="italic">Filialis inedia paterne plurimum derogat paupertati.</hi> Vel:
+					<lb/><hi rend="italic">Inhumanum est ut ad filiorum preces paterne dilectionis sinceritas obsurdescat.</hi>
+					<lb/>Vel: <hi rend="italic">Non est pater, set patris mentitur imaginem, qui filium non
+				<lb/>subleuat corruentem.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>7. EXORDIUM PARENTUM AD FILIOS.</head>
+				<p><lb/>Parentibus generaliter sic: <hi rend="italic">Qui precibus parentum aures claudit,
+					<lb/>fedus defederat et perimit naturale.</hi> Vel: <hi rend="italic">Inhumanum est ut filii in
+					<lb/>necessitate parentum auaricie consilio acquiescant.</hi> Vel <hi rend="italic">Quisquis
+					<lb/>parentum preterit petitiones oculis semiclausis, sue claritatem obnubilat
+					<lb/>parentele. :</hi> Vel: <hi rend="italic">Quem parentum miseratio iacentem non subleuat, non est
+					<lb/>mirum si pretereat aliena.</hi> Item parentibus contra parentes, hoc
+					<lb/>modo: <hi rend="italic">Ridiculosam maturat caluiciem immoderata subtractio capillorum.</hi>
+					<lb/>Vel: <hi rend="italic">Nullus fons adeo irriguus est, qui ad haustus continuos non
+					<lb/>arescat.</hi> Vel: <hi rend="italic">Quantumlibet diffusam numeri quantitatem, si subtractioni
+					<lb/>non parcas, ad indiuiduam rediges unitatem.</hi> Vel: <hi rend="italic">Nichil est, preter
+				<lb/>Deum, quod non possit reduci in nichilum decrescendo.</hi></p>
+			</div>
+			<pb n="895"/>
+			<div type="section">
+				<head><lb/>8. EXORDIUM PAUPERUM CONTRA POSTULANTES.</head>
+				<p><lb/>Potest etiam aliquis suam allegando pauperiem repellere postulantes
+					<lb/>hoc modo: <hi rend="italic">Frustra fugit inops ad inopem, et in uanum esuriens ab
+					<lb/>esuriente petit panem.</hi> Vel: <hi rend="italic">Ridiculosum uidetur et turpe quod a nudo
+				<lb/>nudus exigat uestimentum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>9. EXORDIUM POSTULANTIUM VENIAM.</head>
+				<p><lb/>Item postulantes ueniam sic sua exordia ordinare poterunt et ornare:
+					<lb/><hi rend="italic">Non adeo tranquillitatis humane conseruatur idemptitas, quin quandoque
+					<lb/>ad actus illicitos euagetur.</hi> Vel: <hi rend="italic">Nullus adeo gerit simplicitatis mansuetudinem
+					<lb/>columbe, quin quandoque ad amaritudinem iracundie non declinet.</hi>
+					<lb/>Vel: <hi rend="italic">Non est imputandum alicui quod ex calore animi prouenit inconsulto.</hi>
+					<lb/>Vel: <hi rend="italic">Indulgendum est delinquenti, ubi pro eo allegat penitentia fauoralis.</hi> Vel:
+					<lb/><hi rend="italic">More fluminum mutabiles sumus, que nunc irascuntur littoribus, nunc lapsu
+					<lb/>pretereunt blandienti.</hi> Vel sic in petendo ueniam: <hi rend="italic">Si semper homo bene
+					<lb/>ageret, hodie locum misericordia non haberet.</hi> Vel: <hi rend="italic">Confessio culpe pondus
+					<lb/>attenuat et cum confessis mitius est agendum.</hi> Vel: <hi rend="italic">Inhumanam gerit in corde
+				<lb/>duriciam qui non remittit supplicium supplicanti.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>10. EXORDIUM NEGANTIUM VENIAM.</head>
+				<p><lb/>Negans ueniam sic poterit exordiri: <hi rend="italic">Canis uirga correctionis imminente
+					<lb/>fit mitior, cessante baculo iam proteruit.</hi> Vel: <hi rend="italic">Delictorum impunitas delinquentibus
+					<lb/>incentiuum tribuit delinquendi.</hi> Vel: <hi rend="italic">Exuberans est misericordia
+					<lb/>que finem criminibus imponit per uindictam.</hi> Vel: <hi rend="italic">Non absurdum
+					<lb/>est ut sue temeritatis aculeo pungantur quos sua induxit temeritas
+				<lb/>ad nocendum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>11. EXORDIUM PAUPERUM MINAS POTENTIUM MITIGANTIUM.</head>
+				<p><lb/>Item potentum iniurias sic poterit humilis plebecula mitigare: <hi rend="italic">Nichil</hi>
+					<lb/>apud generosos animos magis est generosum quam preterire supplices et tumidos
+					<pb n="896"/>
+					<lb/><hi rend="italic">debellare.</hi> Vel: <hi rend="italic">Ira leonis in papiliones non fulminat, set reluctantes ursos
+					<lb/>precipitat et prosternit.</hi> Vel: <hi rend="italic">Cum fulminis impetus uires suas expendere
+					<lb/>dedignetur in uirgulam, iniquum est ut maiorum potentia deseuiat in minores.</hi>
+					<lb/>Vel: <hi rend="italic">In plebeculam uolucrum sue armis potentie accipiter non
+				<lb/>deseuit.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>12. EXORDIUM POTENTIUM CONTRA PAUPERES.</head>
+				<p><lb/>E contra sic poterit responderi: <hi rend="italic">Nichil interest an uipera pungat an
+					<lb/>scorpio, cum uterque efficax sit ad nocendum. Non est humilitati parcendum
+					<lb/>quam necessitas peperit, non uoluntas: multi enim imaginariam
+					<lb/>induunt humilitatem, cum non possint ad libitum superbire.</hi> Vel:
+					<lb/><hi rend="italic"> Illa demum subiectio fauoralis inuenitur, que supplicat non coacta.</hi> Vel:
+					<lb/><hi rend="italic">Verbum subiectionis ueniam non meretur, nisi eam condiat sincera deuotio
+				<lb/>supplicantis.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>13. EXORDIUM INVITANTIUM AD SCIENTIAM.</head>
+				<p><lb/>Item ad scientie fructum sic possumus exordialiter inuitare: <hi rend="italic">Arbor
+					<lb/>colitur et amatur fructifera, set habetur sterilis in despectu.</hi> Vel: <hi rend="italic">Vita sine
+					<lb/>litteris mors est et uiui hominis sepultura.</hi> Vel: <hi rend="italic">Asinina ruditate putrescit
+					<lb/>quem litterature radius non serenat.</hi> Vel: <hi rend="italic">Sero exit ad solem sapientie
+				<lb/>qui sub umbra desidie marcidus insolescit.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>14. EXORDIUM EXHORTANTIUM ALIQUOS UT IN COMMUNE PROSINT.</head>
+				<p><lb/>Item, ut alicuius sapientia prodeat in commune, sic possumus exordiri:
+					<lb/><hi rend="italic">Omne bonum in commune deductum pulchrius elucescit.</hi> Vel: <hi rend="italic">Aurum
+					<lb/>dispersum, ut ait Seneca, pulchrius rutilat quam signatum.</hi> Vel:
+					<lb/><hi rend="italic">Nichil honoris retinent margarite latentes: que si ueniant ad usus humanos,
+					<lb/>luce fulgurant gratiori.</hi> Vel: <hi rend="italic">Nisi sue thesauros sapientie dispersisset,
+					<lb/>fama non predicaret hodie Salomonem.</hi> Vel: <hi rend="italic">Sua commendant organa filomenam,
+				<lb/>et dispersa magistrorum scientia eis parit agmina titulorum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>15. IN CONTRARIUM VERO SIC:</head>
+				<p><lb/><hi rend="italic">Si gemme triuiatim et publice abundarent, cuilibet in tedium uerterentur.</hi>
+					<lb/>Vel: <hi rend="italic">Que raro in lucem prodeunt, et mirantibus alludunt animis et
+					<lb/>dulcius oculis blandiuntur.</hi> Vel: <hi rend="italic">Sicut dilectione, sic scientia est utendum:</hi>
+					<pb n="897"/>
+					<lb/>amici enim qui raro comparent ardentiori desiderio amplexantur,
+					<lb/>et quorum querelando recordamur absentium, eos presentes
+					<lb/><hi rend="italic">sub negligentia preterimus.</hi> Vel: <hi rend="italic">Si quis passim suam dispergat
+					<lb/>et diuulget scientiam, de matrona faciet meretricem.</hi> Vel: <hi rend="italic">Thalamum
+					<lb/>querit sapientia, non prostibulum, et si quando sese uidendam offerat,
+				<lb/>uultus existit per fenestram.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>16. EXORDIUM DISSUASIONIS AB INFAMI CONSORTIO.</head>
+				<p><lb/>Item, ad dissuadendum ne quis turpium personarum conuersationem
+					<lb/>sibi asciscat, sic possumus allegare: <hi rend="italic">Quantumuis intensam albedinem
+					<lb/>modice nigredinis proximitas decolorat.</hi> Vel: <hi rend="italic">Mores a conuictu formantur
+					<lb/>et similitudinem contrahunt ex adiuncto.</hi> Vel: <hi rend="italic">Numquam inter urticas
+					<lb/>rosarum conualescit iuuentus: semper erit tristis, semper languida,
+					<lb/>semper degenerans in pallorem.</hi> Vel: <hi rend="italic">Visco praue societatis alas cordis
+					<lb/>subtrahe quantum potes, quia semel implicitus non poteris expediri.</hi> Vel:
+					<lb/><hi rend="italic">Animus sit discipulus, non magister: ei non parcas ne pereas,
+					<lb/>eum doce abhorrere praua et honesta sectari.</hi> Set nota quod, licet predicte
+					<lb/>locutiones non sint prouerbia, quandam prouerbiorum gerunt
+				<lb/>imaginem, et ideo per eas possumus apposite loqui ad persuadendum.</p>
+			</div>
+			<div type="section">
+				<head><lb/>17. EXORDIUM AD RELIGIONIS FRUCTUM INVITANTIUM.</head>
+				<p><lb/>Amplius prouerbia ad religionis fructum inuitantia procedere poterunt
+					<lb/>in hunc modum: <hi rend="italic">Nichil est quod ita caminum extinguat libidinis sicut uera
+					<lb/>religio, nichil est quod adeo terreat barbariem uiciorum, nichil est quod ita
+					<lb/>nequeat occasui subiacere.</hi> Vel: <hi rend="italic">Nichil uere leuius religionis iugo, si
+					<lb/>iugiter assuescat uera religio; nichil est uere religioni difficile, nichil
+					<lb/>arduum illi: amarescunt que mundo fuerunt dulcia, et que amara dulcescunt.</hi>
+					<lb/>Vel: <hi rend="italic">Proh dolor, quam nondum subisti religionis sarcinam
+					<lb/>reformidas; gehenna te non terret que non torret: tunc puto terrebit
+					<lb/>cum torrebit.</hi> Vel: <hi rend="italic">Laborandum est ut humane fragilitatis ebdomada
+					<lb/>felici sabbato concludatur.</hi> Vel: <hi rend="italic">Si te grauant in religione pili caprarum
+					<lb/>et duplicitas capparum, quid facies in inferno, ubi ingruunt iacula
+					<lb/>penarum et infinita immensitas penuriarum?</hi> Verba ista multum compunctionis
+				<lb/>gerunt, et tangunt medullitus audientem.</p>
+			</div>
+			<pb n="898"/>
+			<div type="section">
+				<head><lb/>18. EXORDIUM EXCUSANTIUM A RELIGIONE.</head>
+				<p><lb/>In contrarium sic poterit responderi: <hi rend="italic">Religio non querit homines delicatos:
+					<lb/>maturos asciscit animos, annos desiderat seniores.</hi> Vel: <hi rend="italic">Sanctius
+					<lb/>est laborem non aggredi, quam labi sub labore iam temptato.</hi> Vel:
+					<lb/><hi rend="italic">Quantumlibet leue iuuentutis iugum onerat leuitatem: hinc est quod
+					<lb/>religionis domus duros deposcit incolas, graues corpore, set moribus et animo
+					<lb/>grauiores.</hi> Vel: <hi rend="italic">Momentanea est religio iuuentutis, indocilis ad flectendum
+					<lb/>genua et obseruandum ieiunia, plurimum dedignans frenum obedientie
+					<lb/>pati.</hi> Vel: <hi rend="italic">Inexpertam religionis abhorret duriciam uitrea mollicies
+					<lb/>iuuentutis.</hi> Vel: <hi rend="italic">Refrigeratis senibus est adeunda religio, quibus uespera
+					<lb/>senectutis uite minatur occasum.</hi> Vel: <hi rend="italic">Prematuris hominibus religionis
+				<lb/>feruor refrigerium parit quibus uespera iuuentutis uite minatur occasum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>19. EXORDIUM CONSOLATIONIS.</head>
+				<p><lb/>Amplius ad restituendam leticiam desolatis, tua texas exordia in hunc
+					<lb/>modum: <hi rend="italic">Quicquid per alluuionem lacrimarum accrescit, totum cedit oneri
+					<lb/>et iacture.</hi> Vel: <hi rend="italic">Quanta precesserit dampnorum immensitas lacrimarum
+					<lb/>riuuli recordantur, que quidem iacturam non minuunt, set eius muniunt
+					<lb/>et corroborant passionem.</hi> Vel: <hi rend="italic">Muliebre est et recedentibus illacrimari
+					<lb/>commodis et uenientibus arridere.</hi> Vel: <hi rend="italic">Si uis uirum induere, castiga
+					<lb/>lacrimas prodeuntes, eas retrorsum sepeli et absorbe.</hi> Vel: <hi rend="italic">Lacrimarum
+					<lb/>torrens et languendi sollempnitas dilectionis gerunt insignia simulate.</hi> Vel:
+				<lb/><hi rend="italic">Suspectas habeo lacrimas quibus oris superficies, non cordis facies immadescit.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>20. IN CONTRARIUM SIC :</head>
+				<p><lb/><hi rend="italic">Inculpabiles prodeunt lacrime, quas torcular doloris extorquet.</hi> Vel:
+					<lb/><hi rend="italic">Immanitatis, non humanitatis est nescire lacrimas quas natura induxit
+					<lb/>mortalibus</hi>, uel <hi rend="italic">indixit.</hi> Vel: <hi rend="italic">Ad amicorum infortunia deplangenda
+					<lb/>plumbeos esse, non ferreos, nos oportet.</hi> Vel: <hi rend="italic">Inundans lacrimarum
+					<lb/>ubertas exuberantis amicicie insinuat puritatem.</hi> Vel: <hi rend="italic">Amicorum passio
+					<lb/>facit ut nobis innata passio resoluatur in luctum.</hi> Vel: <hi rend="italic">Concepti
+				<lb/>doloris nubila uix recedunt, nisi prius liquefiant in pluuiam lacrimarum.</hi></p>
+			</div>
+			<pb n="899"/>
+			<div type="section">
+				<head><lb/>21. CONTRA MAGISTROS AMBITIOSOS.</head>
+				<p><lb/>Amplius ad magistros quos odor fame trahit ad cathedram antequam
+					<lb/>in eis fructus scientie maturescat sic possumus exordiri: <hi rend="italic">Ultra
+					<lb/>modum presumit arbor que fructificare destinat ante flores.</hi> Vel: <hi rend="italic">Anticipata
+					<lb/>maturitas pariendi partus efficit abortiuos.</hi> Vel: <hi rend="italic">Satius est citra cathedram
+					<lb/>residere, quam per indecoctos sermones ad umbram appellatiui nominis
+					<lb/>profiteri.</hi> Vel: <hi rend="italic">Ridiculosum est ut docere studeant qui nondum discere
+				<lb/>didicerunt.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>22. IN CONTRARIUM SIC:</head>
+				<p><lb/><hi rend="italic">Balbutire antecedit alloqui, et balbutiendo fit transitus ad loquelas: tam
+					<lb/>diu delirauit Orpheus, donec inter citharistas superlatiue laudis obtinuit principatum.</hi>
+					<lb/>Vel: <hi rend="italic">Ad splendorem sereni nominis lucerna frequenter accenditur
+					<lb/>probitatis.</hi> Vel: <hi rend="italic">Adimplendi sui mensuram uocabuli magistrorum uigilat
+					<lb/>intentio: ipsum nomen ad studium etiam inuitos inuitat, ne fama
+				<lb/>illorum dormitet, ne sit eis decor uocabuli ociosus.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>23. QUOD NON SEMPER PROVERBIA LOCUM HABENT.</head>
+				<p><lb/>Hoc autem in summa de prouerbiorum dispositione non immerito
+					<lb/>est addendum, quod in qualibet epistole parte prouerbialis dignitas sedem
+					<lb/>habet. In illis enim fidem non adhibeo, qui semper prouerbium
+					<lb/>narrationis estimant precursorem. Sicut autem in nobilium domorum
+					<lb/>liminibus decentius marmora sedent, ut ingredientium oculos festina
+					<lb/>sculpture iocunditas remoretur, sic in ipso epistole uestibulo post salutationem
+					<lb/>preambulans decenter et congrue collocatur. Hoc autem dictatoribus
+					<lb/>consulo precauendum, quod ubi narrationem prouerbium antecedat,
+					<lb/>ab eius comitatu longe non deuiet, set eam expectet et propre
+					<lb/>respiciat subsequentem, ne fedus iurate societatis uel rumpere uel quasi
+				<lb/>respuere uideatur.</p>
+			</div>
+		</div>
+		<pb n="900"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>III</head>
+			<head type="h_2"><lb/>DE NARRATIONE.</head>
+			<lg>
+				<l>Iam sub primeuo multum spectata labore,</l>
+				<l>Ingenii iocunda comes, cui summus Apollo</l>
+				<l>Largiri dignetur opem, luctare parumper</l>
+				<l>Et trepidam solare ratem, ne prorsus amica</l>
+				<l n="5">Defraudetur humo, ne portum tardius intret</l>
+				<l>Fessa, uel iratis parere coacta procellis.</l>
+				<l>Suda iterum, narra quid sit narratio, qualis</l>
+				<l>Forma sit eiusdem, quis sit modus inueniendi,</l>
+				<l>Que compago liget uoces, ubi splendida luce</l>
+				<l n="10">Verba sonent, ubi fiat iter sermone pedestri.</l>
+			</lg>
+			<div type="section">
+				<head><lb/>1. DE DIVERSITATE NARRATIONIS.</head>
+				<p><lb/>Est narratio rethoris et est narratio dictatoris. Narratio rethoris tantum
+					<lb/>res gestas uel quasi gestas prosequitur; narratio dictatoris facta
+					<lb/>uel ficta exprimit circa presens, preteritum et futurum. Non enim epistolantis
+					<lb/>est ut tantum preterita sue narrationis ducant curriculum,
+					<lb/>set etiam de futuris et presentibus negotiis suam narrationem intexat,
+					<lb/>maxime cum salutantis affectus, a quo totum epistole pendet edificium,
+					<lb/>nunc de presentibus deliberet, nunc ad preterita redeat, nunc extendat
+				<lb/>sollicitudinem ad futura.</p>
+				<p><lb/>Narrationum multiformis est forma. Totus enim narrationis modus
+					<lb/>est, quotus dictatorum numerus. Quidam enim a <hi rend="italic">quidem</hi> uel a <hi rend="italic">siquidem</hi>
+					<lb/>incipiunt, monachicis traditionibus reuerentiam exibentes. Alii
+					<lb/>sunt qui, si sani capitis essent, numquam <hi rend="italic">sane</hi> in capite narrationis
+					<lb/>apponerent. Alii sunt, quorum si quidem nouisset discretio, numquam
+					<lb/>narrationem deformarent dicentes: <hi rend="italic">Tua, karissime, noscat dilectio.</hi> Supersunt
+					<lb/>alii qui, rescriptis Romanorum pontificum incubantes,
+					<lb/>Transmundi uenerantur et uenantur reliquias super terram, quorum
+					<lb/>non improbassem aliquatenus disciplinam, nisi alienigenam purpuram
+					<lb/>suis indecenter fimbriis annecterent et alieni laboris titulos, abiecto
+					<lb/>pudore, passim et publice usurparent. Inhonestum enim censeo et pudori
+					<lb/>proximum semper in aliena parapside et numquam in propria epulari.
+					<pb n="901"/>
+					<lb/>Quicquid aliorum uoluat opinio, nolo uos inter nubes et inania uolitare,
+					<lb/>set semper narrationem ab auctoritate uobis insinuo inchoandam.
+					<lb/>Quod si adeo dedignantis nature fuerit auctoritas, ut sedula quesita
+					<lb/>dedignetur comparare querenti, tunc sollers sollicitusque dictator
+					<lb/>omnes mentis uires in unum colligat, quod aliquid tam pulchrum,
+					<lb/>tam suaue, tam uenustum excogitet, ut prima narrationis facies alludentibus
+					<lb/>uerborum flosculis tam aures quam animos audientium debeat
+				<lb/>inescare. Iocunda enim principia iocundos exitus pollicentur.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2. DE MODO INVENIENDI NARRATIONEM.</head>
+				<p><lb/>Multifarie et multis modis inueniendi modus occurrit. A quo
+					<lb/>ideo si, diligens perscrutator, intendis unde quelibet narratio ducat ortum,
+					<lb/>numquam te fallet narrandi diuersitas, nec negociorum perplexitas te
+					<lb/>confundet. Huius studii due partitiones sunt: status rerum et humane
+					<lb/>mentis propositum. A statu rerum multipliciter prodit narratio. Inuenitur
+					<lb/>enim iuxta fortunam, affectionem, famam, consuetudinem et conuictum.
+					<lb/>Fortunam duo contraria diuidunt utrobique. Est fortuna aspera et
+					<lb/>fortuna prospera; est fortuna humilis et fortuna sublimis. Quot sint
+					<lb/>aspere fortune species, cottidiana docent experimenta. Quare, quibusdam
+					<lb/>pretermissis, de paucis subiciemus exempla, et primo de illa in cuius
+					<lb/>gremio cure conuersantur insompnes, egrotant gaudia, macra ieiunia
+					<lb/>querelantur: et illa quidem est paupertas, licet supradicte locutiones possint
+					<lb/>ad auariciam retorqueri. Quilibet igitur sue paupertatis narrator
+				<lb/>suam hoc modo narrationem informet.</p>
+			</div>
+			<div type="section">
+				<head><lb/>3. NARRATIO FORTUNE ASPERE.</head>
+				<p><lb/><hi rend="italic">Impulsus, euersus sum ut caderem in laborintum miserie et in retiaculum
+					<lb/>paupertatis.</hi> Vel: <hi rend="italic">Nudus egressus sum de utero matris mee,
+					<lb/>set alia uerecundior nuditas nuditati primeue a simili respondere contendit:
+					<lb/>mea enim latera humanis uisibus et risibus patent, nec habent quod obiciant
+					<lb/>instantie boreali.</hi> Vel: <hi rend="italic">Inter notos meos et proximos meos periit memoria</hi>
+					<lb/>mea, quia modicus et mendicus sum ego. Set quoniam in uobis, clementissime
+					<lb/>pater, pietatis exuberat plenitudo et ante cordis uestri faciem lampas accenditur
+					<lb/>charitatis, intendite, si placet, super egenum et pauperem. Vobis
+					<pb n="902"/>
+					<lb/><hi rend="italic">enim derelictus sum pauper, orphano uos estis adiutor.</hi> Vel: <hi rend="italic">Ad nichilum
+					<lb/>deductus sum et nesciui: set nec faces ignite libidinis, nec prodigalitatis
+					<lb/>diluuium, nec ardentis gule uoracitas meam felicitatem absorbuit,
+					<lb/>immo sola fortune nouercantis inuidia me deiecit de prosperitatis solio
+				<lb/>desolatum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>4. NARRATIO ALIA DE ASPERA FORTUNA.</head>
+				<p><lb/>Est et alia species aspere fortune, que dicitur dolor. Dolentes igitur,
+					<lb/>quacumque de causa doleant, dolorem suum sic narrando exprimant et
+					<lb/>expromant: <hi rend="italic">Tribulationem et dolorem inueni, et fletus meus a mane usque
+					<lb/>ad uesperam demoratur</hi>, et consequenter causa doloris subiungi potest,
+					<lb/><hi rend="italic">quoniam naturalis Ecclesie pastor et pater, Clemens nomine, set clementissimus
+					<lb/>munimine, auertit faciem suam a petitionibus meis, et cum quibuslibet
+					<lb/>iuste pulsantibus sue ianua patefiat clementie, uelud meis irascens
+					<lb/>pulsationibus, michi specialiter obsurdescit.</hi> Vel: <hi rend="italic">Tribulatio et angustia
+					<lb/>inuenerunt me.</hi> Et postea causam assignes sicut superius: <hi rend="italic">Turbatus est
+					<lb/>pre dolore oculus meus, quia Mutinensis ecclesia, sui nuper pastoris
+					<lb/>orphanata presidio, preter Deum non inuenit adiutorem.</hi> Vel: <hi rend="italic">Super
+					<lb/>oumina Babilonis adhuc flemus et fleuimus propter Ierosolimitane ciuitatis
+					<lb/>excidium, nostre iocunditatis organa suspendentes.</hi> Vel: <hi rend="italic">Versa est in
+					<lb/>luctu cithara mea: totus lacrimis effluo, in dolore deficit uita mea et
+					<lb/>anni mei obducuntur merore, quia lignum salutare, fidei katholice pignus,
+					<lb/>crux uera in partem prede trahitur a nefando paganorum principe Saladino.</hi>
+					<lb/>Vel: <hi rend="italic">Leuabo per singulos dies luctum meum, immo lauabo per singulas
+					<lb/>noctes lectum meum lacrimis meis, donec dies optata ueniat in qua restituatur
+					<lb/>hereditas Domini omnibus qui diligunt nomen eius.</hi> Vel: <hi rend="italic">In dolore
+					<lb/>deficit uita mea et anni mei in gemitibus: quis enim meos fletus presumat
+					<lb/>abstringere, quis natum in funere matris flere uetet? Michi quidem et nobis
+					<lb/>mortua est Ierusalem, mater nostra summa, et superlatiua humilitas humile
+					<lb/>sibi elegit sepulcrum ubi Christus conuersatus est et ubi steterunt pedes eius.
+					<lb/>Lauabo igitur per singulos dies luctum meum</hi>, et cetera. Et quoniam perspicacitas
+					<lb/>uestra per se ipsam ad colligendas auctoritates sufficere poterit,
+				<lb/>hoc de aspera fortuna sufficiat prelibasse.</p>
+			</div>
+			<div type="section">
+				<head><lb/>5. NARRATIO DE PROSPERA FORTUNA.</head>
+				<p><lb/>Quosdam igitur ramusculos prosperitatis, et utinam prospere, amplectamur.
+					<lb/>Et quoniam, incolumitas ab eius latere non recedit, ab ea
+					<pb n="903"/>
+					<lb/>narrandi sumamus exordium hoc modo: <hi rend="italic">Letatus sum in hiis que dicta
+					<lb/>sunt michi, letatus sum, inquam, et perfusus gaudio magno ualde, quia
+					<lb/>meus Perithous pannosam post terga reliquit pauperiem, tandemque letioris
+					<lb/>fortune beniuolentiam captauit ad plenum.</hi> Et nota quod, ubi dictio
+					<lb/>repetitur uel oratio, aut nugationem inducit, ut apud loycum solet
+					<lb/>fieri, quandoque sue significationis importat augmentum, ut in superiori
+					<lb/>exemplo <hi rend="italic">letatus sum</hi> et cetera, quandoque feruorem insinuat desiderii,
+					<lb/>ut illud <hi rend="italic">Deus, Deus meus, respice in me</hi>, quandoque naturalem excitat
+					<lb/>pietatem, ut illud <hi rend="italic">Anna soror, soror Anna, mee male conscia culpe</hi>, quandoque
+					<lb/>inuectionem roborat, ut illud <hi rend="italic">Tune duos una, seuissima uipera
+					<lb/>cena una duos.</hi> Et quidem talis iteratio non minus uenustatis
+				<lb/>quam uetustatis in se continet, dum tamen congrue collocetur.</p>
+			</div>
+			<div type="section">
+				<head><lb/>6. ITEM ALIUS MODUS FORTUNE PROSPERE.</head>
+				<p><lb/>Item alius modus inchoandi narrationem hoc modo: <hi rend="italic">In labiis exultationis
+					<lb/>de cetero loquitur os meum, quoniam Achates meus, immo meus
+					<lb/>Pilades et alter ego erectus est per Dei clementiam de lacu miserie et de luto
+					<lb/>fecis.</hi> Vel aliter: <hi rend="italic">Propter hoc dilatatum est cor meum et exultauit anima
+					<lb/>mea, quia pater misericordiarum Deus tue puritatem innocentie sacerdotii
+					<lb/>caractere sigillauit,</hi> vel sic: <hi rend="italic">celesti mense te prefecit ministrum, uel
+					<lb/>te qui agnus eras dignatus est assumere in pastorem.</hi> Vel aliter poteris ueram
+					<lb/>enucleare leticiam hoc modo: <hi rend="italic">Dies desideratus illuxit nobis, in quo
+					<lb/>tue fraternitatis continuatam audiuimus sospitatem.</hi> Vel: <hi rend="italic">Gaudens gaudebo
+				<lb/>in Domino quamdiu felicitatis uestre dilatabitur amplitudo.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>7. EXORDIUM NARRATIONIS EORUM QUI PAUPERTATEM EVASERUNT.</head>
+				<p><lb/>Alius iterum ramus de stipite prosperitatis procedit, quem Virgilius
+					<lb/>in VI° Eneidos aureum uocat eo quod secularibus abundet diuiciis
+					<lb/>et dignitate resplendeat temporali. Quicumque igitur huius
+					<lb/>felicitatis ramum attingere meruit, prosperitatis sue narrationem sic
+					<lb/>poterit inchoare: <hi rend="italic">Dextera Domini fecit uirtutem, dextera Domini exaudiuit
+					<lb/>me, qui nuper inter fluctus paupertatis seminaufragus enatabam.</hi> Vel:
+					<lb/><hi rend="italic">Fortunatis, set non forte natis, affluenter abundo successibus: felicitatem
+					<lb/>enim meam diuino auxilio michi peperit labor meus.</hi> Vel: <hi rend="italic">Recordatus</hi>
+					<pb n="904"/>
+					<lb/>misericordie sue Pater, qui miseretur et commodat, ad prosperitatis
+					<lb/><hi rend="italic">solium, unde cecideram, me reduxit.</hi> Vel: <hi rend="italic">In fructu frumenti,
+					<lb/>uini et olei multiplicatus sum, michi semper abundant et superabundant
+					<lb/>delicie in immensum.</hi> Vel: <hi rend="italic">Ad diuine miserationem clementie mea
+					<lb/>tandem felicitas respirauit: michi enim affluunt delicie, qui hactenus fueram
+				<lb/>obprobrium abundantium et despectio plebis.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>8. EXORDIUM NARRATIONIS AB AFFECTIONE.</head>
+				<p><lb/>Dictum est qualiter a fortuna, dicendum est qualiter ab affectione
+					<lb/>proficiscatur narratio. Unde primo quid sit affectio uideamus. Affectio
+					<lb/>est passio innata uel illata, que uel animo adiacet uel uenustatem
+					<lb/>corporis decolorat, auget, mutat aut minuit, ut est leticia, spes, cupiditas,
+					<lb/>dolor, morbus, debilitas, et huiusmodi. De leticia superius dictum
+					<lb/>est, ubi de prosperitate tractatum est, et merito, quia prosperitas leticiam
+					<lb/>sedium suarum esse uoluit assistricem. Restat igitur explicare
+				<lb/>qualiter a metu narratio sumat ortum hoc modo:</p>
+			</div>
+			<div type="section">
+				<head><lb/>9. EXORDIUM NARRATIONIS A TIMORE.</head>
+				<p><lb/><hi rend="italic">Timor et tremor uenerunt super me, quia quidam exacuerunt linguas suas
+					<lb/>in me. Timeo ne, postquam maledictionis in cor seruauerint iacula,
+					<lb/>consequenter materiales gladios euaginent.</hi> Vel: <hi rend="italic">Consideraui, frater dilectissime,
+					<lb/>opera tua et expaui ne ad mundane uoluptatis illecebras, quas post terga
+					<lb/>reliqueras, remeares.</hi> Vel: <hi rend="italic">Dignitates amare timeo, quia semper ad ultimum
+					<lb/>sunt amare.</hi> Vel: <hi rend="italic">Montes excelsos ascendere plurimum reformido,
+					<lb/>quia uallis subsequitur metuenda.</hi> Vel: <hi rend="italic">Metuo ne me tuo prorsus priues
+				<lb/>amore, cum nichil mee geras consentaneum uoluntati.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>10. EXORDIUM NARRATIONIS A SPE.</head>
+				<p><lb/>A spe potest ducere originem narratio in hunc modum: <hi rend="italic">Ne despicias
+					<lb/>ad deprecationem pauperis, quia in te proieci anchoram spei mee.</hi>
+					<lb/>Vel: <hi rend="italic">Diu super amicos spes mea uolitauit querens requiem, et non inuenit
+					<lb/>set tandem in liberalitate uestra posuit sedem suam.</hi> Vel: <hi rend="italic">Solo spei
+					<lb/>confortate remigio ad uos, pater, nauigant preces mee.</hi> Vel: <hi rend="italic">Postquam
+					<lb/>spei mee uestra dedit alimentum promissio, mea statim desideria languescere
+				<lb/>desierunt.</hi></p>
+			</div>
+			<pb n="905"/>
+			<div type="section">
+				<head><lb/>11. EXORDIUM NARRATIONIS A CUPIDITATE.</head>
+				<p><lb/>Sequitur de cupiditate. Est autem cupiditas, quantum ad rem pertinet
+					<lb/>inflammatus desiderii feruor ad aliquid faciendum uel concipiendum.
+					<lb/>Ab ea poterit narratio proficisci hoc modo: <hi rend="italic">Sicut ceruus desiderat ad
+					<lb/>fontes aquarum, ita seruus ad absolute premia libertatis.</hi> Vel: <hi rend="italic">Diutina
+					<lb/>expectatione ad promissum beneficium anhelaram, et non potui ut haberem:
+					<lb/>sic promissi procrastinatio meam consumpsit leticiam, et mea mecum desideria
+					<lb/>senuerunt.</hi> Vel: <hi rend="italic">Desiderabilia super aurum michi sunt eloquia tua,
+					<lb/>quia dulciora sunt super mel et fauum, et ideo uulgares ceterorum expuens
+					<lb/>disciplinas, te mea petit ariditas doctrine pluuiam salutarem,</hi> uel, <hi rend="italic">ad fontem
+					<lb/>tuum sitim meam desidero reparare.</hi> Vel: <hi rend="italic">Hucusque fecit tua desidia
+					<lb/>ne mea desideria complerentur, nec desideriorum moram de cetero redimere
+				<lb/>poterit celeritas promissorum.</hi></p>
+				<p><lb/>De molestia superuacuum esset dicere, quia de illa multa nobis extra
+				<lb/>subicimus ubi tractauimus de dolore.</p>
+			</div>
+			<div type="section">
+				<head><lb/>12. EXORDIUM NARRATIONIS A PUDORE.</head>
+				<p><lb/>Superest ut de pudore agamus. In hunc modum narratio pullulat a
+					<lb/>pudore: <hi rend="italic">Ad hostiles contumelias nuper erubui, et cooperuit confusio faciem
+					<lb/>meam.</hi> Vel: <hi rend="italic">Vultui meo sua pudor inscripsit uestigia, cum tuas ignominias
+					<lb/>fama publice loqueretur.</hi> Vel: <hi rend="italic">Suum uere uerecundia uultui modo sigillum
+					<lb/>impressit, cum quorumdam detractio in me inconsulto spiritu deseuiret.</hi>
+					<lb/>Vel: <hi rend="italic">Verecunda mee paupertatis humilitas uerecundam uobis ueretur
+					<lb/>paginam delegare, cum quidquid meus depingat calamus pueriles
+				<lb/>redoleat disciplinas.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>13. EXORDIUM NARRATIONIS AB EGRITUDINE.</head>
+				<p><lb/>A morbo narratio sumat originem hoc modo: <hi rend="italic">Pater qui flagellat
+					<lb/>filium quem diligit, sine quo non sanatur infirmitas nec datur ualitudo, in
+					<lb/>lectum egritudinis incidere me permisit.</hi> Vel: <hi rend="italic">Pelli mee consumptis carnibus
+					<lb/>adhuc os meum et arefacta cutis nudis nubit ossibus fere nuda.</hi> Vel: <hi rend="italic">Continuata
+					<lb/>corporis egritudo meam usque leticiam fascinauit, ut michi quondam
+					<lb/>caro tam cara nunc tandem se post terga proiectam sic stupeat et deploret,
+					<lb/>nec etiam me dormiente non dormiat dolor meus.</hi> Vel aliter: <hi rend="italic">Inter</hi>
+					<pb n="906"/>
+					<lb/>ingrauescentes morborum procellas scio celesti medico me ueraciter
+					<lb/>indigere: morbus enim meus terrestres medicinas non obaudit, set celicum
+				<lb/><hi rend="italic">postulat ypocritem.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>14. NARRATIO A DEBILITATE</head>
+				<p><lb/>A debilitate sic formatur narratio: <hi rend="italic">Sponsam mei corporis uenustatem
+					<lb/>languor debilitatis inuasit.</hi> Vel sic: <hi rend="italic">Totum dereliquit me uirtus mea, nec
+					<lb/>ago uiriliter qui paulo ante uiriliter militabam.</hi> Vel: <hi rend="italic">Recusatrix laborum
+					<lb/>debilitas meam ausa est aggredi iuuentutem.</hi> Vel: <hi rend="italic">Ad mature senectutis
+					<lb/>imperium mea sensim eneruata fortitudo succubuit.</hi> Vel: <hi rend="italic">Desidiosa
+					<lb/>debilitatis mollicies usque adeo robur meum extraxit, ut lentitudinem meam
+				<lb/>sexus femineus non erubescat.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>15. NARRATIO A FAMA.</head>
+				<p><lb/>Sequitur qualiter in lucem prodeat narratio iuxta famam: <hi rend="italic">Fama
+					<lb/>nunciante didicimus quod dicitur, et molestum est dicere quod fuit molestius
+					<lb/>didicisse. Delicta enim tue iuuentutis publicus rumor canit, clamitat
+					<lb/>et recitat in plateis.</hi> Vel: <hi rend="italic">Nigrescentibus alis obumbrat infamia
+					<lb/>uitam tuam, et qui quondam fuerat apud te albus fame color, nunc est contrarius
+					<lb/>albo, uice uersa.</hi> Vel: <hi rend="italic">De actibus tuis turpem sibi fama loquendi
+					<lb/>materiam fabricauit, set si uis ut stilum mutet, mores serenos in integrum
+					<lb/>restituas, quos exilio dampnauisti.</hi> Vel: <hi rend="italic">A lacu luxurie quem
+					<lb/>frequentas nuper emergens nebula tuos actus implicuit et fame tue abstulit
+				<lb/>diem suum.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>16. NARRATIO A CONSUETUDINE.</head>
+				<p><lb/>Iuxta consuetudinem narratio sic formatur: <hi rend="italic">Ita suis consuetudo funiculis
+					<lb/>meam innexuit uoluntatem, ut quidquid consuetudo imperat declinare
+					<lb/>non possum. Hinc est quod philosophandi amor qui me dudum aluit, immo
+					<lb/>coaluit, consuetudine magistra, ubi radices posuit, ibi uult remanere.</hi> Vel:
+					<lb/><hi rend="italic">Tantum in me seruitutis sibi consuetudo usu cepit longeuo, ut a consuetis philisophie
+					<lb/>tramitibus, etiam si uelim, non ualeam deuiare.</hi> Vel: <hi rend="italic">Inde ago</hi>
+					<lb/>quod consuetudo me docuit amicorum: propterea mea fieri non ueretur locutio,
+					<lb/>bone frater. Tuam enim dilectionem tam late metior quod pro ea mentior,
+					<pb n="907"/>
+					<lb/>et ne tua uulneretur opinio, contra sagittas detractionis laudis clipeum obicio
+					<lb/><hi rend="italic">et fauoris.</hi> Vel: <hi rend="italic">Consuetudo, iugis uiciorum nutricula, te coegit
+					<lb/>uiuere sub tributo. Viciosis enim te totum uoluptatibus immersisti, et plus
+					<lb/>frena praue consuetudinis te retrahunt a uirtute quam calcaria materne persuasionis
+				<lb/>impellant.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>17. NARRATIO A CONVICTU.</head>
+				<p><lb/>Sequitur qualiter narratio eliciatur a conuictu hoc modo: <hi rend="italic">Orationum
+					<lb/>uaga congeries et uerborum dissoluta compago disputant et contendunt te
+					<lb/>nec Tullium habuisse comitem uel magistrum.</hi> Vel: <hi rend="italic">Duorum alterum de
+					<lb/>te reor et uereor esse uerum, quod conuersatus es in caupona, uel ibi cum
+					<lb/>Melibeo uixisti. Quidquid enim profers, quidquid clamitas, uel uinolentum
+					<lb/>est uel rurale.</hi> Vel, per contrarium: <hi rend="italic">Stilus quem exerces in
+					<lb/>tulliana fabricatus est incude: inter doctores doctissimos te iudicat et indicat
+					<lb/>habitasse.</hi> Vel: <hi rend="italic">Insignis insignat eloquii pulchritudo te studiosum
+				<lb/>in scolis diu studiorum incolis adhesisse.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>18. NARRATIO A PROPOSITO.</head>
+				<p><lb/>Ab humane mentis proposito sic poterit cursus narrationis deduci:
+					<lb/><hi rend="italic">Diuturne meditationis suffragio maturum tandem inueni consilium, proponens
+					<lb/>ad eruditionis uestre delicias me transferre.</hi> Vel: <hi rend="italic">Super biuium deliberacionis
+					<lb/>meus dudum animus uolitarat: ad extremum tamen huic
+					<lb/>proposito uix insedit, ut scilicet ad profunditatis uestre fontem, cuius potum
+					<lb/>sitiuerat, cursu directissimo nauigaret.</hi> Vel: <hi rend="italic">Si fortuna cum Gaufredo
+					<lb/>mitius agere uoluisset, si eum dumtaxat extra paupertatis laqueum permitteret
+					<lb/>respirare, summula presens non tam precipiti exitu clauderetur, nec
+					<lb/>citra perfectionis terminos resideret. Modo meum precludit propositum
+					<lb/>superincumbens sarcina paupertatis, suoque totum me subegit et subiecit
+				<lb/>imperio: per eam mens mea cum corpore peregrinat.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>19. DE CONIUGIO CLAUSULARI AD NARRATIONEM.</head>
+				<p><lb/>Ne nimia dictatorum serenitas offendat oculos rudiores, mei firmamentum
+					<lb/>opuscoli paucis sideribus est contentum, ideoque per distortos
+					<lb/>narrationis anfractus, per occultos tramites earundem hucusque satis
+					<pb n="908"/>
+					<lb/>est cucurrisse. Non enim sum adeo uel fame proprie auidus, uel inuidus
+					<lb/>aliene, quod michi tantum splendoris aggregare laborem, ut posteros
+					<lb/>oporteat mendicare. Verumtamen, ne promissum uideatur in aliquo
+					<lb/>pretermissum, de clausularum coniugio quantum ad narrationem pertinet
+					<lb/>est addendum. Debent enim coniungi clausule ad inuicem competenter,
+					<lb/>quia, sicut lapides in muro a se discrepant et recedunt nisi reconcilietur
+					<lb/>eorum societas interuentu cementi, ita narrationis clausule
+					<lb/>secum dissidunt et controuersantur, nisi earum renouetur amicicia
+					<lb/>aduerbiorum et coniunctionum ligaminibus interiectis. Que
+					<lb/>omnia tediosum esset integraliter enumerare quedam tamen expedit
+					<lb/>sub numero coartari, hec scilicet: <hi rend="italic">Cum, dum, iam, qualiter, quantum, ubi
+					<lb/>et ibi, inde, unde</hi>, et multa alia. Similiter, coniunctiones sunt he: <hi rend="italic">Ne, set,
+					<lb/>interea, ceterum, alioquin, preterea, propterea, enim, uerum, uerumtamen,
+					<lb/>quamuis, porro, licet, autem</hi>, et si qua sunt similia. Et nota quod iste
+					<lb/>tres coniunctiones <hi rend="italic">enim, uero, autem</hi> numquam sunt inchoatiue clausularum.
+					<lb/>Debent autem distincti esse colores rethorici qui narrationem
+					<lb/>picturant. Et, ut michi uidetur, melius locantur pulcra uerba in principio
+				<lb/>et in fine quam in medio clausularum. Et hec de narratione sufficiant.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>IV</head>
+			<head type="h_2"><lb/>DE CONCLUSIONE.</head>
+			<lg>
+				<l>Hactenus albenti caruit mea messis arista,</l>
+				<l>Hactenus excrescens culmus et herba fuit.</l>
+				<l>Nunc demum explicitam segetem granescere sentit</l>
+				<l>Non meus imo meo uomere cultus ager.</l>
+				<l n="5">Desere iam, Melibee, piros, steriles fuge uites:</l>
+				<l>Hic fructu fas est uberiore frui.</l>
+				<l>Hic uue nectar sapiunt, hic prodiga fructus</l>
+				<l>Cultori arridet planta nouella suo.</l>
+				<l>Falcem igitur propera, messem mete, collige fructum,</l>
+				<l n="10">Messoresque alios anticipare stude.</l>
+			</lg>
+			<pb n="909"/>
+			<div type="section">
+				<head><lb/>1. QUID SIT CONCLUSIO.</head>
+				<p><lb/>In qualibet facultate dicitur conclusio rationabilis a premissis illatio.
+					<lb/>Vnde, si quis uelit subtiliter intueri et ueritatem tueri, satis potest in
+					<lb/>eadem epistola conclusiones plurimas assignare. Huiusmodi autem subtilitas
+					<lb/>a mei operis arcetur ingressu, ne, si preter dictatorum consuetudinem
+					<lb/>loquar, diffidentia, que plerumque iuueniles auertit animos, mee
+					<lb/>fauorem absorbeat discipline. Dico ergo quod specificatum est apud
+					<lb/>dictatorem conclusionis uocabulum, ut dumtaxat dicatur conclusio epistole
+					<lb/>pars extrema in qua ostendit quid sibi uel alii postulet, uel ad quid precedentia
+				<lb/>induxerit qui epistolam destinauit.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2. QUARE CONCLUSIONEM NON HABEAT EPISTOLA.</head>
+				<p><lb/>Plerumque contingit quod conclusionem non habet epistola, quando
+					<lb/>scilicet narratio non precedit, et tunc illa dictaminis species petitio nuncupatur,
+					<lb/>hoc modo: <hi rend="italic">Ille illi salutem. Rogo te ne in auras superbie tuam humilitatem
+					<lb/>extollas, set maneas contentus a bonis hominum et humilitatis
+				<lb/>terminos non transcendas.</hi></p>
+				<p><lb/>Interdum ita narratio precedit quod conclusio non succedit, quando
+					<lb/>factum persone uel statum rei amico aliquis uel inimico insinuat, hoc modo:
+					<lb/><hi rend="italic">Gaufredus Martino salutem. Tibi, frater, mee cursum significo
+					<lb/>sospitatis. Licet enim Bononie sim hospes, sum tamen sospes in omnibus,
+				<lb/>ita quod mea incolumitas non indiget incremento.</hi></p>
+				<p><lb/>Similiter in excusationibus potest sola narratio salutationem sequi, hoc
+					<lb/>modo: <hi rend="italic">Vestris, pater, precibus mea impossibilitas obuiat: non enim dilectioni
+				<lb/>uestre illud possum transmittere quod in mea numquam extitit potestate.</hi></p>
+			</div>
+			<div type="section">
+				<head><lb/>3. CONCLUSIONIS SIGNA.</head>
+				<p><lb/>Signa conclusionis sunt: <hi rend="italic">Ergo, ideo, igitur, unde, hinc, inde, quam
+					<lb/>ob rem, quapropter, quocirca</hi>, et huiusmodi. Quandoque autem inconcinnitatum
+					<lb/>uulgus usque adeo conclusionem et ceteras epistole partes occupat
+					<lb/>et inuadit, ut coloribus rethoricis in epistola festiuare non liceat, infami
+				<lb/>uiciorum concilio prohibente.</p>
+			</div>
+			<pb n="910"/>
+			<div type="section">
+				<head><lb/>4. DE DIVERSIS VICIIS DICTAMINUM.</head>
+				<p><lb/>Set, ut citra ianuam uestrorum subsistat dictaminum omnis locutio
+					<lb/>uiciosa, regulas subsequentes extreme cellule commendetis, quarum
+					<lb/>hec est prima: Viciosum est gramatice legibus obuiare. Item uiciosum est
+					<lb/>orationis cursum usque ad ianuam prolixare fastidii. Omnis enim prolixitas
+					<lb/>procul est a fauore. Item uiciosum est eandem sententiam iterare,
+					<lb/>nisi color rethoricus interueniat qui dicitur conduplicatio. Tunc non
+					<lb/>erit repetitio eiusdem sententie ociosa, ut hic: <hi rend="italic">Tuum non amas filium, bone
+					<lb/>pater, tuum filium non amas.</hi> Item uiciosum est non obseruare proprietates
+					<lb/>personarum, ut quod laici est clerico et quod militis est rustico attribuatur,
+					<lb/>uel e conuerso. Sicut enim distincte sunt persone, sic distinctos
+					<lb/>debemus habere stilos, ad exprimendos uarios hominum mores, diuersa
+					<lb/>officia, dissimiles dignitates: rusticum incomposite decet loqui, militem
+					<lb/>curialiter, litterato loquendum est subtilius, et obtusius illitterato.
+					<lb/>Ita debet dictator uerba singulorum conditionibus conformare, ut in epistola,
+					<lb/>uelud in speculo tersiore, mittentis persone conditio possit
+				<lb/>legi.</p>
+				<p><lb/>Item uiciosum est ambiguis orationibus epistolam suspectam reddere.
+					<lb/>Ambiguas orationes uoco locutiones amphibologicas, quibus potest significationum
+					<lb/>multiplicitas assignari, ut: <hi rend="italic">Gressus perdet alibi transgressus
+					<lb/>maxima regna</hi> ; uel illud: <hi rend="italic">Vinum semper bibas modice numquam
+					<lb/>sine aqua</hi> ; uel aliter: <hi rend="italic">Amicos necesse est fieri inimicos.</hi> Tales locutiones et
+					<lb/>in dexteram et in sinistram possunt flecti, iuxta legentis modum
+					<lb/>et uoluntatem exponentis. Est alia ambiguitas ex equiuocatione proueniens,
+					<lb/>quando scilicet una dictio bis ponitur non in una significatione, set
+					<lb/>in diuersis. Non enim dictione semel posita utimur equiuoce. Et licet minus
+					<lb/>periti talem dictionum iterationem estiment uiciosam, sibi tamen uendicat
+				<lb/>nomen coloris quod traductio nominatur. Verbi causa:</p>
+				<p><lb/><hi rend="italic">Cur illud curas quod inducit curas? Cur te umquam exhibes letum? Certum
+				<lb/>namque prestolaris letum.</hi></p>
+				<p><lb/>Item uiciosum est quod nec prodest nec obest tractatui
+					<lb/>aggregare, ut si quis pro mutuanda pecunia sibi preces fundens,
+					<lb/>amicos suos factos esse uolatiles conqueratur. Non enim ad dandam
+					<lb/>pecuniam creditorem inducere poterit amicorum uolubilitas assignata.
+					<lb/>Item uiciosum est creber uocalium concursus, quia hiantem reddit
+					<lb/>orationem, hoc modo: <hi rend="italic">Mea anima abiecta ac misera est.</hi> Hoc autem dictatores
+					<pb n="911"/>
+					<lb/>cum rithmorum modulationibus sibi retineant speciale, ut quando
+					<lb/>aliqua dictio desinit in uocalem, sequens dictio non incipiat ab eadem uocali,
+					<lb/>nisi punctus interueniat. Viciosum est enim dicere: <hi rend="italic">Ero omni inimico
+					<lb/>obuius</hi>, quia uocales uolubiles habent sonos, et facilis est transitus similium
+					<lb/>ad similia. Quando uocalis uocali adheret, quandam sonorum
+					<lb/>confusionem parit, quod est contrarium nature dictaminum, que dilucida
+				<lb/>uolunt esse.</p>
+				<p><lb/>Item uiciosum est a sua prepositione recedere casuali, nisi genitiuus
+					<lb/>interueniat. Solus enim genitiuus potest interponi, ut hic: <hi rend="italic">Ad uestre celsitudinis
+					<lb/>preces plurimum erubesco: uestrum enim erat precipere, non precari.</hi>
+					<lb/>Similiter multe alie prepositiones possunt a casualibus disiungi mediante
+				<lb/>genitiuo.</p>
+				<p><lb/>Item uiciosum est dictamen quod rithmos uel uersus imitatur. Versum,
+					<lb/>ut hic: <hi rend="italic">Vobis, sancte, quidem erubesco scribere, pater.</hi> Rithmum, ut hic:
+					<lb/><hi rend="italic">Vestra, clemens domine, nouit celsitudo quod mea pauperies undique me ledit.</hi>
+					<lb/>Et certe imprudentis dictatoris est uersus et rithmos ad epistolarem
+					<lb/>tractatum admittere et stilo quo incepta est non concludere operis
+					<lb/>breuitatem. Versus tamen auctorum quandoque ueniam merentur et in
+				<lb/>epistola locum habent.</p>
+				<p><lb/>Item uiciosum est illum colorem qui dicitur 'similiter desinens' amplius
+					<lb/>quam semel in eadem clausula collocari, quia gerit rithmi uultum: et
+					<lb/>non solum a rithmo, sed etiam a specie rithmi abstinendum est.
+					<lb/>Item uiciosum est si tres dictiones eandem litteram terminalem habentes
+					<lb/>sibi continuentur hoc modo: <hi rend="italic">Mea bona domina me diligit.</hi> Tamen
+					<lb/>in salutatione e contra fieri licet, quia in ea, sicut in ceteris epistole
+				<lb/>partibus, non possunt uerba multipliciter uariari.</p>
+				<p><lb/>Item uiciosum est controuersantibus sententiis quodlibet inuestire
+					<lb/>dictamen. Pacata enim usque adeo debet esse sententiarum germanitas,
+				<lb/>ne primum medio, medium quoque discrepet imo.</p>
+				<p><lb/>Item uiciosum facit prolatorem uiciosa prolatio, quando puncta
+					<lb/>non fiant ubi fieri deberent, quia nichil adeo bene dictatum quin
+					<lb/>male narrando possit deprauari. Cautus itaque dictator prouideat ut per
+					<lb/>singulas constructiones sue cursum prolationis castiget, et distinctiones
+					<lb/>pertinentes ad eundem ordinem construendi proferat et quibusdam
+					<lb/>morulis nunc longis, nunc breuibus, nunc eleuata uoce, nunc mediocriter
+					<lb/>quiescenti, nunc sono depressiori globos constructionum discriminet
+				<lb/>uel disiungat.</p>
+				<pb n="912"/>
+				<p><lb/>Item uiciosum est a dictione trisillaba cuius penultima sit breuis
+					<lb/>clausulam inchoare, uel finire, nisi auctoritas interueniat, quia in huiusmodi
+					<lb/>dictionibus solent precipitari sillabe, nec est pulcrum dictatori
+					<lb/>aliquid ab impetu incipere uel cum impetu terminare. Unde dico quod
+					<lb/>ultima dictio clausule semper trisillaba uel tetrasillaba debet
+					<lb/>esse, ita quod penultima sillaba producatur. Si dictio tetrasillaba
+					<lb/>sit finalis, illa que precedit debet habere penultimam sillabam breuem,
+					<lb/>hoc modo: <hi rend="italic">Honestas preces semper repellere credimus inhonestum.</hi> Si uero
+					<lb/>trisillaba dictio clausulam claudat, penultime dictionis penultima sillaba
+					<lb/>debet esse longa, et ipsa penultima dictio debet esse quatuor uel plurium
+					<lb/>sillabarum, hoc modo: <hi rend="italic">Mores egregios superbia iactatrix inquinat et
+					<lb/>hominis honestatem inclinat.</hi> Nec refert utrum aliquis ponat duas
+					<lb/>dictiones disillabas uel unam monosillabam cum alia trisillaba
+					<lb/>loco unius tetrasillabe dictionis. Non enim interest an aliquid fiat an eius
+					<lb/>simile. In uno contingit loco tamen quod dictio habens penultimam
+					<lb/>breuem clausulam potest sine uicio terminare, quando color rethoricus
+					<lb/>intercidit qui <hi rend="italic">compar</hi> nominatur. Est autem compar color ex eo proueniens
+					<lb/>quod orationem continet ex pari fere numero sillabarum, hoc
+					<lb/>modo: <hi rend="italic">Vestra, pater, infirmitas mea est infirmitas. Vestre celsitudinis
+					<lb/>gaudium mee confert egestati solatium.</hi> Si autem queras quare in ea
+					<lb/>non sit uicium sicut alias solet esse, respondeo quia plus excusat color quam
+					<lb/>uicium accuset. Per hunc colorem etiam rithmi species excusatur, quam
+					<lb/>superius uiciosam esse ostensum est; set dico quod plus decorat
+				<lb/>color quam uicium decoloret.</p>
+				<p><lb/>Item uiciosum est nimis uulgariter loqui. Cauendum est enim ne, dum
+					<lb/>ad macras orationes et ad tractatus pueriles descendimus, nos ipsi
+				<lb/>pueri censeamur, cadentes in aridum et exangue.</p>
+				<p><lb/>Item uiciosum est eodem colore nimis frequenter uti. Sufficit enim bis
+					<lb/>uel ter eundem posuisse colorem, non continue set distantibus interuallis,
+					<lb/>quia gratius fulgebit oratio distinctis colorum sideribus illustrata.
+					<lb/>Hanc ubi detestabilem uiciorum familiam dictator et fugando fugerit
+					<lb/>et fugauerit fugiendo, beata et trabeata dictatoris oratio, suis superba
+					<lb/>monilibus, propter uicia satire conuicia non timebit, set ad fugam enormitatum
+					<lb/>non mediocriter gauisa, exterminata uiciorum barbarie, ubertim et
+					<lb/>gratia cumulabitur et fauore. Inconcinnitatis enim egressus euphonie
+					<lb/>operatur ingressum, sicut tenebrarum recedente fastidio dies ad nos
+				<lb/>reuertitur gratiosa.</p>
+				<pb n="913"/>
+				<lg>
+					<l>Hos a Gaufredo, ueneranda Bononia, cultus</l>
+					<l>Semper habe, gratumque geras quod gratia pandit.</l>
+					<l>Non merces, nec enim mercator spargere ueni</l>
+					<l>Venales titulos: gratas tibi dedico grates,</l>
+					<l n="5">Exiguum exiguo natum de cespite florem.</l>
+					<l>Ac tu quisquis habes alium dictaminis usum</l>
+					<l>Materiasque rudes meliori pollice ducis,</l>
+					<l>Parce, precor, nec opus tua suffocet ira nouellum:</l>
+					<l>Nulla etenim tenuem laus est euellere plantam,</l>
+					<l n="10">Nec decus est minimis iacturam infligere rebus.</l>
+				</lg>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

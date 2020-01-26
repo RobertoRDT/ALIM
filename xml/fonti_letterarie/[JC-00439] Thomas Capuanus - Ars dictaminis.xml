@@ -1,0 +1,790 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ars dictaminis</title>
+				<author>Thomas Capuanus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>E. Heller</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4128" unit="words">Parole: 4128</measure>
+				<measure quantity="26015" unit="characters_without_spaces">Caratteri (spazi esclusi): 26015</measure>
+				<measure quantity="29591" unit="characters_witht_spaces">Caratteri (spazi inclusi): 29591</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-06-15">15/06/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell' opera: c. 1209/10
+					Parole:4145
+					Caratteri:26293
+					[...] indicano correzioni congetturali dell' editore
+				GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Die Ars dictandi des Thomas von Capua</title>
+						<editor>E. Heller</editor>
+						<imprint>
+							<publisher>C. Winters Universitätsbuchhandlung</publisher>
+							<pubPlace>Heidelberg</pubPlace>
+							<date>1929</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Sitzungsberichte der Heidelberger Akademie der Wissenschaften. Philosophisch-historische Klasse</title>
+						<biblScope unit="volume">1928/29, 4 Abhandlung</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="10"/>
+		<div>
+			<head type="h_1"><lb/>I.</head> <head type="h_2">IN HOC PROEMIO REPREHENDUNTUR ILLI, QUI PRECIPITANT
+				<lb/>SENTENTIAS ET CONFUNDUNT IUDICIUM,
+				<lb/>PONENTES LUCEM TENEBRAS ET TENEBRAS IPSAM
+			<lb/>LUCEM.</head>
+			<p><lb/>Iuste iudicate, filii hominum, et nolite iudicare secundum
+				<lb/>faciem, sed iustum iudicium iudicate, ut ostendatis vos diligere iudicium
+				<lb/>et iustitiam, qui iudicatis terram. Etenim multi iudicium
+				<lb/>confundunt et precipitant sententias, qui nesciunt quid sit iudicium,
+				<lb/>et ab eis quid sit sententia penitus ignoratur. Sed ve illis, qui
+				<lb/>dicunt bonum malum, ponentes lucem tenebras et tenebras
+				<lb/>ipsam lucem, equum ab iniquo minime separantes nec licitum
+				<lb/>ab illicito discernentes, docentes quod non primario didicerunt,
+				<lb/>volare volentes, antequam pennas idoneas produxerint
+				<lb/>ad volandum, prestantes ducatum aliis, cum ipsi ducatu
+				<lb/>magis indigeant, obvoluti nubilo cecitatis, arbitrati aurichalcum
+				<pb n="11"/>
+				<lb/>esse aurum, et aurum non sunt veriti dicere aurichalcum.
+				<lb/>Sed neque insipiens sapientiam, neque asinus [civilitatem],
+			<lb/>neque porcus habebit in pretio margaritas.</p>
+		</div>
+		<div>
+			<head type="h_1"><lb/>II.</head> <head type="h_2">IN HOC PROEMIO REPREHENDUNTUR ILLI, QUI
+				<lb/>SINE PREHABITO MAGISTERIO FACIUNT SE DICTATORES,
+			<lb/>CUM NON SINT.</head>
+			<p><lb/>Celebris est et gloriosa Romana ecclesia, de sub cuius
+				<lb/>pedibus defluunt aque vive, et, velut ex fonte rivi, tam rerum
+				<lb/>omnium faciendarum quam tenendarum iura et dogmata derivantur
+				<lb/>usque scilicet ad speciem ornati dictaminis et decorem,
+				<lb/>in quo et per quod totius litteratorie professionis noscitur
+				<lb/>reflorere facultas, et omne bonum publicatum in lucem sese
+				<lb/>erigit clariorem. Eapropter Romane curie vestigiis inherentes,
+				<lb/>eius stili non indigne magisterium imitamur, confutato
+				<lb/>illorum errore, qui sine prehabito magisterio dictatores se
+				<lb/>faciunt, cum non sint, quin immo sine talis lucis lucerna in
+				<pb n="12"/>
+				<lb/>viam non meruerunt dirigi veritatis. Ideoque ad veram dictaminis
+				<lb/>speciem et celsitudinem contemplandam cuncta minus
+				<lb/>ad rem facientia, ne nostrum cursum impediant, exstirpemus,
+				<lb/>et utilia quelibet sub compendio perstringentes, quid sit dictamen
+				<lb/>et epistola videamus, presertim cum ipsorum varietatem
+				<lb/>et ordinem plenarie sentiamus, ita ut omnibus ad dictandi
+				<lb/>nuptias ianua patefiat, nisi eis dumtaxat exceptis, quorum
+			<lb/>oleo deficiente lampades exstinguuntur.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>1.</head> <head type="h_2">HIC DISTINGUIT, QUID SIT DICTAMEN.</head>
+			<p><lb/>Est ergo dictamen digna verborum et artificiosa
+				<lb/>congeries, cum pondere sententiarum et ordine dictionum,
+				<lb/>nihil intra se sustinens diminutum, nihil
+			<lb/>concipiens otiosum.</p>
+			<p>
+				<lb/>"Digna igitur et artificiosa congeries" appellatur,
+				<lb/>quia digne et ornate necesse est verba componi, ut recte dictioni
+				<lb/>dictio maritetur, et proprietati proprietas uniatur.
+				<pb n="13"/>
+				<lb/>"Cum pondere sententiarum" ideo dicitur, quia Prisciano
+				<lb/>docente, omnis synthesis ad intellectum referenda est,
+				<lb/>quoniam cum verba debeant deservire sententie, non bene
+				<lb/>stabit vocum edificium, quod non roborat sententie fundamentum.
+				<lb/>"Ordo dictionum" ideo inseritur, quia ordinande
+				<lb/>sunt in dictamine dictiones, sicut notabiliter inferius exprimetur.
+				<lb/>"Nihil diminutum" sustinens, nihil penitus
+				<lb/>concipiens otiosum" hoc ea ratione adicitur, quia si esset in
+				<lb/>aliquo diminutum, argueretur utpote defectivum, si otiosum
+				<lb/>aliquid contineret, damnaretur tamquam superfluo vitiosum.
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>2.</head> <head type="h_2">HIC DISTINGUIT TRIA GENERA DICTAMINUM, SC.
+				<lb/>PROSAICUM, METRICUM ET RHYTHMICUM, ET SUBIUNGIT
+			<lb/>DE MIXTIS.</head>
+			<p><lb/>Dictaminum vero genera tria sunt, a veteribus
+				<lb/>definita: prosaicum scilicet, metricum et rhythmicum;
+				<lb/>prosaicum ut Cassiodori metricum ut Virgilii,
+			<lb/>rhythmicum ut Primatis.</p>
+			<pb n="14"/>
+			<p>
+				<lb/>Prosaicum dicitur a proson grece, quod latine significat
+				<lb/>longum, quia in prosa licet alicui longius et latius aut quantumlibet
+				<lb/>castigatius evagari.
+			</p>
+			<p><lb/>Metricum denominatur a metron grece, quod est mensura
+				<lb/>latine, quia sub certa pedum et syllabarum mensura consistit.
+				<lb/>Rhythmicum dicitur a rhyma vel a rhythmon, quod
+				<lb/>est distinctio vel definitio, quia sub certa computatione syllabarum
+				<lb/>cum finali consonantia distinguitur sive etiam definitur
+				<pb n="15"/>
+				<lb/>Quod si ex hiis fiat commixtio, ex tali mixtura denominationem
+				<lb/>assumit, ut dicatur prosimetricum sive mixtum;
+				<lb/>unde dictamen Boethii veteres prosimetricum appellarunt. Sed
+				<lb/>quia de duobus ultimis nihil ad presens intendimus dicere, ad
+				<lb/>epistolare potissime iter nostrum, Dei invocato auxilio, dirigamus,
+			<lb/>quid sit epistola primordialiter attendentes.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>3.</head> <head type="h_2">HIC DISTINGUIT, QUID SIT EPISTOLA ET UNDE
+			<lb/>DENOMINETUR ET DICATUR.</head>
+			<p><lb/>Est ergo epistola litteralis legatio diversarum
+				<lb/>personarum capax, sumens principium cum effectu
+				<lb/>salutis. Denominata est autem epistola ab "epi", quod est
+				<pb n="16"/>
+				<lb/>supra, et "stolon", quod est missio; inde dicitur epistola quasi
+				<lb/>supramissio, quia supra intentionem mittentis gerere videtur
+				<lb/>ministerium nuntiantis, id est elegantius et locupletius
+				<lb/>in ea mentis explicatur affectus, quemadmodum faceret aliquotiens
+			<lb/>ipse nuntians vel delegans.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>4.</head> <head type="h_2">HIC DISTINGUIT QUINQUE PARTES EPISTOLE,
+			<lb/>QUE SINT ET UNDE DICANTUR.</head>
+			<p><lb/>Partes autem epistole sunt quinque a veteribus
+				<lb/>definite: salutatio scilicet, exordium sive benevolentie
+				<lb/>captatio, narratio, petitio et conclusio. Unde quoniam
+				<lb/>a salutatione sumit principium, digne de ipsa primordialiter
+			<lb/>est videndum.</p>
+		</div>
+		<pb n="17"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>5.</head> <head type="h_2">HIC DISTINGUIT QUID SIT SALUTATIO.</head>
+			<p><lb/>Dicta est autem salutatio salutis adoptio.</p>
+			<p>
+				<lb/>Illum enim salutamus, quem pure diligimus sanumque desideramus
+				<lb/>vivere ac iocundum. Non enim salutamus inimicos aut
+				<lb/>excommunicatos, sed cum mittentium nomina describuntur, aut
+				<lb/>apponuntur nomina simpliciter, talis descriptio pro titulo reputatur,
+				<lb/>quia qui scribit, cui scribitur, liquido expeditur. Si
+				<lb/>autem cum adiuncto nomina describuntur, illud quod adicitur,
+				<lb/>ubi salutatio poneretur, indignationis aut suasionis locum obtinet
+				<lb/>potius quam salutis.
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>6.</head> <head type="h_2">ITEM DE SALUTATIONE ET PLENIUS.</head>
+			<p><lb/>Et est notandum, quod salutatio largo modo accipitur, sive
+				<lb/>dicamus salutem, sive etiam captemus benevolentiam, quia vice
+				<lb/>salutationis accipitur, quodcumque bonum alicui affectatur vel
+				<lb/>devotionis causa humiliter exhibetut. Non enim magnos dominos
+				<lb/>salutamus, sed humiliantes capita nostra, eis reverentiam cum
+				<lb/>devotione offerimus et fide mentis desiderium explicamus. Salutare
+				<lb/>namque sicut et benedicere de auctoritate maiorum est, non
+				<lb/>de presumptione minorum; pares autem nostros vel parum
+			<lb/>maiores absque inurie discrimine salutamus.</p>
+		</div>
+		<pb n="18"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>7.</head> <head type="h_2">HIC DOCETUR, QUOD IN SALUTATIONE NULLA
+				<lb/>DICTIO IN PRIMA VEL IN SECUNDA PERSONA SED
+				<lb/>TOTA DEBET IN TERTIA PERSONA NOTARI, ET
+			<lb/>ASSIGNAT CAUSAM.</head>
+			<p><lb/>Salutatio sive mentis intentio tamen cum describitur, nulla
+				<lb/>dictio prime vel secunde persone debet in salutatione notari, quod
+				<lb/>ideo contingit in epistola, quia epistola loquitur inter absentes,
+				<lb/>et cum nos presentialiter loquimur, non in salutatione sed
+				<lb/>in captatione benevolentie potius exordimur, et inde est, quod
+				<lb/>quidam salutationem ipsam pro titulo reputarunt et partem esse
+			<lb/>prorsus epistole negaverunt.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>8.</head> <head type="h_2">HIC DISTINGUIT, QUOD SALUTATIO APUD QUOSDAM
+				<lb/>PER ACCUSATIVUM ET APUD QUOSDAM DESCRIBITUR
+			<lb/>PER DATIVUM.</head>
+			<p><lb/>Scribitur quoque salutatio per dativum et apud quosdam
+				<lb/>per accusativum; sed cum scribitur per dativum, intelliguntur
+				<lb/>ista verba: mittit, mandat, delegat et legat; cum autem scribitur
+				<lb/>per accusativum, intelliguntur ista verba scilicet: optat, cupit,
+				<pb n="19"/>
+				<lb/>desiderat et affectat; ex alterutra tamen parte intelliguntur
+				<lb/>verba indifferenter. Sed quod salutatio per accusativum scribatur,
+				<lb/>in usu hodie celebri non habetur. Sed emergit questio,
+				<lb/>quare verba mittentis affectum significantia in salutatione celentur,
+				<lb/>cum scriptum sit: "Lucius Catilina Quinto Catulo
+				<lb/>mittit salutem", et Ovidius: "Hanc tua Penelope lento tibi
+				<lb/>mittit Ulixes"? Ad quod plenarie respondemus: antiquos
+				<lb/>suo more fecisse, sed moderni quanto iuniores, tanto subtilius
+				<lb/>intuentes per identitatem, que mater satietatis est, limpidius
+				<lb/>contemplantur, quod explicato iam per nomina mentis
+				<lb/>affectu, ibi verba affectum significantia, tamquam supervacua
+				<lb/>ponerentur, vel possumus dicere, quod pre nimio mentis affectu
+				<lb/>celari debeant, utpote quando mens plus concipit, quam lingue
+				<lb/>possit officium explicare, sicut et in matre contingit, que cum
+				<lb/>desideratum diu filium recipere meruit, occurrens in amplexus
+				<pb n="20"/>
+				<lb/>filialis dulcedinis, latosque sinus expandens et oscula
+				<lb/>materna defigens, cum non possit in vocem salutis, in lacrimas
+			<lb/>erumpere cogitur pietatis.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>9.</head> <head type="h_2">INTRODUCTORIUM QUODDAM AD SALUTATIONES
+			<lb/>ORDINANDAS.</head>
+			<p><lb/>Ad universitatem tamen omnium salutationum, que fieri
+				<lb/>possunt, a modernis sunt notule introducte, scilicet gratia,
+				<lb/>post titulum ordo, cleri mansuetudo; [sed] virtus,
+				<lb/>linea, conditio, dilectio, patria, cognitio, laus, locus
+				<lb/>et dignitas, [si laici] etiam contineantur. Primi
+				<lb/>duo versiculi sunt ex parte mittentis, quando scilicet
+				<lb/>suum nomen preponere debet ille, qui mittit; primus
+				<lb/>versiculus est in clero, reliqui extra clerum, videlicet
+				<pb n="21"/>
+				<lb/>quod prelatus scribens, preposito suo nomine, debet scribere
+				<lb/>Dei gratia, postea debet ponere suum titulum, i. e. nomen ecclesie,
+				<lb/>ad quam noscitur titulatus, ord[inem], si sit archiepiscopus,
+				<lb/>vel episcopus, sive abbas, cleri mansuetud[inem],
+				<lb/>quia debet dicere "licet indignus, quamvis immeritus, etiam suffragantibus
+				<lb/>meritis". Iste quoque versiculus solet suo loco
+				<lb/>laicis potentioribus adaptari, posito in loco ecclesie laicalis
+			<lb/>nomine dignitatis, et quod se immeritos non appellent.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>10.</head> <head type="h_2">HIC DOCET, QUOD SALUTATIO SIT DIVERSIMODE
+			<lb/>ORDINANDA.</head>
+			<p><lb/>Et est notandum, quod magnus semper potest dicere Dei
+				<lb/>gratia, nisi scribat summo pontifici vel regi, eo quod tunc hoc
+				<lb/>possit et debeat humilitatis causa tacere; nam summus pontifex
+				<lb/>nunquam ponit in suis litteris Dei gratia, sed quia imitator est
+				<lb/>humilis Christi, dicit: "Innocentius episcopus, servus
+				<lb/>servorum Dei etc.". Et est notandum, quod mediocres
+				<lb/>vel minores persone non debent de se dicere Dei gratia, quia
+				<lb/>quodammodo hoc verbum arrogantium, vel dignitatem magnam,
+				<lb/>vel magnificentiam importare videtur. Electus autem
+				<pb n="22"/>
+				<lb/>aliquis in episcopum vel magnum abbatem potest dicere Dei
+				<lb/>gratia. Electus autem in Romanum pontificem non dicit Dei
+				<lb/>gratia secundum propositam rationem. Unde dicit: " Gregorius
+				<lb/>in pontificem Romanum electus, servus servorum dei".
+				<lb/>Reliqui vero duo versiculi sunt ex parte recipientis
+				<lb/>et ita intelliguntur: laus etc., i. e. nomina laudem
+				<lb/>significantia, debent recipienti ascribi, ut sic in dignitate
+				<lb/>constituto dicatur: "sanctissimo in Christo patri, vel venerabili,
+				<lb/>vel reverendo, vel metuendo, vel colendo", et hoc in clericis.
+				<lb/>Et est notandum, quod extra clerum dicitur: "egregio viro,
+				<lb/>victoriosissimo principi, magnifico domino, illustri duci etc.,
+				<lb/>reliquis autem: "prudenti, sapienti, litterato, discreto" secundum
+				<lb/>genera singulorum. Locus autem et dignitas proprie
+				<lb/>servari debent clericis et laicis, dicendo: "talis loci
+				<lb/>pontifici vel presidi"; et honorantur clerici, scilicet cum
+				<lb/>dicitur eis: "dignissimo et benemerito", et laici honorantur,
+			<lb/>cum dicitur eis scilicet: "potentissimo et ab hostibus metuendo".</p>
+		</div>
+		<pb n="23"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>11.</head> <head type="h_2">QUALITER SCRIBATUR MAIORIBUS EXTRA CLERUM.</head>
+			<p><lb/>Et est notandum, quod sive maior scribat minori, sive minor
+				<lb/>maiori, maior persona semper prefertur; si vero par pari, recipientis
+				<lb/>persona prefertur; si vero mediocris persona scribat
+			<lb/>paulo minori, scribentis arbitrio relinquatur.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>12.</head> <head type="h_2">QUALITER SCRIBAT SUMMUS PONTIFEX IMPERATORI
+				<lb/>VEL IMPERATRICI, REGI VEL PRINCIPI, CARDINALIBUS,
+				<lb/>ARCHIEPISCOPIS, EXCOMMUNICATIS ET
+			<lb/>ALIIS IN CLERO ET EXTRA CLERUM.</head>
+			<p><lb/>Ad maiorem autem evidentiam exempla salutationum in
+				<lb/>omni quasi genere statuamus apponi et primo salutationem
+				<lb/>summi pontificis, qualiter ipse scribat: "Honorius
+				<lb/>episcopus etc. carissimo in Christo filio F., illustri
+				<lb/>Romanorum imperatori et semper augusto,
+				<pb n="24"/>
+				<lb/>salutem et apostolicam benedictionem". In eundem
+				<lb/>modum imperatrici, quia solus imperator augustus dicitur
+			<lb/>et sola imperatrix augusta.</p>
+			<p>
+				<lb/>Reges autem et maiores principes illustres appellantur",
+				<lb/>et dicit regibus et reginis: "carissimo in Christo
+				<lb/>filio", ceteris vero inferioribus: "dilectis filiis" tantum;
+				<lb/>universis autem differenter dicit: "salutem et apostolicam
+				<lb/>benedictionem", qua eius salutatio non mutatur, nisi paganis
+				<lb/>et excommunicatis, quibus cum scribit, aut omnino tacet,
+				<lb/>aut cum deberet dicere salutem et apostolicam benedictionem,
+				<lb/>dicit: "redire ad cor et viam agnoscere veritatis", vel "spiritum
+				<lb/>consilii sanioris", vel" "Deum diligere ac timere" et
+				<lb/>similia. Tales enim dilectionis et filiationis nomine censet indignos.
+				<lb/>In clero autem, si sit episcopus vel supra, dicit:
+				<lb/>"venerabili fratri", si vero fuerit simplex abbas vel presbyter
+				<lb/>cardinalis, scribit ei: "dilecto in Christo filio". Aliis vero
+				<lb/>omnibus clericis et laicis dicit: "dilectis filiis" tantum.
+				<pb n="25"/>
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>13.</head> <head type="h_2">ITEM DE EODEM ET PLENIUS.</head>
+			<p><lb/>Et est notandum, quod sive summus pontifex scribat, sive
+				<lb/>scribatur ei, semper suum nomen prefertur; similiter nomen
+				<lb/>imperatoris omni homini preterquam Romano pontifici noscitur
+				<lb/>preferendum. Alii autem pontifices et prelati scribentes suis
+				<lb/>subditis sua nomina preferunt, nisi forte sit metropolitanus
+				<lb/>aliquis, qui preponat sibi nomen sui suffraganei causa
+				<lb/>humilitatis et dicat: "salutem et sinceram in domino caritatem",
+				<lb/>si talis sit, quod hoc ei iuste dicere possit, vel
+				<lb/>"salutem et benedictionem", vel "salutem et sincerum amorem",
+				<lb/>vel "de bono in melius feliciter prosperari", vel "felicibus in
+			<lb/>domino successibus habundare.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>14.</head> <head type="h_2">QUALITER SCRIBATUR SUMMO PONTIFICI EXTRA
+			<lb/>CLERUM.</head>
+			<p><lb/>Summo pontifici ita scribitur extra clerum: "Sanctissimo
+				<lb/>in Christo patri ac domino H., Dei gratia
+				<lb/>sacrosancte Romane ac universalis ecclesie summo
+				<lb/>pontifici, Fredericus, eadem gratia Romanorum
+				<pb n="26"/>
+				<lb/>imperator, semper augustus, salutem cum omnimoda
+			<lb/>reverentia subiectionis.</p>
+			<p>
+				<lb/>Aliis autem omnibus dicit imperator: "gratiam suam et
+				<lb/>bonam voluntatem.
+			</p>
+			<p><lb/>Reges quoque et alii scribunt summo pontifici et aliis,
+			<lb/>ut predictum est, pro sue arbitrio voluntatis.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>15.</head> <head type="h_2">QUALITER SCRIBATUR SUMMO PONTIFICI IN CLERO.</head>
+			<p><lb/>In clero scribitur summo pontifici pro voluntate
+				<lb/>mittentis, utpote: "sanctissimo in Christo patri et domino", vel
+				<lb/>"reverendo", vel "colendo", vel "metuendo patri, benefactori
+				<lb/>et domino"; vel aliter: "domino sancto; meritisque beato,
+				<lb/>domino G., dei gratia sacrosancte etc., debitam cum devotione
+				<lb/>reverentiam", vel "reverentiam cum orationum instantia", vel
+				<lb/>"tam prompte, quam debite reverentie famulatum"; et quidam
+			<lb/>adiciunt "naviculam Petri feliciter gubernare.</p>
+			<p><lb/>In eundem quasi modum episcopis cardinalibus
+				<lb/>scribere possumus suo loco. Sed nota, quod, si fuerit presbyter
+				<lb/>cardinalis, dicimus ita: "venerabili in Christo
+				<pb n="27"/>
+				<lb/>patri, dei gratia tituli sancte Sabine presbytero
+				<lb/>cardinali"; si vero fuerit diaconus cardinalis, dicimus
+				<lb/>"sancti Adrian diacono cardinali"; non enim dicimus
+				<lb/>"tituli", quia cardinales diaconi non habent ecclesias baptismales,
+				<lb/>et tituli nihil aliud sonat in parte ista quam ecclesia baptismalis,
+				<lb/>et dicitur "tituli Calixti", vel "tituli Pastoris"
+				<lb/>ab ipso scilicet ecclesie fundatore. Unica tamen est ecclesia
+				<lb/>Romana, que, licet sit baptismalis, non dicitur tituli, sed
+				<lb/>dicitur antonomastice "basilice duodecim apostolorum
+				<lb/>presbytero cardinali" Eis autem minores, gratia reverentie,
+				<lb/>salutem dicere non presumunt sed: "devotionem cum
+				<lb/>reverentia", "vel obedientiam et reverentiam cum salute", vel
+				<lb/>"tam promptam" in omnibus reverentiam quam devotam".
+				<lb/>Prelatorum autem est dicere inter se "salutem in eo, qui
+				<lb/>est salutis auctor", vel "salutem et sinceram in domino caritatem".
+				<lb/>Monialibus quoque dicimus: "salutem et prosperitatem
+				<lb/>in eo, cui angeli serviunt, et cuius pulchritudinem sol et luna
+				<lb/>mirantur".
+				<pb n="28"/>
+				<lb/>"salutem et reverentiam", vel "in oratione constantiam", vel
+				<lb/>"de cursu bravium, de labore denarium et gaudium consequi
+				<lb/>sempiternum", vel "ad fructum centesimum pervenire",
+				<lb/>vel "Deum facie ad faciem contemplari, vel "salutem et
+				<lb/>illam quam mundus dare non potest pacem.
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>16.</head> <head type="h_2">QUALITER SCRIBATUR IMPERATORI.</head>
+			<p><lb/>Imperatori scribitur in hunc modum: "victoriosissimo
+				<lb/>et gloriosissimo domino Frederico, dei
+				<lb/>gratia Romanorum imperatori etc., talis de inimicis
+				<lb/>triumphum", vel "parcere prostratis et debellare
+				<lb/>superbos", vel "spiritu consilii et timoris domini habundare"
+				<lb/>vel "robore accingi fortitudinis et virtutis", vel "salutem, per
+				<lb/>quam reges regnant et principes dominantur, et potentes
+			<lb/>etiam tenent terram."</p>
+			<p>
+				<lb/>Hec quoque salutationes possunt regibus adaptari, nisi
+				<lb/>quod reges augusti minime nuncupantur.
+			</p>
+		</div>
+		<pb n="29"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>17.</head> <head type="h_2">SALUTATIO PATRIS AD FILIUM ET E CONVERSO.</head>
+			<p><lb/>Pater filio dicit: "salutem cum benedictione paterna", vel
+				<lb/>"de bono in melius augmentari" vel "feliciter prosperari", vel
+				<lb/>"benedictionem, quam Isaac et Iacob a domino habuerunt".
+				<lb/>Filius dicit patri: "salutem et reverentiam filialem"; potest
+			<lb/>tamen, si vult, gratia reverentie tacere salutem.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>18.</head> <head type="h_2">QUALITER SCRIBATUR MAGISTRIS ET ALIIS LITTERATIS.</head>
+			<p><lb/>Magistris et aliis litteratis scribitur in hunc modum:
+				<lb/>"septiformi studiorum lampade renitenti", vel "litterarum scientia
+				<lb/>redimito", vel "floribus eloquentie purpurato", vel "eximie prudentie"
+				<lb/>vel "exquisite peritie viro, canonici et civilis iuris perito",
+				<lb/>vel "spectabilis eloquentie ac morum prerogativa conspicuo et
+				<lb/>honestatis gloria rutilanti" et similia, ita tamen, ut "singula
+				<lb/>queque locum teneant sortita decenter". Eis autem dicimus:
+				<lb/>"salutem, per quam opportet ad felicis et optate scientie culmina
+				<pb n="30"/>
+				<lb/>pervenire", vel "ea docere in terris, que placeant in excelsis",
+				<lb/>vel "salutem et haurire aquas cum gaudio de fontibus scientie
+			<lb/>salutaris".</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>19.</head> <head type="h_2">QUALITER MILITES SALUTENTUR.</head>
+			<p><lb/>Milites autem et amici communiter salutantur. Eis autem
+				<lb/>dicimus: "egregio viro et strenuo militi, cingulo militie decorato,
+				<lb/>salutem et robore accingi fortitudinis et virtutis", vel "salutem
+				<lb/>et feliciter gubernare cingulum glorie militaris, et cui militaris
+			<lb/>gloria laudes in bellis plurimas acquisivit."</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>20.</head> <head type="h_2">QUALITER AMICI AD INVICEM SALUTENTUR.</head>
+			<p><lb/>Amicis dicimus: "intimo et precordiali", vel "dilecto et
+				<lb/>speciali", vel "benemerito et vere caritatis visceribus amplexato
+				<lb/>et fortius amplexando" et similia "salutem et prosperos ad vota
+				<lb/>successus", vel "salutem et prosperitatem ac vite longitudinem
+				<lb/>et dierum", vel "votivis in domino successibus habundare", vel
+			<lb/>"votiva et continua perfrui sospitate".</p>
+			<p>
+				<lb/>Inimicis et excommunicatis, sublato salutationis
+				<lb/>oraculo, sic dicimus: "sic transire per bona temporalia, ut
+				<lb/>non amittatis eterna", vel "redire ad cor et viam agnoscere
+				<lb/>veritatis."
+				<pb n="31"/>
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>21.</head> <head type="h_2">DICTO DE SALUTATIONIBUS, DISTINGUIT DE
+			<lb/>EXORDIO.</head>
+			<p><lb/>Exordium sive benevolentie captatio est benigna
+				<lb/>verborum eloquentia, quadam attentione
+				<lb/>alliciens animos auditorum et dignitatem seu qualitatem
+				<lb/>personarum tam in clero quam extra clerum
+			<lb/>sollicite observans ac diligenter attendens.</p>
+			<p>
+				<lb/>"Benigna verborum eloquentia" ideo dicitur, quia
+				<lb/>cum aliquid alicui suadere vel dissuadere intendimus, cum benevolentia,
+				<lb/>que humilitatem importat, non sine quodam adulationis
+				<lb/>applausu rationem inducendo, que foveat partem nostram,
+				<lb/>reddere debemus nobis animos auditorum benevolos et attentos.
+				<lb/>"Dignitatem personarum et qualitatem" circa exordium
+				<lb/>dicimus attendendam, quia, si sit digna persona, i. e. in
+				<lb/>dignitatis solio constituta, sive persona mittentis sive recipientis
+				<lb/>loquatur, decens tamen sublimitas mediocriter inter eos servetur;
+				<lb/>et omnium ordo sive qualitas attendenda est, quoniam
+				<lb/>aliter discolis et aliter loquendum est lectione multimoda
+				<lb/>satiatis, aliter elatis animis et aures habentibus delicatas et
+				<lb/>aliter placidis mentibus est dicendum.
+				<pb n="32"/>
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>22.</head> <head type="h_2">ITEM DE EODEM ET PLENIUS.</head>
+			<p><lb/>Et nota quod sicut alii cuicumque diceres ore ad os, ita
+				<lb/>nulla ratione dubites exordiri ac scribere, quecumque in mentis
+				<lb/>armario concepisti, narrationem exordio sine medio complectendo,
+				<lb/>[sed] ut congruit res gestas vel ea, que geri posse
+				<lb/>videbuntur, cum diligentia exponamus; que
+				<lb/>quidem expositio debet esse brevis, probabilis et aperta,
+				<lb/>ut si de Troiana ruina loqui volumus, non ab ovo gemmino
+				<lb/>initium capiamus sed a raptu Helene, que causa
+				<lb/>exstitit procul dubio destructionis; " aperta", si ordinem
+				<lb/>rerum gestarum servaverimus, "probabilis" erit, si tempus
+				<lb/>et locum ostendimus, ad rem facientia semper vere vel
+			<lb/>saltem verisimiliter explicantes.</p>
+		</div>
+		<pb n="33"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>23.</head> <head type="h_2">HIC DISTINGUIT DE PETITIONE.</head>
+			<p><lb/>Petitio est oratio, per quam aliquid postulamus,
+				<lb/>quod sit iustum, utile et necessarium; unde Cato:
+				<lb/>"quod iustum est petito, vel quod videatur honestum". Si
+				<lb/>erit honestum, erit iustum et utile; necessarium autem erit,
+				<lb/>si evidens necessitas intercedat. Unde hic nota breviter,
+				<lb/>quod petitionis libellus, principi de more porrectus, ex sola
+			<lb/>narratione et petitione consistit vel ex sola petitione dumtaxat.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>24.</head> <head type="h_2">HIC DISTINGUIT DE CONCLUSIONE.</head>
+			<p><lb/>Conclusio est oratio, per quam epistola limitatur,
+				<lb/>clauditur et finitur, ostendendo, quid commodi
+				<lb/>vel incommodi ex re premissa sequatur. Et ut
+				<lb/>super hiis omnibus epistole partibus veritas nobis eluceat
+				<lb/>in exemplis, exempla tamen in hac sequenti epistola colligamus,
+				<lb/>que a principibus orbis terre ad summum pontificem
+			<lb/>conscribitur in hunc modum:</p>
+		</div>
+		<pb n="34"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>25.</head> <head type="h_2">IN HAC EPISTOLA REGES, PRELATI ET PRINCIPES
+				<lb/>OCCIDENTIS ROGANT PAPAM, UT CONFERAT IMPERIUM
+				<lb/>UNI DUORUM LITIGANTIUM ET OBTINENTI PRESTET
+			<lb/>FAVOREM APOSTOLICUM.</head>
+			<p><lb/>Domino sancto meritisque beato J., Dei gratia sacrosancte
+				<lb/>Romane et universalis ecclesie summo pontifici, Philippus
+				<lb/>eadem gratia Francie et J[ohannes] Anglie reges, ecclesiarum
+				<lb/>prelati ac duces omnes et principes de partibus occidentis
+				<lb/>salutem et omnimodam reverentiam in Christo Jesu et Petro.
+				<lb/>(exordium) Celestis altitudo consilii sue volens ecclesie
+				<lb/>consulere firmitati, duarum eam censuit columnarum sustentamine
+				<lb/>fulciendam, sacerdotio videlicet atque regno, quorum
+				<lb/>alterius gubernaculo sacerdotalem, alterius vero imperialem
+				<lb/>dignitatem censuit preferendam"; et ad hoc duas elegit et constituit
+				<lb/>in mundi regimine potestates, ut quod una non potest
+				<lb/>verbo, compleat altera ferro, et quod una non potest per
+				<lb/>spiritualem gladium, altera per materialem non differat
+				<lb/>coercere, ne forte urgente tempestate interius, que talium
+				<lb/>debet dextera tranquillari, concutiatur et mutetur" machina
+				<lb/>mundialis. (narratio) Quantis igitur angustiis et pressuris.
+				<pb n="35"/>
+				<lb/>quantis hodie christianitas procellarum spiritibus et turbinum
+				<lb/>fluctibus agitetur, apostolicam latere non credimus sanctitatem
+				<lb/>cum extrinsecus hostilitates impugnent, et intrinsecus bella
+				<lb/>surgant intestina, quoniam ex oriente contra terram sanctam
+				<lb/>et ex occidente contra Christi charactere insignitos christiani
+				<lb/>nominis seviunt inimici et, quod formidolosius est, seditiones et
+				<lb/>guerras inter se fatere non desinunt christiani. (petitio)
+				<lb/>Eapropter beatitudinem vestram supplicum precum instantia
+				<lb/>multipliciter in domino flagitamus, quatenus ad christianitatis
+				<lb/>statum apostolice considerationis aciem propensius attendentes,
+				<lb/>uni duorum istorum, P, videlicet vel O., qui de imperii
+				<lb/>dignitate contendunt, vel cuilibet alii digno clementer annuere
+				<lb/>et favorem velitis apostolicum impertiri, (conclusio) ita quod
+				<lb/>de cetero in tanti periculum et iacturam discriminis non compellatur
+				<lb/>militia Jesu Christi, sed previa misericordia salvatoris
+				<lb/>et circumspectionis vestre prudentia faciente nec non interveniente
+				<lb/>principe christiano cuiuslibet obscuritatis nubila propulsentur,
+				<lb/>ac adversarii nihilominus arceantur, et christiani
+				<lb/>nominis professores grati decoris gloriam et optate serenitatis
+			<lb/>sibi provenisse congaudeant claritatem.</p>
+		</div>
+		<pb n="36"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>26.</head> <head type="h_2">DISTINCTIS QUINQUE PARTIBUS EPISTOLE, DICIT
+				<lb/>EAM ALIQUANDO CONSTARE EX QUATTUOR PARTIBUS,
+				<lb/>SEPE EX TRIBUS, INTERDUM EX DUABUS, NONNUMQUAM
+			<lb/>EX UNA, ET DE SINGULIS PONIT EXEMPLA.</head>
+			<p><lb/>Nunc vero quibus modis ex suis partibus constare contingat
+				<lb/>epistolam videamus. Constat autem post salutationem
+				<lb/>epistola interdum ex quattuor partibus, sepe ex tribus,
+			<lb/>interdum ex duabus, nonnunquam" ex una tantum.</p>
+			<p>
+				<lb/>Ex quattuor constabit, i. e. exordio, narratione, petitione
+				<lb/>et conclusione, hoc modo: (ecce exordium) "Sopiendarum
+				<lb/>litium iura tenet sedis apostolice moderamen. (narratio)
+				<lb/>Sane suggestum est apostolatui nostro, quod inter venerabiles
+				<lb/>frares nostros H., Ferrariensem et G., Bononiensem
+				<lb/>episcopos super limitibus utriusque dioecesis odium inveterate
+				<lb/>controversie communiter recrudescit. (petitio) Ideoque
+				<pb n="37"/>
+				<lb/>discretioni vestre per apostolica scripta mandamus, quatenus
+				<lb/>partibus convocatis super controversia ipsa, omni appellatione
+				<lb/>et occasione cessantibus, nostra freti auctoritate finem debitum
+				<lb/>imponatis, (conclusio) ita quod nulla de cetero
+				<lb/>hinc inde remaneat materia malignandi.
+			</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>27.</head> <head type="h_2">HIC DICIT, QUOD EX TRIBUS VEL EX DUABUS
+				<lb/>PARTIBUS SUPRADICTIS VEL EX UNA TANTUM CONSTABIT
+			<lb/>EPISTOLA, ET PONIT EXEMPLA.</head>
+			<p><lb/>Constabit autem epistola ex tribus partibus supradictis,
+				<lb/>si exordium sive conclusio subtrahatur; ex duabus vero constabit,
+				<lb/>scilicet exordio et petitione, vel ex narratione
+				<lb/>solum et petitione constabit; ex una tantum constabit,
+				<lb/>scilicet ex sola narratione dumtaxat ut in hoc exemplo:
+				<lb/>"Noveritis dominum [I]. esse per dei gratiam ad
+				<lb/>apicem summi pontificatus assumptum, et dominum
+				<pb n="38"/>
+				<lb/>O. ad imperialium culmina fascium tam
+				<lb/>repentinis quam felicibus successibus evolasse".
+			<lb/>A simili intentione dicimus, quod ex sola posset petitione consistere.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>28.</head> <head type="h_2">HIC DOCETUR, QUOD EX TRIBUS NEC EX DUABUS
+				<lb/>PARTIBUS EX HIIS TRIBUS, SCILICET SALUTATIONE,
+				<lb/>EXORDIO ET CONCLUSIONE, EPISTOLA STARE NON
+				<lb/>POTEST, QUAM NONNUMQUAM SINE SALUTATIONE
+				<lb/>FIERI CONTINGIT, PROUT PONIT EXEMPLUM ET
+				<lb/>SUBDIT, QUOD ROMANA CURIA TAXAT EPISTOLAM IN
+				<lb/>QUATTUOR PARTIBUS, SEPE TRIBUS, INTERDUM
+				<lb/>DUABUS, NONNUMQUAM UNA, ET DE SINGULIS
+			<lb/>DANTUR EXEMPLA.</head>
+			<p><lb/>Ex salutatione vero, exordio et conclusione, vel ex duabus
+				<lb/>ex hiis, epistolaris compago subsistere non valebit. Sine
+				<lb/>salutatione quoque fieri contingit epistolam, veluti gratiam
+				<pb n="39"/>
+				<lb/>faciente[m], prout ponit Sallustius, ita dicens: "Quis sim
+			<lb/>ex eo, quod ad te misi, cognoscere potes.</p>
+			<p>
+				<lb/>Sed Romana curia pretaxat interdum quattuor partes
+				<lb/>epistole, quas interdum sub ipsis quattuor pretaxat versiculis,
+				<lb/>interdum sub tribus, interdum sub duobus, interdum
+				<lb/>sub unico et singulari concludit versiculo.
+			</p>
+			<p><lb/>[V]ideamus: Sub quattuor autem distinguit versiculis,
+			<lb/>ut predictum est in epistola supradicta.</p>
+			<p>
+				<lb/>In tribus plene concludit, scilicet dum exordium et narrationem
+				<lb/>per causativum signum, quod est coniunctio "quia"
+				<lb/>et "quoniam", sub uno versiculo concipit in hunc modum:
+				<lb/>"Quia sopiendarum litium iura tenet sedis apostolice moderamen,
+				<lb/>suggestum est apostolatui nostro" etc. usque in finem. Item
+				<lb/>in [tribus] versiculis concludit, scilicet exordio et narratione et
+				<lb/>sigillatim et distincte receptis, petitioni conclusionem annectens;
+				<lb/>tertium constituit versiculum per hoc adverbium taliter,
+				<lb/>ut in exemplis dicitur supradictis.
+				<pb n="40"/>
+			</p>
+			<p><lb/>In duobus quoque versiculis comprehenduntur, supra
+				<lb/>causativum signum scilicet exordio et narratione in unum
+				<lb/>collectis, sed conclusio [petitioni] per hoc adverbium "ita"
+				<lb/>vel "taliter" annectatur, ut puta si dicatur hoc modo "finem
+				<lb/>debitum taliter imponatis, ut nulla de cetero causa remaneat
+				<lb/>malignandi". Alio etiam modo sub [duobus] versiculis
+				<lb/>epistola concludi potest, scilicet si exordium [et] narratio per
+				<lb/>conditionale signum, quod est hec coniunctio "si" vel "cum"
+				<lb/>sub uno versiculo colligantur" hoc modo: "Cum sopiendarum litium
+				<lb/>iura teneat etc. usque moderamen [et] suggestum [sit]
+				<lb/>apostolatui nostro etc. usque recrudescit, discretioni vestre"
+			<lb/>etc. usque in finem.</p>
+			<p>
+				<lb/>In uno demum versiculo potest epistola comprehendi, si
+				<lb/>collectis omnibus per hoc conditionale signum, ut diximus,
+				<lb/>conclusio petitioni, ut predictum est, per predictum adverbium
+				<lb/>taliter vel aliud sibi simile annectatur.
+			</p>
+			<p><lb/>Nec est silentio transeundum, quod Romana curia gratia
+				<lb/>talis compendii faciendi ponit persepe ipsum exordium ut
+				<lb/>ipsam narrationem vel cause redditionem, cum signo conditionali
+				<pb n="41"/>
+				<lb/>vel causativo post hanc coniunctionem "quod" in
+				<lb/>narratione positam, vel post hanc coniunctionem "quatenus"
+				<lb/>in petitione locatam; verbi gratia in narratione hoc
+				<lb/>modo: "Miramur quod, cum sitis cultores fidei et
+				<lb/>concordie, discordiam confovetis"; in petitione vero hoc modo:
+				<lb/>"quatenus, cum militetis in ordine nec in ordine ordinem
+				<lb/>observetis, divine possitis et merito formidare iudicium
+			<lb/>ultionis".</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>29.</head> <head type="h_2">PROOEMIUM CONTRA MALE CONIECTURANTES.</head>
+			<p><lb/>Romana curia non patitur coniecturas, que verbis exponi
+				<lb/>minime patiuntur, quia multa possunt in mente concipi, que non
+				<lb/>valent narrationibus explicari, eo quod nec omnium, que scripta
+			<lb/>sunt, ratio reddi potest.</p>
+		</div>
+		<pb n="42"/>
+		<div type="chapter">
+			<head type="h_1"><lb/>30.</head> <head type="h_2">HIC DISTINGUIT TRES DISTINCTIONES, QUE CONSIDERANTUR
+				<lb/>IN QUOLIBET PERFECTO DICTAMINE, ET
+			<lb/>DE SINGULIS DANTUR EXEMPLA.</head>
+			<p><lb/>De compositiones epistolarum satis plenarie videmur superius
+				<lb/>ostendisse. Verum quia non sufficit vas ex auro consistere, nisi
+				<lb/>celature sit artificio decoratum, immo illud semper est optimum,
+				<lb/>quod noscitur ad decorem, sciendum occurit, quod in quolibet
+				<lb/>dictamine tres considerantur existere distinctiones, quarum
+				<lb/>prima coma, secunda cola, tertia periodus appellatur.
+				<lb/>Coma est punctum cum virgula superius ducta, quando scilicet
+				<lb/>adhuc suspensus permanet animus auditoris. Cola est
+				<lb/>punctum planum, cum animus auditoris necesse non habet
+				<lb/>aliud expectare, et tamen aliquid addi potest. Periodus est
+				<lb/>punctum planum cum virgula inferius ducta, quando
+				<lb/>scilicet animus auditoris nec amplius expectat, nec amplius
+				<lb/>adicere querit intentio proponentis, ut in hoc exemplo:
+				<pb n="43"/>
+				<lb/>"Iuris gentium est ! ut sit nobis erga Deum religio et ut parentibus
+				<lb/>et patrie pareamus" ; Cum enim dico: "Iuris gentium est", hic est
+				<lb/>coma, i. e. punctum planum cum virgula superius ducta, quia
+				<lb/>adhuc suspensus remanet animus auditoris. Cum autem subiungo
+				<lb/>"ut sit nobis erga Deum religio" ibi est cola, i. e. puntum
+				<lb/>sine virgula superius vel inferius ducta, licet amplius addi
+				<lb/>possit; cum autem adicio: "ut parentibus et patrie pareamus",
+				<lb/>ibi est periodus perfecta, i. e. punctum" cum virgula
+				<lb/>inferius flexa, eo quod audiens amplius non expectat, et proponens
+				<lb/>ulterius adicere non intendit. Et est notandum,
+				<lb/>quod non refert utrum unum membrum vel plura membra periodum
+			<lb/>faciant, sicut plura membra faciunt unum corpus.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>31.</head> <head type="h_2">PROEMIUM CONTRA MALE DOCTOS.</head>
+			<p><lb/>Ecclesia domini filios desiderat eruditos. Ideo clericus ignorantie
+				<lb/>tenebris offuscatus tamquam lampas mortua comprobatur,
+				<pb n="44"/>
+				<lb/>et ideo non indigne censui prelibanda, quoniam in libro, quem
+				<lb/>appellamus allegoriam Boëthii iunioris, de veste philosophie ac
+				<lb/>dilaceratione ipsius est probabiliter disceptatum et sufficienter
+				<lb/>enucleatum, que ars artium et scientia scientiarum ac philosophie
+				<lb/>vestis ornatus dicitur et corona; hec multiformi calculo
+				<lb/>rationis tanta meruit prerogativa gaudere, que ut nobis ad presens
+			<lb/>plenius elucescat, aliquid inde censuimus prelibandum.</p>
+		</div>
+		<div type="chapter">
+			<head type="h_1"><lb/>32.</head> <head type="h_2">HIC LAUDATUR ARS DICTANDI ET VOCATUR
+				<lb/>MERITO ARS ARTIUM ET SCIENTIA SCIENTIARUM,
+			<lb/>QUIA PER EAM OMNES ARTES ALIE COLORANTUR.</head>
+			<p><lb/>Ars artium et scientia scientiarum ac philosophie vestis ideo
+				<lb/>censetur ista lux dictatorie previa facultatis, quia sine ipsa
+				<lb/>artes et scientias vel rerum gestarum memoriam non posse
+				<lb/>diu subsistere vel ad successivam digne transmitti posteritatem
+			<lb/>nemo dubitet sapientium.</p>
+		</div>
+	</body>
+</text>
+</TEI>

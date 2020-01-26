@@ -1,0 +1,121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Summa dictaminis</title>
+				<author>Iacobus de Dinanto</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Emil Polak</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="89" unit="words">Parole: 89</measure>
+				<measure quantity="595" unit="characters_without_spaces">Caratteri (spazi esclusi): 595</measure>
+				<measure quantity="669" unit="characters_witht_spaces">Caratteri (spazi inclusi): 669</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-05-07">07/05/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: data di composizione dell'opera: 1282-1295&#13;
+parole: 13812&#13;
+caratteri (con spazi): 111570&#13;
+&lt;...&gt; indicano correzioni e integrazioni congetturali dell'editore&#13;
+errore di numerazione delle righe dopo riga 920 (corretto)&#13;
+CC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<editor>Emil Polak</editor>
+						<title level="m">A textual study of Jacques de Dinant's Summa dictaminis</title>
+						<imprint>
+							<publisher>Droz</publisher>
+							<pubPlace>Genève</pubPlace>
+							<date>1975</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Études de philologie et d'histoire</title>
+						<biblScope unit="volume">28</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-questo file è difettoso: secondo la nota nel &lt;teiHeader&gt; dovrebbe avere 13812 parole, contiene però solo 15 versi...</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="61"/>
+		<div>
+			<lg>
+				<l>Quisquis dictandi vult artem scire potenter,</l>
+				<l>Discrete fandi, scribendi cuncta petenter,</l>
+				<l>Nec mendicata sufragia querere curat,</l>
+				<l>Ista colata doctrina, que sibi durat,</l>
+				<l n="5">Fiet dictator clarus, dignus, generalis,</l>
+				<l>Fiet orator peritus, brevis, atque realis.</l>
+				<l>Ergo rogo Christum, tractatum finiat istum.</l>
+				<l>Sit michi principium forte, primum medium.</l>
+				<l>Iacobus est nomen auctoris, consonet omen,</l>
+				<l n="10">Dinanto natus, monachi voto decoratus.</l>
+				<l>Etsi negociis familiaribus inpeditus nec non leccionibus</l>
+				<l>cotidianis rethorice facultatis existam, devictus</l>
+				<l>tamen instancia sociorum, preces pro preceptis recipiens,</l>
+				<l>in arte dictaminis, quantum potero, Deo duce,</l>
+				<l n="15">fideliter laborabo, rogans quod, siquid in inscipiencia</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

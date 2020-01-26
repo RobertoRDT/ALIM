@@ -1,0 +1,1003 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Expositio de symbolo Apostolorum</title>
+				<author>Hugutio Pisanus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Cremascoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="RRDT">Roberto Rosselli Del Turco</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="8260" unit="words">Parole: 8260</measure>
+				<measure quantity="46742" unit="characters_without_spaces">Caratteri (spazi esclusi): 46742</measure>
+				<measure quantity="54274" unit="characters_witht_spaces">Caratteri (spazi inclusi): 54274</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-09-08">08/09/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Teologia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell'opera: c. 1190-1210. Parole: 8644. Caratteri: 47466. &lt;..&gt;
+				                    indicano integrazioni congetturali dell'editore. [..] indicano espunzioni dell'editore. GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Hugutio Pisanus</author>
+						<title level="m">De dubio accentu; Agiographia; Expositio de symbolo apostolorum</title>
+						<editor>G. Cremascoli</editor>
+						<imprint>
+							<pubPlace>Spoleto</pubPlace>
+							<publisher>Centro italiano di studi sull'alto Medioevo</publisher>
+							<biblScope unit="page">227-255</biblScope>
+							<date>1978</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s"/>
+						<biblScope unit="volume"/>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Teologia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="RRDT">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">- il testo è suddiviso nei &lt;div&gt; con le esegesi dei singoli articoli del Simbolo. Ogni sezione comincia con una frase del tipo: "sequitur: ET IN SPIRITUM SANCTUM". Queste frasi sono state inserite nell'&lt;head&gt;. Non so, però, cosa fare con la prima sezione, che segue direttamente dopo l'introduzione e questo "titolo" è parte dell'ultima frase dell'introduzione... Lasciare questa sezione senza &lt;head&gt;? O marcare tutto solo con &lt;p&gt;?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="riga 1-91"/>
+		<div>
+			<head><lb/>EXPOSITIO DOMINI HUG&lt;U&gt;TIONIS FERRARIENSIS
+			<lb/>EPISCOPI DE SYMBOLO APOSTOLORUM</head>
+			<p><lb/>Symbolum apostolorum exposituri, primo videamus qua occasione
+				<lb/>apostoli hoc composuerunt et quare et unde dicatur symbolum.
+				<lb/>Legitur in ecclesiastica historia a Domino preceptum esse
+				<lb/>apostolis ut post passionem Domini per duodecim annos predicarent
+				<lb/>in Judea, postea exirent. Duodecimo igitur anno a passione
+				<lb/>Domini ceperunt paulatim exire ad gentes, nondum tamen ex
+				<lb/>toto; postea omnino exierunt de finibus Judee, complentes illud
+				<lb/>Domini mandatum: " euntes in mundum universum predicate
+				<lb/>evangelium omni creature. Qui crediderit et baptizatus fuerit salvus
+				<lb/>erit, qui vero non crediderit condemnabitur ". Hinc etiam legitur
+				<lb/>quod quarto decimo anno a passione Domini Paulus, facta
+				<lb/>sue predicationis collatione cum Petro et aliis apostolis et sua predicatione
+				<lb/>ab illis comprobata, profectus est ad magisterium gentium.
+				<lb/>Eodem etiam anno ascendit Petrus de consilio Domini Romam
+				<lb/>et sedit in cathedra episcopali cum prius per septennium iam
+				<lb/>sedisset Antiochie in sede episcopali. Apostoli ergo iuxta preceptum
+				<lb/>Domini Judeam exituri et ad diversas gentes predicandas
+				<lb/>et docendas transituri et per diversas mundi partes ad predicandum
+				<lb/>ab invicem secessuri, ne in eorum predicatione discordia vel
+				<lb/>dissonantia inveniretur et ne alter ab altero in fide tenenda et predicanda
+				<lb/>et docenda dissentirent, et ut quisque illorum sciret quid
+				<lb/>sibi esset tenendum et aliis predicandum et docendum, et antequam
+				<lb/>dividerentur et per diversa loca separarentur, in unum convenerunt
+				<lb/>et communi placito de divinis et articulis fidei tractaverunt,
+				<lb/>ut sicut quisque de fide sentiret in medium eorum proferret,
+				<lb/>et quicumque postmodum a collatis dissentiret sentiens in
+				<lb/>contrarium, a numero fidelium fieret extorris et non catholicus
+				<lb/>sed hereticus haberetur. Convenientes apostoli spiritualem conferentiam,
+				<lb/>id est symbolum quod dicitur symbolum apostolorum
+				<lb/>quia ab eis exponitur, in quo omnes articulos fidei habende complexi
+				<lb/>sunt, confecerunt et composuerunt, ita quod quilibet eorum
+				<lb/>per ordinem in illa compositione suam particulam apposuit. Unde
+				<lb/>dicitur symbolum a sin quod est 'cum' vel 'simul', et bolus quod
+				<lb/>est morsellus, inde symbolum id est bolus singulorum, quia unusquisque
+				<lb/>apostolorum ibi suum morsellum apposuit sicut solet fieri
+				<lb/>in conviviis et conferentiis, quando aliqui inter se conferunt ut
+				<lb/>conviventur. Unde Terentius: " symbolum dedit, cenavit ". Similiter
+				<lb/>et apostoli spirituale convivium fidei participantes, singuli
+				<lb/>singulos bolos apposuerunt et inde collectum illud simul dictum
+				<lb/>est symbolum. Et nota quinque synodos ab apostolis Jerosolymis
+				<lb/>esse celebratas: primam de substitutione Matthie loco Jude facta;
+				<lb/>secundam de electione septem diaconorum; tertiam de legalibus
+				<lb/>qua statutum est conversis ad fidem de gentibus non esse imponendum
+				<lb/>onus legalium, quando ascenderunt Paulus et Barnabas
+				<lb/>de Antiochia in Jerusalem; quartam de legalibus observantiis
+				<lb/>qua statutum est non prohiberi Judeos a legalibus observantiis,
+				<lb/>dummodo non ponerent spem in eis; quintam ubi apostoli
+				<lb/>prefatum symbolum, scilicet ' minus Credo in Deum ' composuerunt.
+				<lb/>Item notandum quattor esse symbola: primum quod
+				<lb/>apostoli composuerunt, quod minimum est et in cathechizando
+				<lb/>et baptizando pueros dicitur; secundum quod synodus Nicena
+				<lb/>composuit et postea Sanctus Hilarius Pictaviensis episcopus in
+				<lb/>Libro de synodis ' quem composuit illud posuit et interseruit,
+				<lb/>et debet legi in synodo totum vel saltem aliqua particula eius:
+				<lb/>hoc symbolum in nostro usu non habetur; tertium quod synodus
+				<lb/>Constantinopolitana composuit et cantatur in Missa: hoc est ' maius
+				<lb/>Credo in Deum'; quartum quod in Prima dicitur, scilicet ' Quicumque '
+				<lb/>ab Athanasio Alexandrino episcopo contra Arianos hereticos
+				<lb/>compositum in quo distinctius et apertius omnes articuli
+				<lb/>nostre fidei continentur. Sed omnes articulos nostre fidei ad
+				<lb/>salutem necessarios in symbolo apostolorum aperte vel interpretative
+				<lb/>et subintellective credimus contineri.
+				<lb/>Si queratur quid sit articulus fidei, dicimus quod articulus
+				<lb/>fidei est quodlibet eorum que tenemur credere, sine quibus creditis
+				<lb/>adultus et discretus non salvatur. Tot ergo sunt articuli sive
+				<lb/>partes fidei quot sunt illa que credere tenemur. Est ergo articulus
+				<lb/>res ipsa, scilicet unitas divine essentie, trinitas personarum, generatio
+				<lb/>Filii, processio Spiritus sancti, Christi incarnatio, nativitas,
+				<lb/>passio, mors, ad inferos descensio, resurrectio, in celum ascensio,
+				<lb/>eius adventus ad iudicium et similia. Sed et dicta sive verba circa
+				<lb/>ipsas res consistentia dicuntur articuli, ut Deum esse unum in
+				<lb/>essentia, esse trinum in personis, Filium generari a Patre, Spiritum
+				<lb/>sanctum procedere ab utroque, Christum esse incarnatum,
+				<lb/>Christum esse natum, esse passum, esse mortuum, descendisse ad
+				<lb/>inferos, resurrexisse, in celum ascendisse, esse venturum ad iudicium,
+				<lb/>unicuique secundum opera sua esse redditurum et similia.
+				<lb/>Et dicuntur articuli ab artando, quia artati id est in symbolo breviter
+				<lb/>simul comprehensi, vel quia ad eos credendos artamur si
+				<lb/>salvari velimus. Unde Athanasius: " hec est fides catholica quam
+				<lb/>nisi quisque fideliter " et cetera, id est: hec que dicta sunt fides
+				<lb/>exigit credenda, id est ut credantur; que nisi quisque, scilicet adultus
+				<lb/>et discretus, fideliter firmiterque crediderit et cetera. Unde
+				<lb/>et hec fides dicitur catholica, id est universalis, quia omnes vel
+				<lb/>habent universaliter vel habere tenentur. Catholicum enim grece,
+				<lb/>latine dicitur universale. Et notandum quod in symbolo apostolorum,
+				<lb/>licet plures quia omnes articuli nostre fidei comprehendantur,
+				<lb/>non tamen ibi continentur nisi duodecim sententie iuxta
+				<lb/>numerum duodecim apostolorum. Quam vero sententiam quis
+				<lb/>apostolorum ibi posuerit vel contulerit, exponendo assignabimus.
+				<pb n="riga 92-211"/>
+				<lb/> Petrus itaque tamquam princeps et caput omnium, tamquam
+				<lb/>prelatus omnium, tamquam pastor ovium, tamquam dux fidelium,
+				<lb/>tamquam primam vocem in synodo habens, ut in fide catholica
+				<lb/>fundanda primum ipsius fidei poneret fundamentum, aliis apostolis
+				<lb/>astantibus et eius primam vocem expectantibus, inquit: CREDO
+			<lb/>IN DEUM PATREM OMNIPOTENTEM, CREATOREM CELI ET TERRE.</p>
+		</div>
+		<div>
+			<p><lb/>Ecce inchoat Petrus tamquam maior et caput, unde non immerito
+				<lb/>dictus est Cephas, id est caput sive initium, non tantum
+				<lb/>inter apostolos sed etiam in ipsius fidei fundatione. Distinguamus
+				<lb/>ergo verba Petri: credo in Deum. Non dicit: credo Deo vel credo
+				<lb/>Deum. Aliud enim est credere Deo, aliud credere Deum, aliud
+				<lb/>credere in Deum. Credere Deo est credere vera esse que loquitur
+				<lb/>Deus, credere Deum est credere quod Deus sit, sed neutrum horum
+				<lb/>est magnum quia neutrum est vite eterne meritorium: utrumque
+				<lb/>enim horum et mali homines et demones credunt. Credere in
+				<lb/>Deum est credendo in eum promoveri, credendo in eum ire, ei
+				<lb/>per fidem et dilectionem inherere, ei per bonam operationem et
+				<lb/>bonam voluntatem uniri. Hec ergo oratio, scilicet 'credo in Deum',
+				<lb/>quendam processum, quendam accessum anime fidelis ad Deum
+				<lb/>significat, cupientis inherere Deo per fidem et dilectionem sive
+				<lb/>caritatem, et ei uniri per bonam operationem et bonam voluntatem,
+				<lb/>ut sit sensus: credo in Deum, id est credendo in eum promoveor,
+				<lb/>credendo in eum tendo, ei per fidem et dilectionem inhereo,
+				<lb/>ei per bonam operationem et bonam voluntatem ardenter unior.
+				<lb/>Qui hoc dicit et verum dicit, beatus est. Si dicat hoc mortali peccato
+				<lb/>pollutus, mendax est. Talis enim non proficit in Deum sed
+				<lb/>deficit a Deo, non accedit ad Deum sed recedit a Deo, non inheret
+				<lb/>Deo sed discoheret a Deo, et ideo non credit in Deum quamvis
+				<lb/>credat Deo et credat Deum. Scrutetur ergo quisque se antequam
+				<lb/>hoc dicat, et si mortali peccato se infectum inveniret et noluerit
+				<lb/>converti, potius taceat quam hoc dicat, ne hoc dicens tamquam
+				<lb/>mendax Deo amplius displiceat. Veritati enim per mendacium
+				<lb/>placere non potest, immo mentiendo perniciosus sibi est: " os enim
+				<lb/>quod mentitur occidit animam ". Et alibi: " perdes omnes qui loquuntur
+				<lb/>mendacium ". Sed si omni bona voluntate se ad Deum
+				<lb/>convertit, secure dicat: credo in Deum. Deum singulariter dicit
+				<lb/>ad distinctionem falsorum deorum et idolorum que Gentiles deos
+				<lb/>esse credebant. Non enim est nisi unus Deus, dicente Moyse: " audi,
+				<lb/>Israel, Dominus Deus tuus, Deus unus est ". Sed quia ille Deus
+				<lb/>est tres persone, subdistinguit: Patrem, quasi: illum unum Deum
+				<lb/>credo esse Patrem, illum unum credo esse Filium, illum unum
+				<lb/>credo esse Spiritum sanctum, id est credo illam unam essentiam
+				<lb/>esse tres personas, et illas tres personas esse unam essentiam et
+				<lb/>non plures. Licet enim Pater non sit Filius vel Spiritus sanctus,
+				<lb/>nec Filius sit Pater vel Spiritus sanctus, nec Spiritus sanctus sit
+				<lb/>Pater vel Filius, tamen Pater et Filius et Spiritus sanctus sunt
+				<lb/>unus Deus, una substantia sive essentia. Similiter unus Deus est Pater
+				<lb/>et Filius et Spiritus sanctus. Hic Pater semper generat et ab eterno
+				<lb/>generavit Filium, hic Filius semper generatur et ab eterno generatus
+				<lb/>est a Patre, hic Spiritus sanctus semper procedit et ab eterno
+				<lb/>processit a Patre et Filio. Hic Pater non fuit antequam Filius, nec
+				<lb/>Pater et Filius antequam Spiritus sanctus, sed simul semper et
+				<lb/>ante tempora et ab eterno fuerunt, et fuerunt Pater et Filius et
+				<lb/>Spiritus sanctus, tres persone et unus Deus et una substantia et
+				<lb/>semper equales: neque enim Pater est maior Filio vel Filius minor
+				<lb/>Patre, neque Spiritus sanctus minor utroque, scilicet Patre et Filio,
+				<lb/>sed equales. Difficilia sunt hec et in hac vita quasi incomprehensibilia,
+				<lb/>sed tamen vi credenda quia aliter non est salus. Qui
+				<lb/>ergo potest capere capiat, qui non potest capere credat et oret, ut
+				<lb/>quod credit aliquando intelligat. Nisi enim quis credat, non intelligit.
+				<lb/>Unde propheta Isaias: " nisi credideritis non intelligetis ". Est ergo
+				<lb/>in talibus fides necessaria et meritoria. Fides enim non habet meritum
+				<lb/>cui humana ratio prebet exemplum. Sequitur: omnipotentem.
+				<lb/>Videtur ordo congruus ut continue diceretur sine interpositione:
+				<lb/>credo in Deum Patrem et in Deum Filium et in Deum Spiritum
+				<lb/>sanctum. Sed interseruntur ad determinationem Patris et
+				<lb/>Filii quedam necessaria que non vacant a mysterio. Sunt enim quasi
+				<lb/>quidam stimuli promotionis nostre in Patrem et Filium. Cum enim
+				<lb/>audimus Patrem omnipotentem et creatorem celi et terre, magis
+				<lb/>accendimur ad credendum in eum. Similiter cum audimus quod
+				<lb/>Filius est Jesus, id est salvator, et quod est Christus, id est sacerdos
+				<lb/>et rex noster, et quod pro nobis factus est homo et passus et mortuus
+				<lb/>et quod iudicaturus est vivos et mortuos, magis et magis accendimur
+				<lb/>ad credendum &lt;in&gt; eum. Prosequamur ergo litteram.
+				<lb/>Patrem dico omnipotentem: sed nonne Filius est omnipotens et
+				<lb/>Spiritus sanctus omnipotens? Ita enim dicit Athanasius in symbolo
+				<lb/>suo: omnipotens Pater, omnipotens Filius, omnipotens Spiritus
+				<lb/>sanctus, et hoc habet fides catholica. Quare ergo ad Patrem
+				<lb/>adiungit omnipotentem et non ad Filium et non ad Spiritum sanctum?
+				<lb/>Hoc ideo factum quia in creaturis ex antiquitate qua pater
+				<lb/>est antiquior filio, in patre quidam defectus et quedam debilitas
+				<lb/>notari solet, ut fortior et potentior sit iunior filius quam senior
+				<lb/>pater. Ne ergo quis crederet &lt;hoc&gt; esse in Patre Deo et in Filio Deo,
+				<lb/>ideo occurrit Scriptura dicens: Patrem omnipotentem, quia non
+				<lb/>est minus potens qui sibi conservat omnipotentiam. Sed numquid
+				<lb/>Deus Pater vel Deus Trinitas omnia potest? Non videtur, quia
+				<lb/>non potest sedere, ambulare, currere et huiusmodi, que penitus
+				<lb/>sunt aliena a natura divinitatis. Qualiter ergo dicitur omnipotens?
+				<lb/>Sed non ideo minus dicitur Deus omnipotens vel quod possit omnia:
+				<lb/>&lt;que&gt; enim huiusmodi in sua persona non possit, tamen ea facit
+				<lb/>et operatur per alios et in aliis, et ideo non sunt aliena a Dei potentia.
+				<lb/>Item Deus non potest mori, non potest percuti, vulnerari,
+				<lb/>occidi et his passionibus ledi, sed per hoc non derogatur divine
+				<lb/>potentie sed potius attribuitur: nam si huiusmodi passionibus
+				<lb/>subiaceret, non esset omnipotens. &lt;Quamquam&gt; huiusmodi ei accidere
+				<lb/>non possunt, potest tamen hec &lt;in&gt; aliis operari et operatur,
+				<lb/>et ideo ab eius potentia non sunt aliena. Item Deus non potest
+				<lb/>mentiri nec peccare, sed in hoc non detrahitur divine potentie:
+				<lb/>non eius impotentie sed potentie dandum est quod ista non potest.
+				<lb/>Posse enim peccare vel nihil est, vel est defectus et impotentie,
+				<lb/>sicut non posse peccare est potentie. Unde Augustinus: " magna
+				<lb/>Dei potentia est non posse mentiri ". &lt;Ut&gt; ergo omnis oppositio
+				<lb/>removeatur, dicitur Deus omnipotens non quia possit omnia, scilicet
+				<lb/>bona et mala, nec quia suscipiat in se quoslibet actus, sed
+				<lb/>quia nihil potest pati et quia omnia quecumque voluerit facere
+				<lb/>potest facere, et omnia quecumque vult fieri potest facere ut fiant
+				<lb/>nec aliquid ad faciendum potest ei impedimentum affere vel ad
+				<lb/>patiendum corruptionem inferre. Sequitur: creatorem celi et terre.
+				<lb/>Ecce Petrus concordat cum Moyse, scilicet principium Symboli
+				<lb/>cum principio veteris canonis ubi dictum est: " in principio creavit
+				<lb/>Deus celum et terram ", et est sensus: in principio, scilicet
+				<lb/>temporis, creavit Deus celum, id est celestia, terram, id est terrestria;
+				<lb/>vel celum, id est invisibilia, terram, id est visibilia; vel celum,
+				<lb/>id est duo superiora elementa, scilicet ignem et aerem, terram,
+				<lb/>id est duo inferiora, scilicet aquam et terram; vel celum, id est angelicam
+				<lb/>naturam et empyreum celum, quod quam cito fuit factum
+				<lb/>statim angelis fuit repletum et huius nomine celi intelligitur continens
+				<lb/>et contentum, et terram, id est materiam quatuor elementorum,
+				<lb/>scilicet hylem, vel terram, id est quatuor elementa, id est
+			<lb/>mundum sensibilem ex his constantem.</p>
+		</div>
+		<pb n="riga 212-348"/>
+		<div>
+			<head><lb/>Sequitur: ET IN JESUM CHRISTUM FILIUM EIUS UNICUM DOMINUM
+				<lb/>NOSTRUM.</head> <p>Haec est secunda pars sive distinctio quam Andreas
+				<lb/>posuit in symbolo post Petrum. Dicit ergo Andreas: et in
+				<lb/>Jesum Christum. Hec coniunctio ' et ' innuit esse repetendum credo,
+				<lb/>ut dicatur: et credo in Jesum Christum Filium eius unicum
+				<lb/>Dominum nostrum. Sic distingue ' credo in Filium eius ', sicut
+				<lb/>supra diximus esse credendum in Deum Patrem, et ita eodemque
+				<lb/>modo credendum est in Filium eius, ut sit sensus: credo in Filium,
+				<lb/>id est credendo in eum promoveor, credendo in eum tendo, ei per
+				<lb/>fidem et dilectionem inhereo, ei per bonam operationem et bonam
+				<lb/>voluntatem unior. ' Unicum ' ad differentiam illorum qui sunt
+				<lb/>filii per gratiam, &lt;quia&gt; cum sint multi filii Dei per gratiam iuxta
+				<lb/>illud Joannis: " quotquot autem receperunt eum dedit eis potestatem
+				<lb/>filios Dei fieri, his qui credunt in nomine eius ", Filius eius
+				<lb/>unicus est per naturam, consubstantialis, coeternus, unigenitus,
+				<lb/>ita ut non pars divinitatis a Patre derivetur in Filium et in Patre
+				<lb/>pars remaneat, sed in Patre totus Filius et totus in Verbo Pater.
+				<lb/>Sed in generatione carnali aliter fit, quia ibi quedam pars paterne
+				<lb/>substantie derivatur in filium, parte in patre remanente. Filium
+				<lb/>dico Jesum. Jesus dicitur Salvator. Ipse enim de potestate diaboli
+				<lb/>et a peccatis salvat eos qui in eum credunt. Item Filium dico Christum.
+				<lb/>Christus dicitur unctus et olim in veteri Testamento tantum
+				<lb/>due persone inungebantur, scilicet rex et sacerdos. Per hoc ergo
+				<lb/>quod Filius Dei dicitur Christus ostenditur esse rex noster et sacerdos
+				<lb/>sive pontifex: rex quia regit nos et gubernat ne a fluctibus
+				<lb/>huius mundi submergamur; sacerdos quia pro nobis se &lt;Patri&gt; obtulit
+				<lb/>in ara Crucis et quia pro nobis quotidie apud Patrem interpellat
+				<lb/>in celis; pontifex quia crucem suam facit nobis pontem per quam
+				<lb/>de hoc mundo super fluctus huius seculi transeamus ad ipsum.
+				<lb/>' Dominum nostrum ', quia Filius eius, in quem credendum est,
+				<lb/>Dominus noster est, non tantum illa communi dominatione qua
+				<lb/>Pater est Dominus, sed quadam singulari et unica, quia proprio
+				<lb/>sanguine nos redemit, iuxta illud: " empti enim estis pretio magno ".
+				<lb/>Et nota quod Andreas, qui hanc distinctionem apposuit, interpretatur
+				<lb/>vir vel virilis, et merito quia in hac sua professione Filium
+				<lb/>Dei profitetur Deum cum dicit ' Filium eius unicum', et virum,
+				<lb/>id est hominem, cum dicit ' Christum Jesum Dominum nostrum';
+				<lb/>vel dictus est Andreas, id est virilis, quia spretis mundanis viriliter
+			<lb/>Christo adhesit.</p>
+		</div>
+		<div>
+			<head><lb/>Sequitur: QUI CONCEPTUS EST DE SPIRITU SANCTO, NATUS EX
+			<lb/>MARIA VIRGINE.</head>
+			<p><lb/>Tertia distinctio symboli est quam apposuit Jacobus Zebedei,
+				<lb/>frater Joannis, maior in vocatione, qua scilicet Filius conceptus
+				<lb/>est de Spiritu sancto. Notandum quod conceptio infantis in utero
+				<lb/>femine non potest esse sine carnali commixtione maris et femine.
+				<lb/>Illa vero carnalis commixtio non potest fieri sine peccato. Licet
+				<lb/>enim ille coitus quandoque non sit peccatum, non tamen potest
+				<lb/>fieri sine peccato, quia semper ibi intervenit quidam pruritus vel
+				<lb/>fervor carnis, quedam voluptas carnis que non potest non esse
+				<lb/>peccatum, ut testantur Gregorius, Augustinus, Hieronymus. Ne
+				<lb/>ergo, quia dicitur conceptus, crederet quis in illa conceptione ea
+				<lb/>intervenisse que interveniunt in conceptione aliorum hominum,
+				<lb/>subdit: ' de Spiritu sancts ', quasi: " non ex sanguinibus, non
+				<lb/>ex voluntate carnis, non ex voluntate viri ". Non permixtione
+				<lb/>maris et femine sed de Spiritu sancto conceptus est, ita quod
+				<lb/>nullam voluptatem, nullum fervorem vel pruritum carnis &lt;ex&gt; illa
+				<lb/>conceptio&lt;ne&gt; perpessa est Virgo. Nec intelligas 'conceptus de
+				<lb/>Spiritu sancto' quasi de patre, ut Spiritus sanctus dicatur maritus
+				<lb/>Virginis et illa uxor eius, et dicatur pater Christi et ille filius eius.
+				<lb/>Non enim Virgo concepit de Spiritu sancto quasi de viro, nec
+				<lb/>Christus conceptus est de Spiritu sancto quasi de patre, sed est
+				<lb/>sensus: conceptus est de Spiritu sancto, id est gratia et auctoritate
+				<lb/>et operatione Spiritus sancti, quia ipso cor Virginis sanctificante
+				<lb/>et eius carnem ab omni labe peccati mundante, caro Christi
+				<lb/>sine semine viri, de sola carne Virginis concepta est nulla sementiva
+				<lb/>carnis origine extrinsecus operante. Sicut enim vermis
+				<lb/>calefaciente sole de puro ligno nascitur nec tamen filius ligni dicitur,
+				<lb/>sic corpus Christi operante Spiritu sancto de sola carne Virginis
+				<lb/>propagatum est. Unde se comparans vermi dicit: " ego sum
+				<lb/>vermis et non homo ", id est conceptus more vermis qui de sola
+				<lb/>terra vel ligno non commixtione alterius seminis concipitur, et
+				<lb/>non more hominis qui non nisi commixtione seminum maris et
+				<lb/>femine concipi solet. Et attende quod non sic dicitur conceptus
+				<lb/>de Spiritu sancto, id est operatione Spiritus sancti, quod ab hac
+				<lb/>operatione excludantur Pater et Filius. Indivisibilia enim sunt
+				<lb/>opera Trinitatis, quia quorum est una natura et eadem essentia
+				<lb/>non potest esse divisa operatio. Cooperante igitur tota Trinitate
+				<lb/>Christus conceptus est in utero Virginis, ut vere dicatur quod
+				<lb/>ipse Filius, sicut Pater et Spiritus sanctus, operatus est conceptum
+				<lb/>sui. Attribuitur tamen operatio istius conceptionis Spiritui sancto
+				<lb/>spiritualiter, quia ex sola gratia et benignitate quae spirituali
+				<lb/>vocabulo attribuitur Spiritui sancto, illa conceptio est facta. Vel
+				<lb/>ideo de Spiritu sancto tantum facta est mentio, licet Pater et
+				<lb/>Filius similiter ibi cooperati sint, quia posito et nominato procedente
+				<lb/>ab utroque, uterque unde procedit convenienter subintelligi
+				<lb/>potuit. Fuit igitur conceptio Christi privilegiata in multis, scilicet,
+				<lb/>quia fuit &lt;non&gt; sententia viri et quia sine commixtione maris
+				<lb/>et femine et quia sine fervore et voluptate carnis et quia sine peccato
+				<lb/>et quia sine causa peccati et quia sine infectione originalis
+				<lb/>vitii et quia nec in carne Christi fuit causa peccati nec in eius
+				<lb/>anima fuit peccatum originale vel aliud, sed et illud fuit privilegium
+				<lb/>quia simul concepta est caro Christi et anima creata et ei
+				<lb/>infusa, et ita ab ipsa conceptione fuit plenus homo in anima et
+				<lb/>carne. Sequitur: natus ex Maria Virgine. Sicut unica et singularis
+				<lb/>conceptio peccato non infecit Virginem, ita unica et singularis
+				<lb/>nativitas non corrupit eius virginitatem, quia sicut uterum
+				<lb/>Matris nec violavit nec aperuit conceptus, sic nec violavit nec
+				<lb/>aperuit partus, et sicut virgo ante conceptum &lt;et&gt; partum, sic virgo
+				<lb/>in conceptu &lt;et&gt; partu et post &lt;conceptum et partum&gt; perseveravit.
+				<lb/>Hinc Isaias: " ecce virgo concipiet et pariet filium ", et Ezechiel:
+				<lb/>" porta hec clausa erit et non aperietur et vir &lt;non&gt; transibit per
+				<lb/>eam, quia Dominus Deus Israel ingredietur et egredietur per eam
+				<lb/>eritque clausa ". Si queratur quare de femina et non de viro nasci
+				<lb/>voluit, respondeo: ideo quia sexus mulieris videbatur indignior
+				<lb/>misericordia et redemptione, quia in humano genere ipsa femina
+				<lb/>primo peccavit et virum ad peccatum traxit. Ut ergo femina crederet
+				<lb/>se esse redemptam per Christum, ideo de femina carnem
+				<lb/>assumere et nasci voluit. Sed ut vir crederet etiam se esse redemptum
+				<lb/>per eundem Christum, in sexu virili et non femineo assumpsit
+				<lb/>carnem de femina et de femina voluit ipse nasci in sexu virili
+				<lb/>et non muliebri. Quia ergo Christus natus est de femina, signum
+				<lb/>est liberationis femine; quia in sexu virili, signum est liberationis
+				<lb/>viri. Vel ideo solum de femina voluit nasci quia iudicavit congruere
+				<lb/>ut diabolus, qui per feminam vicerat, per feminam vinceretur,
+				<lb/>et ut ianua paradisi, que per feminam clausa fuerat, per
+				<lb/>feminam aperiretur. Prima enim femina, scilicet Eva, ante peccavit
+				<lb/>quam vir. Ipsa enim primo pomum vetitum accepit et comedit
+				<lb/>et viro ad comedendum dedit, pro quo peccato ambo expulsi
+				<lb/>sunt de paradiso et clausa est ianua paradisi et permansit clausa
+				<lb/>usque ad adventum Christi. Tandem Christus volens aperire ianuam
+				<lb/>Paradisi per feminam, assumpsit carnem et natus est de
+				<lb/>femina, vel ideo voluit solum de femina nasci quia de solo viro generatio
+				<lb/>humani generis processerat in prima femina que de costa viri
+				<lb/>facta est. De viro et femina multum est frequens humani generis
+				<lb/>generatio, sed de femina sola inaudita est generatio, et ideo quia
+				<lb/>mirabiliter voluit nasci et mirabiliter mundum redimere, sibi soli
+				<lb/>hanc novam et inauditam generationem retinere et sic de sola
+				<lb/>femina nasci voluit et de virgine, ut significaretur quod illas salvaret
+				<lb/>et redimeret que essent virgines mente, id est integre ab
+				<lb/>omni corruptione peccati. Ecce in hac tertia parte consuetus cursus
+				<lb/>et consequentia nature supplantatur, id est a conceptione et nativitate
+				<lb/>Christi removetur, dum sine semine viri dicitur conceptus
+				<lb/>de Spiritu sancto et natus de Virgine. Unde quia hanc professionem
+				<lb/>fecit et hanc tertiam partem apposuit, merito dictus est Jacobus,
+				<lb/>id est supplantator, vel dictus est supplantator quia curam
+				<lb/>carnis, Domino vocante, supplantavit, et eandem carnem, &lt;Herode&gt;
+			<lb/>trucidante, contempsit.</p>
+		</div>
+		<pb n="riga 349-432"/>
+		<div>
+			<head><lb/>Sequitur: PASSUS SUB PONTIO PILATO, CRUCIFIXUS, MORTUUS
+			<lb/>ET SEPULTUS.</head>
+			<p><lb/>Hec est pars quarta quam Joannes apposuit. Pilati fit mentio
+				<lb/>non &lt;ad&gt; aliquam persone dignitatem designandam, sed ad
+				<lb/>solam temporis determinationem quo Christus passus est. Multi
+				<lb/>enim fuerunt Jesus. Ut ergo determinetur &lt;quis&gt; sit iste Jesus in
+				<lb/>quem credendum est, 'qui conceptus est de Spiritu sancto, natus
+				<lb/>de Maria Virgine', supposuit 'passus sub Pontio Pilato', quasi: iste
+				<lb/>est qui passionem et mortem crucis sustinuit Pontio Pilato procurante
+				<lb/>Judeam; solent enim tempora per reges et alios principes
+				<lb/>determinari. Passus est Filius Dei secundum humanitatem, impassibilis
+				<lb/>secundum divinitatem, ut humanum genus, quod passionibus
+				<lb/>subiacebat, ad impassibilitatem reformaret, iuxta quod
+				<lb/>dicitur: " oportebat Christum pati et ita intrare in gloriam suam ",
+				<lb/>quasi: in hoc passio Christi fuit utilis, per quam effectum est ut
+				<lb/>credentes in eum, qui resurrecturi sunt, immortales resurgerent et
+				<lb/>impassibiles, que est gloria resurrectionis. Sed in hoc &lt;etiam&gt; fuit
+				<lb/>utilis, quia fuit hominibus ad tollerantiam passionum incitamentum.
+				<lb/>Unde Petrus: " Christus passus est pro nobis, vobis relinquens
+				<lb/>exemplum ut sequamini vestigia eius ". Item: " Christo
+				<lb/>passo in carne et vos eadem cogitatione armamini ". Crucifixus:
+				<lb/>ecce magnum humilitatis exemplum. Potuit Christus alio genere
+				<lb/>mortis mori, sed ut tibi daret exemplum humilitatis, mortem crucis
+				<lb/>elegit. Genus enim mortis quod per crucem infligebatur, ignominiosius
+				<lb/>erat tunc temporis omni alio genere mortis, unde: " morte
+				<lb/>turpissima condemnamus eum ". Solis enim sceleratissimis hec
+				<lb/>mors infligebatur, sed hec fuit mutatio dextere Excelsi, ut que
+				<lb/>erat ignominiosa pena damnandorum fieret gloriosa liberatio damnatorum.
+				<lb/>Voluit ergo Christus eligere mortem Crucis propter humilitatis
+				<lb/>exemplum prestandum et propter superbie medicamentum
+				<lb/>exhibendum. 0 homo, o vermis, o cinis et pulvis, o sanies
+				<lb/>fetida et vas stercorum, quid inflaris? quid tenderis? Dominus
+				<lb/>tuus humilis est, et tu superbus. Caput est humile et pes superbit
+				<lb/>et recalcitrat. Audi humilitatem Domini tui et ignominiam quam
+				<lb/>pro te passus est attende. Ait enim Apostolus: " Christus factus
+				<lb/>est obediens usque ad mortem ", non qualemcumque sed ignominiosam,
+				<lb/>scilicet mortem crucis; vel ideo elegit mortem crucis
+				<lb/>ut ipso scemate et figura crucis ostenderetur quod per talem
+				<lb/>mortem totus mundus redimebatur, id est homines de qualibet
+				<lb/>parte mundi, dummodo velint credere. Sic enim crux facta fuit
+				<lb/>quod eius quedam pars respexit orientem, quedam occidentem,
+				<lb/>quedam austrum, alia septentrionem, quasi hoc ipso innuens quod
+				<lb/>omnibus qui per diversas mundi partes habitant, si credere velint,
+				<lb/>sufficienter afferret redemptionem. Christus ergo in cruce
+				<lb/>extendit caput ad orientem, pedes ad occidentem, dexteram ad
+				<lb/>septentrionem, sinistram ad austrum, quasi diceret ipsa sui corporis
+				<lb/>positione: 'omnes undecumque veniant paratus sum recipere,
+				<lb/>si velint credere'. Unde ipse in Evangelio Luce: " multi venient
+				<lb/>ab Oriente et Occidente, ab Aquilone et Austro et recumbent in
+				<lb/>regno Dei ". Potest etiam per partem Crucis terre defixam intelligi
+				<lb/>gaudium sanctorum qui erant in inferno, per partem superiorem
+				<lb/>in qua titulus scriptus est gaudium angelorum, per duo brachia
+				<lb/>gaudium duorum populorum, scilicet Judaici et Gentilis: nam
+				<lb/>per mortem Christi sancti de inferno extracti sunt et ad paradisum
+				<lb/>reducti, et angeli de eorum societate in numero perditorum
+				<lb/>sunt restaurati, et duo populi in una fide coniuncti. Gavisi ergo
+				<lb/>sunt sancti de sua liberatione, angeli letificati de eorum societate
+				<lb/>et sui numeri restauratione, duo populi congratulati de sua coniunctione.
+				<lb/>Possunt et alie cause assignari quare Christus mortem
+				<lb/>crucis elegit, sed nunc he sufficiant. Mortuus: sicut vera nativitate
+				<lb/>natus est, sic vera morte mortuus est, ut nos ab eterna morte
+				<lb/>liberaret et per mortem temporalem vitam nobis conferret eternam,
+				<lb/>et sicut mortuus ipse est mundo, sic nos vitiis et concupiscentiis
+				<lb/>moriamur, et sicut ipse pro nobis mortuus est, sic, ubi
+				<lb/>necessarium est, mortem pro eo subire non formidemus. Et sepultus:
+				<lb/>sepultus fuit Christus, id est humanis subtractus aspectibus,
+				<lb/>hoc a nobis exigens ut ei consepeliamur, ut sicut humanis
+				<lb/>ipse fuit subtractus aspectibus, sic nos vitiis et concupiscentiis
+				<lb/>omnino subtrahamur ne ab eis videri vel tangi valeamus. Hec
+				<lb/>autem sepultura Christi fuit triduana, per quod innuitur quod nos
+				<lb/>debemus esse sepulti tribus generibus peccatorum, scilicet cordis,
+				<lb/>420oris et operis quibus omnia genera peccatorum comprehenduntur.
+				<lb/>Hanc quartam partem merito Joannes, qui interpretatur gratia
+				<lb/>Dei vel in quo est gratia, apposuit, quia Christus est passus, crucifixus,
+				<lb/>mortuus et sepultus de sola gratia et benignitate sua, non
+				<lb/>de necessitate vel coactione. Unde Isaias: " oblatus est quia &lt;ipse&gt;
+				<lb/>425voluit ", et Christus in Evangelio: " nemo tollit a me animam meam
+				<lb/>sed ego pono eam ". Non minus tamen dictus est Joannes, id est
+				<lb/>gratia Dei vel in quo est gratia, quia magna gratia fuit quod a
+				<lb/>fluctivaga nuptiarum tempestate revocatus in virginitate permansit,
+				<lb/>et quod virginem matrem Jesu Christi virginis inter angarias
+				<lb/>crucis in custodia recepit, et quod altius ceteris Dominici
+				<lb/>pectoris arcana rimatus, incomprehensibiliter de eternitate Verbi
+			<lb/>eructavit dicens: " in principio erat Verbum et Verbum etc ".</p>
+		</div>
+		<pb n="riga 433-529"/>
+		<div>
+			<head><lb/>Sequitur: DESCENDIT AD INFEROS, TERTIA DIE RESURREXIT A
+			<lb/>MORTUIS.</head>
+			<p><lb/>Hec est quinta pars quam Thomas apposuit. Descendit ad
+				<lb/>inferos tertia die ut sancti qui ibi vincti tenebantur per eum
+				<lb/>educerentur. Unde Zacharias: " tu quoque in sanguine testamenti
+				<lb/>tui emisisti vinctos tuos de lacu in quo non erat aqua ". Non fuit
+				<lb/>otiosa tridui mora inter mortem et resurrectionem, sed dum corpus
+				<lb/>jacuit in sepulchro anima descendit ad infernum, ut animas
+				<lb/>sanctorum expectantium redemptionem secum duceret in paradisum.
+				<lb/>Et tunc paradisi porta quae per Evam cunctis clausa
+				<lb/>fuerat, remoto Cherubim qui in introitu paradisi cum flammeo gladio
+				<lb/>positus erat, aperta fuit ut simul intrarent boni de inferno
+				<lb/>extracti. Non enim Christus malos extraxit, iuxta illud Osee: " o
+				<lb/>mors ero mors tua, morsus tuus ero inferne ". Non enim Christus
+				<lb/>ex toto infernum spoliavit sed momordit. Cum enim morsum in
+				<lb/>aliqua re facimus, partem capimus et partem relinquimus; sic
+				<lb/>Christus infernum momordit, partem, scilicet bon&lt;os&gt;, extrahendo,
+				<lb/>et partem, scilicet malos, ibi relinquendo. Non enim credendum
+				<lb/>&lt;est&gt; quod Cain vel Judam ex his extraxerit, quos ad penam eternam
+				<lb/>ab eterno prescivit. Sane intellige quod dicitur 'Christus descendit
+				<lb/>ad infernum', 'Christus fuit in infernum', id est anima eius; 'Christus
+				<lb/>iacuit in sepulchro', id est corpus eius. In illo enim triduo anima
+				<lb/>Christi fuit separata a carne, qua ratione ipse dicitur mortuus.
+				<lb/>Caro remansit in sepulchro, anima descendit ad infernum, divinitas
+				<lb/>tamen fuit cum utroque, scilicet in inferno cum anima et in
+				<lb/>sepulchro cum carne. Licet enim anima separata fuerit a corpore
+				<lb/>quantum distabat infernus a sepulchro, unio tamen divinitatis et
+				<lb/>humanitatis in Christo non desiit nec desinit esse, nec remota a
+				<lb/>corpore et anima poterit esse divinitas que ubique est. Unde David:
+				<lb/>" si ascendero in celum, tu illic es, si descendero in infernum, ades "
+				<lb/>Ambrosius tamen super illum versum: " Deus, Deus meus respice
+				<lb/>in me, quare me etc. ", videtur velle quod divinitas sit separata
+				<lb/>a corpore dicens ita: " clamat caro moritura Verbi a se protestata
+				<lb/>discidium ", item: "clamat homo separatione divinitatis
+				<lb/>moriturus ". Sed iste due auctoritates intelliguntur de discidio
+				<lb/>Verbi et separatione divinitatis quoad protectionem. Visa est enim
+				<lb/>divinitas separata a carne et eam dereliquisse quia eam non protexit,
+				<lb/>sed suam protectionem illi subtrahens et potentiam suam
+				<lb/>cohibens, illam passioni exponi permisit. Si enim divinitas suam
+				<lb/>potentiam non cohibuisset sed exercuisset, Christus nunquam mortem
+				<lb/>gustasset. Tertia die resurrexit a mortuis. Ad immortalitatem
+				<lb/>surrexerunt multi ante Christum sed postea resoluti sunt in mortem.
+				<lb/>Christus ergo primum resurrexit ad immortalitatem, unde Apostolus
+				<lb/>ad Corinthios: " Christus resurrexit a mortuis primitie dormientum "
+				<lb/>Item ad Romanos: " Christus resurgens a mortuis iam
+				<lb/>non moritur, mors illi ultra non dominabitur ". Item ad Colossenses:
+				<lb/>" Christus est primogenitus ex mortuis ", id est primus mortuorum
+				<lb/>ad immortalitatem resurgens. Licet enim die crucifixionis
+				<lb/>monumenta multorum mortuorum sint aperta, non tarnen resurrexerunt
+				<lb/>ante eius resurrectionem, vel si antea, incinerati sunt
+				<lb/>postea. Ideo Christus voluit resurgere ut spem future nostre resurrectionis
+				<lb/>in nobis firmaret, et ut, sicut ipse in corpore, ita nos
+				<lb/>a vitiis resurgamus in mente. Tertia die: fuit enim in sepulchro tribus
+				<lb/>diebus et tribus noctibus, id est tribus diebus naturalibus, non
+				<lb/>quod per tres dies integros, sed per trium dierum aliquot partes.
+				<lb/>Sexta feria circa horam nonam emisit spiritum, et ita per ultimam
+				<lb/>partem sexte ferie in sepulchro quievit, et per totum sequens
+				<lb/>sabbatum, et per noctem dominice diei in qua parum ante
+				<lb/>diluculum surrexit Christus, et ita synodoc&lt;h&gt;ice verum est quod
+				<lb/>tertia die resurrexit. Ideo noluit amplius suam resurrectionem differre,
+				<lb/>ut dubitationem apostolorum de eius deitate auferret, ne
+				<lb/>maiorem moram in morte faciendo desperarent. Nec citius voluit
+				<lb/>resurgere, ne mors eius non vera sed ficta et phantastica videretur.
+				<lb/>Vel ideo tertia die resurgere voluit ut per hoc daretur intelligi quod
+				<lb/>illa resurrectio facta est vi et potentia Trinitatis, et quod nostra
+				<lb/>resurrectio non est futura gloriosa nisi in fide Trinitatis, et quod
+				<lb/>resurgere a morte anime non valemus nisi per fidem Trinitatis.
+				<lb/>Vel ideo tertia die resurrexit ut significaretur quod per fidem illius
+				<lb/>resurrectionis nos a tribus generibus peccatorum, scilicet cogitationis,
+				<lb/>locutionis et operis resurgere debeamus. Vel ideo tertia
+				<lb/>die resurrexit ut inveniretur quod a peccatis resurgere non possumus
+				<lb/>nisi per ternarium virtutum, scilicet per fidem, spem et
+				<lb/>caritatem, vel per penitentiam ubi tria sunt necessaria, scilicet
+				<lb/>cordis contritio, oris confessio et operis satisfactio. Vel ideo tertia
+				<lb/>die resurrexit ut homo saltem tertia die, id est tempore gratie,
+				<lb/>resurgat. Si &lt;symbolica&gt; cogites, dies primus est tempus ante legem,
+				<lb/>secundus tempus sub lege, tertius tempus sub gratia. Primo vel
+				<lb/>secundo die homo non potest surgere; surgat ergo saltem tertio
+				<lb/>Caput suum imitando. Vel ideo tertia die resurrexit ut ostenderetur
+				<lb/>quod per fidem sue resurrectionis salvandi erant homines
+				<lb/>trium temporum, scilicet temporis ante legem, temporis sub lege,
+				<lb/>temporis sub gratia, vel homines trium generum. Tria sunt genera
+				<lb/>hominum salvandorum, scilicet coniugati, rectores, continentes sive
+				<lb/>virgines. Ista tria genera salvandorum significant tres homines
+				<lb/>quod Ezechiel vidit salvandos, scilicet Job per quem coniugati, Noe
+				<lb/>per quem rectores, Daniel per quem continentes sive virgines intelliguntur.
+				<lb/>De istis tribus generibus quicumque salvabuntur per
+				<lb/>fidem resurrectionis Christi salvabuntur. Hanc quintam partem,
+				<lb/>ubi agitur de fide resurrectionis Christi, merito Thomas apposuit,
+				<lb/>ut sicut primum valde incredulus fuit resurrectionis eius, ita post
+				<lb/>certitudinem pre aliis et inter alios vehementer illam predicet et
+				<lb/>confiteatur. Quis enim melior testis quam qui prius dubitando inquirit
+				<lb/>et inquirendo veritatem melius intelligit? Unde dictus est
+				<lb/>Thomas, id est abyssus vel geminus, unde et grece dicitur didymus,
+				<lb/>quasi duplex, quia quo ceteris plus et diutius dubitavit, eo
+				<lb/>altius et profundius et quasi in duplum veritatem resurrectionis
+			<lb/>cognovit et firmius stetit.</p>
+		</div>
+		<pb n="riga 530-644"/>
+		<div>
+			<head><lb/>Sequitur: ASCENDIT IN CELUM, SEDET AD DESTERAM DEI PATRIS
+				<lb/>OMNIPOTENTIS, INDE VENTURUS &lt;EST&gt; IUDICARE VIVOS ET
+			<lb/>MORTUOS.</head>
+			<p><lb/>Hec est pars sexta quam apposuit Jacobus Alphei. Ascendit in
+				<lb/>celum. Quadragesima die post resurrectionem, humanam naturam
+				<lb/>quam de Virgine et in Virgine sumpserat super celos collocavit,
+				<lb/>ubi tamen et primo secundum divinitatem erat; qui enim ubique
+				<lb/>erat, ibidem &lt;non&gt; esse non poterat. Ascendit quasi propria virtute,
+				<lb/>cum de Enoch legatur quod fuerit translatus et de Helia quod fuerit
+				<lb/>raptus sive subvectus, quasi uterque impotens per se a terra
+				<lb/>per aerem sublevari. Nec obviat quod dicitur de Christo: " et nubes
+				<lb/>suscepit eum ", quia quasi in quodam globo baiule nubis ascendit
+				<lb/>non tamen quod ascendens egeret mi&lt;ni&gt;sterio nubis, sed ut
+				<lb/>per hoc ostenderetur quod omnis creatura parat obsequium suo
+				<lb/>Creatori. Ascendit ut nos ascendere doceat et faciat hic de vitiis
+				<lb/>ad virtutes, de virtute ad virtutem, ut tandem corporaliter ascendamus
+				<lb/>in celum ubi ipse est et Deum deorum in Sion videamus.
+				<lb/>Ascendit non solus sed cum sanctis quos de inferno eduxerat,
+				<lb/>unde Isaias in persona angelorum admirantium in eius ascensione
+				<lb/>ait: " quis est iste qui venit de Edom tinctis vestibus de
+				<lb/>Bosra? ". Edom interpretatur terrena vel rubea vel sanguinea et
+				<lb/>significat mundum istum terrenum et multo sanguine infectum.
+				<lb/>Bosra interpretatur munita et significat Jerusalem ubi fuit occisus,
+				<lb/>turribus et aliis presidiis olim munitam, vel significat infernum
+				<lb/>olim munitum sic ut omnes bonos clauderet et nullum exire permitteret.
+				<lb/>Vestes tincte Domini &lt;sunt&gt; sancti multo sanguine purpurati,
+				<lb/>et est sensus: quis est iste qui venit de Edom, id est de mundo, et
+				<lb/>de Bosra, id est de Jerusalem vel de inferno? Venit, dico, indutus
+				<lb/>vestibus corporeis olim tinctis sanguine passionis, vel venit indutus
+				<lb/>et vallatus vestibus, id est sanctis &lt;sanguine&gt; tinctis, id est multam
+				<lb/>effusionem sanguinis olim passis. Nec obviat illud evangelicum:
+				<lb/>" nemo ascendit in celum nisi qui de celo descendit, Filius hominis
+				<lb/>qui est in celo ". Sancti enim erant unum corpus cum Christo, erant
+				<lb/>membra ipsius et vestis. Si ergo quis intrat cum membris et vestibus
+				<lb/>suis non ideo dicitur intrare nisi solus, si nullus alius intrat
+				<lb/>cum eo. &lt;Sic&gt; et Christus dicitur ascendisse solus, licet membra eius
+				<lb/>et indumenta cum eo ascendissent. Sedet ad dexteram Dei Patris
+				<lb/>Omnipotentis. Quod Filius sedere dicitur non membrorum positionem,
+				<lb/>quasi in hoc statu ibi sit, sed quietem post laborem et judiciariam
+				<lb/>designat potestatem et regnantis maiestatem. Ad dexteram
+				<lb/>Dei Patris Omnipotentis. Non est Deus Pater aliquod corporale
+				<lb/>quod habeat dexteram vel sinistram. Simplicissima namque
+				<lb/>natura est que ubique tota est et ideo nullis dimensionibus circumscribi
+				<lb/>potest ut aliquid sit ei dextrorsum vel sinistrorsum, ante vel
+				<lb/>retro, sursum vel deorsum, sed per dexteram intelliguntur potiora
+				<lb/>bona in eterna beatitudine, et est sensus: sedet, id est post laborem
+				<lb/>et certamina passionis et palmam resurrectionis quiescit et conregnat,
+				<lb/>secundum quod homo, ad dexteram Dei Patris Omnipotentis,
+				<lb/>id est in summa beatitudine sive in bonis Patris potioribus
+				<lb/>omnibus aliis bonis alicui creature collatis. Nunquam enim alicui
+				<lb/>creature tot et tanta bona contulit Deus quot et quanta contulit
+				<lb/>homini Christo; plus ei conferre non potuit, nec eum meliorem facere
+				<lb/>potuit quam fecit. Vel sedet, id est conregnat, secundum quod Deus
+				<lb/>ad dexteram Dei Patris Omnipotentis, id est in &lt;eadem qualitate&gt;
+				<lb/>cum Patre; et sic per dexteram intelligitur equalitas quam habet
+				<lb/>Filius cum Patre. Inde venturus est iudicare vivos et mortuos.
+				<lb/>Venturus in aera: in spatio enim huius aeris apparebit et sedebit
+				<lb/>contra locum montis Oliveti ex quo ascendit et, ut dicit Chrysostomus:
+				<lb/>" angeli deferent ante eum instrumenta mortis sue, quasi
+				<lb/>vexilla triumphi, scilicet Crucem illam essentialiter in qua crucifixus
+				<lb/>est, et clavos et lanceam, et in carne eius videbuntur cicatrices,
+				<lb/>ut videant in quem pupugerunt ". Unde in Evangelio: " et
+				<lb/>tunc apparebit signum filii hominis in celo ", scilicet signum crucis
+				<lb/>et clavi et &lt;lancea&gt; vel cicatrices in signum victorie. Quod ergo dicit
+				<lb/>Joel: " congregabo omnes gentes et deducam eas in valle Josaphat
+				<lb/>et disceptabo ibi cum eis ", ubi velle videtur quod in iudicio Dominus
+				<lb/>sit descensurus in valle Josaphat, sic intelligitur: Josaphat
+				<lb/>interpretatur iudicium Domini. In valle ergo Josaphat, id est in
+				<lb/>iudicio Domini, congregabuntur omnes. Non enim Christus in illam
+				<lb/>vallem descendet in iudicium, sed sedebit in aera cum senatoribus;
+				<lb/>vel forte ideo dicitur fieri iudicium in valle Josaphat quia in terra,
+				<lb/>id est in valle illa, mali congregabuntur, sed boni rapientur obviam
+				<lb/>Christo in aera supra locum illum. Unde Apostolus: " mortui qui
+				<lb/>in Christo sunt resurgent primi; deinde nos qui vivimus, qui relinquimur,
+				<lb/>simul rapiemur cum illis in nubibus obviam Christo in
+				<lb/>aera ". Judicare vivos et mortuos, id est bonos et malos, iustos et
+				<lb/>iniustos, ut vivi virtutibus intelligantur et ad vitam predestinati,
+				<lb/>mortui in peccatis et eterna morte damnandi, ut sit sensus:
+				<lb/>vivos, id est vita eterna remunerandos, mortuos, id est eterna
+				<lb/>morte damnandos; vel vivos intellige quos adventus eius qui sicut
+				<lb/>fur in nocte veniet adhuc viventes inveniet, qui tamen in ipso adventu
+				<lb/>morientur et statim resuscitabuntur, et si quid adhuc erit
+				<lb/>in eis longo tempore puniendum, in momento purgabitur pre terrore
+				<lb/>et horrore et angustia adventus eius et in igne qui eum precedet
+				<lb/>et superficiem terre et aerem comburendo purgabit. Mortuos
+				<lb/>intellige quos adventus eius iam mortuos inveniet et resuscitabit.
+				<lb/>Nota quod Filius iudicabit non ex vi humanitatis sed ex vi divinitatis,
+				<lb/>nec sine Patre et Spiritu sancto, et ideo specialiter Filio iudicium
+				<lb/>attribuitur quia ipse, non Pater vel Spiritus sanctus, ibi apparebit
+				<lb/>in forma humana et in ea utramque sententiam proferet.
+				<lb/>Unde in Evangelio: " Pater non iudicat quemquam, sed omne iudicium
+				<lb/>dedit Filio ", id est utrumque, scilicet absolutionis et condemnationis.
+				<lb/>Ipse enim Filius in forma humana proferet sententiam
+				<lb/>absolutionis et benedictionis, scilicet: " venite benedicti etc. ", et
+				<lb/>sententiam condemnationis et maledictionis, scilicet: " ite maledicti
+				<lb/>etc ". Unde Jeremias: " ex ore Altissimi ", scilicet Christi, " in iudicio
+				<lb/>non egredientur nec bona nec mala ", id est egredientur bona et
+				<lb/>mala, ut due negationes faciant unam affirmationem; vel intelligantur
+				<lb/>tantum negative et de Patre: ex ore Altissimi, id est Dei Patris,
+				<lb/>in iudicio non egredientur etc., id est nec bona nec mala tunc egredientur
+				<lb/>de ore eius, sed tantum de ore Filii. 'Bona' &lt;vocat&gt; sententiam
+				<lb/>absolutionis, 'mala' sententiam condemnationis que malis
+				<lb/>mala videbitur. Sunt et alie huiusmodi auctoritatis expositiones;
+				<lb/>ad prolixitatem &lt;vitandam&gt; eas nunc taceamus. Merito hanc sextam
+				<lb/>partem ubi agitur de dominica ascensione apposuit Jacobus, qui
+				<lb/>supplantator sive luctator interpretatur. Magno enim luctamine et
+				<lb/>magno conamine et carnis supplantation&lt;e&gt; fit ascensus a terris
+				<lb/>ad celum, ab homine ad Deum, a labore ad quietem, a vitiis ad
+				<lb/>virtutes, a stabulo ad palatium, ab exilio ad Regnum, ab umbra
+				<lb/>ad lucem, ab imagine ad veritatem, a figura spei ad rem spei, a
+				<lb/>religione carnis et hominum a&lt;d&gt; patriam supernorum spirituum.
+				<lb/>Nec mireris si Jacobum interpretamur luctatorem et supplantatorem.
+				<lb/>Jacob enim, unde quasi &lt;nominative&gt; Jacobus sumitur,
+				<lb/>prius supplantans fratrem primogenitorum percepit dignitatem,
+			<lb/>postea luctans cum angelo optatam percepit benedictionem.</p>
+		</div>
+		<pb n="riga 645-718"/>
+		<div>
+			<head><lb/>&lt;Sequitur&gt;: CREDO IN SPIRITUM SANCTUM.</head>
+			<p><lb/>Hec est septima pars quam Filippus apposuit, et est sensus:
+				<lb/>credo in Spiritum sanctum, id est credendo in eum promoveor,
+				<lb/>credendo in eum tendo, ei per fidem et caritatem inhereo, ei per
+				<lb/>bonam operationem et bonam voluntatem ardenter unior. Est
+				<lb/>enim Spiritus sanctus tertia persona in Trinitate, que est verus et
+				<lb/>unus Deus cum Patre et Filio, qui consubstantialis Patri et Filio
+				<lb/>ab utroque equaliter procedit. In eum ergo, sicut in &lt;Patrem&gt; et in
+				<lb/>&lt;Filium&gt; credendum est. Congrue in septima parte fides de Spiritu
+				<lb/>sancto, qui septiformis dicitur, collocatur, per septem gratias
+				<lb/>sive dona Spiritus sancti que in Isaia dicuntur vel leguntur. Merito
+				<lb/>hanc partem apposuit Filippus qui interpretatur amor supernus
+				<lb/>vel amator supernorum a filos quod est amor, et iper quod
+				<lb/>est super, qui in Spiritum sanctum, qui est amor Patris et Filii,
+				<lb/>se credere confessus est. Vel Filippus interpretatur os &lt;lampadis&gt;,
+				<lb/>quia verum &lt;lampadem&gt; et verum ignem, scilicet Spiritum sanctum,
+				<lb/>confitetur et se in eum credere profitetur. Dicitur etiam os
+				<lb/>&lt;lampadis&gt; quia verum lumen, inventum scilicet Christum, fratri
+			<lb/>suo Nathanaeli nunciavit et predicavit.</p>
+		</div>
+		<div>
+			<head><lb/>Sequitur: SANCTAM ECCLESIAM CATHOLICAM.</head>
+			<p><lb/>Hec est octava pars quam apposuit Bartholomeus, et est repetendum
+				<lb/>'credo' et secundum Augustinum 'in' prepositio est repetenda
+				<lb/>ut dicatur: credo in sanctam Ecclesiam catholicam. Dicit
+				<lb/>Augustinus sensum mutari ut non eo modo dicatur [quod] credere in
+				<lb/>sanctam Ecclesiam catholicam ut credit&lt;ur&gt; in Deum, sed dicit sic
+				<lb/>debere intelligi: credo in sanctam Ecclesiam catholicam, id est in
+				<lb/>Ecclesia sancta et catholica conversans credo in Deum. Sed melius
+				<lb/>pretermittur et non repetitur 'in' prepositio. Non enim in aliquid
+				<lb/>aliud est credendum nisi tantum in unum Deum et in tres personas,
+				<lb/>scilicet in Patrem et Filium et Spiritum sanctum, nec alibi
+				<lb/>quietem invenit rationalis creatura; unde in Psalmo: " sitivit anima
+				<lb/>mea ad Deum fontem vivum ", et alibi: " concupiscit et deficit anima
+				<lb/>mea in atria Domini ". Et est sic distinguendum: credo Ecclesiam
+				<lb/>sanctam, id est fidem catholicam tenentem esse sanctam. Ecclesia
+				<lb/>dicitur congregatio fidelium, catholica communis et universalis
+				<lb/>interpretatur. Illa ergo congregatio fidelium est credenda sancta
+				<lb/>que communi et universali fide innititur, illa scilicet que habita
+				<lb/>et predicata ab apostolis firma perseverat in ecclesiarum prelatis
+				<lb/>et in multitudine populorum permanet et &lt;est&gt; inviolabilis, et non
+				<lb/>est ea que in prostibulis et latibulis et sepe post telas et iuxta latrinas
+				<lb/>susurratur et confingitur ab hereticis. Vel hoc vult dicere,
+				<lb/>ut credamus quod Ecclesia catholica nunquam deficiet nec etiam
+				<lb/>defecit a tempore Abel. Potest Ecclesia Dei quati et fluctibus allidi
+				<lb/>sed non ita submergi quod aliqui boni non sint in ea. Unde Christus
+				<lb/>in figura Ecclesie dixit Petro: " ego rogavi pro te Petre ut non deficiat
+				<lb/>fides tua ", et alibi: " et porte inferi non prevalebunt adversus
+				<lb/>eam ", scilicet Ecclesiam. Et in evangelio dixit angelus Marie:
+				<lb/>" et regnabit in domo Jacob in eternum ", que domus appellata
+				<lb/>est universalis Ecclesia que per fidem et confessionem Christi ad
+				<lb/>patriarcarum pertinet sortem, sive in his qui de patriarcarum stirpe
+				<lb/>carnis originem duxerunt, sive &lt;in his qui &gt; de aliis nationibus
+				<lb/>carnaliter editi, spirituali lavacro sunt in Christo renati, in qua
+				<lb/>videlicet domo " regnabit in eternum et Regni eius non erit finis ".
+				<lb/>Et Augustinus: " si nullo modo potest dici recte Ecclesia in qua
+				<lb/>schisma est, restat ut quia Ecclesia nulla esse non potest, ea sit quam
+				<lb/>in apostolice sedis per successiones episcoporum radice constitutam
+				<lb/>nullorum hominum malitia valeat extinguere ". Et est: credo Ecclesiam
+				<lb/>catholicam sanctam esse, id est sancitam et firmatam et
+				<lb/>semper perseveraturam, ita quod nunquam deficiet, quod &lt;aliqui&gt;
+				<lb/>boni non sint in ea. Vel est sensus: credo sanctam Ecclesiam catholicam
+				<lb/>esse unam et in unitate totam consistere et ideo per partes
+				<lb/>scindi non potest quia divisionem unitas non capit. &lt;Qui&gt; ergo ab
+				<lb/>hac unitate dividitur, iam non in Ecclesia sed extra Ecclesiam esse
+				<lb/>convincitur. Ecclesia dicitur esse una propter cultum unius Dei,
+				<lb/>propter unam fidem quam tenet, propter unum baptismum quo
+				<lb/>utitur et quia vinculo caritatis est sibi et inter se compacta et unita,
+				<lb/>et quia unius viri unica sponsa et quia unius Patris unica filia.
+				<lb/>Hic sensus comprobatur ex eo quod in maiori symbolo loco istius
+				<lb/>dicti habetur: 'et unam sanctam catholicam et apostolicam Ecclesiam'.
+				<lb/>Hanc octavam partem apposuit Bartholomeus qui interpretatur
+				<lb/>filius suspendentis aquas, scilicet Dei, qui aquas, scilicet
+				<lb/>predicatores, sursum ad celestia trahit et elevat ut inde ad subdit&lt;o&gt;s
+				<lb/>aqua, id est doctrina, distillet, qua Ecclesia catholica
+			<lb/>informata et in unitate conservata elevatur ad celestia.</p>
+			<pb n="riga 719-778"/>
+		</div>
+		<div>
+			<head><lb/>Sequitur: SANCTORUM COMMUNIONEM.</head>
+			<p><lb/>Hec est nona pars quam apposuit Mattheus, et est repetendum
+				<lb/>'credo communionem sanctorum', id est ecclesiasticorum sacramentorum
+				<lb/>cred&lt;o&gt; veritatem, id est cred&lt;o&gt; ecclesiastica sacramenta esse
+				<lb/>vera communiter et generaliter a quocumque ministrentur. Vera
+				<lb/>dico et quantum ad se et quantum ad effectum, dummodo malitia
+				<lb/>suscipientis non impediat et ecclesiastica forma servetur. Baptismus
+				<lb/>enim eque verus et eque bonus est et eque efficax traditus
+				<lb/>a malo sicut collatus a bono, si ecclesiastica forma servetur et
+				<lb/>malitia suscipientis non impediat. Vel credo communionem sanctorum,
+				<lb/>id est de ecclesiasticis sacramentis credo et sentio id quod
+				<lb/>communiter et generaliter sancti et catholici Patres de his crediderunt
+				<lb/>et senserunt. Si ergo queritur a te quid sentias vel credas
+				<lb/>de baptismo et corpore et sanguine Christi et de ceteris sacramentis
+				<lb/>ecclesiasticis, catholice respondebis: id credo de eis quod communiter
+				<lb/>sancti crediderunt et senserunt, scilicet communionem
+				<lb/>sanctorum, id est veritatem sacramentorum ecclesiasticorum. Sicut
+				<lb/>enim Ecclesia in unitate consistit, sic et sacramenta eius in unitate
+				<lb/>dicuntur consistere, unde in susceptione alicuius illorum patrinus
+				<lb/>non debet esse nisi unus, ut testantur Iginus et Leo papa. Dicuntur
+				<lb/>etiam in unitate consistere, quia non reiterantur ex maiori
+				<lb/>parte et quia in fide unius consecrantur et conferuntur et quia extra
+				<lb/>unitatem ecclesie non habent effectum. Vel sancta possunt hic
+				<lb/>appellari tantum sacrament&lt;um&gt; baptismi, et est credo communionem
+				<lb/>sanctorum: credo quod sacramentum baptismi sit &lt;commune&gt;,
+				<lb/>id est nulli petenti denegandum sed communiter omnibus
+				<lb/>exhibendum, quod non contingit de aliis sacramentis quia criminosis
+				<lb/>et irregularibus sacramentum ordinis denegatur, nec etiam
+				<lb/>feminis &lt;debet&gt; confici, impenitentibus denegatur sacramentum
+				<lb/>penitentie, sacramentum vero eucharistie etiam quibusdam penitentibus
+				<lb/>denegatur, sacramentum coniugii multis interdicitur, a
+				<lb/>multis etiam non potest contrahi. Sed sacramentum baptismi nulli
+				<lb/>penitenti denegatur. &lt;Hic&gt; sensus comprobatur ex eo quod in
+				<lb/>maiori symbolo loco istius dicti, scilicet sanctorum communionem,
+				<lb/>&lt;habetur&gt;: ' confiteor unum baptisma ', unum id est &lt;commune&gt;,
+				<lb/>vel unum id est &lt;non&gt; retractabile, vel unum id est fide unius consecratum
+				<lb/>et collatum, vel unum id est equivalens, eque efficax a
+				<lb/>quocumque conferatur, dummodo forma ecclesiatica servetur et
+				<lb/>malitia suscipientis non impediat. Vel ' sanctorum ' intelligitur in
+				<lb/>masculino genere et intelliguntur sancti omnes salvandi, et quod
+				<lb/>hic dicitur ad aliam vitam respicit in qua Deus erit omnia &lt;in&gt;
+				<lb/>omnibus, et est 'credo communionem sanctorum', id est commune
+				<lb/>premium ct commune bonum sanctorum, id est quod in alia vita
+				<lb/>sancti omnes habebunt commune gaudium, commune bonum,
+				<lb/>commune premium, communem beatitudinem, non quod unus non
+				<lb/>habeat plus altero et maiorem beatitudinem et maiora merita et
+				<lb/>secundum quod vicinius et plenius unus contemplabitur Deum
+				<lb/>quam alter, quia etiam stella differt a stella in claritate, sed ita
+				<lb/>erunt convincti caritate ut nec inferior invideat superiori, nec superior
+				<lb/>inferiorem contemnat, sed quicumque ita gaudebit de bono
+				<lb/>alterius quasi ipse haberet, et ita quod habent singuli erit quasi
+				<lb/>commune omnibus, et hoc erit cum Deus erit omnia in omnibus,
+				<lb/>id est sufficientia omnium. Hanc nonam partem apposuit Mattheus
+				<lb/>&lt;qui&gt; interpretatur donatus, quia talis communio non provenit
+				<lb/>nisi de dono et gratia Spiritus sancti; vel ideo dictus est Mattheus,
+				<lb/>id est donatus, quia magnum obtinuit donum, quod de peccatore
+				<lb/>factus est iustus, de publicano factus &lt;est&gt; apostolus; &lt;idem&gt;
+				<lb/>dictus est Levi, id est additus vel assumptus, qui&lt;a&gt; eum divina
+				<lb/>electio assumpsit et numero apostolorum addidit, et post apostolatum
+			<lb/>ei gratiam evangelii superaddidit.</p>
+		</div>
+		<pb n="riga 779-870"/>
+		<div>
+			<head><lb/>Sequitur: REMISSIONEM PECCATORUM.</head>
+			<p><lb/>Hec est decima pars a Simone Cananeo apposita, et est repetendum
+				<lb/>' credo remissionem peccatorum omnium ', scilicet originalium
+				<lb/>et actualium, mortalium et venialium, quasi credo quod
+				<lb/>peccata dimittantur a Deo, in parvulis per sacramenta, in adultis
+				<lb/>per gratiam fidei et caritatis, per orationem dominicam, per tunsionem
+				<lb/>pectoris, per aque benedicte aspersionem, per eleemosynarum
+				<lb/>largitionem, et huiusmodi peccatum a Deo dimitti et ipsum
+				<lb/>ad penam non imputari. Simon iste &lt;qui&gt; hanc partem apposuit
+				<lb/>interpretatur ponens tristitiam; per tristitiam enim quam qui habet
+				<lb/>de peccatis suis et alienis fit remissio peccatorum. Idem dictus
+				<lb/>est Cananeus a Cana vico unde fuit, vel Cana interpretatur zelus,
+				<lb/>inde Cananeus id est zelotes, scilicet emulator sive imitator, quia
+			<lb/>Dominum dilexit et secutus est.</p>
+		</div>
+		<div>
+			<head><lb/>Sequitur: CARNIS RESURRECTIONEM.</head>
+			<p><lb/>Hec est undecima pars quam apposuit Thaddeus qui et Judas
+				<lb/>dictus est, et repetitur 'credo carnis resurrectionis'. Humana
+				<lb/>caro que aliquando animata fuit in die iudicii resurrectura firmiter
+				<lb/>credenda est, et queque anima corpori quod rexit quantumlibet
+				<lb/>putrefacto, quantumlibet disperso, in momento, in ictu oculi assignabitur,
+				<lb/>ut boni duplici stola, id est in corpore et in anima beatificentur,
+				<lb/>et mali duplici contritione conterantur. Unde Apostolus:
+				<lb/>" omnes quidem resurgemus ", scilicet boni et mali, " sed non
+				<lb/>omnes immutabimur " in gloria resurrectionis, sed tantum boni
+				<lb/>omnes resurgent in eadem carne et immortales et integri et incorrupti,
+				<lb/>&lt;et&gt; soli boni erunt impassibiles, et hec est gloriosa resurrectio,
+				<lb/>sed mali erunt passibiles et ita gloria impassibilitatis carebunt
+				<lb/>in qua boni resurgendo immutabuntur. Quod in eadem
+				<lb/>carne resurrecturi sint Job ostendit dicens: " in novissimo die de
+				<lb/>terra &lt;surrecturus sum&gt; et rursum circumdabor pella mea et in
+				<lb/>carne mea videbo Deum Salvatorem meum, quem visurus sum
+				<lb/>ego &lt;ipse&gt; et non alius ", id est non in alia carne quam modo habeam.
+				<lb/>Hanc undecimam partem apposuit Thaddeus qui interpretatur
+				<lb/>corculus, id est cordis confitens, quia per veram confessionem et
+				<lb/>per cultum cordis, id est munditiam cordis et operis, hic prius ad
+				<lb/>resurrectionem anime venerit et in futuro ad gloriosam resurrectionem
+			<lb/>carnis.</p>
+		</div>
+		<div>
+			<head><lb/>Sequitur: VITAM ETERNAM.</head>
+			<p><lb/>Hec est duodecima pars quam apposuit &lt;Matthias&gt; et repetit&lt;ur&gt;
+				<lb/>' credo vitam eternam '. Vita eterna est beatitudo eterna,
+				<lb/>&lt;scilicet&gt; ipse Deus qui est vita in se et in aliis confert vitam.
+				<lb/>Bonum hoc omnes electi habebunt communiter et hoc bono omnes
+				<lb/>electi perfruentur, sed alii aliis plenius; perfruentur vero delectando,
+				<lb/>per caritatem merendo, per speciem videndo, non per speculum
+				<lb/>et in enigmate. Habere ergo vitam est videre vitam, id est
+				<lb/>cognoscere Deum in specie ipsa, et cognitio divinitatis per speciem
+				<lb/>dicitur vita eterna. Unde Christus in evangelio: " hec est
+				<lb/>vita eterna ut cognoscant te et quem misisti Jesum Christum "
+				<lb/>esse unum et solum verum Deum. Hanc cognitione&lt;m&gt; omnes
+				<lb/>electi habebunt licet differenter. Ipsa etiam delectatio et gaudium
+				<lb/>quod singuli videndo Deum habebunt, potest dici vita eterna, et
+				<lb/>quocumque modo vita eterna dicatur et recte dicitur credo vitam
+				<lb/>eternam ab omnibus electis esse habendam communiter et videndam
+				<lb/>et cognoscendam et omnibus electis esse tribuendam. Vel
+				<lb/>credo vitam eternam esse premium et finem et terminum omnium
+				<lb/>laborum et stipendium militie christiane; pro ea laborandum est
+				<lb/>ab omnibus et omnibus temporibus, et ea habita est quiescendum
+				<lb/>et nihil ultra petendum vel desiderandum, unde spirituali
+				<lb/>convivio nostre fidei merito ultimo loco ponitur. Vel vita eterna
+				<lb/>dicitur vita quam homines boni et mali post generalem resurrectionem
+				<lb/>vivent eternaliter, id est perpetuo, quasi ita: communiter
+				<lb/>in die iudicii resurgent boni et mali, et exinde vitam omnium credo
+				<lb/>esse eterna&lt;m&gt;, id est perpetuam et indeficientem sive ad bonum
+				<lb/>sive ad malum. Mortuorum quidem resurrectionem que ante Christum
+				<lb/>et post Christum celebrata est mors subsecuta est, nisi forte
+				<lb/>in quibusdam illorum qui cum Christo resurrexerunt, si verum
+				<lb/>est animas vel aliquos eorum ad immortalitatem resurrexisse, sed
+				<lb/>generalis illa resurrectio que fiet in die iudicii separationi anime a
+				<lb/>corpore non subiacebit, sed sive boni ad percipiendam beatitudinem
+				<lb/>eternam, sive mali ad sustinenda supplicia eterna perpetuo
+				<lb/>sustinent et vivent et nunquam deficient. Hunc sensum videtur
+				<lb/>explicare finis alterius symboli, scilicet maioris ' credo in unum
+				<lb/>Deum '. Sic enim ibi dicitur: " et expecto resurrectionem mortuorum
+				<lb/>et vitam futuri seculi ". Matthias merito hanc ultimam partem
+				<lb/>apposuit, quia vocatione fuit ultimus. Matthias interpretatur
+				<lb/>parvus Dei, et in hoc parvitatem et minoritatem sui ostendit,
+				<lb/>quod ultimo loco in convivio fidei ultimum ferculum apposuit.
+				<lb/>Noluit enim alios precedere licet forte non essent omnes maioris
+				<lb/>meriti, et in hoc secutus est illud: " quanto maior es, tanto humiliate
+				<lb/>in omnibus ". Ferculum tamen quod apposuit omnia precedentia
+				<lb/>fercula prerogativa dignitatis antecelluit, quia illa omnia
+				<lb/>tendunt ad hoc, et nisi hoc subsequitur illa inutiliter habent&lt;ur&gt;.
+				<lb/>Amen confirmatio est et quasi signaculum totius symboli. Amen
+				<lb/>sonat vere vel fideliter, quasi vere et firmiter et fideliter est tenendum
+				<lb/>quicquid in his duodecim sententiis continetur, aliter adultus
+				<lb/>et discretus non salvatur, ut in fine sui symboli dicit &lt;Athanasius&gt;.
+				<lb/>Quicquid enim in his duodecim sententiis continetur est necessarium
+				<lb/>ad fidem sanam, ad fidem rectam, ad fidem catholicam, ad
+				<lb/>fidem &lt;que&gt; perducit ad speciem, id est ad cognitionem unitatis
+				<lb/>in Trinitate et Trinitatis in unitate, non enigmaticam, non per
+				<lb/>speculum sed per speciem, ad quam nos et vos perducat qui est
+			<lb/>trinus et unus. Amen.</p>
+		</div>
+	</body>
+</text>
+</TEI>

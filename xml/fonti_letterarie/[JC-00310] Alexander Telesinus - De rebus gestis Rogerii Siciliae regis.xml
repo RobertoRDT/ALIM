@@ -1,0 +1,2917 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De rebus gestis Rogerii Siciliae regis (1127-1135)</title>
+				<author>Alexander Telesinus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>L. De Nava</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="18635" unit="words">Parole: 18635</measure>
+				<measure quantity="117114" unit="characters_without_spaces">Caratteri (spazi esclusi): 117114</measure>
+				<measure quantity="133333" unit="characters_witht_spaces">Caratteri (spazi inclusi): 133333</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-04-07">07/04/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Caratteri (con spazi): 133.945
+				GG</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Alexandri Telesini abbatis Ystoria Rogerii regis Sicilie, Calabrie atque Apulie</title>
+						<editor>L. De Nava</editor>
+						<imprint>
+							<publisher>Istituto storico italiano per il Medio Evo</publisher>
+							<pubPlace>Roma</pubPlace>
+							<date>1991</date>
+							<biblScope unit="page">1-92</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Fonti per la storia d'Italia, pubblicate dall'Istituto storico italiano</title>
+						<biblScope unit="volume">112</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="1"/>
+		<div>
+			<head><lb/>Ystoria serenissimi Rogerii primi
+			<lb/>regis Siciliae incipit prologus</head>
+			<p><lb/>Alexander telesini cenobii immeritus abbas, universis in
+				<lb/>Christo positis salutem. Non ab re esse reor, si res olim geste
+				<lb/>in memoria scripto habeantur. Nam in eis plurimum fertur
+				<lb/>commodum, pre quibus quid tenendum quidve sit cavendum
+				<lb/>satis agnoscitur. Siquidem ipsa bellica acta, cum bona non esse
+				<lb/>cernantur, ideo tamen conscribuntur, quia ut non fiant quodam
+				<lb/>modo innuunt, immo iubent; ut et pacis vinculum desiderabilius
+				<lb/>deinceps perseveranter in nobis vigeat faciliusque non queat
+				<lb/>dissolui. Quam ob rem merito me quis culpare non debet, si
+				<lb/>militaria gesta, que modernis temporibus acciderunt, ad posterorum
+				<lb/>notitiam, stilo comprehensa, monachus retulerim, cum
+				<pb n="2"/>
+				<lb/>etiam in sacris veteribus ystoriis, videlicet Saul et David, ceterorumque
+				<lb/>Regum, multa hiis similia narrantur, que in cunctis per
+				<lb/>orbem ecclesiis ad proficuum audientium legi non prohibentur.
+				<lb/>Malui igitur a cenobialibus ad tempus curis et sine quolibet segregari
+				<lb/>dampno, quam ea, inutili suppressa silentio, taliter infruttuosa
+				<lb/>manerent. Ad perficiendum tamen opusculum istud
+				<lb/>importuna me valde Comitisse Matildis sororis Regis Rogerii
+				<lb/>coniugisque Ranulphi Comitis precatio impulit: cuiusquidem
+				<lb/>petitionem, etiam si primo propter ordinis rigorem, subterfugere
+				<lb/>volui, postmodum vero me ei non assensisse penituit.
+				<lb/>Conjciebam enim futuris temporibus quod ab ea poscebatur,
+				<lb/>indubitanter profuturum non deesse. Nunc igitur eiusdem
+				<lb/>Regis gesta ad perpetuam conscribendam memoriam assumantur:
+				<lb/>qui primus quales pueriles gesserit actus, quique post
+				<lb/>Siciliensis Comitatus honorem, qualiter ad ducalem apicem,
+				<lb/>deinde quomodo ad Regiam provectus fuerit dignitatem, seu
+				<lb/>quanta diebus nostris in hoc seculo excoluerit potentia, quantove
+				<lb/>etiam terrore provincias omnes a Sicilia Romam usque conterens,
+				<lb/>in brevi sibi subdiderit, summa tantum carpendo in hoc
+				<pb n="3"/>
+				<lb/>propaletur volumine. Cuius quoque precellentissima virtus, etsi
+				<lb/>in vindicandis tot regionibus sibi satisfacere gestituit, tamen, ut
+				<lb/>que in ipsis multum superfluebat iniquitas, iam finem acciperet,
+				<lb/>huius quoque erat oculto Dei iudicio conterenda flagello. Nam
+				<lb/>sicut Ipso Deo disponente, vel permittente, vigens longobardorum
+				<lb/>nequitia supervenientium normannorum violentia olim comprimenda
+				<lb/>fuit, ita et nunc certum est Rogerio celitus datum vel
+				<lb/>permissum fuisse harum scilicet Regionum immensam gladio
+				<lb/>suo coerceri malitiam. Quid enim tunc mali non in ipsis
+				<lb/>exercebatur? Quippe omni timore abiecto, cedes
+				<lb/>hominum, furta, rapine, sacrilegia, adulteria, periuria, necnon
+				<lb/>ecclesiarum monasteriorum oppressiones, virorum Dei contemptus,
+				<lb/>pluraque hiis similia fieri non desinebant. Peregrinorum
+				<lb/>quoque pro Deo itinerantium, alii predabantur, alii vero, pro
+				<lb/>rebus eorum diripiendis, in abditis locis perimebantur. Quibus
+				<lb/>facinoribus plurimum Deus offensus, idcirco Rogerium de vagina
+				<lb/>provincie Sicilie extraxit, ut eundem quasi gladium acutum in
+				<lb/>manu tenens, harum perpetratores iniquitatum per eum percutiendo
+				<lb/>comprimeret, atque ad viam iustitie, quos incorrigibiles
+				<lb/>valde diu sustinuerat, eiusdem conterriti terrore revocarentur.
+				<lb/>His ergo in prefatione paulullum prelibatis, ad narrandum eius
+			<lb/>initium veniamus.</p>
+			<p><lb/>Explicit prologus</p>
+			<pb n="5"/>
+		</div>
+		<div type="book">
+			<head><lb/>Incipit ystoria Rogerii regis Sicilie Calabrie
+			<lb/>atque Apulie liber primus</head>
+			<div type="chapter">
+				<head><lb/>1</head>
+				<p><lb/>Igitur Vilielmus dux Apulie postquam humanis rebus morte
+					<lb/>interceptus excessit, qui nepos Roberti Viscardi robustissimi
+					<pb n="6"/>
+					<lb/>fuerat ducis, videlicet genitus a filio ipsius Rogerio, qui secundus
+					<lb/>ei ad suscipiendum ducatus succederat apicem, contigit ut hec
+					<lb/>ipsa iam facta provincia, alieque circumquaque posite regiones,
+					<lb/>ingenti possiderentur calamitate: utpote que absque regiminis
+					<lb/>ducalis habena fuerant postposite. Quippe dux ipse legitima
+					<lb/>carens prole, heredem iure sibi succedentem moriens non reliquerat;
+					<lb/>unde accidit ut et ipsarum ducalium urbium, scilicet
+					<lb/>Salerni, Troye, Melfie, Venusii, ceterarumque que sine domino
+					<lb/>et duce relicte fuerant, quedam istius, quedam illius tyrannica
+					<lb/>ambitione surriperentur. Sed et singulis quibusque, quod placitum
+					<lb/>erat in occulis ipsorum, nemine contradicente agere liceret. Nemo
+					<lb/>quippe tunc nulla corporis punitate exterrebatur, ideoque ad
+					<lb/>malum operandum magis ac magis universi efrenabantur ita ut
+					<lb/>non solum viatoribus iugis fieret metus, verum etiam agricolis ad
+					<lb/>excolendum agrum exire cupientibus, securitatis quies abesset.
+					<lb/>Quid plura? Nisi Deus guiscardine pertinens prosapie reliquisset
+					<lb/>semen, per quod cito ducatus recuperaretur monarchia, omnis pene
+					<lb/>siquidem terra nequissimis involuta facinoribus inhumane mentis,
+					<lb/>precipitium ruitura periret. Quis itaque illud fuerit semen nunc
+					<lb/>subiungendo manifestetur; semen inquam istud Rogerius filius
+					<pb n="7"/>
+					<lb/>Rogerii Siculorum comitis, fratris predicti Guiscardi, qui tempore
+					<lb/>quo supra memorata gerebantur, Siciliensium peragebat comitatum;
+					<lb/>cuiusquidem qui et quales in se pueriles fuerint actus,
+				<lb/>hic primo, licet summatim, recolere dignissimum duxi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2</head>
+				<p><lb/>Huic quippe unicus erat frater primogenitus nomine Simon,
+					<lb/>qui patri obituro ad suscipiendum ipsius provincie dominium
+					<lb/>successurus erat; quem quidem, ut moris est puerorum, nummo
+					<lb/>ad bellum ludendo provocabat. Hic namque ludus ei pre ceteris
+					<lb/>ludis specialissimus inerat. Cum ergo uterque cum singulis puerorum
+					<lb/>catervis ad hoc accitis preliarentur, superabat minimus
+					<lb/>Rogerius, unde, deridens fratrem suum Simonem, aiebat:
+					<lb/>"Me quidem sic triumphantem dominatus honos post
+					<lb/>funera patris potius condecet, quam te. Quapropter cum id potitus
+					<lb/>fuero, te aut Episcopum, aut vel Rome Papam, quod magis
+					<lb/>tibi competit, constituturus ero". Cumque crebro sic superando
+					<lb/>talia in eum insultantius verba proferret, iam in se pertendebat
+					<lb/>quod vere dominus ipse post patrem futurus esset; quodque
+					<lb/>nonnullas, ut in sequentibus apparebit, pluribus longe lateque
+				<lb/>terris subactis consecuturus esset victorias.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3</head>
+				<p><lb/>Factum est autem dum Simon genitorque Rogerius
+					<lb/>vi numinis ad extrema pervenissent, Rogerius, minimus, ad
+					<lb/>potiendum provincie ipsius comitatus heres succedit. Sed quia
+					<lb/>adhuc tenera comprimebatur etate, nec poterat hac prepeditus dominatus
+					<lb/>exercere curas, genetrix illius Adalesia nomine, mulier
+					<pb n="8"/>
+					<lb/>prudentissima, quousque ad etatem ipse pertingeret legitimam,
+					<lb/>regimen sub se peragendum ipsius comitatus accepit. Hic namque
+					<lb/>dum adhuc puer sub matris tutela degeret, persepe tanta movebatur
+					<lb/>pietatis gratia, ut non pauper vel peregrinus ab eo vix sine
+					<lb/>stipe recederet. Plerumque enim cum quid dare non haberet,
+					<lb/>genitricem adiens petebat quatinus sibi conferret quod inopi
+					<lb/>largiturus esset; cui etiam quatinus a se ipsum fieret, magnopere
+				<lb/>fusis precibus suggerebat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>4</head>
+				<p><lb/>Cum autem adolevisset, factusque miles, dominatus iura per
+					<lb/>se agere deberet, tanta utebatur industria, tantaque virtutis fulciebatur
+					<lb/>gratia, ut totam Sicilie provinciam optime strenueque
+					<lb/>regens sub omni terrore constringeret; adeo ut non fur, non latro
+					<lb/>aut raptor, sive quislibet malefactorum ex latebris suis prodiens,
+					<lb/>apparere auderet. Auro vero, vel argento, ceterisque rebus ita
+					<lb/>opulentissimus erat, ut cunctis pregrandem ex hoc stuporem
+					<lb/>ingereret; unde non solum a suis, verum etiam ab alienis, seu
+					<lb/>longe positis, quammaxime timeretur. Invaserat enim et alias
+					<lb/>insulas, quarum una Malta vocabatur; cumque ad alias iterum
+					<lb/>occupandas insulas terrasque attentius persisteret, repente audivit
+					<lb/>prefatum ducem Guilielmum ab hac luce Salerni discedisse.
+					<lb/>Qui doluit valde quod, se ignorante, defunctus sit; quodque se,
+					<lb/>ut sibi vivens statuerat si filium non haberet, heredem non
+					<lb/>fecisset. Unde moram non patitur, sed preparato navali itinere,
+				<lb/>quantocius Salernum tetendit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5</head>
+				<p><lb/>Cumque non procul ab urbe, navibus infra mare fixis, constitisset,
+					<lb/>delegatis nuntiis Salernitanis civibus misit quatinus eidem
+					<lb/>subderentur; nam potius sibi, quam alteri, dominatus eiusdem
+					<lb/>civitatis generis successione competebat; quod et Guilielmus
+					<lb/>dux, si ex coniuge nato cariturus esset herede, vivens ei concesserat.
+					<lb/>Quibus illi respondentes: "Nos nullo modo, inquiunt, nullave
+					<lb/>ratione ei subdemur; quoniam plura malorum a Guilielmo
+					<pb n="9"/>
+					<lb/>duce eiusdem predecessoribus perpessimus, que etiam ab eodem
+					<lb/>ipso nobis inferri, si dominatus culmen super nos susceperit,
+					<lb/>formidamus". Cumque hec et his similia ab eis superbo ore
+					<lb/>proferrentur, atque magnas quidam, Sarolus nomine,
+					<lb/>unus ex illis qui ex parte Comitis verba detulerant, dura contra
+					<lb/>eos pro hoc ipso verba reddidisset, mox illis in eum furore
+					<lb/>concitatis, dum fugam evadendi infelix ageret, ferocius ab
+				<lb/>ipsis succissus interiit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6</head>
+				<p><lb/>Que videlicet cum Rogerio relata fuissent, licet cordis dolore
+					<lb/>intrinsecus quam plurimum tangeretur, animi sui impetum pro
+					<lb/>temporis gravitate obvolvens, rursus mittebat, exorans eos
+					<lb/>quatinus quod sibi iustum ad habendum erat non denegarent.
+					<lb/>At illi, super hoc iterum atque iterum multipliciter secum conferentes,
+					<lb/>tandem talia respondentes dixerunt: "Concedatur nobis
+					<lb/>munitio turris maioris ad custodiendum; sicque post, dominio
+					<lb/>ipsius subdemur". Quo audito, ille, quamquam super hoc pernimium
+					<lb/>aggravaretur, subditionem tamen civium accepturus,
+				<lb/>predictam arcem eis, pro nutu ipsorum, conservandam annuit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7</head>
+				<p><lb/>Interea Comes Ranulphus, qui eius iam sororem nomine Matildim
+					<lb/>in coniugium duxerat, audiens illum Salernum advenisse,
+					<lb/>continuo pergens invenit eum in mari, in eodem adhuc loco
+					<lb/>quo prius substiterat, consistentem. Ubi cum post multa verborum
+					<lb/>Rogerius eius hominium sibi subdendum postulasset,
+					<lb/>illeque, nisi forte quid sibi ab eo daretur pro quo id fieri deberet,
+					<lb/>recusaret, percunctatur mox, quid sibi per hoc ab eo conferri
+					<lb/>gestiret. At ille: "Volo, inquid, quatinus si mei submissione
+					<pb n="10"/>
+					<lb/>hominii honorem consequeris, sic versa vice Rogerii
+					<lb/>Arianensis Comitis me subditione honores". Quod cum
+					<lb/>audisset, graviter accepit, abnuens parem pari submitti. Unde
+					<lb/>dum uterque post inter se vicaria durorum prolatione verborum
+					<lb/>altercarentur, Comesque deinceps Ranulphus animi indignatione
+					<lb/>motus penitus recedere vellet, tandem Rogerius eum abire non
+					<lb/>passus, tam pro coniugali Matildis copula, qua ei propinquus
+					<lb/>existebat, quam pro strenuitatis sue nomine, quam sibi in
+					<lb/>adquirendo Apuliam omnino profuturam sperabat, eius suscepto
+					<lb/>hominio, subdidit ei prefatum quem poposcerat Comitem.
+					<lb/>Amalfitani deinde, videntes Salernitanos Comiti colla subdidisse,
+				<lb/>et ipsi ididem ei, retentis munitionibus, subiciuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8</head>
+				<p><lb/>Per idem tempus Romane Ecclesie pontificium Honorius
+					<lb/>papa secundus administrabat, qui Rome obitum Guilielmi ducis
+					<lb/>percipiens, nec non Siciliensem Comitem ducale iam ambire
+					<lb/>regimen cognoscens, doluit valde, atque sine dilatione urbe
+					<lb/>egressus, Beneventum properat; deinde missarum celebrans
+					<lb/>solempnia, ipsum publica voce anathematis iaculo perculit
+					<lb/>si ducale optinere culmen ulterius conaretur, vel quisquis ei ad id
+					<lb/>nanciscendum consilium auxiliumve tribueret. Unde factum est
+					<lb/>ut et ipse Ranulphus Comes ab eo, quamquam male consultus,
+					<lb/>penitus averteretur, modis omnibus nitens prepedire eum ne
+				<lb/>ducatus quiret conscendere apicem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>9</head>
+				<p><lb/>Verum Rogerius Salerni commorans, cum audisset quod
+					<lb/>papa Beneventum petisset, atque in se excomunicationis intorsisset
+					<lb/>iaculum, misit ad eum orans ut non ab Ecclesia dominatum
+					<pb n="11"/>
+					<lb/>ducalem quoque honorem, generis iure sibi competentem,
+					<lb/>prohiberetur; nam ei prout equitas imperaret, de
+					<lb/>eiusdem ducatus culmine libenter ipse obsecundaturus esset.
+					<lb/>Papa vero hiis perceptis, nulla ratione nullove pacto eius precationibus
+					<lb/>flectitur, immo amplius illum excomunicando feriens
+					<lb/>expellebat. Porro Rogerius indignationem adhuc illius patienter
+					<lb/>sustinens, misit iterum atque iterum quatinus, eum suscipiens,
+					<lb/>quod se habere iure decebat non denegaret. At contra papa
+					<lb/>eodem modo quo supra, in eum obstinatissimum gerens animum,
+				<lb/>nullo modo desiderio ipsius assensum prebere volebat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10</head>
+				<p><lb/>Post hec autem predictus presul a troianis civibus accitus,
+					<lb/>eorum hominium, flagitantibus ipsis, accepit; ubi quidem universi
+					<lb/>Apulie ad se venientes magnates adversum Rogerium ita,
+					<lb/>eodem sollicitante, federe ei uniuntur, ut non nisi aut illum
+					<lb/>penitus expellerent, aut in bello, si possent, de terra neqando
+					<lb/>delerent. Ex quibus fuerunt Grimoaldus barensium princeps,
+					<lb/>Gofridus comes andrensium, Tancredus de Conversano, atque
+					<lb/>Rogerius Arianensis comes, aliique quam plures, quorum
+					<lb/>scilicet unanimitati et Robertus Capuanorum princeps eiusdem
+					<lb/>pape ortatu comitisque Ranulphi instigatione consociatur.
+					<lb/>Nec mora: prefatus Apostolicus Beneventum repedat, ibique
+					<lb/>non longa intercedente mora, rursus Troiam revertitur, qui ibidem
+					<pb n="12"/>
+					<lb/>episcoporum celebrans concilium, Rogerium iterum, vel quisquis
+					<lb/>ei adipiscendum ducatum consensurus seu opem collaturus esset,
+					<lb/>ab Ecclesia excomunicando eliminavit; cumque, his peractis, denuo
+					<lb/>Beneventum remeasset, Rogerius rursus legatione ad eum
+					<lb/>directa, suppliciter precatur quatinus anathematis sententia remota,
+					<lb/>ducalique sibi dignitate concessa, servitium eius susciperet.
+					<lb/>At ille rursus in eodem ipso quo supra, immobili mente persistens,
+				<lb/>petitioni nullatenus adquiescit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11</head>
+				<p><lb/>Rogerius tantam ipsius insolentiam, animumque eius ita
+					<lb/>inflexibilem spectans, ad Siciliam transvectus navigio
+					<lb/>redit, quatinus quod humilibus verbis obtinere non poterat,
+					<lb/>armorum violentia revertens adipisceretur. Cuius abscessu cognito,
+					<lb/>Papa et ipse Romam quam citius potuit repetit;
+					<lb/>uti inde bellicam aciem ducens adversus eum, simul cum
+					<lb/>prememoratis principibus obsistere deberet, si forte cum hostili
+					<lb/>manu ducatum invasurus rediret. Multa quidem preterii, quoniam
+					<lb/>summa tantum atque extrema, sicut in prohemio iam
+				<lb/>dictum est, enarrare proposui.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12</head>
+				<p><lb/>Igitur Rogerius cum apud Siciliam, quousque ad bella solitum
+					<lb/>est procedi, demoratus fuisset, coacto nimium immenso exercitu,
+					<lb/>fretum farense transvadavit. Qui inde movens se ad
+					<lb/>turrim, que Humfredi dicitur, constringendam properat; quamquidem
+					<lb/>cito comprehensam ad solum usque subvertit. Deinde
+					<lb/>Tarentum perveniens, civibus sese dedentibus, mox eam obtinuit.
+					<lb/>Cuius post obsidionem, Ydrontini cives pertimescentes, civitatem
+					<lb/>et ipsi, seseque ei submittunt. He quippe urbes Boamundi
+					<pb n="13"/>
+					<lb/>imperii fuerant, quas ipse omnemque terram suam, cum
+					<lb/>ad potiendum principatum Antiochie transmarinum peteret
+					<lb/>iter, Apostolice prius fertur tutele commisisse. Verum ille
+					<lb/>eiusdem civitatis decoratus principali infula, brevi intercapedine
+					<lb/>posita, in loco quo se tutum omnino cum suis fore
+					<lb/>putabat, subito a turcorum interclusus acie, cum multis aliis
+					<lb/>degladiatus finem vite dedit. Deinde super Brundisium urbem
+					<lb/>predicti Tancredi veniens, eam nimio obsidionis rigore tamdiu
+					<lb/>oppressit, donec urbicole non diu tollerantes, civitatem ei seseque
+					<lb/>dedere. Quo facto ad oppidum quod nominatur Castrum obsessurus
+					<lb/>festinat; quod quidem sine dilatione capitur. Post hec
+					<lb/>autem oppidum, quod nuncupatur Oira, adiens, continuo illud
+					<lb/>aggreditur. Preterea et alia eiusdem castra capiuntur, quorum
+				<lb/>nomina nequaquam recoli, ignorationis necessitas cogit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13</head>
+				<p><lb/>Honorius itaque papa, cognoscens Siculorum comitem mare
+					<lb/>transmeasse, terrasque Boamundi atque Tancredi ex parte iam
+					<lb/>occupasse, cum militibus ferme trecentis revertitur, mandans
+					<lb/>principi Roberto comitique Ranulpho ceterisque per Apuliam
+					<lb/>prememoratis principibus quatenus militaribus collectis agminibus
+					<lb/>secum hosti Rogerio iam imminenti armis obviaturi procederent.
+					<lb/>Comes igitur Rogerius comperiens prefatam expeditionem
+					<lb/>ad se debellandum properare, movens se, ad fluvium Bradanum,
+					<lb/>ubi vadus Petrosus dicitur, castra figi precepit. Et contra
+					<lb/>vero papa cum omnibus suis appropinquat, in tantum ut medius
+					<lb/>inter eos fluvius ipse difflueret. At Rogerius cum dominum
+					<lb/>papam expeditioni illi interesse percepisset, reverentiam
+					<lb/>illi ita exhibebat, ut vitaret eum contingere, ne contra Deum,
+					<pb n="14"/>
+					<lb/>spreto Ipsius vicario, repugnare videretur. Quin etiam ad eum
+					<lb/>legatione semel ac iterum facta, flagitabat ut ei, anathematis
+					<lb/>vinculo absoluto, ducatum etiam iure generis sibi succedentem
+				<lb/>liceret accipere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14</head>
+				<p><lb/>Cumque sic hii et illi sine rerum effectum diutius permansissent,
+					<lb/>magnates principis Roberti, deficientibus sumptuum
+					<lb/>stipendiis, egere incipiunt adeo ut plures illorum, clamides suas
+					<lb/>distraentes, cibos sibi mercari compellerentur. Unde factum est
+					<lb/>ut quidam eorum inediam non ultra ferentes, latenter recederent.
+					<lb/>Apostolicus vero cognito quod Baronum militumque murmur
+					<lb/>instaret, eo quod multum temporis militare sustinentes exercitium,
+					<lb/>egestatem pati cogerentur, vellentque sese dimisso recedere,
+					<lb/>fultus consilio, ad Rogerium clam festinanter premisit, pollicens
+					<lb/>illi ducatum annuendum, ita tamen ut prius Beneventum petens,
+					<lb/>suum ei hominium subderet; sicque postea ipsum a se ducatum
+					<lb/>ex more acciperet. Hoc quoque illo annuente simulque ab
+					<lb/>utraque parte firmato, Apulienses heroes, comperto hoc, mox
+					<lb/>dissolutis papilionibus ad sua cum dedecore revertuntur culpantes
+					<lb/>pernimium papam, quod sine eorum consensu cum hoste
+				<lb/>Rogerio concordatus fuisset.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>15</head>
+				<p><lb/>Cum ergo presul Beneventum redisset, ecce Rogerius adveniens
+					<lb/>in montem Sancti Felicis, haud longe a Benevento positum,
+					<lb/>ascendit, militari eius cuneo per devexum eiusdem
+					<lb/>collocato montis. Post diem vero tertium prefatus pontifex ab
+					<lb/>eo accitus paululum ab urbe progreditur, ipsiusque, ut moris est,
+					<lb/>hominio suscepto, cum vexillo, ducale eidem tradidit regimen.
+					<lb/>At Rogerius apostolica roboratione dux constitutus, secundum
+					<pb n="15"/>
+					<lb/>quod inter se propositum fuerat, sacramentum ei fidelitatis per
+					<lb/>omnia servandum exhibuit; quibus peractis papa ad palatium
+					<lb/>revertitur; dux Troiam festinus obsessurus pergit; que quidem
+					<lb/>etsi strictius ab eo obsessa teneretur, tamen ei a civibus omnino
+					<lb/>resistebatur. Nam Troiani, prescientes obsidionem ipsam super
+					<lb/>se venturam, urbem nimium premunierant, unde eum obsidentem,
+					<lb/>audaciores, parvipendebant. Cum ergo dux ibi aliquamdiu
+					<lb/>moratus, civitatem etiam munitissimam fore conspiceret, nilque
+					<lb/>tunc ad capiendum eam, ob hiemem iam imminentem, se
+					<lb/>proficere posse previderet, remota obsidione, interim ad recipiendum
+					<lb/>Melfiam aliasque ducales urbes festinat; que iam,
+					<lb/>legatis premissis, ultro sese ei subdendas mandaverant. Quibus
+					<lb/>receptis, expeditionem bellicam ad propria redire iubet, sicque
+					<lb/>Salernum reversus, ibique parumper moratus, ad
+					<lb/>Siciliam cum multo iterum inde reversurus exercitu, remeat.
+					<lb/>Qui, dum apud eandem provinciam morans Apulie absentaretur,
+					<lb/>Tancredus suis interim persuasionibus Brundisium
+				<lb/>civitatem et oppida que, invadente eo, amiserat, recuperavit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16</head>
+				<p><lb/>Factum est autem, cum tempus egrediendi in hostem opportunum
+					<lb/>successisset, dux Rogerius, collecta rursus militari expeditione,
+					<lb/>fretum, quod Farum dicitur, transmeavit. Exinde moto
+					<lb/>exercitu cepit huc illucque terras sibi omnes militari violentia
+					<lb/>occupare. Cum ergo ex parte recuperasset oppida que iam Tancredus,
+					<lb/>eo absente, resumpserat, tandem iterum Brundisium
+					<lb/>ut eam recuperet obsessurus vadit. Qui cum longa in obsidendo
+					<lb/>mora traheretur, nilque tunc ad obtinendum eam posse proficere
+					<lb/>previdisset, dimittens eam ad tempus, ad alia interim aggrediendum
+				<lb/>oppida accelerat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17</head>
+				<p><lb/>Veniens itaque super Castrum superius memoratum, quod
+					<lb/>se ab eo avertens Tancredo adhererat, illud evertit. Deinde cum
+					<pb n="16"/>
+					<lb/>Montis Alti oppidum ab eo obsideretur, Robertus interim de
+					<lb/>Grantimania se ei presentans rogitabat eum uti ei iam ad sua
+					<lb/>redeundi licentiam largiretur. At ille: "Quare, inquit, hoc flagitas?"
+					<lb/>Cui ille respondit: "Ideo recedere quero, quoniam
+					<lb/>inedia constrictus, exercitus huius laborem ultra perferre non
+					<lb/>valeo. Nam feudum quod videor habere, modicum quidem
+					<lb/>valde est, nec ad sustinendum diu militare sufficit exercitium.
+					<lb/>Sciatur itaque, quoniam si illud non michi modo adauctum
+					<lb/>fuerit, ipsum militare opus non amplius tibi serviens exerciturus
+					<lb/>ero, sed trans Alpes, ad terram consanguineorum meorum pergam;
+					<lb/>quo quidem sine inopia ero mansurus". Cui dux: "Noli,
+					<lb/>inquit, precor, rem hanc agere, sed parumper attendere, quo
+					<lb/>usque universa mihi subiciatur Apulia; sicque postmodum quod
+					<lb/>queris tibi procul dubio adimplendum erit". At ille, videns differri
+					<lb/>quod petebatur, mox more suo, ira succensus, ait: "Si nunc
+					<lb/>quod peto non dabitur, iam ultra a te michi illud dari non
+					<lb/>prestolabor, nec etiam que nunc a me tenetur terram, eo quod
+					<lb/>modica sit, a modo tenere cupiam ". Cumque hec et hiis similia
+					<lb/>effatus ei se absentasset, protinus sine ipsius nutu, male consultus,
+					<lb/>ab hoste dicessit. Quodquidem duci quantum displicuerit, in
+				<lb/>sequentibus aperietur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>18</head>
+				<p><lb/>Capto itaque Monte Alto, Rubeam prefati Tancredi urbem
+					<lb/>invasurus properat. Qua devicta, Alexander Comes, Tancredus,
+					<pb n="17"/>
+					<lb/>Grimoaldus barensis princeps, nec non Gofridus Comes andrensis,
+					<lb/>tantam ipsius potentiam experti, saniori consilio
+					<lb/>inter se habito, mox ei subiciuntur; unde Tancredo ipsi, dux,
+					<lb/>animo iam sedatus, terras quascumque abstulerat reddidit; quibus
+					<lb/>deinde precepit ut post ipsum ad obsidendum secum Troiam
+					<lb/>celeriter accessuri essent. Porro Troiani, percipientes prefatos
+					<lb/>magnates duci colla iam subdidisse, confusi sunt valde, qui etiam
+					<lb/>ne sine tutore existerent, miserunt ad Robertum Capuanorum
+					<lb/>principem quatinus cito veniens, dominium super se susciperet,
+					<lb/>atque a duce, qui iam instare cernebatur, protegeret. At ille
+					<lb/>nolebat ad eos ire, verens certa pro incerta neglegere. Ad
+					<lb/>hec, Comes Ranulphus iratus respondit: "Ego, inquit, si tu non
+					<lb/>vadis, nullo modo agam quin eis auxiliaturus pergam"; qui cum
+					<lb/>Troiam ingressus fuisset, cives alloquitur, mutuoque firmata
+				<lb/>fidelitate, eos se contra Rogerium protecturum firmissime spondet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19</head>
+				<p><lb/>Verum dux appropinquans venit super Salpim, moxque
+					<lb/>eam obtinuit; qui audiens Ranulphum comitem contra se Troianos
+					<lb/>velle tueri, indignatur valde, dicens: "Si comes Ranulphus
+					<lb/>terram meam abstulit, ego vadam, relicta interim Troia, suam
+					<lb/>ei ablaturus". Cumque pretergrediens Troiam, ad castrum quod
+					<lb/>dicitur Gretium pervenisset, Comes Ranulphus, putans eum
+					<lb/>ad terram suam invadendam, sicut dixerat, velle ire, verensque
+					<lb/>eam amittere, premissit legatos suos post eum, per quos
+					<lb/>cito concordia ipsius secum habenda flagitaretur. Cumque dux
+					<lb/>cum eodem, si Troiam de se tenere vellet, se concordaturum
+					<lb/>promississet, confestim ille Troianis dimissis, ad castra ipsius
+					<lb/>qui in predicto adhuc loco morabatur, concitus ivit. Deinde
+					<lb/>seorsum habito vicissim colloquio, pactoque alterutrum concordie
+					<lb/>constituto, Comes ad propria regreditur. Dux autem
+					<lb/>Troiam obsessurus rediit, ad quam videlicet obsidionem supradicti
+					<pb n="18"/>
+					<lb/>Proceres, ut eis imperatum fuerat, accelerarunt. Quid longius
+					<lb/>moror? Urbs quippe obsessa in tantum constringitur, ut infra
+					<lb/>paucos dies, vellent nollent, duci subderentur. Troia itaque capta,
+					<lb/>cetere urbes ducales tumore mentis magis deposito, humilius
+					<lb/>eidem subiciuntur, atque ita omnis ei Apulia sine ulla contradictione
+				<lb/>submittitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>20</head>
+				<p><lb/>Post hec autem Rogerius agens exercitum vadit ad oppidum
+					<lb/>quod vulgo nominatur Lacupesulum, in quo videlicet loco Robertum
+					<lb/>de Grantimania reperiens, coram omnibus super eo que-rimoniam egit, quod sine ipsius nutu, cum Montem Altum
+					<lb/>obsideret, ab exercitu abcesserit, profitens id ad dampnum sui
+					<lb/>ab eo actum fuisse. At ille: "Absit, inquit, hoc a me; sed ut
+					<lb/>trans montes ad terram parentum meorum pergerem, recessi".
+					<lb/>At dux: "Si ergo, inquid, ad transalpinas terras festinare desideras,
+					<lb/>terras quas modo possides, quasque etiam te ultra non
+					<lb/>velle tenere confessus es, nunc coram omnibus renunties".
+					<lb/>Cui ille respondit: "Accipe eas cito; eo dumtaxat
+					<lb/>tenore: ut mihi securiter liceat abire ". Quid plura? Dux statim
+				<lb/>terris ipsius receptis, continuo ei abeundi licentiam dedit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>21</head>
+				<p><lb/>His quoque peractis, dux Melfiam properans cunctos Apulie
+					<lb/>optimates convenire iussit, quibus etiam inter cetera edictum
+					<lb/>dedit, ut in pace permanentes, alterutrum non adversarentur.
+					<lb/>Simulque eos iurare compulit ut ab ipsa hora, et in antea, iustitiam
+					<lb/>et pacem tenerent, et adiuvarent tenere; nec manu tenerent
+					<lb/>homines qui latrocinium aut rapinam facerent in terris suis, nec
+					<lb/>esse consentirent. Et si aliquis ibi huiusmodi malefactor reperiretur,
+					<lb/>sine fraude, curie sue, in loco a se constituto, ut iustitia ex eo
+					<pb n="19"/>
+					<lb/>fieret, presentarent; et quod ecclesiasticis personis et rebus earum
+					<lb/>videlicet Archiepiscopis, Episcopis, Abbatibus, monachis, omnibusque
+					<lb/>clericis, laboratoribus, villanis et cuncto populo terre
+					<lb/>sue dominationis cum rebus eorum, nec non peregrinis, viatoribus,
+					<lb/>mercatoribus, pacem tenerent et observarent; nec eos inquietarent,
+					<lb/>nec inquietare ad suum posse permitterent. Unde non mirum
+					<lb/>si terras sibi omnes, Deo cooperante, subicere poterat, quoniam
+					<lb/>quidem in omni dominationis loco huiusmodi iustitie assiduo
+					<lb/>rigore promulgato, pax continua, in qua secundum Psalmistam
+					<lb/>factus est locus eius, perseverare videbatur. Quomodo enim
+					<lb/>pacis bonum deesse poterat, ubi nullus quidem malefactor, terrore
+					<lb/>ipsius cohercitus, prodire auderet? Cum ergo ibi dux aliquamdiu
+					<lb/>moratus, hec et hiis similia ad commune proficuum
+					<lb/>disposuisset, Baronibus ad sua redeuntibus, Tarentum ipse regreditur,
+					<lb/>qui verens ne Robertus supradictus recedens aliquando
+					<lb/>quidquam ei adversi moliri satageret, iurare eum ante dicessum
+					<lb/>compulit, quatinus ultra montes abiens, ibi in perpetuum degeret,
+					<lb/>neque iam amplius Apuliam ad inhabitandum requireret.
+					<lb/>Quod cum ille iuramento firmasset, hoc modo liber abcessit.
+				<lb/>Dux post hec ad Siciliam remeat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22</head>
+				<p><lb/>Ibi cum ad tempus usque oportunum moratus fuisset, audiens
+					<lb/>prefatum Robertum, violato sacramento, reversum, atque oppidum
+					<lb/>Orgeolum, nec non Castrum ville contra se pugnaturum
+					<lb/>recepisse, iratus, fretum farense, siculorum exercitum agens,
+					<lb/>transmeavit. Deinde Calabrorum Apulorumque etiam bellicis
+					<lb/>ascitis agminibus, cum immensa animi indignatione super illum
+					<lb/>ivit; quem quidem omnimodis obsidione severissima constringit,
+					<lb/>ut intra paucos dies ei, vellet nollet, subiciens, oppida
+					<lb/>etiam ipsa cogeretur dimittere. Unde Salernum adiens, eam
+					<pb n="20"/>
+					<lb/>acerrima circumcinxit obsidione, quatinus ei a civibus munitio
+					<lb/>turris maioris, quam eis custodiendam, petentibus ipsis, non
+					<lb/>corde annuerat, redderetur. Non enim se urbis
+					<lb/>illius dominari arbitrabatur, quamdiu arx illa non ei subesse
+					<lb/>cerneretur. At illi, videntes se nullatenus posse obsistere, sine dilatione
+				<lb/>concesserunt quod ab ipso flagitabatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>23</head>
+				<p><lb/>Quibus ita finitis, non diu post, cum ipso exercitu movens,
+					<lb/>se in terram Rogerii Arianensis Comitis tendit, secus oppidum
+					<lb/>quod nominatur Apitium castrametaturus, ibique tamdiu ex
+					<lb/>industria moratur, quousque terra eiusdem comitis pene omnis
+					<lb/>a suis circumquaque frumentatoribus depopularetur. In magna
+					<lb/>namque dux simultate, predictum comitem tunc habebat, quem
+					<lb/>eum erga se non recta fide iam incessisse relatione didiscerat.
+					<lb/>Qua de re coram omnibus post impetiturus, cum se a noxa per
+					<lb/>iudicium excusari non posse cerneret, Padulum ei propter hoc
+					<lb/>atque Montemfuscum, duo scilicet ingentia castra, consulitur
+					<lb/>ultro dimittere. Quod cum factum fuisset, mox ab animo ducis
+				<lb/>sic exclusa simultas cessavit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24</head>
+				<p><lb/>Unde progrediens, Troiam iterum obsidione circumsedit
+					<lb/>durissima; cuius cives, sicut et Salernitani agerant, et ipsi nichilominus
+					<lb/>egere. Nam castrum quod ab eisdem, Guilielmo duce ab
+					<lb/>hac decedente luce destructum fuerat, reedificari etiam volentes
+					<lb/>concedunt. Dux ergo, tot tantisque successibus potitus, Troia
+					<lb/>letus continuo recessit, Melfiam petiturus. Ubi etiam munitionem
+					<lb/>que a civibus, iubente eodem duce, subversa fuerat,
+					<lb/>restitui compellit. Tunc temporis et Robertus Capuanorum princeps
+					<pb n="21"/>
+					<lb/>solo nominis sui terrore constrictus, suo subditur dominio.
+					<lb/>Nec multo post, Salernum recedens, ad Siciliam inde remeavit.
+					<lb/>Nunc itaque in hoc loco primus de ducatu claudatur libellus,
+					<lb/>quatinus ad ea, que iam Rex constitutus gessit, commemoranda
+				<lb/>stylus vertatur.</p>
+				<p><lb/>Explicit liber primus</p>
+				<pb n="23"/>
+			</div>
+		</div>
+		<div type="book">
+			<head><lb/>Incipit liber secundus</head>
+			<div type="chapter">
+				<head><lb/>1</head>
+				<p><lb/>Cum dux Rogerius per omnia letis potitus successibus totas
+					<lb/>Boamundi terras omnemque ducatum in integrum potentissime
+					<lb/>obtinere videretur, nec non Capuanorum princeps, magisterque
+					<lb/>militum neapolitanus, omnisque terra que erat usque pene fines
+					<lb/>anconitane urbis, bellorum cunctis contrarietatibus sopitis sibi
+					<lb/>subderetur, sepissima sibi ac familiari quorundam, maximeque
+					<lb/>Henrici comitis avunculi sui, a quo plus aliis diligebatur, cepit
+					<lb/>suggeri collocutione; videlicet ut ipse, qui tot provinciis, Sicilie,
+					<lb/>Calabrie, Apulie, ceterisque regionibus que pene Romam usque
+					<lb/>habentur, Domino cooperante dominabatur, nequaquam utique
+					<lb/>ducalis sed Regii illustrari culminis honore deberet. Qui etiam
+					<lb/>addebant, quod regni ipsius principium et caput, Panhormus
+					<lb/>Sicilie metropolis fieri deceret; que olim sub priscis temporibus
+					<lb/>super hanc ipsam provinciam Reges nonnullos habuisse traditur,
+					<lb/>qui postea, pluribus evolutis annis, occulto Dei
+				<lb/>disponente iudicio nunc usque sine regibus mansit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2</head>
+				<p><lb/>Horum itaque amica atque laudanda suggestio, cum infra
+					<lb/>semet ipsum multipharie tractando versaretur, velletque exinde
+					<lb/>certum ratumque habere consilium Salernum regreditur; extra
+					<lb/>quam non longe convocatis ad se aliquibus ecclesiasticis peritissimis,
+					<lb/>atque competentioribus personis, nec non quibusdam
+					<lb/>principibus, comitibus, baronibus, simulque aliis qui sibi sunt
+					<lb/>visi probatioribus viris, patefecit eis examinandum secretum et
+					<lb/>inopinatum negotium; ac illi, rem ipsam sollicite perscrutantes,
+					<pb n="24"/>
+					<lb/>unanimiter tandem uno ore laudant, concedunt, decernunt;
+					<lb/>ymmo, magnopere precibus insistunt ut Rogerius dux in regiam
+					<lb/>dignitatem apud Panhormum, Sicilie metropolim, promoveri
+					<lb/>debeat, qui non tantum Sicilie paterna hereditate, verum etiam
+					<lb/>Calabrie, Apulie, ceterarumque terrarum, que non solum
+					<lb/>ab eo bellica obtinentur virtute, sed et propinquitate generis
+					<lb/>antecedentium ducum iure sibi succedere debent. Nam si regni
+					<lb/>solium in eadem quondam civitate ad regendum tantum Siciliam
+					<lb/>certum est extitisse, et nunc ad ipsum per longum tempus
+					<lb/>defecisse videtur, valde dignum et iustum est ut in capite Rogerii
+					<pb n="25"/>
+					<lb/>diademate posito, regnum ipsum non solum ibi modo restituatur,
+					<lb/>sed in ceteras etiam regiones, quibus iam dominari cernitur,
+				<lb/>dilatari debeat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3</head>
+				<p><lb/>Istorum itaque dux consiliis atque veridicis assertionibus
+					<lb/>roboratus, Siciliam repetit, mandans suarum provinciis ubique
+					<lb/>terrarum, quatinus omnes cuiuscumque dignitatis vel potestatis
+					<lb/>seu honoris essent, in die susceptionis eius corone, quem Dominici
+					<lb/>Natalis primo advenientis sollempnitas susceptura erat, Panhormi
+					<lb/>omnes convenientes adessent. Cum ergo ad diem constitutum
+					<lb/>universi illi, simulque et depopulis pusilli et magni
+					<lb/>absque numero confluxissent, huiuscemodi iterum causa sollempniter
+					<lb/>diligenterque investigata atque tractata ab omnibus eodem
+					<lb/>modo quo et supra ad gloriam Dei eiusdemque Ecclesie augmentum
+					<lb/>regia in urbe panormitana fieri omnino decernitur promotio;
+					<lb/>cui etiam adeo tanta concessa est virtutis potentia, ut
+					<lb/>ad exercendum malorum vindictam et ad conservationem iustitie
+					<lb/>ipsum genus suum ampliori terrarum atquisitione iam superexcedere
+				<lb/>videatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>4</head>
+				<p><lb/>Cum ergo dux ad ecclesiam archiepiscopalem more regio
+					<lb/>ductus, ibique unctione sacra linitus, regiam sumpsisset dignitatem,
+					<lb/>non potest litteris exprimi, immo mente extimari que
+					<lb/>et qualis quantave eius tunc esset gloria, quam magnus in regni
+					<lb/>decore, quamque etiam in divitiarum affluentiis
+					<lb/>admirabilis. Nempe aspicientibus tunc universis ita videbatur
+					<lb/>ac si omnes huius mundi opes honoresque adessent. Inextimabiliter
+					<lb/>quidem tota coronabatur civitas, in qua non nisi gaudium
+				<lb/>et lux erat.</p>
+				<pb n="26"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>5</head>
+				<p><lb/>Palatium quoque regium undique interius circa parietem
+					<lb/>palliatum glorifice totum rutilabat. Solarium vero eius multicolorijs
+					<lb/>stratum tapetis terentium pedibus largifluam prestabat
+					<lb/>suavitatem. Euntem vero regem ad Ecclesiam sacrandum,
+					<lb/>universis eum dignitatibus comitantibus, immensus etiam equorum
+					<lb/>numerus ex parte altera ordinate procedens, sellis frenisque aureis
+				<lb/>vel argenteis decoratus, secum comitabantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6</head>
+				<p><lb/>Ad regiam discumbentibus mensam ciborum potumque
+					<lb/>multimodus atque affluentissimus apparatus habebatur; ubi quidem
+					<lb/>non nisi in pateris, seu catinis aureis vel argenteis ministratum
+					<lb/>fuit. Servitor ibi nullus nisi quem serica tegeret vestis;
+					<lb/>adeo ut ipsi etiam parobsidum reportitores sericis operirentur
+					<lb/>indumentis. Quid plura? Gloria et divitie in domo regis tot
+					<lb/>et tales tanteque tunc vise sunt, ut omnibus et miraculum
+					<lb/>ingens et stupor vehementissimus fieret; in tantum, ut timor
+					<lb/>etiam non modicus universis qui de longe venerant, incuteretur.
+					<lb/>Et enim multo plura in eo conspiciebantur, quam rumor non
+				<lb/>fuit quem audierant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7</head>
+				<p><lb/>Cumque, peractis regie coronationis celebritatibus, ad propria
+					<lb/>singuli redissent, cepit Rex sollicitus intra mentis sue volvere
+					<lb/>archanum, qualiter deinde regnum suum, quod multum
+					<lb/>desiderabat, perpetua solidaretur pace nullusque adversum se
+					<lb/>resistendi facultatem posset habere. Unde ab amalfitanis vehementius
+					<lb/>instanterque cepit exhigere quatinus cunctas suas dimittentes
+					<lb/>munitiones, sibi eas custodiendas traderent; alioquin
+					<lb/>nullo modo nulloque pacto ulterius pateretur, ut ipsi eas sibi
+					<lb/>servandas tenerent; qui cum omnes uno id ei animo consentiendum
+					<lb/>contradixissent, atque in hoc ipso obstinatissimo persisterent
+					<lb/>corde, Rex indignatus illos a fidei sue consortio dissociavit.
+				<lb/>/*</p>
+				<pb n="27"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>8</head>
+				<p><lb/>Arcessens itaque Ammiratum nomine Johannem, virum scilicet
+					<lb/>in rebus bellicis prudentissimum atque strenuissimum, precepit
+					<lb/>ut, quantocius pergens, cunctos iussu eius sollicitaret
+					<lb/>quatinus ad obsidendum Amalfiam accelerarent rebellem. Qui
+					<lb/>fretum pertransiens Farum, dum universos calabrorum apulorumque
+					<lb/>bellatores summovere intenderent, interim Georgius
+					<lb/>Maximus Ammiratus, vir quidem Regis fidissimus atque in
+					<lb/>negotiis secularibus exercitatissimus, mare, iussu eiusdem
+					<lb/>Regis, sollicitus secus Amalfiam circumgirando
+					<lb/>observare studet, si forte amalfitanorum aliquos pelagus peragrantes
+					<lb/>capere posset; et ne forte quilibet alii undecumque per
+				<lb/>equora accedentes, eis opitula&lt;tu&gt;ri succurrerent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>9</head>
+				<p><lb/>Qui dum sic marinas excubaret semitas, contigit ut oppidulum
+					<lb/>amalfitanorum quoddam, quod Guallum nominatur,
+					<lb/>videlicet infra mare positum, violenti capere manu. Deinde
+					<lb/>oppidum aliud, quod Capris dicitur, similiter infra mare situm,
+					<lb/>navigiis eius circumdatum, sine dilatione strage facta multorum,
+					<lb/>aggreditur. In quibus quidem regiis dispositis excubiis, mox
+					<lb/>Tramuntum, Amalfie oppidum, obsessurus vadit. Quod jam
+					<lb/>prefatus Johannes, regio quem acciverat obsidente exercitu,
+				<lb/>immaniter costringebat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10</head>
+				<p><lb/>Contra quos Johannes cognomento Sclavus, qui castro eidem
+					<lb/>preerat, omni studio omnibusque viribus eis contrastare satagebat.
+					<pb n="28"/>
+					<lb/>Verum bellatores regii, videntes castrum fortissimum,
+					<lb/>constructo molimine, tormentis illud vexare insistunt. Novissime
+					<lb/>vero cum longissima pertica, in cuius summo uncinus ferreus
+					<lb/>erat, antemurale, quod vulgo barbacanus dicitur, toto divellunt
+					<lb/>conamine. Dumque sic exteri ad illud divellendum instantius
+					<lb/>fervescerent, prenominatus Johannes, viso hoc, timore concutitur,
+					<lb/>cernensque se demum nullum evadendi vestigium posse reperire,
+					<lb/>sese regi castrumque submittit. Capto itaque Tramunto,
+					<lb/>aliud Amalfitanorum oppidum nomine Rabellum regie phalanges
+					<lb/>obsessure pergunt. Cumque, preparato molimine ligneo,
+					<lb/>instanter ab eis ipsum coherceretur, Rex interim non longe
+					<lb/>post, equoreis undis advectus advenit; a quo etiam non solum
+					<lb/>castrum illud, sed et alia quedam amalfitanorum oppida singula
+					<lb/>singulis exercitibus obsessa, terribiliter angustari non desinunt.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11</head>
+				<p><lb/>Factum est autem dum turris Rabelli, in quo pre ceteris oppidis
+					<lb/>maxima Amalfitanorum spes inerat, petrarum ictibus crebrius
+					<lb/>quateretur, pars non modica ex ea obruitur; quo viso,
+					<lb/>Rabellisi ipsique Amalfitani, continuo corde soluti, viribusque
+					<lb/>timore destituti, de pace cum Rege habenda mox consulunt.
+					<lb/>Quid plura? Rex Rogerius, pro velle suo, datis acceptisque
+					<lb/>dextris, recepit Rabellum, Scalam, Gerulam, Pugerulam, ceteraque
+					<lb/>Amalfitanorum oppida; sicque sibi, pro velle suo, subiecta
+				<lb/>Amalfia, Salernum victor revertitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12</head>
+				<p><lb/>Dumque ibi moraretur, magister militum civitatis Neapolis,
+					<lb/>Sergius nomine, cernens in Rogerio tantam virtutis exercuisse
+					<lb/>potentiam, non quidem belli rigore, sed solum ipsius timore
+					<lb/>contritus ivit ad illum, eiusque subicitur dominatui;
+					<lb/>que videlicet civitas, mirabile dictu, post romanum imperium
+					<pb n="29"/>
+					<lb/>vix umquam a quoquam ferro subdita fuit; nunc vero Rogerio,
+				<lb/>solo verbo premisso, submittitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13</head>
+				<p><lb/>Deinde Rex, quia grave durumque sibi erat quod Ricardus
+					<lb/>Ranulphi comitis frater tanta involvebatur superbia, ut Avellinum
+					<lb/>urbem, nec non castrum Merculianum se ita possidere
+					<lb/>assereret, ut nec ipsum nec quemlibet alium dominum ex eis
+					<lb/>habiturus, nec cuiquam umquam serviturus foret, legatione ab
+					<lb/>inde premissa, proprio ea subdidit dominatui. Quippe iam erat
+					<lb/>tantum virtutis ipsius nomen, ut fere cuicumque castro, vel
+					<lb/>civitati, solum iussionis verbum dirigeret, sine aliqua dilatione
+					<lb/>ei subderentur. Cum ergo hoc ipsum Ricardo relatione compertum
+					<lb/>fuisset, continuo nimio furore succensus atque bello
+					<lb/>demens effectus, eundem ipsum qui verbum retulerat mox deiectum
+					<lb/>in terram, naribus eius succisis, oculorum lumine privari
+				<lb/>iussit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14</head>
+				<p><lb/>Verum comitissa Matilda, cuius iam longe superius mentio
+					<lb/>habita est, audiens Rogerium regem fratrem suum Salernum
+					<lb/>advenisse, de Alifis, absente et ignorante viro suo Ranulpho
+					<lb/>comite, ad eum profecta est, profitens se nulla ratione nullove
+					<lb/>pacto ad eius thorum ulterius redituram, nisi ei dotalia cuncta
+					<lb/>restituerentur, videlicet tota vallis Caudina cum eius omnibus
+					<lb/>infra manentibus oppidis. Cuius quidem iustam adventus causam
+					<lb/>cum Rex cognovisset, cupiens illi patrocinium impendere, eam
+					<lb/>apud se pro suo velle manere permissit. Videbatur enim iniustum
+					<lb/>omnino non esse quod ipsa poscebat, neque enim eam aliter
+					<lb/>suam posse optinere iustitiam arbitrabatur, nisi ei secum manendi
+				<lb/>ad tempus daretur facultas.</p>
+				<pb n="30"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>15</head>
+				<p><lb/>Cumque comes Roma, quo ierat, reversus, uxorem suam
+					<lb/>recessisse, nec non Avellinum atque Merculianum sibi dempta
+					<lb/>reperisset, immenso animi merore concutitur, non tantum quod
+					<lb/>prefatas amiserat terras, quantum quod se a coniuge ita dimissum
+					<lb/>comperisset. Quam ob rem misit ad Montemfuscum, quo ipse
+					<lb/>erat, deprecans obnixius quatinus coniux eius sibi, simulque
+					<lb/>Avellinum nec non Merculianum restituerentur. At ille his qui
+					<lb/>missi fuerant respondens dicebat: "Ego quidem uxorem Comitis
+					<lb/>nec teneo, nec redire cogam, quoniam eam non abstuli; ipsius
+					<lb/>ergo requiratur voluntas, et si quidem revertendi habuerit animum,
+					<lb/>ego non contradicam, verum tamen quod querit, videtur
+					<lb/>iustum querere, nec esse utique sibi denegandum, quandoquidem
+					<lb/>sub horum que dicit condicione dotalium eam, me concedente,
+					<lb/>duxit uxorem. Avellinum autem et Merculianum, ea
+					<lb/>propter non reddere debeo, quoniam Ricardus frater
+					<lb/>eius, ipso audiente atque omnino tacente, fatebatur ea sibi ita
+					<lb/>esse propria ut neminem inde dominum super se cognoscere
+					<lb/>nec cuiquam famulari deberet. Si igitur, inquam, sui iuris, ut
+					<lb/>ipse asserit, erant, ut quid cum inde nullum se habere dominum
+					<lb/>Richardus, ipso audiente, testaretur, ea iuris sui esse non ore
+					<lb/>proprio notificabat? Est et aliud propter quod ei non sunt reddenda
+					<lb/>que querit: quoniam cum Panormi positus essem, et de
+					<lb/>eius superbia, quod nec mihi nec ulli alii ex his que tenere videbatur,
+					<lb/>subdi volebat, presente eodem, conquererer, ipse per
+					<lb/>omnia tacendo, potius fratris fallentis verbis, quam hiis que a
+					<lb/>me dicebantur, consentire videbatur. At tamen, veniat ipse Salernum
+					<lb/>ad me cum proceribus, quos voluerit, suis; et quidquid a
+					<lb/>me recti exhigendum fuerit, libenter paratus ero eidem persoluturus;
+					<lb/>eo tamen interposito pacto, ut et ipse mihi, de quibus
+				<lb/>iuste eum causatus fuero, iustitiam faciat ".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16</head>
+				<p><lb/>Redeuntes itaque nuntii comitis, queque perceperant retulerunt.
+					<lb/>At ille, more suo, male consultus, ad eum sicut mandaverat
+					<lb/>ire neglexit, magis eligens mittere ad eum per quos sibi
+					<pb n="31"/>
+					<lb/>que videbantur ablata deposceret reddi. Verum Rex graviter
+					<lb/>indignatus, quod se ita contempto noluerit venire, Matildam
+					<lb/>sororem suam post, cum filio suo Roberto quem tunc
+				<lb/>secum habebat, ad Siciliam navigio transvectam secum perduxit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17</head>
+				<p><lb/>Comes ergo coniugem filiumque suum tam longe abscessisse
+					<lb/>audiens, maioris doloris stimulo perurgueri cepit, certus existens
+					<lb/>quod cor Regis vere iam totum contra se versum esset, quodque
+					<lb/>etiam, estivo tempore redeunte, super se absque dubio manu
+					<lb/>belligera irruiturus vero foret. Quam ob causam munitiones
+					<lb/>interim suas omnes magis premunire studuit, regieque pugne,
+				<lb/>si forte se adversus consurgeret, obviare prorsus accingitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>18</head>
+				<p><lb/>Igitur Rogerius Rex, postquam ad Siculorum reversus est
+					<lb/>regionem, ibi tamdiu moratur, quousque tempus, quo proceditur
+					<lb/>in hostem, opportunum redisset; qui transito fretu quod Farum
+					<lb/>dicitur cum ingenti bellatrice manu, Tarentum pervenit, ubi
+					<lb/>cum comes Andrensis Gofridus in eius, ex more, curiam adventum
+					<lb/>fecisset, Rex de quibusdam eum facinoribus impetens,
+					<lb/>iustitiam ex eis fieri magnopere exhigebat. At ille perpendens
+					<lb/>se per iudicium excusare non posse clarescentibus
+					<lb/>culpis, magnam per hoc terrarum suarum partem ei quietam
+				<lb/>dimittere censetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19</head>
+				<p><lb/>Post hec Rex, eo quod Grimoaldus Barensium princeps,
+					<lb/>contempta eius fidelitate, inimicis suis consenserat, super Barim
+					<lb/>veniens terra marique obsedit. Ceterum Comes Ranulphus, ut
+					<lb/>cognovit regem Barim obsidione circumdedisse, zelo ipsius
+					<lb/>ductus, collecta equitum multitudine, prefato cupit Grimoaldo
+					<lb/>subvenire, quem mox Princeps dominus suus arcessiens vix ei
+					<lb/>persuasit ut a militia ipsa quiescens, terram Regis hac vice, pro
+					<pb n="32"/>
+					<lb/>quaviscumque causa non preliaturus introiret, nisi prius per
+					<lb/>legatos conveniret eum, si forte sibi direpta restituerentur. Cum
+					<lb/>ergo ad Regem pro hoc ipso mitteretur, Comes equites, quos
+				<lb/>sibi coadunaret, ad propria ire sibique interim quiescere iussit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>20</head>
+				<p><lb/>Igitur Grimoaldus omni studio omnique belli conamine
+					<lb/>civitatem contra Regem obsidentem protegere satagebat, sed
+					<lb/>frustra: nam in tanta agilitate urbs ipsa, eius obtinente iustitia,
+					<lb/>capitur, ut non plus quam tres fere in eadem obsidione ebdomades
+					<lb/>complerentur; quam scilicet Robertus Guiscardus robustissimus
+					<lb/>dux, per tres continuos annos obsidens, vix aggredi valuit.
+					<lb/>Captus itaque Grimoaldus vinculis mancipandus in Siciliam dirigitur.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>21</head>
+				<p><lb/>Tancredus ergo de Conversano, unus ex magnis Apulie
+					<lb/>magnatibus, cum Grimoaldum iam victum teneri, magnamque
+					<lb/>Gaufridum terrarum partem suarum, ut iam fa[c]tum
+					<lb/>est, amisisse comperisset, cepit eo magis sibi timere, quo
+					<lb/>contra Regem eisdem ipsis se male confederatum fuisse sentiebat.
+					<lb/>Qui, antequam in curia super hoc impetitus iudicaretur,
+					<lb/>consulitur ut potius transmarinum petendi iter occasionem
+					<lb/>pretendens, Brundisium ceterasque urbes atque oppida quorum
+					<lb/>tunc ipse dominabatur, Regi sponte distraheret. Sicque eius
+					<lb/>cavens iudicium, ab eo hoc modo liberaretur. Quid amplius?
+					<lb/>Tancredus, vigenti stifatorum numero a Rege accepto,
+					<lb/>terris suis omnibus renuntiavit, Hierosolima ad terminum statutum
+				<lb/>properaturus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22</head>
+				<p><lb/>Cum ergo supradicti legati Principis ad Regem, iam Bari
+					<lb/>aggressa, pervenissent, preces, quas per eos Princeps mandaverat,
+					<lb/>intulere; videlicet ut Ranulpho Comiti Baroni suo, Avellinum
+					<lb/>et Merculianum insuper et uxorem filiumque suum restitueret,
+					<pb n="33"/>
+					<lb/>alioquin servitium suum ei indubitanter esset prohibiturus.
+					<lb/>Qui audito hoc, indignans ait eis: "Miror valde
+					<lb/>quod Princeps de his que sibi non attinent me sollicitare audeat.
+					<lb/>Ideo namque talia mittit ut, occasione inventa, michi servire
+					<lb/>non debeat. Revertimini ergo ad eum perniciter prenuntiantes
+					<lb/>ei legatos a me sine mora sibi esse dirigendos, per quos
+					<lb/>verba mea verbis suis responsura deferenda erunt. Hoc tamen
+					<lb/>solum nobis referentibus illum pro certo volumus scire, quoniam
+					<lb/>si pro hoc, vel quolibet alio, servitium meum abstulerit,
+				<lb/>periurii crimine incunctanter denotandus erit".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>23</head>
+				<p><lb/>Nec mora: illis redeuntibus, Rex ad prefatum misit principem
+					<lb/>quatinus ipse, militari collecto agmine, Romam in hostem in
+					<lb/>adiutorium Romane ecclesie pergeret; quibus ipse huiusmodi
+					<lb/>responsum dedit: "Ego nullo modo iussis Regis obtemperaturus
+					<lb/>ero, nisi homini meo Ranulpho comiti sua reddantur". Quo
+					<lb/>audito, nuntii celeri ad Regem reversi sunt reditu, nuntiaturi
+				<lb/>omnia queque preceperat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24</head>
+				<p><lb/>Interea Princeps Comesque Ranulphus verentes ne forte
+					<lb/>displicitis sibi verbis que ei remissa fuerant, super se armis irruiturus
+					<lb/>esset, immenso equestri coadunato agmine, vallem
+					<lb/>anticipant Caudinam, ibique interim morari decernunt, quatenus
+					<lb/>Rex, si forte insurrecturus esset, eos ad prelium imparatos non
+					<lb/>inveniret. Rex ergo responsis Principis perceptis, non equo animo
+					<pb n="34"/>
+					<lb/>ea suscepit; qui etiam comperiens quod et ipse Comes, collecto
+					<lb/>pedestri militarique non modico cuneo, contra se ad bellum
+					<lb/>prepararetur, indignatur valde, movensque exercitum ad quoddam
+					<lb/>oppidum quod dicitur Crepacorum venit, ibique castra
+					<lb/>figi precepit. At princeps Comesque Ranulphus, cognoscentes
+					<lb/>illum tam propinquum adesse, animadvertebant quod vere contra
+					<lb/>se properaturus esset; unde toto animo totisque viribus se defensuri
+				<lb/>preparantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>25</head>
+				<p><lb/>Verum Rex iterum castra movens, ea subtus oppidum Montis
+					<lb/>Calvi fixit, indeque ad principem, qui iam relicta memorata
+					<lb/>valle, in loco qui Cressanta dicitur cum Comite morabatur,
+					<lb/>direxit, quatinus per terram suam Romam in hostem sibi ire
+					<lb/>permitteretur, simulque et ipse secum veniret. At ille tale fertur
+					<lb/>dedisse responsum: "Neque per terram meam Romam ire patiar,
+					<lb/>neque cum eo simul veniam, nisi baroni meo que sua sunt
+					<lb/>reddantur ". Revertentes itaque nuntii regii, queque viderant et
+					<lb/>audierant referunt. Rex quoque, audito hoc, grave accepit,
+					<lb/>motisque castris, subtus Padulum oppidum, per devexum montis,
+					<lb/>metatur. Tunc ad eundem Principem iterum misit, ut consentiret
+					<lb/>ei prius transire per terram suam, ut Romam in hostem
+					<lb/>pergeret. Sicque post quindecim dies, postquam reditum
+					<lb/>fecisset, sibi quod faciendum esset apud pontem Sancti Valentini
+					<lb/>exhiberet; ceterum ille animo mox indignatus atque
+					<lb/>vilipendens quod sibi fecerat fidelitatis iusiurandum, remisit ei
+					<lb/>quia nisi Comiti Ranulpho Avellinum et Merculianum, adhuc
+					<lb/>autem et uxorem suam et filium reddiderit, "nulla ratione nullove
+					<lb/>pacto ei adheream, nec etiam iussi obauditurus ero, neque
+				<lb/>Romam, quo ire cupit, per terram meam abire patiar".</p>
+				<pb n="35"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>26</head>
+				<p><lb/>Rex ergo Rogerius, principis animum ita obstinatissimum
+					<lb/>contra se haberi considerans, misit beneventano rectori, nomine
+					<lb/>Crescentino, atque Archiepiscopo qui Landulphus dicebatur,
+					<lb/>quatinus omnem civitatis populum, salva tamen fidelitate Apostolica,
+					<lb/>fidum sibi iuramento statuerent; qui cum nonnullis regis
+					<lb/>fautoribus eos ad iusiurandum compellere cepissent, oritur propter
+					<lb/>hoc in urbe ingens seditio, ita ut pene contra eos universa
+					<lb/>plebs concitaretur, nolentes sacramentum fidelitatis Regi
+					<lb/>persolvere. Pontifex vero et Rector, seditionem populi metuentes,
+				<lb/>fuga coacti sunt urbem deserere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>27</head>
+				<p><lb/>Tunc cives ad Principem Comitemque, qui in prenominato
+					<lb/>adhuc loco cum expeditione bellica commanebant, legationem
+					<lb/>fecerunt quatinus invicem fidissimi iureiurando facto Regi
+					<lb/>unanimiter adversarentur. Verum Rex percipiens Beneventanos
+					<lb/>omnino nolle sibi coherere, principisque animum, ut iam dictum
+					<lb/>est, in se obstinatissimum fore, misit ad eundem principem
+					<lb/>arguens eum valde, quod adversus se, dominum suum, nil se
+					<lb/>ledentem, arma movisset. Sed et ad Ranulphum Comitem quem
+					<lb/>contra se Principem ipsum irritasse compererat, diffidando
+				<lb/>mandavit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>28</head>
+				<p><lb/>Porro Princeps Comesque, Regis minas contempnentes,
+					<lb/>consilium habuere quatinus exercitum illinc moventes, beneventane
+					<lb/>urbi appropincarent ut, vicinius positi, quod a civibus
+					<lb/>promissum fuerat, facilius consequerentur. Itaque ab eo illo
+					<lb/>digressi, venerunt castrametaturi secus castellum Potonis, non
+					<lb/>longe a flumine quod dicitur Calorius; ita ut uterque exercitus,
+					<lb/>civitate interposita, alterutrum sese conspicarentur. Deinde Princeps
+					<lb/>Comesque, Beneventum ingressi civesque allocuti, quedam
+					<pb n="36"/>
+					<lb/>inter se posita servari pacta, itaque se ipsos fieri adinvicem fideles
+				<lb/>adversus Regem iureiurando statuunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>29</head>
+				<p><lb/>Ceterum Rex cum eos alterotrum confederatos, principemque
+					<lb/>ipsum sibi servitium penitus iam denegasse comperisset, ira
+					<lb/>permotus, iussit signo dato castra moveri, petensque Nuceriam,
+					<lb/>ingentissimum videlicet eiusdem principis oppidum,
+					<lb/>obsidione circumdedit. Porro princeps comesque, ignorantes quo
+					<lb/>Rex secesserat, consuluntur tamdiu ibi stare, donec quo
+					<lb/>ipse abscesserat cognosceretur. Et ecce altero die subito percipiunt
+					<lb/>Regem castrum circumsedere atque ad ipsum crebris assultibus
+					<lb/>iam infestare; qui mox moto exercitu abscedunt, succursum
+					<lb/>obsessis celeriter daturi. Cum ergo ad fluvium Sarni, ubi Scafatum
+					<lb/>dicitur, pervenissent, putantes se cito transituros, quoniam aliunde
+					<lb/>transeundi non erat possibile, invenerunt pontem ipsum ligneum
+					<lb/>a Regis exploratoribus iam pridie destructum, cuius ligna in
+					<lb/>undis proiecta natando fuerant delapsa. Qui quoque dolentes
+					<lb/>quod transvadare nequirent, coacti sunt tamdiu ibi commorari,
+					<lb/>quousque eodem ponte aliis lignis restituto, facultas eis transmeandi
+					<lb/>daretur. Ponte itaque reparato, cum Rex hostes ad transeundum
+					<lb/>iam preparare comperisset, castrum obsidere desistens, iussit suos
+					<lb/>omnes armari, quatinus celeriter occurrentes cum eisdem prelium
+				<lb/>inirent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>30</head>
+				<p><lb/>Verum princeps et comes, audito quod Rex ad irruendum iam
+					<lb/>super se accintus fuisset, ceperunt tanto celerius cum suis fluvium
+					<lb/>transire, quanto intuebantur sibi hostium prelium imminere.
+					<lb/>Cum ergo et ipsi transeuntes armis primitus induti fuissent, dispositisque
+					<lb/>in suis locis more bellico singulis cuneis, ad bellum preparantur.
+					<lb/>Cumque iam hinc inde moroso gressu appropinquatum
+					<lb/>fuisset, anterior Regis acies mox primo cuspidibus demissis,
+					<pb n="37"/>
+					<lb/>equisque calquaribus punctis, contra anteriorem adverse partis
+					<lb/>aciem concurrendo, acriter insurgunt; quorum rigido concursu
+					<lb/>predicta cohors exterrita terga continuo vertunt. Quod videntes
+					<lb/>retropositi custodes et ipsi quidem perterriti per medium hinc inde
+					<lb/>divertentes, spatium fugientibus prebent. Quo viso pedites qui
+					<lb/>in ordine suo retro pro munitione statuti fuerant, et ipsi eodem
+					<lb/>timore concussi, nihilominus divertuntur. Cum ergo qui primo
+					<lb/>terga verterant a Regis militibus insequerentur, pars illorum,
+					<lb/>dum evasionis successus fugitando petitur, in aquas ipsas fluviales
+					<lb/>ruentes, undis morituri intercipiuntur; pars vero per campum
+					<lb/>longum amnem devitantes diffugiunt; plerique autem lanceis ipsorum
+					<lb/>impulsi, ab equorum sellis in terram deiciuntur. Peditum
+					<lb/>autem supradictorum, qui territi fuerant, pars maxima, dum pre
+					<lb/>timore ereptionis queritur locus, cum multis aliis super ripam
+				<lb/>fluminis consistentibus, in fluvium ipsum suffocandi corruunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>31</head>
+				<p><lb/>Comes ergo Ranulphus, ut erat acerrimus,
+					<lb/>qui in dextro habebatur cornu, ubi vidit suos ita repulsos, hastam
+					<lb/>in manu tenens, in regiam aciem antestantem primus prosilit.
+					<lb/>Quod videntes sui, qui dextri sinistrique lateris erant custodia, eius
+					<lb/>mox animo provocati, cum eodem ipso pariter adversarios obsistendo
+					<lb/>premunt; cumque cuspidibus alterutrum impulsi hastas
+					<lb/>rupissent, enses capiunt, hinc inde feriuntur. Dum ergo Comes
+					<lb/>fortiter pulsando hastam confregisset, mox et ipse manum mittens
+					<lb/>ad pugionem, in capite cuiusdam obstantis sibi equitis ita terribilem
+					<lb/>super galeam ictum dedit, ut miles ipse ferrea obtunsione
+					<lb/>ebefactus, statim dorsum cedenti prebuerit. Quem cum ceteri qui
+					<lb/>hic illicque astantes erant, vertentem vidissent, continuo unus post
+					<lb/>alium versi illum secuntur; deinde alii qui in dextro sinistroque
+					<lb/>latere positi erant custodes, cum suos terga dare cernerent, mox
+				<lb/>exterriti, et ipsi statim cum eisdem terga verterunt.</p>
+				<pb n="38"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>32</head>
+				<p><lb/>Perpendat itaque in hoc loco apud se prudens lector, quo
+					<lb/>nam Dei iudicio actum sit ut Rex Rogerius, qui ante in omnibus
+					<lb/>victor extiterat, nunc sibi victoria attributa non fuerit. Verum
+					<lb/>quod mihi videtur, etiam si Regi ipsi durum videatur, ad correptionem
+					<lb/>tamen eius, cum dilectione dicam: quia idcirco forte
+					<lb/>in hac parte voluntatem suam ipse invenire intuitus non est
+					<lb/>permissus; eo quod secundis semper successibus potitus, supra
+					<lb/>modum animus eius elatus sit; cum magis ipse humiliari debuerit,
+					<lb/>hortante Scriptura que dicit: "Quanto magnus es, tanto
+					<lb/>magis te humilia". Nam, sicut postea relatum est, Rex etiam
+					<lb/>ipse interdum proprio inde [scriptum] ore accusans, merito tale
+					<lb/>sibi contigisse humili voce confitebatur. Qui tamen Salerni
+					<lb/>commorans, ita vultu ylari menteque constans cernebatur, ac si
+					<lb/>nil sinistri sibi accidisse videretur; sciens pro certo malum
+					<lb/>eventum illum feliciori quandoque fortuna, Deo donante penitus
+				<lb/>evacuandum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>33</head>
+				<p><lb/>Porro prenominatus Tancredus, cognito quod Rex cum
+					<lb/>principe Roberto Comiteque Ranulpho in plano Nucerie territorio
+					<lb/>conflictum habuerit, ibique non dignos ei successus fortuna
+					<lb/>bellando providerit, transmarinum iter appetisse,
+					<lb/>terrasque suas distraxisse, atque abiurasse, se penitet. Qui etiam
+					<lb/>ut sua omnino resumere possit, in Monte Piloso, quo monitis
+					<pb n="39"/>
+					<lb/>indigenarum contra Regem susceptus fuerat, coadunare presumit
+					<lb/>quibus terras regis huc illucque discurrendo immaniter
+					<lb/>infestaret. Erat et civitas quedam nomine Gilentia, non solum
+					<lb/>opere, sed et natura precipue munitissima, cuius cives domino
+					<lb/>suo nomine Polutino, eo quod Regi ultra votum illorum
+					<lb/>subderetur, expulso, Tancredum etiam ipsum, ut eis dominaretur
+					<lb/>atque contra regem tueretur, suscipiunt. Post hec vero, considerans
+					<lb/>quod tempus sese ad recuperandum sua valde opportunum
+					<lb/>sequeretur, ad Gofridum Andrensem Comitem et
+					<lb/>Alexandrum perrexit. Qui simul in Regem committentes
+					<lb/>aperta periuria iniquum societatis fedus, contra eundem pugnaturi
+					<lb/>inierunt; qui etiam ad Robertum Capuanorum principem,
+					<lb/>Comitemque Ranulphum direxit quatinus cum rege nullum
+					<lb/>sine eo pactum, nullamve concordiam agerent, quoniam et
+					<lb/>ipse sine eorum assensu nullum quid federis vel pacis cum eodem
+				<lb/>esset acturus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>34</head>
+				<p><lb/>Porro Regi inter hec Salerni moranti nuntiatur quod barenses
+					<lb/>cives ab eo se aversuros iam prepararent, eo quod nonnullos
+					<lb/>saracenorum quos ibi ad munitionis sue delegaverat, ira commoti
+					<lb/>necaverant, quoniam cuiusdam nobilis filius ab eisdem
+					<lb/>ipsis sarracenis fuerat interemptus. Unde et opus ipsum, quo
+					<lb/>castrum regium semotum ab urbe perficiendum erat, civibus
+					<lb/>ipsis contradicentibus iam dimissum fuerat. Rex autem huiusmodi
+					<lb/>rumore sollicitatus sinistro, premunitis oppidis suis que circa
+					<lb/>Beneventum erant, Barim petiit. Qui pro eo quod Tancredi
+					<lb/>seu ceterorum hostilitas immineret, barensem ad presens nolens
+					<lb/>exacerbare populum, quibusdam eorum petitionibus, prudenti
+				<lb/>consilio usus, consensiit; sicque eos pro tempore quietos dimisit.</p>
+				<pb n="40"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>35</head>
+				<p><lb/>Post hec autem Rex militibus dispositis contra Tancredum
+					<lb/>eiusdemque coniurationis complices preliaturus, eiusdem omnibus
+					<lb/>in Apulia urbibus oppidisque premunitis, Salernum iterum revertitur.
+					<lb/>Qui dein in Monte Fusco atque Padulo oppidis, ampliorem
+					<lb/>militum custodiam delegans, iussit ut ipsi Beneventanos
+					<lb/>cives, quod principi comitique magis quam sibi
+					<lb/>adhererant, deforis huc illucque debacchantes indefinenter
+					<lb/>arcerent; quibus etiam ut nullum quid de Apulia delatum Beneventi
+					<lb/>venundaretur, prohibuit. Post hec autem, non diu post,
+					<lb/>in Siciliam revertitur, cum expeditione bellica ad suos iterum
+					<lb/>expugnandum sibique subdendum rebelles, opportuno succedente
+				<lb/>tempore procul dubio reversurus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>36</head>
+				<p><lb/>Dum ergo moras in eadem provincia ageret, corde sedulo
+					<lb/>quibus modis hostes sui contererentur premeditari non desinebat.
+					<lb/>Et contra vero Robertus Capuanorum princeps Comesque precipue
+					<lb/>Ranulphus quomodo qualiterve contra ipsum essent acturi
+					<lb/>mente cautissima exquirere non desistebant. Qui quoque ad
+					<lb/>hoc usque inhiabant, ut regii culminis illum honore privatum,
+					<lb/>funditus etiam si possent de terra delerent. Unde factum est ut
+					<lb/>Comes ipse, principis consultu, in Apuliam pergens, cum Tancredo
+					<lb/>comiteque Gofrido atque Alexandro comite ceterisque
+					<lb/>magnatibus, Regis scilicet iam manifeste periuriis, colloquium
+					<lb/>haberet quantinus invicem federe uniti in Regem eundem
+					<lb/>pariter omnino servirent. Dumque factam adinvicem conspirationem
+					<lb/>iure iurando firmassent, audivit Regem Teutonicum
+					<lb/>Lotardum nomine Romam advenisse. Qua de re letus effectus
+					<pb n="41"/>
+					<lb/>ad sua festinus revertitur. Dein cum principe inito consilio,
+					<lb/>ambo pariter summa cum festinatione eum audiere, auxilium
+					<lb/>ab eo adversum Regem Rogerium expetituri; qui licet ab ipso
+					<lb/>honorifice suscepti fuissent, adiutorium tamen ipsius, uti speraverant,
+				<lb/>contra Regem Rogerium nequaquam obtinere potuerunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>37</head>
+				<p><lb/>Qui dum Rome adhuc apud Regem commorarentur, audientes
+					<lb/>Regem Rogerium cum immenso militari pedestrique exercitu
+					<lb/>fretum farense iam transmeasse, petita a Rege atque accepta,
+					<lb/>quamquam non grata, licentia, quantocius ad propria redeunt.
+					<lb/>Verum Rex Rogerius, eo quod supradictorum adversum se
+					<lb/>principum compererat cum periurio factam conspirationem,
+					<lb/>tanta quidem contra eos rapitur indignatione, tantoque mentis
+					<lb/>erupit furore, ut non comiti, non magnati, non etiam
+					<lb/>militi, qui ita periurantes in eum colla erexerant, penitus parceret.
+					<lb/>Alexander vero Comes, dum ob periurium perpetratum Regem
+					<lb/>valde pertimesceret, relicto quodam munitissimo oppido nomine
+					<lb/>Matera filio suo, cui nomen erat Gofridus, ad Comitem Ranulphum
+					<lb/>profugus advenit. Interea princeps Robertus cernens se
+					<lb/>teutonico frustratum fuisse auxilio, Pisam citissimo navigio advectus
+					<lb/>perrexit, quatinus inde bellicam manum accitam ad sui contra
+				<lb/>Regem auxilium adduceret.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>38</head>
+				<p><lb/>Cum ergo Rex terras Gofridi Andrensis Comitis atque prefati
+					<lb/>Alexandri suorum periurorum occupasset, videlicet Aquambellam,
+					<lb/>Coretum, Barulum, Minerbinum, Gruttulam aliasque
+					<lb/>nonnullas, tandem ad prenominatum castrum, quo Gofridus
+					<lb/>filius predicti Alexandri comitis inerat, obsidendum se contulit;
+					<pb n="42"/>
+					<lb/>illudque tamdiu obsidione cohercuit, quousque Goffridum pro
+					<lb/>suo velle subiciens sibi, ipsum etiam caperet oppidum. Quo
+					<lb/>audito, comes Alexander, qui pre timore illius aufugerat, immenso
+					<lb/>animi merore diutissime consternatus est; deinde in
+					<lb/>Dalmatiam profugus iens, non solum exheredatus, verum etiam
+					<lb/>patria extorris cogitur manere; qui non longe post, ut ad imperatorem
+					<lb/>pergeret secedens, cum ad quendam nemorosum
+					<lb/>pervenisset locum, incidens in latrones, omnino cum suis omnibus
+					<lb/>depredatus est; qui dein, Avellone positus, ab iis qui hec ipsa
+					<lb/>eius ab ore audita nobis nuntiaverunt, egenus valde et pauper
+				<lb/>visus est manere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>39</head>
+				<p><lb/>Devicta itaque Matera, Rex super Armentum, munitissimum
+					<lb/>oppidum quo Robertus frater predicti Goffridi inerat, venit;
+					<lb/>qui Robertus, regia compulsus obsidione, statim se et castrum
+					<lb/>Regi subegit. Dein cum obsidem, qualem Rex poscebat,
+				<lb/>pro se dare renuisset, Siciliam vinculis mancipandus dirigitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>40</head>
+				<p><lb/>Post hec vero Rex castra movens super quoddam arduum
+					<lb/>et munitissimum castrum nomine Ausum, quo Gofridus Comes
+					<lb/>aderat, acceleravit, illudque tamdiu obsidione severissima
+					<lb/>circumsedit, quousque comprehensus in Siciliam exilii retrusionis
+				<lb/>pena periurii culpam luiturus destinatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>41</head>
+				<p><lb/>His itaque peractis, ad obsidendum Montem
+					<lb/>Pilosum festinat. Ceterum Tancredus audiens subito Regem
+					<pb n="43"/>
+					<lb/>super se venturum, mox relicto quodam municipio nomine
+					<lb/>Urso, quod ab eo tunc obsidebatur, sub omni celeritate precurrens,
+					<lb/>urbem predictam tuiturus revertitur; ad quam iam
+					<lb/>Ranulphus comes ducente Rogerio de Plenco acerrimo milite,
+					<lb/>Regique inimicissimo, quadraginta et eo amplius milites in adiutorium
+					<lb/>sui direxerat. Monte itaque Piloso Regis obsidione circumdato,
+					<lb/>Tancredus ei ad resistendum totis viribus preparatur.
+					<lb/>Nam ante eiusdem urbis barbacanum quidam locus qui catuvella
+					<lb/>dicebatur, non parvo terre aggere munitus erat, in quo pene
+					<lb/>tota civitas ad repugnandum collecta consistebat. Quem videlicet
+					<lb/>locum, dum regia cohors illis repulsis violenter irrupisset,
+					<lb/>Tancredus post cum suis eos pernimium opprimens, terga,
+					<lb/>relicto aggere, prebere compellit. Deinde regii bellatores, animum
+					<lb/>resumentes, rursus in Tancredum suosque impetum facientes,
+					<lb/>aggerem illis repulsis recuperant. Tancredus ergo suique a loco
+				<lb/>illo funditus reiecti, intra barbacanum recipiuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>42</head>
+				<p><lb/>Ceterum rex perpendens urbem munitissimam manumque
+					<lb/>in ea bellatricem consistere, ad ingenium vertitur; videlicet ut
+					<lb/>oppidum quod preliando adiri non poterat, artis peritia aggrederetur.
+					<lb/>Itaque, molimine constructo, rex illud paulatim ducendo
+					<lb/>quo minus civitas muniri conspiciebatur approximari iubet;
+					<lb/>quo ita facto exteri cum civibus cominus per eam bellabant,
+					<lb/>iacula alterutrum intorquentes. Interim autem, dum ita utrimque
+					<lb/>pugnaretur, Sarraceni per illud instrumentum ligna, quibus
+					<lb/>fossatus repleretur, iactabant; alii autem ferreis rastris ab aggere
+					<lb/>summo nisu terram trahentes, ligna ipsa eius iactatione superplanare
+				<lb/>conabantur.</p>
+				<pb n="44"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>43</head>
+				<p><lb/>Tancredus ergo dum fossatum impleri conspiceret, mox ignem
+					<lb/>atque fomentum, quo facilius accenderetur, intus immittendum
+					<lb/>ad comburendum ligna accelerat. E contra autem dum per canalem
+					<lb/>ligneum aqua derivata intus deflueret, ignis immissus
+					<lb/>extinguitur. Quo extincto, iterum qui erant in machina
+					<lb/>cum longissima pertica in cuius summo uncinus ingens
+					<lb/>ferreus erat, ipsum antemurale qui et vulgo barbacanus
+					<lb/>dicitur, divellere incipiunt. At illi qui barbacanum defendebant,
+					<lb/>videntes perticam barbacanum diruentem, eam violenter tenentes
+					<lb/>succidunt. Cumque sic tertio alie pertice ad divellendum extense,
+					<lb/>tertio etiam ab eis succise fuissent, postremo acriter iterum
+				<lb/>extendentes, partem ex eo non modicam dirruerunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>44</head>
+				<p><lb/>Cumque hoc viso cives exterrerentur, universique terga dederunt;
+					<lb/>portamque ingressi in aliam partem urbis, que munitione
+					<lb/>tutior erat, sese recipiunt. Evestigio autem falanx regia
+					<lb/>continuo porta introeuntes, dum eos insequuntur quosque
+					<lb/>ante se inveniunt, unanimiter feriendo prosternunt. Cives ergo
+					<lb/>qui in prefata se parte civitatis receperant, dum viderent se nullum
+					<lb/>evadendi vestigium posse reperire, hostibus negligenter resistentes,
+				<lb/>ipsam eos partem urbis intrare consentiunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>45</head>
+				<p><lb/>Cum ergo civitas sic ingressa a Regis bellatoribus hunc illuncque
+					<lb/>debachantibus depopularetur, Rogerius de Plenco, qui
+					<lb/>supra memoratus est, cum aliis comprehensus ad Regem moriturus
+					<lb/>perducitur. Cumque Tancredus latens Rege summopere
+					<lb/>iubente quereretur, tandem a quodam proditus, ante conspectum
+					<lb/>ipsius presentatur; quo Rex viso, super ipsius inventione quam
+				<lb/>maxime letatus est.</p>
+				<pb n="45"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>46</head>
+				<p><lb/>Porro infelix prefatus Rogerius, qui in Regem iam diu amarissimo
+					<lb/>effrenatus animo fuerat, nulla ipsius miserationis preventus,
+					<lb/>horenda laquei frictione nequatus est. Denique Tancredus
+					<lb/>licet sit ei mortis indulta sententia, vinculis tamen constringendus
+					<lb/>ad Siciliam transmittitur. Ex militibus autem pars,
+					<lb/>ne putarentur equites, vilioribus indumentis transformati, armis
+					<lb/>equisque relictis, per devia queque fugitantes evaderunt;
+					<lb/>pars vero ad Gilentie civitatem, que Tancredo adhererat, utcumque
+					<lb/>fuga adniti pervenientes, ibi se captionem ipsius
+					<lb/>evitati recipiunt; alii quoque qui erant comprehensi quidam
+					<lb/>huc, quidam vero illuc, vinculis tenendi mandantur. Deinde
+					<lb/>vero Civitas ipsa rebus funditus exinanita atque igne succensa,
+					<lb/>novissime autem subvertitur. Nunc itaque in hoc prudens lector
+					<lb/>diligenter consideret quantum sceleris sit periurii crimen committere,
+					<lb/>maximeque illud, cum quis vitam et membra seu
+					<lb/>honorem domini sui vel ei captionem non inserendam iuramento
+					<lb/>assecurat, et non custoditur ut iurat. Unde Grimoaldus et
+					<lb/>Gofridus, Tancredus atque Alexander comes nec non et alii
+					<lb/>coque, Rogerii dominatum super se suscipientes, erga eundem
+					<lb/>fidelitatis sacramentum non servaverunt, merito ulciscente Divina
+					<lb/>Iustitia digna pro hoc malorum retributione feriuntur. Et enim
+					<lb/>ipsis ita accidit sicut et Sedethie Regi demurato constat
+					<lb/>accidisse. Nam cum ipse quoddam pactum Nabugodonosor Regi
+					<lb/>iurasset, ipsum pactum irritum periurio fecisset. Venit Nabugodonosor
+					<lb/>Hierusalem, qua erat Sedethias, et obsedit eam; qui
+					<pb n="46"/>
+					<lb/>videns se nullatenus ab eodem posse evadere, dum fugam
+					<lb/>evadendi egrediens civitatem expeteret, a militibus eius exercitus
+					<lb/>mox insequutus, filiis suis qui secum comitabantur, captus
+					<lb/>est. Cumque pater et filii Regi Nabugodonosor presentati
+					<lb/>fuissent, continuo aspiciente patre ipso filii eius iubentur interfici;
+					<lb/>sicque demum ipse oculorum privatus lumine, compedibus
+					<lb/>constringendus Babylonem cum multis aliis concaptivis transducitur.
+					<lb/>/*
+					<lb/>Patet itaque, miserrima istorum dictante ruina, periurium
+					<lb/>omnino esse cavendum; quandoquidem, qui illud contempnit
+					<lb/>vitandum, contempnetur a Deo, ita ut dignam proinde, sicut
+					<lb/>et istis contigit, sine dubio quandoque excepturus sit penam.
+					<lb/>Nunc itaque ad narrationis seriem, in qua paulullum digressi
+				<lb/>sumus, redeamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>47</head>
+				<p><lb/>Igitur Rex Rogerius, Monte Piloso succenso atque subverso,
+					<lb/>Gilentiam obsessurus properat. Qui deinde considerans se
+					<lb/>nec tunc eam capiendi facultatem posse habere, concordiam eo
+					<lb/>pacto cum eis habendam spopondit, ut prefatus quem
+					<lb/>abiecerant Polutinus in eorum restitueretur dominio, ipsius
+				<lb/>videlicet dominatui se subditurus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>48</head>
+				<p><lb/>Verum Comes Ranulphus comperta Tancredi captione,
+					<lb/>simulque Rogerii nephanda suspensione, immenso animi merore
+					<lb/>afficitur, non tantum pro illorum tristi fortuna, quantum etiam
+					<lb/>quia ipsorum magno destitueretur auxilio. Qui quoque perpendens
+					<lb/>quod Rex illis devictis super se sine dubio irruiturus esset,
+					<lb/>tristitia tandem solatio sopita, ad se tuendum prorsus convertitur.
+					<lb/>Pergens itaque Beneventum, ibique inter se et cives
+					<lb/>unanimitate quam iam ad invicem compacti fuerant, renovata,
+					<lb/>sine mora revertitur. Deinde collecto ad vallem Caudinam peditum
+					<lb/>equitumque non parvo agmine, Regem, quem super se venturum
+					<pb n="47"/>
+					<lb/>putabat, ad bellum expectat; cuius etiam expeditioni Sergius
+				<lb/>magister militum, Hugoque Boianensis comes consentiebant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>49</head>
+				<p><lb/>Igitur Rex super Bissiliam maritimum oppidum veniens,
+					<lb/>eam sine dilatione aggreditur; cuius muris per girum eius
+					<lb/>dirrutis, motus inde castra super Tranum metatur; que videlicet
+					<lb/>civitas, tanto ipsius terrore percellitur, ut statim sibi subdita turres
+					<lb/>etiam omnes, ipso iubente, subverterentur. Exinde veniens Barim
+					<lb/>quam civibus, sicut supra expressum est, pro velle ipsorum dimiserat,
+					<lb/>cunctis turribus eorum eversis, castrum etiam in ea, quod
+					<lb/>iam intermissum fuerat, reedificari istituit. Deinde agens exercitum
+					<lb/>repetit Troiam; quam videlicet civitatem, eo quod ipsa munitissima
+					<lb/>sepe rebellior ei extiterat, magna ex parte in plures dispertitam
+				<lb/>casales, communit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>50</head>
+				<p><lb/>Et comes Ranulphus, audiens tam propinquum regis adventum,
+					<lb/>suspicans illum vere super se venturum, ad muniendum
+					<lb/>se acrius accenditur; quam ob rem Neapolim ocius pergit, ibique
+					<lb/>magistrum militum civesque alloquutus, in adiutorium sui cunctos
+					<lb/>sollicitavit; deinde Aversam reversus, cunctos qui arma
+					<lb/>ferre possent in hostem ortatus est. Exinde ad vallem Caudinam
+					<lb/>qua exercitum dimiserat rediit, magistrum militum omnesque
+				<lb/>qui deerant prestolans.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>51</head>
+				<p><lb/>Interea dum Rex Troie moraretur, Richardus
+					<lb/>Rohelis filius oppidum suum, quod dicitur Sancte Agathe,
+					<pb n="48"/>
+					<lb/>accepto &lt;alio&gt; pro eodem cambio, volenti ei contradidit.
+					<lb/>Siquidem castrum ipsum plurimum obtabat, eo quod in arduo
+					<lb/>posito monte, omni pene Apulie supereminebat; quam sibi
+				<lb/>per illud ex maxima parte posset tueri.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>52</head>
+				<p><lb/>Troia itaque debilitata, rex illinc recedens dum Melphiam
+					<lb/>pergeret, in ipso itinere civitatis itidem Asculensis superbiam
+					<lb/>deposuit. Nam illam omnino eversam plano in campo manere
+					<lb/>instituit, in tres videlicet dispertitam casales. Cum comes itaque
+					<lb/>inadverteret quod Rex tunc super se venire non esset intentus,
+					<lb/>set apud Melfiam demoraretur, cum suo exercitu ad propria
+				<lb/>recessit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>53</head>
+				<p><lb/>Verum Rex Melfia discedens Gravinam urbem petiit, ibique
+					<lb/>aliquantulum commoratus, Salernum post remeavit, gaudens et
+					<lb/>exultans quod, tota Apulia funditus devicta, solum sibi Beneventum
+					<lb/>ac princeps Robertus comesque Ranulphus atque Neapolis
+					<lb/>ad expugnandum supererant. Quam ob rem Rex ipse militibus
+					<lb/>circa Beneventum Capuamque constitutis, diligenter precepit
+					<lb/>ut quousque a Sicilia cum hostili manu reverteretur, eas ipsi de
+					<lb/>foris incessanter depredari non desisterent. Post hec autem,
+					<lb/>antequam hiemis importunitas subintraret, navigio transvectus
+				<lb/>Siciliam repetit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>54</head>
+				<p><lb/>Cumque illic ad tempus usque progrediendum in hostem
+					<lb/>moratus fuisset, navali rursus tramite Salernum advenit; qui
+					<lb/>innumeram undique confluentem armatorum manum ad se accitam
+					<lb/>prope Apitium oppidum congregari iussit. Cum ergo ipse
+					<lb/>Beneventum obsessurus putaretur, repente moto expeditione
+					<pb n="49"/>
+					<lb/>bellica, quoddam castellum nomine Pratum assiliens, ignis incendio
+					<lb/>dedit penitusque evertit. Deinde tria alia castella, eius timore
+					<lb/>perterrita, unum post aliud sese ei dedentia comprehendit;
+					<lb/>quibus tamen, quod se ultro dediderant, pepercit. Horum suiquidem
+					<lb/>castellorum Radulphus de Frameto sub Ranulphi comitis
+					<lb/>dominio dominatus fuerat; quorum uni nomen erat Grutta,
+				<lb/>alii Simontum, alii vero Alzacunda.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>55</head>
+				<p><lb/>Interea Ranulphus comes in loco ubi nominatur
+					<lb/>Cressanta cum paucis qui secum erant commorabatur;
+					<lb/>cuius spiritus immenso cruciabatur merore, quod parvo cum
+					<lb/>bellatorum numero constipatus illum pro velle suo adire non
+					<lb/>poterat; unde suis principibus baronibusque instanter omnibus
+					<lb/>mittens, ad se eos sub nomine prelii festinare hortatur. Dumque
+					<lb/>eorum successus attonitus expectaret, ecce Rex, cum iterum
+					<lb/>putaretur ad obsidendum Beneventum rediturus, subito motis
+					<lb/>castris oppidum cuiusdam magnatis principis Annonii nomine,
+					<lb/>quod dicitur Palma, sub omni celeritate aggreditur. Post hec
+					<lb/>autem repente ad aliud, quod nominatur Sarnum supersedendum
+					<lb/>castra coegit, cuius quidem optimas eiusdem principis, Henricus
+					<lb/>nomine, dominabatur. Quibus Comes perceptis, tristitiam
+					<lb/>cordis animositate contegens, mox ad Marilianum oppidum
+					<lb/>Roberti de Medana cum suis, qui tunc secum erant, revertitur;
+					<lb/>ubi quidem principem Robertum, qui iam Pissa reversus Pisanorum
+					<lb/>auxilium expectabat, Sergiumque magistrum militum omnesque
+					<lb/>magnates eiusdem principis et suos inhianter prestolari
+					<lb/>cepit, quatenus cum eisdem omnibus Sarni fluvio Regem, ab
+				<lb/>eiusdem captione castri ad bellum provocando, amoverent.</p>
+				<pb n="50"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>56</head>
+				<p><lb/>Cum ergo magna iam pars illic coadunata, nihilominus et
+					<lb/>ipsi pro sui paucitate alios inhianter prestolarentur, ecce prememoratum
+					<lb/>oppidum a Rege comprehensum nuntiatur. Deinde
+					<lb/>turris, que erat in prefato flumine quod Scafatum dicitur, continuo
+					<lb/>turricolis eius solo terrore contritis, eam dedentibus,
+					<lb/>capitur; sicque pons ligneus qui ibidem erat, lignis in undis
+					<lb/>proiectis, totus destruitur, ne per eundem aqua ipsa a quoquam
+					<lb/>contra Regem acturo transmeari posset; per quem
+					<lb/>videlicet pontem, quia aliunde transmeandi facultas non erat,
+					<lb/>laboranus exercitus, ut iam supra expressum est, ad obsistendum
+					<lb/>Regi se transituros putaverant; unde quoque non modico afficiebantur
+					<lb/>dolore, non tantum pro oppidi captione, quantum
+					<lb/>quod, prefata turre a Rege potita, fluminis meatum amiserant.
+					<lb/>Porro princeps, ubi turrem comperit prefatam aggressam, cernensque
+					<lb/>Pisanorum auxilium quod sibi sperabat
+					<lb/>cito adesse diu differri, iterum puppim ingressus Pisam festinus
+					<lb/>rediit, eos ad presidium sui quantocius secum minaturus, quos
+					<lb/>iam multarum milium marcarum argenti emolumentis, quas
+				<lb/>illis promiserat, sibi acciverat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>57</head>
+				<p><lb/>Sarno itaque invaso evestigio Rex Nucerie ingentissimum
+					<lb/>principis oppidum obsidione circumdedit, arce quidem prefata,
+					<lb/>ad cohercendum fluvialem transitum, custodibus premunita;
+					<lb/>quod videlicet oppidum non solum loci situ munitione roboratur,
+					<lb/>verum etiam expugnantium animo viribusque mirifice
+					<lb/>extollebatur.
+					<lb/>Cum ergo ab exteris temptatum acerrimo fuisset assultu, e
+					<pb n="51"/>
+					<lb/>contra ab hiis qui intus erant, opitulante etiam loci ipsius ardua
+				<lb/>positione, summis nisibus defensabatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>58</head>
+				<p><lb/>Verum laborana expeditio in loco adhuc prefato commorans
+					<lb/>expectabat si quomodocumque vel undecumque fluviali transitu
+					<lb/>an ne posset Regi obviare, eumque ab obsidione oppidi prelio
+					<lb/>provocatum removere. Quam ob rem comes Ranulphus non
+					<lb/>pauco constipatus numero galearum ad prememoratum Scafatum
+					<lb/>pergit, exploraturus si illuc sibi ceterisque omnibus libera transeundi
+					<lb/>preberetur facultas. Sed quia Regis iam meatus omnes
+					<lb/>custodiis premuniti erant, nec posset ipsis ulla transvadio fieri,
+					<lb/>mox ad suos reversus commilitones, cum eisdem multa cordis angebatur
+					<lb/>mestitia, quod sine repugnationis effectu sic cogerentur
+				<lb/>manere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>59</head>
+				<p><lb/>Interea Rex Rogerius perpendens pernimiam aggrediendi
+					<lb/>oppidum difficultatem, ingenii armatur solertia quatenus
+					<lb/>quod vi certaminis potiri non poterat moliminis adipisceretur
+					<lb/>peritia. Ligneam ergo parari machinam iubens, loco quo abtius
+					<lb/>minusque vicinius prospiciebatur approximari statuit. Cumque
+					<lb/>iam prope esset, ut per eam lapidibus iactis oppidi menia feriri
+					<lb/>inciperent, mox oppidicolis animo dissolutis timor incutitur
+					<lb/>regiaque pax desideratur; quocirca quidam ex primoribus eorum
+					<lb/>uno uniti consilio ad Regem egressi sunt, postulantes ut sibi
+					<lb/>ceterisque indigenis simulque castrensibus impunitatem, oppidique
+					<lb/>integritatem conservandam promitteret, sicque deinde
+				<lb/>absque dolo ipsi cum eodem oppido ei subicerentur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>60</head>
+				<p><lb/>Facta itaque regia super hoc pollicitatione, redeunt intus
+					<lb/>adnotatumque tribunum militum nomine Rogerium de Surrento,
+					<lb/>cum aliis castrensibus deditione oppidi
+					<pb n="52"/>
+					<lb/>facienda mox consulunt; presertim comitis, quod non eis succursus
+					<lb/>adesse videretur. Nam melius, inquiunt, erat eis, ut Regi
+					<lb/>potius subderentur quam ut oppido aggresso atque subverso et
+					<lb/>ipsi periclitarentur. Quibus auditis, omnes primo quidem id
+					<lb/>fieri contradicunt; postmodum vero terrore regio constricti
+					<lb/>loci deditionem consentiunt. Oppido itaque hoc modo a Rege
+					<lb/>accepto, prenominatus Rogerius ceterique omnes qui ad illud
+					<lb/>defensationis gratia confluxerant, impunitate eius, ut Rex promiserat,
+					<lb/>indulta capiuntur; sicque postea fide constricti abire
+				<lb/>dimittuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>61</head>
+				<p><lb/>Capta itaque Nuceria militarique in ea delegata custodia,
+					<lb/>ad invadendum Ranulphi comitis terram Rex prorsus animum
+					<lb/>figit. Qua propter coacto in unum exercitu Padulum proficiscitur,
+					<lb/>indeque motus ad obtinendum oppidum nomine Pontum
+					<lb/>accelerat, quod quidam magnas nomine Balduinus sub Ranulphi
+					<lb/>comitis dominio tenebat; cuius immensam Pontisii eminus
+					<lb/>cernentes expeditionem mox terrore percussi accedentem illam
+					<lb/>sine ulla repugnatione intrare permittunt. Quo capto, die ipsa
+					<lb/>continuo ad castrum quod nominatur Limata aggrediendum
+					<lb/>properat; quod cito comprehensum simulque depopulatum,
+					<lb/>novissime vero ignis crematione omnino deletur. Erat enim
+					<lb/>et illud alterius predicti comitis optimatis, cuius vocabulum
+				<lb/>Radulphus de Bernia dicebatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>62</head>
+				<p><lb/>Interea Ranulphus comes in prefato Mariliano adhuc morabatur;
+					<lb/>cumque relatione tot terras ablatas sibi comperisset, cum
+					<pb n="53"/>
+					<lb/>multo animi merore ad sua paucis galeis comitantibus festinanter
+					<lb/>egreditur; qui dum secus municipium quod dicitur Ducenta
+					<lb/>figeret gressum, a suis ibi omni consulitur instantia quatinus
+					<lb/>priusquam omnibus suis exueretur regia pace summopere
+					<lb/>preveniri studeret. Facta itaque propera ad Regem legatione, rogat
+					<lb/>ea que pacis sunt, eique pro velle suo se penitus subdendum promittit.
+					<lb/>Quibus Rex auditis mox furori suo frenum imposuit,
+					<lb/>terras suas preoccupare desistens; denique describens concordie
+					<lb/>pactum, misit ad eum ut secundum quod ab eo calamo prenotatum
+					<lb/>erat ita illum in pace suscepturus esset, restituens et sibi
+					<lb/>uxorem suam et filium eo tamen interposito tenore: ut dotalia,
+					<lb/>pro quibus ipsi ab eo discesserant, ei restitueret; terrasque
+					<lb/>omnes, quas vi certaminis super eum obtinuerat,
+					<lb/>omnino quietas sibi dimitteret. Verum ille, quamquam de his
+					<lb/>omnibus plurimum aggravaretur, tamen ne suorum omnium
+					<lb/>amissionem incurreret, ad subiciendum se ei, prout ipse mandaverat,
+				<lb/>potius animatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>63</head>
+				<p><lb/>Veniens itaque ad eum, genibus flexis, pedes eius osculari
+					<lb/>voluit; quem cum ille propriis manibus ab osculatione pedum
+					<lb/>sublevasset, orisque sui osculo vellet suscipere, comes prius precatur
+					<lb/>ut eius ex corde indignationem funditus abiceret. Cum
+					<lb/>Rex "ex corde - inquit - abicio". Et ille: "Volo iterum,
+					<lb/>ut sicut deinceps famulatus fuero, ita me diligas". Cui ille: "Et
+					<lb/>ego concedo. Iterum -ait -istarum sponsionum quas alternatim
+					<lb/>fecimus volo ut testis sit Deus, inter me et te". At ille:
+					<lb/>"Ita - inquit - fiat". Quibus dictis Rex eum statim osculo
+					<lb/>suscepit, diuque in amplexu delectari visus est, ita &lt;ut&gt; ex oculis
+					<lb/>quorundam circumstantium pre gaudio lacrime effundi viderentur.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>64</head>
+				<p><lb/>Principem vero in sua pace hoc tenore suscipiendum pepigit,
+					<lb/>videlicet ut si usque ad dimidium mensis Augusti reditum faceret,
+					<pb n="54"/>
+					<lb/>suo non privaretur honore; si tamen iuxta quod in capitulari
+					<lb/>scripto statutum erat, subditus ei vellet parere, retentis si quidem
+					<lb/>sub proprio dominio quecumque vi guerre obtinuisset. Si
+					<lb/>autem forte ei animus redeundi deesset, eius filio parvulo, nomine
+					<lb/>Roberto, principatum concederet, eo tamen interposito
+					<lb/>pacto: ut ipse eius tamdiu regimen teneret quousque legitimam
+					<lb/>idem consecutus etatem exercere militiam posset. Quod si et
+					<lb/>ipse prefatum absentatione sui terminum preteriret, Rex deinceps
+					<lb/>principatu capuano cunctorumque heroum hominio inculpabiliter
+					<lb/>sub proprio potiretur dominio. At Hugo Boianensis comes,
+					<lb/>previdens regis iram super se movendam, quod adversus illum
+					<lb/>principi comitique adhererat, cum multis precibus veniam ipsius
+					<lb/>postulaturus advenit; quam quidem impetrare nullatenus valuit,
+					<lb/>nisi primo terras suas universas, quas Bifernus fluvius orientem
+					<lb/>versus preterfluit, ei reliquisset, nec non Castellum Maris, situm
+					<lb/>scilicet quo fluvius Volturnus cursus sui finem designat. Verum
+					<lb/>Sergius magister militum, secundum quod a Rege exigebatur,
+					<lb/>eius tunc super se dominatum suscipere atque servire abnuebat.
+					<lb/>Ad quem postea Ranipotus tribunus militum beneventanus,
+					<lb/>audita comitis concordia, pre timore continuo civitatem deserens,
+				<lb/>centum ut fertur constipatus loricis, aufugit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>65</head>
+				<p><lb/>Interea Rex Telesinum cenobium fore sibi vicinum comperiens,
+					<lb/>voluit visere illud, fratrumque se orationibus commendare.
+					<lb/>Cum ergo ad monasterium venisset, honorifice ut illum decebat,
+					<lb/>a fratribus obviam ei progredientibus cum himnis et laudibus
+					<lb/>suscipitur; qui cum completa ante altare oratione capitulum
+					<pb n="55"/>
+					<lb/>intrasset, osculatis sigillatim fratribus, sanctam postmodum eorum
+					<lb/>fraternitatis societatem per manum Alexandri eiusdem congregationis
+					<lb/>abbatis humiliter reverenterque accepit. Qui etiam
+					<lb/>bona se collaturum devote eidem monasterio spondens, ad exercitum,
+				<lb/>quo venerat, valefaciens fratribus, letus abcessit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>66</head>
+				<p><lb/>Post tertium vero diem, summo mane secedens, Capuam
+					<lb/>illustrissimam urbem civibus eius cunctisque terre Laboris magnatibus
+					<lb/>sese dedentibus recepit; que videlicet urbs metropolis
+					<lb/>existens, idcirco, ut ab antiquis traditur, tale sortita est vocabulum,
+					<lb/>vel quia caput Campanie est, vel quia campi planitie longa lataque
+					<lb/>giratur, seu, ut quibusdam videtur, a Capi conditore suo Capua
+					<lb/>dicitur. Est quidem ampliori situ capacissima, menibus turribusque
+					<lb/>in circuito munitissima; cuius quoque muralem ambitum Vulturnus
+					<lb/>flumen medium preterfluit; intra cuius fluenta plurima
+					<lb/>in aquis supernatantia molendina funibus cannabineis innexa
+					<lb/>consistunt. Pons quoque mire magnitudinis miroque opere
+					<lb/>constructus in ipso amne extat fundatus, qui intrantibus et exeuntibus
+					<lb/>meatum prebens, ab una parte urbe, ab alia vero burgo
+					<lb/>valde prolixo obviatur. Sed et Cerere Baccho carnisque edulio,
+					<lb/>nec non diversis commerciis civitas uberrima, populoso nihilominus
+					<lb/>frequentatur accessu; et, quod maius est, principali constat
+				<lb/>dignitate precellens.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>67</head>
+				<p><lb/>Cum ergo civitatem ipsam iam sibi subditam Rex introiturus
+					<lb/>esset, a preordinata clericorum totiusque populi processione
+					<lb/>honorifice, prout decebat, suscipitur; atque ad Archiepiscopium
+					<lb/>usque, cum himnis et laudibus, perducitur. Deinde continuo
+					<lb/>foras ad expeditionem egressus Sergium magistrum militum
+					<pb n="56"/>
+					<lb/>prestolabatur, quatenus cito veniens sibi subderetur; alioquin
+					<lb/>sciret se sine dubio obsidione constringendum. Verum ille veritus
+					<lb/>ne Rex ab eo contemptus super se irrueret, civitatem
+					<lb/>eius aggrederetur, deposita mentis cervice, venit ad eum; qui
+					<lb/>genibus flexis manusque suas manibus suis immittens, suum
+					<lb/>ei hominium subdidit fidelitatemque iuravit. Res inquam valde
+					<lb/>stupenda; nam, uti iam in secundo expressum est libro, Neapolis,
+					<lb/>que post Romanum imperium vix umquam ferro potuit subdi,
+				<lb/>nunc quoque verbo tantum visa est constringi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>68</head>
+				<p><lb/>Nec mora. Post hec Rogerius cogens exercitum, castra inter
+					<lb/>Morconium pontemque Landulfi metaturus reducit, daturus
+					<lb/>universas terras Roberto Ricardi filio, quas ei Boianensis comes
+					<lb/>dimisisse supra dictus est; nam, dum ipsius aliorumque irritaretur
+					<lb/>guerris, prememoratas ei terras, cum eas adepto triumpho potiturus
+					<lb/>esset, pollicitus fuerat; si tamen dum guerras suas ageret,
+				<lb/>non infidelis reperiretur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>69</head>
+				<p><lb/>Dum a Rege mora ibidem fieret, Burrelenses domini eius
+					<lb/>super se adventum futurum formidantes, accelerant illum prevenire
+					<lb/>ut suum ei hominium quantocius subdentes illum placarent.
+					<lb/>Exin Beneventum reversus, ibique extra urbem defixis
+					<lb/>temptoriis, cives eius sibi fideles iuramento, salva Apostolica
+				<lb/>fidelitate, instituit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>70</head>
+				<p><lb/>Ceterum supradictus Ranipotus, neapolitanum magistrum
+					<lb/>militum cum Rege concordaturum presciens, mox puppe ascensa,
+					<lb/>dum fuga vellet petere Pissam, equorea interceptus procella,
+					<lb/>cum filio suo marinis fluctibus suffocatus interiit.
+					<lb/>Denique Rex, cernens cuncta ad votum suum prospere
+					<lb/>sibi accidisse, omnesque pro velle suo ditioni sue subegisse, suam
+					<lb/>illic dispertiens expeditionem, singulos ad propria redire permisit,
+					<pb n="57"/>
+					<lb/>retenta sibi sola militia quam ex proprio sustentabat erario. Deinde
+					<lb/>repetens Salernum, ibique paululum moratus, ad Siciliam post
+				<lb/>triumphali redimitus gloria ovanter revertitur.</p>
+				<p><lb/>Hic secundus compleatur libellus; quatenus paulullum dato
+				<lb/>silentio, ad incohandum et perficiendum tertium vires reparentur.</p>
+				<p><lb/>Explicit liber secundus</p>
+				<pb n="59"/>
+			</div>
+		</div>
+		<div type="book">
+			<head><lb/>Incipit liber tertius</head>
+			<div type="chapter">
+				<head><lb/>1</head>
+				<p><lb/>Factum est autem cum Rex Rogerius Siciliam repetisset,
+					<lb/>eodem anno, non multo post, corporis languore corripitur. Sed
+					<lb/>cum -Deo tribuente- citius convaluisset, Alberia regina
+					<lb/>coniunx ipsius, mox infirmitatis tacta incommodo, ad extrema
+					<lb/>pervenit; que videlicet mulier, dum vixit, religionis gratia atque
+					<lb/>elemosinarum largitione fertur plurimum enituisse. Qua defuncta
+					<lb/>Rex ipse ita meroris contritus est amaritudine ut
+					<lb/>multis se diebus intra cameram recludens, exceptis eius privatis
+					<lb/>obsecutoribus non apparuerit; unde accidit ut, fama paulatim
+					<lb/>diffusa, non solum hiis qui longe verum etiam qui prope erant,
+					<lb/>vere obisse existimaretur. Quo videlicet rumore princeps Robertus,
+					<lb/>qui Pissam aufugerat, sollicitatus, cum universa belligerorum
+					<lb/>manu, navigio advectus, in Neapolis urbe excipitur, favente
+					<lb/>sibi Sergio eiusdem civitatis magistro militum, qui iam
+					<lb/>cum eo, premissis alterutrum nuntiis, contra Regem conspiraverat.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2</head>
+				<p><lb/>Comes autem Ranulphus et ipse eodem rumore deceptus,
+					<lb/>Regis obitum vere contigisse credebat; qui cum principem cum
+					<pb n="60"/>
+					<lb/>ingenti armatorum multitudine reversum comperisset, corde
+					<lb/>respirans letabatur valde quod, Rege defuncto, tempus iam
+					<lb/>accidisse opportunum videretur quo et idem princeps Capuam
+					<lb/>principatus amissi honorem, et ipse terras, quibus diminutus
+					<lb/>fuerat, recuperare possent. Periurium itaque contra Regem Rogerium
+					<lb/>perpetrare non timens, sine ulla dierum dilatione, donativo
+					<lb/>suo milites circiter quadringentos collegit atque cum eisdem
+					<lb/>ipsis non longe extra muros Capue progressus est, expectans
+					<lb/>si forte quo quomodo civitas ipsa principi restituenda ab iis qui
+					<lb/>ampliori eiusdem amore connecti videbantur, sibi redderetur;
+					<lb/>cuius quoque proditionem, cum post ad effectum non evenisse
+					<lb/>comperisset, immenso animi merore contritus est; deinde aurora
+					<lb/>illucescente per campos passim discurrens, copiosam animalium
+					<lb/>diversarumque rerum rapinam in suburbanis eius exercuit;
+					<lb/>sicque Capatiam, munitissimum eius oppidum, quo iter assumpserat,
+					<lb/>tumido corde regreditur. Guerra itaque hoc modo
+					<lb/>adversus Regem incepta est; cui quoque Comiti quidam suorum
+					<lb/>baronum clam, quidam vero manifeste consentientes in Regem
+					<lb/>periuravere; qui ei utique hoc iusiurandum egerant, videlicet
+					<lb/>ut si quando comes ipse contra eundem Regem vellet insurgere,
+					<lb/>dierum quadraginta prestolaretur spatio, quo eorum ortationibus
+					<lb/>ad regiam revocaretur subditionem; alioquin exinde
+					<lb/>tamdiu ab eisdem instanter debellaretur, quousque ei nolens
+				<lb/>etiam subiceretur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3</head>
+				<p><lb/>Eodem namque tempore Cancellarius Regis Vuarinus nomine,
+					<lb/>vir quidem litteris apprime eruditus et in secularibus
+					<lb/>negotiis prudentissimus, et Johannes Ammiratus, cuius iam superius
+					<pb n="61"/>
+					<lb/>summam memini strenuitatem, cunctam laboris terram
+					<lb/>tunc temporis procurantes custodiebant; qui, comperto principis
+					<lb/>reditu nec non et comitis subita rebellatione, diligentiori
+					<lb/>protinus sollertia Capuam urbem, Matalonum, Cicalam, Nuceriam
+					<lb/>ceterasque terras, ipsam terram Laboris, castra belligerorum
+				<lb/>viribus munire ceperunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>4</head>
+				<p><lb/>Erat autem in eadem terra Laboris civitas quedam nomine
+					<lb/>Aversa, quam Normanni cum Apuliam aggrederentur primitus
+					<lb/>condiderunt; que licet duodecim magnatibus militibusque atque
+					<lb/>immenso populo in se cohabitantibus gloriaretur, tamen potius
+					<lb/>aggere, quam murali circumcingebatur ambitu, quo contra
+					<lb/>hostes, si necesse esset, resistere possent; ad quam cum Johannes
+					<lb/>Ammiratus et Vuarinus Cancellarius venissent, ceperunt ipsos
+					<lb/>primates et equites omnesque in ea cohabitantes diligenter premonere,
+					<lb/>quatinus nullo umquam amore seu timore concussi,
+					<lb/>regiam fidelitatem relinquerent; sed et bonum nomen, quo tunc
+					<lb/>usque in summa legalitatis observatione fideique puritate vigenti
+					<lb/>enituerant, quamlibet ignominia, tempore necessitatis instante,
+					<lb/>obfuscari non paterentur. Cumque hiis et aliis exortationibus eos
+					<lb/>sufficienter alloquuti fuissent, Johannes in Apuliam etiam missit
+					<lb/>sollicitans omnes regio iussu ut ad tuendum terram Laboris quam
+				<lb/>citius possent accurrerent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5</head>
+				<p><lb/>Igitur princeps Robertus de Regis adhuc obitu non incertus,
+					<lb/>non desinebat intra mentis sue volvere archanum quomodo
+					<lb/>qualiterve principalem ademptum apicem resumere posset;
+					<lb/>misit itaque ad Ranulphum comitem uti ad se quantocius festinaret;
+					<lb/>quoniam quidem quod erat acturus, absente eius strenuitate,
+					<lb/>agere nullatenus quiret. Verum et ille cum de Regis morte,
+					<pb n="62"/>
+					<lb/>ut iam dictum est, nequaquam cunctaretur, mox cum ipsa militari
+					<lb/>quam collegerat acie ad illum Neapolim sitienter properavit;
+					<lb/>cuius quoque adventu princeps ipse, Sergiusque
+					<lb/>magister militum ad maiorem resumendum audaciam vehementer
+					<lb/>sunt vegitati; putantes per eum, eo quod vir bellicosissimus
+					<lb/>esset, ad effectum rei, quam desiderabant, feliciter
+					<lb/>pertingere. Firmata itaque ad invicem conspiratione, hoc tandem
+					<lb/>apud se firmiter proposuerunt: ut et princeps et comes sua ablata
+					<lb/>ad integrum sibi restituerent, et magister militum Neapolim et
+					<lb/>cetera que iure sibi suppetebant securiter possideret. At Rex
+					<lb/>sicut et prius ita et nunc extinctus credebatur; de cuius quoque
+					<lb/>vita nonnulli etiam fidelium suorum esitabant, presertim cum
+					<lb/>instantibus hostibus plus solito venire moraretur; sed et si quis
+					<lb/>veniens eum vivere vel venire assereret, iam audiri contempnebatur,
+					<lb/>cum multis aliis antevenientibus atque id ipsum asserentibus
+					<lb/>in vacuum sit creditum; iam enim Madius mensis cursus
+				<lb/>sui metam attingebat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6</head>
+				<p><lb/>Aversani heroes simulque universus populus, quamquam
+					<lb/>certificantibus quibusdam Regem vere vivum vereque venturum
+					<lb/>audissent, in tantam tamen devoluti sunt insaniam, ut oblitis que
+					<lb/>a Johanne et Garino premoniti fuerant, sine ulla precedente repugnatione,
+					<lb/>abiecta Regis subditione eiusque contempto dominatu,
+					<lb/>principis dominio subderentur. Ceterum Cancellarius
+					<lb/>Garinus et Johannes Ammiratus prescientes hoc ipsum ab eis
+					<lb/>agendum, Capuam iam, ne ab ipsis capti hostibus traderentur,
+					<lb/>recesserant; ubi cum ad tutandum urbem ipsam cum pluribus
+					<lb/>equitibus idem Cancellarius remansisset, Johannes ad premuniendum
+					<lb/>Matalonum Cicalam ceteraque oppida continuo vadit. Ad
+					<lb/>quem cum apuliensis militum peditumque exercitus copiosus,
+					<lb/>sicut ipse mandaverat, Cicalam convenisset, morantur ibi tuituri
+					<lb/>Terram Laboris, presidente eodem Johanne usque dum Rex
+					<lb/>adveniret; inter quos erat Robertus filius Richardi, fidissimus
+					<pb n="63"/>
+					<lb/>Regis, qui in superiori proximo libello prescriptus est, et Rogerius
+					<lb/>Arianensis comes aliique quam plures; unde factum est
+					<lb/>ut tam ipse exercitus quam milites qui intra Capuam habebantur,
+				<lb/>preter pedites, fere duo milia supputarentur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7</head>
+				<p><lb/>Aversa itaque urbe a principe recepta, pissanus
+					<lb/>exercitus qui cum eo venerat, quorum numerus circiter octo milia
+					<lb/>ferebantur, eidem principi et Ranulpho comiti Sergioque magistro
+					<lb/>militum omnimodis instant uti ad aggrediendum Capuam quantocius
+					<lb/>festinarent. Asserebant illam enim sine dubio quantocius
+					<lb/>fore invadendum. Sed illi cognoscentes urbem militari plurimum
+					<lb/>protectione fore munitam, impetum eorum prudentiori
+					<lb/>consilio cohibent; quatinus circa Clanum flumen, in loco qui
+					<lb/>Pons Silicis nuncupatur, castrametentur paululum, attendentes
+					<lb/>utrum ab hiis qui plus aliis diligebant principem urbs ipsa ei
+					<lb/>quo quomodo proderetur. Verum Cancellarius, ut erat cautus et
+					<lb/>sollicitus, antequam ipsi ad eundem accessissent locum, quosque
+					<lb/>principem plus aliis diligentes perceperat et in quibus tradendi
+					<lb/>civitatem maior haberetur suspicio, universos comprehendens
+				<lb/>Salernum custodiendos direxerat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8</head>
+				<p><lb/>Dum ergo princeps in illo loco moratus spem prodende sibi
+					<lb/>urbis amississet, motus inde iterum in alium locum secus eiusdem
+					<lb/>fluminis decursus aquarum tentoria fixit; stante ex altera parte
+					<lb/>regio, cui Johannes predictus presidebat, exercitu. Comes vero
+					<lb/>Ranulphus nimio mentis ardore estuabat, eo quod in illos ad
+					<lb/>feriendum, medio stante flumine, furtivo subitoque eventu
+					<lb/>irrumpere non posset. At Johannes Ammiratus, vir sagacissimus
+					<lb/>e contra, sinistros precavens eventus, caute agebat exercitum;
+					<lb/>videlicet ab irruptione inutilis audacie eos coercens. Cumque
+					<lb/>sic ab utraque parte aliquantisper ibi moratum fuisset, principis
+					<lb/>expeditio panis inopia coangustari cepit, quam non iam sustinere
+					<lb/>valebat; tanta namque in eodem loco egestas habebatur, ut unus
+					<pb n="64"/>
+					<lb/>panis pusillus vix iam rothomagensi nummo mercaretur;
+					<lb/>quam ob rem, derelicta princeps cum magistro militum Neapoli,
+					<lb/>recedunt, comes autem Ranulphus ad custodiendum Aversam
+				<lb/>delegatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>9</head>
+				<p><lb/>Dum ergo res ita haberetur, ecce subito Rex Rogerius, quem
+					<lb/>omnes sui sitienter expectabant, quemque inimici
+					<lb/>eius non vivum credebant, equoreis undis advectus, quinto die
+					<lb/>intrante Iunio Salernum ingreditur; cui cum de navi exeunti
+					<lb/>universus civitatis populus unanimes occurrissent, tanto excepti
+					<lb/>sunt gaudio, ut pro eo Deo gratias omnes exclamarent; cuius
+					<lb/>adventum et beneventani audientes, ita ipsi immenso sunt exilarati
+					<lb/>tripudio ut in urbe, me ipso presente et audiente, ecclesiarum
+					<lb/>signa simul pulsarentur; et ab Archiepiscopio ad monasterium
+					<lb/>usque Sancte Sophie, cum ymnis et laudibus clericalis
+					<lb/>ordo processit. Rex denique a presentibus rerum casus seriatim
+					<lb/>sciscitans atque prenoscens, per omnes mox ditionis sue terras
+					<lb/>dirigens, ad se omnes qui arma gerere eisque ad prelium exerceri
+				<lb/>possent, accelerare imperat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10</head>
+				<p><lb/>Cum ergo undique adveniens exercitus coadunaretur, Rex
+					<lb/>interim super Aversanis, quos de legalitate multa fideique sinceritate
+					<lb/>iam laudibus suis extullerat, plurimum conquerebatur:
+					<lb/>quandoquidem quod in eis laudaverat, necessitatis tempore ingruente,
+					<lb/>in ipsis non est inventum. Contristabatur etiam precipue
+					<lb/>super Ranulpho comite, conquerensque aiebat: "Quomodo
+					<lb/>Ranulphus comes a me ultra suscipiendus sit vel credendus, quem
+					<lb/>semper ad malum mihi inferendum nec propinqui sanguinis
+					<pb n="65"/>
+					<lb/>copula nec postquam eius hominium accepi, sacramentum
+					<lb/>fidelitatis cohibuit? Quocirca merito postquam ab eo violatum
+					<lb/>est iusiurandum, fides ei non est amplius adhibenda amorque
+					<lb/>propinquitatis, quo ob coniugium sororinum unitusque cum
+					<lb/>eo ligatus tenebar, penitus dissolvatur. Qui quidem, si in mei
+					<lb/>nunc fidelitate positus, gloriam mei et honorem quesisset,
+					<lb/>oblitis omnibus que mihi intulerat malis, multum a me honorem
+					<lb/>sine dubio consecuturus foret. Magister vero militum qui fidelitatem
+					<lb/>meam inimicis meis adherendo derelinquit, nulla utique
+					<lb/>super hoc venia dignus habeatur, neapolitanam quippe dignitatem
+					<lb/>amittens; princeps autem, qui iram meam magis delitescendo
+					<lb/>fugit, quoniam in hoc non multum deliquit, utique miserendum
+					<lb/>est, ei suoque ex toto non privetur honore, si tamen ab inimicis
+					<lb/>meis, videlicet magistro militum comiteque Ranulpho, discedere
+					<lb/>velit. Unde mittatur cito ad eum, et experiamur utrum
+					<lb/>verbum istud sibi placuerit; videlicet ut ab illis discedat ".
+					<lb/>Verum princeps comesque, ex quo &lt;eius&gt; adventum perceperunt,
+					<lb/>in tantam animi tristitiam corruerunt ut mori magis
+				<lb/>quam vivere vellent, videntes se rumore falso fuisse delusos.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11</head>
+				<p><lb/>Cum ergo princeps hoc quod ab eo mandatum fuerat contemnendum
+					<lb/>elegisset, Rex illico coacta in unum quam collegerat
+					<lb/>militum peditumque innumera expeditione qua maior nulla alia
+					<lb/>antea ab eo habita est, ad aggrediendum Aversam, qua comes
+					<lb/>Ranulphus ad custodiendum remanserat, toto animo tendit.
+					<lb/>Cuius aggressionem asperrimam Aversani formidantes, ceperunt
+					<lb/>omnes, quicumque citius poterant, fugam arripere atque Neapolim,
+					<lb/>ad se ibi tuendum, properare.
+					<lb/>Comes autem cernens se ita fugiendo ab omnibus pre timore
+					<lb/>derelinqui, &lt;qui&gt; bellum sine dubio Regi inferendum sepe
+					<lb/>comminatus fuerat, vix tandem cum paucissimis fuga ab eo
+					<lb/>elapsus est, atque neapolitanis menibus, quibus tunc princeps
+					<lb/>magisterque militum adhererant, se nimis confusus recepit. Qui
+					<lb/>cum ibi intrusus civitatis claustra non egredi auderet, intra mentis
+					<pb n="66"/>
+					<lb/>sue viscera immaniter torquebatur, penitens valde quod male
+					<lb/>consultus guerram ceperit sibique ea que pacis sunt consulentibus
+					<lb/>nequaquam crediderit. Quid ergo ageret? Cum se, etiam
+					<lb/>terras suas in proximo iam amissurum cerneret, ad quas tuendum
+					<lb/>et fratrem suum Ricardum dimiserat, sed ille similiter
+					<lb/>regio perterritus adventu, etiam filio suo, quem Regi obsidem
+					<lb/>dederat, derelicto, cum ad fratrem suum comitem redire nequisset,
+				<lb/>per occulta tramitum continuo fugam inivit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12</head>
+				<p><lb/>Cum ergo Rex super Aversam irruens comitem fuga
+					<lb/>evasisse comperisset, doluit valde quod captionis sue retia evadens,
+					<lb/>ultionem ipsius meritam non fuerit expertus; qui deinde
+					<lb/>tanto mentis furore accenditur, ut tota urbs prius omnino depopulata,
+					<lb/>ignis post incendio traderetur; que videlicet civitas non
+					<lb/>solum intus, sed etiam deforis abundantissimo fuerat inhabitata
+					<lb/>populo, omnibusque indiviis ita fertilem fuerat, ut etiam
+					<lb/>Capue seu Neapoli, que circa se erant, non invideret. Frumento
+					<lb/>et vino carnisque edulio ita feracior extiterat, ut
+					<lb/>fere nullus in ea habitantium in victu egeret; unde contigit ut
+					<lb/>pene omnes in ea effrenatius turpi libidine subderentur, ob
+					<lb/>cuius piaculum, quo se moderari neclexerunt, Deus magis offensus
+				<lb/>sic eam, ut estimo per Rogerium delere decrevit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13</head>
+				<p><lb/>Cum ergo sic Aversa deleta fuisset, Rex postmodum suburbana
+					<lb/>ipsius concremari iussit. Deinde appropinquans Neapolim,
+					<lb/>inter oppidum quod dicitur Cuculum Patrieque lacum
+					<lb/>castra defixit, ibique tamdiu moratur quousque et cuncta suburbana
+					<lb/>Neapolis in partibus illis ignis incendium consumeret, segetesque
+					<pb n="67"/>
+					<lb/>universe a frumentatoribus sue expeditionis depopularentur.
+					<lb/>At princeps Robertus comesque Ranulphus Sergiusque
+					<lb/>magister militum, ita pre formidine ipsius intra urbem intruduntur,
+					<lb/>ut nec de porta bellaturi exire auderent.
+					<lb/>Cumque omnia ibi consumpta fuissent, iterum Rex Aversam
+					<lb/>destructam repetit; qui etiam illic diligentius iubet ut si quid
+					<lb/>inter Aversam Neapolimque, quod comburendum esset, incombustum
+					<lb/>remansisset, omnino combureretur; ubi quippe moram
+					<lb/>tamdiu facit, donec et rebus agrariis, que superfuerant, universis
+				<lb/>consumptis, solum telluris omnino vacuum dimitteretur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14</head>
+				<p><lb/>Dum hec ita gererentur, Rex, habito consilio, premissit Cancellarium
+					<lb/>suum Guarinum cum multitudine militari, quatenus
+					<lb/>civitates quas comes Ranulphus sub proprio dominio tenuerat,
+					<lb/>sponte sibi subicerentur; alioquin si ipse super eas irrueret, sine
+					<lb/>ullo miserationis intuitu depopulate, ignis quoque concremationi
+					<lb/>funditus exinanirentur. Veniente itaque Cancellario ad
+					<lb/>urbem que dicitur Alifa, ipso die quo venit, universus eius populus
+					<lb/>Regi sine ulla refragatione subicitur. Quo facto, postera
+					<lb/>die ad oppidum Sancti Angeli cognomento Rabicanum suscipiendum
+					<lb/>tendit; cuius videlicet Ricardus frater eiusdem comitis
+					<lb/>dominatus fuerat; quique etiam regio, ut iam fatum est,
+					<lb/>adventu perterritus, dimisso eodem castro in Campaniam aufugerat.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>15</head>
+				<p><lb/>Post hec autem Cancellarius recessit Caiaciam, remotus tamen
+					<lb/>ab ea tertio miliario, secus Vulturni fluenta. Mandatur exinde
+					<lb/>Caiacianis, et precipue illis qui castro eius preerant, ut et ipsi
+					<lb/>Regis super se quantocius suscipiant demanium.
+					<lb/>At illi sentientes inexpugnabili se castro muniri, audacius recusant
+					<lb/>id fieri; ymmo, si necesse fuerit, se ei repugnaturos prenuntiant.
+					<lb/>Quam ob rem Cancellarius motus inde, castra super
+					<lb/>Sanctam Agatham urbem metatus est; exortans cives Regi se
+					<pb n="68"/>
+					<lb/>ultro subdendos. Verum illi, sicut et Caiaciani id fieri renuentes,
+					<lb/>ad resistendum potius se parant. Nuntiantur itaque Regi, qui
+					<lb/>tunc Averse morabatur, hec omnia; et quia utreque urbes munitissime
+					<lb/>erant, necesse erat ut Rex ipse ad expugnandum super
+				<lb/>eas irrueret.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16</head>
+				<p><lb/>Porro Rex audiens illorum superbiam, grave accepit; unde
+					<lb/>magna expeditionis sue parte ad custodiendum Capuam ceteraque
+					<lb/>oppida circa Terram Laboris sita delegata, ad obsidendum
+					<lb/>prefatas urbes iratus festinat. Veniens ergo super Sanctam Agatham
+					<lb/>eam undique artissime cirumsedit, atque machinas, quibus
+					<lb/>citius caperetur, fieri iussit. Quo viso civitatis habitatores immenso
+					<lb/>consternantur timore; unde nonnulli eorum cito exeuntes
+					<lb/>Regem prevenire satagunt, pedibusque eius provoluti precibus
+					<lb/>instant uti eorum subditionem suscipere iam dignaretur, et ne
+					<lb/>ipsi cum uxoribus et liberis rebusque eorum in predam darentur,
+					<lb/>essentque in ignominiam cunctis audientibus. Rex itaque precationibus
+					<lb/>eorum vix flexus, urbem sic, sine ipsorum discrimine
+					<lb/>suscepit, adque post tertium diem ad habendum Caiaciam
+					<lb/>properat; sicque eiusdem urbs positio ita stare cernitur ut orientem
+					<lb/>versus ingens in ea castrum non solum humano opere, verum
+					<lb/>etiam montis excellentia naturaliter munitissimum habeatur.
+					<lb/>Quod quidem castrum ita ab urbe distat, ut etiam cives ipsi in
+					<lb/>nullo quomodolibet contra illud penitus prevalere possint. Ceterum
+					<lb/>et obsidionem ab eo non formidare videtur, ut si virtus
+					<lb/>alimonie, qua tutores eius substententur, non defuerit, vix umquam
+				<lb/>possit captione subdi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17</head>
+				<p><lb/>Veniens itaque Rogerius Rex super illam, mirabile dictu,
+					<lb/>ita castrenses in primo exterriti sunt assultu, ut nil aliud nisi
+					<lb/>que pacis sunt cogitantes, eidem subdi quantocius
+					<lb/>cuperent. Quippe tantum percrebuerat in eodem assultu spiculorum
+					<lb/>iactura, ut vix cuiuslibet manus castrensis ad repellendum
+					<pb n="69"/>
+					<lb/>instantes hostes fuerit ausa. Nam defensationis gratia quicumque
+					<lb/>inermis positus brachium extenderet, ictum deforis venientis
+					<lb/>iaculi statim in se ipso excipiebat. Sic itaque castrum ipsum semel
+					<lb/>oppugnatum atque devictum a Rege accipitur; quod cum postea
+					<lb/>visendi causa fuisset ingressus, illud quam maxime pro ipsius
+					<lb/>ardua ingentique munitione commendasse fertur; multumque
+				<lb/>sibi prodesse ad eius defensionem corone testatus est.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>18</head>
+				<p><lb/>Post hec autem quendam ibi heroem Nicolaum nomine, eo quod
+					<lb/>inimicis suis consentiens periurus eius fuerit, iusto exheredavit examine;
+					<lb/>qui deinde cupiens in perpetuum solidare pacis bonum, dedit
+					<lb/>edictum ut cuncta in terra comitis subverterentur oppida, preter
+					<lb/>munitiora castra, que ei sub proprio dominio ad eiusdem pacis tutelam
+					<lb/>retineri placerent. Post hec venit Alifam, ut videret eam;
+					<lb/>qua visa, de ipsius amenitate loci lympharumque circumcurrentium
+					<lb/>magna abundantia fertur valde sibi complacuisse. Quarum
+					<lb/>videlicet limpharum tanta erat obsecundationis facilitas, ut quandocumque
+					<lb/>prius vellet, rivum ex eis productum in ortum suum,
+					<lb/>ubicumque esset, posset transducere, eiusque ad irrigandum
+				<lb/>olera pro velle suo famularetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19</head>
+				<p><lb/>Post hec coacto in unum exercitu quem secus fluenta Volturni
+					<lb/>reliquerat, Neapolim, qua hostes eius contra se suscepti rebellabant,
+					<lb/>obsessurus properat. Erat autem civitas ipsa antiquissima,
+					<lb/>quam Eneas, cum illuc navigio transvectus applicuisset, primus
+					<lb/>fertur condidisse; cuius quoque magnitudo pregrandis erat, que a
+					<lb/>parte meridiana non solum murorum altitudine, verum etiam
+					<lb/>Tirreno mari munitur. A ceteris vero partibus excelsis menibus
+					<lb/>roboratur. Quam ob rem adeo ipsa inexpugnabilis constat, ut nisi
+					<lb/>famis periculo coarctata, nullatenus comprehendi queat.
+					<lb/>Nempe huiusmodi urbis dominus olim, Octabiano Augusto
+					<pb n="70"/>
+					<lb/>annuente, Virgilius maximus poetarum extitit l; in qua etiam ipse
+				<lb/>volumen suum ingens exametris composuit versibus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>20</head>
+				<p><lb/>Igitur cum Rex Rogerius a parte Orientis urbe hac obsessa eiusdem
+					<lb/>captionem diu differendam previdisset, accidit in cor eius
+					<lb/>ut, innumeris accitis fossoribus, castrum ingens aggeris circumdutione
+					<lb/>munitissimum super eam firmaret; quantinus ibi
+					<lb/>incessanter militaribus excubiis sufficienter expositis, ipso quoque
+					<lb/>absente, Neapolis vicinius indesinenter ab ipsis constringeretur.
+					<lb/>Cum ergo posita super Neapolim obsidione, agger, pro estruendo
+					<lb/>castro ipso, terram effodiendo surrigeretur, cepit agger idem, eo
+					<lb/>quod ex cemento arido terra egesta labilis esset, huc illucque
+					<lb/>submergi; propter quod opus ipsum in vacuum assumptum
+					<lb/>fuisse videbatur, nec poterat castrum ipsum inceptum, dum agger
+					<lb/>sic submergeretur, ad effectum pertingere. Quo viso proceres ad
+					<lb/>Regem mox venientes submissis vocibus conqueruntur: "Incassum
+					<lb/>-inquiunt- ad construendum castrum labor iste
+					<lb/>assumptus est; quoniam cotidie terram effodiendo agger circumducitur,
+					<lb/>qui tamen ad expletionem eiusdem castri non proficit,
+					<lb/>quoniam quod pro aggeris erectione fodiendo egeritur, dilabi pro
+					<lb/>sui instabilitate non cessat. Quapropter, dimisso hoc opere, aliud
+					<lb/>inveniatur consilium quo ad urguendam rebellis urbis superbiam
+				<lb/>congruentior prestetur facultas.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>21</head>
+				<p><lb/>Item est et aliud omnino lugendum: quoniam nonnulli ex
+					<lb/>hac expeditione, qui in loco isto dierum estum canicularium non
+					<lb/>ferentes, incipiunt iam infirmari, alii vero intollerabili equorum,
+					<lb/>qui pre multa aque inopia siti moriuntur, cadaverum fetore, tabescere.
+					<lb/>Sed etiam tellus ipsa, qua consistimus, eo quod cementum
+					<pb n="71"/>
+					<lb/>siccum sit, impurum &lt;manat&gt; a se prodeuntem calorem. Horum
+					<lb/>quippe malorum vitia valde veremur, ne forte in tantum procedant
+					<lb/>ut totus ab eis exercitus infirmatus, penitus, quod absit, labefactetur.
+					<lb/>Unde hinc, si tue non displicet pietati, cito removendi
+					<lb/>sumus, ut non morientes, cum salute etiam nostra Neapolim
+					<lb/>non solum diebus estivis, verum etiam hieme, si necesse
+					<lb/>fuerit, cohercere possimus". Quibus Rex auditis, mox eorum
+					<lb/>miseritus, iussit obsidionem removeri, cogitans qualiter alio
+					<lb/>modo, absque suorum discrimine, hostibus suis resistendum esset;
+					<lb/>quamobrem magnam eiusdem expeditionis partem dispertiens
+					<lb/>per singula oppida, que Neapoli viciniora erant, instituit uti eam,
+					<lb/>ipso quoque discedente, instanter comprimerent, suique rebelles,
+					<lb/>si quando forte usquam armati progrederentur, vicinius ab ipsis
+				<lb/>possent restringi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22</head>
+				<p><lb/>Quibus ita dispositis perrexit Cuculum, quod dum ipse a Sicilia
+					<lb/>moram redeundi faceret, a pisanis, quos secum princeps duxerat
+					<lb/>incassum, eo quod Neapolitanis, iubente ipso, adversaretur, ex
+					<lb/>parte etiam fuerat subversum. Quod videlicet oppidum, quoniam
+					<lb/>Neapoli propinquissimum existebat, ad arcendum eam quantocius
+					<lb/>reedificans, melius etiam quam antea fuerat, opere firmari
+					<lb/>precepit. Deinde previdens magis Averse restitutione rebellis
+					<lb/>Neapolis posse restringi superbiam, perrexit illuc, atque eodem,
+					<lb/>quo prius fuerat, iussit restaurari situ; atque ad eam inhabitandum
+				<lb/>cunctos qui prius illam inhabitaverant redire permissit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>23</head>
+				<p><lb/>Interim autem dum Rege ipso cum suo exercitu presente
+					<lb/>eiusdem civitatis instanter reparatio fieret, princeps et comes
+					<lb/>magisterque militum Sergius, intra menium Neapolis septa conclusi
+					<lb/>nesciebant quid agerent, videntes se omnes iam in proximo
+					<lb/>fore superandos, ni forte undecumque adveniens succursus citius
+					<lb/>adesset. Nam et victus inopia indefinenter angebantur, nilque quo
+					<lb/>ad vitam cum suis sustentarentur, de foris per terram advectum
+					<pb n="72"/>
+					<lb/>ad eos intrare minime poterat.Militum vero, qui ad stipendia ipsorum
+					<lb/>militare videbantur, alii verentes plurimum regiam captionem,
+					<lb/>urbe[m] quandocumque poterant, latenter exeuntes,
+					<lb/>abscedebant; alii autem possessiones proprias nolentes amittere,
+					<lb/>ad eas resumendum, qui tamen Regis licentiam accipere possent,
+				<lb/>revertebantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24</head>
+				<p><lb/>Cum ergo predicti principes civitatis conclusione ita
+					<lb/>coercerentur, hoc tandem ab eorum solertia providetur consilium:
+					<lb/>ut ocius Pissam dirigentes, civium aures missis precibus pulsarent
+					<lb/>quatenus, eorum miserentes, ingentem per mare venientium
+					<lb/>belligerorum copiam transmitterent, eisque celerrimum in extremo
+					<lb/>iam positis opitulationibus succursum impenderent. Cum
+					<lb/>ergo, immensa acies ab eis directa, cum ratibus equora sulcando
+					<lb/>Neapolim tendissent, istiusmodi prefirmantur consilio, ut urbem
+					<lb/>Amalfiam, incoante aurore ortu subito aggredientes aut predarentur
+					<lb/>aut Regi, si fortuna sinistra non eis impedimentum ferret,
+				<lb/>dirriperent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>25</head>
+				<p><lb/>Erat autem tunc Amalphia omnibus pene evacuata belligeris
+					<lb/>viris, quorum iam pars, iubente Rege, cum liburnis quattuor,
+					<lb/>armatorum refertis copia, per marinas predaturi aquas recesserant;
+					<lb/>pars vero in hostem euntes cum Rege aderant, aliis autem, pisanorum
+					<lb/>navigia intuentes, quoniam eos Salernum putaverunt aggressuros,
+					<lb/>cito illuc preeuntes eam tuituri, ibi remanserunt. Venientes
+					<lb/>itaque ipsi Pisani subito, inchoante aurore luce, invaserunt
+					<lb/>urbem, nulloque resistente eam funditus impieque depopulantur.
+					<lb/>Cumque, urbe tota depopulata, universa ad classem spolia transportata
+					<lb/>fuissent, mox Scala oppido ceterisque Amalfie munitionibus
+					<pb n="73"/>
+					<lb/>invasis, novissime quoddam munimen, quod dicitur Fracta,
+				<lb/>oppugnare nituntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>26</head>
+				<p><lb/>Dum ergo Rex Rogerius, ut iam fatum est, ad reparandum
+					<lb/>Aversam, bellica constipatus expeditione, sedulus intenderet, intimatum
+					<lb/>est sibi quod navalis preliantium manus Pisa adveniens
+					<lb/>Amalfiam procul dubio invaserat. At ille, cognito hoc, concitus
+					<lb/>ipsam Averse restitutionem pro tempore dimittens, castra movit,
+					<lb/>Amalfiam violenter de manu excussurus. Quid multa? Dum ergo
+					<lb/>prefatum munimen, sicut iam dictum est, expugnaretur, ecce regius
+					<lb/>exercitus ex improvviso irrumpens, partem ipsorum cede prosternunt
+					<lb/>, partem vero captionis violentia subdunt;
+					<lb/>quorum videlicet numerus, inter necatos et captos, mille quingenti
+					<lb/>fuisse referunt. Ex consulibus autem ipsorum duo capti
+					<lb/>sunt, tertius vero percussus interiit; qui autem ad puppes remanserant,
+					<lb/>vel timore coacti ad eas fuerant reversi, innumeris quibus
+					<lb/>onustati fuerant spoliis, fugam arripiendo evaserunt. Liburnarum
+					<lb/>vero numerum quidam asserunt fuisse quadraginta tres; alii
+					<lb/>vero plures; captivorum autem multitudinem per diversa Rex
+				<lb/>dispertiens loca, vinculis mancipandos direxit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>27</head>
+				<p><lb/>Ceterum pirate ipsi Neapolim redeuntes cum pissanis, quos
+					<lb/>princeps secum duxerat, relictis ibi ad custodiam nonnullis ipsorum,
+					<lb/>simulque etiam eodem principe Pissam ingressi sunt; veris
+					<lb/>tempore in adiutorium Neapolitanorum denuo reversuri. Verum
+					<lb/>Sergius magister militum comesque Ranulphus cum filio suo Roberto
+					<lb/>in urbe defensionis eius causa remanserunt. Ipse autem
+					<lb/>Robertus, in primis adolescentie annis miles constitutus, maxime
+					<lb/>tunc temporis, ut erat adolescens, optimam audacie virtutisque
+				<lb/>laudem iam consequi incipiebat.</p>
+				<pb n="74"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>28</head>
+				<p><lb/>Rex denique in unum rursus collecto exercitu, Neapolitanorum
+					<lb/>vitiferas arbores, in quantum propius accedere potuit,
+					<lb/>omnes succisurus regreditur. Succisione itaque eadem circumquaque
+					<lb/>perpetrata, Aversam, quam pro tempore, ut iam dictum
+					<lb/>est, rehedificatione inconsummata, dimiserat, consumaturus
+					<lb/>revertitur. Qui postea videns se, imminente iam hieme, non ultra
+					<lb/>diu secum posse retinere exercitum, sibique quantocius repetendi
+					<lb/>Siciliam necessarium fore, eius mox disposita, que fienda erat,
+					<lb/>restitutione, ordinatisque usquequaque per oppida ad tuitionem
+					<lb/>pedestribus ac militaribus excubiis, figens castra subtus Padulum
+					<lb/>oppidum non longe a flumine Caloris, ad quem mox pro parte
+					<lb/>omnium civium nonnulli ex primoribus beneventane urbis cum
+					<lb/>Archiepiscopo exeuntes benigno ac familiari famine ab eo commoniti
+					<lb/>sunt, ut de eius penitus amoris nil hesitarent equitate,
+					<lb/>diligenter pacis vinculo conecti studerent, ita ut nullum dissensionis
+					<lb/>civilis adinventorem sine iuste animadversionis censura
+					<lb/>dimitterent simulque fidelitatem ipsius, salva Apostolica
+					<lb/>fidelitate, devotissimo contra omnes custodirent. Nam animus
+					<lb/>eius in hoc vere perseverabat intentus, ut eos semper diligere,
+					<lb/>benefacere atque tueri paratus esset, si tamen in ipsa eius fidelitate,
+					<lb/>ut ceperint pure deinceps perseveraturi essent. Hec et his
+					<lb/>similia illi ab eius ore audientes, hilariores redditi, talia responderunt:
+					<lb/>"Nos -inquiunt- domine Rex, cuncta que iubes libenter
+					<lb/>faciemus, tibique toto corde adherebimus, nec quicquam quod
+					<lb/>sit contra fidelitatem tuam machinabimur, immo, eam illibatam
+					<lb/>indesinenter servantes, a tuo obsequio, post dominum Papam
+					<lb/>nullo deficiemus tempore, tantum amor tuus tuaque dignatio
+					<lb/>ne avertatur a nobis". Hec ubi verba darent, recesserunt.
+					<lb/>Postera die Rex Rogerius filium suum nomine Anfusum,
+					<lb/>bone indolis puerum, cum favore optimatum militumque omnium,
+					<pb n="75"/>
+					<lb/>capuani per vexillum sublimavit principatus honore. Deinde
+					<lb/>continuo ipso die generum suum nomine Adam comitali dignitate,
+					<lb/>qua illustratus fuerat Alexander comes, cuius superius memoriam
+					<lb/>egi, magnificavit, virum scilicet iuvenilis etatis decore
+					<lb/>fulgentem, affabilem, militemque strenuissimum. Habebat autem
+					<lb/>Rex et alios duos liberos adolescentiores, forma speciosissimos
+					<lb/>morumque honestate preclarissimos, nec non ad suscipiendum
+					<lb/>militie cingulum iam utrosque adultos; quorum unum qui erat
+					<lb/>primogenitus omnium fratrum, Rogerium nomine, iam ducali
+					<lb/>honore, alium autem principatu barensi provexerat. Erant autem
+					<lb/>et ei duo filii minimi, qui sub tenera adhuc pueritie etate degentes,
+				<lb/>sic in regia aula manebant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>29</head>
+				<p><lb/>Rex denique quos familiariores habebat secum retentis, ceteros
+					<lb/>omnes illic a propria remeare permissit. Post hec, motus inde regreditur,
+					<lb/>visurus quoddam municipium, quod nuncupatur Gardia,
+					<lb/>nec non arcem quandam, que dicitur Draconum, que erat in supremo
+					<lb/>montis valde ardui sita, ut sciret quali quantove utraque
+					<lb/>prestarent muniminis robore. Ad quam tamen arcem antequam
+					<lb/>accessisset, dum iter ageret et Dominum oraturus ad monasterium
+					<lb/>Sancti Salvatoris Telesini divertitur, cui cum
+					<lb/>Abbas Alexander prenominatus, omnisque congregatio fratrum
+					<lb/>obviam processissent, honorifice, ut decuit, ab eisdem susceptus,
+					<lb/>Deo laudes concinnendo in Ecclesiam usque introducitur. Qui
+					<lb/>cum genibus positis ante altare orationem consumasset, ad capitulum
+					<lb/>ipsorum pergens, brevi tunc alloquutione abbatem omnesque
+					<lb/>fratres familiariter ibidem excepit. Post hec filius eius prefatus
+					<lb/>Anfusus sanctam eorundem fraternitatem per manus ipsius abbatis
+					<lb/>presente Rege accepit; quam Rex ipse, ut supra memoratum
+				<lb/>est, altera vice veniens susceperat.</p>
+				<pb n="76"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>30</head>
+				<p><lb/>Deinde Rex cameram expetens atque refectus, supplicante
+					<lb/>eodem abbate, montem ipsum monasterio supereminentem,
+					<lb/>qui per multa annorum curricula amissus fuerat, ei restituendum
+					<lb/>promisit, nec non argenti tantum quo calix duoque turibula
+					<lb/>fierent, quibus tunc fratres ad servitium Dei precipue indigere
+					<lb/>videbantur, pollicitus est; quibus etiam vicissim dedit ut ex
+					<lb/>hiis promissionibus, Salerni cum esset, requireretur. Itaque indigentia,
+					<lb/>quam ob causam contigerit, breviter hic referatur. Quippe
+					<lb/>Cenobium ipsum comes Ranulphus, ut cum Rege guerram
+					<lb/>continuam agere posset, post multas diversarum rerum eiusdem
+					<lb/>oblationes, ita constrinxerat, ut altare ipsum, universo eius substracto
+					<lb/>ornamento, denudare non timuerit. Unde factum est ut ex hoc
+					<lb/>et Deum offendisset, et Rogerio, peccato ipso prepediente,
+					<lb/>prevalere non potuisset. Male itaque usus est consilio, cum
+					<lb/>putaret, divina surripiendo vasa, contra Rogerium divinitus
+				<lb/>subveniri.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>31</head>
+				<p><lb/>Rex igitur prefata Guardia arceque Draconi curiosissimo
+					<lb/>intuitu perspectis, simulque quantum vel ubi magis in eisdem
+					<lb/>roborandum esset presignans, Caiaciam regreditur; qui castrum
+					<lb/>ipsius ascendens, totum in circuitu perspicacius considerat atque
+					<lb/>ubicumque in eo amplius muniendum esset previdens, absque
+					<lb/>temporis dilatione premuniri instituit. Itemque disposuit ut cuncti
+					<lb/>proceres qui in vicino positi erant degentes, cum universis subiectivis
+					<lb/>suis militibus, qui terrestres erant, Caiacie circa castrum
+					<lb/>domibus suis constructis, perpetuas haberent mansiones,
+					<lb/>videlicet ut castrum ipsum, quod naturali et humano opere
+					<lb/>fortissimum cernebatur, cohabitationis etiam militaris numerositate
+					<lb/>roboraretur; ubi etiam nonnulli tunc de clero capuane
+					<lb/>civitatis et de civibus laicis aliqui advenientes, cum consilio
+					<lb/>Regis, quendam clericum nomine Guillielmum, virum utique
+					<pb n="77"/>
+					<lb/>in divinis et humanis rebus scientia preditum, ad archiepiscopatus
+					<lb/>officium elegerunt; nam antecessor eius, in simoniaca repertus
+				<lb/>pravitate, depositaria fuerat plexus censura.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>32</head>
+				<p><lb/>Post hec autem Rege Capuam redeunte primitus eidem
+					<lb/>electo, deinde eiusdem Regis filio, qui supradictus est, Anfuso,
+					<lb/>clerus et populus singulas processiones facientes in urbem introduxerunt;
+					<lb/>ubi scilicet omnes principatus capuani proceres convenientes,
+					<lb/>novo principi submissi, hominii sui fidelitatem iuravere,
+					<lb/>salva tamen sua, filiique eius Rogerii fidelitate, qui ei in
+					<lb/>regnum successurus erat. Deinde ut omnibus iniusta patientibus
+					<lb/>exhiberetur iustitia, prefato electo, simulque magnati cuidam,
+					<lb/>qui vocabatur Haymon de Argentio, imposuit; verum et
+					<lb/>super universam terram, que sub proprio erat dominio, quendam
+					<lb/>strenuum, cui nomen erat Cancellinus, virum utique in
+					<lb/>secularibus solertissimum rebus, procuratorem constituit. Militie
+					<lb/>vero, que pro defensione Terre Laboris delegata fuerat, quosdam
+					<lb/>in quibus magis confidebat comites, dum ipse a Sicilia reverteretur,
+					<lb/>per vices statutas sibi successuros, iam antea, cum esset Averse,
+				<lb/>preposuerat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>33</head>
+				<p><lb/>Ex quibus videlicet vicibus primo accepit agendam prefatus
+					<lb/>gener Regis Adam; secundam vero post eum acturus erat comes
+					<lb/>Robertus filius Ricardi; tertiam autem post illum Simon comes
+					<lb/>Sancti Angeli montis Gargani; sicque ceteri per ordinem. Qui
+					<lb/>Simon consobrinus, frater regis, erat scilicet valentissimus miles,
+					<lb/>filiusque Henrici comitis, eiusdem Regis avunculi. Hic quoque
+					<lb/>Henricus omni tunc probitate decoris, totiusque affabilitatis dulcedine
+					<lb/>splendidus, in consilio providus, rebusque bellicis strenuissimus,
+					<lb/>immense laudis gratia, ex hoc quam maxime efferebatur,
+					<lb/>quod etiam Regi ipsi, ut ducalem &lt;apicem&gt; denique coronam
+					<pb n="78"/>
+					<lb/>regni consequeretur, consilio prudentia, seu facto, pre
+				<lb/>omnibus affuisse fertur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>34</head>
+				<p><lb/>Cum ergo et alia ab eo statuta fuissent, motus est inde, Siciliam
+					<lb/>quantocius repetiturus, dumque iter agens Argentium appropinquasset,
+					<lb/>viso eo placuit sibi subverti, quandoquidem non admodum
+					<lb/>idoneum pro defensione fore cernebatur. Post hec quoque
+					<lb/>gradiens, vallem Caudinam expetit, eius cupiens qualiter se haberent
+					<lb/>oppida videre, Appadium scilicet Montemque Sartium; nam
+					<lb/>cetera iubente ipso iam fuerant subversa; a qua videlicet Mathildam
+					<lb/>iam sororem suam remotam, in Siciliam, saniori usus consilio,
+					<lb/>elongaverat; ne quando forte vir eius quolibet modo eam seducens,
+					<lb/>per eius consensum aditum inveniret, quo contrarium
+				<lb/>sibi in futurum ingerere posset.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>35</head>
+				<p><lb/>Igitur predictis oppidis previsis, ordinatisque que ibidem videbantur
+					<lb/>ordinanda, ad castrum quod dicitur Coteum previsurus
+					<lb/>festinat; quod cum previsum amplius premuniri iussisset, Cipparunum
+					<lb/>etiam oppidum previdendum properat; qui et ipsum
+					<lb/>quomodo qualiterve fortius muniendum esset instituens, Salernum
+				<lb/>tandem pervenit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>36</head>
+				<p><lb/>Verum prefatus Alexander abbas audiens Regem Salernum
+					<lb/>advenisse, promissionibus eius non immemor, misit continuo
+					<lb/>Priorem cenobii sui Stephanum nomine, aliumque fratrem cum
+					<lb/>eo, qui ei que promiserat ad mentem revocarent. At ille mox
+					<lb/>advenientibus eis, letanti animo, tantum argenti quo calix duoque
+					<pb n="79"/>
+					<lb/>thuribularia fierent, dedit; scriptoque Cancellino eius vicedomino
+					<lb/>direxit, quatenus montem prefatum Telesino Abbati, quod iuris
+					<lb/>monasterii esset, assignaret. Cancellinus ergo cum mandatum
+					<lb/>ipsius accepisset, illico montem ipsum, sicut per litteras mandaverat,
+					<lb/>per Minanum vicecomitem eidem Abbati assignari fecit;
+					<lb/>de cuius quoque assignatione Abbas ipse, eiusdemque congregatio
+					<lb/>gavisi sunt gaudio magno valde, gratias agentes Deo, qui
+					<lb/>ipsum eundem montem per tot tempora amissum, monasterio per
+					<lb/>Rogerium recuperari fecit. Unde mox prenominatus Abbas ad
+					<lb/>missam matutinalem pro salute et vita ipsius filiorumque eius sollempnem
+					<lb/>orationem in conventu cotidie fieri instituit. Quoniam
+					<lb/>itaque bona semper sunt recolenda, idcirco hanc ipsam Regis
+					<lb/>beneficientiam conscribi dignum duximus, ut aut ipse
+					<lb/>Rex reminiscens ad melius peragendum provocetur, aut alius,
+					<lb/>eius exemplo, ad simile quid exercendum excitetur.
+					<lb/>Rex postea mare ingressus, Siciliam, cum immensa expeditione
+					<lb/>veris tempore ad expugnandum rursus Neapolim reversurus,
+				<lb/>repetit.</p>
+				<p><lb/>Tertius in hoc loco finiatur libellus, ut, paulullum mente
+				<lb/>refoti, vires dicendi ad inchoandum quartum, resumamus.</p>
+				<p><lb/>Explicit liber tertius</p>
+				<pb n="81"/>
+			</div>
+		</div>
+		<div type="book">
+			<head><lb/>Incipit liber quartus</head>
+			<div type="chapter">
+				<head><lb/>1</head>
+				<p><lb/>Post dicessum Regis in Siciliam, secundum vices, sicut iam
+					<lb/>dictum est, que ab eo constitute fuerant, prememoratus comes
+					<lb/>Adam ad regendum Aversam, militiam primus ingreditur; qui
+					<lb/>dum se in eadem viriliter optimeque ageret, magnam de se in
+					<lb/>militari strenuitate famam tunc divulgavit. Nam sepissima discursione,
+					<lb/>eiusdem urbis exteriora circumquaque militando cohercuit,
+					<lb/>ut ima ad portam eius usque vereretur accedere, verum
+					<lb/>civitas ipsa tanta panis inopia iam angebatur, ut vix duo valde
+					<lb/>pusilli panes de milio rothomagensi nummo mercarentur. Porro
+					<lb/>milites, quibus Adam ipse preerat, circiter mille erant; ex quibus
+					<lb/>ad arcendum Neapolim, alii in oppido quod dicitur Suma,
+					<lb/>alii Acerris, nonnulli in munitione Cuculi, quam plures Averse
+				<lb/>excubare iubentur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2</head>
+				<p><lb/>Vero Neapolim tam pre timore Regis quam pro cibi
+					<lb/>penuria, militum post non pauco numero abscendente, vix trecenti
+					<lb/>remanserant, qui interdiu, etsi pro paucitate sui aperte resistere
+					<lb/>non poterant, per noctis tamen silentium exeuntes, ignorantibus
+					<lb/>illis, incendia predasque agebant. Cum ergo huiuscemodi infestationibus
+					<lb/>et illi preliando alternarentur, comes Adam, appropinquante
+					<lb/>vicis sue termino, ad sua repedavit; cui successit comes
+					<lb/>Robertus filius Ricardi, scilicet fidelissimus Regis, virque bellicosissimus,
+					<lb/>qui pro summa quam erga eundem Regem habuit
+					<lb/>fidei sinceritate, tanto ab eo donatus est munere, ut Boianensis
+					<lb/>comitatus sit magnificatus honore.
+					<pb n="82"/>
+					<lb/>Habebat namque Rex hanc laude dignam consuetudinem: ut
+					<lb/>quemcumque penes se potiori atque sinceriori fide preditum
+					<lb/>cerneret, non solum ampliori circa se dilectione
+					<lb/>haberetur, verum etiam eiusdem gratia non frustraretur. Infidum
+					<lb/>vero si quemlibet semel reperiret, ei pro huiuscemodi nota
+					<lb/>ad ipsius amoris dulcedinem pertingere, aut vix aut numquam
+				<lb/>possibile erat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3</head>
+				<p><lb/>Sed quoniam se in hoc loco occasio prebuit eius boni mores,
+					<lb/>qui et quales in eo extiterint, significare, ad laudem et memoriam
+					<lb/>ipsius pretereundum non est. Erat quippe amator iustitie atque
+					<lb/>defensor, ultorque malorum severissimus. Mendacium autem
+					<lb/>loquentem per omnia ita exhosum habebat, ut si quis, cum verum
+					<lb/>dicturus esset, falsum protulisset, ei ultra ad credendum animus
+					<lb/>eius aut vix aut numquam flecteretur. Ecclesiarum quoque seu
+					<lb/>monasteriorum munificus atque protector erat. Otio vel vagationi
+					<lb/>vix numquam subdebatur; in tantum, ut si quando a ceteris
+					<lb/>utilioribus occupationibus sibi vacare contingeret, aut publicis
+					<lb/>exactionibus invigilaret, aut datorum sive dandorum seu eorum
+					<lb/>que accipienda erant reminisci, vel que recensenda erant recensere
+					<lb/>satageret; quatenus melius de suo tribuendum erario,
+					<lb/>vel ubi adeundum esset, sub cirographorum ratiociniis semper
+					<lb/>habebatur, et ut amplius dicam, nullum quid sibi erat, quod non
+					<lb/>sub scripti ratione servaretur aut erogaretur; nil tamen cuiquam
+					<lb/>per inanem largitatem tribuebat; unde in nullo umquam egere
+					<lb/>poterat, qui tanta solertia tantaque cautele diligentia sua curabat,
+					<lb/>verens in illud, quod vulgo dicitur, incidere: "Qui non vixit ad
+				<lb/>numerum, victurus erit ad dedecus".</p>
+				<pb n="83"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>4</head>
+				<p><lb/>Stipendia vero militaria, vel quidquid ex conventione seu promissione
+					<lb/>dandum esset, incunctanter persolvebat. Numquam
+					<lb/>vero quod daturus, vel dandum non esset, polliceri volebat.
+					<lb/>In faciendis non preceps existebat, sed priusquam eorum quid
+					<lb/>inchoaretur, semper providentie oculo premuniri studebat. Neminem
+					<lb/>quoque ex preiudicio puniri vel sua auferri querebat. Cui
+					<lb/>vero aliquid pro merito bonum vel malum promitteret seu
+					<lb/>comminaretur, firmum ratumque erat. Sed et hoc in eo erat
+					<lb/>valde mirabile, quia cum in hostem positus esset, ita provide bellica
+					<lb/>acta disponebat, ut semper et ubique sine sanguinis effusione
+					<lb/>superans, exercitus etiam sui vitaret discrimen. Erat autem
+					<lb/>et in loquella velox, prudentia pollens, consilii gravitate preditus,
+					<lb/>sermone luculentus atque repentinis responsionibus semper
+					<lb/>sapienter respondere paratus. Sed quia familiaritas solet parere
+					<lb/>contemptum, ita ipse publice et privatim in familiaritate vel affabilitate
+					<lb/>seu iocunditate habebatur modestus, ut numquam etiam
+					<lb/>desisteret timeri. In tantum enim profuit metus ipsius, ut de
+					<lb/>cunctis, Deo cohoperante, regni sui finibus, omni penitus eliminata
+					<lb/>iniquitate, non nisi que iustitie et pacis erant, sectarentur.
+					<lb/>Ita ut illud Psalmiste in eo videretur compleri: "Iustitia et pax
+				<lb/>osculate sunt".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5</head>
+				<p><lb/>Quoniam ergo egregios mores disserentes paulo longius
+					<lb/>evagati sumus, nunc ad narrationis ordinem stilus revertatur.
+					<pb n="84"/>
+					<lb/>Robertus itaque prememoratus comes, cum, recedente Adam,
+					<lb/>militie Regis apud Aversam regimen suscepisset, ita omni militaris
+					<lb/>virtutis et strenuitatis instantia Neapolitanos constringebat
+					<lb/>fines, ut numquam per eos ad malum inferendum hostibus exire
+					<lb/>daretur, nisi forte in nocte, cum videri non possent. Sergius vero
+					<lb/>magister militum, ex quo Rex in Siciliam discessit, Pisam navigio
+					<lb/>transvectus abiit, si forte inde sibi ceterisque suis excussionis opem
+					<lb/>collaturus esset, cum Rex ipse Neapolim obsessurus rediret.
+					<lb/>Ipse autem Rex Natalis Dominici subsequentis die adveniente,
+					<lb/>duos liberos suos ad militiam promovit: Rogerius scilicet ducem et
+					<lb/>Tancredum barensem principem; ad quorum videlicet laudem
+					<lb/>et honorem quadraginta equites cum eisdem ipsis militari cingulo
+					<lb/>decoravit. At Robertus comes, qui totiens iam supradictus
+					<lb/>est, completis in sorte vicis sue apud Aversam, duobus mensibus,
+					<lb/>Novembri scilicet et Decembri, ad sua revertitur; cui successit
+					<lb/>Simon comes Sancti Angeli, cuius superius memoria habita est;
+					<lb/>vir scilicet, ut iam dictum est, potens in armis, sollertisque
+				<lb/>ingenii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6</head>
+				<p><lb/>Placet quidem in hoc loco non esse pretereundum, licet videatur
+					<lb/>narracionis ordo interrumpi, qualiter longe antefutura
+					<lb/>Rogerii victoria simulque eius capiti imponenda corona a
+					<lb/>quodam tellesine vallis presbytero per sompnii revelacionem
+					<lb/>fuit prescita. Quod videlicet sompnium tamdiu apud se tenuit
+					<lb/>occultum, quousque Neapolim fugato Ranulpho comite eiusque
+					<lb/>terra Regi Rogerio universa subiecta, palam post et sine timore
+					<lb/>detegens, potuit omnibus edicere. Quod ego post dicessum
+					<lb/>Regis in Siciliam audiens, ad monasterium, quo tunc eram, venire
+					<lb/>feci presbyterum precans obnixius ut quod per sompnium de rege
+				<lb/>ipso previderat michi desideranti fideli narracione patefaceret.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7</head>
+				<p><lb/>Referebat igitur nobis quia paulo ante obbitum Guyllelmi ducis,
+					<lb/>dum rex ipse positus esset in comitatus honore, quadam nocte
+					<lb/>dormiens videbat per sompnium quod dux prefatus Guyllelmus
+					<pb n="85"/>
+					<lb/>et Robertus princeps capuanorum comesque Ranulphus atque
+					<lb/>omnes proceres Apulie, Calabrie, Capitanate aliarumque multarum
+					<lb/>provinciarum, in Apuliam convenerunt contra Rogerium
+					<lb/>Siculorum comitem pugnaturi; quo audito Rogerius et ipse
+					<lb/>congregans magnam exercitus multitudinem, mare pertransiit
+					<lb/>adversus eosdem preliaturus. Itaque acie militum peditumque
+					<lb/>istinc et illinc nimis terribiliter ordinata ac bello utrimque disposita,
+					<lb/>mox Rogerius comes perterritus fugam cum suis inivit.
+					<lb/>Quem cum dux ceterique omnes fugientem prosequerentur,
+					<lb/>sese in mare evasurus proiecit. Cumque fere uno miliario ante
+					<lb/>eos per mare ipsum fugatus fuisset, tandem perstitit atque pro
+					<lb/>nimia quam patiebatur siti ipsum mare continuo ebibit totum.
+					<lb/>Cum ergo bibito eo vires resumpsisset, mox versus super illos qui
+					<lb/>eum insecuti fuerant, audenter irruit, statim quos in fugam convertit.
+					<lb/>Cum ergo Guyllelmus dux effugatus nusquam comparuisset,
+					<lb/>Robertus princeps comesque Ranulphus cum ceteris
+					<lb/>universis ante eum in facies suas pre timore ipsius ceciderunt.
+					<lb/>Comes autem Rogerius, cum vidisset quod omnes illos potuisset
+					<lb/>interficere, mox pietate detentus eis pepercit. Quo facto ecce subbito
+					<lb/>duo viri vestibus induti albis accesserunt eosque de terra erigentes
+					<lb/>dixerunt: "Modo vivere potestis, quia, si comes voluisset
+					<lb/>Rogerius, omnes vos potuisset perimere; sed quia vobis cunctis
+					<lb/>parcens vitam etiam concessit, accedite nunc simulque submissis
+					<lb/>cervicibus adorate eum, denique sciatis omnes, quoniam
+					<lb/>divina dispositum est voluntate, ut, quicumque ei resistere
+					<lb/>temptaverint, eius ense opportebit ut trucidentur". Quo audito
+					<lb/>universi protinus accesserunt, collisque depositis illum pariter
+					<lb/>adorantes, summum ei homminium subdiderunt. Verum
+					<lb/>Rogerius ita triumphator effectus, cumulum deinde quendam
+					<lb/>statim construdit hastamque suam in eius supremo affigens, substitit.
+					<pb n="86"/>
+					<lb/>Que videlicet hasta illico in arborem versa, pulcerrima
+					<lb/>crevit, ut submitas eius usque ad nubes protendi videretur; sed
+					<lb/>et frondibus ac floribus miris pomisque innumeris visu pulcerrimis
+					<lb/>referta, sedem etiam valde elegantem atque excellentem
+					<lb/>in cacumine sui sitam habebat; denique scala latissima eidem
+					<lb/>apponebatur arbori, que usque ad tronum illum mirabilem pertingebat.
+					<lb/>Tunc duo viri, illi qui in albis apparuerunt, accedentes
+					<lb/>tenuerunt illum per manus, unus ad dexteram, alius a leva, et ita
+					<lb/>eum per eandem scalam secum arborem illam conscendere moventes,
+					<lb/>in sede eadem ab ipsis quoque coronatum ut regem sedere
+				<lb/>fecerunt. Sicque presbytero illo expergefacto vissio illa pertransit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8</head>
+				<p><lb/>Item aliud de eo sompnium relatum est nobis, quod in eadem
+					<lb/>prefata valle quedam mulier anus vidit: referebat enim quod
+					<lb/>quadam nocte dormienti, Beata Dei Genitrix Maria per sompnium
+					<lb/>sibi apparuerit; cui conquerens dixit mulier: "Ut quid,
+					<lb/>domina, pro nobis non oras et non liberas nos de oppressione
+					<lb/>Regis huius assidua?" Respondit ei beata Virgo Maria: "Non
+					<lb/>possum hoc facere, mulier, quia duo ei custodes sunt deputati
+					<lb/>a Filio meo Domino Jhesu Christo, qui eum, unus per manum
+					<lb/>dexteram, alius vero per sinistram ducentes ubique et semper
+					<lb/>gubernare atque protegere non desinunt. Unde nemo ei resistens
+					<lb/>adversari poterit, immo ipse adversus omnes prevalens sub pedibus
+					<lb/>suis eos conculcabit, quatinus ipsis pleniter contritis iniquitates
+					<lb/>eorum, quod supertriverunt, ad purum exquocantur". At
+					<lb/>illa iterum interrogans dixit: "Et qui sunt illi, domina, qui eum
+					<lb/>ducentes custodiunt?" Respondit beata Virgo Maria: "Hii
+					<lb/>sunt Apostoli filii mei Jhesu Christi, Petrus et Paulus ". Ad hec,
+				<lb/>vetula illa spergefacta, visio illa disparuit.</p>
+				<pb n="87"/>
+			</div>
+			<div type="chapter">
+				<head><lb/>9</head>
+				<p><lb/>His igitur duabus visionibus, constat dubium non esse Rogerium
+					<lb/>divina vere triumphasse dispositione, regnique coronam
+					<lb/>ita divinitus percepisse, ut numquam ea sit cariturus; quam
+					<lb/>ob rem sopiantur bella, cessent contrarietates universe adversus
+					<lb/>eum; nil utique peragit quisquis contra eum nititur, seu quid
+					<lb/>macinatur; quoniam secundum vissiones que modo prelecte
+					<lb/>sunt, Rogerius Apostolorum ductu servatur, eiusque sine dubio
+					<lb/>gladio percutientur quicumque adversus eundem rebellare
+					<lb/>conantur; memoretur et illud Apostoli dicentis: "Qui resistit
+					<lb/>potestati, Dei ordinationi resistit". Si ergo peccatum est Dei
+					<lb/>ordinationi resistere, peccatum est utique ipsius repugnare, quippe
+					<lb/>Rogerius nisi potestatem de super accepisset, non potuisset facere
+					<lb/>quidquam. Caveat ergo ab eius gladio, non contendat cum eo,
+					<lb/>ymmo subdatur illi quisquis divine dispositioni contraire pertimescit.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10</head>
+				<p><lb/>Aliud iterum sompnium percepimus, quod quidam in possessessione
+					<lb/>nostri monasterii presbyter manens, nobis reseravit;
+					<lb/>quod idcirco scribendo propalare conamur, ut in omnibus probemus
+					<lb/>Rogerium non casu, sed divine utique providencie intuitu
+					<lb/>regni solium obtinuisse. Referebat enim quod, eodem anno quo
+					<lb/>dux Guyllelmus obiens decesserit, nocte quadam dormiens tale
+					<lb/>quid per sompnii revelacionem vidit: nempe videbatur sibi quod
+					<lb/>esset ipse apud Padulum oppidum de foris in campo, ubi quidem
+					<lb/>cum eo populorum multitudines aderant; et ecce subito vitis pulcerrima
+					<lb/>quedam de terra prodiens in tantum velociter visa est
+					<lb/>succrescere usque altitudinem aeris huius protendi videretur.
+					<lb/>Cumque tam sublime erecta demum sic consistere cerneretur, repente
+					<lb/>in illam ventus validissimus irruit eamque in terram ita deiecit
+					<lb/>ut ad nichilum omnino redacta nusquam comparuerit. Ad hec
+					<lb/>statim de ipso loco terre quo vitis prodierat, cumulus, paulatim
+					<pb n="88"/>
+					<lb/>oriens, cepit post festinanter a superficie terre usque ad staturam
+					<lb/>unius perfecte etatis hominis sublevari; denic cumulus ipse
+					<lb/>versus in petram ad unius longitudinem haste, postea supercrescens,
+					<lb/>tandem ita stare conspiciebatur. Verum universi populi qui
+					<lb/>astabant, videntes vitem ita ad nichilum funditus conversam
+					<lb/>atque de eodem loco quo vitis ruerat cumulum exsurrexisse,
+					<lb/>simul omnes interpretabantur dicentes: "Ideo certe
+					<lb/>vitis hec vento interpellente corruit quatenus de ipsius quo cecidit
+					<lb/>loco cumulus iste consurgeret". Ad hec presbyter a sompno
+					<lb/>expergefactus mirabatur valde sompnium illud, nesciens tunc
+					<lb/>quod in eo protenderetur. Modo vero Rogerio triumphum
+					<lb/>seu coronam adepto, presbyter sompnium illud reminiscens in
+					<lb/>eodem ipso asserit absque ulla ambiguitate completum, videlicet
+					<lb/>vitem illam cito exsurgentem citoque proruentem Guyllelmum
+					<lb/>ducem, qui vitam cito finivit; cumulum autem de loco vitis prodeuntem
+					<lb/>versumque in petram, Rogerium in loco eius substitutum
+					<lb/>summamque regni consecutum fortitudinem significans.
+					<lb/>Cuius quoque coniecturam et nos verissimam approbantes,
+					<lb/>opportunum duximus fore vissionem istam subscribendam, uti
+					<lb/>ab omnibus, ut iam dictum est, vere sciatur Rogerium non
+					<lb/>fortuitu, sed divine electionis gratia regiam in se suscepisse dignitatem.
+					<lb/>Si quis tamen ex his tribus sompniis verum aliquid esse ambiguerit,
+					<lb/>animus eius ad ambiguendum minime assentiat, quoniam
+					<lb/>si in eis aliquid dubitarem, a me litteris tam accurati[u]s studiosiusque
+				<lb/>nequaquam retexerentur.</p>
+			</div>
+			<pb n="89"/>
+			<div>
+				<head><lb/>Alloquium ad regem Rogerium</head>
+				<p><lb/>Ecce domine mi Rex Rogerii libellum istum; nemini potius
+					<lb/>destinandum putavimus, quam tibi ipsi, ad cuius quoque gloriam
+					<lb/>et honorem editus constat. Quodquidem idcirco fieri volumus,
+					<lb/>quatenus gesta famosissime victorie tue sepissime relegens,
+					<lb/>memor sis Domini Salvatoris tui Regis Eterni, eique
+					<lb/>placere studeas, cuius benefici munere te triumphasse, regnumque
+					<lb/>obtinuisse non dubitamus. Cuius etiam propter hoc gratias
+					<lb/>agere non cesses, atque cum Psalmista decantes dicens: "Non
+					<lb/>nobis, sed nomini tuo da gloriam". Tanto namque perseverantius
+					<lb/>firmiusque te regnaturum non ambigimus, quanto ab ipso et
+					<lb/>triumphi gratiam et regni decorem te accepisse cognoveris,
+					<lb/>quantoque etiam eius imperiis mente te ipsum subdideris. Preterea
+					<lb/>tuam precamur magnificentiam, ut labor noster, quem huic
+					<lb/>pro honore tuo impendimus opusculo, huiusmodi muneris recompensatione
+					<lb/>sublevetur, quatinus, videlicet nobis in Dei servitio
+					<lb/>iugiter existentibus, substentationem, quietem, pacem,
+					<lb/>seu libertatem continuo prestes; quibus amplius liberius securiusque
+					<lb/>divinum exequentes famulatum, pro tua tuorumque filiorum
+					<lb/>capessenda salute attentius devotiusque orare debeamus.
+					<lb/>Nam si Virgilius maximus poetarum apud Octavianum Imperatorem
+					<lb/>tantum promeruit ut pro duobus, quos ad laudem sui
+					<lb/>ediderat, versibus, Neapolis civitatis simulque provincie Calabrie
+					<lb/>dominatus caducam ab eo recepit retributionem, multo melius
+					<lb/>credimus nos apud te his recompensari, que ad divinum peragendum
+					<lb/>obsequium poscimus; non tantum quidem pro opusculo hoc,
+					<lb/>quantum etiam pro mercede anime tue; nec non et pro Domino
+					<pb n="90"/>
+					<lb/>Salvatore Nostro, in cuius quoque nomine hic congregati sumus,
+					<lb/>et per quem tu ipse huc usque salvus factus presens consecutus
+					<lb/>es regnum. Oramus preterea ipsum Salvatorem Nostrum, ut illud
+					<lb/>in te modo regnante efficiatur operis, per quod et presens et
+					<lb/>futurum promerearis possidere regnum; quorum alterum, id est
+					<lb/>futurum, sine dubio quandoque adipisceris, si bene recteque
+					<lb/>administraveris istud. Quid enim profuit Sauli Israeliticum
+					<lb/>divina voluntate possedisse regnum, cum postea, contemptis
+					<lb/>Eius imperiis, utrumque amiserit regnum? Aut quid etiam profuit
+					<lb/>Romanis Imperatoribus, Octaviano scilicet Augusto, Domitiano
+					<lb/>et Maximino, ceterisque universo imperasse mundo, cummodo
+					<lb/>in inferno sepulti cruciantur ? Ut igitur generalia
+					<lb/>caveri valeant tormenta, de regni honore quo nunc inlustratus
+					<lb/>es, Deum ipsum magnificare ipsique servire, eidem placere
+					<lb/>studeas, qui dedit. Nam sicut condecet, ut quis tibi servitutis debitum
+					<lb/>solvat, ex iis, que a te tenere videtur, ita et oportet ut et tu
+					<lb/>Domino Deo pro iis que tibi contulit, immo commisit, placitum
+					<lb/>ei exhibeas famulatum. Quod si forsitan queretur que sint ea
+					<lb/>quibus bene et recte administrari debeat regnum, Domino concedente
+					<lb/>breviter aperiemus. Regnum igitur bene recteque administrare
+					<lb/>est, cum utrumque tempus et belli et pacis recte gubernatur,
+					<lb/>dum et per legum tramites rerum iniquitates expellas,
+					<lb/>atque armis, victis hostibus, sis triumphator. Memento itaque
+					<lb/>te idcirco Regis nomine censeri, ut omnes sub ditione tua positi,
+					<lb/>et iustitie censura, et pacis vinculo regantur. Ut ergo huiusmodi
+					<lb/>pacis atque iustitie bonum in regno tuo perpetuari valeat
+					<lb/>multum prodest, si tu solus munitiores et inexpugnabiles urbes
+					<lb/>ac fortiora et inexpugnabilia oppida proprio subdideris dominio.
+					<lb/>Revocetur itaque ad mentem tuam laudabilis Constantinopolitani
+					<lb/>imperatoris prudentia, qui pro conservatione eiusdem pacis atque
+					<lb/>iustitie, validioribus terris sibi retentis, ceteris vero, que sub eo
+					<lb/>sunt planiores, immo debiliores terras ad sibi subdendum et obsequendum
+					<lb/>dimittit. Dum itaque ad ipsum simili cautione providendum
+					<lb/>studueris, eris, sicut dicit Salomon, tamquam leo fortissimus
+					<pb n="91"/>
+					<lb/>bestiarum qui ad nullius pavebit occursum; siquidem
+					<lb/>innocentium dormieris securus, quiesces in die antevigilans: ipsas
+					<lb/>etiam vigilias sine trepidatione pertransies. Huiusmodi ergo saluberrimum
+					<lb/>consilium omnia te desiderio amplectetur: et cave ne
+					<lb/>umquam ipsius oblitus pretereas, quoniam scio illud Deo omnino
+					<lb/>esse placitum, et ab eius voluntate non discrepare. Preterea votis
+					<lb/>omnibus suademus Serenitati tue, ut memor condicionis
+					<lb/>tue, in mente habeas Dominum conditorem tuum, ipsumque
+					<lb/>Regem tuum fore cognoscas, qui est Rex Regum omnium,
+					<lb/>Dominus dominantium, in cuius etiam manu omnes fines terre,
+					<lb/>et corda Regum constituunt; cuius solius est disponere tempora,
+					<lb/>regna distribuere eaque auferre quando voluerit; unde solus Ipse
+					<lb/>est colendus, metuendus et adorandus; a quo nimirum preveniente
+					<lb/>nos eius gratia, cum non essemus, habemus esse, vivere et intelligere
+					<lb/>atque moveri. Unde dicit Apostolus: Quid enim habes, quod
+					<lb/>non accepisti? Aut quid gloriaris tamquam non acceperis? Cave
+					<lb/>ergo, ne quando in corde tuo cogitatio subrepens persuadeat
+					<lb/>tibi aliquid sine Eo posse haberi; Ipse enim, qui dedit corpus et animam,
+					<lb/>te nil operante nec etiam sciente, Ipse quippe dedit et
+					<lb/>cetera quecumque habes, etiam si quid in eis visus es operari. Unde
+					<lb/>in Evangelio discipulis suis Veritas dicit: Sine me nihil potestis
+					<lb/>facere. Si ergo discipuli Petrus et Paulus, Andreas ceterique
+					<lb/>Apostoli sine ipso nil potuisse facere credendi sunt, quanto magis
+					<lb/>omnes nos, qui ad comparationem illorum pene nihil sumus? Multi
+					<lb/>quippe, Deo volente, aut permittente, pro Suo velle in hoc seculo
+					<lb/>prosperati sunt; qui postmodum evanescentes in cogitationibus
+					<lb/>suis, hoc ipsum non Deo, sed sibi imputantes, altius corruerunt.
+					<lb/>Ex quibus exstitit unus Nabuchodonosor Rex Babylonis, qui dum
+					<lb/>ambularet in aula regia, subito elevatum est cor eius valde dicens:
+					<lb/>Nonne hec est Babylon magna, quam edificavi in domum regni,
+					<lb/>in robore fortitudinis et in gloria decoris mei? His itaque verbis
+					<lb/>satis manifestum est illum nimis contra Deum superbisse, cum
+					<pb n="92"/>
+					<lb/>Babylonem non in Eius robore atque fortitudine, sed in sua edificatam
+					<lb/>fuisse virtute asseruit. Unde merito statim ipse in amentiam
+					<lb/>versus, de regno suo eiectus est. Atque per septem annos
+					<lb/>cum bestiis agri ad instar ipsarum permansit degens. Postea vero
+					<lb/>Deo volente ad sensum suum reversus, se seque per superbiam
+					<lb/>errasse cognoscens, tandem honori predicto restituitur, atque
+					<lb/>Regem Celi laudavit, glorificavit atque magnificavit, quia omnia
+					<lb/>opera Eius vera, et vie Eius iudicia, et omnes ambulantes in superbia
+					<lb/>potest humiliare. Ut possit igitur superbie lapsus precaveri,
+					<lb/>omnem gloriam et honorem, regnum, virtutem, divitias,
+					<lb/>sapientiam, prudentiam, et cetera omnia, ab Ipso te accepisse
+					<lb/>non dubites, et ut brevius totum comprehendam, nullus omnino
+					<lb/>Angelus in Celo, neque homo in terra exstitit, qui sine Eius
+					<lb/>datione non solum aliquid, sed nec ipsum esse aliquando, habere
+					<lb/>potuerit. Ipse namque solus Deus a Se habet quidquid habet;
+					<lb/>qui a Se, et non ab alio est. Veniat denique ad memoriam David
+					<lb/>sanctus Rex, eiusque imitator fieri studeas, qui dum Israeliticum
+					<lb/>regnum sine ulla contraditione possideret, in cunctis se tamen
+					<lb/>despicit, suisque in oculis humilem esse confitetur, dum coram
+					<lb/>arca Domini saltando diceret: "Ludam, et vilior fiam, plusquam
+					<lb/>factus sum; et ero humilis in oculis meis". Constat itaque, quia
+					<lb/>dum Rex David se primum conspicit per humilitatem, a Deo
+					<lb/>quippe magnus estimatur, atque in regno, quo exaltatus fuerat,
+					<lb/>magis meruit confirmari. Sic etiam Constantinus Imperator, dum
+					<lb/>post baptismatis perceptionem per universum imperaret orbem,
+					<lb/>tante subiectionis erga Deum exstitit, ut eius non desereret imperium,
+					<lb/>et idcirco cum David de regno ad Regnum, et imperio ad Imperium
+					<lb/>Celeste meruit transferri, ad quod videlicet
+					<lb/>Regnum et Imperium suo tempore et tu transferaris cum eisdem
+					<lb/>regnaturus, prestante Domino nostro Jesu Christo, qui cum Patre
+				<lb/>et Spiritu Sancto vivit, et regnat in secula seculorum. Amen.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

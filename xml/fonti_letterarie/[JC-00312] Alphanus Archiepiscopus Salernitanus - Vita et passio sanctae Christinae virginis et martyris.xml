@@ -1,0 +1,861 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vita et passio sanctae Christinae virginis et martyris</title>
+				<author>Alphanus Archiep. Salernitanus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>J.-P. Migne</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4976" unit="words">Parole: 4976</measure>
+				<measure quantity="32184" unit="characters_without_spaces">Caratteri (spazi esclusi): 32184</measure>
+				<measure quantity="36490" unit="characters_witht_spaces">Caratteri (spazi inclusi): 36490</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-08-01">01/08/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 5090
+					Caratteri: 1511
+				SZ</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author/>
+						<title level="m">PL, Joannis Abrincensis primum episcopi, postmodum archiepiscopi Rothomagensis, Alphani, Salernitani archiepiscopi Opera omnia...</title>
+						<editor>J.-P. Migne</editor>
+						<imprint>
+							<publisher>Garnier</publisher>
+							<pubPlace>Paris</pubPlace>
+							<date>1853</date>
+							<biblScope unit="column">1269-1282</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">PLCL</title>
+						<biblScope unit="volume">147</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok.</item><item type="itemNotaJC">-ho sostituito i &lt;pb n="Col. XY"/&gt; con &lt;cb n="XY"&gt; (Si tratta di testi da PL). È giusto?</item><item type="itemNotaJC">-a proposito di PL: come scrivere il &lt;name&gt; in &lt;biblDesc&gt;? Scrivere il nome intero lunghissimo del libro o usare qualcosa come Patrologia Latina 147?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<cb n="1269"/>
+		<div>
+			<p><lb/>[1269A] In claro et exornato triumpho Christinae nobilissimae
+				<lb/>virginis dicere existimavimus aliquid, et ex
+				<lb/>admirandis ejus actibus posteritatis memoriae tradere,
+				<lb/>atque id potissimum prosequi quod, adhuc in
+				<lb/>tenero adolescentiae flore, cum pertinacissimis Christianae
+				<lb/>professionis insectatoribus pro aeterni regis
+				<lb/>amore certando perpessa est. Honor quippe Dei esse
+				<lb/>perpenditur cum haec referuntur; laudes martyribus
+				<lb/>exhibentur, et animae bellatorum ad festiva praelia
+				<lb/>diligentius incitantur. Certissimum est enim in humanis
+				<lb/>dimicationibus feroces animos militum subito
+				<lb/>bellorum timore, vel fragore fortuito exterritos deficientes
+				<lb/>mollescere, ut potius cogantur fugere quam
+				<lb/>arma corripere: at ubi fortissimorum veteres victorias,
+				<lb/>gloriam, decus, libertatem, praeterea sua quoque
+				<lb/>[1269B] clarissima facta meminerint, ex ignavis strenuissimi
+				<lb/>et ferociores subito alterati in confertissimorum
+				<lb/>hostium cohortes insiliunt. Ita quidem in
+				<cb n="1270"/>
+				<lb/>[1270A] certaminis agone divini, cum libidinis tyrannidem
+				<lb/>immanissimis cruciatibus et illecebrosis daemonum
+				<lb/>immissionibus dimicaturi nutaverint, gloriosissimas
+				<lb/>sibi martyrum passiones, et coronas perpetuas post
+				<lb/>victoriam proponentes, maxima spe triumphi decertare
+				<lb/>nituntur. Sic et ipsi post felices conflictus gaudii
+				<lb/>quaesiti adipiscuntur aeterna. Dumque laborum suorum
+				<lb/>meritis in aeterni cubiculi tribunal inthronizantur,
+				<lb/>angelorum comites, amici Dei omnipotentis
+				<lb/>effecti, per triclinia aurora radiantia, et amoenissimos
+				<lb/>campos rosis vernantes, liliis albescentes, violis purpurizantes
+				<lb/>pro distributionis quoque titulo indeficiente
+				<lb/>aetate spatiantur, omnia sunt quieti staturae opportuna,
+				<lb/>omnia delectabili viriditate recentia, quibus in
+				<lb/>pace fruuntur optata. Haec sunt itaque [1270B] praemia, quae
+				<lb/>timidos fieri fortes instigant, haecque instructissimos
+				<lb/>milites divini praelii bellatores dextris suis victorias
+			<lb/>portare [reportare] compellunt.</p>
+		</div>
+		<cb n="1269B"/>
+		<div>
+			<head><lb/>INCIPIT VITA ET PASSIO.</head>
+			<p><lb/>[1269B] Igitur Christina gloriosissima virgo, gente patricia
+				<lb/>Aniciorum exorta, in puerilibus admodum annis veterum
+				<lb/>philosophorum argumentis edocta, in ratione
+				<lb/>dicendi exercitata, poetarum usa carminibus, posse
+				<lb/>subtiliter disputare, civiliter agere, metro ludere
+				<lb/>prae cunctis comitibus videbatur. Ast ubi talibus
+				<lb/>disciplinis est plenius erudita, ineunte adolescentia,
+				<lb/>in qua nimirum maxima exstat dubietas quibus
+				<lb/>quisque velit vivendi studiis implicari, deliberatione
+				<lb/>habita cum duas cerneret vias, unam voluptatis,
+				<lb/>alteram vero virtutis, illam denique quae honestatis,
+				<lb/>decoris ac pudicitiae est cura ferventi ingreditur.
+				<lb/>Erat enim haec puella non solum generis ingeniique
+				<lb/>nobilitate fortunata, sed et pretiosissimae pulchritudinis
+				<lb/>[1269C] specie decorata, ob quam multi eam in matrimonium
+				<lb/>juvenes petiere. Quibus tanquam semper
+				<lb/>adversus taedas jugalis amoris, connubiique illecebras
+				<lb/>perhorrebat. Pater vero ejus, Urbanus nomine, nolens
+				<cb n="1270B"/>
+				<lb/>[1270B] deesse tam laudabili voto filiae, ratus eam vestali
+				<lb/>instinctu perpetua velle virginitate frui, hortatur uti
+				<lb/>cum duodecim ancillis diutina sibi familiaritate conjunctis
+				<lb/>more majorum suorum, quorum beneficia
+				<lb/>plurima in Romana republica essent, diis immortalibus
+				<lb/>debita absque ulla procrastinatione persolvat. At visa
+				<lb/>tametsi de exhibendis caeremoniis patris sanctione
+				<lb/>concutitur, tamen quia penes eumdem si adversaretur,
+				<lb/>cogendi potestas erat; ita sicut censuerat, simulato
+				<lb/>animo promissionem facit. Erat autem turris mirae
+			<lb/>altitudinis miraeque structurae.</p>
+			<p><lb/>His obsequiis destinata, clauditur hic Christina
+				<lb/>cum collactaneis accuratissimis vestibus, et ornamentis
+				<lb/>praecipuis decoratis, quibus Urbanus in
+				<lb/>[1270C] mandatis dat uti sacrificorum ritum magnifice
+				<lb/>doceant, simulque sacrorum numinum majestatem
+				<lb/>accuratissimis dictis extollant; et minatur poenam
+				<lb/>capitis nisi decretis suis paruerint. Stabant autem
+				<cb n="1271"/>
+				<lb/>[1271A] in ea pyramide, a parte occidentis, statuae Jovis et
+				<lb/>Apollinis, utraeque ex auro purissimo fusiles. Cumque
+				<lb/>famulae Dominici mandati memores statuunt ut
+				<lb/>ex condicto sacrificent, prosternentes se ad pulvinaria,
+				<lb/>offerre thura, hortantur dominam ut eadem
+				<lb/>faciat; at illa recusat; rogant, et abnegat; affirmat
+				<lb/>se palam Christi sponsam esse, et ideo manufactis
+				<lb/>simulacris supplicare in perpetuum non debere; ad
+				<lb/>hanc denique vocem comites obstrepunt, vestes
+				<lb/>quibus induebantur repente discindunt, et sese
+				<lb/>manibus lacerantes his in puellam clamoribus invehuntur:
+				<lb/>«Dic age, sacrilega, cujus fiducia in hanc
+				<lb/>declinas insaniam? unde tam reticendum nefas ore
+				<lb/>polluto evomis peritura? Quae te res ad tantam
+				<lb/>obscenitatem impulit? non forma, non genus, non
+				<lb/>[1271B] divitiae deerant; huccine Urbani patris vitae peracta
+				<lb/>studia evasere? Ergone eo miseriarum perducitur,
+				<lb/>ut quam ipse primo ad honorem deorum immortalium,
+				<lb/>inde senatus plebis populique Romani artium
+				<lb/>liberalium disciplinis instrui voluit, per te potissimum
+				<lb/>clarissimi generis sui infamiam et perniciem
+				<lb/>sortiatur? Qui et si nihil saevi criminis alias videatur
+				<lb/>in patria commisisse, tamen quod te talem
+				<lb/>educaverit filiam, meritissime censebitur inter maximi
+				<lb/>reos facinoris. Ad hoc itaque obstinato animo
+				<lb/>dulcissima connubia exsecraris? et illustrissimorum
+				<lb/>juvenum amplexus, quibus nihil ne conjicitur quidem
+				<lb/>dulcius, reformidas, ut homini perdito virginitatis
+				<lb/>tuae insignia perdas? et numina, quibus, si optares,
+				<lb/>usui maximo fores, ad tui poenam exitii perhorrescas?
+				<lb/>[1271C] An te latet quia ex quo tantae calamitatis
+				<lb/>portentum urbem irrepsit, Romani imperii status
+				<lb/>externarum gentium praeliis lacessitus imminuitur,
+				<lb/>variisque calamitatibus mancipatur? Exhibe ergo,
+				<lb/>dum vales, gratum diis obsequium, ne, ad iram
+				<lb/>ulterius provocatis, Augustalis sententiae motu immaturam
+				<lb/>mortem experiaris.»
+				<lb/>Ad haec cum alia maledicta adderent: «Quaeso,
+				<lb/>inquit Christina, quorsum haec corruptionis evadit
+				<lb/>temeritas? Bacchamini multum in dominam, resipiscite
+				<lb/>in hoc; quippe, ut noscitis, Minerva nihil
+				<lb/>docet. Servata disputantium consuetudine alternis
+				<lb/>ad comprobandam rei veritatem obtemperando doctorum
+				<lb/>testimonio procedamus.» Et illae: «Si potes,
+				<lb/>[1271D] inquiunt, tu prior quid censes agendum aggredere.»
+				<lb/>At puella, ut erat oratorum studiis accensa, ita sibi
+				<lb/>eas affectare benevolentiae locis primo conata est.
+				<lb/>«Meministis, sociae, quanta in prosperis et adversis
+				<lb/>utrorumque communicatur erga vos exitium, quod
+				<lb/>etiam neque animo, neque corpore a vobis abfuerim.
+				<lb/>Saepius ego mecum proposueram uti, post patris
+				<lb/>matrisque extrema, totius patrimonii summam,
+				<lb/>famam tamen intelligere meam, caeterum usum et
+				<lb/>procurationem ejus penes vos esse, avos mihi parentum,
+				<lb/>vos affinium loco ducere. Praeterea haec,
+				<lb/>quae prae manibus sunt, monilia, dextrocheria,
+				<lb/>annulos praefulgentibus gemmis mirabiliter insignitos,
+				<lb/>vestes purpureas, et auro purissimo redimitas,
+				<lb/>omniaque, quibus regiae proles mirifice adornantur,
+				<cb n="1272"/>
+				<lb/>[1272A] eadem mihi et vobis fore imperavi. Spem, fortunam,
+				<lb/>dominationem, consilii mei summam arbitratui vestro
+				<lb/>commisi, atque ideo, quod fides vestra admodum
+			<lb/>mihi opportuna jamdudum spectata fuerat.</p>
+			<p><lb/>Si quid horum forte inficiamini, reipsa in propatulo
+				<lb/>constituta convincam.» At comites plura dicere
+				<lb/>cupientem, talibus aggressionibus appetunt. «Facilius
+				<lb/>clavem de manu divellere valebis Herculea,
+				<lb/>quam nos, a cunabulis devote numinibus sacra
+				<lb/>solventes, tuis ferventibus in arte rhetorica studiis
+				<lb/>Christianae sectae absque promissa disceptatione
+				<lb/>adjungere Tantum si in deorum divinitate aliquo
+				<lb/>modo haesitas, sit a Jove principium, quod si omnipotentem
+				<lb/>non esse poetarum vel philosophorum
+				<lb/>testimoniis comprobaveris, quandoquidem tum de
+				<lb/>[1272B] caeteris reticendum est, tuis jam assertionibus nos
+				<lb/>assentire amota dubitatione videbis; sin autem hoc
+				<lb/>asserere forte nequiveris, aequitatis ratiocinatio
+				<lb/>praestat ut pari modo deorum nostrorum una nobiscum
+				<lb/>subdaris imperio.» Sapientissima virgo
+				<lb/>respondit: «Sit juxta vestram sententiam; rem,
+				<lb/>quam modo dictura sum, puto, corde tenetis; sed
+				<lb/>in auctoris sententiam pedibus ire ad praesens fastiditis.
+				<lb/>In illo namque libello Apuleii, qui de Deo
+				<lb/>sacratis titulatur, in quo propter incredibilem copiam
+				<lb/>suavitatemque dicendi saepe et multum studere
+				<lb/>solebamus, non solum de impotentia Jupiter, verum
+				<lb/>etiam de commissis ad posse sceleribus apertius
+				<lb/>inflammatur. Nam cum iste vester omnipotens
+				<lb/>summae potestatis gloria Cretensium regno potiretur
+				<lb/>[1272C] (sic enim ibi accepimus). Ascribatis filio magna vi,
+				<lb/>multoque labore oppugnatus, dum resistere nequit,
+				<lb/>solio expulsus abscedit. Et quia ludibrio a suis complicibus
+				<lb/>habebatur, diu sua indagatione incertus
+				<lb/>tamen habitis auspiciis sese empireum injecit, diis
+				<lb/>sacrificia exhibuit, eosque postulat sibi opitulari,
+				<lb/>quibus suffragantibus hostis devincitur, et ita Jupiter
+				<lb/>exstitit laureatus. Plane, ut reor, mecum
+				<lb/>acuminatis eum de impossibilitate satius posse
+				<lb/>notari, qui regnum, quod suo juri vindicaverat,
+				<lb/>bellis aperte convinctis, hosti reliquit, et qui eum
+				<lb/>cum quo manus conferre solus erubuit, aut certe
+				<lb/>timuit, auxiliis alienis, quem fletibus obtinuit
+				<lb/>interficit.» Et paulo post idem Apuleius de incestuosis
+				<lb/>[1272D] ejus facinoribus ita orditur. «Expergiscimini
+				<lb/>pulcherrimae matrum familias; Liberi quidem patris
+				<lb/>feriae mense sequenti subintrant, certe vicissim
+				<lb/>illius simulacrum per rura, per compita, imo per
+				<lb/>urbem. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+				<lb/>. . . . . . . . . . . . . . . . . . . . . . . . . . . . Marcus etiam
+				<lb/>Varro quid de hac cui supplicatis, Vesta in digestis
+				<lb/>suis affixerit, satis legentibus patet. Vesta, inquit,
+				<lb/>quae nuperrime virginitatis privilegio gloriabatur,
+				<lb/>Jovis adulterio incestata, cum de ejus corruptione
+				<lb/>quaestio vereretur, corruptionis suae instinctu cribrum
+				<lb/>de aqua implevit Tiberis, et quia non perfluit
+				<lb/>facti abstulit controversiam. O delirum caput! o
+				<lb/>hominem totius sceleris faece pollutum! o exsecrabile,
+				<lb/>et omni oppletum deformitate monstrum! violentiam
+				<cb n="1273"/>
+				<lb/>[1273A] non sponte perpessus hujusmodi cessit; filiae
+				<lb/>pudorem rapuit, Agenoream prolem tauri imagine
+				<lb/>delusit, omne etiam, quod sibi collibuit, scelus
+				<lb/>admisit, et divinitatis sibi majestatem opinione
+				<lb/>impia usurpare non puduit. Ecce quali quantoque
+				<lb/>Deo arcem etiam Capitolinam Romani observandam
+				<lb/>se commendasse gaudebant; sed ubi invisarum gentium
+				<lb/>potestati urbs tota nocte intempesta dedita
+				<lb/>est; illud certe clarissimi imperii domicilium esset
+				<lb/>cum eodem custode captum, nisi vigiles anseres
+				<lb/>Jove incautius dormiente arcis custodes excitassent.
+				<lb/>Unde mirum est tam cordatos homines in hujuscemodi
+				<lb/>postmodun culturis decipi potuisse. Sed quia
+				<lb/>jam de illustrium virorum testimoniis, de impotentia
+				<lb/>ac turpitudine Jovis proposita ratio mihi
+				<lb/>[1273B] videtur ad unguem perducta, vos, si quid ad haec
+				<lb/>opponendum putatis, ut dicta confirmaturae objicite.»
+				<lb/>Et illae: «Evidentissime, inquiunt, rationis judicio a
+				<lb/>divinitate temere affectata, noster tigrellus excluditur;
+				<lb/>nos autem nihil opponimus; solum posthac
+				<lb/>quid divinitatis de Christo autumas, nobis a te
+				<lb/>poscimus luculentissime explanari.» Christina dixit:
+				<lb/>«Satis probe, superstitionis errore supploso,
+				<lb/>omnipotentis Dei divinitatem exquiritis, ut quae a
+				<lb/>fescenninis errorum tenebris mente obductae caecutitis,
+				<lb/>veri luminis, qui Christus est, aeternaliter
+				<lb/>resplendeatis. Exbibete itaque animos ad ea quae
+				<lb/>flagitatis, et me simpliciter perorantem diligenter
+				<lb/>attendite. Dominus Jesus Christus, de cujus divinitate
+				<lb/>me famulam suam scienter inquiritis, verus
+				<lb/>[1273C] Deus est ante mundi originem, ex Deo vero genitus,
+				<lb/>per quem omnia facta sunt, non adoptivus, nec
+				<lb/>phantasticus, sed consubstantialis, et coessentialis
+				<lb/>Patri omnipotenti unigenitus Filius. Qui post multa
+				<lb/>a condito mundo annorum curricula, non coactus,
+				<lb/>sed sua et Patris voluntate ad liberandum genus
+				<lb/>humanum, originali vinculo irretitum, quod primi
+				<lb/>parentis culpa, diabolico instinctu contracta, ab illa
+				<lb/>angelorum felicitate perpetua in barathrum aeternae
+				<lb/>mortis inciderat, de coelis in uterum Virginis venit,
+				<lb/>et quem coeli ambitus, orbisque totius capacitas
+				<lb/>capere nequit, angusto utero Virgo pertulit. Ex qua
+				<lb/>carne nostrae mortalitatis indutus, perfectus Deus
+				<lb/>et homo periclitanti mundo se praebuit; ab hominibus
+				<lb/>quidem visus, et cum hominibus conversatus,
+				<lb/>[1273D] peccatorum et publicanorum amicus, et pauperum
+				<lb/>piscatorum comes effectus, de quibus fecit apostolos,
+				<lb/>quos constituit patriarchas, praecones veritatis,
+				<lb/>judices saeculi. Et ut vobis quod praedico melius
+				<lb/>innotescat, hunc ad cujus vestigia supplicandi gratia
+				<lb/>ex toto orbe concurritur, piscatorem quondam
+				<lb/>hamo parvoque reti contentum, principem mundi et
+				<lb/>coeli clavigerum adornavit. Talibus utique ministris
+				<lb/>majestatis suae secreta aperuit, et eosdem sua
+				<lb/>praedicatione docuit humanitatem, daemonum exorbitatam
+				<lb/>illecebris, in Creatoris sui gratiam revocare;
+				<lb/>et, ut fides exhiberetur dictis, virtus que divinitatis
+				<lb/>claresceret, leprosos mundavit, paralyticos curavit,
+				<lb/>caecos illuminavit, mortuos suscitavit. Postremo ne
+				<cb n="1274"/>
+				<lb/>[1274A] solum hoc ad libertatis nostrae parvipenderetur
+				<lb/>auxilium, spontaneum crucis assumpsit patibulum;
+				<lb/>moritur vitae Dominus; mundi gloria tumulatur;
+				<lb/>terra concutitur, sol obscuratur, legem non servant
+				<lb/>elementa naturae, quorum Dominus est crucifixus.
+				<lb/>Claudebatur in sepulcro caro, et divinitatis suae
+				<lb/>potentia frangebat claustra inferni. Concurrunt ad
+				<lb/>eum populi, tot saeculorum spatiis continua morte
+				<lb/>damnati. Adest primus parens terrigenum, et primordii
+				<lb/>sui agnoscit indicium; obsecrant unanimiter
+				<lb/>Creatorem suum, atque ad se excusandos praevaricationis
+				<lb/>ostendunt principium. Motus interea Dominus
+				<lb/>aeternis vinculis humani generis alligat inimicum,
+				<lb/>et eos quos voluit secum deducens, ad
+				<lb/>corpus rediit, ac tertia jam die, sicut discipulis
+				<lb/>[1274B] suis praedixerat, surrexit. Post quadraginta vero
+				<lb/>dies ad coelos, unde venerat, cum corpore manifestissime
+				<lb/>rediit. Comprobat hoc certissime intemerata
+				<lb/>sanctorum apostolorum auctoritas qui veritatis
+				<lb/>amore felici morte damnati sunt. Testantur id et
+				<lb/>gloriosissimi martyres, qui, inter equuleos flammasque
+				<lb/>victores, Creatorem omnium rerum praedicare
+				<lb/>non metuunt. Hi autem dum haec astruunt,
+				<lb/>animos audientium ad coelestia regna compellunt,
+				<lb/>et hanc, quae tantum dicitur vita, penitus contemnentes,
+				<lb/>aliam, ignaram mortis, et quae finiri non
+				<lb/>novit, acquirunt. Ad quam procul dubio, si volueritis,
+				<lb/>et vos, dulcissimae comites, ire poteritis.» Et
+				<lb/>illae: «Volumus modo; divinitatis potentiam omnes
+				<lb/>valde miramur, sed maxime de tali tantoque
+				<lb/>[1274C] pietatis genere obstupescimus; inenarrabilis, ut nobis
+				<lb/>videtur, et exstat haec pietas, ac totius mundi
+				<lb/>fabricae nostro quidem judicio incomparabilis. Age
+				<lb/>ergo, et quod tibi ad tantum gaudium obtinendum
+				<lb/>Christiana professio expetit, secura nobis sine mora
+				<lb/>exsequere.» At Christina, prudentissima virgo,
+				<lb/>tanti tripudii hilaritate perfusa, ad simulacrorum
+				<lb/>imagines citissimo se cursu proripuit, et virgula,
+				<lb/>quam manu gestabat, Jovem primitus feriens.
+				<lb/>«Experire in me, ait, si quas habes vires, teque si
+				<lb/>potes ab illata tibi injuria consueto more ulciscere.»
+				<lb/>Cumque hoc alternando unicuique inferret
+				<lb/>opprobrium, omnia simul arripiens in unum coacervavit,
+				<lb/>seque cum illis proxima videlicet nocte
+				<lb/>parvorum adminiculo resticulorum per fenestram
+				<lb/>[1274D] dimisit, Christianis latentibus quidquid erat exhibuit,
+				<lb/>atque per manus eorum egenis erogando distribuit.
+				<lb/>His itaque peractis, gressus unde tulerat retulit,
+				<lb/>et comitibus, quae gesserat, ordine intimavit. Interea
+				<lb/>dum res taliter ageretur, magna militum stipante
+				<lb/>caterva. eo quod urbis praefecturam agebat, Urbanus
+				<lb/>advenit; festus enim apud eos dies tunc agebatur.
+				<lb/>Dumque in Apollinis stipitem intenderet, ut ei, ad
+				<lb/>quem venerat, thura incenderet, simulacrum nullum
+				<lb/>videt; magnaque diu admiratione attonitus
+				<lb/>primum decenter filiam, ubi essent, interrogat. Ad
+				<lb/>quem Christina: «Pro culmine honoris tui unigenitum
+				<lb/>Filium Dei semper colui, et pro valetudine
+				<cb n="1275"/>
+				<lb/>[1275A] totius reipublicae Christum, qui in coelis est, adoravi;
+				<lb/>cujus instinctu, cujusque fiducia perniciosissimum
+				<lb/>esse existimans sceleratissimis et miserrimis homuncionibus
+				<lb/>divinitatis majestatem ascribere, atque
+				<lb/>eorum supplicando simulacris, Creatorem omnium
+				<lb/>rerum offendere, statui ea manibus meis confringere,
+				<lb/>et quidquid inerat argenti vel auri pauperibus
+				<lb/>erogare; idque nocte transacta peractum est.»
+				<lb/>Urbanus autem ad haec nullo modo assensum praebere
+				<lb/>poterat, quod ostii obseratione, et excelsae
+				<lb/>turris altitudine ad eam hominibus negabatur ingressus.
+				<lb/>Cumque secum plurima volveret, et prae nimio
+				<lb/>dolore obstinata per domum mente incederet, casu
+				<lb/>fenestrae incumbens, videt repente resticulos, quibus
+				<lb/>abinde hujusmodi facti conferebatur fides. Tunc
+				<lb/>[1275B] immensa accensus ira, et ultra quam parentibus
+				<lb/>conveniat in liberos saeviens, alapis et calcibus
+				<lb/>mitissimam prolem aggreditur. Suggerebant autem
+				<lb/>milites circumstantes, uti eam paterne afficeret, et
+				<lb/>suasoriis insinuationibus, quid in re esset exquireret,
+				<lb/>simulate addentes non esse verisimile feminam,
+				<lb/>tam solertem, tamque in Romanis legibus eruditam
+				<lb/>ejusmodi patri voluisse inferre injuriant, unde jure
+				<lb/>civili testamento paterno exhaeres merito scriberetur,
+				<lb/>sicque rebus privata haereditariis improvide
+				<lb/>aut voluntarie sibi obesse videretur. Beata Christina
+				<lb/>respondit: «Si hoc leges constituunt, hoc volunt,
+				<lb/>ad hoc spectant, ut omnes, qui opprobria patribus
+				<lb/>ingerunt, eorum possessione priventur, vestra
+				<lb/>sententia jure plectemini, qui, a vestro Creatore
+				<lb/>[1275C] divisi, qui ad similitudinem suam creavit, daemonibus
+				<lb/>vos ultroneos exhibetis. Ego vero ejus haereditatem
+				<lb/>jure obtineo, in qua mihi cohaeres Christus
+				<lb/>est, concives angeli, consortes apostoli, consocii
+				<lb/>martyres, amici confessores, affines virgines; ubi
+				<lb/>nullus mihi subrogabitur haeres, nullus praetor poterit
+				<lb/>bonorum possessionem adimere, nullus audebit
+				<lb/>exactor pensitatione vexare fiscali.» Urbanus dixit
+				<lb/>ad haec: «Resipisce, temeraria, et ab intentione
+				<lb/>nefaria animum averte; afferto deos, quos abscondisti,
+				<lb/>et libato eis, alioquin in membris tuis tanta
+				<lb/>poenarum genera experieris, quanta te in alienis
+				<lb/>solum vidisse terreris.» Beata Christina repondit:
+				<lb/>«Deos tuos desine ulterius, Urbane, perquirere;
+				<lb/>cum quid de eis laudabiliter gestum sit recognoveris,
+				<lb/>[1275D] tam male animatus, atque immemor sui, ut in
+				<lb/>pretiosissimo metallorum nitore daemonum imagines
+				<lb/>caelatas patiatur, et non qua potest celeritate tam
+				<lb/>nefanda monstra eliminet.» Urbanus dixit: «Ergone
+				<lb/>fortissimi Jovis imaginem auream delesti?» Beata
+				<lb/>Christina respondit: «Ego totam massam tali pollutione
+				<lb/>dedecoratam in frusta distribui, ne et ea
+				<lb/>. . . . Jovis effigiem insensatam deleverim.»
+				<lb/>Mox Urbanus incredibili furore correptus: Extendite
+				<lb/>eam pronam, inquit militibus, et atrociter
+				<lb/>fustibus castigetur, ut animadvertatur quanto exitio
+				<lb/>digna sit, quae deos immortales atroci injuria violaverit.
+				<lb/>His jussis duodecim, qui vicissim parerent electi,
+				<cb n="1276"/>
+				<lb/>[1276A] illico divino examine retroactis vestigiis, quasi passibus
+				<lb/>senis vicino parieti adhaeserunt, ut profecto
+				<lb/>tyrannus agnosceret milites a puellari caede expulsos
+				<lb/>viribus alienis cessisse. Tunc beata Christina
+				<lb/>hac valde admiratione secura ait: «Agnoscis poenas
+				<lb/>tuas inefficaces, Urbane; perpendis milites quanta
+				<lb/>in me possunt uti credulitate; occurrant dii, et
+				<lb/>quia pro se certantibus nequeunt suppeditare auxilium,
+				<lb/>ipsi sibi opitulentur; experiantur in me si
+				<lb/>quam habeant divinitatis potentiam; quia eis non
+				<lb/>parvum intuli dedecus; quos dictis confutando
+				<lb/>contempsi, contemnendo delusi, deludendo confregi;
+				<lb/>quibus oculos erui, quibus ora nefanda obstruxi,
+				<lb/>quibus pedes fugaces abscidi, brachia fregi,
+				<lb/>sine actu membra comminui.» Audiens hoc Urbanus,
+				<lb/>[1276B] nimio moerore confusus, ferreis vinculis colla
+				<lb/>delicata constringit, et in inferiori parte carceris
+				<lb/>loco quodam subterraneo clausit, ac se inde domum
+				<lb/>proripiens, ibique furibundus secum multa
+				<lb/>revolvens, quod insperatae rei malus eventus incurrerat,
+				<lb/>conjugi tristitiae causam poscenti rem aperit,
+				<lb/>filiam Christianam effectam multis astantibus patefecit.
+				<lb/>Fit amicorum repente conventus, et matronarum
+				<lb/>maximus undique cursus; concrepat domus
+				<lb/>diversis dolorum turbata generibus, virorum
+				<lb/>ac mulierum, amicorum, et familiae repleta lamentis.
+				<lb/>Dum haec apud eos geruntur, beatissima Christina
+				<lb/>aliquantisper orationi incubuit, obsecrans uti ei Dominus
+				<lb/>contra diabolicas acies impenetrabile scutum
+				<lb/>[1276C] fidei conferat. Oratione autem facta, subito cum
+				<lb/>exsiliret, ante oculos ejus juvenis splendidissimus
+				<lb/>igneo splendore circumfusus apparuit; cui haec
+				<lb/>dixit: «Misit me dominus Jesus Christus, cujus te
+				<lb/>famulam toto corde confessa es, ut sim tibi aeternae
+				<lb/>salutis galea, et impenetrabilior ab omni immissione
+				<lb/>lorica:» et haec dicens, panem, quem secum detulerat
+				<lb/>obtulit, eique ut comederet imperavit. Deinde,
+				<lb/>brevi peracto spatio, ecce mater muliebri fragilitate
+				<lb/>remissior, sparsis crinibus, veste discissa, luto coenoque
+				<lb/>volutata, ad ejus quippe calamitatis locum
+				<lb/>advenit, filiamque catenis innexam ferreis conspexit.
+				<lb/>Hinc irremediabilis cruciatus, hinc incomparabilis
+				<lb/>luctus, hinc dolor oritur inauditus; confluitur ex
+				<lb/>urbe tota ad tam exitiale spectaculum; quid agat
+				<lb/>[1276D] miserenda anus, quo se vertat incerta est. Appellare
+				<lb/>filiam incipit, sed intercipit anhelitus vocem; quid
+				<lb/>velit ignorat, quidquid factura videtur displicet.
+				<lb/>Videt in gyro dispositas sedere matronas, et unamquamque
+				<lb/>nominans appellat, rogat, obsecrat,
+				<lb/>obtestatur uti materna pietate motae filiam sibi
+				<lb/>unicam reddant. Adeunt itaque illae beatissimam
+				<lb/>Christinam, et verbis eam suasoriis taliter occupant:
+				<lb/>«Repugnant, Christina, virtuti scientiaeque
+				<lb/>quam de te opinabamur, vincula quibus innecteris;
+				<lb/>ut et cernimus, tuum exornatissimum studium nobilitate
+				<lb/>tua indigna obscoenitate foedasti; videtur de
+				<lb/>te congrue dici vulgare illud proverbium: Quanto
+				<lb/>altior gloria post triumphum, tanto inferior ignominia
+				<cb n="1277"/>
+				<lb/>[1277A] post ruinam. Unde tibi tam ferreum pectus?
+				<lb/>an te ferae genuere tigrides, Gorgonei aluere parentes?
+				<lb/>solam namque hominis exterius indutam
+				<lb/>figuram, intus portentosam deprehenderis gerere
+				<lb/>feritatem, dum quae te genuit matrem tu magni
+				<lb/>causa doloris facis esse ostentui. Placetne eam tantis
+				<lb/>incitatam furiis circumspectantium oculis ludibrio
+				<lb/>haberi? Quod si aliis, quae multae sunt causae, vel
+				<lb/>blanditiis, quibus te pusiolam fovit, convenit, moveare.
+				<lb/>Per caput hoc speciosiss. perque corpus omni
+				<lb/>formitate decorum te deprecamur ab hac impietate
+				<lb/>desistere, et matri jam periclitanti remedium consolationis
+				<lb/>afferre.» Quibus beata Christina paucis
+				<lb/>respondit: «Breviter ac copiose de obsequiis parentibus
+				<lb/>exhibendis perorastis, meque impietatis in
+				<lb/>[1277B] matrem arguistis, quaeque dicenda verborum ac
+				<lb/>sententiarum coloribus arte mihi non incognita
+				<lb/>distinguentes. Caeterum divinae leges sanciunt quod
+				<lb/>quicumque dilexerit patrem, aut matrem, aut fratres,
+				<lb/>aut sorores, aut filios plusquam Deum, Deo
+				<lb/>dignus non sit. Qua de re consequitur ut pietas
+				<lb/>quam in matrem habendam suadetis, impiam in Dominum
+				<lb/>facit famulam, atque ita hoc pietatis genus
+				<lb/>vera intuentibus censetur impietas.»
+				<lb/>Postquam vero animum ejus mutare nullo modo
+				<lb/>queunt, domum cum matre redeunt multiplicibus
+				<lb/>aucta doloribus. Deinde ubi Urbanus ex iis qui
+				<lb/>interfuerant filiam sibi non consensuram accepit,
+				<lb/>reminiscitur Fulvii cujusdam senatoris filii, quem
+				<lb/>retractum ex itinere qui cum Catilina conjuraverat
+				<lb/>[1277C] pater necari jussit, et maximo praefecturae suae
+				<lb/>monimento fore existimans si id consimiliter faceret,
+				<lb/>jussit eam suis exhiberi conspectibus. Ducitur
+				<lb/>autem Christina sanctissima ferreis nexibus
+				<lb/>illigata ante oculos spectantium quid rei hujusmodi
+				<lb/>statueret exitus: clamor undique grandis attollitur
+				<lb/>contra salutem reipublicae innocentem videri absque
+				<lb/>legali discussione damnari. At simul ut ventum ad
+				<lb/>tyranni aspectum, tali eam ille allocutione aggressus
+				<lb/>est: «Longe melius, Christina, ageres, si saluti
+				<lb/>tuae, qua tibi nil debet videri utilius, meditando
+				<lb/>consuleres. Non esse mihi videtur jure temerario
+				<lb/>animo mortem appetere, bono et utili modis omnibus
+				<lb/>repugnare.» B. Christina respondit: «Non
+				<lb/>omne quod tibi videtur, ita esse necesse est. Alioquin
+				<lb/>[1277D] tuus, quem colis, Jupiter, deus esset, quem
+				<lb/>nego, inque hac sententia mori honestum duco.»
+				<lb/>Urbanus dixit: «Duo sunt quae te velim mihi ostendere,
+				<lb/>unum Jovem deum non esse, alterum, tibi
+				<lb/>mori honestum, quae manifestissime peto ut doceas.»
+				<lb/>B. Christina respondit: «Quicunque sani capitis
+				<lb/>esse perpenditur, nullum alium Deum esse intelligit,
+				<lb/>nisi qui omnia fecit.» Urbanus dixit: «Hoc nullus
+				<lb/>vivens ignorat.» B. Christina dixit: «Constat
+				<lb/>ergo omnia fecisse Jovem, si deus est.» Urbanus
+				<lb/>dixit: «Liquido patet.» B. Christina dixit: «Si
+				<lb/>omnia fecit, aliquid absque eo nullatenus fieri potuit;
+				<lb/>at Saturnus, qui illum genuit, fieri absque eo potuit;
+				<lb/>non ergo Jupiter omnia fecit. Deum igitur non
+				<cb n="1278"/>
+				<lb/>[1278A] esse Jovem manifestissima ratione colligitur. Ecce
+				<lb/>habes quod quaesisti; confitearis oportet quod sine
+				<lb/>contradictione tua necessario conclusum est. Alterum
+				<lb/>vero, quod similiter ostendi tibi postulasti evidentissima
+				<lb/>ratione monstrabo, si quae refellere non
+				<lb/>vales veracissime prolata iis praesentibus itaque
+				<lb/>veris.» Urbanus dixit: «Non est in post quaesita
+				<lb/>facienda digressio, ubi prioris quaestionis argumenta
+				<lb/>possit pars diversa reprehendere; prioribus itaque
+				<lb/>insistens, paucorum commutatione verborum, quod
+				<lb/>in me torsisti, in te retorquendo rationem tuam
+				<lb/>redarguam. Dic ergo, Crucifixus tuus, quem unigenitum
+				<lb/>Filium Dei esse praedicas, Deus est, omnia
+				<lb/>fecit; si omnia fecit, nihil fieri absque eo potuit;
+				<lb/>sed genitor suus, quem ipse non fecit, fieri absque
+				<lb/>[1278B] eo potuerit, et ita omnia non fecisse, Deumque non
+				<lb/>esse, pari demonstratione convinceris.» B. Christina
+				<lb/>respondit: «Deum creatorem esse intelligis, an
+				<lb/>creaturam?» Urbanus respondit: creatorem B.
+				<lb/>Christina respondit: «Creatorem omnium creaturarum,
+			<lb/>an aliquarum?» Urbanus respondit: omnium.</p>
+			<p><lb/>B. Christina respondit: «Si cum Deus creatura
+				<lb/>non est, creator est omnium creaturarum cum
+				<lb/>Pater et Filius Deus sit, nec Pater creator est Filii,
+				<lb/>nec Filius creator est Patris. Ita quidem unigenitum
+				<lb/>Filium Dei omnia non fecisse, quod Patrem suum
+				<lb/>non fecerit, atque ideo non esse Deum, videris,
+				<lb/>omni semota ambiguitate, mentitus; liquet ergo
+				<lb/>unigenitum Dei Patris omnipotentis Filium et Deum
+				<lb/>esse, et cuncta creasse, licet Patrem suum non
+				<lb/>[1278C] fecerit.» Urbanus dixit: «Omnia haec convenientius
+				<lb/>de Saturno et Jove dicta sumuntur, quibus omnia
+				<lb/>quae facta sunt obediunt, quibus etiam disponentibus
+				<lb/>cuncta a principio gubernantur.» B. Christina
+				<lb/>respondit: «Falleris, praefecte, erras, judex perite;
+				<lb/>dicis eorum dispositione a principio omnia gubernari,
+				<lb/>ante quos et multa millia hominum fuisse et
+				<lb/>tempora plurima exstitisse compertum est, ut poetae
+				<lb/>narrant, probantque philosophi. Disce eos homines
+				<lb/>fuisse, non deos, incestuosos, homicidas: propterea
+				<lb/>in tartara retrusi; te et alios cultores suos perpetuis
+				<lb/>ignibus secum exspectant arsuros.»
+				<lb/>Tunc Urbanus impietatis furiis exagitatatus,
+				<lb/>jussit afferri rotam, et gladios acutissimos superaptari,
+				<lb/>et ignem copiosum subter accendi. Cumque
+				<lb/>[1278D] ex tyranni decreto B. Christina tanto crudelitatis
+				<lb/>generi incurvaretur, dum rota revolvitur, corpus
+				<lb/>ejus. pretiosissimum scinditur et exuritur. Tunc
+				<lb/>tyrannus cum fautoribus suis ei insultans ait: «Constans
+				<lb/>esto, Christina, noli pertimescere pro Crucifixo
+				<lb/>hoc sustinens, qui noluit, cum potuit, de cruce
+				<lb/>descendere.» B. Christina respondit: «Nunc miser
+				<lb/>infelix ausculta: quanto sunt humiliora quae pro me
+				<lb/>passus est, tanto illi plus debeo; et cum omnia in me
+				<lb/>tormentorum genera consummaveris, Crucifixum
+				<lb/>laudabo, mihi autem absit gloriari nisi in cruce D.
+				<lb/>N. Jesu Christi! (Galat. VI, 14) in qua de hostibus
+				<lb/>triumpho, quam adversantibus cunctis objicio.»
+				<lb/>Haec illa prosequente, rota eversa est, et contrivit
+				<cb n="1279"/>
+				<lb/>[1279A] circumstantium maximam infidelium partem. Praefectus
+				<lb/>illico, ingenti terrore attonitus, dimisit conventum,
+				<lb/>et carceralibus illam custodiis mancipari
+				<lb/>praecepit. Ingressa autem B. Christina obscurissimum
+				<lb/>carceris locum, angelus ei Domini quasi sol
+				<lb/>meridianus apparuit, et dixit ad eam: «Misit me
+				<lb/>Dominus Jesus Christus, pro cujus amore gravia
+				<lb/>passa es, ut membris tuis conferam sanitatem.» Et
+				<lb/>cum haec diceret, ita solidata sunt omnia vulnera
+				<lb/>ejus, ut nullum in eis signum incisionis remaneret.
+				<lb/>Nocte autem subsequente Urbanus optimum factu
+				<lb/>credens iterum illius animum dulci colloquio et
+				<lb/>blanditiis ad deorum culturam revocare, fecit eam
+				<lb/>suis obtutibus praesentare; cumque ab ea nullum
+				<lb/>penitus potuisset extorquere responsum, immensis
+				<lb/>[1279B] eam alligatam ponderibus pelagi fluctibus destinavit;
+				<lb/>sed cum eam in medio mari nautae praecipitem darent,
+				<lb/>angelicis adjuvata suffragiis, alacris ad littus delata
+				<lb/>est. Urbanus interea arreptus a daemonio
+			<lb/>exspiravit.</p>
+			<p><lb/>Post non multum vero temporis, cum iniquissimus
+				<lb/>Idion Urbani loco praefectus eligeretur, B. Christina
+				<lb/>a persecutoribus coarctatur, et Solis simulacro sacrificare
+				<lb/>compellitur. Quibus cum consentire nollet,
+				<lb/>perditissimo judici praesentatur, ad quam saeviens
+				<lb/>praefectus dixit: «Tu ne es Christina quae omnipotentes
+				<lb/>deos nostros saepius philosophando deludis?»
+				<lb/>B. Christina respondit: «Justum est nec in nullo
+				<lb/>obviat rationi ut quae merito contemnenda sunt deludantur,
+				<lb/>et quae vana sunt pro nullis penitus habeantur.
+				<lb/>[1279C] Vos vero non deos, sed daemones, non coelicolas,
+				<lb/>sed homines impuros et flagitiorum immanitate
+				<lb/>in inferno damnatos in mettallicis simulacris adoratis.»
+				<lb/>Praefectus his verbis commotus extemplo
+				<lb/>jussit eam fustibus caedi, ac deinde vas aeneum ad
+				<lb/>instar cunae figuratum sub magna celeritate afferri,
+				<lb/>quod milites, ex praefecti imperio, oleo, pice, resina
+				<lb/>et sulfure replevere, et ad ignem, ut calefacta liquescerent,
+				<lb/>posuere, cunique ex nimio calore commista
+				<lb/>fervescerent, praefectus dixit: «Unum tibi
+				<lb/>e duobus, o puella, elige, aut deo colitura incende,
+				<lb/>aut corpus tuum tam delectabili rore perfunde.»
+				<lb/>B. Christina signum sibi gloriosissimae crucis impressit,
+				<lb/>et se in ollam ferventem citissimo cursu
+				<lb/>projecit. Mox cuna disrumpitur, et quidquid in ea
+				<lb/>[1279D] fuerat foras per scissuras deducitur, beata quidem
+				<lb/>Christina incolumis perseverans erigitur. Praefectus
+				<lb/>illico indignatus fecit eam nudam torqueri, et raso
+			<lb/>capite ad templum Solis perduci.</p>
+			<p><lb/>Erat autem in medio templi tribunal argenteis parietibus
+				<lb/>in sublime erectum, cujus fastigia ebore
+				<lb/>nitidissimo tegebantur, in quo aurea solis imago
+				<lb/>micantibus e caesarie radiis coruscabat, quae quasi
+				<lb/>stellarum repetendo zodiacum cursu citissimo ferebatur.
+				<lb/>Signa quippe sex a dextris, totidemque a sinistris
+				<lb/>occidere et exsurgere alternatim bina quaeque
+				<lb/>sibi ex adverso obsistentia videbantur: ibi horae, ibi
+				<lb/>dies, ibi menses, ibi annus suis spatiis
+				<lb/>circumibant;
+				<cb n="1280"/>
+				<lb/>[1280A] Aureus axis erat, radiorum argenteus ordo,
+				<lb/>Per juge chrysolithi fulgebant ordine ducti.
+				<lb/>Ad hoc spectaculum B. Christina adducitur, data
+				<lb/>a praefecto sententia ut, si deo soli sacrificare renuisset,
+				<lb/>statim gladio interiret. B. igitur Christina
+				<lb/>illico poposcit silentium, et erectis ad sidera manibus,
+				<lb/>oratione Dominum hujuscemodi deprecata est:
+				<lb/>«Rex invictissime, Pater omnipotens, Deus immense,
+				<lb/>qui rudem et indigestam materiem in quatuor
+				<lb/>elementa conformans perfectis partibus perfectam
+				<lb/>mundi constitutionem mirabiliter operatus es,
+				<lb/>quique in ipsa mundi genitura angelum immoderatae
+				<lb/>superbiae sedem sibi aquilonem, contra voluntatem
+				<lb/>tuam, ipso tantummodo motu animi usurpantem
+				<lb/>de summo coeli fastigio ejecisti, concede mihi famulae
+				<lb/>[1280B] tuae ut ex hoc Solis simulacro, in quo idem pessimus
+				<lb/>ludificator habitat . . . . . , et hoc opus mechanicum et
+				<lb/>ipso artifice patratum comminuat, et ita cognoscat
+				<lb/>omnis hic senatus cum populo tibi omnium creatori
+				<lb/>universam ex debito obedire creaturam.» Et cum
+				<lb/>haec dixisset, ecce ignitus daemon apparuit, qui,
+				<lb/>totum illud mechanicum magicumque opus confringens,
+				<lb/>maximam metalli partem in praefectum projecit,
+				<lb/>indeque ejus feriens colla illico infecit. His
+				<lb/>ita peractis, Julianus judex jussit B. Christinam
+				<lb/>teneri, et in camino aestuantis incendii concremari.
+				<lb/>Milites vero iniqui crudelissimi principis iniqua
+				<lb/>mandata sunt protinus exsecuti. Cumque sanctissima
+				<lb/>virgo esset in fornace trium horarum spatio, existimans
+				<lb/>tyrannus esse consumptam, ignem amovere
+				<lb/>[1280C] fecit. Tunc vox dulcis psallentium de camino repente
+				<lb/>insonuit, ac inter angelorum choros virginis Christinae
+				<lb/>sacer vultus effulsit. Matronae quidem, quae illuc
+				<lb/>spectatum venerant, attonitae super his quae viderant,
+				<lb/>credidere. Julianus vero haec audiens, vehementi
+				<lb/>indignatione commotus, jussit illam praesentiae
+				<lb/>exhiberi, cui et dixit: «Taedet nos, o puella,
+				<lb/>injuriarum quas nobis et diis nostris, nemine tibi
+				<lb/>resistente, aut ulciscente, satis multas intulisti;
+				<lb/>ergo nobis dabis poenas, adversus quas magicae artes
+				<lb/>minime praevalebunt.» Et statim, ut jussum fuerat,
+				<lb/>unus de magorum collegio, qui ea tempestate in arte
+				<lb/>detestabili Romae celeberrimus habebatur, duos
+				<lb/>dracones in medium detulit, quos in famulam Christi,
+				<lb/>ut ab eis absorberetur, immisit. Mox B. Christiana
+				<lb/>[1280D] signum eis salutis opposuit; qui, divino examine
+				<lb/>revoluti, magum arripuerunt, et sub momento
+			<lb/>ante totius conventus faciem peremere.</p>
+			<p><lb/>Censore itaque cum omni comitatu suo obstupescente,
+				<lb/>B. Christina ad locum ubi defunctus jacebat accessit,
+				<lb/>et cunctis audientibus ait: «In nomine
+				<lb/>Domini mei Jesu Christi, qui crucifixus est, surge,
+				<lb/>miser, ut perpendat omnis haec turba quia ipse est
+				<lb/>verus Deus vivens, et regnans in saecula saeculorum.»
+				<lb/>Ad hanc vocem cadaver, recepto spiritu, videntibus
+				<lb/>cunctis, erigitur, asserens et praedicans quod non
+				<lb/>sit alius Deus nisi quem Christina praedicat, Dominus
+				<lb/>Jesus Christus. Dracones interea absque ulla
+				<lb/>hominum laesione unde profecti sunt revertuntur.
+				<cb n="1281"/>
+				<lb/>[1281A] Julianus igitur, timens fieri in plebe tumultus, et
+				<lb/>magis seditionis terrores effugiens, quam rationi
+				<lb/>satisfaciens, jussit ei mammillas et linguam abscindi;
+				<lb/>deinde fecit illam in hippodromum duci, et tam
+				<lb/>diu sagittarum jaculationibus infigi, quousque spiritum
+				<lb/>exhalavit. Est autem passio invictae martyris
+				<lb/>Christinae, nono Kal. aug. Juliano terminata.
+				<lb/>Cur insensate furis Urbane? Cur Idion aestuas
+				<lb/>perditissime? Ad quid truculentissime niteris, Juliane?
+				<lb/>excogitate nova et prioribus graviora supplicia,
+				<lb/>multiplicate verbera, accumulate poenas. At
+				<lb/>quid juvat saevire iu carnem quam ultronea obtulit
+				<lb/>lacerandam, et animam quam voluit servare, non
+				<lb/>delere? Discite tandem, miseri, discite illius gaudium,
+				<lb/>et sic vestrum spectate interitum. Ecce jam
+				<lb/>[1281B] speciosissima virgo post fustes et vincula: post
+				<lb/>ignem et rotam, post torturas et verbera, post cunam
+				<lb/>et tonsuras, post truncationes et jacula, ad aeterni
+				<lb/>regis thalamum angelicis manibus asportatur. Vos
+				<lb/>e contrario dum ad Elysios campos tenditis, arietem
+				<lb/>Acheronti porrigitis, tamen malorum vestrorum
+				<lb/>pondere pressam cymbam Stygialis palus absorbuit,
+				<lb/>ingens Cerberus devoravit. Majore quam queat dici
+				<lb/>poena plectemini, qui in Crucifixum credere contempsistis.
+				<lb/>Sed tu, o devotissima sponsa Filii Dei,
+				<lb/>amica Patris omnipotentis, jam habes quod voluisti,
+				<lb/>jam obtines quod rogasti, jam frueris inenarrabili
+				<lb/>lucis gaudio, intra ardua divinae majestatis secreta
+				<lb/>versaris, ubi familiarius Deo gaudens, cubantem in
+				<lb/>meridie sponsum juncta adolescentulae reperisti.
+				<lb/>[1281C] Nunc per amoena convallium purpurei cespitis carpis
+				<lb/>florentes violas, colligis immarcessibiles rosas metis
+				<lb/>nardostacheas spicas. Tu modo secus aquarum decursus
+				<lb/>et vitrei fontis marginem sedes, leni epithalamia
+				<lb/>murmure concinis. Tu inter virgineos choros regio
+				<lb/>diademate illustrata refulges. Tu solio Christi assides
+				<lb/>facta regni aeterni particeps. Salve perenniter, puellare
+			<lb/>decus, pudor virgineus, virtutis exemplum.</p>
+			<p><lb/>Salve perenniter, quae tuos speciosos artus perpetuae
+				<lb/>pudicitiae devovisti. Salve perenniter, quae totius
+				<cb n="1282"/>
+				<lb/>[1282A] libidinis nescia templum te sancti Spiritus dedisti.
+				<lb/>Salve perenniter, quae amplas porticus, et ingentia
+				<lb/>fundorum spatia fugiens, suscipiens haereditatem
+				<lb/>Dei, facta es cohaeres Christi. Salve perenniter, quae
+				<lb/>tanta exaggerata suppliciis, patrias leges repudiasti,
+				<lb/>et ad crucis vexillum toto desiderio evolasti. Salve
+				<lb/>perenniter, quae principum jussa contemnens pro
+				<lb/>veritatis testimonio crudeli morte damnata es. Salve
+				<lb/>perenniter, quae coeli jam sublimata fastigio digna
+				<lb/>es filio Dei sponso, et Domino. Et quia nos parendi
+				<lb/>voto tibi fideles conspicis, audi quod petimus; attende
+				<lb/>quod per te obtinere desideramus; impetra
+				<lb/>nobis quoque promissae vitae supernae felicitatem,
+				<lb/>ad quam ascendere sine tuo juvamine minime confidimus
+				<lb/>peccatis nostris ita merentibus. Tu ergo apud
+				<lb/>[1282B] Creatorem omnium delictorum nostrorum posce
+				<lb/>veniam, ut cognitor pius commissis ignoscens nobis
+				<lb/>famulis multa nostris digna meritis non infligat, et
+				<lb/>dum in hujus vitae fragilis brevi tempore degimus,
+				<lb/>nos ditioni tuae subjectos protege, conserva, benedic,
+				<lb/>defende, guberna, ac tuis nostras fac mentes laudibus
+				<lb/>aptas. Ecce, virgo beata, nos gloriosi triumphi
+				<lb/>tui gesta narravimus, et magni laboris copiosam
+				<lb/>mercedem paucis significavimus. Tu, si quid minus
+				<lb/>quam decuit, si quid aliter ac oportuit, dictum est,
+				<lb/>parce benigna; virgo, ignosce, pia. Igitur, fratres
+				<lb/>beatissimi, quia beatae Christinae triumphalem diem
+				<lb/>celebri solemnitate deferimus, nobis, quod possumus,
+				<lb/>de ejus virtutibus vindicemus: ut tanto erga
+				<lb/>nos ipsa se benevolentius habeat, quanto illam assequi
+				<lb/>[1282C] studeat animositas nostra ferventius. Ad hoc
+				<lb/>namque Dominus feminei nobis sexus exempla proposuit,
+				<lb/>ut virilis animi robur, quod prave vivendo
+				<lb/>amisimus, saltem mulierum virtute provocati recto
+				<lb/>gradiendo tramite resumamus, et sic, beatorum
+				<lb/>laboribus sociati, per Jacob scalam conscendere illuc
+				<lb/>ubi dominus Jesus Christus residet valeamus, qui
+				<lb/>cum Patre, et Spiritu sancto vivit, et regnat Deus in
+			<lb/>saecula saeculorum. Amen.</p>
+			<p><lb/><hi rend="italic">Explicit passio S. Christinae.</hi></p>
+		</div>
+	</body>
+</text>
+</TEI>

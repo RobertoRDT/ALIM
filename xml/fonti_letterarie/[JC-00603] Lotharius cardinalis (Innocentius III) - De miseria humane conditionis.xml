@@ -1,0 +1,2924 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De miseria humane conditionis</title>
+				<author>Lotharius cardinalis (Innocentius III)</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Michele Maccarrone</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="16205" unit="words">Parole: 16205</measure>
+				<measure quantity="95141" unit="characters_without_spaces">Caratteri (spazi esclusi): 95141</measure>
+				<measure quantity="109172" unit="characters_witht_spaces">Caratteri (spazi inclusi): 109172</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2006-07-30">30/07/2006</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Trattatistica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: parole: 16825&#13;
+caratteri: 96381&#13;
+LS</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Lotharii cardinalis (Innocentii 3.) de miseria humane conditionis</title>
+						<editor>Michele Maccarrone</editor>
+						<imprint>
+							<publisher>Aedes Thesauri mundi</publisher>
+							<pubPlace>Lucca</pubPlace>
+							<date>1955</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Thesaurus mundi : bibliotheca scriptorum latinorum mediae et recentioris aetatis</title>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Trattatistica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="3"/>
+		<div>
+			<head><lb/>PROLOGUS</head>
+			<div>
+				<head><lb/>(1)</head> <p>Domino patri karissimo P(etro), Dei gratia Portuensi et
+					<lb/>sancte Rufine ecclesie episcopo, Lotharius, indignus diaconus
+					<lb/>cardinalis sanctorum Sergi et Bachi, gratiam in presenti
+				<lb/>et gloriam in futuro.</p>
+			</div>
+			<div>
+				<head><lb/>(2)</head> <p>Modicum otii, quod inter multas angustias nuper ea,
+					<lb/>quam nosti, occasione captavi, non ex toto michi preteriit
+					<lb/>otiosum, sed ad deprimendam superbiam, que caput est
+					<lb/>omnium vitiorum, vilitatem humane conditionis utcumque
+					<lb/>descripsi. Titulum autem presentis opusculi vestro nomini
+					<lb/>dedicavi, rogans et postulans ut si quid in eo vestra
+					<lb/>discretio dignum invenerit divine gratie totum ascribat. Si
+					<lb/>vero paternitas vestra suggesserit, dignitatem humane nature
+					<lb/>Christo favente describam, quatinus ita per hoc humilietur
+				<lb/>elatus ut per illud humilis exaltetur.</p>
+			</div>
+		</div>
+		<pb n="5"/>
+		<div type="book">
+			<head type="h_1"><lb/>LIBER PRIMUS</head>
+			<head type="h_2"><lb/>DE MISERABILI HUMANE CONDITIONIS INGRESSU</head>
+			<div type="chapter">
+				<head><lb/>Incipiunt capitula libri primi:</head>
+				<p><lb/>I. <hi rend="italic">De miserabili humane conditionis ingressu.</hi></p>
+				<p><lb/>II. <hi rend="italic">De vilitate materie de qua formatus est homo.</hi></p>
+				<p><lb/>III. <hi rend="italic">De conceptione infantis.</hi></p>
+				<p><lb/>IIII. <hi rend="italic">Quali cibo conceptus nutriatur in utero.</hi></p>
+				<p><lb/>V. <hi rend="italic">De imbecillitate infantis.</hi></p>
+				<p><lb/>VI. <hi rend="italic">De dolore partus et eiulatu nascentis.</hi></p>
+				<p><lb/>VII. <hi rend="italic">De nuditate et vestitu nascentis.</hi></p>
+				<p><lb/>VIII. <hi rend="italic">Qualem fructum homo producit.</hi></p>
+				<p><lb/>VIIII. <hi rend="italic">De brevitate huius vite.</hi></p>
+				<p><lb/>X. <hi rend="italic">De incommodo senectutis.</hi></p>
+				<p><lb/>XI. <hi rend="italic">De labore mortalium.</hi></p>
+				<p><lb/>XII. <hi rend="italic">De diverso studio sapientum.</hi></p>
+				<p><lb/>XIII. <hi rend="italic">De variis hominum studiis.</hi></p>
+				<p><lb/>XIIII. <hi rend="italic">De diversis anxietatibus.</hi></p>
+				<p><lb/>XV. <hi rend="italic">De miseria pauperis et divitis.</hi></p>
+				<p><lb/>XVI. <hi rend="italic">De miseria servorum et dominorum.</hi></p>
+				<p><lb/>XVII. <hi rend="italic">De miseria continentis et coniugati.</hi></p>
+				<p><lb/>XVIII. <hi rend="italic">De miseria bonorum et malorum. [&lt;7I&gt;]</hi></p>
+				<p><lb/>XVIIII. <hi rend="italic">De hostibus hominis.</hi></p>
+				<p><lb/>XX. <hi rend="italic">Quod corpus dicitur carcer anime.</hi></p>
+				<p><lb/>XXI. <hi rend="italic">De brevi letitia.</hi></p>
+				<p><lb/>XXII. <hi rend="italic">De inopinato dolore.</hi></p>
+				<p><lb/>XXIII. <hi rend="italic">De vicinitate mortis.</hi></p>
+				<p><lb/>XXIIII. <hi rend="italic">De terrore sompniorum.</hi></p>
+				<p><lb/>XXV. <hi rend="italic">De compassione.</hi></p>
+				<pb n="6"/>
+				<p><lb/>XXVI. <hi rend="italic">Quod innumere sunt species egritudinum.</hi></p>
+				<p><lb/>XXVII. <hi rend="italic">De subitis infortuniis.</hi></p>
+				<p><lb/>XXVII. <hi rend="italic">De diversis generibus tormentorum.</hi></p>
+				<p><lb/>XXVIII. <hi rend="italic">De quodam horribili facinore: de quadam muliere que
+				<lb/>comedit infantem suum.</hi></p>
+				<p><lb/>XXIX. <hi rend="italic">Quod quandoque punitur innocens et nocens absolvitur.</hi></p>
+			</div>
+			<pb n="7"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>I</head>
+				<head type="h_2"><lb/><hi rend="italic">De miserabili humane conditionis ingressu.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>« Quare de vulva matris egressus sum, ut viderem laborem
+						<lb/>et dolorem et consummerentur in confusione dies mei?».
+						<lb/>Si talia locutus est de se ille quem Dominus sanctificavit
+						<lb/>in utero, qualia loquar ego de me, quem mater mea genuit
+						<lb/>in peccato? Heu me, dixerim, mater mea, quid me genuisti
+						<lb/>filium amaritudinis et doloris? «Quare non in vulva mortuus
+						<lb/>sum? Egressus ex utero non statim perii? Cur
+						<lb/>exceptus genibus, lactatus uberibus?». Natus in «combustionem et cibum
+						<lb/>ignis?». «Utinam interfectus fuissem in utero, ut fuisset
+						<lb/>michi mater mea sepulchrum et vulva eius conceptus
+						<lb/>eternus». «Fuissem enim quasi non essem, de utero translatus
+					<lb/>ad tumulum».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Quis ergo det oculis meis fontem lacrimarum, ut fleam
+						<lb/>miserabilem conditionis humane ingressum, culpabilem
+						<lb/>humane conversationis progressum, dampnabilem humane
+						<lb/>dissolutionis egressum? Consideraverim ergo cum lacrimis
+						<lb/>de quo factus sit homo, quid faciat homo, quid futurus sit
+						<lb/>homo. Sane formatus est homo de terra, conceptus in culpa,
+						<pb n="8"/>
+						<lb/>natus ad penam, agit prava que non licent, turpia que non
+						<lb/>decent, vana que non expediunt; fiet cibus ignis, esca vermis,
+					<lb/>massa putredinis.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Exponam id planius, edisseram plenius. Formatus est
+						<lb/>homo de pulvere, de luto, de cinere: quodque vilius est de
+						<lb/>spurcissimo spermate. Conceptus in pruritu carnis, in fervore
+						<lb/>libidinis, in fetore luxurie: quodque deterius est in
+						<lb/>labe peccati. Natus ad laborem, timorem et dolorem: quodque
+						<lb/>miserius est ad mortem. Agit prava, quibus offendit
+						<lb/>Deum, offendit proximum, offendit seipsum; agit turpia,
+						<lb/>quibus polluit famam, polluit personam, polluit conscientiam.
+						<lb/>Agit vana quibus negligit seria, negligit utilia, negligit
+						<lb/>necessaria. Fiet cibus ignis, qui semper ardet et urit
+						<lb/>inexstinguibilis; esca vermis qui semper rodit et comedit
+						<lb/>immortalis; massa putredinis, que semper fetet et sordet
+					<lb/>horribilis.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>II</head>
+				<head type="h_2"><lb/><hi rend="italic">De vilitate materie de qua formatus est homo.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Formavit igitur Dominus Deus hominem de limo terre»,
+						<lb/>que ceteris est indignior elementis. Planetas et stellas
+						<lb/>fecit ex igne, flatus et ventos fecit ex aere, pisces et volucres
+						<lb/>fecit ex aqua: homines et iumenta fecit de terra. Considerans
+						<lb/>igitur aquatica homo se vilem inveniet, considerans
+						<lb/>aeria se viliorem agnoscet, considerans ignea se vilissimum
+						<lb/>reputabit, nec valebit se parificare celestibus, nec audebit
+						<pb n="9"/>
+						<lb/>se preferre terrenis, quia parem se iumentis inveniet et similem
+					<lb/>recognoscet.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Unus est enim hominum et iumentorum interitus et
+						<lb/>equa utriusque conditio, et nichil habet homo iumento amplius.
+						<lb/>De terra orta sunt et in terram pariter revertuntur».
+						<lb/>Verba sunt ista non cuiuslibet hominis, sed sapientissimi
+						<lb/>Salomonis. Quid est igitur homo nisi lutum et cinis? Hinc
+						<lb/>enim homo dicit ad Deum: «Memento, queso, quod sicut
+						<lb/>lutum feceris me et in pulverem reduces me». Hinc et Deus
+						<lb/>dicit ad hominem: «Cinis es, et in cinerem reverteris».
+						<lb/>«Comparatus sum, ait, luto et assimilatus sum faville et
+						<lb/>cineri». Lutum efficitur ex aqua et pulvere, utroque manente;
+						<lb/>cinis autem fit ex igne et ligno, utroque deficiente.
+						<lb/>Expressum misterium, sed alias exprimendum. Quid ergo
+						<lb/>lutum superbis? De quo pulvis extolleris? Unde cinis gloriaris?
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Verum illud forsitan respondebis, quod Adam ipse fuit
+						<lb/>de limo terre formatus, tu autem ex humano semine procreatus.
+						<lb/>At ille fuit formatus de terra, sed virgine; tu vero
+						<lb/>procreatus de semine, sed immundo. «Quis enim potest
+						<lb/>facere mundum de immundo conceptum semine?». «Quis
+						<lb/>est homo ut immaculatus sit et iustus appareat natus de
+						<lb/>muliere?». «Ecce enim in iniquitatibus conceptus sum et
+						<lb/>in delictis peperit me mater mea». Non in una tantum iniquitate,
+						<lb/>non in uno tantum delicto, sed in multis iniquitatibus
+						<lb/>et in multis delictis: in delictis videlicet et iniquitatibus
+					<lb/>propriis, in delictis et iniquitatibus alienis.</p>
+				</div>
+			</div>
+			<pb n="10"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>III</head>
+				<head type="h_2"><lb/><hi rend="italic">De conceptione infantis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Est autem duplex conceptio, una seminum et altera naturarum:
+						<lb/>prima fit in commissis, secunda in contractis. Parentes
+						<lb/>enim committunt in prima, proles contrahit in
+						<lb/>secunda. Quis enim nesciat concubitum etiam coniugalem
+						<lb/>nunquam omnino committi sine pruritu carnis, sine fervore
+						<lb/>libidinis, sine fetore luxurie? Unde semina concepta
+						<lb/>fedantur, maculantur et vitiantur, ex quibus tandem anima
+						<lb/>infusa contrahit labem peccati, maculam culpe, sordem
+						<lb/>iniquitatis. Sicut ex vase corrupto liquor infusus corrumpitur
+					<lb/>et pollutum contingens ex ipso contactu polluitur.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Habet enim anima tres naturales potentias sive tres naturales
+						<lb/>vires. Rationalem ut discernat inter bonum et malum,
+						<lb/>irascibilem ut respuat malum, concupiscibilem ut appetat
+						<lb/>bonum. Iste tres vires tribus oppositis vitiis originaliter
+						<lb/>corrumpuntur. Vis rationalis per ignorantiam, ut non discernat
+						<lb/>inter bonum et malum, vis irascibilis per iracundiam,
+						<lb/>ut respuat bonum, vis concupiscibilis per concupiscentiam,
+						<lb/>ut appetat malum. Prima gignit delictum, ultima parit peccatum,
+						<pb n="11"/>
+						<lb/>media delictum generat et peccatum. Est enim delictum
+					<lb/>non facere faciendum, peccatum agere non agendum.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Hec tria vitia contrahuntur ex carne corrupta per tres
+						<lb/>carnales illecebras. In carnali quippe commercio rationis
+						<lb/>sopitur intuitus, ut ignorantia seminetur; libidinis irritatur
+						<lb/>pruritus, ut iracundia propagetur; voluptatis satiatur affectus,
+						<lb/>ut concupiscentia contrahatur. Hic est tirannus carnis,
+						<lb/>lex membrorum, fomes peccati, languor nature, pabulum
+						<lb/>mortis, sine quo nemo nascitur, sine quo nemo moritur:
+						<lb/>qui si quando transit reatu, semper tamen remanet actu.
+						<lb/>«Si enim dixerimus quoniam peccatum non habemus, nosipsos
+					<lb/>seducimus et veritas in nobis non est».</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>O gravis necessitas et infelix conditio: antequam peccamus
+						<lb/>peccato constringimur et antequam delinquamus delicto
+						<lb/>tenemur. «Per unum hominem peccatum in hunc
+						<lb/>mundum intravit et per peccatum in omnes homines mors
+						<lb/>pertransiit». An non «patres comederunt uvam acerbam et
+					<lb/>dentes filiorum obstupescunt»?</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>IIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Quali cibo conceptus nutriatur in utero.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Sed attende quo cibo nutriatur conceptus in utero:
+						<lb/>profecto sanguine menstruo, qui cessat ex femina post conceptum
+						<lb/>ut ex eo conceptus nutriatur in femina. Qui fertur
+						<pb n="12"/>
+						<lb/>esse tam detestabilis et immundus, ut ex eius contactu
+						<lb/>fruges non germinent, arescant arbusta, moriantur herbe,
+						<lb/>amittant arbores fetus, et si canes inde comederint in rabiem
+						<lb/>efferantur. Concepti fetus vitium seminis contrahunt, ita
+						<lb/>ut leprosi et elephantici ex hac corruptione nascantur. Unde
+						<lb/>secundum legem Mosaycam mulier que menstrua patitur
+						<lb/>ruputatur immunda, et si quis ad menstruatam accederet
+						<lb/>iubetur interfici. Ac propter immunditiam menstruorum
+						<lb/>precipitur ut mulier si masculum pareret quadraginta, si
+					<lb/>vero feminam octoginta diebus a templi cessaret ingressu.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>V</head>
+				<head type="h_2"><lb/><hi rend="italic">De imbecillitate infantis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Quare ergo misero data est lux et vita hiis qui sunt
+						<lb/>in amaritudine anime?». Felices illi qui moriuntur antequam
+						<lb/>oriantur, prius mortem sentientes quam vitam scientes. Quidam
+						<lb/>enim tam deformes et prodigiosi nascuntur, ut non
+						<lb/>homines, sed abhominationes potius videantur; quibus forte
+						<lb/>melius fuisset provisum si nunquam prodiissent ad visum,
+						<lb/>quoniam ut monstra monstrantur et ostentui ostenduntur.
+						<lb/>Plerique vero diminuti membris et sensibus corrupti nascuntur,
+						<lb/>amicorum tristitia, parentum infamia, verecundia
+					<lb/>propinquorum.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Quid hic particulariter dixerim de quibusdam, cum generaliter
+						<lb/>omnes sine scientia, sine verbo, sine virtute nascamur?
+						<lb/>Flebiles, debiles, imbecilles, parum a brutis distantes,
+						<pb n="13"/>
+						<lb/>immo minus in multis habentes: nam illa statim ut exorta
+						<lb/>sunt gradiuntur, nos autem non solum erecti pedibus
+						<lb/>non incedimus, verum etiam curvati manibus non reptamus.
+					<lb/>/*</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VI</head>
+				<head type="h_2"><lb/><hi rend="italic">De dolore partus et eiulatu nascentis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Omnes nascimur eiulantes, ut nature miseriam exprimamus.
+						<lb/>Masculus enim recenter natus dicit <hi rend="italic">a</hi>, femina vero
+						<lb/><hi rend="italic">e</hi>. Unde versus:
+						<lg>
+							<l>Et dicent <hi rend="italic">e</hi> vel <hi rend="italic">a</hi> quotquot nascuntur ab Eva.</l>
+						</lg>
+						<lb/>Quid est igitur Eva nisi <hi rend="italic">heu-a</hi> ? Utrumque dolentis est
+						<lb/>interiectio, doloris exprimens magnitudinem. Hinc enim
+						<lb/>ante peccatum virago, post peccatum Eva meruit appellari,
+					<lb/>ex quo sibi dictum audivit: «In dolore paries».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Non est enim dolor sicut parturientis: unde Rachel pre
+						<lb/>nimio dolore partus interiit et moriens vocavit nomen filii
+						<lb/>sui Benoni, id est filius doloris. Uxor Phinees subitis doloribus
+						<lb/>inruentibus peperit simul ac periit et in ipso articulo
+						<lb/>mortis vocavit filium Ichabod, id est filius meroris. «Mulier
+						<lb/>autem, ut naufragus, cum parit tristitiam habet; cum vero
+						<lb/>peperit puerum, iam non meminit pressure propter gaudium,
+						<lb/>quia natus est homo in mundum». Concipit ergo
+						<pb n="14"/>
+						<lb/>cum immunditia et fetore, parit cum tristitia et dolore, nutrit
+					<lb/>cum angustia et labore, custodit cum instantia et timore.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VII</head>
+				<head type="h_2"><lb/><hi rend="italic">De nuditate et vestitu nascentis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Nudus egreditur, et nudus regreditur, pauper accedit
+						<lb/>et pauper recedit. «Nudus, inquit, egressus sum de utero
+						<lb/>matris mee, et nudus revertar illuc». «Nichil intulimus in
+						<lb/>hunc mundum, haud dubium, quia nec auferre quid possumus».
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Si quis autem indutus ingreditur, attendat quale proferat
+						<lb/>indumentum. Turpe dictu, turpius auditu, turpissimum
+						<lb/>visu: fedam, scilicet pelliculam sanguine cruentatam. Hec
+						<lb/>est illa maceria, de qua Thamar inquit in partu: «Quare
+						<lb/>divisa est propter te maceria?». Et ob hanc causam vocavit
+					<lb/>nomen eius Phares, quod interpretatur divisio. </p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Qualem fructum homo producit.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>O vilis conditionis humane indignitas, o indigna vilitatis
+						<lb/>humane conditio! Herbas et arbores investiga: ille de se
+						<lb/>producunt flores, frondes et fructus, et tu de te lendes,
+						<lb/>pediculos et lumbricos. Ille de se fundunt oleum, vinum et
+						<lb/>balsamum, et tu de te sputum, urinam et stercus; ille de
+						<lb/>se spirant suavitatem odoris, et tu de te reddis abhominationem
+						<pb n="15"/>
+						<lb/>fetoris. Qualis est arbor talis est fructus, non enim
+						<lb/>potest mala arbor fructus bonos facere, neque arbor bona
+						<lb/>fructus malos facit. (2) Quid est enim homo secundum
+						<lb/>formam, nisi quedam arbor eversa? Cuius radices sunt crines,
+						<lb/>truncus caput cum collo, stipes est pectus cum alvo,
+						<lb/>rami sunt ulne cum tibiis, frondes sunt digiti cum articulis.
+						<lb/>Hoc est folium quod a vento rapitur et stipula que a sole
+					<lb/>siccatur.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De brevitate huius vite.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>In primordio conditionis humane nongentis annis et
+						<lb/>amplius homines vixisse leguntur. Sed paulatim vita hominis
+						<lb/>declinante, dixit Dominus ad Noe: «Non permanebit spiritus
+						<lb/>meus in homine in eternum quia caro est, eruntque
+						<lb/>dies illius centum viginti annorum». Quod intelligi potest
+						<lb/>tam de termino vite, quam de spatio penitendi. Ex tunc
+						<lb/>enim rarissime leguntur homines plus vixisse, sed cum
+						<lb/>magis ac magis vita recidatur humana, dictum est a psalmista:
+						<lb/>«Dies annorum nostrorum in ipsis septuaginta anni.
+						<lb/>Si autem in potentatibus octoginta anni, et amplius eorum
+					<lb/>labor et dolor».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Nunc autem paucitas dierum meorum finietur brevi.
+						<lb/>«Dies nostri velocius transeunt quam a texente tela succiditur».
+						<lb/>«Homo natus de muliere, brevi vivens tempore,
+						<lb/>repletur multis miseriis. Qui quasi flos egreditur et conteritur,
+						<pb n="16"/>
+						<lb/>et fugit velut umbra et nunquam in eodem statu
+						<lb/>permanet». Pauci nunc ad LX, paucissimi ad LXX annos
+					<lb/>perveniunt.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>X</head>
+				<head type="h_2"><lb/><hi rend="italic">De incommodo senectutis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Si quis autem ad senectutem processerit, statim cor eius
+						<lb/>affligitur, et caput concutitur, languet spiritus et fetet anhelitus,
+						<lb/>facies rugatur et statura curvatur, caligant oculi et
+						<lb/>vacillant articuli, nares effluunt et crines defluunt, tremit
+						<lb/>tactus et deperit actus, dentes putrescunt et aures sordescunt.
+						<lb/>Senex facile provocatur et difficile revocatur, cito credit et
+						<lb/>tarde discredit, tenax et cupidus, tristis et querulus, velox
+						<lb/>ad loquendum, tardus ad audiendum, sed non tardus ad
+						<lb/>iram, laudat antiquos et spernit modernos, vituperat presens
+						<lb/>et commendat preteritum, suspirat et anxiatur, torpet
+						<lb/>et infirmatur. Audi poetam dicentem:
+						<lg>
+							<l>Multa senem circumveniunt incommoda.</l>
+						</lg>
+						<lb/>Porro nec senes contra iuvenem glorientur, nec insolescant
+						<lb/>iuvenes contra senem, quia quod sumus iste fuit, erimus
+					<lb/>quandoque quod hic est.</p>
+				</div>
+			</div>
+			<pb n="17"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XI</head>
+				<head type="h_2"><lb/><hi rend="italic">De labore mortalium.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Avis nascitur ad volandum, et homo nascitur ad laborem.
+						<lb/>Cuncti dies eius laboribus et erumpnis pleni sunt, nec
+						<lb/>per noctem requiescit mens eius. Et hoc nonne vanitas? Non
+						<lb/>est quicquam sine labore sub sole, non est sine defectu sub
+						<lb/>luna, non est sine vanitate sub tempore. Tempus enim est
+						<lb/>mora motus rerum mutabilium. (2) «Vanitas vanitatum,
+						<lb/>inquit Ecclesiastes, et omnia vanitas». O quam varia sunt
+						<lb/>studia hominum, quam diversa sunt exercitia. Unus est
+						<lb/>tamen omnium finis et idem effectus, labor et afflictio spiritus.
+						<lb/>«Occupatio magna creata est omnibus hominibus et
+						<lb/>iugum grave super filios Adam a die exitus de ventre matris
+					<lb/>eorum usque in diem sepulture in matrem omnium».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diverso studio sapientum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Perscrutentur sapientes et investigent alta celi, lata terre,
+						<lb/>profunda maris. De singulis disputent, de cunctis pertractent,
+						<lb/>discant semper aut doceant. Et quid ex hac occupatione
+						<lb/>nisi laborem et dolorem et afflictionem spiritus invenient?
+						<lb/>Noverat hoc experimento qui dixerat: «Dedi cor
+						<lb/>meum ut scirem prudentiam atque doctrinam, errores et
+						<lb/>stultitiam, et agnovi quod esset labor et afflictio spiritus,
+						<pb n="18"/>
+						<lb/>eo quod in multa sapientia multa sit indignatio, et qui addit
+					<lb/>scientiam addit dolorem».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Licet enim oporteat indagantem multis insudare vigiliis
+						<lb/>et invigilare sudoribus, vix tamen est quidquam tam
+						<lb/>vile, vix est tam facile, quod ad plenum intelligat homo et
+						<lb/>comprehendat ad liquidum, nisi forsan illud perfecte sciatur
+						<lb/>quod nichil scitur perfecte, quanquam ex hoc insolubilis
+						<lb/>redargutio consequitur. Quidni? «Corpus quod corrumpitur
+						<lb/>aggravat animam, et deprimit terrena inhabitatio sensum
+						<lb/>multa cogitantem». Audi quid super hoc sentiat Salomon:
+						<lb/>«Cuncte res difficiles, non potest eas homo explicare sermone».
+						<lb/>«Est homo qui diebus ac noctibus sompnum non
+						<lb/>capit oculis et nullam operum Dei potest invenire rationem,
+						<lb/>et quanto plus laboraverit ad querendum, tanto minus inveniet».
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Deficiant ergo scrutantes scrutinio, quoniam accedet
+						<lb/>homo ad cor altum et exaltabitur Deus. «Perscrutator maiestatis
+						<lb/>opprimetur a gloria». Qui magis intelligit, magis dubitat,
+						<lb/>et ille videtur plus sapere, qui plus desipit. Pars ergo
+						<lb/>scientie est scire quod nesciat. «Fecit autem Deus hominem
+					<lb/>rectum, et ipse se infinitis miscuit questionibus».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De variis hominum studiis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Currunt et discurrunt mortales per sepes et semitas,
+						<lb/>ascendunt montes, transcendunt colles, transvolant rupes,
+						<lb/>pervolant alpes, transgrediuntur foveas, ingrediuntur cavernas,
+						<pb n="19"/>
+						<lb/>rimantur viscera terre, profunda maris, incerta fluminis,
+						<lb/>opaca nemoris, invia solitudinis, exponunt se ventis
+						<lb/>et imbribus, tonitruis et fulminibus, fluctibus et procellis,
+						<lb/>ruinis et precipitiis. Metalla cudunt et conflant, lapides
+						<lb/>sculpiunt et poliunt, ligna succidunt et dolant, telas ordiuntur
+						<lb/>et texunt, vestes incidunt et consuunt, edificant domos
+						<lb/>et plantant hortos, excolunt agros, pastinant vineas, succendunt
+						<lb/>clibanos, extruunt molendina, piscantur, venantur
+						<lb/>et aucupantur. (2) Meditantur et cogitant, consiliantur et
+						<lb/>ordinant, querulantur et litigant, diripiunt et furantur, decipiunt
+						<lb/>et mercantur, contendunt et preliantur, et innumera
+						<lb/>talia ut opes congregent, ut questus multiplicent, ut lucra
+						<lb/>sectentur, ut honores acquirant, ut dignitates extollant, ut potestates
+					<lb/>extendant. Et hec quoque labor et mentis afflictio.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Si michi non creditur, Salomoni credatur: «Magnificavi,
+						<lb/>inquit, opera mea, edificavi michi domos et plantavi
+						<lb/>vineas, feci hortos et pomaria, consevi ea cuncti generis
+						<lb/>arboribus. Extruxi michi piscinas aquarum ut irrigarent
+						<lb/>silvam lignorum germinantium, possedi servos et ancillas,
+						<lb/>multamque familiam habui, armenta quoque et magnos
+						<lb/>ovium greges, ultra omnes qui fuerant ante me in Ierusalem.
+						<lb/>Coacervavi michi aurum et argentum et substantias regum
+						<lb/>et provinciarum. Feci michi cantores et cantatrices et delicias
+						<lb/>filiorum hominum, scyphos et urceos in ministerio ad
+						<lb/>vina fundenda, et supergressus sum opibus omnes, qui ante
+						<lb/>me fuerunt in Ierusalem. Cumque me convertissem ad
+						<lb/>universa, que fecerant manus mee et ad labores quibus
+						<lb/>frustra sudaveram, vidi in omnibus vanitatem et afflictionem
+						<pb n="20"/>
+						<lb/>animi, et nichil permanere sub sole» quod non sit labor
+					<lb/>et afflictio spiritus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diversis anxietatibus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quanta mortales angit anxietas, affligit cura, sollicitudo
+						<lb/>molestat, metus exterret, tremor concutit, horror abducit,
+						<lb/>dolor affligit, conturbat tristitia, turbatio tristatur. Pauper et
+						<lb/>dives, servus et dominus, coniugatus et continens, denique
+						<lb/>bonus et malus, omnes mundanis cruciatibus affliguntur et
+						<lb/>mundanis afflictionibus cruciantur. Experto crede magistro:
+						<lb/>«Si impius, inquit, fuero, ve michi est; et si iustus, non levabo
+					<lb/>caput saturatus afflictione et miseria».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XV</head>
+				<head type="h_2"><lb/><hi rend="italic">De miseria divitis et pauperis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Pauperes autem premuntur inedia, cruciantur erumpna,
+						<lb/>fame, siti, frigore, nuditate; vilescunt et contabescunt, spernuntur
+						<lb/>et confunduntur. O miserabilis conditio mendicantis:
+						<lb/>et si petit, pudore confunditur, et si non petit, egestate
+						<lb/>consumitur, sed ut mendicet necessitate compellitur. Deum
+						<lb/>causatur iniquum, quod non recte dividat, proximum criminatur
+						<lb/>malignum, quod non plene subveniat; indignatur,
+						<lb/>murmurat, imprecatur. (2) Adverte super hoc sententiam
+						<lb/>sapientis: «Melius est mori quam indigere». «Etiam proximo
+						<pb n="21"/>
+						<lb/>suo pauper odiosus erit». «Omnes dies pauperis mali».
+						<lb/>«Fratres hominis pauperis oderunt eum, insuper et amici
+						<lb/>procul recesserunt ab eo»:
+						<lg>
+							<l>Cum fueris felix, multos numerabis amicos:</l>
+							<l>Tempora si fuerint nubila, solus eris.</l>
+						</lg>
+						<lb/>Proh pudor! secundum fortunam existimatur persona, cum
+						<lb/>potius secundum personam sit estimanda fortuna. Tam
+						<lb/>bonus reputatur ut dives, tam malus ut pauper, cum potius
+					<lb/>tam dives sit reputandus ut bonus, tam pauper ut malus.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Dives autem superfluitate resolvitur et iactantia effrenatur,
+						<lb/>currit ad libitum et corruit ad illicitum, et fiunt instrumenta
+						<lb/>penarum que fuerant oblectamenta culparum.
+						<lb/>Labor in acquirendo, timor in possidendo, dolor in amittendo,
+						<lb/>mentem eius semper fatigat, sollicitat et affligit: «Ubi
+						<lb/>est thesaurus tuus, ibi est et cor tuum». Sed de hoc plenius
+					<lb/>in sequentibus dicemus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVI</head>
+				<head type="h_2"><lb/><hi rend="italic">De miseria servorum et dominorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Servus minis terretur, angariis fatigatur, plagis affligitur,
+						<lb/>opibus spoliatur. Qui si non habet, habere compellitur, et
+						<lb/>si habet, cogitur non habere. Culpa domini, servi pena; culpa
+						<lb/>servi, domini preda:
+						<lg>
+							<l>Quidquid delirant reges, plectuntur Achivi.</l>
+						</lg>
+						<lb/>«Venatio leonis onager in eremo»: sic pascua divitum sunt
+						<lb/>pauperes. O extrema conditio servitutis! «Natura liberos genuit»,
+						<pb n="22"/>
+						<lb/>sed fortuna servos constituit. Servus cogitur pati et
+						<lb/>nemo sinitur compati, dolere compellitur et nemo condolere
+						<lb/>permittitur. Sic ipse non suus est ut nemo sit sibi. Miseri qui
+					<lb/>castra secuntur, quia miserum est «aliena vivere quadra».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Dominus autem si crudelis est, oportet vereri propter
+						<lb/>nequitiam subiectorum; si mitis est, contingit illum contempni
+						<lb/>propter insolentiam subiectorum. Severum ergo metus
+						<lb/>affligit, mansuetum vilitas parvipendit; nam crudelitas
+						<lb/>parit odium et familiaritas parit contemptum: familiaris enim
+						<lb/>cura fatigat et domestica sollicitudo molestat. Oportet enim
+						<lb/>semper esse paratum, ubique monitum, ut possit insidias
+						<lb/>malignantium precavere, oppugnantium iniurias propulsare,
+						<lb/>hostes conterere, cives tueri. Nec sufficit diei malitia sua,
+						<lb/>sed dies diei laborem eructat et nox noctis sollicitudinem
+						<lb/>indicat. Dies ergo laboriosi ducuntur et noctes expediuntur
+					<lb/>insompnes.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVII</head>
+				<head type="h_2"><lb/><hi rend="italic">De miseria continentis et coniugati.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Si potest ignis non urere, potest caro non concupiscere,
+						<lb/>quia quantumcunque pugnetur, nunquam Iebuseus
+						<lb/>ille penitus expugnatur:
+						<lg>
+							<l>Naturam expellas furca, tamen usque recurret.</l>
+						</lg>
+						<lb/>«Non omnes, inquit, capiunt verbum istud, sed qui potest
+						<lb/>capere capiat». Unde cum Deus ipse de certis pontificalibus
+						<lb/>indumentis iussisset ut Moyses Aaron et filios suos vestiret,
+						<lb/>de solis feminalibus non precepit, sed ait ut ipsi feminalibus
+						<pb n="23"/>
+						<lb/>uterentur cum ingrederentur tabernaculum testimonii. Sed
+						<lb/>et apostolus dicit: «Nolite fraudare invicem, nisi forte ex
+						<lb/>consensu ad tempus ut vacetis orationi et iterum revertimini
+						<lb/>in idipsum, ne tempnet vos Sathanas propter incontinentiam
+					<lb/>vestram». «Melius est enim nubere, quam uri».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Pugnat ergo contra continentiam angelus Sathane, qui
+						<lb/>carnaliter stimulat et graviter colaphyzat, ignem nature flatu
+						<lb/>suggestionis succendit, materiam apponit, facultatem tribuit
+						<lb/>et oportunitatem ministrat. Pugnat et species, que
+						<lb/>subito visa, facile concupiscitur. Unde cum David post
+						<lb/>meridiem deambularet in solario domus regie, videns ex
+						<lb/>adverso Bersabee se lavantem, erat enim mulier pulchra
+					<lb/>nimis, misit et tulit eam et dormivit cum ea.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Porro qui cum uxore est, sollicitus est que sunt mundi
+						<lb/>et divisus est. Distrahitur enim per multas angustias et in
+						<lb/>varias sollicitudines dissecatur, ut filiis et uxori, famulis et
+						<lb/>ancillis necessaria querat et subministret: «Tribulationes
+					<lb/>quoque carnis habent huiusmodi».</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Uxor contendit habere pretiosum ornatum et variam
+						<lb/>suppellectilem, ut pluris sit sepe cultus uxoris quam census
+						<lb/>mariti; alioquin per dies et noctes suspirat et plangit, garrit
+						<lb/>et murmurat. Tria sunt enim, que non sinunt hominem
+						<lb/>in domo permanere: fumus, stillicidium et mala uxor. ‘Illa,
+						<lb/>inquit, ornatior procedit in publicum, hec ab omnibus
+						<pb n="24"/>
+						<lb/>honoratur: ego miserrima in conventu mulierum sola despicior,
+						<lb/>a cunctis contempnor’. Sola vult diligi, sola laudari,
+						<lb/>alterius laudem suum dedecus suspicatur. Amandum est
+						<lb/>omne quod diligit, odiendum est omne quod spernit. Vincere
+						<lb/>vult, sed vinci non valet. Famulari non patitur, sed
+						<lb/>dominari molitur. Cuncta vult posse, nulla non posse. Si
+						<lb/>pulchra fuerit, facile adamatur, si feda, facile concupiscit: sed
+						<lb/>difficile custoditur quod a multis diligitur, et molestum est
+						<lb/>possidere, quod nemo dignetur habere. Alius forma, alius ingenio,
+						<lb/>alius facetiis, alius liberalitate sollicitat: et ex aliqua
+						<lb/>parte capitur quod undique incessitur. (5) Equus, asinus,
+						<lb/>bos et canis, vestis et lectulus, calix etiam et urceolus, prius
+						<lb/>probantur et postea comparantur: sponsa vero vix tandem
+						<lb/>ostenditur, ne prius displiceat quam ducatur: qualiscunque
+						<lb/>casus obvenerit, necessario est habenda. Si feda, si fetida,
+						<lb/>si egra, si fatua, si superba, si iracunda, si qualibet macula
+						<lb/>vitiosa, propter solam fornicationem potest uxor a viro
+						<lb/>dimitti. Sed nec dimittens aliam potest ducere, nec dimissa
+						<lb/>potest alii copulari. Nam quicunque «dimiserit uxorem
+						<lb/>suam, nisi ob fornicationis causam et aliam duxerit, mechatur;
+						<lb/>et qui dimissam duxerit, mechatur». Quod si uxor a
+						<lb/>viro discesserit, manere debet innupta aut viro suo reconciliari;
+					<lb/>similiter et vir, si discesserit ab uxore.</p>
+				</div>
+				<div>
+					<head><lb/>(6)</head> <p>Grave nimis est pondus coniugii, nam «stultus et impius
+						<pb n="25"/>
+						<lb/>est qui tenet adulteram», et patronus est turpitudinis qui
+						<lb/>celat crimen uxoris. Sed si dimittit adulteram, absque sui
+						<lb/>culpa punitur, quoniam illa vivente cogitur continere.
+						<lb/>Propter quod et discipuli Christo dixerunt: «Si ita est causa
+						<lb/>hominis cum uxore, non expedit nubere». Quis unquam
+						<lb/>equanimiter potuit sustinere rivalem? Sola suspicio zelotipum
+						<lb/>vehementer affligit; nam licet scriptum sit: «Erunt
+						<lb/>duo in carne una», zelus tamen viri duos in una carne non
+					<lb/>patitur.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De miseria bonorum et malorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Non est impiis gaudere, dicit Dominus, «quia per que
+						<lb/>peccat homo per hec et torquetur». Vermis enim conscientie
+						<lb/>nunquam moritur, et ignis rationis nunquam extinguitur.
+						<lb/>«Vidi eos qui operantur iniquitatem et seminant dolores
+					<lb/>et metunt eos, flante Deo perisse et spiritu ire eius esse consumptos».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Superbia inflat, invidia rodit, avaritia stimulat,
+						<lb/>ira succendit, angit gula, dissolvit luxuria, ligat mendacium,
+						<lb/>maculat homicidium. Sic et cetera vitiorum portenta,
+						<lb/>et que sunt homini oblectamenta peccandi Deo sunt instrumenta
+						<lb/>puniendi:
+						<lb/>Invidus alterius rebus macrescit opimis.
+						<lb/>Sed:
+						<lb/>Invidia Siculi non invenere tyrampni
+					<lb/>maius tormentum.</p>
+				</div>
+				<pb n="26"/>
+				<div>
+					<head><lb/>(3)</head> <p>Vitium enim corrumpit naturam, apostolo testante qui ait:
+						<lb/>«Quia evanuerunt in cogitationibus suis, obscuratus est insipiens
+						<lb/>cor eorum. Propter quod tradidit illos Deus in desideria
+						<lb/>cordis eorum in immunditiam, ut contumeliis afficiant
+						<lb/>corpora sua, et sicut reprobaverunt Deum habere in notitia,
+						<lb/>ita tradidit eos Deus in reprobum sensum, ut faciant ea que
+					<lb/>non conveniunt».</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Sed et «qui pie vivere volunt in Christo, persecutionem
+						<lb/>patiuntur». «Sancti namque ludibria et verbera experti, insuper
+						<lb/>et vincula et carceres, lapidati sunt, secti sunt, temptati
+						<lb/>sunt, in occisione gladii mortui sunt pro Domino. Circuierunt
+						<lb/>in melotis, in pellibus caprinis, egentes, angustiati,
+						<lb/>afflicti, quibus dignus non erat mundus. In solitudinibus
+						<lb/>errantes et in montibus, in speluncis et in cavernis terre».
+						<lb/>«Periculis fluminum, periculis latronum, periculis ex genere,
+						<lb/>periculis ex gentibus, periculis in civitate, periculis ex
+						<lb/>falsis fratribus. In labore et erumpna, in vigiliis multis, in
+						<lb/>fame et siti, in ieiunis multis, in frigore et nuditate», in
+					<lb/>angustiis multis.</p>
+				</div>
+				<div>
+					<head><lb/>(5)</head> <p>Iustus enim «abnegat semetipsum», crucifigens membra
+						<lb/>sua cum vitiis et concupiscentiis, ut sibi mundus crucifixus
+						<lb/>sit et ipse mundo. Non habet hic manentem civitatem, sed
+						<lb/>futuram inquirit. Sustinet seculum tanquam exilium, clausus
+						<lb/>in corpore tanquam in carcere. «Incola, inquit, ego sum
+						<lb/>in terra, et peregrinus sicut omnes patres mei». «Remitte
+						<lb/>michi ut refrigerer, priusquam abeam, et amplius non ero».
+						<lb/>«Heu michi, quia incolatus meus prolongatus est, habitavi
+						<lb/>cum habitantibus Cedar, multum incola fuit anima mea».
+						<lb/>«Quis infirmatur, et ego non infirmor? Quis scandalizatur, et
+						<pb n="27"/>
+						<lb/>ego non uror?». Nam peccata proximorum frixorium sunt
+						<lb/>iustorum. Hoc est irriguum quod Caleph Axe filie sue dedit
+					<lb/>in dotem.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De hostibus hominis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Militia ergo est vita hominis super terram». An nonne
+						<lb/>vere militia est, cum multiplices hostes semper undique insidientur
+						<lb/>ut capiant, persequantur ut perimant, demon et
+						<lb/>homo, mundus et caro? Demon cum vitiis, homo cum
+						<lb/>bestiis, mundus cum elementis, caro cum sensibus. «Caro
+						<lb/>namque concupiscit adversus spiritum et spiritus adversus
+						<lb/>carnem». Verum «non est nobis colluctatio adversus
+						<lb/>carnem et sanguinem, sed adversus spiritualia nequitie in
+						<lb/>celestibus, adversus rectores tenebrarum harum». «Adversarius
+						<lb/>enim noster dyabolus tanquam leo rugiens circuit
+					<lb/>querens quem devoret».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Accenduntur ignea tela nequissimi. Mors ingreditur per
+						<lb/>fenestras. Oculus animam depredatur. Pugnat orbis terrarum
+						<lb/>contra insensatos. Gens contra gentem, et regnum adversus
+						<lb/>regnum et terremotus magni per loca, pestilentie et
+						<lb/>fames, terroresque de celo et tempestates. Terra producit
+						<lb/>spinas et tribulos, aqua procellas et fluctus, aer tempestates
+						<pb n="28"/>
+						<lb/>et tonitrua, ignis coruscationes et fulgura. «Maledicta, inquit,
+						<lb/>terra in opere tuo, spinas et tribulos germinabit tibi.
+						<lb/>In sudore vultus tui vesceris pane tuo, donec revertaris in
+					<lb/>terram, quia terra es et in terram ibis».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>«Insidiatur aper de silva, et singularis ferus depastus est
+						<lb/>eam». Lupus et ursus, pardus et leo, tigris et onager, cocodrillus
+						<lb/>et griphes, serpens et coluber, basiliscus et aspis,
+						<lb/>cerastes et draco, scorpiones et vipere; sed etiam lendes
+						<lb/>et pulices, cimices et pediculi, sciniphes et musce, scarabones
+						<lb/>et vespe, pisces et volucres. Nam qui creati fuimus,
+						<lb/>ut dominaremur piscibus maris et volatilibus celi et universis
+						<lb/>animantibus que moventur in terra, nunc damur
+						<lb/>illis in predam, damur in escam. Scriptum est enim: «Dentes
+						<lb/>bestiarum immittam in eos, cum furore trahentium super
+					<lb/>terram atque serpentium».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XX</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod corpus dicitur carcer anime.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Infelix ego homo, quis me liberabit de corpore mortis
+						<lb/>huius?». Certe non vult educi de carcere qui non vult exire
+						<lb/>de corpore, nam carcer anime corpus est. De quo dicit
+						<lb/>psalmista: «Educ de carcere animam meam». Nusquam est
+						<lb/>quies et tranquillitas, nusquam pax et securitas; ubique
+						<lb/>timor et tremor, ubique labor et dolor. Caro dum vivit
+					<lb/>dolebit et anima super semetipsam lugebit.</p>
+				</div>
+			</div>
+			<pb n="29"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXI</head>
+				<head type="h_2"><lb/><hi rend="italic">De brevi letitia.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quis unquam vel unicam diem totam duxit in sua delectatione
+						<lb/>iucundam, quem in aliqua parte diei reatus conscientie
+						<lb/>vel impetus ire vel motus concupiscentie non turbaverit?
+						<lb/>Quem livor invidie vel ardor avaritie vel tumor superbie
+						<lb/>non vexaverit? Quem aliqua iactura vel offensa vel
+						<lb/>passio non commoverit? Quem denique visus vel auditus
+						<lb/>vel actus aliquis non offenderit?
+						<lb/>Rara avis in terris nigroque simillima cigno.
+						<lb/>Audi super hoc sententiam sapientis: «A mane usque ad
+						<lb/>vesperam immutabitur tempus». Cogitationes vane sibi succedunt
+						<lb/>et mens rapitur in diversa. «Tenent tympanum et
+						<lb/>citharam, et gaudent ad sonitum organi. Ducunt in bonis
+					<lb/>dies suos et in puncto ad inferna descendunt».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXII</head>
+				<head type="h_2"><lb/><hi rend="italic">De inopinato dolore.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Semper enim mundane letitie tristitia repentina succedit.
+						<lb/>Et quod incepit a gaudio desinit in merore. Mundana
+						<lb/>quippe felicitas multis amaritudinibus est respersa. Noverat
+						<lb/>hoc qui dixerat: «Risus dolore miscebitur et extrema gaudii
+						<lb/>luctus occupat». Experti sunt et liberi Iob, qui cum comederent
+						<lb/>et biberent vinum in domo fratris sui primogeniti,
+						<lb/>repente ventus vehemens irruit a regione deserti, et concussit
+						<lb/>quatuor angulos domus, que corruens universos oppressit».
+						<pb n="30"/>
+						<lb/>Merito ergo pater aiebat: «Versa est in luctum
+					<lb/>cythara mea, et organum meum in vocem flentium».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Melius est ergo ire ad domum luctus quam ad domum
+						<lb/>convivii». Salubre consilium: «In die bonorum, ne immemor
+						<lb/>sis malorum». «Memorare novissima tua et in eternum
+					<lb/>non peccabis».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De vicinitate mortis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Semper ultimus dies primus et nunquam primus dies
+						<lb/>ultimus reputatur. Cum tamen ita semper vivere deceat,
+						<lb/>tanquam mori semper oporteat. Scriptum est enim: «Memor
+						<lb/>esto, quia mors non tardat». Tempus preterit, et mors
+						<lb/>appropinquat. Mille anni ante oculos morientis sicut dies
+						<lb/>hesterna, que preteriit. Semper enim futura nascuntur, semper
+						<lb/>presentia moriuntur et quidquid est preteritum totum
+						<lb/>est mortuum. Morimur ergo semper dum vivimus, et tunc
+						<lb/>tantum desinimus mori cum desinimus vivere. Melius est
+						<lb/>igitur mori vite quam vivere morti, quia nichil est vita mortalis
+						<lb/>nisi mors vivens. (2) Unde Salomon: «Laudavi magis
+						<lb/>mortuos quam viventes et utroque feliciorem iudicavi qui
+						<lb/>necdum natus est». Vita velociter fugit et retineri non potest:
+						<lb/>mors autem instanter occurrit, et impediri non valet.
+						<lb/>Hoc est illud mirabile, quod quanto plus crescit tanto magis
+						<pb n="31"/>
+						<lb/>decrescit, quare quanto plus vita procedit tanto magis ad
+					<lb/>finem accedit.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De terrore sompniorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Tempus quod quieti concessum est, non conceditur esse
+						<lb/>quietum, nam terrent sompnia, visiones conturbant. Et licet
+						<lb/>non sint in veritate tristia vel terribilia seu laboriosa que
+						<lb/>sompniant sompniantes, tamen in veritate tristantur, terrentur
+						<lb/>et fatigantur, in tantum ut aliquando dormientes
+						<lb/>lacrimentur et evigilantes sepissime conturbentur. Si vero
+						<lb/>iocundum quid viderint, nichilominus evigilantes tristantur
+					<lb/>tanquam illud amiserint.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Adverte quid super hoc dicat Elyphaz Themanites: «In
+						<lb/>horrore visionis nocturne, quando solet sopor occupare homines,
+						<lb/>pavor tenuit me et tremor, et omnia ossa mea perterrita
+						<lb/>sunt, et cum spiritus, me presente, transiret, inhorruerunt
+						<lb/>pili carnis mee». Considera Iob dicentem: «Si
+						<lb/>dixero, consolabitur me lectulus meus et relevabor loquens
+						<lb/>mecum in stratu meo, terrebis me per sompnia et per
+						<lb/>visiones horrore concuties». Nabuchodonosor sompnium
+						<lb/>vidit quod eum valde perterruit et visiones capitis eius
+					<lb/>conturbaverunt eum.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Multas curas sequuntur sompnia et ubi multa sompnia,
+						<lb/>plurime vanitates. Multos errare fecerunt sompnia et exciderunt
+						<lb/>sperantes in illis. Apparent enim frequenter in sompniis
+						<lb/>turpes ymagines, ex quibus per illusiones nocturnas non
+						<pb n="32"/>
+						<lb/>solum caro polluitur, sed et anima maculatur. Unde Dominus
+						<lb/>in Levitico: «Si sit, inquit, inter vos homo, qui pollutus
+						<lb/>sit in nocturno sompnio, extra castra egrediatur et non
+						<lb/>revertatur priusquam ad vesperam lavetur aqua, et post
+					<lb/>solis occasum regrediatur in castra».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXV</head>
+				<head type="h_2"><lb/><hi rend="italic">De compassione.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quanto dolore turbamur, quanto tremore concutimur,
+						<lb/>cum amicorum dampna sentimus, cum parentum pericula
+						<lb/>formidamus! Plus interdum sanus formidine quam infirmus
+						<lb/>egritudine perturbatur. Plus hic voluntarius affectu doloris
+						<lb/>affligitur, quam is invitus effectu languoris. Verum est enim
+						<lb/>illud poeticum:
+					<lb/>Res est solliciti plena timoris amor.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Cuius pectus tam ferreum, cuius cor tam lapideum ut
+						<lb/>gemitus non exprimat, lacrimas non effundat, cum proximi
+						<lb/>vel amici morbum vel interitum intuetur, ut patienti non
+						<lb/>compatiatur et dolenti non condoleat? Ipse Iesus cum vidisset
+						<lb/>Mariam et Judeos qui cum ea venerant ad monumentum
+						<lb/>plorantes, infremuit spiritu, turbavit semetipsum et
+						<lb/>lacrimatus est. Forsitan non quia mortuus est, sed eo potius
+						<lb/>quia mortuum ad vite miserias revocavit. Sciat autem se
+						<lb/>culpabiliter durum et dure culpabilem, qui corporalem amici
+						<pb n="33"/>
+						<lb/>sui mortem deplorat, et spiritualem anime sue mortem non
+					<lb/>deflet.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVI</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod innumere sunt species egritudinum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Nondum a seculis tot egritudinum genera, tot passionum
+						<lb/>species physicalis industria potuit indagare, quot humana
+						<lb/>fragilitas potuit tolerare. Tollerabilem dixerim intollerantiam
+						<lb/>morborum, aut intollerabilem dixerim tollerantiam?
+						<lb/>Melius utrumque coniunxerim, nam intollerabile est
+						<lb/>propter passionis acerbitatem, et tolerabile propter patiendi
+					<lb/>necessitatem.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>De die in diem magis ac magis humana natura corrumpitur,
+						<lb/>ita quod multa fuerunt olim experimenta salubria, que
+						<lb/>propter defectum ipsius hodie sunt mortifera. Senuit iam
+						<lb/>mundus uterque, macrocosmus et microcosmus, et quanto
+						<lb/>prolixius utriusque senectus producitur, tanto deterius
+					<lb/>utriusque natura turbatur.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVII</head>
+				<head type="h_2"><lb/><hi rend="italic">De subitis infortuniis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Subito, cum non suspicatur, infortunium accidit, calamitas
+						<lb/>irruit, morbus invadit, mors intercipit, quam nullus
+						<lb/>evadit. Ergo, «ne glorieris in crastinum: ignoras enim quid
+						<lb/>superventura pariat dies». «Nescit homo finem suum, sed
+						<lb/>sicut pisces capiuntur hamo, et sicut aves comprehenduntur
+						<lb/>laqueo, sic capiuntur homines tempore malo cum eis
+					<lb/>extemplo supervenerit».</p>
+				</div>
+			</div>
+			<pb n="34"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diversis generibus tormentorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quid dicam de miseris, qui per innumerabilia tormentorum
+						<lb/>genera puniuntur? Ceduntur fustibus et gladiis iugulantur,
+						<lb/>cremantur flammis et lapidibus obruuntur, discerpuntur
+						<lb/>ungulis et patibulis suspenduntur, torquentur tigribus
+						<lb/>et scorpionibus flagellantur, arctantur vinculis et
+						<lb/>laqueis sugillantur, detentuntur carceribus et ieiuniis macerantur,
+						<lb/>precipitantur et submerguntur, excoriantur et distrahuntur,
+						<lb/>secantur et suffodiuntur. «Qui ad mortem ad
+						<lb/>mortem, qui ad gladium ad gladium, qui ad famem ad famem,
+						<lb/>et qui ad captivitatem ad captivitatem». Crudele iudicium,
+						<lb/>immane supplicium, triste spectaculum; dantur in
+						<lb/>escam volatilibus celi, bestiis terre et piscibus maris. Heu,
+					<lb/>heu, heu, misere matres, que tam infelices filios genuistis!</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De quodam horribili facinore: de quadam muliere</hi></head>
+				<p><lb/><hi rend="italic">que comedit infantem suum.</hi></p>
+				<div>
+					<head><lb/>(1)</head> <p>Illud igitur horribile facinus libet inserere, quod Iosephus
+						<lb/>de Iudaica obsidione describit. Mulier quedam, facultatibus
+						<lb/>et genere nobilis, cum cetera multitudine que confluxerat
+						<lb/>Hierosolimis communem cum omnibus obsidionis
+						<lb/>casum ferebat. Huius reliquas facultates, quas de domo in
+						<lb/>urbem convexerat, tyranni penitus invaserunt. Si quid vero
+						<lb/>reliquiarum ex magnis opibus fuerat, quibus victum cotidianum
+						<pb n="35"/>
+						<lb/>pertenuem duceret, irruentes per momenta satellites
+						<lb/>predonum rapiebant. Pro quibus ingens mulierem, ex
+						<lb/>indignatione quadam, velut insania fatigabat, ita ut interdum
+					<lb/>predones in necem sui maledictis et conviciis instigaret.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Verum, cum nec irritatus quisquam nec miseratus illam
+						<lb/>perimeret, et si quid forte cibi fuisset ab illa quesitum, id
+						<lb/>ab aliis quereretur, nec iam usquam fieret copia requirendi,
+						<lb/>fames autem dira visceribus insisteret ac medullis, et ad furorem
+						<lb/>iam famis inedia perurgeret, pessimis usa consiliis,
+						<lb/>contra ipsa iam armatur iura nature. Erat enim ei sub uberibus
+						<lb/>parvulus filius, quem ante oculos ferens: «Infelicis,
+						<lb/>inquit, matris, o infelicior fili, in bello, fame ac direptione
+						<lb/>predonum cui te reservabo? Nam etsi vita sperari posset,
+						<lb/>iugo tamen Romane servitutis urgemur. Veni ergo nunc, o
+						<lb/>mi nate, esto matri cibus, predonibus furor, seculis fabula,
+						<lb/>que sola deerat cladibus Iudeorum». Et cum hoc dixisset
+						<lb/>protinus filium iugulavit. Tunc denique igni superpositum
+					<lb/>torret, medium quidem consumit, medium servat obtectum.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Et ecce confestim predones irruunt, aduste carnis odore
+						<lb/>concepto mortem minantur, nisi sine mora cibos, quos paratos
+						<lb/>senserant, demonstraret. Tunc illa: «Partem vobis optimam
+						<lb/>reservavi», et continuo que superfuerant membra retexit
+						<lb/>infantis. At illos repente ingens horror invasit et
+						<lb/>immanis quamvis animi diriguere, vox est faucibus interclusa.
+						<lb/>Illa vero truci vultu et ipsis iam predonibus truculentior:
+						<lb/>«Meus, inquit, est partus, meus est filius, meum est facinus.
+						<lb/>Edite, nam ego prior comedi, que genui, nolite vos effici
+						<pb n="36"/>
+						<lb/>aut matre religiosiores aut femina molliores. Quod si vos
+						<lb/>pietas vincit et meos exsecramini cibos, ego, que iam talibus
+						<lb/>pasta sum, ego hiis iterum pascar». Post hec illi territi trementesque
+						<lb/>discedunt, qui hunc solum ex omnibus facultatibus
+					<lb/>cibum misere matri reliquerant.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXX</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod quandoque punitur innocens et nocens absolvitur.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Nemo se confidat expertem a pena, qui se novit immunem
+						<lb/>a culpa. Qui stat, videat ne cadat. Nam sepe dampnatur
+						<lb/>innocens et nocens absolvitur, pius punitur et impius
+						<lb/>honoratur, Iesus crucifigitur et Barrabas liberatur. Hodie
+						<lb/>vir quietus inutilis, vir religiosus ypocrita, vir simplex fatuus
+						<lb/>reputatur. «Deridetur enim iusti simplicitas, lampas contempta
+						<lb/>apud cogitationes divitum».
+					<lb/><hi rend="italic">Explicit liber primus.</hi></p>
+				</div>
+			</div>
+		</div>
+		<pb n="37"/>
+		<div type="book">
+			<head type="h_1"><lb/>LIBER SECUNDUS</head>
+			<head type="h_2"><lb/>DE CULPABILI HUMANE CONDITIONIS PROGRESSU</head>
+			<div type="chapter">
+				<p><lb/>Incipiunt capitula secundi libri:</p>
+				<p><lb/>I. <hi rend="italic">De culpabili humane conditionis progressu.</hi></p>
+				<p><lb/>II. <hi rend="italic">De cupiditate.</hi></p>
+				<p><lb/>III. <hi rend="italic">De iniquis muneribus.</hi></p>
+				<p><lb/>IIII. <hi rend="italic">De acceptione personarum.</hi></p>
+				<p><lb/>V. <hi rend="italic">De venditione iustitie.</hi></p>
+				<p><lb/>VI. <hi rend="italic">De insatiabili desiderio cupidorum.</hi></p>
+				<p><lb/>VII. <hi rend="italic">Quare cupidus satiari non potest.</hi></p>
+				<p><lb/>VIII. <hi rend="italic">De falso nomine divitiarum.</hi></p>
+				<p><lb/>VIIII. <hi rend="italic">Exempla contra cupiditatem.</hi></p>
+				<p><lb/>X. <hi rend="italic">De iniqua possessione divitiarum.</hi></p>
+				<p><lb/>XI. <hi rend="italic">De licitis opibus.</hi></p>
+				<p><lb/>XII. <hi rend="italic">De incertitudine divitiarum.</hi></p>
+				<p><lb/>XIII. <hi rend="italic">De contempnenda possessione divitiarum.</hi></p>
+				<p><lb/>XIIII. <hi rend="italic">De avaro et cupido.</hi></p>
+				<p><lb/>XV. <hi rend="italic">Cur avaritia dicatur servitus ydolorum.</hi></p>
+				<p><lb/>XVI. <hi rend="italic">De proprietatibus avari.</hi></p>
+				<p><lb/>XVII. <hi rend="italic">De gula.</hi></p>
+				<p><lb/>XVIII. <hi rend="italic">Exempla contra gulam.</hi></p>
+				<p><lb/>XVIIII. <hi rend="italic">De ebrietate.</hi></p>
+				<p><lb/>XX. <hi rend="italic">Exempla contra ebrietatem.</hi></p>
+				<p><lb/>XXI. <hi rend="italic">De luxuria.</hi></p>
+				<p><lb/>XXII. <hi rend="italic">De generalitate luxurie.</hi></p>
+				<p><lb/>XXIII. <hi rend="italic">De diversis speciebus luxurie.</hi></p>
+				<p><lb/>XXIIII. <hi rend="italic">De coitu contra naturam.</hi></p>
+				<p><lb/>XXV. <hi rend="italic">De pena huius sceleris.</hi></p>
+				<p><lb/>XXVI. <hi rend="italic">De ambitioso.</hi></p>
+				<pb n="38"/>
+				<p><lb/>XXVII. <hi rend="italic">De nimia concupiscentia ambitionis.</hi></p>
+				<p><lb/>XXVII. <hi rend="italic">Exemplum de ambitioso.</hi></p>
+				<p><lb/>XXVIIII. <hi rend="italic">Quod brevis est et miseria vita magnatum.</hi></p>
+				<p><lb/>XXX. <hi rend="italic">De diversis proprietatibus superborum.</hi></p>
+				<p><lb/>XXXI. <hi rend="italic"> De superbia et casu Luciferi.</hi></p>
+				<p><lb/>XXXII. <hi rend="italic">De arrogantia hominum.</hi></p>
+				<p><lb/>XXXIII. <hi rend="italic">De abhominatione superbie.</hi></p>
+				<p><lb/>XXXIIII. <hi rend="italic">Contra arrogantiam superborum.</hi></p>
+				<p><lb/>XXXV. <hi rend="italic">Contra fraudem ambitiosorum.</hi></p>
+				<p><lb/>XXXVI. <hi rend="italic">De proprietatibus arrogantium.</hi></p>
+				<p><lb/>XXXVII. <hi rend="italic">De superfluo cultu.</hi></p>
+				<p><lb/>XXXVIII. <hi rend="italic">Contra superfluum ornatum.</hi></p>
+				<p><lb/>XXXVIIII. <hi rend="italic">Quod plus defertur vestibus quam virtutibus.</hi></p>
+				<p><lb/>XL. <hi rend="italic">De ornatu persone, mense et domus.</hi></p>
+			</div>
+			<pb n="39"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>I</head>
+				<head type="h_2"><lb/><hi rend="italic">De cupabili humane conditionis progressu.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Tria maxime solent homines affectare: opes, voluptates,
+						<lb/>honores. De opibus prava, de voluptatibus turpia, de honoribus
+						<lb/>vana procedunt. Hinc enim Iohannes apostolus ait:
+						<lb/>«Nolite diligere mundum, neque ea que in mundo sunt;
+						<lb/>quia quidquid est in mundo concupiscentia carnis est et
+						<lb/>concupiscentia oculorum et superbia vite». Concupiscentia
+						<lb/>carnis ad voluptates, concupiscentia oculorum ad opes, superbia
+						<lb/>vite pertinet ad honores. Opes generant cupiditates
+						<lb/>et avaritiam, voluptates pariunt gulam et luxuriam, honores
+					<lb/>nutriunt superbiam et iactantiam.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>II</head>
+				<head type="h_2"><lb/><hi rend="italic">De cupiditate.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Nichil est igitur avaro scelestius et nichil iniquius quam
+						<lb/>amare pecuniam». Verbum est sapientis, quod confirmat
+						<lb/>apostolus dicens: «Qui volunt divites fieri, incidunt in temptationem
+						<lb/>et laqueum diaboli et desideria multa et inutilia
+						<lb/>et nociva, que mergunt hominem in interitum et perditionem.
+					<lb/>Radix enim omnium malorum est cupiditas».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Hec sacrilegia committit et furta, rapinas exercet et predas,
+						<lb/>bella gerit et homicidia, symoniace vendit et emit, inique
+						<lb/>petit et recipit, iniuste negotiatur et feneratur, instat dolis
+						<lb/>et imminet fraudibus, dissolvit pactum et violat iuramentum,
+					<lb/>corrumpit testimonium et pervertit iudicium.</p>
+				</div>
+			</div>
+			<pb n="40"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>III</head>
+				<head type="h_2"><lb/><hi rend="italic">De iniquis muneribus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Consule prophetam evangelicum Ysaiam: «Omnes, inquit,
+						<lb/>diligunt munera, sequuntur retributiones, pupillo non
+						<lb/>iudicant, causa vidue non ingreditur ad eos». Non ipsi precedunt
+						<lb/>retributiones, quia non iudicant amore iustitie, sed
+						<lb/>retributiones precedunt ipsos, quia iudicant amore pecunie.
+						<lb/>Semper enim sequuntur largitionem vel promissionem vel
+						<lb/>spem, et ideo pupillo non iudicant, a quo nichil largitur aut
+						<lb/>promittitur aut speratur. (2) O principes infideles, socii furum
+						<lb/>quicumque diligitis munera, sequimini retributiones!
+						<lb/>Nunquam excutietis manum a munere nisi prius excludatis
+						<lb/>cupiditatem a pectore. De vobis dicit propheta: «Principes
+						<lb/>eius quasi lupi rapientes predam, et avare sectantes lucra».
+						<lb/>«Principes eius in muneribus iudicabant et sacerdotes eius
+					<lb/>in mercede docebant et prophete eius in pecunia divinabant».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>E contra Dominus precepit in lege: «Iudices et
+						<lb/>magistros constitues in omnibus portis tuis, ut iudicent
+						<lb/>populum iusto iudicio, nec in alteram partem declinent.
+						<lb/>Non accipies personam nec munera, quia munera excecant
+						<lb/>oculos sapientum et mutant verba iustorum. Sed iuste quod
+						<lb/>iustum est persequeris ut vivas». Ideo dicit iuste quod
+						<lb/>iustum est: quidam enim iuste quod iustum est, alii quod
+						<lb/>iniustum est iniuste; rursus quidam iniuste quod iustum
+					<lb/>est, alii iuste quod iniustum est persequuntur.</p>
+				</div>
+			</div>
+			<pb n="41"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>IIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De acceptione personarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Ve vobis qui corrupti estis prece vel pretio, qui tracti
+						<lb/>amore vel odio «dicitis bonum malum et malum bonum,
+						<lb/>ponentes tenebras lucem et lucem tenebras», mortificantes
+						<lb/>animas, que non moriuntur, et vivificantes animas, que non
+						<lb/>vivunt. Vos enim non attenditis merita causarum, sed merita
+						<lb/>personarum, non iura, sed munera, non iustitiam, sed
+						<lb/>pecuniam, non quid ratio dictet, sed quid voluntas affectet,
+						<lb/>non quid lex sanciat, sed quid mens cupiat. Non iustitiam
+						<lb/>inclinatis ad animum, sed animum inclinatis ad iustitiam, non ut
+						<lb/>quod licet hoc libeat, sed ut liceat hoc quod libet. Nunquam
+						<lb/>in vobis ita simplex est oculus, ut totum corpus sit lucidum,
+						<lb/>sed aliquid semper admiscetis fermenti, quo totam massam
+					<lb/>corrumpitis.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Pauperum causam cum mora negligitis, divitum causam
+						<lb/>cum instantia promovetis: in illis rigorem ostenditis,
+						<lb/>cum istis ex mansuetudine dispensatis; illos cum difficultate
+						<lb/>respicitis, istos cum favore tractatis; illos negligenter auditis,
+						<lb/>istos subtiliter abscultatis. Clamat pauper et nullus exaudit,
+						<lb/>loquitur dives et omnis applaudit. «Dives locutus est, et
+						<lb/>omnes tacuerunt, et verbum illius usque ad nubes perducent;
+						<pb n="42"/>
+						<lb/>pauper locutus est, et dicunt: ‘quis est hic?’ et si offenderit
+						<lb/>subvertent illum». Clamat vim patiens et nullus exaudit,
+						<lb/>vociferatur et non est qui iudicet. (3) Si forte pauperum
+						<lb/>causam suscipitis, illos remisse fovetis; cum autem divitum
+						<lb/>causam assumitis, illos pertinaciter adiuvatis. Pauperes despicitis,
+						<lb/>divites honoratis; istis reverenter assurgitis, illos despicabiliter
+						<lb/>conculcatis. «Si introierit in conventum vestrum
+						<lb/>vir anulum habens aureum in veste candida, introierit et pauper
+						<lb/>in sordido habitu, et intendatis in eum qui indutus est
+						<lb/>veste preclara et dixeritis ei: ‘Tu sede hic bene’; pauperi vero
+						<lb/>dicatis: ‘Tu sta illic, aut sede sub scabello pedum meorum’;
+						<lb/>nonne iudicatis apud vosmetipsos et facti estis iudices cogitationum
+						<lb/>iniquarum?». De vobis enim et contra vos dicit
+						<lb/>propheta: «Magnificati sunt et dilatati, incrassati et impinguati,
+						<lb/>causam pupilli non dixerunt, et iudicium pauperum
+						<lb/>non iudicaverunt». Sed in lege precipitur: «Nulla erit
+						<lb/>distantia personarum, ita parvum audietis aut magnum. Nec
+						<lb/>accipietis cuiusquam personam, quia Dei iudicium est».
+					<lb/>«Non est enim personarum acceptio apud Deum».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>V</head>
+				<head type="h_2"><lb/><hi rend="italic">De venditione iustitie.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Vos autem nec gratiam gratis datis, nec iustitiam iuste
+						<lb/>redditis, quia nisi venit, non provenit, nec datur nisi vendatur.
+						<lb/>Sepe iustitiam tantum differtis, quod litigantibus plus
+						<lb/>quam totum aufertis, quia maior est sumptus expense quam
+						<lb/>fructus sententie. Quid autem illi poteritis in districto iudicio
+						<pb n="43"/>
+						<lb/>respondere, qui precipit: «Gratis accepistis, gratis
+						<lb/>date?». Lucrum in archa, dampnum in conscientia: pecuniam
+						<lb/>captatis, sed animam captivatis. Verum «quid proficit
+						<lb/>homini si mundum universum lucretur, anime vero
+						<lb/>sue detrimentum patiatur? Aut quam dabit homo commutationem
+						<lb/>pro anima sua?». «Frater non redimit, redimet
+						<lb/>homo? non dabit Deo placationem suam, nec pretium redemptionis
+						<lb/>anime sue, laborabit in eternum et vivet adhuc
+						<lb/>in finem». (2) Audite, divites, quid contra vos Iacobus
+						<lb/>apostolus ait: «Agite nunc divites, plorate ululantes in miseriis
+						<lb/>vestris, que advenient vobis. Divitie vestre putrefacte
+						<lb/>sunt et vestimenta vestra a tineis comesta sunt, aurum et
+						<lb/>argentum vestrum eruginavit et erugo eorum erit vobis
+						<lb/>in testimonium et manducabit carnes vestras sicut ignis.
+						<lb/>Thesaurizate vobis iram in novissimis diebus. Ecce merces
+						<lb/>operariorum qui messuerunt regiones vestras, que fraudata
+						<lb/>est a vobis, clamat et clamor ipsorum in aures Domini
+						<lb/>Sabaoth introivit». Propterea veritas precipit: «Nolite thesaurizare
+						<lb/>vobis thesauros in terra, ubi erugo et tinea demolitur
+					<lb/>et ubi fures effodiunt et furantur».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VI</head>
+				<head type="h_2"><lb/><hi rend="italic">De insatiabili desiderio cupidorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Ignis inextinguibilis cupiditas insatiabilis! Quis unquam
+						<lb/>cupidus primo fuit voto contentus? Cum adipiscitur quod
+						<lb/>optaverat, desiderat semper ampliora in habendis et nunquam
+						<pb n="44"/>
+						<lb/>in habitis finem constituit. «Insatiabilis est oculus cupidi,
+						<lb/>in partem iniquitatis non satiabitur». «Avarus non implebitur
+						<lb/>pecunia, et qui amat divitias fructum non capiet ex
+						<lb/>eis». Infernus et perditio nunquam implentur, similiter et
+						<lb/>oculi hominum insatiabiles. «Sanguisuge vero due sunt filie
+						<lb/>dicentes: Affer, affer». Nam
+					<lb/>Crescit amor nummi, quantum ipsa pecunia crescit.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VII</head>
+				<head type="h_2"><lb/><hi rend="italic">Quare cupidus satiari non potest.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Vis, o cupide, scire quare semper es vacuus et nunquam
+						<lb/>impleris? Adverte: Non est plena mensura, que quantumcumque
+						<lb/>contineat, adhuc capax est amplioris. Sed humanus
+						<lb/>animus capax est Dei, quoniam qui adheret Domino unus
+						<lb/>spiritus est cum eo. Quantumlibet ergo contineat, nunquam
+					<lb/>est plenus nisi Deum habeat, cuius semper est capax.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Si vis ergo, cupide, satiari, desinas esse cupidus, quia
+						<lb/>dum fueris cupidus satiari non poteris. Non est enim conventio
+						<lb/>lucis ad tenebras, neque Christi ad Belial, quia nemo
+					<lb/>potest servire Deo et mammone.</p>
+				</div>
+			</div>
+			<pb n="45"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De falso nomine divitiarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>O falsa divitiarum felicitas, que divitem veraciter efficit
+						<lb/>infelicem! Quid enim falsius quam opes mundi, que divitie
+						<lb/>nuncupantur? Oppositi sunt dives et egenus. At opes mundi
+						<lb/>non auferunt, sed afferunt egestatem. Magis enim sufficit
+						<lb/>modicum pauperi quam plurimum diviti, quoniam «ubi
+					<lb/>multe divitie, multi qui comedunt illas».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Quot et quantis magnates indigeant, ipsemet frequenter
+						<lb/>experior. Opes itaque non faciunt divitem, sed egenum.
+						<lb/>Unde quidam versificator ait:
+						<lg>
+							<l>Cui satis est quod habet, satis illum constat habere.</l>
+							<l>Cui non est quod habet satis, illum constat egere.</l>
+							<l>Ergo facit virtus, non copiam sufficientem,</l>
+							<l>et non paupertas, sed mentis hiatus egentem.</l>
+						</lg>
+					</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Exempla contra cupiditatem.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quam multos seduxit cupiditas! quam plures perdidit
+						<lb/>avaritia! Balaam asella redarguit, et pedem sedentis attrivit,
+						<lb/>quia captus cupidine promissorum disposuerat maledicere
+						<pb n="46"/>
+						<lb/>Israeli. Achan populus lapidavit, quia tulit aurum et argentum
+						<lb/>de anathemate Iericho. Naboth interemptus est,
+						<lb/>ut Achab vineam possideret. Giezi lepra perfudit, quia
+						<lb/>petiit et recepit argentum et vestes sub nomine Elisei. Iudas
+						<lb/>laqueo se suspendit, quia vendidit et tradidit Christum.
+						<lb/>Ananiam et Saphiram subitanea mors exstinxit, quia de pretio
+						<lb/>agri fraudaverunt apostolum. (2) «Edificavit Tyrus munitionem
+						<lb/>suam et coacervavit argentum quasi humum et aurum
+						<lb/>ut lutum platearum. Sed ecce Dominus possidebit eam et
+					<lb/>percutiet in mari fortitudinem eius et hec igni devorabitur».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>X</head>
+				<head type="h_2"><lb/><hi rend="italic">De iniqua possessione divitiarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Verum est quod sapiens protestatur: «Multos perdidit
+						<lb/>aurum et argentum». «Qui aurum diligit non iustificabitur».
+						<lb/>Ve illis qui sectantur illud: «Ecce ipsi peccatores
+						<lb/>abundantes in seculo obtinuerunt divitias». Hinc veritas
+						<lb/>ipsa precipiebat apostolis: «Nolite possidere aurum, neque
+						<lb/>argentum, neque pecuniam in zonis vestris». Quia sicut
+						<lb/>camelus non potest introire per foramen acus, ita difficile
+						<lb/>est divitem intrare in regnum celorum. Arcta est enim via et
+						<lb/>angusta porta, per quam itur et intratur ad vitam. Apostolus
+						<lb/>ergo secutus regulam veritatis aiebat: «Argentum et aurum
+					<lb/>non est michi».</p>
+				</div>
+				<pb n="47"/>
+				<div>
+					<head><lb/>(2)</head> <p>«Ve ergo qui coniungitis domum ad domum et agrum
+						<lb/>agro copulatis usque ad terminum loci». «Repleta est terra
+						<lb/>argento et auro et non est finis thesaurorum eius». «Propter
+					<lb/>iniquitatem avaritie eius iratus sum et percussi eum».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XI</head>
+				<head type="h_2"><lb/><hi rend="italic">De licitis opibus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Ceterum Abraham dives fuit, Iob locuplex, David opulentus.
+						<lb/>Et tamen de Abraham inquit Scriptura quia «credidit
+						<lb/>Deo et reputatum est illi ad iustitiam», et de Iob quia
+						<lb/>«non erat ei similis in terra, vir simplex et rectus ac timens
+						<lb/>Deum et recedens a malo»; de David autem quia Dominus
+						<lb/>invenerit virum secundum cor suum. At isti fuerunt «quasi
+						<lb/>nichil habentes, et omnia possidentes», secundum illud
+						<lb/>prophete: «Divitie si affluant, nolite cor apponere». Nos
+						<lb/>autem sumus omnia possidentes quasi nichil habentes, secundum
+					<lb/>illud psalmiste: «Divites eguerunt et esurierunt».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Facilius enim invenies qui diligat divitias et non habeat
+						<lb/>quam qui habeat et non diligat, quia sicut difficile est esse
+						<lb/>in igne et non ardere, ita difficilius est possidere divitias
+						<lb/>et non amare. Audi prophetam: «A minore usque ad maiorem
+						<lb/>omnes avaritie student, et a propheta usque ad sacerdotem
+					<lb/>cuncti faciunt dolum».</p>
+				</div>
+			</div>
+			<pb n="48"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XII</head>
+				<head type="h_2"><lb/><hi rend="italic">De incertitudine divitiarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Omnis cupidus contra naturam nititur et molitur. Natura
+						<lb/>namque pauperem adducit in mundum, natura pauperem
+						<lb/>reducit a mundo. Nudum enim eum terra suscepit et
+						<lb/>nudum suscipiet. Cupidus autem cupit et curat fieri dives
+						<lb/>in mundo. «Destruam, inquit, horrea mea, et maiora horum
+						<lb/>faciam et illuc congregabo omnia que nata sunt michi et
+						<lb/>omnia bona mea». Sed: «O stulte, hac nocte repetent animam
+						<lb/>tuam a te, que autem parasti cuius erunt?». «Thesaurizas,
+						<lb/>et ignoras cui congregabis ea». «Dormierunt sompnum
+						<lb/>suum et nichil invenerunt omnes viri divitiarum in
+						<lb/>manibus suis». «Dives cum dormierit, nichil secum affert;
+					<lb/>aperiet oculos suos, et nichil inveniet».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Ne timueris ergo cum dives factus fuerit homo et cum
+						<lb/>multiplicata fuerit gloria domus eius; non enim cum morietur
+						<lb/>accipiet hec omnia, neque simul descendet cum
+						<lb/>eo gloria eius». Sed «relinquent alienis divitias suas, et sepulcra
+						<lb/>eorum domus eorum in eternum». Hinc etiam sapiens
+						<lb/>attestatur: «Qui acervat ex animo iniuste, aliis congregat,
+						<lb/>et in bonis suis alius luxuriabitur». Proh dolor, quem
+					<lb/>habet hostem dimittit heredem.</p>
+				</div>
+			</div>
+			<pb n="49"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De contempnenda possessione divitiarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Cur ad congregandum quis instet, cum stare non possit
+						<lb/>ille qui congregat? Nam «quasi flos egreditur et conteritur
+						<lb/>et fugit velut umbra, et nunquam in eodem statu permanet».
+						<lb/>Cur multa desideret cum pauca sufficiant? «Habentes, inquit,
+						<lb/>victum et vestitum, his contenti sitis». Cur necessaria
+						<lb/>cum multa sollicitudine querat, cum ipsa sine magna difficultate
+						<lb/>se offerant? (2) Audi quid super hoc veritas dicat:
+						<lb/>«Nolite solliciti esse dicentes: ‘Quid manducabimus
+						<lb/>aut quid bibemus aut quo operiemur’. Scit enim Pater
+						<lb/>vester quia his omnibus indigetis. Querite ergo primum
+						<lb/>regnum Dei et iustitiam eius, et hec omnia adicientur vobis».
+						<lb/>«Non enim vidi iustum derelictum, nec semen eius
+					<lb/>querens panem».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De avaro et cupido.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Tantalus sitit in undis, et avarus eget in opibus.
+						<lb/>Cui tantum est quod habet, quantum est quod non habet,
+						<lb/>quia nunquam utitur acquisitis, sed semper inhiat aquirendis.
+						<lb/>Salomon: «Est quasi dives cum nichil habeat, et est
+						<lb/>quasi pauper cum in multis divitiis sit». Avarus et infernus
+						<pb n="50"/>
+					<lb/>uterque comedit et non digerit, recipit et non reddit.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Avarus nec patientibus compatitur nec miseris miseretur,
+						<lb/>sed offendit Deum, offendit proximum, offendit seipsum.
+						<lb/>Nam Deo detinet debita, proximo denegat necessaria,
+						<lb/>sibi subtrahit opportuna. Deo ingratus, proximo impius, sibi
+						<lb/>crudelis. «Viro cupido et tenaci sine ratione est substantia,
+						<lb/>et homini livido ad quid aurum?». «Qui sibi nequam est,
+						<lb/>quomodo alii bonus erit? Et non iucundabitur in bonis
+						<lb/>suis». «Qui habet substantiam huius mundi, et viderit fratrem
+						<lb/>suum necessitatem habere et clauserit viscera sua ab
+						<lb/>eo, quomodo caritas Dei manet in eo?». Non enim diligit
+						<lb/>proximum suum sicut seipsum, quem inedia perimit, egestas
+						<lb/>consumit, neque Deum diligit super omnia, cui prefert
+					<lb/>aurum et preponit argentum.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XV</head>
+				<head type="h_2"><lb/><hi rend="italic">Cur avaritia dicatur servitus ydolorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Recte deffinit apostolus: «Avaritia est ydolorum servitus».
+						<lb/>Sicut enim ydololatra servit simulacro, sic avarus thesauro.
+						<lb/>Nam ille cultum ydololatrie diligenter amplificat, et
+						<lb/>iste cumulum pecunie libenter augmentat. Ille cum omni
+						<lb/>diligentia colit simulacrum, et iste cum omni cura custodit
+						<lb/>thesaurum. Ille spem ponit in ydololatria, et iste spem ponit
+						<lb/>in pecunia. Ille timet mutilare simulacrum, et iste timet
+					<lb/>minuere thesaurum.</p>
+				</div>
+			</div>
+			<pb n="51"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVI</head>
+				<head type="h_2"><lb/><hi rend="italic">De proprietatibus avari.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Avarus ad petendum promptus, ad dandum tardus, ad
+						<lb/>negandum frontuosus. Si quid expendit, totum amittit.
+						<lb/>Tristis, querulus et morosus, sollicitus suspirat et anxiatur,
+						<lb/>dubius heret et invitus impendit. Magnificat datum, sed
+						<lb/>vilificat dandum, dat ut lucretur, sed non lucratur ut det.
+						<lb/>Largus in alieno, sed parcus in proprio. Gulam evacuat, ut
+					<lb/>archam impleat, corpus extenuat, ut lucrum extendat.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Manum habet ad dandum collectam, sed ad recipiendum
+						<lb/>porrectam», ad dandum clausam, sed ad recipiendum apertam.
+						<lb/>Porro «substantie iniustorum sicut fluvius siccabuntur»,
+						<lb/>quia qui male congregat cito dispergit. Iustum iudicium,
+						<lb/>ut que de malo proveniunt ad malum perveniant,
+						<lb/>nec accedat ad bonum quod non procedit ex bono. Avarus
+					<lb/>ergo dampnationem habet vite que nunc est et future.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVII</head>
+				<head type="h_2"><lb/><hi rend="italic">De gula.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Initium vite hominis aqua et panis et vestimentum
+						<lb/>et domus protegens turpitudinem». Nunc autem gulosis non
+						<lb/>sufficiunt fructus arborum, non genera leguminum, non
+						<lb/>radices herbarum, non pisces maris, non bestie terre, non
+						<pb n="52"/>
+						<lb/>aves celi, sed queruntur pigmenta, comparantur aromata,
+						<lb/>nutriuntur altilia, capiuntur obesa, que studiose coquuntur
+					<lb/>arte cocorum, que laute parantur officio ministrorum.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Alius contundit et colat, alius confundit et conficit,
+						<lb/>substantiam vertit in accidens, naturam mutat in artem, ut
+						<lb/>saturitas transeat in esuriem, ut fastidium revocet appetitum,
+						<lb/>ad irritandam gulam, non ad sustentandam naturam;
+						<lb/>non ad necessitatem supplendam, sed ad aviditatem explendam.
+						<lb/>Ceterum tam brevis est gule voluptas, ut spatio loci
+						<lb/>vix sit totidem momentorum. (3) Contempnitur mediocritas
+						<lb/>et superfluitas affectatur. In diversitate ciborum et varietate
+						<lb/>saporum ariditas nescit modum et voracitas excedit mensuram.
+						<lb/>Sed inde gravatur stomachus, turbatur sensus, opprimitur
+						<lb/>intellectus; et inde non sanitas, sed morbus et
+						<lb/>mors. Audi super hoc sententiam sapientis: «Noli avidus
+						<lb/>esse in omni epulatione, et non te effundas super omnem
+						<lb/>escam, in multis enim escis erit infirmitas et propter crapulam
+						<lb/>multi obierunt». «Esca ventri et venter escis, Deus
+					<lb/>autem et hunc et has destruet».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Exempla contra gulam.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Gula carum tributum exigit, sed vilissimum reddit, quia
+						<lb/>quanto sunt delicatiora cibaria, tanto fetidiora sunt stercora.
+						<lb/>Turpius egerit quod turpiter ingerit, superius et inferius
+						<lb/>horribilem flatum exprimens, et abhominabilem sonum
+						<lb/>emittens. Gula paradisum clausit, primogenita vendidit, suspendit
+						<pb n="53"/>
+						<lb/>pistorem, decollavit Baptistam. Nabuzardam princeps
+						<lb/>cocorum templum incendit et Ierusalem totam evertit.
+						<lb/>Balthasar in convivio manum contra se scribentem aspexit:
+						<lb/>«Mane, Thecel, Phares», et eadem nocte interfectus est a
+						<lb/>Caldeis. «Sedit populus manducare et bibere, et surrexerunt
+						<lb/>ludere»; sed «adhuc erant esce eorum in ore ipsorum
+						<lb/>et ira Dei ascendit super eos». «Qui vescebantur voluptuose,
+						<lb/>interierunt in viis». Dives ille, qui epulabatur quotidie
+					<lb/>splendide, sepultus est in inferno.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De ebrietate.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quid turpius ebrioso? Cui fetor est in ore, tremor in corpore;
+						<lb/>qui promit stulta, prodit occulta; cui mens alienatur,
+						<lb/>facies transformatur. «Nullum enim secretum, ubi regnat
+						<lb/>ebrietas»:
+					<lb/>Fecundi calices quem non fecere disertum?</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Porro non sufficit vinum, non sicera, non cervisia, sed
+						<lb/>studiose conficitur mulsum, siropus, claretum, labore multo,
+						<lb/>sollicitudine magna, sumptu non modico. Sed inde contemptiones
+						<lb/>et rixe, lites et iurgia. «Vinum enim multum
+						<pb n="54"/>
+						<lb/>potatum, ut ait sapiens, irritationem et iram et ruinas multas
+						<lb/>facit». Et Osee: «Fornicatio et vinum et ebrietas auferunt
+						<lb/>cor». Propterea dicit apostolus: «Nolite inebriari vino
+						<lb/>in quo est luxuria». Et Salomon: «Ebriosa res vinum et tumultuosa
+						<lb/>ebrietas». Filii Rechab et filius Zacharie vinum
+					<lb/>et siceram et omne quod inebriare poterat non biberunt.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XX</head>
+				<head type="h_2"><lb/><hi rend="italic">Exempla contra ebrietatem.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Ebrietas enim verenda Noe nudavit, incestum commisit,
+						<lb/>filium regis occidit, principem exercitus iugulavit. Verum
+						<lb/>est ergo quod Salomon ait: «Vacantes potibus et dantes
+						<lb/>symbola consumentur». Et Isayas: «Ve qui consurgitis mane
+						<lb/>ad ebrietatem sectandam et potandum usque ad vesperam,
+						<lb/>ut vino estuetis. Cythara et lyra et tympanum et tibia et
+						<lb/>vinum in conviviis vestris». «Ve qui potentes estis ad bibendum
+						<lb/>vinum, et viri fortes ad miscendam ebrietatem».
+						<lb/>«Ecce gaudium et letitia occidere vitulos et iugulare arietes,
+						<lb/>comedere carnes et bibere vinum. Comedamus et bibamus,
+						<lb/>cras enim moriemur. Et revelata est in auribus vestris vox
+						<lb/>Domini exercituum: si dimittetur hec iniquitas vobis donec
+						<lb/>moriamini». Ve corone superbie Ephraim. Sacerdos et propheta
+						<lb/>nescierunt, pre ebrietate absorpti sunt a vino, nescierunt
+						<pb n="55"/>
+						<lb/>videntem, ignoraverunt iudicium. (2) Proh pudor, cum
+						<lb/>ad pronundiandam evangelicam lectionem a quodam patre
+						<lb/>benedictio peteretur, hesternam crapulam et nocturnam
+						<lb/>ebrietatem eructans fertur alta voce dixisse: «Potum servorum
+					<lb/>suorum, benedicat rex angelorum».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXI</head>
+				<head type="h_2"><lb/><hi rend="italic">De luxuria.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Porro turpis mater filiam generat turpiorem. Iustum
+						<lb/>est enim ut «qui in sordibus est, sordescat adhuc». «Omnes
+						<lb/>enim adulterantes quasi clibanus succensus a coquente. Ceperunt
+						<lb/>principes furere a vino»:
+						<lb/>Venter enim opipare satus
+						<lb/>libenter Venerem amplexatur.
+						<lb/>O extrema libidinis turpitudo, que non solum mentem effeminat,
+						<lb/>sed corpus enervat, non solum maculat animam,
+						<lb/>sed fedat personam. «Omne namque peccatum quodcunque
+						<lb/>fecerit homo, extra suum corpus est, qui autem fornicatur
+					<lb/>in corpus suum peccat».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Semper illam precedunt ardor et petulantia, semper
+						<lb/>comitantur fetor et immunditia, semper secuntur dolor et
+						<lb/>penitentia. «Favus enim distillans labia meretricis et nitidius
+						<lb/>oleo guttur eius; novissima autem illius amara sicut absinthium
+					<lb/>et lingua eius acuta quasi gladius biceps».</p>
+				</div>
+			</div>
+			<pb n="56"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXII</head>
+				<head type="h_2"><lb/><hi rend="italic">De generalitate luxurie.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Familiaris inimicus est, habitans non procul, sed prope,
+						<lb/>non exterius, sed interius; nam «virtus eius in lumbis eius,
+						<lb/>et fortitudo eius in umbilico ventris eius». Nunquam fugatur,
+						<lb/>nisi cum fugitur, nunquam mactatur, nisi cum maceratur.
+						<lb/>Ad causam exigit libertatem et habundantiam, sed
+						<lb/>reperit ad effectum facultatem et adiacentiam. (2) Hec
+						<lb/>omnem etatem corrumpit, omnem sexum confundit, omnem
+						<lb/>ordinem solvit, omnem gradum pervertit. Invadit enim
+						<lb/>senes et iuvenes, mares et feminas, prudentes et simplices,
+						<lb/>superiores et inferiores, ad extremum etiam sacerdotes, qui
+						<lb/>nocte Venerem amplexantur, mane vero Virginem venerantur.
+						<lb/>Turpe dictu, sed turpissimum actu, dici liceat ut
+						<lb/>agi non libeat: nocte filium Veneris agitant in cubili, mane
+					<lb/>filium Virginis offerunt in altari.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diversis speciebus luxurie.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quis eius multiplices species sufficienter valeat explicare?
+						<lb/>Hec enim Pentapolim cum adiacenti regione subvertit,
+						<lb/>Sichem cum populo interemit, Her et Onam filios
+						<lb/>Iuda percussit, Iudeum et Madianitidem pugione transfodit,
+						<pb n="57"/>
+						<lb/>tribus Beniamin pro uxore levite delevit, filios Eli
+						<lb/>sacerdotis in bello prostravit; hec Uriam occidit, Ammon
+						<lb/>interfecit, presbiteros lapidavit, Ruben maledixit, Samsonem
+						<lb/>seduxit, Salomonem pervertit. (2) Verum est ergo quod
+						<lb/>legitur: «Propter speciem mulieris multi perierunt». Nam
+						<lb/>«vinum et mulieres apostatare faciunt sapientes et arguunt
+						<lb/>sensatos». Hec «multos vulneratos deiecit et fortissimi quique
+						<lb/>interfecti sunt ab ea, vie inferi domus eius, penetrantes
+						<lb/>in interiora mortis». Hec vires enervat, sensus diminuit,
+					<lb/>dies consumit, opes effundit.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De coitu contra naturam.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Hec ignominiosam morphosim operatur, quam tamen
+						<lb/>apostolus non confunditur nominare: «Propterea, inquit,
+						<lb/>tradidit eos Deus in passiones ignominie. Nam femine eorum
+						<lb/>commutaverunt naturalem usum in eum qui contra
+						<lb/>naturam est. Similiter et masculi, relicto naturali uso femine,
+						<lb/>exarserunt in desideriis suis invicem, masculi in
+						<lb/>masculos turpitudinem operantes». Quid hac turpitudine
+						<lb/>turpius? Quid hoc crimine criminosius? (2) In lege quasi
+						<lb/>paria coniunguntur concubitus maris cum masculo et coitus
+						<lb/>hominis cum iumento. Sic enim legitur in Levitico: «Cum
+						<lb/>masculo non commisceberis coitu femineo, quia abhominatio
+						<lb/>est. Cum omni pecore non coibis, nec maculaberis
+						<pb n="58"/>
+						<lb/>cum eo». Utrique par pena subscribitur: «Qui dormierit, inquit,
+						<lb/>cum masculo coitu femineo, utrique operati sunt nefas,
+						<lb/>morte moriantur; pecus quoque occidite». Qui habet aures
+					<lb/>audiendi audiat, immo qui desipit resipiscat.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXV</head>
+				<head type="h_2"><lb/><hi rend="italic">De pena huius sceleris.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Pena docuit quid hec culpa promeruit: «Pluit enim
+						<lb/>Dominus super Sodomam et Gomorram sulphur et ignem
+						<lb/>de celo». Noluit Deus cuiquam angelorum vel hominum
+						<lb/>executionem huius pene committere, sed sibi ipsi vindictam
+						<lb/>huius sceleris reservavit secundum illud: «Mea est ultio,
+						<lb/>et ego retribuam eis». (2) Et ideo pluit Dominus a Domino,
+						<lb/>videlicet a seipso, non imbrem vel rorem, sed sulphur et
+						<lb/>ignem, sulphur super fetorem luxurie, ignem super ardorem
+						<lb/>libidinis, quatinus pena similis esset culpe. Nec misisse
+						<lb/>dicitur, sed pluisse, quatinus ipso verbo magnitudinem et
+						<lb/>habundantiam pene notaret. Nemini pepercit oculus eius,
+						<lb/>sed omnes simul exstinxit. Uxorem quoque Lot, que
+						<lb/>retro respexit, in statuam salis mutavit; nec solum urbes,
+						<lb/>sed et omnem regionem circumiacentem in mare mortuum
+						<lb/>et vallem salinarum convertit. «Horrendum est enim incidere
+						<lb/>in manus Dei viventis», qui quanto maiorem sue
+						<lb/>longanimitatis exhibet patientiam, tanto duriorem sue severitatis
+					<lb/>infert vindictam.</p>
+				</div>
+			</div>
+			<pb n="59"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVI</head>
+				<head type="h_2"><lb/><hi rend="italic">De ambitioso.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Opes itaque cupidus congregat et avarus conservat, voluptates
+						<lb/>gulosus degustat et luxuriosus exercet, honores
+						<lb/>ambitiosus affectat et superbus extollit. Ambitiosus autem
+						<lb/>semper est pavidus, semper est attentus, ne quid dicat vel
+						<lb/>faciat quod in oculis hominum valeat displicere. Humilitatem
+						<lb/>simulat, honestatem mentitur, affabilitatem exhibet,
+						<lb/>benignitatem ostendit, subsequitur et obsequitur, cunctos
+						<lb/>honorat, universis inclinat, frequentat curias, visitat optimates,
+						<lb/>assurgit et amplexatur, applaudit et adulatur. Bene
+						<lb/>novit illud poeticum:
+						<lg>
+							<l>Et si nullus erit pulvis, tamen excutit illum.</l>
+						</lg>
+					</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Promptus et fervidus ubi placere cognoverit, remissus
+						<lb/>et tepidus ubi putaverit displicere. Improbat mala, detestatur
+						<lb/>iniqua, sed alia cum aliis probat et improbat, ut iudicetur
+						<lb/>ydoneus, ut reputetur acceptus, ut laudetur ab hominibus,
+						<lb/>ut a singulis approbetur. Et ecce gravem intus se sustinet
+						<lb/>pugnam, difficilemque conflictum, dum iniquitas pulsat
+						<lb/>aninum et ambitio continet manum, et quod illa suggerit
+						<lb/>faciendum, hec fieri non permittit. Colludunt autem ad
+						<lb/>invicem mater et filia, iniquitas et ambitio: nam mater in
+						<lb/>aperto subsistit, et in occulto filia non resistit. Hec enim
+						<lb/>vindicat sibi publicum, illa secretum. (3) Ambitiosus libenter
+						<lb/>agit de principatu quem ambit, et dicit: «O quando principabitur
+						<lb/>ille qui severus sit in iustitia, pius in misericordia,
+						<lb/>qui non deviet amore vel odio, qui non corrumpatur prece
+						<lb/>vel pretio, qui credat fidelibus et acquiescat supplicibus,
+						<pb n="60"/>
+						<lb/>qui sit humilis et benignus, largus et mansuetus, constans
+					<lb/>et patiens, sapiens et astutus?».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVII</head>
+				<head type="h_2"><lb/><hi rend="italic">De nimia concupiscentia ambitionis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Si forte hac arte non proficit, recurrit ad aliam: advocat
+						<lb/>Simonem et accedit ad Giezi, per hunc ab illo nititur emere,
+						<lb/>quod per se non valet obtinere, supplicat et promittit, offert
+						<lb/>et tribuit. Proh pudor! Gratiam quam gratis adipisci
+						<lb/>non potuit, per fas et nefas nititur adipisci. Nec desistit
+						<lb/>adhuc, sed insistit et invadit violenter honorem, et impudenter
+						<lb/>arripit dignitatem, amicorum suffragio, presidio
+						<lb/>propinquorum, tantoque damnationis inflammatur ardore,
+						<lb/>tanta libidine presidendi, ut scisma non horreat, scandalum
+						<lb/>non formidet. (2) Sed Giezi lepra percussit, et Simon periit
+						<lb/>cum pecunia, Chore cum complicibus ignis assumpsit, et
+						<lb/>Dathan et Abiron terra vivos absorbuit. Nullus itaque sibi
+					<lb/>honorem assumat, nisi qui vocatur a Deo tanquam Aaron.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Exemplum de ambitioso.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Liquidum ambitionis exemplum reperitur in Absalone,
+						<lb/>qui, cum aspiraret ad regnum, «fecit sibi currus et equites
+						<lb/>et quinquaginta viros qui precederent eum. Et mane consurgens,
+						<lb/>Absalon stabat iuxta introitum porte, et omnem
+						<lb/>virum, qui habebat negotium ut veniret ad regis iudicium,
+						<lb/>vocabat ad se et dicebat: ‘De qua civitate es tu?’ Qui respondens
+						<lb/>aiebat: ‘Ex una tribu Israel ego sum servus tuus’.
+						<pb n="61"/>
+						<lb/>Respondebatque ei Absalon: ‘Videntur michi sermones tui
+						<lb/>boni et iustii; sed non est qui te audiat constitutus a rege’.
+						<lb/>Dicebatque ei Absalon: ‘Quis me constituat iudicem super
+						<lb/>terram, ut ad me veniant omnes qui habent negotium et
+						<lb/>iuste iudicem’. Sed cum accederet ad eum homo et salutaret
+						<lb/>eum, extendebat manum suam et apprehendens eum
+						<lb/>osculabatur. Faciebatque hec omni Israeli qui veniebat ad
+						<lb/>iudicium ut audiretur a rege, et sollicitabat corda virorum
+						<lb/>Israel». Cumque abiisset Absalon in Ebron, «misit exploratores
+						<lb/>in universas tribus Israel dicentes: ‘Statim ut audieritis
+						<lb/>clangorem buccine dicite: ‘Regnavit Absalon in Ebron’».
+						<lb/>Et «facta est coniuratio valida, populusque concurrens
+					<lb/>augebatur cum Absalone».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod brevis est et misera vita magnatum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Sed esto: sublimetur in altum, provehatur ad summum.
+						<lb/>Statim cure succrescunt, sollicitudines cumulantur, exstenduntur
+						<lb/>ieiunia, vigilie producuntur. Ex quibus natura corrumpitur,
+						<lb/>spiritus infirmatur, corrumpitur sompnus, amittitur
+						<lb/>appetitus, debilitatur virtus, attenuatur corpus. Et sic in
+						<lb/>seipso deficiens, non dimidiat dies suos, sed miserabilem vitam
+						<lb/>miserabiliori fine concludit. (2) Verum est illud poeticum:
+						<lb/>In se magna ruunt,
+						<lb/>summisque negatum est
+						<lb/>stare diu
+						<pb n="62"/>
+						<lb/>tolluntur in altum
+						<lb/>ut lapsu graviore ruant».
+						<lb/>Verius est autem illud propheticum: «Vidi impium superexaltatum
+						<lb/>et elevatum sicut cedros Libani; transivi et ecce
+						<lb/>non erat; quesivi eum, et non est inventus locus eius».
+						<lb/>Antequam repleantur dies eius peribit, ledetur quasi vinea
+						<lb/>in primo flore botrus eius, et sicut oliva florem proiciens.
+						<lb/>Audi super hoc sententiam sapientis: «Omnis potentatus
+					<lb/>brevis vita».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXX</head>
+				<head type="h_2"><lb/><hi rend="italic">De diversis proprietatibus superborum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Statim autem ut ambitiosus promotus est ad honorem,
+						<lb/>in superbiam extollitur et in iactantiam effrenatur, nec curat
+						<lb/>prodesse, sed gloriatur preesse; presumit se meliorem, quia
+						<lb/>cernit se superiorem. At bonum non facit gradus, sed virtus,
+						<lb/>non dignitas, sed honestas. Priores dedignatur amicos, notos
+						<lb/>ignorat hesternos, comites contempnit antiquos. Vultum
+						<lb/>avertit, visum extollit, cervicem erigit, fastum ostendit, grandia
+						<lb/>loquitur, sublimia meditatur, subesse non patitur, preesse
+						<lb/>molitur, prelatis infestus, subditis onerosus. Molesta non
+						<lb/>suffert, concepta non differt, preceps et audax, gloriosus
+					<lb/>et arrogans, gravis et importunus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXI</head>
+				<head type="h_2"><lb/><hi rend="italic">De superbia et casu Luciferi.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Superbia cunctis importabilis, omnibus odiosa, inter
+						<lb/>omnia vitia tu semper es prima, tu semper es ultima. Nam
+						<lb/>omne peccatum te accedente committitur, te recedente dimittitur.
+						<lb/>Scriptum est enim: «Initium omnis peccati est
+						<lb/>superbia», «primogenita mors». Hec enim inter ipsa rerum
+						<pb n="63"/>
+						<lb/>primordia creaturam contra creatorem erexit, angelum contra
+						<lb/>Deum. Sed eum absque mora deiecit, quoniam in veritate
+						<lb/>non stetit, ab innocentia in peccatum, a deliciis in miserias,
+						<lb/>a celo empireo in aerem caliginosum. (2) Audi prophetam:
+						<lb/>«Quomodo cecidisti de celo, Lucifer, qui mane oriebaris?
+						<lb/>Qui dicebas in corde tuo: ‘In celum ascendam, super astra
+						<lb/>Dei exaltabo solium meum, sedebo in monte testamenti
+						<lb/>in lateribus aquilonis; ascendam super altitudinem nubium,
+						<lb/>et ero similis Altissimo’». «Tu signaculum similitudinis plenus
+						<lb/>sapientia et perfectus decore, in deliciis paradisi Dei
+						<lb/>fuisti. Omnis lapis pretiosus operimentum tuum, sardius,
+						<lb/>topazius et iaspis, chrisolitus, onix et berillus, carbunculus,
+						<lb/>sapphirus, smaragdus; aurum opus decoris tui et foramina
+						<lb/>tua in die qua conditus es preparata sunt. Tu cherub extensus
+						<lb/>et protegens, et posui te in monte sancto Dei, in medio
+						<lb/>lapidum ignitorum ambulasti, perfectus in viis tuis a die
+						<lb/>conditionis tue, donec inventa est iniquitas in te. Peccasti,
+						<lb/>et eieci te de monte Dei. Elevatum est cor tuum in decore
+						<lb/>tuo, et in terram proieci te». (3) «Cedri non fuerunt altiores
+						<lb/>illo in paradiso Dei. Abietes non adequaverunt ad summitatem
+						<lb/>eius, platani non fuerunt equales frondibus illius.
+						<lb/>Omne lignum pretiosum paradisi non est assimilatum illi
+						<lb/>et pulchritudini eius. Quoniam speciosum feci eum in multis
+						<lb/>condensis frondibus». «Ipse est rex super omnes filios
+						<lb/>superbie». Ipse est «draco magnus, rufus, habens capita
+						<lb/>septem et cornua decem, et in capitibus suis septem diademata,
+						<lb/>cuius cauda trahebat tertiam partem stellarum celi,
+						<pb n="64"/>
+						<lb/>et misit illas in terram». (4) «Et proiectus est draco ille
+						<lb/>magnus, serpens antiquus, qui vocatur diabolus et sathanas,
+						<lb/>qui seducit universum orbem, et proiectus est in terram, et
+						<lb/>angeli eius cum eo missi sunt». De quo et veritas ait: «Videbam
+						<lb/>Sathanam quasi fulgur de celo cadentem». Nam «omnis
+					<lb/>qui se exaltat humiliabitur et qui se humiliat exaltabitur».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXII</head>
+				<head type="h_2"><lb/><hi rend="italic">De arrogantia hominum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Superba presumptio, presumptuosa superbia, que non
+						<lb/>solum angelos Deo voluit adequare, sed homines presumpsit
+						<lb/>deificare. Porro, quos erexit depressit, et quos exaltavit
+						<lb/>humiliavit. Hinc ait Dominus ad prophetam: «Fili hominis,
+						<lb/>dic principi Tiri: ‘Haec dicit Dominus Deus: eo quod
+						<lb/>elevatum est cor tuum quasi cor Dei, et dixisti Deus ego
+						<lb/>sum, cum sis homo et non Deus, idcirco ego adducam super
+						<lb/>te robustissimos gentium, et interficient te, et morieris in
+						<lb/>interitu occisorum’». (2) Nabuchodonosor, quia potentiam
+						<lb/>suam superbe iactavit et ait: «Nonne hec est Babilon, quam
+						<lb/>edificavi michi in domum regni, in robore fortitudinis mee
+						<lb/>et in gloria decoris mei? Cum adhuc sermo esset in ore regis,
+						<lb/>vox de celo ruit: ‘Tibi dicitur, Nabuchodonosor rex: regnum
+						<lb/>tuum transiet a te, et ab hominibus te eicient et cum bestiis
+						<lb/>et feris erit habitatio tua, fenum quasi bos comedes et septem
+						<lb/>tempora mutabuntur super te, donec scias quod excelsus
+						<lb/>dominetur in regno hominum et cuicumque voluerit det
+						<lb/>illud’. Eadem hora sermo completus est super Nabuchodonosor».
+						<pb n="65"/>
+						<lb/>Verum est ergo quod legitur: «Homo cum in honore
+						<lb/>esset non intellexit, comparatus est iumentis insipientibus,
+					<lb/>et similis factus est illis».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Superbia turrem evertit et linguam confudit, prostravit
+						<lb/>Goliam et suspendit Aman, interfecit Nicanorem et peremit
+						<lb/>Antiochum, Pharaonem submersit et Sennacherib interemit.
+						<lb/>Sedes ducum superborum Deus destruit et radices gentium
+					<lb/>superbarum arefacit.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De abhominatione superbie.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quam detestabilis sit superbia, Dominus ipse per prophetam
+						<lb/>testatur: «Iuravit Dominus Deus in anima sua,
+						<lb/>dicit Dominus Deus exercituum. Detestor ego superbiam Iacob».
+						<lb/>Et «iuravit Dominus in superbiam Iacob: si oblitus fuero
+						<lb/>usque ad finem omnia opera eorum». Unde inter illa sex,
+						<lb/>que Dominus odit, et septimum detestatur anima eius,
+					<lb/>Salomon primum ponit oculos sublimes, id est superbiam.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Et Isaias: «Dies Domini exercituum super omnem superbum
+						<lb/>et excelsum et super omnem arrogantem, et humiliabitur;
+						<lb/>et super omnes cedros Libani sublimes et erectas et
+						<lb/>super omnes quercus Basan et super omnes montes excelsos
+						<lb/>et super omnes colles elevatos et super omnem turrem
+						<lb/>excelsam et super omnem murum munitum, et incurvabitur
+						<lb/>sublimitas hominum et humiliabitur altitudo virorum».
+						<pb n="66"/>
+						<lb/>«Propterea dilatavit infernus animam suam et aperuit os
+						<lb/>suum absque ullo termino, et descendunt sublimes gloriosique
+						<lb/>eius ad eum». «Dominus exercituum cogitavit hoc,
+						<lb/>ut destraheret superbiam omnis glorie». Iob quoque dicit:
+						<lb/>«Si ascenderit usque ad celum superbia et caput eius nubes
+					<lb/>tetigerit, quasi sterquilinium in fine perdetur».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Contra arrogantiam superborum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Omnis fere vitiosus diligit sibi similem, superbus autem
+						<lb/>odit elatum. Unde Salomon: «Inter superbos semper sunt
+						<lb/>iurgia», et: «ubi fuerit superbia, ibi et contumelia». Superbus
+						<lb/>insolita gestit, consueta fastidit. Magnum reputat si loqui
+						<lb/>dignetur, maximum si surgit et amplexatur. Existimat
+						<lb/>plus dignitatem ab ipso, quam ipsum assecutum ex
+						<lb/>dignitate. Nunquam vult uti paternitatis imperio. Superbia
+						<lb/>eius et arrogantia eius et indignatio eius plus quam fortitudo
+						<lb/>eius. (2) Revolvat in animo quod legitur in evangelio: «Facta
+						<lb/>est contentio inter discipulos Iesu quis eorum videretur
+						<lb/>esse maior, et ait illis Iesus: ‘Principes gentium dominantur
+						<lb/>eorum et qui potestatem habent super eos benefici vocantur.
+						<lb/>Vos autem non sic, sed qui maior est inter vos, erit
+						<lb/>sicut minor et qui precessor est sicut ministrator’». Et Petrus,
+						<lb/>apostolorum magister: «Non quasi dominantes in clero, sed
+					<lb/>forma facti gregis ex animo».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>«Domini est terra, et plenitudo eius, orbis terrarum et
+						<pb n="67"/>
+						<lb/>universi qui habitant in eo». Unus est ergo Deus et unus
+						<lb/>est Dominus; ceteri non sunt domini, sed ministri, quibus
+						<lb/>interdicitur dominium et indicitur ministerium. Audi super
+						<lb/>hoc sapientem: «Rectorem te posuerunt, noli extolli,
+					<lb/>esto in illis quasi unus ex illis».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXV</head>
+				<head type="h_2"><lb/><hi rend="italic">Contra fraudem ambitiosorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Filii Zebedei, qui per interventum matris honorem postulaverunt
+						<lb/>a Christo: «Dic, inquit, ut sedeant hi duo filii mei,
+						<lb/>unus ad dexteram et alius ad sinistram tuam in regno tuo»,
+						<lb/>meruerunt audire: «Nescitis quid petatis». Non enim honore,
+						<lb/>sed onere pervenitur ad regnum. Unde Dominus subdit:
+						<lb/>«Non est meum dare vobis». Meum est quidem dare,
+						<lb/>sed non vobis, id est ambitiosis, quales vos estis. Licet autem
+						<lb/>omnis potestas a Deo sit, superbus tamen non regnat
+						<lb/>ex Deo, secundum illud propheticum: «Ipsi regnaverunt
+					<lb/>et non ex me, principes exstiterunt et non cognovi eos».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXVI</head>
+				<head type="h_2"><lb/><hi rend="italic">De proprietatibus arrogantium.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Superbus «amat primas cathedras in sinagogis, primos
+						<lb/>recubitus in cenis, salutationes in foro et vocari ab hominibus
+						<lb/>rabbi». Non nomine persone, sed nomine fortune vult
+						<lb/>appellari, non ut homo, sed ut Deus vult honorari. Sedet
+						<lb/>sublimis, incedit excelsus, vult sibi omnes assurgere, singulos
+						<pb n="68"/>
+						<lb/>inclinare.(2) Porro philosophus quidam volens arrogantiam
+						<lb/>cuiusdam regis illudere, cum vidisset eum in throno
+						<lb/>regali sedere sublimem, prostratus in terram suppliciter
+						<lb/>adoravit et confestim non invitatus ascendens iuxta regem
+						<lb/>consedit. Quod rex vehementer admirans, eo quod nosset
+						<lb/>illum esse philosophum, quid hoc egerit exquisivit. Philosophus
+						<lb/>ergo respondit: «Aut Deus es, aut homo: si Deus,
+						<lb/>debui te adorare, si homo, potui iuxta te sedere». Rex
+						<lb/>autem responsionem convertens contra philosophum intulit:
+						<lb/>«Imo si homo sum, non debuisti me adorare, si Deus,
+						<lb/>non debuisti iuxta me sedere». Sapienter iste respondit, sed
+					<lb/>ille prudenter elusit.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXVII</head>
+				<head type="h_2"><lb/><hi rend="italic">De superfluo cultu.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Primis parentibus fecit Deus perizomata post peccatum,
+						<lb/>et a Christo dicitur Christianis: «Non duas tunicas habeatis».
+						<lb/>Sed iuxta Iohannis consilium: «Qui habet duas tunicas det
+						<lb/>non habenti unam». Superbus autem, ut magnificus videatur,
+						<lb/>satagit vestiri duplicibus, indui mollibus, pretiosis ornari.
+						<lb/>Sed quid est homo pretiosis ornatus nisi sepulcrum
+						<lb/>foris dealbatum, intus autem plenum spurcitia? Iacintus
+						<lb/>et purpura, coccus et bissus in limo putrescunt, aurum et
+						<lb/>argentum, lapides et gemmae in luto sordescunt. Dignitas
+						<lb/>et potestas male iacent in pulvere, honor et gloria male sedent
+						<lb/>in cinere. (2) Quid ergo superbe philacteria dilatas et
+						<pb n="69"/>
+						<lb/>magnificas fimbrias? Dives ille, qui induebatur purpura et
+						<lb/>bisso, sepultus est in inferno. Dina, filia patriarche Iacob,
+						<lb/>antequam egrederetur, ut ait Iosephus, ut emeret ornatum
+						<lb/>mulierum provincialium, virgo permansit; cum autem exivit,
+						<lb/>Sichem filius regis Amor eam violenter oppressit. Holofernes,
+						<lb/>qui sedebat in canopeo quod erat ex purpura et
+						<lb/>auro et smaragdo et lapidibus pretiosis intextum, iugulatus
+						<lb/>est a Iudith, que, cum prius uteretur cilicio, tunc ornatum
+						<lb/>iucunditatis assumpsit. (3) Audi super hoc sententiam sapientis:
+						<lb/>«In vestitu ne glorieris unquam». Et apostolus:
+						<lb/>«Non in veste pretiosa», «nec sit extrinsecus capillatura
+					<lb/>aut circumdatio auri aut vestimentorum cultus».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Contra superfluum ornatum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Attende quid contra superfluum ornatum comminetur
+						<lb/>Dominus per prophetam: «Pro eo quod elevate sunt filie
+						<lb/>Sion et ambulaverunt extento collo et nutibus oculorum
+						<lb/>ibant, decalvabit Dominus verticem filiarum Sion et crinem
+						<lb/>earum nudabit. In die illa auferet Dominus ornatum calciamentorum
+						<lb/>et lunulas et torques et monilia et armillas
+						<lb/>et mitras et discriminalia et periscelidas et murenulas et
+						<lb/>olfactoriola et inaures et anulos et gemmas in fronte pendentes
+						<lb/>et mutatoria et palliola et linteamina et acus et specula
+						<lb/>et sindones et vittas et theristra. Et erit pro suavi odore
+						<lb/>fetor, et pro zona funiculus, et pro crispanti crine calvitium,
+					<lb/>et pro fascia pectorali cilicium».</p>
+				</div>
+				<pb n="70"/>
+				<div>
+					<head><lb/>(2)</head> <p>Ecce iusta redditur pena pro culpa, ut in eo puniantur
+						<lb/>in quo peccaverunt. Adhuc audi super his alium prophetam:
+						<lb/>«O Tire, bissus varia de Egipto texta est tibi in velum, iacintus
+						<lb/>et purpura de insulis Elisa facta sunt operimentum tuum.
+						<lb/>Dentes eburneos et hebeninos commutaverunt in pretio
+						<lb/>tuo. Gemmam et purpuram et scutulata et bissum et sericum
+						<lb/>et codum proposuerunt in mercato tuo. Dedan institores
+						<lb/>tui in tapetibus ad sedendum, et repleta es et glorificata
+						<lb/>nimis. Sed nunc contrita es in mari et in profundis aquarum,
+						<lb/>opes tue ad nichilum redacte sunt, et non eris usque in
+					<lb/>perpetuum».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XXXVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod plus defertur vestibus quam virtutibus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Cum quidam philosophus in habitu contemptibili principis
+						<lb/>aulam adisset et diu pulsans non fuisset admissus,
+						<lb/>sed quotiens temptasset ingredi totiens contigisset repelli,
+						<lb/>mutavit habitum et assumpsit ornatum: tunc ad primam
+						<lb/>vocem aditus patuit venienti. Qui procedens ad principis
+						<lb/>pedes pallium quod gestabat cepit venerabiliter osculari.
+						<lb/>Super quo princeps admirans, cur hoc ageret exquisivit.
+						<lb/>Philosophus vero respondit: «Honorantem honoro, quia quod
+						<lb/>virtus non potuit, vestis obtinuit». «O vanitas vanitatum»,
+						<lb/>plus honoris defertur vestibus quam virtutibus, plus venustati
+					<lb/>quam honestati.</p>
+				</div>
+			</div>
+			<pb n="71"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XL</head>
+				<head type="h_2"><lb/><hi rend="italic">De ornatu persone et mense et domus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Artificialis species superducitur et facies obducitur naturalis,
+						<lb/>tanquam hominis artificium artem superet creatoris.
+						<lb/>Non sic, non sic. «Considerate, inquit, lilia agri, quomodo
+						<lb/>crescunt; non laborant, neque nent. Dico autem vobis quoniam
+						<lb/>nec Salomon in omni gloria sua coopertus est sicut
+						<lb/>unum ex istis». (2) Absit autem ut adulterinus color comparabilis
+						<lb/>sit nativo: quinimmo, cum facies adulterino colore
+						<lb/>fuscatur, os abhominabili fetore corrumpitur. «Universa vanitas
+						<lb/>omnis homo vivens». Quid enim vanius quam pectere
+						<lb/>crines, ungere faciem, planare cesariem, tingere genas, producere
+						<lb/>supercilia, quando quidem «fallax sit gratia et vana
+						<lb/>sit pulchritudo»? «Omnis caro fenum, et omnis gloria eius
+						<lb/>quasi flos agri», quoniam «tanquam fenum velociter arescunt
+					<lb/>et sicut holera herbarum cito decident».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Ut autem ornatum persone preteream, ne malignius
+						<lb/>quam verius videar aliquos succensere, quid vanius quam
+						<lb/>ornare mensam mantilibus picturatis, cultellis ebore manicatis,
+						<lb/>vasis aureis, vasculis argenteis, cuppis et nappis, varalibus
+						<lb/>et gradalibus, scutellis et coclearibus, fuscinulis et
+					<lb/>salariis, bacilibus et urceolis, capsulis et flabellis?</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Quid prodest pingere cameras, ditare perticas, paliare
+						<lb/>vestibulum, substernere pavimentum, componere lectum
+						<lb/>inflatum plumis, opertum sericis, obductum cortinis aut
+						<pb n="72"/>
+						<lb/>conopeo? Scriptum est enim: «Non cum morietur accipiet
+						<lb/>hec omnia, neque simul descendet cum eo gloria eius».
+					<lb/><hi rend="italic">Explicit liber secundus.</hi></p>
+				</div>
+			</div>
+		</div>
+		<pb n="73"/>
+		<div type="book">
+			<head type="h_1"><lb/>LIBER TERTIUS</head>
+			<head type="h_2"><lb/>DE DAMPNABILI HUMANE CONDITIONIS EGRESSU</head>
+			<div type="chapter">
+				<p><lb/>Incipiunt capitula tertii libri:</p>
+				<p><lb/>I. <hi rend="italic">De dampnabili humane conditionis egressu.</hi></p>
+				<p><lb/>II. <hi rend="italic">De doloribus quos mali patiuntur in morte.</hi></p>
+				<p><lb/>III. <hi rend="italic">De adventu Christi ad diem mortis cuiuslibet
+				<lb/>hominis.</hi></p>
+				<p><lb/>IIII. <hi rend="italic">De putredine cadaverum.</hi></p>
+				<p><lb/>V. <hi rend="italic">De tristi memoria dampnatorum.</hi></p>
+				<p><lb/>VI. <hi rend="italic">De inutili penitentia reproborum.</hi></p>
+				<p><lb/>VII. <hi rend="italic">De ineffabili angustia dampnatorum.</hi></p>
+				<p><lb/>VIII. <hi rend="italic">De diversis penis inferni.</hi></p>
+				<p><lb/>VIIII. <hi rend="italic">De igne gehennali.</hi></p>
+				<p><lb/>X. <hi rend="italic">De tenebris inferni.</hi></p>
+				<p><lb/>XI. <hi rend="italic">De conversione penarum.</hi></p>
+				<p><lb/>XII. <hi rend="italic">De diffidentia dampnatorum.</hi></p>
+				<p><lb/>XIII. <hi rend="italic">Cur reprobi numquam liberabuntur a penis.</hi></p>
+				<p><lb/>XIIII. <hi rend="italic">Testimonia de suppliciis eternalibus.</hi></p>
+				<p><lb/>XV. <hi rend="italic">De die iudicii.</hi></p>
+				<p><lb/>XVI. <hi rend="italic">De precedente tribulatione.</hi></p>
+				<p><lb/>XVII. <hi rend="italic">Qualiter veniet Dominus ad iudicium.</hi></p>
+				<p><lb/>XVIII. <hi rend="italic">De potentia et sapientia et iustitia iudicis.</hi></p>
+				<p><lb/>XVIIII. <hi rend="italic">De divino iudicio.</hi></p>
+				<p><lb/>XX. <hi rend="italic">Quod nichil proderit dampnandis.</hi></p>
+			</div>
+			<pb n="75"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>I</head>
+				<head type="h_2"><lb/><hi rend="italic">De dampnabili humane conditionis egressu.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Non est qui de cordis munditia valeat gloriari, quoniam
+						<lb/>«in multis offendimus omnes». «Et si dixerimus quia peccatum
+						<lb/>non habemus, nos ipsos seducimus et veritas in nobis
+						<lb/>non est». Quis est qui valeat illud dicere cum apostolo:
+						<lb/>«Nichil michi conscius sum, non tamen in hoc iustificatus
+						<lb/>sum?». «Quis est hic et laudabimus eum?». «Ecce inter
+						<lb/>sanctos nemo est immutabilis, celi non sunt mundi in
+						<lb/>conspectu eius», «et in angelis eius repperit pravitatem».
+						<lb/>«Quanto magis abhominabilis est homo et inutilis, qui bibit
+					<lb/>quasi aquam iniquitatem?».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Penituit ergo Deum quod hominem fecisset in terra, eo
+						<lb/>quod multa esset hominum malitia super terram et cuncta
+						<lb/>cogitatio hominis omni tempore ad malum intenta, et ideo
+						<lb/>tactus dolore cordis intrinsecus delevit hominem quem creavit».
+						<lb/>Porro, superhabundavit iniquitas, et refriguit caritas
+						<lb/>multorum. «Omnes declinaverunt, simul inutiles facti sunt,
+					<lb/>non est qui faciat bonum, non est usque ad unum».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Tota pene vita mortalium mortalibus est plena peccatis,
+						<lb/>ut vix valeat inveniri qui non deviet ad sinistram, qui non
+						<lb/>revertatur ad vomitum, qui non computrescat in stercore
+						<pb n="76"/>
+						<lb/>suo. Qui potius «gloriantur cum malefecerint et exultant
+						<lb/>in rebus pessimis». «Repleti sunt omni iniquitate, malitia,
+						<lb/>fornicatione, avaritia, nequitia, pleni invidia, homicidiis,
+						<lb/>contentione, dolo, malignitate, susurrones, detractores, Deo
+						<lb/>odibiles, contumeliosi, superbi, elati, inventores malorum,
+						<lb/>parentibus non obedientes, insipientes, incompositi, sine affectione,
+						<lb/>absque federe, sine misericordia». (4) Talibus et
+						<lb/>peioribus mundus iste repletus habundat hereticis et scismaticis,
+						<lb/>perfidis et tyrannis, simoniacis et ypocritis, ambitiosis
+						<lb/>et cupidis, raptoribus et predonibus, violentis et exactoribus,
+						<lb/>usurariis et falsariis, impiis et sacrilegis, proditoribus et
+						<lb/>mendacibus, adulatoribus et fallacibus, garrulis et versutis,
+						<lb/>gulosis et ebriosis, adulteris et incestuosis, mollibus et immundis,
+						<lb/>pigris et negligentibus, vanis et prodigis, impetuosis
+						<lb/>et iracundis, impatientibus et inconstantibus, veneficis
+						<lb/>et auguribus, periuris et execratis, presumptuosis et
+						<lb/>arrogantibus, incredulis et desperatis, demum universis vitiis
+						<lb/>irretitis. Porro, «sicut deficit fumus deficient, et sicut
+					<lb/>fluit cera a facie ignis, sic pereant peccatores a facie Dei».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>II</head>
+				<head type="h_2"><lb/><hi rend="italic">De doloribus quos mali patiuntur in morte.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Mali siquidem quatuor dolores patiuntur in morte. Primus
+						<lb/>dolor est angustia corporea, tanta et tam gravis quanta
+						<lb/>vel qualis nec fuit, nec est in presenti vita ante dissolutionem
+						<lb/>illam. Quod in quibusdam, etsi non in omnibus apparet,
+						<pb n="77"/>
+						<lb/>pre nimio dolore seipsos discerpentibus. Fortis enim et incomparabilis
+						<lb/>est violentia, quando nexus illi et physicales
+						<lb/>nodi inter corpus et animam disrumpuntur. Unde propheta
+						<lb/>lamentando ait: «Circumdederunt me dolores mortis». Nota:
+						<lb/>Circumdederunt me. Non est membrum, non est articulus
+						<lb/>in corpore quod penitus non involvatur illo inexplicabili
+					<lb/>dolore.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Secundus dolor est, quando iam plene defatigato corpore
+						<lb/>et suis exhausto corpore viribus, anima multo liberius
+						<lb/>videt tunc in momento occurrere omnia opera bona vel
+						<lb/>mala que fecit, que omnia reducuntur ante oculos interiores.
+						<lb/>Dolor iste tantus, et retractio ista tam gravis est, quod anima
+						<lb/>plurimum turbata cogitur quasi seipsam odisse. Unde dicitur:
+						<lb/>«Torrentes iniquitatis conturbaverunt me». Nota:
+						<lb/>torrentes cum multo impetu veniunt et videntur diruere
+						<lb/>omnia, ita in morte videbit malus omnia subito que ante
+					<lb/>fecit opera bona vel mala.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Tertius dolor est, quando anima iam incipit tam iuste
+						<lb/>diiudicare et sibi in iniquitatibus suis singularia et gehenne
+						<lb/>debita tormenta videt imminere. Unde dicitur: «Circumdederunt
+					<lb/>me dolores mortis etc.».</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Quartus dolor est, quando anima adhuc in corpore posita
+						<lb/>videt spiritus malignos ad rapiendum se paratos, ubi
+						<lb/>tantus dolor est et timor, quod misera anima, licet extincta,
+						<lb/>quandiu potest refugiat et tempus sue captivitatis redimat
+					<lb/>antequam de corpore exeat.</p>
+				</div>
+			</div>
+			<pb n="78"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>III</head>
+				<head type="h_2"><lb/><hi rend="italic">De adventu Christi ad diem mortis cuiuslibet hominis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Videt etiam tam bonus quam malus, antequam anima
+						<lb/>egrediatur de corpore, Christum in cruce positum. Malus
+						<lb/>videt ad confusionem, ut erubescat se non esse redemptum
+						<lb/>sanguine Christi, sua culpa exigente. Unde de malis dicitur:
+						<lb/>«Videbunt in quem pupugerunt», quod intelligitur de adventu
+						<lb/>ad iudicium et de adventu ad diem mortis. (2) Bonus
+						<lb/>vero videt ad exultationem. Et hoc habemus ex verbis apostoli
+						<lb/>qui ait: «Usque in diem adventus Domini nostri Jesu
+						<lb/>Christi»: id est in diem mortis, quando apparet tam bonis
+						<lb/>quam malis Christus in cruce positus. Et ipse Christus de
+						<lb/>Iohanne evangelista ait: «Sic eum volo manere donec veniam».
+						<lb/>Sic scilicet in virginitate persevererantem, donec veniam
+					<lb/>ad obitum ipsius.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Quatuor namque leguntur adventus Christi. Duo visibiles:
+						<lb/>in carne primus, ad iudicium secundus. Et duo invisibiles:
+						<pb n="79"/>
+						<lb/>primus in mente per gratiam, unde: «Ad eum veniemus
+						<lb/>et mansionem apud eum faciemus»; alter in obitu
+						<lb/>uniuscuiusque fidelis, unde Iohannes: «Veni domine Iesu».
+					<lb/>Unde dicitur obitus, quia obviam venit ei Christus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>IIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De putredine cadaverum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Exibit spiritus eius, et revertetur in terram suam, in
+						<lb/>illa die peribunt omnes cogitationes eorum». O quot et
+						<lb/>quanta mortales de mundane provisionis incertitudine cogitant,
+						<lb/>sed sub repentino mortis articulo repente cuncta que
+						<lb/>cogitant evanescunt. «Sicut umbra cum declinat ablatus
+						<lb/>sum et excussus sum sicut locuste». Exibit ergo spiritus
+						<lb/>non voluntarius, sed invitus, quia cum dolore dimittit que
+						<lb/>cum amore possedit, ac velit nolit, constitutus est ei terminus
+						<lb/>qui preteriri non poterit, in quo terra revertetur in
+					<lb/>terram. Scriptum est enim: «Terra es, et in terram ibis».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Naturale siquidem est ut materiatum in materiam dissolvatur.
+						<lb/>«Auferet ergo spiritum eorum et deficient, et in pulverem
+						<pb n="80"/>
+						<lb/>suum revertentur». Cum autem morietur homo, hereditabit
+						<lb/>bestias, serpentes et vermes. «Omnes enim in pulvere
+						<lb/>dormient et vermes operient eos». «Sicut vestimentum
+						<lb/>sic comedet eos vermis, et sicut lanam sic devorabit eos
+						<lb/>tinea». «Quasi putredo consumendus sum et quasi vestimentum
+						<lb/>quod comeditur a tinea». «Putredini dixi: ‘Pater
+						<lb/>meus es, mater mea, et soror mea vermibus’». «Homo putredo
+						<lb/>et filius hominis vermis». Quam turpis pater, quam
+						<lb/>vilis mater, quam abhominabilis soror! (3) Conceptus est
+						<lb/>homo de sanguine per ardorem libidinis putrefacto, cuius
+						<lb/>tandem cadaveri quasi funebres vermes adsistent. Vivus
+						<lb/>genuit pediculos et lumbricos, mortuus generabit vermes
+						<lb/>et muscas; vivus produxit stercus et vomitum, mortuus
+						<lb/>producet putredinem et fetorem; vivus hominem unicum
+						<lb/>impinguavit, mortuus vermes plurimos impinguabit. Quid
+						<lb/>ergo fetidius humano cadavere? quid horribilius mortuo homine?
+						<lb/>Cui gratissimus erat amplexus in vita, molestus erit
+						<lb/>aspectus in morte. (4) Quid ergo prosunt divitie? quid
+						<lb/>epule? quid honores? Divitie enim non liberabunt a morte,
+						<lb/>epule non defendent a verme, honores non eripient a fetore.
+						<lb/>Qui modo sedebat gloriosus in throno, modo iacet
+						<lb/>despectus in tumulo; qui modo fulgebat ornatus in aula,
+						<lb/>modo sordet nudus in tumba; qui modo vescebatur deliciis
+					<lb/>in cenaculo, modo consumitur a vermibus in sepulcro.</p>
+				</div>
+			</div>
+			<pb n="81"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>V</head>
+				<head type="h_2"><lb/><hi rend="italic">De tristi memoria dampnatorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Vindicta carnis impii vermis et ignis». Uterque duplex:
+						<lb/>interior, qui rodit et urit cor, exterior, qui rodit et urit
+						<lb/>corpus. «Vermis, inquit, eorum non morietur, et ignis non
+						<lb/>exstinguetur». «Dabit Dominus ignem et vermes in carnes
+					<lb/>eorum, ut urantur et sentiant usque in sempiternum».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Vermis conscientie tripliciter lacerabit: affliget memoria,
+						<lb/>turbabit penitentia, torquebit angustia. «Venient enim in
+						<lb/>cogitatione peccatorum suorum timidi et transducent illos
+						<lb/>ex adverso iniquitates eorum», dicentes: «Quid profuit nobis
+						<lb/>superbia? et iactantia divitiarum quid contulit nobis? Transierunt
+						<lb/>illa omnia tanquam umbra et sicut navis que pertransit
+						<lb/>fluctuantem aquam, cuius cum preterierit non est
+						<lb/>invenire vestigium». Sic et nos: nati continuo desinimus
+						<lb/>esse virtutisque signum nullum valemus ostendere, sed in
+						<lb/>malignitate nostra consumpti sumus. Cum ingenti turbatione
+						<lb/>recogitabunt que cum nimia delectatione gesserunt,
+						<lb/>ut stimulus memorie pungat ad penam quos aculeus nequitie
+					<lb/>stimulavit ad culpam.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VI</head>
+				<head type="h_2"><lb/><hi rend="italic">De inutili penitentia reproborum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Dicent intra se penitentiam agentes: «Erravimus a via
+						<lb/>veritatis et iustitie lumen non luxit nobis». «Tunc incipient
+						<lb/>dicere montibus: ‘Cadite super nos’; et collibus: ‘Operite
+						<pb n="82"/>
+						<lb/>nos’». Penitebunt ad penam, sed non convertentur ad veniam.
+						<lb/>Iustum est enim ut qui noluerunt cum potuerunt,
+						<lb/>cum velint non possint, dedit enim eis Deus locum penitentie
+						<lb/>et ipsi abusi sunt eo. (2) Propterea dives ille qui cruciabatur
+						<lb/>in flamma, dicebat ad Abraham: «Rogo te, pater,
+						<lb/>ut mittas Lazarum in domum patris mei. Habeo enim
+						<lb/>quinque fratres, ut testetur illis, ne et ipsi veniant in hunc
+						<lb/>locum tormentorum. Cui cum Abraham respondisset: ‘Habent
+						<lb/>Moysen et prophetas, audiant illos’, subiunxit: ‘Non,
+						<lb/>pater Abraham: sed si quis ex mortuis ierit ad eos, penitentiam
+						<lb/>agent’». Agebat et ipse penitentiam in inferno, sed
+						<lb/>quia cognoscebat illam inutilem, rogabat ut annuntiaretur
+						<lb/>hoc fratribus suis, quatenus agerent penitentiam in hoc seculo
+						<lb/>fructuosam, quia tunc prodest homini penitere, cum
+					<lb/>potest ipse peccare.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VII</head>
+				<head type="h_2"><lb/><hi rend="italic">De ineffabili angustia dampnatorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Videntes turbabuntur timore horribili, gementes pre
+						<lb/>angustia spiritus et dicentes: ‘Hii sunt quos aliquando habuimus
+						<lb/>in derisum et in similitudinem improperii; nos insensati
+						<lb/>vitam illorum estimabamus insaniam et finem illorum
+						<lb/>sine honore. Ecce quomodo computati sunt inter filios
+					<lb/>Dei et inter sanctos sors illorum est’».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Supplicium erit malorum intueri gloriam beatorum, licet
+						<lb/>forte post finem iudicii. Beati quoque visuri sunt reprobos
+						<pb n="83"/>
+						<lb/>in tormentis, secundum illud: «Letabitur iustus cum viderit
+						<lb/>vindictam impiorum». Reprobi vero non sunt visuri beatos
+						<lb/>in gloria, secundum illud: «Tollatur impius, ne videat gloriam
+						<lb/>Dei». Talia dicent in inferno peccatores, quoniam
+						<lb/>«spes impii tamquam lanugo est que a vento tollitur, et
+						<lb/>tamquam spuma gracilis que a procella dispergitur, et tamquam
+						<lb/>fumus a vento diffusus, et tamquam memoria hospitis
+					<lb/>unius diei».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diversis penis inferni.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Pene autem infernales secundum diversa peccata sunt
+						<lb/>diverse. Prima pena est ignis, secunda frigus. De his dicit
+						<lb/>Dominus: «Ibi erit fletus et stridor dentium». Fletus propter
+						<lb/>fumum ignis, stridor dentium propter frigus. Tertia
+						<lb/>pena erit fetor. De his tribus dicitur: «Ignis, sulphur et
+						<lb/>spiritus procellarum». Quarta vermes indeficientes, unde
+						<lb/>dicitur: «Vermis eorum non morietur, et ignis eorum non
+						<lb/>exstinguetur». Quinta flagra percutientium, unde dicitur:
+						<lb/>«Parata sunt iudicia blasphematoribus et percutientes mallei
+						<lb/>stultorum corporibus». Sexta tenebre palpabiles exteriores
+						<lb/>et interiores, unde illud: «Terra miserie et tenebrarum,
+						<lb/>ubi umbra mortis»; et alibi: «Vadam ad terram tenebrosam,
+						<lb/>et opertam mortis caligine»; et illud: «In eternum non videbunt
+						<pb n="84"/>
+						<lb/>lumen»; et alibi: «Impii in tenebris contiscescent».
+						<lb/>Septima confusio peccatorum: «Tunc enim, ut legitur,
+						<lb/>erunt libri aperti», id est conscientie hominum erunt omnibus
+						<lb/>manifeste. Octava horribilis visio demonum, qui videbuntur
+						<lb/>in excussione scintillarum de igne ascendentium.
+						<lb/>Nona ignee catene, quibus impii singulis membris astringentur.
+					<lb/>/*</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Prima est concupiscentium, secunda malitiosorum, tertia
+						<lb/>luxuriosorum, quarta invidorum et odio habentium,
+						<lb/>quinta eorum qui in hoc seculo per flagella non meruerunt
+						<lb/>castigari, quia «exacerbavit Dominum peccator, secundum
+						<lb/>multitudinem ire sue non queret», sexta eorum qui in tenebris
+						<lb/>ambulantes ad lumen verum, scilicet Christum, venire
+						<lb/>contempserunt, septima confitentium peccata sua et
+						<lb/>penitentiam contempnentium, octava eorum qui libenter
+						<lb/>in hoc seculo vident mala et faciunt, nona eorum qui per
+						<lb/>singula vitia sunt defluxi, qui ambulant in desideriis suis et
+					<lb/>eunt post concupiscientas suas.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>VIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De igne gehennali.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Ignis gehenne nec lignis nutritur nec flatu succenditur,
+						<lb/>sed a Deo creatus est inextinguibilis ab origine mundi. Sicut
+						<lb/>scriptum est: «Devorabit eum ignis qui non succenditur».
+						<lb/>Creditur autem esse sub terris, secundum illud propheticum:
+						<lb/>«Infernus subter conturbatus est in occursum adventus
+						<pb n="85"/>
+						<lb/>tui». Sed et omnis locus reprobis est penalis, qui
+						<lb/>semper secum deferunt cruciatum et ubique contra se tormentum
+						<lb/>incurrunt. «Producam, inquit, ignem de medio tui,
+						<lb/>qui comedet te». (2) Ignis autem gehenne semper ardebit, et
+						<lb/>nunquam lucebit: semper uret, et nunquam consumet: semper
+						<lb/>afficiet, et nunquam deficiet. Est enim apud inferos
+						<lb/>summa tenebrarum obscuritas, immensa penarum acerbitas,
+						<lb/>infinita miseriarum eternitas. «Ligatis, inquit, manibus et
+						<lb/>pedibus, mittite eum in tenebras exteriores; ibi erit fletus
+					<lb/>et stridor dentium».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Singula membra pro suis peccatis propria sustinebunt
+						<lb/>tormenta, ut in eo puniantur in quo peccaverunt. Scriptum
+						<lb/>est enim: «Per que peccat homo, per hec et torquetur».
+						<lb/>Unde qui lingua peccaverat, criciabatur in lingua. Propter
+						<lb/>quod ipse clamabat: «Pater Abraham, miserere mei et mitte
+						<lb/>Lazarum ut intingat extremum digiti sui in aquam ut refrigeret
+						<lb/>linguam meam, quia crucior in hac flamma». Per
+						<lb/>digitum intelligitur operatio, digitis enim operamur. Quasi
+						<lb/>dicat: Si minimum operum Lazarum haberem, minorem penam
+					<lb/>sentirem.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>X</head>
+				<head type="h_2"><lb/><hi rend="italic">De tenebris inferni.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Reprobi vero non solum exterioribus, sed etiam interioribus
+						<lb/>tenebris involventur, quia spirituali luce pariter et corporali
+						<lb/>carebunt. Scriptum est enim: «Tollatur impius, ne videat
+					<lb/>gloriam Dei», qui solus tunc erit «in lucem sempiternam».</p>
+				</div>
+				<pb n="86"/>
+				<div>
+					<head><lb/>(2)</head> <p>Tantam autem in penis reprobi tollerabunt angustiam, ut
+						<lb/>vix aliquid cogitare valeant propter penam, sed «illuc dirigent
+						<lb/>impetum cogitationis, ubi sentient vim doloris». Sane
+						<lb/>discipulus quidam fertur apparuisse magistro post mortem.
+						<lb/>Quem magister cum intellexisset esse dampnatum,
+						<lb/>quesivit ab eo si alique questiones apud inferos verterentur.
+						<lb/>Qui dicitur respondisse apud inferos queri quid solummodo
+					<lb/>non sit pena.</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Sed Salomon ait: «Nec opus, nec ratio, nec sapientia,
+						<lb/>nec scientia est apud inferos, quo tu properas». Erit enim
+						<lb/>in reprobis tanta mentis oblivio, tanta cecitas animi, tanta
+						<lb/>confusio rationis, ut raro vel nunquam ad cogitandum quidquam
+						<lb/>de Deo possint assurgere, nedum ad confitendum valeant
+						<lb/>respirare. Nam «a mortuo perit confessio», tanquam
+						<lb/>ab eo qui non est. Scriptum est enim: «Non mortui laudabunt
+						<lb/>te Domine, neque omnes qui descendunt in infernum».
+					<lb/>«Non infernus confitebitur tibi, neque mors laudabit te».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XI</head>
+				<head type="h_2"><lb/><hi rend="italic">De conversione penarum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Dimitte me, dicit Iob, ut plangam paululum dolorem
+						<lb/>meum, antequam vadam et non revertar ad terram tenebrosam
+						<lb/>et opertam mortis caligine; terram miserie et tenebrarum,
+						<lb/>ubi umbra mortis et nullus ordo, sed sempiternus
+						<pb n="87"/>
+						<lb/>horror inhabitat». (2) Ordo quidem erit in quantitate penarum,
+						<lb/>quoniam «in qua mensura mensi fueritis remetietur
+						<lb/>vobis», ut qui gravius peccaverunt, gravius puniantur: «Potentes
+						<lb/>enim potenter tormenta patientur». Sed non erit ordo
+						<lb/>in qualitate rerum, quia de aquis nivium transibunt ad calorem
+						<lb/>nimium, ut subita contrariorum mutatio graviorem
+						<lb/>inferat cruciatum. Experimento cognovi quod adustus, si
+					<lb/>frigidum adhibeat, ardentiorem sentiet cruciatum.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XII</head>
+				<head type="h_2"><lb/><hi rend="italic">De diffidentia dampnatorum.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Sicut oves in inferno positi sunt, mors depascet eos».
+						<lb/>Dictum est hoc a similitudine iumentorum, que non radicitus
+						<lb/>evellunt herbas, sed summitates solumodo carpunt, ut
+						<lb/>iterum herbe renascantur ad pastum. Sic impii quasi morte
+						<lb/>depasti reviviscent ad mortem ut eternaliter moriantur:
+						<lb/>Sic inconsumptum Titii semperque renascens
+					<lb/>non perit, ut possit sepe perire iecur.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Tunc erit mors immortalis, tunc vivent morti qui vite
+						<lb/>sunt mortui. Querent mortem et non invenient, quia vitam
+						<lb/>habuerunt et perdiderunt. Audi Iohannem in Apocalypsi
+						<lb/>dicentem: «In diebus illis querent homines mortem et non
+						<pb n="88"/>
+						<lb/>invenient eam, et desiderabunt mori et fugiet mors ab eis».
+						<lb/>O mors quam dulcis esses quibus tam amara fuisti, te solum
+					<lb/>desideranter optabunt, qui te solam vehementer oderunt.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Cur reprobi nunquam liberabuntur a penis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Nullus igitur sibi blandiatur et dicat quia «Deus non
+						<lb/>in finem irascetur, neque in eternum indignabitur», sed «miseratio
+						<lb/>eius super omnia opera eius», quia «cum iratus est,
+						<lb/>non obliviscitur misereri», nec quicquam eorum que fecit
+						<lb/>odivit. Assumens in argumentum erroris quod ait Dominus
+						<lb/>per prophetam: «Congregabuntur in congregatione unius
+						<lb/>fascis in lacum et claudentur in carcere et post multos dies
+						<lb/>visitabuntur». Homo namque peccavit ad tempus, non ergo
+					<lb/>puniet in eternum.</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>O spes inanis, o falsa presumptio! «Non credat, frustra
+						<lb/>errore deceptus, quod aliquo pretio redimendus sit», «quoniam
+						<lb/>in inferno nulla est redemptio». Congregabuntur ergo
+						<lb/>peccatores in lacus et claudentur in carcerem, scilicet in
+						<lb/>inferno, in quo sine corporibus usque ad diem iudicii torquebuntur,
+						<lb/>et post multos dies visitabuntur, postquam videlicet
+						<lb/>resurgent cum corporibus in novissimo die: visitabuntur
+						<lb/>non ad salutem, sed ad vindictam, quia post diem
+						<lb/>iudicii gravius punientur. Sic et alibi dicitur: «Visitabo in
+					<lb/>virga iniquitates eorum et in verberibus peccata eorum».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Predestinatis ergo Deus irascitur temporaliter, quia
+						<pb n="89"/>
+						<lb/>«flagellat omnem filium quem recipit». De quibus illud
+						<lb/>accipitur: «Non in finem irascetur». Reprobis autem Deus
+						<lb/>irascitur eternaliter, quia iustum est ut quod impius in suo
+						<lb/>prevaricatur eterno, Deus ulciscatur in suo. Nam licet peccandi
+						<lb/>facultas illum dimittat, ipse tamen non dimittit voluntatem
+						<lb/>peccandi. Scriptum est enim: «Superbia eorum,
+					<lb/>qui te oderunt ascendit semper».</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Non humiliabuntur reprobi iam desperati de venia, sed
+						<lb/>malignitas odii tantum in illis excrescet, ut velint illum
+						<lb/>omnino non esse per quem sciunt se tam infeliciter esse.
+						<lb/>Maledicent Altissimo et blasphemabunt Excelsum, conquerentes
+						<lb/>eum esse malignum, qui creavit eos ad penam et
+						<lb/>nunquam inclinatur ad veniam. Audi Johannem in Apocalypsi
+						<lb/>dicentem: «Grando magna descendit de celo in
+						<lb/>homines et blasphemaverunt homines Deum propter plagam
+					<lb/>grandinis, quoniam magna facta est vehementer».</p>
+				</div>
+				<div>
+					<head><lb/>(5)</head> <p>Voluntas ergo dampnati, licet amiserit potestatis effectum,
+						<lb/>semper tamen habebit malignitatis affectum, et ipsa
+						<lb/>erit in inferno supplicium, que fuerat in mundo peccatum,
+						<lb/>licet forsan et ibi peccatum sit, sed non meritum pene.
+						<lb/>Impius ergo quia semper habebat in se reatum ex culpa,
+						<lb/>semper sentiet se esse cruciatum ex pena, quia quod ipse
+						<lb/>per penitentiam non delevit, Deus per indulgentiam non
+						<lb/>remittet. «Ad magnam ergo pertinet iustitiam iudicantis
+						<lb/>ut nunquam careant in gehenna supplicio, qui numquam
+						<lb/>voluerunt carere in vita peccato. Voluissent utique, si potuissent,
+						<lb/>sine fine vivere, ut potuissent sine fine peccare».
+						<lb/>Ostendunt enim quod in peccato semper vivere cupiunt,
+					<lb/>qui nunquam desinunt peccare dum vivunt.</p>
+				</div>
+			</div>
+			<pb n="90"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">Testimonia de suppliciis eternalibus.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Quis, inquit Ysaias, poterit habitare de vobis cum
+						<lb/>ardoribus sempiternis?». «Isti fumus erunt in furore meo,
+						<lb/>ignis ardens tota die», «nocte et die non exstinguetur, sed
+						<lb/>ascendet fumus eius in sempiternum». «Dabo vos in opprobrium
+						<lb/>sempiternum et ignominiam eternam, que nunquam
+						<lb/>oblivione delebitur». «Qui dormierunt in pulvere
+						<lb/>terre evigilabunt, alii in vitam eternam, alii in opprobrium
+						<lb/>ut videant semper». «Mortuo homine impio, nulla spes erit
+					<lb/>de eo».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Huic extemplo veniet perditio sua et subito conteretur,
+						<lb/>nec habebit ultra medicinam. «Si quis adoraverit bestiam
+						<lb/>et ymaginem eius, hic bibet de vino ire Dei et cruciabitur
+						<lb/>igne et sulphure: et fumus tormentorum ascendet in secula
+						<lb/>seculorum, nec habebit requiem die ac nocte qui adoraverit
+						<lb/>bestiam et ymaginem eius». Confirmat hec veritas, que
+						<lb/>dampnandos in iudicio reprobabit dicens: «Ite maledicti
+						<lb/>in ignem eternum, qui paratus est diabolo et angelis eius».
+						<lb/>Si secundum divinum iudicium «in ore duorum vel trium
+						<lb/>testium stet omne verbum», quanto magis in ore tot et tantorum
+					<lb/>virorum de proposita veritate constabit.</p>
+				</div>
+			</div>
+			<pb n="91"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XV</head>
+				<head type="h_2"><lb/><hi rend="italic">De die iudicii.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Ecce ergo dies Domini veniet crudelis et indignationis
+						<lb/>plenus et ire et furoris, ad ponendam terram in solitudinem
+						<lb/>et peccatores eius conterendos de ea. Quoniam stelle celi et
+						<lb/>splendor earum non expandent lumen suum, obtenebratus
+						<lb/>est sol in ortu suo et luna non splendebit in lumine suo. Et
+						<lb/>visitabo super orbis mala et contra impios iniquitatem eorum,
+						<lb/>et requiescere faciam superbiam infidelium et arrogantiam
+						<lb/>fortium humiliabo». «Propter hoc omnes manus
+						<lb/>dissolventur et omne cor hominis tabescet et conteretur.
+						<lb/>Torsiones et dolores tenebunt, quasi parturientes dolebunt,
+						<lb/>unusquisque ad proximum suum stupebit, facies combuste
+						<lb/>vultus eorum». (2) «Dies ire, dies illa, dies tribulationis et
+						<lb/>angustie, dies calamitatis et miserie, dies tenebrarum et caliginis,
+						<lb/>dies nebule et turbinis, dies tube et clangoris, quia
+						<lb/>consummationem faciet Dominus cum festinatione cunctis
+						<lb/>habitantibus terram». «Et superveniet repentina dies illa
+						<lb/>tanquam laqueus in omnes qui sedent super faciem omnis
+						<lb/>terre». Quoniam «sicut fulgur exit ab oriente et apparet
+						<lb/>usque in occidentem, ita erit et adventus filii hominis».
+						<lb/>«Dies enim Domini sicut fur in nocte ita veniet. Cum
+						<lb/>dixerint pax et securitas, tunc repentinus eis superveniet
+					<lb/>interitus, sicut dolor in utero habenti, et non effugient».</p>
+				</div>
+			</div>
+			<pb n="92"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVI</head>
+				<head type="h_2"><lb/><hi rend="italic">De precedente tribulatione.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Precedet autem «tribulatio magna, qualis nunquam fuit
+						<lb/>ab initio mundi usque modo, neque fiet. Et nisi breviati
+						<lb/>fuissent dies illi, non fieret salva omnis caro». «Surget enim
+						<lb/>gens contra gentem, et regnum adversus regnum, et terremotus
+						<lb/>magni erunt per loca et pestilentie et fames terroresque
+						<lb/>de celo et tempestates». «Et erunt signa in sole et luna
+						<lb/>et stellis, et in terris pressura gentis pre confusione sonitus
+						<lb/>maris et fluctuum, arescentibus hominibus pre timore et
+						<lb/>exspectatione que supervenient universo orbi». «Surgent
+						<lb/>pseudochristi et pseudoprophete et dabunt signa magna et
+						<lb/>prodigia, ita ut in errorem inducantur, si fieri potest, etiam
+					<lb/>electi».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>«Tunc revelabitur homo peccati, filius perditionis, qui
+						<lb/>adversatur et extollitur super omne quod dicitur aut quod
+						<lb/>colitur Deus, ita ut in templo Dei sedeat, ostendens se
+						<lb/>tanquam sit Deus», «quem Dominus Iesus interficiet spiritu
+						<lb/>oris sui». Mittetur autem «Helias propheta priusquam
+						<lb/>veniat dies Domini magnus et horribilis, et convertet corda
+						<lb/>patrum in filios et cor filiorum ad patres eorum». Cum quo
+						<lb/>veniet et Enoch, «et prophetabunt diebus mille ducentis
+						<lb/>et sexaginta amicti saccis». «Et cum finierint testimonium
+						<lb/>suum, bestia que ascendet de abysso faciet adversus illos
+						<lb/>bellum, et vincet illos et occidet. Et corpora eorum iacebunt
+						<pb n="93"/>
+						<lb/>in plateis civitatis magne, ubi Dominus illorum crucifixus
+						<lb/>est». «Et post tres dies et dimidium spiritus vite intrabit
+					<lb/>in eos».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVII</head>
+				<head type="h_2"><lb/><hi rend="italic">Qualiter veniet Dominus ad iudicium.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>«Statim autem post tribulationem dierum illorum, sol
+						<lb/>obscurabitur et luna non dabit lumen suum, et stelle cadent
+						<lb/>de celo, et virtutes celorum movebuntur: et tunc apparebit
+						<lb/>signum filii hominis in celo. Et plangent super se
+						<lb/>omnes tribus terre». «Reges et principes et tribuni, divites
+						<lb/>et fortes et omnis servus et liber abscondent se in speluncis
+						<lb/>et in petris montium, et dicent montibus et petris: ‘Cadite
+						<lb/>super nos et abscondite nos a facie sedentis super thronum
+						<lb/>et ab ira agni quoniam venit dies magnus ire impiorum, et
+						<lb/>quis poterit stare?’». «Et mittet angelos suos cum tuba et
+						<lb/>voce magna et congregabunt electos eius a quatuor ventis
+					<lb/>celi a summis celorum usque ad terminos eorum».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Tunc «ipse Dominus in iussu et voce archangeli et in
+						<lb/>tuba Dei descendet de celo». Et «omnes qui in monumentis sunt,
+						<lb/>audient vocem Filii Dei, et procedent boni in resurrectionem
+						<lb/>vite, mali vero in resurrectionem iudicii». «Mors et
+						<lb/>infernus dabunt mortuos suos qui in ipsis erunt», et «videbit
+						<lb/>omnis oculus et qui eum pupugerunt» «filium hominis
+					<lb/>venientem in nubibus celi cum virtute magna et maiestate».</p>
+				</div>
+				<pb n="94"/>
+				<div>
+					<head><lb/>(3)</head> <p>Veniet autem Dominus ad iudicium non solum cum angelis,
+						<lb/>sed et cum senatoribus populi sui: «Nobilis in portis
+						<lb/>quando sederit cum senatoribus terre». Sedebunt etenim et
+						<lb/>ipsi «super sedes duodecim iudicantes duodecim tribus Israel».
+						<lb/>«Aspiciebam, inquit, donec throni positi sunt, et antiquus
+						<lb/>dierum sedit. Vestimentum eius quasi nix candidum,
+						<lb/>et capilli capitis eius quasi lana munda, thronus eius flamme
+						<lb/>ignis, rote eius quasi ignis accensus; fluvius igneus rapidusque
+						<lb/>egrediebatur a facie eius. Millia millium ministrabant
+						<lb/>ei et decies centena millia assistebant ei». (4) «Deus noster
+						<lb/>manifeste veniet, Deus noster et non silebit; ignis in conspectu
+						<lb/>eius exardescet et in circuitu eius tempestas valida».
+						<lb/>«Nubes et caligo in circuitu eius, iustitia et iudicium preparatio
+						<lb/>sedis eius». «Et advocavit celum desursum et terram, ut
+						<lb/>discernat populum suum». Tunc «congregabuntur ante eum
+						<lb/>omnes gentes, et separabit eas ad invicem, sicut pastor segregat
+						<lb/>oves ab hedis; et statuet quidem oves a dextris, hedos
+					<lb/>autem a sinistris».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De potentia et sapientia et iustitia iudicis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>O quantus tunc erit timor et tremor, quantus tunc erit
+						<lb/>fletus et gemitus! Nam si «columpne celi contremiscunt et
+						<lb/>pavescunt ad nutum eius», «et angeli pacis amare flebunt»,
+						<lb/>peccatores autem quid facient? «Si iustus vix salvabitur, impius
+						<lb/>et peccatores ubi parebunt?». Propterea clamat propheta:
+						<lb/>«Ne intres in iudicium cum servo tuo, quia non iustificabitur
+						<pb n="95"/>
+						<lb/>in conspectu tuo omnis vivens». «Si enim iniquitates
+					<lb/>observaveris Domine, Domine quis sustinebit?».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>Quis enim non timeat iudicem potentissimum, sapientissimum
+						<lb/>et iustissimum? Potentissimum quem nemo potest
+						<lb/>effugere, sapientissimum quem nemo potest latere, iustissimum
+						<lb/>quem nemo potest corrumpere. «Si fortitudo queritur,
+						<lb/>robustissimus est, sapiens corde et fortis robore; si
+						<lb/>equitas iudicii, nemo audet pro me testimonium reddere;
+						<lb/>si iustificare me voluero, os meum condempnabit me; pravum
+						<lb/>me comprobabit etiam si simplex fuero». «Ipse dixit
+						<lb/>et facta sunt, ipse mandavit et creata sunt». «Qui vocat
+						<lb/>stellas et dicunt: Adsumus». «Qui facit angelos suos spiritus
+						<lb/>et ministros suos ignem urentem», cuius «voluntati nichil
+						<lb/>omnino resistit», «cui nullum verbum impossibile», cui
+					<lb/>«omne genu flectitur celestium, terrestrium et infernorum».</p>
+				</div>
+				<div>
+					<head><lb/>(3)</head> <p>Hunc nemo potest effugere, dicente propheta: «Si ascendero
+						<lb/>in celum tu illic es, si descendero in infernum ades».
+						<lb/>«Ipse scrutatur renes et corda», cuius «oculis omnia sunt
+						<lb/>nuda et aperta», qui «pluvie guttas et arenam maris dinumerat».
+						<lb/>«Deus scientiarum Dominus», prescius omnium et conscius
+					<lb/>singulorum, occultus occultorum omnium indagator.</p>
+				</div>
+				<div>
+					<head><lb/>(4)</head> <p>Hunc nemo potest latere, sicut dicit Apostolus: «Nulla
+						<lb/>creatura invisibilis in conspectu eius». Ipse est iudex iustus,
+						<lb/>fortis et longanimis, qui «nec prece, nec pretio», nec amore,
+						<lb/>nec odio declinat a semita rectitudinis, sed via regia semper
+						<pb n="96"/>
+						<lb/>incedens, nullum malum preterit impunitum, nullum bonum
+						<lb/>irremuneratum relinquit. Hunc nemo potest corrumpere,
+						<lb/>iuxta quod inquit psalmista: «Tu reddes singulis secundum
+					<lb/>opera eorum».</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="h_1"><lb/>XVIIII</head>
+				<head type="h_2"><lb/><hi rend="italic">De divino iudicio.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Quis autem non timeat illud examen, in quo idem erit
+						<lb/>accusator et advocatus et iudex? Accusabit enim cum
+						<lb/>dicet: «Esurivi et non dedistis michi manducare, sitivi et non
+						<lb/>dedistis michi bibere». Advocabit cum subdet: «Quandiu
+						<lb/>non fecistis uni de minimis meis, nec michi fecistis». Iudicabit
+						<lb/>cum inferet: «Discedite a me, maledicti, in ignem
+						<lb/>eternum». Non erunt testes in illo iudicio necessarii, quia
+						<lb/>tunc manifesta erunt «abscondita tenebrarum». «Nichil enim
+						<lb/>occultum quod non reveletur». (2) Tunc libri conscientiarum
+						<lb/>erunt aperti, et iudicabuntur mortui ex his que scripta
+						<lb/>sunt in libris secundum opera eorum. Quantus erit pudor
+						<lb/>in peccatoribus! Quanta confusio cum eorum nefandissima
+						<lb/>crimina cunctis erunt liquido manifesta! «Beati quorum
+						<lb/>remisse sunt iniquitates et quorum tecta sunt peccata». Ab
+						<lb/>illa sententia nunquam poterit provocari, quia «Pater omne
+						<lb/>iudicium dedit filio», «qui claudit et nemo aperit, qui aperit
+					<lb/>et nemo claudit». «Os enim Domini locutum est».</p>
+				</div>
+			</div>
+			<pb n="97"/>
+			<div type="chapter">
+				<head type="h_1"><lb/>XX</head>
+				<head type="h_2"><lb/><hi rend="italic">Quod nichil proderit dampnandis.</hi></head>
+				<div>
+					<head><lb/>(1)</head> <p>Tunc non proderunt opes, non defendent honores, non
+						<lb/>suffragabuntur amici. Scriptum est enim: «Argentum eorum
+						<lb/>et aurum eorum non valebit liberare eos in die furoris
+						<lb/>Domini». «Flebunt et plangent reges terre cum viderint fumum
+						<lb/>incendii», «propter timorem tormentorum eius».
+						<lb/>«Quid ergo facietis in die visitationis et calamitatis de
+						<lb/>longe venientis? ad cuius fugietis auxilium?». «Unusquisque
+						<lb/>onus suum portabit». «Anima que peccaverit, ipsa
+					<lb/>morietur».</p>
+				</div>
+				<div>
+					<head><lb/>(2)</head> <p>O districtum iudicium in quo non solum de factis, sed
+						<lb/>«de omni verbo otioso, quodcumque locuti fuerint homines,
+						<lb/>reddituri sunt rationem», in quo usque ad novissimum
+						<lb/>quadrantem exigetur debitum cum usuris. «Quis ergo fugere
+						<lb/>poterit a ventura ira?». (3) «Mittet ergo filius hominis
+						<lb/>angelos suos, et colligent de regno eius omnia scandala et
+						<lb/>eos qui faciunt iniquitatem, et alligabunt fasciculos ad comburendum,
+						<lb/>et mittent eos in caminum ignis ardentis. Ibi erit
+						<lb/>fletus et stridor dentium», gemitus et eiulatus, luctus et
+						<lb/>ululatus et cruciatus, stridor et clamor, timor et tremor, dolor
+						<pb n="98"/>
+						<lb/>et labor, ardor et fetor, obscuritas et anxietas, acerbitas
+						<lb/>et asperitas, calamitas et egestas, angustia et tristitia, oblivio
+						<lb/>et confusio, torsiones et punctiones, amaritudines et
+						<lb/>terrores, fames et sitis, frigus et cauma, sulphur et ignis
+					<lb/>ardens in secula seculorum.</p>
+					<p><lb/><hi rend="italic">Explicit liber Lotharii
+					<lb/>De miseria humane conditionis.</hi></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

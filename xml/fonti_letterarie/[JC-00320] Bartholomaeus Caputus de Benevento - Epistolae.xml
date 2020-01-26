@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistolae</title>
+				<author>Bartholomaeus Caputus de Benevento</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>F. Delle Donne</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="66" unit="words">Parole: 66</measure>
+				<measure quantity="409" unit="characters_without_spaces">Caratteri (spazi esclusi): 409</measure>
+				<measure quantity="469" unit="characters_witht_spaces">Caratteri (spazi inclusi): 469</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-08-31">31/08/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 73
+					Caratteri (spazi esclusi): 424
+				VA</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Una silloge epistolare della seconda metà del XIII secolo. I «Dictamina» provenienti dall’Italia meridionale del ms. Paris, Bibl. Nat. Lat. 8567</title>
+						<editor>F. Delle Donne</editor>
+						<imprint>
+							<publisher>SISMEL. Edizioni del Galluzzo</publisher>
+							<pubPlace>Firenze</pubPlace>
+							<date>2007</date>
+							<biblScope unit="page">164</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Edizione nazionale dei testi mediolatini</title>
+						<biblScope unit="volume">19</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="164"/>
+		<div>
+			<head type="salutatio"><lb/>Bartholomeus Caputus de Benevento … nobili.</head>
+			<lb/><p>Quia dicta nobilium solent redimi et promissa compleri, queso, si placet,
+				<lb/>virtutis amore reminiscamini de pollicito exequendo, ut honore fidei
+			<lb/>circumspectio vestra insolentiam non incurrat.</p>
+			<lb/>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Idem Bartholomeus …</head>
+			<lb/><p>Miror te probum falsum mihi exhibuisse amico. Sed in hoc remedior et
+				<lb/>consolor, quod cito in te iniqui testes insurgent, et, dum tua tibi mentietur
+			<lb/>iniquitas, tua potius manifestabitur falsitas, ubi eius recipies peregrina.</p>
+		</div>
+	</body>
+</text>
+</TEI>

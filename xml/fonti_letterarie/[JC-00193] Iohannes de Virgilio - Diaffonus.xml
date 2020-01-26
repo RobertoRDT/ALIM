@@ -1,0 +1,742 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Diaffonus</title>
+				<author>Iohannes de Virgilio</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Ulrich Justus Stache</name>
+                                        <name>Wolfgang Maaz</name>
+                                        <name>Fritz Wagner</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EBr">Elisa Brunoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3887" unit="words">Parole: 3887</measure>
+				<measure quantity="21378" unit="characters_without_spaces">Caratteri (spazi esclusi): 21378</measure>
+				<measure quantity="24664" unit="characters_witht_spaces">Caratteri (spazi inclusi): 24664</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2015-06-22">22/06/2015</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 3973&#13;
+Caratteri: 25121&#13;
+E.Br.</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Iohannes de Virgilio</author>
+						<title>Diaffonus</title>
+					</analytic>
+					<monogr>
+						<author/>
+						<title level="m">Kontinuität und Wandel, Lateinische Poesie von Naevius bis Baudelaire. Franco Munari zum 65. Geburtstag</title>
+                                                <editor>Ulrich Justus Stache</editor>
+                                                <editor>Wolfgang Maaz</editor>
+                                                <editor>Fritz Wagner</editor>
+						<imprint>
+							<pubPlace>Hildesheim </pubPlace>
+							<publisher>Weidmann Verlag</publisher>
+							<biblScope unit="page">570-597</biblScope>
+							<date>1986</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s"/>
+						<biblScope unit="volume"/>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1301/1400">XIV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EBr">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">- testo semplice in versi, senza struttura: ho messo un &lt;div&gt; intorno all'intera opera. È giusto?</item><item type="itemNotaJC">- nel &lt;pb&gt; alcune pagine si ripetono due volte e dopo il numero di pagina c'è una strana numerazione (I-V). Togliere?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<div>
+			<pb n="577"/>
+			<lg>
+				<l>Nutius hos sumat versus, mandante Iohanne.</l>
+				<l>Sicut aquosus olor, qui dissotiatus in undis </l>
+				<l>permanet, obmutit; alium si spectet olorem, </l>
+				<l>gaudia voce sonat limphasque reverberat alis </l>
+				<l n="5">et comitem versus festinat triplice motu:</l>
+				<l>currit, nat, volitat, pede, toto corpore, pennis; </l>
+				<l>sic ego, non solus, sed qui deiectus ab alto </l>
+				<l>agmine eram vatum, melius cessare putabam; </l>
+				<l>sed postquam vidi te blanda fronte petentem </l>
+				<l n="10">me comitem, sodes, effudi gaudia voce </l>
+				<l>carminaque hec scripsi. Tibi tota mente cucurri, </l>
+				<l>sed mediocre modo, nec nando nec volitando.</l>
+				<l>Nare quidem pressum, sed tendit ad alta volatus.</l>
+				<l>At si digneris mandare quod ardua queram </l>
+				<l n="15">vel quod in ima cadam, committam cetera fatis: </l>
+				<l>est michi parendi maior quam posse voluntas. </l>
+				<l>Primus olor cecinit: debet drensare secundus.</l>
+				<pb n="577 II"/>
+				<l>Nutius ista petit tradatur carta Iohanni.</l>
+				<l>Concordi modulo didicit citharam citharedus </l>
+				<l n="20">voce sonare suam subtili, cantica mira </l>
+				<l>fundere mellifluo pro poto iure, fluento </l>
+				<l>de cuius magni gustasse Elicone videntur </l>
+				<l>vates. Obstupeo qua stillet vena profunda </l>
+				<l>et qua parte maris cecinit syrena suavis.</l>
+				<l n="25">Dumque palude tuus olor ille maneret aquosus, </l>
+				<l>consotium crevit siccum per devia campi; </l>
+				<l>quem mirans avidum sitibundum quemque procella, </l>
+				<l>dulcisono rostro clamans produxit in undas </l>
+				<l>piscosas, pavit et pisce refecit eundem.</l>
+				<l n="30">Metra petita tua scripsit prudentia gratis, </l>
+				<l>que delectarunt animum gliscentis amici. </l>
+				<pb n="578 III"/>
+				<l>Imparibus modulos pedibus tibi sume novellos, </l>
+				<l>parvula quos, Nuti, carta nigrata refert.</l>
+				<l>Iussisti nostram rursus resonare viellam, </l>
+				<l n="35">contentus nervo quem digitare velim.</l>
+				<l>Illa quidem tenero nimium concordat amori: </l>
+				<l>hoc est cur cantem carmen amoris ego; </l>
+				<l>vel quia, cum fuerit permissa licentia nobis, </l>
+				<l>labor ut Anteus viribus auctus humi; </l>
+				<l n="40">vel quia materiam de qua plus tangitur auctor, </l>
+				<l>si celare velit, ora coacta sonant.</l>
+				<l>Nuper amore cremor, quadam faciente puella;</l>
+				<l>nolo tibi lateant hora, locusque modus.</l>
+				<l>Festa dies fuerat sancto celebrata Iohanni </l>
+				<l n="45">Baptiste; supplex limina sacra peto.</l>
+				<l>Et domine veniunt; iuvenes, vaga turba, secuntur: </l>
+				<l>Bononie sanctis plus celebratur Amor. </l>
+				<l>Ingredior templum, varia de gente repletum;</l>
+				<l>intus et exterius pervolitabat Amor.</l>
+				<l n="50">Offero denarium; post hinc, altaria linquens, </l>
+				<l>in pratum redeo, lumina quaque ferens.</l>
+				<l>Hic glomerata cohors dominarum ex parte sedebat;</l>
+				<l>hereo, que veneri sit magis apta notans.</l>
+				<l>Una puella vagos in me defixit ocellos; </l>
+				<pb n="578 II"/>
+				<l n="55">Surgitur ad grates presenti gramate dandas; </l>
+				<l>sed precor ut rursus facias cantare viellam, </l>
+				<l>si libet, omnino quo nervo vis digitato.</l>
+				<l>Ars ex arte capit robur, dilectio crescit:</l>
+				<l>tunc dicam vatem venerabor teque magistrum. </l>
+				<l n="60">Doctrinale tuum, si vis, dilecte Iohannes, </l>
+				<l>ante per exemplum, vel si quis, dirige, queso.</l>
+				<l>Si responsivam nimium dilatio torpens </l>
+				<l>detinuit, parcas, quoniam superesse nequivi; </l>
+				<l>ista, licet tetra sint, carpas dissona metra, </l>
+				<l n="65">de crossa pasta crossoque lignamine facta.</l>
+				<pb n="579 III"/>
+				<l>illico flammavit me face sevus Amor.</l>
+				<l>Dumque morarer ibi, domine cepere coream, </l>
+				<l>in qua se iuvenes inseruere mares; </l>
+				<l>e quibus ignifero quidam conflatus amore </l>
+				<l n="70">talia de querulo protulit ore canens:</l>
+				<l>"Ornate iuveni, que me sine iure peremptat</l>
+				<l>murmure multorum, funde, Cupido, preces".</l>
+				<l>Iste recantus erat, resonis quem vocibus omnes </l>
+				<l>disiunctis manibus et pede stante canunt:</l>
+				<l n="75">"Ornate iuveni, que me sine iure peremptat</l>
+				<l>murmure multorum, funde, Cupido, preces".</l>
+				<l>"O Amor, hec illi mea dans suspiria coram, </l>
+				<l>ante necem clames: «Ha, miserere viri!»; </l>
+				<l>nam de martirio si sit compassio nostro </l>
+				<l n="80">post, tuus hortatus totus inanis erit.</l>
+				<l>Ergo age ne iusti, dum vivo, causa laboret: </l>
+				<l>namque insons morerer gentis ab ore levis".</l>
+				<l>Tunc simul, adiuncti digitos vocemque sequentes </l>
+				<l>et pede mutato, cantica prima canunt:</l>
+				<l n="85">"Ornate iuveni, que me sine iure peremptat</l>
+				<l>murmure multorum, funde, Cupido, preces". </l>
+				<l>Rursus amans: "Amor o, nisi me tueare repente, </l>
+				<l>iam tibi monstrabo vulnera dira necis; </l>
+				<l>per que si moriar, leto culpabere nostro, </l>
+				<l n="90">cum michi tu possis addere solus opem.</l>
+				<l>Ergo age, pene potes finem spectare cruentum.</l>
+				<l>Heu, insons morior gentis ab ore nigre!".</l>
+				<l>Dicta prius recinunt paribus de vocibus omnes, </l>
+				<l>voce sequente manus et comitante pedes:</l>
+				<l n="95">"Ornate iuveni, que me sine iure peremptat</l>
+				<l>murmure multorum, funde, Cupido, preces". </l>
+				<l>"Heus, Amor, equus erus servo non deficit unquam, </l>
+				<l>quando de venia vel pietate rogat.</l>
+				<l>Nam solum famulo vitam non liberat ille, </l>
+				<l n="100">sed domino crescit inde cupitus honor.</l>
+				<l>Ergo, age, ne moriar per quos infamia nostra est. </l>
+				<pb n="580 III"/>
+				<l>Funeris expleti nil piguisse valet".</l>
+				<l>Et domine et modulator amans cecinere recantum.</l>
+				<l>Carmine completo, rupta corea fuit.</l>
+				<l n="105">Ast ego, qui fueram precaptus amore puelle, </l>
+				<l>omnia signabam que faciebat ea.</l>
+				<l>Qualiter illa latus et brachia lenta movebat, </l>
+				<l>quales de tenero concinit ore sonos!</l>
+				<l>Sed satis insignem fuerat vidisse puellam </l>
+				<l n="110">preter lascivis lumina ferre iocis.</l>
+				<l>Tunc michi totius veneris occurrit ymago: </l>
+				<l>qualia sint labiis oscula danda suis, </l>
+				<l>qualiter a nudis esset stringenda lacertis, </l>
+				<l>qualiter a leva colla tenenda manu, </l>
+				<l n="115">qualiter in lecto sese resupina voveret, </l>
+				<l>qualiter in medio luderet illa thoro.</l>
+				<l>Uror et interno liquefiunt ure medulle;</l>
+				<l>liquor more nivis sole, vel igne picis.</l>
+				<l>Nec contentus Amor quod me combusserit igne, </l>
+				<l n="120">exuit e pharetris spicula multa suis; </l>
+				<l>eligit ex illis quod cernit acutius unum </l>
+				<l>imposuitque arcu sicque tetendit eum.</l>
+				<l>Impulit et nostrum penetravit arundine pectus;</l>
+				<l>"Hey michi" clam dixi, "vulnera corde gero! </l>
+				<l n="125">Seve puer Veneris, quid me transfigis et uris?</l>
+				<l>Nonne tuus fueram semper amicus ego? </l>
+				<l>Numquid amicitie das premia talia nobis?</l>
+				<l>Altera te potius munera danda rogo.</l>
+				<l>Scilicet hos demas saltem michi morte dolores, </l>
+				<l n="130">vel tribuas famulo vota cupita tuo, </l>
+				<l>quamvis virgo fores nec amoris senseris ignes </l>
+				<l>et nichil offuerint arcus et arma tibi.</l>
+				<l>O non festa tua petiissem, sancte Iohannes!</l>
+				<l>Sanus eram, redii saucius inde domum".</l>
+				<l n="135">His ita cantatis, est nostra viella reposta.</l>
+				<l>Tu modulare tua num tibi parcat Amor.</l>
+				<pb n="581 IV"/>
+				<l>Eloquio nitens capiat sibi metra Iohannes, </l>
+				<l>que sibi transmittit Nutius ipse suus.</l>
+				<l>Suscipe, ne sileam, tibi quam transmitto salutem </l>
+				<l n="140">et que rescribo metra resume mea.</l>
+				<l>Auribus in propriis sua cantica fudit amoris </l>
+				<l>oblectans animum vestra viella meum, </l>
+				<l>sed dicam violam potius, de fronde creatam </l>
+				<l>florigeri veris fiabilitate sua, </l>
+				<l n="145">quam digitis avidis astrinxi, naribus actam, </l>
+				<l>ore salutifero basia cuique dedi.</l>
+				<l>Dicebam: "Quanto flos hic aspirat odore!</l>
+				<l>Illum que legit sit benedicta manus".</l>
+				<l>Illa quidem cantus, hec autem mittit odorem;</l>
+				<l n="150">arridet tener his et puerilis Amor.</l>
+				<l>Et gavisa satis, tanto dulcore repleta, </l>
+				<l>carmine sub tali nostra recantat avis.</l>
+				<l>Et locus atque iocus, modus et res atque corea </l>
+				<l>et cantus placuit et tua musa michi.</l>
+				<l n="155">Si capiunt lamie quid mirum bononienses</l>
+				<l>te? Quem non caperent actibus atque iocis? </l>
+				<l>In sacris cellis sanctos caperent heremitas, </l>
+				<l>fratres in normis ordinibusque sacris.</l>
+				<l>Non for funiclis caperent veneris, sed amore;</l>
+				<l n="160">non gladio penetrent, ritibus imo vagis. </l>
+				<l>Castus Aristotiles, non Guido pudicus earum </l>
+				<l>sciret amore nimis se clipeare quidem. </l>
+				<l>Illarum, sodes, die, qui vitaret amorem?</l>
+				<l>Nemo, ni reliquis ut michi fecit agat.</l>
+				<l n="165">O deus, o festiva dies! O sancte Iohannes, </l>
+				<l>cessisses famulo talia dona tuo!</l>
+				<l>O Venus, o pratum felix, o grata corea, </l>
+				<l>presto fuissem tunc talibus ipse iocis, </l>
+				<l>et magis ornate digitum digito tetigissem </l>
+				<l n="170">et labiis utinam, dico labella, meis, </l>
+				<pb n="582 IV"/>
+				<l>suxissemque gulam et mammas et cetera! . . . Noli, </l>
+				<l>eya, Ranuti, turpia verba loqui!</l>
+				<l>Esse libenter ego vellem servitor Amoris </l>
+				<l>offerre et statue munera nostra sue;</l>
+				<l n="175">sed tamen hoc pacto, quod telum ponat et arma, </l>
+				<l>ne faciat sicut hactenus ipse michi.</l>
+				<l>Anno preterito, vestigia dum celebrarem </l>
+				<l>eius, me studuit tradere velle neci.</l>
+				<l>Nam pedibus falconis equum residens sine freno </l>
+				<l n="180">me fuit aggressus fronte superbus Amor.</l>
+				<l>Sollicitus, timidus, ferus et iaculo super instans, </l>
+				<l>austerus, contra me veniebat atrox.</l>
+				<l>Verba silens, nudus, privato lumine, surda </l>
+				<l>aure.......................................................</l>
+				<l n="185">Mille subire iubens me mortes milleque penas </l>
+				<l>optabat finem velle videre meam.</l>
+				<l>Clamavi magna tunc voce: "Occidere noli </l>
+				<l>me! Famuli noli cor penetrare tui!".</l>
+				<l>"O pretiose puer" dicebam, "dulcis amice, </l>
+				<l n="190">audi tantillum me, rogo, dulcis Amor.</l>
+				<l>Aram visebam reverens, holocausta dicabam, </l>
+				<l>post numen celi te venerabar ego.</l>
+				<l>Obsequio iugi placui pro viribus ipse, </l>
+				<l>subposui totum corpus et ossa tibi.</l>
+				<l n="195">Si sum devotus, purus, si fidus amicus, </l>
+				<l>cur ergo venas vis resecare meas?</l>
+				<l>Postulat hoc ratio? Die, est retributio digna?</l>
+				<l>Si bona, cur mala tu reddis, amice, michi?</l>
+				<l>Cum cesset causa, cum iuris non patiatur </l>
+				<l n="200">ordo, ne moriar te mediante modo!</l>
+				<l>Queso, remitte michi, me noli tradere morti; </l>
+				<l>morti ne tradas, queso, remitte michi!</l>
+				<l>O bone Christe pater, michi ... mi succurre, tuere, </l>
+				<l>hic me ne perimat; mis . . . miserere cito!".</l>
+				<l n="205">Ast ego tantisper, armis colludere gnavus, </l>
+				<l>texi me clipeo, sollicitante manu. </l>
+				<pb n="583 V"/>
+				<l>Vir facunde, legas refero quod Epistola, Nuti; </l>
+				<l>nuntia sum missi carminis, ecce, tibi.</l>
+				<l>Sit tibi vera salus, Nuti, cupiente Iohanne </l>
+				<l n="210">et veniant votis consona cuncta tuis.</l>
+				<l>Quis michi concepti fuerit subcessus amoris </l>
+				<l>nosse sitis; igitur continuando canam.</l>
+				<l>Dimisso festo repetivi saucius edem.</l>
+				<l>Hei michi, quam visa est decolor illa dies! </l>
+				<l n="215">Non michi sumende cereris, non cura liei.</l>
+				<l>Sol ruit; imposui languida membra thoro. </l>
+				<l>Ante tamen Venerem submissa voce rogavi: </l>
+				<l>"Alma Venus, qua nec sanctior ulla dea est </l>
+				<l>nec te nobilior nec te fulgentior ulla</l>
+				<l n="220">nec que plus humiles audiat ulla preces; </l>
+				<pb n="583 IV"/>
+				<l>Pene meam potui vitam defendere. Cavi;</l>
+				<l>ex quo post vixi cautus ubique michi.</l>
+				<l>Qui sua colla iugo submittit Amoris, amati </l>
+				<l>hamis hamatur concutiturque satis; </l>
+				<l n="225">ergo caveto tibi quod non hameris Amore</l>
+				<l>sicut ego: tibi sit vita magistra mea.</l>
+				<l>At dabit ille tibi fortassis dona cupita, </l>
+				<l>ipso non habitu forte videbis eum, </l>
+				<l>audivi quoniam nuper mutasse figuram,</l>
+				<l n="230">Bononie solitos deposuisse modos.</l>
+				<l>Si foret ut loquor hoc, mores mutasseque vultum, </l>
+				<l>et pacem mecum vellet habere, scias; </l>
+				<l>arcanus postquam suus es, pro sode procura </l>
+				<l>discutias, data sunt si sua bampna michi.</l>
+				<l n="235">Me de velle suo certum tua pagina reddat, </l>
+				<l>pax vel guerra sibi si libet atque velit.</l>
+				<l>Qualiter in causa tuus et processus habetur </l>
+				<l>scribas, si victor credis et esse rei.</l>
+				<l>Musa diserta tua rimetur carmina nostra, </l>
+				<l n="240">carmina rimetur musa diserta tua.</l>
+				<pb n="584 V"/>
+				<l>mutasti statuam tu Pigmaleonis eburnam, </l>
+				<l>unde frui molli corpore posset amans.</l>
+				<l>Non ego te statuam nec te convertere petram, </l>
+				<l>vertere sed domine corda tenella rogo.</l>
+				<l n="245">Tironis miserere tui, precordia cuius </l>
+				<l>ille tuus telo fixit ephebus Amor.</l>
+				<l>Diva, sagittiferum pro me complectere natum, </l>
+				<l>hunc michi vel matris more favere iube.</l>
+				<l>Nec iussu frustra nec tu potiere rogatu:</l>
+				<l n="250">credidit ut condam, nunc quoque credet Amor. </l>
+				<l>Te suadente libens adiit Didona Cupido </l>
+				<l>et sibi commissum matre peregit opus; </l>
+				<l>arsurus fac vadat heram: comburor ut igne </l>
+				<l>ipse suo, sic exardeat illa meo".</l>
+				<l n="255">Inde cupidineas refovebam pectore curas, </l>
+				<l>stabat et ante oculos dicta corea meos, </l>
+				<l>quos nimis insomnes retinebat ymago puelle, </l>
+				<l>tunc placitura magis quam michi visa die. </l>
+				<l>Nectebar vacuo iactans mea membra cubili: </l>
+				<l n="260">plus feritatis habet tempore noctis amor.</l>
+				<l>Interea fessos irrepsit sompnus ocellos </l>
+				<l>taliaque in sompnis visa fuere michi.</l>
+				<l>Colle tenus quodam viridaria pulcra videbam, </l>
+				<l>insita pene quibus quelibet arbor erat.</l>
+				<l n="265">Umbra locum condensa nimis faciebat amenum </l>
+				<l>nataque cum variis floribus herba virens.</l>
+				<l>Ros maris hic redolens folio crescebat acuto, </l>
+				<l>lata comas corilus granaque mirtus habens. </l>
+				<l>Levis buxus erat, pingendis apta tabellis;</l>
+				<l n="270">arbute, non aberas, roscida poma ferens.</l>
+				<l>Fissilis hic abies, altum directa cacumen, </l>
+				<l>hispida iuniperus et tenere tilie, </l>
+				<l>fraxinus hastarum surgebat mater equestrum </l>
+				<l>et fagus, de qua longior hasta venit; </l>
+				<l n="275">et pirus et ficus et nux et punica malus </l>
+				<l>et que de misera Phyllide nomen habet;</l>
+				<pb n="585 V"/>
+				<l>Mirra, socrus Veneris, formosi mater Adonis, </l>
+				<l>et quamcumque suus fecerat arbor amor;</l>
+				<l>palma triumphatrix et pinus longa capillos: </l>
+				<l n="280">forsitan hanc hominem credo fuisse prius.</l>
+				<l>Cedrus odora, nitens et pandis apta carinis, </l>
+				<l>alnus et irsutis noxia cornus apris;</l>
+				<l>tincta suos fetus de sanguine morus amantum, </l>
+				<l>multicolor prunus queque politur acer.</l>
+				<l n="285">Inde racemifere texebant pulpita vites;</l>
+				<l>rivus erat, prope quem stabat amara salix.</l>
+				<l>Dant quoque repentes edere velamina saxis, </l>
+				<l>nequa parte loci posset abesse viror.</l>
+				<l>Vos quoque glandifere fueratis quercus et ylex, </l>
+				<l n="290">fertilis et pomis, fulva voleme, tuis.</l>
+				<l>Escule, sera parens, et male cidonia pallens, </l>
+				<l>et fueras vite, persice, pianta brevis.</l>
+				<l>Te quoque mobilium foliorum, popule, vidi, </l>
+				<l>teque gravem longis vitibus, ulme tenax.</l>
+				<l n="295">Forsitan et plures; aliquas et abesse notavi: </l>
+				<l>credo quod illarum non sit amica Venus.</l>
+				<l>Non erat ex illis folii pallentis oliva; </l>
+				<l>et dolui, dicens: "Vatica laurus abest".</l>
+				<l>Sum memor: inter eas aberat funesta cupressus, </l>
+				<l n="300">nec stigiam taxum noverat ille locus.</l>
+				<l>Si rear herbarum, si nomina tangere florum, </l>
+				<l>posse putem conchas enumerare maris.</l>
+				<l>Tempora mixta simul violas duxere rosasque, </l>
+				<l>candida cum rubris lilia mixta crocis.</l>
+				<l n="305">Anni temporibus deerat de quatuor unum, </l>
+				<l>nam tria conspexi: sola vacabat yemps.</l>
+				<l>Quelibet arbor ibi flores fructusque legendos, </l>
+				<l>semina cum teneris floribus herba dabat;</l>
+				<l>et phylomena dabat residens modulamina ramis, </l>
+				<l n="310">psittacus arguto concinit ore loquens.</l>
+				<l>Letus erat ramis cantare calandrius illis</l>
+				<l>atque niger merulus, punica rostra ferens. </l>
+				<pb n="586 V"/>
+				<l>Tereus incestus canit et fera mater yrundo, </l>
+				<l>dat bicolor rauco gutture pica sonos.</l>
+				<l n="315">Decantabat ibi variato carmine turdus</l>
+				<l>et, nimium Veneri gratus, aquosus olor.</l>
+				<l>Illic iocundo manabant murmure rivi;</l>
+				<l>nescio, sed credo quod paradisus erat.</l>
+				<l>Ingredior pavitans, si quis deus esset in illis;</l>
+				<l n="320">conspicio: nullus tam cito visus erat, </l>
+				<l>dumque pererrarrem tuererque, sub arbore mirre </l>
+				<l>fons erat et intro clarior unda mero, </l>
+				<l>quam neque stillarat Neptunus rector aquarum </l>
+				<l>nec dedit e nebulis Yris aquosa cavis.</l>
+				<l n="325">Rorida Naiadum lacrimis et odoriferarum </l>
+				<l>plantarum guttis nectaris unda fuit; </l>
+				<l>forte Venus lacrimas fudit cum fleret Adonim, </l>
+				<l>forsan amatorum fons lacrimosus erat.</l>
+				<l>Hunc secus alma Venus et Amor ludebat in herbis;</l>
+				<l n="330">splendebat geminis area tota deis.</l>
+				<l>Ille sinu matris niveas nunc tangere mammas, </l>
+				<l>nunc sua vult circum brachia ferre gule.</l>
+				<l>Illa suo puero colludens oscula figit </l>
+				<l>et modo dat capiti florea serta suo.</l>
+				<l n="335">Aurea vestis erat virides insuta smaragdos </l>
+				<l>et radians gemmis alta corona dee; </l>
+				<l>sed mage lascivi radiabant lumina vultus.</l>
+				<l>Quid mirum, cupido si placuere Iovi?</l>
+				<l>Ut Venerem agnovi (nec enim et dea notior ulla est), </l>
+				<l n="340">sternor humi flexo poplite, iungo manus:</l>
+				<l>"Salve, sancta Venus, miserorum mater amantum, </l>
+				<l>te precor, heu, supplex; auxiliare michi.</l>
+				<l>Vota tibi solvam, tibi meque vovere decebit </l>
+				<l>donec erit nostri corporis aura capax".</l>
+				<l n="345">Inquit voce pia: "Iuvenis michi care, propinqua.</l>
+				<l>Ne timeas: ego sum; vulnera nulla feres, </l>
+				<l>ymo hec que pateris (tua me querimonia tangit) </l>
+				<l>sanabo, solita teque medebor ope. </l>
+				<pb n="587 V"/>
+				<l>Nonne mei Enee rutulis que sumpserat arvis </l>
+				<l n="350">sanavit subito vulnera nostra manus?</l>
+				<l>Illius illa tuis etiam maiora fuerunt,</l>
+				<l>qui &lt;de&gt; sumenda coniuge bella dabat.</l>
+				<l>Perculit Enee corpus animumque sagitta, </l>
+				<l>tu solum cupida vulnera mente geris.</l>
+				<l n="355">Conciliabo tibi natum per cuncta volantem </l>
+				<l>et nostris precibus consotiabo tuas".</l>
+				<l>Utque propinquabam, &lt;manibus&gt; me diva prehendit </l>
+				<l>et confidenti se prope iussa dedit.</l>
+				<l>Mirabar puerum presignem corpore, dicens:</l>
+				<l n="360">"Pulcra parens pueri, pulcer et ipse puer".</l>
+				<l>Erugat puero translucida serica mater;</l>
+				<l>nec penitus nudus nec coopertus erat.</l>
+				<l>Aurea cesaries et ad instar capreolorum </l>
+				<l>crispa resultabat, nil operante manu.</l>
+				<l n="365">Clara nimis pueri facies fulgebat et ultra </l>
+				<l>quam sol inspectis ingeminatus aquis.</l>
+				<l>Sed de luminibus miracula magna gerebat:</l>
+				<l>nunc oculis Argus, nunc velut &lt;orbus&gt; erat, </l>
+				<l>et nunc humanos oculos communis habebat, </l>
+				<l n="370">nunc aquile, nunc et nicticoracis avis; </l>
+				<l>nunc lippus, nunc petus erat strabo, et modo luscus </l>
+				<l>et modo spectabat rectus ut alter homo, </l>
+				<l>et nunc talpa velut visiva luce carebat,</l>
+				<l>lincea nunc eius lux penetrabat humum.</l>
+				<l n="375">Pavo cupidineas, ut ego, si viderit alas, </l>
+				<l>rarius extendet cauda superba rotam.</l>
+				<l>Arcus erat collo, lateri pendente pharetra.</l>
+				<l>Hic michi per signa est ultima notus Amor.</l>
+				<l>His ubi cognovi qui me penetrarat Amorem </l>
+				<l n="380">et memini vinci quod patienter habet, </l>
+				<l>numen adoravi, contracto corpore toto;</l>
+				<l>complectens nudos osculor ore pedes, </l>
+				<l>qui lacrimis maduere meis, fundendo querelas; </l>
+				<l>movit et interius taliter ora dolor: </l>
+				<pb n="588 V"/>
+				<l n="385">"Hostibus esto ferus, saltem miserator amicos! </l>
+				<l>Heu, ego sum, semper qui tua signa tuli.</l>
+				<l>Pro dolor! Adverso non cepi vulnus ab hoste; </l>
+				<l>a solo patior hec mala rege meo.</l>
+				<l>Nobilis es, facias de nobilitate leonis: </l>
+				<l n="390">pugnat in elatis, parcit et ipse piis.</l>
+				<l>Qui tibi se obiciunt, pulsa pietate, ferito; </l>
+				<l>sed qui subiciunt se tibi parce, precor.</l>
+				<l>Non ego pretendo contra tua spicula plectam; </l>
+				<l>ecce, paro gladiis pectora nuda tuis.</l>
+				<l n="395">Hos potius perimas qui se defendere temptant, </l>
+				<l>ne, sibi cum parcis, se clipeasse ferant.</l>
+				<l>En, ad te fugio, cum me percusseris ipse: </l>
+				<l>me percussisti, me medicare potes.</l>
+				<l>Eiacides hasta, tu ... tu medearis amica,</l>
+				<l n="400">atque ita quod fecit demat utrumque malum.</l>
+				<l>Tu scis quod cupio, scis quod facis esse cupitum: </l>
+				<l>seu fac ne cupiam, sive cupita dato".</l>
+				<l>Sic ego. Sed voluit pro me Citherea rogare </l>
+				<l>et dixit nato blandior ipsa parens:</l>
+				<l n="405">"Nate, meum sceptrum, mea vis, mea gloria; solus, </l>
+				<l>nate, potens homines et superare deos,</l>
+				<l>nate, tue matris debens pietate moveri, </l>
+				<l>istius ut nostras accipe, nate, preces.</l>
+				<l>Forsitan in terris non est michi carior ullus; </l>
+				<l n="410">extollit Venerem nemo Iohanne magis.</l>
+				<l>Vaticuli miserere tui nostrumque sacrorum: </l>
+				<l>ipse suis de te vocibus alta canet.</l>
+				<l>Amplexare virum tibi tota mente fidelem, </l>
+				<l>da tua constanti signa ferenda viro.</l>
+				<l n="415">Vincat, et illa tue veniat victoria laudi: </l>
+				<l>si vincet famulus, vicerit eius herus.</l>
+				<l>Vincere non posset nisi te mediante; sed ergo </l>
+				<l>allevies humeros, sit mora parva, precor.</l>
+				<l>Eius adi dominam nocturno tempore, quando </l>
+				<l n="420">pervigil in molli cogitat ipsa thoro. </l>
+				<pb n="589 V"/>
+				<l>Huius, ut ipse vides, sed te prius indue formam, </l>
+				<l>omnia signa gerens que faciebat ei </l>
+				<l>et gestus, quando ipsa prius &lt;se&gt; sensit amari;</l>
+				<l>et sic te geminis noctibus offer ei </l>
+				<l n="425">atque medullosis tunc ossibus inice flammam, </l>
+				<l>vulneribus parcens, ne moreretur amans".</l>
+				<l>Aliger, exutis alis, arcuque pharetris,</l>
+				<l>matris ad obsequium tam cito cepit iter; </l>
+				<l>ante tamen teneris ulnis me amplexus, et inquit: </l>
+				<l n="430">"Non ultra timeas. Est michi cura tui, </l>
+				<l>et semper fuerat; tamen experiebar amicum, </l>
+				<l>ad bona si scires et mala posse pati.</l>
+				<l>Est etiam modus iste meus: piagare, mederi.</l>
+				<l>Gaudia mestitie, do mala mixta bonis.</l>
+				<l n="435">Sunt qui lucra volunt nullo comitante labore,</l>
+				<l>nolunt poma, nisi cortice nuda suo.</l>
+				<l>Hos ego cum vidi, michi nausea venit et illos </l>
+				<l>indignor castris sub reperire meis.</l>
+				<l>Qui formidat apes non mandet dulcia mella, </l>
+				<l n="440">causa relinquende est spina timenda rose.</l>
+				<l>Et quidam ignavi, qui se profitentur amantes, </l>
+				<l>ut mea tela vident, dant sua terga fuge; </l>
+				<l>quos ego si vellem iussis compellere nostris, </l>
+				<l>aut alis careo, vel sua vana fuga est.</l>
+				<l n="445">Rideo cum fugiunt: «Fugite, io, non redituri;</l>
+				<l>non bene pro timidis regia nostra facit».</l>
+				<l>At tu, cum fueris per me percussus et ustus,</l>
+				<l>non fugis, ymo venis: quod petis ergo dabo.</l>
+				<l>Et quidam fragiles clipeos iuvisse putarunt, </l>
+				<l n="450">hos quia dimisi simplicitate sua.</l>
+				<l>Ignorant illi quam magna potentia nostra est, </l>
+				<l>ignorant illi quid mea tela valent.</l>
+				<l>Arcifer arcifero michi condam Phebus Amori </l>
+				<l>insurgens, a me vulnera seva tulit.</l>
+				<l n="455">Quid sua scuta meum vel quid suus arcus in arcum? </l>
+				<l>Fixit apollineum nostra sagitta iecur. </l>
+				<pb n="590 V"/>
+				<l>Belliger a nobis Mars est compulsus amare </l>
+				<l>nec sua quiverunt arma valere meis.</l>
+				<l>Serior hora foret, si sic hominesque deosque</l>
+				<l n="460">curarem victos enumerare meos.</l>
+				<l>Nec clamare iuvat contra mea numina numen: </l>
+				<l>numinibus nostris numina nulla nocent.</l>
+				<l>Iuppiter ipse pater nostra se lege gubernat; </l>
+				<l>subiacet imperio machina tota meo.</l>
+				<l n="465">Hec tibi monstrarem viva ratione; sed ecce </l>
+				<l>me vocat obsequiis aptior hora meis.</l>
+				<l>Plurima spirabo mea facta in te, licet absens".</l>
+				<l>Dixit, et ex oculis vanuit ille meis.</l>
+				<l>Tunc Venus, alma parens: "Nunc, nunc est hora medendi", </l>
+				<l n="470">et michi "curandum detege vulnus" ait.</l>
+				<l>Pectora detexi, que sint pigmenta requirens.</l>
+				<l>"Nulla. Putas herbis, ememor, esse locum?</l>
+				<l>Corpoream Enee plagam sanavimus herbis; </l>
+				<l>tu vero" dixit "vulnera mentis habes.</l>
+				<l n="475">Non opus est herbis ad opacum vulnus amoris, </l>
+				<l>quod mea iam poterit tollere sola manus".</l>
+				<l>Admotaque manu demulsit corda iecurque.</l>
+				<l>Excitor et dico: "Num michi sompnus erat?</l>
+				<l>Et si sompnus erat, sensi cessare dolores".</l>
+				<l n="480">Erigor et Veneri gratulor inde dee.</l>
+				<l>Nola diurna sonat, signum de luce propinqua; </l>
+				<l>induor et properam deprecor esse diem.</l>
+				<l>"Sancte Cupido, michi faveas, et sancta Dione, </l>
+				<l>ne videar vane vos coluisse diu.</l>
+				<l n="485">Nunc ceptisque favere meis promissio vera </l>
+				<l>vestra sit et non sit visio vana mea.</l>
+				<l>Alba dies nituit, tenebris Titane fugatis: </l>
+				<l>est michi nunc almus excipiendus amor".</l>
+				<l>Afferor ante mee spatiando tecta puelle </l>
+				<l n="490">atque his porticibus ante retroque vagor.</l>
+				<l>Limine marmoreo sodata sedebat herabus: </l>
+				<l>si compte fuerant, comptior illa tamen.</l>
+				<pb n="591 V"/>
+				<l>Hanc inter reliquas sic prefulgere notavi </l>
+				<l>ut superat lune sidera cuncta nitor.</l>
+				<l n="495">Dumque satis fixos oculos spectando tenerem, </l>
+				<l>illa repercussit lumina nostra suis.</l>
+				<l>Risit et ex oculis fecit signacula quedam, </l>
+				<l>que michi non parvam visa dedere fidem.</l>
+				<l>Taliter illius consumpto tempore lucis, </l>
+				<l n="500">altera lux oritur non placitura minus.</l>
+				<l>Per domine vicum spatior de more procantum; </l>
+				<l>nunc ego, nunc sotius verba sonora damus.</l>
+				<l>Nunc eo, nunc redeo, requiei nescius, inde; </l>
+				<l>nunc latet interius, nunc sedet illa foris.</l>
+				<l n="505">Est ubi parva duas dirimunt confinia turres, </l>
+				<l>Bononie speculum, pulcra platea, forum.</l>
+				<l>Una forat bibulas erecto vertice nubes, </l>
+				<l>spectat in eoos altera flexa sinus.</l>
+				<l>Hue me duxit Amor (quia nolo dicere "casus"): </l>
+				<l n="510">ille puer nostros condocet ire pedes.</l>
+				<l>Venerat hue emptum teneros ancilla columbos </l>
+				<l>pro domina nostra pro pariterque sua.</l>
+				<l>Hanc ego prenoscens, dulci sermone coegi </l>
+				<l>auscultare mei cordis amantis onus.</l>
+				<l n="515">Non ego blanditias sum compilare suetus, </l>
+				<l>sed mea dictabat verba disertus Amor.</l>
+				<l>"Numina te salvent, nam tu salvare potes me, </l>
+				<l>vivere te possum teque volente mori.</l>
+				<l>Tu retines clavim nostre viteque necisque; </l>
+				<l n="520">non caperes nostre grandia lucra necis.</l>
+				<l>Utilior tibi vivus ero. Dona michi vitam: </l>
+				<l>ad tua dum vivam iussa paratus ero.</l>
+				<l>Me tibi non celo penitus: nil te sine possum; </l>
+				<l>ergo eris arcani conscia sola mei.</l>
+				<l n="525">Pro domina morior; te fido. Parce fatenti: </l>
+				<l>sola nocere michi meque iuvare potes.</l>
+				<l>Apta iuvare magis, nostros narrabis amores </l>
+				<l>ornate et queres mene perire velit. </l>
+				<pb n="592 V"/>
+				<l>Cetera non doceo: tua namque industria maior </l>
+				<l n="530">addat ut optatum perficiatur opus.</l>
+				<l>Non ingratus ero subscepto munere tanto: </l>
+				<l>excipies meritis premia magna tuis".</l>
+				<l>Rettulit in promptu: "Tua dudum vulnera sensi </l>
+				<l>et tibi, si vellem, sum rata posse satis.</l>
+				<l n="535">Sed tibi cur, meriti sumpturo oblivia nostri?</l>
+				<l>Serviat ingratis femina stulta viris! </l>
+				<l>Me post servitium vidisse videbere nunquam;</l>
+				<l>sepe mali faciunt que nocuere bonis".</l>
+				<l>Tunc ego: "Per celi sanctissima numina iuro</l>
+				<l n="540">et per quod possim vivus adire domum </l>
+				<l>et per quod domine furtus sumatur amate: </l>
+				<l>non cadet ex animo grana tanta meo!</l>
+				<l>Dic, age, quo facto aut dicto prodesse valerem.</l>
+				<l>Si modo non credis, experiare, precor.</l>
+				<l n="545">Heu michi, si meriti multos oblivia dampnant, </l>
+				<l>crimina pravorum qua ratione luam?".</l>
+				<l>Tunc ea: "Ne dubites, domina podere cupita;</l>
+				<l>vade viam et cure cetera linque mee.</l>
+				<l>Siquid nosco, tua est accensa cupidine dudum, </l>
+				<l n="550">unde ego securo perfruar ore magis".</l>
+				<l>Dixit. &lt;At&gt; ut rediit, domine responsa reportans </l>
+				<l>sat bona, plus actum quam semel illud iter. </l>
+				<l>Nam media luna duravit, vera fatendo, </l>
+				<l>cepit quindenam vel labor ille diem.</l>
+				<l n="555">Sed tandem letas adduxit nuntia voces:</l>
+				<l>"Hac" ait "ad dominam nocte venire para". </l>
+				<l>Nocte paratus ii, mucronem cinctus acutum, </l>
+				<l>solus ego, nisi quod me sotiabat Amor.</l>
+				<l>Est securus Amor, nec eum dampnato timoris, </l>
+				<l n="560">qui facit ut sit homo nulla pericla timens.</l>
+				<l>Et mage tutus eram quia nec custodia noctis </l>
+				<l>nec tibi pendebat gratia danda michi, </l>
+				<l>qualem forte soles sotiis de nocte repertis, </l>
+				<l>quos sinis et tollis, siqua dedisset Amor. </l>
+				<l n="565">…............................................................</l>
+				<pb n="593 V"/>
+				<l>vel michi latrantes si nocuere canes, </l>
+				<l>vel quas tunc ageret regiones advena coniux;</l>
+				<l>sospes ii, blande sumque receptus ego.</l>
+				<l>Qualia felicis fuerint solatia noctis</l>
+				<l n="570">pretereo: non sunt cuncta canenda palam. </l>
+				<l>Bononie numerum possem numerare domorum, </l>
+				<l>noctis ut illius gaudia sumpta michi.</l>
+				<l>Nunc etiam ventis agitur mea cimba secundis, </l>
+				<l>quam melior Typhy nauta gubernat Amor. </l>
+				<l n="575">Favit Amor, vici; videar ne ingratus Amori, </l>
+				<l>ecce cano, Nuti, cantica laudis ei:</l>
+				<l>"Vive, triumphator celi, terreque profundi, </l>
+				<l>cuius in arbitrio machina tota manet.</l>
+				<l>Te sine, vix una mundus consisteret hora, </l>
+				<l n="580">iret in horrendum natio mesta chaos; </l>
+				<l>te sine sideream tererent elementa catenam </l>
+				<l>subcessusque suos perderet omne genus; </l>
+				<l>te sine, dulcis Amor, non esset amicus amico </l>
+				<l>nec sotius sotio nec sua sponsa viro.</l>
+				<l n="585">Federa cessarent, pietas et iura perirent</l>
+				<l>et quodcumque bonum, ni foret almus Amor. </l>
+				<l>Unde notatur Amor nature triplicis idem: </l>
+				<l>mente deus, pennis angelus, ore puer.</l>
+				<l>Non ego dedignor domino succumbere tanto;</l>
+				<l n="590">glorior et domini dico suave iugum".</l>
+				<l>Heus igitur, iuvenis nostri dissuasor amoris, </l>
+				<l>peccasti et sceleris crederis esse reus.</l>
+				<l>Unius exemplum quia non concludit in omnes, </l>
+				<l>non igitur michi sit vita magistra tua.</l>
+				<l n="595">Quem non tangit Amor, vel non est aptus amori, </l>
+				<l>vel non est talis dignus amoris homo.</l>
+				<l>Tangere te voluit, sed tu clipeatus abisti;</l>
+				<l>experiens dixit: "Non facit iste michi".</l>
+				<l>Qui sapienter amant, nec Amor disperdit amantes;</l>
+				<l n="600">qui stolide, digno funere perdit eos.</l>
+				<l>Pangere cum domino sub conditione volebas: </l>
+				<pb n="594"/>
+				<l>regnat et obsequiis non eget ille tuis.</l>
+				<l>Pacta sibi fieri faciant in lite potentes,</l>
+				<l>flagitet hic pacem quem mage guerra gravat. </l>
+				<l n="605">Exilium pateris, nisi te peccasse fateris;</l>
+				<l>cum videaris &lt;adhuc&gt; esse rebellis ei,</l>
+				<l>illius exilii nec procurator habebor,</l>
+				<l>nec meus est sotius qui foret hostis ei.</l>
+				<l>Ymo, quisquis erit &lt;sic&gt; contradictor Amoris, </l>
+				<l n="610">pro domino capiam seva duella cliens!</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

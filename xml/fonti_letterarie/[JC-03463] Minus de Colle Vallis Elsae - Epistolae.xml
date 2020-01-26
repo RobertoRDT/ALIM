@@ -1,0 +1,441 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>Mini de Colle Vallis Elsae Epistolae</title>
+        <author>Minus de Colle Vallis Elsae</author>
+        <respStmt>
+          <resp>Edizione critica a stampa a cura di</resp>
+          <name>Francesca Luzzati Laganà</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_new">Edizione in formato TEI XML a cura di</resp>
+          <name key="FV">Francesca Vaccaro</name>
+        </respStmt>
+      </titleStmt>
+
+      <extent>
+        <measure quantity="1847" unit="words">Parole: 1847</measure>
+        <measure quantity="11589" unit="characters_without_spaces">Caratteri (spazi esclusi): 11589</measure>
+      </extent>
+
+      <publicationStmt>
+        <publisher>
+          <ref target="http://www.alim.dfll.univr.it/">ALIM</ref>
+        </publisher>
+        <date when="2016-03-23">23/03/2016</date>
+        <availability>
+          <p>Copyright 2016 - progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Minus de Colle Vallis Elsae</author>
+            <title>Mini de Colle Vallis Elsae Epistolae</title>
+            <editor>Francesca Luzzati Laganà</editor>
+            <imprint>
+              <pubPlace>Roma</pubPlace>
+              <publisher>Istituto storico italiano per il medio evo</publisher>
+              <date>2010</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">Fonti per la storia d'Italia medievale - Antiquitates</title>
+            <biblScope unit="volume">35</biblScope>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <!-- Informazioni generali relative al progetto -->
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+    
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+            <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.
+              Lo stesso criterio è stato adottato nei casi in cui la fine di foglio del principale testimone manoscritto 
+              spezza una parola.
+           </item>
+        </list>
+        </ab>
+          <ab>La numerazione delle epistole corrisponde a quella dell'edizione di riferimento. 
+            <lb/>La sigla "NA" che accompagna la numerazione principale è riferita al codice "Nuovi Acquisti" 385 della Biblioteca Nazionale Centrale di Firenze;
+            <lb/>la numerazione secondaria è invece quella elaborata da Helene Wieruszowski in 
+            <bibl>
+              <author>Helene Wieruszowski</author>, 
+              <title level="m" rend="italic">Politics and Culture in Medieval Spain and Italy</title>, 
+              <title level="s">Storia e letteratura, Raccolta di studi e testi</title>,  <biblScope unit="vol">121</biblScope>, 
+              <publisher>Edizioni di storia e letteratura</publisher>, <pubPlace>Roma</pubPlace> <date>1971</date>.</bibl> 
+          </ab>
+        <ab type="level">ALIM2_1</ab>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Letteraria</term>
+          <term type="genre">Epistolografia</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2016-03" who="FV">Prima trascrizione nel formato TEI P5 [livello 1], schema TEI ALIM Lite</change>
+<!--      Ero indecisa se indicare "livello 1" o "livello 2". Ho lasciato "1" perché è quello che era stato richiesto all'inizio del lavoro. -->
+    <change when="2018-07" who="JC" type="noteJCtratteDaiLogTxt">Note relative alla revisione del file di luglio 2018 (adeguamento al livello di codifica ALIM2_1):
+<list type="listaNoteJC"><item type="itemNotaJC">-era già adeguato, tanto il teiHeader quanto il body. Il tagset del &lt;body&gt; è notevolmente più ricco di quello che uso io.</item></list></change></revisionDesc>
+
+  </teiHeader>
+
+  <text>
+    <front>
+      <pb n="3"/> 
+      <div xml:id="MCVE_E0"><p xml:id="invocazione">Sancti Spiritus assit nobis gratia.</p>
+        <p xml:id="incipit">Incipiunt epistole magistri Mini de Colle que facte fuerunt Aretii.</p>
+      </div>
+    </front>
+    <body>
+      <div type="epistola" n="NA1 (=401)" xml:id="MCVE_E1"> 
+        <head>NA 1 (=401)</head>
+        <p xml:id="p1">
+          <lb n="1"/><supplied>Expositio</supplied> facta in conventu Aretino.
+          <lb n="2"/>Universis scolaribus presentem audientibus epistolam Minus
+          <lb n="3"/>de Colle Vallis Else, gramaticorum minimus, Aretinam patriam
+          <lb n="4"/>incolens, cordis benivolentiam cum salute.
+          <lb n="5"/>Ad cursoris instar celerrimi, qui sue intentionis propositum gressibus 
+          <lb n="6"/>continuatis inquirite, in cuiusque rei principio humani cordis
+          <lb n="7"/>continuum respective laborat ingenium <gap rend="[...]"/>. Debetis
+          <lb n="8"/>na(m)que in doctrina procedere ut etate puerculus, qui lactis pabulo
+          <lb n="9"/>naturali teneritate utitur dentium, adveniente constantia duriora
+          <lb n="10"/>suscipit alimen<supplied>ta</supplied> <gap rend="[...]"/>. Currite dico velociter ad <supplied>recthorice</supplied>
+          <lb n="11"/>facultatis industriam que sublevat ab <supplied>infimis</supplied> infimos, medios
+          <lb n="12"/><gap rend="[...]"/>. Et ecce, karissimi, qui <gap rend="[...]"/> ut<pb type="folio" rend="doubleslash" n="1v"/> fratres et sotios ad
+          <lb n="13"/>quod habeo vos invito benivole, percipite igitur tute de modico.
+          <lb n="14"/>Nam qui dator est modicus dum <expan>t<ex rend="(em)">em</ex>poris</expan> adesset <expan><ex rend="(com)">com</ex>moditas</expan>,
+          <lb n="15"/>copiosus in copia responderet.
+        </p>
+      </div>
+      <pb n="4"/>
+      <pb n="5"/>
+      <div type="epistola" n="NA2 (=402)" xml:id="MCVE_E2">
+        <head>NA 2 (=402)</head>
+        <p xml:id="p2">
+          <lb n="1"/>De iudice ad iudicem.
+          <lb n="2"/>Magne probitatis et sapientie viro domino B. de Aretio,
+          <lb n="3"/>legum doctori, L. de Tornaquincis de Florentia iudex salutem
+          <lb n="4"/>fecundam gaudiis.
+          <lb n="5"/>Cordis fides et benivole aviditatis immensitas qua indissolubili
+          <lb n="6"/>karitatis vinculo vobis iungor, me pro meis meorumque amicorum
+          <lb n="7"/>negotiis iure demandare precamina inducit, dum expostulat res et
+          <lb n="8"/><expan>t<ex rend="(em)">em</ex>pus</expan>. Ecce igitur Dantem de Bonfantibus, latorem presentium,
+          <lb n="9"/>amicum meum intimum et dilectum, qui a Communi de Lucignano
+          <lb n="10"/>comitatus Aretii certam debet pecunie quantitatem recipere, unde
+          <lb n="11"/>satis plenarium ius apparet, vestre amicali prudentie <expan>re<ex rend="(com)">com</ex>mendo</expan>,
+          <lb n="12"/>rogans quatenus coram potestate, iudicibus aliisque officialibus
+          <lb n="13"/>Communis Aretii vestri honore meorumque interventu precaminum
+          <lb n="14"/>curetis et vestrum taliter interponatis auxilium quod sibi <pb type="folio" rend="doubleslash" n="2r"/> debite
+          <lb n="15"/>de quantitate debita satisfiat, attendentes quod quidquid ei gratum
+          <lb n="16"/>feceritis eo gratius reputabo quo eundem reputo in meorum amicorum
+          <lb n="17"/>numero kariorem.
+        </p>
+      </div>
+      <div type="epistola" n="NA3 (=403)" xml:id="MCVE_E3">
+        <head>NA 3 (=403)</head>
+        <p xml:id="p3">
+          <lb n="1"/>Responsiva.
+          <lb n="2"/>Nobilitatis et prudentie viro domino Cardinali Tornaquinci de
+      <pb n="6"/>
+          <lb n="3"/>Florentia iudici Benencasa de Aretio, iuris civilis prorexor sin cere
+          <lb n="4"/>dilectionis effectum cum salute.
+          <lb n="5"/>Ex antique dilectionis instantia, que nulla patitur <expan>t<ex rend="(em)">em</ex>poris</expan>
+          <lb n="6"/>dispositione mutari, sumens que mandatis precamina, ascribo michi
+          <lb n="7"/>pro libito que sunt vestra. Eo igitur pro certo noveritis quod amici
+          <lb n="8"/>vestri negotium adeo diligenti cura curabitur, quod finaliter ab experto
+          <lb n="9"/>videbitur non aliena sed propria me curasse.
+        </p>
+      </div>
+      <div type="epistola" n="NA4 (=404)" xml:id="MCVE_E4">
+        <head>NA 4 (=404)</head>
+        <p xml:id="p4">
+          <lb n="1"/>De sotio ad sotium.
+          <lb n="2"/>Spetiali suo sotio D. de Cascia S., scolaris Aretii, placide prosperitatis
+          <lb n="3"/>eventum.
+          <lb n="4"/>Vera laus illi atribuitur  merito qui circa principium operis sic
+          <lb n="5"/>afectuose laborat quod infinitas <expan>im<ex rend="(m)">m</ex>ediate</expan> deducitur ad suam
+          <lb n="6"/>que dependet <supplied>in opere</supplied> finitatem. Si hoc laudis vel eius potius
+          <lb n="7"/>quod est laudi contrarium tibi nomen potest actribui aspicias <pb type="folio" rend="doubleslash" n="2v"/> et
+      <pb n="7"/>
+          <lb n="8"/>responde, karissime, quod non laudis. Nam effectum <supplied>incepti</supplied> 
+          <lb n="9"/>operis optinere sic niteris quod, si studium viget, a destris ad sinistre
+          <lb n="10"/>partis vehiculum te convertis quod sane mentis propositum alterat
+          <lb n="11"/>teque facit totius caligositatis forme conformem. Ex hoc enim, karissime,
+          <lb n="12"/>doleo. Nam michi quod tibi nocet est nocivum et quod prodest
+          <lb n="13"/>reputo profectivum. Quare dilectionem tuam duxi actentissime
+          <lb n="14"/>deprecandam quod, erroneo retroiecto proposito quam potes citius,
+          <lb n="15"/>revertaris ad studium, praesertim quia magister Minus cuius pluribus
+          <lb n="16"/>sunt grata dictamina, admodo dictabit assidue iamque sotios erudire
+          <lb n="17"/>incepit. Penes quem, si tuum volueris exsercitare ingenium,
+          <lb n="18"/>pariet exercitium tibi fructum.
+        </p>
+      </div>
+      
+      <div type="epistola" n="NA5 (=405)" xml:id="MCVE_E5">
+        <head>NA 5 (=405)</head>
+        <p xml:id="p5">
+          <lb n="1"/>De amico ad amicum.
+          <lb n="2"/>Dilecto sotio G., Aretii licterali studio dedito, D. de Cascia
+          <lb n="3"/>totius amoris habitum et se ipsum.
+          <lb n="4"/>Etsi aliquando aliqua iusta causa superstite in opere defectivus
+          <lb n="5"/>sit opifex, non est criminandus tamen actenus quam si voluntarie
+          <lb n="6"/>defecisset. Cum igitur ab incepto, karissime, non sponte <expan>s<ex rend="(ed)">ed</ex></expan> invite
+          <lb n="7"/>defecerim, reprehendi non debebam, ut extimo, ut tua me quam
+          <lb n="8"/>misisti reprehendit epistola: pro voto utique <expan>i<ex rend="(m)">m</ex>perfecta</expan> perficerem!
+          <lb n="9"/>Nam eminentia <pb type="folio" rend="doubleslash" n="3r"/> negotiosa me detinent et paterna dominatio 
+      <pb n="8"/>    
+          <lb n="10"/>strictius meum <expan>i<ex rend="(m)">m</ex>pedit</expan> animum ad regressum. Eo, socie, pro
+          <lb n="11"/>posse te deprecor, quatenus, his aspectis, excusatum me habere
+          <lb n="12"/>digneris, sitque votum circa tue dilectionis constantiam ioco facti.
+        </p>
+      </div>
+      <div type="epistola" n="NA6 (=406)" xml:id="MCVE_E6">
+        <head>NA 6 (=406)</head>
+        <p xml:id="p6">
+          <lb n="1"/>De patre ad filium.
+          <lb n="2"/>Telanus de la Tosa, Florentinus civis, suo filio karissimo S.,
+          <lb n="3"/>Aretii licterali studio dedito, cum patemali benedictione salutem.
+          <lb n="4"/>Procedit ex nutu illius, cui gravia et honerosa sunt levia, quod
+          <lb n="5"/>antique inimicitie hodium, quod inter nostram et Ubaldinorurn progeniem
+          <lb n="6"/>viguit, et sedetur et fine quidem terminetur laudabili. Ad
+          <lb n="7"/>cuius rei constantiam certa sunt matrimonia constituta. Inter
+          <lb n="8"/>que convenit ut filia domini Ugolini de Senno tibi matrimoniali vinculo
+          <lb n="9"/>copuletur. Quare tue filiationi precipimus quatenus, visis presentibus, 
+          <lb n="10"/>mora pretermissa qualibet, revertaris ad patriam,
+          <lb n="11"/>facturus que pro parte tua presentialiter fieri debent.
+        </p>        
+      </div>
+      <pb n="9"/>
+      <div type="epistola" n="NA7 (=407)" xml:id="MCVE_E7">
+        <head>NA 7 (=407)</head>
+        <p xml:id="p7">
+          <lb n="1"/>Responsiva.
+          <lb n="2"/>Reverendo patri suo domino T<supplied>elan</supplied>o S., scolaris Aretii,
+          <lb n="3"/>reverentiam in omnibus filialem.
+          <lb n="4"/>Paterne dominationis licteris omni qua decuit afectione
+          <lb n="5"/>receptis, ecce taliter do responsum, quod, Deo concedente, curabitur 
+          <lb n="6"/><pb type="folio" rend="doubleslash" n="3v"/> id totum fieri quod michi presentialiter demandastis.
+          <lb n="7"/>Verum si, ut optatis, mea non esset properata regressio, nulla sitis
+          <lb n="8"/>ammiratione coacti, quia certa negotia, que me tenent adhuc, forsan
+          <lb n="9"/>per aliquot dierum spatium me tenebunt.
+        </p>
+      </div>
+      <pb n="10"/>
+      <div type="epistola" n="NA8 (=408)" xml:id="MCVE_E8">
+        <head>NA 8 (=408)</head>
+        <p xml:id="p8">
+          <lb n="1"/>De milite ad militem.
+          <lb n="2"/>Probitatis et sapientie tictulis decoratis Talibus militibus de
+          <lb n="3"/>Bostolis, Aretinis magnificis civibus, Tales de Ubertinis
+          <lb n="4"/>honoris et laudis cumulum cum salute.
+          <lb n="5"/>Petit et appetit amice karitatis integritas et exercere benivolos
+          <lb n="6"/>et a benivolis, cum <expan>t<ex rend="(em)">em</ex>poris</expan> oportunitas exigit, exerceri. Ecce
+          <lb n="7"/>nunc poscit res congrua, poscit <expan>t<ex rend="(em)">em</ex>pus</expan> ydoneum et amicorum
+          <lb n="8"/>persuadet consilium, quod in proximo resurrectionis pascate,
+          <lb n="9"/>superno favente Preside, militari cingulo accingamur. Ad cuius rei
+          <lb n="10"/>patrationem afficimus amicorum presentiam personalem, vosque
+          <lb n="11"/>precipue quos habemus precipue inter caros, invitamus et affectuose
+          <lb n="12"/>requirimus ad supradictam curiam, ordinato termino, ut poteritis
+          <lb n="13"/>honorabilius, accessuros.
+        </p>
+      </div>
+      <div type="epistola" n="NA9 (=409)" xml:id="MCVE_E9">
+        <head>NA 9 (=409)</head>
+        <pb n="11"/>  
+        <p xml:id="p9">
+          <lb n="1"/>Rexsponsiva.
+          <lb n="2"/>Probis et prudentibus domicellis Talibus Tales de <pb type="folio" rend="doubleslash" n="4r"/>
+          <lb n="3"/>Bostolis, Aretini cives, optati desiderii <expan><ex rend="(com)">com</ex>plementum</expan> vel
+          <lb n="4"/>optate felicitatis effectum.
+          <lb n="5"/>Gratanter recepimus licteras quas misistis. Quarum diligentissime 
+          <lb n="6"/>perspecto tenore, ecce taliter respondemus quod ad vestram
+          <lb n="7"/>curiam honorabiliter, ut ex nostra possibilitate processerit, accedemus. 
+          <lb n="8"/>Verum, si, ut audivimus, obviam imperiali magnitudini
+          <lb n="9"/>tenditis, militare cingulum recepturi, rogamus quatenus nobis
+          <lb n="10"/>vestrum velitis declarare propositum, ut et qui vestris sumus
+          <lb n="11"/><supplied>in</supplied>tenti honoribus vestre sotietati personaliter adiungamur.
+        </p>
+      </div>
+      <div type="epistola" n="NA10 (=410)" xml:id="MCVE_E10">
+        <head>NA 10 (=410)</head>
+        <p xml:id="p10">
+          <lb n="1"/>Venerabili in Christo patri domino B., abati dignissimo Talis
+          <lb n="2"/>abatie, G., prior Talis monasterii, reverentiam debitam et honorem.
+          <lb n="3"/>Presentis rei materia, ex iniqui cordis actentione progressa,
+          <lb n="4"/>sub velamine detineri non patitur, sed scribentis animum provocat
+          <lb n="5"/>ad scribendum. Scribitur namque ut vestre dominationi sit notum,
+      <pb n="12"/>    
+          <lb n="6"/>quod fideles vestri de Sancto Donato servitia que tenentur nobis
+          <lb n="7"/>et monasterio sub qua<supplied>dam</supplied> temeritatis actentione confisi denegant 
+          <lb n="8"/>et <supplied>re</supplied>cusant facere que de iure tenentur, familiaribus <pb type="folio" rend="doubleslash" n="4v"/>
+          <lb n="9"/>nostris litem et molestiam inferentes. Cum igitur hoc vobis et monasterio 
+          <lb n="10"/>obbrobrium representet daniferum, dominabili paternitati
+          <lb n="11"/>vestre suplico reverenter quatenus dictis fidelibus vestris licteris
+          <lb n="12"/>velitis iniungere quod de fidelitate debeant fideliter respondere,
+          <lb n="13"/>curantes ne detractio detractorum pullullare possit in posterum,
+          <lb n="14"/>sed ut qui percutere nos nituntur indebite percussionem reciprocent 
+          <lb n="15"/>in se ipsos. 
+        </p>
+      </div>
+      <div type="epistola" n="NA11 (=411)" xml:id="MCVE_E11">
+        <head>NA 11 (=411)</head>
+        <pb n="12"/>
+        <p xml:id="p11">
+          <lb n="1"/>De abate ad priorem.
+          <lb n="2"/>Abbas Talis abbatie dilecto filio in Christo domino B.,
+          <lb n="3"/>Talis abatie priori salutem in Domino.
+          <lb n="4"/>In admirationis materiam <expan>co<ex rend="(m)">m</ex>pulit</expan> suum quam misisti lictera
+          <lb n="5"/>receptorem, in eo videlicet quod tua nobis fuit prolatione propositum,
+          <lb n="6"/>quod nostrorum fidelium de Sancto Donato fidelitas presenter
+          <lb n="7"/>alterata non porrigit opera que de fide procedunt, set ad ea
+          <lb n="8"/>potius que sunt nobis opposita premolitur. Verum quia ut impulsu
+          <lb n="9"/>venti foleum agitatur arboreum, promovetur humana quandoque
+          <lb n="10"/>iniqua subgestione fragilitas, possibile quod de nostris scripsisti
+          <lb n="11"/>fidelibus arbitramur. Super his <expan>na<ex rend="(m)">m</ex>que</expan> diligenti deliberatione
+          <lb n="12"/>previdimus nostris eis licteris <pb type="folio" rend="doubleslash" n="5r"/> presenter iniungere quod tibi
+          <lb n="13"/>de fidelitate respondeant ut nostre persone proprie responderent.
+      <pb n="13"/>    
+          <lb n="14"/>Quod si fecerint acceptabile nobis erit quam plurimum. Alioquin
+          <lb n="15"/>nostre indignationis aspere furens furor patebit in fidelibus dignus
+          <lb n="16"/>ultor.
+        </p>
+      </div>
+      <div type="epistola" n="NA12 (=412)" xml:id="MCVE_E12">
+        <head>NA 12 (=412)</head>
+        <p xml:id="p12">
+          <lb n="1"/>G., abbas Talis abbatie, D. et F. vicariis, Consilio et Communi
+          <lb n="2"/>de Sancto Donato, fidelibus suis, salutem quam meruerint.
+          <lb n="3"/>Pro parte domini R., prioris nostri monasterii de Sancto Donato,
+          <lb n="4"/>querelam recepimus quod vos, capita pre nimia ponderis facilitate
+          <lb n="5"/>vibrantes et vano cogitatu confisi, servitia que debetis monasterio
+          <lb n="6"/>nostro non curatis <expan>i<ex rend="(m)">m</ex>pendere</expan>, denegantes, omni timore postposito,
+          <lb n="7"/>ius et verum. Ex quo ad tantam sumus indignationem <expan><ex rend="(com)">com</ex>moti</expan>
+          <lb n="8"/>quod non possemus licteris explicare faciliter. Quare vobis sub pena
+          <lb n="9"/>et banno nostro auferendis arbitrio duximus strictissime iniungendum
+          <lb n="10"/>quatenus incontintenti, Visis presentibus, responsuri de fidelitate
+          <lb n="11"/>fideliter coram dicti prioris, vicem nostram habentis, in hac
+          <lb n="12"/>parte debeatis presentia <expan><ex rend="(com)">com</ex>parere</expan>, actendentes quod, si nostris
+          <lb n="13"/>neglexeritis obbedire mandatis, contra vestre temeritatis audaciam,
+          <lb n="14"/>in quantum suadebit iustitia, procedemus.          
+        </p>
+      </div>
+      <pb n="14"/>
+      <div type="epistola" n="NA13 (=413)" xml:id="MCVE_E13">
+        <head>NA 13 (=413)</head>
+        <p xml:id="p13">
+          <lb n="1"/>Suo spetiali domino  reverendo domino G., abbati degnissimo 
+          <lb n="2"/>Talis loci, D. et F. vicarii, Consilium et universu, Commune Sancti 
+          <lb n="3"/>Donati honorem et reverentie habitum et de incognito veritatem.
+          <lb n="4"/>Indignate dominationis argutio ex iniusta criminatione 
+          <lb n="5"/>proveniens turbavit mentes, turbavit animos et terrori maximo
+          <lb n="6"/>subditorum corda supposuit dum non esset qui gravedinis illate tam
+          <lb n="7"/>subito designaret vel redderet rite causam. Sperantes actamen, quod
+          <lb n="8"/>cuiusque sermonis prolatio remaneret suo loco finaliter, audatiam
+          <lb n="9"/>sumimus nec acriter vestrarum minarum illatio nos offendat. Ecce
+          <lb n="10"/>vestri dominationis licteras omni qua decuit affectione recepimus,
+          <lb n="11"/>quarum diligenter perspecto tenore duximus taliter respondendum,
+          <lb n="12"/>quod coram presentia prioris vestri de Sancto Donato affuimus et
+          <lb n="13"/>que nobis ex vestra parte iniunxit, taliter observare conabimur, quod
+          <lb n="14"/>subiecta nostra fidelitas alterata vobis in aliquo circa fidem vel
+          <lb n="15"/>opera non patebit.
+        </p>
+      </div>
+      <pb n="15"/>
+      <div type="epistola" n="NA14 (=414)" xml:id="MCVE_E14">
+        <head>NA 14 (=414)</head>
+        <p xml:id="p14">
+          <lb n="1"/>De notario ad presbiterum.
+          <lb n="2"/>Dilecto in Christo presbitero A. plebis de Pescia digne
+          <lb n="3"/>canonico, B., notarius de Tali loco, cum omni recommendatione 
+          <lb n="4"/>se ipsum.
+          <lb n="5"/>Ex fide progreditur grandis petendi quod <pb type="folio" rend="doubleslash" n="6r"/>  petitur
+          <lb n="6"/>prontitudo. Inde est cum plebs vestra de Pescia, Domino permictente,
+          <lb n="7"/>suo vacet pastore, novi rectoris gubernacolo reformanda, vestram
+          <lb n="8"/>discretionem exoro, quatenus dominum M., dilectum et 
+          <lb n="9"/>karissimum fratrem meum, virum utique licteratum ac multa discretione
+          <lb n="10"/>munitum pro vestra voce in predicte plebis plebanum, si placet, 
+          <lb n="11"/>presentialiter eligatis, super hiis interponentes taliter partes vestras
+          <lb n="12"/>quod vobis in omnibus placituris quoad vivam tenear grata
+          <lb n="13"/>vicissitudine respondere.          
+        </p>
+      </div>
+      <div type="epistola" n="NA15 (=415)" xml:id="MCVE_E15">
+        <head>NA 15 (=415)</head>
+        <p xml:id="p15">
+          <lb n="1"/>De amico ad amicum.
+          <lb n="2"/>Spetialissimo amico suo, domino B., notario de Tali loco,
+          <lb n="3"/>A., Talis plebis canonicus, laudabilem in optatis effectum.
+          <lb n="4"/>Vestra ylariter recepta precamina, cum et mea, ut ab experto
+          <lb n="5"/>iam didici, leta quidem facie receptetis. Visis igitur litteris per vos
+          <lb n="6"/>missis, noverit amica vestra dilectio quod super electione plebani
+          <lb n="7"/>plebis nostre de Pescia fratri vestro, domino M. vocem meam
+        <pb n="16"/>  
+          <lb n="8"/>desiderabilius exhibeo. Estote, ut queso, actentus et sollicitus
+          <lb n="9"/>super hoc negotio, ut ex natura fraterna quidem dilectio vos astringit
+          <lb n="10"/>et spetialiter procurantes aquirere a nobili milite domino Paganello
+          <lb n="11"/>de Montechiaro deprecatoris licteras domino Matheo dicte 
+          <lb n="12"/>plebis canonico <pb type="folio" rend="doubleslash" n="6v"/> ac meo in dicta electione consotio, ut vobis suam
+          <lb n="13"/>vocem largitur, benivole destinandas.          
+        </p>
+      </div>
+      <div type="epistola" n="NA16 (=416)" xml:id="MCVE_E16">
+        <head>NA 16 (=416)</head>
+        <p xml:id="p16">
+          <lb n="1"/>De milite ad militem.
+          <lb n="2"/>Dignis ornato titulis, provido et prudenti militi domino U.
+          <lb n="3"/>de linar<supplied>i</supplied>, B. de Cavalcantibus, Florentinus civis, salutem et 
+          <lb n="4"/>honoris augmentum.
+          <lb n="5"/>Ad regiminis Castelle Civitatis ingressum, cuius presenter
+          <lb n="6"/>electi sumusin dominum, intendentes peroptamus. Vestram itaque
+          <lb n="7"/>nobilitatem et amicitiam precatum actente, quatenus cum certa
+          <lb n="8"/>quantitate satellitum vos paretis et, cum vobis iteratio scrisserimus, 
+          <lb n="9"/>gressum arripiatis festinum, ut sibi consotiam teneat personalis
+          <lb n="10"/>presentia nostra vestram. Quidquid autem intenditis facere de
+          <lb n="11"/>predictis vestra nostra vestram. Quidquid autem intenditis facere de
+          <lb n="12"/>predictis vestra nobis pagina rescribatis.         
+        </p>
+      </div>
+      <pb n="17"/>
+      <div type="epistola" n="NA17 (=417)" xml:id="MCVE_E17">
+        <head>NA 17 (=417)wier</head>
+        <p xml:id="p17">
+          <lb n="1"/>Rexponsiva.
+          <lb n="2"/>Nobili et famoso militi domino B. de Cavalcantibus, civi 
+          <lb n="3"/>honorabili Florentino, Ubertus de Linari salutem et placdum desiderii
+          <lb n="4"/><expan>co<ex rend="(m)">m</ex>plementum</expan>.
+          <lb n="5"/>De <supplied>in</supplied>gressu vestri regiminis <expan>co<ex rend="(m)">m</ex>paruit</expan> coniurationis
+          <lb n="6"/>epistola grata nobis. Qua visa per integrum respondemus quod parati
+          <lb n="7"/>sumus, <expan>quandocu<ex rend="(m)">m</ex>que</expan> libuerit, ad Civitatem Castelli vos cum
+          <lb n="8"/>decem equitatoribus sotiare. Si quid aliud in hac parte cupitis nos
+          <lb n="9"/>facturos, precipite quia fiet ylariter, dum respondebit potentia votis
+          <lb n="10"/>vestris.  
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

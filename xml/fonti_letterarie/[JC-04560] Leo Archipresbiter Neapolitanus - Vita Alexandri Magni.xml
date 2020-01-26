@@ -1,0 +1,2909 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+        <fileDesc>
+      
+      <titleStmt>
+        
+        <title>Edizione digitale di: <title>Vita Alexandri Magni</title></title>
+        
+        <author>Leo Archipresbiter Neapolitanus</author>
+        <respStmt>
+         
+          <resp>Der Alexanderroman des Archipresbyter Leo</resp>
+          <name>Friedrich Pfister</name>
+        </respStmt>
+        <respStmt>
+          
+          <resp>Edizione in formato TEI XML codifica di livello 1 a cura di</resp>
+          <name>E. B.</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        				<measure unit="words" quantity="18180">Parole: 18180</measure>
+        <measure unit="characters_without_spaces" quantity="120893">Caratteri (spazi esclusi): 104594</measure>
+			</extent>
+      <publicationStmt>
+        <publisher>
+          <ref target="http://www.alim.dfll.univr.it/">ALIM</ref>
+        </publisher>
+        <date when="2016-07-05">05/07/2016</date>
+        <availability>
+          <p>Copyright 2006- progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        
+        <biblStruct>
+          <monogr>
+            <author>Leo Neapolitanus</author>
+            <title>Vita Alexandri</title>
+            <editor>Fr. Pfister</editor>
+            <imprint>
+              <pubPlace>Heidelberg</pubPlace>
+              <publisher>Carl Winter's Universitätsbuchhandlung</publisher>
+              <date>1913</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">Sammlung mittellateinischer Texte</title>
+            <biblScope unit="volume">6</biblScope>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+    
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+            <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+          </list>
+        </ab>
+        <ab type="level">ALIM2_1</ab>
+        <ab type="specific">I paragrafi I, 26-28 e I, 32 mancano, si veda p. 61-61.
+          Per due paragrafi di seguito è assegnata la nuerazione 41. Da III, 6 si passa a III, 17. Da III, 28 si passa a III, 30.
+          Da III, 28 si passa a III, 30. La numerazione dei paragrafi del III Libro subisce spesso alterazioni. 
+          Per tutte queste segnalazioni si vedano le  note ad loc. e l'introduzione dell'editore. 
+          Le [] indicando integrazioni dell'editore,le ( ) indicano espunzioni</ab>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+              <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Letteraria</term>
+          <term type="genre">Storiografia</term>
+        </keywords>
+      </textClass>
+      <creation>
+  
+    <date>  X secolo  </date>
+  </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2016-07" who="EB">Prima trascrizione nel formato TEI P5 (schema: TEI ALIM Lite)</change>
+    <change when="2018-07" who="JC" type="noteJCtratteDaiLogTxt">Note relative alla revisione del file di luglio 2018 (adeguamento al livello di codifica ALIM2_1):
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, era già adeguato.</item></list></change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <lb/><pb n="44"/>
+        <p> <lb/>Prologus
+          <lb/>Certamina vel victorias excellentium virorum infidelium
+          <lb/>ante adventum Christi, quamvis exstitissent pagani,
+          <lb/>bonum et utile est omnibus Christianis ad audiendum
+          <lb/>et intelhgendum tarn praelatis quam subditis, videlicet
+          <lb/>saecularibus et spiritualibus viris, quia cunctos ad meliorem
+          <lb/>provocat actionem. Nam prelati, id est rectores,
+          <lb/>legendo et considerando, quemadmodum praedicti pagani
+          <lb/>idolis servientes agebant se caste et fidehter atque in Omnibus
+          <lb/>se inreprehensibihter ostendebant, per eorum exempla
+          <lb/>bonorum operum ita acuant mentes suas, eo quod fideles
+          <lb/>et membra Christi esse videntur, ut multo magis meliores
+          <lb/>se ilils demonstrent in castitate et iusticia atque pietate.
+          <lb/>Subiecti vero, id est mihtes sub milicia constituti, legendo
+          <lb/>vel audiendo talia certamina et operationes commilitum
+          <lb/>suorum, qui magis daemonibus quam deo militabant,
+          <lb/>certent se prudentiores ostendere illis in omni opere bono,
+          <lb/>sicut decet militibus Christi. Nam dominis carnalibus pure
+          <lb/>et fideliter secundum praeceptum apostoli deserviant,
+          <lb/>deo vero, creatori suo, tota mente ita decertent famulari
+          <lb/>custodiendo precepta eius, nulli umquam violentiam facientes
+          <lb/>aut aliena auferentes, sed in sua substantia (h)abundantes,
+          <lb/>sicut precursor et baptista Christi, beatus Iohannes,
+          <lb/>in evangelio precepit, ne, quod absit, militando saeculo
+          <lb/>alienentur a militia caelesti. Licet namque et spirituales
+          <lb/>homines audire, quae et qualia certamina vel quam benignas
+          <lb/><pb n="45"/>
+          <lb/>operationes propter amorem saeculi in se habebant
+          <lb/>pagani ab initio usque ad adventum Christi, ut merendo
+          <lb/>considerent, quam sapientes et pios viros tunc possidebat
+          <lb/>diaboius excecando mentes illorum, ne suum agnoscerent
+          <lb/>creatorem et servirent creaturae potius quam creatori,
+          <lb/>et ideo intelligebant, quam iustum et necessarium fuit
+          <lb/>humano generi adventus Christi, quia secundum sacram
+          <lb/>scripturam, si nos non visitasset ex alto redemptor noster
+          <lb/>demonstrando se ipsum nobis viam salutis, per quam salvaremur,
+          <lb/>ut eum solum in trinitate adoraremus ipsumque 
+          <lb/>verum creatorem omnium agnosceremus, funditus nos
+          <lb/>omnes in aeternum perieramus. Quapropter pura mente
+          <lb/>cum apostolo admirando proclamemus: “O altitudo sapientiae
+          <lb/>et scientiae dei, quam incomprehensibilia sunt iudicia
+          <lb/>eius et investigabiles viae eius”' Et iterum cum psalmista 
+          <lb/>requirentes exclamemus: “Quis loquitur potentias domini 
+          <lb/>et auditas faciet omnes laudes eins?” Subaudis: nemo.
+          <lb/>Interea regnantibus Constantino et Romano, magnificis
+          <lb/>imperatoribus Christianorum, et principatum ducatus
+          <lb/>totius Campaniae dominantibus Iohanne et Marino, excellentissimis
+          <lb/>ducibus atque consulibus, quibus quaedam
+          <lb/>necessitas accidit transmittendi missum suum usque Constantinopolim
+          <lb/>ad eosdem prefatos imperatores, et tunc
+          <lb/>miserunt illuc Leonem archipresbiterum valde fidelem.
+          <lb/>Quo pergente in eandem Constantinopolitanam urbem 
+          <lb/>coepit inquirere libros ad legendum. Inter quos invenit
+          <lb/>historiam continentem certamina et victorias Alexandri
+          <lb/>regis Macedoniae. Et nullam neglegentiam vel pigritiam
+          <lb/>habendo sine mora scripsit et secum usque Neapolim
+          <lb/>deduxit ad suos predictos excellentissimos seniores et ad 
+          <lb/>praeciaram et beatissimam coniugem eins, Theodoram
+          <lb/>videlicet senatricem Romanorum, quae die noctuque
+          <lb/>sacrae scripturae meditabatur. Viduarum namque et
+          <lb/>orfanorum atque diversorum advenarum protectrix indeficiens
+          <lb/>permanebat. Quae iuvenili aetate cursum vitae 
+          <lb/><pb n="46"/>
+          <lb/>finiens infra tricesimum octavum annum migravit ad dominum.
+         <lb/>Post cuius transitum praefatus Iohannes, excellentissimus
+          <lb/>consul et dux, vir eius et deo amabilis, statuit
+          <lb/>mente sua ordinem scripturarum inquirere et praeclare
+          <lb/>ordinare. Primum vero libros, quos in sua dominatione
+          <lb/>invenit, renovavit atque meliores effectus, deinde anxie
+          <lb/>inquirens sicut philosophus, quoscumque audire vel habere
+          <lb/>potuit, sive rogando seu precando multos et diversos libros
+          <lb/>accumulavit et diligenter scribere iussit. Maxime ecclesiasticos
+          <lb/>libros, Vetus scilicet atque Novum Testamentum,
+          <lb/>funditus renovavit atque composuit. Inter quos historiographiam
+          <lb/>videlicet vel chronographiam, Ioseppum vero
+          <lb/>et Titum Livium atque Dyonisium, caelestium virtutum
+          <lb/>Optimum predicatorem, atque ceteros quam plurimos et
+          <lb/>diversos doctores, quos enumerare nobis longum esse videtur,
+          <lb/>instituit. Eodem namquo tempore commemorans
+          <lb/>ille sagacissimus predictus consul et dux prefatum Leonem
+          <lb/>archipresbiterum habere iam dictum librum, historiam
+          <lb/>scilicet Alexandri regis, vocavit eum ad se et de Greco in
+          <lb/>Latinum transferri precepit, quod et factum est, sicuti
+          <lb/>sequentia docent, Omnibus vero laborantibus tam doctoribus
+          <lb/>quam scriptoribus bonum retribuens meritum pro
+          <lb/>Salute animae et memoria nominis sui.              
+                  </p>        
+              </div>
+      <div>
+        <p>
+          <lb/><pb n="47"/>
+          <lb/><title>Nativitas et victoria Alexandri Magni regis. Liber primus</title> </p> 
+      </div>                    
+        <div type="par" n="1">
+        <p>
+          <lb/>Sapientissimi namque Egiptiorum scientes mensuram 
+          <lb/>terrae atque domantes undas maris et caelestium, id est
+          <lb/>Stellarum, ordinem computantes tradiderunt universo mundo
+          <lb/>altitudinem doctrinae in magicis virtutibus. Dicunt autem
+          <lb/>de Nectanebo, quomodo subito hostes sicut nubes vonissent 
+          <lb/>super eum; in hoc enim non movit miliciam nee arma nee
+          <lb/>artificia ferri, sed intravit palatium apprehenditque concam
+          <lb/>eream, ponens ibi aquam pluvialem, tenens in manu virgam
+          <lb/>[eb]eneam et per magicas artes vocabat daemones et per
+          <lb/>istam magicam artem incantationis videbat atque intelligebat
+          <lb/>in ipsa conca navidia, quae super eum veniebant.                   
+        </p>
+        </div> 
+      <div type="par" n="2">
+        <p>
+          <lb/>Erant enim speculatores in partibus Romaniae; 
+          <lb/>venit quidam ex eis ad eum dicens: “Magnissime Nectanabe,
+          <lb/>venit super te multitudo non parva dena milia 
+          <lb/>inimicorum. Sunt ibi Scithei et Gones, Ibires, Stidi, Arabes,
+          <lb/><pb n="48"/>
+          <lb/>Oxidrakes, Lampasidri, Lisanii, Bosphori, Arghi, Chaldei,
+          <lb/>Sarbii atque Agriophagi et quantae gentes sunt in Oriente
+          <lb/>magnae et sine numero.” Hoc dicendo princeps miliciae
+          <lb/>subrisit Nectanabus et dixit: “Tu enim custodiam, quam
+          <lb/>tibi Credo, bene et vigilanter observa; at tamen non sicut
+          <lb/>miles responsum dedisti, sed sicut pavidus homo. Virtus
+          <lb/>enim non paret in multitudine populi sed in promptitate.
+          <lb/>An nescis, quia unus leo multos cervos persequitur ?”
+                  </p>
+      </div>
+      <div type="par" n="3">
+        <p>
+          <lb/>Haec dicens reversus est in palacium et precepit
+          <lb/>Omnibus, ut exirent inde. Ille autem solus tulit concam
+          <lb/>aqua plenam, mittens ibi navidia cerea, tenens in manu virgam
+          <lb/>palmae et totis viribus incantare coepit et respexit in ipsa
+          <lb/>conca: vidit, quia dii Egyptiorum gubernabant in navibus
+          <lb/>barbarorum. Statim rasit sibi caput et barbam, ut transfiguraret
+          <lb/>se; tulit aurum, quantum portare potuit, et fugit
+          <lb/>de Egipto per Pelusium induens se linea vestimenta, hoc
+          <lb/>est sindones, quasi propheta Egiptius atque astrologus,
+          <lb/>et venit Macedoniam sedensque palam divinando omnibus,
+          <lb/>qui pergebant ad eum. Egiptii autem ut viderunt, quia
+          <lb/>Nectanabus non inveniebatur, perrexerunt ad [I]festum
+          <lb/>deum illorum et rogaverunt eum, ut manifestaret eis, quid
+          <lb/>a vel ubi esset rex Egiptiorum. Ille autem dixit: “Fuga
+          <lb/>lapsus est de Egipto; post aliquantum tempus debet venire
+          <lb/>iuvenis eiciendo a se senectutem, et faciendo se saecularem
+          <lb/>defensorem inimicorum veniens ille subiectos faciat vos”
+          <lb/>Istam divinationem recipientes Egiptii scripserunt et
+          <lb/>sculpserunt illud in marmore ad memoriam.
+                  </p>
+      </div>
+      <lb/><pb n="49"/>
+      <div type="par" n="4">
+        <p>
+          <lb/>Nectanebus autem manens in Macedonia Philippus
+          <lb/>(h)abiit in prelium. Post liaec perrexit Nectanebus palatium
+          <lb/>et vidit pulchritudinem Olimpiadis; iaculatum est
+          <lb/>cor eius in concupiscentiam illius; tetendit manum suam
+          <lb/>salutans eam et dicens illi: “Gaude, regina Macedonum”, 
+          <lb/>dedignans illam appellari dominatricem. Ad haec dixit
+          <lb/>illi Olimpiadis: “Gaude, benignissime magister. Accede
+          <lb/>propius et sede.” Ubi autem sedit, interrogavit eum Olimpiadis:
+          <lb/>“Verene est, inquit, quod Egiptius sis ?” Respondit
+          <lb/>illi Nectanebus: “Verbum pulchritudinis et regale dixisti. 
+          <lb/>Sunt enim sapientes, qui etiam somnia interpretaverunt,
+          <lb/>Signa solverunt, volatilia intellexerunt, secreta intelligentes
+          <lb/>atque manifesta divinantes, fatum nascentium
+          <lb/>dicentes. Ego itaque sensu subtilissimo de bis omnibus
+          <lb/>notus factus sum sicut propheta atque divinator.” Haec 
+          <lb/>dicens respexit eam sensu concupiscibili. Dixit itaque
+          <lb/>illi Olimpiadis: “O propheta, quid cogitasti sie respiciendo
+          <lb/>me ?” Nectanebus inquit: “Recordatus sum pulcherrimam
+          <lb/>divinationem ; etenim auditus sum a proximis diis, quia
+          <lb/>debeo intueri reginam.” 
+          <lb/>Proferens de sinu suo mirificam tabulam, quam interpretari
+          <lb/>nulla locutio poterit, mixtam ebeno atque eburneo
+          <lb/>seu auro et argento continentem in se circula. Primus
+          <lb/>circulus continebat intelligentias decem; secundus circulus
+          <lb/>habebat feras duodecim; medius circulus habebat 
+          <lb/>solem et lunam. Post haec aperuit cantram eburneam,
+          <lb/>proferens ex ea Septem lucidissimas Stellas exploratrices 
+          <lb/> <pb n="50"/>
+          <lb/>horarum ex octo lapidibus artificatis, per quas composuit
+          <lb/>hominem †. Dixitque illi Olimpiadis: “Si vis, ut credam
+          <lb/>tibi, die mihi annum et diem et horam nativitatis regis”
+          <lb/>Ad haec Nectanebus cepit computare nativitatem regis
+          <lb/>et eiusdemreginaedicendo talia: “Oregina,quid vis audire ?”
+          <lb/>At illa dixit: “Dic mihi, quid debet fieri inter me et Philippum,
+          <lb/>quia dicitur, si reversurus fuerit ex preho, eiciat me
+          <lb/>aliamque accipiat uxorem.” Cui ille: “Falsidica sunt haec
+          <lb/>verba, non veridica; at tamen post ahquantum tempus
+          <lb/>factum erit.” Cui illa: “Obsecro, ut dicas mihi omnem
+          <lb/>veritatem” Respondit ille: “Unus ex potentissimis diis
+          <lb/>concumbet tecum et adiuvabit te.” At illa dixit: “Et quis
+          <lb/>est ille deus, qui concumbet mecum ?'' Nectanebus inquit:
+          <lb/>“Ille est Ammon, qui largitur divicias in omnibus.” Dixitque
+          <lb/>illa: “Et quam figuram habet?” Cui ille: “Neque
+          <lb/>iuvenis neque vetulus, sed in media aetate consistit habens
+          <lb/>in fronte cornua [arietina], canos barbamque ornatam.
+          <lb/>Unde si tibi placet, esto preparata illi, quia in somnis videbis
+          <lb/>illum et in ipso somno concumbit tecum” Dixitque illa:
+          <lb/>“Et si hoc videro, non quomodo prophetam aut divinum,
+          <lb/>sed sicut deum adorabo te.”
+                  </p>
+      </div>
+      <div type="par" n="5">
+        <p>
+          <lb/>Haec dicens Nectanebus exiit continuo et abiit in
+          <lb/>desertum, atque evellens herbas et triturans ea tollens
+          <lb/><pb n="51"/>
+          <lb/>sucum fecitque incantationem Olimpiadis per somnium,
+          <lb/>ut veraciter videret in somno Ammonem deum concumbentem
+          <lb/>secum. Quod et factum est. Postquam surrexit
+          <lb/>ab ea, dixit illi: “Mulier, concepisti in utero defensorem 
+          <lb/>tuum”                   
+        </p>
+      </div>
+      <div type="par" n="6">
+        <p>
+          <lb/>Mane autem facto cum surrexisset a lecto, fecit
+          <lb/>venire ad se Nectanebum, recitans illi somnium, quod viderat.
+          <lb/>At ille dixit: “Omnia scio; faciamus aliquod arbitrium, 
+          <lb/>quia aliud est somnium atque aliud veritas. Iste deus
+          <lb/>quando veniet, figuram habebit draconis, postea humanam 
+          <lb/>formam in mea similitudine.” Ad haec Olimpiadis: “Bene
+          <lb/>dixisti, propheta. Recipe cubiculum, et ego, si videro hoc
+          <lb/>veraciter, habebo te quasi patrem pueri”
+                  </p>
+      </div>
+      <div type="par" n="7">
+        <p>
+          <lb/>Ubi factum est hoc signum, cum surrexisset ab ea,
+          <lb/>percussit eam in utero dixitque illi: “Haec conceptio sit 
+          <lb/>victorialis et nuUomodo subiugabitur.” Cum autem coepisset
+          <lb/>Uterus eiusintumescere, vocavit Nectanebum et dixit
+          <lb/>illi: “Propheta, quid debet facere Philippus, si redierit ?”
+          <lb/>Cui Nectanebus: “Noli expavescere, ego ero in adiutorium
+          <lb/>tui.” Taliter suasa est Olimpiadis adulterando se ab homine 
+          <lb/>quasi a deo.
+                  </p>
+      </div>
+      <div type="par" n="8">
+        <p>
+          <lb/>Inter haec apprehendit avem marinam suadendo
+          <lb/>Phihppum per somnium. Statim apparuit ei, quasi videret
+          <lb/>concumbere Ammonem deum cum Olimpiade ac dicere:
+          <lb/><pb n="52"/>  
+          <lb/>“Mulier, concepisti in utero defensorem tuum et de patre
+          <lb/>suo Philippe” et quasi videret celata membra illius consuere
+          <lb/>atque signare aureo anulo. Ipse vero anulus habebat
+          <lb/>lapidem sculptum, caput leonis et claritatem solis atque
+          <lb/>gladium. Haec videns surrexit et convocavit ad se ariolum,
+          <lb/>qui interpretaretur somnium, quod viderat. Cui ariolus:
+          <lb/>“Philippe, scias pro certo, quia concepit Olimpiadis non
+          <lb/>ab homine sed a deo. Caput namque leonis atque gladius
+          <lb/>talem intellectum habet, quia ille, qui nasci debet, pertinget
+          <lb/>usque ad orientem pugnando atque per gladium capiendo
+          <lb/>civitates.”       
+                       </p>
+      </div>
+      <div type="par" n="9">
+        <p>
+          <lb/>Inter haec autem pugnavit Philippus et vicit coepitque
+          <lb/>redire Macedoniam. Obviavit illi Olimpiadis et osculavit
+          <lb/>eum; intuitus est eam Philippus; dixit ei: “Cui tu
+          <lb/>te tradidisti, Olimpiadis ? Peccasti in quem ? Non peccasti,
+          <lb/>quia vim sustinuisti a deo. Ego itaque totum hoc
+          <lb/>per somnium vidi; proinde inreprehensibilis esse videris”
+                  </p>
+      </div>
+      <div type="par" n="10">
+        <p>
+          <lb/>Quadam vero die epulabatur Philippus et letatus
+          <lb/>est valde. Nectanebus per artem magicam transfiguravit
+          <lb/>se in formam draconis et per medium triclinium, in quo
+          <lb/>comedebat Philippus, transiit atque sibilavit terribiliter,
+          <lb/>qui pavorem et turbationem inmisit in eos, qui conviv[a]e
+          <lb/>erant, et appropinquans ad Olimpiadem caput posuit in
+          <lb/><pb n="53"/>
+          <lb/>gremium eius et osculabatur eam. Vidensque illud Philippus
+          <lb/>dixit: “Olimpiadis, tibi dico et vobis omnibus, qui
+          <lb/>mecum comeditis: hunc draconem vidi tunc, quando preliatus
+          <lb/>sum contra inimicos meos.”
+                  </p>
+      </div>
+      <div type="par" n="11">
+        <p>
+          <lb/>Post paucos vero dies sedens Philippus solus parva 
+          <lb/>atque mitis avis ascendit in gremium eius et generavit
+          <lb/>Ovum. Cecidit de sinu eius in terram atque divisum est;
+          <lb/>et exiit parvissimus serpens congiratusque est ovum; voluit
+          <lb/>introire in eum et, antequam ibi posuisset caput, defunctus
+          <lb/>est. Ubi hoc factum est, turbatus est PhiHppus et fecit 
+          <lb/>venire ad se ariolum et recitavit id, quod viderat. Cui
+          <lb/>ille: “Rex PhiHppe, nascetur tibi fihus, qui debet regnare
+          <lb/>et circuire totum mundum subiugando omnes et, antequam
+          <lb/>revertatur in terram suam, in parvis annis morietur.”
+        </p>
+      </div>
+      <div type="par" n="12">
+        <p>
+          <lb/>Appropinquavit tempus parturiendi Ohmpiadis,
+          <lb/>et coepit dolere uterus eius, fecitque venire ad se Nectanebum.
+          <lb/>Et cepit computare dicendo: “Subleva te de sedio
+          <lb/>tuo paululum, Ohmpiadis, quia hac [h]ora omnia elementa
+          <lb/>conturbat sol.” - Et post paululum peperit Olimpiadis,
+          <lb/>et ubi puer cecidit in terram, statim facta sunt fulgura 
+          <lb/>atque tonitrua seu terremotus.
+                  </p>
+      </div>
+      <div type="par" n="13">
+        <p>
+          <lb/>Quod cum vidisset Philippus, dixit: “O mulier, 
+          <lb/>cogitavi in corde meo, ut nullomodo enutriretur iste infantulus,
+          <lb/>quia non est ex me conceptus. At tamen [quia] intelligo,
+          <lb/>quia a deo est conceptus, et in partu eius video mutari 
+          <lb/>elementa, nutriatur in memoriam, quasi proprius sit mens
+          <lb/><pb n="54"/>
+          <lb/>filius et quasi sit ille, qui mortuus est mihi ex alia uxore,
+          <lb/>imponaturque ei nomen Alexander.” Haec dicens Philippus
+          <lb/>coeperunt nutrire sub omni diligentia infantulum.
+          <lb/>Figura illius neque patri neque matri assimulatur,
+          <lb/>sed propriam figuram suam habet. Coma capitis eiussicut
+          <lb/>leo; ocuh eius non similabantur ad alterum, sed unus est
+          <lb/>niger atque albus est alter. Dentes vero eius erant acuti,
+          <lb/>impetus vero illius sicut leo fervidus; et qualis debebat
+          <lb/>in posterum fieri, figura illius significabatur. In scolis
+          <lb/>itaque, ubi sedebat cum condiscipulis suis, pugnabat cum
+          <lb/>eis atque vicit eos.
+          <lb/>In ipsis temporibus quidam principes Cappadoces
+          <lb/>adduxerunt Philippo polletrum magnum ligatum ex omni
+          <lb/>parte diversis ligaturis; comedebat enim homines. Intuitus
+          <lb/>est autem Philippus pulchritudinem eius et dixit: “In
+          <lb/>hoc caballo significabitur signum sive bonum sive malum.
+          <lb/>Veniant denique homines mei et recipiant hunc polletrum
+          <lb/>et preparentur illi cancella ferrea atque ibi recludatur, ut
+          <lb/>et raptores et latrones seu qui male faciunt et qui debent
+          <lb/>comedi a feris, comedantur ab isto caballo.”
+                  </p>
+      </div>
+      <div type="par" n="14">
+        <p>
+          <lb/>Ubi factus est Alexander annorum duodecim, instruebatur
+          <lb/>cum aliis militibus quasi ad pugnam, qui etiam
+          <lb/>videns Philippus velocitatem eius placuit ei et dixit: “Fili,
+          <lb/>diligo velocitatem tuam atque ingenium, sed tristis existo,
+          <lb/>quia figura tua non assimilatur mihi.” Quod ut vidit Olimpiadis,
+          <lb/>quia tristis erat in hoc Philippus, vocabat Nectanebum
+          <lb/>et dixit illi: “Perscrutare et intelhge, quid cogitat
+          <lb/><pb n="55"/>
+          <lb/>de me facere Philippus.” Coepit computare et dixit: “Cogitatio
+          <lb/>illius erga te munda est. Sol itaque respicit in quandam 
+          <lb/>stellam separando desiderium suum.”
+          <lb/>Alexander tunc ibi erat et, ubi hoc audivit, dixit:
+          <lb/>“Pater, hae stellae, quas tu computas, parent in caelo. 
+          <lb/>Cui Nectanebus: “Etiam, fili.” Alexander dixit: “Et possum
+          <lb/>eas videre hora serotina ?” Cui Nectanebus: “Sequere
+          <lb/>me hora noctis in campo et ostendam tibi” Alexander
+          <lb/>dixit: “ Pater, et fatum tuum agnoscis ?” Cui Nectanebus:
+          <lb/>“Etiam fortiter” Alexander dixit: “Ars bona est et opto 
+          <lb/>illam scire. Et quam mortem debes facere?” Cui dixit:
+          <lb/>“A filio meo moriar.”
+          <lb/>Totum hoc dicendo secutus est eum Alexander per
+          <lb/>noctem extra civitatem. Cui dixit Nectanebus: “Fili,
+          <lb/>respice stellas et vide stellam Herculis, quomodo tristis 
+          <lb/>est; et stella Hermi leta est; stella itaque Iovis clara est”
+          <lb/>Sic respiciendo sursum Nectanebus accessit ei propius
+          <lb/>Alexander et fecit impetum in eam atque proiecit eum in 
+          <lb/>foveam. Et dixit illi: “Non tibi meruit hoc, nesciendo terrenas
+          <lb/>causas; quare voluisti te intermittere de caelestibus 
+          <lb/>elementis ?” Cui Nectanebus: “Cognitum mihi fuit hoc,
+          <lb/>quia sie mihi debuit evenire; tamen non potui evadere,
+          <lb/>ut mihi hoc non eveniret “ Alexander dixit, quia: “ego
+          <lb/>filius tuus sum ?” Cui Nectanebus: “Tu es meus filius”
+          <lb/><pb n="56"/>
+          <lb/>Ubi cognovit Alexander, quia ipse esset pater eius, dubitavit
+          <lb/>eum dimittere in foveam, sed elevavit eum in humeris
+          <lb/>suis atque portavit corpus eius in palatium. Quod ubi
+          <lb/>vidit Olimpiadis, dixit: “Fili Alexander, quid est hoc?''
+          <lb/>Cui ille: “Corpus Nectanebi est.” Et illa: “Nectanebus
+          <lb/>pater tuus fuit.” Dixit ille: “Quemadmodum stultitia
+          <lb/>tua fecit”.
+                           </p>
+      </div>
+      <div type="par" n="15">
+        <p>
+          <lb/>Inter haec autem cognovit Philippus per divinationem,
+          <lb/>quis deberet regnare post mortem illius, et
+          <lb/>exspectabat fidutiam caballi.
+          
+        </p>
+      </div>
+      <div type="par" n="16">
+        <p>
+          <lb/>Alexander itaque factus est audax et fortis.          
+        </p>
+      </div>
+      <div type="par" n="17">
+        <p>
+          <lb/>Transiit per eum locum, in quo stabat ipse indomabilis
+          <lb/>caballus, viditque illum conclusum esse inter cancella
+          <lb/>ferrea et ante eum iacentem summa[m] manuum ac pedum
+          <lb/>hominis, quae illi superfuerat, et miratus est misitque
+          <lb/>manum suam per cancellas. Statim extendit Collum suum
+          <lb/>ipse caballus et coepit lambere manum illius atque complicatis
+          <lb/>pedibus proiecit se in terram, tornansque caput respexit
+          <lb/>Alexandrum. Intelligens itaque Alexander voluntatem
+          <lb/><pb n="57"/>
+          <lb/>caballi aperuit cancellum et coepit mansuete tangere
+          <lb/>dorsum eius manu dextera. Statim caballus coepit mansuescere
+          <lb/>amplius; ut cum quando blanditur domino suo 
+          <lb/>canis, sie et ille blandiebat Alexandro. Inter haec autem
+          <lb/>ascendit super eum et equitando exiit foras. Cum autem 
+          <lb/>vidisset eum Philippus, dixit: “Fili Alexander, omnem
+          <lb/>divinationem modo cognovi in te, quia tu debes fieri rex
+          <lb/>post meam mortem”.
+        </p>
+      </div>
+      <div type="par" n="18">
+        <p>
+          <lb/>Inter haec autem factus est Alexander annorum
+          <lb/>quindecim et dixit ad Philippum: “ Pater, si potest fieri,
+          <lb/>dirige me sedentem in curru.” Dixitque illi Philippus:
+          <lb/>“Gratum accipio, fili, daboque tibi caballos centum et
+          <lb/>quadraginta dena miha aureorum sohdorum, et vade cum
+          <lb/>bono auxiho “ Exivit deferens secum paramentum et
+          <lb/>precipiens, ut mitterent Studium de cabalhs, una cum 
+          <lb/>Efestio philosopho, amico suo; veniente itaque in Poloponinsu,
+          <lb/>ut faceret pugnam cum Nicoiao, rege ipsius provintiae;
+          <lb/>ubi autem vidit eum Nicolaus rex, dixit: “Dic
+          <lb/>mihi, quis es tu?” Cui ille: “Ego sum Alexander, filius
+          <lb/>Philippi.” Cui Nicolaus: “Quem speras me ?” Dixit Alexander:
+          <lb/>“Tu es Nicolaus, rex Arideorum.” Item Alexander:
+          <lb/>“Non elevetur cor tuum in superbia, quia habes honorem
+          <lb/>regalem super te. Solet enim inveniri in humano fatu,
+          <lb/>quando maior perveniet ad parvitatem et parvus perveniet 
+          <lb/>ad magnitudinem.” Cui Nicolaus: “Bene dixisti, temet 
+          <lb/><pb n="58"/>
+          <lb/>ipsum nescis tu; natura enim mea inreprehensibilis est.
+          <lb/>Tamen die mihi veritatem: quare in has partes venisti?”
+          <lb/>Cui Alexander: “Recede a me, o homo, quia neque tu habes
+          <lb/>aliquid adversum raie, nee ego adversum te “ In hoc autem
+          <lb/>iratus est valde Nicolaus et dixit: “Vide, quah homini
+          <lb/>loquor ! Per salvationem iuro patris mei, si impetum spum[a]e
+          <lb/>eicio in faciem eius, morietur.” Et expuit ad eum et dixit:
+          <lb/>“Tolle hoc, quod tibi decet, catule, accipere, quia non
+          <lb/>erubescis.” Ille autem continendo se secundum doctrinam
+          <lb/>nativitatis suae dixit: “Nicolae, iuro tibi secundum paternam
+          <lb/>nativitatem meam et per uterum matris meae a deo
+          <lb/>conceptum, quia et hie per currea arma vincam te et patriam
+          <lb/>tuam per arma subiugabo mihi “ Et separati sunt abinvicem.
+                  </p>
+      </div>
+      <div type="par" n="19">
+        <p>
+          <lb/>Et post paucos dies venit constitutus dies, in quo
+          <lb/>coniuncti sunt ambo ad pugnam. Sonaverunt tubas facientes
+          <lb/>signum pugnandi, et omnes unanimiter moti sunt
+          <lb/>iungendo se ad pugnam; quos omnes Alexander manu
+          <lb/>propria occidit. Ubi vicit ipsam pugnam, ordo militaris
+          <lb/>coronavit eum et caballos eius, et ad patrem suum reversus
+          <lb/>est cum victoria.
+        </p>
+      </div>
+      <div type="par" n="20">
+        <p>
+          <lb/>Invenitque Philippum, patrem suum, quomodo
+          <lb/>eiecit matrem suam et sociavit sibi cuiusdam hominis
+          <lb/>fiham nomine Cleopatram. Et sie sedens in nuptiali convivio
+          <lb/>ingressus est Alexander et dixit: “ Pater, recipe a
+          <lb/>me de priori mea pugna victorialem coronam. Tamen
+          <lb/>quando celebraturus sum nuptias matris meae iungendo
+          <lb/>illi regem maritum, tu in ipsis nuptiis invitatus non eris.”
+        </p>
+      </div>
+      <lb/><pb n="59"/>
+      <div type="par" n="21">
+                <p>
+                  <lb/>       Unus autem ex discumbentibus, cui nomen Lisias,
+                  <lb/>dixit: “ Philippe, ex Cleopatra nascetur tibi filius similis
+                  <lb/>tui.” Ubi hoc audivit Alexander, percussit eum cum baculo,
+                  <lb/>quem tenebat in manu, et occidit. Videns hoc Philippus
+                  <lb/>iratus est et erexit se atque in ipso impetu cecidit. 
+                  <lb/>Dixit Alexander: “Phihppe, qui subiugasti Asiam et Europam,
+                  <lb/>quare super tuos pedes non stas?” In hoc itaque
+                  <lb/>tempore exturbatae sunt ipsae nuptiae.
+                </p>
+      </div>
+      <div type="par" n="22">
+        <p> 
+          <lb/>Et Philippus egrotabat; et post paucos dies introivit 
+          <lb/>Alexander visitare illum et dixit: “ Philippe, quamvis non 
+          <lb/>sit lex, ut te vocem ex nomine, non tibi loquor ut filius,
+          <lb/>sed ut amicus. Fac bene mulieri, cui male fecisti, et non
+          <lb/>sit tibi curae, quia occidi Lisiam. Bene feci, tu autem
+          <lb/>male fecisti, quia impetum fecisti in me, ut percuteres
+          <lb/>me gladio.” Et flevit Philippus. Et ubi vidit patrem plorantem,
+          <lb/>dimisit eum et (h)abiit loqui matri suae, cui et dixit:
+          <lb/>“Mi mater, noli teuere malam voluntatem patris, quia,
+          <lb/>quamvis absconditum sit peccatum tuum, reprehensio
+          <lb/>tua stabit. Bene est, ut uxor semper subiecta sit suo marito.''
+          <lb/>Haec dicens portavit eam patri suo. 
+        </p>
+      </div>
+      <div type="par" n="23">
+        <p> 
+          <lb/>Et post paucos dies venerunt reguli missi a Dario
+          <lb/>imperatore ad Philippum querendo censum [consuetum].
+          <lb/>Ubi vidit eos Alexander, dixit: “Ite, dicite Dario: quando
+          <lb/><pb n="60"/>
+          <lb/>Philippus non habebat filium, gallina generabat ei ovum
+          <lb/>aureumf, nunc autem nascendo Philippo filius ipsa gallina
+          <lb/>facta est sterilis “ Haec dicens dedit illis absolutionem
+          <lb/>et remisit eos ad Darium regem.
+          <lb/>Et post haec revellata est Armenia, et direxit illuc
+          <lb/>Philippus Alexandrum cum hoste, ut expugnaret eam.
+        </p>
+      </div>
+      <div type="par" n="24">
+        <p>
+          <lb/>Tunc erat in Macedonia quidam homo nomine
+          <lb/>Pausania, velocissimus vir, subiectus Philippo. Iste ipse
+          <lb/>Pausania concupivit Olimpiadem et fecit consilium; adunavit
+          <lb/>populum et una cum populo suo ipso manu armata
+          <lb/>(h)abiit supra Philippum; terga vertit ei, vibrata hasta
+          <lb/>percussit Philippum in dorso. Tamen quamvis percussus
+          <lb/>fuisset, statim non est mortuus, sed iacuit in campo
+          <lb/>semivivus. Et facta est non modica turbatio, sperantes
+          <lb/>esse eum mortuum. Unde elevatus Pausania in audatia,
+          <lb/>introivit palatium eius et abstraxit inde Olimpiadem et
+          <lb/>portabat eam.
+          <lb/>Inter haec autem reversus est Alexander de Armenia
+          <lb/>et invenit maximam turbationem in regno illorum. Et etiam
+          <lb/>exiit Olimpiadis incognito loco et coepit vociferare ad
+          <lb/>Alexandrum, filium suum, dicens: “Ubi est victoria tua,
+          <lb/>Alexander, ubi fatus, quem a diis accepisti, ut victorialis
+          <lb/>exsisteres et vindicares me patremque tuum ?” Audito
+          <lb/>hoc Pausania exiit, ut videret Alexandrum. Ille autem
+          <lb/>vibrata manu gladio percussit Pausaniam ; et statim mortuus
+          <lb/>est. Venitque illi nuntius, quod et Philippus pater eius
+          <lb/>mortuus esset; (h)abiit ad eum. Ubi vidit eum Philippus,
+          <lb/>dixit illi: “Fili Alexander, iam laetus moriar, quia fecisti
+          <lb/>vindictam occidendo inimicum meum.'' Haec dicendo
+          <lb/>mortuus est; ploransque mortem patris (h)abiit et sepelivit
+          <lb/>eum.
+                  </p>
+      </div>
+      <div type="par" n="25">
+        <p>
+          <lb/>Cum autem reversus esset a sepulchro illius, altero
+          <lb/>die effecto sedit in throno patris sui et dixit: “O iuvenes
+          <lb/><pb n="61"/>
+          <lb/>Macedones, Tracienses et Thessalonicenses atque Lacedemones
+          <lb/>et alii, intuemini et videte Alexandrum, et timor
+          <lb/>barbarorum procul sit a vobis. In me sit, ait, hoc, quia
+          <lb/>et illos subiugabo et in servitio manuum vestrarum ponam
+          <lb/>illos. Quis ex vobis arma voluerit, tollat ex meo palatio 
+          <lb/>et preparet se ad proelium, et qui noluerit, armet se ex
+          <lb/>armis suis.” Dixerunt ei seniores: “Rex Alexander, aetas
+          <lb/>nostra in senectute posita est; multis annis militavimus
+          <lb/>patri tuo et non est virtus nobis, ut angustiam ferre valeamus.
+          <lb/>Unde si tibi placet, recusetur a nobis milicia, quam lo
+          <lb/>usque [h]actenus egimus “ In hoc respondit Alexander:
+          <lb/>“Magis volumus vos habere in milicia nostra quam iuvenes,
+          <lb/>quia iuvenis confidendo in iuventute sua acquirit mortem,
+          <lb/>senior autem omnia cum consilio facit.” Hoc dicens fecit
+          <lb/>eos acquiescere, ut essent in milicia sua. 
+        </p>
+      </div>
+      <div type="par" n="29">
+        <p>
+          <lb/>Et post haec congregata multitudine hostium 
+          <lb/>coepit ire Romam. Principes vero miliciae mandaverunt
+          <lb/>ei sex milia talenta auri et Coronas centum novem
+          <lb/>milia deprecantes illum, ut concederet illis pugnam 
+          <lb/>Calcedonis. 	
+                  </p>
+      </div>
+      <lb/><pb n="62"/>
+      <div type="par" n="30">
+        <p>
+          <lb/>Inter haec autem ingressus est Italiam et inde sulcato
+          <lb/>pelago perrexit Affricam. Principes miliciae Affricae
+          <lb/>rogaverunt Alexandrum, ut desuper illis tollere(n)t Romanorum
+          <lb/>principes. Verum tamen apprehendit Calcedonem
+          <lb/>et dixit: “Vobis dico, Chalcedones, aut pugnate viriliter
+          <lb/>aut subiugamini sub potestate pugnatorum.''
+          <lb/>Exiit a Chalcedonia, et praecepit militibus suis, ut
+          <lb/>ingrederentur cum eo naves et irent Faranitidam insulam,
+          <lb/>atque ibi recepit divinationem a deo Ammone.
+        </p>
+      </div>
+      <div type="par" n="31">
+        <p>
+          <lb/>Cum autem (h)abiret accipere divinationem ab
+          <lb/>ipso deo, obviavit ei cervus, praecepitque militibus suis,
+          <lb/>ut sagittarent eum. Uli vero sagittare nullomodo potuerunt.
+          <lb/>nie autem apprehendit arcum et sagittam; dixit militibus
+          <lb/>suis: “Sic sagittatis!” Et continuo sagittavit eum, et usque
+          <lb/>hodie vocatur locus ille Sagittarius.
+          <lb/>  Inde movit se et abiit in locum, qui dicitur Tafosiri,
+          <lb/>in quo erant vill[a]e quindecim et habebant flumina duodecim,
+          <lb/>qui cursu suo ingrediebantur in mare.
+        </p>
+      </div>
+      <lb/><pb n="63"/>
+      <div type="par" n="33">
+        <p>
+          <lb/>Ibi erant portae clausae et fabricatae. Inter haec 
+          <lb/>autem fecit offertionem Alexander diis deprecans eos, ut
+          <lb/>facerert illi divinationem de omnibus. Ibi et obdormivit. 
+          <lb/>Et in ipso somno apparuit ei deus Serapis dicens illi: “Alexandre,
+          <lb/>potes mutare hunc montem et portare illum ?”
+          <lb/>Cui Alexander: “Et ubi, domine, possiim portare eum ?”
+          <lb/>Cui ille: “Quo modo iste mons non transferetur de loco suo,
+          <lb/>sie et nomen tuum nullomodo mutabitur “ Cui Alexander:
+          <lb/>“ Serapis, die mihi, quam mortem debeo facere.” Cui
+          <lb/>Serapis dixit: “Bona causa est et sine aliqua tribulatione, lo
+          <lb/>non scire hominem horam mortis suae. Mortem iustam
+          <lb/>habes recipere cum potione. Suspeccio aliqua non sit in te,
+          <lb/>qua hora apprehenderit te infirmitas. Morieris in iuventute
+          <lb/>tua transeundo multa mala “ Ubi audivit hoc Alexander,
+          <lb/>contristatus est precipitque, ut fabricaretur civitas, imponens 
+          <lb/>illi nomen Alexandria.
+                  </p>
+      </div>
+      <div type="par" n="34">
+        <p>
+          <lb/>Dedit comitatum militibus suis, ut irent Ascalonam
+          <lb/>et expectarent eum. Audierunt Egiptii adventum Alexandri;
+          <lb/>exierunt obviam illi atque subiugati sunt ei et 
+          <lb/><pb n="64"/>
+          <lb/>honorabiliter portaverunt eum Egiptii. Introeunte vero
+          <lb/>Egiptum invenit ibi regalem statuam ex marmore nigro
+          <lb/>et dixit: “Guius est hec statua ?” At illi dixerunt: “Statua
+          <lb/>haec Nectanebi, regis Egiptiorum, est.” Quibus ille dixit:
+          <lb/>“Nectanebus pater meus est.” Proiecit se et amplexatus
+          <lb/>est eam atque osculabatur.
+                  </p>
+      </div>
+      <div type="par" n="35">
+        <p>
+          <lb/>Inde vero accepta milicia perrexit Siriam. Sirii
+          <lb/>vero restiterunt ei viriliter pugnaveruntque cum eo atque
+          <lb/>occiderunt ei milites. Inter hec autem movit hostem et
+          <lb/>castra metatus est atque obdormivit. Viditque in somno
+          <lb/>tenere uvam in manu et proiecit eam in terram et tundens
+          <lb/>calcibus fecit ex ea vinum. Et excitatus est a somno fecitque
+          <lb/>venire ariolum referens illi somnium. Cui ariolus:
+          <lb/>“Hanc civitatem debes apprehendere, quia vinum uvae
+          <lb/>sanguis intellegitur ; et quia eam conculcasti, subiugabitur
+          <lb/>haec civitas potestati tuae.'' Erexit se et congregata milicia
+          <lb/>coepit pugnare. Et pugnando apprehendit tres civitates
+          <lb/>et dissipavit eas funditus, qui(a) eciam, qualia mala sustinuerunt
+          <lb/>Tirii, usque hodie memoratur.
+        </p>
+      </div>
+      <div type="par" n="36">
+        <p>
+          <lb/>Qui vero effugerunt manum illius, abierunt Persidam.
+          <lb/>(H)abeuntes Tiri Persidam recitaverunt Dario
+          <lb/>regi presumptionem Alexandri et bonam doctrinam eins.
+          <lb/>S[c]iscitatus est Darius rex homines ipsos de statu et posicione
+          <lb/>Alexandri. Ostenderunt ei depictam imaginem
+          <lb/><pb n="65"/>
+          <lb/>Alexandri; dedignatus est eam pro parvitato form[a]e
+          <lb/>eius.
+          <lb/>Statim direxit ei speram et virgam curvatam, sed et
+          <lb/>cantram auream et epistolam tali modo: “Rex regum
+          <lb/>terrenorum, parens solis, qui lycet una cum Persidis diis, 
+          <lb/>famulo meo dirigo gaudium. Audivi denique de te, quod
+          <lb/>pro mea venias inimititia per vanam gloriam. Quapropter
+          <lb/>precipio tibi turnare gressum et redi ad matrem tuam et
+          <lb/>requiesce in sinu illius. Qui eciam direxi tibi speram atque
+          <lb/>curvam virgam cantramque auream, ut exerceas et cogites lo
+          <lb/>iocandi causam. Cognosco itaque, quia pauper es et miserrime
+          <lb/>indiges, sed cito resipisce ab hac stulticia et demoniaca 
+          <lb/>quam agis gloria. Tu enim coadunasti quosdam latrunculos
+          <lb/>et vis confligere cum multitudine Persarum; quin
+          <lb/>immo cogita, si poteris numerare Stellas celi. Si adunare 
+          <lb/>potueris homines totius mundi, non prevales resistere 
+          <lb/>plenitudini Persarum, quia coequatur arenae maris. Tantum
+          <lb/>itaque aurum requiescit in Persida, qui vincit claritatem
+          <lb/>solis. Unde oportet te penitere in hoc, quod operatus
+          <lb/>es, quia, si in ipsa stulticia perseverare volueris, dirigo ad 
+          <lb/>te vindicatores, qui te apprehendant. Non quomodo filius
+          <lb/>Filippi, set quomodo principem latronum affigi te cruci
+          <lb/>precipio.”
+                  </p>
+      </div>
+      <div type="par" n="37">
+        <p>
+          <lb/>Hanc epistolam afferentes homines illius precepit
+         <lb/>eam legere coram suis militibus. Quod audientes 
+         <lb/>sui milites tristati sunt. Quibus Alexander: “O commilitones,
+         <lb/>nolite turbari in verbis epistol[a]e. Quare nescitis,
+          <lb/>quia canes multum latrantes nullum affectum faciunt ?
+          <lb/>Credamus itaque, quia veritatem dicit hec epistola. Set
+          <lb/>opus est nobis strenue et fortiter pugnare cum illis et non 
+          <lb/>in vacuum, quia diviti[a]e illorum compellunt nos pugnare
+          <lb/><pb n="66"/>
+          <lb/>Ubi hoc dixit, precepit suis militibus apprehendere
+          <lb/>homines ipsos et crucifigere illos. At illi dixerunt: „Et nos
+          <lb/>quam culpam habemus ?” Quibus Alexander: “Quare
+          <lb/>dicitis me male facere ? Quod si ego male facio, dicta
+          <lb/>senioris vestri compellunt me illud facere, qui direxit vos
+          <lb/>quasi ad latronem.” At illi dixerunt: “Proinde scripsit
+          <lb/>Darius haec, quia nescit magnitudinem tuam et quis es
+          <lb/>tu. Ex quo nos venimus etvidimusintellegibilem inperatorem,
+          <lb/>postquam redierimus, per nos erit diffamatum nomen tuum.”
+          <lb/>Precepitque illos dimittere atque iussit eos invitari
+          <lb/>ad convivium suum. Sedentibusque cum eo et convivantibus
+          <lb/>dixerunt regi: “Dominator, si placet potestati tuae,
+          <lb/>precipe venire nobiscum mille milites et trademus vobis
+          <lb/>Darium.” Quibus Alexander: “Letetur animus vester ad
+          <lb/>hoc in quibus sedetis, quia pro tradicione vestri senioris
+          <lb/>non dabuntur vobis mille milites.”
+        </p>
+      </div>
+      <div type="par" n="38">
+        <p>
+          <lb/>Alio itaque die resedit Alexander praecepitque
+          <lb/>scribere epistolam Dario regi continentem ita: “Rex Alexander,
+          <lb/>Filippi filius atque Olimpiadis, terreni regi regni
+          <lb/>Dario, proximo soli, lucenti una cumPersidis diis, hoc dico:
+          <lb/>Dedecus est tam lucidissimo atque magnificentissimo
+          <lb/>imperatori dirigere parvo homini talia verba et manere
+          <lb/>cotidie in suspectione, posse ledi a me tu, qui es parens
+          <lb/>solis et resides in throno Mithrae et fulgis una cum Persidis
+          <lb/>[diis]. Dii namque inmortales irantur, si mortales
+          <lb/>homines se effici volunt socii illorum. Mortalis ego sum
+          <lb/>et sic venio ad te quasi cum mortali homine pugnaturus.
+          <lb/><pb n="67"/>
+          <lb/>Quia laudando to dixisti habere plurimas divitias auri, 
+          <lb/>acuisti sensum nostrum et fecisti nos fortiores in virtute,
+          <lb/>quatenus vestras acquiramus divitias. Tamen tu, qui
+          <lb/>magnus et excelsus es, cum conveneris pugnaturus mecum
+          <lb/>et viceris, non habebis laudem, quia latrunculum vicisti.
+          <lb/>Quod si ego vicero te, maximam acquiro laudem, quia
+          <lb/>magnificentissimum imperatorem vici. Quia direxisti
+          <lb/>nobis curvam virgam et speram atque auream cantram,
+          <lb/>intellego hoc per virgam curvam: curvantur ante me potentissimi
+          <lb/>reges; per speram rotundam intellego, quia tenebo 
+          <lb/>rotunditatem tocius mundi; per cantram auream me esse
+          <lb/>victorialem intellego et censum ab omnibus recipere, quia
+          <lb/>et a te, qui magnus es, ego, qui parvus sum, cantram auream
+          <lb/>recepi.”
+        </p>
+      </div>
+      <div type="par" n="39">
+        <p>
+          <lb/>Hoc taliter scribendo vocavit apocrisarios, donavit
+          <lb/>illis cantram auream pariter et epistolam ac dimisit
+          <lb/>eos. Euntes vero missi cepit Alexander preparare se, ut
+          <lb/>iter caperet. Recepta itaque Darius epistola et relecta 
+          <lb/>iratus est; direxit satrapis suis epistolam tali modo: “Rex
+          <lb/>Darius Persarum satrapis meis. Audivimus itaque, quod 
+          <lb/>filius Filippi Alexander Macedo elevatus est in stultitia
+          <lb/>et intravit in terram Asi[a]e, qu[a]e mea est, et depredavit
+          <lb/>eam. Quapropter precipio vobis, ut apprehendatis illum 
+          <lb/>atque adducite illum mihi, sicut tarn magnos et fortes
+          <lb/>viros decet et adiutores mei imperii, ut pueriliter flagellem 
+          <lb/>illum et induam illum purpura et dirigam illum Olimpiadi
+          <lb/>matri suae in Macedonia, quia non decet ei pugnare, sed
+          <lb/>Stare in provintia sua et ludere ut puer.''
+          <lb/>Relegentes itaque satrap[a]e hanc epistolam rescripserunt
+          <lb/>ei epistolam tali modo: “Regi Persarum Dario ego 
+          <lb/>Primus et Antilochos satrapes gaudium. Sciat magnitudo
+          <lb/>vestra, quia ipsum puerum Alexandrum, quem dicitis
+          <lb/><pb n="68"/>
+          <lb/>dissipasse provinciam nostram congregata multitudine
+          <lb/>hostium, et pugnavimus cum eo et terga vertimus ei et
+          <lb/>vix evasimus de manu illius. Nos qui(a) adiutores dicti
+          <lb/>d sumus imperii, necesse est, ut queramus vestram salvationem. 
+          <lb/>Quia dixistis illum induere purpura, sciatis, quia
+          <lb/>funditus dissipavit Tyriam.”
+        </p>
+      </div>
+      <div type="par" n="40">
+        <p>
+          <lb/>Cum autem legisset Darius hanc epistolam, supervenit
+          <lb/>ei alter nuntius, quod applicasset Alexander super
+          <lb/>fluvium, qui dicitur Straga. Iterum scripsit ei epistolam
+          <lb/>lü in hoc modo: “ Darius, rex Persarum, dirigo hoc Alexandro.
+          <lb/>In universo mundo laudatum est nomen Darii, quin immo
+          <lb/>etiam dii laudant nomen eins. Quomodo ausus es transire
+          <lb/>flumina et mare et montes et venire contra me ? Hoc
+          <lb/>fuerat tibi magnum nomen, ut sine me tenuisses imperium
+          <lb/>Macedoniae; sed confortatus es et congregasti socios tuos
+          <lb/>et vadis pugnando et dissipando civitates. Melius fuerat
+          <lb/>tibi penitere de malis tuis, quae facis, antequam acciperes
+          <lb/>a me iniuriam, et absconse fecisses refugium ad me, qui
+          <lb/>sum dominus, ut non congreges multa mala super te. At
+          <lb/>tamen gloriari debes in hoc et penitere de malis tuis, quia
+          <lb/>fuisti dignus a me recipere epistolas.
+          <lb/>Verum tamen ut cognoscas, qualis et quanta est mea
+          <lb/>milicia, significabo illam tibi per hanc sementem papaveris,
+          <lb/>quam direxi. Vide itaque, quia, si hoc mensurare potueris,
+          <lb/>a pro certo mensurabitur populus mens. Quod si hoc facere
+          <lb/>non potueris, revertere ad terram tuam et obliviscere,
+          <lb/>quod fecisti, et amplius non ascendat cor tuum talia facere.”
+          <lb/><pb n="69"/>
+          <lb/>Cum autem venissent apocrisarii ad Alexandrum
+          <lb/>portantes illi epistolam et sementem papaveris, legit eam
+          <lb/>tetenditque manum suam et tulit ex ipsa semente mittens
+          <lb/>in os suum, mandens et dixit: “Video, quia homines illius
+          <lb/>multi sunt, sed sicut hoc semen molles sunt.” Supervenerunt
+          <lb/>ei nuntii significantes illi infirmitatem Olimpiadis
+          <lb/>matris suae. Quamvis hoc audisset, scripsit epistolam
+          <lb/>Dario regi continentem ita: “Alexander rex Dario regi
+          <lb/>Persarum hoc dico. Plurimae epistolae advenerunt mihi,
+          <lb/>quae impellunt me, et volente nolente facio, quae dico. 
+          <lb/>Noli cogitare, quod pro pavore atque dubio stultitiae vanae
+          <lb/>vestrae gloriae recedam de isto loco; pro certo scias, quia
+          <lb/>reversurus ero videre matrem meam non tantum, ut videam
+          <lb/>dulce pectus illius, quantum opto videre illam, quia est
+          <lb/>oppressa valida infirmitate. Sed tamen non post multum 
+          <lb/>tempus rediero renovando me. Iterum dirigo tibi advicem
+          <lb/>sementis papaveris, quam nobis in mantico mandasti pro 
+          <lb/>inmensurabili numero militiae vestrae, hoc piper, ut cognoscas,
+          <lb/>quia multitudine[m] papaveris sementis vi[n]cit
+          <lb/>fortitudo huius parvissimi piperis.'' Scripta haec epistola 
+          <lb/>vocavit Alexander apocrisarios Darii deditque illis epistolam
+          <lb/>et dimisit eos. Deinde coepit redire ad matrem suam.
+        </p>
+      </div>
+      <div type="par" n="41">
+        <p>
+          <lb/>“Potentissimus vir, videlicet princeps miliciae 
+          <lb/>Darii regis, sedebat tunc illo in tempore cum valida manu
+          <lb/>hostium super Arabiam. Movit se inde cum toto exercitu. 
+          <lb/>Ex adversa parte stetit ante Alexandrum et coepit acriter
+          <lb/>pugnare cum eo, et inter se ex his et illis coeperunt mori.
+          <lb/>Et valde mane inchoatum est proelium et pugnatum est
+          <lb/>usque ad occasum solis. Et inter haec neque hi neque alii
+          <lb/><lb/><pb n="70"/>
+          <lb/>molles inventi sunt, sed fortiter pugnatum est per continuos
+          <lb/>tres dies et tarn fortiter extitit ipsa pugna, qui obtenebratus
+          <lb/>est sol compatiendo tali homicidio, nolendo videre tantum
+          <lb/>sanguinem. Inter haec defecit Amonta, princeps miliciae
+          <lb/>exercitus Darii, et cum reliquis, qui ei superfuerunt, coepit
+          <lb/>fugere Persidam.
+        </p>
+      </div>
+      <div type="par" n="41">
+        <p>
+          <lb/>Cum tanta velocitate fugierunt, qui ante Darium
+          <lb/>invenerunt apocrisarios, qui portaverunt ei piper et epistolam
+          <lb/>Alexandri, tenente in manu Dario epistolam Alexandri.
+          <lb/>Scrutabatur Darius suos apocrisarios, quid fecisset Alexander
+          <lb/>ex semente papaveris. At illi dixerunt: ,,Apprehendit
+          <lb/>et momordit et despiciendo dixit: multi sunt, [s]et
+          <lb/>molles.” Accepto itaque Dario piper mittens in os suum
+          <lb/>mandens atque dixit cum lacrimis: “Pauci sunt, sed duriores.”
+          <lb/>Videndo hoc Amonta dixit: “Etiam, dominator,
+          <lb/>paucos pugnatores habet Alexander, sed fortes sunt, (et)
+          <lb/>quia multos meos milites occidit.”
+          <lb/>Alexander vero, quia vicit pugnando, non est elevatus
+          <lb/>in elatione praecepitque militibus suis, ut sepelirent Macedonas
+          <lb/>atque Persos, qui ceciderunt in ipso prelio.
+        </p>
+      </div>
+      <div type="par" n="42">
+        <p>
+          <lb/>Et post hec applicavit cum ipsa preda in Achaiam,
+          <lb/>et ibi subiugat[a]e sunt ei mult[a]e civitates, et superiunxit
+          <lb/>in milicia sua decem et Septem dena milia. Inde ascendit
+          <lb/><pb n="71"/>
+          <lb/>montem Taurum et venit in civitatem, qu[a]e dicitur
+          <lb/>Persopolis, in qua sunt novem Mus[a]e. Deinde venit
+          <lb/>Frigiam in templum, quod dicitur Solis, in quo et offertionem 
+          <lb/>fecit. Inde venit ad fluvium, qui dicitur Scamandro,
+          <lb/>qui erat in latitudine cubitorum quinque, et dixit: “Beati
+          <lb/>estis, qui habetis laudem doctoris Homeri” Stetit ante 
+          <lb/>eum homo, cui nomen Clitomidis, et dixit: “Alexander
+          <lb/>rex, maiores laudes possum facere tibi de tuis accionibus,
+          <lb/>quam fecisset Homerus, quia plus miraculosas virtutes
+          <lb/>fecisti quam hi, qui fuerunt Troi[a]p.” Alexander dixit: 
+          <lb/>“Antea voluissem fieri discipulus Homeri quam habere
+          <lb/>laudem, quam habuit Achilles.”
+        </p>
+      </div>
+      <div type="par" n="43">
+        <p>
+          <lb/>Et post hec veniente in Macedoniam invenit matrem
+          <lb/>suam Olimpiadem levari ab infirmitate sua atque letatus
+          <lb/>est cum ea.
+          <lb/>Et post hec exiit de Macedonia venitque in locum,
+          <lb/>qui dicitur Abdira. Homines autem ipsius civitatis clauserunt
+          <lb/>ei portas, ut non ingrederetur ibi. Ad hec iratus
+          <lb/>Alexander praecepit, ut incenderetur ipsa civitas. Homines
+          <lb/>ipsius civitatis videntes ignem dixerunt: „Alexander, non 
+          <lb/>rebellando tibi clausimus portas, sed dubitando Darium,
+          <lb/>regem Persarum, ne audiret de nobis pacem factam tecum,
+          <lb/>dirigeret et dissiparet nos.” Alexander dixit: “Aperite
+          <lb/>portas secundum consuetudinem. Modo itaque non veni
+          <lb/>pugnare vobiscum; cum autem fecero finem cum Dario, 
+          <lb/><pb n="72"/>
+          <lb/>rege Persarum, tunc loquar et vobiscum.” Timendo acquieverunt
+          <lb/>et patefecerunt portas.
+        </p>
+      </div>
+      <div type="par" n="44">
+      <p>
+        <lb/>Transiit [Bih]o(s)tia et venit in Olintho et inde
+        <lb/>Chaldeopolis et venit ad fluvium, qui dicitur Xenis. Et
+        <lb/>oppressit eos fames valida; fecitque diis offertionem militibusque
+        <lb/>suis apparatum magnum et saturavit eos. Murmurati
+        <lb/>sunt inter se cuncti milites dicendo: “Defecerunt
+        <lb/>caballi nostri” Quibus Alexander dixit: “Viri comilitones
+        <lb/>mei, et si defecerunt caballi vestri, desperastis vos
+        <lb/>de salute ? Quod si nos vivimus, caballos festinanter inveniemus,
+        <lb/>quia, si nos morimur, non sunt nobis necessarii
+        <lb/>caballi. Sed tamen festinemus ire in tali loco, ubi cibaria
+        <lb/>nobis sint et nostris caballis.”
+      </p>
+      </div>
+      <div type="par" n="45">
+        <p>
+          <lb/>Inde ceperunt ire ad locum, qui dicitur Locrus,
+          <lb/>15 ubi invenerunt cibaria multa et pascua animalibus. Et
+          <lb/>inde vener unt in locum, qui dicitur Tragachantes, inveneruntque
+          <lb/>ibi templum Apollinis et voluit ibi invenire divinationem
+          <lb/>ab ipsa virgine Zacora. Cui illa dixit: “Non est hora
+          <lb/>divinationis.” Secunda vero vice dixit Apollo: “Iracli.”
+          <lb/>Alexander dixit: “O propheta, mihi est nomen Iracli ? Ergo
+          <lb/>periit divinatio tua.”
+        </p>
+      </div>
+      <div type="par" n="46">
+        <p>
+          <lb/>Deinde movit exercitum et venit Thebaida et
+          <lb/>dixit Theb[e]is: “Date mihi quadringentos milites armatos,
+          <lb/>qui veniant in adiutorium meum.” Statim illi clauserunt
+          <lb/>portas et nihil locuti sunt ei, sed armati sunt ex eis quattuor
+          <lb/><pb n="73"/>
+          <lb/>milia et ascenderunt murum et tenuerunt eum atque dixerunt:
+          <lb/>“Alexander, si non recedis a nobis, pugnamus tecum”
+          <lb/>Hoc audito Alexander rex subrisit et dixit: “Fortissimi
+          <lb/>milites sunt Thebei; clauserunt se intra portas et sie dicunt
+          <lb/>pugnare mecum.” Alexander dixit: “Nullomodo movebo 
+          <lb/>hinc, set stabo et pugnabo contra vos, non quomodo fortes
+          <lb/>aut civitonici, set quomodo rustici et sine virtute. Omnis
+          <lb/>homo fortis, qui pugnare vult, in campum exit, quia non
+          <lb/>clauditur intus urbem quomodo virgo.”
+          <lb/>Set hoc dicendo praecepit mille equitibus suis sagittariis,
+          <lb/>qui circuirent murum et sagittarent homines ipsius
+          <lb/>civitatis. Praecepit iterum duo milia militibus suis, ut cum
+          <lb/>securibus [et] vectes ferreos rumperent fundamenta
+          <lb/>muri, quas construxit Anfionos et Zithu, et aliis quadringentis
+          <lb/>praecepit, ut irent cum ardentibus facculis et incenderent
+          <lb/>portas civitatis et alia tria milia ordinavit, ut percuterent
+          <lb/>murum cum verbicibus. Et ipse Alexander cum fundibalariis
+          <lb/>atque sagittariis ingressus est civitatem. Port[a]e 
+          <lb/>autem civitatis ardebant et populi de muro cadebant multi
+          <lb/>moriendo et alii ex muro lapsum faciendo. Stisichorus 
+          <lb/>inimicus gaudebat, quomodo videbat liberari civitatem
+          <lb/>ex effusione sanguinis.
+          <lb/>Quidam homo eiusdem terr[a]e Isminea nomine,
+          <lb/>melodiam faciens, videns dissipari patriam suam suspirans
+          <lb/>atque reputans per artem musicam facere ingenium, ut
+          <lb/><pb n="74"/>
+          <lb/>mitigaret animum regis, terra tenus proiectus est in terram
+          <lb/>ad pcdes suos rogansque eum, ut tandem aliquando misereretur
+          <lb/>civitati. Respexit eum Alexander et dixit: “O magister,
+          <lb/>postquam apprehendi istam terram et dissipavi
+          <lb/>eam, postea fecisti hanc artem” Cui Isminea dixit: “Proinde
+          <lb/>hoc feci, ut mitigarem animum tuum et converterem
+          <lb/>illum in luctum istius civitatis. Si iuste fecisti dissipando
+          <lb/>hanc civitatem, quia culpavit tibi, intellege, quia et tibi
+          <lb/>malefecisti, quia et pater tuus et tu ipse Thebens es. Oportuit
+          <lb/>te misereri patriae tuae.” Ubi hoc audivit Alexander,
+          <lb/>iussit a fundamentis evellere murum eiuset abiit.
+        </p>
+      </div>
+      <div type="par" n="47">
+        <p>
+          <lb/>Thebei vero, qui remanserunt ex ipso incendio,
+          <lb/>abierunt Delfim ad aram Apollinis et consuluerunt eum,
+          <lb/>ut divina responsa redderet eis, si deberetur reedificari
+          <lb/>Thebea an non. Erat ibi prophetissa; abiit et bibit ex aqua
+          <lb/>Castalia et prophetizavit et dixit: “Ille qui hanc civitatem
+          <lb/>edificaturus est, tres victorias habebit et post ipsas
+          <lb/>Victorias recepturus erit [potestatem] reedificandi ipsam
+          <lb/>civitatem.'' Thebei receperunt hanc divinationem.
+          <lb/>Alexander profectus est Corinthum, rogaverun[t]que
+          <lb/>eum Corinthii, ut luderet cum eis in curribus, conveneruntque
+          <lb/>ad hoc spectaculum multitudo. Secutus est postea
+          <lb/>magnus et vir gloriosus Thebens, cui nomen Clitomagus.
+          <lb/>Astantibus vero ad hoc spectaculum dixit Alexander:
+          <lb/>“Quis ex vobis exiet luctans in ludo isto ?'' Cui Glitomachus
+          <lb/>dixit: “Si placet vestrae potestati, ego recepta potestate
+          <lb/>pugnandi pugnabo et vinco.” Cui dixit Alexander: “Si
+          <lb/>a tres victurus eris, coronaberis.” Coepit pugnare et vicit;
+          <lb/>alias duas vincendo recepit in capite coronam et dixit illi
+          <lb/><pb n="75"/>
+          <lb/>praeconator: “Die nobis nomen tuum.” Clitomachus 
+          <lb/>dixit: “Sine civitas” Vidit hoc Imperator et dixit: “O
+          <lb/>beatissime et pulcherrime certator, ut quid sine civitate ?”
+          <lb/>Clitomachus dixit: “Magnissime imperator, antequam tu
+          <lb/>esses, habui civitatem, nunc autem per te civitatem non 
+          <lb/>habeo.” Intellexit hoc responsum Alexander et dixit:
+          <lb/>“Tibi dico, praeconator, vociferare et die, ut sit Thebeus
+          <lb/>et potestatem habeat reedificandi atque tenendi ipsam
+          <lb/>civitatem.”
+        </p>
+      </div>
+      <div>
+        <p>
+      <lb/><pb n="76"/>
+      <lb/><title>Liber secundus</title> </p> 
+      </div>
+      <div type="par" n="1">
+        <p>
+          <lb/>Exiit Alexander inde et venit in locum qui dicitur 
+          <lb/>Platea, in civitate Athena et introivit in templum Dian[a]e.
+          <lb/>Erat ibi prophetissa, qu[a]e faciebat sacerdotalem vestem,
+          <lb/>introivitque ad eam Alexander. Cui prophetissa: “Bene
+          <lb/>venisti, Alexander, quia tu debes subiugare omnes civitates.”
+          <lb/>Hec dicendo donavit ei plurima dona auri. Post
+          <lb/>aliquot dies Strasagoras, princeps Plateae civitatis, ingressus
+          <lb/>est et ipse templum, in qua erat prophetissa; dixitque
+          <lb/>ad eum: “Quid habes ? Scias, quia principatum tuum
+          <lb/>tolletur a te.” Ille autem non credendo talia dixit: “Non
+          <lb/>eris tu digna teuere prophetiss[a]e locum. Alexander ingressus
+          <lb/>est ad te; laudasti et prophetizasti illi bene. Mihi autem
+          <lb/>prophetizasti male, ut perderem principatum meum.”
+          <lb/>Cui prophetissa: “Noli irasci in hoc, quia sic debet fieri.”
+          <lb/>Post paululum eiecit Alexander Strasagoram ex principatu
+          <lb/>suo.
+          <lb/>Inter haec autem venit Strasagoras cum Alexandro
+          <lb/>in Athenam et intravit Strasagoras in ipsam civitatem
+          <lb/>et recitavit illis hominibus, qualiter eum Alexander eiecit
+          <lb/>de principatu suo. Irati sunt Athenienses et iniuriaverunt
+          <lb/>Alexandrum. Ubi hoc audivit Alexander, scripsit epistolam
+          <lb/>et direxit Atheniensibus continentem ita: “Rex Alexander
+          <lb/>Atheniensibus hoc dico. Postquam mortuus est
+          <lb/><pb n="77"/>
+          <lb/>pater meus et sedi in throno eius, descendi in occidentis
+          <lb/>partibus. Plurim[a]e civitates subiugat[a]e sunt mihi;
+          <lb/>ali[a]e per epistolas subiugat[a]e sunt mihi; receperunt
+          <lb/>bene et honorem a nobis et secuti sunt me quidam ex eis
+          <lb/>in proelium; nolentes itaque ahi venire ad me in pace, 
+          <lb/>pugnavi eos et dissipavi. Iterum quomodo veni modo a
+          <lb/>Macedonia per Europam, restitit mihi Theba civitas; apprhendi
+          <lb/>et dissipavi illam pro stultitia illorum. Nunc autem 
+          <lb/>veni Athenam; dico vobis Atheniensibus et hoc promitto,
+          <lb/>quia nihil ahud opto a vobis, nisi ut militetis sub meo 
+          <lb/>imperio et me habeatis seniorem. Et si non vultis, estote 
+          <lb/>forciores meis; sin autem, subiugamini mihi forciori
+          <lb/>vestro.”
+        </p>
+      </div>
+      <div type="par" n="3">
+        <p>
+          <lb/>Legentes autem Athenienses epistolam rogaverunt
+          <lb/>Demostenem philosophum, ut daret eis consihum. Ille 
+          <lb/>autem eri[g]ens se annuit manu, imperavit populis silentium
+          <lb/>et dixit: “Viri cives mei, commune consilium dabo
+          <lb/>vobis. Quod si scitis vos tales esse, ut vincatis regem Alexandrum,
+          <lb/>pugnate cum eo; sin autem, flectamus nos sub
+          <lb/>potestate manuum eius. Audite similitudinem: scimus 
+          <lb/>regem Xerxen fortissimum atque magnum esse, et cum
+          <lb/>militibus suis multas fecit victorias, sed sustinuit perditionem.
+          <lb/>Hie Alexander ecce iam tredecim pugnas exercuit
+          <lb/>et vicit eas, etiam plurimae civitates, in quibus abiit, sine
+          <lb/>pugna et sine aliqua altercatione subiugatae sunt ei. Dicite 
+          <lb/>mihi: Tirii non erant fortissimi milites et periti in omnem
+          <lb/>artem pugnandi ? Quod actum est ex illis ? Thebei sine
+          <lb/><pb n="78"/>
+          <lb/>virtute erant, qui, ex quo erecta est ipsa civitas, ars pugnandi
+          <lb/>erat in eis ? Quid iterum factum est ex illis ? Poliponienses
+          <lb/>(Corinthii) quantum pugnaverunt cum Alexandro ?
+          <lb/>Scitis iterum, quid factum est ex illis. Pro Strasagora 
+          <lb/>irati estis, quem eiecit de principatu suo ? Culpa
+          <lb/>illius fuit.”
+        </p>
+      </div>
+      <div type="par" n="4">
+        <p>
+          <lb/> Ubi hoc consilium dedit Demostenen, cuncti laudaverunt
+          <lb/>eum et loqui coeperunt inter se. Iterum Demostenen
+          <lb/>imperavit silentium dicens: “Quis rex ingressus est
+          <lb/>Egyptum pugnare cum Egyptiis nisi solus Alexander ?
+          <lb/>Et istud, quod fecit, non pugnando, sed dii adiuverunt
+          <lb/>eum querendo divinitatem et adiutorium ab illis. Abiit
+          <lb/>itaque et subiugavit atque potestate sua redegit Egyptios.
+          <lb/>Quin etiam nomini suo magnam civitatem ibidem fabricavit,
+          <lb/>quin immo etiam et ipsi Egyptii rogaverunt eum,
+          <lb/>ut irent super Persidam in adiutorium eins. Dicite mihi:
+          <lb/>Syri parvi fuerunt ? Nam et illi humiliati sunt atque datum
+          <lb/>dederunt illi. Et vos vultis pugnare cum eo ? Sic nos monendo
+          <lb/>et tanta data dando militibus nostris tale meritum
+          <lb/>recipiet a nobis ?”
+        </p>
+      </div>
+      <div type="par" n="5">
+        <p>
+          <lb/>  Hoc dicendo Demostenen acquievit cunctus populus
+          <lb/> et statuerunt dirigere illi victorialem coronam pensante[m] 
+          <lb/>libras quinquaginta, sed et apochrisarios, promittens
+          <lb/>  illi dare dacionem pariter et dona; rethorici vero nullo
+          <lb/>modo maudaverunt ei. Abeuntes vero apocrisarii in Plateas
+          <lb/>offerendo haec dona regi; legendo ipsam pistolam intellexit
+          <lb/><pb n="79"/>
+          <lb/>consilium Eschillis, qui dixit, ut insurgerent adversus
+          <lb/> eum, et Demostenes dixit, ut obedirent ei.
+          <lb/>Sed tamen scripsit epistolam Atheniensibus tali modo:
+          <lb/>“Alexander, filius Filippi atque Olimpiadis. Quousque
+          <lb/>sub potenti manu Grecorum humiliem cunctos barbaros, 
+          <lb/>nullomodo assumam nomen regis. Ego itaque direxi vobis,
+          <lb/>ut mandaretis mihi decem rethoricos, non quod aliquam
+          <lb/>iniuriam sustineant a me, sed ut salutem et honorem illos
+          <lb/>sicut ma[g]istros. Credite mihi, quia non cogitavi introire
+          <lb/>vestram civitatem cum militibus meis, sed tantum cum 
+          <lb/>principibus meis atque rethoricos vestros, ut liberarem
+          <lb/>vos ex omni suspectione. Et vos contrarium cogitastis
+          <lb/>de me manifestando indignationem vestram. Tamen Corinthi
+          <lb/>coeperunt pugnare, sed dignum meritum receperunt
+          <lb/>a me. Et vos habendo malam conscientiam culpastismihi. is
+          <lb/>Adhuc non credidistis, quod, si quishbet ex vobis erexisset
+          <lb/>se et voluisset fieri imperator inter vos, malum non reddideram
+          <lb/>illi, si bene ei promisissem. Audite, Athenienses,
+          <lb/>de ipsis gloriosissimis rethoricis, quos habetis: Non scio
+          <lb/>ego, quomodo in carcer habetis Euclidi, quia dedit vobis 
+          <lb/>bonum consihum. Ypostheni persecuti estis, quia dedit 
+          <lb/>vobis consihum salvationis. Socratem interfecistis, qui
+          <lb/>fuit ductor vester. Et quomodo reprehenditis Alexandrum,
+          <lb/>quia abstraxi Strasagoram de principatu suo, qui mihi 
+          <lb/>culpavit ? At tamen totum hoc finiatur. Promitto vobis, 
+          <lb/>quia dedit vobis consilium Demostenes de salvatione vestra,
+          <lb/>et vos fecistis illud. Amodo confortamini et salvi estote
+          <lb/>nullam contrarietatem sustinentes a me.”
+        </p>
+      </div>
+      <div type="par" n="6">
+        <p>
+          <lb/>Inde accepta militia sua perrexit Lacedemonam.
+          <lb/>Gonsiliati sunt inter se Lacedemonii: recipiemus eum an
+          <lb/><pb n="80"/>
+          <lb/>non ? Alii dixerunt atque statuerunt, ut nuUomodo reciperent
+          <lb/>eum, dicentes, quia: “nos similes sumus inbecillis
+          <lb/>Atheniensibus ? Ostendamus virtutem nostram Alexandro,
+          <lb/>quia non sumus similes Atheniensibus, qui dubitaverunt
+          <lb/>cumeoinirepugnam.” Clauseruntportasetascenderuntnaves
+          <lb/>et praeparaverunt se ei ad pugnam exeuntes obviam ei ad
+          <lb/>litus maris, quia plus erant cogniti classicobello quam terreno.
+          <lb/>Ubi vidit hoc Alexander, direxit illis  epistolam talia
+          <lb/>dicendo: “Do vobis consilium, ut custodiatis fidem, quam
+          <lb/>accepistis ab antecessoribus parentibus vestris. Si per
+          <lb/>fortitudinem desideratis gaudere, tunc ostendatur fortitudo 
+          <lb/>vestra, quando digni (non) estis a me bene recipere.
+          <lb/>Nunc autem nolite ostendere gloriam vestram, ne forte
+          <lb/>reprehensionem ex vobis ipsis acquiratis, cum vicerit vos
+          <lb/>Alexander. Pro quo rogo vos, ut exeatis de ipsa navidia
+          <lb/>vestra per vestram voluntatem, ante quam focus turpiter
+          <lb/>eiciat vos exinde.”
+          <lb/>Cum autem legissent illi hanc epistolam, noluerunt
+          <lb/>acquiescere verbis illius, set preparaverunt se ad pugnam;
+          <lb/>impetumque fecit super eos Alexander cum suis militibus.
+          <lb/>Alii vero vulnerati cadebant per murum; illi vero, qui in
+          <lb/>navibus sedebant, devoravit eos ignis, quem fecit super
+          <lb/>eos inmittere; qui vero superfuerunt, venerunt ad pedes
+          <lb/>Alexandri deprecando misericordiam illius, ut non eos
+          <lb/>captivaret. Quibus dixit: “Veni mansuetus; noluistis
+          <lb/>me recipere. Cum autem concrematae fuerunt naves vestrae,
+          <lb/>postulastis misericordiam. Tamen non reprehendo vos in
+          <lb/>hoc, quia proinde fecistis impetum super me sperando
+          <lb/>vos facere mihi, quem ad modum Xerxen fecistis; set non
+          <lb/><pb n="81"/>
+          <lb/>potuistis sustinere impetum armatorum Alexandri” Hoc
+          <lb/>dicendo castra metatus est et fecit diis offercionem. Lacedemoniis
+          <lb/>vero et civitati illorum donavit libertatem.
+          <lb/>Deinde ingressus est per partes Ciliciae in terram barbarorum.
+                  </p>
+      </div>
+      <div type="par" n="7">
+        <p>
+          <lb/>Darius itaque congregavit principes et sapientes 
+          <lb/>suos et contulit cum eis, quid debuisset facere, et dicebat:
+          <lb/>“Ut Video, iste, qui sie pugnando vadit, adiungitur in virtute
+          <lb/>et victoria sua. Ego enim sperabam illum esse latrunculum,
+          <lb/>ut iret sicut latro depredando. Ille autem sicut 
+          <lb/>rex pugnat et humiliat et, quantum nos exaltari volumus
+          <lb/> super eum, tanto amplius exaltatur nomen illius. Ego itaque
+          <lb/>direxi illi speram curvatamque virgam, ut ludum
+          <lb/>disceret sicut puer. Ille autem, quem dixi esse discipalum,
+          <lb/>super magistrum veniet suum et, ubicumque pergit, victoria 
+          <lb/>sequitur eum. Unde si placet, cogitemus de salvatione 
+          <lb/>nostra, ut non intendendo in elatione nostra, despiciendo
+          <lb/><lb/>iIlum, dicendo, quia nihil est Alexander, superbiendo,
+          <lb/><lb/>quia tenemus regnum Persarum, parvitas illis crescat et
+          <lb/><lb/>magnitudo nostra despiciat[ur]. Dubito, ne accrescat 
+          <lb/>tempus illius adiuvando eum superna Providentia volendo
+          <lb/>illi concedere diadema regni, et, optando nos eicere illum
+          <lb/>de Ellada, eiciat nos ipse de Persida.'' Hoc dixit
+          <lb/>Darius.
+          <lb/>Ocsiather, frater Darii regis, dixit: “Magnificasti 
+          <lb/>Alexandrum concedendo illi fiduciam in hoc, ut plus exardescat
+          <lb/>ille ingredi Persidam, dimittendo illi Elladam. Unde
+          <lb/><pb n="82"/>
+          
+          <lb/>si tibi placet, fac sicut facit Alexander, et nunc stabit
+          <lb/>regnum tuum sine aliqua turbatione et acquiris aliud
+          <lb/>regnum, quia ille non facit sicut tu, quando vult pugnare
+          <lb/>cum aliquo homine; [non] satrapes et principes mittit, ut
+          <lb/>pugnent cum eo; per semet ipsum vadit et pugnat et antecedit
+          <lb/>omnes principes et omnes satrapas et pugnat viriliter
+          <lb/>acquirendo sibi nomen atque victoriam.”
+          <lb/>Cui Darius dixit: “Ego debeo accipereab illo similitudinem?''
+          <lb/> Cui alius satrapas dixit: “Alexander in omnibus
+          <lb/>peritissimus est et in nullo offendit, omnia ipse faciens
+          <lb/>viriliter; formam et virtutem secundum suam nativitatem
+          <lb/>leonis habet.” Cui Darius dixit: “Unde tibi hoc cognitum ?''
+          <lb/>Cui ille: “ Quando perrexi per tuam iussionem Macedoniam
+          <lb/>tollere censum Philippo patri suo, vidi eum et cognovi sapientiam
+          <lb/>illius et figuram eiusintellexi. Quod si tibi placet,
+          <lb/>congrega omnes satrapas tuos et dirige in cunctis finibus
+          <lb/>tuis, quia plurimae sunt gentes Persarum, videlicet Parthi
+          <lb/>et Medi et Apolloniades, Mesopotamitae et Illirii, non dico
+          <lb/>longinquas regiones, sicut sunt Itali et Bac[t]rei et Semiramei.
+          <lb/>Habemus gentes amplius quam centum quinquaginta.
+          <lb/>Gongregentur omnes, et queramus auxilium a diis,
+          <lb/>quia cum barbari virtute et plenitudine gentium videndo
+          <lb/>terrorem inmittimus eis” Alter satrapas dixit: “Bonum
+          <lb/>consilium dedisti, [s]et non est aptum. Gonsilium Grecorum
+          <lb/><pb n="83"/>
+          <lb/>vincet plenitudinem barbarorum, quia et unus canis
+          <lb/> maximam gregem animalium spargit”.
+        </p>
+      </div>
+      <div type="par" n="8">
+        <p>
+          <lb/> Hoc consiliando Darius rex congregata multitudine
+          <lb/> hostium, moram faciente in Cilicia venit [Alexander] ad
+          <lb/> fluvium Oceanum, ex quo decurrit aqua piilcherrima et 
+          <lb/>fortis. Accidit voluntati eins, ut lavaretm in eo. Quod 
+          <lb/> et factum est. Sed lesio facta est in illo, quia per frigitudinem
+          <lb/>apprehendit eum dolor capitis, atque egrotavit
+          <lb/> fortiter. Videntes autem Macedones illum egrotari, valde
+          <lb/>tristes effacti sunt dubitantes, ut non audiret Darius infirmitatem
+          <lb/> Alexandri et faceret impetum super eos ac
+          <lb/> deleret illos. Sanitas itaque Alexandri omnes confortabat.
+          <lb/>Quidam iuvenis nomine Filippus, - diligebat eum
+          <lb/>multum Alexander - erat enim medicus, et promisit
+          <lb/>Alexandro, ut daret illi potionem atque salvaret eum. 
+          <lb/>Quidam princeps milici[a]e, qui tenebat Armeniam, (h)odio 
+          <lb/>habebat hunc medicum, eo quod diligebatur ab Alexandro.
+          <lb/>Scripsit epistolam ac direxit Alexandro dicens: “Cave te
+          <lb/>a medico Filippo et noli bibere potionem eius, quia promisit
+          <lb/> ei Darius rex dare suam sororem in coniugium et 
+          <lb/> faceret eum consortem in suo regno, si occidisset vos.''
+          <lb/> Cum autem preparasset Filippus potionem dare Alexandro,
+          <lb/> portavit illam ante eum et, antequam eam biberet, supervenit
+          <lb/> ei ipsa epistola. Recepit eam ac relegit, antequam
+          <lb/>  potionem biberet, et non est turbatus, quia erat securus 
+          <lb/> de conscientia Filippi. Alexander itaque una manu tenens
+          <lb/>epistolam, altera apprehendit potionem tenensque illam
+          <lb/> in manu respiciebat in faciem Filippi. Cui Filippui. dixit:
+          <lb/> “Magnissime Imperator, noli expavescere potionem, sed 
+          <lb/> bibe illam.” Statim ebibit eam et, postquam illam bibit,
+          <lb/> porrexit epistolam Filippo. Relecta Filippus epistola
+          <lb/><pb n="84"/>
+          <lb/> cognovit contrarietatem suam et dixit: “Alexander, non
+          <lb/>sum culpatus, sicut haec epistola dicit”
+          <lb/> Rex autem sanus effectus est vocavitque Filippum,
+          <lb/>amplexavit collum eius et dixit: “Cognovisti, Filippe,
+          <lb/>qualem amorem et quam eiduciam habeo in te, qui ante
+          <lb/>bibi potionem tuam et sie dedi tibi ipsam epistolam, sciendo
+          <lb/>simplicitatem”Gui Filippus dixit: “Alexander, fac venire
+          <lb/>ipsum hominem, qui tibi direxit hanc epistolam, quia ipse
+          <lb/>voluit me tibi talia facere” Statim Alexander iussit venire
+          <lb/>Parmenium et inquisivit illum invenitque eum culpabilem,
+          <lb/>iussit eum decollari.
+        </p>
+      </div>
+      <div type="par" n="9">
+        <p>
+          <lb/>Dehinc movit exercitum suumetperrexitinMed[i]am
+          <lb/>et in Armeniam magnam et subiugavit eas. Deinde ambulavit
+          <lb/>dies multos et ingressus est locum aridum et cavernosum,
+          <lb/>in quo non inveniebatur aqua. Et transivit per
+          <lb/>locum, qui dicitur Andriaci, venitque ad fluvium Eufraten
+          <lb/>et applicavit. Iussit afferri ligna et preparavit pontem super
+          <lb/>ipsum fluvium cum tabulis et catenis ferreis et praecepit
+          <lb/>militibus suis, ut transirent. Uli autem dubitabant. Vidit	
+          <lb/>autem eos rex dubitare praecepitque custodibus animalium,
+          <lb/>ut transirent, simul et omnes apparatus atque cibaria.
+          <lb/>Post haec iussit militibus suis, ut transirent. Uli autem
+          <lb/>videntes magnitudinem fluvii, et cursu validissimo dubitaverunt
+          <lb/>transire, ut non frangerentur catenae. Alexander
+          <lb/>autem convocavit milites suos et coepit transire primum
+          <lb/>ipse.
+          <lb/>Fluvius itaque Tigris et Eufrates pergunt per mediam
+          <lb/>Mesopotomiam et Babiloniam et intrant fluvium Nilum.
+      <lb/><pb n="85"/>
+          <lb/> Referunt enim, quia, quando fluvius Nilus pergit in Egiptum,
+          <lb/>ista flumina evacuantur et, quando iterum egreditur
+          <lb/>ab Egipto, superabundant ista flumina.
+          <lb/>Cum autem transisset Alexander et omnis milicia
+          <lb/>sua fluvium Eufraten, rediit retro se Alexander et fecit 
+          <lb/>incidere ipsum pontem. Hoc videntes milites eius coeperunt
+          <lb/>dubitare murmurantes intra se ac dicentes: “Si acciderit
+          <lb/>nobis, ut fugiamus in prelio, non erit transitus nobis.”
+          <lb/>Quibus Omnibus dixit Alexander: “Bene me confortastis,
+          <lb/> quando talia cogitastis. Et ego proinde feci dissolvere lo
+          <lb/>   ipsum pontem, ut aut pugnetis viriliter et vincatis aut, si 
+          <lb/>si vultis fugere, pereatis, quia pugna et victoria non erit
+          <lb/>bis, qui fugiunt, sed de illis, qui insequuntur. Unde vero,
+          <lb/>quia nullomodo videbitis Macedoniam, nisi prius vicero
+          <lb/>cunctos barbaros, et tunc cum victoria revertamur, confortetur
+          <lb/>mens vestra, et fortitudinem pugn[a]e estimetur
+          <lb/>vobis esse iocus.”
+          <lb/>Multitudo vero militum Darii applicata erat super
+          <lb/> fluvium Tigris. Principes miliciae erant super eis quinque.
+          <lb/>Convenerunt in campo Alexander cum suis et principes 
+          <lb/>miliciae Darii et acriter pugnaverunt. Stabant enim fortiter
+          <lb/>et nullomodo cedebant sibi locum. Vir quidam Persarum
+          <lb/>animo acer, indutus veste et arma Macedonica abiit
+          <lb/>occidere Alexandrum; mixtus militibus suis stetit post
+          <lb/>tergum Alexandri; evaginato gladio tam fortiter percussit 
+          <lb/>Caput eius, qui et galeam transforavit et caput eius vulneravit.
+          <lb/>Statimque apprehenderunt eum milites Alexandri
+          <lb/>et statuerunt illum ante eum. Gui dixit Alexander: “O
+          <lb/>strenue vir, quid est hoc?'' Cui Persa barbarus dixit:
+          <lb/>“Ne estimes me, dominator, Macedonam esse, sed Persarum.
+          <lb/>Et ego promisi Dario venire, aufferre caput tuum;
+          <lb/>spopondit enim mihi dare in coniugio filiam suam et regales
+        <lb/><pb n="86"/>
+          <lb/>provintias.” Tunc Alexander iussit eum monstrari
+          <lb/>cunctis militibus suis et dixit: “Viri Macedones milites,
+          <lb/>convenit omnibus militibus talem habere confortationem”
+          <lb/>Et continuo iussit abire illum. Et tunc pugnando fortiter
+          <lb/>ceciderunt multi barbari et, ut viderunt se minui, in(h)ierunt
+          <lb/>fugam.
+      </p>
+      </div>
+      <div type="par" n="10">
+        <p>
+          <lb/>Et persecuti sunt eos usque Bactram et applicavit.
+          <lb/>Alia vero die cepit fortiter pugnare ipsam civitatem et apprehendit
+          <lb/>eam. Invenitque ibi matrem Darii et uxorem et
+          <lb/>filios eius. Posuitque in ea solium suum et subiugavit
+          <lb/>sibi omnes alias civitates. Post haec unus ex principibus
+          <lb/>miliciae Darii presumpsit se venire ad Alexandrum et dixit:
+          <lb/>“Dominator Alexander, princeps Darii sum et plurima
+          <lb/>bona servitia ei feci, et nihil boni ab eo recepi. Quapropter
+          <lb/>si tibi placeat, da nobis decem milia armatos milites et ego
+          <lb/>trado tibi principes nostros, sed et ipsum Darium.” Cui
+          <lb/>Alexander dixit: “Perge adiuvaturus regem tuum, quia
+          <lb/>non tibi credunt extranei, postquam pugnare vis tuos”
+          <lb/>Tunc scripserunt Stapsi et Sphictir epistolam: “ Dario
+          <lb/>regi praeclaro atque deo magno gaudium. lam antea scripsimus
+          <lb/>et nunc iterum scribemus adventum Alexandri et
+          <lb/>cognitum facimus tibi, quia pervenit in hanc terram et
+          <lb/>dissipavit eam et occidit plurimos ex nobis et sumus oppressi
+          <lb/>in magna angustia. Unde recordamur, ut succurrat nobis
+          <lb/>tua magnitudo, antequam ingrediatur ad te.”
+          <lb/>Recepta hac epistola Darius relegit eam et scripsit
+          <lb/>epistolam ad Alexandrum tali modo: “ Darius Alexandro
+          <lb/>dicit: Pervenit in manus nostras epistola de tua superbia,
+          <lb/>quia cogitas venire prope nos, ut loquaris nobiscum. Quod
+          <lb/>si hoc poterit fieri, orientales dii pergant habitare in occidente.
+          <lb/>Non elevetur mens vestra in hoc, quod fecisti. Sic
+          <lb/>spero, quod mater mea mortua sit et uxorem aliquando
+          <lb/><pb n="87"/>
+          <lb/>non habuissem; unde scias, quia non tacebo inquirendo
+          <lb/>iniuriam meam. Scriptum est mihi hoc, quia ostendisti
+          <lb/>benignitatem erga meos. Tamen ne pigrites aut indulge
+          <lb/>aris meis vel crucia illos sicut fihos inimici. Quantumcunque
+          <lb/>bene illis feceris, me non habebis amicum et econtra, 
+          <lb/>si male illis leceris, me inimicum non habebis; ultimo
+          <lb/>namque sententiam mandabo vobis”.
+          <lb/>Recepit Alexander hanc tepistolam et legit ac risit
+          <lb/>scripsitque illi epistolam: “Rex Alexander Dario regi.
+          <lb/>Superbiam et elationem suae vacuae gloriae odio habuerunt 
+          <lb/>dii. Prout video, non cessas tu blasphemari usque in finem.
+          <lb/>Quod si bene feci tuis, non feci pro tuo timore. Habeo 
+          <lb/>spem intrandi ad te, proinde ostendi benignitatem meam 
+          <lb/>in eis, ut et tu grato animo illud reciperes. Tamen diadema
+          <lb/>meum non est similis tuae diademae. Haec epistola mea 
+          <lb/>ultima sit tibi. Cave itaque et habeo mentem in te.”
+        </p>
+      </div>
+      <div type="par" n="11">
+        <p>
+          <lb/>Ubi direxit epistolam, preparavit se et scripsit
+          <lb/>[e] Celeperses suis satrapis: “Rex Alexander, precipio: Satrapis
+          <lb/>ac subiectis meis habitatoribus Syriae et Cappadociae,
+          <lb/>Ciliciae et Paphlagoniaee Arabis et aliis gentibus sit gaudium. 
+          <lb/>Yolo, ut preparetis mihi unusquisque mille vestimenta et
+          <lb/>mandetis ea in Antiochi(o)am; et pelles animalium mortuorum,
+          <lb/>ubicumque mortua fuerint animalia, conficite et
+          <lb/>dirigite eas similiter in Antiochiam, ut militibus omnia
+          <lb/>parata sint scilicet et vestimenta atque calciamenta; cameli 
+          <lb/><pb n="88"/>
+          <lb/>ordinati sunt ab Antiochia, ut portent ea usque Eufraten
+          <lb/>et omnem necespitatem. Gaudete”
+          <lb/>Unus ex principibus Darii significavit ei omnia per
+          <lb/>epistolam tali modo: “Nostadi Dario deo dirigo gaudium.
+          <lb/>Non oportuerat me vobis talia scribere, sed quasi per
+          <lb/>fortia scribo vobis videndo talia. Sciat vestra sublimitas,
+          <lb/>quia duo magni principes mortui sunt et ego vulneratus.
+          <lb/>Coxari fortiter vulneratus est et fugiendo abiit in finibus
+          <lb/>suis. Potentissimi atque plurimi preclari milites nostri
+          <lb/>iunxerunt se Alexandro regi, honoravitque eos et imperiales
+          <lb/>provincias illis concessit. Civitas Mitriadis cum templo
+          <lb/>igne succendit.”
+          <lb/>Darius itaque scripsit satrapi suo Nostadi haec, ut
+          <lb/>pararet se cum omnibus suis, sed et alii Dario pertinentes
+          <lb/>quatinus resisterent gentibus Macedoniae, quia nullomodo
+          <lb/>letantur ad id, quod presampserunt facere. Scripsit
+          <lb/>interim et aliam epistolam ad Forum, ut et ipse preberet
+          <lb/>ei adiutorium.
+        </p>
+      </div>
+      <div type="par" n="12">
+        <p>
+          <lb/>Porus, rex Indorum, rescripsit epistolam Dario
+          <lb/>regi Persarum: “Quomodo direxistis nos rogando, ut venissemus
+          <lb/>in adiutorium vestrum, parati fuimus et sumus,
+          <lb/> sed impedit nos infirmitas, quam habemus; quia et nobis
+          <lb/>durum est de hac iniuria, tamen in proximo recipies milites
+          <lb/>meos; sed et aliae gentes, quae procul sunt a vobis, venient
+          <lb/>in adiutorium vestrum.''
+          <lb/>Cum autem audisset mater Darii, quod preparasset se
+          <lb/>iterum facere pugnam cum Alexandro, direxit illi epistolam:
+          <lb/>“ Dario regi, mater dirigit illi gaudium. Audivimus itaque,
+          <lb/><pb n="89"/>
+          <lb/> quia congregas alias gentes et vis pugnare cum Alexandro.
+          <lb/>Quod si totum mundum adunare potueris, nescis, quid
+          <lb/> exinde fiat, quia victoriae concessae sunt. Dimitte sensum
+          <lb/> altitudinis tuae et reclina paululum et ne multum presumas, 
+          <lb/>quia perdis vitam. De nobis autem scias, quia in 
+          <lb/>maximo honore aput eum sumus. Inducis malum super
+          <lb/>nos et facis nos perdere honorem, quem apud eum habemus.
+          <lb/>Fili mi, noli preparare matri tuae angustiam, quia
+          <lb/>fiducia est mihi, si volueris, venire te in bono ordine cum
+          <lb/>Alexandro” Perlecta Darius hac epistola flevit veniendo 
+          <lb/>illi in memoriam parentes suos; turbatus est valde.
+        </p>
+      </div>
+      <div type="par" n="13">
+        <p>
+          <lb/>  Inter haec autem Alexander movit exercitum
+          <lb/>suum et cepit ingredi terram Darii et appropinquavit ei
+          <lb/>ita, ut Macedones viderent sublimissimum locum ex civitate
+          <lb/>Darii. Hoc ingenium fecit sapientissimus Alexander: 
+          <lb/>evellens [h]erbas ramosque arboris ligans ea in pedibus
+          <lb/>equorum, ut maiorem pulverem facerent, ita ut viderent 
+          <lb/>eam Perses et mirarentur.
+          <lb/>Erant enim ab ipsa civitate itinere dierum quinque
+          <lb/>et applicavit. Dixitque Alexander senatoribus suis: “Inveniamus
+          <lb/>hominem, quem mandemus Dario, ut preparet
+          <lb/>se et quando exeat nobis ad pugnam.” Dormivit ibi viditque
+          <lb/>in somno Ammonem deum in forma Hermi portantem
+          <lb/>dominicalem clamidem atque Macedonicam vestem et dixit
+          <lb/>illi: “Fili Alexander, quando necesse est adiutorium, paratus
+          <lb/>sum nuntiare tibi. Vide, quem missum dirigere volueris,
+          <lb/>sed dico, ut induaris figuram meam et pergas tu ibi.
+          <lb/>Periculosa enim res est ire regem per missaticum, sed quia
+          <lb/>deus est in adiutorium tibi, nullam sustinebis angustiam.''
+          <lb/><pb n="90"/>
+          <lb/>Qua hora vidit hoc somnium, evigilavit et gaudio repletus
+          <lb/>recitavitque illud amicis suis. Dederuntque ei consilium,
+          <lb/>ut ita faceret.
+        </p>
+      </div>
+      <div type="par" n="14">
+        <p>
+          <lb/>Vocavit autem fidelissimum suum satrapem, cui
+          <lb/>nomen Eumilo; portans secum tres velocissimos caballos,
+          <lb/>unum residens ipse et alium princeps miliciae, tertius pergebat
+          <lb/>vacuus; pergebant ambo et (h)abierunt ad fluvium,
+          <lb/>qui dicitur Stragan. Iste fluvius hiemali tempore prenimio
+          <lb/>gelu coagulat se et probet iter transeuntibus. Tota nocte
+          <lb/>permanet coagulatus, mane vero cum incaluerit sol, dissolvit
+          <lb/>se et efficit se profundissimum et, quicumque ibi
+          <lb/>ingressus fuerit, absorbet eum. Cum venisset Alexander
+          <lb/>ad ipsum fluvium et invenisset eum coagulatum, induit
+          <lb/>se figuram, quam viderat in somno. Principem miliciae
+          <lb/>dimisit ibi cum duobus caballis et ipse cum caballo suo
+          <lb/>transiit. Erat enim fluvius in latitudine unius stadii. Satrapa
+          <lb/>enim illum rogabat, ut transiret cum eo, ne eveniret
+          <lb/>illi aliqua angustia. Cui dixit: “Exspecta me hie,
+          <lb/>quia in meo adiutorio veniet ille, qui mihi apparuit.”
+          <lb/>Abiitque ad portam Persidae civitatis. Videntes autem
+          <lb/>eum Perses mirati sunt in figura eins, estimantes illum
+          <lb/>deum esse, interrogaverunt eum: [“Quis es tu ?”] Respondit:
+          <lb/>“Apocrisarius regis Alexandri sum.'' Tunc in monte erat
+          <lb/>Darius vociferando et congregando multitudinem hostium
+          <lb/>et portaverunt eum Dario regi. Vidensque eum Darius
+          <lb/>indutum vestem Macedonicam adoravit eum ut deum,
+          <lb/>cogitans illum esse Mithram deum descendentem de caelis,
+          <lb/>interrogavitque eum: “Quis es tu?” Cui ille: “Apochrisarius
+          <lb/>sum regis Alexandri missus ad te, dicens tibi, quia:
+          <lb/><pb n="91"/>
+          <lb/>moram facit exire preliari in campo cum inimicis suis;
+         <lb/>timidus est atque pavidus. Unde si tibi placet, constitue
+          <lb/>diem preliandi.” Cui Darius: “Forsan enim tu es Alexander,
+          <lb/>qui cum tanta audatia loqueris ? Non loqueris
+          <lb/>sicut nuntius, sed sicut idem ipse Alexander. Tamen hoc 
+          <lb/>scias pro certo, quia audatia tua nullomodo conturbat 
+          <lb/>me. Sed tamen manduca hodie mecum sicut missus, quia
+          <lb/>et Alexander sedit ad cenam cum missis meis”
+          <lb/>Tendensque manum suam apprehendit eum per dexteram
+          <lb/>introducens eum in palacium suum. Alexander lo
+          <lb/>cogitans in corde suo teuere palacium inimici sui, quasi 
+          <lb/>Signum faciens ei apprehendendo eum per manum dexteram.
+          <lb/>Ingressusque triclinium eins, in quo erat convivium
+          <lb/>  preparatum, sedit Alexander, sederunt et principes Darii
+          <lb/>facie ad faciem. 
+        </p>
+      </div>
+      <div type="par" n="15">
+        <p>
+          <lb/>Perses itaque sedentes in convivio despexcrunt
+          <lb/>vultum Alexandri, eo quod esset parvus, sed ignorabant,
+          <lb/> qualis virtus et qualis audacia erat in tali vasculo. Pincernae
+          <lb/> vero ferebant sepius pocula. Mediante vero convivio
+          <lb/>cogitavit hoc facere Alexander: cum porrectus fuisset
+          <lb/>illi poculus aureus, bibisset et misisset eum in sinum
+          <lb/>suum. AIlatus est autem illi vas aureum, bibit et fecit sic,
+          <lb/>deinde usque ad secundum et tercium. Fertores vero,
+          <lb/>cum vidissent hoc, nuntiaverunt Dario. Erexit se Darius
+          <lb/>et dixit: “O fortissime vir, quid est hoc, quod agis ? Quare 
+          <lb/>abscondis vasa aurea in sinu tuo ?” Cui Alexander: “Noster
+          <lb/>senior sedens in convivio donat militibus suis vascula,
+          <lb/>cum quibus bibunt.” Cogitaverunt enim sedentes in convivio
+          <lb/><pb n="92"/>
+          <lb/>quod talis consuetudo esset apud illos. Intulitque
+          <lb/>Alexander: “Quod si talis consuetudo inter vos non est,
+          <lb/>reddo ea vobis.” In hoc tacuerunt omnes.
+          <lb/>Unus autem princeps miliciae sedens in convivio,
+          <lb/>cui nomen Anepolis, sedens facie ad faciem cum Alexandro 
+          <lb/>— viderat enim eum tunc, quando direxerat eum Darius
+          <lb/>Macedoniam Phylippo tollere censum — intuens in faciem
+          <lb/>eins coepit cogitare in corde suo: “Nonne iste est Alexander ?”
+          <lb/>Intelligens enim vocem et signa illius accessit propius
+          <lb/>Dario et dixit: ,, Domine, istum missum quem vides, ipse
+          <lb/>est Alexander, filius Phylippi.”
+          <lb/>Cognoscens autem Alexander, quia loquebantur de
+          <lb/>illo et de agnitione eins, exiliens de sedio suo vidit quendam
+          <lb/>Persem tenendo in manu facculam tollensque eam
+          <lb/>illi percussit eum, ascendit equum et (h)abiit. Perses
+          <lb/>vero insequebantur eum armati cum omni velocitate.
+          <lb/>Alexander portans in manu facculam, tenens iter rectum
+          <lb/>— erat enim obscura nox — insequentes eum cadebant
+          <lb/>in foveas.
+          <lb/>Sedente vero Dario in sedio suo vidit signum, quia
+          <lb/>cecidit domus Xerxen regis et statua eins, et doluit. Alexander
+          <lb/>venit ad fluvium Stragan et transiit. Cum autem
+          <lb/>transisset alteram ripam, dissolutus est fluvius et, antequam
+          <lb/>de fluvio exiret, mortuus est caballus et tulit eum
+          <lb/>fluvius. Alexander vero remansit in terra, iunctus principi
+          <lb/>miliciae suae reversus est ad suos.
+        </p>
+      </div>
+      <div type="par" n="16">
+        <p>
+          <lb/>Congregata omni milicia sua pervenit ad numerum
+          <lb/>centum viginti milia hominum; ascendit in eminentiorem
+          <lb/><pb n="93"/>
+          <lb/>locum et confortavit milites suos dicens: “Multitudo
+          <lb/>hominum nostrorum non cquabitur multitudini Persarum,
+          <lb/>quia multipliciores nobis sunt. Sed non conturbet nos
+          <lb/>multitudo illorum, etiam si centupliciter essent, quia
+          <lb/>nullam lesionem facerc prevalet multitudo muscarum
+          <lb/>parvitati vespium.” Audientes hoc laudaverunt eum.
+          <lb/>Darius itaque movit exercitum suum et venit ad
+          <lb/>fluvium Stragan et transiit, ut pugnaret cum exercitibus
+          <lb/>Alexandri. Erat enim exercitus Darii magnus valde et
+          <lb/>fortis, habebat denique falcatos currus. Cum autem venisset
+          <lb/>utrisque hostis in campum, tunc ascendit Alexander
+          <lb/>equum, qui dicitur Bucefalo, et occurrit et stetit in medio
+          <lb/>ante omnes. Videntes eum Perses, dubitabant enim ire
+          <lb/>super eum, eo quod divinitas cooperiebatur eum. Mixtus 
+          <lb/>est inter se utrisque hostis et pugnavit acriter et ex ambabus
+          <lb/>partibus sonabant tubae. Fortior enim erat sonus
+          <lb/>pugnantium quam sonus armorum, et defecerunt ex utrisque
+          <lb/>multitudo militum. Erat enim sagittariorum plenitudo
+          <lb/>maxima et cooperuerunt ipsum aerem sagittis sicut nubes,
+          <lb/>alii manu ad manum pugnantes, alii vero sagittis atque 
+          <lb/>lanceis. Et erat planctus in eis et tribulatio maxima et
+          <lb/>erat plenus campus ex mortuis et semivivis. Plurimi enim
+          <lb/>ceciderunt ex parte Darii. Videns autem Darius, quia
+          <lb/>corruissent sui, fugam iniit, fugierunt et Perses. Multitudo
+          <lb/>curruum falcatorum fugiens occidebant suos et cadebant 
+          <lb/>sicut messis in campo. Veniens autem Darius ad ipsum
+          <lb/>fluvium et invenit eum coagulatum, transiit. Plenitudo
+          <lb/>vero postergiim veniens ingressa est; venientes vero in
+          <lb/>medio loco dissoluta est nix et plurimi mortui sunt. Alii
+          <lb/>autem applicantes ad ipsum fluvium et, cum transire non 
+          <lb/>potuissent, insequentes eos Macedones occidebant illos.
+          <lb/><pb n="94"/>
+          <lb/>Fugit autem Darius et ingressus est palatium, prosternens
+          <lb/>se super faciem suam in terram, ex alto pectore
+          <lb/>dura trahens suspiria, quia perdidit tantam multitudinem
+          <lb/>hominum, et plorando dicebat: “Heu me, qualis caelestis
+          <lb/>tribulatio apprehendit Persidam, quia humiliatus est
+          <lb/>Darius, qui subiugavit atque in suam potestatem redegit
+          <lb/>multas civitates plurimasque insulas et plurimae nacionum
+          <lb/>gentes; nunc autem fugax et subiectus factus sum. Quod
+          <lb/>si cognitum fuisset homini, quid in futuro accidisset ei,
+          <lb/>in presenti aliud cogitaret. In puncto articulo unius diei
+          <lb/>veniet, quod [h]umiles exaltantur super nubes et sublimes
+          <lb/>humiliantur usque ad tenebras”
+        </p>
+      </div>
+      <div type="par" n="17">
+        <p>
+          <lb/>Erigens se iterum et rediit in sensu suo, scripsit
+          <lb/>epistolam continentem hunc modum: “Darius rex dominatori
+          <lb/>meo Alexandro gaudium. Recordor tuam clementiam,
+          <lb/>quia et tu sicut homo natus es. Sufficit enim homini, in
+          <lb/>quo sapientia esse videtur, cum [h]abuerit victoriam, ut
+          <lb/>non elevetur amplius mens eins. Quia Xerxen, qui mihi
+          <lb/>lumen tribuit, multas victorias plurimaque habuit prospera,
+          <lb/>sed quia ultra modum elevata est mens eius, sustinuit
+          <lb/> turpitudinem in Ellada, ille, qui plurimas divitias auri
+          <lb/>habuit, sicut tu ipse vidisti apud nos. Recordare, quia
+          <lb/>superna divinitas concessit tibi hanc victoriam. Sed quia
+          <lb/>refugium facio ad te, inpende mihi misericordiam. Scis
+          <lb/>enim nos nostramque magnitudinem atque nativitatem.
+          <lb/>Concede nobis matrem atque uxorem seu filios nostros
+          <lb/>et ad vicem promitto tibi dare thesauros, quos habeo in
+          <lb/>terra Miniada et Susis et Mactra, quos thesaurizaverunt
+          <lb/>parentes nostri suptus terram et constituo te dominum
+          <lb/><pb n="95"/>
+          <lb/>Medis et Persis cunctis diebus vitae tuae. Esto salvus
+          <lb/>et concessa sit tibi victoria a Iove.” 
+          <lb/>Relecta hac epistola ab Alexandro unus ex principibus
+          <lb/>miliciae, nomine Parmenius, dixit: „Alexander, tolle
+          <lb/>tibi cunctas has, quas promittit, divitias et redde ei matrem 
+          <lb/>et uxorem et filios.” Cui Alexander: “Tollo ego has divitias,
+          <lb/>sed miror, si Darius per datum vult recolligere matrem et
+          <lb/>uxorem et filios. Si victus est Darius, mihi datum non
+          <lb/>repromittat; si iterum pugnare vult et vicerit nos, utinam
+          <lb/>salvare valeamus nosmet ipsos, quanto magis, ut teneamus lo
+          <lb/>matrem eins et uxorem ac filios.” Dimisit homines ipsos
+          <lb/>praeeipiens eis, ut talia dicerent Dario, et deinde praecipiens
+          <lb/>militibus suis, ut irent et colligerent corpora mortuorum
+          <lb/>et sepelirent ea, vulneratos autem adducerent et
+          <lb/>inferrent illis medicinam. 
+          <lb/>Aliquantos autem dies hiemavit ibi et fecit diis offertionem
+          <lb/>commendans militibus suis, ut pulcherrima palatia
+          <lb/>Xerxen regis comburerentur, et post paululum paenitentia 
+          <lb/>ductus precipiens, ut nullomodo conburerentur.
+        </p>
+      </div>
+      <div type="par" n="18">
+        <p>
+          <lb/>Erant enim in ipsis locis sepulcra mortuorum, et 
+          <lb/>fodientes ea invenerunt ibi vasa aurea et argentea. Et
+          <lb/>inter eos invenerunt sepulcrum olovitreum, qui eciam
+          <lb/>aforis apparebat corpus hominis et capilli eins. Invenerunt
+          <lb/>ibi turrem, in qua erant et multi truncati homines, et erant 
+          <lb/>ibi in custodia. Clamaverunt ad Alexandrum misericordiam 
+          <lb/><pb n="96"/>
+          <lb/>postulantes, ut liberaret eos. Ipsa custodia erat pessima.
+          <lb/>lussit eos abstra[h]i de ipsa custodia; vidit eos, doluit
+          <lb/>et ploravit et praecepit illis dare per unumquemque dragmas
+          <lb/>mille et restituit illis proprietates suas.
+        </p>
+      </div>
+      <div type="par" n="19">
+        <p>
+          <lb/>Inter haec autem preparavit illi Darius et aliam pugnam.
+          <lb/>Scripsit epistolam ad Forum, regem Indorum: “ Darius
+          <lb/>rex regum regi Poro gaudium. Nuper direxi te deprecando,
+          <lb/>ut faceres nobis adiutorium contra illos, qui conati sunt
+          <lb/>dissipare palatium nostrum, quia haec bestia, quae venit
+          <lb/>super nos, ferocem mentem habet et tempestatur animus
+          <lb/>eins sicut maris. Volui recolligere ab illo matrem et uxorem
+          <lb/>et filios et offerre illi munera, sed noluit acquiescere. Quamvis
+          <lb/>sine mea voluntate pugnabo et alia vice cum illo; congregabo
+          <lb/>gentes multas et certabo usque ad mortem, quia
+          <lb/>melius est mihi mori in hello quam videre desolationem
+          <lb/>meam et gentis meae. Unde vigeat misericordia vestra
+          <lb/>super miseriam meam et adiuvate mihi, ut salver ab angustia
+          <lb/>mea, in qua positus sum, revocans in memoria tua ordinem
+          <lb/>parentum nostrorum. Congregamini et parate vos ad portas
+          <lb/>Caspias. Datum dabo omnibus hominibus, qui vobiscum
+          <lb/>advenerint; per unumquemque mensem dabo pedestribus
+          <lb/>hominibus solidos tres, equiti vero quinque; cibaria illorum
+          <lb/>et omnia, in quibus necesse habuerint, ego retribuam.
+          <lb/>Spolia vero illorum, qui capti fuerint, medietatem tibi
+          <lb/>dabimus. Caballus vero Bucefalon et imperiale paramentum
+          <lb/>tuum sit. Et ubicumque applicatus fueris, dabo tibi
+          <lb/>centum octoginta iuvenculas cum ornamentis earum. Cum
+          <lb/>receperis epistolam hanc, festina venire”
+          <lb/>Fugientes vero homines Darii ad Alexandrum nuntiaverunt
+          <lb/><pb n="97"/>
+          <lb/>ei omnia haec. Rex autem Alexander, ubi hoc
+          <lb/>audivit, preparavit se et abiit Mydiam, statuens in corde
+          <lb/>suo et dixit omnibus, ut nullomodo vocaretur imperator,
+          <lb/>si regnum Darii non optinuisset. Nuntiatum est Alexandro.
+          <lb/>quod prepararet se Darius rex et iret ad portas Caspias, 
+          <lb/>expectaret eum ibi. Statim Alexander coepit ire illuc.
+          <lb/>Cum vero audisset Darius adventum Alexandri, timuit valde.
+        </p>
+      </div>
+      <div type="par" n="20">
+        <p>
+          <lb/>Inter haec significatus est Bysso et Ariobarzani
+          <lb/>adventum eiusdem Alexandri; cogitaverunt occidere Darium 
+          <lb/>estimantes bonam recipere remunerationem ab Alexandro
+          <lb/>occidendo Darium, inimicum eins. Haec eis cogitantibus
+          <lb/>evaginatis gladiis abierunt occidere illum. Cum autem
+          <lb/>vidisset eos Darius, dixit illis: “Okarissimi mei, qui ante
+          <lb/>fuistis servi, nunc vero domini, quare me vultis occidere ? 
+          <lb/>Plus sunt enim Macedones honorati quam vos ? Recedite 
+          <lb/>a me, nolite mihi hoc malum facere; dimittite me; sufficit
+          <lb/>mihi tribulatio mea. Si me occiditis et venerit Alexander
+          <lb/>et invenerit me occisum quasi a latronibus, vindictam
+          <lb/>faciet his, qui me occiderint. Non est gaudium imperatori 
+          <lb/>invenire mortuum alium imperatorem in fraude” Ferientes
+          <lb/>autem illi cum gladiis et illi preparabant manus; dimiserunt
+          <lb/>eum semivivum.
+          <lb/>Transeuntes autem fluvium Stragan Macedones cucurrit
+          <lb/>Alexander et ingressus est palatium Darii. Cum autem 
+          <lb/>audissent ingressum Alexandri hi, qui percusserunt Darium,
+          <lb/>abierunt et absconderunt se volentes intellegere voluntatem 
+          <lb/>Alexandri de hoc, quod factum est. Dum ingrederetur
+          <lb/>Alexander in palatium Darii, invenit(que) eum semivivum
+          <lb/>iacentem in terra et flevit exuens de se clamidem imperialem 
+          <lb/><lb/><pb n="98"/>
+          <lb/>et cooperuit eum et amplexatus est vulnera eius fleiis ac
+          <lb/>dicens: “Surge, domine Dari, surge et, sicut aliqiiando
+          <lb/>fuisti dominus totius imperii tui, recipe diadema Persarum
+          <lb/>et esto gloriosus, sicut usque hactenus fuisti. Iuro tibi,
+          <lb/>Dari, per potentissimos deos, quia veraciter abrenuntio
+          <lb/>tibi imperium tuum, pariter et tecum opto fruere cibariis
+          <lb/>tuis, quia nullus imperator debet gaudere in tristiciis imperatoris,
+          <lb/>dum ab eo fortuna leticiae recesserit. Dic mihi, Dari,
+          <lb/>qui fuerunt hi, qui te percusserunt, ut victor existam de
+          <lb/>inimicis tuis."
+          <lb/>Hoc cum magna angustia dixisset Alexander, extendit
+          <lb/>manum suam Darius, blanditer amplexans eum, osculans
+          <lb/>illi manus et pectus et dixit: “Fili Alexa[n]der, non elevetur
+          <lb/>mens tua in victoriali gloria, quam habuisti. Etiam si opera
+          <lb/>operaveris, qua[e] operarunt dii, et manum tuam usque
+          <lb/>ad caelum tetenderis, semper recordare novissima: fatualis
+          <lb/>gloria non est data soli imperatori aut simplici homini,
+          <lb/>sed cui ea fatum providentiae dederit. Intuere me et vide,
+          <lb/>qualis fui hesterna die, qualis sum bodie, quia miser ego
+          <lb/>humiliatus sum usque ad pulverem. Dominator fui Kyron
+          <lb/>et plurimarum terrarum aliarum et nunc in memet ipso
+          <lb/>non habeo potestatem. Sepeliant me benignissimae manus
+          <lb/>tuae. Veniant in obsequium meum Perses et Macedones
+          <lb/>et amodo Persarum gens atque Macedones efficiantur
+          <lb/>in unum regnum. Ego miser commendo tibi Rodogoni
+          <lb/>matrem meam, ut sit tibi in memoria matris, Vigeat benignitas
+          <lb/>tua uxori meae. Roxani filiam meam accipe tibi in
+          <lb/>coniugium; ex bonis parentibus nati filii iungantur in unum,
+          <lb/><pb n="99"/>
+          <lb/>tu de Filippo, Roxaiii de Dario”. Haec dicente Dario in
+          <lb/>manibus Alexandri emisit spiritum.
+        </p>
+      </div>
+      <div type="par" n="21">
+        <p>
+          <lb/>Secundum morem imperialem composuit Alexander
+          <lb/>corpus eins et cum magno obsequio antecedentes
+          <lb/>ei armati Macedones et Perses. Alexander autem supponens 
+          <lb/>Collum suum portavit lectum illius una cum Persis. Plorabant
+          <lb/>enim Perses non tantum pro morte [Darii], quantum
+          <lb/>pro pietate Alexandri et sepelierunt eum.
+          <lb/>Cum autem sepelissent eum in imperiali sepulcro, 
+          <lb/>tale edictum dedit Alexander Persis: “Rex Alexander, 
+          <lb/>filius Ammonis dei et Olimpiadis reginae, omnibus civitatibus
+          <lb/>bis et populis Persarum precipio hoc: Gauderem
+          <lb/>utique, si tantus hie non defecisset populus; sed quia voluit
+          <lb/>deusAmmon constituere mevictorialem [in] Persidam, oportet
+          <lb/>me referre diis gratias. Volo interim, ut per unamquamque 
+          <lb/>civitatem sint principes rectores sicut temporibus Darii
+          <lb/>regis et oboediatis eis. Unusquisque homo in potestate
+          <lb/>sua habeat proprietatem suam. Omnia arma precipio ut
+          <lb/>recondantur in domibus regalibus. Volo denique, ut locuples
+          <lb/>et omni bono sit plena haec terra, et hoc precipio, ut ab 
+          <lb/>hac provintia Persida et usque Ellada omnis iter apertum
+          <lb/>sit, ut euntes et redeuntes cum negotiis nihil paciantur
+          <lb/>mali. Qui vero vindictam fecerunt de inimico meo Dario,
+          <lb/>accedant, ut videam illos et dignum honorem exhibeam
+          <lb/>eis, quia bonum servicium fecerunt mihi. Quicumque 
+          <lb/>occidisset eum sive Macedo seu Persas, veniat ad me nihil 
+          <lb/>dubitans. Per potentissimos deos iuro et per dilectam
+          <lb/>matrem Olimpiadem, quia preclarissimos atque potentissimos
+          <lb/>illos facio inter omnes homines."
+          <lb/>Taliter ille iurando omnis populus flevit Persarum. 
+          <lb/>Iniquissimi et homicid[a]e Bysso et Ariobarzani, interfectores
+          <lb/>Darii, astiterunt voluntarie ante eum dicentes: “Dominator,
+          <lb/>nos sumus hi, qui occidimus Darium, inimicum tuum."
+          <lb/>Quo audito fecit eos apprehendere ac hgari et duci eos
+          <lb/><pb n="100"/>
+          <lb/>super sepulcrum Darii, ut capita eorum truncarentur.
+          <lb/>Vociferantes autem ipsi ac dicentes: “ Dominator, vide,
+          <lb/>quia iure iurando iurasti nobis per potentissimos deos
+          <lb/>et per salvationem matris tuae” Quibus Alexander: “Vobis
+          <lb/>non loquor, sed pro populo, qui circumstat, dico hoc: Manifestatio
+          <lb/>vestra nullomodo fuerat, si tale sacramentum non
+          <lb/>fecissem. Intentio mea talis fuit ab inicio, ut, si inventi
+          <lb/>fuissent homicidae illius, occiderentur. Uli enim, qui proximum
+          <lb/>suum dominum occidunt, extraneo quid faciunt ?"
+          <lb/>In hoc autem vociferatio magna facta est inter Persas
+          <lb/>laudantes eum quasi deum. Homicidas autem illos decollari
+          <lb/>precepit.
+        </p>
+      </div>
+      <div type="par" n="22">
+        <p>
+          <lb/>Totam autem provinciam Persidam in pace ordinavit
+          <lb/>et constituit rectores in omnibus provinciis. Tunc
+          <lb/>illo in tempore erat ibi Duriti, avunculus Darii; per petitionem
+          <lb/>tocius populi Persarum ordinavit eum ducem in
+          <lb/>Persida. Secundum praeceptionem Darii regis fecit venire
+          <lb/>Roxani, filiam eins, accipiens eam in uxorem et una secum
+          <lb/>fecit eam sedere in regali throno, ut adoraretur ab omnibus
+          <lb/>sicut regina. Tunc omnes Perses levaverunt deos suos et
+          <lb/>adduxerunt eos ante Alexandrum laudando et celebrando
+          <lb/>nomen illius dicentes, quia: “nunc fecisti, quod diisplacuit".
+          <lb/>Quibus Alexander: “Nolo, ut exhibeatis mihi honorem
+          <lb/>sicut diis, quia corruptibilis et mortalis ego sum. Dubito
+          <lb/>enim sociare me diis”. Scripsit matri suae epistolam, ut
+          <lb/>coleret nuptias suas in Macedonia de Roxani, filia Darii,
+          <lb/>quam acceperat uxorem. Completis vero diebus nuptiarum
+          <lb/>congregavit iterum milites suos.
+        </p>
+      </div>
+      <lb/><pb n="102"/>
+      <div>
+        <p>
+          <lb/><title> Liber tertius</title> </p> 
+        <div type="par" n="1">
+          <p>
+            <lb/>Et cum audisset, quod Porus, Indorum rex, venisset
+            <lb/>in adiutorium Darii regis, coepit ire contra eum in Indiam
+            <lb/>ambulans per spatiosam terram desertam, et transivit
+            <lb/>per flumina inaquosa et per colles cavernosos et fatigatus
+            <lb/> est una cum militibus suis, qui etiam omnes principes sui
+            <lb/>dicebant sie: “Sufficit, quia venimus pugnando usque
+            <lb/>Persidam; subiugavimus autem Darium, qai antea censum
+            <lb/>tollebat Macedonibus. Quid deficiemus, querendo Indiam
+            <lb/>in locis, in quibus bestiae habitant, et obliviscimur terram
+            <lb/>nostram ? Hie Alexander nihil aliud optat facere nisi ire
+            <lb/>preliando et subiugando sibi gentes. Nos dimittamus eum;
+            <lb/>ille eat, quo vult."
+            <lb/>Audivit hoc Alexander, stetit dixitque omnibus: “Separamini
+            <lb/>abinvicem, Perses in una parte, Macedones et
+            <lb/>Greci in alia” Intuens autem Macedones ac Grecos dixit:
+            <lb/>“O commilitones mei Macedones et Greci, Pers(id)es isti
+            <lb/>contrarii sunt mihi et vobis. Si posuistis in cordibus vestris,
+            <lb/>ut contrairetis mihi, redite postergum et ite in patriam
+            <lb/>vestram. Tamen recordamini hoc, quia et istos solus vici
+            <lb/>et, ubicumque iero facere pugnam cum barbaris, superabo
+            <lb/>illos. Scitote interim, quia, quando consiliatus sum vos,
+            <lb/>confortat[a]e sunt animae vestrae, quando venimus pugnaturi
+            <lb/>in campo. Numquid non steti ego solus ante omnes
+            <lb/>et solus pro omnibus pugnavi ? Numquid non ego solus
+            <lb/><pb n="103"/>
+            <lb/>pro salvatione vestra et totius patriae nostrae abii missus
+            <lb/>ad Darium regem et tradidi me in multis periculis ? Quod
+            <lb/>ergo si vultis pergere soli Macedoniam, pergite, quia ego
+            <lb/>vobiscum non venio, ut cognoscatis, quia nihil valet facere
+            <lb/> milicia absque consilio regis”. Haec dicente Alexandro 
+            <lb/>erubescentes milites postulaverunt veniam dicentes: “Amodo
+            <lb/>vita nostra in vestris manibus sit posita; quodcumque vis
+            <lb/>facere, fac”.
+          </p>
+        </div>
+        <div type="par" n="2">
+          <p>
+            <lb/>Et post aliquantos dies venerunt in finibus Indi[a]e
+            <lb/>et obviaverunt ei missi deferentes ei epistolam a rege Poro 
+            <lb/>continentem ita: “Indorum rex Porus latroni Alexandro, 
+            <lb/>qui latrocinando optinet civitates, precipio: Cum sis mortalis
+            <lb/>homo, quod prevales deo facere ? Quod anxias persequendo
+            <lb/>homines, qui digni fuerunt sustinere angustiam ?
+            <lb/>Cum mollibus hominibus et qui nullam habuerunt virtutem,
+            <lb/>pugnasti et, quia vicisti eos, speras te esse victorem
+            <lb/>Omnibus hominibus. Victoriaiis et ego sum, et non solum
+            <lb/>homines obaudiunt mihi, sed etiam dii. Venit aliquando
+            <lb/>Dionisius, qui dicitur, diffamatus pugnaturus in India, sed
+            <lb/>terga vertit ante illos et fugit, quia sustinere virtutem Indorum 
+            <lb/>non potuit. Quapropter antequam turpitudo tibi eveniat,
+            <lb/>dabo tibi consilium et precipio, ut festinanter revertaris
+            <lb/>terram tuam, quia, antequam Xerses fuisset, nobis dabant
+            <lb/>Macedones censum. Sed quemadmodum inutilis terra et
+            <lb/>quae regi non placet neque invenimus in illa, quae regi 
+            <lb/>placabilia esse videntur, dedignavimus illam. Omnis itaque
+            <lb/>homo plus desiderat amplam causam quam parvam.
+            <lb/>Ecce [tertio] te contestor, ut revertaris et, ubi dominationem
+            <lb/>habere non poteris, desiderium ibi non habeas”.
+            <lb/><pb n="104"/>
+            <lb/>Pervenit haec epistola Alexandro; relegit eam coram
+            <lb/>Omnibus et dixit: “Viri commilitones, fortem animum
+            <lb/>vestrum non conturbent iterum Pori regis epistolae. Recordamini
+            <lb/>verba epistolarum Darii regis, quomodo superbe
+            <lb/>et cum audatia locutus est. Veritatem dico vobis, quia
+            <lb/>omnes barbari communem sensum habent; adsimilati
+            <lb/>sunt bestiis videlicet tigri, pardo et ceteris aliis; bestiae
+            <lb/>itaque confidentes in agresti virtute sua habent exinde
+            <lb/>audaciam et raro occiduntur ab hominibus."
+            <lb/>Haec loquente Alexandro scripsit epistolam tali modo:
+            <lb/>“Rex Alexander Poro regi gaudiiim. Acuisti sensum nostrum
+            <lb/>et prebuisti nobis audatiam, qualiter pugnaremus contra
+            <lb/>vos. Dixisti iterum, quia in Macedonia nihil boni inveniretur,
+            <lb/>sed neque esset fertilis terra et omni bono atque dulcedine
+            <lb/>efflueret India. Proinde toto mentis conamine
+            <lb/>pugnamus, ut acquiramus ea. Quia dixisti, ut omnis homo
+            <lb/>plus diligeret amplam causam quam parvam, nos, qui
+            <lb/>parvi sumus, ad magnitudinem vestri culminis venire optamus,
+            <lb/>quam Greci non habent. Quod autem dicebat vestra
+            <lb/>epistola, quod non solum hominibus, sed etiam diis existeres
+            <lb/>imperator, ego ita pugnaturus venio quasi cum homine
+            <lb/>et barbaro et qui se multum extollit et non quasi cum deo,
+            <lb/>quia arma unius dei totus mundus sufferre non poterit,
+            <lb/>et non sine causa, quia, si elementa huius aeris, videlicet
+            <lb/>tonitrua et fulgura et plenitudo aquarum, sustinere non
+            <lb/>potuerunt indignationem deorum, quanto magis homines ?
+            <lb/>Quin immo scias, quia stulta elatio tua me non conturbat.''
+          </p>
+        </div>
+        <div type="par" n="3">
+          <p>
+            <lb/>Relegit hanc epistolam Porus et iratus est congregataque
+            <lb/>multitudine militum suorum atque elefantos
+            <lb/><pb n="105"/>
+            <lb/>multos, cum quibus Indi pugnare soliti erant, exierunt
+            <lb/>illis obviam. Videntes Macedones atque Perses, qui cum
+            <lb/>Alexandro erant, preparationem atque multitudinem Indorum
+            <lb/>expavescentes turbati sunt non tantum plenitudinem
+            <lb/>hominum quantum ferarum. Ferebat enim secum 
+            <lb/>Alexander statuas aereas et sapienter cogitans mittens
+            <lb/>eas in ignem, ut calefierent, faciensque receptaculum ferreum
+            <lb/>ignium, ut sustineret eas et portaret ante elefantos.
+            <lb/>Videntes autem elefanti cogitaverunt esse homines, tendentes
+            <lb/>rostra sua secundum consuetudinem, ut caperent eos, 
+            <lb/>prenimio calore incensi sunt, redeuntes retro moriebantur. 
+            <lb/>Aliae vero exturbatae nullomodo pergebant pugnaturi
+            <lb/>super homines. Videns autem Porus, quod de feris factum
+            <lb/>est, turbatus est valde. Perses vero impetum facientes
+            <lb/>super Indos cum sagittis et lanceis fugaverunt eos, quamvis
+            <lb/>ex bis et illis maxima strages hominum facta fuisset. Videns
+            <lb/>autem Alexander iratus est, sedens caballum Bucefalon
+            <lb/>ingressus est pugnam, proeliavit fortiter, quin etiam adiuvans
+            <lb/>eum non modice ipse caballus. Et per continuos
+            <lb/>viginti dies pugnabant inter se. 
+          </p>
+        </div>
+        <div type="par" n="4">
+          <p>
+            <lb/> Videns autem Alexander, quia defecerat populus, 
+            <lb/>stetit solus ante hostem et locutus est Poro regi: “Non
+            <lb/>decet imperatori sie in vacuum perdere victorialem populum
+            <lb/>suum, sed oportet, ut per semet ipsam rex ostendat
+            <lb/>virtutem suam. Stet populus tuus in una parte et meus 
+            <lb/>similiter; ego et tu solitarii pugnemus manu ad manum.
+            <lb/>Quod si me occideris, populus meus sit tuus; quod si econtra
+            <lb/>in manibus meis defeceris, populus tuus computetur mihi."
+            <lb/>Audiens haec Porus gavisus est et promisit se ita esse
+            <lb/>facturum, indignum ducens corpus Alexandri, confidens 
+            <lb/>in altitudine sua; habens enim cubita quinque despiciens
+            <lb/>Alexandrum, quia habebat in altitudine cubita tria. Recedente
+            <lb/>vero et staute in suo ordine utroque hosti pugnatum
+            <lb/><pb n="106"/>
+            <lb/>est ab illis ambobus, et vociferaverunt milites Pori. Audiens
+            <lb/>Porus vociferationem suorum tornavit caput. Impetum
+            <lb/>l'aciens Alexander plicatis pedibus exiliens super eum
+            <lb/>percutiensque illum gladio et vitam finivit. Et tunc acriter
+            <lb/>pugnatum est ab bis et illis. Stans autem Alexander dixit
+            <lb/>illis: “Miseri, post mortem regis vestri utquid pugnatis ?"
+            <lb/>Cui illi dixerunt: “Quia nolumus subdere vobis terram
+            <lb/>nostram, ut depredetur”. Quibus Alexander: “Cesset nunc
+            <lb/>pugnatio et ite liberi ac securi in domos vestras, quia non
+            <lb/>presumpsistis vos pugnare populum nostrum, sed rex vester”
+            <lb/>Haec dicente castra metatus est et fecit sepelire Porum.
+            <lb/>Et inde congregato magno apparatu exercitus abiit
+            <lb/>Oxidracis. Oxidraces vero non sunt superbi homines neque
+            <lb/>pugnant cum aliquo. Nudi enim ambulant et dicuntur
+            <lb/>gymnosofistae. In tuguriis habitant non habentes civitatem
+            <lb/>neque habitaciones.
+          </p>
+        </div>
+        <div type="par" n="5">
+          <p>
+            <lb/> Cum autem audisset rex gentis huius adventum
+            <lb/>Alexandri, misit ad eum honoratos suos cum epistolis dicendo
+            <lb/>sie: “Corruptibiles gymnosofistae Alexandro homini scribimus.
+            <lb/>Audivimus”. quod venias super nos. Quod si pugnaturus
+            <lb/>veneris, nihil lucri acquiris, quia, quod tollere aut
+            <lb/>quod auferre a nobis, nil invenies et illud, quod habemus,
+            <lb/>  nullomodo audet quis inde aliquid tollere, nisi quantum
+            <lb/> divina Providentia ei concesserit. Quod si pugnare vis,
+            <lb/>pugna, quia nos simplicitatem nostram non dimittimus”
+            <lb/>Relegit hoc Alexander et mandavit illis dicendo: “Et nos
+            <lb/>pacifici veniemus ad vos”. Statim ingressus est ad eos
+            <lb/>intuens illos omnes ambulare nudos et habitare in abditis
+            <lb/>tuguriis et in speluncis. Filii vero et uxores eorum separati
+            <lb/>erant ab illis cum animalibus.
+          </p>
+        </div>
+            <div type="par" n="6">
+              <p>
+                <lb/>Alexander vero interrogavit unum ex illis: “Non
+                <lb/><pb n="107"/>
+                <lb/>sunt sepulcra vobis ?" Ostendit ei(s) habitationem suam
+                <lb/>dicens: “Hic, ubi habito, sufficit mihi." Et dixit Omnibus
+                <lb/> Alexander: „Quaerite, quod vultis, et dabitur vobis” Cui
+                <lb/> illi: “Da nobis inmortalitatem." Quibus Alexander: “Mortalis
+                <lb/>cum sim, inmortalitatem vobis dare non possum." 
+                <lb/>illi dixerunt: “Et si mortalis es, quare vadis discurrendo 
+                <lb/>et faciendo tanta ac talia ?" Quibus ille: “Ist[a]e caus[a]e
+                <lb/>non gubernantur nisi de superna Providentia; ministri
+                <lb/>eius sumus facientes iussionem illius. Mare nullomodo
+                <lb/>turbatur, nisi cum ventus ingressus fuerit. Volo quiescere 
+                <lb/>et recedere a pugnis, sed dominus sensus mei non me
+                <lb/>dimittit hoc facere. Si omnes unius intellegenti[a]e fuissemus,
+                <lb/>totus mundus sicut ager unus fuisset."
+              </p>
+            </div>
+        <div type="par" n="17">
+          <p>
+            <lb/>  Dicens hoc Alexander cepit Ire et fatigatus est multum
+            <lb/>in ipso itinere, quia erant ibi loca inambulatoria. Scripsit 
+            <lb/>epistolam Aristoteli de causa, quae ei acciderat:
+            <lb/><pb n="108"/>
+          </p>
+        </div>
+        <div type="par" n="I">
+          <p>
+            <lb/> Alexander Aristoteli gaudium. Admirabiles causas,
+            <lb/>quae nobis acciderunt, dignum est, ut significentur vobis.
+            <lb/>Postquam percussimus Darium et subiugavimus Persidam
+            <lb/>et cepimus ire ad Caspias portas, venimus ad quendam
+            <lb/>fluvium, qui habebat in medio civitatem coopertam [cannis].
+            <lb/>Barcellae erant in ipso fluvio.
+          </p>
+        </div>               
+            <div type="par" n="II">
+              <p>
+                <lb/>   Applicavimus ibi hora diei tercia. Aqua ipsius
+                <lb/>  fluvii erat amara nimis velut elleborum. In circuitu ipsius
+                <lb/> civitatis erat fluvius quasi stadia quattuor. Quidam audaces
+                <lb/> ex nostris iuvenes evaginatis gladiis nudi ingressi sunt
+                <lb/><pb n="109"/>
+                <lb/> fluvium triginta Septem; surgentes besti[a]e ipsius fluvii,
+                <lb/> qui dicuntur yppopotami, et devoraverunt eos.
+              </p>
+            </div>
+        <div type="par" n="III">
+          <p>
+            <lb/>  Girantes autem fluvium ex alia parte perreximus
+            <lb/> superius et invenimus stagnum mellifluum ac dulcem.
+            <lb/>Applicavimus ibi et fecimus succendi focum. Hora vero
+            <lb/> tertia noctis exeuntes subito ferae silvestres venerunt
+            <lb/> ad ipsum stagnum bibere aquam. Erant ibi scorpiones
+            <lb/> longitudine cubiti unius mixti inter se albi et rubei. Videntes 
+            <lb/>autem eos venit super nos maxima angustia, qui etiam
+            <lb/>quidam ex nostris mortui sunt. Venerunt ibi et leones 
+            <lb/>mir[a]e magnitudinis et rinocerotes. Omnes istae bestiae
+            <lb/>exiebant ex arundineto ipsius stagni. Et erant inter eos
+            <lb/>porci silvatici magni valde forciores leonibus habentes
+            <lb/>dentes per longum cubitum unum. Erant ibi pardali et
+            <lb/>tigrides et scorpiones atque elefanti et homines silvatici 
+            <lb/>habentes sex manus; similiter et feminae eorum. Inter
+            <lb/>haec habebamus maximas angustias, quia occurrerunt
+            <lb/>super nos; cum lanceis et sagittis eiecimus eas a nobis.
+            <lb/>Posuimus focum in ipsis silvis, ut fugerent ipsae ferae.
+          </p>
+        </div>                   
+            <div type="par" n="IV">
+              <p>
+                <lb/> Venit super nos bestia mir[a]e magnitudinis fortior 
+                <lb/>  elefanto, odontotirannos, et fecit impetum veniendi ad
+                <lb/>  nos; nos autem discurrentes huc atque illuc confortando
+                <lb/> milites, ut adiuvarent se; ex alia parte irruens bestia
+                <lb/>occidit ex nostris viginti sex. Quidam autem milites armati
+                <lb/>occiderunt eam. 
+              </p>
+            </div>
+        <div type="par" n="V">
+          <p>
+            <lb/>Sequenti vero nocte exeuntes vulpes ex arena et
+            <lb/>corcodilli ex arundineto et comedebant corpora mortuorum.
+            <lb/><pb n="110"/>
+            <lb/>Volabant ibi et vespertiliones tarn magni iit columbae;
+            <lb/>dentes eorum ut dentes hominis; mordentes homines,
+            <lb/>tollentes illis nares et aures atque digitos manuum.
+          </p>
+        </div>
+        <div type="par" n="VI">
+          <p>
+            <lb/>  Movimus inde et venimus in campum, qui dicitur
+            <lb/>Actia, et applicavimus ibi. Erat in circuitu eins condensa
+            <lb/>Silva, et erant ibi arbores fructifer[a]e, ex quibus nutriebantur
+            <lb/>homines agrestes, habentes formam ut gigantes
+            <lb/>induti vestimento pellicio. Exeuntes cum longis contis
+            <lb/>occiderunt ex nostris. Videntes autem defecisse nostros
+            <lb/>precepimus nostris militibus, ut vociferarent. Nos autem
+            <lb/>magnis vocibus acclamantes, quia non erat illis cognitum
+            <lb/>audire vocem hominum, timuerunt et fugerunt in ipsam
+            <lb/>silvam. Nos autem insequentes illos occidimus ex eis sexcentos
+            <lb/>triginta quatuor. Ceciderunt ex nostris centum
+            <lb/>viginti Septem. Stetimus ibi tres dies comedentes poma
+            <lb/>ipsarum arborum.
+          </p>
+        </div>
+        <div type="par" n="VII">
+          <p>
+            <lb/>Deinde venimus ad quendam fluvium, in quo erat
+            <lb/>civitas locuples valde. Hora vero incumbente nona venit
+            <lb/>super nos quidam magnus homo agrestis, pilosus ut porcus.
+            <lb/>Precepi militibus meis, ut apprehenderent eum. Impetum
+            <lb/>autem facientes super eum neque timuit neque fugiit, sed
+            <lb/>stetit intrepidus. Precepi autem venire puellam et iussi
+            <lb/>eam expoliari atque mittere ante eum. Ille autem impetum
+            <lb/>faciens apprehendit eam et stetit in parte. Cucurrimus,
+            <lb/>ut tolleremus eam illi; mugiit ut fera et quamvis cum maxima
+            <lb/><pb n="111"/>
+            <lb/>angustia appreliendimus cum. Precepi illum ligari et occidi
+            <lb/>in ignem.
+          </p>
+        </div>              
+            <div type="par" n="VIII">
+            <p>
+              <lb/>Iterum movimus inde et venimus in alium campum, 
+              <lb/>in quo ab hora diei prima exiebant arbores et crescebant
+              <lb/>usque in horam sextam. Ab [h]ora autem sexta usquo 
+              <lb/>ad occasum solis descendebant subtus terram. Ist[a]e
+              <lb/>arbores ferebant fructus odoriferos. Precepique quibusdam
+              <lb/>hominibus meis, ut tollerent ex liquore ipsarum arborum.
+              <lb/>Uli autem accedentes propius, exierunt demones
+              <lb/>et flagellarunt eos. Audivimus vocem de celo allatam 
+              <lb/>preeipientem nobis, ut ne unus quidem incideret aliquid 
+              <lb/>ex ipsis arboribus, quia, si factum fuerit, moriemini. Erant
+              <lb/>ibi et mitissima volatilia. Qui autem volebant eos tangere,
+              <lb/>exiebat ignis et incendebat eos.
+            </p>
+            </div>
+        <div type="par" n="IX">
+          <p>
+            <lb/>Venimus in fines Oceani maris, in quo sunt cardines 
+         <lb/>  caeli. Audivimus in ipso mari loquentes homines linguam
+            <lb/>Grecam. Quidam vero ex militibus nostris exuentes se
+            <lb/>vestimentis suis voluerunt ingredi per mare ad ipsam insulam.
+            <lb/>Surgentes besti[a]e, quae vocantur carcyni et apprehenderunt
+            <lb/>viginti milites et submerserunt eos in profundo 
+            <lb/>maris.
+          </p>
+        </div>               
+            <div type="par" n="X">
+              <p>
+                <lb/> Abinde venimus ad quendam locum, in quo erat
+                <lb/>arbor, quae non habebat fructum neque folia, et sedebat
+                <lb/>super avis, quae habebat super caput suum lucentes radios
+                <lb/> sicut sol, quae vocabatur Fenix. 
+              </p>
+            </div>
+        <div type="par" n="XI">
+          <p>
+            <lb/>Deinde venimus ad montem, et erat sub eo ripa,
+            <lb/>in qua pendebat catena aurea, et habebat ipse mons grados 
+            <lb/>duo milia quingenti ex saffiro. Ascendi aut(t)em ipsum montem
+            <lb/><pb n="112"/>
+            <lb/>cum aliquantis militibus meis et inveni ibi palacium
+            <lb/>habentem limitarem et superlimitarem et fenes[tras] et
+            <lb/>timpana et cymbala ex auro. Et erat templum ibi totum
+            <lb/>aureum et erat ibi lectus cum preciosa lectisternia. lacebat
+            <lb/>ibi unus homo magnissimus atque clarissimus, indutus
+            <lb/>veste alba, bambicea, ornata ex auro et lapidibus preciosis.
+            <lb/>Vidi ibi et auream viniam ferentem botros ex lapidibus
+            <lb/>preciosis adoravique ipsum hominem et descendi.
+          </p>
+        </div>
+        <div type="par" n="XII">
+          <p>
+            <lb/> Deinde perrexi per continuos quindecim dies et
+            <lb/>veni in terram, quae dicitur Prasiaca. Cognoscentes autem
+            <lb/>habitatores terr[a]e illius adventum nostrum adduxeruiit
+            <lb/>nobis xenia, pelles ex piscibus, habentes figuras ex pelle
+            <lb/>pardoleonis, et pelles murenarum longitudine cubitorum
+            <lb/>sex.
+          </p>
+        </div>
+        <div type="par" n="18">
+          <p>
+            <lb/>Erat ibi et civitas murata ex monte sine calce et
+            <lb/>precisis lapidibus. Primatum ipsius regni tenebat quaedam
+            <lb/>femina vidua, nomine Candacis, habebatque tres filios.
+            <lb/>Direxi illi epistolam: “Rex Alexander Candacis regin[a]e
+            <lb/>gaudium. Dirigo tibi templum et statuam Ammonis, ut
+            <lb/>venias et eamus simul ad montes atque offeramus ei." Rescripsit
+            <lb/>et illa mihi: “Candacis, regina Merois, regi Alexandro
+            <lb/>gaudium. Revelatum tibi fuit ab Ammone, deo tuo, ut ires
+            <lb/>et pugnares Egyptum; concessum enim tibi fuit ab ipsis
+            <lb/>diis. Nos itaque ciaras ac lucidas habemus animas plus
+            <lb/><pb n="113"/>
+            <lb/>quam hi, qui apud te sunt. Dirigo tibi aureos vipedes centum, 
+            <lb/>set et infantulos Et(t)hiopes centum et intelligibiles
+            <lb/>aves psittachos ducenti et spingas ducenti; Ammoni itaque
+            <lb/>deo dirigo coronam ex lapidibus preciosis videlicet ex smaragdine
+            <lb/>et margaritis, sed et insertas catenas decem ex preciosis
+            <lb/>lapidibus. Mandavimus et vobis cluvias decem ex
+            <lb/>auro; cantras aureas triginta et elefantos quadringenti
+            <lb/>quinquaginta, rinocerotes octoginta, pantheros tria milia;
+            <lb/>pelles pardoleonis quadringenti; vectes ebenos mille quingenti. 
+            <lb/>Et dirige nobis dicendo, si subiugasti totum mundum.
+          </p>
+        </div>
+        <div type="par" n="19">
+          <p>
+            <lb/>Inter missos suos direxit peritissimum pictorem,
+            <lb/>ut diligenter consideraret et depingeret figuram illius atque
+            <lb/>adduceret eam illi. Quod et factum est. Unus ex filiis
+            <lb/>Candacis regin[a]e, cui nomen Candaulis, cum paucis equitibus
+            <lb/>abiit ad tabernaculum Alexandri. Custodes autem, ee
+            <lb/>qui vigilabant super exercitum, apprehenderunt eum atque
+            <lb/>portaverunt illum Ptolomeo, qui secundus erat ab Alexandro
+            <lb/><pb n="114"/>
+            <lb/>Cui Ptolomeus: “Quis es tu?" Et ille: “Filius
+            <lb/>Candacis regin[a]e sum." At ille: “Quare huc venisti?”
+            <lb/>“Exivi cum uxore mea exercere me cum paucis equitibus.
+            <lb/>Rex Bebricorum sciendo pulcritudinem uxoris meae venit
+            <lb/>super me cum valida manu, tulit mihi uxorem meam;
+            <lb/>etiam, quia volui defendere me, occidit plures milites meos.”
+            <lb/>Cui Ptolomeus: “Expecta”.
+            <lb/>Interim exiliens de tabernaculo suo abiit ad tabernaculum
+            <lb/>regis, in quo dormiebat, excitans eum, referens
+            <lb/>illi omnia, quae audierat ab ipso iuvene. Quo audito surrexit
+            <lb/>tollens diadema capitis sui, coronavit Ptolomeum,
+            <lb/>cui et dixit: “Revertere tabernaculum tuum, et sede in
+            <lb/>solio regali et die: “Ego sum Alexander rex” et praecipe
+            <lb/>homini tuo, ut faciat venire ad te quasi Antigonum hominem
+            <lb/> tuum, et veniad ad me et adducat me ante te quasi
+            <lb/>hominem tuum. Et dum venio ante te, recita mihi omnia ante
+            <lb/> ipsum iuvenem, quaecumque tibi dixit, et interroga me sub
+            <lb/>persona Antigoni(s) ut dem tibi consilium, quid exinde facere
+            <lb/>debeas.” Et ita factum est. Cui Alexander astante Candauli
+            <lb/>dixit:  “Domine, precipe mihi, et ego pergo hora noctis
+            <lb/>et supervenio ipsam civitatem ac succendam eam igni
+            <lb/>et facio, ut per vim reddant uxorem eius.”
+          </p>
+        </div>
+        <div type="par" n="20">
+          <p>
+            <lb/>Et statim adoravit eum Candaulis et dixit: “O
+            <lb/>sapientissime Antigone, Optimum fuerat, ut tu fuisses rex
+            <lb/>Alexander et non fuisses subiectus illi.” — Quod et factum
+            <lb/> est: abiit hora noctis silentio et succendit ipsam civitatem
+            <lb/>igni. Evigilantes autem homines ipsius civitatis clamaverunt
+            <lb/>dicentes: “ Quid est hoc ?” At illi dixerunt: “Candaulis
+            <lb/><pb n="115"/>
+            <lb/>  est cum plurimo hoste, ut reddatur uxor eius. Sin
+            <lb/>alias, moriemini omnes per ignem”. Irruentes autem homines
+            <lb/> ipsius civitatis fregentes portas palatii abstrahentes
+            <lb/>inde uxorem Candaulis reddiderunt eam illi. Volvens se
+            <lb/>Alexandro dixit: “Mi karissime Antigene, crede mihi 
+            <lb/>atque promitto tibi et rogo te, ut venias mecum ad matrem
+            <lb/>meam, quatenus reddat tibi dignum meritum et offerat
+            <lb/>tibi dona regaha.” Gaudens Alexander dixit: “Eamus
+            <lb/>ad Alexandrum et postula me ab illo et ego venio tecum”
+            <lb/>Significavit hoc antea Ptolomeo, et tunc abiit Candaulis 
+            <lb/>et petiit eum ab illo. Accepta licentia abiit cum eo.
+          </p>
+        </div>
+        <div type="par" n="21">
+          <p>
+            <lb/>Cum autem issent per viam et vidisset Alexander 
+            <lb/>altos montes pertingere usque ad nubes, miratus est. Viditque
+            <lb/>excelsas arbores portantes poma grandia ut cedrus
+            <lb/>habentes et botros uvae magnos valde, quales portare 
+            <lb/>non potuerat unus homo. Vidit et nuces sicut pepones.
+            <lb/>Erant et dracones in ipsis arboribus et scimiae multae.
+            <lb/>Et post paucos dies venimus in civitatem Candacis reginae.
+          </p>
+        </div>            
+            <div type="par" n="22">
+              <p>
+                <lb/>  Exiit ad nos foras portans auream coronam, longa
+                <lb/>atque pulcra nimis. Visum est Alexandro, quod quasi 
+                <lb/>matrem suam vidisset. Palatium vero eius erat Optimum,
+                <lb/>et fulgebat tectum ipsius palatii, quasi aureum esset. Lectisternia
+                <lb/> eius erant ornata ex purissimo auro; fialae erant
+                <lb/>ibi ex lapidibus preciosis, sed elefantinas mensas vidimus
+                <lb/>ibi; triclinia vero ipsius palatii erant constructa ex lapide 
+                <lb/>  oni[c]hino; columnae ipsius palacii erant ex ebeno. Falcatos
+                <lb/> currus ibi vidimus sculptos in lapide porfiretico apparentes
+                <lb/>nobis, quasi currerent. Vidimus ibi et elefantos sculptos
+                <lb/><pb n="116"/>
+                <lb/>in eadem petra quasi conculcantes homines cum pedibus
+                <lb/>suis. Suptus ipsum palacium currebat fluvius habens claritatem
+                <lb/>aquae quasi auro. Vidi hoc et miratus sum. Illo
+                <lb/>namque die comedi cum fratribus Candaulis.
+                <lb/>Alio namque die apprehendit me Candacis regina per
+                <lb/>manum introducens me in cubiculum, quod erat constructum
+                <lb/>ex lapidibus habentes aureum colorem; lucebatque intus,
+                <lb/>quasi sol refulsisset ibi. Vidi et ibi triclinium ex lignis
+                <lb/>asiptis, qui non incenduntur ab igne. Vidi ibi et aliud
+                <lb/>cubiculum constructum super ligna maxima cum rotis
+                <lb/>et trahebant eum viginti elefanti. Dixique regin[a]e:
+                <lb/>“Ist[a]e caus[a]e dign[a]e fuerant ammirari, si apud Grecos
+                <lb/>fuissent.” Irata est regina et dixit: “Veritatem dicis, Alexander.”
+                <lb/>Qui ubi audivit nomen suum, expavit. Gui illa:
+                <lb/>“Quare mutata est facies tua, quia vocavi te Alexandrum ?”
+                <lb/>Cui ille: “ Domina, Antigonus nomen est mihi, non Alexander.”
+                <lb/>At illa: “Ego ostendo tibi, quomodo Alexander
+                <lb/>es.” Introduxitque eum cubiculum suum et monstravit
+                <lb/>illi imaginem suam et dixit: “Agnoscis hanc imaginem ?”
+                <lb/>Cepit pallescere et contremiscere Alexander. Et illa: “Quare
+                <lb/>mutatus est color tuus et expavescis, destructor tocius
+                <lb/>Persid[a]e, destructor et Indi[a]e, superans Indos atque
+                <lb/>Parthos ? Modo sine militibus, sine aliquo conflictu cecidisti
+                <lb/>in manus regin[a]e Gandacis. Unde scias, Alexander,
+                <lb/>quia nullomodo debet elevari cor hominis in elatione,
+                <lb/>qualiacumque sequantur eum prospera, et ne cogitet in
+                <lb/>corde suo, quod non inveniad alium hominem fortiorem
+                <lb/>sibi, qui eum super(h)abundet.”
+                <lb/>In hoc cepi stridere dentibus et tornavi me in aliam
+                <lb/> partem. At illa: “Cur irasceris et quare conturbatus es?
+                <lb/>Quid nunc facere poterit imperialis gloria tua?” Et ille:
+                <lb/>“Irascor, quia non habeo gladium.” Dixit et illa: “Si
+                <lb/><pb n="117"/>
+                <lb/> habuisses gladium, quid facere potueras?” Et Alexander: 
+                <lb/>“Quia traditus sum per meam voluntatem, primum occidam
+                <lb/>te, postea memet ipsum”- Cui illa: “Et hoc, quod
+                <lb/>dixisti, sicut sapiens imperator dixisti. Sed tamen, ne contristeris,
+                <lb/>quia, sicut tu adiuvasti et liberasti uxorem filii 
+                <lb/>mei de manibus inimicorum suorum, sic et ego eruo et
+                <lb/>liberabo te de manibus barbarorum, ut non occidaris,
+                <lb/>quia, si notum fuerit illis de adventu tuo, occidunt te,
+                <lb/>quomodo tu occidisti Forum, Indorum regem, quia et
+                <lb/>uxor iunioris filii mei filia Fori est.” 
+              </p>
+            </div>
+        <div type="par" n="23">
+          <p>
+            <lb/>Et exiit foras iterum tenens me per manum et
+            <lb/>dixit filiis suis: “O fili Candauli et tu, filia Marpissa,
+            <lb/>demus aliquod bonum huic misso Alexandri.” Respondens
+            <lb/>alius filius eins, Carator, dixit: “O mater, verum,
+            <lb/>quia Alexander direxit abstrahens uxorem fratris mei de 
+            <lb/>manibus inimicorum et reddidit eam illi; set uxor mea
+            <lb/>compellit me hunc occidere Antigonum pro Alexandro,
+            <lb/>quia occidit Forum, patrem eius, ut recipiat pro eo dolorem
+            <lb/>Alexander.” Candacis dixit: “Quod nomen acquirimus,
+            <lb/>si hunc occiderimus ?” Ad hec respondit Candaulis: “Me 
+            <lb/>iste salvavit et uxorem meam mihi reddidit; salvum eum
+            <lb/>adduxi usque huc salvumque restituo usque ad locum 
+            <lb/>suum.” Cui Carator: “Quid est hoc, quod dicis ? Modo
+            <lb/>in isto loco moriemur ambo ?” Et Candaulis: “Ego nolo
+            <lb/>hoc; quod si tu vis, paratus sum.” 
+            <lb/>Videns autem Candacis, quia volebant se occidere filii 
+            <lb/>sui, angustiata est. Apprehendit me portansque secreto
+            <lb/>dixit: “Alexander, non ostendis in hoc aliquam sapientiam,
+            <lb/>ut non occidantur pro te filii mei?” Cui Alexander: „Dimitte
+            <lb/>me ire loqui cum eis.” At illa dimisit eum. Abiitque 
+            <lb/>et dixit: “Carator, si me occidis hie, habet Alexander rex
+            <lb/>multos missos meliores mei. Si vultis, ut tradam vobis
+            <lb/><pb n="118"/>
+            <lb/>ipsum inimicum vestrum, date mihi, quod postulo, et iuro
+            <lb/>vobis, quia hie in palacio vestro adduco Alexandrum.”
+            <lb/>Pacificati sunt inter se fratres et crediderunt hoc atque
+            <lb/>promiserunt ei per singulos facturos mihi dona. Vocavit
+            <lb/>me iterum Candacis regina occulte et dixit: “Beata fuissem
+            <lb/>ego, si cotidie potuissem te habere prae oculis quasi unum
+            <lb/>ex fihis meis, ut vicissem omnes inimicos meos.” Quando
+            <lb/>autem dimiserunt me ire, fecerunt mihi dona regaha et
+            <lb/>coronam ex precioso lapide adamantino seu et broniam
+            <lb/>et stellatam clamidem.
+                      </p>
+        </div>
+        <div type="par" n="24">
+           <p>
+             <lb/>24 Movi me inde et profectus sum et abii in criptam,
+             <lb/>quam monstravit mihi CandauHs dicens, quod ibi comedissent
+             <lb/>dii. Et antequam ingrederer ipsam criptam, feci diis
+             <lb/>offertionem et ingressus sum et vidi ibi caligines et inter
+             <lb/>ipsas cahgines vidi lucentes Stellas et apparitiones idolorum.
+             <lb/>Vidi et quidam recumbentes lucidos habentes oculos sicut
+             <lb/>lucernas. Unus autem ex illis dixit mihi: “Ave, Alexander.”
+             <lb/>Et ego: “Quis es tu, domine?” Et ille: “Ego sum Sesonchosis,
+             <lb/>regnum mundi tenens et mundum subiugans, faciens
+             <lb/>omnes subiectos. Nomen autem mihi non est sicut tu habes,
+             <lb/>qui in tuo fabricaveris Alexandriam. Tamen ingredere
+             <lb/>amplius et tunc videbis.”
+             <lb/><pb n="119"/>
+             <lb/>Ei vidi iterum aliam caliginem et quendam deum
+             <lb/>sodentem in sedio regali et dixit mihi: “Quid est hoc?”
+             <lb/>adiungens: “Nativitas sum ego deorum.” Ego: “Te vidi
+             <lb/>in terra Libiae et modo huc esse videris.” Cui ego dixi:
+             <lb/>“O Serapis, die mihi, quantos annos adhuc victurus sam ?” 
+             <lb/>Et ille: “Hanc causam, quam interrogas, oportet, ut nullus
+             <lb/>mortalium eam sciat, quia, si cognitum fuerit homini dies
+             <lb/>mortis suae, tanta tribulatio accidit ei, quasi omni die
+             <lb/>moriatur. Fabricaturus eris civitatem pergloriosam, quae
+             <lb/>exstat in toto mundo. Plurimi enim imperatores pugnaturi
+             <lb/>sunt eam, sed nullus ibi aliquid nocere poterit. Ibi 
+             <lb/>et fabricabitur sepulcrum tuum, ubi recondetur et corpus
+             <lb/>tuum.” Exiens inde venit ad milites suos et movit inde
+             <lb/>exercitum suum.
+           </p>
+        </div>
+        <div type="par" n="25">
+          <p>
+            <lb/>Applicavit ad Amazones, dirigens eis talem eepistolam: 
+            <lb/>“Rex Alexander ad Amazones gaudium. Pugnam,
+            <lb/>quam Dario fecimus, credimus, quia non est vobis incognita,
+            <lb/>et sicut pugnavimus Indiam atque alias gentes, quae 
+            <lb/>resistere nobis nullomodo potuerunt. Quapropter scribimus
+            <lb/>vobis, ut persolvatis nobis datum, quia non veniemus 
+            <lb/>super vos aliquod malum facere, sed bene.”
+            <lb/>Ad haec rescripta sunt haec: “Amazones, potentissim[a]e
+            <lb/>atque fortiores omnibus militiis, Alexandro gaudium.
+            <lb/>Scripsimus et signivicavimus tibi, ut, antequam venias
+            <lb/>in fines nostras, cogites, quomodo venias, ne forte patiaris 
+            <lb/>turpitudinem. Scias, quia habitatio nostra est ultra fluvium
+            <lb/>in quadam insula, cingens eam in giro ipse fluvius;
+            <lb/>ot neque initium neque finem habet et ex una parte habemus
+            <lb/>angustum introitum. Et sumus numero habitancium
+            <lb/><pb n="120"/>
+            <lb/>feminarum ducenta quatuordecem milia, quae non sunt
+            <lb/>coinquinatae a viris. Viri nullomodo habitant inter nos,
+            <lb/>sed ultra fluvium in alia parte, †Quod tollere a nobis nil
+            <lb/>invenies.† Si vis scire conversationem nostram, talis est.
+            <lb/>Per unum quemque annum celebramus festivitatem lovis
+            <lb/>et Ifesti; celebramus ipsas festivitates per triginta dies
+            <lb/>et sie transimus videre viros nostros et gaudent nobiscum
+            <lb/>per triginta dies. Qui vult manere in leticia cum sua uxore,
+            <lb/>tenet eam per unum annum. Quod si mulier parturiens
+            <lb/>peperit masculum, tenet eum secum pater; et si feminam
+            <lb/>pepererit, retinet eam secum pater et post Septem annos
+            <lb/>reddet eam matri suae. Quod autem pugnaturae venimus
+            <lb/>cum aliquo, sumus numero decies dena milia equitantes.
+            <lb/>Ali[a]e autem custodiunt insulam nostram et obviamus
+            <lb/>inimicis nostris usque ad ipsos montes. Viri autem nostri
+            <lb/>insequuntur posteriora nostra. Cum autem revers[a]e fuerimus
+            <lb/>ab ipso prelio cum victoria, adorant nos viri nostri,
+            <lb/>et si quis ceciderit ex nobis, hereditant nobis ill[a]e, quae
+            <lb/>supervixerint. Unde oportet, ut stemus nos et pugnemus
+            <lb/>monstrantes victoriam contra vos. Quod si vos viceritis
+            <lb/>nos, nullam habebitis laudem, quia feminas vicistis; cave,
+            <lb/>imperator, ne contingat tibi. Significavimus tibi consuetudinem,
+            <lb/>quam omni anno facimus. Tu autem considera et
+            <lb/><pb n="121"/>
+            <lb/> fac, quod facere debes, et scribe illud nobis, quia, si pugnare 
+            <lb/>volueris, ad ipsos montes exiemus obviam tibi.”
+          </p>
+        </div>
+        <div type="par" n="26">
+          <p>
+            <lb/>Relegit hanc epistolam Alexander et risit. Scripsit 
+            <lb/>hanc epistolam et misit eis: “Tres partes huius mundi
+            <lb/>apprehendimus et victoriam contra illos fecimus; et si vobiscum 
+            <lb/>non pugnamus, turpitudo est nobis. At tarnen dabo
+            <lb/>vobis consilium, si vultis perire et dimittere terram vestram,
+            <lb/>ut non habitetur, sicut dixistis venite et exite obviam nobis
+            <lb/>in montibus. Et si non vultis perire, ingredimini fluvium et
+            <lb/>sie loquamur in unum; similiter et viri vestri veniant in 
+            <lb/>campum et loquantur in unum. luro vobis per patrem
+            <lb/>meum et per Eram et Athenam, deas nostras, quia nullum
+            <lb/>malum patiemini a nobis. Datum autem, quod vultis,
+            <lb/>date nobis. Equites autem femineas, quantas vultis, mandate
+            <lb/>nobis, et per unam quamque feminam dabimus amnades
+            <lb/>quinque excepto quod eis fecerimus, et post tempus dimittemus
+            <lb/>eas venire in terram suam. Considerate et scribite
+            <lb/>nobis.” Ill[a]e enim cogitantes direxerunt mihi polletros
+            <lb/>decem et caballos blancos.
+          </p>
+        </div>
+        <div type="par" n="28">
+          <p>
+            <lb/> Et inde profectus sum ad palacium Xersen regis. 
+            <lb/>Et invenimus in ipso palatio ammirabilia cubicula erantque
+            <lb/>coturnices tam magn[ale sicut columb[a]e et loquebantur 
+            <lb/><pb n="122"/>
+            <lb/> regibus linguam humanam atque dicebant illis, quantos
+            <lb/>annos viverent.
+          </p>
+        </div>
+        <div type="par" n="30">
+          <p>
+            <lb/>Vidi ibi et alia miracula, quae scribo Olimpiadi
+            <lb/>matri meae: Cum essem in Babilonia, antequam exissem
+            <lb/>de hoc seculo, vidi mulierem, quae genuit filium, qui
+            <lb/>erat ab umbilico et sursum ut homo, ab umbilico usque
+            <lb/>ad pedes erat bestia; similitudinem habebat canis. Cum
+            <lb/>autem peperisset haec fihum mulier, cooperuit eum adduxitque
+            <lb/>eum Alexandro regi, mandans, ut loqueretur ilh ahquid
+            <lb/>secretum. Ille autem erigens se a somno iussit eam
+            <lb/>venire. At illa: “Iube exire omnes. Secretum habeo
+            <lb/>indicare tibi.'' Discooperiens infantulum monstravit eum
+            <lb/>ilh. Cum vidisset eum Alexander, miratus est. Et iussit
+            <lb/>vocari ariolos; dicens illi: “Dic mihi, quod signum est hoc ?”
+            <lb/>Suspirans dixit: “O rex, appropinquabit tempus tuum,
+            <lb/>ut exeas de hoc seculo.” Cui Alexander: “Dic mihi, quomodo?”
+            <lb/>Dixit illi: “Potentissime rex, medietas corporis,
+            <lb/>quae habet aspectum hominis, tu es; pars autem, quae
+            <lb/>versa est in bestiam, homines sunt, qui post te veniunt.
+            <lb/>Ex qua re plora homines, quia pro te factum est hoc Signum.''
+            <lb/>Audiens autem Alexander tristis effectus est et dixit:
+            <lb/>“O Iuppiter, oportuerat enim, ut dies obitus mei in pace
+            <lb/><pb n="123"/>
+            <lb/>finiretur, ut hoc, quod consideravi, perficerem; et quia
+            <lb/>sic placet tibi, recipe me tercium mortalem.”
+          </p>
+        </div>
+        <div type="par" n="31a">
+          <p>
+            <lb/>Mater vero illius multis vicibus scripserat Alexandro
+            <lb/>de Antipatro; et angustiabatur. Consideravit Antipater
+            <lb/>facere causam et fecit, offerens Uli malum nomen. 
+            <lb/>Dubitavit pro hac causa Antipater ad Alexandrum venire
+            <lb/>mittcnsque ad maleficum fecit eum venire ad se, rogans 
+            <lb/>cum, ut daret ei venenosam potionem. Quod et factum
+            <lb/>est. Talem illi potionem dedit, qui non erat vas, quod sustineret
+            <lb/>fortitudinem eius. Fecit cantrellam ferream et 
+            <lb/>posuit eam intus et dedit eam Cassandro, filio suo, mandavitque
+            <lb/>eum in servitium Alexandri et ut loqueretur
+            <lb/>fratri suo lolo et ordinaret, quomodo daret venenum
+            <lb/>bibere Alexandro. Accidit autem illo in tempore, ut percuteret
+            <lb/>Alexander lolum in capud non habentem culpam. is
+            <lb/>Ex qua re ipse iuvenis dolore coactus consensit potionare
+            <lb/>eum recepitque potionem grato animo, ut potionet mirabilem
+            <lb/>Alexandrum, qui diligebat eum.
+          </p>
+        </div>
+        <div type="par" n="33">
+          <p>
+            <lb/>Alexander autem consiliavit cum amicis suis et
+            <lb/>scripsit epistolam Aristoteli continentem ita: “Precipimus 
+            <lb/>tibi, Aristotele, ut ex thesauro regali mandes nobis auri
+            <lb/>talenta mille, ut tollant illud sacerdotes Egypti, qui serviunt
+            <lb/>in templo, in quo conditurum est corpus meum.
+            <lb/><pb n="124"/>
+            <lb/>Quia et in vita mea cogitavi, quis recturus sit vos post
+            <lb/>meam mortem, custos corporis mei et gubernator vestri
+            <lb/>Ptolomeus erit.
+            <lb/>Non sit in oblivione testamentum meum, quia dico
+            <lb/>et dispono hoc: Quod si Roxani, uxor mea, genuerit ex
+            <lb/>me filium masculum, erit vester rex et inponite illi nomen,
+            <lb/>quäle vobis comparuerit; quod si filiam femina genuerit,
+            <lb/>eligant sibi Macedones regem, qualem voluerint. Arideus,
+            <lb/>filius Filippi, sit princeps in Arida terra; Simeon notarius
+            <lb/>sit princeps Cappadoci[a]e et Peflagoni[a]e; Niciot[a]e sint
+            <lb/>liberi et eligant sibi seniorem, qualem voluerint; Lici[a]e et
+            <lb/>Pamfili[a]e atque Frigi[a]e sit princeps Antigonus; Gari et
+            <lb/>Casandro teneant usque ad fluvium, qui dicitur Sol; Antipater
+            <lb/>Giliciam; Siriam magnam Pithoni; Babiloniam Seleucio(n);
+            <lb/>Fenicis et Surian Meneagro; Egyptum Ptolomeo;
+            <lb/>detur ei uxor Cleopatra et sit princeps super omnes satrapas
+            <lb/>Babiloni[a]e et usque Bactriam”. Quando autem hoc
+            <lb/>scripsit Alexander, facta sunt tonitrua et fulgora horribilia
+            <lb/>et contremuit totus hostis.
+          </p>
+        </div>
+        <div type="par" n="27">
+          <p>
+            <lb/>Venerunt inde ad fluvium, qui dicitur Titan;
+            <lb/>obviaverunt ibi homines terr[a]e illius ferentes ei elefantos
+            <lb/>quinque milia et armatos currus centum milia.
+            <lb/> Aristotelis scripsit Alexandro regi ita: “Regi Alexandro
+            <lb/> Aristotelis gaudium. Obstupesco et toto desiderio
+            <lb/>opto [invenire] laudem, quam tibi referam, testes sint
+            <lb/>mihi deus luppiter et deus Posidon, quia ex precipuis et
+            <lb/><pb n="125"/>  
+            <lb/>  preclaris causis sis dignus. Quapropter inmensas diis referimus
+            <lb/>grates, qui tantas victorias ac talem virtutem tribuerunt
+            <lb/>tibi, et quia omnes victus es, te autem nullus vicit
+            <lb/>nec apprehendere potuit. Cum autem audissemus, quod
+            <lb/>cecidisses in maximis angustiis hiemalibus et estibus, et 
+            <lb/> sicut diximus, ammirabilis est omnis operatio tua; beati
+            <lb/>principes, qui obaudierunt tibi et adiuvaverunt tibi; Scith[a]e
+            <lb/>et Ethiopes optemperaverunt tibi; tu autem, rex, equalis
+            <lb/>es diis”.
+            <lb/>Deinde perrexit Babiloniam. Exierunt Babilonii et
+            <lb/>magno honore honoraverunt eum. Statim fecit offertionem
+            <lb/>diis.
+          </p>
+        </div>
+        <div type="par" n="27.II. 1">
+          <p>
+            <lb/>Et scripsit epistolam matri suae: “Olimpiadi
+            <lb/>dilect[a]ematrigaudium. Quantum fecimus a principio usque 
+            <lb/>dum venissemus Asiam, significatum est tibi. Iterum 
+            <lb/>notum sit tibi, quantum fecimus inantea. A Babilonia cepi
+            <lb/>ire coadunato populo meo numero centum milia. 
+          </p>
+        </div>
+            <div type="par" n="2">
+              <p>
+                <lb/>Venimus ad columnas Eraclii. Invenimus columnas
+                <lb/>duas, unam auream et aliam argenteam, habentem in
+                <lb/>longitudine cubita duodecim et in latitudine cubita duo. 20
+                <lb/>Perforantes eas invenimus eas ex auro. Penituit me, quod
+                <lb/>perforavi eas, et clausi foramen illarum et posui ibi aurum
+                <lb/>pensante solidos mille quingenti.
+              </p>
+            </div>
+                <div type="par" n="3">
+                  <p>
+                    <lb/> Movimus inde et ingressi sumus desertum; invenimus
+                    <lb/>loca frigida atque obscura, ut pene non agnosceremus 
+                    <lb/>nos. Et exinde iteravimus Septem dies et venimus ad
+                    <lb/>fluvium calidum invenimusque ibi mulieres Amazonas
+                    <lb/>speciosas nimis portantes [hjorrida vestimenta, tenentes
+                    <lb/>argentea arma in manibus et equitantes. [A]es et ferrum non
+                    <lb/><pb n="126"/>   
+                    <lb/> invenietur ibi. lungentes non in venientur ibi. lungentes
+                    <lb/>nos ad ipsum fluvium minime transire potuimus, eo quod
+                    <lb/>esset altitudo et latitudo illius magna valde; plenusquo
+                    <lb/>erat reptilibus et bestiis magnis valde.
+                  </p>
+                </div>
+        <div type="par" n="4">
+          <p>
+            <lb/>Abinde venimus ad mare rubrum. Et erat ibi mons
+            <lb/>altus; ascendimus eum et quasi essemus in celo.
+          </p>
+        </div>
+        <div type="par" n="5">
+          <p>
+            <lb/> Cogitavi cum amicis meis, ut instruerem tale ingenium,
+            <lb/>quatenus ascenderem caelum et viderem, si est
+            <lb/>hoc caelum, quod videmus. Preparavi ingenium, ubi sederem, 
+            <lb/>et apprehendi grifas atque ligui eas cum catenis, et
+            <lb/>posui vectes ante eos et in summitate eorum cibaria illorum
+            <lb/>et ceperunt ascendere celum. Divina quidem virtus obumbrans
+            <lb/>eos deiecit ad terram longius ab exercitu meo iter
+            <lb/>dierum decem in loco campestri et nullam lesionem sustinui
+            <lb/> in ipsis cancellis ferreis. Tantam altitudinem ascendi, ut
+            <lb/> sicut area videbatur esse terra sub me. Mare autem ita
+            <lb/>videbatur mihi sicut draco girans ea et cum forti angustia
+            <lb/>iun[c]tus sum militibus meis. Videntes me exercitus meus
+            <lb/>acclamaverunt laudantes me.
+          </p>
+        </div>
+        <div type="par" n="6">
+          <p>
+            <lb/>Venit iterum in cor meum, ut mensurarem fundum
+            <lb/>maris. Feci venire astrologos et geometricos precipique
+            <lb/>illis, ut construerent mihi vasculum, in quo valerem descendere
+            <lb/>in profundum maris et perquirere ammirabiles
+            <lb/>bestias, quae ibi habitant: “Nisi tali modo: faciamus
+            <lb/>doleum olovitreum et ligetur catenis et regant eum fortissimi
+            <lb/>milites." Hoc audito (Alexander) praecepi cito talia facere
+            <lb/><pb n="127"/>  
+            <lb/>et tali modo perquisivi profundum maris. Vidi ibi diversas
+            <lb/>figuras piscium atque ex diversis coloribus; vidi ibi
+            <lb/>et alias bestias habentes imagines terrenarum besti[ar]um
+            <lb/>ambulantes per fundum maris quasi quadrupedia. Veniebant
+            <lb/>usque ad me et fugiebant. Vidi ibi et alias ammirabiles 
+            <lb/>causas, quas recitare non possum. Gaude, mi karissima 
+            <lb/>mater”†.
+          </p>
+        </div>
+        <div type="par" n="31b">
+          <p>
+            <lb/> Yolus, quem superius diximus, acquisivit sibi
+            <lb/>socios et confederatus est eis, ut venenum bibere daret Alexandro
+            <lb/>et moreretur. Cum autem sedisset Alexander in lo
+            <lb/>convivio cum principibus ac militibus suis, cepit letari
+            <lb/>atque iocundus esse ultra modum. Yolus autem, capul
+            <lb/>tanti mali, cogitavit in fiala porrigere venenum Alexandro,
+            <lb/>exspectavit, qua hora hoc faceret. In medio autem convivio
+            <lb/>factus est [h]ilaris et cepit amphus atque amplius 
+            <lb/>letari. Et dum loqueretur militibus suis, subito petiit
+            <lb/>bibere. Yolus, infector tanti mali, porrexit ei venenum et
+            <lb/>dum bibisset, subito clamavit voce magna, quasi lanceam
+            <lb/>dedisset illi aliquis in iecore. Paululum continuit se atque
+            <lb/>sustinuit dolorem et surrexit a convivio et dixit principibus
+            <lb/>suis ac militibus: “Rogo vos, sedete, comedite,
+            <lb/>bibite atque letamini."
+          </p>
+        </div>
+        <div type="par" n="32.I">
+          <p>
+            <lb/>   Illi autem turbati sunt et surrexerunt a mensa
+            <lb/>et quamvis forinsecus steterunt, ut viderent finem. Alexander
+            <lb/>autem voluit vomere, quaesivit pennam, ut mitteret
+            <lb/>eam in guttur suum, ut vomeret. Yolus autem
+            <lb/>invenit pennam ac linivit eam veneno et porrexit illi et misit 
+            <lb/>in guttur suum. Ex qua re coepit eum urgere venenum 
+            <lb/>amplius atque amplius. Cum autem in tali dolore vexaretur
+            <lb/>Alexander, totam noctem duxit insomnem. Alia vero die, 
+            <lb/>cum intellexisset Alexander dolorem suum et vidisset se
+            <lb/><pb n="128"/> 
+            <lb/>positum esse in malo, qui etiam et lingua eius arescebat,
+            <lb/>fecit venire omnes milites suos et cepit monere eos, ut
+            <lb/>pacifice et bene inter se viverent. Cassander vero pergebat
+            <lb/>per homines ipsos, cum quibus coniurationem fecerat pro
+            <lb/>interitu Alexandri, confortans eos ac dicens: “Scitote,
+            <lb/>quia male habet Alexander” Et expectabant adventum
+            <lb/>Yoli, ut intellegerent mortem Alexandri.
+          </p>
+        </div>
+        <div type="par" n="2">
+          <p>
+            <lb/>Facta vero [h]ora noctis praecepit omnibus exire
+            <lb/>de cubiculo suo, pariter et Roxani, uxorem suam. Cum autem
+            <lb/>exissent omnes, precepit cuidam familiari suo, ut aperiret
+            <lb/>regiam, quae erat super descensum fluvii Eufraten, et nemo
+            <lb/>stetit ibi. Erexit se media nocte de stratu suo et extinxit
+            <lb/>lucernam et, quia non valebat erectus ire, manibus pedibusque
+            <lb/>per terram cepit pergere ad ipsum fluvium, ut dimergeretur 
+            <lb/>in eo et tolleret eum reuma ipsius fluvii. Abiens
+            <lb/>autem prope fluvium volvens caput suum vidit Roxani
+            <lb/>uxorem suam sequentem se cursu validissimo. Tunc enim
+            <lb/>illa vigilabat et vidit eum, quando exivit. Adproximans
+            <lb/>illi eiecit se super eum amplexans atque dicens: “Heu me
+            <lb/>miseram, dimittis me, Alexander, et vadis temed ipsum
+            <lb/>occidere." Cui ille: “O Roxani, rogo te, ut non sciat aliquis
+            <lb/>finem meum, quamvis non fuisses digna gaudere mecum.”
+            <lb/>Quamvis reduxit eum ad lectum suum dicens illi: “Si
+            <lb/>finis tua venit, ordina primum de nobis."
+          </p>
+        </div>
+        <div type="par" n="3">
+          <p>
+            <lb/>  Statim fecit venire notarium et praecepit scribere
+            <lb/>testamentum. Tunc erat ibi quidam homo Perdica nomine;
+            <lb/>vidit, quia moreretur Alexander. Cogitavit in corde suo,
+            <lb/>quod Ptolomeo dimitteret regnum, tradens illi in coniugium,
+            <lb/><pb n="129"/> 
+            <lb/>Olimpiadem matrem suam, quae vidua est. Abiit
+            <lb/>et dixit ei: “Si facturus fueris rex in regno Alexandri,
+            <lb/>quid mihi bene facturus es?" At ille dixit: ”Facio," dans
+            <lb/>illi sacramentum.
+          </p>
+        </div>
+        <div type="par" n="4">
+          <p>
+            <lb/>Diffamatum est per cunctum populum mors Alexandri.
+            <lb/>Presentaliter erexerunt se cuncti Macedones et
+            <lb/> ceperunt vociferari dicentes: “Scitote, quia omnes occidemus,
+            <lb/>si non monstratis nobis seniorem nostrum”. Ille
+            <lb/>autem in stratu suo, in quo iacebat, audivit turbationem
+            <lb/>eorum, interrogavit, quid hoc esset. Illi autem, qui erant locum
+            <lb/>eo, dixerunt: “Congregati omnes Macedones cum 
+            <lb/>  armis volunt nos occidere dicentes: Ostendite nobis
+            <lb/> seniorem nostrum." Quid fecit Alexander ? Praecepit
+            <lb/>  militibus suis, ut tollerent eum cum ipso lecto et ponerent
+            <lb/>eum in eminentiore et spatioso loco, ut posset ab omnibus 
+            <lb/>videri. Et tunc fecit introire omnes ante se cum uno vestimento.
+            <lb/>Introierunt per unam partem et exierunt per
+            <lb/>aliam, unusquisque osculans eum, suspirans ille fortiter.
+            <lb/>Fletus ingens ac ploratus magnus erat in eo loco quasi
+            <lb/>tonitruus. Credo interim, quia non soli homines ploraverunt 
+            <lb/>ibi, sed etiam pro tam magno rege sol tristatus est. Quidam
+            <lb/>Macedonas, Peleucos nomine, manens in simplicitate sua
+            <lb/>stans prope lectum Alexandri dixit illi: “Alexander, Filippus,
+            <lb/>pater vester, bene gubernavit regnum, quod tenuit;
+            <lb/> sed bonitates tuae quis estimare poterit ?" Tunc erexit 
+            <lb/>se Alexander et sedit. Percuciens pectus suum cepit flere
+            <lb/>amariter et voce magna lingua Macedonica coepit dicere:
+            <lb/>“Heu me, Alexander moritur et Macedonia minuetur."
+            <lb/> Tunc Macedones, qui astabant: “Melius fuerat nobis
+            <lb/> omnibus mori tecum, quia post mortem tuam regnum 
+            <lb/><pb n="130"/>
+            <lb/> Macedoniae non stabil. V[a]e nobis, ubi nos dimittis." Alexander
+            <lb/>sepius suspirans et plorans dixit: “O Macedones,
+            <lb/>nomen vestrum amodo super barbaros non dominabitur”.
+          </p>
+        </div>
+        <div type="par" n="34">
+          <p>
+            <lb/>Tunc direxit Athena[m] in templum Apollinis peplon,
+            <lb/> id est trabe[a]m auream, et auream sedem. Similiter et
+            <lb/> Omnibus templis direxit. lussit afferri mei de nisiotia
+            <lb/>terra et praecepit, ut post mortem illius (ut) ex eo ungueretur
+            <lb/> corpus eins, et murram terrae Trocloditicae. Haec duae
+            <lb/> causae incorrupta servant corpora mortuorum. Cum autem
+            <lb/>   mortuus fuisset, posuerunt eum in curru suo portantes
+            <lb/>  eum a Babilonia usque ad Alexandriam. Tunc Ptolomeus
+            <lb/> pergebat ante currum suum clara voce plorando: “O fortissime
+            <lb/>Alexander, non occidisti tantos in vita tua, quantos
+            <lb/>occidis post mortem tuam.''
+          </p>
+        </div>
+        <div type="par" n="35">
+          <p>
+            <lb/>Fuerunt anni vit[a]e illius triginta tres ac decem
+            <lb/>et octo annis cepit committere bellum. Septem itaque
+            <lb/>annos pugnavit acriter, octo annos quievit et in [h]ilaritate
+            <lb/>et iocunditate vixit subiugans sibi gentes barbarorum
+            <lb/>viginti Septem. Fabricavit civitates duodecim, quae usque
+            <lb/>[h]actenus habitantur. Natus est mense Tinbia primus,
+            <lb/><pb n="131"/>
+            <lb/> obiit mense Farmuthi ingrediente die quarta. Milites 
+            <lb/>itaque sui habuerunt post mortem eius maximam tristitiam.
+            <lb/>Talis interim fuit vita magni Alexandri regis.
+            <lb/>Civitates itaque, quas fabricavit, haec sunt: Prima
+            <lb/>autem Alexandria, quae dicitur Iprosoritas, secunda 
+            <lb/>Alexandria, quae dicitur Yepiporum, tercia Alexandria, 
+            <lb/>quae dicitur Yepibucefalon, quarta Alexandria, quae dicitur
+            <lb/>Ycratisti, quinta Alexandria, quae dicitur Yaranicon, sexta
+            <lb/>Alexandria, quae dicitur Scithia, septima Alexandria, quae
+            <lb/>dicitur sub fluvio Tigris, octava Alexandria, quae dicitur 
+            <lb/>Babilonia, nona Alexandria, quae dicitur apud Troadam,
+            <lb/>decima Alexandria, quae dicitur Masateugas, undecima
+            <lb/>Alexandria, quae dicitur Iprosxant, duodecima Alexandria,
+            <lb/>quae dicitur Egyptus.
+          </p>
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

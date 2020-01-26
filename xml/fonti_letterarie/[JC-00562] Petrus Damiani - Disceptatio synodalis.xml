@@ -1,0 +1,956 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Disceptatio synodalis</title>
+				<author>Petrus Damiani</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>L. De Heinemann</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7296" unit="words">Parole: 7296</measure>
+				<measure quantity="45759" unit="characters_without_spaces">Caratteri (spazi esclusi): 45759</measure>
+				<measure quantity="52353" unit="characters_witht_spaces">Caratteri (spazi inclusi): 52353</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2003-06-19">19/06/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: Parole: 7500&#13;
+Caratteri: 46299&#13;
+LAB</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Petri Damiani Disceptatio synodalis</title>
+						<editor>L. De Heinemann</editor>
+					</analytic>
+					<monogr>
+						<title level="m">Monumenta Germaniae Historica, Libelli de lite imperatorum et pontificum saeculis XI et XII conscripti, tomus I</title>
+						<imprint>
+							<pubPlace>Hannover</pubPlace>
+							<date>1891</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, Libelli de lite imperatorum et pontificum</title>
+						<biblScope unit="volume">1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok. Per la parte in cui parlano alternandosi il Regius advocatus e il Defensor romanae aecclaesiae ho usato gli elementi &lt;sp&gt; e &lt;speaker&gt;, spero nel modo giusto...</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="77"/>
+		<div>
+			<head><lb/>DISCEPTATIO SINODALIS INTER REGIS ADVOCATUM ET
+			<lb/>ROMANAE AECCLESIAE DEFENSOREM.</head>
+			<p><lb/>Sed ad haec gloriaris et iactas: "Rex me et imperatrix mater elegit, ad hunc
+				<lb/>apicem me regia celsitudo provexit". Sed cum hinc aula regia suum tueatur electum,
+				<lb/>illinc Romana aecclesia proprium defendat antistitem, iam in solio constitutum, dignum
+				<lb/>est, ut sanctorum atque prudentium sacerdotum multitudo conveniat et hanc quaestionem
+				<lb/>ventilans sub canonici iuris auctoritate discernat. Et quoniam in proximo, ut
+				<lb/>speramus, fiet hinc Osborgense concilium, hic iam eiusdem concilii constituamus
+				<lb/>velut in quadam tabellae pictura preludium. Iuxta visionem ergo Danihelis throni
+				<lb/>sint positi, iudicium sedeat, libri aperiantur, et solutionis indiga quaestio in medium
+				<lb/>deducatur. Hinc itaque Romanae defensor aecclesiae suas allegationes inferat, illinc advocatus
+				<lb/>regius propriae partis argumenta depromat. Taceat Parma cum suo heresiarcha,
+				<lb/>advocatio tantum regia et Romana invicem obloquatur aecclesia. Sanctorum
+				<lb/>vero sacerdotum erecti sint animi, ut et quae utrimque dicenda sunt conferant et
+				<lb/>peroratae causae iudicialis sententiae calculum ponant. Age igitur, defensor apostolicae
+			<lb/>sedis incipiat, deinde regius advocatus quae sibi videbuntur obtendat.</p>
+		</div>
+		<div>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Cum beatitudo vestra, venerabiles patres, super apostolicae sedis negotio disputat,
+					<pb n="78"/>
+					<lb/>ad cunctas aecclesias pertinere, quod versatur in manibus, non ignorat. Hac enim
+					<lb/>stante, stant reliquae. Sin autem haec, quae omnium fundamentum est et basis, obruitur,
+					<lb/>ceterarum quoque status necesse est collabatur. Omnes autem, sive patriarchivi
+					<lb/>cuiuslibet apicem sive metropoleon primatus aut episcopatuum cathedras vel aecclesiarum
+					<lb/>cuiuscumque ordinis dignitates sive rex sive imperator sive cuiuslibet conditionis
+					<lb/>homo purus instituit et, prout voluntas aut facultas tulit, specialium sibi prerogativarum
+					<lb/>iura prefixit. Romanam autem aecclesiam solus ille fundavit et super petram
+					<lb/>fidei mox nascentis erexit, qui beato vitae aeternae clavigero terreni simul et caelestis
+					<lb/>imperii iura commisit. Non ergo quaelibet terrena sententia, sed illud verbum, per
+					<lb/>quod constructum est caelum et terra, per quod denique omnia condita sunt elementa,
+					<lb/>Romanam fundavit aecclesiam. Illius certe privilegio fungitur, illius auctoritate fulcitur.
+					<lb/>Unde non dubium, quia quisquis cuilibet aecclesiae ius suum detrahit, iniustitiam
+					<lb/>facit; qui autem Romanae aecclesiae privilegium ab ipso summo omnium aecclesiarum
+					<lb/>capite traditum auferre conatur, hic procul dubio in heresim labitur; et cum ille notetur
+					<lb/>iniustus, hic est [procul dubio] dicendus hereticus. Fidem quippe violat, qui adversus
+					<lb/>illam agit, quae mater est fidei, et illi contumax invenitur, qui eam cunctis aecclesiis pretulisse
+					<lb/>cognoscitur. Cum haec igitur vestra sanctitas indubitanter agnoscat, vos, qui
+					<lb/>non quilibet, sed nobiliores et egregii estis filii Romanae aecclesiae, pietatis viscera
+					<lb/>circa matrem vestram compatientes ostendite et, utrum destrui debeat, sibimet eligendo
+					<lb/>pontificem, iudicate. Mirum quippe est, si quod minoribus aecclesiis canonicus vigor
+				<lb/>attribuit, illi soli, quae caput est omnium, non permisit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Prolixa declamatio dedit attentionem, benivolentiam atque docilitatem, et hoc
+					<lb/>potius iuxta consuetudinem fori iudicialis quam secundum regulam concilii sinodalis,
+					<lb/>ubi scilicet non magnopere curare debemus elucubratae locutionis urbanitatem, sed
+					<lb/>vivae potius sententiae puritatem. Ad querelam ergo coram sanctis sacerdotibus deponendam
+					<lb/>sufficiat nobis dicere, quoniam inthronizastis papam sine consensu domini
+				<lb/>nostri regis, ad iniuriam scilicet atque contemptum regiae maiestatis.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Ordinationem papae factam diffiteri nec possumus nec debemus, regis autem iniuriam
+					<lb/>modis omnibus propulsamus. Sed videamus primo, si placet, utrum papa sine
+				<lb/>rege potuerit fieri, et sic postmodum de regis disputemus iniuria.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Certe liquido novimus, quia illi debent pontificem, cum ordinatur, eligere, quos
+					<lb/>sibi, postquam ordinatus fuerit, canonica decernit auctoritas oboedire. Papae vero, quia
+					<lb/>universalis est pontifex, non modo Romanus populus, sed et Romanus imperator, qui
+					<lb/>caput est populi, obedientiam debet. Censendumne ergo est, ut papam sine capite
+					<lb/>suo populus eligat, et ei, quem non elegit, imperator oboediat? Constat ergo, quia,
+				<lb/>nisi Romani regis assensus accesserit, Romani pontificis electio perfecta non erit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Perhibendum est itaque iuxta vestrae disputationis articulum, quia neque Stephanus
+					<lb/>neque Sixtus neque Cornelius, non denique Clemens, non Silvester, non ipse
+					<lb/>beatus Petrus apostolus papali nomine digni sunt, quia ab imperatoribus eorundem
+				<lb/>temporum electi non sunt.</p>
+			</sp>
+			<pb n="79"/>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Gentiles reges non sunt adhibendi ad huius, de qua loquimur, electionis exemplum,
+					<lb/>qui quoniam christianam ignorabant fidem, christianorum non poterant ordinare pontificem.
+				<lb/>Ceterum christiani principes semper Romanos elegere pontifices.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Qui mentitur in communi colloquio, mendax dicitur, qui autem in presentia
+					<lb/>venerabilium sacerdotum falsa protulerit, sacrilegii procul dubio crimen incurrit. Dixisti
+					<lb/>christianos principes Romanos semper elegisse pontifices. Percurre mecum aecclesiasticae
+					<lb/>antiquitatis hystorias, Romanorum presulum catalogum studiose disquire, et
+					<lb/>cum perpaucis inveneris in electione sua regium accessisse consensum, confitere te perspicuum
+					<lb/>protulisse mendacium. Quis enim rex Antonii filium Damasum Hispanensem?
+					<lb/>quis Innocentium, Innocentii filium, Albanensem? quis denique Zosimum Grecum,
+					<lb/>Ebramii filium, elegit? Quis preterea Leonatum, Quintiani filium, de Tuscia?
+					<lb/>quis Hylarium, Crispini filium, de Sardinia? quis Caelestinum, Prisci Romani civis
+					<lb/>filium? quis Bonifacium, quis Anastasium, aeque Romanos? Denique multos attexerem,
+					<lb/>nisi fastidium generarem. Sed ne me putes non habentem copiam ab eorum
+					<lb/>enumeratione deficere, quis imperatorum elegit Simplicium Tiburtinum, Felicem
+					<lb/>natione Romanum? quis Gelasium Afrum, Valerii filium? quis Simachum, Sardiniae
+					<lb/>provinciae filium Fortunati? quis Hormisdam, filium Iusti, natione Campanum, Iohannem
+					<lb/>origine Tuscum, Felicem natione Samnitem, Bonifacium, Sigibaldi filium,
+					<lb/>Mercurium Proiecti, Agapitum Gordiani, natura Romanos? Quis enim regum
+					<lb/>electioni cuiuslibet istorum suum legitur adhibuisse consensum, cum eorum temporibus
+					<lb/>Romanae reipublicae christiani principes prefuisse legantur? Adest Valentinianus
+					<lb/>senior, Valens, frater eius, qui occisus est in pugna Gothica prope Adrianopolim;
+					<lb/>Gratianus, qui a Maximo tyranno peremptus est; Valentinianus iunior, qui necatus est
+					<lb/>a comite suo Bienna; deinde Archadius, Honorius, Theodosius; Iohannes ille, qui apud
+					<lb/>Ravennam occisus est; Valentinianus tertius, qui in campo Marcio est peremptus, Marcianus,
+					<lb/>Leo, Maioranus, Severus, Anthemius, Olibrius, Glicerius, Zeno, Nepos ille, qui
+					<lb/>in villa sua occisus est iuxta Salonas, Augustulus, Anastasius, Iustinus et ceteri
+					<lb/>Romani imperatores, quos vitandi laciniosi stili causa pretereo. Da mihi ergo eorum,
+					<lb/>quos enumeravimus, aliquem vel presulem requirentem vel principem assensum in
+					<lb/>electione prebentem, et ego do manum ac te perhibeo laureandum. Alioquin, si dare
+					<lb/>non poteris, in hoc te convictum per omnia necesse est fatearis. Quod autem beato
+					<lb/>Gregorio legitur adhibuisse Mauritius imperator adsensum, et perpauci alii principes
+				<lb/>aliis promovendis, hoc dictavit perturbatio temporum et tempestas horrenda bellorum.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Si mentiri est contra mentem loqui, temerarium est me mendacii tam procaciter
+					<lb/>argui, qui non utique falsum, sed verum me dixisse putavi. Tamen adsentior et in
+				<lb/>hoc superatum me esse non abnuo.</p>
+			</sp>
+			<pb n="80"/>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Ut autem id ipsum adhuc manifestius pateat, et te super hac dimicandi materia
+					<lb/>perdidisse tibimet ipsi clarius innotescat, lege Constantini imperatoris edictum, ubi sedis
+					<lb/>apostolicae constituit super omnes in orbe terrarum aecclesias principatum. Nam postquam
+					<lb/>supra corpus beati Petri basilicam fundator erexit, postquam patriarchium Lateranense
+					<lb/>in beati Salvatoris honore construxit, mox per imperialis rescripti seriem
+					<lb/>Romanae aecclesiae constituit dignitatem. Ubi nimirum beato Silvestro suisque successoribus
+					<lb/>obtulit, ut regali more et aurea corona plecterentur in capite et ceteras regii
+					<lb/>cultus infulas usurparent. Verum beatus Silvester ornamenta, quae sacerdotali congruere
+					<lb/>iudicabat officio, in proprios usus assumpsit, coronam vero vel cetera, quae
+					<lb/>magis ambiciosa quam mistica videbantur, omisit. Cui etiam Constantinus Lateranense
+					<lb/>palatium, quod eotenus aula regalis extiterat, perpetuo iure concessit, regnum
+					<lb/>Italiae iudicandum tradidit. [Nam et ipsius regis haec verba sunt: <hi rend="italic">Unde congruum</hi> ,
+					<lb/><hi rend="italic">inquit</hi>, <hi rend="italic">prospeximus, nostrum imperium et regni potestatem orientalibus transferri ac
+					<lb/>transmutari regionibus, et in Bizantia provincia in optimo loco nomini nostro civitatem
+					<lb/>aedificari et nostrum illic constitui imperium, quoniam, ubi principatus sacerdotum
+					<lb/>et christianae religionis caput ab imperatore caelesti constitutum est, iustum non est,
+					<lb/>ut illic imperator terrenus habeat potestatem</hi>. Audisti, quia terrenus imperator non
+					<lb/>habet in Romana accelesia potestatem, quomodo ergo sine illius arbitrio, qui ibi potestatem
+					<lb/>non habet, non licet eligi sacerdotem?] Ipse vero Constantinopolim velut in
+					<lb/>secunda Roma perpetuo regnaturus abscessit. Longe vero post Theodosius imperator
+					<lb/>beati Pauli basilicam coepit. Quo defuncto, filius eius Honorius eandem basilicam ad
+					<lb/>calcem usque perduxit. Hi quoque Romanae aecclesiae privilegium nichilominus firmaverunt.
+					<lb/>Quomodo ergo prerogativam sibi in Romani pontificis electione relinquerent,
+					<lb/>qui Romanam aecclesiam nequaquam sibi studuerunt subdere, sed preferre, non precipere
+				<lb/>sed parere, non precellere, sed subesse?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Adsentior plane et ratum duco, quod loqueris. Sed esto, quod nunc regia celsitudo
+					<lb/>ex antiquorum consuetudine principum hoc sibimet allegare non possit. Verumtamen
+					<lb/>tu hoc negare non potes, quod pater domini mei regis piae memoriae Heinricus
+					<lb/>imperator factus est patricius Romanorum, a quibus etiam accepit in electione semper
+					<lb/>ordinandi pontificis principatum. Huc accedit, quod prestantius est, quia Nicolaus papa
+					<lb/>hoc domino meo regi privilegium, quod ex paterno iam iure successerat, prebuit et
+					<lb/>per sinodalis insuper decreti paginam confirmavit. Cum ergo privatus quisque a suo
+					<lb/>decidere iure non debeat, donec ventilato negotio iudicialis in eum sententia promulgetur:
+					<lb/>quo pacto maiestas regia prerogativam hanc suae dignitatis amisit, quam et ex
+					<lb/>apostolicae sedis liberalitate percepit, et ex paterno imperialis fastigii iure successit?
+					<lb/>Quo, inquam, modo in Romana aecclesia dignitatis adeptae locum sine iudicio perdidit,
+				<lb/>qui Romanam aecclesiam non offendit?</p>
+			</sp>
+			<pb n="81"/>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Privilegium invictissimo regi nostro ipsi quoque defendimus, et ut semper plenum
+					<lb/>illibatumque possideat, vehementer optamus. Porro autem Romana aecclesia multo
+					<lb/>nobilius atque sublimius quam mater carnis mater est regis. Illa siquidem peperit,
+					<lb/>ut per eius traducem revertatur in pulverem, ista genuit, ut Christi sine fine regnantis
+					<lb/>efficiat coheredem. Et cuncti liquido novimus, quia rex, licet egregiae indolis, tamen
+					<lb/>adhuc puer est. Quid ergo mali Romana fecit aecclesia, si filio suo, cum adhuc
+					<lb/>impubes esset, cum adhuc tutoris egeret, ipsa tutoris officium subiit et
+					<lb/>ius, quod illi competebat, implevit? [Quis enim nesciat, quia sacerdotem eligere
+					<lb/>puer ignorat?] Sepe mater iudicis tribunal irrumpit, testes adsciscit, notarios
+					<lb/>convocat, sicque per adstipulationes et rata, insuper et apicum monimenta omnia
+					<lb/>bonorum suorum filio iura delegat; interim tamen, usque dum ille ad iuvenilis aetatis
+					<lb/>incrementa perveniat et rationis capax fiat, illa cuncta dispensat, omnia ordinat, sicque
+					<lb/>quod iam alieni iuris est patrimonium ad propriae disponit provisionis arbitrium. Nunquid
+					<lb/>ob hoc dicenda est mulier illa filio suo concessa subtrahere? Immo verius perhibetur,
+					<lb/>ut puto, pietatis studio deservire, quia, quae rudis adhuc filius dilapidare ac
+					<lb/>prodigere poterat, haec illa sibimet apte disposita, caute retenta et rationabiliter ordinata
+					<lb/>conservat. Carnalis ergo mater adiuvat filium in rebus terrenis, et mater aecclesia
+					<lb/>filio suo regi prebere non debet auxilium in spiritalibus donis? Obmutescat ergo
+					<lb/>plectenda versutia, quae scilicet hoc damnat, quod predicare debuerat; illi crimen
+					<lb/>imponere nititur, quae pro benefactis gloriae titulum promeretur. Huc accedit, quia
+					<lb/>nonnumquam ob varietatem temporum sepe mutandus est ordo causarum. Tunc enim,
+					<lb/>quando pontificem Romana sibi prefecit aecclesia, tantae simultatis fomes in seditionem
+					<lb/>cives accenderat, tantus livor et odium tumultuantis populi corda turbaverat, ut de tam
+					<lb/>longinquis terrarum spatiis nequaquam regiae clementiae prestolari possemus oraculum.
+					<lb/>Nisi enim quantocius ordinaretur antistes, perniciosus in populo gladius mutuis vulneribus
+				<lb/>deseviret, et non parva Romanorum civium strages fieret.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Optende quod vis, argumentare quod placet, dummodo constet, quia nullatenus
+				<lb/>debuit immutari, quod papa concessit, quod decreto constituit, quod scriptione firmavit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Quid mirum, si hominis carnis adhuc fragilitate circumdati statuta mutentur,
+					<lb/>quando etiam omnipotens Deus, qui videlicet omnia, quae futura sunt, novit, ea quoque,
+					<lb/>quae a semet ipso constituuntur, inmutat? Nam ex eo, quod promittit, aliquando
+				<lb/>aliquid minuit vel etiam totum subtrahit, aliquando mala minatur et non infligit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Ea, quae proposuisti, scripturae declarentur exemplis. Quid est ergo quod Deus
+				<lb/>umquam promisit et minuit?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Si non excidit, reminisci potes, quia dixit Dominus ad Noe: <hi rend="italic">Non permanebit</hi>
+					<lb/>spiritus meus in homine in aeternum, quia caro est, eruntque dies illius centum viginti
+					<pb n="82"/>
+					<lb/><hi rend="italic">annorum</hi>. Sed cum scriptura commemoret quingentorum tunc annorum extitisse Noe,
+					<lb/>quando haec sibi Dominus loquebatur, sexcentorum vero tunc iam esse, cum cataclismus
+					<lb/>erupit, liquido patet viginti annos de prescripti numeri spatio fuisse subtractos.
+					<lb/>Vitae itaque spatium, quod humano generi Deus promisit, imminuit, quia perversitatis
+					<lb/>eorum reatus excrevit. Iudae quoque per os patriarchae Iacob promisit Spiritus sanctus,
+					<lb/>dicens: <hi rend="italic">Non auferetur sceptrum de Iuda, et dux de femore eius, donec veniat qui mittendus
+					<lb/>est</hi>. Et tamen nec temporibus iudicum legimus viros de tribu Iuda semper
+					<lb/>super Israel tenuisse ducatum, nec reges ex eadem tribu principatum tenuisse usque
+					<lb/>ad Christi reperiuntur adventum. Constat ergo, quia sepe Deus omnipotens, quod
+				<lb/>homini promisit, imminuit, quoniam homo, quod Deo debuerat, non implevit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Doce etiam, ubi Deus promisit bonum aliquid et efficaciter non implevit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Recordare, quia dicit Dominus ad Iosiam regem Iuda: <hi rend="italic">Pro e o</hi>, inquit, <hi rend="italic">quod vidisti
+					<lb/>verba voluminis, et perterritum est cor tuum, et humiliatus es coram Domino, auditis
+					<lb/>sermonibus contra locum istum et habitatores eius, et scidisti vestimenta tua et flevisti
+					<lb/>coram me: idcirco colligam te ad patres tuos, et colligeris ad sepulchrum tuum in
+					<lb/>pace</hi>. Et tamen paulo post scriptura dicit: <hi rend="italic">In diebus eius ascendit Pharao Necho,
+					<lb/>rex Egypti, contra regem Assiriorum ad flumen Eufraten, et abiit Iosias in occursum
+					<lb/>eius et occisus est in Maggedo, cum vidisset eum</hi>. Ad Sedechiam quoque regem Iuda
+					<lb/>per Ieremiam dicitur: <hi rend="italic">Audi verbum Domini, Sedechia rex Iuda: Haec dicit Dominus
+					<lb/>ad te: Non morieris in gladio, sed in pace morieris, et secundum combustiones patrum
+					<lb/>tuorum, regum priorum, qui fuerunt ante te, sic comburent te et: Ve, domine! Plangent
+					<lb/>te; quia verbum hoc ego locutus sum, dicit Dominus</hi>. Quid nimirum quomodo
+					<lb/>potuerit fieri, qui seriem scrutatur hystoriae, numquam poterit invenire. Nam postquam
+					<lb/>a rege Babilonis semel est captus Babiloniamque translatus ulterius numquam
+					<lb/>legitur ab eius vinculis absolutus. Iusto ergo iudicio subtrahit Deus homini nonnumquam
+				<lb/>bona, quae promisit, cum rebellis homo illius servare mandata contempnit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Prosequere etiam, quomodo Deus, quod minatus est, non infligit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Nemo, qui limen aecclesiae terit, ignorat, quia Ionas ad Niniven a Domino misssus
+					<lb/>exclamavit dicens: <hi rend="italic">Adhuc quadraginta dies, et Ninive subvertetur</hi>. Sed quia
+					<lb/>civitas illa ad Deum toto est corde conversa, nequaquam iuxta minacem Domini sententiam
+					<lb/>excidii est eversione deleta. Cum ergo Deus omnipotens non modo verax, sed
+					<lb/>et ipsa sit veritas, inviolato consilii sui manente proposito, exterioris iudicii sui sepe
+					<lb/>variat ordinem iuxta humani sive probi sive inprobi meriti qualitatem, quatinus et a
+					<lb/>pravitate correctus, quod Deus iuste minatur, evadat, et prolapsus in culpam nullatenus,
+					<lb/>quae pollicetur, bona percipiat. Hinc est, quod per Ieremiam dicit: <hi rend="italic">Bonas facite vias
+					<lb/>vestras et studia vestra et audite vocem domini Dei vestri: et penitebit Dominum
+					<lb/>mali, quod locutus est adversum vos</hi>. Hinc est, quod ad Heli quoque per virum Dei
+					<lb/>Dominus ait: <hi rend="italic">Loquens locutus sum, ut domus tua et domus patris tui ministraret in
+					<lb/>conspectu meo usque in sempiternum. Nunc autem, dicit Dominus, absit hoc a me,
+					<lb/>sed quicumque glorificaverit me, glorificabo eum; qui autem contempnunt me, erunt
+				<lb/>ignobiles</hi>.</p>
+			</sp>
+			<pb n="83"/>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Recte plane cuncta, quae proposueras, perspicuis roborasti testimoniis scripturarum.
+					<lb/>Nunc autem paulisper ad superiora revertere et iuxta tuae sponsionis elogium
+				<lb/>de domini mei regis iniuria rationem redde.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Glorioso regi, nobis eligendo pontificem, absit, ut nos intulissemus iniuriam, cum
+					<lb/>ad hoc nos, sicut superius dictum est, necessitas impulerit, non rapina. Ad hoc, inquam,
+					<lb/>nos invitos attraxit imminens periculum civilis belli, non ledendi vel minuendi
+				<lb/>livor imperii.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Civile bellum obicis, imminens periculum in tuae allegationis defensione pretendis,
+					<lb/>dicatur etiam, si placet, quia caelum rueret, terra subsicivium pateretur. Perge
+					<lb/>adhuc addens, quia pontus aresceret, terra diluvium inundaret. Quid michi omnia
+					<lb/>haec? dum constet, quia, quicquid accidet, nullo pacto sancti papae sententiam debuisti
+					<lb/>infringere, nulla ratione sinodalis decreti mysterium licuit violare. Sicut enim scriptura
+					<lb/>perhibet: <hi rend="italic">Melius est, ut oriatur scandalum, quam ut veritas relinquatur</hi>. Nam
+				<lb/>si hoc bellum timuissent beati martires, fierent procul dubio sanctae militiae desertores.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Non ignoras, quod inter omnes sanctos martires Petrus et Paulus in apostolici
+				<lb/>senatus culmine possident principatum.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Hoc sicut affirmare superfluum, ita negare sacrilegum est.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Eorum sunt nobis tenenda vestigia, eorum forma nostris est actibus imprimenda,
+				<lb/>sub eorum magistra debemus vivere disciplina.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Hoc utique clarum est, perspicuum est. Sed quid a te portenti, quid prestigii
+				<lb/>sub hoc funiculo inductionis alatur, ignoro.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Tolle prestigium, intellege veritatem! Times me tanquam tibi tendiculas substruentem,
+					<lb/>audi Paulum de coapostolo suo Petro veraciter perhibentem: <hi rend="italic">Priusquam
+					<lb/>venirent quidam a Iacobo, cum gentibus edebat; cum autem venissent, subtrahebat se
+					<lb/>et segregabat, timens eos qui ex circumcisione erant</hi>. Cernimus ergo Petrum non rigidum,
+					<lb/>sed discretum. Timebat enim Iudeos, ne per occasionem gentium a fide recederent
+					<lb/>christianorum, et ne perderet gregem creditum, boni pastoris est imitatus exemplum.
+					<lb/>Factum est enim Iudeis tanquam Iudeus, ut Iudeos lucrifaceret. Sic Christus
+					<lb/>apparuit in forma carnis peccati, ut a peccatis hominem liberaret; et cum legem Moysi
+					<lb/>non ambigeret abolendam, consulens tamen adhuc rudibus et infirmis fratribus, tenuit
+					<lb/>ad tempus umbram legis, ut eos quandoque proveheret ad perfecte noscendam plenitudinem
+					<lb/>veritatis. In hoc ergo beatus Petrus discretionis nobis regulam dedit, quatinus
+					<pb n="84"/>
+					<lb/>aliquando, ubi tamen non plurimum noceat, declinemus aliquantulum a tramite rectitudinis,
+				<lb/>ut consulere valeamus infirmis.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Qui dicis quod Petrus aliquando legem [Iudaicam] tenuit, cur non etiam dicis,
+					<lb/>quod in eadem epistola legitur, nimirum quia Paulus eum in faciem reprehendit? <hi rend="italic">In
+					<lb/>faciem</hi>, inquit, <hi rend="italic">ei restiti, quia reprehensibilis erat</hi>. Eique dixit: <hi rend="italic">Si tu, cum sis Iudeus,
+					<lb/>gentiliter et non ludaice vivis, quomodo cogis gentes iudaizare?</hi> Cur ergo illud premisisti,
+				<lb/>istud quare silentio suppressisti?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Quod Petrus egit compassione misericordiae, hoc Paulus arguit pro magisterio
+					<lb/>disciplinae. Ille quod fecit dispensative, ut infirmis tolleret scandalum, hoc iste corripuit,
+					<lb/>ne indiscretus quilibet passim adduceret in exemplum. In Petro discamus, ut
+					<lb/>periculo simus imminente discreti, in Pauli sermonibus instruamur, ut sanis rebus vita
+				<lb/>nostra mire deserviat rectitudini.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Laudo quidem redditam rationem, sed cum duorum apostolorum proposueris magisterium,
+				<lb/>mirum, cur, pretermisso Paulo, solum Petrum adduxeris in exemplum.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Noli, frater, pueriliter currere, immo noli volare, sed perge; pro gravitate quippe
+					<lb/>negotii prolatio est quoque moderanda sermonis. Audi etiam consequenter et Paulum
+					<lb/>discretionis aureae lineam nostris oculis opponentem, eiusdem dispensativae compassionis
+					<lb/>auctorem. Sicut enim apostolicorum Actuum testatur hystoria: <hi rend="italic">Perambulabat
+					<lb/>Paulus Syriam et Cyliciam, confirmans aecclesias, pervenitque in Derben et Listram.
+					<lb/>Et ecce discipulus quidam erat nomine Timotheus, filius mulieris viduae fidelis, patre
+					<lb/>autem gentili</hi>. Hunc ergo, ut ad compendium veniamus, apostolus circumcidit, quoniam
+					<lb/>Iudeos, immo Iudeis, qui in illis erant regionibus, timuit. Cur itaque circumcidit
+					<lb/>fidelem hominem non Iudeum, qui videlicet incircumcisus erat, sed natione gentilem,
+					<lb/>nisi ut discretionis studio deserviret, ne Iudei fideles in scandalum corruentes a fide
+					<lb/>recederent? Hoc etiam nunc ad memoriam redit, quoniam aliquando iuxta morem
+					<lb/>Nazareorum comam ex voto nutrivit, et postquam navigasset in Syriam, in Cenchris
+					<lb/>positus, caput iuxta legis mandata totondit. Refert adhuc Lucas, sacrae scriptor hystoriae:
+					<lb/><hi rend="italic">Cum venissemus</hi>, inquit, <hi rend="italic">Ierusolimam, libenter susceperunt nos fratres</hi>, et sequenti
+					<lb/>die Iacobus et omnes seniores, qui cum eo erant, euangelio illius comprobato, dixerunt
+					<lb/>ei: <hi rend="italic">«Vides frater, quot milia sunt Iudei, qui crediderunt in Christo, et hii omnes
+					<lb/>aemulatores sunt legi. Audierunt autem de te, quod dissensionem doceas a Moyse
+					<lb/>eorum qui per gentes sunt Iudeorum, dicens non debere eos circumcidere flios suos
+					<lb/>neque secundum consuetudinem ingredi. Quid ergo est? Utique oportet convenire multitudinem;
+					<lb/>audient enim te supervenisse. Hoc ergo fac, quod tibi dicimus: Sunt nobis
+					<lb/>viri quattuor votum habentes super se. His assumptis, sanctifica te cum ipsis et impende
+					<lb/>in eos, ut radant capita, et sciant omnes, quia, quae de te audierunt, falsa sunt,
+					<lb/>sed ambulas et ipse custodiens legem». Tunc Paulus, assumptis viris, posteriori die
+					<lb/>purificatus cum illis intravit in templum, annuntians expletionem dierum purificationis,
+					<lb/>donec offerretur pro unoquoque eorum oblatio</hi>. Cur itaque Paulus iuxta ceremonias
+					<lb/>Iudeorum caput rasit, nudipedalia exercuit, sacrificia optulit, et legem destruens,
+					<lb/>legis precepta observavit? Cur, inquam, haec omnia, nisi ut his, qui ex Iudeis
+					<pb n="85"/>
+					<lb/>fideles extiterant, scandalum tolleretur? Formam suscepit egritudinis, ut morbos
+					<lb/>auferret egrotis. Servavit ceremonias legis, de quibus tamen in epistola sua dicit:
+					<lb/><hi rend="italic">Quae mihi fuerunt lucra, facta sunt detrimenta, et propter Christum arbitror velut
+					<lb/>stercora</hi>. Circumcidit hominem, et hoc tamen terribiliter clamat: <hi rend="italic">Dico</hi>, inquit, <hi rend="italic">vobis,</hi>
+					<lb/>quia, si circumcidamini, Christus nichil vobis proderit [ &lt;/I&gt;]. Quod, quaeso, maius peccatum
+					<lb/>esse poterit quam Christum perdere, christianae religionis regulam violare, Iudaicae
+					<lb/>legis ritus inducere, novam euangelii gratiam impugnare? Et tamen haec apostolus
+					<lb/>Paulus in superficie fecisse conspicitur, ne in ipsis novae fidei rudimentis mentes adhuc
+					<lb/>tenerae scandala paterentur. Quantum namque in exterioribus cernitur, Cherintus et
+					<lb/>Ebion nil pene peius inveniuntur egisse quam Paulus. Qui nimirum in Christum credentes,
+					<lb/>propter hoc solum a parentibus anathematizati sunt, quia legis ceremonias Christi
+					<lb/>euangelio miscuerunt, et sic nova confessi sunt, ut vetera non mutarent. Sed ecce, cum
+					<lb/>dicitur, quoniam Iacobus et omnes seniores hoc Paulo consilium dederunt, omnes ergo
+					<lb/>discipuli, quod Paulus fecit, pariter fecerunt. Unum scilicet in hoc habent meritum,
+					<lb/>et qui fecit, et qui faciendi dedere consilium. Si ergo ipsi principes mundi, quorum
+					<lb/>legibus parent non modo regna terrarum, sed ultro etiam celsitudo caelorum, non dubitavere
+					<lb/>perpaucis, qui tunc erant, hominibus in tam periculoso negotio condescendere,
+					<lb/>cur nobis utique parvulis et infra illorum vestigia longe iacentibus non licuit innumerabili
+					<lb/>Romanae urbis multitudini subvenire? Sed quid apostolos loquimur scandalum
+					<lb/>cavisse debilium et noviter conversorum, cum et ipse illorum magister et dominus,
+					<lb/>cuius nimirum omnia saecula substernuntur imperio, ad nostrae imitationis exemplum
+					<lb/>scandalum precaverit Iudeorum? <hi rend="italic">Symon</hi>, inquit, <hi rend="italic">reges terrarum a quibus accipiunt
+					<lb/>tributum, a filiis suis, an ab alienis?</hi> Quo respondente: <hi rend="italic">ab alienis</hi>, presto subiungit:
+					<lb/><hi rend="italic">Ergo liberi sunt filii. Ut autem non scandalizemus eos, vade ad mare, mitte hamum
+					<lb/>et eum piscem, qui prius ascenderit, tolle, et aperto ore eius invenies staterem: illum
+					<lb/>sumens, da eis pro me et te</hi>. Ad molliendum ergo rigorem rectitudinis, ad tenendam
+					<lb/>virtutem discretionis, si tibi Petrus non sufficit ad exemplum, iunge simul et Paulum.
+					<lb/>Quodsi procaci contumaciae nequeunt uterque sufficere, pudeat te ultra Ihesum per
+				<lb/>dicacitatis ineptiam prosilire: <hi rend="italic">Finis enim legis Christus ad iustitiam omni credenti</hi>.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Discretionis virtutem tot scripturarum testimoniis adprobatam improbare non possumus,
+					<lb/>sed absit, ut ulla virtus sit tam sublimis tamve precipua, cuius tenendae studio
+					<lb/>in anathematis baratrum corruere debeamus. Nam cum omne, quod nobis ex divina
+					<lb/>lege precipitur, ad hoc procul dubio tendat, ut nos Creatori nostri societas aeterna
+					<lb/>coniungat: si nos ab eo, quod absit, per maledictionis sententiam contingat abscedere,
+					<lb/>quae virtus, quae discretio, quae, sicut dicitur, pia compassio tam incomparabile damnum
+					<lb/>nobis poterit compensare? Sane [si] propter hoc solum virtus appetitur, ut omnipotentis
+					<lb/>Dei societas acquiratur, qualis iam illa virtus erit, quae nos a divini contubernii societate
+				<lb/>repellat?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Haec cur prosequaris, quia nobis occulta sunt, evidenter expone.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Sinodalis enim decreti pagina, quam cum concilii totius assensu beatus [Nicolaus] papa
+					<lb/>constituit, cui propriae manus articulum indidit, quam tot episcoporum venerandus celebrisque
+					<lb/>conventus subscriptione firmavit, anathematis vinculo iuxta morem carere non potuit.
+					<pb n="86"/>
+					<lb/>Unde vos pro compassione vel condescensione, nescio quam dicitis, furentis populi nequaquam
+					<lb/>vosmet ipsos deberetis tam inenodabilis sententiae nexibus irretire. Ridiculum
+					<lb/>quippe est sic obrutum de voragine marini fluctus eruere, ut ipse compellatur ereptor
+				<lb/>sub undosis procellarum spumantium cumulis remanere.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Cum haec inconsultius loqueris, andabatarum adversum me more confligis, qui
+					<lb/>nimirum, dum clausis semper oculis pugnant, alios quidem vulnerant, sed quomodo semet
+					<lb/>ipsos a vulneribus tueantur, ignorant. Dicis, quia nequaquam debemus in anathema
+					<lb/>corruere, etiamsi per hoc valeamus infirmis fratribus subvenire. Ecce vibrasti gladium,
+					<lb/>temptasti vulnus infligere, sed tibimet ubi clipeum opponeres, non vidisti. Nunquid
+					<lb/>tibi iam de memoria excidit, quod superius protuli, quoniam beatus Paulus in epistola
+					<lb/>sua dicit: <hi rend="italic">Quia, si circumcidamini, Christus vobis nichil proderit?</hi> Et tamen, quod
+					<lb/>tam districte prohibuit, ipse pro karitate fratrum infirmantium, ne scandalum paterentur,
+					<lb/>implevit. Quod enim maius sive deterius poterit quis anathema subire, quam cui
+					<lb/>negatum est Christum pro sui reatus damnatione prodesse? Nam cui Christus non
+					<lb/>prodest, procul dubio anathema est, nichilque est aliud anathema quemlibet fieri, nisi
+					<lb/>a Christi, in quo benedicuntur omnes gentes, societate repelli. Si ergo Paulus hoc
+					<lb/>anathema pro caritate fratrum subire non timuit, immo prorsus evasit, cum non
+					<lb/>qualemcunque hominem, sed christianum utique discipulum circumcidit: tu, quaeso,
+					<lb/>ubi cordis oculos amisisti, qui, quod apostolus fecit, non faciendum esse testaris? Ipse
+				<lb/>enim dicit: <hi rend="italic">Quaecumque scripta sunt, ad nostram doctrinam scripta sunt</hi>. </p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Verisimile est, quia, sicut Paulus coapostolum suum Petrum de iudaizandi rediviva
+					<lb/>usurpatione corripuit, ita nichilominus et in semet ipsum, postquam discipulum
+					<lb/>circumciderat, reprehendit. Nec mihi hoc aliter umquam poterit persuaderi, nisi fortassis
+				<lb/>in eius verbis aliquatenus valeat inveniri.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Ut nullus ambiguitatis nevus in tua mente remaneat, ut nulla cor tuum super
+					<lb/>hoc negotio deinceps caligo confundat, audi quod idem Paulus ad Romanos dicat:
+					<lb/><hi rend="italic">Veritatem dico in Christo, non mentior, testimonium michi perhibente conscientia mea
+					<lb/>in Spiritu sancto, quoniam tristitia est mihi magna, et continuus dolor cordi meo.
+					<lb/>Optabam enim ipse anathema esse a Christo pro fratribus meis, qui sunt cognati mei
+					<lb/>secundum carnem, qui sunt Israhelitae</hi>. Ecce Paulus, cum non sit sicut nos necessitate
+					<lb/>coactus, sponte ac voluntarie desiderat anathema esse pro fratribus: et tu michi proponis
+					<lb/>anathema timendum, ubi me perspicis et inevitabili prorsus necessitate fuisse
+					<lb/>constrictum et caritatis studio, ne tanta fratrum multitudo corrueret, inclinatum? Audi
+					<lb/>etiam, quid Moyses pro populo Israhelitico postulans dicat: <hi rend="italic">Obsecro, Domine, peccavit
+					<lb/>populus iste peccatum magnum, fecerunt sibi deos aureos: aut dimitte eis hanc noxam,
+					<lb/>aut, si non facias, dele me de libro tuo, quem scripsisti</hi>. Quod nimirum tunc pleniter
+					<lb/>fiet, cum reprobis in iudicio dicet: <hi rend="italic">Ite, maledicti, in ignem aeternum</hi>. Ecce hinc Paulus
+					<lb/>optat anathema pro fratribus fieri, ecce illinc Moyses postulat ex Dei libro pro populi,
+					<lb/>quem ducebat, karitate deleri, et sola Romana aecclesia, quae pietatatem et karitatem
+					<lb/>toto terrarum orbe specialiter et principaliter docet, ex imminentibus et iam vibratis
+					<lb/>undique gladiis filios suos, quos cotidie per sacri baptismatis mysterium generat, liberare
+					<lb/>non audet? <hi rend="italic">Maledictus vir</hi>, ait Saul, <hi rend="italic">qui comederit panem usque ad vesperam,
+					<lb/>donec ulciscar me de inimicis meis</hi>. In hoc, sicut legitur, anathema Ionathas cecidit,
+					<pb n="87"/>
+					<lb/>sed eum ab imminenti mortis sententia karitas, qua pro populo strenue dimicaverat,
+					<lb/>liberavit. Vis audire, quid etiam de ipso Ihesu, totius benedictionis auctore, idem
+					<lb/><hi rend="italic">apostolus dicat? [&lt;I&gt;Christus</hi>, inquit, <hi rend="italic">ut nos liberaret a maledicto legis, factus est maledictum</hi>.
+					<lb/>Si ergo ipse auctor benedictionis aeternae, ut nos a vinculo maledictionis absolveret,
+					<lb/>maledictioni non est dedignatus subiacere; si sancti quique vel novi vel veteris
+					<lb/>testamenti, dum sui capitis imitantur exemplum, et infirmis subvenire fratribus in periculis
+					<lb/>concupiscunt et anathematis subire sententiam nullatenus perhorrescunt: cur unum
+					<lb/>michi niteris imputare peccatum, et karitatem me ad hoc induxisse non perspicis, quae
+					<lb/>operit multitudinem peecatorum? Quomodo autem me cuiuslibet hominis sententia
+					<lb/>ligat, quem caritas ipsa, quae Deus est, liberat? Erubescat ergo humani anathematis
+				<lb/>imputator, cum per karitatis gratiam mecum sit aeternae benedictionis indultor.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Cuicumque in disputatione certanti veritas ipsa defecerit, ineptum est adhuc per
+					<lb/>ambages atque versutias pertinaciter niti. Ridiculum est diutius verbis prolixioribus
+					<lb/>immorari. De vinculo siquidem anathematis, quo te hactenus arbitrabar astringi, ita
+					<lb/>te naviter expedisti, ut nichil de cetero tibi valeat obici, nil super hoc capitulo rationabiliter
+					<lb/>possit opponi. Verumtamen adhuc michi video materiam superesse, quam
+					<lb/>tibi valeam non sine causa reluctator obicere. Dicitis, quia necessitate constricti et
+					<lb/>velut angusti temporis brevi spatio coartati nequaquam potuistis in electione pontificis
+					<lb/>expectare consensum regiae maiestatis. Quod profecto frivolum esse perspicuum est.
+					<lb/>Constat tres plus minus menses interim decurrisse, ex quo sanctae memoriae papa
+					<lb/>Nicolaus occubuit, usque ad Kalendas Octobris, cum iste successit. Videamus ergo,
+					<lb/>si per tam morosam longitudinem, trimestris videlicet spatii, non potuerit ab aula
+				<lb/>regia pragmaticae sanctionis vobis apoca reportari.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Ecce compellis me vulgato sermone depromere, quod ob imperialis palatii reverentiam
+					<lb/>decreveram silentio preterire. Sed iuxta vestrae scilicet exactionis instantiam
+					<lb/>iam proferatur in medium opus egregium vestrum, saeculis omnibus inauditum.
+					<lb/>Rectores enim aulae regiae cum nonnullis Teutonici regni sanctis, ut ita loquar, episcopis
+					<lb/>conspirantes contra Romanam aecclesiam, concilium collegistis, quo papam
+					<lb/>quasi per sinodalem sententiam condempnastis, et omnia, quae ab eo fuerant statuta,
+					<lb/>cassare incredibili prorsus audacia presumpsistis. In quo nimirum non dicam iudicio,
+					<lb/>sed preiudicio id ipsum quoque privilegium, quod regi predictus papa contulerat,
+					<lb/>si dicere liceat, vacuastis. Nam dum, quicquid ille constituit, vestra sententia decernente
+					<lb/>destruitur, consequenter etiam id, quod ab eo regi prestitum fuerat, aboletur.
+					<lb/>Sed absit a nobis, ut propter cuiuslibet hominis insolentiam rex, qui innocens erat,
+					<lb/>quantum ad nos, rem sui iuris amittat. Et quem, auctore Deo, votis omnibus prestolamur
+					<lb/>ad imperiale fastigium, non permittimus ob alienam culpam regiae dignitatis
+					<lb/>incurrere detrimentum. Sed ut totam inauditae calamitatis nostrae percurramus historiam,
+					<lb/>Stephanus cardinalis presbiter apostolicae sedis, vir videlicet tantae gravitatis et
+					<lb/>honestatis nitore conspicuus, tantis denique, sicut non obscurum est, virtutum floribus
+					<pb n="88"/>
+					<lb/>insignitus, cum apostolicis litteris ad aulam regiam missus, ab aulicis amministratoribus
+					<lb/>non est admissus, sed per quinque fere dies ad beati Petri et apostolicae sedis
+					<lb/>iniuriam pro foribus mansit exclusus. Quod ille, utpote vir gravis et patiens, aequanimiter
+					<lb/>tulit, legati tamen officium, quo fungebatur, implere non potuit. Clausum
+					<lb/>itaque signatumque mysterium consilii, cuius erat gerulus, retulit, quia regiis eum
+					<lb/>presentare conspectibus curialium plectenda temeritas non permisit. In qua nimirum
+					<lb/>inopinatae presumptionis audacia tanta disputandi videretur inesse materia, ut et
+					<lb/>Demostenis eloquentiam vincat et copiam Tullianae facultatis excedat. Unde si vellemus
+					<lb/>iniuriam nostram districtius persequi, iure possemus optendere, quia vos Romanae
+					<lb/>aecclesiae vosmet ipsos ipso dono privastis, qui scilicet ei preiudicii vestri gratis contumeliam
+					<lb/>intulistis. Ille quippe foedus amicitiae violat, qui gratis amicum per offensionis
+					<lb/>molestiam pulsat. Nam et Dominus Iudeis per Hieremiam ait: <hi rend="italic">Ecce feriam
+					<lb/>domui Israel et domui Iuda foedus novum, non secundum pactum, quod pepigi cum
+					<lb/>patribus eorum, pactum quod irritum fecerunt</hi>. Ille ergo irritum reddit beneficii pactum,
+					<lb/>qui prior violat amicitiae sacramentum. Verumtamen Romana aecclesia non vult
+					<lb/>exagerare quod pertulit, sed perseverare cupit in munere, quod regio culmini liberaliter
+				<lb/>prerogavit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Quod domino nostro regi reverenter adscribis innocentiam, digne facis. Quod
+					<lb/>autem amministratoribus aulae publicae devolvis e diverso calumniam, videtur iniustum.
+					<lb/>Quicquid enim circa vos in huiusmodi casibus actum est, ad hoc nos regiae matris
+				<lb/>impulit imperiale preceptum, non propriae libertatis arbitrium.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Et ego tibi secundum cordis tui duritiam respondebo. Dico enim, quia Dei omnipotentis
+				<lb/>optemperare sermonibus aliquando peccatum est.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Ad hoc, quod asseris, mens humana concutitur, et christianae pietatis ferre non
+				<lb/>valet auditus.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Quia hoc tantopere miraris, illud etiam consequenter adicio, quia propter hoc,
+					<lb/>quod Deo quidam promptus obedivit, funditus periit; alius ob id, quia obtemperare
+				<lb/>contempsit, ad cumulum gratiae plenioris ascendit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Incredibile est valde, quod dicis. Verumtamen si vales exemplis approbare quod
+				<lb/>loqueris, dic, quis unquam Deo obedivit ac propterea periit?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Non te latet, quia Iudae Scariothi, qui iam accepto consilio eum traditurus erat,
+					<lb/>Dominus ait: <hi rend="italic">Quod facis, fac citius</hi>. Postmodum quoque, cum ad eius osculum accedere
+					<lb/>presumpsisset, adiecit: <hi rend="italic">Amice, ad quod venisti</hi>, subauditur: "perfice". Sed quia
+				<lb/>miser his sermonibus efficaciter oboedivit, irrevocabiliter periit.</p>
+			</sp>
+			<pb n="89"/>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Huius propositionis ratione reddita, redde consequenter alterius. Quis scilicet Dei
+				<lb/>omnipotentis obedientiam sprevit et propter hoc copiosiorem gratiam meruit?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Si placet, hoc in memoriam revoca, quod Dominus ad Hieremiam dixit: <hi rend="italic">Vade ad
+					<lb/>domum Rechabitarum, et loquere eis, et introduces in domum Domini in unam exedram
+					<lb/>thesaurorum, et dabis eis bibere vinum</hi>. Et paulo post propheta subiungit: <hi rend="italic">Et&gt;
+						<lb/>posui coram filiis Rechabitarum scyphos plenos vino et calices, et dixi ad eos: "Bibite
+						<lb/>vinum". Qui responderunt: "Non bibimus vinum, quia Ionadab pater noster precepit
+					<lb/>nobis, dicens: Non bibetis vinum, vos et filii vestri, usque in sempiternum"</hi>. Unde
+					<lb/>postmodum Hieremias ait eis: <hi rend="italic">Haec dicit dominus Deus exercituum: Non deficiet vir
+					<lb/>de stirpe Ionadab, filii Rechab, stans in conspectu meo cunctis diebus</hi>. Ecce ille male
+					<lb/>oboediens perfunctus oboedientiae munere cucurrit ad laqueum: isti feliciter inoboedientes
+					<lb/>perpetuum conditoris sui meruere conspectum. Hoc etiam ad hoc valet, quod
+					<lb/>superius dictum est, quia, cum papam sine consensu regis eligimus, non presto quod
+					<lb/>extrinsecus actum est diiudicare, sed potius quo animo et qua intentione sit factum,
+				<lb/>deberetis diligenter attendere.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Haec argumenta nobis domestica sunt et nunquam deficiunt, quia de promptuariis
+					<lb/>proferuntur. Semper enim possumus in pravi operis exhibitione delinquere, et quia
+				<lb/>occulta est, ad purae mentis [debemus] patrocinium convolare.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Censesne semper debere iuxta rerum atque verborum superficiem iudicari? Quid
+					<lb/>enim iuxta verborum strepitum magis est absonum, quam cum Deus Pater et Filius et
+					<lb/>Spiritus sanctus mediatorem Dei et hominum dicitur tradidisse? Ecce Christum tradidit
+					<lb/>Iudas, tradidit et Deus Pater. Nunquid non quasi simile factum videtur? Ergone
+				<lb/>traditor est Iudas et traditor Deus Pater?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Unde probas, quia Pater et Filius et Spiritus sanctus tradiderit Salvatorem?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Audi apostolum dicentem: <hi rend="italic">Qui proprio filio suo non pepercit, sed pro nobis
+					<lb/>omnibus tradidit illum</hi>. Cui [et] Salomon ait: <hi rend="italic">Cum sis iustus et omnia iuste disponas,
+					<lb/>ipsum quoque, qui non debet puniri, condemnas</hi>. Quod autem se Filius tradiderit,
+					<lb/>idem dicit apostolus: <hi rend="italic">Qui me dilexit et tradidit se ipsum pro me</hi>. Quod autem et
+					<lb/>Spiritus sanctus tradiderit Filium] sapientia perhibet dicens: <hi rend="italic">Benignus est enim spiritus
+					<lb/>sapientiae, et non liberabit maledictum a labiis suis</hi>. Maledicti apud veteres dicebantur
+					<lb/>omnes, qui pendebant in ligno. <hi rend="italic">Christus autem</hi>, ut apostolus dicit, <hi rend="italic">ut nos liberaret a maledicto,
+					<lb/>factus est maledictum</hi>. Spiritus vero sanctus non liberavit maledictum a labiis suis,
+					<lb/>quia quae per ora prophetarum de Christi passione locutus est, non prohibuit, sed
+					<lb/>super eum sine diminutione compleri cuncta permisit. Ergo secundum te, qui non de
+					<lb/>cordis intentione, sed semper ex operis vis superficie iudicare, si Pater tradidit Filium,
+					<lb/>et ipse se tradidit Filius, insuper et Spiritus sanctus, Iudas quid mali fecit? Facta est
+					<lb/>traditio a Patre, facta est a Filio necnon a Spiritu sancto, facta est et a Iuda. Una
+					<pb n="90"/>
+					<lb/>res a pluribus facta est, sed eadem res in operatoribus discernenda est. Quod enim
+					<lb/>Deus omnipotens ex karitate, hoc Iudas fecit ex pecuniae adquirendae cupidine. Quod
+					<lb/>Deus fecit ad salutis nostrae remedium, hoc ille fecit ad explendum insatiabilis avaritiae
+					<lb/>votum. Vides ergo, quia non, quid homo faciat, debemus attendere, sed quo
+					<lb/>animo et voluntate faciat, diligenter examinare. Nam si sola dumtaxat exteriora perpendimus,
+					<lb/>invenimus ipsum dominum Salvatorem et dixisse quod prohibet et aliter
+					<lb/>fecisse quam iubet. <hi rend="italic">Quis, ait, dixerit fratri suo: fatue, reus erit gehennae ignis</hi>. Et
+					<lb/>tamen ipse resurrectionis suae die duobus de se dubitative loquentibus ait: <hi rend="italic">O stulti et
+					<lb/>tardi corde ad credendum</hi>. Dixerat etiam in monte discipulis: <hi rend="italic">Si quis te percusserit
+					<lb/>in dexteram maxillam, prebe illi et alteram</hi>. In passione vero positus percutienti se
+					<lb/>in maxillam puero sacerdotis non modo non alteram prebuit, sed insuper dixit: <hi rend="italic">Si
+					<lb/>male locutus sum, exprobra de malo, sin autem bene, cur me caedis?</hi> Et quomodo
+					<lb/>iam verum erit quod de illo Lucas ait, quia <hi rend="italic">cepit facere et docere</hi>, si quod
+					<lb/>docuit non implevit? Sed procul dubio intellegendum est hoc eum precepisse ad
+					<lb/>preparationem cordis, non ad ostentationem operis. Quomodo enim paratus corde
+					<lb/>non fuit in maxillam alteram caedi, qui pro hominum salute decreverat toto corpore
+					<lb/>crucifigi? Paulus etiam palma percussus iussione pontificis ait: <hi rend="italic">Percutiet te Deus,
+					<lb/>paries dealbate</hi>. Quod minus intellegentibus videtur in verbo convicium, sed in sensu
+					<lb/>prophetici tenet oraculi sacramentum. Paries enim dealbatus hypochrisis est, sacerdotalem
+					<lb/>sub hoc nomine preferens dignitatem, sed occultans intrinsecus luteam malitiae
+					<lb/>turpitudinem. Nam quod humilitatis fuit, mirabiliter custodivit. Cum enim illi diceretur:
+					<lb/><hi rend="italic">Principi sacerdotum maledicis?</hi> respondit: <hi rend="italic">Nescivi, fratres, quia princeps est sacerdotum.
+					<lb/>Scriptum est enim: Principem populi tui non maledices</hi>. Ubi patenter ostenditur,
+					<lb/>quanta illud tranquillitate dixisset, quod iratus intulisse, videbatur. Quibus scripturarum
+					<lb/>testimoniis quid aliud edocemur, nisi quia non iuxta nuda semper debemus
+				<lb/>verba sententias iudicare, sed quo animo, qua mentis intentione proferantur, inspicere?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Dubia, quae proponis, luculenter elucidas per exempla, quae subicis; sed quaeso
+					<lb/>te, ut ad superiora paulisper redeas, et cur nos calumnieris vobis preiudicium intulisse,
+				<lb/>qui regiae dicioni paruimus, patenter exponas.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Recte, plane, ordinabiliter et congruenter, postquam omnis vestrae partis obiectio
+					<lb/>non rhetoricis argumentis, non coloribus oratoriis, non denique dialecticis syllogismis,
+					<lb/>sed vivae potius atque perspicuae veritatis est ratione purgata: versa vice iam dignum
+					<lb/>est, ut de vestris excessibus vel breviter disseratur. Enimvero damnatio papae tam
+					<lb/>gravis et inexplicabilis est, ut non humano, sed divino dumtaxat sit tractanda iudicio.
+					<lb/>Reges autem nostros cum aetatis infirmitas, tum fragilitas sexus excusat. Quibus utique
+					<lb/>non reatus adscribitur, sed eorum consiliariis, ut dignum est, imputatur. Omissis
+					<lb/>itaque perversitatibus ceteris, ut quid ignorante Roma reprobum hominem in Romanum
+				<lb/>pontificem eligere presumpsistis?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Electionem quidem, ut palam est, fecimus. Sed longe prius Gerardo comite
+					<lb/>aliisque Romanis, ut dicebatur, civibus infatigabiliter insistentibus, ad hoc inducti sumus.
+					<lb/>Nam et abbas monasterii, quod dicitur Clivus Scauri, non defuit. Non ergo, ut asseris,
+				<lb/>ignorante Roma, sed presente atque petente Romani pontificis electio facta est.</p>
+			</sp>
+			<pb n="91"/>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>In hoc pro me facis, dum Gerardo sub anathemate constituto te communicasse
+					<lb/>testaris. Nam ut de abbate et aliis interim sileamus, de Gerardo liceat tantummodo
+					<lb/>dicere aecclesiae hominem non fuisse et Christi nequaquam pertinuisse fidelibus. Illud
+					<lb/>enim unum caput anathemati maledictionique subiacuit omnium fere pontificum, quicumque
+					<lb/>Romanae aecclesiae suis temporibus prefuerunt, demum, paulo antequam moreretur,
+					<lb/>propter ducem et archiepiscopum Anglorum, quos a beati Petri liminibus
+					<lb/>redeuntes invasit, spoliavit, et usque ad mille Papiensis monetae libras appendentia
+					<lb/>rapuit. Propter hoc itaque in plenaria synodo, papa Nycolao presidente, excommunicatus
+					<lb/>est et exstinctis luminaribus sub perpetuo fuit anathemate condempnatus. Perpendat
+					<lb/>igitur sancta synodus, si illius eiusque complicum rata iure videatur electio,
+					<lb/>qui tam terribiliter atque irrevocabiliter est ab aecclesiae visceribus euangelica atque
+					<lb/>canonica falce precisus, ut ne in morte quidem ad christianitatis fuerit titulum reformatus,
+					<lb/>et si per eum ordinari Romanam aecclesiam dignum fuit, qui eius semper
+					<lb/>cruentus extitit inimicus, qui eam semper est feraliter persecutus. Et quomodo summam
+					<lb/>debet aecclesiam ordinare, cui cuiuscumque limen aecclesiae non licet attingere?
+					<lb/>Clamat Dominus ad Israel: <hi rend="italic">Anathema in medio tui, Israel, nec poteris stare contra
+					<lb/>hostes tuos, donec deleatur ex te, qui hoc contaminatus est scelere</hi>. Et hoc quare?
+					<lb/>Quoniam Achar, filius Charmi, de anathemate Ihericho ducentos dumtaxat argenti siclos
+					<lb/>regulamque auream quinquaginta siclorum et coccineum abstulerat pallium; et ob hanc
+					<lb/>vilem videlicet summam auctor sceleris non modo lapidatur, sed et lapidum acervis obruitur.
+					<lb/>Propter illum hominem, qui dumtaxat unum sacrilegium fraude commiserat, Israel
+					<lb/>ante suorum hostium faciem ruiturus erat: quomodo stabit aecclesia si per virum tot
+					<lb/>criminibus involutum fuerit ordinata? presertim cum et talem elegerit, in quem, teste
+					<lb/>mundo, omnium vitiorum sentina confluxit, pseudoepiscopum, apostolum Antichristi,
+					<lb/>adversarium Christi, animam puellarum, mangonem aecclesiarum. Quis ergo istorum
+					<lb/>iusto videbitur examine preferendus, utrum is, quem elegit unus vir perpetuae maledictionis
+					<lb/>anathemate condemnatus, an ille potius, quem cardinales episcopi unanimiter
+					<lb/>vocaverunt, quem clerus elegit, quem populus expetivit, non in extremitate terrarum,
+				<lb/>sed intra moenia Romanorum et in ipsius sedis apostolicae gremio?</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Tot a te rationibus redditis, possemus fortassis adhibere consensum, si semel
+					<lb/>emissam deceret regiam maiestatem mutare sententiam; principali quippe gloriae velut
+					<lb/>inconstantiae nevus inprimitur, si quodcumque suae constitutionis edictum leviter
+				<lb/>annulletur.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Quis nesciat rege Deum esse maiorem? et tamen dicere non erubescit: <hi rend="italic">Poenitet
+					<lb/>me, quod constituerim Saul regem</hi>, et per Samuhelem sibi denuntiat dicens: <hi rend="italic">Proiecit
+					<lb/>te Dominus, ne sis rex super Israel</hi>. Si poenitere se Deus asseruit, qui futura cuncta
+					<lb/>cognoverat, cur [homo] suam commutare in melius sententiam erubescat, qui, qualis
+					<lb/>et ipse quoque sit futurus, ignorat? Ille de bono factus est malus, iste, videlicet Kadalous,
+				<lb/>de malo utique, quod iam erat, fit cotidie diaboli more deterior.</p>
+			</sp>
+			<pb n="92"/>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Quam inconsulte nunc loqueris, qui diabolum deteriorari posse testaris, qui certe
+				<lb/>tam malus est, ut deterior esse non possit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Mentior, si, quod proposui, scripturae testimoniis comprobare non valeo. Nam
+					<lb/>Ysaia teste dicebat superbus in mundi principio: <hi rend="italic">Ascendam super altitudinem nubium,
+					<lb/>similis ero Altissimo</hi>. Paulus autem dicit: <hi rend="italic">Qui in fine mundi veniens adversatur et
+					<lb/>extollitur supra omne, quod dicitur Deus, aut quod colitur</hi>. Quia ergo tunc affectavit
+					<lb/>Deo se similem esse, in fine mundi iam deterior factus vult quasi superior eminere. Per
+					<lb/>quod manifeste colligitur diabolum adhuc in deteriora posse corruere. Et quia diabolus
+					<lb/>interpretatur "deorsum fluens", Kadalous, a cadendo dictus, ?ruinam populi? sonat,
+					<lb/>ipsis quoque nominibus aptissime invicem uterque concordat. Dic ergo, quomodo iste
+					<lb/>pontifex erit, quem non Romanus populus, sed unus homo cum suis complicibus, idemque
+					<lb/>non Romanus, sed suburbanus et non aecclesiae filius, sed maledictus et anathematizatus
+					<lb/>elegit? Illene erit tuo iudicio pontifex, qui suam vendidit, ut Romanam
+					<lb/>aecclesiam optineret, qui Romanos occidit in ore gladii, ut Romanus pontifex fieret?
+					<lb/>Dicis non debuisse me pontificem sine consensu regis eligere, et magnipendendum
+					<lb/>michi non fuisse, ut populus non periret. Ecce hinc beatus Augustinus Yponiensi
+					<lb/>aecclesiae, Valerio vivente, preficitur; ecce illinc Ambrosius octavo die postquam baptizatus
+					<lb/>est, perceptis cunctis aecclesiasticis gradibus, episcopus ordinatur. In quibus
+					<lb/>utique ob nil aliud canonicae auctoritatis ordo deseritur, nisi dumtaxat ut saluti populi
+					<lb/>consulatur. Et tu michi dicis in servando populo ipsi regi me non debuisse consulere,
+					<lb/>ut sibimet in dando consensu unius epistolae gloria proveniret. Nam unde postmodum
+					<lb/>Romanus imperator fieret, si tunc se Romanus populus mutuis vulneribus peremisset?
+					<lb/>Porro autem, quia in constituendo pontifice Romana aecclesia a karitate regia
+					<lb/>non recessit, hoc etiam indicio est, quia, cum in clero suo religiosis viris et sapientibus
+					<lb/>habundaret, non de propriis, sed eum, qui regi tamquam domesticus et familiaris erat,
+				<lb/>elegit.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Regius advocatus.</speaker>
+				<p><lb/>Quisquis veritati, postquam patefacta claruerit, obstinate renititur, Dei omnipotentis
+					<lb/>adversarius non immerito iudicatur, cuius adversum se iram inextinguibiliter provocat,
+					<lb/>si veritatem, quae ipse est, pertinaciter et arroganter impugnat. Nam ut ipse disputationi
+					<lb/>tuae velut epylogum faciam, cum inter nos quaestio moveretur, utrum sine regis
+					<lb/>assensu Romani pontificis fieri posset electio, recensitis hystoriarum catalogis, tantam
+					<lb/>Romanorum imperatorum atque pontificum copiam coacervasti et velut nubem michi
+					<lb/>testium opposuisti, ut his conspectis ne muttum quidem me adversum te sub hoc ulterius
+					<lb/>facere libuisset. De anathemate vero, quod Nycolaus papa constituit, ubi, ut iam
+					<lb/>verum fatear, totam victoriae vim intentio nostra posuerat, tam invictis scripturarum
+					<pb n="93"/>
+					<lb/>testimoniis, tam lucidis certe modo beatorum apostolorum, modo ipsius domini Salvatoris
+					<lb/>tuae disputationis assertio se purgavit exemplis, ut nos eatenus ignota doceret et
+					<lb/>vos ab illius sententiae vinculo potenter absolveret. Deinde a domini mei regis, quam
+					<lb/>dicebamus, iniuria, quae scilicet nos adversum vos acrius accendebat, tam strenue tua
+					<lb/>se purgavit oratio, ut evidenti clarescat indicio, quia in eo, quod sibi pontificem
+					<lb/>populus Romanus elegit, maiestati regiae potissimum ministravit, nec ei, sicut dicebatur,
+					<lb/>privilegium tulit, sed potius roboravit, dum non de Romana aecclesia, sed ex aula
+					<lb/>regia sacerdotem ad apostolicae sedis culmen evexit. Postremo de electione Parmensis
+					<lb/>episcopi quid dicemus? Loquar, an sileam? Sed iuxta scripturam: <hi rend="italic">conceptum sermonem
+					<lb/>tenere quis possit?</hi> Et certe ubi nuda veritas cernitur, turpis ignominiae est, si
+					<lb/>commento fallaciae deservitur. Ipsi plane liquido novimus anathematizatum esse Gerardum,
+					<lb/>nec ignoramus eius instinctu potissimum hunc episcopum in hoc negotium
+					<lb/>fuisse pellectum. Ut igitur ita loquar, arbor, quae de venenata radice anathematis
+					<lb/>oritur, antequam perniciosum prorumpat in fructum, modis omnibus necesse est evellatur,
+					<lb/>testante veritate, quae dicit: <hi rend="italic">Omnis arbor, quae non facit fructum bonum, excidetur
+				<lb/>et in ignem mittetur</hi>.</p>
+			</sp>
+			<sp>
+				<lb/><speaker>Defensor Romanae aecclesiae.</speaker>
+				<p><lb/>Ecce audivit beatitudo vestra, venerabiles patres, quoniam qui inspector est mentium
+					<lb/>confoederat nos in concertatione verborum. Vidit enim nos non malitiae causa
+					<lb/>confligere, sed inveniendae veritatis studio deservire. Ideoque dignatus est motam inter
+					<lb/>nos sopire querelam et suam nobis inspirare concordiam. Pax enim nostra, quae fecit
+					<lb/>utraque unum, conflavit in eodem sensu corda duorum. Agamus illi gratias, qui prius
+					<lb/>sagenam Petri periclitari permisit et turbine ventorum et procellis undarum: sed ecce
+					<lb/>ut regrediens manum tetendit, Petrum erexit, ventis imperavit et discrimina marina
+					<lb/>compescuit; confestim mare, quod in cumulos erigebatur, obruitur, [tempestatis procella
+				<lb/>sedatur], ventorum turbo reprimitur et aurea caeli facies serenatur.</p>
+			</sp>
+		</div>
+		<div>
+			<head><lb/>Clausula dictionis. </head>
+			<p><lb/>Amodo igitur, dilectissimi, illinc regalis aulae consiliarii, hinc sedis apostolicae
+				<lb/>comministri, utraque pars in hoc uno studio conspiremus elaborantes, ut summum
+				<lb/>sacerdotium et Romanum simul confoederetur imperium, quatinus humanum genus, quod
+				<lb/>per hos duos apices in utraque substantia regitur, nullis - quod absit! - partibus, quod
+				<lb/>per Kadaloum nuper factum est, rescindatur; sicque mundi vertices in perpetuae karitatis
+				<lb/>unionem concurrant, ut inferiora membra per eorum discordiam non resiliant;
+				<lb/>quatinus, sicut in uno mediatore Dei et hominum haec duo, regnum scilicet et sacerdotium,
+				<lb/>divino sunt conflata mysterio, ita sublimes istae duae personae tanta sibimet
+				<lb/>invicem unanimitate iungantur, ut quodam mutuae caritatis glutino et rex in Romano
+				<lb/>pontifice et Romanus pontifex inveniatur in rege, salvo scilicet suo privilegio papae,
+				<lb/>quod nemo preter eum usurpare permittitur. Ceterum et ipse delinquentes, cum causa
+				<lb/>dictaverit, forensi lege coherceat, et rex cum suis episcopis super animarum statu, prolata
+				<lb/>sacrorum canonum auctoritate, decernat. Ille tanquam parens paterno semper iure
+				<lb/>premineat, iste velut unicus ac singularis filius in amoris illius amplexibus requiescat.
+				<lb/>Attalus plane rex Asiae et Nicomedes rex Bithiniae in tantum [Romanam] rempublicam
+				<lb/>dilexerunt, ut uterque moriens Romanum populum testamento reliquisset heredem.
+				<lb/>Sanctae ergo aecclesiae principes quam propensiori invicem debent karitate congruere,
+				<pb n="94"/>
+				<lb/>quibus iniunctum est karitatem a precipue christiano populo predicare, ut ex eorum,
+				<lb/>quae procedat ex pietate, concordia sancta universalis gratuletur aecclesia ac gemino
+				<lb/>utriusque studio christianae religionis refloreat disciplina. Verum nos piscatoris nostri
+				<lb/>naviculam ex hiatu sylleae voraginis trahentes, dum successorem Petri fidei labente
+				<lb/>vestigio mersum ad litora quieta deducimus, pium ereptori nostro celeuma cantemus:
+				<lb/>Versus:
+				<lg>
+					<l>Te Deum laudamus. Te Dominum confitemur.</l>
+					<l>Ultio divina, populi, Cadaloe, ruina,</l>
+					<l>Te manet, ut diro medium transverberet ictu.</l>
+					<l>Altipetax Symonem sequeris Symon astra petentem.</l>
+					<l n="5">Te quoque tartareus simul absorbebit hiatus.</l>
+				</lg>
+			</p>
+		</div>
+	</body>
+</text>
+</TEI>

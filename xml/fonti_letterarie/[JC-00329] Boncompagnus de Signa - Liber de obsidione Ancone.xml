@@ -1,0 +1,1043 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber de obsidione Ancone</title>
+				<author>Boncompagnus de Signa</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>P. Garbini</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7821" unit="words">Parole: 7821</measure>
+				<measure quantity="49765" unit="characters_without_spaces">Caratteri (spazi esclusi): 49765</measure>
+				<measure quantity="56696" unit="characters_witht_spaces">Caratteri (spazi inclusi): 56696</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-02-05">05/02/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell'opera: 1198/1201
+					Parole: 7878
+					caratteri (spazi esclusi): 49906
+				CC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Boncompagno da Signa</author>
+						<title level="m">L'assedio di Ancona  - Liber de obsidione Ancone</title>
+						<editor>P. Garbini</editor>
+						<imprint>
+							<publisher>Viella</publisher>
+							<pubPlace>Roma</pubPlace>
+							<date>1999</date>
+							<biblScope unit="page">110-162</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">I libri di Viella</title>
+						<biblScope unit="volume">19</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="110"/>
+		<div>
+			<head><lb/>Incipit prologus in ystoria obsidionis civitatis anchonitane tempore cancellarii</head>
+			<lb/>
+			<p><lb/>Amico dominabili Ugolino Gosie, iuris perito, militi strenuissimo
+				<lb/>et Anchonitanorum potestati, Boncompagnus salutem cum
+			<lb/>obsequio sincerissime dilectionis.</p>
+			<p><lb/>Grata rogamina, que mihi porrigere voluistis, me plurimum
+				<lb/>iocundari fecerunt; unde fervor spiritus devotionem parit, que vobis
+				<lb/>omni tempore appetit famulari; et quidam specialis radius amoris
+				<lb/>de cordis penetralibus consurgit, cuius claritatem invidentium
+			<lb/>nebula non poterit tenebrare.</p>
+			<p><lb/>Petivistis a me ut librum, quem de obsidione anchonitana tractaveram,
+				<lb/>studiosius corrigerem et vobis amicabiliter exhiberem,
+				<lb/>et deducerem in comune, quia singulariter habere non cupitis quod ad
+				<lb/>multorum utilitatem dignoscitur pertinere. In quo michi digne
+				<lb/>consulere voluistis, cupientes quod talentum michi creditum non
+				<lb/>abscondam; et civitati cui preestis honoris perpetui nomen acquirere
+				<lb/>peroptatis, quod per vestram industriam consequetur. Ecce presento
+				<lb/>vestre magnificentie librum diligenti ori lima correctum; utinam
+				<lb/>improvida scribentium caterva scripta non variet que per oratoris
+				<lb/>artifitium sunt regulariter ordinata, quia, licet dicatur: «verba transposita
+				<lb/>idem significant» nichilominus tamen parva transpositio
+				<lb/>variat intellectum et regularem dictionum positionem deturpat.
+				<lb/>Ceterum que in fine huius operis de vestra vestrorumque patrum
+				<lb/>sapientia et probitate conscripsi, magis ad informandum posteros
+				<lb/>quam pro captatione alicuius benivolentie dicta esse credatis. Scio
+				<lb/>etenim quod venativas commendationum blanditias non diligitis,
+				<pb n="112"/>
+				<lb/> nec umquam desiderastis, velud plures faciunt, adhulationis oleo
+				<lb/>inpinguari. Verumtamen liberalitas vestra omnibus providet, universis
+				<lb/>iuxta meritum respondet, nullis denegat solatia oportuna; illis
+				<lb/>etiam dampnabilibus ioculatorum catervis larga donaria impertitur,
+				<lb/>qui, tamquam demoniosi, efferunt immo deprimunt preconium
+				<lb/>aliene laudis. Et licet hoc vobis nunquam placuerit, petentium
+				<lb/>tamen satisfacitis desideriis; ita quod illorum acclamationes non
+				<lb/>attenditis, sed cupitis liberaliter elargiri. Ego vero non pro temporali
+				<lb/>munere, seu levitate animi, set sola veritate, que numquam vincitur,
+				<lb/>inductus, de obsidione predicta et magnanimitate vestra scribere
+				<lb/>procuravi. Sit, queso, tandem timorosum naufragium, quod occasione
+				<lb/>huius libri vobiscum fui passus, media pars tituli et presens
+				<lb/>epistola integraliter suppleat defectum, ne muta videatur pagina
+				<lb/>remanere. Illi autem, ad quorum manus hic liber pervenerit, studiose
+			<lb/>scripta relegant, quia crebra lectio legenti sensum incorporat medullatum.</p>
+			<lb/>
+			<lb/>
+		</div>
+		<div>
+			<head><lb/>Incipiunt ystorie obsidionis.</head>
+			<p><lb/>Quantum omnis rerum gestarum memoria conferat utilitatis,
+				<lb/>ipse rerum effectus manifestius indicat, quoniam nullus hodie res
+				<lb/>arduas facere attemptaret, si ea sub silentio forent penitus pretermissa,
+				<lb/>que ab antiquis commendabiliter esse acta noscuntur. Viverent
+				<lb/>liquide homines tanquam animalia irrationabilia et passim
+				<lb/>bestiarum more vagarentur nec uterentur aliqua ratione animi, si
+				<lb/>corporis tantummodo satisfacerent voluptati. Sic ergo esset humana
+				<lb/>conditio in partem reflexa, ut nichil fieret equabili deliberatione,
+				<lb/>nichil tractaretur lege vel moribus, set quorumlibet potentium
+				<lb/>voluntas pro iure haberetur, et imbecilles pati solummodo, non agere
+				<lb/>oporteret. Fieret autem quilibet orbicularis circa revolutio, et dum
+				<lb/>hinc inde mortua oppinio resultaret, multiplex de novo consurgeret
+				<lb/>error, qui diverso libramine in ceca penderet statera; et dum librarentur
+				<lb/>plurima, inveniretur idem a quo natum fuerat et progressum,
+				<lb/>quod reperit primus. Redacta fuerunt igitur in scriptis facta maiorum,
+				<lb/>ut humana propago successivis uteretur exemplis, et cum audit
+				<lb/>quantam victoriosi gloriam reportabant, de virtute in virtutem ascendat;
+				<pb n="114"/>
+				<lb/>et dum intelligit quanto ludibrio criminosi et pusillanimes
+				<lb/>respergebantur, a similibus caveat, ne parem infamiam ex post facto
+				<lb/>incurrat. Nam cum geste res et maiorum acta recoluntur, ad eadem
+				<lb/>facienda passibus tenditur affectuosis, ut de re consimili similis
+				<lb/>valeat gloriari. Quilibet autem rex Alexandrum desideranter imitaretur,
+				<lb/>dum audit quod orbem universum posuerit sub tributo. Quilibet
+				<lb/>in bello existens Iudam Machabeum libenter sectaretur, qui cum
+				<lb/>paucissimis devicit potentissime Philisteos. Quilibet dives se ipsum
+				<lb/>recognoscere debet, ne ab alto corruat sicut Nabuchodonosor, qui
+				<lb/>edificavit statuam auream in campo Dyrach provincie Babilonis.
+				<lb/>Quilibet princeps minima vereatur ad tempus, ne perdat caput, sicut
+				<lb/>Holofernes per manum Iudit vidue amisit. Troiani per Helenam et
+				<lb/>Cartaginienses per superbiam fuere ad nichilum redacti. Iulius Cesar
+				<lb/>devicit Alamanniam, et Scipio Affricam, unde dictus est Affricanus.
+				<lb/>Titus et Vespasianus tam diu Ierusalem post mortem Christi obsederunt,
+				<lb/>quousque plenam habuere victoriam, et in triumphi signum
+				<lb/>archam federis, mensam propositionis et candelabrum aureum reduxerunt
+				<lb/>ad Urbem; unde postmodum factus est arcus triumphalis
+				<lb/>iuxta Cartulariam, in quo universa, que predixi, sunt in marmore
+				<lb/>sculpta. Alius vero arcus, longe preciosior illo, est quasi collateralis
+				<lb/>Coliseo, in quo sculturis mirificis Cartaginiensia prelia continentur.
+				<lb/>Sed plures triumphales arcus sunt Rome vetustate consumpti, in
+				<lb/>quibus fuerunt sculpte principales victorie Romanorum. Adrianus
+				<lb/>quidem imperator in signum. perpetue memorie mirabiliter sculpi
+				<lb/>fecit troianam istoriam in quadam colunna, que adhuc Rome consistit
+				<lb/>erecta. Nam Romani per sculpturas, et Greci per imagines rerum
+				<lb/>excelsarum posteros esse memores voluerunt. Set commendabilius
+				<lb/>per libros, quam sculpturis vel imaginibus, preterita conservantur.
+				<lb/>Ab ipso quippe mundi principio res gesta fuere a pluribus redacte
+				<lb/>in scriptis, ne antiquorum memoria deperiret. Porro septuaginta
+				<lb/>interpretes, Iosephus et Ieronimus omnium genealogiam ab Adam
+				<lb/>usque ad adventum Altissimi translatarunt, Pharaonis et israelitici
+				<lb/>populi facta studiosus conscribentes. Verum quia superfluum esset
+				<pb n="116"/>
+				<lb/>exempla omnis ponere, que memorie occurrunt, credendum est
+				<lb/>ut quilibet in suo genere atque professione per ea que scripta sunt
+				<lb/>debeat alium in rebus commendabili bus imitari, contraria penitus
+				<lb/>respuendo, quoniam aliorum vita nobis esse debet preambula et
+				<lb/>magistra. Igitur si cives aliqui a regibus vel principibus obsideantur,
+				<lb/>sint illis Anchonitani exemplum, quorum causa hunc librum composui,
+				<lb/>in quo breviter continentur qual iter fuerunt a cancellario et Venetis
+				<lb/>obsessi, suaque probitate atque perseverantia postmodum ab
+				<lb/>obsidione liberati. Nam enim huic operi aliquod apocrifum interserui,
+				<lb/>non intermiscui fabulas neque abusiones poeticas, velud
+				<lb/>plure in suis tractatibus faciunt, ut auditores commoveant ad risum,
+				<lb/>set omnia conscripsi prout ab illis audivi, qui rebus gestis et negotiis
+				<lb/>interfuerunt. Verumtamen dignum duxi aliqua predicere de situ
+				<lb/>et circumstantiis Anchonitane civitatis, et a quibus fuerit hedificata.
+				<lb/>Cum ego Boncompagnus transirem per Marchiam, civitatem
+				<lb/>intravi Anchonam, et ascendens in locum in quo sedes residet
+				<lb/>episcopalis, respexi menia, muros et antemuralia et universas
+				<lb/>circumstantias, quibus civitas decoratur et multimode pollet. Mare
+				<lb/>quidem ipsam a duobus lateribus regirat, et in occidentali plaga
+				<lb/>portus est ita naturaliter ordinatus, quod vix posset ab aliquo credi,
+				<lb/>nisi precederet visio corporalis. Ad ipsum quidem naute cum summa
+				<lb/>fiducia recurrunt, nec timent post introitum incurrere periculum,
+				<lb/>quoniam ibi non possunt propter montium obstaculum unde invalescere
+				<lb/>tempestuose. Verum postquam Attila, flagellum Dei, destruxit
+				<lb/>muros, quibus Traianus imperator portum ipsum fecerat undique
+				<lb/>communiri et opere munifico exornari, solus ventus, qui vulgo dicitur
+				<lb/>«focarese», naves quandoque dampnificat, nisi fuerint studiosius
+				<lb/>anchorate. Porro cum olim Ravenna inter civitates Italie floreret,
+				<lb/>versum est ubique in generale proverbium, quod si portum consimilem
+				<lb/>habuisset, Rome potuisset in plurimis equiperari. Primi
+				<lb/>autem Anchone constructores dicuntur fuisse imperatores urbis
+				<lb/>Rome, qui propter malitiam et immanitatem Sclavonum viros potentissimos
+				<lb/>ibi posuere, qui gentem sclavonicam subigerent imperio
+				<lb/>romano. Nam et aliqua pars Sclavonie potest in multa serenitate
+				<pb n="118"/>
+				<lb/>aeris ex eodem loco videri. Est enim civitas modica set populosa, et
+				<lb/>natura loci undique premunita. Ad hec autem subsequenter est de
+			<lb/>obsidione dicendum.</p>
+			<p><lb/>Imperante Frederico Romanorum imperatore, qui postea non
+				<lb/>longe ab Antiochia in flumine Saliph, interveniente divino iudicio,
+				<lb/>decessit, cancellarius solo nomine Christianus et Maguntine sedis
+				<lb/>archiepiscopus Italiam cum imperatoris exercitu intravit, plura
+				<lb/>oppida, burgos et villas in quibusdam partibus devastando: vivebat
+				<lb/>enim sicut milvus ex raptu, et tanquam corvus morticinum, sic bona
+				<lb/>quorumlibet requirebat. Cum autem videret quod Anchonitani
+				<lb/>grecum imperium nimium diligebant, et plenum non poterat in
+				<lb/>Marchia dominium habere, si civitatis Anchonitane non frangeret
+				<lb/>vires, composuit cum Venetis, qui semper quodam speciali odio
+				<lb/>Anchonam oderunt, ut in exitu mensis madii, quando cibaria rarescunt,
+				<lb/>cum navibus et galeis portum intrarent Anchonitanum, civitatem
+				<lb/>a lateribus maris viriliter obsidendo, et ipse cum imperii
+				<lb/>exercitu et circumpositis civitatibus ad eundem terminum veniret,
+				<lb/>promittens illis destruere civitatem, et bona civium cum eisdem per
+				<lb/>medium partiri. Ad eundem siquidem terminum venerunt Veneti, et
+				<lb/>in valida manu portum intrantes locaverunt naves et galeas taliter
+				<lb/>ad obsidionem, quod nullus de civitate audebat ingredi mare,
+				<lb/>quoniam illis non poterant pre multitudine resistere Anchonitani.
+				<lb/>Nam Venetie regnum aquosum dicitur esse, unde illius civitatis dux
+				<lb/>aureum circulum in vertice defert, et propter aquarum dignitatem
+				<lb/>quedam regalia insignia obtinere videtur. Posuerunt namque in
+				<lb/>medio portus navem olim Romani Marani, que pre sua magnitudine
+				<lb/>a plurimis totus mundus yperbolice dicebatur; quoniam, ut ferebatur,
+				<lb/>numquam ea maior fuit alicubi visa. Erat enim quasi castellum
+				<lb/>sub cuius umbra et patrocinio universe naves et galee consistere
+				<lb/>videbantur. Super ipsam quidem posuerunt machinas et balistas ac
+				<lb/>diversa genera bellatorum, quibus ex ea parte maximum ferebatur
+				<lb/>civitati cotidie detrimentum. Cancellarius autem suum exercitum
+				<lb/>iuxta civitatem locavit, devastando undique arbores, vineas, oliveta,
+				<lb/>et universa que videbantur ad usum civium pertinere. Venerunt ad
+				<lb/>obsidionem Auximani, qui semper Anchonitanorum calcaneo insidiantur,
+				<pb n="120"/>
+				<lb/>cum pluribus Marchianis: et sic membra capud abscindere
+				<lb/>conabantur. Contingit enim multotiens ut multi facere anelent
+				<lb/>quod eos postmodum trahit in exitium et servitutem, sicut fecerunt
+				<lb/>Lonbardi ad tempus, qui Mediolanum ob invidiam destruxerunt;
+				<lb/>unde ante illius rehedificationem sub quodam servitutis vinculo
+				<lb/>tenebanturt. Nam oppinio me in hanc trahit sententiam, ut
+				<lb/>non credam Italiam posse fieri tributariam alicui, nisi ex Italicorum
+				<lb/>malitia procederet ac livore; in legibus enim habetur, quod Italia non
+				<lb/>est provincia, sed domina provinciarum. Quid plura ? omnes, quotquot
+				<lb/>erant a confinio Apulie usque Ariminum, ad prefatam venere
+				<lb/>obsidionem. Fuerunt enim ibi plures Tusci, Spoletani et Romanioli,
+			<lb/>et alii quorum difficile est facere mentionem.</p>
+			<p><lb/>Precesserat quippe temporis caritudo, et in civitate pauca
+				<lb/>victualiai erant; sed sperabant cives in proximo recolligere segetes
+				<lb/>et comparare ab aliis, quoniam civitates que sunt in portibus constitute
+				<lb/>vix possunt de labore proprio frumentum et anonam habere ad
+				<lb/>sufficientiam, cum plures constet esse in illis nautas et mercatores.
+				<lb/>Porro multi Anchonitani aberant, qui causa negotiandi erant in
+				<lb/>Alexandria, in urbe Constantinopolitana et Romania. Fiebat prelium
+				<lb/>tam in mari quam in terra continue, nec poterant cives aliqua hora
+				<lb/>quiescere, quoniam obsessores erant plurimi et successive ad bella
+				<lb/>iugiter veniebant; sed bellatores intrinsecus oportebat assidue
+				<lb/>bellari, nec poterant aliunde suffragium habere. Verumtamen fatigati
+				<lb/>recentibus taliter satisfaciebant in preliis, quod semper ad castra
+			<lb/>«ve» lamentabile reportabant.</p>
+			<p><lb/>Sed iuxta principium obsdionis quendam congregaverant exercitum
+				<lb/>Anchonitani, quem cancellarius in campestri bello devicit, in
+				<lb/>quo capti fuerunt plurimi et interfecti, unde civitatem perdere crediderunt.
+				<lb/>Post ammissionem vero prelii vix per octo dies habuerunt
+				<lb/>virtuali sufficienter, et tantum incepit crescere fames, quod pro uno
+				<lb/>bisantio tantum panis non poterat inveniri, quod uni sufficeret ad
+				<lb/>edendum. Dabatur in quinque granis fabarum denarius et pugnus
+				<lb/>farris vel ordei non poterat pro duodecim haberi. Requirebantur ova
+				<lb/>ut emplaustra fierent pro vulneratis, neque tunc temporis potuere in
+				<lb/>tota civitate duodecim inveniri. Primo tamen, ut dicitur, novem in
+				<lb/>ovo uno denarii dabantur, et viginti soldi in modica gallina Verumtamen
+				<pb n="122"/>
+				<lb/>eo tempore ita defecerant pulli, carnes porcine atque bovine,
+				<lb/>quod non reperiebantur infra civitatem venales. Cepit igitur ibi esse
+				<lb/>pestilentia famis; quia tunc proprie dicitur esse fames, cum offertur
+				<lb/>pretium, nec inveniri potest qui habeat ad vendendum. Intellexit hec
+				<lb/>autem cancellarius a quibusdam: unde, convocato exercitu, prelium
+				<lb/>indixit, referens quod cives ita erant pre fame nimia exinaniti, quod
+				<lb/>vix poterant arma deferre. Iubet ergo pulsari tubas, tangi timpana,
+				<lb/>dividi exercitum per acies; sicque cum omnibus iuxta menia civitatis
+				<lb/>accessit, fortiter clamitando. Cives autem hec videntes, pulsatis
+				<lb/>campanis, cum clamore maximo civitatem exiverunt, incipientes
+				<lb/>cum eis acriterbellari; et licet essent famelici et multa inedia
+				<lb/>oppressi, tam fortiter pugnabant ac si essent cibis delicatissimis
+				<lb/>recreati. In prelio siquidem ita erant universi permixti, quod se ad
+				<lb/>invicem cognoscere nequibant, et vix poterat unus alium videre pre
+				<lb/>multitudine pulveris qui aerem inficiebat. Aures autem omnium,
+				<lb/>propter clangorem tubarum, equorum strepitum et bellantium voces,
+				<lb/>ita erant obtuse, quod nullus poterat discrete intelligere que dicebantur.
+				<lb/>Cum autem sic prelium continue duraret, pars exercitus
+				<lb/>cancellarii accessit ad Venetos, intravitque cum eis galeas; unde tunc
+				<lb/>Veneti adeo appropinquarunt, ut etiam domos quorum dam civium
+				<lb/>intrarent. Consules autem anchonitani, hec audientes, illos tantum modo
+				<lb/>transmiserunt ad mare, qui domos iuxta portum magis habebant
+				<lb/>propinquas. Eodem quippe die tantam contulit Deus Anchonitanis
+				<lb/>victoriam, quod illi, qui ad mare iverunt, Venetos fugarunt,
+				<lb/>galeas quas prius ammiserant potentissime recuperando; et ipsi qui
+				<lb/>remanserant exeritum cancellarii usque ad machinas repulerunt,
+				<lb/>unde tunc quidam vegeticulum resina et pice plenum ante stuem
+				<lb/>lignorum proiecit, set nullus audebat apponere ignem, quia locus in
+				<lb/>medio bellantium consistebat. Eadem autem hora venit quedam
+				<lb/>femina vidua, nomine Stamira, et apprehendens ambabus manibus
+				<lb/>mannariam divisit propere ipsum vegeticulum, currensque postea
+				<lb/>faculam accendit et eam tamdiu, videntibus universis, tenuit inter
+				<lb/>hedificiorum ligna, donec focus vires potuit proprias exercere,
+				<pb n="124"/>
+				<lb/>sicque combuste suntn machine ac pedrerie per audaciam viraginis,
+				<lb/>quam prelii crudelitas et pugnantium furor terrere minime potuerunt.
+				<lb/>Fuerunt enim ibi ex utraque parte mortui plurimi et vulnerati;
+				<lb/>set obsessores dampnum et dedecus reportarunt. Profuit autem non
+				<lb/>modicum Anchonitanis prelium illud, quia multas carnes equorum,
+				<lb/>qui fuerant interfecti, reduxere in civitatem, nec dimittebant etiam
+				<lb/>intestina. Finito quidem prelio, stetit cancellarius cum exercitu
+				<lb/>aliquantulum remotior solito, nec permittebat fieri prelium, credens
+			<lb/>civitatem per famem et inopiam expugnare.</p>
+			<p><lb/>Preterea hoc memorabile factum non est sub silentio relinquendum.
+				<lb/>Presbiter namque Iohannes, anchonitanus canonicus,
+				<lb/>dum quadam die sederet iuxta mare, cogitavit in animo si aliquid
+				<lb/>ad civitatis honorem et inimicorum incommodum facere posset. Erat
+				<lb/>enim vir nervosus, fortis et audax. Accessit equidem ad portum, et
+				<lb/>sublata camisia in solis femorali bus remansit. Tum siquidem tam
+				<lb/>cives quam Veneti ceperunt plurimum ammirari, quia non erat
+				<lb/>tempus balneandi et presertim cum esset ventus validus in portu.
+				<lb/>Intravit siquidem repente mare, veniensque natando cum quadam
+				<lb/>bipenne in manu, cepit abscindere maximum canapum, qui ex una
+				<lb/>parte ligatus erat in prora navis Romani Marani, et ex altera in
+				<lb/>anchora quam naute miserant in portu. Illi autem qui erant in navi,
+				<lb/>respicientes quid presbiter faciebat, ceperunt eum sagittare cum
+				<lb/>arcubus et balistis, et alii contra eum clamabant, immensos lapides
+				<lb/>proiciendo. Ille vero ad mergonis modum, qui restrictis alis
+				<lb/>profunda pelagi petit, se propere submergebat in aquam, et sicut
+				<lb/>delfinus postea comparebat; sicque successivis ictibus ipsum abscidit,
+				<lb/>unde singule sartie defecerunt; et posuit nautas omnes in periculo
+				<lb/>mortis, quia ventus erat adeo fortis, quod plurimos in terra
+				<lb/>ledebat. Presbiter autem reversus est ad civitatem natando, et illos
+				<lb/>plurimum deridebat. Vacillavit quidem tamdiu navis in portu, quousque
+				<lb/>ventus quievit; et nisi portus esset adeo securus, navis procul
+				<lb/>dubio deperisset. Naute verumtamen pre timore multa utilia proiecerunt
+				<lb/>in mare. Videntes quidem Anchonitani animositatem presbiteri
+				<lb/>et tempestuosos undarum concursus, prelium cum Venetis inceperunt,
+				<pb n="126"/>
+				<lb/>VII. galeas de securiori parte portus viriliter depellentes, quas
+				<lb/>ventorum acerbitas propulit ad ripam, ubi continuo fracte fuere,
+				<lb/>sicque in personis et rebus Veneti non modicam sustinuere iacturam.
+				<lb/>Porro Anchonitani, fame valida oppressi, quemdam sapientem
+				<lb/>virum ad cancellarium transmiserunt, inmensam promittendo pecuniam,
+				<lb/>si vellet ab obsidione cessare. Ille autem, hoc audito, subridens
+				<lb/>ait: « En offerunt nobis Anchonitani pecuniam, quam habemus et
+				<lb/>habere videmur! Sed dico tibi, quod merito posset ille inter fatuos
+				<lb/>reputari, qui haberet totum et requireret partem. Edisce tamen parabolam
+				<lb/>istam, que sapientis indiget explanatione: Quidam venator,
+				<lb/>non cum paucis canibus, intravit maximam silvam, in qua reperit
+				<lb/>leenam, que dominari plurimis animalibus videbatur. Hanc non
+				<lb/>modico tempore insequens, canes multos ammisit, et vestimenta
+				<lb/>propria dilaniavit. In speluncam demum ipsam reclusit, ubi fame
+				<lb/>taliter angebatur, quod de manibus non poterat evadere venatoris.
+				<lb/>Rugiebat in fine, volens cum venatore componere pro ungula pedis.
+				<lb/>Consuleres igitur venatori, ut pro ungula dimitteret leenam ? »
+				<lb/>Ille autem excogitavit aliquantulum quid cancellario responderet
+			<lb/>Postmodum vero in hunc modum sic respondit:</p>
+			<p><lb/>«Si venator, qui silvam intravit, meis deberet consiliis acquiescere
+				<lb/>non dimitteret pro ungula leenam. Sed si vellet cum ungula
+				<lb/>summitatem tradere aurium, consulerem venatori facere pactum,
+				<lb/>quia videretur habuisse totius corporis potestatem. Contigit quippe
+				<lb/>multotiens, quod qui totum requirit, partem ammittit, sicque
+				<lb/>diuturno labore privatur. Nam cum auceps quidam rete pro columbis
+				<lb/>in agro tetendisset, more solito escam proiecit; ad quam capiendam
+				<lb/>septem columbe venere, pro quibus expandere noluit rete, credens
+				<lb/>eas que residebant in arboribus comprehendere cum illis. Exspectavit
+				<lb/>diu, et ecce supervenerunt falcones volitando per aerem, et sic
+				<lb/>septem, que iam ceperant escam, fugere. Tutius ergo fuisset aucupi
+				<lb/>septem comprehendisse columbas, quam sic redisse domum honeratus
+			<lb/>a labore».</p>
+			<p><lb/>Iratus ad hec cancellarius per semetipsum iuravit, quod
+				<lb/>numquam cum eo componerent Anchonitani, si se ipsos et civitatem
+			<lb/>sibi non redderent sine conditione.</p>
+			<pb n="128"/>
+			<p><lb/>Ille demum reversus est ad suos, infra se ipsum non mediocriter
+				<lb/>plorando, quia magis timebat famis et inopie iacturam quam extrinseca
+			<lb/>bella.</p>
+			<p><lb/>Convocatis postmodum consulibus et universis viris discretis
+				<lb/>et sapientibus, quorum consilio civitas regebatur, retulit omnia que
+				<lb/>fuerat cum cancellario locutus. At illi ceperunt dicere multa, et plura
+				<lb/>in animo revolvere referendo ad invicem quomodo iudicium
+				<lb/>possent evadere destructionis. Placuit tandem omnibus, ut duodecim
+				<lb/>viri perquirerent universa victualia, que cives poterant habere.
+				<lb/>Isti vero, ecclesiarum et civium cellaria perscrutantes, non invenerunt
+				<lb/>nisi duos modios frumenti et tres annone, cum infra corpus
+				<lb/>civitatis plusquam decem milia hominum utriusque sexus existerent,
+				<lb/>qui aliunde nequibant requirere cibum. Reversi sunt altera die
+				<lb/>ad consilium, per ordinem omnia referentes. Tunc omnes ceperunt
+				<lb/>amarissime flere, quoniam non videbatur qualiter possent a tanto
+				<lb/>periculo liberari. Quidam autem eorum dicebant esse minus malum
+				<lb/>se reddere cancellario; alii vero in contrarium allegabant, dicentes
+				<lb/>quod potius volebant in prelio mori, quam videre civitatis et civium
+				<lb/>destructionem. Surrexit ad hec quidam reverende faciei senex,
+				<lb/>cuius oculi pre senectute nimia caligabant. Erat enim quasi centenarius,
+				<lb/>unde senectutis baculum deferebat, quia iam erant membra spiritibus
+				<lb/>pauperata. Surrexit, et preclaram orationem inter eos habuit,
+				<lb/>quia, licet senuisset et vires forent corpore debilitate, erat tamen in
+				<lb/>eloquio facundus et morum honestate plurimum decoratus. Inquit
+			<lb/>enim:</p>
+			<p><lb/>«Ad vos clamito, cives anchonitani, qui de nobili Romanorum
+				<lb/>prosapia originem contraxistis, qui hactenus tanquam viri pro
+				<lb/>tuitione libertatis pugnastis, ut senescentis vocem audire velitis, et
+				<lb/>eiusdem studiosius intelligere signiticatum. Non enim loqui proposui,
+				<lb/>ut consulatum desiderem adipisci, quia, quod etas negat, credere
+				<lb/>nemo debet. Non exordiri volui ut captem benivolentiam perorando,
+				<lb/>quia loqui plura michi labor est, non emolumentum. Non surrexi
+				<lb/>ad apparentiam vel inanis glorie fastum, quia huius seculi pompa michi
+				<lb/>iam emarcuit, cum vix lumen celi videam, et fervor spiritus ad
+				<pb n="130"/>
+				<lb/>sublimiora conscendat; unde, cum subtiliter futura contemplor,
+				<lb/>utriusque hominis intelligo fieri geminam resolutionem. Audite
+				<lb/>igitur vocem premortui senis, audite et intelligite verba mea,
+				<lb/>quoniam in puritate consientie loquar, nec pretermittam dicere que
+				<lb/>videro expedire. Fui eo tempore vir consularis, quo rex Lotarius nos
+				<lb/>in manu valida obsedit, credens civitatem servituti perpetue subiugare.
+				<lb/>Recessit tandem, spe propria frustratus et honeratus proprio
+				<lb/>labore; nam ante ipsum et postea quidam imperatores idem fecere
+				<lb/>temptaverunt, qui suum similiter propositum nequiverunt ducere ad
+				<lb/>effectum. Que igitur igominia esset, ut uni clerico redderetur civitas,
+				<lb/>que regibus et principibus contradixit ? Qua fronte de cetero
+				<lb/>loqui possetis, si archiepiscopalis mitra superaret civitatem, quam
+				<lb/>regalis, immo imperialis corona non potuit expugnare? Sustinete
+				<lb/>modicum et nolite pertimescere, quia potens est Dominus et miserebitur
+				<lb/>vestri. Sustinete igitur et pugnate viriliter, quoniam in
+				<lb/>maximo certamine triumphus glorie acquiritur, et qui non desistit
+				<lb/>currere, bravium recipit peroptatum. Si famem patiemini, et utiliter
+				<lb/>pugnaveritis, vobis redundabit ad gloriam; quoniam gulosi et ebrii
+				<lb/>effeminati et pusillanimes reperiuntur. Temptetis etenim quecumque
+				<lb/>comedi possunt, quia omne, quod in os intrat, in ventrem vadit,
+				<lb/>et per secessum emittitur. Porro, si pactum feceritis cum cancellario,
+				<lb/>tantum servabit positum, quousque ipsum poterit sub alicuius iuramenti
+				<lb/>vinculo violare. Nolite itaque mittere serpentem in sinu,
+				<lb/>murem in peram, lupum in ovile, adulterum cum virgine: quia male
+				<lb/>remunerant hospites suos. Nam hoc probavi, hoc experimento
+				<lb/>didici, quod raro potest inter Latinos et Teutonicos perfecta dilectio
+				<lb/>inveniri. Reminiscamini tandem maxime urbis Mediolani, quam
+				<lb/>Fredericus imperator modernis temporibus cum Lombardis per
+				<lb/>septennium obsedit; et cum eam non posset vi aliqua expugnare, sub
+				<lb/>occasione pactorum fuit civitas penitus destructa, et in burgos miserabiliter
+				<lb/>tripertita. Post destructionem autem, quantam cives mediolanenses
+				<lb/>in personis et rebus passi fuerint iacturam, longum esset
+				<lb/>per singula enarrare. Nam plures in terram Saracenorum iverunt,
+				<lb/>numquam ad propria redeuntes; unde ipso rum sanguis versus est in
+				<lb/>barbaras nationes, et qui erant imitatores christiani nominis, effecti
+				<pb n="132"/>
+				<lb/>sunt primitie ydolorum. Sit ergo vobis hoc salutiferum exemplum,
+				<lb/>quoniam, si lignum viride tam acriter ignis consumpsit, in sicco quid
+				<lb/>faceret non indiget explanatione. Vestra res nunc agitur, et proximus
+				<lb/>est paries exustus; unde vos tollere moras oportet, quoniam in mora
+				<lb/>modici temporis quandoque dampnum occurrere posset. Succurratis
+				<lb/>ergo propere, et cum ingenti pecunia legatos mittite pro exercitu; et
+				<lb/>si potueritis aliquem habere succursum, valebitis merito gloriari;
+				<lb/>alioquin proiciatis universam pecuniam in mare, egrediamini foras,
+				<lb/>et cum inimicis pariter moriamini; quia minus malum est in bello
+				<lb/>commori, quam videre civitatis destructionem et pati obprobrium
+				<lb/>sempiternum.»
+				<lb/>Finita siquidem oratione, ita fuit omnibus persuasum, ut nullus
+				<lb/>contradicere auderet sententie senis. Fuerunt electi continuo tres
+				<lb/>nobiles cives, qui miraculose in modica barca, inter naves et galeas
+				<lb/>obsidentium, cum ingenti pecunia exiverunt, properantes ut ercitum
+				<lb/>aliquem congregarent. Venere siquidem ad Guilglelmum Marcheselli
+				<lb/>nobilem civem ferrariensem, cuius consilio ad comitissam de
+				<lb/>Brettinoro accesserunt, implorantes ab ea humiliter consilium et
+				<lb/>iuvamen. Illa vero, eorum precibus condescendens, iussit ut
+				<lb/>tam milites quam pedites per totum suum comitatum ad
+				<lb/>espeditionem arma pararent. Vilglelmus vero in Lombardiam
+				<lb/>properans,
+				<lb/>cepit studiose milites congregare. Sed audi viri constantiam et
+				<lb/>inauditam animositatem. Obligaverat enim omnes possessiones suas
+				<lb/>pro exercitu congregando. Cum autem ei sua penitus deficerent, filios
+				<lb/>amicorum et fidelium acquisivit, promittendo patribus quod eos ad
+				<lb/>militarem gloriam promoveret. Ivit postmodum, omnesque pigneri
+				<lb/>obligavit. Sicque congregato exercitu, venit iuxta Ravennam, ubi
+				<lb/>reperit Petrum Traversarium, nobilissimum ravennatem civem, qui
+				<lb/>partem cancellarii fovebat, et congregaverat multos milites ut
+				<lb/>impediret exercitum istius. Tunc Vilglelmus ad ipsum accessit,rogando
+				<lb/>eum tamquam fratrem, quia consobrinus eius erat, quod eum in hac
+				<lb/>parte nullatenus impediret. Ille autem respondit se fidelem imperii
+				<lb/>esse, atque cancellarii amicum, unde preces eius exaudire nequibat.
+				<lb/>Videns autem Vilglelmus quod transitum aliunde habere non poterat,
+				<lb/>quia civitates omnes, preter Ariminum, erant sibi contrarie,
+			<lb/>locutus est in bono dolo Petro Traversario et dixit:</p>
+			<pb n="134"/>
+			<p><lb/>« Dimittamus exercitus, quos habemus, et singuli ad propria
+				<lb/>revertantur, et ambo pariter Anchonam eamus, et laboremus pro compositione ».
+				<lb/>Placuit enim illi hoc verbum, et promisit uterque, quod
+				<lb/>suum exercitum licentiaret. Precepit namque Petrus Traversarius
+				<lb/>primo suis militibus, ut ad propria reverterentur; Vilglelmus vero, cum ad
+				<lb/>suos accederet, ait: «Promisi et pepigi Petro Traversario ut dimittam exercitum, et
+				<lb/>cum eo promisi Anchonam ire pro compositione. Unde precipio ut
+				<lb/>revertamini; verumtamen in animo revolvite, sicut viri sapientes,
+				<lb/>utrum vos a iuramento, quod fecistis, absolvere valeam, et quid
+			<lb/>vobis sit in hac parte agendum ».</p>
+			<p><lb/>Et his dictis, reversus est ad Petrum Traversarium, et cepit cum
+				<lb/>eo ire Anchonam. Athelardus vero, frater Gulielmi, tamquam
+				<lb/>vir strenuus et prudens, intellexit verba fratris, remansitque cum exercitu
+			<lb/>et cepit militibus referre:</p>
+			<p><lb/>«Scitis, o viri nobiles et potentes, quod frater meus non est papa
+				<lb/>vel episcopus, qui possit vos solvere a vinculo iuramenti. Nam ego
+				<lb/>ipse vobiscum iuravi, si evidens impedimentum non comparuerit,
+				<lb/>ire Anchonam pro civitatis liberatione. Temptemus ergo fortunam
+				<lb/>et eamus, quia potens est Dominus, et prosperabitur iter nostrum».
+				<lb/>Tunc iuxta noctis crepusculum iter arripuerunt, facientes transitum
+				<lb/>iuxta menia urbis Ravenne. Cum autem venissent Ariminum,
+				<lb/>et ecce Petrus Traversarius, elevans oculos, vidit exercitum
+			<lb/>Vilglielmi propere venientem, et ait:</p>
+			<p><lb/>«Captus sum, ut piscis amo, et sicut avis improvida in retiaculum
+			<lb/>cecidi deceptoris».</p>
+			<p><lb/>Tunc respondit ei Vilgliemus et dixit:</p>
+			<p><lb/>«Hec ita peracta sunt, nec potest aliud fieri. Nichilominus
+			<lb/>tamen eamus, et laboremus pro compositione».</p>
+			<p><lb/>Petrus vero, immenso fatigatus dolore, dixit ei:</p>
+			<p><lb/>« Tu deposita componis, et composita derelinquis, set in tuis
+				<lb/>dolosis compositionibus de cetero non confidam, quia fregisti positum,
+				<lb/>et michi male in omnibus respondisti.»
+				<lb/>Vilglielmus quidem cum ingenti exultatione et inenarrabili
+				<lb/>tripudio ad exercitum est reversus, et prestolatus est ibi exercitum
+			<lb/>comitisse de Brettinoro.</p>
+			<pb n="136"/>
+			<p><lb/>Quod autem superius dixi, quod in bono dolo fuerit locutus, est taliter
+				<lb/>intelligendum. Bonus enim dolus idcirco dicitur, quia nullis
+				<lb/>nocuit et multos a mortis periculo liberavit. Sed quis audivit parem
+				<lb/>viri liberalitatem, quoniam animam et corpus, amicos, fideles,
+				<lb/>servos, ancillas, propria et aliena in integrum obligaverat, ut civitatem
+				<lb/>liberaret Anchonitanam, in qua nullas possessiones, nullosque
+				<lb/>consanguineos vel notos habebat, neque illum exercitum
+				<lb/>ducere poterat, nisi prius transitum faceret per plurimos episcopatus ?
+				<lb/>Preterea res erat in dubio, quia pauci vel nulli sperabant quod
+				<lb/>per aliquorum suffragium posset ab obsidione civitas liberari; et
+				<lb/>maxime cum hi in itinere inimicorum vires viderentur undique prevalere.
+				<lb/>Sed dotaverat hunc virtus speciali munere, que audaciam sibi
+				<lb/>contulit et liberalitatem, utraque quarum simul existit, et cum una
+				<lb/>deest, altera privatur effectu. Utrique siquidem superaddita fuit
+				<lb/>nature benefitio sapientia, que sicut lapis pretiosus decorat anulum,
+				<lb/>ita sua claritudine radiat supradicta. Cuius igitur facundia sufficeret
+				<lb/>tanti viri laudes referre, qui virtutem divitiis preter generalem
+				<lb/>consuetudinem anteposuit, et se ipsum ac suos, quasi pro alienigenis
+				<lb/>et personis incognitis, diversis periculis et morti exponere minime
+				<lb/>dubitavit ? Unde potest dici quod fuerit militum Lombardie speculum,
+				<lb/>patrie decus, et vidutem animi exercere volentibus memoria
+			<lb/>sempiterna.</p>
+			<p><lb/>Preterea qui remanserant in civitate fame inenarrabili affligebantur,
+				<lb/>quia panis ex toto defecerat et aliqua genera leguminum non
+				<lb/>poterant inveniri. Interficiebant equos, iumenta et asinos, et immundas
+				<lb/>carnes avidissime comedebant, quoniam fames est cibi cuiuslibet
+				<lb/>introductiva. Nam et tanta fuit talium carnium caritudo, quod
+				<lb/>in capite unius asini tres aurei solvebantur. Non dimittebantur intestina,
+				<lb/>nec aliquid preter ossa relinquebatur ad edendum. Deficientibus
+				<lb/>tandem his, acceperunt coria boum, et ea post mollificationem
+				<lb/>diuturno labore coquebant. Post decoctionem vero, quidam cum
+				<lb/>piperata vini vel aceti, quidam assata in oleo, quidam etiam simpliciter
+				<pb n="138"/>
+				<lb/>comedebant. Nam, quod ab initio et ante secula non fuerat
+				<lb/>auditum, quidam eorum canes, musipulas et mures eo tempore
+				<lb/>comederunt. Alii vero salem contritum et bene mundificatum in
+				<lb/>frixorio cum oleo bulliebant, et potando vinum refocillabant ex eo
+				<lb/>animas intollerabili fame oppressas. Multi etiam accipiebant urticulas
+				<lb/>marinas, que sub aqua lapidibus adherent, et frixas in oleo
+				<lb/>comedebant. Ipse quidem urticule plurimum rubent, et non sunt erbe
+				<lb/>neque pisces, set est quedam specialis materia rei, que, dum cruda
+				<lb/>est, continet venenum; unde, plusquam tapsia carnes tumefacit
+				<lb/>humanas. Verum, quia huiusmodi victualia non erant bonorum
+				<lb/>humorum generativa, idcirco pallebant facies universorum, et vix
+				<lb/>se poterant de loco movere, nisi cum properabant ad bella. Erant
+				<lb/>enim plurimi taliter fame oppressi, quod vix usque ad introitum belli
+				<lb/>scutum portabant, et tamen ita persistebant bellando, quod etiam
+				<lb/>obsessores omnimode mirabantur. Parvuli petiebant panem, et licet
+				<lb/>esset qui frangeret eis, non reperiebatur aliquid ad frangendum.
+				<lb/>Lacrimabantur matres infantium, quia defecerat sanguis secundo
+				<lb/>calore decoctus, lac vide licet quo lactentes pueri nutriuntur; unde
+				<lb/>cum infans lac sugere conabatur, magmillam quasi aridam reperiebat,
+				<lb/>pro quo in lacrimas prorumpebat diuturnas, quia non poterat
+				<lb/>percipere nutrimentum. Profecto cum quedam lactarent pueros,
+				<lb/>moriebantur, et defunctis matribus magmillis iterum pueri adherebant,
+			<lb/>sicque reperiebantur mortui iuxta cadavera matrum.</p>
+			<p><lb/>Nam cum quedam nobilis mulier lactentem deferret in brachiis
+				<lb/>puerum, quemdam, iuxta portam civitatis, reperit balistam, qui pre
+				<lb/>fame nimia consternatus iacebat, nec poterat trahere cordam. Illa
+				<lb/>vero ipsum continuo vocavit, interrogando cur sic consternatus iaceret.
+				<lb/>Ipse autem respondit, se fame penitus esse consumptum. Illa
+			<lb/>quippe dixit:</p>
+			<p><lb/>« Iam quindecim dierum spatium est elapsum, quod non comedi
+				<lb/>nisi coria cocta: unde lac pro puero vix possum habere. Verumtamen,
+				<lb/>si vis, ore summitatem apprehendas magmille, et si aliquid
+			<lb/>attrahere potes, animam refocilla.»</p>
+			<p><lb/>Cum autem elevasset oculos, et vidisset quod esset nobilis
+				<lb/>domina, non cum parvo pudore surrexit, et apprehendens baleam,
+				<lb/>quattuor de obsessoribus in mora modici temporis interfecit. Sic
+				<lb/>enim maritate, virgines et vidue bellatores assidue ortabantur, ut
+				<pb n="140"/>
+				<lb/>virilem viderentur animum habere. Verumtamen in tantum iam
+				<lb/>exereverat fames, quod nichil fere inveniebatur ad comedendum.
+				<lb/>Unde plurimi pactum facere conabantur; de nuntiis equidem securitatem
+				<lb/>habere non poterant, et quid facere de exercitu possent,
+				<lb/>penitus ignorabant. Eadem siquidem hora domine civitatis in contionem
+			<lb/>venerunt, offerendo se ipsas et dicendo:</p>
+			<p><lb/>«Numquid asinorum carnes sunt saporosiores nostris ad edendum ?
+				<lb/>Comedite igitur nos vel proicite in mare, quia minus malum
+				<lb/>credimus esse mori, quam in illorum pervenire potestatem, qui
+				<lb/>furorem pro lege habent, et quibus presunt, nolunt vel nesciunt
+			<lb/>indulgere.»</p>
+			<p><lb/>O admiranda constantia mulierum, et inaudita promissio ab
+				<lb/>antiquis ! Nam, cum sit rara virtus, et avis rara in terra, pollicitum
+				<lb/>ammirabile, omnique ammiratione dignum, repertum est in fragili
+				<lb/>et mobili sexu. Filie Ierusalem,.cum obsideretur civitas a Tito
+				<lb/>et Vespasiano, coxerunt filios suos, et partem commederunt, partemque
+				<lb/>servaverunt. Iste autem e contrario sponte se obtulerunt ad
+				<lb/>edendum, cupientes viros et civitatem morte propria liberare.
+				<lb/>Profecto a veridicis intellexi relatoribus, quod, cum quedam mulier
+				<lb/>vidua duos haberet filios et videret eos acriter bellari, suspiravit eo
+				<lb/>quod ea die nichil comederant, neque habere poterat quid eis conferret.
+				<lb/>Tunc domum est absque dilatione reversa, et latenter fecit sibi
+				<lb/>venam sinistri brachii cum flebotomo aperiri, et abstractum sanguinem
+				<lb/>coxit cum speciebus, sicque contulit filiis ad edendum. Fuerunt
+				<lb/>igitur mulieres Anchonitane imitatrices matris Iohannis Ircani, de
+				<lb/>qua legitur in Veteri Testamento. Illa quippe, dum captiva teneretur
+				<lb/>cum duobus filiis suis a Tolomeo, qui maritum eius Simonem et
+				<lb/>duos filios sub proditione interfecerat, iussit filio suo Iohanni, qui
+				<lb/>Tolomeum ipsum obsidebat, ut eam et fratres interficeret cum
+				<lb/>machina, ne illius scelus relinqueretur inultum. Illam namque ac
+				<lb/>filios eius Tolomeus super menia posuerat, ut Iohannes Yrcanus
+			<lb/>murum non frangeret civitatis.</p>
+			<p><lb/>Ad hec surrexit imperatoris constantinopolitani legatus, qui
+				<lb/>Constantius vocabatur; cuius causa dicebatur esse civitas obsessa.
+				<pb n="142"/>
+				<lb/>Imperabat enim tunc in urbe constantinopolitana serenissimus
+				<lb/>Hemanuel, qui miserat istum in Italiam, ut compararet quasdam
+				<lb/>civitates et bona civium, et eisdem postmodum suo nomine omnia
+				<lb/>redderet in feudum. Hic siquidem plurimum timebat ne illum
+				<lb/>Anchonitani traderent in manibus cancellarii, quoniam pro ipso
+				<lb/>venerat, et aliud a civibus non querebat; quod facere penilus renuerunt.
+				<lb/>Unde commendanda, immo plurimum extollenda est Anchonitanorum
+				<lb/>liberalitas, et maxime cum in necessitatibus nemo consueverit
+				<lb/>existere liberalis. Erat enim vir sapiens, discretus, eloquens,
+				<lb/>et curialitate multimode redimitus; pro quibus maximam in eiusdem
+				<lb/>imperatoris curia dignitatem habebat, de qua «protosevasto» dicebatur.
+				<lb/>Hic enim infinitam expendit pecuniam pro sua et civitatis
+				<lb/>liberatione, et in omnibus maximum praestitit patrocinium Anchonitanis.
+				<lb/>Surrexit hic et alta voce clamavit «Pantochir», id est, salvantem
+				<lb/>omnia, addendo «eleyson» et quedam greca vocabula, que huic non
+				<lb/>sunt libro inserenda, quoniam latinis non debemus apponere
+				<lb/>grecum. Finita siquidem, secundum Grecorum morem, Dominica
+				<lb/>invocatione, hoc modo populum alloquitur anchonitanum:
+				<lb/>«Si polite non peroravero, parcat mihi universitas vestra,
+				<lb/>quoniam inter Grecos nutritus verbis non valeo integraliter exprimere
+				<lb/>latinis quod homo interior ymaginarie preconcepit. Multa
+				<lb/>siquidem ad utilitatem vestram referre proposueram, que plectro
+				<lb/>nequeo lingue formare; quia dum vocis mee prolatione reverberatur
+				<lb/>aer, vox resonat semiplena, unde non possum animi exprimere affectum,
+				<lb/>neque vobis, ut desidero, complacere. Humili vos igitur prece
+				<lb/>deposco ut non simplicem verborum positionem, sed proferentis
+				<lb/>consideretis affectum, quoniam ex sermone simplici medullatus
+				<lb/>multotiens percipitur intellectus. Nec est curandum si arbor fuerit
+				<lb/>tortuosa, dummodo saporiferum conferat fructum. De spineto
+				<lb/>quidem rosa colligitur, sed ulmus omni tempore constat infructuosa.
+				<lb/>Inter Grecos namque habet mandragora vires, sed apud quosdam
+				<lb/>Latinos mel est veneno permixtum. Greci barbas deferunt, ut se
+				<lb/>viros esse meminerint, Latini suas abradunt, ut quamdam assumant
+				<lb/>speciem iuventutis. Abrasis barbis, iuvenantur plurimi. Utinam
+				<lb/>senectus in morbus consistat! Set grecum non facit barba virum,
+				<pb n="144"/>
+				<lb/>neque latinum abrasio naturaliter iuvenari. Recessit estas, et in fine
+				<lb/>consistitis attumpni. Yemps venit, et tonitrua comparuere. Cadunt
+				<lb/>grandines et tempestates, quas vos timere non oportet, quoniam estis
+				<lb/>in domibus, quas patres vestri antiquitus construxere. Set licet
+				<lb/>latrent canes ad lunam, adhuc est leena it angulo; et si viri
+				<lb/>esse volueritis, privati oppinione recedent. Vasa figuli probat fornax, et
+				<lb/>viros probos immensitas tribulationum. Aurum purgatum ponitur in
+				<lb/>coronis, et dum resplendet in clippeis, facies exilarat; set eruginosum
+				<lb/>creditur esse falsum. Venerunt alienigene, vinum novum in
+				<lb/>utres veteres mittentes; set, licet sit plane ingressus, mordebit tamen
+				<lb/>in novissimo ut coluber, quoniam nullum vitium ebrietas excusat.
+				<lb/>Serpens comparuit nocturnalis, habens in capite cristam; cantat ut
+				<lb/>gallus, dulcedinem portat in ore, et sicut scorpio fundit cum cauda
+				<lb/>venenum. A fructu cognosco arborem, et opera per effectum. Quis
+				<lb/>umquam audivit lupi naturam, et gestus vulpis quis consideravit ?
+				<lb/>Lupus rapit, vulpis decipit, et vermis araneus telam orditur et tendit.
+				<lb/>Set quid, si hec tria in unum conveniant, et in eodem omnia reperiantur?
+				<lb/>Canis famelicus appetit ossa; set caninus non remittitur
+				<lb/>appetitus, nisi caput revolverit in intestinis. Petit partem ut habeat
+				<lb/>totum, et cum totum habet, credit habere nichil; quia semper agitat
+				<lb/>caudam, unde intelligitur petere quod non habet. Dum lupus iret ad
+				<lb/>caulas, nigram induit cucullam, et in compatres asinum et arietem
+				<lb/>conquisivit, unde ipsos et eorumdem propaginem in proprio
+				<lb/>sanguine baptizavit. Verbis ergo mollibus credere nolite, set substinete
+				<lb/>modicum et expectate paulisper; quoniam in proximo diem
+				<lb/>videbitis desideratum, et cantabitis canticum novum, canticum letitie,
+				<lb/>iocunditatis et exultationis in terra propria et aliena; et cum vestri
+				<lb/>nominis atque constantie fama resonabit ubique terrarum, benedicetur
+			<lb/>nomen vestrum ex generatione in generationem.»</p>
+			<p><lb/>Complacuit oratio Greci, et multam receperunt cives ex ipsius
+				<lb/>persuasione audaciam, unde firmiter proposuerunt eius voluntati et
+				<lb/>consiliis parere. Sed vix orationem perfinierat, quando legatorum
+				<lb/>nuntii civitatem latenter intrarunt, ferentes litteras, in quibus continebatur
+				<lb/>ut securiter consisterent omnes, quoniam paratus erat exercitus
+				<pb n="146"/>
+				<lb/>ingens pro eorum liberatione. Cancellarius vero, sicut subdola
+				<lb/>vulpis, excogitavit qualiter Anchonitanos decipere posset. Fecit
+				<lb/>quippe fieri ex parte legatorum litteras falsas, et Anchonitanis per
+				<lb/>quendam nuntium apportari. Litterarum siquidem tenor talis erat:
+				<lb/>«A gemitu et inenarrabili dolore stilus noster initium sumit, et
+				<lb/>narrationis nostre series progreditur a carmine doloris, quia dum pro
+				<lb/>liberatione vestra faceremus exercitum congregari, aurum quod
+				<lb/>portaveramus ammisimus, et Lombardi non audent nobis prebere
+				<lb/>auxilium pro imperatoris timore. Comitissa namque de Brettinoro
+				<lb/>suum violavit promissum, quia timet exercitum, quem nuper imperator
+				<lb/>cancellario mittit. Unde vobis firmiter consulimus, ut antequam
+				<lb/>hec presentiat cancellarius, cum eo qualitercumque componatis,
+				<lb/>quoniam a nobis non potestis de cetero aliquod suffragium
+			<lb/>prestolari.»</p>
+			<p><lb/>Anchonitani vero, videntes has litteras, ceperunt dubitare plurimum,
+				<lb/>et ignorabant quid facere deberent. Verumtamen priores
+				<lb/>nuntii iuramento firmabant, hec esse penitus falsa, et constantissime
+				<lb/>perhibebant testimonium veritati. Grecus vero, hec audiens, cepit
+				<lb/>aliquantulum subridere, et apprehendes manu dextra barbam, coram
+			<lb/>omnibus dixit:</p>
+			<p><lb/>«Frustra rete iacitur ante oculos pennatorum. Non enim sumus
+				<lb/>strutiones, qui suos absque causa desuerunt nidos. Non sumus etiam
+				<lb/>musce morientes, ut taliter suavitatem perdamus unguenti; neque
+				<lb/>ranunculi, qui pro quolibet strepitu refugiunt in aquam. Set merito
+				<lb/>posset nostre supersedere derisioni cancellarius, si nos hoc problemate
+				<lb/>superaret, et duceret ad inconveniens per silogismum cognite
+				<lb/>figure; sed, antecedenti destructo, modica vel nulla est habitudo
+			<lb/>localis, et vis inferentie annullatur.»</p>
+			<p><lb/>Elapsis postmodum paucis diebus, ecce Vilglielmus Marcheselli
+				<lb/>et comitissa de Brettinoro cum ingenti exercitu comparuerunt,
+				<lb/>habentes vexillum aureum in acie prima. Fecerant quippe duodecim
+				<lb/>catervas militum, et in qualibet ducentos posuerant preelectos:
+				<lb/>vulgares vero milites et populus vix poterant pre multitudine numerari.
+				<lb/>Castrametati sunt autem in quodam monte non longe ab exercitu
+				<lb/>cancellarii, quia inclinata erat iam dies, unde prelium incipere
+				<lb/>nequibant. Tunc Gilglielmus, ascendens in eminentiorem locum,
+				<pb n="148"/>
+				<lb/>precepit ut omnes militum peditumque cohortes convenirent
+				<lb/>propere ad audiendum, et cepit in hunc modum coram omnibus
+			<lb/>perorare:</p>
+			<p><lb/>«Ordo rerum exigit et instantis periculi necessitas requirit, ut
+				<lb/>pro comuni utilitate aliqua in medio vestrum referam, et ea dicere
+				<lb/>non postponam, que ad comune videbo commodum pertinere. Cum
+				<lb/>nuper Ferrarie consisterem, et deliciis temporalibus secundum
+				<lb/>patrie consuetudinem potirer, plurimis referentibus intellexi, quod
+				<lb/>cancellarius et Veneti civitatem Anchonam obsidebant, eam absque
+				<lb/>causa rationabili destruere cupientes. Que, licet meum animum
+				<lb/>plurimum commomoverent, me tamen a quiete minime removerunt,
+				<lb/>nisi cum cives et civitatis dominas tanta intellexi penuria laborare,
+				<lb/>quod equorum carnes et marcida intestina loco cibariorum desiderabilium
+				<lb/>commedebant. Ad hoc quod iudicium valerent evadere
+				<lb/>destructionis, excogitavi continuo summam esse virtutem consimilia
+				<lb/>agravamina patientibus pro tuenda libertate favorem et patrocinium
+				<lb/>exhibere. Dignum siquidem est et rationi consentaneum
+				<lb/>suffragari virtuosis, ut de virtute in virtutem ascendant. Unde
+				<lb/>postquam Anchonitanorum nuntios vidi, sponte me illis obtuli ad
+				<lb/>serviendum, quia fama preambula sic me animaverat, quod eis
+				<lb/>meum obsequium denegare nequibam. Est enim fama celebris, res
+				<lb/>persuasibilis, et animositatis inductiva; et multotiens non minus
+				<lb/>persuadet fama quam factum. Accessi ergo prius ad speculum dominarum,
+				<lb/>comitissam de Brettinoro, que hic est cum unico filio et
+				<lb/>magnificis viris de comitatu suo, rogans eam ut Anchonitanis dignaretur
+				<lb/>misericorditer subvenire. At ipsa liberaliter promisit et, prout
+				<lb/>corporeis oculis videre potestis, promissum liberalius conservavit.
+				<lb/>Venistis postmodum non tantum ad persuasionem meam, quantum
+				<lb/>probitate animorum, et causa conquirendi nomen perpetuum, o egregii
+				<lb/>viri Lombardie atque Romaniole, ut vestram ostendatis in necessitate
+				<lb/>virtutem. Ceterum non traxit aliquos vestrum metus vel cupiditas,
+				<lb/>que mortalium sollicitant animos, sed ut vestras vires
+				<lb/>exerceatis in tempore oportuno. Ego vero propria et aliena in integrum
+				<lb/>obligavi, et solummodo michi supersunt animus et corpus; sed
+				<lb/>hec ipsa, que michi de multis relicta sunt, pro Anchonitanorum
+				<lb/>cupio exponere liberatione. Profecto qui se ipsum et sua exhibet,
+				<pb n="150"/>
+				<lb/>ultra non relinquitur ad exhibendum. Preterea scire debetis qui sunt,
+				<lb/>contra quos arma movemus. Qui sint ignoratur, quia non est certum
+				<lb/>relativum substantie, cum de omnibus mundi partibus sola necessitatis
+				<lb/>causa convenerint ad vivendum, et non considerant quem
+				<lb/>secuntur, sed quid consequi possunt. Omnes enim homines sunt
+				<lb/>inimici eorum, et presertim illi a quibus valent pecuniam extorquere.
+				<lb/>Et licet plurimi eorum sint filii nobilium, in hoc se maxime denobilitarunt,
+				<lb/>quod raptorum catervis cupiunt aggregari. Numquam enim
+				<lb/>fuit adeo approbata nobilitas, quam pravorum consortium non denigret.
+				<lb/>Archiepiscopus autem cum tali bus clericis sua celebrat officia,
+				<lb/>qui mentiri et furari noverunt, et rapere appetunt aliena. Sed quantus
+				<lb/>sit pudor cuilibet militi sub cleri'cali militare vexillo, vix verbis
+				<lb/>exprimi posset. Legitur enim, et in perpetua memoria retinebitur, de
+				<lb/>gloria militum Alexandri Macedonis, et maximorum principum; set
+				<lb/>clericorum gesta circa predicationes et ecclesiastica officia continentur.
+				<lb/>Laus enim sic debet unicuique ordini attribui, ut quod unius
+				<lb/>est, alteri minime conferatur. Non sunt ergo milites qui sub eo
+				<lb/>militant, sed raptores: unde non auderent nos exspectare in bello,
+				<lb/>sed fugient a facie nostra tamquam milvi a facie aquilarum. Sed si
+				<lb/>forte inebriati presumptione vel stultitia nos prestolari auderent,
+				<lb/>ipso rum corpora escas volatilibus celi tradamus, et supponamus
+				<lb/>omnes tanto ludibrio, quod ubique terrarum universi raptores et
+			<lb/>malefici contremiscant.»</p>
+			<p><lb/>Animavit autem oratio Wilglielmi Marcheselli milites et pedites
+				<lb/>universos. Unde sic alta voce omnes clamaverunt «fiat», quod
+				<lb/>totus exercitus cancellarii exterruit, et cives cum ingenti tripudio in
+				<lb/>exultationis et iocunditatis voces continuo proruperunt, verba non
+				<lb/>parum ignominiosa cancellario et obsessoribus proponendo.
+				<lb/>Surrexit postmodum comitissa de Brettinoro, que Aldruda
+				<lb/>vocabatur, pollens nobilitate nature, quia originem contraxerat in
+				<lb/>Urbe de nobile prosapia Fraiapanum. Curialitatis et largitionis titulis
+				<lb/>decorabatur, quia manus eius omnibus exstitit liberalis. Specie
+				<lb/>quippe ac forma corporis ita inter dominas radiabat, sicut, appropinquante
+				<lb/>aurora, pre ceteris stella matutina relucet. Erat enim vidua et
+				<lb/>animosa plurimum, pro quibus poterat similari Iudith, que Olofernem
+				<pb n="152"/>
+				<lb/>interfecit et populum israeliticum liberavit. Ita siquidem taliter alloquitur
+			<lb/>universos:</p>
+			<p><lb/>«Favoris et gratie celestis robore premunita, preter generalem
+				<lb/>consuetudinem feminarum, inter vos perorare disposui, credens
+				<lb/>quod, licet oratio mea verborum non radiet venustate neque phylosophycis
+				<lb/>prefationibus picturetur, erit tamen vobis ipsius exortatio
+				<lb/>fructuosa: quia sepe accidere coasuevie, quod sermo simplex animos
+				<lb/>roborat auditorum, et apparata eloquentia demulcet aures exteriores.
+				<lb/>Non traxit me huc affectio dominandi, non aliqua temporalium
+				<lb/>ambitio, non exactio rerum alienarum: quia post mariti mei decessum,
+				<lb/>licet merens, toti comitatui dominor sine contradictione.
+				<lb/>Castellis namque, burgis, villis et possessioni bus taliter abundo,
+				<lb/>quod vix propria valeo custodire, Profecto illorum solet esse consuetudo
+				<lb/>velle rapere aliena, quibus est curta suppellex et facultates
+				<lb/>proprie non suppetunt ad vivendum. Induxit me igitur miserabilis
+				<lb/>afflictio civium Anchonitanorum, et lacrimose dominarum preces,
+				<lb/>que, ultra quam dici possit, in obsidentium potestatem venire trepidant,
+				<lb/>quoniam earum corpora ludibrio supponerent sempiterno.
+				<lb/>Nam dampnabilis raptorum caterva ducitur arbitrio ceco, nec parcit
+				<lb/>alicui, dum adest possibilitas delinquendi. Materiam facti omnes et
+				<lb/>singuli novistis, unde me non oportet singula specificare. Ad succurrendum
+				<lb/>igitur consumptis fame, diuturnis bellis oppressis, in omni
+				<lb/>labore atque periculo positis, veni ego cum unico filio meo in pupillari
+				<lb/>etate relicto; qui, licet puer sit et pupillus, altitudinis tamen
+				<lb/>paterne recordans, animositatem iam gerit in auxiliis et protectionibus
+				<lb/>amicorum. Venistis et vos, o milites Lombardie atque Romaniole,
+				<lb/>qui tam armorum strenuitate, quam sinceritate fidei multimode
+				<lb/>refulgetis. Est enim ductor et preambulus vester Wilglielmus
+				<lb/>Marcheselli, qui sola liberalitatis causa omnes possessiones suas,
+				<lb/>amicorum ac fidelium bona, pro liberatione civitatis anchonitane
+				<lb/>pigneri obligavit. Ob quam causam quibus eum laudibus extollam
+				<lb/>ignoro, quia non sufficit lingua carnis interioris hominis exprimere
+				<lb/>voluntatem. Sic enim eum facere decebat, quia tunc efficitur aliquis
+				<lb/>virtuosus, quando virtutem animi temporalibus anteponit. Ceterum
+				<lb/>in supereminenti negotio hactenus floruistis, faciendo transitum per
+				<lb/>fauces et territoria inimicorum. Sed nunc tempus est producendi
+				<pb n="154"/>
+				<lb/>fructum et exercendi vires, quia materia virtutis adest. Pollere
+				<lb/>multotiens videtur arbor frondibus et flore, sed tota circumstantium
+				<lb/>intentio per finem fructus consequi prestolatur. Omnis quippe
+				<lb/>dilatio sit procul, que multorum sepe facit animos pigritari. Et induatis
+				<lb/>vos arma summo diluculo, ut cum sole oriatur vobis victoria, quam
+				<lb/>strenuitati vestre promisit Altissimus, pro cuius amore nitimini
+				<lb/>anchonitanum populum liberare. Sit, queso, vobis mea exortatio
+				<lb/>salutifera, et visio formosarum virginum que mecum sunt iocundatio
+				<lb/>fructuosa, quoniam non solum propter visionem, sed etiam per
+				<lb/>momentaneam recordationem dominarum arbitraria consueverunt
+				<lb/>facere milites torniamenta, in quibus ad osten(ta)tionem suarum
+				<lb/>virium bella crudelissima exercent Quanto magis ergo vos, qui,
+				<lb/>propter hoc factum, nomen perpetuum acquirendo, adipiscemini
+				<lb/>gratiam universorum, laborare debetis ad victoriam consequendam!
+				<lb/>Non parcat igitur manus vestra rebellibus, sed vestri mucrones
+				<lb/>laventur in sanguine resistentium, quia non debet illis indulgentia
+				<lb/>exhiberi, qui non recordarentur venie, si tempus occurreret delinquendi».
+				<lb/>
+				<lb/>Fecit namque oratio comitisse universas militum cohortes
+				<lb/>tanquam lilium reflorere. Unde omnes in iocunditatis et exultationis
+				<lb/>voces unanimiter proruperunt, cum tubis et timpanis choreas
+				<lb/>amenisimas facientes. Muliebris enim conditio viris facile persuadet,
+			<lb/>quoniam ab initio fuit illa persuasio naturalis.</p>
+			<p><lb/>Cancellarius autem, videns quod istis resistere nequibat, arma
+				<lb/>sub occasione faciendi prelium a Venetis mutuo recipit, noctuque
+				<lb/>cum suis omnibus, eis inrequisitis, aufugit; et Veneti, a cancellario
+				<lb/>delusi, recesserunt , sicque fuit civitas ab obsidione mirabiliter liberata.
+				<lb/>Stetit autem tamdiu ibi exercitus, quousque illi Marchiani, qui
+				<lb/>Anchonitanos diligebant horrea civitatis frumento et leguminibus
+				<lb/>repleverunt. Postmodum autem iuvenes et virgines, senes cum
+				<lb/>iunioribus anchonitane civitatis Wilgilelmo et comitisse obviam
+				<lb/>cum ingenti gaudio venerunt, larga et magnifica dona eis unanimiter
+				<lb/>offerentes. Comitissa postea, cum exercitu revertens, plurimos in
+				<lb/>via reperit inimicos, quos bellando magnifice superavit; sicque
+			<lb/>rediit ad propria cum triumpho.</p>
+			<p><lb/>Wilglielmus vero Marcheselli Constantinopolim ivit, ubi tanquam
+				<pb n="156"/>
+				<lb/>princeps potentissimus est receptus. Resedit enim in dextro
+				<lb/>latere imperatoris, et in imperiali palatio, donec in curia esse voluit,
+				<lb/>honorifice permansit. Honoraverunt eum archontes et archontisse,
+				<lb/>et tam pusilli quam magni cives urbis constantinopolitane. In suo
+				<lb/>quidem recessu aurea vasa et argentea ei largitus est imperator, et
+				<lb/>insuper tot aureos sibi fecit liberaliter exhiberi, de quibus omnia,
+				<lb/>que pro facto Anchonitanorum obligaverat, a debitorum vinculo
+				<lb/>exsolvit. Insuper donavit ei vestes imperiales, que auro et lapidibus
+				<lb/>pretiosis erant undique inter- interserte. Dedit sibi equos, papilionem,
+				<lb/>aureumque vexillum, et quicquid ad apparatum militis pertinebat.
+			<lb/>Sicque gloria multiplici decoratus in Italiam remeavit.</p>
+			<p><lb/>Post aliquot autem annos magnilicus et inclitus Conradus,
+				<lb/>marchio Montisferrati, qui, regno Ierosolimitano devicto, Tirum ab
+				<lb/>obsidione Saladini nationisque barbarice liberavit, cum prefato
+				<lb/>cancellario commisit prelium iuxta Camerinum, in quo eum super
+				<lb/>quadam rupe prope arcem, que dicitur Pioragum, cepit, ipsumque
+				<lb/>non modico tempore detinuit catenis ferreis religatum. Exivit
+				<lb/>demum de carcere, et dum consuetam duceret vitam, mors eum
+				<lb/>Tusculani conclusit, et tunc illum penituit de commissis, cum non
+			<lb/>potuit amplius lascivire.</p>
+			<p><lb/>Obsessa fuit anchonitana civitas anno dominice incarnationis
+				<lb/>.MCLXX. secundo. Elapsis postmodum aliquot annorum curriculis,
+				<lb/>post mortem videlicet imperatoris Henrici, qui regnum Sicilie obtinuit,
+				<lb/>convenerunt Auximani cum Firmanis et Fanenses cum Esinatibus,
+				<lb/>molientes anchonitanos cives, propter invidiam, guerris continuis
+				<lb/>lacessire. Invidia enim est aliene felicitatis aculeus, qui sola
+				<lb/>invidentium precordialia pungit. Et licet tante multitudini viriliter
+				<lb/>resisterent, plenariam tamen per alicuius vel aliquorum industriam
+				<lb/>non poterant victoriam adipisci. Unde, comunicato consilio, Ugolinum
+				<lb/>Gosie, nobilem bononiensem civem, in dominum elegerunt; in
+				<lb/>quem nature dotes universe confluxerant, quoniam forma corporis
+				<lb/>et morum nobilitate multimode prepollebat. Erat enim iustitie atque
+				<lb/>imperatoris miles, pro quibus obtinebat insignia dupplicis honoris.
+				<lb/>In eo siquidem imperatoria maiestas armabatur legibus armisque
+				<lb/>decorabatur, quod raro in iuris peritis accidere consuevit. Et licet ex
+				<pb n="158"/>
+				<lb/>ipsius nobili prosapia multi commendabiles extiterint, eius tamen
+				<lb/>avus Martinus Gosia non est sub silentio relinquendus qui dictus est
+				<lb/>copia legum, cuius oppinio erat libertatem non posse ab aliquo
+				<lb/>exhiberi, sed detegi a quodam velamine servitutis; unde precipuus
+				<lb/>libertatis patronus potuit nuncupari. Ab ipso quidem Wilglielmus,
+				<lb/>pater istius, traxit originem, qui propter legum scientiam et alia
+				<lb/>nature dona inter iuris peritos velud speculum renitebat, et in aula
+				<lb/>imperiali pre cunctis Italie civibus honorari promeruit, et ab imperatore
+			<lb/>Federico specialis dilectionis privilegio communiri.</p>
+			<p><lb/>Miserunt namque cives anchonitani legatos Bononiam, qui
+				<lb/>prefatum Ugolinum Anchonam ducere properarent. Cum autem
+				<lb/>quod eis iniunctum fuerat prosequi studerent, Bononienses et omnes
+				<lb/>Romaniolos inter Faventiam et Forlivium in exercitu repererunt, ubi
+				<lb/>eum, facta celebri contione, sollempniter petivere. Qui dum a potestate
+				<lb/>Bononiensium et ab universitate militum ac totius populi, ut
+				<lb/>dominium reciperet, cogeretur, in ipsa contione commendabiliter
+				<lb/>peroravit, probando rethoricis argumentis quod alicuius civitatis
+				<lb/>offitium vel dominium recipere non debebat. Cuius orationem tunc,
+				<lb/>ipso referente, audivi; unde illam huic operi conscribere procuravi.
+			<lb/>Orationis vero tenor hic fuit:</p>
+			<p><lb/>«Licet de gererali consuetudine procedere videatur, quod in sue
+				<lb/>orationis principio quilibet ab auditoribus audientiam querant,
+				<lb/>michi tamen videtur posse absque dicentium preiuditio taceri,
+				<lb/>quoniam expresse videtur audientiam postulare qui se preparat ad
+				<lb/>dicendum, et expressius, cum dicere incipit quod peroptat. Verum
+				<lb/>quia non est facile consuetudini refragari, auduri, sicut moris est,
+				<lb/>postulo, et intelligi propensius concupisco, quoniam qui auditur et
+				<lb/>non intelligitur, domum hedificat super arenam, et albedinem
+				<lb/>in Ethiope contemplatur. Audiri tamen deposco attentius, quia non
+				<lb/>sepe consuevi surgere in contionibus locuturus. Tirones enim,
+				<lb/>quamquam sint animosi plurimum, primum et secundum congressum
+				<lb/>prelii verentur, et qui navigare incipiunt, undas minimas pertimescunt.
+				<lb/>Vos igitur supplici prece deposco, ut audire velitis et intelligere
+				<lb/>que vestre magnitudini a parvitate mea breviter proponentur.
+				<pb n="160"/>
+				<lb/>Scitis equidem, quod meorum antecessorum fama ubique terrarum,
+				<lb/>propter scientie magnitudinem, celebris extitit et festiva. Remansi
+				<lb/>tandem sicut rivulus a fontibus progrediens, ob quam causam de
+				<lb/>propriis et alienis multa michi negotia superincumbunt. Preterea
+				<lb/>suscepi nuper militie cingulum, unde provectioribus adhuc subesse
+				<lb/>debeo et non civitati alicui potestari. Nam in illo qui preficitur debet
+				<lb/>esse perfecta etas, morum honestas et sapientia comprobata; sed
+				<lb/>iuvenilis conditio flexibilis est non modicum et procliva, nec inest
+				<lb/>ei tanta gravitas, quod excedentium levitatem reprimere queat. Est
+				<lb/>et alia necessaria ratio, que me ab hoc proposito retrahit; nec potest
+				<lb/>aliquis rationabiliter contravenire. Militavi siquidem sub senatoribus
+				<lb/>sapientie, iuris vide licet peritis, addiscendo iura civilia ut
+				<lb/>patrum vestigia imitarer; et nondum elapso unius anni spatio,
+				<lb/>promerui de ipsorum beneplacito et assensu in cathedra residere, ac
+				<lb/>illorum consortio aggregari, qui sunt candelabra lucentia, et quorum
+				<lb/>scientia mundus regitur et illustratur; unde non decet me studium
+				<lb/>relinquere inchoatum; videtur enim quodlibet principium esse frivolum
+				<lb/>et ineptum, nisi per incipientis ministerium finem congruum
+				<lb/>sortiatur. Ceterum firmiter scio et toti est Italie manifestum quod
+				<lb/>anchonitana civitas potens est plurimum et famosa, et ipsius vires
+				<lb/>tam in mari quam terra latius protendantur. Sed si urbis dominium
+				<lb/>hoc tempore michi daretur, absque sociorum licentia, quos iura
+				<lb/>doceo, quibus iure teneor, presum et subsum, recipere non auderem.
+				<lb/>Bononiam igitur, auxiliante Domino, revertar, ipsorumque voluntati
+				<lb/>amicabiliter parebo, et procedam in hiis et aliis, prout michi consulere
+			<lb/>dignabuntur. »</p>
+			<p><lb/>Finita siquidem oratione, vulgus clamavit altius: «fiat! fiat!»,
+				<lb/>et quod dictum fuerat commendabat. Ille vero postmodum Bononiam
+				<lb/>rediit: sicque impetrata licentia sotiorum venit Anchonam, ubi
+				<lb/>vires animi atque corporis exercuit, sicut res eo tempore postulabat.
+				<lb/>Nam in principio sui adventus Firmanos a Sancto Elpidio cum
+				<lb/>paucis militibus removit, et Auximani emuli Anchonitanornm per
+				<lb/>ipsius industriam plurima incommoda sustinuere, quoniam castrum
+				<lb/>quod dicebatur Podium ammiserunt, in quo captus est nobilis Paulus
+				<pb n="162"/>
+				<lb/>de Lamarina, eiusdem castri dominus et possessor. Et cum postea
+				<lb/>congregassent exercitum, de campo fugere, sicque dupplicis pudoris
+				<lb/>infamia sunt respersi. Quod Firmani firmiter sciunt, quia cum eos
+				<lb/>prefatus Ugolinus Gosie iterum a Sancto Elpidio paucorum militum
+				<lb/>suffrangio fugavit, iuxta ipsorum civitatem poni fecit anchonitanum
+				<lb/>vexillum; ubi paulo post prelium fuit inceptum; in quo ita viriliter
+				<lb/>pugnavit, quod omnes et singuli mirabantur. Gessit enim taliter
+				<lb/>ductoris et bellantis officium, quod paucitas multitudinem superavit,
+			<lb/>sicque Anchonam rediit, gloria triumphali refulgens.</p>
+			<p><lb/>Eius denique laudibus valerem diutius remorari; set placeat
+				<lb/>universis competens brevitas que dulciter auribus consonat, et suscipiat
+				<lb/>Anchona favorabile munus, quod sibi a Boncompagno amicabiliter
+				<lb/>exhibetur, cui Florentia contulit initium et Bononia celebre
+			<lb/>incrementum.</p>
+		</div>
+	</body>
+</text>
+</TEI>

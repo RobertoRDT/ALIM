@@ -1,0 +1,980 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Aurea gemma oxonensis</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>H. J. Beyer</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+					<name key="CC">Chiara Casali</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3174" unit="words">Parole: 3174</measure>
+				<measure quantity="20111" unit="characters_without_spaces">Caratteri (spazi esclusi): 20111</measure>
+				<measure quantity="22526" unit="characters_witht_spaces">Caratteri (spazi inclusi): 22526</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2015-08-22">22/08/2015</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: </note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<editor>H. J. Beyer</editor>
+						<title level="m">Die “Aurea Gemma”. Ihr Verhältnis zu den frühen Artes dictandi</title>
+						<imprint>
+							<publisher>Ruhr Universität</publisher>
+							<pubPlace>Bochum</pubPlace>
+                                                        <date>1973</date>
+							<biblScope unit="page">60-125</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Diss. Philosophische Fakultät Abteilung für Württembergische Bibelanstalt, 1969</title>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="801/900">IX</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB, CC" when="2015-08-22">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma anche qui c'è un problema con i &lt;p&gt;: in alcuni passi, le righe sono brevissime e non si può decidere con sicurezza dove mettere i &lt;p&gt;</item><item type="itemNotaJC">-c'erano cinque righe con un escaped html code (tipo: &lt;lb/&gt;[&amp;lt;NOCOUNT&amp;gt;&amp;lt;TABLE width=100% border=0&amp;gt;&amp;lt;TR&amp;gt;&amp;lt;NOCOUNT&amp;gt;&amp;lt;TD valign=top NOWRAP class="normale" id="SUPPCOLONNA1" width="50%"&amp;gt;]). Le ho cancellate.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="60"/>
+		<div>
+			<head><lb/>Incipit ecce liber qui dicitur "Aurea gemma".</head>
+			<div type="chapter">
+				<head><lb/>I. PROLOGUS</head>
+				<p><lb/>Liber librorum sicut cantica canticorum
+					<lb/>per excellentiam liber iste dicitur, eo quod maxima
+					<lb/>utilitas et maior quam in ceteris in eo
+					<lb/>contineatur. Intendit enim doctrinam
+					<lb/>dictandi perficere et construere et quodlibet
+					<lb/>imperfectum informare, Tullium in rethorica
+					<lb/>arte probatissimum imitando, Gregorii, Augustini,
+					<lb/>Jeronimi atque Ambrosii vestigia in dictaminis
+					<lb/>varietatibus sequendo : Tullium in
+					<lb/>faceta locutione et verborum compositione, Gregorium
+					<lb/>in dulcedine et suavitate, Augustinum in
+					<lb/>callida et subtilissima argumentatione, Jeronimum
+					<lb/>in sententiarum pondere, Ambrosium in rethorica disputatione.
+					<lb/>Quanto ergo aurum cunctis metallis preciosius
+					<lb/>et gemma naturalis ceteris lapidibus
+					<pb n="61"/>
+					<lb/>clarior et lucidior, tanto liber iste omnium
+					<lb/>auctorum breviariis cunctis invenitur eminentior
+					<lb/>Aurum itaque vel gemma potest
+					<lb/>dici; sed aurum gemme adiungas et utriusque
+					<lb/>coniunctione quiddam pulcrius et decennius,
+					<lb/>id est auream gemmam, facias. Vocetur
+					<lb/>itaque "Aurea gemma", eo quod ex fontibus doctorum
+					<lb/>quasi ex auro et gemma sit compositus
+				<lb/>et informatus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>II. INSCRIPTIO</head>
+				<p><lb/>Sociorum assidua pulsatione coactus, naturalis
+					<lb/>etiam rationis incitamento astrictus aggressus
+					<lb/>sum rem arduam, sed professionis officio
+					<lb/>non invictam et prosaicam orationem
+					<lb/>fingere cupientibus satis idoneam, opus difficile,
+					<lb/>sed tamen perutile. "Non enim", ut
+					<lb/>ait Marcus Cato, Platonis sententiam imitans,
+					<pb n="62"/>
+					<lb/>"solis nobis nati sumus", sed toti mundo natura
+					<lb/>nos peperit, educavit et docuit. Verum
+					<lb/>quia ab hominibus nostrorum temporum spernuntur
+					<lb/>aspera et spinosa dictamina et non amplectuntur
+					<lb/>diffusa, sed brevia, quedam pro capacitate
+					<lb/>ingenii sub brevitate perstrinximus
+					<lb/>et compendiosa traditione sociis nostris tradere
+					<lb/>dignum duximus, quod - licet emulorum mordeatur
+					<lb/>invidia - sapientium tamen iudicabit dignum
+					<lb/>censura, quod caritas amicis petentibus, communibus
+					<lb/>etiam utilitatibus preparabat
+				<lb/>brevitas et utilitas commendabat.</p>
+				<p><lb/>Oro itaque et moneo vos, socii, desidiam
+					<lb/>ponite, lasciviam fugite, vanas et ineptas
+					<lb/>fabulas devitate, studium adhibete, sollerti
+					<pb n="63"/>
+					<lb/>meditatione hanc veram traditiunculam legite,
+					<lb/>sollicita indagatione, discutite, sagaci intellectu
+				<lb/>capite, tenaci memorie commendate.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>III. INTRODUCTIO</head>
+				<p><lb/>Inter breve etenim spatium temporis,
+					<lb/>si meis ammonitionibus obtemperaveritis huius
+					<lb/>artis notitiam attingere valebitis; atque
+					<lb/>ne diu lectorem suspensum teneam, huius
+					<lb/>opusculi ianuam intrare cupientibus pandam.
+					<lb/>Primo itaque oportet dictatorem cognoscere
+					<lb/>grammaticam, dialeticam, rethoricam eloquentie
+					<lb/>studia huic operi necessaria,
+					<lb/>Grammatica enim cum sit recte loquendi
+					<lb/>scientia, verba cum nominibus docet coniungere
+					<lb/>certasque dictiones certa propositionis
+				<lb/>lege disponere.</p>
+				<pb n="64"/>
+				<p><lb/>Dialetica vero propositionem assumere
+				<lb/>demonstrat et concludere.</p>
+				<p><lb/>Rethorica autem distincte et ornate et expolite
+					<lb/>disserere, unicuique sexui et etati et
+					<lb/>ordini et dignitati congrua accidentia reddere.
+					<lb/>Que omnia qualiter dictanti sint necessaria
+					<lb/>in sequentibus monstrabo per singula: Ergo
+					<lb/>absque illarum notitia nulla erit dictandi peritia.
+					<lb/>Sunt tamen nonnulli adeo facilia habentes
+					<lb/>ingenia, ut ignoratis harum preceptis artium
+					<lb/>perpulcra componant dictamina, quod tamen
+					<lb/>non arte accidit illis, sed natura. Omnis enim
+					<lb/>ars a natura sumit initium, que, dum iuxta Platonem
+					<lb/>inest anime per naturam, tamen ignoratur
+					<lb/>a plerisque, nisi a doctoribus discatur, per
+					<lb/>carnis hebetis coniuncturam. Excitatur ergo
+					<lb/>a doctoribus torpens animus et quasi a somno vigilans
+				<lb/>naturaliter meminit, que docentur.</p>
+				<pb n="65"/>
+				<p><lb/>Supradictis premissis, ad ostendendum
+					<lb/>ea que proposuimus accedamus,
+				<lb/>a litteris tamen sic incipiamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IV. QUARE LITTERE FUERINT INVENTE</head>
+				<p><lb/>Solet fieri questio, qua de causa
+					<lb/>littere fuerint invente; huic questioni
+					<lb/>tale damus responsioni: Ideo autem
+					<lb/>facta fuit inventio litterarum,
+					<lb/>ut, quod diuturnitate temporis
+					<lb/>memoria retineri non poterat,
+					<lb/>litteris comprehensum retineretur et
+					<lb/>rudes animi hominum beluino
+					<lb/>more viventes erudirentur
+					<lb/>et subtili; sapientie artificio
+				<lb/>mollirentur.</p>
+				<pb n="66"/>
+				<p><lb/>His de causis magnifici
+					<lb/>viri multa scripserunt;
+					<lb/>physicas et ethicas rationes
+					<lb/>et logica precepta in suis
+				<lb/>dictaminibus nobis reliquerunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>V. QUARE EPISTOLE FUERINT INVENTE</head>
+				<p><lb/>De epistolis quoque idem queritur,
+				<lb/>ad quod scilicet sic respondemus:</p>
+				<pb n="67"/>
+				<p><lb/>Epistolarum usus
+					<lb/>ideo habetur, ut
+					<lb/>sermo inter absentes
+					<lb/>quasi inter presentes habeatur
+					<lb/>et secretum melius
+				<lb/>teneatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VI. QUID SIT DICTAMEN</head>
+				<p><lb/>Sed quia dictaturi
+					<lb/>sumus, quid sit
+				<lb/>dictare, dicamus:
+				<lb/>Dictare est animi
+					<pb n="68"/>
+					<lb/>conceptionem recta oratione
+				<lb/>componere.</p>
+				<pb n="69"/>
+				<p><lb/>Summa autem dictaminum
+					<lb/>divisio hec est. Omne
+					<lb/>dictamen aut est prosaicum
+				<lb/>aut metricum:
+				<lb/>Prosaicum est, quod constat
+					<lb/>ex prosa. Metricum
+				<lb/>est, quod constat ex metris.</p>
+			</div>
+			<pb n="70"/>
+			<div type="chapter">
+				<head><lb/>VII QUID SIT PROSA</head>
+				<p><lb/>Prosa est recta locutio
+					<lb/>absque lege metri composita.
+					<lb/>Metron grece, latine
+					<lb/>mensura. Inde metrum,
+					<lb/>quod certis pedibus et numeris
+				<lb/>sillabarum mensuratur.</p>
+				<pb n="71"/>
+				<p><lb/>Propositis autem dictandi
+					<lb/>generibus, que plura sunt et varia,
+					<lb/>sed tamen, utilia,
+					<lb/>de epistolis in unum volumen concludamus,
+					<lb/>et a nomine epistole
+					<lb/>etymologiam dando et ipsum diffiniendo
+				<lb/>incipiamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VIII. QUID SIT EPISTOLA</head>
+				<p><lb/>Epistola grecum nomen est
+					<lb/>et compositum est: epi enim
+					<lb/>grece, latine dicitur supra,
+					<lb/>stola missio; inde epistola
+					<lb/>supramissio interpretatur.
+					<pb n="72"/>
+					<lb/>Que ob hoc ita nuncupatur,
+					<lb/>quia cum duobus modis fiat
+					<lb/>legatio: una viva voce - id est
+					<lb/>per nuntium -, alia litteris.
+					<lb/>Hec super illam fit,
+					<lb/>que viva voce mittitur.
+					<lb/>In epistolis namque ita,
+					<lb/>legator loquitur, ac, si ore
+					<lb/>ad os / loqueretur / et presens,
+				<lb/>cui legatur, adesset.</p>
+				<p><lb/>Epistola igitur est litteralis
+					<lb/>legatio diversarum personarum
+					<lb/>capax, precedens cum
+					<lb/>salutis affectu; vel epistola
+					<lb/>est oratio cum salutis
+				<lb/>affectu principium sumens.</p>
+			</div>
+			<pb n="73"/>
+			<div type="chapter">
+				<head><lb/>IX. DE SALUTATIONIBUS</head>
+				<p><lb/>Huic ergo tam preclaro eperi
+					<lb/>operam dantes oportet cognoscere
+					<lb/>salutationem unicuique epistole
+					<lb/>esse preponendam, in qua lex ista
+				<lb/>servatur.</p>
+				<p><lb/>Si maior scribit minori,
+					<lb/>maior
+					<lb/>preponitur, minor subponitur.
+					<lb/>Si minor maiori, maior tamen
+					<lb/>precedit. Si par pari,
+					<lb/>quilibet potest preponi
+					<lb/>iuxta placitum scriptoris.
+					<lb/>Salutationes vero diverse
+					<lb/>iuxta qualitatem persone et ordinem
+					<lb/>designantur: aliter enim
+					<pb n="74"/>
+					<lb/>inferiorem, aliter superiorem,
+					<lb/>aliter salutamus equalem,
+					<lb/>aliter ecclesiasticos, aliter
+					<lb/>laicos, aliter dignitate fulgentes,
+					<lb/>aliter nullos honores habentes, que
+				<lb/>omnia in sequentibus liquido declarabimus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>X. DE SPECIEBUS EPISTOLARUM</head>
+				<p><lb/>Nunc vero
+				<lb/>dicendum est :
+				<lb/>Ut sunt tres ordines
+					<lb/>personarum, ita tres sunt
+				<lb/>species epistolarum:
+				<lb/>sublimis, mediocris, exilis sive
+					<lb/>tenuis, que dicitur melius humilis.
+					<pb n="75"/>
+					<lb/>Quando minor scribit maiori, noncupamus
+					<lb/>exilem ob duas causas vel quia de inferiori ad
+					<lb/>superiorem ascendit vel quia in se tria accidentia
+					<lb/>continet: blanditionem in pricipio,
+					<lb/>causam blanditiei in medio, petitionem in fine .
+					<lb/>Alioquin nisi hi serventur ordines, etsi honesta
+					<lb/>sit compositio, erit tamen absque rethorico
+					<lb/>ordine plena vitio. Hoc Tullius in Rethoricis
+					<lb/>monstrat et unusquisque sapiens in
+					<lb/>suis epistolis. Hic usitatus modus locutionis
+					<lb/>et in contionibus observatur, hoc per singula
+					<lb/>demonstrabimus in sequentibus.
+					<lb/>Que a maiore ad minorem mittitur, ob duas
+					<lb/>similiter causas sublimis dicitur, vel quia descendit
+					<lb/>vel quia unum habet tantum accidens:
+					<lb/>imperium in domnis, in aliis maioribus
+					<lb/>petitio constat; at siquis asserat
+					<pb n="76"/>
+					<lb/>maiores quoque personas et domnos persepe blandiendo
+					<lb/>postulare, respondendum est, quod tunc non
+					<lb/>servat ordinem sue dignitatis. Et enim ipse,
+					<lb/>qui postulat, inferiorem se esse demonstrat; omnis
+					<lb/>namque qui postulat, minor est eo, qui postulatur.
+					<lb/>Que vero a pari ad parem mittitur epistola,
+					<lb/>idcirco mediocris dicitur, quia inter sublimem
+					<lb/>et exilem media existens nec ascendit ad
+					<lb/>superiorem nec descendit ad inferiorem; sed
+					<lb/>servans parilitatem, duo in se accidentia continet:
+				<lb/>blanditionem et petitionem.</p>
+				<p><lb/>Ceterum quia diversi diversa sentiunt et
+					<lb/>quidam sano intellectu sana, quidam pravo perversa
+					<lb/>asserunt, non absurdum putavimus diversorum
+					<lb/>sensum nostris intermiscere sententiis:
+					<lb/>Vocant enim sublimem,
+					<lb/>que a sublimi persona mittitur.
+					<pb n="77"/>
+					<lb/>Sublimis autem persona est,
+					<lb/>qua nulla superior,
+					<lb/>videlicet apostolicus
+				<lb/>vel imperator.</p>
+				<p><lb/>Tenuis vero est,
+					<lb/>que ab humili persona legatur.
+					<lb/>Tenuem autem,
+					<lb/>personam dicunt, qua nulla
+					<lb/>inferior, scilicet
+				<lb/>omnis privata persona.</p>
+				<p><lb/>Mediocris autem dicitur,
+					<lb/>quecumque inter superiorem
+					<lb/>et inferiorem media est,
+					<lb/>sive illa sit magna sive parva,
+					<lb/>quecumque publica, id est
+				<lb/>dignitate predita.</p>
+				<pb n="78"/>
+				<p><lb/>Atque hec hactenus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XI DE EPISTOLARUM ACCIDENTIBUS</head>
+			</div>
+			<pb n="81"/>
+			<div type="chapter">
+				<head><lb/>XII. DE SINGULIS MODIS SALUTATIONUM</head>
+				<pb n="82"/>
+				<p><lb/>Salutationes secundum personarum
+					<lb/>diversitates unicuique epistole
+					<lb/>esse preponendas superius diximus;
+					<lb/>per singulas igitur personas
+					<lb/>convenientes salutationes subiciamus
+				<lb/>et ab amicis primum incipamus.</p>
+			</div>
+			<pb n="83"/>
+			<div type="chapter">
+				<head><lb/>XIII. SALUTATIONES</head>
+				<p><lb/>Item: A. nobili
+					<lb/>prosapia nato,
+					<lb/>morum honestate ditato
+					<lb/>B. amicorum fidelissimus fraternam
+					<lb/>cum salute benivolentiam vel precordialia
+					<lb/>famulamina vel precordiale
+					<lb/>servitium vel germane devotionis
+				<lb/>unionem.</p>
+				<p><lb/>Item: G. amicorum amicissimo
+					<lb/>W. sincere dilectionis
+					<lb/>individuitatem, vel quicquid utriusque
+					<lb/>vite felicius, vel quicquid huius
+					<lb/>vite iocundius, vel future beatius,
+					<pb n="84"/>
+					<lb/>vel quicquid amicus amico, vel
+					<lb/>quicquid frater fratri, vel quod
+					<lb/>fidus amatus amato,
+					<lb/>quod Nisus Euryalo, quod Perithoo
+				<lb/>Theseus.</p>
+				<p><lb/>Petro Provinciali
+					<lb/>amico dilecto A. nove
+					<lb/>dilectionis indissolubile vinculum.
+					<lb/>Item: W. intimo necessario
+					<lb/>suo G. utriusque hominis
+				<lb/>sospitatem.</p>
+				<p><lb/>Petro carorum carissimo
+					<lb/>dilectorum dilectissimo A. quicquid
+					<pb n="85"/>
+					<lb/>boni habet esse in supremo
+				<lb/>bono.</p>
+				<p><lb/>Vel: Amico suo elegantissimo
+					<lb/>pre ceteris sibi dilectissimo A.
+					<lb/>quicquid malo contrarium preter
+				<lb/>ipsum.</p>
+				<p><lb/>Vel: A. amico suo reverentissimo
+					<lb/>B. post longum naufragium
+				<lb/>salutis portum.</p>
+				<p><lb/>Vel: A. karissimo amico
+					<lb/>suo post frigus estatem.
+					<pb n="86"/>
+					<lb/>Vel: B. honestissimo
+					<lb/>viro A. post quercus olivam.
+					<lb/>A. super omnia venerabili
+					<lb/>et amabili patri B. filius eius
+					<lb/>quicquid valet optari melius,
+					<lb/>vel nativam cum benedictione dilectionem,
+					<lb/>vel quicquid patri per fratres.
+					<lb/>A. per
+					<lb/>omnia dilecto filio B. paternam
+					<lb/>cum benedictione benivolentiam, vel
+					<lb/>quicquid Iacob Ioseph
+					<lb/>pre ceteris vel
+					<lb/>quicquid Jacob Ysaac Rebecce consilio.
+					<lb/>A. genitor dilectissimus suo dilecto
+					<lb/>genito vel caro filio quicquid
+				<lb/>pater amantissimus.</p>
+				<pb n="87"/>
+				<p><lb/>Dilectissimo germano M.
+					<lb/>frater minimus quicquid potest excogitari
+					<lb/>melius, vel quicquid amanti
+					<lb/>fratri peramans frater, vel quicquid
+					<lb/>germanus germano, vel quicquid
+					<lb/>David Ionathe, vel fraterne dilectionis
+					<lb/>amorem, vel fraterni amoris unanimitatem.
+					<pb n="88"/>
+					<lb/>vel quicquid fraterna dilectione
+				<lb/>optari potest melius.</p>
+				<pb n="89"/>
+				<p><lb/>Domno et venerabili
+					<lb/>patri W. Parisiensi episcopo et
+					<lb/>sapientia eminentissimo G. suorum
+					<lb/>clericorum minimus vel ultimus,
+					<lb/>quicquid tali et tanto peramans filius,
+					<lb/>vel perseverantem in sua voluntate famulatum,
+					<lb/>vel fidelissime servitutis
+					<lb/>et devotionis augmentum.
+					<lb/>R. pastorali virga decorato
+					<lb/>A. utriusque vite gaudium.
+					<lb/>Vel: Episcopo pre ceteris
+					<lb/>strenuissimo domno suo G. salutem
+				<lb/>et fidele servitium.</p>
+				<pb n="90"/>
+				<p><lb/>Prevalentissimo fratri et coepiscopo
+					<lb/>utraque sophia imbuto, religionis
+					<lb/>gemmis fulgenti P. solo
+					<lb/>nomine dictus episcopus fraternitatis
+					<lb/>et dilectionis fidelissimum
+					<lb/>famulatum vel continua
+					<lb/>devotione
+					<lb/>servitium vel eternam utriusque
+				<lb/>hominis sospitatem.</p>
+				<p><lb/>Divina providentia
+					<lb/>Cassinensi monasterii abbati venerabili
+					<lb/>M., quicquid valet optari
+				<lb/>melius.</p>
+			</div>
+			<pb n="92"/>
+			<div type="chapter">
+				<head><lb/>XIV DE POSITIONIBUS</head>
+				<p><lb/>Nunc autem de modis
+					<lb/>positionum sive compositionum dicamus.
+					<lb/>Est autem positio diversarum
+					<lb/>dictionum in locutione collectio,
+					<lb/>congruam perfectamque
+					<lb/>demonstrans sententiam.
+					<lb/>Et est posifcio dicta quasi depositio,
+					<lb/>eo quod, quicquid
+					<lb/>colligit, cum finitimo
+				<lb/>puncto deponit.</p>
+				<pb n="93"/>
+				<p><lb/>Sunt autem positionum modi
+					<lb/>diversi et numero septem:
+					<lb/>similitudo,
+					<lb/>comparatio, condicio,
+					<lb/>absolutio, resolutio vel expositio,
+					<lb/>repetitio, conversio,
+					<lb/>quibus omnia dictamina
+					<pb n="94"/>
+					<lb/>adornantur, veluti pictura diversis
+				<lb/>coloribus coloratur.</p>
+				<p><lb/>De singulis igitur exempla
+					<lb/>ponenda sunt, ut liquido lectori
+				<lb/>clareat, quod cuique conveniat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XV. DE SIMILITUDINE</head>
+				<p><lb/>Similitudo est duarum vel
+					<lb/>plurium rerum inter se equiperatio.
+					<lb/>Modus similitudinis
+					<lb/>fit dupliciter, quia
+					<lb/>similitudo aut ex duabus rebus
+					<lb/>inter se collatis fit aut ex pluribus.
+					<lb/>Item similitudo aut fit
+					<lb/>a simili per eandem causam aut a
+				<lb/>simili per contrarium.</p>
+				<pb n="95"/>
+				<p><lb/>Ex duabus rebus
+				<lb/>ita:
+				<lb/>"Sicut cervus desiderat
+					<lb/>ad fontes aquarum, ita animus
+					<lb/>meus scientiam scripturarum.
+					<lb/>Vel: Sicut Phebi radius
+					<lb/>nube tectus ardet in celo, licet
+					<lb/>in terra non cernatur, ita fidelis
+					<lb/>amor crebro quibusdam occupationibus
+					<lb/>preditus, etsi non
+					<lb/>videtur in opere, integer tamen
+				<lb/>flagrat in pectore.</p>
+				<p><lb/>Ex pluribus ita fit,
+					<lb/>et adminus inter
+					<lb/>quattuor vocatur proportio:
+					<pb n="96"/>
+					<lb/>Ut lactens puer ubera, hinnus
+					<lb/>umbram, escam esuriens,
+					<lb/>salutem languens, requiem fessus,
+					<lb/>ita animus meus, amice karissime,
+					<lb/>tuam desiderabilem faciem exoptat conspicer.
+					<lb/>Item sic: Sicut in meridie
+					<lb/>fessus umbram desiderat, sicut
+					<lb/>non diu visum unicum filium mater
+					<lb/>exoptat, ut vagiens infantulus genitricis
+					<lb/>ubera, ut in longinquo
+					<lb/>barbarorum solo, in exilio sive dire carcere
+					<lb/>positus dulcissimam patriam concupiscit,
+					<lb/>ita mee dilectionis ardor
+					<lb/>tuo amore succensus te per dies et
+					<lb/>per noctes amplectitur, tecum semper
+					<lb/>fore cernitur, te concupiscit, tuis
+					<pb n="97"/>
+					<lb/>se suaque tribuere, tuam
+					<lb/>desiderabilem faciem ut
+					<lb/>spiritualibus sic etiam corporalibus
+					<lb/>obtutibus indesinenter
+				<lb/>gliscit cernere.</p>
+				<pb n="98"/>
+				<p><lb/>A simili per contrarium hoc
+					<lb/>modo: Ut Marcus Tullius, qui patriam
+					<lb/>et universam rem publicam suo labore,
+					<lb/>vigilantia, industria servavit, eternam
+					<lb/>laudem et gloriam meruit, ita
+					<lb/>Catilina non solum urbem, sed pene
+					<lb/>universum orbem cede et incendiis nefanda
+					<lb/>coniuratione devastans, cruciatus
+					<lb/>corporis ac demum mortem, et publicationem
+				<lb/>bonorum pati dignus fuit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVI. DE COMPARATIONE</head>
+				<p><lb/>Modus per comparationem
+					<lb/>fit, cum per comparativa nomina
+					<lb/>dictamina componimus ut:
+					<pb n="99"/>
+					<lb/>Quanto quis generosior, sapientior
+					<lb/>atque sublimior, tanto Deo
+					<lb/>et hominibus debet esse subiector.
+					<lb/>G. mi frater amantissime, qui
+					<lb/>ceteris confratribus sapientia, dignitate,
+					<lb/>generositate videris esse
+					<lb/>pollentior, te hortor et salubriter
+					<lb/>moneo, ut Christi gratiam et
+					<lb/>hominum adipiscaris et cunctis
+				<lb/>fias subiectior.</p>
+				<p><lb/>Vel sic: Aspide surda crudelior,
+					<lb/>leone ferocior, dracone venenosior
+					<lb/>qui supplicibus verbis
+					<pb n="100"/>
+					<lb/>filii aures non adhibet eisque
+					<lb/>necessitatem patientibus viscera paterne
+					<lb/>pietatis non exhibet. Natura
+					<lb/>enim non patitur patres precipue
+					<lb/>et matres iustis filiorum precibus aures
+					<lb/>claudere eorumque necessitates non
+					<lb/>miserando vilipendere. Omni
+					<lb/>quippe melle dulcius, omni odore
+					<lb/>suavius, omni gratia est elegantius
+					<lb/>et patres alimoniam natis
+					<lb/>impendere et liberos eisdem
+				<lb/>vicem rependere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVII. DE CONDICIONE</head>
+				<p><lb/>Modus per condicionem
+					<lb/>fit per continuas
+					<lb/>orationes et rerum consequentias, videlicet
+					<lb/>si aliquid antecedit et
+					<pb n="101"/>
+					<lb/>aliud consequitur
+				<lb/>hoc modo:
+				<lb/>
+					<lb/>Si cives
+					<lb/>cum civibus de
+					<lb/>virtute certant,
+					<lb/>
+					<lb/>Vel sic: Si cives
+					<lb/>cum civibus de
+					<lb/>virtute certarent
+					<lb/>et de civitatis statu et publica
+					<lb/>utilitate maiorum more
+					<lb/>concordarent ac laborarent,
+					<lb/>si privata commoda publicis
+					<lb/>utilitatibus non perogarent,
+					<lb/>sed decus suum et famam
+					<lb/>cottidie propagarent,
+					<lb/>
+					<pb n="102"/>
+					<lb/>
+					<lb/>nequaquam res eorum
+				<lb/>vacillant.</p>
+				<p><lb/>Igitur Novarienses
+					<lb/>cives atque consules,
+					<lb/>certatim ad virtutes
+					<lb/>erigimini
+					<lb/>et summa diligentia
+					<lb/>statum vestre urbis
+					<lb/>incolumen retinere
+				<lb/>nitimini.</p>
+				<lb/>
+				<p><lb/>nequaquam status civitatis
+					<lb/>precipitando vacillaret.
+					<lb/>Vos igitur Novarienses
+					<lb/>cives et consules,
+					<lb/>ut ius civile exigit, in
+					<lb/>utilitate patrie preeundo
+					<lb/>concorditer vigilate;
+					<lb/>populus unanimiter
+					<lb/>subsequatur,
+					<lb/>ut honor vestre civitatis
+					<lb/>retineatur et sublimis
+				<lb/>assidue promoveatur.</p>
+				<lb/>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVIII DE ABSOLUTIONE</head>
+				<p><lb/>Modus per absolutionem
+					<lb/>fit, cum ablativus nominis et
+					<lb/>participi iungitur verbo et
+					<lb/>nominativo alterius nominis per consequentiam
+					<pb n="103"/>
+					<lb/>cum transitione personarum
+				<lb/>ut:
+				<lb/>"Troiano ballante
+				<lb/>victi sunt Parthi."</p>
+				<pb n="104"/>
+				<p><lb/>Cuius exemplum tale est:
+					<lb/>Grassante effrenis populi
+					<lb/>malitia et bacchante vel
+					<lb/>exuberante crudelium predonum nequitia
+					<lb/>iustitie vigor atteritur,
+					<lb/>ecclesie Dei status convertntur et
+					<lb/>ad nichilum fere redigitur.
+					<lb/>Quocirca necessarium fore perpendimus,
+					<lb/>ut congregato catholicorum
+					<lb/>episcoporum consilio et fidelium
+					<lb/>laicorum collegio una cum
+					<lb/>christianesimo principe serenissimo
+					<lb/>et victortosissimo augusto,
+					<pb n="105"/>
+					<lb/>lite inter regnum et sacerdotium
+					<lb/>sopita pace ecclesie Dei reddita,
+					<lb/>iudiclalis censura prevaricatores
+					<lb/>adeo puniat et corrigat
+					<lb/>ut ceteri malefacere desinant
+					<lb/>et ceteri timorem habeant.
+					<lb/>Vel sic concludamus: Tui
+					<lb/>igitur officii est, imperator iustissime,
+					<lb/>legum suffragante equitate
+					<lb/>et bellorum virtute refrenante
+					<lb/>pravos corrigere, bonos quoque
+				<lb/>tuando fovere et in melius provehere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIX. DE RESOLUTIONE VEL EXPOSITIONE</head>
+				<p><lb/>Modus per resolutionem vel
+					<lb/>expositionem fit, cum genitivus casus
+					<lb/>adiungitur verbo, substantivo
+					<lb/>sequente infinitivo,
+					<pb n="106"/>
+					<lb/>quod genus dictaminis perpulcrum
+					<lb/>esse videtur et ab oratoribus
+					<lb/>inventus et maxime
+					<lb/>usitatum; per id, quod
+					<lb/>ignoratur verbis apertioribus declarator,
+					<lb/>ut presens oratio ostendit:
+					<lb/>Talentum in terra abscondere
+					<lb/>est acceptum ingenium in
+					<lb/>terrenis actibus implicare, lucrum
+					<lb/>spiritale non querere, cor a
+					<lb/>terrenis cogitationibus numquam levare.
+				<lb/>Vel:</p>
+				<pb n="107"/>
+				<p><lb/>Pastoralis officii est divini
+					<lb/>verbi pabulo gregem sibi commissum
+					<lb/>nascere, virga directionis per
+					<lb/>rectos calles ad caulas dirigere,
+					<lb/>erroneos quoque ad viam veritatis
+					<lb/>reducere, verbo et exemplo
+					<lb/>quibus preest proficere et
+					<lb/>ad patriam eterne civitatis arguendo
+					<lb/>obsecrando increpando iuxta
+					<lb/>morum et meritorum qualitatem incessanter
+				<lb/>provehere.</p>
+				<p><lb/>Quocirca, o pastor
+					<lb/>perite et pontifex mitissime, quia
+					<lb/>tui officii est gregem corrigere
+					<lb/>ferire mederi fovere et parcere,
+					<lb/>ne deseras erroneas oviculas
+					<pb n="108"/>
+					<lb/>tibi commissas, in turbine tribulationum
+					<lb/>positas, sed sicut
+					<lb/>debes, feri et parce, medere et fove,
+					<lb/>extirpa et pianta, iuxta prophetam
+					<lb/>evelle et destrue, ut edifices
+					<lb/>et conserves, quia tuum est imperare,
+					<lb/>nostrum obtemperare; et sicut nobis
+					<lb/>iniuncta est necessitas obediendi,
+				<lb/>sic tibi adiungitur licentia disserendi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XX. DE REPETITIONE</head>
+				<p><lb/>Modus per repetitionem
+					<lb/>fit, qui inculcatio in rethoricis appellatur,
+					<lb/>per quam brevis materia
+					<lb/>dilatatur, locutionis series
+					<lb/>collocatur alicuius fama vel gloria
+					<lb/>sive vituperatio exaggeratur
+					<pb n="109"/>
+					<lb/>sive etiam attenuatur. Fit autem
+					<lb/>per unius dictionis repetitionem
+					<lb/>vel per accentuum variationem,
+					<lb/>ex quo concinnantior constat oratio.
+					<lb/>Ut enim variorum colorum
+					<lb/>intermixtio pulcriorem facit
+					<lb/>picturam, sic dictionum repetitio
+					<lb/>seu accentuum variatio moderanter
+					<lb/>facta condecentiorem reddit
+					<lb/>positionum iuncturam. Tandem
+				<lb/>exemplum ponamus:
+				<lb/>Pastoribus est obtemperandum,
+					<lb/>pastoribus est obediendum,
+					<lb/>pastoribus est omnino parendum,
+					<lb/>a quibus sacrosancte regenerationis
+					<lb/>lavacrum sumpsimus, a
+					<lb/>quibus divini verbi pabulum
+					<lb/>accipimus, per quos duces ad veram
+				<lb/>patriam remeamus.</p>
+				<p><lb/>Obediamus igitur pastoribus
+					<lb/>pareamus pastoribus,
+					<pb n="110"/>
+					<lb/>veneremur pastores,
+					<lb/>ut a pastore pastorum remuneremur et
+					<lb/>in celestis caule ovibus collocemur.
+					<lb/>Fit autem hoc modo per repetitionem,
+				<lb/>similiter variatio:
+				<lb/>Illi imperatori legaliter est
+					<lb/>parendum, qui populum, recte regit,
+					<lb/>qui eos quibus imperat ut civis civem
+					<lb/>diligit, qui rectitudinis, qui
+					<lb/>equitatis, qui mansuetudinis et pietatis
+					<lb/>iura conservât, qui iustos paterna
+					<lb/>pietate diligit, iniustos et
+					<lb/>tumidos regia censura devastat, per
+					<lb/>iustitie tramites incedentes ad se
+					<lb/>colligit, calumniantes extra regni
+					<lb/>limitem iuxta animadversionem
+					<lb/>repellit. He boni regis
+					<lb/>semite he sunt divinarum humanarumque
+					<pb n="111"/>
+					<lb/>legum regule
+					<lb/>rectissime, he sunt ab omnibus diligende,
+					<lb/>ab omnibus venerande, ab omnibus
+				<lb/>amplexande.</p>
+				<p><lb/>Sunt tamen nonnulli idiote
+					<lb/>et quidam etiam litterales, sed simplices
+					<lb/>et parum prudentes et minus
+					<lb/>advertentes, qui has repetitionum
+					<lb/>inculcationes velut vitia iudicant
+					<lb/>et condempnunt.Ceterum
+					<lb/>idiotas, quia nichil mihi in hac
+					<lb/>commune cum illis est, magnopere
+					<lb/>contemno et nullum eis responsum
+					<lb/>prebeo. Ceteris autem licet
+					<lb/>simiplicibus, scilicet quia unius
+					<lb/>professionis sunt mecum, nisi
+					<lb/>obstinato animo contendant,
+					<pb n="112"/>
+					<lb/>benigne respondeo; malo enim cum
+					<lb/>Gregorio alieno intellectui salva
+					<lb/>fide cedere quam contentionibus deservire.
+					<lb/>Contentio quippe iram,
+					<lb/>ira odium, odium mortem, nonnumquam
+					<lb/>damnum gravissimum generat.
+					<lb/>Unde eos ad lectionem Tullii
+					<lb/>mitto cuius auctoritatem derogare
+				<lb/>vel contemnere audent.</p>
+				<p><lb/>Librum adHerennium ab eo
+					<lb/>scriptum legant, nobis non credant.
+					<lb/>Quodsi fortasse contra eum nos
+					<lb/>fecisse probaverint, merito arguant
+					<lb/>et contemnant, et si nos ab illo
+					<lb/>dissentire non noverint, necessario
+				<lb/>compulsi approbent et collaudent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXI. DE CONVERSIONE</head>
+				<p><lb/>Modus per conversionem
+					<lb/>fit, quotiens oratio convertitur vel
+					<lb/>ex affirmativa in negativam vel ex
+					<pb n="113"/>
+					<lb/>negativa in affirmativam et
+					<lb/>sic gratia approbationis vel
+					<lb/>argumentationis, ut in subscripto
+				<lb/>videtur esemplo :
+				<lb/>Ubicumque est amicitia,
+					<lb/>ibi est et benivolentia;
+					<lb/>at ubi non est benivolentia,
+					<lb/>ibi nulla est amicitia.
+					<lb/>Ubi autem amicitia, ibi et voluntatum
+					<lb/>communio; verum
+					<lb/>ubi non est voluntatum communio,
+					<lb/>ibi non constat vera dilectio.
+					<lb/>Si es igitur, ut profiteris
+					<lb/>amicus, consequens est,
+				<lb/>ut erga me sis, benivolus.</p>
+				<pb n="114"/>
+				<p><lb/>Alioquin si probari volueris, petitionis
+					<lb/>mee affectum precor ut impleas:
+					<lb/>Si id non feceris, amicus quidem
+					<lb/>diceris, sed non esse convinceris.
+					<lb/>Experimentum quippe veri
+					<lb/>amoris exhibitio est postulate
+					<lb/>operationis; quam sicut
+					<lb/>exequatur, qui diligit, ita contemnit,
+				<lb/>qui non diligit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXII. NOTA AD PREDICTOS MODOS</head>
+				<p><lb/>Notandum est prefatos modos
+					<lb/>predictis nominibus appellari,
+					<lb/>quod per totam seriem proprie regula
+					<lb/>teneatur, sed a maiori parte
+					<lb/>et principali, sicut evangelium
+					<lb/>Mattei Liber genarationis Iesu
+					<pb n="115"/>
+					<lb/>Christi et Liber a generatione
+					<lb/>mundi Genesis dicitur, non quod
+					<lb/>per totum de generatione tractet,
+					<lb/>sed a digniori parte videlicet a
+					<lb/>principali nomen accepit; et
+					<lb/>multa talia in scripturis inventes.
+					<lb/>His ergo, ut diximus, septem
+				<lb/>modis omnia dictamina adornantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXIII. DE MODIS CONSTRUCTIONUM</head>
+				<pb n="119"/>
+				<p><lb/>Preterea tria sunt dictatoribus
+					<lb/>necessaria: cola, commata,
+				<lb/>periodus.</p>
+				<p><lb/>Colon grece, latine membrum;
+					<lb/>inde cola, id est membra diversa,
+					<lb/>in una sententia
+					<lb/>posita, nullomodo convenientia
+					<lb/>per consequentia, ut in subiecto
+					<lb/>patet exemplo: "Quoniam te,
+					<lb/>optime frater A., nobilitate
+					<lb/>clarum, sapientia fulgidum, facundia
+					<pb n="120"/>
+					<lb/>preditum, bonis moribus repletur
+					<lb/>cognovi, tuam amicitiam petere
+					<lb/>studui, et eam, dum superstes
+				<lb/>fuero, colere proposui.</p>
+				<p><lb/>Fit autem hoc genus dictaminis
+					<lb/>per inculcationem ad exaggerandam
+					<lb/>alicuius persone laudem vel
+					<lb/>vituperationem. Inculcatio est
+					<lb/>color rethoricus, qui fit, cum multa
+					<lb/>in unam personam congeruntur vel
+					<lb/>per eandem dictionem sepe repetitam
+					<lb/>vel per diversas singulis singulas
+				<lb/>redditas.</p>
+				<p><lb/>Per eandem hoc modo:
+				<lb/>"Magistri A. doctrine adherere
+					<lb/>decrevi, cuius est preclara
+					<lb/>doctrina, cuius perpulcra
+					<pb n="121"/>
+					<lb/>facundia, cuius tenax memoria,
+					<lb/>cui Attica vernat eloquentia,
+					<lb/>cui tonat Tulliana rethorica
+				<lb/>qui canit Romana fistula."</p>
+				<p><lb/>Per diversas
+					<lb/>hoc modo: "In sermone
+					<lb/>verax, in iudicio iustus, in consilio
+					<lb/>providus, in
+					<lb/>universa morum honestate perspicuus."
+					<lb/>Comma interpretatur cesa,
+					<lb/>intercisio; hoc fit, ubi
+					<lb/>quantum dictum est de sententia per
+					<lb/>antecedentia, tantum restat per consequentiam
+					<lb/>ut hic: "Cum bonorum
+					<lb/>sit consimilium familiaritatem
+					<lb/>appetere, tuam, optime frater Dionisi,
+				<lb/>studui amicitiam querere."</p>
+				<pb n="122"/>
+				<p><lb/>Fit etiam cum digressione
+					<lb/>materiei linea, quibus modis utitur
+				<lb/>Lucanus.</p>
+				<p><lb/>Periodus est sententie clausula,
+					<lb/>quando precedente cola vel
+					<lb/>commate proposite orationis
+				<lb/>sensus concluditur.</p>
+			</div>
+			<pb n="123"/>
+			<div type="chapter">
+				<head><lb/>XXV. QUID SIT CAVENDUM</head>
+				<p><lb/>Notabile quoddam non est
+					<lb/>pretermittendum, quod gignit
+					<pb n="124"/>
+					<lb/>obscuritatem brevitas, tedium parit prolixitas.
+					<lb/>Tunc ergo est laudabilis brevitas,
+					<lb/>si ob eam non generatur obscuritas.
+					<lb/>Quod autem propter fastidium vitatur multiloquium,
+					<lb/>si obscurum incurritur, restat aliud vitium,
+					<lb/>unde ait Horatius:St "Stulti dum vitant
+				<lb/>vitium, in contraria cadunt."</p>
+				<p><lb/>Quod vitari potest, si verborum concatenatio sit
+					<lb/>plena, si hyperbaton vitio fuerit aliena, si
+					<lb/>peregrina et inusitata ibi non fuerit posita,
+					<lb/>si Tulliano melle circumlita, Sallustiana serie
+					<lb/>composita, in divinis dulcedine Gregoriana,
+					<lb/>theorica Ambrosiana, argumentatione Augustiniana,
+				<lb/>sententiarum Ieronimi pondere innodata.</p>
+				<pb n="125"/>
+				<p><lb/>Quoniam ante diximus
+					<lb/>personarum alias esse sublimes,
+					<lb/>alias mediocres, alias
+					<lb/>tenues et he diversis modis
+					<lb/>circumscribuntur,
+					<lb/>nunc ostendamus,
+					<lb/>qualiter unaqueque circumscribatur
+				<lb/>et a sublimi incipiamus.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

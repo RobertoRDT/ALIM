@@ -1,0 +1,665 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Memoria seculorum </title>
+				<author>Gotifredus Viterbiensis </author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. H. Pertz</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">EB</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="5306" unit="words">Parole: 5306</measure>
+				<measure quantity="32024" unit="characters_without_spaces">Caratteri (spazi esclusi): 32024</measure>
+				<measure quantity="37240" unit="characters_witht_spaces">Caratteri (spazi inclusi): 37240</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-04-21">21/04/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie </note>
+				<note>Note: Caratteri (con spazi): 37.342&#13;
+[ ] indicano brani aggiunti con i manoscritti B1 e B2.&#13;
+M.D.G.&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Memoria seculorum</title>
+						<editor>G. H. Pertz</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Scriptorum tomus XXII</title>
+						<imprint>
+							<publisher>Hahnsche Buchhandlung</publisher>
+							<pubPlace>Hannover</pubPlace>
+							<date>1872</date>
+							<biblScope unit="page">94-106</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, SS</title>
+						<biblScope unit="volume">22</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie </term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">- ok, ma è un testo stranissimo: Ci sono ovunque titoli di capitoli non esistenti o con poco testo, più volte sembra cominciare qualcosa... Sembra come una -o più? - bozza. Ho seguito il MGH e messo i &lt;head&gt; e &lt;p&gt; secondo l'edizione originaria, ma non ho creato nessuna struttura o gerarchia, perché davvero non so se c'è...</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="94"/>
+		<div>
+			<head><lb/><hi rend="bold">MEMORIA SECULORUM.</hi></head>
+			<head><lb/>AD HONOREM AECCLESIE DEI ET IMPERII ROMANI ANNO DOMINICE INCARNATIONIS
+				<lb/>1185. INCIPIUNT YSAGOIE SUPER LIBRUM MEMORIALEM COMPOSITUM
+				<lb/>A MAGISTRO GOTIFREDO VITERBIENSE AD DOMNUM HENRICUM IMPERATOREM,
+				<lb/>FILIUM DOMNI FREDERICI IMPERATORIS ROMANORUM, ET AD OMNES PRINCIPES
+			<lb/>REGNI TEUTONICORUM.</head>
+			<p><lb/>De mundi principio et omnibus eius etatibus et temporibus et regnis et regibus tractaturi,
+				<lb/>consideravimus illa omnia ad perfectam rerum noticiam non posse sufficere et opus
+				<lb/>nostrum congrua initia non habere, nisi de ipso Deo, principio rerum omnium et fonte,
+				<lb/>sollercia parvitatis nostre aliquid ante omnia prelibaret, et de divina essentia modicum
+				<lb/>disputaret. Quod si non perfecte posset et lucide, saltem more infantium balbutientium
+				<lb/>quasi infantiliter de Deo aliquantulum balbutiret et quoquo modo exprimeret aut innueret,
+				<lb/>ubi vel quomodo erat Deus ante mundi constitutionem, in quo mundo, quo
+				<lb/>statu erat, antequam essent angeli vel celum vel terra vel ulla creatura, aut cuius erat
+				<lb/>dominus cum nulla esset creatura; et quid est quod dicitur: <hi rend="italic">Spiritus Domini ferebatur super
+				<lb/>aquas,</hi> et quomodo tres persone sint unus Deus. De quibus omnibus iuxta parvitatis nostre
+				<lb/>modulum nos, licet pueriliter, aliqua prelibamus. Item de angelis et de creatione et motu
+				<lb/>et forma firmamenti, de sideribus et de planetis et motibus eorum, et de quatuor elementis,
+				<lb/>et de qualitatibus paradisi brevis sermo in principio libri nostri memorialis est metrice
+				<lb/>consignatus. Deinde in antea secundum librum Geneseos, docente nos Moyseo aliisque
+				<pb n="95"/>
+				<lb/>antiquorum patrum doctoribus, procedimus per ordinem et seriem totius veteris et novi
+			<lb/>testamenti.</p>
+			<p><lb/>Ad hec omnium regum et regnorum et imperatorum tempora et etates, annos et
+				<lb/>nomina et principalia gesta eorum ab initio mundi usque ad nostra tempora, in quantum
+				<lb/>ratio patitur et expedire videtur, memoriam compendiosam apposuimus. Testes autem et
+				<lb/>autores super vetus testamentum [secundum Ebreorum istoriographos magnos], quos
+				<lb/>imitamur et sequimur, sunt hii: Moyses, Iosue, Esdras, Iosephus, Isidorus, Dionius et
+				<lb/>Strabus et Egesippus et Orosius et Suetonius et Solinus de mirabilibus mundi. Qui nobis
+				<lb/>non tantum historias Ebraicas, set omnium regum et regnorum antiquorum nomina et
+			<lb/>gesta et annos et tempora lucide et ordinate resignant.</p>
+			<p><lb/>[Ante tempora vero Ebreorum, immo ante diluvium ab ipso Adam sunt antiquitatum
+				<lb/>notarii et istoriografi. Adam primo loco illa quae de mundi constitutione cognovit scripsit,
+				<pb n="96"/>
+				<lb/>et Seth filio suo reliquid. Seth scripsit, et reliquit filio suo Enos. Enos reliquit filio suo
+				<lb/>Cainan. Et Cainan reliquit Malalehel. Qui scripsit et reliquit filio suo Enoc. Qui scripta
+				<lb/>reliquit Matudalam. Qui reliquit filio suo Lamec. Lamec scripsit filio suo Noe. Noe dixit et
+				<lb/>scripsit filiis suis, Cham, Sem et Iaffet. Cham factus est astrologus, et vixit et regnavit
+				<lb/>usque ad tempora Beli, patris Nini regis, et scripsit artes liberales et gesta preteritorum.
+				<lb/>Item Sem, filius Noe, qui natus est 100 annis ante diluvium, et vixit 500 annis et
+				<lb/>35 post diluvium videlicet usque ad tempora Abrahe, et 35 annis ultra tempora Abrahe.
+				<lb/>Qui fuit rex Salem, id est Ierusalem, qui etiam vocatus est Melchisedec. Ille idem Sem,
+				<lb/>filius Noe, multa scripsit et ea posteris reliquit et morem sacrificandi in pane et vino instituit;
+				<lb/>qui usque ad tempora Moysi et Aaron perduravit. Abraham Chaldeus artes Chaldeorum
+				<lb/>et Egiptiorum similiter novit et posteros docuit. Moyses etiam artibus Egiptiorum per
+				<lb/>studium filie Faraonis eruditus fuit et posteros docuit. Novit etiam omnia per spiritum Dei,
+				<lb/>quecumque in mundo et ante mundum fuerant. Preterea Ihonitus, Noe filius, quem genuit
+				<lb/>post diluvium, astrologus fuit et iustus ante Deum, qui legitur raptus fuisse in paradisum
+				<lb/>et ibi omnia didicisse que erant ante mundi constitutionem, et arborem illam de paradiso
+				<lb/>portasse et in monte Libani plantasse, in qua Christus postea est crucifixus, sicut in corpore
+				<lb/>libri istius plenius continetur, ubi de Christi passione tractamus. Sunt et alii barbari sive
+				<lb/>gentiles istoriografi secundum libros annales antiquorum regum, qui omnia que contigerant
+				<lb/>integraliter descripserunt, nec aliquid non scriptum reliquerunt; quorum nomina
+				<lb/>aliqua hic dicemus: Mamenot, qui descriptionem fecit Egiptiorum Berosus, qui defloravit
+				<lb/>omnia scripta Chaldeorum, Mochus, et Estius, et Ieronimus Egiptius, et alii multi barbari
+				<lb/>sive gentiles istoriografi concordant istoriis et cronicis nostris. Ad hec christianos et catholicos
+			<lb/>doctores, quos imitamur, in supposito titulo contemplare.</p>
+			<pb n="97"/>
+			<p><lb/>Novi autem testamenti doctores et testes imitamur istos, duodecim apostolos, quatuor
+				<lb/>euangelistas, et Clementem papam primum a beato Petro, et Dionisium Ariopaitam,
+				<lb/>Eusebium Cesariensem et Origenem et Athanasium, Ieronimum, Boetium de Trinitate,
+				<lb/>Augustinum et Bedam. Istos patres et magistros per omnia libri capitula in textu vel in
+				<lb/>margine libri autores semper signamus; ne forte res tam antique, tam varie et tam
+				<lb/>multiplices de nostro proprio arbitrio magis quam de auctoritatibus antiquorum scripte
+			<lb/>ab aliquo estimentur.</p>
+			<p><lb/>Sciendum autem, quod tempora et annos et aetates omnium regnorum et regum
+				<lb/>nos secundum tempora Ebraice veritatis colligimus. Et unicuique tempori Ebreorum gesta
+				<lb/>gentium [et regum] tunc in toto orbe viventium contemporaliter interseruimus, sicut hic
+				<lb/>exempli gratia ostendemus. Cum Abrae tempora describimus; statim iuxta eum capitulum
+				<lb/>ponimus de Belom primo rege Assiriorum et Egiptiorum et de Nino filio eius rege
+				<lb/>Ninivitarum, atque de aliis gentibus ipsius temporis. Rursumque hiis dictis ad Hebraicam
+				<lb/>istoriam remeamus. Similiter etiam sub tempore Isaac ponimus alia regum et gentium
+				<lb/>mundi gesta contemporanea, et iterum ad Hebreos remeamus. Similiter et sub tempore
+				<lb/>Iacob, et sub tempore Moisi. Atque ita procedimus per omnes etates et omnia tempora
+				<lb/>Ebreorum usque ad tempora domini Ihesu Christi. Ubi quia gesta et istorie Ebreorum
+				<lb/>deficiunt, proponimus deinceps gesta et tempora Romanorum regum et consulum et imperatorum,
+			<lb/>adicientes eis omnium aliorum regnorum et gentium gesta contemporanea.</p>
+			<p><lb/>Adiungimus etiam eis contemporaliter Romanos pontifices contemporaneos, sicut fuisse
+				<lb/>leguntur in diebus uniuscuiusque imperatoris, assignantes unicuique pape suos annos et
+				<lb/>menses et dies. Nomina autem gentium et regnorum, quorum in veteri vel novo testamento
+				<lb/>gesta et tempora commemoramus, hec sunt. Primo loco scribimus genealogiam et
+				<lb/>acta que digna sunt relatione ab Adam usque ad Noe secundum Moisen et Iosephum et Isidorum
+				<lb/>et Dionium et Strabum [et secundum alios quos supra taxamus]. Consequenter post
+				<lb/>primam mundi aetatem dicimus de generationibus et regibus et regno Ebreorum, a diebus
+				<lb/>Noe ordientes usque ad Christum. Quorum gestis et temporibus omnia regna subscripta
+				<lb/>contemporaliter inseruntur, [videlicet] regnum Babiloniorum et Assiriorum et Egiptiorum,
+				<lb/>Persarum et Medorum, Ethiopum et Indorum, regnum Sitioniorum et Ligdorum et Argivorum
+				<lb/>et Thessalonorum et Lacedemoniorum, Troianorum, Grecorum, Macedonum,
+				<lb/>Antiochorum, Albanorum, Sicambrorum, quod est Francorum, Italicorum, Siciliorum,
+				<lb/>Tuscorum, Lonbardorum, Suevorum, Saxonum, Senonum, Gallorum, Gothorum, Guandalorum,
+				<lb/>Hunorum, Ungarorum, Ispanorum, Britonum, Anglorum, Danorum, Scotorum,
+				<lb/>Frisonum et Gualensium et Rutenorum. Ultimo autem loco ponimus omnium imperatorum
+				<lb/>Romanorum a Iulio Cesare usque ad dominum Fridericum et filium eius Henricum sextum,
+				<lb/>cui librum istum fecimus. Istorum autem regum, ubi causa postulat, memoriam facimus,
+				<lb/>set gesta omnium, cum sit inpossibile, non narramus, de quibusdam plus et de aliis minus
+				<lb/>tangentes eorumque memoriam versibus inserentes. Preterea ad istorias supra memoratas
+				<lb/>cronica omnia, que catholica tenet aecclesia, secundum Eusebium, Ieronimum et
+				<lb/>Bedam; per etates et tempora conpetentia inseruimus; quatinus istius libri lectoribus
+				<lb/>parum vel nichil de omnibus antiquitatibus subtrahatur, set habeat secutura posteritas
+			<lb/>quod de mundi cursibus et etatibus successoribus suis hostendat.</p>
+			<p><lb/>Ad hec tantarum et tam multiplicium rerum et temporum varietates considerantes,
+				<lb/>necessarium ac perutile per omnia fore conspeximus, ut quasdam breves isagogas, quibus
+				<lb/>lectores ad huius voluminis noticiam introducantur, prelibare curemus; et multifarium istud
+				<lb/>istoriarum pelagus tali ordine disponamus, ut, dum lectores per ipsum fluctuaverint, totius
+				<pb n="98"/>
+				<lb/>erroris vel impedimenti remotis obstaculis, ad portum istorie, quamcumque tunc desideraverint,
+				<lb/>valeant sine labore perduci et in hiis que invenerint erudiri. Itaque in singulis
+				<lb/>huius libri particulis singulas isagogas conpetit dispensari, quarum conductu lectores per
+				<lb/>hec maria remigantes ad optatum portum, perlectis hic prius rerum cursibus et lectionum
+				<lb/>varietatibus; plane proficiscantur atque per hoc elogium tamquam per hostium inducantur.
+				<lb/>Has autem isagogas, id est introductiones, hic, antequam ad libri perveniatur exordium,
+			<lb/>autore Deo per ordinem distinguemus.</p>
+			<p><lb/>Prima isagoga vel introductio prime partis libri erit de tractatu divine essentie ante
+				<lb/>omnem mundi creationem, et de trinitate atque unitate in Deo; et de mundo arcetipo, in
+				<lb/>quo erat Deus; antequam hunc mundum formasset, et de angelis, et de forma et motu
+				<lb/>firmamenti, de cursu stellarum et planetarum, de quatuor elementis, et de aliis usque ad
+			<lb/>creationem Ade primi hominis a paradiso eiecti.</p>
+			<p><lb/>Secunda introductio secunde particule huius libri incipit ab Adam describere nomina
+				<lb/>et acta patrum et filiorum et qualitates illorum temporum et pauca gesta eorum, quia
+			<lb/>libel noster eorum gesta versifice representat usque ad tempora Noe post diluvium.</p>
+			<p><lb/>Tertia introductio erit Ebreorum monstrare genealogiam et regna et annos et etates
+				<lb/>et nomina et acta regum et patriarcharum et prophetarum Ebreorum a diebus Noe usque
+			<lb/>ad Christi nativitatem.</p>
+			<p><lb/>Quarta introductio erit de Belo rege primo Assiriorum et de rege Nino, filio eius, in
+				<lb/>Ninivem; cuius uxor fuit Samiramis regina mirabilis, et de principio et fine regni AssiRiorum,
+				<lb/>quot annis stetit, sub quo rege defecit, et per quem dissipatum fuit. Cuius regni
+				<lb/>principium a tempore Noe colligemus et usque ad Cambisem, filium Ciri regis Persarum,
+			<lb/>a quo etiam dissipatum ac subiugatum est, perducemus.</p>
+			<p><lb/>Quinta introductio monstrabit de regno Sitioniorum, quo tempore inceperit, quot
+			<lb/>reges habuit, quamdiu duravit, et quo tempore finem habuit.</p>
+			<p><lb/>Sexta introductio erit de regibus Egipti monstrare, quo tempore et sub quo rege inceperiunt,
+				<lb/>quot reges habuerint, quot annis duraverint, et quo tempote finiverint. Ordiemur
+				<lb/>autem ipsum regnum a tempore Noe usque ad Cirum regem Persarum, a quo etiam est
+			<lb/>subiugatum.</p>
+			<p><lb/>Septima introductio erit de regibus Argivorum, quo tempore ipsorum regnum et sub
+			<lb/>quo rege inceperit, et quot annis duraverit, quo tempore finierit.</p>
+			<p><lb/>Octava introductio erit de regibus Persarum monstrare a tempore Nabuchodonosor
+				<lb/>et filiorum eius quomodo regnum Babilonum a Persis subiugatum est [per Darium regem
+				<lb/>et nepotem eius Cirum] et nomina et annos et acta Babiloniorum atque Persarum et
+				<lb/>Medorum regum distinguere usque ad Alexandrum Magnum. Cirus rex destruxit regnum
+			<lb/>Ligdorum.</p>
+			<p><lb/>Nona introductio de regibus Antiochorum et Egiptiorum [post Alexandrum Magnum],
+				<lb/>et de Machabeis et de sacerdotibus et populis Iudeorum, qualiter cum Antiochis regibus
+			<lb/>preliati sunt usque ad tempora Erodis regis, sub quo natus est Christus.</p>
+			<p><lb/>Decima introductio erit de Christo et de apostolis et pontificibus Romanis, tempora
+				<lb/>et annos et menses, et dies et acta et nomina eorum usque ad tempus Lucii pape tercii,
+				<lb/>sub quo et nos hodie sumus. Adiuncta istoria de nativitate et vita Marie virginis et sancti
+			<lb/>Iohannis baptiste.</p>
+			<p><lb/>Undecima introductio erit de regibus Francorum, id est Teutonicorum, qui olim dicebantur
+				<lb/>Iermani vel Sicanbri, qui etiam a Troia exierunt eo tempore quo Eneas intravit
+				<lb/>Italiam. Dicemus autem eorum principium et finem usque ad domnum Fridericum nostri
+			<lb/>temporis imperatorem et filium eius Henricum sextum, a tempore Noe incipientes.</p>
+			<p><lb/>Duodecima introductio erit de regibus Italie a tempore Noe, quo tempore ceperunt,
+				<lb/>et qui et quot reges fuerunt, et quot annis unusquisque regnavit, usque ad reges Albanorum
+				<pb n="99"/>
+				<lb/>et inde usque ad Romulum et usque ad Tarquinium Superbum, et inde per consules Romanorum,
+				<lb/>et annos et tempora et acta eorum usque ad Iulium Cesarem, post quem incipiunt
+			<lb/>imperatores.</p>
+			<p><lb/>Tercia decima introductio erit de imperatoribus Romanorum ab Octaviano Augusto
+				<lb/>usque ad Karolum Magnum primum Francorum imperatorem. [Cuius genealogia est dicta
+				<lb/>in tractatu Francorum usque ad domnum Fridericum.] Quam genealogiam similiter a
+			<lb/>tempore Noe orditi sumus.</p>
+			<p><lb/>De aliis regnis et regibus, quos supra taxavimus, proprias introductiones non oportet
+				<lb/>apponere, quia nec ipsi tam ordinatas nec tam principales sicut isti quos posuimus, istorias
+				<lb/>habent. Ponimus autem eos incidenter in casu, quotiens et ubi causa exposcit, videlicet
+				<lb/>reges Tuscorum, reges Lonbardorum et Gothorum et Vandalorum et Hunorum et Ispanorum
+				<lb/>et Britonum et Danorum et Scotos et Rutenos et Frisones et Walenses, et huiusmodi,
+				<lb/>quorum longam mentionem in libro hoc facere non oportet, nisi fiat hoc, ut diximus
+				<lb/>aliquando, incidenter. Quemadmodum in istoria Enee introducimus Turnum regem
+				<lb/>Tuscorum, in istoria vero Karoli Magni inducimus Luprandum et Agistulfum et Desiderium
+			<lb/>reges Lonbardorum. Et ita de aliis omnibus.</p>
+			<p><lb/>Gesta autem domni Friderici imperatoris sunt in fine libri, et omnia insignia imperii
+				<lb/>scripta et significationes eorum, videlicet de sancta cruce, de lancea, de gladio, de corona,
+			<lb/>de sceptro. Et etiam ibi istoria Anglorum et Merlini prophete Anglorum.</p>
+		</div>
+		<div>
+			<head><lb/>Incipit prima introductio de essentia divina et de trinitate personarum
+			<lb/>in Deo.</head>
+			<p><lb/>Ad distinguendas sancte Trinitatis personas etc.</p>
+		</div>
+		<div>
+			<head><lb/>Incipit secunda introductio ab Adam usque ad Noe.</head>
+		</div>
+		<div>
+			<head><lb/>Introductio tertia de origine Ebreorum et de regno et regibus eorum
+				<lb/>et de patriarchis et prophetis et iudicibus eorum usque ad transmigrationem
+				<lb/>Babillonis, ubi omnes Ebrei captivati sunt, et postea de
+			<lb/>templi restauratione.</head>
+		</div>
+		<div>
+			<head><lb/>Item introductio 4. de regibus Babillonum et Assiriorum et de principio
+			<lb/>et fine eorum.</head>
+		</div>
+		<div>
+			<head><lb/>Quinta introductio de principio et fine regni Sitioniorum.</head>
+		</div>
+		<div>
+			<head><lb/>Sexta introductio de regno et regibus Egiptiorum, quo tempore et sub
+			<lb/>quo rege incepit, et quamdiu duravit, et quot reges habuit.</head>
+		</div>
+		<div>
+			<head><lb/>Septima introductio de regno et regibus Argivorum.</head>
+		</div>
+		<div>
+			<head><lb/>Octava introductio de regibus Persarum et Medorum.</head>
+		</div>
+		<div>
+			<head><lb/>Nona introductio de regibus Antiochie.</head>
+		</div>
+		<div>
+			<head><lb/>Explicit tractatus omnium regnorum paganorum et Iudeorum et omnium
+			<lb/>orientalium regum.</head>
+		</div>
+		<div>
+			<head><lb/>Introductio.</head>
+			<p><lb/>De Troianorum regum origine et fine specialem tractatum nos facere non oportet.
+				<lb/>Inferius enim de regibus Italie et Francie originalem lineam ordientes, initium, medium
+				<lb/>et finem Troianorum inseremus, asserentes, Troiam a Troio, filio Iovis, nomen principiumque
+			<lb/>recipere et in Priamo atque Anchise, patre Enee, finem accepisse.</p>
+		</div>
+		<pb n="100"/>
+		<div>
+			<head><lb/>De regibus Grecorum.</head>
+			<p><lb/>De Grecorum regni origine inferius satis dicetur, ubi Italicorum lineam orditi sumus.
+				<lb/>Diximus enim, quia de proienie Sem . . . . . . . . . . . . Ab Italicis enim Troia destructa est.
+				<lb/>Monstratum est etiam superius, Alexandrum Magnum a Iovis semine procreatum,
+				<lb/>quemadmodum in suo epitafio continetur, cum dicit: <hi rend="italic">Alexander semen Iovis</hi> et cetera, teste
+			<lb/>Solino de mirabilibus mundi.</p>
+		</div>
+		<div>
+			<head><lb/>De regibus Lombardorum.</head>
+			<p><lb/>Lombardorum regum legimus Alcuinum fuisse . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+			<lb/>et regnum Lonbardorum suo tempore expiravit.</p>
+		</div>
+		<div>
+			<head><lb/>Hic ponendum est de regibus Gothorum et Ungarororum et Anglorum.</head>
+		</div>
+		<div>
+			<head><lb/>De genealogia et origine regum Germanorum, que est regum Francorum
+			<lb/>vel Teutonicorum.</head>
+			<p><lb/>Noe vixit. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+			<p><lb/>Fridericus primus, nepos Conradi tercii, imperat nunc annis 35, et cum eo filius eius
+			<lb/>Henricus sextus.</p>
+			<p><lb/>Ecce habes, lector, clarissimam regum genealogiam a tempore diluvii usque ad
+				<lb/>imperatorem nostri temporis dominum Fridericum; ita dumtaxat quod omni tempore et
+				<lb/>per omnes etates successio fiat illius sanguinis sive de patre in filium sive in fratrem sive
+				<lb/>in nepotem aut in consanguineum istius parentele. Et si aliquando in alienam proieniem
+				<lb/>successio regum exorbitasse asseritur, semper ad prime stirpis propaginem redire monstratur,
+			<lb/>et semper ad propriam rediit parentelam.</p>
+			<p><lb/>Alexander Magnus etiam ex eadem regum propagine legitur emanasse, teste Solino
+				<lb/>de mirabilibus. Qui asserit, epitafium Alexandri in Babilonia sic incepisse: <hi rend="italic">Alexander
+				<pb n="101"/>
+				<lb/>semen Iovis</hi> etc. Omnes etiam reges Antiochie ab ipsius Alexandri parentela surgentes
+				<lb/>videntur supra memorate regum linee coherere. Grecorum quoque reges eadem ratione
+				<lb/>procedunt. Clatitaus enim rex Grecorum, filius regis Iovis Atheniensium, genuit Atrium, a
+				<lb/>quo dicuntur Atrides; Atrius autem genuit Pelopem; Pelops autem rex genuit Menelaum,
+				<lb/>maritum Helene et fratrem eius regem Sicilie Agamenonem. Omnes etiam Romanorum
+				<lb/>imperatores inde veniunt atque omnes reges Italie, sicut in supposita pagina ostendemus.
+				<lb/>Revertemur iterum ad Noe, et inde Romanorum imperatorum et omnium Ytaliorum regum
+			<lb/>lineam ordiamur.</p>
+		</div>
+		<div>
+			<head><lb/>De genealogia et origine omnium regum Italie introductio.</head>
+			<p><lb/>Noe vixit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+				<lb/>et fuit Roma sub regimine consulum annis 464. Ecce iam descripsimus de patribus in filios
+				<lb/>et in nepotes vel consanguineos omnium regum Ytalicorum usque ad Tarquinium per unam
+				<lb/>lineam et Francorum per aliam lineam proieniem et successiones a tempore diluvii usque
+			<lb/>ad tempora domini Friderici imperatoris.</p>
+		</div>
+		<div>
+			<head><lb/>Cronica Italicorum regum.</head>
+			<p><lb/>Notandum autem, quod regnum Italicum, quod sub Iano primo rege Italie, ut diximus,
+				<lb/>accepit initium, currit per annos 813 et per reges Latinos 7 et per Albanos reges 15 et per
+				<lb/>Romanos reges 7 usque ad Tarquinium Superbum. Hos annos secundum Ebreos colligimus
+				<lb/>ab anno 27. Ast iudices in Israel usque ad annum 10. Darii, filii Istapis, qui templum
+				<lb/>restituit in Ierusalem, qui est annus 89. post transmigrationem Babilonis, est vero annus
+				<lb/>quartus post templi restaurationem, sicut ex numeris annorum regum Italicorum, quos
+			<lb/>supra taxavimus; poteris lucidius invenire.</p>
+		</div>
+		<div>
+			<head><lb/>De consulibus Romanorum.</head>
+			<p><lb/>Post exactos reges Romanorum consules imperant annis 464, videlicet ab anno 15.
+				<lb/>predicti Darii, filii Ystapis, qui templum restituit, usque ad annum 19. Yrcani regis
+			<lb/>Iudeorum qui est sub consulibus Ponpeio et Cesare.</p>
+		</div>
+		<div>
+			<head><lb/>De Brennio duce Suevorum et Senonum.</head>
+			<p><lb/>Anno 56. expulsionis regum, qui fuit 300. ab Urbe condita, Brennius dux gentis Suevorum
+				<lb/>et Senonum Gallorum, qui a fluvio Saunia Senones dicti sunt, quos etiam nos
+				<lb/>hodie Burgundiones et Alobroges appellamus, ille inquam Brennius cum his gentibus
+				<lb/>Romam invasit et usque ad pitogium cepit et expoliavit, sicut in hoc libro versibus declaratur
+				<lb/>plenarie sub titulo Cyri regis Persarum; cui Brennius contemporaneus fuit et
+			<lb/>mira paravit.</p>
+		</div>
+		<div>
+			<head><lb/>De Brennio.</head>
+			<p><lb/>Anno ab Urbe condita 388. iterum Brennius et cum eo Suevi et Senones Galli Romam
+				<lb/>terribiliter invadunt et quarto ab Urbe lapide consederunt. Ubi Mallius Torquatus consul
+				<lb/>et Quintus Lucius dictator gloriosum triumphum super Gallos semel et bis et tercio habuerunt,
+				<lb/>sicut iste liber versibus plenarie declarat. Eo tempore natus est Alexander Magnus.
+				<lb/>De Samnitibus et de Pirro rege Epirotarum et de Cartagine et de Hannibale et de Iugurtino
+				<lb/>bello et de aliis quae sub consulibus acta sunt in corpore libri suis locis et temporibus
+				<lb/>dictum est breviter cum nostri propositi sit omnia compendiose, remota tamen obscuritate,
+				<lb/>proferre. Quia igitur in presentis tituli tractatu nomina regum omnium et regnorum
+				<lb/>omnium tempora et successiones et mutationes sine gestorum amixtione describere promisimus,
+				<lb/>iam nunc de imperatoribus annos et tempora et nomina proponamus, sicut de
+			<lb/>regibus Italicis et Francis superius orditi sumus.</p>
+		</div>
+		<div>
+			<head><lb/>Introductio.</head>
+			<p><lb/>Quia reges omnes tam Francos quam Italicos de proienie Sem, filii Noe, et Irari,
+				<lb/>patris primi regis mundi nomine Nembrot, descendisse superius demonstravimus, oportet
+				<pb n="102"/>
+				<lb/>etiam omnes Romanos imperatores ab eadem propagine descendere, qua cunctos Italie
+				<lb/>reges diximus descendisse. Quibus hic ordine dispositis, eorum annos et nomina atque
+			<lb/>tempora cum paucissima gestorum suorum serie monstrabimus.</p>
+		</div>
+		<div>
+			<head><lb/>De origine et gestis et temporibus omnium imperatorum Romanorum.</head>
+			<p><lb/>Gaius Lucius Cesar. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+				<lb/>Heraclius imperat annis 36. Per eum facta est exaltatio sancte crucis, sicut liber iste
+				<lb/>plenius ostendit. Notae, quia post Mauritium imperatorem vel post Leonem Grecorum
+				<lb/>imperatorem incipiunt tempora et gesta Pipini et filii eius Karoli Magni, que supra posuimus
+			<lb/>in tractatu regum Francorum ab ipso Karolo usque ad Fridericum imperatorerem.</p>
+		</div>
+		<div>
+			<head><lb/>De regibus Gothorum.</head>
+			<p><lb/>Gothorum reges fuerunt Theodoricus, Alaricus, Teobaldus et Guitigous et Vigilogus
+				<lb/>et Sigismundus, qui fuit cum mundis (?) Gothis bonus christianus, et ipse convertit tunc
+				<lb/>Iudeos. Ipsi etiam reges quandoque non habuerunt. Erant enim gentes instabiles, feroces,
+				<lb/>Arrii heresim imitantes, non unius vel quorundam regnorum vere coloni, set semper
+				<lb/>de regione in regionem vagantes, omnia rapientes, legem Christi pervertentes et Arrium
+				<lb/>imitantes. Unde etiam aliquando Romam totamque Italiam ceperunt. Greciam, Macedoniam
+				<lb/>et Affricam tunc christianam optinuerunt, quibus etiam Guandali socii et consortes
+				<lb/>nequicie exstiterunt. Guandali dicuntur Sclavi in Latino, in lingua vero Theotonica vocantur
+				<lb/>Guinidi. Gothi autem secundum quosdam dicuntur populi illi quos vulgo dicimus Guascones,
+			<lb/>aput quos etiam habentur leges Gothorum.</p>
+			<p><lb/>Ungarorum regna duo esse legimus, unum antiquum aput Meotidas paludes in finibus
+				<lb/>Asie et Europe, et alterum quasi novum a primo regno in Pannonia derivatur, quam Pannoniam
+				<lb/>nonnulli novam Ungariam vocant. Ungari etiam Huni sunt appellati. Sub quorum
+			<lb/>viribus Atili et Tolila quondam regnantes multa regna in Italia et in Galliis desolaverunt.</p>
+			<p><lb/>Anglorum reges aliquando Britones, aliquando Saxones, aliquando Romani fuisse
+				<lb/>leguntur, quorum gentes licet virtute, pulcritudine et sapientia clareant, propter varietates
+				<lb/>eorum regum et temporum gesta eorum principalia non tenemus, quamvis a diebus Merlini
+			<lb/>prophete Anglorum multa de ipsis scripta in Anglia reperiantur.</p>
+		</div>
+		<div>
+			<head><lb/>Introductio 11. de universis Romanis pontificibus a tempore Christi
+			<lb/>usque ad Lucium III. papam nostri temporis.</head>
+			<p><lb/>Cristus in hoc mundo. . . . . . . . . . . . . . . Lucius sedet nunc. Sedet etiam Fredericus
+			<lb/>imperator anno sue exaltationis 35. et cum eo filius eius rex Henricus sextus.</p>
+			<p><lb/>Circa finem particule 11., ubi descripta sunt testimonia prophetarum, consequenter
+				<lb/>invenies uniuscuiusque prophete nomen et originem et vitam et mortem et loca sepulture
+			<lb/>eius scripta per ordinem.</p>
+			<p><lb/>Similiter etiam invenies de omnibus patribus veteris et novi testamenti singillatim
+			<lb/>positum per propria capitula uniuscuiusque originem et vitam et mortem et loca sepulture.</p>
+		</div>
+		<pb n="103"/>
+		<div>
+			<head><lb/>In nomine Dei eterni Patris et Filii et Spiritus sancti amen. Anno
+				<lb/>domini nostri Ihesu Christi 1185. ad honorem Dei et sancte Romane
+				<lb/>ecclesie et omnium christianorum incipit liber memorie seculorum compositus
+				<lb/>a Gotifredo Viterbiense, transmissus domino Henrico VI.
+			<lb/>Romanorum imperatori.</head>
+			<p><lb/>Divo imperatori Romanorum et illustrissimo, Henrico sexto, filio domini Friderici
+				<lb/>Romanorum imperatoris augustissimi, Gotifredus Viterbiensis, maiestatis sue capellanus
+				<lb/>et servulus, iustitiam diligere, sapientiam querere et in Domino imperare. Dum Romani
+				<lb/>imperii culmen inspicio et eius eminencie considero dignitatem, illud ipse ante omnia
+				<lb/>necessarium esse intueor, ut, sicut potestate noscitur preminere principibus, ita magis
+				<lb/>omnibus virtutibus adornetur, tantaque sit eius disciplina regiminis, ut per eum omnia
+				<lb/>vitia corripi et status orbis debeat emendari. Cuius prerogative gloriam impossibile est
+				<lb/>imperatorem suffitienter attingere, qui mundi cursum et originem et scripturarum dogmata
+				<lb/>noscitur ignorare. Imperator enim expers philosophie cum omnibus hominibus preesse
+				<lb/>credatur, si fuerit sapientie nescius, errare sepius quam regnare videtur. Quia, cum in
+				<lb/>causis rei publice sapientia indiget, cogitur ab aliis semper emendicare, et ex hoc aliena
+				<lb/>potius quam sua cernitur virtute regnare. Hec sententia primo loco principibus, deinde
+				<lb/>omni homini congruit, quia Creator propter hominem cuncta creavit et omnes homines
+				<lb/>voluit iustitie disciplinam cognoscere, quam sola bruta nata sunt ignorare. Tu vero, Henrice
+				<lb/>regum omnium felicissime, sicut a pueritia curasti phylosoficis inherere doctrinis,
+				<lb/>ita et in posterum, quamvis necessitatibus bellicis et rei publice motibus occuperis, antiquorum
+				<lb/>regum et imperatorum ystoriis phylosofica indagatione conscriptis et ad tua tempora
+				<lb/>multifarie delegatis, semper studeas erudiri, ut, cum illorum virtutes et acta didiceris,
+				<lb/>per rerum noticiam status tui imperii debeat emendari, et ad futura accidentia cautior
+				<lb/>inveniri. Ceterum quia tanta est librorum multiplicitas ut numquam tota perlegi
+				<lb/>nec tota valeat memorie commendari, ego libellum istum non superfluum ex omnibus
+				<lb/>ystoriis compilavi et eroico metro ad delectationem tue iuventutis composui, ut, cum de
+				<lb/>mundi principio, de varietate seculorum atque de cursu rerum scire volueris, omnium
+				<lb/>illorum flores et summas te in hoc modico volumine satis lucide habere cognoscas. Intentionis
+				<lb/>autem et propositi nostri est in hoc opere, a prima rerum creatione, immo ante
+				<lb/>omnem creationem principium sumere, videlicet ab ipsa divina essentia, que est ante
+				<lb/>omnia tempora, ubi erat tunc Deus et in quo mundo, et quid operabatur Deus, et
+				<lb/>quomodo erat trinus et unus Deus, et cuius erat dominus cum nulla erat creatura,
+				<lb/>et quomodo spiritus Domini ferebatur super aquas, et quot angelolum ordines fecit;
+				<lb/>quomodo celos et planetas et sidera disposuit; qualiter elementa creavit; item de statu
+				<lb/>et dispositione paradisi, et de creatione et casu hominis, et deinceps secundum dicta
+				<lb/>Moysi et aliorum patrum usque ad tempora Christi. Describendo autem seriatim vetus
+				<lb/>et novum testamentum universum in summa per singulos titulos a Moyse et ab aliis
+				<lb/>sanctis patribus consignatis, cronica omnium gentilium per diversa secula tunc viventium
+				<lb/>inserimus. Actores autem cronicorum, quos imitamur, sunt hii. Primus cronicator
+				<lb/>legitur fuisse Iulius Affricanus sub Marco Crasso imperatore. Deinde papa Clemens
+				<lb/>primus a Petro apostolo, et post eum Dionisius dictus Ariopagita et Dionius
+				<lb/>et Strabus et Solinus de mirabilibus mundi et Eusebius episcopus Affricanus. Deinde
+				<lb/>Athanasius, postea Ieronimus, postea Augustinus et Beda venerabilis presbiter, et alii nonnulli
+				<lb/>venerabiles, quorum memoria hic non indigemus. Hos itaque cronicatores et precipue
+				<lb/>Iosephum illum universa ystoriographum imitati sumus, et Orosium et Suetonium
+				<lb/>et Egesippum et Solinum. Tangimus etiam cum veteri et novo testamento summatim
+				<lb/>omnium gentilium ystorias contemporaneas, videlicet ystorias regni Babiloniorum et regni
+				<lb/>Assiriorum et Iudeorum et Egiptiorum et Argorum et Lacedemoniorum et regni Thesalanorum
+				<lb/>et Sitioniorum et Ligdorum et Macedonum et Grecorum et Ebreorum, Persarum
+				<lb/>et Medorum et Troianorum et omnium regum Albanorum et Sicambrorum et Senonum
+				<pb n="104"/>
+				<lb/>Gallorum, Saxonum et Suevorum et Romanorum et Francorum, Teotonicorum et Lombardorum
+				<lb/>et Hunorum et Gothorum et Guisogothorum et Austrogothorum et Anglorum
+				<lb/>et Pannoniorum, Atheniensium et Sicilie et Crete et Sardinie et Guandalorum, similiter
+				<lb/>ystorias imperatorum Romanorum, et omnium pontificum gesta et annos et menses et dies,
+				<lb/>et nomina eorum principaliter. Apponemus etiam nativitatem et miracula domini nostri
+				<lb/>Ihesu Christi et mortem et resurrectionem et ascensionem et adventum Spiritus sancti.
+				<lb/>Posuimus et apostolos variis linguis loquentes et miracula facientes. Adiecimus omnia testinonia
+				<lb/>omnium prophetarum de Christo testificantium per singulos articulos fidei christiane
+				<lb/>ad nostre fidei defensionem atque ad Iudeorum et hereticorum confusionem. Regnorum et
+				<lb/>gentium supradictarum ystorias et gesta ego ab adolescentia mea spatio 40 annorum eis
+				<lb/>citraque mare apud varias nationes solerti indagatione collegi, memoriter tenui et huic libello
+				<lb/>per ordinem inserui, tibique domino meo precordialissimo legenda descripsi, et tam breviter
+				<lb/>declaravi, ut hoc libro invento omnium illorum libros et ystorias proprias te reputes invenisse.
+				<lb/>Inter cetera et ad tuam delectationem de Alexandro Magno et de Appollonio Tyro et de Gog
+				<lb/>et Magog atque de quibusdam aliis rarioribus et auditu dulcioribus aliquantulum diffusius
+				<lb/>adnotavimus, ad glorie tue maius gaudium et oblectamentum. Notandum autem, quod,
+				<lb/>quamvis diverse et multe ystorie sibimet contemporanee sint et simul uno tempore currant,
+				<lb/>nos eas silicet, contemporaliter proferre studentes, principalem titulum et primum in omni
+				<lb/>capitolo ponimus Ebraicum, et consequenter cronica et gesta gentilium sub eodem titulo
+				<lb/>posito pirografio. Finito vero eo capitulo gentilium, iterum incipiamus de Ebraica ystoria
+				<lb/>alterum capitulum principale, et sub eo de gentilibus cum pirografio subiungimus, et iterum
+				<lb/>ad Ebraicos redimus. Deficiente autem ystoria Ebraica, sub tempore Christi preponimus
+				<lb/>Romanam ystoriam in omnibus capitulis, et consequenter subicimus ystorias aliorum.
+				<lb/>Capitulo autem gentilium finito et pirografio interposito, rursus ad Romanos redimus,
+				<lb/>et a Romanis omnia capitula incipimus, et sub eis cetera consignamus, sicut tunc inter se
+				<lb/>contemporanea fuisse noscuntur. Tu ergo, lectori, cum illius modi circuitum ystoriarum
+				<lb/>inveneris, non reputes hoc fieri ad legentium confusionem aut ad errorem, set necessitate
+				<lb/>nos cogente, quia, licet omnia unius temporis acta fuerint, non una poterant apertione
+				<lb/>oris narrari. Similiter notandum, quia nomen Sicambrorum et Iermanorum et Francorum
+				<lb/>et Teutonicorum unius gentis Alemanie nomina sunt et non diversarum. Eo enim tempore,
+				<lb/>quo Eneas destructa Troia venit in Ytaliam, duo alii Troiani principes, Priamus iunior,
+				<lb/>nepos magni Priami ex sorore, et Antenor, ipsius agnatus, cum 13 milibus per mare
+				<lb/>Illiricum in Ungariam veterem, que est in confinio Asie et Europe iuxta Meotidas paludes,
+				<lb/>ibique edificantes urbem magnam Sicambriam, ipsi a loco illo Sicambri sunt nominati.
+				<lb/>Deinde processu temporis inhabitantes Iermaniam, vocati sunt Iermani et Teutonici. Postmodum
+				<lb/>vero ex decreto Romani imperatoris Valentiniani vocati sunt Franci, id est feroces,
+				<lb/>propter audatiam et magnanimitatem eorum, et precipue quia ipsi deleverunt Alanos in
+				<lb/>Meotidis paludibus, quos Romani longo tempore impugnantes vincere non potuerunt.
+				<lb/>Germania dicitur, quasi gerens inmania, gesta vel corpora hominum. Item nota, quia
+				<lb/>inter Francos et Francigenas differentia est. Dicuntur autem Francigenae esse omnes qui
+				<lb/>habitant Parisius et Remis et circa Sequanam fluvium et circa Ligerim fluvium et quidam
+				<lb/>alii proximi eorum, qui omnes olim dicebantur Gaudini. Sed Carolo Martellus dux Francorum,
+				<lb/>avus Caroli Magni, subiugatos eos regno Francorum adiunxit et Francigenas
+				<lb/>appellavit, id est genitos a Francis. In lingua vero Teutonica vocavit eos a nomine
+				<lb/>suo Carolo Carlingos, sicut dicimus ab Alexandro Alexandrinos, unde et Teutonica lingua
+				<lb/>hodie vocat eos Carlingam. - Item nota, quod prefati Franci in quadam parte regionis
+				<lb/>Teotonice dicuntur Francones a quodam duce suo nomine Francone, qui dominabatur
+				<lb/>in civitate et ducatu qui dicitur Virzeburc. Set tamen Francus et Franco unius provintie
+				<lb/>populus sunt. - Itaque secundum modum et ordinem supra memoratum ab initio mundi
+				<lb/>usque in memoratum diem omnium regum et imperatorum et apostolicorum tempora,
+				<pb n="105"/>
+				<lb/>ienealogias et patrias et acta et nomina et annos et menses et dies eorum et bella principalia
+				<lb/>summatim breviterque deflorata in hoc libro delectabiliter et lucide poteris invenire.
+				<lb/>Restat igitur, ut hii, qui in legendis fabulis et rebus dubiis se ipsos consumunt, si rerum
+				<lb/>omnium varietatem scire desiderant, huic operi generalissimo mentem apponant et inventa
+				<lb/>memoriter teneant, cum sit beatius divinas litteras et veritatis titulos animo legentis inprimere,
+				<lb/>quam ludos Coridonis et pecudes Melibei vel alias fabulas lectitare. - Ne autem,
+				<lb/>o regum felicissime, difficultas dictaminis tibi tuisve laycis principibus ista perlegentibus
+				<lb/>prestet obscuritatem, non multum studui in hoc opere verborum adhibere leporem, vel
+				<lb/>dictiones cameratas vel sermones faleratos inferre, sed mediocrem dictandi sequor
+				<lb/>urbanitatem. Et quoniam in cronicis antiquorum pernimia est loquendi brevitas, in ystoriis
+				<lb/>vero nimia prolixitas, ego inter utrumque processi, ne forte vel brevitas obscuritatem
+				<lb/>vel prolixitas fastidium lectoribus generaret. Hanc etiam simplicitatis et imperitie mee
+				<lb/>lectionem non summis magistris et philosophis didascalis audeo exibere, set tibi layco
+				<lb/>moderate philosophanti et aliis quasi pueris tibi coetaneis ista simplicia dicta proposui et
+				<lb/>adaptavi. Mei etiam parvitas ingenii ad illa philosophantica culmina philosophantium non
+				<lb/>attingit. Quod si hoc opus ad manus maiorum magistrorum aliquando pervenire contigerit,
+				<lb/>ab eorum celsitudine peto humiliter et supplico, scriptis mee parvitatis et imperitie
+				<lb/>indulgeri et non in hoc dictamine illam subtilitatem requirere, quam mea inbecillitas forte
+				<lb/>non habet; et si invenerint versus pueriles vel aliquas sillabas in vitium lapsas, non statim
+				<lb/>pro minimo delicto totum opus despiciant vel condempnent, dicente Oratio:
+				<hi rend="italic">
+				<lg>
+					<l>- - - -Non ego paucis</l>
+					<l>Offendor maculis, quas aut incuriia fudit</l>
+					<l>Aut humana parum cavit natura.</l>
+				</lg>
+				</hi>
+				<lb/>Attendant magis humanos labores meos et rerum magnitudinem operisque prolixitatem, cum
+				<lb/>ego in angulis palatii imperialis, aut in via equitando sub aliqua arborum aut in silva aliqua
+				<lb/>absconsus ad horam ista scripserim, in obsidionibus castrorum, in periculo preliorum
+				<lb/>multorum, non in heremo vel in claustro aut aliquo quietis loco positus hec dictaverim,
+				<lb/>set in omni motu et rerum turbatione assidue, et in guerra et in rebus bellicis, in strepitu
+				<lb/>tante curie, ubi me oportebat cotidie esse assiduum, utpote capellanum, die ac nocte, in
+				<lb/>missa, in omnibus horis diei, in mensa, in causis agitandis, in epistolis conficiendis, in
+				<lb/>cotidiana cura novorum hospitiorum, in stipendiis conquirendis mihi meisque, in maximis
+				<lb/>legationibous peragendis, bis in Siciliam, ter in Provintiam', semel in Yspaniam, sepe in
+				<lb/>Franciam, 40 vicibus Romam de Alemania, et in omni labore et sollicitudine assidue magis
+				<lb/>quam aliquis meus coetaneus in imperiali curia pertulisset. Que omnia quanto plura et graviora
+				<lb/>sunt, tanto mirabilibus est, quod ego in tanto motu, in tanta crapula, tanto strepitu et sollicitudine
+				<lb/>ista potui operari; et ystorias et omnes auctoritates veteris et novi testamenti ab
+				<lb/>initio mundi, omnium regum et regnorum, omnium imperatorum et apostolicorum, insuper
+				<lb/>etiam opera Christi et sanctorum patriarcharum et prophetarum et apostolorum in uno collegi
+				<lb/>opere, tam brevi, tam lucido, usque in presentem diem. Que omnia magis ad utilitatem
+				<lb/>christianorum omnium quam ad favorem temporalem perfeci. Unde rogo et obsecro vos,
+				<lb/>lectores, ut pro Christi nomine anime mee dignemini benedicere, cum ego pre omnibus meis
+				<lb/>laborihus in hoc opere solius Dei expectem remunerationem. Quod si dixerit quis, unde omnia
+				<lb/>ista invenerim, sciat, me in omnibus regnis et ecclesiis, ad quas umquam perveni, librorum
+				<lb/>fuisse eraria perscrutatum et de illis omnibus per spatium 40 annorum dulciora et magis
+				<lb/>necessaria deflorasse. Sepe enim Greci a Constantinopoli et Sarraceni a Babillonia et
+				<lb/>Persi a Perside et Armeni ab Armenia ad curiam imperialem et papalem venientes et
+				<lb/>magnas legationes ferentes, me instruxerunt et sua scripta aliquando tradiderunt mihi.
+				<lb/>Opus autem huius libri scias me spacio 9 annorum agitasse et in decimo, Deo gratias,
+				<lb/>perfinisse feliciter amen. Nomen autem huius libri est Memoria seculorum. Ad hec
+				<lb/>maiestatis tue fideliter moneo altitudinem, ut, quotiens pro magnitudine imminentium
+				<pb n="106"/>
+				<lb/>causarum, aut propter adolescentie lasciviam huic lectioni intendere non poteris, saltem
+				<lb/>ystoriarum predecessorum tuorum regum et imperatorum capitula per ordinem posita tibi
+				<lb/>assidue facias recitari, sciturus procul dubio, quod ex eis mirabilem fructum et noticiam
+			<lb/>omnium seculorum poteris adipisci et ad futura omnia sapientior inveniri.</p>
+		</div>
+		<div>
+			<head><lb/>In nomine Domini incipiunt capitula omnia super librum Memorie
+				<lb/>seculorum compositum a magistro Gotifredo Viterbiense per ordinem
+				<lb/>disposita super universas particulas libri. Prima autem particula est
+			<lb/>a prima creatione usque ad Adam eiectum de Paradiso.</head>
+			<p><lb/>Distinctiones et particulas totius libri congrue dispositas et ordinatas in presenti capite
+				<lb/>libri describimus, et cuiusque particule capitula ab aliis separata proponimus, quatinus,
+				<lb/>inspectis hiis primis titulis et per ordinem declaratis, cognoscat lector in ipso libri principio,
+				<lb/>que vel qualia in toto volumine capitula sint coniesta, et in qua libri particula quelibet
+			<lb/>capitula sunt requirenda.</p>
+		</div>
+		<div>
+			<head><lb/>Incipiunt igitur capitula particule prime &lt;I&gt;etc.&lt;/I&gt;</head>
+			<p><lb/>De arcetipo mundo, in quo erat Deus ante mundi creationem . . . . . . . . . . . . . . . . . . .
+			<lb/>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+		</div>
+		<div>
+			<head><lb/>Particula XII. Memorie seculorum de Karolo Magno et de omnibus
+			<lb/>imperatoribus et pontificibus Romanis et de gente Gothorum.</head>
+			<p><lb/>De gente Gothorum tempore Leonis imperatoris Grecorum, qui cum non defenderet
+				<lb/>Ytaliam a Gothis, Carlo Martellus dux et rector Francorum, pater Pipini. . . . . . . . . . . . . .
+			<lb/>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+			<p><lb/>De primo Frederico imperatore. Imperat nunc 34 annis.</p>
+			<p><lb/>De sexto Henrico imperatore auctore Deo imperatore. Imperat nunc cum patre.</p>
+		</div>
+		<div>
+			<head><lb/>Particula tertia decima Memorie seculorum. Incipit ystoria Saxonum
+			<lb/>quomodo Macedones fuerunt de exercitu Alexandri regis.</head>
+		</div>
+		<div>
+			<head><lb/>Particula XIIII. Memorie seculorum de insignibus imperialibus videlicet
+			<lb/>de cruce &lt;I&gt;etc.&lt;/I&gt;</head>
+		</div>
+		<div>
+			<head><lb/>Particula XV. Memorie seculorum de gestis domni Friderici imperatoris.</head>
+			<p><lb/>Particula quintadecima de omnibus fere gestis principalibus domni imperatoris Friderici,
+			<lb/>cui capitula in corpore libri per seriem ipsius ystorie sunt posita et ordinata suis locis.</p>
+		</div>
+	</body>
+</text>
+</TEI>

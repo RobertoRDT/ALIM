@@ -1,0 +1,543 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regula</title>
+				<author>Clara Assisiensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>E. Menestò</name>
+                                        <name>S. Brufani  et alii</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="CC">Chiara Casali</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3278" unit="words">Parole: 3278</measure>
+				<measure quantity="20591" unit="characters_without_spaces">Caratteri (spazi esclusi): 20591</measure>
+				<measure quantity="23493" unit="characters_witht_spaces">Caratteri (spazi inclusi): 23493</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-04-07">07/04/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Regola</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note> Note:</note>
+				<note>Livello di codifica: 1</note>
+				<note>Note: Caratteri (con spazi): 24.327</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					
+					<monogr><title level="m">Fontes Franciscani</title>
+						<editor>E. Menestò</editor>
+						<editor>S. Brufani  et alii</editor>
+						<imprint>
+							<publisher>Edizioni Porziuncola</publisher>
+							<pubPlace>Assisi</pubPlace>
+							<date>1995</date>
+							<biblScope unit="page">2291-2307</biblScope>
+						</imprint>
+					</monogr>
+					
+				</biblStruct>
+				
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Regola</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="CC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-ok
+-si tratta di una lettera, in cui è stata inclusa un'altra lettera, quindi la struttura è: 
+&lt;div1&gt;Confirmatio papalis...
+	&lt;div2&gt;Letterae Raynaldi episcopi
+		&lt;div3&gt;Caput I ... Caput XII
+	&lt;/div2&gt;
+Epilogus confirmationis papalis&lt;/div1&gt;
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="2290"/>
+		<div>
+			<head><lb/><hi rend="bold">[Bulla Innocentii Papae IV].</hi></head>
+			<pb n="2291"/>
+			<head><lb/>[Innocentius Episcopus, servus servorum Dei.</head>
+			<head type="salutatio"><lb/>Dilectis in Christo filiabus Clarae abbatissae, aliisque sororibus
+                        <lb/>monasterii Sancti Damiani Asisinatis, salutem et apostolicam benedictionem.</head>
+			<lb/>
+                                <p><lb/>Solet annuere Sedes apostolica piis votis et honestis petentium
+				<lb/>precibus favorem benevolum impertiri. Ex parte siquidem vestra
+				<lb/>nobis exstitit humiliter supplicatum, ut cum vitae formulam, iuxta
+				<lb/>quam communiter in spirituum unitate ac voto <hi rend="italic">altissimae paupertatis</hi>
+				<lb/>vivere debetis, vobis a beato Francisco traditam et a vobis
+				<lb/>sponte susceptam, venerabilis frater noster Ostiensis et Velletrensis
+				<lb/>episcopus duxerit approbandam, secundum quod in ipsius episcopi
+				<lb/>litteris confectis exinde plenius continetur, nos id curaremus
+				<lb/>apostolico munimine roborari. Devotionis igitur vestrae precibus inclinati,
+				<lb/>quod ab eodem episcopo super hoc factum est ratum habentes
+				<lb/>et gratum, illud auctoritate apostolica confirmamus et praesentis
+				<lb/>scripti patrocinio communimus, tenorem litterarum ipsarum de verbo
+			<lb/>ad verbum praesentibus inseri facientes, qui talis est:</p>
+			<div>
+				<head type="salutatio"><lb/>Raynaldus, miseratione divina Ostiensis et Velletrensis episcopus,
+					<pb n="2292"/>
+					<lb/>carissimae sibi in Christo matri et filiae dominae Clarae, abbatissae
+					<lb/>Sancti Damiani Asisinatis, eiusque sororibus, tam praesentibus
+				<lb/>quam futuris, salutem et benedictionem paternam.</head>
+				<p><lb/>Quia vos, dilectae in Christo filiae, mundi pompas et delicias
+					<lb/>contempsistis, et ipsius Christi et eius sanctissimae matris <hi rend="italic">sequentes
+					<lb/>vestigia</hi>, elegistis habitare incluso corpore, et in paupertate
+					<lb/>summa Domino deservire, ut mente libera possitis Domino famulari:
+					<lb/>nos vestrum sanctum propositum in Domino commendantes, votis
+					<lb/>vestris et sanctis desideriis libenter volumus affectu paterno favorem
+				<lb/>benevolum impertiri.</p>
+				<p><lb/>Eapropter vestris piis precibus inclinati, formam vitae et modum
+					<lb/>sanctae unitatis et <hi rend="italic">altissimae paupertatis</hi> quam vobis beatus
+					<lb/>pater vester sanctus Franciscus verbo et scripto tradidit observandam,
+					<lb/>praesentibus annotatam, auctoritate domini papae et nostra
+					<lb/>vobis omnibus vobisque in vestro monasterio succedentibus in perpetuum
+					<lb/>confirmamus, et praesentis scripti patrocinio communimus.
+				<lb/>Quae talis est]:</p>
+				<div>
+					<head><lb/><hi rend="bold">[Caput I - In nomine Domini incipit forma vitae sororum pauperum].</hi></head>
+					<p><lb/>Forma vitae ordinis sororum pauperum, quam beatus Franciscus
+						<lb/>instituit, haec est: Domini nostri Iesu Christi sanctum Evangelium
+						<lb/>observare, vivendo in obedientia, sine proprio et in castitate.
+						<lb/>Clara indigna ancilla Christi et plantula beatissimi patris
+						<pb n="2293"/>
+						<lb/>Francisci promittit obedientiam et reverentiam domino papae Innocentio
+						<lb/>et successoribus eius canonice intrantibus, et Ecclesiae Romanae.
+						<lb/>Et sicut in principio conversionis suae una cum sororibus suis
+						<lb/>promisit obedientiam beato Francisco, ita eamdem promittit inviolabiliter
+						<lb/>servare successoribus suis. Et aliae sorores teneantur semper
+						<lb/>successoribus beati Francisci, et sorori Clarae et aliis abbatissis
+					<lb/>canonice electis ei succedentibus obedire.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput II - De his quae volunt vitam istam accipere, et qualiter</hi>
+					<lb/><hi rend="bold">recipi debeant].</hi></head>
+					<p><lb/>Si qua divina inspiratione venerit ad nos volens vitam istam accipere,
+						<lb/>abbatissa sororum omnium consensum requirere teneatur;
+						<lb/>et si maior pars consenserit, habita licentia domini cardinalis protectoris
+						<lb/>nostri, possit eam recipere. Et si recipiendam viderit, diligenter
+						<lb/>examinet eam, vel examinari faciat de fide catholica et ecclesiasticis
+						<lb/>sacramentis. Et si haec omnia credat et velit ea fideliter
+						<lb/>confiteri et usque in finem firmiter observare; et virum non habet,
+						<lb/>vel si habet, et iam religionem intravit, auctoritate dioecesani episcopi,
+						<lb/>voto continentiae iam emisso; aetate etiam longaeva vel infirmitate
+						<lb/>aliqua seu fatuitate ad huius vitae observantiam non
+						<lb/>impediente, diligenter exponatur ei tenor vitae nostrae.
+						<lb/>Et si idonea fuerit, dicatur ei verbum sancti Evangelii: quod <hi rend="italic">vadat</hi>
+						<lb/>et <hi rend="italic">vendat</hi> omnia sua, et ea studeat <hi rend="italic">pauperibus</hi> erogare. Quod
+						<pb n="2294"/>
+						<lb/>si facere non potuerit, sufficit ei bona voluntas. Et caveat abbatissa
+						<lb/>et eius sorores ne sollicitae sint de rebus suis temporalibus, ut
+						<lb/>libere faciat de rebus suis quicquid Dominus inspiraverit ei. Si tamen
+						<lb/>consilium requiratur, mittant eam ad aliquos discretos et <hi rend="italic">Deum
+						<lb/>timentes</hi>, quorum consilio bona sua pauperibus erogentur. Postea
+						<lb/>capillis tonsis in rotundum et deposito habitu saeculari, concedat ei
+						<lb/>tres tunicas et mantellum. Deinceps extra monasterium sine utili,
+						<lb/>rationabili, manifesta et probabili causa eidem exire non liceat.
+						<lb/>Finito vero anno probationis, recipiatur ad obedientiam, promittens
+						<lb/>vitam et formam paupertatis nostrae in perpetuum observare.
+						<lb/>Nulla infra tempus probationis veletur. Mantellulas etiam
+						<lb/>possint sorores habere pro alleviatione et honestate servitii et laboris.
+						<lb/>Abbatissa vero de vestimentis discrete eisdem provideat, secundum
+						<lb/>qualitates personarum et loca et tempora et frigidas regiones,
+						<lb/>sicut necessitati viderit expedire. Iuvenculae in monasterio receptae
+						<lb/>infra tempus aetatis legitimae tondeantur in rotundum; et deposito
+						<lb/>habitu saeculari, induantur panno religioso, sicut visum fuerit
+						<lb/>abbatissae. Cum vero ad aetatem legitimam venerint, indutae
+						<lb/>iuxta formam aliarum faciant professionem suam. Et tam ipsis
+						<lb/>quam aliis novitiis abbatissa sollicite magistram provideat de discretioribus
+						<lb/>totius monasterii, quae in sancta conversatione et honestis
+						<lb/>moribus iuxta formam professionis nostrae eas diligenter informet.
+						<lb/>In examinatione et receptione sororum servientium extra monasterium
+						<lb/>servetur forma praedicta; quae possint portare calciamenta.
+						<lb/>Nulla nobiscum residentiam faciat in monasterio, nisi recepta
+						<lb/>fuerit secundum formam professionis nostrae. Et amore sanctissimi
+						<pb n="2295"/>
+						<lb/>et dilectissimi pueri pauperculis <hi rend="italic">panniculis involuti, in praesaepio
+						<lb/>reclinati</hi>, et sanctissimae matris eius moneo, deprecor et
+					<lb/>exhortor sorores meas, ut vestimentis semper vilibus induantur.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput III - De divino officio et ieiunio, de confessione et com-</hi>
+					<lb/><hi rend="bold">munione].</hi></head>
+					<p><lb/>Sorores litteratae faciant divinum officium secundum consuetudinem
+						<lb/>fratrum minorum, ex quo habere poterunt breviaria, legendo
+						<lb/>sine cantu. Et quae occasione rationabili non possent aliquando
+						<lb/>legendo dicere horas suas, liceat eis sicut aliae sorores dicere <hi rend="italic">Pater
+						<lb/>noster</hi>. Quae vero litteras nesciunt dicant viginti quatuor Pater
+						<lb/>noster pro matutino, pro laude quinque, pro prima vero, tertia,
+						<lb/>sexta, nona, pro qualibet istarum horarum septem; pro vesperis autem
+						<lb/>duodecim, pro completorio septem. Pro defunctis etiam dicant
+						<lb/>in vesperis septem Pater noster cum <hi rend="italic">Requiem aeternam</hi>, pro matutino
+						<lb/>duodecim, cum sorores litteratae teneantur facere officium
+						<lb/>mortuorum. Quando vero soror monasterii nostri migraverit, dicant
+					<lb/>quinquaginta Pater noster.</p>
+					<p><lb/>Omni tempore sorores ieiunent. In Nativitate vero Domini
+						<lb/>quocumque die venerit, bis refici possint. Cum adolescentulis debilibus
+						<lb/>et servientibus extra monasterium, sicut videbitur abbatissae
+						<lb/>misericorditer dispensetur. Tempore vero manifestae necessitatis
+					<lb/>non teneantur sorores ieiunio corporali.</p>
+					<p><lb/>Duodecim vicibus ad minus de abbatissae licentia confiteantur
+						<lb/>in anno. Et cavere debent ne alia verba tunc inserant, nisi quae
+						<pb n="2296"/>
+						<lb/>ad confessionem et salutem pertinent animarum. Septem vicibus
+						<lb/>communicent, videlicet: in Nativitate Domini, in quinta feria maioris
+						<lb/>hebdomadae, in Resurrectione Domini, in Pentecoste, in Assumptione
+						<lb/>beatae Virginis, in festo sancti Francisci et in festo omnium sanctorum.
+						<lb/>Pro communicandis sanis sororibus vel infirmis capellano
+					<lb/>intus liceat celebrare.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput IV - De electione et officio abbatissae, de capitulo atque</hi>
+					<lb/><hi rend="bold">de officialibus et de discretis].</hi></head>
+					<p><lb/>In electione abbatissae teneantur sorores formam canonicam
+						<lb/>observare. Procurent autem ipsae festinanter habere generalem ministrum
+						<lb/>vel provincialem ordinis fratrum minorum, qui verbo Dei
+						<lb/>eas informet ad omnimodam concordiam et communem utilitatem in
+						<lb/>electione facienda. Et nulla eligatur nisi professa. Et si non professa
+						<lb/>eligeretur, vel aliter daretur, non ei obediatur, nisi primo profiteatur
+						<lb/>formam paupertatis nostrae. Qua decedente, electio alterius
+					<lb/>abbatissae fiat.</p>
+					<p><lb/>Et si aliquo tempore appareret universitati sororum praedictam
+						<lb/>non esse sufficientem ad servitium et communem utilitatem ipsarum,
+						<lb/>teneantur praedictae sorores iuxta formam praedictam, quam citius
+						<lb/>possunt, aliam sibi in abbatissam et matrem eligere.
+						<lb/>Electa vero cogitet quale onus in se suscepit et cui <hi rend="italic">redditura
+						<lb/>est rationem</hi> de grege sibi commisso. Studeat etiam magis
+						<lb/>aliis praeesse virtutibus et sanctis moribus quam officio, ut eius exemplo
+						<lb/>provocatae sorores potius ex amore ei obediant quam timore.
+						<lb/>Privatis amoribus careat, ne dum in parte plus diligit, in totum
+						<pb n="2297"/>
+						<lb/>scandalum generet. Consoletur afflictas. Sit etiam ultimum <hi rend="italic">refugium
+						<lb/>tribulatis</hi>, ne, si apud eam remedia defuerint sanitatum, desperationis
+					<lb/>morbus praevaleat in infirmis.</p>
+					<p><lb/>Communitatem servet in omnibus, praecipue autem in ecclesia,
+						<lb/>dormitorio, refectorio, infirmaria et vestimentis: quod etiam
+					<lb/>simili modo servare eius vicaria teneatur.</p>
+					<p><lb/>Semel in hebdomada ad minus abbatissa sorores suas teneatur
+						<lb/>ad capitulum convocare; ubi tam ipsa quam sorores de communibus
+						<lb/>et publicis offensis et negligentiis humiliter debeant confiteri.
+						<lb/>Et quae tractanda sunt pro utilitate et honestate monasterii, ibidem
+						<lb/>conferat cum omnibus sororibus suis; saepe enim Dominus
+						<lb/>quod melius est minori revelat. Nullum debitum grave fiat, nisi de
+						<lb/>communi consensu sororum et manifesta necessitate; et hoc per procuratorem.
+						<lb/>Caveat autem abbatissa cum sororibus suis, ne aliquod
+						<lb/>depositum recipiant in monasterio, saepe enim de huiusmodi turbationes
+					<lb/>et scandala oriuntur.</p>
+					<p><lb/>Ad conservandam unitatem mutuae dilectionis et pacis, de
+						<lb/>communi consensu omnium sororum omnes officiales monasterii eligantur.
+						<lb/>Et eodem modo octo ad minus sorores de discretioribus eligantur,
+						<lb/>quarum, in hiis quae forma vitae nostrae requirit, abbatissa
+						<lb/>uti consilio semper teneatur. Possint etiam sorores et debeant, si
+						<lb/>eis utile et expediens videatur, officiales et discretas aliquando removere
+					<lb/>et alias loco ipsarum eligere.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput V - De silentio ac de locutorio et crate].</hi></head>
+					<p><lb/>Ab hora completorii usque ad tertiam sorores silentium teneant,
+						<lb/>exceptis servientibus extra monasterium. Sileant etiam continue
+						<pb n="2298"/>
+						<lb/>in ecclesia, dormitorio, in refectorio tantum dum comedunt; praeterquam
+						<lb/>in infirmaria, in qua pro recreatione et servitio infirmarum loqui
+						<lb/>discrete semper sororibus liceat. Possint tamen semper et ubique
+						<lb/>breviter submissa voce quod necesse fuerit insinuare.
+						<lb/>Non liceat sororibus loqui ad locutorium, vel ad cratem, sine licentia
+						<lb/>abbatissae vel eius vicariae. Et licentiatae ad locutorium loqui
+						<lb/>non audeant, nisi praesentibus et audientibus duabus sororibus.
+						<lb/>Ad cratem vero accedere non praesumant, nisi praesentibus tribus
+						<lb/>ad minus per abbatissam vel eius vicariam assignatis de illis octo discretis,
+						<lb/>quae sunt electae ab omnibus sororibus pro consilio abbatissae.
+						<lb/>Hanc formam loquendi teneantur pro se abbatissa et eius vicaria
+						<lb/>observare. Et hoc de crate rarissime. Ad portam vero nullatenus
+					<lb/>fiat.</p>
+					<p><lb/>Ad quam cratem pannus interius apponatur, qui non removeatur
+						<lb/>nisi cum proponitur verbum Dei, vel aliqua alicui loqueretur.
+						<lb/>Habeat etiam ostium ligneum duabus diversis seris ferreis, valvis
+						<lb/>et vectibus optime communitum: ut in nocte maxime duabus clavibus
+						<lb/>obseretur, quarum unam habeat abbatissa, aliam vero sacrista;
+						<lb/>et maneat semper obseratum, nisi cum auditur divinum officium
+					<lb/>et pro causis superius memoratis.</p>
+					<p><lb/>Nulla ante solis ortum vel post solis occasum loqui ad cratem
+						<lb/>alicui ullatenus debeat. Ad locutorium vero semper pannus, qui
+						<lb/>non removeatur, interius maneat. In quadragesima sancti Martini
+						<lb/>et quadragesima maiori nulla loquatur ad locutorium, nisi sacerdoti
+						<lb/>causa confessionis vel alterius manifestae necessitatis, quod reservetur
+					<lb/>in prudentia abbatissae vel eius vicariae.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput VI - De promissis beati Francisci et de non habendis possessionibus].</hi></head>
+					<p><lb/>Postquam altissimus Pater caelestis per gratiam suam cor meum
+						<pb n="2299"/>
+						<lb/>dignatus est illustrare, ut exemplo et doctrina beatissimi patris nostri
+						<lb/>sancti Francisci poenitentiam facerem, paulo post conversionem
+						<lb/>ipsius, una cum sororibus meis obedientiam voluntarie sibi promisi.
+						<lb/>Attendens autem beatus pater quod nullam paupertatem, laborem,
+						<lb/>tribulationem, vilitatem et contemptum saeculi timeremus, immo
+						<lb/>pro magnis deliciis haberemus, pietate motus scripsit nobis formam
+						<lb/>vivendi in hunc modum: Quia divina inspiratione fecistis vos filias
+						<lb/>et ancillas altissimi summi Regis, Patris caelestis, et Spiritui Sancto
+						<lb/>vos desponsastis eligendo vivere secundum perfectionem sancti Evangelii,
+						<lb/>volo et promitto per me et fratres meos semper habere de vobis
+						<lb/>tanquam de ipsis curam diligentem et sollicitudinem specialem:
+					<lb/>quod dum vixit diligenter implevit, et a fratribus voluit semper implendum.</p>
+					<lb/>
+					<p><lb/>Et ut nusquam declinaremus a sanctissima paupertate quam cepimus,
+						<lb/>nec etiam quae post nos venturae essent, paulo ante obitum
+						<lb/>suum iterum scripsit nobis ultimam voluntatem suam dicens: Ego
+						<lb/>frater Franciscus parvulus volo sequi vitam et paupertatem altissimi
+						<pb n="2300"/>
+						<lb/>Domini nostri Iesu Christi et eius sanctissimae matris, et <hi rend="italic">perseverare</hi>
+						<lb/>in ea <hi rend="italic">usque in finem</hi>. Et rogo vos, dominas meas, et consilium do
+						<lb/>vobis, ut in ista sanctissima vita et paupertate semper vivatis. Et
+						<lb/>custodite vos multum ne doctrina vel consilio alicuius ab ipsa in perpetuum
+					<lb/>ullatenus recedatis.</p>
+					<p><lb/>Et sicut ego semper sollicita fui una cum sororibus meis sanctam
+						<lb/>paupertatem quam Domino Deo et beato Francisco promisimus
+						<lb/>custodire: sic teneantur abbatissae quae in officio mihi succedent
+						<lb/>et omnes sorores usque in finem inviolabiliter observare: videlicet
+						<lb/>in non recipiendo vel habendo possessionem vel proprietatem per se
+						<lb/>neque per interpositam personam, seu etiam aliquid quod rationabiliter
+						<lb/>proprietas dici possit, nisi quantum terrae pro honestate et
+						<lb/>remotione monasterii necessitas requirit; et illa terra non laboretur
+					<lb/>nisi pro horto ad necessitatem ipsarum.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput VII - De modo laborandi].</hi></head>
+					<p><lb/>Sorores, quibus dedit Dominus gratiam laborandi, post horam
+						<lb/>tertiae laborent, et de laboritio quod pertinet ad honestatem et communem
+						<lb/>utilitatem, fideliter et devote, ita quod, excluso otio animae
+						<lb/>inimico, sanctae orationis et devotionis <hi rend="italic">spiritum non exstinguant</hi>
+						<lb/>cui debent cetera temporalia deservire.
+						<lb/>Et id quod manibus suis operantur, assignare in capitulo abbatissa
+						<pb n="2301"/>
+						<lb/>vel eius vicaria coram omnibus teneatur. Idem fiat si aliqua
+						<lb/>eleemosyna pro sororum necessitatibus ab aliquibus mitteretur, ut
+						<lb/>in communi pro eisdem recommendatio fiat. Et haec omnia pro
+						<lb/>communi utilitate distribuantur per abbatissam, vel eius vicariam,
+					<lb/>de consilio discretarum.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput VIII - Quod nihil approprient sibi sorores, et de eleemosyna</hi>
+					<lb/><hi rend="bold">procuranda et de sororibus infirmis].</hi></head>
+					<p><lb/>Sorores nihil sibi approprient, nec domum nec locum, nec aliquam
+						<lb/>rem; et <hi rend="italic">tanquam peregrinae et advenae</hi> in hoc saeculo, in
+						<lb/>paupertate et humilitate Domino famulantes, mittant pro eleemosyna
+						<lb/>confidenter; nec oportet eas verecundari, quia <hi rend="italic">Dominus</hi> pro nobis
+						<lb/>se <hi rend="italic">fecit</hi> pauperem in hoc mundo. Haec est illa celsitudo <hi rend="italic">altissimae
+						<lb/>paupertatis</hi>, quae vos, carissimas sorores meas, <hi rend="italic">heredes</hi> et reginas <hi rend="italic">regni</hi>
+						<lb/>caelorum instituit, <hi rend="italic">pauperes</hi> rebus fecit, virtutibus sublimavit.
+						<lb/>Haec sit <hi rend="italic">portio</hi> vestra quae perducit <hi rend="italic">in terram viventium</hi>;
+						<lb/>cui, dilectissimae sorores, totaliter inhaerentes nihil aliud
+						<lb/>pro nomine Domini nostri Iesu Christi et eius sanctissimae matris in
+					<lb/>perpetuum sub caelo habere velitis.</p>
+					<p><lb/>Non liceat alicui sorori litteras mittere, vel aliquid recipere, aut
+						<lb/>extra monasterium dare, sine licentia abbatissae. Nec quicquam liceat
+						<lb/>habere quod abbatissa non dederit aut permiserit. Quod si a
+						<lb/>parentibus suis, vel ab aliis ei aliquid mitteretur, abbatissa faciat illi
+						<lb/>dari. Ipsa autem si indiget uti possit, sin autem sorori indigenti caritative
+						<pb n="2302"/>
+						<lb/>communicet. Si vero ei aliqua pecunia transmissa fuerit,
+					<lb/>abbatissa de consilio discretarum in hiis quae indiget illi faciat provideri.</p>
+					<lb/>
+					<p><lb/>De infirmis sororibus, tam in consiliis quam in cibariis et aliis
+						<lb/>necessariis quae earum requirit infirmitas, teneatur firmiter abbatissa
+						<lb/>sollicite per se et alias sorores inquirere, et iuxta possibilitatem loci
+						<lb/>caritative et misericorditer providere. Quia omnes tenentur providere
+						<lb/>et servire sororibus suis infirmis, sicut vellent sibi serviri si ab infirmitate
+						<lb/>aliqua tenerentur. Secure manifestet una alteri necessitatem
+						<lb/>suam. Et si mater diligit et nutrit <hi rend="italic">filiam suam</hi> carnalem, quanto
+						<lb/>diligentius debet soror diligere et nutrire sororem suam spiritualem!
+						<lb/>Quae infirmae in saccis cum paleis iaceant, et habeant ad caput
+						<lb/>capitalia cum pluma; et quae indigent pedulis laneis et culcitris
+						<lb/>uti possint. Infirmae vero praedictae, cum ab introëuntibus
+						<lb/>monasterium visitantur, possint singulae aliqua bona verba sibi loquentibus
+						<lb/>breviter respondere. Aliae autem sorores licentiatae monasterium
+						<lb/>intrantibus loqui non audeant, nisi praesentibus et
+						<lb/>audientibus duabus discretis sororibus, per abbatissam vel eius vicariam
+						<lb/>assignatis. Hanc formam loquendi teneantur pro se abbatissa
+					<lb/>et eius vicaria observare.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput IX - De poenitentia sororibus peccantibus imponenda,</hi>
+					<lb/><hi rend="bold">et de sororibus servientibus extra monasterium].</hi></head>
+					<p><lb/>Si qua soror contra formam professionis nostrae mortaliter, inimico
+						<lb/>instigante, peccaverit, per abbatissam vel alias sorores bis vel
+						<lb/>ter admonita, si non se emendaverit, quot diebus contumax fuerit
+						<pb n="2303"/>
+						<lb/>tot in terra panem et aquam coram sororibus omnibus, in refectorio
+						<lb/>comedat; et graviori poenae subiaceat, si visum fuerit abbatissae.
+						<lb/>Interim dum contumax fuerit, oretur ut Dominus ad poenitentiam
+					<lb/>cor eius illuminet.</p>
+					<p><lb/>Abbatissa vero et eius sorores cavere debent, ne irascantur vel
+						<lb/>conturbentur propter peccatum alicuius: quia ira et conturbatio in
+					<lb/>se et in aliis impediunt caritatem.</p>
+					<p><lb/>Si contingeret, quod absit, inter sororem et sororem verbo vel signo
+						<lb/>occasionem turbationis vel scandali aliquando suboriri, quae
+						<lb/>turbationis causam dederit, statim, antequam <hi rend="italic">offerat munus</hi> orationis
+						<lb/>suae coram Domino, non solum humiliter prosternat se ad pedes alterius,
+						<lb/>veniam petens; verum etiam simpliciter roget, ut pro se intercedat
+						<lb/>ad Dominum quod sibi indulgeat. Illa vero memor illius verbi
+						<lb/>Domini: Nisi ex <hi rend="italic">corde dimiseritis, nec Pater vester</hi> caelestis <hi rend="italic">dimittet
+						<lb/>vobis</hi>, liberaliter sorori suae omnem iniuriam sibi illatam remittat.
+						<lb/>Sorores servientes extra monasterium longam moram non faciant,
+						<lb/>nisi causa manifestae necessitatis requirat. Et honeste debeant
+						<lb/>ambulare et parum loqui, ut aedificari semper valeant intuentes.
+						<lb/>Et firmiter caveant ne habeant suspecta consortia vel consilia aliquorum.
+						<lb/>Nec fiant commatres virorum vel mulierum, ne hac occasione
+						<lb/>murmuratio vel turbatio oriatur. Nec praesumant rumores de
+						<lb/>saeculo referre in monasterio. Et firmiter teneantur, de hiis quae
+						<lb/>intus dicuntur vel aguntur, extra monasterium aliquid non referre,
+						<lb/>quod posset aliquod scandalum generare. Quod si aliqua simpliciter
+						<lb/>in hiis duobus offenderit, sit in prudentia abbatissae misericorditer
+						<lb/>poenitentiam sibi iniungere. Si autem ex consuetudine vitiosa
+						<lb/>haberet, iuxta qualitatem culpae abbatissa de consilio discretarum
+					<lb/>illi poenitentiam iniungat.</p>
+					<pb n="2304"/>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput X - De admonitione et correctione sororum].</hi></head>
+					<p><lb/>Abbatissa moneat et visitet sorores suas, et humiliter et caritative
+						<lb/>corrigat eas, non praecipiens aliquid eis quod sit contra animam
+						<lb/>suam et nostrae professionis formam. Sorores vero subditae
+						<lb/>recordentur quod propter Deum abnegaverunt proprias voluntates.
+						<lb/>Unde firmiter suis abbatissis obedire teneantur in omnibus quae observare
+						<lb/>Domino promiserunt, et non sunt animae contraria et nostrae
+						<lb/>professioni. Abbatissa vero tantam familiaritatem habeat circa ipsas,
+						<lb/>ut dicere possint ei et facere sicut dominae ancillae suae. Nam
+						<lb/>ita debet esse quod abbatissa sit omnium sororum ancilla.
+						<lb/>Moneo vero et exhortor in Domino Iesu Christo, ut <hi rend="italic">caveant</hi> sorores
+						<lb/><hi rend="italic">ab omni</hi> superbia, vana gloria, invidia, <hi rend="italic">avaritia, cura et sollicitudine
+						<lb/>huius saeculi</hi>, detractione et murmuratione, dissessione
+						<lb/>et divisione. Sint vero sollicitae semper invicem servare mutuae dilectionis
+						<lb/>unitatem, quae <hi rend="italic">est vinculum perfectionis</hi>.
+						<lb/>Et nescientes litteras non curent litteras discere; sed attendant
+						<lb/>quod super omnia desiderare debent: habere spiritum Domini
+						<lb/>et sanctam eius operationem, orare semper ad eum puro corde et
+						<lb/>habere humilitatem, patientiam in tribulatione et infirmitate, et
+						<lb/><hi rend="italic">diligere</hi> eos qui nos <hi rend="italic">persequuntur</hi>, reprehendunt et arguunt; quia
+						<lb/>dicit Dominus: <hi rend="italic">Beati qui persecutionem patiuntur propter iustitiam,</hi>
+						<pb n="2305"/>
+					<lb/><hi rend="italic">quoniam ipsorum est regnum caelorum. Qui autem perseveraverit usque in finem hic salvus erit</hi>.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput XI - De clausurae custodia].</hi></head>
+					<p><lb/>Ostiaria sit matura moribus et discreta, sitque convenientis ætatis,
+						<lb/>quae ibidem in cellula aperta sine ostio in die resideat. Sit ei
+						<lb/>et aliqua socia idonea assignata, quae cum necesse fuerit, eius vicem
+						<lb/>in omnibus exsequatur.
+						<lb/>Sit autem ostium diversis duabus seris ferreis, valvis et vectibus
+						<lb/>optime communitum; ut in nocte maxime duabus clavibus obseretur,
+						<lb/>quarum unam habeat portanaria, aliam abbatissa. Et in die
+						<lb/>sine custodia minime dimittatur, et una clave firmiter obseretur.
+						<lb/>Caveant autem studiosissime et procurent ne unquam ostium
+						<lb/>stet apertum, nisi quanto minus fieri poterit congruenter. Nec
+						<lb/>omnino aperiatur alicui intrare volenti, nisi cui concessum fuerit a
+						<lb/>summo Pontifice, vel a nostro domino cardinali. Nec ante solis ortum
+						<lb/>monasterium ingredi, nec post solis occasum sorores intus aliquem
+						<lb/>remanere permittant, nisi exigente manifesta, rationabili et
+					<lb/>inevitabili causa.</p>
+					<p><lb/>Si pro benedictione abbatissae, vel pro aliqua sororum in monialem
+						<lb/>consecranda, vel alio etiam modo, concessum fuerit alicui episcopo
+						<lb/>missam interius celebrare, quam paucioribus et honestioribus
+						<lb/>poterit sit contentus sociis et ministris. Cum autem intra monasterium
+						<lb/>ad opus faciendum necesse fuerit aliquos introire, statuat tunc
+						<lb/>sollicite abbatissa personam convenientem ad portam, quae tantum
+						<lb/>illis, et non aliis, ad opus deputatis aperiat. Caveant studiosissime
+					<lb/>omnes sorores ne tunc ab ingredientibus videantur.</p>
+					<pb n="2306"/>
+				</div>
+				<div>
+					<head><lb/><hi rend="bold">[Caput XII - De visitatore, capellano et cardinali protectore].</hi></head>
+					<p><lb/>Visitator noster sit semper de ordine fratrum minorum secundum
+						<lb/>voluntatem et mandatum nostri cardinalis. Et sit talis de cuius
+						<lb/>honestate et moribus plena notitia habeatur. Cuius officium erit,
+						<lb/>tam in capite quam in membris, corrigere excessus commissos contra
+						<lb/>formam professionis nostrae. Qui stans in loco publico, ut videri ab
+						<lb/>aliis possit, cum pluribus et singulis loqui liceat quae ad visitationis
+						<lb/>officium pertinent, secundum quod melius viderit expedire.
+						<lb/>Capellanum etiam cum uno socio clerico bonae famae, discretionis
+						<lb/>providae, et duos fratres laicos sanctae conversationis et honestatis
+						<lb/>amatores, in subsidium paupertatis nostrae, sicut misericorditer
+						<lb/>a praedicto ordine fratrum minorum semper habuimus, intuitu
+						<lb/>pietatis Dei et beati Francisci, ab eodem ordine de gratia postulamus.
+						<lb/>Non liceat capellano sine socio monasterium ingredi. Et intrantes
+						<lb/>in loco sint publico, ut se possint alterutrum semper et ab
+						<lb/>aliis intueri. Pro confessione infirmarum quae ad locutorium ire
+						<lb/>non possent, pro communicandis eisdem, pro extrema unctione, pro
+						<lb/>animae commendatione, liceat eisdem intrare. Pro exequiis vero
+						<lb/>et missarum sollemniis defunctorum, et ad fodiendam vel aperiendam
+						<lb/>sepulturam, seu etiam coaptandam, possint sufficientes et idonei
+					<lb/>de abbatissae providentia introire.</p>
+					<p><lb/>Ad haec sorores firmiter teneantur semper habere illum de
+						<lb/>sanctae Romanae Ecclesiae cardinalibus pro nostro gubernatore, protectore
+						<lb/>et correctore, qui fuerit a domino papa fratribus minoribus
+						<lb/>deputatus: ut semper subditae et subiectae pedibus eiusdem sanctae
+						<pb n="2307"/>
+						<lb/>Ecclesiae, <hi rend="italic">stabiles in fide</hi> catholica, paupertatem et humilitatem
+						<lb/>Domini nostri Iesu Christi et eius sanctissimae matris et sanctum
+						<lb/>Evangelium, quod firmiter promisimus, in perpetuum observemus.
+					<lb/>Amen.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/><hi rend="bold">[Epilogus].</hi></head>
+				<p><lb/>[Datum Perusii, sexto decimo kalendas Octobris, pontificatus
+				<lb/>vero domini Innocentii papae IV anno decimo.</p>
+				<p><lb/>Nulli ergo omnino hominum liceat hanc paginam nostrae confirmationis
+					<lb/>infringere vel ei ausu temerario contraire. Si quis autem
+					<lb/>hoc attentare praesumpserit, indignationem omnipotentis Dei et
+					<lb/>beatorum Petri et Pauli apostolorum eius se noverit incursurum.
+				<lb/>Datum Asisii, quinto idus Augusti, pontificatus nostri anno undecimo].</p>
+				<lb/>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

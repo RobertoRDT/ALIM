@@ -1,0 +1,510 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber Pergaminus</title>
+				<author>Moyses Pergamensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Gorni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2405" unit="words">Parole: 2405</measure>
+				<measure quantity="13947" unit="characters_without_spaces">Caratteri (spazi esclusi): 13947</measure>
+				<measure quantity="15994" unit="characters_witht_spaces">Caratteri (spazi inclusi): 15994</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2002-09-19">19/09/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Poesia epica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: Parole: 2510&#13;
+Caratteri: 14317&#13;
+[?] indicano integrazioni congetturali dell?editore&#13;
+Il corsivo evidenzia prestiti da fonti classiche&#13;
+GM&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>G. Gorni</editor>
+						<title>Il "Liber Pergaminus" di Mosè de Brolo</title>
+					</analytic>
+					<monogr>
+						<title level="j">Studi medievali, s. III</title>
+						<imprint>
+							<date>1970</date>
+							<biblScope unit="volume">11</biblScope>
+							<biblScope unit="page">409-460</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Poesia epica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma mancano i &lt;pb&gt;. Nel file originale, i &lt;pb&gt; non indicavano le pagine, ma piuttosto parti (o "capitoli") del poema. Ogni tale "capitolo" ho messo in un &lt;lg&gt; separato, ma ho tolto i &lt;pb&gt;, dato che contenevano solo i numeri di versi.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<lg>
+				<l>Alme Deus rector, qui terre frena gubernas,</l>
+				<l>nec sinis absque jugo sedes fluitare supernas,</l>
+				<l>omnia Pergamee, pie rex, da commoda genti</l>
+				<l>pestibus ut careant sevis casuque nocenti.</l>
+				<l n="5">Nam gens ista, tuas leges et jura colendo,</l>
+				<l>non te deseruit peregrinum dogma sequendo.</l>
+				<l>Hinc equidem magnam mercedem sepe secuta</l>
+				<l>hostibus in mediis fuit a discrimine tuta:</l>
+				<l>namque peregrino vicinia diruta Marte</l>
+				<l n="10">sepe fuit; stetit hec ulla non territa parte.</l>
+				<l>Nunc age, largitor cunctorum summe bonorum,</l>
+				<l>annue me rerum breviter meminisse priorum.</l>
+			</lg>
+			<lg>
+				<l>Tempore quo Galli Senones in Martis amore</l>
+				<l>florebant, Italum petierunt regna furore.</l>
+				<l n="15">Dux erat his Brenus, gladio metuendus et asta,</l>
+				<l>cuius ad aspectum nutabant oppida vasta.</l>
+				<l>Dicitur hic urbes Italum posuisse per arva</l>
+				<l>et validas arces et non munimina parva;</l>
+				<l>sed, cum Pergameos vidisset denique tractus:</l>
+				<l n="20">?Nunc sum, quod petii ? dixit ? sepissime, nactus?.</l>
+				<l>Hic igitur cinxit tria mira cacumina muro</l>
+				<l>liber ut incursu foret atque timore futuro,</l>
+				<l>turribus expositis per cunctas undique partes</l>
+				<l>ut nichil hostiles noceant his menibus artes.</l>
+				<l n="25">His etiam castri munimen struxit amenum</l>
+				<l>hactenus ipsius dictum de nomine Brenum.</l>
+				<l>Si quis forte situm nescis nomenque locorum,</l>
+				<l>spe brevius summam tibi nos dicemus eorum.</l>
+				<l>Nomina quin etiam si discere queris aquarum,</l>
+				<l n="30">nominibus propriis quasdam referemus earum:</l>
+				<l>sed memorabo tamen loca primitus exteriora,</l>
+				<l>quis animadversis, exordiar interiora.</l>
+			</lg>
+			<lg>
+				<l>Inchoat Aurore pes clari Montis ab axe</l>
+				<l>quinque sub occiduum tendens quasi milia laxe:</l>
+				<l n="35">sed duo porrectus, quasi crux, in cornua, plaustrum </l>
+				<l>dexteriore petit, levo declinat ad austrum.</l>
+				<l>Principium tenet urbs omni spectamine plenum,</l>
+				<l>finis habet vero durans in secula Brenum.</l>
+				<l>Hinc pretercurrunt duo flumina gurgite miro</l>
+				<l n="40">montibus ex altis orientia murmure diro:</l>
+				<l>Sarius a solis nascentis labitur ora,</l>
+				<l>Brembus ab occidua quaciens resonantia lora;</l>
+				<l>huic quoque vicinus currit sevissimus amnis</l>
+				<l>'Murgura' nomen habens, arvorum non sine damnis.</l>
+				<l n="45">Quis numerare queat quot ab hoc manantia Monte</l>
+				<l>flumina sint, sacro passim nascentia fonte ?</l>
+			</lg>
+			<lg>
+				<l>Hic locus est geminus divina conditus arte,</l>
+				<l>nulla gerens hominum quavis munimina parte.</l>
+				<l>Nomen utrique dedit proprium possessor eorum,</l>
+				<l n="50">cui situs in primis placuit cultusque locorum.</l>
+				<l>Hic a Fabricio memoratur 'Fabricianus',</l>
+				<l>Pampilius nomen dedit illi 'Pampilianus'.</l>
+				<l>Hic calidas oras pronus despectat ad austri,</l>
+				<l>ille perhemne videt pigri juga frigida plaustri.</l>
+				<l n="55">Si peteret quondam Romana potentia Penos,</l>
+				<l>aut hos aut illos qui nolunt sumere frenos,</l>
+				<l>mille dabant isti Rome toracas aenos</l>
+				<l>et validos bellis animos vultusque serenos !</l>
+				<l>Sed Fortuna bonis hominum male fida recessit</l>
+				<l n="60">et loca, tanta prius, sevissima sub pede pressit:</l>
+				<l>nam modo vix equites capiunt hic arma ducenti</l>
+				<l>unde falanx ibat millena sub ere nitenti.</l>
+			</lg>
+			<lg>
+				<l>Tertius ad Noton est, Pretoris nomine dictus,</l>
+				<l>mille per amfractus et mille volumina fictus</l>
+				<l n="65"><hi rend="italic">unde nec insidias nec vim timet ille furorum,</hi></l>
+				<l>munere nature munitus et arte Priorum.</l>
+				<l>Hic veterum fulgent miranda palacia regum,</l>
+				<l>hic etenim viguit jus et celebratio legum;</l>
+				<l>hic etiam gelidus fons est, ut dicitur, unus</l>
+				<l n="70">cui natura potens dedit hoc mirabile munus:</l>
+				<l>huius si quis aqua pociatur sepe serena,</l>
+				<l>non timeat rabidos morsus nec dira venena.</l>
+				<l>Huic vicina manet gens hoc secura timore,</l>
+				<l>libera vexatur quo cetera terra labore.</l>
+			</lg>
+			<lg>
+				<l n="75">Hinc ubi procedes paulum Titanis ad ortum</l>
+				<l>respice Crotatii felicem divitis hortum,</l>
+				<l>quem regina potens ambivit marmore Grata,</l>
+				<l>Pergamee sedis regeret cum sceptra beata.</l>
+				<l>Illic omne viret genus omni tempore florum,</l>
+				<l n="80">ex quibus egrotos sanans vis exit odorum.</l>
+				<l>Crotatius huius avus regine dicitur illam</l>
+				<l>constituisse bonis propriis magnopere villam,</l>
+				<l>unde fuisse locum veteres dixere vocatum,</l>
+				<l>cuius et ipse locus conservat corpus humatum.</l>
+				<l n="85">Signa rei manifesta tibi dabit alta columpna,</l>
+				<l>post obitum domino quam gens fabricavit alumpna.</l>
+				<l>Plurima principibus loca sunt ibi structa vetustis</l>
+				<l>carmine digna novo Musisque canenda venustis,</l>
+				<l>que quia lectorem numerando gravare timemus,</l>
+				<l n="90">singula nominibus propriis idcirco silemus.</l>
+				<l>Est tamen ex illis unus non jure silendus,</l>
+				<l>quem Mucius fertur princeps statuisse verendus:</l>
+				<l>unde locus nomen quoque suscepisse putatur:</l>
+				<l>nam Mucius gentis veteri de more vocatur.</l>
+				<l n="95">Ipsius ergo situm breviter gentemque canamus</l>
+				<l>nec latuisse locum tantum sub nube sinamus.</l>
+				<l>Incipit a Phebi collis fervore calentis,</l>
+				<l>clima petens arcti rigide plaustrique gementis:</l>
+				<l>hic prope planiciem tumulum subvectus acutum</l>
+				<l n="100">gestat, ab insidiis hostilibus undique tutum,</l>
+				<l>utpote quem triplici muro vis Mucia cinxit</l>
+				<l>precipitisque jugi pendente cacumine vinxit.</l>
+				<l>Castanee silve semperque virentia prata,</l>
+				<l>vites, poma, nuces, olee, fons, arva beata;</l>
+				<l n="105">silvaque ditat eum, variarum plena ferarum,</l>
+				<l>retibus aut canibus capitur pars plurima quarum.</l>
+				<l>Quin eget ad vite re nulla munia digna,</l>
+				<l>nobilitavit eum quia sic natura benigna:</l>
+				<l>hunc tenet antique gens alte nobilitatis</l>
+				<l n="110">finitimos superans armis opibusque beatis.</l>
+				<l>Hinc prodire solent sapientum corda virorum,</l>
+				<l>consiliis cedunt urbana negocia quorum:</l>
+				<l>ex quibus Ambrosius, quem plenitudo bonorum</l>
+				<l>ornat ab etatis puerilis tempore morum,</l>
+				<l n="115">quem, dum vita comes fuerit sensusque, colemus</l>
+				<l>carminibusque novis et digna laude canemus.</l>
+				<l>Ducta propago datur cuius clarissima gentis</l>
+				<l>principis Apponis, regali stirpe potentis:</l>
+				<l>hic quondam Gallos linquens angustaque rura,</l>
+				<l n="120">Itala dum cuperet fervente capessere cura,</l>
+				<l>transiit adversos hostes et prelia dura</l>
+				<l>arvaque multa manu cepit castellaque plura;</l>
+				<l>sed loca nulla tamen placuerunt visa petenti</l>
+				<l>ut Mucii rupes nido decorata nitenti.</l>
+				<l n="125">Hanc igitur longa cepit vix obsidione,</l>
+				<l>cetera consuesset quamvis sibi subdere prone.</l>
+			</lg>
+			<lg>
+				<l>Preteriturus eram te pratis, Longule, dives,</l>
+				<l>carmine sed nostro, spero, per secula vives.</l>
+				<l>Tu[que] Noti spectas oras solisque calores</l>
+				<l n="130">et virides nutris oleas Bachique liquores.</l>
+				<l>Hic fuit, ut perhibent, Fabii celeberrima sedes</l>
+				<l>Pergameas missi quondam tutoris ad edes;</l>
+				<l>hic Martis juvenes affectabantur ad arma</l>
+				<l>atque feras pugnas ictusque repellere parma.</l>
+				<l n="135">Marcius inde quidem Campus locus iste vocatur,</l>
+				<l>quamvis nullus ibi ludus vel pugna geratur.</l>
+			</lg>
+			<lg>
+				<l>Vertito, Musa, viam laxans retinacula freni</l>
+				<l>carminibusque situm paucis michi pandito Breni.</l>
+				<l>?Rupe sedens celsa, nimium similique cadenti,</l>
+				<l n="140">non equitum turmuas peditumve phalanga timenti,</l>
+				<l>Hesperon et solis currum jam pene repentem</l>
+				<l>Occianique senis videt equora salsa petentem.</l>
+				<l>Fertilitate sui locus iste beatus agrorum</l>
+				<l>multimodis frugum speciebus habundat eorum;</l>
+				<l n="145">hunc quoque percurrit flumen cognomine Quisa,</l>
+				<l>cuius aqua melior nusquam fuit altera visa;</l>
+				<l>quam quia lesisti tibi sit, Gualderice, venenum</l>
+				<l>exitus, ac tumulus post debita funera cenum ?.</l>
+				<l>Musa, quiesce parum fesseque sit hic tibi meta,</l>
+				<l n="150">ut recreata queas ad cetera pergere leta.</l>
+			</lg>
+			<lg>
+				<l>Pergama si veteres habuissent alta poetas,</l>
+				<l>Herculis et Bachi transissent nomine metas;</l>
+				<l>sed Bellona furens omnes in bella trahebat,</l>
+				<l>nullus erat vates, nullus bene gesta canebat.</l>
+				<l n="155">Hinc periere, licet virtute manuque probati,</l>
+				<l>pluraque liquerunt incommoda posteritati.</l>
+				<l>Nam velut apposito vires capit ignis ab igne,</l>
+				<l>sic quis quando legit vel facta vel edita digne.</l>
+				<l>Non igitur veterum verbis audita silebo,</l>
+				<l n="160">nec nocitura michi livoris tela timebo.</l>
+				<l>Namque venenoso laniet si dente laborem,</l>
+				<l>atra michi meritum post fata relinquet honorem.</l>
+				<l>Livor edax proprio paulatim solvitur igni,</l>
+				<l>cuius cura bonis est sola nocere maligni;</l>
+				<l n="165">sed promissa tamen supra prius ordine solvam</l>
+				<l>Pergameeque situs urbis gentemque revolvam.</l>
+			</lg>
+			<lg>
+				<l>Hanc michi pande viam cuius regit omnia numen</l>
+				<l>ingeniique, tuum munus, michi confer acumen.</l>
+				<l>Passibus ascensis quasi mille rubentis ab ora</l>
+				<l n="170">Aurore, scopulis rigidis sedet illa decora;</l>
+				<l>partibus arctois et pigri sidere plaustri</l>
+				<l>tantumdem plano ferme removetur et austri;</l>
+				<l>hec quoque porrigitur spacio per montis acuta</l>
+				<l>culmina, natura manuumque juvamine tuta.</l>
+				<l n="175">Sunt gemine valles diversis tractibus orte</l>
+				<l>obliquis oculis in se vultuque retorte,</l>
+				<l>que penitus reliquo seiungant menia Monte</l>
+				<l>adversa sese ferientes obvia fronte,</l>
+				<l>in medio modicus nisi collis eas prohiberet</l>
+				<l n="180">atque, sua sese defendens mole, teneret.</l>
+				<l>Non est mons alius melior tibi, Bache proterve,</l>
+				<l>non alibi tantum placuit sua silva Minerve;</l>
+				<l>nam velut alta caput gemmis auroque corona,</l>
+				<l>sic urbem circa loca cingitis omnia prona.</l>
+			</lg>
+			<lg>
+				<l n="185">Quatuor urbs oris portis patet ipsa quaternis,</l>
+				<l>interius grummis (ceu diximus) edita ternis;</l>
+				<l>his quoque per Montis recto juga limite postis</l>
+				<l>ut procul aspiciens illos exorreat hostis.</l>
+				<l>Inter eos plures linquit natura plateas,</l>
+				<l n="190">quis pueri faciunt ludos nimpheque choreas;</l>
+				<l>his quoque cursores et ad aspera bella legendos</l>
+				<l>experiuntur equos cives et pluris emendos.</l>
+				<l>Hinc gelidi laticis de saxis edita vena</l>
+				<l>fontibus aut puteis hauritur ubique serena.</l>
+				<l n="195">Sed celebrata magis cunctis cultoribus urbis</l>
+				<l>una fuit semper non ullis arida turbis,</l>
+				<l>que, licet antiquis non sit memorata poetis,</l>
+				<l>non tamen est patriis solummodo cognita metis.</l>
+				<l>Nam quecumque petunt insignia Pergama gentes</l>
+				<l n="200">huc visum veniunt, aliis recitare volentes; </l>
+				<l>sed quia carminibus melius commissa sciuntur</l>
+				<l>(nam non mutatis verbis repetita leguntur),</l>
+				<l>carminibus fontis nomen[que] situmque canemus,</l>
+				<l>queve sit illius natura potens referemus.</l>
+			</lg>
+			<lg>
+				<l n="205">Sunt duo vicini tumuli, quos orrida vallis </l>
+				<l>scindebat penitus, fuit urbs cum condita Gallis.</l>
+				<l>Non tunc plaustra boves, sicut nunc, inde trahebant,</l>
+				<l>non equites illinc equitare profecto valebant:</l>
+				<l>hanc igitur clivis validis equare volentes,</l>
+				<l n="210">eius utrumque caput muris clausere colentes </l>
+				<l>saxa[que] vel tenuem supero de vertice limum,</l>
+				<l>quo via plana foret, traxere vallis in imum.</l>
+				<l>Fons erat in medio gelidus [visu]que venustus,</l>
+				<l>nec lune radiis nec lampade solis adustus;</l>
+				<l n="215">marmoreis igitur scalis per concava jactis </l>
+				<l>fornicibusque super firmis summopere tractis,</l>
+				<l>tramite clivoso fontem traxere per ima</l>
+				<l>vallis, ad Arctoum rugoso frigore clima.</l>
+				<l>Hic inter muros sinus est in concava sectus</l>
+				<l n="220">parietibus cinctus solidis et fornice tectus; </l>
+				<l>imfima sunt mersis de marmore strata profecto,</l>
+				<l>montibus e Ceni multo molimine secto;</l>
+				<l>quo trepidante gradu veniens fons ille receptus</l>
+				<l>gurgitis ingentis fit ibi lacus undique septus.</l>
+				<l n="225">Funibus hauritur modicis tamen unda liquoris </l>
+				<l>paulisper distans supremi marginis oris.</l>
+				<l>Assiduos cantus gelide quoque noctis in horis</l>
+				<l>at[que] sonos, veteris quos dat memor Echo doloris,</l>
+				<l>audit et inhitu crebro letatur equorum,</l>
+				<l n="230">quos laticum potu levat anxietate suorum. </l>
+				<l>Namque suos fontes puteosque relinquere nimphas</l>
+				<l>sepe videre queas istasque requirere limphas;</l>
+				<l>huc pecus omne libens, unda labente relicta,</l>
+				<l>currit uti Paphie volucres ad pabula ficta.</l>
+				<l n="235">Non stupeas homines cupide meliora petentes </l>
+				<l>cum pociora petunt pecudes ratione carentes.</l>
+				<l>Cur tamen hec faciant possis ut mente videre,</l>
+				<l>numinis auxilio summi temptabo docere:</l>
+				<l>quamvis nature nequeat secreta latentis</l>
+				<l n="240">fonditus humane ratio cognoscere mentis. </l>
+				<l>Credo quod unda, diu lassata cadendo, rigorem</l>
+				<l>ledendique viam ponat nocuumque vigorem,</l>
+				<l>cum suscepta lacu requieverit ipsa silenti</l>
+				<l>nec trepido cursu quatitur nec flamine venti;</l>
+				<l n="245">hinc gravitate carens levius per viscera manat,</l>
+				<l>membraque fessa levat, languentia corpora sanat.</l>
+				<l>Sed ne forte putes hec quisquam frivola dicta,</l>
+				<l>expertus poteris cognoscere non fore ficta:</l>
+				<l>si tamen huius aque fialas metire quaternas</l>
+				<l n="250">alteriusque pares mensuras accipe ternas,</l>
+				<l>inque pari trutina pones utrumque liquorem,</l>
+				<l>vergere (mira fides) miraberis ipse minorem.</l>
+				<l>Quin etiam Bachi si vis lenire furores,</l>
+				<l>eius inequales capies duo vasa tenores;</l>
+				<l n="255">huic dabis ex alio mensuras flumine ternas,</l>
+				<l>huic, ex prescripto, similes impone quaternas:</l>
+				<l>plus tamen amittet proprii mensura saporis</l>
+				<l>cui fuerit limphe mensura jugata minoris.</l>
+			</lg>
+			<lg>
+				<l>Si fontis nomen cupias audire potentis</l>
+				<l n="260">(dum tibi, Musa, refert vatis, remorare, canentis) </l>
+				<l>Vaginus antiquis dictus fuit inde colonis,</l>
+				<l>quod genibus vadit scalis per concava pronis.</l>
+				<l>Fors que sit facies queras quoque nosse domorum,</l>
+				<l>vel qua materie sint aurea tecta meorum;</l>
+				<l n="265">sed ne manca voces ulla mea carmina parte,</l>
+				<l>hoc etiam nostra dabitur tibi munus ab arte.</l>
+				<l>Optima queque domus, multo fundata labore,</l>
+				<l>pauperis et ditis simili decorata nitore.</l>
+				<l>Saxea materies e Montis viscere secta</l>
+				<l n="270">circuit omne latus decoratque micantia tecta.</l>
+				<l>Rara, sed hoc certe, fugit aera turris in urbe,</l>
+				<l>rara quod eius habent inter se prelia turbe;</l>
+				<l>namque ligat stabili nodo pax aurea cives:</l>
+				<l>pace manet pauper, pacis quoque federe dives.</l>
+				<l n="275">Non alias tante leges aut civica jura</l>
+				<l>aut decus aut pietas viget aut concordia pura.</l>
+				<l>Tradita cura viris sanctis est hec duodenis,</l>
+				<l>qui populi jussis urbis moderantur habenis;</l>
+				<l>hi sanctas leges scrutantes nocte dieque</l>
+				<l n="280">dispensant equo cunctis moderamine queque.</l>
+				<l>Annuus his honor est, quia mens humana tumore</l>
+				<l>tollitur, assiduo cum sublimatur honore.</l>
+				<l>Tela, manus, clipeos, arcus ensesque rigentes,</l>
+				<l>cassidas et triplices toracas equosque frementes</l>
+				<l n="285">hostibus opponunt adversis absque timore, </l>
+				<l>viribus audaces solitis animique vigore.</l>
+				<l>Nam pueri discunt simul arma sitimque famemque</l>
+				<l>ferre, simul solis gravidos estus hiememque:</l>
+				<l>non igitur mirum si nesciat ille timere</l>
+				<l n="290">qui, puer, ista tulit, poterat cum jure pavere. </l>
+			</lg>
+			<lg>
+				<l>Si quis opes optet cognoscere Pergameorum,</l>
+				<l>que sint arma viris cultusque notabit equorum,</l>
+				<l>ornamenta quibus sint clara micantibus auro,</l>
+				<l>intextis vario gemmis celamine mauro.</l>
+				<l n="295">Non tamen ulla viris in cultus cura nitore: </l>
+				<l>quisque magis gaudet proprio clarere labore.</l>
+				<l>His igitur cunctis urbs hec quia condecoratur</l>
+				<l>cui vult blanditur, cui vult secura minatur.</l>
+			</lg>
+			<lg>
+				<l>Hic quoque fessa parum retinacula solve, Camena,</l>
+				<l n="300">dum vigor ex haustu redit, inde resumito frena. </l>
+				<l>Pergamee positum descripsimus hactenus urbis,</l>
+				<l>quive sit illius Mons, queve potentia turbis.</l>
+				<l>Nunc michi sepe senum verbis audita referre</l>
+				<l>annue, qui celum colis et regis imfima terre.</l>
+				<l n="305">Tu michi pande viam, tu dux michi carminis esto:</l>
+				<l>tutus enim graditur cui sit tua dextera presto.</l>
+				<l>Ut virtute sua Brenus munimina facta</l>
+				<l>arvaque cuncta sibi vidit vicina subacta:</l>
+				<l>?Nunc ? ait -, o socii, tempus maiora movere,</l>
+				<l n="310">nunc michi credo viam, quoquo declino, patere.</l>
+				<l>Nam valide nobis vires animique vigentes</l>
+				<l>et superi nostris curis ceptisque faventes.</l>
+				<l>Ergo, viri fortes et jam michi sepe probati,</l>
+				<l>quam cito (tempus nunc) armis estote parati.</l>
+				<l n="315">Dux ego namque manu vos consilioque juvabo, </l>
+				<l>vobiscum[que] mori, si sors ferat atra, parabo.</l>
+				<l>Quam tamen haud vobis opus est aliudve timere:</l>
+				<l>nam vis nulla potest nobis casusve nocere.</l>
+				<l>Martis adulterio coituque creata pudendo</l>
+				<l n="320">vincere sola parat gens, omnia regna premendo; </l>
+				<l>cumque paret cunctis (si sors ita det) dominari,</l>
+				<l>precipue nostre genti solet ipsa minari.</l>
+				<l>Hanc igitur statui prius obsidione petendam</l>
+				<l>assidueque famis gravitate sitisque premendam.</l>
+				<l n="325">Hinc michi victori nascetur gloria prima </l>
+				<l>predaque virtuti vestre servatur opima ?.</l>
+				<l>His igitur dictis, acies educit aperto</l>
+				<l>limite portarum, perituras omine certo.</l>
+				<l>Namque fuga celeri Latiis repedavit ab oris,</l>
+				<l n="330">omnibus amissis rabieque cadente furoris.</l>
+				<l>At postquam victo priscus furor excidit illi</l>
+				<l>predaque cuncta fuit virtute recepta Camilli,</l>
+				<l>Italie fines vacuavit Gallica pestis</l>
+				<l>Romaque continuis agitavit gaudia festis.</l>
+				<l n="335">Ne tamen his iterum fera bella parentur ab oris </l>
+				<l>neve simul pestis premat Itala regna prioris,</l>
+				<l>presidium cunctis imponit cura senatus</l>
+				<l>urbibus ante quibus Brenus fuerat dominatus.</l>
+				<l>Pergameas igitur Fabius legatur ad edes</l>
+				<l n="340">tutor, ubi Breni fuerat gratissima sedes. </l>
+				<l>Hic ex illorum fuit unus stirpe cluenti</l>
+				<l>qui nece pro patria clara cecidere trecenti.</l>
+			</lg>
+			<lg>
+				<l>Si que nobilitas fuerit queras Fabiorum,</l>
+				<l>pluribus in vatum poteris reperire priorum:</l>
+				<l n="345">non igitur credas tibi me narrare necesse </l>
+				<l>narratum multis mire quod noveris esse.</l>
+				<l>Hunc autem pocius, cuius michi mencio facta</l>
+				<l>carmina nostra canent et digna favoribus acta:</l>
+				<l>namque vir iste nitens omni spectamine vite</l>
+				<l n="350">nomen et ingenium gentis superavit avite. </l>
+				<l>Artibus ingenuis nullus magis aptus Athenas</l>
+				<l>Atridumve domos adiit Romanus amenas;</l>
+				<l>nemo magis viguit civilis juris honore,</l>
+				<l>nulla magis nituit dicendi lingua lepore:</l>
+				<l n="355">fortior arma tulit Troianas nullus ad oras</l>
+				<l>nec Danaos contra tulit arma facesve vaporas.</l>
+			</lg>
+			<lg>
+				<l>Pauperis ingenii non est tibi dicere mores</l>
+				<l>multiplici quorum vicit candore priores.</l>
+				<l>Si tamen hos optes nostram tibi pandere Musam,</l>
+				<l n="360">ne fore mendacem fictisve putaveris usam, </l>
+				<l>non fuit Enea pietate, rigore Catone,</l>
+				<l>non patrie cura vel amore minor Cicerone.</l>
+				<l>Munificus tantum fuit ut, dare queque deceret,</l>
+				<l>morte magis seva quesita negare timeret.</l>
+				<l n="365">Non hunc ausa virum fuit insatiata cupido,</l>
+				<l>non hunc ausa fuit temptare nociva libido.</l>
+				<l>Namque locus cuiquam fore non potuit viciorum</l>
+				<l>in quo tanta fuit concordia juncta bonorum.</l>
+				<l>Jure vir ergo fuit tanto sublimis honore</l>
+				<l n="370">Pergamee gentis regimen sortitus et ore. </l>
+				<l>Hic ubi prima sui cepit moderamina regni</l>
+				<l>desidie vires tulit adiumentaque segni.</l>
+				<l>..............................</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,696 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regulae ortographie per alphabetum compilate</title>
+				<author>Gorus Aretinus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>C. Leonardi</name>
+                                        <name>F. Stella</name>
+                                        <name>P. Stoppacci</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EBr">Elisa Brunoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7654" unit="words">Parole: 7654</measure>
+				<measure quantity="39520" unit="characters_without_spaces">Caratteri (spazi esclusi): 39520</measure>
+				<measure quantity="46350" unit="characters_witht_spaces">Caratteri (spazi inclusi): 46350</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-06-24">24/06/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Grammatica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Caratteri 39618&#13;
+Parole 7346&#13;
+Le [] indicano integrazione; i †
+					                    segnalano corruttele del testo che l’editrice non ha potuto ricostruire. Al paragrafo 23 i tre
+					                    simboli di cui parla l’autore sono abbreviazioni usate nella scrittura per indicare il
+					                    sintagma cum. Sono indicati a testo con i simboli utilizzati dall’editrice tranne
+					                    l’ultimo (eseguito a mano dall’editrice, per cui si è scelto un segno molto
+				                    somigliante) (9; 2; o)&#13;
+E. B. &#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>L'’insegnamento dell’ortografia attraverso il metodo di Maestro Goro d’Arezzo</title>
+						<editor>T. D’Alessandro</editor>
+					</analytic>
+					<monogr>
+						<title level="m">Un ponte fra le culture: studi medievistici per I-Deug-Su</title>
+						<editor>C. Leonardi</editor>
+						<editor>F. Stella</editor>
+						<editor>P. Stoppacci</editor>
+						<imprint>
+							<publisher>SISMEL Edizioni del Galluzzo</publisher>
+							<pubPlace>Firenze</pubPlace>
+							<date>2009</date>
+							<biblScope unit="page">143-161</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Millennio medievale</title>
+						<biblScope unit="volume">81</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Grammatica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1301/1400">XIV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EBr">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-omesso, è lo stesso caso dei testi 213 e 217: mancano gli &lt;lb/&gt;; i &lt;p&gt; sono presenti, ma spesso sono sbagliati (dividono le frasi a metà)</item><item type="itemNotaJC">-la struttura è di un solo livello; i capitoli sono numerati 1-60, però alcuni numeri sono nel mezzo di un paragrafo. Dato che non so se il testo è diviso nei paragrafi correttamente, sarà necessario vedere l'edizione a stampa</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="143"/>
+		<div>
+			<head><hi rend="italic">Incipiunt Regule Ortographie per alphabetum compilate</hi></head>
+			<div>
+				<p>1. Circa ortographie doctrinam intenti primo scire debemus quid sit ortographia et unde dicatur, et quia
+					ipsa consistit in cognitione literarum et sillabarum, videndum est de ipsis. Sed primo quid sit litera,
+					quod sillaba, et unde dicatur: Ortographia est ordinationis rectitudo literarum et in sillabis secundum
+				vim et potestatem ipsarum.</p>
+				<p>Et dicitur ab ortos, quod est rectum, et graphia, quod est scriptura, modo ortographia, id est recta
+				scriptura.</p>
+				<p>2. Litera est minima pars composite vocis, id est constructionis et hoc quantum ad distinctionem
+					orationis per vocem et non per significatum, vel sic diffinitur: litera est vox individua que scribi
+					potest; quarum diffinitionum prima datur in relatione ad suum totum, quod est oratio, secunda in
+					comparatione ad suum genus, quod est vox. 3. Sillabe duplex datur diffinitio; una dicit: sillaba est
+					comprehensio literarum consequens sub uno accentu et uno spiritu prolata. Verum illa diffinitio non est
+					proprie cuiuslibet sillabe cum unaqueque vocalium literarum sillabaque per se facere possit. Unde alia
+					datur diffinitio magis generalis que sic datur: Sillaba est vox literalis que sub uno accentu et uno
+					spiritu indistanter profertur. 4. Litera dicitur a lituris vel quasi litura a lino-nis quia antiqui
+					solebant scribere in tabulis ceratis et postmodum linebant sive faciebant lituras cum digitis supra
+					tabulis causa sciedi quod scripserant, vel dicitur a lego-is quasi prebens iter legendi sive legentibus.
+					Et nota quod hoc nomen litera scribi debet per unum solum /t/ sine /c/ undecumque dicatur, ut Uguccio
+				testatur expresse.</p>
+				<p>5. Litere accidunt tria: nomen, ut a et b, figura sicut scribitur, et potestas /eo/ quod habet potestatem
+					faciendi dictionem longam vel brevem in accentu.
+					<pb n="144"/>
+					Sillaba vero dicitur a sillabin grece latine comprehensio, unde sillaba dicitur proprie comprehensio
+				literarum et sic abusivo utimur nomine, ut Priscianus dicit: cum vocalis sillaba nuncupetur.</p>
+				<p>6. Literarum quedam sunt vocales, ut /a/e/i/o/u/ sic dicte quia sonum per se faciunt sine amistione soni
+					alterius litere. Alie omnes sunt consonantes sic dicte quia miscent sonum suum sono vocalium. Harum
+					quedam sunt semivocales incohantes a sono vocalium et finientes in se ipsas, ut l/m/n/r/s/et x/. Alie
+					sunt mute, incohantes a sono suo et finientes in sonum vocalium, preter /F/, ut b/c/d/g/f/p/t/k/et q/,
+					quarum sufficientiam, id est quod non sint plures quam pauciores omictendum puto, quia talia potius ad
+					speculationem quam ad cognitionem recte scripture spectant. In hac ante divisione literarum non est
+					facta mentio de /h/ quia non supradicta censetur litera, ut materia patebit. Y et Z invente sunt
+				grecorum nominum causa, et sic figure literarum quibus utimur numero sunt XXIII.</p>
+				<p>7. Harum literarum varie sunt potestates, nam vocales per se sillabam facere possunt nec esse potest
+					sillaba in qua sint plures vocales nisi sit diptogata, ut audio. Est autem diptongus coniunctio duarum
+					vocalium in eadem sillaba, vim suam servantium, et dicitur a dya, quod est duo, et ptongus, quod est
+					sonus, quia duarum vocalium sonum habet et sunt quatuor diptongi, scilicet: au et eu/ ae et oe. Sed
+					diptongus que variatur in /u/ tota scribitur et profertur, ut eunucus et audio; que variatur in /e/ nec
+					ex toto scribitur nec profertur, ut Musae et Foenum; scribebant enim antiqui in similibus dictionibus
+					sic diptongatis mediam diptongum quod secundum modernes nullo modo servatur et sic apparet quomodo
+					litera vocalis habeat se ad sillabam, sed litera consonans per se multaque facere non potest, et sic
+					superiungatur vocalis ad constitutionem sillabe. Sillaba constare potest ex una litera, ut puta, ex
+					vocali ut /a/, ex duabus ut /ab/, ex tribus ut /abs/, ex quatuor ut /Mars/, ex quinque ut /stans/, ex
+					sex ad plures ut /stirps/. Si ergo tres litere consonantes precedunt vocalem, non secuntur nisi due, et
+				si secuntur tres, non precedunt nisi due.</p>
+				<p>8. Nunc contra est sciendum quod secundum Priscianum si precedens sillaba desinit in consonantem necesse
+					est quod sequens a consonante incipiat et e contrario, ut ille arduus, nisi in compositi, ut transeo-is
+					et sic de aliis compositis in quibus prepositio accipienda est sillaba per se. Item si sequens incipiat
+					a vocali, precedens debet terminari in vocalem et e contrario, ut pietas. Sed
+					<pb n="145"/>
+					ut facilior sit doctrina, per alphabeti ordinem de una quaque litera est videndum aliquas regulas
+				generales utiles et necessarias.</p>
+			</div>
+			<div>
+				<p>9. A – litera est vocalis que sillabam per se facere potest in principio, in medio et in fine et hoc
+					idem de omnibus vocalibus contigit. Convertitur autem sive mutatur hec litera in omnes vocales: in /e/
+					ut facio-feci; parco-peperci; armatus-inermis; in /i/ ut amicus – inimicus, ex quo patet quod
+					errat qui in hoc nomine (i)nimicus facit quod /n/ sit de sillaba sequenti, cum prepositio debeat integra
+					remanere; in /o/ ut marmaton – marmor; in /u/ ut salsus – insulsus; ara –arula, unde
+				dicitur: <hi rend="italic">Vertitur /a/ vel in /e/ vel in /i/ vel in /o/ vel in /u/</hi>.</p>
+			</div>
+			<div>
+				<p>10. B – Litera muta est in qua nulla sillaba prima finit nisi se quem incipiat ab eadem in
+					sinplicibus dictionibus, ut sabbatum et obba, sed in compositis alter est. Unde nota hanc regulam: si
+					prepositiones desinentes in /b/ ut /ab/ sub/ ob/ componantur cum dictione a/c/f/g/m/p/l/r/ regulariter
+					mutatur /b/ in sequentem literam, unde dicitur: <hi rend="italic">Rapis c/u/m/ fun/gor/ sub ob/ab/b/
+					sibi mutant</hi>, a /c/, ut accido, succido; ab /f/ ut suffugio; a /g/ ut fuggero; ab /m/ ut
+					summicto; a /p/ ut oppono; ab /r/ ut surrideo; predicta tamen regula non habet ubique veritatem, nam
+					sequente /r/ non mutatur interdum causa differentie, ut abrogo, abrado. Ne si arrado et arrogo non
+					different putarentur composita a prepositione /ad/. 11. Sic ergo causa concidentie evitande inter illud
+					verbum abrogo compositum ex /ab/ et rogo, quod tantum valet quantum superbio, dicimus abrogo, id est
+					destruo, contra regulam predictam.Hoc idem contingit in hoc verbo asporto, in quo mutatur /b/ in /s/ ad
+				differentiam huius verbi apporto, compositum ex /ad/ quod aliud significat.</p>
+				<p>Item simili ratione in hoc alio verbo aspello, /b/ mutatur in /s/. Similiter fallit predicta regula in
+					hoc verbo aufero et aufugio in quibus /b/ mutatur in /u/. In preterito vero huius verbi aufero diximus
+					abstuli in cuius compositione est /abs/ et non /ab/, quia /ab/ non componitur cum dictione incipiente a
+					/t/ vel a /c/, sed eius loco componitur /abs/ ut abstraho et abscondo ut vult Priscianus. 12.Item
+					quandoque abiicit /b/, ut in16 hoc verbo omicto, ut patet pro Oratium qui ponit primam sillabam brevem
+					huius verbi, ut ille quem sua culpa premet deceptus omicte18 tueri. Sic ergo fallit regula predicta in
+					hiis verbis: abrogo / abrado / asporto / aspello / aufero / aufugio / et omicto. Unde dicitur:
+					<pb n="146"/>
+					<hi rend="italic">B mutatur in has / pec/ causam / fran/ ge / re / vo / ces /. Inpedit additio,
+					subtractio pollixenumque</hi>, in reliquis dictionibus compositis a predictis prepositionibus /b/
+					nec mutatur nec abiicitur, ut ab hinc, obdo, abluo, obloquor, abnego, et sic de aliis. Sed circa
+					predictam regulam ne dubium possit occurrere, sciendum quod suscipio, sustuli, sustineo, suspicor,
+					suspicio et suspiro, non sunt composita a prepositione /sub/, sed a sursum adverbio, et ideo in eis non
+					scribitur /b/. 13.Item notandum quod illa litera /b/ intercipitur eufonie causa, ut est quando
+					prepositio /am/ componitur cum dictione incipiente a vocali, ut ambio quod componitur ex /am/ et eo,
+					ambesus ex /am/ et esus et in quibusdam aliis, ut inambages et in ambigit, unde dicitur:
+					<hi rend="italic">ac intercipitur cum vocali subit /am/ post. Sicut in ambesus, ambages, ambigit,
+					ambit</hi>. Rursus sciendum quod si hec prepositio /ob/ componatur cum dictione incipiente a /c/
+					assumit /s/, ut obscurus quod componitur ex /ob/ et cura; obscenus, quod componitur ex /ob/ et ceno, vel
+					cena, unde dicitur <hi rend="italic">ob assumet /s/ si /c/ componere cures</hi>. 14. Sciendum preterea
+					quod ille prepositiones habent differentiam in compositione. Nam /ab/ omnibus preponitur literis preter
+					/c//q et /t/. A vero prepositio componitur cum dictionibus incipientibus ab /m/ vel /u/ consonante, ut
+					amnes, aveho. Abs vero ante /c/q/ vel /t/, solum poni debet, ut abscondo, abscido, abstraho, abstineo.
+					Unde dicitur: <hi rend="italic">c/q/t/ motis /ab/ cunctis associatur. A componatur Iovem/mus quando
+					sequatur, abs componatur si cunctus associatur</hi> per hoc apparet quod errant qui in abscondo,
+				abstineo et similibus /abs/ faciunt unam sillabam per se.</p>
+			</div>
+			<div>
+				<p>15. C – Litera muta est in qua nulla prima nec media sillaba finit nisi sequens incipiat ab eadem
+					vel a /q/ et hoc tam in simplicibus quam in compositis habet veritatem, ut saccus, accurro quicquam ex
+				quo ostenditur /c/ et /q/ habere eadem vim.</p>
+				<p>Verum puto hanc regulam predictam fuisse traditam a Prisciano de partibus declinationis, quia vidimus
+					quod in illa dictione, nuncnon necne, predicta regula non habet veritatem. Unde dicitur,
+					<hi rend="italic">sillaba nulla cadit in /c/ nisi cumque sequatur</hi>. Et ubicumque in media dictione
+					reperitur unum /c/ solum tunc debet poni cum sillaba sequente, sicut in istis dictionibus: factus,
+					dictio. Sed dictio quando scribitur pro /c/ idem est quod pars orationis. Sed reperitur scriptum tantum
+					pro /t/ solum sine /c/ et tunc idem est quod subiacentia vel potestas. Unde Virgilius: Vastabat Ciprum
+					et victor dictione tenebat. 16. Reperitur contra condictio, quia derivatur a condico,
+					<pb n="147"/>
+					et tantum valet quantum pactum sive lex, sed reperitur conditio sine /c/ et tunc idem est quod compositio
+					et tunc derivatur a condo-is, id est compono. Item c/n/q/ mutantur in has literas : in /u/ consonantem
+					/x/s/g/t/ in /u/, ut quiesco-quievi, in /x/ ut dico-dixi, in /s/ ut parco-si vel peperci, mulceo-si; in
+					/g/ ut quadraginta, quingenti, septingenti, octingenti, in quibus dictionibus omnibus et similibus est
+					/c/ in compositione et /g/ quia componuntur a centum. Nam si in huiusmodi compositionibus /n/ non
+					precedat, non mutatur /c/, ut tricenti et sic de aliis. Si vero precedit /n/ tunc /c/ mutatur in /g/, ut
+					patet in predictis exemplis. Item mutatur in /t/ ut nascor-natus. Item sciendum quod /c/ est de literis
+					que causa euphonie interponuntur, ut sicubi et necubi a /si/ vel /ne/ et /ubi/ componuntur interposita
+					/c/, unde de omnibus regulis predictis recollige hos versus: <hi rend="italic">C quoque transit in has
+						vi/xi/ quibus adde sexaginta, parsi quingenta / natus / duxi que quievi. A precedente /c / g/
+						numeralia mutant. Ac/ intercipitur ut sicubi, nuncubi mostrat</hi>.</p>
+			</div>
+			<div>
+				<p>17. D – In /d/ sillaba nulla precedens terminatur in simplicibus nisi sequens incipiat ab eadem,
+					dico autem precedens quia finalis sillaba bene terminatur in ipsam, ut apud et si quidem et similia. In
+					compositis vero quinque mutatur, quinque no. Ideo secundum regula quotienscumque hec prepositio /ad/
+					componitur cum dictione incipiente a /c/f/g/l/n/p/r/s/ vel /t/ mutari debet /d/ in illas litteras. In
+					/c/ ut accido, /f/ ut affero, /g/ ut aggero, /l/ ut allido, /p/ ut appono, /r/ ut arrideo, /n/ ut annuo,
+					/s/ ut assideo, /t/ ut attineo, unde dicitur: <hi rend="italic">C/or/fra/gans/le/nis/pi/ra/sal/tans/ d/
+					sibi mutat</hi>. Et licet dictum sit superius quod /d/ mutatur in sequentem literam si componatur
+					cum incipiente a /p/ vel /s/, fallit tamen predicta regula in hoc verbo aperio, composito ex /ad/ et
+					pario, in quo est prima brevis ut patet per Ovidium dicentem: Tunc ego iubebo totas aperire fenestras.
+					Et fallit quotiens /ad/ componitur cum dictione incipiente ab /s/ sequenti alia et que abiiciunt /d/, ut
+					ascondo, asto, aspiro, ratione istius regule generalis: nulla litera consonans geminatur sequente alia
+					consonante nisi sequatur litera liquida, ut affluo et suffragor. 18. Sunt autem liquide due /l/ et /r/.
+					Unde dicitur: <hi rend="italic">Et parit post /s/ si consona sit abiiciat /d/. Consonam non gemines ad
+					consonam nisi sit /l/ vel /r/</hi>; est notandum ulterius quod in omnibus aliis dictionibus /d/ nec
+					abiicitur nec mutatur. Ut adhereo, adhibeo, adduco, admicto, id est recipio, compositum vero ex /a/ et
+					micto, id est perdo, adquiro, quidem verum licet Priscianus dicat scribi
+					<pb n="148"/>
+					per /d/ si quis tamen scribat per /c/ mutatur in tali compositione. De hoc verbum adsum dicunt quidam
+					debere scribi per /d/ ad differentiam huius participi /assus/ sa/ sum, est tamen contra regulam
+					supradictam, unde dicitur <hi rend="italic">forsan et assum cum similis, adsum /d/ mage servant</hi>.
+					Item nota quod hec coniunctio /sed/ debet scribi per /d/, ut vult Priscianus et Uguicio, quia
+					appocopatur secundum quod antiqui dicebant : haud aspiratum per /d/ finitur et est adverbium negandi,
+					sed non aspiratum per /t/ scribitur et est coniunctio disiunctiva, unde dicitur: <hi rend="italic">Haud
+						aspiratum per /d/ vult esse notatum, non aspiretur per /t/ si quando notetur</hi>.</p>
+			</div>
+			<div>
+				<p>19. E – Vocalis incipere et finire sillabam potest sicut alie vocales. Hec contra litera preponitur
+					et postponitur in diptongis, ut /ae/ et /eu/, sed quando postponitur ut dictum est diptongus non
+				scribitur nisi media, ut muse.</p>
+				<p>Item hec litera mutatur in omnes vocales, in /a/ ut reor-ratus; in /i/ ut lego-diligo; in /o/ ut
+					rego-rogo; in /u/ ut doceo-docui. Similiter antiqui dicebant faciundum, legundum, profaciendum, et
+					cetera, in quibus et similibus scribebant /u/ per /e/, unde dicitur: <hi rend="italic">E vel in a, vel
+					in i, vel in o, vel in u, variat se. Si ratus atque rogo, faciendum, diligo, cernas</hi>. Notandum
+					ulterius quod illa prepositio /e/ componitur cum dictionibus incipientibus ab istis novem litteris:
+					b/d/g/ l/m/n/r/ vel /u/ consonante. A /b/ ut ebibo, a /d/ ut educo, a /g/ ut egero, ab /l/ ut hic et hec
+					et hoc elex, ab /m/ ut emicto, ab /n/ ut enitor, ab /r/ ut eruo, ab /i/ vel /u/ consonante ut evito et
+					eiectio. Cum aliis autem tam vocalibus quam consonantibus, debet componi ex, ut excidio, exeo, exigo,
+					exosus, exuro, excurro, exquiro, extimo, unde dicitur: <hi rend="italic">De
+						/bi/le/ia/ne/Vi/res/ma/gis/e/non/ex/sibi iungit. Cetera cognosces /ex/ non /e/ et enim sumere
+						recte</hi>.</p>
+			</div>
+			<div>
+				<p>20. F – quidam dixerunt esse literam semivocalem eo quod incipiat a sono /e/ et finiat in suum,
+					sicut /s/ quod maxime videtur esse proprimum semivocalium cuius opinionis contrarium vult Priscianus,
+					quod ipse probat dicens quod semivocalis quelibet terminatam est dictionis quod non convenit huic litere
+					/f/. Item commune ponitur ante liquidam in eadem sillaba et facit sillabam esse communem qui locus est
+					mutarum et non semivocalium. Item quia scribitur loco /ph/, ut Orfeus sed /p/ litera muta est, sciendum
+					tamen quod inter /ph/ et ipsam /f/ refert, quia /ph/ pronuntiandum est magis fixis labiis quam /f/.
+					Sciendum ulterius quod hec litera sillabam non terminat in simplici dictione, in compositis vero
+					terminat sillabam, sed tunc ponitur loco alterius litere, ut affero et similia, de quibus dictum
+					<pb n="149"/>
+					est supra. Nota contra quod mutatur in /b/, ut in hoc verbo sibilo, nam dicebant antiqui sifilo, unde
+					dicitur: <hi rend="italic">F si consequitur tunc in /f/ sillaba finit. F- sit /b/ dicito nunc sibilo
+						sifilo quondam</hi>.</p>
+			</div>
+			<div>
+				<p>21. G – De hac litera /g/ primo videndum est quod ipsa tenet sonum suum sequentibus /e/ vel /i/ ut
+					gemma, ginagium. Sed sequentibus aliis literis mutat sonum, ut gallus, gula. Secundo scire debemus quod
+					ipsa sillaba non finit nisi sequens incipiat ab eadem, ut fuggero, aggero. Unde dicitur:
+					<hi rend="italic">Si /g/ non sequitur nec in /g/ sillaba finitur</hi>. Tertio sciendum quod ipsa mutatur
+					in /s/ in /x/ in /ct/ ut spargo-si, mergo-si; rego-xi, frigo-xi; ago-actus, lego-lectus; unde dicitur: G
+					mutatur in /s/ et in /x/ similis accipe /ct. Quarto sciendum quod /n/ principalis sillaba recipit /s/
+					per prothesis ut natus-gnatus; notus-gnotus, unde ignotus, nosco-cognosco, navus-gnavus; narus,
+					gnarus-ignarus. Sed quidam dicunt quod /g/ est de integritate talis dictionis, secundum quosdam si tales
+					dictiones componantur cum /in, ut ignarus, /n/ non mutatur in /g/ hoc abiicitur. Similiter si nosco
+					componatur cum /ad/, dicendum secundum eos quod d/ non mutatur in /g/ sed abiicitur, ut agnosco, ex quo
+					patet qualiter predicte dictiones sint scribende, unde dicitur: <hi rend="italic">Que tamen aufertur /n/
+						g quoque perveniente, aut in eam transit quod per cognosco probatur</hi>.</p>
+			</div>
+			<div>
+				<p>22. H – Ut incepto procedatur ordine dicendum est de /h/, sed quia ipsa non est litera, sed
+					accidens litere est videndum que et quot sint accidentia litere, secundum quia non sit litera, demum
+					aliqua sunt videnda de ipsa que conferet ad cognitionem recte scripture. De primo sciendum est quod cum
+					unaquaque formalis essentia habent operationem primam et communem et litera sit quedam essentia, ideo
+					habebit operationem primam et communem. Prima vero operatio litere est per se facere sillabam vel cum
+					alio. Per se et non semper, ut vocales, cum alio, ut consonantes. Comunis operatio sive accidens litere
+					est quincuplex, scilicet tempus, spiritus, cognatio, mutatio et ordo. 23. Tempus nihil aliud est quam
+				literam posse produci vel breviari.</p>
+				<p>Spiritus sive aspiratio nihil aliud est quam literam suscipere sonum in principio vel in fine, ut postea
+				dicetur.</p>
+				<p>Cognatio, que est tertium accidens commune litere, nihil est aliud quam literam posse habere
+					convenientiam in sono aspirationis ipsius /h/ et sic dicendum est quod /c/ non aspiratum convenit cum
+					/c/ aspirato, ut coram / et chorus, et similiter de /t/ ut totus et thorus. Mutatio literarum nihil
+					aliud est quam unam literam poni pro altera; sicut dicimus /a/ mutatur in /i/, ut habeo,
+					<pb n="150"/>
+					adhibeo et sic de similibus. De ordine vero dicetur postea immediate declarata principali materia de /h/.
+					De signo breviter sciendum quod Priscianus utitur tali ratione ad probandum quod /h/ non sit litera,
+					quia /h/ aut esset vocalis aut consonans. Non est vocalis quia vocalis potest per se facere sillabam
+					quod /h/ nullo modo facere. Non est consonans quia aut esset semivocalis aut muta. Non semivocalis quia
+					quelibet semivocalis potest dictionem integram terminare, sed in /h/ nulla dictio integra terminatur. Et
+					videtur quod sic quia dicimus /ah/, /vah/, ille sunt terminationes appocopate et sic de similibus.
+					Similiter contra non est muta quia nulla sillaba potest esse ex pluribus duabus mutis iuxta se positis
+					nec ex pluribus tribus consonantibus, sed /h/ ponitur cum duabus mutis ut ricthmus. Ne valet si quis
+					dicat eam habere figuram litere, inscribitur inter alias literas quia contra scribuntur quedam figure
+					literarum, ut /9/2/o/ que non sunt litere sed representant nobis dictiones quasdam. 24. In proposita
+					materia quatuor regule sunt notande quarum prima est quod nulla prepositio nec coniunctio aspiratur et
+					hinc est quod erraret si quis scriberet abundo sive abundans et similia cum aspiratione, componitur enim
+					ex ab prepositione et undo/undat, similiter abeo/bis, id est discedo, cum componatur ex ab et eo-is,
+					aspirari non debet. Et sic intellige de omnibus aliis dictionibus compositis a prepositione in quibus
+					sepe erratur. Similiter /ac/ in quantum est coniunctio, debet scribi sine aspiratione, sed cum /h/
+					quando est pronomen. Secunda regula est quod aspiratio proponitur omnibus vocalibus, ut
+					habeo/hinnus/humus/hebeo/heres/ homo/ preponitur autem quatuor consonantibus tantum s/c/p/t/, ut
+					thremes/michi/Philippus/chorus. Causam qua in ipsa preponitur vocalibus et consantibus amore brevitatis
+					omictenda puto. 25. Tertia regula est quod si auferatur vocalibus aspirandis fit vitium non tamen mutat
+					significationem dictionis, ut si habeo-es scribatur sine /h/ non tamen tollitur eius significatio. Si
+					autem auferatur consonantibus ita coheret eis quod penitus significationis vim minuit. Ut si dicam
+					Pilippus pro Philippus, secundum Priscianum. Quartum sciendum est que sit dictiones que in principio
+					aspirantur. De hiis vero que aspirantur in medio longum esset videre. Sed hoc tamen sciendum est quod
+					nihil magis confert ad scientiam recte scribendi quam cognoscere naturas dictionum et earum originem.
+					Sed ut facilior sit doctrina primo notandi sunt hii versus:
+					<pb n="151"/>
+					<lg>
+						<l><hi rend="italic">Hec aspirabis sed de reliquis dubitabis.</hi></l>
+						<l>Haurit et hynnus /habet/herus/hirqus/hyems/hyat/hasta</l>
+						<l>Hic hebet /heret/heri/sic hebanus/humet et humum</l>
+						<l>Hora notans tempus /Hara caulam/ hortor et horret</l>
+						<l n="5">Histrio sic hilaro / dic hebreus / herba vel hirna</l>
+						<l>Hinnit / hyas/ hamus/ hyspanus / hermaque sumpto</l>
+						<l>Hermo fraudita/ hystoria/ hex/ hesperus/ Hyster</l>
+						<l><hi rend="italic">Hostio dic et honor et habebis venientia quoque</hi>.</l>
+					</lg>
+				</p>
+				<p>Has dictiones cum suis derivatis puto necessarias declarare per ordinem secundum scientiam Uguicionis:
+					haurio/ris/hausi/haustum per attignere. Hic haustus/stus/stui el sorso vel el tracto. Haurisorium vel
+					hauritorium, locus de quo hauritur / vel strumentum hauriendi, ex haurio/ris/, exhaustus/sta/stum. Et
+					nota quod auris pro auricula non aspiratur nec ab illo verbo derivatur, sed est spieciei primitive. Hic
+					hamus/mi, lamo; hamus id est macula lorice, la maglia et dicitur contra asset plenus clavis qui sub terra asconditur
+					ut aliquos ledat. Hamis-tis, id est virga que retinet rete, id est la staggia ; hamo-as, id est decipio ;
+					habeo-es et hic et hec habilis et hoc -le, asectato, hic habitus-tus-tui, habito-tas ; hec habena-ne lo
+					redeno del freno et nota quod hoc verbum cum suis compositis tenet aspirationem nisi cum debeo et
+					prebeo, ut adhibeo et conhibeo, id est oculos claudo vel assentio, inde cohibentia vel conniventia. Et
+					reperitur cohibeo sine /n/ id est cogo, enim ab eodem verbo compositum et sic de aliis, unde dicitur:
+					<hi rend="italic">Aspires habeo nisi debeo, prebeo/</hi>, enim hec est causa qua illa non aspiratur
+					quia amictunt in compositione vocalem que aspirabatur, herus derivatur ab her / grece et latine terra,
+					inde hic herus, id est dominus terre, hec hera, id est domina. Hic et hec heres-dis et hec hereditas/tis
+					; hic heros-dis, hec herodias-dis, id est baronissa; heroicus/ca/cum, hic hirquus, id est oculorum
+					angulus ubi putredo colligitur ; hic hircus-ci, caper, id est el becco. 27. Hirsutus /a/um, id est
+					pilosus ut hircus et hirrus/a/um per sincopam vulgariter dicitur arricciato vel rabuffato ; hic
+					hirquitallus/li, id est puer libidinosus et lascivus. Hec hyems dicitur ab emis quod greci dicunt
+					dimidium; hybernus/a/um, id est tempus iemale, vel quod est inter iemem et ver. Hec hybernia/e, id est
+					provincia quedam multum frigida. Hoc hermitogium ab hermis et toga quia sic media toga, hoc
+					hermisperium, id est
+					<pb n="152"/>
+					dimidium spere, sed hoc est alius scientie declarare ; hyo-hyas, id est aperio-as ; inhyo-as, id est
+					desiderio habere vel conari compositum eius. Hic hyatus/tus/tui, id est aperitis oris, id est el
+					sbaviglio et concursus vocalium ; hyatus/ti, id est baccus ; hysco/scis, incohativum et deberet facere
+					hyasco sed propter pulcriorem sonum dicimus hysco. 28. Hasta derivatur ab hoc nomine astus, id est
+					callidus et astutus, quia astutum querit hominem et inde hoc hastile et aspiratur, hasta licet derivatur
+					a nomine non aspirato et causa est, ut dicit Uguicio, ad differentiam huius verbi asta ; hebeo/es id est
+					pigreo vel tardo, vel coeor/ hebeto/tas, obscurare et hic et hec hebes/tis, id est piger vel obscurus ;
+					hereo-res-si-sum, id est iniri, morari et dubitare. Nec heremus/mi, id est locus ubi non habitatur. Hic
+					et hec heremita ; hec hirudo-dinis, id est sanguisuga. Hic herebet, id est infernus ; hec heresis,
+				hereticus /a/um, adhereo, inhereo et similia composita heri adverbium.</p>
+				<p>Inde hexternus/a/um, sed reperitur externus/a/um ab extra derivatum et tunc non aspiratur, nec habent
+					eadem
+					significationem, ut patet. Hec hebanus, arbor est, hoc hebanum, lignum illius arboris. Humeo derivatur ab
+					humus, id est terra humida, inde humo/as, id est sepelio. Hic humor, humidus/a/um, humectus/a/um et sunt
+					idem humecto/as, hic et hec humilis et hoc –le ab humus. Item homo/ humanus/a/um, humano-nas et
+				similia; hoc himen-nis, producta e pellicola in qua puer involvitur in ventre matris.</p>
+				<p>29. Hic hymeneus, deus nuptiarum, hora pro tempore aspiratur, sed pro contrata, vel pro extrema parte
+					vestimenti, non aspiratur. Orarium dicitur ornamentum apponitum margini vestium, et sic non aspiratur;
+					sed ab hora aspirata, hoc horilogium loriuolo et aspiratur. Hara notans caulam, id est stabulum,
+					aspiratur, sed ara per altari non aspiratur. Hortor-ris et eius composita sunt intelligenda, ut
+					adhortor, cohortor et conhors derivatum et sic de aliis. Horreo-es, id est timeo, inde horribilis/le,
+					horridus/a/um, inherreo et per horreo composita. Histrio-nis, id est ioculator et dicitur ab histirion
+					quod est gesticulari, id est travagliare. Hilaro/as, id est letifico, inde hilaris/re quod quidam
+					corrupte scribunt per duplex /l/ et verba composita, ut exhilaro et cetera. Hebreus/a/um Iudei vocati
+					sunt, hoc nomine post transitum maris rubri, nam heber proprium nomen est et interpretatur transitus.
+					30. Herba dicitur ab arvo cuius derivata scire facile est, quia non sunt transformata a voce primitivi,
+					ut herbeus/a/um, id est de herba factus; herbosus/a/um et cetera. Hec hirna-ne, id est salsicia, hec
+					<pb n="153"/>
+					hilla/le diminutivum, id est parva salsicia. Hic hilus vel hoc hilum quod ad haberet fabe vel medulle
+					pene inde componitur; hic et hec exhilis et /le, id est tenuis. Item antiqui dicebant hillus/a/um, id
+					est ullus, a nisi et illud sincopatur et dicitur hoc nil et inde hic et hec et hoc nichil, da niente, et
+					nichilipendo/is, verum que omnia recipiunt aspirationem in compositione. 31. Himnio/nis, cum suis
+					compositis, e quorum est hoc hydias-dis quodam signum celeste et dicitur ab hyacos grece et latine
+					pluvia quia ortu suo pluvias facit. Hinnus, id est laus dei cum cantico; hinnista qui canit himnos et
+					similia. Hyspanus rex quidam fuit a quo Hyspania dicta est. Herma, ymago vel statua Mercurii et dicitur
+					ab hoc nomine hic Hermes/nis vel tis, id est Mercurio et dicitur ab hermene grece et latine
+					interpretatio, inde hec hermenia, id est interpretatio et facit genitivum herminias, secundum grecam
+					declinationem, et cum dicitur liber per iherminias, est genitivus grecus et est sensus, id est liber
+					interpretationis. Greci enim carent ablativo et ideo ponunt suas prepositiones cum grecis, nam /peri/,
+					id est de prepositio greca. 32. In hoc nomine dialetici multum errant facientes de duabus dictionibus
+					unam, et contra corrupte scribunt; Hermes componitur cum frodita quod est Venus et dicitur Hermafroditus
+					filius Veneris et Mercurii, vel hermafrodita ille in quo uterque sexus reperitur. Hystoria dicitur ad
+					hystorim quod est videre vel cognoscere. Antiquitus enim nulli licebat scribere nisi qui interfuisset.
+					Hex dicunt greci sex et componitur cum metrum et dicimus hexameter/a/um quod constat ex sex metris vel
+					pedibus. 33. Hic hesperus, id est stella occidentalis que in vespero post solem apparet et dicitur ab
+					hespera grece latine hora que est inter diem et noctem, inde hec hesperia/e, id est hyspania ; dicitur
+					contra Ytalia ab Hespero, fratre Athalantis qui pulsus a germano Ytaliam venivit. Hic Hister fluvius qui
+					Danubius dicitur, hister/a/um nomen gentile dictum ab Histria, quod est nomen regionis, unde hic
+					histrix/cis, animal spinosum, quia in illa terra abundet. Hostio-is-vi-tum, id est equo/as, inde hoc
+					hostimentum, id est equamentum, hoc hostorium, lignum cum quo starius equatur quod vulgo dicitur
+				larasiera.</p>
+				<p>Item hic et hec hostis, a quo dicitur hoc hostium quia hostem moratur, hic hostiarius et hec hostiaria,
+					inde hic et hec hospes/tis, quasi hostium petens. 34. Hospitus/a/um, illo tamen nomine non utimur nisi
+					in duabus vocibus, scilicet hospita et hinospita, hospitor-aris, hoc hospitale-lis, hic hospitalarius,
+					hec hospitalaria, hoc hospitium, et licet ab illo verbo multa alia deriventur,
+					<pb n="154"/>
+					tamen non est usus ipsa aspirare. Honor/ris, ab honoro/as, inde hic et hec honorabilis et /le. Item
+					honestus /a/um et honesto/as, honestum facere; dehonesto/as, id est ab honestate removere. Item
+					honorifico/cas, et
+					similia. Similiter sciendum quod hec non sunt nomina propria neque greca nec dictiones simplices que in
+					medio aspirantur. Item presuppono notum quod /heu/ debet scribi per /h/ dum significat dolorem, sed sine
+				/h/ significat gaudium. Item /h/ mutatur in /x/, ut traho-traxi.</p>
+				<p>35. Quia de ordine litterarum facta est mentio, ideo sciendum quod ordo in litteris nihil aliud est quam
+					unam litteram alteri preponi, sed primo de semivocalibus videndum est, de vocalibus non quia per iam
+					dicta notum est. Sciendum ergo quod due semivocales, scilicet /m/ et /s/ aliis duabus semivocalibus
+					preponuntur in eadem sillabam, nam /s/ preponitur /m/ ut Smirnia, /m/ vero preponitur /n/ ut omnis,
+					amnis, et sic de similibus, unde quotienscumque ille litere /s/m/ vel /n/ reperiuntur iuxta in dictione
+					sunt pro una sillaba accipiende. Unde dicitur: <hi rend="italic">/M/ preponitur /n/ in eadem ceu probat
+					amnis et omnis ; /s/ preponitur /m/ ceu probat Smirna, smaragdus</hi>. Dicto qualiter due
+					semivocales ante vocalem ordinantur. Nunc sciendum quando post vocalem due semivocales possunt poni,
+					post vocalem dummodo ultima sit /s/ et precedens sit liquida et sunt liquide /l/m/n/r/, ut puls-tis,
+				ars/tis, iens/euntis, fons/tis, vel possunt sic ordinari quod prima sit liquida</p>
+				<p>et ultima sit /x/, excepto /m/ quod non precedit /x/, ut falx-cis, arx-cis, lanx-cis, unde dicitur:
+					<hi rend="italic">S in fine loca omni liquida pereunte. Illud idem facit /x/, sed /m/ numquam preit
+						illam</hi>.</p>
+				<p>Uso de semivocalibus inter se / nunc de mutis sciamus, notandum quod /c/ et /p/ post vocalem preponuntur
+					/t/ in eadem sillaba, ut aptus, diptongus, actus, factus et sic de aliis. Sed /b/ et /g/ preponuntur /d/
+					ut abdomen, id est pinguedo in ventre porci, amigdalus, Magdalena, et sic de similibus. Unde dicitur:
+				<hi rend="italic">c/p/ precedunt /t/bo/gat/d/que preibunt</hi>.</p>
+				<p>36. Amplius videre restat de ordine semivocalium ad mutas, unde sciendum quod nulla semivocalis mute
+					preponi debet, nisi /s/ et hoc solum preponitur hiis litteris /b/c/t/p/q/, ut Sbarca, scutum, spes,
+					status, squalor, de quo dicitur in versu: <hi rend="italic">Ba/ca/ pe/ut/que/preit/has/sola/s/quoque
+					solum</hi>. Nec si abiiciam de hiis dictionibus : ast/post/vult/fert. Sunt enim concise dictiones,
+					quia /ast/ ponitur pro /ad/, /post/ pro postea, /vult/ pro velit, /fert/ pro ferit. Ulterius notandum
+					quod mute preponuntur semivocalibus liquidis in eadem sillaba, hoc modo quod /c/d/g/t/ preponuntur /m/,
+					ut Alcmene, Admonius, nomen fluvii, agmen, itmos, id est flos, dragma, id est questio
+					<pb n="155"/>
+					sive interrogatio, sed dracma/e per /c/quodam genus ponderis, scilicet octava pars uncie. Sed aliis
+					liquidis, videlicet l/r/n fere omnis mute preponuntur in eadem sillaba, ut blandus, clarus, abdomen,
+					flavus, gladius, planus, crudus, gnarus, Ethna, brevis, creber, gratus, frater, pratum, tractus et sic
+					de similibus. Unde dicitur : N sed subtracta tibi candor gratus adheret. Et preponuntur mute liquidis
+					tamen omnes. Verum illa regula fallit in hoc quod /h/ et /f/ non preponuntur /n/. Item /p/ preponitur
+					/s/, ut pseudo/psalmus/psillus. Sciendum contra quod si aliqua litterarum sequentium terminat sillabam
+					sequens incipere debet ab eadem, scilicet /p/, ut appono, /c/, ut accedo, /t/, ut attineo, /d/, ut addo,
+					/s/, ut assideo, /b/, ut abbas; ex quo patet quod si aliqua istarum inveniatur sola, in media dictione
+					debet sillabicari cum sequente sillaba et non cum precedente, ut aptus, tempea, id est loca
+					delectabilia, † tantum pluralis numeri /n/ generis et idem, et in tribus casibus : nominativo,
+					accusativo et vocativo, lectus, dampnum, indempnis et sic de similibus. Unde dicitur: <hi rend="italic">
+						par/cite/ de/ sabba/ similem sibi iungere volunt</hi>.</p>
+				<p>38. Sed sciendum quod quidam volunt scribere more predictarum dictionum temno-is et solemnis cum /p/ quod
+					ex toto Uguicio vetat dicens quod solemnis cum derivatis suis scribendum sit per duplex /n/ et non per
+					/m/ et per /p/. Similiter tento-tas, frequentativum huius verbi teneo, tantum per unum /n/ scribendum
+					est cum derivatis suis ut tentatio in quibus multum erratur. Item nota quod sicut prepositiones numquam
+					pronunctione vel scripto separande sunt, ita dicunt quidam has litteras non separandas: /b/d/ ut
+					ebdomada, /g/d/ ut amigdalus, /g/m/ ut agmen, /g/n/ ut magnus, /s/p/ ut spero, cuspis, /s/c/ ut luscus,
+					/s/t/ ut asto, /s/b/ ut Tisbe, /s/m/ ut psalmo, ut scisma, /s/q/ ut tesqua, /t/p/ ut aptus, /p/s/ ut
+					lapsus, c/t/ ut alectus; /t/n/ ut Ethna, /x/t/ ut extra, mixtus, /m/n/ ut omnis. Quidam alii de
+					quibusdam horum contrarium dicunt. Patet ex dictis quod tres consonantes possunt precedere vocalem vel
+				sequi, dum due sint semivocales et una muta, ut urbs. Item post vocalem possunt poni /n/t/, ut legunt.</p>
+			</div>
+			<pb n="156"/>
+			<div>
+				<p>39. I - Amplius ad incohatum principio ordinem reducendum est, unde quia post /h/ imediate ordinatur /I/,
+					sciendum quod hec litera /i/ vocalis in omnes vocales transit. Nam transit in /a/ ut genus, generis,
+					generatim, paulus/a/um, pauli/paulatim ; in /e/ ut fortis, forte ; in /o/ ut pater-patris –
+					patronus et olli pro illi ; in /u/ ut rapio-pui ; lubens dixerunt antiqui pro libens. Item sciendum quod
+					hec vocalis sicut et /u/ transit in consonantem et duplicem vel in simplicem, ut in principio dictionis.
+					In duplicem quando ponitur inter duas vocales in medio dictionis, ut maior, peior ; quandoque reperitur
+					simplex, ut reice. Sed notandum propter illud exemplum quod iacio/cis, quando componitur mutat /a/ in
+					/i/ imperfecti, ut adiicio, abiicio, coniicio, disiicio, eiicio, deiicio, iniicio, proiicio, subiicio,
+					obiicio, traiicio, que omnia composita scribi et pronunctiari debent per duplex /i/ et primum est
+					consonans alterium est vocale. Si ergo iacio componatur cum dictione desinente in consonante prima debet
+					produci positione, sed aliquotiens corripitur, quia consonans tacetur. 40. Item in abusum venit /i/
+					consonantem scribere /g/ ut in hoc exemplo maiister, nam secundum Uguicionem, debet scribi per duplex
+					/i/ primum consonans, alterum vocale. Et dicamus maiister id est maior in statione, sicut minister, id
+					est minor in statione. Sed quia /i/ consonans valde convenit cum sono /g/ ex vitio idiotarum, consuetudo
+					transivit apud provectos ut scribatur per /g/. Similiter maius – maii pro mense scribitur per /i/,
+					quia dicitur a maioribus ut idem testatur Uguccione. Quidam vero scribunt per /d/ ut madius quod ex toto
+					est corrupte dictum. In hoc nomine deus in plurali numero debet scribi per duplex ii, licet tantum unum
+					pronunctiatur sicut in plurali, in hoc nomine /is/ ea/ id/ debet scribi ii et est duplex causa, una
+					causa videndi concidentiam ne si dicatur di/ putetur prepositio et /i/ verum secunde persone imperativi
+					modi, et quia de consuetudine antiquorum erat ut longa vocalis quantum ad scripturam generetur sic ergo
+					adhuc antiquam scripturam servamus in scriptura harum ditionum ut vult Uguicio, huius tamen dicitur
+				contrarium per quosdam qui vel auctoritate Uguicionis non curant, vel illam forte non viderunt.</p>
+			</div>
+			<div>
+				<p>41. K – Litera muta sed primum penitus est supervacua que in sono eadem habet potestatem cum /c/,
+					hanc literam secundum Uguicio scribimus tantum in nominibus nathis, id est a grecis derivatis. Nam ubi
+					nos scribimus /c/ greci scribunt /k/. Si tamen talia nomina scribantur per /c/ nullum est vitium, ut
+					karisma et Cartago, sive scribantur per k sive per c, nulla
+					<pb n="157"/>
+					differentia est. In omnibus vero grecis scribitur k, ut Kiri eleyson, id est domine miserere, et debent
+				esse due partes</p>
+			</div>
+			<div>
+				<p>42. L - Litera semivocalis mutatur in tres literas videlicet /x/r/s/, ut paulum, pauxillum; velum,
+					vexillum, in /r/ ut rabula, raberna; in /s/ ut vello/vulsi, quandoque subtraitur ut percello-perculi,
+					pello-pepuli, quandoque intercipitur, ut obliquo/as quod componitur ex /ob/ et equo/as. Hec potest
+					terminare sillabam quacumque consonante sequente, preter /h/k/q/r/ et /i/ consonante, ut albet, ulcus,
+					valde, provalide, algeo, ulmus, alnus, culpa, fulsit, alter, mulxit, unde dicitur: <hi rend="italic">L
+						sequitur quevis /h/i/k/q/r/ quoque remotis</hi>. </p>
+			</div>
+			<div>
+				<p>43. M – Mutatur in /n/d/c/t/q/f/ sequente /d/, ut tantundem, eorundem, venundo; sequente /c/, ut
+					nuncubi, ancilla quod componitur ex /am/ et cilleo. Sequente /t/ ut identidem; sequente /q/, ut tanquam,
+					/f/ ut anfractus, anfisus. Unde dicitur: <hi rend="italic">M mutatur in /n/ de/
+					quin/ta/fe/ce/sequente</hi>. Item quandoque mutatur in duplex /s/ ut premo-pressi, quandoque assumit
+					/ps/ ut dems-dempsi, como/compsi, quandoque assumit solum /p/ ut emo-emptum. Nam /m/ ante /t/ stare non
+					potens, regulariter assumit /p/. Notandum ulterius quod nulla precedens sillaba finitur in /m/ nisi
+					sequens incipiat ab eadem, vel a/b/ vel a/p/, ut summo, consumno, cambio, campsi, ut dicitur:
+				<hi rend="italic">M non stat fine / nisi mens / pro/ ba/ sit comitem</hi>.</p>
+				<p>44. Item quotienscumque hec prepositio /circum/ componitur cum dictione incipiente a vocali /m/ scribitur
+					ut videatur de integritate dictionis, sed non profertur, ut circumeo, in quo /m/ scribitur sed
+					pronuntiando tacetur, unde dicitur: <hi rend="italic">Compositum circum vocali concomitante. M non
+					profertur sed sola figura tenetur</hi>. Demum non inutile est scire quod sunt quedam dictiones in
+					quibus erratur scribendo duplex /m/ ubi debet scribi solum unum; sumo-mis scribi debet per unum /m/ sed
+					summo-as, derivatum a summa debet scribi per duplex cum suis compositis ut consummo et sic de aliis.
+					Scribitur contra /imo/ adverbium eligendi corrupte per duplex /m/ quod scribi debet per unum solum, ut
+					vult Uguicio. Item idem Uguicio vult quod numus, id est denarius scribitur per unum /m/ quod derivatur a
+				numerus vel a Numa imperatore qui primus apud romanos effigiem dedit pecunie.</p>
+			</div>
+			<div>
+				<p>45. N – Transit in plures literas, videlicet in /c/g/l/m/r/s/t/et u consonante. In /c/ ut ecquis
+					pro enquis, in /g/ ut
+					ignosco/cognatus, in quibus, ut quidam volunt, /n/ mutatur in /g/; in /l/ ut catena-catella,
+					vinum-villum;
+					<pb n="158"/>
+					bonus-bellus; in /r/ ut corripio; in /s/ ut pono-posui; in /m/ propter quod notandum quod si ille
+					prepositiones /in/ et /con/ componatur cum dictione incipiente a /b/p/m/n/, mutatur in /m/, ut imbuo,
+					impius, imminuo. Similiter si componatur cum dictione incipiente ab /l/ vel /r/ mutatur /n/ in litteras
+					illas, ut40 corripio et irrito. Unde dicitur: <hi rend="italic">N /p/ vel /b/ numquam vult /n/ fore per
+					se; impius ergo loco si vis bene dicere dic /m/. N mutatur in /l/ vel in /r/ si forte sequetur</hi>.
+					46. Cum nunquam componitur. Con/solum componitur et nunquam per appositionem iungitur partibus ut patet.
+					Item quotienscumque con et circuponantur ut iam dictum est cum dictionibus incipientibus a vocali, /n/
+					et /m/ abiiciuntur. Ut coeo, preter quam in comedo, in quo /n/ mutatur in /m/ et nisi littera
+					interponatur, ut conburo, in quo interponitur /b/, unde dicitur: <hi rend="italic">Si /con/ vel /circum/
+					vocalibus associetur, m/ vel /n/ abiicias sed in comodo tollas</hi>. Sciendum quod hoc aliquando
+					abiicitur, ut linqueo-liqui, coniunx-coniugis, amissa /n/ in genitivo, ne si dicatur coniungis verbum
+				putetur, ut vult Priscianus.</p>
+			</div>
+			<div>
+				<p>47. O – mutatur in /a/ ut creo-creavi, in /e/ ut bono-bene; in /i/, ut virgo-virginis, in /u/ ut
+				tremo-tremui.</p>
+			</div>
+			<div>
+				<p>48. P – Non potest sillabam finire nisi sequens incipiat ab eadem. Sic ergo in hiis nominibus
+					/ceptus/ captus et similibus oportet quod /p/ sit de sequenti sillaba. Unde dicitur:
+				<hi rend="italic">P/ nisi /p/ sequar41 precedens sillaba tollit. Item quandoque duplicatur, ut reperio-repperi</hi>.</p>
+			</div>
+			<div>
+				<p>49. Q – Sicut K eadem habet potestatem cum /c/ et ponitur ante /u/ sequente altera vocali demostrat
+					quod /u/ perdit vim littere, ut loquor, sicut /g/ preponitur /u/ amittenti vim littere. Ponebant contra
+					antiqui ut recitat Priscianus pro /cu/ sillaba /quu/ scribentes arquus, pro arcus et sic de aliis.
+					Sciendum quod hec littera /q/ transit in /c/ ut loquor-locutus; sequor-secutus, cuius presens scribitur
+					per /q/ et gerundium ut sequendi/do/dum, et participium presentis ut sequens, sed participia preteriti
+					et futuri et supina et verbalia scribuntur per /c/. Similiter pedissequus /a/ um debet scribi per /q/
+					vel quando scribitur /e/ scribatur per /c/, ut pedissece, sed quando scribitur /a/ vocalis scribitur per
+				/q/, ut Uguicio de hiis omnibus testatur.</p>
+				<p>50. Item mutatur in /x/ ut coquo-coxi. Item in /s/ ut torqueo-torsi. Sciendum ulterius quod /q/ et /k/
+					nullam sillabam terminant. Unde dicitur: <hi rend="italic">Exceptis</hi>
+					<pb n="159"/>
+					<hi rend="italic">K et q reliquas intelligo finire</hi>. Est contra utile scire quod quotidie quod
+					componitum ex quot et die et quotidianus vitiose scribuntur per /c/, ut vult Uguicio. Scribi enim debent
+					per /q/ sicut quot quod est in compositione harum dictionum. Credo contra quod quondam adverbium
+					temporis non debet scribi per hanc figuram 9 cum ipsa ponatur pro illa sillaba /con/, sed quondam
+				videtur trahere originem a quidam quod per /q/ scribitur.</p>
+			</div>
+			<div>
+				<p>51. R – Transit in quatuor litteras, videlicet /l/s/n/ et /u/ consonantem. In /l/ niger-nigellus,
+					in /s/ ut quero-quesivi, uro-ussi, in quo transit in duplex /s/ in /n/ ut eneus pro ereus, in /u/
+					consonantem ut tero-trium. Unde dicitur <hi rend="italic">R transit in has /vi/ sum /li/ nunque
+					sequentes</hi>. R potest sillabam terminare quacumque consonante sequente, preter quam sequente /r/,
+					ut morbum, parcus, ordo, perfidus, margo, perhibeo, perlego, carmen, Sarnus, morsus, artus, Serxes. Item
+					hec littera quandoque mutatur in /l/ in compositis, ut intelligo, pelluceo, perluceo, ut vult
+				Priscianus.</p>
+			</div>
+			<div>
+				<p>52. S – quandoque mutatur in /d/ ut Perses-sidis, quandoque in /n/ ut sanguis-nis, quandoque in /r/
+					ut flos-floris, quandoque in /m/ ut hec prepositio /dis/ que componitur cum minuo et dicimus diminuo
+					mutata /s/ in /m/, ut vult Priscianus et Ugucio. Unde illud verbum dimminuo, cum suis derivatis,
+					corrupte scribitur per unum /m/ quia scribi debet per duplex /m/ ut patet ex dictis. Quandoque mutatur
+					in /u/ consonans, ut bos-bouis, quandoque in /x/ ut pistris pro pistrix, quandoque in /t/ ut virtus-tis,
+				unde dicitur: <hi rend="italic">S/facit/m/facit n/r/x/t/ facit /u/ consonante</hi>.</p>
+				<p>53. Sciendum contra hec littera quando ponitur inter vocales non expresse sonat ut esurio, alter expresse
+					sonat, ut salve, considero et similia. In /s/ nulla prima sillaba latina finit in simplicibus
+					dictionibus nisi sequens incipiat ab eadem, et dico in latinis, Israel Bosra, sunt barbari, in quibus
+					/s/ ponitur aliquando ante /r/. In compositis verum terminat sillabam sequentibus aliis consonantibus.
+					Nam si prepositiones desinentes in /s/ componantur, tunc finit sillaba in /s/ ut abscondo, absporto,
+					transcurro, displiceo et sic de similibus. Sed dictum est supra cum quibus componatur /abs/ et cum
+					quibus /ab/, ideo omni est necesse nunc dicere. Hec regula colligi potest in hoc versiculo:
+					<hi rend="italic">In /s/ finitur sillaba cum /s/ geminatur. At in compositis quis alia
+					concomitatur</hi>. 54. Nota has regulas: quotienscumque hec prepositio /trans/componitur cum dictione
+					incipiente ab /n/ vel /d/ vel /i/ consonante, abiicitur /ns/ ut trado, terreo, traiicio. Aliis
+					quibuscumque litteris sequentibus manet integra, ut transcurro, unde dicitur: <hi rend="italic">Trans
+					corrumpetur</hi>
+					<pb n="160"/>
+					<hi rend="italic">si dux ia num comitetur</hi>. Hec prepositio /dis/, secundum Priscianum componitur
+					omnis dictione incipiente ab /f/ /i/ consonante, /p/c/t/et s/. Ab /f/ ut diffido, differo, sed sciendum
+					quod quotienscumque /dis/ componitur cum dictione incipiente ab /f/, ut in predictis exemplis /s/
+					mutatur in /f/, ab /i/ consonante, ut disiungo, a /p/ ut disputo, a / c/ ut discurro, a /t/ ut distraho,
+					ab /s/ ut dissectio, aliis quibusque consonantibus sequentibus componitur di/ † vel /dis/, sed
+					/dis/ iam/ pre/ sul fa/ ci to/ de dis. Videtur predicta regula fallere in hoc participio disertus quod
+					scribitur per unum /s/ ut patet per Oratium: fecundi calices quem non fecere disertum; tamen quidam
+				dicunt quod componitur ex dis et aro et sic non fallit regula.</p>
+			</div>
+			<div>
+				<p>55. T – Mutatur in duas litteras, videlicet in /s/ et in /x/. In /s/ ut micto-misi, verto-versum45;
+					in /x/ pecto-pexui, quando antecedit /c/. Unde dicitur: <hi rend="italic">T/ transit in /s/ et in /x/ si
+					/c/ manet ante</hi>. Item hec littera causa euphonie intercipitur, ut identidem, quod componitur ex
+					idem et idem interposita /t/. Nota hanc regulam quod hec littera /t/ posita ante /i/ assumit sonum /c/
+					sequente vocali, ut amatio-amacio, sed fallit quatuor modis : uno modo quando /s/ vel /x/ precedit, ut
+					Salustius commixtio, alio modo quando aspiratio sequitur, ut Mathias, comithios; alio modo in hiis
+					duobus genitivis, vitium qui est genitivus huius nominis vitis et hoc sit ad differentiam huius nominis
+					hoc vitium sic et in genitivo litium qui est genitivus huius nominis, lis-litis, ad differentiam huius
+					nominis hoc litium. Fallit contra in dictionibus compositis, ut vigintiunus/a/um. 56. Est tamen
+					advertendum quod ille sonus /c/non semper scribitur per /t/ quia plerumque per /c/ ut facio, sed quando
+					scribendum sit /c/ vel /t/ providus scriptor advertat tum ex usu, tum ex derivattione, compositione et
+					condeclinio. Nota hos versus de predicta regula: <hi rend="italic">T sonus admictitur /i/ vocalem
+						concomitando, ni precedat /s/x/ et nisi composita forent. Sic vitium / litium et /h/ dum media
+					tollas</hi>. Item hec littera /t/ non terminat sillabam primam nisi sequens incipiat ab eadem. Ut
+					attineo, mitto et hoc verum habeat in declinabilibus et hoc dico quia in hac dictione atque finit
+					sillabam /t/ sequente /q/, unde dicitur: <hi rend="italic">S /t/ non sequitur / non in /t/ sillabam
+						finitur</hi>.</p>
+			</div>
+			<div>
+				<p>57. U – vocalis quandoque mutatur in /a/ veredus-veredarius, quandoque in /e/ ut pondus-ponderis,
+					quandoque in /i/ ut cornu-cornicen, quandoque in /o/ ut nemus-nemoris.
+					<pb n="161"/>
+				</p>
+			</div>
+			<div>
+				<p>58. X – Vim habet duplicis consonantis, modo /cs/ modo /gs/ et transit in has litteras /c/g/f/ et
+					/u/ consonantem. In /c/ ut pax-pacis, in /g/ ut lex-legis, in /f/ ut officio, in /u/ consonantem ut
+					nix-nivis. Nulla sillaba terminatur in /x/ in media dictione nisi sic composita ab hac prepositione
+					/ex/, unde notandum quod illa prepositio /ex/ manet integra cotienscumque componitur cum aliqua dictione
+					incipiente a vocali, vel ab hiis quinque consonantibus /c/q/p/t/s/ ut exaro, exeo, exigo, exoleo,
+					exuro48, exquero, expeto, extraho, exequor. Voluerunt quidam quod in exequor remaneret /s/ quod non est
+					verum, iuxta id quod dicitur. <hi rend="italic">/x/ precedente fugit/s/ de parte sequente</hi>. 59.
+					Sicut etiamque in aliis, ut exanguis, quod componitur ex /ex/ et sanguis. Si autem hec prepositio /ex/
+					componatur cum dictione incipiente ab /f/, tunc mutatur in /f/, ut officio, effero, unde dicitur:
+					<hi rend="italic">/x/ tunc mutatur /f/ littera si comitatur</hi>. Cum quibus autem dictionibus
+					componatur /e/ et cumquibus ex dictum est superius hoc [e]xenium, id est munus, a quo per compositionem
+				hoc exenium, el presente, de hoc facta est mentio quia sepe corrupte scribuntur per /s/.</p>
+			</div>
+			<div>
+				<p>59. Y – Idem elementum representat cum vocali. Sciendum quod non utimur /y/ nisi in grecis vel
+				barbaris dictionibus.</p>
+			</div>
+			<div>
+				<p>60. Z – Vim habet duplicis consonantis, ideo dicitur littera duplex, pro hac vero littera sed
+					(secundum) quod dicitur per quosdam usque ad tempus Augusti ponebatur duplex /s/ quod adhuc de
+					consuetudine quorundam civitatum servatur. Hec littera ut vult Priscianus causa grecorum vel barbarorum
+					nominum est inventa, unde solum in illis scribenda est. Sciendum contra quod hec littera sicut /x/ non
+					potest poni in principio sillabe sequente alia consonante, ita ipsa, et hoc est quia ambe, videlicet /x/
+					et /z/, duplices sunt. Hec littera non finit sillabam per50 hoc patet quod male scribunt quidam quasdam
+					dictiones per duplex /z/, in quo pluribus modis erratur, ut de se patet cum nulla duplex geminari
+					possit. Si ergo in media dictione sit /z/ tunc vel omne quod precedens sillaba terminetur in vocalem,
+					vel in /n/ vel in /r/, ut gaza, zinzibar, zucarum, aborzones, nomen regis, manzo. Unde dicitur:
+				<hi rend="italic">finitur vocalis /n/r/z/ sequente</hi>.</p>
+				<p>Expliciunt regule ortographie prudentis viri maiistri Gori de Aretio.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,2802 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Summa dictaminis</title>
+				<author>Matthaeus de libris</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Matteo de'Libri</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="11322" unit="words">Parole: 11322</measure>
+				<measure quantity="72417" unit="characters_without_spaces">Caratteri (spazi esclusi): 72417</measure>
+				<measure quantity="82472" unit="characters_witht_spaces">Caratteri (spazi inclusi): 82472</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2004-05-05">05/05/2004</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: Parole: 11351&#13;
+Caratteri: 72438&#13;
+Correzioni al testo :  p. 298 plenam] flenam ed.&#13;
+                            p. 302 quodammodo] quodammoso ed.&#13;
+	               p. 315 satisque] satisqe ed.&#13;
+	               p. 319 suos] suod ed.&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>Matteo de'Libri</editor>
+						<title>III: The Larger Summa</title>
+					</analytic>
+					<monogr>
+						<title level="m">Miscellanea Giovanni Galbati</title>
+						<imprint>
+							<publisher>Ulrico Hoepli editore</publisher>
+							<pubPlace>Milano</pubPlace>
+							<date>1951</date>
+							<biblScope unit="page">290-319</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, non so però, se i "Responsiva" etc. e le descrizioni delle lettere ("Generale", ma anche tipo: "Deprecatoria ad quendam dominum qui tractavit amici negocia sicut sua.") devono essere trattate come &lt;head&gt;?</item><item type="itemNotaJC">-non ho trovato il nome dell'editore</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="290"/>
+		<lb/><!--III. THE LARGER <hi rend="italic">SUMMA</hi> .
+		<lb/>(A fol. 9; L fol. 1; Vat. Borghese 175 V fol. 55. A and V are fragmentary at the end, L often illegible, especially at the beginning; I follow the text of A, unless stated otherwise, up to the point where it breaks off, then the text of L. The numbers have been added to facilitate referente).-->
+		<div>
+                        <head><lb/>Incipit summa artis dictaminis composita a magistro Matheo de Libris notario
+                        <lb/>Bononiensi.</head>
+			<p><lb/>Quoniam ars dictatoria prelatis et principibus et quibuslibet aliis cuiuscumque conditionis existant opportuna dinoscitur, ego Matheus de Libris quondam Alberti
+				<lb/>notarius Bononiensis civis, utilitati volentium erudiri et eorum qui confusas volunt
+				<lb/>et diffusas evitare doctrinas providere desiderans, cum omnes quasi littere noscantur
+				<lb/>ad modum deprecatorium pertinere, ultra trecenta quinquaginta principia
+				<lb/>ex ingenii mei laboriosa subtilitate multaque cogitatione composui, principio cuilibet
+				<lb/>suam faciens responsivam et plures interdum, que principia quasi possunt
+				<lb/>per scientes materiis omnibus adaptari. Cumque quod opus hoc lux esset lucentibus
+				<lb/>lumen prebens, meum erexerim intellectum et ad honorem illius qui verum
+				<lb/>principium est et finis inceperim et ad finem deduxerim peroptatum, ipsum
+				<lb/>habere studeant per tenebras ambulare nolentes. Quapropter incipiendum est
+			<lb/>prius a principio generali sic dicente.</p>
+			<div>
+				<head><lb/>1.</head> <p>Principium generale. Pura fides et sincera dilectio quibus vobis.</p>
+				<div>
+					<p><lb/>Responsiva. Ad me potest in pura fide.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>2.</head> <p>Generale. Providencie vestre precamina nostra porrigimus.
+				<lb/>/*</p>
+			</div>
+			<div>
+				<head><lb/>3.</head> <p>Generale. Cum amicorum preces exaudicio prona fecundat.</p>
+				<div>
+					<p><lb/>Responsiva. Preces vestras penes me gratiam exauditionis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>4.</head> <p>Deprecatoria ad illum qui iam multum servivit. Innumera servicia que michi sine cause previe merito.</p>
+				<div>
+					<p><lb/>Responsiva. Cum vobis cordis et animi puritate coniungar.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>5.</head> <p>Deprecatoria ad quendam dominum qui tractavit amici negocia sicut sua.
+				<lb/>Quoniam negocia mea semper velut vestra propria reputastis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quod vestra negocia mea propria
+					<lb/>reputarim.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>6.</head> <p>Ad quendam qui multa servicia per tempora contulit. Si servicia que liberaliter
+				<lb/>a dominacione vestra.</p>
+				<div>
+					<p><lb/>Responsiva. Si dilectioni tue quicquam acceptationis exibui.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>7.</head> <p>Ad illum qui quasi pater negocia gessit. Quum vestros oculos
+				<lb/>in meis negociis.</p>
+				<div>
+					<p><lb/>Responsiva. Non sunt oculi multorum implicitatibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>8.</head> <p>Ad illum qui multum servivit roganti et predecessoribus. Quanta sit cordis
+				<lb/>affectio.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si perfectus cordis affectus in operum exhibicione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>9.</head> <p>Subditus ad dominum qui dilexit eum ut suum consanguineum. Dilectionem
+				<lb/>quam ad me vestrum extendistis hactenus.</p>
+				<pb n="291"/>
+				<div>
+					<p><lb/>Rescriptiva. Quod te dilexerim puro corde.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>10.</head> <p>Preces ad aliquem dominum de quo confidit propter merita genitoris.
+					<lb/>/*
+				<lb/>Considerato mei genitoris affectu quem pre ceteris ad vos gessit.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ex cordis affectu quem ad me genitor tuus gessit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>11.</head> <p>Ad illum qui multa servicia iam contulit. Ingratus iudicio iusto cencerer.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum quis se reddit ingratum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>12.</head> <p>Generalis. Longe lateque liberalitatis vestre preconium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si meum postulare favorem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>13.</head> <p>Generalis ad illum qui multum servivit. Eo securius ad implorandum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Devotis liberalibus me liberalem exhibui.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>14.</head> <p>Generalis deprecatoria. Ut devotus devotior perpetim
+				<lb/>ad obsequia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad me sub spe plena.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>15.</head> <p>Generalis. Cum soliti sitis magnificencie vestre dexteram aperire.</p>
+				<div>
+					<p><lb/>Rescriptiva. Nos decet cum possumus favorabiliter providere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>16.</head> <p>Generalis ad prelatum. Suggerente michi de vestra benignitate fiducia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Dilectorum precibus eo facilius.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>17.</head> <p>Recommendatoria pro dilecto ad curiam adeunte pro sua causa tractanda.
+					<lb/>/*
+				<lb/>Sperans vestrum placidum animum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum nunquam vera cordis affectio locorum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>18.</head> <p>Pro beneficio. Cum innata vobis mansuetudine.</p>
+				<div>
+					<p><lb/>Responsiva. Si de nobis ut asseris ex cuiusdam spei conceptione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>19.</head> <p>Generalis. Consurgit in me de dominationis vestre sinceritate.</p>
+				<div>
+					<p><lb/>Responsiva. Si preces tuas quas michi fiducialiter.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>20.</head> <p>Pauper ad dominum cum sibi contrariam inveniat esse fortunam. Si mea posset
+				<lb/>possibilitas consequi.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum inevitabilis esse fortuna feratur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>21.</head> <p>Ad dominum de quo scribens confidit quod sibi subveniat. Stilo simplici non
+				<lb/>lingua dolosa.</p>
+				<div>
+					<p><lb/>Rescriptiva. A lingua non dolosa revelo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>22.</head> <p>Ad amicum pro dilecto. Sunt qui pro se vel suis.</p>
+				<div>
+					<p><lb/>Rescriptiva. In uno duos exaudire volentes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>23.</head> <p>Pauper ad dominum pro auxilio. Ubera misericordie vestre sperans.</p>
+				<div>
+					<p><lb/>Rescriptiva. Samaritanus esse desiderans.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>24.</head> <p>Rogatur amicus ab amico non noto. Si placet non convertatur.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum omnia primo fiant.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>25.</head> <p>Recommendatoria pro diletto. Quod P. latorem presencium sic
+				<lb/>in favorem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Dilecti tui P. peticio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>26.</head> <p>Ad devotum quod per eum amici negocia procurentur. Ex pure devocionis affectu
+				<lb/>quam ad personam.</p>
+				<div>
+					<p><lb/>Responsiva. Ex operum continuatione plene colligitur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>27.</head> <p>Ad illum qui pluries rogatus fuit et non exaudivit. Ut quod longa dilatione
+				<lb/>quievit consequatur iterata peticio.</p>
+				<pb n="292"/>
+				<div>
+					<p><lb/>Rescriptiva. Accidit quod petita per impotenciam longa dilatione quiescunt.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>28.</head> <p>Ad dominum ex parte devoti qui pluries pro eo negocia sua reliquit. Scio quod
+				<lb/>a memoria vestra non excidit.</p>
+				<div>
+					<p><lb/>Rescriptiva. Sollicitudo quam habuisti fidelis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>29.</head> <p>Quod amico cui scribitur non proposuerat scribere.
+				<lb/>Silere proposui sed inter propositum et necessitatem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Sicut degente non creditur ex concessa causa.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>30.</head> <p>Ignotus mittit cuidam domino ut obtentu nove dilectionis eum exaudiat. Animavit
+				<lb/>me dudum ut devotus vobis efficerer.</p>
+				<div>
+					<p><lb/>Rescriptiva. Eo forcius in amicorum acquisitione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>31.</head> <p>Ad dominum quem semper dilexit. Ut meam devocionem experiri possitis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum preteriti ratio faciat presagire futura.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>32.</head> <p>Oblacio generalis amicicie ad amicum. Ut obligatus vobis donec
+				<lb/>michi fuerit comes vita.</p>
+				<div>
+					<p><lb/>Rescriptiva. Vestre michi placet obligationis oblatio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>33.</head> <p>Quod quidam ultra licitum non gravetur. Cum ultra non debeat extendi vindicta.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Pro P. dilecto vestro recepi litteras.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>34.</head> <p>Generalis ad dominum. Inclinari patris debet humilitas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Abiici post terga non debet serviciorum collatio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>35.</head> <p>Ad potestatem quod puniat malefactorem quem detineri fecit, et potest esse
+					<lb/>ad quemlibet dominum. Cum deceat deputatum ad regimen.
+					<lb/>Hec potest esse principium missive usque volens.
+				<lb/>In subditos negligens disciplinam exercere.</p>
+			</div>
+			<div>
+				<head><lb/>36.</head> <p>Ad potestatem super eodem. Ne scelerum scelestorum impunitas delinquendi
+				<lb/>pariat.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest esse missiva usque ad verum cum. Ut pena culpe sit
+					<lb/>index.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>37.</head> <p>Generalis pro sumenda de malefactoribus vindicta. Ex oportunitate quadam
+				<lb/>dominio subiici.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest adaptari ad missivam. Quoniam
+					<lb/>quod misericordia placeat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>38.</head> <p>Generalis super eodem. Ne dampnabiliter impunita licencia scelestorum.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest esse generalis missiva.
+					<lb/>Si pene clava feriuntur excessus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>39.</head> <p>Ad potestatem quod puniat quendam pro cuius liberatione
+					<lb/>rogamina multa recepit. Cum cuipiam defferre non liceat homini.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest esse generalis mutato me in vos, vel
+						<lb/>dicatur et vos decet et quemlibet cui, usque ad quapropter. Si genus lederetur
+					<lb/>humanum ex impunita transgressione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>40.</head> <p>Generalis super predictis. Cum quos prudencia grandis.</p>
+				<div>
+					<p><lb/>Responsiva, et potest adaptari ad generalem missivam usque ad Ut igitur.
+					<lb/>Ut homo licite subiaceat homini.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>41.</head> <p>Super sumenda vindicta. Si semper seminare nittitur
+				<lb/>aliquis iniquitatis heres.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque Est igitur. Quemadmodum ad purgamentum
+					<lb/>sarculum.</p>
+				</div>
+			</div>
+			<pb n="293"/>
+			<div>
+				<head><lb/>42.</head> <p>Super eodem. Cum dissensionis et malicie filii cura.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Hiis igitur. Non est excolenda
+					<lb/>terra zizanio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>43.</head> <p>Super eodem. Ne mali scintilla tenuis destructive transferatur.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Reddor. Debet vir sapiens pensare.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>44.</head> <p>Super eodem. Ut in violatorem fidei socialis.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Igitur. Succensus ticio ne
+					<lb/>nocumenti scintillas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>45.</head> <p>Super vindicta sumenda. Ut propter vindictam restauretur
+				<lb/>commissi facinoris.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad De illo quem. Sicut requirenda
+					<lb/>non est medici dextera.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>46.</head> <p>Quod puniatur malefactor. Ut diversa discrimina genus evitaret
+				<lb/>humanum.</p>
+				<div>
+					<p><lb/>Responsiva, et potest adaptari ad missivam usque ad Nolens. Ut pene restauratione
+					<lb/>questioni satisfiat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>47.</head> <p>Super eodem. Decet regimini presidentem oculos in reos erigere.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Sic delinquencium. Multiplicantibus
+					<lb/>generis humani maliciis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>48.</head> <p>Super eodem. Ut atroces malefactorum excessus penitencie debite ferula.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest esse missiva usque ad Quocirca. Ad refrenandos perversorum
+					<lb/>excessus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>49.</head> <p>Super eodem. Ponere debent in pondere locorum.</p>
+				<div>
+					<p><lb/>Responsiva, et potest adaptari missive usque ad Sollicite. Ponderoso penitencie malleo feriendi sunt.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>50.</head> <p>Super eodem. Cum remissius perturbare perversos.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest esse missiva usque ad Ponam. Penitudinis debite trutina iusticie.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>51.</head> <p>Ad potestatem quod puniat malefactorem. Ad resistendum
+				<lb/>iniquorum provida provisione.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Ut. Ut arborem fructus infamat
+					<lb/>ingratus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>52.</head> <p>Super eodem. Cum qui non condempnat errata.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Quapropter. Malarum arborum amputandi sunt surculi.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>53.</head> <p>Super eodem. Quem pravitatis proprie pena non afficit.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ob diversorum et plurium implicitatem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>54.</head> <p>Super eodem. Quoniam homo prelatus est homini.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Volens. Si prefectum prefecture
+					<lb/>continua sollicitudo grandificat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>55.</head> <p>Super eodem. Decet in veloci malefactorum compulsione.</p>
+				<div>
+					<p><lb/>Responsiva, et potest esse missiva usque ad Sane. Ut in operibus exterminandis elatos.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>56.</head> <p>Quod quidam puniri debet qui multum excessit. Cum si relinquitur
+				<lb/>impunitas excessus.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest adaptari ad missivam. Ut iusticia suum universis exhibeat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>57.</head> <p>Item quod puniatur malefactor. Cum sint mala precidenda solerter.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ne malorum provocativa remissio.</p>
+				</div>
+			</div>
+			<pb n="294"/>
+			<div>
+				<head><lb/>58.</head> <p>Rogatur potestas a persona ecclesiastica quod puniat delinquentem quia Deo
+					<lb/>placet vindicta.
+				<lb/>Quoniam leoni qui circuit terram.</p>
+				<div>
+					<p><lb/>Responsiva. In iniuriam iuris ad dexteram vel sinistram.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>59.</head> <p>Quod puniatur malefactor. Pravorum nimis adoleret iniquitas.</p>
+				<div>
+					<p><lb/>Rescriptiva, et potest adaptari ad generalem missivam usque ad Cupiens. Purgari
+					<lb/>debet undique fons.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>60.</head> <p>Ad potestatem quod non procedat contra quendam
+				<lb/>captum iniuste. Ad nostram nuper audienciam pervenisse sciatis.</p>
+				<div>
+					<p><lb/>Responsiva. Nisi querelis rector suum inclinaret auditum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>61.</head> <p>Ad potestatem quod habeat recommendatum quendam quem capi fecit et
+					<lb/>non procedat in eum iniuste. Sicut adventancium plurium fama colligitur.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Responsiva. Cum de iusticie clamitantis inopia multiplicare.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>62.</head> <p>Ad potestatem ne procedat contra quendam ad instanciam inimicorum suorum occasione partis et quod super hoc diligat famam suam. Cum sit mundus hodie totus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Spectat ad quemlibet regimini terre prefectum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>63.</head> <p>Generalis de amico ad amicum deprecatoria vel de devoto ad dominum. Cum
+				<lb/>ubi non privantur sperata gratitudine.</p>
+				<div>
+					<p><lb/>Rescriptiva. Decens opinamur et congruum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>64.</head> <p>Quidam rogat quendam qui fuit amicus predecessorum suorum quod intendat
+					<lb/>cum amicis suis ad honores suos. Pura cordis affectio quam erga predecessores
+				<lb/>meos.</p>
+				<div>
+					<p><lb/>Rescriptiva. Novum esse non credimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>64 a.</head> <p>Favus distillans paterne dulcedinis erga me.
+					<lb/>65. Devotus ad dominum qui misit eum ad scolas quod recordetur sui. Paternitati
+					<lb/>vestre placuit me creare de nichilo dum ad scolas me discolum et ad
+					<lb/>artes inertem pene penitus tam
+					<lb/>affectuose me destinare curastis. Vereor igitur ut cum reverentia vestra
+					<lb/>loquar, si vel multorum implicitas vel nuntiorum inopia non indixit
+					<lb/>quod michi tam diu subventionis vestre rore privato non porrexistis
+					<lb/>dexteram adiutricem. Et quidem ne quod incepi studium sinistrum
+					<lb/>sincopet accidens, dominationi vestre suppliciter supplico quatinus
+					<lb/>vestre missionis memores existentes michi vestre
+					<lb/>plantule subvenire velitis, quoniam a paternitate vestra mea spes totaque
+				<lb/>fiducia derivatur.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ut scientie thesauro
+						<lb/>ditareris et moribus, nos ad scolas te transmisisse fatemur, necessitatibus
+						<lb/>tuis affluenter provisionis dexteram aperire sperantes. Verum cum plerumque propositum et posse dissentiant et vel impossibilitate vel incommoditate
+						<lb/>sepe velle tardetur, imminentibus pluribus effectualiter tui non
+						<lb/>potuimus recordari. Sed quoniam contracta mora te forsan indigere sciamus,
+						<lb/>ad te cito nostrum nuntium destinare curabimus defectibus tuis
+					<lb/>annuente Domino provisurum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>66.</head> <p>Requirit amicus amicum in necessitate. Cum tantum in prosperitate non sit
+				<lb/>implorandum.</p>
+				<div>
+					<p><lb/>Responsiva. Cum qui perfecte
+					<lb/>diligit in utroque.</p>
+				</div>
+			</div>
+			<pb n="295"/>
+			<div>
+				<head><lb/>67.</head> <p>Generalis deprecatoria. Sperans precamina mea penes vos.</p>
+				<div>
+					<p><lb/>Responsiva. Amica tuis votis facere cupientes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>68.</head> <p>Generalis ad dominum et amicum. Plenam et indubitabilem obtinens.</p>
+				<div>
+					<p><lb/>Responsiva. Ut quod indubitanter expectas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>69.</head> <p>Deprecatoria generalis. Pro certo tenens preces meas.</p>
+				<div>
+					<p><lb/>Responsiva. Nos confidenter potes in tue necessitatis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>70.</head> <p>Amicus ad amicum quod intendat ad honores.
+				<lb/>Si me puro zelo diligitis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Per decursum temporis in hiis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>71.</head> <p>Deprecatoria generalis. Quadam spei conceptione certificor.</p>
+				<div>
+					<p><lb/>Responsiva. Carere non debent effectu.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>72.</head> <p>Deprecatoria amici ad amicum quem servire solet.
+				<lb/>Cum ad memoriam digna commemoratione.</p>
+				<div>
+					<p><lb/>Rescriptiva. Alacriter semper tuas preces admisimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>73.</head> <p>Recommendatio pro dilecto. Quoniam vestris propono dum vixero.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum beneplacitis meis per litteras tuas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>74.</head> <p>Generalis deprecatoria ad amicum. Non plus concepte spei.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si quodam certitudinis argumento.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>75.</head> <p>Super eodem. Cum J. latorem presencium suis exigentibus meritis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum de uno semper ad alium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>76.</head> <p>Amicus ad compatriotam quod habeat eum recommendatum. Si natalis amor
+				<lb/>patrie cunctos.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si suggestione natalis amoris patrie.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>77.</head> <p>Deprecatoria ad nobilem vel dominum.
+				<lb/>Quoniam sum et semper propono.</p>
+				<div>
+					<p><lb/>Responsiva. Si meis mandatis expeditus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>78.</head> <p>Super eodem. Cum de vestrorum numero servitorum.</p>
+				<div>
+					<p><lb/>Responsiva. Indubitanter tua debet tenere fiducia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>79.</head> <p>Generalis devoti ad dominum. Honoribus et utilititatibus vestris avido corde
+				<lb/>paratus.</p>
+				<div>
+					<p><lb/>Responsiva. Fateor te meis negociis honoribus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>80.</head> <p>Deprecatoria. Tenet indubitanter mea credulitas.</p>
+				<div>
+					<p><lb/>Responsiva. Potes absque dubio credere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>81.</head> <p>Devotus ad dominum cuius negotia fideliter gessit et sua reliquit.
+				<lb/>Me scitis in vestris beneplacitis exequendis extitisse.</p>
+				<div>
+					<p><lb/>Rescriptiva. Voluntatem tuam semper meis beneplacitis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>82.</head> <p>Deprecatoria ad quendam qui est pluribus impeditus. Licet sit sensus intentus pluribus minor.</p>
+				<div>
+					<p><lb/>Rescriptiva. Non debet in exauditione precum implicitas plurium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>83.</head> <p>Deprecatoria ad dominum significando sibi quod fideliter et sollicite sua negocia
+				<lb/>procuravit. Opinor firmiter et argumento probabili teneo.</p>
+				<div>
+					<p><lb/>Rescriptiva. Data iam nobis ex operum experimento fiducia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>84.</head> <p>Amicus ad amicum cui scribitur a pluribus quod admittat preces suas super
+					<lb/>negocio amici. Scio te pro negocio... preces multas.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Litteras multas et non pauciora precamina.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>85.</head> <p>Deprecatoria ad amicum. Pure dilectionis integritas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Tibi suadere potest qua complectimur.</p>
+				</div>
+			</div>
+			<pb n="296"/>
+			<div>
+				<head><lb/>86.</head> <p>Amicus ad amicum quod veniat cum potestate electa. Vellem si posse voto
+				<lb/>suppeteret.</p>
+				<div>
+					<p><lb/>Rescriptiva quod veniet. Ut quam distancia
+					<lb/>localis offendit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>87.</head> <p>Deprecatoria ad dominum quorum maiores multum
+				<lb/>fuerunt amici. Ut dilectionis antique constancia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Muniri debet acceptabilium serviciorum occursibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>88.</head> <p>Devotus ad dominum quod faciat sibi aliquid. Ut sit lingue vicaria.</p>
+				<div>
+					<p><lb/>Rescriptiva quod exaudivit. In oportuna requisitione dilecti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>89.</head> <p>Recommendatoria pro nobili. Cum viri nobilis domini... merita penes quemlibet.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Nisi quem probitatis merita.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>90.</head> <p>Pro expeditione cuiusdam negocii pro quo sepe scriptum
+				<lb/>fuit. Si plerumque requisita sepissima precum inculcatione.</p>
+				<div>
+					<p><lb/>Rescriptiva quod non potest exaudire preces cum non
+					<lb/>sint de iure porrecte. Pro dilecto... porrectarum precum instancia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>90 a.</head> <p>Scribit quidam consanguineis suis qui fuit semper
+					<lb/>girovagus et studere noluit, quod modo sibi subveniant, et quod si bene
+					<lb/>non faciet de cetero non adhibeant sibi fidem. Ne vos mea verba fastidiant,
+					<lb/>licet in fastidium digne sim, vobis preces porrigo subjectivas. Vere
+					<lb/>sim amicorum dolor et consanguineorum cogitatio tediosa. Verum cum
+					<lb/>sit magnum in oculis hominum quem putas hominem perditum suscitare,
+					<lb/>sitque mirabile, si quod aridum est in viriditatis materiam vertitur, supplico
+					<lb/>quod inspirantes me perditum vitali spiritu suscitetis, ut subventionis et serenitatis
+					<lb/>vestre rore perfusus et misericordia viream, et cum se tempus iam
+					<lb/>offerat fructus afferam dulcorosos, quos ab olim amarificavit insipientie nebula
+					<lb/>et quasi desperationis omnimode ferventis festino
+					<lb/>solis impetu calefacta concussit. Non enim humanum est degentem in seculo
+					<lb/>non peccare, sed divina virtus ingeritur non peccanti, et ei qui peccat misericordiarum dominus cordis contritione remittit. Petrus quidem qui
+					<lb/>Christum relictis retibus est secutus illum responsione trina negavit. David
+					<lb/>etiam non minimus prophetarum thorum alieni iuris invasit. Nec hic in
+					<lb/>prophetis prophetie perdit oraculum, nec in apostolis ille caret apostolico
+					<lb/>principatu. Peccavi fateor et satis michi penarum est reminisci honorem
+					<lb/>in gentibus me non posse redimere nisi michi subveniat vestra manus.
+					<lb/>Hinc est quod in presentis necessitatis articulo supplici prece deposco
+					<lb/>quod in aliqua pecunie quantitate michi subvenire velitis, ne perdam
+					<lb/>defectu pecunie studium quod incepi, si decetero bene non faciam, verbis
+					<lb/>meis fidem nullatenus adhibentes. Si feci malum hucusque circumvagus,
+					<lb/>cor contritum et humiliatum potest per bonum restaurari futurum. Nam
+					<lb/>dominus post nubilum dat serenum. Homo sum, et hominem scientia non
+					<lb/>abhorret. Omnibus lucet scientia. Socrates non fuit patricius, Cleantes
+					<lb/>aquam traxit et ortos rigando manus occalluit. Etatis bone sum, amplius
+					<lb/>quid boni sit quidve mali plena discretione discernens; cum quilibet dulcius
+					<lb/>per precedentis molestationis incommoda sentiat future prosperitatis
+				<lb/>odorem, effectum verius diiudicans utriusque.</p>
+				<div>
+					<p><lb/>Responsiva quod nullam spem gerat de eis. Si quem nova testa capit servat
+						<lb/>inveterata saporem, quia nostras non inclinamus aures, nos amplius verba
+						<lb/>tua fastidire non possunt, licet in fastidium nobis te dederis et te consanguineis
+						<lb/>omnibus et dilectis ingesseris in dolorem. Et ideo dictis tuis
+						<pb n="297"/>
+						<lb/>ex toto sepositis, quoniam preteriti notio scire futura fecit, spem nullam
+						<lb/>de nostra subventione concipias, qui penes nos factus es detestabilibus
+					<lb/>tuis actibus peregrinus.</p>
+				</div>
+				<div>
+					<p><lb/>Responsiva quod subveniunt. Te tanto scimus angustiarum turbine fatigatum,
+						<lb/>quod si quicquam intellectus in tua levitate remansit, de tuis nefandis operibus
+						<lb/>potes imo debes esse correctus, et horrere debes asintium quod
+						<lb/>amarificavit hactenus famam tuam et boni dulcedinem acceptare. Debesque
+						<lb/>compescere quicquid illiciti vel suggesserit iuvenilis motus, tardus provisor
+						<lb/>utilium, vel voluptas applausit ut rerum veterum abstergat malorumque
+						<lb/>memoriam reconciliatio placabilis actionis. Et quoniam terra siccitate
+						<lb/>rimosa pluviarum ubertate reficitur, ad presens tui siccitatem rore
+						<lb/>subventionis irrigare zelamus, volentes experientia noscere, si tue
+						<lb/>lingue pulsus est verus intrinsece contritionis interpres. Quare tibi per
+						<lb/>latorem presencium X libras imperialium destinamus, te pro posse rogantes
+						<lb/>quod actus tuos preteritos corrigens monstres operibus te serpentino
+						<lb/>more mutatum, ut siquid nostris benefitiis eris adeptus, tuis meritis invenisse
+					<lb/>credaris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>90 b.</head> <p>Recommendat amicus amico negotia sua. Cum nunquam vera
+				<lb/>cordis afectio locorum interstitio.</p>
+				<div>
+					<p><lb/>Responsiva. Si non potest dilectio vera pati.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>90 c.</head> <p>Deprecatoria ad dominum qui est portus verax fidelibus suis.
+				<lb/>Quoniam portus verax estis et salus indubitata.</p>
+				<div>
+					<p><lb/>Responsiva. Cum ad nos tanquam ad portum tutum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>91.</head> <p>Recommendatoria pro dilecto. Probitatum et serviciorum P. merita postulant.</p>
+				<div>
+					<p><lb/>Responsiva. Si Petrus dilectus tuus in suis peticionibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>92.</head> <p>Super eodem. Cum ex intimo cordis affectu G. latorem presencium.</p>
+				<div>
+					<p><lb/>Responsiva. G. recommendatum habere propono.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>93.</head> <p>Recommendatio pro dilecto. Cum inter devotum et dominum
+				<lb/>prolixitas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad me tua littera parca verborum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>94.</head> <p>Ad amicum quod non reliquat amicum. Quoniam penes benignum patrem. Rescriptiva. Si pati non debet fidei puritas.
+				<lb/>95. Deprecatoria de iusticia. Parat scribendi vobis multiplex.</p>
+				<div>
+					<p><lb/>Rescriptiva. Molesti reddimur in amicorum vestrorum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>96.</head> <p>Deprecatoria et recommendatoria. Hec litterula domino scribitur.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad nos oblationis tue gratifere baiula.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>97.</head> <p>Deprecatoria devoti ad dominum. Cum vos meum patrem reputem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Consurgere non debet alicuius menti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>98.</head> <p>Deprecatoria ad dominum qui semper servivit scribenti. Quantam ad me devotum
+				<lb/>vestrum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum casus requisitionis incumbit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>99.</head> <p>Deprecatoria pro dilecto. Cum... presencium gerulus pro quodam suo.</p>
+				<div>
+					<p><lb/>Rescriptiva. Amicum tuum cum quodam adversario.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>100.</head> <p>Super eodem. Sperat lator presencium precum intercessione.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si multa cordis affectione coniungimur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>101.</head> <p>Super eodem. Habere non credimus apud vos difficultatis obstaculum.
+					<lb/>Super eodem. Fideliter verba fidelis vestre persuasionis.
+				<lb/>/*</p>
+			</div>
+			<pb n="298"/>
+			<div>
+				<head><lb/>102.</head> <p>Deprecatoria pro dilecto cui debetur aliqua summa pecunie quantitas.
+					<lb/>Cum... lator presencium
+				<lb/>cui sicut asserit fulcimentum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Recepimus peticionem... latoris vestrarum litterarum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>103.</head> <p>Deprecatoria ad quendam dominum qui scripsit cuidam in auxilium
+				<lb/>suum quod continuet quod incepit. Ad referendas vobis grates.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum a te lingue debitum non petamus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>104.</head> <p>Amicus ad amicum quod det operam cum amicis suis quod eligatur in potestatem
+					<lb/>terre sue, et posset adaptari pro habendo quolibet beneficio
+				<lb/>et prelatura. Cum dignis meritis nominis vestri famam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Credulum vestre dilectionis et conscium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>105.</head> <p>Deprecatoria generalis. Cum instans necessitas requisitionis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum necessitas ex requisitione colligitur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>106.</head> <p>Petitur quedam res ab amico. Mittitur hic et petitur fiducialiter.</p>
+				<div>
+					<p><lb/>Rescriptiva. Satis in missionis et petitionis liberalitate.
+					<lb/>Responsiva negativa. Presens cedula nuncia referat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>107.</head> <p>Quidam qui obligavit se precibus cuiusdam qui det operam quod mutuum
+				<lb/>persolvatur. Allecti vestris precibus et amore pro domino.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si spes de dilecto concepta solo molestationis ictu.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>108.</head> <p>Petit amicus ab amico rem aliquam. Cum fervens quantumlibet
+				<lb/>fuerit.</p>
+				<div>
+					<p><lb/>Rescriptiva. Primitivam petitionem vestram gratanter accepto.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>109.</head> <p>Iterata deprecatoria. Ut celerius assequatur deprecatio.</p>
+				<div>
+					<p><lb/>Rescriptiva. Licet interdum liceat eciam admisso.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>110.</head> <p>Iterata deprecatoria. Poteritis ut opinor in bina litterarum receptione.</p>
+				<div>
+					<p><lb/>Rescriptiva. Et siquid soleat decima peticione placere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>111.</head> <p>Iterata deprecatoria per nuncium specialem. Pensabamus porrectas vobis preces.</p>
+				<div>
+					<p><lb/>Rescriptiva. Sub certitudine pensare potestis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>112.</head> <p>Deprecatoria de Comuni ad Comune. Si
+				<lb/>spes ad fructum ex arbore.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum futura faciat preteriti ratio presagire.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>113.</head> <p>Super eodem. Si dilectionis antique constanciam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si vestre dilectionis hereditatem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>114.</head> <p>Super eodem. Si superseminare nititur aliquis iniquitatis heres.</p>
+				<div>
+					<p><lb/>Rescriptiva. Solertie freno refrenare proponimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>115.</head> <p>Devotus ad dominum quod suveniat necessitati sue. Quantum statum meum
+				<lb/>a non multo tempore.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si iuxta consuetudinem nubis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>116.</head> <p>Deprecatoria. Plenam de sinceritate vestre prudencie.</p>
+				<div>
+					<p><lb/>Rescriptiva. Potestis plenam de dilectionis mee sinceritate.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>117.</head> <p>Recommendatoria pro dilecto ad curiam eunte. De vicio possem nigratorum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Abicienda non sunt amicorum post terga.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>118.</head> <p>Recommendatoria pro dilecto ad curiam eunte. Cum G. presencium
+				<lb/>lator multa michi sit affectione coniunctus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Vobis volens et amicis vestris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>119.</head> <p>Super eodem. Nisi servicia graciosa recolerem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Adulari
+					<lb/>non debet amicus amico.</p>
+				</div>
+			</div>
+			<pb n="299"/>
+			<div>
+				<head><lb/>120.</head> <p>Super eodem. A diligentibus et devotis gratanter.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si servientes experirentur sua deperire.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>121.</head> <p>Iterum deprecatur amicus amicum. Serviciorum immemor non existens.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad nos non semel.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>122.</head> <p>Generalis deprecatoria. Vestris omni tempore serviciis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Possum preteritorum operum testificatione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>123.</head> <p>Super eodem. Licet grata non dinoscantur merita.</p>
+				<div>
+					<p><lb/>Responsiva. Ex parte tua grata merita.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>124.</head> <p>Generalis. Sperans preces meas penes vos.</p>
+				<div>
+					<p><lb/>Responsiva. Si servicia tua que michi per transacta.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>125.</head> <p>Generalis. Indubitabili fiducia teneo preces meas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Gratificari debent porrecta precamina tua.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>126.</head> <p>Deprecatoria ab illo qui dicit se non servivisse ut propter servicia roget.
+				<lb/>Gratis non inducor obsequiis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si tuas consideras actiones.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>127.</head> <p>Generalis deprecatio. Spe de vestra dilectione concepta.</p>
+				<div>
+					<p><lb/>Responsiva. Sunt ad exaudicionis gratiam admittenda.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>128.</head> <p>Ad quendam nobilem cui scribitur a pluribus quod terminet negocium amici.
+				<lb/>Cum super instanti materia nobilitati vestre.</p>
+				<div>
+					<p><lb/>Responsiva. In hiis que tuis possemus placere serviciis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>129.</head> <p>Generalis deprecatoria. Cum ubi fidei certitudo cognoscitur.</p>
+				<div>
+					<p><lb/>Responsiva. Tua non debes verborum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>130.</head> <p>Recommendatoria pro dilecto. Si devotio solet ad augmenta.</p>
+				<div>
+					<p><lb/>Responsiva. Cum quando grata merces procedit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>131.</head> <p>Generalis ad dominum quem reputat caput suum. Deposcitur illius capitis
+					<lb/>iusta prosperitas.
+				<lb/>Reseriptiva. Cum a nobis tamquam a tuo capite.</p>
+			</div>
+			<div>
+				<head><lb/>132.</head> <p>Deprecatoria generalis. Si procellosa tempestas et tempestuosa procella.</p>
+				<div>
+					<p><lb/>Responsiva. Experiri me potes tuis beneplacitis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>133.</head> <p>Amicus ad amicum provectum ad dignitatem quod recordetur
+				<lb/>sui. Spes mea tenet indubie.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si notionis nostre primitive parilitas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>134.</head> <p>Ad amicum quod interponat preces suas ad quandam composicionem
+				<lb/>faciendam. Cum sit tolerabilius de pacis interpositione redargui.</p>
+				<div>
+					<p><lb/>Rescriptiva. Hereditatis relicte Dei discipulis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>135.</head> <p>Recommendatur amicus amico in iure suo.
+				<lb/>A nobili viro domino... preces recipitis.</p>
+				<div>
+					<p><lb/>Responsiva. F... precibus nobilis viri... pro dilecto suo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>136.</head> <p>Super eodem. Pro... vobis dominus... porrigit preces suas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Pro P. tuas prudentis viri... precibus adiecisti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>137.</head> <p>Recommendatio pro dilecto. Meum dilectum... portitorem presencium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Dilecti vestri... causam quam ut asseritis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>138.</head> <p>Ad amicum pluribus aggravatum pro negocio suo.
+				<lb/>Occupatas multis aures amici.</p>
+				<div>
+					<p><lb/>Rescriptiva. Me licet multorum precibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>139.</head> <p>Super eodem. Ut liberalior favor et favorabilior.</p>
+				<div>
+					<p><lb/>Rescriptiva. Urbanam verborum tuorum parcitatem.</p>
+				</div>
+			</div>
+			<pb n="300"/>
+			<div>
+				<head><lb/>140.</head> <p>Recommendatoria. Ut gratiosus de vestra liberalitate.</p>
+				<div>
+					<p><lb/>Rescriptiva. Meam propono liberalitatem ad servicia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>141.</head> <p>Recommendatoria pro dilecto. Dilectus meus... cui suis exigentibus meritis. Rescriptiva. Preces michi pro securo transitu.
+				<lb/>142. Quidam recommendat negocia sua amico suo. Ex quadam specialis vestre gratie prerogativa.</p>
+				<div>
+					<p><lb/>Rescriptiva. Secure potes de dilectione nostra.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>143.</head> <p>Recommendat amicus amico negocium amici. Pro negocio dilecti... nostri. Rescriptiva. Si... dilectum vestrum et michi dilectione coniunctum.
+					<lb/>144. Recommendat quidam procuratorem suum amico in causa sua. Quia me vobis
+				<lb/>et vestris pura cordis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum unum cordis affectione reddamur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>145.</head> <p>Devotus recommendat amicum suum domino, qui timet accedere coram eo. Cum intercipiantur plerumque
+				<lb/>verba pudore.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si finis non principium commendatur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>146.</head> <p>Recommendatoria pro latore presencium. Quamvis apud vos P. lator presencium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Recommendatum habebam in intimis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>147.</head> <p>Ad amicum quod rescribat statum suum. Cum essencie vestri meum statum. Rescriptiva. Quoniam certificari de meo statu.
+					<lb/>148. Scribit quidam adiciens preces suas aliis que porriguntur ad potestatem quendam
+					<lb/>quod sit misericors.
+				<lb/>Quoniam pro negocio... dominus... vos velut audio.</p>
+				<div>
+					<p><lb/>Rescriptiva. Auditus debet esse misericors.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>149.</head> <p>Ad amicum quod det operam quod eligatur in potestatem terre sue. Sperans
+				<lb/>indubie semen amoris.</p>
+				<div>
+					<p><lb/>Responsiva. Volens quod fructus de vestre benivolencie semine.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>150.</head> <p>Ad amicum quod instet ad expedicionem negocii quod incepit. Cum eo quod solet mora.</p>
+				<div>
+					<p><lb/>Responsiva. Solet incumbencium negociorum implicitas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>151.</head> <p>Deprecatoria pro illo pro quo non potuit obtinere quod petebat. Quod
+				<lb/>obtinere non potuit P.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum omnia non sint hominis exposita voluntati.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>152.</head> <p>Ad dominum quod continuet gratiam quam incepit in negocio amici.
+				<lb/>Pro gratia quam in oculis vestris.</p>
+				<div>
+					<p><lb/>Rescriptiva. Inventioni gratie nostre quam dilectus vester.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>153.</head> <p>Amicus ad amicum quod accommodet sibi equm. Cum se casus ingerit opportunus.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Decet quod ad illos in opportunitatibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>154.</head> <p>Ad amicum quod instet penes quendam quod mittat pecuniam quam tenetur.
+				<lb/>Confido de vestra dilectione cum expedit.</p>
+				<div>
+					<p><lb/>Responsiva. Si dilectio pura cordis locali disiunctione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>155.</head> <p>Amicus ad amicum. Puro vestre dilectionis affectus quam
+				<lb/>erga meam personam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad nos recursum habere quociens necessarium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>156.</head> <p>Recommendatio pro procuratore. Quanto sincerius autumem vestre dilectionis. Responsiva. Cum dilectionis pure funiculo complectamur.</p>
+			</div>
+			<pb n="301"/>
+			<div>
+				<head><lb/>157.</head> <p>Deprecatoria. Cum ad illum possit recurri securius.</p>
+				<div>
+					<p><lb/>Rescriptiva. Scio quod velut experiencia didici.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>158.</head> <p>Generalis deprecatoria. Si recursum ad fide coniunctum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Fides vera non patitur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>159.</head> <p>Deprecatoria ad amicum. Inducit me secure dilectio.</p>
+				<div>
+					<p><lb/>Responsiva. Cum habeatur ad fidum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>160.</head> <p>Ad amicum deprecatoria. Cum locorum distancia corda
+				<lb/>dilectorum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quam ad te gessi semper.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>161.</head> <p>Super eodem. Si quociens expedire dinoscitur.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quia michi fidei puritate coniungeris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>162.</head> <p>Super eodem. Si fides in quovis
+				<lb/>claudicare.</p>
+				<div>
+					<p><lb/>Rescriptiva.
+						<lb/>Non semper in dilectionis
+					<lb/>tramite.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>163.</head> <p>Deprecatoria generalis ad amicum. De dilectionis vestre constancia confidentes.</p>
+				<div>
+					<p><lb/>Rescriptiva. Dum nobis posse suppeteret.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>164.</head> <p>Clericus qui servivit in quadam ecclesia ad dominum quod in aliquo sibi provideat.
+				<lb/>Cum dignum sit quod ecclesiasticis desudans honoribus.</p>
+				<div>
+					<p><lb/>Rescriptiva.
+					<lb/>Volentes quod labor tuus quem ad honores.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>165.</head> <p>Super eodem. Si serviciis ecclesiasticis deditus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Indignum esset et absonum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>166.</head> <p>Devotus ad dominum quod eum liberet ab impetu paupertatis. Qui se bonorum
+				<lb/>operum exibet adiutorem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum qui se gratum bonis operibus ingerit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>167.</head> <p>Filius ad patrem quod sibi subveniat. Quoniam patris affectus penitus declinare
+					<lb/>videtur, qui necessitatibus filii negligit subveniae, paternitatem vestram
+					<lb/>supplici prece deposco quatinus michi dignemini saltem pietatis
+					<lb/>intuitu providere, ne videatur in filium contra nature decretum pietatem
+				<lb/>refrigere paternam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum subventionis paterne dilatio non semper
+						<lb/>immutet patris affectus, affici non debet affectio filii varia cogitatus instancia
+						<lb/>nec in desperationis exilio quomodolibet
+						<lb/>exulare, quia semper quod differri plerumque contingit, in potencia non
+						<lb/>aufertur. Unde licet varie perplexitatis occursu perplexus hucusque tibi
+						<lb/>providere distulerim, a te de negligencia causari non mereor, quia filii nutrio
+						<lb/>paterna mamilla memoriam iuxta debitum genitoris. Igitur depositis perplexitatis oneribus velut indigentia tua pecierit, de quo cito
+					<lb/>spero, tibi providere curabo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>168.</head> <p>Devotus ad dominum quod cito quoddam negocium expedire dignetur. Quoniam
+				<lb/>de paternitate vestra plene confidimus.</p>
+				<div>
+					<p><lb/>Responsiva. Negocium pro quo dominus... scribit vobis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>169.</head> <p>Quod cito expediatur amici negocium. Pro... dilecti mei negocio sub textura
+				<lb/>compendiosa.</p>
+				<div>
+					<p><lb/>Responsiva. Sub curto verborum amictu.</p>
+				</div>
+			</div>
+			<pb n="302"/>
+			<div>
+				<head><lb/>170.</head> <p>Ad amicum quod mittat rem promissam. Pro constanti scribentis tenet intencio.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Si repulsam requisitio patitur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>171.</head> <p>Recommendat amicus amico quendam, cui non proposuerat
+				<lb/>scribere. Pro firmo geras quod nunquam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Licet quodammodo recipientem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>172.</head> <p>Recommendatoria pro dilecto. Subministrat michi materia, vestre nobilitatis. Rescriptiva. Inducimur debito tibi tuisque.
+				<lb/>173. Recommendatur quidam in iure suo. Sperans vos zelatorem esse iusticie.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum sit homini preferenda iusticia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>174.</head> <p>Iterum pro dilecto. Multiplicata mearum precum adiectio.</p>
+				<div>
+					<p><lb/>Rescriptiva quod non potest exaudire preces pro illo pro quo mittuntur.
+						<lb/>Pro P. vestro dilecto
+					<lb/>preces plures.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>175.</head> <p>Recommendatoria pro diletto. Pro illo quem dilectionis intime.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Quia te cordis et animi puritate.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>176.</head> <p>Super eodem. Carus meus Johannes lator presencium.</p>
+				<div>
+					<p><lb/>Responsiva. Pro recommendacione J. cari tui.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>177.</head> <p>Super eodem. Cum pro quibusdam negociis F. latorem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Tuas litteras recommendantes michi F.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>178.</head> <p>Super eodem. Si vestre dilectionis gratia grato corde.</p>
+				<div>
+					<p><lb/>Responsiva. Cum vera non opinetur esse dilectio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>179.</head> <p>Quod satisfaciat quibusdam pro quibus iam scriptum est, alioquin procedetur
+					<lb/>ad reprehensalia. Ad reintegrandum id
+				<lb/>pauxillum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quoniam dilectionis fedus fedare.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>180.</head> <p>Recommendat se quidam cuidam domino suo speciali. Beneficia que
+				<lb/>iam vestra gratia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Gratiam nostram ad quoscumque libenter.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>181.</head> <p>Quidam scolaris ad quendam episcopum quod mittat pecuniam nepoti suo qui multum est debitis aggravatus. Si patris precipui, si spiritualis domini
+					<lb/>gratiam devota lingua sed audax implorare presumit, duo noscuntur esse
+					<lb/>precipua que devoto scribendi materiam subministrant: Ipsa videlicet vestra
+					<lb/>paternitas que solet ad devocionis instanciam beneficiis innumeris
+					<lb/>invitare devotos, et non parva compassio quam ad... corde
+					<lb/>gero. Sane si dolenti sibi condoleo, si sibi compacior pacienti, motum ingerit
+					<lb/>animi causa iusta, cum propter moram quam contraxit in curia,
+					<lb/>propter libros quos fecit fieri, et propter voraginem usurarum, debitorum
+					<lb/>non modica mole gravatus inter scolares alios nobilitate preclaros in mutationem
+					<lb/>sui status, in sui soliti nominis lesionem
+					<lb/>apparere contempnat. Cum eciam propter librorum suorum inopiam
+					<lb/>quos creditores tenent pro debitis obligatos indecenter suum laudabile
+					<lb/>studium sincopet, accidens imprevisum quod nedum in eum cuius res
+					<lb/>agitur, verum et ceteros caros eius, imo quod plus est, in patriam totam
+					<lb/>et compatriotas pudorose redundat, qui possent propter sui prudenciam
+					<lb/>et immensam scientiam gloriari, cum ipse studio studiosus intenderet,
+					<lb/>acueret diligenter ingenium et provectionis mire pronostica mirabiliter indicaret. Quocirca debita pietate compunctus paternitati vestre devotissime
+					<pb n="303"/>
+					<lb/>supplico, quatinus obstetricem vestram dexteram porrigatis eidem,
+					<lb/>ut in curandis indigencie sue vulneribus alterum Samaritanum vos invenire
+					<lb/>letetur, et ut de dolorum suorum fluctibus flante vestre subventionis
+					<lb/>aura gratifera possit ad litus pervenire quietis, et restaurationis pregustata dulcedine suum valeat studium integrare, vivaciter saciabiles fructus desiderantibus
+				<lb/>allaturum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Hoc re vera cotidie manifestis indiciis evenire
+						<lb/>sentimus, quod curtum sperans et indeficientem habere succursum
+						<lb/>lora securius laxat in hostes, et cum interdum non cogitat reditum
+						<lb/>invenire difficilem, cespitat in laqueum quem tetendit. Quippe significasti
+						<lb/>michi quod... nepoti meo compateris propter plura que tuis litteris inseruisti
+						<lb/>gravamina pregravato, quod ob conditionem sui status
+						<lb/>exilem satis credere possum. Sed licet volatilis fame garrulitas plerumque
+						<lb/>referat vacua veritate, rei substantiam aliquando nudam eructuat postmodum
+						<lb/>adventancium publicatione firmatam. Ecce nepos
+						<lb/>meus indubitanter spem de mea subvencione concipiens folliculum sibi
+						<lb/>concesse facultatis exivit, sic expensis lora relaxans quod alter Gallus urbanitatis preconiis haberetur. Sed certe certe sibi vires ad
+						<lb/>multa toleranda non suppetunt, qui cotidie cogitare deberet quod onus intolerabile parat occasum, et quod sarcina si moderata fuerit non offendit.
+						<lb/>Caveat ergo sibi ne tantum emunxerit ubera, quod sanguinem post butirum
+					<lb/>eliciat, factus discipulus ex magistro.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>182.</head> <p>Deprecatoria generalis ad dominum. Satis et ultra spei concepte.</p>
+				<div>
+					<p><lb/>Rescriptiva. De gratia tibi servire non possumus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>183.</head> <p>Devotus ad dominum quod scribat statum suum. Novit Altissimus
+				<lb/>quod anima mea.</p>
+				<div>
+					<p><lb/>Rescriptiva. Exquisivisti tuis litteris de mea.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>184.</head> <p>Ad quendam quod manuteneat iura dilecti. Scimus ex vestre probitatis industria. Rescriptiva. Postulantibus quibuscumque iusticiam nos debitores.
+				<lb/>185. Recommendatio pro quodam ad quendam qui adversarium fovere videtur. Spem plenam de vobis hactenus.</p>
+				<div>
+					<p><lb/>Responsiva quod assentiet precibus in hiis que poterit. Si rogatus
+					<lb/>porrectas preces.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>186.</head> <p>Ad potestatem quod compellat quendam suum civem ne molestet quendam super possessionibus suis iniuste. Inopinatam rem nobis evenire sentimus. Rescriptiva. Quoniam ab aliquo non infertur iniuria.
+					<lb/>187. Amicus ad potestatem quod diligeret famam bonam et servet iusticiam.
+					<lb/>Eo forcius amicum amici
+				<lb/>fama.</p>
+				<div>
+					<p><lb/>Responsiva quod iusticiam diligit et famam bonam. Amoris integritas inter nos.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>188.</head> <p>Preces ad illum qui ignotus est. Non convertatis in tedium.</p>
+				<div>
+					<p><lb/>Responsiva. Michi preces vestras in gaudium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>189.</head> <p>Ad dominum deprecatoria compendiosa generalis. Ne paternitati vestre pariat series.</p>
+				<div>
+					<p><lb/>Rescriptiva. Non possunt vestre littere parturire fastidium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>190.</head> <p>Recommendat amicus amico fratrem suum. Ob plurimorum serviciorum impendia.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum ab inicio dilectionis nostre funiculus.</p>
+				</div>
+			</div>
+			<pb n="304"/>
+			<div>
+				<head><lb/>191.</head> <p>Amicus ad dominum quem sepe rogat. Licet in vestre paternitatis
+				<lb/>auribus fastidium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Non speretis ad portum pervenire.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>192.</head> <p>Recommendatoria pro dilecto. Vobis et vestris cum casus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Scio corde te gerere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>193.</head> <p>Super eodem ad dominum. Illorum digne sunt memoranda servicia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum affectio cordis nos pura confibulet.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>194.</head> <p>Excusat se quidam quod non scripsit statum suum domino et petit quod sibi
+				<lb/>parcat. Scio quoniam paternitati vestre scribere distuli.</p>
+				<div>
+					<p><lb/>Rescriptiva et reprehensiva multum. In te non arbitrabar animum insurrexisse torporis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>195.</head> <p>Deprecatoria de securo conductu amico. Cum providus et discretus
+				<lb/>vir J. lator presencium acceptabilibus operibus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Tolli debet ad gratiam.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>196.</head> <p>Recommendatoria amici. P. lator presencium profecturus ad
+				<lb/>curiam.</p>
+				<div>
+					<p><lb/>Rescriptiva. Petro dilecto tuo curiam adeunti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>197.</head> <p>Recommendatoria pro dilecto. Cum per continuas operum acceptandorum impensas.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Responsiva. Raynerium dilectum tuum pro quo tuas michi litteras destinasti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>198.</head> <p>Devotus ad dominum quod teneat quendam in curia sua qui est frater cuiusdam
+				<lb/>amicissimi sui. Cum desuper non sit datum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si non est hominis futurorum certa previsio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>199.</head> <p>Potestas ad potestatem quod compellat quosdam suos cives ad solucionem pecunie faciendam quibusdam creditoribus suis. In potentis et honorabilis nostri civis conquestione.</p>
+				<div>
+					<p><lb/>Rescriptiva quod illi qui dicuntur debitores esse dicunt quod ad aliquid non
+					<lb/>tenentur. Oritur ex relatione vacua veritatis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>200.</head> <p>Quod terminetur negocium amici pro quo scriptum est pluries. Pro... nostro cive preces plures.</p>
+				<div>
+					<p><lb/>Rescriptiva quod expedire non potest, cum sint contra iusticiam preces porrecte.
+					<lb/>Ad sapientis honorem spectare non credimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>201.</head> <p>Ad amicum quod det operam quod quidam liberet eum ab obligatione quam
+				<lb/>fecit pro eo. Et si pure caritatis ymago fuit.</p>
+				<div>
+					<p><lb/>Rescriptiva.
+					<lb/>Quantum ad beneficia mea fuisti sollicitus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>202.</head> <p>Ad debitorem quod solvat debitum. De promptuario concepte spei consurgit. Rescriptiva. Oblitus non sum quod michi contulisti.
+					<lb/>203. Abbas ad superiorem quod absolvat monachum qui extendit manus violentas
+					<lb/>in alium monachum. Cum T. monachus lator presencium primi persecutoris.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Responsiva quod gratiam fecit et quod procuret et bene custodiat gregem
+						<lb/>sibi commissum. Tesino monacho qui violenter
+					<lb/>in C. monachum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>204.</head> <p>Potestas ad potestatem quod faciat terminari quoddam negocium quod est
+				<lb/>inter syndicum suum et quendam civem potestatis scribentis. Cum ex liberalitate debeat acceptatio grata sequi.</p>
+				<div>
+					<p><lb/>Responsiva quod mittet syndicum. Cum emergencia de novo novum requirant.</p>
+				</div>
+			</div>
+			<pb n="305"/>
+			<div>
+				<head><lb/>205.</head> <p>Deprecatoria ab illo qui non rogaret si inspiceret quod non servivit, sed supplicat domino confidenter. Si serviciorum dumtaxat acceptabilium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum qui vera caritate coniungitur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>206.</head> <p>Ad amicum quod sibi serviat in presenti articulo. Pro constanti spes mea gerit. Rescriptiva. Cogitare potes et tenere pro certo.
+					<lb/>207. Ad consanguineum invectiva quia
+					<lb/>non significat statum suum. Si iuxta canonis naturalis edictum amicum
+					<lb/>in absencia corporali sepe litteris visitare tenetur amicus, multo forcius
+					<lb/>hii qui carnis identitate ac unitate sanguinis uniuntur. Porro
+					<lb/>cum quidam inexcusabilis torpor vos digne merito reprehensioni subiciat,
+					<lb/>ad quam bene tergendam aqua plurima laboraret, de remissione tanto forcius doleo, quanto sepius a vobis literis vel nunciis debeo velut os de osse
+					<lb/>vestro caroque de carne vestra natura suadente requiri. Sed
+					<lb/>certe cotidie cogitans cogitare non valeo, que causa potuerit remissionis
+					<lb/>tante prestare fomentum, quod stagnum pigritans vestrum nuntium ne
+					<lb/>veniret tenaci limositate viscaverit, que taciturnitatis occasio sic vos fecit elingues, que vestras imbibit crassitudo membranas insertas nequeuntes
+					<lb/>retinere scripturas, que pennarum inopia, quis atramenti defectus in scriptura digitos ociari compellit. Ecce resurgat vestra memoria, indicium proferat,
+					<lb/>et eius quod debetur carnalis obligatio solucione tollatur, cum animum
+					<lb/>meum ex contracta mora commotum vestri cordis obstinacio molliat,
+				<lb/>et ad rubescentiam vestram transmissione presentium concepta commocio molliatur.</p>
+				<div>
+					<p><lb/>Rescriptiva. Consideratio vestra non gerat ambiguum quin
+						<lb/>epistolaris affectio amicorum vultus ad longinqua deferre soleat et carorum ymagines officio presentare sermonum et sanguinis linea proximos
+						<lb/>disiunctos locorum distancia proximare proximitatis odore. Sed per accidens conspicere cotidie possumus quod affectus et impotencia differunt,
+						<lb/>ut quod unum affert aliud auferre conetur. Non ergo meritis reprehensioni subiicimur nec redargui de remissione meremur, si verborum nostrorum suspendimus organa, si calamo ferias indiximus repentinas, cum occurrerit cuiusdam impossibilitatis occursus, ob quam cordis affectus hucusque
+						<lb/>deduci nequivit in actum. Verum quia vita nimis occulta suspitionibus patefacit accessum et valitudinem perdit silentis affectio debilitata
+						<lb/>torpore, cum se casus presentialiter offerat, referat presens epistola quod
+					<lb/>votive nobis arridet leticia corporalis cupientibus tui status crebra certificatione gaudere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>208.</head> <p>Amicus ad amicum quod negocium suum continuare
+				<lb/>velit. Cum precipui patris et domini specialis affectio.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum in amicabilibus actibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>209.</head> <p>Amicus ad amicum quod ad studium revertatur ut promisit. Cum egrescat
+					<lb/>nisi lectione iugi reparetur ingenium et dediscat homo iuxta sapientem
+					<lb/>si nichil addiscit, in admirationis exilium abeo quod tu qui velle videbaris
+					<lb/>arte percepta studium exercere, nequaquam ingenio curam et usui manum adhibere procuras, malens promissionis tue de veniendo michi facte sub dissimulationis aut remissionis obiectu conculcare memoriam quam animum tuum assidua commemoratione iuvare. De quo tanto pro te vehemencius
+					<lb/>doleo, quanto te mora tempus inutili consumpsisse tristari potes
+					<lb/>et dicere: dampna fleo rerum, sed plus fleo dampna dierum; quisque potest
+					<lb/>rebus succurrere, nemo diebus. Quare te karissime deprecor quatinus ad
+					<pb n="306"/>
+					<lb/>studium redire non tardes, quoniam sapienciam Salamon regnis preposuit
+				<lb/>et sedibus universis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quoniam consequi nequit effectum conceptum persepe
+						<lb/>propositum et suis affectus viribus vacuatur, quam tibi feci promissionem,
+						<lb/>quod refero dolens, ad cupitum finem demandare non potui, que mea
+						<lb/>consideratio non previdit pluribus implicitus et diversis. Nec remissionem intervenisse consideres, verum accessit affectui quod effectui derogatur, et
+						<lb/>quod haberem carius, impossibilitatis obiectu forcius concupisco. Quare videns quod nulla potest tempus restituisse dies, tempus elapsum perdidisse
+					<lb/>contristor; si se paraverit posse, desiderans dampnum preteriti temporis restaurare qualitercumque compensatione futuri.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>210.</head> <p>Comune ad Comunem quod satisfaciat suis civibus de soldis quos eis dare tenentur. Cum aliorum non deceat indigentes plerumque.</p>
+				<div>
+					<p><lb/>Rescriptiva. De civibus vestris fiduciam integram.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>211.</head> <p>Comune alicuius terre ad aliquem principem vel baronem quod sibi subveniat
+					<lb/>in honorabili militum quantitate. Exsecrabilis inimicorum nostrorum
+				<lb/>elatio.</p>
+				<div>
+					<p><lb/>Rescriptiva. Grandis devocionis indicia multaque fidelitatis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>212.</head> <p>Deprecatoria generalis. Electa dudum ex gratie vestre fonte.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum ab eo qui retributionis impendium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>213.</head> <p>Scolaris ad dominum quod sibi subveniat.
+					<lb/>In scripture presentis audacia digna possum ratione redargui,
+					<lb/>cum proverbium videar sequi, quo dicitur: Villanus porrigenti
+					<lb/>digitum palmum auferre conatur. Sed certe certe si beneficia cuncta recolerem, que tam libere, tam gratanter postquam ad studium veni michi
+					<lb/>vestra dominatio contulit, non deberem quoquomodo presumere paternitatis vestre gratiam amplius implorare. Ceterum cum, ceu fomentum
+					<lb/>a radice discurrit in arborem, vita mea procedat a vobis, paternitati
+					<lb/>vestre devotissime supplico, quatinus in aliquo michi subvenire velitis,
+				<lb/>ut cum honore perficiam studium inchoatum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Gaudeo plurimum si postquam ad studium properasti
+						<lb/>contuli grata tibi, quem semper inveni meis beneplacitis expeditum.
+						<lb/>Et cum corde puro desiderem quod sciencia debeas informari, tibi
+						<lb/>per... latorem precencium X libras gratioris provisionis non adempto proposito statuo transmittendas, te rogans attente quatinus te studio taliter
+						<lb/>dare procures, quod fructum studii consequaris tuique dilecti libencius
+					<lb/>ad subveniendum tibi dexteram liberalitatis extendant.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>214.</head> <p>Frater ad fratrem quod consulat sibi si vult quod uxorem accipiat in aliena
+				<lb/>terra cum habere possit. Fraterna caritas nature debito suggerente.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum ad vota disligari matrimonii ligatura.
+					<lb/>Rescriptiva quod non contrahat matrimonium. Si dulcis amor patrie cunctos.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>215.</head> <p>Comune ad Comunem quod concedat aliquem locum quibusdam religiosis. Cum
+				<lb/>inter cetera Deo grata.</p>
+				<div>
+					<p><lb/>Rescriptiva. Honores nostros augeri conspicimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>216.</head> <p>Invitat domicellus amicum suum quod veniat
+					<lb/>ad eum cum assumat ordinem militarem. Quoniam in oblivionis excessu.
+					<lb/>Deprecatoria generalis. Non debet oblivio tuam hebetare
+				<lb/>memoriam.</p>
+			</div>
+			<pb n="307"/>
+			<div>
+				<head><lb/>217.</head> <p>Deprecatio generalis. Si non tabescit spiritus meus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Iuxta potencie mee vires.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>218.</head> <p>Deprecatoria generalis. Presencium precum obauditionem nequit.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si nostra nequit devirere dilectio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>219.</head> <p>Quidam ad quoddam Comune quod expediat negocium tractatum inter eum
+				<lb/>et suum syndicum. Velut arbor frondibus luxurians.</p>
+				<div>
+					<p><lb/>Rescriptiva. Luxurianti frondibus arbori vere similari.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>220.</head> <p>Ad quendam quod intercedat pro quodam penes quendam. Quantam ad me
+				<lb/>devotorum vestrorum humillimum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Semper nobis dum te novimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>221.</head> <p>Pater ad filium quod bene studeat prout incepit. Spes firma tenaxque credulitas
+					<lb/>tuorum cordibus amicorum ingeritur, quod scientie thesauro ditatus
+					<lb/>progeniei tue tocius gaudium habearis. De quo fili karissime tanto grandius gaudeo, quanto cum a rebus abducar humanis instante
+					<lb/>die necessitatis extreme, certius arbitrabor in te me fore
+					<lb/>superstitem, quia non est omnino credendus assumptus, qui sibi provisionis divine munere talem est adeptus heredem. Filiationem tuam itaque
+					<lb/>exoro quatinus, si tuum laudabiliter studium incepisti, sic terminare procures quod amicorum tuorum et mea spes in certitudinem transeat et
+				<lb/>eorum sis basis immobilis et columpna.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum sit sapiencia filii gloria genitoris, tenere
+						<lb/>constanti debet vestra paternitas, quod meum animum
+						<lb/>studio taliter applicabo, quod concipietis merito gloriam et amicis in leticiam ingeretur. Et utinam sic affectum cordis ad effectum valeam demandare,
+						<lb/>quod inter desiderium vestrum et meum propositum celebrato
+					<lb/>coningio proles glorie feliciter producatur ad partum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>222.</head> <p>Devotus ad dominum quod sibi precipiat. In beneficiorum vestrorum gratiosa
+				<lb/>memoria.</p>
+				<div>
+					<p><lb/>Rescriptiva. Evidentibus actibus hactenus ostendisti.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>223.</head> <p>Filius ad patrem quod sibi mittat pecuniam si vult quod studeat. A vobis fui
+					<lb/>karissime pater velut rudis missus ad studium, ut me possem ad altiora transferre celerius, in fundamento liberalium arcium eruditus. Et ego patris voluntatem ex innato cordis affectu naturalique debito prosecutus,
+					<lb/>hoc anno gramaticali capessita scientia firmiter ad alciora provehi Domino faciente sperabam, ut et vestrarum literarum tenor et
+					<lb/>plurium assercio patefecit. Verum spes ob processum temporis argumento
+					<lb/>certe quasi presumpcionis elliditur, cum nec oportuna susceperim nec ad
+					<lb/>me pervenerit nuncius verus paterne voluntatis interpres. Quare dominationi vestre suppliciter supplico quatinus michi pecuniam si studere
+					<lb/>me vultis mittere non tardetis, cum sine denariis vivere nequeam nec
+				<lb/>studere.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ut sciencie titulis informareris et morum, ad studium
+						<lb/>te fateor transmisisse, tibi iuxta facultatis mee substanciam
+						<lb/>hylariter providere proponens. Ideoque sperare non debes fili
+						<lb/>karissime quod velim debere sinistrum accidens tuum studium sincopare.
+						<lb/>Sed interdum accidit voluntatem puram iusto prepedimento more suspendi,
+						<lb/>quam non aufert odiosa dilatio bonorum sepe quam plurium intricatrix.
+						<lb/>Quare fili tibi significo quatinus hinc ad paucos dies tibi quam potero destinabo
+						<lb/>pecuniam, iuxta facultates meas plus mittere concupiscens velut
+						<lb/>tuum studium postulabit. Et tu vigilanter studere procures, ut tuo cedat
+						<pb n="308"/>
+						<lb/>honori, patris tui gratiam compares, et amicorum omnium benivolenciam
+					<lb/>consequaris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>224.</head> <p>Amicus ad amicum quod mittat rem promissam.
+				<lb/>In contracta mora tam retardati promissi.</p>
+				<div>
+					<p><lb/>Rescriptiva. Reprehendi non debet tarditatis obiectu.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>225.</head> <p>Filius ad patrem quod sibi subveniat. Iuxta iustum nature decretum saltem
+					<lb/>in studio michi provideri pensabam officio genitoris; cum nedum indigenti
+					<lb/>semper filio paterna pietas subveniat, verum et illi quem fortuna prospera
+					<lb/>comitatur. Sed video, pro dolor, in communis nature
+					<lb/>legis iniuriam erga studentem et indigentem filium patris gratiam refrigere,
+					<lb/>ut quasi nil michi debeat ex natura. Sicque velut displicibilis videor
+					<lb/>traditus esse contemptui, qui non deberem esse non amabilis genitori.
+					<lb/>Quacirca paternitatem vestram supplici prece deposco quatinus pietatis
+					<lb/>intuitu saltem plurimum indigenti michi subvenire velitis, cum in studio
+					<lb/>consanguineos non habeam nec amicos, qui meam indigenciam relevent
+					<lb/>vel a quibus possim auxilium expectare. Si vero michi subvencio vestra
+					<lb/>defuerit, vel repedare curabo vel verecundiam calcans ibo querens elemosinas hostiatim, in vestrum et consanguineorum omnium opprobrium et
+				<lb/>contemptum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Non potest pietas que natura conceditur impietate
+						<lb/>subverti, nec genitoris tolli potest officium, eciam si quandovis officiat offendiculum tarditatis. Quare cum patris non sit affectio diminuta,
+						<lb/>licet interdum frigescere videatur in filium, qui nequaquam displicibilitate contempnitur, sed in visceribus amabilitate fovetur, tenore presencium
+						<lb/>teneas me cito dante Domino provisionis oleum paupertatis tue
+					<lb/>vulneribus infusurum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>226.</head> <p>Recommendatio ad amicum pro amico. Exurgit in nobis habundans in fertili.</p>
+				<div>
+					<p><lb/>Rescriptiva. Portum salubriter applicare meretur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>227.</head> <p>Ad episcopum quod promoveat quendam ad ordinem subdiaconatus, et sic
+					<lb/>potes dicere de alio ordine. Idoneus ex sufficiencia clericatus
+				<lb/>J. lator presencium.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad subdiaconatus ordinem I. latorem presencium quem fecere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>228.</head> <p>Potestas ad potestatem quod faciat iusticiam civi suo qui sibi facere denegatur.
+				<lb/>Si iusticia constans perpetuaque voluntas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si qualitercumque cogitatibus vestris ingeritur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>229.</head> <p>Potestas ad potestatem quod expediat negocium sui civis. Si considerat consideratione verifica.</p>
+				<div>
+					<p><lb/>Rescriptiva. Scimus quod genitiva contemptus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>230.</head> <p>Potestas ad potestatem quod exhibeat iusticiam civibus suis ituris coram eo.
+				<lb/>Cum in querelis quorundam nostrorum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Querelis vestras aures aliquis vester civis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>231.</head> <p>Comune requirit alium comunem quod faciat iusticiam
+					<lb/>civi suo. In continue
+				<lb/>lamentacionis instancia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quoniam sepe audivisse recolimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>232.</head> <p>Procurator recommendat negocium
+					<lb/>illius qui constituit eum procuratorem. Hec verborum pupilla sed
+				<lb/>devotionis adulta.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ex verborum tuorum confectione pusilla collegi.</p>
+				</div>
+			</div>
+			<pb n="309"/>
+			<div>
+				<head><lb/>233.</head> <p>Ad quendam in potestatem electum quod admittat electionem suam.
+					<lb/>Si bitatum quarumlibet plenitudo vos inter ceteros
+				<lb/>regionis.</p>
+				<div>
+					<p><lb/>Rescriptiva quod admittit regimen. In omnium responsione que littera vestra
+					<lb/>continuit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>234.</head> <p>Super eodem. Ihesus gencium gratiosa provisio.</p>
+				<div>
+					<p><lb/>Responsiva quod admittit electionem de eo factam. Serviendi vobis habilis
+					<lb/>aptitudo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>235.</head> <p>Super eodem ad electum. Si distributrix imperantis nature gratia.</p>
+				<div>
+					<p><lb/>Rescriptiva quod admittit regimen. Quas misistis litteras manu iocunditatis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>236.</head> <p>Super eodem ad electum. Si meritorum omnium ubertate vos natura.</p>
+				<div>
+					<p><lb/>Rescriptiva quod admittit. Perpendi satis potest et evidenter.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>237.</head> <p>Super eodem. Cum ad motus cohercendos illicitos.</p>
+				<div>
+					<p><lb/>Rescriptiva quod non potest admittere. Cum nil hodie plus honoris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>238.</head> <p>Ad quendam in potestatem electum. Vestre probitatis experte laudisque.</p>
+				<div>
+					<p><lb/>Responsiva quod ire potest. Quanto magis placere decursis temporibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>239.</head> <p>Super eodem. Cum temporis nos hortaretur instancia.</p>
+				<div>
+					<p><lb/>Responsiva quod non potest venire. Dum in mente
+					<lb/>vestri regiminis electionem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>240.</head> <p>Super eodem ad electum. Meritis magnifici vestri nominis intellectis.</p>
+				<div>
+					<p><lb/>Responsiva quod non admittit quia receperat aliud regimen. Nuper vestrarum
+					<lb/>litterarum exsenium grandi manancium caritate.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>241.</head> <p>Deprecatoria pro auxilio et succursu militum et peditum habendo. Ex concepte
+				<lb/>de vobis assiduitate spei certitudinis.</p>
+				<div>
+					<p><lb/>Rescriptiva. Effectu vestra carere
+					<lb/>non debet opinio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>242.</head> <p>Super eodem. Tantum immoderate crevit et indomita.</p>
+				<div>
+					<p><lb/>Rescriptiva quod ibit.
+					<lb/>Tota cordis affectione zelantes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>243.</head> <p>Super eodem. Subministrante regula constantis vestre dilectionis.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva et consultiva quod licet maiores sint rebellibus suis, non aggravent
+						<lb/>eos, et quod ipsi sunt parati eis complacere. Factis famulantibus
+					<lb/>votis vestris.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>244.</head> <p>Devotus ad dominum quod visitet eum suis litteris et corrigat. Si vena fontis
+				<lb/>irrigui subditas irrigat.</p>
+				<div>
+					<p><lb/>Rescriptiva. Similitudinem vivi fontis uberius exuberantis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>245.</head> <p>Amicus ad amicum quod mittat sibi rem quandam quam cito remittet. Quamquam
+				<lb/>imaginaria sepe certitudinis habeatur opinio.</p>
+				<div>
+					<p><lb/>Rescriptiva quod mittere non potest. Rem non esse novitatis opinor.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>246.</head> <p>Quod precipiatur amico. In flores dulcis et amene fragrancia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si spes tua de mea dilectione concepta.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>247.</head> <p>Deprecatoria generalis. Licet sui spes prodiga sit interdum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Spem tuam pensare non debes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>248.</head> <p>Deprecatoria generalis. Spei de vestra dilectione concepte suggeritur.</p>
+				<div>
+					<p><lb/>Rescriptiva. In spei tue conceptione preces tuas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>249.</head> <p>Generalis. Non gerit ambiguum nostre considerationis integritas.</p>
+				<div>
+					<p><lb/>Rescriptiva. Vestra non debet dubitare dilectio.</p>
+				</div>
+			</div>
+			<pb n="310"/>
+			<div>
+				<head><lb/>250.</head> <p>Quod faciat iusticiam quibusdam petentibus eam. Ex B. nostri
+				<lb/>civis conquestione didicimus.</p>
+				<div>
+					<p><lb/>Rescriptiva quod iusticiam non sequetur quia ius non habet.
+					<lb/>Cum lingua non semper sit veri solubilis explicatrix.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>251.</head> <p>Recommendatio cuiusdam in iure suo. In vestris opinabamur nutibus.</p>
+				<div>
+					<p><lb/>Rescriptiva quod ius non habet. Si voluntates nostras pensabatis esse concordes.
+					<lb/>/*</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>252.</head> <p>Quod puniatur malefactor. Attentio debet sedula providi rectoris.</p>
+				<div>
+					<p><lb/>Rescriptiva. Nolentes quod tenax malefactorum enormitas.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>253.</head> <p>Potestas ad potestatem quod opponat se ne quidam suus civis molestet civem
+				<lb/>illius. Hucusque tanta credidimus comunia nostra.</p>
+				<div>
+					<p><lb/>Rescriptiva. Operum acceptandorum impendiis comunia nostra.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>254.</head> <p>Deprecatoria generalis. Cum penes illum spes non debeat.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si quodammodo simulacrum odiosum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>255.</head> <p>Generalis. De quo spes erigi firma potest.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum sit suspicio quasi suspicantis interitus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>256.</head> <p>Generalis. In absentis cui scribitur caritate.</p>
+				<div>
+					<p><lb/>Rescriptiva. Penes me certam potestis erigere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>257.</head> <p>Ad quendam quod promoveat negocium. Cum a vobis mea vita dependeat.</p>
+				<div>
+					<p><lb/>Rescriptiva. Sperare potes quod ad tua promovenda.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>258.</head> <p>Generalis. Ad obtinendam nostrarum precum exauditionem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Quam de me geritis vos potest.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>259.</head> <p>Deprecatoria ad nobilem. Considerata per vos mee devocionis instancia.</p>
+				<div>
+					<p><lb/>Rescriptiva. Si penes me gratiam in tuis precibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>260.</head> <p>Deprecatoria pro habenda aliqua gratia. Cum obligari desiderent ad retributionis
+				<lb/>impendium.</p>
+				<div>
+					<p><lb/>Rescriptiva. In porrigendis michi vestris precibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>261.</head> <p>Deprecatoria generalis. Nisi porrectas a dilectis preces liberalis admitteret.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Liberaliter admittende sunt preces ad amico.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>262.</head> <p>Generalis deprecatoria. Solet spes de dilecto concepta.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad omnia tua servicia requirere me potes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>263.</head> <p>Generalis deprecatoria. Sperans quod preces meas verborum.</p>
+				<div>
+					<p><lb/>Rescriptiva. Longis precamina tua sermonibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>264.</head> <p>Deprecatoria generalis. Timens ne de verborum prolixitate redarguar.</p>
+				<div>
+					<p><lb/>Rescriptiva. Timere non debes michi breviter explicare.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>265.</head> <p>Abbas maior ad Abbatem sibi subditum quod inquirat de vita quorundam
+					<lb/>monachorum suorum et quod eos corrigat. Cum illius instinctu qui religiosos.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Rescriptiva. Salutifera vestra mandata qua decuit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>266.</head> <p>Mittitur contra quendam ad dignitatem promotum quod non bene
+					<lb/>se gerit. Existimatione pensabamus assidua quod ad dignitatis apicem sublimatus honoris onus agnosceres, meditareris gratiam ab Omnipotente
+					<lb/>tibi sua pietate concessam, precepta sequereris illius, te cunctis benivolum redderes et acceptandis operibus gratiosum. Sed in cogitationum conceptione decipimur, cum velut refert uniformis assercio publica te dignitati
+					<lb/>reddas indignum, sensum voluntati subicias, verecundiam
+					<lb/>pravorum inhibitricem actuum bonorumque moderatricem in effrenatam
+					<pb n="311"/>
+					<lb/>lasciviam relaxata pudoris habena conculces, inter bonos et graves inebriatus illecebris honestari contempnas, malens ad infamie lapidem cespitare
+					<lb/>quam celebris fame floribus onustari. Dirigas igitur et diligas gressus
+					<lb/>tuos, celeris tibi remedium cessionis anticipes, et horrendum scandalum
+					<lb/>ex actibus tuis ortum instantia debite castigationis extinguas, ne
+				<lb/>buccis laceratus ex malorum continuatione malivolis efficiaris plebeia fabula, quam es orsus gratie nostre perpetim participatione privatus.</p>
+				<div>
+					<p><lb/>Rescriptiva quod bene se gerit. Alicuius relatione veritatis carente.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>267.</head> <p>Generalis deprecatoria. Incumbentis negocii qualitas qualis rogatus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Volens quod quanta sit mea fides.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>268.</head> <p>Amicus ad amicum quod procuret negocium quod sibi presens
+				<lb/>exponet. Occultari non debet amici negocium cum sibi manus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Ad amicum amici dextera debet extendi.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>269.</head> <p>Generalis deprecatoria ad dominum papam vel ad regem sive barones, mutata sanctitate in clemencia et in similibus. In prompte devocionis vestre memoria scimus hactenus non intervenisse.</p>
+				<div>
+					<p><lb/>Rescriptiva. Cum grata dum accepta servicia diligenter.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>270.</head> <p>Super eodem, et mitti potest ad barones mutatis quibusdam ut videbitur expediens dictatori. Si nos fide semper et expertis operibus.</p>
+				<div>
+					<p><lb/>Rescriptiva. Acceptabile nobis multum ingeritur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>271.</head> <p>Comune ad Comunem quod recipiat quendam potestatem
+					<lb/>quem vocavit, sed recipere non vult. Ex
+					<lb/>vestris actibus in illius animalis astucia.
+					<lb/>Quod libenter recipient quando poterunt, sed modo
+					<lb/>propter superiorem cui obedire coguntur non
+				<lb/>possunt. In pelagus contra votum iter navis.</p>
+			</div>
+			<div>
+				<head><lb/>272.</head> <p>Devotus ad promotum de quo gratulatur, et quod sibi precipiat. Ut stilus hic
+				<lb/>verborum prolixitatem.</p>
+				<div>
+					<p><lb/>Rescriptiva. Licet locorum distancia te nobis reddat absentem.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>273.</head> <p>Ad quendam quod satisfaciat de debito quod diu retinuit. Si precedentis petitionis iam diu facte per vos.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Responsiva. Non erubesco fateri quod non satisfaciendo vobis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>274.</head> <p>Ad quendam quod significet statum suum amico. Ab olim pro firmo tenuit
+				<lb/>scribentis intentio.</p>
+				<div>
+					<p><lb/>Responsiva. Firmiter potuit intentio tua tenere.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>275.</head> <p>Amicus ad amicum quod procuret cum parentibus cuiusdam mulieris quod
+					<lb/>habeat eam in uxorem postquam habere non potuit sororem suam que
+				<lb/>maritata est quam plurimum diligebat. Ut cogitatio mei cordis assidua.</p>
+				<div>
+					<p><lb/>Responsiva quod libenter loquetur. Fore credulum vestre pure dilectionis.
+						<lb/>Responsiva quod non consulit quod illam accipiat quia non est conveniens
+					<lb/>negotiis suis. Tendit ad capturam dilectionis lese tendiculam.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>276.</head> <p>Amicus ad amicum quod continuet negotium quod incepit. Cum non sit inchoare sufficiens.</p>
+				<div>
+					<p><lb/>Responsiva. Ne quod inchoatum est finis gratiose gesta desipiat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>277.</head> <p>Ad quendam quem reputabat ut patrem, ne molestet eum super quibusdam.
+				<lb/>Si me pungit gravis commotionis aculeus.</p>
+				<div>
+					<p><lb/>Responsiva. Faciliter aures quorumlibet dictis accommodans.</p>
+				</div>
+			</div>
+			<pb n="312"/>
+			<div>
+				<head><lb/>278.</head> <p>Consolatoria ad filium de morte patris. Mallem dominorum karissime silentium
+				<lb/>in hac celebrare scriptura.</p>
+				<div>
+					<p><lb/>Responsiva. Auditui meo litera tua non potuit renovare.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>279.</head> <p>Consolatoria. Cum regula sit et mortis et vite.</p>
+				<div>
+					<p><lb/>Responsiva quod conabitur consolari. Cum hoc quod vides regnum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>280.</head> <p>Consolatoria super morte filii. Velut interdum calores interdum et frigora.</p>
+				<div>
+					<p><lb/>Responsiva. Sicut difficile est iuxta sapientis oraculum multa gaudentem loqui.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>281.</head> <p>Super eadem. Votive sensibus meis adhesit.</p>
+				<div>
+					<p><lb/>Responsiva. Sicut ignis in vepres immissus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>282.</head> <p>Consolatoria super morte filii. Intellexi nuper insinuatione quorundam.</p>
+				<div>
+					<p><lb/>Responsiva. Nec puritatem fidei locorum intercapedo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>283.</head> <p>Consolatoria super morte filii. Hucusque penne suspensum fuit offitium.</p>
+				<div>
+					<p><lb/>Responsiva. Formata contra votum tua nuper venit epistola.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>284.</head> <p>Consolatoria super morte fratris. Rem non amabilem sed amaram.</p>
+				<div>
+					<p><lb/>Responsiva. Exhortationis vallata consiliis et consolatricis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>285.</head> <p>Consolatoria. In acerbitate casus adversii qui vos vestri filii pro dolor consolatione privavit.</p>
+				<div>
+					<p><lb/>Responsiva. Adversi casus acerbitas meos oculos.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>286.</head> <p>Consolatoria. Quod ad te lente pervenit mee compassionis epistola.</p>
+				<div>
+					<p><lb/>Responsiva. Non lente pervenit compassionis tue littera.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>287.</head> <p>Consolatoria. Dolentem reddisse me scias recentem tui doloris accessum.</p>
+				<div>
+					<p><lb/>Responsiva. Si meus recens dolor in obitu.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>288.</head> <p>Consolatoria. Audivi nuper et utinam conversus esset.</p>
+				<div>
+					<p><lb/>Responsiva. Mei filii mors crudelis et aspera.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>289.</head> <p>Consolatoria. In recentis turbationis auditu.</p>
+				<div>
+					<p><lb/>Responsiva. Dolorum emergentium dolabra.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>290.</head> <p>Recommendatio pro dilecto. Meritis memoranda sunt devotorum obsequia.</p>
+				<div>
+					<p><lb/>Responsiva. Ea nos arbitror affectione coniungi.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>291.</head> <p>Quod rogetur archidiaconus Bononiensis quod promoveat quendam ad cathedralem honorem. In illius petitionibus qui per honeste conversationis obsequium,
+					<lb/>et quod de sue commendabilibus etatis auspiciis plene colligitur,
+					<lb/>bonorum presagium futurorum se meritis gratum reddit, interdicere
+					<lb/>debet expressins favorabilior causa repulsam, ut si fecundum se grata
+					<lb/>gratie perceptione perspexerit, adiectione continua se gaudeat honestare virtutum. Cum igitur magister I. carnali michi sorte coniunctus iam
+					<lb/>in artibus taliter studii continuatione profecerit, quod cathedralem digne promeruerit honorem, dominationem vestram qua possum affectione
+					<lb/>deposco quatinus ipsum domino Bononiensi archidiacono commendantes
+				<lb/>rogetis eum expresse quod ipsum ad honorem promoveat cathedralem.</p>
+				<div>
+					<p><lb/>Responsiva. Scolasticum decus augeri conspicimus cum studio deditum scientie
+						<lb/>florere videmus. Per quam probatur probitas decorari, sed id et nobis acceptius cum preces eorum in suis honoribus exaudimus. Quocirca
+						<lb/>precamina vestra digno fulcienda favore suscepimus, et quoniam auditio
+						<lb/>dilecti consanguinei tui... que sub laude sui sue testis possesse scientie
+						<lb/>velut in sensus nostros assertio derivata refulsit, eum tamquam
+						<lb/>dignum vestri favoris auxilio Bononiensi archidiacono duximus commendandum,
+						<lb/>volentes quod sue scientie tuarumque precum intuitu debeat
+					<lb/>eum ad cathedralis honoris apicem promovere.</p>
+				</div>
+			</div>
+			<pb n="313"/>
+			<div>
+				<head><lb/>292.</head> <p>Recommendatio, et quod sibi mandetur. Cum in cunctis oblivio sit ancilla
+				<lb/>pigritie.</p>
+				<div>
+					<p><lb/>Responsiva. Quomodolibet pensare te nolumus quod in pectore.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>293.</head> <p>Invectiva contra quendam qui non scribit amico. Satis et ultra mirari cogor
+					<lb/>et subsequente causa moveri, quod recentis notitie surculus qui iam turgescere videbatur et in fragrantis dilectionis flores erumpere, velud arbor
+					<lb/>in eruptionis initio frigoris impetu trescam constringitur; verborumque
+					<lb/>fructus quos maturare prima fatie suspicabar ceu
+					<lb/>grossus a venti pulsu, si cum pace loquitur, conciderunt. Igitur que constricture vel casus causa paravit suspitioni materiam calamus lingue vicarius
+					<lb/>non avarus indicat, et frigoris impetum ventique
+					<lb/>pulsum prodige lingue virtus expellat, ut florescente surculo spes protrahatur
+				<lb/>ad fructus.</p>
+				<div>
+					<p><lb/>Responsiva. Ad fructus perceptionem debet secure spes protrahi.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>294.</head> <p>Petitur aliqua res. Quod in effectum porrecta precamina.</p>
+				<div>
+					<p><lb/>Responsiva. Cum pura non separetur loci remotione dilectio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>295.</head> <p>Recommendatoria pro dilecto. Si dilectorum servitia cum necessitas.</p>
+				<div>
+					<p><lb/>Responsiva. Similitudinem venti rapidi nebulam dantis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>296.</head> <p>Iterata deprecatoria pro terminando quodam negotio. Satis et ultra litteras
+				<lb/>missas vobis.</p>
+				<div>
+					<p><lb/>Responsiva. Si non semper cum preces privantur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>297.</head> <p>Rogat amicus amicum quod non molestet eum ratione cuiusdam edifitii. Quantum providum et discretum virum F.</p>
+				<div>
+					<p><lb/>Responsiva. Cum de uno semper ad alium servitiorum.
+						<lb/>Responsiva quod non admittit preces suas quia non potest. Precum vestrarum
+					<lb/>onerosa transmissio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>298.</head> <p>Potestas ad potestatem quod expediat quendam suum civem in iure suo. Precamina
+				<lb/>nostra vobis pro... nostro cive karissimo plura.</p>
+				<div>
+					<p><lb/>Responsiva. Pluries plura precamina sub iusticie credulitate.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>299.</head> <p>Nobilis ad baronem quem iam pluries rogavit quod faciat satis sibi de quadam
+					<lb/>perdita quam passus est in suo. Quod... noster ad memoriam vestram
+				<lb/>reduceretur.</p>
+				<div>
+					<p><lb/>Responsiva. Si non est implicitas plurium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>300.</head> <p>Devotus ad dominum quod sibi consulat super quodam negotio super quo
+				<lb/>non vult respondere nec secundum suum consilium. Dum immensa vestre paternitatis benignitas.</p>
+				<div>
+					<p><lb/>Responsiva. Si voluntatem nostram quam semper ad beneplacita.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>301.</head> <p>Generalis deprecatoria. Ut brevibus utar elloquiis.</p>
+				<div>
+					<p><lb/>Responsiva. In tue flagitationis effectu defectum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>302.</head> <p>Iterata deprecatio pro expeditione negotii. Si spes concepta sperantem interdum.</p>
+				<div>
+					<p><lb/>Responsiva. Cum impotentia satisfactionis emula spem offendat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>303.</head> <p>Ad amicum novum quod precipiat amico novo. Cum nove dilectionis adeptio
+				<lb/>seu primitiva notitia.</p>
+				<div>
+					<p><lb/>Responsiva. Putatur esse velud absque cultura.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>304.</head> <p>Ad amicum quod statum suum amico significet cum pigritaverit intimare.
+				<lb/>Si secundum phylosophum amicitia est benivolentia.</p>
+				<div>
+					<p><lb/>Responsiva. Si sensibus tuis amicitie diffinitio.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>305.</head> <p>Generalis deprecatoria. Res petita repetitur.</p>
+				<div>
+					<p><lb/>Responsiva. Ex promissione procedens res.</p>
+				</div>
+			</div>
+			<pb n="314"/>
+			<div>
+				<head><lb/>306.</head> <p>Quod amico mandetur. Cum ancilla pigritie censeatur oblivio.</p>
+				<div>
+					<p><lb/>Responsiva. Te velud intimum diligo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>307.</head> <p>Petit amicus ab amico aliquam rem. Cum quantumlibet fervens fuerit.</p>
+				<div>
+					<p><lb/>Responsiva quod mittet. Petitionem tuam a te primo porrectam.
+						<lb/>Responsiva quod non potest mittere quoniam alius petiit et habet. Licet verborum
+					<lb/>pupilla sed dilectionis adulta.</p>
+				</div>
+				<div>
+					<p><lb/>Responsiva quod non potest dare quia fecit eam operari. Voluntati vellem potentiam posse.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>308.</head> <p>Potestas Bononiensis ad ducem vel baronem vel potestatem quod restituat
+					<lb/>pannos quos sequestrari fecit mercatorum suorum. Temporibus nostris
+				<lb/>repertum esse recolimus.</p>
+				<div>
+					<p><lb/>Responsiva. Licet ad plura posita sed potius exposita.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>309.</head> <p>Iterata deprecatoria. Ut celerius assequatur deprecatio rememorata.</p>
+				<div>
+					<p><lb/>Responsiva. Quod nequivere consequi prima.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>310.</head> <p>Generalis deprecatoria. Si dilectionis antique constantiam.
+				<lb/>Volentes quod dilectionis nostre cithera.</p>
+			</div>
+			<div>
+				<head><lb/>311.</head> <p>Ad amicum quod aliquid solatii causa scribat. Utinam non prorupissem nimis
+				<lb/>audax.</p>
+				<div>
+					<p><lb/>Responsiva. Intervenit causa si suspensum fuit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>312.</head> <p>Deprecatoria pro dilecto. Si virentis vitis ad loca remota palmes.</p>
+				<div>
+					<p><lb/>Responsiva. Nostram curiam P. dilectus vester advenit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>313.</head> <p>Tacita petitio et recordatio. Penna silet nec petitionis exercet officium.</p>
+				<div>
+					<p><lb/>Responsiva. Exercuit renovate petitionis officium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>314.</head> <p>Invectiva contra quendam qui dilecto non significat statum suum. Que dictis
+					<lb/>aut operibus in offenso reperiatur offensa, notus notet offensor, ne moratus
+					<lb/>in sui memoratione causam more causetur, postmodum
+					<lb/>ab omnis opinionis onere liberandus; etsi scribens gratus impers
+					<lb/>offense nullum ingratitudinis vitium redolet. Quid dolenti mora ministret, minister artis artemone directo ministerii veri non vereatur advertere, scribentisque spiritum in admirationis exilio peregrinum reducat
+				<lb/>ad portum desiderate quietis.</p>
+				<div>
+					<p><lb/>Responsiva. Te si mora non declinat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>315.</head> <p>Falleret in occulis meis litterarum vestrarum.</p>
+				<div>
+					<p><lb/>Responsiva. In vestitu deaurato circumamicta.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>316.</head> <p>Archidiaconus Bononiensis ad quendam magistrum quod veniat lecturus Bononiam. Ridet in auribus nostris acceptabilis fame vestre preconium,
+					<lb/>cum in vobis experte scientie spiritum divina maiestas infuderit et ad
+					<lb/>largiendas gratas doctrine divitias vos in gentibus fecerit copiosum. Igitur
+					<lb/>cum scientiam vestram Bononiensi studio tam necessariam quam utilem
+					<lb/>esse sciatis, nos ad quos spectat previsionis huius attentio vos
+					<lb/>quanto possumus deprecamur affectu quatenus ad nostrum studium sine
+					<lb/>contradictionis obstaculo vos transferre curetis, et sic presentium series
+					<lb/>occulos vestre susceptionis accipiat, quod amor patrie preces nostras locupletet exauditionis eventu, quodque vestris honoribus effectualiter intendere
+				<lb/>teneamur.</p>
+				<div>
+					<p><lb/>Responsiva quod veniet. Ut votis vestris et aliorum gratus ingererer, michi
+						<lb/>vellem prosperam arridere fortunam. Sed cum gratiarum omnium dispensator non eque viventibus fata dispenset, hunc scientie dono letificans,
+						<lb/>illum circumdans inscitie tenebris, hunc locupletans uberose
+						<pb n="315"/>
+						<lb/>divitiis, illum deprimens paupertate, non sum quem scientie largitate glorificet ac intellectus necessarii locupletatione bearit. Verum cum inter
+						<lb/>ceteros mei cordis affectus hunc principaliorem existimem, quod valeam
+					<lb/>actus meos vestris beneplacitis conformare, sciatis in hiis que littera vestra continuit me vobis hylariter venire paratum.</p>
+				</div>
+				<div>
+					<p><lb/>Responsiva quod venire non potest. Quod inter cetera desideria mea gestivi
+						<lb/>corde diutius ut facerem grata vobis et actiones meas vestra cognosceret gratitudo. Sed quicquid sedula nutritura confovit, nunc
+						<lb/>impotentia prepedit, ut sit mestitia gravior que contra vota querentium ex
+						<lb/>ipsius desiderii participatione descendit. Meam equidem insuffitientiam ad vestrum invitastis obsequium, quod ceu suffitiens vernula vestris nutibus assentirem.
+						<lb/>Sed est inter impotentiam et desiderium orta conquestio satisque
+						<lb/>per impotentiam, revolvendo discussum, nec qualitercumque via
+						<lb/>servitii patuit implicitate multorum. Et licet impotentie legittima siquidem excusationis data sit actio, desiderium actione non tollitur, sed ipsius
+						<lb/>prorogatur effectus; ut quod presentialiter odiosa voluntatis vanitas
+						<lb/>inhibet, comunium votorum desiderata perfectio resumpta comoditate
+					<lb/>restauret.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>317.</head> <p>Recommendatio cuiusdam ellecti in potestatem. Acceptabilium operum nobilis
+				<lb/>et prudentis viri.</p>
+				<div>
+					<p><lb/>Responsiva quod recommendatum habebit. Diu fertili decoratione
+					<lb/>virtutum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>318.</head> <p>Super eodem pro recommendatione nobilis. In memoriam acceptabilem veniunt
+				<lb/>collata.</p>
+				<div>
+					<p><lb/>Responsiva. Ad prosequenda vota vestra.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>319.</head> <p>Iterata deprecatoria. Tertia domino missatica mittitur.</p>
+				<div>
+					<p><lb/>Responsiva. Litteram tuam primam cordis affectione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>320.</head> <p>Quarta deprecatoria. Quarta sororcula mittitur precedentium.</p>
+				<div>
+					<p><lb/>Responsiva. In memoriam antecedentium precum.
+					<lb/>Responsiva. Precum adiectio commemorata priorum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>321.</head> <p>Comune ad Comune quod recipiat quendam quem potestatem ellegit. Cum
+				<lb/>iuxta sapientem quod ante occulos.</p>
+				<div>
+					<p><lb/>Responsiva. Promissa verificare sepe nequid effectum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>322.</head> <p>Filius ad patrem quod sibi subveniat. Inter angulos desolationis angustor.</p>
+				<div>
+					<p><lb/>Responsiva. In patris et filii copula.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>323.</head> <p>Ad patrem pro subventione. Si pia crucifixi compassio.</p>
+				<div>
+					<p><lb/>Responsiva. Quoniam personarum diversa condictio conceptis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>324.</head> <p>Deprecatoria. Hortatur me credere lucidis dudum.</p>
+				<div>
+					<p><lb/>Responsiva. Ex celebris tue devotionis inditiis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>325.</head> <p>Deprecatoria. Dum paternitatis vestre clementiam in libra debite considerationis appendo, dum benefitia gratiosa recenseo, quibus nedum vobis obnoxios
+					<lb/>verum et extraneos ad vestrum obsequium invitatis, dum subiectionis
+					<lb/>mee reor instantiam qua pedibus vestre paternitatis
+					<lb/>obvolvor, si cum reverentia dici licet, promere provocor de spe concepta
+					<lb/>lamentum, cum a principio meus intellectus quadam verborum vestrorum
+					<lb/>illatione conceperit, ut existens in studio, quod scientie thesauro ditarer
+					<lb/>et moribus gloria patris efficerer, oblivionis incommoda non sentirem. Sed
+					<lb/>spes concepta sui plerumque prodiga cecidit et in opinionem quam
+					<lb/>effectu carere non credidi suis viribus vacuata languescit: cum postquam
+					<pb n="316"/>
+					<lb/>ad studium sub spe vestra me transtuli, mee memorie nuntius ad vestre provisionis hostium non pulsarit. De quo tanto vehementius causam admirationis
+					<lb/>assumo, quanto pre ceteris huius mundi securius in paternitatis
+					<lb/>vestre gremio mea fidutia requiescit. Igitur vestram renovate memoriam, solventes necessaria subventione promissum, ut si spes mea sumpta
+				<lb/>de vobis elangueat, vestre subventionis anthidoto liberetur, et quod incepi studium possim terminare decenter.</p>
+				<div>
+					<p><lb/>Responsiva. Ad ruborem nobis quomodolibet non accedit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>326.</head> <p>Archipresbiter ad capellanum suum quod provideat sibi in redditibus suis. Si
+				<lb/>vestra nomina libraretis in debite considerationis.</p>
+				<div>
+					<p><lb/>Responsiva quod non possunt mittere, sed libenter mittent cum poterunt.
+					<lb/>Cum voluntas impotentia prepeditur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>327.</head> <p>Invectiva contra quendam qui non respondit amico per litteras pluries requisitus. Cogito quod multiplicatarum precum hucusque suspendistis effectum,
+					<lb/>ut forte suspensio gratior haberetur. Quod placet et
+					<lb/>michi, quoniam res optata gratior esse solet. Verum cum huiusmodi gratitudini sufficere possit tempus elapsum, cumque concepta spes langueat
+					<lb/>morose suspensionis occursu, quoniam est expectare species quasi mortis
+					<lb/>amare, litteras vestras michi destinare velitis, ut cum illas plus quam
+					<lb/>satis optaverim, meum reficiant animum famescentem.
+					<lb/>Si tamen in arato litore porrecte preces esuriunt et hucusque
+					<lb/>me laterem abluisse contigerit, iterato precibus preces non indignatus
+					<lb/>effundo, quoniam percussa crebro saxa cavantur aquis, ut solicitationis
+					<lb/>interne filiola cor patris obstinatum in lapidem frequentationis aqua
+					<lb/>mollificet, ut per exauditionis vestre ianuam introducta postulatam sepius
+				<lb/>patris gratiam assequatur.</p>
+				<div>
+					<p><lb/>Responsiva. Non sunt hucusque suspensa precamina.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>328.</head> <p>Comune ad Comune quod fatiat restitui res ablatas civibus suis. Ex frequentibus vestrorum civium actibus.</p>
+				<div>
+					<p><lb/>Responsiva. Licet in iniuriis unius dumtaxat.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>329.</head> <p>Super eodem. Si non difficulter in kalendario memorie.</p>
+				<div>
+					<p><lb/>Responsiva. In littere vestre mordentis assumptione.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>330.</head> <p>Deprecatoria generalis. Ut accedat ad retributionem servitii.</p>
+				<div>
+					<p><lb/>Responsiva. Ut accedat ad gratitudinis premium.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>331.</head> <p>Generalis. Ut subsequatur avidius gratiarum grata relatio.</p>
+				<div>
+					<p><lb/>Responsiva. Ad effectum petitionem tuam plenis affectibus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>332.</head> <p>Generalis. Pure dilectionis impendiis quam ad vos.</p>
+				<div>
+					<p><lb/>Responsiva. Acceptabile gerimus est et nostris desideriis optativum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>333.</head> <p>Petunt devoti a domino aliquid, et potest intelligi ad prelatos et barones et
+				<lb/>dominos. Suggerente regula nostre devotionis inducimur.</p>
+				<div>
+					<p><lb/>Responsiva. Continue devotionis insignia multeque fidelitatis experimenta.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>334.</head> <p>Comune ad Comune quod ordinet datium vel pedagium non auferri. Sicut per
+				<lb/>librantes adequanda sunt pondera.</p>
+				<div>
+					<p><lb/>Responsiva. Nostros actus vestris nutibus conformare volentes.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>335.</head> <p>Quidam ad patruum quod visitet eum litteris, excusans se quod intravit ordinem fratrum et postea exivit ante menses habita licentia exeundi, dicens
+					<lb/>quod deceptus fuit suggestione quorundam. In admirationis digne
+				<lb/>labor exilium.</p>
+				<div>
+					<p><lb/>Responsiva. Cum in illo magna creditur esse perfectio.</p>
+				</div>
+			</div>
+			<pb n="317"/>
+			<div>
+				<head><lb/>336.</head> <p>Ad quendam dominum quod continuet officium erga sibi dilectum et subveniat
+				<lb/>ei. Quoniam admirari devotus filius in patris oblivione tenetur.</p>
+				<div>
+					<p><lb/>Responsiva. Dilativi temporis intervalla tuis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>337.</head> <p>Devotus ad dominum qui sibi providere promisit in studio. Dum pii patris
+					<lb/>verba primaria que fidelia fidelis vestri cura gerebat accurate considero, de
+					<lb/>vobis velud de precipuo patre sperare confortor. Sed dum extrinseca facta successive recenseo, censeor desperare; dum quam diutius primitive conceptionis
+					<lb/>verborum patris refectione nutrivi, mea fragilitas in quantum
+					<lb/>posse permittit spiritu devotionis accendit, alluvio iuste turbationis immergor. Perrexi quidem votivus ad studium ut promissis provisionis vestre
+					<lb/>suffragiis efficerer studiosus, optate scientie thesauro ditescerem et
+					<lb/>velud gratus vernula studii morum laudabilium disciplina vernarem. Sed quantum exulavit a portu spes fragilis, ad mentem, si scribi licet, consideratio paterna reducat. Quocirca paternitatem vestram vestris pedibus
+					<lb/>obvolutus exoro, quatenus liberalitatem provisionis vestre reducentes ad mentem spero quam in temporis continuatione nutrivi locupletare dignemini necessarie subventionis occursu, ne spes quicquam in temporis compensatione perdidisse queratur, sed liberalitatis adipem suscepisse letetur.
+				<lb/>/*</p>
+				<div>
+					<p><lb/>Responsiva. Precedentibus nostris inductibus ad studium te perexisse fatemur.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>338.</head> <p>Comune ad Comune quod continuet honorem factum cuidam civi suo quem
+				<lb/>elegerunt in potestatem. Si quos tenemur coniunctos nobis ex cordis affectione diligere.</p>
+				<div>
+					<p><lb/>Responsiva quod libenter facient cum poterunt. Litteras vestras repletas admiratione suscepimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>339.</head> <p>Deprecatoria ad dominum papam. Posset in superfluum nove notificationis
+				<lb/>exponi.</p>
+				<div>
+					<p><lb/>Responsiva. Acceptandorum vestrorum operum evidentia.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>340.</head> <p>Generalis deprecatoria. Ad zelantes conservare dilectionis affectum.</p>
+				<div>
+					<p><lb/>Responsiva. Quem ad vos gero puri cordis affectum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>341.</head> <p>Corrigit frater fratrem qui male facit facta sua dum studere deberet. Studuisti
+					<lb/>tuorum actuum codicem hactenus infamie rubricare tinctura, que non
+					<lb/>dulcoris at amaroris animo meo calicem propinavit ac rapuit dolorum ingentium violentia sensus meos, cum nil karissime frater tibi sit nubili
+					<lb/>quod meum animum non obumbret. Quare te deprecor quatenus preterita
+				<lb/>sic futurorum operibus mundificare procures, quod bona fama subsequens expellat infamiam que tuum nomen et meum animum nubilavit.</p>
+				<div>
+					<p><lb/>Responsiva. Velud hominum usibus tempora sunt qualitatum varietate distincta, videlicet ut prius brumalis algor semina commendata novalibus
+						<lb/>occulat, deinde veris clementia multiplices germinum fetus mundum parturire compellat, mox estivum cauma segetes torreat, postremo pluvialis autumpnus
+						<lb/>et palmitibus uvas et arboribus turgentia poma decerpat, sic indiscreta
+						<lb/>varietate varie sunt voluntates in iuvene. Nam quod hodie iuvenili motui suggerit immodesta iuventus, cras bene dispositus abiicit appetitus. Nec
+						<lb/>hoc sensatorum sensibus fertur ambiguum quin gustui sit immaturus fructus insipidus qui fit postmodum temporanea maturitate saporus, et quod infantiam pueritia, pueritiam autem adolescentia discretionis capax expellit.
+						<lb/>Scis enim o karissime frater quod iuvenilis indiscreta simplicitas correctionis
+						<lb/>et correptionis impatiens moribus abnuit et scientie titulo decorari.
+						<lb/>Et ego iuvenis et immaturus etate correctiones et monita puer velud iuvencus
+						<pb n="318"/>
+						<lb/>indomitus iuga contempsi. Verum cum adolescentia pueritie mee
+						<lb/>motus extinxerit et imperfectionis non indiscreta cognitio, que censura prudentium perfectio magna censetur, me fecerit novis actibus alium,
+						<lb/>preteritos volo dolores gaudiorum abiicere novitate, quia videlicet sum
+						<lb/>in filium novi germinis transmutatus et bene mente compositus. Delector honestis et turpia perhorresco, sicque tincturam infamie meorum actuum codicem inquinantem novacula desiderate novitatis abradet, quod tibi cedet
+						<lb/>ad gloriam, et id nubili quod tuum obnubilaverat animum nove lucis
+					<lb/>letitia serenabit.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>342.</head> <p>Amicus ad amicum nomine Symonem dicens quod non vult sibi misisse quandam licteram quam sibi misit, timens ne offenderet eum, quam solatii
+				<lb/>causa misit ut mitteret. Ad nature portum per consuetudinis inveterate navigium.</p>
+				<div>
+					<p><lb/>Responsiva. Sicut non est a natura concessum quod statim traditum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>343.</head> <p>Magister ad discipulum qui recessit secrete quodam mane et precedenti sero
+					<lb/>sibi nichil dixit. Si quam ad te gessi pura cordis affectio per te fuisset in trutina debite considerationis appensa, revera memorie debitum persolvisses,
+					<lb/>et si quod vetuit mane secretum antecedens crepusculum propalasset,
+					<lb/>nichil proposito deperisset. Verum voluisse te video familiaritatem
+					<lb/>tuam parturisse contemptum, ne quicquam in te vulgaris assertio perdidisse queratur. Quare quid conferat hec verborum attenuata confectio,
+					<lb/>sane tuus colligat intellectus, et attente consideret quod non minor est
+				<lb/>virtus quam querere parta tueri: casus inest illic, hic erit artis opus.</p>
+				<div>
+					<p><lb/>Responsiva quod parcat quoniam habuit multa facere, et quod visitet eum
+						<lb/>licteris. Cum lentos provisores utilium iuvenum intellectus plurium implicitas occupet, ne possit animum ad debita cuncta formare, cum et minuatur etiam sapientum diversificata memoria ne que sunt agenda semper
+						<lb/>concludat, in actu cogitatuum institis obvolutus ob absentationem que
+						<lb/>sunt digna memorie particulariter obsorbentem, penes vos mereor excusari.
+						<lb/>Sed procinctus ad iter benedictionis vestre gratiam non petivi. Verum
+						<lb/>quia superiorum auctoritas passibiles devotorum anichilare debet offensas, metuende dominationi vestre cum reverentia supplico quatenus indulgentes
+						<lb/>velud vestrum magisterium deceat iuventuti me vestrum semper correctionis litteris visitetis, quod super omnia desideria gratius acceptabo, tota
+						<lb/>mente considerans quod res acquiritur citius quam parta postea deffendatur.
+					<lb/>/*</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>344.</head> <p>Offert se quidam ad servitium cuiusdam cuius fama bona est de qua gratulatur
+				<lb/>secum. Vobis in vestri status celebri relatione congratulor.</p>
+				<div>
+					<p><lb/>Responsiva. Cum qui diligit circa dilectionis pure fomentum.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>345.</head> <p>Quidam amico significat quod postulatus est in prelatum unius ecclesie et quod
+				<lb/>intendet honoribus suis. Ut suscipias ex nostra promotione letitiam.</p>
+				<div>
+					<p><lb/>Responsiva gratulationis et recommendationis. Illuminavit glorie lumine cor scribentis.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>346.</head> <p>Devotus ad dominum quod rem aliquam sibi mittat. Dominus ex quadam fidei conceptione requiritur.</p>
+				<div>
+					<p><lb/>Responsiva. Ut sperato non priveris affectu.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>347.</head> <p>Supplicat devotus domino quod sibi indulgeat studere per triennium in iure
+					<lb/>canonico et percipere valeat redditus suos. Cum scriptum sit: Posside sapientiam quoniam auro melior est, et acquire prudentiam quia melior est
+					<lb/>argento, precipue debet assumptus militie clericali diligenter intendere
+					<pb n="319"/>
+					<lb/>quod sapientie valeat divitias adipisci. Quare cum nondum imposuerim
+					<lb/>studio meo finem, sed gratie vestre rore conspersus hinc ad triennium
+					<lb/>in iure canonico prestita michi vita studere proponam, paternitati vestre supplico reverenter quatenus ut meum comendandum initium speratum sortiatur effectum, indulgere michi dignemini, quod hinc ad triennium
+					<lb/>insistens huiusmodi studio fructus et proventus ecclesie mee sine diminutione percipere valeam et habere.
+					<lb/>Indulgentia. Letatur in auribus nostris tua nobis porrecta petitio sustentanda
+					<lb/>favore, dum ad scientie decus aspirare te nobis insinuat et ad divitias discipline sponte dispositum tuum errigit intellectum. Quocirca tuis supplicationibus inclinati, ut in canonico iure per triennium studere valeas
+					<lb/>et in eodem studio residens benefitiorum tuorum fructus per dictum
+					<lb/>tempus absque diminutione percipere valeas et habere, sic tamen quod
+					<lb/>divina benefitia divinis non fraudentur obsequiis, consuetudine
+					<lb/>seu statuto contra riis nequaquam obstantibus, tibi tenore presentium
+				<lb/>auctoritate qua fungimur de speciali gratia duximus indulgendum.</p>
+			</div>
+			<div>
+				<head><lb/>348.</head> <p>Ad quendam qui servit omnibus nominantibus amicum suum licet non rogatus.
+				<lb/>Ob innumerabilium servitiorum impendia.</p>
+				<div>
+					<p><lb/>Responsiva. Si tibi vel amicis tuis aliquo modo.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>349.</head> <p>Ad quendam qui plene non respondit amico super aliquo sicut credebat. Manu
+				<lb/>leta recepi quam transmisisti nuper epistolam.</p>
+				<div>
+					<p><lb/>Responsiva. Ambiguitatis tue desiderans enucleare medullam.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>350.</head> <p>Scribunt amici amicis quod quidam rumor qui fuit in terra sua sopitus est,
+					<lb/>sed rogant quod sint preparati quotiens expedierit armis et equis. Rumoribus
+				<lb/>ad quos nonnullos cives nostros inimicus.</p>
+				<div>
+					<p><lb/>Responsiva. Quas misistis litteras letanter assumpsimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>351.</head> <p>Capitulum supplicat domino pape quod confirmare dignetur ellectionem quam
+					<lb/>de suo prelato fecit sicut videre poterit evidenter, et mitti poterit ad archiepiscopum et ad legatum de provincia. Ex nostro pastore scientes
+				<lb/>quo nos nuper.</p>
+				<div>
+					<p><lb/>Responsiva. Conscientie nostre satisfacere credimus.</p>
+				</div>
+			</div>
+			<div>
+				<head><lb/>352.</head> <p>Prima deprecatoria pro dilecto. Pro nobili viro domino... precamina nostra. Responsiva. Nec de dilecto spe vacua redit opinio. des. verebitur correctionis
+				<lb/>obiectu.</p>
+			</div>
+			<div>
+				<head><lb/>353.</head> <p>Quomodo penitentiarius domini pape vel alterius prelati potest committere
+					<lb/>alicui clerico quod absolvat aliquem laycum vel clericum qui manum
+					<lb/>in clericum iniecerit violentam. Frater... penitentiarius domini pape
+				<lb/>religioso viro... salutem in domino. De discretione vestra plenam in domino fidutiam obtinentes des. Cum ipso Misericorditer dispensetis.</p>
+			</div>
+			<div>
+				<head><lb/>354.</head> <p>Quomodo ellectus in episcopum primo scribit capitulo suo illos ortans
+				<lb/>ad bonum, et suos se parat ad iter. Cum provisum sit divini dispositione iuditii.</p>
+			</div>
+			<div>
+				<head><lb/>355.</head> <p>Quomodo ellectus primo scribit metropolitano suo se sibi recommendans. Dum onerosum onus ecclesie... ad quod suscipiendum. des. que fuerint evitanda postponam.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

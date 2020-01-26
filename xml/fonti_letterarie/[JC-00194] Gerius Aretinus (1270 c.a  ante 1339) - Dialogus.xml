@@ -1,0 +1,298 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Dialogus</title>
+				<author>Gerius Aretinus (1270 c.a - ante 1339)</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>C. Cenni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EBr">Elisa Brunoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="1268" unit="words">Parole: 1268</measure>
+				<measure quantity="7337" unit="characters_without_spaces">Caratteri (spazi esclusi): 7337</measure>
+				<measure quantity="8443" unit="characters_witht_spaces">Caratteri (spazi inclusi): 8443</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2012-08-01">01/08/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Filosofia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 1380&#13;
+Caratteri: 7367&#13;
+Note: Il volume fa parte della collana
+					                    «Scrittori latini dell’Europa medievale», a cura di F. Stella. Si riproduce dal
+					                    volume indicato il Dialogo a Francesco da Barberino (Ms. Roma Biblioteca Corsiniana 33, E 27, ff.
+					                    98v-102r). &#13;
+Le porzioni di testo in corsivo corrispondono a citazioni di brani letterari
+				                    &#13;
+E.B.&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">«Geri d’Arezzo Lettere e Dialogo d’Amore». Introduzione, traduzione e testo critico di C. Cenni con la collaborazione di P. Stoppacci</title>
+						<editor>C. Cenni</editor>
+						<editor>P. Stoppacci</editor>
+						<imprint>
+							<publisher>Pacini</publisher>
+							<pubPlace>Pisa</pubPlace>
+							<date>2009</date>
+							<biblScope unit="page">104-116</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Filosofia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EBr">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">- tralasciato. C'è un altro problema con la struttura. C'è la numerazione 1-13: la maggior parte sono capitoli, ma i numeri 8, 9 e 10 sono in mezzo ad un paragrafo, in mezzo alle righe e dividono solo le frasi. È un problema simile a quello in 190 - problema 2. Usare i &lt;div&gt; senza &lt;head&gt;, oppure non usare i &lt;div&gt;, ma solo i &lt;p&gt;?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<pb n="104"/>
+			<lb/><p>1. Domino Francisco de Barbarino, iuris civilis professori.</p>
+			<lb/><p>Amor. Ecce mihi quesitus occurris Geri, angulariter, importune, cupide,
+			<lb/>fatigatus iam, si non alarum remigio pretervolassem.</p>
+			<lb/><p>Gerius. Tu me?</p>
+			<lb/><p>A. Te, si Gerius es.</p>
+			<lb/><p>G. Ita dicunt. Sic mihi a sacris aquis nomen advenit, sed si magne
+			<lb/>prudentie virum queris, ut personas, alias tibi exquirendus est Gerius.</p>
+			<lb/><p>A. Ludis?</p>
+			<lb/><p>G. Ut?</p>
+			<lb/><p>2. A. Novi te etiam cum tener in cunis vagiens lactisugis labiolis ubera
+				<lb/>pressabas. Novi et cum verba ligatis implicitisque sonis immurmurans
+				<lb/>moliebaris, novi te grandiusculum, novi adultum et te nunc etatis iam
+			<lb/>declina formidantem.</p>
+			<lb/><p>G. Quorsum hec? Que tibi nomina? Nostrine generis advolas? Nam vox
+				<lb/>hominem profecto non sonat et oppanse tibi ale cum faretris et que tu,
+				<lb/>equi sessor infrenis, lumina velo quodam obnubes, te ab humani habitus
+				<lb/>gestu discriminant. Tune ille fortassis, de quo clarissimus omnium
+				<lb/>poeta sic cecinit:
+				<lg>
+					<l><hi rend="italic">improbe Amor, quid non mortalia pectora cogis?</hi></l>
+                                </lg>
+                                <lb/>et idem:
+                                <hi rend="italic"><lg>
+					<l>nec lacrimis crudelis Amor nec gramina rivis,</l>
+					<l>nec cithiso saturantur apes, nec fronde capelle?</l>
+                                </lg></hi>
+				<pb n="106"/>
+				<lb/>et idem:
+				<lg>
+					<l><hi rend="italic">omnia vincit Amor et nos cedamus Amori</hi></l>
+				</lg>
+				<lb/>itemque:
+				<hi rend="italic"><lg>
+					<l>et tu et quisquis amores</l>
+					<l>aut metuet dulces aut experietur amaros?</l>
+                                </lg></hi>
+			</p>
+			<lb/><p>3. A. Bene tibi notus esse iam debui, sed dum dissimulans in nostra castra,
+				<lb/>tranfuga, redire contemnis, palluisti video, luridus factus et buxei
+				<lb/>quasi pallore, non aliter quam nigrum pressit qui calcibus anguem,
+				<lb/>improvisum aprisque sentibus obvolutum latentemque. Unde tremor?
+				<lb/>Unde tibi tanta cordis gelida? Nec quod verearis, nec quod de sagittis
+				<lb/>meis queraris, iuste sunt tibi cause. Tu opera nostra perquiris, sectaris,
+				<lb/>diligis, colis; oloricanos poetas nostros amplecteris et nostrum nuper
+			<lb/>videris tremebundus formidare aspectum?</p>
+			<lb/><p>G. Quid mirum, omnium potentissime, formidatissime? Ego et te dulcem
+			<lb/>timui et pluries sum expertus amarum.</p>
+			<lb/><p>A. Exciditne tibi adhuc illud:
+				<lg>
+					<l><hi rend="italic">et tu et quisquis amores?</hi></l>
+				</lg>
+			</p>
+			<lb/><p>G. Memini itaque esse fateri habeo, iam expertus et in presentiarum conferens
+			<lb/>tecum, agnosco vestigia flamme.</p>
+			<lb/><p>A. Agnoscis?</p>
+			<lb/><p>G. Agnosco.</p>
+			<lb/><p>A. Cave ne novas.</p>
+			<lb/><p>G. O utinam! Nam ah quanto tuum descendit vulnus hiatu!</p>
+			<lb/><p>A. Nullane tibi sunt arma?</p>
+			<lb/><p>4. G. Hercle, nulla, vel nulla, iam etate fluentia. Dum etenim iam emeritus
+				<lb/>miles inter veteranos tuos esse arbitrarer, ociabundus a bellorum
+				<lb/>tuorum sudoribus immunis et tu me iterum in pugnas tuas ut tironem
+				<lb/>evocas revocasque improvidum inermem; quibus impar, libenter ad postes
+				<pb n="108"/>
+				<lb/>tuos arma deponerem ut ludificabundus, non ut hactenus viridis
+				<lb/>illudar. Iam mihi temporibus albicans capillus irrepsit; abiit vigor;
+				<lb/><hi rend="italic">omnia fert etas, animum quoque; sepe ego longos</hi>
+				<lb/>cantando puerum memini me condere soles:
+				<lg>
+					<l>multa ferunt anni venientes commoda secum,</l>
+					<l><hi rend="italic">multa recedentes adimunt</hi>:</l>
+				</lg>
+				<lb/>lasciva decentiori etas me relinquit; lusus tui florentes etatem decent,
+			<lb/>maturatos indecet. Indulgendum est teneris: ludi implevere medullas.</p>
+			<lb/><p>A. Deliras, an pudet?</p>
+			<lb/><p>G. Pudet quidem.</p>
+			<lb/><p>A. Cur?</p>
+			<lb/><p>G. Ingrederis blande; deinde
+				<lb/><hi rend="italic">stimulis agis fruentes
+				<lb/>apiumque par volantum</hi>
+				<lb/>ut de Severini versibus sumam:
+				<lb/><hi rend="italic">ubi grata mella fundis
+				<lb/>fugis et nimis tenaci
+				<lb/>feris icta corda morsu</hi>
+			<lb/>delectas primordio, subinde mellitum toxicum misces.</p>
+			<lb/><p>5. A. Obstrepere mihi videris.</p>
+			<lb/><p>G. Sic, sic malo tibi videri, quam saucius decantari; neque enim ridiculari
+				<lb/>volo excors inter aniculas. Legi adolescentulus illud comedi tui
+				<lb/>Afri:
+				<hi rend="italic"><lg>
+					<l>in amore hec omnia insunt vitia: iniurie,</l>
+					<l>suspiciones, inimicitie, indutie,</l>
+					<l>bellum, pax rursum.</l>
+                                </lg></hi>
+				<pb n="110"/>
+				<lb/>6. Que incerta si quis vult ratione certa facere, nihilo plus operam dat,
+				<lb/>quam ut quis cum ratione insaniat. Et quod tu tecum iratus cogitas: egone
+				<lb/>illam? Que me? Que non? Nunc me sentiet qui vir fiam. Hec verba
+				<lb/>una Hercle falsa lacrimula, quam oculos terendo vix expressit, restringet
+				<lb/>et te ultra accusabis et dabis ei ultra supplicium. Et illud:
+				<hi rend="italic"><lg>
+					<l>pax odio, fraudique fides, spes iuncta timori,</l>
+					<l>est amor, et mixtus cum ratione furor.</l>
+					<l>Naufragium dulce, pondus leve, grata Caribdis,</l>
+					<l>incolumis languor, insaciata fames.</l>
+					<l n="5">Esuriens, sitiens: sitis ebria, falsa voluptas</l>
+					<l>tristities leta, gaudia plena malis.</l>
+					<l>Dulce malum, mala dulcedo sibi dulcor amarus.</l>
+                                </lg></hi>
+			</p>
+			<lb/><p>A. Legisti hec tantum an expertus es?</p>
+			<lb/><p>G. Utrumque, fateor.</p>
+			<lb/><p>A. Non sunt isti amantes, sed amentes.</p>
+			<lb/><p>7. G. Nil mihi tecum est ultra. Iam in bilem accenderis: iam planam
+			<lb/>frontem adversus incrispas et nedum tibi bellum infero, acrius perpetiar.</p>
+			<lb/><p>A. Mereris; sed mitius agam tecum; nec enim sic sentis ut loqueris,
+				<lb/>nec te peniteat amissa iam arma reassumere, sic tua iubet Corinna, sic
+				<lb/>Dido. Scis quam latissime imperem, que devotis premia, que indevotis
+				<lb/>supplitia paraverim. Ego brutaliter viventes moribus homino; immanitate
+				<lb/>barbaros, mites efficio; impexos excolo; dissotiales sotio; clausas
+				<lb/>avaritie visco manus tenacissimo aperio; tumidos placo; ego bellorum
+				<lb/>quies, discidentium portus; tenacissimum mortalium vinculum, curarum
+				<lb/>dulce remedium; quot in lucem prestantissimos viros, quot facundissimas
+				<lb/>dominas flammis meis in lucem provexi, quos eterne noctis
+				<lb/>ignorantia occuluisset! Referta sunt scriptorum nobilium volumina;
+				<lb/>picta scultaque etiam adhuc intuentium oculis clarescunt. 8. Obicies
+				<lb/>quod tantisper amaresco et quod usque in furoris nomen transeo. Sed
+				<lb/>nihil est quod prosit, quod et idem nocere non possit: vina ipsa sobrie
+				<lb/>sumpta saluti sunt et ultra pestifera. Scis me celo, terris inferisque regnatorem,
+				<pb n="112"/>
+				<lb/>nec te fugit quibus flammarum nostrarum fervoribus, illum
+				<lb/>qui celi terrarumque opera omnia lustrat, solem, decoxerim in sua Leucothoe,
+				<lb/>in qua, dum sepius suspiratos ducit affectus, sui luminis expers
+				<lb/>factus, non semel eclipsavit. 9. Quantum noster Apollo ob Admeti
+				<lb/>filiam, pastor factus, exarsit dum regit armenta! Ipsumque celo tonantem
+				<lb/>Iovem sacros edere mugitus, dum Agenoream querit Europam,
+				<lb/>coegimus. Vidit et celi regio illum bellantium terribilem deum cum Venere,
+				<lb/>matre nostra, Vulcaneis catenis implicitum confertumque. Nostris
+				<lb/>quoque incaluit ignibus Cinthia, dum apud Latmia saxa Endimioneos
+				<lb/>petit amplexus; ipsumque horriferum Boream Actee virginis facies dilecta
+				<lb/>flammavit. 10. Omitto deos, quos ad unum usque, nisique largis
+				<lb/>dies ambagibus tererem et longum esset enumerare, vulneravi. Transeo
+				<lb/>ad terrigenas semideosque tuos. Legisti Herculem inter Ionias calathum
+				<lb/>tenuisse puellas et domine sue nimis exterritum impregnasse iam
+				<lb/>colos, quem celum humeris sustinuisse antiquitas tradit. Arsit etiam
+				<lb/>in capta Briseide magnus Achilles, movit Ayacem Telamone nata forma
+				<lb/>captive dominum Thecnesse; Hectoreum pectus infregi; illumque
+				<lb/>singularem nature scrutatorem Aristotilem muliebra subire imperia
+				<lb/>compuli, et in Egyptia Cleopatra illum divum Iulium Cesarem coxi. Et,
+				<lb/>ut parcam nomini, parcam fame, illum transeo Salamonem, cuius ego
+				<lb/>simpliciter sic interiora transfondi, ut sculptiles deos orare coegerim;
+				<lb/>illum quin ymmo truculentissimum inferorum regem Plutonem ad Proserpine
+				<lb/>Sicule raptum accendi. Non sit ergo tibi rubori, nec te peniteat
+			<lb/>si nostris carperis ignibus.</p>
+			<pb n="114"/>
+			<lb/><p>11. G. Si liceret, Palladis, non matris tue, sponsus esse optarem; sed
+				<lb/>sic me tui terror imperii terret et premit, ut mandatis tuis obviam ire
+				<lb/>formidini sit. Tu tamen, ubi satis illuseris, mihi commeatum dabis.
+				<lb/>A. Dabo, ubi te exercitibus nostris inertem tepidumque cognovero. Scis
+				<lb/>illud,
+				<lg>
+					<l><hi rend="italic">militat omnis amans, et habet sua castra Cupido</hi>.</l>
+				</lg>
+				<lb/>Interim lude feliciter paululum: fugit enim velox etas, nec quos tibi
+			<lb/>dempserit, apponet annos.</p>
+			<lb/><p>G. Istud est quod egre fero. Nam
+				<lb/><hi rend="italic">fugit interea, fugit irreparabile tempus,</hi>
+				<lb/><hi rend="italic">singula dum capti circumvectamur amore</hi>.
+				<lb/>Dabit et forte, ubi te oculosius inspexero, in veri alteriusque Amoris domicilia
+			<lb/>migrare, qui nobis melioris et alterius civitatis et vite premia pollicetur?</p>
+			<lb/><p>12. A. Ut libebit, perages: modo illo te dignum reddas.</p>
+			<lb/><p>G. Permittat, utinam, quia sine illo nil possumus: modo me laboriose vite
+			<lb/>necessitas non abstrahat ut voles, augendeque subest fortassis affectus.</p>
+			<lb/><p>A. Expediret quidem.</p>
+			<lb/><p>G. Scis tamen quanto animo semper pecuniam contemnendam mihi
+				<lb/>persuaserim usque forte ad reprehensionem, sed didici nihil esse tam
+				<lb/>minuti, tam pusilli animi quam amare divitias. Tamen illud mihi optabile
+				<lb/>est, ut nec mihi divitias det qui potest, nec paupertatem. Nam
+				<hi rend="italic"><lg>
+					<l>multa petentibus</l>
+					<l>desunt multa. Bene est, cui Deus obtulit</l>
+					<l>parca, quod satis est, manu.</l>
+                                </lg></hi>
+			</p>
+			<lb/><p>13. A. Satis confabulati sumus et advesperascit; illeque noster de Barbarino,
+				<lb/>quem unice cordialiterque complector, et me et librum nostrum, documentis
+				<lb/>moralibus referctissimum, immortalitati consecratum exposcit.
+				<pb n="116"/>
+				<lb/>Hec ubi dicta, crepitantibus paribusque alis cum vestro volumine, domine
+				<lb/>Francisce, pharetratus puer se in celum alis sustulit, penatibus vestris
+				<lb/>illaturum per reducem celeriter viam; mihique est sic scribendi dicendique
+			<lb/>et conferendi finem, luce illa, dulci cum sui recordatione largitus.</p>
+		</div>
+	</body>
+</text>
+</TEI>

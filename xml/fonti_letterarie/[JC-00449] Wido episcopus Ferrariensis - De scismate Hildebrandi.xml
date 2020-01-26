@@ -1,0 +1,1598 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De scismate Hildebrandi</title>
+				<author>Wido episcopus Ferrariensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>R. Wilmans</name>
+                                        <name>E. Duemmler</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="15194" unit="words">Parole: 15194</measure>
+				<measure quantity="94915" unit="characters_without_spaces">Caratteri (spazi esclusi): 94915</measure>
+				<measure quantity="108800" unit="characters_witht_spaces">Caratteri (spazi inclusi): 108800</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2003-06-11">11/06/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 15933
+					Caratteri: 96129
+				LAB</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Wido episcopus Ferrariensis</author>
+						<title>De scismate Hildebrandi</title>
+						<editor>R. Wilmans</editor>
+						<editor>E. Duemmler</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Libelli de lite imperatorum et pontificum saeculis XI. et XII. conscripti. Tomus I.</title>
+						<imprint>
+							<publisher>Hahnsche Buchhandlung</publisher>
+							<pubPlace>Hannover</pubPlace>
+							<date>1891</date>
+							<biblScope unit="page">531-567</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, Ldl</title>
+						<biblScope unit="volume">1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="532"/>
+		<div type="book">
+			<head><lb/>INCIPIT LIBER WIDONIS FERRARIENSIS EPISCOPI
+			<lb/>DE SCISMATE HILDIBRANDI. PRO ILLO ET CONTRA ILLUM. </head>
+			<p><lb/>In meditullio quadragesimae nuper exactae, cum apud Ravennam domnus C[lemens]
+				<lb/>apostolicus moraretur, negociis curiae vehementer urguebar, si quando tamen sinebat
+				<lb/>tempus et divertendi locus erat, conferebar ad studia litterarum: cum interea, nescio
+				<lb/>quo casu, de eo scismate, quod nuper emersit, orta est inter fratres contentio, quod
+				<lb/>Iltibrandinum dicunt, aliis hoc inpugnantibus, aliis defendentibus. Unde cum esset aliquamdiu
+				<lb/>disputatum et in longum ratio processisset, ad me ventum est et quesitum
+				<lb/>ab omnibus, ut de iam dicto scismate pauca dissererem et primo quidem, qualiter
+				<lb/>astruatur, absolverem, demum vero, quibus refellatur rationibus, demonstrarem. Quod
+				<lb/>ideo necessarium videbatur, quoniam latenter erupit et paulatim invaluit et occulte
+				<lb/>serpens multas iam provincias occupavit. Licet ergo diu plurimumque renisus sim,
+				<lb/>vehementer tamen instantibus et caritatem Domini opponentibus, aliquando tandem post
+				<lb/>multa consensi, quodque rogabant me facturum promisi, si tamen laborem meum suis
+				<lb/>orationibus levigarent, sciens, quod nichil hoc per se possit, si votis eius Dominus non
+				<lb/>aspiret; maxime rem tantam tamque difficilem non fore leviter attemptandam, ubi opus
+				<lb/>esset tantum pelagus divinarum scripturarum attingere, tot divinos auctores ad medium
+				<lb/>ducere et ex eorum ingeniis excellentissima quaeque libare. Nullis igitur meritis fretus,
+				<lb/>nulla eloquentiae venustate confisus, sed de sola Domini largitate praesumens, altae
+				<lb/>contentionis profundum ingredior utriusque partis allegationem breviter comprehendens,
+				<lb/>ut, qui pro illo vel contra illud facere voluerint, paratum habeant et in promptu, qualiter
+				<pb n="533"/>
+				<lb/>id astruant vel refellant. Suppositis itaque capitulis diligenter inspectis lector meus
+				<lb/>quodlibet quaesierit statim inveniet, et quod in prima parte huius operis didicerit
+				<lb/>approbatum, sub eadem annotatione capituli in secunda condempnatum reperiet. Ego
+				<lb/>autem explicitis omnibus et in medio positis, quae ad rem necessaria videbuntur, quod
+			<lb/>potissimum video, in neutram partem propensior explicabo.</p>
+			<p><lb/>EXPLICIT PRAEFACIO LIBRI PRIMI. </p>
+			<div>
+				<head><lb/>INCIPIUNT CAPITULA. </head>
+				<p><lb/>I. Quod legitime fuerit Ildebrandus in apostolatum promotus.</p>
+				<p><lb/>II. Quod honeste in illo vixerit et recte docuerit.</p>
+				<p><lb/>III. De maledictione, quam in regem Heinricum intorsit.</p>
+				<p><lb/>IIII. Quare eum excommunicaverit.</p>
+				<p><lb/>V. Quod eum non absurde maledicto perculerit, sed autentice.</p>
+				<p><lb/>VI. Quod simili modo ab aliis apostolicis imperatores fuerint excommunicati,
+				<lb/>et quod absens potuerit excommunicari.</p>
+				<p><lb/>VII. De creatione Rodulfi regis.</p>
+				<p><lb/>VIII. Quod non fuit reprehensibilis in eo, quod Teutonicos adversus Heinricum
+					<lb/>regem pugnare permiserit, quodque eum ad bonum quasi persequendo
+				<lb/>coegerit.</p>
+				<p><lb/>VIIII. De eo, quod Teutonicos a sacramento, quod regi Heinrico debebant, absolvit.
+				<lb/>/*</p>
+				<p><lb/>X. De persecutione, quam movit in presbiteros et diaconos sive episcopos
+				<lb/>adulteros, simoniacos et periuros.</p>
+				<p><lb/>XI. De praedatione, quam a laicis pertulerunt, quod iusta fuerit.</p>
+				<p><lb/>XII. Quod scismaticos iure fuerit persecutus.</p>
+				<p><lb/>XIII. Cur eos increpare debuerit.</p>
+				<p><lb/>XIIII. Quod de sceleribus clericorum et laicorum tacere eum non oportuerit.</p>
+				<p><lb/>XV. Quod sanguis Teutonicorum, clades et bella et cetera huiuscemodi non
+				<lb/>fuerint inputandi sibi.</p>
+				<p><lb/>XVI. Quod excusabilis sit in eo, quod dicitur restitisse adversariis.</p>
+				<p><lb/>XVII. Qua ratione excommunicatorum et scismaticorum sacramenta non recipienda
+				<lb/>mandaverit.</p>
+				<p><lb/>XVIII. Cur eisdem communicare noluerit et alios ab eorum communione removerit.
+				<lb/>/*</p>
+				<p><lb/>XVIIII. Quod non sit alicuius principis quamlibet ordinare vel investire aecclesiam.</p>
+				<p><lb/>XX. De eodem.</p>
+				<p><lb/>EXPLICIT CAPITULUM. </p>
+			</div>
+			<div>
+				<head><lb/>INCIPIT LIBER PRIMUS. </head>
+				<p><lb/>Veni, domine Iesu, et ceptis nostris aspira. Da quod loqui possimus et infunde
+					<lb/>labiis nostris, quod recte personent et quod a veritatis regula non discordet. Tu,
+					<lb/>Domine, librum aperis, tu diceris clavis Davit; claudis, et nemo aperit. Tu linguas
+					<lb/>infantium absolvis et brutorum animalium vincla disrumpis et iura quodammodo naturae
+					<lb/>pervertis, ut naturae sit, quod a natura videtur poenitus alienum. Esto dux et auctor
+					<pb n="534"/>
+					<lb/>et comes propositi operis, ut totum, quod dixerimus et prosecuti fuerimus et quod
+					<lb/>gratia tua perfecerimus, tuum sit. Quia omne datum optimum et omne donum perfectum
+				<lb/>a te est; cuius nomen est benedictum in secula.</p>
+				<div type="chapter">
+					<head><lb/>I.</head> <p>Sunt qui Ildibrandi calumpnientur ingressum, quique eius criminentur introitum.
+						<lb/>Sed re diligenter inspecta, falsum videbitur omne, quod profertur, et quod inpudenter
+						<lb/>magis quam prudenter opponunt. Nam, ut a viris religiosissimis didici et fama
+						<lb/>ferente recognovi, beatae memoriae Alexandro defuncto necdum humato, clero et
+						<lb/>populo, omni senatu pariter collecto, uno omnium voto, pari consensu, summo desiderio
+						<lb/>violenter attractus et in mille partes discerptus a clero eligitur, a populo expetitur,
+						<lb/>episcoporum et sacerdotum omnium suffragio confirmatur. Ut enim de eo dicamus,
+						<lb/>quod de Cornelio Ciprianus asseruit, factus est episcopus de Deo, Christi eius
+						<lb/>iuditio, de clericorum pene omnium - et ut verius dicam, omnino omnium - testimonio,
+						<lb/>de plebis, quae tanc affuit, sufragio, de sacerdotum antiquorum et bonorum
+						<lb/>virorum collegio, cum nemo ante se factus esset, cum Alexandri locus et sedes Petri
+						<lb/>vacaret. Haec regula ordinandorum episcoporum a canonibus statuitur; a patribus
+						<lb/>decernitur, a veteribus praefixa probatur. Quomodo non legitime dicatur promotus,
+						<lb/>qui tam recta electionis via fuerit ordinatus? Facessat igitur obtrectatio iniquorum et
+						<lb/>invidorum aemulatio conquiescat. Nichil video in hac parte quod noceat, quia vocatus
+						<lb/>a Domino tanquam Aaron Romanam aecclesiam, non precio, ut praedicant, sed
+					<lb/>Christi gratia gubernandam suscepit.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>II.</head> <p>Hinc iam qualiter vixerit, quam sana docuerit, facile videri potest. Mox
+						<lb/>enim ut episcopus factus est, rerum ecclesiasticarum fidelis minister et providus dispensator
+						<lb/>civitates omnes et vicos, municipia et castella custodiri mandavit, habita servari
+						<lb/>constituit, amissa vero et violenter ablata recuperari sategit. Fecit sibi militum
+						<lb/>copiam, non ob inanem, ut aestimant, gloriam, sed ad propagandam Romanam ecclesiam,
+						<lb/>quae a Normannis vim passa et a caeteris finitimis conculcata in nichilum
+						<lb/>videbatur pene redacta. Unde factum est, ut quotquot eam leserant, quicumque bona
+						<lb/>eius pervaserant, terrerentur. Factique sunt milites domni Ildebrandi omnibus per
+						<lb/>circuitum gentibus et populis in stuporem; cotidianisque laboribus, bellis, discursibus,
+						<lb/>paucis non dicam annis, sed mensibus averterunt hostes, receperunt castella et urbes,
+						<lb/>domuere rebelles, nullusque tam audax et temerarius habebatur, qui bona Petri contingere
+						<lb/>non timeret. Viduarum interim et pupillorum defensor, orphanorum adiutor,
+						<lb/>pauperum advocatus, omnia, quae habere poterat, in egenos et debiles, miseros et inopes
+						<lb/>erogabat. Ieiuniis intentus, orationibus occupatus, legendi studiis deditus, corpus
+						<lb/>suum templum fecerat Christi. Nam somni avidus quietem arcebat. Patiebatur loetus
+						<lb/>esuriem, cum cibis exquisitissimis habundaret. Perferebat sitim caeteraque incommoda
+						<lb/>corporis, cum ad nutum cuncta suppeterent. Fugiant alii praesentiam hominum,
+						<lb/>devitent consortia mulierum, declinent frequentiam urbium, solitudines adeant, invia et
+						<pb n="535"/>
+						<lb/>praerupta requirant, abdant sese specubus montium et cavernis petrarum, alantur
+						<lb/>herbis, potentur fontibus, feris cohabitent: hic suscepti regiminis necessitate compulsus,
+						<lb/>quod maioris est meriti, inter seculares et filios tenebrarum singularis meriti praerogativa
+						<lb/>dignissimus habebatur. Cumque omnes occuparentur negotiis seculi et mundi desideriis
+						<lb/>et questibus inhiarent, animi virtute cuncta transcendens, vitam istam peregrinationem,
+						<lb/>non patriam existimabat. Iam vero quam cunctis affabilis, tractabilis
+						<lb/>fuerit et communis, quis explicare sufficiat? Legem dabat servis et dominis, principibus
+						<lb/>et subiectis, parentibus et filiis, coniugibus et viris, et omnes omnium mores
+						<lb/>sacris alloquiis informabat. Omnium instruebat aetates, aedificabat conditiones, ingenia
+						<lb/>exercebat, reprimebat motus, impetus cohibebat, inpatientiam refrenabat. Instigabat
+						<lb/>ad bonum, quod poterat, hortabatur ad virtutes, et nemo umquam ieiunus abscessit,
+						<lb/>qui ad illum audiendi gratia accessisset. Lacrimarum praeterea tantam a
+						<lb/>Domino gratiam fuerat assecutus, sicut ipsi praesentes agnovimus, ut, cum cotidie
+						<lb/>missas faceret nec diem aliquem absque dominici corporis et sanguinis immolatione
+						<lb/>transiret, totum se ipso sacrificii tempore in fletus et lacrimas funderet atque ita duplex
+						<lb/>Domino sacrificium immolaret. Semel reficiebatur cotidie ieiuniumque suum in
+						<lb/>vesperam producebat. Ornabatur mensa preciosissimis ferculis et cibis esculentioribus
+						<lb/>complebatur. Habundabat cervis et capreis, lepusculis, apris, volatilibus quoque et
+						<lb/>altilibus omnium generum, sicut apostolica dignitas exigebat. Inter tot igitur delicatissimas
+						<lb/>epulas, convivantibus aliis, solus herbis agrestibus, cicere infusisque leguminibus
+						<lb/>vescebatur. Interea cum fama iam sanctitatis eius longe lateque crebresceret, Heinrico
+						<lb/>tercio, imperatoris Henrici filio, regnum agente, tanta in partibus Italiae et Galliae
+						<lb/>simoniacae hereseos pestis emersit, tantusque flagitiorum omnium morbus erupit,
+						<lb/>ut quisquis vellet episcopus fieri, Gallias peteret distractoque patrimonio, auro et
+						<lb/>argento episcopatum emeret. Omnis aecclesiastica dignitas precio vendebatur, factusque
+						<lb/>erat venalis omnis honor ecclesiasticus ut plumbum et ferrum, equus, mancipium,
+						<lb/>quae passim nundinantur in foro rerum venalium. Ex hoc igitur contagio malorum
+						<lb/>omnium messis increvit cunctorumque viciorum morbus invaluit. Nam quicumque ad
+						<lb/>aecclesiasticas dignitates his nefandis commerciis pervenissent, corrupto fidei firmamento
+						<lb/>semet ipsos adulteriis, sacrilegiis, periuriis ceterisque flagitiis subdiderunt, nichil pensi
+						<lb/>habentes iurare et peierare, palam misceri mulieribus et filios procreare. Per omnem
+						<lb/>quoque Emiliam et Liguriam diaconi et presbiteri publice uxores ducere, nuptias
+						<lb/>facere, filias nuptui tradere filiosque ex se genitos nobilioribus et ditioribus coniugibus
+						<lb/>copulare. Factum est quoddam chaos et quaedam confusio viciorum, quia facti sunt
+						<lb/>sacerdotes sicut et populus, et dispersi sunt lapides sanctuarii in capite omnium platearum.
+						<lb/>Tot ergo malis invalescentibus iam dictus Ildebrandus non mediocriter incitatus
+						<lb/>et zelo divini amoris impulsus statuit semet ipsum, ut dicunt, eciam morte
+						<lb/>corporis tantis iniquitatibus obiectare, symoniacam heresim viva voce confundere, modo
+						<lb/>lenibus, modo duris remediis providere, sacrilegos et adulteros sacerdotes gladio spiritus
+						<lb/>et apertissimis contradicionibus confutare. Quid multa? Collegerunt pontifices
+						<lb/>et principes universi consilium, commotus est adversus illum orbis terrarum, versi sunt
+						<lb/>omnes fere praeter admodum paucos in seditionem, et quoniam habundavit iniquitas,
+						<lb/>refriguit caritas multorum. Divisus est populus christianus in duo, aliis dicentibus,
+						<lb/>quia bonus est, aliis autem vocantibus eum impostorem et antimonachum et antichristianum.
+						<lb/>At vero praefatus vir, inter tot perturbationes immobilis perseverans et instancius
+						<lb/>nichilominus praedicans ad instar ducis egregii et fortissimi bellatoris, quo
+						<pb n="536"/>
+						<lb/>acrius hostes insurgere conspicit et bellum ingravari perpendit, eo durius arma corripit.
+						<lb/>Et modo terga vertit, ut feriat, modo fugam simulat, ut occidat, sicut pugnandi requirit
+						<lb/>pericia. In nullo recedere, in nullo deficere, modo percutere, modo ferientem
+						<lb/>fortiter sustinere. Instabat itaque verbo praedicationis, arguendo, obsecrando, increpando,
+					<lb/>nec declinabat a regula veritatis.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>III.</head> <p>Tum vero rex Heinricus in annis adolescentiae constitutus et eiusdem
+						<lb/>aetatis consiliariis assuetus, nobilium et maiorum contra regiam consuetudinem familiaritates
+						<lb/>horrebat, et cum morum gravitas plurimum habeat laudis in rege, - quia
+						<lb/>decet esse regem constantem, fortem, severum, magnanimum, beneficum, liberalem -,
+						<lb/>relictis senibus gravibusque personis, levibus delectabatur et pueris tam sensu quam
+						<lb/>annis; hinc actum est, ut ad vitia propensior haberetur, quia difficile quis, quod diligit,
+						<lb/>aspernatur. Coepit ergo pietatem neglegere, questibus inhiare, omnia venalia habere,
+						<lb/>studere luxuriae, et cum teneretur vinculo matrimonii, matronas tamen plurimas possidebat.
+						<lb/>Gaudebat multum consortio puerorum et maxime venustorum; sed utrum id
+						<lb/>vicio fieret, ut aliqui confinxerunt, non satis compertum erat. Illud autem manifestum
+						<lb/>est, quod uxore contempta vagus et lubricus diversis desideriis agebatur, ut susceptae
+						<lb/>adulterino concubitu soboles attestantur. Quibus rebus ad aures Ildibrandi perlatis,
+						<lb/>multorumque litteris et indiciis patefactis, cepit animus christianus habere diu incertum,
+						<lb/>quid faceret. Dissimulare siquidem periculi res erat, palam vero corripere, cum clam
+						<lb/>emendare non posset, insolitum videbatur. Cernebat enim fidei christianae summum
+						<lb/>instare discrimen, si plus valerent metalla quam gratia, et pluris esset aurum quam
+						<lb/>meritum. Videbat eciam ad cunctorum perniciem redundare quicquid reprehensibile
+						<lb/>iudicabatur in rege. Quomodo enim sit criminis vindex, ultor sceleris, qui eisdem
+						<lb/>erroribus teneatur? aut quo pacto servabit aliis legem, qui in se ipso regulam destruit
+						<lb/>aequitatis? vel quomodo erit iusticiae minister, qui maliciae auctor et magister efficitur?
+						<lb/>Talibus sollicitudinibus urgebatur, huiusmodi meditationibus aestuabat, praevidens
+						<lb/>aut fore luctandum aut pereundum. Quodam eciam praesagio futurorum venturam
+						<lb/>procul discordiam formidabat, quae regnum sacerdotiumque dirimeret et totius
+						<lb/>aecclesiasticae pacis federa perturbaret. Sed quoniam ?timor non est in caritate et
+						<lb/>perfecta caritas foras mittit timorem?, primo supra nominatum regem lenibus monitis
+						<lb/>blandisque convenit, exemplis docuit, scripturarum argumentis instruxit, omnesque ei
+						<lb/>conniventes eisdem adortationibus terruit, et ne domino suo talia suadere deberent,
+						<lb/>innotuit. Legationibus praeterea frequentibus, mandatis et litteris egit, ut mores suos
+						<lb/>mutaret in melius, ut meminisset se esse regem praelatumque populis ad aedificationem,
+						<lb/>non ad destructionem, et magis proprie dici regem, qui imperet motibus animi,
+						<lb/>quam qui populis dominetur; simoniacam heresim imperii sui finibus cohercendam;
+						<lb/>non esse regiae potestatis quod fuisset omnipotenti Domino consecratum. Longobardiae
+						<lb/>quoque episcopos eadem simoniaca heresi laborantes aepiscopali dignitate suspendit
+						<lb/>sedemque apostolicam adire praecepit, ut eius aut firmarentur iudicio aut sententia
+					<lb/>dampnarentur.</p>
+					<p><lb/>At vero saepe nominatus rex non solum salutaribus consiliis acquiescere noluit,
+						<lb/>verum etiam malitiam suam multiplicatis iniquitatibus cumulavit. Nam ubi se apostolicis
+						<pb n="537"/>
+						<lb/>litteris conventum vidit, diminutionem sui imperii suaeque pecuniae veritus, ad
+						<lb/>eversionem Ildibrandi mentem intendit, qualiter id fieret exquisivit, et ne alicuius
+						<lb/>momenti eius excommunicatio haberetur, omnes Galliae et Longobardiae episcopos convenire
+						<lb/>fecit, utque ei maledicerent, imperavit. Sed vir ille ad instar montis, qui
+						<lb/>nullis valet tempestatibus concuti, ad omnia permansit inpavidus, et a iusticiae tramite
+						<lb/>non declinans, durioribus regem convenit alloquiis, comminatus ei apostolicae maledictionis
+						<lb/>sententiam et imperii destitutionem, si pertinax extitisset. Verum ubi sensit
+						<lb/>eum infelicius agere et obdurato corde nec monita recipere nec comminationes curare,
+						<lb/>vocatum semel et iterum, et ut verum fatear, sepissime Romam venire iussum, diu
+						<lb/>multumque renitentem et nolentem resipiscere, congregatis episcoporum plurimis excommunicavit
+						<lb/>et a regni dignitate removit, servata tamen spe recuperandae dignitatis
+						<lb/>et veniae, si digne satisfacere voluisset. Omnes quoque fautores eius, qui perversis
+						<lb/>eius moribus consentirent, simili iudicio perculit, si nollent ab eius communione et
+					<lb/>consortio separari.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>IIII.</head> <p>Huc huc mihi veterum monimenta priorum. Hine agat Ambrosius, astipuletur
+						<lb/>Gelasius, loquatur Pascasius, Felix quoque Romanus episcopus testimonium
+						<lb/>dicat. Quid, inquiunt, sibi causae fuit, ut, quod ceteris imperatoribus licuit sub aliis
+						<lb/>apostolicis, non licuisset et isti? Dic, Ambrosi, quod sentis: <hi rend="italic">Convenior</hi>, inquit, <hi rend="italic">a
+						<lb/>militibus et tribunis dicentibus imperatorem iure suo iussisse, ut quae in potestate
+						<lb/>eius essent omnia ei tradi deberent. Respondi, si a me peteret quod meum est, id
+						<lb/>est fundum meum, argentum meum, ius huiuscemodi meum, me non refragaturum,
+						<lb/>quamquam omnia, quae mea sunt, sint pauperum</hi>. Item post aliqua: <hi rend="italic">Nec mihi fas
+						<lb/>est tradere, nec tibi, imperator, accipere expedit. Domus privati nullo potest iure
+						<lb/>temerari, domum Dei existimas auferendam? Allegatur imperatori licere omnia,
+						<lb/>ipsius esse universa. Respondeo: Noli gravari, imperator, ut putes te in ea quae
+						<lb/>divina sunt imperiale aliquod ius habere. Noli te extollere! sed si vis diutius imperare,
+						<lb/>esto Deo subiectus. Scriptum est enim: ?Quae Dei Deo, quae caesaris caesari?.
+						<lb/>Ad imperatorem palatia pertinent, ad sacerdotes aecclesiae. Publicorum tibi moenium
+						<lb/>ius commissum est, non sacrorum. Iterum dicitur mihi mandasse imperatorem: debeo
+						<lb/>et ego unam basilicam habere. Respondeo: Non licet tibi illam habere. Quid tibi cum
+						<lb/>adultera? Adultera est enim quae non est legitimo coniugio copulata; veteri iure a
+						<lb/>sacerdotibus donata, imperatoria vi usurpata</hi>. Item Ciprianus: <hi rend="italic">Quisquis ab aecclesia
+						<lb/>segregatus adulterae iungitur, a promissis aecclesiae separatur, nec perveniet ad
+						<lb/>Christi praemia qui Christi relinquit aecclesiam. Alienus est, prophanus est, hostis
+						<lb/>est. Habere non potest Deum patrem, qui aecclesiam non habet matrem</hi>. Item Gelasius:
+						<lb/><hi rend="italic">Ad sacerdotes Deus voluit quae aecclesiae sunt disponenda pertinere, non ad</hi>
+						<lb/>saeculi potestates. Non sibi vendicet imperator alienum ius et ministerium quod alii
+						<pb n="538"/>
+						<lb/><hi rend="italic">deputatum est</hi>. Et paulo post: <hi rend="italic">Obsequi solent principes christiani decretis aecclesiae,
+						<lb/>non suam praeponere potestatem</hi>. Ista sunt, quae virum religiosum et animum Deo
+						<lb/>plenum ad maledicendi sententiam impulerunt, ut, quia tociens commonitum regem
+						<lb/>hisque et aliis territum revocare non potuit, sed medicamento penitentiae sanare non
+					<lb/>valuit, ferro tamen anathematis membrum putridum amputaret.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>V.</head> <p>Verum ne id absurde factum quisquam existimet, quae secuntur sanctorum
+						<lb/>patrum constitutiones et exempla perspiciat et oculo vigilanti percurrat, nec erit ulterius,
+						<lb/>quod ambigere debeat. Inquit beatus papa Pascasius inter alia: <hi rend="italic">Si quis obiecerit
+						<lb/>non consecraciones, sed res ipsas, quae ex consecratione proveniunt, vendi, videtur
+						<lb/>quidem aliquid dicere, nichil autem penitus sapere. Nam cum corporalis aecclesiae
+						<lb/>aut episcopus aut abbas aut tale aliquid sine rebus corporalibus et exterioribus
+						<lb/>in nullo proficiat, sicut nec anima sine corpore temporaliter vivit, quisquis eorum
+						<lb/>alterum vendit, sine quo alterum habere non provenit, neutrum venditum derelinquit.
+						<lb/>Quam obiectionem sacer Chalcedonensis paenitus canon exterminat, cum procuratorem
+						<lb/>vel defensorem aecclesiae vel aliquem regulae subiectum adeo per pecunias ordinari
+						<lb/>prohibeat, ut interventores quoque tanti sceleris anathematis mucrone succidat</hi>.
+						<lb/>Si autem obicitur, cur absentem dampnaverit, respondebitur verbis apostoli: <hi rend="italic">Si quis
+						<lb/>verbo nostro non obedierit per aepistolam, hunc notate et ne commisceamini</hi>. Item
+						<lb/>isdem: <hi rend="italic">Scripsi vobis in aepistola, ne commisceamini fornicariis: non utique fornicariis
+						<lb/>huius mundi aut avaris aut rapacibus aut idolis servientibus. Alioquin debueratis
+						<lb/>de hoc mundo exisse. Nunc autem scripsi vobis non commisceri, si quis frater
+						<lb/>nominatur fornicator aut avarus aut idolis serviens aut maledicus aut ebriosus aut
+						<lb/>rapax, cum huiusmodi nec cibum sumere. Quibus verbis, ut ait beatus Ambrosius,
+						<lb/>ostendit non iudicio aut confessione opus esse erga eos, quorum crimina publica sunt,
+						<lb/>quos ipse rumor notus omnibus et communis accusat</hi>. Cui etiam pater concinit Augustinus
+						<lb/>fratrem nominatum intellegens, qui in crimine sit famosus et notus. Quod nisi
+						<lb/>ita accepisset apostolus, et si neminem absentem crederet iudicari debere, sed semper
+						<lb/>per praesentem sub accusatoribus certis et testibus, aecclesiastico sive saeculari iudicio
+						<lb/>aut confessum aut convictum: numquam Corinthium dampnasset absentem, quem
+						<lb/>uxore patris abusum fama tantum praedicante didicerat. Non enim quaesivit sinodum
+						<lb/>facere, accusatores admittere, testes audire et cetera huiuscemodi quae in iudiciis exquiruntur.
+						<lb/>Sed his praetermissis convicinis illius Corinthiis ait: <hi rend="italic">Omnino auditur inter
+						<lb/>vos fornicatio, et talis fornicatio qualis nec inter gentes, ut uxorem patris quis
+						<lb/>habeat. Et vos inflati estis et non magis luctum habuistis, ut tollatur de medio
+						<lb/>vestrum qui hoc opus fecit. Ego quidem absens corpore, praesens autem spiritu, iam
+						<lb/>iudicavi ut praesens eum, qui sic operatus est, in nomine domini nostri Iesu Christi
+						<lb/>congregatis vobis et meo spiritu cum virtute domini nostri Iesu tradere huiusmodi
+						<lb/>hominem sathanae in interitum carnis, ut spiritus salvus sit in die domini nostri
+					<lb/>Iesu Christi</hi>. </p>
+				</div>
+				<div type="chapter">
+					<head><lb/>VI.</head> <p>Iam vero ad ea, quae cotidie velut cum admiratione dicuntur, paucis in
+						<lb/>Deo respondendum. Nam quod absens potuerit iudicari, superioribus sententiis approbatur.
+						<lb/>?Quando?, inquiunt, ?factum legitur, ubi scriptum auditur, quibus reperitur
+						<lb/>libris, quibus commemoratur historiis, ut quemquam inperatorem quisquam episcopus
+						<pb n="539"/>
+						<lb/>vel apostolicus condempnarint?? Accipiant et de hac obiectione responsum et veterum,
+						<lb/>si ita volunt, admirentur exemplum. Xistus Romanae sedis episcopus Valentinianum
+						<lb/>et Honorium excommunicationis gladio perculit et ab imperii dignitate submovit.
+						<lb/>Quid ergo? Non licuit Romanae aecclesiae modernis temporibus, christianitatis
+						<lb/>gloria latius propagata, quod priscis olim tempestatibus valuit? Aut ligandi solvendi
+						<lb/>potestatem ad tempus accepit, ad tempus amisit? Absit hoc ab animis christianis.
+						<lb/>Sicut enim potestatem semel acceptam Petrus extunc semper habuit et habebit, sic
+						<lb/>eandem potestatem Romana sedes in saeculum possidebit, teste Augustino, qui ait:
+						<lb/><hi rend="italic">Petra tenet, petra dimittit; columba tenet, columba dimittit; unitas tenet; unitas dimittit</hi>.
+						<lb/>Non solum autem Xistus hoc fecisse probatur, verum eciam modernior et quasi iunior
+						<lb/>papa Stephanus itidem legitur executus. Nam Desiderium Longobardorum regem
+						<lb/>vehementer Romanam aecclesiam infestantem, saepe commonitum semperque renisum
+						<lb/>prius excommunicavit, post vero latenter profectus in Gallias et apud Carolum super
+						<lb/>eius iniquitatibus questus, eundem Carolum collecto hoste Romam duxit et abiecto a
+						<lb/>dignitate regni Desiderio Romanorum imperatorem constituit. Sed cur ista de pontificibus
+						<lb/>Romanis prosequimur, cum Ambrosius quoque Mediolanensis episcopus, vir
+						<lb/>praecipuae sanctitatis et urbanitatis egregiae, verum impar apostolicae dignitatis, Theodosium
+						<lb/>a Thesalonica caede reversum et effusione innoxii sanguinis cruentatum ab
+						<lb/>aecclesiae ingressu removerit et episcopali auctoritate egerit, ut non prius reciperet
+						<lb/>aecclesiasticam communionem, quam humili confessione totum, quod deliquerat, sanaretur?
+						<lb/>Legitur enim, quod videns isdem imperator a liminibus aecclesiae se prohibitum,
+						<lb/>totus versus in lacrimas insignia regalia deposuerit et pro purpura cilicio indutus,
+						<lb/>tantis sese fletibus et lamentis affecerit, ut omnibus, qui aderant, admirationi fuerit
+						<lb/>et stupori. Quem vir Domini conpunctum et humiliatum aspiciens, in aecclesiam introduxit,
+						<lb/>redditaque sibi communione, pro eodem sacrificium dominici corporis et
+						<lb/>sanguinis immolavit. Si talia Romani pontifices, quos supra memoravimus, potuerunt,
+						<lb/>nec solum illi, verum alii imparis dignitatis aepiscopi multos imperatorum et regum
+						<lb/>certis de causis diversis temporibus excommunicaverunt et a regni dignitate vel imperii
+						<lb/>gloria submoverunt: dicant qui volunt, si tamen recte volunt vel possunt, cur
+						<lb/>non eadem apostolica auctoritate Yldibrandus Heinricum regem excommunicare potuerit
+					<lb/>et ab imperii dignitate suspendere.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>VII.</head> <p>Quia vero superioribus rationibus et exemplis iam eis satisfactum putamus,
+						<lb/>quibus regem excommunicari videbatur indignum, caetera, quae in Ildibrandum obiciunt,
+						<lb/>persequamur. Aiunt enim: ?Quis hominum aequanimiter ferat rem omnibus
+						<lb/>saeculis inauditam, ut Rodulfus dux domini sui regnum praeriperet et multis sacramentis
+						<lb/>sibi obstrictus ad imperium aspiret. Si nichil aliud Yldibrandus egisset, quo
+						<lb/>merito reprehendi deberet, hoc tamen tam exiciale fuit tantumque posteris iniquae
+						<lb/>praesumptionis et auctoritatis invexit, ut hoc solo iure debuerit condempnari. Hactenus
+						<lb/>milites sacramenti foedere tenebantur, stupebant iniurias dominorum, vindicabant offensam,
+						<lb/>potentiam tuebantur, defensabant honores, pro salute quoque servabant excubias,
+						<lb/>et par sacrilegio videbatur, si in honorem quippiam molirentur. Nunc autem versa
+						<lb/>vice milites armantur in dominos, insurgunt filii in parentes, subditi commoventur in
+						<pb n="540"/>
+						<lb/>reges, fasque nefasque confunditur, sacramenti religio violatur, humanitatis iura solvuntur,
+						<lb/>tolluntur vocabula pietatis, fraudare, decipere, fallere, peierare omnes sibi licitum
+						<lb/>arbitrantur. Quis enim non imitabile exstimet, quod sedem apostolicam videat
+						<lb/>approbasse? Quem pigeat sequi caput orbis, magistram fidei, dominam sanctitatis,
+						<lb/>principem religionis? Quam facile homines delectantur malis, adhaerent viciis, pascuntur
+						<lb/>flagiciis, assuescunt iniquitatibus universis! Quam vero difficile est quemquam fieri
+						<lb/>bonum, nichilque durius naturae mortalium quam boni perceptio?. Haec sunt quae in
+						<lb/>Ildibrandum adversarii proferunt, et arcum maliciae intendentes huiusmodi in illum
+						<lb/>sagittas emittunt. Sed accipiant patienter quod non quidem ficte pro se protulit, sed
+						<lb/>contra haec veraciter isdem vir multis aliis nobisque praesentibus intimavit. Cum
+						<lb/>enim quadam die sinodum ageret, cumque de Rodulfi electione mentio incidisset, hic
+						<lb/>regis destitutionem paucis explicuit, quam rationabiliter depositus fuisset, innotuit. Post
+						<lb/>vero quasi satisfacturus, sciens, quod de se talia iactarentur, contestatus caelum et
+						<lb/>terram, quod electioni illius numquam assensum praebuerit, numquam conscius fuerit.
+						<lb/>Sed faciamus eum errore mentitum et errore delusum. An si ita esset, excusari tamen
+						<lb/>non posset, cum, Heinrico iam legitime condempnato et a regni dignitate submoto,
+						<lb/>Rodulfus fuisset promotus in regnum? Si prius quam condempnaretur dominus, miles
+						<lb/>aspirasset ad regnum, reprehensibilis merito videretur. Domino vero iam deposito et
+						<lb/>ex auctoritate Petri dampnato, quid Rodulfus ei deberet, non video, ut domino suo
+						<lb/>regnum praeripuisse dicatur. Alioquin quotiens legitimo iuditio quilibet deponuntur
+						<lb/>episcopi et alii subrogantur, iniuste eis priorum episcoporum milites sacramenta fatiunt,
+						<lb/>si sacramenti vinculo, quod prioribus illis debuerant, obligantur. Sed omnibus omnino
+						<lb/>gentibus usitatissimum est, ut in quibuslibet episcopatibus, episcopis sinodaliter condempnatis,
+						<lb/>et alii creentur episcopi et eis aecclesiarum milites absque nota periurii
+						<lb/>obligentur. Si debent ergo prioribus aepiscopis, culpabiles sunt, quod aliis iuraverunt.
+						<lb/>Si autem nichil debent, nichil delinquunt. Sed tam diu debent, quam diu commissis
+						<lb/>sibi praesunt aecclesiis. Ubi autem praeesse desistunt, quia esse aepiscopi desierunt,
+						<lb/>nichil illis a militibus iam debetur. Similiter vir et uxor matrimonii lege tenentur in
+						<lb/>tantum, ut nisi mortis tempore utroque superstite non separentur. Sed si vir vel uxor
+						<lb/>inciderit heresim aliquam aut nuper conversus ad gentilitatem recurrat, num cogitur
+						<lb/>alter eorum ire post alterum, quasi coniugii vinculum non solvatur: et non potius suae
+						<lb/>potestati relinquitur, ut magis fidem teneat, quam occasione coniugii fidem amittat?
+						<lb/>Agamus per similitudinem. Sunt quidam, qui nichil sibi debent, postea vero casu aliquo
+						<lb/>datis obsidibus paciscuntur; quam diu ergo habentur obsides, foedus permanet incorruptum.
+						<lb/>Amissis vero obsidibus vel redditis, iura foederis violantur. Eadem in
+						<lb/>pignoribus lex. Tam diu enim debet quis foeneratori, quam diu pignus habetur, et
+						<lb/>tam diu certus est creditor, quousque integrum pignus servatur. Reddito autem pignore
+						<lb/>vel corrupto vel perdito, nichil amplius iam debebit, qui ut deberet, pignus dedit.
+						<lb/>Sic nos quando iuramus, ius nostrae fidei quasi in medio ponimus et velut pro pignore
+						<lb/>ipsum ius commendamus. Quid autem est illud ius nisi fides nostra, qua in Deum
+						<lb/>credimus et per quam creditori iuramus, cum tactis sacrosanctis euangeliis nomen
+						<pb n="541"/>
+						<lb/>Christi offerimus? Tam diu ergo ius nostrum creditori debemus, quam diu fidei nostrae
+						<lb/>pignus penes eum est. Si autem a fide aberraverit et ius fidei quodammodo violaverit
+						<lb/>et ita perdiderit pignus, per quod ei debemus, debitores illi ultra non sumus. Cum
+						<lb/>enim alicui per Deum debitores sumus, quomodo consequens est, ut illum contra Deum
+						<lb/>iuvemus? Aut quomodo velit, ut occasione nominis eius venias contra voluntatem eius
+						<lb/>et quasi servando ius homini perdas illud Deo? Hinc enim periuri dicuntur, quod ius
+						<lb/>perdiderint. Astipulatur in hoc nobis Hieronimus scribens inter alia: <hi rend="italic">Sive</hi>, inquit,
+						<lb/><hi rend="italic">fuerit ille pater sive mater, frater vel soror aut quilibet alius, tam diu noveris copulam
+						<lb/>carnis et debitor eris promissi iuris, quam diu ille suum noverit creatorem, non
+						<lb/>nomine dico, sed opere, nil omnino debebis</hi>. Ex omnibus igitur, quae praemisimus,
+						<lb/>certum est, quod nec Rodulfus abiuraverit, nec Ildibrandus reprehensibilis fuerit, si
+					<lb/>eciam electioni eius consensit.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>VIII.</head> <p>Reliqua persequamur et quae in eum obiciunt, sicut Dominus dederit,
+						<lb/>propulsemus. Ut taceamus de caeteris, inquiunt: ?Sed hoc quis excusabile faciet, quod
+						<lb/>Teutonicos ad bella commovit vel saltim cum Heinrico pugnare permisit et, quod viris
+						<lb/>religiosis minime convenit, persecutionem tantam in iam dictum regem exercuit? Et
+						<lb/>docere est christianorum virorum, non bella movere, pati aequanimiter iniurias aliorum,
+						<lb/>non ulcisci. Nichil tale Iesus, nichil tale quisquam legitur fecisse sanctorum?. Domini
+						<lb/>et patres nostri ad ista respondeant, quia satisfacere nostris viribus non valemus. Dic,
+						<lb/>pater Augustine, quod sentis. In libro adversus Donatistas: <hi rend="italic">Si aecclesia</hi>, inquit, <hi rend="italic">vera
+						<lb/>ipsa est, quae persecutionem patitur, non quae facit, querant ab apostolo, quam aecclesiam
+						<lb/>significabat Sara, quando persecutionem fatiebat ancillae. Liberam quippe matrem
+						<lb/>nostram caelestem Iherusalem, id est veram Dei aecclesiam, in illa muliere dicit
+						<lb/>fuisse figuratam, quae affligebat ancillam. Si autem melius discutiamus, magis illa
+						<lb/>persequebatur Saram superbiendo, quam illam Sara cohercendo. Illa enim dominae
+						<lb/>faciebat iniuriam, ista imponebat superbae disciplinam. Deinde quero: Si boni et
+						<lb/>sancti viri nemini faciunt persecutionem, sed tantummodo patiuntur: cuius putant in
+						<lb/>psalmo vocem, ubi legitur: ?Persequar inimicos meos? et cetera. Si ergo verum dicere
+						<lb/>vel agnoscere volumus, est persecutio iniusta, quam faciunt impii aecclesiae Christi.
+						<lb/>Ista namque est beata, quae persecutionem patitur propter iusticiam</hi>. Item Augustinus:
+						<lb/><hi rend="italic">Quod autem dicunt, qui contra suas impietates leges iustas institui nolunt: non
+						<lb/>petisse a regibus terrae apostolos talia, non considerant aliud fuisse tunc tempus et
+						<lb/>omnia suis temporibus agi. Quis enim tunc in Christum crediderat imperator, qui ei
+						<lb/>pro pietate contra impietatem leges ferendo serviret, quando adhuc illud propheticum
+						<lb/>complebatur: ?Quare fremuerunt gentes? et reliqua? Nondum autem agebatur quod
+						<lb/>paulo post in eodem psalmo subditur: ?Servite Domino in timore?. Quo enim modo
+						<lb/>reges serviunt Domino in timore, nisi ea, quae contra iussa Domini fiunt, religiosa
+						<lb/>severitate prohibendo atque plectendo?</hi> Idem alibi: <hi rend="italic">Ubi est quod isti clamare consuerunt?
+						<lb/>Cui vim Christus intulit? Quem coegit? Ecce habent Paulum apostolum.
+						<lb/>Agnoscant in eo prius cogentem Christum et postea docentem; prius ferientem et postea
+						<lb/>Consolantem</hi>. Item Pelagius papa: Nos vero hominum vaniloquia non retardent
+						<pb n="542"/>
+						<lb/>dicentium, quia persecutionem aecclesia faciat, dum vel ea, quae committuntur, reprimit
+						<lb/>vel animarum salutem requirit. Errant hiuiuscemodi rumoris fabulatores. Non
+						<lb/>persequitur nisi qui ad malum cogit. Qui vero malum vel iam factum punit vel prohibet,
+						<lb/>ne fiat, non persequitur iste, sed diligit. Nam si, ut illi putant, nemo nec reprimendus
+						<lb/>a malo nec retrahendus ad bonum est, humanas ac divinas leges necesse
+						<lb/><hi rend="italic">est evacuari, quae et malis poenam et bonis praemia iusticia suadente constituunt</hi>. Idem
+						<lb/>alibi: <hi rend="italic">Non putetis alicuius esse peccati, si huiusmodi homines comprimuntur. Nec
+						<lb/>quicquam maius est, unde Deo sacrificium possitis offerre, quam si competenti debeant
+						<lb/>vigore compesci</hi>. Item Augustinus Donato presbytero: <hi rend="italic">Displicet tibi, quod traheris
+						<lb/>ad salutem, cum tam multos nostrorum ad perniciem traxeris. Quid enim volumus,
+						<lb/>nisi te comprehendi et praesentari, ne pereas?</hi> Item Augustinus: <hi rend="italic">Si christiana disciplina
+						<lb/>omnia bella culparet, praeciperet utique, ut abicerent arma seque militiae omnino
+						<lb/>subtraherent. Dictum est autem eis: ?Neminem concusseritis neque calumniam feceritis,
+						<lb/>sufficiat vobis stipendium vestrum?</hi>. Item Augustinus ad Bonifatium: <hi rend="italic">Gravi de pugna
+						<lb/>conquereris: dubites nolo, utile consilium tibi tuisque dabo. Arripe manibus arma,
+						<lb/>oratio aures pulset auctoris. Quia, quando pugnatur, Deus apertis caelis spectat
+						<lb/>et partem, quam inspicit iustam, defendit et ibi dat palmam</hi>. Item: <hi rend="italic">Noli existimare
+						<lb/>neminem Deo placere, qui armis bellicis ministrat. In his erat ille centurio, qui
+						<lb/>Domino dixit: ?Non sum dignus, ut intres sub tectum meum?. In his erat sanctus
+						<lb/>David, cui Dominus tam magnum perhibuit testimonium. In his eciam plurimi illius
+						<lb/>temporis viri. Hoc ergo primum cogita, quando armaris ad pugnam, quia virtus tua
+						<lb/>etiam ipsa corporalis donum Dei est. Sic enim cogitabis de dono Dei non facere
+						<lb/>contra Deum. Esto bellando pacificus, ut eos quos expugnas ad pacis utilitatem vincendo
+						<lb/>perducas</hi>. Astruit haec eciam beatus papa G[regorius] scribens Veloci magistro
+						<lb/>militum inter alia: <hi rend="italic">Nunc utile visum est, ut aliquanti illuc milites transmittantur,
+						<lb/>quos gloria tua admonere et hortari, ut parati sint ad laborem, studeat. Et occasione
+						<lb/>inventa cum gloriosissimis filiis nostris Marciano et Vitaliano loquere, et quecumque
+						<lb/>vobis Deo auctore pro utilitate rei publicae steterint facite. Et si huc vel ad
+						<lb/>Ravennates
+						<lb/>partes nec dicendum Ariulfum cognoveritis excurrere, vos a dorso eius, sicut
+						<lb/>viros fortes condecet, laborate</hi>. Item Mauricio et Vitaliano: <hi rend="italic">Gloriosi filii, estote solliciti,
+						<lb/>quia, quantum comperi, hostem collectam habet et in armis dicitur residere, ut,
+						<lb/>si cursum huc Deo sibi irato mittere voluerit, vos loca eius, quantum Dominus adiuverit,
+						<lb/>depraedate</hi>. Satis, ut reor, ex praemissis apparet, quod sive Teutonicos adversus
+						<lb/>Heinricum regem pugnare permiserit, sive eciam praefatum, ut dicunt, regem
+						<lb/>persecutus est, nichil omnino commisit, quin fretus tot patrum sententiis optime valeat
+					<lb/>excusari.</p>
+				</div>
+				<pb n="543"/>
+				<div type="chapter">
+					<head><lb/>VIIII.</head> <p>Restat nunc, ut de his, quae in Gallia per legatos effecit, aliqua disseramus.
+						<lb/>Habent enim dubitationem. Cum enim plurimi Teutonicorum sacramenti religione
+						<lb/>solliciti nollent ab Heinrici regis consortio separari, missis in Gallias nunciis,
+						<lb/>saepe dictus Yldebrandus a sacramentis illos absolvit, ea videlicet intentione, ne occasione
+						<lb/>debiti periculum anathematis incurrissent. Nos igitur causam diligentius intuentes,
+						<lb/>non simpliciter ut plurimi sentiamus, sed utrum iure id fecerit, videamus. Non
+						<lb/>absolvit ergo illos a debito, qui nichil iam regi debebant, sed a timore periurii liberavit.
+						<lb/>Magis enim ius suum perderent, si illius perversitatibus consentirent, si contra
+						<lb/>divinas leges excommunicato communicarent; sed expedivit eos a suspicione periurii,
+						<lb/>quia videbantur sibi violatores fidei, si dominum suum quamlibet perditum, quamlibet
+						<lb/>excommunicatum, ut prius fecerant, non iuvarent. Si quid tamen contra praefatum
+						<lb/>regem inprudenter egissent, eadem apostolica auctoritate per nuntios apostolicos est
+						<lb/>solutum. Et revera solutum, quia quodcumque Romanus pontifex in terris ligaverit,
+						<lb/>in caelo ligabitur, et quaecumque solverit in terris, in caelo solventur. Hoc Iesus
+						<lb/>Petro praestitit, hoc omnibus successoribus eius in aeternum concessit. Inquit pater
+						<lb/>Augustinus in libro de agone christiano: <hi rend="italic">Sacrilegium est credere Dominum nostrum,
+						<lb/>cum ipse sit veritas, in aliquo fuisse mentitum</hi>. Item in eodem: <hi rend="italic">Non audiamus eos,
+						<lb/>qui negant aecclesiam Dei omnia peccata posse dimittere. Itaque miseri, dum in Petro
+						<lb/>petram non intelligunt et nolunt credere datas aecclesiae claves regni caelorom, ipsi
+						<lb/>eas de manibus amiserunt</hi>. Hac igitur consideratione perspecta, dicimus in hac parte
+						<lb/>quod scimus, quia, etsi quid in dominum suum inprudenter egerant, per legatos remisit
+						<lb/>et periurii metum, quod forsitan metuebant, amovit. Multa praeterea de his dici
+						<lb/>possunt, sed brevitati studentes ad reliqua festinamus, arbitrantes de solutione Teutonicorum
+					<lb/>ista sufficere.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>X.</head> <p>Adiuvet dominus Iesus, ut caeteris obiectionibus competenter respondere
+						<lb/>possimus. Solent enim disputantes de talibus ita proponere: ?Quid necesse fuit, ut in
+						<lb/>symoniacos presbiteros vel cuiuslibet criminis reos laicorum manus iniceret? Cur fecit
+						<lb/>eos capi? Cur spoliari facultatibus? Cur caedi? Cur alia multa in eos exercuit,
+						<lb/>quae non solum a christianis, verum etiam a gentilibus et prophanis ac barbaris videantur
+						<lb/>extranea? Satis erat, si more decessorum suorum et secundum normam apostolicae
+						<lb/>institutionis sacrique euangelii peccantes argueret, si secretius conveniret, causam
+						<lb/>ad medium duceret, si nec sic correctos sicut ethnicos et publicanos haberet. Sed pro
+						<lb/>dolor! ad tantam ignominiam sacerdotalis honor prolapsus est, ut nobis praesentibus et
+						<lb/>videntibus Cremonae quidam presbiter in adulterio deprehensus ab ipsa eadem muliere,
+						<lb/>cum qua fuit inventus, ad instar equorum per urbis circuitum fuerit, ut ita dixerim,
+						<lb/>equitatus, utrisque humeris meretricem ferre compulsus, prosequentibus ut urbem migrare
+						<lb/>putares per omnes portas, adultera scopis presbiterum feriente, caeteris acclamantibus.
+						<pb n="544"/>
+						<lb/>Quod cum ita sit, quis super hoc non miretur? Quis tantam aecclesiastici
+						<lb/>ordinis miseriam non ploret, quam nullis umquam temporibus accidisse meminerit?
+						<lb/>Stupeda sunt haec et vere omnibus retro generationibus inaudita?. Sed sicut a viris
+						<lb/>fidelibus didici, qui multa cum illo de talibus contulerunt, referre solitus erat, quod tam
+						<lb/>crudelia et gravia numquam in presbiteros fieri mandavisset; plurimum etiam se dolere
+						<lb/>solitum, quotiens imperitum vulgus huiusmodi novis iniuriis moveretur; displicuisse
+						<lb/>semper verbera sacerdotum, caedes et vincula, cippos et carceres, si forte talia a laicis
+						<lb/>paterentur. Quamquam non multum haec a christianis doctoribus dissonent, si etiam
+						<lb/>eius consensu fiebant, ut aliqui putaverunt. Ambrosius inquit: <hi rend="italic">Persequendi sunt lupi,
+						<lb/>vitandi sunt universi, qui ad hoc ut fiant heretici promoventur, qui lepram Giezi cum
+						<lb/>suis diviciis possident et male quaesita mercede non tam patrimonii facultatem quam
+						<lb/>thesaurum criminum congregarunt</hi>. Item in psalmo CXVIII: <hi rend="italic">Et in libro regnorum legis,
+						<lb/>quia Saul propterea contraxit offensam, quia miseratus est Agág regem, quem prohibebat
+						<lb/>sententia divina servari. Velut si quis latronem filiis deprecantibus motus et
+						<lb/>lacrimis coniugis eius inflexus absolvendum putet, cui latrocinandi adhuc aspiraret
+						<lb/>affectus</hi>. Item Pelagius: <hi rend="italic">Malum scisma esse et per exteras eciam potestates huiusmodi
+						<lb/>opprimi debere et canonicae scripturae auctoritas et paternarum nos regularum veritas
+						<lb/>docet</hi>. Hieronimus super Iezechielem libro tercio: <hi rend="italic">Qui malos percutit in eo, quod
+					<lb/>mali sunt et habet vasa interfectionis, minister est Domini</hi>. </p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XI.</head> <p>Illud quoque non minus videbitur excusabile, quod rebus suis a laicis nudabantur,
+						<lb/>si patris Augustini verba sollicite perpendamus. <hi rend="italic">Quicquid</hi>, ait, <hi rend="italic">a parte Donati
+						<lb/>possidebatur, christiani imperatores legibus religiosis de ipsis aecclesiis ad
+						<lb/>catholicam
+						<lb/>transferri iusserunt</hi>. In libro etiam Sapientiae scriptum est: <hi rend="italic">Ideo iusti tulerunt
+						<lb/>spolia impiorum</hi>. Unde colligitur non esse querendum, qui habeant res scismaticorum,
+					<lb/>sed qui sint in sotietate iustorum.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XII.</head> <p>Quid autem iustius, quam ut error scismaticorum refelleretur? Nec solum
+						<lb/>refellendus, sed etiam oppugnandus erat. Papa Innocentius: <hi rend="italic">Error</hi>, inquit, <hi rend="italic">cui non
+						<lb/>resistitur, approbatur, et veritas, cum minime defensatur, opprimitur</hi>. Item Pius papa:
+						<lb/><hi rend="italic">Quid prodest illum suo errore non pollui, qui consensum praestat erranti?</hi> Item
+						<lb/>Gregorius Nazanzenus: <hi rend="italic">Nemo sane aestimet dicere, quod omnis concordia amplectenda
+						<lb/>sit. Scio enim, sicut in multis discordiam, ita in aliquantis perniciosam esse concordiam.
+						<lb/>Sed illam dico pacem tenendam, quae in bonis et pro bono est et Deo nos
+						<lb/>sotiat. Certum est namque, quod adversus impietatem et ignibus et ferro et potestatibus
+						<lb/>et legibus pro veritate debemus obniti, tantum ne fermento malitiae polluamur
+						<lb/>et consensum praebeamus in malis. Nec ita quicquam pertimescendum, quam ne
+					<lb/>aliud quid tam timeamus quam Deum, et per timorem perdamus fidem et veritatem</hi>.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XIII. XIIII.</head> <p>Cur etiam eosdem scismaticorum increpare debuerit nec laicorum
+						<lb/>iniquitates debuerit reticere, quis sanum sapiens videre non possit? Comminatur
+						<lb/>quippe Dominus per prophetam: <hi rend="italic">Sacerdos</hi>, inquit, <hi rend="italic">ingrediens et egrediens nisi sonitum
+						<lb/>dederit, morte moriatur</hi>. Item: <hi rend="italic">Maledictus homo qui prohibet gladium suum a</hi>
+						<pb n="545"/>
+						<lb/><hi rend="italic">sanguine</hi>. Item papa Innocencius: <hi rend="italic">Negligere quippe, cum possis deturbare perversos,
+						<lb/>nichil est aliud quam fovere</hi>. Item Pius papa: <hi rend="italic">Sine dubio contra mandata dimicat
+						<lb/>et qui peccat et qui consilium vel consensum praestat peccanti vel erranti</hi>. Item
+						<lb/>Clemens papa: <hi rend="italic">Certissimum enim est, quod neque amicicia neque propinquitas generis
+						<lb/>neque regni sublimitas homini debet esse preciosior veritate</hi>. Fabianus: <hi rend="italic">Qui omnipotentem
+						<lb/>Deum metuit, nec contra euangelium, nec contra apostolos, nec contra prophetas
+						<lb/>vel sanctorum patrum instituta fieri aliquid consentit</hi>. Leo: <hi rend="italic">Qui alios ab
+						<lb/>errore non revocat, se ipsum errare demonstrat</hi>. Augustinus: <hi rend="italic">Quisquis metu alicuius
+						<lb/>potestatis veritatem occultat, iram Dei super se provocat quia magis timet hominem
+						<lb/>quam Deum</hi>. Item Innocencius: <hi rend="italic">Non caret scrupulo societatis occultae, qui manifesto
+						<lb/>facinori desinit obviare</hi>. Tot igitur sanctorum patrum terroribus, tot quasi tonitruis
+						<lb/>agitatus, necesse habuit aut Deum offendere aut scismaticorum erroribus non
+						<lb/>favere. Eadem ratione non praeteriit etiam laicos, quos vidit velut iniquitatum mole
+						<lb/>sepultos, quia non esset iustitiae de scismaticis agere et periuros et adulteros praeterire.
+						<lb/>Sic Gregorius Nazanzenus sentire videtur, qui de talibus disputans ait inter alia: <hi rend="italic">Illud
+						<lb/>generali intentione observandum puto, ut sicut iis, quibus per districtos in excelso
+						<lb/>funes incedere disciplina est, huc vel illuc declinare discrimen est, et deviare aliquantulum,
+						<lb/>quamvis illud perexiguum videtur, interitus est, omnis autem in eo salus est,
+						<lb/>sicut temtam vel directam incessus sui lineam teneant: ita in his nostris actibus in
+						<lb/>quamcumque quis partem, quacumque ex causa, declinaverit, sive hoc malitia, sive
+						<lb/>inperitia fecerit, ultimi periculi res est</hi>. Igitur via regia incedendum est, et neque his
+						<lb/>quae a dextris, neque illis quae a sinistris sunt intendendum. Credimus de non fovendis
+					<lb/>scismaticis et iniquis laicis arguendis ista sufficere.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XV.</head> <p>Restat iam nunc illud, quod praecipuum videtur et maximum, in quo sibi
+						<lb/>solent omnes applaudere dicentes: ?Quis umquam christianorum tot bella movit, tot
+						<lb/>homines interemit?? Bis namque terque et sepius inter Saxones et regem commissum
+						<lb/>est bellum, in quo ad minus quatuor milia vel octo milia hominum occiderunt. Locus
+						<lb/>omnis acervis corporum et sanguine redundavit. Substitit fluvius multitudine occisorum,
+						<lb/>et relicto prioris cursus alveo per agros erupit, maiorque visus est rivus sanguinis
+						<lb/>impetu fluminis. Stupuit terra super hoc et rem insolitam mirabatur, dolebat
+						<lb/>tot ex se genitos bellis occumbere, quos non naturae terminus, sed gladius occidisset.
+						<lb/>Quid igitur in iuditio dicturus erit, cum tot occisorum adversus eum sanguis clamabit:
+						<lb/>?Vindica, Domine, sanguinem, sanguinem nostrum, quia, promissam in tuo nomine fidem
+						<lb/>violare nolentes, pro dominis nostris animas dedimus. Bellum illud iustum fuerit vel
+						<lb/>iniustum, nos ea intentione pugnavimus, ne proditores tuae fidei videremur?. De rapinis
+						<lb/>quoque et incendiis aliisque gravibus incommodis et dampnis exinde subortis, quid
+					<lb/>homo miserabilis responsurus erit??</p>
+					<p><lb/>Talibus itaque obtrectationibus partem illam lacerant et apud imperitum vulgus
+						<lb/>iniustam demonstrant. Sed utinam postponerent opinionem suam, nec hominem illum
+						<pb n="546"/>
+						<lb/>suo iuditio et sensu, sed aequitatis lance pensarent. Revocent oculos cordis ad penetralia
+						<lb/>scripturarum, audiant ibi quod nesciunt, et discere studeant quod ignorant. Cessabunt
+						<lb/>rumores huiusmodi, cum divinis scripturis fuerint irrigati, et si ea quae dicuntur
+						<lb/>non animose, sed studiose audiant et acute perquirant. In talibus enim, ut ait Augustinus:
+						<lb/><hi rend="italic">Praecedat rationem auctoritas</hi>. Veniant igitur et patrem Augustinum diligenter
+						<lb/>audiant tollentem opiniones huiusmodi et disputationes vel contentiones talium amputantem.
+						<lb/>Dicat ipse quod sentiat et, quid sentiendum aestimet, innotescat. Satius est
+						<lb/>Augustino credere, quam sensu suo errare. Augustinus inter alia: <hi rend="italic">Absit</hi>, inquit, <hi rend="italic">ut
+						<lb/>ea quae propter bonum et licitum facimus aut habemus, siquid per haec praeter
+						<lb/>nostram voluntatem cuiquam mali acciderit, nobis imputetur. Unde nec reus est mortis
+						<lb/>alienae, si cum suae possessioni murum quis circumduxerit, aliquis ex ipso usu percussus
+						<lb/>intereat. Neque reus christianus, si bos eius aliquem feriendo, vel equus calcitrando
+						<lb/>aliquem occidat. Aut ideo non debent christiani boves habere cornua, aut
+						<lb/>equus ungulas, aut dentes canis?</hi> Item post pauca: <hi rend="italic">At vero, quoniam Paulus apostolus
+						<lb/>sategit, ut in tribuni notitiam perferretur et ob hoc deductores accepit armatos, si in
+						<lb/>illa arma scelerati homines incidissent, Paulus in effusione sanguinis eorum suum
+						<lb/>crimen agnosceret?</hi> Et post aliqua: <hi rend="italic">Num Christum causam perditionis eorum, ad
+						<lb/>quos missus est et qui vocem eius non audierunt, fateri praesumimus? Aut audemus
+						<lb/>ascribere Paulo stultitiam hominum et scandalum Iudeorum? Si templi quisquam
+						<lb/>tecta sarciret, si muros in altum duceret, vel quomodolibet meliorando mutaret, et
+						<lb/>ministrorum quispiam interiret, num bono animo hoc agenti illius interitum deputares?</hi>
+						<lb/>Item Ambrosius: <hi rend="italic">Qui non ex dispositione, sed praeter voluntatem fecerit vel consenserit
+						<lb/>fieri homicidium, divinae minister est ultionis</hi>. Item: <hi rend="italic">Qui necessitate aliqua
+						<lb/>coactus occiderit, quasi invitus occidit. Etsi quidem quae a nobis sunt, excusationem
+						<lb/>non habent, quae autem praeter nos sunt, excusabilia sunt</hi>. Item Augustinus: <hi rend="italic">Non
+						<lb/>mihi placet, ut omnes habeant occidendi licenciam, nisi forte sit miles, aut publica
+						<lb/>functione teneatur, ut non pro se hoc faciat, sed pro aliis vel pro civitate, ubi etiam
+						<lb/>ipse est, accepta legitima potestate, si eius congruit personae</hi>. Tot ergo scripturarum
+						<lb/>documentis instructi, tot auctoritatibus eruditi, desinant dicedere homicidam, qui non
+						<lb/>homicidium fecerit, sed ecclesiae pestem amputare quaesierit. Nam ipso docente
+						<lb/>commotum est bellum, non ipso volente. Stephano disputante Iudei ad lapides currerunt,
+						<lb/>nec solum currerunt, sed etiam miserunt in eum, in tantum, ut viso Iesu a
+						<lb/>dextris Dei obdormiret, factique sunt homicidae martiris quotquot saevierunt in martirem.
+						<lb/>Num culpa Iudeorum imputabitur Stephano, qui non eos lapides iacere voluerit,
+						<lb/>sed sanare? Simili ratione non submovit Henricum Yldebrandus a regno, quasi sitiret
+						<lb/>sanguine Teutonicorum, sed ut avaritiam aliquorum reprimeret, quibus gratis dari ecclesias
+						<lb/>inutile et insolitum videbatur. Nullus siquidem episcopatus, nullus denique ecclesiasticus
+						<lb/>honor, ut ante iam diximus, absque dominae pecuniae suffragio debebatur.
+						<lb/>Nec aliquid poterat gratia, si non arriderent metalla. Felix questus, ubi temporalium
+						<lb/>facultatum census dispergitur et aeternae mortis periculum generatur. Iam vero quanta
+						<pb n="547"/>
+						<lb/>vitiorum omnium exinde messis increvit, praetereundum putamus, quoniam superius
+					<lb/>satis de hoc disputatum est.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XVI.</head> <p>Fateantur ergo necesse est: aut de tot malis non fuisse silentium, quod
+						<lb/>manifeste verum est, aut de his fuisse locutum, si etiam quippiam inde mali processit,
+						<lb/>non esse vitii, sed virtutis. Nec etiam illud vitiosum videbitur, quod adversariis dicitur
+						<lb/>restitisse, si Augustini verba, quae superius praemisimus, diligenter inspexerint. Quibus
+						<lb/>ait: <hi rend="italic">Si ecclesia vera est, quae persecutionem patitur, non quae facit</hi> et cetera. Et
+						<lb/>post pauca: <hi rend="italic">Si boni et sancti viri nemini faciunt persecutionem, sed tantummodo
+						<lb/>paciuntur</hi> et alia quae subiungit. Quibus omnibus diligenter inspectis nulla super
+						<lb/>hoc dubitatio remanebit, cum non sit sanctorum virorum quantum ad se resistere adversariis,
+					<lb/>sed quantum ad tuendam iustitiam; quod mille documentis probari potest.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XVII.</head> <p>Proponunt deinde, cur excommunicatorum et scismaticorum sacramenta
+						<lb/>non recipienda mandaverit. Quibus breviter respondemus. Certum est, quod, attestantibus
+						<lb/>patrum consiliis, nemo excommunicato communicat, quin sit excommunicatus.
+						<lb/>Unde praecipiente Domino Moysi dictum est: <hi rend="italic">Separamini a tabernaculis hominum
+						<lb/>istorum durissimorum, et nolite tangere omnia quae sunt eis, ne simul pereatis
+						<lb/>in peccatis eorum</hi>. Quibus Spiritus sanctus contestatur per Osaeae prophetiam dicens:
+						<lb/><hi rend="italic">Sacrifitia eorum tamquam panis luctus, omnes qui manducant ea contaminabuntur</hi>.
+						<lb/>De his etiam pater Gregorius in primo Moralium: <hi rend="italic">Hereticorum</hi>, inquit, <hi rend="italic">sacrifitia
+						<lb/>accepta Deo esse nequeunt, nisi pro eis universalis ecclesiae manibus offerantur</hi>. Item
+						<lb/>Augustinus: <hi rend="italic">Sicut videndum est quod offeras et cui offeras, ita etiam considerandum
+						<lb/>est, ubi offeras, quia veri sacrifitii locus extra catholicam ecclesiam non est</hi>. Quod
+						<lb/>autem omnes scismatici ab ecclesia divisi sint, papa Gregorius astruit in XVIII° Moralium,
+						<lb/>ubi ait: <hi rend="italic">Alii prava de Deo sentiunt, alii recta de auctore tenent, sed unitatem
+						<lb/>cum fratribus non tenent; illi errore fidei, isti scismaticis perpetratione divisi</hi>. Item
+						<lb/>in eodem post pauca: <hi rend="italic">Qui</hi>, inquit, <hi rend="italic">de Deo recta sentiens a sanctae ecclesiae unitate
+						<lb/>divisus est, constat, quia proximum non amat, quem sotium habere recusat. Quisquis
+						<lb/>ergo ab unitate matris ecclesiae, sive per heresim de Deo male sentiendo, seu errore
+					<lb/>scismatis, proximum non diligendo dividitur, karitatis huius gratia privatur</hi>. </p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XVIII.</head> <p>His et aliis huiusmodi rationibus scismaticorum sacramenta recipi vetuit,
+					<lb/>nec solum eis communicare noluit, sed etiam alios ab eorum communione removit.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XVIIII.</head> <p>De ordinandis vero ecclesiis et investiendis, quod non sit principum,
+						<lb/>sed sacerdotum, documenta praemissa sufficerent, si aemulorum error multiplititer refellendus
+						<lb/>non esset. Sed ne putent nos defecisse, adhuc aliqua subiungamus. Felix
+						<lb/>Romanae sedis episcopus inter alia: <hi rend="italic">Si quis</hi>, inquit, <hi rend="italic">clericus saecularibus potestatibus
+						<lb/>usus ecclesiasticas dignitates per eas optinuerit, deponatur</hi>. Quamvis ex canone apostolorum
+						<lb/>aliqui id putent adsumptum, non a Felice decretum. Sanctus praeterea
+						<lb/>Ambrosius tam vehementer in eos invehitur, qui hoc ordine ad ecclesiae dignitatem
+						<lb/>perveniunt vel qui illos ordinare praesumunt, ut non verba, sed tonitrua protulisse
+						<lb/>putetur. Ait inter alia: <hi rend="italic">Quid ad aliquem principum pertinet, ea quae Domino sunt</hi>
+						<lb/>consecrata disponere? Et revera omnis ecclesia Deo dicata est. Si ergo non est tibi
+						<lb/>fas, alterius principis iura praeripere, quid ius divinum non metuis attrectare, quod
+						<pb n="548"/>
+						<lb/>non subiectioni tibi esse debeat, sed venerationi? Si Oziam ultio Domini perculit, quia
+						<lb/>quae non fuerant contingenda tractavit, tu Dei iuditium non horrescis, qui eius ius
+						<lb/>ordinare praesumis? Desinant ergo talia principes mundi sintque contenti suis, quia
+						<lb/><hi rend="italic">cuius nutu principantur seculo, eius etiam iuditio privabuntur</hi>. Arridet aurum, sed
+						<lb/>non arridet iuditium. Haec domnus Yldebrandus docuit, haec docenda mandavit, his
+						<lb/>omnes instruxit, erudivit et imbuit. Propterea fremuerunt in eum gentes, et populi
+						<lb/>meditati sunt inania. Ideo convenerunt adversus eum principes, et congregati in unum
+						<lb/>Italiae et Galliarum episcopi dampnationis in eum sentenciam protulerunt, Heinrico
+						<lb/>rege iubente et consensum praebente voluntati eorum. Sed quam hoc perversum
+						<lb/>fuerit, quis vel tenuissimi ingenii videre non possit? Dicit inter alia Iulius papa:
+						<lb/><hi rend="italic">Nullum iuditium nisi ordinabiliter habitum teneatur</hi>. Item in decretis: <hi rend="italic">Romanus
+						<lb/>pontifex a nemine iudicabitur</hi>. Item Augustinus de sermone Domini in monte:
+						<lb/><hi rend="italic">Temerarium iuditium plerumque nichil nocet ei, de quo temere iudicatur, ei autem
+					<lb/>qui temere iudicat, ipsa temeritas necesse est, ut noceat</hi>.</p>
+				</div>
+				<div type="chapter">
+					<head><lb/>XX.</head> <p>Verum quod cepimus prosequamur. Data, ut diximus, in Yldebrandum
+						<lb/>sentencia, et quantum in eis erat eodem ab apostolatu deiecto, quem super eum eligerent
+						<lb/>apostolicum sepe dictus rex et omnes sibi faventes episcopi diu habuere incertum.
+						<lb/>Metuebant enim sapienciam hominis, stupebant consilium, vivacitatem ingenii
+						<lb/>mirabantur, et quod maxime curae solet esse mortalibus, pecuniae in illo magnitudinem
+						<lb/>observabant. Satius enim credebant nil tale incipere, quam ceptum relinquere
+						<lb/>vel a cepto deficere. Tandem aliquando deliberato consilio apud Brixiam Noricam
+						<lb/>praefatus Heinricus rex, universis quos habere potuit adscitis episcopis, W[ibertum]
+						<lb/>Ravennatem episcopum in apostolatum promovit, virum nobilem non moribus minus
+						<lb/>quam genere, urbanitatis egregiae, summae prudenciae, consilio providum, scienciae
+						<lb/>praerogativa praecipuum, ingenii vivacitate praecelsum. Unde non inmerito dubitatum
+						<lb/>est, iure id fuerit, an non iure. Solent enim ordinacionem eius exprobrantes proponere:
+						<lb/>Si Ildebrandus, inquiunt, qui et Gregorius, in apostolatu erat, nec locus Petri
+						<lb/>vacabat, quia iudex a nullo potuit condempnari, manifestum est W[ibertum] nichil
+						<lb/>habere potestatis et iuris. Sicut enim beatus Ciprianus dixit scribens Magno presbitero:
+						<lb/><hi rend="italic">Ecclesia una est, quae intus et foris esse non potest. Si enim apud Novatianum
+						<lb/>est, apud Cornelium non fuit. Si autem apud Cornelium fuit, qui Fabiano
+						<lb/>episcopo legitima ordinatione successit, Novatianus in ecclesia non est nec episcopus
+						<lb/>computari potest</hi>. Talibus argumentis utuntur, huiusmodi de scripturis assertionem
+						<lb/>assumunt Ildebrandi causam volentes astruere et W[iberti] electionem irritam demonstrare.
+						<lb/>/*
+						<lb/>Sed quia Deo auctore quod promisimus exsecuti sumus, et in defensionem saepe
+						<lb/>nominati Ildebrandi ex diversis auctoribus multa congessimus, restat, ut ad secundam
+					<lb/>partem huius operis accingamur.</p>
+					<p><lb/>Prius tamen quam promissum fratribus debitum persolvamus, licet intentionis
+						<lb/>nostrae non fuerit et procul a proposito videatur, de fine eius aliqua subiungamus,
+						<lb/>quoniam omnis laus in fine canitur, et quomodo sine pedibus corpus, ita displicet
+						<pb n="549"/>
+						<lb/>sine fine principium. Igitur cum multa fuisset a rege Heinrico perpessus et in turri,
+						<lb/>quam vocant Crescencii, moraretur inclusus, Romanis tum viribus tum precio iam
+						<lb/>subactis, Robertus dux, a cardinalibus rogatus episcopis et Ildebrandi miseriam ingemiscens,
+						<lb/>quasi pietatis intuitu collegit hostem equitum et peditum, congregavit exercitum
+						<lb/>quasi XXX milia bellatorum. Deinde venturus Romam bellum et pugnae tempus
+						<lb/>Heinrico regi denunciavit per nuncios, se ad Ildebrandi liberationem intendere, illi
+						<lb/>vero aut ab obsidione cessandum aut pugnandum fore. Quibus auditis rex vehementer
+						<lb/>animo consternatus, vel quod imparatus esset ad proelium, vel quod impedimento temporis
+						<lb/>diucius morari non poterat - siquidem aestus erat -, statuit ab obsidione
+						<lb/>desistere et novum exercitum omniaque hosti necessaria ad hiemem proximam reparare,
+						<lb/>quod alii metu pugnae, alii formidine temporis accidisse putarunt. Quo ab obsidione
+						<lb/>regresso et in partibus Tusciae commorante, Robertus iam dictus dux, sicut
+						<lb/>coeperat, cum exercitu Romam venit, castra metatus foris muros urbis prope Lateranense
+						<lb/>palatium in loco, qui dicitur ad Arcus. Sequenti vero die latenter urbem ingressus,
+						<lb/>quibusdam Romanorum portam reserantibus, quam Pintianam dicunt, tecte
+						<lb/>Castellum adiit, quod alio nomine Turris Crescentii vocatur, indeque sepe nominatum
+						<lb/>Ildebrandum educens ad castra perduxit. Post haec bello cum Romanis commisso,
+						<lb/>maximam urbis partem incendit, civium plurimos interfecit, ecclesias subruit, mulieres
+						<lb/>coniugatas et simplices, vinctis post tergum manibus, violenter prius oppressas ad
+						<lb/>tabernacula adduci praecepit. Quibus ludibriis populus Romanus offensus, conflavit in
+						<lb/>Ildebrandum inexorabile odium, et totum sui animi in regem Heinricum transfudit
+						<lb/>affectum, tantoque dilectionis vinculo sibi obstrictus est, ut pluris fuisset regi ludibrium
+						<lb/>Romanorum, quam centum milia aureorum. Robertus ergo dux penitencia
+						<lb/>ductus, quod cum Romanis proelium commisisset quodque tantis urbem affecisset iniuriis,
+						<lb/>primo simulans emendationem et iniuriae vicissitudinem et rerum omnium restitutionem,
+						<lb/>deinde nichil profitiens, quoniam populi cor obduratum erat, statuit urbem
+						<lb/>relinquere et cedere finibus Romanorum. Inde Tiburtinos aggressus volens eos cogere
+						<lb/>ad deditionem, non procul ab urbe fixis tentoriis, maxime ob iniuriam Clementis apostolici,
+						<lb/>qui tunc temporis morabatur in illa, arbores succidit, depopulatus est messes,
+						<lb/>incendit domos et quicquid potuit hominum obtruncavit. Sed cum nichil procederet,
+						<lb/>quoniam civitas freta multitudine bellatorum expugnari non poterat, Salernum redire
+						<lb/>decrevit, praefatum Ildebrandum deducens in comitatu suo. Qui cum fuisset Salerni
+						<lb/>aliquamdiu commoratus, duce occupato aliis, cum non multo post moliretur Urbem
+						<lb/>repetere et in multitudine gravi Roberto comitante Romanos subicere, inter ipsos
+						<lb/>bellorum et commeatuum apparatus langore correptus et ad extrema perductus, cum
+						<lb/>iam in ultimis ageret, abbate Montis Cassinensis ad apostolatus successionem impulso,
+						<lb/>diem clausit extremum. Quem spectabilis dux defunctum agnoscens, convocato civitatis
+						<lb/>archiepiscopo, clero et populo, vigiliarum et psalmodie offitiis ex ordine celebratis
+						<lb/>et rite peractis, in basilica sancti Mathei apostoli, quae tunc noviter condebatur, corpus
+						<lb/>eius humavit, exsequias illius honestissime prosecutus. Haec, ut supra diximus, quasi
+						<pb n="550"/>
+						<lb/>ex habundanti subiunximus, cum procul a proposito viderentur. Sed nemo inconveniens
+						<lb/>arbitretur, si cuius vitam breviter pinximus, finem paucis absolvimus. Hic
+						<lb/>Ildebrandi finis et assertio gestorum eius. Reliqua huius operis, quae in praefatione
+					<lb/>promisimus, divina largiente gratia, prosequamur.</p>
+					<p><lb/>EXPLICIT LIBER I. </p>
+				</div>
+			</div>
+		</div>
+		<div type="book">
+			<div>
+				<p><lb/>INCIPIT PRAEFACIO LIBRI SECUNDI. </p>
+				<p><lb/>Primam huius operis partem, sicut Dominus aspiravit, pro captu nostro digessimus,
+					<lb/>in qua sicut promissi ratio exigebat, Ildebrandi causam multis scripturae documentis
+					<lb/>astruere curae fuit. Memineram enim in praefatione promissum, ut primo quidem
+					<lb/>partem eius defenderem, et quae dicuntur in illum certis rationibus propulsarem.
+					<lb/>Quod si non ut volui feci, feci tamen ut potui. Si quid igitur lector meus invenerit
+					<lb/>praetermissum, si quid incultum, si quid neglectum, inperitiae, non neglegentiae deputabit
+					<lb/>et inpossibilitatem pocius criminabitur quam affectum. Non quaerit Deus ab
+					<lb/>homine maiora quam possit, et ut ait apostolus: <hi rend="italic">Si voluntas promta est, secundum id
+					<lb/>quod habet accepta est, non secundum id quod non habet</hi>. Parcant ergo mihi auditores
+					<lb/>mei et semper meminerint, non esse cuiuslibet hominis scire omnia, sed inter
+					<lb/>omnes homines omnem haberi scienciam. Nam alius fabricandi peritus, scribendi
+					<lb/>notitiam nullam habet, nec saltim litterarum figuras novit. Alius autem scribendi
+					<lb/>gnarus, nec malleum novit aliquando nec incudem. Alius vero habilis ad canendum,
+					<lb/>quid psallat ignorat. Alius vero distinctior ad legendum, quid proferat nescit. Alius
+					<lb/>vero quae leguntur intelligit, sed legendi peritiam non accepit. Sic diversa diversis
+					<lb/>natura contulit, non autem uni cuncta concessit, et, ut ait in rethoricis Tullius, <hi rend="italic">tamquam
+					<lb/>non sit natura habitura quod alii largiatur, si uni cuncta concesserit, aliud
+					<lb/>alii commodi aliquo adiuncto incommodo muneratur</hi>. Ignoscant itaque parvitati meae
+					<lb/>quorum iussionibus pareo, et dominum Iesum in commune precentur, ut qui scribendi
+					<lb/>dedit affectum, loquendi facultatem indulgeat. Sed iam tempus est, ut errorem
+					<lb/>longe lateque diffusum et per multas iam provintias propagatum certis auctorum testimoniis
+					<lb/>inrecuperabiliter condempnemus. Noverit autem quicumque lecturus accesserit,
+					<lb/>quod quasi morem dialogi retinentes duas personas admittimus: proponentis unam,
+					<lb/>alteram respondentis, auditorum utilitatibus providentes, ut hoc scribendi genere rei
+					<lb/>veritas facilius digeratur. Ubique igitur P. scriptum invenerit, proponentem intelligat,
+				<lb/>ubi vero R. notatum invenerit, respondentem accipiat.</p>
+				<p><lb/>EXPLICIT PRAEFACIO. </p>
+			</div>
+			<div>
+				<p><lb/>INCIPIUNT CAPITULA. </p>
+				<p><lb/>I. Qua ration[e] . condempne . . . . . . . . . .
+				<lb/>..[q]uave . . . .</p>
+				<p><lb/>II. Quod in . . [ha]bita post el[ectionem]. . . . .
+				<lb/>meri . </p>
+				<p><lb/>III. Q. . .</p>
+				<p><lb/>IIII. Quod e . quod ex . .
+				<lb/>debuit. . . </p>
+				<p><lb/>V. Quod eum per ve . .contra pat . . . . . . . . . .
+				<lb/>tulerit. . .</p>
+				<p><lb/>VI. Quod ratio. . reges ali . . . . . . . . . . .
+				<lb/>et a regni dign[itate]. . .</p>
+				<pb n="551"/>
+				<p><lb/>VII. Quod electio vel creatio Rodulfi regis contra Deum et homines fuerit.</p>
+				<p><lb/>VIII. Quod non debuerit Teutonicos adversum regem inmittere ad pugnandum et
+				<lb/>persecutionem egisse in eundem.</p>
+				<p><lb/>VIIII. Quod non debuisset absolvere Teutonicos a vinculo sacramenti, quod regi
+					<lb/>debebant, et quod non debeat esse perversitas domini militibus suis causa
+				<lb/>periurii.</p>
+				<p><lb/>X. Quod debuerit scismaticos et adulteros et alios huiusmodi corripere, arguere,
+				<lb/>non in eos persecutionem movere.</p>
+				<p><lb/>XI. Qualiter defendatur apostolatus domni Clementis et eius eleccio.</p>
+				<p><lb/>XII. Quod consideratione futurae discordiae et perturbationis silere debuerit de
+				<lb/>perversitatibus plurimorum clericorum laicorumque.</p>
+				<p><lb/>XIII. Quod omnia bella Teutonicorum et cedes et sanguis...</p>
+				<p><lb/>XIIII.. iis non de .. .</p>
+				<p><lb/>XV.. namque doct .. pienda sacra
+					<lb/>.. riorum ..
+					<lb/>..
+					<lb/>..regem .. rum ecclesi
+				<lb/>..</p>
+				<p><lb/>EXPLICIUNT CAPITULA. </p>
+			</div>
+			<div>
+				<p><lb/>INCIPIT LIBER SECUNDUS. </p>
+				<p><lb/><hi rend="italic">P .. atione .. uerit Ildebrand</hi>
+					<lb/>.. adhuc ad . . g .. u, qui eius electionem
+					<lb/>arguere moliuntur. Nichil enim apud me cercius fuit vel erit, quam quod ipse legitime
+					<lb/>Alexandro successit, et hoc tam luculentissimis testimoniis nititur, ut nullus scrupulus
+					<lb/>relinquatur. Si quid tamen est, quod adversus electionem eius dici valeat, si
+				<lb/>quid est, in quo reprehensibilis videatur, ostendere non sit honerosum.</p>
+				<p><lb/><hi rend="italic">R</hi>. Duo in eius electione concurrunt, quae non inmerito ab aliquibus arguuntur.
+					<lb/>Sed horum alterum certum, alterum incertum est. Aiunt enim, quod ?Nicholaus
+					<lb/>Romanae sedis episcopus, congregatis episcoporum plurimis, centum scilicet viginti
+					<lb/>tribus, mira necessitate compulsus communiter sancxerit et salubriter ordinaverit, ut
+					<lb/>quicumque deinceps ad apostolatum animum intendisset, vel eleccioni cuiuslibet apostolici
+					<lb/>prebuisset assensum et operam inpendisset absque consensu et opera christiani
+					<lb/>principis, Heinrici scilicet imperatoris et successorum eius, perpetui anathematis sentenciam
+					<lb/>excepisset. Id autem ea necessitate decretum est, quod omnes Romani
+					<lb/>comites, sicut semper fuit avaricia Romanorum, decedente Romanae sedis episcopo,
+					<lb/>singuli, prout ferebat animus singulorum, singulos apostolicos eligebant, ut interdum
+					<lb/>quatuor et quinque episcopos Romana sedes haberet. Hinc contentiones innumerae,
+					<lb/>caedes et bella, turbationes et iurgia exoriri. Fretus quisque multitudine militum et
+					<lb/>suffragio propinquorum, quicquid Romanae ecclesiae poterat rapiebat. Distrahebatur
+					<lb/>praedium Romanae sedis in partes innumeras, et is novissime omnium probatissimus
+					<lb/>et melior apostolicus habebatur, qui maiorem Romanis pecuniam contulisset. Hic ab
+					<lb/>omnibus laudabatur, excipiebatur moenibus, aliis extra vagantibus, factaque erat sedes
+					<lb/>Petri in diversorium Simonis, et quod ante fuerat gratiae, iam pecuniae videbatur.
+					<lb/>Tandem sicut Domino placuit, Gerardus Florentinae sedis episcopus, natione Burgundicus,
+					<pb n="552"/>
+					<lb/>omnium desiderio et consensu ad apostolatum promotus, ab omni clero et
+					<lb/>cardinalibus confirmatus, dictus alio nomine Nicholaus, Romanae ecclesiae miseriam
+					<lb/>ingemiscens et symoniacae hereseos periculum expavescens, volens huiusmodi perversam
+					<lb/>consuetudinem ex Dei virtute succidere, synodum statuit, in qua confirmantibus
+					<lb/>omnibus iuxta modum superius comprehensum anathema constituit. Cuius exempli
+					<lb/>formam Romae legimus, et episcoporum omnium nomina, qui causae intererant,
+					<lb/>subter notata conspeximus. Decreti ergo huius constitutione neglecta, et anathematis
+					<lb/>cura postposita, non expectato regis assensu, mentem ad apostolatum Ildebrandus
+					<lb/>intendit, seque anathematis vinculis et omnes suos complices obligavit?. Hinc
+					<lb/>igitur electionem illius improbant, arguunt et condempnant, nec eam electionem, sed
+					<lb/>deiectionem vocant: quia aut constitutio illa synodalis Nicholai papae iniusta videbitur,
+					<lb/>quod dici nefas est, quia nichil iniustum Romana sedes aliquando promulgavit
+					<lb/>nec aliquid impium Deo auctore constituit; aut si iusta fuit - et Romanae ecclesiae
+					<lb/>salva fide novum aliquid condere semper licuit et licebit - constat Ildebrandum non
+				<lb/>iure electum et maledictionis illius incurrisse periculum.</p>
+				<p><lb/><hi rend="italic">P</hi>. Tu vero, quid in hoc sencias, dicito.</p>
+				<p><lb/><hi rend="italic">R</hi>. Fateor plane quod sentio et in quo a sacris auctoribus non discordo. In
+					<lb/>sexta quidem synodo legitur promulgatum, quod in electione pontificis non sit regis
+					<lb/>expetendus assensus. Qui ergo ita sentit, verum quidem asserit, sed illi constitutioni
+					<lb/>penitus non occurrit. Primo quidem, si ita tempus sineret, expetendus non esset. Si
+					<lb/>autem tempus non patitur, si futura turbatio praevideatur, nisi regis praebeatur assensus,
+					<lb/>melius puto salva pace ecclesiae regis expetendum assensum, quam summum scandalum
+					<lb/>fieri non petito. Multa huiusmodi scripturae loquuntur, nec egemus exemplis.
+					<lb/>Sepe enim a patribus scriptum traditur, quod ipsis eisdem mutantibus variatur. Et
+					<lb/>quod ab ipsis prohibitum legitur, ab eisdem factum postea memoratur. Paulus siquidem,
+					<lb/>vas electionis et gencium advocatus, qui de se dicit: <hi rend="italic">An experimentum eius
+					<lb/>quaeritis, qui in me loquitur Christus?</hi> volens evacuare legem et Christi gratiam commendare,
+					<lb/>ut ostendat ex operibus legis quemquam iustificari non posse, contestatur
+					<lb/>dicens: <hi rend="italic">Si circumcidamini, Christus vobis nichil prodest, et circumcisio nichil est, sed
+					<lb/>observatio mandatorum Dei</hi>. Isdem tamen postea Listris et Yconium transiens, Timotheum
+					<lb/>gentili patre editum circumcidit, nudipedalia exercuit, crines totondit. De
+					<lb/>sacerdotibus quoque lapsis in carnis peccatum diversa patres constituisse leguntur,
+					<lb/>prout temporis qualitas exigebat, in tantum, ut unus idemque auctor a se ipso nonnumquam
+					<lb/>discrepasse putetur. Nam aliud Calistus loquitur, aliud Hormisda; vero et
+					<lb/>ceteri omnem restituendi spem et facultatem obtruncant. Quae omnia si quis scire
+					<lb/>voluerit, ex libris eorum poterit cercius invenire. Gregorius quoque doctor egregius
+					<lb/>aliter Iohannem episcopum Caralitanum instituit, aliter Secundinum instruxit. Scribens
+					<lb/>enim Iohanni episcopo ait inter alia: <hi rend="italic">Pervenit ad nos quosdam in sacris ordinibus</hi>
+					<lb/>constitutos lapsos in carnis peccatum vel ante actam penitenciam vel post actam
+					<lb/>ad sacros ordines remeasse, quod omnino fieri prohibemus. Generali igitur sanccione
+					<pb n="553"/>
+					<lb/>decernimus, ut quisquis in sacro ordine constitutus lapsus fuerit in carnis peccatum,
+					<lb/><hi rend="italic">sacro ordine ita careat, ut ad eum ulterius non accedat</hi>. De eodem quoque a Secundino
+					<lb/>consultus longe aliter respondit. De talibus enim ait inter alia: <hi rend="italic">Post dignam
+					<lb/>satisfactionem credimus posse redire ad honorem, propheta dicente: ?Numquid qui
+					<lb/>cadit non adiciet ut resurgat??</hi> Sunt praeterea innumerabilia quae passim in scripturis
+					<lb/>invenies iuxta diversitates temporum diverse a patribus tradita; quorum habundamus
+					<lb/>exemplis. Unde non debet absurdum videri, si quod ab aliis patribus est certa
+					<lb/>de causa prohibitum a praedicto summae sedis pontifice fuerit necessario institutum.
+					<lb/>Demum si in electione pontificis impedimentum affert regis assensus, quid in eleccione
+					<lb/>Gregorii nocuit assensus Mauritii? Scriptum quippe de eo legitur, quod audita
+					<lb/>eleccione cleri et populi, quam in Gregorium fecerant, plurimum exultaverit, maxime
+					<lb/>quod filius eius de sacro fonte susceperit dataque praeceptione eum praecepit ordinari.
+					<lb/>Utinam Heinrico rege praebente consensum fuisset Ildebrandus electus, ut non
+				<lb/>tanta emersisset tempestas bellorum, et pace sua christiana religio potiretur!</p>
+				<p><lb/><hi rend="italic">P</hi>. Quia de uno satis dictum existimo, quod eius electionem improbare videatur,
+				<lb/>alterum, sicut proposueras, explicato.</p>
+				<p><lb/><hi rend="italic">R</hi>. Diximus duo in eius eleccione concurrere et aliud certum, aliud incertum
+					<lb/>esse. Testantur quidem qui fuere praesentes, quod Alexandro defuncto sequenti
+					<lb/>nocte tesauros suos eduxerit, multumque peccuniae per Romanos effuderit, satellitium
+					<lb/>fecerit, atque ita egerit, ut Alexandro nondum humato eligi quadam violentia omnium
+					<lb/>debuisset. Quod et factum est. Nam mane facto, calente adhuc Alexandri corpore
+					<lb/>nec sepulto, sicut nocte provisum fuerat et consultum, concursus factus est populi,
+					<lb/>Ildebrandus capitur, Yldebrandus discerpitur, Ildebrandus distraitur, Ildebrandus eligitur.
+					<lb/>Si eius studio, utique vitiosum; si eo nolente, reprehensioni nullus est locus.
+				<lb/>Ego vero, quia rem incertam habeo, absolute de ea iudicare non possum.</p>
+				<p><lb/><hi rend="italic">P</hi>. Interim electione postposita, quia suffitienter de illa dictum est, scire velim,
+					<lb/>utrum sese apostolatu privaverit, sicut plurimi putaverunt. Aiebant enim, quod
+					<lb/>?vere iudex a nullo iudicari potuerit, nec ipse a quoquam fuerit iudicatus, sed si etiam
+				<lb/>papa fuit, semet ipsum tamen ipse dampnaverit?.</p>
+				<p><lb/><hi rend="italic">R</hi>. Perfacilis patet ad ista responsio. Si enim fides est adhibenda scripturis,
+					<lb/>sicut revera est, evidenti ratione probabitur, quod sese apostolica dignitate privaverit.
+					<lb/>Faciamus illum fuisse papam, quamquam non fuerit: sed <hi rend="italic">qui permissa sibi abutitur
+					<lb/>Potestate</hi>, teste papa Simplicio, <hi rend="italic">privilegium meretur amittere</hi>; et <hi rend="italic">ligandi solvendique
+					<lb/>potestate se privat</hi>, ut sanctus Gregorius nunciat, <hi rend="italic">qui non hanc pro subiectorum
+					<lb/>meritis, sed pro sua voluntate illam exercet</hi>. At ille et permissa sibi abusus est potestate,
+				<lb/>et non pro subiectorum meritis, sed pro sua voluntate illam exercuit.</p>
+				<p><lb/><hi rend="italic">P</hi>. Velim probari mihi quod proponis, quod permissa sibi abusus fuerit potestate.
+				<lb/>Quia cum hoc constiterit, papam illum non fuisse vel esse desisse constabit.</p>
+				<pb n="554"/>
+				<p><lb/><hi rend="italic">R</hi>. Si contra sanctorum patrum regulam vixit et docuit, si non ea moderatione,
+					<lb/>qua decuit, dignitatem apostolicam, si in ligandis aliquibus et solvendis non iustitiam,
+					<lb/>sed suam voluntatem attendit, permissa sibi potestate abusus fuit. Sed hec
+				<lb/>ita fuerunt.</p>
+				<p><lb/><hi rend="italic">P</hi>. Paulatim progredere, et ita sicut sunt proposita prosequaris.</p>
+				<p><lb/><hi rend="italic">R</hi>. Et primo quidem contra sanctorum patrum regulam vixisse probatur, post
+					<lb/>vero contra eandem docuisse, suo loco monstrabitur. ?Ideo videlicet quoniam a puero
+					<lb/>terrenae militiae studuit, rebus bellicis semper operam inpendit, multimodis sese
+					<lb/>homicidiis immiscuit, sacrilegio se polluit, periuriis obligavit. Super haec in parentes
+					<lb/>filios armavit, milites in reges inmisit, servos in dominos concitavit, pacem ecclesiae
+				<lb/>toto orbe removit?.</p>
+				<p><lb/><hi rend="italic">P</hi>. Vere contra patrum regulam vixit, si haec omnia illum fecisse constiterit.
+					<lb/>Sed velim mihi notum fieri, quod ista vere fecerit et quid de his patres sancti testati
+				<lb/>fuerint.</p>
+				<p><lb/><hi rend="italic">R</hi>. Quod terrenae militiae studuerit et bellis semper operam dederit, omnium
+					<lb/>Romanorum sibi contemporalium testimonio comprobatur. ?Nam cum adhuc adulescentulus
+					<lb/>monachus diceretur, magnam sibi peccuniam congregavit et quasi sub specie
+					<lb/>defendendi et liberandi Romanam ecclesiam satellitium fecit et, sicut solebat apud
+				<lb/>Romanos antiquitus fieri, donativa sua singulis militibus erogabat?.</p>
+				<p><lb/><hi rend="italic">P</hi>. Si pro liberatione Romanae ecclesiae miliciae studebat, quis divinorum auctorum
+				<lb/>hoc reprehensibile iudicabit?</p>
+				<p><lb/><hi rend="italic">R</hi>. Audi quid sentiat inde ?Hieronimus: <hi rend="italic">Columba</hi>, inquit, <hi rend="italic">si viderit aliam avem
+					<lb/>trahere cibum a nido eius, non movet pennam neque ungulam neque rostrum, neque
+					<lb/>crocitat. Sic ecclesia Dei, quae vera columba est, non repetit raptam et sicut ovis
+					<lb/>tunicam dimittit tondenti se neque aperit os, sic ecclesia raptori extollenti sua non
+					<lb/>debet repetere, sed cum patiencia dimittere. Quanto terrenis ecclesia minuitur, tanto
+					<lb/>spiritalibus augetur</hi>. Item Iohannes papa ad Angelbergam imperatricem excusans
+					<lb/>quendam episcopum Reatinum de milicia: <hi rend="italic">Nimium</hi>, inquit, <hi rend="italic">veretur et certe iure formidat
+					<lb/>contra professionem sui ordinis secularem militiam exercere; terram defendere
+					<lb/>praeliis, tractare de armis terrenae est potestatis</hi>. Item Hieronimus: <hi rend="italic">Si pro fide, qua
+					<lb/>universalis vivit ecclesia, nusquam corripi ferrea arma conceditur, quomodo pro
+					<lb/>terrenis ac transitoriis ecclesiae facultatibus loricatae acies in gladios debachantur?
+					<lb/>Ad hanc formam etiam Petrus, qui ecclesiae personam gerebat, cum cuiusdam inobedientis
+					<lb/>aurem abscideret, ferire prohibitus est et gladium iussus est in vaginam
+					<lb/>recondere</hi>. Item papa Innocencius: <hi rend="italic">Idumei quidam et Damasceni sanguinem sitientes</hi>
+					<lb/>ita sunt nimis iniusti atque crudeles, ut etiam sacerdotibus concedant armis ulcisci
+					<pb n="555"/>
+					<lb/><hi rend="italic">et praeliorum consiliis immiscere</hi>. Quod vero rebus bellicis danda sibi opera non fuisset,
+					<lb/>sanctus testatur Ambrosius: <hi rend="italic">Bellicarum</hi>, inquit, <hi rend="italic">rerum studium a nostro offitio prorsus
+					<lb/>videtur alienum, quia animi magis offitio, quam corporis intendimus, nec ad arma
+				<lb/>iam spectat usus noster, sed ad pacis negocia?</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Optime mihi video satisfactum, quod nec pro liberandis vel defendendis
+					<lb/>ecclesiae facultatibus terrenae militiae studere debuerit, nec belli operam inpendisse
+					<lb/>convenerit. Tantum cetera quae proposuisti prosequere, videlicet quod multimodis
+				<lb/>sese homicidiis immiscuerit, sacrilegio sese polluerit, periuriis obligaverit.</p>
+				<p><lb/><hi rend="italic">R</hi>. Primo velim mihi respondeas, si possit homicida vel periurus iure vocari,
+					<lb/>qui ad homicidium vel ad periurium perpetrandum alios impulerit et qui talia perpetrari
+				<lb/>praeceperit?</p>
+				<p><lb/><hi rend="italic">P</hi>. Ita divinae scripturae sentire videntur et omnium divinorum eloquiorum in
+				<lb/>hoc sibi testimonia concinunt. Quae cum non adeo in promtu, a te doceri desidero.</p>
+				<p><lb/><hi rend="italic">R</hi>. Pater Augustinus: <hi rend="italic">Nichil aliud est cum male facientibus male facere,
+					<lb/>quam eorum iniquitatibus consentire et quod male faciunt approbare</hi>. Item Innocensius
+					<lb/>papa: <hi rend="italic">Negligere</hi>, inquit, <hi rend="italic">cum possis devitare vel deturbare perversos, nichil est
+					<lb/>aliud quam fovere, nec caret scrupulo societatis occultae, qui manifesto facinori desinit
+					<lb/>obviare</hi>. Pius papa: <hi rend="italic">Quid prodest</hi>, inquit, <hi rend="italic">illum suo errore non pollui, qui consensum
+					<lb/>praestat erranti? Sine dubio enim contra mandata dimicat et qui peccat et
+				<lb/>qui consensum praebet peccanti</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Constat eum et homicidam et periurum posse vocari, qui aliis homicidii vel
+					<lb/>periurii auctor extiterit. Sed quando et ubi et quomodo talium auctor extiterit, nosse
+					<lb/>velim, et quid super his auctores divinorum eloquiorum sentiant, exponere non sit
+				<lb/>honerosum.</p>
+				<p><lb/><hi rend="italic">R</hi>. In eo malorum istorum omnium reatum contraxit, quod Rodulfum in regem
+					<lb/>creari super hunc dominum suum praecepit, cui sepius multes sacramentis obstrinxit
+					<lb/>se; quod etiam omnes alios Teutonicorum principes a sacramentis, quae eidem Heinrico
+					<lb/>domino suo debebant, absolvit et ad pugnam cum illo habendam mandatis et litteris
+					<lb/>et crebris nunciis incitavit. In eo vero se sacrilegio polluit, quod ecclesiasticam
+					<lb/>illi peccuniam ab oratoribus Petro missam direxit, et ad conflationem maioris odii
+				<lb/>sepissime destinavit.</p>
+				<p><lb/><hi rend="italic">P</hi>. Ut de homicidiis Teutonicorum et periuriis interim sileas, quis auctorum
+				<lb/>sacrilegium nominavit peccuniam ecclesiae Teutonicis missam?</p>
+				<p><lb/><hi rend="italic">R. ?Par</hi>, inquit Hieronimus, <hi rend="italic">sacrilegio est rem pauperum dare non pauperibus.
+					<lb/>At vero quicquid episcopus habet, pauperum est</hi>. Item beatus Ambrosius: <hi rend="italic">Non</hi>
+					<lb/>ausim dicere quisquam meum nec ecclesia profiteri quicquam suum, quia et quod
+					<lb/>meum est pauperum est et quod habet ecclesia, non ad usum suum, sed ad usus
+					<pb n="556"/>
+					<lb/><hi rend="italic">omnium habere debet</hi>. Item Augustinus: <hi rend="italic">Sicut non licet mitti in corbonam precium
+				<lb/>sanguinis, ita non licet exire?</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. De sacrilegio nichil iam dubito, quin sacrilegium dici possit, si quis aecclesiae
+					<lb/>peccuniam, cum sit pauperum, non pauperibus effudit, ac per hoc iure sacrilegum
+					<lb/>illum dixerim, si peccuniam aecclesiae missam ab oratoribus Teutonicis ducibus direxit.
+					<lb/>Sed si creatio Rodulfi regis, quam suo praecepto factam dicis, culpabilis fuerit, et si
+				<lb/>reprehensibilis sit in pugna Teutonicorum, quam fieri mandavit, ex te doceri velim.</p>
+				<p><lb/><hi rend="italic">R</hi>. Audi non mea, sed quae est divinorum eloquiorum auctoritas. Dic de his,
+					<lb/>Ambrosi, quod sentis. ?In libro de offitiis de David et Saule rege: <hi rend="italic">Bonus vir qui
+					<lb/>dixit: Si reddidi retribuentibus mihi mala?. Quae enim gloria, si eum non ledimus,
+					<lb/>qui nos non leserit? Sed illa virtus est, si lesus remittas. Quam honestum, qui
+					<lb/>cum potuisset inimico regi nocere, maluit parcere! Quam etiam utile, quod successoribus
+					<lb/>profuit, ut discerent omnes fidem proprio regi servare nec usurpare imperium,
+				<lb/>sed vereri!?</hi> </p>
+				<p><lb/><hi rend="italic">P</hi>. Nulla dubitatio relinquitur, si beati Ambrosii documenta spectemus, quin
+					<lb/>creationem Rodulfi regis dampnabilem asseramus, ac per hoc etiam militum aliorum
+					<lb/>pugnam adversus Heinricum dominum suum commissam culpabilem iudicabimus, qui
+					<lb/>dominum suum non bellis et armis impetere, sed vereri debuerunt. Sed quid, si
+					<lb/>dicatur Ildebrandus non illa bella mandasse nec fieri voluisse, sed potestatem regi,
+					<lb/>qua male utebatur, auferre voluisse et transtulisse ad alium, sicut nec Pilatus Christum
+					<lb/>mori praecepit, ante cuius tamen oculos interfectus fuit? Quid adversus ista
+				<lb/>poterit responderi?</p>
+				<p><lb/><hi rend="italic">R</hi>. Non ego respondere tam ineptis excusationibus valeo, sed pater Augustinus
+					<lb/>det ad istam responsum: <hi rend="italic">?Itane</hi>, inquit, <hi rend="italic">obduruistis, falsi Hisraelitae? ita omnem
+					<lb/>sensum malitia nimia perdidistis, ut ideo vos a sanguine impollutos esse credatis, quia
+					<lb/>eum fundendum alteri tradidistis? Numquid et Pilatus illum, qui potestati eius ingeritur
+					<lb/>occidendus, suis est manibus occisurus? Si non eum voluistis occidi, si non
+					<lb/>insidiati estis, si non vobis tradendum peccunia comparastis, si non comprehendistis,
+					<lb/>vincxistis, adduxistis, si non occidendum manibus obtulistis, vocibus poposcistis, non
+					<lb/>eum a vobis interfectum esse iactate</hi>. Quod ei suisque complicibus aeque dici potest:
+					<lb/>si non coronam Rodulfo misistis, si non legatis et litteris pugnam movistis, si non
+					<lb/>insidiati estis, si milites in dominum non armastis, si Romanam illuc peccuniam non
+					<lb/>misistis, si non consuluistis iniustis, si haec omnia non fecistis, non eos a vobis
+					<lb/>interfectos iactate. <hi rend="italic">Noli</hi>, inquit idem pater Augustinus, <hi rend="italic">attendere inermes manus,
+					<lb/>sed os armatum, unde gladius processit, unde Christus occidetur. Filii hominum
+				<lb/>dentes eorum arma et sagittae, et lingua eorum gladius acutus?</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Constat per haec omnia, quae ex divinis auctoribus protulisti, et pugnam
+					<lb/>illam fuisse culpabilem et Ildebrandum de illo tanto homicidio excusari non posse, si
+					<lb/>vel illud mandavit fieri vel, cum praesciret futurum, non interdixit. Quocirca velim
+					<lb/>de periuriis eorumdem Teutonicorum aliqua prosequaris, si divinorum auctorum testimoniis
+					<pb n="557"/>
+					<lb/>refellantur; quia si divinis auctoritatibus condempnantur, et ?illa Ildebrandi absolutio,
+					<lb/>qua per legatos milites regis absolvit, contra divinas leges fuit, et sese profecto
+				<lb/>periurii illorum vinculis obligavit?.</p>
+				<p><lb/><hi rend="italic">R</hi>. ?Beatus Augustinus: <hi rend="italic">Nulla iuratio, si contra pietatem non fiat, frangenda
+					<lb/>est, quod maiorum ac veterum sanctorum exemplis probari potest. Nonne Abraham
+					<lb/>regi Gerare Abimelech quod convenerat iuravit, et quod iuraverat reddidit? Nonne
+					<lb/>Ysaac invidentibus sibi in Palestinis et persequentibus sacramento, quo se illis obstrinxerat,
+					<lb/>satisfecit? Nonne Iacob, patris et avi sequutus exemplum, cum Laban
+					<lb/>socero idolorum cultore sub eadem iuramenti securitate in pacem rediit? Similiter
+					<lb/>actum est cum Rahab, impiae civitatis incola, gentis, quae Deum ignorabat, alumna,
+					<lb/>infamis quaestus nomine denotata. Nam populus Dei secum iurametum religiose
+					<lb/>iniit, humiliter recognovit, auctore Iosue fideliter adimplevit. Dixit enim duobus exploratoribus
+					<lb/>qui missi fuerant: ?Ingredimini domum mulieris meretricis et producite
+					<lb/>eam omniaque quae illius sunt, sicut ei iuramento firmastis?. Sic Gabaonitis iuramentum
+					<lb/>arte quaesitum et fraudulenter elicitum populus Domini, etiam comperta
+					<lb/>eorum fraude, Iosue consulente, servavit. Qui dixit eis: ?Non iuravimus eis in ydolis,
+					<lb/>sed in nomine Dei Israel?</hi>. Item Augustinus: <hi rend="italic">Cave tibi a periurio, quia precipicium
+					<lb/>est, et ideo noli quod iuravimus qualibet occasione violare, quia sicut recedit anima,
+					<lb/>cum corpus feritur gladio, sic recedit Deus, cum anima feritur periurio; et sicut
+				<lb/>corpus moritur, cum recedit anima, sic anima moritur, cum recedit Deus?</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Nichil cercius esse potest, quam illam solutionem fuisse vanam et stultam,
+					<lb/>ac per hoc illorum periuriorum Ildebrandum incurrisse reatum et iure dici posse, sicut
+					<lb/>homicidam, ita quoque periurum. Quapropter, quia praemissis superioribus rationibus
+					<lb/>constat eum contra patrum vixisse regulam, alia duo, quae simul proposuisti, probare
+					<lb/>non differas, videlicet quod non ea moderatione, qua decuit, dignitatem apostolicam
+					<lb/>tenuit, et contra patrum sanctorum regulam docuit, tercium quoque quod in aliquibus
+				<lb/>ligandis vel solvendis non iustitiam, sed voluntatem suam secutus fuit.</p>
+				<p><lb/><hi rend="italic">R</hi>. Vere tria proposui et tertium addidi, quorum optime meministi. Auctore
+					<lb/>itaque Deo curram per singula et de singulis satisfaciam. Primum dico, quod ea
+					<lb/>moderatione, qua decuit, apostolicam dignitatem non tenuit, quia et in adversarios
+					<lb/>ferox nimium et inmitis fuit et beluinam in eos quodammodo feritatem exercuit. In
+					<lb/>corrigendis quoque vitiis modum non tenuit, et in vitiosis quibusdam fovendis mensuram
+					<lb/>excessit. Memorare possim nonnullos in vincla coniectos et in ergastula inclusos,
+					<lb/>quibus clavos ferreos circumfigi praecepit, ut, in quamlibet partem se verterent,
+					<lb/>confixi clavi lateri vulnerarent. Et ut dictum est, cum quosdam increpando
+					<lb/>mensuram excesserit, Gregorium Vercellensem, flagitiosissimum omnium hominum,
+					<pb n="558"/>
+					<lb/>quos terra sustinet, ita molliter habuit et tenere tractavit, ut de celis illum venisse
+					<lb/>putares. Simili modo delicate nimis Odelricum Pataviensem habuit, qui vitiorum
+					<lb/>omnium sentina fuit, quem aiebant etiam pueris abuti solere in ore, quod dictu
+				<lb/>sit turpe.</p>
+				<p><lb/><hi rend="italic">P</hi>. Quod non ea moderatione, qua decuerit, dignitatem apostolicam egerit, satis
+					<lb/>ostensum est. Illud mihi probari velim, quod contra sanctorum patrum regulam docuerit,
+				<lb/>quia sic exigit ordo disputationis.</p>
+				<p><lb/><hi rend="italic">R</hi>. Contra patres novi testamenti docuit, cum scismaticorum et indignorum
+					<lb/>ministrorum sacramenta non recipienda, sed exsufflanda mandavit, cum excommunicatorum
+					<lb/>quoque consecraciones sive in oleo, sive in eucharistia, vel in ordinationibus
+				<lb/>eorum, quibus manus inponitur, nullam vim habere nec consecrationes dici debere perhibuit</p>
+				<p><lb/><hi rend="italic">P</hi>. Ostende, si placet, haec contra sanctorum documenta patrum prolata.</p>
+				<p><lb/><hi rend="italic">R</hi>. Faciam quod hortaris. Et primo quidem de scismaticorum sacramentis agatur,
+					<lb/>postea vero de ceteris. Augustinus Vincencio Donatistae: <hi rend="italic">Aecclesiae sunt</hi>, inquit,
+					<lb/><hi rend="italic">omnia sacramenta quae sic habetis et datis, quem ad modum habebatis et dabatis, priusquam
+					<lb/>inde exiretis. Non improbamus quod facitis, in quo consuetudinem aecclesiae
+					<lb/>tenetis. Propterea de talibus dictum est. ?Quoniam in multis erant mecum?</hi>. Item
+					<lb/>Augustinus in libro contra Donatistas: <hi rend="italic">Sicut ficti veraciter conversi recipiuntur, nec
+					<lb/>eorum baptisma reprobatur: sic ea quae scismatici vel heretici nec aliter habent
+				<lb/>quam vera ecclesia, cum ad nos veniunt, non improbamus, sed potius approbamus</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Luce mihi clarius constat, quod scismaticorum sacramenta non exsufflanda,
+					<lb/>sed veneranda sunt, et ideo qui aliter sentit sanctorum patrum constitutionibus contradicit.
+				<lb/>Itaque de ministrorum indignorum sacramentis edissere.</p>
+				<p><lb/><hi rend="italic">R</hi>. Pater Augustinus multa de his loquitur et latissime ista prosequitur, quorum
+					<lb/>nonnulla proponimus: <hi rend="italic">An</hi>, inquit, <hi rend="italic">solis vel etiam lucernae lux, cum per cenosa
+					<lb/>diffunditur, nichil in se sordidum contrahit, et babtismus Christi potest cuiusquam
+					<lb/>sceleribus inquinari?</hi> Item ipse: <hi rend="italic">Quomodo</hi>, inquit, <hi rend="italic">exaudit Deus homicidam deprecantem
+					<lb/>super eucharistiam, vel super aquam babtismi, vel super oleum, vel super
+					<lb/>capita eorum quibus manus inponitur? Quae tamen omnia et fiunt et valent etiam
+					<lb/>per homicidas, id est per eos qui oderunt fratres in ipsa intus ecclesia</hi>. Item ipse
+					<lb/>Augustinus contra Parmenianum: <hi rend="italic">Si primis temporibus non obfuerunt sacerdotes mali</hi>
+					<lb/>vel collegis bonis, sicut fait Zacharias, vel popularibus bonis, sicut fuit Nathanael, in
+					<pb n="559"/>
+					<lb/>quo dolus non erat: quanto magis nichil obest in unitate christiana episcopus malus
+					<lb/>vel coepiscopis vel laicis bonis, cum iam ille sacerdos in aeternum secundum ordinem
+					<lb/>Melchisedech et pontifex noster sedens ad dexteram patris interpellat pro nobis.
+					<lb/>Sacrifitia ergo impiorum eis ipsis oberunt, qui impie offerunt. Nam unum atque
+					<lb/>idem sacrifitium propter nomen Dei, quod ibi invocatur et semper est sanctum. Tale
+					<lb/><hi rend="italic">cuique fit, quali corde ad accipiendum accesserit</hi>. Item Augustinus: <hi rend="italic">Non timeo adulterum,
+					<lb/>non homicidam, non timeo ebriosum, quia columbam attendo, per quam mihi
+					<lb/>dicitur: ?Hic est qui baptizat?. Sacramentum enim tam sanctum est, ut nec homicida
+				<lb/>ministrante polluatur</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Sentio plane verum esse quod astruis, quod ministrorum indignorum sacramenta
+					<lb/>prodesse possint et quod in accipientibus salutis operentur affectum, ac per hoc
+					<lb/>illum non habere sensum catholicum, qui tam evidens non approbat documentum. Reliquum
+					<lb/>est igitur, ut de consecrationibus excommunicatorum, quod recipiendae sint et
+				<lb/>prodesse possint, aliqua prosequaris.</p>
+				<p><lb/><hi rend="italic">R</hi>. Fiat quod postulas, quoniam omnes Ildebrandi complices hoc iactant et praedicant,
+					<lb/>quod excommunicatorum sacramenta nil valeant. Pater Augustinus contra Parmenianum:
+					<lb/><hi rend="italic">Null o</hi>, inquit, <hi rend="italic">modo isti expedire se possunt, cum eis proponitur, cur
+					<lb/>sanctitas sacramenti haberi et dari possit ab eo, quem intus sceleratum iam Deus
+					<lb/>dampnat, et tunc ab eo incipiat dari non posse, cum ab hominibus dampnatus fuerit:
+					<lb/>cum tamen nec tunc eam possit amittere. Si quaeris, quomodo baptizent quos dampnavit
+					<lb/>ecclesia, respondeo, sic eos baptizare quomodo babtizabant quos dampnavit Deus,
+					<lb/>antequam de illis quicquam iudicaret ecclesia. Non igitur debet se Christo praeponere,
+					<lb/>ut putet babtizare non posse</hi>. Quod, sicut pater Augustinus asserit, excommunicatus
+					<lb/>sacramenti sanctitatem non potest amittere, cur non possit etiam aliis dare? Si enim
+					<lb/>hereticis ab ecclesia discedentibus ius quod habebant ordinandi, quod in ecclesia acceperint,
+					<lb/>non detrahitur, quia, cum redeunt ad unitatem, eis non redditur: quis dixerit
+					<lb/>excommunicato sacramenti sanctitatem detrahi, cum multo deterius sit ab ecclesia per
+					<lb/>heresim dividi, quam a communione ecclesiae prohiberi? Prohibitio enim ista, sicut
+					<lb/>asserit Augustinus, medicinalis est, separatio illa mortalis. Et si scismaticorum et
+					<lb/>hereticorum sacramenta veneratur pia mater ecclesia et praedicat veneranda, cur excommunicatorum
+					<lb/>consecrationes non recipiat, cum multo inferiores illos et deteriores
+					<lb/>illos intelligat? Ubi enim maior culpa, maior est dampnationis sentencia, et ubi vita
+					<lb/>nequior et doctrina pestilentior, ibi illicita praesumptio dampnabilior. Utrique rem illicitam
+					<lb/>gerunt, et qui per sacrilegium scismatis ab ecclesia dividuntur, et qui a communione
+					<lb/>aecclesiae prohibentur, et utrique non bene. Sed ambo utrobique sacramenta,
+					<lb/>ambo veneranda, ambo per unitatem et aecclesiae communitatem salutis effectum habentia.
+					<lb/>Quod autem maius sit omni commisso sacrilegium scismatis, testatur pater
+					<lb/>Augustinus in libro contra Donatistas: <hi rend="italic">Tempore</hi>, inquit, <hi rend="italic">illo quo Dominus priora delicta
+					<lb/>recentibus penarum exemplis cavenda monstravit, et ydolum fabricatum atque
+					<lb/>adoratum est, et propheticus liber ira regis contemptoris incensus, et scisma temptatum:
+					<lb/>ydolatria gladio punita est, exustio libri bellica cede et peregrina captivitate,
+					<lb/>scisma hiatu terrae, sepultis auctoribus vivis et ceteris celesti igne consumptis. Quis
+				<lb/>iam dubitaverit, hoc esse sceleratius commissum, quod est gravius vindicatum?</hi> </p>
+				<pb n="560"/>
+				<p><lb/><hi rend="italic">P</hi>. Manifestis constat rationibus approbatum, quod excommunicatorum sacramenta,
+					<lb/>quae exsufflanda docuit, recipienda potius praedicare debuerit, et quia convincit
+					<lb/>eum veritas, dampnat illum certissima falsitas. Hac ergo de causa, quoniam de negotio
+					<lb/>excommunicatorum dicta suffitiunt, quod restat mihi probari velim: videlicet
+				<lb/>quod in ligandis aliquibus et solvendis non iustitiam tenuit, sed suae voluntati satisfecit.</p>
+				<p><lb/><hi rend="italic">R</hi>. Ad huius rei comprobationem Heinricum regem adducamus in medium et
+				<lb/>per eum quod dicimus approbemus.</p>
+				<p><lb/><hi rend="italic">P</hi>. Quomodo?</p>
+				<p><lb/><hi rend="italic">R</hi>. Ordo excommunicationis est, ut qui hoc vel illud fecisse dicuntur, quod sit
+					<lb/>excommunicatione plectendum, prius bis terque vocentur, vocati discutiantur, et priusquam
+					<lb/>in eos sententia excommunicationis proferatur, convincantur de crimine testibus,
+					<lb/>aut confiteantur. Nichil autem horum circa regem Heinricum vidimus vel audivimus
+				<lb/>observatum.</p>
+				<p><lb/><hi rend="italic">P</hi>. Quod si aliter fuerit presumptum, quid inde patres nostri senserunt vel
+				<lb/>sanxerunt?</p>
+				<p><lb/><hi rend="italic"> R</hi>. Pater Augustinus: <hi rend="italic">Plerique</hi>, inquit, <hi rend="italic">boni christiani propterea tacent et
+					<lb/>sufferunt aliorum peccata, quae noverunt, quia documentis sepe deseruntur, et ea quae
+					<lb/>ipsi sciunt, iudicibus ecclesiasticis probare non possunt. Quamvis enim vera sint
+					<lb/>quaedam, non tamen iudici facile credenda sunt, nisi certis indiciis demonstrentur.
+					<lb/>Nos vero a communione quamquam prohibere non possumus, quamquam haec prohibitio
+					<lb/>nondum sit mortalis, sed medicinalis, nisi aut sponte confessum, aut in aliquo
+					<lb/>sive seculari sive ecclesiastico iuditio nominatum atque convictum</hi>. Item post aliqua:
+					<lb/><hi rend="italic">Noluit</hi>, inquit, <hi rend="italic">apostolus hominem ab homine iudicari ex arbitrio suspitionis, vel
+					<lb/>etiam extraordinario usurpato iuditio, sed potius ex lege Dei secundum ordinem aecclesiae,
+					<lb/>sive ultro confessum, sive accusatum atque convictum</hi>. In Niceno concilio similiter
+					<lb/>legitur: <hi rend="italic">Incerta nemo pontificum iudicare praesumat, quia quamvis vera sint,
+					<lb/>non tamen credenda sunt, nisi quae manifestis indiciis comprobantur, nisi quae manifesto
+				<lb/>iuditio convincuntur, nisi quae iudiciario ordine publicantur</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Apparet ex his omnibus quae proponis, quod ille in ligando Heinrico rege
+					<lb/>non iustitiam tenuit, sed arbitrio suo satisfecit. Si quid est tamen, unde hoc multiplitius
+				<lb/>probari possit, subdere non moreris.</p>
+				<p><lb/><hi rend="italic"> R</hi>. Valet ad hoc probandum quod isdem pater Augustinus scripsit Auxilio episcopo,
+					<lb/>qui quendam Classitianum comitem cum omni domo et familia sua excommunicaverat,
+					<lb/>sicut etiam Hyldebrandus Heinricum. Unde inquit: <hi rend="italic">Spectabilis filius noster
+					<lb/>Classitianus comes graviter apud me litteris questus est, quod si anathematis iniurias
+					<lb/>a tua sanctitate perpessus</hi>. Et post pauca: <hi rend="italic">Si habes de hac re sententiam
+					<lb/>certis rationibus vel scripturarum testimoniis exploratam, nos quoque docere digneris,
+					<lb/>quomodo recte anathematizetur pro patris peccato filius, aut pro viro uxor, aut pro
+					<lb/>domino servus, aut quisquam in domo eadem natus?</hi> Et post aliqua: <hi rend="italic">Audisti</hi>, ait,
+					<lb/><hi rend="italic">fortasse aliquos magni nominis sacerdotes cum tota domo sua quempiam anathematizasse</hi>
+					<pb n="561"/>
+					<lb/>peccantium, et forte, si essent interrogati, reperirentur inde idoneam reddere
+					<lb/>rationem. Ego autem, si quis ex me querat, utrum id recte fiat, quid ei respondeam,
+				<lb/><hi rend="italic">non invenio</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Si regem Heinricum cum tota sua domo et cum omni anathematizavit familia,
+					<lb/>probatur praemissis rationibus illum non servasse iustitiam, sed fecisse voluntatem
+				<lb/>suam. Oro tamen, ut hoc ipsum adhuc, si potes, inculcare digneris.</p>
+				<p><lb/><hi rend="italic">R</hi>. Possum quidem et faciam. Pater Augustinus in libro contra Parmenianum
+					<lb/>post aliqua: <hi rend="italic">In hac</hi>, inquit, <hi rend="italic">velut angustia questionis non aliquid novum aut insolitum</hi>
+					<lb/>dicam, sed id quod sanitas observat aecclesiae, ut cum quisque fratrum, id est
+					<lb/>christianorum intra aecclesiae societatem constitutorum, in aliquo tali peccato fuerit
+					<lb/>deprehensus, ut anathemate dignus habeatur, fiat hoc, ubi periculum scismatis nullum
+					<lb/>est, atque id cum ea dilectione, de qua ipse alibi praecepit dicens: ?Ut non inimicum
+					<lb/>eum existimetis, sed corripite ut fratrem?; non enim ad decidendum fiat, sed ad corrigendum.
+					<lb/>Quod si se non agnoverit neque penitendo correxerit, ipse foras exiet et
+					<lb/>per proprias voluntates ab aecclesiae communione dirimetur. Nam et ipse dominus
+					<lb/>Iesus servis volentibus zizania colligere dixit: ?Sinite utraque crescere ad messem? et
+					<lb/>praemisit causam dicens: ?Ne forte, cum velitis colligere zizania, eradicetis et triticum?.
+					<lb/>Ubi satis ostendit, cum metus iste non subest, sed omnino de frumentorum stabilitate
+					<lb/>certa securitas manet - id est, quando cuiusquam crimen ita notum est et omnibus
+					<lb/>execrabile apparet, ut vel nullos prorsus vel non tales habeat defensores, per quos
+					<lb/>possit scisma contingere, - non dormiat severitas disciplinae, in qua tanto est efficatior
+					<lb/>emendatio pravitatis, quanto diligentior conservatio caritatis. Tunc autem hoc
+					<lb/>sine labe pacis et unitatis et sine lesione frumentorum fieri potest, cum congregationis
+					<lb/>aecclesiae multitudo ab eo crimine, quod anathematizatur, aliena est. Tunc enim adiuvat
+					<lb/>praepositum potius corripientem, quam criminosum resistentem. Tunc se ab eius
+					<lb/>communione salubriter continet vel coniunctione, ut nec cibum cum eo quisquam
+					<lb/>sumat: non rabie inimica, sed cohertione fraterna. Tunc etiam ille et timore percutitur
+					<lb/>et pudore sanatur, cum ab universa aecclesia se anathematizatum videns,
+					<lb/>sotiam turbam, cum qua in peccato suo gaudeat et bonis insultet, non potest invenire.
+					<lb/>Ad hoc enim et ipse apostolus ait: ?Si quis frater nominatur?; in eo quippe
+					<lb/>quod ait: ?Si quis frater?, nichil aliud videtur significare voluisse, nisi eum posse
+					<lb/>tali modo salubriter corrigi, qui inter dissimiles peccat, id est inter eos, quos peccatorum
+					<lb/>similium pestilentia non corrumpit. In eo vero quod ait ?nominatur?, hoc nimirum
+					<lb/>intelligi voluit: parum esse ut sit quisque talis, nisi etiam nominetur; id est
+					<lb/>famosus appareat, ut possit omnibus dignissima videri, quae in eum fuerit anathematis
+					<lb/>prolata sententia. Ita enim et salva pace corrigitur, et non interfectione percutitur,
+					<lb/>sed medicinaliter uritur; propterea et de illo dixit, quem tali medicina sanari
+					<lb/>noluerat: ?Satis est huic correctio quae fit a multis?; neque enim potest esse satis a
+					<lb/>multis correptio, nisi cum ille corripitur, qui non habet sociam multitudinem. Cum
+					<lb/>vero idem morbus plurimos occupaverit, nichil aliud bonis restat, quam dolor et gemitus,
+					<lb/>ut per illud signum quod Iezechieli sancto revelatur, illesi evadere vastationem
+					<lb/>mereantur. Ad eum enim qui errare non potest clamant: ?Ne perdas cum impiis,
+					<lb/>Deus, animam meam et cum viris sanguinum vitam meam?. Neque cum voluerint
+					<pb n="562"/>
+					<lb/>colligere zizania, eradicent simul et triticum, nec per diligentiam segetem dominicam
+				<lb/><hi rend="italic">purgent, sed per temeritatem ipsi potius inter purgamenta numerentur</hi>.</p>
+				<p><lb/><hi rend="italic">P</hi>. Quoniam praemissis rationibus mihi video satisfactum, quod vere in ligandis aliquibus
+					<lb/>et solvendis non iusticiam tenuit, sed suo arbitrio satisfecit, velim ostendas,
+					<lb/>quid ad illud responderi oporteat, in quo causam eius quidam excusant. ?Non mirum?,
+					<lb/>inquiunt, ?si domnus apostolicus Heinrico regi maledixit, cum ille et ille apostolicus
+				<lb/>illi vel illi imperatori similiter fecerit?.</p>
+				<p><lb/><hi rend="italic">R</hi>. Non habet vim talis excusatio nec pondus ista defensio. Astipulatur nobis
+					<lb/>in hoc Gregorius Nazanzenus: <hi rend="italic">Qui talibus</hi>, inquit, <hi rend="italic">excusationibus utuntur, non continuo
+					<lb/>legem aecclesiis dabunt, si semel aliquando aut raro aliquid tale factum invenerint,
+					<lb/>quoniam quidem neque si una alicubi hyrundo videatur, veris continuo tempus adduxit,
+					<lb/>aut si quis semel mare in hyeme transeat, continuo etiam legem navigandi
+					<lb/>proponet. Ac per hoc quod ex aliqua subreptione raro factum legitur, non statim
+					<lb/>autenticum et regulare dicetur, et profecto culpabilis iudicabitur, qui contra consuetudinem
+				<lb/>aecclesiae factum aliquid imitatur</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Gratias Deo, quod excusatio illa refellitur, quae causam illius maxime defendere
+					<lb/>putabatur. Quocirca properemus ad alia, paucisque mihi digneris explicare
+					<lb/>quae restant, videlicet quod respectu futurae turbationis ab aecclesia etiam excommunicari
+				<lb/>dignos non debuerit separare.</p>
+				<p><lb/><hi rend="italic">R</hi>. Testetur pater Augustinus quod sentit et manifestum faciat quod requiris:
+					<lb/><hi rend="italic">Nos</hi>, inquit, <hi rend="italic">ad sanam doctrinam pertinere arbitramur, ut et canes propter pacem
+					<lb/>aecclesiae toleremus, et canibus sanctum, ubi pax aecclesie tuta est, non demus. Cum
+					<lb/>ergo sive per neglegentiam praepositorum, sive per aliquam excusabilem necessitatem,
+					<lb/>sive per occultas obreptiones invenimus in aecclesia malos, quos aecclesiastica disciplina
+					<lb/>corrigere aut coercere non possimus, tunc - ne ascendat in cor nostrum impia
+					<lb/>et perniciosa praesumptio, qua estimemus nos ab his esse separandos, ut peccatis
+					<lb/>eorum non inquinemur, atque ita post nos trahere conemur, veluti mundos sanctosque
+					<lb/>discipulos ab unitatis compage, quasi a malorum consortio, segregatos - veniant in
+					<lb/>mentem illae de scripturis similitudines et divina oracula vel certissima exempla,
+					<lb/>quibus demonstratum est, malos in aecclesia permixtos bonis usque in finem seculi
+					<lb/>tempusque iudicii futuros, et nichil bonis in unitate fidei ac participatione sacramentorum,
+					<lb/>qui eorum factis non consenserint, obfuturos</hi>. Item Augustinus: <hi rend="italic">Si mal i</hi>, inquit,
+					<lb/><hi rend="italic">bonos in unitate contaminant, nullam iam aecclesiam, cui sotiaretur, Cyprianus
+					<lb/>invenit. Si autem mali bonos in unitate non maculant, nullam causam separationis
+					<lb/>sacrilegus Donatista proponit</hi>. Item Cyprianus: <hi rend="italic">Si videmus</hi>, inquit, <hi rend="italic">in aecclesia
+					<lb/>zizania, non ideo impediri debet fides aut caritas nostra, ut quia ipsi in aecclesia
+				<lb/>zizania cernimus, ideo de aecclesia recedamus</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Ita quod movebat animum certis est rationibus expeditum, ut nulla dubitatio
+					<lb/>relinquatur. Sed et illud scire desidero et magnopere concupisco, si stare possit, quod
+					<lb/>sui defensores dicere consuerunt: ?Non abhorret a praeceptis dominicis, si quos a nequicia
+					<lb/>sua revocare non possumus et corrigere non valemus, viribus resipiscere compellamus?.
+					<lb/>Hac igitur ratione regem viribus et quibus potuit modis compescuit et, quia
+					<pb n="563"/>
+					<lb/>monitis revocare non valuit, ideo Teutonicos adversus illum in pugnam commovit. Sed
+				<lb/>utrum iustum id fuerit, certis rationibus mihi monstrari velim.</p>
+				<p><lb/><hi rend="italic">R</hi>. Non mea sunt quae dicuntur, sed a patribus prolata probantur, quibus
+					<lb/>tanta illa vanitas prorsus refellitur. Quid tibi videtur, Ambrosi? Dic mihi sensum
+					<lb/>tuum, utrum cum adversariis sencias, an eorum dicta refellas. <hi rend="italic">Vis</hi>, inquit, <hi rend="italic">Christi
+					<lb/>audire censores? Iubentur caedere sine virga nec terrore, sed gratia populum querere,
+					<lb/>recondere gladium, non possidere aurum</hi>. Item Gregorius Nazanzenus: <hi rend="italic">Non
+					<lb/>oportet vi aut necessitate constringere, sed ratione et vitae exemplis suadere: quia omne
+					<lb/>quod extorquetur invitis, cum ei, cui agitur, tyrannicum videtur, nec perseverare
+					<lb/>quoque potest. Solet enim quicquid violenter attrahitur, sicut arboris si quis vi cacumen
+					<lb/>inclinet, relaxatum rursus redire in idem. Quod autem ex proposito fit, ex voluntate,
+				<lb/>tam legitimum quam certum est, validissimis scilicet vinculis propriae voluntatis astrictum</hi>.</p>
+				<p><lb/><hi rend="italic">P</hi>. Si superiores ratiocinationes subtiliter considerare velimus et universa superius
+					<lb/>comprehensa diligenti vestigatione revolvere, novissime qui voluerit poterit ita
+					<lb/>concludere, quod et homicidio sese Ildibrandus polluerit et sacrilegii reatum contraxerit
+					<lb/>et periuriorum multorum crimen incurrerit. Unde tempus esse videtur, ut de Wiberti
+					<lb/>electione, unde plurimum dubitatur, disserere debeas et quibus potes rationibus illam
+					<lb/>defendas. Sic enim adversarii reprehendunt illam: ?Si Ildebrandus in apostolatu erat
+					<lb/>et sedes apostolica non vacabat, qualiter ille superordinari potuit, qui nulli successit,
+				<lb/>sed a se ipso principium et initium habuit??</p>
+				<p><lb/><hi rend="italic">R</hi>. Scio illos ita proponere et apostolatum Clementis quibus possunt argumentationibus
+					<lb/>condempnare. Nos vero sic solemus ineptias illorum refellere et electionem
+					<lb/>praefati Clementis astruere. ?Ut taceamus omnia, quibus superius est probatum, quod
+					<lb/>apostolatu sese privaverit, eo quod homicidio se polluerit, sacrilegio maculaverit, periuriorum
+					<lb/>multorum crimen incurrerit: sed unde Vigilius apostolicus dici meruit et
+					<lb/>in catalogo Romanorum pontificum numerari, qui Silverii locum adhuc viventis
+					<lb/>invasit et in Pontias insulas exilio ipsum relegari fecit, ubi, sicut legitur, pane tribulationis
+					<lb/>et aqua angustiae cibatus fuit? unde etiam Anatholius Constantinopolitanus
+					<lb/>episcopus dici debuit, qui Flaviani viri sanctissimi, propter defensionem catholicae veritatis
+					<lb/>eiecti, locum arripuit et ab excommunicatis similiter dampnatis consecrationem
+					<lb/>accepit? Quem tamen Leo primus Romanorum episcopus rogatu augustae Pulcheriae
+					<lb/>confirmavit et ad posteritatis memoriam confirmatorias illi litteras misit continentes ita:
+					<lb/><hi rend="italic">Decessore</hi>, inquit, <hi rend="italic">tuo beatae memoriae Flaviano propter defensionem catholicae veritatis
+					<lb/>deiecto non inmerito credebant, quod consecratores tui contra statuta canonum
+					<lb/>et divinarum legum sui similem consecrassent. Sed affuit misericordia Domini, in
+					<lb/>hoc te dirigens atque confirmans, ut malis principiis bene utereris, nec te iuidicio
+					<lb/>hominum provectum, sed divina miseratione monstrares</hi>. Quod ita accipiendum est:
+					<lb/>?Si hanc divini muneris gratiam alia offensione non perdas?. Nec ista dicimus, quod
+					<lb/>malum domnus Clemens habuisset inicium, cum Ildibrandus apostolici iam non haberet
+					<lb/>officium et locum, sed ut contradicentibus de similibus proponamus exemplum. Quod
+					<lb/>ergo Vigilium confirmavit, qui quasi malum principium habuit, et quod Anatholium
+					<pb n="564"/>
+					<lb/>male positum et nulli succedentem episcopali dignitate dignum videri fecit, domnum
+					<lb/>etiam Clementem dignissimum reddidit, si in suis fortasse primordiis aliquid deliquit.
+					<lb/>Posterior virtus et meritum diluit, quicquid inprimis culpabile visum fuit. O quotiens
+					<lb/>in actibus pontificum Romanorum factum legitur, quod duo certatim apostolici simul
+					<lb/>positi fuerint et magnam utrique partem cleri et populi simul habuerint et ille tamen
+					<lb/>tandem vicerit, quem Romani principes confirmandum censuerint. Sic de Damaso et
+					<lb/>Ursino, Bonifatio et Eulalio, Silverio et Vigilio, Simacho et Laurentio in eisdem actibus
+				<lb/>Romanorum pontificum accidisse probatur.</p>
+				<p><lb/><hi rend="italic">P</hi>. Magnae contentioni video satisfactum et aemulorum obiectionibus sufficienter
+					<lb/>responsum. Ultimum et extremum est, quod multi ventilant et unde plurimi adversarii
+					<lb/>disputant, quod imperatores aecclesiasticas dignitates investire non debeant. Ego
+					<lb/>vero, si ita res habeat, vel si ad imperatores aecclesias investire pertineat, doceri desidero.
+				<lb/>/*</p>
+				<p><lb/><hi rend="italic">R</hi>. Ius postulas, quoniam divinorum quidam auctorum cum illis sentire videntur,
+					<lb/>qui ad principum iniuriam ista locuntur, Gelasius praecipue Romanae sedis episcopus
+					<lb/>et noster Ambrosius, cuius de hac re verba sunt: <hi rend="italic">Convenior</hi>, inquit, <hi rend="italic">a militibus et
+					<lb/>tribunis, ut per me fieret basilicae matura traditio, dicentibus imperatorem iure suo
+					<lb/>iussisse, ut quae in potestate eius essent, omnia ei tradi deberent. Respondi, si a
+					<lb/>me peterent quod meum est, id est fundum meum, argentum meum, ius huiuscemodi
+					<lb/>meum, me non refragaturum, quamquam omnia quae mea sunt, sint pauperum. Verum
+					<lb/>ea quae divina sunt, imperatoriae potestati non esse subiecta</hi>. Et paulo post: <hi rend="italic">Nec
+					<lb/>mihi fas est tradere, nec tibi, imperator, ut putes te in ea quae divina sunt imperiale
+					<lb/>aliquod ius habere. Noli te extollere, sed si vis diutius imperare, esto Deo subditus.
+					<lb/>Scriptum est enim: ?Quae Dei Deo, quae caesaris caesari?. Ad imperatorem palatia
+					<lb/>pertinent, ad sacerdotem aecclesiae. Publicorum tibi moenium ius commissum est, non
+					<lb/>sacrorum. Iterum mihi dicitur mandasse imperatorem: Debeo et ego unam basilicam
+					<lb/>habere. Respondeo: Non tibi licet illam habere. Quid tibi cum adultera? Adultera
+					<lb/>est enim, quae non est legitimo Christi coniugio copulata, veteri iure a sacerdotibus
+					<lb/>donata, imperatoria vi usurpata</hi>. Haec Ambrosius. Gelasius quoque etsi diversis
+					<lb/>verbis eadem tamen prosequitur. Quae omnia si discrete accipias, nichil imperatorias
+					<lb/>investitiones impediunt. Duo siquidem iura conceduntur episcopis omnibus, spirituale
+					<lb/>vel divinum unum, aliud seculare; et aliud quidem caeli, aliud vero fori. Nam omnia
+					<lb/>quae sunt episcopalis officii spiritualia sunt, divina sunt, quia, licet per ministerium
+					<lb/>episcopi, tamen a sancto Spiritu conceduntur. At vero iudicia secularia et omnia, quae
+					<lb/>a mundi principibus et secularibus hominibus aecclesiis conceduntur, sicut sunt curtes
+					<lb/>et praedia omniaque regalia, licet in ius divinum transeant, dicuntur tamen secularia,
+					<lb/>quasi a secularibus concessa. Itaque divina illa a sancto Spiritu tradita imperatoriae
+					<lb/>potestati constat non esse subiecta. Quae vero sunt ab imperatoribus tradita, quia non
+					<lb/>sunt aecclesiis perpetuo iure manentia, nisi succedentium imperatorum et regum fuerint
+					<lb/>iteratione concessa, dicuntur profecto quodammodo regibus et imperatoribus subdita,
+					<lb/>quia nisi per succedentes imperatores et reges fuerint aecclesiis confirmata, revertuntur
+					<lb/>ad imperialia iura. Sicut enim imperium et regnum non est successorium, sic
+					<lb/>iura quoque regnorum et imperatorum successoria non sunt, nec regibus et imperatoribus
+					<lb/>perpetim manere possunt. Si vero perpetim non manent illis, qualiter his, quibus
+					<lb/>traduntur, perpetim manere possunt? Sicut enim regnum et imperium ab homine
+					<pb n="565"/>
+					<lb/>transit in hominem, sic iura regni manent cum rege manente sibi regno, et cum illo
+					<lb/>non manent non manente sibi imperio vel regno. Quocirca satis visum est utile, ut
+					<lb/>imperialia iura et regalia semel aecclesiis tradita, crebra regum et imperatorum investicione
+					<lb/>firmentur, quae ex concessione alicuius unius imperatoris vel regis perpetim
+					<lb/>illi manere non possunt. Divina ergo illa a sancto Spiritu per ministrum aliquem tradita
+					<lb/>ad imperatores et reges non sunt pertinentia; illa vero ab imperatoribus et regibus
+					<lb/>concessa et eorum confirmationibus indigentia, imperatoribus sunt et regibus subdita,
+					<lb/>eo quod sunt per illos habita et per illos habenda. Unde succedentibus postea temporibus
+					<lb/>salubriter est a posteris Romanae sedis episcopis institutum et imperatoribus concessum,
+					<lb/>ut aecclesiarum investituras habeant, non dico parietum sacrorum et altarium,
+					<lb/>quae non sunt eorum, sed aecclesiasticarum rerum; quibus investientibus et priorum
+					<lb/>confirmatur traditio et affectantium frenatur ambitio et popularis cessat seditio. Hanc
+					<lb/>concessionem Adrianus apostolicus Karolo, Leo tercius Ludoico, alii vero Romani
+					<lb/>pontifices aliis atque aliis imperatoribus confirmaverunt, eo videlicet consilio, utdefensores
+					<lb/>christianae rei publicae fierent et in eleccionibus episcoporum turbatio popularium
+				<lb/>conquiesceret.</p>
+				<p><lb/><hi rend="italic">P</hi>. Quid, si dicat aliquis, non licuisse mutare posteris quod sanctitum est ab
+				<lb/>antiquis et maiorum decreta praevalere modernis?</p>
+				<p><lb/><hi rend="italic">R</hi>. Huiusmodi calumniam vel obiectionem pater Augustinus exsufflat in libro
+					<lb/>contra Donatistas, astruens posteriorum concilia semper anterioribus praeponenda:
+					<lb/><hi rend="italic">Ipsa</hi>, inquit, <hi rend="italic">concilia, quae per singulas regiones vel provincias fiunt, plenariorum
+					<lb/>conciliorum auctoritati, quae fiunt ex universo orbe christiano, constat sine ullis ambagibus
+					<lb/>cedere, ipsaque plenaria sepe priora posterioribus emendari; cum aliquo experimento
+					<lb/>rerum aperitur quod clausum erat et cognoscitur quod latebat</hi>. Hac igitur
+					<lb/>ratione quae Gelasius sanxit aliique maiores de non ordinandis ab imperatoribus et
+					<lb/>regibus ecclesiis, sive quod Ambrosius protulit, merito dicunt a posterioribus et iunioribus
+					<lb/>in melius commutata, ut quod videbatur a prioribus prohibitum, mira necessitate
+					<lb/>et utilitate ecclesiae fuisset illi concessum. Hinc etiam Nicolai papae concilium Romae
+					<lb/>factum approbant et commendant, in quo congregatis centum et octo episcopis omnibus
+					<lb/>confirmantibus sancxit, ut nullus deinceps Romae poneretur episcopus, nisi christiano
+					<lb/>consentiente principe, qui regni gubernacula tenuisset pro tempore. Quod enim ignorabatur
+					<lb/>prius temporibus illius Deus voluit revelari, quodque fuerat clausum erupit,
+					<lb/>ut universi cognoscerent, quam multiplices in eligendis episcopis contentiones emergere
+					<lb/>potuissent, si imperatores et reges ordinati non essent. Nam ante praefati Nicolai pontifitium
+					<lb/>tres simul invaserant apostolatum et omnes apostolici dicebantur. Sed sicut
+					<lb/>sepe contigerat temporibus aliorum imperatorum, quod huiusmodi Romanae sedis contentiones
+					<lb/>per imperatores sublatae sunt, sic etiam tres illi certatim positi et per contentionem
+					<lb/>electi regia potentia turpiter eiecti sunt. Illud etiam innotuit, quod secularia
+					<lb/>iudicia et placita, semel ecclesiis ab imperatoribus tradita, successorum essent
+					<lb/>investitionibus confirmanda, si omnia regalia et omnia publica iura perpetim ecclesiis
+					<lb/>manere non poterant, nisi succedentium sibi regum frequenti fuissent iteratione concessa.
+					<lb/>Quod autem omnia placita secularia et iuditia et regalia et publica iura et vectigalia
+					<pb n="566"/>
+					<lb/>scilicet et tributa regum sunt et imperatorum, vel ab illis aliis tradita, apostoli dicentis
+					<lb/>verba denunciant: <hi rend="italic">Omnis</hi>, inquit, <hi rend="italic">anima potestatibus sublimioribus subdita sit. Non
+					<lb/>est enim potestas nisi a Deo. Quae autem sunt, Dei ordinatione ordinata sunt</hi>. Item
+					<lb/>Petrus coapostolus eius: <hi rend="italic">Subditi estote</hi>, inquit, <hi rend="italic">omni humanae creaturae propter Deum:
+					<lb/>sive regi, quasi praecellenti, sive ducibus, tamquam ab eo missis</hi>. Quibus verbis innuitur,
+					<lb/>quod nullum seculare ius episcopis relinquitur nec potestatem habeant aliquam
+					<lb/>eciam in colonos et in ecclesiae famulos, decanos et villicos, si non regia auctoritate
+					<lb/>sit illis concessum. Sed nec ipsi clerici publicis vectigalibus et tributis absolvi possunt,
+					<lb/>si non eadem auctoritate solvantur. Omnibus enim ab apostolo dicitur: <hi rend="italic">Reddite omnibus
+					<lb/>debita, cui tributum tributum, cui vectigal vectigal, cui timorem timorem, cui
+					<lb/>honorem honorem</hi> et cetera. Et ne quisquam sanctam Dei ecclesiam ab his diceret
+					<lb/>liberam, nec regibus et imperatoribus obnoxiam, ipse dominus Iesus, qui se nobis
+					<lb/>in omnibus praebuit formam cuiusque vita nobis debet esse magistra, pro se tributum
+				<lb/>solvit et solvendum Petro mandavit, quem ecclesiae suae principem fore praevidit.</p>
+				<p><lb/><hi rend="italic">P</hi>. Mire video quod fuit a me quesitum rationibus absolutum, sed, si ex veteri
+				<lb/>consuetudine pertineant ordinationes ecclesiarum ad reges, nosse velim.</p>
+				<p><lb/><hi rend="italic">R</hi>. Si non fuisset vetus mos regum ordinatio ecclesiarum, nequaquam Braulius
+					<lb/>Galliarum episcopus de ordinatione Terraconensis ecclesiae beatum requisisset Ysidorum
+					<lb/>dicens: <hi rend="italic">Terraconensis ecclesia pastorali solatio destituta pastorem alium necessarium
+					<lb/>habuisset. Unde consule domino nostro regi talem illi praevidere pastorem, qui se
+					<lb/>corporibus et animabus subditorum exibeat utilem, quique de grege sibi credito possit
+					<lb/>idoneam Deo reddere rationem</hi>. Cui rescribit Isidorus in haec verba: <hi rend="italic">Scio verum
+					<lb/>esse quod dicis, sed dominus noster rex adhuc habet incertum, quem ecclesiae praeficiat,
+					<lb/>quam pastoris indigere gubernaculo non ignorat. Cum autem illi primo
+				<lb/>fuerit ociosum, talem ibi curabit ponere, qui dominico gregi digne valeat praeesse</hi>. </p>
+				<p><lb/><hi rend="italic">P</hi>. Ex his quae dicta sunt mihi constat certum, quod ex more veterum pertineat
+					<lb/>regibus ordinatio ecclesiarum. Sed si qua de his adhuc dici possunt, dicere non sit
+				<lb/>laboriosum.</p>
+				<p><lb/><hi rend="italic">R</hi>. Qui putant ordinationes ecclesiarum sacerdotibus pertinere, dignentur etiam
+					<lb/>illud considerare, quod Moyses sacerdos non fuerit, quem tamen Dominus Israhelitico
+					<lb/>populo praeposuit et tantam illi gratiam contulit, ut per eum legem dederit, per eum
+					<lb/>sacerdotes ordinandos instituerit, per eum tabernaculum fieri praeceperit, per illum
+					<lb/>quoque vasa templi et ministros et ministeria et ritus et sacrifitia facienda mandaverit.
+					<lb/>Et si haec illi nullo sacro functo officio concessa sunt, cur videatur indignum si per
+					<lb/>imperatores et reges fiant ordinationes ecclesiarum, cum maiorem unctionem et quodammodo
+					<lb/>digniorem ipsis eciam sacerdotibus habeant? Unde nec debent inter laicos
+				<lb/>computari, sed per unctionis meritum in sorte sunt Domini deputandi.</p>
+				<p><lb/>Omnia largiente Deo, sicut proposui, percucurri. Restat quod me facturum inicio
+					<lb/>promisi persolvam, ut quod mihi de hac re visum fuerit in neutram partem propensior
+					<lb/>40explicem, postquam utriusque partis allegationes constat a me comprehensas esse. Duo
+					<lb/>sunt, quae dampnatione dignum Ildibrandum ostendunt: quod Rodulfum in regem creari
+					<pb n="567"/>
+					<lb/>fecit, et Teutonicum bellum fieri non prohibuit, in quo sanguis octo milium hominum
+					<lb/>fusus fuit. In eo etiam periurii reatum incurrit, quod iuramenti vinculis obligatos
+					<lb/>Teutonicos sacramenti religionem violare fecit. In eo etiam scismaticus extitit, quod
+					<lb/>indignorum ministrorum et excommunicatorum sacramenta polluta docuit, non recipienda
+					<lb/>mandavit, nec sacramenta quidem dici debere perhibuit, in quibus a sanctorum
+				<lb/>patrum regulis omnino dissensit.</p>
+				<p><lb/>Haec tibi, venerabilis pater, sicut iussisti, composui, in quibus et pro Ildibrando
+					<lb/>multa volumine primo disserui, et contra illum secundo copiosius disputavi, non ausus
+					<lb/>iussioni tuae quicquam negare; simul certum habens, laborem meum legere volentibus
+				<lb/>utilem satis fore.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

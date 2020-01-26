@@ -1,0 +1,809 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Officium sancti Francisci</title>
+				<author>Iulianus de Spira</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Cremascoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="1758" unit="words">Parole: 1758</measure>
+				<measure quantity="10475" unit="characters_without_spaces">Caratteri (spazi esclusi): 10475</measure>
+				<measure quantity="11783" unit="characters_witht_spaces">Caratteri (spazi inclusi): 11783</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-04-18">18/04/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Caratteri (con spazi): 13.969&#13;
+E.F.</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Iulianus de Spira</author>
+						<title>Officium sancti Francisci</title>
+						<editor>G. Cremascoli</editor>
+					</analytic>
+					<monogr>
+						<title level="m">Fontes franciscani</title>
+						<editor>S. Brufani</editor>
+						<editor>E. Menestò et alii</editor>
+						<imprint>
+							<publisher>Edizioni Porziuncola</publisher>
+							<pubPlace>Assisi</pubPlace>
+							<date>1995</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi/prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok. È un testo molto variabile, pieno di cortissimi &lt;lg&gt; e &lt;p&gt;. In alcuni casi non sono sicuro di come numerare i versi (sopratutto nel ultimo &lt;div&gt;)</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="1105"/>
+		<div>
+			<head><lb/>AD I VESPERAS</head>
+			<div>
+				<head><lb/>1 - <hi rend="bold">Antiphonae</hi></head>
+				<lg>
+					<head>I.</head> <l>Franciscus, vir catholicus</l>
+					<l>Et totus apostolicus,</l>
+					<l>Ecclesiae teneri</l>
+					<l>Fidem romanae docuit,</l>
+					<l n="5">Presbyterosque monuit</l>
+					<l>Prae cunctis revereri.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l>Coepit sub Innocentio,</l>
+					<l>Cursumque sub Honorio</l>
+					<l>Perfecit gloriosum;</l>
+					<l n="10">Succedens his, Gregorius</l>
+					<l>Magnificavit amplius</l>
+					<l>Miraculis famosum.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l>Hunc sanctus praeelegerat</l>
+					<l>In patrem, quando praeerat</l>
+					<l n="15">Ecclesiae minori;</l>
+					<l>Hunc, spiritu prophetico</l>
+					<l>Provisum, apostolico</l>
+					<l>Praedixerat honori.</l>
+				</lg>
+				<lg>
+					<head>IV.</head> <l>Franciscus evangelicum</l>
+					<l n="20">Nec <hi rend="italic">apicem</hi> vel <hi rend="italic">unicum</hi></l>
+					<l>Transgreditur nec <hi rend="italic">iota</hi>;</l>
+					<l>Nil iugo Christi suavius,</l>
+					<l>Hoc <hi rend="italic">onere</hi> nil <hi rend="italic">levius</hi></l>
+					<l>In huius vitae rota.</l>
+				</lg>
+				<pb n="1106"/>
+				<lg>
+					<head>V.</head> <l n="25">Hic creaturis imperat,</l>
+					<l>Qui nutui subiecerat</l>
+					<l>Se totum Creatoris;</l>
+					<l>Quidquid in rebus reperit</l>
+					<l>Delectamenti, regerit</l>
+					<l n="30">In gloriam Factoris.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>2 - <hi rend="bold">Capitulum</hi></head>
+				<lb/><p><hi rend="italic">Mihi autem absit gloriari nisi in Cruce Domini nostri Iesu Christi,
+				<lb/>per quem mihi mundus crucifixus est, et ego mundo</hi>. R. Deo gratias.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>3 - <hi rend="bold">Hymnus</hi></head>
+				<head type="h_2"><lb/> type="h_2"&gt;<hi rend="italic">Est Gregorii IX.</hi></head>
+				<lg>
+					<head>I.</head> <l>Proles de caelo prodiit,</l>
+					<l>Novis utens prodigiis:</l>
+					<l>Caelum caecis aperuit;</l>
+					<l>Siccis mare vestigiis,</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="5"><hi rend="italic">Spoliatis Aegyptiis</hi>,</l>
+					<l>Transit dives; sed pauperis</l>
+					<l>Nec rem vel nomen perdidit,</l>
+					<l>Factus felix pro miseris.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l><hi rend="italic">Assumptus</hi> cum Apostolis</l>
+					<l n="10"><hi rend="italic">In montem</hi> novi luminis,</l>
+					<l>In paupertatis praediis</l>
+					<l>Christo Franciscus intulit:</l>
+				</lg>
+				<lg>
+					<head>IV.</head> <l><hi rend="italic">"Fac tria tabernacula"</hi>,</l>
+					<l>Votum secutus Simonis;</l>
+					<l n="15">Quem huius non deseruit</l>
+					<l>Numen vel omen nominis.</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l><hi rend="italic">Legi, Prophetae, Gratiae</hi></l>
+					<l>Gratum gerens obsequium,</l>
+					<pb n="1107"/>
+					<l>Trinitatis officium</l>
+					<l n="20">Festo solemni celebrat,</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>Dum reparat virtutibus</l>
+					<l>Hospes triplex hospitium,</l>
+					<l>Et beatarum mentium</l>
+					<l>Cum templum Christo consecrat.</l>
+				</lg>
+				<lg>
+					<head>VII.</head> <l n="25">Domum, portam et tumulum,</l>
+					<l>Pater Francisce, visita;</l>
+					<l>Et Evae prolem miseram</l>
+					<l>A somno mortis excita. Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>4 -</head> <p>V.<hi rend="bold">Ora pro nobis, beate Francisce.</hi>
+				<lb/><hi rend="bold">R.Ut digni efficiamur promissionibus Christi.</hi></p>
+			</div>
+			<div>
+				<head><lb/>5 - <hi rend="bold">Ad Magnificat Antiphona</hi></head>
+				<lg>
+					<l>O stupor et gaudium,</l>
+					<l>O iudex homo mentium:</l>
+					<l>Tu nostrae militiae</l>
+					<l><hi rend="italic">Currus et auriga;</hi></l>
+					<l n="5"><hi rend="italic">ignea</hi> praesentibus</l>
+					<l><hi rend="italic">Transfiguratum</hi> fratribus</l>
+					<l>In <hi rend="italic">solari</hi> specie</l>
+					<l>Vexit te quadriga;</l>
+					<l>In te signis radians,</l>
+					<l n="10">In te ventura nuntians,</l>
+					<l><hi rend="italic">Requievit spiritus</hi></l>
+					<l><hi rend="italic">Duplex</hi> prophetarum.</l>
+					<l>Tuis adsta posteris,</l>
+					<l>Pater Francisce, miseris,</l>
+					<l n="15">Nam increscunt <hi rend="italic">gemitus</hi></l>
+					<l><hi rend="italic">Ovium tuarum</hi>.</l>
+				</lg>
+				<pb n="1108"/>
+			</div>
+			<div>
+				<head><lb/>6 - <hi rend="bold">Oratio</hi></head>
+				<lb/><p>Deus, qui Ecclesiam tuam beati Francisci meritis foetu novae prolis
+					<lb/>amplificas, tribue nobis ex eius imitatione terrena despicere et caelestium
+				<lb/>donorum semper participatione gaudere. Per Dominum.</p>
+			</div>
+		</div>
+		<div>
+			<head><lb/>AD MATUTINUM.</head>
+			<div>
+				<head><lb/>7 - <hi rend="bold">Invitatorium</hi></head>
+				<lg>
+					<l>Regi, quae fecit <hi rend="italic">opera</hi>,</l>
+					<l>Christo <hi rend="italic">confiteantur</hi>,</l>
+					<l>Cuius in sancto vulnera</l>
+					<l>Francisco renovantur.</l>
+				</lg>
+			</div>
+			<div>
+				<head type="h_1"><lb/>8 - <hi rend="bold">Hymnus</hi></head>
+				<head type="h_2"><lb/><hi rend="italic">Auctore Thoma Capuano Cardinali S. Sabinae.</hi></head>
+				<lg>
+					<head>I.</head> <l>In caelesti collegio</l>
+					<l>Novus collega colitur:</l>
+					<l>In sanctorum rosario</l>
+					<l>Novellus flos producitur.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="5">Franciscus florens gratia,</l>
+					<l>Forma factus humilium,</l>
+					<l>Laetus potitur gloria,</l>
+					<l>Sortis consors sublimium.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l><hi rend="italic">Metit</hi> de sparso <hi rend="italic">semine</hi></l>
+					<l n="10">Plenae messis <hi rend="italic">manipulum</hi>,</l>
+					<l>Fallens sub terrae tegmine</l>
+					<l>Nostrae salutis aemulum.</l>
+				</lg>
+				<lg>
+					<head>IV.</head> <l>Hic <hi rend="italic">carnis</hi> supercilium</l>
+					<l><hi rend="italic">Legi</hi> subiecit <hi rend="italic">spiritus</hi>:</l>
+					<pb n="1109"/>
+					<l n="15"><hi rend="italic">Mundum vicit</hi> et vitium,</l>
+					<l>Se victo, victor inclytus.</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l>Linguae manus praeambula</l>
+					<l>Verbo <hi rend="italic">paravit semitam</hi>,</l>
+					<l>Et amplectuntur saecula</l>
+					<l n="20">Doctrinam facto proditam.</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>In paupertatis praedio</l>
+					<l>Minorum <hi rend="italic">plantans vineam</hi>,</l>
+					<l>Ostendit magisterio</l>
+					<l>Vitae vivendi lineam.</l>
+				</lg>
+				<lg>
+					<head>VII.</head> <l n="25">Ad aeternas divitias</l>
+					<l>Turbam allexit pauperum,</l>
+					<l>Quos ad caeli delicias</l>
+					<l>Lingua vocavit operum.</l>
+				</lg>
+				<lg>
+					<head>VIII.</head> <l>Vita, doctrina splenduit,</l>
+					<l n="30">Resplendet et miraculis;</l>
+					<l>Sic praefuit, quod profuit,</l>
+					<l>Via, lucerna populis.</l>
+				</lg>
+				<lg>
+					<head>IX.</head> <l>Summi regis palatio,</l>
+					<l>Doctor, loca discipulos;</l>
+					<l n="35">Salutis privilegio</l>
+					<l>Christi praemuni famulos.</l>
+				</lg>
+				<lg>
+					<head>X.</head> <l>De tenebris miseriae</l>
+					<l>Sequaces stellae praeviae,</l>
+					<l>Quaeramus patrem gratiae,</l>
+					<l n="40">Consortes tandem gloriae. Amen</l>
+				</lg>
+			</div>
+		</div>
+		<div>
+			<head><lb/>IN I NOCTURNO.</head>
+			<div>
+				<head><lb/>9 - <hi rend="bold">Antiphonae</hi></head>
+				<lg>
+					<head>I.</head><l>Hic vir in vanitatibus</l>
+					<l>Nutritus indecenter,</l>
+					<pb n="1110"/>
+					<l>Plus suis nutritoribus</l>
+					<l>Se gessit insolenter.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="5"><hi rend="italic">Excelsi dextrae</hi> gratia</l>
+					<l>Mirifice <hi rend="italic">mutatus</hi>,</l>
+					<l>Dat lapsis spem de venia</l>
+					<l>Cum Christo iam beatus.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l>Mansuescit sed non penitus</l>
+					<l n="10">In primis per languores,</l>
+					<l>Qui, captis armis caelitus,</l>
+					<l>Ad plenum mutat mores.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>10 -</head> <p>V. <hi rend="bold">Amavit eum Dominus et ornavit eum.</hi>
+				<lb/>R. <hi rend="bold">Stolam gloriae induit eum.</hi></p>
+			</div>
+			<div>
+				<head><lb/>11 - <hi rend="bold">Responsoria</hi></head>
+				<lg>
+					<head>&gt;I.</head> <l>R. Franciscus ut in publicum</l>
+					<l>Cessat negotiari,</l>
+					<l><hi rend="italic">In agrum</hi> mox dominicum</l>
+					<l>Secedit meditari;</l>
+					<l n="5"><hi rend="italic">Inventum</hi> evangelicum</l>
+					<l><hi rend="italic">Thesaurum</hi> vult mercari.</l>
+					<l>V. Deum, quid agat, unicum</l>
+					<l>Consultans, audit caelicum</l>
+					<l>Insigne sibi dari.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="10">R. In Dei fervens opere,</l>
+					<l>Statim ut sua <hi rend="italic">vendit</hi>,</l>
+					<l><hi rend="italic">Pauperibus</hi> impendere</l>
+					<l>Pecuniam intendit,</l>
+					<l>Quae gravi suo pondere</l>
+					<l n="15">Cor liberum offendit.</l>
+					<l>V. Quam, formidante paupere</l>
+					<l>Presbytero recipere,</l>
+					<l>Abiectam vilipendit.</l>
+				</lg>
+				<pb n="1111"/>
+				<lg>
+					<head>III.</head> <l>R. Dum pater hunc persequitur,</l>
+					<l n="20">Latens <hi rend="italic">dat locum irae</hi>;</l>
+					<l>Constanter post aggreditur</l>
+					<l>In publicum prodire:</l>
+					<l>Squalenti vultu cernitur,</l>
+					<l>Putatur insanire.</l>
+					<l n="25">V. Luto, saxis impetitur,</l>
+					<l>Sed patiens vir nititur</l>
+					<l><hi rend="italic">Ut surdus</hi> pertransire.</l>
+				</lg>
+			</div>
+		</div>
+		<div>
+			<head><lb/>IN II NOCTURNO.</head>
+			<div>
+				<head><lb/>12 - <hi rend="bold">Antiphonae</hi></head>
+				<lg>
+					<head>IV.</head> <l>Pertractum domi verberat</l>
+					<l>Plus cunctis furens pater,</l>
+					<l>Obiurgans <hi rend="italic">vincit, carcerat</hi>;</l>
+					<l>Quem furtim solvit mater.</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l n="5">Iam liber, patris furiae</l>
+					<l>Non cedit effrenati,</l>
+					<l>Clamans se voluntarie</l>
+					<l><hi rend="italic">Pro</hi> Christo mala <hi rend="italic">pati</hi>.</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>Ductus ad loci praesulem,</l>
+					<l n="10">Sua patri resignat;</l>
+					<l>Nudusque manens exsulem</l>
+					<l>In mundo se designat.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>13 -</head> <p>V. <hi rend="italic"><hi rend="bold">Os iusti meditabitur sapientiam</hi></hi>
+				<lb/>R. <hi rend="italic"><hi rend="bold">Et lingua eius loquetur iudicium.</hi></hi></p>
+				<pb n="1112"/>
+			</div>
+			<div>
+				<head><lb/>14 - <hi rend="bold">Responsoria</hi></head>
+				<lg>
+					<head>IV.</head> <l>R. Dum seminudo corpore</l>
+					<l>Laudes decantat gallice</l>
+					<l><hi rend="italic"><hi rend="italic">Zelator</hi> novae legis</hi>,</l>
+					<l>Latronibus in nemore</l>
+					<l n="5">Respondet sic prophetice:</l>
+					<l>"Praeco sum <hi rend="italic">magni Regis</hi>".</l>
+					<l>V. Audit, in nivis frigore</l>
+					<l>Proiectus: "Iace, rustice",</l>
+					<l>Futurus <hi rend="italic">pastor gregis</hi>.</l>
+					<l n="10">V. R. Amicum quaerit pristinum,</l>
+					<l>Qui spretum in coenobio</l>
+					<l>Tunicula contexit.</l>
+					<l>Contemptu gaudens hominum</l>
+					<l>Leprosis fit obsequio,</l>
+					<l n="15">Quos antea despexit.</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l>Sub typo trium Ordinum</l>
+					<l>Tres, nutu Dei praevio,</l>
+					<l>Ecclesias erexit.</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>R. Audit in Evangelio</l>
+					<l n="20">Quae suis Christus loquitur</l>
+					<l>Ad <hi rend="italic">praedicandum missis</hi>;</l>
+					<l>"Hoc", inquit, "est quod cupio".</l>
+					<l>Laetanter his innititur</l>
+					<l>Memoriae commissis.</l>
+					<l n="25">V. Non utens <hi rend="italic">virga, calceo,</hi></l>
+					<l><hi rend="italic">Nec pera</hi>, fune cingitur,</l>
+					<l>Duplicibus dimissis.</l>
+				</lg>
+			</div>
+		</div>
+		<div>
+			<head><lb/>IN III NOCTURNO.</head>
+			<div>
+				<head><lb/>15 - <hi rend="bold">Antiphonae</hi></head>
+				<lg>
+					<head>VII.</head> <l>Cor verbis novae gratiae</l>
+					<l>Sollicitus apponit,</l>
+					<pb n="1113"/>
+					<l>Verbumque poenitentiae</l>
+					<l>Simpliciter proponit.</l>
+				</lg>
+				<lg>
+					<head>VIII.</head> <l n="5"><hi rend="italic">Pacem, salutem nuntiat</hi></l>
+					<l><hi rend="italic">In Spiritus virtute</hi>,</l>
+					<l>Veraeque <hi rend="italic">paci</hi> sociat</l>
+					<l><hi rend="italic">Longinquos</hi> a salute.</l>
+				</lg>
+				<lg>
+					<head>IX.</head> <l>Ut novis sancti merita</l>
+					<l n="10">Remunerantur natis,</l>
+					<l>His nova tradit monita,</l>
+					<l><hi rend="italic">Viam simplicitatis</hi>.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>16 -</head> <p>V. <hi rend="italic"><hi rend="bold">Lex Dei eius in corde ipsius</hi></hi>
+				<lb/>R. <hi rend="italic"><hi rend="bold">Et non supplantabuntur gressus Eius.</hi></hi></p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>17 - <hi rend="bold">Responsoria</hi></head>
+				<head type="h_2"><lb/><hi rend="italic">Auctore Card. Thoma Capuano</hi>..</head>
+				<lg>
+					<head>VII.</head> <l>R. Carnis <hi rend="italic">spicam</hi>, contemptus area,</l>
+					<l>Franciscus <hi rend="italic">frangens</hi>, terens terrea,</l>
+					<l>Granum purum, excussa <hi rend="italic">palea</hi>,</l>
+					<l>Summi Regis intrat <hi rend="italic">in horrea</hi>.</l>
+					<l n="5">V. <hi rend="italic">Vivo pani</hi> morte iunctus,</l>
+					<l>Vita vivit <hi rend="italic">vitafunctus</hi>.</l>
+					<l><hi rend="italic">Auctore Gregorio IX</hi>.</l>
+				</lg>
+				<lg>
+					<head>VIII.</head> <l>R. De paupertatis horreo</l>
+					<l>Sanctus Franciscus satiat</l>
+					<l n="10">Turbam Christi famelicam,</l>
+					<l><hi rend="italic">In via ne deficiat</hi>;</l>
+					<l>Iter pandit ad gloriam</l>
+					<l>Et <hi rend="italic">vitae viam</hi> ampliat.</l>
+					<pb n="1114"/>
+					<l>V. Pro paupertatis copia</l>
+					<l n="15">Regnat dives in patria,</l>
+					<l>Reges sibi substituens,</l>
+					<l>Quos hic ditat inopia.</l>
+				</lg>
+				<lg>
+					<l>IXa. R. Sex fatrum pater septimus,</l>
+					<l>Absorptus luce caelitus,</l>
+					<l n="20">Futura contemplatur.</l>
+					<l>Inter Minores minimus,</l>
+					<l>Quis parvi gregis exitus</l>
+					<l>Praeclare speculatur.</l>
+					<l>V. <hi rend="italic">Quadrans</hi> quoque <hi rend="italic">novissimus</hi></l>
+					<l n="25">Culparum sibi penitus</l>
+					<l>Dimitti revelatur.</l>
+				</lg>
+				<lg>
+					<l>IXb. R. Arcana suis reserans.</l>
+					<l>Octavum tandem recipit,</l>
+					<l>Et ad diversas gentes</l>
+					<l n="30"><hi rend="italic">Rinos mittendos</hi> foederans,</l>
+					<l>Humiliari praecipit</l>
+					<l>Et <hi rend="italic">esse patientes</hi>,</l>
+					<l>V. Grex procidit obtemperans,</l>
+					<l>Pastor erectos suscipit</l>
+					<l n="35">Ad oscula gaudentes.</l>
+				</lg>
+				<lg>
+					<l>IXc. R. "Euntes", inquit, "in eum</l>
+					<l>Qui nutriet vos <hi rend="italic">Dominum</hi></l>
+					<l><hi rend="italic">Iactate cogitatum</hi>".</l>
+					<l>Sic fratribus erroneum</l>
+					<l n="40">Praecludit et interminum</l>
+					<l>Callem cupiditatum.</l>
+					<l>V. Sic curis cor extraneum</l>
+					<l>Non providet <hi rend="italic">in crastinum</hi></l>
+					<l><hi rend="italic">In zonis aes</hi> ligatum.</l>
+				</lg>
+				<pb n="1115"/>
+				<lg>
+					<l n="45">IXd. R. Regressis quos emiserat,</l>
+					<l>Completur bis senarius</l>
+					<l>Fratrum; dum confirmando</l>
+					<l>Normam sancto quam scripserat,</l>
+					<l>Iussa dat Innocentius</l>
+					<l n="50">Papa de praedicando.</l>
+					<l>V. In <hi rend="italic">mna</hi> Franciscus foenerat,</l>
+					<l>Quem <hi rend="italic">dati</hi> movet ratio</l>
+					<l>De lucro reportando.</l>
+				</lg>
+			</div>
+		</div>
+		<div>
+			<head><lb/>AD LAUDES.</head>
+			<div>
+				<head><lb/>18 - <hi rend="bold">Antiphonae</hi></head>
+				<lg>
+					<head>I.</head> <l>Sanctus Franciscus, praeviis</l>
+					<l>Orationum studiis,</l>
+					<l>Quid faciat instructus,</l>
+					<l>Non sibi soli vivere,</l>
+					<l n="5">Sed aliis proficere</l>
+					<l>Vult, Dei zelo ductus.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l>Hic <hi rend="italic">praedicando circuit</hi></l>
+					<l>Et, quem non homo docuit,</l>
+					<l>Fit doctis in stuporem.</l>
+					<l n="10">Virtutum verba loquitur,</l>
+					<l>Novumque nova sequitur</l>
+					<l>Militia ductorem.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l>Tres Ordines hic ordinat:</l>
+					<l>Primumque Fratrum nominat</l>
+					<l n="15">Minorum, pauperumque</l>
+					<l>Fit Dominarum medius,</l>
+					<l>Sed Poenitentum tertius</l>
+					<l>Sexum capit utrumque.</l>
+				</lg>
+				<pb n="1116"/>
+				<lg>
+					<head>IV.</head> <l>Doctus doctrice gratia,</l>
+					<l n="20">Doctus experientia</l>
+					<l>Quae sunt perfectionis,</l>
+					<l>Haec fratres <hi rend="italic">docet omnia</hi></l>
+					<l>Tam factis quam frequentia</l>
+					<l>Melliflui sermonis.</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l n="25">Laudans laudare monuit,</l>
+					<l>Laus illi semper affuit,</l>
+					<l>Laus, inquam, Salvatoris,</l>
+					<l>Invitat aves, bestias</l>
+					<l>Et creaturas alias</l>
+					<l n="30">Ad laudem Conditoris.</l>
+				</lg>
+			</div>
+			<div>
+				<head type="h_1"><lb/>19 - <hi rend="bold">Hymnus</hi></head>
+				<head type="h_2"><lb/><hi rend="italic">Est Cardinalis Rainerii Capocii de Viterbio</hi>.</head>
+				<lg>
+					<head>I.</head> <l>Plaude, turba paupercula,</l>
+					<l>Patre ditata paupere;</l>
+					<l>Laudis propina pocula,</l>
+					<l>Sacro depressa ubere.</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="5">Hic <hi rend="italic">simplex, rectus</hi>, humilis,</l>
+					<l>Pacis cultor amabilis,</l>
+					<l>Lumen <hi rend="italic">in vase fictili</hi></l>
+					<l>Ardens, lucens in fragili.</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l>Vili contectus tegmine,</l>
+					<l n="10">Sancto calescens flamine,</l>
+					<l>Vicit algorem, caumata,</l>
+					<l>Christi dum gestat stigmata.</l>
+				</lg>
+				<lg>
+					<head>IV.</head> <l>Carnem mundumque conterens,</l>
+					<l>Hostes malignos proterens,</l>
+					<l n="15">Auream victor meruit,</l>
+					<l>Aureolam dum docuit.</l>
+				</lg>
+				<pb n="1117"/>
+				<lg>
+					<head>V.</head> <l>Pauper, nudus egreditur,</l>
+					<l>Caelum dives ingreditur,</l>
+					<l>Spargit virtutum munera,</l>
+					<l n="20">Aegris profligat vulnera.</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>Verorum <hi rend="italic">pater pauperum</hi>,</l>
+					<l>Nos <hi rend="italic">pauperes</hi> fac <hi rend="italic">spiritu</hi>;</l>
+					<l>Consortes redde Superum,</l>
+					<l>Ereptos ab interitu.</l>
+				</lg>
+				<lg>
+					<head>VII.</head> <l n="25">Patri, Nato, Paraclito</l>
+					<l>Decus, <hi rend="italic">honor et gloria</hi>;</l>
+					<l>Sancti sint huius merito</l>
+					<l>Nobis aeterna gaudia. Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>20 -</head> <p>V. <hi rend="bold">Ora pro nobis, beate Francisce.</hi>
+				<lb/>R. <hi rend="bold">Ut digni efficiamur promissionibus Christi.</hi></p>
+			</div>
+			<div>
+				<head><lb/>21 - <hi rend="bold">Ad Benedictus Antiphona</hi></head>
+				<lg>
+					<l>O martyr desiderio,</l>
+					<l>Francisce, quanto studio</l>
+					<l>Compatiens hunc sequeris,</l>
+					<l>Quem passum libro reperis,</l>
+					<l n="5">Quem aperuisti.</l>
+					<l>Tu contuens in aere</l>
+					<l>Seraph in cruce positum,</l>
+					<l>Ex tunc in palmis, latere</l>
+					<l>Et pedibus effigiem</l>
+					<l n="10">Fers plagarum Christi.</l>
+					<l>Tu gregi tuo provide,</l>
+					<l>Qui post felicem transitum</l>
+					<l>Durae prius et lividae</l>
+					<l>Glorificatae speciem</l>
+					<l n="15">Carnis praetendisti.</l>
+				</lg>
+			</div>
+		</div>
+		<pb n="1118"/>
+		<div>
+			<head><lb/>AD HORAS MINORES</head>
+			<div>
+				<head><lb/>21a - <hi rend="bold">Ad Tertiam Responsorium breve</hi></head>
+				<lb/><p>Amavit <hi rend="italic">etc</hi>. V. Os iusti <hi rend="italic">etc</hi>.</p>
+			</div>
+			<div>
+				<head><lb/>22 - <hi rend="bold">Ad Sextam Capitulum</hi></head>
+				<lb/><p>Et <hi rend="italic">quicumque hanc regulam secuti fuerint, pax super illos e
+				<lb/>misericordia, et super Israel Dei</hi>. R. Deo gratias.</p>
+			</div>
+			<div>
+				<head><lb/>22a - <hi rend="bold">Responsorium breve</hi></head>
+				<lb/><p>Os iusti <hi rend="italic">etc</hi>. V. Lex Dei <hi rend="italic">etc</hi>.</p>
+			</div>
+			<div>
+				<head><lb/>23 - <hi rend="bold">Ad Nonam Capitulum</hi></head>
+				<lb/><p><hi rend="italic">De caetero nemo mihi molestus sit. Ego enim stigmata Iesu in
+					<lb/>corpore meo porto. Gratia Domini nostri Iesu Christi cum spiritu
+				<lb/>vestro, fratres. Amen</hi>. R. Deo gratias.</p>
+			</div>
+			<div>
+				<head><lb/>23a - <hi rend="bold">Responsorium breve</hi></head>
+				<lb/><p>Lex Dei <hi rend="italic">etc. V.</hi> <hi rend="italic">Iustum deduxit</hi> Dominus <hi rend="italic">per vias rectas</hi>. R. <hi rend="italic">ET
+				<lb/>ostendit illi regnum Dei</hi>.</p>
+			</div>
+		</div>
+		<div>
+			<head><lb/>AD II VESPERAS.</head>
+			<div>
+				<head type="h_1"><lb/>24 - <hi rend="bold">Hymnus</hi></head>
+				<head type="h_2"><lb/><hi rend="italic">Auctore Thoma Capuano, Cardinali S. Sabinae</hi>.</head>
+				<lg>
+					<head>I.</head> <l>Decus morum, dux Minorum,</l>
+					<l>Franciscus tenens bravium</l>
+					<pb n="1119"/>
+					<l>In te vite datur vitae,</l>
+					<l>"Christe, redemptor omnium".</l>
+				</lg>
+				<lg>
+					<head>II.</head> <l n="5">Plaudat frater, regnat pater</l>
+					<l>Concivis caeli civibus;</l>
+					<l>Cedat fletus, psallat coetus,</l>
+					<l>" Exsultet caelum laudibus".</l>
+				</lg>
+				<lg>
+					<head>III.</head> <l>Demptum solo, datum polo</l>
+					<l n="10">Signorum probant opera;</l>
+					<l>Ergo, vivit, nam adivit</l>
+					<l>"Aeterna Christi munera".</l>
+				</lg>
+				<lg>
+					<head>IV.</head> <l>Pro terrenis votis plenis</l>
+					<l>Reportat dona gloriae;</l>
+					<l n="15">Quem decoras, quem honoras,</l>
+					<l>"Summae Deus clementiae".</l>
+				</lg>
+				<lg>
+					<head>V.</head> <l>Hunc sequantur, huic iungantur</l>
+					<l>Qui ex <hi rend="italic">Aegypto exeunt</hi>;</l>
+					<l>In quo duce, clara luce,</l>
+					<l n="20">"Vexilla Regis prodeunt".</l>
+				</lg>
+				<lg>
+					<head>VI.</head> <l>Regis signum ducem dignum</l>
+					<l>Insignit manu, latere;</l>
+					<l>Lux accedit, nox recedit,</l>
+					<l>"Iam lucis orto sidere".</l>
+				</lg>
+				<lg>
+					<head>VII.</head> <l n="25">Est dux fidus, clarum sidus:</l>
+					<l>Ducit, relucet, devia</l>
+					<l>Devitando, demonstrando</l>
+					<l>"Beata nobis gaudia".</l>
+				</lg>
+				<lg>
+					<head>VIII.</head> <l><hi rend="italic">Mina gregem</hi>, dux, ad Regem,</l>
+					<l n="30">Collisor hostis callidi;</l>
+					<l>Nos conducas et inducas</l>
+					<l>"Ad cenam Agni providi". Amen.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>24a -</head> <p>V. <hi rend="bold">Ora pro nobis, beate Francisce.</hi>
+				<lb/>R. <hi rend="bold">Ut digni efficiamur promissionibus Christi.</hi></p>
+			</div>
+			<pb n="1120"/>
+			<div>
+				<head><lb/>25 - Ad Magnificat Antiphona</head>
+				<lg>
+					<l>O virum mirabilem</l>
+					<l><hi rend="italic">In signis et prodigiis</hi>,</l>
+					<l><hi rend="italic">Languores</hi> cum <hi rend="italic">daemoniis</hi></l>
+					<l>Quoslibet pellentem.</l>
+					<l n="5">Dat aurem suis avium</l>
+					<l>Praedicans silvestrium</l>
+					<l>Verbis intendentem.</l>
+					<l>O vita laudabilem,</l>
+					<l>Qua fidem sic magnificat;</l>
+					<l n="10">Sed et multos vivificat</l>
+					<l>Mortuos defunctus.</l>
+					<l>Francisce, nos caelestium</l>
+					<l>Fac consortes civium,</l>
+					<l>Quibus es coniunctus.</l>
+				</lg>
+			</div>
+			<div>
+				<head><lb/>26 - <hi rend="bold">Antiphonae ad Benedictus et Magnificat infra Octavam et</hi>
+				<lb/><hi rend="bold">pro Commemoratione S. Francisci.</hi></head>
+				<lg>
+					<head type="h_1"><lb/><hi rend="italic">Adscribitur Gregorio Papae IX</hi>.</head>
+					<head type="h_2">I.</head> <l>Sancte Francisce, propere</l>
+					<l>Veni, pater, accelera</l>
+					<l>Ad populum, qui premitur</l>
+					<l>Et teritur sub onere,</l>
+					<l n="5"><hi rend="italic">Palea, luto, latere</hi>;</l>
+					<l>Et, sepulto <hi rend="italic">Aegyptio</hi></l>
+					<l>Sub <hi rend="italic">sabulo</hi>, nos libera,</l>
+					<l>Carnis exstincto vitio.</l>
+				</lg>
+				<lg>
+					<head type="h_1"><lb/><hi rend="italic">Tribuitur Thomae Capuano Cardinali S. Sabinae</hi>.</head>
+					<head type="h_2">II.</head> <l>Salve, sancte pater, patriae lux, forma Minorum,</l>
+					<l>Virtutis speculum, recti via, regula morum:</l>
+					<l>Carnis ab exsilio duc nos ad regna polorum.</l>
+				</lg>
+				<pb n="1121"/>
+				<lg>
+					<head type="h_1"><lb/><hi rend="italic">Gregorio IX attributa.</hi></head>
+					<head type="h_2">III.</head> <l>Plange, turba paupercula,</l>
+					<l>Ad <hi rend="italic">patrem</hi> clama <hi rend="italic">pauperum</hi>:</l>
+					<l>Hoc lugubre suspirium,</l>
+					<l>Pater Francisce, suscipe,</l>
+					<l n="5">Et prode Christo stigmata</l>
+					<l>Lateris, pedum, manuum,</l>
+					<l>Ut nobis reddat orphanis</l>
+					<l>Tanti patris vicarium.</l>
+				</lg>
+				<lg>
+					<head type="h_1"><lb/><hi rend="italic">Assignatur Cardinali Rainerio Capoccio</hi>.</head>
+					<head type="h_2">IV.</head> <l>Caelorum candor splenduit,</l>
+					<l>Novum sidus emicuit:</l>
+					<l>Sacer Franciscus claruit,</l>
+					<l>Cui Seraph apparuit,</l>
+					<l n="5">Signans eum charactere</l>
+					<l>In volis, plantis, latere,</l>
+					<l>Dum formam crucis gerere</l>
+					<l>Vult corde, ore, opere.</l>
+				</lg>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

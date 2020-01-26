@@ -1,0 +1,1604 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Historia Mediolanensis</title>
+				<author>Landulphus Junior sive de Sancto Paulo</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>C. Castiglioni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="15955" unit="words">Parole: 15955</measure>
+				<measure quantity="98639" unit="characters_without_spaces">Caratteri (spazi esclusi): 98639</measure>
+				<measure quantity="113321" unit="characters_witht_spaces">Caratteri (spazi inclusi): 113321</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2003-07-04">04/07/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 16070&#13;
+Caratteri: 99026&#13;
+Correzioni al testo: p.8,12: saecula] sae cula <hi rend="italic">ed.</hi> ; p. 11,33 cusula] casula <hi rend="italic">ed.</hi> ; p. 11,34 Protasti] Protasii <hi rend="italic">ed.</hi> ; p. 17,31 impetator] imperator <hi rend="italic">ed.</hi> &#13;
+LAB</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Landulphus Junior</author>
+						<title level="m">Landulphi Junioris sive de Sancto Paulo Historia Mediolanensis ab anno MXCV usque ad annum MCXXXVII</title>
+						<editor>C. Castiglioni</editor>
+						<imprint>
+							<pubPlace>Bologna</pubPlace>
+							<date>1934</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Rerum Italicarum Scritores, s. II</title>
+						<biblScope unit="volume">5, 3</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="3"/>
+		<div type="chapter">
+			<head><lb/>1.</head> <p>Cum in diebus Robaldi, Albanensis episcopi, ferentis infulam archiepiscopatus
+				<lb/>Mediolanensis, ingens dolor instaret Mediolanensibus pro suis militibus et civibus captis
+				<lb/>Cremone atque Papie, non sum inmemor Armani de Gavardo, qui sub specie religionis
+				<lb/>plantavit quandam radicem novitatis, que paulatim non solum Mediolanensem ecclesiam,
+				<lb/>sed regnum Longobardorum per omnes suos status fere perturbavit, donec Bernardus, abas
+				<lb/>Clarevalensis, ad expelendum demones et ad sanandum et ad erigendum infirmos contritos
+			<lb/>secundum iussum hominum Mediolanum intravit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>2.</head> <p>Armanus enim ille monachus, quasi Cardinalis Romanus et a parte Brisiensium
+				<lb/>civium atque favore comitissae Matildis in ecclesia Brisiensi electus episcopus, defuncto
+				<lb/>Arnulfo archiepiscopo Mediolanensi, ad alium eligendum venit. Qui ubi sensit, nobilem
+				<lb/>multitudinem Mediolanensium convenire ad eligendum Landulfum de Badagio, sancti Ambrosii
+				<lb/>canonice prepositum, in archiepiscopum, virumque moribus et vita quam bene ornatum,
+				<lb/>substitit et electioni illi non consensit. Corona unde vulgi, gratia Romane ecclesie et
+				<lb/>Brisiensis ac Matildis comitisse favore putans, illum fore virum religionis, mox ubi sensit,
+				<lb/>illum Armanum huic electioni abesse, cepit adversus ipsam electionem insanire, et clericos
+				<lb/>et sacerdotes pugnis et fustibus vehementer lacerare, virum quoque de.... civibus Paganum
+				<lb/>nomine et in porta Horientali.... in ipsa ecclesia, que dicitur Yemalis, presumpsit
+				<pb n="4"/>
+				<lb/>occidere. Hanc insaniam nobilis Landulfus vitavit, et descendens secretarium ecclesie, ad
+				<lb/>domesticam suam ecclesiam, que sancti Johannis ad Quatuor faties dicitur, pervenit Armanus
+				<lb/>autem ille in tanta perturbatione in ecclesia sancti Ambrosii ait populo sibi congregato:
+				<lb/>Vobis fiet, prout proverbium dicit: "Populo stulto episcopus lurdus"Hoc dicto, statim ellegit
+				<lb/>sibi et illis in archiepiscopum Anselmum de Buis, hominem simplicem, et canonice
+				<lb/>Sancti Laurentii prepositum. Hic vero, ut [se] sensit ellectum a Brisiensi illo Armano et
+				<lb/>populo impetuoso conlaudatum, illico cathedram archiepiscopatus ascendit et sedit. Et deficientibus
+				<lb/>sibi sufraganeis episcopis, omnes ecclesiasticos ordines usque ad presbiteratum,
+				<lb/>ordinationem quoque episcopatus ab extraneis episcopis suscepit. Virge quoque pastorali
+				<lb/>per munus Comitissae Matildis adhesit; stollam autem, per legatum domini Urbani pape
+				<lb/>sibi delatam, induit. Deinde homo iste, effectus prudens, neglexit Obertum agnomine Baltricum,
+				<lb/>qui propter investituram Brisiensis episcopatus, quam a rege suo Henrico susceperat,
+				<lb/>Armano repugnabat; et Armanum, qui se in archiepiscopum elegit, in episcopum Brisiensem
+				<lb/>ordinavit. Hoc quidem providentia archiepiscopum antecedentium sibi, videlicet Anselmi
+			<lb/>de Raude et Arnulfi de Porta Orientali, facere vitavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>3.</head> <p>Cono quoque rex, qui, dum pater eius Henricus viveret, per contractationem
+				<lb/>Matildis comitisse et officium hujus Anselmi de Rode fuit coronatus Modoetie et in ecclesia
+				<lb/>sancti Ambrosii regali more, ad horum pontificum, scilicet Anselmi de Buis et Armani Brisiensis,
+				<lb/>ordinationem non respexit. Sed regnans in loco, qui Burgus Sancti Domnini dicitur,
+				<lb/>vidit presbiterum Liprandum, propter pattariam naso et auribus troncatum, euntem ad Urbanum
+				<lb/>pontificem Romanum. Cui presbitero rex ipse cum devotione inquit: ?Cum sis magister
+				<lb/>patarinorum, quid sentis de pontificibus et sacerdotibus regia iura possidentibus et regi nulla
+				<lb/>alimenta prestantibus??. Et presbiter ipse absque ullo rancore in beneplacito Dei et ipsius
+				<lb/>regi respondit. Verumtamen altera die faciens iter suum cum presbitero Arnaldo magistro
+				<lb/>scolarum Mediolanensi, et Siro sacerdote ecclesie sancte Marie Podoni, captus est ab hominibus
+				<lb/>Parmensis episcopi, qui dicebatur digerens penam, ad locum qui dicitur....; ibique
+				<lb/>per aliquot dies retentus et expoliatus, inde Mediolanum rediit. Rex vero ipse, prout audivi,
+				<lb/>a raptoribus illis emendam et mulum ipsius presbiteri suscepit. Et mox in Tusciam adire
+				<pb n="5"/>
+				<lb/>temptavit; et cum pervenisset Florentiam rex ipse prudens et sapiens atque decorus specie,
+			<lb/>proh dolor adolescens, accepta potione ab Aviano, medico Matildis comitissae, vitam finivit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>4.</head> <p>Rege igitur in regno deficiente, supradictus Anselmus de Buis Mediolanensis
+				<lb/>archiepiscopus, quasi monitus apostolica auctoritate, iam dicto presbitero nolente, studuit
+				<lb/>congregare de diversis gentibus esercitum, cum quo caperet Babilonicum regnum. Et in
+				<lb/>hoc studio premonuit preelectam iuventutem Mediolanensium, cruces suscipere et cantilenam
+				<lb/>de "Ultreja ultreja"cantare. Atque ad vocem huius prudentis viri plures viri cuiuslibet
+				<lb/>conditionis per civitates Longobardorum cantaverunt. Statuit quoque et ipse, dum esset in
+				<lb/>hac speditione, de reditibus archiepiscopatus non daretur sacerdotibus et levitis et ceteris
+				<lb/>clericis benefitium, quod consuevimus suscipere per celebrationes festorum sanctorum martirum,
+				<lb/>virginum et confessorum. Insuper quidam preoptandus mihi frater, nomine Girismannus,
+				<lb/>spectans ad illius monitionem, patrem et matrem, sorores et fratres, uxorem quoque et
+				<lb/>filiam unicam in cunabulis dimisit; atque rediens a Yerosolimis, viam universe carnis intravit,
+				<lb/>et Babilonis terram, prestante sibi divina gratia, simul cum multis peregrinis vitavit. Archiepiscopus
+				<lb/>vero ille de Buis, a Turcis et Saracenis fugatus, in gravi luctu Constantinopolim
+			<lb/>expiravit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>5.</head> <p>Sed ne finis mei laboris hic intelligatur, dico. Cum adhuc homo iste simplex
+				<lb/>Mediolani viveret et exercitum congregaret, habuit conscilium statuendi sibi vicarium hominem
+				<lb/>multarum artium. Unde quidam sagacissimi viri, ab eo ordinati sacerdotes, mandatum
+				<lb/>eundi Saonam susceperunt, ut in ipsa civitate suo iussu et auctoritate electionem episcopi
+				<lb/>admonerent et fieri cogerent. Qui dum iter facerent, venerunt Ferariam, in quo nemore
+				<lb/>amplexi sunt Grosolanum et eius conscilium. Quorum sacerdotum exercitium in tantum
+				<lb/>valuit, quod quidam ex Saonensibus ipsum Grosulanum, in victu afflictum, in vestitu abiectum,
+				<pb n="6"/>
+				<lb/>elegerunt sibi in episcopum. Et eligentes una cum illo ellecto et illis duobus sacerdotibus
+				<lb/>ab archiepiscopo missis, videlicet presbitero Johanne Aculeo et presbitero Nazario
+				<lb/>Muricula, Mediolanum pervenerunt; ibique per iussionem archiepiscopi, quia iam erat in
+				<lb/>expeditione positus, Grosulanus ab Armano Brisiensi et Arialdo Januensi et Mainardo Taurinensi
+				<lb/>ordinatus est episcopus et archiepiscopi vicarius. Verum quia ipse ordinatus sedem
+				<lb/>Saonensem nundum ascenderat, ad ipsam civitatem adire temptavit et quodam modo pervenit.
+				<lb/>Sed requies ibi, si quam habuit, parvissima fuit. At citissime inde exiens, Mediolanum
+				<lb/>rediit. Cuius magne civitatis commonuit gentem, ut per singulas ebdomadas in secunda
+				<lb/>feria ad sancti Ambrosii ecclesiam convenirent et pro archiepiscopo illo Anselmo eiusque
+				<lb/>exercitu letanias facerent. Ipse vero Grosulanus non solum in ipsis feriis, sed fere per singulas
+				<lb/>festivitates illi magne genti loculente sermocinabatur et sermocinando non magis affectabat
+			<lb/>eam sibi, quam asperitate vestitus et cibi.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>6.</head> <p>Interea presbiter Liprandus ipsi Grosulano, adherenti cathedre archiepiscopi,
+				<lb/>coram Andrea Primicerio et quibusdam alliis sacerdotibus placide dixit, ut oridam capam
+				<lb/>exueret et convenientem tanto vicario indueret. Cui presbitero ille Grosulanus, pretium
+				<lb/>emendi non habere, respondit. Tunc presbiter Liprandus ad primicerium inquit: "Primiceri,
+				<lb/>dives es, et potes hoc pretium bene prestare. Verumtamen, si placet, prestabo medietatem
+				<lb/>tanti pretii"Primicerius autem presbitero: "Hoc satis perficiam in crastino". Et vicarius
+				<lb/>aut ait, quod eam non indueret, cum de contemptu mundi vitam agere proposuisset.
+				<lb/>Hoc ut presbiter ille Liprandus audivit, sub quadam admirationis specie protulit dicens:
+				<lb/>"Cum spernis mondum cur venisti in mondum?. En civitas ista suo more utitur pellibus
+				<lb/>variis grixis, marturinis et ceteris pretiosis ornamentis et cibis. Turpe quidem erit nobis,
+				<lb/>cum advene et peregrini viderint te hispidum et pannosum in nobis". Attamen vicarius in
+				<lb/>hac sua comoditate afflictionis et orationis atque sermocinationis per duos annos laboravit,
+			<lb/>et laborando certitudinem de morte predicti Anselmi de Buis accepit. </p>
+		</div>
+		<div type="chapter">
+			<head><lb/>7.</head> <p>Primicerio igitur ipse Grosulanus et ordinariis maioris Mediolanensis ecclesie inquit,
+				<lb/>ut se praesente eligerent sibi et populo archiepiscopum convenientem, priusquam rediret ad
+				<lb/>episcopatum Saonensem. Tunc primicerius, habito conscilio cum nobilibus, clericis et viris
+				<lb/>Mediolani, coram populo et ipso alterum de duobus Landulfis , Mediolanensis ecclesie ordinariis,
+				<pb n="7"/>
+				<lb/>videlicet de Badaglo et de Vareglate, a Yerosolimis redeuntibus, ellegit. Sed Grosulanus
+				<lb/>de absenti persona electionem fieri prohibuit. Pars itaque cleri et populi ad nutum
+				<lb/>Arialdi, abatis monasterii sancti Dyonisii, clamavit et laudavit Grosulanum sibi in archiepiscopum.
+				<lb/>Ipse vero, statim ut vidit se a quadam magna multitudine vulgi et nobilium conclamatum
+				<lb/>et ab abate illo plaudatum, archiepiscopalem sedem ascendit et sedit. Et sedens,
+			<lb/>illum Arialdum abatem de abatia in abatiam maiorem videlicet Clavatensem, transtulit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>8.</head> <p>Sed ante huius translationem contigit, quod quidam, qui videbantur viri et clerici
+				<lb/>Mediolanenses, quedam turpia de Grosulano et de eius ellectione presbitero Liprando notificaverunt.
+				<lb/>Quibus viris et clericis presbiter ipse conscilium prebuit, ut literas et duos ydoneos
+				<lb/>clericos miterent Romam, rogando Papam, quatenus Grosolanum in archiepiscopatu non
+				<lb/>firmaret, donec se ipsos, mitentes literas, in proximo tempore videret et audiret. Bernardus
+				<lb/>autem, abas Umbrose Vallis et cardinalis Romanus, ad has literas et nuntios, videlicet
+				<lb/>Obizonem, qui cognominatur Nigrum, et Heribertum de Bruzano, contempnentes Grosulani
+				<lb/>causam ipsiusque legatorum verba, videlicet Arderici de Carimate et Iohannis presbiteri
+				<lb/>de Ploltelo coram apostolico et eius curia non respexit; sed accepta stola, curiam comitissae
+				<lb/>Matildis intravit. Ibique inito conscilio in beneplacito Arderici de Carimate, qui pro Grosulano
+				<lb/>et stolla Romam iverat, abbas ille Bernardus Mediolanum venire festinavit. Et cum
+				<lb/>procul vidissent Mediolanum, Ardericus idem in protensi virga usque ad majorem ecclesiam
+				<lb/>civitatis portavit, clamando: "Hecum la stola, hecum la stola". Et in hoc clamore plenitudo
+				<lb/>vulgi fuit et acclamavit: "Moriatur, quicumque contradixerit". Clamor iste ingens et
+				<lb/>continuus fuit, donec abbas ille cardinalis et Grosulanus pulpitum maioris ecclesie Mediolani
+				<lb/>ascendit. Et cum uterque ibi videbantur in victu afflicti, in vestitu dimissi, in sermone preclari,
+				<lb/>tantum plausum audierunt sibi, veluti si pure forent angeli Dei. Ibique Grosulanus
+				<lb/>stola indutus; et abas, in suo tempore remuneratus, quievit et recessit, et post paucos dies
+			<lb/>in gratia predicte comitissae Matildis idem abas Parmensem episcopatum suscepit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>9.</head> <p>Grosulanus vero, consentiens humane fragilitati, usus est cibis delitiosis et vestibus
+				<lb/>pretiosis, atque petiit subcingulum, quo presbiter Liprandus fruebatur in officio misse secundum
+				<lb/>morem cardinalis. Sed presbiter ipse ipsum cingulum Grosulano dare negavit. Deinde
+				<lb/>ipse archiepiscopus quoscumque non potuit sibi blandire, temptavit minis terrere, presbiterum
+				<lb/>Liprandum precipue. Qui presbiter, cum esset coram cuncto populo urbis Mediolani interrogatus,
+				<lb/>inquit: "Quam plures de hic consedentibus et stantibus ad libitum suum placitumque
+				<lb/>tuum locuti sunt, atque de literis Romam missis, propter quas super me intendis, tibi responderunt.
+				<lb/>Quod si vis meum inde habere responsum, dic michi, si vis ut dicam tibi verum,
+				<pb n="8"/>
+				<lb/>an mendatium. Alioquin non dabo tibi responsum". Grosulanus vero super hoc percunctatus,
+				<lb/>tandem in eodem conventu dicit: "Volo, ut dicas verum". Grosulanus vero super hoc
+				<lb/>quasi a Domino confortatus, dixit: "Literas, de quibus me interrogas, ego non dictavi nec
+				<lb/>scripsi, sed et alias in divina a pagina legi, et in ipsis non inveni verbum quod confirmaret
+				<lb/>te iure posse esse Mediolanensis ecclesie archiepiscopum; atque conscilium et auxilium dedi
+				<lb/>pluribus clericis et viris, qui miserunt Romam Obizonem Nigrum et Heribertum de Bruzano,
+				<lb/>ut rogarent papam ne tibi miteret stolam". Unde Grosulanus comotus ait: "Archiepiscopus
+				<lb/>nunc sum et stolam habeo. Quod nisi satisfeceris michi de hac presumptione, faciam
+				<lb/>de te, quod michi pertinet facere". Tunc presbiter porexit sibi cartarn signatam
+				<lb/>apostolico sigillo, hec continentem: "Gregorius episcopus, servus servorum Dei, Liprando
+				<lb/>sacerdoti salutem et apostolicam benedictionem. Si sanctorum memoriam veneramur, de
+				<lb/>quo legimus morte et abscissione membrorum, si patientiam laudamus eorum, quos a fide
+				<lb/>Christi gladius nec ulla pena divisit; tu quoque abscisso naso et auribus pro Christi nomine
+				<lb/>laudabilior es, qui ad eam gratia pertingere meruisti, que ab omnibus desideranda est, que
+				<lb/>a sanctis, si perseveraveris in finem, non discrepas. Integritas quidem corporis tui diminuta
+				<lb/>est, sed interior homo, qui renovatur de die in diem, magnum sanctitatis suscepit incrementum.
+				<lb/>Forma visibilis turpior, sed imago Dei, que est forma iustitie, facta est in diminutione
+				<lb/>iocondior, in turpitudine pulchrior. Unde in canticis canticorum gloriatur ecclesia
+				<lb/>dicens: Nigra sum, filie Yerusalem. Quod si interior species nichil passa est detrimenti
+				<lb/>hiis abscissionibus, non est abscisum a te sacerdotale officium, quod proprium est sanctitatis
+				<lb/>et non tantum conscideratur in integritate membrorum, quantum in integritate virtutum.
+				<lb/>Unde imperator Constantinus Yerosolimitani episcopi cujusdam occulum pro nomine Christi
+				<lb/>erutum sepe osculabatur. Et exemplo patrum atque documento majorum didicimus non
+				<lb/>auferre sacrum officium martyribus pro hujusmodi censura membrorum. Proinde, martir
+				<lb/>Christi, confortare in Domino; magis credas in te nunc esse presbiteratus officium, quod
+				<lb/>prius olei unctione, nunc vero tibi est sanguinis tinctione comissum; et quanto minus habes
+				<lb/>quod possit auferri, tanto minus timeas predicare, que recta sunt, seminare que centuplicata
+				<lb/>redentur. Scimus quidem, te ab inimicis sancte ecclesie semper inimicari atque affligi;
+				<lb/>sed tu ne eos timeas, neque perterearis, quia nos tam te, quam tua omnia sub nostra et sub
+				<lb/>apostolice sedis tutella cum magna caritate tenemus. Et si in aliquibus tibi necessarium
+				<lb/>fuerit apostolicam sedem apellare concedimus; et si ad nos et ad sedem nostram veneris,
+				<lb/>cum gaudio et magno honore suscipere parati sumus". Hiis perlectis, Grosulanus, quasi
+				<lb/>vellet destruere, sigillum strinxit et capa sua texit. Inde presbiter seu irato animo rem suam
+				<lb/>quesivit, et requirendo Grosulano ait, nisi sigillum et cartam sibi illesam rederet, civitatem
+				<lb/>totam inde commoveret. Et carta sigillata et inlesa sibi redita, Arialdus, abas monasterii
+				<lb/>Dionisii, seorsum presbiterum fecit et in cameram duxit, atque inter multa blanda presbitero
+				<lb/>ait, ut manum obedientiae Grosulano daret. Sed presbiter ipse, exaltando et reiterando
+				<lb/>vocem, inquit: "Manum obedientie? manum obedientie? Per viventem in saecula, nec
+				<lb/>minimum digitum manus mee darem pro hac re". Quod cum audisset conventus clericorum,
+				<lb/>qui adhuc aderat in palatio, ait intra se: "hoc conscilium non est in scilentio". Et
+				<lb/>cum abas et presbiter cameram exissent, et archiepiscopus signum dissolvendi conscilium
+				<lb/>dedisset, presbiter sibi scilentium indixit et audientiam habuit, dicens: "Ne scandalum in me
+				<lb/>faciatis, scitote, ego.. in meo officio, secundum quod ipse servaverit me in suo". Et talli
+			<lb/>tenore prebuit manum Grosulano.</p>
+			<pb n="9"/>
+		</div>
+		<div type="chapter">
+			<head><lb/>10.</head> <p>Cum alter alterum suspectum haberet, contigit, quod Heribertus de Bruzano,
+				<lb/>valde agravatus febribus, venit ad dictum presbiterum suplicando, ut adversus infirmitatem
+				<lb/>daret sibi remedium. Ministri vero presbiteri ministraverunt cibum et lectum convenientem
+				<lb/>illi egrotanti, donec Dominus virtutum per impositionem manuum eiusdem presbiteri prebuit
+				<lb/>salutiferum remedium ipsi aegrotanti. Unde Grosulanus stimulatus ait ad presbiterum: "Quia
+				<lb/>partecipasti Heriberto meo excommunicato, precipio tibi, ut missam non cantes, quousque
+				<lb/>penitentiam inde susceperis et michi satisfeceris". Et presbiter ad illum: "Quod feci in
+				<lb/>Heriberto, bonum fuit et a Deo venit; atque de bono et Dei opere non novi penitere. Etsi
+				<lb/>non habes super me hanc potestatem, tamem propter hoc scandalum vitandum tibi contemperabo".
+				<lb/>Quendam igitur sacerdotem scolasticum in domo sui proprii iuris presbiter Liprandus
+				<lb/>induxit, qui sibi missam cantabat in ecclesia Sancti Pauli, que dicitur in Copodo,
+				<lb/>quam ipse presbiter Liprandus una cum ecclesia sancti Germani sita in Niguarda rehedificando
+				<lb/>et magnificando quemadmodum legitur in cartis, a regalibus judicibus et viris et clerico
+				<lb/>ordinario subscriptis et atestatis. Hinc est etiam, quod ipse stabilius Grosulano restitit
+			<lb/>et ceteris, inimicantibus sibi et suis.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>11.</head> <p>Ut securitatem sibi et suis clericis constitueret ecclesiam quoque sancte Trinitatis
+				<lb/>incohavit, et in proprio suo alodio ad locum, qui Pons Guinizeli dicitur simul cum Landulfo
+				<lb/>suo acolito et alumpno fundavit. Ipsam quoque beato Petro obtulit et Urbanus papa II
+				<lb/>suscepit et cum privilegio ipsum presbiterum et ecclesiam communivit, subscribens: ?Urbanus
+				<lb/>episcopus, servus servorum Dei, dilecto filio Liprando.. Statuimus ecclesiam illam cum
+				<lb/>prediolo, in quo fundata est, .... vel per allios fideles illic Domino largiente collata fuerint,
+				<lb/>ab omni seculari oppressione quietam perpetuo manere ac liberam. Clericis vero ibi victuris
+				<lb/>vivendi regulariter concedimus facultatem; eosque decernimus tam proprias ordinationes
+				<lb/>quam altarium et ecclesiarum consecrationes, ceterarumque dona sacramentorum a
+				<lb/>Mediolanensi archiepiscopo suscipere, si quidem catholicus fuerit et comunionem ac gratiam
+				<lb/>apostolice sedis habuerit, et si ea gratis et si non pravitate indulserit. Allias autem
+				<lb/>liberum eis arbitrium sit sacramenta eadem suscipere a quocumque voluerint catholico
+				<lb/>episcopo. Decernimus ergo, ut neque Mediolanensi archiepiscopo neque alicui viventium liceat
+				<lb/>eandem ecclesiam et fratres, qui illic Deo servierint, quodlibet occasionis iugo deprimere,
+				<lb/>aut bona eorum distrahere et suis usibus applicare, vel temerariis vexationibus fatigare; sed
+				<lb/>omnia integre conserventur, vobis et successoribus vestris omnimodis profutura, salva eiusdem
+				<lb/>Mediolanensis archiepiscopi catholica reverentia. Ad indicium autem hujus perceptae
+				<lb/>libertatis a Romana ecclesia Mediolanensis monete numos sex quotannis Lateranensi
+				<lb/>palatio persolveritis. Si qua igitur in crastinum ecclesiastica secularisve persona, huius decreti
+				<lb/>paginam sciens, contra eam temere venire temptaverit, potestatis honorisque dignitate
+				<lb/>careat, reamque se divino iudicio existere de perpetrata iniquitate cognoscat, atque a sacratissimo
+				<lb/>corpore et sanguine Christi Dei ac Domini redemptoris nostri Yhesu Christi aliena
+				<pb n="10"/>
+				<lb/>fiat, et in extremo exanime districtae ultioni subiaceat. Cunctis autem eidem loco juxta
+				<lb/>servientibus sit pax Domini nostri Yhesu Christi; quatenus et hic fructus bone actionis
+			<lb/>percipiant et apud districtum judicem premia eterne pacis inveniant. Amen".</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>12.</head> <p>Grosulanus autem et eius turba ad hanc apostolicam monitionem neque ad multas
+				<lb/>nobilium virorum preces, pro presbitero Liprando fusas, respexit; sed cupiens subvertere
+				<lb/>illum, sibi laboravit, ut episcopos et principes Langobardiae commoveret et cum ipsis sinodum
+				<lb/>celebraret. Hujus sinodi tempus dum appropinquaret, et multorum hominum tumultus
+				<lb/>multa turpia adversus Grosulanum tumultuabat, et Grosulanus ad compescendum illum tumultum,
+				<lb/>quasi in prima vigilia cuiuslibet autentice noctis matutinum pulsare fecit, et gentem
+				<lb/>multam tam per se quam per suos sacerdotes et ministros, occasione matutini habita, congregavit.
+				<lb/>Atque matutino cantato, multo populo coram ipso convocato, de passione Christi et
+				<lb/>proditore Iuda prolixum sermonem fecit, et sue cause ipsum sermonem coaptavit, atque in
+				<lb/>fine sui sermonis super sancta Dei evangelia, nullo interrogante, publice juravit, quod a die,
+				<lb/>qua egressus est de utero matris, pollutionem non fecit et carnem suam non coinquinavit.
+				<lb/>Arialdus vero, monasterii sancti Dionisii abbas, et Guazo, qui cognominatur de Orreo, ad
+				<lb/>ipsum jurando firmaverunt. Et mox Grosulanus adjecit dicens: "Si quis vult adversum me
+				<lb/>dicere aliquid, nunc dicat. Quod si modo tacuerit amplius adversum me audientiam non
+				<lb/>habebit". Hoc cum presbitero Liprando renuntiatum fuit, et ipse plures cives ad ecclesiam
+				<lb/>sancti Pauli vocavit in die. Quibus dixit: "Videtis me abscissum naso et auribus pro
+				<lb/>nomine Christi; unde michi magna retributio est promissa, si in finem perseveravero. Pro
+				<lb/>amore itaque Christi vestraque salute et pace rogo vos ut ad me et ea, que vobis dixero,
+				<lb/>intendatis". Et cum hec et plura bene dicta beneque sonantia presertim adversum symoniam
+				<lb/>dixisset, proposuit dicens: "Grosulanus, qui pro archiepiscopo tenetur, est simoniachus
+				<lb/>de archiepiscopatu Mediolanensi per munus a manu, per munus a lingua, per munus ab
+				<lb/>obsequio". Et cum hoc in suo proposito procederet, sepissime ortabatur omnes, ut convenirent
+				<lb/>ad veram cognitionem hujus propositi per divinum iudicium , adprobatum in vita
+				<lb/>vel morte sua, manifestata per ipsum. Sed Grosulani turba hoc perturbabat auctoritate pontificum,
+			<lb/>qui Mediolanum venerant ad celebrandum sinodum cum Grosulano.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>13.</head> <p>Verum tamen presbiter ipse adversos episcopos disputans, rationibus et exemplis
+				<lb/>suam sententiam sustinuit nec dimisit. Grosulanus vero, parvi pendens hujus presbiteri verba,
+				<lb/>veluti in presentia eius non essent prolata sinodum suam in ecclesia sancte Marie, que
+				<lb/>dicitur yemalis, per duos dies tractavit, atque in tertia in prato, quod dicitur brorium, coram
+				<lb/>infinita hominum multitudine dedit sententiam deponendi Andream primicerium et allios
+				<lb/>sacerdotes, quos Anselmus de Rode, Mediolanensis Archiepiscopus, et a Rege Henricho investitus,
+				<lb/>ordinavit. Quam sententiam multitudo cleri illico et populi, et non multum post
+			<lb/>ipse Paschalis papa Romanus contempsit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>14.</head> <p>Attamen Grosulani turba, dimicans adversus primicerium, Landulfum eiusdem
+				<lb/>primicerii clericum lapide occidit. Deinde quasi in consensu totius civitatis dictum fuit
+				<pb n="11"/>
+				<lb/>presbitero, ut ad faciendum iudicium multa ligna congregaret in prato, quod clauditur in
+				<lb/>muro iuxta sancti Ambrosii monasterium. Et presbiter ipse, plenus magno spiritu, anonam
+				<lb/>et vinum, que ad edendum habebat, pauperibus erogavit, suamque lupicervinam pellem pro
+				<lb/>lignis pignoravit; cetera vero, que possidebat in libris et alliis rebus, statuit ut conservarentur
+				<lb/>Landulpho, nepoti suo et alumpno atque ecclesie acolito, qui tunc temporis discebat
+				<lb/>Aureliani ab egregio magistro Alfredo et nobili Jacobo. Statuit etiam, si contigerit illum
+				<lb/>mori in illo iudicio, si quid corporis eius residuum fuerit, portaretur ad ecclesiam sancte
+				<lb/>Trinitatis, quam ipse, sicut superius in privilegio legitur, in alodio suo fundavit et beato
+				<lb/>Petro tradidit. Hiis ita statutis et ordinatis, idem.. Ambrosii ecclesiam ivit. Et cum ipse
+				<lb/>facturus judicium.., manus Grosulani prevaluit et ipsa ligna in prato disposita dispersit,
+			<lb/>ipsumque presbiterum ab illa dispositione separavit ignominiose.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>15.</head> <p> Deinde in domo sua et sancti Pauli ecclesia presbiter iste siluit et quievit, donec
+				<lb/>pueri et puelle, mares et femine in proximo tempore clamaverunt: "Foras, foras, Grosulane"!
+				<lb/>Hunc clamorem Grosulanus cupiens compescere, habuit conscilium cum satelitibus
+				<lb/>suis, quibus dixit: "Ite et vos; et publice eligite viros de populo, qui dicant illi Liprando,
+				<lb/>aut ad satisfactionem meam veniat, aut de terra ista exeat, aut judicium, quod se facturum
+				<lb/>promisit, faciat". Consciliarii itaque, de latere eius venientes ad concionem populi, in
+				<lb/>vespertina hora dominice diei de ramis palmarum seu olivarum publicaverunt, que audierant
+				<lb/>a domino suo archiepiscopo Grosulano. Quapropter non solum viri, in concione electi,
+				<lb/>venerunt ad presbiterum hanc legationem dicere, sed innumera hominum multitudo venit
+				<lb/>hanc legationem confirmare. Ad quorum clamorem clamantem: "Veniat presbiter ipse Liprandus!"
+				<lb/>ipse humilis exivit. Et ut legationem audivit et intellexit, manus ad celos levavit,
+				<lb/>et Deo gratias egit, et interrogando legatos inquit: "Vult et mandat iste, quod michi
+				<lb/>dicitis?". Qui omnes respondentes dixerunt: "Utique vult et mandat". Et presbiter ad
+				<lb/>eos: "Teram non exeo. Sed in istis duobus diebus ieiunium ago et in quarta feria faciam
+				<lb/>iudicium, prestante Deo. Sed unde ligna emam, non habeo". Tunc Grosulani et rei
+				<lb/>publicae ministri quercina ligna, ad flamam et ad calorem aptissima, triginta solidis denariorum
+				<lb/>emerunt, que in campo ante atrium ecclesie sancti Ambrosii in duabus congeribus,
+				<lb/>respicientibus se, composuerunt; longitudo quarum decem cubitorum fuit, et altitudo et latitudo
+				<lb/>maior statura hominis cubitorum quatuor; via vero inter ipsas congeries unius cubitis
+			<lb/>et semis.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>16.</head> <p> His itaque dispositis et quibusdam lignis in via interpositis, in quarta feria presbiter,
+				<lb/>indutus cilicio, camisio atque casula more sacerdotis, ab ecclesia sancti Pauli usque
+				<lb/>ad ecclesiam sanctorum martyrum Protasii et Gervasii et beatissimi Ambrosii nudis pedibus
+				<lb/>crucem portavit. Super quorum sanctorum altare, ceteris sacerdotibus deficientibus, ipse
+				<lb/>sibi missam cantavit. Et missa cantata, Grosulanus quoque, gerendo crucem, eandem ecclesiam
+				<lb/>intravit, et pulpitum cum Arialdo de Meregnano et Berardo, iudice Astensi, ascendit.
+				<lb/>Et facto scilentio in populo, et presbitero stante nudis pedibus super lapidem marmoreum, qui
+				<lb/>in introitu chori continet Herculis simulacrum, idem Grosulanus ait ad populum: "Atendite,
+				<lb/>quia in tribus verbis hunc hominem vincam et ejus confusionem ostendam". Et ad
+				<lb/>presbiterum inquit: "Proposisti, quod ego sum simoniachus per manus a manu. Modo dic:
+				<pb n="12"/>
+				<lb/>Cui dedi?". Tunc presbiter super populum oculos aperuit et digitum ad tres illos, qui stabant
+				<lb/>in pulpito, extendit dicens: "Videte tres grandissimos diabolos, qui per ingenium et
+				<lb/>pecuniam suam putant me confundere. Et nonne ille diabolus, qui suasit eum fieri symoniachum
+				<lb/>per peccuniam, suadere potest, ut adhuc maiorem peccuniam daret, et veritatem
+				<lb/>occultaret, et testes et iudices mondanos michi auferet? Et nonne scitis, quia propter vitandam
+				<lb/>astutiam diaboli et pravorum hominum ego elegi Deum iudicem, qui neque per pecuniam
+				<lb/>neque aliquo modo potest falli in iudicio? Ad cuius iudicium si vultis venire, paratus
+				<lb/>sum, quod promisi, facere". Et Grosulanus ad eum: "Modo dic. De qua simonia dicis".
+				<lb/>Et presbiter ad illum: "Modo dic tu. Que est bona?". Et Grosulanus aliquantulum subsiluit,
+				<lb/>et ait: "Est simonia, que simoniam non deponit". Et presbiter ait: "Ego dico de
+				<lb/>illa, que deponit abbatem de abbatia, episcopum de episcopatu, archiepiscopum de archiepiscopatu,
+				<lb/>in quo est". Et cum in hiis verbis satisfecisset omnibus, audivit populum clamantem:
+				<lb/>"Exite foras ad iudicium! Exite foras ad iudicium!". Et presbiter in hoc multiplicato
+				<lb/>clamore, licet senex, desuper lapide, in quo erant lignorum congeries, venit. Ibique
+				<lb/>dum ignis lignis accendebatur, presbiter circumstantibus dixit: "Vos preter me non cernitis
+				<lb/>sacerdotem, qui hunc ignem michi benedicat; sed cernitis cartam hanc quam teneo, in qua
+				<lb/>sancta verba et signa sancte crucis continentur. Et ego minister hec verba et signa inferius
+				<lb/>dicam et faciam; et Deus, qui est dominus meus, desuper ignem benedicat". Et
+			<lb/>audientes et bene intelligentes dixerunt: "Amen".</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>17.</head> <p>Atque cum in circuitu ignis hec nerba dixisset et signa fecisset, et aquam benedictam
+				<lb/>et incensum super ignem, astante ibi Grosulano, aspersisset dubitabatur de ordinando
+				<lb/>sacramento, apud Grosulanum et Arialdum de Meregnano, qui erat quasi potentissimus
+				<lb/>princeps Grosulani et procurator judicii et expectans, presbiterum per ignem in morte finiri,
+				<lb/>vel per nimium terrorem ad dominum suum Grosulanum converti. Ipse namque Berardo,
+				<lb/>iudici Astensi, hanc legem non solum per mortem sed per quamlibet ignitam lesuram in presbitero
+				<lb/>factam condempnare, dixerat: "Absit, quod lesura. Sed ignem adeo magnificabo,
+				<lb/>quod procul oculos ignis de capite eius eruet et in ipso igne ardens cinis putrefiet". Attamen
+				<lb/>presbiter cum vidisset, eos de ordinando sacramento dubitare, dixit ad eos: "Sinite me,
+				<lb/>quod ego bene ordinabo. Nec finiam sacramentum, donec dixero tantum, quantum vobis
+				<lb/>satisfecerit". Et ilico in consensu eorum apprehendit capam Grosulani, ipsamque quassavit
+				<lb/>dicens: "Iste Grosulanus, qui est sub ista capa - et non de alio dico - est symoniachus
+				<lb/>de archiepiscopato Mediolani per munus a manu, per munus a lingua, per munus ab
+				<lb/>osequio". Et cum illis videbatur sufficere, adidit: "Et ego ad fiduciam maleficii aut incantationis
+				<lb/>vel carminis non intro hoc iudicium; sic Deus me adiuvet et ista sancta Evangelia
+				<lb/>in isto sancto iudicio". Facto hoc sacramento concorditer, Grosulanus equum ascendit, et
+				<lb/>ad ecclesiam sancti Iohannis, que dicitur ad Choncam, venit. Arialdus vero predictus de
+				<lb/>Meregnano, inquirens et expectans plenitudinem ignis, presbiterum tenuit, et tenendo, manum
+				<lb/>suam lesam procul ab ipso calore ignis sensit. Et tamen ad presbiterum inquit: "Presbiter
+				<lb/>Liprande, vide mortem tuam in igne; convertere ad dominum meum archiepiscopum,
+				<lb/>habita securitate tue vite. Alioquin vade, et arde te cum Dei maledictione". Et presbiter
+				<lb/>ad illum: "Sathana, retro vade!". Illo retrocedente, presbiter prostratus a terra levavit. Et
+				<lb/>signo crucis sibi apposito, ingens flama ignis in meridiem et septentrionem se divisit, et via
+				<lb/>aperuit, quam presbiter intravit. Et transiens per ipsos carbones ignis, ceu harenam calcaret
+				<lb/>sentit, et dum per ipsam viam transibat, flama post ipsum coibat. Et ut ipse michi dixit et
+				<lb/>bene intellexi, in via huius ignis fuit, hanc orationem Deo potulit, dicens: "Deus, in nomine
+				<pb n="13"/>
+				<lb/>tuo salvum me fac et in virtute tua libera me; Deus in nomine tuo salvum me fac et in
+				<lb/>virtute tua libera me; Deus, in nomine tuo salvum me.."; et dum tertio proferet hoc
+				<lb/>Verbum: <hi rend="italic">fac</hi>, se extra ignem vidit, nec in se, nec in suis sacerdotalibus vestibus lineis ac
+			<lb/>sericis, quibus erat indutus, sive in cilicio lesionem ullam sensit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>18.</head> <p>Tunc populus plene, quasi ex uno ore laudem Deo et huic presbitero extra et
+				<lb/>infra civitatem contulit. Grosulanus vero intrepidus sedem archiepiscopatus deseruit et civitatem,
+				<lb/>quia aperte communi civitatis iuratum erat, quod neutri illorum, nec alicui de parte
+				<lb/>illorum pro hac actione malum fieret, nisi quod Deus sibi faceret. Sed quia presentia episcoporum
+				<lb/>suffraganeorum huic legi et triumpho favorem integre non prebuit, et ignis manum
+				<lb/>presbiteri, quam in proiciendo aquam et incensum super ignem, lesit, et quia pes equi
+				<lb/>Iohannis de Rode nudum presbiteri pedem de igne exeuntis dure calcavit; turba, tristis de
+				<lb/>casu et ruina Grosulani, in presbiterum et eius legem post paucos dies scandalizavit, et scandalizando,
+			<lb/>hortatu quorundam sacerdotum, prelia et homicidia multa comisit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>19.</head> <p> Interea Grosulanus domnum papam Paschalem gratum sibi invenit. Landulphus
+				<lb/>vero de Vereglate, qui primus in Coritiana fuga fuerat, rediens a Yerosolimis, Romam
+				<lb/>pervenit, atque in Grosulano, iam inde regresso, didicit non solum quod actum fuerat Mediolani
+				<lb/>propter concertationem presbiteri et Grosulani, sed etiam, quam solempniter Romanus
+				<lb/>Pontifex post tallia facta ipsum Grosulanum susceperat. Quia ipse quidem papa Paschalis
+				<lb/>super sedem suam ipsum Grosulanum posuit; et per quot dies idem Grosulanus tunc temporis
+				<lb/>Laterani fuit; eundem super sedem suam sedere fecit, atque ipsi sedenti cessit et
+				<lb/>locum dedit, suam quoque curiam et omnes causas ecclesiasticas, a se discernendas et iudicandas,
+				<lb/>ipsi Grosulano ad discernendum et iudicandum tradidit.
+				<lb/>19 <hi rend="italic">bis</hi>. Sed tamen Landulphus ille de Vareglate, veniens Mediolanum, non presbiterum
+				<lb/>nec eius legem directe contempsit. Sed clero et populo Mediolanensi promitens deponere
+				<lb/>Grosulanum ab omni ecclesiastico officio iuxta canonum rationem, inquit: "Cur de lege
+				<lb/>presbiteri Liprandi et Grosulano contenditis et prelia et omicidia in vobis facitis? En vobis
+				<lb/>certissime dico et per Iohannem Vicomercatensem Grosulano mando, quod ego apud dominum
+				<lb/>papam Paschalem eiusque curiam vel synodum certis cum rationibus et iustis et
+				<lb/>sanctis canonibus comprobabo, illum non posse subsistere in numero episcoporum, nec presbiterorum,
+				<lb/>aut etiam in aliquo ordine clericorum?. Clerus vero et populus huic autentico
+				<lb/>viro et, secundum quandam novitatem, canonice sancti Nazarii preposito et maioris Mediolanensis
+				<lb/>ecclesiae ordinario, credulus, una cum Grosulano ad Romanam sinodum pervenire
+				<lb/>studuit. Unde rigidus et sapiens capitaneus Mediolanensium, Amizo de Landriano, ait: ?Vos
+			<lb/>ludriam in aquam negare vultis".</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>20.</head> <p> Sed Grosulanus nil moratus ad pedes apostolici provolutus, sibi et suis iterum
+				<lb/>refugium suscepit. Presbiter vero Liprandus, cum iam senex esset, et duo anni post legem
+				<lb/>ab ipso factam mansissent, provocatus et quasi compulsus, Romam ad synodum venit. In
+				<pb n="14"/>
+				<lb/>qua predictus Landulphus de Vareglate, qui post ipsam sinodum fuit Astensis episcopus,
+				<lb/>neque ante papam vel ejus curiam vel synodum adversum Grosulanum verbum ignominiosum
+				<lb/>protulit; sed presbiter Liprandus causam, quam adversus Grosulanum habuit, pure notificavit.
+				<lb/>Et apostolicus non legem, per ipsum presbiterum datam et sacramento et igne notatam,
+				<lb/>laudavit, sed gratiam et officium presbiteratus in illo firmavit et dixit: "Si hic presbiter
+				<lb/>iuraret, et duodecim sacerdotes cum illo iurando affirmarent, quod Grosulanus coegit ipsum
+				<lb/>presbiterum ire ad ignem, sustineret Grosulanus depositionem". Atque super hoc spatium
+				<lb/>consulendi per unam noctem dedit. Nocte autem illa transacta, apostolicus coram synodo
+				<lb/>a Grosulano suscepit sacramentum; in quo sacramento Grosulanus sic ait: "Ego Grosulanus,
+				<lb/>gratia Dei archiepiscopus, non coegi dictum Liprandum presbiterum ire ad ignem et facere
+				<lb/>iudicium". Tunc et Ardericus, Laudensis episcopus, jurando firmavit id ipsum. Azoni
+				<lb/>vero, Aquensi episcopo, proferenti id ipsum jurare ex parte Grosulani, ab apostolico fuit condonatum.
+				<lb/>Grosulanus itaque accessit, ut acciperet gratiam restitutionis: et cum ad accipiendam
+				<lb/>restitutionem accederet, gabuta vel pastoralis virga, quam idem Grosulanus sua tenebat
+				<lb/>manu, coram synodo ad terram coruit. Quod signum quampluribus fuit indicium, quod
+				<lb/>sacramentum eius fuit sacramentum mortis. Verumtamen nec papa nec ejus sinodus ad hoc
+				<lb/>tunc respexit; sed ipsum Grosulanum Azoni, Aquensi, et Arderico Laudensi atque Jordano
+				<lb/>de Clivi et ceteris Mediolanensibus tam clericis quam laycis, verum etiam episcopis ejusdem
+				<lb/>ecclesiae suffraganeis, volentibus habere eum in archiepiscopum, licet otiose, restituit. Quoniam
+				<lb/>quidem presbiter ille Liprandus, licet occasione huius restitutionis foret suspectus
+				<lb/>Grosulano restituto et restitutum suscipientibus, tamen in ecclesia Sancti Pauli suaque domo
+				<lb/>fuit sacerdos ydoneus in suo officio per septem annos post ipsam restitutionem. Grosulanus
+				<lb/>vero, gratia Gulielmi abbatis monasterii sancti Ambrosii, et Andree Mediolanensis ecclesie
+				<lb/>primicerii, et Ottonis vicecomitis et alliorum multorum prudentum tum clericorum quam
+				<lb/>laycorum, nec sedem nec aliquam munitionem archiepiscopatus post legem ipsam, a presbitero
+			<lb/>factam, sive restitutionem, a synodo celebratam, habuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>21.</head> <p> Ipsa quoque ecclesia et regnum, que pro Grosulano synodum ipsam tractavit,
+				<lb/>in semet ipsis divisionem servans, servavit et servando. Quis potest enarrare combustiones,
+				<lb/>desolationes, abhominationes, que combuxerunt et desolaverunt Mediolanum et regnum ipsumque
+				<lb/>sacerdotium ex tempore, quo lex presbiteri Liprandi venit in ambiguum! Etenim, ut
+				<lb/>taceam combustiones, que perturbaverunt et perturbant Mediolanum, memor sum sugestionis
+				<lb/>principum, que tunc sugessit Henrico, deicere Henricum patrem suum, et imperatorem
+				<lb/>dictum. Ille quidem abhorrendo symoniam in patre, patrem oppressit. In tempore huius
+				<lb/>oppressionis egregia stela, que dicebatur cometa, per plures dies et noctis in tempore veris
+				<lb/>a setemptrione et quasi in occidente late et splendide nituit, et mortem oppressi Henrici
+			<lb/>presignavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>22.</head> <p>Ego quoque in hoc regali et sacerdotali turbine, orescendo tribulationes improperiorum,
+				<lb/>que fiebant et fiunt michi propter livorem sepe dicti presbiteri avunculi mei,
+				<pb n="15"/>
+				<lb/>salva eius reverentia, ipsius convictum vitavi; et Anselmo de Pusterla et Olrico vicedomino
+				<lb/>Mediolanensi adhesi, quibus duobus domi et foris, ut manifestum est, utilis et rectus
+				<lb/>fui. Cum Anselmo namque per annum et dimidium Turoni et Parisinis in scolis magistri
+				<lb/>Alfredi et Guilielmi legi, et legendo, scribendo multisque aliis modis Anselmo multam comoditatem
+				<lb/>dedi. Meus vero sepe dictus avunculus infra huius anni et dimidii spatium homines,
+				<lb/>qui non pro amore divine legis et ecclesiastice consuetudinis litigabant de sua lege et
+				<lb/>Grosulani restitutione, dimisit, et eorum civitatem exivit, atque Valtilinam vallem, a Mediolano
+				<lb/>ultra septuaginta miliaria remotam, habitavit. Tunc ego subtractus a studio, inveni
+				<lb/>sancti Pauli ecclesiam et meam domum isto meo patrono quasi desertam. Asumpto igitur
+				<lb/>equo Anselmi et meo, una cum fratre meo M. ad ipsum meum patronum festinavi. Et cum
+				<lb/>profecissem viginti quinque miliariis, michi angelus occurit, dicens: "Presbiter Liprandus
+				<lb/>rediens a Valtilina, infirmus jacet ad Monasterium de Clivate". Citius igitur, quam sperassem,
+				<lb/>inveni illum in lecto sedentem et lac edentem. Qui cum me viderit, ambas manus
+				<lb/>levavit et gratias Deo dixit. Arialdus vero, illius monasterii abbas, postquam audivit, me
+				<lb/>advenisse et consolationem ipsi aegroto dedisse, me meumque fratrem extra cameram vocavit,
+				<lb/>et per plura verba, se trepidare fidelitatem, quam iuraverat Grosulano, nobis notavit,
+				<lb/>atque nescientibus monachis nos admonuit, ut ipsum deportaremus aegrotum a monasterio
+				<lb/>saltem duobus miliaribus. Infirmus autem, ut sensit, me meumque fratrem solicitari super
+				<lb/>sua infirmitate et portatione, ait: "Nolite turbari, quia per gratiam Dei nunc michi multum
+				<lb/>est melius; et in crastino, Deo annuente, ad civitatem iter habebimus". Et mane facto, derudatas
+				<lb/>quasdam suas vestes induit, et cibum sumpsit, et quasi sanus factus, super mullam sedit.
+				<lb/>Puer quoque eius, habens suum asinum oneratum pellibus stambucinis, licet de solito bis
+				<lb/>aut ter in die torqueretur caduco morbo, tamen, presbiter sedente super mullam, puer idem
+				<lb/>venit nobiscum in una die usque ad sanctum Damianum de Baraza absque ullo illius infirmitatis
+				<lb/>impedimento. Ibi gratia Dei et beatissimi Ambrosii, cuius locus iste cella est, bene
+				<lb/>recepti pernoctavimus et alteram diem dimidiavimus; et ante sollis occasum ecclesiam sancti
+			<lb/>Pauli domunque nostram intravimus, atque familiam, que ibi aderat, nostram letam fecimus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>23.</head> <p> Grosulanistas et in parte altera fictos et dolosos murmurare de reditu nostro, valde
+				<lb/>persensimus. At ego, ut minus et minus eorum murmura timerem, et ut meam et ipsius mei
+				<lb/>magistri causam amplius excusarem et comprobarem, domum inter cognatos et vicinos meos
+				<lb/>non ociose emi. Quia in ipsa vivendo lector, scriba, puerum eruditor, publicorum officiorum
+				<lb/>et beneficiorum particeps, et consulum epistolarum dictactor, salva mea querela, in
+				<lb/>ecclesia et in ipsa civitate Mediolani videor. Parvi namque filii eorum, qui propter Patariam
+				<lb/>Herlembardum occiderunt et presbiterum Liprandum naso et auribus troncarunt, me
+				<lb/>ab ecclesia sancti Pauli, que est titulus meorum ordinum, exturbant. Et quia non sperno
+				<lb/>libertatem et piam conversationem, qui in ipso presbitero fuit, factus sum quasi obprobrium
+				<lb/>illis, et me prohibente possident et vendunt res, que sunt mei proprii iuris. Verumtamen
+			<lb/>non ab opuscoli mei proposito!</p>
+			<pb n="16"/>
+		</div>
+		<div type="chapter">
+			<head><lb/>24.</head> <p>Igitur circha tempus, quo presbiter Liprandus a Valtilina rediit, pars cleri et
+				<lb/>populi Laudensis, metuendo periurium in episcopo suo; qui pro Grosulano in synodo Romana
+				<lb/>iuravit, ipsum quidem episcopum suspectum habuit. Hinc est etiam, quod Gairardus, frater
+				<lb/>eiusdem episcopi Laudensis, et ipse Ardericus episcopus dicuntur fuisse fautores et coadiutores
+				<lb/>Laudensium militum, suam civitatem destructioni tradentium. Mediolanensibus
+				<lb/>quippe manifeste conantibus ad ipsius civitatis destructionem, ipsi duo fratres spiritualiter
+				<lb/>et temporaliter dederunt conscilium et auxilium. Infinita autem malla, que opera sunt per
+				<lb/>quattuor annos in ipsa guera, non enumero; sed mortem Antelmi, germani mei, et aliorum
+				<lb/>multorum propinquorum meorum et civium per illam gueram manifestatam lugeo. Nec
+				<lb/>tamen ceptum iter penitus desero. Quia, dum civitas illa Laudensis adhuc staret et resisteret
+				<lb/>Mediolanensibus, conantibus eam destruere, Grosulanus a Mediolano exulabat et Laudensis
+				<lb/>ille Ardericus suam civitatem perrarum intrabat, sed Mediolanum frequentabat;
+				<lb/>presbiter vero Liprandus in sua domo suaque sancti Pauli ecclesia consolationem regni et
+			<lb/>ecclesie devote expectabat.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>25.</head> <p> At quidam, qui dicebantur amici presbitero expectanti et Grosulano exulanti,
+				<lb/>dum hec prefata guera agebatur inter Mediolanenses et Laudenses, Papienses quoque et
+				<lb/>Cremonenses Laudenses civitatem defendentes, sugeserunt Olrico Mediolanensi vicedomino
+				<lb/>et Anselmo, de Pusterla cognominato, ire ad precipuum magistrum Anselmum de Monte
+				<lb/>Leoduni. Quibus duobus fuit gratum, secum ducere me Landulphum, presbiteri Liprandi,
+				<lb/>alumpnum. Et cum apud ipsum magistrum et fratrem eius Rodulphum studeremus, nuntiatum
+				<lb/>est illic, quod Grosulanus Aronam, arcem munitissimam archiepiscopatus, possidet.
+				<lb/>Quo audito, vicedominus valde infremuit, quia propter eius absentiam dicebatur quod hic
+				<lb/>secundus casus Grosulano contigerit. Et ideo, prout dicitur, Mediolanum redire festinavit,
+				<lb/>ipsamque arcem et cetera, ad archiepiscopatum pertinentia, a iure et potestate Grosulani
+				<lb/>vacuam invenit. Et hii, qui in utraque [parte] dicebantur amici, quorum ortatu ipse adivit
+				<lb/>Leodunum, in isto reditu nescio quo spiritu ipsum iuvenem et infra ordinem vicedominum
+				<lb/>elegerunt in archipresbiterum. Et facta ista electione, ipsi, qui magis erant in parte Grosulani,
+				<lb/>prebuerunt Grosulano conscilium, ut huic electioni nec laudem nec vituperationem prestaret;
+				<lb/>sed Yerosolimam peteret, et Ardericum, Laudensem episcopum, in ecclesia Mediolani, sibi
+				<lb/>vicarium faceret. In hac manifesta dispositione et allia non pluribus cognita Grosulanus
+				<lb/>Yerosolimitanum iter intravit. Electus autem iste vicedominus, secutus conscilium Arderici
+				<lb/>de Carimate, qui precipue elegit eum in archipresbiterum, in mense Aprili quo electus fuit,
+				<lb/>canonicam edificare cepit, atque in subsequenti junio ad Arialdum, episcopum Yanuensem,
+				<lb/>cum quibusdam suis confratribus clericis ordinariis ivit. Et episcopus ille, licet [non] foret
+				<lb/>Grosulano contrarius, tamen per representationem Arderici de Carimate, qui primus et
+				<lb/>maximus diaconus tenebatur in parte Grosulani, ordinavit ipsum vicedominum ostiarium,
+				<lb/>lectorem et exorcistam atque acolitum. Widonem Falcimanium fecit subdiaconum, Anselmum
+				<lb/>de Pusterla atque Henricum de Birago levitam, Landulphum Caroniam fecit presbiterum.
+				<lb/>Qui quinque ordinarii, in junio apud Yanuam ordinati, plane videbantur infesti
+				<lb/>Grosulano. In quo facto Mediolanenses qui letabantur, etiam majori gaudio gavisi sunt,
+				<pb n="17"/>
+				<lb/>quia in ipso mense susceperunt triumphum de Cremonensibus, victis et superatis apud Brixanorii
+			<lb/>campum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>26.</head> <p>Cognito hoc triumpho per regna rex fortissimus Henricus cum ingenti exercitu
+				<lb/>venit Ytaliam, atque Rome in ecclesia sancti Petri discaltiatus stetit ante Paschalem papam,
+				<lb/>expectans coronam inperandi, quemadmodum promissum fuerat sibi. Sed quia ipsam coronam
+				<lb/>sibi dare distulit ipse papa, ipsius regis iram sensit, et se suosque cardinales, quo non
+				<lb/>poscebat sive nolebant, duci vidit. Hinc strages multa crevit Romanorum namque turba,
+				<lb/>ut suum papam suosque cardinales liberaret, armata cucurit. Et papa cum cardinalibus in
+				<lb/>custodia Teothonicorum datis, rex discaltiatus in atrium ecclesie sancti Petri venit, ibique
+				<lb/>equum ferocissimum ascendit, et ut erat nudis pedibus, in ipso impetu ibi equitando, ipsos
+				<lb/>marmoreos gradus ecclesie sancti Petri descendit et, prout ad aures meas pervenit, cum
+				<lb/>lancea una quinque de Romanis occidit. Otto autem Mediolanensi vicecomes cum multis
+				<lb/>pugnatoribus eiusdem regis in ipsa strage coruit in mortem, amarissimam hominibus diligentibus
+				<lb/>civitatem Mediolanensium et ecclesiam. Sed regia facultas et multa religiosorum
+				<lb/>principum prudentia ita placide et benigne hanc perturbationem placavit quod altera die in
+				<lb/>loco sancto, scilicet in ecclesia sancti Petri, ydem Pascalis papa secundus cum cardinalibus
+				<lb/>et episcopis ceterisque viris in religionem habitis, ipsum regem Henricum solempniter coronavit
+				<lb/>et in imperatorem exaltavit, et cum ipso exaltato et benedicto corpus et sanguinem
+			<lb/>Christi ad altare sancti Petri comunicavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>27.</head> <p> Deinde idem imperator in Germaniam festinavit; ubi vix requiem ullam habuit.
+				<lb/>Quia cum in promuntorio, quod secus Guarmatiam continet abatiam, ipse imperator torqueretur
+				<lb/>acutissimis febribus, Guarmatini, qui magis de morte quam de eius vita sperabant,
+				<lb/>ut regalia sibi vindicarent, armati exierunt et conclamando ad ipsum montem appropinquaverunt.
+				<lb/>Quod cum ipse quasi moriens persensit, sub tenore iurate fidelitatis circumstantibus
+				<lb/>sibi ministris precepit, ut se a lecto erigerent et levarent atque induerent et super
+				<lb/>equum ponerent atque armarent. Hiis peractis, sudor ab ipso, ceu aqua de fonte, exivit;
+				<lb/>et stipatus a paucis, Guarmatinis obvius fuit, atque in primo congressu Guarmatinorum vexiliferum
+				<lb/>in mortem proiecit, ipsamque civitatem in ore gladii et combustione ignis delevit.
+				<lb/>Illam tantam turbam eiusdem civitatis, que ad ecclesiam sancti tunc consurgit, inlesam
+			<lb/>servari precepit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>28.</head> <p> Mediolanenses quoque, quando iste imperator per Veronam a Roma in Germaniam
+				<lb/>properabat, gladiis et incendiis diversisque instrumentis funditus destruxerunt Laude
+			<lb/>in Longobardia, civitatem alteram.</p>
+			<pb n="18"/>
+		</div>
+		<div type="chapter">
+			<head><lb/>29.</head> <p> Urbs itaque Mediolanum cum iam esset secura de victis suis inimicis, placuit
+				<lb/>Arderico de Carimate et vicedomino et quibusdam aliis ordinariis valde studiosis, revocare
+				<lb/>Yordanum de Clivi a provincia que dicitur Sancti Egidii, in qua ipse Yordanus legebat
+				<lb/>lectionem auctorum non divinorum sed paganorum. Et, ut verum de eo dicam, psalterio
+				<lb/>et timpano et ceteris bene sonantibus in ecclesia instrumentis commune in choro Mediolani
+				<lb/>ita perpersit, et neque psalmum neque canticum musice arti ydoneum nec singulariter sive
+				<lb/>comuniter congrue sonuit. Verumtamen blanda facies ejus speciei adeo Grosulano placuit,
+				<lb/>quod ordinavit eum subdiaconum, cum ipse Grosulanus videbatur pacifice tenere archiepiscopatum.
+				<lb/>Demum Yordanus idem adeo studuit in libro epistolarum Pauli, quod paginus
+				<lb/>lector fuit eiusdem libri. Hunc quoque Ardericus predictus de Carimate in mense septembri,
+				<lb/>qui fuit quartus a junio, quo civitas Laude destructa fuit, iam dicto Yanuensi episcopo
+				<lb/>representavit; et ipse episcopus ipsum Yordanum et plures allios de Mediolanensibus in
+				<lb/>sacerdotes benedixit. Sciendum quoque est, quod hic rudis Yordanus sacerdos, reversus
+				<lb/>Mediolani, a Gualdo, mira caliditatis presbitero, discere studuit, qualiter sacerdoti sit sacrificandum,
+			<lb/>et eum iste ista et allia ad sacerdotis officium pertinentia disceret.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>30.</head> <p>? Octubri vero mense sequente flumina per continuam pluviam in tantum creverunt,
+				<lb/>quod non solum villas sed ipsam civitatem in mirum modum perturbarent. Quidam
+				<lb/>etiam sibi et mondo finem timuerunt, quia homo imperabat, qui patrem suum oppresserat.
+				<lb/>Sed Guazo Cominus una cum Amizone de Sala, et aliis quam pluribus, tam clericis quamque
+				<lb/>laycis, a Guazone et Amizone inductis, tendentes ad alia, ceperunt predicare et dicere,
+				<lb/>discordiam de Grosulano esse malitiam, altero diluvio dignam. Ad quorum voces Johannes
+				<lb/>Maneri et Petrus de Carate, qui erant primi et maximi in parte Grosulani pugnatores et
+				<lb/>defensores, et conscii conscilii Guazonis atque Amizonis, coram populo responderunt et illis
+				<lb/>dixerunt: "Dicite, quid vultis vobis fieri ex parte nostra?". Qui dixerunt: "Volumus, ut
+				<lb/>Ardericus de Carimate, qui levita est ordinarius, presbiter Johannes ecclesie sancti Naboris
+				<lb/>prepositus, presbiter Nazarius Muricula, presbiter Petrus de Sancto Carpophoro, presbiter
+				<lb/>Lanterius de sancto Protasio in Campo, presbiter Albricus de sancto Dalmatio, presbiter
+				<lb/>Anricus de sancto Victore ad Theatrum, presbiter Ambrosius de sancto Johanne ad Concham,
+				<lb/>presbiter quoque Galdo de sancto Michaele, quos omnes scitis esse defensores Grossulani;
+				<lb/>et ex allia parte volumus, quod vicedominus Anselmus de Pusterla, Anselmus de
+				<lb/>Badaglo, presbiter Richelmus prepositus ecclesie sancti Nazarii, presbiter Girardus prepositus
+				<lb/>canonice ecclesie sancti Ambrosii, Rulucus quoque prepositus ecclesie sancti Stefani,
+				<lb/>presbiter Arialdus Amerii, presbiter Lanfranchus Propheta.. et nos duo, videlicet Guazo
+				<lb/>et Amizo, cum illis iurabimus: quod usque ad istas kalendas proximi januarij, concorditer
+				<lb/>dabimus justam et rectam sententiam secundum canones de discordia Grosulani, si
+				<lb/>possit esse archiepiscopus Mediolani sive non. Et si non poterit esse, de allia persona
+				<lb/>concorditer faciemus catholicam electionem in eadem die. Volumus etiam, ut Landulphus
+				<lb/>Carogna, qui est presbiter ordinarius et Enricus de Birago, qui est levita ordinarius, presbiter
+				<lb/>Johannes Actilens, presbiter Olricus de sancto Martino, Johannes etiam Manerius,
+				<pb n="19"/>
+				<lb/>Guazo Testaguadum et alii clerici et sacerdotes, milites et cives, quos non vocabimus,
+				<lb/>venient et iurent, tenere sententiam, quam nos decem et octo dabimus sine discordia et
+				<lb/>scismate de Grosulano tenendo sive dimittendo, sive de allia persona, quam nos concorditer
+				<lb/>eligemus". Guazone et Amizone poscentibus ita, pro posse meo restiti; et populo
+				<lb/>presente illis dixi: "Abraa, nec aliquis fidelis homo veteris testamenti vel novi tale conscilium
+				<lb/>dedit, nec suscepit". Veruntamen et hoc precedens sacramentum et hoc sequens,
+				<lb/>sicut a Guazone Cumino et Amizone de la Sala exposita et expetita sunt, sicut a prenominatis
+				<lb/>clericis et laicis, et Landulfo Carogna et Yordano de Clivi presbiteris ordinariis, aliisque
+				<lb/>presbiteris atque clericis, militibus etiam et civibus, iurata sunt, me humiliter seorsum existente.
+				<lb/>Sciendum quippe est, quod Ardericus, Laudensis episcopus, licentiam jurandi ista
+				<lb/>dedit, et Ardericus de Carimate primitus licentiam istam suscepit et juravit et primatum ac
+				<lb/>potestatem super hoc negotium sibi vindicavit. Quia post multam pertractationem de Grosulano
+				<lb/>dimittendo vel tenendo, atque de Yordano eligendo vel non eligendo, demum dixit
+				<lb/>omnibus, in isto conjurio sibi conjuratis: "Procul dubio scitote, non dimittam Grosulanum, nisi
+				<lb/>habuero potestatem eligendi Yordanum". Et propter hec hujusmodi Arderici verba corda
+				<lb/>illorum, qui Grosulanum et Yordani electionem spernebant facta sunt quasi lapidea et voluntati
+			<lb/>Arderici conligata.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>31.</head> <p> Sed cum in ultimo die decembris Ardericus ille et decem septem allii essent in
+				<lb/>concordia eligendi Yordanum, ego jussu Andree primicerii, presbiterorum et clericorum
+				<lb/>decumanorum Mediolanensium ad eos veni et, ut ipse primicerius michi precepit, eis dixi,
+				<lb/>quod male consiliati erant. Verumtamen ipsi conscilium non mutaverunt. Sed mane facto,
+				<lb/>videlicet kalendis januarii, Ardericus idem cum vicedomino et ceteris sibi conjuratis in
+				<lb/>abjciendo Grosulanum, vel in suscipiendo aut in allium eligendo archiepiscopum catholice
+				<lb/>pulpitum ascendit; et facto scilentio in populo, coram illa maxima multitudine loquens dixit:
+				<lb/>"Nos salva reverentia pape, secundum autoritatem et justitiam canonum diximus, quod Grosulanus
+				<lb/>non potest esse Archiepiscus Mediolani". Isto dicto et confirmato, illico presbiterum
+			<lb/>Yordanum de Clivi elegit in archiepiscopum .</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>32.</head> <p> Hoc cum presbiter Liprandus audivit aegrotus, a lecto surexit, et in altera die
+				<lb/>illi electo piscem obtulit dicens: "Gratias Deo, quod nunc michi testimonium per hibetis. Sed
+				<lb/>hii, qui te elegerunt in archiepiscopum, male fecerunt; et Deus illis misereatur, quia tu posses
+				<lb/>esse unus bonus presbiter de claustro. Nunc autem masculus esto". Cum autem electus
+				<lb/>ille nec aliquis de tot circumstantibus ipsi presbitero respondisset, presbiter ipse propinquius
+				<lb/>accessit, et osculatus Jordanum, sicut unum de ceteris sacerdotibus relinquit. Landulphus
+				<lb/>autem Astensis episcopus et Arialdus Yanuensis et Mainardus Taurinensis non solum ad
+				<lb/>osculandum venerunt; sed quasi ut ordinarent eum episcopum, in sequenti mense februario
+				<lb/>ad ipsum venerunt. Sed Astensis cum vidisset, episcopum Aquensem et Laudensem et
+				<lb/>ceteros sufraganeos et comprovinciales episcopos huic ordinationi et novitati abesse, innuit
+				<lb/>ordinationem Yordani differendam fore; et velut homo volens fugere, surexit in nocte, et
+				<lb/>cum suis rebus cepit abire. Sed cauta manus Yordani ipsum Astensem retraxit, ejusque
+				<lb/>episcopi diaconem vulneravit, pueros quoque eorum verberavit et expoliavit. Die autem
+				<lb/>adveniente, habita cautione, dominus Yordanus eundem episcopum, quasi vinctum et absentem,
+				<pb n="20"/>
+				<lb/>verbis valde ignominiosis increpavit. Attamen Astensis idem per ammonitionem Yanuensis sueque humilitatis post talem suam ignominiam sua et suorum servientium spolia recepit,
+				<lb/>atque in altera die ordinationi, quam illi duo episcopi de Yordano fecerunt, interfuit, non
+				<lb/>ut episcopus indutus; sed ut viator carens sermone, ipsam ordinationem spectavit. Et dum
+				<lb/>in ecclesia, que dicitur Yemalis, ordinatio ista agebatur, cives pro hac re prelia gerebant
+				<lb/>canonicam presbiteri Johannis Aculei spoliabant. Tunc quamplures super hac causa et
+				<lb/>ordinatione murmurabant; in quo murmure episcopi supranominati, videlicet Azo Aquensis
+				<lb/>et Ardericus Laudensis, videntur fuisse. Vigilante itaque hoc murmure, Mainardus Taurinensis
+				<lb/>illico Romam adivit et stolam petiit. Et rediens inde, stolam et cartam, continentem
+				<lb/>sacramentum, quod papa poscebat a Yordano, atulit; alioquin stolam dari Yordano papa
+				<lb/>prohibuit, sicut idem Mainardus notavit. Ab Yordanus per XI menses jejunus fuit, et
+			<lb/>stolam non habuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>33.</head> <p> Sed infra hoc spatium XI mensium, Bernardo episcopo Papiensi et Yordano
+				<lb/>Mediolanensi consentientibus, Papienses et Mediolanenses statuerunt et juraverunt sibi federa,
+				<lb/>que nimium quibusdam videntur fuisse imperatorie majestati et apostolice auctoritati contraria,
+				<lb/>et cum isti cives jurarent sibi servare se et sua contra quemlibet mortalem hominem
+			<lb/>natum vel nasciturum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>34.</head> <p> Putavi non pretereundum scilentio, quod durante lite Grosulani, scilicet 1105 7
+				<lb/>idus maiis, invente sunt reliquie pretiose in Ecclesia Sancte Marie ad Portam; unde
+				<lb/>ordinarii cum universo clero statuerunt festum solempne illa die in ecclesia predicta. In cujus
+				<lb/>rei testimonium tallis extat epistola: Ordinarii cardinales sancte Mediolanensis Ecclesie,
+				<lb/>necnon et primicerius cum universo sacerdotio et clero Mediolanensi omnisque populus et
+				<lb/>omnis ordo laycorum, omnibus sacerdotibus et clericis et laycis cuiuscumque ordinis, in diocesi
+				<lb/>Mediolanensis ecclesie constitutis, pacem et salutem a Domino et pleni gaudiis participationem.
+				<lb/>Quoniam ratio expostulat et dignum est, ut exultante capite, cetera quoque membra
+				<lb/>exultationi congaudeant, ideo immensae letitiae, quam nobis immeritis et insperantibus divina
+				<lb/>clementia contulit, vos exortes esse non volumus. Notum igitur universitati vestre fieri volumus,
+				<lb/>quoniam inextimabiles thesauros et incomparabiles margaritas, sole splendidiores et
+				<lb/>omni aromate fragantiores, divino nutu et munere nuper invenimus; videlicet partem de sudario
+				<lb/>Domini, et de syndone eius, et de lapide ubi sederunt angeli nunciantes resurectionem
+				<lb/>Domini nostri Yesu Christi, et de probato ligno salvificae crucis salvatoris nostri, et de veste
+				<pb n="21"/>
+				<lb/>sancte Marie, et de ossibus sanctorum Casti et Polimii, in ecclesie sancte Marie que dicitur
+				<lb/>ad Portam. Quapropter non solum in ea die, sed etiam ab ea die et deinceps factus est
+				<lb/>ibi jugis et celebris et admirabilis concursus plebis utriusque sexus, Deum glorificantium et
+				<lb/>magnificantium, quod hoc tempore tales nobis thesauros sua benignitate revelare dignatus est;
+				<lb/>quorum patrocinia non solum nostre, sed etiam universe diocesi ejus per Dei misericordiam,
+				<lb/>protectionem et salutem futuram esse speramus. Facta est etiam generalis processio ad honorem
+				<lb/>Dei et salvatoris nostri tam ingens, tam solempnis et tam admirabilis, qualem numquam
+				<lb/>retro ante tempora vel vidimus vel meminimus factam. Ad hanc igitur solempnitatem annue
+				<lb/>omnes populi devote concurrite, tam mentium securitate quam corporum obsequio nichil hesitantes,
+				<lb/>depromi magnificentissimam remunerationem. Quanta enim virtus sanctorum est,
+				<lb/>tanta salus occurrenti populo. Titulus autem et nomen ejus eximie festivitatis est sancti
+				<lb/>Salvatoris. Terminus autem hujus celebrationis est 7 idus maiis. Rogamus etiam vos et
+				<lb/>secundum statutum ecclesie nostre singulis et omnibus precipimus, ut in die hujus festivitatis
+				<lb/>ad honorem Dei et salvatoris nostri ab omni opere servile vacetis et abstineatis tamquam in
+				<lb/>die resurrectionis et nativitatis domini nostri Yesu Christi. Quo etiam die ad frequentationem
+				<lb/>hujus solempnitatis statutum est anuale et mercatum; et omnibus venientibus ad hanc
+				<lb/>solempnitatem, vel causa orationis vel causa mercandi, et redeuntibus stabilita est ab omni
+				<lb/>civitate firma et inviolabilis trevia octo dies ante festum, et octo dies post festum. Quodsi
+				<lb/>quis hujus trevie violator extiterit, indignationem Dei non effugiet et iram totius civitatis super
+				<lb/>se et super sua bona gravissime indubitanter incuret. Toloneum, quod vulgo turadia dicitur
+				<lb/>sive portenaticum in hiis prefatis diebus nulli modo tolletur. Ut autem magis sit autenticum
+				<lb/>et nulla unquam oblivione deleatur, quod Deo inspirante ad honorem Dei et salvatoris
+				<lb/>nostri decrevimus, per singulas plebes singulas epistulas in audentia omnium habitantium in
+				<lb/>eis has litteras legere et ponere studeant, et in martilogio hoc festum scribant; quatenus per
+				<lb/>singulos annos et per singulas generationes istos dies nulla deleat oblivio, sed perpetuo et
+				<lb/>solempniter honoretur. Hec autem epistola in scripturis ecclesie diligenter et semper servetur
+				<lb/>valde. Inventi autem sunt predicti thesauri, scilicet reliquie: pars de sudario Domini,
+				<lb/>et de syndone eius, et de lapide suprascripto, et de ligno suprascripto, et de suprascriptis,
+				<lb/>anno Domini 1105 7 idus maii in civitate Mediolanensi in porta Vercellina, in ecclesia Sancte
+				<lb/>Marie, que dicitur ad Portam. Fuerunt autem predicti sancti confessores Castus et Pollimius
+				<lb/>diacones sancti Ambrosii; quorum corpora jacent in ecclesia sancti Victoris ad Celum
+				<lb/>aureum, que nunc dicitur ecclesia sancti Satiri, sita iuxta ecclesiam sancti Ambrosii
+				<lb/>requiescunt. In predicto autem festo ab ecclesia estiva usque ad predictam ecclesiam sancte Marie
+				<lb/>ad Portam ordinarii ebdomadarii cum aliis ebdomadariis Mediolanensis ecclesie processionaliter
+				<lb/>vadunt semper, precedentibus vicinis et parochianis ipsius ecclesie sancte Marie cum
+				<lb/>viridibus frondibus et ramis arborum, candelis accensis aligatis eisdem, et cantantibus: "Agios,
+				<lb/>Agios". Propter quod dicitur festum de agios; quod est nomen Dei. Qui dicti ordinarii
+			<lb/>postea celebrant missam in ecclesia sancte Marie ad Portam. Deo gratias. Amen. Amen.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>35.</head> <p>Nunc ad propositum redeo. Presbiter Liprandus, in summa sua senectute positus,
+				<lb/>michi ait: ?Video te aliquantulum super me erubescere propter ea, que adversus Grosulanum
+				<lb/>dixi et feci. Sed ut minus inde erubescas, vere dico tibi, quod ego illam causam reservo
+				<lb/>solli Deo omnipotenti, et dum michi superest spiritus, multum desidero hujus mondi vitam
+				<pb n="22"/>
+				<lb/>meam finire in manibus eorum, quorum protectione corpus et anima mea, prestante divina
+				<lb/>gratia, protegatur a manibus eorum, qui protegendo Grosulanum, veritatem Dei occultare
+				<lb/>voluerunt et volunt. De ecclesia autem ista Mediolanensi, in qua consulis michi manere
+				<lb/>et vitam finire, dico, quod illa est michi, cupienti Yerosolimam adire, ceu navis sine nauta
+				<lb/>et remige in portu putrescens. Quod si vixeris secundum etatem tuam, eam talem esse
+				<lb/>experieris. Interim et ego consulo tibi, ut participationem mense Yordani ejusque beneficia,
+				<lb/>que potes tenere propter electionem et investituram diaconatus capelle ejus, quam ab eo
+				<lb/>suscepisti me nesciente, quam vero, dum gratus et benivolus tibi fuerit, ei tuum obsequium
+				<lb/>impendere non prohibebis". Per hec quoque verba, que hic meus magister michi dixit, ipse
+				<lb/>Yordanus eiusque fabrica michi suspectus, et in parte suspecta, atque grata, quemadmodum
+				<lb/>in vicedomino, fuit. Hujus mei magistri conscilium sequens, cum velem prorsus dimittere
+				<lb/>Yordani administrationem, delatus est ipse presbiter ad Pontidii monasterium, me nesciente.
+				<lb/>In quo monasterio coram monachis et fratribus in festo sancti Nicholai usque ad festum epiphanie
+				<lb/>Domini splendide vixit. Atque in eiusdem festivitatis nocte, quando spiritum emisit,
+				<lb/>magnus et suavis splendor domum, in qua jacebat, admirantibus circumstantibus, illustravit
+				<lb/>et illuminavit. Et sicut ille predixerat fratribus, in hora illa, quando corpus ejus ferebatur
+				<lb/>ad sepulchrum, solis splendor aerem illuminavit et nubes cum nive cessavit. Ipso quoque
+				<lb/>presbitero existente in vita, cum Yordanus et ceteri Grosulanistae calumpniabantur eum et
+				<lb/>suam legem, nobilis miles Placentinus de faucibus mortis ad laudem eius ereptus est; quia
+				<lb/>cum miles ille esset quasi in sompno, sensit hunc presbiterum palpare gutur suum, et statim
+				<lb/>evomit os piscis, quod soffocabat eum. Eodem etiam tempore, cum domus cujusdam sui
+				<lb/>affinis et sibi atrahentis arderet, repente ymber fuit, et paleam et domum ipsius presbiteri
+				<lb/>integre servavit. Quod si curerem per singula, que Deus fecit ad laudem ejus, deficeret
+				<lb/>quidem spiritus meus. Sed Deus, qui per omnia secula vivit, et regnat nunc et semper, anime
+				<lb/>ejus benedicat. Amen . Et michi gratiam recte scribendi tribuat. Quia sincere adhuc
+				<lb/>cupio scribere ea, que in ecclesia et in regno per pontifices et abates et sacerdotes et levitas,
+				<lb/>per consules et cives, et allios ecclesie et regni ministros seminata et operata sunt, non tantum
+			<lb/>ad augmentum, sed etiam ad detrimentum religionis et directe consuetudinis.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>36.</head> <p> Igitur presbitero Liprando posito in Pontidii monasterio, fama de Grosulano
+				<lb/>redeunte Yerosolimis aures Yordani et ordinariorum ejus implevit. Et Mainardus Taurinensis
+				<lb/>episcopus iterum Mediolanum venit, atque stollam, quam in precedenti anno sine
+				<lb/>sacramento Yordano dare noluit neque dedit, nunc, videlicet in festo sancti Nicholai, quando
+				<lb/>presbiter Liprandus Pontidium intravit, super altare sancti Ambrosii posuit. Et Yordanus,
+				<lb/>osculatus eam, de ipso altari asumpsit. Que positio et asumptio, absentibus ordinariis et
+			<lb/>primiceriis, facta fuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>37.</head> <p> Deinde securius idem archiepiscopus, quos voluit, lesit. Me quippe eo tempore
+				<lb/>injuste turbavit. Quod cum presbiter Andreas primicerius intellexisset, solempniter suscepit
+				<lb/>in communi beneficio presbiterorum et clericorum Mediolanensium. Yordanus quoque tum
+				<pb n="23"/>
+				<lb/>Widoni Falcimario, creditori meo, pro me dedit peccuniam; nec tamen indulsi ei, quam in
+				<lb/>me fecit, offensam, sed equo animo sustinui illam. Quia tum enses et lancee acuebantur,
+				<lb/>ut, adveniente Grosulano, ipse ab archiepiscopali sede ejceretur, nimirum si me humilem
+				<lb/>acolitum neglexit, et presbiterum Ariprandum Paliarium, virum sibi convenientem et in bello
+				<lb/>potentem, assumpsit. Et prout quibusdam placet, non debet esse absurdum, quod Gulielmus,
+				<lb/>venerabilis abbas, hoc in tempore, subridens et condolens de hiis casibus clericorum
+				<lb/>pontificum militum et civium, deseruit sancti Ambrosii monasterium, et rexit et regit abbatiam
+				<lb/>monasterii sancti Solutoris, constructam in episcopatu Taurinensium. Quod si et ego non
+				<lb/>concupivi per illius Yordani manus ad subdiaconatus gradum promoveri, convicini mei cur
+				<lb/>per ejus auctoritatem presumpserunt me exturbare ab ecclesia Sancti Pauli, que est titulus
+				<lb/>ordinationis mee? Et Andreas Sugaliola, qui, si presbiter est, plebeianus est, quo jure potest
+				<lb/>ipsam meam ecclesiam possidere? Insuper manus ejus cur ossa parentum meorum de proprio
+				<lb/>nostro, non suo, sepulchro projecit et suum mortuum in ipsum posuit? Preterea Sugaliola
+				<lb/>ille Andreas domos, campos, prata, vineas, silvas et allia multa, que mei proprii iuris sunt
+				<lb/>quare usurpat, vendit et alienat? Hoc quidem si ille ejusque manus ejusque auctores religiose
+				<lb/>et rationabiliter fecissent, defensoresque meos si juste cecassent et decidissent, meos
+				<lb/>quidem oculos eruerem et sepulturam intrarem. Sed ne moriar, sicut illi mei adversarii
+				<lb/>moriuntur et mortui sunt, valde multum descideravi et descidero, ut hii qui adhuc vivere
+				<lb/>videntur, a solle justitie illuminarentur; ut depulsa scismaticorum et superstitiosorum superbia,
+				<lb/>spernant suorum auctorum mendatia, atque diligant et teneant quam optimi regis eiusque
+			<lb/>pontificis patrocinia.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>38.</head> <p> In augusto, qui fuit octavus mensis ab illo, in quo presbiter Liprandus obit, in
+				<lb/>isto enim mense et Grosulanus a Yerosolimis rediit, et prius post legem factam de eo
+				<lb/>ignitam intravit Mediolanum. Ibique tunc ad locum, ubi sanctus Victor carceratus fuit,
+				<lb/>suos labores suosque thesauros sacerdotibus et viris, quos sibi putabant fideles explicavit;
+				<lb/>et explicando induxit benignitatem, qua pavit et induit Yordanum, quem fecerat subdiaconum.
+				<lb/>Videbatur etiam instare adversus Yordanum eo quod dicebat, eum sibi jurasse et
+				<lb/>dejerasse. Quod fortis et valida turba Yordani non sustinuit; sed assumptis armis, maximum
+				<lb/>insultum in Grosulanum fecit. Ipsius autem Grosulani caterva undique concurrens, ferendo
+				<lb/>et inferendo vulnerationes, orbitationes et occisiones multas in equis et in hominibus,
+				<lb/>fortiter et prudenter ipsum Grosulanum per quindecim dies in turribus de porta Romana
+				<lb/>servavit. Interea Anselmus de Pusterla ad ecclesiam sancti Johannis, que dicitur ad Concham,
+				<lb/>audita strage, venit; et in contione, que ibi tenebatur ex parte Grosulani, loquutus,
+				<lb/>plura consuluit, ut pernitiosa illa pestis cessaret, et certum locum certumque tempus statuerent,
+				<lb/>et per legiptimam et generalem sinodum conoscerent, cujus causa justa foret. Hoc
+				<lb/>autem conscilium quia Yordano ejusque fautoribus displicuit, peccunia utriusque pontificis ad
+				<lb/>milites et pedites bellatores, ad clericos quoque et mulieres bella instigantes, pervenit. Et
+				<lb/>Yordanus aperto ore coram sua gente de Grosulano ceu de Simone Mago cantavit; et Grosulanus
+				<lb/>apud suam plebem ydolo et vitulo conflatili atque homini perfido et periuro Yordanum
+				<pb n="24"/>
+				<lb/>comparavit. Ac sic stragem quam plurimam uterque pontifex commiscuit; in qua Rogerius
+				<lb/>de Sorexina, miles capitaneus, et Ariprandus de Lampugniano, vexilifer de vavassoribus, et
+				<lb/>Ariprandus de Meda, civis prudentissimus, cum quam pluribus ejusdem nobilitatis hominibus
+			<lb/>occisi sunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>39.</head> <p> Sed cum Grosulani mantica foret exausta et Yordani adhuc onerata, conventio
+				<lb/>facta est per pecuniam, Grosulano promissam; quam ipse Grosulanus, prout dicitur, cum
+				<lb/>suis et Yordanistis participavit. Et facta participatione, Grosulanus Mediolanum exivit
+				<lb/>atque Placentiam adivit; ibique in monasterio sancti Marchi, quod est de congregatione
+				<lb/>Vallis Umbrosae, hospitatus, invenit Ardericum Laudensem, quem fecerat sibi vicarium, in
+				<lb/>victu et in vestitu ejusdem congregationis monachum. Alter vero Ardericus de Carimate,
+				<lb/>qui licentiam jurandi ab isto, cum esset vicarius, suscepit, et occasione illius juramenti
+				<lb/>sententiam in Grosulanum dedit et Yordanum in archiepiscopum elegit, Grosulani adventum
+				<lb/>non expectavit, sed circuens transmarina loca, inventus et jugulatus est a Turchis. Sciendum
+				<lb/>quoque est, quod Grosulano et Yordano existente auctore Mediolanensium per gratiam
+				<lb/>domini Pascalis pape secundi, clerus, populus Mediolanensis, natura nobilis et religiosus, in
+				<lb/>utraque parte non sine causa dicitur levis et vanus et ad cujuslibet novitatis presumptionem
+				<lb/>promptus. Cujus enim religionis et nobilitatis fuit ille spiritus, qui monuit Yordanum suumque
+				<lb/>clerum et populum, ut exprobaret et excommunicaret Anselmum de Pusterla, diaconem
+				<lb/>ordinarium, quia dedit conscilium, ut Grosulani et Yordani causa discerneretur per legiptimam
+				<lb/>et generalem synodum? Iterum, qua ratione divulgavit, eundem dici eroneum, quia cum
+				<lb/>clero et populo Grosulani egit scrutinium et baptismum? Et contra Yordanum, apostolica
+				<lb/>auctoritate donatum archiepiscopum, quis potuit dicere, esse simulacrum et hominem perfidum
+				<lb/>atque perjurum? Nimirum, si quero. Quia dum Grosulanus in predicto sancti Marchi
+				<lb/>monasterio esset, et Anselmus Mediolani instaret et obligationem conveniendi ad generalem
+				<lb/>synodum quereret, et Yordanus hoc fieri prohiberet, dicitur et creditur, quod pecunia jurata
+				<lb/>et data fuit Grosulano atque Anselmo, ne persona Yordani calumpniaretur ab illis in aliqua
+			<lb/>synodo.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>40.</head> <p> Igitur hac cautione facta per presbiterum Nazarium Muriculam et Lanfranchum
+				<lb/>Ferarium, prout dicitur, contingit, quod presbiter Andreas bone memorie primicerius obit.
+				<lb/>Cui successit predictus presbiter Nazarius. De quo Nazario superest michi adhuc quedam
+				<lb/>scribere, veluti de homine, qui quasi coetaneus et condiscipulus extitit mecum in una vicinitate
+				<lb/>et sub disciplina hujus presbiteri Andree, qui dictus fuit Dalvultum secundum suam
+				<lb/>cognationem. Iste itaque Nazarius, cum esset infra ordines clericus et juvenis ingenio acutissimus,
+				<lb/>non sine causa michi infantulo adjecit nomen, scilicet clocam sancti Pauli. Insuper
+				<lb/>ipse, dum singulariter habitaret solarium suum, me et Rusticum Gemmarum, sive Caccum
+				<lb/>atque Nazarium Flotam, super ipsum solarium induxit, atque de nuptiis fratris sui suave et
+				<lb/>dulce obsonium nobis prebuit; ubi per precedentia et sequentia, que de libro cordis ejus legi,
+				<lb/>illius animum previdi non magis appetere sancte Mediolanensis ecclesie decorem, quam
+				<lb/>ejusdem ecclesiae utilem et honestam nobilitatem. In isto namque tempore nostre coevitatis
+				<pb n="25"/>
+				<lb/>et discipulatus Urbanus papa synodum Placentie celebsravit; atque de Frantia Mediolanum
+				<lb/>redivit. In qua civitate cum ipse papa staret in pulpito sancte Tegle, immense multitudini
+				<lb/>hominum utriusque sexus predicavit, et predicando de sua magna sapientia protulit, quod
+				<lb/>minimus clericulus de ecclesia Dei est major quolibet rege mortali. Adidit etiam, quod clerici
+				<lb/>et sacerdotes per peccuniam in ecclesias non sunt introducendi, sed per electionem hominum,
+				<lb/>qui sunt ecclesiarum vicini. De quibus apostolicis dictis clericus iste Nazarius, in
+				<lb/>ingenio acutissimus et Muricula cognominatus, pennas asumpsit, atque de solario suo ad
+				<lb/>ecclesiam sancti Babile sanctique Romani, que antiquitus dicitur Conscilia Sanctorum, sine
+				<lb/>regali et sacerdotali auctoritate volavit. Et habito favore vulgi illius vicinitatis, ibi habitavit
+				<lb/>et novum habitaculum hedificavit expulsis inde sacerdotibus et clericis, consuetis servire ipsis
+				<lb/>ecclesiis. Ad hujusmodi exemplum Albinus, homo de Magenta, et Johannes Aculeus de Vicomerchato,
+				<lb/>et Mayfredus de Limidi, homines illiterati et intonsi, ac plures urbani et plebejani
+				<lb/>non habentes sufficientiam, sequentes partium vulgi clamores et laudes, intraverunt
+				<lb/>ecclesias; beneficia quarum susceperunt et inordinati possederunt, donec Arnulfus de porta
+				<lb/>Horientali, tunc temporis senex Mediolanensis archiepiscopus, in Clavatensi monasterio fuit
+				<lb/>sepultus. De cetero predictus Nazarius cum sue connexionis turba fere quodcumque voluit,
+				<lb/>fecit in Mediolanensi ecclesia et in Saona civitate. In Mediolanensi namque sublimavit
+				<lb/>Anselmum de Buis, hominem simplicem, in archiepiscopum; qui sublimatus Albinum, Johannem
+				<lb/>Aculeum et ceteros de turba connexionis Nazarii sua auctoritate in ecclesiis confirmavit,
+				<lb/>ipsumque Nazarium et Grosulanum ad omnes ecclesiasticos ordines promovit et sacerdotes
+				<lb/>fecit. Nazarius vero ipse, presbiter factus, una cum presbitero Johane Aculeo, sicut supra
+				<lb/>legitur, in Saona elegit Grosulanum in episcopum, et Anselmi, sui ordinatoris, vicarium et
+				<lb/>sucessorem. Preterea legem, quam presbiter Liprandus fecit adversus Grosulanum, iste presbiter
+				<lb/>Nazarius contempsit; domum quoque hujus presbiteri Liprandi expoliari cognovit.
+				<lb/>Propter quam expoliationem Petrus Pazananus, homo de doctrina hujus presbiteri Nazarii,
+				<lb/>occisus fuit. Grosulanum vero restitui in Romana sinodo ydem presbiter Nazarius cum gaudio
+				<lb/>vidit, et ipsum restitutum suscepit, eique sicut catholico suo archiepiscopo per undecim annos
+				<lb/>obedire cognitus fuit. Tandem ipsum Grosulanum, quod Yerosolimam peregrinantem, deposuit,
+				<lb/>et Yordanum de sue connexionis, in archiepiscopum elegit. Unde contigit, quod ipse
+				<lb/>presbiter Nazarius, exprobratus a suis vicinis, suam ecclesiam dimisit, et per auctoritatem
+				<lb/>pravorum hominum et Yordani, quos juste tunc causabam et causo, res et ecclesiam meam
+				<lb/>usurpavit; et usurpando invenit cilitium, quod magister et avunculus meus inlesum per
+				<lb/>ignem transportavit, a trabe ecclesie Sancti Pauli deponeretur et ignominiose consumeretur.
+				<lb/>Taceo multa, que ipse presbiter Nazarius egit ad mei dampnum meamque iniuriam et ignominiam;
+				<lb/>dicoque, quod post acceptam dignitatem primiceriatus a Yordano, hujus primicerii
+				<lb/>prudentia tantum valuit, quod furor armorum inter Grosulanistas et Yordanistas cessavit. Ad
+				<lb/>ecclesiam Sancte Tegle, in qua fuit conversatio et finis precedentis Andree primicerii, ivit
+				<lb/>et in ea habitavit meamque dimisit. Verumtamen tunc, cum meam dimisit, alteram, id est
+			<lb/>Andream Sugaliolam, ipse una cum Yordano eidem mee ecclesie intrusit.</p>
+			<pb n="26"/>
+		</div>
+		<div type="chapter">
+			<head><lb/>41.</head> <p> Ego itaque merens de hac intrusione et omnis ecclesiastici benefitii et offitii in
+				<lb/>me facta expoliatione, ivi ad synodum, quam papa Pascalis pro causa Grosulani et Yordani
+				<lb/>Rome celebravit. In qua supradictus Anselmus de Pusterla secundum suam dignitatem
+				<lb/>honestum locum habuit et sedit; sed neque pro Grosulano neque adversus Yordanum verbum
+				<lb/>bonum aut malum in synodo protulit. Yordanus vero a principio synodi usque in finem,
+				<lb/>sedens et scilens a destera apostolici nullo mediante, in ipsa synodo fuit. At Grosulanus ibi
+				<lb/>stando et sedendo inter archiepiscopos et episcopos, ceu vir prudens, intendebat ad destruendam
+				<lb/>Yordani impositionem et conversionem eorum qui ipsam fecerant impositionem; et
+				<lb/>intendendo ad ista, egregie loquebatur de positione et restitutione sua, qua positus et restitutus
+				<lb/>fuit in Mediolanensi ecclesia. Cui viro homo qui in ista synodo sive in Lateranensis palatio
+				<lb/>contradixerit, certum locum non habuit. Sed dominus papa Pascalis, quasi affectans redere
+				<lb/>illum placabilem Deo et sibi, ejus scientiam ejusque facundiam comendabat; atque labores,
+				<lb/>quos ipse papa per se suosque legatos Rome et per Longobardorum provinciam pro ipso
+				<lb/>Grosulano sustinuerat, coram synodo referebat. Et ad leniendam duritiam et asperitatem
+				<lb/>eorum, qui nec positionem nec restitutionem Grosulani susceperant vel suscipiebant, non
+				<lb/>solum de presbitero Liprando ejusque lege mentionem faciebat, sed ruinam gambute introducebat,
+				<lb/>que ruina tunc aparuit, quando ipse Grosulanus juravit et recipiendam restitutionem
+				<lb/>ascendit. Insuper inferebat, quod Grosulani translatio de episcopatu Saonensi ad archiepiscopatum
+				<lb/>Mediolanensem utilitatem non contulerat. Quos casus Grosulanus a clipeo ecclesiastice
+				<lb/>consuetudinis et legis a se quodammodo repellebat. Verumtamen dominus papa nec
+				<lb/>synodus neque in prima, neque in secunda, neque in tertia sive in quarta die synodi Grosulano,
+				<lb/>per singulos dies pro se suaque causa in palatio et synodo agenti, non satisfecit. Sed
+				<lb/>ipse Grosulanus in quinta die, qui fuit ultimus illius synodi, apostolico, instanti sui cum predictis
+				<lb/>obiectionibus, flendo inquit: "Domine, domine, veniam ad vos, quamvis hii quibus dedisti
+				<lb/>potestatem iudicandi caussam meam, me non diligant". Tunc Portuensis Petrus episcopus
+				<lb/>se et ceteros, habentes hanc potestatem, de malivolentia habita in Grosulanum honeste
+				<lb/>et sufficienter excusavit; et cum excusasset, in communi concordia illius excusantis et ceterorum,
+				<lb/>habentium potestatem istam, prolata fuit sententia, que prohibuit, Grosulanum Mediolanensem
+				<lb/>ecclesiam inquietare, et ad episcopatum dixit ei redire. Ipse autem non ad
+				<lb/>Saonam ivit, sed in ipsa Urbe apud Monasterium, quod dicitur Sanctus Sabaoth, per annum
+			<lb/>unum et menses quatuor ut episcopus vixit, atque ibi sepultus est 8 idus augusti.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>42.</head> <p> Jordanus vero, audita et publicata illa sententia de redeundo Grosulano ad episcopatum,
+				<lb/>coram ipsa sinodo theatrum ascendit; et ibi ad pedes apostolici stratus, grates sibi
+				<lb/>redidit, et elevatus ab ipso apostolico, gratiam et virgam pontificalem in ipso theatro suscepit.
+				<lb/>Altera sero die ipse Yordanus archiepiscopus, monitus a Landulpho Astensi episcopo et quibusdam
+				<lb/>aliis episcopis, in quadam ecclesia Lateranensi, vivo et deposito quondam episcopo
+				<pb n="27"/>
+				<lb/>Armano Brisiensi, ordinavit Brisiensem ellectum in episcopum nomine Villanum. In qua
+				<lb/>ordinatione secundum ordinis mei officium legi lectionem de libro exodi, atque mitram, de
+				<lb/>capite illius Villani casu ruentem, in ipsius capite firmavi. Quia archiepiscopus iste Yordanus
+				<lb/>in diebus, quibus Grosulanus causam suam notificabat, et ego in voce humilitatis et
+				<lb/>mansuetudinis geminata dominatione quesivi audientiam in synodo, promisit, michi satisfacere
+				<lb/>Mediolani de omnibus, que volebam adversus ipsum Yordanum conqueri in ipsa Romana
+				<lb/>synodo. Cujus promissioni tunc malui credere, quam synodaliter decertare; quia si ea
+				<lb/>decertatio directe tractaretur, aut Grosulanum et superimpositum dampnaret, aut divinam et
+				<lb/>humanam legem cum ipso papa, - salva reverentia sedis copiose judicio hoc dico - sepeliret.
+				<lb/>Verumtamen pontifex ipse Yordanus post Victoriam et ordinationem istam, quam
+				<lb/>Rome suscepit, nullam michi fieri inde justitiam dilexit nec fecit, sed mestitiam in me
+			<lb/>augmentavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>43.</head> <p> Henricum imperatorem, in quo quodammodo sperabam, ipse Yordanus, si fas
+				<lb/>est dicere, una cum clero et populo suo, Iohanne Cremense cardinali Romano precipiente,
+				<lb/>in pulpito sancte Tegle Mediolanensis excommunicavit. Magnum quoque terre motus, qui,
+				<lb/>vigilante ista excommunicatione, regnum Longobardorum penitus commovit et quassavit,
+				<lb/>me nimirum vigilem fecit. In eo quippe tempore gentes, que viderant magnas ruinas per
+				<lb/>civitates et quelibet loca, presertim per ecclesias, proferebant, gutas sanguinis ad modum
+				<lb/>pluvie de cello descendisse, monstruosos partus et allia multa prodigia in aere, in aquis,
+				<lb/>montibus, planitiis silvisque vidisse, et subterranea tonitrua audisse. Et in hac divina visitatione
+			<lb/>etiam hii, qui videbantur esse sacerdotes, ignorabant, quo fugerent.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>44.</head> <p> Longobardorum autem civitatem et earum pontifices, audita legatione Yordani
+				<lb/>archiepiscopi et consulum eiusdem urbis, in statuta die convenerunt Mediolanum, in prato
+				<lb/>scilicet quod dicitur Brolium. Ubi archiepiscopus et consules duo theatra constituerunt;
+				<lb/>in uno archiepiscopus cum episcopis et abatibus et ecclesiarum prelatis stetit et sedit; in
+				<lb/>altero consules cum viris legum et morum peritis. Atque in circuitu eorum affuit innumera
+				<lb/>multitudo clericorum et laycorum, mulierum quoque et virginum expectantium sepelitionem
+				<lb/>vitiorum et suscitationem virtutum. Verumtamen presbiter Olricus de Sancto Martino, qui
+				<lb/>pro domino suo Grosulano, adhuc in Roma vivente, crucem ferebat, nec ego, qui pro me
+				<lb/>meoque magistro, scilicet presbitero Liprando iam Pontidii sepulto, iustitiam querebam et
+				<lb/>crucem portabam, in eloquio illo sive tempore audientiam habuimus, Yordano prohibente et
+				<lb/>in me furente. In isto namque tempore terre motus Yordanus, ejusque vicedominus Olricus
+				<lb/>una cum quadam turba pravorum hominum descendit ad arenchium, ubi plures homines me
+				<lb/>absente invenit. Atque cum ego essem penitus hujus concionis sive arenchi ignarus, Rolandus
+				<lb/>ablaticus Lanfredi coram Yordano totaque illa gente, mentitus ait, me fore perjurum Yordani.
+				<lb/>Quem Yordanus, mendatii huius certissimus, non corexit, sed conticuit. Vicedominus
+				<pb n="28"/>
+				<lb/>vero tenere me excusavit, licet, illum Rolandum esse mentitum, aprobatissime novit. At ego
+				<lb/>longe magis solicitus, altera die veni in locum, qui dicitur Brorium archiepiscopi; ibique
+				<lb/>cum tenerem crucem et pignus in manibus meis et pro justitia michi conservanda quererem
+				<lb/>audientiam ab ipso Yordano et cuncto populo ibi timore ruine maceriarum congregato, ut
+				<lb/>missam et predicationem audiret, idem Yordanus in me abusive clamavit: "Landulphe, homo
+				<lb/>diaboli, tace". Sed et cum vidisset, populum et gentem fere totam intendere ad vocem
+				<lb/>meam, prosiluit de cathedra cum furore, dicens: "Si illum audieritis, me non audietis". Tunc
+				<lb/>furentis turba populi, oblita sui jurati juris, vociferavit michi: "Tolle et hinc, tolle". Ab
+				<lb/>eis itaque recessi. Sed hii, qui ibi et alibi pacem et remissionem peccatorum tam in isto
+				<lb/>pontifice, quam a sufraganeis ejus et consulibus eius susceperunt, non diu misericordes aut
+			<lb/>pacifici habiti sunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>45.</head> <p> Paschalis papa, ad quem religio et remissio peccatorum tunc spectabat, coloquium
+				<lb/>et tempus terre motus non ultra decem menses et dimidium vixit. In tempore cujus mortis
+				<lb/>imperator, audita legatione Romanorum, a Taurinensium partibus Romam adire festinavit.
+				<lb/>Ex qua urbe simul cum Romanis 4 nonas martii misit Gagetas legatos, legando Johanni Gagetano,
+				<lb/>ellecto in papam, cardinalibus quoque et episcopis, qui cum ipso erant Gayetis, uti
+				<lb/>Romam redirent, et in ecclesia beati Petri hoc, quod faciendum erat de papa substituendo,
+				<lb/>una cum ipsis juste et catholice facerent. Sed 7 idus ejusdem martii in ecclesia beati Petri,
+				<lb/>presente imperatore Henrico, et populo Romano cleroque astante in aliquo, illud responsum,
+				<lb/>quod legati imperatoris [et] Romanorum vel cum eligentibus a prenominato ellecto audierunt
+				<lb/>et susceperunt, quodam modo relatum est, videlicet; quod in proximo septembri ipse cum
+				<lb/>cardinalibus et episcopis provinciarum Mediolani vel Cremone esset, et tunc Romani et imperator,
+				<lb/>quid agendum sit de se in papam ellectum, vel allium substituendum, per doctrinam
+				<lb/>cardinalium et episcoporum sufficienter cognoscerent. Romani vero non illelligentes, hanc
+				<lb/>responsionem fore suffitientem et legibus et canonibus atque suis petitionibus convenientem,
+				<lb/>comoti clamaverunt: "Numquid honorem Rome volunt illi transferre Cremone? Absit. Sed
+				<lb/>ut ubique valeamus astutias eorum opprimere, qui a nobis exierunt et Cajetas fugierunt, secundum
+				<lb/>auctoritatem legum et canonum eligamus nobis papam prudentem et bonum". Iuxta
+				<lb/>istam vel consimilem formam verborum Romanorum magister Guarnerius de Bononia et
+				<lb/>plures legis periti populum Romanum ad eligendum papam convenit; et quidam expeditus
+				<lb/>lector in pulpito Sancti Petri per prolixam lectionem decreta pontificum de substituendo
+				<lb/>pape explicavit. Quibus perlectis et explicatis, tantus populus elegit in papam quendam
+				<lb/>episcopum Yspanie, qui ibi aderat cum imperatore. Quem ellectum imperator duxit in pulpitum,
+				<lb/>ubi ipse ellectus interrogantibus de nomine suo dixit: "Meum nomen est Burdinus;
+				<lb/>sed quando papa Urbanus ordinavit me episcopum, nominavit me Mauritium". Tunc quidam
+				<lb/>de indutis habitu ecclesiastico de pulpito ad populum tertio clamavit: "Vultis dominum
+				<pb n="29"/>
+				<lb/>Mauritium in papam?". Qui tertio respondentes et clamantes dixerunt: "Volumus".
+				<lb/>Tunc ipse cum ceteris astantibus clericis, aperto libro super hunc ellectum et manto coopertum,
+				<lb/>sublimi voce clamavit dicens: "Et nos laudamus et confirmamus dominum Gregorium".
+				<lb/>Facta igitur ellectione ista ad hunc modum, imperator hunc papam suum Gregorium promovit,
+				<lb/>et per castrum Sancti Angeli in palatium Laterani perduxit. In quo iste pontifex, si
+				<lb/>fas est dicere, cathedram sedit et prandium sumpsit et pernoctavit. Altera vero die, nullo
+				<lb/>mediante, idem papa eundem imperatorem ad ipsum palatium suscepit, et cum ipso ad ecclesiam
+				<lb/>Sancti Petri rediit; ante cujus et super cujus altare de clero coram imperatore et pluribus
+				<lb/>Romanis in eadem die ad ordines promovit et missam cantavit. Ibique per quot dies
+				<lb/>et menses habitavit et fidelitatem suscepit, atque splendide de lege Dei et ecclesiasticis
+				<lb/>consuetudinibus
+				<lb/>predicavit absque ullo rancore, pacem regno et sibi et suum papam Gajetano
+				<lb/>Johanni in papam ellecto exclamavit, donec imperator iterum ad Germaniam rediens, ipsum
+			<lb/>Gregorium suum papam in Sutrina civitate quasi securum fecit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>46.</head> <p> In temporibus autem istis, in quibus hic Gregorius de clero quendam ante altare
+				<lb/>sancti Petri ad ordines promovit, Gayetanus in papam ellectus, et presbiter et papa apud
+				<lb/>Gayetam solempniter est consecratus, et Gelasius papa secundus advocatus. Qui etiam plures
+				<lb/>dies et menses cathedram apostolicam in Laterano sedit, ipsumque palatium cum cardinalibus
+				<lb/>et episcopis habitavit. Deinde ipse cum navigio Pisas, Yanuam pluresque civitates et loca
+				<lb/>super mare posita quesivit. Eadem navi ejus affixa Sancto Egidio, regnum Frantie intravit;
+				<lb/>et cum benigne foret receptus a principibus illius regni, de mondo migravit Cluniaci. Cui
+				<lb/>Viennensis ille episcopus successit, de regia stirpe genitus, et sinodum quam ipse papa Gelasius
+				<lb/>convocaverat, iste archiepiscopus Remis celebravit. Sed prius cum imperatore coloquium
+				<lb/>habere disposuit. De concilio autem isto sive coloquio plura scribere, digitum mee
+			<lb/>sexagenarie etatis non constringo.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>47.</head> <p> Sed ad prenotandam inquietudinem Langobardorum meamque molestiam redeo.
+				<lb/>Quoniam quidem, ubi imperator a Roma exivit, et se a predicto papa Gregorio sive Burdino
+				<lb/>prolongavit, mox manus Guidonis, Cumani episcopi, ejusque militum et civium violenter
+				<lb/>apprehendit Landulphum Carcanensem, Mediolanensis ecclesie clericum ordinarium et ministrum;
+				<lb/>atque in ipsa apprehensione interfecit Ottonem, ejusdem Landulphi nepotem et urbis
+				<lb/>Mediolani egregium capitaneum. Hinc Yordanus pontifex Mediolanensium contionem militum
+				<lb/>et civium, clamantium in Cumanos, intravit; ibique conumerando et lamentando quam
+				<lb/>plura malla, que Cumani fecerant in rebus et hominibus archiepiscopatus Mediolani, ipsam
+				<lb/>turbam contionis ad faciendam vindictam inflamavit. Eodem quoque tempore idem pontifex
+				<lb/>Iordanus, obseratis januis ecclesiarum, suo populo negavit introitum, nisi materiali gladio
+				<lb/>vindicaret malitiam Cumanorum. Demum ad sonitum vocis et jussu hujus pontificis Mediolanensis
+				<lb/>populus cepit facere gueram Cumanis. Atque a primo exitu, quo Mediolanenses
+				<lb/>castramentati sunt in Caneto, civitatem ipsam Cumanam occupaverunt, ipsumque Landulphum,
+				<pb n="30"/>
+				<lb/>qui investituram Cumani episcopatus a rege, et ordinationem a patriarcha Aquiliensi,
+				<lb/>suo metropolitano, susceperat, de captione liberaverunt. Sed Cumani, illico restituti,
+				<lb/>Mediolanenses expulerunt, et quos invenerunt jacentes in fuga, sive in spoliis honeratos, in
+				<lb/>morte et in ore gladii dimiserunt. Guilicionem vero, Buchardum et Lanterium Sicheri, quendam
+				<lb/>quoque meum nepotem, et plures de egregiis militibus et civibus Mediolani, resistentibus
+			<lb/>ipsis fugantibus, occiderunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>48.</head> <p> Marchiones vero et comites Longobardie in hac tempestate convenerunt Mediolani,
+				<lb/>ut ibi coram episcopis suffraganeis et cumprovincialibus explicarent imperatoris innocentiam,
+				<lb/>et ipsum imperatorem producerent in archiepiscopi et episcoporum benivolentiam.
+				<lb/>Episcopi itaque, consedentes in palatio Mediolanensi, una cum archiepiscopo atente audierunt
+				<lb/>marchiones et comites, fideliter loquentes de domino suo; propter quorum verba quam
+				<lb/>plures arbitrati sunt imperatorem esse alienum ab excommunicationis culpa. Sed dum
+				<lb/>archiepiscopus et episcopi contentiones adversus marchiones et comites, duces et reges disputarent,
+				<lb/>milites et cives Mediolani in atrio ecclesie jurabant facere gueram Cumanis, donec
+				<lb/>Vicum et Coloniolam destruerent, civitatem quoque ipsam dissiparent. Huic autem juramento
+				<lb/>manus Widonis, episcopi Cumanorum, resistit; sed Arduinus, ejusdem episcopatus
+				<lb/>advocator, consensit, et ut ipsum juramentum compleretur, multum studuit. Verumtamen
+				<lb/>utrorumqne, scilicet Widonis et huius advocati, studium recte sive non recte dicitur fuisse
+				<lb/>iniquitatis seminarium. In quo enim semine quis vivens vidit tot pessima opera? In hoc
+				<lb/>semine castra multa et jocundissima et opida fortissima cum habitantibus et villis suis utrobique,
+				<lb/>etsi non eque, combusta sunt et destructa. Naves quoque multe et bellicose cum viris
+				<lb/>et innumerabili multitudine hominum in lacubus submerse jacent. Ipsa tandem civitas, suis
+				<lb/>evacuata cultoribus, lacrimabilibus occulis suam ruinam cottidie videt. Vel plures quoque
+				<lb/>de clero et populo totius orbis propter diversa studia Romani pontificis et ejusdem Urbis
+				<lb/>et ecclesie patritii et advocati, sive pie sive non pie dicuntur certare ad animarum perditionem
+				<lb/>et maximam corporum confusionem. Ego autem, memor horum mallorum, diversas
+				<lb/>suffero perturbationes, non quia scisma sedeat in animo meo, sed quia scismaticis, usurpantibus
+				<lb/>res meas, non consentio. De ipsis apud sacerdotes, pontifices, milites, cives, consules
+			<lb/>et reges justitiam quesivi et quero.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>48 <hi rend="italic">bis</hi>.</head> <p>Guera Cumanorum et Mediolanensium durante atque eorum consulum et pontificum,
+				<lb/>vidi domnum papam Calistum et Yordanum archiepiscopum cum pluribus ecclesiasticis
+				<lb/>et secularibus viris illustribus consedere in Terdonensi palatio. In quorum presentia
+				<lb/>querele mee causam protuli, scilicet de domno Yordano, et querendo introduxi injurias et homicidium,
+				<lb/>quod manus eius fecit in me post literas, quas domnus papa Gelasius misit illi pro
+				<lb/>me. Quarum exemplum hoc est: "G. Episcopus, servus servorum Dei, venerabili fratri Yordano,
+				<lb/>Mediolanensi archiepiscopo, salutem et apostolicam benedictionem. Frater iste Landulphus
+				<pb n="31"/>
+				<lb/>ab ecclesia sua se queritur disturbatum. Quod autem ab eo queritur, ut titulationis
+				<lb/>sue certificationem exhibeat secundum beatum Gregorium, ridiculum demonstratur. Quid
+				<lb/>enim agit, iuxta eiusdem beati Gregorii dicta et legum statuta probare debet, alioquin non
+				<lb/>est huic calumpnia hujusmodi occasionibus impingenda; sed nisi alia causa impediat, sue
+				<lb/>restituatur ecclesie. Datum Gajete idibus martii". Ipse vero Yordanus cum non haberet,
+				<lb/>unde se suamque turbam excusaret, et ibi coram papa taceret, interrogatus ab Abraam, presbitero
+				<lb/>et magistro, suo capellano ait: "Quid debeo ei respondere? Ille non tenet me pro
+				<lb/>episcopo". Tunc domnus Lambertus, Ostiensis episcopus et domni Calisti prolocutor, quasi
+				<lb/>propria sua manu apprehendit me stantem et proferentem: "Domine, ad hec debeo respondere,
+				<lb/>et ait michi publice: "Frater, deposuisti querelam tuam, et tempus januarii non est
+				<lb/>aptum calcandi uvas in torculari. Dominus quippe archiepiscopus occurrit nobis propter
+				<lb/>eos, qui insidiantur gratia imperatoris. Volumus igitur nunc audire de ejus consolatione et
+				<lb/>non perturbatione, atque cum ipso invenire, qualiter valeamus cum isto domino nostro
+				<lb/>propere et prospere Romam adire ejusque sedem obtinere. Interim archiepiscopus cum istis
+				<lb/>et alliis suis fratribus poterit habere conscilium et facere tibi bonum". Jordanus itaque et
+				<lb/>ejusque cetus locutus de sua opulentia in illa vespertina hora et die altera palatium descendit.
+				<lb/>Atque in tertia, que dies fuit Dominicha de ramis palmarum in ecclesia Sancti
+				<lb/>Martiani cum suis sufraganeis Petrum, Terdonensem ellectum, licet modo abjectum, in episcopum
+				<lb/>ordinavit. In eadem quoque civitate et festivitate de ramis palmarum Guazo, clericus
+				<lb/>de Oreo et Mediolanensis ecclesie lector, accepit cartam a Pontifice et cardinalibus
+				<lb/>subscriptam, confirmantem, ipsius Guazonis conjugium esse legiptimum; quod Yordanus
+				<lb/>archiepiscopus cum suis consulibus in tempore terremotus de suo theatro divulgaverat esse
+				<lb/>adulterium. In die autem altera, que fuit secunda feria, dominus ipse ellectus papa Terdonam
+				<lb/>exivit; cum quo Olricus, vicedominus Mediolanensis, Yordano archiepiscopo redeunte
+				<lb/>Mediolanum, usque Placentiam ivit. Qui vicedominus cum intenderet excusare suum
+				<lb/>archiepiscopum
+				<lb/>michi, reiteranti querellam in Placentino palatio, de sensu suo ait: "Ferocem animum
+				<lb/>geris". Cui quidam meus frater, Liprandus nomine, respondit: "Si secundum ferocitatem
+				<lb/>vellet agere, in una die posset quinque milia hominum excitare, qui pugnarent bellicis armis
+				<lb/>pro se". Huic verbo vicedominus consensit. Et dominus papa surexit et cameram intravit:
+				<lb/>et ceteri qui ibi aderant potentes, tam episcopi quam cardinales, de suis ceperunt loqui confluentiis.
+				<lb/>At ego, illis dimissis, perveni ad cameram; de qua dominus papa dignatus exire
+				<lb/>ad me, dixit: "Frater, pecunia est res, de qua homo potest facere multum bonum. Tu pecuniam
+				<lb/>non habes, nec tempus supersedendi cause tue nunc est. Sed Deus potens est dare".
+				<lb/>Et transacto isto pascali festo, per vicedominum mandabo archiepiscopo, ut non sit sibi molestus,
+				<lb/>sed benignus. Sed post hoc pascale festum Romani propere et solempniter susceperunt
+				<lb/>ipsum papam Calistum. Et ipse cum Romanis Sutrim comprehendit Burdinum,
+			<lb/>papam dictum, et in loco, qui dicitur Cava, posuit comprehensum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>49.</head> <p> Deus omnipotens neque per literas domini Gelasii neque per legatum Calisti Yordanum
+				<lb/>michi suavem sive bingnum fecit, sed de mondo illum tullit. Et gratia presbiteri
+				<pb n="32"/>
+				<lb/>Nazarii primicerii et ceterorum, quos suspectos habebam et habeo, Olricus vicedominus Yordano
+				<lb/>successit. Qui fere simili modo me gravavit, ut Yordanus; fere, quia hic in communi
+			<lb/>officio et benefitio cum ordinariis et decumanis presbiteris non prohibuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>50.</head> <p> Verumtamen illo Olrico archiepiscopo sedente in Roma tunc, cum papa Calistus
+				<lb/>synodum Rome celebravit, ego, ab ecclesia mea exturbatus et propriis meis rebus et alodiis
+				<lb/>expoliatus, coram domino papa Calisto ejusque curia, consedenti in Lateranensi palatio,
+				<lb/>causam meam notavi, et ut eam explicarem in sinodo, ipsam sinodum intravi. In qua sinodo,
+				<lb/>gratia antique honestatis Mediolanensis ecclesie et condiscipulatus ejusdem Olrici, valde
+				<lb/>condolui de perturbatione, quam Ravenas archiepiscopus faciebat sibi. Poscebat enim Ravenas
+				<lb/>locum sedenti in sinodo ad dexteram apostolici nullo mediante; quem locum Grosulanus
+				<lb/>possedit, quando restitutus fuit. Jordanus quoque, qui Grosulano successit, eundem
+				<lb/>locum habuit, etiam tunc, quando idem Grosulanus eundem Yordanum deponere studuit.
+				<lb/>Hac itaque ratione et multis aliis, que tunc in memoria non habebantur, domnus Olricus,
+				<lb/>Mediolanensis archiepiscopus, locum illum obtinere non dubitavit. Sed tamen ipse Mediolanensis
+				<lb/>Olricus in secunda feria, qua incepta et celebrata fuit sinodus, loco vacante, neque
+				<lb/>in palatio neque in sinodo apparuit. Sinodus vero tunc in tertia feria non fuit, et idem
+				<lb/>Mediolanensis palatium non intravit. Sed in quarta feria, dum sinodus celebrata fuit, Olricus
+				<lb/>idem, Mediolanensis archiepiscopus, ad dexteram apostolici Calisti nullo mediante sedit.
+				<lb/>Ego expectans alteram diem, convenientem mee cause meeque querelle, ex improviso vidi
+				<lb/>et audivi, quod dominus papa gratia consecrandi altare dissolvit sinodum in ipsa die merchurii;
+			<lb/>nec ultra ab eo sinodum celebrari audivi nec vidi.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>51.</head> <p> Sed sperans in Domino, persensi, quod dominus Olricus, Mediolanensis archiepiscopus,
+				<lb/>prout moris et legis consuetudo exigit, pro rege Henrico oravit, et ei ramos palmarum
+				<lb/>per Landriansem Tealdum, Mediolanensis ecclesie egregium notarium, in Germaniam
+				<lb/>misit. Ego itaque, ut ad ipsum regem pervenirem et ei, sicut patri et domino meo,
+				<lb/>causam meam notificarem, iter cum puero subintravi. Et vitans manus Cumanorum, qui
+				<lb/>tunc temporis fatiebant gueram Mediolanensibus, Veronam adivi, ubi Bernardum episcopum,
+				<lb/>meum quondam gratum condiscipulum, inveni et per ipsum fere usque ad introitum
+				<lb/>episcopatus Tredentini bene fui. Et cum sperarem ibi in melius procedere, pie et tenere
+				<lb/>condolui super Henrici regis morte. Unde valde fessus redii ad domunculam meam cum
+			<lb/>merore.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>52.</head> <p> In qua ego sedens et de solito more pro victu meo scribens audivi voces et fletus
+				<lb/>de morte Olrici archiepiscopi. Et subsequenter compulsus a promiscuo sexu mee cognationis
+				<lb/>et vicinie, ab ipso meo offitio surexi atque ad Dominum Anselmum de Pusterla, a presbitero
+				<lb/>Nazario primicerio et ceteris clericis ordinariis et episcopis suffraganeis in archiepiscopum
+				<pb n="33"/>
+				<lb/>ellectum, perveni. De cuius Anselmi morte nimirum valde suspiro, quia, licet ille
+				<lb/>fuerit mollis et dulcis suspectis meis meisque adversariis et suis proditoribus, tamen ipse
+				<lb/>non fuit ceu Yordanus furiosus, nec immemor mei ceu Olricus. In illa enim die, in qua
+				<lb/>ellectionem iste Anselmus archiepiscopatus suscepit, me, ut preessem suis capellanis, ellegit.
+				<lb/>Quorum capellanorum conscilium, etsi non omnium, alienavit eum a me fere in omnibus, que
+				<lb/>ipse operatus est. In eo enim, quod ipse festinavit ad conferendam pacem Cumanis, quando
+				<lb/>eorum civitas ad destruendam capta fuit, michi quippe placuit. Sed cum idem archiepiscopus,
+				<lb/>secutus conscilium quorundam capelanorum et primicerii, Petri vero Terdonensi episcopi,
+				<lb/>contra publicum interdictum cleri et populi Mediolanensis Romam ivit, michi quidem
+				<lb/>non sedit. Verumtamen ipse, ceu vir prudens et sapiens, cum papa Honorio et cardinalibus
+				<lb/>ejus multa contulit, et conferendo ecclesiasticas consuetudines Ambrosiane ecclesie et honores
+				<lb/>eius archiepiscopatus et urbis vivis et bonis rationibus defendit. Unde ipse papa huic prudenti
+				<lb/>viro dixit: "Frater meditatus et episcopus venisti. Sed si vis frui auctoritate archiepiscopi
+				<lb/>in temporibus meis, necesse est ut stolam suscipias a manibus meis, aut sicut ego
+				<lb/>suscepi, ad altare sancti Petri". Hinc dominus iste Mediolanensis Ribaldum, Albensem episcopum,
+				<lb/>adjuravit, ut sibi consuleret. Tunc Robaldus ille Albensis sic ait, quod prius sustineret
+				<lb/>nasum suum scindi usque ad occulos, quod daret sibi conscilium, ut susciperet Rome
+				<lb/>stolam, et ecclesie Mediolanensi prepararet hanc novam et gravissimam, quam Honorius
+				<lb/>papa dicebat sibi imponere, mensuram. Mediolanum igitur iste Anselmus archiepiscopus
+				<lb/>sine stolla rediit, et eundem Albensem episcopum secum reduxit. Verumtame archiepiscopalem
+				<lb/>sedem non ascendit, donec Ubertus de Meregnano, ejus scriba, non juravit, quod
+				<lb/>ipse dominus suum Anselmus nulli minuimento honoris ecclesie Mediolanensis consensit, et
+				<lb/>id ipsum Albensis ille episcopus Robaldus auctoritate sua confirmavit. Deinde pontifex iste
+			<lb/>Anselmus sedem et castella archiepiscopatus in beneplacito cleri et populi recuperavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>53.</head> <p> Anselmus, in castelis habitans, intelexit, quod clerus et populus Mediolanensis
+				<lb/>nobilem principem Conradum cum ecclesiastica pompa et civili triumpho, conveniente regi
+				<lb/>naturali, suscepit. Cum autem clerus et populus idem de coronando rege ipso tractaret,
+				<lb/>pontifex idem Anselmus a Leuco descendit ad Modoetiam, qui est primus locus corone regis
+				<lb/>Ytalie. Ibique pernoctavit et conscilium redeundi ad montana suscepit. Et post trium dierum
+				<lb/>interpositionem castelum, quod dicitur Plebia, ascendit. Ibi plures sonos sonoros de
+				<lb/>coronando rege Conrado audivit. Et ego, non in amaritudine, ab ipso pontifice audivi, ut
+				<lb/>citissime Mediolanum adirem, et affectum civium omnium super hujusmodi regale negotium
+				<lb/>sibi renuntiarem. Tunc Wilfredus Aboriti e armiger eius a vespera hora dieiusque ad solis
+				<lb/>ortum mecum et puero meo requiem non habuit; sed ad plenitudinem contionis cleri et populi,
+				<lb/>convocatam et congregatam Mediolani, quasi in hora tertia perveni. Ubi clerus et
+				<pb n="34"/>
+				<lb/>populus quasi homo unus amplissime et mirifice conlaudavit et conclamavit, ut archiepiscopus
+				<lb/>veniret et principem illum coronaret. Ad hec quoque Rugerius Clivelus, nobilis milles et
+				<lb/>potens, populo circumstante, ait: "Per corpus Domini, nisi voluntas Dei esset, ut hic nobilis
+				<lb/>dominus coronaretur, iste benedictus populus nequaquam ad laudem ejus ita concorditer clamaret".
+				<lb/>Causa itaque ista sic conlaudata et statuta Anselmus de Badaglo subdiaconus ordinarius,
+				<lb/>Guido de Landriano ellectus capitanus, Guerenzo de Puzobonelo vavasor strenuus,
+				<lb/>Robacastelus civis et eques nominatissimus ex parte totius cleri et populi legationem de
+				<lb/>conlaudato et coronando rege Conrado pontifici Anselmo contulerunt. Qui cum esset in
+				<lb/>castro Plebie et intendisset super horum legationem et meam relationem, festinavit ad urbem.
+				<lb/>De cetero ipse, quasi consentiens communi omnium gentium voto, in ecclesia sancti Michaelis,
+				<lb/>que est Modoetie, benedicxit et uncxit, et coronam ellecto Conrado in festi Sancti Petri
+				<lb/>posuit, altero episcopo astante regi coronando. In quo facto ego quippe piger non fui; sed
+				<lb/>ante ipsum pontificem ipsumque coronatum ab ecclesia sancti Michaelis pontificalem virgam
+				<lb/>in admirabili pompa, per Dei voluntatem congregata, ad honorem illius regis usque ad ecclesiam
+				<lb/>sancti Johannis bona cum voluntate portavi, et in sancti Johannis ecclesia solempniter
+				<lb/>cum rege isto quam optimo missam audivi. Eandem quoque solempnitatem coronationis
+			<lb/>idem pontifex in ecclesia sancti Ambrosii, me alibi non meo vicio detento, celebravit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>54.</head> <p> Verumtamen, quidquid directe est actum in illo meo domino rege, dilexi et diligo.
+				<lb/>Hunc namque gradientem per comitatus et marchias Lonbardie et Tuscie, comites et marchiones,
+				<lb/>cujuscunque nobilitatis viri, potentes et humiles, cum gaudio susceperunt et amaverunt.
+				<lb/>Qui vero rebeles fuerunt, ejus acutissimi gladii fortitudinem senserunt atque mortem
+				<lb/>et confusionem, ceu Anselmus marchio dal Buscho, et illustris .. comes susceperunt.
+				<lb/>Alter quorum, Anselmus, vitam et absolutionem suscepit per gratiam Mediolanensium, quibus
+				<lb/>in angustissimis preliis campestris ceu miles fortissimus profuit; alter vero, scilicet comes,
+				<lb/>vel mortem sustinuit. Ac sic benigniter et fortiter agendo, Rome appropinquavit. Sed fortis
+				<lb/>manus Honorii pape ipsum resupinavit, atque ad Germaniam, quasi ad sua propria loca,
+			<lb/>redire fecit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>55.</head> <p> Johanes igitur Cremensis, cardinalis Romanus, episcopos sufraganeos et comprovinciales
+				<lb/>Mediolanensis ecclesie, ut excommunicaret Mediolanensem pontificem convocavit
+				<lb/>Papie. Quibus convocatis et cardinali per plures viros et sacerdotes ipse pontifex Mediolanensis
+				<lb/>mandavit, ne presumerent; sed ipsum per unius diei spatium expectarent. At
+				<lb/>Papienses, Cremonenses, Novarienses quoque et eorum episcopi et aliarum civitatum, predicantes
+				<lb/>hoc regium opus Anselmi contrarium Deo et magno regi Lotario, nequaquam illius
+				<lb/>pontificis legationem susceperunt; sed ipsum, prestante cardinale illo Johane, excommunicaverunt.
+				<lb/>Et Mediolanensibus, protegentibus castrum Creme, gueram facere statuerunt.
+				<lb/>Attamen in maxima parte Mediolanenses catholicam reverentiam, vivente papa Honorio,
+			<lb/>huic pontifici prebuerunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>56.</head> <p> Honorio defuncto, Anacretus, papa Romanorum secundus, huic Mediolanensi
+				<pb n="35"/>
+				<lb/>stolam per duos ydoneos nuntios, videlicet Johanem Palistine episcopum et Beltramum subdiaconum
+				<lb/>Romanorum, mandavit. Quam stolam ipse Anselmus pontifex, clero et populo
+				<lb/>Mediolanensi circumstante et colaudante Anacletum papam eiusque legatos et legationem,
+				<lb/>reverenter suscepit. Pars vero sibi adversa inde magis detrahere cepit. At plenitudo cleri;
+				<lb/>et populi ad eum concurebat, timorem quoque et reverentiam regi Curado et pape Anacreto
+			<lb/>ex dilectione portabat.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>57.</head> <p> Et dum hic spiritus fuit in plenitudine ecclesie et civitatis Mediolani, et venditiones
+				<lb/>et privilegia, que egregii capitanei de Bessana et de porta Horientali atque Lomagna
+				<lb/>et Gregorius papa septimus et Urbanus papa secundus presbitero Liprando fecerunt, vim
+				<lb/>suam obtinuerunt et oculis omnium latuerunt, nula guera Mediolanenses ignominiavit; sed
+				<lb/>Papiensibus, Cremonensibus, Novariensibus cunctisque suis inimicis late et splendide ipsi
+				<lb/>Mediolanenses prestiterunt. At ubi Anselmus archiepiscopus contra ipsas venditiones et
+				<lb/>privilegia facere voluit et fecit, et multitudo cleri et populi atque consulum ipsas venditiones
+				<lb/>et privilegia legere voluit, contingit, quod quidam manipulus militum Mediolanensium
+				<lb/>captus est a Cremonensibus; et plures de ordinariis decumanis sacerdotibus ceperunt nescio
+				<lb/>quo spiritu super causa regis Curadi ridere et causam Anacleti latenter spernere. Hinc
+				<lb/>Anselmus archiepiscopus multos sustinens stimulos, tandem presbiterum Azonem, magistrum
+				<lb/>puerorum, canentium principaliter in missa sacerdotum, celebrantium corporis et sanguinis
+				<lb/>Christi sacrificia, et quosdam allios, qui fuerunt dolosi in celebratione corone regis Conradi,
+				<lb/>excommunicavit. Ex cujus excommunicationis radice circumcisi Christum filium virginis
+				<lb/>ignorant, et maxima pars Quiritum et Longobardorum auctorem divine et humane legis
+				<lb/>minime amant, sine quibus auctoribus celi vel terre pace frui non possumus. Et etiam nunc
+				<lb/>discessio multa et pernitiosa nimirum orta est in Mediolanensi populo sub excommunicationis
+				<lb/>titulo; quia si archiepiscopus excommunicavit hunc presbiterum et allios in pulpito sancte
+				<lb/>Tegle, et episcopi comprovinciales et sufraganei, sicut supra dictum est, excommunicaverunt
+			<lb/>illum Papie.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>58.</head> <p>Ordinarii itaque et decumani sacerdotes et ceteri faventes pape Innocentio
+				<lb/>secundo, et insidias preparantes hujusmodi archiepiscopo, suas pecunias effuderunt et ipsas
+				<lb/>legis et morum peritis atque bellatoribus viris tribuerunt. Unde ipse archiepiscopus compulsus
+				<lb/>intrare popularem contionem, ut ibi decertaret cum suis excommunicatis de excommunicatione.
+				<lb/>Cumque ipse expectaret sagitas de justa aut injusta excommunicatione, Nazarius
+				<lb/>primicerius, mire caliditatis homo, per prolixum sermonem cuncte concioni induxit
+				<lb/>fastidium. Archipresbiter autem decumanorum Stephanus, qui cognominatur Guandeca,
+				<lb/>videns primicerium suum fastidiose fore locutum, vocem suam exaltavit et contra archiepiscopum
+				<lb/>sic ait: "Hoc, quod isti nolunt tibi dicere, ego dico. Tu es hereticus, perjurus, sacrilegus,
+				<lb/>et alliis criminibus, que non sunt hic notanda es reus". Hiis auditis ex improviso,
+				<lb/>archiepiscopus obstupuit. Archipresbiter vero ille, habens testum evangeliorum ad manum,
+				<lb/>continuo juravit, quod ipse de istis rebus, quas dixerat, esse in isto Anselmo, qui dicitur de
+				<lb/>Pusterla, in judicio episcopi Novariensis et Albanensis, qui sunt de suffraganeis ecclesie
+				<pb n="36"/>
+				<lb/>Mediolani, staret. Consules itaque Mediolani in concordia utriusque partis statuerunt, ut
+			<lb/>ipsi et allii sufraganei venirent.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>59.</head> <p> In statuta itaque die non solum sufraganei, sed quam plures, pure induti rudi
+				<lb/>et incolta lana et rasi insolita rasura, concurerunt. Cumque archiepiscopus iste Anselmus
+				<lb/>vidisset eos constare et populo, quasi si forent angeli de celis, ad ipsum populum ait: "Omnes
+				<lb/>illi, quos hic videtis cum illis capis albis et grisiis, heretici!" Inde simplici et compositi
+				<lb/>ad expellendum et diponendum bellum comoverunt; verumtamen gladio Anselmi in die illa
+				<lb/>resistere non potuerunt. Sed mediante nocte per expansam pecuniam manus primicerii et
+				<lb/>presbiteri Stephani fortissima in summo diluculo ipsum Anselmum a sede compulit. Qui
+				<lb/>cum non inveniret quo declinaret, paternam suam domum intravit. Factoque mane, die
+				<lb/>altera idem Anselmus coram humili sua plebe, in ecclesia sancti Ambrosii congregata, se
+				<lb/>presente jurare fecit camerarium suum, ne iste dominus suus effugeret juditium ipse suffraganeorum,
+				<lb/>et coram eis responderet Stephanus Guandeca, dicto presbitero, de hiis rebus,
+				<lb/>quas sibi objecerat, remota causa regis Conradi. Johanes autem de Rode, unus de consulibus
+				<lb/>Mediolani, reversus ad alteram partem, que eum miserat, de juramento isto Anselmi
+				<lb/>nichil retulit, sed ait: "Dominus ille, ad quem me misistis, ad nullam rationem fatiendam
+				<lb/>nobis venire promitit". Tunc qui in contione illa aderant, clamaverunt: "Et ipse deinceps
+				<lb/>sit remotus a nobis!" Ac sic quisque sufraganeus ad sedem suam rediit, nisi Robaldus
+				<lb/>Albanensis, qui in crismate et in ceteris episcopalibus offitiis ecclesie Mediolani subvenit.
+				<lb/>Anselmus autem ille, quasi a cuncto clero et populo abjectus et expulsus, ad solita castela
+			<lb/>archiepiscopatus exivit, in quibus qualemcumque requiem suscepit. </p>
+		</div>
+		<div type="chapter">
+			<head><lb/>60.</head> <p> Interim Innocentius papa Pisis sinodum celebravit, in qua, Ribaldo episcopo
+				<lb/>Albanense representante, Tebaldus de Landriano archipresbiter ecclesie Mediolanensis,
+				<lb/>Amizo de la Sala archidiaconus, Anselmus de Rode levita ordinarius et allii plures eiusdem
+				<lb/>ecclesie ordinarii, Innocentio pape fidelitatem juraverunt. Cremonenses vero nequaquam
+				<lb/>propter hanc fidelitatem milites Mediolanenses, quos captos habebant, dimiserunt. Sed papa
+				<lb/>Innocentius depositionem et expulsionem sepe dicti Anselmi de Pusterla firmavit. Attamen
+				<lb/>prenominati qui fidelitatem juraverant, timentes hos casus urbis et ecclesie Mediolani, differebant
+				<lb/>redire Mediolanum, nisi haberent protectionem, qui coram populo Mediolani confirmaret
+				<lb/>Anselmi expulsionem, et in nichilum reduceret Conradi coronationem, et populum
+				<lb/>tante urbis convocaret et confirmaret ad Lotarii imperatoris amorem et ad ipsius Innocentii
+				<lb/>pape unitatem. Ad hec peragenda papa adeo idoneum angelum abuit, sicut Bernardus
+			<lb/>abbas Claraevalensis fuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>61.</head> <p> Interea princeps Conradus, altiori conscilio potitus, imperatoris Lotarii vexilifer
+				<lb/>est factus. Et prenominatus abas iste, nil moratus, cum Carnotensi episcopo et Robaldo
+				<lb/>Albensi Mediolanum intravit, quam civitatem nimirum prout voluit firmavit. Ad nutum quidem
+				<lb/>hujus abatis omnia ornamenta ecclesiastica, que auro et argento palliisque in ecclesia
+				<lb/>ipsius civitatis videbantur, quasi ab ipso abate despecta, in scrineis reclusa sunt; et non
+				<pb n="37"/>
+				<lb/>solum masculi, sed etiam mulieres tonse sunt, et ciliciis et laneis villissimis induti, ad quelibet
+				<lb/>religiosa convertuntur; aqua in vinum mutatur; demones fugantur, contracti eriguntur,
+				<lb/>infirmi etiam a quacumque infirmitate similiter sanantur. Et quoscumque infirmos captivos
+				<lb/>Mediolanenses habebant de inimicis suis in custodia, abas iste solvit et liberos dimisit; et
+				<lb/>tantum populum ad amorem imperatoris Lotarii atque ad obedientiam Innocentii pape per
+				<lb/>sacramentum panis, quod abas ipse porexit, confirmavit. Tandem idem populus, ut haberet
+				<lb/>abatum illum in archiepiscopum, ad ecclesiam Sancti Laurentii, in qua erat hospitatus, cum
+				<lb/>hymnis et laudibus et solito suo Kyrie cucurit. Quod abas ille non tulit, sed ait: ?Ego in
+				<lb/>crastino ascendam palafredum meum; et si me extra vos portaverit, non ero vobis quod
+				<lb/>petitis?. Ac sic a Mediolano recessit. Sed quidem de discipulis ejus, qui remanserunt, per
+				<lb/>civitatem euntes, collectam multam de auro et argento et rebus pluribus sibi fecerunt et
+			<lb/>fatiunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>62.</head> <p> Mediolanenses vero ordinarii et decumani, qui pape Innocentio fidelitatem juraverant,
+				<lb/>confortati de hac Mediolanensium conversione, fecerunt Litifredum Novariensem,
+				<lb/>Widonem Yporiensiem et allios sufraganeos venire Mediolanum. Qui in conscilio suo sublimaverunt
+				<lb/>Robaldum Albanensem episcopum in Mediolanensem archiepiscopum, habita securitate
+				<lb/>retinendi, prout dicitur, Albanensem episcopatum. Isto sublimato, Mediolanum super
+				<lb/>Cremonenses exercitum suum admovit; de quo exercitu ipsi Cremonenses apprehenderunt
+			<lb/>130 milites, in nocte erantes.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>63.</head> <p> Anselmus autem de Pusterla, audiens et inteligens horum militum captionem,
+				<lb/>proh nullam suscepit consolationem contra Robaldi sublimationem, neque secundum conscilium
+				<lb/>Alberti de Landriano et amicorum ejus ambulavit. Sed credulus Ugoni suo Naso
+				<lb/>voluit cognoscere, qualiter cum Anacleto, papam Romanorum, posset procedere. Attamen
+				<lb/>ipse cum isto suo capellano ambulans Romam, in flumine Padi iuxta Ferariam a Goyzo de
+				<lb/>Martinengo captus est et ad Innocentium papam transmissus. Qui papa in mense augusti a
+				<lb/>Pisis illum captum Romam misit; ibique, prout fama est, Anselmus ille in eodem mense in
+				<lb/>manu Petri Latri, qui procurator est Innocentii, vitam finivit. Hiis itaque perpetratis
+				<lb/>ad captionem Anselmi de Pusterla, vexilla Mediolanensium et eorum agmina capta aut fugata
+				<lb/>sunt a Papiensibus, velut mitissima ovium pecora. Instantibus igitur hiis infortuniis Mediolano,
+				<lb/>et Anselmo prout supra dictum est mortuo, Robaldus, ejusdem civitatis archiepiscopus,
+				<lb/>Pisis Innocentio pape juravit, et jurando libertatem ecclesie Mediolanensi in contrarium
+			<lb/>convertit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>64.</head> <p> Adito quoque isto infortunio, imperator Lotarius, cum principibus cujuscumque
+				<lb/>dignitatis venit in Longobardiam. In cujus castris iste Mediolani cum suis sufraganeis ad
+				<lb/>nutum imperatoris circumferebatur, et circumferendo excommunicavit Cremonenses, quia
+				<lb/>non rediderunt imperatori Mediolanenses, Cremonensium vincula et captionem sustinentes.
+				<lb/>Mediolanensium igitur exercitus, confortatus presentia imperatoris et vinculo excommunicationis,
+				<pb n="38"/>
+				<lb/>Sonzinum, sanctumque Bassanum, et allia multa castella Cremonensium destruxerunt
+				<lb/>Quibus destructis, moltitudo Mediolanensium ad civitatem rediit; archiepiscopus vero et quedam
+				<lb/>inclita pars militie Mediolanensium cum imperatore in Roncalia super Padum castramentati
+				<lb/>sunt; ibique per plures dies et hebdomadas imperator Curiam potestative habuit et
+			<lb/>leges dedit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>65.</head> <p> Tunc ego quoque ibi per tres dies affui et licentiam lamentandi ad imperatorem
+				<lb/>a domino meo Conrado rege presente, Sigifredo filio eius interprete, suscepi; et principibus
+				<lb/>cujuscumque dignitatis circumsedentibus et vocem meam audientibus, sub temptorio
+				<lb/>imperatoris querelam de Andrea Sugaliola feci. Quam querelam archiepiscopus Trevirensis
+				<lb/>cum ceteris archiepiscopis et episcopis alliisque literatis viris intelexit et me, sicut
+				<lb/>vir prudens et sapiens, interrogavit et post meam responsionem domino imperatori causam
+				<lb/>meam per verba michi barbara revelavit. Et dominus imperator secundum petitionem meam,
+				<lb/>prout pontifices michi fidem fecerunt, imperavit consulibus Mediolanensibus, uti Mediolani
+			<lb/>causam meam juste et paterne tractarent.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>66.</head> <p> Sed nimirum, si cetus consulum huic precepto non obedivit, quia Arnaldus de
+				<lb/>Raude, unus ex illis consulibus, in auribus eorum sonuit, quod investituram de meo placito
+				<lb/>susceperat; hoc quidem mens mea nullo modo novit, nec jure esse potuit. Quia Arnaldus,
+				<lb/>hujus Arnaldi avus, Herlembaldum protectorem presbiteri Liprandi occidit, ipsumque auctorem
+				<lb/>mee cause ad truncationem nasi et aurium atque ad vincula et carceres violenter aduxit.
+				<lb/>Ardericus quoque hujus juvenis Arnaldi patruus, eundem presbiterum ad ignem, per quem
+				<lb/>transivit, venire compulit. Ugo, alter ejusdem Arnaldi patruus, Andream, de quo juste queror,
+				<lb/>non ratione sed furiose protegit. Et Arnaldus iste, mire caliditatis homo, cum nullam in
+				<lb/>causam meam habeat accessum, studet me meamque causam impedire per hujusmodi investiture
+			<lb/>verbum. Quapropter imperatoris presentiam exspectavi.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>67.</head> <p> Lotarius postmodum imperator in quarta die, que fuit dies sabati, post meam
+				<lb/>querellam, secus Papiam est castramentatus ad locum, qui dicitur Lardiracus, super flumen
+				<lb/>Oronam positus. Cumque imperator ibi pernoctasset, et diem dominicum quasi dimidiasset,
+				<lb/>militia ejus cucurit ad Papienses qui armati exierant. In prelio illo fortissima manus principis
+				<lb/>Conradi quam plures de Papiensibus ejecit et comprehendit, neque a prelio se subtraxit,
+				<lb/>donec Papienses fere usque ad muros civitatis conculcavit et propinquavit. Tunc
+				<lb/>Papienses, valde perteriti et metuentes hostilem exercitum Mediolanensium, concurentium
+				<lb/>ad imperatoris triumphum, in primo diluculo secunde ferie cum maxima devotione rediderunt
+				<pb n="39"/>
+				<lb/>imperatori, quotquot habebant de Mediolanensibus in sua captione. Imperator, comotus
+				<lb/>maxima pietate, Papienses eadem die a sua custodia solvit et liberos dimisit, et die altera
+				<lb/>sua castra amovit; et ad locum, qui dicitur Abbiate Crassum, pervenit. Et omnis multituto
+				<lb/>Mediolanensium cum suis militibus, a captione Papiensium liberatis rediit Mediolanum. De
+			<lb/>cetero imperator Ticinum, atque Padum ad suum comodum transivit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>68.</head> <p> At Innocentius papa Cremonenses ab excommunicatione Robaldi archiepiscopi
+				<lb/>solvit. Verumtamen Mediolanensis exercitus Cremonensibus nec eorum episcopo pepercit.
+				<lb/>Quia post absolutionem Juvenaltam, castelum eorum, et allia aprehendit; atque episcopum
+				<lb/>eorum, loricatum et hortantem suos ad pugnam perficientem homicidium, de ipso castelo
+				<lb/>pertraxit, et per plures menses in custodia tenuit, donec Herlembaldus de Bresorio, custos
+				<lb/>illius custodie, contaminatus veneno, prout dicitur, subito in mortem coruit. Et in ipsa nocte,
+				<lb/>que ipse custos subito occidit, episcopus de ipsa domo, qua claudebatur, effugit, et liberatus
+				<lb/>Papiam, deinde Cremonam pervenit. Hic fortassis episcopus iste reminiscitur amaritudinis,
+				<lb/>qua potatus fuit Mediolani in die sue ordinationis, sed prout quibusdam placet, non bene.
+				<lb/>Quia si Yordanus archiepiscopus ejusque ecclesia amovit Ugonem de Noceto, nobilem virum
+				<lb/>et Parmensis ecclesie quasi archidiaconum, ab episcopatu Cremonensi, in quo Cremonenses
+				<lb/>per suam electionem et Henricus, rex eorum, per investituram sue laudationis et confirmationis
+				<lb/>ipsum posuerant et susceperant per plures annos reverenter et diu intus et foris tenuerant;
+				<lb/>quid mirum, si populus Mediolanensis compulit istum Ubertum, egregium virum, jurare
+				<lb/>fidelitatem ecclesie Mediolanensi et archiepiscopo Yordano, quando ipsum Ubertum episcopum
+				<lb/>consecravit. Quod si forte quis dixerit: "Amotio Ugonis fuit justa, sed compulsio
+				<lb/>Uberti fuit iniqua", nec dicat, cuius mortalis auctoritate principaliter est regenda Cremona
+				<lb/>eiusque ecclesia; si vero dixerit: "Utrunque fuit mallum et iniquum", surgat igitur Deus
+				<lb/>exercituum, qui Mediolanum et Cremonam corigat, et me acolitum oppressum et expoliatum,
+				<lb/>quemadmodum in hac mea copia, continente probos et pravos, legitur, iure gubernet et protegat.
+			<lb/>Deo gratias Amen Amen</p>
+		</div>
+	</body>
+</text>
+</TEI>

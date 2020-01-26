@@ -1,0 +1,404 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De dubio accentu</title>
+				<author>Hugutio Pisanus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Giuseppe Cremascoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">EB</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2638" unit="words">Parole: 2638</measure>
+				<measure quantity="15215" unit="characters_without_spaces">Caratteri (spazi esclusi): 15215</measure>
+				<measure quantity="17601" unit="characters_witht_spaces">Caratteri (spazi inclusi): 17601</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-08-04">04/08/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Grammatica</note>
+				<note>Tipo: Fonti letterarie</note>
+				<note>Note: Data di composizione dell'opera: tra il 1159 e il 1181&#13;
+Parole: 2710&#13;
+Caratteri: 15422&#13;
+&lt;?&gt; indicano correzioni congetturali dell?editore&#13;
+[?] indicano espunzioni dell?editore&#13;
+GM&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Ugoccione da Pisa</author>
+						<title level="m">De dubio accentu; Agiographia; Expositio de symbolo apostolorum</title>
+						<editor>Giuseppe Cremascoli</editor>
+						<imprint>
+							<publisher>Centro italiano di studi sull'alto Medioevo</publisher>
+							<pubPlace>Spoleto</pubPlace>
+							<date>1978</date>
+							<biblScope unit="page">65-87</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti letterarie</term>
+					<term type="genre">Grammatica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item><item type="itemNotaJC">-mancano i &lt;pb&gt;: resp. ci sono, ma contano le righe, non le pagine, e probabilmente non si trovano al confine delle pagine, perché sono due e ognuno per ca. 150 righe (li ho preservati mettendoli in &lt;!-- --&gt; )</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<!--<pb n="Riga 1-157"/>-->
+			<p><lb/>Sapientis est desidie marcescenti non succumbere sed potius,
+				<lb/>otioso invigilando labori, aliquid de philosophie fontibus elicere,
+				<lb/>ut etiam prophani et dyscoli et idiote, ab eius templo procul exorbitantes,
+				<lb/>quasi mellei nectaris quadam aspergine valeant aspergi,
+				<lb/>provecti vero et magis periti apertiori luce rationis sibi aliquid valeant
+			<lb/>exhaurire, ac in alios transfundere confidentius audeant.</p>
+			<p><lb/>Quia igitur de quibusdam dictionibus etiam inter maiores disseritur
+				<lb/>et ambigitur utrum principalem accentum in penultima
+				<lb/>syllaba vel antepenultima habere debeant, ideo communis utilitatis
+				<lb/>causa hanc dubitationem Dei auxilio pro nostris viribus duximus
+				<lb/>eliminare, et quid sit circa hoc sentiendum in medium proponere
+				<lb/>brevissime statuimus. Et he sunt ille dictiones: alonge, delonge,
+				<lb/>abintus, deintus, deinceps, deinde, exinde, proinde et consimiles,
+				<lb/>alioquin, aliunde, siquando, nequando, aliquando, paulominus,
+				<lb/>nihilominus, multo magis, quanto magis, verum tamen, sed tamen,
+				<lb/>at tamen, astubi, postubi, atubi, verum enim vero, quo modo, nullo
+				<lb/>modo, nullatenus, quatenus, hactenus, invicem, sincerus, sinceris,
+				<lb/>tristega, tenebre, lavacrum, latebre, si quo minus, [de]frico,
+				<lb/>trucido. Has tamen duas addimus preter propositum. Non
+				<lb/>enim intendimus distinguere que dictiones habeant penultimam
+				<lb/>productam vel correptam. Preterea nos intendimus distinguere an
+				<lb/>debeat dici quatenus, protenus, saltem, tempus, extemplo per e,
+				<lb/>vel quatinus, protinus, saltim, timpus, extimplo per i, an utrumque,
+				<lb/>scilicet per e et per i. Preterea nullus credat nos preter auctoritatem
+				<lb/>aliquid asserere, licet eam propter brevitatem non ponamus
+				<lb/>nisi insinuatim. Est ergo regula generalis quam ex verbis Prisciani
+				<lb/>in tractatu prepositionis aperte diligentia lectoris poterit elicere:
+				<lb/>si aliquod adverbium penultimam habens longam, componitur cum
+				<lb/>prepositione, compositurn inde acuit ipsam penultimam, ut alonge,
+				<lb/>excepto uno solo adverbio, scilicet inde, a quo et prepositione composita
+				<lb/>omnia acuunt antepenultimam, ut exinde, deinde ne videantur
+				<lb/>esse due partes, si penultima acueretur. Ex hac regula ergo patet
+				<lb/>quod exinde, deinde, perinde, subinde, proinde debent dici,
+				<lb/>ut acutus accentus sit in antepenultima. Item ex hac eadem regula
+				<lb/>patet quod debet dici alonge, delonge, abintus, deintus, ut
+				<lb/>acutus accentus sit in penultima, et ad horum similitudinem dicimus
+				<lb/>esse dicendum deinceps, aliunde, alioquin, ut acutus accentus
+				<lb/>sit in penultima, licet non sint composita a prepositionibus
+				<lb/>et adverbiis. Deinceps autem est compositum ex de et incepto, vel
+				<lb/>a deinde et cepto, aliunde ab alius et unde, alioquin ab ablativo
+				<lb/>alio et quin. Quidam tamen dicunt quod alioquin est compositum ab
+				<lb/>alio et quin secundum quod alio ponitur adverbialiter, quia habet
+				<lb/>productam et brevem penultimam; ideo dicunt quidam quod potest
+				<lb/>produci et breviari, ut dicatur competenter alioquin, ut acutus
+				<lb/>accentus sit in antepenultima, et alioquin, ut sit in penultima, quod
+			<lb/>est vitandum.</p>
+			<p><lb/>De aliquando, siquando, nequando dicimus quod similiter
+				<lb/>debent proferri penultima acuta, sed tamen acuit Priscianus antepenultimam
+				<lb/>aliquando, causa differentie aliquanto ablativi. Adeo
+				<lb/>enim d et t affiniter sonant, quod ex sono non posset discerni utrum
+				<lb/>esset ablativus an adverbium, nisi esset differentia in accentu, et
+				<lb/>ideo de aliquando antepenultima acuitur in legendo. Siquando vero
+				<lb/>et nequando, ut dicit Priscianus, acuunt antepenultimam ne videantur
+				<lb/>esse due partes, si accentus esset in penultima, ut dictum
+				<lb/>est in exinde, perinde et similibus compositis ab inde. Ut ergo ex
+				<lb/>ipso accentu perpendatur quod sint composita, acuunt antepenultimam.
+				<lb/>Si vero quis velit huic rationi Prisciani inniti et velit instare
+				<lb/>quod eadem ratione sit dicendum alonge, delonge, abintus,
+				<lb/>deintus, deinceps, aliunde, alioquin acuta antepenultima ne videantur
+				<lb/>esse due partes, sciat hanc rationem Prisciani tantum esse probabilem
+				<lb/>et non necessariam. Eadem enim ratione posset probari
+				<lb/>quod dici deberet induco inducis, indico indicis, antepenultima
+				<lb/>acuta, quod omni ratione caret. Preterea si in libro De accentibus
+				<lb/>inveniatur quod videatur nostre assertioni contrarium, dicimus
+				<lb/>illum librum non esse authenticum, nec credimus eum compositum
+				<lb/>esse a Prisciano, vel si a Prisciano compositus est, ibi secutus est
+				<lb/>opinionem aliorum circa predicta; sed quod in maiori volumine
+				<lb/>dixit circa predicta, secundum se dixit, quod consulimus esse tenendum,
+			<lb/>sicut est aperte distinctum.</p>
+			<p><lb/>De paulominus et nihilominus dicimus quod quandoque sunt
+				<lb/>dictiones composite a paulo et minus et a nihilo et minus, quandoque
+				<lb/>sunt orationes. Paulominus cum est dictio composita debet
+				<lb/>proferri uno accentu acuto posito super antepenultimam, ut dicatur
+				<lb/>paulóminus, et est adverbium remissivum et tantum valet
+				<lb/>quantum fere, ut: " paulominus consummaverunt me in terra ", id
+				<lb/>est fere. Quando due sunt dictiones, scilicet ablativus paulo et
+				<lb/>minus nomen vel adverbium, debet proferri sub duobus accentibus,
+				<lb/>ut dicatur paulo minus, et tenetur minus comparative,
+				<lb/>tam nomen quam adverbium, ut dicatur: " minuisti eum paulo
+				<lb/>minus ab angelis "; item: " iste est doctus, sed iste est paulo
+				<lb/>minus doctus illo "; item: " hoc animal est parvum et hoc est paulo
+				<lb/>minus illo ". Et in tali constructione semper in prepositio subintelligitur
+				<lb/>ad regimen illius ablativi paulo. Similiter cum nihilominus
+				<lb/>est dictio composita, debet regi uno accentu posito super antepenultimam,
+				<lb/>et est coniunctio adversativa, et valet tantum quantum
+				<lb/>tamen, ut: " iste offendit me et ego nihilominus benefacio ei ".
+				<lb/>Quando est ablativus nihilo et minus nomen vel adverbium, debet
+				<lb/>proferri duobus accentibus, ut nihilo millus, et tenetur minus comparative
+				<lb/>sive sit nomen, sive sit adverbium; adverbialiter ut: " iste
+				<lb/>comedit multum de pane, et iste nihilo minus illo comedit "; nominaliter
+				<lb/>tenetur hic: "hoc animal est magnum et hoc est nihilo minus
+				<lb/>illo". Et semper in tali constructione subintelligitur in prepositio
+				<lb/>ad regimen illius ablativi, scilicet nihilo. Quisquis ergo consulat
+				<lb/>constructionis sensum, videbit qualiter sit proferendum paulominus
+			<lb/>et nihilominus an paulo minus et nihilo minus.</p>
+			<p><lb/>De quanto magis dicimus quod semper sunt due partes et
+				<lb/>duobus regende accentibus. Similiter multo magis. De verum tamen,
+				<lb/>sed tamen, at tamen dicimus quod nunquam sunt dictiones
+				<lb/>composite. Unde consulimus quod verum tamen dicatur duobus
+				<lb/>accentibus, et ibi verum est nomen, sed ponitur pro hac coniunctione
+				<lb/>sed, et tamen est coniunctio adversativa. Similiter duobus
+				<lb/>accentibus debent proferri at tamen, sed tamen, et sunt ' at ' et
+				<lb/>' sed ' copulative coniunctiones, tamen est adversativa. Et quod
+				<lb/>he dictiones non coniungantur, patet ex hoc quod inveniuntur in
+				<lb/>105eadem constructione posite ' sed ' vel ' verum ', ' at ' vel ' ast ' et
+				<lb/>' tamen ', divise per interpositionem trium vel quatuor dictionum,
+				<lb/>sine necessitate metri vel ornatus, et neutrum superfluit. Preterea
+				<lb/>Priscianus ponit eas coniunctiones et compositiones quarundam
+				<lb/>dictionum assignat; de compositione tamen predictarum partium
+				<lb/>mentionem non fecit. Dicimus igitur quod predicte voces non sunt
+				<lb/>dictiones composite, et semper debent proferri duobus accentibus,
+			<lb/>ut utraque illarum suo regatur accentu.</p>
+			<p><lb/>De astubi, postubi, atubi dicimus quod possunt esse dictiones
+				<lb/>composite, et quelibet istarum debet proferri acuto accentu super
+				<lb/>antepenultimam; et potest postubi esse adverbium temporis, et
+				<lb/>tantum valet quantum postquam; atubi et astubi possunt esse
+				<lb/>coniunctiones copulative, et tantum valent quantum sed. Item
+				<lb/>si at vel ast accipiantur pro sed et ubi pro adverbio loci vel temporis,
+				<lb/>et post accipiatur pro adverbio loci vel temporis et ubi accipiatur
+				<lb/>similiter pro adverbio loci vel temporis, non erunt dictiones
+				<lb/>composite, et ita debent proferri sub duobus accentibus at
+				<lb/>ubi, similiter ast ubi, post ubi, ut sit sensus: at ubi vel ast ubi: sed
+				<lb/>postquam vel quando vel in quo loco. Similiter post ubi id est postea
+				<lb/>in quo loco vel quando, vel post id est post illum locum, ubi
+			<lb/>id est in quo loco.</p>
+			<p><lb/>De verum enim vero dicimus quod sunt tres dictiones tribus
+				<lb/>accentibus proferende. Verum est nomen, sed ponitur pro hac coniunctione
+				<lb/>sed. Enim est coniunctio affirmativa, id est certe. Vero
+				<lb/>est coniunctio expletiva, et ibi nihil operatur quantum ad sensum.
+				<lb/>Quidam tamen dicunt quod enimvero sit una dictio composita et
+				<lb/>coniunctio affirmativa, id est certe, et profertur uno accentu posito
+				<lb/>super antepenultimam: quod Priscianus innuit, sed quod diximus
+			<lb/>asserit aperte vel in parte.</p>
+			<p><lb/>De quo modo et nullo modo dicimus quod non sunt dictiones
+				<lb/>composite; ponuntur tamen quandoque iste due dictiones pro adverbio
+				<lb/>et quandoque pro una proferuntur sub uno accentu, et si
+				<lb/>retinentur in vi nominum duobus accentibus proferuntur.
+				<lb/>De nullatenus, quatenus, hactenus et invicem dicimus quod
+				<lb/>sunt dictiones composite, et quelibet istamm est proferenda uno
+				<lb/>accentu acuto posito super antepenultimam, quando est dictio.
+				<lb/>Ut omnis obiectio removeatur, dicimus quod quatenus non componitur
+				<lb/>ex qua et tenus secundum quod est nomen, sed secundum
+				<lb/>quod est adverbium, et tenetur adverbialiter; sed si hec dictio qua
+				<lb/>tenetur in vi nominis et tenus in vi prepositionis, proferendum est
+				<lb/>qua tenus duobus accentibus et similiter in omnibus consimilibus.
+				<lb/>Sed diceret aliquis: qualiter potero cognoscere utrum sit dictio composita
+				<lb/>vel sint due partes ? Huic respondentes dicimus quod sensus
+				<lb/>constructionis hoc ei enuntiabit, et etiam dictionum constructio.
+				<lb/>Si enim illi ablativi tenentur adiective, dicendum est certe
+				<lb/>nulla tenus, hac tenus, qua tenus duobus accentibus; si vero non
+				<lb/>tenentur adiective et in vi ablativorum, efficiuntur dictiones composite
+				<lb/>ex illis ablativis et prepositione tenus, et tunc dicetur nullatenus,
+				<lb/>hactenus, quatenus sub uno accentu posito super antepenultimam.
+				<lb/>Et cum Priscianus dicat duas partes poni pro una cum dicitur
+				<lb/>nullatenus, dicimus eum hoc dixisse non quia vellet nullatenus
+				<lb/>non esse dictionem compositam, sed quia ille due partes integre
+			<lb/>coniunguntur in ista compositione.</p>
+			<!--<pb n="Riga 158-290"/>-->
+			<p><lb/>De sincerus a um et hic et hec sinceris et hoc sincere, dicimus
+				<lb/>quod utrumque habet penultimam productam et utrumque est
+				<lb/>proferendum acuto accentu posito super penultimam et utrumque
+				<lb/>est compositum a sine et cera, quasi sine cera, id est sine flexibilitate,
+				<lb/>id est purus, constans, firmus, mundus, sine vitiis. Quod autem
+				<lb/>dicitur sincerus vel sinceris quasi sine carie, etymologia est, non
+				<lb/>compositionis ostensio. Quod in sincerus penultima producatur,
+				<lb/>patet in illo versu Horatii:
+				<lg>
+					<l>sincerum nisi vas quodcumque infundis acescit,</l>
+					<l>et quod in sinceris similiter producatur penultima patet per</l>
+				</lg>
+				<lb/>Virgilium in Moreto:
+				<lg>
+					<l>subsedit sincere foraminibusque liquatur</l>
+					<l>emundata ceres.</l>
+				</lg>
+				<lb/>Ecce non potest dici quod sincere sit ibi adverbium dictum a
+				<lb/>sincerus a um; falsus enim esset versus, sed est terminatio neutri
+				<lb/>generis istius nominis sinceris, et ponitur ibi adverbialiter et potest
+				<lb/>etiam ibi poni nominaliter; male ergo dicitur sine dubio sinceris
+				<lb/>penultima correpta et accentu posito super antepenultimam;
+				<lb/>est enim ponendus super penultimam procul dubio. Si ergo versus
+				<lb/>ab aliquo magistro sive potius dyscolo ex defectu scientie inveniatur,
+				<lb/>in quo sinceris penultima corripiatur, dic quod abradatur cum
+			<lb/>suo auctore, quia male dictus.</p>
+			<p><lb/>De tristega dicimus quod penultima sit correpta, et componitur
+				<lb/>a tris quod est tres et tego, et sunt tristega domus tricamerate,
+				<lb/>scilicet ubi sunt tres camere et tres tecture vel cooperture, ita quod
+				<lb/>una sit super aliam. Unde versus:
+				<lg>
+					<l>a tris atque tego componi tristega dicas.</l>
+				</lg>
+				<lb/>De tenebre et latebre et huiusmodi dicimus quod si penultima
+				<lb/>brevis est naturaliter, potest esse accentus in ipsa penultima propter
+				<lb/>positionem consonantium, et potest esse in antepenultima quia
+				<lb/>penultima est brevis; si vero in talibus penultima sit producta
+				<lb/>naturaliter, accentus nunquam potest esse in antepenultima, sed
+				<lb/>tantum in penultima. Sedundum hoc potest dici ténebre et tenébre,
+				<lb/>látebra et latébra, scátebra et scatébra, lávacrum et lavácrum,
+				<lb/>délubrum et delúbrum, vólucris et volúcris, pháretra et pharétra,
+				<lb/>cómpatres et compátres, ut scilicet acutus accentus sit in penultima
+				<lb/>vel antepenultima pro voluntate legentis. Sed aratrum, confratres,
+				<lb/>commatres procul dubio habent accentum acutum tantum
+				<lb/>in penultima et nunquam in antepenultima: est enim penultima
+				<lb/>earum producta naturaliter. Illam regulam que dicit: " liquida posita
+				<lb/>post mutam facit precedentem syllabam esse communem ",
+				<lb/>nemo ita fatue intelligat quod qualemcumque syllabam precedentem
+				<lb/>faciat esse communem. Hoc enim est impossibile quod si
+				<lb/>antecedat syllaba naturaliter longa, brevietur propter sequentes
+				<lb/>consonantes. Est ergo sic intelligenda regula: liquida post
+				<lb/>mutam facit precedentem syllabam, si naturaliter fuerit brevis,
+				<lb/>communem, id est patitur eam quandoque corripi, quandoque
+				<lb/>produci. Ergo sine omni excusatione penitus male dicitur aratrum
+				<lb/>ut acuatur antepenultima. Similiter male dicitur cómmatres et
+				<lb/>cónfratres, in quibus penultima longa est naturaliter.
+				<lb/>De si quo minus dicimus quod sunt tres partes et tribus accentibus
+				<lb/>proferende, et est si coniunctio, minus ponitur pro adverbio negandi,
+				<lb/>scilicet ' non ', et quo est nomen sed ibi superfluit vel ponitur
+				<lb/>ibi adverbialiter: quo id est aliquo modo, et est ibi distinguendum
+				<lb/>et computandum si quo minus, et est coniunctio repetenda sic: si quo
+				<lb/>minus id est ' si non esset ' vel ' si aliquo modo non esset '. Unde
+				<lb/>illud evangelicum: " in domo Patris mei mansiones multe sunt. Si
+			<lb/>quo minus dixissem vobis quia vado parare vobis locum ".</p>
+			<p><lb/>De trucido ponit Horatius penultimam longam:
+				<lg>
+					<l>verum seu pisces seu porrum et cepe trucidas.</l>
+				</lg>
+				<lb/>De fricat ponit Virgilius penultimam correptam:
+				<lg>
+					<l>et pede prosubigit terram, fricat arbore costas.</l>
+				</lg>
+				<lb/>Gratia istorum verborum dicimus breviter quod erudit, sepelit
+				<lb/>debet dici ut acua&lt;n&gt;t antepenultimam: habent enim penultimam
+				<lb/>brevem, sed suffoco as et prefoco as debet dici ut accentus
+				<lb/>sit super penultimam; est enim longa procul dubio, quod patet illo
+				<lb/>versu Ovidii in libro In ibin: " prefocent anime noxia mella viam
+				<lb/>et sunt composita a sub vel pre et fauce, quasi sub fauce capere et
+				<lb/>stringere et strangulare. Alii dicunt quod similiter penultima in
+				<lb/>illis potest corripi, et tunc componitur a focus, quod ex auctoritate
+			<lb/>non dicunt.</p>
+			<p><lb/>De quatenus dicimus quod scribi debet per e et nunquam per i
+				<lb/>nihil enim est quatinus, quod aperte innuit Priscianus in tractatu
+			<lb/>coniunctionis.</p>
+			<p><lb/>De protinus dicimus quod potest dici per i et derivatur a prope
+				<lb/>et est adverbium temporis vel ordinis: protinus id est statim vel
+				<lb/>consequenter; et potest dici protenus per e et est compositum a
+				<lb/>pro vel procul et tenus, et est adverbium loci, unde protenus, id est
+			<lb/>longe, quasi procul a tenus, id est procul a prope.</p>
+			<p><lb/>Saltim et saltem dicitur sed in diversis significationibus. Saltim
+				<lb/>derivatur a saltu et est adverbium qualitatis: saltim, id est saltando.
+				<lb/>Saltem est coniunctio adversativa cum diminutione et est
+				<lb/>syncopatum a salutem, et est tractum a captivis, quia quando capti
+				<lb/>erant ex timore non valentes loqui integre, dicebant saltem, saltem,
+			<lb/>quasi ut vitam et salutem non amitterent.</p>
+			<p><lb/>Tempus semper debet dici per e et nunquam per i, tam pro
+			<lb/>illa parte capitis quam pro tempore.</p>
+			<p><lb/>Extemplo, id est statim, per e debet scribi et nunquam per i
+				<lb/>extimplo, et est compositum ab ex et templo, et est tractum ab
+				<lb/>auguribus, ut dicit Servius. Augures enim quando volebant captare
+				<lb/>auguria quibusdam virgis designabant sibi spatium in aere in
+				<lb/>quo deberent captare auguria, et illud spatium vocabant templum,
+				<lb/>et quam cito avis illud templum intrabat, statim captabant auguria
+				<lb/>et inde tractum est ut extemplo dicatur, id est statim.
+				<lb/>Si ergo quis contra predicta obiecerit quod in quibusdam ecclesiis
+				<lb/>usus aliter se habeat, respondemus non omnes ecclesiasticos
+				<lb/>esse viros litteratos, sed multos illitteratos et dyscolos, et talium
+				<lb/>consortio litteratos et sapientes corrumpi nihil prohiberi. Preterea
+				<lb/>non credimus talem usum esse usum, sed potius abusum. Si ergo
+				<lb/>legendum tibi fuerit in aliqua ecclesia in qua talis abusus inoleverit,
+				<lb/>si fueris tante auctoritatis quod pravum abusum ipsorum corrigere
+				<lb/>valeas, consulimus ut ad correctionem nitaris. Si vero non fueris
+				<lb/>tante auctoritatis quod pravum abusum ipsorum in bonum usum
+				<lb/>revocare valeas, aperte consulimus ut insanorum insaniam insaniendo
+				<lb/>sequaris. Nam velle videri sanum et sapientem inter insanos
+				<lb/>et illitteratos ecclesiarum, est quedam species furoris.
+				<lb/>Uniuscuiusque syllabe quatuor sunt accidentia: numerus, spiritus,
+				<lb/>tempus, tenor, id est acutus accentus vel gravis vel circumflexus
+			<lb/>vel moderatus.</p>
+			<p><lb/>Prolationum alia metrica, que fit in metris sine accentus observatione,
+				<lb/>et isti adiacet tempus, alia melica que attenditur in
+				<lb/>cantilenis, et isti adiacet neuma; alia prosaica et isti adiacet accentus.
+				<lb/>Accentus est inventus causa equivocationis &lt;ut in&gt; aliquando,
+				<lb/>quando est &lt;adverbium&gt; vel ablativus. Species accentuum sunt
+				<lb/>quatuor: gravis, circumflexus, moderatus, acutus. Acutus incipit
+				<lb/>ab imo, et tendit in altum. Gravis incipit ab humili et terminatur
+				<lb/>in humili. Circumflexus incipit ab imo et tendit in altum et iterum
+				<lb/>revertitur in imun, sed non est in usu moderno. Moderatus qui
+				<lb/>neque deprimitur nimis neque nimis elevatur, et incipit ab acuto et
+				<lb/>descendit in gravem. Et notandum quod nullus accentus in moderno
+				<lb/>usu predominans potest esse in primis vel mediis syllabis nisi
+			<lb/>moderatus, nec in ultimis nisi acutus.</p>
+			<p><lb/>De accentu dantur tres regule. Prima de monosyllabis que talis
+				<lb/>est: omnis dictio monosyllaba habet accentum acutum, exceptis
+				<lb/>prepositionibus et coniunctionibus que habent adeo gravem
+				<lb/>ut nullum videantur habere, ut: et, si, pro, pre. Secunda in disyllabis:
+				<lb/>omnis dictio disyllaba habet accentum predominantem super
+				<lb/>penultimam sive sit longa sive non. Excipiuntur ergo pro causa,
+				<lb/>puta pro sicut vel verbi gratia, pone pro retro, una pro pariter et
+				<lb/>circum. Tertia regula est de dictionibus polisyllabis: omnis dictio
+				<lb/>polisyllaba habet accentum predominantem super penultimam si
+				<lb/>longa sit, exceptis que componuntur a quando et inde; si autem sit
+			<lb/>brevis acuitur in antepenultima qualiscumque sit.</p>
+		</div>
+	</body>
+</text>
+</TEI>

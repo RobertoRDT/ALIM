@@ -1,0 +1,848 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Statuta Comunis Mergotii</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Renato Arena</name>
+                                        <name>Violetta de Angelis</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="5118" unit="words">Parole: 5118</measure>
+				<measure quantity="31297" unit="characters_without_spaces">Caratteri (spazi esclusi): 31297</measure>
+				<measure quantity="35925" unit="characters_witht_spaces">Caratteri (spazi inclusi): 35925</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2006-01-09">09/01/2006</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Diritto</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 5.153
+					Caratteri spazi esclusi:31.560
+				Statuti dell'anno 1378 con un addendum del 1446</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Statuti medievali di Mergozzo</title>
+						<editor>Renato Arena</editor>
+						<editor>Violetta de Angelis</editor>
+						<imprint>
+							<publisher>Alberti Libraio editore</publisher>
+							<pubPlace>Verbania</pubPlace>
+							<date>1993</date>
+							<biblScope unit="page">57-80</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Diritto</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1301/1400">XIV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-la struttura è particolare. Si tratta di Statuta della Comune Mergotii. La prima parte è chiara, ci sono 59 punti (statuta). Poi seguono alcune lettere "confirmatorie" (vidimationes), delle quale una contiene alcune aggiunte agli Statuta originari (60-64). Poi seguono altre vidimationes. 
+Ho quindi creato questa struttura:
+&lt;div1&gt;
+(Statuta...)
+	&lt;div2&gt;[1]...&lt;/div2&gt;
+	...
+	&lt;div2&gt;[59]...&lt;/div2&gt;
+&lt;/div1&gt;
+&lt;div1&gt;
+(Vidimatio)
+&lt;/div1&gt;
+... (altre vidimationes)
+&lt;div1&gt;
+	&lt;div2&gt;[60]...&lt;/div2&gt; (aggiunte agli Statuta)
+&lt;/div1&gt;
+
+&lt;div1&gt;
+(un altra Vidimatio)
+&lt;/div1&gt;
+...
+
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="57"/>
+		<div>
+			<p><lb/>In nomine domini amen. millesimotricentesimo septuagesimo octavo
+			<lb/>prima indictione.</p>
+			<div>
+				<p><lb/>Hec sunt statuta Comunis et hominum Mergotii prout [infra plenius]
+					<lb/>continentur, que facta et ordinata sunt per [consules et] Credentiarios
+					<lb/>Comunis Mergotii, videlicet imprimis et [de novo] examinata, comprobata,
+					<lb/>affirmata et retificata per totam Credentiam Mercotii, sub
+					<lb/>[exam]inacione et declaratione – pro [aliqua] obscura clarificando –
+					<lb/>Vescontis Martinerie Guillelmi dicti [vacat] et Antonii dicti Stope, ellectorum
+					<lb/>per universalem Creden[tiam], [Vicarii] in regimine domini Raynerii
+					<lb/>de Tesseris, vicarii Vogonie, [pro ill. vicario,] principe domino
+					<lb/>Com[ite Virtutum et cetera et Novariae Domino cenerali,] [et confir]mata
+					<lb/>tota ista statuta per predictum [dominum vicarium et totam] credenciam
+					<lb/>[Mergotii] sub anno currente MCCC[LXXVIII die x februarii]. Et hoc
+					<lb/>ad lau[dem et] honorem beate et gloriose virginis [Mariae et totius curiae
+				<lb/>caelestis].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[1]</head> <p>Statuerunt et ordinaverunt quod d[ebeant esse extimatores tres] in
+					<lb/>territorio de Mergotio et de Brachio, [et debeant habere de quolibet]
+					<lb/>imperiales sex de mob[ilia,] et de dam[pno] facto in plano [de Mergotio]
+					<lb/>imperiales quatuor pro quolibet, et in Brachio [et in suis pertinentiis]
+				<lb/>imperiales quatuor pro quolibet.</p>
+			</div>
+			<pb n="58"/>
+			<div type="chapter">
+				<head><lb/>[2]</head> <p>Item statuerunt et ordinaverunt [quod consules de Mergotio] te[neantur
+					<lb/>o]rdinare [et observare quod continetur in] isto ordinamento et plus
+					<lb/>[et minus quod agatur et pronuntiatur] pro Comune Novarie et pro Comune
+					<lb/>[Mergotii. Et quod consules teneantur] ire ad accipiendum et robandum
+					<lb/>ad [domum cuiuslibet personae pro] bannis et fodris et
+				<lb/>compus[turis, fictis et incantis].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[3]</head> <p>Item statuerunt [quod totum id quod in] Credentia [et] in vici[nantia]
+					<lb/>de Mergotio statutum et ordinatum [et affirmatum fuerit,] quod
+					<lb/>consules comunis Mergotii teneantur per [suum sacramentum] attendere
+					<lb/>et conservare et facere suo posse; [et qui contra] hoc fecerit solvat
+					<lb/>pro banno omni vice soldos quinque imperiales pro quolibet, hinc retro
+				<lb/>et amodo in antea.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[4]</head> <p>Item statuerunt et ordinaverunt quod si aliqua persona abstulerit aliquam
+					<lb/>rem in clausis, et abstulerit aliquam rem in vineis de clausis, et
+					<lb/>de ortibus de Mergotio et de Brachio acceperit fructua et erbam sine
+					<lb/>parabula illius c[uius] erit, vel fregerit clausum ipsorum; si fregerit in
+					<lb/>die, det [pro banno] qualibet vice soldos quinque imperiales, et si fuerit
+					<lb/>de nocte, soldos decem [imperiales. Et] quilibet de Mergotio et de Brachio,
+					<lb/>iura[tus per sacramentum,] teneatur accusare: et tertia pars sit comunis,
+				<lb/>[tertia pars accusatoris, et tertia] pars consulum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[5]</head> <p>[Item statuerunt et ordina]verunt quod nulla persona, que non [sit
+					<lb/>vicinus vel habitator] Mergotii vel Brachi, non au[deat nec] presumat
+					<pb n="59"/>
+					<lb/>pasc[ul]are nec pasculari facere cum [aliquibus bestiis] cuiuscumque m[odi]
+					<lb/>in territorio de Mergotio nec [de Brachio, absque] licentia consulum
+					<lb/>vel Comunis. Et qui contra [fecerit, solvat pro banno,] si fuerit bestia
+					<lb/>bovina vel equs [vel equa, si fuerit in prato vel campo,] soldos duos imperiales
+					<lb/>pro quolibet [et qualibet vice; et, si fuerit bestia minuta,] solvat
+					<lb/>soldos quinque [imperiales pro pastore qualibet vice, et, si] non
+					<lb/>habuerint pastorem, [solvat pro qualibet bestia minuta] et qualibet vice
+					<lb/>imperiales [quattuor et mendet dampnum.] Et quilibet fidedignus possit
+				<lb/>[accusare].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[6]</head> <p>[Item statuerunt et ordinaverunt] quod, si aliqua bestia [inventa fuerit
+					<lb/>in clausis, vineis, vel horto, in] loco et terri[torio de Mergotio vel Brachio,
+					<lb/>solvat] pro banno, pro [qualibet et qualibet vice, soldum unum
+					<lb/>imperialem et] redat dampnum; [et quilibet] iuratus vel [fide dignus possit]
+					<lb/>accusare: tertia pars [accusatoris, tertia pars consulum et tertia] pars
+				<lb/>comunis existat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[7]</head> <p>[Item statuerunt et ordinaverunt] quod non sit aliqua persona,
+					<lb/>[cuiuscunque conditi]onis existat, undecumque sit, que audeat nec pre[sumat
+					<lb/>incidere aliquem] ramum castanegi, nec aliquod [lignum viridum,]
+					<lb/>nisi sit super suum; et qui contra fecerit sol[vat pro banno] qualibet vice
+				<lb/>soldos quinque imperiales; et quilibet fidedignus accusare possit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[8]</head> <p>Item statuerunt et ordinaverunt quod non sit aliqua persona, cuius
+					<lb/>cumque conditionis existat, undecumque sit, que audeat nec presumat
+					<lb/>carrezare, nec carrezari facere, in pratis vel campis super territorio Mergotii
+					<pb n="60"/>
+					<lb/>vel Brachi nuflo tempore; et qui contra fecerit solvat pro banno qualibet
+					<lb/>vice soldos duos imperiales; et quilibet fidedignus possit accusare
+				<lb/>et restituere dampnum dampnificato.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[9]</head> <p>Item statuerunt et ordinaverunt quod non sit aliqua persona dicti territori
+					<lb/>Mergotii vel Brachi, cuiuscumque conditionis existat, que audeat
+					<lb/>nec presumat laborare, nec laborari facere in die sabati post nonam, nec
+					<lb/>aliquibus diebus festivis, videlicet in festis Apostolorum et sancte Marie;
+					<lb/>et quilibet contrafatiens solvat pro banno qualibet vice soldos duos imperiales,
+					<lb/>et quilibet fidedignus possit accusare. Tertia vero pars sit accusatoris,
+					<lb/>tercia pars consulum et alia tercia pars perveniat in utilitatem
+					<lb/>et in melioramento et retifficatione ecclesie beate Virginis Marie de Mergotio,
+					<lb/>in laude iiii bonorum virorum de Mergotio, ellectorum credentiam
+				<lb/>de Mergotio.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[10]</head> <p>Item statuerunt et ordinaverunt quod nulla persona de Mergotio
+					<lb/>nec de Brachio non debeat colligere herbam in alieno campo seminato
+					<lb/>in territorio de Mergotio nec de Brachio, nec aliqua alia persona; et qui
+					<lb/>contra fecerit solvat qualibet vice pro banno soldum unum imperialem;
+				<lb/>et quilibet fidedig[nus] possit accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[11]</head> <p>Item statuerunt et ordinaverunt quod ille, qui non venerit ad vicinantiam
+					<lb/>ad vocem preconizatam, vel ad sonum campane, solvat pro banno,
+					<lb/>pro prima vice, imperiales xii, et pro secunda, soldos duos imperiales,
+					<lb/>et tercia vice, soldos tres imperiales, et sic pro rata: et simili qui non
+				<lb/>venerit ad credentiam.</p>
+			</div>
+			<pb n="61"/>
+			<div type="chapter">
+				<head><lb/>[12]</head> <p>Item statuerunt quod non sit aliqua persona, cuiuscumque condicionis
+					<lb/>existat, que vellit esse sit, que audeat nec presumat incendere, nec
+					<lb/>ponere ignem in aliqua parte buschi seu territorii Mergotii et Brachi;
+					<lb/>et quilibet contrafatiens solvat pro banno qualibet vice libras decem imperiales,
+					<lb/>et quilibet fidedignus possit accusare, et restituere dampnum
+					<lb/>dampnificato, secundum extimationem que fiet per extimatores Comunis
+					<lb/>Mergotii infra terminum sibi asignandum per dominum vicarium Vogonie,
+				<lb/>seu per Comune Mergotii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[13]</head> <p>Item statuerunt et ordin[averunt quod quelibet] balla, fardellus,
+					<lb/>vezolus, [bariles, pelles olei, sacchos et sacchonos, qui venient] a partibus
+					<lb/>[inferioribus euntes ad partes superiores per territorium] Mergotii,
+					<lb/>tam [per terram, quam per aquam, teneatur et debeat ire per partitam:
+					<lb/>et si] est a rubis xxx[ii supra, solvat Comuni, pro quolibet rubo, imperiales
+					<lb/>tres, et pro qualibet] balla, [barille, pelle olei, saccho et sachono,
+					<lb/>libras imperiales duos Comuni, vel incantatori dicti Comunis, et pro sosta
+					<lb/>imperiales duos, et pro ipsis denariis Comune teneatur ipsam mercantiam
+					<lb/>consignare Vogoniam, si dicta mercantia venerit in Mergotio
+					<lb/>ante horam tercie; et si non venerit ante dictam horam, Comune non
+					<lb/>teneatur ad istam consignationem, et hoc salvo si fuerit blava, farina,
+					<lb/>castaneas vinum, sal, cepas, aleum vel gniffegnerum: illa mercantia non
+					<lb/>teneatur solvere, nec ire per partitam. Et insuper quod habentes vel tenentes
+					<lb/>sostam debeant custodire omnes ballas et fardellos ac omnes mercantias,
+					<lb/>postquam fuerint consignate in sosta, donec removebitur a sosta
+					<lb/>pro conducendo alibi, et si damnum, vel furtum, vel guastum factum
+				<lb/>fuerit in predictis, teneatur dictus sostator emandare].</p>
+			</div>
+			<pb n="62"/>
+			<div type="chapter">
+				<head><lb/>[14]</head> <p>Item [statuerunt et ordinaverunt quod quelibet balla, fardellus, barrales,
+					<lb/>et sachi et sacchoni cuiuscumque mercantie, tam petie] quam
+					<lb/>al[ter]ius mercantie, que [venerit a partibus] superioribus [ad partes infe]riores
+					<lb/>per Mergotium, vel per ter[ritorium Mergotii, per terram vel
+					<lb/>per aquam,] solvat Comuni de Mergotio, pro [qualibet balla, soldos duos
+					<lb/>imperiales, et pro sosta, imperiales duos] pro qualibet balla, [fardello,
+					<lb/>barile, saccho et sacchono ut supra, et Comune teneatur ipsas ballas,
+					<lb/>sacchos et sacchonos, fardellos] et barrales [consignare Pallantie pro ipsis
+					<lb/>soldis duobus imperialibus, et quod quod]libet fassum [ferri teneatur
+					<lb/>et debeat solvere ut supra, si vene]rit in Mer[gotio una die, quod alia
+					<lb/>die sequenti Comune teneatur ipsam] merca[ntiam consignare Pallantie
+					<lb/>pro predictis denariis; si v]ero dicti mer[catores voluerunt ire cum dicta
+					<lb/>mercantia Pallantiam suis expensis,] quod sol[vant Comuni imperiales
+					<lb/>octo et pro sosta imperiales duos; si vero dicta mercantia voluerint
+					<lb/>ire versus Vehemennia, solvant Comuni, pro quolibet rubo, imperiales
+					<lb/>tres et pro qualibet] balla, [fardello, saccho et sacchono et barile, imperiales
+					<lb/>duos pro sosta: et] pro ipsis [denariis] Comune teneatur ipsas tales
+					<lb/>mercantias consignare] Vehemenie, [salvo blava, vinum, farina, sal,
+					<lb/>castaneas, porra, cepas, aleum] et [gniffegnerium], et talis mer[cantia
+					<lb/>nihil sulvere teneatur, nec] teneatur [ire per partitam]. Additum [quod
+					<lb/>sit pena suldorum quinque partitori, si non] ponderaver[it ballas et]
+					<lb/>fardellos, [si tirator requisiverit; et si] erunt concordes ad [aliquam penam
+				<lb/>non teneantur].</p>
+			</div>
+			<pb n="63"/>
+			<div type="chapter">
+				<head><lb/>[15]</head> <p>Item statuerunt et ordinaverunt quod [non sit aliqua] persona [dicti
+					<lb/>loci et] teritorii de [Mergotio,] cuiusque [conditionis] existat, que audeat
+					<lb/>vel presumat inaquare canepum in burgo Mergotii, [a porta] dicti
+					<lb/>[burgi,] que est [versus] Palanciam, usque ad saxum [exterius, et quod
+					<lb/>non prae]sumat dictum canepum [portare ad secandum] vel [sucandum
+					<lb/>in] burgo Mergotii, [nisi in sua curte, seu curtavolo; et qui] contra fecerit
+					<lb/>sol[vat pro] banno [qualibet vice soldos] quinque imperiales; et quilibet
+				<lb/>fidedignus [possit accusare.]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[16]</head> <p>Item statuerunt et ord[inaverunt quod consules Mergotii,] qui pro
+					<lb/>tempore fuerint, [debeant omni anno facere equari] mansuras in Mer[gotio
+				<lb/>et Brachio, sub pena sui sacramenti].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[17]</head> <p>Item statuerunt quod nulla persona [Comunis Mergotii vel Brachi
+					<lb/>nul]latenus teneatur [donare aliquid de bonis dicti Comunis sine] licentia
+					<lb/>et parabula [dicti Comunis et credentiae, et nisi sit] de eorum
+					<lb/>voluntate. Et qui contra f[ecerit solvat pro banno, qua]libet vice, soldos
+				<lb/>quinque imperiales; [et quilibet fidedignus possit accusare.]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[18]</head> <p>Item statuerunt quod non sit aliqua persona, [que velit esse] sit,
+					<lb/>que [audeat nec] presumat battere, nec facere battari, aliquam blavam,
+					<lb/>nec [aliquod] granum, nec [aliqua legu]mina in ecclesiis de Mergotio,
+					<pb n="64"/>
+					<lb/>nec de Brachio. Et [quilibet contra/]fatiens solvat pro banno soldos sex
+					<lb/>[imperiales;] et qui[libet fidedignus] possit accusare et pene [perveniant
+				<lb/>ut supra.]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[19]</head> <p>Item statuerunt quod non sit aliqua persona dicti territorii de Mergotio
+					<lb/>et de Brachio que [audeat] nec presumat facere aliquam frachiam
+					<lb/>alicui sponsse; et qui contra fecerit solvat pro banno, qualibet vice, soldos
+				<lb/>quinque imperiales pro quolibet; pena vero perveniat ut supra.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[20]</head> <p>Item [statuerunt quod nulla persona, vel nullus mercator, non]
+					<lb/>audeat, nec [debeat ire de nocte per territorium Mergotii] cum roba,
+					<lb/>vel sine roba; et qui contra fecerit non vertatur contra comune Mergotii
+				<lb/>de aliqua restitucione.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[21]</head> <p>Item quod non sit aliqua persona que audeat, nec presumat incidere,
+					<lb/>nec rumpere fossatum, nec cesam paludis Comunis Mergotii
+					<lb/>nec aspaldo et qui contra fecerit solvat pro banno qualibet vice soldos
+					<lb/>quinque imperiales tertia pars sit accusatoris et quilibet fidedignus possit
+				<lb/>accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[22]</head> <p>Item statuer[unt] quod nulla persona de Brachio, nec de Mergotio,
+					<lb/>non teneatur rumpere ruzias de molino Comunis Mergotii, nec extrahere
+					<lb/>aquam, nec aliquid aliud de ipsis; et qui contra fecerit solvat pro
+					<lb/>banno soldos quinque imperiales, pro quolibet et qualibet vice; et quilibet
+				<lb/>fidedignus possit accusare: tertia pars sit accusatoris.</p>
+			</div>
+			<pb n="65"/>
+			<div type="chapter">
+				<head><lb/>[23]</head> <p>Item statuerunt quod nulla persona, undecumque vellit esse sit, cuiuscumque
+					<lb/>conditionis existat, audeat, nec presumat schocere aliquam arborem
+					<lb/>castanee? alicui de Mergotio, nec de Brachio, nec colligere castaneas
+					<lb/>sub alienis arboribus, que non sint scosse; et qui contra fecerit
+					<lb/>solvat pro banno, qualibet vice, imperiales xii et restituat castaneas illi
+				<lb/>cuius fuerint.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[24]</head> <p>Item statuerunt quod illi, vel ille, cui preceptum fuerit per partitorem
+					<lb/>roatam, et recusavit facere roatam suam cum suis bovibus et carro,
+					<lb/>et amittat roatam et preceptor precedat, et amittat ipsam roatam usque
+				<lb/>ad unum annum proxime venturum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[25]</head> <p>Item statuerunt quod consules teneantur per sacramentum facere
+					<lb/>aptare portum et vias Comunis Mergotii. Et plus et minus in voluntate
+				<lb/>Comunis Mergotii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[26]</head> <p>Item statuerunt quod illi qui non sunt vicini de Mergotio, seu Brachio,
+					<lb/>qui volunt vendere vinum in loco de Mergotio vel de Brachio,
+					<lb/>debeat solvere Comuni de Mergotio, de quolibet carro vini quod vendent,
+				<lb/>soldos quinque imperiales.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[27]</head> <p>Item quod nulla persona de Mergotio, vel de Brachio, debeat emere,
+					<lb/>nec scortigare, nec vendere ad bichariam aliquaml bestiam quan scient
+					<lb/>habere aliquam pegayram, neque aliquam malitiam, seu esse anneliatam,
+					<lb/>neque aliquod coyrum, neque aliquas carnes morticinas, nisi tantum carnes
+					<lb/>deruchatas, seu cervigatas, sive alnuatas. Et qui contrafecerit solvat
+					<lb/>pro banno, qualibet vice, soldos quinque imperiales, et quilibet
+					<lb/>fidedignus possit accusare. Tertia pars sit consulum, tertia pars comunis
+				<lb/>et tertia pars accusatoris.</p>
+			</div>
+			<pb n="66"/>
+			<div type="chapter">
+				<head><lb/>[28]</head> <p>Item statuerunt quod omnes illi, qui fuerunt cernuti per consules,
+					<lb/>vel per Credentiam, qui debeant ire pro Comune Mergotii, non debeant
+					<lb/>recusare, nisi mediante iusto dei impedimento, cognitu consulum: aliter
+					<lb/>solvant sibi impoxitam, et nichilominus teneantur ire ad ambaxiatam
+				<lb/>sibi impoxitam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[29]</head> <p>Item statuerunt quod nulla persona debeat ponere aliquam rem in
+					<lb/>ecclesiis de Mergotio, neque infra porticos, neque in cymiterio; et qui
+					<lb/>contra fecerit solvat pro banno, qualibet vice, soldos viginti imperiales;
+					<lb/>et quilibet fidedignus possit accusare: tercia pars accusatoris, tercia pars
+				<lb/>consulum et tercia pars Comunis.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[30]</head> <p>Item statuerunt quod nulla persona debeat abevarare aliquam bestiam
+					<lb/>ad fontanam de Cartiono, nec ad fontanam de fossato de porta
+					<lb/>superiori; et qui contrafecerit solvat pro banno, pro qualibet bestia et
+					<lb/>qualibet vice, soldos duos imperiales; et quilibet fidedignus possit accusare:
+					<lb/>tercia pars accusatoris. Aditum quod, sub pena predicta, nulla possit
+					<lb/>abluere pannos, bugatam, herbas, nec aliqua alia bruta; quoque hoc
+				<lb/>statutum locum habeat et Brachium.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[31]</head> <p>Item statuerunt quod nulus porcus, sive porca, debeat ire per
+					<lb/>locum Mergotii; et qui dimiserit ire suos porcos per dictum locum, solvat
+					<lb/>pro banno, qualibet vice, imperiales vi, postquam porcarius venerit
+				<lb/>extra.</p>
+			</div>
+			<pb n="67"/>
+			<div type="chapter">
+				<head><lb/>[32]</head> <p>Item statuerunt quod nulla persona debeat impedire stratas; et qui
+					<lb/>contrafecerit solvat pro banno imperiales xii, pro quolibet et qualibet
+					<lb/>vice; et hoc statutum locum habeat in Brachio, [et] statim deberent [expedire]
+					<lb/>stratas, cum preceptum acceperint a [consulibus,] sub pena [eis
+				<lb/>dup]plicata, [si] recusaverint.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[33]</head> <p>Item [statuerunt quod nulla per]sona non debeat laborare, nec labor[ari
+					<lb/>facere, in] diebus Veneris de Madio in dicto territorio; et [qui
+					<lb/>contrafecerit] solvat pro banno, qualibet vice, imperiales xii; et [qui fecerit
+					<lb/>labor]are, si fuerit de Mergotio vel de Brachio, solvat pro [laboratoribus;]
+					<lb/>et si fuerit [cum carro,] sit pena soldorum quinque imperialium,
+					<lb/>[salvo quod non sint] mercantie [que] velociter, debeant ire supra vel
+					<lb/>infra, [vel conduci] contingant. Et hoc intelligitur mercantia ordinaria,
+				<lb/>que vel[et] conduci ultra mont[em?].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[34]</head> <p>Item statuerunt quod nulla persona debeat, nec presumat [tenere]
+					<lb/>aliquam bestiam alicuius forenssis ultra unam noctem, que vadat pasculare
+					<lb/>su[per territorium] Mergotii et Brachi; et qui contra fecerit solvat
+					<lb/>pro [banno,] qualibet vice et omni die, soldos quinque imperiales; et quilibet
+				<lb/>[fide dignus] possit accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[35]</head> <p>Item statuerunt quod ianue debeant esse apte infra kallendas Madii,
+					<lb/>et murus fragie debeat aptari ad voluntatem procuratoris, et non debeat
+					<lb/>moveri murus quod [vadi]t per traversum, in pena consuli soldorum decem
+					<lb/>imperialium pro quolibet, et soldorum quinque imperialium procuratori,
+					<lb/>et plus et minus ad voluntatem Credentie; et hoc intelligatur ab ave
+				<lb/>Maria summo mane ad aliam avemmariam que pulsatur in sero.</p>
+			</div>
+			<pb n="68"/>
+			<div type="chapter">
+				<head><lb/>[36]</head> <p>Item statuerunt et ordinaverunt quod non sit aliqua persona, cuiuscumque
+					<lb/>condicionis existat et undecumque sit esse vellit, que audeat,
+					<lb/>vel presumat frangere aliquot corregum, seu arizariam castanearum in
+					<lb/>territorio de Mergotio et de Brachio; et hoc in pena et banno, pro quolibet
+					<lb/>contrafatienti et qualibet vice, denariorum xii et redat dampnum;
+				<lb/>et quilibet fidedignus possit accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[37]</head> <p>Item statuerunt quod quelibet persona [que fuerit] ad Credentiam
+					<lb/>debeat ipsam Credentiam cellare, [et celatam,] seu privatam [tenere;]
+					<lb/>et qui contrafecerit solvat pro banno, [qualibet vice, soldos decem imperiales,
+					<lb/>si] legiptime probatum fuerit et dictum [fuerit sibi per] consul[es
+				<lb/>quod debeat ipsam] tenere secretam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[38]</head> <p>Item statuerunt quod si fuerit aliqua persona que habuerit a[liquod
+					<lb/>fossatum] super territorium Comunis extra burgum, quando fuerit denun[tiatum,
+					<lb/>debeat ipsum] fossatum spianare; et qui contrafecerit solvat
+					<lb/>pro banno, [omni die] qua steterit ad non spianandum dictum
+				<lb/>fossatum, imperiales xii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[39]</head> <p>Item statuerunt quod nulla persona dicti territorii [Mergotii de]beat
+					<lb/>alevare, nec fieri facere [aliquod] murum super Comune [Mergotii]; et
+					<lb/>qui contrafecerit solvat, omni die qua [steterit ad non] spianandum [dictum]
+					<lb/>murum, imperiales xii, si non steterit de voluntate [Communis et
+				<lb/>Credentiae].</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[40]</head> <p>Item statuerunt [quod quilibet,] qui fuerit levatus consul de novo,
+					<lb/>debeat iurare incontinenti dictam consulariam in vicinantia; et qui contrafecerit
+					<lb/>solvat pro banno, pro prima die qua non iuravit, soldos quinque
+					<pb n="69"/>
+					<lb/>imperiales, et secunda die, soldos decem imperiales, et tercia, soldos
+				<lb/>viginti, et ultra debeat tantum esse consul et iurare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[41]</head> <p>Item statuerunt quod luminaria ecclesie sancte Marie Mergotii debeant
+					<lb/>fieri continue [decenter,] et manuteneri de hiis que spectant ad
+					<lb/>ipsam luminariam, [si satisfacere] possunt: sin autem, supleatur de here
+				<lb/>[Comunis,] et super hoc constituatur [una idonea persona.]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[42]</head> <p>Item statuerunt quod quelibet persona, idest ille qui fuerit consul,
+					<lb/>debeat facere se scribi in offitio consularie per quam vadit: aliter non
+				<lb/>sibi responderetur in octo dies.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[43]</head> <p>Item quod nulla persona, que vellit esse sit, cuiuscumque conditionis
+					<lb/>existat, audeat, nec presumat segare fenum, nec herbam, neque stramum
+					<lb/>in plano de Mergotio, nisi sup &lt; er&gt; suum proprium; et qui contra
+					<lb/>fecerit solvat pro banno, qualibet vice, soldos decem imperiales, et
+					<lb/>quilibet fidedignus possit accusare, et restituatur dampnum dampnificato.
+				<lb/>/*</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[44]</head> <p>Item statuerunt quod nulla persona debeat habere ballas, nisi conduxerit
+					<lb/>cum suis bovibus et cum suo plaustro, nisi fregerit plaustrum,
+					<lb/>vel habuerit unum bovem zoppum. Et qui habet boves a grassa non habeat
+				<lb/>ballas, nisi conduxerit cum illis bovibus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[45]</head> <p>Item statuerunt die Martis xxv septembris anni presentis quod nullus
+					<lb/>forenssis possit, nec debeat esse vicinus, nisi solutus dicto Comuni
+				<lb/>libras vigintiquinque imperiales.</p>
+			</div>
+			<pb n="70"/>
+			<div type="chapter">
+				<head><lb/>[46]</head> <p>Item statuerunt quod nulla persona teneatur, nec debeat facere carbonum,
+					<lb/>cynerem, nec ligna in toto monte de Orfeno, nec in toto territorio
+					<lb/>de Brachio; et qui contrafecerit solvat pro banno, qualibet vice,
+					<lb/>soldos viginti imperiales; et quilibet fidedignus, qui sit vicinus, teneatur
+				<lb/>et possit accusare per sacramentum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[47]</head> <p>Item statuerunt quod nulla persona de Brachio, vel de Mergotio,
+					<lb/>debeat, nec audeat facere ligna, nec aliquod stramum alicui forenssi;
+					<lb/>et qui contrafecerit solvat pro banno, qualibet vice, soldos viginti imperiales;
+				<lb/>et quilibet fidedignus possit accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[48]</head> <p>Item statuerunt quod nulla persona, undecumque vellit esse sit, audeat,
+					<lb/>nec presumat pasculare, nec aliquod dampnum inferre cum aliquibus
+					<lb/>bestiis in egro de Brachio; et qui contrafecerit solvat pro banno,
+					<lb/>pro qualibet bestiagrossa, imperiales sex, et qualibet minuta, imperiales
+				<lb/>iiii, qualibet vice; et quilibet fidedignus possit accusare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[49]</head> <p>Item statuerunt quod quelibet persona de Mergotio, vel de Brachio,
+					<lb/>que habuerit clausos in territorio de Mergotio, seu de Brachio, debeat
+					<lb/>ipsos clausos sic claudere de muro et de fossato quod equs, vel aliqua
+					<lb/>bestia grossa, seu bovina, non possit intrare dictos clausos ab aliqua parte,
+				<lb/>sub pena ponenda per consules.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[50]</head> <p>Item statuerunt et ordinaverunt quod nulla persona, cuiuscumque
+					<lb/>conditionis existat, non possit facere calchariam supra territorio Mergotii,
+					<pb n="71"/>
+					<lb/>nisi faceret venire, vel conducere, ligna ab alieno territorio, et
+					<lb/>eo casu possit facere calcariam, et teneatur, dare comuni de Mergotio,
+					<lb/>pro qualibet calcaria, soldos quadraginta imperiales pro coctura lapidum;
+					<lb/>et si oporteret comuni et vicinis, teneatur vendere de dicta calcina soldos
+					<lb/>quatuor pro centonario, salvo si dicta calcina pro utendo totam pro
+				<lb/>eius usu, et quod de ipsa non vendent.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[51]</head> <p>Item statuerunt et ordinaverunt quod nullus audeat, nec presumat
+					<lb/>movere, nec extraportare palam, nec occulte, de die, nec de nocte, aliqua
+					<lb/>ferramenta, assides, nec lignamina aliquarum ex portis, nec ex fortalicis,
+					<lb/>campanillis, nec aliarum fortaliciarum Comunis Mergotii: sub
+					<lb/>pena, cui contrafecerit in predictis, vel aliquot predictorum??, soldorum
+					<lb/>sessaginta imperialium, et restituat dampnum in dupplum dicto Comuni;
+					<lb/>et consules teneantur predicta statim exigere; et quilibet fidedignus
+					<lb/>possit accusare, et adhibeatur eidem fides, cui pena sit tercia
+				<lb/>pars accusatoris, tercia pars Comunis et tercia pars consulum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[52]</head> <p>Item statuerunt quod quisque debeat tenere intus porchos; et si
+					<lb/>invenientur per plateas, nec extra portas sine guarda, solvat, si fuerit
+					<lb/>per terram, pro quolibet porcho, soldum unum; et si fuerit extra portam,
+					<lb/>solvant, pro quolibet porcho, soldos duos imperiales, et si fuerit
+					<lb/>in dampnum, soldos duos; et quisque dignus fide cum sacramento possit
+				<lb/>accusare et habebit medietatem accuse.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[53]</head> <p>Item statuerunt et ordinaverunt quod quilibet forenssis,qui habeat
+					<lb/>plantina arborum castanearum super territorio Mergotii, teneatur et debeat
+					<pb n="72"/>
+					<lb/>solvere [omni an]no [ad Kalendas] Martii, et pro quolibet arbore
+				<lb/>scripto, Comuni Mergotii imperiales iii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[54]</head> <p>[Item statuerunt et ordinaverunt] quod quilibet forenssis teneatur et
+					<lb/>debeat [solvere, de qualibet mercantia] bestiarum grossarum, et de quolibet
+					<lb/>[bove,] [vacha, manzo, vel manza, imperiales tres,] eundo tam per terram,
+					<lb/>quam [per aquam, super territorio Mergotii suprascripto Comuni,
+				<lb/>eunt]es ad partes inferiores, sive versus Vehemeniam, vel Novaram.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[55]</head> <p>Item statuerunt et ordinaverunt quod quilibet mercator, conducens
+					<lb/>castronos, moltonos, agnos, bichos, pecudes, sive capras] et porchos
+					<lb/>vivos, [euntes per terram, vel per aquam,] per dictum territorium
+					<lb/>Mergotii, teneatur [solvere dicto Comuni,] pro quolibet castrono, moltono,
+					<lb/>agno, bicho, pecude, [capra et] porcho, imperialem unum pro
+				<lb/>quolibet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[56]</head> <p>Item [statuerunt] et ordinaverunt quod [extimum] Comunis Mergotii
+					<lb/>[non permutetur, nec reficiatur,] nisi de quatuor in quatuor [annis
+					<lb/>usque in perpetuum;] et si esset aliquis [vicinus] qui dictum exti[mum
+					<lb/>vellet permutare, cornpletis] annis [quatuor postquam] denuntiaverit dictis
+					<lb/>[vicinis, si infra menses sex tunc proxime sequentes] non permutaverint,
+					<lb/>pena [sit Comuni librarum decem imperialium, quae perveniat illi] qui
+				<lb/>denuntiaverit: et hoc [valeat et teneat].</p>
+			</div>
+			<pb n="73"/>
+			<div type="chapter">
+				<head><lb/>[57]</head> <p>Item statuerunt quod non sit aliqua persona de dicta vicinantia predicti
+					<lb/>burgi Mergotii que audeat, vel presumat tenere in sua curte, vel
+					<lb/>pasculo, aliquam bestiam, equm, vel equam, bovem, sive vacham, [polerios,
+					<lb/>manzos, vel manzas, nisi fuerint sue proprie, aut accepisset [ad
+					<lb/>communem utili]tatem ab aliquo forensse, et de hoc teneatur facere sacra[mentum
+					<lb/>in manu consulum, vel syndicorum, dicti Comunis: et hoc
+					<lb/>pena soldorum sex, pro qualibet nocte et qualibet bestia grossa; item,
+				<lb/>pro qualibet bestia menuta, soldos ii utsupra.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[58]</head> <p>Item statuerunt et ordinaverunt quod aliqua persona dicti burgi
+					<lb/>Mergotii, masculus vel foemina, non audeat ire post defunctos suos ad
+					<lb/>ecclesiam, plorando nec proclamando, ad depositionem corporis, nec ad
+					<lb/>aliquas suas obsequias, et hoc paena, pro qualibet persona vicina contrafaciente,
+					<lb/>librarum trium imperialium; item quilibet vicinus dicti loci
+					<lb/>teneatur et debeat associare illum, qui dolorem sustinebit, ad domum
+					<lb/>suam; et quilibet vicinus caput domus teneatur esse ad suam sepulturam,
+					<lb/>sub paena soldorum quinque irremissibiliter auferenda; et quilibet
+					<lb/>fide dignus possit accusare. Quarum paenarum suprascriptarum contentarum
+					<lb/>in praesenti capitulo, medietas deveniat Communi Mergotii et
+					<lb/>alia medietas luminariae Ecclesiae sanctissimae Virginis Mariae eiusdem
+				<lb/>loci.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[59]</head> <p>Item statuerunt quod consules Mergotii teneantur haec statuta facere
+					<lb/>scribi in carta, bene et ordinate dupplicata, et quod unus liber dictorum
+					<lb/>statutorum stet paenes consules, pro estendendo cuilibet, si
+					<lb/>expedierit, et alter liber stet paenes dominum praesbyterum ecclesiae
+					<lb/>sanctae Mariae, et servetur in suo scripneo, vel arcono, ubi libri ecclesiae
+					<lb/>praedictae stant; et nullus debeat tradere, nisi de conscientia totius
+					<pb n="74"/>
+					<lb/>credentiae; et sit in casu quod statuta ammitterentur, vel devastarentur,
+					<lb/>vel corrumperentur, quod semper recursum possint habere ad illa
+					<lb/>quae erunt servata paenes praedictum dominum praesbyterum, ne deceptio,
+					<lb/>nec quaestio, inter vicinos possit oriri. Et praedicti consules teneantur
+					<lb/>adimplevisse omnia, hinc ad mensem unum proxime futurum,
+					<lb/>sub paena soldorum viginti imperialium pro quolibet ipsorum expensis
+				<lb/>dicti Communis.</p>
+				<p><lb/>Ioannes Crodi scripsit. Deo gratias amen.</p>
+			</div>
+		</div>
+		<div>
+			<p><lb/>Millesimo trecentesimo septuagesimo octavo, indictione prima, die
+				<lb/>veneris quinto novembris, Ubertus de Marliano, vicarius Vogoniae. Visis
+				<lb/>per nos et diligenter examinatis suprascriptis statutis, ordinamentis,
+				<lb/>et omnia quae continentur in ipsis, tenore praesentium omnia praedicta
+				<lb/>statuta atque ordinamenta et quae continentur in eis, in quantum non
+				<lb/>sint contra honorem, statum, decreta, atque ordinamenta illustris et magnifici
+				<lb/>domini domini Galeaz vicecomitis, comitis Virtutum, Mediolani
+				<lb/>et cetera, imperialis vicarii generalis, et contra fidem catholicam, etiam
+				<lb/>contra nostrum honorem, omnia ea ratificamus, approbamus et laudamus
+				<lb/>et auctoritatem nostram eo casu interponimus et decretum, salva
+				<lb/>semper nobis auctoritate et baylia ipsa statuta et ordinamenta cassandi,
+				<lb/>corrigendi, addendi et diminuendi, sicut nobis videbitur opportunum.
+			<lb/>Subscriptum cum signo tabellionatus anteposito.</p>
+			<p><lb/>Ego Francischolus de Torgio notarius curiae Vogoniae, antedictam
+				<lb/>confirmationem, mandato dicti Domini vicarii, scripsi et me subscripsi.
+				<lb/>Nos Galeaz vicecomes, comes Virtutum, Mediolani et cetera, imperialis
+				<lb/>vicarius generalis, fecimus videre et diligenter examinare statuta
+				<lb/>et ordinamenta Communis Mergotii suprascripta per egregios et sapientes
+				<lb/>viros dominos Rizardum de Villanova consiliarium, Iohannem de Carnago,
+				<lb/>et Ardizinum de Bombellis legum doctores, vicarios nostros dilectos,
+				<pb n="75"/>
+				<lb/>et, ut iidem consiliarii et vicarii nostri nobis retulerunt, dicta statuta
+				<lb/>et ordinamenta satis convenientia videntur. Decernimus, volumus, et
+				<lb/>mandamus quod dicta statuta et ordinamenta, obtinentia roboris firmitatem
+				<lb/>per omnes potestates, capitaneos et vicarios et officiales nostros,
+				<lb/>observentur et per illos, ad quos spectat vel spectabit, faciant inviolabiliter
+				<lb/>observari, retinentes tamen in nobis bayliam dicta statuta et ordinamenta
+				<lb/>moderandi, corrigendi, addendi, minuendi, cassandi et revocandi, prout
+				<lb/>et sicut nobis visum fuerit expediens; in quorum testimonium praesentes
+				<lb/>fieri iussimus et registrari nostrique sigilli munimine roborari.
+				<lb/>Datum Papiae, die decimo Martii, millesimo trecentesimo septuagesimo
+			<lb/>nono, secunda indictione.</p>
+			<p><lb/>Subscriptum Andriolus.</p>
+			<p><lb/>Locus sigilli.</p>
+		</div>
+		<div>
+			<p><lb/>Dux Mediolani et cetera, Papiae Angleriaeque comes. Videri et examinari
+				<lb/>fecimus statuta vestrum Communis et hominum Mergotii praesentibus
+				<lb/>alligata, quae confirmavimus et confirmamus per praesentes,
+				<lb/>contenti quod ea observetis et observari faciatis ad litteram, prout iacent.
+				<lb/>Datum Mediolani, die vigesimo tertio Maii 1421. Ioannes Franciscus.
+				<lb/>A tergo nobili viro capitaneo nostro communis Angleriae, necnon
+			<lb/>consulibus communi et hominibus Mergotii.</p>
+			<p><lb/>Subscriptum cum signo tabellionatus anteposito.</p>
+		</div>
+		<div>
+			<p><lb/>Ego Iacobinus de Cambiago, filius domini Francischoli, cancellarius
+				<lb/>praefati domini capitanei, mandato praefati domini capitanei praedictas
+				<lb/>literas ab autentico exemplavi, ut supra, et suprascriptae divulgationi
+				<lb/>de eis literis factae praesens fui, et in testimonium praemissorum scripsi
+				<lb/>et me subscripsi signumque meum in instrumentis apponi consuetum
+			<lb/>apposui, et in hoc volumine statutorum, mandato suprascripto, registravi.</p>
+			<pb n="76"/>
+			<div type="chapter">
+				<head><lb/>[60]</head> <p>Per homines Communis Mergotii, supplicando dominationi vestrae,
+					<lb/>requiritur quod, cum in eorum statutis, quae confirmari petierunt, adsint
+					<lb/>statutum secundum decimum et quartum decimum facientia mentionem
+					<lb/>de solutione quae fienda est per transeuntes cum mercantiis et rebus, in
+					<lb/>quibus duobus statutis nulla ponitur paena iis, qui contrafacerent in non
+					<lb/>solvendo pro ipsis mercantiis et rebus datia ordinata, et sic liberius et
+					<lb/>ad libitum fraus in ipsis datiis committitur, fiat in eisdem statutis additio
+					<lb/>de aliqua paena in contrafacientes, ut puta, quod in casu contrafactionis
+					<lb/>ammittant mercantias et res de et pro quibus contrafecissent, cuius
+					<lb/>paenae tertia pars applicetur camerae illustris et excellentis communitatis,
+					<lb/>tertia pars incantatoribus datiorum, et reliqua tertia pars Communi
+					<lb/>Mergotii; et in ipso quartodecimo statuto, ubi agitur de solutione datii,
+				<lb/>addendo declaretur quod eius datii solutio ad portum de Albo fieri debeat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[61]</head> <p>Item cum a terra Vogoniae, cuius iurisdictioni subsunt, pluribus
+					<lb/>milliaribus distent et per eorum statuta antiquissima, per ducalem dominationem
+					<lb/>confirmata, consules dictae terrae possint ius reddere ad
+					<lb/>summam usque librarum decem imperialium, augeatur huiusmodi iurisdictio
+					<lb/>et auctoritas ad quantitatem librarum viginti quinque imperialium,
+					<lb/>ne pro qualibet minima re causam habeant Vogoniam accedendi, quod
+				<lb/>eis nimio disturbio cedit et impensae.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[62]</head> <p>Item quod in volumine statutorum addantur et inserantur alia duo
+					<lb/>statuta, per ipsos homines et Commune anno proxime praeterito currente
+					<lb/>1446 compilata, quae una cum praesentibus in authentica forma
+					<lb/>exhibentur, eaque simul cum dictis aliis statutis approbentur et confirmentur
+				<lb/>validenturque temporibus perpetuis observanda.</p>
+				<p><lb/>Quae quidem statuta, de quíbus supra fit mentio, sunt haec, videlicet</p>
+			</div>
+			<pb n="77"/>
+			<div type="chapter">
+				<head><lb/>[63]</head> <p>In primis syndici, consules, credentiariique maior pars hominum
+					<lb/>et singularum personarum et vicinorum totius Communis Mergotii congregati
+					<lb/>subtus porticum commune Sancti Quirici de Mergotio pro infrascriptis
+					<lb/>ordinibus et statutis specialiter faciendis, statuerunt et
+					<lb/>ordinaverunt unanimiter et concorditer quod si aliqua persona dicti loci
+					<lb/>Mergotii et aliorum locorum suppositorum dictae terrae Mergotii, cuiuscunque
+					<lb/>conditionis sit, a modo in antea fecerit seu commiserit quaestionem,
+					<lb/>rixam, ferutam seu homicidium in loco et territorio Mergotii,
+					<lb/>et in aliis locis et territoriis suppositis dictae terrae Mergotii, propter
+					<lb/>quas rixam, quaestionem, ferutam seu homicidium dictum Commune
+					<lb/>et homines Mergotii et alia loca supposita, utsupra, pati et substinere
+					<lb/>contingerint aliquas expensas, seu damna, quod illa persona et personae
+					<lb/>committentes et facientes, et qui committet et faciet, ac committent et
+					<lb/>facient, dictam quaestionem, rixam, ferutam et homicidium, utsupra,
+					<lb/>teneantur ad omnes expensas et damna, quae et quas ipsum Commune
+					<lb/>et homines cum eorum pertinentiis pati contingerint cum occasionibus
+					<lb/>praedictis, et compelli possint, summarie et de plano, sola facti veritate
+					<lb/>inspecta, per consules dicti loci Mergotii, seu eorum syndicum, ad restitutionem
+					<lb/>dictarum expensarum ac damnorum, et possint ipsi consules
+					<lb/>et syndici in solutum accipere tot de bonis dictarum personarum sic committentium
+					<lb/>et facientium, quae sufficiant ad quantitatem dictarum expensarum
+					<lb/>et interesse, non obstantibus aliquibus statutis et ordinamentis
+				<lb/>in contrarium facientibus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>[64]</head> <p>Item statuerunt et ordinaverunt quod omnes debitores dicti Communis
+					<lb/>Mergotii, tam pro incantis, quam pro aliis rebus, teneantur et debeant
+					<lb/>facere debitam solutionem de eo, de quo sunt debitores dicti
+					<lb/>Communis ad terminum limitatum et ordinatum; quod si non fecerint
+					<lb/>et contingerit dictum Commune et homines, seu eorum consules et canevarios,
+					<lb/>seu alterum eorum litigare, agere et petere contra dictos debitores
+					<lb/>dicti Communis pro consequendo solutionem ab ipsis hominibus
+					<lb/>debitoribus de dictis debitis et facere aliquas expensas, quod dictum Commune
+					<pb n="78"/>
+					<lb/>et homines non teneantur ad aliquas expensas factas per dictos
+					<lb/>consules, seu canevarios, in petendo et exigendo dicta debita, sed teneantur
+					<lb/>ipsi dare debentes dicto Communi ad omnes expensas factas
+					<lb/>per dictos consules et canevarios, et cogi possint realiter et personaliter
+				<lb/>ad restitutionem dictarum expensarum.</p>
+			</div>
+		</div>
+		<div>
+			<p><lb/>Capitanei et defensores libertatis illustris et excelsae communitatis
+			<lb/>Mediolani.</p>
+			<p><lb/>Visis et diligenter examinatis statutis vestrum Communis et hominum
+				<lb/>Mergotii praesentibus alligatis, quae quinquaginta novem capitulis compraehensa
+				<lb/>sunt, visisque confirmationibus alias per illustrissimos dominos,
+				<lb/>quondam duces nostros, de eiusmodi statutis factis, nec non duobus
+				<lb/>ordinamentis per vos nuper conditis et ultimo loco descriptis, eadem statuta
+				<lb/>et ordinamenta confirmanda duximus et serie praesentium confirmamus
+				<lb/>contentamurque quod eaad contextum, prout iacent, observetis
+				<lb/>et observari faciatis. Datum Mediolani, die tertio Aprilis 1448.
+				<lb/>Marcolinus. A tergo: Prudentibus viris potestati Vogoniae nec non consulibus
+			<lb/>et hominibus Mergotii nostris dilectis.</p>
+			<p><lb/>Ego Ioannes de Seregnio, notarius et scriba in cancellaria praefatorum
+				<lb/>dominorum dominorum capitaneorum et defensorum, ab originali
+				<lb/>praedictas literas praedicti tenoris confirmatorias statutorum in praesenti
+				<lb/>volumine compraehensorum ab originalibus fideliter exemplavi, et
+			<lb/>in testimonium praemissorum me subscripsi.</p>
+			<p><lb/>Victalianus Borromaeus Aronae comes et cetera. Visis et diligenter examinatis
+				<lb/>statutis vestrum Communis et hominum Mergotii in praesenti
+				<lb/>libro superius descriptis et registratis, visisque confirmationibus per illustrissimos
+				<lb/>dominos, quondam duces nostros, de eiusmodi statutis factis,
+				<lb/>illa omnia confirmavi et confirmo per praesentes, contentus quod
+				<lb/>ea observetis et ad litteram, prout iacent, observari faciatis. Datum, sub
+			<lb/>fide mei magni sigilli, die vigesimo octavo Iunii 1449.</p>
+			<pb n="79"/>
+			<p><lb/>Ghirardus.</p>
+			<p><lb/>Locus sigilli et cetera.</p>
+		</div>
+		<div>
+			<p><lb/>Ioannes miles, ducalisque consiliarius, et Vitalianus Borromaei Aronae
+				<lb/>comites et cetera. Visis et diligenter examinatis statutis vestrum Communis
+				<lb/>et hominum Mergotii in praesenti libro superius descriptis et
+				<lb/>registratis, visisque confirmationibus per illustrissimos dominos, quondam
+				<lb/>duces nostros, et per magnificum, quondam avum nostrum, comitem
+				<lb/>Vitalianum Borromaeum, de eiusmodi statutis factis, illa omnia
+				<lb/>confirmavimus et praesentium tenore confirmamus, contenti quod ea
+				<lb/>observetis et ad litteram, prout iacent, observari faciatis, salvo tamen
+				<lb/>iure superioritatis nostrae statuta ipsa moderandi, corrigendi, addendi,
+				<lb/>minuendi, cassandi et revocandi, prout expediens erit et nobis visum
+				<lb/>fuerit. Datum Mediolani, sub fide nostri sigilli magni, die 14 mensis Aprilis
+			<lb/>1470. Franciscus et cetera.</p>
+			<p><lb/>Locus sigilli et cetera.</p>
+		</div>
+		<div>
+			<p><lb/>Philippus Borromaeus Aronae comes. Videri et diligenter examinari
+				<lb/>fecimus statuta vestrum Communis et hominum terrae nostrae Mergotii
+				<lb/>et matura et bene digesta deliberatione praehabita ipsa statuta in praesenti
+				<lb/>libro registrata et descripta. Visis confirmationibus per illustrissimos
+				<lb/>duces nostros de huiusmodi statutis factis, ac etiam visis confirmationibus
+				<lb/>maiorum nostrorum de praedictis statutis factis, illa omnia confirmamus
+				<lb/>et approbamus, salvo tamen iure superioritatis nostrae statuta ipsa
+				<lb/>moderandi, corrigendi, addendi, diminuendi, cassandi, derogandi et revocandi,
+				<lb/>prout expediens fuerit et nobis placuerit; et tenore praesentium
+				<lb/>contenti sumus quod ea observetis ad literam, prout iacent, et observari
+				<lb/>faciatis, aliquibus in contrarium attentis non obstantibus, quibus omnibus
+				<lb/>derogamus ex nostra scientia et plenitudine potestatis nostrae. Datum
+				<lb/>in arce Vogoniae, die 24 Ianuarii 1505, sub fide nostri consueti sigilli.
+			<lb/>Michael Angelus de Pistorio.</p>
+			<p><lb/>Locus sigilli.</p>
+		</div>
+		<pb n="80"/>
+		<div>
+			<p><lb/>Concordat cum copia autentica, penes consules et regentes Communitatis
+				<lb/>Mergotii et in cancellaria eiusdem existente, per me visa, lecta et collacionata,
+				<lb/>moxque restituta, et pro fide cum signo mei tabelionatus anteposito subscripsi
+				<lb/>hac die 26 novembris 1697. Carolus Ambrosius Agnesinus, publica
+				<lb/>appostolica imperialique auctoritatibus collegii? Mediolani notarius.
+			<lb/>examinatus de Caraffa?.</p>
+		</div>
+	</body>
+</text>
+</TEI>

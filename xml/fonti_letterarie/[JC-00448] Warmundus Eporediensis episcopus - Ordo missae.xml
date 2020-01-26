@@ -1,0 +1,666 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ordo missae</title>
+				<author>Warmundus Eporediensis episcopus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>B. Baroffio</name>
+                                        <name>F. Dell'Oro</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3082" unit="words">Parole: 3082</measure>
+				<measure quantity="18517" unit="characters_without_spaces">Caratteri (spazi esclusi): 18517</measure>
+				<measure quantity="21192" unit="characters_witht_spaces">Caratteri (spazi inclusi): 21192</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-09-15">15/09/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Liturgia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 3130
+					Caratteri: 18767
+					&lt;-&gt; indicano integrazioni congetturali degli editori
+					(-) indicano scioglimento di compendio
+					Correzioni al testo: 
+					p. 811: 16 riga 9 familiam] familan <hi rend="italic">ed.</hi>
+				GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>B. Baroffio</editor>
+						<editor>F. Dell'Oro</editor>
+						<title>L' "Ordo Missae" del vescovo Warmondo d' Ivrea</title>
+					</analytic>
+					<monogr>
+						<title level="j">Studi medievali, s. III</title>
+						<imprint>
+							<date>1975</date>
+							<biblScope unit="volume">16</biblScope>
+							<biblScope unit="page">795-823</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Liturgia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-non so con certezza come fare la struttura. Si tratta di un ordo missae, quindi il testo consiste in una serie di istruzioni che descrivono cosa il vescovo deve fare (tipo: "Cum venerit ante altare dicat hanc orationem") e degli stessi testi che deve pronunciare ("Deus qui de indignis dignos facis. de peccatoribus &amp;lt;iustos. de&amp;gt; inmundis... ...). Spesso però succede che ad una istruzione siano collegati più testi, che poi sono introdotti, ad esempio, con "ALIA ORATIO", "ALIA" etc. Per questo motivo ho marcato tutte le istruzioni al livello &lt;div1&gt; e tutti i testi in loro contenuti al livello &lt;div2&gt;, anche se non hanno un loro titolo specifico (come e. g. "ALIA ORATIO"). Dato che ho seguito con coerenza questo criterio, si trovano anche casi un po' assurdi:
+&lt;div1&gt;&lt;p&gt;Perlecto ewangelio dicat episcopus&lt;/p&gt;
+   &lt;div2&gt;&lt;p&gt;Pax tibi&lt;/p&gt;&lt;/div2&gt;
+&lt;/div1&gt;
+Con &lt;head&gt; ho marcato solo i "titoli" scritti in maiuscola come "ALIA ORATIO" e "ALIA", ma anche questo non mi piace molto. In alcuni casi le istruzioni potrebbero essere marcate con &lt;head&gt; ("Oratio sacerdotis ante altare"), ma sono più frequenti i casi in cui questo tipo di markup non andrebbe bene ("Lavatis autem manibus ad altare ascendat et cum humilitate dicat hanc orationem.").
+
+In breve, è un testo molto complicato da codificare...
+
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="809"/>
+		<div>
+			<head><lb/><hi rend="italic">INCIPIT ORDO QUALITER EPISCOPUS AD MISSAM
+			<lb/>SE PREPARARE DE&lt;BEAT&gt;</hi></head>
+			<div>
+				<head><lb/><hi rend="italic">EPISCOPUS CUM SE AD MISSAM PARAT CANTET
+				<lb/>TRES PSALMOS CUM CIRCUMSTANTIBUS CLERICIS</hi></head>
+				<p><lb/>Quam dilecta tabernacula. Benedixisti domine terram. Inclina
+				<lb/>domine.</p>
+				<div>
+					<head><lb/><hi rend="italic">PRECES</hi></head>
+					<p><lb/>Ostende nobis domine. Et salutare tuum da nobis.</p>
+					<p><lb/>Fiat misericordia tua domine super nos. Quemadmodum speravimus
+					<lb/>in te.</p>
+					<p><lb/>Ne reminiscaris domine delicta. Neque vindictam sumas de &lt;peccatis
+					<lb/>nostris&gt;.</p>
+					<p><lb/>Ne intres in iudicium cum &lt;servo tuo domine&gt;. Quia non iustificabi&lt;tur&gt;.
+						<lb/>Domine averte faciem tuam. Et omnes iniquitates &lt;meas dele&gt;.
+						<lb/>Ab occultis meis munda &lt;me domine&gt;. Et &lt;ab alienis parce servo
+						<lb/>tuo&gt;
+					<lb/>Propitius esto peccatis. Nequando dicat inimicus.</p>
+					<p><lb/>Exurge domine adiuva &lt;nos&gt;. Et libera nos propter nomen tuum.
+					<lb/>Domine exaudi orationem meam. Et clamor meus &lt;ad te veniat&gt;.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ORATIO</hi></head>
+					<p><lb/>Aufer a nobis quaesumus domine iniquitates nostras ut ad sancta
+					<lb/>sanctorum puris mereamur mentibus introire. Per.</p>
+					<p><lb/>Fac me quaeso omnipotens deus ita iusticia indui. ut
+						<lb/>sanctorum tuorum merear exultatione laetari. quatinus emundatus
+						<lb/>ab omnibus sordibus peccatorum consortium adipiscar tibi placentium
+						<lb/>sacerdotum meque tua misericordia a viciis omnibus exuat.
+					<lb/>quem reatus propriae conscientiae gravat.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA.</hi></head>
+					<p><lb/>Aures &lt;tuae pietatis mitissime deus&gt; inclina precibus meis et
+						<lb/>gratia sancti spiritus inlumina cor meum ut tuis mysteriis digne ministrare
+					<lb/>aeterna caritate diligere merear. Per. &lt;in unitate&gt; eiusdem.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Cum venerit ante altare dicat hanc orationem</hi></p>
+				<div>
+					<p><lb/>Deus qui de indignis dignos facis. de peccatoribus &lt;iustos. de&gt; inmundis
+						<lb/>&lt;mundos. mu&gt;nda cor &lt;et corpus meum&gt; ab omni cogitatione
+						<lb/>et sorde peccati. et fac me dignum sanctis altaribus tuis mynistrum.
+						<lb/>et concede propitius. ut in hoc altari ad quod indignus accedo.
+						<lb/>hostias acceptabiles offeram pietati tuae pro peccatis atque offensionibus
+						<lb/>meis et innumeris cottidianis excessibus et grege mihi commisso.
+						<lb/>et famulo tuo N. coniugeque ac populo sibi subiectoet. om&lt;nium&gt;
+						<lb/>circumstantibus omnibusque mihi familiaritate coniunctis
+						<pb n="810"/>
+						<lb/>atque omnibus me odio execrabili insectantibus et aecclesiae mihi
+						<lb/>commissae adversantibus. benefactoribus. senioribus. atque amicis.
+						<lb/>cunctisque fidelibus christianis. et per eum sit tibi votum atque
+						<lb/>&lt;sa&gt;crifitium accepta&lt;bi&gt;le qui se tibi deo pa&lt;tri&gt; optulit in sacrifi&lt;tiu&gt;m
+					<lb/>Ihesus Christus.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Deus misericordiae et veritatis clementiam tuam suppliciter
+						<lb/>depraecor ut mihi miserrimo innumerabilium veniam concedas peccatorum
+						<lb/>quibus iram tuae potentiae provocavi. quatinus te miserante
+						<lb/>in hac vita secundum &lt;tuam&gt; volunta&lt;tem&gt; purgatus ad beatitu&lt;dinis&gt;
+						<lb/>aeternae partici&lt;patio&gt;nem pertingam. Cunctis
+						<lb/>etiam in corpore viventibus sive extra corpus manentibus qui mihi
+						<lb/>spirituali vel carnali coniunctione coherent vel coheserunt. Et qui se
+						<lb/>mihi confitendo vel rogando commendaverunt necnon et quorum
+						<lb/>pecuni&lt;as vel&gt; helemosinas susce&lt;pi ve&gt;l qui per meam &lt;negle&gt;gentiam
+						<lb/>seu mal&lt;itiam co&gt;rru&lt;p&gt;ti sunt. manum misericordiae
+						<lb/>tuae porrigas. et per ineffabilem largitatem tuam. optatam ei indulgentiam
+						<lb/>peccatorum concedas. et ad requiem beatorum digneris
+					<lb/>perducere. Per.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Deinde dicat hanc confessionem</hi></p>
+				<div>
+					<p><lb/>Domine deus omnipotens qui es trinus et unus. et ubique praesens.
+						<lb/>tibi confiteor omnia peccata mea quae tamen si non confiterer
+						<lb/>latere non poterant. quia peccavi nimis in cogitationibus locutionibus
+						<lb/>diversisque operibus malis. Et quia ego miser et miserabilis domine
+						<lb/>propter duritiam cordis mei in ipsa peccatorum meorum morte quod
+						<lb/>est peius perduro &lt;praeco&gt;r te miserere &lt;mei&gt;. Qui vivis &lt;et regnas&gt;.
+						<lb/>Conscientia quidem trepidi omnipotens deus ad altare tuum
+						<lb/>accedimus. sed fiduciam de tuae pietatis misericordia retinemus. et
+						<lb/>licet ad celebranda sacrificia semper i&lt;n&gt;veniamur i&lt;ndigni&gt;. si recedimus
+						<lb/>&lt;veremur&gt; de in&lt;hoboedientia condempnari. Pro qua&gt;
+						<lb/>re dignare nos pietate paterna. placato vultu respicere. et cordis
+						<lb/>nostri interiora purgare. Et si nos pondere peccatorum nostrorum ac
+						<lb/>reatu constringimur. nostrarum tamen praecum obtentu tibi sint
+						<lb/>quaesumus domine in omnibus placita mysteria consecranda. &lt;per
+					<lb/>te&gt; gloriosa et &lt;adora&gt;bilis trinitas. &lt;Qui vivis et&gt; regnas in.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Hac dicta osculetur diaconos et presbyteros et per se vadat ad
+					<lb/>altare cum psalmo</hi>
+				<lb/>Iudica me deus et discerne causam meam de gente (non sancta).</p>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Cum introvenerit ad altare dicat hanc orationem</hi></p>
+				<div>
+					<p><lb/>Omnipotens sempiterne deus misericordiam tuam nobis placatus
+						<lb/>inpende. Ut qui te contempnendo culpam incurrimus confitendo
+					<lb/>veniam consequamur Per.</p>
+				</div>
+				<pb n="811"/>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Omnipotens sempiterne deus qui me peccatorem sacris altaribus
+						<lb/>adstare voluisti et sancti nominis tui laudare potentiam. Concede
+						<lb/>quaesumus per huius sacramenti mysterium meorum mihi veniam
+					<lb/>peccatorum &lt;ut tuae&gt; maiestati di&lt;gne min&gt;istrare me&lt;rear. Per&gt;.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Tunc erigatur episcopus ac osculetur ewangelium</hi></p>
+				<div>
+					<p><lb/>Pax Christi quam nobis per ewangelium suum tradidit confirmet
+					<lb/>et conservet corda et corpora nostra. In vitam aeternam.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Interim quando</hi> Gloria in excelsis deo <hi rend="italic">decantatur dicat has orationes</hi>
+					<lb/>Deus qui non mortem sed &lt;poeni&gt;tentiam &lt;de&gt;side&lt;ras peccatorum
+					<lb/>me miserum fragilemque&gt; peccatorem a tua non repellas
+					<lb/>pietate neque aspicias ad scelera mea et inmundicias turpesque cogitationes
+					<lb/>quibus flebilis a tua disiungor voluntate. sed misericordias
+					<lb/>tuas et fidem devotionemque eorum qui per me peccatorem tuam
+					<lb/>misericordiam expetunt. et quia me medium inter te et popu&lt;lum
+					<lb/>fieri&gt; voluisti. fac &lt;me talem ut&gt; digne &lt;possim tuam exorare&gt;
+					<lb/>misericordiam pro me et pro eodem populo tuo. et adiunge voces
+					<lb/>nostras vocibus sanctorum angelorum tuorum. ut sicut te laudant
+					<lb/>ineffabiliter in eterna beatitudine ita nos quoque eorum interventu
+				<lb/>mereamur te laudare inculpabiliter in hac peregrinatione. Per.</p>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Accusatio sacerdotis ante altare antequam incipiat canere</hi></p>
+				<div>
+					<p><lb/>Domine Ihesu Christe redemptor mundi propitius esto mihi
+						<lb/>peccatori. omnibus modis in peccatis iacenti quia tu solus dominus
+						<lb/>deus noster inmortalis es et sine peccato indulge mihi miserrimo
+						<lb/>praesumenti accedere ad sanctum &lt;alta&gt;re tuum invoca&lt;re te&gt; quia
+						<lb/>peccavi &lt;ab infanti&gt;a mea &lt;usque nunc cora&gt;m te et coram
+						<lb/>omnibus sanctis tuis. Sed per illorum intercessionem tribue mihi
+						<lb/>divinam clementiam veniamque delictorum meorum. et doce me facere
+					<lb/>voluntatem tuam omnibus diebus vitae meae. Per.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Oratio sacerdotis ante altare</hi></p>
+				<div>
+					<p><lb/>Clementissi&lt;me Christe inpenetrabili&gt; maiestati tuae tremenbundus
+						<lb/>assisto. Dum multifaria ac noxia in me accusantia crimina
+						<lb/>recognosco. Debita altaribus tuis indignus sacrificia offerre praesumo.
+						<lb/>qui ante tuae maiestatis praesentiam iaceo corpore. cor&lt;de&gt; menteque
+						<lb/>pollu&lt;tus&gt;. Habes inter haec &lt;tuum anti&gt;dotum &lt;Christe. quo
+						<lb/>sanare&gt; bone medice vulnera nosti. Conscriptum queso contra
+						<lb/>me arbiter alme dele cyrographum ne ultor in me sui peccati ultra
+						<lb/>valeat exigere nummum. Et hoc a tua clementia indigno ore
+						<lb/>menteque deposco. ut sereno familiam tuam sacri tui nominis &lt;of&gt;fitia
+						<lb/>pra&lt;estolantem&gt; digneris aspi&lt;cere&gt; vultu. &lt;ne per me indignum
+						<lb/>eorum salutis pereat praetium. pro quibus dignatus es tuo
+						<lb/>sancto sanguine esse redempto. Sed tua nos semper ubique protectione
+						<pb n="812"/>
+						<lb/>conserva. ut quos praetioso sanguine redemisti in terris. aeterna
+						<lb/>facias cum sanctis tuis gloria munerari in celis. &lt;Quod ipse&gt; presta&lt;re
+					<lb/>digneri&gt;s qui.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA ORATIO</hi></head>
+					<p><lb/>Omnipotens sempiterne deus qui tua clementia visitasti nos
+						<lb/>in miseratione et misericordia. per Ihesum Christum filium tuum dominum
+						<lb/>deum redemptorem nostrum. et donasti fiduciam nobis humillimis
+						<lb/>peccatoribus. et indignis servis tuis &lt;ad&gt;sistere ante sanctum
+						<lb/>&lt;alta&gt;re tuum offer&lt;entes tibi rationabile istud&gt; et inmaculatum
+						<lb/>sacrifitium pro nostrorum crimine peccatorum. et pro
+						<lb/>populi tui ignorantia. respice propitius super me inutilem servum
+						<lb/>tuum et dele facinora et peccata mea. Et munda labia mea et cor
+						<lb/>meum ab inquinamento cordis et corporis. et fac &lt;habun&gt;dare in me
+						<lb/>&lt;gratiam Christi tui&gt; et virtu&lt;tem spiritus sancti tui&gt; in sa&lt;crum
+						<lb/>ministerium&gt; istud. Et suscipe licet me indignum propter
+						<lb/>multitudinem bonitatis tuae accedentem ad sanctum altare tuum.
+						<lb/>et placatus ac benignus fac domine accepta fieri offerentium tibi
+						<lb/>dona ista ex manibus nostris. ad abiciendas et sanandas omnes nostras
+						<lb/>infirmitates. Et &lt;ne pro&gt;icias me &lt;a facie tua&gt; et ne &lt;despicias
+						<lb/>humilitatem&gt; fragilitatis meae. sed miserere mei misericors
+						<lb/>deus secundum misericordiam tuam. et secundum multitudinem
+						<lb/>miserationum tuarum dele iniquitatem meam. ut sine condempnatione
+						<lb/>introeam ante conspectum sanctitatis gloriae tuae. Et ut merear
+						<lb/>obumbrari gratia unigeniti filii tui et splendore &lt;spiritus sancti
+						<lb/>tui&gt; misere&lt;re mei ne ut serv&gt;us tuus &lt;peccati reprobus effici&gt;ar &lt;sed
+						<lb/>ut servus tuus fidelis&gt; inveniam gratiam et misericordiam
+						<lb/>tuam in conspectu tuo domine. et remissionem omnium peccatorum
+					<lb/>in hoc seculo et in futuro. Per eundem.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Deus omnipotens miserere ac propitius esto mihi supplici et peccatori
+						<lb/>famulo tuo. quia non sum sicut &lt;innumeri se&gt;rvi tui &lt;contemptu
+						<lb/>saeculi&gt; sub&lt;limes iusticiae. merito gloriosi. castitatis lau&gt;de
+						<lb/>angelici. Et sicut innumeri eorum qui post publica flagicia. poenitendo
+						<lb/>tibi meruerunt esse devoti. Qui si quid boni tua gratia largiente
+						<lb/>fecero. quo sine illud faciam quave a te districtione pensetur ignoro.
+						<lb/>Et ideo suppliciter misericordiam tuam de&lt;praecor&gt; clementissime
+						<lb/>&lt;pater. ut quo&gt;d meritis ob&lt;tinere non valeo&gt; tua gra&lt;tuita bonitate
+						<lb/>me a peccatorum meorum sordibus&gt; emundes. gratiamque
+						<lb/>sancti spiritus infundens. dona tua quae mihi inmerito contulisti
+						<lb/>conservare. et ea quae desunt iugiter digneris augere. quatinus
+						<lb/>me dignum tuis altaribus ministrum efficias. atque officium sacerdotale
+						<lb/>quod indignus caelebrare presumo. tibi semper acceptabiliter
+						<lb/>persolvere con&lt;cedas. Sacrifi&gt;tiumque &lt;meis manibus licet&gt; inm&lt;undis
+						<pb n="813"/>
+						<lb/>ad laudem tamen et honorem tui nominis obla&gt;tum dignanter
+					<lb/>accipias. Per Ihesum Christum dominum nostrum.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Rogo te altissime deus sabaoth pater sancte ut me tunica castitatis
+						<lb/>digneris accingere. et meos lumbos balteo tui timoris ambire. Renes
+						<lb/>cordis mei tuae caritatis igne &lt;urere. ut pro&gt; pec&lt;catis meis possim
+						<lb/>intercedere. et adstantibus veniam peccatorum promereri et pa&gt;cificas
+						<lb/>singulorum hostias immolare. Me quoque audacter ad
+						<lb/>altare tuum accedentem non sinas perire sed dignare lavare ornare
+					<lb/>et clementer suscipere. Per Ihesum Christum.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Indignum me domine tuis sacris altaribus esse fateor. quia innumeris
+						<lb/>cottidie &lt;pecca&gt;tis fusc&lt;or. quia ego&gt; te bl&lt;andis verbis rogare
+						<lb/>praesumo quem improbis sepissime fac&gt;tis offendo.
+						<lg>
+							<l>Tu enim medicinam ingeris egro.</l>
+							<l>ego sanitati meae contraria ago.</l>
+							<l>Legem tuam sacris inditam paginis lego.</l>
+							<l>sanam vero disciplinam infelix neglego.</l>
+							<l n="5">Ad tuum quidem altare quasi devotus accedo.</l>
+							<l>sed a praeceptis tuis contumaci corde recedo.</l>
+							<l>Da ergo mihi cor compun&lt;tum</l>
+							<l>quem ve&gt;raciter odio &lt;habeat peccatum&gt;.</l>
+							<l>Meum &lt;est si donaveris delicta deflere.</l>
+							<l n="10">tuum est ea et&gt; nubem cito delere.</l>
+							<l>ut licet palmam amiserim inimico fraudante</l>
+							<l>adveniam saltim per veniam te miserante. Per.</l>
+						</lg>
+					</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Cum incensum antequam legatur ewangelium in turibulum mittitur
+				<lb/>dicat episcopus</hi></p>
+				<div>
+					<p><lb/>Odore caelestis inspirationis suae accendat dominus et impleat corda
+						<lb/>nostra ad &lt;audienda et&gt; imple&lt;nda ewangelii sui&gt; pr&lt;ecepta&gt;. Qui
+					<lb/>&lt;vivit&gt;.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Deinde inclinanti diacono signum crucis in fronte faciendo dicat
+				<lb/>episcopus</hi></p>
+				<div>
+					<p><lb/>Benedictio dei patris et filii et spiritus sancti descendat super te et
+						<lb/>aperiat Christus dominus os tuum ad digne idoneeque pronuntiandum
+					<lb/>sanctum ewangelium suum.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Et illud</hi></p>
+				<div>
+					<p><lb/>Dominus sit in corde tuo et in labiis tuis.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Perlecto ewangelio dicat episcopus</hi></p>
+				<div>
+					<p><lb/>Pax tibi.</p>
+				</div>
+			</div>
+			<pb n="814"/>
+			<div>
+				<p><lb/><hi rend="italic">Cum vero ornatum fu&lt;erit altare ante&gt;quam accipiat oblationes</hi>
+					<lb/>presbyterorum et diaconorum dum cantabitur offertorium abluendo manus
+				<lb/><hi rend="italic">suas dicat hanc orationem</hi></p>
+				<div>
+					<head><lb/>ORATIO</head>
+					<p><lb/>Largire sensibus nostris omnipotens pater ut sicut exterius abluuntur
+						<lb/>inquinamenta manuum sic a te mu&lt;ndentur&gt; pollutiones mentium
+					<lb/>et crescat in nobis &lt;augmentum&gt; sanctarum &lt;virtutum&gt;.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Lavatis &lt;autem&gt; manibus &lt;ad altare ascendat&gt; et cum humilitate</hi></p>
+				<p><lb/><hi rend="italic">dicat hanc orationem</hi></p>
+				<div>
+					<p><lb/>Ante oculos tuos domine reus conscientiae testis assisto. rogare
+						<lb/>non audeo quod impetrare non mereor. Tu enim scis domine
+						<lb/>omnia quae aguntur in nobis. erubescimus confiteri quod per nos
+						<lb/>non timemus ammittere. verbis tibi tantum obsequimur corde &lt;mentimur&gt;.
+						<lb/>Et quod velle nos dicimus. nolle nostris actib&lt;us approba&gt;mus.
+						<lb/>Parce &lt;domine confitentibus&gt; tibi ignosce peccavimus. miserere te
+						<lb/>rogamus &lt;et&gt; quia in sacramentis tuis meus sensus infirmus
+						<lb/>est. Praesta domine ut qui ex nobis duri cordis verba non suscipis
+					<lb/>per temetipsum nobis veniam largiaris. Per.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Antequam sacramenta incipiantur</hi></p>
+				<div>
+					<p><lb/>Facturus memoriam salutaris hos&lt;tiae toti&gt;us mun&lt;di&gt; cum illius
+						<lb/>dig&lt;nitate et meam&gt; intueor foeditatem conscientia torqueor
+						<lb/>peccatorum. Verum quia tu deus multum misericors es imploro ut
+						<lb/>digneris mihi dare spiritum contribulatum quod tibi gratum sacrificium
+						<lb/>revelasti. ut eo purificatus vitali hostiae pias manus &lt;ammoveam&gt;
+						<lb/>quae omnia peccata aboleat. et ea deinceps &lt;in perpe&gt;tuum
+						<lb/>vi&lt;tandi cautelam infundat. omnibus pro quibus tibi offertur&gt;
+					<lb/>presentis et futurae salutis commertia largiatur. Per.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Ignosce domine quod dum rogare compellor dum per inmunda labia
+						<lb/>nomen sanctum tuum adsummo. et inmundorum actuum secre&lt;ta&gt;
+						<lb/>confiteor. non &lt;habeo apud te&gt; verba &lt;sine crimine&gt;. Tu enim &lt;conscientiae
+						<lb/>meae&gt; vulne&lt;ra nosti. Tu cogita&gt;tionum &lt;mearum occulta
+						<lb/>discernis. et inmunditias meas&gt; tu solus cognoscis. Miserere
+						<lb/>mihi domine. miserere mihi. ignosce mysterii tui secreta tractanti.
+						<lb/>nec indignum misericordiae tuae iudices quem pro aliis rogare permittis.
+						<lb/>et in quo testimonium boni operis non ignoscis. officium saltim
+						<lb/>dispensationis creditae non recuses &lt;salvator&gt; mundi qui cum pa&lt;tre
+					<lb/>et spiritu sancto vi&gt;vis et re&lt;gnas in saecula saeculorum. Amen&gt;.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">CONFESSIO</hi></head>
+					<p><lb/>&lt;Multi&gt;tudinem criminum et enormitatem scelerum meorum
+						<lb/>domine expavescens ac de tua pietate et omnia confidens tibi
+						<lb/>creatori et redemptori meo qui puram et lacrimabilem confessionem
+						<pb n="815"/>
+						<lb/>adsequi promisisti confiteor quia in peccatis concep&lt;tus in pecc&gt;atis
+						<lb/>natus &lt;et in peccatis post b&gt;aptis&lt;mum&gt; usque ad hanc horam
+						<lb/>sum conversatus. Operibus enim ac pompis diaboli quibus in
+						<lb/>baptismo abrenuntiaveram iterum ipso suadente me subdidi et in
+					<lb/>posterum turpiter semper et desidiose vixi.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Hanc beatus Ambrosius orationem &lt;composuit&gt; et eam anteq&lt;uam</hi>
+					<lb/>mis&gt;sam cael&lt;ebraret ve&gt;niam &lt;pro suis postulando peccatis cantare
+				<lb/><hi rend="italic">so&gt;lebat hoc &lt;modo dicens&gt;</hi></p>
+				<div>
+					<p><lb/>Suscipe sancta trinitas hanc oblationem quam tibi offero in
+						<lb/>memoriam incarnationis nativitatis passionis resurrectionis ascensionisque
+						<lb/>domini nostri Ihesu Christi et in honore omnium sanctorum
+						<lb/>tuorum qui tibi p&lt;lacuer&gt;unt ab initio mundi &lt;et eor&gt;um quorum
+						<lb/>hodie &lt;festivitas&gt; caelebratur et quorum &lt;hic no&gt;mina et &lt;reliquiae
+						<lb/>habentur&gt; ut illis &lt;proficiat ad honorem&gt; nobis autem ad salutem
+						<lb/>ut illi omnes pro nobis intercedere dignentur in caelis quorum
+					<lb/>memoriam facimus in terris. Per.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA PRO SE</hi></head>
+					<p><lb/>Suscipe sancta trinitas hanc oblationem quam tibi offero pro meis
+						<lb/>peccatis innumerabilibus quibus pe&lt;ccavi&gt; coram te in cogitationibus
+						<lb/>in dictis in factis &lt;ut praete&gt;rita mihi dimittas &lt;et de futuris me custodias
+						<lb/>pro sanitate&gt; etiam &lt;corporis et animae&gt; meae et pro
+						<lb/>gratiarum actione de tuis bonis quibus cotidie utor. Quid retribuam
+						<lb/>domino pro omnibus quae retribuit mihi? Calicem salutaris accipiam
+						<lb/>et nomen domini invocabo. Laudans invocabo dominum et ab inimicis
+					<lb/>meis salvus ero.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">PRO REGE</hi></head>
+					<p><lb/>Suscipe sancta trinitas hanc &lt;oblatio&gt;nem quam &lt;tibi offerim&gt;us
+						<lb/>pro im&lt;peratore nostro ill.&gt; et sua venerabili &lt;prole&gt; et statu regni
+						<lb/>nostri ac pro &lt;omni&gt; populo christiano et pro elemosinariis
+						<lb/>nostris et pro his qui nostri memoriam in suis continuis orationibus
+						<lb/>habent ut hic veniam peccatorum et in futuro praemia consequi
+					<lb/>mereantur aeterna.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ORATIO AD MUNUS OFFERENDUM</hi></head>
+					<p><lb/>Omnipotens sempiterne &lt;deus&gt; placabilis et &lt;acceptabilis sit tibi
+						<lb/>haec obla&gt;tio &lt;quam ego indig&gt;nus &lt;pro me peccatore et pro delictis
+						<lb/>meis innumera&gt;bilibus tibi offero. ut veniam et remissionem
+						<lb/>peccatorum meorum mihi concedas. et iniquitates meas ne
+						<lb/>dispexeris. sed sola tua misericordia prosit indigno. Per Christum
+					<lb/>dominum nostrum.</p>
+				</div>
+				<pb n="816"/>
+				<div>
+					<head><lb/><hi rend="italic">ALIA PRO SE ET PRO ALIIS FIDELIBUS</hi></head>
+					<p><lb/>Suscipe &lt;cle&gt;mentissime pater &lt;host&gt;ias placatio&lt;nis et lau&gt;dis quas
+						<lb/>ego &lt;indignus fa&gt;mulus &lt;et sacerdos&gt; tuus &lt;tibi offerre praesumo ad&gt;
+						<lb/>hono&lt;rem nominis tui&gt; deus. Offero tibi piissime et gloriosissime
+						<lb/>pater pro me nimio peccatore pro peccatis et neglegentiis meis.
+						<lb/>necnon et pro aecclesia tua sancta catholica et omnibus in ea consistentibus
+						<lb/>atque tuae pietati munus deferentibus. et pro omni nostra
+						<lb/>congregatione vel qui se in nostris commenda&lt;verunt orati&gt;onibus
+						<lb/>aut qui no&lt;bis suas largi&gt;ti sunt ele&lt;mosinas seu&gt; etiam pro ceteris
+						<lb/>fi&lt;delibus vivis&gt; scilicet ac def&lt;unctis ut quos pre&gt;cioso &lt;dignatus&gt; es
+						<lb/>filii tui sanguine redimere. fac eos perhenniter ad tuam beatitudinem
+					<lb/>pervenire. Per.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">PRO FAMILIARIBUS</hi></head>
+					<p><lb/>Omnipotens sempiterne deus placabilis et acceptabilis sit tibi haec
+						<lb/>oblatio quam ego indignus offero pro omnibus familiaribus meis amicis
+						<lb/>ill. &lt;et qui se comm&gt;endaverunt &lt;meis in&gt;dignis &lt;orationibus ut
+						<lb/>tuam misericordiam clementiamque consequi&gt; mereantur.
+					<lb/>Per.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ORATIO PRO INFIRMO</hi></head>
+					<p><lb/>Suscipe domine clementissime pater propitius munera quae tibi
+						<lb/>offero ad honorem nominis tui deus pro famulo tuo illo ut &lt;medelam&gt;
+					<lb/>tuam non &lt;solum in corpo&gt;re sed &lt;e&gt;tiam in anima sentiat. &lt;Per&gt;.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">PRO PLURIMORUM DEFUNCTORUM ANIMABUS</hi></head>
+					<p><lb/>Suscipe &lt;domine sancte pater omnipotens aeterne deus&gt; propi&lt;tius
+						<lb/>munera haec quae tibi offerimus pro&gt; animabus famulorum
+						<lb/>famularumque tuarum ill. quas de hoc saeculo migrare iussisti. ut per
+					<lb/>tuam inmensam pietatem liberare eas a gehenna digneris. Per.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Quando episcopus dicit ante secretam Orate pro me peccatore dicatur
+					<lb/>a circumstan&lt;tibus&gt;</hi> Orent pro &lt;te om&gt;nes sancti et electi d&lt;ei&gt;. Memor
+					<lb/>&lt;sit&gt; dominus omnis sacrifitii tui. Et Immola deo sacrifitium
+					<lb/>laudis. Et Redde (altissimo vota tua). Exaudiat te dominus pro
+					<lb/>nobis orantem. Misereatur tibi omnipotens deus et dimmittat tibi
+				<lb/>(omnia peccata tua).</p>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Postea cantentur hi psalmi usquedum</hi> Te igitur <hi rend="italic">finiatur.</hi>
+					<lb/>Exaudi&lt;at te dominus in die&gt;. Ad te domine &lt;levavi animam meam&gt;.
+					<lb/>Miserere mei &lt;deus secundum&gt; (magnam misericordiam tuam). Domine
+				<lb/>refu&lt;gium&gt;. Qui ha&lt;bitat&gt;.</p>
+				<pb n="817"/>
+				<div>
+					<head><lb/><hi rend="italic">PRECES</hi></head>
+					<p><lb/>Salvum fac servum tuum. Desiderium cordis eius. Vitam
+						<lb/>petiit ad te. Oculi mei semper. Fiat misericordia tua. Exurge domine
+					<lb/>adiuva nos. Domine exaudi orationem.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ORATIO</hi></head>
+					<p><lb/>Gaudeat quaesumus domine famulus tuus tua sem&lt;per&gt; benedictione
+						<lb/>confisus &lt;ut et&gt; temporalibus beneficiis adiu&lt;vetur et erudia&gt;tur
+					<lb/>aeter&lt;nis. Per&gt;.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Precibus nostris &lt;quaesumus domine aurem&gt; tuae pietatis &lt;accom&gt;moda
+						<lb/>et orationes supplicum occultorum cognitor benignus
+					<lb/>exaudi ut te largiente ad vitam perveniant sempiternam. Per.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Expleta missa secretorum et oratione dominica cum dixerit</hi> Pax domini
+				<lb/><hi rend="italic">misceatur corpus domini cum sanguine et dicatur</hi></p>
+				<div>
+					<p><lb/>H&lt;aec sacrosancta commixtio corporis et sanguinis domini nostri&gt;
+						<lb/>Ihesu Christi fiat omnibus sumentibus salus mentis et corporis
+					<lb/>ad aeternam vitam capescendam preparatio salutaris. Per.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Fiat commixtio corporis et sanguinis domini nostri Ihesu Christi
+					<lb/>accipientibus omnibus nobis &lt;in vitam aeter&gt;nam. Per dominum.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">&lt;Ante perce&gt;ptionem eucharistiae oratio</hi></p>
+				<div>
+					<p><lb/>Domine Ihesu Christe &lt;fili dei vivi qui ex voluntate patris cooperante&gt;
+						<lb/>spiritu sancto per mortem tuam mundum vivificasti
+						<lb/>libera me per hoc sanctum corpus et sanguinem tuum a cunctis iniquitatibus
+						<lb/>et universis malis et fac me tuis oboedire praeceptis et
+					<lb/>a te nunquam in perpetuum separari. Qui.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Fiat mihi domine Ihesu &lt;hoc sacramen&gt;tum &lt;tuum ad viscera misecordiae
+						<lb/>tuae et gratiam salutis ad sanitatem animae et corporis ut
+						<lb/>non ad iudicium&gt; illud sed ad remedium percipere merear
+					<lb/>salvator.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">POST PERCEPTIONEM</hi></head>
+					<p><lb/>Gratias tibi ago domine qui me peccatorem satiare dignatus es corpore
+						<lb/>et sanguine domini nostri Ihesu Christi. Et ideo peto omnipotens
+						<lb/>deus &lt;ut haec sacrosancta&gt; commixtio &lt;sit mihi robur&gt; fidei et scutum
+						<lb/>&lt;bonae&gt; voluntatis &lt;ad evacuandas omnes insidias diaboli de
+						<lb/>corde et corpore meo et illud introire&gt; convivium me peccatorem
+					<lb/>permittas ubi lux vera est et gaudia sempiterna iustorum. Per.</p>
+				</div>
+				<pb n="818"/>
+				<div>
+					<head><lb/><hi rend="italic">ALIA</hi></head>
+					<p><lb/>Corpus tuum quod sumpsi domine deus meus Ihesu Christe et sanctus
+						<lb/>sanguis tuus quem potatus sum &lt;adhaereat visce&gt;ribus meis et
+						<lb/>&lt;non veniet mihi&gt; ad iu&lt;dicium neque ad condemnationem poenae
+						<lb/>sed proficiat mihi ad salutem et remedium animae meae in vitam
+					<lb/>aeternam&gt; per te Christe.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Postquam diaconus dixerit</hi> Ite missa est <hi rend="italic">veniat ante altare et osculato</hi></p>
+				<p><lb/><hi rend="italic">dicat</hi></p>
+				<div>
+					<p><lb/>Placeat tibi sancta dei trinitas obsequium meae ser&lt;vitutis&gt; et presta
+						<lb/>ut &lt;hoc sacrificium&gt; quod ocu&lt;lis ma&gt;iestatis obtu&lt;li sit tibi
+						<lb/>placens&gt; mihi&lt;que et omnibus pro quibus illud obtuli sit te miserante
+					<lb/>propitiabile. Qui&gt;.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Finita missa accedat ad altare et osculetur illud et dicat</hi></p>
+				<div>
+					<p><lb/>Meritis et intercessionibus sanctorum misereatur nostri deus.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Expletis omnibus episcopus de altari ad sacrarium rediens cum diaconibus
+				<lb/>et ceteris quos voluerit cantet ymnum trium puerorum et</hi> Laudate.</p>
+			</div>
+			<div>
+				<p><lb/><hi rend="italic">Postea Preces</hi></p>
+				<div>
+					<p><lb/>Confiteantur &lt;tibi domine omnia opera tua&gt;. R Et &lt;sancti tui benedicant
+					<lb/>tibi&gt;.</p>
+					<p><lb/>E&lt;xultabunt sancti in gloria. R Laetabuntur in cubilibus suis&gt;.
+						<lb/>Exultent iusti in conspectu &lt;dei&gt;. R Delectentur in laetitia.
+						<lb/>Non nobis domine non nobis. R Sed nomini tuo da gloriam.
+						<lb/>Sacerdotes tui domine indu&lt;antur&gt; (iustitiam). R Et sancti tui exultent.
+						<lb/>Ne intres in iudicium cum &lt;servis tui domine&gt;. R Quia non iustifica&lt;bitur&gt;
+					<lb/>(in conspectu tuo omnis vivens).</p>
+					<p><lb/>Domine virtutum deus con&lt;verte nos&gt;. R &lt;Et ostende&gt; faciem tuam
+					<lb/>&lt;et salvi erimus.</p>
+					<p><lb/>Benedicat n&gt;os deus deus noster (benedicat nos deus). &lt;R Et metuant
+					<lb/>eum&gt; omnes &lt;fines terrae.</p>
+					<p><lb/>Domine exaudi orationem meam. R Et clamor meus ad te veniat&gt;.
+						<lb/>Deus qui tribus pueris mitigasti flammas ignium concede
+					<lb/>propitius ut nos famulos tuos non exuret flamma vitiorum. Per dominum.</p>
+				</div>
+				<div>
+					<head><lb/><hi rend="italic">ALIA ORATIO</hi></head>
+					<p><lb/>Actiones nostras quaesumus domine aspi&lt;rando praeveni et adiuvando
+						<lb/>prosequere ut cuncta operatio a te semper incipiat et per te&gt;
+					<lb/>cepta finiatur. Per.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

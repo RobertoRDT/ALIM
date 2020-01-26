@@ -1,0 +1,2409 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ars brevis</title>
+				<author>Raimundus Lullus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Aloisio Madre</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="RRDT">Roberto Rosselli Del Turco</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="11962" unit="words">Parole: 11962</measure>
+				<measure quantity="69057" unit="characters_without_spaces">Caratteri (spazi esclusi): 69057</measure>
+				<measure quantity="79497" unit="characters_witht_spaces">Caratteri (spazi inclusi): 79497</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2008-01-11">11/01/2008</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Filosofia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note:
+					                    <p>P. 212 riga 4. ‘magnae’, in ed. ‘magna’.</p>
+					                    <p>p. 216 riga 33. Dopo ‘partibus’ nell’ed. manca il punto interrogativo.</p>
+					                    <p>p. 218 riga 2. Dopo ‘tabula’, nell’ed. manca la T. P. 221 riga 11 ‘Ipsum’, nell’ed. troviamo
+					                        ‘ipsam’.</p>
+					                    <p>p. 228 riga 7 ‘sensitiua’, nell’ed. ‘sentitiua’.</p>
+					                    <p>p. 231 riga 18 ‘mixtio’, nell’ed. ‘mixto’.</p>
+					                    <p>p. 239 riga 12 ‘mortalitas’, nell’ed. ‘moralitas’.</p>
+					                    <p>p. 239 riga 19 Dopo ‘discretam’ nell’ed. manca il punto interrogativo.</p>
+					                    <p>p. 239 riga 25 ‘maioritatis’, nell’ed. ‘maioritas’.</p>
+					                    <p>p. 241 riga 30 ‘definitio’, nell’ed. ‘definito’.</p>
+					                    <p>p. 243 riga 29 Dopo ‘magna’ nell’ed. manca il punto interrogativo.</p>
+					                    <p>p. 245 riga 19 ‘quaestionibus’, nell’ed. ‘quaestione’.</p>
+					                    <p>p. 248 riga 27 Dopo ‘appetitum’ nell’ed. manca il punto interrogativo.</p>
+					                    <p>p. 249 riga 33 ‘elementatis’, nell’ed. ‘elementis’.</p>
+					                    <p>p. 253 riga 25 ‘est’, nell’ed. ‘et’.</p>
+				                </note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Raimundus Lullus</author>
+						<title level="m">Raimundi Lulli Opera Latina XII Barcinone, in Monte Pessulano, Pisis annis 1305.-1308 composita</title>
+						<editor>Aloisio Madre</editor>
+						<imprint>
+							<pubPlace>Turnhout</pubPlace>
+							<publisher>Brepols</publisher>
+							<biblScope unit="page">192-255</biblScope>
+							<date>1984</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">CCCM</title>
+						<biblScope unit="volume">38</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Filosofia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1301/1400">XIV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="RRDT">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+- la struttura è abbastanza complicata. Il livello più alto è stato marcato con @type="chapter": il livello seguente deve avere @type="section"? La struttura varia fra i capitoli.
+- c'è un problema strutturale. Alcuni capitoli hanno la seguente struttura:
+&lt;div1&gt;&lt;p&gt;In hoc capitulo dicitur de hoc et illo. Et haec materia dividitur in XY partes.&lt;/p&gt;
+    &lt;div2&gt;&lt;head&gt;Pars I&lt;/head&gt;&lt;p&gt;Aliquid...&lt;/p&gt;&lt;/div2&gt;
+    ...
+    &lt;div2&gt;&lt;head&gt;Pars XY&lt;/head&gt;&lt;p&gt;Aliquid...&lt;/p&gt;&lt;/div2&gt;
+    &lt;p&gt;Nunc dictum est de XY partibus huius materiae. Videmus, quod haec materia est talis et talis...&lt;/p&gt;
+&lt;/div1&gt;
+Cioè: all'inizio c'è un testo introduttivo in &lt;p&gt;, poi seguono alcuni &lt;div&gt; e alla fine c'è un riassunto dei punti precedenti, teoricamente anche questo in un &lt;p&gt;. Però al TEI validator non piace quando in un &lt;div(1)&gt; c'è un altro &lt;div(2)&gt;, dopo il quale segue un &lt;p&gt; allo stesso livello, cioè un child-node del &lt;div(1)&gt;. Quando, invece, il &lt;p&gt; precede i &lt;div(2)&gt;, sembra ok. In questo caso, ho messo anche i &lt;p&gt; all'inizio e alla fine in un &lt;div(2)&gt;, ma non so se è la soluzione giusta.
+- Ci sono fino a tre livelli di &lt;head&gt;:
+&lt;lb/&gt;&lt;head type="h2"&gt;&lt;hi rend="bold"&gt;I&lt;/hi&gt;&lt;/head&gt;
+&lt;lb/&gt;&lt;head type="h2_2"&gt;De prima parte&lt;/head&gt;
+&lt;lb/&gt;&lt;head type="h2_3"&gt;&lt;hi rend="bold"&gt;Quae est de alphabeto huius Artis&lt;/hi&gt;&lt;/head&gt;
+Per ora li ho marcati come "h2", "h2_2", "h2_3"...
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="192"/>
+		<div>
+			<p><lb/>Deus, cum tua gratia et amore
+				<lb/>Incipit Ars breuis, quae est imago Artis generalis.
+				<lb/>Quae sic intitulatur: Deus, cum tua summa perfectione
+			<lb/>Incipit Ars generalis.</p>
+			<div>
+				<head><lb/>PROLOGVS</head>
+				<p><lb/>Ratio, quare facimus istam Artem breuem, est, ut <hi rend="italic">Ars magna</hi>
+					<lb/>facilius sciatur. Nam scita ista, Ars dicta supra et etiam aliae artes
+				<lb/>de facili poterunt sciri et addisci.</p>
+				<p><lb/>Subiectum huius Artis est respondere de omnibus quaestionibus,
+				<lb/>supposito, quod sciatur, quid dicitur per nomen.</p>
+				<pb n="193"/>
+				<p><lb/>Diuiditur iste liber in XIII partes, in quas similiter <hi rend="italic">Ars magna</hi>
+				<lb/>est diuisa.</p>
+				<p><lb/>Prima pars est de alphabeto. Secunda de figuris. Tertia de
+					<lb/>definitionibus. Quarta de regulis. Quinta de tabula. Sexta de
+					<lb/>euacuatione tertiae figurae. Septima de multiplicatione quartae
+					<lb/>figurae. Octaua de mixtione principiorum et regularum. Nona de
+					<lb/>nouem subiectis. Decima de applicatione. Vndecima de quaestionibus.
+					<lb/>Duodecima de habituatione. Tertia decima de modo docendi
+				<lb/>hanc Artem. Et primo de prima parte dicemus sic:</p>
+			</div>
+			<pb n="194"/>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">I</hi></head>
+				<head type="h2"><lb/>De prima parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de alphabeto huius Artis</hi></head>
+				<p><lb/>Alphabetum ponimus in hac Arte, ut per ipsum possimus facere
+					<lb/>figuras et miscere principia et regulas ad inuestigandum ueritatem.
+					<lb/>Nam per unam litteram, habentem multa significata, est
+					<lb/>intellectus magis generalis ad recipiendum multa significata et
+					<lb/>etiam ad faciendum scientiam. Et ipsum quidem alphabetum
+					<lb/>cordetenus oportet sciri. Aliter enim artista Arte ista non poterit
+				<lb/>bene uti.</p>
+				<div>
+					<head><lb/>ALPHABETVM</head>
+					<p><lb/>B significat bonitatem, differentiam, utrum, Deum, iustitiam et
+						<lb/>auaritiam.
+						<pb n="195"/>
+					<lb/>prudentiam et gulam.</p>
+					<p><lb/>D significat aeternitatem siue durationem, contrarietatem, de
+					<lb/>quo, caelum, fortitudinem et luxuriam.</p>
+					<p><lb/>E significat potestatem, principium, quare, hominem, temperantiam
+					<lb/>et superbiam.</p>
+					<p><lb/>F significat sapientiam, medium, quantum, imaginatiuam, fidem
+					<lb/>et accidiam.</p>
+					<p><lb/>G significat uoluntatem, finem, quale, sensitiuam, spem et
+					<lb/>inuidiam.</p>
+					<p><lb/>H significat uirtutem, maioritatem, quando, uegetatiuam, caritatem
+					<lb/>et iram.</p>
+					<p><lb/>I significat ueritatem, aequalitatem, ubi, elementatiuam, patientiam
+					<lb/>et mendacium.</p>
+					<pb n="196"/>
+					<p><lb/>K significat gloriam, minoritatem, quo modo et cum quo,
+					<lb/>instrumentatiuam, pietatem et inconstantiam.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">II</hi></head>
+				<head type="h2"><lb/>[De secunda parte]</head>
+				<head type="h3"><lb/><hi rend="bold">De quattuor figuris</hi></head>
+				<div type="section">
+					<head><lb/>1. DE PRIMA FIGVRA, QVAE EST SIGNIFICATA PER A</head>
+					<p><lb/>Pars ista in quattuor partes diuiditur, uidelicet in quattuor
+						<lb/>figuras. Prima figura est de A. Ipsa figura continet in se nouem
+						<lb/>principia, uidelicet bonitatem, magnitudinem, etc., et nouem
+						<pb n="197"/>
+						<lb/>litteras, uidelicet B, C, D, E, etc. Ipsa quidem figura est circularis,
+						<lb/>eo quod subiectum mutatur in praedicatum, et e conuerso; ut
+						<lb/>cum dicitur: Bonitas est magna; magnitudo est bona; et sic de
+						<lb/>aliis. In ipsa quidem figura inquirit artista naturalem coniunctionem
+						<lb/>inter subiectum et praedicatum, dispositionem et proportionem,
+						<pb n="198"/>
+						<lb/>ut ad faciendum conclusionem medium possit inuenire.
+						<lb/>Quodlibet principium, per se sumptum est omnino generale, ut
+						<lb/>cum dicitur 'bonitas' aut 'magnitudo'. Quando autem unum
+						<lb/>principium contrahitur ad aliud, tunc ipsum est subalternatum,
+						<lb/>ut cum dicitur 'bonitas magna', etc. Et quando contrahitur
+						<lb/>aliquod principium ad singulare, tunc est principium specialissimum,
+						<lb/>ut cum dicitur 'bonitas Petri est magna', etc. Et sic
+						<lb/>intellectus habet scalam ascendendi et descendendi, a principio
+						<lb/>omnino generali ad non omnino generale nec omnino speciale, et a
+						<lb/>non omnino generali nec omnino speciali ad omnino speciale. Et
+					<lb/>sic de ascensu istius scalae potest dici suo modo.</p>
+					<pb n="199"/>
+					<p><lb/>In principiis istius figurae est implicatum, quidquid est. Nam
+						<lb/>quidquid est, aut est bonum, aut magnum, etc.; sicut Deus et
+						<lb/>angelus, qui sunt boni et magni, etc. Quapropter quidquid est,
+					<lb/>reducibile est ad principia supra dicta.</p>
+				</div>
+				<div type="section">
+					<head><lb/>2. DE SECVNDA FIGVRA, PER T SIGNIFICATA</head>
+					<p><lb/>Secunda figura est per T nominata. Ipsa quidem continet in se
+					<lb/>tres triangulos; et quilibet est generalis ad omnia.</p>
+					<div>
+						<head><lb/>1.</head> <p>Primus triangulus est de differentia, concordantia et contrarietate:
+							<lb/>in quo cadit, quidquid est, secundum suum modum. Nam
+							<pb n="200"/>
+							<lb/>quidquid est, aut est in differentia, aut concordantia aut contrarietate,
+						<lb/>et extra ista principia non est aliquid reperire.</p>
+						<p><lb/>Sciendum tamen est, quod quilibet angulus istius trianguli
+							<lb/>habet tres species. Nam differentia est inter sensuale et sensuale,
+							<pb n="201"/>
+							<lb/>ut puta inter lapidem et arborem. Iterum inter sensuale et
+							<lb/>intellectuale, ut puta inter corpus et animam. Adhuc inter
+							<lb/>intellectuale et intellectuale, sicut inter animam et Deum; aut
+							<lb/>inter animam et angelum, aut inter angelum et angelum, aut inter
+							<lb/>Deum et angelum. Et sic de concordantia et contrarietate potest
+							<lb/>dici suo modo. Et ista differentia, existens in quolibet angulo istius
+							<lb/>trianguli est scala intellectus, per quam ipse ascendit et descendit,
+							<lb/>ut medium naturale inter subiectum et praedicatum ipse intellectus
+							<lb/>possit inuenire, cum quo medio possit concludere. Et sic de
+						<lb/>scala concordantiae et contrarietatis potest dici suo modo.</p>
+					</div>
+                                        <pb n="202"/>
+					<div>
+						<head><lb/>2.</head> <p>Alius triangulus est de principio, medio et fine, in quo cadit,
+							<lb/>quidquid est. Nam quidquid est, aut est in principio, aut in medio,
+						<lb/>aut in fine, et extra ista principia nihil est.</p>
+						<p><lb/>In angulo principii causa significat causam efficientem, materialem,
+							<lb/>formalem et finalem. Per quantitatem autem et tempus
+							<lb/>significantur alia praedicamenta, et illa, quae ad ea reduci
+						<lb/>possunt.</p>
+						<p><lb/>In angulo medii sunt tres species medii. Vt puta medium
+							<lb/>coniunctionis; quod existit inter subiectum et praedicatum; sicut
+							<lb/>quando dicitur 'homo est animal'. Inter hominem enim et animal
+							<lb/>sunt media, uidelicet uita et corpus suum, sine quibus homo non
+							<lb/>potest esse animal. Item est medium mensurationis; quod existit
+							<pb n="203"/>
+							<lb/>per actum, existentem inter agentem et agibile; sicut amare inter
+							<lb/>amantem et amabile. Et adhuc est medium extremitatum; sicut
+							<lb/>linea, existens inter duo puncta, et iste angulus medii est generalis
+						<lb/>scala intellectui.</p>
+						<p><lb/>Anguli finis tres sunt species. Prima est finis priuationis. Qui
+							<lb/>quidem significat habitum priuatiuum, et ea, quae sunt in tempore
+							<lb/>praeterito. Finis terminationis significat metas, sicut duo puncta,
+							<lb/>in quibus linea terminatur; sicut amare in amante et amato.
+							<lb/>Tertia species est finis perfectionis, qui est finis ultimus; sicut
+							<lb/>homo, qui est, ut multiplicet suam speciem, et ut Deum intelligat,
+							<pb n="204"/>
+							<lb/>diligat et recolat, et huiusmodi. Iste angulus est scala generalis
+						<lb/>intellectui.</p>
+					</div>
+					<div>
+						<head><lb/>3.</head> <p>Tertius triangulus est de maioritate, aequalitate et minoritate;
+							<lb/>et est generalis ad omnia secundum suum modum. Nam
+							<lb/>quidquid est, aut est in maioritate, aut in aequalitate, aut in
+							<lb/>minoritate. Maioritas habet tres species. Prima est, quando est
+							<lb/>maioritas inter substantiam et substantiam; ut puta substantia
+							<lb/>caeli, quae est maior, quam substantia ignis. Secunda species est,
+							<lb/>quando est maioritas inter substantiam et accidens; sicut substantia,
+							<lb/>quae maior est sua quantitate. Substantia enim per se existit,
+							<lb/>accidens uero nequaquam. Tertia species est, quando est maioritas
+							<lb/>inter accidens et accidens; sicut intelligere, quod est maius, quam
+							<lb/>uidere; et uidere, quam currere. Et sicut dictum est de maioritate,
+							<lb/>ita potest dici de minoritate, nam relatiue se habent.
+							<lb/>Angulus de aequalitate habet tres species. Prima est, quando res
+							<pb n="205"/>
+							<lb/>sunt aequales substantialiter; sicut Petrus et Guilelmus, qui sunt
+							<lb/>aequales in substantia. Secunda est, quando substantia et accidens
+							<lb/>coaequantur; sicut substantia et sua quantitas. Tertia est,
+							<lb/>quando est aequalitas inter accidens et accidens; sicut intelligere
+							<lb/>et amare, quae sunt aequalia in obiecto. Et iste angulus est scala
+							<lb/>intellectui, per quam ipse ascendit et descendit, ut in aliis
+							<lb/>triangulis dictum est. Et quando intellectus ascendit ad obiecta
+							<lb/>generalia, ipse est generalis. Quando autem descendit ad particularia,
+						<lb/>ipse est particularis.</p>
+						<p><lb/>Ista figura de T est seruiens primae figurae. Nam per differentiam
+							<lb/>distinguitur inter bonitatem et bonitatem, inter bonitatem
+							<lb/>et magnitudinem, etc. Et per hanc figuram iunctam primae
+							<lb/>intellectus acquirit scientiam. Et quia ista figura est generalis,
+						<lb/>idcirco intellectus est generalis.</p>
+                                        </div>
+				</div>
+				<pb n="206"/>
+				<div type="section">
+					<head><lb/>3. DE TERTIA FIGVRA</head>
+					<p><lb/>Tertia figura composita est ex prima et secunda. Nam B, quod
+						<lb/>est in ipsa, ualet B, quod est in prima et secunda figura, et sic de
+						<lb/>aliis litteris. Ipsa habet triginta sex cameras, ut patet in ipsa. Quaelibet
+						<pb n="207"/>
+						<lb/>camera multa et diuersa significata habet per duas litteras,
+						<lb/>contentas in ea; sicut camera B C multa et diuersa significata
+						<lb/>habet per B C; similiter camera B D multa et diuersa significata
+						<lb/>habet per B D, etc. Et hoc iam patet in alphabeto ante dicto.
+						<lb/>In qualibet camera sunt duae litterae, in ea contentae; et ipsae
+						<lb/>significant subiectum et praedicatum. In quibus artista inquirit
+						<lb/>medium, cum quo subiectum et praedicatum coniunguntur; sicut
+						<lb/>bonitas et magnitudo, quae coniunguntur per concordantiam, et
+						<lb/>huiusmodi. Cum quo medio artista intendit concludere et propositionem
+					<lb/>declarare.</p>
+					<p><lb/>In ipsa figura significatum est, quod unumquodque principium
+						<lb/>cuilibet principio attribuitur; sicut B, cui attribuitur C D; et C
+						<lb/>attribuitur B D, etc.; ut patet in figura. Ratio huius est, ut
+						<lb/>intellectus cum omnibus principiis cognoscat quodlibet principium,
+					<lb/>ut ad eandem quaestionem deducat multas rationes.</p>
+					<p><lb/>Et de hoc uolumus dare exemplum de bonitate; de qua
+						<lb/>subiectum faciemus, de aliis autem principiis praedicatum: Bonitas
+						<pb n="208"/>
+						<lb/>est magna; bonitas est durabilis; bonitas est potens; bonitas
+						<lb/>est scibilis; bonitas est amabilis; bonitas est uirtuosa; bonitas est
+						<lb/>uera; bonitas est gloriosa; bonitas est differens; bonitas est
+						<lb/>concordans; bonitas est contrarians; bonitas est principians;
+						<lb/>bonitas est medians; bonitas est finiens, bonitas est maiorificans;
+						<lb/>bonitas est coaequans; bonitas est minorificans. Et sicut diximus
+						<lb/>de bonitate, ita potest dici de aliis principiis suo modo.
+						<lb/>Figura ista est ualde generalis; cum qua intellectus est ualde
+					<lb/>generalis ad faciendum scientias.</p>
+					<p><lb/>Condicio huius figurae est, quod una camera non sit contra
+						<lb/>aliam, sed ad inuicem concordent in conclusione, sicut camera B
+						<lb/>C, quae non sit contra cameram B D; et sic de aliis. Cum tali
+					<lb/>quidem condicione intellectus condicionat se, et facit scientiam.</p>
+				</div>
+				<div type="section">
+					<head><lb/>4. DE QVARTA FIGVRA</head>
+					<p><lb/>Quarta figura habet tres circulos. Quorum superior est immobilis,
+						<lb/>duo autem inferiores sunt mobiles, ut in figura patet.
+						<lb/>Circulus medius uoluitur sub circulo superiori immobili; ut
+						<lb/>puta, quando ponitur C sub B. Circulus autem inferior uoluitur
+						<lb/>sub medio circulo; sicut quando ponitur D sub C. Et tunc temporis
+						<lb/>formantur nouem camerae; B C D est una; C D E est alia; et sic de
+					<lb/>aliis.</p>
+					<pb n="209"/>
+					<p><lb/>Deinceps E circuli minoris ponatur sub C circuli mediocris; et
+						<lb/>tunc temporis formantur aliae nouem camerae. B C E est una
+						<lb/>camera, C D F alia. Et cum omnes litterae circuli minoris erunt
+						<lb/>discursae cum B circuli maioris et cum C circuli mediocris, tunc
+						<lb/>temporis C est medium inter B et D, eo quia B et D participant
+						<pb n="210"/>
+						<lb/>inter se ad inuicem per significata de C. Et sic de aliis cameris. Et
+						<lb/>sic per media camerarum homo uenatur necessarias conclusiones
+					<lb/>et inuenit illas.</p>
+					<p><lb/>Iterum discurrantur litterae cum B eiusdem circuli maioris et
+						<lb/>cum D circuli mediocris; et sic de aliis litteris circuli mediocris et
+						<lb/>circuli inferioris, mutando illas, B circuli maioris existente immobili,
+						<lb/>usquequo perueniatur cum B circuli maioris ad I circuli
+						<lb/>mediocris et ad K circuli inferioris; et sic erunt ducentae quinquaginta
+					<lb/>et duae camerae.</p>
+					<p><lb/>Figura ista generalior est, quam tertia, quia in qualibet camera
+						<lb/>istius figurae sunt tres litterae; sed in qualibet camera tertiae
+						<lb/>figurae non sunt nisi duae litterae. Ideo intellectus est generalior
+					<lb/>per quartam figuram, quam per tertiam.</p>
+					<p><lb/>De condicione quartae figurae est, quod intellectus applicet illas
+						<lb/>litteras ad propositum, quae uidentur magis applicabiles proposito.
+						<lb/>Facta camera de tribus litteris recipiat significata litterarum,
+						<lb/>respiciendo conuenientiam, existentem inter subiectum et praedicatum,
+						<pb n="211"/>
+						<lb/>euitando inconuenientiam. Et cum ista condicione intellectus
+						<lb/>facit scientiam per quartam figuram, et habet multas
+					<lb/>rationes ad eandem conclusionem.</p>
+					<p><lb/>Diximus de quattuor figuris, quas cordetenus oportet sciri; sine
+					<lb/>quibus artista non potest hac Arte uti nec practicare bene.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">III</hi></head>
+				<head type="h2"><lb/>De tertia parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de definitionibus uiginti principiorum</hi></head>
+				<p><lb/>In hac Arte sua principia definiuntur, ut per definitiones ipsa
+					<lb/>cognoscantur, et ut ipsis homo utatur affirmando aut negando,
+					<lb/>tali uero modo, quod definitiones remaneant illaesae. Cum talibus
+					<pb n="212"/>
+					<lb/>enim condicionibus intellectus facit scientiam, et inuenit media, et
+				<lb/>fugat ignorantiam, quae sua est inimica.</p>
+				<div>
+					<head><lb/>1.</head> <p>Bonitas est ens, ratione cuius bonum agit bonum.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Magnitudo est id, ratione cuius bonitas et duratio sunt magnae.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Aeternitas uel duratio est id, ratione cuius bonitas, etc.
+					<lb/>durant.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Potestas est ens, ratione cuius bonitas, etc. possunt existere et
+					<lb/>agere.</p>
+				</div>
+				<div>
+					<head><lb/>5.</head> <p>Sapientia est id, ratione cuius sapiens intelligit.</p>
+				</div>
+				<div>
+					<head><lb/>6.</head> <p>Voluntas est id, ratione cuius bonitas, magnitudo, etc. sunt
+					<lb/>amabiles siue desiderabiles.</p>
+				</div>
+				<div>
+					<head><lb/>7.</head> <p>Virtus est origo unionis bonitatis, magnitudinis, etc.</p>
+				</div>
+				<div>
+					<head><lb/>8.</head> <p>Veritas est id, quod uerum est de bonitate, magnitudine, etc.</p>
+				</div>
+				<div>
+					<head><lb/>9.</head> <p>Gloria est ipsa delectatio, in qua bonitas, etc. quiescunt.</p>
+                                </div>
+				<pb n="213"/>
+				<div>
+					<head><lb/>10.</head> <p>Differentia est id, ratione cuius bonitas, etc. sunt rationes
+					<lb/>inconfusae siue clarae.</p>
+				</div>
+				<div>
+					<head><lb/>11.</head> <p>Concordantia est id, ratione cuius bonitas, etc. in uno et in
+					<lb/>pluribus concordant.</p>
+				</div>
+				<div>
+					<head><lb/>12.</head> <p>Contrarietas est quorundam mutua resistentia propter
+					<lb/>diuersos fines.</p>
+				</div>
+				<div>
+					<head><lb/>13.</head> <p>Principium est id, quod se habet ad omnia ratione alicuius
+					<lb/>prioritatis.</p>
+				</div>
+				<div>
+					<head><lb/>14.</head> <p>Medium est subiectum, in quo finis influit principio, et
+					<lb/>principium refluit fini, et est sapiens naturam utriusque.</p>
+				</div>
+				<div>
+					<head><lb/>15.</head> <p>Finis est id, in quo principium quiescit.</p>
+				</div>
+				<div>
+					<head><lb/>16.</head> <p>Maioritas est imago immensitatis, bonitatis, magnitudinis,
+					<lb/>etc.</p>
+				</div>
+				<div>
+					<head><lb/>17.</head> <p>Aequalitas est subiectum, in quo finis concordantiae, bonitatis,
+					<lb/>etc. quiescit.</p>
+				</div>
+				<div>
+					<head><lb/>18.</head> <p>Minoritas est ens circa nihil.</p>
+				</div>
+				<div>
+					<p><lb/>Diximus de definitionibus principiorum, quas oportet scire
+					<lb/>cordetenus. Ignoratis enim definitionibus Ars est indocibilis.</p>
+				</div>
+			</div>
+			<pb n="214"/>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">IV</hi></head>
+				<head type="h2"><lb/>De quarta parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de regulis</hi></head>
+				<p><lb/>Regulae huius Artis sunt decem quaestiones generales, ad quas
+					<lb/>reducuntur omnes aliae quaestiones, quae fieri possunt. Et sunt
+					<lb/>istae: (1) Vtrum sit?, (2) Quid sit?, (3) De quo est?, (4) Quare est?,
+					<lb/>(5) Quantum est?, (6) Quale est?, (7) Quando est?, (8) Vbi est?, (9)
+					<lb/>Quo modo est?, (10) Cum quo est?
+				<lb/>Quaelibet istarum quaestionum habet suas species:</p>
+				<div>
+					<head><lb/>1.</head> <p>'Vtrum' habet tres species, uidelicet dubitatiuam, affirmatiuam
+						<lb/>et negatiuam, ut in principio intellectus supponat utramque
+						<lb/>partem esse possibilem, et non liget se cum credere, quod non est
+						<lb/>suus actus, sed intelligere. Et ita accipiat illam partem, cum qua
+					<lb/>habet maius intelligere. Nam oportet illam esse ueram.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>'Quid' habet quattuor species. Prima est definitiua; sicut
+						<lb/>quando quaeritur: Quid est intellectus? Et respondendum est
+						<lb/>quod ipse est illa potentia, cui proprie competit intelligere.
+						<lb/>Secunda species est, quando quaeritur: Intellectus quid habet in
+						<lb/>se coessentialiter? Et respondendum est, quod habet sua correlatiua,
+						<lb/>scilicet intellectiuum, intelligibile et intelligere; sine quibus
+						<lb/>esse non potest; et etiam sine ipsis esset otiosus et indigens natura,
+					<lb/>fine et quiete.</p>
+					<p><lb/>Tertia species est, quando quaeritur: Quid est ens in alio? Sicut
+						<lb/>quando quaeritur: Quid est intellectus in alio? Et respondendum
+						<lb/>est, quod est bonus, intelligens in bonitate; et magnus intelligens
+						<lb/>in magnitudine, etc.; et in grammatica grammaticus, et in
+					<lb/>logica logicus; et in rhetorica rhetoricus, etc.</p>
+					<p><lb/>Quarta species est, quando quaeritur: Quid habet ens in alio?
+						<lb/>Vt cum dicitur: Quid habet intellectus in alio? Et est respondendum,
+					<lb/>quod in scientia intelligere, et in fide credere.</p>
+                                </div>
+				<pb n="215"/>
+				<div>
+					<head><lb/>3.</head> <p>Regula 'De quo' habet tres species. Prima est primitiua; sicut
+						<lb/>quando dicitur: Intellectus de quo est? Et est respondendum,
+						<lb/>quod est de se ipso, eo quia non deriuatur ab aliquo generali
+					<lb/>naturaliter.</p>
+					<p><lb/>Secunda species est, quando quaeritur specialiter: De quo est
+						<lb/>ens? Sicut quando quaeritur: De quo est intellectus? Et est
+						<lb/>respondendum, quod est de sua forma et sua materia specificis,
+					<lb/>cum quibus habet specificum intelligere.</p>
+					<p><lb/>Tertia species est, quando quaeritur: Cuius est ens? Sicut
+						<lb/>quando quaeritur: Cuius est intellectus? Et est respondendum,
+					<lb/>quod est hominis, sicut pars sui totius, et equus sui domini.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Quarta regula habet duas species, scilicet formalem et
+						<lb/>finalem. Formalis, quando quaeritur: Ens quare est? Sicut
+						<lb/>quando quaeritur: Intellectus quare est? Et est respondendum,
+						<lb/>quod est de sua forma et de sua materia specificis, cum quibus
+						<lb/>habet specificum intelligere, et cum ipsis agit per suam speciem.
+						<lb/>Secunda species est respectu finis. Sicut quando quaeritur:
+						<lb/>Intellectus quare est? Et respondendum est: Vt sint obiecta
+					<lb/>intelligibilia; aut ut de rebus scientia haberi possit.</p>
+				</div>
+				<div>
+					<head><lb/>5.</head> <p>Quinta regula quaerit de quantitate. Et habet duas species.
+						<lb/>Prima est, quando quaeritur de quantitate continua. Vt cum
+						<lb/>dicitur: Quantus est intellectus? Et respondendum est, quod est
+						<lb/>tantus, quantus per spiritualem quantitatem esse potest; non
+					<lb/>autem est quantum punctualiter nec linealiter.</p>
+					<p><lb/>Secunda species est, quando quaeritur de quantitate discreta.
+						<lb/>Vt cum dicitur: Quantus est intellectus? Et est respondendum,
+						<lb/>quod est tantus, quot sunt sua correlatiua, a quibus sua essentia
+						<lb/>est diffusa et sustentata, uidelicet intellectiuum, intelligibile et
+						<pb n="216"/>
+						<lb/>intelligere; cum quibus est theoricus et practicus, generalis et
+					<lb/>particularis.</p>
+				</div>
+				<div>
+					<head><lb/>6.</head> <p>Sexta regula est de qualitate. Et habet duas species. Prima
+						<lb/>est, quando quaeritur: Quae est propria et primaria qualitas
+						<lb/>ipsius intellectus? Et est respondendum, quod intelligibilitas
+						<lb/>cum qua ipse est habituatus. Intelligere autem extrinsecum est
+						<lb/>proprietas secundaria et magis remota, cum qua ipse intellectus
+						<lb/>intelligit hominem aut leonem, etc. Ex quo intelligere intrinsecum
+						<lb/>et substantiale ipsius intellectus est habituatum; et similiter de
+					<lb/>intelligibili extrinseco.</p>
+					<p><lb/>Secunda species est, quando quaeritur de qualitate appropriata.
+						<lb/>Sicut quando quaeritur: Quae est qualitas appropriata ipsius
+						<lb/>intellectus? Et est respondendum, quod credere, aut dubitare,
+						<lb/>aut supponere. Non enim isti actus conueniunt intellectui proprie,
+					<lb/>sed intelligere.</p>
+				</div>
+				<div>
+					<head><lb/>7.</head> <p>Septima regula quaerit de tempore. Et habet quindecim
+						<lb/>species, ut patet in <hi rend="italic">Arte magna</hi>, per regulam C D K significatas.
+						<lb/>Sed quia haec Ars est breuis, ideo sub breuibus uerbis tractamus
+						<lb/>ipsam regulam. Sicut quando quaeritur: Per quem modum est
+						<lb/>intellectus in tempore, cum ipse non sit punctualis nec linealis?
+						<lb/>Ad quod respondendum est, quod intellectus est in tempore, eo
+						<lb/>quia est inceptus siue nouus; et consistit in tempore successiue
+					<lb/>mediante motu corporis, cum quo est coniunctus.</p>
+				</div>
+				<div>
+					<head><lb/>8.</head> <p>Octaua regula quaerit de loco. Et habet quindecim species per
+						<lb/>regulam C D K significatas, ut patet in <hi rend="italic">Arte magna</hi>. Sicut quando
+						<lb/>quaeritur: Intellectus ubi est? Et hic breuiter respondendum est,
+						<lb/>quod est in subiecto, in quo est, sicut pars in suo toto; non autem
+						<lb/>conclusus, sed diffusus est in illo. Intellectus enim non habet
+					<lb/>essentiam punctualem, nec linealem, nec superficiem.</p>
+				</div>
+				<div>
+					<head><lb/>9.</head> <p>K continet duas regulas, uidelicet modalem et instrumentalem.
+						<lb/>Regula modalitatis habet quattuor species. Sicut quando
+						<lb/>quaeritur: Quo modo est intellectus? Et: Quo modo est pars in
+						<lb/>parte et partes in toto, et totum in suis partibus?. Et: Quomodo
+						<lb/>transmutat similitudinem suam extra se? Ad quod respondendum
+						<lb/>est, quod subiectiue per illum modum, per quem est deductus
+						<lb/>per species supra dictas. Et intelligit obiectiue per illum modum,
+						<pb n="217"/>
+						<lb/>quem habet inueniendo medium, existens inter subiectum et
+						<lb/>praedicatum, et figuris designatum, multiplicando species peregrinas,
+						<lb/>a sensu et imaginatione abstractas, quae in suo proprio
+					<lb/>intelligibili sunt caracterizatae et intellectae.</p>
+				</div>
+				<div>
+					<head><lb/>10.</head> <p>Secunda regula de K habet quattuor species. Videlicet
+						<lb/>quando quaeritur: Intellectus cum quo est? Et: Cum quo est pars
+						<lb/>in parte, et partes in toto, et totum in partibus suis? Et: Cum quo
+						<lb/>transmittit similitudinem suam extra? Ad quod respondendum
+						<lb/>est, quod ipse est cum suis correlatiuis, sine quibus non potest esse
+						<lb/>nec intelligere. Et intelligit enim cum speciebus peregrinis, de
+					<lb/>quibus facit instrumentum ad intelligendum.</p>
+					<p><lb/>Diximus de regulis. Cum quibus intellectus soluit quaestiones,
+						<lb/>deducendo eas per regulas, respiciendo, quid significat regula et
+						<lb/>eius species subiectiue, deducendo quaestionem per principia et
+						<lb/>regulas, intellectu obiectando illam quaestionem dubitabilem
+						<lb/>cum definitionibus principiorum, eligendo, intelligendo intelligibili
+						<lb/>affirmantem aut negantem; et quod ipse intellectus sit a
+					<lb/>dubitatione separatus.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">V</hi></head>
+				<head type="h2"><lb/>De quinta parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de tabula</hi></head>
+				<p><lb/>Tabula ista est subiectum, in quo intellectus se facit uniuersalem,
+					<lb/>eo quia intelligit et abstrahit ab ipso multa particularia
+					<lb/>omnium materiarum, discurrendo principia per particularia
+					<lb/>obiectiue, et regulas subiectiue, applicando cuilibet quaestioni
+					<lb/>uiginti rationes, declarando ipsam quaestionem; et a qualibet
+				<lb/>camera ipsius columnae abstrahitur una ratio.</p>
+				<p><lb/>Tabula habet septem columnas, ut patet. In quibus implicantur
+					<pb n="218"/>
+					<lb/>octoginta quattuor columnae, explicatae in <hi rend="italic">Arte magna</hi>. In ipsa
+					<lb/>tabula T significat, quod litterae, quae sunt a parte ante T, sunt de
+					<lb/>prima figura; et quae sunt post T, sunt de secunda figura.
+					<lb/>Per ipsam tabulam intellectus est ascensiuus et descensiuus.
+					<lb/>Ascensiuus est, quia ascendit ad priora et generaliora. Descensiuus
+					<lb/>est, quia descendit ad posteriora et particularia. Adhuc est
+					<lb/>copulatiuus, eo quod copulat columnas; sicut columna B C D
+				<lb/>copulatur cum columna C D E; et sic de aliis.</p>
+				</div>
+			<pb n="219"/>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">VI</hi></head>
+				<head type="h2"><lb/>De sexta parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de euacuatione tertiae figurae</hi></head>
+				<p><lb/>In tertia figura intellectus euacuat cameras, eo quia abstrahit
+					<lb/>ab ipsis tantum, quantum potest, recipiendo a qualibet camera ea,
+					<lb/>quae significant litterae, ut applicent illa significata ad propositum;
+					<lb/>et sic facit se applicatiuum et inuestigatiuum et inuentiuum.
+					<lb/>Et de hoc dabimus exemplum in una camera. Et sicut sequitur de
+				<lb/>illa, ita sequitur de aliis.</p>
+				<p><lb/>De camera BC intellectus haurit duodecim propositiones,
+					<lb/>dicendo sic: Bonitas est magna; bonitas est differens; bonitas est
+					<lb/>concordans. Magnitudo est bona; magnitudo est differens; magnitudo
+					<lb/>est concordans. Differentia est bona; differentia est magna;
+					<lb/>differentia est concordans. Concordantia est bona; concordantia
+					<lb/>est magna; concordantia est differens. Factis istis duodecim
+					<lb/>propositionibus, mutando subiectum in praedicatum, et e conuerso,
+				<lb/>sic camera est euacuata ipsis propositionibus.</p>
+				<p><lb/>Deinde euacuet eam duodecim mediis. Et dicuntur media, eo
+					<lb/>quia consistunt inter subiectum et praedicatum, cum quibus
+					<lb/>conueniunt genere aut specie. Et cum illis mediis intellectus facit
+					<lb/>se disputatiuum et determinatiuum. Vt cum dicitur: Omne id,
+					<lb/>quod magnificatur a magnitudine, est magnum. Bonitas magnificatur
+					<lb/>a magnitudine; ergo bonitas est magna. Et sic de aliis, etc.
+					<lb/>Et facta ista euacuatione intellectus euacuet ipsam cameram
+					<lb/>uiginti quattuor quaestionibus, eo quia in qualibet propositione
+					<lb/>sunt duae quaestiones implicite. Et hoc sic: Bonitas est magna:
+					<lb/>Vtrum bonitas sit magna? Quid est bonitas magna? Bonitas est
+					<lb/>differens: Vtrum bonitas est differens? Quid est bonitas differens?
+					<lb/>Bonitas est concordans: Vtrum bonitas sit concordans? Quid est
+					<lb/>bonitas concordans? Magnitudo est bona: Vtrum magnitudo sit
+					<lb/>bona? Quid est magnitudo bona? Magnitudo est differens: Vtrum
+					<lb/>magnitudo sit differens? Quid est magnitudo differens? Magnitudo
+					<lb/>est concordans: Vtrum magnitudo sit concordans? Quid est
+					<pb n="220"/>
+					<lb/>magnitudo concordans? Differentia est bona: Vtrum differentia
+					<lb/>sit bona? Et: Quid est differentia bona? Differentia est magna:
+					<lb/>Vtrum differentia sit magna? Et: Quid est differentia magna?
+					<lb/>Differentia est concordans: Vtrum differentia sit concordans? Et:
+					<lb/>Quid est differentia concordans? Concordantia est bona: Vtrum
+					<lb/>concordantia sit bona? Et: Quid est concordantia bona? Concordantia
+					<lb/>est magna: Vtrum concordantia sit magna? Quid est
+					<lb/>concordantia magna? Concordantia est differens: Vtrum concordantia
+				<lb/>sit differens? Quid est concordantia differens?</p>
+				<p><lb/>Facta ista euacuatione quaestionum, intellectus euacuet cameram
+					<lb/>cum definitionibus bonitatis et magnitudinis, et cum tribus
+					<lb/>speciebus differentiae et concordantiae, ut patet in secunda figura.
+					<lb/>Deinde euacuet cameram cum tribus speciebus regulae B, et cum
+					<lb/>quattuor speciebus regulae C; et expedita ista euacuatione
+					<lb/>intellectus soluat praedictas quaestiones in illa euacuatione,
+					<lb/>sequendo condiciones camerae, affirmando aut negando. Et sic
+					<lb/>intellectus expellit de camera dubitationes, et consistit in illa
+					<lb/>quietus et assertiuus. Et etiam cognoscit se ualde generalem et
+				<lb/>artificiatum, et de magna scientia habituatum.</p>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">VII</hi></head>
+				<head type="h2"><lb/>De septima parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de multiplicatione quartae figurae</hi></head>
+				<p><lb/>Multiplicatio quartae figurae consistit in hoc, uidelicet quod
+					<lb/>prima camera B C D in quarta figura siue in tabula significat, quod
+					<lb/>B unam condicionem habet cum C, et aliam cum D; et C unam
+					<lb/>condicionem habet cum B, et aliam cum D; et D unam condicionem
+					<lb/>habet cum B, et aliam cum C. Et sic sunt in ipsa camera sex
+					<lb/>condiciones, cum quibus intellectus se condicionat et disponit ad
+					<lb/>inuestigandum et inueniendum, et obiciendum et probandum, et
+				<lb/>ad determinandum.</p>
+				<p><lb/>Post istas sex condiciones intellectus acquirit alias sex condiciones,
+					<lb/>uoluendo circulum minorem, ponendo suum E sub C circuli
+					<lb/>mediocris, sub quo erat suum D. Et quia mutata est camera,
+					<pb n="221"/>
+					<lb/>idcirco mutantur eius condiciones. Et sic intellectus habituat se de
+					<lb/>duodecim condicionibus; et sic per alias cameras, multiplicando
+				<lb/>columnas et uoluendo illas.</p>
+				<p><lb/>Condiciones, quas intellectus multiplicat per istum modum,
+					<lb/>sunt difficiles ad numerandum. Nam de qualibet camera potest
+					<lb/>intellectus sic euacuare triginta propositiones et nonaginta quaestiones,
+					<lb/>sicut de camera B C tertiae figurae sunt duodecim
+				<lb/>propositiones et uiginti quattuor quaestiones.</p>
+				<p><lb/>Et in isto passu cognoscit se intellectus ualde generalem et
+					<lb/>artificiatum super alium intellectum, ignorantem istam Artem,
+					<lb/>deducendo ipsum ad multa inconuenientia et impossibilia. Et sic
+					<lb/>sophista coram tali intellectu non potest stare, eo quia talis
+					<lb/>intellectus artistae huius Artis utitur condicionibus primitiuis et
+					<lb/>naturalibus; sophista autem secundariis et extra naturam consideratis;
+				<lb/>ut patet in <hi rend="italic">Arte magna</hi>.</p>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">VIII</hi></head>
+				<head type="h2"><lb/>De octaua parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de mixtione principiorum et regularum</hi></head>
+				<p><lb/>In parte ista intellectus miscet unum principium cum alio,
+					<lb/>discurrendo quodlibet principium per omnia principia cum sua
+					<lb/>definitione, discurrendo quodlibet principium per omnes species
+					<lb/>regularum. Et per talem discursum intellectus habet notitiam de
+					<lb/>quolibet principio. Et tot uicibus, quot miscet ipsum diuersimode,
+					<lb/>habet notitiam diuersam ab ipso. Et tot media, quae intellectus
+					<lb/>inuenit ad concludendum, quis possit numerare, intellectu euacuante
+					<lb/>ipsam mixtionem, sicut euacuare cameram B C, ut supra
+				<lb/>dictum est.</p>
+				<p><lb/>Ista mixtio est centrum et fundamentum ad inueniendum
+					<lb/>multas propositiones, quaestiones et media, condiciones et solutiones,
+					<lb/>et etiam obiectiones. Sed hoc exemplificare dimittimus
+					<lb/>intellectui bene intuenti, causa breuitatis, et quia in <hi rend="italic">Arte magna</hi>
+				<lb/>est declaratus et exemplificatus modus mixtionis.</p>
+				<p><lb/>Vlterius: Haec mixtio est subiectum et refugium artistae huius
+					<lb/>Artis, ut inueniat in ipsa, quidquid uult, ad placitum. Nam si
+					<pb n="222"/>
+					<lb/>indiget aliquo, quod sit de genere bonitatis, discurrat ipsam
+					<lb/>bonitatem per omnia principia et regulas, et inueniet de ipsa,
+					<lb/>quidquid intelligere uoluerit. Et sicut dicimus de bonitate, ita
+					<lb/>potest dici de aliis principiis. Ista mixtio est condicionata et
+					<lb/>ordinata; sicut una res est distincta ab alia. Nam si discurratur
+					<lb/>diuina bonitas per principia et regulas, ipse quidem discursus
+					<lb/>diuinae bonitatis requirit altiores definitiones et species regularum,
+					<lb/>quam discursus bonitatis angeli; et discursus bonitatis
+					<lb/>angeli, quam discursus bonitatis hominis; et discursus bonitatis
+				<lb/>hominis, quam discursus bonitatis leonis. Et sic de aliis suo modo.</p>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">IX</hi></head>
+				<head type="h2"><lb/>De nona parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de nouem subiectis</hi></head>
+				<p><lb/>In parte ista ponuntur nouem subiecta, in alphabeto significata;
+					<lb/>in quibus cadit, quidquid est, et extra ipsa nihil est. Primum
+					<lb/>subiectum est Deus, per B significatum. Secundum subiectum est
+					<lb/>angelus, per C significatum. Tertium subiectum est caelum, per D
+					<lb/>significatum. Quartum subiectum est homo, per E significatum.
+					<lb/>Quintum est imaginatio, per F significatum. Sextum subiectum
+					<lb/>est sensitiua, per G significatum. Septimum est uegetatiua, per H
+					<lb/>significatum. Octauum est elementatiua, per I significatum. Nonum
+				<lb/>et ultimum est instrumentalitas, per K significatum.</p>
+				<p><lb/>Quoniam in <hi rend="italic">Arte magna</hi>quodlibet subiectum est deductum per
+					<lb/>principia et regulas, idcirco ipsa hic non discurrimus, quia hanc
+					<lb/>Artem breuiorem illa uolumus agere, et quia illa deductio in hac
+					<lb/>Arte est implicata. Propter quod illam dimittimus intellectui
+					<lb/>intuenti bene. Et sufficit exemplum, datum in tertia figura, in qua
+					<lb/>applicamus omnia principia ad bonitatem. Et etiam ad intellectum
+				<lb/>omnes regulas huius Artis.</p>
+				<p><lb/>Tractatus istorum subiectorum consideramus cum quattuor
+					<pb n="223"/>
+					<lb/>condicionibus, ut per eas intellectus sit condicionatus ad discurrendum
+					<lb/>praedicta subiecta per principia et regulas condicionaliter,
+					<lb/>secundum quod quodlibet subiectum est condicionatum per
+					<lb/>suam naturam et essentiam. Nam diuina bonitas unam condicionem
+					<lb/>habet in Deo; et bonitas angelica aliam in ipso angelo, et sic
+					<lb/>de aliis suo modo. Et hoc idem sequitur de regulis suo modo.
+					<lb/>Prima condicio haec est, uidelicet ut quodlibet subiectum
+					<lb/>habeat suam definitionem, cum qua sit differens ab omni alio
+					<lb/>subiecto. Et si quaeratur aliquid de ipso subiecto, quod respondeatur,
+					<lb/>tali modo affirmando uel negando, ut definitiones principiorum
+					<lb/>conueniant cum ipsa definitione; et sic de regulis, sine aliqua
+				<lb/>laesione principiorum et regularum.</p>
+				<p><lb/>Secunda condicio est, quod in iudicio siue in practica conseruetur
+					<lb/>differentia subiectorum. Sicut diuina bonitas, quae differt a
+					<lb/>bonitate angelica per infinitatem et aeternitatem, eo quia talis
+					<lb/>bonitas est ei ratio, ut agat bonum infinitum et aeternum. Bonitas
+				<lb/>enim angelica nequaquam; finita et noua est.</p>
+				<p><lb/>Tertia condicio est, quod concordantia, quae est inter unum
+					<lb/>subiectum et aliud subiectum, non destruatur; sicut concordantia,
+					<lb/>quae est inter Deum et angelum. Concordant enim in spiritualitate.
+				<lb/>Et sic de aliis suo modo potest dici.</p>
+				<p><lb/>Quarta condicio est, quod secundum quod unum subiectum est
+					<lb/>nobilius et altius, ei attribuantur altiora et nobiliora principia et
+					<lb/>regulae, quam alteri. Sicut Deus, qui est altius et nobilius
+					<lb/>subiectum, quam angelus, etc.; angelus, quam homo; et sic de aliis
+				<lb/>suo modo.</p>
+				<div type="section">
+					<head><lb/>1
+						<lb/>DE PRIMO SVBIECTO. QVOD EST DE DEO,
+					<lb/>DISCVRSO PER PRINCIPIA</head>
+					<p><lb/>Deus est discursibilis per principia et regulas. Nam Deus est
+						<lb/>bonus, magnus, etc. De ipso multae definitiones possunt dari, largo
+						<pb n="224"/>
+						<lb/>modo definiendo. Sed hic unam ei damus: Deus est ens, quod extra
+						<lb/>se non indiget aliquo. In ipso namque totaliter sunt omnes
+					<lb/>perfectiones.</p>
+					<p><lb/>Cum illa quidem definitione est Deus differens ab omni alio ente.
+					<lb/>Omnia enim alia entia indigent aliquo extra se.</p>
+					<p><lb/>In Deo non est aliqua contrarietas nec minoritas, quia principia
+					<lb/>priuatiua et defectiua sunt.</p>
+					<p><lb/>Verumtamen in Deo est maioritas respectu aliorum entium. Et
+						<lb/>aequalitas; nam aequalia principia habet, uidelicet bonitatem et
+						<lb/>magnitudinem, etc., et aequales actus et relationes habet.
+						<lb/>In Deo est differentia correlatiuorum, sine qua ipsi correlatiui
+						<lb/>nequaquam esse possunt; nec Deus absque ipsis posset habere
+						<lb/>actionem intrinsecam infinitam et aeternam; immo sine ipsis
+						<lb/>omnes suae rationes essent otiosae; quod est ualde impossibile.
+						<lb/>In Deo est concordantia, ut cum ipsa distet infinite et aeterne a
+						<lb/>contrarietate, et sua correlatiua conueniant infinite et aeterne in
+						<lb/>una essentia et natura; et sic de suis rationibus potest dici.
+						<lb/>In Deo non est quantitas, nec tempus, nec ullum accidens. Ratio
+						<lb/>huius est, quia substantia sua ab omni accidente est segregata et
+						<lb/>denudata; nam infinita et aeterna est. Deo sic condicionato per
+						<lb/>quattuor condiciones ante dictas, uidelicet quod intellectus intelligit
+						<lb/>se condicionatum ad intelligendum Deum et ea, quae de ipso
+						<lb/>dici possunt per principia et regulas, Deo appropriatas, ac
+						<lb/>cognoscit et intelligit, quod si angelus habet naturale posse in se, et
+						<lb/>sic de aliis, multo magis Deus, cum sit subiectum magis altum; ut
+					<lb/>patet per locum a minori ad maius.</p>
+				</div>
+				<div type="section">
+					<head><lb/>2
+					<lb/>DE SECVNDO SVBIECTO. QVOD EST DE ANGELO</head>
+					<p><lb/>Angelus est deducibilis per principia et regulas. Ipse quidem
+						<lb/>naturalem bonitatem, magnitudinem, durationem habet, etc. Et
+						<lb/>definitur sic: Angelus est spiritus, corpori non coniunctus.
+						<lb/>In ipso non est contrarietas naturalis, nam incorruptibilis est. In
+						<pb n="225"/>
+						<lb/>ipso est materia de -bilibus, scilicet de bonificabili et magnificabili,
+					<lb/>etc., ut per secundam speciem D significatum est.</p>
+					<p><lb/>In angelo est maioritas, eo quia est magis similis Deo, quam
+						<lb/>homo; quia altiora principia et regulas habet, quam homo. Et in
+						<lb/>isto passu cognoscit intellectus, quod si homo non potest uti
+						<lb/>sensibilibus absque organis, non sequitur propter hoc, quod
+						<lb/>angelus non possit sine organo; nam angelus natura est superior.
+						<lb/>Et in isto passu cognoscit intellectus, quod angeli possunt loqui
+						<lb/>inter se et agere in nobis absque organo, et transire ab uno loco ad
+						<lb/>alium sine medio; et sic de aliis, ut patet per intellectum,
+					<lb/>discursum per regulas.</p>
+					<p><lb/>In angelo est differentia. Nam suus intellectus, uoluntas et
+					<lb/>memoria differentes sunt inter se.</p>
+					<p><lb/>Aequalitas intelligendi, amandi et recolendi est in angelo,
+						<lb/>ratione obiecti supremi, ut Deus, qui aequaliter est intelligibilis,
+					<lb/>amabilis et recolibilis.</p>
+					<p><lb/>In angelo est minoritas; nam ex nihilo ipse est creatus.</p>
+				</div>
+				<div type="section">
+					<head><lb/>3
+					<lb/>DE TERTIO SVBIECTO. QVOD EST DE CAELO</head>
+					<p><lb/>Caelum habet bonitatem naturalem, magnitudinem et durationem,
+						<lb/>etc. Et definitur sic: Caelum est prima substantia mobilis.
+						<lb/>In eo non est contrarietas. Non enim est ex principiis contrariis
+						<lb/>compositum. In ipso enim sunt instinctus et appetitus naturales,
+						<lb/>et per consequens motus, sine quo non posset habere naturam,
+					<lb/>instinctum et appetitum.</p>
+					<p><lb/>Verumtamen in eo est principium. Efficiens enim est in inferioribus;
+						<lb/>et etiam est constitutum ex sua forma et materia specifica, ut
+					<lb/>agat per suam speciem.</p>
+					<p><lb/>Suus motus est ei finis et quies.</p>
+					<p><lb/>Caelum est in suo loco, sicut corpus in sua superficie.
+						<lb/>Adhuc est in tempore. Ipsum namque nouum est, et est etiam in
+						<lb/>tempore, sicut efficiens in suo effectu. Et sic de aliis suis accidentibus
+					<lb/>suo modo.</p>
+					</div>
+				<pb n="226"/>
+				<div type="section">
+					<head><lb/>4
+					<lb/>DE QVARTO SVBIECTO. QVOD EST HOMO</head>
+					<p><lb/>Homo est compositus ex anima et corpore. Ratione cuius
+						<lb/>deductibilis est per principia et regulas duobus modis, uidelicet
+						<lb/>modo spirituali et modo corporali. Et definitur sic: Homo est
+						<lb/>animal homificans. In homine sunt omnia principia et regulae
+						<lb/>dupliciter propter duplicitatem naturae, scilicet spiritualis et
+						<lb/>corporalis, ex quibus est constitutus. Et ideo est magis generalis,
+						<lb/>quam aliud ens creatum. Ratione cuius potest dici procul dubio,
+					<lb/>quod homo est maior pars mundi.</p>
+				</div>
+				<div type="section">
+					<head><lb/>5
+					<lb/>DE QVINTO SVBIECTO. QVOD EST IMAGINATIVA</head>
+					<p><lb/>In imaginatiua sunt principia et regulae specifice ad imaginandum
+						<lb/>imaginabilia; sicut in adamante ad attrahendum ferrum. Et
+						<lb/>definitur sic: Imaginatiua est illa potentia, cui proprie competit
+						<lb/>imaginari. Et ideo imaginatiua ducta est per principia et regulas,
+						<lb/>quae conueniunt imaginatiuae. Intellectus quidem de ipsa habet
+						<lb/>magnam notitiam, etiam de his, quae sibi conueniunt; imaginatiua
+						<lb/>abstrahit speciem a sensatis cum sensibus particularibus et hoc
+						<lb/>cum suis correlatiuis, per secundam speciem C significatis. Et cum
+						<lb/>bonitate facit species illas bonas; et cum magnitudine magnificat
+						<lb/>illas; sicut quando imaginatur unum magnum montem aureum.
+						<lb/>Cum minoritate autem minorificat eas; sicut quando imaginatur
+						<lb/>unum punctum indiuisibilem. Imaginatiua habet instinctum,
+						<lb/>sicut bruta animalia habent industriam ad uiuendum, et sicut
+						<lb/>capra ad euitandum lupum. Imaginatiua habet appetitum ad
+						<lb/>imaginandum imaginabile, ut quiescat in illo, imaginando illud.
+						<lb/>Sensus particulares utentes sensibilibus impediunt imaginatiuae
+						<lb/>suum actum, quod non potest habere; sicut uidens cum oculis
+						<pb n="227"/>
+						<lb/>coloratum. Et tunc temporis imaginatiua non potest habere suum
+						<lb/>actum, uidelicet quia imaginari non potest imaginabile peregrinum,
+						<lb/>quousque habens oculos claudit illos, et tunc imaginatiua
+					<lb/>habet suum actum, siue potest habere illum.</p>
+					<p><lb/>Videns magis attingit coloratum uidendo, quam imaginando;
+						<lb/>sensatum enim est magis circa ipsum sensum. Imaginatiua autem
+						<lb/>mediante sensu imaginabile attingit. Imaginatiua non est ita
+						<lb/>generalis potentia in sensatis, sicut sensitiua; ut patet per
+						<lb/>tactiuam, cum qua homo tenens lapidem in uno et eodem tempore
+						<lb/>sentit diuersa plura, uidelicet lapidis ponderositatem, frigiditatem,
+						<lb/>asperitatem atque duritiem; imaginatiua autem nequaquam,
+						<lb/>nisi successiue. Et sic de aliis similibus istis. Et haec sufficiant
+					<lb/>causa breuitatis.</p>
+				</div>
+				<div type="section">
+					<head><lb/>6
+					<lb/>DE SEXTO SVBIECTO. QVOD EST SENSITIVA</head>
+					<p><lb/>Principia et regulae sunt in sensitiua per modum specificum.
+						<lb/>Nam unum posse habet per uisum; aliud per auditum, etc. Et hoc
+						<lb/>maxime faciunt duae proprietates, instinctus et appetitus. Et
+						<lb/>definitur sic: Sensitiua est potentia, cui proprie competit sentire.
+						<lb/>Sensitiua causat sensata cum suis principiis et regulis specificis.
+						<lb/>Ipsa est generalis per sensum communem; particularis autem per
+						<lb/>sensus particulares. Per sensum communem habet correlatiuos
+						<lb/>communes; per particulares autem sensus habet correlatiuos
+						<lb/>particulares. Vita radicalis sensitiuae uiuit ex uita uegetabili, cum
+						<lb/>quo est connexa, et in ea plantata, sicut uegetatiua in elementatiua.
+						<lb/>Sensitiua per omnes sensus sensat obiecta; sicut per uisum
+						<lb/>sensat coloratum, et per auditum uocem, mediante affatu, ei
+						<lb/>nominante illam. Absque enim affatu auditus quidem non potest
+						<lb/>sensare uocem. Et in isto passu cognoscit intellectus, quod affatus
+					<lb/>sit sensus.</p>
+				</div>
+				<pb n="228"/>
+				<div type="section">
+					<head><lb/>7
+					<lb/>DE SEPTIMO SVBIECTO. QVOD EST VEGETATIVA</head>
+					<p><lb/>In uegetatiua sunt principia et regulae specifice, cum quibus
+						<lb/>plantae agunt secundum suas species, in quibus sunt. Piper enim
+						<lb/>agit secundum suam speciem, et rosa secundum suam, et lilium
+						<lb/>secundum suam, etc. Principia uegetatiuae condensiora sunt
+						<lb/>quam sensitiuae principia; et sic sensitiua principia, quam imaginatiuae
+						<lb/>principia. Et definitur sic: Vegetatiua est potentia, cui
+						<lb/>proprie competit uegetare. Ipsa quidem sic uegetat elementata suo
+						<lb/>modo, sicut sensitiua sensat uegetata siue elementata. Vegetatiua
+						<lb/>transsubstantiat elementatiuam in suam speciem per modum
+						<lb/>generationis; et ex illa uiuit, crescit et nutritur. Vegetatiua
+						<lb/>quidem moritur, elementatiua sibi deficiente; sicut lumen moritur
+					<lb/>in lampade, oleo deficiente.</p>
+				</div>
+				<div type="section">
+					<head><lb/>8
+					<lb/>DE OCTAVO SVBIECTO. QVOD EST ELEMENTATIVA</head>
+					<p><lb/>In elementatiua sunt principia et regulae specifice, cum quibus
+						<lb/>habet multas species, ut aurum et argentum, et huiusmodi. Et
+						<lb/>definitur sic: Elementatiua est potentia, cui proprie competit
+						<lb/>elementare. Ipsa habet correlatiuos communes, sicut et sensitiua
+						<lb/>et sic de suis particularibus potest dici, uidelicet de igne, aere,
+						<lb/>aqua, terra. Quae habent suos correlatiuos, sine quibus ipsa
+						<lb/>elementa esse non possunt; sicut et correlatiua absque elementis
+						<lb/>non possunt esse, quae sunt ultima fundamenta ipsius elementatiuae.
+						<lb/>Et elementatiua per ipsa habet punctos, lineas et figuras,
+						<lb/>longum, latum et profundum, et corpus plenum, qualitates et
+						<lb/>complexiones, duritiem, asperitatem, leuitatem, ponderositatem,
+						<lb/>etc. Et in isto passu cognoscit intellectus, quod elementa sunt
+						<lb/>actualiter in elementatis, tamen remisso modo. Nam aliter elementata
+						<pb n="229"/>
+						<lb/>non haberent, ex quo essent; nec essent de genere
+						<lb/>substantiae; neque haberent formam, materiam, motum, instinctum,
+						<lb/>longum, latum, plenum, neque appetitum; quod est ualde
+					<lb/>impossibile et absurdum dicere.</p>
+				</div>
+				<div type="section">
+					<head><lb/>9
+					<lb/>DE NONO SVBIECTO. QVOD EST INSTRVMENTATIVA</head>
+					<p><lb/>Istud subiectum est de instrumentalitate. Et consideratur
+						<lb/>duobus modis, scilicet naturaliter; sicut oculus, qui est instrumentum
+						<lb/>ad uidendum. Et moraliter; sicut iustitia ad iudicandum, et
+					<lb/>martellus ad fabricandum.</p>
+					<p><lb/>Instrumentum quidem naturale potest cognosci, deducendo
+						<lb/>ipsum per principia et regulas huius Artis, specifico modo.
+						<lb/>Similiter et instrumentum morale per eadem principia et regulas,
+					<lb/>suo modo specifico.</p>
+					<p><lb/>Differunt enim inter se instrumenta naturalia et moralia. Talem
+						<lb/>autem deductionem siue discursum dimittimus intellectui bene
+						<lb/>intuenti. Et si intellectus artistae deficit in tali deductione,
+						<lb/>recurrat ad <hi rend="italic">Artem magnam</hi>, in qua largius tractamus de moralibus.
+						<lb/>Sed quia de moralibus mentionem facimus in Alphabeto,
+						<lb/>idcirco uolumus definire instrumenta moralia, ut per definitiones
+					<lb/>et principia et regulas artista habeat notitiam de moralibus.</p>
+					<div>
+						<head><lb/>1.</head> <p>Instrumentatiua est potentia, cum qua moralis agit moraliter.</p>
+					</div>
+					<div>
+						<head><lb/>2.</head>
+						<p><lb/>Iustitia est habitus, cum quo iustus agit iuste.</p>
+					</div>
+					<div>
+						<head><lb/>3.</head> <p>Prudentia est habitus, cum quo prudens utitur prudenter.</p>
+					</div>
+					<div>
+						<head><lb/>4.</head> <p>Fortitudo est habitus, cum quo fortis corde agit uiriliter.</p>
+					</div>
+					<div>
+						<head><lb/>5.</head> <p>Temperantia est habitus, cum quo temperatus utitur in
+						<lb/>agendo temperate.</p>
+					</div>
+					<pb n="230"/>
+					<div>
+						<head><lb/>6.</head> <p>Fides est habitus, cum quo aliquis credit id esse uerum, quod
+						<lb/>non sentit nec intelligit.</p>
+					</div>
+					<div>
+						<head><lb/>7.</head> <p>Spes est habitus, cum quo aliquis sperat ueniam a Domino
+						<lb/>dari et gloriam, et confidit se in suo bono et potenti amico.</p>
+					</div>
+					<div>
+						<head><lb/>8.</head> <p>Caritas est uirtus, cum qua habens propria bona illa facit
+						<lb/>communia.</p>
+					</div>
+					<div>
+						<head><lb/>9.</head> <p>Patientia est habitus, cum quo patiens uincit, et non uincitur.</p>
+					</div>
+					<div>
+						<head><lb/>10.</head> <p>Pietas est habitus, cum quo pius dolet de dolore proximi sui.</p>
+					</div>
+					<div>
+						<head><lb/>11.</head> <p>Auaritia est habitus, cum quo diues est pauper et mendicat.</p>
+					</div>
+					<div>
+						<head><lb/>12.</head> <p>Gula est habitus, cum quo gulosus est incarceratus in
+						<lb/>posterum in infirmitate et paupertate.</p>
+					</div>
+					<div>
+						<head><lb/>13.</head> <p>Luxuria est habitus, cum quo homo utitur suis potentiis
+						<lb/>indebite et contra matrimonium.</p>
+					</div>
+					<div>
+						<head><lb/>14.</head> <p>Superbia est habitus, cum quo homo superbus conatur
+						<lb/>hominibus superesse; et est contra humilitatem.</p>
+					</div>
+					<div>
+						<head><lb/>15.</head> <p>Accidia est habitus, cum quo accidiosus condolet de bonis
+						<lb/>alterius, et congaudet de malis illius.</p>
+					</div>
+					<div>
+						<head><lb/>16.</head> <p>Inuidia est habitus, cum quo inuidiosus appetit iniuste bona
+						<lb/>alterius.</p>
+					</div>
+					<div>
+						<head><lb/>17.</head> <p>Ira est habitus, cum quo iratus ligat suam deliberationem et
+						<lb/>libertatem.</p>
+					</div>
+					<div>
+						<head><lb/>18.</head> <p>Mendacium est habitus, cum quo mendax fatur siue testatur
+						<lb/>contra rei ueritatem.</p>
+					</div>
+					<div>
+						<head><lb/>19.</head> <p>Inconstantia est habitus, cum quo inconstans est multifarie
+						<lb/>uariabilis.</p>
+						<p><lb/>Dictum est de nouem subiectis. De quibus artista potest habere
+						<lb/>notitiam, discurrendo ipsa per principia et regulas huius Artis.</p>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">X</hi></head>
+				<head type="h2"><lb/>Decima pars</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de applicatione</hi></head>
+				<p><lb/>Applicatio diuiditur in tres partes. Prima est, quando applicatur
+					<lb/>implicitum ad explicitum. Secunda est, quando abstractum
+					<pb n="231"/>
+					<lb/>applicatur ad concretum. Tertia, quando quaestio applicatur ad
+				<lb/>loca huius Artis. Et primo de prima parte sic dicimus:</p>
+				<div>
+					<head><lb/>1.</head> <p>Si termini quaestionis sunt impliciti, applicentur ad terminos
+						<lb/>huius Artis applicatos; sicut quando quaeritur: Vtrum Deus sit?
+						<lb/>Aut: Vtrum angeli sint? Et sic de aliis applicentur ad bonitatem,
+						<lb/>magnitudinem, etc., uidelicet: Vtrum sit bonum magnum, etc. esse
+					<lb/>Deum et esse angelum?</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>De secunda parte sic est dicendum: Si termini quaestionis
+						<lb/>sunt abstracti, applicentur ad suos terminos concretos, sicut
+						<lb/>bonitas ad bonum, magnitudo ad magnum, color ad coloratum; et
+					<lb/>sic de aliis.</p>
+					<p><lb/>Et uideatur, per quem modum se habeat terminus abstractus et
+					<lb/>terminus concretus, discurrendo per principia et regulas.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Tertia pars est de applicatione ad loca. Et diuiditur in
+						<lb/>tredecim partes. Quae sunt hae, uidelicet: (1) Prima figura, (2)
+						<lb/>secunda, (3) tertia, (4) quarta figura, (5) definitiones, (6) regulae,
+						<lb/>(7) tabula, (8) euacuatio tertiae figurae, (9) multiplicatio quartae
+						<lb/>figurae, (10) mixtio principiorum et regularum, et (11) nouem
+					<lb/>subiecta, (12) centum formae, (13) quaestiones.</p>
+					<div>
+						<head><lb/>1-11.</head> <p>Istis partibus praenominatis applicentur materiae quaestionum,
+							<lb/>secundum quod eis competit. Nam si materia quaestionis
+							<lb/>competit primae figurae, ipsa applicetur ad primam figuram, et
+							<lb/>solutio quaestionis hauriatur a textu ipsius figurae, tali modo
+							<lb/>affirmando aut negando, quod textus remaneat illaesus. Et sicut
+							<lb/>diximus de prima figura, ita potest dici de aliis partibus suo modo.
+							<lb/>Et haec de applicatione sufficiant suo modo causa breuitatis. Et si
+							<lb/>intellectus artistae deficit in applicando terminos, recurrat ad
+						<lb/><hi rend="italic">Artem magnam</hi>. Nam in ea de his largius pertractatur.</p>
+					</div>
+					<pb n="232"/>
+					<div>
+						<head><lb/>12. DE CENTVM FORMIS</head>
+						<p><lb/>In ista parte ponuntur centum formae cum earum definitionibus,
+							<lb/>ut subiectum extendatur ad intellectum. Nam per formarum
+							<lb/>definitiones intellectus quidem erit condicionatus ad discurrendum
+							<lb/>illas per principia et regulas. Et per talem discursum
+							<lb/>intellectus habebit notitiam de formis, positis in quaestionibus,
+						<lb/>definitionibus. Ideo formae cum suis definitionibus sunt hae:</p>
+						<div>
+							<head><lb/>1.</head> <p>Entitas est causa, ratione cuius aliquod ens causat aliud ens.</p>
+						</div>
+						<div>
+							<head><lb/>2.</head> <p>Essentia est forma, ab esse abstracta et in eo sustentata.</p>
+						</div>
+						<div>
+							<head><lb/>3.</head> <p>Vnitas est forma, cui proprie competit unire.</p>
+						</div>
+						<div>
+							<head><lb/>4.</head> <p>Pluralitas est forma, aggregata ex pluribus, numero differentibus.</p>
+						</div>
+						<div>
+							<head><lb/>5.</head>
+							<p><lb/>Natura est forma, cui proprie competit naturare.</p>
+						</div>
+						<div>
+							<head><lb/>6.</head><p> Genus est ens ualde consideratum et ualde confusum, quod de
+							<lb/>pluribus differentibus specie praedicatur.</p>
+						</div>
+						<div>
+							<head><lb/>7.</head> <p>Species est ens, quod de pluribus differentibus numero
+							<lb/>praedicatur.</p>
+						</div>
+						<div>
+							<head><lb/>8.</head> <p>Indiuiduitas est terminus, qui magis distat a genere, quam
+							<lb/>aliud ens.</p>
+						</div>
+						<div>
+							<head><lb/>9.</head> <p>Proprietas est forma, cum qua agens specifice agit.</p>
+						</div>
+						<div>
+							<head><lb/>10.</head> <p>Simplicitas est forma, quae magis distat a compositione
+							<lb/>quam aliquod aliud ens.</p>
+						</div>
+						<div>
+							<head><lb/>11.</head> <p>Compositio est forma, aggregata ex pluribus essentiis.</p>
+						</div>
+						<div>
+							<head><lb/>12.</head> <p>Forma est essentia, cum qua agens agit in materiam.</p>
+						</div>
+						<div>
+							<head><lb/>13.</head> <p>Materia est essentia simpliciter passiua.</p>
+						</div>
+						<div>
+							<head><lb/>14.</head> <p>Substantia est ens, per se existens.</p>
+						</div>
+						<div>
+							<head><lb/>15.</head> <p>Accidens est forma, non per se existens, nec ad suum finem
+							<lb/>principaliter se habens.</p>
+						</div>
+						<div>
+							<head><lb/>16.</head> <p>Quantitas est ens, ratione cuius subiectum est quantum, et
+							<lb/>cum ea ipsum agit quantum.</p>
+						</div>
+						<div>
+							<head><lb/>17.</head> <p>Qualitas est ens, ratione cuius principia sunt qualia.</p>
+						</div>
+						<div>
+							<head><lb/>18.</head> <p>Relatio est forma respectiua ad multa diuersa, sine quibus
+							<lb/>non potest esse.</p>
+						</div>
+						<div>
+							<head><lb/>19.</head> <p>Actio est forma, inhaerens passo.</p>
+						</div>
+						<pb n="233"/>
+						<div>
+							<head><lb/>20.</head> <p>Passio est ens, subsistens et inhaerens actioni.</p>
+						</div>
+						<div>
+							<head><lb/>21.</head> <p>Habitus est forma, qua subiectum induitur.</p>
+						</div>
+						<div>
+							<head><lb/>22.</head> <p>Situs est positio partium, recte et debite ordinatarum in
+							<lb/>subiecto.</p>
+						</div>
+						<div>
+							<head><lb/>23.</head> <p>Tempus est ens, in quo entia creata sunt incepta et noua. Vel:
+								<lb/>Tempus est ens, ex multis nunc constitutum secundum ante et
+							<lb/>post.</p>
+						</div>
+						<div>
+							<head><lb/>24.</head> <p>Locus est accidens, per quod entia sunt locata. Vel: Locus est
+								<lb/>superficies, ambiens et continens immediate partes intraneas
+							<lb/>corporis.</p>
+						</div>
+						<div>
+							<head><lb/>25.</head> <p>Motus est instrumentum, cum quo mouens mouet motum.
+							<lb/>Vel: Motus est id, quod sapit naturam principii, medii et finis.</p>
+						</div>
+						<div>
+							<head><lb/>26.</head> <p>Immobilitas est ens, nullum appetitum habens ad mouendum.</p>
+						</div>
+						<div>
+							<head><lb/>27.</head>
+							<p><lb/>Instinctus est figuralitas et similitudo intellectus.</p>
+						</div>
+						<div>
+							<head><lb/>28.</head> <p>Appetitus est forma et similitudo uoluntatis.</p>
+						</div>
+						<div>
+							<head><lb/>29.</head> <p>Attractio est forma, cum qua attrahens attrahit attractum.
+								<lb/>Vel: Attractio est quaedam forma, habens instinctum et appetitum
+							<lb/>attrahendi aliquid ad subiectum.</p>
+						</div>
+						<div>
+							<head><lb/>30.</head> <p>Receptio est forma, cum qua recipiens recipit receptum.
+								<lb/>Vel: Receptio est quaedam forma, habens instinctum et appetitum
+							<lb/>recipiendi aliquid in subiecto.</p>
+						</div>
+						<div>
+							<head><lb/>31.</head> <p>Phantasia est similitudo, abstracta a rebus per imaginationem.</p>
+						</div>
+						<div>
+							<head><lb/>32.</head>
+							<p><lb/>Plenitudo est forma, a uacuitate remota.</p>
+						</div>
+						<div>
+							<head><lb/>33.</head> <p>Diffusio est forma, cum qua diffundens diffundit diffusibile.</p>
+						</div>
+						<div>
+							<head><lb/>34.</head> <p>Digestio est forma, per quam digerens digerit digestibile.</p>
+						</div>
+						<div>
+							<head><lb/>35.</head> <p>Expulsio est forma, cum qua natura expellit ea, quae non
+							<lb/>competunt subiecto.</p>
+						</div>
+						<div>
+							<head><lb/>36.</head> <p>Significatio est reuelatio secretorum, cum signo demonstratorum.</p>
+						</div>
+						<div>
+							<head><lb/>37.</head>
+							<p><lb/>Pulchritudo est quaedam forma speciosa, recepta a uisu uel
+							<lb/>auditu uel imaginatione uel conceptu uel delectatione. </p>
+						</div>
+						<div>
+							<head><lb/>38.</head> <p>Nouitas est forma, ratione cuius subiectum habituatur nouis
+							<lb/>habitibus.</p>
+						</div>
+						<div>
+							<head><lb/>39.</head> <p>Idea in Deo est Deus. Idea autem in creatione est creatura.</p>
+						</div>
+						<div>
+							<head><lb/>40.</head> <p>Mathematica est forma, cum qua intellectus humanus
+							<lb/>denudat substantiam ab accidentibus.</p>
+						</div>
+						<pb n="234"/>
+						<div>
+							<head><lb/>41.</head> <p>Ens, in potentia existens, est forma in subiecto existens,
+							<lb/>absque motu, quantitate, qualitate, et huiusmodi.</p>
+						</div>
+						<div>
+							<head><lb/>42.</head> <p>Punctuitas est essentia puncti naturalis, existentis minoris
+							<lb/>partis corporis.</p>
+						</div>
+						<div>
+							<head><lb/>43.</head> <p>Linea est longitudo, constituta ex pluribus punctis continuis,
+							<lb/>cuius extremitates sunt duo puncta.</p>
+						</div>
+						<div>
+							<head><lb/>44.</head> <p>Triangulus est figura, habens tres angulos acutos, tribus
+							<lb/>lineis contentos.</p>
+						</div>
+						<div>
+							<head><lb/>45.</head> <p>Quadrangulus est figura, habens quattuor angulos rectos.</p>
+						</div>
+						<div>
+							<head><lb/>46.</head> <p>Circulus est figura, linea circulari contenta. </p>
+						</div>
+						<div>
+							<head><lb/>47.</head> <p>Corpus est substantia, ex punctis, lineis et angulis plena.</p>
+						</div>
+						<div>
+							<head><lb/>48.</head> <p>Figura est accidens, constitutum ex situ et habitu.</p>
+						</div>
+						<div>
+							<head><lb/>49.</head> <p>Generales rectitudines sunt sex, ex quibus corpus est
+							<lb/>centrum per lineas diametrales.</p>
+						</div>
+						<div>
+							<head><lb/>50.</head> <p>Monstruitas est deuiatio motus naturae.</p>
+						</div>
+						<div>
+							<head><lb/>51.</head> <p>Deriuatio est subiectum materiale, per quod particulare
+							<lb/>descendit ab uniuersali.</p>
+						</div>
+						<div>
+							<head><lb/>52.</head> <p>Vmbra est habitus priuationis.</p>
+						</div>
+						<div>
+							<head><lb/>53.</head> <p>Speculum est corpus diaphanum, dispositum ad recipiendum
+							<lb/>omnes figuras, ei repraesentatas.</p>
+						</div>
+						<div>
+							<head><lb/>54.</head> <p>Color est habitus, per figuram contentus.</p>
+						</div>
+						<div>
+							<head><lb/>55.</head> <p>Proportio est forma, cui proprie competit proportionare.</p>
+						</div>
+						<div>
+							<head><lb/>56.</head> <p>Dispositio est forma, cui proprie competit disponere.</p>
+						</div>
+						<div>
+							<head><lb/>57.</head> <p>Creatio in aeternitate est idea; in tempore autem creatura
+							<lb/>est.</p>
+						</div>
+						<div>
+							<head><lb/>58.</head> <p>Praedestinatio in sapientia Dei est idea, in creatione autem
+							<lb/>est creatura.</p>
+						</div>
+						<div>
+							<head><lb/>59.</head> <p>Misericordia in aeternitate est idea; in praedestinato autem
+							<lb/>est creatura.</p>
+						</div>
+						<div>
+							<head><lb/>60.</head> <p>Necessitas est forma, quae aliter se non potest habere. Sed
+							<lb/>necessitatus est ens, continens illam.</p>
+						</div>
+						<div>
+							<head><lb/>61.</head> <p>Fortuna est accidens, inhaerens subiecto. Sed fortunatus est
+							<lb/>homo, dispositus ad illam.</p>
+						</div>
+						<div>
+							<head><lb/>62.</head> <p>Ordinatio est forma, cui proprie competit ordinare. Ordinatus
+							<lb/>autem est suum proprium subiectum.</p>
+						</div>
+						<pb n="235"/>
+						<div>
+							<head><lb/>63.</head> <p>Consilium est dubitabilis propositio; et consultus est sua
+							<lb/>quies.</p>
+						</div>
+						<div>
+							<head><lb/>64.</head> <p>Gratia est forma primitiua, in gratiato posita sine gratiati
+							<lb/>merito.</p>
+						</div>
+						<div>
+							<head><lb/>65.</head> <p>Perfectio est forma, cui proprie competit perficere in
+							<lb/>subiecto perfecto.</p>
+						</div>
+						<div>
+							<head><lb/>66.</head> <p>Declaratio est forma, in qua intellectus quiescit distinguendo.
+								<lb/>Declaratus autem est suum subiectum, in quo declaratio est
+							<lb/>habitus.</p>
+						</div>
+						<div>
+							<head><lb/>67.</head> <p>Transsubstantiatio est actus naturae in transsubstantiato,
+							<lb/>denudata forma antiqua et induta forma noua.</p>
+						</div>
+						<div>
+							<head><lb/>68.</head> <p>Alteratio est forma, nata in alterato.</p>
+						</div>
+						<div>
+							<head><lb/>69.</head> <p>Infinitas est forma, habens actum infinitum, ab omni finito
+							<lb/>remota.</p>
+						</div>
+						<div>
+							<head><lb/>70.</head> <p>Deceptio est habitus positiuus decipientis; et est habitus
+							<lb/>priuatiuus decepti.</p>
+						</div>
+						<div>
+							<head><lb/>71.</head> <p>Honor est habitus actiuus in honorante; passiuus autem est
+							<lb/>in honorato.</p>
+						</div>
+						<div>
+							<head><lb/>72.</head> <p>Capacitas est forma, cum qua capax tantum potest continere
+							<lb/>et recipere, quantum potest ei euenire.</p>
+						</div>
+						<div>
+							<head><lb/>73.</head> <p>Existentia est forma, cum qua existens existit id, quod est.
+							<lb/>Agentia est forma, mouens existentem ad terminum ad quem.</p>
+						</div>
+						<div>
+							<head><lb/>74.</head> <p>Comprehensio est similitudo infinitatis, et apprehensio finitatis.</p>
+						</div>
+						<div>
+							<head><lb/>75.</head>
+							<p><lb/>Inuentio est forma, cum qua intellectus inuenit inuentum.</p>
+						</div>
+						<div>
+							<head><lb/>76.</head> <p>Similitudo est forma, cum qua assimilans assimilat sibi suum
+							<lb/>assimilatum.</p>
+						</div>
+						<div>
+							<head><lb/>77.</head> <p>Antecedens est forma, causans consequens. Consequens
+							<lb/>autem est subiectum, in quo antecedens quiescit.</p>
+						</div>
+						<div>
+							<head><lb/>78.</head> <p>Potentia est forma, cum qua intellectus attingit obiectum.
+								<lb/>Obiectum autem est subiectum, in quo intellectus quiescit. Actus
+							<lb/>est connexio potentiae et obiecti.</p>
+						</div>
+						<div>
+							<head><lb/>79.</head> <p>Generatio in creaturis est forma, cum qua agens causat
+								<lb/>formas nouas. Corruptio est forma, cum qua corrumpens priuat
+							<lb/>formas antiquas. Priuatio autem existit in medio ipsarum.</p>
+						</div>
+						<div>
+							<head><lb/>80.</head> <p>Theologia est scientia, quae loquitur de Deo.</p>
+						</div>
+						<pb n="236"/>
+						<div>
+							<head><lb/>81.</head> <p>Philosophia est subiectum, per quod intellectus se contrahit
+							<lb/>ad omnes scientias.</p>
+						</div>
+						<div>
+							<head><lb/>82.</head> <p>Geometria est ars, inuenta ad mensurandum lineas, angulos
+							<lb/>et figuras.</p>
+						</div>
+						<div>
+							<head><lb/>83.</head> <p>Astronomia est ars, cum qua astronomus cognoscit uirtutes
+							<lb/>et motus, quos caelum habet in inferioribus effectiue.</p>
+						</div>
+						<div>
+							<head><lb/>84.</head> <p>Arithmetica est ars, inuenta ad numerandum multas unitates.</p>
+						</div>
+						<div>
+							<head><lb/>85.</head>
+							<p><lb/>Musica est ars, inuenta ad ordinandum multas uoces
+							<lb/>concordantes in uno cantu.</p>
+						</div>
+						<div>
+							<head><lb/>86.</head> <p>Rhetorica est ars, inuenta, cum qua rhetoricus ornat et
+							<lb/>colorat sua uerba.</p>
+						</div>
+						<div>
+							<head><lb/>87.</head> <p>Logica est ars, cum qua logicus inuenit naturalem coniunctionem
+							<lb/>inter subiectum et praedicatum.</p>
+						</div>
+						<div>
+							<head><lb/>88.</head> <p>Grammatica est ars inueniendi modum recte loquendi
+							<lb/>recteque scribendi.</p>
+						</div>
+						<div>
+							<head><lb/>89.</head> <p>Moralitas est habitus ad agendum bonum siue malum.</p>
+						</div>
+						<div>
+							<head><lb/>90.</head> <p>Politica est ars, cum qua burgenses procurant publicam
+							<lb/>utilitatem ciuitatum.</p>
+						</div>
+						<div>
+							<head><lb/>91.</head> <p>Ius est actus, regulatus in homine, de iustitia habituato.</p>
+						</div>
+						<div>
+							<head><lb/>92.</head> <p>Medicina est habitus, cum quo medicus procurat sanitatem
+							<lb/>patientis.</p>
+						</div>
+						<div>
+							<head><lb/>93.</head> <p>Regimen est forma, cum qua princeps regit populum suum.</p>
+						</div>
+						<div>
+							<head><lb/>94.</head> <p>Militia est habitus, cum quo miles iuuat principem, ut
+							<lb/>iustitiam possit tenere.</p>
+						</div>
+						<div>
+							<head><lb/>95.</head> <p>Mercatura est habitus, cum quo mercator scit emere et
+							<lb/>uendere.</p>
+						</div>
+						<div>
+							<head><lb/>96.</head> <p>Nauigatio est ars, cum qua nautae per mare sciunt nauigare.</p>
+						</div>
+						<div>
+							<head><lb/>97.</head> <p>Conscientia est forma, cum qua intellectus affligit animam
+							<lb/>de commissis.</p>
+						</div>
+						<div>
+							<head><lb/>98.</head> <p>Praedicatio est forma, cum qua praedicator informat
+							<lb/>populum ad habendum bonos mores, euitando malos.</p>
+						</div>
+						<div>
+							<head><lb/>99.</head> <p>Oratio est forma, cum qua orans loquitur Deo sanctifice.</p>
+						</div>
+						<div>
+							<head><lb/>100.</head> <p>Memoria est ens, cum quo entia sunt recolibilia.</p>
+						</div>
+						<pb n="237"/>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">XI</hi></head>
+				<head type="h2"><lb/>De undecima parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de quaestionibus</hi></head>
+				<p><lb/>Haec pars diuiditur in duodecim partes seu loca, disposita et
+					<lb/>proportionata ad quaestiones, secundum materiae diuersitatem,
+					<lb/>ex qua sunt. Nam in uno loco siue parte est significata solutio unius
+					<lb/>quaestionis, et in alio loco solutio alterius quaestionis. Propter
+					<lb/>quod diuersimode applicabimus quaestiones ad praedicta loca.
+					<lb/>Et hoc duobus modis, uidelicet faciemus aliquas quaestiones,
+					<lb/>quas soluemus; et alias, quas non soluemus, similiter faciemus. Et
+					<lb/>istas dimittemus artistae bene intuenti, ut ipse bene abstrahat
+					<lb/>solutionem ab illa parte siue loco, cui quaestiones transmittemus;
+					<lb/>nam in illa parte siue loco solutio est significata. Hic uero paucas
+					<lb/>quaestiones faciemus et soluemus causa breuitatis. Nam haec Ars
+					<lb/>abstracta est ab <hi rend="italic">Arte magna</hi>, ut ipsa breuius tractetur ut
+					<lb/>intellectus sub paucis uerbis apprehendat multa. Et sic intellectus
+					<lb/>est magis uniuersalis. Et per solutiones istarum quaestionum,
+					<lb/>sic positas seu datas, poterit dari solutio aliarum quaestionum suo
+				<lb/>modo.</p>
+				<p><lb/>Loca siue partes, ad quas transmittemus quaestiones, sunt
+					<lb/>duodecim, ut iam supra dictum est, uidelicet: (1) Prima figura, (2)
+					<lb/>secunda figura, et (3) tertia figura, (4) quarta figura, (5) definitiones,
+					<lb/>(6) regulae, (7) tabula, (8) euacuatio tertiae figurae (9)
+					<lb/>multiplicatio quartae figurae, (10) mixtio principiorum et regularum,
+				<lb/>(11) nouem subiecta, (12) centum formae.</p>
+				<p><lb/>Et primo de prima parte siue loco dicemus.</p>
+				<pb n="238"/>
+				<div type="section">
+					<head><lb/>1. DE QVAESTIONIBVS PRIMAE FIGVRAE</head>
+					<div>
+						<head><lb/>1.</head> <p>Quaestio: Vtrum sit aliquod ens, in quo subiectum et
+							<lb/>praedicatum conuertantur in identitate essentiae, naturae et
+							<lb/>numeri per totam primam figuram? Et est respondendum, quod
+							<lb/>sic. Nam alias conuersio subiecti et praedicati et aequalitas essent
+							<lb/>destructae absolute; et aeternitas esset superius per infinitatem
+							<lb/>durationis, et sua bonitas, magnitudo, potestas, etc. essent inferius
+						<lb/>per finitatem; quod est impossibile.</p>
+					</div>
+					<div>
+						<head><lb/>2.</head> <p>Quaeritur: Quid est illud ens, in quo subiectum et praedicatum
+							<lb/>conuertuntur? Et respondendum est, quod Deus est illud ens.
+							<lb/>Talis quidem conuersio non potest esse, nisi in subiecto infinito et
+						<lb/>aeterno.</p>
+					</div>
+					<div>
+						<head><lb/>3.</head> <p>Quaeritur: Vtrum diuina bonitas habeat ita in se magnam
+						<lb/>bonificationem, sicut diuinus intellectus intellectionem?</p>
+					</div>
+					<div>
+						<head><lb/>4.</head> <p>Quaeritur: Quare Deus ita in se habet magnam agentiam,
+						<lb/>sicut existentiam?</p>
+					</div>
+					<div>
+						<head><lb/>5.</head> <p>Quaeritur: Deus de quo potest tantum, quantum ipse est?</p>
+					</div>
+					<div>
+						<head><lb/>6.</head> <p>Quaeritur: Quare homo et animal non conuertuntur? Et ad
+							<lb/>hoc respondendum est: Ex eo, quia conuersio non potest fieri inter
+						<lb/>maius et minus, sed inter aequalia.</p>
+					</div>
+					<div>
+						<head><lb/>7.</head> <p>Quaeritur: Vtrum in angelo sua potestas, intellectus et
+							<lb/>uoluntas conuertantur? Et respondendum est: Non. Alioquin ipse
+						<lb/>posset habere ita infinitum actum et aeternum, sicut Deus.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>2. DE QVAESTIONIBVS SECVNDAE FIGVRAE</head>
+					<p><lb/>Quaestiones secundae figurae tribus modis possunt fieri. Sicut
+						<lb/>homo et leo, qui per differentiam differunt specie; et per concordantiam
+						<lb/>conueniunt in genere; et per contrarietatem contrariantur,
+						<lb/>uidelicet per corruptibile et incorruptibile. Et sic de aliis suo
+					<lb/>modo.</p>
+					<div>
+						<head><lb/>8.</head> <p>Quaeritur: Vtrum differentia sit magis generalis, quam
+							<lb/>concordantia et contrarietas? Ad quod respondendum est, quod
+							<pb n="239"/>
+							<lb/>sic, eo quia ubicumque est concordantia et contrarietas, est
+							<lb/>differentia, sed non e conuerso in omnibus. In multis enim
+							<lb/>reperitur differentia et concordantia, et tamen in illis non est
+						<lb/>contrarietas naturaliter; sicut in entibus spiritualibus.</p>
+					</div>
+					<div>
+						<head><lb/>9.</head> <p>Quaeritur: Quid est maius principium, concordantia aut
+							<lb/>contrarietas? Dicendum est, quod concordantia. A concordantia
+						<lb/>descendunt principia positiua, a contrarietate autem priuatiua.</p>
+					</div>
+					<div>
+						<head><lb/>10.</head> <p>Quaeritur: Vtrum ista definitio sit magis ostensiua, dicendo
+							<lb/>sic: Homo est animal homificans; uel: Homo est ens, cui proprie
+							<lb/>competit homificare, quam ista: Homo est animal rationale mortale?
+							<lb/>Et respondendum est, quod sic. Ratio huius est, quia homificatio
+							<lb/>soli homini competit, rationabilitas autem et mortalitas multis.
+							<lb/>Per triangulum principii, medii et finis possunt fieri quaestiones
+						<lb/>tribus modis. Primus modus est, quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>11.</head> <p>Quare est una prima causa et non plures? Cui respondendum
+						<lb/>est, ex eo, ut unus finis sit infinitus.</p>
+						<p><lb/>Secundus modus est, quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>12.</head> <p>Vtrum medium existens inter subiectum et praedicatum,
+							<lb/>habeat quantitatem continuam aut discretam? Et est respondendum,
+							<lb/>quod continuam habet, respectu medii extremitatum;
+							<lb/>discretam autem, respectu medii coniunctionis et mensurationis.
+						<lb/>Tertius modus est, quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>13.</head> <p>Qualis finis est ultimus in subiecto? Et respondendum est,
+						<lb/>quod finis proprius, sed non appropriatus.</p>
+					</div>
+					<div>
+						<p><lb/>Per triangulum maioritatis, aequalitatis et minoritatis possunt
+							<lb/>fieri quaestiones tribus modis. Per maioritatem, sicut quando
+						<lb/>quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>14.</head> <p>Quare Deus est supra angelum, et angelus supra hominem?
+							<lb/>Et respondendum est, quod Deus est supra angelum, eo quia
+							<lb/>bonitas diuina et magnitudo, etc. distant per infinitatem a
+							<lb/>quantitate, et per aeternitatem a tempore; bonitas autem angeli
+							<lb/>et magnitudo, etc. non; sed ipsa sunt supra bonitatem, magnitudinem
+							<lb/>hominis, etc., eo quia subiectum, in quo sunt, distat a
+							<lb/>diuisione et susceptione; sed bonitas, magnitudo, etc. corporis
+						<lb/>hominis non.</p>
+						<p><lb/>Secundus modus est, quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>15.</head> <p>In anima quare intellectus, uoluntas et memoria sunt
+							<lb/>aequales per essentiam? Cui respondendum est: Ex eo, quia
+							<pb n="240"/>
+							<lb/>prima causa per aequalitatem suae bonitatis magnitudinis, etc.
+							<lb/>est intelligibilis, recolibilis et amabilis aequaliter. Et in isto passu
+							<lb/>cognoscit intellectus, quod demonstratio potest fieri tribus modis:
+							<lb/>Per quid, aut per quia, aut per aequalitatem uel aequiparantiam.
+						<lb/>Tertius modus est, quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>16.</head> <p>Quare peccatum est magis circa nihil, quam circa aliquod
+							<lb/>aliud ens? Et dicendum est, quod propter hoc, quia magis
+						<lb/>repugnat fini essendi.</p>
+					</div>
+					<div>
+						<head><lb/>17.</head> <p>Quaeritur: Vtrum differentia, quae est inter sensuale et
+							<lb/>sensuale, sit maior, quam illa, quae est inter sensuale et intellectuale,
+						<lb/>et quam illa, quae est inter intellectuale et intellectuale?</p>
+					</div>
+					<div>
+						<head><lb/>18.</head> <p>Adhuc: Vtrum ista differentia quae est inter principium et
+						<lb/>medium, sit maior, quam illa, quae est inter medium et finem?</p>
+					</div>
+					<div>
+						<head><lb/>19.</head> <p>Similiter potest quaeri de differentia, quae est inter substantiam
+							<lb/>et substantiam, etc. Et respondendum est: Per ea, quae sunt
+							<lb/>significata in triangulis supra dictis subiectiue et obiectiue,
+						<lb/>mediante regula de B.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>3. DE QVAESTIONIBVS TERTIAE FIGVRAE</head>
+					<p><lb/>Dictum est in tertia figura, quod quodlibet principium applicatur
+					<lb/>alteri. Et ideo quaeritur:</p>
+					<div>
+						<head><lb/>20.</head> <p>Vtrum contrarietas sit tantum applicabilis bonitati, magnitudini,
+							<lb/>etc., quantum concordantia? Et dicendum est, quod non.
+							<lb/>Contrarietas enim applicatur eis priuando, contrariando, concordantia
+						<lb/>autem ponendo et concordando.</p>
+						<p><lb/>Dicitur in tertia figura: Bonitas est magna. Et ideo quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>21.</head> <p>Quid est bonitas magna? Et respondendum est, quod
+							<lb/>bonitas magna est illa, quae absque contrarietate et minoritate
+						<lb/>conuenit cum omnibus principiis et suis correlatiuis.</p>
+					</div>
+					<div>
+						<head><lb/>22.</head> <p>Quaeritur: Bonitas ubi est? Vade ad cameram B I, et recipias
+						<lb/>significata.</p>
+					</div>
+					<div>
+						<head><lb/>23.</head> <p>Quaeritur: Bonitas de quo est?</p>
+					</div>
+					<pb n="241"/>
+					<div>
+						<head><lb/>24.</head> <p>Quaeritur: Bonitas quo modo est? Vade ad cameras B D et B
+						<lb/>K, et accipias earum significata. Et sic de aliis.</p>
+					</div>
+					<div>
+						<head><lb/>25.</head> <p>Item quaeritur: Quando est intellectus uniuersalis et particularis?</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>4.
+					<lb/>DE QVAESTIONIBVS QVARTAE FIGVRAE</head>
+					<div>
+						<head><lb/>26.</head> <p>Quaeritur per cameram B C D: Vtrum aliqua bonitas sit
+							<lb/>magna infinite, sicut aeternitas? Et respondendum est, quod sic;
+						<lb/>alioquin tota magnitudo aeternitatis non esset bona.</p>
+					</div>
+					<div>
+						<head><lb/>27.</head> <p>Per cameram B E F quaeritur: Vtrum Deus sit ita potens
+							<lb/>per suam bonitatem, sicut per suum intellectum? Vade ad illam
+							<lb/>cameram, et recipe significata suorum correlatiuorum et suarum
+						<lb/>definitionum.</p>
+					</div>
+					<div>
+						<head><lb/>28.</head> <p>Quaeritur: Vtrum angelus producat angelum, cum sit
+							<lb/>superius, sicut homo hominem, cum sit inferius? Respondendum
+							<lb/>est, quod non. Angelus enim non recipit augmentationem ab extra,
+						<lb/>quia euacuaret suam essentiam; homo autem sic, ratione corporis.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>5. DE QVAESTIONIBVS PER DEFINITIONES PRINCIPIORVM</head>
+					<div>
+						<head><lb/>29.</head> <p>Quaeritur: Vtrum Deus sit ens necessarium?</p>
+					</div>
+					<div>
+						<head><lb/>30.</head> <p>Quaeritur: Vtrum unitas possit esse infinita absque actu
+						<lb/>infinito?</p>
+					</div>
+					<div>
+						<head><lb/>31.</head> <p>Quaeritur: Vtrum sit unus Deus singularis?</p>
+					</div>
+					<div>
+						<head><lb/>32.</head> <p>Quaeritur: Vtrum Deus possit esse malus? Vade ad definitionem
+							<lb/>bonitatis, magnitudinis et aeternitatis, et teneas ea, quae
+							<lb/>tibi significant. Nam si bonitas est magna et aeterna, iam necessarium
+							<lb/>est, quod bonitas sit ratio bono magno et aeterno, quod
+							<lb/>producat bonum magnum et aeternum. Et sic de aliis quaestionibus,
+						<lb/>quae possunt fieri per definitiones principiorum.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>6. DE QVAESTIONIBVS PER REGVLAS</head>
+					<div>
+						<head><lb/>33.</head> <p>Quaeritur: Vtrum credere praecedat intelligere?</p>
+					</div>
+					<div>
+						<head><lb/>34.</head> <p>Quaeritur: Quae definitio est melior et clarior, aut illa, quae
+							<pb n="242"/>
+							<lb/>datur per potentiam et suum specificum actum, uel illa, quae datur
+							<lb/>per genus et differentiam? Et respondendum est, quod illa,
+							<lb/>quae datur per potentiam et per suum specificum actum. Per illam
+							<lb/>quidem habetur cognitio subiecti et actus eius specifici; per
+						<lb/>alteram autem nequaquam, nisi partium tantum.</p>
+					</div>
+					<div>
+						<head><lb/>35.</head> <p>Quaeritur: Vtrum potentia extra suam essentiam habeat
+						<lb/>actum?</p>
+					</div>
+					<div>
+						<head><lb/>36.</head> <p>Quaeritur: Vtrum intellectus sit agens in memoria, et in
+						<lb/>uoluntate patiens?</p>
+					</div>
+					<div>
+						<head><lb/>37.</head> <p>Vtrum intellectus possit habere obiectum absque sensu?</p>
+					</div>
+					<div>
+						<head><lb/>38.</head> <p>Vtrum diuina potestas possit habere actum infinitum?</p>
+					</div>
+					<div>
+						<head><lb/>39.</head> <p>Vtrum actus possit esse absque differentia?</p>
+					</div>
+					<div>
+						<head><lb/>40.</head> <p>Vtrum actus sit possessus a potentia, uel ab obiecto, uel ab
+						<lb/>utroque?</p>
+					</div>
+					<div>
+						<head><lb/>41.</head> <p>Vtrum substantia possit per se existere absque suis causis?</p>
+					</div>
+					<div>
+						<head><lb/>42.</head> <p>Vtrum uoluntas habeat posse in intellectu per credere, et
+						<lb/>intellectus in uoluntate per intelligere?</p>
+					</div>
+					<div>
+						<head><lb/>43.</head> <p>Vtrum in anima uoluntas et memoria sint inaequales?</p>
+					</div>
+					<div>
+						<head><lb/>44.</head> <p>Vtrum intellectus absque suis correlatiuis possit esse uniuersalis
+						<lb/>aut particularis?</p>
+					</div>
+					<div>
+						<head><lb/>45.</head> <p>Vtrum intellectus, quando facit scientiam, facit ipsam per
+						<lb/>proprietatem et differentiam?</p>
+					</div>
+					<div>
+						<head><lb/>46.</head><p> Vtrum intellectus disponat amare et memorare, et e conuerso?</p>
+					</div>
+					<div>
+						<head><lb/>47.</head>
+						<p><lb/>Vtrum intellectus in uno et eodem tempore possit credere et
+						<lb/>intelligere?</p>
+					</div>
+					<div>
+						<head><lb/>48.</head> <p>Vtrum intellectus in se ipso faciat scientiam?</p>
+					</div>
+					<div>
+						<head><lb/>49.</head> <p>Quaeritur: Quo modo intellectus facit speciem?</p>
+					</div>
+					<div>
+						<head><lb/>50.</head> <p>Vtrum intellectus cum sua specie imperet uoluntati et
+							<lb/>memoriae, quod obiectent illam speciem?
+							<lb/>Sicut applicauimus quaestiones regularum ad intellectum,
+						<lb/>sic possunt applicari ad alias potentias suo modo.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>7. DE QVAESTIONIBVS, FACTIS PER TABVLAM</head>
+					<div>
+						<head><lb/>51.</head> <p>Quaeritur: Vtrum mundus sit aeternus? Vade ad columnam
+							<lb/>B C D, et teneas negatiuam. Et inuenies in camera B C T B, quod si
+							<pb n="243"/>
+							<lb/>aeternus est, sunt multae aeternitates differentes specie, et sunt
+							<lb/>concordantes per cameram B C T C contra cameram B C T D;
+							<lb/>quod est impossibile. Vnde sequitur, quod de quaestione negatiua
+						<lb/>est tenenda; et hoc probat regula B.</p>
+					</div>
+					<div>
+						<head><lb/>52.</head> <p>Quaeritur: Vtrum Deus tantum possit esse infinitus per
+							<lb/>suam magnitudinem, quantum per suam aeternitatem? Vade ad
+							<lb/>columnam C D E, et ad cameram C D T C, tenendo affirmatiuam
+						<lb/>contra cameram C D T D.</p>
+					</div>
+					<div>
+						<head><lb/>53.</head> <p>Vtrum tantum Deus possit per aeternitatem, quantum per
+						<lb/>intellectum? Vade ad columnam D E F et ad cameram D E T D.</p>
+					</div>
+					<div>
+						<head><lb/>54.</head> <p>Vtrum Deus sit tantum potens per suum posse, sicut per
+							<lb/>suum intelligere et amare? Vade ad columnam E F G. Et teneas
+							<lb/>affirmatiuam per cameram E F T E et per cameram E F T F et per
+						<lb/>cameram E F T G, usquequo tota columna erit consummata.</p>
+					</div>
+					<div>
+						<head><lb/>55.</head> <p>Vtrum intellectus suus et sua uoluntas sint maiores, quam
+							<lb/>sua uirtus? Vade ad columnam F G H. Et teneas negatiuam per
+						<lb/>omnes cameras ipsius columnae, hauriendo significata camerarum.</p>
+					</div>
+					<div>
+						<head><lb/>56.</head>
+						<p><lb/>Vtrum diuina ueritas sit in tantum uirtuosa per aequales
+							<lb/>correlatiuos, sicut diuina uoluntas? Vade ad columnam G H I. Et
+						<lb/>teneas affirmatiuam per omnes cameras ipsius columnae.</p>
+					</div>
+					<div>
+						<head><lb/>57.</head> <p>Vtrum in Deo sua uirtus, gloria et ueritas habeant id, quod
+							<lb/>sunt aequales, et a tempore, loco et minoritate remotae? Vade ad
+						<lb/>columnam H I K. Et teneas affirmatiuam per omnes cameras.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>8. DE QVAESTIONIBVS, FACTIS PER EVACVATIONEM TERTIAE FIGVRAE</head>
+					<p><lb/>In camera B C dictum est, quod bonitas est magna. Modo
+					<lb/>quaeritur:</p>
+					<div>
+						<head><lb/>58.</head> <p>Vtrum bonitas sit magna? Et:</p>
+					</div>
+					<div>
+						<head><lb/>59.</head> <p>Quid est sua magnitudo? Et:</p>
+					</div>
+					<div>
+						<head><lb/>60.</head> <p>Bonitas et magnitudo in quo concordant? Et:</p>
+					</div>
+					<div>
+						<head><lb/>61.</head> <p>Vtrum possint concordare absque differentia?
+							<lb/>Et respondendum est, quod bonitas est magna, ut patet per
+							<pb n="244"/>
+							<lb/>definitionem magnitudinis; et sua magnitudo est, habere suos
+							<lb/>correlatiuos, ut per secundam speciem regulae C patet. Et
+							<lb/>concordant, quia bonitas est magna per magnitudinem, et e
+							<lb/>conuerso. Iam quidem concordare nequaquam possent absque
+						<lb/>differentia suorum correlatiuorum.</p>
+						<p><lb/>Et haec de euacuatione tertiae figurae sufficiant causa breuitatis.
+							<lb/>Nam per hoc, quod de ipsa diximus, potest artista facere et
+						<lb/>soluere quaestiones per alias cameras.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>9. DE QVAESTIONIBVS, FACTIS PER MVLTIPLICATIONEM QVARTAE FIGVRAE</head>
+					<div>
+						<head><lb/>62.</head> <p>Quaeritur: Per quem modum intellectus condicionat se ad
+							<lb/>generalem per generale intelligere? Vade ad multiplicationem
+							<lb/>quartae figurae. Et uideas, per quem modum intellectus multiplicat
+							<lb/>condiciones, cum quibus multiplicat obiecta et suum intelligere,
+							<lb/>ut per multas et magnas scientias sit generalis et multis
+							<lb/>habitibus indutus. Et haec de multiplicatione quartae figurae
+						<lb/>sufficiant causa breuitatis.</p>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>10. DE QVAESTIONIBVS, FACTIS PER MIXTIONEM PRINCIPIORVM ET REGVLARVM</head>
+					<div>
+						<head><lb/>63.</head> <p>Quaeritur: Vtrum bonitas sit discursiua per magnitudinem
+							<lb/>et durationem, et e conuerso? Et respondendum est, quod sic, ut
+						<lb/>significatum est per tertiam figuram, faciendo de subiecto praedicatum.</p>
+					</div>
+					<div>
+						<head><lb/>64.</head>
+						<p><lb/>Quaeritur: Quid est bonitas in magnitudine, duratione, etc.?
+							<lb/>Et respondendum est, quod in magnitudine est magna, et in
+						<lb/>duratione durans.</p>
+					</div>
+					<div>
+						<head><lb/>65.</head> <p>Quaeritur: Quid habet bonitas in magnitudine, duratione,
+							<lb/>etc.? Ad quod dicendum est, quod ipsa habet correlatiuos magnos
+							<lb/>in magnitudine et in duratione durabiles. Et sicut exemplificauimus
+							<lb/>de bonitate, ita potest exemplificari de aliis principiis suo
+						<lb/>modo. Et haec de mixtione sufficiant causa breuitatis.</p>
+					</div>
+					<pb n="245"/>
+				</div>
+				<div type="section">
+					<head><lb/>11. DE QVAESTIONIBVS NOVEM SUBIECTORUM</head>
+					<div>
+						<head><lb/>11.1. DE QVAESTIONIBVS PRIMI SVBIECTI. QVOD EST DEVS</head>
+						<div>
+							<head><lb/>66.</head> <p>Quaeritur: Vtrum Deus sit? Et respondendum est, quod sic,
+							<lb/>ut probatum est in quaestionibus primae figurae.</p>
+						</div>
+						<div>
+							<head><lb/>67.</head> <p>Quaeritur: Quid est Deus? Et respondendum est, quod Deus
+								<lb/>est ens, qui tantum agit in se, quantum ipse est, per secundam
+							<lb/>speciem regulae C.</p>
+						</div>
+						<div>
+							<head><lb/>68.</head> <p>Quaeritur: Quid habet Deus in se coessentialiter? Ad quod
+								<lb/>respondendum est, quod habet suos correlatiuos, sine quibus non
+							<lb/>posset habere immensas et aeternas rationes.</p>
+						</div>
+						<div>
+							<head><lb/>69.</head> <p>Per tertiam speciem quaeritur: Quid est Deus in alio? Ad
+								<lb/>quod respondendum est, quod ipse est creans, gubernans, et
+							<lb/>huiusmodi.</p>
+						</div>
+						<div>
+							<head><lb/>70.</head> <p>Per quartam speciem regulae C quaeritur: Deus quid habet
+								<lb/>in alio? Ad quod respondendum est, quod habet in mundo posse
+								<lb/>et dominium, et in hominibus iudicium et actum gratiae et
+								<lb/>misericordiae et humilitatis, patientiae et pietatis. Et haec de Deo
+							<lb/>sufficiant causa breuitatis.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.2. DE QVAESTIONIBUS SECVNDI SVBIECTI. QVOD EST ANGELVS</head>
+						<div>
+							<head><lb/>71.</head> <p>Quaeritur: Vtrum angeli sint? Et respondendum est, quod
+								<lb/>sic. Si enim illud, quod uidetur minus esse, simile Deo est, et multo
+							<lb/>magis id, quod maius uidetur esse, simile Deo est.</p>
+							<p><lb/>Adhuc: Si aliquod compositum ex corporali et intellectuali
+								<lb/>est, multo magis id, quod est compositum ex intellectuali et intellectuali, est.
+								<lb/>Amplius: Si angeli quidem non essent, scala differentiae et
+								<lb/>concordantiae esset euacuata, et per consequens mundus; quod
+							<lb/>est impossibile.</p>
+						</div>
+						<div>
+							<head><lb/>72.</head> <p>Quaeritur: Angelus de quo est, et cuius est? Et respondendum
+								<lb/>est per regulam D, quod est de se ipso; sua enim essentia non
+								<lb/>potest esse punctualis neque linealis. Et per secundam speciem
+								<lb/>eiusdem regulae est de suis correlatiuis spiritualibus, scilicet de
+								<lb/>suis -tiuis et -bilibus et -are, ex quibus est compositus. Per -tiuos
+								<pb n="246"/>
+								<lb/>est actiuus, per -bile est receptiuus, et -are est actus, existens intra
+								<lb/>-tiuos et -biles. Per tertiam speciem est dicendum, quod angelus
+							<lb/>est Dei. Et haec de angelis sufficiant causa breuitatis. </p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.3. DE QVAESTIONIBVS TERTII SVBIECTI QVOD EST CAELVM</head>
+						<div>
+							<head><lb/>73.</head> <p>Vtrum caelum moueat se ipsum? Et respondendum est
+								<lb/>quod sic, ut sua principia habeant correlatiuos substantiales et
+							<lb/>proprios per suas constellationes.</p>
+						</div>
+						<div>
+							<head><lb/>74.</head> <p>Vtrum caelum moueat se ad locum? Et respondendum est,
+								<lb/>quod sic, in se et in inferioribus circulariter, sed non extra se.
+								<lb/>Ratio huius est, quia extra se nullam actionem habet uel habere
+							<lb/>potest.</p>
+						</div>
+						<div>
+							<head><lb/>75.</head> <p>Vtrum angelus moueat caelum? Et respondendum est, quod
+								<lb/>non; quia si moueret, iam -tiui suorum correlatiuorum essent
+								<lb/>inferius, et -biles superius; et etiam per suam formam iam non
+								<lb/>moueret elementa nec elementata, sed per suam materiam; quod
+							<lb/>est impossibile.</p>
+						</div>
+						<div>
+							<head><lb/>76.</head> <p>Quaeritur: Vtrum caelum habeat animam motiuam? Et
+								<lb/>respondendum est, quod sic. Nam aliter sensitiua et uegetatiua
+							<lb/>non haberent animas motiuas, nec elementa haberent motum.</p>
+						</div>
+						<div>
+							<head><lb/>77.</head> <p>Quaeritur per primam speciem regulae de E: Quare est
+								<lb/>caelum? Et dicendum est, quod ex eo, quia ex sua forma et
+							<lb/>materia est constitutum.</p>
+						</div>
+						<div>
+							<head><lb/>78.</head> <p>Per secundam speciem regulae E quaeritur: Caelum quare
+								<lb/>est? Et respondendum est, ut entia inferiora possint habere
+							<lb/>motum. Et haec de caelo sufficiant causa breuitatis.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.4. DE QVAESTIONIBVS QVARTI SVBIECTI. QVOD EST HOMO</head>
+						<div>
+							<head><lb/>79.</head> <p>Quaeritur: Vtrum homo de Deo possit habere maiorem
+								<lb/>notitiam affirmando aut negando? Et respondendum est, quod
+								<lb/>affirmando. Deus enim non est per illa, sine quibus ipse est, sed per
+							<lb/>illa, sine quibus esse non potest.</p>
+						</div>
+						<pb n="247"/>
+						<div>
+							<head><lb/>80.</head> <p>Quaeritur: Quare homo agit per formam specificam? Vade
+							<lb/>ad secundam speciem regulae E, et ibi est solutio implicata.</p>
+						</div>
+						<div>
+							<head><lb/>81.</head> <p>Vtrum homo augmentans actus suos augmentet suam
+							<lb/>essentiam? Et respondendum est, quod nullus homo agit se ipsum.</p>
+						</div>
+						<div>
+							<head><lb/>82.</head> <p>Quaeritur: Quando homo desiderat recolere, et non potest
+								<lb/>recolere, quis istorum deficit plus, aut memoria aut intellectus?
+								<lb/>Cui dicendum est, quod memoria. Ipsa enim citius reddit speciem
+							<lb/>antiquam naturaliter intellectui, quam uoluntati.</p>
+						</div>
+						<div>
+							<head><lb/>83.</head> <p>Quaeritur: Anima et corpus quo modo componunt hominem?
+								<lb/>Et respondendum est, quod in homine bonitas corporalis et
+							<lb/>spiritualis componunt unam bonitatem; et sic de aliis.</p>
+						</div>
+						<div>
+							<head><lb/>84.</head> <p>Quaeritur: Quid est uita hominis? Ad quod respondendum
+								<lb/>est, quod illa forma, quae est composita ex uegetatiua, sensitiua et
+							<lb/>imaginatiua et rationatiua.</p>
+						</div>
+						<div>
+							<head><lb/>85.</head> <p>Quid est mors hominis? Respondendum est, quod dissolutio
+								<lb/>potentiae elementatiuae, uegetatiuae, sensitiuae, imaginatiuae et
+							<lb/>rationatiuae.</p>
+						</div>
+						<div>
+							<head><lb/>86.</head> <p>Quaeritur: Vtrum homo sit uisibilis? Et dicendum est, quod
+							<lb/>non. Visus enim non potest uidere, nisi colorem et figuram.</p>
+						</div>
+						<div>
+							<head><lb/>87.</head> <p>Quaeritur: Vtrum in homine intellectus et memoria sint
+								<lb/>eadem potentia? Et respondendum est, quod non, quia si essent
+								<lb/>eadem potentia, intellectus iam non esset successiuus in acquirendo
+								<lb/>species, neque traderet illas obliuioni, neque etiam eas
+								<lb/>ignoraret. Iterum: Quia minus esset fortis in obiecto contra
+							<lb/>libertatem uoluntatis. Et haec de homine dicta sufficiant.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.5. DE QVAESTIONIBVS QVINTI SVBIECTI. QVOD EST IMAGINATIVA</head>
+						<div>
+							<head><lb/>88.</head> <p>Quaeritur: Vtrum imaginatiua imaginetur imaginabilia suo
+							<lb/>modo, sicut sensitiua sensat sensibilia?</p>
+						</div>
+						<div>
+							<head><lb/>89.</head> <p>Quaeritur: Quae est causa, quare imaginatiua abstrahit
+							<lb/>species a sensibilibus?</p>
+						</div>
+						<div>
+							<head><lb/>90.</head> <p>Quaeritur: Quid est imaginatiua?</p>
+						</div>
+						<div>
+							<head><lb/>91.</head> <p>Vtrum imaginatiua habeat correlatiuos?</p>
+						</div>
+						<pb n="248"/>
+						<div>
+							<head><lb/>92.</head> <p>Vtrum imaginatiua augmentet se augmentando suum
+							<lb/>actum?</p>
+						</div>
+						<div>
+							<head><lb/>93.</head> <p>Vtrum imaginatiua sit altior potentia, quam sensitiua?</p>
+						</div>
+						<div>
+							<head><lb/>94.</head> <p>Vtrum imaginatiua habeat instinctum et appetitum specificos?</p>
+						</div>
+						<div>
+							<head><lb/>95.</head>
+							<p><lb/>Sensitiua per quem modum impedit actum imaginatiuae?</p>
+						</div>
+						<div>
+							<head><lb/>96.</head> <p>Quare imaginatiua non est ita potens in sensatis sicut
+							<lb/>sensitiua? Vade ad subiectum imaginatiuae.</p>
+						</div>
+						<div>
+							<head><lb/>97.</head> <p>Quaeritur: Vtrum sensitiua senset imaginatiuam? Et respondendum
+							<lb/>est, quod potentiae inferiores non agunt in superioribus.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.6. DE
+						<lb/>QVAESTIONIBVS SEXTI SVBIECTI QVOD EST SENSITIVA</head>
+						<div>
+							<head><lb/>98.</head> <p>Quaeritur: Quae potentia istarum sentiat famem et sitim
+								<lb/>aut gustus aut tactus? Et respondendum est, quod illa, quae magis
+							<lb/>disponit obiectum.</p>
+						</div>
+						<div>
+							<head><lb/>99.</head> <p>Vtrum gustus sic sentiat famem aut sitim cum instinctu et
+								<lb/>appetitu, sicut uisus coloratum cum colore? Vade ad secundam
+							<lb/>speciem regulae E.</p>
+						</div>
+						<div>
+							<head><lb/>100.</head> <p>Quaeritur: Sensitiua ex quo sensat sensata? Et respondendum
+								<lb/>est, quod quilibet sensus particularis sensat suum sensibile
+								<lb/>per formam specificam; sicut subiectum coloratum, subsistens
+							<lb/>cristallo, colorat ipsum.</p>
+						</div>
+						<div>
+							<head><lb/>101.</head> <p>Vtrum sensitiua habeat quantitatem punctualem et linealem?
+								<lb/>Et respondendum est, quod sensitiua ita cito attingit
+							<lb/>obiectum de longe, sicut de prope.</p>
+						</div>
+						<div>
+							<head><lb/>102.</head> <p>Vtrum sensitiua, sicut habet sensum communem, sic habeat
+							<lb/>communem potestatem, instinctum et appetitum?</p>
+						</div>
+						<div>
+							<head><lb/>103.</head> <p>Quaeritur: Quid est sensitiua?</p>
+						</div>
+						<div>
+							<head><lb/>104.</head> <p>Sensitiua cum quibus est communis et particularis?</p>
+						</div>
+						<div>
+							<head><lb/>105.</head> <p>Sensitiua ex quo uiuit et nutritur?</p>
+						</div>
+						<div>
+							<head><lb/>106.</head> <p>Vtrum sensitiua sit sensata? Vade ad subiectum sensitiuae.</p>
+						</div>
+						<pb n="249"/>
+					</div>
+					<div>
+						<head><lb/>11.7. DE QVAESTIONIBVS SEPTIMI SVBIECTI. QVOD EST VEGETATIVA</head>
+						<div>
+							<head><lb/>107.</head> <p>Vtrum uegetatiua agat per speciem suam?</p>
+						</div>
+						<div>
+							<head><lb/>108.</head> <p>Vtrum uegetatiua habeat aliqua, ratione quorum sit
+							<lb/>communis et particularis, sicut sensitiua?</p>
+						</div>
+						<div>
+							<head><lb/>109.</head> <p>Vtrum quantitas uegetatiuae sit punctualis aut linealis?</p>
+						</div>
+						<div>
+							<head><lb/>110.</head> <p>Quaeritur: Quid est uegetatiua et quid habet in se ipsa?</p>
+						</div>
+						<div>
+							<head><lb/>111.</head> <p>Per secundam speciem regulae C quaeritur: Vegetatiua ex
+							<lb/>quo uiuit et nutritur et crescit, et in quo subiecto est plantata?</p>
+						</div>
+						<div>
+							<head><lb/>112.</head> <p>Quid est mors uegetatiuae? Vade ad subiectum uegetatiuae,
+							<lb/>in quo solutiones praedictarum quaestionum sunt implicitae.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.8. DE QVAESTIONIBVS OCTAVI SVBIECTI.
+						<lb/>QVOD EST ELEMENTATIVA</head>
+						<div>
+							<head><lb/>113.</head> <p>Quid est elementatiua?</p>
+						</div>
+						<div>
+							<head><lb/>114.</head> <p>Vtrum elementatiua habeat multas species, sicut sensitiua?</p>
+						</div>
+						<div>
+							<head><lb/>115</head>
+							<p><lb/>Vtrum elementatiua habeat suos correlatiuos?</p>
+						</div>
+						<div>
+							<head><lb/>116.</head> <p>Vtrum flamma candelae elementet lichinum lampadis in se
+							<lb/>ipsa, quando ipsum accendit?</p>
+						</div>
+						<div>
+							<head><lb/>117.</head> <p>Vtrum flamma candelae sic accendat lichinum cum aere,
+							<lb/>sicut uisus sensat coloratum cum luce?</p>
+						</div>
+						<div>
+							<head><lb/>118.</head> <p>Vtrum elementatiua sit causa longitudinis, latitudinis,
+							<lb/>profunditatis et plenitudinis?</p>
+						</div>
+						<div>
+							<head><lb/>119.</head> <p>Vtrum elementatiua sit communis species elementorum?</p>
+						</div>
+						<div>
+							<head><lb/>120.</head> <p>Vtrum elementatiua possit esse in subiecto, elementis
+							<lb/>remotis ab illo?</p>
+						</div>
+						<div>
+							<head><lb/>121.</head> <p>Vtrum elementatiua sit finis punctorum, linearum et
+							<lb/>figurarum?</p>
+						</div>
+						<div>
+							<head><lb/>122.</head> <p>Vtrum elementatiua sic moueat se naturaliter cum suo
+								<lb/>instinctu et appetitu, leuitate, grauitate, caliditate, et huiusmodi,
+							<lb/>sicut homo se ipsum artificialiter cum pedibus suis?</p>
+						</div>
+						<div>
+							<head><lb/>123.</head> <p>Vtrum elementatiua possit habere naturam absque correlatiuis
+							<lb/>substantialibus?</p>
+						</div>
+						<div>
+							<head><lb/>124.</head> <p>Vtrum in elementatis elementa sint actu?</p>
+						</div>
+						<pb n="250"/>
+						<div>
+							<head><lb/>125.</head> <p>Vtrum elementatiua habeat continuam quantitatem per
+							<lb/>omnia loca sub globo lunari?</p>
+						</div>
+						<div>
+							<head><lb/>126.</head> <p>Vtrum sint duae caliditates, et duae siccitates, et duae
+								<lb/>albedines, et huiusmodi? Solutio: Vade ad subiectum elementatiuae.
+								<lb/>Et abstrahas ab eo solutiones, cum intellectu condicionato et
+							<lb/>artificiato per Artem istam.</p>
+						</div>
+						<div>
+							<head><lb/>127.</head> <p>Vtrum sit quintum elementum? Et respondendum est,
+							<lb/>quod non. In elementatis quidem sufficiunt quattuor complexiones.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>11.9.
+							<lb/>DE QVAESTIONIBVS NONI SVBIECTI.
+						<lb/>QVOD EST INSTRVMENTATIVA</head>
+						<p><lb/>Superius iam fecimus quaestiones instrumentalitatis naturalis.
+						<lb/>Hic autem uolumus facere moralis.</p>
+						<div>
+							<head><lb/>128.</head> <p>Quaeritur: Quid est moralitas?</p>
+						</div>
+						<div>
+							<head><lb/>129.</head> <p>Quaeritur: Quid est iustitia, prudentia?</p>
+						</div>
+						<div>
+							<head><lb/>130.</head> <p>Item quaeritur: Quid est auaritia et gula, etc.?
+								<lb/>Vade ad nonum subiectum instrumentatiuae, et agas, secundum
+							<lb/>quod tibi est significatum per eius tractatum.</p>
+						</div>
+						<div>
+							<head><lb/>131.</head> <p>Adhuc quaeritur: Vtrum iustitia sit bona? Et respondendum
+							<lb/>est, quod sic; quia si non, tunc iniustitia non esset mala.</p>
+						</div>
+						<div>
+							<head><lb/>132.</head> <p>Vlterius quaeritur: Vtrum iustitia habeat correlatiuos? Et
+								<lb/>dicendum est, quod sic; quia si non, iam non posset esse habitus,
+								<lb/>nec haberet aliqua, in quibus esset sustentata et assituata. Et
+								<lb/>sicut dicitur de istis, ita possunt fieri quaestiones de iustitia per
+								<lb/>omnia principia sua et suas regulas. Et sicut dictum est de iustitia,
+							<lb/>ita potest dici de aliis habitibus uirtuosis.</p>
+						</div>
+						<div>
+							<head><lb/>133.</head> <p>Vtrum uitia simpliciter sint principia priuatiua? Et
+								<lb/>respondendum est, quod sic. Nam ipsa cum uirtutibus nullam
+								<lb/>conuenientiam habent. In uirtutibus quidem agens et agibile et
+								<lb/>instrumenta ad inuicem habent concordantiam in obiecto uirtuoso.
+								<lb/>Et haec de moralibus sufficiant causa breuitatis; maxime, quia
+							<lb/>in <hi rend="italic">Arte magna</hi>de ipsis largius pertractauimus.</p>
+						</div>
+						<pb n="251"/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>12. DE QVAESTIONIBVS CENTVM FORMARVM</head>
+					<p><lb/>Quaestiones centum formarum tot modis fieri possunt, quot
+						<lb/>quaelibet forma est differens in nouem subiectis, sicut entitas, etc.,
+						<lb/>quae est una forma in Deo, alia in angelo, et alia in caelo, etc. Sicut
+					<lb/>quando quaeritur:</p>
+					<div>
+						<head><lb/>134.</head> <p>Vtrum entitas Dei sit principium ad omnes entitates? Et
+							<lb/>respondendum est, quod sic; eo quia sua bonitas est principium ad
+							<lb/>omnes bonitates, et sua magnitudo ad omnes magnitudines, et sua
+							<lb/>aeternitas ad omnes durationes. Hoc autem non potest dici de
+							<lb/>entitate angeli et caeli, etc. Et ideo forma, secundum quod est
+						<lb/>diuersa ab aliis, est discursiua cum suis principiis et regulis.</p>
+					</div>
+					<div>
+						<head><lb/>135.</head> <p>Quaeritur: Vtrum essentia et esse conuertantur? Et
+							<lb/>respondendum est, quod in Deo conuertuntur. In Deo enim nihil
+							<lb/>est superius neque inferius. Sed in angelo et caelo etc. non
+							<lb/>conuertuntur; eo quia esse in illis est per essentiam, et non e
+							<lb/>conuerso; et ideo in talibus essentia est superius, esse autem
+						<lb/>inferius.</p>
+						<p><lb/>Quaestiones per unum modum fieri possunt de unitate Dei, et
+							<lb/>per alium modum de unitate angeli, et per alium modum de
+						<lb/>unitate caeli, etc. Sicut quando quaeritur:</p>
+					</div>
+					<div>
+						<head><lb/>136.</head> <p>Vtrum competat unitati Dei unire infinitum? Et respondendum
+							<lb/>est, quod sic. Nam absque unire infinito ipsa unitas non
+							<lb/>posset esse infinita; eo quia sua potestas esset finita et ligata, et in
+							<lb/>aeternitate esset otiosa, et sic posset dici de diuina bonitate et
+						<lb/>magnitudine, etc.; quod est impossibile.</p>
+					</div>
+					<div>
+						<head><lb/>137.</head> <p>Si autem quaeratur de unitate angeli: Vtrum ei competat
+							<lb/>unire? Respondendum est secundum condiciones suae unitatis,
+							<lb/>uidelicet quod unus angelus cum alio unit unum loquendo
+							<lb/>moraliter obiectiue, unum amare, unum intelligere, unum bonificare.
+							<lb/>Non dico, quod unus angelus uniat alium angelum, quia
+							<lb/>non potest, ut iam dictum est. Nec etiam unum caelum potest
+							<lb/>unire aliud caelum. Sed effectiue unitas caeli causat unitates
+							<lb/>inferiores. De unitate autem hominis non est sic. Nam unus homo
+						<lb/>potest unire alium, generando alium. Et sic de aliis, suo modo.</p>
+					</div>
+					<pb n="252"/>
+					<div>
+						<head><lb/>138.</head> <p>Quaeritur: Vtrum in Deo sit pluralitas? Et respondendum
+							<lb/>est, quod sic, respectu suorum correlatiuorum per secundam
+							<lb/>speciem regulae C significatorum. Sine quibus non potest habere
+							<lb/>in se infinitam et aeternam operationem bonificando, magnificando,
+							<lb/>aeternificando, etc.; et sic essent ligatae et otiosae suae
+							<lb/>rationes; quod est impossibile. De pluralitate autem angeli non est
+							<lb/>sic. Nam angelus compositus est ex -tiuis et -bilibus respectu
+							<lb/>simplicitatis diuinae. Et similiter caelum est iam magis compositum,
+						<lb/>quam angeli; et homo, quam caelum.</p>
+					</div>
+					<div>
+						<head><lb/>139.</head> <p>Quaeritur: Vtrum in Deo sit natura? Et respondendum
+							<lb/>est, quod sic, ut habeat naturale recolere, intelligere et amare, et
+							<lb/>etiam naturalem bonitatem, magnitudinem, etc. Et ut ipsae
+							<lb/>rationes sint ei naturales, quod producat bonum infinitum et
+							<lb/>aeternum, ut competat ei naturare. De natura autem angelica non
+							<lb/>est sic; nam finita et noua est. Verumtamen ei competit naturare
+							<lb/>eo quia habet species innatas et naturales, cum quibus obiectiue et
+							<lb/>naturaliter obiectat. Et sic de natura caeli potest dici secundum
+							<lb/>suum modum, et etiam secundum sua principia et regulas
+							<lb/>naturales et specificas, cum quibus naturaliter et specifice agit. Et
+							<lb/>sic de natura aliorum subiectorum potest dici suo modo.
+							<lb/>Per ea, quae dicta sunt supra, potest artista facere quaestiones
+							<lb/>de centum formis et soluere eas, secundum quod quaestiones
+							<lb/>diuersimode tractantur et deducuntur per nouem subiecta, intra
+							<lb/>se differentia, conseruando cuilibet formae suam definitionem
+							<lb/>quam superius fecimus. Et in isto passu cognoscit intellectus, per
+							<lb/>quem modum est ualde generalis ad faciendum multas quaestiones,
+							<lb/>ad soluendum illas per illum modum, qui est in euacuatione
+							<lb/>tertiae figurae et in multiplicatione quartae figurae. Et ideo quis
+							<lb/>posset numerare quaestiones et solutiones, quae fieri possunt? Et
+						<lb/>haec de quaestionibus centum formarum sufficiant causa breuitatis.</p>
+					</div>
+					<pb n="253"/>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">XII</hi></head>
+				<head type="h2"><lb/>De duodecima parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de habituatione</hi></head>
+				<div>
+					<p><lb/>Haec pars est de habituatione huius Artis. Et ipsa diuiditur in
+						<lb/>tres partes. Quarum prima est de tredecim partibus, in quas haec
+						<lb/>Ars diuiditur. Et illas artista huius Artis debet habituare, ut ipse
+						<lb/>sciat applicare quaestionem ad illum locum seu loca, quaestioni
+					<lb/>dispositum seu disposita secundum proportionem materiae quaestionis.</p>
+				</div>
+				<div>
+					<p><lb/>Secunda pars est, quod habituet modum et processum textus
+						<lb/>huius Artis, tenendo modum textus ad probandum et soluendum
+						<lb/>quaestiones peregrinas illo modo, per quem sunt explicatae in
+						<lb/>textu: sicut unum exemplum, per quod aliud est declaratum et
+					<lb/>exemplificatum. </p>
+				</div>
+				<div>
+					<p><lb/>Tertia pars est, quod ipse habeat modum multiplicandi quaestiones
+						<lb/>et solutiones ad unam et eandem conclusionem, ut per
+						<lb/>tertiam et quartam figuram et tabulam significatum est. Et haec
+					<lb/>de habituatione sufficiant causa breuitatis.</p>
+				</div>
+			</div>
+			<div type="chapter">
+				<head type="numeral"><lb/><hi rend="bold">XIII</hi></head>
+				<head type="h2"><lb/>De tertia decima parte</head>
+				<head type="h3"><lb/><hi rend="bold">Quae est de modo docendi hanc Artem</hi></head>
+				<div>
+					<p><lb/>Pars ista diuiditur in quattuor partes. Prima est, ut artista bene
+						<lb/>sciat alphabetum cordetenus et figuras, definitiones et regulas
+					<lb/>atque assituationem tabulae.</p>
+				</div>
+				<div>
+					<p><lb/>Secunda pars et, ut ipse declaret bene textum scholaribus
+						<lb/>rationabiliter, et non liget se cum auctoritatibus aliorum. Et quod
+						<lb/>scholares praelegant textum; et si dubitauerint in aliquo, petant ab
+					<lb/>artista siue a magistro illud.</p>
+				</div>
+				<div>
+					<p><lb/>Tertia pars est, quod magister siue artista faciat quaestiones
+						<lb/>coram scholaribus; et soluat eas rationabiliter secundum Artis
+						<pb n="254"/>
+						<lb/>processum. Nam absque ratione artista non potest bene uti ista
+					<lb/>Arte.</p>
+					<p><lb/>Vnde sciendum est, quod haec Ars tres amicos habet, uidelicet
+						<lb/>subtilitatem intellectus, et rationem, et bonam intentionem. Sine
+						<lb/>istis quidem tribus hanc Artem nullus addiscere potest.
+						<lb/>Quarta pars est, quod artista faciat scholaribus quaestiones, ut
+						<lb/>ipsi de illis respondeant. Et dicat illis, quod multiplicent rationes
+						<lb/>ad unam et eandem conclusionem. Et adhuc, quod inueniant loca,
+						<lb/>quorum ratione sciant respondere et multiplicare. Si uero scholares
+						<lb/>nesciant respondere nec rationes multiplicare nec inuenire, tunc
+					<lb/>temporis artista siue magister doceat scholares de praedictis.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+                    <head><lb/>DE FINE HVIVS ARTIS</head>
+                    <p><lb/>Ad honorem et laudem Dei et publicae utilitatis finiuit Raimundus
+				<lb/>hunc librum Pisis in monasterio sancti Domnini, mense
+				<pb n="255"/>
+				<lb/>Ianuarii anno Domini 1307 incarnationis Domini nostri Iesu
+			<lb/>Christi. Amen.</p>
+		</div>
+	</body>
+</text>
+</TEI>

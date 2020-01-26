@@ -1,0 +1,461 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De more medicorum</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>P. Gatti</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">Elisabetta Bartoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2122" unit="words">Parole: 2122</measure>
+				<measure quantity="12038" unit="characters_without_spaces">Caratteri (spazi esclusi): 12038</measure>
+				<measure quantity="13876" unit="characters_witht_spaces">Caratteri (spazi inclusi): 13876</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-09-08">08/09/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Commedia</note>
+				<note>Tipo: Fonti letterarie</note>
+				<note>Note: Parole: 2281&#13;
+Caratteri:12307&#13;
+Il testo (pp. 398-427) è pubblicato con
+					                    traduzione a fronte (testo latino sulle pagine pari)&#13;
+Correzioni al testo: &#13;
+v. 157
+					                    fuit] fait <hi rend="italic">ed.</hi>&#13;
+probabile errore di conteggio dei versi dopo il v.
+				                    330 alla fine del testo nell'ed. a stampa&#13;
+GM&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Anonymus</author>
+						<title>De more medicorum</title>
+                                                <editor>P. Gatti</editor>
+					</analytic>
+					<monogr>
+						<author/>
+						<title level="m">Commedie latine del XII e XIII secolo, VI</title>                                        
+						<imprint>
+							<pubPlace>Genova</pubPlace>
+							<publisher>DA.R.FI.CL.ET</publisher>
+							<biblScope unit="page">379-427</biblScope>
+							<date>1998</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Commedie latine del XII e XIII secolo</title>
+						<biblScope unit="volume">VI</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti letterarie</term>
+					<term type="genre">Commedia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">- testo semplice in versi, senza struttura: ho messo un &lt;div&gt; intorno all'intera opera. È giusto?</item><item type="itemNotaJC">- il &lt;pb&gt; ha come @n "vv. 1-260". È giusto?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<div>
+			<pb n="vv. 1-260"/>
+			<lg>
+				<l>Si cupias, lector, medicorum noscere morem,</l>
+				<l>Carminibus variis notificabo tibi.</l>
+				<l>Ergo cor apponas, prodest nam discere cuiquam:</l>
+				<l>Omnia scire decet, cuncta patrare nocet.</l>
+				<l n="5">Scire malum, quod vitet idem, res conveniens est:</l>
+				<l>Scire bonum discat quilibet id quod agat.</l>
+				<l>Principio medicus, urinam cum videt egri,</l>
+				<l>Admirans inquit: &lt;&lt; Hec aqua cuius adest? &gt;&gt;</l>
+				<l>Et capiens scafium manibus deducit in altum</l>
+				<l n="10">Inspiciensque diu sic, quasi tristis, ait</l>
+				<l>(Maxime si fuerit alicuius divitis illa,</l>
+				<l>A quo subtrahere munera posse sciat):</l>
+				<l>&lt;&lt; Crede michi, frater, cito ni succurritur isti,</l>
+				<l>Posset de facili deteriora pati!</l>
+				<l n="15">En, urina docet quia fortiter iste gravatur:</l>
+				<l>Nam caput et venter, cetera membra dolent.</l>
+				<l>Intus et exterius calor illum vexat, amarum</l>
+				<l>Guttur habet, stomachum debilitasque premit.</l>
+				<l>Fercula que sumit non digerit, egerit illa</l>
+				<l n="20">Indigesta nimis; esca nocere solet.</l>
+				<l>Nocte nichil dormit, tempestas angit eundem</l>
+				<l>Et cibus insipidus sic sapit omnis ei.</l>
+				<l>Ergo si cito vult hic indagare salutem,</l>
+				<l>Consilium medici queritet ipse boni</l>
+				<l n="25">Qui bene curet eum ceu morbi causa requirit:</l>
+				<l>Ignarus medicus mortificare solet.</l>
+				<l>Naturam morbi qui non agnoscit, eundem</l>
+				<l>Quomodo curabit? Est sua cura mala.</l>
+				<l>Ignari medici demit medicina salutem;</l>
+				<l n="30">Dum prodesse putat, semper obesse solet.</l>
+				<l>Curo meos egros, conforto, visito cunctos:</l>
+				<l>Sic debet facere quisque bonus medicus. &gt;&gt;</l>
+				<l>Territus hiis dictis rogat illum nuncius egri</l>
+				<l>Ut sibi consilium prebeat ipse modo.</l>
+				<l n="35">&lt;&lt; Providus est quoniam, volo consilium sibi ferre,</l>
+				<l>Nulli consilium denego quippe meum.</l>
+				<l>Attamen ex illo me vivere semper oportet,</l>
+				<l>Quod pretio multo discere vix potui.</l>
+				<l>Ars michi thesaurus manet, hec possessio clara;</l>
+				<l n="40">Quilibet arte sua vivere debet homo.</l>
+				<l>Servivi multis qui premia nulla dederunt,</l>
+				<l>Frivola verba tamen multa dedere michi.</l>
+				<l>Vix modo pro meritis aliquis respondet amicus,</l>
+				<l>Quilibet ingratus cernitur esse quasi.</l>
+				<l n="45">Dum dolet infirmus, promittit premia multa;</l>
+				<l>Cessat promissum cum dolor ipse cadit.</l>
+				<l>Disposui quare nulli servire deinceps,</l>
+				<l>Ni michi sit cautum pignore vel pretio.</l>
+				<l>Cum limpha calida siropum mane resumat</l>
+				<l n="50">Et comedat farra pomaque sive pira.</l>
+				<l>Abstineat vino! Facito servare dietam,</l>
+				<l>Donec visurus venero cras ad eum. &gt;&gt;</l>
+				<l>Infirmo rediens exponit cuncta minister.</l>
+				<l>Talibus auditis fortius ille dolet</l>
+				<l n="55">Atque verens nimium: &lt;&lt; Propera velociter &gt;&gt; , inquit,</l>
+				<l>&lt;&lt; Ad me quod veniat supplice voce roga! &gt;&gt;</l>
+				<l>Is properans medicum reperit; tunc supplicat illi,</l>
+				<l>Quatenus accedat; nam rogat eger eum.</l>
+				<l>&lt;&lt; Lux hodierna michi patientes visere tantum</l>
+				<l n="60">Vix puto sufficiet quos recreare volo;</l>
+				<l>Idcirco nequeo, sed cras proficiscar ad ipsum</l>
+				<l>Auxiliumque sibi consiliumque dabo. &gt;&gt;</l>
+				<l>Vertit iter retro famulus, solatur egentem;</l>
+				<l>Propter solamen non minus ille dolet.</l>
+				<l n="65">Surgit in aurora famulus scafioque resumpto</l>
+				<l>Ad medicum properat letus et inquit ei:</l>
+				<l>&lt;&lt; Lux bona sit vobis! &gt;&gt; urinam monstrat et illi.</l>
+				<l>Qua visa medicus singula querit ab hoc:</l>
+				<l>Si bene dormivit, assellatur, requiescit.</l>
+				<l n="70">Cuncta prius doctus, consilium dat ei.</l>
+				<l>Tunc surgens medicus visurus tendit eundem</l>
+				<l>Atque statum querit introiens ad eum</l>
+				<l>Et pulsum tangit. Eger suspirat ab ymis:</l>
+				<l>&lt;&lt; Est michi quippe male, torqueor intus! &gt;&gt; ait.</l>
+				<l n="75">&lt;&lt; Confortare satis, omnem depone timorem!</l>
+				<l>Auxilio Domini nam cito sanus eris.</l>
+				<l>Omnipotens Dominus cunctos confortat egentes,</l>
+				<l>Qui confortare solus in orbe potest.</l>
+				<l>Debilitat firmos, infirmos roborat, egros</l>
+				<l n="80">Sanat, vivificat, mortificando premit.</l>
+				<l>Infima sublimat, sublimia mergit ad yma,</l>
+				<l>Ditat et anichilat, prebet et ipse levat.</l>
+				<l>Exaltans humiles deponit sepe potentes,</l>
+				<l>Omnipotens solus creditur esse Deus. &gt;&gt;</l>
+				<l n="85">&lt;&lt; Ipse tibi queso virtutem prebeat ut me</l>
+				<l>Confortare queas, qui dare cuncta potest.</l>
+				<l>Ut tibi cura mei tamen adsit sedula, queso;</l>
+				<l>Quod petis ut tribuam, tu modo pande michi,</l>
+				<l>Et tibi quod iustum fuerit prebebo libenter:</l>
+				<l n="90">Premia quisque labor optat habere sua. &gt;&gt;</l>
+				<l>&lt;&lt; Premia digna sui cupit omnis habere laboris;</l>
+				<l>Quatenus acquirat inde laborat homo.</l>
+				<l>Quilibet idcirco nimium studet atque laborat</l>
+				<l>Ut sibi proficuum conferat ipse labor.</l>
+				<l n="95">Si labor ipse perit, perit eius in arte voluntas;</l>
+				<l>Amisso studio fit piger omnis homo.</l>
+				<l>Cumque Deo teneatur homo servire potenti,</l>
+				<l>Qui Deus et dominus, conditor atque pater,</l>
+				<l>Nemo tamen famulatur ei nisi spe dationis:</l>
+				<l n="100">Hac specie colitur magnus in orbe Deus.</l>
+				<l>Egris servivi nonnullis et generosis,</l>
+				<l>Quis ego consilium nocte dieque dedi,</l>
+				<l>Et michi pro meritis nullus respondit eorum,</l>
+				<l>Qui promittebant munera multa michi.</l>
+				<l n="105">Quilibet ex facili deluditur, at semel: ille</l>
+				<l>Qui me decepit fallere non poterit.</l>
+				<l>Cimba locum vitat, ipsam qui lesit euntem;</l>
+				<l>Aucupis ingenium callida vitat avis.</l>
+				<l>Nempe fidem dictis adhibebam credalus horum:</l>
+				<l n="110">Ingenui verbis credere debet homo.</l>
+				<l>Me spes decepit; spes multos decipit atque</l>
+				<l>Hec eadem reficit, implet et evacuat.</l>
+				<l>Non tamen hoc pro te dixi; nam si placet, ecce</l>
+				<l>Gratis servire sum tibi presto quidem.</l>
+				<l n="115">Culpa malignorum factis nocet egregiorum;</l>
+				<l>Quod non commisit sic homo sepe luit.</l>
+				<l>Omnibus est turpe, sed turpius est generosis</l>
+				<l>Non compensare servitium merito.</l>
+				<l>Qui sunt immemores accepti semper honoris,</l>
+				<l n="120">Debet eis ferre dedecus omais homo.</l>
+				<l>Ingratos homines inflata superbia reddit;</l>
+				<l>Quilibet ingratus nempe superbus erit.</l>
+				<l>Corda superborum volitant per culmina montis,</l>
+				<l>Sed dum stare putant, vallis ad yma ruunt.</l>
+				<l n="125">Nonne superborum finis mala semper habetur?</l>
+				<l>Gaudent in vita, morte profecto dolent.</l>
+				<l>Ascendunt subito, subito merguntur ad yma;</l>
+				<l>Stare diu nequeunt qui mala semper agunt.</l>
+				<l>Hoc Dominus dixit vitium quod displicet omni;</l>
+				<l n="130">Semper veridica sunt pia verba Dei. &gt;&gt;</l>
+				<l>&lt;&lt; Grates innumeras ex hoc tibi reddo, magister,</l>
+				<l>Gratis consulere quod michi vis, ut ais.</l>
+				<l>Tolle quod est iustum! Michi postea ferto iuvamen;</l>
+				<l>Ne sine prodesset non tua cura michi! &gt;&gt;</l>
+				<l n="135">Accepta mercede sua, securus in ere,</l>
+				<l>Inquit ei: &lt;&lt; Sanus si cupis esse cito,</l>
+				<l>Ceu dicam facito: fiat siropus ut omni</l>
+				<l>Febre procul pulsa sospes adesse queas &gt;&gt; .</l>
+				<l>Facto siropo patienti, protinus hausto,</l>
+				<l n="140">Non prodesse sibi, sentit obesse magis.</l>
+				<l>Plus dolet amissis sine causa sumptibus eger</l>
+				<l>Quam de febre sua, que minus urit eum.</l>
+				<l>&lt;&lt; Ne mireris &gt;&gt;, ait, &lt;&lt; humorum multa malorum</l>
+				<l>In te materia; rem bene nosco modo.</l>
+				<l n="145">Oportuna tibi multum medicina videtur</l>
+				<l>Ut deponatur ista superfluitas.</l>
+				<l>Qua sumpta scito quia morbi causa peribit:</l>
+				<l>Incolumis fies; sic eris, adde fidem! &gt;&gt;</l>
+				<l>&lt;&lt; Sic michi dicebas de siropo quia sanum</l>
+				<l n="150">Me quoque reddebat, profuit et minime.</l>
+				<l>Amisi nummos expendi quos in eodem:</l>
+				<l>Ne perdam vereor hos alios pariter. &gt;&gt;</l>
+				<l>&lt;&lt; Non est amissum quicquid gerit utilitatem:</l>
+				<l>Amisisse putas quod tibi lucra tulit?</l>
+				<l n="155">Tu vero noscas profectum quod tibi multum</l>
+				<l>Siropus gessit, teque docere volo:</l>
+				<l>Dura nimis natura fait, sed mollificavit</l>
+				<l>Illam siropus atque paravit eam.</l>
+				<l>Nunc subiens apte pariet medicina salutem:</l>
+				<l n="160">Omnia fructificant cum venit apta dies. &gt;&gt;</l>
+				<l>&lt;&lt; Ventosis verbis et vanis imbuis aures;</l>
+				<l>Ignoro certe quid tua dicta sonant.</l>
+				<l>Attamen hoc fiat, medicine sed meliorem</l>
+				<l>Effectum dum det, quam dedit ante, Deus. &gt;&gt;</l>
+				<l n="165">&lt;&lt; Simplex non credit nisi tantum que sapit ipse;</l>
+				<l>Omnibus in rebus credit adesse dolum.</l>
+				<l>Ecce, Deum testor, quem nil latet, omnia qui scit,</l>
+				<l>Quod fraus in verbis non latet ulla meis!</l>
+				<l>Falsum consilium nulli me credo dedisse:</l>
+				<l n="170">Ut novi melius, ymmo fidele dedi!</l>
+				<l>De me conqueritur nemo; sed sunt, puto, multi</l>
+				<l>Qui me collaudant meque valere sciunt.</l>
+				<l>Sunt, puto, plus centum michi qui servire tenentur</l>
+				<l>Consilium propter auxiliumque meam.</l>
+				<l n="175">Hii me cognoscunt, hii longe meque salutant</l>
+				<l>Et dicunt famulos semper adesse meos.</l>
+				<l>Tu vero me nescis adhuc, mendacia cuncta</l>
+				<l>Que tibi dico putas; est tua pauca fides.</l>
+				<l>Tu verum falsum credis, falsum quoque verum,</l>
+				<l n="180">Illicitum licitum, fas pariterque nefas.</l>
+				<l>Sum deus ut possim febrem depellere verbo</l>
+				<l>Atque crucis signo vivificare viros?</l>
+				<l>Crede michi: tibi vis medicamen proderit ullum;</l>
+				<l>Rebus et in verbis est tibi nulla fides.</l>
+				<l n="185">Credenti vere pro voto singula fiunt:</l>
+				<l>In factis cunctis est tibi pauca fides.</l>
+				<l>Non est hoc hominis, pro certo scito, fidelis,</l>
+				<l>Veridicis verbis non adhibere fidem. &gt;&gt;</l>
+				<l>&lt;&lt; Quicquid vis facias, noli me debilitare,</l>
+				<l n="190">Queso, tuis verbis; verba nociva michi! &gt;&gt;</l>
+				<l>Ergo confecta medicina combibit illam</l>
+				<l>Infirmus cupidus; que male purgat eum.</l>
+				<l>Quatenus assellet expectat debilis eger;</l>
+				<l>Sed cum fallat eum spes sua, tristis ait:</l>
+				<l n="195">&lt;&lt; Vade, voca medicum veniat quod protinus ad me! &gt;&gt;</l>
+				<l>Nuntius accelerat ut reperire queat.</l>
+				<l>Invento, rogat hunc ut ad egrum tendat egentem:</l>
+				<l>&lt;&lt; Peius &gt;&gt;, ait, &lt;&lt; solito se modo tristis habet. &gt;&gt;</l>
+				<l>&lt;&lt; Quomodo? Nonne bene purgavit eum medicina?</l>
+				<l n="200">Miror, mirantem me stupor atque capit. &gt;&gt;</l>
+				<l>&lt;&lt; Vera loquor: minime commovit eum medicina;</l>
+				<l>Non egessit enim, fortiter unde dolet. &gt;&gt;</l>
+				<l>&lt;&lt; Cum bibit exitiens epar illam, congrua multum</l>
+				<l>Ipsi crede michi quod medicina fuit.</l>
+				<l n="205">Utilis esset ei nunc altera, postea sanus</l>
+				<l>Esset uti piscis; sed nimis ipse tenax.</l>
+				<l>Congregat assidue, nil volt expendere parcus,</l>
+				<l>Nec dare vult aliquid proque salute sua!</l>
+				<l>Anxiat ut nummis nummos coniungat avarus;</l>
+				<l n="210">Plus nummos quam se quisquis avarus amat.</l>
+				<l>In coacervando patitur mala multa fidemque</l>
+				<l>Nulli servare tristis avarus amat,</l>
+				<l>Plus habet et quanto tanto plus appetit ipse:</l>
+				<l>Ydropico similis omnis avarus adest.</l>
+				<l n="215">Non gaudet partis quia tangere parta veretur;</l>
+				<l>Ne sibi deficiant pauper avarus eget.</l>
+				<l>Est similis talpe metuenti mandere terram</l>
+				<l>Ne sibi deficiat: sic perit ipsa fame.</l>
+				<l>Que male lucratur alii conservat ut ipsis</l>
+				<l n="220">Gaudeat; is penis perpetuisque datur.</l>
+				<l>Iste foret sanus, expendere si voluisset;</l>
+				<l>Sed quoniam non vult, febris aduret eom.</l>
+				<l>Et iam non possum tantum sufferre laborem</l>
+				<l>Pro modico pretio quod dedit ipse michi.</l>
+				<l n="225">Uncia quippe, scias, michi si largita fuisset,</l>
+				<l>Non compensatus esset et inde labor!</l>
+				<l>Dic sibi quod sumat aliud medicamen ut inde</l>
+				<l>Apte purgetur: convaluisse sciat. &gt;&gt;</l>
+				<l>Tunc famulus remeans seriatim singula narrat.</l>
+				<l n="230">Hiis intellectis, ingemit eger egens;</l>
+				<l>Ingemit et lacrimans ait: &lt;&lt; Heu michi, sunt medicorum</l>
+				<l>Mellea verba quidem factaque virus habent!</l>
+				<l>Credere quis verbis nam posset dolcibus horum?</l>
+				<l>Ore favum mellis, corde venena gerunt.</l>
+				<l n="235">Dummodo subripere possint, languentibus ullam</l>
+				<l>Curam non adhibent, cura sed eris eis.</l>
+				<l>Nulla fides! Medicus non curat si moriatur</l>
+				<l>Eger, denarios dummodo bursa ferat.</l>
+				<l>Vade cito, fili, pinguem mercare suellam</l>
+				<l n="240">Atque fer ad medicum, quod veniatque roga! &gt;&gt;</l>
+				<l>Accepta mediens gaudens venit ecce suella;</l>
+				<l>Ingrediens alta voce salutat eum</l>
+				<l>Et reddit grates; tunc singula querit ab illo.</l>
+				<l>Omnibus auditis certificatus ait:</l>
+				<l n="245">&lt;&lt; Accipias iterum medicinam - consulo vere -</l>
+				<l>Quam modo sumpsisti: profuit illa tibi.</l>
+				<l>Sumpsit epar quoniam totum, tibi dico quod ante</l>
+				<l>Non assellasti te neque movit ea;</l>
+				<l>Sed te purgabit pravis humoribus ista</l>
+				<l n="250">Et sic sanus eris, ne dubitare velis. &gt;&gt;</l>
+				<l>Ergo libens ipsam sumens non inde movetur</l>
+				<l>Egrotans, tristem se miserumque vocat.</l>
+				<l>Nuntius ad medicum currens hoc intimat ipsi;</l>
+				<l>Qui iubet ut fiat suppositura sibi.</l>
+				<l n="255">Qua facta, per eam non egerit anxius eger.</l>
+				<l>Tunc cristera cito fecit ei fieri.</l>
+				<l>Estque per id pravis humoribus alleviatus;</l>
+				<l>Non tamen omnino deserit estus eum.</l>
+				<l>Temporis ad cursum paulatim febris anelans</l>
+				<l n="260">Ipsum deseruit, incolumisque fuit.</l>
+				<pb n="vv. 261-344"/>
+				<l>Sunt medici multi qui nil sitiunt nisi nummos,</l>
+				<l>Illos preponunt omnibus atque Deo.</l>
+				<l>Non honor est cure nec crimen nec timor ullus:</l>
+				<l>Decipiunt omnes ambitione lucri.</l>
+				<l n="265">Certe non medicus, sed fallax est inimicus</l>
+				<l>Egri qui curam non habet, ymmo sui.</l>
+				<l>Non curat morbum, sed curat tollere censum;</l>
+				<l>Ipse ferox adimit que valet inde sibi.</l>
+				<l>Dum durat morbus, decrescit copia census;</l>
+				<l n="270">Duplex supplicium quilibet eger habet.</l>
+				<l>Visitat et curat nummis mediantibus egrum;</l>
+				<l>Letatur medicus atque libenter adit.</l>
+				<l>Si nummi desunt, perit omnis sollicitudo;</l>
+				<l>Sollicitum nummus quemlibet esse facit.</l>
+				<l n="275">Sollicitat pigros, studiosos reddit inertes,</l>
+				<l>Infirmos sanat, debilibus dat opem.</l>
+				<l>Causidicis adimit nummus tribuitque loquelam,</l>
+				<l>Auditum surdis restituitque viris.</l>
+				<l>Mutos voce loqui magna facit atque loquaces</l>
+				<l n="280">Interdum mutos reddere sepe solet.</l>
+				<l>Claudis dat gressum, velocibus eripit illum,</l>
+				<l>Letificat pueros exhilaratque senes.</l>
+				<l>Bella movet nummus, eadem sedare videtur,</l>
+				<l>Qui sunt discordes unanimesque facit.</l>
+				<l n="285">Regibus et ducibus generaliter omnibus ipse</l>
+				<l>Imperat atque preest et dominatur eis.</l>
+				<l>Si careat nummis, sapiens quasi nullus habetur</l>
+				<l>Et fatuus sapiens dives habetur homo.</l>
+				<l>Formosus turpis et fortis debilis atque</l>
+				<l n="290">Nobilis est humilis, si sibi census abest.</l>
+				<l>Nummus amicitias iungit, dat nummus honores:</l>
+				<l>Vix sine denariis ullus habetur honor.</l>
+				<l>Nummus honorari cunctos facit atque timeri:</l>
+				<l>Dives honoratur, vilis habetur inops.</l>
+				<l n="295">Rex regum nummus dominus manet et dominantum;</l>
+				<l>Omnes inclinant et famulantur ei.</l>
+				<l>Qualis Virgilius vel si sit qualis Homerus,</l>
+				<l>Si non sit locuples nullus habetur homo.</l>
+				<l>Destruit, edificat nummus, facit omnia que vult:</l>
+				<l n="300">Ius et iustitiam cum ratione necat.</l>
+				<l>Nobilitat vilem: si sit de stercore natus,</l>
+				<l>Dummodo sit dives, summus habetur homo.</l>
+				<l>Indignus dignus, iniustus iustus habetur,</l>
+				<l>Insipiens sapiens, impius atque pius.</l>
+				<l n="305">Sontes absolvit, insontes obligat, atque</l>
+				<l>Liberat es nocuos innocuosque premit.</l>
+				<l>Excepto nummo non est deus alter in orbe</l>
+				<l>Qui mirabilia signaque multa facit.</l>
+				<l>Psallere presbiteros nummus facit; omnia fiunt</l>
+				<l n="310">Huius avaritia: psallere nummus amat.</l>
+				<l>Attamen ipsa ruunt que nummus congregat ipse:</l>
+				<l>Stare diu nequeunt que male parta vides.</l>
+				<l>Pontificum nummus delirat ab ordine iuris</l>
+				<l>Prelatusque facit quilibet illud idem.</l>
+				<l n="315">Huius avaritia fit rusticus ille sacerdos</l>
+				<l>Qui nescit legere, sed bene scit fodere.</l>
+				<l>Qui fit prelatus, nescit proponere verbum,</l>
+				<l>Sic homines nescit pascere: sciret oves!</l>
+				<l>Huius avaritia reges comitesque barones</l>
+				<l n="320">Subiectos reprimunt iustitiamque necant.</l>
+				<l>Huius avaritia iudex discedit a lege,</l>
+				<l>Iustitiam perimit, fas facit esse nefas.</l>
+				<l>Huius avaritia testis deponit inique,</l>
+				<l>Falsa refert mendax, vera tacendo necat.</l>
+				<l n="325">Huius avaritia periuria furta rapine</l>
+				<l>Necnon procedunt altera multa mala.</l>
+				<l>Huius avaritia nonnulli mortificantur;</l>
+				<l>Demonium colitur deseriturque Deus.</l>
+				<l>Huius avaritia delirat religiosus:</l>
+				<l n="330">Dum coacervat opes, est sua lesa fides.</l>
+				<l>Huius avaritia lusor blasfemat et eius</l>
+				<l>Invocat auxilium qui mala semper ait.</l>
+				<l>Huius avaritia mercator trans mare currit;</l>
+				<l>Et manet incesta que fuit ante bona.</l>
+				<l n="335">Huius avaritia vir fato coniugis instat,</l>
+				<l>Filius atque patris: res scelerosa satis.</l>
+				<l>Huius avaritia medicus non curat egentem,</l>
+				<l>Illum qui tantum tradere lucra valet.</l>
+				<l>Nomen ab effectu trahitur: si littera detur,</l>
+				<l n="340">Extortquet medicus more rapitque lupi.</l>
+				<l>Dives habet medicos, si vult expendere, multos;</l>
+				<l>Eger inops nullum prorsus habere valet.</l>
+				<l>Non consanguineos nec gratis curat amicos:</l>
+				<l>Nil nisi denarios diligit ipse rapax.</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

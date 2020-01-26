@@ -1,0 +1,2488 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quaestiones supra Prisciano Minori</title>
+				<author>Gentilis de Cingulo</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Romana Martorelli Vico</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">EB</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="18527" unit="words">Parole: 18527</measure>
+				<measure quantity="105578" unit="characters_without_spaces">Caratteri (spazi esclusi): 105578</measure>
+				<measure quantity="122098" unit="characters_witht_spaces">Caratteri (spazi inclusi): 122098</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-11-18">18/11/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Grammatica</note>
+				<note>Tipo: Fonti Letterarie </note>
+				<note>Note: Data di composizione dell'opera: ultimi decenni del XIII secolo&#13;
+Parole: 18675&#13;
+Caratteri: 501933&#13;
+&lt;..&gt; indicano integrazioni congetturali dell'editore&#13;
+[..]  indicano espunzioni congetturali dell'editore&#13;
+GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Gentile da Cingoli</author>
+						<title level="m">Quaestiones supra Prisciano Minori</title>
+						<editor>Romana Martorelli Vico</editor>
+						<imprint>
+							<publisher>Scuola Normale Superiore</publisher>
+							<pubPlace>Pisa</pubPlace>
+							<date>1985</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Centro di cultura medievale</title>
+						<biblScope unit="volume">1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie </term>
+					<term type="genre">Grammatica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-ok. È un testo scolastico, quindi ha una struttura ricca e un po' problematica. Sono 15 quaestiones, che ho diviso come segue:
+&lt;div&gt;Quaestio...
+   &lt;div&gt;Arguitur, quod non
+      &lt;div&gt;1. ...
+      &lt;div&gt;2. ...
+   &lt;div&gt;In contrarium arguitur...
+   &lt;div&gt;Ad hanc quaestionem dicendum
+   &lt;div&gt;Tunc ad rationes in oppositum respondendum
+      &lt;div&gt;1. ...
+      &lt;div&gt;2. ...
+
+La parte "In contrarium arguitur" è spesso solo una frase (tipo: "In contrarium dicit Priscianus, quod sic").
+
+-mancano i &lt;pb&gt;: nel file originale i &lt;pb&gt; indicavano l'inizio di ogni quaestio (e come @n avevano "Quaestio [0-9]+"). Li ho trasformati in &lt;!-- Quaestio [0-9]+ --&gt;. 
+
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<!--Quaestio 01-->
+			<head><lb/><hi rend="italic">Utrum grammatica sit scientia</hi></head>
+			<p><lb/>Quaeritur utrum grammatica sit scientia.</p>
+			<div>
+				<p><lb/>Et arguitur quod non,
+					<lb/>quia omnis scientia est eadem apud omnes; grammatica
+					<lb/>non est eadem apud omnes; ergo etc. Maior patet, eo quod scientia
+					<lb/>est de impossibilibus aliter se habere. Minor probatur. Nam
+					<lb/>Graeci [non] habent articulos, nos autem non; ergo non est
+				<lb/>eadem apud omnes.</p>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, si grammatica esset scientia, aut practica aut speculativa;
+						<lb/>sed grammatica non est practica nec speculativa; ergo
+						<lb/>non est scientia. Maior, textu Philosophi <hi rend="italic">Metaphysicae</hi> qui dividit
+						<lb/>scientiam in practicam et speculativam. Minor probatur.
+						<lb/>Non est practica, quia practica scientia est illa, quae est de agibilibus
+						<lb/>a nobis; sed grammatica non est huiusmodi; ergo etc., non
+						<lb/>est scientia practica. Nec speculativa, quia scientia speculativa dividitur
+						<lb/>in naturalem, mathematicam et divinam sive metaphysicam,
+						<lb/>ut apparet per Philosophum VI <hi rend="italic">Metaphysicae</hi>e; grammatica
+					<lb/>autem nulla harum est; ergo grammatica non est speculativa.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Iterum, si grammatica esset scientia, tunc grammatica esset
+						<lb/>ante grammaticam; consequens est falsum, quod est impossibile;
+						<lb/>ergo et antecedens. Falsitas consequentis manifesta est, quia idem
+						<lb/>ante se ipsum esse non potest, quia tunc implicarentur contradictoria,
+						<lb/>quod esset et non esset. Consequentia declaratur. Nam
+						<lb/>si grammatica esset scientia, hoc non esset nisi quod probaret de
+						<lb/>suo subiecto proprietates et passiones; hoc autem non posset
+						<lb/>esse nisi construendo dictionem cum dictione, constituendo propositiones
+						<lb/>et syllogismum; constructio autem dictionis cum dictione
+						<lb/>quoad modos significandi esset per grammaticam, et sic grammatica
+					<lb/>esset ante grammaticam.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus et Donatus qui eam tradunt
+				<lb/>nobis scientiam.</p>
+			</div>
+			<div>
+				<p><lb/>Ad hoc, quod grammatica est scientia. Et hoc probatur, quia
+					<lb/>ad hoc, ut aliquid sit scientia, requiritur quod sit habitus intellectus,
+					<lb/>eo quod scientia &lt;est&gt; habitus intellectus. Etiam requiritur
+					<lb/>quod habeatur per demostrationem, eo quod scientia est habitus
+					<lb/>acquisitus per demostrationem. Etiam requiritur quod habeatur
+					<lb/>per causas necessarias et certas, ut apparet per Philosophum I
+					<lb/><hi rend="italic">Posteriorum.</hi> Dicit namque quod scientiae est causas rei cognoscere,
+					<lb/>propter quas res est, et quoniam illius causa est, et non est
+					<lb/>contingere aliter hoc se habere. Hoc idem vult prooemio <hi rend="italic">Physicorum.</hi>
+					<lb/>Et ex hoc sic arguitur: illud quod est habitus acquisitus
+					<lb/>per demostrationem, per causas necessarias et determinatas, est
+					<lb/>scientia; grammatica est habitus; ergo etc. Maior patet ex tunc
+					<lb/>dictis. Minor declaratur. Nam grammatica est habitus intellectus,
+					<lb/>quia per grammaticam nos construimus tamen orationem constructo
+					<lb/>communi; hoc autem non posset esse nisi per intellectum,
+					<lb/>quia solus intellectus est apprehendens universalia. Et est acquisitus
+					<lb/>per demostrationem. Quod probatur. Nam de scibili ipsius
+					<lb/>grammaticae probantur proprietates per causas necessarias, ut
+					<lb/>puta de oratione constructa sub ratione sub qua constructa est,
+					<lb/>quod est subiectum in grammatica, ut supponatur ad praesens,
+					<lb/>probatur congruitas et etiam perfectio per principia necessaria, ut
+					<lb/>per modos significandi qui sunt principia constructionis. Ideo ipsa
+					<lb/>grammatica est habitus intellectus acquisitus per demonstrationem
+					<lb/>et per causas necessarias. Tamen sciendum quod quamquam ipsa
+					<lb/>grammatica sit scientia, non tamen ita proprie est scientia sicut
+					<lb/>scientia quae est de rebus per se, cuiusmodi est scientia &lt;naturalis&gt;
+					<lb/>vel mathematica et divina quae sunt de rebus factis a Deo
+					<lb/>vel a natura. Et ratio huius est quia ipsa grammatica est de modis
+					<lb/>rerum, modi autem rerum non ita vere sunt entia sicut res ipsae;
+					<lb/>et hoc patet, quia ipsa grammatica est de entibus factis a nobis,
+					<lb/>quia de oratione constructa sub ratione qua constructa est a modis
+					<lb/>significandi. Haec autem dicitur facta a nobis. Talia autem non
+					<lb/>sunt res per se primo magis, sunt quidem modi intelligendi rei.
+					<lb/>Et ideo grammatica non ita proprie | erit scientia sicut est scientia
+					<lb/>quae est de rebus per se ut de rebus factis a Deo vel natura, quia
+				<lb/>scientia esse quod habet a suo obiecto participat.</p>
+				<p><lb/>Iterum, non solum est scientia, sed scientia una. Quod probatur,
+					<lb/>quia scientiae distinguuntur quemadmodum &lt;et&gt; res de
+					<lb/>quibus sunt, ut dicitur <hi rend="italic">De anima.</hi> Et hoc apparet, quia sicut se
+					<lb/>habet potentia ad obiectum, sic se habet scientia ad subiectum;
+					<lb/>sed potentia sic se habet ad obiectum, quod per obiecta distinguitur;
+					<lb/>ergo sic se habebit scientia ad subiectum, &lt;quod per
+					<lb/>subiecta&gt; distinguetur. Maior apparet, eo quod scientia est potentia
+					<lb/>quaedam, et ideo multotiens Philosophus appellat scientias
+					<lb/>potentias, etiam quia scientia est habitus intellectus et ideo
+					<lb/>est potentia quaedam. Nihilominus quaelibet scientia est actus
+					<lb/>intellectus et non solum habitus, scilicet quasi est in actu consilii.
+					<lb/>Ex hoc tunc arguitur: illa scientia est una quae habet unum subiectum;
+					<lb/>grammatica est huiusmodi; ergo grammatica est scientia
+					<lb/>una. Maior apparet ex dictis, eo quod scientiae distinguntur quemadmodum
+					<lb/>et res de quibus sunt. Minor probatur. Nam subiectum
+					<lb/>in grammatica est oratio constructa sub ratione qua constructa est.
+					<lb/>Ipsa autem unum est, et primum subiectum grammaticae erit
+				<lb/>unum.</p>
+				<p><lb/>Sciendum tamen quod ad subiectum scientiae vel ad veritatem
+					<lb/>subiecti scientiae non requiritur quod sit unum numero, quia
+					<lb/>tunc esset particulare de particularibus; tunc non est scientia.
+					<lb/>Nec semper requiritur quod sit unum specie, quia potest esse
+					<lb/>unum genere, sicut corpus mobile in philosophia naturali. Nec
+					<lb/>semper requiritur quod sit unum genere, sed sufficit quod sit
+					<lb/>unum analogia, sicut ens est subiectum in philosophia prima quod
+					<lb/>est unum per analogiam, et sic sufficit ad veritatem subiecti scientiae
+					<lb/>quod sit unum analogia. Et hoc modo subiectum grammaticae
+					<lb/>est unum, quia est unum genere vel saltem analogia, quia est oratio
+					<lb/>constructa unde constructa est, quod est unum obiectum formaliter
+					<lb/>ad quod attributionem habent omnes orationes, saltem secundum
+				<lb/>analogiam.</p>
+				<p><lb/>Ulterius est sciendum quod ipsa grammatica habet partes
+					<lb/>essentiales et partes accidentales. Partes essentiales sicut res construibiles
+					<lb/>sub ratione qua construibiles, et quantum ad tales partes
+					<lb/>est eadem apud omnes. Quantum autem ad partes accidentales
+					<lb/>non est eadem apud omnes, cuiusmodi sunt voces et ex hoc
+					<lb/>elicitur evidentissimum signum quod grammatica non considerat
+				<lb/>voces per se, [nisi] sed per accidens.</p>
+				<p><lb/>Iterum etiam quodammodo est scientia specialis et quodammodo
+					<lb/>communis. Est specialis inquantum de suo obiecto probat
+					<lb/>proprietates et passiones per certa et determinata principia. Et hoc
+					<lb/>apparet, quia illa scientia, quae considerat speciale ens ut obiectum,
+					<lb/>est specialis; grammatica est huiusmodi; ergo grammatica
+					<lb/>est scientia specialis. Maior apparet ex iam dictis quia scientiae
+					<lb/>distinguuntur ut subiecta de quibus sunt. Et minor etiam, quia
+					<lb/>est de oratione constructa quod est quoddam speciale ens. Etiam
+					<lb/>ipsa grammatica est communis secundum quod applicatur aliis
+					<lb/>scientiis, ut per eam recte loquamur in aliis scientiis et construamus
+					<lb/>dictionem cum dictione; saltem hoc modo est communis per
+					<lb/>applicationem, quia talia entia considerat, quae omnibus scientiis
+					<lb/>applicantur. Et hoc est quod sic arguitur: illa scientia est communis
+					<lb/>per applicationem, quae est de entibus applicabilibus omni
+					<lb/>scientiae; grammatica est huiusmodi; ergo etc. Maior de se patet.
+					<lb/>Minor etiam. Nam ipsa grammatica habet construere dictionem
+					<lb/>cum dictione. Haec autem necessaria &lt;est&gt; omni scientiae, ut de
+					<lb/>planum est; ideo grammatica talia entia considerat, quae omnibus
+				<lb/>scientiis applicantur.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in oppositum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam, deducebatur: "Omnis scientia est eadem apud
+						<lb/>omnes", concedatur; sed "grammatica non est eadem apud omnes",
+						<lb/>falsum est quantum ad sua essentialia. Et cum probatur quod
+						<lb/>Graeci habent articulos, et nos non, dico quod verum | est, sed
+						<lb/>isti articuli non sunt propter aliud apud Graecos nisi propter
+						<lb/>distinctionem vocum, eo quod habent voces multum indistinctas.
+						<lb/>Nos autem habemus voces distinctas et ideo illi articuli se tenent
+						<lb/>[sex] a parte vocum. Grammaticus autem de vocibus non considerat
+						<lb/>nisi per accidens et non est pars essentialis grammaticae, et
+					<lb/>ideo non requirit quod sit eadem apud omnes.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Si grammatica esset scientia, aut practica aut
+						<lb/>speculativa". Ad hoc potest dividere primo interimendo hoc. Rem
+						<lb/>probas, quia Aristoteles in VI <hi rend="italic">Metaphysicae</hi> dividit scientiam
+						<lb/>in practicam et in speculativam scientiam. Potest dici quod hoc
+						<lb/>est verum de aliis scientiis quae non sunt de secundis intentionibus,
+						<lb/>cuiusmodi est grammatica, dialectica, rhetorica; tamen ipsa
+						<lb/>quodammodo erit speculativa et quodammodo practica: speculativa
+						<lb/>secundum quod ad artes speculativas ordinatur et secundum
+						<lb/>quod artes speculativae utuntur ea; practica autem secundum quod
+						<lb/>artes practicae nominantur ea. Vel aliter posset dici quod grammatica
+						<lb/>est practica et speculativa, secundum quod dicitur practica
+						<lb/>[est] cuius finis est opus, speculativa cuius finis est veritas. Et
+						<lb/>hoc apparet sic. Nam grammatica dupliciter accipi potest secundum
+						<lb/>quod distinctum est prius: uno modo secundum quod investigat
+						<lb/>proprietates et passiones de suo subiecto; alio modo secundum
+						<lb/>quod aliae scientiae ea utuntur. Primo modo accipiendo
+						<lb/>grammaticam, dico quod est speculativa, quia illa scientia est
+						<lb/>speculativa, ut dictum est, cuius finis est veritas; grammatica hoc
+						<lb/>modo accepta est huiusmodi; ergo etc. Maior patet ex dictis. Minor
+						<lb/>declaratur. Nam grammatica, speculando proprietates et passiones
+						<lb/>de suo scibili, veritatem intendit inquirere, quia cognitionem de
+						<lb/>suo subiecto. Si autem consideratur secundum quod aliae artes
+						<lb/>utuntur ea, sic est practica, quia sic eius finis est opus, quia est
+						<lb/>ibi [quod] finis et operatio quaedam. Et eodem modo est de grammatica,
+						<lb/>rhetorica et dialectica. Tamen ipsa rhetorica magis est
+						<lb/>practica, quia ipsa proprie applicatur ad scientias morales quae
+						<lb/>practicae sunt. Ipsa autem dialectica proprius ad speculativam,
+						<lb/>quamquam possit etiam applicari ad morales. Grammatica autem
+						<lb/>ad omnes applicatur. Sed tunc comprobatur quod non est speculativa
+						<lb/>nec practica. Non practica, quia non est de agibilibus a
+						<lb/>nobis. Dico quod verum est de agibilibus a nobis quod transeat in
+						<lb/>exteriorem materiam, cuiusmodi sunt scientiae morales quae sunt
+						<lb/>de agibili transeunte in exteriorem &lt;materiam&gt;, ut sunt iustitia
+						<lb/>et aliae virtutes de quibus est moralis scientia. Nam iustitia &lt;est&gt;
+						<lb/>in dando et in recipiendo, ita quod tantum datur quantum accipitur
+						<lb/>et e converso, ut nec commutantes ad invicem sint decepti, ut
+						<lb/>quantum dat de frumento tantum recipiat de corio et sic de aliis.
+						<lb/>Et ideo grammatica non est talis practica, qualis moralis est. Et
+						<lb/>cum probatur quod non erit speculativa, quia speculativa dividitur
+						<lb/>in naturalem, mathematicam et divinam, dico quod ipsa grammatica
+						<lb/>non est speculativa ut aliqua istarum quia non ita proprie,
+						<lb/>tamen quodammodo, extendendo nomen speculativae scientiae
+						<lb/>secundum quod possumus appellare speculativam scientiam illam
+						<lb/>quae veritatem inquirit. Tamen simpliciter magis debet dici practica
+						<lb/>quam speculativa, eo quod grammatica ipsa per se non est utilis
+						<lb/>nec etiam logica nec rhetorica nisi ut ad alias scientias ordinantur,
+						<lb/>sed ut ad alias scientias ordinantur, sunt practicae, ut visum est. Et
+					<lb/>ideo simpliciter loquendo debet dici practica.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliam: "Si grammatica esset scientia, tunc grammatica
+						<lb/>esset ante grammaticam", quod grammatica duplex est, quia
+						<lb/>quaedam est grammatica habita per artem et quaedam | est habita
+						<lb/>per naturam, scilicet per viam sensus. Tunc cum dicitur: "Si
+						<lb/>grammatica esset scientia, tunc grammatica esset ante grammaticam",
+						<lb/>dico quod verum est quod grammatica esset ante grammaticam,
+						<lb/>quia grammatica quae habetur per viam sensus est ante
+						<lb/>grammaticam quam habemus per artem, sicut etiam convenit de
+						<lb/>filio ipso, quia filius per naturam habitus est ante filium per artem.
+						<lb/>Verbi gratia: nam videmus quod albedo est in isto et in illo homine
+						<lb/>et etiam in hac muliere; et ideo intelligentes album ut imponamus
+						<lb/>subiecto secundum quod intelligimus album ut in huiusmodi
+						<lb/>subiecto masculini generis, et imponimus album sub genere
+						<lb/>masculino, ut intelligimus ut in huiusmodi subiecto foeminini
+						<lb/>generis, et imponimus et significamus sub foeminino genere et
+						<lb/>sic de aliis. Et non est hoc ad placitum, immo est bene ex parte
+						<lb/>rerum eo quod modi ipsi significandi accipiuntur ex proprietatibus
+						<lb/>existentibus in re, et ideo fatui sunt qui credunt quod
+					<lb/>hoc fit ad placitum, etc.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 02-->
+			<head><lb/><hi rend="italic">Utrum grammatica sit scientia sermocinalis</hi></head>
+			<p><lb/>Consequenter ergo &lt;quaeritur&gt; utrum grammatica sit scientia
+			<lb/>sermocinalis.</p>
+			<div>
+				<p><lb/>Et arguitur quod sic, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia illa scientia, quae est de dictione, est sermocinalis;
+						<lb/>grammatica est de dictione; ergo est scientia sermocinalis. Maior
+						<lb/>patet, eo quod dictio est composita ex voce et significatione.
+						<lb/>Minor patet per Priscianum circa [primum] principium <hi rend="italic">Minoris.</hi>
+						<lb/>Dicit enim quod in supradictis, scilicet in <hi rend="italic">Prisciano Maiori</hi>, determinatur
+					<lb/>de singulis vocibus dictionum.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, illa scientia est sermocinalis, quae considerat diversos
+						<lb/>modos sermonis; grammatica est huiusmodi; ergo grammatica
+						<lb/>est de sermone sive sermocinalis Maior videtur manifesta,
+						<lb/>eo quod nulla alia scientia considerat modos sermonis nisi illa
+						<lb/>quae est de sermone. Minor apparet, eo quod grammatica considerat
+						<lb/>diversos modos proferendi voces significativas, ut apparet in
+						<lb/>Prisciano <hi rend="italic">De accentu.</hi> Nam considerat secundum quod aliqua vox
+					<lb/>profertur acuto accentu vel complexo vel gravi, quae sunt sermonis.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Iterum, praesuppono quod aliqua scientia determinet de
+						<lb/>voce significante sive de sermone, quod idem est; et cum est quia
+						<lb/>ipsa vox videtur esse ens quoddam et ideo aliqua scientia debet
+						<lb/>determinare de ipsa, tunc videtur &lt;quod&gt; aliqua scientia debet
+						<lb/>determinare de voce. Ergo grammatica debet determinare de voce.
+						<lb/>Antecedens iam patet. Consequentia declaratur. Nam ipsa grammatica
+						<lb/>inter alias scientias maxime videtur inquirere proprietates
+						<lb/>sermonis et vocis significantis, et ideo si aliqua scientia determinabit
+					<lb/>de voce, grammatica determinabit.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Iterum, hoc dixerunt quasi omnes antiqui loquentes de
+					<lb/>grammatica, quod ipsa est sermocinalis et de sermone determinat.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: illa scientia non est sermocinalis,
+					<lb/>quae abstrahit et abstracta est ab omni sermone; sed grammatica
+					<lb/>abstrahit ab omne sermone; ergo ipsa non est sermocinalis. Maior
+					<lb/>patet. Nam ipsa scientia mathematica, quia abstrahit a motu et
+					<lb/>abstracta est a motu, non dicitur naturalis, eo quod naturalis scientia
+					<lb/>quicquid considerat, sub ratione motus considerat, eo quod
+					<lb/>natura est principium motus et quietis per se, primo enim et non
+					<lb/>secundum accidens. Minor probatur. Nam grammatica ipsa abstrahit
+					<lb/>a sermone arabico, graeco et latino, quia aliter non haberemus
+					<lb/>eandem grammaticam cum eis; etiamsi non abstraheret,
+					<lb/>consideraret sermonem graecum vel latinum vel arabicum ita quod
+					<lb/>nos haberemus eisdem vocibus grammaticam, nos et ipsi, quod
+				<lb/>falsum est.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod grammatica non est
+					<lb/>sermocinalis per se nec per se considerat sermonem, considerat
+					<lb/>tamen sermonem per accidens. Prior probatur. Nam illa scientia
+					<lb/>non est sermocinalis nec de sermone per se, cuius perfecta et
+					<lb/>essentialis ratio sine sermone haberi potest; sed ratio essentialis
+					<lb/>grammaticae potest haberi praeter sermonem; ergo non est sermocinalis
+					<lb/>per se. Maior apparet per se, eo quod si esset sermocinalis
+					<lb/>per se tunc eius essentialis ratio nullo modo a sermone absolvi
+					<lb/>posset, immo consisteret eius essentialis ratio in cognitione sermonis.
+					<lb/>Minor probatur. Nam principia materialia ipsius grammaticae
+					<lb/>et etiam formalia sine sermone haberi possunt. Nam ipsa,
+					<lb/>constructibilia quae sunt principia materialia ipsius grammaticae
+					<lb/>constructionis sine sermone haberi possunt et etiam modi intelligendi,
+					<lb/>qui sunt principia formalia, etiam possunt haberi praeter
+					<lb/>sermonem, quia possumus intelligere constructibilia quae construuntur
+					<lb/>ad invicem per modos significandi sive intelligendi qui
+					<lb/>sunt proprietates in rebus intellectis praeter sermonem et construere
+					<lb/>ea ad invicem; et quod talia sint principia orationis videtur
+					<lb/>velle Priscianus in <hi rend="italic">Minori</hi> dicens quod ex singulis dictionibus
+					<lb/>paratur sensibile, idest intelligibile, quodammodo elementum orationis
+					<lb/>perfectae et commune elementum materiale ipsius orationis.
+					<lb/>Et hoc est quod ulterius sic arguitur. Nam scientia ipsa est
+					<lb/>habitus intellectus, ut dictum est prius in quaestione. Tunc sic
+					<lb/>omnis habitus intellectus potest haberi praeter sermonem sive
+					<lb/>vocem significantem; grammatica est habitus intellectus eo quod
+					<lb/>est scientia, ut sensum est prius; ergo potest haberi praeter sermonem.
+					<lb/>Et sic manifestum est quod sermo non erit per se de
+					<lb/>consideratione grammaticae. Maior propositio declaratur. Nam
+					<lb/>si non possumus habere habitum intellectus praeter sermonem,
+					<lb/>tunc non possemus intelligere aliquid nisi in habitudine ad vocem
+					<lb/>significantem, quod falsum est, nisi forte ipsa vox sine significante
+					<lb/>voce non potest intelligi, quia numquam possemus intelligere
+					<lb/>vocem nisi moveret prius audire, eo quod vox per nullum alium
+					<lb/>sensum percipi potest, et sic vox non posset intelligi praeter vocem
+					<lb/>significantem. Et hoc verum est quantum ad principium cognitionis,
+					<lb/>quia nihil intellectus potest apprehendere &lt;nisi&gt; id prius
+					<lb/>cadat in sensu, et sic ipsa vox non potest cognosci praeter vocem
+					<lb/>quantum ad principium cognitionis et hoc modo repraesentatur
+					<lb/>per hoc quod est vox, secundum quod imponitur ad significandum
+					<lb/>vocem, et hoc est quia non habemus ita competens signum ad
+					<lb/>exprimendum nostros conceptus sicut vox ipsa, et ideo per vocem
+					<lb/>significativam. Tamen, ut ipsa vox est habitus intellectus, ut sic,
+				<lb/>intelligitur praeter vocem significantem.</p>
+				<p><lb/>Tamen dico ulterius quod quamquam ipsa grammatica non
+					<lb/>sit sermocinalis per se, est tamen sermocinalis per accidens. Quod
+					<lb/>probatur. Nam illa scientia est sermocinalis per accidens, quae
+					<lb/>exprimit suos conceptus alteri. Maior propositio manifesta est,
+					<lb/>quia talem scientiam appello sermocinalem per accidens. Minor
+					<lb/>declaratur. Nam ipsa grammatica exprimit suos conceptus alteri,
+					<lb/>quia non solum sufficit habere scientiam in considerando, sed
+					<lb/>etiam oportet conceptus nostros alteri exprimere. Si quis diceret
+					<lb/>quod omnis scientia hoc modo est sermocinalis, quia omnis scientia
+					<lb/>suos conceptus alteri exprimit, dicendum quod omnis scientia
+					<lb/>hoc modo est sermocinalis secundum quod sermocinale dicitur id
+					<lb/>quod exprimere &lt;habet&gt; suos conceptus alteri. Et hoc apparet.
+					<lb/>Nam scientia dupliciter habetur: et per inventionem et per doctrinam;
+					<lb/>sed ita est quod omnis est sufficiens ad inveniendum scientiam;
+					<lb/>ideo oportet quod doceatur a sciente. Hoc autem maxime
+					<lb/>fit per vocem, quia non est aliquod &lt;aliud&gt; competens signum
+					<lb/>ad exprimendum suos conceptus sicut vox ipsa, et actus ipsius
+					<lb/>doctoris in disciplinam non potest esse nisi per vocem; et ideo in
+					<lb/>docendo oportet nonnumquam uti voce significativa sive sermone.
+					<lb/>Propter hoc oportet quod omnis scientia sit sermocinalis ita quod
+					<lb/>suos conceptus alteri exprimat, et ex hoc etiam contingit quod
+					<lb/>oportet quod unusquisque imponat ad significandum ea de quibus
+					<lb/>determinatur in sua scientia. Unde oportet quod philosophus naturalis
+					<lb/>imponat ad significandum ea de quibus determinatur in philosophia
+					<lb/>naturali et metaphysicus ea de quibus determinatur in
+					<lb/>metaphysica, videlicet imponere ad significandum substantias separatas, |
+					<lb/>et non grammaticus nec aliquis alius qui de hiis non determinat.
+					<lb/>Et causa est, quia ille qui scit aliquam &lt;scientiam&gt; cognoscit
+					<lb/>illa quae determinantur in ipsa et ea habet exprimere, et
+				<lb/>ideo etiam habet ea imponere ad significandum.</p>
+				<p><lb/>Tamen ulterius dico quod ipsa grammatica magis est sermocinalis
+					<lb/>quam aliqua alia. Et hoc probatur, quia illa scientia quae
+					<lb/>magis habet exprimere suos conceptus alteri quam aliqua alia,
+					<lb/>magis est sermocinalis; grammatica est huiusmodi; ergo etc. Maior
+					<lb/>patet, eo quod illa dicitur sermocinalis, quae exprimit suos conceptus
+					<lb/>alteri, ut hic accipitur sermocinalis; ergo, quae illa magis
+					<lb/>habet exprimere, magis erit sermocinalis. Minor declaratur. Nam
+					<lb/>grammatica ipsa docet recte construere dictionem cum dictione,
+					<lb/>per quam agiliter possumus exprimere conceptus nostros in omni
+					<lb/>scientia. Unde ipsa per se, et etiam logica et rhetorica, ad alias
+					<lb/>scientias ordinantur et maxime valent ad alias scientias secundum
+					<lb/>quod per vocem conceptus exprimuntur in eis, et ideo quodammodo
+					<lb/>istae scientiae sunt magis sermocinales quam aliae. Iterum,
+					<lb/>inter istas grammatica est magis sermocinalis. Quod apparet eo
+					<lb/>quod, ut dictum est, scientia dupliciter acquiritur: per inventionem
+					<lb/>et doctrinam; et scientia per doctrinam solum habetur per vocem
+					<lb/>significantem, scientia per inventionem potest haberi praeter vocem.
+					<lb/>Sed ipse discens grammaticam videtur minime posse habere
+					<lb/>aliquid per inventionem inter omnes discentes alias artes, quia est
+					<lb/>prima scientia quae debet disci, ut declaratum est in prooemio.
+					<lb/>Et hoc verum est de grammatica quae &lt;est&gt; per modum fabularum,
+					<lb/>quia grammatica quae habetur per rationem non potest
+					<lb/>haberi nisi per logicam, eo quod logica dat modum sciendi omnibus
+					<lb/>artibus. Et ideo cum grammatica quae habetur per modum fabularum
+					<lb/>debeat esse prior, tunc intellectus eam discens est denudatus
+					<lb/>habitu scientiali et per consequens est debilissimus ad investigationem,
+					<lb/>eo quod non habet aliquem actum per quem possit agere
+					<lb/>ad investigationem scientiae; et ideo discens grammaticam oportet
+					<lb/>quod eam per doctrinam acquirat, quod non fit nisi mediante sermone.
+					<lb/>Et ideo grammatica inter alias scientias est magis sermocinalis,
+					<lb/>nisi forte sit quaedam scientia quam nominant aliqui modernorum
+					<lb/>Italici, quam rhetoricam appellat, quia ista scientia non
+					<lb/>determinat nisi de vocum consonantia, et ideo ita videtur persermocinalis.
+					<lb/>Tamen, quia ista vocum consonantia non convenit voci
+					<lb/>ut significativa est, sed est potius harmonia quaedam vocis prolatae
+					<lb/>et non ut significativum est, ideo hoc habet musica considerare,
+					<lb/>et ad musicam habet reduci. Et ideo stat adhuc quod ipsa
+					<lb/>grammatica magis sit sermocinalis quam aliqua alia, quia magis
+				<lb/>habet exprimere suos conceptus per voces significativas.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc igitur respondendum ad rationes in oppositum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Illa scientia quae est de dictione est sermocinalis",
+						<lb/>verum aliquo modo, quia per accidens. Et tu probas
+						<lb/>quod dictio est composita ex voce et significato. Certe hoc est
+						<lb/>falsum et haec falsitas ostenditur in terminis grammaticalibus.
+						<lb/>Nam dicitur quod haec dictio 'Petrus' est nomen; nunc si 'Petrus',
+						<lb/>quae est dictio quaedam, esset composita ex voce et significato,
+						<lb/>haec propositio esset falsa: 'Petrus est nomen', eo quod aliam
+						<lb/>vocem habet Petrus, aliam nomen. Et sic ista esset falsa: 'poeta
+						<lb/>est nomen'. Sed ipsa dictio est res intellecta, ut stat sub aliquo
+						<lb/>intelligendi modo sive ratione significandi. Tunc ad minorem per
+						<lb/>interemptionem, quod per se consideratur a grammatico et comprobatur
+						<lb/>auctoritate Prisciani, quod auctoritas Prisciani sic est
+						<lb/>intelligenda quod determinavit de vocibus singulis dictionum in
+						<lb/>Maiori, non in toto, sed in aliqua parte determinavit de vocibus,
+						<lb/>non tamen ita quod voces per se considerentur, sed solum per
+					<lb/>accidens.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illa scientia est sermocinalis etc.", dicendum
+						<lb/>quod verum est, si per se considerarent | modos sermonis. Tunc
+						<lb/>ad minorem: "Grammatica considerat modos sermonis", dico
+					<lb/>quod verum est non per se, sed per accidens.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud quod dicebatur, quod aliqua scientia determinat
+						<lb/>de voce significativa, dicendum quod ista suppositio falsa est,
+						<lb/>et hoc dico si intelligatur quod determinet de voce significante
+						<lb/>ita quod per se eam consideret. Et ratio huius est eo quod ad hoc,
+						<lb/>ut vox sit significativa, non requiritur nisi placitum imponentis,
+						<lb/>coniungentis vocem ad significatum, eo quod omnis vox, quantum
+						<lb/>quod de se, posset esse significatum significare, et esse significatum
+						<lb/>per unamquamque vocem significari, et ideo quod haec vox
+						<lb/>significet, hoc non est nisi ad placitum et voluntatem nostram.
+					<lb/>&lt;* * * &gt;</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 03-->
+			<p><lb/> * * *
+				<lb/>&lt;* * * &gt; et ideo tunc quod hoc signi + materialiter accipi ista
+				<lb/>est accipi ea ita quod significatum et modus significandi et vox
+				<lb/>ipsa accipiantur ut principale obiectum intellectus, sive intellectum,
+				<lb/>hoc modo non faciunt orationem 'curro', 'currit' et 'tonat'. Et
+				<lb/>huius ratio est quia illud quod est dictio una simplex, non facit
+				<lb/>orationem perfectam. 'Curro', 'currit' et 'tonat', hoc modo accepta,
+				<lb/>sunt simplicia et intellectum simplicem habentia; ergo non faciunt
+				<lb/>orationem. Maior propositio patet ex dictis in illa quaestione
+				<lb/>de perfectione orationis, quia semper oportet ad hoc ut sit
+				<lb/>oratio, quod sit aggregatum ex pluribus intellectis compositum. Et
+				<lb/>minor etiam patet. Et secundum istam intentionem loquitur Philosophus
+				<lb/>in libro <hi rend="italic">Peribermeneias</hi> in capitulo <hi rend="italic">De verbo</hi>; et
+				<lb/>'currit' et 'currebat' orationem non faciunt et non costituunt intellectum
+				<lb/>compositum, quia ut ibi dicit Philosophus, 'si est vel
+				<lb/>non est nondum significant'. Et hoc etiam modo loquitur Philosophus
+				<lb/>in <hi rend="italic">Praedicamentis</hi> ante illam partem: "Substantia autem
+				<lb/>est quae proprie etc.", dicit quod eorum quae secundum nullam
+				<lb/>complexionem etc., nec vera nec falsa sunt, ut 'album', 'homo',
+			<lb/>'currit'.</p>
+			<p><lb/>Si autem accipiamus formaliter 'curro' et 'currit' et 'tonat', et
+				<lb/>accipi formaliter est ea accipi sub modis significandi verbi ita quod
+				<lb/>significent per modum fluxus et fieri, et sint modi cointellecti et
+				<lb/>non principaliter intellecti, sic dicendum, quod faciunt orationem
+				<lb/>perfectam. Et hoc probatur, quia illud quod constituit intellectum
+				<lb/>perfectum non dependentem et compositum facit orationem perfectam;
+				<lb/>sed 'curro', 'currit' et 'tonat' faciunt perfectum intellectum
+				<lb/>et non dependentem et compositum; ergo faciunt orationem perfectam.
+				<lb/>Maior patet ex dictis in quaestione de perfectione orationis.
+				<lb/>Minor etiam patet, eo quod in ipso verbo intelligitur nominativus
+				<lb/>et, ut prius dictum est, verbum principale cum nominativo
+				<lb/>faciunt intellectum perfectum non dependentem et compositum.
+				<lb/>Est tamen sciendum ulterius quod ista oratio dicitur esse
+				<lb/>perfecta quoad intellectum, scilicet 'curro', 'currit' et 'tonat'; non
+				<lb/>autem quoad sensum. Et ista distinctio datur ab antiquis, scilicet
+				<lb/>quod oratio aliqua est perfecta quoad sensum et intellectum;
+				<lb/>aliqua quoad intellectum, non autem quoad sensum. Et ista
+				<lb/>distinctio, si vera intelligatur, sic debet intelligi. Nam illa oratio
+				<lb/>dicitur esse perfecta quoad intellectum, quae determinat dependentiam
+				<lb/>intellectus. Perfecta autem quoad sensum dicitur esse illa
+				<lb/>oratio, cuius subiectum verbi et verbum per voces proprias praesentantur
+				<lb/>auditui et ulterius, repraesentatis auditui, deferuntur
+				<lb/>usque ad intellectum; sicut cum dico: 'Petrus currit' vel 'ego
+				<lb/>curro', hic et subiectum et verbum per proprias voces exprimuntur;
+				<lb/>et istae orationes sunt quae sunt perfectae quoad sensum et
+				<lb/>quoad intellectum. Imperfecta quoad sensum dicitur &lt;esse&gt; quando
+				<lb/>subiectum et verbum non praesentantur auditui per vocem
+				<lb/>propriam et demum defertur ad intellectum, sed per vocem alicuius
+				<lb/>alterius modo auditur et deinde illud defertur ad intellectum,
+				<lb/>et illo delato dat aliud intelligere, eo quod de suo modo
+				<lb/>dependet ad illud; sicut cum dico 'curro', 'currit', vel 'tonat'. Et
+				<lb/>cum dicitur oratio perfecta quoad sensum eo quod sensus eius
+				<lb/>perfectionem vel imperfectionem participat, quia hoc esset falsum;
+				<lb/>nam intellectus est ille, qui concipit perfectionem vel imperfectionem
+				<lb/>orationis; sed ista perfectio vel imperfectio non est
+				<lb/>nisi quantum ad vocem secundum dictum modum; et ex hiis patet
+				<lb/>quomodo est intelligenda illa distinctio antiquorum. Sed tunc ulterius
+				<lb/>cum dico magis ad quaestionem, quae dictarum orationum sit
+				<lb/>magis perfecta, dicendum quod aequaliter sunt perfectae. Et hoc
+				<lb/>modo duplici declaratur. Nam quandoque aliquae orationes sic se
+				<lb/>habent quod, expresso per vocem quod intelligitur in eis, sunt
+				<lb/>aeque perfectae; ergo adhuc illo non expresso erunt aeque perfectae.
+				<lb/>Maior patet, eo quod ibi nulla est facta mutatio nisi
+				<lb/>expressio vocis. Voces autem non faciunt ad perfectionem orationis
+				<lb/>per se. Minor manifesta est. Nam si dicamus: 'ego curro',
+				<lb/>'quis currit', 'Iuppiter tonat', illae sunt aeque perfectae. Iterum
+				<lb/>hoc ostenditur: illae orationes, quae aequaliter determinant dependentiam
+				<lb/>intellectus, aequaliter sunt perfectae; istae sunt huiusmodi,
+				<lb/>scilicet 'curro', 'currit', 'tonat'; ergo aequaliter sunt perfectae.
+				<lb/>Maior patet ex dictis in quaestione de perfectione orationis.
+				<lb/>Minor etiam, quia determinatio dependentiae intellectus non est
+				<lb/>nisi ex eo quod res intellectae una dependet ad aliam, et coniunctae
+				<lb/>ad invicem per intellectum una determinat dependentiam alterius,
+				<lb/>et ex hoc quod una determinat dependentiam alterius ex hoc
+				<lb/>determinat dependentiam intellectus; sed in praedictis orationibus
+				<lb/>sic est quod, verbo intellecto cum suo supposito, dependentia
+				<lb/>unius determinatur per aliud. Si quis diceret quod hoc non
+				<lb/>valet, quia, cum dico 'curro' vel 'tonat', dat intelligere determinatum
+				<lb/>suppositum, 'currit' autem non, et ideo illae sunt perfectiores
+				<lb/>quam ista, dicendum quod hoc non valet, quamquam multi
+				<lb/>decipiantur per haec, quia ista indeterminatio non est ex parte
+				<lb/>compositionis, cum dico 'currit'; immo ita bene determinatur dependentia
+				<lb/>intellectus ex parte compositionis cum dico 'currit' sicut
+				<lb/>cum dico 'curro' vel 'tonat'; sed ista indeterminatio est ex parte
+				<lb/>subiecti sive termini quod secundum se acceptum habet hoc, quia,
+				<lb/>cum dico 'ego', magis determinatam rem dicit quam cum dico
+				<lb/>'aliquid', quia cum dicitur 'aliquid' adhuc contingit quaerere; et
+				<lb/>ideo ista perfectio non est ex parte orationis, et ideo una non
+				<lb/>est perfectior alia. Nisi vellemus appellare perfectiorem quae habet
+				<lb/>determinatum suppositum. Sed hoc improprium est appellare orationem
+				<lb/>perfectam vel imperfectam, quia talis perfectio non est
+				<lb/>ex parte orationis, immo reperitur extra orationem; ut cum dico
+				<lb/>'Petrus' et 'animal' vel 'aliquid', in istis haec perfectio reperitur,
+				<lb/>quia unum est magis determinatum altero. Et ideo cum talis
+				<lb/>perfectio non sit orationis, non debet oratio dici perfecta vel
+			<lb/>imperfecta propter hoc nisi per accidens.</p>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in contrarium: </head>
+				<div>
+					<head><lb/>1.</head> <p>"Illa oratio est magis perfecta, que magis etc.", dicendum
+						<lb/>quod falsum est, dato quod illud suppositum sit magis determinatum
+						<lb/>altero. Et cum dicebas in probatione quod 'tonat' dat intelligere
+						<lb/>Iuppiter, dicendum quod nihil ad perfectionem grammatice,
+						<lb/>quia quamquam ille actus possit solum operari a Iove, nihilominus
+						<lb/>ita est congrua ista: 'asinus tonat vel capra' sicut 'Iuppiter', et
+						<lb/>etiam perfecta, loquendo de perfectione grammatice, quia non
+						<lb/>curat de veritate et falsitate. Et cum dicebas quod 'curro' dat intelligere
+						<lb/>determinatum suppositum, dicendum quod nihil ad propositum;
+						<lb/>et nihilominus potest etiam esse indeterminatum, quia
+						<lb/>cum esset obscurum in nocte, si quis curreret adhuc manifestum
+					<lb/>non esset quis curreret.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illa oratio etc.", dicendum quod falsum est,
+						<lb/>quia nihil ad orationem de nobilitate entium naturalium, grammatice
+						<lb/>loquendo, verum ita perfecta est ista: 'asinus movet
+						<lb/>orbem', sicut ista: 'intelligentia movet orbem', grammatice
+					<lb/>loquendo.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud: "Illa oratio est perfectior, que magis determinat
+						<lb/>etc.", verum est si determinet dependentiam intellectus compositi,
+						<lb/>ut compositus est aliquando [non] et per se; sed si determinet
+						<lb/>eam per accidens, quia ratione intellectus simplicis, sic dico quod
+						<lb/>falsa est, quia talis perfectio non est orationis. Et sic est in proposito
+					<lb/>et ideo ratio non concludit.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 04-->
+			<head><lb/><hi rend="italic">Utrum nomen possit esse primae personae</hi></head>
+			<p><lb/>Consequenter quaeritur utrum nomen possit esse primae
+			<lb/>personae.</p>
+			<div>
+				<p><lb/>Et arguitur quod non,</p>
+				<div>
+					<head><lb/>1.</head> <p>quia illud non potest esse primae personae, quod est
+						<lb/>confusum; sed omne nomen est confusum in personis; ergo nomen
+						<lb/>non potest esse primae &lt;personae&gt;. Maior patet, quia confusio
+						<lb/>facit tertiam personam. Minor etiam patet per Priscianum dicentem
+					<lb/>quod omne nomen est confusum in personis.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, nomen est illius personae sub qua impositum est
+						<lb/>ad significandum; sed nomen est impositum ad significandum in
+					<lb/>tertia persona; ergo nomen est tertiae personae.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: nomen potest habere illum modum
+					<lb/>significandi, per quem determinatur; sed determinatur per primam
+					<lb/>personam; ergo potest habere primam personam. Maior videtur
+				<lb/>manifesta, et etiam minor. Nam dicimus 'ego Petrus'.</p>
+				<p><lb/>Item, illud quod non determinat se ad alterum oppositorum,
+					<lb/>ei non repugnat reliquum, sed potest ei inesse; sed nomen non
+					<lb/>determinat se ad tertiam personam; ergo potest ei inesse prima.
+					<lb/>Maior propositio est Philosophi, II <hi rend="italic">Topicorum.</hi> Minor propositio
+					<lb/>satis patet. Nam nomen non se determinat ad tertiam personam,
+					<lb/>quia secundam habet, ut invocatio, et nihilominus tertia
+				<lb/>persona et prima ex opposito dividuntur.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod nomen dupliciter potest
+					<lb/>accipi: uno modo secundum se et non per respectum ad finem
+					<lb/>suum; alio modo per respectum ad finem. Si primo modo accipauintur,
+				<lb/>sic dicendum quod nomen potest esse primae personae.</p>
+				<p><lb/>Si secundo modo, non. Primum probatur. Nam illud potest esse
+					<lb/>primae personae, in quo reperitur proprietas primae personae
+					<lb/>sive modus essendi a quo accipitur prima persona; sed in nomine
+					<lb/>reperitur proprietas a qua accipitur prima persona; ergo nomen
+					<lb/>potest esse primae personae. Maior patet, eo quod modi omnes
+					<lb/>essendi accipiuntur a proprietatibus rerum. Minor autem probatur.
+					<lb/>Nam proprietas a qua accipitur prima persona est loqui de se ut
+					<lb/>de se. Unde sicut est triplex modus loquendi, sic est triplex persona.
+					<lb/>Nam quidam est modus loquendi de alio ut de alio, a quo
+					<lb/>accipitur tertia persona. Alius est modus loquendi ad alium ut ad
+					<lb/>alium, a quo accipitur secunda persona. Alius de se ut de se, a
+					<lb/>quo accipitur prima persona. Sed omnes isti modi loquendi in
+					<lb/>nomine inveniuntur. Nam invenitur modus loquendi de alio ut de
+					<lb/>alio, ut de se patet; etiam invenitur modus loquendi ad alium ut
+					<lb/>ad alium, secundum quod unus homo diffundit sermonem ad alium,
+					<lb/>ut Petrus ad Martinum, ut 'Martine'; etiam invenitur modus loquendi
+					<lb/>de se ut de se. Nam videmus quod idem homo potest
+					<lb/>loqui de se ipso, ut 'ego volo ire ad ecclesiam' et 'ego Petrus feci
+					<lb/>tale quid; ergo patet quod in nomine reperitur modus a quo accipitur
+					<lb/>prima persona, et per consequens potest esse primae
+				<lb/>personae.</p>
+				<p><lb/>Si autem accipiatur nomen per respectum ad finem, sic dicendum
+					<lb/>quod non potest esse primae personae. Ad cuius evidentiam
+					<lb/>sciendum est quod ad hoc inventum est nomen, ut de re
+					<lb/>possimus loqui sub absentia et praesentia; finis ergo nominis est
+					<lb/>&lt;ut&gt; de re possit loqui sub indifferentia ad absentiam et praesentiam.
+					<lb/>Tunc sic arguitur: illud, quod repugnat fini nominis, repugnat
+					<lb/>nomini ut ordinatur ad ipsum; sed fini nominis repugnat
+					<lb/>prima persona; ergo et nomini ut ordinatur in talem finem.
+					<lb/>Maior patet, quia finis imponit necessitatem hiis quae sunt ad
+					<lb/>finem, ut apparet II <hi rend="italic">Physicorum</hi>, et ideo quod repugnat fini
+					<lb/>repugnat hiis, quae ordinantur ad finem ut in ipsum ordinantur.
+					<lb/>Minor patet ex dictis. Nam finis nominis est ut sub indifferentia
+					<lb/>se habeat ad absentiam et praesentiam; prima autem persona huic
+					<lb/>repugnat, eo quod se habet sub maxima praesentialitate, quia est
+					<lb/>proprietas rei loquentis de se ut de se; ideo repugnat ut se habeat
+					<lb/>sub indifferentia ad absentiam et praesentiam. Et quod habere se
+					<lb/>sub indifferentia ad absentiam et praesentiam sit finis nominis
+					<lb/>sic potest apparere, quia nomina necessaria sunt ut exprimamus
+					<lb/>nostros conceptus alteri et conferamus cum aliis investigando
+					<lb/>veritatem. Et hoc apparet, quia intellectus est illa natura secundum
+					<lb/>quam omnes homines [nomen] scire desiderant; intellectus
+					<lb/>etiam non potest scire nisi moventibus sensibus, et ideo oportet
+					<lb/>quod ad hoc, quod nos exprimamus conceptus nostros alteri,
+					<lb/>quod hoc sit per vocem, quae habet movere auditum, quia per
+					<lb/>talem sensum nos maxime habemus scientiam, saltem quae est
+					<lb/>per doctrinam. Et ulterius nos volentes exprimere conceptus nostros
+					<lb/>alteri et disputare cum alio ferimus ad disputationem nomina
+					<lb/>et non res, quia volentes disputare de leone vel de asino non ferimus
+					<lb/>nobiscum nec asinum nec leonem, sed nomina per quae istae
+					<lb/>res nobis repraesentantur. Et ulterius, id de quo volumus disputare,
+					<lb/>vel alii per nomen manifestare, non semper est praesens, sed
+					<lb/>absens, quando disputamus de re existente ultra mare; et necessarium
+					<lb/>fuit quod ipsum nomen sic se haberet ut per indifferentiam
+					<lb/>per nomen possimus loqui sub absentia et praesentia. Sed si
+					<lb/>quis diceret quod dictum primum non videtur verum, eo quod
+					<lb/>possibile fuisset quod nos haberemus nomen aliquod quod esset
+					<lb/>primae personae, et aliquod quod esset secundae, et alia omnia
+					<lb/>nomina essent tertiae, dicendum quod non potest esse, quia primo
+					<lb/>illud non posset habere finem nominis; et dato quod esset, etiam
+					<lb/>esset frustra. Quod apparet, quia si haberemus unum nomen quod
+					<lb/>esset primae personae, cum nomen significet per modum determinati
+					<lb/>entis et rem determinatam, tunc oporteret quod tantum unam
+					<lb/>rem repraesentaret, et si repraesentaret alias, loqueretur de aliis
+					<lb/>rebus sub prima persona, et si omnes, hoc non esset nomen quod
+					<lb/>esset aequivoce ad illa. Sed si repraesentat unam rem tantum,
+					<lb/>[esse] inutile est, quia non possumus loqui de aliis rebus sub prima
+					<lb/>persona; et si omnes repraesentaret, tunc etiam esset frustra, quia
+					<lb/>dubium semper esset quam repraesentaret et deberet sub maxima
+					<lb/>certitudine repraesentare ex quo esset primae personae, quia hoc
+					<lb/>est de ratione primae personae. Et ideo non est possibile quod
+					<lb/>nomen sit primae personae acceptum, ut dictum est, sed loco nominis
+					<lb/>habemus aliam partem quae potest supplere hoc, scilicet
+					<lb/>pronomen ipsum. Nam pronomen potest esse primae personae,
+					<lb/>quia significat per modum indeterminati entis determinabilis
+					<lb/>per quodcumque. Et quia sic pronomen se habet, poterit determinari
+					<lb/>pronomen primae personae per hanc rem, ut de se loquentem,
+					<lb/>et per illam aliam, et breviter per quamcumque, nec
+					<lb/>erit ad illa aequivoce, sicut hoc pronomen 'ego'. Et ideo conveniens
+				<lb/>&lt;est&gt; sive convenit pronomini ut sit primae personae.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in oppositum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Illud etc.", concedatur. Cum dicis quod
+						<lb/>omne nomen est huiusmodi, dicendum quod verum est appropriatum
+						<lb/>ad finem; sed si assumatur secundum se et non per comparationem
+						<lb/>ad finem, tunc dicendum quod falsum est quod sit
+						<lb/>confusum quantum ad personas, immo potest esse determinatum,
+					<lb/>ut visum est.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illud etc.", dicendum quod verum est in comparatione
+						<lb/>ad finem, quia apparet quod sic imponitur ad significandum
+						<lb/>sub indifferentia ad absentiamet praesentiam. Et ideo
+						<lb/>omne nomen est personae tertiae vel etiam secundae, quia etiam
+						<lb/>secunda persona habet se sub indifferentia ad praesentiam et
+						<lb/>absentiam, quia per secundam personam possumus loqui praesenti,
+						<lb/>ut de se manifestum est, et etiam absenti, saltem per litteras quae
+						<lb/>sunt signa vocum, quae voces sunt signa passionum. Nam unius
+						<lb/>qui esset ultra mare possem scribi 'tu', 'talis', etc. Etiam posset
+						<lb/>maior concedi simpliciter, et cum dicitur in minori quod omne
+						<lb/>nomen etc., falsum est, immo imponimus quandoque sub prima
+						<lb/>persona et secunda, sicut concludunt pueri et dicunt 'ego volo
+						<lb/>quod tu voceris sic', ut puta Petrus, Bernhardus; et 'ego volo
+						<lb/>vocari Albertus' vel alio quocumque nomine. Et ideo patet quod
+					<lb/>minor falsa est.</p>
+				</div>
+				<div>
+					<p><lb/>Aliae rationes duae probant in oppositum quod possit esse
+						<lb/>secundae personae et primae secundum se acceptum et non in
+						<lb/>comparatione ad finem. Vel &lt;potest&gt; haberi singulariter ad unam
+					<lb/>quamque.</p>
+					<p><lb/>Cum dicitur "Nomen etc.", dicendum quod verum est secundum
+						<lb/>se, sed non in comparatione ad finem. Vel potest interimi
+						<lb/>maior, quia non oportet quod sit illius modi, per quem specificatur,
+						<lb/>sed sufficit quod sit aliqua pars quae loco nominis accipiatur,
+					<lb/>quae habeat talem modum, et sic est ut visum.</p>
+				</div>
+				<div>
+					<p><lb/>Ad aliud: "Illud etc.", concedatur; et cum dicitur quod
+						<lb/>nomen etc., dicendum quod verum est secundum se acceptum et
+						<lb/>in comparatione ad finem, sed in comparatione ad finem dico quod
+						<lb/>se determinat ad tertiam et quodammodo ad secundam, et ideo
+					<lb/>ratio non concludit.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 05-->
+			<head><lb/> <hi rend="italic">Utrum discretio sit possibilis</hi></head>
+			<p><lb/>Consequenter quaeritur utrum discretio sit possibilis.</p>
+			<div>
+				<p><lb/>Arguitur quod sic, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia si discretio non esset possibilis, tunc frustra adderetur
+						<lb/>pronomen primae personae verbo dicendo: 'ego volo legere?;
+						<lb/>sed hoc est £alsum; ergo et illud ? quo sequitur, sed sequitur
+					<lb/>ex hoc quod non sit discretio; ergo etc.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, illud est possibile in scientia, quae est de entibus
+						<lb/>factis ab intellectu, quod potest intelligi; sed dicendo: 'ego lego',
+					<lb/>potest intelligi hoc quod dico 'ego faciam discretionem'; ergo discretio est possibilis.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: si discretio esset possibilis, tunc
+					<lb/>haec propositio esset falsa: 'ego sum homo'; consequens est falsum;
+					<lb/>ergo et antecedens. Consequentia declaratur, quia tunc
+					<lb/>esset dicere: 'ego sum homo' id est 'sum homo et nullus alius', quod falsum est; falsitas
+				<lb/>consequentis est manifesta.</p>
+				<p><lb/>Iterum, si discretio esset possibilis, tunc sequeretur quod
+					<lb/>contradictoria simul starent; consequens est falsum; ergo et antecedens.
+					<lb/>Falsitas antecedentis manifesta est. Consequentia declaratur.
+					<lb/>Nam ponamus quod ego curram et etiam alii homines currant;
+					<lb/>tunc &lt;cum&gt; dico: 'ego curro', est sensum quod ego curram
+					<lb/>et nullus alius, et tunc haec erit falsa: 'ego curro'; manente suppositione
+					<lb/>etiam est vera, quia eius contradictoria est falsa: 'non ego
+				<lb/>curro'; et sic haec est vera 'ego curro' et non vera.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod discretio quodammodo
+					<lb/>non est possibilis et quodammodo est possibilis. Non est
+					<lb/>possibilis quantum est de virtute sermonis huius dictionis 'ego'.
+				<lb/>Est tamen possibilis de virtute intelligentis. Primum probatur.</p>
+				<p><lb/>Sciendum tamen ad evidentiam huius &lt;quaestionis&gt; quod discretio
+					<lb/>nihil aliud est nisi attributio alicuius actus vel formae alicui
+					<lb/>personae cum separatione illius formae vel actus ab aliis, ut 'ego
+				<lb/>lego' id est 'ego et nullus alius legit'.</p>
+				<p><lb/>Tunc arguitur sic: si discretio esset possibilis de virtute sermonis,
+					<lb/>tunc haec dictio 'ego' esset negativa; consequens est falsum;
+					<lb/>ergo et antecedens. Falsitas consequentis manifesta est.
+					<lb/>Consequentia declaratur. Nam in definitione discretionis ponitur
+				<lb/>negatio; ergo si 'ego' faceret discretionem, importaret negationem.</p>
+				<p><lb/>Item, si 'ego' faceret discretionem, tunc esset dictio exceptiva;
+					<lb/>consequens est falsum; ergo et antecedens. Falsitas consequentis
+					<lb/>patet, quia tunc sequeretur quod 'ego' esset pars indeclinabilis,
+					<lb/>ut puta coniunctio vel aliqua alia pars sicut 'solum' et 'nisi'. Consequentia
+					<lb/>declaratur quia, ut dictum est, discretio est attributio
+					<lb/>alicuius actus vel formae alicui personae cum remotione ab aliis;
+					<lb/>talis autem remotio fit per dictionem exceptivam, ut 'solum' vel 'nisi',
+					<lb/>ut 'Petrus solum legit', id est legit et nihil aliud operatur;
+					<lb/>ergo quod facit discretionem oportet quod sit dictio exceptiva, et
+					<lb/>sic patet quod discretio per pronomen primae vel secundae personae
+				<lb/>non est possibilis de virtute sermonis.</p>
+				<p><lb/>Est tamen sciendum quod discretio ipsa possibilis est de
+					<lb/>bonitate intellectus et ex quodam statuto et consuetudine quadam.
+					<lb/>Nam potest intellectus intelligere quod quandocumque hoc
+					<lb/>quod dico 'ego' iungitur verbo, quod sit sensus quod 'ego legam
+					<lb/>et nullus alius'. Hoc potest statuere. Et ita patet quod de bonitate
+					<lb/>intellectus vel intelligentis et ex quodam statuto potest hoc quod
+				<lb/>dico 'ego' facere discretionem.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc ad rationes in oppositum est facile respondere: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam, cum dicitur: "Si discretio non esset possibilis
+						<lb/>etc.", dico quod falsum est, quod saltem fit ibi expressio suppositi
+						<lb/>quantum ad vocem et redditur oratio perfecta quoad sensum,
+						<lb/>licet non quoad intellectum, et quod est oratio esse perfecta quoad
+					<lb/>sensum dictum &lt;est&gt; prius, et ita patet quod non frustra additur.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illud etc.", dicendum quod verum &lt;est&gt; quoad
+						<lb/>intellectum, non autem quantum est de virtute sermonis.
+						<lb/>Aliae autem duae rationes in oppositum probant quod non
+						<lb/>est possibilis discretio quantum est de virtute sermonis, non
+						<lb/>autem probabant quod non esset possibilis quoad intellectum, et
+					<lb/>ideo non concludunt contra positum.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 06-->
+			<head><lb/><hi rend="italic">Utrum verbum debeat praecedere nomen</hi></head>
+			<p><lb/>Consequenter quaeritur de ordine partium orationis scilicet
+				<lb/>de ordine nominis et verbi,et quaeritur utrum verbum debeat
+			<lb/>praecedere nomen.</p>
+			<div>
+				<p><lb/>Et arguitur quod sic, </p>
+				<div>
+					<p><lb/>quod si modus significandi verbi praecedit modum significandi
+						<lb/>nominis, et verbum praecedit nomen; sed ita est quod
+						<lb/>modus significandi verbi praecedit modum significandi nominis;
+						<lb/>ergo verbum praecedit nomen. Maior videtur manifesta, eo quod
+						<lb/>modus verbi est illud, quo verbum reponitur sub specie partis
+						<lb/>et tamquam forma verbi; modus autem significandi nominis est
+						<lb/>forma nominis et illud, quo nomen reponitur sub specie partis;
+						<lb/>ergo si modus significandi verbi praecedit modum significandi
+						<lb/>nominis, verbum praecedit nomen necessario. Minor probatur,
+						<lb/>quia sicut se habet fieri ad factum esse ita modus fieri ad modum
+						<lb/>facti esse; sed si sic se habet ad esse quod prius est, quia prius
+						<lb/>fit res quam &lt;facta&gt; sit, ergo modus fieri erit prius modo facti
+						<lb/>esse; sed modus verbi est modus fieri et modus nominis est
+					<lb/>modus facti esse; ergo modus verbi est prius modo nominis.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, quandocumque aliqua duo sic se habent, quod
+						<lb/>sine uno oratio perfecta esse non potest, sine altero sic, illud, sine
+						<lb/>quo oratio perfecta esse non potest, est prius altero; sed nomen et
+						<lb/>verbum sic se habent, quod sine nomine oratio perfecta esse
+						<lb/>[non] potest, sine verbo non; ergo verbum est prius nomine.
+						<lb/>Maior propositio manifesta est saltem in partibus orationis, eo
+						<lb/>quod partes orationis inventae sunt propter orationem, et ideo
+						<lb/>illa pars est prior, sine qua oratio perfecta esse non potest, ea
+						<lb/>parte sine qua esse potest. Minor patet, eo quod cum dico 'ego
+					<lb/>lego', oratio est perfecta, tamen hic non est nomen.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Iterum, illa pars quae est perfectior, est prior; sed verbum
+						<lb/>est pars perfectior nomine; ergo verbum est prior nomine. Maior
+						<lb/>videtur manifesta. Minor probatur per Priscianum qui dicit quod
+					<lb/>elegit sibi hoc nomen, verbum.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus. Et arguitur ratione sui, quia
+					<lb/>proprium posterius est eo cuius est proprium et ipsum sequitur;
+					<lb/>sed agere et pati est proprium ipsius substantiae nominis; ergo
+				<lb/>ipsum verbum posterius nomine et ipsum sequitur.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod nomen simpliciter loquendo
+					<lb/>est prius verbo. Tamen sciendum ad huius evidentiam
+					<lb/>quod nomen esse prius verbo dupliciter potest intelligi: uno modo
+					<lb/>quantum ad expressionem per vocem et impositionem | alio modo
+					<lb/>quantum ad modos significandi. Si primo modo intelligatur, sic
+					<lb/>dico quod nomen non est prius verbo nec e converso. Quod probatur,
+					<lb/>quia quandocumque aliqua sic se habent, quod unum potest
+					<lb/>exprimi prius altero et e converso et etiam imponi ad significandum,
+					<lb/>tunc unum non est prius altero quantum ad expressionem
+					<lb/>per vocem et impositionem; sed nomen et verbum sic se habent,
+					<lb/>scilicet quod unum potest exprimi post aliud et prius alio et imponi
+					<lb/>ad significandum; ergo nomen non est prius verbo nec e converso
+					<lb/>quantum ad impositionem ad significandum et expressionem vocis.
+					<lb/>Maior de se patet. Minor probatur. Nam nomen potest intelligi
+					<lb/>praeter verbum et verbum potest intelligi ut aliud a nomine et
+					<lb/>ideo poterit exprimi et imponi ad significandum nomen ante verbum
+					<lb/>et e converso, nec repugnat quod verbum de suo modo significandi
+					<lb/>dependet ad nomen et dat eum intelligere et sine &lt;eo&gt;
+					<lb/>intelligi non potest, quia etiam ipsum accidens dependet ad substantiam
+					<lb/>et dat eum intelligere, nec eum possumus intelligere sine
+					<lb/>substantia, secundum intentionem Philosophi, et tamen eum
+					<lb/>possumus exprimere non exprimendo substantiam et significare.
+					<lb/>ante substantiam, ut albedo et nigredo. Sic etiam est de verbo,
+					<lb/>quod quamquam non possit intelligi nisi in habitudine ad substantiam
+					<lb/>et ad nomen, tamen potest exprimi et prius imponi ad
+					<lb/>significandum quam nomen. Et ideo patet quod quantum ad expressionem
+					<lb/>vocis non est nomen prius verbo nec e converso, nec
+				<lb/>quantum ad impositionem ad significandum.</p>
+				<p><lb/>Si autem consideremus nomen et verbum quantum ad modos
+					<lb/>significandi, iterum hoc potest esse dupliciter, aut per respectum
+					<lb/>ad intellectum aut quantum ad verum rerum. Sed quantum ad
+					<lb/>intellectum, sic dicendum quod nomen est prius verbo. Et hoc
+					<lb/>probatur, quia quandocumque aliqua sic se habent, quod unum non
+					<lb/>dependet ad aliud, sed e converso, sic tunc illud quod
+					<lb/>non dependet ad aliud est prius, secundum intellectum, illo quod
+					<lb/>dependet ad aliud; sed nomen et verbum sic se habent, quod
+					<lb/>nomen non dependet ad verbum, sed verbum ad nomen; ergo
+					<lb/>nomen quantum ad intellectum est prius verbo. Maior patet, quia
+					<lb/>illud quod non dependet potest intelligi praeter id quod dependet,
+					<lb/>sed non e converso. Prius autem est quod absolvitur a posteriori,
+					<lb/>posterius autem a priori absolvi non potest; et ideo dicendum
+					<lb/>quod illud, quod non dependet, est prius secundum intellectum
+					<lb/>eo quod dependet ad ipsum, cum non possit absolvi dependens
+					<lb/>ab eo a quo dependet. [In contrarium] Manifestum est,
+					<lb/>quia oportet quod dependens, secundum id quod est, dependat;
+					<lb/>sed ab eo quod est absolvi non potest; ergo nec a dependentia.
+					<lb/>Minor probatur. Nam nomen significat per modum habitus et
+					<lb/>quietis et entis determinati, et hoc quod significat per modum
+					<lb/>fluxus et fieri distantis a substantia, significat per modum dependentis
+					<lb/>ad aliquid quod habeat modum habitus et quietis, et ideo
+					<lb/>verbum dependet ad nomen, e converso autem non, quia id quod
+					<lb/>est ens per modum habitus et quietis non dependet ad id quod
+				<lb/>se habet per modum fluxus.</p>
+				<p><lb/>Si autem sit quaestio, utrum nomen sit prius verbo vel e
+					<lb/>converso, quantum ad modum significandi eorum inspiciendo eorum
+					<lb/>naturas, sic dicendum quod uno modo nomen est prius
+					<lb/>verbo, alio modo verbum est prius nomine. Primum probatur,
+					<lb/>quia illud, quod se habet per modum habitus et quietis, est prius
+					<lb/>illo, quod se habet per modum fluxus et fieri; sed ipsum nomen
+					<lb/>habet se per modum habitus et quietis, verbum autem se habet
+					<lb/>per modum fluxus et fieri; ergo nomen est prius verbo. Maior
+					<lb/>videtur manifesta, eo quod illud, quod se habet per modum
+					<lb/>habitus et quietis, est ens perfectius eo, quod se habet per modum
+					<lb/>fluxus, etiam quia id quod se habet per modum fluxus dependet
+					<lb/>ad id quod se habet per modum quietis et habitus; sed posterius
+					<lb/>dependet ad primum et non e converso; ergo etc. Minor etiam
+					<lb/>de se patet, eo quod verbum significat per modum fluxus et fieri
+					<lb/>distantis a substantia ?per hoc enim verbum est verbum?
+					<lb/>et nomen per modum habitus et quietis determinatae apprehensionis,
+					<lb/>quia per hoc nomen est id quod est. Alio modo verbum est prius,
+					<lb/>saltem quantum ad hoc, quod est reddere orationem perfectam. Et
+					<lb/>hoc probatur, quia illud, quod est pars formalior, est prius; sed
+					<lb/>verbum est pars formalior nomine; ergo est prius nomine. Maior
+					<lb/>patet, eo quod forma est perfectio rei. Minor probatur. Nam
+					<lb/>verbum est nota eorum quae de altero praedicantur, ut dicit
+					<lb/>Philosophus libro Perihermeneias, id est medium inveniendi
+					<lb/>praedicatum cum subiecto; verbi autem praedicati cum subiecto
+					<lb/>est forma propositionis; ergo cum in verbo consistat compositio,
+					<lb/>quae est forma propositionis, verbum est pars formalior, nomen
+					<lb/>autem tenet locum praedicati vel subiecti quae materia sunt propositionis;
+					<lb/>ergo patet quod verbum est pars formalior nomine;
+				<lb/>simpliciter tamen loquendo, est nomen prius verbo.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc ad rationes in oppositum respondendum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Si modi significandi etc.", concedatur.
+						<lb/>Sed cum dicitur quod sic est, dicendum quod falsum est; et cum
+						<lb/>probas quia sic se habet etc., concedatur, sed cum dicitur ulterius
+						<lb/>quod sic se habet fieri quod est prius esse, dicendum quod falsum
+						<lb/>est simpliciter loquendo, quia semper fieri praesupponit esse aliquid
+						<lb/>a quo est. &lt;Est&gt; tamen prius in uno numero licet non perfectione.
+						<lb/>Sed potius ipsum esse praesupponitur ad fieri, simpliciter
+					<lb/>loquendo.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Quandocumque etc.", concedatur quantum ad
+						<lb/>hoc, quod est facere orationem perfectam, et hoc modo ipsum
+						<lb/>verbum concessum est esse prius nomine, non autem est prius
+					<lb/>simpliciter loquendo, sed e converso potius.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud: "Illud, quod est nobilius etc.", concedatur, ut
+						<lb/>nobilius est, sed cum dicitur "quod verbum etc.", dicendum quod
+						<lb/>verum est quantum ad hoc, quod est facere orationem perfectam
+						<lb/>et quantum ad hoc, quod est prius nomine, et hoc concessum est
+					<lb/>prius.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 07-->
+			<head><lb/><hi rend="italic">Utrum proprium sit verbi agere et pati</hi></head>
+			<p><lb/>Consequenter quaeritur utrum proprium sit verbi agere et pati.</p>
+			<div>
+				<p><lb/>Et arguitur quod non, </p>
+				<div>
+					<p><lb/>quia si agere et pati esset proprium verbi, tunc omne verbum
+						<lb/>esset aequivocum; consequens est falsum; ergo et antecedens.
+						<lb/>Consequentia declaratur, quia actioni et passioni nihil est
+						<lb/>commune univocum, eo quod sunt distincta praedicamenta. Falsitas
+						<lb/>consequentis manifesta est, eo quod 'diligo' et 'amo' et
+					<lb/>multa alia non sunt aequivoca.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Item, si aliquod verbum est, quod non significet actionem
+						<lb/>vel passionem, agere et pati non est proprium verbi; sed aliquod
+						<lb/>verbum est, quod non significat actionem vel passionem; ergo agere
+						<lb/>et pati non est proprium verbi. Maior patet. Minor probatur.
+						<lb/>Nam hoc verbum 'sum', 'es', 'est' non significat actionem vel
+					<lb/>passionem, sed esse.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus.</p>
+			</div>
+			<div>
+				<p><lb/>Ad hoc dicendum quod actionem et passionem significari per
+					<lb/>verbum potest intelligi dupliciter: uno modo quod importetur per
+					<lb/>verbum tamquam significatum; alio modo tamquam modus
+				<lb/>significandi.</p>
+				<p><lb/>Si primo modo intelligatur, sic dico quod esse verbi significat
+					<lb/>actionem vel passionem de significato; sed aliquod verbum est,
+					<lb/>quod significat quietem; ergo non omne verbum significat actionem
+					<lb/>vel passionem. Maior videtur manifesta, eo quod actio et
+					<lb/>passio fundantur in motu, ut apparet in III <hi rend="italic">Physicorum</hi>; quies
+					<lb/>autem est opposita motui; ergo id quod significat quietem, non
+					<lb/>significat actionem vel passionem, quia planum est quod quies
+					<lb/>non fundatur in motu. Minor de se patet. Nam 'quiesco',
+					<lb/>'maneo' et 'sto' et multa alia significant quietem, quia idem significat
+					<lb/>'quiesco' quod quies, licet sub alio modo significandi. Item,
+					<lb/>illud quod significat esse fixum et determinatum, non significat
+					<lb/>actionem et passionem; aliquod verbum est, quod significat esse
+					<lb/>determinatum et fixum; ergo aliquod verbum est, quod non
+					<lb/>significat actionem vel passionem sive agere et pati. Maior patet,
+					<lb/>eo quod agere et pati fundantur in motu quod est ens in fluxu.
+					<lb/>Minor etiam de se patet. Nam 'sum', 'es', 'est' significat ens determinatum
+				<lb/>et fixum.</p>
+				<p><lb/>Si vero quaeratur utrum omne verbum significet actionem vel
+					<lb/>passionem de modo significandi et non de significato, dico quod
+					<lb/>ut verba videntur sonare, quod non, eo quod [omne] si omne
+					<lb/>verbum significaret actionem vel passionem de modo significandi,
+					<lb/>tunc omne verbum esset commune; consequens est falsum; ergo et
+					<lb/>antecedens. Consequentia declaratur. Nam verbum, quod significat
+					<lb/>per modum passionis, est passivum; illud, quod per modum
+					<lb/>actionis, est activum; ergo si omne verbum significaret per modum
+					<lb/>actionis vel passionis, omne verbum esset commune. Falsitas
+					<lb/>consequentis patet de se. Nam 'amo', 'lego' et huiusmodi verba
+					<lb/>non sunt communia. Item, hoc verbum 'est' non significat per
+				<lb/>modum actionis et passionis; ergo etc.</p>
+				<p><lb/>Si vero per agere et pati intelligatur modus fluxus et fieri,
+					<lb/>sic dico quod omne &lt;verbum&gt; significat actionem vel passionem,
+					<lb/>id est per modum fluxus et fieri. Et hoc probatur, quia verbum
+					<lb/>significat per illum modum, per quem distinguitur a qualibet parte
+					<lb/>orationis praeterquam a participio; sed modus fluxus et fieri est
+					<lb/>huiusmodi; ergo omne verbum significat per modum fluxus et
+					<lb/>fieri. Maior de se patet, eo quod verbum et participium habent
+					<lb/>modum per quem ab omnibus partibus separantur, qui modus est
+					<lb/>communis utriusque. Minor etiam de se patet, quia verbum et
+					<lb/>participium significant per modum fluxus et fieri et nulla aliarum
+					<lb/>partium, et si per agere et pati nos intelligamus modum fluxus et
+					<lb/>fieri, tunc erit proprium verbi non tamen proprium proprie, quia
+					<lb/>proprie proprium est illud quod convenit cum eo, cuius est proprium;
+					<lb/>modus autem fluxus et fieri convenit participio et non
+					<lb/>solum verbo. Sed si per agere et pati nos intelligeremus modum
+					<lb/>fluxus et fieri per modum distantis et istud soli verbo conveniat
+					<lb/>et cum quo verbum est verbum, tunc proprium est verbi et hoc
+				<lb/>proprie proprium, quia soli et omni verbo convenit.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in contrarium:</head>
+				<div>
+					<head><lb/>1.</head> <p>"Si agere etc.", verum est si omne verbum hoc significaret
+						<lb/>significato vel de modo etiam significandi, ut videntur verba
+						<lb/>sonare, sed hoc non est, ut visum est prius, et ideo ex hoc contingit
+						<lb/>quod verba communia sunt aequivoca ad modum actionis et passionis;
+						<lb/>sed verbum significat agere et pati, id est per modum fluxus
+					<lb/>et fieri, secundum quod per agere et pati describimus illum modum.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Si aliquod etc.", concedatur; sed sic [est]
+						<lb/>verum est, si per actionem vel passionem nos intelligeremus hoc
+						<lb/>de significato vel de modo significandi, ut verba videntur sonare,
+						<lb/>ut visum est prius. Sed si per agere et pati nos intelligamus modum
+					<lb/>fluxus et fieri, tunc propositio falsa est.</p>
+				</div>
+				<div>
+					<p><lb/>Tunc ad auctoritatem Prisciani dicendum quod auctoritas
+						<lb/>Prisciani intelligenda est quod proprium est verbi significare agere
+						<lb/>et pati secundum quod per agere et pati nos intelligimus modum
+						<lb/>fluxus et fieri, et sic est proprium, licet non proprie proprium. Si
+						<lb/>autem per agere et pati nos intelligamus modum fieri distantis,
+					<lb/>tunc est proprie proprium, quia omni verbo et soli verbo convenit.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 08-->
+			<head><lb/><hi rend="italic">Utrum in verbo personali intelligatur nominativus</hi></head>
+			<p><lb/>Consequenter quaeritur utrum in verbo personali intelligatur
+			<lb/>nominativus.</p>
+			<div>
+				<p><lb/>Et arguitur quod non, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia quidquid intelligitur in dictione aut est significatum
+						<lb/>aut modus significandi; sed nominativus non est modus significandi
+						<lb/>nec significatum verbi; ergo non intelligitur in verbo. Maior
+						<lb/>patet quia non sunt plura in dictione quam significatum et modus
+						<lb/>significandi, nisi vox ipsa quae est faciens intelligere et repraesentans.
+					<lb/>Minor de se patet.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, illud quod non significatur per dictionem, non
+						<lb/>intelligitur in dictione; sed nominativus non | significatur per verbum;
+						<lb/>ergo non intelligitur in verbo. Maior videtur manifesta,
+						<lb/>quia significare est intellectum constituere et constituere est significare.
+						<lb/>Minor propositio probatur, nam verbum non est impositum
+						<lb/>ad significandum nominativum, ut de se patet; ergo non significabit
+					<lb/>eum nominativum.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Item, si nominativus intelligeretur in verbo, intelligeretur
+						<lb/>aliquo modo essendi in; sed nullo modo essendi in intelligitur;
+						<lb/>ergo nominativus non intelligitur in verbo. [Maior] Minor probatur.
+						<lb/>Nam non intelligitur sicut superius nec sicut inferius, nec
+						<lb/>sicut totum integrale, nec sicut pars integralis, nec sicut forma, nec
+						<lb/>sicut locatus in loco, nec sicut efficiens in effectu vel e converso,
+					<lb/>nec sicut finis; ergo nullo modo essendi in intelligitur.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Item, quidquid intelligitur in dictione, aut virtute vocis
+						<lb/>aut significati aut modi significandi intelligitur; sed nominativus
+						<lb/>non intelligitur in verbo nec virtute vocis nec modi significandi
+						<lb/>nec significati; ergo nominativus nullo modo intelligitur in verbo.
+						<lb/>Maior patet, quia non sunt plura in dictione. Minor probatur. Nam
+						<lb/>nominativus &lt; non &gt; intelligitur virtute vocis, quia vox non est
+						<lb/>principium dependentiae partis ad partem penes modos significandi;
+						<lb/>nominativus autem modus est quidam significandi nominis
+						<lb/>vel pronominis. Nec virtute significati, quia tunc verbum infinitum
+						<lb/>daret intelligere nominativum sicut verbum finiti modi et
+						<lb/>impersonale sicut personale et etiam participium, quia idem significatum
+						<lb/>habet. Nec ratione modi significandi, quia aut ratione
+						<lb/>modi significandi essentialis aut accidentalis; sed non essentialis,
+						<lb/>quia tunc omnia verba darent intelligere nominativum, quia talis
+						<lb/>modus in omnibus verbis salvatur; nec ratione modi accidentalis,
+						<lb/>quia aut ratione numeri aut ratione personae aut modi finiti aut
+						<lb/>omnium simul. Non ratione numeri, quia tunc ita daret intelligere
+						<lb/>obliquum sicut rectum, quia ita est numeri finiti. Nec ratione personae
+						<lb/>per idem. Nec ratione modi finiti, quia tunc verbum impersonale
+						<lb/>daret intelligere nominativum, quia est modi finiti sicut
+						<lb/>verbum personale. Nec ratione omnium simul, quia omnia ista
+					<lb/>possunt reperiri in obliqua.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus qui dicit quod inest nominativus
+					<lb/>in ipsis verbis, sine quo substantia significari non poterat. Et
+					<lb/>arguitur ratione sua: quia proprium dat intelligere id cuius est
+					<lb/>proprium; sed agere et pati est proprium substantiae nominis et
+				<lb/>nominativalis; ergo verbum dat intelligere nominativum.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod verbum dat intelligere
+					<lb/>nominativum, et loquor de verbo personali quia de hoc quaerit
+					<lb/>quaestio. Et huius ratio est, quia quandocumque aliquid dependet
+					<lb/>ad aliud, impossibile est illud intelligere sine eo a quo dependet;
+					<lb/>sed verbum personale dependet ad nominativum; ergo impossibile
+					<lb/>est verbum intelligi sine nominativo, et sic verbum dat intelligere
+					<lb/>nominativum. Maior propositio manifesta est, quia impossibile
+					<lb/>est intelligere dependens sine termino dependentiae. Minor
+					<lb/>propositio declaratur, eo quod verbum dependet a nominativo de
+					<lb/>suo modo significandi. Nam ex eo quod verbum significat per
+					<lb/>modum fluxus necessario dependet ad aliquod quod se habet per
+					<lb/>modum habitus et quietis; ex eo autem quod significat per modum
+					<lb/>fieri dependet ad aliquod quod se habet per modum per se stantis.
+					<lb/>Unde ex hoc quod verbum significat per modum fluxus et
+					<lb/>fieri dependet ad aliquod quod se habet per modum habitus et
+					<lb/>quietis; ex hoc autem quod se habet per modum distantis a substantia
+					<lb/>se habet per modum enuntiabilis sive ut nota eorum, quae
+					<lb/>de altero praedicantur; ex hoc autem quod est certi numeri et
+					<lb/>personae requirit suppositum certi numeri et personae a quo
+				<lb/>accipit finitatem numeri et personae.</p>
+				<p><lb/>Sed haec omnia non sufficiunt ad hoc, ut verbum nominativum
+					<lb/>requirat et det intelligere; et ideo sciendum quod [et] verbum
+					<lb/>personale significat quod ut ipsum est, et ideo requirit suppositum
+					<lb/>per nominativum et dat eum intelligere, quia nominativus
+					<lb/>habet se per modum ut quod est ipsum, et non accipitur
+					<lb/>hoc quod ut refert nec ipsum etiam ut absolvitur a veritate, sed
+					<lb/>hoc sic circumloquimur quia non habemus proprium modum loquendi.
+					<lb/>Unde ex dictis sic potest argui: id quod se habet per
+					<lb/>modum fluxus et fieri et &lt;est&gt; enuntiabilis de altero et est determinati
+					<lb/>numeri et personae et sic se habet per modum quod ut
+					<lb/>ipsum est, dat intelligere nominativum; verbum personale est
+					<lb/>huiusmodi; ergo dat &lt;intelligere&gt; nominativum et hoc substantive.
+					<lb/>Maior propositio manifesta est, quia ex hoc quod se habet per
+					<lb/>modum fluxus et fieri distantis dependet ad aliquod quod se habet
+					<lb/>per modum habitus et quietis per se stantis et suppositi; ex hoc
+					<lb/>quod est determinati numeri et personae, requirit suppositum
+					<lb/>determinati numeri et personae; per hoc autem quod se habet per
+					<lb/>modum quod ut ipsum &lt;est&gt;, dat intelligere nominativum [per se
+					<lb/>habet] per modum ut quod ipsum est, vel sicut agens vel sicut patiens
+					<lb/>vel sicut quod est hoc. Minor propositio apparet ex dictis et
+					<lb/>potest declarari, quia per hoc quod significat per modum fluxus et
+					<lb/>fieri ista est congrua: 'legens', 'currit'; eo quod talem dependentiam
+					<lb/>habet ex hoc quod est determinati numeri et personae, ista est
+					<lb/>incongrua: 'Petrus legunt' vel 'ego legis'; ex hoc autem quod significat
+					<lb/>per modum quod ut ipsum est, ista est congrua: 'Petrus
+					<lb/>legit'. Unde ille est modus per quem verbum dat intelligere nominativum,
+					<lb/>scilicet significare quod ut ipsum est; et sic patet quod
+				<lb/>in verbo personali intelligitur nominativus.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in oppositum:</head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Quidquid etc.", verum est tamquam intrinsecum,
+						<lb/>cum dicitur in minori quod nominativus etc., verum est, et ideo
+						<lb/>intelligitur in verbo &lt;non&gt; tamquam intrinsecum, sed tamquam
+					<lb/>extrinsecum.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illud quod non significatur per dictionem etc.",
+						<lb/>verum est si nullo modo significatur, ita quod nec significetur
+						<lb/>tamquam principale significatum vel quod det intelligere illud.
+						<lb/>Et cum probabas, "quia significare etc.", verum est, et ideo non
+						<lb/>costituit intellectum tamquam primum et principale significatum
+						<lb/>verbi, sed tamquam id quod datur intelligi per modum significandi
+					<lb/>verbi.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud: "Si nominativus etc.", concedatur; sed cum
+						<lb/>dicitur quod nullo modo intelligitur, falsum est. Et cum probatur,
+						<lb/>dicendum quod [non] intelligitur sicut materia in forma, quia
+						<lb/>sicut &lt;est&gt; unus modus essendi in secundum quem forma intelligitur
+						<lb/>in materia, sic est modus unus, secundum quem modus unus
+						<lb/>intelligitur in forma, ut expresse vult Commentator IV <hi rend="italic">Physicorum</hi>
+						<lb/>et reducitur ad eundem modum secundum quem forma
+						<lb/>est &lt;in&gt; materia. Vel potest dici quod locus est quodammodo
+						<lb/>forma locati et nihilominus locatum continet, quod locus locati
+						<lb/>continet. Quod quodammodo sit forma locati, hoc vult Philosophus
+						<lb/>IV <hi rend="italic">Physicorum.</hi> Et ideo potest dici quod nominativus est in
+						<lb/>verbo sicut locatum in suo loco quodammodo. Vel potest dici
+						<lb/>quod nominativus est in verbo sicut est in suo effectu &lt;et&gt; reducitur
+						<lb/>ad illum modum secundum quem effectus est in suo efficiente,
+						<lb/>quia non requiritur, grammatice loquendo, quod verbum
+						<lb/>sit in nominativo quod est subiectum, ita quod proprium sit sicut
+						<lb/>materia et subiectum substentans rem verbi et verbum sit forma
+					<lb/>ipsius, sed sufficit quod sit sicut efficiens, sicut apparebit infra.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Ad aliud: "Quidquid intelligitur etc.", dico quod verum
+						<lb/>est. Et dicendum ad minorem quod intelligitur virtute modi significandi,
+						<lb/>licet etiam virtute significati dat intelligere subiectum,
+						<lb/>eo quod accidens essentialiter dependet ad substantiam, secundum
+						<lb/>mentem Philosophi. Nihilominus dicendum est quod verbum
+						<lb/>dat intelligere nominativum ratione modi, ut visum est prius. Et
+						<lb/>quod probatur quod non, quia aut ratione essentialis etc., dico quod
+						<lb/>ratione modi accidentalis immediate, ut visum est prius, quia
+						<lb/>hoc, quod est significare ut ipsum est, &lt;est&gt; modus per quem
+						<lb/>verbum personale formaliter dat intelligere nominativum. Etiam
+						<lb/>modus essentialis quodammodo | facit [quia] dispositive, quia est
+						<lb/>causa uniuscuiusque modi posterioris, et quicquid est causa causae,
+						<lb/>est causa causati. Et cum dicebas quod non ratione essentialis, dico
+						<lb/>quod verum est immediate; et cum probabas de accidentali, quia aut
+						<lb/>ratione numeri etc., dicendum quod dimittebatur ibi modus significandi
+						<lb/>ut ipsum &lt;est&gt; per quem formaliter immediate dat intelligere
+					<lb/>nominativum, et ideo ratio non concludebat.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 09-->
+			<head><lb/><hi rend="italic">Utrum relativum cum antecedente confirmatur intransitivum</hi></head>
+			<p><lb/>Consequenter quaeritur utrum relativum cum antecedente
+			<lb/>confirmatur intransitivum.</p>
+			<div>
+				<p><lb/>Et arguitur quod non,</p>
+				<div>
+					<head><lb/>1.</head> <p>quia illa constructio est transitiva, in qua constructibilia
+						<lb/>construuntur sub diversitate casuum; sed relativum cum antecedente
+						<lb/>quandoque construitur sub diversitate casuum; ergo etc.
+						<lb/>Maior propositio videtur manifesta, quia casus est proprietas
+						<lb/>substantiae in comparatione ad actum; ergo ex diversis casibus
+						<lb/>videtur diversitas substantiae, quae quidem diversitas est principium
+					<lb/>transitivae constructionis. Minor manifesta est de se.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Et praeterea, illa constructio est transitiva, in qua constructibilia
+						<lb/>pertinent ad diversa; sed relativum diversitatis pertinet ad diversa;
+						<lb/>ergo etc. Maior patet, eo quod hoc importat constructio
+					<lb/>transitiva. Minor etiam patet </p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: constructio adiectivi ad subiectum
+					<lb/>est intransitiva; sed constructio relativi cum antecedente est
+					<lb/>huiusmodi, eo quod relativum adiectivum est; ergo etc.
+					<lb/>Maior est manifesta, quia pertinet ad idem, et etiam minor.
+					<lb/>Praeterea, illa constructio est intransitiva, in qua constructibilia
+					<lb/>pertinent ad idem, quia hoc est de ratione intransitivae constructionis;
+					<lb/>sed relativum cum antecedente pertinet ad idem, eo quod relativum refert idem
+					<lb/>cum suo antecedente; ergo est
+				<lb/>intransitiva.</p>
+			</div>
+			<div>
+				<p><lb/>Ad evidentiam huius quaestionis sciendum quid est constructio
+					<lb/>et quid intransitiva. Constructio enim intransitiva, ut
+					<lb/>dixerunt antiqui, est illa, in qua constructibilia pertinent ad idem;
+					<lb/>constructio autem transitiva, in qua pertinent ad diversa.
+					<lb/>Sed si istae definitiones largo modo intelligantur, non bene
+					<lb/>intelliguntur. Nam tunc omnis constructio esset transitiva
+					<lb/>et intransitiva simul et semel, quod est inconveniens. Transitiva
+					<lb/>enim esset inquantum illa quae construuntur semper sunt
+					<lb/>diversa, eo quod non coniungitur cum eodem; intransitiva autem
+					<lb/>esset, quando unum constructibilium semper dependet ad aliud
+					<lb/>vel habet determinare dependentiam alterius; et quia omnia constructibilia
+					<lb/>sic coniunguntur, ideo hoc modo omnis constructio
+				<lb/>esset transitiva et intransitiva.</p>
+				<p><lb/>Et ideo intelligendae sunt aliter illae definitiones. Intransitiva
+					<lb/>enim constructio est illa, in qua constructibilia sive unibilia
+					<lb/>habent dependentiam ad primum constructibile; et appello 'primum
+					<lb/>constructibile' illud quod est ex parte suppositi verbi; secundum
+					<lb/>autem constructibile est illud quod postea ponitur, sive
+					<lb/>sit unum sive plura. In omni enim genere, in ordinatis secundum
+					<lb/>rationem est dare unum primum ad quod omnia reducantur; ideo
+					<lb/>illa quae reducuntur ad primum constructibile, ut primum est,
+					<lb/>et habent dependentiam ad ipsum, illa faciunt constructionem intransitivam
+					<lb/>et per contrarium illa quae non reducuntur ad primum
+					<lb/>constructibile et non habent dependentiam ad ipsum, talia
+				<lb/>faciunt constructionem transitivam.</p>
+				<p><lb/>Tunc dicendo ad quaestionem, dico quod constructio transitiva
+					<lb/>identitatis et nominativi accidentis cum antecedente semper
+					<lb/>est intransitiva; talia enim semper referuntur ad primum constructibile
+					<lb/>tamquam ad suum substentamentum, sicut etiam in
+					<lb/>domo paries et tectum fundantur in fundamento et habent dependentiam
+					<lb/>ad ipsum tamquam ad primum substentamentum. De
+					<lb/>relativo autem diversitatis prout refertur ad suum antecedens non
+					<lb/>repe|titum, dicendum quod etiam talis constructio est intransitiva.
+					<lb/>Si autem re£eratur prout repetitum est et prout refertur &lt;ad&gt;
+					<lb/>aliquid diversum a suo antecedente, sic £acit constructionem transitivam,
+					<lb/>quia sic dicit diversum et modo refertur ad constructibile
+					<lb/>primum secundum quod refertur ad sequens, ut dicendo 'Sortes
+				<lb/>currit' et 'alius homo a Sorte disputat'.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in contrarium: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam, quando arguebatur: "Illa constructio est
+						<lb/>transitiva etc.", dicendum quod hoc non sufficit, sed requiritur
+						<lb/>illud quod dictum est, scilicet quod non referatur ad constructibile
+						<lb/>primum. Nam constructio transitiva ordinatur penes casus
+					<lb/>diversos.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud, quando dicebatur: "Constructio illa est transitiva,
+						<lb/>in qua etc.", concedatur. Sed quod dicebatur in minori, quod
+						<lb/>constructio relativi diversitatis erat huiusmodi, dicendum secundum
+						<lb/>quod praedictum est in corpore quaestionis, quia est ut sic
+						<lb/>et est [et est] ut non. Aliae autem rationes etiam non concludunt,
+					<lb/>quae factae sunt [et] in contrarium.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Questio 10-->
+			<head><lb/><hi rend="italic">Utrum eadem sint principia congruitatis et perfectionis</hi></head>
+			<p><lb/>Consequenter quaeritur utrum eadem sint principia congruitatis
+			<lb/>et perfectionis.</p>
+			<div>
+				<p><lb/>Et videtur quod non, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia eorum quae differunt essentialiter, non sunt eadem
+						<lb/>principia; sed perfectio et congruitas differunt essentialiter; ergo
+						<lb/>eorum non sunt eadem principia. Maior videtur manifesta. Minor
+						<lb/>de se patet. Nam congruitas et perfectio sunt diversae passiones
+					<lb/>orationis.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Item, si congruitatis &lt;et&gt; perfectionis essent eadem principia,
+						<lb/>tunc ubicumque esset congruitas, et perfectio; consequens
+						<lb/>est falsum; ergo et antecedens. Falsitas consequentis manifesta
+						<lb/>est. Nam haec est congrua 'homo albus', non autem perfecta. Consequentia
+						<lb/>declaratur. Nam si eorundem essent eadem principia,
+					<lb/>tunc cum produceretur unum, et reliquum.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: íd quod est causa causae orationis
+					<lb/>et principium, est principium perfectionis; sed constructibilia sunt
+					<lb/>causa causae orationis, et hoc materialiter, modi autem significandi
+					<lb/>formaliter vel effective sunt; ergo sunt causa perfectionis orationis.
+					<lb/>Sed manifestum est quod significatum et modi significandi
+					<lb/>sunt principium congruitatis, ut visum est prius, et ista sunt
+					<lb/>eadem; ergo eadem sunt principia congruitatis et perfectionis.
+					<lb/>Maior primi syllogismi videtur manifesta, eo quod esse rei est
+					<lb/>perfectio rei. Et minor etiam; nam constructibilia coniuncta secundum
+				<lb/>debitos modos significandi orationem perficiunt.</p>
+			</div>
+			<div>
+				<p><lb/>Tamen sciendum ad evidentiam quaestionis quod in rebus
+					<lb/>grammaticalibus non reperitur perfectio nisi per quamdam similitudinem
+					<lb/>ad res naturales, eo quod ars sequitur naturam inquantum
+					<lb/>potest, et propter hoc Philosophus in II <hi rend="italic">Physicorum</hi>
+					<lb/>&lt;dicit&gt; quod si natura faceret domum, faceret eam quemadmodum
+					<lb/>ars. Unde nos videmus quod natura et ars eodem modo faciunt
+					<lb/>sanitatem, eo quod ars propter hoc inventa est, ut suppleat quae
+					<lb/>natura facere non potest. In natura autem dicitur esse perfectum
+					<lb/>quod attingit propriam operationem et finem, sicut dicitur I
+					<lb/><hi rend="italic">Politicae</hi>; et quanto magis potest in propriam operationem et
+					<lb/>finem et minus est ei admixtum de potentia passiva et privatione,
+					<lb/>tanto dicitur esse perfectius; et quia Deus maxime habet virtutem
+					<lb/>propriam et operationem et nihil est sibi admixtum de potentia
+					<lb/>passiva et privatione, ideo dicitur esse perfectissimus. In
+					<lb/>omnibus autem aliis entibus est &lt; aliquid &gt; admixtum de privatione,
+					<lb/>et ideo perfectissima simpliciter esse non possunt. Etiam in specie
+					<lb/>aliqua dicitur aliquid esse perfectum, quod habet propriam
+					<lb/>virtutem et operationem et finem attingere potest; et quanto
+					<lb/>magis potest in propriam operationem et finem et minus est ei
+					<lb/>admixtum de potentia passiva et privatione quae opponitur illi
+					<lb/>operationi, tanto dicitur esse perfectius, verbi gratia ut in homine.
+					<lb/>Ille namque homo dicitur esse perfectus, qui potest in istam operationem
+					<lb/>quae est intelligere, eo quod intelligere est propria operatio
+					<lb/>hominis, eo quod homo est intellectus vel est maxime operans
+					<lb/>secundum intellectum, sicut apparet VI <hi rend="italic">Ethicorum</hi>, et
+					<lb/>quanto homo potest in istam operationem quae est intelligere et
+					<lb/>minus est ei admixtum de potentia passiva et privatione quae opponitur
+					<lb/>illi operationi, tanto dicitur esse perfectior; [dicit] ille
+					<lb/>homo qui magis operatur secundum intellectum ut possibile est
+					<lb/>in specie humana, dicitur esse perfectissimus in specie humana.
+					<lb/>Et ut est in natura, ita est in arte. Unde illa oratio dicitur esse
+					<lb/>perfecta, quae attingit propriam operationem et finem, et tanto
+					<lb/>dicetur esse perfectior, quanto magis attingit proprium finem et
+					<lb/>operationem et minus erit sibi admixtum de potentia passiva et
+					<lb/>privatione. Propria autem operatio ipsius orationis est determinare
+					<lb/>dependentiam et potentiam et privationem ipsius intellectus, et
+					<lb/>ideo illa oratio erit perfecta, quae potest determinare dependentiam
+					<lb/>et privationem intellectus. Et propter hoc bene dixerunt antiqui,
+					<lb/>quod oratio perfecta est quae perfectum sensum generat in animo
+					<lb/>auditoris; unde oratio perfecta est quae determinat dependentiam
+				<lb/>et privationem intellectus.</p>
+				<p><lb/>Tamen sciendum ad evidentiam quaestionis quod perfectio
+					<lb/>est quaedam passio orationis causata ex debitis modis significandi
+					<lb/>secundum quod unum est determinatum &lt;ad&gt; dependentiam alterius,
+					<lb/>per quam scilicet perfectionem oratio est determinans dependentiam
+					<lb/>intellectus; congruitas etiam est quaedam passio orationis
+				<lb/>causata ex debita proportione modorum significandi.</p>
+				<p><lb/>Tunc ergo ad quaestionem dicendum omnibus aliis opinionibus,
+					<lb/>quia de hoc multa dicuntur, quod eadem sunt principia congruitatis
+					<lb/>et perfectionis, tamen sub alio et alio modo et etiam
+					<lb/>plura requiruntur ad perfectionem orationis quam ad congruitatem
+					<lb/>ipsius. Quod etiam eadem sint principia congruitatis et perfectionis
+					<lb/>orationis probatur, quia id quod est per se causa subiecti,
+					<lb/>est etiam causa omnium passionum illius; sed constructibilia
+					<lb/>ipsa et modi significandi sunt per se causa ipsius orationis;
+					<lb/>ergo etiam causa omnium passionum orationis; sed congruitas et
+					<lb/>perfectio sunt passiones orationis; ergo &lt;eadem&gt; erit causa perfectionis
+					<lb/>et congruitatis. Maior propositio manifesta est, eo quod
+					<lb/>quicquid est causa causae, est causa causati, unde Philosophus
+					<lb/>vult VIII <hi rend="italic">Physicorum</hi> quod causa secunda non agat nisi in virtute
+					<lb/>primae et hoc etiam dicitur in prima propositione De causis.
+					<lb/>Minor etiam propositio satis patet, eo quod significata sive constructibilia
+					<lb/>secundum debitos modos significandi coniuncta costituunt
+					<lb/>orationem tamquam principia intrinseca, eo quod constructibilia
+					<lb/>sunt tamquam causa materialis et modi significandi
+					<lb/>sicut £ormalis et quodammodo sicut efficiens; etiam ipse intellectus
+					<lb/>est causa orationis, non tamen intrinseca, sed extrinseca;
+					<lb/>et ideo patet minor, quod constructibilia et modi significandi sunt
+				<lb/>per se causa orationis, loquendo de causis intrinsecis.</p>
+				<p><lb/>Iterum hoc arguitur: id quod est causa uniendi partem cum
+					<lb/>parte et dependentiae partis ad partem et determinationis ipsius
+					<lb/>dependentiae, est causa perfectionis sive principium; sed modi
+					<lb/>significandi et constructibilia sunt causa dependentiae partis ad
+					<lb/>partem et determinationis ipsius et uniendi partem cum parte;
+					<lb/>ergo constructibilia et modi significandi sunt causa perfectionis.
+					<lb/>Maior videtur manifesta, eo quod perfectio in oratione constituitur
+					<lb/>secundum quod oratio est determinativa dependentiae et
+					<lb/>potentiae intellectus; hoc etiam non est nisi quia una pars unitur
+					<lb/>cum alia parte et etiam dependentia unius partis determinatur
+					<lb/>per aliam partem. Minor declaratur. Nam constructibilia ipsa sic
+					<lb/>se habent, quod secundum quod unum unitur cum alio secundum
+					<lb/>debitos modos significandi est causa determinationis dependentiae
+					<lb/>alterius, et per suos modos significandi unum dependet ad aliud
+					<lb/>et unitur cum alio. Nam ex eo quod unum significat per modum
+					<lb/>per se stantis, alterum per modum dependentis, ex hoc unum
+					<lb/>alteri unitur et dependet ad aliud. Et sic apparet quod eadem
+					<lb/>sint principia congruitatis et perfectionis, quia ista eadem, scilicet
+					<lb/>modi significandi et constructibilia, sunt causa congruitatis, constructibilia
+					<lb/>sicut principia materialia et modi significandi sicut
+					<lb/>principia formalia et quodammodo effectiva; tamen quamquam
+					<lb/>modi significandi et constructibilia sint causa congruitatis et perfectionis,
+					<lb/>tamen sub alia et alia ratione et modo. Nam secundum
+					<lb/>quod aliqua coniunguntur secundum debitos modos significandi,
+					<lb/>causatur in oratione congruitas; incongruitas autem, secundum
+					<lb/>quod aliqua coniunguntur secundum indebitos et improportionabiles
+					<lb/>modos significandi, ut cum dicitur 'homo albus' vel 'homo
+					<lb/>sedet', vel 'homo albi' vel 'homo sedent' quantum ad incongruitatem.
+					<lb/>Perfectio autem causatur ex modis significandi secundum
+					<lb/>quod unum est determinativum dependentiae alterius, ut cum
+					<lb/>dicitur 'homo currit', causatur perfectio ex eo quod 'homo' significat
+					<lb/>per modum habitus et quietis, 'currit' autem per modum
+					<lb/>fluxus et fieri. Nam dependentia huius, quod est 'currit', quod est
+					<lb/>se habere per modum fluxus et fieri, determinatur a modis significandi
+					<lb/>hominis, quod est significare per modum habitus et quietis
+					<lb/>et per se stantis, quia ex hoc quod 'homo' tales modos habet
+					<lb/>significandi, est natum determinare dependentiam huius verbi
+					<lb/>'currit'; et ex hoc enim, quod unum est determinativum dependentiae
+					<lb/>alterius, coniuncta ad invicem determinat dependentiam
+					<lb/>intellectus, et ideo, secundum quod aliqua coniunguntur per modos
+					<lb/>significandi ita quod unum sit determinativum alterius, causatur
+					<lb/>perfectio; secundum quod iunguntur secundum proportionabiles
+					<lb/>modos significandi, causatur congruitas. Verbi gratia, in rebus
+					<lb/>similibus: nam lignum secundum quod in potentia est ut determinetur
+					<lb/>per formam archae, dicitur imperfectionem &lt;habere&gt;; secundum
+					<lb/>autem quod determinatum est per formam archae et informatum
+					<lb/>forma archae ab archifactore, dicitur esse perfectum
+					<lb/>et perfectionem habere quia, ut sic, determinata est dependentia
+					<lb/>sui; secundum autem quod ibi est proportio partium, ita quod
+					<lb/>una proportionem habet ut ad alteram coniungatur, hoc modo
+					<lb/>dicitur ibi esse congruitas, secundum quod ad invicem coniunguntur,
+					<lb/>sicut secundum quod aliquae assides debite coniungerentur
+					<lb/>ad invicem, ita quod una bene coaequaretur alteri et bene
+					<lb/>coniungeretur ita quod ibi non remaneret apertio partium; &lt;si
+					<lb/>autem esset&gt; ita quod fundus non bene esset coniunctus fundis,
+					<lb/>diceretur esse incongruitas partium, eo quod partes non bene proportionarentur
+					<lb/>ad invicem. Sed perfectio dicitur esse secundum
+					<lb/>quod istae assides quae erant in potentia ad formam archae, per
+					<lb/>coniunctionem earum ad invicem resultat forma archae et perficitur
+					<lb/>earum potentia et determinatur | earum dependentia; et
+					<lb/>hoc apparet ex materia rerum naturalium quae maxime dicitur
+					<lb/>imperfecta et dependens. Nam ipsa perficitur et determinatur
+					<lb/>eius dependentia per adventum formae; et ideo patet quod perfectio
+					<lb/>&lt;est&gt; secundum quod una pars est determinativa dependentiae
+				<lb/>alterius.</p>
+				<p><lb/>Iterum, plus requiritur ad perfectionem quam ad congruitatem.
+					<lb/>Nam ista oratio congrua est 'homo albus'; etiam 'si homo
+					<lb/>currit' vel 'currit bene', non tamen est perfecta, eo quod non determinat
+					<lb/>dependentiam intellectus, quia si dicitur 'si homo currit'
+					<lb/>&lt;non&gt; dependet intellectus; etiam si dicitur 'currit bene' &lt;non&gt;
+					<lb/>dependet intellectus, et si dicitur 'homo albus'; ergo si diceretur
+					<lb/>'omnis homo currit; Sortes est homo; ergo', quia dependet intellectus,
+					<lb/>et orationem praedictam bene grammaticus considerat non
+				<lb/>quantum ad consequentiam, sed quantum ad perfectionem et congruitatem.</p>
+				<p><lb/>Unde ad perfectionem orationis requiritur quod sit
+					<lb/>aliquid quod significet per modum habitus et quietis, et aliquid
+					<lb/>per modum fluxus et fieri distantis et coniungatur secundum debitum
+					<lb/>modum, ita quod unum sit determinativum dependentiae
+					<lb/>alterius. Unde bene requiritur ad perfectionem quod ibi sit proportio
+					<lb/>modorum requisitorum ut ad talem speciem constructionis,
+					<lb/>tamen sub alio modo causat perfectionem quam congruitatem,
+					<lb/>et aliqua requiruntur ad perfectionem sine quibus congruitas
+				<lb/>esse posset.</p>
+				<p><lb/>Iterum, non sufficit distantia quae importatur per verbum ad
+					<lb/>perfectionem, unde ista non est perfecta 'hominem currere', sed
+					<lb/>requiritur quaedem alia distantia superaddita distantiae quae convenit
+					<lb/>verbo ratione modi finiti, et ita est quodammodo antecedens
+					<lb/>verbo unde verbum est. Et ita apparet quod quodammodo eadem
+					<lb/>sunt principia congruitatis et perfectionis; et quae requiruntur ad
+					<lb/>congruitatem, requiruntur ad perfectionem; tamen alio modo et
+					<lb/>alio sunt principia congruitatis et perfectionis. Etiam apparet quod
+					<lb/>plura requiruntur ad perfectionem quam ad congruitatem, quia
+					<lb/>requiritur ipsum verbum finitum, unde absque nomine et verbo
+				<lb/>nulla constat perfecta oratio.</p>
+			</div>
+			<div>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Eorum quae differunt etc.", dicendum quod
+						<lb/>verum est sub eodem modo, sub alio tamen modo et alio possunt
+						<lb/>esse et sic sunt principia congruitatis et perfectionis, sicut nauta
+						<lb/>ipse est causa salutis navis et etiam submersionis, tamen alio modo
+						<lb/>et alio, quia per sui praesentiam est causa salutis, per absentiam
+						<lb/>causa submersionis. Iterum, sol per sui appropinquationem ad
+						<lb/>nos est causa caloris et magnorum dierum, per remotionem sui
+					<lb/>est causa frigoris et parvorum dierum, sicut apparet in hieme.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Tunc ad aliud: "Si perfectionis et congruitatis etc.", dico
+						<lb/>quod verum est, si eodem modo et non plus requiritur ad congruitatem
+						<lb/>quam ad perfectionem; sed non est sic. Nam ipsa perfectio
+						<lb/>immediatius causatur a modis essentialibus et specificis, ut
+						<lb/>dicendo 'homo currit'; ex modis autem accidentalibus et posterioribus
+						<lb/>dispositio magis, sicut ex numero et persona. Congruitas
+						<lb/>autem e converso. Nam congruitas immediate causatur ex modis
+						<lb/>accidentalibus, sicut ex numero et persona, dispositio autem ex
+						<lb/>modis essentialibus, sicut ab hoc quod est significare per modum
+					<lb/>habitus et quietis et fluxus et fieri.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 11-->
+			<head><lb/><hi rend="italic">Utrum omnis modus significandi
+			<lb/>accipiatur a proprietatibus rerum</hi></head>
+			<p><lb/>Consequenter quaeritur utrum omnis modus significandi accipiatur
+			<lb/>a proprietatibus rerum.</p>
+			<div>
+				<p><lb/>Et arguitur quod non: </p>
+				<div>
+					<head><lb/>1.</head> <p>quod idem non accipitur a se ipso; sed modus significandi
+					<lb/>et proprietas rei sive modus essendi idem sunt; ergo etc.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Item, modi essendi non considerantur a grammatico; ergo
+						<lb/>modi significandi non accipiuntur a modis essendi. Consequentia
+						<lb/>declaratur, quia modi significandi non accipiuntur ab eo quod
+					<lb/>non consideratur a grammatico.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Iterum, 'nihil' non est ens, et tamen habet modos significandi;
+					<lb/>et si non est ens non habet modos essendi.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Item, 'Deus' habet modos significandi, et tamen non habet
+					<lb/>aliquas proprietates a quibus possint accipi modi significandi.</p>
+				</div>
+				<div>
+					<head><lb/>5.</head> <p>Iterum, 'motus' significatur per modum habitus et quietis,
+					<lb/>et est ens in fluxu.</p>
+				</div>
+				<div>
+					<head><lb/>6.</head> <p>Iterum, 'albedo' secundum suam essentiam dependet ad
+						<lb/>subiectum, et tamen significatur ut non dependens ad subiectum.
+						<lb/>Ergo per omnia ista videtur quod modi significandi non accipiantur
+					<lb/>a proprietatibus rerum.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: si modi significandi non acciperentur
+					<lb/>a modis essendi sive a proprietatibus rerum, tunc grammatica
+					<lb/>esset de figmentis et non de entibus; consequens est falsum; ergo
+					<lb/>et antecedens. Falsitas consequentis manifesta est, eo quod de
+					<lb/>figmentis et non de entibus non potest esse scientia. Consequentia
+					<lb/>declaratur. Nam si modi significandi non acciperentur a rerum
+					<lb/>proprietatibus, tunc non habent fundamentum in rebus et per
+				<lb/>consequens essent figmenta.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum quod modi significandi accepti
+					<lb/>sunt a modis essendi, et hoc de omni modo significandi intelligendum
+					<lb/>est. Et hoc probatur, quia nihil ens in potentia passiva
+					<lb/>de se vadit ad actum, sed oportet quod fiat in actu ab aliquo
+					<lb/>ente actu quod sit extra ipsum *** . Maior propositio declaratur. Nam
+					<lb/>videmus quod lignum est in potentia passiva ad formam archae
+					<lb/>et oportet quod deducatur &lt;ad&gt; actum per aliquod existens actu,
+					<lb/>ut per ipsum archifactorem; et hoc vult Philosophus II <hi rend="italic">De anima</hi>
+					<lb/>et IX <hi rend="italic">Metaphysicae</hi> ?. Minor autem propositio probata est
+					<lb/>a Philosopho III <hi rend="italic">De anima.</hi> Nam dicitur ibi quod intellectus est
+					<lb/>nihil ante intelligibilia et antequam informetur specie intelligibili,
+					<lb/>sed possibilis natus est; et ideo apparet quod ipse intellectus de
+					<lb/>se non vadit ad actum, sed oportet quod deducatur de potentia
+					<lb/>ad actum per aliquod accidens existens actu quod sit extra ipsum.
+					<lb/>Tale autem est res aut modus rei. Sed non est res illa, quae facit
+					<lb/>intellectum in actu, cum intelligit modum significandi, quia res
+					<lb/>ipsa causat in intellectu speciem rei intellectu [et intellectum] et
+					<lb/>non ad intellectum; sed modus significandi non est intellectus,
+					<lb/>sed cointellectus et consignificatus, secundum quod applicatur
+					<lb/>ipse voci consignificanti; et ideo oportet quod modus significandi
+					<lb/>causetur et accipiatur a modis essendi, sive a rerum proprietatibus.
+					<lb/>Tamen de hoc est difficultas. Nam entium quaedam sunt
+					<lb/>entia vera et in re extra, quaedam autem sunt entia secundum animam;
+					<lb/>entia vera ut 'homo', 'bos'; entia secundum animam ut
+					<lb/>'nihil' est ens et 'caecitas'. In entibus veris non est difficultas
+					<lb/>videre quomodo modi significandi accipiuntur a modis essendi, eo
+					<lb/>quod res ipsa existit in re ipsa extra cum suis proprietatibus, et
+					<lb/>ideo potest movere intellectum sub aliquo modo sub quo existit,
+					<lb/>et tunc intellectus ab illa re apprehendit et intelligit sub illa proprietate,
+					<lb/>ita quod res est intellecta. Modus autem ille cointellectus
+					<lb/>et ut sic, dicitur modus intelligendi. Etiam potest intellectus illam
+					<lb/>rem intellectam per vocem significare, et tunc dicitur modus significandi
+					<lb/>secundum quod est modus rei significatae. Sed videre quomodo
+					<lb/>in entibus non veris accipiuntur modi significandi, difficile
+					<lb/>est, sicut in 'nihil' et in 'caecitate' et similibus.
+					<lb/>Nam dicunt quidam de hoc, quod modi significandi in istis
+					<lb/>accipiuntur, quia intellectus, intelligendo ista talia, reflectit supra se
+					<lb/>ipsum et format modos significandi in istis. Sed hoc dictum non
+					<lb/>videtur possibile propter primam causam. Nam intellectus est in
+					<lb/>potentia; id autem, quod est in potentia, oportet quod fiat in actu
+					<lb/>ab aliquo ente in actu; sed tale, quod est figmentum, non est in
+					<lb/>actu, et ideo intellectum in actu facere non potest. Sed hoc propter
+					<lb/>hunc modum, quia intellectus intelligendo rem veram, ut puta
+					<lb/>oculum, potest etiam intelligere per hoc suam privationem, puta
+					<lb/>caecitatem. Nam intelligendo et cognoscendo naturam oculi et videndo
+					<lb/>aliquem qui non habeat oculum, sit tamen natus habere,
+					<lb/>intelligit non entitatem oculi in illo, hoc per cognitionem oculi;
+					<lb/>et similiter intelligendo ens potest intelligere non ens, eo quod
+					<lb/>intelligendo et cognoscendo naturam entis potest intelligere non
+					<lb/>ens, eo quod cognoscit quod ei non convenit natura entis, ita
+					<lb/>quod privationes et negationes per suos habitus intelliguntur; unde
+					<lb/>Philosophus IV <hi rend="italic">Metaphysicae</hi> dicit quod negationes et privationes
+					<lb/>quodammodo entia sunt, eo quod negationes et privationes entia
+					<lb/>sunt secundum animam, eo quod per suos habitus possunt intelligi.
+					<lb/>Tamen de hoc dixerunt quidam quod intellectus intelligit
+					<lb/>privationes et negationes cum intelligit se non esse informatum
+					<lb/>specie sui habitus. Sed hoc non videtur esse possibile, quia tunc
+					<lb/>sequeretur quod intellectus propter idem intelligeret et non intelligeret
+					<lb/>sive quod idem esset intelligere et non intelligere, quia
+					<lb/>intellectus non intelligit nisi quando informatur specie rei [et]
+					<lb/>intelligibili, ita quod ad intellectum intelligere oportet intellectum
+					<lb/>esse informatum specie rei. Sed si intellectus intelligeret negationes
+					<lb/>et privationes cum intelligeret se non esse informatum specie
+					<lb/>sui habitus, tunc sequeretur quod cum intelligeret non intelligeret,
+					<lb/>quia intellectus non intelligit nisi cum est informatus specie rei
+					<lb/>intelligibilis, non intelligit eo quod non est informatus specie rei;
+					<lb/>ergo si intellectus intelligeret negationes et privationes cum intelligeret
+					<lb/>se non esse informatum specie habitus, tunc per nullam
+					<lb/>speciem intelligeret ista et per consequens non intelligeret, cum
+					<lb/>intelligat solum informatus specie aliqua. Et ideo haec positio
+					<lb/>non videtur esse vera, sed oportet dicere quod negationes et privationes
+					<lb/>intelliguntur per suam speciem sive habitus et eorum, quorum
+					<lb/>sunt negationes, ut aliquis cognoscendo oculum cognoscit non
+					<lb/>entitatem oculi, eo quod videt quod in aliquo non oculus reperitur,
+					<lb/>et ideo oculi non entitatem cognoscit in illo, et ita per speciem
+					<lb/>oculi cognoscit non entitatem oculi; et eodem modo est in
+				<lb/>aliis, ut etiam dictum fuit prius.</p>
+				<p><lb/>Sed quomodo accipiuntur modi significandi ab istis negationibus
+					<lb/>et privationibus? Dicunt quidam quod non accipiuntur a
+					<lb/>rebus quae importantur per nomina ista, scilicet a negationibus
+					<lb/>et privationibus, nec a modis essendi earum, sed accipiuntur a
+					<lb/>modis suorum habituum et eorum, quorum sunt negationes, eo
+					<lb/>quod sicut privationes non intelliguntur nisi per speciem habitus,
+					<lb/>sic et modi significandi earum intelliguntur per speciem modorum
+					<lb/>habitus et accipiuntur ab eis. Sed hoc dictum non videtur undique
+					<lb/>verum, eo quod si modi significandi privationum et negationum
+					<lb/>accipiantur a modis significandi eorum, quorum sunt privationes
+					<lb/>et negationes, tunc haberent eosdem modos significandi
+					<lb/>cum eis, cuius oppositum nos videmus. Nam 'visus' est masculini
+					<lb/>generis, 'caecitas' autem foeminini, et iam, ut videtur, haec
+				<lb/>positio stare non potest.</p>
+				<p><lb/>Et ideo oportet aliter dicere, quod modi significandi privationum
+					<lb/>et negationum quodammodo accipiuntur a modis essendi
+					<lb/>suorum habituum [quia] radicaliter et primordialiter, eo quod
+					<lb/>rectum est iudex sui et obliqui, ut dicit Philosophus I <hi rend="italic">De anima</hi>,
+					<lb/>capitulo 'de erroribus', et ideo oportet quod negationes et privationes
+					<lb/>radicaliter quicquid habent, habeant ad habitum. Et
+					<lb/>ideo oportet quod accipiantur, saltem mediate, a modis entium.
+					<lb/>Sed immediate non est necessarium quod accipiantur ab eis, immo
+					<lb/>possunt accipi a modis essendi privationum et negationum, eo
+					<lb/>quod negationes et privationes aliquo modo apprehenduntur
+					<lb/>et cognoscuntur, eo quod non sunt sui habitus; hoc autem oportet
+				<lb/>quod sit per aliquem modum.</p>
+				<p><lb/>Iterum, ex hoc quod cognoscuntur ab anima oportet quod
+					<lb/>habeant esse in anima; unde Philosophus IV <hi rend="italic">Metaphysicae</hi> dicit
+					<lb/>quod negationes et privationes quodammodo sunt entia, quia
+					<lb/>secundum animam; id autem, quod est in anima, oportet quod sit
+					<lb/>secundum aliquem modum essendi, sed tamen non habent esse
+					<lb/>omnino sicut sui habitus, et ideo possunt habere aliquem modum
+					<lb/>significandi alium a suo habitu. Et quod possit apprehendi secundum
+					<lb/>alium modum quem habitus, declaratur. Nam caecitas est
+					<lb/>quaedam abiectio ipsius visus, et ideo quodammodo passio est,
+					<lb/>quia passio est quae abicitur a subiecto, et ideo potuit cognosci
+					<lb/>ab intellectu ut passio quaedam, et ideo potest intelligi et significari
+					<lb/>per modum foemininum et patientis; tamen quandoque contingit
+					<lb/>quod significatur privatio et negatio sub eisdem modis
+					<lb/>significandi ut habitus, ut ens et non ens; ens autem et non ens
+					<lb/>eosdem habent modos significandi. Tamen modi significandi, qui
+					<lb/>sunt ut entium et accipiuntur a proprietatibus eius, sunt veri;
+					<lb/>modi significandi, qui autem accipiuntur a rebus non veris et
+					<lb/>proprietatibus, sunt modi significandi non veri. Et per hoc apparet
+					<lb/>quomodo omnis modus significandi accipitur ab aliqua
+				<lb/>proprietate.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum est ad rationes in oppositum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Idem etc.", verum est si totaliter sit idem.
+						<lb/>Sed modi essendi et significandi sunt idem, verum est materialiter,
+						<lb/>sed formaliter differunt, quia modi essendi dicuntur qui sunt
+						<lb/>in re ut existit, &lt;modi&gt; intelligendi qui sunt in re intellecta et
+						<lb/>cointellecti sunt cum ea, modi significandi dicuntur qui sunt in re
+						<lb/>significata et consignificantur per eam; et ideo modi significandi
+						<lb/>possunt accipi a modis essendi, eo quod modus, secundum quem
+						<lb/>modi essendi dicuntur modi essendi, praesupponitur a modis, secundum
+						<lb/>quos modi significandi dicuntur modi significandi, et
+						<lb/>etiam modus, secundum quem modi intelligendi dicuntur modi
+					<lb/>intelligendi.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Modi essendi etc.", dicendum quod modi essendi
+						<lb/>dupliciter possunt considerari: uno modo ut sunt proprietates
+						<lb/>&lt;entis&gt; ut ens est, et hoc modo considerantur a metaphysico,
+						<lb/>vel secundum quod sunt proprietates entis mobilis, et sic considerantur
+						<lb/>a naturali et non a grammatico. Alio modo possunt
+						<lb/>considerari modi essendi, ut sunt principia modorum significandi
+						<lb/>et ab eis accipiuntur, et [hoc modo] possunt considerari a grammatico,
+					<lb/>licet grammaticus coadiuvetur ab aliis.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud: "'Nihil' non est ens, et tamen habet modos
+						<lb/>significandi", dico quod non est verum ens. Ens tamen est secundum
+						<lb/>animam, et ideo non habet modos significandi veros, sed
+					<lb/>solum secundum animam, et etiam modos essendi.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Ad aliud: "Motus etc.", dicendum quod in motu duo inveniuntur,
+						<lb/>scilicet forma et fluxus qui est aliud a motu essentialiter.
+						<lb/>Et ideo quantum ad formam potest significari per modum
+						<lb/>habitus et quietis. Sed quis diceret: accipiatur fluxus, fluxus namque
+						<lb/>significatur per modum habitus et quietis et tamen significat
+						<lb/>fluxum, dicendum quod fluxus dupliciter potest considerari: uno
+						<lb/>modo, ut est quaedam essentia in se distincta a qualibet alia, et
+						<lb/>sic potest significari per modum habitus et quietis et determinati
+						<lb/>entis, et hoc est possibile, quia iste modus bene reperitur in fluxu.
+						<lb/>Alio modo, ut est actus quidam fluxus ab aliquo, et hoc modo
+						<lb/>significatur verbaliter vel participialiter, quia sic intelligitur per
+					<lb/>modum fluxus et fieri.</p>
+				</div>
+				<div>
+					<head><lb/>5.</head> <p>Et eodem modo est de albedine. Nam 'albedo' sic significatur,
+						<lb/>ut intelligitur quaedam essentia in se distincta ab alia.
+						<lb/>Et hoc est possibile, quia iste modus reperitur in ea, et dato quod
+						<lb/>essentia eius sit dependere, tamen tunc non est cointellecta, sed
+						<lb/>intellecta, ita quod accipitur ut significatum et ut modus. Per
+						<lb/>'album' etiam significatur ut intelligitur tamquam quaedam essentia
+					<lb/>alia a subiecto, informans et determinans subiectum.</p>
+				</div>
+				<div>
+					<head><lb/>6.</head> <p>Sed ad argumentum quod fiebat de Deo, quod prius debet
+						<lb/>solvi, dicendun quod Deus non habet modos significandi nec essendi
+						<lb/>qui sint alii ab ipso, nihilominus illa essentia potest intelligi
+						<lb/>per modum modi quoad nostrum modum intelligendi. Nam intelligimus
+						<lb/>Deum non agentem et ut agens et ut unum, et intelligimus
+						<lb/>ipsum esse quoddam ens in se distinctum a quolibet alio, et ideo
+						<lb/>potest significari per modum habitus et quietis et determinati
+						<lb/>entis et per modum masculini &lt;generis&gt; et numeri singularis, et
+					<lb/>sic de aliis accidentibus et modis significandi.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 12-->
+			<head><lb/><hi rend="italic">Utrum oratio sit subiectum in Prisciano Minori</hi></head>
+			<p><lb/>Consequenter quaeritur utrum oratio sit subiectum in <hi rend="italic">Prisciano
+			<lb/>Minori.</hi></p>
+			<div>
+				<p><lb/>Et arguitur quod non, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia idem non est subiectum totius et partis; sed oratio
+						<lb/>est subiectum totius grammaticae; ergo non erit subiectm in
+						<lb/>hoc libro, qui est pars grammaticae. Maior manifesta videtur.
+						<lb/>Minor prius probata est; et posset confirmari maior per hoc, quia
+						<lb/>si idem esset subiectum totius et partis, tunc totum esset aequale
+						<lb/>parti; consequens est falsum; ergo et antecedens. Falsitas consequentis
+						<lb/>de se patet. Nam hoc est principium per se notum, quod
+						<lb/>omne totum est maius sua parte. Consequentia declaratur. Nam
+						<lb/>scientiae distinguntur quemadmodum &lt;et&gt; res de quibus sunt,
+						<lb/>ut dicit Philosophus III <hi rend="italic">De anima</hi>, et si idem esset subiectum
+						<lb/>totius et partis, tunc subiectum [subiectum] partis esset aequale
+					<lb/>subiecto totius et per consequens scientia totius scientiae &lt; partis &gt;.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, illud non est subiectum in scientia, de quo principaliter
+						<lb/>non intenditur in scientia; sed de oratione non intenditur
+						<lb/>principaliter in hoc libro; ergo non est subiectum huius libri.
+						<lb/>Maior patet, eo quod subiectum est illud, de quo principaliter intenditur
+						<lb/>in scientia, et cuius gratia quae determinantur in scientia,
+						<lb/>determinantur. Minor patet discurrendo per librum. Nam Priscianus
+						<lb/>parum mentionem facit de oratione, sed videtur determinare
+					<lb/>solum de constructione.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: illud, de quo determinatur in scientia,
+					<lb/>et non sicut pars subiecta, nec sicut materialis, nec sicut principium |
+					<lb/>definiens, nec ut modus significandi, nec sicut privatio,
+					<lb/>oportet quod sit subiectum in scientia; sed in hoc libro determinatur
+					<lb/>de oratione, vel saltem determinari debet, et non sicut pars
+					<lb/>subiecta, nec materialis, nec ut principium definiens, nec ut modus
+					<lb/>significandi, nec ut privatio; ergo oratio est subiectum in hoc libro.
+					<lb/>Maior manifesta est, eo quod pluribus modis non potest
+					<lb/>aliquid determinari in scientia. Minor probatur. Nam oratio
+					<lb/>non determinatur sicut pars subiecta, eo quod nullius determinati
+					<lb/>in grammatica est pars subiecta; nec sicut materialis, eo
+					<lb/>quod nullius est materia; nec sicut principium definiens, eo quod
+					<lb/>principia sunt simpliciora principiatis, oratio autem est maxime
+					<lb/>composita in grammatica; nec est determinatum de ea sicut modus
+					<lb/>significandi, eo quod nullius est modi significandi; nec sicut
+					<lb/>privatio, quia non est privatio actus, et ideo relinquitur quod
+				<lb/>determinetur ut subiectum</p>
+			</div>
+			<div>
+				<p><lb/>Ad hoc dicendum quod oratio est subiectum in hoc libro.
+					<lb/>Et hoc probatur, quia illud, quod primo movet intellectum informatum
+					<lb/>ista scientia et ad quod habent attributionem quaecumque
+					<lb/>determinantur in scientia, et propter quod quaecumque determinantur
+					<lb/>in scientia, determinantur, est subiectum in scientia; sed
+					<lb/>in hoc libro oratio sic se habet, vel sic se debet habere; ergo oratio
+					<lb/>est subiectum in hoc libro. Maior manifesta est et patet ex
+					<lb/>dictis in alia quaestione. Minor declaratur. Nam oratio primo
+					<lb/>movet intellectum informatum ista scientia, loquendo de tota
+					<lb/>scientia grammaticae, ut prius probatum est, et ideo cum de oratione
+					<lb/>in nullo alio libro determinetur in grammatica, oportet
+					<lb/>quod determinetur in isto libro et primo moveat intellectum informatum
+					<lb/>in ista scientia, et omnia quae determinantur eius
+					<lb/>gratia determinentur et habeant attributionem ad ipsam, et hoc
+				<lb/>apparebit statim cum dissolventur rationes.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc respondendum ad rationes in contrarium: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Idem non est subiectum totius et partis",
+						<lb/>verum est sub eadem ratione, sed sub alia ratione necessarium est
+						<lb/>quod idem sit subiectum totius et partis. Et hoc apparet, quia
+						<lb/>si id, quod est subiectum in tota scientia, non determinaretur in
+						<lb/>aliqua parte scientiae, tamen sub alia ratione, quia oportet quod
+						<lb/>sit subiectum in tota scientia secundum omnem rationem possibilem
+						<lb/>de eo, in aliqua parte secundum rationem communem ipsius,
+						<lb/>tunc dico quod, si sub ista ratione non determinaretur in aliqua
+						<lb/>parte de subiecto scientiae, aut oporteret quod procederetur ex
+						<lb/>ignotis, aut oporteret quod determinaretur in omni parte scientiae.
+						<lb/>Non est dicendum quod in scientia ex ignotis procedatur,
+						<lb/>quia tunc non esset scientia; est enim de ratione scientiae, quod sit
+						<lb/>ex notis; nec oportet quod determinetur in omni parte scientiae,
+						<lb/>quia idem frequenter repetere est inutile; ergo oportet quod determinetur
+						<lb/>in aliqua parte scientiae, et si sic, necessario idem esset
+						<lb/>subiectum totius et partis. Maior istius rationis probatur, quia
+						<lb/>minor probata est. Nam si non determinaretur de subiecto scientiae
+						<lb/>secundum rationem universalem, tunc cum nostra cognitio
+						<lb/>incipiat a notioribus, ut apparet I <hi rend="italic">Physicorum</hi>, tunc ignoraretur
+						<lb/>subiectum secundum rationes speciales, secundum quas determinaretur
+						<lb/>in alia parte scientiae, vel etiam oporteret quod in omni
+						<lb/>parte determinaretur secundum rationem universalem; et ideo
+						<lb/>oportet quod idem sit subiectum totius et partis. Et cum probatur
+						<lb/>quod hoc non est possibile, quia tunc pars esset aequalis toti, dico
+						<lb/>quod verum est si sub eadem ratione consideraretur in toto et
+						<lb/>parte, sed in parte consideratur secundum rationem universalem,
+						<lb/>in toto secundum omnem considerationem possibilem de eo, ut
+						<lb/>puta quantum ad rationem communem et specialem secundum
+						<lb/>quod determinatur de partibus subiectis et materialibus et sic
+						<lb/>de aliis considerationibus possibilibus de eo; et ita patet quod secundum
+						<lb/>diversas rationes formales est subiectum totius et partis.
+						<lb/>Et cum ulterius dicebatur "quod scientiae distinguuntur etc.",
+						<lb/>verum est secundum rationes formales subiectorum. Et ideo cum
+						<lb/>diversimode sit subiectum totius et partis, ut est subiectum partis
+						<lb/>[est pars subiecti] et ut est subiectum totius scientiae &lt;est&gt;
+						<lb/>quantum ad rationem formalem, ideo ratio non concludebat.
+						<lb/>Et hoc modo oratio est subiectum in Prisciano quantum ad rationem
+						<lb/>universalem ipsius et est hoc necessarium propter praedictam
+					<lb/>causam, et per hoc confirmatur ratio positionis.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Illud non est subiectum etc.", concedatur. Et
+						<lb/>cum dicitur quod oratio est huiusmodi, falsum est. Et cum probatur
+						<lb/>quod ipse videtur solum facere mentionem de constructione,
+						<lb/>dicendum quod ipsa constructio, prout dicit aggregatum ex
+						<lb/>constructibilibus et modum coniungendi, tunc est idem quod
+						<lb/>oratio, sed si per constructionem nos intelligamus modum coniungendi,
+						<lb/>tunc est forma orationis, et tunc determinatur de ipsa
+						<lb/>tamquam de formali in oratione &lt;et&gt; primo, cum et principaliter
+						<lb/>intenditur oratio vel saltem debet intendi. Unde si non multum
+						<lb/>facit mentionem de oratione, non est culpa grammaticae, sed
+					<lb/>credentis eam etc.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 13-->
+			<head><lb/><hi rend="italic">Utrum haec sit congrua: 'Petrus est fortissimus
+			<lb/>hominum vel Graecorum''</hi></head>
+			<p><lb/>Quaeritur utrum haec sit congrua: 'Petrus est fortissimus hominum
+			<lb/>vel Graecorum'.</p>
+			<div>
+				<p><lb/>Et arguitur quod non: </p>
+				<div>
+					<head><lb/>1.</head> <p>quia illud est incongruum, ex quo sequitur incongruum;
+						<lb/>sed ex hac oratione, quae est 'Petrus est fortissimus hominum',
+						<lb/>sequitur incongruum; ergo est incongrua. Maior videtur manifesta.
+						<lb/>Minor probatur, quia arguitur sic: 'Petrus est fortissimus
+						<lb/>hominum'; Petrus est homo; ergo est fortissimus sui. Sed haec
+						<lb/>constructio est incongrua; ergo altera praemissarum; non illa,
+						<lb/>quae dicit 'Petrus est homo', ergo illa 'Petrus est fortissimus
+					<lb/>hominum'.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, si ista est congrua, aut ratione positivi aut ratione
+						<lb/>excessus; sed neutrius ratione est congrua; ergo non est congrua
+						<lb/>'Petrus est fortissimus'. Maior manifesta est. Minor probatur.
+						<lb/>Nam non est congrua ratione positivi, quia tunc haec esset congrua
+						<lb/>'Petrus est fortissimus hominum quod nullius', nec ratione
+						<lb/>excessus, quia excessus requiritur in comparativo, et ita diceretur
+					<lb/>'Petrus est fortior Graecorum'.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Item, si esset congrua, aut esset ratione subiecti aut ratione
+						<lb/>superlativi, quia tunc haec esset congrua 'fortitudo hominum',
+						<lb/>et tunc 'fortitudo' regeret 'hominum' sicut possessio quaedam
+						<lb/>vel sicut forma quaedam; hoc autem modo non construitur
+						<lb/>superlativum nec etiam sensus esset, quia hoc dicere non volumus
+						<lb/>dicendo 'Petrus est fortissimus hominum'; nec ratione subiecti,
+						<lb/>quia haec esset congrua 'Petrus hominum'; ergo &lt;nec&gt; utriusque;
+					<lb/>et, si sic, non est haec constructio attribuenda superlativo.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus et omnes.</p>
+			</div>
+			<div>
+				<p><lb/>Ad hoc dicendum quod haec est congrua 'Petrus est fortissimus
+					<lb/>hominum', quia hoc, quod dico 'fortissimus', habet comparationem
+					<lb/>ad genitivum et ad genitivum pluralem; et in alio modo
+					<lb/>non videtur esse discrepantia nisi in hoc loco, quod dico 'Petrus
+					<lb/>fortissimus', per respectum ad hoc, quod dico 'hominum'. Et
+					<lb/>quod habeat comparationem ad genitivum probatur primo, postea
+					<lb/>quod ad pluralem, quia illud quod habet [per] se per modum
+					<lb/>dependentis ad aliud ut quod ipsum est aliquorum, debite construitur
+					<lb/>cum eo quod significat per modum ut quorum est alterum;
+					<lb/>sed superlativum significat per modum dependentis ad aliud ut
+					<lb/>quod ipsum est aliquorum; genitivus autem ut quorum est alterum;
+					<lb/>ergo superlativum debite construitur cum genitivo. Maior
+					<lb/>manifesta est, eo quod tales modi proportionales sunt, scilicet
+					<lb/>significare ut quod ipsum est aliquorum et ut aliquorum est ipsum.
+					<lb/>Minor propositio declaratur, quia superlativum significat per modum
+					<lb/>ut de numero aliquorum; hoc autem est significare quod
+					<lb/>ipsum est aliquorum; genitivus autem per modum ut quorum est
+				<lb/>ipsum, quia ibi est modus significandi genitivi.</p>
+				<p><lb/>Item, construi debet cum genitivo plurali, quia illud, quod
+					<lb/>significat per modum ut de numero aliquorum, construitur cum
+					<lb/>genitivo plurali; superlativum est huiusmodi; ergo superlativum
+					<lb/>construitur cum genitivo plurali. Maior apparet, eo quod illud,
+					<lb/>quod necessario continet et comprehendit in se aliqua divisa et
+					<lb/>discreta, ( * * * ) quia necessario unitates plures ut habent discretionem
+					<lb/>ad se invicem; ergo cum significat ut de numero aliquorum,
+					<lb/>habet coniungi cum aliquo quod significet aliqua plura discreta
+					<lb/>et separata; huiusmodi autem est numerus pluralis, quia
+					<lb/>quicquid significat ut plura et discreta significat, et ideo debet
+					<lb/>construi cum numero plurali et, ut probatum est, debet construi
+					<lb/>&lt;cum&gt; genitivo; ergo debet construi cum genitivo plurali. Et ideo
+					<lb/>ex hoc contingit quod nos accipimus quantitatem in proportionibus
+					<lb/>per respectum ad numerum. Minor autem propositio manifesta
+					<lb/>videtur. Nam cum dicitur 'Petrus est fortissimus hominum',
+				<lb/>est sensus quod sit fortissimus et de numero hominum.</p>
+				<p><lb/>Iterum, illud quod de suo modo significandi habet comparationem
+					<lb/>ad multitudinem, si construitur cum genitivo, debet construi
+					<lb/>cum plurali; superlativum est huiusmodi; ergo superlativum
+					<lb/>debet construi cum numero plurali. Maior manifesta est. Minor
+					<lb/>probatur, quia superlativum significat per modum excedentis alia
+					<lb/>in toto quem impossibile est transgredi, ut fortissimus vel albissimus;
+					<lb/>tale autem uni soli convenit et ideo significat per modum
+					<lb/>excedentis aequaliter albos vel fortes et illos quorum unum est
+					<lb/>fortius vel albius altero, et ita de suo modo significandi habet
+					<lb/>comparationem ad multitudinem, quia ad aequaliter participes et
+					<lb/>ad illos quorum unum alterum excedit et construitur cum genitivo,
+					<lb/>ut visum est prius; et ideo cum genitivo plurali construi debet.
+					<lb/>Sed si quis diceret: utrum ista constructio sit ratione subiecti,
+					<lb/>vel fortissimi, vel utriusque? Et videtur quod non subiecti,
+					<lb/>quia tunc haec esset congrua 'Petrus hominum', nec fortissimi,
+					<lb/>quia tunc haec esset congrua 'fortitudo hominum', quae
+					<lb/>non est secundum sensum &lt;quem&gt; volumus exprimere, quia dicendo
+					<lb/>'fortitudo hominum' significatur quod sicut ut possessio
+					<lb/>vel forma quaedam hominum, et hoc argumentum fuit prius factu.
+					<lb/>Dicendum ad hoc quod hoc, quo non fit gratia superlativi per se,
+					<lb/>sed fit per se gratia subiecti, vel utriusque, ut dicendo 'Petrus est
+					<lb/>fortissimus hominum', posito quod sit de numero hominum, potest
+					<lb/>intelligi quod Petrus de numero hominum est fortissimus, et
+					<lb/>tunc talis constructio non fit nisi ratione subiecti ratione partialitatis;
+					<lb/>si autem sic exponeretur: 'Petrus est fortissimus de numero
+					<lb/>fortium hominum', tunc fieret ratione totius huius. Sic 'Petrus
+					<lb/>fortissimus et debet ibi apponi 'fortium', si dicto modo fiat constructio,
+					<lb/>quia tunc ibi denotatur excessus fortitudinis Petri ad
+					<lb/>homines; id autem in quo aliquid excedit aliud, praesupponitur
+					<lb/>in excessu, et ideo ibi 'fortium' addi debet; et ista constructio fit
+					<lb/>congrua ratione partialitatis; per accidens tamen superlativum
+					<lb/>facit ad talem constructionem, quia superlativum significat per
+					<lb/>modum excedentis in numero, quem impossibile est transgredi, et
+					<lb/>ideo significat per modum habitus comparationem ad multa, quia
+				<lb/>ad aequaliter participantes et inaequaliter.</p>
+				<p><lb/>Item, significat per modum excedentis; illud autem quo aliquid
+					<lb/>excedit aliud, praesupponitur in excesso, et ideo ex hoc
+					<lb/>denotatur quod excedens sit de numero excessorum; et ideo per
+				<lb/>accidens facit ad talem constructionem, et non per se.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc ad rationes in oppositum respondendum: </head>
+				<div>
+					<head><lb/>1.</head> <p>Ad primam: "Illa constructio esset congrua etc.", potest
+						<lb/>concedi. Tunc ad minorem: sed illa est huiusmodi, falsum est.
+						<lb/>Et tu probas syllogismo quodam. Dicendum quod syllogismus ille
+						<lb/>Pec|cat per fallaciam accidentis, quia in maiori propositione
+						<lb/>'hominum' accipitur in ratione totius et divisim, in minori autem
+					<lb/>non. Et ideo ibi medium variatur.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud: "Si illa esset congrua aut ratione excessus aut
+						<lb/>ratione positivi". Dicendum quod nec ratione positivi per se nec
+						<lb/>etiam excessus, quia talis constructio posset fieri cum positivo, et
+						<lb/>etiam cum comparativo, ut 'Petrus fortis hominum', id est de numero
+						<lb/>hominum, et 'Petrus fortior Ioanne', id est Petrus de numero
+						<lb/>hominum fortior Ioanne. Sed per se fit vel ratione subiecti
+						<lb/>vel ratione totius aggregati, ut visum est. Nihilominus per accidens
+						<lb/>aliquo modo facit, quia significat per modum excedentis in
+						<lb/>numero, et per hoc ad multa comparatur; et etiam ex hoc quod
+						<lb/>significat per modum ut excedentis, et illud in quo aliquid exceditur
+						<lb/>relinquitur in excesso; ideo significat quod excedens sit de
+						<lb/>genere excessorum; et ideo magis talis constructio ei attribuitur
+						<lb/>quam comparativo, quia ad multa comparari habet, quod non est
+					<lb/>de comparativo.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Ad aliud: "Haec oratio 'Petrus fortissimus hominum' aut
+						<lb/>fit ratione subiecti aut superlativi aut utriusque", dico quod ratione
+						<lb/>subiecti per se, vel utriusque; et non est per æ ratione superlativi,
+						<lb/>nec est ei attribuenda per se, sed talem constructionem
+						<lb/>ei attribuimus magis quam comparativo, quia per accidens facit
+						<lb/>ad talem constructionem, ut visum est. Et quod dicebatur, quod
+						<lb/>si fieret ratione subiecti, haec esset congrua: 'Petrus hominum',
+						<lb/>dico quod congrua est, et sic ratione partialitatis, et est sensus
+					<lb/>'Petrus de numero hominum'.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 14-->
+			<head><lb/><hi rend="italic">Utrum haec sit congrua: 'Sortes est fortissimus asinorum'</hi></head>
+			<p><lb/>Consequenter quaeritur utrum haec sit congrua: 'Sortes est
+			<lb/>fortissimus asinorum', dato quod Sortes sit homo.</p>
+			<div>
+				<p><lb/>Et arguitur quod sit congrua,</p>
+				<div>
+					<head><lb/>1.</head> <p>quia illa oratio est congrua, quae sequitur ex congruis;
+						<lb/>praedicta est huiusmodi; ergo etc. Maior videtur manifesta, quia
+						<lb/>sicut ex veris non sequitur nisi verum, sic ex congruis non videtur
+						<lb/>sequi nisi congruum. Minor declaratur. Nam si arguatur sic:
+						<lb/>Petrus est fortissimus animalium; asinus est animal; ergo Petrus
+						<lb/>est fortissimus asinorum, utraque praemissarum est congrua; ergo
+					<lb/>et conclusio.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, ubi est concordantia modorum significandi requisitorum
+						<lb/>ad talem speciem constructionis, illa oratio est congrua;
+						<lb/>sed in illa 'Petrus est fortissimus asinorum' est concordantia
+						<lb/>modorum significandi requisitorum ad talem constructionem;
+						<lb/>ergo est congrua. Maior videtur manifesta. Minor declaratur. Nam
+						<lb/>hic 'fortissimus' significat per modum ut proprium est aliquorum,
+						<lb/>genitivus autem ut ipsorum est alterum; et ideo videtur
+						<lb/>hic esse concordantia, quia unum se habet per modum determinabilis,
+					<lb/>alterum determinantis.</p>
+				</div>
+				<div>
+					<head><lb/>3.</head> <p>Iterum, ista est congrua: 'Petrus est fortissimus Graecorum'
+						<lb/>[vel altero]; ergo et ista: 'Petrus est fortissimus asinorum'.
+						<lb/>Antecedens patet. Consequentia declaratur. Nam si dico: 'Petrus
+						<lb/>est fortissimus Graecorum', plus differt hoc quod dico 'Graecorum'
+						<lb/>a Petro, quam hoc quod dico 'asinorum', quia 'Graecorum'
+						<lb/>significat Graecitatem, quod est quoddam accidens; 'asinus' autem
+						<lb/>et 'Petrus' sunt in eodem praedicamento, quia substantiae, et in
+						<lb/>eodem genere, ut in animali; et ideo magis convenit cum asino,
+						<lb/>&lt;quam&gt; quod hoc quod dico 'Graecorum', quod significat accidens.
+						<lb/>Et ideo, si haec est congrua: 'Petrus est fortissimus Graecorum',
+					<lb/>et illa: 'Petrus est fortissimus asinorum'.</p>
+				</div>
+				<div>
+					<head><lb/>4.</head> <p>Iterum, si illa esset incongrua: 'Petrus est fortissimus asinorum',
+						<lb/>haec non esset nisi quod non esset eiusdem generis Petrus
+						<lb/>cum asino; sed hoc non impedit; ergo propter hoc non debet dici
+						<lb/>incongrua. Maior videtur manifesta. Minor probatur, quia ad
+						<lb/>congruitatem grammatice non requiritur veritas, sed solum quod
+						<lb/>illa, quae coniunguntur, coniungantur secundum debitum modum;
+						<lb/>unde homo et asinus debite coniungi possunt et congrue, et tamen
+						<lb/>non sunt eiusdem generis, ut dicendo 'homo est asinus'; haec
+						<lb/>namque congrua est; ergo non videtur quod requiratur identitas
+					<lb/>generis.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium arguitur: illa oratio est incongrua, in qua non
+					<lb/>est debita | proportio modorum significandi requisitorum ad talem
+					<lb/>speciem constructionis; sed dicendo 'Petrus est fortius asinorum?,
+					<lb/>haec non est debita proportio modorum significandi requisitorum
+					<lb/>ad talem speciem constructionis; ergo non est congrua.
+					<lb/>Maior manifesta est. Minor probatur. Nam dicit Priscianus
+					<lb/>in <hi rend="italic">Maiori</hi> volumine quod superlativum est quod, comparatum
+					<lb/>ad plures sui generis, supponitur omnibus, scilicet quod modus
+					<lb/>significandi superlativi est quod significat per modum ut ipsum
+					<lb/>est de genere aliquorum; sed 'Petrus' et 'asinus' non sunt eiusdem
+					<lb/>generis, et ideo ista constructio est incongrua: 'Petrus est fortius
+				<lb/>asinorum'.</p>
+			</div>
+			<div>
+				<p><lb/>Ad istam quaestionem dicendum est quod illa constructio
+					<lb/>est incongrua: 'Petrus est fortius asinorum'. Et hoc declaratur
+					<lb/>assumendo rationem praedictam, magis declarando eam, quia illa
+					<lb/>oratio est incongrua, in qua non est debita proportio omnium
+					<lb/>modorum significandi requisitorum ad illam constructionem; ista
+					<lb/>est huiusmodi, scilicet 'Petrus est fortius asinorum'; ergo haec
+					<lb/>est incongrua. Maior patet. Minor declaratur, quia ibi subiectum
+					<lb/>significat ut ipsum est de numero ipsorum et genere et significatur
+				<lb/>ut pars quaedam totius ( * * * ) .</p>
+			</div>
+		</div>
+		<div>
+			<!--Quaestio 15-->
+			<head><lb/><hi rend="italic">Utrum constructio sit possibilis</hi></head>
+			<p><lb/>Quaeritur utrum constructio sit possibilis.</p>
+			<div>
+				<p><lb/>Et arguitur quod non, </p>
+				<div>
+					<head><lb/>1.</head> <p>quia illud non est possibile, ex quo sequitur impossibile;
+						<lb/>constructio est talis, quod ex positione ipsius sequitur impossibile;
+						<lb/>ergo constructio non est possibilis. Maior patet, quia ex possibili
+						<lb/>numquam sequitur impossibile, ut probatum est I <hi rend="italic">Priorum</hi>,
+						<lb/>Minor probatur. Nam si constructio esset &lt;possibilis&gt;, tunc oporteret
+						<lb/>quod intellectus intelligeret constructibilia et per consequens
+						<lb/>contingeret multa intelligere, quod est impossibile, ut vult Philosophus
+					<lb/>II <hi rend="italic">Topicorum.</hi></p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Iterum, si constructio esset possibilis, tunc reperiretur in
+						<lb/>re extra; consequens est falsum; ergo et antecedens. Falsitas consequentis
+						<lb/>manifesta est. Nam numquam constructio est in re
+						<lb/>extra. Consequentia declaratur. Nam intellectus videtur, qui facit
+						<lb/>constructionem esse in potentia. Id autem, quod est in potentia,
+						<lb/>de se non vadit ad actum, sed oportet quod fiat in actu ab aliquo
+						<lb/>ente in actu. Nam videmus quod lignum, quod est in potentia ad
+						<lb/>formam archae, non vadit de se ad formam archae, sed deducitur
+						<lb/>a potentia ad actum per archifactorem. Quod autem intellectus
+						<lb/>sit in potentia, declaratur. Nam est sicut tabula rasa in qua nihil
+						<lb/>pictum est, ut dicitur III <hi rend="italic">De anima</hi>; et ideo, quantum est de se,
+						<lb/>est in potentia et non fit in actu nisi ex sensatis et phantasiatis;
+						<lb/>et ideo ad hoc ut [videtur] intellectus fiat in actu, requiritur quod
+						<lb/>illud sit in re extra, ita quod moveat sensum et sensus phantasiam
+						<lb/>et post ea phantasia virtute luminis intellectus agentis intellectum
+						<lb/>possibilem. Et hoc confirmatur, scilicet quod constructio non
+						<lb/>reperiatur in re extra saltem in substantiis. Nam ipsa subiecta,
+						<lb/>quae construuntur ad invicem, aut sunt eadem aut diversa. Si
+						<lb/>eadem, dictio non construitur ad invicem, quia omnino sunt eadem.
+						<lb/>Si autem sunt diversa, ut homo et asinus, tunc etiam non
+						<lb/>sunt constructa ad invicem, quia totaliter sunt distincta Iterum
+						<lb/>hoc probatur. Nam si non est possibilis modus essendi quo aliqua
+						<lb/>coniunguntur, nec constructio erit possibilis, saltem constructio
+						<lb/>illorum; sed aliqua sunt, quae non sunt coniuncta per aliquem
+						<lb/>modum essendi; ergo ipsa non possunt construi ad invicem. Maior
+						<lb/>patet, eo quod modus essendi est causa modi significandi et ab
+						<lb/>modo essendi accipitur modus significandi, quo aliqua coniunguntur
+						<lb/>et construuntur. Minor declaratur. Nam non est aliquis modus
+						<lb/>essendi quo contradictoria sint coniuncta, ut ens et non ens, eo
+					<lb/>quod etiam in infinitum a se distant.</p>
+				</div>
+			</div>
+			<div>
+				<p><lb/>In contrarium est Priscianus et omnes homines et Donatus.
+					<lb/>Ad hoc dicendum quod constructio est &lt;possibilis&gt;, et hoc
+					<lb/>probatur, quia illud, cuius causae sunt possibiles et concursus
+					<lb/>causarum ad invicem &lt;est possibilis&gt;, est possibile. Sed causae
+					<lb/>constructionis et concursus causarum ad invicem sunt possibiles;
+					<lb/>ergo constructio est possibilis. Maior patet, quia non plus requiritur
+					<lb/>ad productionem alicuius nisi quod eius causae sint possibiles
+					<lb/>et quod concursus causarum &lt;sit possibilis&gt;. Non enim sufficeret
+					<lb/>quod causae essent possibiles nisi ibi essent concursus
+					<lb/>causarum. Nam dato quod essent paries, tectum et fundamentum
+					<lb/>et non essent coniuncta ad invicem, non propter hoc essent domus,
+					<lb/>et oporteret quod faciens domum coniungeret parietem,
+					<lb/>tectum et fundamentum ad invicem, quia ex coniunctione horum
+					<lb/>ad invicem fieret forma domus et per consequens esset domus.
+					<lb/>Minor probatur. Nam possibilis est causa materialis constructionis,
+					<lb/>ut constructibilia ipsa, quae sunt materialis causa constructionis;
+					<lb/>et est possibilis causa efficiens, ut intellectus, et etiam modi
+					<lb/>significandi, ut de se patet, quia sunt possibiles rerum proprietates,
+					<lb/>a quibus modi significandi accipiuntur; etiam est possibilis
+					<lb/>causa finalis, ut cognitio rerum, quia non solum oportet nos cognoscere
+					<lb/>rem secundum se, sed etiam oportet nos cognoscere
+					<lb/>aliquid de ea. Hoc non est nisi construendo unum cum reliquo. Et
+					<lb/>etiam est possibilis expressio nostrorum conceptuum et ut doceamus
+					<lb/>[et ut doceamus] quae non sunt finis constructionis; et etiam
+					<lb/>est possibilis concursus causarum ad invicem; nam possibile est
+					<lb/>quod ipsa constructibilia coniungantur ad invicem per ipsum intellectum
+					<lb/>penes debitos modos significandi. Hoc enim nobis experientia
+					<lb/>manifestat. Etiam ipsa constructio est possibilis, et non
+					<lb/>quocumque &lt;modo&gt;, sed per debitos modos. Non est &lt;enim&gt;
+					<lb/>constructio a casu et a fortuna, et hoc probatur breviter, quamquam
+					<lb/>Priscianus de hoc fecerit magnum rumorem. Nam coniungimus
+					<lb/>aliqua ad invicem, vel quia unum est causa reliqui ut causatum,
+					<lb/>vel quia e converso, vel quia unum est idem cum alio,
+					<lb/>vel etiam quia unum est diversum ab alio, sed quocumque modo
+					<lb/>sit, semper hoc est per debitum modum. Nam quicquid est agens
+					<lb/>in aliud, hoc non est nisi sub debito modo essendi, et quicquid
+					<lb/>patitur ab altero non est nisi sub debito modo essendi. Nam unumquodque
+					<lb/>non posset quomodocumque agere in quodcumque nec
+					<lb/>etiam pati, sed hoc oportet quod sit sub debito modo. Nam agens
+					<lb/>semper oportet quod se habeat ut ens actu, patiens ut ens in potentia,
+					<lb/>et ideo si coniungerent ut agentia et patientia semper
+					<lb/>oportet quod coniungantur secundum debitum modum. Et ex
+					<lb/>hoc apparet quod constructio est possibilis et non quocumque,
+					<lb/>sed debito modo, et est ipsa constructio possibilis secundum hunc
+					<lb/>modum, quia ipse intellectus intelligit et fit in actu ab ipsis sensatis.
+					<lb/>Nam nos videmus aliquas res in re extra coniunctas, ut puta
+					<lb/>videmus aliquod corpus album et videmus quod albedo semper
+					<lb/>est in quanto existens et non per se existens, et videmus quod ibi
+					<lb/>est etiam corpus quod est per se existens, licet hoc sentiamus per
+					<lb/>accidens; et tunc hoc defertur ad phantasiam et existens in phantasia
+					<lb/>virtute luminis intellectus agentis movet intellectum possibilem,
+					<lb/>et tunc intellectus factus in actu cognoscit apprehensum et
+					<lb/>cognoscit quod aliud est albedo et &lt;aliud&gt; subiectum in quo est
+					<lb/>albedo essentialiter. Nam cognoscit quod subiectum est per se
+					<lb/>stans; ipsa autem albedo est dependens ad subiectum et non potest
+					<lb/>intelligi praeter dependentiam ad subiectum. Ipsum autem subiectum
+					<lb/>bene potest intelligi praeter albedinem. Et ideo intellectus
+					<lb/>intelligens albedinem dependentem ad subiectum et ut dependens
+				<lb/>ad subiectum dicit subiectum album.</p>
+				<p><lb/>Et ulterius, intelligens eam ut est aliud a subiecto, significat
+					<lb/>eam ut aliud et essentia quaedam in se, ut hoc nomine: 'albedo',
+					<lb/>et eodem modo est de aliis accidentibus omnibus. Et ideo etiam
+					<lb/>intellectus intelligens accidens ut dependens ad subiectum tamquam
+					<lb/>per se existens, potest coniungere accidens aliquod [a]
+					<lb/>subiecto, quamquam illi non insit, et potest dicere corvum album
+					<lb/>et cycnum nigrum; et non solum potest coniungere adiectivum et
+					<lb/>subiectum, sed etiam duo subiecta. Et hoc probatur, quia illa coniunctio
+					<lb/>aut est eadem aut diversa. Si eadem, potest ea coniungere
+					<lb/>ad invicem, quia quamquam sint eadem realiter, differunt secundum
+					<lb/>rationem, ut homo et animal, quia aliter eorum non erit propria
+					<lb/>coniunctio. Unde ex hoc sequitur unum, quod sicut ista 'homo
+					<lb/>est homo' non est propria, logice loquendo, sic nec grammatice
+					<lb/>loquendo, quia unio proprie esse non potest nisi aliqualiter diversorum.
+					<lb/>Homo etiam ab homine nullo modo differt, nec secundum
+					<lb/>rem nec secundum rationem, et ideo non proprie potest unum
+					<lb/>alteri coniungi. Tamen duo subiecta, ex eo quod unum non est
+					<lb/>dependens ad aliud, non possunt coniungi sine copula uniente, et
+					<lb/>ideo oportet | quod uniuntur medio sive aliquo coniungente, sicut
+					<lb/>etiam nos videmus in natura. Nam unum quod non dependet ad
+					<lb/>aliud non posset coniungi sine aliquo medio, unde unum lignum
+					<lb/>non posset coniungi cum alio ligno nisi ibi esset aliquod ut clavis
+					<lb/>vel cavilia vel colla vel aliquo tali. Si unum dependeret ad aliud
+					<lb/>non oporteret quod ibi esset medium aliquod, per quod unirentur,
+					<lb/>sicut lapis quidam ad hoc, ut stet coniunctus cum terra, non oporteret
+					<lb/>quod per aliquod coniungatur, eo quod de se descendit deorsum
+					<lb/>et appetit talem locum. Eodem modo in arte, si sint aliqua et
+					<lb/>unum non dependeat ad alterum, oportet quod per aliquod coniungantur
+					<lb/>sicut duo subiecta. Adiectivum sive accidens et subiectum
+					<lb/>non oportet quod per aliquod medium coniungatur, eo
+					<lb/>quod unum quantum est de se dependet ad aliud. Et si illa subiecta
+					<lb/>sunt diversa, possunt coniungi et construi ad invicem, tamen
+					<lb/>non immediate, sed mediante aliquo; et tunc aut possunt coniungi
+					<lb/>ad invicem, ita quod unum significetur esse reliquum, aut non
+					<lb/>esse. Ideo possunt coniungi inter se [et] aut respectu alicuius
+					<lb/>tertii. Si coniungantur inter se, tunc maxime huiusmodi coniunctio
+					<lb/>fit per hoc verbum 'est'; etiam possunt coniungi per aliud verbum,
+					<lb/>sed per hoc verbum 'est' sic coniunguntur, quod unum denotatur
+					<lb/>esse reliquum vel non esse; et fit hoc per hunc modum, quia ex
+					<lb/>eo quod aliqua apprehenduntur et cognoscuntur ut diversa ab intellectu,
+					<lb/>possunt coniungi ad invicem; ex hoc autem, quod sunt
+					<lb/>comparabilia ad invicem, possunt uniri, quia non sunt aliqua entia
+					<lb/>in mundo ita extranea, quod non possint comparari ad invicem;
+					<lb/>et ideo intellectus ista coniungens format sibi medium quo mediante
+					<lb/>ista coniungit, ut puta hoc verbum 'est', et potest dicere
+					<lb/>et unire hominem et asinum dicendo: 'homo est asinus'.
+					<lb/>Et quantumcumque diversa entia, ut Deus &lt;et&gt; asinus et ens et non
+					<lb/>ens et coniunguntur per illud medium quod sibi format intellectus,
+					<lb/>scilicet 'est', quia manifestum est quod 'est' non est medium inter
+					<lb/>Deum et asinum ita quod sit quid reale, sed solum est ens rationis;
+					<lb/>et propter hoc Philosophus V <hi rend="italic">Metaphysicae</hi> dicebat quod 'est',
+					<lb/>quo mediante intellectus sibi format propositiones, est ens secundum
+					<lb/>animam et non ens reale. Etiam possunt coniungi respectu
+					<lb/>alicuius tertii, ut cum dicitur 'homo et asinus currunt', tunc homo
+					<lb/>et asinus coniunguntur mediante hoc verbum, quod est 'est',
+					<lb/>et respectu huius tertii, quod est 'currunt', quia hoc habet facere
+					<lb/>'est' de suo modo significandi; nam habet coniungere diversa respectu
+					<lb/>alicuius tertii. Et ex his apparet quod constructio est
+				<lb/>possibilis.</p>
+			</div>
+			<div>
+				<head><lb/>Tunc ad rationes in oppositum respondendum: </head>
+				<div>
+					<head><lb/>1.</head> <p>"Illud, ex quo sequitur impossibile, non est possibile", concedatur.
+						<lb/>Tunc cum dicitur: constructio est huiusmodi, per interemptionem.
+						<lb/>Ad probationem, dico quod falsum est. Nam bene
+						<lb/>est impossibile quod contingat simul plura intelligere ut plura
+						<lb/>sunt; sed bene contingit intelligere plura ut unita sunt et sub
+						<lb/>una ratione. Nam possumus intelligere totum universum et totam
+						<lb/>domum intantum quod possumus intelligere parietem, tectum
+						<lb/>et fundamentum ut sub unica ratione apprehenduntur et unita
+					<lb/>sunt, et eodem modo intelliguntur constructibilia in constructione.</p>
+				</div>
+				<div>
+					<head><lb/>2.</head> <p>Ad aliud "si constructio esset possibilis, tunc reperiretur in
+						<lb/>re extra", dico quod verum est aliquo modo, quia causaliter et
+						<lb/>principiative, non tamen formaliter, | sicut in intellectu, quia nec
+						<lb/>etiam res intellecta est in re ut intellecta est, et hoc modo compositionem
+						<lb/>esse in re extra possibile est, immo necessarium, et ideo
+						<lb/>verum non concludit. Bene concluderet si nullo modo esset compositio
+						<lb/>in re extra; tunc enim intellectus nunquam posset componere
+						<lb/>aliqua ad invicem. Et tunc ulterius, cum dicitur quod constructio
+						<lb/>non posset esse, saltem in subiectis, dico quod falsum
+						<lb/>est. Et comprobatur: quia aut sunt eadem aut diversa. Dico quod
+						<lb/>non possunt esse eadem totaliter, quia tunc non proprie possent
+						<lb/>construi, sed oportet quod differant secundum nomen et hoc
+					<lb/>sufficit; etiam si totaliter sunt diversa possunt construi ad invicem.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

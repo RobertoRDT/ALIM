@@ -1,0 +1,776 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Libellus sacrosyllabus episcoporum Italiae contra Elipandum</title>
+				<author>Paulinus Aquileiensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>A. Werminghoff</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EF">Edoardo Ferrarini</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7469" unit="words">Parole: 7469</measure>
+				<measure quantity="46372" unit="characters_without_spaces">Caratteri (spazi esclusi): 46372</measure>
+				<measure quantity="53201" unit="characters_witht_spaces">Caratteri (spazi inclusi): 53201</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2015-12-10">10/12/2015</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Teologia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Numero parole: 7.535&#13;
+Numero caratteri (spazi esclusi): 46.639&#13;
+ES</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Paulinus Aquileiensis</author>
+						<title>Libellus sacrosyllabus episcoporum Italiae contra Elipandum</title>
+						<editor>A. Werminghoff</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Concilia, Tomus II. Concilia aevi Carolini I. Pars I.</title>
+						<editor>A. Werminghoff</editor>
+						<imprint>
+							<publisher>Hahnsche Buchhandlung</publisher>
+							<pubPlace>Hannover</pubPlace>
+							<pubPlace>Leipzig</pubPlace>
+							<date>1906</date>
+							<biblScope unit="page">179-195</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, Conc.</title>
+						<biblScope unit="volume">2, 1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Teologia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="0701/0800">VIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EF">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="179"/>
+		<div>
+			<head><lb/>CONCILIUM FOROIULIENSE A. 796 vel 797</head>
+			<p><lb/>Regnante domino nostro Iesu Christo in perpetuum super omnes caelos et super
+				<lb/>omnem terram, rege regum et domino dominantium, cuius regnum sempiternum est,
+				<lb/>qui est super omnia Deus benedictus in saecula, de cuius largissimae benignitatis
+				<lb/>manu invictissimi principes, domnus Karolus ac Pippinus, donativo pietatis eius
+				<lb/>suscepto regalia sceptra ipso opitulante prosperis gubernare rebus probantur, anno
+				<lb/>igitur felicissimo principatus eorum tertio et vicessimo et XV., canonicis siquidem
+				<lb/>evocatum syllabis, fraternum quorundam episcoporum contubernium Foroiulium municipium,
+			<lb/>metropolim Aquilligensem, veneranter quoacervatum convenit.</p>
+			<p><lb/>Igitur resedentibus cunctis ex more in sedilibus praeparatis, adsistente vero
+				<lb/>circumquaque non modica fratrum consentanea turba in ecclesia beate semperque
+				<lb/>virginis Dei genetricis Mariae, immolato namque Deo primum in ara cordis sacrificio
+				<lb/>laudis et orationis hostia in altare pectoris caritatis igne concremata, post apostolicam
+				<lb/>et evangelicam lectionem imnisque spiritalibus salubriter praelibatis necdum valvis
+				<lb/>puplicis reseratius patefactis, persistente nimirum pro foribus vulgi glomerata caterva,
+				<lb/>per secretioris ianue aditum vocante archidiacono intromissus est ad brevem sacerdotalis
+			<lb/>sub silentio venerabilis quoetus.</p>
+			<p><lb/>Paulinus, Christi et Domini servus, his verbis post paululum loquendi principium
+			<lb/>dedit:</p>
+			<p><lb/>“Nulli prorsus dubium Domini sacerdotum, qui sacras venerandorum canonum
+				<lb/>regulas vigilanti non omiserit ingenio sagatius explorare, bis in anno concilium per
+				<lb/>unamquamque provintiam fieri debere, in urbe scilicet metropoli vel in colibet oportuno
+				<lb/>loco, iuxta metropolitani eiusdem regionis arbitrium et, ut temporis commodius
+				<lb/>dictaverit ordo, propter necessariam videlicet ecclesiasticae dignitatis curam, quinimmo
+				<lb/>propter confluentia gerendarum rerum confusaque negotia, que crebrius litis de radice
+				<lb/>spinosis causarum emergi aculeis consuevit, hac per hoc pullulantia dominici ruris
+				<lb/>triticie messis virentia sata adhuc, ut ita dixerim, infra stipule tecam spiritalium fructuum turgentibus spicis necdum in flaventes culmos aureas erumpentes aristas necdum
+				<lb/>sterilium zizaniorum manipulis in uno fasce ignitis funibus conligatis, ultricibus traditis
+			<lb/>in pabulum flammis, umbrosis nichilhominus suffugare falsitatum ramniculis moliuntur.</p>
+			<p><lb/>Qua de re talia et huiuscemodi pestifero de virgulto fruteta gliscentia plurimorum
+				<lb/>nimirum venerabilium fratrum, qui agrum iuris caelestis patroni summa sollicitudinis
+				<lb/>cura excolere sunt deputati, radicitus necessarium fore prospectum est, ut linguarum
+				<pb n="180"/>
+				<lb/>falcibus detruncata marcescant, quatenus sepius censure magisterio nequitie recisis
+				<lb/>ramusculis ipsa quandoque radicum materies, veneni infusione vitiata, funditus evellatur.
+				<lb/>Sed quamobrem, iuxta quod diffinitum est, in hac veneranda sede, cui Deo auctore
+				<lb/>non meis meritis, sed gratuito me praeesse munere recognosco, per tot temporum
+				<lb/>curricula minime sit reverendi concilii sessio celebrata, vestram scire non ambigo
+				<lb/>sincerissimam caritatem. Nam propter inprobos, qui solent inrumpere, mundanos
+				<lb/>tumultus propterque inminentia proeliorum bella, quae circumquaque per girum finium
+				<lb/>nostrorum frementi ferocitate ingruere non cessabant, intermissum interim hoc magnificum
+				<lb/>opus procul dubio poterit adprobari. Verumtamen non penitus intermissum veridicis
+				<lb/>valebit adsertionibus aestimari. Nam quotiens, reverendis principalibus accersiti
+				<lb/>imperiis, in generali celeberrimae synodi venerabilium patrum conventione humillima
+				<lb/>parvitatis meae praesentia, quia sepius contigit, adfuerit, vestris est animis, ut opinor,
+				<lb/>non celatum, vestrisque etiam obtutibus aliquoties latius patuisse in promptu non
+				<lb/>dubito. Nunc autem divina opitulante clementia, adtritis utique ferocium barbarorum
+				<lb/>superbiae typho erectis cervicibus, auxilio per omnia adminiculante de caelo, reddita
+				<lb/>iam quietissima pace terris, superna prorsus largiente gratia paululumque respirantibus
+				<lb/>regalibus iussis necessarium duximus summopere festinantes dilectissimam fraternitatem
+				<lb/>vestram iuxta priscorum canonum inviolabiles sancciones in uno collegio adgregari,
+				<lb/>quatenus insolubili caritatis vinculo conligati, subpliciter eum exorantes, qui suis
+				<lb/>dignanter sese fidelibus repromisit in medio adfuturum, ubi in unum duo vel tres in
+				<lb/>eius fuerint nomine congregati, – sicque sub eius praesentia, licet indigni, eius tamen
+				<lb/>famuli constituti – incipiamus iam iamque ipso auctore et consummatore nostri certaminis
+				<lb/>et perfectore operum nostrorum – quin potius suorum magis dicam quam
+				<lb/>nostrorum operum perfectore, quia omnia eius sunt et de illius cuncta gratis suscipimus
+				<lb/>manu; scriptum quippe est: <hi rend="italic">Omnia opera nostra operatus est nobis,</hi>– diligenti
+				<lb/>profecto exigentes cura, si qua sunt irrita et enormi statione persistentia, quae
+				<lb/>sacris oporteat valenter legibus coerceri, praeterita corrigere, praesentia suffulciendo
+			<lb/>construere, futura praecavendo vitare.</p>
+			<p><lb/>Sed quoniam ad huius spiritalis aedificii fabricam construendam fundamenta sunt
+				<lb/>primum fidei nichilominus profundius iacienda, super illud videlicet inflexibile fundamentum
+				<lb/>modis omnibus inserenda, de quo per Paulum dicitur: <hi rend="italic">Fundamentum enim
+				<lb/>aliud nemo potest ponere preter id, quod positum est, quod est Christus Iesus,</hi> cuius
+				<lb/>nimirum fundamenti constructio non debet inordinata manu iactata fulciri – clamat
+				<lb/>profecto illa praeconia voce in amoris cantico, in cuius thalami constructione haec
+				<lb/>iaciuntur altius fundamenta: <hi rend="italic">Ordinata,</hi> ait, <hi rend="italic">in me caritate,</hi> cuique longe ante prophetico
+				<lb/>repromittebatur oraculo: <hi rend="italic">Sternam,</hi> inquiens, <hi rend="italic">per ordinem lapides tuos, fundabo te in saphiro;</hi> per saphirum quippe, qui aeream fingit simulando pulchritudinem, fidei simillimum
+				<lb/>non inconvenienter demonstrat mysterium – primum ergo visum est michi,
+				<lb/>omnium minimo Domini servorum, in primi ordinis fronte ipsum textum symboli salubriter
+				<lb/>a sanctis aeditum patribus quasi lineam in directum normulatim aequo moderamine
+				<lb/>in fundamenti huius spiritalis aedificii mole intrinsecus ac forinsecus tendere,
+				<lb/>ut quoaequata iuxta illius rectitudinis normulam tota nostri operis fabrica, hincinde
+				<lb/>catholicae fidei libratim summisso perpendiculo, rectius ad altiora excrescens, convenienter
+				<lb/>in utroque pariete aequis disputationum metita funiculis, in summa scientiae
+				<lb/>arce perfectionis culmen veridicis adsertionibus fulciatur. Persistente autem huius
+				<pb n="181"/>
+				<lb/>invisibilis aedificii aequaliter tricamerata structura, quattuor prorsus virtutum altrinsecus
+				<lb/>positis subnixa fornicibus, iam iamque triplici purpureoque in funiculo, qui difficile
+			<lb/>rumpitur, aureum iocundius suspendatur decus ornamentorum.</p>
+			<p><lb/>Post inviolabilem igitur et meo sensu modis omnibus inserendam symboli diffinitionem,
+				<lb/>a venerandis videlicet, sicut dictum est, olim presulibus sancto revelante
+				<lb/>Spiritu mirabiliter prelibatam – a trecentis siquidem decem et octo, qui apud Niceam
+				<lb/>Bithiniae, et centum quinquaginta, qui apud Constantinopolim – de mysterio namque
+				<lb/>sanctae et inenarrabilis trinitatis planiore me repromisisse profiteor sermone dicturum,
+				<lb/>sophisticas per omnia verborum phaleras devitantes, sed et isagogicas argumentorum
+				<lb/>relinquentes inextricabiles conclusiones, simpliciter propter simplicium mentes liquidiusque,
+				<lb/>ut humane permittit possibilitas infirmitatis, vel certe, ut ipsa de se sancta
+				<lb/>dignatur trinitas revelare, cultiore potius sensu quam stilo cupio recolere; propter
+				<lb/>varios videlicet hereticorum errores diversasque quorundam simplicium suspiciones non
+				<lb/>alteram componere vel docere fidem consentio, sed eam, quam a sanctis patribus traditam
+				<lb/>omnia sinceriter saecula susceperunt. Scio namque quibusdam in sinodalibus
+				<lb/>foliis esse sancitum, ad refellendas siquidem novas et multiplices hereses, praesertim
+				<lb/>propter fraudulentam fictamque Nestorii vel Euticis, falsidicorum pestilentiumque
+				<lb/>virorum, non fidem dicam, sed potius perfidiam, non licere cuiquam alterius fidei symbolum
+				<lb/>docere vel componere. Sed absit a nobis proculque sit ab omni corde fideli
+				<lb/>alterum vel aliter quam illi instituerunt symbolum vel fidem componere vel docere.
+				<lb/>Sed iuxta eorum sensum ea fortasse, que propter brevitatis conpendium minus ut
+				<lb/>decet a simplicibus vel indoctis intelleguntur, exponendum decrevimus tradere hac
+				<lb/>memoria mandavimus eum ipsumque textum symboli retinere, quatenus iuxta apostolum
+				<lb/>idoneus sit homo Dei ad onme opus bonum paratus, ad resistendum non sane fidei.
+				<lb/>Ait enim ipse: <hi rend="italic">Sine fide inpossibile est Deo placere.</hi> Hinc alias scriptum est: <hi rend="italic">Nisi
+				<lb/>credideritis, non intellegetis.</hi> Ipse enim admirabilis doctor prohibet variis nos et peregrinis
+				<lb/>doctrinis abduci, sanam tamen doctrinam docet fidelibus modis omnibus praedicare.
+				<lb/>Enimvero non est in argumento fidei addere vel minuare ea, quae a sanctis
+				<lb/>patribus bene salubriterque sunt promulgata, secundum eorum sensum recte sentire
+				<pb n="182"/>
+				<lb/>et exponendum eorum subtile supplere ingenium, sed addere vel minuare est subdole
+				<lb/>contra sacrosanctum eorum sensum, aliter quam illi callida tergiversatione diversa
+				<lb/>sentire et confuso stilo perversum dogma componere ac per hoc impio ore potius
+				<lb/>iactanter garrire quam docere presumere. Plurimorum etenim catholicorum virorum
+				<lb/>ecclesiarumque Dei cultorum sacre fidei compositum venerabile legitur opus aliis
+				<lb/>quidem verbis dissimilique calamo resonante, sed eundem sensum eundemque ingenii
+				<lb/>intellectum concorditer inviolatae fidei uno adsertionis redolere probatur documento.
+				<lb/>Nam si recenseatur Nicaeni symboli series veneranda, nichil aliud de Spiritu sancto
+				<lb/>in ea nisi hoc modo repperiri poterit promulgatum: “Et in sanctum”, inquiunt, “Spiritum”.
+				<lb/>Quid est ergo dicere: “Et in Spiritum sanctum”? Quomodo accipienda est
+				<lb/>tam brevissima eorum professio, nisi ut patenter detur intellegi mentium eorum integre
+				<lb/>fidei religiosa devotio et in sanctum Spiritum sicut et in patrem et filium probabiliter
+				<lb/>credidisse, quemadmodum postea a sanctis patribus centum quinquaginta, qui contestati
+				<lb/>sunt symboli fidem Nicaeni concilii inviolatam perenniter permanere? Suppleverunt
+				<lb/>tamen quasi exponendo eorum sensum et in Spiritum sanctum confitentur se
+				<lb/>credere, “dominum et vivificatorem, ex patre procedentem, cum patre et filio adorandum
+				<lb/>et glorificandum”. Haec enim et cetera, quae secuntur, in Nicaeni symboli sacro
+				<lb/>dogmate non habentur. Sed et postmodum, propter eos videlicet hereticos, qui susurrant
+				<lb/>sanctum Spiritum solius esse patris et a solo procedere patre, additum est:
+				<lb/>“Qui ex patre filioque procedit”. Et tamen non sunt hi sancti patres culpandi, quasi
+				<lb/>addidissent aliquid vel minuissent de fide trecentorum decem et octo patrum, quia
+				<lb/>non contra eorum sensum diversa senserunt, sed inmaculatum eorum intellectum sanis
+				<lb/>moribus supplere studuerunt. Didicerant itaque centum quinquaginta, qui intulerunt
+				<lb/>a patre procedentem, evangelista testante promisisse discipulis ipsum unigenitum de
+				<lb/>suo spiritu: <hi rend="italic">Spiritus, qui a patre procedit, ipse me clarificabit.</hi> Legerant nempe hii
+				<lb/>sequentes, qui addiderunt: “Qui ex patre filioque procedit”, ipsa eademque veritate in
+				<lb/>evangelio redarguente Philippum: <hi rend="italic">Philippe,</hi> inquit, <hi rend="italic">qui videt me, videt et patrem meum.
+				<lb/>An non credis, quia ego in patre et pater in me est?</hi> Si ergo, sicut ipse testatur, inseparabiliter
+				<lb/>et substantialiter est pater in filio et filius in patre, quo pacto credi
+				<lb/>potest, ut consubstantialis patri filioque Spiritus sanctus non a patre filioque essentialiter
+				<lb/>et inseparabiliter semper procedat? Quis est iste, obsecro, qui dicit discipulis
+				<lb/>suis, cum insufflasset in eis: <hi rend="italic">Accipite Spiritum sanctum?</hi> Quis est, inquam, qui repromisit
+				<lb/>eis? Nonne unigenitus filius, qui in patre est et pater in eo? <hi rend="italic">Nisi ego abiero,
+				<lb/>paraclitus non veniet. Cum adsumptus fuero, mittam eum vobis.</hi> Et illud: <hi rend="italic">Paraclitus
+				<lb/>autem Spiritus sanctus, quem mittet pater in nomine meo, ille vos docebit omnia et suggeret
+				<lb/>vobis omnia, quecumque dixero vobis.</hi> Saepe etenim a nobis nostrisque
+				<lb/>maioribus indubitanter diffinitum est inseparabilia semper esse opera sanctae trinitatis.
+				<lb/>In eo namque Spiritus sanctus a filio procedere creditur, in quo a patre procedere
+				<lb/>non dubitatur. Sed melius hoc adprobare valemus, si rei gestae actio, quae
+				<lb/>per apostolos est exsecuta, in medio revolvatur. Per fidelissima quippe historiae
+				<lb/>argumenta, que actus nuncupatur apostolorum, Luca evangelista testante cognovimus
+				<lb/>praedicante Petro in Iudea tria fere milia credentium conpuncto corde dixisse ad
+				<pb n="183"/>
+				<lb/>Petrum et ad reliquos apostolos: <hi rend="italic">Quid facimus, viri fratres?,</hi> respondisse vero Petrum
+				<lb/>pro se et pro cunctis ad illos didicimus: <hi rend="italic">Paenitentiam,</hi> inquit, <hi rend="italic">agite, et baptizetur unusquisque
+				<lb/>vestrum in nomine Iesu Christi in remissione peccatorum;</hi> et rursus, accersitus
+				<lb/>a Cornelio centurione, viro iusto et timente Deum, cum aperuisset os suum, evangelizabat
+				<lb/>illis multa de regno Dei et nomine Iesu Christi. <hi rend="italic">Et adhuc eo loquente, Spiritus
+				<lb/>sanctus cecidit super eos, qui audiverant verbum,</hi> et post pauca protinus subinfertur
+				<lb/>dixisse Petrum: <hi rend="italic">Numquid aquam quis prohibere potest, ut non baptizentur hii, qui
+				<lb/>Spiritum sanctum acceperunt sicut et nos? Et iussit eos in nomine Iesu Christi baptizari.</hi>
+				<lb/>Sed et doctor et magister gentium, in fide et veritate solertissimam curam gerens
+				<lb/>omnium ecclesiarum, cum de Iohannis baptismate disputaret, quia <hi rend="italic">Iohannes quidem
+				<lb/>baptizavit baptismo paenitentiae populum in eum, qui venturus est post ipsum, ut crederent,
+				<lb/>hoc est in Iesum. His auditis baptizati sunt in nomine Iesu.</hi> Porro multi
+				<lb/>Samaritanorum, cum credidissent Philippo evangelizanti de regno Dei et nomine Iesu,
+				<lb/>baptizabantur, viri ac mulieres, haud dubio in nomine Iesu Christi. Et, si ergo omnes
+				<lb/>isti, qui evangelizantibus sanctis apostolis credentes baptizati sunt in nomine Iesu
+				<lb/>Christi, – et sancta ecclesia inviolabiliter fundata super eam persistit petram, quam
+				<lb/>beatus Petrus non carne et sanguine, sed patre, qui in caelis est, revelante sibi confessus
+				<lb/>est, et illius fide regitur et gubernatur omnis ecclesia cuique specialiter quasi
+				<lb/>primo pastori dictum est: <hi rend="italic">Tu es Petrus, et super hanc petram aedificabo ecclesiam
+				<lb/>meam,</hi> – ubi est, inquam, illa regula trinitatis, quam generaliter suis post resurrectionem
+				<lb/>Dominus apostolis commendavit, quorumque principatum hisdem beatus gerebat
+				<lb/>Petrus apostolus? <hi rend="italic">Ite,</hi> inquit, <hi rend="italic">docete omnes gentes, baptizantes eos in nomine patris et
+				<lb/>filii et Spiritus sancti.</hi> Cur magister in nomine patris et filii et Spiritus sancti et
+				<lb/>discipuli in nomine tantum Iesu precipiunt baptizari? Numquid aliud veritas per
+				<lb/>semetipsam docuit, et aliud discipuli veritatis vel aliam formam doctrine ecclesiis tradiderunt?
+				<lb/>Absit hoc. Nullus sic dissipit, qui sani capitis est; nullus tam insanae furiae
+				<lb/>mancipatus, qui haec vel mente tractare praesumat. Sed, videamus, qualiter utrumque
+				<lb/>verum et sanctum est socialeque bonum et individuum mysterium? Sacramentum igitur
+				<lb/>sanctae trinitatis, quam magister et Dominus tribus enumeratis personis, in uno tamen
+				<lb/>nomine voluit demonstrare, hoc eiusdem veritatis discipuli in una de trinitate persona,
+				<lb/>id est filii, totam sanctamque trinitatem essentialiter sancto sibi revelante Spiritu
+				<lb/>intellegere meruerunt, quoniam, sicut crebrius dictum est, inseparabilia sunt semper
+				<lb/>opera trinitatis. Ubi enim pater, ibi inseparabiliter filius et Spiritus sanctus, et ubi
+				<lb/>filius, ibi inenarrabiliter pater et Spiritus sanctus, et ubi Spiritus sanctus, ibi inconprehensibiliter
+				<lb/>pater et filius. Nam etsi audierant discipuli praecipiente Domino
+				<lb/>et magistro propter mysterium trinitatis: <hi rend="italic">Ite, docete omnes gentes, baptizantes eos in
+				<lb/>nomine patris et filii et Spiritus sancti,</hi> audierunt profecto praesentes eum ostendentem
+				<lb/>sibi unitatem naturae. <hi rend="italic">Ego,</hi> ait, <hi rend="italic">et pater unum sumus,</hi> et rursus: <hi rend="italic">Ego in patre et pater
+				<lb/>in me est,</hi> et iterum: <hi rend="italic">Pater autem in me manens ipse facit opera,</hi> sed et verbum illud
+				<lb/>consubstantiale patri sanctoque Spiritui, internis intuentes obtutibus, quod <hi rend="italic">in principio
+				<lb/>erat et apud Deum erat et Deus erat et per quem omnia facta sunt,</hi> semper in patre,
+				<lb/>semper cum patre, semper apud patrem inseparabiliter sciebant permanere. Unde
+				<lb/>non inmerito Philippus redargui debuit, qui alicubi fortassis patrem aut plus aliquid
+				<lb/>quaerebat, cum diceret: <hi rend="italic">Domine, ostende nobis patrem, et sufficit nobis,</hi> cuique protinus
+				<lb/>a Domino quasi per increpationem refertur: <hi rend="italic">Tanto,</hi> inquid, <hi rend="italic">tempore vobiscum sum, et
+				<pb n="184"/>
+				<lb/>non cognovistis me? Philippe, qui videt me, videt et patrem meum. An non credis,
+				<lb/>quia ego in patre et pater in me est?</hi> De Spiritu autem sancto, ut ostenderet eum
+				<lb/>suum patrisque, sic ait: <hi rend="italic">Spiritus,</hi> inquit, <hi rend="italic">veritatis, qui a patre procedit, ille me clarificabit.</hi>
+				<lb/>Nam qui de patre procedit patris profecto Spiritus est et qui veritatis Spiritus
+				<lb/>est suus nichilominus Spiritus est; ipse enim de se dicit: <hi rend="italic">Ego sum via, veritas et vita.
+				<lb/>Hunc per Isaiam patris testatur esse, cum propter adsumptum hominem loquitur:
+				<lb/>Spiritus Domini super me.</hi> Et illud: <hi rend="italic">Dominus misit me et Spiritus eius.</hi> Et quia suus
+				<lb/>est, idem ipse per Iohelem promisit dicens: <hi rend="italic">Effundam de Spiritu meo super omnem
+				<lb/>carnem.</hi> Quam bene ergo Dominus alta et ineffabili Dei sapientia, ut ostenderet
+				<lb/>personaliter mysterium trinitatis, <hi rend="italic">in nomine,</hi> inquit, <hi rend="italic">patris et filii et Spiritus sancti</hi> et,
+				<lb/>ut demonstraret inseparabilem essentialiter individuae deitatis unitatem, praemisit: <hi rend="italic">In
+				<lb/>nomine.</hi> Non enim ait “in nominibus” quasi in multis, sed “in nomine”, quia trinus et
+				<lb/>unus est Deus. Non enim naturam, sed personas discrevit. Quam feliciter quidem
+				<lb/>et apostoli in nomine Iesu, id est salvatoris, totam sanctam et ineffabilem docuerunt
+				<lb/>intellegere trinitatem! Quam catholice et sancti patres in hac fidei stabilitate solidati
+				<lb/>a patre sanctum Spiritum procedere sunt professi! Quam gloriose et illi, qui eum
+				<lb/>ex patre filioque procedere confitentur! Hinc perspicuae datur intellegi sempiterna
+				<lb/>Dei patris et omnipotens sapientia, quae mirabiliter intellegentiae nostrae infantiam
+				<lb/>erudire non cessat, eum de se inclinatius loqui in sacro dignatur eloquio, ut se innotescat
+				<lb/>trinum et unum Deum, modo propter personarum discretionem distincte loquitur,
+				<lb/>modo vero indiscrete propter consubstantialem individuae deitatis unitatem. Nam si
+				<lb/>semper indiscrete, absconderet utique mysterium trinitatis; si vero semper distincte,
+				<lb/>excellentiam profecto celaret inseparabilem deitatis. Docet nimirum per sacras testamentorum
+				<lb/>paginas modo mirabili utrumque, ut intellegamus et corde credamus ad
+				<lb/>iustitiam et ore confiteamur ad salutem, trinum et unum Deum. Unde et ipsa divinitas,
+				<lb/>trinus et unus Deus, licet sit inenarrabilis, non tamen est incognoscibilis. Cognosci
+				<lb/>nempe creator a sua rationabili debet creatura. Hinc est, quod in evangelio unigenitus,
+				<lb/>qui est in sinu patris, loquitur genitori: <hi rend="italic">Haec est autem vita aeterna, ut cognoscant te solum
+				<lb/>et verum Deum et quem misisti, Iesum Christum.</hi> Hinc alias per prophetam praedicendo
+				<lb/>testatur, dicens: <hi rend="italic">Cognoscent me,</hi> inquid, <hi rend="italic">omnes a minimo usque ad maximum.</hi> Hinc
+				<lb/>vas electionis de ignorantibus Deum per exprobrationem intonans ait: <hi rend="italic">Qui ignorat
+				<lb/>ignorabitur.</hi> Inenarrabilis quippe est, quoniam, quantus aut quid sit Deus, inveniri non
+				<lb/>potest, et non solum humana, sed neque subtilis et incorporea angelica natura summam
+				<lb/>illam inconprehensibilem et incircumscriptam divinitatis essentiam nulla penitus investigare
+				<lb/>subtilitatis posset sagacitate. Nam etsi angeli fonti scientiae perenniter adsistentes
+				<lb/>omnia sciunt, ipsum tamen scientiae fontem, cuius sit magnitudinis, qui nec
+				<lb/>initium recipit nec fine concluditur, metiri nequeunt. <hi rend="italic">Magnus tamen est Dominus noster
+				<lb/>et magna virtus eius, et sapientiae eius non est numerus.</hi> Tantum de illo absque dubio
+				<lb/>sciunt, quantum ipse illis de se revelare dignatur. Verumtamen cognoscibilis est et
+				<lb/>illis iuxta quod illi secundum suam possunt naturam capatius sustinere, et nobis
+				<lb/>scilicet in speculo et in enigmate, quamdiu <hi rend="italic">per fidem ambulamus et non per speciem,</hi>
+				<lb/>iuxta modum nostrae naturae, in quantum nostra praevalet possibilitatis infirmitas
+				<lb/>summatim sentire. In sacro autem eloquio vel in fidei instrumento addere vel minuere
+				<lb/>est non recte et aliter sentiendo intellegere, quam a sancto Spiritu per calamum lingue
+				<pb n="185"/>
+				<lb/>sanctorum virorum enigmatum mirabiliter constant misteriorum sacramenta digesta,
+				<lb/>qui eodem sancto afflati Spiritu per sacras ea librorum exarare paginas studuerunt,
+				<lb/>sicuti est mos proprius hereticorum, qui neglegentes divine scripture sensum vel
+				<lb/>modum genusque locutionis, corrupti ab antiquo serpente, secundum sua desideria
+				<lb/>coacerbant sibi inextricabiles questionum tumultus et idcirco infuso ferrugineo stilo in
+				<lb/>tinctorio falsitatis proprium, sed tamen perversum se dogma componere gloriantur,
+				<lb/>quin potius peregrinis et variis quam aecclesiasticis ac spiritalibus habuti conantur
+				<lb/>doctrinis, parvipendentes, veritatis refragatores, legis praeceptum, quo mistice
+				<lb/>cavetur sacerdotem semel in sua tribu et de sua tribu vel stirpis suae uxorem accipere
+				<lb/>et ipsam virginem, ex eadem scilicet Christiane religionis doctrina, qua semel
+				<lb/>inbutus est, de qua Christianum nomen sortitum se gratulatur sumsisse et ex qua
+				<lb/>per undam regenerationis renatum se recognoscit inmaculata fidei puritate quasi virginem
+				<lb/>et non heresea pollutione corruptam in amplexu amoris excipere, ad propagandam
+				<lb/>catholicae fidei posteritatis ex ea subolem perdocetur. Sed his dispectis imitati prorsus
+				<lb/>Zambri in adulterino concubitu exarserunt, – qui sermo alterius lingue vernaculus
+				<lb/>elucubratus de proprio interpretatus dicitur “fluxus vehemens” sive “canticum meum” –
+				<lb/>qui deceptus in specie Madianitidis scorto eam petiit, velut isti, vehementi fluxu perverse
+				<lb/>doctrinae inmoderatius despumantes, delectantur in pulchritudine splendentis
+				<lb/>eloquentiae perversi dogmatis. Quem Finees, Domini sacerdos, qui proprio de stilo
+				<lb/>translatus in Latino palato “oris augurium” resonat vel “ore quievit”, ultrici transfixum
+				<lb/>pugione in locis genitalibus simul cum sua adultera interfecit, quia videlicet censura
+				<lb/>ecclesiasticae disciplinae hereticum hominem post unam et alteram correptionem, expulsum
+				<lb/>de ecclesiae gremio, aeterno anathematis iaculo simul cum sua condempnata
+				<lb/>stuprata herese interemit. Quiescere namque fecerat iuxta nominis sui interpretationem
+				<lb/>iram indignationis furorisque Domini, quae iam egressa erat ad perdendum populum
+				<lb/>in ultione petulci. Nam quemadmodum lubricus ille serpens in paradyso diliciarum
+				<lb/>Evam corrupit astutia sua, cuius mentem, mendatii venenum inficiens, instigavit, ne
+				<lb/>veritati crederet, sed potius adquiesceret falsitati, dum praeceptum oboedientiae male
+				<lb/>interpretando persuasit transgredi, ita nunc versipellis in hoc paradiso sanctae ecclesiae,
+				<lb/>que spiritalibus divitiis adfluit, per hereticorum molitur semper pectora nequitiae virus
+				<lb/>infundere, quatenus falsitatis debriati poculo, errabundo poplite per anfracta erroris
+				<lb/>evagantes, veritatis invenire nequeant fontem. Unde et Paulus de quibusdam dubius
+				<lb/>precavens ait: <hi rend="italic">Timeo enim, ne, sicut serpens decepit Evam astutia sua, ita corrumpantur
+				<lb/>sensus vestri, ne credatis veritati.</hi> Quemadmodum infelix Arrius, huius serpentis
+				<lb/>crapulatus veneno, addere vel demere in sancto evangelio conatus est, ubi mediatoris
+				<lb/>vocem intonantis prurienti aure et cauteriata audierat conscientia et perfunctoriae
+				<pb n="186"/>
+				<lb/>legerat secundum hominem dixisse: <hi rend="italic">Vado ad patrem, quia pater maior me est.</hi> Super
+				<lb/>hoc igitur quasi addidisse quiddam convincitur, cum polluto sensu et inpio ore ex suo
+				<lb/>intulit: “non solum secundum humanam naturam, sed et secundum divinitatem”; minorem
+				<lb/>eum et posteriorem patri mentiri non timuit. Quae numquam in sacrosanctis
+				<lb/>evangeliis, in nulla saltem qualibet divinorum testamentorum serie se legisse poterit
+				<lb/>adprobare et quasi minuisse de sancti evangelii lectione reus constringitur, ubi surda
+				<lb/>et obturata quasi aspis aure eundem unigenitum Dei filium audire dispexerat: <hi rend="italic">Ego et
+				<lb/>pater unum sumus.</hi> Hinc quoque videtur minuisse, sed sibi ibi inpudenter addidisse,
+				<lb/>sed ad suam perniciem, nihil praeiudicans divinis oraculis. Sancta autem et veneranda
+			<lb/>evangelii sacramenta cunctis inviolata seculis permanebunt.</p>
+			<p><lb/>Catholicus vero quilibet doctor, recte sentiens iuxta quod a Domino gloriosius
+				<lb/>est praelibatum, quomodo et secundum hominem minor et secundum Deum aequalis
+				<lb/>sit patri, haec multiplici evidenter exponendo sermone explicuit; non addidisse vel
+				<lb/>minuisse, sed inreprehensibiliter praedicandus est latentia sancti evangelii mysteria
+				<lb/>supplevisse. Multa quidem huiuscemodi et his similia obiectionum spicula ex arcu
+				<lb/>linguae intorta inveniri poterant, quibus adversantia obtrectatorum confossa pectora
+				<lb/>saucioque infecta vulnere reticerent, sed propter brevitatis compendium ab his iam
+				<lb/>iamque calamo subtrahendo decrevimus temperare. Nam in apochalipsin Iohannes
+				<lb/>apostolus sub unius libri appellatione de tota utriusque testamenti serie contestatus
+				<lb/>est dicens: <hi rend="italic">Si quis,</hi> inquit, <hi rend="italic">adposuerit ad haec, adponet Deus omnes plagas scriptas in
+				<lb/>libro hoc. Et si quis deminuerit de verbis libri prophetiae huius, auferet Deus partem
+			<lb/>illius de libro vitae et de civitate sancta.</hi></p>
+			<p><lb/>Verumtamen sanctos praedicatores ecclesiae haec non percellit ultionis vindicta,
+				<lb/>quos ipsum nimirum apochalipsin librum et unumquodque capitulum scripturarum
+				<lb/>multiplicuisse promulgatione laudamus quosque pro his sempiternam credimus recepturos
+				<lb/>mercedem. Ipse quippe mediator Dei et hominum, dominus et magister, multa
+				<lb/>in parabolis, quas ipse proposuerat, mellifluo divinitatis exponendo ore, verborum
+				<lb/>insignia multiplicavit et duobus in via ambulantibus aperuit sensum <hi rend="italic">et incipiens a Mose et
+				<lb/>omnibus prophetis interpretabatur illis in omnibus scripturis quae de ipso erant.</hi> Sed
+				<lb/>et beatus apostolus non est culpandus, qui legis enigmata per multiplicia disputationum
+			<lb/>disseruit verba.</p>
+			<p><lb/>Hucusque propter eos, qui nequeunt ad purum subtiliter intellegere, quid sit in
+				<lb/>sacro eloquio addere vel minuere. Nunc autem his ita digestis proposita nostrae
+			<lb/>repromissionis debita tandem aliquando pleno reddere calamo iam non differamus.</p>
+			<p><lb/>De causa nempe fidei polliciti sumus contra eos disputare, qui variis erroribus
+				<lb/>inplicati non recte sentiunt de mysterio trinitatis, contra eos videlicet, qui de personarum
+				<lb/>discretione dubitant, qui ipsum putant esse patrem ipsumque filium, qui inferiorem
+				<lb/>filium et posteriorem mentiuntur esse patre, qui tria principia confitentur.
+				<lb/>Nos autem cum sanctis patribus unum principium confitemur, patrem et filium et
+				<lb/>Spiritum sanctum. Scriptum est enim: <hi rend="italic">Tecum principium in die virtutis tuae.</hi> Non
+				<lb/>principium, quod incipit, vel quasi initiale, sed principium, quod praecedit omnia, quia
+				<lb/>numquam non fuit pater, hoc est paternum numquam defuit nomen, quia semper pater
+				<lb/>fuit et est, et numquam non fuit filius, hoc est, quia filii nomen numquam defuit,
+				<lb/>quia semper et sine initio filius fuit et est. Contradicimus et per omnia Patripassianis,
+				<pb n="187"/>
+				<lb/>qui divinitatem eius passibilem ausi sunt elinguare. Similiter et illis non cedimus,
+				<lb/>qui in duos videntur filios unum Christum Dei filium dividere, dum illum naturalem
+				<lb/>et adoptivum adfirmare moliuntur, cum unus idemque sit Dei hominisque filius, cui
+				<lb/>per prophetam dicitur: <hi rend="italic">Tu autem idem ipse es. et anni tui non deficient.</hi> Sed melius
+				<lb/>haec intimamus, si ipsum, sicut prefati sumus, textum symboli ac deinceps que secuntur
+				<lb/>hoc exsequimur ordine. Obsecramus vos, fratres, et germano obnixius inprecamur
+				<lb/>affectu, ut ab hoc loco ea, quae secuntur, usquequo pervenitur, ubi legitur de
+				<lb/>divina unigeniti essentia hoc modo: “in qua regnat in unitate et trinitate cum patre et
+				<lb/>sancto Spiritu”, scribentes illa non in membranis vel morticinis pellibus, sed in tabulis
+			<lb/>cordis carnalibus memoria retinere curetis.</p>
+			<p><lb/>Credo in unum Deum patrem omnipotentem, factorem caeli et terrae, visibilium
+				<lb/>omnium et invisibilium. Et in unum dominum Iesum Christum, filium Dei unigenitum,
+				<lb/>ex patre natum ante omnia saecula, Deum de Deo, lumen de lumine, Deum verum
+				<lb/>de Deo vero, genitum, non factum, consubstantialem patri, per quem omnia facta sunt,
+				<lb/>qui propter nos homines et propter nostram salutem descendit de caelis et incarnatus
+				<lb/>est de Spiritu sancto et Maria virgine et homo factus est. Crucifixus aetiam pro
+				<lb/>nobis sub Pontio Pilato, passus et sepultus est et resurrexit tertia die secundum scripturas.
+				<lb/>Ascendit in caelum, sedet ad dexteram patris et iterum venturus est cum
+				<lb/>gloria iudicare vivos et mortuos, cuius regni non erit finis. Et in Spiritum sanctum,
+				<lb/>dominum et vivificantem, qui ex patre filioque procedit, qui cum patre et filio simul
+				<lb/>adoratur et conglorificatur, qui locutus est per prophetas. Et unam sanctam catholicam
+				<lb/>et apostolicam ecclesiam. Confiteor unum baptisma in remissionem peccatorum
+			<lb/>et expecto resurrectionem mortuorum et vitam futuri saeculi. Amen.</p>
+			<p><lb/>Sanctam autem, perfectam, inseparabilem et ineffabilem veramque trinitatem,
+				<lb/>id est patrem et filium et Spiritum sanctum, individuam confiteor in unitate naturae,
+				<lb/>quia trinus et unus est Deus. Trinus nimirum per distinctionem personarum, unus
+				<lb/>vero per substantiam inseparabilem deitatis. Has igitur tres personas, patris filiique
+				<lb/>ac Spiritus sancti, non putativas vel quasi suspicabiles tantum, sed veras subsistentes,
+				<lb/>coaeternas, coaequales credimus et consubstantiales. Alia est enim persona patris,
+				<lb/>alia filii, alia Spiritus sancti. Sed pater et filius et Spiritus sanctus non tres dii, sed
+				<lb/>unus est Deus. Nam pater verus Deus, vere et propriae pater est, qui genuit ex se,
+				<lb/>id est ex sua substantia, intemporaliter et sine initio verum filium, coeternum, consubstantialem
+				<lb/>et coaequalem sibi. Et filius verus Deus, vere et propriae est filius,
+				<lb/>qui ante omnia saecula genitus est de patre, intemporaliter et absque ullo initio, lumen
+				<lb/>de lumine, Deus verus de Deo vero. Et numquam fuit pater sine filio nec filius sine
+				<lb/>patre. Pater etenim semper pater est, erat et erit. Et filius semper filius est, erat
+				<lb/>et erit. Et numquam non fuit pater, quia numquam non fuit filius. Semper enim
+				<lb/>pater, qui genuit sibi aequalem filium. Semper quidem filius, qui genitus est aequalis
+				<lb/>patri. Spiritus namque sanctus verus Deus, vere et proprie Spiritus sanctus est, non
+				<lb/>genitus, nec creatus, sed ex patre filioque intemporaliter et inseparabiliter procedens.
+				<lb/>Consubstantialis, coaeternus et aequalis patri filioque semper est, erat et erit. Et
+				<lb/>numquam fuit pater aut filius sine Spiritu sancto nec Spiritus sanctus sine patre et
+				<pb n="188"/>
+				<lb/>filio. Et idcirco inseparabilia sunt semper opera trinitatis, et nihil est in sancta trinitate
+				<lb/>diversum aliquid aut dissimile vel inaequale, non divisum naturaliter, non confusum
+				<lb/>personaliter, nihil maius aut minus. Non anterior, non posterior, non inferior,
+				<lb/>non superior, sed una et aequalis potestas, par gloria, sempiterna et coaeterna consubstantialisque
+				<lb/>maiestas. Unum namque sunt essentialiter pater et filius et Spiritus
+				<lb/>sanctus. Et idcirco unus est Deus; sed non unus propter personarum discretionem
+				<lb/>pater et filius et Spiritus sanctus. Verus enim pater proprie pater est et non est filius.
+				<lb/>Et verus filius proprie filius est et non est pater. Spiritus quoque sanctus proprie
+				<lb/>spiritus est et non est personaliter pater vel filius, sed ex utroque procedit; et tamen
+				<lb/>non sunt tres dii, sed unus est Deus. Et in hac sancta trinitate nichil, quod absit,
+				<lb/>aliquid putandum est visibile, corporale, palpabile vel conprehensibile. Omnipotens
+				<lb/>namque sancta trinitas, invisibilis, incorporalis, inpalpabilis, inconpraehensibilis, incircumscripta,
+				<lb/>infinita, inmensa et sempiterna, omnia nutu et imperio suo gubernat.
+				<lb/>Nam etsi legitur oculus Domini vel brachium sive dextera et cetera, non membrorum
+				<lb/>positionem vel molem corporis, sed effectum summe et inenarrabilis divinae potentiae
+				<lb/>integra recte fidei credulitate debemus intellegere. Nam quia omnia videt et omnia
+				<lb/>penetrat et cuncta nuda et aperta sunt ante eum, oculos habere dicitur; quia vero nos
+				<lb/>sua virtute creavit, regit, protegit et defendit, brachium vel dexteram habere perhibetur
+				<lb/>et his similia. De hac autem ineffabili trinitate sola verbi Dei persona, id est filius,
+				<lb/>in ultimis diebus propter nos et propter nostram salutem secundum propositum secrete
+				<lb/>dispensationis arbitrium descendit de caelis, unde numquam recesserat. Incarnatus
+				<lb/>est de Spiritu sancto et semper virgine Maria, verus homo factus verusque permanet
+				<lb/>Deus. Nec obfuit humana et temporalis nativitas divinae illi et intemporali nativitati,
+				<lb/>sed in una Christi Iesu persona verus Dei verusque hominis filius, non alter hominis
+				<lb/>filius, alter Dei, sed unus idemque Dei hominisque filius, in utraque natura, divina
+				<lb/>scilicet et humana, Deus verus et homo verus, non putativus Dei filius, sed verus,
+				<lb/>non adoptivus, sed proprius, quia numquam fuit propter hominem, quem adsumpsit,
+				<lb/>a patre alienus. Solus enim sine peccato natus est homo, quoniam solus est incarnatus
+				<lb/>de Spiritu sancto et inmaculata virgine novus homo. Consubstantialis Deo patri
+				<lb/>in sua, id est divina, consubstantialis etiam matri sine sorde peccati in nostra, id est
+				<lb/>humana, et ideo in utraque natura proprium eum et non adoptivum Dei filium confitemur,
+				<lb/>quia inconfusibiliter et inseparabiliter adsumpto homine unus idemque est Dei
+				<lb/>et hominis filius. Naturaliter patri secundum divinitatem, naturaliter matri secundum
+				<lb/>humanitatem, proprius tamen patri in utroque, quoniam, sicut dictum est, non sunt
+				<lb/>duo filii, alter Dei, alter hominis, sed unus Christus Iesus propter unam personam Dei
+				<lb/>et hominis filius, Deus verus et homo verus, in anima rationali et vera carne. Perfectus
+				<lb/>homo secundum humanitatem, perfectus Deus secundum divinitatem, qui in
+				<lb/>eadem natura, id est humana, quam sumpsit ex virgine, humanas pertulit infirmitates,
+				<lb/>non fragilitatem peccandi, sed in eadem dignatus est crescere per incrementa temporis,
+				<lb/>esurire, sitire, fatigari, contumelias et obprobria sustinere. Dignatus est flagellari,
+				<lb/>crucis patibulum subire, lanceam in latere excipere, clavis transfigi, fel et acetum
+				<lb/>gustare. In eadem dignatus est mori, sepeliri, ad inferos descendere, tertia die resurgere,
+				<lb/>cum discipulis conversari et post triumphum victricis gloriae eandem humanam
+				<lb/>naturam, ascendendo super omnes caelos et exaltatam super omnes angelos, in patris
+				<pb n="189"/>
+				<lb/>dextera collocavit. In eadem iterum venturus est iudicare vivos et mortuos et saeculum
+				<lb/>per ignem, redditurus unicuique secundum opera sua, impiis utique supplicium sempiternum,
+				<lb/>iustis vero vitam aeternam. Divina autem illa ineffabilis natura, in qua Deus
+				<lb/>est aequalis patri sanctoque Spiritui, inpassibilis, inmutabilis, inconvertibilis, ubique
+				<lb/>praesens semperque omnipotens, inviolata permanens, in qua regnat in unitate et
+				<lb/>trinitate cum patre et Spiritu sancto et nunc et semper et per cuncta saecula
+			<lb/>saeculorum. Amen.</p>
+			<p><lb/>Hanc igitur catholicae fidei sincerissimam puritatem volumus omnes Dei sacerdotes
+				<lb/>omnesque gradus ecclesiae summo cum studio et absque ullo vitio, ita ut ne
+				<lb/>unus quidem apex intermittatur vel augeatur, distincte et sensatim discendo memoria
+				<lb/>retinere et posteris suis discenda derelinquere. Si quis vigilantiori sensu praeditus
+				<lb/>ante potuerit, laudamus et hortamur. Qui vero inbecilli ingenio torpens ante nequiverit,
+				<lb/>in anniversaria tamen proximiore huius venerandi concilii volubilique sessione,
+				<lb/>cum vestris obtutibus auxiliante Domino pusillitatis nostrae praesentiam vita comite
+				<lb/>repraesentare meruerimus, Deo amabilis fraternitatis vestrae caritas, hanc, sicut dictum
+				<lb/>est, memoria retineat, ita sane, ut in nostrae humilitatis aspectu eam studiose valeat
+			<lb/>recensere; alioquin difficile vos vitare ecclesiasticas ferulas estimate.</p>
+			<p><lb/>Symbolum vero et orationem dominicam omnis Christianus memoriter sciat,
+				<lb/>omnis aetas, omnis sexus omnisque conditio, masculini, feminae, iuvenes, senes, servi,
+				<lb/>liberi, pueri, coniugati innuptaeque puellae, quia sine hac benedictione nullus poterit
+				<lb/>in caelorum regno percipere portionem. Qui autem observaverit haec et a malis
+				<lb/>operibus se custodierit, et in praesenti saeculo salvus erit et in futuro cum angelis
+			<lb/>congaudebit.</p>
+			<p><lb/>Non novas, karissimi, regulas instituimus nec supervacuas rerum adinventiones
+				<lb/>inhianter sectamur, sed sacris paternorum canonum recensitis foliis ea, quae ab eis
+				<lb/>bene gesta salubrique promulgata mucrone persistunt, summa devotionis veneratione
+				<lb/>amplectentes recentiori stilo opere praecium duximus renovare, quatenus ad modum
+				<lb/>mundi ac ruminantis ungulasque findentis animalis, devoratas aescas ad faucem memoriae
+				<lb/>revocantes, quasi ruminando per sacre lectionis studium dudum depastum spiritale
+				<lb/>pabulum subtilius liquidiusque sese in ventre mentis refundat. Quo satiati dilitiarum
+				<lb/>suaviter aepulo ad referendas superni largitoris gratias, de cuius benignitatis manu
+				<pb n="190"/>
+				<lb/>cuncta gratuito suscipimus munere, modis omnibus incitemur, qui, ut nos post culpam
+				<lb/>discordiae ingratos funiculo caritatis trahendo ad patris suamque gratiam revocaret,
+				<lb/>cum in forma <hi rend="italic">Dei esset equalis patri, semetipsum pro nobis exinanivit, formam servi
+				<lb/>accipiens,</hi> mediator inter Deum et nos fieri est dignatus, cuius livore ab eo, quod
+			<lb/>diabolus inflixerat, mortis vulnere mirabiliter sumus sanati '.</p>
+			<p><lb/>Capitulo I. Primum igitur, ut iuxta priscas patrum divinitus aeditas sanctiones
+				<lb/>nullus Domini sacerdotum vel quicumque sub canone sunt constituti canonicas, quinimmo
+				<lb/>apostolicas ignorantes aut parvipendentes definitiones inordinate vel inhoneste in domo
+				<lb/>Dei, quae est ecclesia, conversentur, sed, in suo ordine cuncta persistentia, pulchritudo
+				<lb/>ecclesiastici decoris inviolata permaneat. Illud summopere vigilantique studio
+				<lb/>praecaventes decernere curavimus, ut nullus canonicae deditus dicioni donum sancti
+				<lb/>Spiritus pecunia, praetio fraudulenter deceptus, vendere vel emere praesumat, ne cui
+				<lb/>in quemlibet sacrum ecclesiastici ordinis gradum muneris exigente merito liceat quempiam
+				<lb/>subvehens promovere patentique semper cordis aure pertimescat, intellegat clarissimam
+				<lb/>illam Domini vocem dicentis: <hi rend="italic">Gratis accepistis, gratis date.</hi> Hanc quippe
+				<lb/>pestiferam simoniacam heresem primus pastor ecclesiae in ipsa, ut ita dixerim, originali
+			<lb/>cupiditatis radice anathematis ferro funditus resecare curavit</p>
+			<p><lb/>Capitulo II. Ut longe altius excellat vita pastoris conparata subditi gregis,
+				<lb/>quoniam singulariter boni pastoris voce dicitur: <hi rend="italic">Vos estis lux mundi,</hi> et rursus : <hi rend="italic">Vos
+				<lb/>estis sal terrae,</hi> et iterum: <hi rend="italic">Luceat lux vestra coram hominibus, ut videant opera vestra
+				<lb/>bona et glorificent patrem vestrum, qui in caelis est.</hi> Hinc etenim colligi potest, in
+				<lb/>quantum distare debet pastor a grege, dum istos homines et illos plus quam homines,
+				<lb/>id est lucem hominum, Dominus voluit appellari. Si ergo lux mundi sumus, lucere
+				<lb/>utique absque nebulosa hypocrisis ammixtione debemus et, si sal terre sumus, condire
+			<lb/>nichilominus terrenas mentes sapientiae sapore per verbum praedicationis debemus.</p>
+			<p><lb/>Capitulo III. Item placuit, ut sobrie et pie casteque iuxta apostolum viventes
+				<lb/>fugiamus turpis lucri gratiam, non in commessationibus et ebrietatibus, et non ebriemur
+				<lb/>vino, in quo est luxuria, quemadmodum per semetipsam veritas generaliter in evangelio
+				<lb/>precipiendo protestatur dicens: <hi rend="italic">Cavete a crapula et ebrietate et curis saeculi huius.</hi>
+				<lb/>Unde et in ecclesiastico canone sententialiter constat decisum aut cessare ab huiusmodi
+				<lb/>vitii ingurgitatione aut certe perseverantes honoris iactura pereclitari debere.
+			<lb/>Quorum huius ultricis sententiae dictatorum nos conplices ac fautores esse fatemur.</p>
+			<pb n="191"/>
+			<p><lb/>Capitulo IIII. Ut iuxta Niceni venerandi diffinitionem concilii nullus patiatur
+				<lb/>subintroductas mulieres secum in domo propria habere vel private cum eis cohabitantes
+				<lb/>conversari. Et quamquam de quibusdam inhonesta carentibus suspitione clementius
+				<lb/>aliquo modo inibi legatur indultum, nos autem omnes omnino nunc necessarium
+				<lb/>vetare prospeximus, eo quod experimento didicerimus ob illarum velamentum alias
+				<lb/>licentius ad eos aditum veniendi perditionis causa habuisse. Non autem vetamus
+				<lb/>quempiam, sed potius adortamur pauperibus personis iure sibi cognationis coniunctis
+				<lb/>benefacere, cum sit omnibus benefaciendum; sed ab eis segregate in suis degentes
+			<lb/>domiciliis perseverent.</p>
+			<p><lb/>Capitulo V. Ut secularia negotia ultra modum mensurae nulli liceat exercere.
+				<lb/>Ait enim apostolus: <hi rend="italic">Nemo militans Deo implicat se negotiis secularibus, ut ei placeat,
+				<lb/>cui se probavit.</hi> Intueri quapropter subtilius libet, cuius nos esse regis milites gratulamur.
+				<lb/>Et quia in castris dominicis militamus, sollicite pensare constringimur, quibus
+				<lb/>armis muniti cum tanto adversario certaminis bella adgressi pugnare valeamus, ut
+				<lb/>expediti ab omni praesentis saeculi inpedimento, intrepidi in prima acie persistentes,
+				<lb/>post palmam victoriae triumphatricis glorie coronam ab eo rege, qui nos de antiquo
+			<lb/>hoste triumphavit, suscipere mereamur.</p>
+			<p><lb/>Capitulo VI. Item placuit, ut eas prorsus mundanas dignitates, quas seculares
+				<lb/>viri vel principes terrae exercere solent, in venationibus scilicet vel in canticis secularibus
+				<lb/>aut in resoluta et inmoderata laetitia, in liris et tibiis et his similibus lusibus,
+				<lb/>nullus sub ecclesiastico canone constitutus ob inanis laetitiae fluxum audeat fastu
+				<lb/>superbie tumidus quandoque praesumendo abuti, nisi forte, si in ymnis et spiritalibus
+				<lb/>canticis delectatur, de sacris videlicet scripturarum voluminibus digne honesteque
+				<lb/>conpositis utatur. Ab his igitur non solum non inhibemus abstinere, verum etiam
+			<lb/>connibentes licentiae concedimus votum.</p>
+			<p><lb/>Capitulo VII. Item placuit, ut nullus episcoporum presbyterum vel diaconum
+				<lb/>vel archimandritam in dispendio honoris condempnare praesumat absque huius venerandae
+				<lb/>sedis consultu. Si quis post haec prohibita temerarius usurpare temptaverit,
+			<lb/>non erit ambiguus de sui honoris periculo.</p>
+			<p><lb/>Capitulo VIII. De his autem, qui propinqui sanguinis adfinitatem sibi in
+				<lb/>matrimonium sociare temptaverint, quia valde gravis nimisque asperrima in prisco
+				<lb/>canone ab antiquis patribus de hoc negotio iudicialis sententiae elimata sub paenitentiae
+				<lb/>flagello persistit vindicta, idcirco tanti praecaventes flagitii periculum, ut melius
+				<lb/>cautiusque prospeximus, dignum duximus diffinire, ita dumtaxat, ut nemini liceat
+				<pb n="192"/>
+				<lb/>furtim raptimque nuptias contrahere, ne forte per erroris ignaviam vel certe, quod
+				<lb/>peius est, diabolico instigati amore inlicita conubia celebrentur, sed interventis pactis
+				<lb/>sponsalibus, per aliquam dilationis moram, requisiti quin etiam diligenti cura vicini
+				<lb/>vel maiores natu loci illius, qui possint scire lineam generationum utrorumque, sponsi
+				<lb/>scilicet vel sponsae, in eo etiam, ut sine notitia sacerdotis plebis illius nullatenus fiat,
+				<lb/>quatenus nulla deinceps separationis tribulatio intercedat. Si vero hoc ordine cuncta
+				<lb/>peragantur ac probatum sine fraude testium fuerit et causa contigerit, quod postea
+				<lb/>aut ipsi recordati fuerint, qui primum se nescire professi sunt, aut certe per aliorum
+				<lb/>veratium hominum testimonium inventi fuerint in eo gradu consanguinitatis, quo segregari
+				<lb/>solent, segregentur quidem ab invicem et agant paenitentiam et, si fieri
+				<lb/>potest, perseverent utrique innupti. Quodsi propter incontinentiam vel certe, quod est
+				<lb/>honestius, amore filiorum in id permanere nequeunt, transeant quidem ad secundas
+				<lb/>nuptias. Hoc autem dicimus secundum indulgentiam, non secundum imperium. Beatiores
+				<lb/>tamen erunt, si sic permanserint secundum nostrum consilium. Filii vero, qui
+				<lb/>ex tali matrimonio procreati fuerint, legitimi habeantur ad hereditatem defuncti capiendam.
+				<lb/>Qui autem non observaverint omnia haec, quae pro salute anime et fragilitate
+				<lb/>vitae supra conpendiose scripta leguntur, et furtivas vel interdictas nuptias contrahere
+				<lb/>praesumpserint et proximi cognationis fuerint inventi, separentur quoque et ipsi
+				<lb/>et cunctis diebus vitae suae sub paenitentiae lamento permaneant atque ad secundas
+				<lb/>nuptias numquam ille vel illa perveniant, alieni a communionis gratia iudicentur
+				<lb/>filiique, qui de hoc tam incesto coniugio nati fuerint, improbi habeantur nullamque
+			<lb/>rerum adipisci valeant parentum facultatem.</p>
+			<p><lb/>Capitulo VIIII. Illud praeterea per omnia praecaventes prohibere decrevimus,
+				<lb/>ut nullus praesumat ante annos pubertatis, id est infra aetatem, puerum vel puellam
+				<lb/>in matrimonium sociare nec in dissimili aetate, sed coaetaneos sibique consentientes.
+				<lb/>Multas sepius ex huiuscemodi nuptiali contractu ruinas animarum factas audivimus et
+				<lb/>tales fornicationes perpetratas, quales nec inter gentes; ita plane ut, cum contingit
+				<lb/>puerum adultum esse et puellam parvulam et e contrario, si puella maturae aetatis et
+				<lb/>puer sit tenere, et per virum cognata et socrus deprehendantur adulterae et per
+				<lb/>puellam frater vel pater pueri tanti peccati flagitio pereant inretiti. Unde qui haec
+				<lb/>prohibita de cetero usurpare praesumpserit ab omni ecclesiastico consortio sit alienus,
+			<lb/>sed nec a publicis sit inmunis iudiciis.</p>
+			<p><lb/>Capitulo X. Item placuit, ut resoluto fornicationis causa iugali vinculo non
+				<lb/>liceat viro, quamdiu adultera vivit, aliam uxorem ducere, licet sit illa adultera, sed
+				<lb/>nec adulterae, quae paenas gravissimas vel paenitentiae tormentum luere debet, alium
+				<pb n="193"/>
+				<lb/>accipere virum nec vivente nec mortuo, quem non erubuit defraudare, marito. Nam
+				<lb/>etsi legatur in sacris evangelicis paginis sola fornicationis causa dixisse Dominum dimittere
+				<lb/>virum uxorem suam, non tamen legitur concessisse aliam vivente illa in
+				<lb/>coniugio sibi sociare, prohibuisse quidem modis omnibus non ambigitur. Ait enim:
+				<lb/><hi rend="italic">Quicumque dimiserit uxorem suam nisi ob fornicationem et aliam duxerit, moechatur.</hi>
+				<lb/>Qua de re ita diffinire prospeximus, ut iuxta eiusdem Domini mellifluam vocem nemo
+				<lb/>haec interdicta violator inculcare praesumat. Sed quoniam in medio ambiguus interponitur
+				<lb/>sermo, id est “nisi ob fornicationem”, quaeri nimirum potest, utrum ad solam
+				<lb/>licentiam dimittendi uxorem “qui dimiserit uxorem suam nisi ob fornicationem” an
+				<lb/>etiam ad utrumque dictum referatur, hoc est ad aliam vivente illa accipiendam, quasi
+				<lb/>dixerit: “Qui dimiserit uxorem suam et aliam nisi ob fornicationem duxerit, moechatur”.
+				<lb/>Et idcirco peritissimi viri beati Hieronimi libellum commentariorum recenseri nobis
+				<lb/>studiose mandavimus, anxiae utique cognoscere festinantes, qualiter hisdem famosissimus
+				<lb/>doctor haec sacrata dominica verba iuxta capatioris ingenii sui subtilitatem sensisse
+				<lb/>monstraretur. Cuius nimirum sensum, sagaciter explorantes, in promptum nichilominus
+				<lb/>patuit ad solam dimittendi uxorem licentiam pertinere. Nam cum more suo
+				<lb/>vir sanctus ad huius capituli summatim seriem exponendam transcurreret, inter cetera
+				<lb/>et post pauca sic ait: Et quia poterat, inquit, accidere, ut aliquis calumniam faceret innocenti
+				<lb/>et ob secundam copulam nuptiarum veteri crimen inpingeret, sic prior dimitti iubetur uxor,
+				<lb/>ut secundam prima vivente non habeat. Non enim debet imitari malum adultere uxoris,
+				<lb/>et si illa duo, immo unam carnem per scissuras fornicationum divisit in tres, non decet,
+				<lb/>ut maritus nequius exsequendo tres dividat in quattuor. Unde patenter datur intellegi:
+			<lb/>quamdiu vivit adultera, non licet viro nec potest inpune secundas contrahere nuptias.</p>
+			<p><lb/>Capitulo XI. Item placuit de faeminis cuiuscumque conditionis, puellis scilicet
+				<lb/>vel viduis, quae, virginitatis sive continentiae propositum spontanee pollicentes, Deo
+				<lb/>emancipate fuerint et ob continentiae signum nigram vestem quasi religiosam, sicut
+				<lb/>antiquus mos fuit in his regionibus, indutae fuerint: licet non sint a sacerdote sacratae,
+				<lb/>in hoc tamen proposito eas perpetim perseverare mandamus. Si vero postea sese sive
+				<lb/>clanculo corruperint seu publicae nupserint, dignis quidem mundano iudicio corporalibus
+				<lb/>cohercite vindictis segregentur ab invicem et agant cunctis diebus vitae suae paenitentiam
+				<lb/>et a communione corporis et sanguinis Christi priventur, nisi forte pontifex,
+				<lb/>rescita eorum paenitentia, si digna fuerit, humanius praevidens poterit communionis
+				<lb/>gratiam indulgere. In extremo tamen vitae suae viatico humanius indulto non defraudentur.
+				<lb/>Et in his rebus praecipuae illa modis omnibus custodiatur interdictio,
+				<lb/>ut nulli liceat praedictis personis habitum, id est vestem, mutare absque sui episcopi
+			<lb/>conscientia.</p>
+			<p><lb/>Capitulo XII. Hoc igitur inviolato stilo iuste sancire prospeximus, ut monasteria
+				<lb/>puellarum, quae sub disciplina regulae degunt, obstructius munitis claustris nulli
+				<pb n="194"/>
+				<lb/>pateant, nisi forte summa compellente necessitate, aditui virorum. Sed neque presbyteri
+				<lb/>vel diacones vel quilibet de clero vel etiam archimandritis quasi visitationis vel praedicationis
+				<lb/>causa sine permisso episcopi civitatis sibi licentiam tribuat ineundi. Quin
+				<lb/>etiam nec episcopus absque sacerdotibus vel clericis suis, ut decet et honestae convenit,
+				<lb/>adire illuc licentius se aestimet. Sed sive ipse sive quaelibet religiosa persona,
+				<lb/>alienus ab inlicita suspicione, quem morum gravitas ornat, permittente et admonente
+				<lb/>episcopo exortationis vel aedificationis obtentu, quae ad salutem animae pertinet,
+				<lb/>si dignum fuerit ut adeant haec Deo dicata loca, non aliter, sed cum idoneis testibus
+				<lb/>pergant, ne propter incautam praesumptionem sanctae ecclesiae infametur angelicus
+				<lb/>ordo. Et nulla ullo umquam tempore licentia sit abbatissae vel cuilibet monachae,
+				<lb/>transfigurante se satana in angelum lucis quasi orationis causa suggerente eis, Romam
+				<lb/>adire vel alia loca venerabilia circuire. Quam sit namque inreligiosum et reprehensibile
+				<lb/>cum viris propter itineris necessitatem conversari, nullus tam excors est vel
+				<lb/>dissipiens qui ignoret. Si quis post hanc definitionem huius reverendi concilii de his,
+				<lb/>quae consona voce salubriterque statuta sunt, temerario ausu violare temptaverit,
+				<lb/>canonicis coherceatur vindictis, scilicet aut iuxta modum vel qualitatem culpe excommunicatione
+				<lb/>multetur aut anathematis vinculo punitus vinciatur aut certe honoris
+				<lb/>proprii amissione nudatus, reus ab ecclesiae gremio evellatur. Hae enim sunt canonicae
+				<lb/>ultrices vindictae, a quibus nullus sacrae legis prevaricator poterit inmunis
+			<lb/>abire, nisi forte paenitentiae interveniente medella veniam meruerit adipisci.</p>
+			<p><lb/>Capitulo XIII. Diem autem dominicum inchoante noctis illius initio, id est
+				<lb/>vespere sabbati, quae in prima lucescit sabbati, quando signum insonuerit vel hora
+				<lb/>est ad vespertinum caelebrandum officium, non propter honorem sabbati ultimi, sed
+				<lb/>propter sanctam illam noctem primi sabbati, hoc est dominici diei, cum omni reverentia
+				<lb/>et honorifica religione venerari omnibus mandamus Christianis, abstinere primum omnium
+				<lb/>ab omni peccato et ab omni opere carnali, etiam a propriis coniugibus et ab
+				<lb/>omni opere terreno et nichil aliud vacare nisi ad orationem, concurrere ad ecclesiam
+				<lb/>cum summa mentis devotione, cessante omni causarum strepitu, cum caritate et dilectione
+				<lb/>benedicere Deum patrem et laudare totis medullis cordis unigenitum Dei filium,
+				<lb/>qui istam diem per gloriosam suam sanctificavit resurrectionem, et ymnum dicere
+				<lb/>sancto Spiritui, qui eam benedixit per admirabilem suum adventum, quando in igneis
+				<lb/>linguis super beatos descendit apostolos. Sed et omnium penae dona carismatum in
+				<lb/>eadem sacratissima die creduntur in mundo conlata. Nam in ipsa die Dominus post
+				<lb/>resurrectionem in discipulis Spiritum sanctum ad remittenda peccata insufflavit. In
+				<lb/>ipsa in deserto Dominus de quinque panibus quinque milia hominum pavit. In ipsa
+				<lb/>die manna pluit de caelis primum in heremo, et multa alia spiritalium munificentia
+				<lb/>rerum in ipsa die sunt manifestata, que cuncta longum est per ordinem recenseri.
+				<lb/>Ipsum est enim sabbatum Domini delicatum, de quo scriptura dicit: <hi rend="italic">Qui fecerit in eo
+				<lb/>opus servile,</hi> id est peccati, <hi rend="italic">morte moriatur.</hi> Porro si de illo sabbato diceret, quod
+				<lb/>Iudaei caelebrant, quod est ultimum in ebdomada, quod et nostri rustici observant,
+				<pb n="195"/>
+				<lb/>diceret tantum “sabbatum” et nequaquam adderet “delicatum” et “meum”. Sed quia
+				<lb/>differentiam voluit facere inter illum et istum, quod est dominica dies, ideo addidit
+				<lb/>“meum”, acsi diceret “meum, non vestrum, delicatum, non in vestris observationibus
+				<lb/>maculatum”. Et ideo cum omni reverentia est a nobis honorandum atque colendum.
+				<lb/>Cetere vero principales festivitates et ipse sunt veneranter honorandae vel custodiendae.
+				<lb/>Et illa festa, quae sacerdotes in ecclesia predicant, modis omnibus sunt
+				<lb/>custodienda. Nos autem, qui sacerdotes vocamur, debemus populum nobis subiectum
+				<lb/>et predicando verbis in omni bono et faciendo quae docemus exemplis instruere, in
+				<lb/>caritate, in castitate, in humilitate, in continentia, in modestia, in vigiliis, in ieiuniis
+				<lb/>et oratione, in religione, in elemosinis, in hospitalitate, in quantum vires permittunt, in
+				<lb/>verbo sapientiae sale condito, in temperantia manducandi vel bibendi, in conversatione
+				<lb/>sancta, in simplicitate cordis, in omni opere bono, pie et iuste vivendo, <hi rend="italic">expectantes
+				<lb/>beatam spem et adventum gloriae magni Dei et salvatoris nostri Iesu Christi,</hi>qui cum
+			<lb/>patre et Spiritu sancto vivit et regnat Deus per omnia saecula seculorum. Amen.</p>
+			<p><lb/>Capitulo XIIII. De decimis vero vel primitiis, salva scilicet allegoricarum
+				<lb/>rerum mystica sacramenta, nichil melius puto docere, quam quod scriptum est in
+				<lb/>Malachia propheta, dicente Domino: <hi rend="italic">Inferte omnem decimam in horreo meo, ut sit cibus
+				<lb/>in domo mea, et probate me in hoc, dicit Dominus, si non aperuero vobis catharactas
+				<lb/>caeli et effudero vobis benedictionem usque ad habundantiam et increpabo pro vobis devorantem
+				<lb/>et non corrumpam fructum terrae vestrae; nec erit sterilis vinea in agro, dicit
+				<lb/>Dominus exercituum. Et beatos vos dicent omnes gentes.</hi> Sed quia indignatio et ira
+				<lb/>Dei manet super gentem vel populum, qui hoc Domini praeceptum toto corde et bona
+				<lb/>voluntate non adimplet, supra praemiserat dicens: <hi rend="italic">Si affiget,</hi> inquit, <hi rend="italic">homo Deum, quia
+				<lb/>vos configitis me? Et dixistis: In quo configimus te? In decimis et in primitivis
+				<lb/>vestris. In penuria vos maledicti estis et me vos configitis gens tota.</hi> Qua de re quis
+				<lb/>non alacri et laeto pectore offerat decimas Deo, ut possit illam promereri benedictionem,
+				<lb/>de qua dicit: <hi rend="italic">Effundam super vos benedictionem meam usque ad habundantiam?</hi> Vel
+				<lb/>quis non timeat vel contremiscat illam maledictionem, quam minatur nolentibus offerre:
+				<lb/><hi rend="italic">Vos maledicti estis et me vos configitis gens tota?</hi> Et si forte nobis non creditis vel
+				<lb/>nos dispicitis, quia homines sumus, credite ergo ipsi Domino dicenti, qui mentiri non
+				<lb/>potest, qui utrumque promisit, et maledictionem in hoc saeculo et in futuro nolentibus
+				<lb/>oboedire eius mandatis et benedictionem et habundantiam et salutem animae et corporum
+				<lb/>bona voluntate obtemperantibus eius imperiis et in praesenti saeculo se daturum
+				<lb/>et in futuro. Non enim exigit Deus a te quae non habes nec pensat quantum
+				<lb/>tribuas, sed in quantum habes, simplici corde de suis, non de tuis donis da Deo, quia
+				<lb/>omne, quod sumus, vivimus et habemus, eius est et de ipsius benignitatis suscipimus
+				<lb/>manu. Considerat namque, qua mente et non quantum in eius sacrificium offeras,
+				<lb/>qui potens est et in praesenti saeculo centuplum et in futuro vitam tribuere sempiternam,
+				<lb/>qui vivit et regnat cum patre et Spiritu sancto et nunc et semper per cuncta
+			<lb/>saecula saeculorum. Amen.</p>
+		</div>
+	</body>
+</text>
+</TEI>

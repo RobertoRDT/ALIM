@@ -1,0 +1,537 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>[Liber Guillelmi falconarii]</title>
+				<author>Guillelmus falconarius</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Tilander</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">EB</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2391" unit="words">Parole: 2391</measure>
+				<measure quantity="13457" unit="characters_without_spaces">Caratteri (spazi esclusi): 13457</measure>
+				<measure quantity="15525" unit="characters_witht_spaces">Caratteri (spazi inclusi): 15525</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2003-03-01">01/03/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Scienze naturali</note>
+				<note>Tipo: Fonti Letterarie </note>
+				<note>Note: Parole: 2434&#13;
+Caratteri: 16066&#13;
+(testo latino alle pp. pari)&#13;
+GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Dancus Rex, Guillelmus Falconarius, Gerardus Falconarius: les plus anciens traités de fauconnerie de l'Occident publiés d'après tous les manuscrits connus</title>
+						<editor>G. Tilander</editor>
+						<imprint>
+							<publisher>C. Bloms</publisher>
+							<pubPlace>Lund</pubPlace>
+							<date>1963</date>
+							<biblScope unit="page">134-175</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie </term>
+					<term type="genre">Scienze naturali</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item><item type="itemNotaJC">-dopo il cap. 37 segue una nota: [Paragrafi aggiunti nei mss. CX, NP et Z.] e poi altri capitoli. La nota l'ho messa nel &lt;!-- --&gt;, ma si potrebbe mettere tutta la parte che segue in un &lt;div&gt; separato (?)</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="134"/>
+		<div>
+			<head><lb/><hi rend="italic">[Prologo.]</hi></head>
+			<p><lb/>Iste magister non fuit mendax sed verax. Iste medicine
+				<lb/>sunt bone et perfecte et multum probate. Guillelmus
+				<lb/>falchonerius, qui fuit nutritus in curia regis Rogerii, qui postea
+				<lb/>mul[t]um moratus fuit cum filio quo, habuit quendam magistrum,
+				<lb/>qui vocatus fuit Martinus, qui fuit sapiens et doctus
+				<pb n="136"/>
+				<lb/>in arte falchonum. Et iste discipulus suus Guillelmus scivit
+				<lb/>que ipse scivit, et tanto plus quod ipse composuit libellum unum
+				<lb/>de arte ista, cuius principium tale est. Nolite dubitare sed
+				<lb/>firmiter sciatis quod nullus talis magister vivit modo in
+			<lb/>mundo.</p>
+			<p><lb/>Incipit quedam alia capitula de infirmitatibus falchonum
+				<lb/>et postea de remediis earundem secundum doctrinam magistri
+			<lb/>Guillelmi. Primo</p>
+		</div>
+		<div>
+			<head><lb/>[Tabula.]</head>
+			<p><lb/>1. De dolore capitis que dicitur furtivum..................................138</p>
+			<p><lb/>2. De malo agro.......................................................................140</p>
+			<p><lb/>3. De malo tesgo......................................................................140</p>
+			<p><lb/>4. De gutta que dicitur arthetica...............................................140</p>
+			<p><lb/>5. De gutta que nascitur in gorgia que dicitur naturalis.............142</p>
+			<p><lb/>6. Ad renes capit gutta mortalis................................................142</p>
+			<p><lb/>7. De gutta philera....................................................................142</p>
+			<p><lb/>8. De gutta granfo.....................................................................144
+			<lb/>Et hii sunt morbi qui apparent de foris.</p>
+			<p><lb/>9. De pediculis..........................................................................144</p>
+			<p><lb/>10. De febribus que ardent pulmonem et epar............................144</p>
+			<p><lb/>11. Et nascitur petra una in magone cuius nomen malfelon.........146</p>
+			<pb n="138"/>
+			<p><lb/>12. De lapide qui accidit [in] fundamento....................................146</p>
+			<p><lb/>13. De lumbricis..........................................................................146</p>
+			<p><lb/>14. De tinea que nascitur in alla...................................................146</p>
+			<p><lb/>15. De mala infusione..................................................................148</p>
+			<p><lb/>16. De podagra............................................................................148</p>
+			<p><lb/>17. De agro fumo.........................................................................150</p>
+			<p><lb/>18. De fistula................................................................................150</p>
+			<p><lb/>19. De ardimento falchonum.........................................................150</p>
+			<p><lb/>20. De natura................................................................................152</p>
+			<p><lb/>21. De nobilitate............................................................................152</p>
+			<p><lb/>22. De nutrimento.........................................................................154</p>
+			<p><lb/>23. De mutatione...........................................................................154</p>
+			<p><lb/>24. De pinguedine..........................................................................154</p>
+			<p><lb/>25. De coctura...............................................................................154</p>
+			<p><lb/>26. De ungula................................................................................156</p>
+			<p><lb/>27. De balneo................................................................................156</p>
+			<p><lb/>28. De morsu................................................................................156</p>
+			<p><lb/>29. De veneno...............................................................................156</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>1. De furtivum.</head>
+			<p><lb/>Quando vides quod habet furtivum, accipe mumiam et
+				<lb/>da ei comedere cum carne porcina. Et alio die da ei carnem
+			<lb/>gatti et tene eum donec liberetur.</p>
+		</div>
+		<pb n="140"/>
+		<div type="chapter">
+			<head><lb/>2. De malo agro.</head>
+			<p><lb/>Quando habet morbum [a]grum, accipe [a]cum de
+				<lb/>aciario et calefac ad ignem et cauteriza lacrimantem oculum
+				<lb/>et retro caput. Et postea unge cum sepo gatti et da ei de
+			<lb/>carne gatti cum thure usque ad dies [octo], et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>3. De malo tesgo.</head>
+			<p><lb/>Quando habet morbum tesgum, sic medicare opportet:
+				<lb/>Accipe muschatum ad modum unius grani [de] furmento
+				<lb/>et trita in mortario de petra et mitte in naribus, et adde
+				<lb/>acetum et da ei carnem caprinam ablutam in medicina, et
+			<lb/>sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>4. De arthetica.</head>
+			<p><lb/>Quando habet artheticam, sic medicare opportet:
+				<lb/>Cauteriza eum in sumitate capitis et coque in juncture pedum
+				<pb n="142"/>
+				<lb/>cum acu de azario, et da ei comedere yrundinem cum
+			<lb/>cumino trito usque ad tertiam diem, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>5. De gutta que nascitur in gorgia.</head>
+			<p><lb/>Quando habet guttam in gorgia, sic medicare opportet:
+				<lb/>Accipe costam porci salatam sine carne et mel bulitum
+			<lb/>et da ei et alio die da ei columbum durum, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>6. De gutta mortale in renibus.</head>
+			<p><lb/>Quando habet guttam mortalem in renibus, sic medicare
+				<lb/>opportet: Accipe mumiam cum cavaza et da ei comedere
+			<lb/>et alio die da ei de grassa gallina, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>7. De gutta philera.</head>
+			<p><lb/>Quando habet phileram, sic medicare opportet:
+				<lb/>Accipe barbastellum et ure eum et pulveriza carnem lacerte
+				<pb n="144"/>
+				<lb/>et da ei usque ad tertium diem. Postea da ei carnem
+			<lb/>yrcinam donec pinguis est, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>8. De gutta granfo.</head>
+			<p><lb/>Quando habet guttam granpho, sic medicare opportet:
+				<lb/>Cauteriza eum in plantis pedum cum acu enea, et
+			<lb/>sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>9. [De pediculis.]</head>
+			<p><lb/>De pediculis satis dictum est superius.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>10. De febribus.</head>
+			<p><lb/>Quando habet febrem, accipe muschatum et misce cum
+			<lb/>assungia galline et unge pedes, et liberabitur.</p>
+		</div>
+		<pb n="146"/>
+		<div type="chapter">
+			<head><lb/>11. De petra in magone.</head>
+			<p><lb/>Quando habet petram in magone, accipe passerem et
+			<lb/>unge cum melle et da ei comedere, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>12. De lapide in fundamento.</head>
+			<p><lb/>Quando habet lapidem in fundamento, accipe corniculam
+				<lb/>et proice ad pedes eius et permitte eum comedere per tres dies,
+			<lb/>et liberabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>13. De lumbricis.</head>
+			<p><lb/>Quando habet lumbricos, sic medicare opportet:
+				<lb/>Accipe mentam et trite et tolle sucum et misce cum aceto et
+			<lb/>misce cum carne pullina in ipsa medicina et da ei, et liberabitur. \*</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>14. De tinea.</head>
+			<p><lb/>Quando habet tineam, sic medicare opportet: Extrahe
+				<lb/>sibi tineam s[c]inde coreum cum acu ubi est tinea et invenias
+				<pb n="148"/>
+				<lb/>setam similem equi et extrahe et cave ne frangatur. Et
+				<lb/>postea unge ibi de aloe ne tangat cum rostro et lava eum aqua
+				<lb/>rosacea totum si potes. Et si non potes, lava locum ubi est
+			<lb/>morbus, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>15. De infuxione mala.</head>
+			<p><lb/>Quando habet infundesonem, sic medicare opportet:
+				<lb/>Accipe vinum calidum cum pipere trito et mitte in ejus
+			<lb/>gorgia[m] et fac eum tenere donec digerat, et liberabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>16. De podagra.</head>
+			<p><lb/>Quando habet podagram, sic medicare opportet:
+				<lb/>Cauteriza in planta pedum cum carta bombacina et mitte eum
+				<lb/>supra vivam petram et unge illam petram cum assungia et
+			<lb/>da ei murem, te sanabitur.</p>
+		</div>
+		<pb n="150"/>
+		<div type="chapter">
+			<head><lb/>17. De agro fumo.</head>
+			<p><lb/>Quando habet agrum fumum, sic medicare opportet:
+				<lb/>Accipe stercus muris et cortices radicis ulmi et fac bulire in
+				<lb/>aqua et distempera stercus in aqua et lava eum per tres dies.
+				<lb/>Postea accipe vinum album purum et lava eum per tres
+			<lb/>[dies], et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>18. [De fistula.]</head>
+			<p><lb/>De fistula satis dictum est superius.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>19. De ardimento falchonum.</head>
+			<p><lb/>Quando vis facere falconem tuum bene arditum, noli
+				<lb/>portare eum in manu per villas nec per civitatem sed tene
+				<pb n="152"/>
+				<lb/>eum in loco secreto iusta sero, et parum teneas eum ante
+				<lb/>portam, et ita erit arditus. Et noli dare ei de ansere sed
+				<lb/>de grue vel perdice vel de achirundis, de omnibus istis tribus;
+				<lb/>da dieta quam facis de bumbice. Et de aceto noli dare
+				<lb/>quottidie nisi habeat superbiam, quia si dederis, uret ei pulmonem
+				<lb/>et epar. Et si est superbus, da ei in mense donec
+			<lb/>humilietur. Hec sunt bona dicta.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>20. De natura.</head>
+			<p><lb/>De omnibus naturis falchonum quas supradiximus si
+				<lb/>quis magister dicit quod non capiunt, mendax est et falsus [et]
+				<lb/>nescit quid dicit. Si quis vult ut capiant aves, faciat dietam
+			<lb/>quam supradiximus, et bene capient et sunt boni et perfecti.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>21. [De nobilitate.]</head>
+			<p><lb/>De nutrimento et nobilitate dictum est superius.</p>
+		</div>
+		<pb n="154"/>
+		<div type="chapter">
+			<head><lb/>22. [De nutrimento.]</head>
+			<p><lb/>Tamen da ei collumbinam et asininam carnem, et hoc
+			<lb/>bonum est nutrimentum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>23. De mutatione.</head>
+			<p><lb/>Quando vis mutare, cottidie mitte aquam ante eum, et
+			<lb/>ita bene mutabitur. Et da ei murem, et melius mutabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>24. [De pinguedine.]</head>
+			<p><lb/>De pinguedine bene dictum est superius.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>25. De coctura.</head>
+			<p><lb/>Noli cauteriçare eos, et si cauteriças, guttam incurre[n]t
+			<lb/>in anno.</p>
+		</div>
+		<pb n="156"/>
+		<div type="chapter">
+			<head><lb/>26. [De ungula.]</head>
+			<p><lb/>De ungula superius dictum est.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>27. De balneo.</head>
+			<p><lb/>Noli balneare eum nisi de tertio in tertium diem, qui[a],
+			<lb/>si tu balneas, superbit et fugit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>28. [De morsu.</head>
+			<p><lb/>De morsu satis superius dictum est.]</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>29. [De veneno.</head>
+			<p><lb/>De veneno satis superius dictum est.]</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>30.</head>
+			<p><lb/>Nullus magister scit ita de naturis falchonum, unde sint
+				<lb/>et unde exierunt, sicut iste magister Guillelmus, filius magistri
+				<lb/>neapolitani, scivit. Et ideo tractat de naturis falchonum,
+				<pb n="158"/>
+				<lb/>quia plus scivit quam aliquis homo. Falcho qui prius
+			<lb/>apparuit in mundo ipse bene cognovit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>31.</head>
+			<p><lb/>Falchones nigri prius apparuerunt. Venerunt a Babilonia
+				<lb/>in montem Gabuel, et deinde venerunt in Sclavaniam, et
+				<lb/>deinde venerunt ad Polunudum, quod est in pertinentiis Policastri.
+				<lb/>Falchones de Palunudo et speriverii de Bruca et
+				<lb/>astures de Sclavania, omnes isti sunt meliores qui sunt in
+			<lb/>mundo.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>32.</head>
+			<p><lb/>Falchones albi et rubei exierunt ex nigris falchonibus.
+				<lb/>Masculus de nigris mortuus fuit et femina remansit, et ista
+				<lb/>morabatur tristis. Et quando erat in amore, apparuit ei
+				<pb n="160"/>
+				<lb/>avis que vocabatur birçulcus. Egit secum in aere, et de illa
+				<lb/>exierunt isti falchones qui habent pennas albas et [sunt] quasi
+				<lb/>adulteri, et ita sunt sic arditi. Et isti falchones sunt boni,
+			<lb/>nisi ex culpa contingat.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>33.</head>
+			<p><lb/>Alii qui sunt rubei similiter processerunt ex primis nigris
+				<lb/>ita quia nigra perdidit tu[r]zolum suum, et associavit se
+				<lb/>albarello, habuit secum aerem, et nati sunt rubei. Et isti
+				<lb/>sunt bene arditi, sed habentur cum majori labore. Ita
+				<lb/>constringe eos et da ei tria purgatoria de corio galline in aqua
+				<lb/>et mitte in obscuro. Et dimitte eum stare usque ad magnam
+				<lb/>horam diei, postea calefac eum ad ignem et vade venatum.
+				<lb/>Et tu, magister, semper teneas in macritudinem [plus] quam
+			<lb/>alios falchones.</p>
+		</div>
+		<pb n="162"/>
+		<div type="chapter">
+			<head><lb/>34.</head>
+			<p><lb/>Falchonem nigrum ita teneas nec multum crassum nec
+				<lb/>multum macrum. Constringe eum cum purgatoriis galline,
+				<lb/>et non mittas eum in aqua, nisi sit superbus. Et si est
+				<lb/>superbus, mitte purgatoriam in aqua, et multum teneas in
+				<lb/>manu, plus quam alios falchones. Et noli faticare eum
+				<lb/>ultra quam ipse vult, et sic erit bonus et perfectus. Magis
+				<lb/>balneari vult quam alii falchones, et cave ne videat aquilam,
+				<lb/>quod, si viderit, non capiet postea avem. Et teneas eum
+				<lb/>quantum potes ne aliquis tangat pennam ejus. Quando
+				<lb/>proicis eum ad avem, cave ne male ducas manum, quod, si
+				<lb/>male prohiceris, perdit voluntatem. Et ista est melior
+			<lb/>cognitio omnibus que nunquam fueri[n]t in mundo.</p>
+		</div>
+		<pb n="164"/>
+		<div type="chapter">
+			<head><lb/>35.</head>
+			<p><lb/>Albus falcho bonus est ut dictum est; tamen quando
+				<lb/>sunt sauri, non veneris cum eo nisi prius mutetur. Post
+				<lb/>mutationem vero boni sunt et perfecti.
+				<lb/>Omnes magistri dicunt quod falcho qui capit agironem
+				<lb/>dimittit eum comedere quantum vult de carne et custodit eum
+				<lb/>ne comedat de sanguine. Et caro quam comedit facit eum
+				<lb/>capere grues; propter carnem non perdit voluntatem venandi,
+				<lb/>sed propter sanguinem tantum. Et hoc probavit magister
+				<lb/>Guillelmus, qui plus modo fecit quam aliquis qui vivat.
+				<lb/>Et hoc probavit quia falchonem laynerium [facit]
+				<lb/>gruerium. Quomodo? Quia facit cavernam sub terra et
+				<lb/>dimitit ibi quatuor falchones laynerios ne videant lumen nisi
+				<pb n="166"/>
+				<lb/>quando passcit. Et non tenet eos in manu nisi in nocte,
+				<lb/>et ante diem vadit venatum. Quando oritur dies, jactat
+				<lb/>eum longe ad grues. Et illo die [quo] in vanum vadit
+				<lb/>venatum, [da ei] tamen de cerebro galline. Et balnea eum
+				<lb/>in puro vino et fac ignem in caverna ubi stant et prohice inde
+				<lb/>ignem et mitte eos ibi. Et sic sine dubio erunt gruerii a
+				<lb/>medietate julii supra usque ad medietatem octubris. Et
+				<lb/>si mutas eos, meliores sunt post mutam. Et quando venerit
+				<lb/>frigus, dimitte eos, quia nichil valent. Et hoc probatum
+			<lb/>est, et si aliquis vult aliter dicere, falsum dicit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>36.</head>
+			<p><lb/>Quando magister vult venari, non multum venetur ad
+				<lb/>ansceres silvestres nisi causa necessitatis. Plus sunt de
+				<lb/>ochis quam de aliis avibus; quando jactas ad alias aves, vadunt
+				<pb n="168"/>
+				<lb/>ad ochas. Et bonum est venari ad ochas quia faciunt eos
+				<lb/>arditos et stultos, sed tamen omnes alie aves magne multum
+			<lb/>faciunt falchones arditos.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>37.</head>
+			<p><lb/>Et est alia natura falchonum qui sunt parvi et vocantur
+				<lb/>ismerili, et boni sunt et perfecti et capiunt illas aves quas
+				<lb/>capiunt spereverii, et plus volant quam alie aves. Magister
+				<lb/>qui vult inocellare eos, in octo diebus opportet ut eos inocellet,
+				<lb/>quia postea sunt viciati et nichil valent. Sed tamen si bonus
+				<lb/>est magister, potest eos facere capere grues tali dieta et tali
+				<lb/>custodia ut alii falchones. Et si vult capere grues, opportet
+			<lb/>habere duodecim ysmerlos.</p>
+		</div>
+		<pb n="170"/>
+		<!-- <lb/>[Paragrafi aggiunti nei mss. CX, NP et Z.]-->
+		<div type="chapter">
+			<head><lb/>38. Quando ancipiter non potest exmaltire. Ms. CX.</head>
+			<p><lb/>Accipe verme[s] terre et pone eos super tegulam calidam et
+				<lb/>sicca eos et fac pulverem et infunde in carne calida et da ei
+			<lb/>comedere, et sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>39. Ad idem (Ms. CX).</head>
+			<p><lb/>Item, accipe parum de aloe et da comedere avi cum carne
+				<lb/>porcina calida, et postea da sibi de garioffolos per triduum ad
+			<lb/>comedendum cum parva ave.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>40. Ad podagram ancipitris. (Ms. CX).</head>
+			<p><lb/>Tere erbam que dicitur tutumellus cum melle et aceto et paulum
+				<lb/>calcis et liga super podagram. Et postquam se moverit,
+			<lb/>unge cum aloe et vino.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>41. Si ancipiter eicit pastum. (Ms. CX).</head>
+			<p><lb/>Accipe muschatum et da ei comedere avi cum carne madefacta
+			<lb/>et muschatum impone naribus et aqua calida.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>42. De vomitu ancipitris. (Ms. CX).</head>
+			<p><lb/>Si ancipiter vomit, date illi carnes cum vino. Si digerit,
+			<lb/>scias quod potest vivere, si non, morietur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>43. Si ancipiter non bene digerit. (Ms. CX).</head>
+			<p><lb/>Accipe sucum blete cum melle mistum et inpone in naribus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>44. Si vis quod astures mutentur bene. (Ms. CX).</head>
+			<p><lb/>Accipe serpentem et mitte in olam cum aqua et fac bulire
+				<lb/>cum furmento ita ut nichil remaneat de serpente. Postea accipe
+				<lb/>de dicto furmento et da comedere duabus gallinis nigris et de dicta
+				<lb/>aqua furmenti distempera furfur et da comedere per decem dies,
+			<lb/>et dicte galline da comedere astori.</p>
+		</div>
+		<pb n="172"/>
+		<div type="chapter">
+			<head><lb/>45. De fastidio asturis. (Ms. CX).</head>
+			<p><lb/>Passerem domesticum melle intintum vel cum vino madefactum
+			<lb/>cum pulvere mastici desuper asperso da ei comedere.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>46. (Ms. P, fol. 48 v°. Ms. N, fol. 61 v°).</head>
+			<p><lb/>Sunt falcones qui vocantur girifalchi, qui conversantur in
+				<lb/>Noverch, i[d est] in Norgia, in locis terrenis. Et isti sunt maximi
+				<lb/>ardimenti, et sepissime pugnant cum magnis avibus sicut grue et
+				<lb/>anseres silvestri et cum omni alia ave silvestri, excepto cum avibus
+			<lb/>viventibus de rapina.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>47.(Ms. P, fol. 48 v°. Ms. N, fol. 62)</head>
+			<p><lb/>Sunt et alii falcones qui vocantur peregrini, et sunt optimi et
+				<lb/>gentiles et maximi ardimenti, et habent pennas fortes et duras et
+				<lb/>cauda eorum pungit sicut acus et habent caput et oculos grossos,
+				<lb/>et rostrum habent valde crossum et habent palpebras oculorum
+				<lb/>ad modum perlarum. Pedes habent pallidos, neque albos neque
+				<lb/>zallos, et macros et habent ungues spertas. Et sunt multum
+			<lb/>avidi pugnare cum magnis avibus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>48. (Ms. P, fol. 49. Ms. N, fol. 62).</head>
+			<p><lb/>Sunt et alii falcones qui conversantur in Corsica et Sardinia
+				<lb/>et sunt parvi et rubei in pectore suo et in spatulis suis, et sunt
+				<lb/>nigri et habent pedes rubeos et caudam longam non pungentem sed
+				<lb/>debilem. Et sunt multum superbi et de facili non recedunt a
+			<lb/>preda quam faciunt, et sunt boni ardimenti.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>49. (Ms. P, fol. 49. Ms. N, fol. 62).</head>
+			<p><lb/>Sunt et alii falcones qui nominantur gentiles et habent pennas
+				<lb/>rubeas pro majori parte et pedes albos. Et sepissime vel pro
+				<lb/>majori parte stant in aere in locis valde altissimis, et sepe pugnant
+				<lb/>cum magnis avibus et non male volant. Et raro evenit quod isti
+			<lb/>tales falcones discedant ab hominibus.</p>
+		</div>
+		<pb n="174"/>
+		<div type="chapter">
+			<head><lb/>50. (Ms. Z, p. 1327).</head>
+			<p><lb/>Ad falconem qui habet malum de petra, accipe sucum petrosellini
+				<lb/>et pone eum in uno butello galline et da ei comedere, et
+			<lb/>statim liberabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>51. (Ms. Z, p. 1327).</head>
+			<p><lb/>Ad malum bulsitatis accipe sucum radicis avelane et pone
+			<lb/>eum in uno butello galline et da ei comedere, et statim sanabitur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>52. (Ms. Z, p. 1327 ? 28).</head>
+			<p><lb/>Ad falconem qui extrahitur de muta, da ei unam coxam galline
+				<lb/>in unoquoque die per octo dies et altera die unam magnam
+				<lb/>gorgam pollastre parve et tene eum in manu in nocte. Et ultra
+				<lb/>octo dies da ei inter duos dies mediam unam coxam galline plumatam.
+				<lb/>Ad tercium diem da ei magnam gorgam pullastre et tene
+			<lb/>eum in manu usque ad alium diem ad mediam terciam.</p>
+		</div>
+	</body>
+</text>
+</TEI>

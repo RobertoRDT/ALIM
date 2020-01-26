@@ -1,0 +1,1427 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistole ad ecclesiam triumphantem</title>
+				<author>Ricoldus de Monte Crucis </author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>R. Röhricht</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="12339" unit="words">Parole: 12339</measure>
+				<measure quantity="71326" unit="characters_without_spaces">Caratteri (spazi esclusi): 71326</measure>
+				<measure quantity="82400" unit="characters_witht_spaces">Caratteri (spazi inclusi): 82400</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2015-02-06">06/02/2015</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Anno composizione opera: 1299 ca.
+					Parole: 12521 
+					Caratteri (spazi esclusi): 17174
+				CC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Ricoldus de Monte Crucis</author>
+						<title>Lettres de Ricoldo de Monte-Croce</title>
+						<editor>R. Röhricht</editor>
+					</analytic>
+					<monogr>
+						<title level="m">Archives de l'Orient latin II</title>
+						<imprint>
+							<pubPlace>Paris</pubPlace>
+							<date>1884</date>
+							<biblScope unit="page">258-296</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Archives de l'Orient latin</title>
+						<biblScope unit="volume">2</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item><item type="itemNotaJC">-nella lettera II, c'è all'inizio, dopo il titolo &lt;head type="h_1"&gt;II&lt;/head&gt;, una nota che non è il titolo con @type="h_2". Il titolo con @type="h_2" segue solo dopo questa nota. Ho quindi dovuto creare un altro &lt;div&gt;</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="264"/>
+		<div>
+			<head><lb/><hi rend="italic">Incipit prephatio operis que fuit causa monens fratrem Predicatorem ad
+				<lb/>scribendum epistolas de prosperitate Sarracenorum in temporalibus et deiectione
+			<lb/>christianorum. Alph.</hi></head>
+			<lb/>
+			<p><lb/>Et factum est cum essem in Baldacto <hi rend="italic">in medio captivorum iuxta
+				<lb/>fluvium Chobar</hi> (<hi rend="italic">Ezech.</hi>I, 1) Tigris, et me ex una parte delectaret
+				<lb/>amenitas viridarij, in quo eram, quod erat quasi paradisus pre copia
+				<lb/>arborum et fertilitate atque varietate fructuum, qui ortus erat aquis
+				<lb/>paradisi irriguus, quem domus eciam aurate circumquaque erigebant,
+				<lb/>et ex alia parte me urgeret ad tristiciam strages et captura populi
+				<lb/>christiani atque deiectio post flebilem captionem Accon, cum viderem
+				<lb/>Sarracenos letissimos atque florentes, christianos vero squalidos atque
+				<lb/>mente consternatos, cum puelle eorum et parvuli et senes cum rumoribus
+				<lb/>ad partes remotissimas orientis inter barbaras naciones captivi
+				<lb/>et sclavi minabuntur gementes, subito pre maxima tristicia in insolidam
+				<lb/>admirationem raptus cepi stupens cogitare intencius solito iudicia
+				<lb/>Dei super gubernatione mundi et maxime super Sarracenos et
+				<lb/>christianos, scilicet ex qua causa posset contingere tanta strages et
+				<lb/>deiectio populi christiani et tanta prosperitas temporalis in gente perfida
+				<lb/>Sarracenorum. Unde cum nec admirari possem nec solucionem
+				<lb/>investigare valerem, cogitavi super hoc scribere Deo et celesti
+				<lb/>curie, ubi et causam mee admirationis expressi, desiderium aperui
+				<lb/>simul et pecii, ut Deus me in veritate et sinceritate fidei confirmaret
+				<lb/>et christianos maxime captivos de manibus inimicorum eriperet. Unde
+			<lb/>afflictus scripsi per modum orationis amaritati animi subiectas epistolas.</p>
+			<lb/>
+			<lb/>
+			<div>
+				<head type="h_1"><lb/>I.</head>
+				<lb/>
+				<head type="h_2"><lb/><hi rend="italic">Epistola admirantis anime ad Deum verum et vivum qui gubernat
+				<lb/>mundum et de blasfemiis Alcorani.</hi></head>
+				<lb/>
+				<head type="salutatio"><lb/>Egi seculorum seculorum immortali invisibili soli Deo honor et
+					<lb/>gloria in secula seculorum, amen.</head> <p>Mirabilis tu Domine, et mirabilia opera
+					<pb n="265"/>
+					<lb/><hi rend="italic">et superadmirabilia iudicia tua</hi> (<hi rend="italic">Rom.,</hi> XI, 3). Nec mirum, si mirabilia
+					<lb/>facis, primo multum esset mirabile, si mirabilia non faceres. Imo
+					<lb/>postquam tu es ita mirabilis, nescio, quod esset mirabilius, an quod
+					<lb/>facis mirabilius an si non mirabilia faceres ipse mirabilis. Nos
+					<lb/>autem a tuo sancto propheta David accepimus, quia <hi rend="italic">tu es Deus
+					<lb/>qui facis mirabilia</hi> (<hi rend="italic">Psalm.,</hi> LXXVII, 15). Si igitur de terreno pulvere
+					<lb/>aliquantulum elevatur intellectus meus et te contemplari nititur, admiratur.
+					<lb/>Si tua opera conspicit, admiratur. Si tua iudicia cogitat,
+					<lb/>admiratur et obstupescit. Quis michi tribuat ut cognoscam et
+					<lb/>inveniam te et veniam usque ad solium tuum; ponam coram te
+					<lb/>iudicium et os meum replebo increpationibus, ut faciam, quid michi
+					<lb/>respondeas et intelligam quid loqueris michi.Sed modo pressus tribulacionibus
+					<lb/>non possum propius accedere dulcedini contemplacionis,
+					<lb/>ut tecum in dulcedine tua loquar inductus sacco, aspersus cinere caput.
+					<lb/>Non enim licet indutum sacco mortalitatis aulam eterni regis intrare.
+					<lb/>Et ideo ut alter Mardocheus in platea medie civitatis vociferabor
+					<lb/>(<hi rend="italic">Esth.,</hi> IV,1) de longe clamans et eiulans et hoc eiulatu usque ad
+					<lb/>fores palatii gradiens (<hi rend="italic">Esth.,</hi> IV, 2), si forte puelle Hester et eunuchi
+					<lb/>illi, qui castraverunt semetipsos, annuncient regine Hesteri (<hi rend="italic">Esth.,</hi> IV, 4),
+					<lb/>Virgini Marie, et per eam causa mei fletus et querele ingrediatur
+					<lb/>ad regem (<hi rend="italic">Esth.,</hi> IV, 5). Plorans ergo et eiulans in comploracione dicam
+					<lb/>tibi. O Deus meus, iustus quidem tu es Domine, si disputem tecum!
+					<lb/>Quod quidem facere nequeo, nisi tu dederis. Scio enim, Domine,
+					<lb/><hi rend="italic">quia omnia iudicia tua iusta sunt</hi> (<hi rend="italic">Apoc.,</hi> CVI, 7; XIX, 2). Que iudicia,
+					<lb/>quia nullus plene comprehendit, nemo iuste reprehendit. Et nunc
+					<lb/>quidem, Domine, tu omnia nosti, tu scis quia non animo reprehendendi
+					<lb/>te, que loquor, exprimo, sed ex mea impaciencia occasionem
+					<lb/>sumo loquendi tecum, ut et me inservias, qui michi magis es intimus
+					<lb/>quam ego michi. Nec tempto, Domine, penetrare altitudinem tuam,
+					<lb/>quia nullatenus comparo ei intellectum meum. Set desidero aliquantulum
+					<lb/>intelligere misericordiam et veritatem tuann quam credit et
+					<lb/>amat cor meum. <hi rend="italic">Neque enim quero intelligere, ut credam, sed credo
+					<lb/>ut intelligam. Nam et hoc credo quia nisi credendo non intelligam</hi> (Anselm.
+					<lb/>Cantuar. <hi rend="italic">Prol.</hi> c. 1). Cum sciam igitur, quia facis mirabilia, videtur
+					<lb/>michi quod immutasti signa et innovasti mirabilia. Olim enim cum a
+					<lb/>sancto propheta (<hi rend="italic">Psalm.</hi> LXXVII, 15) accepimus <hi rend="italic">quia tu es Deus, qui
+					<lb/>facis mirabilia;</hi> legimus <hi rend="italic">quia notam fecisti in populis virtutem tuam</hi>.
+					<lb/>Sed quomodo nunc facis in populis virtutem tuam, cum ex hijs,
+					<lb/>que in tuo populo christiano nostris temporibus contigerunt, maxime
+					<lb/>in Antyochia, Tripoli et Accon, modo dicunt publice in populis
+					<lb/>orientalibus, quod tu es impotens adiuvare nos. Nam sive sint,
+					<lb/>qui dicantur dij sive domini, nobis alius Deus non est nisi Dominus
+					<lb/>Iesus Christus. Et ut ipsi ut tu melius nosti dicunt, quod
+					<pb n="266"/>
+					<lb/>Dominus Iesus Christus est solus homo et non Deus, dicunt etiam,
+					<lb/>quod dominus Iesus Christus nos adiuvare non potest contra Machometum.
+					<lb/>Dicunt eciam, et sibi literas insultacionis ad invicem mittunt,
+					<lb/>quod et istis temporibus fortuna Machometi fortunam Christi totaliter
+					<lb/>superavit. Nunc enim manifeste dicunt in populis: ubi est Deus,
+					<lb/>est Deus christianorum? Et iam non solum Sarraceni nobis insultant,
+					<lb/>sed eciam Judei et Tartari et dicunt: christiani credebant quod Iesus
+					<lb/>Marie posset eos iuvare et quod esset Deus. Sed dicunt nunc: «Ubi
+					<lb/>est Deus noster?» Non audis, Domine, in quantis et in qualibus accusant,
+					<lb/>quantis et qualibet tibi detrahunt et tue sanctissime matri?
+					<lb/>Quare non facis notam in populis virtutem tuam? Olym audivimus
+					<lb/>quam cito audisti vocem insultacionis illius Senacherib, cum dixit:
+					<lb/><hi rend="italic">Ubi est Deus Emath? ubi est Deus Seffarnan?</hi> (Isai.XXXVI, 19) quod
+					<lb/>misisti angelum tuum, qui una nocte occidi ex eis centum octuagintaquinque
+					<lb/>millia. <hi rend="italic">Quare nunc dormis, Domine</hi> (<hi rend="italic">Psalm.,</hi> XLIV, 24)? <hi rend="italic">Non ad
+					<lb/>te pertinet quia perimus?</hi> (Marc., IV, 38). Hoc dicit Marcus evangelista
+					<lb/>non solum, quia dormiebat <hi rend="italic">sed quia dormiebat super cervical</hi> (Marc., IV,
+					<lb/>38). O cervical, super quod dormit ille vigil et sanctus, quia te non
+					<lb/>possum aliquantulum concutere, ut vigilem excitarem! Verum dixit
+					<lb/>propheta tuus, quia <hi rend="italic">notam fecisti in populis virtutem tuam</hi> (<hi rend="italic">Psalm.,</hi> LXXVII,
+					<lb/>15). Sed mihi non sufficit, quia fecisti, sed notam fac! Exurge, Domine,
+					<lb/>salva nos, fac et ne repellas in finem! <hi rend="italic">Quare faciem tuam
+					<lb/>avertis et oblivisceris inopie nostre et tribulacionis nostre?</hi> (<hi rend="italic">Thren.,</hi> V, 20;
+					<lb/>cf. <hi rend="italic">Isai.,</hi> LXIV, 7). Exurge, Domine, <hi rend="italic">adiuva nos, et si non propter nos,</hi>
+					<lb/>quod peccatores sumus, sed <hi rend="italic">propter nomen tuum libera nos</hi> (<hi rend="italic">Psalm.,</hi> LIV,
+					<lb/>3)! Tu in nobis es, Domine, et <hi rend="italic">nomen sanctum tuum invocatum est
+					<lb/>super nos</hi> (<hi rend="italic">Ies.</hi>XIV, 9). Nam a te Christo dicimur christiani et a te
+					<lb/>Iesu salvatore nominamur salvati. Ipsi autem Sarraceni credunt salvari
+					<lb/>per suum tyrannum dampnatum Machometum, quem de latrocinio
+					<lb/>et tyrannide transtulerunt prophetam, et talem sequentes non
+					<lb/>Sarracenos appellant sed messalammos, quod interpretatur salvati.
+					<lb/>Et nos igitur damnatos reputant et nos persequuntur, quia te
+					<lb/>sequimur, et nos occidunt inimicitie gratia et se salvatos reputant,
+					<lb/>quia latronem et homicidam sequuntur. Et tu, Domine, irreprehensibilis
+					<lb/>sapientia et ammirabilis iudicio dedisti cornu peccatori homini
+					<lb/>scelesto et sceleratissimo Machometo dedisti regnum terrenum,
+					<lb/>ymmo regna orbis terrarum sibi et populo suo! Nam ab
+					<lb/>India usque ad occidentales partes pacifice et absque ulla contradictione
+					<lb/>possident regna utique electissima et fertilissima et plena terrenis
+					<lb/>deliciis. Ad literam enim in eorum orientali regno, quod ex
+					<lb/>magna Circini parte probavi et nives esse singulares delicias, et
+					<pb n="267"/>
+					<lb/>montes salis, fontes olei, manna celi, flumina paradisi, species aromaticas,
+					<lb/>lapides preciosos, vites balsami et suavissimos fructus, quos
+					<lb/>melius intelligunt, qui experimento probarunt. Eis est fertilitas et
+					<lb/>abundancia frugum et fructuum cum continua serenitate aeris. Hæc
+					<lb/>omnia dedisti eis tu, qui perpetua mundum racione gubernas. Et iam
+					<lb/>videtur infirmis in fide et impacientibus sufferencia, quod iustificaveris
+					<lb/>et vivificaveris mendacem Machometum in suis promissionibus, qui
+					<lb/>hec terrena promittit suis sequacibus se daturum. Et iam eciam impaciencia
+					<lb/>videtur aliquibus quod tu, Deus, sis factus executor alchorani.
+					<lb/>Nam plura eis concedis, quam ipse mendacissimus in suo alchorano
+					<lb/>promittit, quod alchoranum appellat testamentum Dei et verbum Dei,
+					<lb/>in quo quidem alchorano, quantum ipse mendacissimus te blasphemat
+					<lb/>tu melius nosti. Et ut de ceteris sileam, hec duo tibi non taceo,
+					<lb/>quia tuam sanctissimam trinitatem et misterium incarnacionis totaliter
+					<lb/>evacuare conatur. Tollit enim a patre filium et a filio patrem
+					<lb/>et ab utroque Spiritum sanctum. Nam te presente legi arabyce in
+					<lb/>predicto alchorano quod non uno loco sed pluribus locis ponit et repetit
+					<lb/>pro efficacissimo argumento dicens: <hi rend="italic">Impossibile est Deum habere
+					<lb/>filium, quia non habet uxorem.</hi> (<hi rend="italic">Sourate</hi> VI, 101; cf. LXXII, 3). Qui
+					<lb/>vero filium negat nec patrem habet. Si vero nec pater nec filius, cujus
+					<lb/>erit Spiritus Sanctus? In alio vero loco in alchorano scriptum legi,
+					<lb/><hi rend="italic">quod omnes peccatores obtinebunt a Deo veniam, dummodo non dixerint
+					<lb/>quod Deus habet filium</hi>; dicit enim in pluribus locis, sicut ibi legi, quod
+					<lb/><hi rend="italic">Deus orat pro Machometo</hi>. Et tu tali bestie dedisti cornua (<hi rend="italic">Apocal.,</hi>
+					<lb/>XIII, 1; cf Dan., VIII, 4), ut <hi rend="italic">ventilaret orbem</hi>, ut occideret fratres tuos
+					<lb/>et cogeret eos tormentis negare fidem! O Domine, quot altaria tua et
+					<lb/>ecclesias destruxerunt et eciam pro maiori contemptu christianos occiderunt
+					<lb/>viros perfectos et predicatores fidei, predicatores inquam fratres
+					<lb/>et minores! Quot vicibus diviserunt sibi tyranni eorum sanctimoniales
+					<lb/>tuas tibi consecratas et dicatas virgines sponsas tibi fideles!
+					<lb/>Quis unquam rex, si se potuit adiuvare, sustinuit pacienter, quod
+					<lb/>rex alius usurparet desponsatam sibi uxorem! Et tu tali bestie dedisti
+					<lb/>tantam potenciam contra christianos fere septigentis annis.Vere
+					<lb/>credo, quod instent dies illi pessimi, de quibus tu ipsa veritatis prophetasti,
+					<lb/>sed promisisti, quod dies illi pessimi breviarentur (Marc.,
+					<lb/>XIII, 19-20). Quare igitur tam longo tempore tam crudelissima bestia
+					<lb/>grassatur et dominatur in christianos? <hi rend="italic">Quare non surrexit fortior illo,
+					<pb n="268"/>
+					<lb/>qui eum decimaret et arma eius auferret et spolia cius distribueret</hi> (Luc.,
+					<lb/>XI, 22)? Et ego sicut presumptuosus intra memetipsum longo tempore
+					<lb/>cogitavi, quod possem illum in tua virtute deicere et eius doctrinam
+					<lb/>pestiferam evacuare. Quamobrem assumpta voluntate commissa michi
+					<lb/>a tuo vicario obediencia veni ad profundas partes istas orientis. Et
+					<lb/>dum predicando circumivit debilis iste frater predicator, predicavit
+					<lb/>te Christum, incidit in hostes fidei, qui minis et verberibus volebant
+					<lb/>me cogere predicare Machometum et eius perfidam legem. Quod quia
+					<lb/>te adiuvante renui post verbera, que leviter portavit amor, privaverunt
+					<lb/>me sancto habitu ordinis mei, et ego sic expoliatus et confusus assumpsi
+					<lb/>habitum camellarij et cepi camelum ducere per catenam et
+					<lb/>sic ego, qui tanto tempore fueram frater predicator negligens subito
+					<lb/>factus sum camellarius sollicitus et tunc lacrimando pre gaudio
+					<lb/>dixi: «O Domine, audivi Machometum fuisse camellarium. Numquam
+					<lb/>forte decrevisti, quod ego in habitu camellarij deiciam camellarium?
+					<lb/>Nam ego non recuso sub quocumque habitu militare
+					<lb/>tibi». Sed dum ad me ipsum introrsus redeo, dum cotidie per experienciam
+					<lb/>invenio me non posse complere que cogitaveram culpans
+					<lb/>memetipsum dixi: «Ne forte contingat, quia non veni pauper in illa
+					<lb/>perfectione apostolica, sicut apostolis tuis sanctis mandasti (Luc., X,
+					<lb/>4)». Et ecce subito occurrit animo magnus ille et ferventissimus
+					<lb/>predicator et predicatorum ordinis inventor, quem in fine temporis ab
+					<lb/>occidentali parte mundi doctrinis et miraculis suscitasti, beatus Dominicus,
+					<lb/>quam ferventi proposito invasit Machometum a parte occidentali,
+					<lb/>pro quo eciam aliquanto tempore barbam nutrivit et nec ferocissimam
+					<lb/>bestiam evacuavit; quin pocius e contrario bestia Machometus
+					<lb/>fratres predicatores missos ad predicandum occidit in Morrocho
+					<lb/>et aliis locis. Occurrit eciam animo pauper ille perfectus et vere paupertatis
+					<lb/>amator Franciscus, vir catholicus et totus apostolicus, quam
+					<lb/>ferventi animo invasit bestiam Machometum versus partes orientales,
+					<lb/>dum peciit eciam a successore Machometi soldano Babilonie poni cum
+					<lb/>Sarracenis vel solus in igne ardenti, ut evacuaret, nee tamen bestiam
+					<lb/>evacuavit. Magnus ille sanctus pater, predicator magister Jordanus,
+					<lb/>sanctus et famosus in mundo miraculis et doctrinis, mare
+					<lb/>transiit ut predicaret Sarracenis, nec bestiam superavit. Quid
+					<lb/>igitur poterit homuncio, quod gigantes perficere nequiverunt? Deus
+					<lb/>videtur corroborator cius. Taceo de nostris principibus secularibus,
+					<lb/>ut de Ludovico illo, sancto rege Francie, et alijs regibus et baronibus
+					<lb/>sanctis, qui multis vicibus mare transierunt, assumpto crucis
+					<pb n="269"/>
+					<lb/>caractere, et quasi labores infinitos et pericula mortis subierunt, ut
+					<lb/>bestiam superarent, et ipsi e contrario mortui sunt in mari et in
+					<lb/>terra et submersi et suffocati in parvis fluminibus, facti sunt aliis
+					<lb/>christianis in exemplum timoris et infirmitatis fidei. Et usque modo
+					<lb/>ferocissima bestia non cessat devorare sanctos tuos occidendo,
+					<lb/>torquendo compendibus et carceribus artando, ut fidem tuam negarent,
+					<lb/>et cogat eos dicere, quod Deus non habet filium, cum nobis
+					<lb/>non sit hereditas nisi per filium.Usquequo sustinebis, Domine?
+					<lb/>Intret in conspectu tuo, Domine, gemitus compeditorum, vindica sanguinem,
+					<lb/>sanctorum tuorum, qui effusus est! Ecce tota Terra Sacta,
+					<lb/>quam tu sanctissimus corporaliter visitasti et precioso tuo sanguine consecrasti,
+					<lb/>gemit absque habitatoribus christianis et ubi publice consuevit
+					<lb/>predicari Christus, modo magnis vocibus die ac nocte preconisatur
+					<lb/>Machometus. Mare Tripolitanum et Acconense, sicut audivi,
+					<lb/>de cruore occisorum rubuit, et quos gladius aut sagitta Sarracenorum
+					<lb/>non pertulit, mare absorbuit. Ecce, Domine, signa immutasti et innovasti
+					<lb/>mirabilia. Olym enim legimus, quod in mari rubro necuisti
+					<lb/>Pharaonem et populum Egyptiorum et liberasti Iudeos, nunc vero
+					<lb/>submersus est patriarcha christianorum cum multis christianis et liberasti
+					<lb/>Egyptios; <hi rend="italic">ubique facti sumus obprobrium vicinis nostris</hi> (<hi rend="italic">Psalm.,</hi>XLIV,
+					<lb/>14; LXXIX, 4). Et credo, Domine, quod hec omnia pro nostris iniquitatibus
+					<lb/>patimur. Sed multum admiror, quia olym toti civitati Zodomice
+					<lb/>propter decem iustos parcere voluisti (<hi rend="italic">Genes.,</hi> XVIII, 32). Set
+					<lb/>numquid in tota ciuitate Tripolitana vel Acconensi non sunt inventi
+					<lb/>numero decem iusti in tanta multitudine christianorum et religiosorum?
+					<lb/>Et non solum propter decem, verum etiam propter unum
+					<lb/>voluisti aliquando parcere Iudeis; dicebas enim (Jerem., V, 1): «<hi rend="italic">Circuite
+					<lb/>vias Iherusalem et aspicite et considerate et querite in plateis eius, an, inveniatis
+					<lb/>virum facientem iudicium et querentem fidem, et propicius ero eis»</hi>.
+					<lb/>Ego autem non modo unum vel decem, set plures et plures audio
+					<lb/>remansisse in civitate Accon fratres predicatores, qui poterant exire
+					<lb/>et fugere et preelegerunt cum populo Dei mori, ut essent aliis ad
+					<lb/>fidei firmamentum, et occisi sunt. An ergo fidem non querit, qui
+					<lb/>pro fide moritur? An audeo dicere, quod sis nobis mutatus in crudelem,
+					<lb/>quia nunc perdidisti multos iustos cum aliquibus impijs, qui consuevisti
+					<lb/>parcere multis impijs pro aliquibus iustis? Olym enim parvulum
+					<lb/>vagientem Moysem in fiscella scirpea liberasti de aquis, ut alios
+					<lb/>liberaret, et nunc patriarcham, patrem pauperum, virum sobrium, pudicum
+					<lb/>et sanctum, fratrem Nicolaum, fratrem predicatorem, virum
+					<lb/>dulcissime conversationis, amarissima unda tua permissione rapuit de
+					<lb/>ligno armato, insanum mare absorbuit hominem sapientem, quia volebat
+					<pb n="270"/>
+					<lb/>populum multum liberare. Imo ut a pluribus voce insultacionis
+					<lb/>michi dicitur, quod usque nunc credere non potui, quod ipse solus
+					<lb/>de tota illa navi submergitur quia volebat alios liberare. Heccene
+					<lb/>reddis, Domine, populo tuo, heccene reddis servo tuo et ministro spirituali,
+					<lb/>qui tanto fervore desiderabat te laudare, benedicere et predicare
+					<lb/>in Iherusalem civitate sancta, quod quando hoc dulciter mecum conferebat,
+					<lb/>nec poterat lacrimas continere? Et nunc vere credo, quia dedisti
+					<lb/>ei Iherusalem civitatem supernam, et ad te Deum suum introivit
+					<lb/>gloriosus cum multo populo et cetu religiosorum et fratrum cum
+					<lb/>quanto, ut credo, nullus nostris temporibus introivit. Sed tibi omnipotenti
+					<lb/>modus alius ab isto non deerat, quo illum introduceres
+					<lb/>cum omnibus suis et non per Machometistas, qui dicunt, quod tu,
+					<lb/>Iesus filius Marie et Nazareth Galilee homo solum et non Deus,
+					<lb/>quamvis propheta magnus sis, tamen Machometus apud Deum te
+					<lb/>maior, contra ipsum Machometum nos adiuvare non potes. Nobis autem
+					<lb/>e contrario dicentibus, quia potes, sophistice concludunt: peyor
+					<lb/>est, qui potest et suos adiuvare non vult. Sed ecce dum argumenta
+					<lb/>sophistica non attendo, michi ostensive offertur, ymo probatur, quod
+					<lb/>ex hijs que contigerunt, maxima multitudo christianorum negaverunt
+					<lb/>Christum et facti sunt Sarraceni. <hi rend="italic">Infelix ego homo, quis me liberabit
+					<lb/>de corpore mortis huius</hi> (<hi rend="italic">Rom.,</hi>VII, 24)! Ego firmiter expectabam,
+					<lb/>quod e contrario more solito eveniret. Cum enim pagani multos occidebant
+					<lb/>ex christianis, multi ex paganis efficiebantur christiani, nunc,
+					<lb/>proch dolor, e converso hec mutatio dextere excelsi in levam et sinistram
+					<lb/>nobis, quia Sarraceni multos christianos occiderunt, et multi
+					<lb/>ex christianis, qui remanent, legem, ymmo perfidiam, Machometi suscipiunt.
+					<lb/>Hoc est enim quod super omnia me affligit, et nunc nullum
+					<lb/>est michi refrigerium aliud, nisi tu Deus. Et relictus sum solus in
+					<lb/>Baldacto a sociis in profundis partibus orientis, et de occidente a pluribus
+					<lb/>annis aliqua nova non habeo de fratribus meis sive de ordine.
+					<lb/>Magistro etiam qui me misit, nescio quid accidit, quia de multis et
+					<lb/>lacrimosis litteris quas ei pro succursu transmisi, nec cedulam aliquam
+					<lb/>responsionis accepi. <hi rend="italic">Ego autem propter te mortificor tota die, estimatus
+					<lb/>sum sicut ovis occisionis</hi> (<hi rend="italic">Psalm.,</hi> LXIV, 23). <hi rend="italic">Extraneus factus sum
+					<lb/>fratribus meis et peregrinus filiis matris mee</hi> (Cf. Iob., XIX, 13). Pro te,
+					<lb/>Domine, dimisi mundum et veni ad ordinem, ut ita dicam, et veni
+					<lb/>te nunciare Sarracenis et Tartaris et veni <hi rend="italic">in altitudinem maris
+					<lb/>et tempestas concussit me</hi> (Cf. Jon., II, 4). Non me demergat tempestas aque!
+					<lb/>Scio enim, Domine, quoniam benigna est misericordia tua, licet modo
+					<lb/>non ita clare videam. Quare te deprecor, o Deus, qui me creasti et
+					<pb n="271"/>
+					<lb/>redemisti, ut me in tua sancta fide confirmes et populum christianum
+					<lb/>cito eripias de manibus impiorum! Sit nomen tuum benedictum
+					<lb/>a seculo usque in seculum, quia <hi rend="italic">sapientia et fortitudo tua sunt et tu
+					<lb/>mutas tempora et etates et transfers regna atque constituis</hi> (Dan. II, 20-21),
+					<lb/>si tibi placet ut regnet Machometus, indica nobis ut veneremur, et
+					<lb/><hi rend="italic">Benedictio et claritas et sapientia et graciarum actio, honor, virtus et
+					<lb/>fortitudo Deo nostro in secula seculorum, amen!</hi> (<hi rend="italic">Apocal.</hi> VII,12). Data
+				<lb/>in oriente.</p>
+				<lb/>
+				<lb/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>II.</head>
+				<lb/>
+				<div>
+					<p><lb/><hi rend="italic">Et quod non cito, ut desiderabam, michi respondit divina clementia, addidit anima mea
+					<lb/>afflicta scribere Regine celesti subiectam epistolam.</hi></p>
+				</div>
+				<lb/>
+				<div>
+					<head type="h_2"><lb/><hi rend="italic">Epistola ad beatam reginam Mariam.</hi></head>
+					<lb/>
+					<head><lb/>[B]eatissime virgini Marie, matri Dei, regine celi et advocate mundi,
+						<lb/>gaudium et leticiam, qua caret et annunciat anima fratris predicatoris
+						<lb/>in partibus orientis afflicti.</head> <p>Iam pridem literas divine sapientie de mea
+						<lb/>tristicia et admiracione transmisi, nec usque modo responsionem
+						<lb/>aliquam, que me instrueret, aut consolaretur, recepi. Et nunc, beatissima
+						<lb/>regina, eiusdem tristicie et admirationis mee causam per alia
+						<lb/>verba et raciones presenti litera tibi lacrimabiliter declarare curavi,
+						<lb/>ut michi misero tua misericordia cito succurrat. Tibi autem tanto
+						<lb/>confidencius et securius loquar, quanto miser et peccator non ignoro
+						<lb/>te reginam misericordie et pro peccatoribus advocatam esse a summo
+						<lb/>iudice in celesti curia constitutam. Et prius michi occurrit, quod
+						<lb/>cum ex multis iam precedentibus annis cogitavi vias meas et converti
+						<lb/>pedes meos in testimonia» filii tui, obstitit inimicus humani
+						<lb/>generis, ut me retrahere obiciens multa et gravissima pericula in
+						<lb/>tali peregrinacione, que importabilia essent fragilitati mee, et dum
+						<lb/>quasi fractus aliquantulum retardarem multis et multis vicibus, audivi
+						<lb/>vocem in corde meo dicentem michi: «<hi rend="italic">Jacta cogitatum tuum in Domino,
+						<lb/>et ipse te enutriet</hi> (1 Petr., V, 7)» et deinceps sis certus, quod nichil
+						<lb/>erit arduum, et nullum incurres periculum, in quo si reginam misericordie
+						<lb/>invocaveris, quod suum patrocinium quantocuis consequeris.
+						<lb/>Ego vero statim in te et de te plene confisus, mutato nomine regine
+						<lb/>misericordie ex quadam fiducia et familiaritate dixi: «ergo si
+						<lb/>ipsa michi erit massaria et procuratrix, secure ibo»; massariam
+						<lb/>enim vulgariter dicunt in civitate mea, ut nosti, mulierem, que fideliter
+						<lb/>et sollicite procurat necessaria domus. Et usque nunc ita experimento
+						<lb/>probavi quod in omnibus periculis et maximis necessitatibus meis
+						<lb/>statim, quando dixi «ubi est nunc massaria domus?» de te intelligens,
+						<pb n="272"/>
+						<lb/>continuo patrocinium tue sancte procuracionis recepi. Et ecce nunc
+						<lb/>afflictus et derelictus solus in terra longinqua, debilis in corpore, tristis
+						<lb/>in corde et quasi totaliter consternatus in mente, ad te clamo exsul
+						<lb/>non solum filius Eve, set filius multorum; ve, ve michi misero, ve
+						<lb/>michi, quia eo tempore veni de partibus occidentis ad orientalem
+						<lb/>plagam, ut predicarem Christum et baptizarem et gremio sancte
+						<lb/>matris ecclesie aggregarem, quo audio et video aggregatos dispergari
+						<lb/>et dispergi. Et iam non solum de gremio, set de corde sancte matris
+						<lb/>ecclesie rapiuntur et occiduntur et venales transmittuntur christiani
+						<lb/>usque Baldactum et usque ad orientales remotissimas regiones pre
+						<lb/>multitudine captivorum. Et circumspiciens diligenter et querens, si
+						<lb/>forte aliquos ex fratribus meis Predicatoribus invenirem inter captivos
+						<lb/>et, ecce michi nunciantur omnes occisi; senes et parvuli christiani
+						<lb/>venduntur extraneis. Calices et palle et alia ornamenta altarium spiritualibus
+						<lb/>ministeriis consecrata, de mensa Christi et de ministerio
+						<lb/>corporis et sanguinis Domini transeunt ad mensas Sarracenorum, libri
+						<lb/>prophetarum et evangeliorum canibus exponuntur, et quod omnibus
+						<lb/>aliis miserabilius est, sanctimoniales et virgines, tuo sanctissimo filio
+						<lb/>desponsate pulcriores eliguntur ex eis et ensenia mittuntur Sarracenorum
+						<lb/>regibus et eorum tyrannis, ut ex eis generent filios Sarracenorum.
+						<lb/>Alie vero venduntur et distrahuntur et dantur histrionibus, ut
+						<lb/>circumducant eas per mundum ad ignominiam christianorum et tui
+						<lb/>sanctissimi filii Iesus Christi. O Domina, nos accepimus, quod filius
+						<lb/>tuus candor est lucis eterne et speculum sine macula, cui non placet,
+						<lb/>nisi quod purum. Sed numquid ei magis placet, quod sanctimoniales
+						<lb/>et virgines cogantur esse histrionisse et discurrant per mundum,
+						<lb/>quam in monasterio Deo decantent et spiritualibus ministerijs occupentur?
+						<lb/>Numquid ei magis placet, quod sanctimoniales et sibi virgines
+						<lb/>consecrate sint sclave et concubine Sarracenorum et Sarracenos filios
+						<lb/>generent Sarracenis, quam conceptum votum virginitatis conservent
+						<lb/>et ex ipso sanctissimo filio tuo feruore Spiritus Sancti concipiant
+						<lb/>sanctos conceptus sancta contemplacione ut pariant obsequia caritatis?
+						<lb/>O Domina, ecce iam compleri videtur, quod ipse Machometus
+						<lb/>mendacissinius dixit, se missum esse a Deo in virtute armorum,
+						<lb/>ut multos filios generet ut Sarracenorum populus augeretur. Numquid
+						<lb/>deerant et alie mulieres, ex quibus filios genuissent, etsi non dedisset
+						<lb/>ei ancillas suas, virgines sanctimoniales sibi dicatas et desponsatas
+						<lb/>ab adolescentia sua? Quid negabit Christus, filius tuus, ulterius
+						<lb/>Machometo, si concedit ei ancillas et sponsas ipsius? Non
+						<pb n="273"/>
+						<lb/>enim negare audemus permissione et concessione hec omnia evenisse.
+						<lb/>Et utinam Sarraceni Deum cognoscerent et ei grati essent, qui eis
+						<lb/>dedit tantam victoriam! Ipsi vero de hijs omnibus grati sunt Machometo
+						<lb/>dicentes, quod hec omnia procuret eis pro merito Alcorani,
+						<lb/>Christo autem, tuo sanctissimo et omnipotentissimo filio, detrahunt
+						<lb/>et dicunt: «Christiani confidunt in quodam Iesu, filio Marie, quod
+						<lb/>sit Deus, et ipse contra Machometum nichil prevalet». Dicunt eciam
+						<lb/>et scribunt nostris principibus et regibus literas insultacionis dicentes,
+						<lb/>quod istis temporibus fortuna Christi pugnavit cum fortuna Machometi,
+						<lb/>et fortuna Machometi prevaluit. Sed quid verba referam, cum
+						<lb/>signa hostilitatis et odii Sarracenorum ad christianos et Christum
+						<lb/>sint omnibus manifesta! Sed et de multis pauca referam, que tamen
+						<lb/>ita sunt horribilia, quod alijs extraneis dicere erubescere deberem, nisi
+						<lb/>quia tuus sapientissimus filius non verecundatur manifeste permittere,
+					<lb/>ut prius sint extraneis quam familiaribus manifesta.</p>
+					<p><lb/>Certe credo, quod nosti, quod presens eram in Sebaste, civitate
+						<lb/>Turchie, quando postquam receperunt nova de dolorosa captione Tripolitana,
+						<lb/>ligaverunt crucem cum ymagine crucifixi ad caudam equi
+						<lb/>et traxerunt per totam civitatem per cenum, incipientes a loco fratrum
+						<lb/>et christianorum et hoc in die dominica ad maiorem contumeliam
+						<lb/>christianorum et Christi. Nonne oculata fide in tota Galilea et Iudea
+						<lb/>et Ihierusalem, fere in omnibus locis, ubi Sarraceni invenerunt ymaginem
+						<lb/>tuam et tui sanctissimi filii, eruerunt oculos lanceis et gladiis et fustibus et
+						<lb/>dimiserunt ita cecatas quasi omnes picturas ad contumeliam
+						<lb/>christianorum et Christi? Que mater sustinet pacienter excecationem
+						<lb/>sui filii? Nonne in tota Turchia et Percide et usque ad Baldactum
+						<lb/>invenimus omnes ecclesias christianorum diruptas aut stabulatas aut mescitas
+						<lb/>factas Sarracenorum? Et ubi non potuerunt ecclesiam destruere
+						<lb/>vel stabulare, statim iuxta ecclesiam edificaverunt meschitam et menaram
+						<lb/>cum turri alta, ut super caput christianorum clament legem
+						<lb/>ymmo perfidiam Machometi. In Tauricio, civitate Persarum, maximam
+						<lb/>et pulcram, quam christiani edificaverunt in honore illius dilecti
+						<lb/>discipuli et nepotis tui Iohannis, evangeliste, cui fuisti a tuo filio
+						<lb/>pendente in cruce dulciter commendata, fecerunt scolam alchorani,
+						<lb/>ut inblasphemarent Christum et evangelistam. Set quid dicam de
+						<lb/>alijs locis et civitatibus, cum in Ihierusalem civitate sancta invenerim
+						<lb/>turpiter stabulatam a Sarracenis ecclesiam illam magnam et devotissimam
+						<lb/>in monte Syon, ubi Dominus cenam ultimam mirificam
+						<pb n="274"/>
+						<lb/>cum suis discipulis fecit, ubi panem et vinum convertit in corpus et
+						<lb/>sanguinem suum? Infra illam eandem ecclesiam ostenderunt humilem
+						<lb/>cellam tuam, o Domina celi, ubi habitasti diebus vite tue post ascensionem
+						<lb/>tui filii! Et ecce totus locus desertus gemit absque habitatore;
+						<lb/>nisi quod Sarraceni dimiserunt edificium valde altum super loco illo,
+						<lb/>ubi apostoli tui sanctissimi filii receperunt Spiritum Sanctum
+						<lb/>et in eodem loco faciunt proclamari legem, ymmo perfidiam Machometi
+					<lb/>die ac nocte, videlicet alchoranum.</p>
+					<p><lb/>In quo alchorano, quantum te et tuum sanctissimum filium blasphemant,
+						<lb/>tu melius nosti. Nec ego credere potuissem, nisi oculata
+						<lb/>fide legissem. In quo maxime miror, quomodo mater de filio et
+						<lb/>omnipotens filius tam de sanctissima matre, quam de altissimo patre
+						<lb/>tanto tempore tot blasphemias sustinuit pacienter. Nonne legis arabice
+						<lb/>in pluribus et pluribus locis in alchorano, quod Machometus
+						<lb/>inducit pro demonstrativo argumento dicens: Impossibile est Deum
+						<lb/>habere filium, quia non habet uxorem, in quo brevi et fatuo
+						<lb/>verbo illecebris et obscenus et carnalissimus ille blasphemus nititur
+						<lb/>tollere a patre filium et a filio patrem et deitatem? De te autem
+						<lb/>scripsit, quod legi arabice pluribus et pluribus locis in alchorano,
+						<lb/>quod Maria virgo fuisti illa antiqua Maria, que fuit tempore
+						<lb/>Moysis, unde expresse dicit, quod pater tuus fuit Amram, et Moyses
+						<lb/>et Aaron fuerunt fratres tui. De te autem dicit, quod tu considerans
+						<lb/>filium tuum Iesum dixisti: «utinam pocius essem mortua
+						<lb/>quam de me talis filius nasceretur!» De tuo autem filio nosti, o Domina,
+						<lb/>quod ipsi comuniter docmatizant et predicant quod Iesus, filius Marie,
+						<lb/>redibit circa finem seculi et efficietur Sarracenus. Nosti enim, o
+						<lb/>Domina, quod ego transiens iuxta fluvium paradisi Tigridem inveni
+						<lb/>inter Baldactum et Ninivem civitatem, que fuit antiqua Baldac,
+						<lb/>ubi cum mula honorabiliter sellata et preparata usque nunc expectant
+						<lb/>filium Haah, qui mortuus est ante sexcentos annos, et omni die
+						<lb/>veneris representant mulam paratam ad recipiendum ipsum. In cuius
+						<lb/>temporibus dicunt quod Iesus, filius Marie, apparebit et efficietur Sarracenus.
+						<lb/>O Domina, tibi de tuo filio credam et non Sarracenis! Ego
+						<lb/>usque nunc non potui credere, quod Iesus Christus, filius tuus, efficiatur
+						<lb/>Sarracenus. Video tamen manifeste, quod ipse multa dedit et
+						<pb n="275"/>
+						<lb/>concessit Sarracenis, si forte ista sunt preludia, quod ipse vere efficietur
+						<lb/>Sarracenus. Nec hec omnia dico tibi, ut velim provocare ad
+						<lb/>vindictam, cum te salutaverim matrem et reginam misericordie. Vere
+						<lb/>tamen credo, quod ipse sapientissimus filius tuus multa prospera temporalia
+						<lb/>non tam concedit placidus ipsis Sarracenis, quam permittit
+						<lb/>iratus. Nam prospera eorum vertuntur eis in <hi rend="italic">fel aspidum intrinsecus</hi>
+						<lb/>(Iob., XX, 14), quia ex omni victoria et omni temporali prosperitate,
+						<lb/>quam assequuntur, pocius in suis erroribus confirmantur; credunt
+						<lb/>enim hec omnia a suo Machometo recepisse pro alchorano. Et ita ex
+						<lb/>bonis a Deo receptis, inferni mancipia confirmantur, et ita eciam prospera
+						<lb/>filius tuus eis permittit iratus. Set si filius tuus, o Domina, est
+						<lb/>iratus Sarracenis, Iudeis et christianis, quibus erit placatus? Nam
+						<lb/>christiani legem Dei habent et intellectum sine perfectione operis,
+						<lb/>Iudei vero Dei sine intellectu et opere, Sarraceni vero quedam
+						<lb/>opera bona videntur habere sine lege Dei penitus et intellectu. Ubi
+						<lb/>sunt misericordie tue antique, o Domina, ubi exuberans misericordia
+						<lb/>tui sanctissimi filii? Da, Domina, christianis opera perfectionis, Iudeis
+						<lb/>opera et intellectum legis, da Sarracenis legem et intellectum! Sciant,
+						<lb/>inquam, quoniam homines sunt, senciant omnes tuum iuvamen et
+						<lb/>specialiter christiani; ipsi enim iugiter celebrant tuam commemoracionem.
+						<lb/>Pericula creverunt, et miracula et carismata et temporalia
+						<lb/>beneficia decreverunt. Olym dicebatur <hi rend="italic">compelle intrare</hi>, set quare
+						<lb/>nunc compelluntur exire? Ubi sunt misericordie tue atque sollicitudines
+						<lb/>tue et tui sanctissimi filii pro genere humano, et maxime pro
+						<lb/>pauperibus indigentibus? Nonne vides, quod christiani moriuntur
+						<lb/>fame et siti, et quod fidem negant pro necessitatibus corporalibus et
+						<lb/>multa alia peccata committuntur? Olym enim filius tuus sollicitus erat
+						<lb/>pro pauperibus indigentibus dicens: «<hi rend="italic">Unde ememus panes?»</hi>. Olym
+						<lb/>cogitabat dicens: «<hi rend="italic">Si dimisero eos ieiunos, deficient in via</hi> (Marc., VIII,
+						<lb/>3, 4)». Et nunc iam cernis, quod multi fame et necessitate deficiunt
+						<lb/>in viis et civitatibus. Numquid enim solum fuit sollicitus pro nobis
+						<lb/>quando erat nobiscum in via? Numquid modo per cardines celi ambulat
+						<lb/>nec nostra considerat? Set ubi est promissio veritatis dicentis: «<hi rend="italic">Ecce ego
+						<lb/>vobiscum sum usque ad consumacionem seculi</hi>» (Matth. XXVIII, 20)?
+						<lb/>Olym eciam et tu Domina sic fuisti sollicita in nuptiis, ne deficeret
+						<lb/>vinum dicens: «<hi rend="italic">Vinum non habent</hi>» (Ioh. II, 3). Nunc vero quoniam
+						<lb/>non habent penitus, quod manducent, silebis? Quando «<hi rend="italic">introduxit te rex
+						<lb/>in cellam vinariam</hi>» (Cant., II, 4), in cameram affluentissimam, silere
+						<lb/>poteris? Dic ergo illi ut nos adiuvet! Dic etiam nobis «<hi rend="italic">Comedite, amici,
+						<lb/>bibite et inebriamini vini</hi>» (Cant., V, 1)!. Nam sicut filius tuus dormit
+						<lb/>super cervical, si tu etiam dormieris in cella illa vinaria, nisi dicas:
+						<pb n="276"/>
+						<lb/>«<hi rend="italic">Ego dormio et cor meum vigilat</hi>» (Cant., V, 2), ut sis apud eum pro
+						<lb/>nobis sollicita, sola nobis desperacio restat. Nam et filius tuus adiuvat,
+						<lb/>«<hi rend="italic">quod non suscitemus te nec evigilemus donec tu ipsa velis</hi>» (Cant., II, 7).
+						<lb/>Quare dignissime misericordie tue supplico, quantum possum, quatenus
+						<lb/>ad nostras miserias vel cito intendere cum effectu, ut finem
+						<lb/>imponas legi sive perfidie Machometi et potencie Sarracenorum et
+						<lb/>apud filium tuum impetrare procures, ut tam christianis quam Sarracenis
+					<lb/>ira et furor Domini in tranquillitatem et misericordiam convertantur.</p>
+					<p><lb/>Valde vale decora et pro nobis semper Christum exora!</p>
+					<p><lb/>Data in oriente.</p>
+				</div>
+				<lb/>
+				<lb/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>III.</head>
+				<lb/>
+				<head type="h_2"><lb/><hi rend="italic">Epistola afflicte anime de ecclesia militante ad totam ecclesiam triumphantem
+				<lb/>et celestem curiam contra blasfemiam Alchorani.</hi></head>
+				<lb/>
+				<head type="salutatio"><lb/>[G]loriose celesti curie et ecclesie triumphanti afflictus et modicus
+					<lb/>frater predicator, minimus in ecclesia militanti, gemens et dolens in profundis
+					<lb/>partibus orientis in medio captivorum de summo et eterno
+					<lb/>eternaliter et summe gaudere et nostrarum miseriarum ex summo
+				<lb/>gaudio non oblivisci.</head>
+				<p><lb/>Loqui vobis gloriosis de vestra gloria et gaudio conveniret, sed
+					<lb/>meum cor miserum et multis miseriis occupatum in medio captivorum
+					<lb/>collacionem gaudii non admittit, nisi in quantum ad vestrum suspiro
+					<lb/>gaudium in futuro. Set ecce in presenti tanto dolore afficior, quod
+					<lb/>ex abundancia cordis eis dolorem exprimo et lacrimis, et suspiria
+					<lb/>non verecundor transmittere in celesti convivio iubilantibus: «<hi rend="italic">miseremini
+					<lb/>mei, miseremini mei! Saltem vos amici mei, quia manus Domini tetigit
+					<lb/>me»</hi> (Iob. XIX, 21)! Desidero vero de causis mei doloris aliquantum
+					<lb/>conferre vobiscum. Et si aliquid ex impaciencia dicerem, quod vestram
+					<lb/>curiam aut meam non deceret professionem, me velud impacientem
+					<lb/>et dolore ebrium apud summum Iudicem excusare velitis, quare «<hi rend="italic">factus
+					<lb/>sum in derisum factusque est sermo Domini in derisum et opprobrium
+					<lb/>tota die»</hi> (Ierem., XX, 7, 8) Nam ego miser et peccator eo tempore missus
+					<lb/>sum ad predicandum fidem Christi Sarracenis et Tartaris, quia
+					<lb/>non solum tartari et alie naciones efficiuntur Sarraceni sed eciam
+					<lb/>christiani. Set si sic continuabunt et ita fecerint, sicut modo fecerunt
+					<lb/>in duobus annis in Tripoli et in Accon, occidentes, captivantes
+					<lb/>et ad suam perfidiam tormentis et suppliciis christianos trahentes,
+					<lb/>brevi tempore non remanebit nec unus quidem christianus in mundo.
+					<lb/>«<hi rend="italic">Quis dabit capiti meo aquam et oculis meis fontem lacrimarum, et plorabo
+					<pb n="277"/>
+					<lb/>die et noce interfectos filie populi mei?</hi>» (Ierem., IX, 1), interfectos
+					<lb/>quidem non gladio sed suffocatos a dyabulo, qui fidem Christi negaverunt
+					<lb/>vel scandalis vel impaciencia affetti vel fame et necessitate
+					<lb/>gravati! Heu, heu, heu, Domine Deus! Ergone decepisti populum tuum,
+					<lb/>populum christianum, dicens: «<hi rend="italic">Pax, pax</hi>» (<hi rend="italic">Luc.</hi>, XXIV, 36) et, ecce,
+					<lb/>pervenit gladius usque ad animam! Tu enim, domine Iesus Christe,
+					<lb/>dixisti discedens a discipulis tuis: «<hi rend="italic">pacem meam do vobis, pacem relinquo
+					<lb/>vobis</hi>» (Ioh., XIV, 27)! Et postquam ascendisti in celum, guerra et
+					<lb/>persecucio christianorum duravit contra christianos trecentis annis, quibus
+					<lb/>quasi incessanter occiderunt eos. Set tunc quidem corpus occidebant
+					<lb/>non animam, quin potius e contrario, quia quanto plures
+					<lb/>occidebant, tanto magis christiani crescebant. Et ecce bestia Machometus,
+					<lb/>cujus tirannidem roborasti contra christianos fere septingentis
+					<lb/>annis, occidit corpore et deficiunt fide. Quid faciam ego miser et afflictus
+					<lb/>et relictus solus in profundis partibus orientis in medio captivorum,
+					<lb/>et audio christianos occisos triginta millia in una die et
+					<lb/>reliquos audio et video pre afflictione spiritus et impaciencia mentis
+					<lb/>negare fidem Christi et accedere ad perfidiam Machometi. Et iam
+					<lb/>quidem divine sapiencie ac sue matri literas de causa mee tristicie et
+					<lb/>admiracionis transmisi, et nedum responsionem alicujus consolacionis
+					<lb/>recepi. Faciam igitur, quod consuevit facere, qui in via publica intollerabilem
+					<lb/>iniuriam patitur, qui alta voce clamat: «Accurre, homo,
+					<lb/>accurre homo!» Vocabo igitur vim paciens, vocabo, ut sciam,
+					<lb/>si est qui michi respondeat, et ad aliquem sanctorum convertam impaciencie
+				<lb/>mee querelam.</p>
+				<p><lb/>O magne pater sancte Dominice, o pater et institutor ordinis rpedicatorum,
+					<lb/>qui zelo fidei et devocionis accensus licet generaliter
+					<lb/>contra hereticos, tamen spirituali zelo contra Sarracenos barbam nutristi!
+					<lb/>Tu cogitasti in virtute Dei posse estirpare Machometistas a
+					<lb/>parte occidentali, voluisti quidem sed non potuisti! Nunc autem,
+					<lb/>quando introisti ad Deum tuum, quando factus es potencior et
+					<lb/>nos tantum tuo patrocinio indigemus, silere poteris? Sitis plures,
+					<lb/>introite ad Deum nostrum, sitis plures et clamate fortiter! Modo enim
+					<lb/>potes tecum assumere conventum magnum, ymmo conventus plures
+					<lb/>de ordine tuo, qui de novo a Sarracenis occisi sunt, ut arbitror. Ego
+					<lb/>namque sollicitus quero ab illis, qui redeunt de capcione Accon et
+					<lb/>nullum invenio qui dicat michi aliquem fratem Predicatorum remansisse
+					<lb/>ad vitam. Set eciam sollicitor circumspiciens inter captivos, si
+					<lb/>forte aliquos ex meis fratribus predicatoribus invenirem, et nullum
+					<lb/>invenio. Invenio tamen tunicas et paramenta, libros eciam et breviaria
+					<lb/>inter Sarracenos. O fratres predicatores, quo ivistis sine tunicis et
+					<pb n="278"/>
+					<lb/>breviariis? Non est enim vestre consuetudinis, ut fratres vestri sine
+					<lb/>tunicis et breviariis vadant in viam longinquam. Tunc vero a redeuntibus
+					<lb/>de excidio michi oblata est tunica lancea vel gladio perforata,
+					<lb/>que eciam modico cruore rosea erat. Et tunc eiulans et plorans dixi:
+					<lb/>«tunica fratrum meorum est, tunica ordinis est!» Redemi eam modico pretio.
+					<lb/>O beate Dominice, fratres meos quero ego «<hi rend="italic">missus de valle
+					<lb/>Ebron, missus</hi> de partibus occidentis <hi rend="italic">veni Sichem</hi>» (cf. <hi rend="italic">Genes.,</hi> XXXVII, 14)!.
+					<lb/>Veni in terram siccam et ardoribus solis exustam, veni ad predicandam
+					<lb/>fidem, et ecce libros moltos et scripta fidei invenio et fratres non invenio;
+					<lb/>fratres quero; indica michi, ubi pascunt gregem! Et iam post
+					<lb/>modicum audivi, quia non amplius pascunt gregem, set ipsi pocius
+					<lb/>in pascuis uberrimis ab egregio Pastore pascuntur; nam omnes michi
+					<lb/>nunciantur occisi. «<hi rend="italic">Terra, ne operias sanguinem meum</hi>» (Iob., XVI, 18), ne
+					<lb/>operias sanguinem fratrum meorum, qui effusus est, introeat in conspectu
+					<lb/>gemitus compeditorum! O fratres, adiuro vos per Deum vivum,
+					<lb/>quod cito clametis ad Deum pro nobis! Cito quidem, antequam vos
+					<lb/>inebriet eterne glorie iubilatio, antequam profundissime dominetis
+					<lb/>inter medios cleros, ne sompnus in soporem vertatur et nostrarum
+					<lb/>miseriarum obliviscamini, et ne efficiamini negligentes sicut alii fratres
+					<lb/>nostri, qui fuerunt occisi in Tripoli et Anthiochia et usque nunc
+					<lb/>distulerunt procurare vindictam. O beate Francisce, cui ab infancia
+					<lb/>mea et usque nunc fui devotus, o verus pupertatis amator, ad te
+					<lb/>clamito et flebiliter ingemisco; tu zelo fidei et devocionis accensus
+					<lb/>odisti soldanum Babilonie, a quo petisti poni cum Sarracenis in igne
+					<lb/>vel eciam solus, ut perfidiam Machometi destrueres. Tunc quidem
+					<lb/>voluisti sed non potuisti. Et nunc, quando factus es ita potens in
+					<lb/>curia celi, silere poteris, quando tantum crescunt gemitus omnium
+					<lb/>animarum? Nam fratres tui occiduntur, qui nolunt negare fidem
+					<lb/>et alii multi seculares coguntur verberibus et suppliciis multis negare
+					<lb/>fidem. Sitis simul tu et beatus Dominicus ante summum Iudicem pro
+					<lb/>vestro cetu pauperum, sitis simul et tenete nos, et stemus simul!
+					<lb/>Et quis est adversarius meus? Machometus, iste scelerosus, lubricus
+					<lb/>et blasphemus contra Deum et sacram scripturam! Certe miror, quod
+					<lb/>soli vos duo ipsum totaliter iampridem non destruxistis ad nichilum.
+					<lb/>O sancta Maria Magdalena, tu singulariter Christo dilecta, tuum patrocinium
+				<lb/>invoco contra Machometum et machometistas Sarracenos.</p>
+				<p><lb/>Scis enim Domina, quia pulcram ecclesiam tuam quam in honorem
+					<lb/>tuum edificaverunt christiani in Magdalon stabulatam inveni a
+					<lb/>Sarracenis et quasi vile stabulum animalium brutorum, pulcram eciam
+					<pb n="279"/>
+					<lb/>ecclesiam quam christiani edificaverunt tibi in Bethania, ubi Ihesus
+					<lb/>amor divinus flevit et fratrem tuum Lazarum de monumento vocavit,
+					<lb/>ipsam inquam ecclesiam stercoratam et stabulum animalium brutorum
+					<lb/>inveni. O virgines sancte, Deo devotissime, que de seculo et dyabulo
+					<lb/>simul in sexu fragili triumphastis et corpora vestra templum
+					<lb/>Deo sancte virginitatis et puritatis consecrastis, ad vos eiulans clamito
+					<lb/>pro tyrannide Machometi celeriter destruenda! Usquequo regnabit
+					<lb/>super nos lubricus et obscenus, ymmo totus carnalis et infectus!
+					<lb/>Usquequo leprosus iste contagiosus inficiet mundum! Adiuro vos
+					<lb/>per virginitatem quam Deo dicastis, ut finem velitis imponere obscene
+					<lb/>legi. Nonne vos monet zelus et amor puritatis et virginitatis? Nonne
+					<lb/>videtis virgines et sanctimoniales, que fuerunt olym sodales vestre,
+					<lb/>quomodo circumducuntur per mundum et impregnantur a Sarracenis
+					<lb/>et ex eis generantur tyranni et satrape Sarraceni, qui contra christianos
+					<lb/>in hostilitate alios Sarracenos excedunt? O sancti patres heremite
+					<lb/>et anachorite, monachi, viri contemplaticii, qui longo tempore
+					<lb/>Deo servisti, ubi sunt celle vestre? Quis modo gubernat cenobia
+					<lb/>vestra, ubi simplicitas et abstinencia vestra? Certe successor Machometi
+					<lb/>soldanus ille Babilonie Aman hostis noster et Christi, homo
+					<lb/>lubricus et fictus, absque contradictione totum Epytum pacifice possidet.
+					<lb/>O sancte Hofri, qualiter inveni cellam tuam desertam et cellas
+					<lb/>aliorum sanctorum, qui post te ibi sanctissimam vitam duxerunt; pre
+					<lb/>timore Sarracenorum vix audent christiani appropinquare! O sancti
+					<lb/>doctores ecclesie, o sancti expositores sacre scripture, ad vos cum
+					<lb/>dolore cordis clamito pro abolenda perfidia alchorani! Vos enim
+					<lb/>multa et valde subtiliter et diserte dixistis de fide catholica, de virtutibus
+					<lb/>et contra vicia, et ecce iam prevalet dottrina Machometi, perfidia
+					<lb/>alchorani, que fidem vestram funditus evacuare conatur! Et, ut
+					<lb/>de ceteris sileam, secretum trinitatis et misterium incarnacionis ita
+					<lb/>totaliter extinguere nituntur, ut nullus unquam hereticus magis hostiliter
+					<lb/>et efficaciter impugnaverunt fidem nostram. O sancte Augustine,
+					<lb/>o mens illuminata a Deo, sub cujus manu et potencia est civitas
+					<lb/>Yponensis, ymmo tota Affrica! Olym enim tantum doluisti, quando
+					<lb/>civitas Yponensis obsessa fuit ab exercitu barbarorum, et ecce nunc
+					<lb/>non solum obsessa, et ut ita dicam, eciam possessa cum tota Affrica,
+					<lb/>ymmo cum magna parte mundi possessa, inquam, a Sarracenis colentibus
+					<lb/>alchoranum, blasphemiam evangelii! O sancte Iheronime,
+					<lb/>quantum dilexisti Effratam, quantum desiderasti Betlehem, ubi natus
+					<lb/>est ille panis angelorun et hominum, ubi libros sanctos transtulisti
+					<pb n="280"/>
+					<lb/>cum multo labore! Ecce ostenderunt michi sedem, ubi sedisti, et sepulcrum
+					<lb/>Paule devote tue, palatium, ubi abitasti, et omnia destructa
+					<lb/>et a longo tempore sub dominio Sarracenorum blasphemancium
+					<lb/>Christum. O sancte Gregori, o mens Deo devota, o rimator
+					<lb/>cordium et ordinator morum! In tuis operibus, et maxime in tuis
+					<lb/><hi rend="italic">Moralibus</hi>, unquam scripsisti, unquam aliquid contra Machometum,
+					<lb/>plura contra dyabolum et contra imitatores eius, contra antichristum
+					<lb/>et imitatores eius, utilia ubi multa inveni. Sed ecce unus de maximis
+					<lb/>imitatoribus dyaboli, famosus antichristi precursor Machometus se bene
+					<lb/>vindicavit de te!Nam parum post tua tempora surrexit et in suo
+					<lb/>alchorano mores corrupit et virtutes, vicia inseruit fidem christianam
+					<lb/>molliter extinguere, civitates et ecclesias christianorum destruxit et
+					<lb/>nunc fere septingentis annis armis et viribus prevalet. Et postquam
+					<lb/>destruxerunt Accon, librum tuum <hi rend="italic">Moralium</hi> portaverunt usque prope
+					<lb/>Ninivem, civitatem grandem. Ibi enim librum tuum quasi captivum
+					<lb/>sclavum redemi, qui distabat a christianitate ex omni parte plusquam
+					<lb/>quinquaginta dietas cameli. O sancti martires, o milites Christi legittimi,
+					<lb/>qui gloriosum sanguinem fudistis pro Domino, qui perfectissime
+					<lb/>honorastis Christum in vita vestra et eum imitati estis in morte!
+					<lb/>Ecce quantum prevaluit contra nos Machometus, blasphemus et inimicus
+					<lb/>Christi! Ecce iam dominatur christianis soldanus Babilonie fere
+					<lb/>septingentis annis. Ecce quot torquet et cogit christianos negare fidem
+					<lb/>Christi supplicijs et muneribus! Miracula defecerunt et scandala tantum
+					<lb/>creverunt, et vos siletis! O sancte Mercuri, tu occidisti Iulianum
+					<lb/>illum appostatam quia blasphemaverat Christum, tu illum tua
+					<lb/>victoriosa lancea perforasti! Ecce Machometus, qui multo amplius,
+					<lb/>quam Iulianus incomparabiliter blasphemat Christum, quomodo tantum
+					<lb/>prevalebit? Numquid lancea tua fracta est? Numquid brachium tuum
+					<lb/>debilitatum est? Ubi eras, quando successor Machometi, soldanus Babilonie
+					<lb/>accepit Accon? Dicitur enim, quod una die plus quam xxx
+					<lb/>millia christianorum occidit. Hoc numquam fecit Iulianus nec aliquis
+					<lb/>tyrannus contra fidem, quod ego sciam, preteriti temporis. O cetus
+					<lb/>apostolorum! O altissimi senatores vite eterne! O principes ecclesiarum
+					<lb/>et belli triumphales duces! Quid nobis accidit doloris et
+					<lb/>tristicie, quia ubique perdimur, ubique succumbimus cum Sarracenis
+					<lb/>non solum in bello corporali, sed eciam in pugna spirituali! Nam
+					<lb/>Sarraceni multos christianos occidunt, et multi alii christiani, qui relicti
+					<lb/>sunt, legem ymmo perfidiam Sarracenorum suscipiunt. Ecclesie
+					<lb/>christianorum destruuntur et meschite Sarracenorum edificantur; libri
+					<pb n="281"/>
+					<lb/>sancti evangelii comburuntur et proiciuntur in mare et lex et perfidia
+					<lb/>Sarracenorum exaltari cernitur usque ad nubes. Ubi enim libere
+					<lb/>predicabatur Christus, nunc liberrime predicatur Machometus. «<hi rend="italic">Veritas
+					<lb/>in terra prosternitur et mendacium</hi>, ymmo error et blasphemia, <hi rend="italic">honoratur</hi>».
+					<lb/>(Dan., VII, 12). Et iam quasi nichil reputatur evangelium in omnibus
+					<lb/>partibus orientis in comparacione alchorani. O utinam vel in tanta
+					<lb/>reverencia esset evangelium apud christianos, in quanta est alchoranum
+					<lb/>apud Sarracenos et Tartaros! Ego autem librum missale
+					<lb/>inveni quasi sclavum portatum de spoliis christianorum de Accon in
+					<lb/>Nynive civitate grandi, ubi erant epistole et evangelia. Quem librum
+					<lb/>interdicebant Sarraceni, volebant destruere et cartas eius radere ad faciendum
+					<lb/>cartas pro tympanis et tamburis quibus orientales multum
+					<lb/>utuntur. Vos igitur quomodo dormire potestis? Numquid evangelium
+					<lb/>melius stat inter Sarracenos et Tartaros quam inter christianos? Numquid
+					<lb/>melius sonabit tympanum, quam evangelium? Quid juvere
+					<lb/>libri evangeliorum et epistolarum vestrarum? Set et Christus dixit:
+					<lb/><hi rend="italic">Nolite spargere margaritas ante porcos</hi> (Matth., VII, 6), et ipse spargit
+					<lb/>margaritas ante porcos et canes rabidos! Ecce libri christianorum
+					<lb/>disparguntur per mundum quasi captivi et sclavi Sarracenorum et
+					<lb/>tartarorum. Iam quidem fortissimus armatus Dominus noster in
+					<lb/>pace custodivit atrium suum aliquo tempore, nunc autem in fine
+					<lb/>temporum supervenit Machometus, quem Sarraceni dicunt esse fortiorem
+					<lb/>Christo, quod nos non concedimus; videmus tamen quod
+					<lb/>ipse arma eius abstulit et spolia distribuit, prout vult. O patroni
+					<lb/>nostri, non potestis vos iuvare christianos contra Machometum,
+					<lb/>an non vultis? Certe credo, quod potestis et non vultis. Numquid
+					<lb/>et verum est, quod sitis facti Sarraceni? Certissimum reputatur
+					<lb/>quasi in omnibus partibus orientis, quod alchoranum sit verbum
+					<lb/>Dei. Quod si verum est, quod alchoranum sit verbum Dei, procul
+					<lb/>dubio verum est et firmun, quod vos apostoli facti estis Sarraceni
+					<lb/>et imitatores Machometi. Ita enim legi in alchorano capitulo
+					<lb/>tertio, quod <hi rend="italic">quando Ihesus, filius Marie percepit heresim in filiis,
+					<lb/>quesivit dicens: «Quis defendit Deum?» Et responderunt apostoli tamquam
+					<lb/>perfectiores dicentes: «nos defendimus Deum, nos sumus fideles Dei, nos
+					<lb/>testificamur, quod sumus Sarraceni et quod sumus imitatores Machometi.»</hi>
+					<lb/>Idem eciam legi in capitulo quinto, quod est capitulum elmeide,
+					<lb/>quod interpretatur mensa. Certe si vos fuistis Sarraceni et imitatores
+					<pb n="282"/>
+					<lb/>Machometi, non est mirum, si vos non vultis iuvare christianos
+					<lb/>contra Sarracenos et contra Machometum. Set quomodo fuistis vos
+					<lb/>imitatores Machometi, qui tamen processistis Machometum per quingentos
+					<lb/>annos et amplius? Quomodo fuistis Sarraceni, cum Machometus
+					<lb/>dicat in alchorano quod «<hi rend="italic">ei a Deo mandatum est quod ipse esset
+					<lb/>primus Sarracenus»</hi>? Set esto si fuistis Sarraceni, quomodo non scripsistis
+					<lb/>nobis aliquid de Sarracenis aut de Machometo? Nonne melius fuisset,
+					<lb/>quod invenissemus scriptum in evangelio et fuissemus facti
+					<lb/>Sarraceni sponte, si Deo placet, quam quod violenter cogerent nos
+					<lb/>Sarraceni? Et nos christiani clamamns et vociferamus, et non est qui
+					<lb/>adiuvet! Set ecce, proh dolor! quia dicunt Sarraceni, quod nomen
+					<lb/>Machometi scriptum est in evangelio et quod Christus prophetavit de
+					<lb/>ipso. Ita enim legi in alchorano capitulo lxi dicit Iesus, filius Marie:
+					<lb/>«<hi rend="italic">Ego sum nuncius Dei, o filii Israel, et sum nuncius verax, ego evangelizo
+					<lb/>vobis quod legatus veniet post me et nomen eius Machometus</hi>.» Ego
+					<lb/>vere ista non invenio in evangelio, nec in latino, nec in caldeo, nec in
+					<lb/>arabico, quod quidem diligentissime in oriente perlegi. O sancti evangeliste,
+					<lb/>quid fecit vobis Machometus, quia nomen suum tacuistis
+					<lb/>et non posuistis in evangelio? Scripsistis tamen nomen Pilati et nomen
+					<lb/>Herodis, qui consensernnt crucifixoribus, nomen Cayphe, qui
+					<lb/>sentenciam dedit, Iudae, qui perdidit, et dyaboli, qui temptavit.
+					<lb/>Quare igitur solum nomen Machometi tacuistis? Set ecce in multis
+					<lb/>alijs imponit vobis mendacium Machometus in suo alchorano. Vos
+					<lb/>igitur omnes scripsistis, quod Christus crucifixus est et mortuus, et
+					<lb/>ipse dicit nequaquam, set eius similis. Et hec dicentes, Sarraceni
+					<lb/>prevalent contra nos, et alchoranum prevalere videtur maxime in partibus
+					<lb/>Orientis contra evangelium modo fere septingentis annis. O
+					<lb/>sancte Paule, predicator veritatis et doctor gentium, qui fidem roborasti,
+					<lb/>vicia extirpasti et inseruisti virtutes! Disperse sunt epistole tue
+					<lb/>inter Sarracenos et eas contemptibiliter dividunt quia dixisti, quod
+					<lb/>Iesus Christus est Deus et Dei filius. Nam ipsi pro efficaci argumento
+					<lb/>in alchorano inducunt, quod Deus nullo modo potest habere filium,
+					<lb/>quia non habet uxorem. Et hec dicentes prevalent contra nos, ymmo
+					<lb/>dicunt, quod hec est causa, quia Deus affligit nos, quia habet pro
+					<lb/>malo, quod damus ei filium Tu, sancte Paule, dixisti (1 Cor., VI, 18):
+					<lb/>«<hi rend="italic">Fugite fornicacionem</hi>»!. Et Machometus in suo alchorano permittit fornicacionem.
+					<pb n="283"/>
+					<lb/>Tu, sancte Paule, dixisti (1<hi rend="italic">Cor.</hi>, VII, 1): «<hi rend="italic">Bonum est homini
+					<lb/>mulierem non tangere</hi>». Et ipse non solum permittit set mandare
+					<lb/>videtur hominibus, quod fornicentur cum multis mulieribus, ut multi
+					<lb/>Sarraceni nascantur. Quo verbo, ita infrunite et inverecunde utitur
+					<lb/>Machometus in suo alchorano, ut omnes manifeste intelligant, quid
+					<lb/>dicit obscenus et carnalissimus ille. Nam in alchorano, non iam uno
+					<lb/>loco, set in pluribus legi, quod dicit infrunitum verbum. Ita enim dicit,
+					<lb/>ut suo verbo utar: «fatigate mulieres, fatigate, et non erit vobis
+					<lb/>peccatum dummodo dederitis eis precium». O sancte Paule, tu
+					<lb/>es nuncius Dei et consulis esse bonum homini mulierem non tangere,
+					<lb/>et ecce Machometus, homo illecebris, qui a pluribus quam tu reputatur
+					<lb/>nuncius Dei, precipit et repetit: fatigate!. Et hec dicens prevalet
+					<lb/>contra nos fere septingentis annis. Quomodo vos estis ambo nuncii
+					<lb/>Dei, qui tam discrepancia dicitis? Set quid dicam de fornicacione,
+					<lb/>cum ipse contra te, ymmo contra naturam et Deum concedit expresse
+					<lb/>id abhominabile vicium, quod tu dixisti «ignominiam et turpitudinem
+					<lb/>esse vicium contra naturam, quod extirpare curasti in principio tue
+					<lb/>epistole ad Romanos (I, 27). Ipse vero expresse concedit, sicut legi
+					<lb/>in alchorano in capitulo secundo de vacca rubea, sodomiam tam cum
+					<lb/>masculo quam cum femina; dicit autem hoc ita manifeste et utitur
+					<lb/>verbo sic infrunito, quod nunc pro verecondia nec dico nec scribo,
+					<lb/>set committo angelis sanctis, qui destruxerunt Sodomam et Gomorram,
+					<lb/>quod illum capitulum fideliter et celeriter legant et Deo
+					<lb/>scienti omnia sollicite referant. O sancti prophete, quem ex vobis non
+					<lb/>blasphemavit Machometus in suo alchorano, et vos siletis? Silete,
+					<lb/>silete certe prophetia silet et loco omnium prophetarum legitur Machometus!
+					<lb/>Ipse namque dicit in alchorano, se esse sigillum omnium
+					<lb/>prophetarum! O Moyses, o Deo devotus et familiarissimus, tu scis
+					<lb/>quod tantum te excedit, quod in die iudicii, quando congregabitur
+					<lb/>totus mundus, veniet quidem Machometus non pedes ut alii sed
+					<lb/>certe super mulam, et Moyses addextrabit eum! Et certe convenit;
+					<lb/>nam ipse scribit in alchorano, quod Moyses et Aron facti fuerunt
+					<lb/>Sarraceni ante mortem eorum. O sancti patriarche, o patres antiqui
+					<pb n="284"/>
+					<lb/>Veteris Testamenti, quare facti fuistis Sarraceni et imitatores Machometi?
+					<lb/>Certe si alchoranum esset sermo Dei, ut dicunt Sarraceni, et
+					<lb/>vos procul dubio Sarraceni fuistis! Legi enim in alchorano, quod
+					<lb/>Abraham, Isaac et Iacob fuerunt Sarraceni, legi eciam ibi, quod Noe
+					<lb/>fuit Sarracenus, et quod ideo venit diluvium, quia ipse Noe dixit
+					<lb/>omnibus quod efficerentur Sarraceni et ipsi noluerunt. O Deus, si tu
+					<lb/>misisti diluvium in totum mundum, quia noluerunt effici Sarraceni,
+					<lb/>non est mirum, si destruxisti per Sarracenos Iherusalem, Iudeam,
+					<lb/>Galileam, Siriam, Anthyochiam, Tripolim et Accon! Erant enim
+					<lb/>christiani et noluerunt effici Sarraceni. Set ego nolo effici Sarracenus.
+					<lb/><hi rend="italic">Set quo ibo a spiritu tuo et quo a facie tua fugiam</hi> (<hi rend="italic">Psalm.,</hi> CXXXIX, 9),
+					<lb/>si decrevisti, quod totus mundus sit Sarracenus? Certe ego non possum
+					<lb/>consentire tam inique legi, nec possum credere, quod sit lex Dei.
+					<lb/>Dum ergo fugerem de medio Babilonis, ecce in exitu Babilonie in
+					<lb/>deserto, occurrerunt michi servi dyaboli ministri Machometi, habitu
+					<lb/>Tartari, sed ritu Sarraceni, qui me verberabant et expoliabant, ut efficerer
+					<lb/>Sarracenus, quorum verbera et verba leviter, ymmo quasi pro
+					<lb/>ludo, sustinuit amor. Et certe si apostoli, prophete et patriarche facti
+					<lb/>sunt Sarraceni, satis et ego possem esse Sarracenus. Set quia nec
+					<lb/>volui nec volo esse, privaverunt me sancto habitu ordinis mei, et
+					<lb/>tunc assumpsi vestem et habitum camelarii; nam camelarium me
+					<lb/>potuerunt facere Sarraceni, non autem Sarracenum. Ad sanctos angelos
+					<lb/>recurram. O sancti angeli, o celestes nuncii, nobis ad custodiam
+					<lb/>deputati, quomodo custoditis civitates et ecclesias christianorum,
+					<lb/>que sunt in Terra sancta? Date sunt Sarracenis, destructe sunt a Sarracenis,
+					<lb/>virgines et sanctimoniales, que virginitatem Deo voverunt et
+					<lb/>olym sponse fuerant Domini nostri facte sunt concubine Sarracenorum!
+					<lb/>O paranimphi celestis curie, non potuistis vos iuvare contra Sarracenos
+					<lb/>aut noluistis? Miror, si non potuistis, cum olym unus ex vobis
+					<lb/>occiderit in castris Assiriorum centum octogintaquinque millia (Iesai.,
+					<lb/>XXXVII, 36). Numquid diminuta est potencia vel auctoritas vestra?
+					<lb/>Sed ecce, proch dolor! invenio in alchorano, quod angeli Dei orant
+					<lb/>pro Machometo. O sancti angeli Dei, vos oratis pro Machometo?
+					<lb/>Parcat vobis Deus, parcat! Vobis a Deo commissum est, quod super
+					<lb/>muros Iherusalem, id est ecclesie, sitis custodes (cf. Iesai., LXII, 6) et
+					<lb/>vos oratis pro Machometo, pro Machometo, inimico christianorum,
+					<lb/>inimico et blasphematore evangelii? Certe unum de duobus videtur
+					<pb n="285"/>
+					<lb/>michi: aut vos non estis Deo fideles, aut alchoranum, quod dicit,
+					<lb/>quod vos oratis pro Machometo, non est verbum Dei. Set si non est
+					<lb/>verbum Dei, unde ei tantus honor et tanto tempore modo fere septingentis
+					<lb/>annis? Certe credo, quod nunquam fuit in mondo aliquis
+					<lb/>liber, qui tantum honoraretur, quantum alchoranum, nec credo,
+					<lb/>quod umquam fuerit factus in mondo nec fiet aliquis liber qui tantum
+					<lb/>blasphemaret Deum et celestem curiam, quantum alchoranum. Certe
+					<lb/>ego quidem blasphemias in alchorano invenio, set in omnibus
+					<lb/>factis eorum invenio Sarracenos fortunatissimos in temporalibus, ut
+					<lb/>eciam mala videantur eis cedere in bonum. Nam et si venerunt Tartari,
+					<lb/>ut destruerent Sarracenos, sed ipsi Tartari fere omnes facti sunt
+					<lb/>Sarraceni! Ecce christiani frequenter cogitaverunt contra Sarracenos, et
+					<lb/>quasi omne consilium eorum fuit in malum ipsis christianis. Quis
+					<lb/>enim papa, vel imperator, vel rex cogitavit vel disposuit contra soldanum
+					<lb/>Babilonie, contra successorem Machometi, a magno tempore,
+					<lb/>qui non fuerit vel morte preventus vel consilio et ordinacione deceptus?
+					<lb/>Dum ergo legimus in alchorano, quod vos angeli pro Machometo
+					<lb/>oratis et Sarraceni ab angelis iuvantur, et nos post hec per
+					<lb/>experienciam probamus quod quasi in omnibus prosperantur, quid
+					<lb/>restat simplicibus, ymmo stultis, quorum nostri temporis infinitus est
+					<lb/>numerus, nisi quod illa sola sit vera fides et non alia? O virgo beatissima,
+					<lb/>o virgo Maria, mater Christi, non illa Maria, soror Moysis
+					<lb/>et Aaron, que facta est leprosa, sed tu Maria, virgo filia Ioachin,
+					<lb/>que nec lepre, nec culpe umquam fuisti obnoxi, tibi nuper alias speciales
+					<lb/>litteras de mea tristicia et dolore transmisi nec adhuc aliquam
+					<lb/>responsionem que me plene letificaret accepi! Tu regina misericordie,
+					<lb/>que reginam illam Hester, incomparabiliter superas et excedis,
+					<lb/>et certe ipsa regina Hester, quanto periculo se exposuit pro populo
+					<lb/>suo, sine licentia intrans ad regem, que etiam triginta diebus vocata
+					<lb/>non fuerat! (<hi rend="italic">Esth.,</hi>IV, 11; V, 1-2). Tu vero, qui assistis a dextris
+					<lb/>regis eterni in vestito deaurato et iam non per eunuchos altissimo regi
+					<lb/>loqueris, set immediate cum maxima securitate cuncta ei exponere
+					<lb/>vales, silere poteris? Et ego, licet peccator, tamen cum multa fiducia
+					<lb/>de misericordia tua confisus clamo et vociferor pro foribus palacii
+					<lb/>tamquam alter Mardocheus, veste concissa (<hi rend="italic">Esth.,</hi> IV, 1), barba
+					<lb/>prolixa, ut eciam in habitu fratrum predicatorum me non reputent
+					<lb/>fratrem, et modo in habitu militis, modo in habitu camelarij, modo
+					<lb/>in habitu fratrum predicatorum laboriose discurro partes, ut predicem
+					<lb/>Christum eo tempore Sarracenis et Tartaris, quando non solum Tartari
+				<lb/>sed eciam christiani efficiuntur Sarraceni.</p>
+				<p><lb/>Quid faciam miser, cum videam christianos iam quasi mente attonitos
+					<lb/>euntes per viam quasi amentes pro dolore ac timore Sarracenorum!
+					<pb n="286"/>
+					<lb/>Video senes ac virgines parvulos et innocentes squalidos, palidos et
+					<lb/>debiles, querentes panen, et non inveniunt etiam inter christianos, et iam
+					<lb/>multi desiderant, quod essent sclavi Sarracenorum, ut non morerentur
+					<lb/>fame, sed panem ad manducandum haberent. Video mulierculas et
+					<lb/>vetulas plorantes ad pedes crucifixi, percutientes sicca pectora, voce fracta
+					<lb/>et gracili petentes auxilium et expectantes vere, quod illa ymago sic
+					<lb/>crucifixa debeat eas iuvare. Et lugent inconsolabiliter filios et maritos,
+					<lb/>qui sunt sclavi Sarracenorum vel a Sarracenis occisi. Ad quam recurrent
+					<lb/>miseri nisi ad Matrem misericordie! Maria, mater gratie,
+					<lb/>mater misericordie, sic enim christiani comuni vocabulo te appellant,
+					<lb/>igitur monstra esse matrem, monstra te esse matrem Christi, cui
+					<lb/>Machometus et Sarraceni tam multipliciter detrahunt, monstra te
+					<lb/>esse matrem christianorum, quos Sarraceni tam multipliciter cruciant
+					<lb/>et affligunt! Non abhorreas peccatores, sine quibus nunquam fores
+					<lb/>tanto digna solio! O Iesu Christe, fili Dei vivi, nos christiani a te et
+					<lb/>a tuis apostolis accepimus, quod tu es verus Deus et verus homo, et
+					<lb/>propter sanctam fidem servandam milia mortui sunt! Iuvenes et virgines,
+					<lb/>senes cum iunioribus elegerunt mille mortibus mori quam ad
+					<lb/>momentum ab ista fede deficere, et ecce insurrexit contra nos bestia
+					<lb/>crudelissima, bestialis homo et diabolicus Machometus, et tantus
+					<lb/>honor exhibetur libro suo, et tantam potentiam dedisti populo suo
+					<lb/>contra fideles tuos et tanto tempore contra christianos! Domine, iste
+					<lb/>fere septingentesimus annus est, et nos quidem credebamus, quod
+					<lb/>motus et potentia in fine lentesceret et debilitaretur quasi motus quidam
+					<lb/>et potentia violenta. Ecce autem, quod in fine usque nunc
+					<lb/>semper intenditur et fortificatur, et contrario, proh dolor! fides nostra
+					<lb/>et potentia christianorum debilitari videtur. Certe tu Dei virtus et Dei
+					<lb/>potentia es, nec est possibile, quod ab homine infirmaris. Mee vero
+					<lb/>impatientie videtur, quod si tu non vis, quod aliquid de fide in terra
+					<lb/>remaneat, non habes nisi relaxare habenas Machometo et dare ipsi
+					<lb/>potentiam contra christianos, sicut iam incepisti facere ab aliquibus
+					<lb/>annis. Sed oro te, legas, quod de te dicit et de tua matre et de tuis
+					<lb/>apostolis! Ego autem pre maximo dolore cordis et impatientia, ut
+					<lb/>nosti, frequenter cum legerem alchoranum arabice, ipsum librum
+					<lb/>apertum posui super altare tuum coram ymagine tua et tue sanctissime
+					<lb/>matris, et dixi: «legatis, legatis quid dicit Machometus!» Et
+					<lb/>videtur michi, quod non vultis legere. Rogo igitur, quod non dedigneris
+					<lb/>audire pauca que referam, et ut de ceteris sileam, hoc unum
+					<lb/>tibi refero cum dolore, quod legi. Nam ipse dicit, quod tu excusasti
+					<lb/>te humiliter ante Deum, quod non eras Deus, nec hoc unquam dixeras,
+					<lb/>nec sciebas quod Deus cogitaverat, ita enim legi in capitulo quinto
+					<pb n="287"/>
+					<lb/>quod est capitulum elmeyde, quod interpretatur mensa: «Deus vocavit
+					<lb/>Iesum filium Marie et dixit ei: «Dixisti tu mundo quod tu eras
+					<lb/>Deus?» et respondit Iesus, filius Marie: «Laus tibi, Deus! Tu omnia
+					<lb/>nosti, tu scis, quod cogito, et ego nescio, quid cogitas. Absit a me
+					<lb/>ut dicam, quod non est!». Lege, lege, et da potentiam Machometo
+					<lb/>contra christianos ut vis! O Spiritus Sancte, illustrator omnium, o
+					<lb/>paraclite, o consolator pauperum, a te est omne verum! <hi rend="italic">Nemo enim
+					<lb/>potest dicere Dominus Iesus nisi in Spiritu Sancto</hi> (1 <hi rend="italic">Cor.,</hi> XII, 3). Et Deo
+					<lb/>patet, quantum fuit a te longinquus Machometus, qui tam falsa et tam
+					<lb/>impia protulit de domino Iesu Christo. Sed minor, quomodo permisisti
+					<lb/>scribi alchoranum, librum tot mendaciis et blasphemis plenum,
+					<lb/>sed permisisti ut blasphemaret, blasphemus mendacissimus mentiretur,
+					<lb/>sed permisisti ut mentiatur ita patenter, quod omnis homo
+					<lb/>adverteret fictionem sive mendacium. Et certe convincere illum
+					<lb/>possumus de facili mendacem atque blasphemum et fatuum tam per
+					<lb/>prophetiam quam per theologiam. Sed tu ita roborasti eum potentia
+					<lb/>temporali et virtute armorum, quod plus etiam dedisti ei quam ipse
+					<lb/>etiam mendacissimus in suo scriberet alchorano, at, quod peius est,
+					<lb/>sua potentia et doctrina pestifera iam incipit confirmari miraculis.
+					<lb/>Manifeste namque quedam miracula contigerunt in mari et in terra
+					<lb/>in captione Tripoli et Accon ad deiectionem christianorum et Sarracenorum
+					<lb/>triumphum. O altissime Pater et domine celi et terre, tibi
+					<lb/>conqueror de Sarracenis et Machometo! Nosti, Domine, quod Machometus
+					<lb/>nullo modo vult, quod tu dicaris pater, nec tui sanctissimi
+					<lb/>filii, qui est in celo, neque tuorum servorum, qui sunt in
+					<lb/>terra, ymmo dicit, quod si tu haberes filium, quod totus mundus,
+					<lb/>destrueretur, quia inter vos esset schisma. Nos autem per fidem accepimus,
+					<lb/>quod <hi rend="italic">ex te in patre omnis paternitas in celo et in terra nominatur</hi>
+					<lb/>(<hi rend="italic">Ephes.,</hi>III, 15). Tibi peccavimus Deo soli, tu vero castigasti
+					<lb/>nos castigatione crudeli! Si non fuimus filii, ut debuimus, tu semper
+					<lb/>es pater ut debes; te ipsum negare non potes. Iustificeris in sermonibus
+					<lb/>tuis, monstra te esse patrem, castiga nos, ut erudiendos filios,
+					<lb/>non ut perimendos hostes! Tu nos verbera, tu nos occide, ut vis
+					<lb/>et non ponas gladium in manu furiosi, in manu inimici tui et nostri,
+					<lb/>Machometi et Sarracenorum, qui nos torquent et occidunt, quia nolumus
+					<lb/>fidem tuam negare! Scimus enim, quod non <hi rend="italic">haberent potestatem
+					<pb n="288"/>
+					<lb/>in nos Sarraceni nisi fuisset eis data desuper</hi> (Ioh., XIX, 11); desinat
+					<lb/>indignacio tua contra nos!. <hi rend="italic">Contere brachium peccatoris et maligni</hi> (<hi rend="italic">Psalm.,</hi>
+					<lb/>X, 15), sentiant christiani, quia tu Deus et pater es! Sed ecce
+					<lb/>invenio in alchorano admyrabile, ymmo potius desiderabile, sed quod
+					<lb/>tu Deus oras pro Machometo! Ita enim legi in alchorano in capitulo
+					<lb/>trigesimo tertio, quod Deus et angeli eius orant pro Machometo.
+					<lb/>Te, per te, Deus, deprecor, non amplius ores pro eo! Si enim pro
+					<lb/>eis modicum plus oraveris, totum orbem sibi de facili subjugabunt,
+					<lb/>tantum enim iam orasti pro Sarracenis, quod iam non audent christiani
+					<lb/>stare coram eis in bello, neque in terra, neque in mari. Et
+					<lb/>ecce non est mirum, si christiani fugiunt Sarracenos et timent eo
+					<lb/>quod Deus orat pro Machometo et angeli eius. Ymmo mirum est,
+					<lb/>quod non iam deleverunt eos totaliter, maxime si a magno tempore
+					<lb/>incepisti orare pro eis. Sed quero te, Deus, quando tu oras pro Machometo
+					<lb/>et pro Sarracenis, quem rogas? Cum enim multa inveniam
+					<lb/>in alchorano, que usque nunc intelligere nequeo, hoc est unum de
+					<lb/>hiis, que nullo modo intelligere possum, maxime secundum opinionem
+					<lb/>Sarracenorum, qui horrent tam misterium incarnationis, quam secretum
+					<lb/>trinitatis. Set quem rogat Deus, cum orat pro eis? Quem
+					<lb/>igitur rogas? Rogas te ipsum simpliciter, rogas angelos, rogas homines,
+					<lb/>rogas demones? Certe non oportet roges demones; ipsi namque
+					<lb/>satis erunt solliciti pro temporali prosperitate Sarracenorum et de promocione
+					<lb/>alchorani; nam ipsum eciam Alchoranum testatur, quod
+					<lb/>demones diligunt alchoranum et ei credunt et quod multi ex demonibus
+					<lb/>facti sunt Sarraceni. Ita enim legi in capitulo xlvj et etiam
+					<lb/>in capitulo lxxvij. Ex capitulo Elgel quod interpretatur demon:
+					<lb/>quando demones audierunt alchoranum, mirati sunt et dixerunt aliis
+					<lb/>demonibus: «auscultate, audivimus alchoranum, quod dirigit in Deum
+					<lb/>et credimus et testamur eos esse Sarracenos»; et postea addiderunt
+					<lb/>demones aliis demonibus dicentes: «Venite, gens nostra, et recipite
+					<lb/>alchoranum, quia per ipsum possumus redire in Deum, etc.» que ibi.
+					<lb/>Et licet invenerim in alchorano infinita mendacia, hoc tamen ultimum
+					<lb/>credo firmiter esse verum, scilicet, quod alchoranum placet demonibus
+					<lb/>et in eo delectantur, sicut in sententia oris eorum. Magis
+					<lb/>enim credo ipsos esse auctores, quam homines, per quod tot homines
+					<lb/>decipiuntur et tot anime sine cessatione ad eternam dampnationem
+					<lb/>deducuntur. Quare te, Deus, precor cum omnibus sanctis
+					<lb/>tuis et tota celesti curia, quatenus nos afflictos et miseros christianos
+					<pb n="289"/>
+					<lb/>sub dominio Sarracenorum constitutos de tanta miseria liberare digneris.
+					<lb/>De Sarracenis autem tibi, quantum possum, supplico pater
+					<lb/>celi et terre, ut ostendas eis, te esse verum Deum et patrem Domini
+					<lb/>nostri Iesu Christi; multi enim ex eis ex ignorantia potius quam ex
+					<lb/>malitia peccant. Tibi autem honor et gloria cum omnibus sanctis tuis
+				<lb/>in secula seculorum amen! Data in oriente.</p>
+				<lb/>
+				<lb/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>IV.</head>
+				<lb/>
+				<head type="h_2"><lb/><hi rend="italic">Incipit epistola ad venerabilem patriarcham Ierosolimitanum et ad fratres
+				<lb/>predicatores qui fuerunt occisi in Accon.</hi></head>
+				<lb/>
+				<head type="salutatio"><lb/>[V]enerabili in Christo patri fratri Nicolao ordinis fratrum predicatorum,
+					<lb/>patriarche Iherosolimitano, et aliis fratribus qui mortui sunt
+					<lb/>in captione Accon, frater Ricoldus eiusdem ordinis afflictus et miser
+					<lb/>peregrinus in partibus orientis pro fide Christi predicanda se ipsum
+				<lb/>cum lacrimis et merore.</head>
+				<p><lb/>Quantum fuerit mihi dolor et tristitia cordis in captione Accon
+					<lb/>quilibet vestrum ex semetipso de facili cognoscere potest; experti
+					<lb/>estis similia. Nam usque ad profundas partes orientis, usque Baldacum,
+					<lb/>tunc eram, cum non solum nova sed etiam spolia christianorum
+					<lb/>venerunt. Et cum libri et paramenta venderentur, parvuli
+					<lb/>et mulieres circumducerentur publice per civitatem ad ignominiam
+					<lb/>christianorum et etiam, ut carius venderentur, sanctimoniales et
+					<lb/>virgines Deo dicate mitterentur ensenia regibus et baronibus Sarracenis,
+					<lb/>ego dolens et tristis querebam sollicite, si aliquos ex fratribus
+					<lb/>meis viderem, ut si possem aliquem ex eis redimere vel eis aliqua
+					<lb/>ministrare, et mirabar quam plurimum, quia inveniebam paramenta,
+					<lb/>tunicas, libros et breviaria et non inveniebam fratres. Sciebam enim
+					<lb/>nostri moris non esse, quod fratres vadant absque tunicis et breviariis.
+					<lb/>Et postea obtulerunt michi foccarii Sarracenorum, qui revertebantur de
+					<lb/>captione Accon, tunicam valde pulcram gladio vel lancea perforatam,
+					<lb/>que etiam modico sanguine rosea erat, nescio cuius vestrum fuit hec
+					<lb/>tunica, et redemi eam. Et postea dixerunt michi, quod nullus frater
+					<lb/>predicator ad vitam remanserat. Intellexi enim, quod vos occiderunt
+					<lb/><hi rend="italic">Sarraceni, ne essetis aliis captivis ad fidei firmamentum. Gaudete</hi>
+					<lb/>igitur fratres in Domino, <hi rend="italic">iterum dico, gaudete</hi> (<hi rend="italic">Philipp.,</hi> IV, 4)! Gaudete,
+					<lb/>quia pro fide occisi estis! Et eo quidem poteratis fugere, poteratis de
+					<lb/>civitate exire, quia iuxta mare erat noster conventus. Sed voluistis
+					<pb n="290"/>
+					<lb/>in civitate remanere, ut essetis aliis ad fidei firmamentum. Numquid
+					<lb/>igitur, ordine converso, malitia vincit sapientiam? Certe, sapientia
+					<lb/>vincit maliciam; et sicut firmiter spero, velint, nolint Sarraceni et
+					<lb/>Machometus, eritis nobis ad fidei firmamentum. Vere namque vos
+					<lb/>reputo sanctos et martires Dei, fuistis enim omnes missi a nostris
+					<lb/>maioribus in Accon, cum merito obedientie occisi estis pro
+					<lb/>bono obedientie, remansistis quidem, ut essetis aliis ad fidei firmamentum.
+					<lb/>Omnibus etiam constat, scientibus consuetudinem Sarracenorum,
+					<lb/>quod Sarraceni valde libenter pepercissent vobis mortem et
+					<lb/>dedissent donaria, si voluissetis negare fidem Christi et effici Sarraceni.
+					<lb/>Omniquaque igitur vos martires Dei reputo et pro fide mortuos,
+					<lb/>etiam si tunc non potuissetis fugere. An forte minor Christi
+					<lb/>pietas quam soldani impietas, ut ille quidem potuerit innoxios neci
+					<lb/>dare, Christus non potuerit propter se mortuos merito coronare? Gratias
+					<lb/>ago Deo meo semper pro vobis in gratia Dei, que data est vobis,
+					<lb/>et non miror, si breviaria et libros et tunicas dimisistis. Non enim
+					<lb/>amplius indigetis, quia in omnibus divites facti estis in illo, in omni
+					<lb/>verbo et in omni scientia, sicut testimonium Christi confirmatum est
+					<lb/>in vobis; potius enim indigebatis dimettere tunicam mortalitatis. Non
+					<lb/>enim fas est hominem indutum sacco entrare aulam regis eterni.
+					<lb/>Gaudete igitur fratres, quia presentis vite pericula evasistis! Sed magis
+					<lb/>gaudete, quia ad Deum vestrum cum palma martirii introistis!
+					<lb/>Gaude et tu, patriarcha Iherosolimitane, frater Nicolae ordinis predicatorum,
+					<lb/>et pro Iherusalem destructa et desolata, quam tu tantum
+					<lb/>desiderabas videre et edificare Christo, bene potest tibi sufficere Iherusalem
+					<lb/>que construitur in celis vivis ex lapidibus, ut ibi regnes cum
+					<lb/>Christo! Et ego miser, quando primo audivi, te submersum fuisse
+					<lb/>in mare, ut stolidus et impatiens valde tristatus fui. Nunc autem magis
+					<lb/>gaudeo, non quia submersus fuisti, sed quia procul dubio multo
+					<lb/>populo liberando et conservando in fide Christi submersus fuisti tamquam
+					<lb/>dux, qui non sibi, sed populo suo timet, felix patriarcha, qui
+					<lb/>tantum cogitabat liberare multum populum, quod moritur ipse, felix
+					<lb/>pontifex, qui se ipsum pontem facit, ut populus liberetur et transeat!
+					<lb/>In te igitur, pater et frater Nicolaus, quasi alterum Ionam recogito
+					<lb/>(Jon. I, 12) qui sponte in mare proicitur, ut ceteri liberentur.
+					<lb/>Et tu quidem, frater sic voluisti, sic ostendisti, sed nunquam mare
+					<lb/>insanum talem hominem debuit absorbere; fere desidero, quod unda
+					<lb/>insana pereat, que rapuit tam sapientem hominem, amarissimum
+					<lb/>mare amaritudine repleatur, quod absorbuit virum tam dulcis et sancte
+					<lb/>conversationis! Pisces etiam morientur sane qui talem patrem pauperibus
+					<pb n="291"/>
+					<lb/>non portaverunt ad littus! Sed certe, dum melius recogito,
+					<lb/>tu non es melior nec dignior sancto Clemente quem et permisit in
+					<lb/>mare proici et mandavit etiam suis discipulis, quod aliquibus temporibus
+					<lb/>dimitteretur ibi. Sit igitur corpus tuum in mari Acconensi,
+					<lb/>quousque Deo placuerit, sit tamen alter Clemens corpus clementis
+					<lb/>et pii hominis! Sit et nobis quasi anchora et spes recuperandi
+					<lb/>loci. Sic igitur tristitia nostra nobis in gaudium vertitur, dum
+					<lb/>inveniemus illud esse nobis materiam gaudii et honoris, quod timebamus
+					<lb/>esse causam tristitie et meroris. Gaude igitur, pater pauperum, frater
+					<lb/>Nicolae, patriarcha Iherosolimitane! Gaudete, fratres, qui cum eo ivistis!
+					<lb/>Gaude et tu, magne pater sancte Dominice! Gaudeat et ordo fratrum
+					<lb/>predicatorum, qui ex merito sancte obedientie tale ensenium mittit ad
+					<lb/>celum, unum talem patriarcham cum triginta fratribus simul et semel.
+					<lb/>Vere credo quod fratres nostri letati sunt vehementer in celo, quando
+					<lb/>tot et tales hospites susceperunt, ymmo non <hi rend="italic">estis hopites et advene</hi>
+					<lb/>(<hi rend="italic">Levit.</hi>XXV, 23) sed estis <hi rend="italic">cives sanctorum et domestici Dei</hi> etc!
+					<lb/>(<hi rend="italic">Ephes.,</hi> II, 19) Felix illa processio a qua nec fratres minores fuerunt
+					<lb/>exclusi! Audivi enim, quod circa horam mortis aliqui, nescio qui, ex
+					<lb/>karissimis nostris fratribus minoribus in domo nostra se recluserunt
+					<lb/>vobiscum et etiam vobiscum pariter sunt occisi. Gaudete fratres in
+					<lb/>Domino semper! Ego tamen tristis et merens incedo quia inter tristes
+					<lb/>et miseros remansi miser et, dum de eterno gaudio volo aliquid cogitare,
+					<lb/>statim resorbeor tristitia solita, et subito commuto cor et verba,
+					<lb/>et dolore torqueor. Heu michi, quia natus sum videre contritionem
+					<lb/>populi mei! Heu michi, quia video tantam deiectionem fidei christiane!
+					<lb/>Ubi est Tripolis, ubi est Accon, ubi sunt ecclesie christianorum,
+					<lb/>que ibi erant, ubi reliquie sanctorum, ubi religiosi et religiose,
+					<lb/>que Dominum laudabant quasi astra matutina! Ubi est multitudo
+					<lb/>populi christiani, qui ibi erant! Certe religiosi et bellicosi occisi
+					<lb/>sunt, pueri reservati, ut efficiantur Sarraceni et femine matrone sanctimoniales
+					<lb/>et virgines date sunt Sarracenis concubine et sclave, ut ex
+					<lb/>eis Sarracenorum populus augeatur. Vos autem de vobis dicite michi
+					<lb/>fratres, qua hora fuistis occisi, et quid dixistis, quando venerunt
+					<lb/>super vos inimici fidei christiane! Audivi enim, quod feria sexta, hora
+					<lb/>tertia, occisi fuistis. Audivi enim, quod de mane celebrastis et communicastis
+					<lb/>omnes, et convenit ad vos magna multitudo virorum et
+					<lb/>mulierum ac parvulorum. Audivi a religiosa domina et fide digna, que
+					<lb/>capta fuit a Sarracenis et presens erat, quando fuistis occisi, quod
+					<lb/>quando intraverunt ad vos Sarraceni, vos altis vocibus canebatis:
+					<lb/><hi rend="italic">Veni creator Spiritus.</hi> Et certe digne. Si enim digne cantatur: <hi rend="italic">Veni,
+					<lb/>creator Spiritus,</hi> quando unus recipitur ad ordinem predicatorum valde
+					<pb n="292"/>
+					<lb/>conveniens erat quod cantaretur, quando tot fratres predicatores recipiebantur
+					<lb/>ad ordines angelorum! Dum igitur sic cantaretis, occiderunt
+					<lb/>vos, et postea non sunt audita nova de vobis. Dicite michi, fratres,
+					<lb/>de quo cantastis missas, puto, quia de Domina nostra vel de
+					<lb/>cruce. Salve sancta parens, salve mater ecclesia, que tot et tales filios
+					<lb/>peperisti cum tanto gemito et tanto dolore! Tristitia vestra versa
+				<lb/>est in gaudium (cf. Jer., XXXI, 13).</p>
+				<p><lb/>Nos autem, qui relinquimur, qui residui sumus, pressuram et tristitiam
+					<lb/>sustinemus. Nos autem gloriari oportet; cantabant cum fiducia fratres
+					<lb/>mei. Certe vos gloriari oportet in cruce. Ego vero usque ad horam
+					<lb/>istam me torquere et tributari vehemens sentio ad pedes crucis. Vos
+					<lb/>cantatis: <hi rend="italic">Gloria in excelsis Deo</hi>! Sed ego rispondere possum, quod in
+					<lb/>terra non est pax sed tribulatio multa etiam hominibus bone voluntatis.
+					<lb/>Sed procedatis in missa vestra, ut placet et vos firmare
+					<lb/>oportet, quia iam intraverunt Sarraceni civitatem et occidebant christianos,
+					<lb/>cum cantabatis missam. Et postquam complevistis missam,
+					<lb/>venerunt ad vos Sarraceni, qui iam cruenti erant de cruore occisorum
+					<lb/>et vos refertos et inebriatos invenerunt sanctissimo sanguine
+					<lb/>vivificatoris, quem qui digne biberit etc.; si mortuus fuerit, vivet. <hi rend="italic">Ite
+					<lb/>missa est, ite in pace</hi>! Ego vero merore remaneo, et sanguis vester
+					<lb/>remanebit effusus et corpora inhumata. Terra ne operias sanguinem
+					<lb/>fratrum meorum, qui effusus est, neque inveniat in te locum
+					<lb/>latendi! Clamor vicit, <hi rend="italic">et ego satis clamo et vociferor, et non est qui respondeat</hi>
+					<lb/>(cf. Iob., XIX, 7). <hi rend="italic">Peto et non accipio, et tamen non videtur michi,
+					<lb/>quia male petam nisi pro tanto solum, quia non accipio</hi> (cf. Jacob., IV, 3).
+					<lb/><hi rend="italic">Numquid contra hominem disputatio mea est, ut merito non debeam contristari?
+					<lb/>Et ego quando recordatus fuero, pertinesco, et concutit carnem
+					<lb/>meam tremor</hi> (Iob., XXI, 4, 7). O fratres, nonne videtur Deus manifeste
+					<lb/>suscitare antiqua miracula et manifestat pro Sarracenis et contra christianos?
+					<lb/>Ex quibus miraculis sequitur, quod christiani occiduntur,
+					<lb/>captivantur, torquentur et fidem negant. Nonne enim civitas Acconensis
+					<lb/>posset a christianis, qui ibi erant, optime custodiri, ut christiani
+					<lb/>nullo modo possent credere, quod Deus permitteret, quod civitas
+					<lb/>caperetur? Iecit quidam Sarracenus inimicam sigittam et percussit
+					<lb/>magistrum Templi inter stomachum et pulmonem quasi alterum
+					<lb/>Achab regem Israel (1 <hi rend="italic">Reg.,</hi> XXII, 34, 35), et mortuus est eodem sero
+					<lb/>vesperi, per quem civitas poterat tueri et statim sequenti mane
+					<lb/>capta est civitas subiter absque ulla contradictione. Et versi sunt
+					<lb/>christiani in tantum stuporem, ymmo in tantam formidinem et terrorem,
+					<lb/>ut ita gratis et sine causa muros et maxime fortilicia civitatis
+					<pb n="293"/>
+					<lb/>dimitterent Sarracenis, quasi exercitus angelicus exisset contra
+					<lb/>christianos. Numquid illa hora forte Deus et angeli eius oraverunt
+					<lb/>pro Machometo, sicut scriptum est in alchorano? Certe non oportet,
+					<lb/>quod amplius orent pro eo, quia si solum sic dimiserint nos Deus
+					<lb/>et angeli eius et Sarraceni sic continuaverint, sicut modo fecerunt
+					<lb/>in duobus annis in Tripoli et in Accon, timeo, quod in paucis
+					<lb/>annis non invenietur in toto mundo aliquis christianus. Et ego pro
+					<lb/>succursu iam pridem scripsi litteras divine Sapientie et sue sanctissinie
+					<lb/>matri et toti curie celesti et expectavi, ut venirent bona, et ecce
+					<lb/>videtur michi quod semper multiplicentur mala. Et non solum non
+					<lb/>miserunt adiutorium, sed etiam non recepi responsum et factum est
+					<lb/>michi verbum Domini: «<hi rend="italic">Manda, remanda, manda, remanda, expecta, reexpecta,
+					<lb/>expecta, reexpecta, modicum ibi, modicum ibi</hi>» (Iesai., XXVIII, 13).
+					<lb/>Et modicum protenditur in longum, et interim Sarraceni occidunt,
+					<lb/>spoliant et captivant christianos, et cogunt eos negare fidem Christi et
+					<lb/>predicare perfidiam Machometi, et etiam interim Sarraceni christianas
+					<lb/>mulieres impregnant et maxime que fuerunt sanctimoniales et religiose,
+					<lb/>ex quibus, experientia teste, generant bellicos homines potentes
+					<lb/>a seculo viri famosi. Ex quibus faciunt duces et soldanos, quos quidem
+					<lb/>inveniunt valde sollicitos et fideles ad internecionem populi
+					<lb/>christiani. Quare vestram fraternitatem deprecor, quantum possum,
+					<lb/>quatenus sitis cum sanctissimo patre beato Dominico et frequenter
+					<lb/>compareatis coram matre Dei, matre pietatis et misericordie, et ostendatis
+					<lb/>vestra vulnera et capita incisa et corpora cruentata, sicut vos
+					<lb/>paraverunt Sarraceni feria illa sexta post missam et illos, qui se vobiscum
+					<lb/>recollegerunt, et ordinetis, quod ipse beatus Dominicus, qui
+					<lb/>est valde acceptus Domine nostre ut minister intelligens, porrigat
+					<lb/>ei petitionem pro salute populi christiani, et maxime pro succursu
+					<lb/>Terre Sancte et illam, que super omnes est, inducat, quantum potest,
+					<lb/>quod ipsam pro nobis petitionem porrigat altissimo regi vel ad
+					<lb/>minus inducat, quod ipsa solam causam nostram suscipiat, non obstante
+					<lb/>si christiani fecerint ei vel suo filio iniuriam aliquam. Si hoc
+					<lb/>solum potest facere beatus Dominicus, dicatis ei, quod secure dimittat
+					<lb/>totum negotium super eam. Rogo vos fratres propter Deum
+					<lb/>et vestras sanguinolentas tunicas, quod non differatis tantum nos iuvare,
+					<lb/>quod sompnus vestre contemplacionis transeat et postea obliviscamini
+					<lb/>totum et nichil fiat. Nec sitis negligentes, sicut fuerint alii
+					<lb/>fratres nostri, qui fuerunt occisi in Antiochia, qui fuerunt quidem
+					<lb/>occisi et nichil de eis magnificum vidimus. Credebamus enim, quod
+					<pb n="294"/>
+					<lb/>sanguis eorum, sanctus et crudeliter a Sarracenis effusus ita efficaciter
+					<lb/>clamaret ad Deum, ut Sarraceni cito de tota provincia delerentur. Nos
+					<lb/>semper tamen de malo in peius et de peyori usque ad hec tempora
+					<lb/>in pessimum procedentes tota Terra Sancta et tota Syria ignominiose
+					<lb/>et vituperabiliter privati sumus. Vos autem fratres nolite desistere,
+					<lb/>donec nostrum negotium Dei gratia et vestro studio ad finem certum
+					<lb/>perducatur! Quidquid autem inde feceritis, michi per vestras litteras
+					<lb/>vel certum nuncium, quanto citius significare velitis. Hoc etiam rogo,
+					<lb/>quod michi secreto significetis, si Domina nostra leta facie recepit
+					<lb/>petitionem nostram; credo enim, eam graviter fuisse offensam istis
+					<lb/>temporibus a multis christianis peccatis. Sed quia regina est misericordie,
+					<lb/>facile placabilis est; et quia mater est, pia est etiam filiis
+					<lb/>malis. Ut autem de intimo cordis mei vobis referam aliquid in secreto,
+					<lb/>quod tamen teneatur vobis, tam multum miror, quod nondum
+					<lb/>facta est placatio. Etsi nullus cogisset eam, nisi ego peccator cum
+					<lb/>tanta fiducia rogavi eam. Verumtamen, ut dixi hoc ultimum teneatur
+					<lb/>vobis, et nolite dicere sibi. Timeo enim vehementer ipsam, ne aut
+					<lb/>pro pusillanimitate mee fidei aut pro nimia confidentia michi peccatori
+					<lb/>similiter indignetur. Gaudete in Domino semper et dum gaudetis
+				<lb/>recordamini de tribulationibus miserorum! Data in oriente.</p>
+				<lb/>
+				<lb/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>V.</head>
+				<lb/>
+				<head type="h_2"><lb/><hi rend="italic">Divina responsio ad omnia predicta per doctrinam beati Gregorii pape.</hi></head>
+				<lb/>
+				<p><lb/>Et factum est post hec omnia, quod die tertia cum essem nimis
+					<lb/>anxius de expectatione responsionis et mirarer plurimum, quia non
+					<lb/>respondebant michi neque per nuncium, neque per scripturam, neque
+					<lb/>per sompium apertum, quod ego intelligerem, mala semper michi
+					<lb/>videbantur crescere, cepi admirari amplius solito et timere pro impatientia,
+					<lb/>cepi aliquantulum pusillanimis esse ad scribendum eis epistolam,
+					<lb/>maxime cum nescirem, quibus aliis scriberem vel que alia ac
+					<lb/>dixi, ne forte sim ab eis taliter elongatus per meam impatientiam
+					<lb/>aut per aliam causam, quod non inveniatur nuncius, qui velit portare
+					<lb/>vel representare literas tante impatientie in curia regis eterni.
+					<lb/>Set certe nullo modo despero, nullo modo credo posse pati repulsam
+					<lb/>in illa curia, ubi parati sunt michi tot presidia, ubi filius ante patrem,
+					<lb/>ubi mater ante filium. Machometus autem, contra quem Dei et celestis
+					<lb/>curie patrocinium postulo, patri et filio et matri et toti celesti
+					<lb/>curie michi manifeste videtur esse contrarius. Et ideo non deicior,
+					<lb/>sed firmiter credo, quod responsionem practicam mihi mittent et non
+					<lb/>theoricam solum. Et hanc, scilicet practicam responsionem facti non
+					<pb n="295"/>
+					<lb/>verbi, petii. Nichilominus tamen me multum letificasset bone promissionis
+					<lb/>amica responsio, et maxime cum desiderarem audire, ex qua
+					<lb/>causa percusserit nos Dominus plaga inimici tam crudeli castigatione,
+					<lb/>et ad quem finem perducet ipsa dura oppressio, et qua ratione percusserit
+					<lb/>nos Dominus per Sarracenos, per homines habentes tam perfidam
+					<lb/>fidem, qui totam curiam celestem tam manifeste blasphemat.
+					<lb/>Et cum non responderent michi per alium certum nuncium, cogitavi
+					<lb/>de Dei bonitate confisus, de libris sanctis a Deo michi responsionem
+				<lb/>mee admirationis expetere.</p>
+				<p><lb/>Et quum esset coram me clausus <hi rend="italic">Liber moralium</hi> beati Gregorii, a
+					<lb/>Deo petii responsionem ex doctrina beati Gregorii, cui etiam singulariter
+					<lb/>inscripseram in mea comploratione. Orans igitur dixi: «O sancte
+					<lb/>Gregori, postquam non vultis michi per certum nuncium respondere
+					<lb/>aut per novas literas, rogo te, ostende vel per antiquam doctrinam
+					<lb/>tuam, quare Deus michi non respondeat, maxime cum sim in tanta
+					<lb/>amaritudine anxius etiam divine responsionis». Et tunc audivi vocem
+				<lb/>quasi in corde meo quam ego […] dicens:</p>
+				<p><lb/>«Tolle, lege, tolle, lege!» Et cum librum subito aperirem, apposicione
+					<lb/>digiti et oculorum aspectui «pparuit michi una facies eloquiorum
+					<lb/>castorum, in qua toti sic mee questioni respondit Dominus per
+					<lb/>servum suum Gregorium, ut non oporteat questionem nostram apud
+					<lb/>alium iudicem ventilari. Occurrit enim illud in (Iob., XIX, 13-14)
+					<lb/><hi rend="italic">Adversus eum contendis quod non ad omnia verba responderit tibi? Semel loquitur Deus, et secundo ad ipsum non repetit.</hi> Quod exponens Gregorius,
+					<lb/>a quo michi responderi petiveram, dicit: <hi rend="italic">Afflicti cordis est proprium
+					<lb/>ut in omne, quod appetit, et tamen non rerum ordinem contrarium
+					<lb/>sensit, si possit fieri, cur ita vel non sit ita, Dominus sibi vocibus
+					<lb/>responderi velit. - Heliu autem, previdens quod scripturam sacram Dominus
+					<lb/>conderet, ut in ea vel publice vel occulte cunctorum questionibus responderet,
+					<lb/>ayt:</hi> ADVERSUS EUM CONTENDIS etc. Et post: SEMEL LOQUITUR
+					<lb/>DEUS etc. <hi rend="italic">ac si aperte diceret (Deus): singulorum cordibus privatis vocibus
+					<lb/>non respondit, sed tale eloquium construit, per quod cunctorum
+					<lb/>questionibus satisfecit. In scripturis quippe causas nostras, si requirimus
+					<lb/>invenimus. - Ibi enim nobis omnibus in eo, quod specialiter patimur,
+					<lb/>comuniter respondetur, ibi vita precedentium sit forma sequencium</hi> etc. Et
+					<lb/>post pauca repetit beatus Gregorius dicens: SEMEL LOQUITUR DEUS
+					<lb/>ET SECUNDO AD IPSUM NON REPETIT, <hi rend="italic">quia in hiis que per Scripturam
+					<lb/>Sacram ad patres nostros protulit nos erudire procuravit. Discant itaque
+					<pb n="296"/>
+					<lb/>sancti doctores ecclesie, dicant etiam arrogantes, cum in terra ecclesiam
+					<lb/>laborare quosdam pusillanimos conspiciunt, quia Deus nobis ad omnia
+					<lb/>verba non respondet, id est cogitationibns vel temptationibus singulorum
+					<lb/>iam non passim per prophetarum voces, nec per angelica officia satisfacit,
+					<lb/>quia Scriptura Sacra, quidquid potest singulis evenire, comprehendit atque
+					<lb/>in illa per exempla precedentium etiam vitam sequentium informare curavit.</hi>
+					<lb/>Hec Gregorius. Gratias tibi ago, Domine, quia ita questioni mee satisfecisti
+					<lb/>per servum tuum Gregorium quod nichil amplius in questione
+					<lb/>remaneat! Verum tamen per hec non satisfactum est petulantie
+					<lb/>querentis. Cum enim inveniam in Sacra Scriptura, quod castigaveris
+					<lb/>aliquos ut amicos, ut timeant vel caveant, aliquos vero percusseris ut
+					<lb/>inimicos castigatione crudeli, ut ex nunc dampnare et reprobare incipias,
+					<lb/>et iterum aliquos longo tempore astringi permiseris, aliquos
+					<lb/>vero quamtocius liberaveris, adhuc in eadem dubitatione remaneo et
+					<lb/>etiam in maiori timore quam prius, ne forte christianos orientales
+					<lb/>afflixeris istis temporibus, ut inimicos vel etiam ut amicos affligendos
+					<lb/>diutius. Quapropter de tua plene benignitate confisus quero, peto,
+					<lb/>pulso ut hostia michi divine misericordie patefiat et ecclesia, que
+					<lb/>in partibus orientalibus tanto patet contemptui apud infideles et sub
+					<lb/>persecutione Sarracenorum gravissime afflicta lacrimabiliter ingemiscit,
+					<lb/>divino citius auxilio roborata plenius consoletur. Pro responsione denique
+					<lb/>theorica gratias ago, practicam vero nichilominus affectuose atque
+				<lb/>indesinenter expecto. Scripta in oriente. Explicit. Deo gratias.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

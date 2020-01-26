@@ -1,0 +1,888 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De ordine docendi ac studendi</title>
+				<author>Battista Guarino</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>L. Piacente</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="6024" unit="words">Parole: 6024</measure>
+				<measure quantity="36807" unit="characters_without_spaces">Caratteri (spazi esclusi): 36807</measure>
+				<measure quantity="42119" unit="characters_witht_spaces">Caratteri (spazi inclusi): 42119</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-02-05">05/02/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Trattatistica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell'opera: 1459
+					Parole: 6074
+					caratteri (con spazi): 42500
+					Il testo critico adottato è curato da L. Piacente (Bari, Adriatica ed. 1995), aggiornato con limitati ripensamenti testuali e con l'eliminazione di alcune mende tipografiche.
+				CC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Battista Guarini</author>
+						<title level="m">La didattica del greco e del latino. De ordine docendi ac studendi e altri scritti</title>
+						<editor>L. Piacente</editor>
+						<imprint>
+							<publisher>Edipuglia</publisher>
+							<pubPlace>Bari</pubPlace>
+							<date>2002</date>
+							<biblScope unit="page">26-70</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Quaderni di Invigilata lucernis</title>
+						<biblScope unit="volume">15</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Trattatistica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1401/1500">XV</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="26"/>
+		<div>
+			<head><lb/><hi rend="italic">BAPTISTAE GUARINI LIBELLUS AD NOBILEM ADULESCENTEM
+			<lb/>MAFFEUM GAMBARAM DE ORDINE DOCENDI AC STUDENDI</hi></head>
+			<lb/>
+			<div type="chapter">
+				<head><lb/>1.</head> <p>Etsi, Maffee carissime, ea sit morum et ingenii tui elegantia
+					<lb/>ut sponte tua non in divitiis aut maiorum imaginibus,
+					<lb/>quae tibi larga manu fortuna praebuit, sed in virtute veram nobilitatem
+					<lb/>repositam esse antea iudicares, tamen ex Iuvenalis
+					<lb/>nostri satyra, quae eam materiam dilucide absolvit, sic nuper
+					<lb/>eam opinionem animo tuo inhaesisse cognovi, ut ad capessenda
+					<lb/>haec humanitatis studia multo ferventior et alacrior evaseris.
+					<lb/>Ea propter boni praeceptoris officium esse duxi aliquam tibi
+					<lb/>viam et quendam quasi studiorum cursum declarare, per quem
+					<lb/>facillime istam aviditatem expleres et, quasi adiectis sponte currenti
+					<lb/>calcaribus, te ipsum duplicata cupiditate incitares. Tuo igitur
+					<lb/>nomini libellum hunc destinavi, ex quo tam graece quam
+					<lb/>latine et praeceptoris in erudiendis adulescentibus et ipsorum
+					<lb/>discipulorum in studendo tum officium tum ordinem percipies:
+					<lb/>quod si qua erunt quae ad te minime pertinere intelligas, putabis
+					<lb/>me non tam tibi quam ceteris sub tuo nomine adulescentibus
+					<lb/>hoc perfectum et discendi et docendi commentariolum voluisse
+					<lb/>largiri; te ea tantum excerpes quibus te indigere senties. Neque
+					<lb/>dubitaverim affirmare eos qui sub eiusmodi institutione docti
+					<lb/>fuerint in eruditissimorum hominum numero aliquando habendos
+					<lb/>esse: ea etenim collegi quae non meo tantum iudicio, quod
+					<lb/>non magnum utpote adulescentis esse potest, sed doctissimorum
+					<lb/>etiam virorum, et in primis optimi parentis mei, quem
+					<lb/>longo iam tempore in hoc docendi munere exercitatum fuisse
+					<lb/>non te fugit, ad praecipiendi studendique rationem maxime conducere
+					<lb/>videbantur. Itaque ea legens non me, sed ipsum parentem
+					<lb/>loqui existimabis, nihilque scriptum esse tibi persuadebis
+					<pb n="28"/>
+					<lb/>quod non longo usu probatum sit. Ceterum ne hoc verbis falso
+					<lb/>extollere videar, tu rem iam videbis et, ut spero, praecepta ipsa
+				<lb/>assidua exercitatione vera esse cognosces.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2.</head> <p>Antequam tamen ad docendi studendique praecepta
+					<lb/>veniamus, haudquaquam a proposito nostro alienum esse videbitur,
+					<lb/>si adulescentes ipsos admonuerimus, primum ut quam
+					<lb/>eis praeceptor extrinsecus tradere non potest discendi cupiditatem,
+					<lb/>ipsi per se sponte illam arripiant et ad hydropis similitudinem
+					<lb/>se conforment, cui, ut inquit Ovidius, «quo plus sunt
+					<lb/>potae, plus sitiuntur aquae». Sic et ipsi quo plura in dies didicerint,
+					<lb/>eo plura percipere et haurire tamquam diuturnam sitim
+					<lb/>extinguere cupientes incitentur, teneantque illud assidue ante
+					<lb/>mentis oculos quod Isocrates graecus praecipit: «Si eris
+					<lb/>discendi studiosus, multa disces». Facile autem ad eam aviditatem
+					<lb/>se ipsos exhortabuntur si, ut idem inquit Isocrates,
+					<lb/>«turpe esse» cogitaverint «mercatores tot tantaque maria navigare
+					<lb/>ut divitias amplificent, iuniores vero terrestri itinere ad
+					<lb/>praeceptores tendere ut meliorem mentis habitum constituant»
+					<lb/>si animo etiam versaverint nullam esse possessionem
+					<lb/>doctrina honestiorem aut stabiliorem: nam pulchritudinem et
+					<lb/>robur, etiam si nullo morbo diminuantur, certe senectus ipsa
+					<lb/>conficit; pecuniae vero saepius inertiae causam quam adipiscendae
+					<lb/>virtutis materiam praestant. Nam sicut in extrema inopia
+					<lb/>positis haud facile est emergere, ita omnium rerum copia
+					<lb/>affluentes ad voluptatem facillime alliciuntur. Ubi autem
+					<lb/>voluptatis regnum adsit, ibi difficile est virtutem consistere.
+					<lb/>Quod si aetatis inbecillitate non eam prudentiam habebunt ut id
+					<lb/>animadvertere queant, parentum erit officium ad id blandis
+					<lb/>vocibus teneras illorum aures consuefacere et minis a voluptatibus
+					<lb/>deterrere, ut quod ab infantia imbiberint desiderium cum
+					<lb/>aetate simul accrescat; et cum adulti voluptatum sermones
+					<lb/>audierint, quasi adhuc paternae vocis praecepta auribus intonent,
+					<pb n="30"/>
+					<lb/>eos ut venena horreant et detestentur. Deinde in praeceptore
+					<lb/>colendo paternam sibi constituant sanctitatem; nam si eum
+					<lb/>contempserint, eius quoque praeceptionem contemnant necesse
+					<lb/>est. Neque enim existimandum est maiores illos temere
+					<lb/>praeceptorem sancti voluisse parentis esse loco; sed ut ille
+					<lb/>maiore cum diligentia benivolentiaque eos instrueret, ipsi
+					<lb/>autem venerabundi eius dicta velut e paterna quadam affectione
+					<lb/>manantia observanda esse crederent; quo circa ea in re
+					<lb/>Alexandri Magni exemplum imitabuntur qui non minus se
+					<lb/>Aristoteli praeceptori quam Philippo patri debere praedicabat,
+					<lb/>propterea quod ab hoc esse tantum, ab illo et bene esse accepisset.
+					<lb/>Qui vero animus ita institutus fuerit, optimam de se
+					<lb/>spem pollicebitur, ut omnium non modo exspectationem, sed
+					<lb/>etiam vota sit superaturus: nam, ut ait Crispus, «ubi intenderis
+					<lb/>ingenium valet». In primis autem id cavendum erit ne rudibus
+					<lb/>et indoctis ab initio praeceptoribus tradantur erudiendi, a
+					<lb/>quibus illud Ciceronis consequantur ut «dimidio stultiores»
+					<lb/>redeant quam accesserint. Ut enim tempus taceam quod amittunt,
+					<lb/>efficitur profecto illud Timothei musici ut postea duplex
+					<lb/>suscipiendus sit labor: alter quo ea quae didicerunt oblivioni
+					<lb/>tradant, quod sane difficillimum est iuxta Flacci sententiam,
+					<lb/>«quo semel est imbuta recens servabit odorem / testa diu»;
+					<lb/>alter, ut ad meliores praeceptiones evehantur; quod etiam eo
+					<lb/>tardius fit, quo in prioribus illis obliterandis necesse est operam
+					<lb/>tempusque consumere. Omnino danda erit opera, ne pueri
+					<lb/>propter litterarum disciplinam graviter et acriter verberentur;
+					<lb/>habet enim ea res servile quiddam et generosus saepenumero
+					<lb/>animus ita indignatur, ut plagarum causa iam tum litteras oderit
+					<lb/>cum necdum gustare coeperit. Adde quod metu verberum
+					<lb/>declamationes eis propositas non ingenio proprio componunt,
+					<lb/>sed ab aliis occulte compositas afferunt; quod capitale et perniciosissimum
+					<pb n="32"/>
+					<lb/>est, nam utrumque vehementer fallit: et praeceptorem,
+					<lb/>qui spem falsam praesumi et discipulum, qui id non
+					<lb/>intelligit quod a se factum mentitur. Honestius igitur et utilius
+					<lb/>erit vel blanditiis agere, vel interdum solo verberum terrore, ita
+					<lb/>ut plagae statim subsecuturae videantur; nam si securus fuerit,
+					<lb/>maximam neglegentiae fenestram licentia illa praebebit: si
+					<lb/>vero paulo adulti fuerint, ut honoris cupiditate excitari possint,
+					<lb/>tunc admonendi erunt quanto dedecori id futurum sit, si operam
+					<lb/>luserint, si reliquis ignaviores tardioresque apparuerint. Et
+					<lb/>ut magis eos nescire quam discere pudeat, placet etiam ut pueris
+					<lb/>ipsis aliquis ad disciplinam socius adiungatur, cuius aemulatione
+					<lb/>quibusdam quasi igniculis accendantur; est enim nobilibus
+					<lb/>animis quaedam insita generosa invidia, ut in eodem studii
+					<lb/>genere versantibus postponi et quasi hebetiores relinqui
+					<lb/>erubescant: ex quo sequitur ut certatim aemulantes alter alterum
+					<lb/>reddant alacriorem. Non tamen id probamus, ut sub eodem
+					<lb/>praeceptore magnus puerorum numerus prima simul elementa
+					<lb/>doceatur. Dum enim omnibus satisfacere cupit omnibusque se
+					<lb/>impartit, nemini aut integram aut magnam impendit curam;
+					<lb/>quo fit ut, sicut nemo neglectus, ita et nemo bene doctus inde
+					<lb/>revertatur. Hoc autem de iis praecipimus qui prima litterarum
+					<lb/>fundamenta perdiscunt; nam in paulo progressis, qui iam poetas
+					<lb/>et historicos et oratores audire possunt, id minime est
+					<lb/>necesse; nam quo maior erit turba, eo diligentius praeceptor
+				<lb/>ipse legere conabitur quia Ovidio teste «excitat auditor studium».</p>
+				<lb/>
+			</div>
+			<div type="chapter">
+				<head><lb/>3.</head> <p>In illis autem erudiendis ordinem hunc servari oportebit,
+					<lb/>ut litteras et verba aperte quidem et expedite, non tamen
+					<lb/>expresse nimis pronuntiare consuescant; nam sicut obscura est
+					<lb/>intra dentes murmuratio et verborum conculcatio, ita iniucunda
+					<lb/>et fastidiosa vehemens tum litterarum expressio, tum in
+					<lb/>verbis quasi syllabarum dilatatio. Deinde grammaticam omni
+					<pb n="34"/>
+					<lb/>ex parte perfecte docendi sunt; ut enim in aedificiis nisi valida
+					<lb/>iacta sint fundamenta quicquid supra construas corruat
+					<lb/>necesse est, ita et in studiorum ratione, nisi principia optime
+					<lb/>calleant, quo magis progrediuntur eo magis inbecillitatem
+					<lb/>suam sentiunt. Quocirca nomina et verba declinare in primis
+					<lb/>pueri sciant, sine quibus nullo modo pervenire ad intellectum
+					<lb/>sequentium possunt; nec semel tantum docuisse contentus
+					<lb/>sit praeceptor, sed saepe repetens iterumque iterumque
+					<lb/>memoriam in his puerorum exerceat et, tamquam diligens
+					<lb/>imperator, quid didicerint et quantum recognoscat; interdum
+					<lb/>vitiose ipse declinet ut illorum certitudinem tentet: magnum
+					<lb/>enim proficiendi testimonium erit, cum aliorum errores intelligere
+				<lb/>videbuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>4.</head> <p>Grammaticae autem duae partes sunt, quarum alteram
+					<lb/>methodicen, quae breves omnium orationis partium formulas,
+					<lb/>idest meqovdou~ declarat; alteram historicen, quae historias
+					<lb/>et res gestas pertractat, appellant. Eas formulas multis ex libris
+					<lb/>qui exstant capessere licebit, sed magna ex parte compendium
+					<lb/>illud optimi parentis mei ad id iuvabit, ubi, sicut nihil est
+					<lb/>superfluum, ita omnia facile reperientur quae ad orationem
+					<lb/>recte struendam conducere videantur. Sed illud a magistro
+					<lb/>observari volumus: ut quas proponit pueris earum regularum
+					<lb/>declinationes, eas tum scribant, tum absque scriptura componant.
+					<lb/>Si enim scripserint tantum, evenit plerumque ut rogati
+					<lb/>nihil ex tempore sciant respondere, utpote soliti in omnibus
+					<lb/>partibus multum diuque meditari; contra vero, si memoriter
+					<lb/>tantum respondere didicerint, saepenumero quibus inter se litteris
+					<lb/>syllabae connectuntur ignorant; quod si ad utrumque, ut
+					<lb/>diximus, assuefacti simul fuerint, expeditam consequentur et in
+					<lb/>loquendo et in scribendo promptitudinem, quam illud quoque
+				<lb/>vehementer augebit, si latine loqui continue assuefiant.</p>
+			</div>
+			<pb n="36"/>
+			<div type="chapter">
+				<head><lb/>5.</head> <p>Generales autem quasdam edoceantur velim formulas,
+					<lb/>ut citius et firmius pariter ad id quod ex his regulis cupimus
+					<lb/>perveniant: cuius generis est, ut eorum verborum, quae activa
+					<lb/>nominantur, a neutris differentiam in eo pernoscant, quod
+					<lb/>neutrorum passiva neque in prima neque in secunda persona
+					<lb/>loquente homine fieri possunt. Neque enim recte dixerit
+					<lb/>quispiam <hi rend="italic">Ego aror, tu araris.</hi> Similiter ut activorum notent
+					<lb/>ordinem, quorum cum sex species esse dicantur, prima suppositum
+					<lb/>et appositum tantum habet, reliquae ultra appositum
+					<lb/>in accusandi casu alios excepto primo eo quo stant ordine
+					<lb/>casus tolerant. Passivorum brevissima est doctrina, in
+					<lb/>quibus omnibus nihil aliud fieri opus est, nisi ut appositum
+					<lb/>et suppositum mutatis casibus convertantur. Quid de neutris?
+					<lb/>quam compendiosa praeceptio: nam eodem ferme quo
+					<lb/>activa ordine se habent et constructione nisi quod accusandi
+					<lb/>casum non habent quem in apposito activis tribuimus;
+					<lb/>nam quae transitiva neutra dicuntur licet accusativum
+					<lb/>habeant, non tamen ut activa duo eiusdem conditionis verba
+					<lb/>postulant. Deponentia neutrorum formulam sequuntur.
+				<lb/>Pauca proposuimus exempla, quo facilius mens nostra intelligeretur.</p>
+				<lb/>
+			</div>
+			<div type="chapter">
+				<head><lb/>6.</head> <p>Erit autem illud perquam utile ut in his regularum
+					<lb/>declamationibus consuescant ornate componere, ut exempli
+					<lb/>causa oratio plerumque verbo claudatur, et quicquid ab illo
+					<lb/>pendet anteponatur quam id a quo dependet; facilius enim
+					<lb/>postea ad stili elegantiam perducuntur. Illud iam superfluum
+					<lb/>est admonere, cum doctum praeceptorem supposuerimus, ut
+					<lb/>castigatos habeant libros: nam in eo, de quo supra mentionem
+					<lb/>feci, patris compendio multi multa addere voluerunt,
+					<lb/>qui dum periti stultis reperiri quaerunt, stulti peritis sunt
+					<lb/>inventi. Quod ne magis detrahendi quam veritatis studio
+					<lb/>adducti dicere videamur, duo in eo genere exempla proponemus.
+					<lb/>Vides enim in ea comparativorum regula, quae docet
+					<lb/>nominibus adiectivis secundae declinationis a genitivo
+					<lb/>addita <hi rend="italic">-or</hi> fieri comparativum, exceptis quae habent vocalem
+					<pb n="38"/>
+					<lb/>ante vocalem, vulgo id esse depravatum et scriptum:
+					<lb/>quae habent vocalem ante <hi rend="italic">-us.</hi> Aiunt siquidem <hi rend="italic">tenuis</hi> et
+					<lb/>similia, quae vocalem ante vocalem habent, comparari,
+					<lb/>quasi id non dictum sit in secunda tantum declinatione, in
+					<lb/>qua nullum nomen reperies comparabile quod vocalem ante
+					<lb/>vocalem habeat, nisi in <hi rend="italic">-us</hi> terminatum, quocirca utrumque
+					<lb/>in idem revertitur, et ante vocalem et ante <hi rend="italic">-us.</hi> Sed suam ipsi
+					<lb/>declarant ignorantiam dum id tollunt quod minime intelligunt;
+					<lb/>hoc tamen minus malum est cum nihil erroris apportet;
+					<lb/>id vero nullo modo ferendum quod in patronymicorum
+					<lb/>abusione additum est et litterarum mutatione, ut <hi rend="italic">Tytides</hi>;
+					<lb/>nam cum in depravatis codicibus ita scriptum hoc nomen
+					<lb/>compererint, credo, ut suum errorem foverent et inscitiam
+					<lb/>sub parentis mei auctoritate contegerent, in eius regulis id
+					<lb/>ascripserunt; at si quid litterarum graecarum delibassent
+					<lb/><hi rend="italic">Tydides</hi>, non <hi rend="italic">Tytides</hi> legi deberi cognovissent. Has igitur
+					<lb/>regulas non semel tantum percurrere sat est, sed bis terque
+					<lb/>atque amplius, si oportebit, repetant, ut eas tamquam
+					<lb/>manuum digitos prompte calleant; nec omnino erit absurdum,
+					<lb/>etiam cum ad maiora studia transierint ad easdem
+					<lb/>interdum revocari, donec mentibus sic inhaereant, ut nulla
+					<lb/>temporis intercapedine, nulla negotiorum varietate aut
+				<lb/>magnitudine elabi queant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7.</head> <p>Sed cum earum notitiam iam assecuti erunt, coniungenda
+					<lb/>erit syllabarum versuumque cognitio, cuius tanta est utilitas,
+					<lb/>ut aperte dicere ausim neminem posse iure doctum appellari
+					<lb/>cui haec ignota fuerit. Quare priscorum diligentiam
+					<lb/>mecum non admirari et laudare pariter non possum, qui licet
+					<lb/>ad magna anhelarent, nolebant tamen haec minima se fugere;
+					<lb/>unde et Augustinus, maxima ecclesiae nostrae columna,
+					<lb/>librum de musica, ubi etiam pedum rationes exsequitur, conscripsit.
+					<lb/>Sed omissa illorum auctoritate, sola huius rei utilitas,
+					<lb/>immo et necessitas, facile declarat quanto studio ea sit percipienda:
+					<lb/>neque enim recte pronuntiare absque ea scientia quisquam
+					<lb/>valet, immo, quod maius est, non recto intelligere.
+					<pb n="40"/>
+					<lb/>Multa enim in poetis inveniemus diversis quidem casibus,
+					<lb/>sed eodem fine pronuntiata, quae syllabarum ignarus nullo
+					<lb/>pacto discernet, quod aliqua sunt diversae penitus significationis
+					<lb/>sola unius syllabae vel prolixitate vel correptione
+					<lb/>dignoscenda. Postremo si nihil etiam utilitatis afferret, saltem
+					<lb/>voluptatis gratia id appetendum esset. Nam sicut pulsante
+					<lb/>optimo citharoedo magis delectatur qui eius artis cognitionem
+					<lb/>aliquam attingit quam qui ignorat, ita et in poetarum lectione
+					<lb/>maiore suavitate afficitur qui versuum rationem habet
+				<lb/>quam qui ea caret.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8.</head> <p>Nec in carmine tantum ea prodest, sed et in ea quam
+					<lb/>vocant rhetores numerosam orationem, quae pedibus metricis
+					<lb/>constat, quam qui ab aliis scriptam intelligere non poterit,
+					<lb/>multo certe minus eam ipse faciet. Ad eam scientiam non inutilis
+					<lb/>erit is liber qui sub Alexandri nomine versibus habetur,
+					<lb/>ex quo etiam praeteritorum et generum nominis et declinationum
+					<lb/>formulas percipient: nam praeterquam quod omnia sumit
+					<lb/>a Prisciano, facilius etiam quae carminibus scripta sunt
+					<lb/>memoriae commendantur conservanturque. Priscianus vero
+					<lb/>absque doctrina litterarum graecarum, de quibus paulo post
+					<lb/>loquemur, nostra sententia recte intelligi non potest; sed ubi
+					<lb/>pedum enumerationem, quam vulgo scansionem nuncupant,
+					<lb/>ex prima quadam degustatione assecuti fuerint, reliquam
+					<lb/>deinde syllabarum notitiam ex frequenti poetarum lectione
+					<lb/>planius ediscent. Quapropter Vergilii carmina memoriae mandent
+					<lb/>ut ad omnem syllabae quantitatem optimi poetae auctoritate
+					<lb/>nitantur et exemplo; declamare autem etiam in his oportebit,
+					<lb/>ut assiduitate pedum numerum etiam solo verborum
+					<lb/>cantu annotent. Deinde alia versuum genera ex iis perdiscent
+					<lb/>qui de ea re volumina scripserunt, ut nihil in hac utilissima
+					<lb/>scientia intactum praetermittant. Illud hoc loco tamquam e
+					<lb/>specula praemonere velim et, ut ait Satyrus, «credite me vobis
+					<pb n="42"/>
+					<lb/>folium recitare Sibyllae», hoc, inquam, clara voce praedico:
+					<lb/>neminem posse absque litterarum graecarum scientia in hac
+					<lb/>versuum doctrina fundamenta et, ut ita loquar, medullam
+					<lb/>penitus introspicere. Scio enim plerosque esse qui eam latinis
+					<lb/>litteris necessariam esse negent, qui, quoniam ignari ipsi sunt,
+					<lb/>optarent reliquos inscitiae suae pares esse, ut inter ceteros si
+					<lb/>non superiores saltem nec inferiores iudicarentur. Mihi vero,
+					<lb/>dum vivam, nemo hunc errorem (si error est) eripiet, ut eam
+					<lb/>non modo utilem sed pernecessariam litteris nostris esse non
+				<lb/>credam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>9.</head> <p>Namque, ut omittam quod eius doctrinae expertes litteras
+					<lb/>natura longas saepe imprudenter contrahunt, quod neque
+					<lb/>diphthongos neque aliam recte scribendi normam, id est ojrqografivan,
+					<lb/>tenent, quantum id est existimandum quod nostrorum
+					<lb/>vocabulorum maxima pars inde originem traxit; quod
+					<lb/>multa in scriptoribus reperiuntur, quae nullo modo huius linguae
+					<lb/>ignarus explanabit! Vergilius descensum ad inferos, quia
+					<lb/>nequeant impune aves super volare, Avernum dicit a Grais
+					<lb/>nominatum, quod ipsi nimirum nescient nisi o[rnin avem dici
+					<lb/>audierint. Ovidius de Cerberi spumis aconita venena nata
+					<lb/>esse dicit, «quae quia nascuntur dura vivacia caute / agrestes
+					<lb/>aconita vocant». Quis hoc enucleabit, nisi ajkovnhn cautem
+					<lb/>dici sciat? Scyllam Nisi Megarensium regis filiam in avem
+					<lb/>conversam dicit, quae a tonso capillo Ciris est nominata,
+					<lb/>quod nemo sane intelliget nisi keivrw tondeo esse didicerit.
+					<lb/>Venerem quoque in <hi rend="italic">Fastis</hi> a spumis maris nominatam asserit,
+					<lb/>quod nec ipsi intelligent nisi ÆAfrodivthn ajpo; tw`n ajfrw`n derivatum
+					<lb/>esse eis declaretur. Hinc etiam magis ignorantiae suae
+					<lb/>conscientia quam disputationis veritate adduci confitebuntur, si
+					<lb/>declinationes quasdam tam in oratoribus quam in poetis graecas
+					<lb/>esse meminerint, quarum nulla apud nos regula tradatur,
+					<pb n="44"/>
+					<lb/>nam et «luctificam Allecto», et «nomine Dido saepe vocaturum»
+					<lb/>et «Mantus filius» in accusandi et generandi casu
+					<lb/>Vergilius, et rhetoricen et dialecticen et alia eius generis oratores
+					<lb/>protulerunt. Multa sunt eiusmodi quae commemorare ad
+					<lb/>susceptum opus minime pertinet. Nos autem, et veterum doctissimorum
+					<lb/>exempla, quorum nemo graecae linguae expers
+					<lb/>fuit, et Quintiliani auctoritatem, qui nostras a Graecis effluxisse
+					<lb/>ait, et Ciceronis, qui si Cato in libro <hi rend="italic">De senectute</hi> eruditius
+					<lb/>loquatur quam consuevit in suis ipse libris attribuendum esse
+					<lb/>litteris graecis censet, et Flacci exhortationem sequentes:
+					<lb/>«vos exemplaria graeca / nocturna versate manu, versate diurna»,
+					<lb/>quia «Graiis ingenium, Graiis dedit ore rotundo / Musa
+					<lb/>loqui», quo pacto eam linguam discere possint, pro ingenioli
+					<lb/>nostri iudicio commonstrabimus. Nec sane me fugit
+					<lb/>Quintilianum ut ab illis sumatur exordium praecipere, quod
+					<lb/>mihi ea ratione difficilius videtur quia, cum ea nobis lingua
+					<lb/>naturalis non sit, nisi prius aliquod loquendi principium ex
+					<lb/>nostra habuerint, in ea perdiscenda pueri nescio quo modo
+					<lb/>deferentur. Atque ita mihi persuadeo Quintilianum sic praecepisse,
+					<lb/>quia suis temporibus latinam linguam omnes haberent,
+					<lb/>nec in ea tanta elaboratione opus esset. Vidi ego contra nonnullos
+					<lb/>sub optimo et eius linguae non minus quam romanae
+					<lb/>doctissimo parente meo postea quam nostrarum fundamenta
+					<lb/>contigerant, uno anno in graecis tantum profecisse, ut quos
+					<lb/>numquam viderant libros per se in latinam linguam sic integre
+					<lb/>fideliterque converterent ut ab omnibus facile probarentur.
+					<lb/>Eam igitur adulescentes arripiant, nec confuse et inordinate ut
+					<lb/>apud Graecos tradi solitum erat, sed eas habeant regulas quas
+					<lb/>parentis nostri praeceptor Manuel Chrysoloras summatim
+					<lb/>collegit, vel quas parens ipse noster compendii amantissimus
+					<lb/>ex illis contraxit, et inter docendum admoneantur maxime verborum
+					<pb n="46"/>
+					<lb/>tempora generali quadam praeceptione derivare, et ea
+					<lb/>quae apud illos ajnwvmala verba sunt tamquam ungues calleant.
+					<lb/>Sic enim facillime (quod in ea lingua utilissimum est)
+					<lb/>nomen a verbo et verborum tempora etiam prima fronte discernent;
+					<lb/>hoc autem et frequenti et diligenti praeceptoris interrogatione
+					<lb/>consequentur. Paulatim deinde ad scriptores progredientur,
+					<lb/>et ad eos primo qui in soluta oratione faciliores sunt ne,
+					<lb/>dum sententiarum pondere laborare coguntur, id quod in principiis
+					<lb/>maxime desideramus, regularum quas didicerunt confirmationem
+					<lb/>omittant. Ut igitur libri duriores erunt, ita posteriores
+					<lb/>eis tradantur. Ad poetarum postea principem Homerum
+					<lb/>pervenient, qui sicut nostris omnibus fontem quendam praebuisse
+					<lb/>videtur, ita ad discendum non difficilis est. Hinc erit illa
+					<lb/>animi iucunditas ut Vergilii imitationem contemplari queant,
+					<lb/>qui tamquam in speculo <hi rend="italic">Aeneida</hi> ad illius opera conformavit
+					<lb/>adeo ut ferme nihil in Vergilio comperiatur quod idem apud
+					<lb/>Homerum non sit: nec res tantum, sed et versus plurimos verbum
+					<lb/>ad verbum inde translatos considerabunt, sicut idem quoque
+					<lb/>et de Theocriti <hi rend="italic">Bucolicis</hi> et Hesiodi <hi rend="italic">Georgicis</hi> ab eo factitatum
+					<lb/>est. Reliquis deinde et heroicis et tragicis et comicis
+					<lb/>insudabunt. Hoc in primis servent ut in ea lingua vocabulorum
+					<lb/>varietatem et copiam, quibus ea maxime abundat, non tam
+					<lb/>memoria quam et scriptis colligant, atque eo promptiora erunt
+					<lb/>si in ordinem redacta fuerint; ex hac enim scribendi assiduitate
+					<lb/>menti magis imprimuntur et accentus quorum sermo ille plenus
+					<lb/>est peritius notantur; aut si forte, ut est memoria labilis,
+					<lb/>effluxerint, habebunt semper quo tamquam in thesaurum se
+					<lb/>recipiant. Quapropter id non mediocriter conducet, si exscribere
+					<lb/>ab initio didicerint et in eo se vehementer exercuerint; quod
+					<lb/>etiam ad legendi expeditionem non parum conferet. Ubi vero
+					<lb/>aliquantum progressi fuerint, tunc vel ex graeco in latinum vel
+					<lb/>ex latino in graecum vertere incipient; quo genere exercitationis
+					<lb/>proprietatem splendoremque verborum et promptitudinem
+					<lb/>linguae facillime comparabunt: multa enim quae legentem
+					<lb/>forte fallerent, transferentem nullo modo fugere possunt.
+					<lb/>Nolumus tamen dum eam linguam ediscunt nostram penitus
+					<lb/>omittant, ne desuetudine aliqua illam obliviscantur et deinde
+					<pb n="48"/>
+					<lb/>opus sit ad prima iterum elementa recurrere. Sed cum eas quas
+					<lb/>diximus graecarum litterarum primas regulas habuerint, tunc
+					<lb/>ad Prisciani ceterorumque grammaticorum cognitionem transcendant,
+					<lb/>ubi ea quae breviter ab initio cognoverant diffusius
+					<lb/>accipient et multa videbunt scriptorum auctoritate licere quae
+					<lb/>prius propter brevitatem discendi eis incognita fuerant. Sub
+					<lb/>idem tempus et in Ciceronis epistulis declamabunt, ex quibus
+					<lb/>stili tum elegantiam tum facilitatem et sermonis puritatem ac
+					<lb/>sententiarum gravitatem adipiscentur; quas si memoriae mandaverint
+					<lb/>mirificos postea fructus in scribendi promptitudine
+					<lb/>percipient. Nemo tamen existimet in sola illa epistularum
+					<lb/>declamatione pinguem, et quam Cicero «adipatam» vocat
+					<lb/>orationem consistere: eam namque multarum et variarum
+					<lb/>rerum lectio pariet. Flacco teste «scribendi recte sapere est et
+				<lb/>principium et fons».</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10.</head> <p>Quare ut ad alteram grammaticae partem, quam historicen
+					<lb/>diximus nominari, traducantur iam tempus erit. Et sicut
+					<lb/>reliquas sub compendio prius regulas didicerunt, ita et eos qui
+					<lb/>res gestas carptim collegerunt prius perlegent; quo in genere
+					<lb/>Valerius et Iustinus eis offerentur, quibus et externam et romanam
+					<lb/>historiam uno ferme aspectu contemplabuntur. A Valerio
+					<lb/>ea quoque praestabitur utilitas, ut ad omnes virtutum partes, ad
+					<lb/>egregia tum dicta tum facta exemplis orationem exornent.
+					<lb/>Reliquos deinde historiographos ordine perlegent, hinc variarum
+					<lb/>gentium mores instituta leges, hinc varias hominum fortunas,
+					<lb/>ingeniorum et vitia et virtutes excerpent, quae res maxime
+					<lb/>in quotidiano sermone facundiam et in variis rebus prudentiae
+					<lb/>opinionem creabit. Eodem quoque tempore poetas omnes ordine
+					<lb/>percurrent, in quibus verisimilium figmentorum subtilitatem
+					<lb/>admirabuntur, et ad quotidianae vitae institutionem sub
+					<lb/>fabulamentis contectam revocabunt. Ea enim a poetis conficta
+					<lb/>esse Cicero arbitratur, ut in fictis personis imaginem quotidianae
+					<pb n="50"/>
+					<lb/>vitae nostrae intueremur. Quod etiam beatus
+					<lb/>Hieronymus de Terentio sensit, qui ad Furiam scribens de viduitate
+					<lb/>servanda, cum ebrietatem diceret fugiendam comici auctoritatem
+					<lb/>adducit (<hi rend="italic">sine Cerere et Libero friget Venus</hi>), «cuius,
+					<lb/>inquit, finis est humanos mores nosse atque describere». Ab
+					<lb/>ipsis fluviorum montium urbium nationum et nomina et situm
+					<lb/>colligent. A Vergilio autem inchoandum esse vel Augustini confirmat
+					<lb/>auctoritas, qui in hunc modum inquit: «Vergilium propterea
+					<lb/>parvuli legunt, ut videlicet poeta magnus omniumque
+					<lb/>praeclarissimus atque optimus a teneris ebibitus annis non facile
+					<lb/>oblivione possit aboleri». Lucanus forte non absurde post
+					<lb/>rhetoricam relinquetur, cum eum Quintilianus «oratoribus
+					<lb/>magis quam poetis» dicat imitandum esse; in quo tamen ea est
+					<lb/>utilitas, ut profiteri non dubitem, qui eum poetam probe intelligat
+					<lb/>iam posse in doctorum hominum numero haberi; in deliberativo
+					<lb/>praesertim genere, ipsius orationes adeo graves, adeo
+					<lb/>artificiosae sunt, ut nesciam an ab aliquo rhetoricas praeceptiones
+					<lb/>clarius colligere valeant. Post Vergilium Statii <hi rend="italic">Thebais</hi> optime
+					<lb/>subsequetur, nam cum ad illius imitationem composita sit,
+					<lb/>minor erit in discendo labor. Ex Ovidio <hi rend="italic">Metamorphoseon</hi> nihil
+					<lb/>ferme erit quod praeter fabulas eligant, quibus tamen miro studio
+					<lb/>incumbent credentque eas non (ut quidam putant) poetis
+					<lb/>tantum congruere; nam et Cicero tum orationes, tum reliqua
+					<lb/>volumina fabulis plerumque quasi quibusdam gemmis distinxit.
+					<lb/>Reliquis eius operibus cum per se ipsos legent indulgebunt;
+					<lb/>illud tamen unum <hi rend="italic">De Fastis</hi> in promptu habebunt in quo et
+					<lb/>fabulae quaedam ignotiores et historiae et fastorum ratio satis
+					<lb/>abunde pertractatur. Utinam totus is liber ad nos pervenisset!
+					<lb/>nullum enim haberemus, ex quo plenius et mores et sacra veterum
+					<pb n="52"/>
+					<lb/>perspiceremus. Tragediae Senecae cum propter fabulas
+					<lb/>multum iuvant, tum vero propter sententias et vitae et sermoni
+					<lb/>quotidiano commodissimas, nam sicut gravissima omnia continent,
+					<lb/>ita lascivum nihil. Ad sermonis tum puritatem et elegantiam,
+					<lb/>tum proprietatem, nemo Terentio magis idoneus, adeo ut
+					<lb/>Terentii verbo frequenter Cicero utatur et libenter se uti
+					<lb/>Ciceronis Laelius ille testetur. Quare assiduitate legendi
+					<lb/>memoriae commendandus erit. Huic Iuvenalem satyrorum principem
+					<lb/>quasi comitem addere non verebor. Nam hos duos qui in
+					<lb/>promptu habuerit confidat is omnia quae in quotidiano sermone
+					<lb/>contigerint, non modo ornate proloqui posse, verum etiam ad
+					<lb/>omnem materiam sententiam aliquam se habiturum. Nec ideo
+					<lb/>deterreatur quispiam ab illius satyri lectione, quia nonnullis in
+					<lb/>locis vitia quaedam horrenda aperte nimis redarguat. Primum
+					<lb/>enim id raro facit, deinde vitiosos magis quam vitiorum increpatores
+					<lb/>detestari debemus; at, illis omissis quae pauca esse diximus,
+					<lb/>nihil inveniemus non laudabile, non Christiano homini
+					<lb/>maxime congruum. Plautus non ad sales modo qui vitae sunt
+					<lb/>ornamento, sed ad eloquentiam vehementer proderit, cum ei
+					<lb/>veteres tantum tribuerint ut affirmarent «Musas, si latine loqui
+					<lb/>voluissent, plautino sermone fuisse locuturas». Macrobius
+					<lb/>quoque duos antiquis temporibus eloquentissimos fuisse asserit:
+					<lb/>et «comicum Plautum et oratorem Tullium». Horatius,
+					<lb/>praeter optimam poeticae artis cognitionem, sermonis proprietatem
+					<lb/>mea sententia suppeditabit, nec quemque facile invenies
+					<lb/>in rerum epithetis Vergilio magis adhaerentem; adde quod ad
+					<lb/>aliorum satyrorum intellectum multa nobis accommodat.
+					<lb/>Persius, brevis quidem et obscurus, sed id rerum varietate compensat.
+					<lb/>Alii non sunt ii quidem inutiles poetae, sed alio tempore
+					<lb/>magis apte lectitandi. Ceterum quia in poetis multa et de
+					<lb/>astrologia et de situ orbis sumpta reperiuntur haud erit incommodum
+					<lb/>tractatum spherae pernoscere, Pomponium Mellam,
+					<pb n="54"/>
+					<lb/>Iginium, Solinum, et quem nuper in latinum parens noster convertit
+					<lb/>Strabonem videre. Ad hanc rem etiam perutile erit
+					<lb/>Ptolemaei picturam habere familiarem, ita ut in omnium locorum
+					<lb/>descriptione oculos mentis ad eam figuram applicent, et
+					<lb/>quasi praesentes rem ipsam intueri videantur. Aliter enim orbis
+				<lb/>descriptio quandam plerumque importat obscuritatem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11.</head> <p>Perspicuum iam nimirum esse arbitror eum qui in praedictarum
+					<lb/>rerum studiis eruditus fuerit ad rhetoricam disciplinam
+					<lb/>posse transcendere; ex qua cum dicendi artem fuerit assecutus,
+					<lb/>non modo Ciceronis orationes intelliget, verum etiam ex
+					<lb/>superiorum rerum varietate et copiosam et ornatam cum arte
+					<lb/>coniunctam habebit eloquentiam. Nihil autem <hi rend="italic">rhetorica nova</hi>
+					<lb/>Ciceronis ad id perdiscendum erit accommodatius, nihil utilius,
+					<lb/>ubi omnes oratoris partes sicuti non prolixe ita perfecte
+					<lb/>exponuntur; in qua quidem audienda etiam declamare oportebit,
+					<lb/>nam omnis praeceptio ad exercitationem debet accommodari.
+					<lb/>Postea non difficile erit alios a Cicerone ad oratoris institutionem
+					<lb/>compositos libros pernoscere et praecepta in eius orationibus
+					<lb/>tamquam in speculo intueri. Similiter et Quintiliani in
+					<lb/>ea re excellentissimi opera percurrere. Verum quoniam omnes
+					<lb/>Ciceronis libri, qui assidue lectitandi sunt quoniam et utiles et
+					<lb/>faciles quosque numquam intermittendos iudicamus, morali
+					<lb/>philosophia referti sunt, quae oratori quoque pernecessaria est,
+					<lb/>optimum erit ut dialecticorum argumenta et Aristotelis <hi rend="italic">Ethica</hi>
+					<lb/>perdiscant; ac deinde Platonis volumina, ex cuius fontibus
+					<lb/>omnia ille hausisse et ad cuius imitationem se penitus conformasse
+					<lb/>videtur, adeo ut quosdam etiam dialogos Platonis more
+					<lb/>et ab eo qui in loquendo primas habet partes et a materia ipsa
+					<lb/>inscripserit. Ciceronis autem libri, cum omnes excellentissimi
+					<lb/>sint et utiles, mea sententia et <hi rend="italic">Liber officiorum et Tusculanae
+					<lb/>quaestiones</hi> principatum obtinent: alter quidem propter praecepta
+					<pb n="56"/>
+					<lb/>ad omnem vitae partem idonea, <hi rend="italic">Tusculanae</hi> vero propter
+					<lb/>variam multiplicemque rerum cognitionem, praeter praecepta
+					<lb/>quae ad omnem ferme scribendi materiam largam nobis
+					<lb/>copiam exhibent. Si qua vero iuris civilis pars adhibebitur, ea
+					<lb/>tum ad causarum iudicialium tractatum, tum ad plurimorum
+					<lb/>locorum explanationem vehementer iuvabit. Quae omnia
+					<lb/>posteaquam adepti fuerint, iam non modo praeceptore non
+					<lb/>indigebunt, sed ipsi aliis praeceptores erunt idonei. Itaque per
+				<lb/>se et legere et intelligere poterunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12.</head> <p>Ceterum quia quemadmodum a magistris instruendi sint
+					<lb/>satis abunde, ut puto, demonstravimus, reliquum est ut quo
+					<lb/>pacto in studendo adulescentes ipsi se gerant aperiamus.
+					<lb/>Omnium autem praeceptorum illud et primum et saluberrimum
+					<lb/>esse statuimus, ad quod omnia velut ad quendam, ut Graeci
+					<lb/>dicerent, skopovn sunt referenda, ut adulescentes ipsi aliquando
+					<lb/>se doctores fore cogitent; nam qui studiorum suorum testimonium
+					<lb/>numquam reddendum esse putaverit, multa omittet, plurima
+					<lb/>leviter et, ut dicitur, in superficie «illotis pedibus» pertransibit;
+					<lb/>nihil intime et ad medullam usque tentabit introspicere.
+					<lb/>Qui vero oportere quae didicerit docere existimaverit, nihil
+					<lb/>intactum aut indiscussum relinquet; omnia quae in quaestionem
+					<lb/>venire possint sibi ipsi tamquam in dialogo proponet et disputationis
+					<lb/>veritatem elicere conabitur. Si quem etiam habebunt cui
+					<lb/>exercitationis causa quae audierint exponant, nihil hoc erit utilius;
+					<lb/>nam, ut ait Quintilianus, optimum proficiendi genus est
+					<lb/>docere quae didiceris. Nec sint solum a praeceptore audire
+					<lb/>contenti, sed qui in auctores commentaria scripserunt et probati
+					<lb/>sunt, eos ipsimet perlegant et radicitus, ut aiunt, sententias et
+					<lb/>vocabulorum vim annotent. Novas ipsi sententias et ad rem
+					<lb/>accommodatas exquirant. Expositiones quoque in libros scribere
+					<lb/>vehementer conducet, sed tamen magis si sperabunt eas in
+					<lb/>lucem aliquando prodituras. Attentiores enim ad ea sumus, ex
+					<pb n="58"/>
+					<lb/>quibus laudem venari studemus. Hoc exercitationis genus mirifice
+					<lb/>acuit ingenium, linguam expolit, scribendi promptitudinem
+					<lb/>gignit, perfectam rerum notitiam inducit, memoriam confirmat,
+					<lb/>postremo studiosis quasi quandam expositionum cellam promptuariam
+				<lb/>et memoriae subsidium praestat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13.</head> <p>Ubi primum per se studere incipient, operam dabunt ut
+					<lb/>eos videant qui variis ex rebus composite sunt, quo in genere est
+					<lb/>Gellius, Macrobius <hi rend="italic">Saturnalium</hi>, Plinius <hi rend="italic">Naturalis historiae</hi>
+					<lb/>quae «non minus varia est quam ipsa natura»; his addimus
+					<lb/>Augustinum <hi rend="italic">De civitate Dei</hi>, qui liber historiis et tam ritu veterum
+					<lb/>quam religione refertus est. Sed omnino illud teneant, ut
+					<lb/>semper ex iis quae legunt conentur excerpere sibique persuadeant
+					<lb/>quod Plinius dictitare solebat, «nullum esse librum tam
+					<lb/>malum ut non in aliqua parte prosit». Haec studendi ratio apud
+					<lb/>veteres observata fuit adeo ut Plinius maior electorum centum
+					<lb/>et sexaginta opistographos sororis filio reliquerit, quos aliquando
+					<lb/>quadringentis milibus nummum Largio Licinio in Hispania
+					<lb/>vendere potuit. Ea vero potissimum excerpent, quae et memoratu
+					<lb/>digna et paucis in locis inveniri videbuntur: erit hoc etiam
+					<lb/>ad orationis tum copiam tum promptitudinem valde idoneum, si
+					<lb/>inter legendum ex variis libris sententias quae ad eandem materiam
+					<lb/>pertinent adnotabunt et in unum quendam locum colligent
+					<lb/>Pythagoreorumque more quicquid excellens interdiu legerint
+					<lb/>vel audierint vesperi commemorabunt. Imprimuntur enim ea
+					<lb/>confirmatione adeo ut nonnisi difficillime ex memoria aboleri
+					<lb/>queant; validior etiam illa erit impressio si statuto aliquo mensis
+					<lb/>die praeceptorum omnium memoria renovabitur. In graecis
+					<lb/>quam brevissime proficient si, cum primum fundamenta acceperint,
+					<lb/>non semper magistrum ducem exspectabunt sed ipsi se
+					<lb/>exercitabunt et magistri loco eos libros sibi desument qui in latinum
+					<lb/>conversi sunt, et una cum graecis percurrendo ex utrorumque
+					<lb/>lectione vocabula ipsi per se colligent. Inveniuntur nonnumquam,
+					<pb n="60"/>
+					<lb/>praesertim in sacris, libri nonnulli graece latineque
+					<lb/>exscripti ita ut ne una quidem syllaba interpretationis versiculus
+					<lb/>aut maior aut minor sit; hi ad hanc rem sic optime conducent, ut
+					<lb/>quosdam ego cognoverim qui hac ratione ad maximam huius
+				<lb/>linguae notitiam absque praeceptore ullo pervenerint.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14.</head> <p>Frequentanda erit in primis graecarum litterarum lectio,
+					<lb/>nam si nostra temporis desuetudine dilabitur, quid de ea cogitandum
+					<lb/>est, quae nobis naturalis non est? Oportet autem
+					<lb/>«legentem non introrsum aut sub lingua immurmurare»:
+					<lb/>saepe enim accidit ut nec se ipsum audiens plurimos versus
+					<lb/>quasi illinc alienus excurrat. Clara autem lectio, cum ad intelligendum
+					<lb/>non mediocriter prosit, utpote auribus velut alio extrinsecus
+					<lb/>sonante mentis attentionem acriter excitantibus, non
+					<lb/>parum etiam ad stomachi digestionem valere ferunt hi qui naturae
+					<lb/>ac medicinae secreta tenent; nam, ut etiam Plutarchus tradit,
+					<lb/>vox, quae spiritus motus est, non in superficie sed penitus
+					<lb/>intestina corroborat, calorem auget et sanguinem attenuat, universas
+					<lb/>emundat venas, arterias etiam aperit, supervacaneae
+					<lb/>humiditatis vim constare figique nullam sinit in his vasis quae
+					<lb/>cibum assumunt et excocunt. Plinius quoque lectionem graecam
+					<lb/>et latinam lectitare se refert «clare et intente, non tam vocis
+					<lb/>causa quam stomachi»; Ariston etiam dicere solebat «neque
+					<lb/>balnei neque orationis non purgantis ullam esse utilitatem».
+					<lb/>Cavendum tamen ne clamosa vox et violenta fiat; intentiones
+					<lb/>namque nimiae dirumpunt et raucitatem frequenter inducunt. In
+					<lb/>magno plerumque numero legere si consueverint, ea res pariet
+					<lb/>in pronuntiandis orationibus audaciam, qua cum multos nostris
+					<lb/>temporibus carere videamus, tum vero Isocrates, quem «eloquentiae
+					<lb/>parentem» appellare Cicero non dubitavit, adeo eius
+					<lb/>expers fuisse dicitur, ut nec unam quidem orationem memoriter
+					<pb n="62"/>
+					<lb/>pronuntiare valuerit. Inter legendum non prius subsistere
+					<lb/>oportebit quam ad sententiam terminatam, quam clausulam
+					<lb/>vocant, pervenerint, quae si primo – ut dicitur – congressu
+					<lb/>minime fuerit intellecta, revocandus erit gradus et attentiore
+					<lb/>mentis acie bis terque relegenda, donec obaudiens sensus diligentia
+					<lb/>pulsantis excitetur. Nec faciant quod superioribus annis
+					<lb/>quendam in legendis <hi rend="italic">De oratore</hi> Ciceronis libris facere audivimus,
+					<lb/>qui verba tantum et dictionis ornatum admirabatur, sensa
+					<lb/>vero penitus omittebat; sed imitandi sunt qui vehementer
+					<lb/>sitiunt: ii enim non prius toreumata et poculorum insignia contemplantur
+					<lb/>quam ardorem sitis restinxerint, ita studiosi primum
+					<lb/>sententias moresque decerpant, deinde ad dictionis florem convertantur.
+					<lb/>Quaedam sunt animalia quae florem depascuntur, ut
+					<lb/>apes; quaedam ramos, ut caprae; quaedam radices, ut sues; studiosus
+					<lb/>vero eorum sibi exempla proponat, quae omnibus his
+					<lb/>vescuntur. In historia quid egregie, quid nove dictum sit; in verborum
+					<lb/>compositione pure et eleganter scripta; in sententiis quid
+				<lb/>fortiter, quid prudenter, quid iuste, quid modeste annotet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>15.</head> <p>De poetica quod de polypodis capite traditur idem ipse
+					<lb/>sentiat. Aiunt siquidem, qui de secretiore rerum natura tractant,
+					<lb/>sumptum caput illud in cibis plurimum suavitatis afferre, ceterum
+					<lb/>gravibus insomniis turbulentissimisque phantasiis sensum
+					<lb/>afficere. Ita poetica hominum animos maxima quidem dulcedine
+					<lb/>alit et pabulo, non minus vero turbarum et agitationis ingerit.
+					<lb/>Quocirca inter legendum animi frenis uti opus est, nec ita
+					<lb/>fabularum studio afferri, ut figmenta illa sic nuda capiantur,
+					<lb/>sed unumquodque quid utilitatis sub commento afferat rimandum
+					<lb/>est; et id Catonis, quod et de Cyro scribit Xenophon,
+					<lb/>observandum: siquidem, cum puellus esset, praeceptoris imperia
+					<lb/>obibat quidem, sed cur imperarentur causam sibi declarari
+					<lb/>petebat. Quae apud poetas impie, crudeliter, iniuste, turpiter
+					<lb/>dicuntur, non ea vitio danda sunt sed artis excellentia consideranda,
+					<pb n="64"/>
+					<lb/>quae singulis personis decorum suum reddit. Sic enim et
+					<lb/>aliis in rebus accidere videmus, ut a quibus re ipsa apparentibus
+					<lb/>animus abhorret, proprie tamen efficta libenter vel contemplemur
+					<lb/>vel audiamus. Nam et Chrysoloram nostrum sic
+					<lb/>dicere solitum accepimus, scorpios et serpentes quos fugimus,
+					<lb/>si depictos vera quadam imitatione viderimus, magnopere
+					<lb/>delectamur; suis grunitum, serrae stridorem, venti sibilum,
+					<lb/>maris strepitum cum audimus turbamur animo; quae tamen si
+					<lb/>quis ficta voce imitetur, voluptate quadam afficimur. Quae
+					<lb/>vero in scriptoribus vitae accommodata et ad virtutis rationem
+				<lb/>pertinentia reperiuntur, ea memoriae commendanda sunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16.</head> <p>Ordo potissimum in studendo adhibendus erit, ne varios
+					<lb/>libros confuse legant, sed singulis lectionibus dispertitas horas
+					<lb/>haberi oportet: quae una res plurimum prodest et ad librorum
+					<lb/>varietatem et ad rerum consummationem. Quod abunde et facile
+					<lb/>percipi potest, si quis statuta hora exiguum quid vel legat vel
+					<lb/>exscribat et id absque ulla intermissione faciat; intelliget enim
+					<lb/>paucis diebus multum se profecisse. Hoc illud sonat Hesiodi a
+					<lb/>parente nostro sic interpretatum: «Parvula si tentes superadiecisse
+					<lb/>pusillis idque frequens peragas, grandis cumulatur acervus».
+					<lb/>Perturbatione vero, et ea quam Graeci ajtaxivan nominant,
+					<lb/>nihil non modo inutilius verum etiam deformius esse ex
+					<lb/>aliis quoque rebus intelligi licet. Chorus ex multorum varietate
+					<lb/>conficitur, qui si prout cuiusque animus tulerit canere voluerint,
+					<lb/>inconcinna quaedam emergit et auribus iniucunda clamantium
+					<lb/>confusio; ceterum cum suo quisque loco et tempore, ut institutum
+					<lb/>est, ita vocem emittit, ex multiplici sono grata quaedam et
+					<lb/>consona exsultat harmonia. In exercitu quoque idem cernere
+					<lb/>licet, ubi si passim et neglecto ordine palantes evagentur milites
+					<lb/>et facilem hostibus victoriam praebent et turpe quoddam
+					<lb/>oculis spectaculum offerunt, cum equites pedites currus calones
+					<lb/>sarcinae promiscue feruntur et se invicem si conserenda sit
+					<lb/>manus impediunt. Contra bene instructus exercitus et amicis
+					<pb n="66"/>
+					<lb/>spem et hostibus terrorem incutit, cum equites scutatos sagittarios
+					<lb/>funditores suo quemque loco procedentes ordinemque servantes
+					<lb/>intuentur. Quare non minus in litterarii studii ratione
+					<lb/>quam ceteris in rebus utilem hunc esse arbitremur ordinem.
+					<lb/>Nam nisi divisa fuerint lectionibus tempora, distrahitur multitudine
+					<lb/>librorum animus efficiturque ut, dum eodem tempore
+					<lb/>multa simul nobis videnda cogitatione complectimur, nullam in
+					<lb/>partem liberum sortiamur et intentum mentis habitum. Adde
+					<lb/>quod cum vesperi memoria sint repetenda quae die cognovimus,
+					<lb/>difficile id assequi possumus ut, quid apud quemque legerimus
+					<lb/>unum sub aspectum nulla cum dubitatione aut errore colligamus,
+				<lb/>nisi distincte omnia sese nobis offerant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17.</head> <p>Unum illud adiciemus nostri quidem ordinis sed non utilitatis
+					<lb/>extremum, quod tamen non magis praeceptum quam
+					<lb/>adhortationem existimari volumus, ut nihil hoc «litterato otio
+					<lb/>dulcius» esse arbitrentur quod, ut ait Cicero, «adolescentiam
+					<lb/>agit, senectutem oblectat, secundas res ornat, adversis perfugium
+					<lb/>ac solacium praebet, delectat domi, non impedit foris»
+					<lb/>ac propterea nullum tempus ab his studiis vacuum praeterlabi
+					<lb/>sinant; hoc sit eis negotium, hic labor, haec quies; in his vigiliae,
+					<lb/>in his etiam somnus reponatur. Quid enim honestius facere
+					<lb/>possunt quam cum otium appetunt, in eo otio versari, quod
+					<lb/>ab omnibus semper et utilissimum et iucundissimum est iudicatum?
+					<lb/>Quantum reliqui temporis aleae, quantum pilae, quantum
+					<lb/>spectaculis tribuunt, tantum ipsi ad haec recolenda studia
+					<lb/>sumant ubi non deerit quod videant, quod spectent, quod admirentur,
+					<lb/>cui applaudant; ubi dum erunt, nihil audient quod audisse,
+					<lb/>nihil dicent quod dixisse poeniteat; nemo apud eos quemquam
+					<lb/>sinistris sermonibus carpet; neminem ipsi reprehendent;
+					<lb/>nulla spe rerum inanium, nullo timore sollicitabuntur, nullis
+					<lb/>rumoribus inquietabuntur; secum tantum et cum libellis atque
+					<lb/>etiam quod ceteris negatum est cum mortuis loquentur. Haec est
+					<lb/>illa vita quam regiam sinceramque Plinius iunior appellabat;
+					<pb n="68"/>
+					<lb/>hoc est illud otium quod dulce honestumque ac paene omni
+					<lb/>negotio pulchrius idem palam affirmabat; hoc est quod satius
+					<lb/>esse Atilius eruditissime simul et facetissime dicere solebat,
+					<lb/>otiosum esse quam nihil agere. Hac ratione Plinius ille maior
+					<lb/>omne tempus perire arbitrabatur quod studiis non impenderetur;
+					<lb/>cuius adeo parcus exstitisse dicitur, ut Plinium minorem sororis
+					<lb/>suae filium saepius corripuisse dicatur, quod ambularet, quia
+					<lb/>scilicet tempus illud non perdere poterat; quin immo cum de
+					<lb/>maiorum more legi faceret et lector, quem Graeci ajnagnwvsthn
+					<lb/>nominant, «quaedam perperam pronuntiasset, quidam ex amicis
+					<lb/>revocavit et repeti coegit», cui Plinius: «nempe intellexeras?»
+					<lb/>inquit; et «cum ille annuisset: 'cur ergo revocabas? decem
+					<lb/>amplius versus hac tua interpellatione perdidimus'». Cato quoque,
+					<lb/>qui post mortem Uticensis est cognominatus, ne tempus
+					<lb/>perderet interim dum Senatus cogeretur, in curiae vestibulo aliquid
+					<lb/>lectitasse fertur. Accusasse naturam Theophrastus dicitur,
+					<lb/>quod cornicibus et cervis longam vitam praestitisset quibus
+					<lb/>diu vivere nihil necesse erat, hominibus vero brevem, qui multis
+					<lb/>saeculis ad infinitam rerum cognitionem indigebant. Quod
+					<lb/>an philosopho gravi deplorare conveniat ipse viderit; nos tamen
+					<lb/>hoc teneamus, non oportere inane hoc tempus effluere quod ille
+					<lb/>breve nimis esse conquerebatur. Habent ceteri animantes insitum
+					<lb/>aliquid natura, ut equi currere, aves volare, hominibus
+					<lb/>vero sciendi cupiditas tradita est, unde et humanitatis studia
+					<lb/>sunt nuncupata; quam enim Graeci παιδείαν vocant et nos eruditionem
+					<lb/>institutionemque in bonas artes dicimus, eam humanitatem
+					<lb/>quoque veteres nominarunt, quia scientiae cura ex universis
+					<lb/>animantibus uni homini data sit; hoc autem studiorum
+					<lb/>genus variam magis quam reliqua scientiam complectitur.
+					<lb/>Ceterum, ut spero, qui iam per se ipso scripta intelligent tantam
+					<lb/>studendi voluptatem esse percipient, ut nostris adhortationibus
+				<lb/>minime egeant; quare iam scribendi modus hic sit.</p>
+			</div>
+			<pb n="70"/>
+			<div type="chapter">
+				<head><lb/>18.</head> <p>Habes, mi Maffee, a praeceptore munus quod longe plus
+					<lb/>utilitatis in recessu habere cognoscetur, quam in fronte promittere
+					<lb/>videatur. Hic est enim et docendi ordo et studendi praecepta,
+					<lb/>quibus non minus doctissimus quam optimus parens
+					<lb/>meus et praecipiendi iure avus tuus discipulos instruebat, quae
+					<lb/>vel hac una ratione optima esse putabis, quod ex eius ludo
+					<lb/>velut ex equo Troiano meri litterarum principes prodierunt.
+					<lb/>Nam et maxima illorum pars qui cum reliquas orbis partes tum
+					<lb/>vero hanc nostram Italiam studiis excoluerunt, ab eius fontibus
+					<lb/>emanarunt. Igitur si toto, ut aiunt, pectore in haec praecepta
+					<lb/>exsequenda incumbes, tantum inde fructum assequeris ut,
+					<lb/>quam de te spem nobis tua indoles pollicetur et quam tui ingenii
+					<lb/>opinionem concitasti, non modo sustinere et tueri, verum
+				<lb/>etiam superare possis.</p>
+			</div>
+			<div>
+				<p><lb/>Veronae XV Kal. Martii MCDLIX.</p>
+				<lb/>
+				<p><lb/><hi rend="italic">Quam iuvenis sapit iste senem probat ecce libellus.</hi></p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

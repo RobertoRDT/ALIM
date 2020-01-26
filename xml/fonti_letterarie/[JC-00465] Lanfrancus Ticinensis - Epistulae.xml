@@ -1,0 +1,2348 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistulae</title>
+				<author>Lanfrancus Ticinensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>H. Clover</name>
+                                        <name>M. Gibson</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="15468" unit="words">Parole: 15468</measure>
+				<measure quantity="96844" unit="characters_without_spaces">Caratteri (spazi esclusi): 96844</measure>
+				<measure quantity="110380" unit="characters_witht_spaces">Caratteri (spazi inclusi): 110380</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2014-06-30">30/06/2014</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Note: L'edizione di basa sui principali manoscritti, il B.L. Cotton Nero A VII, ff. I-39 <hi rend="sup">v</hi> (N) di Londra e il Reginensis lat. 285 ff. I-18 della Biblioteca Apostolica Vaticana. Con le parentesi [] l'editore segnala dubbi sull'autenticità di un passo.&#13;
+					Correzioni al testo: &#13;
+					p. 62, riga 28: in regno uestro] in regnoo uestr ed.&#13;
+					p. 78, riga 66: damnatum] dampnatum ed.&#13;
+					p. 94, riga 24: Roberto] Rodberto ed.&#13;
+					p. 124, riga 6: membris] menbris ed.&#13;
+					p. 172, riga 4: optatis] obtatis ed.&#13;
+				MLC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Lanfrancus</author>
+						<title level="m">The Letters of Lanfranc Archbishop of Canterbury</title>
+						<editor>H. Clover</editor>
+						<editor>M. Gibson</editor>
+						<imprint>
+							<publisher>Clarendon</publisher>
+							<pubPlace>Oxford</pubPlace>
+							<date>1979</date>
+							<biblScope unit="page">30-179</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Oxford Medieval Text</title>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+                                <ab type="Esportazione_da_ALIM1_a_ALIM2_livello_di_codifica_0" resp="Paolo Monella">
+                                        Non ci sono commenti <!-- ... -->
+                                        
+                                        C'erano un titolo HTML h1 e 61 titoli HTML h2 del tipo:
+                                        [&lt;H1 ALIGN="CENTER"&gt;] 
+                                        [&lt;H2 ALIGN="CENTER"&gt;] 
+                                        che ho convertito rispettivamente in:
+                                        <tag>seg type="h1"</tag>
+                                        <tag>seg type="h2"</tag>
+                                        (omettendo l'informazione relativa al centrato).
+                                        
+                                        Non ci sono titoli h3, h4 o con numeri superiori.
+                                        
+                                        C'erano 55
+                                        [&lt;BR /&gt;]
+                                        che ho trasformato in
+                                        <tag>lb/</tag>
+                                </ab>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<pb n="30"/><head><lb/>INCIPIVNT EPISTOLAE VENERABILIS
+				<lb/>ARCHIEPISCOPI LANFRANCI AD
+			<lb/>DIVERSOS MISSAE</head>
+			<div>
+				<head><lb/>1</head>
+				<head type="salutatio"><lb/>Summo sanctae aecclesiae pastori Alexandro papae Lanfrancus
+				<lb/>indignus antistes canonicam oboedientiam.</head>
+				<lb/>
+				<p><lb/>Nescio cui aptius calamitates meas explicem quam tibi pater qui
+					<lb/>ipsarum michi calamitatum causa existis. Nam cum de Beccensi
+					<lb/>congregatione in qua habitum religionis assumpsi a principe
+					<lb/>Normannorum Willelmo abstractus Cadomensi praeessem coenobio,
+					<lb/>imparque existerem paucorum regimini monachorum, incertum
+					<lb/>habeo quo iudicio omnipotentis Dei factus sum te cogente
+					<lb/>speculator multorum numeroque carentium populorum. Quod
+					<lb/>cum prefatus princeps iam rex Anglorum factus multis uariisque
+					<lb/>modis laboraret efficere, cassatis tamen laboribus suis a me nullo
+					<lb/>modo potuit impetrare quoadusque legati tui Hermenfredus
+					<lb/>uidelicet Sedunensis episcopus ante Hubertus sanctae Romanae
+					<lb/>aecclesiae cardinalis in Normanniam uenerunt, episcopos abbates
+					<lb/>eiusdemque patriae nobiles conuenire fecerunt, atque in eorum
+					<lb/>presentia ut Cantuariensem aecclesiam regendam susciperem ex
+					<lb/>apostolicae sedis auctoritate preceperunt. Aduersus hoc imbecillitas
+					<lb/>mearum uirium morumque indignitas prolata in medium
+					<lb/>nichil profuit, excusatio incognitae linguae gentiumque barbararum
+					<lb/>nullum apud eos locum inuenire praeualuit. Quid plura?
+					<pb n="32"/><lb/>Assensum prebui, ueni, suscepi. In qua tot molestias tot tedia
+					<lb/>tantumque ab omni fere bono defectum mentis cotidie sustineo;
+					<lb/>tot aliorum in diuersis personis perturbationes, tribulationes,
+					<lb/>damna, obdurationes, cupiditates, spurcicias, tantumque sanctae
+					<lb/>aecclesiae casum incessanter audio, uideo, sentio ut tedeat me
+					<lb/>uitae meae, doleamque plurimum me usque ad haec tempora
+					<lb/>peruenisse. Mala siquidem sunt quae in praesenti cernuntur,
+					<lb/>multo uero deteriora ex istorum consideratione in futuro coniciuntur.
+					<lb/>Et ne diu celsitudinem uestram multis magnisque negotiis
+					<lb/>occupatam prolixae orationis ambitu protraham, rogo quatinus
+					<lb/>propter Deum et animam uestram sicut uestra cui contradici
+					<lb/>fas non fuit auctoritate me alligastis, sic quoque alligatum abrupto
+					<lb/>per eandem auctoritatem huius necessitatis uinculo absoluatis,
+					<lb/>uitamque coenobialem quam pre omnibus rebus diligo repetendi
+					<lb/>licentiam concedatis. Nec in huius rei sperni petitione debeo,
+					<lb/>quam tam pie tam necessarie tam iustis ex causis concedi michi a
+					<lb/>uobis deposco. Meminisse siquidem debetis, nec tradi obliuioni
+					<lb/>oportet, quam benigne consanguineos uestros aliosque a Roma
+					<lb/>scripta deferentes in prefatis adhuc coenobiis constitutus sepe
+					<lb/>recepi, quam studiose eos pro captu meo ingeniique ipsorum tam
+					<lb/>in sacris quam in secularibus litteris erudiui, ut taceam multa
+					<lb/>alia in quibus uobis uestrisque antecessoribus pro rerum ac
+					<lb/>temporum qualitate nonnunquam seruiui. Nec hoc iactando aut
+					<lb/>improperando teste conscientia dico, nec fauorem gratiae uestrae
+					<lb/>quasi prolatis oboedientiae meae obsequiis solito maiorem captare
+					<lb/>requiro. Hoc tantum studeo harumque litterarum is solummodo
+					<lb/>finis est, ut congruam rationem iustamque causam possim ostendere,
+					<lb/>qua id quod peto a uestra munificentia Christo aspirante
+					<lb/>ualeam obtinere. Quod si fortasse considerata aliorum utilitate
+					<lb/>secus agendum michique id denegandum esse decernitis, ualde
+					<lb/>uobis cauendum atque timendum est ne unde uos mercedem
+					<lb/>habere apud Deum existimatis inde – quod a uestris actibus
+					<lb/>semper procul sit – peccati periculum incurratis. Nullus est enim a
+					<lb/>me aut per me in hac terra animarum profectus; aut si ullus
+					<lb/>existit, tam paruus est ut detrimentis meis comparari non possit.
+				<lb/>De his hactenus.</p>
+				<p><lb/>Ceterum quando Rome fui, uestramque faciem uidere uestroque
+					<lb/>colloquio frui diuina gratia concedente promerui, rogastis me
+					<lb/>quatinus in sequenti anno circa natiuitatem Christi ad uos uenirem
+					<pb n="34"/>
+					<lb/>uobiscum in palatio uestris stipendiis tribus aut eo amplius
+					<lb/>mensibus moraturus. Verum hoc sine magna rerum corporisque
+					<lb/>incommoditate me facere non potuisse testis michi est Deus,
+					<lb/>testes angeli eius. Cur autem non potuerim plures uariaeque
+					<lb/>causae effecerunt, quae epistolari breuitate pro sui prolixitate
+					<lb/>comprehendi non possunt. Sed si superna maiestas uitam michi
+					<lb/>atque incolumitatem cum rerum commoditate concesserit, sanctos
+					<lb/>apostolos et uos sanctamque Romanam aecclesiam uisitare desidero.
+					<lb/>Quod ut fiat, rogate obsecro diuinam clementiam quatinus
+					<lb/>domino meo regi Anglorum longam uitam concedat, pacemque ei
+					<lb/>de omnibus sibi aduersantibus faciat, cor eius ad amorem suum
+					<lb/>sanctaeque aecclesiae suae spirituali semper deuotione compungat.
+					<lb/>Eo enim uiuente pacem qualemcunque habemus; post
+					<lb/>mortem uero eius nec pacem nec aliquod bonum nos habituros
+				<lb/>speramus.</p>
+			</div>
+			<div>
+				<head><lb/>2</head>
+				<head type="salutatio"><lb/>Vniuersae Christi aecclesiae summo rectori Alexandro indignus
+					<lb/>Anglorum episcopus Lanfrancus finem bonum inferre bono
+				<lb/>principio.</head>
+				<lb/>
+				<p><lb/>Necessitate urgente expectare non potui quoadusque redirent
+					<lb/>quos ad uos transmisi priores legati nostri. Hermannus siquidem
+					<lb/>nostrae regionis episcopus, qui tempore uenerandae memoriae
+					<lb/>Leonis papae antecessoris uestri relicto episcopatu monachicam
+					<lb/>uitam petiit, nunc iterum hoc idem facere omnibus modis petit.
+					<pb n="36"/>
+					<lb/>Et nisi ego censura canonica obstitissem, iampridem aut regi
+					<lb/>episcopium reddidisset, aut clam ad monasterium confugisset.
+					<lb/>Et quidem dum uirili robore atque iuuenta uiguit, scientia diuinarum
+					<lb/>atque mundanarum rerum preditus ad pastorale officium
+					<lb/>satis utilis persona extitit. Sed iam senili aetate prolixaque egritudine
+					<lb/>confectus debito officio curam impendere ulterius non ualet.
+					<lb/>Nec existimet sancta colendaque beatitudo uestra quod aut
+					<lb/>quibuslibet iniuriis lacessitus aut regalibus angariis ultra uires
+					<lb/>pregrauatus hoc facere uelit. Deum omnipotentem dulcissimamque
+					<lb/>uestram gratiam testor quod nec in uerbis eius, dum familiari
+					<lb/>colloquio consilium animae suae a me quereret suasque michi
+					<lb/>neglegentias confitendo aperiret, deprehendere id ualui nec a
+					<lb/>quoquam hominum tale aliquid de eo unquam audiui. Sed sicut
+					<lb/>puto et reuera est, exactis in hac uita compluribus annis iam
+					<lb/>tandem proximus morti, priusquam moriatur a uinculis ac mole
+					<lb/>tanti oneris desiderat absolui ac liberari, et in extremo saltem
+					<lb/>uitae suae psalmis, ymnis, orationibus, lectionibus occupari.
+					<lb/>Propterea apostolicae sedis celsitudinem consulendum putaui,
+					<lb/>quatinus ab ea instructi certissime teneamus quid in tam excellenti
+					<lb/>tamque necessaria re concedere uel facere debeamus. Nec id
+					<lb/>differri oportet; quia ualde timendum est, nisi sollercia uestra
+					<lb/>prouideat, ne eius corporalis incommoditas multis animabus causa
+				<lb/>perditionis existat. De hac re ista sufficiant.</p>
+				<p><lb/>Licifeldensis uero episcopus qui apud legatos uestros de
+					<lb/>incontinentia carnis, cui uxor publice habita filiique procreati
+					<lb/>testimonium perhibebant, aliisque criminibus accusatus ad
+					<lb/>sinodum tamen eorum uenire noluit; unde et predicti legati
+					<lb/>uestri eum excommunicauerunt, regique substituendi successorem
+					<lb/>ut dicitur licentiam concesserunt. In Paschali solennitate ad
+					<lb/>curiam uenit, de illatis culpis causam inire noluit, regi in conuentu
+					<lb/>episcoporum atque laicorum episcopatum reddidit, se amplius
+					<lb/>non habiturum nec successori calumniam aut damnum illaturum
+					<lb/>iureiurando spontanea uoluntate firmauit; dehinc ad monasterium
+					<lb/>in quo ab infantia nutritus monachus fuerat repedauit. Ego
+					<pb n="38"/>
+					<lb/>tamen nouus Anglus rerumque Anglicarum, nisi quantum ab
+					<lb/>aliis accipio, adhuc pene inscius in locum eius non presumpsi uel
+					<lb/>episcopum consecrare uel consecrandi licentiam aliis episcopis
+					<lb/>dare, quoadusque preceptio uestra ueniat, quae in tanto negotio
+					<lb/>quid oporteat fieri informare nos debeat. Nec id quoque differat
+					<lb/>amanda paternitas uestra, quia diu est ex quo illa miserrima
+				<lb/>aecclesia pastore est destituta.</p>
+				<p><lb/>Omnipotens Dominus det nobis semper audire de uobis quod
+					<lb/>audire coepimus et audire desideramus, diligende, colende,
+				<lb/>reuerende pater.</p>
+			</div>
+			<div>
+				<head><lb/>3</head>
+                                <div>
+                                <head><lb/>i.</head> <p>Anno dominicae incarnationis millesimo septuagesimo intrauit
+					<lb/>Anglicam terram Lanfrancus Cadomensis coenobii abbas,
+					<lb/>monentibus atque precipientibus Willelmo glorioso Anglorum
+					<lb/>rege et felicis memoriae Alexandro totius sanctae aecclesiae summo
+					<lb/>pontifice. Is post paucos sui introitus dies Dorobernensem
+					<lb/>aecclesiam regendam suscepit. Consecratus est autem quarto
+					<lb/>kalendas Septembris in sede metropoli a suffraganeis ipsius sedis
+					<lb/>Willelmo Londoniensi episcopo, Walchelino Uuentano, Remigio
+					<pb n="40"/>
+					<lb/>Dorcensi siue Lincholiensi, Siuuardo Rofensi, Herfasto Helmeanensi
+					<lb/>siue Tehfordensi, Stigando Selengensi, Hermanno
+					<lb/>Siraburnensi, Gisone Uuellensi. Ceteri qui absentes fuerunt
+					<lb/>causas suae absentiae tam legatis quam litteris ostenderunt.
+					<lb/>Ipso anno Thomas Eboracensis aecclesiae electus antistes
+					<lb/>Cantuarberiam ex prisca consuetudine ab eo sacrandus aduenit.
+					<lb/>A quo cum Lanfrancus scriptam de oboedientia sua cum adiectione
+					<lb/>iurisiurandi professionem custodito antecessorum more exposceret,
+					<lb/>respondit Thomas se id nunquam facturum, nisi prius scriptas
+					<lb/>de hac re auctoritates legeret, nisi testes huius antiquitatis assertores
+					<lb/>cerneret, postremo nisi congruas super hac re rationes
+					<lb/>audiret quibus id iuste et rationabiliter sine suae aecclesiae
+					<lb/>preiudicio facere deberet. Hoc autem ignorantia magis quam
+					<lb/>spiritus elati pertinatia agebat. Nouus enim homo et Anglicae
+					<lb/>consuetudinis penitus expers uerbis adulatorum plus aequo et
+					<lb/>bono fidem exhibebat. Lanfrancus tamen, in presentia paucorum
+					<lb/>episcoporum qui ad eum pro hac consecratione conuenerant,
+					<lb/>quod postulauit ostendit. At ille aspernatus omnia non sacratus
+					<lb/>abscessit. Quod rex audiens grauiter accepit, existimans Lanfrancum
+					<lb/>iniusta petere et scientia litterarum magis quam ratione
+					<lb/>et ueritate confidere, quamuis nec ipsi Thomae deesset scripturarum
+					<lb/>peritia multo ingenio multoque studio comparata. Paucorum
+					<lb/>dierum spacio euoluto Lanfrancus ad curiam uenit, a rege audientiam
+					<lb/>postulauit, redditis rationibus eius animum mitigauit,
+					<lb/>transmarinis qui aderant suae parti iusticiam adesse suasit et
+					<lb/>persuasit. Angli enim, qui rem nouerant, assertionibus eius per
+					<lb/>omnia constantissime testimonium perhibebant. Itaque regio
+					<lb/>edicto communique omnium decreto statutum est ad praesens
+					<lb/>debere Thomam ad matrem totius regni aecclesiam redire, professionem
+					<lb/>scribere, scriptam legere, lectam inter examinandum
+					<lb/>in presentia episcoporum aecclesiastico more Lanfranco porrigere.
+					<lb/>In qua preceptis quidem eius in omnibus quae ad Christianae
+					<lb/>religionis cultum pertinent se obtemperaturum absolute
+					<pb n="42"/>
+					<lb/>nulla interposita conditione promitteret; successoribus uero eius
+					<lb/>non ita nisi prius uel coram rege uel in episcopali concilio competens
+					<lb/>ei ratio redderetur, qua antecessores suos Dorobernensis
+					<lb/>aecclesiae primatibus id fecisse et facere debuisse euidentissime
+					<lb/>ostenderetur. Igitur rediit, quae iussa sunt impleuit, sacratus
+					<lb/>abscessit. Non post multos dies Lanfrancus ab uniuersis Anglici
+					<lb/>regni episcopis qui diuersis temporibus diuersis in locis ab aliis
+					<lb/>archiepiscopis uel a papa tempore Stigandi sacrati sunt professiones
+				<lb/>petiit et accepit.</p>
+                        </div>
+                        <div>
+				<head><lb/>ii.</head> <p>Sequenti anno cum prefato archiepiscopo Romam iuit,
+					<lb/>et honorifice a sede apostolica susceptus unum quidem pallium
+					<lb/>de altari Romano more accepit, alterum uero in indicium uidelicet
+					<lb/>sui amoris cum quo missam celebrare solebat Alexander ei papa
+					<lb/>sua manu porrexit. In cuius presentia Thomas calumniam mouit
+					<lb/>de primatu Dorobernensis aecclesiae, et de subiectione trium
+					<lb/>episcoporum Dorcensis siue Lincoliensis, Wigorniensis, Licifeldensis
+					<lb/>qui nunc est Cestrensis, dicens Cantuariensem aecclesiam
+					<lb/>atque Eboracensem parem ad se inuicem honorem habere, nec
+					<lb/>alteram alteri secundum beati Gregorii constitutionem debere
+					<lb/>ullatenus subiacere, excepto quod alterutrius archiepiscopum
+					<lb/>priorem et digniorem oporteat esse eo quem constiterit fuisse
+					<lb/>posterius ordinatum; praedictos uero tres episcopos suae sedi
+					<lb/>suisque antecessoribus ab antiquis temporibus extitisse subiectos.
+					<lb/>Lanfrancus hoc audiens etsi moleste tulit modesta tamen discretione
+					<lb/>uerba illius ueritate penitus carere respondit, asseuerans
+					<lb/>Gregorianam illam constitutionem non de Cantuariensi et
+					<lb/>Eboracensi aecclesia, sed de Londoniensi et Eboracensi esse
+					<lb/>promulgatam. De qua re et de tribus episcopis multis hinc inde
+					<lb/>uerbis prolatis, decreuit Alexander papa oportere hanc causam in
+					<lb/>Anglica terra audiri, et illic tocius regni episcoporum et abbatum
+					<pb n="44"/>
+					<lb/>testimonio et iudicio definiri. Lanfrancus quamuis alligatum
+					<lb/>illum suo tempore facta ab eo professione teneret, maluit tamen
+					<lb/>pro successoribus laborare quam eis in posterum indiscussam
+					<lb/>hanc tantam calumniam discutiendam reseruare. Vterque igitur
+					<lb/>in Paschali solennitate ad regem uenit, ibique prolatis in medium
+					<lb/>partium rationibus sententiam de negotio regalis curia dedit.
+					<lb/>Iussum tunc est fieri scriptum totius causae continens finem.
+					<lb/>Lanfrancus Alexandro papae epistolam direxit in qua ei totius
+					<lb/>negotii gestionem breuiter et ueraciter enarrauit. Vtraque
+					<lb/>scripta subter annexa sunt, praemissa professione quam Thomas
+                                        <lb/>Lanfranco coram rege et eius curia manu in manum porrexit:</p>
+                                </div>
+                                <div>
+					<head><lb/>iii.</head> <p>Decet christianum quenque christianis legibus subiacere,
+					<lb/>nec his quae a sanctis patribus salubriter instituta sunt quibuslibet
+					<lb/>rationibus contraire. Hinc nanque irae dissensiones inuidiae contentiones
+					<lb/>ceteraque procedunt, quae amatores suos in poenas
+					<lb/>aeternas demergunt. Et quanto quisque altioris est ordinis, tanto
+					<lb/>impensius diuinis debet obtemperare preceptis. Propterea ego
+					<lb/>Thomas ordinatus iam Eboracensis aecclesiae metropolitanus
+					<lb/>antistes auditis cognitisque rationibus absolutam tibi Lanfrance
+					<lb/>Dorobernensis archiepiscope tuisque successoribus de canonica
+					<lb/>oboedientia professionem facio, et quicquid a te uel ab eis iuste et
+					<lb/>canonice iniunctum michi fuerit seruaturum me esse promitto.
+					<lb/>De hac autem re dum a te adhuc ordinandus essem dubius fui,
+					<lb/>ideoque tibi quidem sine conditione, successoribus uero tuis
+				<lb/>conditionaliter, obtemperaturum me esse promisi.</p>
+                        </div>
+                        <div>
+				<head><lb/>iv.</head> <p>Anno ab incarnatione Domini nostri Iesu Christi millesimo
+					<lb/>septuagesimo secundo, pontificatus autem domni Alexandri
+					<lb/>papae undecimo, regni uero Willelmi gloriosi regis Anglorum et
+					<lb/>ducis Northmannorum sexto, ex praecepto eiusdem Alexandri
+					<lb/>papae annuente eodem rege, in presentia ipsius et episcoporum
+					<lb/>atque abbatum, uentilata est causa de primatu quem Lanfrancus
+					<lb/>Dorobernensis archiepiscopus super Eboracensem aecclesiam
+					<lb/>iure suae aecclesiae proclamabat, et de ordinationibus quorundam
+					<pb n="46"/>
+					<lb/>episcoporum de quibus ad quem specialiter pertinerent certum
+					<lb/>minime constabat. Et tandem aliquando diuersis diuersarum
+					<lb/>scripturarum auctoritatibus probatum atque ostensum est quod
+					<lb/>Eboracensis aecclesia Cantuariensi debeat subiacere, eiusque
+					<lb/>archiepiscopi ut primatis totius Britanniae dispositionibus in iis
+					<lb/>que ad christianam religionem pertinent in omnibus oboedire.
+					<lb/>Subiectionem uero Dunelmensis hoc est Lindisfarnensis episcopi,
+					<lb/>atque omnium regionum a terminis Licifeldensis episcopii et
+					<lb/>Humbrae magni fluuii usque ad extremos Scotiae fines, et quicquid
+					<lb/>ex hac parte praedicti fluminis ad parrochiam Eboracensis
+					<lb/>aecclesiae iure competit, Cantuariensis metropolitanus Eboracensi
+					<lb/>archiepiscopo eiusque successoribus in perpetuum obtinere
+					<lb/>concessit: ita ut si Cantuariensis archiepiscopus concilium cogere
+					<lb/>uoluerit, ubicunque ei uisum fuerit, Eboracensis archiepiscopus
+					<lb/>sui praesentiam cum omnibus sibi subiectis episcopis ad nutum
+					<lb/>eius exhibeat, et eius canonicis dispositionibus oboediens existat.
+					<lb/>Quod autem Eboracensis archiepiscopus professionem Cantuariensi
+					<lb/>archiepiscopo facere etiam cum sacramento debeat
+					<lb/>Lanfrancus Dorobernensis archiepiscopus ex antiqua antecessorum
+					<lb/>consuetudine ostendit, sed ob amorem regis Thomae
+					<lb/>Eboracensi archiepiscopo sacramentum relaxauit, scriptamque
+					<lb/>tantum professionem recepit, non preiudicans successoribus suis
+					<lb/>qui sacramentum cum professione a successoribus Thomae
+					<lb/>exigere uoluerint. Si archiepiscopus Cantuariensis uitam finierit,
+					<lb/>Eboracensis archiepiscopus Doroberniam ueniet, et eum qui
+					<lb/>electus fuerit cum ceteris prefatae aecclesiae episcopis ut primatem
+					<lb/>proprium iure consecrabit. Quod si archiepiscopus Eboracensis
+					<lb/>obierit, is qui ei successurus eligitur, accepto a rege archiepiscopatus
+					<lb/>dono, Cantuariam uel ubi Cantuariensi archiepiscopo uisum
+					<lb/>fuerit accedet, et ab ipso ordinationem canonico more suscipiet.
+					<lb/>Huic constitutioni consenserunt prefatus rex et archiepiscopi,
+					<lb/>Lanfrancus Cantuariensis et Thomas Eboracensis, et Hubertus
+					<lb/>sanctae Romanae aecclesiae subdiaconus et prefati Alexandri
+					<lb/>papae legatus, et caeteri qui interfuerunt episcopi et abbates.
+					<pb n="48"/>
+					<lb/>[Ventilata est autem haec causa prius apud Uuentanam ciuitatem
+					<lb/>in Pascali solemnitate in capella regia quae sita est in castello,
+					<lb/>postea in uilla regia quae uocatur Uuindisor ubi et finem accepit
+					<lb/>in praesentia regis episcoporum abbatum diuersorum ordinum
+				<lb/>qui congregati erant apud curiam in festiuitate Pentecostes.]</p>
+                        </div>
+			</div>
+			<div>
+				<head><lb/>4</head>
+				<head type="salutatio"><lb/>Domino totius christianae religionis summo speculatori A.
+					<lb/>papae L. sanctae Dorobernensis aecclesiae antistes debitam cum
+				<lb/>omni seruitute oboedientiam.</head>
+				<pb n="50"/>
+				<p><lb/>Meminisse debet humiliter excellens excellenterque humilis
+					<lb/>beatitudo uestra quia quo tempore apud uos fuimus Eboracensis
+					<lb/>aecclesiae antistes aduersum me palam murmurauit, clam detraxit,
+					<lb/>in praesentia celsitudinis uestrae calumniam suscitauit,
+					<lb/>dicens me iniuste uelle agere eo quod super se suamque aecclesiam
+					<lb/>iure nostrae aecclesiae primatum niterer obtinere. De quorundam
+					<lb/>quoque subiectione episcoporum quos aecclesiae suae conatus est
+					<lb/>aggregare, antiquam sua querela non est ueritus consuetudinem
+					<lb/>temerare. Quibus de rebus uos sicut sanctum prudentemque
+					<lb/>pastorem decuit et oportuit per scriptum sententiam promulgastis
+					<lb/>quatinus conuentus Anglicae terrae episcoporum abbatum ceterarumque
+					<lb/>religiosi ordinis personarum utriusque partis rationes
+					<lb/>audiret, discuteret, definiret. Factumque est ita; conuenerunt
+					<lb/>enim ad regalem curiam apud Uuentanam ciuitatem in Paschali
+					<lb/>solennitate episcopi abbates ceterique ex sacro ac laicali ordine
+					<lb/>quos fide et actione morumque probitate par fuerat conuenisse.
+					<lb/>In primis adiurati sunt a nobis ex uestra auctoritate per sanctam
+					<lb/>oboedientiam, deinde regia potestas per semetipsam contestata
+					<lb/>est eos per fidem et sacramentum quibus sibi colligati erant,
+					<lb/>quatinus hanc causam intentissime audirent, auditam ad certum
+					<lb/>rectumque finem sine partium fauore perducerent. Vtrumque
+					<lb/>omnes concorditer susceperunt, seseque ita facturos sub prefata
+					<lb/>obligatione spoponderunt. Allata est igitur <hi rend="italic">Aecclesiastica gentis
+					<lb/>Anglorum ystoria</hi> quam Eboracensis aecclesiae praesbiter et
+					<lb/>Anglorum doctor Beda composuit; lectae sententiae quibus pace
+					<lb/>omnium demonstratum est a tempore beati Augustini primi
+					<lb/>Dorobernensis archiepiscopi usque ad ipsius Bedae ultimam
+					<lb/>senectutem, quod fere centum et quadraginta annorum spatio
+					<lb/>terminatur, antecessores meos super Eboracensem aecclesiam
+					<lb/>totamque insulam quam Britanniam uocant necnon et Hiberniam
+					<lb/>primatum gessisse, curam pastoralem omnibus impendisse, in ipsa
+					<lb/>Eboracensi urbe persepe locisque finitimis ubi eis uisum fuit
+					<lb/>episcopales ordinationes atque concilia celebrasse, Eboracenses
+					<lb/>antistites ad ipsa concilia uocasse et cum res poposcisset de suis
+					<lb/>eos actibus rationem reddere compulisse. Episcopos quoque
+					<lb/>quorum subiectionem in questionem adduxerat infra illud centum
+					<lb/>et .xl. annorum spacium per Dorobernenses archiepiscopos fuisse
+					<lb/>sacratos, ad concilia uocatos, quosdam quoque exigentibus culpis
+					<pb n="52"/>
+					<lb/>ab eis cum Romanae sedis auctoritate depositos; multaque in
+					<lb/>hunc modum quae epistolaris modestia per singula explicare non
+					<lb/>potest. Diuersa ad legendum porrecta concilia quae diuersis
+					<lb/>temporibus diuersis de causis a meis sunt antecessoribus celebrata.
+					<lb/>Quae tametsi non eandem suae institutionis habuere materiam,
+					<lb/>eandem tamen de primatu et subiectionibus episcoporum tenuere
+					<lb/>sententiam. Recitatae eorundem de quibus questio uersabatur
+					<lb/>episcoporum ante predecessores meos factae electiones et per eos
+					<lb/>ordinationes, qui Dorobernensi aecclesiae de sua oboedientia
+					<lb/>scriptas reliquerunt professiones; urbs nanque que nunc Cantuarberia
+					<lb/>nominatur antiquis temporibus ab ipsius terrae incolis
+					<lb/>Dorobernia uocabatur. Accesserunt omnium testimonia qui
+					<lb/>omnia quae scripta sonuerunt se suis quisque temporibus uidisse
+					<lb/>et audisse constantissime firmauerunt. Nec defuere gesta quibus
+					<lb/>reseratum est, cum Anglia per plures esset regulos diuisa, Nordanymbrorum
+					<lb/>regem ubi sita est ciuitas Eboraca accepto precio
+					<lb/>cuidam simoniaco episcopium uendidisse, pro qua culpa a Dorobernensi
+					<lb/>archiepiscopo ad concilium uocatum fuisse, nolentemque
+					<lb/>uenire pro sua inoboedientia excommunicationis sententiam
+					<lb/>pertulisse. Cuius communionis atque consortii omnis illarum
+					<lb/>parcium aecclesia tamdiu abstinuit quoadusque concilio seipsum
+					<lb/>exhibuit, culpam dixit, quod male gestum est correxit, de reliquo
+					<lb/>emendaturum se fore spopondit. Quae res non mediocre tulit
+					<lb/>indicium, antecessores meos super illam terram illamque aecclesiam
+					<lb/>habuisse primatum. Vltimum quasi robur totiusque causae
+					<lb/>firmamentum prolata sunt antecessorum uestrorum Gregorii,
+					<lb/>Bonefacii, Honorii, Vitaliani, Sergii, item Gregorii, Leonis,
+					<lb/>item ultimi Leonis priuilegia atque scripta, quae Dorobernensis
+					<lb/>aecclesiae presulibus Anglorumque regibus aliis atque aliis temporibus
+					<lb/>uariis de causis sunt data aut transmissa. (Reliqua enim
+					<lb/>reliquorum tam autentica quam eorum exemplaria in ea combustione
+					<lb/>atque abolitione quam aecclesia nostra ante quadriennium
+					<lb/>perpessa est penitus sunt absumpta.) His atque aliis quae particulatim
+					<pb n="54"/>
+					<lb/>breuiterque explicari non possunt ex parte nostrae aecclesiae
+					<lb/>in causa peroratis, contra tantam tantarum auctoritatum euidentiam
+					<lb/>paucissimas contradictiones opposuit, epistolam illam precipue
+					<lb/>ferens in medium qua beatus Gregorius Londoniensem atque
+					<lb/>Eboracensem aecclesiam pares esse nec alteram alteri subiacere
+					<lb/>instituit. Quam scripturam cum in rem nichil facere concordi
+					<lb/>sententia cuncti protinus definissent, pro eo quod nec ego Londoniensis
+					<lb/>episcopus essem nec de Londoniensi aecclesia esset quaestio
+					<lb/>instituta, uertit se ad alia egena atque infirma argumenta quae
+					<lb/>post paucam moram Christo reuelante paucis sunt obiectionibus
+					<lb/>abolita. Quem cum rex dulci paternaque reprehensione argueret
+					<lb/>quod contra tantam argumentorum copiam tam inops rationum
+					<lb/>uenire presumpsisset, respondit se antea ignorasse Dorobernensem
+					<lb/>aecclesiam tot tantisque auctoritatibus tamque perspicuis
+					<lb/>rationibus esse munitam. Versus itaque ad preces est; rogauit
+					<lb/>enim regem ut me rogaret quatinus omnem mentis rancorem
+					<lb/>aduersus eum pro hac causa conceptum omitterem, pacem diligerem,
+					<lb/>concordiam facerem, aliqua quae mei essent iuris studio
+					<lb/>ei caritatis concederem. Cui peticioni ego libenter et cum gratiarum
+					<lb/>actione assensum prebui, quia miserante Deo non ego sed
+					<lb/>ille prisce consuetudinis uiolator causa erat istius scandali. Facta
+					<lb/>est igitur communi omnium astipulatione de hac re quaedam
+					<lb/>scriptura, cuius exemplaria per principales Anglorum aecclesias
+					<lb/>distributa futuris semper temporibus testimonium ferant ad
+					<lb/>quem finem causa ista fuerit perducta. Cuius exemplar uobis
+					<lb/>quoque quibus sanctam totius mundi aecclesiam constat esse
+					<lb/>commissam transmittendum curaui, ut ex hoc atque aliis quae
+					<lb/>transmissa sunt perspicue cognoscatis ex more antecessorum
+					<lb/>quid michi Christique aecclesiae quam regendam suscepi concedere
+					<lb/>debeatis. Quod peto honeste et sine dilatione per indultum
+					<lb/>sedis apostolicae priuilegium fieri, quatinus ex hoc quoque
+					<lb/>quantum me diligatis euidenter possit ostendi; de me autem
+					<lb/>reuera estimate quod de fideli ac seruo beati Petri ac uestro
+					<lb/>sanctaeque aecclesiae Romanae. Nunquam enim res quaelibet de
+					<lb/>archa mei pectoris eicere quauis occasione poterit inauditam illam
+					<lb/>humilitatem quam michi extremo hominum tantis indigno
+					<pb n="56"/>
+					<lb/>honoribus Rome exhibuistis, quodque duo pallia, unum de altari
+					<lb/>ex more et alterum quo sanctitas uestra missas celebrare consueuerat,
+					<lb/>ad ostendendam circa me beniuolentiam uestram michi
+					<lb/>impendistis; illud quoque quod omnibus quorum mediator
+					<lb/>extiti quicquid iuste ac salubriter petierunt me interueniente
+					<lb/>protinus concessistis: ut taceam alia plura quae in hac parte ab
+					<lb/>his minime discrepant, quaeque michi memoriam uestri nominis
+				<lb/>si quid boni facio dulciter representant.</p>
+				<p><lb/>Epistolam quam Beringerio scismatico dum adhuc Cadomensi
+					<lb/>cenobio praeessem transmisi paternitati uestrae sicut precepistis
+				<lb/>transmittere curaui.</p>
+				<p><lb/>Omnipotens Dominus uitam uestram ad honorem sanctae
+					<lb/>aecclesiae uestris dispositionibus diuinitus commissae in tempore
+					<lb/>prolixam faciat, quatinus post tempus quae sine tempore sunt
+				<lb/>prolixa aeternitatis spacia uobis concedat.</p>
+			</div>
+			<div>
+				<head><lb/>5</head>
+				<head type="salutatio"><lb/>Domino sanctae Romanae aecclesiae archidiacono Hildebrando
+				<lb/>L. suus ʻsanctis principiis sanctum coniungere finemʼ.</head>
+				<lb/>
+				<p><lb/>Explicare litteris mens mea non potest quanta dilectione uestrae
+					<lb/>sinceritati conectitur, quantaque dulcedine gratiarum uestrarum
+					<lb/>quas michi tam praesenti quam absenti benignitas uestra semper
+					<lb/>exhibuit indesinenter reminiscitur. Propterea si donante Deo in
+					<lb/>quibuslibet rerum generibus aliquid boni facio, salutem uestram
+					<lb/>tam temporalem quam tempore carituram tradere obliuioni non
+					<lb/>ualeo. Et hoc oro omnipotentem Deum, quatinus uitam uestram
+					<lb/>ad honorem et firmamentum sanctae aecclesiae suae prolixam
+					<lb/>in hoc seculo faciat, incontaminatam ab omni peccati contagione
+					<pb n="58"/>
+					<lb/>custodiat, et in futuro centuplicatis operibus uestris uitam uobis
+				<lb/>permanentem copiosus remunerator retribuat.</p>
+				<p><lb/>Porro calumnia quam Eboracensis aecclesiae antistes aduersum
+					<lb/>me mouit de primatu et de subiectione quorundam episcoporum
+					<lb/>secundum preceptum apostolicae sedis audita ac determinata est.
+					<lb/>Cuius negotii gestionem breuiter ex ordine scriptam domino
+					<lb/>nostro papae transmisi, quam uolo et rogo a uobis competenti
+					<lb/>diligentia legi, quatinus caritas uestra certissimum teneat quid
+					<lb/>michi aecclesiaeque meae sedes apostolica confirmando concedere
+				<lb/>et concedendo confirmare per priuilegium debeat.</p>
+			</div>
+			<div>
+				<head><lb/>6</head>
+				<head type="salutatio"><lb/>Lanfranco uenerabili Cantuariorum archiepiscopo Hildebrandus
+				<lb/>sanctae Romanae aecclesiae archidiaconus salutem in Domino.</head>
+				<lb/>
+				<p><lb/>Verba legatorum uestrorum gratanter accepimus, sed quod uoluntati
+					<lb/>uestrae in mittendo absenti personae uestrae priuilegio ut
+					<lb/>illi petebant rite non potuimus satisfacere ualde doluimus. Neque
+					<lb/>id egre ferat uestra prudentia; quoniam si alicui archiepiscoporum
+					<lb/>nostris temporibus absenti hoc concessum fuisse uidissemus,
+					<lb/>profecto religioni uestrae promptissima caritate honorem hunc
+					<lb/>absque uestra fatigatione impenderemus. Vnde necessarium nobis
+					<lb/>uidetur uos apostolorum limina uisitare, quatinus de hoc et ceteris
+					<lb/>una uobiscum efficatius quod opportuerit consulere ualeamus
+					<lb/>atque statuere. De cetero si legatos nostros ad uos uenire contigerit
+					<lb/>solita caritate recipite, et quae uobis in aure dixerint prout
+					<lb/>carissimum sanctae Romanae aecclesiae filium et religiosum
+				<lb/>decet sacerdotem procurare studete.</p>
+			</div>
+			<pb n="60"/>
+			<div>
+				<head><lb/>7</head>
+				<head type="salutatio"><lb/>Alexander episcopus seruus seruorum Dei carissimo filio W.
+				<lb/>glorioso regi Anglorum salutem et apostolicam benedictionem.</head>
+				<lb/>
+				<p><lb/>Omnipotenti Deo laudes gratiasque referimus quod hoc in
+					<lb/>tempore, licet mundus in maligno positus plus solito prauis
+					<lb/>incumbat studiis, tamen inter mundi rectores et principes egregiam
+					<lb/>uestrae religionis famam intelligimus, et quantum honoris sanctae
+					<lb/>aecclesiae tum simoniacae haeresis uires opprimendo tum catholicae
+					<lb/>libertatis usus et officia confirmando uestra uirtus impendat
+					<lb/>non dubia relatione cognoscimus. Sed quoniam non iis qui bona
+					<lb/>demonstrant initia sed in fine probatis premium et corona
+					<lb/>promittitur, excellentiam uestram plena dilectione monemus ut in
+					<lb/>studio christianissimae deuotionis uestrae persistatis, et primo
+					<lb/>quidem aecclesias Christi quae in regno uestro sunt religioso
+					<lb/>cultu et iustis dispositionibus exornetis, commissa uobis regni
+					<lb/>gubernacula ita iusticiam tenendo tractetis ut ex operum
+					<lb/>rectitudine quod scriptum est, ʻCor regis in manu Deiʼ, uobis
+					<lb/>manifeste congruat. Rogamus etiam dilectionem uestram ut aecclesiasticas
+					<lb/>personas ab iniuria defendatis, uiduas et orphanos et
+					<lb/>oppressos misericorditer releuando protegatis; quoniam licet ille
+					<lb/>rex regum et supernus arbiter totius regni quod uobis tradidit
+					<lb/>rationem a uobis exigat, pro his tamen districtius appellabit
+					<lb/>quibus hic non sunt uires et arma nisi uestra potentia. Ad haec
+					<lb/>igitur perficienda et aliarum uirtutum incrementa percipienda
+					<lb/>fratris nostri Lanfranci Cantuariensis archiepiscopi monitis et
+					<lb/>consiliis gloriam uestram ortamur adquiescere; quem carissimum
+					<lb/>membrum et unum ex primis Romanae aecclesiae filiis lateri
+					<lb/>nostro assidue non adiunctum esse dolemus, sed ex fructu quem
+					<pb n="62"/>
+					<lb/>aecclesiae in regno uestro tribuit consolationem eius absentiae
+				<lb/>sumimus.</p>
+				<p><lb/>Praeterea eminentiae uestrae notum esse uolumus quod causa
+					<lb/>Alricii, qui olim Cicestrensis aecclesiae presul dictus a suppositis
+					<lb/>legatorum nostrorum depositus est, non ad plenum nobis tractata
+					<lb/>uidetur. Ideoque sicut in canonibus cautum est in pristinum locum
+					<lb/>debere restitui iudicauimus, deinde causam eius iuxta censuram
+					<lb/>canonicae traditionis diligenter retractandam et diffiniendam
+					<lb/>predicto fratri nostro archiepiscopo Lanfranco commisimus.
+					<lb/>Item sibi negotium de discernenda lite quae inter archiepiscopum
+					<lb/>Eboracensem et episcopum Dorcacestrensem de pertinentia
+					<lb/>diocesis eorum est firmiter iniungendo commendauimus, ut hanc
+					<lb/>causam diligentissima perquisitione pertractet et iusto fine
+					<lb/>determinet. In causis autem pertractandis et diffiniendis ita
+					<lb/>sibi nostrae et apostolicae auctoritatis uicem dedimus, ut quicquid
+					<lb/>in eis iusticia dictante determinauerit, quasi in nostra presentia
+					<lb/>definitum deinceps firmum et indissolubile teneatur. Multa uobis
+					<lb/>preter haec significata dedissemus, nisi quod ea in huius dilectissimi
+					<lb/>fratris nostri Lanfranci et eiusdem fidelissimi uobis ore posuimus,
+					<lb/>ut eius uiua uoce et nostrae dilectionis affectum plenius cognoscatis,
+					<lb/>et reliqua nostrae legationis uerba attentius audiatis.
+					<lb/>Deus autem omnipotens det uobis quaecunque sibi sunt placita
+					<lb/>uelle et posse, ut et hic auctor sit uestri gubernaculi et retributor
+				<lb/>in gloria sempiterni gaudii.</p>
+			</div>
+			<pb n="64"/>
+			<div>
+				<head><lb/>8</head>
+				<head type="salutatio"><lb/>Gregorius episcopus seruus seruorum Dei carissimo fratri in
+					<lb/>Christo L. uenerabili Cantuariorum archiepiscopo salutem et
+				<lb/>apostolicam benedictionem.</head>
+				<lb/>
+				<p><lb/>Qualiter nobis apostolici regiminis honor et onus inpositum sit et
+					<lb/>quantis undique stringamur angustiis presentium tibi portitor
+					<lb/>indicabit, cui respectu tuae dilectionis etiam nonnulla nostris
+					<lb/>adhuc familiaribus occulta aperuimus. De cetero inprimis fraternitatem
+					<lb/>tuam rogamus ut Deum pro nobis iugiter exorare non
+					<lb/>pigeat et subditos sibi uel coniunctos fratres suis nos orationibus
+					<lb/>apud Deum iuuare commoneat. Quanto enim in maiore periculo
+					<lb/>positi sumus, tanto amplius tuis et bonorum omnium suffragiis
+					<lb/>indigemus. Nos etenim si diuinae uindictae iudicium effugere
+					<lb/>uolumus, contra multos insurgere et eos in animam nostram
+					<lb/>prouocare compellimur. Nam dum omnes fere sicut ait apostolus
+					<lb/>ʻquae sua sunt non quae Iesu Christi quaeruntʼ, regnorum
+					<lb/>principes et huius mundi potentes ut cupiditates suas expleant
+					<lb/>legem Dei et iusticiam non iam neglegenter deserunt, sed summis
+					<lb/>conatibus impugnant; ut illud prophetae nunc sub oculis uideamus
+					<lb/>impletum: ʻAstiterunt reges terrae et principes conuenerunt in
+					<lb/>unum aduersus Dominum et aduersus Christum eius.ʼ Episcopi
+					<lb/>uero et qui pastores animarum esse deberent mundi gloriam et
+					<lb/>delicias carnis insatiabili desiderio prosequentes non solum in
+					<lb/>semetipsis quae sancta quaeque sunt religiosa confundunt,
+					<lb/>sed subditos suos ad omne nefas operum suorum exemplo pertrahunt.
+					<lb/>Quibus non contraire quam nobis periculosum, resistere
+					<lb/>autem et eorum nequiciam refrenare quam difficile sit tua prudentia
+					<lb/>nouit. Sed quoniam quos dolores inter has patiamur
+					<lb/>angustias ut supra diximus huic communi filio nostro tibi referendum
+				<lb/>exeruimus, plura de his dicere supersedemus.</p>
+				<p><lb/>Tuam uero fraternitatem, etsi monitore non egeat, impellente
+					<pb n="66"/>
+					<lb/>tamen nos sollicitudine admonemus quatinus grauiora usquequaque
+					<lb/>resecare uitia studeat, et inter omnia et prae omnibus
+					<lb/>nefas quod de Scottis audiuimus, uidelicet quod plerique proprias
+					<lb/>uxores non solum deserunt sed etiam uendunt, modis omnibus
+					<lb/>prohibere contendat. Ad haec enim apostolica te auctoritate
+					<lb/>fultum esse uolumus, ut non solum in Scottis hoc scelus sed
+					<lb/>etiam in aliis si quos in Anglorum insula tales esse cognoueris
+					<lb/>dura animaduersione punias, et radicem tanti mali prudenti
+				<lb/>sarculo correctionis penitus extirpare non differas.</p>
+			</div>
+			<div>
+				<head><lb/>9</head>
+				<head type="salutatio"><lb/>Lanfrancus non suis meritis sed gratia Dei archiepiscopus glorioso
+				<lb/>Hiberniae regi Gothrico salutem cum orationibus.</head>
+				<lb/>
+				<p><lb/>Venerabilem fratrem ac coepiscopum nostrum Patricium quem,
+					<lb/>karissime fili, excellentia uestra ad nos consecrandum transmisit
+					<lb/>honeste suscepimus, debitis officiis secundum canonicam institutionem
+					<lb/>Sancti Spiritus gratia cooperante sacrauimus, sacratum
+					<lb/>ad sedem propriam cum testimonio litterarum nostrarum more
+					<lb/>antecessorum nostrorum remisimus. Qui quamuis de gloria
+					<lb/>uestra multa nobis bona multisque laudibus digna retulerit, non
+					<lb/>ab re tamen esse credimus si predicanda studia uestra nostra
+					<pb n="68"/>
+					<lb/>adhortatione pulsamus. Sicut enim ignis flante uento clarius lucet
+					<lb/>et maior efficitur, sic uera uirtus ueris preconiis pulchrius enitescit
+					<lb/>et in melius augmentatur. Rogamus igitur sicut rogari oportet
+					<lb/>preciosum sanctae aecclesiae filium, quatinus fidem rectam ab
+					<lb/>ipso Deo et sanctis apostolis eius atque orthodoxis patribus
+					<lb/>traditam cum omni mentis sinceritate inuiolatam teneatis, fidei
+					<lb/>congrua opera in quantum uires suppetunt exhibeatis, superbis
+					<lb/>austeram humilibus placabilem uestram celsitudinem ostendatis.
+					<lb/>In regno uestro perhibentur homines seu de propria seu de
+					<lb/>mortuarum uxorum parentela coniuges ducere, alii legitime sibi
+					<lb/>copulatas pro arbitrio et uoluntate relinquere, nonnulli suas aliis
+					<lb/>dare et aliorum infanda commutatione recipere. Haec et siqua
+					<lb/>sunt alia crimina propter Deum et animam uestram in terra
+					<lb/>potestatis uestrae corrigi iubete, talesque uos cum diuino adiutorio
+					<lb/>uestris subditis exhibete, ut et amatores boni bona amplius
+					<lb/>diligant, et appetitores mali prauas actiones nequaquam exercere
+					<lb/>praesumant. Hoc enim facientes et diutius cum rerum temporalium
+					<lb/>felicitate in terra regnabitis, et post terrenum regnum sine fine
+				<lb/>regnaturi ad coelestia regna migrabitis.</p>
+				<p><lb/>Plura et prolixius uobis scripsissem, sed habetis uobiscum
+					<lb/>predictum antistitem uestrum monasticis institutionibus a pueritia
+					<lb/>enutritum, scientia diuinarum litterarum strenuissime eruditum,
+					<lb/>bonorum operum ornamentis in quantum cognosci a nobis potuit
+					<lb/>decentissime adornatum. Quem de anima uestra uobis sepius
+					<lb/>loquentem si intento corde audieritis, audientes ut patri spirituali
+					<lb/>in his quae ad Deum pertinent oboedieritis, oboedientes ea quae
+					<lb/>uobis ab eo prolata fuerint in archa pectoris uestri reposueritis,
+					<lb/>speramus per misericordiam Dei quia neque uos perniciose errabitis
+					<lb/>neque subditos uobis in prauarum actionum pertinacia stare
+				<lb/>diu permiseritis.</p>
+				<p><lb/>Omnipotens Dominus contra inimicos mentis et corporis
+					<lb/>brachio uirtutis suae excellentiam uestram defendat, et post
+					<lb/>longam huius seculi uitam ad eam quae finem non habet feliciter
+				<lb/>uos perducat.</p>
+			</div>
+			<pb n="70"/>
+			<div>
+				<head><lb/>10</head>
+				<head type="salutatio"><lb/>Lanfrancus peccator et indignus sanctae Dorobernensis aecclesiae
+					<lb/>archiepiscopus magnifico Hibernie regi Terdeluaco benedictionem
+				<lb/>cum seruicio et orationibus.</head>
+				<lb/>
+				<p><lb/>Nullam Deus maiorem terris misericordiam impendit quam cum
+					<lb/>pacis ac iusticiae amatores ad animarum seu corporum gubernacula
+					<lb/>prouehit, et maxime cum bonis regibus regna huius mundi
+					<lb/>regenda committit. Hinc namque pax oritur discordia sopitur et, ut
+					<lb/>breuiter cuncta complectar, Christianae religionis obseruantia
+					<lb/>stabilitur. Quod populis Hiberniae diuinitus tunc collatum fuisse
+					<lb/>prudens inspector intelligit, quando omnipotens Deus excellentiae
+					<lb/>uestrae ius regiae potestatis super illam terram concessit. Tot
+					<lb/>enim tantaque bona de magnitudinis uestrae erga bonos pia
+					<lb/>humilitate, contra prauos districta seueritate, circa omne hominum
+					<lb/>genus discretissima aequitate frater et coepiscopus noster
+					<lb/>Patricius narrauit, ut quamuis uos nunquam uiderimus, tanquam
+					<lb/>uisos tamen uos diligamus et tanquam uisis ac bene cognitis
+					<lb/>uobis salubriter consulere et sincerissime seruire cupiamus.
+					<lb/>Verum inter multa quae placent relata nobis sunt quaedam
+					<lb/>quae displicent: uidelicet quod in regno uestro quisque pro
+					<lb/>arbitrio suo legitime sibi copulatam uxorem nulla canonica causa
+					<lb/>interueniente relinquit et aliam quamlibet, seu sibi uel relicte
+					<lb/>uxori consanguinitate propinquam siue quam alius simili improbitate
+					<lb/>deseruit, maritali seu fornicaria lege punienda sibi
+					<lb/>temeritate coniungit; quod episcopi ab uno episcopo consecrantur;
+					<lb/>quod in uillis uel ciuitatibus plures ordinantur; quod infantes
+					<lb/>baptismo sine crismate consecrato baptizantur; quod sacri ordines
+					<lb/>per pecuniam ab episcopis dantur. Haec omnia et siqua sunt
+					<lb/>similia contra euangelicam et apostolicam auctoritatem, contra
+					<lb/>sanctorum canonum prohibitionem, contra omnium orthodoxorum
+					<pb n="72"/>
+					<lb/>patrum qui nos precesserunt fieri institutionem nullus qui sacras
+					<lb/>litteras uel mediocriter legit ignorat. Quae quanto in conspectu
+					<lb/>Dei sanctorumque eius amplius sunt horrenda, tanto studiosius
+					<lb/>uestris sunt sine aliqua dilatione iussionibus prohibenda, et nisi
+					<lb/>prohibita corrigantur districtissima terroris uestri seueritate punienda.
+					<lb/>Nullum enim Deo uel maius uel gratius munus offerre
+					<lb/>potestis quam si diuina et humana debitis legibus gubernare studetis.
+					<lb/>Memores igitur diuini iudicii quo de commisso uobis regno
+					<lb/>racionem reddituri estis Deo episcopos et religiosos quosque uiros
+					<lb/>in unum conuenire iubete, sacro eorum conuentui praesentiam
+					<lb/>uestram cum uestris optimatibus exhibete, has prauas consuetudines
+					<lb/>omnesque alias quae a sacris legibus improbantur a
+					<lb/>regno uestro exterminare studete, quatinus rex regum et dominus
+					<lb/>dominantium cum uiderit regiam maiestatem uestram preceptis
+					<lb/>suis in omnibus esse subiectam, seruis quoque ac fidelibus suis
+					<lb/>pro timore et amore eius mansuetam, inimicis diuinae religionis
+					<lb/>diuino zelo infestam, ipse quoque uos uestrosque fideles clamantes
+					<lb/>ad se propiciatus exaudiat, hostes conterat, pacemque uobis in hoc
+				<lb/>seculo stabilem et in futuro uitam aeternam concedat.</p>
+			</div>
+			<div>
+				<head><lb/>11</head>
+				<p><lb/>Anno incarnationis dominicae millesimo septuagesimo quinto,
+					<lb/>regnante glorioso Anglorum rege Willelmo, anno regni eius nono,
+					<lb/>congregatum est Londoniae in aecclesia beati Pauli apostoli
+					<lb/>concilium totius Anglicae regionis: episcoporum uidelicet abbatum
+					<lb/>necnon et multarum religiosi ordinis personarum, iubente atque
+					<lb/>eidem concilio presidente Lanfranco, sanctae Dorobernensis
+					<pb n="74"/>
+					<lb/>aecclesiae archipresule totiusque Britannicae insulae primate,
+					<lb/>considentibus secum uiris uenerabilibus Thoma Eboracensi archiepiscopo
+					<lb/>Willelmo Londoniensi episcopo Goisfrido Constantiensi,
+					<lb/>qui cum transmarinus esset episcopus in Anglia multas possessiones
+					<lb/>habens cum ceteris in concilio residebat, Walchelino
+					<lb/>Wintoniensi Hermanno Siraburnensi Wulstano Wiricestrensi
+					<lb/>Waltero Herefordensi Gisone Willensi Remigio Dorchacensi seu
+					<lb/>Linconiensi Herfasto Helmeanensi seu Noruuicensi Stigando
+					<lb/>Selengensi Osberno Exoniensi Petro Licifeldensi. Rofensis aecclesia
+					<lb/>per idem tempus pastore carebat. Lindisfarnensis qui et
+					<lb/>Dunelmensis episcopus canonicam excusationem habens concilio
+				<lb/>interesse non poterat.</p>
+				<p><lb/>Et quia multis retro annis in Anglico regno usus conciliorum
+					<lb/>obsoleuerat, renouata sunt nonnulla quae antiquis etiam noscuntur
+				<lb/>canonibus definita.</p>
+                            <div>
+                                <head><lb/>i.</head> <p>Ex concilio igitur Toletano quarto Milleuitano atque
+					<lb/>Bracharensi statutum est ut singuli secundum ordinationis suae
+					<lb/>tempora sedeant, preter eos qui ex antiqua consuetudine siue
+					<lb/>suarum aecclesiarum priuilegiis digniores sedes habent. De qua
+					<lb/>re interrogati sunt senes et aetate prouecti, quid uel ipsi uidissent
+					<lb/>uel a maioribus atque antiquioribus ueraciter ac probabiliter
+					<lb/>accepissent. Super quo responso petitae sunt induciae ac concesse
+					<lb/>usque in crastinum. Crastina autem die concorditer perhibuere
+					<lb/>quod Heboracensis archiepiscopus ad dexteram Dorobernensis
+					<lb/>sedere debeat, Londoniensis episcopus ad sinistram, Wentanus
+					<lb/>iuxta Eboracensem. Si uero Eboracensis desit, Londoniensis ad
+				<lb/>dexteram Wentanus ad sinistram.</p>
+                        </div>
+                        <div>
+                            <head><lb/>ii.</head> <p>Ex regula beati Benedicti, dialogo Gregorii et antiqua regularium
+					<lb/>locorum consuetudine ut monachi ordinem debitum teneant:
+					<lb/>infantes precipue et iuuenes in omnibus locis deputatis
+					<pb n="76"/>
+					<lb/>sibi idoneis magistris custodiam habeant, nocte luminaria ferant;
+					<lb/>generaliter omnes nisi a prelatis concessa proprietate careant. Si
+					<lb/>quis uero aliquid proprii sine prefata licentia habere in morte
+					<lb/>fuerit deprehensus, nec ante mortem id reddiderit cum poenitentia
+					<lb/>et dolore peccatum suum confessus, nec signa pro eo pulsentur
+					<lb/>nec salutaris pro eius absolutione hostia immoletur nec in cimeterio
+				<lb/>sepeliatur.</p>
+                        </div>
+                        <div>
+				<head><lb/>iii.</head> <p>Ex decretis summorum pontificum Damasi uidelicet et
+					<lb/>Leonis necnon ex conciliis Sardicensi atque Laodicensi, in quibus
+					<lb/>prohibetur episcopales sedes in uillis existere, concessum est
+					<lb/>regia munificentia et sinodali auctoritate prefatis tribus episcopis
+					<lb/>de uillis ad ciuitates transire: Herimanno de Siraburna ad Serisberiam,
+					<lb/>Stigando de Selengeo ad Cicestrum, Petro de Licifelde
+					<lb/>ad Cestrum. De quibusdam qui in uillis seu uicis adhuc degebant
+					<lb/>dilatum est usque ad regis audientiam, qui in transmarinis partibus
+				<lb/>tunc temporis bella gerebat.</p>
+                        </div>
+                        <div>
+				<head><lb/>iv.</head> <p>Ex multis Romanorum presulum decretis diuersisque
+					<lb/>sacrorum canonum auctoritatibus, ne quis alienum clericum uel
+					<lb/>monachum sine commendaticiis litteris retineat uel ordinet.</p>
+                        </div>
+                        <div>
+				<head><lb/>v.</head> <p>Ad comprimendam quorundam indiscretorum insolentiam,
+					<lb/>ex communi decreto sancitum est ne quis in concilio loquatur
+					<lb/>preter licentiam a metropolitano sumptam, exceptis episcopis et
+				<lb/>abbatibus.</p>
+                        </div>
+                        <div>
+				<head><lb/>vi.</head> <p>Ex decretis Gregorii Maioris necnon et Minoris, ut nullus
+					<lb/>de propria cognatione uel uxoris defunctae seu quam cognatus
+					<lb/>habuit uxorem accipiat, quoadusque parentela ex alterutra parte
+				<lb/>ad septimum gradum perueniat.</p>
+                        </div>
+                        <div>
+				<head><lb/>vii.</head> <p>Vt nullus sacros ordines seu officium aecclesiasticum quod
+					<lb/>ad curam animarum pertineat emat uel uendat. Hoc enim scelus a
+					<pb n="78"/>
+					<lb/>Petro apostolo in Simone Mago primitus damnatum est, postea a
+				<lb/>sanctis patribus uetitum et excommunicatum.</p>
+                        </div>
+                        <div>
+				<head><lb/>viii.</head> <p>Ne ossa mortuorum animalium quasi pro uitanda animalium
+					<lb/>peste alicubi suspendantur, nec sortes uel auruspicia seu
+					<lb/>diuinationes uel aliqua huiusmodi opera diaboli ab aliquo exerceantur.
+					<lb/>Haec enim omnia sacri canones prohibuerunt, et eos
+					<lb/>qui talia exercent data sententia excommunicauerunt.</p>
+                        </div>
+                        <div>
+				<head><lb/>ix.</head> <p>Ex conciliis Eliberitano et Toletano undecimo, ut nullus
+					<lb/>episcopus uel abbas seu quilibet ex clero hominem occidendum
+					<lb/>uel membris truncandum iudicet, uel iudicantibus suae auctoritatis
+				<lb/>fauorem commodet.</p>
+				<p><lb/>Ego Lanfrancus Dorobernensis archiepiscopus subscripsi.
+					<lb/>Ego Thomas Eboracensis aecclesiae archiepiscopus subscripsi.
+				<lb/>Subscripserunt et alii episcopi uel abbates qui interfuerunt.</p>
+			</div>
+                    </div>
+			<div>
+				<head><lb/>12</head>
+				<head type="salutatio"><lb/>Piissimo et sanctissimo Cantuariorum archiepiscopo totius quoque
+					<lb/>Britanniae summo pastori L. Thomas fidelis suus et, nisi praesumptuosum
+					<lb/>sanctitati suae uideatur, Eboracensis aecclesiae
+					<lb/>archiepiscopus coeli portas Petri uice iustis et iniustis iuste
+				<lb/>aperire et claudere.</head>
+				<pb n="80"/>
+				<p><lb/>Ecce pater sanctissime filius tuus ad te clamat, sed magis filia
+					<lb/>Eboracensis uidelicet aecclesia ad eam cui dispositione diuina
+					<lb/>presides aecclesiam tanquam ad maternum recurrens sinum pie
+					<lb/>postulat, ut ex abundantia maternarum deliciarum reparetur
+					<lb/>inopia suarum se deserentium immo longe et inter barbaras
+				<lb/>nationes positarum uirium.</p>
+				<p><lb/>Siquidem uenit ad nos quidam clericus quem misit Paulus
+					<lb/>comes cum litteris sigillatis de Orchadum partibus, significans
+					<lb/>in eis episcopatum suae terrae eidem clerico se concessisse. At ille
+					<lb/>antecessorum suorum ordine custodito postulat a nobis episcopum
+					<lb/>se consecrari. Cui quod iuste petit iniuste denegare non possumus.
+					<lb/>Precamur ergo ut nobis duos episcopos dirigat paternitas uestra,
+					<lb/>quorum fulti orationibus et auxilio tante rei sacramentum canonice
+					<lb/>compleamus. Illa autem procul arceatur suspicio quam nuperrime
+					<lb/>nobis noster frater et coepiscopus subintulit Remigius, me
+					<lb/>scilicet in posterum quaesiturum Dorcacestrensis uel Wigornensis
+					<lb/>episcopi hac de causa subiectionem. Dico enim coram Deo me
+					<lb/>nunquam hoc facturum. Si placet igitur sanctitati uestrae ut
+					<lb/>iuxta peticionem nostram nobis facere dignemini, locum Eboracum
+					<lb/>tempus quinto nonas Martias nobis immutabiliter constituimus,
+				<lb/>et uobis significamus.</p>
+				<p><lb/>Ergo uiuas et ualeas, et spiritualibus incrementis usquequaque
+				<lb/>proficias.</p>
+			</div>
+			<div>
+				<head><lb/>13</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei sanctae Dorobernensis aecclesiae archiepiscopus
+					<pb n="82"/>
+					<lb/>uenerabilibus fratribus Wlfstano Wigorniensi et Petro
+				<lb/>Cestrensi episcopis salutem.</head>
+				<lb/>
+				<p><lb/>Insinuauit nobis uenerabilis frater noster Thomas Eboracensis
+					<lb/>archiepiscopus aduenisse de Orchadum insulis ad se quendam
+					<lb/>clericum, quem in episcopatu ipsius terrae precipiente et insinuante
+					<lb/>Paulo comite testatur esse electum. Et quia ex antiquo
+					<lb/>more sui iuris est prefatarum insularum presules consecrare,
+					<lb/>petit a me ut mittam sibi de nostris suffraganeis duos qui tantae
+					<lb/>rei sacramentum cum eo ualeant celebrare. Rogantes itaque
+					<lb/>precipimus et precipientes rogamus quatinus omni excusatione
+					<lb/>summota illuc eatis, et ex nostro precepto secum quod iustum
+					<lb/>est in tantae rei misterio compleatis. Non enim decet ut qui
+					<lb/>sacrandus in hanc terram uenit, et cum omni humilitate sacrari
+					<lb/>se postulat, inopia adiutorum a tanto regno non sacratus abscedat.
+					<lb/>Terminum huius consecrationis lator uobis praesentium indicabit.
+					<lb/>Et ne forte solliciti sitis, putantes quod uel ipse uel successores
+					<lb/>eius hac occasione super aecclesias uestras ius prelationis quandoque
+					<lb/>conentur arripere, litteras quas ipse michi transmisit
+					<lb/>fraternitati uestrae sollicitudinem de futuro gerens curaui transmittere.
+					<lb/>Quas et has quas uobis transmitto in archiuis aecclesiarum
+				<lb/>uestrarum ob memoriam futurorum seruatum iri praecipio.</p>
+			</div>
+			<div>
+				<head><lb/>14</head>
+				<head><lb/>Domino merito sanctitatis insigniter efferendo Iohanni Normannorum
+					<lb/>archiepiscopo L. indignus uocari episcopus bene ceptis
+				<lb/>meliora conectere.</head>
+				<lb/>
+				<p><lb/>Gratias ago colendae benignitati uestrae quia non solum presens
+					<lb/>praesentem me indeficienti amore propter Deum dilexistis,
+					<pb n="84"/>
+					<lb/>uerum etiam absens pro absente paternam uos curam gerere
+					<lb/>salubri admonitione euidenter ostenditis. Absit autem a me longeque
+					<lb/>a sensibus meis hunc errorem semper auertat diuina clementia,
+					<lb/>ut molestum michi sit si quis respectu salutis meae
+					<lb/>uitaeque aeternae contemplatione de anima mea sollicitudinem
+					<lb/>gerat: si ea quae de actibus meis sibi displicent pietate motus
+					<lb/>indicare non differat; si aliter me corrigere non potest, uerbis
+					<lb/>quoque obiurgare praesentem aut litteris increpare absentem
+					<lb/>non neglegat. Sed amicus potius a me iustus existimabitur qui
+					<lb/>in misericordia corripit me et increpat; hostis autem peccator
+					<lb/>qui oleo prauae adulationis caput meum aut inpinguat aut
+				<lb/>inpinguare laborat.</p>
+				<p><lb/>Quicquid uero sanctitas uestra de stola scripsit multum michi
+					<lb/>placuit, nec unquam displicuit. Sed quod subiunxit, quia ad
+					<lb/>dedicandam aecclesiam episcopus processurus sacris uestibus
+					<lb/>ex institutione episcopalis ordinis debeat esse indutus, atque in
+					<lb/>expositione ipsarum sacrarum uestium casulam posuit, ualde
+					<lb/>stupui, quia tale aliquid me unquam uidisse meminisse non
+					<lb/>potui. Diuersos enim diuersarum prouinciarum praesules aecclesias
+					<lb/>dedicare sepe conspexi, omnibusque quae ab eis acta sunt quantam
+					<lb/>potui curam adhibui. Qui etsi in nonnullis dissimilia egerunt,
+					<lb/>omnes tamen cappis induti usque ad celebrationem missae debita
+					<lb/>seruitia sine casula expleuerunt. Denique sanctus Leo Romanae
+					<lb/>sedis summus antistes Romericensem me praesente aecclesiam
+					<lb/>dedicauit, cunctaque quae ante missam fieri ordo poposcerat
+				<lb/>sine casula consummauit.</p>
+				<p><lb/>Porro quod in dandis ordinibus soli subdiacono dari manipulum
+					<lb/>perhibuistis, ubi hoc acceperitis rogo me uestris litteris instruatis.
+					<lb/>A quibusdam enim id fieri audio, sed utrum id fieri sacris auctoritatibus
+					<lb/>precipiatur meminisse non ualeo. Plerique autumant
+					<lb/>manipulum commune esse ornamentum omnium ordinum, sicut
+					<lb/>albam et amictum. Nam et in coenobiis monachorum etiam laici,
+					<pb n="86"/>
+					<lb/>cum albis induuntur, ex antiqua patrum institutione solent ferre
+					<lb/>manipulum. In nostris episcopalis ordinis codicibus, quos ex
+					<lb/>diuersis regionibus multos habemus, de ordinando subdiacono
+					<lb/>inter cetera sic scriptum habetur: ʻPostea uero accipiat ab
+					<lb/>archidiacono urceolum <hi rend="italic">cum aquamanili</hi>, ac manutergium.ʼ In
+					<lb/>quibusdam sic, ʻcum aqua manileʼ; in aliis ita, ʻcum aquae
+					<lb/>maniliʼ. Vrceolus quid sit liquido patet. Est enim uas superius,
+					<lb/>unde lauandis manibus aqua infunditur. <hi rend="italic">Aqua manile</hi>, siue <hi rend="italic">aquae
+					<lb/>manile</hi> Italici unam partem dicunt, uocaturque lingua eorum uas
+					<lb/>inferius, in quod manibus infusa aqua delabitur. Quod si fortasse
+					<lb/>sic distinguendum putatis, ʻurceolum cum aquaʼ et postea ʻ<hi rend="italic">manile</hi>
+					<lb/>ac manutergiumʼ, quatinus <hi rend="italic">manile</hi> esse manipulum intelligatis,
+					<lb/>cur inter urceolum ac manutergium ponatur manipulus, et cur
+					<lb/>cum cetera ornamenta ab episcopis dentur dari ab archidiacono
+					<lb/>manipulus iubeatur? In qua scriptura siue seculari siue diuina
+					<lb/>sic uocatum manipulum reppereritis posco sanctam paternitatem
+					<lb/>uestram ut indicare michi competenti diligentia studeatis. In
+					<lb/>Cartaginiensi concilio quarto omne huius rei ambiguum excluditur,
+					<lb/>ubi sic legitur: ʻSubdiaconus cum ordinatur, quia manus impositionem
+					<lb/>non accipit, patenam de manu episcopi accipiat
+					<lb/>uacuam et calicem uacuum. De manu uero archidiaconi accipiat
+					<lb/>urceolum cum aqua et aquamanile ac manutergium.ʼ Item
+					<lb/>Ysodorus, in epistola <hi rend="italic">De sacris ordinibus</hi>: ʻAd subdiaconumʼ,
+					<lb/>inquit, ʻpertinet calicem et patenam ad altare Christi deferre et
+					<lb/>leuitis tradere eisque ministrare, urceolum quoque et aquaemanile
+					<lb/>et manutergium tenere, episcopo presbitero et leuitis pro lauandis
+					<lb/>ante altare manibus aquam prebere.ʼ
+					<pb n="88"/>
+					<lb/>Omnipotens Dominus uitam uestram intus exteriusque tueatur,
+					<lb/>augeatque in uobis auctamque conseruet dilectionem qua me
+					<lb/>quondam diligere solebatis, quatinus de me quantum ad uos
+					<lb/>quidem pertinet quae credenda sunt credatis, proculque ab
+					<lb/>auribus uestris linguas detrahentium pastorali semper auctoritate
+				<lb/>repellatis.</p>
+			</div>
+			<div>
+				<head><lb/>15</head>
+				<head type="salutatio"><lb/>Domino merito sanctitatis insigniter honorando Normannorum
+					<lb/>archiepiscopo Io. frater L. fidele seruitium aeternamque salutem
+				<lb/>cum orationibus.</head>
+				<lb/>
+				<p><lb/>Quod paternitatem uestram quam teste Deo multo amore diligo
+					<lb/>multa ueneratione suscipio longa temporis intercapedine litteris
+					<lb/>uisitare supersedi, rogo multumque rogo ne sinistra a me id
+					<lb/>factum esse intentione interpretemini, neque existimetis fuisse
+					<lb/>causam aut radicem cuiuslibet rancoris uel odii. Hoc potius hac
+					<lb/>in parte conicite quod rei ueritas habet, quod experientia uestra,
+					<lb/>multis referentibus quibus miserabilis uitae meae status notus
+					<lb/>est cognoscere ualet. Tot enim tantisque huius mundi impedimentis
+					<lb/>nescio quo occulto Dei iudicio incessanter subiaceo, tot
+					<lb/>animi rancores tam ex propriis quam ex alienis negotiis sine intermissione
+					<lb/>sustineo, tot calamitates ex consideratione presentium
+					<lb/>uenturas in futuro conicio, ut perraro dictandi seu scribendi
+					<lb/>facultas detur, aut siquando datur, uel desunt qui perferant, uel
+					<lb/>personae tam idoneae sunt ut per eas litteras mitti iniuriam
+					<lb/>putent. Ego tamen et ea quae uobis accidunt cum promissione
+					<lb/>seruitii et auxilii mei scire desidero, et ea quae michi eueniunt
+					<lb/>cognosci a uobis humiliter peto. Et hoc oro ut concors caritas
+					<lb/>caraque concordia quae inter nos hactenus mansit omnibus diebus
+					<pb n="90"/>
+					<lb/>uitae nostrae inuiolata permaneat, nec eam quaelibet detrahentium
+					<lb/>lingua quolibet modo aut infirmare aut propulsare preualeat.
+					<lb/>Quod aliter ratum esse non poterit, nisi amatores discordiae aut
+					<lb/>nostris exhortationibus ad amorem concordiae conuertantur, aut
+					<lb/>persistentes in sua stulticia a nostris colloquiis penitus arceantur.
+					<lb/>De iuuene cuius euentum usque ad aures uestras fama uulgauit,
+					<lb/>lator presentium, qui uidit et interfuit, qualiter gestum sit uobis
+				<lb/>ueraciter enarrabit.</p>
+			</div>
+			<div>
+				<head><lb/>16</head>
+				<head type="salutatio"><lb/>Domino sanctae Rotomagensis aecclesiae archiepiscopo Io. frater L.
+				<lb/>indignus antistes fidele seruitium cum orationibus.</head>
+				<lb/>
+				<p><lb/>Visis litteris uestris quibus temerariam superbiam superbamque
+					<lb/>temeritatem miserrimorum hominum aduersus Deum et pontificale
+					<lb/>fastigium presumptam significare studuistis, et dolui sicut
+					<lb/>dolere debui, et tamen in ipso dolore non gaudere non potui.
+					<lb/>Dolui quia id euenit celsitudini uestrae quod a temporibus
+					<lb/>paganorum nulli legitur euenisse episcoporum. Gauisus uero
+					<lb/>sum, quia spurcissima uita eorum quae multas regiones fetore
+					<lb/>suae infamiae iam aspersit hac occasione publicata est, cognitumque
+					<lb/>euidenter quales coram Deo sunt, qui abiecto diuino humanoque
+					<lb/>timore tantum nefas in conspectu hominum moliti sunt.
+					<lb/>Et nunc sanctitas uestra omnem rancorem de corde abiciat, non
+					<lb/>plus aequo et bono pro hac re doleat, omnem intentionem qualiter
+					<lb/>haec nequicia ad honorem Dei sanctaeque aecclesiae puniatur
+					<lb/>intendat. Et quidem quantum ad illos spectat dolendum uobis
+					<lb/>est, quia filii uestri erant si filii esse uellent. Quantum uero ad
+					<pb n="92"/>
+					<lb/>uos, ʻgaudendum potius et exultandumʼ expectantibus uobis
+					<lb/>beatitudinem apostolis repromissam; quia uos oderunt ʻet exprobrauerunt
+					<lb/>et eiecerunt tanquam malum propter filium hominisʼ,
+					<lb/>quem uos amatis et honoratis et ad cuius amorem et honorem
+					<lb/>illos trahere uolebatis. Litteras domino nostro regi transmittere
+					<lb/>dispono, quales oportet et quales debeo. Et credo miserante Deo
+					<lb/>quia sicut tempora eius obscurata sunt immanitate tantae nequiciae,
+				<lb/>sic enitescent competentis seueritate uindictae.</p>
+				<p><lb/>Omnipotens Dominus uitam uestram custodiat, et contra
+					<lb/>omnes emulos dextera sua protegente defendat, diligende pater
+				<lb/>et omni laude colende.</p>
+			</div>
+			<div>
+				<head><lb/>17</head>
+				<head type="salutatio"><lb/>Zelo Dei et amore iusticiae praecellenti sanctae Rotomagensis
+					<lb/>aecclesiae archiepiscopo Io. L. indignus antistes seruitium cum
+				<lb/>orationibus.</head>
+				<lb/>
+				<p><lb/>Quando Robertum Beccensis coenobii monachum cum litteris
+					<lb/>ad uos transmisi, adhuc nullas paternitatis uestrae epistolas suscepi.
+					<lb/>Post abscessum eius capellanus Hugonis unam detulit, alteram
+					<lb/>uero laicus quidam, qui interrogatus a me quis esset seruientem
+					<lb/>regine se esse respondit. Vtrarumque sententia una fuit; in
+					<lb/>utrisque enucleate ostendistis officium uestri ordinis, uidelicet
+					<lb/>contra emulos patientiam et innocentiam uestram, perditissimaeque
+				<lb/>congregationis horribilem puniendamque temeritatem.</p>
+				<p><lb/>In utroque laudandus in utroque benedictus Deus, quia et uos
+					<lb/>eius gratia fecistis quod respectu episcopalis dignitatis facere
+					<lb/>debuistis, et illi econtra iusto ipsius iudicio ʻtraditi in reprobum
+					<lb/>sensumʼ hoc fecerunt, quod nec quolibet impulsu uel qualibet
+					<lb/>iniuria prouocati facere debuerunt – certissimum prauitatis suae
+					<pb n="94"/>
+					<lb/>iis qui eos non nouerant prebentes indicium, quo luce clarius
+					<lb/>omnibus innotescat quales in conspectu Dei eos esse ab omni
+					<lb/>populo existimari oportet. De hac re litteras domino nostro
+					<lb/>regi mitto, eumque ut decet ad uindictam tanti facinoris prout
+					<lb/>possum rogo et moneo. Quas iampridem transmisissem sed
+					<lb/>legatum reperire non potui; et homo episcopi Walchelini, qui
+					<lb/>alias uobis detulit, ut eas expectaret impetrare non potui.
+					<lb/>De Rodberto et eius somniatore et monacho a communi sepultura
+					<lb/>prohibito quicquid mandastis laudo, et quicquid de his rebus
+					<lb/>sentitis ego quoque in omnibus et per omnia uobiscum sentio.
+					<lb/>Non est enim credendum uisionem illam esse a Deo quae monachos
+					<lb/>prohibet a monasterio cui ad seruiendum Deo se deuouerunt, et
+					<lb/>in quo de oboedientia et conuersione morum suorum et stabilitate
+					<lb/>sua professionem fecerunt, cum propheta dicat, ʻVouete et reddite.ʼ
+					<lb/>Et Dominus de malis pastoribus loquens non ait: ʻFugite eos,
+					<lb/>recedite de locis quibus praesuntʼ, sed ʻSuper cathedram Moysi
+					<lb/>sederunt scribae et Pharisei; quae dicunt facite, quae autem
+					<lb/>faciunt, facere nolite.ʼ Et beatus Benedictus in <hi rend="italic">Regula monachorum</hi>:
+					<lb/>ʻPraeceptisʼ, inquit, ʻabbatis in omnibus oboedire, etiamsi
+					<lb/>ipse quod absit aliter agat.ʼ
+					<lb/>De monacho fulgure interfecto, uir sapiens apertissima sententia
+					<lb/>omnem ambiguitatis nodum soluit dicens, ʻIustus quacunque
+					<lb/>morte preoccupatus fuerit, anima eius in refrigerio erit.ʼ Denique
+					<lb/>aecclesia Christi alios mortuos a suae communionis consortio non
+					<lb/>repellit, nisi eos tantum quibus uiuentibus canonica censura
+				<lb/>communicare contempsit.</p>
+				<p><lb/>Omnipotens Dominus uitam uestram custodiat, quia multum
+				<lb/>utilis est inter cetera ad confutandas garrulorum ineptias.</p>
+			</div>
+			<pb n="96"/>
+			<div>
+				<head><lb/>18</head>
+				<head type="salutatio"><lb/>Domino patri fratri amico Ans. L. peccator perpetuam a Deo
+				<lb/>salutem.</head>
+				<lb/>
+				<p><lb/>Quid michi expediat beatitudo uestra optime nouit. In Anglorum
+					<lb/>enim terram ueniens siue Romam proficiscens omnia sanctitati
+					<lb/>uestrae reseraui quae reseranda esse tunc temporis pro mearum
+					<lb/>rerum necessitate iudicaui. Sic ergo orate, sic ab amicis ac familiaribus
+					<lb/>uestris oratum iri deposcite, quatinus omnipotens Deus
+					<lb/>aut ad meliorem fructum me perducat aut de ergastulo huius
+					<lb/>carnis animam meam in sui sancti nominis confessione educat.
+					<lb/>Tot enim tantisque tribulationibus terra ista in qua sumus cotidie
+					<lb/>quatitur, tot adulteriis aliisque spurciciis inquinatur, ut nullus
+					<lb/>fere hominum ordo sit qui uel animae suae consulat, uel proficiendi
+					<lb/>in Deum salutarem doctrinam saltem audire concupiscat.
+					<lb/>Litteras quas per domnum .R. transmisistis laetus suscepi
+					<lb/>laetior legi, cum quanto autem gaudio adhuc eas relegendo
+					<lb/>recolo et recolendo relego litteris explicare non possum: pro eo
+					<lb/>uidelicet quod (sicut in eis scriptum est) dulcissimum michi
+					<lb/>fratris mei filium quem sicut animam meam diligo cum ingenti
+					<lb/>laeticia suscepistis, quod maiorem erga uos mei amoris fiduciam
+					<lb/>ex hac occasione concepistis, et precipue ac super omnia quod
+					<lb/>onus prioratus quod inportabile antea uidebatur ex eius aduentu
+					<lb/>leuigatum uobis perhibuistis. (De quo breuem ueracemque
+					<lb/>sententiam uobis dico: si inter paganos etiam ipse uiueret, plus
+					<lb/>ceteris paganis ego ipsos diligerem, et prodesset eis siquid in hoc
+					<lb/>seculo possiderem.) Quibus de rebus quantas possum Deo et
+					<lb/>domno abbati uobisque omnibus gratias refero, quia quales uolo
+					<lb/>tales uos erga me et omnes qui diliguntur a me semper esse comperio.
+					<lb/>Sed quia accedens ad seruitutem Dei et maxime id aetatis
+					<lb/>homo multis uariisque temptationibus per temptatorum spirituum
+					<pb n="98"/>
+					<lb/>suggestiones intrinsecus laniatur, multis diuersisque carnis titillationibus
+					<lb/>intus et exterius cruciatur, oportet ualde ut uestri eum
+					<lb/>colloquii participem sepissime faciatis, omnesque quorum doctrina
+					<lb/>salubris ei esse potest colloqui cum eo quoties expedit
+					<lb/>iubeatis. Discedenti ipsi a me rogando precepi et precipiendo
+					<lb/>rogaui ne hoc anno aliquam uel in refectorio uel in capitulo aut in
+					<lb/>monasterio lectionem legeret, quoadusque psalmorum scientiam
+					<lb/>suique ordinis aliquem usum haberet. Hanc uoluntatem meam
+					<lb/>omnino despexit et ut legeret suarum precum nimietate a uobis
+					<lb/>extorsit. Pro qua re amarissimas litteras transmittere sibi disposui,
+					<lb/>sed uisis aliis litteris uestris conceptum aduersus eius
+				<lb/>temeritatem mentis rancorem omisi.</p>
+			</div>
+			<div>
+				<head><lb/>19</head>
+				<head><lb/>Dilectissimis fratribus L. et W. frater L. perpetuam a Deo
+				<lb/>benedictionem.</head>
+				<lb/>
+				<p><lb/>Quia diuinitus ut credo uos dilexistis in seculo, rogo ut rogetis
+					<lb/>Deum quatinus ipso cooperante uos diligatis in eo quod assumpsistis
+					<lb/>sancto proposito. Alter alteri sit in tribulatione solatium, alter
+					<lb/>ab alterius uita et doctrina sumat sanctae conuersationis exemplum.
+					<lb/>Humilitatem omnibus ostendite, linguas uestras ab omni
+					<lb/>fraterna derogatione salubri censura compescite. Si quis cuiuslibet
+					<lb/>fratris uitam Theodino dente rodere delectatur, si correctus a
+					<lb/>uobis emendare neglexerit, a uestro colloquio arceatur. Quicquid
+					<lb/>alii de uobis dicant, laudantes fortasse et magnificantes quod
+					<pb n="100"/>
+					<lb/>parentes possessiones carnalia oblectamenta pro Deo contempsistis,
+					<lb/>uos semper introrsus ad conscientias uestras redite, peccatores
+					<lb/>uos esse cognoscite, et peccatis uestris continuis orationibus
+					<lb/>Deum propicium fore deposcite. Aduersum te carissime nepos
+					<lb/>magnum mentis rancorem concepi, quia uidelicet transgressus es
+					<lb/>praeceptum quod de hoc ordine primum tibi iniunxi; sed interueniente
+					<lb/>uenerando patre domno Anselmo, cui sicut Deo oboedire
+					<lb/>desidero, sincero tibi corde illam noxam indulgeo. Et moneo ne
+					<lb/>tale aliquid amplius facias, quia quo impensius amicum diligo, eo
+					<lb/>amplius maiorem contra eum iram pro parua etiam culpa concipio.
+					<lb/>Omnipotens Dominus sua uos gratia protegat benedicat atque
+				<lb/>ab omnibus peccatis clementer absoluat.</p>
+			</div>
+			<div>
+				<head><lb/>20</head>
+				<head type="salutatio"><lb/>Dilectissimo suo G. dilectissimus suus L. dilectionis ceptae
+				<lb/>felicem perseuerantiam.</head>
+				<lb/>
+				<p><lb/>Fratres quos karissime frater litteris edocendos bonisque moribus
+					<lb/>instruendos tibi precipue transmisi honeste et secundum uoluntatem
+					<lb/>meam tractari a te quorundam relatione cognoui. Pro qua re
+					<lb/>gratias benignitati tuae refero, et ut ceptis insistas – si tamen
+					<lb/>admonitione indiges – admonere te cupio. Karissimum michi
+					<lb/>fratris mei filium (fratrem uidelicet tuum) caritati tuae commendo,
+					<lb/>rogans sicut rogari a me oportet iocundissimum filium fratremque
+					<lb/>meum, quatinus cum magna animi tui iocunditate eum diligas, et
+					<lb/>ad uitam laudabilem pro uiribus tuis informare non desinas.
+					<lb/>Fratrem tuum propterea dixi illum, quoniam reuera sic esse
+					<lb/>uolo multumque rogo. Nam et uenerabilis mater tua, sicut michi
+					<lb/>relatum est, filium suum eundem uocare dignatur; cum illa de
+					<lb/>excellentissimo genere iste humili loco sit natus, proculdubio
+					<lb/>receptura ab eo mercedem suam qui dixit, ʻQui se humiliat
+					<lb/>exaltabitur.ʼ
+					<lb/>Crucem cum reliquiis fraternitatis tuae oculis dum missam
+					<pb n="102"/>
+					<lb/>celebras conspiciendam tibi transmitto, quam perpetuae amiciciae
+					<lb/>monimentum inter te et ipsum esse desidero. Magno gaudio me
+					<lb/>replesti, quia promissionem in puericia factam in iuuentute
+					<lb/>adhuc per diuinam misericordiam te seruare scripsisti. Quam si
+					<lb/>ad finem illesam perduxeris, terribilem aliis iudicem proculdubio
+				<lb/>cum magna securitate uidebis.</p>
+				<p><lb/>Omnipotens Dominus cordi tuo per Sancti Spiritus sui inspirationem
+					<lb/>inserere dignetur, quatinus in omni aetate tua sic
+					<lb/>me diligas, sicut in puericia et adolescentia tua quondam diligere
+					<lb/>me solebas; et ipse te benedicat atque ab omnibus peccatis propiciatus
+				<lb/>absoluat.</p>
+			</div>
+			<div>
+				<head><lb/>21</head>
+				<head type="salutatio"><lb/>Dilectissimo fratri G. frater L. benedictionem a Deo et perpetuam
+				<lb/>salutem.</head>
+				<lb/>
+				<p><lb/>Lectis litteris fraternitatis tuae multa te cognoui egritudine
+					<lb/>laborare. Pro qua re ortor ne doleas, immo gaudeas tuoque
+					<lb/>creatori qui de te curam habet indefessas gratias referas, sciens
+					<lb/>scriptum esse: ʻLibenter gloriabor in infirmitatibus meis.ʼ Et
+					<lb/>alias: ʻFlagellat Deus omnem filium quem recipit.ʼ Non enim te
+					<lb/>in hoc seculo tantis flagellis attereret, nisi post hoc seculum sine
+					<lb/>flagello te esse disponeret. Tu ergo memento tui, memorare
+					<lb/>nouissima tua et confitere peccata tua. Hoc enim fatiens, aut
+					<lb/>corporalem salutem a Deo consequeris aut mortem aliis metuendam
+					<lb/>sine metu expectabis; quae uidelicet erit tibi finis malorum principium
+				<lb/>uero bonorum.</p>
+				<p><lb/>Mitto tibi dioprasium magnum quod ad hanc infirmitatem
+					<lb/>ualde utile esse medici perhibent, de quo in modum siluestris
+				<lb/>nucis tercia semper die accipies.</p>
+				<pb n="104"/>
+				<p><lb/>Omnipotens Dominus custos tui semper existat, atque ab
+				<lb/>omnibus peccatis propiciatus absoluat.</p>
+			</div>
+			<div>
+				<head><lb/>22</head>
+				<head type="salutatio"><lb/>Lanfrancus diuina dignatione non suis meritis archiepiscopus
+				<lb/>abbati B. salutem cum orationibus.</head>
+				<lb/>
+				<p><lb/>Harum litterarum portitor iram uestram se dicit incurrisse, et
+					<lb/>propterea patriam in qua natus et conuersatus erat parentesque et
+					<lb/>amicos reliquisse. Et quia putauit quod pro me multum facere
+					<lb/>debeatis, nostris apud paternitatem uestram se petiit litteris adiuuari.
+					<lb/>Mota igitur nostris precibus uestra ei benignitas indulgeat,
+					<lb/>quatinus ipse amicum uestrum pro commissi sui uenia se petiuisse
+				<lb/>cognoscat.</p>
+			</div>
+			<div>
+				<head><lb/>23</head>
+				<head type="salutatio"><lb/>Dilectissimo fratri et amico Eboracensis aecclesiae archiepiscopo
+				<lb/>Tho. frater L. perpetuam salutem cum orationibus.</head>
+				<lb/>
+				<p><lb/>Illos quidem qui corporaliter tantum et propter terrena lucra se
+					<lb/>amant interualla locorum quo prolixiora sunt eo a mutuo amore
+					<pb n="106"/>
+					<lb/>impensius separant; eos uero quos sincera christianae religionis
+					<lb/>caritas iungit corporalis absentia seu quaelibet localis intercapedo
+					<lb/>minime disiungit. Studeamus ergo fraterno inuicem amore
+					<lb/>proficere, pro inuicem orare, alterius necessitatem propriam
+					<lb/>deputare, quatinus in conspectu Dei atque hominum euidenter
+					<lb/>appareat quod carnalis zelus quo animae uruntur uindicare in
+				<lb/>nobis nichil preualeat.</p>
+				<p><lb/>De iis autem qui uxores desponsatas causa fornicationis relinquere
+					<lb/>aliasque sibi coniungere uolunt – hoc enim uestra prudentia
+					<lb/>a me requisiuit – dominus Iesus Christus quid sentiendum sit
+					<lb/>in euangelio secundum Marcum apertissime dicit: ʻQuicunque
+					<lb/>dimiserit uxorem suam et aliam duxerit adulterium committit
+					<lb/>super eam. Et si uxor dimiserit uirum suum et alium duxerit,
+					<lb/>mechatur.ʼ Item secundum Lucam: ʻOmnis qui dimittit uxorem
+					<lb/>suam et ducit alteram mechatur. Et qui dimissam a uiro ducit
+					<lb/>mechatur.ʼ Sunt etiam de hac re plurime sanctorum patrum
+					<lb/>auctoritates, sed ubi sol lucet candelam ad proferendum lumen
+					<lb/>proferri minime oportet. In his uerbis dominicis luce clarius
+					<lb/>liquet, quia uiuente uiro uel uxore extraneam copulam querere
+					<lb/>nulli eorum licet. Eum uero qui mulierem quae uxor putatur
+					<lb/>desponsasse se abnegat, aut euidentibus testimoniis seu quibuslibet
+					<lb/>claris indiciis mentiri eum ostendite, aut inpresentiarum quoadusque
+				<lb/>res melius clarescat causam eius omittite.</p>
+			</div>
+			<div>
+				<head><lb/>24</head>
+				<head type="salutatio"><lb/>Dilectissimo fratri et coepiscopo He. L. indignus antistes salutem
+				<lb/>et amiciciam cum orationibus.</head>
+				<pb n="108"/>
+				<p><lb/>De clerico quem ad nos misistis sanctarum Scripturarum testimonio
+					<lb/>hoc sentimus, hoc tenendum decernimus. Poenitentiam
+					<lb/>prolixi temporis consideratis eius uiribus pro arbitrio uestro ei
+					<lb/>iniungite, sacerdotii ordinem quod inordinate assumpsit ei
+					<lb/>auferte, a ceteris ordinibus cessare iubete; quia in sacris canonibus
+					<lb/>scriptum est: ʻQui aliena inuadit non exibit impunitus.ʼ Et Leo
+					<lb/>papa ad Martianum: ʻPropria perdit qui indebita concupiscit.ʼ
+					<lb/>Siluerius ad Vigilium preuaricatorem: ʻSic enim decet fidem
+					<lb/>sanctorum patrum in aecclesia seruari catholica, ut quod habuit
+					<lb/>amittat qui improbabili temeritate quod non accepit assumpserit.ʼ
+					<lb/>Quod si infra poenitentiae tempus carnis mundiciam digne
+					<lb/>seruauerit, ceterarumque bonarum actionum sollicitus obseruator
+					<lb/>extiterit, miserante Deo cuius misericordiae non est numerus
+					<lb/>experientia uestra indulgentiam ei praestare ualebit; ut sicut
+					<lb/>beatus Gregorius et praefatus Leo in decretis suis concorditer
+				<lb/>dicunt: ʻSi poenitentia eius fuerit digna, sit etiam fructuosa.ʼ</p>
+			</div>
+			<div>
+				<head><lb/>25</head>
+				<head type="salutatio"><lb/>Domino in columnis aecclesiae plurimum honorando Remensi
+					<lb/>archiepiscopo M. peccator et indignus antistes L. salutem,
+				<lb/>seruitium cum orationibus.</head>
+				<lb/>
+				<p><lb/>Lator harum litterarum regius ac noster homo magnam rerum
+					<lb/>suarum apud Rosnacum se asserit iniuriam pertulisse, et pro
+					<lb/>ea re auribus summi pontificis lacrimabilem querimoniam intulisse.
+					<lb/>Summus uero pontifex raptores ipsos nisi omnia sua ei
+					<lb/>redderent terribiliter excommunicauit, et uobis ut ei de ipsis
+					<lb/>raptoribus iusticiam faceretis sedis apostolicae litteras destinauit.
+					<lb/>Et quamuis excellentia uestra in talibus monitore non egeat, rogo
+					<pb n="110"/>
+					<lb/>tamen multumque rogo ut ei benignitas uestra ita subueniat,
+					<lb/>quatinus res suas quae iniuste ei ablatae sunt sine diminutione
+				<lb/>adquirat.</p>
+			</div>
+			<div>
+				<head><lb/>26</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes dilectissimo Eboracensi archiepiscopo
+				<lb/>Thomae salutem cum orationibus.</head>
+				<lb/>
+				<p><lb/>Robertus Sagiensis episcopus hunc poenitentem ad me misit, et
+					<lb/>mandauit quod iste miserrimus tres homines Montem Sancti
+					<lb/>Michaelis adeuntes tercia Pentecostes die inuaserit et interfecerit.
+					<lb/>Cui ex more poenitentia iniuncta commonitorias sibi litteras tradidit,
+					<lb/>ut si quis episcopus pietate motus misericordiam ei uellet impendere,
+					<lb/>potestatem haberet quantum uellet ipsi ignoscere. Huius
+					<lb/>itaque rei testis eum ad uos mitto, quatinus hoc uerum esse sciatis
+				<lb/>atque animae eius secundum quod uobis uisum fuerit consulatis.</p>
+			</div>
+			<div>
+				<head><lb/>27</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus P. Cestrensi episcopo
+				<lb/>salutem.</head>
+				<pb n="112"/>
+				<p><lb/>Litteras ante paucos dies tibi transmisi, et eas uix susceptas legere
+					<lb/>despexisti, et cum magna indignatione sicut michi dictum est
+					<lb/>supra quoddam sedile eas proiecisti. Nunc alias mitto mandans et
+					<lb/>precipiens ex parte regis et nostra, quatinus ab omni grauamine
+					<lb/>quod coenobio Couentreio inferre diceris omnino te subtrahas,
+					<lb/>quicquid de ipso coenobio uel terris ipsius coenobii uiolenter
+					<lb/>abstulisti sine mora restituas. Clamorem enim fecerunt ad me tam
+					<lb/>abbas quam monachi eius quod dormitorium eorum per uim
+					<lb/>introisti, archas eorum fregisti, et equos et omnes proprietates
+					<lb/>quas habebant rapuisti; insuper domos eorum destruxisti et
+					<lb/>materias earum ad tuas uillas asportari precepisti, in ipso quoque
+					<lb/>coenobio cum familia tua consumens bona monachorum octo
+					<lb/>dierum moram fecisti. Haec nec tui officii nec tuae potestatis esse
+					<lb/>cognoscas. Immo magis oporteret te animabus eorum pastorali
+					<lb/>discretione consulere, bonorumque morum sanctarumque actionum
+				<lb/>uerbis et operibus salubria exempla praebere.</p>
+			</div>
+			<div>
+				<head><lb/>28</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus dilecto filio et amico Adelelmo abbati
+				<lb/>salutem et benedictionem.</head>
+				<lb/>
+				<p><lb/>Fratres isti ad me uenerunt accusantes se et dicentes in uos grauiter
+					<lb/>peccasse, et sua culpa de monasterio recessisse. Ego uero stulticiam
+					<lb/>illorum eis audientibus multum adauxi, et satis duris atque amarissimis
+					<pb n="114"/>
+					<lb/>uerbis eos prout decuit increpaui. Postea interrogati a me
+					<lb/>si de cetero uellent emendare, responderunt se uelle et de hoc
+					<lb/>quod egissent plurimum se dolere. Et precati sunt me quatinus
+					<lb/>pro eis apud uos intercederem, et mea eos intercessione monasterio
+					<lb/>unde exierant reconciliarem. Quapropter fraternitatem uestram
+					<lb/>precor, si meis apud eam precibus locus existat, ut pro amore
+					<lb/>Dei et nostro quicquid in uos et contra ordinem deliquerunt
+					<lb/>sincero corde remittatis, et in suis eos locis in quibus ante culpam
+					<lb/>erant suscipiatis, et paternum eis affectum ut Deus uobis misericors
+				<lb/>sit de reliquo ostendatis.</p>
+			</div>
+			<div>
+				<head><lb/>29</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus dilectissimo fratri Stigando
+				<lb/>episcopo salutem.</head>
+				<lb/>
+				<p><lb/>Misit michi litteras papa, in quibus precepit ut causam istius
+					<lb/>mulieris quam aduersus eam habetis diligenter audiam, et interim
+					<lb/>quietam et absolutam esse praecipiam. Propterea mando uobis ut
+					<lb/>pace uestra cum uiro suo maneat quoadusque in unum conueniamus,
+					<lb/>et ipsam causam cum consilio episcoporum inter nos conferamus,
+				<lb/>et adiuuante diuina gratia salubri fine definiamus.</p>
+			</div>
+			<pb n="116"/>
+			<div>
+				<head><lb/>30</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus dilectissimo fratri Stigando
+				<lb/>episcopo salutem.</head>
+				<lb/>
+				<p><lb/>Clerici uillarum nostrarum, qui in uestra diocesi existunt,
+					<lb/>quaesti nobis sunt quod uestri archidiaconi repertis occasionibus
+					<lb/>pecunias ab eis exquirunt; et a quibusdam iam acceperunt.
+					<lb/>Meminisse debet fraternitas uestra quia contra morem antecessorum
+					<lb/>nostrorum atque uestrorum uobis concessimus eisque
+					<lb/>imperauimus, quatinus ad uestras synodos irent et ea quae ad
+					<lb/>christianae religionis noticiam prodesse possunt sine interpellatione
+					<lb/>uel discussione aliqua a uobis audirent. Si quae in ipsis culpae
+					<lb/>inuenirentur, suspensa interim uindicta ad nostrum examen
+					<lb/>seruarentur, et nobis uel in miserendo uel in ulciscendo sicut
+					<lb/>semper consuetudo fuit obnoxii tenerentur. Mandamus itaque
+					<lb/>uobis ut male accepta sine dilatione reddi iubeatis, et ministris
+					<lb/>uestris ne ulterius id presumant seruandae caritatis studio
+					<lb/>prohibeatis. Nos uero presbiteris nostris qui extra Cantiam
+					<lb/>constituti sunt omnino precepimus ne ad uestram uel alicuius
+					<lb/>episcopi sinodum amplius eant, nec uobis nec aliquibus ministris
+					<lb/>uestris pro qualibet culpa respondeant. Nos enim cum ad uillas
+					<pb n="118"/>
+					<lb/>nostras ueniemus, quales ipsi uel in moribus uel in sui ordinis
+					<lb/>scientia sint pastorali auctoritate uestigare debemus. Crisma
+					<lb/>tantum a uobis accipiant, et ea quae antiquitus instituta sunt in
+					<lb/>crismatis acceptione persoluant. Sicut nanque ea quae antiquitus
+					<lb/>usque ad nostra tempora antecessores nostri habuerunt sollerti
+					<lb/>uigilantia cupimus illibata seruare, ita aliis debita aliqua quod
+				<lb/>absit usurpatione nolumus denegare.</p>
+			</div>
+			<div>
+				<head><lb/>31</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus dilectissimo filio et amico
+				<lb/>R. comiti salutem et benedictionem.</head>
+				<lb/>
+				<p><lb/>Dominus noster Anglorum rex salutat uos et nos omnes sicut
+					<lb/>fideles suos in quibus magnam fiduciam habet, et mandat ut
+					<lb/>quantam possumus curam habeamus de castellis suis, ne quod
+					<lb/>Deus auertat inimicis suis tradantur. Propterea rogo uos sicut
+					<lb/>rogare debeo carissimum filium meum, quem teste Deo toto
+					<lb/>corde diligo et seruire desidero et cuius patrem sicut meam
+					<lb/>animam dilexi, quatinus de hac re et de omni fidelitate domini
+					<lb/>nostri regis talem curam geratis, ut a Deo et ab eo et omnibus
+					<lb/>bonis hominibus laudem habeatis. In memoria uestra semper
+					<lb/>tenete qualiter gloriosus pater uester uixit, et quam fideliter
+					<lb/>domino suo seruiuit, et cum quanta strenuitate multa adquisiuit
+				<lb/>et adquisita magno honore retinuit.</p>
+				<p><lb/>Item mandauit rex ne sui uicecomites aliqua placita in uestris
+					<pb n="120"/>
+					<lb/>terris teneant quoadusque ipse mare transeat, et inter uos et
+					<lb/>ipsos uicecomites per semetipsum causas uestras audiat.
+					<lb/>Libenter uellem uobiscum loqui. De qua re si uobis uoluntas
+					<lb/>est mandate michi ad quem locum possimus conuenire, et de
+					<lb/>rebus uestris ac domini nostri regis colloquium habere. Ego uero
+					<lb/>paratus sum uenire uobis obuiam quocunque preceperitis.
+					<lb/>Rogo ut harum litterarum portitori nomine Beringerio iusticiam
+					<lb/>faciatis de illis hominibus super quos clamorem facit pro equo suo,
+				<lb/>quem furto sibi ablatum dicit.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat, et uitam uestram in
+				<lb/>omni bonitate disponat.</p>
+			</div>
+			<div>
+				<head><lb/>32</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus dilectissimo filio et amico
+				<lb/>R. comiti salutem et benedictionem.</head>
+				<lb/>
+				<p><lb/>Auditis de te quae audire nollem, doleo quantum dicere non
+					<lb/>possum. Neque enim deceret ut filius Willelmi comitis – cuius
+					<lb/>prudentia et bonitas et erga dominum suum et omnes amicos suos
+					<lb/>fidelitas multis terris innotuit – infidelis diceretur, et de periurio
+					<lb/>uel fraude aliqua infamiam pateretur. Immo conueniret potius ut
+					<lb/>filius tanti uiri imitator patris existeret, et omnis bonitatis et
+					<lb/>fidelitatis aliis exemplum preberet. Propterea rogo te dulcissime
+					<lb/>fili et carissime amice quatinus propter Deum et honorem tuum si
+					<lb/>culpam de tali re habes, resipiscas; si uero non habes, manifestissimis
+					<lb/>documentis te non habere ostendas. Quicquid uero sit rogo
+					<lb/>ut ad me uenias, securus proculdubio quod neque in eundo
+					<lb/>neque in redeundo per nos uel per regios homines impedimenti
+				<lb/>aliquid patieris.</p>
+				<p><lb/>Omnipotens Dominus te benedicat.</p>
+			</div>
+			<pb n="122"/>
+			<div>
+				<head><lb/>33</head>
+				<head type="salutatio"><lb/><hi rend="bold">33 A.</hi> Lanfrancus gratia Dei archiepiscopus dilectissimo quondam
+					<lb/>filio et amico Rod. comiti bene intelligere et salubrem de anima
+				<lb/>sua curam habere.</head>
+				<lb/>
+				<p><lb/>Doleo pro te quantum dici non potest, quia teste Deo te amabam
+					<lb/>et te amare et tibi seruire toto corde desiderabam. Sed quia instinctu
+					<lb/>demonis et consilio prauorum hominum ea molitus es
+					<lb/>quae te moliri minime oportuerat, necessitate coactus mentem
+					<lb/>mutaui, et dilectionem non in odium tantum quantum in rancorem
+					<lb/>mentis et iustam seueritatem conuerti. Legatis tamen et litteris
+					<lb/>semel et iterum te inuitaui ut ad me uenires, et consilium animae
+					<lb/>tuae a me sicut a patre spirituali et amico sincero acciperes,
+					<lb/>atque a stulto proposito quod conceperas consilio meliore desisteres.
+					<lb/>Tu uero id facere recusasti. Canonica igitur auctoritate te et
+					<lb/>omnes adiutores tuos maledixi et excommunicaui atque a liminibus
+					<lb/>sanctae aecclesiae et consortio fidelium separaui, et per totam
+					<lb/>Anglicam terram hoc idem pastorali auctoritate fieri imperaui.
+					<lb/>Ab hoc uinculo anathematis absoluere te non possum nisi misericordiam
+					<lb/>domini mei regis requiras, sibique et aliis quorum res
+				<lb/>iniuste predatus es iusticiam facias.</p>
+				<lb/>
+				<p><lb/><hi rend="bold">33 B.</hi> Mandasti quod ad me uenire uelles. Hoc ego libentissime
+					<lb/>uellem, nisi regalem iram pro hac re me incursurum metuerem.
+					<lb/>Sed legato et litteris poenitudinem tuam et humilitatem et preces
+					<lb/>ei intimabo et te salua eius fidelitate prout melius potero adiuuabo.
+					<lb/>Interim rogo et moneo ut quiescas, nec aliquid coneris facere
+				<lb/>unde maiorem eius iram incurras.</p>
+			</div>
+			<pb n="124"/>
+			<div>
+				<head><lb/>34</head>
+				<head type="salutatio"><lb/>Domino suo Anglorum regi Wil. fidelis suus L. fidele seruitium
+				<lb/>et fideles orationes.</head>
+				<lb/>
+				<p><lb/>Libenter uos uideremus sicut angelum Dei sed hoc tempore
+					<lb/>nolumus uos mare transire, quia magnum dedecus nobis faceretis
+					<lb/>si pro talibus periuris et latronibus uincendis ad nos ueniretis.
+					<lb/>Rodulfus comes, immo Rodulfus traditor, et totus exercitus eius
+					<lb/>in fugam uersi sunt, et nostri cum infinita multitudine Francigenarum
+					<lb/>et Anglorum eos insequuntur; et ante paucos dies,
+					<lb/>sicut michi mandauerunt principes nostri, aut ipsi periuri de
+					<lb/>terra uestra per mare fugient aut eos uiuos uel mortuos habebunt.
+					<lb/>Cetera per hunc monachum uobis mando, cui bene credere
+				<lb/>potestis, quia fidelitatem michi fecit.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat.</p>
+			</div>
+			<div>
+				<head><lb/>35</head>
+				<head type="salutatio"><lb/>Gloriosissimo domino suo Anglorum regi W. fidelis suus L.
+				<lb/>fidele seruitium cum orationibus.</head>
+				<lb/>
+				<p><lb/>Gloria in excelsis Deo cuius misericordia regnum uestrum purgatum
+					<lb/>est spurcicia Britonum. Castrum Noruuich redditum est, et
+					<lb/>Britones qui in eo erant et terras in Anglica terra habebant,
+					<lb/>concessa eis uita cum menbris, iurauerunt quod infra quadraginta
+					<lb/>dies de regno uestro exirent, et amplius sine uestra licentia in illud
+					<pb n="126"/>
+					<lb/>non introirent. Qui uero Rodulfo traditori et sociis eius sine
+					<lb/>terra pro solidis seruierunt ad hoc fatiendum unius mensis spacium
+					<lb/>multis precibus impetrauerunt. In ipso castro remanserunt
+					<lb/>episcopus Gausfridus, W. de Warenna, Rob. Malet et trecenti
+					<lb/>loricati cum eis, cum balistariis et artificibus machinarum
+					<lb/>multis. Omnis strepitus bellorum miserante Deo in Anglica terra
+				<lb/>quieuit.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat.</p>
+			</div>
+			<div>
+				<head><lb/>36</head>
+				<head type="salutatio"><lb/>Lanfrancus peccator et indignus antistes uenerabili fratri et
+				<lb/>coepiscopo Walchero salutem.</head>
+				<lb/>
+				<p><lb/>Letatus sum in his quae dicta sunt michi a uobis. Pacem uos
+					<lb/>uestris litteris habere didicimus, quam procul a uobis esse multis
+					<lb/>multorum relationibus territi credebamus. Nos uero, expulsis Britonibus
+					<lb/>et sedatis omnibus bellis, in tanta tranquillitate uiuimus ut
+					<lb/>postquam rex mare transiit tranquillius nos uixisse nequaquam
+					<lb/>meminerimus. Res domini nostri regis in summa prosperitate
+					<lb/>esse et eum ad presens ad nos transire certissime sciatis. Dani
+					<lb/>ut rex nobis mandauit reuera ueniunt. Castrum itaque uestrum et
+					<lb/>hominibus et armis et alimentis uigilanti cura muniri facite.
+				<lb/>Omnipotens autem Dominus ab omni malo uos defendat.</p>
+			</div>
+			<pb n="128"/>
+			<div>
+				<head><lb/>37</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei archiepiscopus dilecto fratri et amico
+				<lb/>Remigio salutem.</head>
+				<lb/>
+				<p><lb/>Cum multi de te multa peruersa dicant, et perpauci sint qui
+					<lb/>uerbis detrahentium ingenita liberalitate contradicant, scias tamen
+					<lb/>dominum nostrum regem nullius detrahentis contra te uerba
+					<lb/>recipere, sed potius contra omnes maledicos regali te auctoritate
+					<lb/>defendere. Itaque expedit tibi, si prope es et licitum habes, quatinus
+					<lb/>ad me uenias et ea quae pro sui prolixitate breuiter
+				<lb/>scribi non possunt ore ad os audias.</p>
+			</div>
+			<div>
+				<head><lb/>38</head>
+				<head type="salutatio"><lb/>Reuerendo sanctae uniuersalis aecclesiae summo pastori Gregorio
+				<lb/>peccator et indignus antistes L., seruitium cum debita subiectione.</head>
+				<lb/>
+				<p><lb/>Litteras excellentiae uestrae per Hubertum sacri palatii uestri
+					<lb/>subdiaconum porrectas qua decuit humilitate suscepi. In quarum
+					<lb/>fere omni contextu paterna me dulcedine reprehendere studuistis,
+					<lb/>quod in episcopali honore positus sanctam Romanam aecclesiam
+					<lb/>uosque ob eius reuerentiam minus diligam quam ante ipsius
+					<pb n="130"/>
+					<lb/>honoris susceptionem diligere quondam solebam, presertim cum
+					<lb/>apostolicae sedis auctoritate ad ipsius apicem honoris me peruenisse
+					<lb/>non dubitem, nec quenquam dubitare existimem. Et quidem
+					<lb/>uenerande pater uerbis tuis calumniam ingerere nec uolo nec
+					<lb/>debeo. Ego tamen teste conscientia mea in memetipso intelligere
+					<lb/>non possum quod uel corporalis absentia uel locorum tanta intercapedo
+					<lb/>aut ipsa qualiscunque honorum sullimitas in hac parte
+					<lb/>uindicare sibi quicquam preualeat, quin mens mea preceptis
+					<lb/>uestris in omnibus et per omnia secundum canonum precepta
+					<lb/>subiaceat. Et si praestante Deo praesens presenti loqui quandoque
+					<lb/>ualerem, me amando creuisse uos uero (quod pace uestra dictum
+					<lb/>sit) a pristino amore nonnulla ex parte defecisse non tam uerbis
+				<lb/>quam rebus ipsis ostenderem.</p>
+				<p><lb/>Verba legationis uestrae cum prefato legato uestro prout melius
+					<lb/>potui domino meo regi suggessi; suasi sed non persuasi. Cur
+					<lb/>autem uoluntati uestrae omnifariam non assenserit ipsemet
+				<lb/>uobis tam uerbis quam litteris innotescit.</p>
+			</div>
+			<div>
+				<head><lb/>39</head>
+				<head type="salutatio"><lb/>Excellentissimo sanctae aecclesiae pastori GR. gratia Dei Anglorum
+				<lb/>rex et dux Normannorum W. salutem cum amicicia.</head>
+				<lb/>
+				<p><lb/>Hubertus legatus tuus religiose pater ad me ueniens ex tua parte
+					<lb/>me admonuit quatinus tibi et successoribus tuis fidelitatem
+					<lb/>facerem, et de pecunia quam antecessores mei ad Romanam
+					<lb/>aecclesiam mittere solebant melius cogitarem. Vnum admisi;
+					<lb/>alterum non admisi. Fidelitatem facere nolui nec uolo, quia nec
+					<lb/>ego promisi nec antecessores meos antecessoribus tuis id fecisse
+					<pb n="132"/>
+					<lb/>comperio. Pecunia tribus ferme annis in Galliis me agente
+					<lb/>neglegenter collecta est. Nunc uero diuina misericordia me in
+					<lb/>regnum meum reuerso quod collectum est per prefatum legatum
+					<lb/>mittitur, et quod reliquum est per legatos Lanfranci archiepiscopi
+				<lb/>fidelis nostri cum opportunum fuerit transmittetur.</p>
+				<p><lb/>Orate pro nobis et pro statu regni nostri, quia antecessores
+					<lb/>uestros dileximus et uos prae omnibus sincere diligere et oboedienter
+				<lb/>audire desideramus.</p>
+			</div>
+			<div>
+				<head><lb/>40</head>
+				<head type="salutatio"><lb/>Lanfrancus diuina misericordia archiepiscopus dilecto fratri
+					<lb/>Londoniensi aecclesiae electo antistiti Hu. salutem.</head>
+					<lb/>
+					<p><lb/>In primis gratias ago quod meam sicut tuam desiderare salutem
+					<lb/>te asseris, quodque perfectum honeste uiuendi per meam qualemcunque
+					<lb/>doctrinam habiturum te esse confidis. Haec ex dilectione
+				<lb/>non modica procedere solent.</p>
+				<p><lb/>Ad interrogata tua breuia responsa remitto. De homine quem
+					<lb/>captum, et apud captores mortuum fuisse inuentum, scripsisti
+					<lb/>absolute tibi ad presens respondere non possum, quoadusque
+					<lb/>precedentes mortis eius causas diligentius audiam, et sic miserante
+					<lb/>Deo quid agi oporteat canonica auctoritate definiam. Interim
+					<lb/>iniunge eis aliquam poenitentiam usque dum conueniamus, et
+					<lb/>alterno colloquio quid postea facere debeant decernamus. De
+					<lb/>terris tuis domino meo regi nichil adhuc locutus fui, quia de
+					<lb/>meis etiam rebus qualem uolui loquendi opportunitatem non
+					<lb/>habui. Goisfridus clericus qui apostasiae calumniam habet de
+					<lb/>episcopatu tuo recedat, aut formatas litteras ex parte sui episcopi
+					<lb/>sicut canones iubent ostendat. Cicestrum sicut fraternitati tuae
+					<lb/>insinuaui uenies; et ibi sabbato ante <hi rend="italic">Laetare Ierusalem</hi> cooperante
+				<lb/>Spiritu Sancto praesbiterii gradum recipies.</p>
+			</div>
+			<pb n="134"/>
+			<div>
+				<head><lb/>41</head>
+				<head type="salutatio"><lb/>Venerabili sanctae Rotomagensis aecclesie archiepiscopo Io.
+				<lb/>indignus antistes L. seruitium cum orationibus.</head>
+				<lb/>
+				<p><lb/>Litteras quas ʻomnibus christianae religionis amatoribusʼ amanda
+					<lb/>paternitas uestra transmisit, quo tempore porrectae sunt, congruum
+					<lb/>dare responsum michi non licuit. Nam et impeditum me
+					<lb/>inuenerunt nec, si liceret, posset ea tempestate nuntius inueniri
+					<lb/>qui ferret. Nunc uero data opportunitate differre ultra non
+					<lb/>debeo. Retulistis uobis a multis fuisse relatum quod ego quedam
+					<lb/>uestra facta carpo, et maxime quod instituta sanctorum patrum de
+					<lb/>seruanda clericorum castitate male uos intellexisse redarguo,
+					<lb/>adiuncto quod aecclesiastice disciplinae moderamina non bene
+					<lb/>uos tenere affirmo. Meminisse debet beatitudo uestra presentes
+					<lb/>uerbis absentes litteris nos sepe alterutrum monuisse esse multos
+					<lb/>detestabili inuidia plenos, qui semper uelint nos inuicem dissidere,
+					<lb/>quatinus hac occasione suas nequitias ualeant liberius exercere.
+					<lb/>Quorum officii refert noua semper et inaudita fingere, leuiter et
+					<lb/>incuriose prolata deterius exponere, bene et consulte dicta quantum
+					<lb/>in ipsis est in contrariam partem conuertere. Ego tamen teste
+					<lb/>conscientia nullius eorum conscius sum, nec aliquid de laudabili
+					<lb/>uita uestra uel dixisse uel dicenti assensum prebuisse me memini
+					<lb/>quod in presentia uestra, si res ita exposceret, non posset cum
+					<lb/>pacis uestrae securitate proferri. Immo uestro aliorumque
+					<lb/>uenerabilium patrum exemplo prouocatus per totam Anglicam
+					<lb/>terram pastorali auctoritate prohibui, ne cuiuslibet ordinis quisquam
+					<lb/>canonicus uxorem accipiat nec sortito antea, si praesbiter
+					<lb/>aut diaconus est, nisi prebenda carere uelit habere ulterius liceat.
+					<pb n="136"/>
+					<lb/>De Roberto quem pultrellum uocastis, quemque sine uestra
+					<lb/>licentia mare transisse perhibuistis, certissime id sciatis quia
+					<lb/>litteras uestro sigillo quod michi bene notum est signatas detulit,
+					<lb/>in quibus (si uere fuerunt) sumopere me rogastis quatinus eum
+					<lb/>cum honore susciperem, apud abbatem Balduinum in quantum
+					<lb/>possem pro infirmitate sui corporis adiuuarem, de meis etiam
+					<lb/>rebus sicut michi opportunum esset opem impenderem. Quae
+					<lb/>omnia executus sum. Nam pro amore uestro honeste eum suscepi,
+					<lb/>tribus septimanis mecum habui, abbati Baldeuuino precibus
+					<lb/>et promissionibus commendaui, reuertenti unde redire posset
+					<lb/>denarios officiosa caritate impendi. Et miror ualde, si falsas litteras
+					<lb/>porrexit, quonam modo tanti uiri sigillum ad persuadendam
+				<lb/>falsitatem suam habere potuerit.</p>
+				<p><lb/>De fide ab archidiaconis petita et data interrogantibus episcopis
+					<lb/>Baiocensi et Constantiniensi hoc tantum respondi, me nec
+					<lb/>legisse tale aliquid nec uidisse; uos tamen prudentem uirum esse
+					<lb/>et strenue scire quid agatis quid omittatis, quid agendum quid
+				<lb/>omittendum censeatis.</p>
+				<p><lb/>De negotiis uestris cum domino nostro rege prout decuit et
+					<lb/>oportuit nouiter sum locutus, et puto per misericordiam Dei quia
+					<lb/>mordentibus uitam uestram aures excellentiae suae non est ultra
+				<lb/>facile praebiturus.</p>
+				<p><lb/>Omnipotens Dominus uitam uestram ad honorem suae sanctae
+				<lb/>ecclesiae incontaminatam custodiat.</p>
+			</div>
+			<div>
+				<head><lb/>42</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus confratri et coepiscopo Herfasto salutem.</head>
+				<lb/>
+				<p><lb/>Meminisse debet caritas uestra quia rex dum nobiscum esset
+					<pb n="138"/>
+					<lb/>precepit ut querimonia de clericis abbatis Balduini, quae inter
+					<lb/>uos et ipsum abbatem uersabatur, sopita remaneret quoadusque
+					<lb/>ipsemet causam ipsam audiret, uel a me si temporis opportunitas
+					<lb/>se suggereret audiri preciperet. Sed quia priusquam id fieret mare
+					<lb/>transiuit, uolo et rogo quatinus predictos clericos quos a uobis
+					<lb/>excommunicatos didici absoluatis, et quietos ab omni inuectione
+					<lb/>atque exactione ad presens dimittatis. Post paucos etenim dies
+					<lb/>ad partes uestras uenturi sumus, et utriusque partis assertiones
+					<lb/>diligenti cura audiemus, et tam prolixae querimoniae in quantum
+				<lb/>salua fidelitate regis fieri poterit finem legittimum imponemus.</p>
+			</div>
+			<div>
+				<head><lb/>43</head>
+				<head type="salutatio"><lb/>Lanfrancus gratia Dei non suis meritis archiepiscopus confratri et
+				<lb/>coepiscopo Her. salutem.</head>
+				<lb/>
+				<p><lb/>Clericus iste nouiter ad me uenit, causam suae infelicitatis michi
+					<lb/>dixit, dictam testimonio litterarum uestrarum ueram esse asseruit.
+					<lb/>Testatus est se inordinate ordinatum, uidelicet cum nullius esset
+					<lb/>ordinis a fraternitate uestra factum esse diaconum. Interrogatus a
+					<lb/>me si uxorem haberet, uxorem se habere nec eam se uelle dimittere
+					<lb/>respondit. Propterea tali pacto consulendum ei diuina fultus
+					<lb/>auctoritate decerno. Diaconatum ei auferte; ad ceteros minores
+					<lb/>ordines congruis eum temporibus promouete. Diaconatus uero
+					<lb/>ordinem nunquam recipiat nisi caste uiuat, nisi se de reliquo
+					<lb/>caste uicturum canonica attestatione promittat. Si uero celibem
+					<lb/>uitam egerit, et acturum se omni tempore spondere uoluerit,
+					<lb/>non quidem eum ad ordinem diaconatus iterum ordinabitis, sed
+					<lb/>ipsum officium per textum sancti euangelii uel in sinodo uel
+				<lb/>in multorum clericorum conuentu reddetis.</p>
+			</div>
+			<pb n="140"/>
+			<div>
+				<head><lb/>44</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes O. digno antistiti salutem cum
+				<lb/>orationibus.</head>
+				<lb/>
+				<p><lb/>Ad Frachenam uillam nostram quae coenobio sancti Edmundi
+					<lb/>proxima est ueni, in qua rege precipiente et corporis mei infirmitate
+					<lb/>urgente aliquam accipere medicinam disposui. Pro qua
+					<lb/>re abbatem Balduinum detineo, cui rex curandae huius egritudinis
+					<lb/>curam suo ore iniunxit, qui contra Ricardum ad hunc
+					<lb/>conuentum de quibusdam querelis placitum accepit. Sed abbate
+					<lb/>apud uos et apud eum de hoc itinere excusato, causam ipsam
+					<lb/>dilatam esse uolo et rogo quoadusque alio tempore in unum
+					<lb/>conueniamus, et pari studio pariter ipsum negotium sine aliquo
+				<lb/>partium fauore definiamus.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat, et in omnibus uestris
+				<lb/>negotiis promptus uobis auxiliator assistat.</p>
+			</div>
+			<div>
+				<head><lb/>45</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes uenerabili Dunelmensi episcopo
+				<lb/>Wal. salutem.</head>
+				<lb/>
+				<pb n="142"/>
+				<p><lb/>Et longe ab urbe positum et multis huius seculi negotiis inuolutum
+					<lb/>me uestrae litterae inuenerunt, ob quam causam petitionibus
+					<lb/>uestris ex omni parte effectum prebere non licuit. Nec si licuisset,
+					<lb/>commonitorium quod in festiuitate sancti Martini habere uoluistis
+					<lb/>fieri potuisset: septima enim post praedicti sancti solennitatem
+				<lb/>die uester ad me nuntius uenit.</p>
+				<p><lb/>Porro de illo presbitero de quo mandastis, quia in claustro
+					<lb/>monachorum sine benedictione nutritus fuit, aliquid me uobis
+					<lb/>mandasse recordari non possum. Canones tamen decretaque
+					<lb/>sanctorum patrum eos qui uestem religionis aliquot diebus in
+					<lb/>conspectu hominum deferunt ad seculum quocunque modo
+					<lb/>postea redire non sinunt. Qui si uobis obtemperare noluerit,
+				<lb/>euangelica auctoritate utimini quae ait, ʻCompelle intrare.ʼ</p>
+			</div>
+			<div>
+				<head><lb/>46</head>
+				<head type="salutatio"><lb/>Lanfrancus antistes dilectissimis fratribus Rainaldo Pictauorum
+					<pb n="144"/>
+					<lb/>urbis abbati et Seuuino monacho et Heinrico canonico
+				<lb/>salutem.</head>
+				<lb/>
+				<p><lb/>Lectis litteris a uestra michi per hunc hominem fraternitate
+					<lb/>transmissis, uoluntatem uestram intellexi si facultas detur
+					<lb/>ad me ueniendi. Id commode fieri posse non arbitror. Nam
+					<lb/>et iter prolixum est, pericula multa terra marique, et ego tot
+					<lb/>tantisque huius mundi negotiis obuolutus sum ut talibus studiis
+					<lb/>dare michi operam hac tempestate non liceat. Si diuina pietas
+					<lb/>expeditum me esse quandoque uoluerit, et doceri pariter et
+				<lb/>docere promptus michi semper animus erit.</p>
+				<p><lb/>Porro quod scismaticus ille, Beringerium dico, sicut uestra
+					<lb/>epistola testata est, constanter asserit quia beatus Hilarius uestrae
+					<lb/>urbis uestraeque gentis quondam episcopus in tractatu fidei
+					<lb/>peruersa senserit, et in libro <hi rend="italic">De diuina Trinitate</hi> improbabiles
+					<lb/>sententias de Domino Iesu Christo protulerit, mirari non debet
+					<lb/>beatitudo uestra si is, qui de ipso capite tam multa et tam nefanda
+					<lb/>credere et docere uerissimis relationibus infamatur, de ipsius
+					<lb/>capitis membro tam perniciosa dicere traditus in reprobum
+					<lb/>sensum diuino iudicio permittatur. Reuera quisquis Ylario
+					<lb/>alicuius hereseos notam imponit multos orthodoxos patres, qui
+					<lb/>magnis eum laudibus extulerunt, eiusdem erroris macula inuoluit.
+					<lb/>Gelasius papa in decretis suis omnes libros eius inter catholicas
+					<lb/>scripturas enumerat. Eius auctoritas in sacris canonibus decentissime
+					<lb/>memoratur, recipitur et laudatur. Sanctus Augustinus
+					<lb/>in libro <hi rend="italic">De Trinitate</hi> excellenti laude eum extollit et quaedam
+					<lb/>ab eo de Patre et Filio et Spiritu Sancto obscure dicta enucleatius
+					<lb/>exponit. Beatus Ieronimus quantis eum omnesque libros eius in
+					<lb/>quibusdam scriptis suis preconiis effert epistolari breuitate comprehendi
+					<lb/>non potest, uocans eum Romanorum luciferum,
+					<lb/>aecclesiarum lucernam, lapidem preciosum ad quem mortalia
+					<lb/>uix ascendunt, pulchro sermone aureoque ore uniuersa loquentem.
+					<pb n="146"/>
+					<lb/>Ceteri sacrae religionis doctores quicunque de eo aliquid locuti
+					<lb/>sunt ab horum sententia in hac parte minime dissenserunt.
+					<lb/>Tutius igitur est lectori in difficillimis sanctorum patrum sententiis,
+					<lb/>quas ingenii sui imbecillitas capere non potest, interrogato
+					<lb/>quod nescit dicere se nescire quam pertinaci arrogantia et arroganti
+					<lb/>pertinacia, non sine sua et aliorum perniciae fidei contraria
+					<lb/>definire; presertim si talis persona sit quae uel scientia
+					<lb/>litterarum uel probitate morum uel potius utraque parte auctoritatis
+					<lb/>pondus prae se gerere uideatur. Verba prefati doctoris, quae
+					<lb/>prefatus inuersor in eius calumniam conatur inuertere, haec
+					<lb/>in uestris litteris repperi: ʻDei Filius hominem uerum secundum
+					<lb/>similitudinem nostri hominis, non deficiens a se Deo, sumpsit.
+					<lb/>In quo, quamuis aut ictus incideret aut uulnus discinderet,
+					<lb/>afferrent quidem haec impetum passionis non tamen dolorem
+					<lb/>passionis inferrent: ut telum aliquod aut aquam perforans aut
+					<lb/>ignem conpungens aut aera uulnerans.ʼ Et paulo post: ʻVirtus
+					<lb/>corporis sine sensu poenae uim poene in se deseuientis excepit.ʼ
+					<lb/>Haec sine preiudicio melioris expositionis, consona ut putamus
+					<lb/>sanctis patribus astipulatione, sic exponuntur a nobis: Dominus
+					<lb/>Iesus Christus in eadem persona uerus homo et uerus Deus
+					<lb/>secundum humanitatem quidem esuriuit, sitiuit, fatigatus est,
+					<lb/>fleuit, appropinquante hora mortis ʻpauere et tedere coepit.ʼ
+					<lb/>Vnde et orauit dicens: ʻPater si fieri potest transeat a me calix
+					<lb/>iste.ʼ Plagas uirgarum uulnerumque discissiones ut homo similis
+					<lb/>nobis sensit et doluit, ceterasque humanae naturae infirmitates
+					<lb/>assumendo hominem preter peccatum assumpsit; secundum
+					<lb/>diuinitatem uero, qua Patri et Spiritui Sancto per omnia aequalis
+					<lb/>est, nichil horum sustinuit. Hoc uelle approbare nichil attinet,
+					<lb/>cum apud omnes fideles haec semper sit fueritque sententia; et
+					<lb/>sacra pagina huiusmodi documentis paene sit ubique referta. Et
+					<lb/>tamen propter unitatem personae, in quam conficiendam Deus
+					<lb/>et homo conuenerant, sepe quae hominis sunt assignantur Deo
+					<lb/>et quae solius Dei sunt dicitur habere homo. Vt illud Apostoli:
+					<lb/>ʻSi enim cognouissent, nunquam Dominum gloriae crucifixissent.ʼ
+					<lb/>Non enim reuera, quantum ad ipsum spectat, Dominus gloriae
+					<lb/>est crucifixus; sed propter assumptum hominem quod hominis
+					<pb n="148"/>
+					<lb/>fuit dicitur pertulisse Deus. Et ipse Dominus in euangelio:
+					<lb/>ʻNemo ascendit in caelum nisi qui descendit de caelo, Filius
+					<lb/>hominis qui est in caelo.ʼ Et rursus id quod Dei erat homini
+					<lb/>est assignatum: neque enim homo in terra degens in caelo tunc
+					<lb/>esse poterat. Sed quia Vnigenitus Patris ita in mundum uenit ut
+					<lb/>tamen a paterno sinu nunquam discederet, quod solius diuinitatis
+					<lb/>erat loquens in terra assumpto homini propter unitatem personae
+					<lb/>tribuebat. Hoc locutionis modo superius dictum est quia homini
+					<lb/>assumpto a Filio Dei ictus et uulnera impetum passionis afferrent,
+					<lb/>non tamen dolorem passionis inferrent. Et hoc suppositis similitudinibus
+					<lb/>declaratur: ut si telum aquam perforet et cetera quae
+					<lb/>sequuntur. Ac si diceret: ʻHomo assumptus impetum passionis et
+					<lb/>uim doloris sensit; Deus assumens non sensit.ʼ Et hoc paulo post
+					<lb/>declarat dicens: <hi rend="italic">Virtus corporis</hi>, id est diuinitas assumens ipsum
+				<lb/>corpus, <hi rend="italic">sine sensu poenae</hi>, quantum ad ipsam pertinet, <hi rend="italic">uim poene</hi></p>
+				<p><lb/><hi rend="italic">in se</hi>, id est in carne assumpta, <hi rend="italic">deseuientis excepit</hi>. Quod si <hi rend="italic">uirtus
+					<lb/>corporis</hi> magis ʻrobur ipsius corporisʼ hoc in loco intelligenda est,
+				<lb/>eadem sententia in ceteris manet, ut sit sensus: <hi rend="italic">Virtus corporis</hi></p>
+				<p><lb/><hi rend="italic">sine sensu poenae</hi>, quantum ad assumentem diuinitatem, <hi rend="italic">uim
+					<lb/>poenae in se deseuientis excepit</hi>, quantum ad assumptam humanitatem.
+					<lb/>Et hoc locutionis genere reuera et salua christianae religionis
+					<lb/>fide dici potest, quia Christus siue corpus Christi siue caro
+					<lb/>Christi in cruce patiebatur et non patiebatur, dolebat et non
+					<lb/>dolebat, moriebatur et non moriebatur, et in hunc modum multa
+					<lb/>numeroque carentia. Alioquin si praefatus doctor contra usitatissimam
+					<lb/>aecclesiae fidem, contra euangelicam auctoritatem, contra
+					<lb/>omnium sanctorum patrum definitionem carnem Christi insensibilem
+					<lb/>et doloris expertem intelligi uoluisset, assumptum a Filio
+					<lb/>Dei hominem ʻsimilem nobisʼ in praefata sententia minime retulisset.
+					<lb/>Quae enim similitudo sensibili et insensibili, dolentis et
+					<lb/>doloris experti? Retulit autem. Non igitur intelligi uoluit. Obsecro
+					<lb/>uigilate omnibus modis, quia scismatici et fautores eorum circa
+					<lb/>uos et intra uos sunt. Opponite eis scutum timoris Dei, impetentes
+				<lb/>eos iaculis diuinorum eloquiorum.</p>
+				<pb n="150"/>
+				<p><lb/>Adminiculamini nobis, memores nostri in orationibus uestris.
+					<lb/>Omnipotens Dominus det uobis bene agere, et feliciter quo
+				<lb/>tenditis peruenire.</p>
+			</div>
+			<div>
+				<head><lb/>47</head>
+				<head type="salutatio"><lb/>Lanfrancus Dei misericordia non suis meritis sanctae Dorobernensis
+					<lb/>aecclesiae archiepiscopus HE. episcopo humiliter sapere
+				<lb/>et sobrie intelligere.</head>
+				<lb/>
+				<p><lb/>Berardus abbatis Balduini clericus et famulus nostras de
+					<lb/>negotio suo litteras tibi detulit. Quas ut ipse postea michi testatus
+					<lb/>est procaciter irrisisti, satis uilia multumque indigna de me
+					<lb/>multis audientibus protulisti, pro me de eadem re nichil te
+					<lb/>facturum plurimis contestationibus affirmasti. De his alio tempore
+				<lb/>atque alio loco sermo erit.</p>
+				<p><lb/>Veruntamen ad presens precipio tibi ne in rebus sancti Eadmundi
+					<lb/>aliquid appetas, nisi id ab antecessoribus tuis appetitum
+					<lb/>fuisse certis documentis ostendas; prefatum Berardum quiaetum
+					<lb/>et inconcussum dimittas, quoadusque res in nostram audientiam
+					<lb/>ueniat finemque congruum canonica auctoritate nostrique iudicii
+				<lb/>definitione recipiat.</p>
+				<pb n="152"/>
+				<p><lb/>Postpositis aleis – ut maiora taceam – ludisque secularibus
+					<lb/>quibus per totam diem uacare diceris, diuinas litteras lege,
+					<lb/>decretisque Romanorum pontificum sacrisque canonibus precipue
+					<lb/>studium impende. Ibi quippe inuenies quod nescis; perlectis
+					<lb/>illis friuolum duces unde aecclesiasticam disciplinam effugere te
+					<lb/>confidis. In decretis sic legitur: ʻMetropolitani sui unaquaeque
+					<lb/>prouincia in omnibus rebus ordinationem semper expectet.ʼ
+					<lb/>In Niceno concilio: ʻFirmitas omnium quae geruntur per unamquamque
+					<lb/>prouinciam metropolitano tribuatur episcopo.ʼ In
+					<lb/>Antiocheno: ʻPer unamquamque prouintiam episcopos conuenit
+					<lb/>nosse metropolitanum episcopum totius prouintiae sollicitudinem
+					<lb/>gerere. Propter quod ad metropolem omnes undique qui negotia
+					<lb/>uidentur habere concurrant. Vnde placuit eum et honore praecellere.ʼ
+					<lb/>Et in Toletanis conciliis: ʻSic enim iustum est ut inde
+					<lb/>unusquisque sumat regulas disciplinae, unde consecrationis honorem
+					<lb/>accepit; ut iuxta maiorum decreta sedes quae unicuique
+					<lb/>sacerdotalis mater est dignitatis sit aecclesiasticae magistra
+					<lb/>rationis.ʼ Et paulo post: ʻQuisquis autem horum decretorum
+					<lb/>uiolator extiterit, sex mensibus communione priuatus apud metropolitanum
+					<lb/>sub poenitentiae censura permaneat corrigendus.ʼ
+					<lb/>Sunt alia plurima de excellentia et potestate primatum atque
+					<lb/>archiepiscoporum tam in prefatis scripturis quam in aliis orthodoxorum
+					<lb/>patrum autenticis libris; quae si studiosus legeres lecta
+					<lb/>memoriae commendares, nichil inconueniens contra tuam matrem
+					<lb/>aecclesiam sentires, quod dixisse diceris non dixisses immo dictum
+					<lb/>ab aliis salubri inuectione reprehenderes. Nec sobrius quisquam
+					<lb/>putauerit hoc esse in aliena parrochia aliquid temere presumere,
+					<lb/>cum per misericordiam Dei totam hanc quam uocant Britannicam
+					<lb/>insulam unam unius nostrae aecclesiae constet esse parrochiam.
+					<lb/>Hermannum monachum, cuius uita multis reprehensionibus
+					<lb/>obnoxia perhibetur, a consortio tuo tuaeque domus penitus
+					<lb/>remoue. Volo enim ut in regulari monasterio regulariter uiuat
+				<lb/>aut, si hoc renuit, de regno Anglorum abscedat.</p>
+			</div>
+			<pb n="154"/>
+			<div>
+				<head><lb/>48</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus O. abbati salutem.</head>
+				<lb/>
+				<p><lb/>Fratrem Gregorium monachum tuum uolentem mare transire
+					<lb/>prohibuimus, et ad monasterium suum ei redire praecepimus et
+					<lb/>precipiendo compulimus. Tu non bene egisti quod ipsi uagandi
+					<lb/>extra patriam licentiam concessisti. In hoc satis euidenter apparet
+					<lb/>qualis pastor existas, et qua sollicitudine gubernare commissas
+					<lb/>tibi animas scias. Mandamus igitur et precipimus et
+					<lb/>precipiendo rogamus quatinus cum honore eum recipias, et de
+					<lb/>cetero sicut filio tuo paternam ei caritatem impendas. Credimus
+					<lb/>enim per misericordiam Dei, si sollicitus tui ordinis esse uolueris,
+					<lb/>quod consilium et auxilium tam in causis spiritualibus quam in
+					<lb/>secularibus per eum habere ualebis. Laetificauit me multum quod
+					<lb/>timorem Dei te habere et bonum hominem esse perhibuit, sed
+					<lb/>tamen pro simplicitate tua neglegentem te esse nostri ordinis
+				<lb/>negare non potuit.</p>
+			</div>
+			<div>
+				<head><lb/>49</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus sanctae Cantuariensis aecclesiae antistes
+					<pb n="156"/>
+					<lb/>uenerando Hiberniae episcopo D. et iis qui sibi litteras transmiserunt
+				<lb/>salutem et benedictionem.</head>
+				<lb/>
+				<p><lb/>In itinere positi et a ciuitate in qua nobis sedes episcopalis est
+					<lb/>longe sepositi eramus, quando litteras uestras nuntio uestro
+					<lb/>deferente suscepimus. Quem cum rogassemus ut saltem paucis
+					<lb/>diebus nobiscum maneret, quatinus perquisitis libris congruum
+					<lb/>pro captu nostro ad consulta uestra responsum uobis referret,
+					<lb/>peticioni nostrae effectum negauit, et se diutius non posse morari
+					<lb/>multis assertionibus allegauit. Itaque dulcissimam nobis fraternitatem
+					<lb/>uestram paterna caritate monemus ut indignum uobis
+				<lb/>sit quod de tanta re tam breuiter respondemus.</p>
+				<p><lb/>Reuera et procul pulsa omni ambiguitate sciatis neque transmarinas
+					<lb/>aecclesias neque nos Anglos hanc de infantibus tenere
+					<lb/>sententiam quam putatis. Credimus enim generaliter omnes omnibus
+					<lb/>aetatibus plurimum expedire tam uiuentes quam morientes
+					<lb/>Dominici corporis et sanguinis perceptione sese munire. Nec
+					<lb/>tamen, si prius quam corpus Christi et sanguinem sumant contingat
+					<lb/>baptizatos statim de hoc seculo ire, ullatenus credimus eos
+					<lb/>– quod Deus auertat – propter hoc in aeternum perire. Alioquin
+					<lb/>Veritas non esset uerax quae dicit: ʻQui crediderit et baptizatus
+					<lb/>fuerit, saluus erit.ʼ Et per prophetam: ʻEffundam super uos
+					<lb/>aquam mundam, et mundabimini ab omnibus inquinamentis
+					<lb/>uestris.ʼ Quod de baptismo esse dictum omnes huius sententiae
+					<lb/>expositores concorditer asseuerant. Et Petrus apostolus: ʻEt uos
+					<lb/>nunc similis formae saluos facit baptisma.ʼ Et Paulus apostolus:
+					<lb/>ʻQuotquot in Christo baptizati estis, Christum induistis.ʼ
+					<lb/>Christum est enim induere, habitatorem Deum per remissionem
+					<lb/>peccatorum in se habere. Nam sententia illa quam Dominus in
+					<lb/>euangelio dicit: ʻNisi manducaueritis carnem Filii hominis et
+					<lb/>biberitis eius sanguinem, non habebitis uitam in uobisʼ, quantum
+					<lb/>ad comestionem oris non potest generaliter dicta esse de omnibus.
+					<lb/>Plerique etenim sanctorum martirum ante baptismum quoque
+					<pb n="158"/>
+					<lb/>diuersis excruciati poenis de corpore migrauerunt. Eos tamen in
+					<lb/>numero martirum computat et saluos credit aecclesia, per illud
+					<lb/>testimonium Domini quo dicitur: ʻQui me confessus fuerit coram
+					<lb/>hominibus, confitebor et ego eum coram Patre meo qui est in
+					<lb/>caelo.ʼ Infantem quoque non baptizatum, si morte imminente
+					<lb/>urgeatur, a fideli laico si praesbiter desit baptizari posse canones
+					<lb/>precipiunt; nec eum tamen si statim moriatur a consortio fidelium
+					<lb/>seiungunt. Necesse est ergo predictam Domini sententiam sic
+					<lb/>intelligi, quatinus fidelis quisque diuini misterii per intelligentiam
+					<lb/>capax carnem Christi et sanguinem non solum ore corporis sed
+					<lb/>etiam amore et suauitate cordis comedat et bibat: uidelicet amando
+					<lb/>et in conscientia pura dulce habendo quod pro salute nostra
+					<lb/>Christus carnem assumpsit, pependit resurrexit ascendit, et
+					<lb/>imitando uestigia eius, et communicando passionibus ipsius in
+					<lb/>quantum humana infirmitas patitur et diuina ei gratia largiri
+					<lb/>dignatur. Hoc est enim uere et salubriter carnem Christi comedere
+					<lb/>et sanguinem eius bibere. Quam sententiam in libro <hi rend="italic">De
+					<lb/>Doctrina Christiana</hi> beatus Augustinus exponens sic ait: ʻFacinus
+					<lb/>uel flagicium iubere uidetur. Figura ergo est precipiens passioni
+					<lb/>dominicae communicandum esse, et suauiter atque utiliter in
+					<lb/>memoria recondendum quod pro nobis caro eius uulnerata et
+					<lb/>crucifixa sit.ʼ Figuram uocat figuratam locutionem; neque enim
+					<lb/>negat ueritatem carnis et sanguinis Christi, quod plerisque scismaticis
+					<lb/>uisum est et adhuc non cessat uideri. Et Dominus in euangelio:
+					<lb/>ʻQui manducat carnem meam et bibit sanguinem meum in
+					<lb/>me manet et ego in eo.ʼ Quod exponens beatus Augustinus ait:
+					<lb/>ʻHoc est nanque carnem Christi et sanguinem salubriter comedere
+					<lb/>et bibere: in Christo manere et Christum in se manentem habere.ʼ
+					<lb/>Nam et Iudas qui Dominum tradidit cum ceteris apostolis ore
+					<lb/>accepit; sed quia corde non comedit iudicium sibi aeternae
+				<lb/>damnationis accepit.</p>
+				<p><lb/>Quaestiones secularium litterarum nobis soluendas misistis, sed
+					<lb/>episcopale propositum non decet operam dare huiusmodi studiis.
+					<pb n="160"/>
+					<lb/>Olim quidem iuuenilem aetatem in his detriuimus, sed accedentes
+				<lb/>ad pastoralem curam abrenuntiandum eis decreuimus.</p>
+			</div>
+			<div>
+				<head><lb/>50</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus sanctae Cantuariensis aecclesiae antistes
+				<lb/>gloriosae Scotorum rigine M. salutem et benedictionem.</head>
+				<lb/>
+				<p><lb/>Explicare non potest epistolaris breuitas quanta cor meum laetitia
+					<lb/>perfudisti, perlectis litteris tuis quas michi Deo amabilis regina
+					<lb/>misisti. O quanta iocunditate uerba profluunt quae diuino Spiritu
+					<lb/>inspirata procedunt! Credo enim non a te sed per te dicta
+					<lb/>esse quae scripseras. Reuera per os tuum locutus est ille qui
+					<lb/>discipulis suis ait, ʻDiscite a me quia mitis sum et humilis
+					<lb/>corde.ʼ De hac Christi disciplina processit quod regali stirpe
+					<lb/>progenita, regaliter educata, nobili regi nobiliter copulata, me
+					<lb/>hominem extraneum uilem ignobilem peccatis inuolutum in
+					<lb/>patrem eligis, teque michi in filiam spiritualiter habendam precaris.
+					<lb/>Non sum quod putas, sed sim quia putas. Ne decepta
+					<lb/>remaneas ora pro me, ut sim dignus pater orare Deum et exaudiri
+					<lb/>pro te. Orationum et benefactorum sit inter nos commune commercium.
+					<lb/>Parua quidem tribuo, sed multo maiora me recepturum
+					<lb/>esse confido. Dehinc igitur sim pater tuus, et tu mea filia esto.
+					<lb/>Mitto glorioso uiro tuo et tibi carissimum fratrem nostrum
+					<lb/>domnum Goldeuuinum secundum petitionem tuam, alios quoque
+					<lb/>duos fratres; quia quod de seruitio Dei et uestro fieri oportet
+					<lb/>solus ipse per se explere non posset. Et rogo multumque rogo
+					<pb n="162"/>
+					<lb/>quatinus quod pro Deo et pro animabus uestris coepistis instanter
+					<lb/>et efficaciter perficere studeatis. Et si possetis aut uelletis opus
+					<lb/>uestrum per alios adimplere, multo desiderio uellemus hos fratres
+					<lb/>nostros ad nos redire, quia ualde in officiis suis necessarii erant
+					<lb/>aecclesiae nostrae. Fiat tamen uoluntas uestra, quia in omnibus
+				<lb/>et per omnia desideramus oboedire uobis.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat, et ab omnibus peccatis
+				<lb/>clementer absoluat.</p>
+			</div>
+			<div>
+				<head><lb/>51</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes sanctae Baiocensis aecclesiae archidiaconis
+				<lb/>salutem.</head>
+				<lb/>
+				<p><lb/>Indicauit michi litteris suis Constantiensis episcopus quendam
+					<lb/>praesbiterum uillae suae in parrochia uestra sitae manibus suis
+					<lb/>fecisse homicidium, cum contra moriturum se defenderit et
+					<lb/>patrem suum. Addidit quoque consilium meum super hac re uos
+					<lb/>uelle habere: si uel nunquam uel post quantum temporis missam
+					<lb/>homicidae liceat celebrare. Periculose fratres mei a me de hac re
+					<lb/>uobis respondetur, cum reus reique uita a me penitus ignoretur.
+					<lb/>Quam si aut propria experientia aut ueracium relatione cognitam
+					<lb/>tenerem, multo tutius fraternitati uestrae de tanta re respondere
+					<lb/>ualerem. Vos igitur, quorum officii id interest, uitam eius perquirite:
+					<lb/>uidelicet quomodo uixerit, quomodo uiuat, si humiliter
+					<lb/>poeniteat, si doleat, si lugeat, maxime si castitatem sui corporis de
+					<lb/>reliquo seruare disponat eamque usque ad finem uitae suae seruaturum
+					<lb/>se esse promittat. Haec et huiusmodi alia poenitentis
+					<pb n="164"/>
+					<lb/>indicia si in eo esse deprehenderitis, peracta poenitentia licentiam
+					<lb/>celebrandi missam dare ei potestis. Alioquin periculosum uobis
+					<lb/>et illi perniciosum erit, si pollutis manibus corpus Christi et
+				<lb/>sanguinem sanctificare presumpserit.</p>
+				<p><lb/>Omnipotens Dominus uos benedicat, et de pastore uestro
+				<lb/>desideratam uobis laeticiam tribuat.</p>
+			</div>
+			<div>
+				<head><lb/>52</head>
+				<head type="salutatio"><lb/>Lanfrancus Hu.</head>
+				<lb/>
+				<p><lb/>Litteras tuas quas michi per portitorem mearum misisti suscepi
+					<lb/>et legi, et displicuerunt michi quaedam quae in eis inueni. Non
+					<lb/>probo quod papam Gregorium uituperas, quod Hildebrandum
+					<lb/>eum uocas, quod legatos eius spinosulos nominas, quod Clementem
+					<lb/>tot et tantis preconiis tam propere exaltas. Scriptum est enim
+					<lb/>non esse laudandum in uita sua hominem nec detrahendum
+					<lb/>proximo suo. Adhuc incognitum est humano generi quales nunc
+					<lb/>sint et quales futuri sint in conspectu Dei. Credo tamen quod
+					<lb/>gloriosus imperator sine magna ratione tantam rem non est aggressus
+					<lb/>patrare, nec sine magno Dei auxilio tantam potuit uictoriam
+					<lb/>consummare. Non laudo ut in Anglicam terram uenias, nisi a
+					<lb/>rege Anglorum licentiam ueniendi prius accipias. Nondum enim
+					<pb n="166"/>
+					<lb/>insula nostra priorem refutauit, nec utrum huic oboedire debeat
+					<lb/>sententiam promulgauit. Auditis utrinque causis, si ita contigerit,
+				<lb/>perspicacius quid fieri oporteat peruideri ualebit.</p>
+			</div>
+			<div>
+				<head><lb/>53</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus uenerabili G. episcopo salutem et
+				<lb/>seruitium.</head>
+				<p><lb/>De sanctimonialibus de quibus dulcissima michi paternitas uestra
+					<lb/>ad me litteras misit hoc uobis respondeo. Sanctimoniales quae de
+					<lb/>seruanda regula professionem fecerunt, uel quae quamuis adhuc
+					<lb/>professae non sint ad altare tamen oblatae fuerunt, secundum
+					<lb/>mores et uitas earum ad seruandam regulam moneantur, increpentur,
+					<lb/>constringantur. Quae uero nec professae nec oblatae
+					<lb/>sunt, ad praesens sic dimittantur, donec uoluntates earum de
+					<lb/>seruando ordine subtilius exquirantur. Quae uero non amore
+					<lb/>religionis sed timore Francigenarum sicut uos dicitis ad monasterium
+					<lb/>confugerunt, si hoc firmo meliorum sanctimonialium
+					<lb/>testimonio probare possunt, libera eis recedendi concedatur
+				<lb/>potestas. Et hoc est consilium regis et nostrum.</p>
+				<p><lb/>Omnipotens Dominus uitam uestram in beneplacito suo
+				<lb/>conseruet.</p>
+			</div>
+			<pb n="168"/>
+			<div>
+				<head><lb/>54</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus carissimo amico suo abbati W. salutem.</head>
+				<lb/>
+				<p><lb/>Rogo te quantum rogare possum et debeo, quatinus huic fratri
+					<lb/>Rainaldo concedas licentiam conuersandi apud Gloecestram cum
+					<lb/>abbate Serlone per spatium unius anni. Expedit enim animae
+					<lb/>suae ut hoc fiat. Huius nanque indicium hinc permaxime capio
+					<lb/>quod regularem locum petit – quamuis et monasterio tuo in quo
+					<lb/>nutritus est in nullo detrahat; sed cur hoc facere uelit rationabilem
+					<lb/>causam enarrat. Iterum rogo ne moleste feras quod ad me uenit,
+				<lb/>quod me amicum tuum pro necessitate sua expetiit.</p>
+			</div>
+			<div>
+				<head><lb/>55</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus abbati R. salutem.</head>
+				<lb/>
+				<p><lb/>Quod fratrem de quo michi scripsit fraternitas tua in monasterium
+					<lb/>recipiendum cum meis litteris tibi direxi, teste conscientia mea
+					<lb/>diuino id zelo et amore nostri ordinis feci. Neque enim gratia
+					<lb/>uitandi scandali aliquid uolo uel rogare uel precipere quod aliquo
+					<lb/>modo in maius uel deterius scandalum ualeat prouenire. Loquere
+					<lb/>igitur cum episcopo si forte adest et cum domno Godefrido
+					<pb n="170"/>
+					<lb/>priore eius; et quicquid super hoc negotio inter uos consulueritis
+					<lb/>et consultum opere complendum decreueritis, in omnibus et
+					<lb/>per omnia michi quoque placere noueritis. Neque enim superbiam
+					<lb/>nutrire uolo, quam procul ab omni genere hominum et precipue a
+				<lb/>nostro ordine remotam esse desidero.</p>
+			</div>
+			<div>
+				<head><lb/>56</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes dilecto et fideli amico suo S. salutem
+				<lb/>et benedictionem.</head>
+				<lb/>
+				<p><lb/>Gratias ago benignae sollicitudini tuae et sollicitae benignitati
+					<lb/>tuae, quia amiciciam quam a primordio mutuae cognitionis michi
+					<lb/>promisisti re ipsa cum opportunitas se ingessit semper demonstrare
+					<lb/>studuisti. Et nunc precor multumque precor, quamuis non
+					<lb/>tantopere precibus indigeas, quatinus de praesenti negotio tantum
+					<lb/>rebus nostris ualeas, quantum ualere fuerit tibi desuper data
+					<lb/>facultas. Scias autem in illis comitatibus quorum exquirendorum
+					<lb/>tibi cura commissa est me nichil in dominio habere, sed omnes in
+					<lb/>illis partibus nostrae aecclesiae terras ad uictum monachorum per
+					<lb/>omnia pertinere. Frater noster qui has tibi litteras portat multa
+					<lb/>laudanda de te michi retulit, quorum pluralitas et epistolaris
+					<lb/>breuitas ea nunc enumerari non sinit. Sed omnipotens Deus cuius
+					<lb/>memoriam nichil subterfugit sicut nouit multipliciter tibi
+					<lb/>rependat, et ab omni opere malo pius auxiliator te incessanter
+				<lb/>defendat.</p>
+			</div>
+			<pb n="172"/>
+			<div>
+				<head><lb/>57</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes abbati Turstino salutem.</head>
+				<lb/>
+				<p><lb/>Consilium meum tibi breuiter intimandum rogasti, et ego illud
+					<lb/>tibi paucis intimare curaui. Roga Deum ut meminerit tui et misereatur
+					<lb/>tibi, et hoc instanter tam per te quam per amicos tuos; nos
+					<lb/>uero hoc agimus in quantum possumus. Domino nostro regi offer
+					<lb/>rectitudinem per amicos et per fideles internuntios. Si spreuerit,
+					<lb/>noli multum inde esse tristis neque sollicitus. Visitabit enim
+				<lb/>Deus plebem suam cum expedire decreuerit.</p>
+				<p><lb/>Misericordia Dei tecum sit.</p>
+			</div>
+			<div>
+				<head><lb/>58</head>
+				<head type="salutatio"><lb/>Lanfrancus indignus antistes uenerabili abbati G. salutem et
+				<lb/>benedictionem.</head>
+				<lb/>
+				<p><lb/>Gratias quantas possum paternitati uestrae ago, quod presentes et
+					<lb/>absentes nobis et de nobis bona dicitis, meliora optatis, utrumque
+					<lb/>uerbis et litteris confirmatis. Et reuera sciatis me eandem circa uos
+					<pb n="174"/>
+					<lb/>uoluntatem habere, et uobis et uestris sinceram dilectionem in
+					<lb/>omnibus et per omnia exhibere. Quod de domno Vrricio mandastis
+					<lb/>gratanter accipio, sed contra preceptum regis nil rogare et nil
+					<lb/>iubere praesumo. Sed rogo multumque rogo quatinus propter
+					<lb/>Deum et propter amorem meum et quia ipse dignus est eum
+					<lb/>diligatis, honeste tractetis, paternum ei affectum sicut prudentia
+					<lb/>uestra iudicauerit impendatis. Pro iusticia nanque persecutionem
+					<lb/>patitur, et cum superna uoluntas fuerit in gaudium sibi et laetitiam
+					<lb/>conuertetur. Misertus est tamen ei Dominus quod inter uos eum
+					<lb/>uoluit esse, et putantes nocere sicut Domino placuit plurimum
+				<lb/>profuere.</p>
+			</div>
+			<div>
+				<head><lb/>59</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus dilecto amico suo M. episcopo salutem.</head>
+				<lb/>
+				<p><lb/>Sicut in aliis litteris in his quoque rogamus et monemus et
+					<lb/>pastorali auctoritate precipimus, quatinus si uobis oportunum est
+					<lb/>Bercinge eatis, et auditis utrinque querelis abbatissam esse abbatissam
+					<lb/>et priorem esse priorem iubeatis. Vtraque in suo ordine sit
+					<lb/>sicut oportet, et sicut beati Benedicti <hi rend="italic">Regula</hi> iubet. Maior
+					<lb/>precipiat, minor oboediat, si tamen ea praeceperit quae congruis
+					<lb/>rationibus conueniant et quibus sacrae auctoritates minime
+					<lb/>contradicant. Vtraeque quae Dei sunt et quae seculi sunt seruata
+					<lb/>suorum ordinum dignitate communi consilio agant, sanctimoniales
+					<lb/>et clerici et laici tam intus quam extra eis seruiant et oboediant.
+					<lb/>Quaecunque illarum hanc constitutionem nostram praetergressa
+					<lb/>fuerit uestra annitente instantia corripiatur, et ne conceptam
+					<lb/>praesumptionem adimpleat competenti seueritate compescatur.
+					<lb/>Quod si discordia in tantum partes armauerit ut earum sententia
+					<lb/>in unam concordiam conuenire non possit, res nobis innotescat,
+				<lb/>ut cuius culpa fuerit regulari districtioni subiaceat.</p>
+			</div>
+			<pb n="176"/>
+			<div>
+				<head><lb/>60</head>
+				<head type="salutatio"><lb/>Lanfrancus archiepiscopus dilectissimo amico suo abbati T.
+				<lb/>salutem.</head>
+				<lb/>
+				<p><lb/>Causam Goduini et Lifgiuae adulterae suae optime noui, et
+					<lb/>reuera Lundoniae coram me eam uestigari precepi. Auditaque
+					<lb/>utriusque partis assertione in adulteros sententiam diximus, et
+					<lb/>iuste eos esse excommunicatos communi consensu decreuimus.
+					<lb/>Propterea nichil aliud restat, nisi quod fraternitas tua adulteram de
+					<lb/>cimiterio eici precipiat, quousque uel corruptor eius uel aliquis
+					<lb/>pro ea quod iustum est episcopo faciat. Libenter facerem quod tibi
+					<lb/>posse placere intelligerem, et multum doleo quod de praesenti
+				<lb/>negotio uoluntatem tuam implere non ualeo.</p>
+			</div>
+			<div>
+				<head><lb/>61</head>
+				<head type="salutatio"><lb/>Dulcissimo patri W. L., quondam dulcissimus et utinam nunc
+					<pb n="178"/>
+					<lb/>saltem dulcis, quicquid in hoc seculo et in futuro honestius
+				<lb/>et melius.</head>
+				<lb/>
+				<p><lb/>In litteris quas nuper transmisistis hoc precipue inter cetera
+					<lb/>posuistis et rogastis, ut amoto eo qui nunc presidet de substituendo
+					<lb/>aecclesiae uestrae priore uobis consulerem, consultaque sub celeritate
+					<lb/>rescriberem. Quam rem fratribus qui mecum sunt ostendi,
+					<lb/>michique consulere uolenti quatinus ipsi quoque consulerent
+					<lb/>obnixe rogaui. Communis omnium sententia fuit: ut si aliquo
+					<lb/>secundum Deum modo efficere ualeatis, summum aecclesiae
+					<lb/>uestrae priorem domnum Ernostum constituatis. Quod si ipse
+					<lb/>rennuerit aut fortasse domnus abbas huic rei consensum prebere
+					<lb/>noluerit, ordinate quem concors fratrum electio ordinandum esse
+					<lb/>decreuerit. Si uero hoc uobis consilium displicuerit, capite illud
+					<lb/>quod sanum sapienti displicere non poterit: uidelicet ut id agatis
+					<lb/>quod ex ore domni abbatis Herluini domnique Anselmi agendum
+					<lb/>esse cognoueritis. Nam et ego ut peccator homo diuini consilii
+					<lb/>ignarus existo, et ipsi utrique ut credimus spiritu Dei pleni sunt
+					<lb/>et secum habent qui in huiusmodi negociis apud Deum adiuuare
+				<lb/>eos ualent.</p>
+				<p><lb/>Diuina maiestas uenerande pater iocundeque frater te benedicat,
+				<lb/>atque ab omnibus peccatis prorsus absoluat. Vale.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

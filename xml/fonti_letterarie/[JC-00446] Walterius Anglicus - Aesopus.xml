@@ -1,0 +1,1532 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Aesopus</title>
+				<author>Walterius Anglicus </author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>S. Boldrini</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7281" unit="words">Parole: 7281</measure>
+				<measure quantity="38463" unit="characters_without_spaces">Caratteri (spazi esclusi): 38463</measure>
+				<measure quantity="44644" unit="characters_witht_spaces">Caratteri (spazi inclusi): 44644</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2008-01-12">12/01/2008</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Favolistica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Note: Il testo riprone, a parte lievissimi ritocchi, quello edito a Brescia, per i tipi di Niccolò Bettoni, nel 1818 e intitolato Esopo volgarizzato per uno da Siena. Testo di lingua, che si rifà all’edizione, dallo stesso titolo, curata da Pietro Berti e stampata a Padova, tipografia del Seminario, nel 1811.
+					&lt; &gt; : includono le integrazioni congetturali dell’editore.
+					[ ] : includono le espunzioni dell’editore.
+					Correzioni al testo:
+					p. 44, riga 4: ait:] ait. ed.
+					p. 115, riga 3: Se] se ed.
+					p. 143, riga 18 consumit] cunsumit ed.
+					p. 151, riga 10: Viuere] viuere ed.
+				</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Gualtero Anglico</author>
+						<title level="m">Uomini e bestie. Le favole dell'Aesopus latinus. Testo latino con una traduzione-rifacimento del '300 in volgare toscano</title>
+						<editor>S. Boldrini</editor>
+						<imprint>
+							<publisher>Argo</publisher>
+							<pubPlace>Lecce</pubPlace>
+							<date>1994</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Il vello d'oro</title>
+						<biblScope unit="volume">2</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Favolistica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma non sono sicuro se sia numerare i versi dentro ogni &lt;lg&gt;, o attraverso tutto il testo. Li ho numerati dentro ogni &lt;lg&gt;, ma si può cambiare facilmente</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="31"/>
+		<div>
+			<head><lb/>&lt;Prologus&gt;</head>
+			<lg>
+				<l>Vt iuuet, ut prosit conatur pagina presens:</l>
+				<l>Dulcius arrident seria picta iocis.</l>
+				<l>Ortulus iste parit fructum cum flore, fauorem</l>
+				<l>Flos et fructus emunt: hic sapit, ille nitet.</l>
+				<l n="5">Si fructus plus flore placet, fructum lege; si flos</l>
+				<l>Plus fructu, florem; si duo, carpe duo.</l>
+				<l>Ne mihi torpentem sopiret inertia sensum,</l>
+				<l>In quo peruigilet, mens mea mouit opus.</l>
+				<l>Vt messis pretium de uili surgat agello,</l>
+				<l n="10">Verbula sicca, Deus, complue rore tuo.</l>
+				<l>Verborum leuitas morum fert pondus honestum,</l>
+				<l>Vt nucleum celat arida testa bonum.</l>
+			</lg>
+		</div>
+		<pb n="32"/>
+		<div>
+			<head><lb/><hi rend="italic">I. De gallo et iaspide.</hi></head>
+			<lg>
+				<l>Dum rigido fodit ore fimum, dum queritat escam,</l>
+				<l>Dum stupet inuenta iaspide, gallus ait:</l>
+				<l>«Res uili pretiosa loco natique nitoris,</l>
+				<l>Hac in sorde iacens nil mihi messis habes.</l>
+				<l n="5">Si tibi nunc esset qui debuit esse repertor,</l>
+				<l>Quem limus sepelit uiueret arte nitor.</l>
+				<l>Nec tibi conuenio, nec tu mihi; nec tibi prosum,</l>
+				<l>Nec mihi tu prodes, plus amo cara minus».</l>
+				<l>Tu gallo stolidum, tu iaspide pulcra sophie</l>
+				<l n="10">Dona notes: stolido nil sapit ista seges.</l>
+			</lg>
+		</div>
+		<pb n="34"/>
+		<div>
+			<head><lb/><hi rend="italic">II. De lupo et agno.</hi></head>
+			<lg>
+				<l>Est lupus, est agnus: sitit hic, sitit ille; fluentum</l>
+				<l>Limite non uno querit uterque siti.</l>
+				<l>In summo bibit amne lupus, bibit agnus in imo.</l>
+				<l>Hunc timor impugnat uerba mouente lupo:</l>
+				<l n="5">«Rupisti potumque mihi riuoque decorem».</l>
+				<l>Agnus utrumque negat se ratione tuens:</l>
+				<l>«Nec tibi nec riuo nocui: nam prona supinum</l>
+				<l>Nescit iter nec adhuc unda nitore caret».</l>
+				<l>Sic iterum tonat ore lupus: «Mihi damna minaris?»</l>
+				<l n="10">«Non minor», agnus ait. Cui lupus: «Immo facis;</l>
+				<l>Fecit idem tuus ante pater sex mensibus actis:</l>
+				<l>Cum bene patrisses, crimine patris obi».</l>
+				<l>Agnus ad hec: «Tanto non uixi tempore». Predo</l>
+				<l>Sic tonat: «An loqueris, furcifer?» huncque uorat.</l>
+				<l n="15">Sic nocet innocuo nocuus, causamque nocendi</l>
+				<l>Inuenit. Hi regnant qualibet urbe lupi.</l>
+			</lg>
+		</div>
+		<pb n="37"/>
+		<div>
+			<head><lb/><hi rend="italic">III. De mure et rana.</hi></head>
+			<lg>
+				<l>Muris iter rumpente lacu, uenit obuia muri</l>
+				<l>Rana loquax et opem pacta nocere cupit.</l>
+				<l>Omne genus pestis superat mens dissona uerbis,</l>
+				<l>Cum sentes animi florida lingua polit.</l>
+				<l n="5">Rana sibi murem filo confederat; audet</l>
+				<l>Nectere fune pedem, rumpere fraude fidem.</l>
+				<l>Pes coit ergo pedi, sed mens a mente recedit.</l>
+				<l>Ecce natant: trahitur ille, sed illa trahit.</l>
+				<l>Mergitur ut secum murem demergat; amico</l>
+				<l n="10">Naufragium faciens naufragat ipsa fides.</l>
+				<l>Rana studet mergi, sed mus emergit et obstat</l>
+				<l>Naufragio: uires suggerit ipse timor.</l>
+				<l>Miluus adest miserumque truci rapit ungue duellum.</l>
+				<l>Hic iacet, ambo iacent, uiscera trita fluunt.</l>
+				<l n="15">Sic pereant qui se prodesse fatentur et obsunt;</l>
+				<l>Discat in auctorem pena redire suum.</l>
+			</lg>
+		</div>
+		<pb n="40"/>
+		<div>
+			<head><lb/><hi rend="italic">IV. De cane et oue.</hi></head>
+			<lg>
+				<l>In causam canis urget ouem; sedet arbiter, audit.</l>
+				<l>Reddat ouis panem uult canis, illa negat.</l>
+				<l>Pro cane stat miluus, stat uultur, stat lupus: instant</l>
+				<l>Panem, quem pepigit reddere, reddat ouis.</l>
+				<l n="5">Reddere non debet, nec habet quid reddere possit;</l>
+				<l>Et tamen ut reddat arbiter instat oui.</l>
+				<l>Ergo suum, licet instet hiems, peruendit amictum,</l>
+				<l>Et boream patitur uellere nuda suo.</l>
+				<l>Sepe fidem falso mendicat inertia teste,</l>
+				<l n="10">Sepe dolet pietas criminis arte capi.</l>
+			</lg>
+		</div>
+		<pb n="41"/>
+		<div>
+			<head><lb/><hi rend="italic">V. De cane carnem ferente.</hi></head>
+			<lg>
+				<l>Dum canis ore gerit carnem, caro porrigit umbram;</l>
+				<l>Vmbra coheret aquis: has canis urget aquas.</l>
+				<l>Spem carnis plus carne cupit, plus fenore signum</l>
+				<l>Fenoris; os aperit, sic caro spesque perit.</l>
+				<l n="5">Non igitur debent pro uanis certa relinqui.</l>
+				<l>Non sua si quis auet, mox caret ipse suis.</l>
+			</lg>
+		</div>
+		<pb n="44"/>
+		<div>
+			<head><lb/><hi rend="italic">VI. De oue et capra et iuuenca et leone.</hi></head>
+			<lg>
+				<l>Vt ratione pari fortune munera sumant,</l>
+				<l>Sumunt fedus ouis capra iuuenca leo.</l>
+				<l>Ceruus adest, ceruum rapiunt. Leo sic ait: «Heres</l>
+				<l>Prime partis ero: nam mihi primus honor.</l>
+				<l n="5">Et mihi defendit partem uis prima secundam,</l>
+				<l>Et mihi dat maior tertia iura labor.</l>
+				<l>Et pars quarta meum, nisi sit mea, rumpet amorem».</l>
+				<l>Publica solus habet fortior, ima premens.</l>
+				<l>Ne fortem societ fragilis uult fabula presens:</l>
+				<l n="10">Nam fragili fidus nesciet esse potens.</l>
+			</lg>
+		</div>
+		<pb n="46"/>
+		<div>
+			<head><lb/><hi rend="italic">VII. De fure uxorem ducente.</hi></head>
+			<lg>
+				<l>Femina dum nubit furi, uicinia gaudet.</l>
+				<l>Vir bonus et prudens talia uerba mouet:</l>
+				<l>«Sol pepigit sponsam. Iouis aurem terra querelis</l>
+				<l>Perculit et causam, cur foret egra, dedit:</l>
+				<l n="5">‘Sole necor solo; quid erit, si creuerit alter?</l>
+				<l>Quid patiar? Quid aget tanta caloris hiems?’».</l>
+				<l>Hic prohibet sermo letum prebere fauorem,</l>
+				<l>Qui mala fecerunt uel mala facta parant.</l>
+			</lg>
+		</div>
+		<pb n="48"/>
+		<div>
+			<head><lb/><hi rend="italic">VIII. De lupo et grue.</hi></head>
+			<lg>
+				<l>Arta lupum cruciat uia gutturis osse retento;</l>
+				<l>Mendicat medicam, multa daturus, opem.</l>
+				<l>Grus promissa petit de faucibus osse reuulso;</l>
+				<l>Cui lupus: «An uiuis munere tuta meo?</l>
+				<l n="5">Nonne tuum potui morsu precidere collum?</l>
+				<l>Ergo tibi munus sit tua uita meum».</l>
+				<l>Nil prodest prodesse malis: mens praua malorum</l>
+				<l>Immemor accepti non timet esse boni.</l>
+			</lg>
+		</div>
+		<pb n="50"/>
+		<div>
+			<head><lb/><hi rend="italic">IX. De duabus canibus.</hi></head>
+			<lg>
+				<l>De partu querulam, uerborum nectare plenam,</l>
+				<l>Pro cane mota, canis suscipit ede canem.</l>
+				<l>Hec abit, illa manet; hec cursitat, illa quiescit.</l>
+				<l>Huic tamen a partu rumpitur illa quies.</l>
+				<l n="5">Illa redit reddique sibi sua iura precatur;</l>
+				<l>Obserat hec aurem nec minus aure domum.</l>
+				<l>Plus prece posse minas putat hec, plus bella duobus.</l>
+				<l>Hec scit posse minas plus prece, bella minis.</l>
+				<l>Cum dolor hanc armet, plus matrem filius armat;</l>
+				<l n="10">Cedit sola gregi, causaque iusta perit.</l>
+				<l>Non satis est tutum mellitis credere uerbis:</l>
+				<l>Ex hoc melle solet pestis amara sequi.</l>
+			</lg>
+		</div>
+		<pb n="52"/>
+		<div>
+			<head><lb/><hi rend="italic">X. De rustico et colubro.</hi></head>
+			<lg>
+				<l>Dum niue canet humus, glacies dum sopit aquarum</l>
+				<l>Cursus, in colubrum turbida seuit hiems;</l>
+				<l>Hunc uidet, hunc reficit hominis clementia: uentum</l>
+				<l>Temperat huic tecto, temperat igne gelu.</l>
+				<l n="5">Ore serit uirus coluber, sic toxicat edem;</l>
+				<l>Hospes ait colubro: «Non rediturus abi».</l>
+				<l>Non exit coluber nec uult exire, sed heret</l>
+				<l>Amplectensque uirum sibila dira mouet.</l>
+				<l>Reddere gaudet homo nequam pro melle uenenum,</l>
+				<l n="10">Pro fructu penam, pro pietate dolum.</l>
+			</lg>
+		</div>
+		<pb n="54"/>
+		<div>
+			<head><lb/><hi rend="italic">XI. De asino et apro.</hi></head>
+			<lg>
+				<l>Audet asellus aprum risu temptare proteruo,</l>
+				<l>Audet iners forti dicere: «Frater, aue».</l>
+				<l>Vibrat aper pro uoce caput: nam uerba superbit</l>
+				<l>Reddere, sed dentem uix tenet ira trucem.</l>
+				<l n="5">Sus tamen ista mouet: «Vilem dens nobilis escam</l>
+				<l>Spernit; desidia tutus es ipse tua».</l>
+				<l>Non debet stolido ledi prudentia risu,</l>
+				<l>Nec stolidus doctum debet adire iocis.</l>
+			</lg>
+		</div>
+		<pb n="56"/>
+		<div>
+			<head><lb/><hi rend="italic">XII. De mure urbano et rustico.</hi></head>
+			<lg>
+				<l>Rusticus urbanum mus murem suscipit ede;</l>
+				<l>Commodat et mensam, mensaque mente minor:</l>
+				<l>In mensa tenui satis est immensa uoluntas,</l>
+				<l>Nobilitat uiles frons generosa dapes.</l>
+				<l n="5">Facto fine cibis urbanum rusticus audit;</l>
+				<l>Vrbani socius tendit in urbis opes.</l>
+				<l>Ecce penum subeunt, inseruit amicus amico,</l>
+				<l>Inuigilat mense, fercula mensa gerit.</l>
+				<l>Emendat conditque cibos clementia uultus,</l>
+				<l n="10">Conuiuam satiat plus dape frontis honor.</l>
+				<l>Ecce sere clauis immurmurat, hostia latrant:</l>
+				<l>Ambo timent, fugiunt ambo, nec ambo latent.</l>
+				<l>Hic latet, hic latebras cursu mendicat inepto,</l>
+				<l>Assuitur muro reptile muris onus.</l>
+				<l n="15">Blanda, penu clauso, parcit fortuna timori;</l>
+				<l>Ille tamen febrit, teste tremore timet.</l>
+				<l>Exit qui latuit, timidum sic lenit amicum:</l>
+				<l>«Gaude, carpe cibos, hec sapit esca fauum».</l>
+				<l>Fatur qui timuit: «Latet hoc in melle uenenum,</l>
+				<l n="20">Fellitumque metu non puto dulce bonum;</l>
+				<l>Quam timor obnubit, non est sincera uoluptas;</l>
+				<l>Non est sollicito dulcis in ore fauus.</l>
+				<l>Rodere malo fabam quam cura perpete rodi,</l>
+				<l>Degenerare cibos cura diurna facit.</l>
+				<l n="25">His opibus gaude, qui gaudes turbine mentis,</l>
+				<l>Pauperiem ditet pax opulenta mihi.</l>
+				<l>Hec bona solus habe, que sunt tibi dulcia soli,</l>
+				<l>Det pretium dapibus uita quieta meis».</l>
+				<l>Finit uerba, redit. Preponit tuta timendis,</l>
+				<l n="30">Et quia summa timet, tutius ima petit.</l>
+				<pb n="57"/>
+				<l>Pauperies, si leta uenit, tutissima res est.</l>
+				<l>Tristior immensas pauperat usus opes.</l>
+			</lg>
+		</div>
+		<pb n="60"/>
+		<div>
+			<head><lb/><hi rend="italic">XIII. De uulpe et aquila.</hi></head>
+			<lg>
+				<l>Dum uulpes aquilam pro rapta prole perungit</l>
+				<l>Melle precum, predam reddere nescit auis.</l>
+				<l>Preda gemit nidique timet cibus esse gulosi,</l>
+				<l>Sed redimit natos utilis arte parens.</l>
+				<l n="5">Arboreum zonat stipulis et uimine truncum,</l>
+				<l>In stipulam docto dirigit ore facem.</l>
+				<l>In pullos aquile coniurat copia fumi;</l>
+				<l>Hunc tamen et uulpem prouida placat auis.</l>
+				<l>Non sit qui studeat, quia maior, obesse minori,</l>
+				<l n="10">Cum bene maiori possit obesse minor.</l>
+			</lg>
+		</div>
+		<pb n="62"/>
+		<div>
+			<head><lb/><hi rend="italic">XIV. De aquila et testudine.</hi></head>
+			<lg>
+				<l>Pes aquile, predo testudinis, aera findit.</l>
+				<l>Hanc sua conca tegit, cornua longa latent.</l>
+				<l>Hoc monitu cornix aquilam premunit: «Ineptum</l>
+				<l>Fers honus, at fiet utile, crede mihi;</l>
+				<l n="5">Quod geris in conca, cibus est: tibi surripit illum</l>
+				<l>Conca cibum; concam frange cibusque cadet.</l>
+				<l>Vt concam lanies, pro uiribus utere sensu;</l>
+				<l>Hanc, si celsa cadat, saxea franget humus».</l>
+				<l>Decipientis homo subuersus turbine lingue</l>
+				<l n="10">Corruit; et fortes ista procella rapit.</l>
+			</lg>
+		</div>
+		<pb n="64"/>
+		<div>
+			<head><lb/><hi rend="italic">XV. De uulpe et coruo.</hi></head>
+			<lg>
+				<l>Vulpe gerente famem, coruum gerit arbor et escam</l>
+				<l>Ore gerens coruus, uulpe loquente, silet.</l>
+				<l>«Corue, decore decens, cignum candore perequas;</l>
+				<l>Si cantu placeas, plus aue quaque places».</l>
+				<l n="5">Credit auis picteque placent preludia lingue;</l>
+				<l>Dum canit ut placeat, caseus ore cadit.</l>
+				<l>Hoc fruitur uulpes, insurgunt tedia coruo;</l>
+				<l>Asperat in medio damna dolore pudor.</l>
+				<l>Fellitum patitur risum, quem mellit inanis</l>
+				<l n="10">Gloria; uera parit tedia falsus honor.</l>
+			</lg>
+		</div>
+		<pb n="66"/>
+		<div>
+			<head><lb/><hi rend="italic">XVI. De leone et apro et tauro et asello.</hi></head>
+			<lg>
+				<l>Irretit miserum grauitas annosa leonem,</l>
+				<l>Inglaciat corpus corque senile gelu.</l>
+				<l>Instat aper, pensat ueteri pro uulnere uulnus;</l>
+				<l>Frontis eum telo taurus utroque fodit;</l>
+				<l n="5">Seuit asellus iners et frontem calce sigillat.</l>
+				<l>Hec solo gemitu uindicat acta leo:</l>
+				<l>«Omnia que uici, me uincunt omnia. Dormit</l>
+				<l>Vis mea, dormit honor, dormit honoris opus.</l>
+				<l>Cui nocui, nocet ille mihi, multisque peperci,</l>
+				<l n="10">Qui mihi non parcunt, pro pietate nocent».</l>
+				<l>Hunc timeat casum qui se non fulcit amico,</l>
+				<l>Nec dare uult felix, quam miser optat, opem.</l>
+			</lg>
+		</div>
+		<pb n="69"/>
+		<div>
+			<head><lb/><hi rend="italic">XVII. De asino et catulo et domino.</hi></head>
+			<lg>
+				<l>Murmuris et caude studio testatur amorem,</l>
+				<l>Nunc lingua catulus, nunc pede palpat erum.</l>
+				<l>Gaudet erus comitque canem comitemque ciborum</l>
+				<l>Efficit; alludit turba ministra cani.</l>
+				<l n="5">Arte pari similesque cibos similemque fauorem</l>
+				<l>Lucrari cupiens inquit asellus iners:</l>
+				<l>«Me catulo prefert uite nitor, utile tergum,</l>
+				<l>Nec placeo fructu, sed placet ille ioco.</l>
+				<l>Ludam: lude places». Sic ludit tempore uiso,</l>
+				<l n="10">Vt ludo placeat, ludit et instat ero.</l>
+				<l>Blandiri putat ore tonans, umerisque priorum</l>
+				<l>Pressis mole pedum se putat esse pium.</l>
+				<l>Clamat erus, uult clamor opem; subit ordo clientum.</l>
+				<l>Multa domat multo uerbere claua reum.</l>
+				<l n="15">Quod natura negat, nemo feliciter audet:</l>
+				<l>Displicet inprudens unde placere putat.</l>
+			</lg>
+		</div>
+		<pb n="72"/>
+		<div>
+			<head><lb/><hi rend="italic">XVIII. De leone et mure.</hi></head>
+			<lg>
+				<l>Frigida sopito blanditur silua leoni,</l>
+				<l>Cursitat hic murum, ludere prompta, cohors.</l>
+				<l>Pressus mure, leo murem rapit; ille precatur,</l>
+				<l>Ille precem librat, supplicat ira preci.</l>
+				<l n="5">Hec tamen ante mouet animo: «Quid, mure perempto,</l>
+				<l>Laudis emes? Summos uincere parua pudet.</l>
+				<l>Si nece dignetur murem leo, nonne leoni</l>
+				<l>Dedecus et muri ceperit esse decus?</l>
+				<l>Si uincat minimum summus, sic uincere uinci est.</l>
+				<l n="10">Vincere posse decet, uincere crimen habet.</l>
+				<l>Sit tamen esse decus, sit laus sic uincere: laus hec</l>
+				<l>Et decus hoc minimo fiet ab hoste minus.</l>
+				<l>De pretio uicti pendet uictoria: uictor</l>
+				<l>Tantus erit, uicti gloria quanta fuit».</l>
+				<l n="15">Mus abit et grates reddit, si reddere possit</l>
+				<l>Spondet opem. Solus fit mora parua dies.</l>
+				<l>Nam leo rete subit nec prodest uiribus uti,</l>
+				<l>Sed prodest querulo murmure damna loqui.</l>
+				<l>Mus redit, hunc reperit, cernit loca, uincula rodit,</l>
+				<l n="20">Hac ope pensat opem: sic leo tutus abit.</l>
+				<l>Rem potuit tantam minimi prudentia dentis,</l>
+				<l>Cui leo dans ueniam se dedit ipse sibi.</l>
+				<l>Tu, qui summa potes, ne despice parua potentem:</l>
+				<l>Nam prodesse potest, si quis obesse nequit.</l>
+			</lg>
+		</div>
+		<pb n="75"/>
+		<div>
+			<head><lb/><hi rend="italic">XIX. De miluo egrotante.</hi></head>
+			<lg>
+				<l>Morbi mole iacet miluus matremque precatur</l>
+				<l>Vt superis pro se det sacra detque preces.</l>
+				<l>Mater ait: «Mi nate, deos et sacra deorum</l>
+				<l>Lesisti; recolunt inpia facta dei.</l>
+				<l n="5">Criminis ultores pensant pro crimine penam.</l>
+				<l>Cum sacra turbares, pena timenda fuit.</l>
+				<l>Te cogit timor esse pium, te pena fidelem;</l>
+				<l>Hic timor, hec pietas cum nece sera uenit».</l>
+				<l>Qui maculat uitam, mundas cur incolit aras?</l>
+				<l n="10">Quem sua facta premunt, cur aliena leuant?</l>
+			</lg>
+		</div>
+		<pb n="77"/>
+		<div>
+			<head><lb/><hi rend="italic">XX. De hirundine aues monente.</hi></head>
+			<lg>
+				<l>Vt linum pariat de lini semine, semen</l>
+				<l>Nutrit humus, sed aues tangit hirundo metu:</l>
+				<l>«Hic ager, hoc semen nobis mala uincla minatur;</l>
+				<l>Vellite pro nostris semina sparsa malis».</l>
+				<l n="5">Turba fugit sanos monitus uanosque timores</l>
+				<l>Arguit; exit humo semen et herba uiret.</l>
+				<l>Rursus hirundo monet instare pericula; rident</l>
+				<l>Rursus aues. Hominem placat hirundo sibi</l>
+				<l>Cumque uiris habitans cantu blanditur amico:</l>
+				<l n="10">Nam preuisa minus ledere tela solent.</l>
+				<l>Iam metitur linum, iam fiunt retia, iam uir</l>
+				<l>Fallit aues, iam se conscia culpat auis.</l>
+				<l>Vtile consilium qui spernit, inutile sumit;</l>
+				<l>Qui nimis est tutus, retia iure subit.</l>
+			</lg>
+		</div>
+		<pb n="80"/>
+		<div>
+			<head><lb/><hi rend="italic">XXI. De Attica terra et rege.</hi></head>
+			<lg>
+				<l>Fabula, nata sequi mores et pingere uitam,</l>
+				<l>Tangit quod fugias quodue sequaris iter.</l>
+				<l>Rege carens nec regis inops, sine lege nec exlex,</l>
+				<l>Absque iugo gessit Attica terra iugum.</l>
+				<l n="5">Libertas, errare negans, se sponte coegit</l>
+				<l>Et pudor ob legem fortior ense fuit.</l>
+				<l>Ne libitum faceret, regem plebs libera fecit</l>
+				<l>Et que non potuit pellere iussa tulit.</l>
+				<l>Rex cepit lenire truces, punire nocentes,</l>
+				<l n="10">Queque leuanda leuans, queque premenda</l>
+				<l>premens.</l>
+				<l>Hos onerat nouitas: ciues in lege nouelli,</l>
+				<l>Quod leuiter possent, uix potuere pati.</l>
+				<l>Vrbem triste iugum querula ceruice ferentem</l>
+				<l n="15">Esopus tetigit, consona uerba mouens.</l>
+			</lg>
+		</div>
+		<pb n="82"/>
+		<div>
+			<head><lb/><hi rend="italic">XXI.2 De ranis a Ioue querentibus regem.</hi></head>
+			<lg>
+				<l>Cum nihil auderet ludentes ledere ranas,</l>
+				<l>Supplicuere Ioui ne sine rege forent.</l>
+				<l>Iupiter huic uoto risum dedit. Ausa secundas</l>
+				<l>Rana preces, subitum sensit in amne sonum.</l>
+				<l n="5">Nam Ioue dante trabem, trabis ictu flumine moto,</l>
+				<l>Demersit subitus guttura rauca timor.</l>
+				<l>Placato rediere metu, uidere tigillum,</l>
+				<l>Stando procul regem pertimuere suum.</l>
+				<l>Vt nouere trabem per se non posse moueri,</l>
+				<l n="10">Pro duce fecerunt tertia uota Ioui.</l>
+				<l>Ira Iouem mouit, regem dedit, intulit hidrum.</l>
+				<l>Hidrus hiante gula cepit obire lacum.</l>
+				<l>Clamitat ecce lacus: «Morimur, pie Iupiter; audi,</l>
+				<l>Iupiter, exaudi! Iupiter, affer opem!</l>
+				<l n="15">Nos sepelit uenter, nostri sumus esca tyranni;</l>
+				<l>Aufer cedis opus, redde quietis opes».</l>
+				<l>Ille refert: «Emptum longa prece ferte magistrum.</l>
+				<l>Vindicet eternus otia spreta metus».</l>
+				<l>Omne boni pretium nimio uilescit in usu,</l>
+				<l n="20">Fitque, mali gustu, dulcius omne bonum.</l>
+				<l>Si quis habet quod habere decet, sit letus habendo:</l>
+				<l>Alterius non sit qui suus esse potest.</l>
+			</lg>
+		</div>
+		<pb n="86"/>
+		<div>
+			<head><lb/><hi rend="italic">XXII. De accipitre et columbis.</hi></head>
+			<lg>
+				<l>Accipitrem milui pulsurum bella columbe</l>
+				<l>Accipiunt regem; rex magis hoste nocet.</l>
+				<l>Incipiunt de rege queri, quod sanius esset</l>
+				<l>Milui bella pati quam sine Marte mori.</l>
+				<l n="5">Si quid agis, prudenter agas et respice finem.</l>
+				<l>Ferre minora uolo, ne grauiora feram.</l>
+			</lg>
+		</div>
+		<pb n="88"/>
+		<div>
+			<head><lb/><hi rend="italic">XXIII. De fure et cane.</hi></head>
+			<lg>
+				<l>Fure uocante canem pretenso munere panis,</l>
+				<l>Spreto pane, mouet talia uerba canis:</l>
+				<l>«Vt sileam tua dona uolunt furtisque laborant</l>
+				<l>Esse locum; panem si fero, cuncta feres.</l>
+				<l n="5">Fert munus mea damna tuum, latet hamus in esca:</l>
+				<l>Me priuare cibo cogitat iste cibus.</l>
+				<l>Non amo nocturnum panem plus pane diurno,</l>
+				<l>Aduena plus noto non placet hostis hero.</l>
+				<l>Non rapiet nox una mihi bona mille dierum:</l>
+				<l n="10">Nolo semper egens esse semelque satur.</l>
+				<l>Latratu tua furta loquar, nisi sponte recedas».</l>
+				<l>Hic silet, ille manet; hic tonat, ille fugit.</l>
+				<l>Si tibi quid detur, cur detur respice; si des,</l>
+				<l>Cui des, ipse nota; teque, gulose, doma.</l>
+			</lg>
+		</div>
+		<pb n="90"/>
+		<div>
+			<head><lb/><hi rend="italic">XXIV. De lupo et sue.</hi></head>
+			<lg>
+				<l>Vult lupus ut pariat maturum sucula fetum,</l>
+				<l>Seque noui curam spondet habere gregis.</l>
+				<l>Sus ait: «Hac cura careas, mihi nolo ministres.</l>
+				<l>Horrent obsequium uiscera nostra tuum.</l>
+				<l n="5">I procul, ut tutos liceat mihi fundere fetus.</l>
+				<l>I procul, et pietas hec erit apta mihi.</l>
+				<l>Pro natis natura iubet timuisse parentem».</l>
+				<l>Fine dato uerbis hic abit, illa parit.</l>
+				<l>Tempore non omni non omnibus omnia credas:</l>
+				<l n="10">Qui misere credit, creditur esse miser.</l>
+			</lg>
+		</div>
+		<pb n="93"/>
+		<div>
+			<head><lb/><hi rend="italic">XXV. De terra parturiente murem.</hi></head>
+			<lg>
+				<l>Terra tumet; tumor ille gemit gemituque fatetur</l>
+				<l>Partum: pene perit sexus uterque metu.</l>
+				<l>Cum tumeat tellus, monstrat se monstra daturam;</l>
+				<l>Dicunt et trepidant et prope stare cauent.</l>
+				<l n="5">In risum timor ille redit: nam turgida murem</l>
+				<l>Terra parit; iocus est quod timor ante fuit.</l>
+				<l>Sepe minus faciunt homines qui magna minantur.</l>
+				<l>Sepe gerit nimios causa pusilla metus.</l>
+			</lg>
+		</div>
+		<pb n="95"/>
+		<div>
+			<head><lb/><hi rend="italic">XXVI. De agno et lupo.</hi></head>
+			<lg>
+				<l>Cum grege barbato dum ludit iunior agnus,</l>
+				<l>Tendit in hunc menti dissona uerba lupus:</l>
+				<l>«Cur olidam munda sequeris plus matre capellam?</l>
+				<l>Lac tibi preberet dulcius ipsa parens;</l>
+				<l n="5">Est prope, festina, matrem pete, munera matris</l>
+				<l>Lac bibe: nam seruat ubera plena tibi».</l>
+				<l>Agnus ad hec: «Pia capra mihi lac dulce propinat,</l>
+				<l>Me uice matris alit, me uice matris amat.</l>
+				<l>Non mihi, sed domino prodest me uiuere: uiuo</l>
+				<l n="10">Vt metat in tergo uellera multa meo.</l>
+				<l>Ergo mihi prestat nutriri lacte caprino</l>
+				<l>Quam, lac matris habens, mergar in ore tuo».</l>
+				<l>Omnes uincit opes securam ducere uitam.</l>
+				<l>Pauperius nihil est quam miser usus opum.</l>
+				<l n="15">Nil melius sano monitu, nil peius iniquo:</l>
+				<l>Consilium sequitur certa ruina malum.</l>
+			</lg>
+		</div>
+		<pb n="97"/>
+		<div>
+			<head><lb/><hi rend="italic">XXVII. De cane uetulo.</hi></head>
+			<lg>
+				<l>Armauit natura canem pede, dente, iuuenta:</l>
+				<l>Hinc leuis, hinc mordax, fortis et inde fuit.</l>
+				<l>Tot bona furatur senium: nam robore priuat</l>
+				<l>Corpus, dente genas, et leuitate pedes.</l>
+				<l n="5">Hic leporem prendit, fauces lepus exit inermes.</l>
+				<l>Elumbem domini uerberat ira canem.</l>
+				<l>Reddit uerba canis: «Dum me pia pertulit etas,</l>
+				<l>Nulla meum potuit fallere preda pedem.</l>
+				<l>Defendit senii culpam laus ampla iuuente;</l>
+				<l n="10">Pro sene qui cecidit, facta priora uigent.</l>
+				<l>Nullus amor durat nisi fructus seruet amorem:</l>
+				<l>Quilibet est tanti munera quanta facit.</l>
+				<l>Magnus eram, dum magna dedi: nunc marcidus annis</l>
+				<l>Vileo, de ueteri mentio nulla bono.</l>
+				<l n="15">Si laudas quod eram, quod sum culpare proteruum est.</l>
+				<l>Si iuuenem recipis, pellere turpe senem est».</l>
+				<l>Se misere seruire sciat, qui seruit iniquo.</l>
+				<l>Parcere subiectis nescit iniquus homo.</l>
+			</lg>
+		</div>
+		<pb n="100"/>
+		<div>
+			<head><lb/><hi rend="italic">XXVIII. De leporibus et ranis.</hi></head>
+			<lg>
+				<l>Silua sonat, fugiunt lepores; palus obuiat, herent.</l>
+				<l>Fit mora: respiciunt ante retroque, timent.</l>
+				<l>Dum librant in mente metus, se mergere pacti,</l>
+				<l>Se metui et ranas stagna subire uident.</l>
+				<l n="5">Vnus ait: «Sperare licet; non sola timoris</l>
+				<l>Turba sumus: uano rana timore latet.</l>
+				<l>Spem decet amplecti, spes est uia prima salutis.</l>
+				<l>Sepe facit metui non metuenda metus.</l>
+				<l>Corporis est leuitas et mentis inertia nobis:</l>
+				<l n="10">Ista fuge causam suggerit, illa fugam».</l>
+				<l>Sic timeat quicumque timet ne mole timoris</l>
+				<l>Spe careat: grauis est spe fugiente timor.</l>
+				<l>Speret qui metuit: morituros uiuere uidi</l>
+				<l>Spe duce, uicturos spe moriente mori.</l>
+			</lg>
+		</div>
+		<pb n="102"/>
+		<div>
+			<head><lb/><hi rend="italic">XXIX. De lupo et edo.</hi></head>
+			<lg>
+				<l>Capra, cibum querens, edum commendat ouili;</l>
+				<l>Hunc illi solida seruat ouile sera.</l>
+				<l>Natum cauta parens monitu premunit amico,</l>
+				<l>Vt lateat, nec sit in sua damna uagus.</l>
+				<l n="5">Hic latet; ecce lupus mouet ostia, uoce capellam</l>
+				<l>Exprimit, ut pateant hostia clausa petit.</l>
+				<l>«Sta procul», edus ait, «caprizas gutture falso;</l>
+				<l>Cum bene caprizes, te procul esse uolo.</l>
+				<l>Quod mea sis mater, mentitur imago loquendi.</l>
+				<l n="10">Rimula, qua uideo, te docet esse lupum».</l>
+				<l>Insita natorum cordi doctrina parentum</l>
+				<l>Cum pariat fructum, spreta nocere solet.</l>
+			</lg>
+		</div>
+		<pb n="104"/>
+		<div>
+			<head><lb/><hi rend="italic">XXX. De rustico et angue.</hi></head>
+			<lg>
+				<l>Rustica mensa diu nutritum nouerat anguem;</l>
+				<l>Humanam potuit anguis amare manum.</l>
+				<l>Gratia longa uiri subitam mutatur in iram;</l>
+				<l>Ira per anguineum dirigit arma caput.</l>
+				<l n="5">Vulneris auctor eget, se uulnere credit egenum,</l>
+				<l>Angui pro uenia supplicat; anguis ait:</l>
+				<l>«Non ero securus, dum sit tibi tanta securis,</l>
+				<l>Dum cutis hec memoret uulnera scripta sibi:</l>
+				<l>Qui me lesit, item ledet, si ledere possit.</l>
+				<l n="10">Expedit infido non iterare fidem.</l>
+				<l>Sed, si te piguit sceleris, scelus omne remitto:</l>
+				<l>Nam gemitus ueniam uulnere cordis emit».</l>
+				<l>Qui primo nocuit, uult posse nocere secundo;</l>
+				<l>Que dedit infidus mella, uenena puto.</l>
+			</lg>
+		</div>
+		<pb n="106"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXI. De ceruo et oue et lupo.</hi></head>
+			<lg>
+				<l>Ceruus oui, presente lupo, sic intonat: «Amplum</l>
+				<l>Vas tritici debes reddere, redde mihi».</l>
+				<l>Sic iubet esse lupus, paret timor ista iubenti:</l>
+				<l>Namque die fixo debita spondet ouis.</l>
+				<l n="5">Fit mora; ceruus ouem uexat de federe. Ceruo</l>
+				<l>Inquit ouis: «Non stant federa facta metu.</l>
+				<l>Me decuit, presente lupo, quecumque fateri;</l>
+				<l>Me decuit fraudem pellere fraude pari».</l>
+				<l>Cum timor in promptu sedeat, promissa timoris</l>
+				<l n="10">Arent: nil fidei uerba timentis habent.</l>
+			</lg>
+		</div>
+		<pb n="109"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXII. De caluo et musca.</hi></head>
+			<lg>
+				<l>Musca premit caluum; muscam uult cedere caluus.</l>
+				<l>Vt muscam feriat, se ferit; illa redit.</l>
+				<l>Caluus ait: «Te Parca iubet uicina iocari.</l>
+				<l>Si ferior rides, si feriare cades;</l>
+				<l n="5">Sospes ero decies ictus, semel icta peribis.</l>
+				<l>Est mea prompta mihi gratia, surda tibi».</l>
+				<l>Iure potest ledi ludens ut ledat: in illum,</l>
+				<l>Vnde breuis cepit lesio, magna redit.</l>
+			</lg>
+		</div>
+		<pb n="111"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXIII. De uulpe et ciconia.</hi></head>
+			<lg>
+				<l>Vulpe uocante, uenit speratque ciconia cenam;</l>
+				<l>Fallit auem liquidus, uulpe iocante, cibus.</l>
+				<l>Cum bibat ista cibos, solum bibit illa dolorem:</l>
+				<l>Hic dolor in uulpem fabricat arma doli.</l>
+				<l n="5">Sunt pauci mora pauca dies; auis inquit: «Habemus</l>
+				<l>Fercula que sapiunt: dulcis amica, ueni».</l>
+				<l>Hec uenit; hec uase uitreo bona fercula condit,</l>
+				<l>At solam recipit formula uasis auem.</l>
+				<l>Laudat opes oculo uasis nitor; has negat ori</l>
+				<l n="10">Formula: sic geminat uisus odorque famem.</l>
+				<l>Sic uulpes ieiuna redit, sic fallitur audens</l>
+				<l>Fallere, sic telo leditur ipsa suo.</l>
+				<l>Quod tibi non faceres alii fecisse caueto,</l>
+				<l>Vulnera ne facias que potes ipse pati.</l>
+			</lg>
+		</div>
+		<pb n="114"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXIV. De lupo et capite.</hi></head>
+			<lg>
+				<l>Dum legit arua lupus, reperit caput arte superbum;</l>
+				<l>Hoc beat humanis ars pretiosa genis.</l>
+				<l>Hoc lupus alterno uoluit pede, uerba resoluit:</l>
+				<l>«O sine uoce genas, o sine mente caput!».</l>
+				<l n="5">Fuscat et extinguit cordis caligo nitorem</l>
+				<l>Corporis: est animi solus in orbe nitor.</l>
+			</lg>
+		</div>
+		<pb n="115"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXV. De graculo et pauone.</hi></head>
+			<lg>
+				<l>Graculus, inuento picti pauonis amictu,</l>
+				<l>Se polit et socias ferre superbit aues.</l>
+				<l>Quem fore pauonem pauonis penna fatetur,</l>
+				<l>Pauonum generi non timet ire comes.</l>
+				<l n="5">Pauo dolum sentit, falsi pauonis honorem</l>
+				<l>Increpat et domitam uerbere nudat auem.</l>
+				<l>Nuda latet sociosque fugit minuique pudorem</l>
+				<l>Sic putat; hanc duro corripit ore comes:</l>
+				<l>«Ascensor nimius nimium ruit, aptus in imis</l>
+				<l n="10">Est locus: hec leuis est, illa ruina grauis.</l>
+				<l>Qui plus posse putat sua quam natura ministrat,</l>
+				<l>Posse suum superans, se minus esse potest.</l>
+				<l>Si tibi nota satis nature meta fuisset,</l>
+				<l>Non uilis nec inops nec sine ueste fores».</l>
+				<l n="15">Cui sua non sapiunt, alieni sedulus auceps</l>
+				<l>Quod non est rapiens, desinit esse quod est.</l>
+			</lg>
+		</div>
+		<pb n="117"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXVI. De mula et musca.</hi></head>
+			<lg>
+				<l>Mula rapit cursum: nam mulam mulio cogit.</l>
+				<l>Mule musca nocet uulnere siue minis:</l>
+				<l>«Cur pede sopito cursum tempusque moraris?</l>
+				<l>Te premo, te pungo: pessima, curre leuis».</l>
+				<l n="5">Mula refert: «Quia magna tonas uis magna uideri.</l>
+				<l>Nec tua facta nocent, nec tua uerba mihi,</l>
+				<l>Nec te sustineo, sed eum, quem sustinet axis,</l>
+				<l>Qui mea frena tenet, qui mea terga ferit».</l>
+				<l>Audet in audacem timidus fortique minatur</l>
+				<l n="10">Debilis, audendi dum uidet esse locum.</l>
+			</lg>
+		</div>
+		<pb n="119"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXVII. De musca et formica.</hi></head>
+			<lg>
+				<l>Musca mouens lites formicam uoce fatigat,</l>
+				<l>Se titulis ornat turpiter ipsa suis:</l>
+				<l>«Torpes mersa cauis, leuitas mihi queritur alis;</l>
+				<l>Dat tibi fossa domum, nobilis aula mihi.</l>
+				<l n="5">Delicie sunt grana tue, me regia nutrit</l>
+				<l>Mensa; bibis fecem, sed bibo lene merum.</l>
+				<l>Quod bibis a limo sugis; mihi suggerit aurum</l>
+				<l>Quod bibo. Saxa premis, regia serta premo.</l>
+				<l>Sede, cibis, potu, thalamis cum regibus utor,</l>
+				<l n="10">Regine teneris oscula figo genis».</l>
+				<l>Non minus urentes mittit formica sagittas</l>
+				<l>Et sua non modicum spicula fellis habent:</l>
+				<l>«Ludo mersa cauis: nescit tua penna quietem.</l>
+				<l>Sunt mihi pauca satis: sunt tibi multa parum.</l>
+				<l n="15">Me letam uidet esse cauus: te regia tristem.</l>
+				<l>Plus mihi grana placent quam tibi regis opes.</l>
+				<l>Venatur mihi farra labor: tibi fercula furtum.</l>
+				<l>Hec mihi pax mellit: toxicat illa timor.</l>
+				<l>Mundo farre fruor: tu fedas omnia tactu.</l>
+				<l n="20">Cum nulli noceam, cuilibet una noces.</l>
+				<l>Est mea parcendi speculum: tua uita uorandi.</l>
+				<l>Sunt mea que carpo: non nisi rapta uoras.</l>
+				<l>Vt comedas uiuis: comedo ne uiuere cessem.</l>
+				<l>Me nihil infestat: te fugat omnis homo.</l>
+				<l n="25">Vnde petis uitam, rapitur tibi uita; palato</l>
+				<l>Dulcia uina bibens, fel necis acre bibis.</l>
+				<l>Si negat ala tibi uentoso uicta flabello,</l>
+				<l>Aut nece uinciris, aut semiuiua iaces.</l>
+				<l>Si potes estiui dono durare fauoris,</l>
+				<l n="30">Cetera si parcant, non tibi parcit hiems».</l>
+			</lg>
+		</div>
+		<pb n="123"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXVIII. De lupo et uulpe.</hi></head>
+			<lg>
+				<l>Respondere lupo de furti labe tenetur</l>
+				<l>Vulpes; causa uocat: hic petit, ille negat.</l>
+				<l>Simius est iudex; docti non errat acumen</l>
+				<l>Iudicis: archanum mentis in ore legit.</l>
+				<l n="5">Iudicium figit: «Poscis quod poscere fraus est</l>
+				<l>Visque fidem de re quam negat ipsa fides.</l>
+				<l>Tu bene furta negas: te uite purior usus</l>
+				<l>Liberat. Hanc litem pax domet». Ira cadit.</l>
+				<l>Simplicitas ueri, fraus estque puerpera falsi:</l>
+				<l n="10">Esse solent uite consona uerba sue.</l>
+				<l>Sordibus inbuti nequeunt dimittere sordes.</l>
+				<l>Fallere qui didicit, fallere semper amat.</l>
+			</lg>
+		</div>
+		<pb n="125"/>
+		<div>
+			<head><lb/><hi rend="italic">XXXIX. De rustico et mustela.</hi></head>
+			<lg>
+				<l>Preda uiri, predo murum mustela precatur:</l>
+				<l>«Da ueniam, debes parcere, parce mihi.</l>
+				<l>Quod caret hoste domus, quod abest a sorde, fatetur</l>
+				<l>Esse meum, pro me te rogat, ergo faue.</l>
+				<l n="5">Seruitio me redde tuo, mihi redde laboris</l>
+				<l>Premia, pro dono sit mea uita mihi».</l>
+				<l>Ille refert: «Operum debetur gratia menti,</l>
+				<l>Non operi: gratum mens bona reddit opus.</l>
+				<l>Nemo, licet prosit, nisi uult prodesse, meretur:</l>
+				<l n="10">Nam prodesse potest hostis obesse putans.</l>
+				<l>Cum mihi prodesses, mihi non prodesse uolebas:</l>
+				<l>Hostibus ipsa meis et meus hostis eras;</l>
+				<l>Non mihi, monstra necans, sed eras tibi prouida soli;</l>
+				<l>Sic panem poteras rodere sola meum.</l>
+				<l n="15">Pane meo pinguis, mihi da pinguedinis usum:</l>
+				<l>Damnis penso necem; digna perire peri».</l>
+				<l>Nil honorat factum nisi facti sola uoluntas:</l>
+				<l>Non operis fructum, sed noto mentis opus.</l>
+			</lg>
+		</div>
+		<pb n="128"/>
+		<div>
+			<head><lb/><hi rend="italic">XL. De rana et boue.</hi></head>
+			<lg>
+				<l>Equari uult rana boui: tumet ergo. Tumenti</l>
+				<l>Natus ait: «Cessa; pre boue tota nihil».</l>
+				<l>Rana dolet meliusque tumet; premit ille tumentem:</l>
+				<l>«Vincere non poteris, uicta crepare potes».</l>
+				<l n="5">Tertius iratam uexat tumor; illa tumoris</l>
+				<l>Copia findit eam: uiscera rupta patent.</l>
+				<l>Cum maiore minor conferri desinat et se</l>
+				<l>Consulat et uires temperet ipse suas.</l>
+			</lg>
+		</div>
+		<pb n="130"/>
+		<div>
+			<head><lb/><hi rend="italic">XLI. De pastore et leone.</hi></head>
+			<lg>
+				<l>Sollicitus prede currit leo; spina leonem</l>
+				<l>Vulnerat; offendit, in pede mersa, pedem.</l>
+				<l>Fit mora de cursu: leuitas improuida lapsum</l>
+				<l>Sepe facit; leso stat pede turba pedum.</l>
+				<l n="5">Vix egrum sinit ire dolor saniemque fatetur;</l>
+				<l>Maior idem loquitur uulneris ipse dolor.</l>
+				<l>Cum ledit miseros, fortuna medetur eisdem:</l>
+				<l>Hoc est cur medicum plaga leonis habet.</l>
+				<l>Nam leo pastorem reperit, pastorque leoni</l>
+				<l n="10">Pro dape tendit oues. Respuit ille dapes;</l>
+				<l>Supplicat et plagam tenso pede monstrat et illi</l>
+				<l>Orat opem; pastor uulnera soluit acu.</l>
+				<l>Exit cum sanie dolor et res causa doloris;</l>
+				<l>Hic blando medicam circuit ore manum,</l>
+				<l n="15">Sospes abit meritique notas in corde sigillat.</l>
+				<l>Tempore deleri gratia firma nequi.</l>
+				<l>Hic leo uincla subit. Romane gloria prede</l>
+				<l>Hunc habet et multas miscet arena feras.</l>
+				<l>Ecce necis penam pastori culpa propinat:</l>
+				<l n="20">Clauditur in mediis et datur esca feris.</l>
+				<l>Hunc leo presentit, petit hunc. Timet ille; timenti</l>
+				<l>Hec fera blanditur; sperat, abitque timor.</l>
+				<l>Nil feritatis habens, ludit fera, cauda resultat.</l>
+				<l>Dum fera mansuescit se negat esse feram.</l>
+				<l n="25">Hunc tenet, hunc lingit pensatque salute salutem:</l>
+				<l>Nulla sinit fieri uulnera, nulla facit.</l>
+				<l>Roma stupet parcitque uiro parcitque leoni.</l>
+				<l>Hic redit in siluas et redit ille domum.</l>
+				<l>Non debet meritum turpis delere uetustas:</l>
+				<l n="30">Accepti memores nos decet esse boni.</l>
+			</lg>
+		</div>
+		<pb n="133"/>
+		<div>
+			<head><lb/><hi rend="italic">XLII. De leone et equo.</hi></head>
+			<lg>
+				<l>Tondet equus pratum, petit hunc leo. Causa leonem</l>
+				<l>Hec mouet, ut fiat esca leonis equus.</l>
+				<l>Inquit equo: «Mi frater, aue, fruor arte medendi,</l>
+				<l>Et comes et medicus sum tibi». Paret equus:</l>
+				<l n="5">Sentit enim fraudes et fraudi fraude resistit.</l>
+				<l>Mente prius texens retia fraudis, ait:</l>
+				<l>«Quesitus placitusque uenis, te temporis offert</l>
+				<l>Gratia, te rogitat pes mihi sente grauis».</l>
+				<l>Hic fauet, instat equo; subiecto uertice calcem</l>
+				<l n="10">Inprimit et sopit membra leonis equus.</l>
+				<l>Vix fugit ille sopor, uix audet uita reuerti,</l>
+				<l>Vix leo, colla mouens, respicit. Hostis abest.</l>
+				<l>Se leo sic damnat: «Patior pro crimine penam:</l>
+				<l>Nam gessi speciem pacis et hostis eram».</l>
+				<l n="15">Quod non es, non esse uelis; quod es, esse fatere:</l>
+				<l>Est male quod non est, qui negat esse quod est.</l>
+			</lg>
+		</div>
+		<pb n="136"/>
+		<div>
+			<head><lb/><hi rend="italic">XLIII. De equo et asino.</hi></head>
+			<lg>
+				<l>Gaudet equus faleris, freno sellaque superbit;</l>
+				<l>Ista quidem uestit aureus arma nitor.</l>
+				<l>Obstat asellus equo; uicus premit artus asellum,</l>
+				<l>Vexat onus, tardat natus eundo labor.</l>
+				<l n="5">Quod sibi claudit iter, sonipes inclamat asello:</l>
+				<l>«Occurris domino, uilis aselle, tuo.</l>
+				<l>Vix tibi do ueniam de tanti crimine fastus;</l>
+				<l>Cui uia danda fuit libera, dignus eram».</l>
+				<l>Supplicat ille minis nutatque timore silendo</l>
+				<l n="10">Tutior et surda preterit aure minas.</l>
+				<l>Summus equi declinat honor: dum uincere certat,</l>
+				<l>Vincitur et cursum uiscera rupta negant.</l>
+				<l>Priuatur faleris, freno priuatur honesto;</l>
+				<l>Hunc premit assiduo reda cruenta iugo,</l>
+				<l n="15">Huic tergum macies acuit, labor ulcerat armos.</l>
+				<l>Hunc uidet inque iocos audet asellus iners:</l>
+				<l>«Dic, sodes, ubi sella nitens, ubi nobile frenum?</l>
+				<l>Cur est hec macies, cur fugit ille nitor?</l>
+				<l>Cur manet hic gemitus, cur illa superbia fugit?</l>
+				<l n="20">Vindicat elatos iusta ruina gradus:</l>
+				<l>Stare diu nec uis nec honor nec forma nec etas</l>
+				<l>Sufficit; in mundo plus tamen ista placent.</l>
+				<l>Viue diu, sed uiue miser, sociosque minores</l>
+				<l>Disce pati; risum det tua uita mihi».</l>
+				<l n="25">Pennatis ne crede bonis; te nulla potestas</l>
+				<l>In miseros armet: nam miser esse potes.</l>
+			</lg>
+		</div>
+		<pb n="139"/>
+		<div>
+			<head><lb/><hi rend="italic">XLIV. De quadrupedibus et auibus.</hi></head>
+			<lg>
+				<l>Quadrupedes pugnant auibus, uictoria nutat;</l>
+				<l>Spes onerata metu uexat utrumque gregem.</l>
+				<l>Linquit aues que sumit auis de uespere nomen,</l>
+				<l>Nec timet oppositi castra iuuare chori.</l>
+				<l n="5">Armat aues aquile uirtus, et uiribus implet</l>
+				<l>Et monitu; torpet altera turba metu.</l>
+				<l>Amplexatur aues ulnis uictoria letis;</l>
+				<l>Pro titulo penam transfuga sumit auis:</l>
+				<l>Vellere nuda suo, pro plumis uellera uestit</l>
+				<l n="10">Edictumque subit ne nisi nocte uolet.</l>
+				<l>Non bonus est ciuis qui prefert ciuibus hostem:</l>
+				<l>Vtiliter seruit nemo duobus eris.</l>
+			</lg>
+		</div>
+		<pb n="141"/>
+		<div>
+			<head><lb/><hi rend="italic">XLV. De filomena et accipitre.</hi></head>
+			<lg>
+				<l>Dum filomena sedet, studium mouet oris amenum,</l>
+				<l>Sic sibi, sic nido uisa placere suo.</l>
+				<l>Impetit accipiter nidum: pro pignore mater</l>
+				<l>Supplicat; alter ait: «Plus prece carmen amo.</l>
+				<l n="5">Nec prece nec pretio, sed ameno flectere cantu</l>
+				<l>Me potes». Ille silet, dulcius illa canit.</l>
+				<l>Mente gemit, licet ore canat, mens eius acescit,</l>
+				<l>Cuius mellifluum manat ab ore melos.</l>
+				<l>Impia fatur auis: «Sordet modus iste canoris».</l>
+				<l n="10">Et laniat natum, matre uidente, suum.</l>
+				<l>Mater obit, nec obire potest: sic uiuit, ut ipsam</l>
+				<l>Vincat uita necem, plus nece cladis habens.</l>
+				<l>Cor matris patitur plus nati corpore: corpus</l>
+				<l>Rodit auis rostro, cor fodit ense dolor.</l>
+				<l n="15">Vestigat sua pena scelus: nam, fraudibus uso</l>
+				<l>Aucupe, fraudosam uiscus inescat auem.</l>
+				<l>Fine malo claudi mala uita meretur: iniquus,</l>
+				<l>Qua capit insontes, se dolet arte capi.</l>
+			</lg>
+		</div>
+		<pb n="143"/>
+		<div>
+			<head><lb/><hi rend="italic">XLVI. De lupo et uulpe.</hi></head>
+			<lg>
+				<l>Ditat preda lupum; ducit lupus otia longo</l>
+				<l>Fausta cibo. Vulpes inuidet, ista mouet:</l>
+				<l>«Frater, aue. Miror cur tanto tempore mecum</l>
+				<l>Non fueris; nequeo non memor esse tui».</l>
+				<l n="5">Ille refert: «Pro me uigilet tua cura, precari</l>
+				<l>Numina non cesses, ne mea uita ruat.</l>
+				<l>Fraude tamen munita uenis falsoque uenenum</l>
+				<l>Melle tegis. Dolor est copia nostra tibi.</l>
+				<l>Extorquere paras aliquid furtumque minaris,</l>
+				<l n="10">Sed mea furtiuam respuit esca gulam».</l>
+				<l>Spreta redit; spretam stimulat dolor; apta dolori</l>
+				<l>Fraus subit: ad pecorum transuolat illa ducem.</l>
+				<l>Hunc monet his uerbis: «Tua gratia muneris instar</l>
+				<l>Sit mihi, namque lupum dat mea cura tibi.</l>
+				<l n="15">Hostem perde tuum: tuto iacet hostis in antro».</l>
+				<l>Vir fauet: antra petit, hic necat ense lupum.</l>
+				<l>Ista lupi consumit opes, sed floret ad horam</l>
+				<l>Vita nocens. Vulpes, casse retenta, gemit:</l>
+				<l>«Cur nocui? nocet ecce mihi nocuisse nociuo.</l>
+				<l n="20">Iure cado, cuius concidit arte lupus».</l>
+				<l>Viuere de rapto uitam rapit: inuidus, instans</l>
+				<l>Alterius damnis, in sua damna redit.</l>
+			</lg>
+		</div>
+		<pb n="146"/>
+		<div>
+			<head><lb/><hi rend="italic">XLVII. De ceruo, tibiis, et cornibus.</hi></head>
+			<lg>
+				<l>Fons nitet, argento similis. Sitis arida ceruum</l>
+				<l>Huc rapit; haurit aquas, se speculatur aquis.</l>
+				<l>Hunc beat; hunc mulcet ramose gloria frontis;</l>
+				<l>Hunc premit, hunc ledit tibia macra pedum.</l>
+				<l n="5">Ecce canes, tonat ira canum; timet ille, timenti</l>
+				<l>Fit fuga: culpati cruris adorat opem.</l>
+				<l>Silue claustra subit, cornu retinente moratur:</l>
+				<l>Crure neci raptum cornua longa necant.</l>
+				<l>Spernere quod prosit et amare quod obsit ineptum est.</l>
+				<l n="10">Prodest quod fugimus et quod amamus obest.</l>
+			</lg>
+		</div>
+		<pb n="148"/>
+		<div>
+			<head><lb/><hi rend="italic">XLVIII. De uiro et uxore.</hi></head>
+			<lg>
+				<l>Dum uir et uxor amant, uxorem priuat amato</l>
+				<l>Parca uiro, nec eam priuat amore uiri.</l>
+				<l>Coniugis amplectens tumulum, pro coniuge uexat</l>
+				<l>Vngue genas, oculos fletibus, ora sono.</l>
+				<l n="5">Hanc iuuat ipse dolor, nequit hac de sede reuelli</l>
+				<l>Grandine seu tenebris seu prece siue minis.</l>
+				<l>Ecce reum damnat iudex: crux horrida punit,</l>
+				<l>In cruce custodit tempore noctis eques.</l>
+				<l>Hic sitit; ad tumultum uocat hunc et clamor et ignis:</l>
+				<l n="10">Orat aque munus; hec dat et ille bibit.</l>
+				<l>Egrum nectareis audet cor inungere uerbis;</l>
+				<l>Hunc uocat ad primum cura timoris opus.</l>
+				<l>Sed redit et dulces monitus intexit amaro</l>
+				<l>Cordi: uicta subit castra doloris amor.</l>
+				<l n="15">Vir, metuens furi furem, suspendia furis</l>
+				<l>Visit, sed uiduam, tactus amore, petit.</l>
+				<l>Hanc ligat amplexu fructumque ligurit amoris.</l>
+				<l>Hinc redit ad furem, sed loca fure carent.</l>
+				<l>Hic dolet, hoc questu dolor hic instigat amicam:</l>
+				<l n="20">«Non bene seruato fure, timore premor.</l>
+				<l>Rex mihi seruandum dederat: me regius ensis</l>
+				<l>Terret et extorrem me iubet esse timor».</l>
+				<l>Hec ait: «Inueni, que spem tibi suscitet, artem.</l>
+				<l>Vir meus implebit in cruce furis onus».</l>
+				<l n="25">Ipsa uiri bustum reserat, pro fure catenat</l>
+				<l>Ipsa uirum, restem subligat ipsa uiro.</l>
+				<l>Huic merito succumbit eques; succumbit amori</l>
+				<l>Illa nouo, ligat hos firmus amore torus.</l>
+				<l>Sola premit uiuosque metu penaque sepultos</l>
+				<l n="30">Femina: femineum nil bene finit opus.</l>
+			</lg>
+		</div>
+		<pb n="151"/>
+		<div>
+			<head><lb/><hi rend="italic">XLIX. De iuuene et Thaide.</hi></head>
+			<lg>
+				<l>Arte sua Thais iuuenes irretit: amorem</l>
+				<l>Fingit et ex ficto fructus amore uenit.</l>
+				<l>A multis fert multa procis; ex omnibus unum</l>
+				<l>Eligit, huic ueri spondet amoris opes.</l>
+				<l n="5">«Sum tua sisque meus cupio; plus omnibus unum</l>
+				<l>Te uolo, sed nolo munus habere tuum».</l>
+				<l>Percipit ille dolos et reddit qualia sumpsit:</l>
+				<l>«Sis mea simque tuus. Nos decet equus amor;</l>
+				<l>Viuere non uellem nisi mecum uiuere uelles:</l>
+				<l n="10">Tu mihi sola salus, tu mihi sola quies;</l>
+				<l>Sed falli timeo, quia me tua lingua fefellit.</l>
+				<l>Preteriti ratio scire futura facit.</l>
+				<l>Vitat auis taxum quam, gustu teste, probauit.</l>
+				<l>Fallere uult hodie, si qua fefellit heri».</l>
+				<l n="15">Thaida si quis amat, sua, non se, credat amari:</l>
+				<l>Thais amore caret, munus amantis amat.</l>
+			</lg>
+		</div>
+		<pb n="153"/>
+		<div>
+			<head><lb/><hi rend="italic">L. De patre et filio.</hi></head>
+			<lg>
+				<l>Est pater, huic natus; hic patri cedere nescit:</l>
+				<l>Nam fugienda facit et facienda fugit.</l>
+				<l>Mens uaga discurrit et menti consonat etas:</l>
+				<l>Mentis et etatis turbine frena fugit.</l>
+				<l n="5">Ira senis punit pro nati crimine seruos.</l>
+				<l>Instruit ista senem fabula nota seni.</l>
+				<l>Cauta bouem uitulumque manus supponit aratro:</l>
+				<l>Hic subit, ille iugum pellit. Arator ait:</l>
+				<l>«Gaude, letus ara, tu quem domat usus arandi.</l>
+				<l n="10">A boue maiori discat arare minor.</l>
+				<l>Non placet ut sudes, sed des exempla minori,</l>
+				<l>Qui pede, qui cornu, pugnat abire iugo».</l>
+				<l>Sic domat indomitum domito boue cautus arator,</l>
+				<l>Sic ueterem sequitur iunior ille bouem.</l>
+				<l n="15">Proficit exempli merito cautela docendi,</l>
+				<l>Maiorique sua credat in arte minor.</l>
+			</lg>
+		</div>
+		<pb n="155"/>
+		<div>
+			<head><lb/><hi rend="italic">LI. De uipera et lima.</hi></head>
+			<lg>
+				<l>Vipera fabrilem, dapis anxia, tendit in edem;</l>
+				<l>Incipit hec limam rodere, lima loqui:</l>
+				<l>«Nescis posse meum, que sit mea gloria nescis:</l>
+				<l>Dente meo pateris, non ego dente tuo.</l>
+				<l n="5">In tenuem ferrum forti molo dente farinam,</l>
+				<l>Et cadit attritu dura farina meo.</l>
+				<l>Ferrea mordaci castigo tubera morsu,</l>
+				<l>Aspera plano, seco longa, foranda foro.</l>
+				<l>Deliras, igitur, cum dente minaris inermi.</l>
+				<l n="10">Rideo, quod ferior; uulnera ferre gemis».</l>
+				<l>Fortem fortis amet: nam fortem fortior angit.</l>
+				<l>Maiori timeat obuius ire minor.</l>
+			</lg>
+		</div>
+		<pb n="157"/>
+		<div>
+			<head><lb/><hi rend="italic">LII. De lupis et ouibus.</hi></head>
+			<lg>
+				<l>Pugna lupis opponit oues, ouiumque satelles</l>
+				<l>Est canis, est ueruex: hac ope fidit ouis.</l>
+				<l>Palma diu dormit, desperat turba luporum</l>
+				<l>Et, simulans fedus, federe temptat ouem.</l>
+				<l n="5">Fedus utrumque fides iurato numine fulcit,</l>
+				<l>Id lupus, id simplex obside firmat ouis,</l>
+				<l>Datque lupis, male sana, canes, recipitque luporum</l>
+				<l>Pignora; nec metuit nec sua damna uidet.</l>
+				<l>Cum natura iubet natos ululare lupinos,</l>
+				<l n="10">Turba lupina furit, federa rupta querens.</l>
+				<l>Ergo pecus, tutoris egens, in uiscera mergit:</l>
+				<l>Preside nuda suo sic tumulatur ouis.</l>
+				<l>Tutorem retinere suum tutissima res est:</l>
+				<l>Nam si tutor abest, hostis obesse potest.</l>
+			</lg>
+		</div>
+		<pb n="160"/>
+		<div>
+			<head><lb/><hi rend="italic">LIII. De uiro et securi.</hi></head>
+			<lg>
+				<l>Quo teneatur eget nil ausa secare securis.</l>
+				<l>Armet eam lucus, uir rogat; ille fauet.</l>
+				<l>Vir nemus impugnat lassans in cede securim:</l>
+				<l>Arboris omne genus una ruina trahit.</l>
+				<l n="5">Lucus ait: «Pereo. Mihimet sum causa pericli,</l>
+				<l>Me necat ex dono rustica dextra meo».</l>
+				<l>Vnde perire queas, hostem munire caueto:</l>
+				<l>Qui dat quo pereat, quem iuuat hoste perit.</l>
+			</lg>
+		</div>
+		<pb n="162"/>
+		<div>
+			<head><lb/><hi rend="italic">LIV. De cane et lupo.</hi></head>
+			<lg>
+				<l>Cum cane silua lupum sociat. Lupus inquit: «Amena</l>
+				<l>Pelle nites, in te copia sancta patet».</l>
+				<l>Pro uerbis dat uerba canis: «Me ditat erilis</l>
+				<l>Gratia, cum domino me cibat ipsa domus.</l>
+				<l n="5">Nocte uigil fures latratum nuntio, tutam</l>
+				<l>Seruo domum; mihi dat culmus in ede torum».</l>
+				<l>Hec mouet ore lupus: «Cupio me uiuere tecum:</l>
+				<l>Communem capiant otia nostra cibum».</l>
+				<l>Reddit uerba canis: «Cupio te uiuere mecum;</l>
+				<l n="10">Vna dabit nobis mensa manusque cibum».</l>
+				<l>Ille fauet sequiturque canem gutturque caninum</l>
+				<l>Respicit et querit: «Cur cecidere pili?»;</l>
+				<l>Inquit: «Ne ualeam morsu peccare diurno,</l>
+				<l>Vincla diurna fero, nocte iubente uagor».</l>
+				<l n="15">Reddit uerba lupus: «Non est mihi copia tanti</l>
+				<l>Vt fieri seruus uentris amore uelim.</l>
+				<l>Ditior est liber mendicus diuite seruo:</l>
+				<l>Seruus habet nec se nec sua, liber habet;</l>
+				<l>Libertas, predulce bonum, bona cetera condit:</l>
+				<l n="20">Qua nisi conditur, nil sapit esca mihi.</l>
+				<l>Libertas animi cibus est et uera uoluptas,</l>
+				<l>Qua qui diues erit, ditior esse nequit.</l>
+				<l>Nolo uelle meum pro turpi uendere lucro;</l>
+				<l>Has qui uendit opes, hic agit ut sit inops».</l>
+				<l n="25">Non bene pro toto libertas uenditur auro:</l>
+				<l>Hoc celeste bonum preterit orbis opes.</l>
+			</lg>
+		</div>
+		<pb n="165"/>
+		<div>
+			<head><lb/><hi rend="italic">LV. De uentre et membris.</hi></head>
+			<lg>
+				<l>Incusant auidi pes et manus otia uentris:</l>
+				<l>«Omnia solus habes lucra, labore cares.</l>
+				<l>Nos labor edomuit, te fouit inertia: sorbes</l>
+				<l>Omnia, que nostri cura laboris emit.</l>
+				<l n="5">Disce pati famis acre iugum uel disce labori</l>
+				<l>Cedere, teque tui cura laboris alat».</l>
+				<l>Sic uentri seruire negant; se uenter inanem</l>
+				<l>Comperit, orat opem: nil dat auara manus.</l>
+				<l>Ille preces iterat: iterum fugit illa precantem.</l>
+				<l n="10">In stomachi fundo torpet obitque calor;</l>
+				<l>Victa fame natura fugit, uis arida fauces</l>
+				<l>Obserat ut solitum non sinat ire cibum.</l>
+				<l>Vult epulas dare sera manus, sed corporis egri</l>
+				<l>Perdita non reparans machina tota perit.</l>
+				<l n="15">Nemo sibi satis est: eget omnis amicus amico.</l>
+				<l>Si non uis alii parcere, parce tibi.</l>
+			</lg>
+		</div>
+		<pb n="167"/>
+		<div>
+			<head><lb/><hi rend="italic">LVI. De simia et uulpe.</hi></head>
+			<lg>
+				<l>Simia de turpi queritur nate; porrigit aures</l>
+				<l>Vulpes: non recipit mente, sed aure preces.</l>
+				<l>Simia sic fatur: «Natis ut mihi dedecus ornem</l>
+				<l>Sufficeret caude pars mihi parua tue.</l>
+				<l n="5">Quid prodest nimia campos insculpere cauda?</l>
+				<l>Quod mihi prodesset, est tibi pondus iners».</l>
+				<l>Illa refert: «Nimio damnas de pondere caudam:</l>
+				<l>Est breuis estque leuis; hec duo damna queror.</l>
+				<l>Malo uerrat humum quam sit tibi causa decoris,</l>
+				<l n="10">Quam tegat immundas res bene munda nates».</l>
+				<l>Id nimium minimoque minus ditaret egenum,</l>
+				<l>Quod nimium minimo credis, auare, minus.</l>
+			</lg>
+		</div>
+		<pb n="169"/>
+		<div>
+			<head><lb/><hi rend="italic">LVII. De institore et asino.</hi></head>
+			<lg>
+				<l>Dum fora festinus lucro petit, instat asello</l>
+				<l>Institor et pressum pondere fuste premit.</l>
+				<l>Ille necem sperat, nece promittente quietem,</l>
+				<l>Sed nece completa, uiuere pena potest:</l>
+				<l n="5">Nam cribella facit et tympana pellis aselli,</l>
+				<l>Hec lassatur et hec pulsa tonante manu.</l>
+				<l>Cui sua uita nocet, caueat sibi rumpere uitam.</l>
+				<l>Non nece, sed meriti iure quiescit homo.</l>
+			</lg>
+		</div>
+		<pb n="171"/>
+		<div>
+			<head><lb/><hi rend="italic">LVIII. De ceruo.</hi></head>
+			<lg>
+				<l>Motus uoce canum ceruus fugit, auia silue</l>
+				<l>Deserit, arua tenet, claustra bouina subit.</l>
+				<l>Bos ait: «Aut luci tenebras aut equora campi</l>
+				<l>Tutius intrares, hinc piger, inde leuis.</l>
+				<l n="5">Huc ueniet custosque boum stabulique magister:</l>
+				<l>Si duo uel tantum te uidet alter, obis».</l>
+				<l>Ceruus ait: «Mihi uestra necem clementia demat:</l>
+				<l>Condite me latebris, dum iuuet umbra fugam».</l>
+				<l>Hunc tumulat fenum. Presepe reuisit arator:</l>
+				<l n="10">Frondibus et feno munit alitque boues.</l>
+				<l>Hic redit ac ceruus uitasse pericula gaudet,</l>
+				<l>Bobus agit grates. E quibus unus ait:</l>
+				<l>«Est leue uitare cecum. Si uenerit Argus,</l>
+				<l>Argum si poteris fallere, uictor eris.</l>
+				<l n="15">Centum fert oculos; cui se debere fatentur</l>
+				<l>Et domus et serui totaque iura loci.</l>
+				<l>Res tua te reperit Argum, res altera cecum.</l>
+				<l>Qui tibi dormitat scit uigilare sibi».</l>
+				<l>Hic silet. Argus init stabulum bobusque ministrat;</l>
+				<l n="20">Plus equo tenues uiderat esse boues.</l>
+				<l>Dum munit presepe cibo, dum fulgurat ira,</l>
+				<l>Ausa uidere diem cornua longa uidet.</l>
+				<l>«Quid latet hic? quid» ait «uideo?». Sentitque</l>
+				<l>latentem</l>
+				<l n="25">Et bona fortune munera letus habet.</l>
+				<l>Exulis est non esse suum, uigilare potentis,</l>
+				<l>Stertere seruorum, uelle iuuare pii.</l>
+			</lg>
+		</div>
+		<pb n="174"/>
+		<div>
+			<head><lb/><hi rend="italic">LIX. De iudeo et pincerna.</hi></head>
+			<lg>
+				<l>Fert iudeus opes, sed onus fert pectore maius:</l>
+				<l>Intus adurit eum cura laborque foris.</l>
+				<l>Ergo, metu damni, sibi munere regis amorem</l>
+				<l>Firmat, ut accepto preduce tutus eat.</l>
+				<l n="5">Regius hunc pincerna regit, cor cuius adurit</l>
+				<l>Auri dira sitis, qui parat ense nefas.</l>
+				<l>Silua patet, subeunt. Iudeus in ore sequentis</l>
+				<l>Cor notat: «Ipse sequar», inquit; at ille negat</l>
+				<l>Et gladium nudans: «Nemo sciet», inquit «obito».</l>
+				<l n="10">Ille refert: «Scelus hoc ista loquetur auis».</l>
+				<l>Prosilit a dumo perdix: hanc indice signat.</l>
+				<l>Alter ait: «Scelus hoc ista loquetur auis?»,</l>
+				<l>Et rapit ense caput et opes metit et scrobe funus</l>
+				<l>Celat. Agit celeres annus in orbe rotas.</l>
+				<l n="15">Perdices domini cene pincerna ministrat,</l>
+				<l>Ridet et a risu uix uacat ille suo.</l>
+				<l>Rex audire sitit; hic differt dicere causam.</l>
+				<l>Fit locus, ambo sedent: hic petit, ille refert.</l>
+				<l>Rex dolet et leto mentitur gaudia uultu.</l>
+				<l n="20">Regis concilium consiliumque sedet:</l>
+				<l>Pincernam crucis esse reum sententia prodit:</l>
+				<l>Crux punit meritum iure fauente cruci.</l>
+				<l>Vt perimas quemquam nullum tibi suadeat aurum:</l>
+				<l>Nam decus et uitam mesta ruina rapit.</l>
+			</lg>
+		</div>
+		<pb n="178"/>
+		<div>
+			<head><lb/><hi rend="italic">LX. De ciue et equite.</hi></head>
+			<lg>
+				<l>Ciuis, eques sub rege uigent: hic prelia regis,</l>
+				<l>Hic dispensat opes; hic uir et ille senex.</l>
+				<l>Inuidie, perflata genis, innata doloris</l>
+				<l>Flammis, fax iuuenem torret honore senis.</l>
+				<l n="5">Regis in aure truces figit de ciue susurros:</l>
+				<l>«Est tibi non pastor, sed lupus ille senex.</l>
+				<l>Ditant furta senem, creuit sua copia furtis,</l>
+				<l>Est sua de censu gaza recisa tuo.</l>
+				<l>Firmabo mea uerba manu, sua furta fateri</l>
+				<l n="10">Hunc faciam: bello iudice, uerus ero».</l>
+				<l>Cum moueant obiecta senem, plus debilis etas</l>
+				<l>Hunc mouet ac senii crimine uisus hebes.</l>
+				<l>Parcunt iura seni si pro sene pugnet amicus,</l>
+				<l>Cui nullius odor fenoris arma probat.</l>
+				<l n="15">Mendicat pugilem, sed abest qui pugnet amicus:</l>
+				<l>Nam refugit, uiso turbine, falsus amor;</l>
+				<l>Dum fortuna tonat, fugitiuos terret amicos,</l>
+				<l>Et quis amet, quis non, sola procella docet.</l>
+				<l>Cena trahit ciuem, differt nox una duellum;</l>
+				<l n="20">Sollicitat mentem iusta querela senis:</l>
+				<l>«Quos meritis emi, multos mihi fecit amicos</l>
+				<l>Longa dies, cunctos abstulit hora breuis.</l>
+				<l>De tot amicorum populo non restitit unus,</l>
+				<l>Quamque dedi multis, nemo repensat opem.</l>
+				<l n="25">Rebar pace frui: mea paci congruit etas,</l>
+				<l>Sed mea turbauit gaudia liuor edax.</l>
+				<l>Hosti multa meo palmam pepigere: tepesco,</l>
+				<l>Ille calet; careo uiribus, ille uiget;</l>
+				<l>Arma parum noui, se totum prebuit armis.</l>
+				<l n="30">Est mihi uisus hebes, uisus acutus ei.</l>
+				<l>Nil mihi prebet opem nisi iuste gratia cause;</l>
+				<pb n="179"/>
+				<l>De fragili queritur preside causa potens.</l>
+				<l>Corporis eclipsim timet alti copia cordis:</l>
+				<l>Nam fragili peccat mens animosa manu.</l>
+				<l n="35">Si turpes nitide mendax infamia uite</l>
+				<l>Infigit maculas, quid nituisse iuuat?».</l>
+				<l>Desperat lugetque senex; hunc lenit arator</l>
+				<l>Qui senis arua nouat, annua lucra ferens:</l>
+				<l>«Me stimulat pietas pro te perferre duellum,</l>
+				<l n="40">Est mihi pro domino dextra parata meo».</l>
+				<l>Ecce dies oritur, locus est tempusque duello:</l>
+				<l>Stant pugiles, inhiant mente manuque sibi.</l>
+				<l>Est equiti fedum, quod stet, quod pugnet, arator,</l>
+				<l>Seque putat uictum ni cito uincat eum.</l>
+				<l n="45">Nil de se retinet uirtus oblita futuri:</l>
+				<l>Dextera corporeas prodiga fundit opes;</l>
+				<l>Ictus ipse suos steriles expendit in usus</l>
+				<l>Et feriens hostem se magis ipse ferit.</l>
+				<l>Sed proprie uirtutis opes abscondit arator</l>
+				<l n="50">Dum locus expense detur et hora sue:</l>
+				<l>Aut motu fallit aut armis temperat ictus</l>
+				<l>Predicitque minas frontis utrumque iubar;</l>
+				<l>Dormitans uigilat et cessans cogitat ictus,</l>
+				<l>Et metuens audet dextra notatque locum.</l>
+				<l n="55">Hec mora non artis ratio, sed culpa timoris</l>
+				<l>Creditur; arte fruens, esse uidetur iners.</l>
+				<l>Gaudet eques uicisse putans, spernitque bubulcum</l>
+				<l>Sudoremque suum tergit ab ore suo.</l>
+				<l>Ecce moram nescit, equitem speculata morantem</l>
+				<l n="60">In cubiti nodum rustica claua ferit.</l>
+				<l>Huius plaga loci totius corporis aufert</l>
+				<l>Robur: cedit eques seque cadente sedet.</l>
+				<l>O noua simplicitas! Sedet ipse uocatque sedentem</l>
+				<l>Et, nisi surgat eques, surgere uelle negat.</l>
+				<pb n="180"/>
+				<l n="65">«Surge», bubulcus ait. Cui miles: «Surgere nolo».</l>
+				<l>Alter ait: «Sedeas, meque sedere licet».</l>
+				<l>Turba stupet. Prefectus adest equitique moranti</l>
+				<l>Imperat aut surgat aut superatus eat.</l>
+				<l>Heret eques. Prefectus ait: «Te uicit arator».</l>
+				<l n="70">Pugna cadit. Regi panditur ordo rei.</l>
+				<l>Rex ait: «Incisum noda, prefecte, duellum;</l>
+				<l>Dedecus explanet ille uel ille suum».</l>
+				<l>Pugna redit milesque sedet uelut ante sedebat.</l>
+				<l>«Surge», bubulcus ait: «Non uolo», reddit eques.</l>
+				<l n="75">Cultor ait: «Dum stare negas ego stare negabo.</l>
+				<l>Surgere si temptas, surgere promptus ero».</l>
+				<l>Ambo sedent, ridet populus, presesque bubulco</l>
+				<l>Intonat: «Aut pugnes aut fuge. Tempus abit».</l>
+				<l>Cultor ait: «Surgat! Caderet, si surgere uellet».</l>
+				<l n="80">«Percute», preses ait: «percute, surget eques.</l>
+				<l>Te decet aut illum uicti sibi ponere nomen».</l>
+				<l>«Hoc mihi non ponam nomen», arator ait.</l>
+				<l>«Surgo, surge, miser! Nam turpe ferire sedentem</l>
+				<l>Est mihi, sicque tibi turpe sedendo mori».</l>
+				<l n="85">Sic ait et timidum mulcet; rogat ille furentem:</l>
+				<l>«Parce precor; uincor, supplico, uictor abi».</l>
+				<l>Leta nouat fortuna senem; senis unicus heres</l>
+				<l>Scribitur et dignas intrat arator opes.</l>
+				<l>Ius superat uires, sors aspera monstrat amicum.</l>
+				<l n="90">Plus confert odio gratia, fraude fides.</l>
+				<l>Fine fruor uersu gemino; quod cogitat omnis</l>
+				<l>Fabula declarat datque quod intus habet.</l>
+			</lg>
+		</div>
+		<pb n="185"/>
+		<div>
+			<head><lb/><hi rend="italic">LXI. De capone et accipitre.</hi></head>
+			<lg>
+				<l>Querere diffugium, domino ueniente, caponem</l>
+				<l>Audax accipiter dum uidet, inquit ei:</l>
+				<l>«Quid fugis? Exsulta dominum cum cernis adesse,</l>
+				<l>Cuius in aduentu plaudere nitor ego».</l>
+				<l n="5">«Me», capo respondit: «fratrum diuersa meorum</l>
+				<l>Terret pena; tibi non timor ullus adest.</l>
+				<l>Nil magis horrendum quam flebilis aula tiranni,</l>
+				<l>Qua pietas omnis cum ratione perit.</l>
+				<l>Raptores famulique truces scelerumque ministri</l>
+				<l n="10">Iniustis dominis impietate placent.</l>
+				<l>Qui sine ui, sine fraude manent, hi fraude necantur:</l>
+				<l>Nullo damnantur crimine sepe boni.</l>
+				<l>Sic fratres periere mei. Te reddit amicum</l>
+				<l>Impietas domino nequitieque uigor.</l>
+				<l n="15">Hi proprias lauere stolas in sanguine; passos</l>
+				<l>Martirium, sepelit uenter auarus eos.</l>
+				<l>Illius ergo timens adspectum credo latere</l>
+				<l>Tutius, ut morti me rapuisse queam».</l>
+				<l>Non amat insontes, sed sontes, aula tiranni:</l>
+				<l n="20">Complacet iniusto raptor iniquus ero.</l>
+			</lg>
+		</div>
+		<pb n="187"/>
+		<div>
+			<head><lb/><hi rend="italic">LXII. De pastore et lupo.</hi></head>
+			<lg>
+				<l>Cum pastore lupus sociabile fedus iniuit;</l>
+				<l>Interius totus dissociatus ei.</l>
+				<l>Ergo, dolum sub melle tegens, lupus inquit: «Amice,</l>
+				<l>Sum pauidus crebra garrulitate canis.</l>
+				<l n="5">Ille suo nostrum latratu scindet amorem,</l>
+				<l>Ille bonum pacis dissociare cupit.</l>
+				<l>Si me securum, se me uis reddere tutum,</l>
+				<l>Obses tutele sit datus ille mihi».</l>
+				<l>Exhibito uigili, lupus intrat tutus ouile,</l>
+				<l n="10">Dilanians miseras opilionis oues.</l>
+				<l>Pacis amatorem simulat se perfidus hostis,</l>
+				<l>Cautius ut uulnus exitiale ferat.</l>
+				<l>Cuius semper eges rem nulli tradere debes;</l>
+				<l>Blanditie plus quam dira uenena nocent.</l>
+			</lg>
+		</div>
+		<pb n="189"/>
+		<div>
+			<head><lb/><hi rend="italic">LXIII. De mercatore et eius uxore.</hi></head>
+			<lg>
+				<l>Absenti figit dum cornua sponsa marito,</l>
+				<l>De mecho puerum mecha proterva parit.</l>
+				<l>En vir, ecce puer: stupet hic sine semine natum.</l>
+				<l>De nive conceptus fingitur esse puer.</l>
+				<l n="5">Mutua fraus; sponsus, dum suffert dedecus istud,</l>
+				<l>In sponsam cauti fabricat arma doli:</l>
+				<l>«Lux mea, deducam puerum; mercator et heres</l>
+				<l>Noster erit». Ficta gaudia vultus habet.</l>
+				<l>Hic abit, illa manet: hic vendit adultera conjux</l>
+				<l n="10">Quem peperit subito de nive facta parens.</l>
+				<l>Rebus ab augendis idem post multa reversus,</l>
+				<l>Ridiculum sponse narrat in aure sue:</l>
+				<l>«Dum fuit in prora, violenta potentia solis</l>
+				<l>Deprendit puerum; sic liquefecit eum.</l>
+				<l n="15">[Hec lacrimosa manet; laniat sine fine capillos.</l>
+				<l>Cui suadere volens, vir suus inquit ei:]</l>
+				<l>Parce tuo capiti, lacrimas compesce: liquescit</l>
+				<l>De nive conceptum quicquid ubique patet».</l>
+				<l>Hoc quia premittit rationis calculus omnis,</l>
+				<l n="20">Fallere fallentem suspicor esse pium.</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

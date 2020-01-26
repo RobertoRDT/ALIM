@@ -1,0 +1,686 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber de gestis in civitate Mediolani (commentum)</title>
+				<author>Stephanardus de Vicomercato</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Giuseppe Calligaris</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4084" unit="words">Parole: 4084</measure>
+				<measure quantity="23453" unit="characters_without_spaces">Caratteri (spazi esclusi): 23453</measure>
+				<measure quantity="27078" unit="characters_witht_spaces">Caratteri (spazi inclusi): 27078</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2012-07-17">17/07/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 4864
+					Caratteri: 32160
+				SM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Fratris Stephanardi de Vicomercato Liber de gestis in civitate Mediolani</title>
+						<editor>Giuseppe Calligaris</editor>
+						<imprint>
+							<pubPlace>Città di Castello</pubPlace>
+							<date>1910-1912</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Rerum Italicarum Scriptores, s. II</title>
+						<biblScope unit="volume">9, 1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-commentaria al testo precedente 430). Ho marcato le singole note di commento solo con &lt;p&gt;.</item><item type="itemNotaJC">-c'erano tag strani &lt;hi rend="italic"/&gt; (elementi vuoti). Li ho tolti.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="7"/>
+		<div>
+			<head><lb/>[LIBER PRIMUS]</head>
+			<p><lb/>1. Metropolis, <hi rend="italic">id est civitatis Mediolani unde ponitur substantive; aliunde, in hoc opere,</hi>
+			<lb/><hi rend="italic">ponitur adiective</hi>.</p>
+			<p><lb/>4. Rupes, <hi rend="italic">ibi erat fons super quam stabant poete.</hi></p>
+			<p><lb/>5. Herroycis <hi rend="italic">(sic) id est metris exametris que sunt de gestis nobilium.</hi></p>
+			<p><lb/>5. Cedant elegi, <hi rend="italic">id est metra exametra et pentametra, que sunt de miseria que actor</hi>
+				<lb/>huius operis fecit in alio libello; hoc ergo dicit quia actor huius operis intermittit loqui de
+			<lb/>miseria et de gestis nobilium hic loquitur.</p>
+			<p><lb/>7. Meonio, <hi rend="italic">id est homerico scilicet metro exametro.</hi></p>
+			<pb n="8"/>
+			<p><lb/>10. Pierius, <hi rend="italic">id est musaticus. Pierus fuit pater ix picarum, secundum fabulas, quas divicerunt</hi>
+			<lb/><hi rend="italic">ix muse, unde ex hoc muse predicte pierides quasi filie Pieri. Inde pierius id est musaticus</hi>.</p>
+			<p><lb/>11. Ardor, <hi rend="italic">id est desiderium.</hi></p>
+			<p><lb/>14. Urbs, <hi rend="italic">scilicet Mediolanum</hi>.</p>
+			<p><lb/>16. Lanea, <hi rend="italic">sicut dicit Ysidorus, in loco in quo Mediolanum erat construendum apparuit sus</hi>
+			<lb/><hi rend="italic">mediolanea, ex quo prodigio quod apparuit, civitas est dicta Mediolanum</hi>.</p>
+			<p><lb/>19. Ipso etc., <hi rend="italic">vel dicitur Mediolanum quasi in medio amnium, scilicet Ticini et Abdue sita.</hi></p>
+			<p><lb/>20. Quin etiam esca., <hi rend="italic">hec civitas habundat scatebris id est fontibus scaturientibus, ex quibus</hi>
+			<lb/><hi rend="italic">prata multa fiunt.</hi></p>
+			<pb n="9"/>
+			<p><lb/>23. Hanc tenuit, <hi rend="italic">secundum Ysidorum, Galli propter discidium habitum inter se, quidam expulsi</hi>
+			<lb/>venerunt Mediolanum et, expulsis Tuscis quos ibi invenerunt, habitaverunt ibidem.</p>
+			<p><lb/>25. Haud, <hi rend="italic">id est non.</hi></p>
+			<p><lb/>26. Sevi, <hi rend="italic">inter alias italicos ligures sunt crudeles</hi>.</p>
+			<p><lb/>30. Urbibus, <hi rend="italic">id est ex Mediolanensibus multi solent eligi in potestates</hi>.</p>
+			<pb n="10"/>
+			<p><lb/>40. Iusticium, <hi rend="italic">id est defectus iusticie</hi>.</p>
+			<pb n="11"/>
+			<p><lb/>43. Fundamenta, <hi rend="italic">scilicet civitatis Mediolani.</hi></p>
+			<p><lb/>48. Ardor, <hi rend="italic">id est desiderium honoris quod est eis lugubris, quia causa luctus</hi>.</p>
+			<p><lb/>53. Astrea, <hi rend="italic">id est iusticia</hi>.</p>
+			<p><lb/>64. Dantur, <hi rend="italic">nam capita partium fuerunt extra civitatem missa sed qui erat pretor seu dominus</hi>
+			<lb/><hi rend="italic">populi rediit ad civitatem non observato mandato comunitatis et cepit urbem</hi>.</p>
+			<p><lb/>65. Pretor <hi rend="italic">id est martinus</hi>.</p>
+			<pb n="12"/>
+			<p><lb/>68. Dominus <hi rend="italic">id est ycelinus de Romano</hi>.</p>
+			<p><lb/>69. ipsius <hi rend="italic">id est uerone</hi>.</p>
+			<pb n="13"/>
+			<p><lb/>71. Ligurum, <hi rend="italic">id est civium mediolanensium, qui vires resumpserunt quando intellexerunt succursum</hi>
+			<lb/><hi rend="italic">Cremonensium</hi>.</p>
+			<p><lb/>80. Ut miles vidit, <hi rend="italic">scilicet proscriptus de Mediolano fugam Veronensium, relictis propriis</hi>
+			<lb/><hi rend="italic">laribus, fugit ultra Abduam</hi>.</p>
+			<pb n="14"/>
+			<p><lb/>90. Desevire, <hi rend="italic">id est postquam fortuna cepit aliquos affligere non desistit usque ad consumatam</hi>
+			<lb/><hi rend="italic">afflictionem.</hi></p>
+			<pb n="15"/>
+			<p><lb/>107. Erinis, <hi rend="italic">est nomen furie et sonat quasi ad discordiam nata.</hi></p>
+			<p><lb/>108. Megera, <hi rend="italic">interpretatur magna quirentia, cuius ars et officium est mentem tollere et ad</hi>
+			<lb/><hi rend="italic">contentionem concitare</hi>.</p>
+			<p><lb/>111. Tisiphone, <hi rend="italic">interpretatur ultio mortis, cuius officium est post contentiones concitare ad effusionem</hi>
+			<lb/>sanguinis.</p>
+			<lb/>
+			<pb n="16"/>
+			<p><lb/>114. Alecto, <hi rend="italic">interpretatur luctifica, nam post contentionem et sanguinis effusionem sequitur</hi>
+				<lb/>dolor et luctus. Hec omnia fuerunt in civitate Mediolanensi.
+				<lb/>Alecto, <hi rend="italic">he tres dicuntur furie infernales, quarum operatione omnia mala dicuntur contingere,</hi>
+			<lb/><hi rend="italic">scilicet Megera et Tisiphone et Alecto</hi>.</p>
+			<p><lb/>123. Capaneus, <hi rend="italic">fuit quidam qui notus factus est quia fulgure fuit percussus</hi>.</p>
+			<p><lb/>126. Patruelis inventus, <hi rend="italic">et ponitur hic patruelis adiective</hi>.</p>
+			<p><lb/>127.<hi rend="italic">scilicet carnales</hi>.</p>
+			<p><lb/>130. Cedit, <hi rend="italic">id est percutit.</hi></p>
+			<lb/>
+			<pb n="18"/>
+			<p><lb/>147.<hi rend="italic">Flamines dicebantur pontifices gentilium, unde descendit flamineus, a, um</hi>.</p>
+			<pb n="20"/>
+			<p><lb/>158. Sinedre <hi rend="italic">dicuntur selle curiales.</hi></p>
+			<p><lb/>160. Huicque fidem, <hi rend="italic">dna Maria soror Clementis IIIIti habuit revelationem quam longo tempore</hi>
+				<lb/>celavit, sed cum ipsa esset iuxta mortem, vocavit fratrem suum nomine Widonem, qui
+				<lb/>postea fuit papa dictus Clemens, et manifestavit ei suam revellationem, que dixit sibi esse
+				<lb/>revelatum quod ipse erat ascensurus ad gradum magne dignitatis, unde recommendavit ipsa
+				<lb/>ordinem fratrum Predicatorum, quorum habitus est ex albo et nigro colore, et ideo bicolor
+				<lb/>dicitur ille ordo; et ponit causam recommendationis, scilicet quia fructum facit bonum, alios
+				<lb/>instruendo. Item dicit se vidisse in fratres ipsos de celo ignem descendere. Item quod in
+				<lb/>hora completorii beata Virgo ei apparuit et dixit ei: filia, noli recedere a pedibus meis. Et
+				<lb/>
+				<pb n="21"/>
+				<lb/><hi rend="italic">cum fratres Predicatores cantarent antifonam, scilicet “Salve Regina” beata Virgo circumivit
+				<lb/>utrumque corum fratrum et salutabat quemlibet fratrem, et post hoc ivit ante altare iuxta acolitos,
+			<lb/>qui portabant cereos accensos et inde statim disparuit.</hi></p>
+			<pb n="22"/>
+			<p><lb/>174. Bicolor, <hi rend="italic">quia ordo fratrum Predicatorum habet habitum ex nigro et albo colore.</hi></p>
+			<p><lb/>176. Celestia, <hi rend="italic">hoc cum (sic) primum quod vidit predicta domina.</hi></p>
+			<p><lb/>185. Phebus, <hi rend="italic">hoc est sccundum quod vidit.</hi></p>
+			<p><lb/><hi rend="italic">186</hi>. ASILUM <hi rend="italic">id est subsidium</hi>.</p>
+			<pb n="23"/>
+			<p><lb/>199. Visio, <hi rend="italic">dicit quod predicta visio apparuit ei tribus diebus continuis et eadem hora, et fuit</hi>
+				<lb/>visio ignis descendentis super fratres Predicatores in pentecoste in hora tercia in monte Pesulano,
+				<lb/>capitulo generali existente ibidem, et eadem die et in duobus diebus sequentibus in hora
+			<lb/>completorii manifestatio beate Virginis ut dictum est supra.</p>
+			<p><lb/>208. Claviger, etc., <hi rend="italic">dicit quod Clemens ad papatum assumptus secundum revelationem sue sororis</hi>
+			<lb/>zelat pro iusticia nec potest non defendere ius.</p>
+			<lb/>
+			<pb n="24"/>
+			<p><lb/>220. Sinedre, <hi rend="italic">scilicet selle curiales et ponuntur his pro sede papali.</hi></p>
+			<p><lb/>224.<hi rend="italic">Id est cardinales</hi>.</p>
+			<pb n="25"/>
+			<p><lb/>227. Verendi, <hi rend="italic">pro rev[er]endi</hi>.</p>
+			<p><lb/>230. Sidera, <hi rend="italic">ponitur hic similitudo talis. Sicut stelle illuminate a sole materiali prestant vitam</hi>
+				<lb/>rebus inferioribus, sic probitas vel perfectio dni Pape cardinalibus partecipata, prebet fomentum
+			<lb/>et regimen orbi.</p>
+			<lb/>
+			<pb n="26"/>
+			<p><lb/>233. Urbi, <hi rend="italic">id est Mediolano</hi>.</p>
+			<p><lb/>238. Nonne vias, <hi rend="italic">Mediolanum ad preceptum dni pape dedit transitum dno Karolo eunti capere</hi>
+			<lb/>Apuliam.</p>
+			<p><lb/>241. Ducis, <hi rend="italic">id est Manfredi</hi>.</p>
+			<p><lb/>242. Hec, <hi rend="italic">scilicet Mediolanum</hi>.</p>
+			<p><lb/>243. Ligures, <hi rend="italic">Liguria vocatur a Placentia supra exclusive</hi>.</p>
+			<p><lb/>245243. AULE, <hi rend="italic">scilicet Curie Romane.</hi></p>
+			<p><lb/><hi rend="italic">246</hi>. Tiranni, <hi rend="italic">id est yzolini de romano</hi>.</p>
+			<p><lb/>248. Invito populo, <hi rend="italic">scilicet Mediolanensi</hi>.</p>
+			<p><lb/>250. Ducis, <hi rend="italic">id est regis Karoli.</hi></p>
+			<lb/>
+			<pb n="27"/>
+			<p><lb/>260. Orbis apex <hi rend="italic">id est o papa</hi>.</p>
+			<p><lb/>261. Almi vos patres <hi rend="italic">id est cardinales.</hi></p>
+			<lb/>
+			<pb n="28"/>
+			<p><lb/>278. Ut iussere, <hi rend="italic">quod dicit: ad iussum Curie Gallicis dedimus transitum</hi>.</p>
+			<p><lb/>281. Tiranno, <hi rend="italic">id est marchioni Pellavicino.</hi></p>
+			<p><lb/>286. In scelus, <hi rend="italic">vult dicere: quia proscripti milites de Mediolano pacem et concordiam fecerunt</hi>
+				<lb/>cum Ycolino de Romano, nos Mediolanenses compulsi timore predicte concordie, pactum
+				<lb/>fecimus cum Marchione Pellavicino licet esset hostis Ecclesie. Sed quia hoc fecimus solo timore,
+			<lb/>quam cito potuimus recessimus a predicta concordia.</p>
+			<p><lb/>287. Tiranni, <hi rend="italic">id est Yzolini de Romano.</hi></p>
+			<p><lb/>290. Hic, <hi rend="italic">scilicet Ycolinus.</hi></p>
+			<pb n="29"/>
+			<p><lb/>294. Robore metropolis, <hi rend="italic">id est civitatis Mediolanensis</hi>.</p>
+			<p><lb/>296. Vulnere, <hi rend="italic">Roma habuit duos magnos timores: unum quando Anibal affricanus rex Cartaginensis</hi>
+				<lb/>transivit alpes Tuscie eundo Romam; alterum quando Cesar cum Gallicis festinans
+				<lb/>Romam sedit in Romaniola. Sed timor quem habuit civitas mediolanensis in adventu Yzelini
+			<lb/>fuit maior quam illi timores, ut dicit.</p>
+			<p><lb/>302. Excita, <hi rend="italic">pro excitata dolis quos timebat intra se esse</hi>.</p>
+			<p><lb/>307. Igniferi, <hi rend="italic">id est Yzolini.</hi></p>
+			<p><lb/>308. Aule, <hi rend="italic">id est curie romane</hi>.</p>
+			<p><lb/>310. Non privata, <hi rend="italic">id est non parva sed magna.</hi></p>
+			<pb n="30"/>
+			<p><lb/>312. Non satis, <hi rend="italic">quod dicit: non suffecit proscriptis se iungere Yzelino, sed etiam, postquam</hi>
+			<lb/><hi rend="italic">repulimus Pellavicinum, ipsi ei adheserunt</hi>.</p>
+			<p><lb/>316. In patrios.<hi rend="italic">Postquam proscriptos milites inculpavit, nunc inculpat dominum archiepiscopum,</hi>
+				<lb/>qui cum armis venit in Aronam, quam Mediolanenses sicut terram suam tenebant, cuius
+			<lb/>progenies, ut dicit, semper rebellis fuit civitati Mediolani.</p>
+			<lb/>
+			<pb n="31"/>
+			<p><lb/>324. Ipsi maculam, <hi rend="italic">imponit patri et matri domini archiepiscopi crimen heresis, et quod soror</hi>
+			<lb/>sua tradita fuit cuidam comiti infideli.</p>
+			<p><lb/>331. Nobilitas, <hi rend="italic">laudat dominos civitatis mediolanensis a favore quem exibuerunt Ecclesie et</hi>
+			<lb/>fidei, et dicit quod non debuerunt excomunicari ab Ecclesia.</p>
+			<p><lb/>337. Deum, <hi rend="italic">pro deorum, scilicet sanctorum vel cardinalium et tocius curie romane quam dicit</hi>
+			<lb/>eos coluisse.</p>
+			<p><lb/>339. Serpserit, <hi rend="italic">quod dicit: licet incaute erraverint in cede illa proscriptorum militum, non deberent</hi>
+			<lb/>tradi oblivioni eorum bona, que in eis sunt.</p>
+			<p><lb/>344. Sed fata, <hi rend="italic">id est dicta.</hi></p>
+			<pb n="32"/>
+			<p><lb/>351. Affectu, <hi rend="italic">hic primo respondet ad illud, quod sibi fuit obiectum, scilicet quod non diligebat</hi>
+			<lb/><hi rend="italic">patriam suam.</hi></p>
+			<p><lb/>353. Cuius, <hi rend="italic">scilicet doloris</hi>.</p>
+			<p><lb/>353. Tantum, <hi rend="italic">quod dicit: non doloris imo honoris maiorem partem relinquo civitati, licet honor</hi>
+			<lb/>civitatis sit et meus.</p>
+			<lb/>
+			<pb n="33"/>
+			<p><lb/>359. Nisi forte etc., <hi rend="italic">tangit cives Mediolanenses de cedibus factis in civitate et de dominiis</hi>
+			<lb/><hi rend="italic">multis civitatis, que dominia non sunt sine invidia et sine bello civili et sine ruina civium</hi>.</p>
+			<p><lb/>362. Qui, <hi rend="italic">scilicet livor. or scilicet sub uno.</hi></p>
+			<p><lb/>370. Quid genus, <hi rend="italic">Excusat progeniem suam que portat magnum onus civitatis in expensis et</hi>
+			<lb/>non credi debet quod non diligat civitatem.</p>
+			<p><lb/>372. Non aliud, <hi rend="italic">Excusat quod in nullo offendit nisi in hoc, si offensa dici debet, quod suscepit</hi>
+			<lb/><hi rend="italic">archiepiscopatum</hi>.</p>
+			<pb n="34"/>
+			<p><lb/>380. Post modo, <hi rend="italic">Item accusat de hoc quod voluerint cum occidere cum venit Aronam missus</hi>
+			<lb/>a curia.</p>
+			<p><lb/>382. Irritat, <hi rend="italic">id est provocat.</hi></p>
+			<p><lb/>383. Irrita, <hi rend="italic">id est frustrata</hi>.</p>
+			<pb n="34"/>
+			<p><lb/>380. Post modo, <hi rend="italic">Item accusat de hoc quod voluerint eum occidere cum venit Aronam missus</hi>
+			<lb/>a curia.</p>
+			<p><lb/>382. Irritat, <hi rend="italic">id est provocat.</hi></p>
+			<p><lb/>383. Irrita, <hi rend="italic">id est frustrata</hi>.</p>
+			<pb n="35"/>
+			<p><lb/>386. Astrea, <hi rend="italic">id est iusticia</hi>.</p>
+			<p><lb/>389. Anteus, <hi rend="italic">fuit quidam gigas vel pugil, qui stratus in terram, statim resurgebat, unde</hi>
+			<lb/>dictus est filius terre.</p>
+			<p><lb/>391. Denique, <hi rend="italic">dicit se expulsum de castro a Curia sibi concesso, mediante auro et ferro.</hi></p>
+			<p><lb/>397. Servato, <hi rend="italic">solum unum castrum fuit relictum, quod non fuit destructum quod tamen non</hi>
+			<lb/><hi rend="italic">habitabatur</hi>.</p>
+			<p><lb/>398. Non arsere, <hi rend="italic">Excusat se quod non venit sicut incendiarius sed iura solum petebat Ecclesie.</hi></p>
+			<p><lb/>402. Quid si vicina, <hi rend="italic">Excusat milites proscriptos quod non est mirum si libenter redibant ad</hi>
+			<lb/>propria ne vagarent cum natis et uxoribus per orbem.</p>
+			<p><lb/>403. In iuga, <hi rend="italic">quod dicit: renuebat iugum vicinorum suorum.</hi></p>
+			<pb n="36"/>
+			<p><lb/>408. Acer, <hi rend="italic">Excusat patrem et matrem de heresi: materque in loco religioso sepulta est, nisi</hi>
+			<lb/><hi rend="italic">fuit deuotata</hi>.</p>
+			<p><lb/>412. sed ego, <hi rend="italic">De fide certa patris ipse testificatur.</hi></p>
+			<p><lb/>413. Non fuit, <hi rend="italic">Excusat se de sorore que data fuit nobilitati et non errori.</hi></p>
+			<p><lb/>415. Non furit, <hi rend="italic">Accusat cives de hoc quod non solum insurgunt in ipsum, sed etiam in curiam</hi>
+			<lb/>romanam.</p>
+			<p><lb/>419. Par scelus, <hi rend="italic">Quod dicit: sicut gigantes qui hedificando turrim voluerunt quasi celum impugnare,</hi>
+			<lb/>non fuerunt sine pena, sic nunc isti volentes impugnare curiam romanam, puniri deberent.</p>
+			<p><lb/>420. Det, <hi rend="italic">id est sustineat.</hi></p>
+			<p><lb/>421. Sentiat etc., <hi rend="italic">id est excomunicationem.</hi></p>
+			<lb/>
+			<pb n="37"/>
+			<p><lb/>422. Libera, <hi rend="italic">accusat cives de edicto quod fecerunt, scilicet ne littere dni pape portarentur in</hi>
+			<lb/>Mediolano. Item de nimio gravamine cleri in exactionibus et servitutibus et incarcerationibus.</p>
+			<lb/>
+			<pb n="38"/>
+			<p><lb/>439. Expressit amorem, <hi rend="italic">quod dicit: prima pars concionis est vera, quam adversarius fecit,</hi>
+				<lb/>scilicet quod civitas Mediolani semper curiam romanam dilexit et ei adhesit, sed ultima pars
+				<lb/>concionis eiusdem est falsa, scilicet quod nobiles cives de Mediolano qui dominantur diligant
+			<lb/>suam civitatem.</p>
+			<p><lb/>446. Ditis, <hi rend="italic">id est dei infernalis.</hi></p>
+			<p><lb/>448. regalis, <hi rend="italic">id est regis Karoli cuius nuncius tempore cedis regebat civitaterm.</hi></p>
+			<p><lb/>449. O furor, <hi rend="italic">accusat cives numerando aliqua dira que fiebant in civitate Mediolanensi et patet</hi>
+			<lb/><hi rend="italic">quod hic dicitur</hi>.</p>
+			<pb n="39"/>
+			<p><lb/>461. Exicii, <hi rend="italic">accusat cives de nimia inhumanitate habita contra captivos suos</hi>.</p>
+			<p><lb/>466. O stigie, <hi rend="italic">quod dicit: sicut a dampnatis in inferno exiguntur pene quas numquam sufficienter</hi>
+			<lb/>possunt, sic ab his captivis exiguntur ea que reddere non valent.</p>
+			<p><lb/>476.<hi rend="italic">parentesis.</hi></p>
+			<pb n="40"/>
+			<p><lb/>484.<hi rend="italic">parentesis.</hi></p>
+			<p><lb/>488. Tribuni, <hi rend="italic">id est maiores in populo</hi>.</p>
+			<pb n="41"/>
+			<p><lb/>492. Curritur, <hi rend="italic">tangit modum occisionis.</hi></p>
+			<p><lb/>495. Fata, <hi rend="italic">id est mortem cum silentio expectant singuli.</hi></p>
+			<p><lb/>502. Ferale, <hi rend="italic">id est crudele.</hi></p>
+			<p><lb/>503. Funera, <hi rend="italic">ponit numerum occisorum</hi>.</p>
+			<p><lb/>510. Impune, <hi rend="italic">id est sine pena.</hi></p>
+			<p><lb/>511. Instar, <hi rend="italic">id est ad similitudinem.</hi></p>
+			<pb n="42"/>
+			<p><lb/>515. Cur impune, <hi rend="italic">dicitur hic quod cives interiores primo composuerunt cum Pellavicino sine</hi>
+				<lb/>aliqua condicione, secundo post hec omnia proscripti conposuerunt cum Ycolino sed cum
+				<lb/>condicione, scilicet ut obediret Ecclesie, et alias non debuit ei servari fides. Et ideo interogative
+				<lb/>loquitur, cum scelus utriusque partis sit par, scilicet in hoc quod utraque pars coniuxit se
+				<lb/>tyranno, sed crimen civium gravius fuisse innuit, in hoc quod sine condictione aliqua
+			<lb/>composuerunt cum suo tyranno.</p>
+			<p><lb/>523. Obvia, <hi rend="italic">quod dicit: proscripti poterant quando cum Yzolino venerunt, intrare urbem et</hi>
+			<lb/>destruere eam sed noluerunt quia nollebant nisi dominium removere.</p>
+			<p><lb/>527. Tiranno, <hi rend="italic">id est Pellavicino.</hi></p>
+			<pb n="43"/>
+			<p><lb/>540. Montane, <hi rend="italic">quod dicit: quod comes Provincie scilicet Karolus qui nundum erat rex, haberet</hi>
+				<lb/>viam per Lombardiam in Apuliam contra Manfredum, civitas Bergamensis hoc tractavit cum
+			<lb/>tractavit fedus cum comite scilicet Karolo. Corona Sicula est corona Karoli.</p>
+			<p><lb/>541. Comitis, <hi rend="italic">id est Karoli.</hi></p>
+			<p><lb/>542. Regis, <hi rend="italic">quod dicit: quia tantus excessus fuit commissus in presentia potestatis Mediolanensis, qui erat ibi positus per regem Karolum, in cede nobilium proscriptorum,
+				<lb/>vacuat gratiam quam Mediolanenses fecerunt dicto regi dando transitum sue milicie per
+			<lb/>Mediolanum, dato quod predicta gratia sit attribuenda Mediolanensibus, et non Bergamensibus</hi>.</p>
+			<p><lb/>545. Dum sic baccantur, <hi rend="italic">scilicet cives contra proscriptos in quorum cede non fuit servatus</hi>
+			<lb/>ordo iuris.</p>
+			<p><lb/>552. Non patet, <hi rend="italic">per multas methaphoras venti et maris exponit periculum civitatis mediolanensis.</hi></p>
+			<lb/>
+			<pb n="44"/>
+			<p><lb/>562. Quem prius, <hi rend="italic">Papa non revocat sentencias excomunicationis et interdicti latas contra civitatem</hi>
+			<lb/>Mediolani nisi obediant.</p>
+			<p><lb/>565. Germine, <hi rend="italic">comparatio.</hi></p>
+			<p><lb/>573. Licet his, <hi rend="italic">quod dicit: licet sint in magna prosperitate cives, tamen, pape constantia territi,</hi>
+			<lb/>favent.</p>
+			<p><lb/>575. Ut nubes, <hi rend="italic">comparatio.</hi></p>
+			<pb n="45"/>
+			<p><lb/>581. Nec mora, <hi rend="italic">legatos comunis Mediolani statim sequitur legatus pape qui recipiat civium</hi>
+			<lb/><hi rend="italic">obedientiam et absolvat civitatem</hi>.</p>
+			<pb n="46"/>
+			<p><lb/>582. Ad Ligures, <hi rend="italic">idest Mediolanenses qui sunt capud Ligurum.</hi></p>
+			<p><lb/>584. Siniuga, <hi rend="italic">id est sine iugo</hi>.</p>
+			<p><lb/>590. Sedi, <hi rend="italic">id est curie romane</hi>.</p>
+			<p><lb/>593. Sed ultro, <hi rend="italic">quod dicit: cives non coacti sed valde voluntarii currebant ut obedirent Ecclesie</hi>
+			<lb/>quam comiter habent amicam.</p>
+			<p><lb/>596. Patris, <hi rend="italic">id est archiepiscopi.</hi></p>
+			<p><lb/>598. renova <hi rend="italic">(sic) id est renovare divina in civitate Mediolanensi quae longo tempore fuerant omissa.</hi></p>
+			<p><lb/>599. Et quia divine, <hi rend="italic">quod dicit: interdictum erat relaxandum et de hoc cives gaudebant.</hi></p>
+			<lb/>
+			<pb n="47"/>
+			<p><lb/>607. Ceu longa, <hi rend="italic">conparatio.</hi></p>
+			<p><lb/>611. Ut suffusa, <hi rend="italic">conparatio est, quod sicut mater videns filium laborantem in extremis gaudet</hi>
+				<lb/>cum avertit ipsum convalescere, sic urbs sicut mater gaudet cum perpendit signum reformationis
+			<lb/>in civibus suis.</p>
+			<lb/>
+			<pb n="48"/>
+			<p><lb/>631.<hi rend="italic">Oratio legati dni pape</hi>.</p>
+			<p><lb/>632.<hi rend="italic">Primo conmendat de multis civitatem mediolanensem.</hi></p>
+			<lb/>
+			<pb n="49"/>
+			<p><lb/>637. Decepta, <hi rend="italic">hic secundo ponit civitatis prefate errorem multiplicem</hi>.</p>
+			<p><lb/>642. Sed modo, <hi rend="italic">hic tercio ponit errorem correctionem</hi>.</p>
+			<p><lb/>655. En ego, <hi rend="italic">hic quarto ponit et exprimit mandata summi pontificis.</hi></p>
+			<p><lb/>666. Christos, <hi rend="italic">id est clericos</hi>.</p>
+			<pb n="50"/>
+			<p><lb/>667. Fastis, <hi rend="italic">id est libris in quibus solent scribi negocia rei publice.</hi></p>
+			<p><lb/>673. Vinxerunt, <hi rend="italic">di est ligaverunt</hi>.</p>
+			<p><lb/>680. Maior, <hi rend="italic">scilicet est.</hi></p>
+			<p><lb/>681. Nescit, <hi rend="italic">conparatio.</hi></p>
+			<p><lb/>688. Sed non heu, <hi rend="italic">quod dicit: sperabatur pax futura generalis a civibus comuniter sed non</hi>
+			<lb/>sic evenit.</p>
+			<lb/>
+		</div>
+		<pb n="51"/>
+		<div>
+			<head><lb/>LIBER SECUNDUS</head>
+			<p><lb/>1.<hi rend="italic">Conparatio.</hi></p>
+			<p><lb/>1. Pululat, <hi rend="italic">sicut cicatrix non bene sanata propter saniem latentem iterum erumpit, sic ira</hi>
+			<lb/>potentum non bene remota iterum pululat contra archiepiscopum et eius sequaces.</p>
+			<lb/>
+			<pb n="52"/>
+			<p><lb/>6. Agmine, <hi rend="italic">aplicat ad methaforam prefatam quomodo ira potentum pululat in statuendo</hi>
+			<lb/><hi rend="italic">edictum crudele de nece archiepiscopi si Mediolanum veniret de Placentia</hi>.</p>
+			<pb n="53"/>
+			<p><lb/>12. Dedecus, <hi rend="italic">quod statutum huiusmodi fuit iniuria pape qui dissimulavit</hi>.</p>
+			<p><lb/>19. Presul, <hi rend="italic">sed est archiepiscopu</hi>s.</p>
+			<p><lb/>19. At ille, <hi rend="italic">id est papa.</hi></p>
+			<pb n="55"/>
+			<p><lb/>27. Et est humili, <hi rend="italic">describit castrum castri Seprii quantum ad situm eius</hi>.</p>
+			<p><lb/>36. Ligures, <hi rend="italic">describit hic Engleriam cum arce eius et qui loci dispositionem vidit, de facili</hi>
+			<lb/><hi rend="italic">potest intelligere que hic dicuntur</hi>.</p>
+			<p><lb/>47. Hec loca, <hi rend="italic">scilicet Engleriam et castrum Seprii.</hi></p>
+			<p><lb/>48. Et his, <hi rend="italic">scilicet Engleria et castro Seprio.</hi></p>
+			<p><lb/>49. Hec spacii, <hi rend="italic">distant enim hec duo castra per xii miliaria</hi>.</p>
+			<pb n="56"/>
+			<p><lb/>52. Catulis, <hi rend="italic">conparatio</hi>.</p>
+			<p><lb/>56. Germani, <hi rend="italic">id est teotonici</hi>.</p>
+			<p><lb/>59. Comitis, <hi rend="italic">scilicet Gufredi ducis proscriptorum.</hi></p>
+			<p><lb/>67. Fit proximus, <hi rend="italic">quoniam comes pervenit usque ad fluvium Guassam cum suis, qui a stagno</hi>
+			<lb/>non distat multum.</p>
+			<p><lb/>68. Preses, <hi rend="italic">scilicet potestas mediolani.</hi></p>
+			<lb/>
+			<pb n="57"/>
+			<p><lb/>71. Amnis, <hi rend="italic">qui dicitur Guassa</hi>.</p>
+			<p><lb/>73. Dextras, <hi rend="italic">describitur preparatio ad bellum ex parte civium.</hi></p>
+			<p><lb/>79. Inde, <hi rend="italic">hic describitur preparatio ad bellum ex parte proscriptorum</hi>.</p>
+			<p><lb/>80. Genus, <hi rend="italic">animat suos dictus comes proponendo eis nobilitatem et recuperationem bonorum</hi>
+			<lb/>et honoris patrie sue.</p>
+			<p><lb/>83. Non sic acies, <hi rend="italic">hec comitis acies nec sic erat armata nec magna numero.</hi></p>
+			<p><lb/>87. Clamor, <hi rend="italic">id est inchoatur prelium.</hi></p>
+			<p><lb/>89. At latus, <hi rend="italic">dicit quod primi qui fluvium transierunt ad bellum fuerunt teutonici</hi>.</p>
+			<p><lb/>96. Mavortia, <hi rend="italic">Mavors-tis dicitur Mars, unde Mavortius, a, um id est bellicosus, a, um. Et</hi>
+			<lb/>hic dicuntur tela mavortia id est bellicosa.</p>
+			<lb/>
+			<pb n="58"/>
+			<p><lb/>101. Virtus, <hi rend="italic">dicitur quod comes dux proscriptorum militum percussit militem et stra </hi>(sic)<hi rend="italic"> et occidit.</hi></p>
+			<p><lb/>108. Tunc dampnata, <hi rend="italic">hic fuga incipit proscriptorum militum.</hi></p>
+			<p><lb/>113. In frutices, <hi rend="italic">id est inter fru </hi>(sic).<hi rend="italic"/></p>
+			<lb/>
+			<pb n="59"/>
+			<p><lb/>117. Sed in orrea.</p>
+			<p><lb/>120. Cives, <hi rend="italic">scilicet qui contra dampnatos pugnaverant.</hi></p>
+			<pb n="60"/>
+			<p><lb/>128. Divum opus, <hi rend="italic">hic ponitur exortatio militum proscriptorum ad archiepiscopum, ut ducatum</hi>
+			<lb/><hi rend="italic">super eos recipiat</hi>.</p>
+			<pb n="61"/>
+			<p><lb/>130. Iustitium (sic), <hi rend="italic">id est defectus iusticie.</hi></p>
+			<p><lb/>133. Flu. instar, <hi rend="italic">id est ad similitudinem flumini</hi>s.</p>
+			<p><lb/>134. Trina quidem, <hi rend="italic">quod dicit: cedes facte occasione bellorum factorum apud Engleriam et</hi>
+			<lb/>in Vercellis et in Carate fuerunt quasi ducentorum hominum proscriptorum.</p>
+			<lb/>
+			<pb n="62"/>
+			<p><lb/>139. Mors, <hi rend="italic">ut inducant archiepiscopum ad susceptionem ducatus, reducunt ei ad memoriam mortem</hi>
+				<lb/>comitis amici sui et nepotis, et expectationem proscriptorum, et desiderium etiam civium et
+			<lb/>Dei voluntatem.</p>
+			<p><lb/>146. Tunc antistes, <hi rend="italic">hic ponitur responsio archiepiscopi pia et discreta.</hi></p>
+			<lb/>
+			<pb n="63"/>
+			<p><lb/>159. Tunc iussit, <hi rend="italic">postquam Archiepiscopus recepit ducatum, venit et vadit occupare castrum Seprii.</hi></p>
+			<p><lb/>168. Arma movent, <hi rend="italic">ponitur hic succursus quem habuerunt Mediolananses ad obviandum dno</hi>
+			<lb/>archiepiscopo.</p>
+			<p><lb/>172. Assistit, <hi rend="italic">germanus quiritis est miles theotonicus</hi>.</p>
+			<p><lb/>175. Falerata acies, <hi rend="italic">scilicet mediolanensis.</hi></p>
+			<p><lb/>177. Menia, <hi rend="italic">scilicet Castri Seprii.</hi></p>
+			<p><lb/>178. Presul, <hi rend="italic">describit quales erant illi qui remanserant cum dno archiepiscopo.</hi></p>
+			<pb n="64"/>
+			<p><lb/>184. Circuit, <hi rend="italic">describit sollicitudinerm dni archiepiscopi</hi>.</p>
+			<p><lb/>192. Hec ait, <hi rend="italic">Exortatio archiepiscopi ad defensionem, proponens eis multa eos inducentia ad</hi>
+			<lb/>fortitudinem.</p>
+			<p><lb/>201. Timebat, <hi rend="italic">quod dicit: tota ytalia patrum vestrorum probitatem timebat</hi>.</p>
+			<p><lb/>204. Vos non degene., <hi rend="italic">quod dicit: vos sequentes probitatem et fortitudinem patrum vestrorum</hi>
+			<lb/>ostendatis vos esse filios talium patrum legittimos.</p>
+			<p><lb/>208. Quem michi, <hi rend="italic">dns archiepiscopus tulit sentenciam contra suos feudatarios, quod nisi transirent</hi>
+				<lb/>ad ipsum, relictis hostium castris, privabat eos dignitate quam tenebant ab ipso, sed pauci
+			<lb/>iverunt ad ipsum, timentes fortune casum et potentiam civitatis.</p>
+			<lb/>
+			<pb n="65"/>
+			<p><lb/>216. Nititur, <hi rend="italic">milicia archiepiscopi quasi tota, ipso quasi solo vel cum paucis relicto, vadit occupare</hi>
+			<lb/>montana et tunc cives in acies ordinati impugnant castrum et bellum describitur.</p>
+			<p><lb/>230. Excussa, <hi rend="italic">scilicet est.</hi></p>
+			<p><lb/>234. Dum multo, <hi rend="italic">dicitur quod milicia archiepiscopi, audita expugnatione suorum, celeriter cucurrit</hi>
+			<lb/>in subsidium suorum et hostes fugaverunt.</p>
+			<p><lb/>241. Miles, <hi rend="italic">hic describitur victoria quam milites proscripti qui erant cum dno archiepiscopo fecerunt</hi>.</p>
+			<pb n="66"/>
+			<p><lb/>244. Perurget, <hi rend="italic">scilicet fugientes</hi>.</p>
+			<p><lb/>250. Eques, <hi rend="italic">scilicet de civitate contra archiepiscopum</hi>.</p>
+			<p><lb/>252. Milicie urgentis, <hi rend="italic">scilicet que erat cum dno archiepiscopo</hi>.</p>
+			<p><lb/>253. Pietas, <hi rend="italic">postquam dns archiepiscopus vidit stragem hostium per suos factam, opponit se
+				<lb/>suis, ne tantum seviant, cum odio gravi contra hostes suos concitarentur victores; timebat etiam
+			<lb/>insidias et ideo eos revocat</hi>.</p>
+			<p><lb/>260. Restaurare, <hi rend="italic">iubet etiam archiepiscopus quod per hostes confracta reficiantur et ipse personaliter</hi>
+			<lb/><hi rend="italic">ad hoc laborat et omnes sollicitat</hi>.</p>
+			<p><lb/>265. Fit sedulus, <hi rend="italic">sicut etiam alibi dicitur: omnia Cesar erat.</hi></p>
+			<p><lb/>270. Pars latebras, <hi rend="italic">scilicet querit.</hi></p>
+			<lb/>
+			<pb n="67"/>
+			<p><lb/>271. Nobilitas, <hi rend="italic">id est milites conabantur prohibere ensibus fugam et dns archiepiscopus revocabat</hi>
+			<lb/>fugientes sed frustra.</p>
+			<p><lb/>276. Valve, <hi rend="italic">quod dicit: fugiunt Cumas, sed cives Cumani nollunt fugientes recipere</hi>.</p>
+			<p><lb/>283. Antistes, <hi rend="italic">quoniam Cumani noluerunt eos tenere, dominus Archiepiscopus secessit</hi>
+			<lb/>inde et habitavit in Zurnigo.</p>
+			<p><lb/>289. Pressum, caput, <hi rend="italic">id est vulgus habens caput pressum.</hi></p>
+			<p><lb/>291. Freti, <hi rend="italic">scilicet sunt.</hi></p>
+			<p><lb/>292. Umbo, <hi rend="italic">scilicet tegit</hi>.</p>
+			<pb n="68"/>
+			<p><lb/>293. Post modo, <hi rend="italic">de Zurnigo dominus Archiepiscopus venit Canobium.</hi></p>
+			<lb/>
+			<pb n="69"/>
+			<p><lb/>295. Est fuga, <hi rend="italic">exortatio terrigenarum de Canobio ut Archiepiscopus non stet in Canobio</hi>.</p>
+			<p><lb/>301. Presul, <hi rend="italic">responsio dni archiepiscopi</hi>.</p>
+			<p><lb/>304. Illi de Canobio <hi rend="italic">concesserunt dno Archiepiscopo quod staret in terra, sed sequaces eius</hi>
+			<lb/>expulerunt. Qui provocat eos ad amiciciam in privatim, suos vocat ad se.</p>
+			<p><lb/>311. Conmenta, <hi rend="italic">id est mandata.</hi></p>
+			<lb/>
+			<pb n="70"/>
+			<p><lb/>313. Canobio, <hi rend="italic">describitur locus quo ad situm</hi>.</p>
+			<p><lb/>315. Quod scaturit, <hi rend="italic">quod lacus maior exit de Ticino, et postea Ticinus exit de lacu</hi>. NOTA.
+				<lb/><hi rend="italic">Secundum poetriam novam, Scaturio producit primam: unde: Et fons scaturiens. Secundum
+				<lb/>uicedon breviat: unde: Et scaturizantes lesus abhorret aquas. Et hic melius Virgilius: saxa
+			<lb/>cient, scatebrisque arentia temperat arva. Et sic hic ponitur: quod scaturit.</hi></p>
+			<p><lb/>316. Antistes iam transtra, <hi rend="italic">describitur hic preparatio quam facit dns archiepiscopus ad bellum navale.</hi></p>
+			<p><lb/>322. Locus hic, <hi rend="italic">hoc dicitur quia Engleria est quasi in finem laci super ipsum lacum sita,</hi>
+				<lb/>
+				<pb n="71"/>
+				<lb/><hi rend="italic">ad quam decurrit aqua laci. Et ibi hostis dni archiepiscopi congregat robur navale undecumque
+				<lb/>contra ipsum, et venit Zerminagam contra Achiepiscopum, et ibi fuit conflictus navalis
+			<lb/>et prevaluit pars archiepiscopi</hi>.</p>
+			<p><lb/>334. Noxia, <hi rend="italic">parentesis.</hi></p>
+			<p><lb/>336. Astu, <hi rend="italic">id est astucia</hi>.</p>
+			<p><lb/>337. Luxum, <hi rend="italic">id est corporis quietem</hi>.</p>
+			<p><lb/>338. Errorem, <hi rend="italic">scilicet quiescentium in lectis</hi>.</p>
+			<p><lb/>343. Non illos, <hi rend="italic">quod dicit: in expeditione belli nullus se nobiliorem alio putat, quod nolens</hi>
+			<lb/><hi rend="italic">sibi ex hoc parcere</hi>.</p>
+			<p><lb/>345. Verruntur, <hi rend="italic">id est trahuntur</hi>.</p>
+			<p><lb/>347. Duci, <hi rend="italic">id est illi cui navale bellum erat conmissum.</hi></p>
+			<p><lb/>354. Per agros, <hi rend="italic">agri Neptuni dicuntur aque, quia deus aquarum dicitur.</hi></p>
+			<pb n="72"/>
+			<p><lb/>356. Humentes, <hi rend="italic">quod dicit: non erat dum dies.</hi></p>
+			<p><lb/>358. Secesserat, <hi rend="italic">scilicet Phebus</hi>.</p>
+			<p><lb/>362. Texerunt, <hi rend="italic">scilicet illi qui insultum fecerunt super naves</hi>.</p>
+			<p><lb/>364. Transtra, <hi rend="italic">dicuntur tabule in navi super quas remiges sedent</hi>.</p>
+			<p><lb/>366. Fitque, <hi rend="italic">scilicet unda rubens</hi>.</p>
+			<p><lb/>372. Tempus abest, <hi rend="italic">quod dicit: surgentes de lectis voluerunt se armare sed non fuit tempus,</hi>
+			<lb/><hi rend="italic">quia de navibus hostes egressi, impugnabant eos, qui et ideo in fugam sunt conversi</hi>.</p>
+			<p><lb/>379. Patri, <hi rend="italic">scilicet Archiepiscopo, qui erat Canobii.</hi></p>
+			<pb n="74"/>
+			<p><lb/>383. Symone, <hi rend="italic">scilicet de Locarno.</hi></p>
+			<lb/>
+			<pb n="75"/>
+			<p><lb/>386. Siquidem, <hi rend="italic">corripit prima ut patet per Stacium, cuius exemplum est quasi in fine libri</hi>
+			<lb/>390. Pretor, <hi rend="italic">scilicet Symon qui omnibus preerat</hi>.</p>
+			<p><lb/>390. Diducunt, <hi rend="italic">id est extendunt</hi>.</p>
+			<p><lb/>399. Prope menia, <hi rend="italic">scilicet Arone</hi>.</p>
+			<p><lb/>400. Spes, <hi rend="italic">quod dicit: reclusi in Arona non in aliquo subsidio navali confidunt vel sperant
+				<lb/>quia Symon occupaverat lacum, in cuius auxilium venit Marchio Montis ferrati cum
+				<lb/>Novariensibus et militibus proscriptis de Mediolano et Papiensibus et obsident ex parte terre
+			<lb/>Aronam.</hi></p>
+			<pb n="76"/>
+			<p><lb/>403. Iuncta, <hi rend="italic">scilicet est</hi>.</p>
+			<p><lb/>405. Lunare, <hi rend="italic">quia ad modum semiluni</hi>.</p>
+			<p><lb/>407. Quod, <hi rend="italic">lunare scilicet latus</hi>.</p>
+			<p><lb/>407. Innexa, <hi rend="italic">scilicet fossa tellus.</hi></p>
+			<p><lb/>414. Germanus, <hi rend="italic">id est teotonicus</hi>.</p>
+			<p><lb/>425. Clausis, <hi rend="italic">dicit quod cives egrediuntur in sucursum obsessorum.</hi></p>
+			<p><lb/>431. Nobilis, <hi rend="italic">quod dicit: proscripti de Mediolano nollebant ab obsidione recedere quia sperabant</hi>
+			<lb/>redire Mediolanum capta Arona.</p>
+			<lb/>
+			<pb n="77"/>
+			<p><lb/>433. Leguntur, <hi rend="italic">id est colliguntur et redeunt Novariam qui obsidebant, et obsessi egrediuntur</hi>
+			<lb/>ad spolia.</p>
+			<p><lb/>443. Classis, <hi rend="italic">scilicet Symonis.</hi></p>
+			<p><lb/>446. Nec mora, <hi rend="italic">quod dicit: ex quo Marchio et Symon recesserunt ab obsidione Arone, omnia</hi>
+			<lb/>castra que erant in ripa lacus et rebellaverant Mediolano, iam obediunt.</p>
+			<p><lb/>447. Ducis, <hi rend="italic">id est Symonis, qui, ex quo succubuit in lacu, temptat bello campestri prevalere,</hi>
+			<lb/>auxilio Cumanorum.</p>
+			<p><lb/>452. Antistes, <hi rend="italic">id est archiepiscopus qui non movebatur ex infortuniis.</hi></p>
+			<pb n="78"/>
+			<p><lb/>460. Ultor scelerum, <hi rend="italic">id est Deus</hi>.</p>
+			<p><lb/>464. Nobilitas, <hi rend="italic">scilicet proscripta.</hi></p>
+			<lb/>
+			<pb n="79"/>
+			<p><lb/>466. Mente <hi rend="italic">(sic), id est archiepiscopus laborat inclinare episcopum cumanum ad suam amiciciam,</hi>
+			<lb/>et ad hoc multum profuit lis orta in Cumis et preces amicorum et Symonis instantia.</p>
+			<p><lb/>472. Archipatri, <hi rend="italic">id est una pars civitatis Cumane favet archiepiscopo et altera mediolanensibus</hi>
+			<lb/>sed episcopus cumanus favet archiepiscopo.</p>
+			<p><lb/>480. Sonus inde, <hi rend="italic">quod dicit: magnitudo soni non superat multitudinem vulnerum.</hi></p>
+			<p><lb/>486. Vim belli, <hi rend="italic">idest pars que erat contraria archiepiscopo succubuit in prelio et reduxit se et</hi>
+				<lb/>omne robur suum ad palacium comunitatis, et ibi ab hostibus obsidetur, et durum bellum ibi
+			<lb/>geritur.</p>
+			<lb/>
+			<pb n="80"/>
+			<p><lb/>489. Hostes, <hi rend="italic">id est amici archiepiscopi.</hi></p>
+			<p><lb/>492. Excipit, <hi rend="italic">ibi est zeuma, unde zeuma fit in verbo si plura clauseris uno.</hi></p>
+			<lb/>
+			<pb n="82"/>
+			<p><lb/>503. Ticino, <hi rend="italic">id est de Papia et de Novaria miles et virtus Cumana omnes sunt electi sub</hi>
+			<lb/>aquilis archiepiscopi.</p>
+			<p><lb/>511. Menia, <hi rend="italic">scilicet subsunt.</hi></p>
+			<lb/>
+			<pb n="83"/>
+			<p><lb/>512. Castra, <hi rend="italic">scilicet subsunt.</hi></p>
+			<p><lb/>514. Comiti, <hi rend="italic">scilicet Ricardo.</hi></p>
+			<p><lb/>515. In Urbe, <hi rend="italic">id est Mediolano.</hi></p>
+			<p><lb/>517. Fraterneque, <hi rend="italic">scilicet mediolanensium interiorum et exteriorum.</hi></p>
+			<p><lb/>523. Procerum, <hi rend="italic">id est nobilium exteriorum.</hi></p>
+			<p><lb/>524. Speculator, <hi rend="italic">scilicet qui erat super capanili de Desio</hi>.</p>
+			<p><lb/>525. Duci, <hi rend="italic">id est potestati comunis Mediolani populi.</hi></p>
+			<p><lb/>529. Clipei, <hi rend="italic">explicatur modus preparantium se ad bellum.</hi></p>
+			<lb/>
+			<pb n="84"/>
+			<p><lb/>536. Presul, <hi rend="italic">scilicet archiepiscopus.</hi></p>
+			<p><lb/>541. Cui, <hi rend="italic">scilicet virtuti dive</hi>.</p>
+			<p><lb/>546. Grandinis instar, <hi rend="italic">id est ad similitudinem grandinis</hi>.</p>
+			<p><lb/>549. Hostili obice cedente, <hi rend="italic">quia hostes cesserunt qui obstabant.</hi></p>
+			<p><lb/>550. Hostes, <hi rend="italic">scilicet illi de Desio</hi>.</p>
+			<p><lb/>551. Fortes, <hi rend="italic">scilicet illi qui erant cum archiepiscopo.</hi></p>
+			<p><lb/>553. Adversi, <hi rend="italic">scilicet illi de Desio.</hi></p>
+			<p><lb/>555. Victi, <hi rend="italic">scilicet illi de Desio.</hi></p>
+			<p><lb/>555. Dorsis, <hi rend="italic">scilicet illorum qui erant cum archiepiscopo</hi>.</p>
+			<p><lb/>556. Victores, <hi rend="italic">scilicet qui cum archiepiscopo erant.</hi></p>
+			<p><lb/>558. Versis, <hi rend="italic">nam cumani et alii qui erant ex parte archiepiscopi precipitabantur usque in</hi>
+			<lb/>fundum fossati.</p>
+			<lb/>
+			<pb n="85"/>
+			<p><lb/>562. Turba fugax, <hi rend="italic">scilicet Cumani</hi>.</p>
+			<p><lb/>563. Propulsos, <hi rend="italic">scilicet de aggere, scilicet illos de Desio.</hi></p>
+			<p><lb/>578. Sepe, <hi rend="italic">parentesis</hi>
+			<lb/>587. Amice, <hi rend="italic">id est amicabiliter.</hi></p>
+			<lb/>
+			<pb n="86"/>
+			<p><lb/>587. Quem petit, <hi rend="italic">nam dns archiepiscopus inermis per medium armatorum cucurrit ad captum</hi>
+				<lb/><hi rend="italic">hostem ut eum a morte liberaret</hi>
+			<lb/>596. Comitis, <hi rend="italic">scilicet Ricardi ut dicitur</hi>.</p>
+			<p><lb/>613. Erile vexillum, <hi rend="italic">id est crucem vel signum aliud bellicum sui ducis.</hi></p>
+			<lb/>
+			<pb n="87"/>
+			<p><lb/>615. Iam vulnera, <hi rend="italic">hic ponitur oratio dni archiepiscopi ortatoria ad pacem</hi>.</p>
+			<pb n="88"/>
+			<p><lb/>637. Conducat, <hi rend="italic">id est conciliet et sanet.</hi></p>
+			<p><lb/>642. Humili, <hi rend="italic">quod dicit: ira fervet sub pectore vili non sub pectore nobili</hi>
+			<lb/>645. Asper, <hi rend="italic">scilicet homo qui est asper sive crudelis.</hi></p>
+			<lb/>
+			<pb n="89"/>
+			<p><lb/>652. Quid si, <hi rend="italic">id est quid prodest.</hi></p>
+			<p><lb/>672. Quo, <hi rend="italic">scilicet Averno, id est in tribulatione quasi infernali.</hi></p>
+			<p><lb/>683. Iusticio, <hi rend="italic">id est defectui iusticie.</hi></p>
+			<pb n="90"/>
+			<p><lb/>685. Astrea, <hi rend="italic">id est iusticia.</hi></p>
+			<p><lb/>686. Aula, <hi rend="italic">hic sumitur pro domo comunitatis.</hi></p>
+			<p><lb/>689. Votis patriis, <hi rend="italic">id est votis archiepiscopi</hi>.</p>
+			<pb n="91"/>
+			<p><lb/>692. Antistes, <hi rend="italic">id est archiepiscopus</hi>.</p>
+			<p><lb/>699. Insignia Regis, <hi rend="italic">id est crux.</hi></p>
+			<lb/>
+			<pb n="92"/>
+			<p><lb/>722. Posuere diem, <hi rend="italic">sicut factum est tempore Iudith, sic modo in die victorie festum est ordinatum.</hi></p>
+			<p><lb/>726. Eger, <hi rend="italic">conparatio est.</hi></p>
+			<p><lb/>727. Cum labium,<hi rend="italic"> ponuntur hinc. V. (=quinque) signa mortis.</hi></p>
+			<pb n="93"/>
+			<p><lb/>734. Crimine purgato, <hi rend="italic">nam civitas Mediolani multa est passa propter peccata, quibus purgatis ex</hi>
+			<lb/>afflictione a Deo ei illata, purgata dicitur, cum cessavit peccatorum afflictio.</p>
+			<p><lb/>736. Quam dubio, <hi rend="italic">ostenso quod potentes sunt deiecti et impotentes qui erant proscripti reducti et</hi>
+				<lb/>elevati, actor hic in fine operis quasi invehit contra fortunam que ludit in humanis rebus nunc
+				<lb/>alta humilians, nunc infirma relevans, et laudat virtutem multipliciter, que firma manet et suos
+				<lb/>possessors facit non timere fortunam, et explicatur hoc de sancto Iohane Baptiste, qui fuit
+			<lb/>virtuosus valde cuius etiam laus hic in fine jambicis canitur versibus.</p>
+			<p><lb/>744. Huic, <hi rend="italic">tangit V (=quinque) quibus virtus redditur conmendabilis.</hi>
+				<pb n="94"/>
+				<lb/>Est eius sublimis, <hi rend="italic">incipit explicare ea que spectant ad commendationen virtutis et primo</hi>
+				<lb/><hi rend="italic">de honore.</hi>
+				<lb/>He que augentur, <hi rend="italic">hic explicat de diviciis</hi>.
+				<lb/>Huic cele. , <hi rend="italic">hic explicat de nobilitate virtutis</hi>.
+				<lb/>Mortales, <hi rend="italic">hic explicat de opere virtutis</hi>.
+				<lb/>Consors, <hi rend="italic">virtus per effectum est consors Dei vel angeli</hi>.
+				<lb/>Nomen, <hi rend="italic">hoc dicit quia virtuosi vocantur dii.</hi>
+				<lb/>Quam felix, <hi rend="italic">hic explicat de prole virtutis, scilicet Temperantia, Prudentia, Justicia et</hi>
+				<lb/><hi rend="italic">Fortitudine.</hi>
+				<lb/>Temperies siquidem, <hi rend="italic">nota quod siquidem corripit primam sillabam, unde Statius Thebaidos:</hi>
+				<lb/><hi rend="italic">grata deum matri siquidem Cibelius Acis</hi>.
+			<lb/>Quid melius, <hi rend="italic">scilicet quam iusticia</hi>.</p>
+			<pb n="95"/>
+			<p><lb/>770. Usum, <hi rend="italic">id est utilitatem</hi>.</p>
+			<p><lb/>773. Illius ad nutum, <hi rend="italic">hoc dicit quia iusticia imperat omnibus aliis virtutibus.</hi></p>
+			<p><lb/>774. At postrema, <hi rend="italic">id est fortitudo.</hi></p>
+		</div>
+	</body>
+</text>
+</TEI>

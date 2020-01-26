@@ -1,0 +1,1747 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistole</title>
+				<author>Guido Faba</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>A. Gaudenzi</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="9476" unit="words">Parole: 9476</measure>
+				<measure quantity="60969" unit="characters_without_spaces">Caratteri (spazi esclusi): 60969</measure>
+				<measure quantity="69081" unit="characters_witht_spaces">Caratteri (spazi inclusi): 69081</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-10-26">26/10/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell'opera: c. 1239-41&#13;
+Parole: 9592&#13;
+Caratteri: 61322&#13;
+Correzione al testo:&#13;
+I&#13;
+ p. 372: fideliter] fidelites <hi rend="italic">ed.</hi>&#13;
+ p. 387 voluntatem ] volutatem <hi rend="italic">ed.</hi>&#13;
+II&#13;
+p. 389 vestram ] vestran <hi rend="italic">ed.</hi>&#13;
+(...) indicano integrazioni congetturali dell'editore&#13;
+GM&#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Guidonis Fabe Epistole</title>
+						<editor>A. Gaudenzi</editor>
+					</analytic>
+					<monogr>
+						<title level="j">Il Propugnatore</title>
+						<imprint>
+							<pubPlace>Bologna</pubPlace>
+							<date>1893</date>
+							<biblScope unit="volume">6.1</biblScope>
+							<biblScope unit="page">359-90</biblScope>
+                                                        <biblScope unit="volume">6.2</biblScope>
+							<biblScope unit="page">372-89</biblScope>
+						</imprint>
+					</monogr>
+					<!-- (ristampa in GUIDO FABA, Dictamina Rhetorica Epistole, Bologna, Forni Editore, 1971, pp. 99-147).-->
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma</item><item type="itemNotaJC">-l'informazione bibliografica è un po' complicata: è stato pubblicato in due volumi di "Il Propugnatore" (non ho trovato conferma se si tratta di una collana, o una rivista) e poi c'è stata ancora una ristampa...</item><item type="itemNotaJC">-tutte e due le parti (cioè quella da Il Propugnatore 6.1 e quella dal 6.2) sono riportate insieme nel testo: dopo la lettera LXIX segue il titolo del secondo volume e la paginazione ricomincia dal 373. Non so come fare, se posso aggiungere nel @n di &lt;pb/&gt; il numero del volume... I titoli dei due volumi li ho inserito in commenti &lt;!-- --&gt;.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="359"/>
+		<!--<lb/>Guidonis Fabe Epistole, ed. A. GAUDENZI, &quot;Il Propugnatore&quot;, 6,1 (1893), pp. 359- 390 .-->
+		<div>
+			<head><lb/>EPISTOLE MAGISTRI GUIDONIS</head>
+			<div>
+				<head type="h_1"><lb/>I.</head>
+				<head type="h_2"><lb/><hi rend="italic">Epistola de fratre ad fratrem super continentia.</hi></head>
+				<p><lb/>Carissimo fratri et tamquam patri domino C., B. scholaris
+					<lb/>Bononie salutem quam sibi. Aqua frigida animo sitienti et
+					<lb/>nuntius bonus de terra longinqua. Unde vestram suppliciter
+					<lb/>deprecor bonitatem propriis meritis honorandam, ut de vestra
+					<lb/>continentia pariter et salute meum velitis animum recreare,
+					<lb/>scientes quod in studio litterarum, Dei vestrique gratia faciente,
+				<lb/>sanus et incolumis persevero.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>II.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva sospitatis et iucunditatis fraterne ad predictam.</hi></head>
+				<p><lb/>Discretionis tue litteras facie leta vidimus et animo recepimus
+					<lb/>iucundati , que nobis tuam salubrem continentiam
+					<lb/>referentes, peroptatum gaudium nuntiarunt. Quare, prout audire
+					<lb/>desideras, intimamus, quod omnia nobis in prosperitate
+					<lb/>successum prospere famulantur et nihil presentialiter deesse
+					<pb n="360"/>
+					<lb/>videtur ad gratie complementum; dum tamen scientiam discas
+					<lb/>thesauro quolibet meliorem, in qua vigilanter debes summo
+					<lb/>conamine laborare: quod diceris diligenter attendens; nec
+					<lb/>est ab incepto opere desistendum, donec fructus respondeat
+				<lb/>laboranti.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>III.</head>
+				<head type="h_2"><lb/><hi rend="italic">De amico ad amicum super recommendatione
+				<lb/>amici et socii eius.</hi></head>
+				<p><lb/>Multe discretionis et probitatis viro domino D. notario
+					<lb/>domini pape, amicorum precipuo, I. de Tebaldis civitatis Bononie
+					<lb/>salutem et honori habito honorem debitum in longitudine
+					<lb/>dierum et vite feliciter aggregare. Naturale quodammodo dignoscitur,
+					<lb/>ubi specialis est fiducia, specialium recreatur. Unde
+					<lb/>fiducialiter ad vos mitto D. presentium portitorem, mihi vinculo
+					<lb/>dilectionis intime copulatum, vestram deposcens gratiam liberalem,
+					<lb/>ut in signum benevolentie specialis ipsum habere dignemini
+					<lb/>in singulis commendatum, ita quod penes vestram prudentiam
+					<lb/>in suis negotiis promovendis mea precamina sibi sentiat
+				<lb/>fructuosa.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>IV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva executionis et grate voluntatis.</hi></head>
+				<p><lb/>Amicus fidelis protectio fortis: qui autem invenit illum,
+					<lb/>invenit thesaurum. Volentes igitur amicitie vestre puritatem
+					<lb/>prudenter invocabilem conservare, que sua virtute redolet et
+					<lb/>preclaritate refulget, taliter amico vestro D., vestris precibus
+					<lb/>et amore vestro, dedimus consilium et favorem, quod semper
+				<lb/>vobis regratiari tenetur et merito deservire.</p>
+				<pb n="361"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>V.</head>
+				<head type="h_2"><lb/><hi rend="italic">De filio ad patrem, ut honoret amicum
+				<lb/>qui pro filio deservivit.</hi></head>
+				<p><lb/>Reverendo patri domino C., pre cunctis viventibus metuendo,
+					<lb/>A. scholaris Bononie salutem et filialis reventie famulatum.
+					<lb/>Vestre dominationis prudentiam vestreque paternitatis
+					<lb/>benignitatem deposco suppliciter et instanter, ut harum latorem
+					<lb/>dominum P. multe generositatis et urbanitatis titulis insignitum,
+					<lb/>qui me liberalitate sua multipliciter honoravit in
+					<lb/>multis, velut meam personam velitis multiplicatis honoribus
+					<lb/>honorare, considerantes quod dicitur «<hi rend="italic">Alteri conferens plus
+				<lb/>honoris consequitur, quam cum gratum officium impertitur</hi>».</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>VI.</head>
+				<head type="h_2"><lb/><hi rend="italic">De filio ad patrem pro subventione.</hi></head>
+				<p><lb/>Cum propter imperatoris adventum, quem Bononienses
+					<lb/>trepidanter exspectant, Bononia facta sit cara in victualibus
+					<lb/>ultra modum, nimis cito, necessitate urguente, defecit pecunia
+					<lb/>paternalis. Unde vestre dominationi supplico, ut indigentie filiali
+					<lb/>denarios dignemini destinare, ita quod expensas facere valeam
+					<lb/>competentes et scientie capere documenta. Nam paterni roboris
+					<lb/>non est denegandum auxilium, ubi debilium postulat necessitas
+				<lb/>filiorum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>VII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva grate voluntatis.</hi></head>
+				<p><lb/>C. pater, A. filio suo cum benedictione salutem. Filius
+					<lb/>sapiens letificat patrem, filius vero stultus mestitia est matris
+					<lb/>sue. Ineffabiliter equidem gestientes, tue filiationis devotionem
+					<lb/>et sinceritatis intimam puritatem scientie margaritam capere
+					<pb n="362"/>
+					<lb/>peroptatam, que thesaurum quemlibet superat et excellit omnem
+					<lb/>lapidem pretiosum, tibi velut oculorum nostrorum lumini et
+					<lb/>vite nostre gaudio singulari, C libras turonensium destinamus,
+					<lb/>tue discretioni sub obtentu paterne gratie demandantes, ut sine
+				<lb/>interruptione studio, vigilando, insistas laudabiliter inchoato.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>VIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia patris contraria ad filium incusatum.</hi></head>
+				<p><lb/>C. pater, A. utinam filio pro salute merorem. Ira patris
+					<lb/>filius stultus, et dolor matris que genuit eum. Inde est quod
+					<lb/>tristis est anima mea, non mediocriter sed ad mortem, de tua
+					<lb/>persona damnabili et famosa que, a laude priorum degenerans,
+					<lb/>facit turpia et committit iugiter inhonesta, perpetuaque
+					<lb/>infamia denigratur et totam maculat parentelam. Fugisti enim
+					<lb/>a fonte aquarum viventium que fluunt impetu de Libano,
+					<lb/>et viam prevaricationis et vitiorum tenebras elegisti. Unde tibi,
+					<lb/>qui tuo petitorio, nescio qua fronte, dulci, blando et ornato
+					<lb/>sermone fraudulenter subsidium quesisti, mitto pecunias in
+					<lb/>novis sacculis competentes, maledictiones videlicet novi et
+				<lb/>veteris testamenti, que super te descendant et maneant sine fine.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>IX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Excusatio filii incusati.</hi></head>
+				<p><lb/>Omnipotenti Domino placuisset quod mortuus essem in
+					<lb/>corpore matris mee, vel, statim cum fudit me ortus in lucem,
+					<lb/>finis et dies ultimus advenisset: non enim sentirem tanti doloris
+					<lb/>aculeum, qui viscera mea penetrat, et gladium his additum.
+					<lb/>Incusatus sum quidem, inculpatus, infamatus, laceratus
+					<lb/>et crudeliter pertractatus contra Deum, contra iustitiam et
+					<lb/>omnimodam rationem ab aliquibus, non ab amicis sed
+					<lb/>emulis, non a veridicis sed maledicis, non a videntibus sed
+					<pb n="363"/>
+					<lb/>stolidis, quorum labia dolosa et lingue multiloque disperdantur.
+					<lb/>Surgat nunc Daniel, cuius spiritum Dominus suscitavit, veritatem
+					<lb/>adiuvet, maledictos condemnet, impios tollat de medio,
+					<lb/>et veritas pateat in aperto. Studui namque, non in damnosis,
+					<lb/>ut mendaces referunt sed in scholis , non in meretricali sed
+					<lb/>in Iustiniano codice diligenter. Non cum lenonibus, nec cum
+					<lb/>lusoribus nec cum histrionibus portio mea fuit; sed cum magnis
+					<lb/>doctoribus, et honestis scholaribus legis scientiam didici prudentiamque,
+					<lb/>et sicut potui profeci et proficere non desisto.
+					<lb/>Unde reverenter supplico paternitati vestre benigne, ut mihi
+					<lb/>suam restituat gratiam, benedictionem dare velit et auxilium
+					<lb/>dirigere consuetum, verbis vanis et frivolis detractorum in
+					<lb/>nullo fidem, sicut sapienti convenit, tribuens; nam in corde
+					<lb/>sapientis non affigit radices, quod ad aurem pertulit audacia
+				<lb/>mentientis.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>X.</head>
+				<head type="h_2"><lb/><hi rend="italic">Citatio iudicis delegati cum forma rescripti.</hi></head>
+				<p><lb/>C. non suis meritis, sed sola Dei miseratione abbas Sancti
+					<lb/>Stephani de Bononia, viro provido et discreto B. notario de
+					<lb/>Ferraria in vero salutari salutem. Insinuatione presentium
+					<lb/>tue pateat probitati, nos a summo pontifice noviter recepisse
+					<lb/>litteras, formam per omnia continentes de verbo ad verbum
+					<lb/>inferius adnotatam. Unde, quia tenemur apostolicis obedire
+					<lb/>mandatis, tibi qua fungimur autoritate mandamus, ut proximo
+					<lb/>die Iovis esse debeas coram nobis rationem facturus Martino,
+					<lb/>et recepturus pariter ad eodem, nec cum eo duxeris interim
+					<lb/>componendum; aliter presumeretur quod iustitiam non haberes.
+					<lb/>Nam quisquis iudicium refugit, de sua plene iustitia non confidit.
+					<lb/>Tenor autem est huiusmodi litterarum: «<hi rend="italic">Gregorius</hi>
+				<lb/>etc.»</p>
+				<pb n="364"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XI.</head>
+				<head type="h_2"><lb/><hi rend="italic">De milite ad militem qui petit aliquid sibi commodari.</hi></head>
+				<p><lb/>Egregio ac magnifico viro domino B. de Mutina militari
+					<lb/>gloria decorato, V. miles de Bononia salutem et prospera prosperis
+					<lb/>cumulare. Ad vestre benevolentie puritatem confidenter
+					<lb/>accedimus, et ad vestre gratie largitatem valde tractabilem
+					<lb/>et benignam sine dubitatione mittimus scripta nostra, tanquam
+					<lb/>ad illum cuius liberalitas comprobata nullam novit repulsam,
+					<lb/>sed ut aurum examinatum rutilat in negotiis amicorum. Rogamus
+					<lb/>equidem generositatis vestre laudabilem probitatem ut,
+					<lb/>in signum amoris precipui, nobis vestrum pallafredum, quo
+					<lb/>fortiter indigemus, mittere et commodare velitis per eumdem
+					<lb/>qui vobis nostras litteras presentabit, attendentes, quod ordo
+					<lb/>rationis expostulat, ut amicorum alter alterius precibus condescendat.
+					<lb/>Habere poteritis memoratum, cum de vestra fuerit
+				<lb/>voluntate.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ad predictam responsiva grata ex parte accommodantis.</hi></head>
+				<p><lb/>Vestris petitionibus grato concurrentes assensu, pallafredum
+					<lb/>vobis mittimus postulatum, vos instanter et affectuosius rogitantes,
+					<lb/>ut tam de ipso quam de aliis rebus nostris, que vestra
+					<lb/>debetis et potestis merito computare, facere velitis vestre beneplacitum
+					<lb/>voluntatis; considerando quod dicitur per prudentem
+				<lb/>«Res cara est danti de qua gaudet amicitia postulantis.»</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ad predictam responsiva contraria non accommodantis
+				<lb/>rem petitam.</hi></head>
+				<p><lb/>Quia pallafredus noster, immo vester et vestris servitiis deputatus,
+					<lb/>non exit de stabulo, inclavatus fortiter propter imperitiam
+					<pb n="365"/>
+					<lb/>ferratoris, dolemus; et est non immerito condolendum ex
+					<lb/>eo, quod amicitie postulanti de ipso facere gratiam non valemus.
+					<lb/>Unde si dari non potest quod petitur, petitoris sapientia
+					<lb/>non turbetur; non enim habet legem necessitas, nec
+				<lb/>voluntas sed impotentia potius incusatur.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">De potestate ad potestatem pro ratione facienda
+				<lb/>civi conquerenti.</hi></head>
+				<p><lb/>Summe generositatis et prudentie viro, domino B. potestati
+					<lb/>Brixie, quem ubique merita magnifica recommendant, A.
+					<lb/>potestas Mediolani salutem et omnimoda semper felicitate
+					<lb/>gaudere. Albertus harum portitor, civis noster honorabilis et
+					<lb/>dilectus, coram nostri presentia positus exposuit conquerendo,
+					<lb/>quod G. terre vestre sibi debet ratione mutui quandam
+					<lb/>pecunie quantitatem, ut testatur publicum instrumentum;
+					<lb/>quam iniuste detinet et reddere contradicit, licet iam solutionis
+					<lb/>terminus sit elapsus. Unde, quia iuris ordo iubet hoc fieri, ut
+					<lb/>semper actor adeat forum rei, ad vos confidenter mittimus
+					<lb/>predictum, vestram propensius magnificentiam rogitantes, ut
+					<lb/>eidem plenam iustitiam velitis facere de predicto; ita quod
+					<lb/>pro vestris civibus, cum se casus obtulerit opportunus, amicitie
+				<lb/>vestre merito respondere grata vicissitudine teneamur.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva grata de iustitia reddita et solutione facta.</hi></head>
+				<p><lb/>Euxaudiende sunt preces animo diligenti, quas informat
+					<lb/>caritas, et amor non deserit honestatis. Inde est quod magnificentie
+					<lb/>vestre litteras discretionis oculis insignitas debito recepimus
+					<lb/>cum honere, ipsarum continentiam tanto velocius
+					<pb n="366"/>
+					<lb/>tantoque libentius effectu prosequente complentes, quanto sic
+					<lb/>per iustitie semitam incedebant, ut a veritatis tramite non
+					<lb/>errarent. Pateat igitur vestre laudabili probitati, quod A. vestro
+					<lb/>civi taliter fecimus amore vestro plenitudinem rationis,
+					<lb/>quod pro nostris concivibus in petitionibus equitatis teneamini
+				<lb/>exaudire preces nostras.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva contraria de iustitia non reddita.</hi></head>
+				<p><lb/>Frustra sibi debitum exigit, qui aliis debitum non impendit.
+					<lb/>Unde miramur, et mirari possumus et debemus
+					<lb/>admiratione debita et non frivola vel inani, discretionem vestram
+					<lb/>dormitare videntes, que vigilare in negotiis consuevit.
+					<lb/>Nulla enim habita consideratione equitatis, a nobis iustitiam
+					<lb/>fieri vestris civibus postulatis; et cum homines terre nostre
+					<lb/>iugiter in vestris partibus spolientur, vos aure surda et clausis
+					<lb/>oculis pertransitis. Unde sapientie vestre laudabiliter sectantes
+					<lb/>vestigia, sicut Brixiensibus facietis, ita contra Mediolanenses
+					<lb/>curabimus nos facere, equanimitatem, ut decet, in
+				<lb/>talibus observantes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De civitate ad militem electum in potestatem.</hi></head>
+				<p><lb/>Eximie nobilitati viro, quem summa commendat strenuitas,
+					<lb/>extollit bonitas et gesta ingentia reddunt carum, domino
+					<lb/>B. de Cremona militari lampade radianti, G. potestas Bononie,
+					<lb/>consilium et populus universus ad vota successus prosperos
+					<lb/>cum salute. De fama spectabili vestri nominis gloriosi et de
+					<pb n="367"/>
+					<lb/>preclaris meritis bonitatis vestre multifariam confidentes, vos
+					<lb/>in potestatem nostre civitatis elegimus unanimiter, concorditer
+					<lb/>et gratanter, Christi gratia faciente; de quo gaudent omnes
+					<lb/>et singuli nostre terre, considerantes quod res publica perseverat
+					<lb/>incolumis, cuius cursus docti committitur arbitrio gubernantis.
+					<lb/>Eapropter exellentiam vestram rogamus dignis laudibus
+					<lb/>commendandam, quatenus electionem factam sic comiter
+					<lb/>et gaudenter velitis recipere prelibatam, vos taliter preparantes
+					<lb/>ut, cum ambaxatores nostros vobis miserimus, sicut decet
+					<lb/>honorifice veniatis, scientes quod duos milites et totidem iudices
+					<lb/>atque notarios vobiscum debetis ducere ac tenere, et pro
+					<lb/>vestro feudo tantam pecuniam habebitis a communi, et
+				<lb/>fenum et paleam abundanter.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva electi recipientis potestariam.</hi></head>
+				<p><lb/>Ex parte universitatis vestre nuper accedens fidelis nuntius
+					<lb/>litteras presentavit; quas summo recipiens cum honore,
+					<lb/>percepi firmiter per easdem, quod me vestrum militem
+					<lb/>vocabitis ad reginem honoratissimo vestre terre. Super quo,
+					<lb/>parentes et amici convenientes in unum et magnificentiam
+					<lb/>vestram dignis laudibus extollentes, consona voce dixerunt,
+					<lb/>providentes communi consilio, quod vestris beneplacitis asservirem,
+					<lb/>obsecundarem mandatis, et iussionibus obedirem. Me
+					<lb/>quidem considerans in me ipso, quasi videor circumplexus:
+					<lb/>nam pro electione recipienda parentela concordat vobiscum,
+					<lb/>et ne consentiam defectus scientie fortiter contradicit.
+					<lb/>Ne igitur arrogantia me incuset, vel presumptio me condemnet,
+					<lb/>previa misericordia summi regis, viam eligo potiorem;
+					<lb/>considerans quod ea que in electo deficiunt bonitatis, supplere
+					<lb/>poterunt merita subditorum. Exhibita namque vestre dominabili
+					<pb n="368"/>
+					<lb/>probitati gratiarum actione multiplici et immensa, pro eo
+					<lb/>quod me immeritum et indignum bonitate vestra promovere
+					<lb/>ad sublimia voluistis, quod per vos concorditer actum fore
+					<lb/>dignoscitur et gaudenter oblatum, animo recipio iucundato;
+					<lb/>cum feudo et sine feudo paratus accedere honorabiliter et
+					<lb/>decenter ad vestra servitia feliciter, auctore Domino, peragenda,
+				<lb/>quandocumque de vestra fuerit voluntate.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia responsiva electi excusantis se
+				<lb/>et non recipientis potestariam predictam.</hi></head>
+				<p><lb/>Non sunt loquele neque sermones quibus reddere valeam
+					<lb/>dignas grates vestre domina(bi)li probitati de honorificentia, per
+					<lb/>quam parvitatem meam ultra merita sublimastis, tantum vestra
+					<lb/>gratia liberali. Nam eligendo me, vestrum militem, ad
+					<lb/>regimen honoratissime terre vestre, super caput meum coronam
+					<lb/>posuistis de lapide pretioso et magnam gloriam et decorem.
+					<lb/>Ut autem manere valeat tanta honorabilitas in honore,
+					<lb/>benevolentie vestre placeat, sicut debet merito complacere,
+					<lb/>quod isto tempore civitatem propriam non relinquam,
+					<lb/>que pro nimia dissensione quasi iacere noscitur in ruina. Igitur
+					<lb/>cum per prudentem dicatur «<hi rend="italic">Excusatio incusationem
+					<lb/>non patitur, quam digna ratio comitatur</hi>», excusatum me
+					<lb/>habere debetis ex ratione rationabili supradicta, contra quam
+					<lb/>ire non licet, quia nimium dedeceret. Quare multiplicatis precibus
+					<lb/>exorare vestram magnificentiam non desino ut, non
+					<lb/>moleste ferentes si vestram potestariam non valeo recipere
+					<lb/>gratiosam, velitis prout viri sapientes contrarium responsum
+					<lb/>equanimiter tolerare, in vero scientes quod vester sum
+					<lb/>totus, et semper et ubique dispositus ad vestra servitia facienda
+				<lb/>tota potentia et virtute.</p>
+				<pb n="369"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XX.</head>
+				<head type="h_2"><lb/><hi rend="italic">De electione episcopi
+				<lb/>littere electionis de capitulo ad capitulum.</hi></head>
+				<p><lb/>Multimode honestatis domino I. arcidiacono Brixiensi, tam
+					<lb/>honestate morum quam sapientie luce fulgenti, prepositus et
+					<lb/>capitulum ecclesie Imolensis reverentiam in omnibus cum salute.
+					<lb/>Bone memorie B. presule nostro viam universe carnis
+					<lb/>ingresso, ne diu vacanti ecclesie cure deesset officii pastoralis,
+					<lb/>ad campane sonitum convenientes in unum, invocata
+					<lb/>gratia Sancti Spiritus, quasi celitus inspirati, vos, in cuius
+					<lb/>persona conveniunt universe que in antistite iure canonico
+					<lb/>requiruntur, in nostrum episcopum elegimus una voce, nullo
+					<lb/>penitus discrepante; quod dicitur diligentius intuentes «<hi rend="italic">Si</hi>
+					<lb/>navis perito rectori committitur, nunquam de facili ventorum
+					<lb/><hi rend="italic">incursibus conquassatur</hi>». Unde benignitati vestre per
+					<lb/>duos ex fratribus nostris litterarum latores, viros non modica
+					<lb/>discretione conspicuos, decretum electionis mittentes omnium
+					<lb/>subscriptionibus roboratum, vestram prudentiam multiplicatis
+					<lb/>precibus exoramus, ut electionem prefatam recipere dignemini
+					<lb/>sic canonice celebratam, ad ecclesiam et civitatem nostram
+					<lb/>venientes fiducialiter et gaudenter, et ad Dei servitium et
+					<lb/>beati Petri apostoli benedicti; ubi clerus et populus cum gaudio
+					<lb/>vos expectant, incrementa spiritualia sperantes recipere per
+				<lb/>vestra salutaria documenta.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva electi recipientis episcopatum.</hi></head>
+				<p><lb/>Benignitatis vestre voluntatibus contradicere non presumo,
+					<lb/>timens ne arrogantie vitio scriberetur, quod faceret ex humilitate
+					<pb n="370"/>
+					<lb/>discretio. Item paveo fortiter vestris petitionibus consentire:
+					<lb/>nam cum indignus sim ad officium pastorale, si navem
+					<lb/>gubernandam recipiam qui remum ducere nondum novi,
+					<lb/>vehementer dubito ne propter naute defectum in mare Petri
+					<lb/>navicula demergatur. Confugiens igitur ad clementiam Dei patris,
+					<lb/>in quo totius consistit misericordie plenitudo, electioni
+					<lb/>vestre concorditer de me facte consentio reverenter, largitori
+					<lb/>supplicans gratiarum, ut insufficientiam meam dignetur omni
+					<lb/>tempore misericorditer adiuvare: quia nullum potest esse boni
+				<lb/>operis edificium, cui Christum suum non subicit fundamentum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia responsiva electi non recipientis episcopatum.</hi></head>
+				<p><lb/>Plana fugere et sequi sublimia res est saluti sepius inimica.
+					<lb/>Sciens igitur firmiter et cognoscens mihi deesse merita
+					<lb/>que in pontifice requiruntur; qui non solum preesse sed prodesse
+					<lb/>debet, et ostendere in se ipso qualiter altos oporteat
+					<lb/>conversari; episcopalis onus honorabile dignitatis recipere non
+					<lb/>presumo, velut importabilem sarcinam et mee gravem nimium
+					<lb/>parvitati, pro quo redderem celesti Domino rationem in die
+					<lb/>indicii de sanguine subditorum. Quare de tanta honorificentia
+					<lb/>Deo gratias referens atque vobis, quibus placere semper desidero
+					<lb/>per servitia gloriosa, electioni de me facte in ecclesia
+					<lb/>vestra renuntio spontanea voluntate, et iuri, si quod mihi
+					<lb/>competit, in eadem; ita quod electio revertatur libere ad capitulum
+				<lb/>unde venit.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De episcopo ad episcopum
+				<lb/>super receptione testium in aliqua causa.</hi></head>
+				<p><lb/>Venerabili in Christo fratri et amico speciali domino M.
+					<lb/>Dei gratia Imolensi episcopo multa sapientia et honestate fulgenti,
+					<pb n="371"/>
+					<lb/>B. eadem gratia Florentinus episcopus in vero salutari
+					<lb/>salutem. Cum Petrus et Maria civitatis nostre litigent coram
+					<lb/>nobis ad divortium celebrandum, ipsa Maria proposuit, in iudicio
+					<lb/>constituta, se velle de iurisdictione vestra producere
+					<lb/>quosdam testes, ad id quod asserit legitime comprobandum.
+					<lb/>Super quibus dignetur inspicere vestra discretio reverenda, ne
+					<lb/>quis ex talibus sit infamis, periurus, subornatus, servituti
+					<lb/>obnoxius, corruptus vel falsus; qui a publicis actibus repelluntur,
+					<lb/>cum veraces esse debeant et fideles: nam, ut ait Salomo
+					<lb/>«<hi rend="italic">liberat animos testi fideles, et profert mendacia versipellis.</hi>»
+					<lb/>Qua de re benignitatis vestre prudentiam rogitamus,
+					<lb/>quatenus testes quos dare voluerit prefata mulier vel procurator
+					<lb/>ipsius, absente parte viri superius nominati citata,
+					<lb/>si prefixo voluerit termino interesse, velitis ad veritatem discendam
+					<lb/>compellere nostris precibus et amore, facientes eosdem
+					<lb/>per vestrum notarium examinari prudenter, secundum
+					<lb/>interrogationes quas cedula continet interclusa, et eorum
+					<lb/>dicta manu publica vestrique sigilli robore communita nobis
+				<lb/>per eundem latorem presentium destinetis.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva grata super testibus receptis et examinatis
+				<lb/>in aliqua causa.</hi></head>
+				<p><lb/>Sicut iniustis petitionibus non licet annuere, ita precamina
+					<lb/>quo sunt iusta non decet fatigationibus protelare. Visa
+					<lb/>ergo vestrarum pagina litterarum et lecta pariter cedula interclusa
+					<lb/>que interrogationes continebat testibus faciendas, nostre
+					<lb/>iurisdictionis homines ad nostram presentiam continuo
+					<lb/>vocari fecimus et venire, quos procurator M. mulieris voluit
+					<lb/>nominare; et receptis ab eisdem pro veritate dicenda corporaliter
+					<lb/>iuramentis, ipsorum depositiones impressione sigilli nostri
+					<pb n="372"/>
+					<lb/>munitas et per nostrum iudicem examinatas prudenter
+					<lb/>et per notarium nostrum fideliter publicatas, fraternitate vestre
+					<lb/>mittimus predilecte, semper ea facere pro viribus cupientes,
+				<lb/>que possint et debeant amicitie vestre merito complacere.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXV.</head>
+				<head type="h_2"><lb/><hi rend="italic">De paupere clerico scholare
+				<lb/>ad prelatum pro aliquo beneficio habendo.</hi></head>
+				<p><lb/>Venerabili in Christo patri et post Deum unico desiderio
+					<lb/>et refugio singulari V., Dei gratia dignissimo episcopo talis
+					<lb/>loci, C. suorum clericorum minimus, scholaris Bononie cum
+					<lb/>recommendatione se ipsum. Illius portus amenitas frequentatur,
+					<lb/>ad quem venientes sperata gratitudine non privantur. Unde
+					<lb/>benignissime paternitatis vestre pedibus advolutus, supplicare
+					<lb/>non desino, ut mei vestri fidelissimi famuli misericorditer dignemini
+					<lb/>recordari, mihi divine pietatis intuitu providendo
+					<lb/>in beneficio competenti, ita quod mea devotio que in sola spe
+					<lb/>gratie vestre innititur, inopem vitam defendere valeat, et ad
+					<lb/>Dei laudem et honorem vestrum incomparabilem, scientie gratiosa
+				<lb/>possit capere documenta.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ad predictam responsiva prelati in aliquo providentis.</hi></head>
+				<p><lb/>V. miseratione divina episcopus talis loci, dilecto sibi C.
+					<lb/>scholari Bononie salutem et benedictionem. In memoria nostra
+					<lb/>devotio tua sedet, cui nondum potuimus providere, cum beneficium
+					<lb/>nullum vacaverit, cuius ad nos collatio pertineret.
+					<lb/>Unde, specialem gratiam facientes tibi, de nostra camera decem
+					<lb/>marchas annis singulis consignamus, donec locus idoneus
+					<lb/>apparebit quem tue fidelitati conferre possimus canonice, prout
+					<lb/>optas. Et quia parum est, in signum rei maioris debeas recipere
+					<lb/>congaudenter, quia non quid quisque tribuit, sed qua
+				<lb/>mente rationabiliter quis intendit intuendum est.</p>
+				<pb n="373"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De episcopo et toto clero ad papam pro licentia
+				<lb/>super adiutorio quod petunt laici in guerra positi.</hi></head>
+				<p><lb/>Sanctissimo patri et domino, Gregorio Dei gratia
+					<lb/>summo pontifici, Henricus miseratione divina episcopus, B.
+					<lb/>archidiaconus, C. archipresbyter, totum capitulum, abbates,
+					<lb/>priores, prepositi, cappellani, et clerus civitatis et dioceseos
+					<lb/>Bononie universus pedum oscula beatorum. Beatitudini
+					<lb/>vestre insinuare constringimur, quod sedula petitio non
+					<lb/>desinit iterare, ut super iis que de novo emergunt novum
+					<lb/>consilium habeamus. Instant quidem potestas et commune Bononie
+					<lb/>iugiter precibus et exhortationibus importunis, ut eis in
+					<lb/>multis necessitatibus positis, propter guerram et maxime pro
+					<lb/>circla civitatis que ad defensionem facta noscitur singulorum,
+					<lb/>aliquam sicut decet compassionem habentes, subvenire
+					<lb/>misericorditer dignaremur, impendentes adiutorium intuitu
+					<lb/>pietatis, non pro collecta, necessitate, vel debito, sed loco benedictionis
+					<lb/>et gratie specialis. Unde non immerito hec reducentes
+					<lb/>ad vestre clementie notionem, sine cuius mandato non
+					<lb/>debent huiusmodi res attentari, paternitati vestre affectione
+					<lb/>multiplici supplicamus, ut nobis dare dignemini licentiam
+					<lb/>laudabilem et benignam, predictis in tanto articulo constitutis
+					<lb/>grata conferendi subsidia caritatis. Nam speciali cum
+					<lb/>iis est agendum clementia, quos causa fovet laudabilis et
+				<lb/>honesta.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva domini pape ad beneplacitum
+				<lb/>pro adiutorio laicis in necessitate dando.</hi></head>
+				<p><lb/>Quamvis ecclesia, sponsa Christi, et mater fidelium et
+					<lb/>magistra, laicis respondere nos debeat serviens cum tributo,
+					<pb n="374"/>
+					<lb/>tamen, ut Rachel plorans filios suos, pro eis plorare debet,
+					<lb/>cum expedit, et ipsos pariter consolari et compati ac debite
+					<lb/>misereri. Nam, ut doctor gentium Paulus testatur apostulus,
+					<lb/><hi rend="italic">quis infirmatur, et ego non infirmor; quis scandalizatur,
+					<lb/>et ego non uror</hi>? Vestris igitur supplicationibus inclinati
+					<lb/>facilem et benignum prostamus assensum petitionibus
+					<lb/>equitatis, dilectioni vestre licentiam liberam conferentes, quod
+					<lb/>pie vestrorum civium onera sublevetis; eis in necessitatis articulo
+					<lb/>constitutis manus adiutrices misericorditer porrigentes,
+					<lb/>ut in vobis locum habere auctoritas videatur, qua dicitur alter
+				<lb/>alterius onera portare; et sic adimplebitis legem Christi.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Aretini a Florentinis contra Perusinos auxilium petunt).</hi></head>
+				<p><lb/>Probitatis vestre magnificentia commendanda manifesta
+					<lb/>veritate cognoscit, et universe provincie luce patet etiam clariori,
+					<lb/>quod Perusini montis habitatores, vento superbie tumefacti,
+					<lb/>nos iniquo odio persecuntur, nostre civitati diversis temporibus
+					<lb/>iniurias et damna inferendo. Nunc autem sue temeritatis
+					<lb/>malitiam innovantes, contra nos modis omnibus moliuntur
+					<lb/>exercitum congregare. Quapropter amicitie vestre puritatem
+					<lb/>deposcimus, ad quam recurrere nos oportet pro nostris
+					<lb/>negotiis, ut nobis adversus predictos velitis succurrere
+					<lb/>magna potentia et virtute, intuentes quod amicorum fidem
+				<lb/>prosperitas non agnoscit, quam sola novit necessitas experiri.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva auxilii ad beneplacitum ad predictam.</hi></head>
+				<p><lb/>Multipliciter obligamur et constringimur non indigne Aretinam
+					<lb/>diligere pro viribus civitatem, que honorem Florentie
+					<pb n="375"/>
+					<lb/>semper animi puritate dilexit, et ipsius gloriam propriam
+					<lb/>reputando, nostro communi toto conamine studuit magnifice
+					<lb/>deservire. Unde vestra negotia nostra merito retinentes,
+					<lb/>hoc volumus ostendere per effectum; et ideo,
+					<lb/>quandocumque vestre placuerit probitati, veniemus in vestrum
+					<lb/>succursum comiter et potenter, intuendo quod dicitur:
+					<lb/>«<hi rend="italic">Fortune, non hominum sunt amici, qui eos in necessitatibus
+				<lb/>derelinquunt, quos in prosperis diligere simulabant</hi>».</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva contraria
+				<lb/>propter impedimenium et dissensionem civitatis.</hi></head>
+				<p><lb/>Quanta gloria prefulserit usque ad hec tempora civitas
+					<lb/>Florentina, fama nuntia veritatis longe lateque triumphaliter
+					<lb/>predicavit. Nunc autem, retrorsum abiens, inimici
+					<lb/>malitia suggerente, sic miserabiliter est conversa, quod affligitur
+					<lb/>universitas amicorum in eius angustiis. Nam, ut de
+					<lb/>multitudine pereuntium taceamus, partem ipsius non modicam
+					<lb/>ignis terribilis iam consumpsit, secundam partem ex alto machine
+					<lb/>proiicientes lapides confregerunt, tertiam vero modo
+					<lb/>simili destruere nitimur incessanter; de quo, licet pro multis
+					<lb/>multipliciter sit dolendum, speciali tamen dolore movemur,
+					<lb/>videntes nos in tribulatione tanta positos dilectioni vestre non
+					<lb/>posse succurrere, et quosdam ob id inspicientes ex adverso
+					<lb/>insurgere ut leones, qui alias mansueti starent ut agni, nec
+					<lb/>presumerent talia cogitare. Quam ob rem amicitie vestre consulimus
+					<lb/>et suademus ut, iniuriam callide dissimulantes et
+					<lb/>in quantum expedit tolerantes, guerram pro viribus evitetis
+					<lb/>prudenter, Florentie statum prosperum laudabiliter exspectantes,
+					<lb/>que rebelles edomitos sue dicioni subicere consuevit magna
+				<lb/>potentia et virtute.</p>
+				<pb n="376"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Commissio alicuius cause de prelato ad subditum.</hi></head>
+				<p><lb/>Henricus miseratione divina Bononiensis episcopus dilecto
+					<lb/>in Christo fratri archipresbytero Sancti Iohannis in Persiceto
+					<lb/>salutem in Christo. In te fore multam prudentiam multamque
+					<lb/>legalitatem veraciter cognoscentes, tibi vices nostras cum fiducia
+					<lb/>delegamus, in iis que in se iuris et facti continent questiones.
+					<lb/>Ideoque tue discretionis examini committimus causam
+					<lb/>que vertitur inter tales, tue probitati dantes litteris presentibus
+					<lb/>in mandatis, ut visis rationibus utriusque partis et probationibus
+					<lb/>diligenter inspectis, causam eamdem, habito consilio
+				<lb/>sapientum, iusto iudicio studeas diffinire.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De civitate ad civitatem pro debito contra scholarem
+				<lb/>furtive recedentem.</hi></head>
+				<p><lb/>Ex querela magistri B. repetitoris (di)dicimus, quod M. terre
+					<lb/>vestre, paulo ante scholaris Bononie, sue immemor salutis pariter
+					<lb/>et honoris, et de futuris non cogitans et de solutione facienda
+					<lb/>non curans, cum rebus propriis furtive recessit decem librarum
+					<lb/>debitum indebite relinquendo, ad quod tenetur pro duodena,
+					<lb/>hospitio, et doctrina. Unde cum hoc tangat non solum
+					<lb/>recedentis personam, sed alios eiusdem civitate scholares singulos
+					<lb/>dehonestet, vestram magnificentiam deprecamur quatenus
+					<lb/>pretexatum velitis compellere ad solvendam pecuniam
+					<lb/>memoratam latori presentium, procuratori magistri superius
+					<lb/>nominati, qui debitum fore tantum demostrabit legitimis documentis;
+					<lb/>alioquin in nostri communis bannum ponemus merito
+				<lb/>debitorem.</p>
+				<pb n="377"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ad predictam responsiva grata.</hi></head>
+				<p><lb/>Ad civitatem Bononie singuli venientes ut scientiam diligant
+					<lb/>et honorem acquirant, honeste vivere debent et prudenter
+					<lb/>morari, quia macula que in scholis contrahitur, postea
+					<lb/>de facili non lavatur. Unde propter honorabilitatem nostri
+					<lb/>communis terrarumque scholarium qui Bononie sunt et erunt,
+					<lb/>M. de quo agitur nostrum civem ad terram vestram remittimus,
+					<lb/>a qua se temere separavit, ut ibi per moram purget
+					<lb/>fugam, et per satisfactionem condignam evitet omnem infamiam,
+				<lb/>sicut decet.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXV.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Amicus amicum invitat ad celebrandum secum Pascha).</hi></head>
+				<p><lb/>In hac preclara solemnitate resurrectionis dominice, decet
+					<lb/>benevolos et amicos ad invicem exultare solatio presentie corporalis.
+					<lb/>Unde, si unquam esse potest, quod esse poterit ex
+					<lb/>quo vestre prudentie complacebit, ad celebrandum Pascha nobiscum
+					<lb/>urbanitate vestra velitis accedere; procul dubio cognoscentes,
+				<lb/>quod hoc loco reputabimus magni doni.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Episcopus Sabinensis commendat nuntium,
+				<lb/>quem in Franciam mittit).</hi></head>
+				<p><lb/>Pateat omnibus hanc paginam inspecturis, quod nos Dei
+					<lb/>gratia episcopus Sabinensis A. nostrum nuntium, presentium
+					<lb/>portitorem, in Franciam mittimus pro nostris redditibus
+					<lb/>colligendis; vestram prudentiam deprecantes, ut ipsum amore
+					<lb/>nostro taliter habere dignemini commendatum, quod vestras
+				<lb/>petitiones et preces teneamur merito exaudire.</p>
+				<pb n="378"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Potestas Bononie procuratorem constituit
+				<lb/>ad negotia que commune habet in curia Romana).</hi></head>
+				<p><lb/>Universis ad quorum audientiam littere iste pervenerint,
+					<lb/>G. potestas Bononie et consilium civitatis eiusdem salutem et
+					<lb/>prosperitatem. Adnotatione presenti vestre pateat probitati,
+					<lb/>quod harum latorem B. pro nobis ac nostro communi in curia
+					<lb/>domini pape procuratorem constituimus specialem ad litteras
+					<lb/>impetrandas et iudices eligendos et ad contradicendum adversariis,
+					<lb/>si qui forsitan apparerent, promittendo quicquid in iis
+					<lb/>fecerit inviolabiliter observare. Ad cuius rei notitiam et
+					<lb/>evidentiam pleniorem, has litteras fecimus nostri sigilli impressione
+				<lb/>muniri.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Amicus amico suorum civium cum Faventinis federatorum
+				<lb/>victoriam nuntiat).</hi></head>
+				<p><lb/>Dilectionis vestre probitas firmiter apprehendat, nos de
+					<lb/>talibus inimicis nostris qui Faventiam destruere venerant
+					<lb/>nobis sociali federe copulatam, noviter obtinuisse plenam victoriam,
+					<lb/>Chisti potentia favorante; ita quod de captis M tenemus,
+					<lb/>inter quos est vir magnificus dominus G. comes egregius
+					<lb/>palatinus; de mortuis autem et suffocatis in aqua numerus
+					<lb/>non habetur. Unde gaudete et exultate nobiscum, quoniam
+					<lb/>extincti sunt rebelles et ceteri de provincia contra nos
+				<lb/>evaginare gladios de cetero non presument.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XXXIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Amicus respondet gratulans de victoria lata).</hi></head>
+				<p><lb/>Benedictus dominus Deus noster qui facit mirabilia magna
+					<lb/>solus, cuius potentia et virtute de inimicis vestris habuistis
+					<pb n="379"/>
+					<lb/>victoriam triumphalem, de qua ineffabiliter exultamus,
+				<lb/>vestra gaudia nostra merito reputantes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XL.</head>
+				<head type="h_2"><lb/><hi rend="italic">Citatio iudicis delegati.</hi></head>
+				<p><lb/>... non suis meritis prior Sancti Iohannis de
+					<lb/>Monte, viro provido et discreto, I. presbytero talis loci in vero
+					<lb/>salutari salutem. Tua bonitas harum significatione cognoscat,
+					<lb/>summum pontificem nobis huiusmodi litteras destinasse: «Gregorius
+					<lb/>episcopus et cet». Unde tibi mandamus auctoritate qua
+					<lb/>fungimur in hac parte, ut pro ratione facienda predicto ad
+					<lb/>nostri presentiam venias die tali, nisi conveneris interim
+				<lb/>cum eodem.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Commissio cause facta a iudice delegato.</hi></head>
+				<p><lb/>Dilecto in Christo fratri C. canonico Imolensi, B. licet
+					<lb/>immeritus prior Sancti Iohannis de Monte civitatis Bononie
+					<lb/>salutem in Domino. Cum summus pontifex causam que vertitur
+					<lb/>inter tales nobis examinandam commiserit et fine canonico
+					<lb/>terminandam, ut in litteris eius videbitis contineri bulla
+					<lb/>plumbea communitis, propter diversa negotia, huiusmodi non
+					<lb/>possum intendere questioni. Qua de re vestre discretioni vices
+					<lb/>nostras de communi partium voluntate duximus committendas,
+					<lb/>vobis auctoritate qua fungimur iniungentes, ut in causa
+					<lb/>predicta mediante iustitia procedatis, eamdem fine debito prout
+				<lb/>convenit terminantes.</p>
+				<pb n="380"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Sententia lata a iudice delegato.</hi></head>
+				<p><lb/>In nomine patris et filii et spiritus sancti amen. Ego B.
+					<lb/>prior Sancti Iohannis de Monte civitatis Bononie, iudex delegatus
+					<lb/>a summo pontifice in hac forma «<hi rend="italic">Gregorius episcopus
+					<lb/>servus servorum Dei et cet.</hi>» auctoritate ipsius de causa cognoscens,
+					<lb/>que inter A. et M. vertitur prelibatos, secundum
+					<lb/>libellos ab eisdem exhibitos in hunc modum «<hi rend="italic">Vobis domino
+					<lb/>tali iudici delegato ego A. conqueror de M. et cet.</hi>» et «<hi rend="italic">Vobis</hi>
+					<lb/>domino tali iudici delegato ego M. reconveniendo A.
+					<lb/><hi rend="italic">conqueror de eodem et cet.</hi>» lite super hoc a partibus contestata,
+					<lb/>et de calumnia prestito iuramento, positionibus seu
+					<lb/>interrogationibus ac responsionibus factis, confessionibus receptis
+					<lb/>et testibus hinc inde productis et publicatis, et auditis
+					<lb/>que viri sapientes circa testium depositiones et acta iudicii
+					<lb/>dicere voluerunt, deliberatione habita diligenti et communicato
+					<lb/>consilio plurium sapientum, diffiniendo pronuntio et pronuntiando
+				<lb/>absolvo M. a petitione A. superius nominati.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Appellatio facta a sententia delegati.</hi></head>
+				<p><lb/>Quia vos, domine B. prior Sancti Iohannis de Monte Bononie,
+					<lb/>iudex a summo pontefice delegate, in causa quam habeo
+					<lb/>cum Martino contra me inique tulistis diffinitivam sententiam
+					<lb/>pro eodem, tam ab ipsa quam ab omni gravamine mihi facto
+					<lb/>appello ad sedem apostolicam viva voce, que velut mater
+					<lb/>sanctitatis pie sublevat onera gravatorum, et apostolos peto
+				<lb/>et iterum peto et instanter peto, sicut postulat ordo iuris.</p>
+				<pb n="381"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Remissio cause ad papam facta a iudice delegato.</hi></head>
+				<p><lb/>Testis sit mihi Deus et acta iudicii proferant in medio
+					<lb/>veritatem, quod in causa que inter A. et a M. vertebatur
+					<lb/>mihi a vestra clementiam delegata, de sapientum consilio iustum
+					<lb/>iudicium iudicavi. Cum autem a sententia per me lata
+					<lb/>M. appellaverit ad sedem apostolicam supradictus, asserens
+					<lb/>contra iustitiam se gravatum, eius appellationi deferens ut
+					<lb/>decuit reverenter, et ad prosequendum eam terminum statuens
+					<lb/>competentem, ipsum ad pedes vestre destino sanctitatis, ut in
+				<lb/>hac parte fiat quicquid vestre beatitudini conplacebit.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLV.</head>
+				<head type="h_2"><lb/><hi rend="italic">De civitate ad civitatem pro securitate.</hi></head>
+				<p><lb/>Licet homines terre nostre viri pacifici habeantur, amicos
+					<lb/>diligentes antiquos et novos acquirere cupientes, tamen ad
+					<lb/>vestram securi non possunt accedere civitatem; causam non
+					<lb/>dicimus, quia non convenit vel oportet: nam huius rei vos
+					<lb/>omnem scitis originem et processum. Rogamus igitur magnificentiam
+					<lb/>vestram laudabilem et prudentem, ut nobis fiduciam
+					<lb/>prebere velitis et securitatem dare, si complacet, per litteras
+					<lb/>speciales; ita quod ad vos duos oratores mittere valeamus,
+					<lb/>qui nostri communis vicem gerentes, potestatem habeant concordiam
+				<lb/>faciendi.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio grata.</hi></head>
+				<p><lb/>Sicut iniustis petentium desideriis non licet annuere, ita
+					<lb/>precamina que sunt iusta non decet fatigationibus protelare.
+					<lb/>Unde vestre prudentie vestreque magnificentie securitatem
+					<lb/>mittimus postulatam per has litteras sigilli nostri communis
+					<lb/>robore communitas, ut ad civitatem nostram fiducialiter venire
+					<pb n="382"/>
+					<lb/>possitis pro concordia facienda, vel oratores mittere, sicut
+				<lb/>de vestra fuerit voluntate.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De legato sedis apostolice ad Ferrarienses offensos.</hi></head>
+				<p><lb/>Gregorius domini pape notarius et apostolice sedis legatus,
+					<lb/>viris nobilibus et utinam sapientibus Salinguerre et universis in
+					<lb/>Ferraria constitutis ad cor unitatis redire et viam agnoscere
+					<lb/>veritatis. Aperite oculos vestros et videte vestram terram circumdatam
+					<lb/>inimicis, ira Domini permittente que super vos et
+					<lb/>civitatem vestram noscitur descendisse, que temere discedens
+					<lb/>ab uberibus ecclesie matris sue, se miserabiliter sociavit persecutoribus
+					<lb/>fidei christiane. Unde vestram monemus prudentiam,
+					<lb/>si qua remansit in vobis, et precipimus, si locum admonitio
+					<lb/>non haberet, ut ad Dominum redeatis et ad mandata
+					<lb/>ecclesie sacrosancte: alioquin in frontibus fidelium crucis signaculum
+					<lb/>imponemus, cuius virtute mirabili vos inimicos Ihesus
+					<lb/>Christi confundent, et expugnabunt omnem hereticam
+				<lb/>pravitatem.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De amico petente consilium ab amico.</hi></head>
+				<p><lb/>Audire potuistis, et nunc certa veritate noscatis quod
+					<lb/>parentelam cum domino C. fecimus divina gratia mediante,
+					<lb/>et, promissione facta et iuramento interposito corporali, uni
+					<lb/>ex filiis eius nostram tenemur filiam tradere in uxorem; quod
+					<lb/>libenter, prout decet, volumus adimplere: nam mortis anime
+					<lb/>non evitat periculum, qui quod promisit et iuravit non ducit
+					<lb/>pro viribus ad effectum. Sane cum tempus advenerit pubertatis,
+					<lb/>in quo precedentia debent sponsalia per matrimonium
+					<lb/>confirmari, et de recipiendo vel recusando unum vel alium
+					<lb/>in nostra sit positum optione, vos rogamus, qui habetis notitiam
+					<lb/>predictorum, ut nobis velitis consulere quem ipsorum in
+				<lb/>generum eligamus.</p>
+				<pb n="383"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XLIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva ad beneplacitum.</hi></head>
+				<p><lb/>Amoris precipua quem habetis in nobis immensitas comprobatur
+					<lb/>ex eo, quod in vestris negotiis nos vultis requirere,
+					<lb/>que gravitatem in se continent et ad honorem pertinent et
+					<lb/>profectum, discretionis oculos aperiendo cum sapientissimo Salomone
+					<lb/>qui ait «Palpebre tue precedans gressus tuos». Unde,
+					<lb/>licet de futuris incerti simus, tamen de his sperantes secundum
+					<lb/>presentia que videmus, vestre consulimus amicitie puritati,
+					<lb/>ut de filiis domini P. Albertum pro vestra filia velitis
+					<lb/>accipere, cui fratres sui non poterunt in moribus et scientia
+				<lb/>coequari.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>L.</head>
+				<head type="h_2"><lb/><hi rend="italic">Item de amico ad amicum super alia materia.</hi></head>
+				<p><lb/>De tue devotionis prudentia confidentes, preces tibi mittimus
+					<lb/>et mandata, unde tali panno, de quo facere volumus indumenta,
+					<lb/>debeas inquirere diligenter, et si forte inveneris ut
+					<lb/>optamus, nobis rescribere non retardes, sciens quod tibi mittemus
+				<lb/>pecuniam in presenti per nostrum nuntium specialem.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva ad predictam.</hi></head>
+				<p><lb/>Donum reputo super omnia gratiosum, cum vestre libet
+					<lb/>dominali probitati mihi suo fideli precipere et devoto: nam
+					<lb/>propterea benevolentie puritas demonstratur et subiecti fidelitas
+					<lb/>renitescit. Qua de re vestra cognoscat bonitas honoranda, quod
+					<lb/>cum fideli amico et mercatore legali Bononia fideliter et legaliter
+					<lb/>inquisivimus et pro undecim sol. emi xij brachia de
+					<lb/>brunecta optima fiorentina, et ita bonum forum et pannum
+					<pb n="384"/>
+					<lb/>numquam potui reperire ad huc, quod vobis mitto per
+					<lb/>nostrum nuntium specialiter destinatum; Deum rogans humiliter
+					<lb/>et instanter, ut vestis quas inde feceritis faciat vos gaudere
+				<lb/>et alias feliciter renovare.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De filio ad parentes super absolutione amici capti
+				<lb/>et noviter liberati.</hi></head>
+				<p><lb/>Letantes letamur summam letitiam nuntiantes, videlicet
+					<lb/>quod dominus P. noster consanguineus et precipuus amicorum
+					<lb/>qui Mutine captus erat et sub duris vinculis tenebatur, nuper
+					<lb/>evasit de carceribus per gratiam Salvatoris, et sanus et hilaris
+					<lb/>est in Bononie civitate. Unde hoc duximus ad vestri notionem
+					<lb/>merito deducendum, ut nobiscum pariter congaudentes, magnificetis
+				<lb/>omnipotentiam Dei patris.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva exultationis.</hi></head>
+				<p><lb/>Quasi vocem de celo audivimus nobis magnum gaudium
+					<lb/>nuntiantem de vestra persona laudabili et discreta, que Christi
+					<lb/>misericordia misericorditer faciente, nuper esse dicitur de Mutinensium
+					<lb/>carceribus liberata. Licet igitur per alios intellexerimus
+					<lb/>supradicta, per vos tamen scire cupimus veritatem, vos
+					<lb/>affectuose rogantes ut velitis facere, prout decet, quod nos
+				<lb/>prossimus ad invicem revidere.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Item de filio ad parentes super prosperitate itineris
+				<lb/>et continentia salutari.</hi></head>
+				<p><lb/>Reducens ad memoriam laudabiliter preces vestras, que
+					<lb/>loco mandatorum debent merito computari, paternitati vestre
+					<pb n="385"/>
+					<lb/>significo modis omnibus reverende quod, prosperitatis itinere
+					<lb/>feliciter obsequente, in litterali studio Bononie sanus et incolumis
+					<lb/>persevero, de vestra continentia semper audire gestiens
+				<lb/>et salute.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LV.</head>
+				<head type="h_2"><lb/><hi rend="italic">De religiosis spoliatis ad principem.</hi></head>
+				<p><lb/>Cum ratione subiectionis et devotionis perpetue nostrum
+					<lb/>debeat monasterium esse Romano imperio commendatum, sub
+					<lb/>umbra salutifera vestre glorie protegi cupimus et merito defensari.
+					<lb/>Ideoque vestre maiestati serenissime flexis genibus
+					<lb/>supplicamus, ut predam a talibus vestris nuntiis eidem loco
+					<lb/>factam in periculum animarum, restitui facere dignemini pietatis
+					<lb/>intuitu monasterio spoliato, ne res contra dispositionen
+					<lb/>celestem seculariter pertententur a laicis, que sunt divinis tantummodo
+				<lb/>usibus deputate.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Imperialis responsio gratiosa.</hi></head>
+				<p><lb/>Quanto nos divina potentia in gradu posuit celsiori, tanto
+					<lb/>fortius debito necessitatis constringimur et iustitiam diligere
+					<lb/>et sponsam eius ecclesiam honore. Unde vestre devotionis
+					<lb/>fidelitas presenti adnotatione cognoscat, quod nuntiis nostris
+					<lb/>qui predam fecisse dicuntur imperialibus damus litteris in
+					<lb/>preceptis, ut monasterio vestro ablata restituant, et ab iniuriis
+				<lb/>inferendis locis religiosis de cetero conquiescant.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ad consanguineos pro servo manumittendo.</hi></head>
+				<p><lb/>Expectantes misericordiam a misericordie largitore, libenter
+					<lb/>ceu tenemur volumus alterius misereri ut, debita nostris
+					<lb/>debitoribus dimittendo misericordiam quam impendimus consequamur
+					<pb n="386"/>
+					<lb/>Indeque vobis committimus et mandamus, quod
+					<lb/>talem servum nostrum non tardetis manumittere vice nostra,
+					<lb/>ita quod civis Romanus existat, et nulla servitutis catena de
+				<lb/>cetero teneatur.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De fratre ad fratrem super alienando predio.</hi></head>
+				<p><lb/>Circa rem familiarem servandam laudabiliter et augendam
+					<lb/>habens non immerito sollicitudinem diligentem, vestre significo
+					<lb/>probitati, quod de tali campo longe posito ab aliis nostris
+					<lb/>locis, qui, prout scitis non est fertilis, immo quasi sterilis fortiter
+					<lb/>et aquosus a tali, ratione suarum possessionum circumpositarum,
+					<lb/>habere possumus C. lib.; que venditio bona et magna
+					<lb/>reputatur ab omnibus convicinis. Unde, si de vestre discretionis
+					<lb/>voluntate procedit quod distrahatur pro tanto pretio res
+					<lb/>prefata, mihi significare litterali descriptione presentialiter
+					<lb/>procuretis, scientes quod huiusmodi alienatio utilitatem afferet
+					<lb/>gratiosam: nam alibi possumus nostram pecuniam melius
+				<lb/>collocare.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva ad predictam.</hi></head>
+				<p><lb/>Vestra fraternalis cognoscat dilectio vestreque commendabili
+					<lb/>pateat probitati, quod alienatio nobis placet quam de
+					<lb/>nostro, ut intimastis, predio potestis facere competentem; et
+					<lb/>discretionem vestram de multa prudentia multimode commendantes,
+					<lb/>presentem assensum future distractioni prestamus; vos
+					<lb/>prout possumus deprecantes quod, si effectum habebit venditio
+					<lb/>nominata, ipsos denarios investire debeatis de consilio amicorum,
+					<lb/>emendo vineam seu terram nobis magis idoneam ac etiam
+				<lb/>fructuosam.</p>
+				<pb n="387"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LX.</head>
+				<head type="h_2"><lb/><hi rend="italic">De consanguineo ad consanguineum pro filia maritanda.</hi></head>
+				<p><lb/>Ad vestri memoriam tractatum quem simul habuimus
+					<lb/>reducentes, vestram dilectionem deposcimus ut A. filiam nostram
+					<lb/>P., de quo mentionem fecimus, vel alteri persona idonee
+					<lb/>matrimonialiter copuletis, scientes quod prudentie vestre consilium
+					<lb/>imitari volumus et ratum habere quicquid feceritis
+				<lb/>in hac parte.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsiva.</hi></head>
+				<p><lb/>Habens voluntatem et desiderium faciendi quod vobis semper
+					<lb/>et ubique debeat complacere, super facto vestre filie maritande,
+					<lb/>quod meum reputo speciale, que ad vestram profectum
+				<lb/>et honorem pertinent faciam, Domino concedente.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Petit clericus remissionem pro collecta.</hi></head>
+				<p><lb/>Viris discretis, honorabilibus et dilectis consulibus et toti
+					<lb/>communitati de Pontido, C. clericus eiusdem loci, scholaris Bononie
+					<lb/>salutem et prosperitatis augmentum. Erga universitatem
+					<lb/>vestram habens omnem quam possum reverentiam et amorem
+					<lb/>cum ratione originis, et contemplatione dilectionis tum
+					<lb/>prudentie titulis, tum propter vestre merita bonitatis, vos
+					<lb/>affectuose ac suppliciter precor multipliciter et instanter, ut
+					<lb/>divino intuitu et honore vestro xv librarum collectam a communi
+					<lb/>vestro mihi nuper impositam velitis remittere ac debite
+					<pb n="388"/>
+					<lb/>relaxare, ita quod vestra bonitas de liberali gratia digne valeat
+					<lb/>commendari et mea crescat fidelitatis devotio, que vobis
+				<lb/>placere, ut desiderat, teneatur per servitia gratiosa.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Excusant se non posse remittere collectam.</hi></head>
+				<p><lb/>Verba oris vestri mellita fuere pariter et decora, sed
+					<lb/>efficacie tante nullatenus extiterunt, quod impositionem collecte
+					<lb/>vobis factam legitime pro communi possent infringere vel
+					<lb/>mutare. Unde vestra dilectio non turbetur manifesta veritate
+					<lb/>cognoscens, quod in aliis pro posse bonitati vestre gratiam
+				<lb/>fecere cupimus et honorem.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Petit commodo ab amico dextrarium.</hi></head>
+				<p><lb/>Viro nobili et prudenti domino A. de Bononia B. miles
+					<lb/>de Ferraria salutem et prosperitatem. Ordo rationis expostulat,
+					<lb/>ut amicorum alter alterius precibus condescendat. Unde recurrens
+					<lb/>ad vestram gratiam confidenter, que sui liberalitate promeruit
+					<lb/>honorari, dilectionis vestre rogito bonitatem, ut mihi
+					<lb/>vestrum dextrarium commodare velitis ac mittere per presentium
+					<lb/>portitorem ad hoc specialiter destinatum, procul dubio
+					<lb/>cognoscentes quod nil tam acceptabile, nil tam carum, nil
+				<lb/>tam generosum hoc tempore necessitas imminens reputaret.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio volentis commodare dextrarium.</hi></head>
+				<p><lb/>Omne cadit meritum, cum suspendit more temporis
+					<lb/>conferendum. Unde visis litteris et perlectis vestre dilectionis
+					<lb/>honorabilis et preclare, que continebentur in eis gratanter duximus
+					<lb/>ad effectum, mora qualibet resecata. Et ecce petitum vobis
+					<lb/>dextrarium per vestrum nuntium destinamus, super omnia
+					<pb n="389"/>
+					<lb/>gratum immo gratissimo reputantes, quotiens vestre placet
+				<lb/>laudabili probitati aliqua de rebus nostris aliquando postulare.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">De fi1io ad patrem pro subventione.</hi></head>
+				<p><lb/>Reverendo genitori suo, domino A. propriis meritis honorando,
+					<lb/>B. scholaris Bononie quicquid devotionis et reverentie
+					<lb/>potest. Naturam aspidis accipit, qui dignum petentium precibus
+					<lb/>non assentit. Cum igitur iterate littere frequenter dolorem
+					<lb/>proposuerint et inopiam filialem, et per vos clamantis filii
+					<lb/>voces non fuerint exaudite, sine dubio vos tangit, ut cum
+					<lb/>licentia vestra loquar, quod superius continetur in exordio
+					<lb/>sapientis. Unde licet quasi semivivus ad estrema descendam,
+					<lb/>habens tamen adhuc fiduciam resurgendi, flexis genibus dominationi
+					<lb/>supplico paternali, ut saltem hac vice meis necessitatibus
+				<lb/>velitis succurrere intuitu pietatis.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">De nepote ad patruum pro auxilio.</hi></head>
+				<p><lb/>Patrus, immo patri domino A. de tali loco, reverendo ac
+					<lb/>multipliciter honorandos C. scholaris Bononie se ipsum. Naturale
+					<lb/>quodammodo esse dignoscitur, ut ubi specialis est fiducia,
+					<lb/>recurratur. Unde totius spei nostre plenitudinem habens in vestra
+					<lb/>commendabili probitate, post solum Deum cuius semper debet
+					<lb/>preponi auctoritas et potestas, dominationi vestre urbanitate ac
+					<lb/>liberalitate plurima renitenti, supplicare non desino modis omnibus
+					<lb/>reverenter, ut rorem vestre gratie velitis infundere super
+					<lb/>meam planctulam sitientem, aliquid loco beneditionis et pietatis
+				<lb/>intuitu destinantes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amicus amico pro captivo relaxando form....</hi></head>
+				<p><lb/>Honorabili viro domino A. de Mutina laudabili et discreto
+					<lb/>G. de Bononia vite longitudinem cum honore. Licet a parvo
+					<pb n="390"/>
+					<lb/>tempore notitiam habuerimus vestre commendabilis probitatis,
+					<lb/>quam per Dei gratiam dum in vestra civitate moram facerem
+					<lb/>acquisivi, tamen in tantum vestra crevit bonitas et sic suam
+					<lb/>demonstravit liberaliter largitatem, quod notitia velut palma
+					<lb/>novitatis pullans et consurgens concepit et genuit benevolentiam
+					<lb/>gratiosam; ipsa vero pregnans ut vitis fecunda statim
+					<lb/>ad partum processit et amorem edidit et preclaram .....;
+					<lb/>quod multipliciter me hortatur ut ad vos recuram, dubitatione
+					<lb/>procul posita. Unde volens predicta veritatis luce
+					<lb/>clarefacere, amicitiam vestram firmiter et affectuose deposco,
+					<lb/>ut efficaciter dignemini laborare, quod A. quasi et un qui
+					<lb/>Mutine carceralibus vinculis detinetur, in numerum ducentorum
+					<lb/>pauperum me computetur, qui pro communi cambiri debent et
+				<lb/>presentialiter relaxari.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">(Potestas Bononie rogat Mutinenses ut quatuor captivos
+				<lb/>Mediolanenses dimittant).</hi></head>
+				<p><lb/>Oddo Mandelli potestas Bononie et consilium civitatis eiusdem
+					<lb/>potestati et consilio Mutine. Licet pro eo quod inimici
+					<lb/>estis non teneamini exaudire, tamen naturalis debet ratio
+					<lb/>vos movere ad ea que sunt iusta pariter et honestas.
+					<lb/>Sane cum talis proditie quator milite Mediolanenses ad vestram
+					<lb/>proditorie duxerit, civitatem si valerent consilia seu
+					<lb/>preces et vos rogare possemus ut cum res huiusmodi sit
+					<lb/>perniciosa exemplo et omnibus tam sapientibus quam insipientibus
+					<lb/>odiosa, ipsos ad futuram providentiam et cautelam deberetis
+				<lb/>dimittere absolutos.</p>
+			</div>
+			<!--<lb/>Guidonis Fabe Epistole, ed. A. GAUDENZI, ?Il Propugnatore?, 6,2 (1893), pp. 372-389.-->
+			<pb n="373"/>
+			<div>
+				<head type="h_1"><lb/>LXX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio Mutinensium.</hi></head>
+				<p><lb/>Quia iustitiam semper dileximus et odio proditores habuimus,
+					<lb/>ideo dilexit nos Dominus et sua potentia defensavit,
+					<lb/>miraculose ponens in nostris manibus inimicos. Unde ad
+					<lb/>ampliorem laudem et gloriam terre nostre, que magis honorificentiam
+					<lb/>respicit quam profectum, Mediolanenses milites
+					<lb/>absolvimus inhoneste proditos et seductos, aliis exemplum
+				<lb/>laudabile faciendi similia relinquentes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia responsio.</hi></head>
+				<p><lb/>Magna est, immo potius maxima et ultra modum miranda
+					<lb/>sapientia terre vestre, que nos verborum dulcedine
+					<lb/>subtili putavit ingenio capere fraudulenter. Sed cum tanta
+					<lb/>sollicitudine vigilemus, quod ad cantum dormire non possimus
+					<lb/>sirenarum; sciatis, quod nostros captos ob amorem
+					<lb/>vestrum custodiemus prudenter, et vos propter honorem vestrum
+					<lb/>velitis Dominum deprecari, quod alios habere nos faciat
+				<lb/>in presenti.</p>
+				<pb n="374"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amicus commendat filium bannitum amico.</hi></head>
+				<p><lb/>Amicorum precipuo, domino B. de Mutina morum claritate
+					<lb/>repleto, A. de Bononia salutem quam sibi. Scio firmiter et
+					<lb/>dubitare non possum, declarante benivolentie puritate, quod
+					<lb/>in visione litterarum istarum nimiam turbationem recipient
+					<lb/>viscera vestri cordis, quoniam de nostris prosperitatibus exultatis
+					<lb/>et doletis fortiter de adversis. Verumtamen, necessitate
+					<lb/>cogente, vobis insinuare compellor periculum et infortunium
+					<lb/>quod in presenti accidit valde magnum: nam C. meus filius
+					<lb/>harum lator interfecit talem diabolo instigante, pro quo bannitus
+					<lb/>perpetuo civitatem perdidit et patrimonii suam partem.
+					<lb/>Unde fiducialiter destino prelibatum ad amicitiam vestram
+					<lb/>laudabilem et preclaram, vos instanter et affectuose deposcens,
+					<lb/>ut velitis eundem vobiscum taliter retinere, quod ab
+				<lb/>inimicis offendi non valeat in persona.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio amici filium benigne recipienti.</hi></head>
+				<p><lb/>Albertum filium vestrum, quem diligimus cordis et animi
+					<lb/>puritate, nuper ex parte vestra litteras precatorias deferentem
+					<lb/>benigne recepimus ut decebat, et loco thesauri pretiosi
+					<lb/>retinere volumus et cum diligentia custodire, ipsius personam
+					<lb/>velut nostram totis viribus honorantes; aliter contra nos sequeretur
+					<lb/>quod dicitur per prudentem: <hi rend="italic">Arridet in prosperis
+				<lb/>amicus amico, et si fallax est eum simulat in adversis.</hi></p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Clericus petit a prelato subventionem.</hi></head>
+				<p><lb/>Multimode honestatis et probitatis viro, patri et domino
+					<lb/>reverendo, C. Dei gratia plebano de Monte Cuculi suis meritis
+					<pb n="375"/>
+					<lb/>honorando, A. eius fidelis clericus promtum devotionis intime
+					<lb/>famulatum. Quamquam necessitatis immensitas meam premat
+					<lb/>nimium parvitatem circa scholastica documenta, ubi caro pretio
+					<lb/>singula distrahuntur, hoc tamen dicere non audeo vestre commendabili
+					<lb/>probitati, sciens et indubitabiliter veritate cognoscens
+					<lb/>quod sic liberalitas in vobis sue virtutis posuit claritatem,
+					<lb/>quod in persona mea tantum defectum minime sustineret;
+					<lb/>unde vestre dominationis meam personam humiliter
+					<lb/>recommendans, largitori supplico gratiarum, ut vobis semper
+				<lb/>concedat facere que ad honorem vestrum debeant pertinere.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio prelati.</hi></head>
+				<p><lb/>Devotionis tue discretio commendanda nobis litteras noviter
+					<lb/>destinatas formavit sagaciter et prudenter, expresse dicere
+					<lb/>seu petere dubitando quod recipere curialiter peraffectat.
+					<lb/>Unde signa muti provide cognoscentes, in x. lib. bon. tibi
+					<lb/>paternali benevolentia providimus, dilectioni tue dantes licentiam
+				<lb/>de cetero loquendi libere ac aperte.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia epistola auxilium implorantis.</hi></head>
+				<p><lb/>Innoteat vestre dominabili probitati quod sanus existo
+					<lb/>per Dei gratiam in persona et hilaris permaneo, non indigne
+					<lb/>fructum expectans debitum de labore. Sane cum finem impediat
+					<lb/>et processum indigentia, rebus contraria fructuosis, ut affectum
+					<lb/>affectus sequatur, huiusmodi velit obstaculum vestra
+				<lb/>prudentia removere.</p>
+				<pb n="376"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio ad eamdem.</hi></head>
+				<p><lb/>Iustum fore dignoscitur et honestum et ab omnibus
+					<lb/>commendabile iudicatur, ut bene meritis benigna gratia
+					<lb/>provideat largitoris. Volentes igitur ad similitudinem medici
+					<lb/>liberantis infirmum indigentie tue curare languorem tibi
+					<lb/>mittimus tantam pecunie quantitatem, demandantes ut de
+					<lb/>agro fructifero, pro quo tua sollicitudo prudenter accessit,
+				<lb/>mercatum facere studeas gratiosum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Potestas et commune Bononie suos oratores increpant et
+				<lb/>hortantur, ut auxillia sibi contra imperatorem parent.</hi></head>
+				<p><lb/>O. de Mediolano Bononie potestas et consilium civitatis
+					<lb/>eiusdem viris nobilibus A. et B. suis ambaxatoribus salutem
+					<lb/>et prosperitatem. Licet multa sapientia sit in vobis, tamen
+					<lb/>non indigne possumus admirari, ex eo quod vestra prudentia
+					<lb/>non apparet super negotiis publicis promovendis. Nam F., qui
+					<lb/>dicitur imperator, gentes congregat ex adverso et nobis adiutor
+					<lb/>aliquis non apparet. Unde vobis quasi dormitantibus imperamus,
+					<lb/>ut a somno surgentes sollicitetis electam militiam
+					<lb/>Lombardie, ut in nostrum subsidium veniat properanter, considerando,
+				<lb/>quod moram trahit ad se periculum in hac parte.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio oratorum.</hi></head>
+				<p><lb/>Digne non possumus reprehendi, quicquid vestre littere
+					<lb/>nuntiarent: nam semper solliciti sumus et attenti circa nostri
+					<lb/>communis profectus et honores pro viribus ampliandos, salva
+					<lb/>gratia dicti vestri. Unde vestra dominatio firma veritate cognoscat
+					<pb n="377"/>
+					<lb/>quod, ad nostram continuam instantiam sollicitam et
+					<lb/>prudentem, milites Mediolanenses electi properanter veniunt
+				<lb/>et potenter ad subsidium terre nostre.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Alia responsio.</hi></head>
+				<p><lb/>Ad ambaxatorum noscitur officium pertinere que imposita
+					<lb/>sunt exequi diligenter; quod si effectum habere nequeunt imperata,
+					<lb/>nihil eis rationabiliter imputetur, cum impotentia non
+					<lb/>possit vel debeat incusari. Unde magnificentia vestra sciat
+					<lb/>quod, nostra sollicitudine procurante, milites de Mediolano magnifice
+					<lb/>veniebant ad nostri communis servitium faciendum.
+					<lb/>Sed Mantuani fortiter se opponunt, viam, corrupti pretio, denegantes.
+					<lb/>Nos autem moram trahimus longiorem, huiusmodi
+				<lb/>obstaculum removere sperantes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Mutinenses, Bononie detenti captivi potestatem
+				<lb/>et consilium sue civitatis exorant ut P. liberent.</hi></head>
+				<p><lb/>Multimodo bonitatis viris dominis A. potestati et toti consilio
+					<lb/>Mutine dignis multis laudibus et honore, universi milites
+					<lb/>et pedites civitatis Bononie carcerati salutem et quecumque
+					<lb/>desiderant optinere. Cum dominus P. vir strenuus atque prudens
+					<lb/>et sui maiores pariter potentes et fideles, immo fidelissimi
+					<lb/>semper nostre permanserint civitati, ut patet omnibus
+					<lb/>et est singulis manifestum; dignum fore dignoscitur, et
+					<lb/>rationi consonum reputatur ut super facto ipsius et absolutione
+					<lb/>futura dignaremini cogitare, maxime cum idem per
+					<lb/>quinque annos et amplius pro communi terre nostre captus
+					<lb/>fuerit et detentus: nam propterea spes resurgendi captos
+					<lb/>alios confoveret, et honor vestri nominis gratum reciperet
+					<pb n="378"/>
+					<lb/>incrementum, aliter omnes in desperationis laqueum caderemus.
+					<lb/>Qua de re magnificentie vestre, discrete, ut valemus
+					<lb/>deposcimus probitatem ut de communi providentia velitis facere
+					<lb/>laudabiliter et prudenter, quod detur pro inscontro domino
+					<lb/>C. de Bononia prelibatus, in vero scientes quod absolvi poterit
+					<lb/>pro eodem, et exemplum singuli reputabunt nostre communitati
+				<lb/>servitia faciendi.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio ad eamdem.</hi></head>
+				<p><lb/>Quanto persona domini P. sequens vestigia antiquorum
+					<lb/>erga nostrum commune maiorem dilectionem habuit et amorem,
+					<lb/>multa multotiens pericula tollerando, tanto peramplius
+					<lb/>tantoque libentius ei debemus facere que sint grata, favore
+					<lb/>debito ipsius gravamina pro viribus removentes. Unde ad vestre
+					<lb/>dilectionis preces quas exaudire tenemur, A. civem bononiensem
+					<lb/>in nostris carceribus constitutum dare volumus
+					<lb/>pro inscuntro domini P. superius nominati, nostris captis
+				<lb/>exemplum laudabili laudabiliter relinquentes.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Ultima citatio comminatoria prelati.</hi></head>
+				<p><lb/>Semper te monuimus et monemus, tibi sub districtione
+					<lb/>qua possumus iniungentes, ut, sicut de iure teneris, presbyteratus
+					<lb/>ordinem venias recepturus, quo tua noscitur ecclesia fortiter
+					<lb/>indigere. Alioquin non immerito locum proprium perderes
+					<lb/>et honorem; nam institutis obviantes canonicis, indignos
+				<lb/>se faciunt ecclesiastice dignitatis.</p>
+				<pb n="379"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amicus amico ut recedat Bononie
+				<lb/>propter guerras futuras et timorem.</hi></head>
+				<p><lb/>Domino atque fratri carissimo, I. Bononie militie scholastice
+					<lb/>deputato, A. de Brixia salutem et fraternum amorem. Inter
+					<lb/>mentis arcana considerantes prudenter, quod ea que de iure
+					<lb/>pertinent ad brachium seculare deberent imperio sine contradictionis
+					<lb/>obstaculo respondere castrum de Ponte Vico nuntiis dedimus
+					<lb/>imperatorie maiestatis, pro quo magni honoris et profectum
+					<lb/>augmentum, volente Domino, sentiemus. Unde properanter
+					<lb/>et latenter a civitate Bononie recedatis; aliter in persona
+				<lb/>sustinere possetis iniuriam et offensam.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Respondet nolens recedere.</hi></head>
+				<p><lb/>Cum scholares loco civium Bononie teneantur secundum
+					<lb/>civitatis ipsius statuta laudabiliter approbate, ubi non est timor
+					<lb/>me non opportet ullatenus trepidare, quicquid vestra
+					<lb/>persona dixerit faciendum sive bonum sive malum. Unde vestra
+					<lb/>probitas firma veritate cognoscat, quod non discedam
+					<lb/>presentialiter a terra superius nominate, in qua non aliter
+				<lb/>volente domino recipiam quam honorem.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">De archipresbytero ad episcopum ut non absolvat
+				<lb/>excommunicatum.</hi></head>
+				<p><lb/>Venerabili in Christo patri et domino speciali A. Dei
+					<lb/>gratia episcopo talis loci, talis archipresbyter devotionis intime
+					<lb/>famulatum. Cum in talem meum subditum, sua contumacia
+					<lb/>requirente, dederimus excommunicationis sententiam de consilio
+					<lb/>sapientum, et idem ad vos frustratorie duxerit appellandum,
+					<lb/>vestram benignitatem deposco ut absolutionis ei beneficium
+					<pb n="380"/>
+					<lb/>impendere non velitis, nisi primo satisfaciat sicut postulat
+				<lb/>ordo iuris.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Miles gaudet militi.</hi></head>
+				<p><lb/>Generoso et magnifico viro domino B. de tali loco dignis meritorum
+					<lb/>preconiis extollendo talis miles salutem et totius felicitatis
+					<lb/>augmentum. In honore vestro nostram reputantes
+					<lb/>honorificentiam specialem, et super electione vestra
+					<lb/>tanquam nostra ineffabiliter gratulantes, dilectioni vestre personam
+					<lb/>et quicquid servitii possumus pollicemur, excellentiam
+					<lb/>vestram affectuose rogantes, ut vestre benevolentie placeat
+				<lb/>saltem aliqua de rebus nostris recipere ad ornatum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amicus amico suo pro uxore quam diligit habenda.</hi></head>
+				<p><lb/>Vobis, qui pater mihi estis et dominus singularis, quia
+					<lb/>mea debent in secreto aperiri secrete, presenti discriptione significo,
+					<lb/>quod me scio fortiter in amorem talis exardescere domicelle,
+					<lb/>quod lingua vel calamus non posses exprimere vel notare.
+					<lb/>Unde misericordiam et non iudicium postulando, prudentie
+					<lb/>supplico paternali, ut facere dignemini quod uxorem habeam
+					<lb/>supradictam, in qua mea vita consistit, et per quam mors sequitur
+				<lb/>repentina.</p>
+				<pb n="381"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>LXXXIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio grata quod faciet eum habere in uxorem.</hi></head>
+				<p><lb/>Tue littere velut spine usque ad viscera nostri cordis crudeliter
+					<lb/>pervenerunt, nostram relinquentes animam vulneratam,
+					<lb/>et ostendentes tuum studium in sepulcro Veneris mortuum et
+					<lb/>sepultum. Inde tue morti venenum salutiferum propinantes,
+					<lb/>petitam domicellam tibi quesumus in uxorem, cum qua leges
+					<lb/>firmare poteris et decreta, et super fortem incudem malleo
+				<lb/>repercussorio fortiter laborare.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XC.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amicus amico pro loco mutando.</hi></head>
+				<p><lb/>Cum prior meus, iniquitatis filius, quasi alter Attila flagellum
+					<lb/>Dei de monasterio monachorum fecerit speluncam latronum,
+					<lb/>et me sic fortiter persequatur quod in eodem nequeo
+					<lb/>permanere, supplico dominationi vestre que semper spes mea
+					<lb/>fuit a iuventute mea, ut in alio loco salutis et vite mihi fideli
+				<lb/>vestro dignemini providere.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio excusatoria non volentis operari.</hi></head>
+				<p><lb/>Scire debetis et non expedit ignorare, quod vos diligimus
+					<lb/>animi puritate et que ad honorem vestrum pertinerent
+					<lb/>libenter suo loco et tempore faceremus, ad que multis rationibus
+					<lb/>obligamur. Ceterum cum facilis mutatio inconstantia
+					<lb/>reputetur, vestre discretioni consulimus ut a vestro monasterio
+					<lb/>minime discedatis, spem totam ponentes in illo qui numquam
+					<lb/>in se deserit confidentes quas dicere presentialiter non
+				<lb/>oportet.</p>
+				<pb n="382"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Amici rogant amico pro litteris dandis priori eorum.</hi></head>
+				<p><lb/>Tanta est legalitas que vestram personam illuminat et decorat,
+					<lb/>et tantus est amor intimus et preclarus quem gratia
+					<lb/>vestri semper habuistis in nobis, quod nullum thesaurum credimus
+					<lb/>posse reperiri, pro quo vestrum negligeretis honorem,
+					<lb/>quam nos aliqua faciendo. Unde non sine causa ultra quam
+					<lb/>dici potest cepimus fortiter admirari, cum veridica relatione cognovimus
+					<lb/>vos nostras litteras priori de Reno minime presentasse;
+					<lb/>quas ut dare velitis pro nobis et coram testibus presentare,
+					<lb/>vestram deposcimus affectuosius probitatem, ita quod
+				<lb/>vestre benevolentie cunctis temporibus ad servitia teneamur.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Excusat se non dedisse litteras priori propter absentiam
+				<lb/>eiusdem.</hi></head>
+				<p><lb/>Si dilectionis vestre preclara sinceritas cognovisset necessitatis
+					<lb/>instantiam, precedentem admirationis causam in epistola
+					<lb/>sua minime posuisset; nam talis prior continue fuit absens,
+					<lb/>cui fuerat huiusmodi presentatio facienda. Sed eo noviter
+					<lb/>veniente, vestras presentavimus litteras sine mora, vobis de
+				<lb/>representatione mittentes publicum instrumentum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Quidam recommendat pauperes clericos studentes prelato.</hi></head>
+				<p><lb/>Reverendo in Christo fratri domino Ot(aviano) Dei gratia
+					<lb/>Bononiensi electo, B. archipresbyter Paduanus in vero salutari
+					<lb/>salutem. Quanto vestra bonitas maioris officii locum tenet,
+					<pb n="383"/>
+					<lb/>tanto sollicitudine maiori constringitur intendere previsioni
+					<lb/>debilium personarum, et maxime illarum que sunt in exilio
+					<lb/>constitute, et ecclesiastice militie sociantur. Inde est quod
+					<lb/>affectuose vestram prudentiam deposcimus et instanter, ut
+					<lb/>divine pietatis intuitu, et ne vituperetur ministerium nostrum
+					<lb/>si premerentur nimia paupertate, P. et A. clericis Paduanis
+					<lb/>discretione ac honestate laudandis iuxta domini legati mandatum
+					<lb/>dignemini providere, considerantes quod ubi est miseria,
+					<lb/>ibi debet esse misericordia, et ubi est necessitas ibi et
+				<lb/>benignitas paternalis.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio grata promittens provisionem dictorum
+				<lb/>clericorum.</hi></head>
+				<p><lb/>Nobis erat propositum et voluntas super provisione vestrorum
+					<lb/>intercedere clericorum, et vestre supervenientes littere,
+					<lb/>quidquid unquam possent alique, addiderunt, in tantum
+					<lb/>quod iidem manifesta veritate cognoscent vestra precamina
+				<lb/>fructuosa.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCVI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Invitat ad officium civem suum vectigalium.</hi></head>
+				<p><lb/>A. Mantuanorum potestas B. viro provido civitatis
+					<lb/>eiusdem Bononie perstudentis salutem et dilectionem. Discretioni
+					<lb/>tue pateat commendande, quod nos de tua probitate
+					<lb/>gerentes fiduciam, et te sperantes scientiam didicisse que terre
+					<lb/>nostre sit merito profutura, sigillum communis Mantue tue
+					<lb/>legalitati committendum, tibi tenore presenti mandantes, ut
+					<lb/>hinc ad talem diem venias huiusmodi, si placet, officium recepturus.
+					<lb/>Alioquin illud, exigente iustitia, curabimus alteri
+				<lb/>designare.</p>
+				<pb n="384"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCVII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Acceptat officium predictum.</hi></head>
+				<p><lb/>Magnificentie vestre litteras fideli vestro noviter destinatas
+					<lb/>et nuntium deferentem easdem, recipiens ad honorem
+					<lb/>vestri nominis reverendi, ad officium sigilli Mantue faciendum
+					<lb/>in termino constituto veniam iusta vestrum beneplacitum
+					<lb/>et mandatum, paratus semper ea facere, que dominationi
+				<lb/>vestre debeant complacere.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCVIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio non venientis ad quod fuerat electus.</hi></head>
+				<p><lb/>Circa responsionem vestre dominationi laudabili faciendam
+					<lb/>respectus duplex mihi duplicem viam prestat. Nam ex
+					<lb/>una parte honorabilitatem officii ad quod electum me dicitis
+					<lb/>considerans et profectum, inducor illud recipere vehementer.
+					<lb/>Ex opposito quidem inspiciens scientie magnanimitatem, quam
+					<lb/>lucri causa dimittere oportet, debita ratione compellor renuere
+					<lb/>quod offertur. Unde nihilominus predicta gratia nobilitati
+					<lb/>vestre grates referens copiosas, officio renuntio memorato,
+					<lb/>prudenter existimans sapientie thesaurum cunctis divitiis
+				<lb/>preponendum.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>XCIX.</head>
+				<head type="h_2"><lb/><hi rend="italic">Reges Francie et Anglie offerunt auxilium domino pape.</hi></head>
+				<p><lb/>Sanctissimo patri et cet. A. et B., Dei gratia Franchie et
+					<lb/>Anglie reges illustres, debite reverentie famulatum. In nobis
+					<lb/>ipsis considerantes attentius, quomodo in honore nobis a
+					<lb/>subditis exhibito delectamur, lucida colligimus veritate
+					<lb/>quanta sit honorabilitate sancta ecclesia preferenda, que ab
+					<lb/>illo retinet principatum, qui est dominantium dominus et princeps
+					<pb n="385"/>
+					<lb/>omnium regum terre. Ideoque beatitudini vestre pateat
+					<lb/>insinuatione presenti nos esse in Ianuensi civitate cum ingenti
+					<lb/>multitudine venire paratos, prout de vestro fuerit beneplacito
+					<lb/>et mandato, ad omnem contrarietatem et molestiam repellendam,
+				<lb/>quam iniuriam propriam reputamus.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>C.</head>
+				<head type="h_2"><lb/><hi rend="italic">Papa respondet mittens suos legatos pro agendis.</hi></head>
+				<p><lb/>Gregorius episcopus servus servorum Dei dilectis in Christo
+					<lb/>filiis A. et B. divina providentia viris catholicis et christianissimis,
+					<lb/>illustribus Franchorum et Anglorum regibus, salutem
+					<lb/>et apostolicam benedictionem. Apostolatui nostro excellentie
+					<lb/>vestre iusinuatio reseravit magne preclaritatis affectum,
+					<lb/>quem habetis erga matrem vestram ecclesiam, quam
+					<lb/>defensare summo conamine peroptatis, vestigia vestrorum
+					<lb/>maiorum laudabiliter imitando. Unde spem indubitatam de
+					<lb/>vobis gerentes, qui semper adiutores fuistis fidei christiane,
+					<lb/>a latere nostro duos legatos, tam discretione quam honestate
+					<lb/>conspicuos, ad vestram gloriam continuo dirigemus, cum quibus
+				<lb/>et utiliter procedet vestre sapiente magnitudo.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>CI.</head>
+				<head type="h_2"><lb/><hi rend="italic">Mediolanenses scribunt Bononiensibus de victoria habita.</hi></head>
+				<p><lb/>Nobilibus et magnificis viris Domino O. de Mandello potestati
+					<lb/>et consilio civitatis Bononie multa sapientia redimitis,
+					<lb/>talis apostolice sedis legatus salutem et dilectionem in Christo.
+					<lb/>Vestre prudentie dignis laudibus honorande rumores gratissimos
+					<lb/>nuntiamus qui supervenerunt de novo, illius gratia faciente,
+					<lb/>qui suam ecclesiam et fideles vult constituere triumphales.
+					<lb/>Noscatis igitur certissima veritate quod Mediolanenses
+					<pb n="386"/>
+					<lb/>trecentos milites de Laudensibus et L. de Pergamensibus
+					<lb/>nunc ceperunt, preter mortuos quorum numerus non habetur,
+				<lb/>de quo gaudete nobiscum, et debeatis merito exultare.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>CII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Prelati capti a piratis et detenti in carcere scribunt pape
+				<lb/>pro auxilio.</hi></head>
+				<p><lb/>Sanctissimo patri et domino Gregorio Dei gratia summo
+					<lb/>pontifici, et venerandis fratribus eius cardinalibus universis
+					<lb/>omnimoda honestate ac discretione conspicuis, I(acobus) prenestinus
+					<lb/>episcopus, et O(ddo) Sancti Nicolai in carcere Tulliano
+					<lb/>diaconus cardinalis, tales archiepiscopi, tales episcopi,
+					<lb/>tales abbates et priores et fratres predicatores et minores et
+					<lb/>alii religiosi eidem associati pedum oscula beatorum. Insinuare
+					<lb/>vestre clementie voce flebili cogimur instantem angustiam
+					<lb/>et dolorem, qualiter dum vocati veniremus ad vestre
+					<lb/>concilium sanctitatis, et aura flante prospera nostre rates undas
+					<lb/>maritimas pertransirent, cum suis galeis occurrentes Appuli
+					<lb/>velociter exadverso, post longum conflictum et interitum
+					<lb/>plurimorum, imbecillitatem nostram sue potentie submiserunt,
+					<lb/>illius iudicio permittente qui multotiens malos permittit
+					<lb/>in sua malitia prevalere. Et sic in civitate Pisana sub iniqui
+					<lb/>principis custodia requiter detinemur, licet ad ostentationem
+					<lb/>aliqua reverentia et honorificentia fiat nobis. Unde vestre paternitati,
+					<lb/>qui vices viventis Dei gerere comprobamini, flexis
+					<lb/>genibus supplicamus, quatenus non solum in hac parte, qui
+					<lb/>mortem subire pro ecclesia non timemus, sed universalis ecclesie
+				<lb/>saluti dignemini providere.</p>
+				<pb n="387"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>CIII.</head>
+				<head type="h_2"><lb/><hi rend="italic">Responsio hortans prelatos ad martyrium sive
+				<lb/>ad patientiam.</hi></head>
+				<p><lb/>Vos estis genus electum et regale sacerdotium, non fllii
+					<lb/>seculi vel noctis seu tenebrarum, sed filii lucis et filii Dei.
+					<lb/>Propter quod non est de presenti persecutione dolendum, sed
+					<lb/>pro futuro potius consolandum: nam Dominus pro corona
+					<lb/>martyrii vos ceu stellas in perpetuas eternitates vocavit. Unde
+					<lb/>gaudete et exultate quia nomina vestra scripta sunt in celis
+					<lb/>et in terris fulgebunt perpetuo per exemplum, quia pro libertate
+					<lb/>ecclesie et pro fide catholica minas contemnendo sevientis
+				<lb/>tyranni, sanguinem vestrum fundere non timetis.</p>
+			</div>
+			<div>
+				<head type="h_1"><lb/>CIV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Quomodo papa excommunicat Pisanos qui ceperant
+				<lb/>notarios et thesaurarios ecclesie Dei.</hi></head>
+				<p><lb/>Gregorius episcopus servus servorum Dei Pisanis. Planxit
+					<lb/>dominus super Laçarum et resuscitavit eum; plangere
+					<lb/>quoque potest ecclesia super populum Pisanum in sepulcro
+					<lb/>iacentem et non resurgentem. Surrexit Laçarus quem vocavit
+					<lb/>Dominus: hic autem populus non potest resurgere quem
+					<lb/>peccata publica non desinunt condemnare: <hi rend="italic">Loquentur Pisani,
+					<lb/>respondebunt insani.</hi> Quid vobis fecit ecclesia mater
+					<lb/>vestra cuius viscera lacerastis? Ut alia innumerabilia beneficia
+					<lb/>taceantur, nonne vobis christianitatis tribuit primordia,
+					<lb/>nonne salutaria prebuit sacramenta, nonne totius provincie
+					<lb/>archipresulatus insignia in vestra constituit civitate? Veritas
+					<lb/>non moritur, et manifesta nequeunt diffiteri. Dignum
+					<lb/>ergo fuit retributione maligna ut qui vos honore tanto profecerat,
+					<lb/>tante premeretur onere gravitatis? Quid fecistis apostate,
+					<lb/>quid cogitastis idolatre, olivas speciosas in campis excidere,
+					<pb n="388"/>
+					<lb/>candelabra radiantia extinguere, gentem sanctam perimere,
+					<lb/>regale sacerdotium removere, prelatos ecclesiarum in maritimis
+					<lb/>undis submergere, episcopos rectores corporum et pastores
+					<lb/>ovium suffocare qui super greges suos noctium vigilias
+					<lb/>vigilabant, quia patris sui beati Petri limina visitabant? Ecce
+					<lb/>grande peccatum, ecce grave delictum, visitare patrem et
+					<lb/>matrem ecclesiam revereri! Sed forsam in cordibus vestris
+					<lb/>dixistis: <hi rend="italic">Non videbit Dominus, nec intelliget Deus Iacob,</hi>
+					<lb/>et alibi qui planctavit aurem non audiet, qui finxit oculos
+					<lb/><hi rend="italic">non considerat.</hi> Credite nobis, quia vera dicimus vobis.
+					<lb/>Non erat Dominus dormiens epulatus a vino, cum ostendistis
+					<lb/>ad hec crimina manus vestras. Immo huiusmodi scribi iussit
+					<lb/>stilis ferreis, manibus angelicis in tabulis eburneis. Vidit enim
+					<lb/>quando apocrisarios et thesaurarios eius cepistis, quando captos
+					<lb/>duxistis, et demum eos Pontio Pilato, idest Lucifero et eius
+					<lb/>carnificibus tradidistis, ut ad recipiendum martyrium in Apuliam
+					<lb/>ducerentur. Surgite nunc, si vitalem spiritum retinetis,
+					<lb/>et nolite obmutescere iam dampnati, sed dicite: quesumus,
+					<lb/>que pena pro tanta nequitia nobis sufficiens reputatur? Afflictio
+					<lb/>nulla existit idonea, ubi tam enormis excessio reperitur?
+					<lb/>nec mors, queque parat ultimum supplicium ad tantum
+					<lb/>interitum competens extimatur; nam Iudeis nequiores fuistis,
+					<lb/>qui excusationem legis habentes, numquam crucifixissent si regem
+					<lb/>glorie cognovissent. Vos autem cognovistis eum, et pro
+					<lb/>nobis mortuum in membris suis iterum cecidistis. Sicque
+					<lb/>sancta mater ecclesia provideat salubriori consilio, ut que
+					<lb/>potest in presenti corrigat, et alia differat in futurum. Unde
+					<lb/>vos excommunicatos denuntiamus et anathemiçatos ex parte
+					<lb/>Domini nostri, et omnes maledictiones damus novi et veteris
+					<lb/>testamenti que super vos descendant et semper debeant permanere.
+					<lb/>Insuper ex parte sedentis in throno et de consilio
+					<lb/>fratrum nostrorum terram vestram in quo delinquit punimus,
+				<lb/>ipsam archiepiscopali dignitate perpetuo spoliantes.</p>
+				<pb n="389"/>
+			</div>
+			<div>
+				<head type="h_1"><lb/>CV.</head>
+				<head type="h_2"><lb/><hi rend="italic">Quidam scibit Marchioni ut reddat res ablatas captivo
+				<lb/>dimisso.</hi></head>
+				<p><lb/>Illustri et magnifico A. Dei gratia marchioni Estensi
+					<lb/>Iohannes Vercellensis quicquid honoris et servitii potest. Placuit
+					<lb/>magnitudini vestre detinere Peponem scholarem de Foro Iulii.
+					<lb/>Sed cum in nullo culpabilis reperiretur, eum liberastis, sed res
+					<lb/>quas habebat sibi reddite non fuerunt. Quare altitudinem vestram
+					<lb/>duxi attentius deprecandam, quatenus res ablatas predicto
+					<lb/>Peponi restituere faciatis, scientes quod si meas preces audiveritis
+					<lb/>in hac parte, de fideli fidelior semper ad vestrum
+				<lb/>servitium permanebo.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Exultatio in nativitate filie imperatricis nate tunc noviter.</hi></head>
+				<p><lb/>Gloriosissima et serenissima domina nostra. Animis nostris
+					<lb/>imperialis magestatis vestre programma, qua decuit reverentia
+					<lb/>et devotione susceptum, continens serenitatem vestram, filiam
+					<lb/>corpore et membris singulis elegantem die XI° mensis transacti
+					<lb/>Iullii in mundi produxisse lucem, gaudium vehemens proinde
+					<lb/>attulit et iocundum, tanquam illis qui de omnium imperiallium
+					<lb/>gaudiorum augmento, que propria reputamus, sumus alacres
+					<lb/>atque leti, de ipsius gaudii participatione serenitati vestre
+					<lb/>imperiali gratiarum actiones non quas debemus, sed possumus
+				<lb/>rependentes.</p>
+				<div>
+					<head><lb/><hi rend="italic">Subscriptio ipsius epistole.</hi></head>
+					<p><lb/>Gloriosissime et serenissime domine sue domine Elisabeth
+						<lb/>Dei gratia Romanorum imperatrici, semper Auguste, et Boemie
+					<lb/>Regine.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

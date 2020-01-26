@@ -1,0 +1,462 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vita Bononii</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Schwartz</name>
+                                        <name>A. Hofmeister</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">EB</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3603" unit="words">Parole: 3603</measure>
+				<measure quantity="22729" unit="characters_without_spaces">Caratteri (spazi esclusi): 22729</measure>
+				<measure quantity="26045" unit="characters_witht_spaces">Caratteri (spazi inclusi): 26045</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-09-08">08/09/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo:Fonti Letterarie </note>
+				<note>Note: Parole: 3645&#13;
+Caratteri: 22970&#13;
+LAB</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Vita Bononii</title>
+						<editor>G. Schwartz</editor>
+						<editor>A. Hofmeister</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Scriptorum Tomi XXX. Pars II.</title>
+						<imprint>
+							<pubPlace>Hannover</pubPlace>
+							<date>1934</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, SS</title>
+						<biblScope unit="volume">30, 2</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="1026"/>
+		<div>
+			<head><lb/>VITA SANCTI BONONII ABBATIS LOCEDIENSIS.
+			<lb/>III. KAL. SEPTEMBRIS TRANSITUS SANCTI BOLONII ABBATIS.</head>
+			<div type="treatise">
+				<head><lb/>INCIPIT VITA EIUSDEM.</head>
+				<div>
+					<head><lb/>[Prologus.]</head>
+					<p><lb/>Grandium materiarum explanationem parvorum ingenia comprehendere nequeunt, et
+						<lb/>plerumque accidit, si forte conantur, in eodem conatu ultra vires ausa succumbunt. Et
+						<lb/>quanto maius ac excellentius fuerit, quod disserendum est, tanto magis obruitur, qui altitudinem
+						<lb/>excellentium rerum explicatione coepta nequit evidenter auditoribus enodare. Unde,
+						<lb/>quia sacrae scripturae testimonio quam plures scientia ac lege Dei eiusque observatione
+						<lb/>perfectos novimus scribendi mysteria aut humiliter declinare aut trepidanter subire et
+						<lb/>sanctam ac memorabilem praecedentium patrum conversationem aut vix aut nullo modo
+						<lb/>scribendam praesumere, quid mirum, si nos omnium peccatorum contagio tabescentes et
+						<lb/>detestante ac diuturnae conversationis labe sordentes, scientiae et operum caecitate vitam
+						<lb/>fedantes non subire praesumimus, quod nobis a confratribus iniunctum graviter toleramus ?
+						<lb/>Quos vitium indifferenter maculat, testis conscientiae accusat, qua temeritate vitam Deo
+						<lb/>per omnia placentis venerabilis sancti patris Bolonii explicare audemus, qui semper in
+						<lb/>cunctis Deo displicere non cessamus ? Et licet ab hoc omnimodis impares simus, etiam si
+						<lb/>scientia suppeteret, erubescimus, verentes ac memores, quia peccatori dixerit Dominus:
+						<lb/>"Quare tu enarras iustitias meas et assumis testamentum meum per os tuum ?" Sed servorum
+						<lb/>Dei monitis obtemperantes eorumque sacris votis obedienter satisfacientes, quod
+						<lb/>de vita et moribus tanti patris cognovimus, memoriae commendandum scribendumque
+						<lb/>aggredimur, sicut pro captu ingenii poterimus, de nobis nichil omnino presumentes, sed
+					<lb/>ipsius memorandi patroni meritis et precantum orationibus confidentes.</p>
+				</div>
+				<div>
+					<head><lb/>INCIPIT VITA BEATI BONONII ABBATIS ET CONFESSORIS.</head>
+					<div type="chapter">
+						<head><lb/>I.</head> <p>Beatus igitur Bononius Bononiae oriundus fuit ibique a pueritia se sub monastico
+							<lb/>praetextu divinae servituti mancipavit. Inter cuius crepundia plurima claruere virtutum
+							<lb/>insignia. Qui a primaeva aetate meditatus, quid futurus erat, sicut legerat, utpote
+							<lb/>"omnem vitam sapientis esse meditationem mortis", cotidie moriebatur mundo, ut viveret
+						<lb/>Christo.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>II.</head> <p>Quattuor principales virtutes scripturarum assertionibus noverat appetendas,
+							<lb/>prudentiam, iustitiam, fortitudinem, temperantiam, ita sibi invicem nexas et mutuo
+							<lb/>cohaerentes, ut, qui unam non habuerit, omnibus careat. Quas omnes sic habuit vir
+							<lb/>venerabilis, ut tamen emineret in singulis. Mundum et ea, quae in mundo sunt,
+							<lb/>posthabuit, Domino adhaesit, saecularia iudicia contempsit. Legerat enim primam virtutem
+							<lb/>monachi esse hominum iudicia contemnere et semper apostolicam sententiam ad
+						<lb/>memoriam revocare: "Si adhuc hominibus placerem, Christi servus non essem".</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>III.</head> <p>Cumque per annos aliquot in eadem urbe in monasterio sancti Stephani carnem
+							<lb/>suam crucifixisset et aetatis ac morum perfectione adolevisset, charismata meliora aemulatus
+							<lb/>excellentiorem vitam est aggressus. De terra et cognatione sua et paterna domo
+							<pb n="1027"/>
+							<lb/>exiit, trans maria secessum solitudinis iuxta Babylonem elegit. Ibi freno durioris et
+							<lb/>supra modum continentioris vitae corpus suum perdomuit omnibusque carnis illecebris
+						<lb/>triumphator agonitheta repugnavit.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>IV.</head> <p>Fama igitur eius boni odoris per totam Aegyptum fragrante principes Aegypti
+							<lb/>et potior pars populi mira dilectione coeperunt eum amplecti adeo, ut darent ei optionem,
+							<lb/>quod vellet, faciendi. At cum frequenter hoc facerent, gavisus sanctus pater Bononius
+							<lb/>Deo gratias egit, per quem barbarica feritas quievit et in mansuetudinem conversa siluit,
+							<lb/>insuper quod inter saevitiam barbarorum intrepidus maneret ad perficienda universa opera
+							<lb/>christianorum. Primum itaque suarum virtutum spiritale iecit fundamentum laborando ad
+							<lb/>reparationem ecclesiarum barbarica vastatione dirutarum. Ibidem quam plurimas reparavit,
+							<lb/>monasterium condidit, in quo abbatem et monachos ordinavit, quorum vitam secundum
+						<lb/>regulam sancti Benedicti instituit.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>V.</head> <p>De loco ad locum transiebat, verbum Dei seminabat, fides credentium crescebat,
+							<lb/>ad quorum informationem multis signorum miraculis coruscans alios ad fidem trahebat
+							<lb/>et sicuti ager terrae bonae fructum centesimum, sexagesimum et tricesimum producebat.
+							<lb/>Cumque quadam die ingressus navem cum mercatoribus illius regionis Alexandriam peteret,
+							<lb/>valida et inevitabili procella subito aequore turbato nullam evadendi iam spem habentes
+							<lb/>clamabant omnes in tanto discrimine constituti, dicentes: "Serve Dei, ecce miserabiliter
+							<lb/>perimus et tu nobiscum, sed secundum tuam praedicationem talem credimus Deum tuum:
+							<lb/>Si oraveris ad eum, liberabit te et nos tecum, et liberati vovemus nos sacramentum baptismatis
+							<lb/>a te sumpturos omnino sequi et perfecte credere in eum". Ad cuius orationem
+							<lb/>repente vehemens maris commotio sedata siluit, et navis a Deo directa felici cursu portum
+							<lb/>Alexandriae, sicut optaverant, intravit, et statim de navi egressis ac de manu mortis Deo
+							<lb/>ministrante ereptis vir Dei saepe memorandus sacramenta baptismatis tradidit. Per totam
+							<lb/>Alexandriam rumor beatae eius opinionis sonuit, quia per eum multa virtutum signa ibi
+							<lb/>Dominus ostendit. Et ne humanus favor, ut saepe assolet, eius mentem nevo insolentiae
+							<lb/>obduceret, clam locum deseruit, pristinam Babylonis solitudinem repetens, vigilis, ieiuniis,
+							<lb/>orationibus et universis sanctis operibus vacavit, vias vitae quam plurimis monstravit
+						<lb/>atque, ut omnes lucrifaceret vir iustus, omnibus est omnia factus.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>VI.</head> <p>Non adulatione per potentiam appetebat potentes nec fastidio aspernabatur
+							<lb/>superbos et insolentes, memor illius invectionis, qua comminatus est Dominus populi
+							<lb/>seductoribus dicens: "Ve vobis, qui consuitis pulvillos et cervicalia sub omni cubitu ad
+							<lb/>decipiendas animas; ecce ego disrumpam eos de brachiis vestris, ut non ultra capiatis animas
+							<lb/>volantes". Quem nec prospera extollere nec adversa noverant inclinare. Pauperes
+							<lb/>sustentabat, divites ad benefaciendum admonebat. Mollia strata non habebat, sed supra
+							<pb n="1028"/>
+							<lb/>duram humum superiecto cilicio et lapide capiti subposito quiescere consueverat, si quies
+							<lb/>est dicenda, quae iugibus orationibus dies et noctes continuabat et membra sua mortificabat
+							<lb/>secundum illud Daviticum: "Lavabo per singulas noctes lectum meum, lacrimis
+						<lb/>stratum meum rigabo".</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>VII.</head> <p>Per idem tempus per universam Aegyptum erat ingens luctus; inter Babyloniorum
+							<lb/>enim ac Romanorum reges gravissimae seditionis creverat tumultus, et facto conflictu
+							<lb/>inter eos plurimi Aegyptiorum occubuerunt; Romani vero multi perierunt et triumpho
+							<lb/>christianis non feliciter succedente multo plures in captivitatem ducti sunt. Inter quos
+							<lb/>Petrus divae memoriae venerandus antistes Vercellensis vinctus et carcere retrusus aderat,
+							<lb/>qui nimia necessitate coactus cautissime inquirebat, si quem forte christianum in eadem
+							<lb/>regione invenire posset, cuius consilio fretus liberari sperabat, et incessanter ex hoc ad
+							<lb/>Deum miserabiliter suspirabat. Sed quia certum, immo et certissimum est, quod Deus
+							<lb/>in se sperantes non deserit, sanctum Bononium ibidem esse Domino revelante cognovit.
+							<lb/>Quem ad se devotissime accersivit et causam captivitatis ac miseriae suae ac ceterorum
+							<lb/>per ordinem innotuit. Postremo, ut sibi et reliquis per misericordiam condescenderet,
+							<lb/>rogavit, videlicet, ut paganorum nexibus absoluti de tam durissima captivitate exirent et
+							<lb/>in patriam terram duce Deo et sancto Bononio redirent. Tunc pater sanctissimus
+						<lb/>magistris carceris pretium dedit et otium ad captivos consolandos introeundi accepit.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>VIII.</head> <p>Cum quadam die rex Babylonis per pomerium arboribus, quibus balsamum
+							<lb/>funditur, consitum nimia iocunditate deambularet, gratiosiores domestici eius inspirante
+							<lb/>Deo quadam concordiae regula ad invicem supplices rogabant eundem regem, ut votis
+							<lb/>sancti Bononii adquiesceret, captivos videlicet christianos vinculis carceris absolutos eidem
+							<lb/>traderet et in patriam redeundi licentiam eis cum eodem beatissimo Dei cultore clementer
+							<lb/>concederet. Tunc rex uxoris et domesticorurm precibus motus votis sancti Bononii
+							<lb/>adquievit, captivos sibi, quos tenebat, reddidit, insuper navigium, quo singuli ad suas
+						<lb/>remearent, et omnia navigantibus necessaria contulit.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>IX.</head> <p>Igitur sanctus Bononius navem ingressus Hierosolimam venit et inde pertransiens
+							<lb/>in monte Sinay locum suae habitationis elegit, ut, sicut Moyses ibi olim susceperat legem
+							<lb/>Dei, in eodem loco Christi confessor adipisceretur gratiam Spiritus sancti. Deinde venit
+							<lb/>Constantinopolim. Tunc custodes navium, videntes tantam multitudinem captivorum,
+							<lb/>pavescentes speraverunt paratas esse adversus eos insidias inimicorum. Et exceptoribus
+							<lb/>ad palatium missis ex imperiali edicto omnes sunt capti et carcerali custodiae mancipati.
+							<lb/>Cumque illius urbis Dei cultores ereptionis eorum causam Deo monstrante cognoscerent,
+							<lb/>apud imperialem potestatem operam dederunt, ut iniuste capti absolverentur et in patriam
+							<lb/>suam coepto cursu feliciter reverterentur. Quorum precibus imperialis potestas annuit;
+							<lb/>omnes enim de carcere eductos absolvit et ex aerario imperii ditatos navigio, quo advenerant,
+							<lb/>cum omnibus, quibus indigebant, misericorditer restituit. Inde cum gaudio singuli
+							<pb n="1029"/>
+							<lb/>ad propria sunt reversi. Petrus Vercellensis episcopus pristinae suae sedi iure est restitutus
+						<lb/>et ibi praefuit multis temporibus.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>X.</head> <p>Interim servus Dei divinae legi se mancipaverat in monte Sinay; ubi tantarum
+							<lb/>virtutum signis claruit, quibus totam Ierosolimorum viciniam sacrosanctae opinionis bono
+							<lb/>odore replevit. Non multo post Vercellensis dioceseos Locoediensis abbas obiit, post
+							<lb/>cuius obitum Petrus praenominatus pontifex nuntiis ad eum directis eundem ad se accersivit
+							<lb/>et nimiis et inevitabilibus precibus eum rogavit, ut defuncto abbati succederet
+							<lb/>et locum et omnes commissos secundum Deum regeret. Cumque circa se Dei voluntatem
+							<lb/>intellegeret nec diutius resistere posset, invitus pater monachorum effectus multis ibidem
+							<lb/>coepit coruscare virtutibus. Sed hostis antiquus, qui omnino, sicut suum est, invidet
+							<lb/>bonis operibus, adversus sanctum pastorem pugnae conflictum adsumpsit et monasterium
+							<lb/>quodam procellae turbine commovit. Ille vero memor illius euangelici: "Si persecuti
+							<lb/>vos fuerint in una civitate, fugite in aliam", scandalum humiliter declinavit atque inde
+							<lb/>recedens in partibus Tusciae interim habitavit. Ubi reparato ad plenum monasterio et
+							<lb/>secundum legem Dei et sancti Benedicti regulam instituto, sicut consueverat ubivis
+						<lb/>locorum, claruit multorum indiciis signorum.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>XI.</head> <p>Interdum prioris loci commotio sedata quievit et Domino revocante ad monasterium
+							<lb/>Locediense rediit, ut ibi plantatus clementia supernae dispensationis ramos ibidem
+							<lb/>diffunderet piae conversationis. Et cum per multa annorum curricula plurima ibi fulgerent
+							<lb/>virtutum suarum insignia, ille angelicus vir semper latere quaerebat, illud Dominicum
+							<lb/>commemorans: "Cum feceritis, quae praecepi vobis, dicite: Servi inutiles sumus; quod
+							<lb/>debuimus facere, fecimus". At cum multo tempore ad construendum domicilium Dei
+							<lb/>vivis et insensibilibus lapidibus laboraret et in omnibus inreprehensibilem se exhiberet
+							<lb/>et iam tempus immineret, ut remunerante Deo sui agonis bravium reciperet, consummato
+							<lb/>opere fratribus valefecit et spiritum Deo reddidit. Post cuius obitum evidenter
+							<lb/>apparuit, quantus et qualis in vita fuit. Nam ad eius sepulchrum plurimas aegritudines
+							<lb/>curatas novimus et de die in diem meritis ipsius fidem credentium informari gaudemus,
+							<lb/>sicut olim verbis sanctae praedicationis, ita nunc miraculorum signis. Demonia fugantur,
+							<lb/>caeci illuminantur, qualibuscumque morbis languidi curantur, et manifeste sanctifìcatus
+						<lb/>sanctis in caelo est coaequatus.</p>
+					</div>
+					<pb n="1030"/>
+					<div type="chapter">
+						<head><lb/>XII.</head> <p>Post cuius transitum transactis aliquot diebus Ardericus Vercellensis ecclesiae
+							<lb/>venerabilis episcopus divino spiritu illustratus, ut debitam devotionem erga tantum Christi
+							<lb/>confessorem impenderet, supra sacratissimum eius corpus altare erigendum et dedicandum
+							<lb/>devotissime adiudicavit. Clero igitur et populo totius ordinis et aetatis ac utriusque
+							<lb/>sexus in unum convenienti ex hac causa verbum fecit, ut conhibentia ac faventis resultatione
+							<lb/>plebis firmaretur exordium tantae religionis. Sapientia itaque sacrosancti pastoris
+							<lb/>et plausu totius gregis competenter sancitum est, ut idem pius pontifex, ut rata fieret eius
+							<lb/>sententia et populi obedientia, ex hoc adquireret apostolicam auctoritatem, quae supereminet
+							<lb/>omnem saeculi potestatem. Et ut religio esset devotior et beatissimi Bononii
+							<lb/>commemoratio celebrior, idem memorandus pontifex Romam abiit, a domno Iohanne
+							<lb/>summo pontifice et universali papa apostolicam auctoritatem adquisivit et inde regressus
+							<lb/>summa gratia et totius plebis laetitia altare erexit et consecravit, adiuvante domino
+							<lb/>nostro Iesu Christo, qui cum Patre et Spiritu sancto vivit et regnat in saecula saeculorum.
+						<lb/>Amen.</p>
+						<p><lb/>EXPLICIT VITA SANCTI BONONII ABBATIS ET CONFESSORIS.</p>
+					</div>
+				</div>
+			</div>
+			<div type="treatise">
+				<head><lb/>INCIPIT PROLOGUS IN MIRACULIS SANCTI BONONII ABBATIS
+				<lb/>ET CONFESSORIS.</head>
+				<p><lb/>Gratia nostri redemptoris, qui fideles suos mundo mortuos secum viventes et conregnantes in caelestibus
+					<lb/>multorum signis miraculorum ostensis perspicue demonstrat, apparet viros fuisse, quorum studio et labore veteris
+					<lb/>et novi testamenti sanctorum patrum opera atque virtutum signa per eos caelitus facta, quibus ad divinum
+					<lb/>amorem excitarentur, posteris scripta relinquerentur. Quisque autem illorum sancto Spiritu, ubi vult, spirante
+					<lb/>et non omnes suas gratias uni, sed partim cunctis tribuente pro virium seu ingenii capacitate pauca vel plura
+					<lb/>studuit, prout potuit, exarare. Ergo fratribus mirae devotionis in Deum, ut miracula per sanctum Bononium,
+					<lb/>dum viveret, sive post eius obitum facta scedulis traderem, precative rogantibus atque praefatorum scriptorum
+					<lb/>michi renuenti exempla obicientibus, quorum minimo nullo modo me audeo comparare, sciens me modicae
+					<lb/>scientiae, sed in Deo spei maximae, qui linguas infantium facit disertas, tandem eorum diutina deprecatione
+					<lb/>devictus atque in ipsorum obsecrationibus tantique confessoris supplicationibus pro me ad Deum confisus, pauca
+					<lb/>de multis ultra mearum virium negotium praesumendo, non patiens cuncta esse incognita, conor memoriae
+					<lb/>tradere humanae. Quorum si nulla foret descriptio, ne meriti commissum talentum abscondentis in terra
+					<lb/>particeps essem, timeo, cum, testante scriptura, bonum sit secretum regis celare et honorificum opera Domini
+					<lb/>laudare et magnificare. Unde obnixe oro lectores, ut non sint huius operis detractores nec verborum rusticitatem
+					<lb/>attendant, sed, quae hic habentur, vera fore credant, quia, quae refero, plura ego ipse vidi, et, quae non a me
+				<lb/>visa, a veridicis et fidelibus viris audivi multorum testimoniis confirmata.</p>
+				<div>
+					<head><lb/>INCIPIUNT MIRACULA SANCTI BONONII.</head>
+					<div type="chapter">
+						<head><lb/>1.</head> <p>Nocturnis igitur hymnis atque laudibus temporibus peractis mos erat beati Bononii in oratorio remorari;
+							<lb/>ubi vacans uberrimis fletibus et oraminum obsecrationibus pro statu sanctae Dei ecclesiae et omnibus
+							<lb/>fidelibus vivis ac defunctis, quanto secretius valebat, non humanae laudis appetitum desiderans, Dominum iugiter
+							<lb/>supplicabat. Ea vero hora, dum haec agerentur, frater quidam, nomine Liutefredus, vir magnae reverentiae
+							<pb n="1031"/>
+							<lb/>provectaeque aetatis, cupiditate victus, videns pulchram candelam in candelabro, subripuit et extinxit atque in
+						<lb/>sinu suo reposuit. Quod dum faceret, Dei iusto et occulto iudicio meruit percuti ab angelo ?</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>3.</head> <p>Aliud miraculum. Beatus Bononius pro causa monasterii cum suis militibus in itinere directus a
+							<lb/>quodam rustico in hospitio devote est receptus Cui suisque refectis appropinquante nocte, domus parvitate in
+							<lb/>ea iacendi facta difficultate, sub divo lecta praeparata fuerunt, sed ruentibus caeli imbribus in eisdem quiescere
+							<lb/>nequiverunt. Domum igitur introierunt, et utcumque valuit, ibi se quisque collocavit. Christi vero servus Bononius
+							<lb/>super quoddam vasculum, ubi panis solebat confici, sua sancta membra dedit quieti; pro cuius honore
+							<lb/>vas illud postea veneratione habitum donum non silendum accipere meruit Deinde cum panis subcineritius
+							<lb/>ex usu ibi pararetur, operante divina clementia absque levamine persaepe fermentatus est repertus, ut qualis
+							<lb/>ac quantus esset vir ille, quem sustulerat, insinuaretur. Quod insolitum et inauditum videntes illius domus
+							<lb/>homines multum ammirari coeperunt; sed recolentes beatum Bononium ibi superiacuisse, id eius meritis fieri non
+							<lb/>dubitaverunt Qui donec in carne mansit, sui Domini acceptam pecuniam non in terra abscondendo, sed negotiando,
+							<lb/>quantum potuit, multiplicare studuit, unde recepta mercede in caelo et in terra honorari et exaltari meruit
+						<lb/>.............</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>6 Aliud.</head> <p>Inter cetera, quae refero, nec illud silendum puto, quod meae accidit matri intercessione ipsius.
+							<lb/>Quae cum esset frigoretica et nimis inde laboraret, ad eum venit atque suis se orationibus commendare studuit.
+							<lb/>Quam ipse vir venerabilis satis benigne gratanterque suscipiens seque Dominum pro ea oraturum promittens tal
+							<lb/>prorupit in voce: "Vade et noli amplius febricitare".Continuo namque melius habuit et citius inde perfecte convaluit.
+						<lb/>...............</p>
+						<p><lb/>Quoniam aliqua, quae vivus peregerat, prout quivimus, summatim scribendo perstrinximus, ad recolendum
+						<lb/>ea, quae post transitum egit, Domino adiuvante, stilum vertamus.</p>
+					</div>
+				</div>
+				<div>
+					<head><lb/>Miracula sancti Bononii abbatis post eius obitum.</head>
+					<div type="chapter">
+						<head><lb/>9.</head> <p>Anno igitur incarnationis dominicae millesimo vigesimo sexto, tempore dormitionis suae in Domino
+							<lb/>accedente, gaudentibus angelis et flentibus populis, beatus Bononius tertio kalendas Septembris ad omnium
+							<lb/>bonorum remuneratorem feliciter perrexit braviumque sui agonis ut optimus atleta accepit. Quo defuncto ita
+							<lb/>confestim eius sanctitatis fama totam per provintiam circumquaque est diffusa, ac si praecones mitterentur,
+							<lb/>quibus is obisse et per eum signa fieri narrarentur. Quod audiens quidam validis compedibus ferreis vinctus
+							<lb/>atque in carcerali custodia magna cum diligentia positus coepit ingemiscere pectusque pugnis tundere et ad Deum
+							<lb/>toto mentis affectu preces fundere: "Si vera", inquiens, "sunt, Christe, quae de famulo tuo Bononio auditu comperi,
+							<lb/>eius, quaeso, meritis et intercessione fac misericordiam michi, ut per me liberatum a tantis, quibus crucior,
+							<lb/>doloribus nomen tuum et servi tui magnificetur et hoc miraculum tuae dexterae potentia factum cunctis intimetur,
+							<lb/>ut maiora his, quae fieri inpraesentiarum perhibentur, eius interventu futura esse sperentur" Hoc
+							<lb/>autem cum diu esset oratum, solutis vinculis Domini miseratione tantique confessoris supplicatione se exauditum
+							<lb/>cognoscens absque mora exiit et eisdem vinculis sumptis ad eius sacri corporis tumulum festinato gressu devenit
+							<lb/>et ibi eadem, quae multo tempore manserunt, suspendit ac gratias agens Deo sanctoque confessori Bononio,
+						<lb/>qualiter ei accidit, per ordinem nobis narravit</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>10 Aliud miraculum.</head> <p>Eodem vero anno, quo ipse sanctus Dei Bononius ex hac vita ad ineffabilem
+							<lb/>polorum gloriam migravit, quidam frater, cui ipse habitum sanctae conversationis tradidit, adeo acri dentium
+							<lb/>dolore torquebatur, ut etiam inediam diesque ac noctes continuatim insomnes duarum ebdomadarum spatio
+							<lb/>pateretur atque ei omni quiete amota per coenobii circuitum quasi amens vagaretur. Nocte autem quadam
+							<lb/>post multam fatigationem, dum caput in gremio infirmorum servitoris ponens modicum somni caperet, apparuit
+							<lb/>ei sanctus Bononius Qui festinus surgens, ut sibi per somnium videbatur, ob honorem tanti patris ad eius
+							<lb/>sacra vestigia osculandum proruit, sed eum vir venerabilis amiciter per mentum accipiens erexit Ad cuius tactum
+							<lb/>ilico omnis dolor est effugatus, simulque frater ille infirmus a somno, quo tenebatur, est excitatus. Hoc
+							<pb n="1032"/>
+							<lb/>autem facto obsequentem sibi vocavit, dicens: "lam enim sancti Bononii visione et consolatione omni dentium
+						<lb/>careo dolore". Sicque sospitate recepta in eadem omni vitae suae tempore mansit.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>11.</head> <p>Item aliud myraculum. Quaedam femina ab adolescentia coniugio copulata, videns sibi non nasci
+							<lb/>filios neque filias, una cum viro suo nimio taedio ac maerore afficiebatur. Haec autem, ut sui uteri sterilitatem
+							<lb/>amitteret, dum multa inlicita, quae putabat prodesse, faceret, cognovit se in vanum laborare, quod temptaret
+							<lb/>velle Dei per sua maleficia superare. Meliore siquidem consilio divinitus inspirata, erogans multas elemosinas
+							<lb/>pauperibus ac insistens assiduis oraminum precibus, se funditus vertit ad Deum, qui solus est verum et unicum
+							<lb/>miserorum praesidium. Non multo post tempore evoluto, dum sopita dormiret, vidit in somnis, quod, si ex
+							<lb/>stillicidiis pluviae stillantibus a domo, in qua vir beatus degit, haberet atque potaret, a suo desiderio fraudata
+							<lb/>non esset. Quae a somno expergefata visionem suo non distulit intimare marito. Tempore namque oportuno
+							<lb/>adveniente una cum viro suo ad iam memorati patris monasterium devenit atque ex aqua, quam desiderabat,
+							<lb/>per quendam sibi notum ab ea rogatum accepit. Qua denique exhausta domumque regressa, paucis transactis
+							<lb/>diebus concepit et peperit atque intervenientibus beati Bononii meritis utriusque sexus prole deinde fecunda
+							<lb/>permansit.
+						<lb/>..................</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>14.</head> <p>Aliud miraculum. Alio vero anno in die natalis ipsius, dum ex multis partibus orbis plurimi ad
+							<lb/>eius sacri corporis tumulum confluerent, Dominum adoraturi et confidentes eius interventu ab instantibus et futuris
+						<lb/>malis posse liberari ipsius suffragia rogaturi, quaedam femina a daemonio vexata ...............</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>16.</head> <p>Aliud. In eadem quoque ecclesia aliud constat esse actum miraculum multa ammiratione venerandum.
+							<lb/>Erat quidam villicus cuiusdam marchionis, vir multae crudelitatis. Qui ut aliquid sibi quolibet ingenio raperet,
+							<lb/>ad eas partes ubi ecclesia beati Bononii sita est, se ire disposuerat. Quem illuc venturum homines, qui ibi
+							<lb/>habitabant, cognoscentes, quaeque sua mobilia fugientes ad suprascriptam ęcclesiam detulerunt. Circum quam
+							<lb/>dum multi sues adessent et, ut illorum mos est, rimando per ęcclesiae cimiterium discurrerent, ipsius muros
+							<lb/>tetigerunt. Unde quodam contagio ita in renibus sunt percussi, ut inde funditus omnem vim amitterent et ea
+							<lb/>die, excepta una sue, cuncti interirent. Quam videlicet suem dum rusticus, cuius erat, mirabiliter contractam
+							<lb/>et moribundam videret, votum vovit Domino et sancto confessori Bononio, quod, si inde convalesceret, unum
+							<lb/>e prioribus quos fetus gigneret in ipsius ęcclesiae servientium stipendio offerret. Facto autem voto mox ipsius
+							<lb/>sus sana efficitur. Quibus villico dictis non fuit credulus illis. Nec mora, confestim equum ascendit et, quod
+							<lb/>cognoverat auditu, ut certius sciret, venit cognoscere visu. His denique visis, quodam tunc timore et amore
+							<lb/>divino conpunctus, ęcclesiam est ingressus. Vovitque Domino et sancto Bononio in illius ęcclesiae finibus commorantibus
+							<lb/>se umquam nil mali facturum et a pravitate sua deinde cessaturum. Qua ex re evidenter ostenditur,
+							<lb/>quantae gratiae et celsitudinis beatus sit Bononius apud omnipotentem Dominum, qui eius vitam a quibusque
+							<lb/>custodivit inmundis, cuius sacra loca inmundos sues non passus est tetigisse impune, unde quorundam hominum
+						<lb/>feritas minueretur et sub ipsius optentu viventibus securitas et protectio maior tribueretur.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>17.</head> <p>Aliud myraculum. Tantorum fama miraculorum longe lateque diffusa quidam adolescens Adam
+							<lb/>nomine, confidens se sanctissimi confessoris meritis ab infirmitate sua liberari, advehitur. Quippe etiam ab ipsis
+							<lb/>cunabulis ita erat contractus, ut cohaerentibus calcaneis natibus, non plantis passus faciendo, sed scamnellis
+							<lb/>manibus subpositis rependo incederet. Tribus denique diebus continuatim et noctibus ad memorati et memorandi
+							<lb/>almifici confessoris altaris crepidinem iacens, ipsius suffragia postulans, quod optaverat Domino largiente
+							<lb/>sui famuli intercessione accipere meruit. Cui hora suae curationis, redeunte sospitatis vigore, tantus aestuationis
+							<lb/>calor affuit, ut etiam interulam, quam erat indutus, exueret et nudus maneret. Hyemps tamen erat. Sanitate
+							<lb/>vero concessa recessit ab eo caloris nimietas. Sicque sospitati redditus in eadem penes nos usque hodie
+						<lb/>manet, sui sanatoris ęcclesiae serviens et Deo et ipsi gratias referens.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>18.</head> <p>Aliud. Per idem tempus alius quoque aeger nomine Heli, aetate grandaevus, miserabili atque
+							<lb/>diutina sorte dirae pestis damnatus advenit. Qui utrorumque pedum officio carens, genua per terram trahendo
+							<lb/>et manibus scamnella habendo incedere solitus erat. Hic accedens ad sacri corporis opiferi confessoris sepulcrum
+							<pb n="1033"/>
+							<lb/>eius postulavit auxilium; cuius adiutus gratia sanitate est donatus pristina. Qui in eadem adhuc degens Deo
+							<lb/>et ipsi sancto Bononio pro sua erectione laudes refert et, quicquid servitii potest, ipsius ecclesiae servientibus
+						<lb/>devote exhibet.</p>
+					</div>
+					<div type="chapter">
+						<head><lb/>19.</head> <p>Aliud myraculum. Quadam die comitissa quaedam nomine Waza, Wilielmi marchionis uxor,
+							<lb/>multis stipata militibus venerat oratum ad ęcclesiam, ubi beati viri corpus iacet humatum. Quae dum super
+							<lb/>altare eius missas celebrari faceret et praesens ibi cum suis et aliis pluribus adesset, quidam mendicus ferens
+							<lb/>filium in scapulis, cuius pes et manus sinistri lateris paralitico morbo aruerant, eam adiit et ab ea alimoniam
+							<lb/>sibi et nato petiit. Illa vero pietatis viscere immota non solum ei non tribuit, verum etiam increpanter et
+							<lb/>exacerbanter propter suam improbitatem, ut a se discederet, praecepit: "Non michi est", inquiens, "tantarum copia
+							<lb/>opum, quae michi et omnibus a me petentibus sufficere possit. Praestantius enim esset te ipsius sancti confessoris
+							<lb/>rogato suffragio, ut tuo sanitatem reddat filio, Domini misericordiam implorare, qui dando postulata,
+							<lb/>non minus thesaurizat, psalmigraphi praeconio impleto dicentis: "Tibi" enim, Domine, "derelictus est pauper,
+							<lb/>pupillo tu eris adiutor". Homo autem ille, quod audivit, facere non distulit. Filium siquidem de scapulis deponens
+							<lb/>prope sacri corporis tumulum prostravit ac genibus flexis et precibus fusis demum ad petendum elemosinas
+							<lb/>hac et illac per ęcclesiam festinando discurrit. Interea dum pater abesset, opitulantibus meritis almi
+							<lb/>confessoris praefato puero summi Dei bonitas non tarda fuit. Et cui elemosina denegabatur, ut claudo ad
+							<lb/>portam templi sedenti, argento et auro carius, membrorum scilicet sanitas, donatur. Hoc namque viso miraculo
+							<lb/>magnus factus est plausus exsultationis ad laudem et gloriam omnem creatoris eiusque confessoris.
+							<lb/>Mox autem huius facti fama per cunctorum aures volitante illuc ab omnibus concurritur, inter quos et pueri
+							<lb/>pater regreditur; quid vero et qualiter actum sit, exquiritur. Tunc praefata comitissa, quomodo res se habuit,
+							<lb/>cunctis exquirentibus innotescere non piguit. Taliter vero omnipotens Deus, qui mira cuncta dispensatione agit,
+							<lb/>hoc miraculum mundo propalari voluit, ut servus suus hinc venerantior et celebrior haberetur, et quia testante
+							<lb/>scriptura signa infidelibus dantur, ut ab infidelitate declinantes discant sperantes in Domino non deficere omni
+						<lb/>bono, cui laus est et gloria per cuncta saeculorum saecula. Amen.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

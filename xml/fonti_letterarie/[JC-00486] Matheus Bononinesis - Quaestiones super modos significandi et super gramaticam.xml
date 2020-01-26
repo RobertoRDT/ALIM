@@ -1,0 +1,3642 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quaestiones super modos significandi et super gramaticam</title>
+				<author>Matheus Bononinesis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>I. Rosier</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="15477" unit="words">Parole: 15477</measure>
+				<measure quantity="91268" unit="characters_without_spaces">Caratteri (spazi esclusi): 91268</measure>
+				<measure quantity="104274" unit="characters_witht_spaces">Caratteri (spazi inclusi): 104274</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2012-11-27">27/11/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Grammatica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: parole 16937&#13;
+caratteri 93391&#13;
+le lettere a e b distinguono le colonne in cui è divisa la pagina&#13;
+&lt;...&gt; indicano integrazioni congetturali dell'editore&#13;
+[...] indicano espunzioni dell'editore&#13;
+[[...]]\.../ indicano espunzioni e correzioni inter scribendum del copista&#13;
+p. 123b principum] principium&#13;
+CC</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>I. Rosier</editor>
+						<title>Mathieu de Bologne et les diverses aspects du pré-modisme</title>
+					</analytic>
+					<monogr>
+						<title level="m">L'insegnamento della logica a Bologna nel XIV secolo</title>
+                                                <editor>D. Buzzetti</editor>
+                                                <editor>M. Ferriani</editor>
+                                                <editor>A. Tabarroni</editor>
+						<imprint>
+							<publisher>Istituto per la storia dell'Università</publisher>
+							<pubPlace>Bologna</pubPlace>
+							<date>1992</date>
+							<biblScope unit="page">73-164</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Studi e memorie per la storia dell'Università di Bologna, n.s.</title>
+						<biblScope unit="volume">7</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Grammatica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma:</item><item type="itemNotaJC">è un testo scolastico con una struttura molto ricca e complessa, che spesso va fino al livello 6, in alcuni brani fino al livello 7. Per fortuna, la logica del testo è più o meno) chiara. Solo in alcuni casi non sono sicuro di aver definito la gerarchia corettamente - soprattutto si tratta di "glosse", che, logicamente, non fanno parte del testo stesso e per questo motivo è difficile trovare per loro un posto adeguato...</item><item type="itemNotaJC">Nondimeno, se c'è qualcuno che conosce e capisce il testo davvero bene, magari dovrebbe controllare la struttura.</item><item type="itemNotaJC">-All'inizio ho messo il titolo del'opera in &lt;!-- --&gt;, perché si ripeteva due volte.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="115a"/>
+		<lb/><!--QUAESTIONES MAGISTRI MATHEI BONONIENSIS-->
+		<lb/>
+		<div>
+			<head><lb/>QUAESTIONES MAGISTRI MATHEI BONONIENSIS
+			<lb/>SUPER MODOS SIGNIFICANDI ET SUPER GRAMATICAM</head>
+			<lb/>
+			<lb/>
+			<p><lb/>INCIPIUNT &lt;QUESTIONES SUPER&gt; MODOS SIGNIFICANDI PER PARTES. PRINCIPIA
+			<lb/></p>
+			<div type="chapter">
+				<head><lb/>&lt;CAP. 1: DE SIGNIFICATO ET MODIS SIGNIFICANDI&gt;</head>
+				<lb/>
+				<p><lb/>Quoniam de principiis &lt;***&gt; cum in qualibet
+					<lb/>dictione que est pars orationis sint
+					<lb/>quinque per ordinem, primum est vox
+					<lb/>que imponitur ad significandum, secundum
+					<lb/>est significatum speciale, ad quod
+					<lb/>imposita est vox ad significandum principaliter,
+					<lb/>tertium est modus significandi essentialis
+					<lb/>generalis que reponit dictionem
+					<lb/>in partem, quartum est modus significandi
+					<lb/>essentialis specialis et iste reponit
+					<lb/>dictionem in speciem partis, quintum est
+					<lb/>modus significandi accidentalis vel consignificata
+					<lb/>vel accidentia quod idem sunt.
+					<lb/>Cum ergo non sit dubium de ipsa voce
+					<lb/>quin ipsa vox ad constructionem faciat,
+					<lb/>quaestio est de aliis quattuor, quod istorum
+				<lb/>sit causa constructionis.</p>
+				<p><lb/>Et prima questio &lt;est&gt; utrum significatum
+					<pb n="115b"/>
+					<lb/>speciale sit causa constructionis.
+					<lb/>Secunda questio est utrum modus significandi
+					<lb/>essentialis generalis, tertia questio
+					<lb/>utrum modus significandi essentialis specialis,
+					<lb/>quarta utrum accidentia vel consignificata
+					<lb/>sit causa constructionis.
+				<lb/></p>
+				<div type="section">
+					<head><lb/>&lt; 1-UTRUM SIGNIFICATUM SPECIALE SIT
+					<lb/>CAUSA CONSTRUCTIONIS &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-1-Quod sic&gt;</head>
+						<p><lb/>Ad primum arguiturl sic, scilicet quod significatum
+						<lb/>speciale sit causa constructionis.</p>
+						<div>
+							<head><lb/>&lt; 1-1-1 &gt;</head> <p>Omnis causa primaria plus influit
+								<lb/>super causatum quam causa secundaria,
+								<lb/>ut habetur in primo <hi rend="italic">De Causis </hi>.
+								<pb n="116a"/>
+								<lb/>Sed significatum speciale dictionis est
+								<lb/>[causa] primaria causa constructionis.
+								<lb/>Modi significandi sunt causa secundaria,
+								<lb/>et tamen modi significandi causant constructionem.
+								<lb/>Ergo significatum speciale
+							<lb/>magis et fortius erit causa constructionis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;1-1-2&gt;</head> <p>Item <hi rend="italic">penitet</hi> et <hi rend="italic">penitentia habet</hi>
+								<lb/>habent eandem constructionem. Sed non
+								<lb/>habent eosdem modos significandi. Tamen
+								<lb/>habent idem significatum speciale.
+								<lb/>Ergo videtur quod significatum speciale
+							<lb/>sit causa constructionis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;1-1-3&gt;</head> <p>Item dicit P.H. super secundum
+								<lb/>Minoris, quod hec est incongrua <hi rend="italic">asinus
+								<lb/>rationalis</hi> et <hi rend="italic">homo irrationalis</hi>, et tamen
+								<lb/>est ibi bona convenientia accidentium et
+								<lb/>modorum significandi, sed tantummodo
+								<lb/>est diversitas in significato speciali. Ergo
+								<lb/>videtur quod diversificatio in significato
+								<lb/>speciali diversificet constructionem et ita
+							<lb/>causatur a significato speciali.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;1-1-4&gt;</head> <p>Item, sicut se habent significata
+								<lb/>specialia ad veritatem et falsitatem, ita se
+								<lb/>habent modi significandi ad congruitatem
+								<lb/>et ad incongruitatem. Ergo permutata
+								<lb/>proportione, sicut se habent modi significandi
+								<lb/>ad veritatem et falsitatem, ita se habent
+								<lb/>significata ad congruitatem et ad incongruitatem.
+								<lb/>Sed modi significandi
+								<lb/>bene sunt causa veritatis et falsitatis.
+								<pb n="116b"/>
+								<lb/>Unde hec est vera <hi rend="italic">homo est albus</hi>, hec autem
+								<lb/>est falsa <hi rend="italic">homo est albedo</hi>. Sed <hi rend="italic">albus</hi> et
+								<lb/><hi rend="italic">albedo</hi> non diversificantur nisi in modis
+								<lb/>significandi[s]. Ergo videtur, cum modi
+								<lb/>significandi possint esse causa veritatis et
+								<lb/>falsitatis, quod etiam significata specialia
+								<lb/>possunt esse causa constructionis sive
+							<lb/>congruitatis et incongruitatis.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 1-2 - Quod non &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt; 1-2-1 &gt;</head> <p>In oppositum arguitur. Variata
+								<lb/>causa varia[t]ur effectus. Sed variato significato
+								<lb/>non variatur constructio. Eadem
+								<lb/>est constructio hic, <hi rend="italic">equus Sortis</hi> et hic,
+								<lb/><hi rend="italic">cappa Sortis</hi>. Ergo significatum speciale
+								<lb/>non est causa constructionis, cum eadem
+							<lb/>constructio maneat, variato significato.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;1-2-2 &gt;</head> <p>Item. [[variatio]] Posita eadem
+								<lb/>causa, ponitur effectus idem. Ergo si significatum
+								<lb/>speciale esset causa constructionis,
+								<lb/>quecumque significarent eandem
+								<lb/>rem, eandem constructionem haberent.
+								<lb/>Quare, cum <hi rend="italic">lego</hi> et <hi rend="italic">lectio</hi> habeant idem significatum
+								<lb/>speciale, construentur eodem
+								<lb/>modo, quod falsum est. Ergo significatum
+							<lb/>speciale non est causa constructionis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 1 &gt;</head>
+					<p><lb/>Solutio. Dicendum ad hoc primo quod
+						<lb/>&lt; significatum speciale &gt; est principium
+						<pb n="117a"/>
+						<lb/>materiale constructionis quodammodo,
+						<lb/>secundum quod dicit Priscianus in principio
+						<lb/><hi rend="italic">Minoris</hi>. In illa parte dicit enim quod
+						<lb/>intelligibile cuiuslibet dictionis, idest significatum,
+						<lb/>quod in intellectu apprehenditur,
+						<lb/>est quodammodo elementum id est
+						<lb/>materiale principium orationis. Et non
+						<lb/>est penitus principium materiale et completivum
+						<lb/>orationis, sed vox
+						<lb/>cum suo significato. Sed notandum quod
+						<lb/>significatum speciale aliquando potest
+						<lb/>esse principium efficiens occasionale constructionis,
+						<lb/>sed nunquam est principium
+						<lb/>efficiens formalei et completivum. Unde
+						<lb/>ad hoc intelligendum, sciendum est quod
+						<lb/>modi significandi, qui sunt in dictione,
+						<lb/>eque fundantur supra modos intelligendi,
+						<lb/>qui sunt in anima, et eis correspondent.
+						<lb/>Isti autem modi intelligendi, aliquando
+						<lb/>accipiuntur penes aliquam proprietatem
+						<pb n="117b"/>
+						<lb/>rei et aliquando non. Verbi gratia. In hoc
+						<lb/>quod est vir modi intelligendi et modi significandi
+						<lb/>accipiuntur penes proprietatem rei,
+						<lb/>et tales modi significandi et modi
+						<lb/>intelligendi cum hoc dicuntur dispositiones
+						<lb/>rei accepte. Sed in hoc nomine quod
+						<lb/>est <hi rend="italic">motus</hi>, modi significandi qui sunt in
+						<lb/>dictione &lt; et &gt; modi intelligendi qui sunt in
+						<lb/>anima non correspondent alicui proprietati rei,
+						<lb/>que significatur per hoc quod
+						<lb/>dico <hi rend="italic">motus</hi>. Et tales modi significandi et
+						<lb/>modi intelligendi non sunt dispositiones
+						<lb/>rei accepte solum in talibus dictionibus.
+						<lb/>Ergo ubi modi significandi fundantur supra
+						<lb/>modos intelligendi, qui modi intelligendi
+						<lb/>respondent proprietatibus rei, in
+						<lb/>talibus dico quod significatum speciale illius
+						<lb/>dictionis est principium efficiens occasionale
+						<lb/>constructionis et materiale. In
+						<lb/>illis autem, in quibus modi significandi et
+						<pb n="118a"/>
+						<lb/>modi intelligendi non correspondent alicui
+						<lb/>proprietati rei revera, tunc significatum
+						<lb/>speciale est altera pars principii et
+						<lb/>materialis solum, et nichil operatur ad
+						<lb/>constructionem quantum est de se, ita
+						<lb/>quod sit aliquo modo causa efficiens. Est
+						<lb/>ergo determinatio questionis In hoc, quod
+						<lb/>significatum speciale dictionis est principium
+						<lb/>materiale orationis. Sed adhuc hoc
+						<lb/>in parte, quia significatum cum voce totum
+						<lb/>est principium materiale constructionis.
+						<lb/>Sed numquam est eius principium efficiens
+						<lb/>et formale nisi occasionaliter, ut
+						<lb/>dictum est et visum est.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt;RESPONSIO AD ARGUMENTA&gt;</head>
+						<p><lb/>Argumenta pro parte ista concedenda
+						<lb/>&lt;non&gt; sunt, quoniam male concludunt.</p>
+						<div>
+							<head><lb/>&lt;Ad 1-2-1&gt;</head> <p>Primum enim concludit
+								<lb/>quod si significatum speciale esset [esset]
+								<lb/>causa efficiens completa ipsius constructionis,
+								<lb/>tunc contingeret variare effectum,
+								<lb/>causa variata. Sed hoc non convenit, quia
+								<lb/>eadem constructio est hic <hi rend="italic">equus Sortis</hi> et
+								<lb/>hic <hi rend="italic">asinus Sortis</hi>. Et hoc conceditur, quod
+								<lb/>significatum speciale dictionis non sit efficiens
+								<lb/>causa constructionis, tamen non impedit
+							<lb/>quin possit esse occasionaliter.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-2-2 &gt;</head> <p>Secundum autem argumentum
+								<lb/>concludit quod si significatum speciale
+								<lb/>esset causa constructionis efficiens,
+								<lb/>quecumque idem significant, eodem
+								<lb/>modo construerentur. Et hoc est inconveniens.
+								<lb/>Sed adhuc tenet quod possit esse
+								<lb/>causa occasionalis et remota, et revera talis
+								<lb/>causa non est proprie causa quia de se
+							<lb/>et immediate non relinquit effectum.</p>
+							<pb n="118b"/>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-1-1 &gt;</head> <p>Ad argumentum in oppositum,
+								<lb/>dicendum ad primum, quod omnis
+								<lb/>causa primaria plus influit supra causatum
+								<lb/>quam causa secundaria. Hec propositio
+								<lb/>scribitur primo <hi rend="italic">De Causis</hi> &lt; in &gt;
+								<lb/>agentibus univoce et non equivoce. Unde
+								<lb/>cum sol et homo generant hominem, et
+								<lb/>sol sit causa primaria, et homo causa secundaria,
+								<lb/>non potest concludere per illam
+								<lb/>propositionem, quod sol plus agat in generatum
+								<lb/>quam homo, quia sol generat[ur]
+								<lb/>equivoce, homo autem univoce.
+								<lb/>Et ideo ibi sunt diversa genera generationum
+								<lb/>et causarum. Similiter in proposito,
+								<lb/>quando dicitur quod significatum speciale
+								<lb/>est causa primaria, hoc est verum et
+								<lb/>materialis. Et quando dicitur quod modi
+								<lb/>significandi sunt secundaria causa constructionis,
+								<lb/>hoc est verum &lt;et&gt; efficiens,
+								<lb/>et ita in diversis generibus cause. Quare
+								<lb/>non potest concludere, quod significatum
+							<lb/>speciale sit magis causa quam modis significandi.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-1-2&gt;</head> <p>Ad secundum dicendum,
+								<lb/>quod <hi rend="italic">penitet</hi> et <hi rend="italic">penitentia</hi> habet eodem
+								<lb/>modo construantur. Sed hoc non est gratia
+								<lb/>significati specialis, sed est gratia quorundam
+								<lb/>modorum significandi,
+								<lb/>qui utrobique similes inveniuntur. Verbi
+								<lb/>gratia, quia <hi rend="italic">penitet</hi> significat per modum
+								<lb/>ut est alicuius et per modum transeuntis,
+								<lb/>eo construitur cum accusativo. Et quia
+								<lb/>iste dictiones <hi rend="italic">penitentia habet</hi> istos habent
+								<lb/>eosdem modos significandi, quia <hi rend="italic">penitentia</hi>
+								<lb/>significat per modum entis alicuius,
+								<lb/>et <hi rend="italic">habet</hi> significat per modum transeuntis
+								<lb/>in aliud, unde non est mirum, si
+								<pb n="119a"/>
+								<lb/>habeant eandem constructionem cum
+								<lb/>hoc quod dico <hi rend="italic">penitet</hi>. Non tamen hoc facit
+								<lb/>significatum speciale, sed modi significandi,
+								<lb/>ut dictum est. Unde notandum,
+								<lb/>quod diverse partes orationis possunt habere
+								<lb/>eadem accidentia vel eosdem modos
+								<lb/>significandi accidentales, dummodo illi
+								<lb/>modi significandi accidentales non repugnant
+								<lb/>modis significandi essentialibus generalibus
+								<lb/>illarum partium orationis. Ideo
+								<lb/>hoc verbum <hi rend="italic">penitet</hi> potest habere istos
+								<lb/>duos modos significandi, quia significat
+								<lb/>per modum illius quod est alicuius, et per
+								<lb/>modum illius quod transit in aliud, cum
+								<lb/>isti duo modi significandi non repugnent
+								<lb/>modo significandi essentiali generali ipsius
+								<lb/>verbi, quod est significare per modum
+								<lb/>fluentis ad aliud cum distantia. Sic
+								<lb/>simpliciter hoc nomen <hi rend="italic">penitentia</hi> potest
+								<lb/>habere modum significandi quod est significare
+								<lb/>per modum ut ens alicuius, cum
+								<lb/>iste modus non repugnat modo significandi
+								<lb/>essentiali generali nominis. Et ita
+								<lb/><hi rend="italic">penitet</hi> et <hi rend="italic">penitentia habet</hi> eodem modo
+								<lb/>construuntur, non propter idem significatum,
+							<lb/>sed propter eosdem modos significandi.</p>
+							<pb n="119b"/>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-1-3 &gt;</head> <p>Ad aliud dicendum, quod
+								<lb/>hec constructio <hi rend="italic">asinus rationalis</hi>, et <hi rend="italic">homo
+								<lb/>irrationalis</hi>, incongrua est, idest impropria.
+								<lb/>Quantum tamen est de modis significandi
+								<lb/>congrua est simpliciter, sed tamen
+								<lb/>impropria est propter modorum discrepantiam
+								<lb/>intelligendi, et est ibi acirologia,
+								<lb/>sermo inconsuetus et improprius. Et
+								<lb/>nota quod hec est impropria <hi rend="italic">asinus rationalis</hi>,
+								<lb/>hec autem est propria <hi rend="italic">asinus est rationalis</hi>,
+								<lb/>sed tamen falsa, quia oppositi
+								<lb/>modi intelligendi magis repugnant in uno
+								<lb/>extremo quam in diversis extremis. Glosetur
+								<lb/>ergo auctoritas P.H., hec est incongrua
+							<lb/><hi rend="italic">asinus rationalis</hi> idest impropria.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-1-4&gt;</head> <p>Ad ultimum dicendum,
+								<lb/>quod verum est, quod si modi significandi
+								<lb/>sint causa veritatis et falsitatis, significata
+								<lb/>erunt causa congruitatis et incongruitatis.
+								<lb/>Et eodem modo, si ita est
+								<lb/>quod modi significandi non sunt causa
+								<lb/>veritatis et falsitatis nisi occasionaliter
+								<lb/>(unde falsitas istius constructionis <hi rend="italic">homo
+								<lb/>est albedo</hi> causatur a disconvenientia predicati
+								<lb/>cum subiecto, et illa disconvenientia
+								<lb/>causatur ex eo quod res que significatur
+								<lb/>sub abstractione ponitur pro eadem re
+								<pb n="120a"/>
+								<lb/>significata sub concretione; et ita iste modus
+								<lb/>significandi essentialis specialis est
+								<lb/>causa occasionalis et remota veritatis et
+								<lb/>falsitatis et bene concedebatur, quod significatum
+								<lb/>poterat esse occasio congruitatis
+								<lb/>et incongruitatis aliquando, sicut dictum
+								<lb/>est in corpore questionis.
+								<lb/>
+							<lb/>-------------</p>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Glose. &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>(?) &lt;Glose marge inférieure, f. 95r, S2&gt;</head>
+						<p><lb/>Notandum quod duplex est gramaticus,
+							<lb/>gramaticus purus et non purus. Purus
+							<lb/>gramaticus est qui considerat consignificata[m]
+							<lb/>tantummodo, et est etiam gramaticus
+							<lb/>qui considerat ... et consignificata, et
+							<lb/>ille est partim methaphisicus et partim
+							<lb/>gramaticus. Dico sic quod hec constructio
+							<lb/><hi rend="italic">asinus rationalis</hi>, illa congrua est quantum
+							<lb/>ad purum gramaticum ..., hec est incongrua
+							<lb/>idest impropria quantum ad secundum
+							<lb/>gramaticum, quia est ad verum(?)
+							<lb/>de vera re. Et nota quod dico opposita
+							<lb/>in una? extrema? &lt;magis&gt; repugnant
+							<lb/>quam in diversis, et illa magis est
+							<lb/>propria <hi rend="italic">asinus est rationalis</hi>, quam illa <hi rend="italic">asinus
+							<lb/>rationalis</hi> sine medio, (?) opposita ...
+							<lb/>magis elucescunt et ... magis ... sine medio
+							<lb/>quam mediante termino, et sic est in arte
+							<pb n="120b"/>
+						<lb/>quam &lt;imitatur&gt; naturam inquantum potest.</p>
+						<lb/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt;2-UTRUM MODUS SIGNIFICANDI ESSENTIALIS
+					<lb/>GENERALIS SIT CAUSA CONSTRUCTIONIS &gt;</head>
+					<lb/>
+					<p><lb/>Sequitur utrum modus significandi essentialis
+						<lb/>generalis, qui reponit dictionem in
+						<lb/>partem orationis, sit causa constructionis.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; 2-1 -Quod sic &gt;</head>
+						<div>
+							<head><lb/>&lt; 2-1-1 &gt;</head> <p>Et videtur quod sic. Quicquid
+								<lb/>est causa cause est causa causati, ut habetur
+								<lb/>in commento super Librum <hi rend="italic">De causis</hi>.
+								<lb/>Sed modus significandi essentialis generalis
+								<lb/>est causa omnium aliorum modorum
+								<lb/>sequentium, cuius signum est quod
+								<lb/>nullus modus sibi repugnans potest post
+								<lb/>ipsum poni in dictione. Et illi modi subsequentes
+								<lb/>sunt causa constructionis immediate.
+								<lb/>Ergo modus significandi essentialis
+							<lb/>generalis est causa constructionis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;2-1-2&gt;</head> <p>Item, omne quod est principium
+								<lb/>inclinandi partem ad partem vel constructibilem
+								<lb/>ad constructibilem, est
+								<lb/>principium uniendi unum cum alio. Sed
+								<lb/>modus significandi est principium inclinandi
+								<lb/>constructibilem cum constructibili.
+								<lb/>Ergo est principium construendi. Maior
+								<pb n="121a"/>
+								<lb/>patet, quia ex inclinatione partis ad partem
+								<lb/>causatur constructio unius cum altero.
+								<lb/>Minor declaratur, quia modus significandi
+								<lb/>essentialis generalis verbi est principium
+								<lb/>inclinandi verbum ad nomen.
+								<lb/>Verbum enim de modo significandi essentiali
+								<lb/>generali significat per modum
+								<lb/>fluentis ad aliud cum distantia. Et ita patet
+								<lb/>quod per istum modum inclinatur verbum
+							<lb/>ad nomen.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;2-1-3&gt;</head> <p>Item, quicquid consideratur in
+								<lb/>gramatica, consideratur propter principale
+								<lb/>intentum in gramatica. Sed modus
+								<lb/>significandi essentialis generalis consideratur
+								<lb/>in gramatica. Et principale intentum
+								<lb/>in gramatica est oratio perfecta que
+								<lb/>habetur mediante constructione. Ergo
+								<lb/>modus significandi essentialis generalis
+								<lb/>consideratur in gramatica propter constructionem.
+							<lb/>Et ita est principium constructionis.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 2-2-Quod non &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt; 2-2-1 &gt;</head> <p>Sed contra. Diversificata causa
+								<lb/>diversificatur effectus. Sed diversificato
+								<lb/>modo essentiali generali non diversificatur
+								<lb/>constructio, quia <hi rend="italic">simul</hi> et <hi rend="italic">similiter</hi>
+								<lb/>sunt diverse partes orationis, tamen eodem
+								<lb/>modo construuntur. Ergo modus significandi
+								<lb/>essentialis generalis non est
+							<lb/>causa constructionis.</p>
+							<pb n="121b"/>
+						</div>
+						<div>
+							<head><lb/>&lt;2-2-2&gt;</head> <p>Item, manente eodem modo significandi
+								<lb/>essentiali generali, non manet
+								<lb/>eadem constructio: quia <hi rend="italic">asinus</hi> et <hi rend="italic">Brunellus</hi>
+								<lb/>habent eundem modum essentialem
+								<lb/>generalem, non tamen eodem modo construuntur,
+								<lb/>quia bene dicitur <hi rend="italic">asinus Sortis</hi>,
+							<lb/>non tamen bene dicitur <hi rend="italic">Brunellus Sortis</hi>.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt;3.-UTRUM MODUS SIGNIFICANDI ESSENTIALIS
+					<lb/>SPECIALIS SIT CAUSA CONSTRUCTIONIS &gt;</head>
+					<lb/>
+					<p><lb/>Tertio queritur, utrum modus significandi
+						<lb/>essentialis specialis sit causa constructionis
+						<lb/>sive congruitatis et incongruitatis.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; 3-1-Quod sic &gt;</head>
+						<div>
+							<head><lb/>&lt;3-1-1&gt;</head> <p>Et videtur quod sic, quia prepositio
+								<lb/>construitur cum aliis partibus orationis.
+								<lb/>Sed hoc non est gratia modi significandi essentialis
+								<lb/>generalis nec accidentalis
+								<lb/>(gr-alfa). Ergo hoc est gratia modi essentialis
+								<lb/>specialis. Quod prepositio non construatur
+								<lb/>ratione modi significandi essentialis
+								<lb/>generalis, hoc patet, quia cum omnes prepositiones
+								<lb/>habent eundem modum significandi
+								<lb/>essentialem generalem, ita omnes
+								<lb/>prepositiones haberent eandem constructionem,
+								<lb/>quod falsum est. Nec construentur
+								<lb/>per accidentia, quia Priscianus dicit
+								<lb/>quod prepositioni nihil accidit. Relinquitur
+								<lb/>ergo, quod modus significandi essentialis
+								<pb n="122a"/>
+								<lb/>specialis sit causa constructionis
+							<lb/>in prepositione.</p>
+							<lb/>
+						</div>
+						<div>
+							<head><lb/>&lt; 3-1-2 &gt;</head> <p>Item, verbum substantivum et
+								<lb/>vocativum construuntur cum nominativo
+								<lb/>a parte post, ut <hi rend="italic">sum Socrates, vocor Socrates</hi>.
+								<lb/>Sed ista constructio non fit gratia significati
+								<lb/>essentialis generalis, neque gratia
+								<lb/>accidentium. Ergo fit gratia modi significandi
+								<lb/>essentialis specialis. Quod non fiat
+								<lb/>gratia modi significandi essentialis generalis,
+								<lb/>hoc patet, quia iam omnia verba haberent
+								<lb/>eandem constructionem. Nec gratia
+								<lb/>accidentium, quia eadem accidentia
+								<lb/>sunt in hoc quod dico <hi rend="italic">vocor</hi> et in hoc
+								<lb/>quod dico <hi rend="italic">legor</hi>, non tamen eodem modo
+								<lb/>construuntur. Ergo constructio verbi substantivi
+								<lb/>et vocativi cum nominativo a
+								<lb/>parte post fit gratia modi significandi essentialis
+							<lb/>[[generalis]] specialis.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 3-2-Quod non &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt;3-2-1&gt;</head> <p>Sed contra. Illud quod est principium
+								<lb/>distinguendi unum ab alio, non
+								<lb/>est principium uniendi illa que distinguit.
+								<lb/>Sed modus significandi specialis est principium
+								<lb/>distinguendi speciem unius partis
+								<lb/>ab aliis speciebus eiusdem partis (gr-beta).
+								<lb/>Ergo non est principium eis uniendi. Et
+								<lb/>ita modus significandi essentialis specialis
+							<lb/>non est causa constructionis.</p>
+							<pb n="122b"/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt;4-UTRUM ACCIDENTIA SINT CAUSA CONSTRUCTIONIS &gt;</head>
+					<lb/>
+					<p><lb/>Ultimo queritur utrum accidentia sint
+					<lb/>causa constructionis.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 4 -1 - Quod non &gt;</head>
+						<div>
+							<head><lb/>&lt;4-1-1&gt;</head> <p>Et arguitur quod [[non]] accidens
+								<lb/>non est causa substantie. Sed constructio
+								<lb/>est substantia, quia est &lt;causa&gt;
+								<lb/>formalis substantie orationis. Ergo accidentia
+								<lb/>non sunt causa constructionis.
+								<lb/>Maior patet quia dicit Aristoteles in VII
+								<lb/><hi rend="italic">Metaphysice</hi>, quod substantie non est
+								<lb/>causa aliena vel non est alia causa. Aliud
+							<lb/>autem a substantia idem est quod accidens.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;4-1-2&gt;</head> <p>Item, posita causa ponitur effectus.
+								<lb/>Sed posita convenientia in
+								<lb/>accidentibus non ponitur constructio,
+								<lb/>quia hic est bona convenientia accidentium
+								<lb/><hi rend="italic">albus currit</hi> et tamen incongruitas
+								<lb/>est. Ergo modus significandi accidentalis
+							<lb/>non est causa constructionis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 2 &gt;</head>
+					<p><lb/>Solutio. Ad secundum dicendum,
+						<lb/>quando queritur utrum modus significandi
+						<lb/>essentialis generalis sit causa constructionis,
+						<lb/>dicendum quod hec questio
+						<lb/>duobus modis potest queri. Uno modo
+						<pb n="123a"/>
+						<lb/>questio potest queri: utrum modi significandi
+						<lb/>essentiales generales circumscriptis
+						<lb/>omnibus aliis modis significandi posse&lt;n&gt;t
+						<lb/>esse causa sufficiens constructionis,
+						<lb/>ita quod partes construentur ad invicem
+						<lb/>mediantibus suis modis significandi
+						<lb/>essentialibus generalibus et circumscriptis
+						<lb/>omnibus aliis. Alio modo potest queri
+						<lb/>questio: utrum scilicet rebusl1 existentibus
+						<lb/>in numero, idest dictionibus existentibus
+						<lb/>sub suis modis significandi essentialibus
+						<lb/>generalibus sint causa constructionis.
+						<lb/>Si primo modo queratur questio, dicendum
+						<lb/>quod sic, quia in aliquibus partibus
+						<lb/>orationis, modi significandi essentiales generales
+						<lb/>sunt causa construendi, sicut in
+						<lb/>verbo. Verbum enim suo modo essentiali
+						<lb/>generali inclinatur et mediante illo
+						<lb/>&lt;modo&gt; posset construi. Sed hoc esset
+						<lb/>nimis confuse et indeterminate. Et similiter
+					<lb/>adverbia cum verbo.</p>
+					<p><lb/>Si secundo modo querat questio, quod est
+						<lb/>magis ad propositum, dicendum quod
+						<lb/>modus significandi essentialis generalis
+						<lb/>est causa constructionis inchoans. Et
+						<lb/>dupliciter est principium inclinationis
+						<lb/>partis ad partem, quia pars inclinatur
+						<lb/>primo per suum modum significandi essentialem
+						<lb/>generalem; et est principium inchoans
+						<pb n="123b"/>
+						<lb/>quia secundum limitationem et regulationem
+						<lb/>modi significandi essentialis
+						<lb/>imponuntur [imponuntur] alii modi,
+						<lb/>qui[a] sunt causa constructionis efficiens
+						<lb/>et continuans. Et ita duobus modis potest
+						<lb/>dici inchoans modus significandi essentialis
+						<lb/>generalis.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 2-2-1 et 2-2-2&gt;</head> <p>Argumenta duo que
+								<lb/>probant quod modus significandi essentialis
+								<lb/>generalis non est causa constructionis,
+								<lb/>bene procedunt de causa immediata
+								<lb/>et perficiente, quia tali causa variata variatur
+								<lb/>effectus. Posita autem ponitur et effectus.
+								<lb/>Sed non procedunt de causa originali
+								<lb/>et inchoante, et de tali conclusum
+								<lb/>est, quia modus significandi essentialis generalis
+								<lb/>est causa constructionis. Et ita non
+							<lb/>concludunt contra propositum.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-1-2&gt;</head> <p>Ad argumentum in oppositum,
+								<lb/>dicendum primo ad secundum,
+								<lb/>quod sicut modus significandi essentialis
+								<lb/>generalis est causa vel principium inclinandi
+								<lb/>partem ad partem, eodem modo est
+								<lb/>principium construendi partem unam
+								<lb/>cum alia. Non autem potest dici, quod
+								<lb/>modus significandi essentialis generalis sit
+								<lb/>principium inclinandi partem ad partem
+								<lb/>complete et determinate, sed solum incomplete
+								<pb n="124a"/>
+								<lb/>et indeterminate. Et hoc modo
+								<lb/>concedo quod sit principium constructionis,
+							<lb/>scilicet incomplete et sub indeterminatione.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-1-1&gt;</head> <p>Ad primum dicendum,
+								<lb/>quod eo modo quo modus significandi essentialis
+								<lb/>generalis est causa aliorum modorum,
+								<lb/>eodem modo revera est causa
+								<lb/>constructionis. Est autem causa aliorum
+								<lb/>modorum significandi non efficiens, quia
+								<lb/>non est impositor, sed regulans et limitans
+								<lb/>impositorem ad imponendum modos significandi
+								<lb/>subsequentes. Unde impositor
+								<lb/>necessarie imponit ad significandum rem
+								<lb/>secundum voluntatem suam, et etiam sub
+								<lb/>illo modo significandi essentiali generali,
+								<lb/>sub quo vult. Sed de aliis modis subsequentibus,
+								<lb/>scilicet de modis significandi
+								<lb/>essentialibus specialibus vel de accidentalibus,
+								<lb/>non omnino est in voluntate sua,
+								<lb/>sed oportet quod ipsos imponit secundum
+								<lb/>limitationem, et regulationem modi
+								<lb/>significandi essentialis generalis. Unde
+								<lb/>nihil potest Imponere dictioni, quo sit
+								<lb/>repugnans modo significandi essentiali
+								<lb/>generali eius. Et ita iste modus essentialis
+								<lb/>generalis est causa aliorum consequentium,
+								<lb/>permissivus regulativus, et, nisi permittat,
+								<lb/>non possunt imponi. Et eodem
+								<lb/>modo etiam concedo quod sit causa constructionis
+							<lb/>et non alio modo.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-3 &gt;</head> <p>Ultimum argumentum non
+								<lb/>multum facit fidem ad constructionem.
+								<lb/>Non enim, si modus significandi essentialis
+								<lb/>generalis consideraretur in gramatica
+								<lb/>propter orationem perfectam, que habetur
+								<lb/>mediante constructione, propter hoc
+								<pb n="124b"/>
+								<lb/>sequitur quod sit causa efficiens constructionis,
+								<lb/>sed sufficit quod sit causa
+							<lb/>remota et inchoativa.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 3 &gt;</head>
+					<p><lb/>Ad illud quod tertio queritur, utrum modus
+						<lb/>significandi essentialis specialis sit
+						<lb/>causa constructionis, dicendum quod a
+						<lb/>parte exigentis (γ) iste modus essentialis
+						<lb/>specialis est causa aliquando tota et aliquando
+						<lb/>concausa, hoc est dimidia causa.
+						<lb/>Ex parte autem exacti (δ) nunquam est
+						<lb/>tota causa, sed semper cum hoc exigitur
+						<lb/>convenientia in accidentibus. Dico autem
+						<lb/>quod a parte exigentis aliquando est tota
+						<lb/>causa, sicut in prepositione. Prepositio
+						<lb/>autem non construitur per modum significandi
+						<lb/>essentialem generalem, nec per accidentia,
+						<lb/>quia non habet, sed per suum
+						<lb/>modum significandi essentialem specialem,
+						<lb/>ut dictum est. Similiter constructio
+						<lb/>verbi substantivi et vocativi est cum nominativo
+						<lb/>a parte post per modum significandi
+						<lb/>essentialem specialem. In istis enim
+						<lb/>constructionibus, modus significandi essentialis
+						<lb/>specialis est tota causa constructionis.
+						<lb/>Sed aliquando &lt;est&gt; concausa, sicut
+						<lb/>hic <hi rend="italic">homo currit</hi>,(ε) quia sepius cum
+						<lb/>hoc exigitur quod sit in debito casu, numero
+					<lb/>et persona.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 3-1-1 et 3-1-2&gt;</head> <p>Et concedo primum
+								<lb/>argumentum et secundum, quia, ut dictum
+								<lb/>est, modus significandi essentialis
+								<lb/>specialis in prepositione est causa constructionis,
+								<pb n="125a"/>
+								<lb/>et in verbis vocativis et substantivis
+							<lb/>similiter a parte post.</p>
+							<lb/>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 3-2-1&gt;</head> <p>Ad argumentum in oppositum,
+								<lb/>dicendum quod modus significandi
+								<lb/>essentialis specialis est principium
+								<lb/>uniendi constructibilia in oratione. (ζ) Et
+								<lb/>est distinguendi principium eadem, sed
+								<lb/>hoc diversimode, quia unit ea convenientia
+								<lb/>proportionis et distinguit disconvenientia
+							<lb/>similitudinis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 4 &gt;</head>
+					<lb/>
+					<p><lb/>Ad illud quod queritur de accidentibus
+						<lb/>(η), iam dictum est, quoniam accidentia
+						<lb/>cum modo significandi essentiali speciali
+						<lb/>sunt causa constructionis, sed accidentia
+					<lb/>nunquam per se.</p>
+					<div>
+						<head><lb/>&lt;Ad 4-1-1&gt;</head> <p>Ad primum argumentum in
+							<lb/>oppositum, dicendum quod duplex est
+							<lb/>causa, quia quedam est agens principalis (θ)
+							<lb/>et alia est disponens materiam ad hoc
+							<lb/>quod introducatur forma. Quando ergo
+							<lb/>dicitur, quod substantie non est causa
+							<lb/>alia, verum est de causa que est agens
+							<lb/>principalis et incitans materiam ad recipiendum
+							<lb/>formam. Sed tamen substantie
+							<lb/>bene potest esse alia causa, que est disponens
+						<lb/>materiam, ut calidum et frigidum.</p>
+					</div>
+					<div>
+						<head><lb/>&lt;Ad 4-1-2&gt;</head> <p>Ad aliud dicendum, quod
+							<pb n="125b"/>
+							<lb/>posita causa ponitur effectus. Sed accidentia
+							<lb/>causa constructionis non sunt per
+							<lb/>se, ut dictum est.
+							<lb/>Et ita patet quod sint cause constructionis,
+							<lb/>quoniam vox cum suo significato
+							<lb/>est causa materialis orationis, et significatum
+							<lb/>est causa aliquando orationis
+							<lb/>occasionalis efficiens. &lt; Causa efficiens &gt;
+							<lb/>autem extra est constructor efficiens, intra
+							<lb/>est modus significandi essentialis
+							<lb/>generalis, qui est causa inchoans, sicut
+							<lb/>dictum est. Dictum est etiam, quod modus
+							<lb/>significandi essentialis specialis aliquando
+							<lb/>est tota causa, aliquando concausa
+							<lb/>et similiter accidentia sunt dimidia
+							<lb/>causa constructionis, ita quod modus
+							<lb/>essentialis specialis cum accidentibus sit
+							<lb/>causa immediata constructionis (ι). Et
+							<lb/>hec sufficiant de principiis constructionis
+							<lb/>vel congruitatis et incongruitatis.
+							<lb/>
+							<lb/>
+						<lb/>____</p>
+						<lb/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Gloses. &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>(α) &lt;marge gauche, f. 95v, S1&gt;</head> <p>Modus significandi
+						<lb/>est ratio exprimens proprietatem rei.</p>
+					</div>
+					<div>
+						<head><lb/>(β) &lt;marge gauche, f. 95v, S1&gt;</head> <p>sicut substantivum et
+						<lb/>adiectivum.</p>
+						<pb n="126a"/>
+					</div>
+					<div>
+						<head><lb/>(γ) &lt;marge gauche, f. 96r, S1&gt;</head> <p>scilicet
+						<lb/>prepositionis vel alicuius quod exigit.</p>
+					</div>
+					<div>
+						<head><lb/>(δ) &lt;marge gauche, f. 96r, S1&gt;</head> <p>idest illud
+							<lb/>quod exigitur, ut appositum vel casus vel
+						<lb/>aliud.</p>
+					</div>
+					<div>
+						<head><lb/>(ε) &lt;marge gauche, f. 96r, S1&gt;</head> <p>modus specialis
+						<lb/>cum accidentalibus sunt tota causa.</p>
+					</div>
+					<div>
+						<head><lb/>(ζ) &lt;marge gauche, f. 96r, S1&gt;</head> <p>sicut nomen
+							<lb/>cum verbo, suppositum cum apposito,
+						<lb/>subiectum cum adiectivo.</p>
+					</div>
+					<div>
+						<head><lb/>(η) &lt;marge gauche, f. 96r, S1&gt;</head> <p>accidentia
+							<lb/>magnam partem conferunt ad cognitionem
+						<lb/>subiecti.</p>
+					</div>
+					<div>
+						<head><lb/>(θ) &lt;marge gauche, f. 96r, S1&gt;</head> <p>scilicet
+						<lb/>substantialis.</p>
+					</div>
+					<div>
+						<head><lb/>(ι) &lt;marge gauche, f. 96r, S 1 &gt;</head> <p>duplex est:
+							<lb/>absoluta, antequam fiat pars, licet quando
+						<lb/>sit pars, est respectiva.</p>
+						<lb/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; 5 - UTRUM MODUS SIGNIFICANDI ESSENTIALIS
+						<lb/>GENERALIS VEL SIGNIFICATUM SPECIALE
+					<lb/>SIT ILLUD PER QUOD PARS EST PARS &gt;</head>
+					<lb/>
+					<p><lb/>Queritur quod sit illud per quod pars est
+						<lb/>pars, utrum modus significandi essentialis
+					<lb/>generalis vel significatum speciale.</p>
+					<div>
+						<head><lb/>&lt;5-1&gt;</head> <p>Et videtur quod significatum speciale
+							<lb/>sit illud per quod pars est pars, quia
+							<lb/>per illud est pars per quod est representativa
+							<lb/>mentis conceptus (α). Hoc apparet
+							<lb/>per diffinitionem partis in <hi rend="italic">Maiori</hi>, pars
+							<pb n="126b"/>
+							<lb/>enim est vox mentis conceptus representans.
+							<lb/>Sed significatum speciale est illud
+							<lb/>per quod est significativa et representativa
+							<lb/>mentis conceptus. Ergo significatum
+							<lb/>speciale est illud per quod pars est
+						<lb/>pars.</p>
+						<div>
+							<head><lb/>&lt; 5-2-1 &gt;</head> <p>Sed videtur quod significatum
+								<lb/>&lt;generale&gt; sive modus significandi essentialis
+								<lb/>generalis, quod idem est,
+								<lb/>sit illud per quod pars est pars, quia hoc
+								<lb/>nomen <hi rend="italic">pars</hi> non est dependens. Per illud
+								<lb/>ergo fit pars pars &lt;per&gt; quod habet dependentiam.
+								<lb/>Sed modus significandi essentialis
+								<lb/>generalis est illud per quod habet
+								<lb/>dependentiam. Iste enim modus significandi
+								<lb/>principium est inchoativum inclinandi
+								<lb/>partem ad partem. Ergo modus significandi
+								<lb/>essentialis generalis est id per
+							<lb/>quod pars est pars.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 5-2-2 &gt;</head> <p>Argumentum. Item si significatum
+								<lb/>speciale reponeret partem in parte,
+								<lb/>ideo quecumque idem significatum haberent
+								<lb/>essent eadem pars orationis, quod
+								<lb/>falsum est, quia <hi rend="italic">currit, cursus</hi> idem significatum
+								<lb/>habent specialem, sed tamen sunt
+								<lb/>diverse partes orationis. Ergo significatum
+								<lb/>speciale non facit partem esse partem,
+								<lb/>sed modus significandi essentialis
+							<lb/>generalis.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio &gt;</head>
+						<p><lb/>Solutio. Dicendum quod pars est pars per
+							<lb/>suum modum essentialem generalem et
+							<pb n="127a"/>
+							<lb/>non per suum significatum speciale. Et
+							<lb/>ratio huius potest assignari hec, quia illud
+							<lb/>facit partem esse partem orationis, quod
+							<lb/>enim dat esse dat distinctum esse (β). Sed
+							<lb/>non est dubium quin per modum significandi
+							<lb/>essentialem generalem distinguatur
+							<lb/>pars a parte. Ideo modus significandi essentialis
+							<lb/>generalis est id per quod pars est
+							<lb/>pars.
+						<lb/></p>
+						<div>
+							<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+							<lb/>
+							<div>
+								<head><lb/>&lt;Ad 5-2-1 et 5-3-1&gt;</head> <p>Et concedantur rationes
+								<lb/>que hoc concludunt.</p>
+							</div>
+							<div>
+								<head><lb/>&lt;Ad 5-1&gt;</head> <p>Ad argumentum in oppositum
+									<lb/>dicendum, quod non est necesse quod
+									<lb/>pars sit pars per illud quod est significativum
+									<lb/>mentis conceptus. Et tu probas,
+									<lb/>scilicet quod per diffinitionem partis,
+									<lb/>quia pars est significativa mentis conceptum.
+									<lb/>Dicendum quod illa diffinitio partis
+									<lb/>non datur a causa efficiente, sed magis a
+									<lb/>concomitativo. Unde non est causa mentis
+									<pb n="127b"/>
+									<lb/>conceptus quod pars sit pars, sed concomitativum,
+									<lb/>quia non potest esse pars
+									<lb/>nisi prius significet mentis conceptum.
+									<lb/>Pars enim prius fuit dictio quam pars, et
+									<lb/>per naturam qua fuit dictio significat
+									<lb/>mentis conceptum, quia dictio dicitur a
+									<lb/>dicendo suum significatum significare.
+									<lb/>Ergo mentis conceptus non est causa per
+									<lb/>quod pars est pars, ideo nec significatum,
+									<lb/>quia mentis conceptus aliud nihil est
+									<lb/>quam significatum speciale, sed modus significandi
+									<lb/>essentialis generalis erit causa
+									<lb/>per quod pars est pars, et reponit dictionem
+									<lb/>in parte. Et rationes adsint pro
+									<lb/>causa.
+									<lb/>
+									<lb/>
+								<lb/>---</p>
+								<lb/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Gloses &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>(α) &lt;marge gauche, f. 96r, S1&gt;</head> <p>Modus significandi
+						<lb/>supponit significatum.</p>
+					</div>
+					<div>
+						<head><lb/>(β) &lt;marge droite, f. 96r, S1&gt;</head> <p>Nomen et
+							<lb/>verbum sunt principales, sed alie sunt appendices
+						<lb/>subiacentes.</p>
+						<pb n="128a"/>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; CAP. 2: DE NOMINE &gt;</head>
+				<lb/>
+				<p><lb/>&lt; DE MODO SIGNIFICANDI ESSENTIALI GENERALI
+					<lb/>NOMINIS &gt;
+					<lb/>
+					<lb/>Tunc de istis modis videamus,
+					<lb/>prius de modo significandi essentiali generali
+					<lb/>nominis quid sit. Dicitur autem a
+					<lb/>gramaticis quod nomen significat substantiam
+					<lb/>cum qualitate. Ideo queritur
+					<lb/>utrum nomen de significato gramatico significet
+					<lb/>substantiam. Secundo utrum qualitatem.
+					<lb/>Tertio utrum substantiam cum
+				<lb/>qualitate.</p>
+				<lb/>
+				<div type="section">
+					<head><lb/>&lt; 1-UTRUM NOMEN DE SIGNIFICATO GRAMATICO
+					<lb/>SIGNIFICET SUBSTANTIAM &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-1-Quod non&gt;</head>
+						<div>
+							<head><lb/>&lt;1-1-1&gt;</head> <p>De primo videtur, quod non significet
+								<lb/>substantiam, quia substantia triplex
+								<lb/>est solum, scilicet materia, forma et
+								<lb/>compositum. Sed nomen de significato
+								<lb/>gramatico non designat aliquid istorum
+								<lb/>trium, ergo etc. Quod nomen non significat
+								<lb/>materiam, hoc videtur, quia quoddam
+								<lb/>est nomen quod non significat materiam,
+								<lb/>sicut <hi rend="italic">albedo</hi>, sed puram formam. Sed si
+								<lb/>materia esset de significato gramatico nominis,
+								<lb/>omne nomen significaret materiam.
+								<pb n="128b"/>
+								<lb/>Et ita videtur, quod nomen non significat
+								<lb/>materiam de significato gramatico.
+								<lb/>Nec formam, probatio: Quia hoc
+								<lb/>quod dico <hi rend="italic">materia</hi> nomen est. Sed hoc
+								<lb/>nomen <hi rend="italic">materia</hi> non significat formam.
+								<lb/>Ergo forma non est de modo significandi
+								<lb/>essentiali generali nominis. Item nec significat
+								<lb/>compositum, quia quoddam nomen
+								<lb/>est quod significat simpliciter substantiam,
+								<lb/>sine aliqua compositione, sicut
+								<lb/><hi rend="italic">Deus</hi>. Ergo nomen de significato gramatico
+								<lb/>non significat materiam, nec formam,
+								<lb/>nec compositum. Videtur &lt; ergo &gt; quod
+							<lb/>non significet substantiam.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-1-2&gt;</head> <p>Item modus significandi essentialis
+								<lb/>generalis debet competere omni nomini.
+								<lb/>Sed significare substantiam non
+								<lb/>competit omni nomini, quia hoc nomen
+								<lb/><hi rend="italic">qualis</hi> substantiam non significat. Ergo
+								<lb/>etc. Quod non significat substantiam
+								<lb/>[non sig] hoc apparet, quia illud idem significat
+								<lb/>interrogativum in generali quod
+								<lb/>sibi respondetur in speciali. Sed
+								<lb/>ad interrogationem <hi rend="italic">qualiter</hi> respondetur
+								<lb/>qualitas. Ergo hoc nomen <hi rend="italic">qualis</hi> qualitatem
+								<lb/>significat et non substantiam. Hoc
+								<lb/>autem vult Aristoteles in <hi rend="italic">Predicamentis</hi>:
+								<lb/><hi rend="italic">albus</hi> solam qualitatem significat, ergo
+							<lb/>non substantiam.</p>
+							<pb n="129a"/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; l -QUARE MODUS SIGNIFICANDI QUI EST
+						<lb/>IN NOMINE NOMINATUR A SUBSTANTIA ET
+					<lb/>NON ALIO NOMINE &gt;</head>
+					<lb/>
+					<p><lb/>Si forte dicatur quod ista duo argumenta
+						<lb/>bene procedunt de substantia que est res
+						<lb/>vera, nomen enim de significato gramatico
+						<lb/>non significat substantiam que est res
+						<lb/>vera, immo de significato gramatico habet
+						<lb/>quendam modum significandi qui nominatur
+						<lb/>substantia, tunc est questio, quare
+						<lb/>ille modus significandi qui est in nomine
+						<lb/>sic nominatur, scilicet a substantia et non
+						<lb/>alio nomine, sicut a nomine accidentis vel
+						<lb/>aliquo alio nomine quam substantia.
+					<lb/></p>
+				</div>
+				<div type="section">
+					<head><lb/>&lt;2-UTRUM NOMEN SIGNlFICET QUALITATEM &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt;2-1-Quod non&gt;</head>
+						<div>
+							<head><lb/>&lt;2-1-1&gt;</head> <p>De secundo videtur, quod qualitas
+								<lb/>non sit de significato gramatico generali
+								<lb/>nominis, et hoc sic. Nichil quod accidit
+								<lb/>alicui potest esse ei essentiale. Nichil
+								<lb/>enim unum et idem potest esse substantia
+								<lb/>et accidens. Sed qualitas accidit nomini,
+								<lb/>ut vult Donatus. Ergo non potest ei esse
+							<lb/>de modo essentiali generali nominis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;2-1-2&gt;</head> <p>Argumentum. Item, id quod variatur
+								<lb/>circa nomen accidentale non est
+								<lb/>nomini essentiale. Sed qualitas circa nomen
+								<lb/>variatur, quia quoddam nomen est
+								<lb/>commune, quoddam proprium. Ergo nomen
+								<pb n="129b"/>
+								<lb/>de significato essentiali generali non
+							<lb/>significat qualitatem.</p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt;2-2-QUOD SIC&gt;</head> <p>In oppositum sunt omnes
+						<lb/>auctores gramatice.</p>
+						<lb/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt;3-UTRUM NOMEN SlGNIFICET SUBSTANTIAM
+					<lb/>ET QUALITATEM &gt;</head>
+					<lb/>
+					<p><lb/>Tunc de tertio queritur, utrum nomen significet
+					<lb/>substantiam et qualitatem simul.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 3-1 -Quod non &gt;</head>
+						<div>
+							<head><lb/>&lt;3-1-1&gt;</head> <p>Et videtur quod non, quia maioris
+								<lb/>simplicitatis debet esse modus significandi
+								<lb/>essentialis generalis nominis, quam
+								<lb/>modus significandi essentialis specialis,
+								<lb/>quia maioris simplicitatis est ipsum superius
+								<lb/>quam inferius, ut animal quam homo.
+								<lb/>Sed modus significandi essentialis nominis
+								<lb/>specialis, sicut modus per se stantis,
+								<lb/>secundum quod distinguitur contra modum
+								<lb/>adiacentis, maioris est simplicitatis
+								<lb/>quam compositum ex substantia et qualitate.
+								<lb/>Ergo compositum ex substantia et
+								<lb/>qualitate non potest esse modus significandi
+								<lb/>essentialis generalis nominis. Et ita
+								<lb/>nomen de significato gramatico non substantiam
+							<lb/>significat cum qualitate.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 3-1-2 &gt;</head> <p>Item, si nomen significet substantiam
+								<lb/>cum qualitate, tunc omne nomen esset
+								<lb/>equivocum (α), quod est inconveniens.
+								<lb/>Probatio consequentie per Aristotelem,
+								<lb/>supra septimum <hi rend="italic">Methaphysice</hi>, qui
+								<pb n="130a"/>
+								<lb/>dicit quod nihil est commune univocum
+							<lb/>substantie et accidenti.</p>
+							<p><lb/>Forte dicetur ad hoc, quod verum esset,
+								<lb/>quod omne nomen esset equivocum, si ita
+								<lb/>esset quod nomen de significato speciali
+								<lb/>significaret substantiam cum accidente,
+								<lb/>vel cum qualitate. Et secundum quod
+								<lb/>sunt res, nihil est commune univocum
+								<lb/>substantie et accidenti secundum quod
+								<lb/>res. Tamen quia nomen significat substantiam
+								<lb/>cum qualitate secundum quod
+								<lb/>sunt modi transformati a rebus, ideo non
+								<lb/>oportet quod omne nomen sit equivocum,
+								<lb/>quia aliquid bene potest esse commune
+								<lb/>univocum substantie et accidenti
+								<lb/>secundum quod sunt modi, licet non secundum
+							<lb/>quod sunt res.</p>
+							<p><lb/>&lt; 3 &gt; Tunc erit questio, que sit causa
+								<lb/>quare substantie et qualitati, secundum
+								<lb/>quod sunt modi, potest magis esse aliquid
+								<lb/>univocum quam secundum quod sunt res,
+								<lb/>quia sicut est in rebus, ita videtur quod
+								<lb/>debet esse in modis transformatis a rebus.
+							<lb/></p>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 1 &gt;</head>
+					<p><lb/>Et dicatur ad primum, quando queritur
+						<lb/>utrum significare substantiam cum qualitate
+						<pb n="130b"/>
+						<lb/>sit modus significandi essentialis generalis
+						<lb/>in nomine, dicendum est cum auctoribus
+						<lb/>artis gramatice quod sic. Et est verior
+						<lb/>iste sermo "nomen significat substantiam
+						<lb/>cum qualitate" quam iste "nomen significat
+						<lb/>substantiam et qualitatem", quia
+						<lb/>sub maiori exprimitur unitate modus significandi
+						<lb/>essentialis generalis nominis,
+						<lb/>per hoc quod est significare substantiam
+						<lb/>cum qualitate, quam per hoc quod est significare
+					<lb/>substantiam et qualitatem (β).</p>
+					<p><lb/>Tunc ergo queritur de partibus huius copulative,
+						<lb/>quod nomen significat substantiam
+					<lb/>cum qualitate.</p>
+					<p><lb/>Primo utrum substantia cadat in
+						<lb/>significato generali nominis. Dicendum
+						<lb/>quod sic, non autem substantia que est
+						<lb/>res vera, sed modus significandi transformatus
+						<lb/>a substantia que est res. Et solet
+						<lb/>appellari ista substantia in nomine quattuor
+					<lb/>modis.</p>
+					<p><lb/>Uno modo dicitur substantia in nomine
+						<lb/>modus habitus et quietis et hoc est magis
+						<lb/>usitatus. Alio modo dicitur modus permanentis,
+						<lb/>et ille modus est secretior. Tertio
+						<lb/>modo dicitur indivisibilis et ultimo
+						<lb/>modo modus per se stantis, secundum
+						<lb/>quod opponitur modo fluentis. Sic ergo
+						<pb n="131a"/>
+						<lb/>substantia est in nomine modus permanentis,
+						<lb/>et appellatur iste modus substantia,
+						<lb/>que proprietas permanentis convenit
+						<lb/>omni substantie, unde substantia est. Non
+						<lb/>autem convenit accidenti, ut accidens est.
+						<lb/>Ideo modus significandi essentialis generalis
+						<lb/>nominis, qui est modus permanentis,
+						<lb/>magis appellatus est substantia quam accidens
+						<lb/>vel quam alio nomine.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 1-1-1 et 1-1-2&gt;</head> <p>Per hoc patet solutio
+								<lb/>a \d/ prima duo argumenta, que probabant
+								<lb/>quod substantia non esset de significato
+								<lb/>gramatico nominis, que procedebant de
+								<lb/>substantia que est res vera. Et bene conceditur,
+								<lb/>quod de modo essentiali generali
+								<lb/>nomen non significet substantiam que est
+								<lb/>res vera, sed modus significandi qui accipitur
+								<lb/>a proprietate conveniente substantie
+							<lb/>omni, in quantum est substantia.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 1 &gt;</head>
+					<p><lb/>Et per hoc patet etiam solutio istius questonis,
+						<lb/>quare &lt; llle modus qul est in nomine &gt;
+						<lb/>magis appellatur substantia quam
+						<lb/>[modus] accidens vel quam alio nomine.
+					<lb/>Iam enim solutus est.</p>
+					<lb/>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 2 &gt;</head>
+					<p><lb/>Ad aliud quod secundo queritur, utrum
+						<lb/>qualitas cadat in significato gramatico nominis,
+						<lb/>dicendum quod sic, sed non qualitas
+						<lb/>que est res vera sed quidam modus significandi,
+						<lb/>qui est significare per modum
+					<lb/>determinati proprie vel communlter.</p>
+					<pb n="131b"/>
+					<div>
+						<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 2-2&gt;</head> <p>Et quod arguitur in oppositum,
+							<lb/>qualitas accidit nomini, ergo etc.</p>
+							<div>
+								<head><lb/>&lt; Opiniones aliquorum &gt;</head>
+								<p><lb/>&lt;i&gt; Ad hoc dicunt quidam, quod qualitas
+									<lb/>potest dupliciter accipi, ut solvatur controversia
+									<lb/>que videtur esse inter Donatum,
+									<lb/>qui dicit eam esse accidens nominis, et
+									<lb/>Priscianum &lt;qui&gt; dicit eam esse de modo
+									<lb/>significandi essentiali generali nominis.
+									<lb/>Uno modo, dicunt ipsi, accipitur qualitas
+									<lb/>secundum quod qualitas communis et
+									<lb/>propria dicunt aptitudinem ad multa vel
+									<lb/>ad unum, sic qualitas est de modo significandi
+									<lb/>essentiali generali nominis. Alio
+									<lb/>modo accipitur qualitas in nomine prout
+									<lb/>qualitas propria et communis dicunt actualitatem
+									<lb/>ad unum vel ad multa (γ). Hoc
+									<lb/>modo volunt quod sit accidentalis nomini.
+									<lb/>Et per hoc possent solvi argumenta,
+									<lb/>si valeret ista distinctio.
+									<lb/>&lt;Contra&gt; Sed non valet pro aliquo membro,
+									<lb/>quia impossibile est quod nomini
+									<lb/>conveniat actualitas ad plura pro accidente.
+									<lb/>Probatio. Quicquid habet dictio ab
+									<lb/>impositione, sive essentialiter, semper illud
+									<lb/>representat ubicumque sit. Si ergo
+									<lb/>nomini communi imposita esset pro accidente
+									<lb/>actualitas essendi in pluribus, secundum
+									<lb/>quod dicunt, iam ubicumque esset
+									<lb/>nomen commune, semper representaret
+									<lb/>actualitatem plurium suppositorum,
+									<lb/>quod esset inconveniens. <hi rend="italic">Sol</hi> enim et <hi rend="italic">luna</hi>,
+									<lb/>hi sunt termini communes, non tamen
+									<lb/>exprimunt actu plura supposita. Similiter
+									<lb/>hoc modo <hi rend="italic">homo currit</hi>, de vi sermonis,
+									<pb n="132a"/>
+									<lb/>non exprimit plura supposita hominis,
+									<lb/>
+									<lb/>quod tamen fieret si veritatem haberet illud
+									<lb/>quod dicebatur.
+									<lb/>&lt;ii&gt; Alii dicunt aliter, quod qualitas accipitur
+									<lb/>dupliciter in nomine. Uno modo, secundum
+									<lb/>quod qualitas communis dicit
+									<lb/>modum indeterminati, qualitas vero propria
+									<lb/>modum determinati, et hoc modo
+									<lb/>qualitas est de modo significandi essentiali
+									<lb/>generali nominis. Et ali[qu]o modo
+									<lb/>accipitur qualitas communis secundum
+									<lb/>quod dicit aliquam hesitationem consequentem
+									<lb/>modum indeterminati, et propria
+									<lb/>secundum quod dicit quandam certitudinem
+									<lb/>que consequitur modum determinati.
+									<lb/>Primo modo qualitas est
+									<lb/>de modo significandi essentiali generali
+									<lb/>nominis, secundo autem modo &lt; est de
+									<lb/>modo&gt; accidentali.
+									<lb/>&lt;Contra&gt; Sed hoc iterum non valet, quia
+									<lb/>quantumcumque aliqua se ita habent,
+									<lb/>quod unum sequitur aliud, est quod
+									<lb/>unum non potest esse sine altero. Cuicumque
+									<lb/>unum est essentiale, et alterum
+									<lb/>erit essentiale eidem. Si ergo modus &lt;determinati
+									<lb/>et modus &gt; indeterminati sunt
+									<lb/>essentialia nomini, sicut dicunt, oportet
+									<lb/>quod hesitatio et certitudo, que sequuntur
+									<lb/>modus determinati et indeterminati,
+									<lb/>et sint sicut in essentia, sint similiter essentialia,
+								<lb/>cuius contrarium dicunt.</p>
+								<lb/>
+							</div>
+							<div>
+								<head><lb/>&lt;OPINIO PROPRIA&gt;</head> <p>Ideo dicendum aliter,
+									<lb/>quod qualitas comparatur ad nomen, et
+									<lb/>hoc dupliciter. Aut ad nomen simpliciter,
+									<lb/>aut ad nomen speciale, sicut est proprium
+									<lb/>vel commune. Si comparatur ad nomen
+									<lb/>simpliciter, aut comparatur ad nomen
+									<lb/>simpliciter illud totum "qualitas propria
+									<pb n="132b"/>
+									<lb/>vel communis" sub disiunctione, et sic
+									<lb/>qualitas est essentialis nomini, et de modo
+									<lb/>essentiali generali. Si autem illa membra
+									<lb/>"communis vel propria" comparantur ad
+									<lb/>nomen simpliciter, ita quod determinate
+									<lb/>&lt; ad &gt; alterum membrorum solum, sic
+									<lb/>qualitas accidit nomini. Si autem comparetur
+									<lb/>qualitas ad nomen speciale, aut
+									<lb/>comparatur ad illud unde nomen est, aut
+									<lb/>unde tale nomen est. Si comparetur ad illud
+									<lb/>unde nomen est, aut comparatur ad
+									<lb/>illud sub disiunctione, et sic qualitas est
+									<lb/>essentialis nomini, aut determinate ad alterum
+									<lb/>membrorum solum, et sic qualitas
+									<lb/>accidit nomini. Si qualitas comparetur ad
+									<lb/>nomen speciale, unde tale nomen est, aut
+									<lb/>comparatur sub disiunctione, et sic est +
+									<lb/>aliud (?) tamen hec est + essentialis, aut
+									<lb/>comparatur ad alterum membrorum determinate,
+									<lb/>et hoc dupliciter. Aut ad illud
+									<lb/>membrorum quod sibi convenit comparatur,
+									<lb/>&lt;et&gt; sic est ei modus essentialis specialis,
+									<lb/>ut in nomine proprio, modus essentialis
+									<lb/>specialis est propria qualitas, et nomini
+									<lb/>communi communis qualitas; aut
+									<lb/>comparatur ad illud alterum membrorum
+									<lb/>qualitatis quod sibi non convenit, et sic ei
+									<lb/>oppositum est, et ab eo accidentaliter distinguitur.
+									<lb/>Per hoc apparet, quod qualitas
+									<lb/>aliquo modo essentialis est nomini, et aliquo
+									<lb/>modo accidentalis. Et per hoc possunt
+								<lb/>salvari auctoritates Donati et Prisciani.</p>
+							</div>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-1-1&gt;</head> <p>Ad primum argumentum dicendum,
+								<lb/>quod licet qualitas pro altero
+								<lb/>membro accidit nomini, tamen qualitas,
+								<lb/>accipiendo eam pro toto disiuncto, pro
+								<pb n="133a"/>
+								<lb/>communi vel propria, non accidit nomini
+							<lb/>simpliciter.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-1-2&gt;</head> <p>Ad aliud similiter per hoc solvitur,
+								<lb/>quia licet qualitas pro altero membro
+								<lb/>determinate varietur circa nomen, tamen
+								<lb/>totum non variatur, et eo modo quo
+								<lb/>variatur, bene volo quod sit accidentalis
+								<lb/>nomini[s] prout qualitas comparatur ad
+								<lb/>nomen simpliciter pro altera parte sui.
+								<lb/>Sed secundum quod comparatur ad illud
+								<lb/>pro toto disiuncto essentialis est.
+								<lb/>Habitis ergo copulatis, scilicet quod nomen
+								<lb/>de significato gramatico significat
+								<lb/>substantiam, et quod de eodem significato
+								<lb/>gramatico significat qualitatem, possumus
+								<lb/>habere copulativam, scilicet quod
+								<lb/>nomen de modo significandi essentiali generali
+								<lb/>significat substantiam cum qualitate.
+								<lb/>Et appelletur iste modus significandi
+								<lb/>modus permanentis in ratione determinati
+							<lb/>proprie vel communis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 3 &gt;</head>
+					<p><lb/>Ad aliud quod querebatur, sic dicendum
+						<lb/>est, quod nomen significat substantiam
+						<lb/>cum qualitate, non substantiam et qualitatem,
+						<lb/>secundum quod sunt modi transformati
+						<lb/>a substantia vera et a qualitate
+					<lb/>vera.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 3-1-1&gt;</head> <p>Ad argumenta in oppositum,
+								<lb/>dicendum primo ad primum: verum est
+								<lb/>quod maioris simplicitatis debet esse modus
+								<lb/>significandi essentialis generalis,
+								<lb/>quam modus significandi essentialis specialis,
+								<lb/>sed falsum supponit in minori. Supponit
+								<pb n="133b"/>
+								<lb/>enim quod modus per se stantis solum,
+								<lb/>secundum quod opponitur modo
+								<lb/>adiacentis, est modus significandi essentialis
+								<lb/>specialis nominis. Et hoc non est verum,
+								<lb/>immo modus per se stantis,
+								<lb/>secundum quod presupponitur modus
+								<lb/>significandi essentialis generalis nominis,
+								<lb/>totum hoc est modus essentialis
+								<lb/>specialis nominis in nomine substantivo,
+								<lb/>et ita iste modus significandi essentialis
+								<lb/>specialis compositior est modo significandi
+								<lb/>essentiali generali nominis: addit
+								<lb/>enim supra modum significandi essentialem
+							<lb/>generalem.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 3-1-2 &gt;</head> <p>Ad aliud dicendum, quod
+								<lb/>non est necesse quod omne nomen sit
+								<lb/>equivocum, sicut dicebatur, quia nomen
+								<lb/>non significat substantiam cum qualitate
+								<lb/>sicut veram rem, immo secundum quod
+								<lb/>sunt modi transformatis a substantia et
+							<lb/>accidente, ut dictum est.</p>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 3 &gt;</head>
+					<p><lb/>Et tu queris, quare aliquid potest esse
+						<lb/>univocum substantie et accidenti secundum
+						<lb/>quod &lt;sunt&gt; modi, non autem secundum
+						<lb/>quod sunt res. Dicendum ad
+						<lb/>hoc, quod dissimilitudo est inter substantiam
+						<lb/>et accidens in re &lt;ex&gt; una parte inter
+						<lb/>substantiam et qualitatem, secundum
+						<lb/>quod sunt modi, ex altera quia qualitas
+						<lb/>que est modus non transformatur a puro
+						<lb/>accidente, sed ab accidente partim et et a
+						<lb/>substantia partim, quia transformatur a
+						<lb/>qualitate que dupliciter est, scilicet qualitas
+					<lb/>accidentalis et qualitas substantialis.</p>
+					<p><lb/>Et adhuc qualitas que est modus transformatus
+						<lb/>ab istis, prout univocatur in
+						<pb n="134a"/>
+						<lb/>hoc communi quod est qualitas, non
+						<lb/>prout diversificatur, et ob hoc non aliquid
+						<lb/>potest esse commune univocum substantie
+						<lb/>et accidenti, secundum quod sunt res.
+						<lb/>Potest autem &lt;esse commune univocum&gt;
+						<lb/>substantie et qualitati secundum quod
+						<lb/>sunt modi transformati a rebus. Ideo ob
+						<lb/>hoc remanet, quod nomen significet de significato
+						<lb/>generali substantiam cum qualitate,
+						<lb/>non tamen propter hoc omne nomen
+					<lb/>erit equivocum.</p>
+					<p><lb/>Est ergo modus significandi essentialis
+						<lb/>&lt;nominis&gt; significare substantiam cum
+						<lb/>qualitate, vel quod idem est, significare
+						<lb/>per modum permanentis et determinati
+						<lb/>proprie vel communiter.
+					<lb/></p>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Gloses &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>(α) &lt;marge gauche, f. 96v, S1&gt;</head> <p>Equivoca:
+							<lb/>quedam dictio tripliciter significat multa.
+							<lb/>Uno modo sicut nomen significat substantiam
+							<lb/>et qualitatem, et unde est propter
+							<lb/>aliud. Per talem autoritatem Aristotelis ..
+							<lb/>unde propter aliud utrobique (?) tantum
+							<pb n="134b"/>
+							<lb/>unum. Alio modo dictio (?) multa significat
+							<lb/>et hoc equivoce ut <hi rend="italic">canis</hi>. Tertio
+							<lb/>modo dictio multa significat analoyce. Et
+							<lb/>componitur ab <hi rend="italic">ana</hi> quod est sursum, et
+							<lb/><hi rend="italic">logos</hi> quod est sermo, quia est sermo de
+							<lb/>superioribus ad inferiora, sicut ens primo
+							<lb/>predicatur de substantia, secundo modo
+						<lb/>de accidente.</p>
+					</div>
+					<div>
+						<head><lb/>(β) &lt;marge gauche, f. 96v, S1&gt;</head> <p>Omne nomen
+							<lb/>significat substantiam cum qualitate.
+							<lb/>Videtur(?) esse figura sive vitium
+							<lb/>so&lt;le&gt;cismus qui fit per partes aut circa
+							<lb/>&lt;species&gt; partium orationis. Sed potest
+							<lb/>ex&lt;cu&gt;sari per emphasim, et ponitur ab e
+							<lb/>quod est extra, <hi rend="italic">phasis</hi> &lt;lo&gt;cutio, quasi
+							<lb/>expressa locutio. &lt;Ex&gt;primitur enim
+							<lb/>plus quando dicitur &lt;quo&gt;d significet
+							<lb/>'cum' quam 'substantiam' &lt;et&gt;; vel per
+							<lb/>endiadim, componitur ab <hi rend="italic">en</hi> quod est in,
+							<lb/><hi rend="italic">dia</hi> quod est duo et <hi rend="italic">dis</hi> quod &lt;est&gt; nota
+							<lb/>resolutionis. Resolvitur substantiam in
+						<lb/>qualitate et econverso.</p>
+					</div>
+					<div>
+						<head><lb/>(γ) &lt;marge droite, f. 96v, S1&gt;</head> <p>cum procedit
+							<lb/>de communi in proprium et econverso.
+							<lb/>Unde variatio pretendit (?) accidens
+						<lb/>et accidens est actus.</p>
+						<pb n="135a"/>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; CAP. 3: DE VERBO &gt;</head>
+				<lb/>
+				<p><lb/>De modo essentiali generali
+					<lb/>verbi queritur sic primol utrum verbum
+					<lb/>de modo essentiali generali significet
+					<lb/>agere vel pati sive per modum fluentis.
+					<lb/>Secundo queritur utrum sit de modo significandi
+					<lb/>essentiali generali verbi quod
+					<lb/>significet per modum inclinabilis ad aliud
+					<lb/>cum distantia. Tunc erit questio ad evidentiam
+					<lb/>istorum, utrum aliquid existens
+					<lb/>in motu possit imponi ad significandum
+					<lb/>nominaliter et aliquid existens in quiete
+				<lb/>possit imponi ad significandum verbaliter.</p>
+				<lb/>
+				<div type="section">
+					<head><lb/>&lt; 1-UTRUM VERBUM DE MODO ESSENTIALI
+						<lb/>GENERALI SIGNIFICET AGERE VEL PATI,
+					<lb/>SIVE PER MODUM FLUENTIS &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-1 &gt;</head> <p>De primo videtur quod verbum, de
+							<lb/>modo significandi essentiali generali, non
+							<lb/>significet agere et pati sic, quia nullum accidens
+							<lb/>partis est de eius significato essentiali
+							<lb/>generali. Sed agere et pati verbo accidunt.
+							<lb/>Ergo agere et pati non sunt de significato
+							<lb/>essentiali generali verbi. Maior patet
+							<lb/>quod nihil est idem substantia et accidens
+							<lb/>eidem. Minor similiter patet, quia
+							<lb/>agere et pati, sive activum et passivum,
+							<lb/>sunt significationes accidentales verbo
+						<lb/>sive genera. Ergo etc.</p>
+					</div>
+					<div>
+						<head><lb/>&lt; 1-2&gt;</head> <p>Item, nihil est commune univocum
+							<pb n="135b"/>
+							<lb/>ad diversa predicata, ut habetur in primo
+							<lb/><hi rend="italic">Topicorum</hi>. Sed actio et passio sunt diversa
+							<lb/>predicata. Ergo nihil est eis commune
+							<lb/>univocum. Sed illud quod non est
+							<lb/>univocum non potest esse modus significandi
+							<lb/>essentialis generalis unius partis.
+							<lb/>Ergo agere et pati non possunt esse modus
+							<lb/>significandi essentialis generalis in
+						<lb/>verbo.</p>
+					</div>
+					<div>
+						<head><lb/>&lt;1-3&gt;</head> <p>Item, quod verbum non significet
+							<lb/>per modum motus et fluentis, specialiter
+							<lb/>arguitur sic. Modus significandi essentialis
+							<lb/>generalis verbi debet competere cuilibet
+							<lb/>verbo, aliter non esset generalis.
+							<lb/>Sed hoc verbum <hi rend="italic">sum</hi> non significat
+							<lb/>per modum motus, quia significat substantiam
+							<lb/>indivisibilem et esse indivisibile.
+							<lb/>Similiter ista verba <hi rend="italic">generari</hi> et <hi rend="italic">corrumpi</hi>
+							<lb/>non significant motum, quia omnis generatio
+							<lb/>et corruptio fit in instanti, et quod
+							<lb/>fit in instanti non fit in motu. Ergo significare
+							<lb/>per modum motus et fluentis non est
+							<lb/>modus significandi essentialis generalis in
+						<lb/>verbo.</p>
+					</div>
+					<div>
+						<head><lb/>&lt; 1-4&gt;</head> <p>Item, accipiatur eadem maior. Modus
+							<lb/>essentialis generalis verbi debet competere
+							<lb/>cuilibet verbo. Sed verba absoluta
+							<lb/>non significant per modum motus, sed
+							<lb/>magis per modum terminati. Unde Priscianus
+							<lb/>in Minori aliquando ea appellat
+							<lb/>perfecta. Ergo modus motus et fluentis
+						<lb/>non est modus essentialis generalis verbi.</p>
+						<pb n="136a"/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; 2-UTRUM VERBUM DE MODO SIGNIFICANDI
+						<lb/>ESSENTIALI GENERALI SIGNIFICET PER MODUM
+					<lb/>INCLINABILIS AD ALIUD CUM DISTANTIA &gt;</head>
+					<lb/>
+					<p><lb/>Tunc de secundo queritur, utrum verbum
+						<lb/>de modo significandi essentiali generali
+						<lb/>verbi significet per modum inclinabilis ad
+					<lb/>aliud cum distantia.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 2-1 -Quod non &gt;</head>
+						<div>
+							<head><lb/>&lt;2-1-1&gt;</head> <p>Et videtur quod non. <hi rend="italic">Sortes qui
+								<lb/>currit disputat</hi>, hoc quod dico cumt non
+								<lb/>inclinatur ad Sortem cum distantia, sed a
+								<lb/>parte eiusdem extremi construitur cum
+								<lb/>hoc quod dico <hi rend="italic">Sortes</hi>. Ergo verbum non
+								<lb/>significat per modum inclinabilis cum distantia
+							<lb/>ad aliud.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;2-1-2&gt;</head> <p>Item, dicit P.H. super secundum
+								<lb/>minoris, quod &lt;cum dicitur&gt; Sortem currere
+								<lb/>est possibile, <hi rend="italic">Sortem currere</hi> se
+								<lb/>tene&lt;n&gt;t a parte unius extremi et sunt in
+								<lb/>ratione nominativi casu suppositis. Ergo
+							<lb/>non sed habent per distanciam +minoris+</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Quod sic &gt;</head>
+						<p><lb/>&lt; OP 2-1 &gt; In oppositum arguitur. Verbum
+							<lb/>significat per modum inclinabilis. Hoc
+							<lb/>docet modus ipsius verbi: in omni enim
+							<lb/>verbo est modus, et modus est qualitas inclinabilis.
+							<pb n="136b"/>
+							<lb/>Ergo aut significat per modum
+							<lb/>inclinabilis cum distantia, aut sine distantia.
+							<lb/>Si cum distantia, habeo propositum.
+							<lb/>Si sine distantia, verbum erit participium.
+							<lb/>Ergo aut verbum significabit per modum
+							<lb/>inclinabilis cum distantia ad aliud, aut
+							<lb/>hoc inconveniens sequeretur, quod verbum
+						<lb/>est participium.</p>
+						<lb/>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; 3 UTRUM ALIQUID EXISTENS IN MOTU
+						<lb/>POSSIT IMPONI AD SIGNIFICANDUM NOMINALITER,
+						<lb/>ET ALIQUID EXISTENS IN QUIETE
+					<lb/>POSSIT IMPONI AD SIGNIFICANDUM VERBALITER &gt;</head>
+					<lb/>
+					<p><lb/>Ultimo queritur, ad evidentiam istorum,
+						<lb/>utrum res existens sub motu et dependentia
+						<lb/>possit imponi ad significandum
+						<lb/>nominaliter, hoc est sub modo significandi
+						<lb/>essentiali generali nominis, qui est
+						<lb/>modus permanentis determinate proprie
+						<lb/>et communiter, et econverso, utrum res
+						<lb/>existens in quiete et permanens possit imponi
+						<lb/>ad significandum verbaliter, et hoc
+						<lb/>sub modo essentiali generali verbi.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; 3-1 -Quod non &gt;</head>
+						<p><lb/>Et videtur quod non. Imponens non imponit
+							<lb/>voces ad significandum res nisi eo
+							<lb/>modo quo intellexit res. Hoc est probabile,
+							<pb n="137a"/>
+							<lb/>quia impositio vocis respondet modis
+							<lb/>intelligendi. Sed imponens non intellexit
+							<lb/>rem manentem sub modo fluentis, et
+							<lb/>rem fluentem sub modo manentis. Ergo
+							<lb/>non potuit imponere rem manentem verbaliter,
+						<lb/>nec rem fluentem nominaliter.</p>
+						<p><lb/>Probatio minoris, quod imponens non
+							<lb/>potuit intelligere rem manentem sub
+							<lb/>motu, nec rem fluentem sub permanentia.
+							<lb/>In primo <hi rend="italic">De Anima</hi> dicit Aristoteles,
+							<lb/>quod intellectus verorum est. Ergo intellectus
+							<lb/>apprehendens non est falsus. Sed si
+							<lb/>intellectus apprehendens apprehenderet
+							<lb/>rem manentem sub modo fluentis, et rem
+							<lb/>fluentis sub modo permanentis, falsus esset.
+							<lb/>Ergo intellectus non potest intelligere
+							<lb/>rem manentem sub modo verbalis, nec
+						<lb/>rem fluentem sub modo nominali.</p>
+						<p><lb/>Item, in eandem arguitur minorem sic.
+							<lb/>Nihil est &lt;in&gt; intellectu nisi prius fuerit in
+							<lb/>sensibus, &lt;ut dicitur&gt; in primo <hi rend="italic">De
+							<lb/>anima</hi>. Sed sensibiliter res permanens
+							<lb/>numquam est in motu, sive in modo
+							<lb/>fluentis - non est enim res successiva
+							<lb/>immo permanens. Ergo non erit
+							<lb/>verum, quod intellectus intelligat rem
+							<lb/>fluentem sub modo permanentis, nec non
+							<lb/>permanentem sub modo fluentis. Et ita
+							<lb/>res permanens non poterit imponi sub
+							<lb/>modo verbali, nec res fluens et successiva
+						<lb/>sub modo nominali.</p>
+						<pb n="137b"/>
+					</div>
+					<div>
+						<head><lb/>&lt; 3-2-Quod sic &gt;</head>
+						<div>
+							<head><lb/>&lt; 3-2-1 &gt;</head> <p>In oppositum tamen est impositio.
+								<lb/><hi rend="italic">Cursus</hi> enim et <hi rend="italic">motus</hi> significant rem
+							<lb/>mobilem et fluentem sub modo permanentis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 3-2-2 &gt;</head> <p>Item, esse rei est indivisibile et
+								<lb/>permanens ad minus (?) permanentis. Tamen
+								<lb/>esse rei significatur verbaliter, et per
+								<lb/>hoc est verbum. Ergo res existens sub
+								<lb/>motu potest imponi ad significandum sub
+								<lb/>modo nominali, qui est modus permanentis,
+								<lb/>et res existens in quiete et permanentia
+								<lb/>potest imponi ad significandum sub
+							<lb/>modo nominali.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 3-2- 3 &gt;</head> <p>Item, rnaior distantia est inter ens
+								<lb/>et non ens, quam inter modum fluentis et
+								<lb/>per se stantis. Sed non ens potest imponi
+								<lb/>ad significandum sub modo entis. Ergo
+								<lb/>res permanens potest imponi sub modo
+								<lb/>fluentis et econverso. Quod non ens possit
+								<lb/>significari sub modo entis, hoc apparet,
+								<lb/>quoniam hoc nomen nichil significat
+								<lb/>non ens sub modo substantie et qualitatis,
+							<lb/>qui sunt proprietates entis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 1 &gt;</head>
+					<p><lb/>Solutio. Dicendum quod modus significandi
+						<lb/>essentialis generalis verbi est modus
+						<lb/>motus &lt;et&gt; significare per modum agere
+						<lb/>et pati - modus dico motus fluentis inclinabilis
+						<lb/>ad aliud cum distantia, omnia ista
+						<lb/>idem sunt. Unde antiqui appellabant modum
+						<pb n="138a"/>
+						<lb/>significandi essentialem generalem
+						<lb/>verbi significare agere et pati. Sed tamen
+						<lb/>agere et pati in se non est modus significandi
+						<lb/>essentialis generalis verbi - immo
+						<lb/>agere et pati sunt duo ad que communis
+						<lb/>est modus significandi essentialis generalis
+						<lb/>verbi - sed modus motus, quem modum
+						<lb/>motus moderni ponunt esse modum
+						<lb/>significandi essentialem generalem verbi.
+						<lb/>Significat ergo verbum per modum motus
+						<lb/>vel fluentis quod est commune ad agere et
+						<lb/>pati. Et ita agere et pati non est de significato
+						<lb/>generali verbi.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt;Responsio ad argumenta&gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 1-1&gt;</head> <p>Ad primum argumentum in oppositum
+								<lb/>dicendum, quod actio et passio
+								<lb/>dupliciter possunt considerari, aut quantum
+								<lb/>ad commune materiale, secundum
+								<lb/>quod est scilicet motus, et sic non accidit
+								<lb/>verbo, sed sunt de modo significandi essentiali
+								<lb/>generali verbi, qui est modus motus
+								<lb/>et fluentis; aut quantum ad eorum
+								<lb/>speciales naturas, quas addunt supra motum.
+								<lb/>Unde actio addit supra motum terminationem
+								<lb/>motus per terminum ad
+								<lb/>quem, passio vero addit terminationem
+								<lb/>motus per terminum a quo. Et sic actio et
+								<lb/>passio sunt significationes accidentales
+								<lb/>verbi. Et secundum hoc non dicitur,
+								<lb/>quod verbum significet agere vel pati, sed
+							<lb/>primo modo</p>
+							<pb n="138b"/>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-2&gt;</head> <p>Ad secundum potest dici, quod
+								<lb/>nihil est commune univocum diversis predicamentis,
+								<lb/>verum est &lt;secundum quod&gt;
+								<lb/>reale, sed bene potest esse commune univocum
+								<lb/>&lt;secundum&gt; quod sit modus. Vel
+								<lb/>dicendum aliter, quod actio et passio,
+								<lb/>quantum ad suum principium materiale,
+								<lb/>quod est motus, non sunt predicamenta,
+								<lb/>quia in suo &lt;principio&gt; materiali non differunt,
+								<lb/>sed magis conveniunt. Et constat
+								<lb/>quod non sunt predicamenta nisi per illud
+								<lb/>per quod sunt distincta predicamenta,
+								<lb/>quia quod dat esse6 dat distinctum
+								<lb/>esse. Hoc modo potest eis esse commune
+								<lb/>aliquid univocum, sicut quidam
+								<lb/>modus intelligendi utrumque univoce.
+								<lb/>Hoc modo, ut iam dictum est, agere et
+								<lb/>pati sunt de modo significandi essentiali
+								<lb/>generali verbi. Sed quantum ad suas conditiones
+								<lb/>formales sunt predicamenta distincta.
+								<lb/>Iste autem conditiones formales
+								<lb/>sunt terminatio motus &lt; per terminum ad
+								<lb/>quem et &gt; per terminum a quo. Hoc modo
+								<lb/>concessum est quod sunt accidentia
+							<lb/>verbi.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 1-3&gt;</head> <p>Ad aliud dicendum, quod modus
+								<lb/>motus et fluentis non competit istis
+								<lb/>verbis <hi rend="italic">sum, es, est, generari</hi> et
+								<lb/><hi rend="italic">corrumpi</hi> de significato speciali. Hoc
+								<lb/>modo concludunt argumenta. Tamen de
+								<lb/>modo significandi essentiali generali significant
+								<lb/>suum significatum speciale per
+								<pb n="139a"/>
+								<lb/>modum motus et fluxus. Non enim oportet
+								<lb/>quod modi, qui sunt in dictione, semper
+								<lb/>corespondent proprietatibus rei, sicut
+								<lb/>declarabitur magis etiam &lt; in &gt; sequenti
+							<lb/>problemate.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; Ad 1-4 &gt;</head> <p>Ad aliud dicendum, quod omni
+								<lb/>verbo competit modus motus et fluentis.
+								<lb/>Et quod obicitur de verbis absolutis, dicendum
+								<lb/>quod eis competit modus motus
+								<lb/>et fluentis, sed ille modus fluentis terminatur
+								<lb/>per rem intra. Et intelligere sane
+								<lb/>quidam credunt, quod ita terminetur per
+								<lb/>rem intra, quod cum illa construatur transitive,
+								<lb/>ut <hi rend="italic">vivo vitam, vado vadationem</hi>.
+								<lb/>Sed in veritate hec est incongrua de vi sermonis,
+								<lb/><hi rend="italic">vivo vitam</hi>: licet hoc quod dico <hi rend="italic">vitam</hi>
+								<lb/>sit res significata per hoc quod dico
+								<lb/><hi rend="italic">vivo</hi>, tamen illam non potest exigere, quia
+								<lb/>convenientia gramaticalis fundatur supra
+								<lb/>modos significandi. Et secundo, de vi sermonis,
+								<lb/>hec est adiectio incongrua <hi rend="italic">vivo hominem</hi>,
+								<lb/>sicut hec <hi rend="italic">vivo vitam</hi>, cum utrobique
+								<lb/>&lt; non &gt; sint ibi modi significandi qui
+								<lb/>exiguntur ad hanc constructionem. Sed
+								<lb/>debes intelligere quod motus terminatur
+								<lb/>in verbis absolutis, idest in se finitantur,
+								<lb/>sicut [per] motus in verbis transitivis terminatur
+							<lb/>in rem extra (α).</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 2 &gt;</head>
+					<p><lb/>Ad illud quod queritur, utrum in significato
+						<lb/>essentiali generali verbi cadat modus
+						<lb/>inclinabilis cum distantia, dicendum est
+						<pb n="139b"/>
+						<lb/>quod sic. Et exponitur communiter "cum
+						<lb/>distantia" idest in ratione alterius extremi,
+						<lb/>ita quod nunquam potest cedere in
+						<lb/>idem extremum cum parte significante
+						<lb/>substantiam, sed semper se habeat in ratione
+						<lb/>alterius extremi. Sed melior modus
+						<lb/>exponendi est, quod verbum significat
+						<lb/>per modum inclinabilis ad aliud cum
+						<lb/>distantia, idest maxime inclinatur inter
+						<lb/>omnia inclinabilia. Probatio istius expositionis
+						<lb/>est, quod inter maxime distantia
+						<lb/>maxima est inclinatio. Quod autem verbum
+						<lb/>inter omnia inclinabilia maxime inclinetur,
+						<lb/>hoc apparet per quosdam effectus,
+						<lb/>quia modus, qui qualitas est inclinationis,
+						<lb/>in nullo inclinabili invenitur preterquam
+					<lb/>in verbo.</p>
+					<p><lb/>Iterum illud maxime inclinatur, cui respondet
+						<lb/>maxima persestantia, vel exigit
+						<lb/>maxime persestantiam. Huiusmodi autem
+						<lb/>est ipsum verbum. Ideo verbum inter omnia
+						<lb/>inclinabilia maxime inclinatur. Et licet
+						<lb/>inter verba quedam sunt magis inclinabilia,
+						<lb/>quedam minus, sicut verbum finiti
+						<lb/>modi magis quam infinitivi modi, et transitivum
+						<lb/>magis quam absolutum, tamen
+						<lb/>verbum minime inclinabile inter omnia
+						<lb/>verba maxime inclinatur respectu alterius
+						<lb/>inclinabilis, quantumcumque sit illud inclinabile,
+						<lb/>sicut respectu participii, vel respectu
+						<lb/>nominis adiectivi. Quantumcumque
+						<lb/>inclinabilia sunt verba minime inclinationis
+						<lb/>inter verba, magis est ad hoc inclinabile
+						<lb/>verbum. Ergo maxime inclinatur
+						<pb n="140a"/>
+						<lb/>inter alia inclinabilia. Et quia distantia
+						<lb/>maxima est inclinatio, ideo verbum appellatur
+						<lb/>inclinabile cum distantia.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+						<div>
+							<head><lb/>&lt;Ad 2-2&gt;</head> <p>Et concedatur argumentum pro
+								<lb/>parte ista. Hoc enim dictat modus in
+								<lb/>verbo, quod sit maxime inclinabile, et
+								<lb/>ideo cum distantia - distantia enim est
+							<lb/>inclinatio, ut dictum est.</p>
+						</div>
+						<div>
+							<head><lb/>&lt;Ad 2-1-1&gt;</head> <p>Ad primum argumentum in
+								<lb/>oppositum secundum primam viam dicitur
+								<lb/>sic, quod li <hi rend="italic">Sortes qui currit</hi> potest
+								<lb/>comparari dupliciter ad...; aut hoc totum
+								<lb/><hi rend="italic">Sortes qui currit</hi> ad predicatum disputat,
+								<lb/>et sic discernunt idem extremum, aut
+								<lb/>comparando inter se [se] <hi rend="italic">currit ad Sortem</hi>,
+								<lb/>et sic est in ratione alterius extremi
+								<lb/>Sed sic potest esse dupliciter
+								<lb/>ista oratio <hi rend="italic">Sortes qui currit</hi> disputat. Sed
+								<lb/>tamen credo quod sit una, sicut hec: <hi rend="italic">Sortes
+								<lb/>currens disputat</hi>, hec enim accipitur
+								<lb/>pro una aliarum: <hi rend="italic">Sortes albus disputat</hi>, et
+								<lb/>[licet] ex ea sequantur implicite.
+								<lb/>Ideo dicatur ad argumentum, sed secundum
+								<lb/>&lt; secundam &gt; viam, quod ibi est equivocatio
+								<lb/>huius quod dico "cum distantia".
+								<lb/>&lt; Potest esse aliquid cum distantia &gt; ita
+								<lb/>quod in ratione alterius extremi, potest
+								<lb/>&lt; esse &gt; aliquid cum distantia, idest in ratione
+								<lb/>maxime inclinabilis. Quando ergo
+								<lb/>dicitur, quod verbum est inclinabile cum
+								<lb/>distantia, intelligitur quod sit maxime
+								<lb/>inclinabile, non quod se habeat in ratione
+								<pb n="140b"/>
+							<lb/>alterius extremi. Econverso procedit argumentum.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; Ad 2-1-2 &gt;</head> <p>Ad aliud, secundum primam
+								<lb/>viam diceretur, quod &lt; cum dicatur&gt; Sortes
+								<lb/>currere est possibile, currere enim est
+								<lb/>&lt; verbum &gt;, et cum hoc quod dico &lt; Sortes &gt;
+								<lb/>se &lt; tenet &gt; in ratione eiusdem
+								<lb/>extremi, et in nominativo casu, et ideo
+								<lb/>non est mirum, si sine distantia se habet
+								<lb/>ad Sortes. Sed hoc nihil est quod regit accusativum
+								<lb/>casum. Ideo est verbum et verbaliter positum.
+								<lb/>Propterea respondendum est ad argumentum
+								<lb/>per equivocationem huius quod
+								<lb/>dico "cum distantia" eodem modo, sicut
+								<lb/>dicebatur ad argumentum prius immediate
+							<lb/>factum.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 3 &gt;</head>
+					<p><lb/>Ad id quod queritur, utrum res existens
+						<lb/>sub permanentia et quiete possit imponi
+						<lb/>ad significandum per modum fluxus et
+						<lb/>econverso, hoc est querere illam falsam
+						<lb/>suppositionem (?), utrum modi intelligendi
+						<lb/>[rem] semper respondeant proprietatibus
+					<lb/>rei.</p>
+					<p><lb/>Et solet dici quod sic, tamen non est verum,
+						<lb/>quia intellectus apprehendens intelligit
+						<lb/>in re et proprietatem existentem et
+						<lb/>non existentem. Unde intelligimus dum
+						<lb/>sentimus aut non, primo De anima.
+						<lb/>Cum ergo modi intelligendi non semper
+						<lb/>sint consimiles proprietatibus rei, et modi
+						<lb/>significandi finitantur supra modos intelligendi,
+						<lb/>ideo non oportet quod res semper
+						<pb n="141a"/>
+						<lb/>imponatur ad significandum sub modis
+					<lb/>et proprietatibus rei.</p>
+					<p><lb/>Dicendum ergo ad questionem, quod
+						<lb/>bene possibile est &lt; intelligere &gt; rem manentem
+						<lb/>sub modo fluentis, et rem fluentem
+						<lb/>sub modo manentis, unde plures impositiones
+					<lb/>fiunt in ipsa voce</p>
+					<p><lb/>Prima est vocis ad suum significatum et
+						<lb/>hoc est a voluntate imponentis cum aliqua
+						<lb/>abilitate vocis. Unde dicit Alanus,
+						<lb/>quod rebus existentibus, ut videtur genus
+						<lb/>humanum voces ad significandum res pro
+					<lb/>libito sue voluntatis imponit.</p>
+					<p><lb/>Secunda impositio [[vocis]] similiter f[u]it
+						<lb/>a voluntate, vocis scilicet significantis ad
+					<lb/>modum essentialem generalem.</p>
+					<p><lb/>Sed alie impositiones, sicut impositio vocis
+						<lb/>significantis ad modum significandi essentialis
+						<lb/>specialis, et ad accidentia, non
+						<lb/>fiunt ita a voluntate, sed limitabantur a
+						<lb/>modo significandi essentiali generali.
+						<pb n="141b"/>
+						<lb/>Unde aliquid ei repugnans non potest
+						<lb/>post ipsum imponi in dictione.
+						<lb/>Si queritur tunc quare significatum speciale
+						<lb/>non regulat impositionem modi significandi
+						<lb/>essentialis generalis, sicut modus
+						<lb/>significandi &lt; essentialis generalis regulat
+						<lb/>modum significandi &gt; essentialem
+						<lb/>specialem, &lt; dicendum &gt; ergo quia diverse
+						<lb/>sunt impositiones, et diversi generis
+						<lb/>(β): una enim est modi, altera est rei. Sed
+						<lb/>impositio modi significandi essentialis generalis
+						<lb/>regulat impositionem aliorum modorum,
+						<lb/>quia eiusdem generis sunt impositiones,
+						<lb/>utrobique enim modus significandi
+						<lb/>imponitur. Apparet ergo quod impositio
+						<lb/>modi significandi essentialis generalis
+						<lb/>non regulatur a significato speciali.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+						<div>
+							<head><lb/>&lt; Ad 3-2 &gt;</head> <p>Ad argumentum in oppositum,
+								<lb/>dicendum per interemptionem minoris,
+								<lb/>quod impositores possunt intelligere rem
+								<pb n="142a"/>
+								<lb/>manentem sub modo fluentis et e converso.
+								<lb/>Et quod arguitur in oppositum, dicendum
+								<lb/>quod intellectus verior intelligitur
+								<lb/>de intellectu principiorum. Sed intellectus
+								<lb/>apprehendens nec &lt; est &gt; verus nec
+								<lb/>falsus, ut vult Aristoteles in principio <hi rend="italic">Perihermeneias</hi>
+								<lb/>quia intellectus apprehendens
+								<lb/>est sine compositione et divisione,
+								<lb/>et circa compositionem et divisionem
+								<lb/>consistit veritas et falsitas. Licet
+								<lb/>enim intellectus apprehendens &lt; apprehendit &gt;
+								<lb/>rem que est vel que non est,
+								<lb/>tamen eam non apprehendit esse vel non
+								<lb/>esse. Ideo &lt; quando &gt; intellectus intelligit
+								<lb/>rem manentem sub modo fluentis, non
+								<lb/>debet dici falsus, dum non eam rem intelligit
+								<lb/>manentem scilicet esse sub modo
+								<lb/>fluentis. Et e converso, possum enim intelligere
+								<lb/>chimeram vel hircocervum, tamen
+								<lb/>nec verus nec falsus est intellectus,
+								<lb/>dum &lt; non &gt; intelligat eam esse vel non
+							<lb/>esse.</p>
+							<p><lb/>Ad hoc dicendum quod nichil est in intellectu
+								<lb/>nisi prius fuerit in sensu (γ). Hoc est
+								<lb/>verum: quicquid est in intellectu prius
+								<lb/>fuit in sensu, sed non oportet quod fuerit
+								<lb/>in sensu in illo in quo intelligitur, sed sufficit
+								<lb/>quod in alio fuerit in sensu (δ).
+								<lb/>Unde hec vox <hi rend="italic">nihil</hi> potuit imponi ad significandum
+								<lb/>non ens, intelligendo non
+								<lb/>ens sub proprietate entis. Non tamen
+								<lb/>oportet quod proprietates entis prius
+								<lb/>fuissent in non ente sensibiliter, sed sufficit
+								<lb/>quod fuissent in alio, sicut in homine
+								<lb/>vel in lapide, et ibi accepit illas proprietates
+								<lb/>entis, sub quibus imponit non ens. Eodem
+								<pb n="142b"/>
+								<lb/>modo dico quod res permanens potest
+								<lb/>intelligi sub modo fluentis, non quod
+								<lb/>illi modi rei fluentis prius fuerant sensibiliter
+								<lb/>in re manente, sed quod intellectus
+								<lb/>accepit illos modos rei fluentis a re
+								<lb/>fluente, ubi fuerant sensibiliter, et imponit
+								<lb/>vel adtribuit rei permanenti imponendo
+								<lb/>ipsam ad significandum sub illis
+								<lb/>modis. Et ita nihil fuit in intellectu, quod
+								<lb/>prius non fuit in sensu, vel in illa re in qua
+								<lb/>est in intellectu vel in anima. Et ita res
+								<lb/>permanens potest imponi sub modo
+								<lb/>fluentis, et res fluens sub modo permanentis.
+								<lb/>[de verbo]
+								<lb/>
+								<lb/>--
+							<lb/></p>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Gloses &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; marge gauche, f. 97v, S2 &gt;</head> <p>Duplex est
+							<lb/>transitio. Transitio intra et extra. Quedam
+							<lb/>verba terminantur intra, quedam per rem
+							<lb/>extra ut transitiva. Per rem intra, sicut
+						<lb/>sunt absoluta ...</p>
+					</div>
+					<div>
+						<head><lb/>&lt; marge inférieure, f. 97v, S2 &gt;</head> <p>Notandum
+							<lb/>quod agere et pati prout uniuntur ... materiali
+							<lb/>hoc quod est motus sunt essentiales
+							<lb/>et generales in verbo, prout ... sunt distincta
+							<lb/>per formam, ita quod agere est per se
+							<lb/>
+							<lb/>et passio est per se, et addunt aliquod supra
+							<lb/>motum quod &lt; est &gt; terminum ad
+							<lb/>quem, sic est actio, et terminum a quo, sic
+						<lb/>est passio. Sic sunt verbo modi accidentales.</p>
+					</div>
+					<div>
+						<head><lb/>&lt; marge inférieure, sous la précédente, f.
+							<lb/>97v, S2 &gt;</head> <p>notandum quod duplex est motus.
+							<lb/>Motus &lt; qui &gt; est (?) in substantia et
+							<lb/>motus successivus. Motus in substantia
+							<pb n="143a"/>
+							<lb/>est sicut hoc verbum sum, motus successivus
+						<lb/>sicut curro.</p>
+					</div>
+					<div>
+						<head><lb/>(α) &lt; marge inférieure, f. 98r, avec un signe
+							<lb/>en marge du texte, appelant le signe
+							<lb/>écrit en face de la glose, S2 &gt;</head> <p>Quedam
+							<lb/>verba maxime inclinantur, sicut hec que
+							<lb/>non sunt in uno situ, sicut exemplum
+							<lb/>homo currit. Quedam minus, sicut adiectiva
+							<lb/>et participium, illa faciunt unum suppositum.
+							<lb/>Quedam magis sicut infinitivus
+							<lb/>cum nomine, ut Sortem currere, et hoc ...
+							<lb/>[ellectus] it propter regimen, quia regere
+							<lb/>est appetere, et quod antequam appetit
+							<lb/>inclinatur ad hoc. Et tamen infinitivus per
+							<lb/>se non potest supponere ut currere bonum
+							<lb/>est, quasi sapit naturam nominis, et ponitur ...
+							<lb/>huius accusativi non nota hic sed
+							<lb/>iuxta quid fiat inclinatio per modos et per
+							<lb/>regimen: Sortem currere, Sortem regitur a
+						<lb/>verbo currere, et ita inclinatur ad ipsum ...</p>
+					</div>
+					<div>
+						<head><lb/>&lt; Marge supérieure et droite, f. 98r, S2 &gt;</head>
+						<p><lb/>Notandum quod modi significandi, aliquando
+							<lb/>correspondent proprietatibus rei,
+							<lb/>aliquando non... depingit imagi (?) ut
+							<lb/>homo medius leo medius equus vel chimera
+						<lb/>vel aliquod simile.</p>
+					</div>
+					<div>
+						<head><lb/>&lt; marge droite, f. 98r, S1: correspond à la
+							<lb/>réponse ad 3-2 &gt;</head> <p>Duplex est intellectus,
+							<lb/>apprehendens et componens, apprehendens
+							<lb/>nec est verus nec falsus, componens
+							<lb/>est verus quia cum &lt;dicitur&gt; est homo, est
+							<lb/>verum vel non. Preterea quando dicitur
+							<pb n="143b"/>
+							<lb/>quod nihil est in intellectu nisi prius fuerit
+							<lb/>in sensu, verum est de intellectu... Et
+							<lb/>sic modi significandi fundantur supra modos
+							<lb/>intelligendi, modi intelligendi super
+							<lb/>modos essendi natura, et sic correspondent
+							<lb/>proprietatibus rei. Intellectus autem
+							<lb/>per se, firmior et nobilior est sensu. Unde
+							<lb/>per intellectum modi significandi fundantur
+							<lb/>supra modos intelligendi, modi intelligendi
+							<lb/>super modos essendi dictionis, et
+							<lb/>sic [non?] correspondent. Unde dicit
+							<lb/>Boethius in Vto p... , "frustra est auctor si
+						<lb/>non operatur aliqua per se".</p>
+					</div>
+					<div>
+						<head><lb/>(β) &lt; marge droite, f. 98r, S1 &gt;</head> <p>quia significatum
+							<lb/>speciale considerat loycus, modi
+							<lb/>vero significandi gramaticus, et non sunt
+						<lb/>eiusdem generis.</p>
+					</div>
+					<div>
+						<head><lb/>(γ) &lt; marge gauche, f. 98v, S1 &gt;</head> <p>de rebus
+						<lb/>veris est intelligendum.</p>
+					</div>
+					<div>
+						<head><lb/>(δ) &lt; marge gauche, f. 98v, S1 &gt;</head> <p>Dixit Aristoteles,
+							<lb/>omne quod est &lt; est &gt; per se aut
+							<lb/>per aliud. Preterea radices sunt similes
+							<lb/>ori. Preterea, si senex habebit oculum iuvenis,
+							<lb/>videbit ut iuvenis. Preterea tantum
+						<lb/>potest dictio quantum permittit sua significatio.</p>
+					</div>
+					<div>
+						<head><lb/>&lt; marge gauche, f. 98v, S2 &gt;</head> <p>Nota quod
+							<lb/>duplex est sensus, per se et per accidens.
+							<lb/>Per se ut cum aliquis (?) videt oculis vel
+							<lb/>percepit per alios sensus; per accidens ut
+							<lb/>quando Deum cognoscimus per subiectum (?)
+						<lb/>et per creaturam ...</p>
+						<pb n="144a"/>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; CAP. 4: DE PARTICIPIO &gt;</head>
+				<lb/>
+				<div type="section">
+					<head><lb/>&lt; 1-UTRUM PARTICIPIUM SIGNIFICET SUBSTANTIAM
+					<lb/>ET ACTUM, VEL ACTUM PURUM &gt;</head>
+					<lb/>
+					<p><lb/>&lt;f.98va25&gt; Consequenter (α) queritur de
+						<lb/>modo significandi essentiali generali participii,
+						<lb/>utrum participium significat de
+						<lb/>modo significandi essentiali generali substantiam
+					<lb/>et actum, vel actum purum.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-1-Quod significat actum purum &gt;</head>
+						<div>
+							<head><lb/>&lt; 1-1-1 &gt;</head> <p>Et arguitur quod participium actum
+								<lb/>purum significet. Effectus unigenus
+								<lb/>debet esse sue cause. Sed participium est
+								<lb/>effectus verbi, quia dicit Priscianus quod
+								<lb/>necessario fiebant verborum translationes
+								<lb/>in casuales figuras cum generibus, que eis
+								<lb/>accidunt etc. Ergo cum verbum significet
+								<lb/>actum purum, participium non significabit
+							<lb/>substantiam &lt; sed actum purum &gt; .</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-1-2 &gt;</head> <p>Item, si participium significaret
+								<lb/>substantiam, hic esset nugatio homo legens,
+								<lb/>cum ibi esset geminatio substantie
+								<lb/>immediata. Et tamen ibi non est nugatio.
+								<lb/>Ergo participium non significat substantiam
+							<lb/>sed actum purum.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-1-3 &gt;</head> <p>Item, modi oppositi non sunt
+								<lb/>compossibiles in eodem modo significandi
+								<lb/>essentiali generali. Sed significare
+								<lb/>substantiam et actum sunt modi oppositi,
+								<pb n="144b"/>
+								<lb/>quia modus substantie est modus permanentis,
+								<lb/>actus in verbo est modus fluentis.
+								<lb/>Isti modi non sunt compossibiles in eodem.
+								<lb/>Quare participium significabit actum
+							<lb/>purum.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 1-2-Quod significat substantiam et actum &gt;</head>
+						<div>
+							<head><lb/>&lt; 1-2-1 &gt;</head> <p>In oppositum arguitur per auctoritatem
+								<lb/>Prisciani. In illa parte "participiis
+								<lb/>Quoque", dicit ibi "attende in his quoque
+								<lb/>quanta vis est substantiam significantium,
+								<lb/>quod et loco participii, &lt; quod et &gt;
+								<lb/>substantiam ipsius que agit vel patitur, et
+								<lb/>actum vel passionem significat, accipitur
+								<lb/>nomen substantivum cum verbo" etc.
+								<lb/>Vult ergo Priscianus quod participium
+								<lb/>significat actum vel passionem et
+								<lb/>substantiam que agit vel patitur. Et ita apparet
+								<lb/>[quod] ex intentione Prisciani quod
+							<lb/>participium significet substantiam et actum.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2-2 &gt;</head> <p>Item, participium dicitur quia
+								<lb/>partem capit a nomine et a verbo. Sed a
+								<lb/>verbo accipit modum fluentis. Ergo a nomine
+								<lb/>debet aliud accipere, quod sit de
+								<lb/>suo modo significandi essentiali generali.
+								<lb/>Sed non videtur aliud accipere a nomine
+								<pb n="145a"/>
+								<lb/>preterquam substantiam. Ergo participium
+							<lb/>significat actum cum substantia.</p>
+							<p><lb/>Tu dicis, quod participium dicitur a "partem
+								<lb/>Capio", non quia capit partem modi
+								<lb/>significandi essentialis generalis a nomine
+								<lb/>et partem a verbo, sed quia accipit partem
+							<lb/>accidentium ab utroque.</p>
+							<p><lb/>Contra. Dicit Priscianus, quod equaliter
+								<lb/>capit a nomine et a verbo. Sed a verbo
+								<lb/>accipit partem modi significandi essentialis
+								<lb/>generalis. Et ergo a nomine debet accipere
+								<lb/>partem &lt; modi significandi essentialis
+							<lb/>generalis &gt;.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2-3 &gt;</head> <p>Item, participium denominatur a
+								<lb/>"partem capere". Sed omnis denominatio
+								<lb/>debet esse a digniori. Ergo participium
+								<lb/>accipit digniorem &lt; partem &gt; a quo accipit
+								<lb/>&lt; denominationem &gt;. Et ita videtur, quod
+								<lb/>participium accipiat a nomme partem
+								<lb/>modi significandi essentialis generalis,
+							<lb/>cum iste modus sit dignior quam accidentia.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2-4 &gt;</head> <p>Item videtur, quod participium
+							<lb/>significet substantiam et actum.</p>
+							<p><lb/>&lt; a &gt; Primo quod significat actum, probatur
+								<lb/>sic, idest quod significet per modum
+							<lb/>fluentis.</p>
+							<p><lb/>&lt; al &gt; Ubicumque est reperire tempus, ibi
+								<lb/>est reperire motus. Ergo ubicumque est
+								<lb/>reperire modum temporis, ibi est reperire
+								<lb/>modum motus. Sed in verbo est et in participio
+								<lb/>reperire modum temporis. Ergo et
+								<lb/>modum motus, ita et modum fluentis.
+								<lb/>&lt;a2&gt; Ubicumque est reperire significationem
+								<lb/>accidentalem, que dividitur in activam
+								<pb n="145b"/>
+								<lb/>et passivam, ibidem est reperire modum
+								<lb/>motus et modum fluentis. Sed in
+								<lb/>participio contingit invenire significationem
+								<lb/>activam et passivam. Ergo participium
+								<lb/>significat per modum motus. Maior
+								<lb/>patet. Ubicumque est reperire posterius,
+								<lb/>ibi est reperire prius. Sed motus prior est
+								<lb/>ad activum et passivum, (&lt; quod &gt; idem est
+								<lb/>quod modus terminatus per terminum ad
+								<lb/>quem vel per terminum a quo), et ubicumque
+								<lb/>invenitur activum et passivum,
+							<lb/>ibidem invenitur motus.</p>
+							<p><lb/>&lt; b &gt; Et tunc arguitur, quod participium
+							<lb/>significet substantiam.</p>
+							<p><lb/>&lt; bl &gt; Ubicumque est reperire proprietatem
+								<lb/>essentialem substantie, que essentialiter
+								<lb/>collocatur &lt; cum &gt; substantia, ibi est reperire
+								<lb/>substantiam veram (β). Hec propositio
+								<lb/>est in subiecto, et implicatur causa
+								<lb/>predicamenti. Sed in participio est invenire
+								<lb/>casum que est proprietas substantie,
+								<lb/>nunquam deserens substantiam. Ergo in
+							<lb/>participio est substantia.</p>
+							<p><lb/>&lt; b2 &gt; Item, ubicumque est invenire genus
+								<lb/>et discretionem sexus, ibidem est reperire
+								<lb/>substantiam. Hoc est probab&lt; i &gt;lissime:
+								<lb/>nihil enim invenitur habere sexum nisi
+								<lb/>quod est substantia. Sed in participio est
+								<lb/>genus, quod est discretio sexus. Ergo in
+								<lb/>participio est invenire substantiam. Igitur
+								<lb/>prius probatur quod participium significat
+								<lb/>substantiam et actum, sive per modum
+							<lb/>manentis et fluentis.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2-5 &gt;</head> <p>Item, participium habet constructionem
+								<lb/>nominis et verbi. Sed constructio
+								<pb n="146a"/>
+								<lb/>xcausatur a modo significandi.
+								<lb/>Ergo participium habet partem modorum
+								<lb/>significandi ab uno, et partem ab alio (γ).
+								<lb/>Forte tu dices, quod constructio causatur
+								<lb/>a modo significandi non quibuslibet nisi
+								<lb/>ab accidentibus, et ita participium non
+								<lb/>accipiet modos significandi a nomine et a
+							<lb/>verbo nisi accidentia.</p>
+							<p><lb/>Sed contra. Modus significandi essentialis
+								<lb/>generalis debet regulare omnes alios modos
+								<lb/>significandi subsequentes. Ergo participium
+								<lb/>non potest habere accidentia nominis
+								<lb/>et verbi nisi habeat de significatis
+								<lb/>generalibus illorum. Ergo participium
+								<lb/>de modo significandi essentiali generali
+								<lb/>significat substantiam et actum.
+							<lb/></p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio ad 1 &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt; Solutio quorundam &gt;</head>
+							<lb/>
+							<p><lb/>&lt;i&gt; Solutio. Antiqui dixerunt de ista materia,
+								<lb/>quod participium significabat substantiam
+								<lb/>et actum. Et cogebantur hoc dicere
+								<lb/>propter hoc quod videbant, quod
+								<lb/>participium exponi solet per nomen et
+								<pb n="146b"/>
+								<lb/>verbum, ut <hi rend="italic">legens, qui legit</hi>. Et ita voluerunt,
+								<lb/>quod in significato verbi caderet
+								<lb/>substantia, quia videba&lt; n &gt;t eam cadere in
+							<lb/>sua expositione.</p>
+							<p><lb/>&lt; Contra &gt; Sed certum &lt; est &gt; quod hec
+								<lb/>expositio respondet significato speciali.
+								<lb/>Nos autem loquimur de modo essentiali
+								<lb/>generali. Adhuc non est verum quod
+								<lb/>omne participium significet substantiam
+								<lb/>de significato speciali, quia <hi rend="italic">currit</hi> et <hi rend="italic">currens</hi>
+								<lb/>idem significant, et currit substantiam
+								<lb/>non significat. Ideo neque currens.
+								<lb/>Sed illud dat intelligere. Et ita apparet,
+								<lb/>quod dictum eorum nihil est ad propositum.
+							<lb/>Ideo &lt; etc &gt; .</p>
+							<p><lb/>&lt; ii &gt; Quidam moderni dicunt, quod participium
+								<lb/>significat actum purum per modum
+							<lb/>fluentis solum.</p>
+							<p><lb/>&lt; Contra &gt; Sed hoc nihil est, quia quidquid
+								<lb/>est in modo significandi participii, esset in
+								<lb/>modo significandi verbi, et ita participium
+								<lb/>esset idem cum verbo. Sed hoc est
+								<lb/>falsum, quia haberent eadem accidentia,
+								<lb/>quia modus significandi regulat accidentia.
+								<pb n="147a"/>
+								<lb/>Propter hoc enim sequitur, quod participium
+								<lb/>habet pro modo significandi
+								<lb/>essentiali generali partem modi significandi
+								<lb/>essentiali generali nominis. Ideo
+								<lb/>non addit aliquod accidens supra accidentia
+								<lb/>nominis. Licet magis distinguuat
+								<lb/>aliquod accidens quam nomen, scilicet
+								<lb/>personam, tamen non addit accidens
+								<lb/>aliud ab accidentibus nominis. Similiter
+								<lb/>quia haberet eadem accidentia que sunt
+								<lb/>in verbo. Sed nos videmus quod participium
+								<lb/>habet genus, quod est discretio sexus,
+								<lb/>et habet casum, que non invenitur in
+								<lb/>verbo. Ideo necesse est quod addat aliquid
+								<lb/>supra modum significandi quem accipitur
+								<lb/>a verbo. Quare non significabit actum
+								<lb/>per modum fluentis solum.
+							<lb/></p>
+						</div>
+						<div>
+							<head><lb/>&lt; Solutio propria &gt;</head>
+							<p><lb/>Ideo dicendum, quod participium significat
+								<lb/>substantiam et actum. Sed substantia
+								<lb/>duobus modis dicitur. Uno modo appellatur
+								<lb/>substantia modus permanentis, et
+								<lb/>sic substantia significatur per nomen de
+								<lb/>modo significandi essentiali generali, et
+								<lb/>opponitur ista substantia modo fluentis.
+								<lb/>Et talis substantia non significatur per
+								<lb/>participium de modo essentiali generali.
+								<lb/>Alio modo appelatur substantia quidam
+								<lb/>modus significandi per modum fluentis
+								<lb/>sine distantia, et iste modus opponitur
+								<lb/>modo significandi per modum inclinabilis
+								<lb/>cum distantia. Talem substantiam significat
+								<lb/>participium de modo significandi essentiali
+								<pb n="147b"/>
+								<lb/>generali. Et apparet quod sic significare
+								<lb/>&lt; est significare &gt; per modum inclinabilis
+								<lb/>ad aliud sine distantia, quia sicut
+								<lb/>dicebatur de verbo, quod inclinari ad
+								<lb/>aliud cum distantia idem est quod inclinari
+								<lb/>maxime inter omnia inclinabilia, ita
+								<lb/>per oppositum inclinari sine distantia in
+								<lb/>participio, idem est quod non inclinari
+								<lb/>maxime inter omnia inclinabilia. Et hoc
+								<lb/>est idem quod posse facere unum extremum
+								<lb/>aliquod, ita quod participium cum
+								<lb/>illo ad quod inclinatur sine distantia possit
+								<lb/>cedere in idemptitatem unius extremi.
+								<lb/>Et istud inclinare sine distantia possit appellari
+								<lb/>in participio substantia; quia participium
+								<lb/>possit facere idem extremum cum
+								<lb/>illo ad quod inclinatur, hoc quodammodo
+								<lb/>sapit naturam substantie. Et quodammodo
+								<lb/>ista substantia participii, quod est
+								<lb/>inclinare sine distantia, proportionalis est
+								<lb/>modo per se stantis. De modo significandi
+								<lb/>essentiali generali et de modo significandi
+								<lb/>essentiali speciali potest idem participium
+								<lb/>facere extremum idem, et hoc
+								<lb/>per naturam illius modi significandi, qui
+								<lb/>est inclinari ad aliud sine distantia.
+								<lb/>Significat ergo participium de modo significandi
+								<lb/>essentiali generali substantiam
+								<lb/>et actum. Et appelletur ista substantia
+								<lb/>non modus per se stantis nominis, sed
+								<lb/>modus inclinabilis ad aliud sine distantia,
+								<lb/>qui proportionalis est modo per se stantis
+								<lb/>in nomine. Eo quod cum eo potest supponere
+								<lb/>verbo, potest habere naturam permanentis,
+								<pb n="148a"/>
+								<lb/>non dico per se, sed per appositionem
+								<lb/>ipsius participii ac nomen ex eadem
+							<lb/>parte extremi.</p>
+							<lb/>
+							<div>
+								<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+								<p><lb/>Et conceduntur argumenta, que probabant
+									<lb/>quod participium significat substantiam,
+									<lb/>sed quia quidam probabant quod
+									<lb/>participium significat illam substantiam
+									<lb/>nominalem scilicet per modum
+									<lb/>permanentis, ideo ad illa respondendum
+								<lb/>est.</p>
+								<div>
+									<head><lb/>&lt; Ad 1-2-1 &gt;</head> <p>Primo ad primum. Cum dicit
+										<lb/>Priscianus, participium significat actionem
+										<lb/>vel passionem et substantiam eius
+										<lb/>qui agit vel patitur, non intelligit, quod
+										<lb/>participium significet ista&lt; m &gt; de modo
+										<lb/>essentiali generali, sed intelligit, quod
+										<lb/>participium significat de significato speciali
+										<lb/>actionem vel passionem, et de eodem
+										<lb/>significato speciali dat intelligere substantiam
+										<lb/>agentem vel patientem, si non exprimatur.
+										<lb/>Et hoc est necessarium quia accidens
+									<lb/>dat intelligere suum subiectum.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-2-2 &gt;</head> <p>Ad aliud bene concedendum
+										<lb/>est quod participium aliquid accepit, et
+										<lb/>adhuc de modo significandi essentiali generali.
+										<lb/>Sed non oportet quod propter hoc
+										<lb/>accipiat &lt;modum&gt; nominalem, sed sufficit
+										<lb/>quod accipiat modum significandi
+										<lb/>proportionalem substantie nominali,
+										<lb/>pro tanto quia accipitur quasi impressio
+										<lb/>substantie nominalis, que est modus permanentis,
+										<pb n="148b"/>
+										<lb/>scilicet (?) quasi ad similitudinem.
+										<lb/>Sed est differentia, scilicet in hoc
+										<lb/>quod n&lt; omen &gt; inde habet talem modum
+										<lb/>permanentis, quo per se bene potest supponere.
+										<lb/>Participium autem non per se,
+										<lb/>sed in hoc convenit quod cum alio bene
+										<lb/>potest, sicut cum nomine ipso. Et ista aptitudo
+										<lb/>est substantia in participio, scilicet
+										<lb/>quod aptum est supponere cum nomine.
+										<lb/>Ista aptitudo est substantia in participio,
+										<lb/>et hanc substantiam potest habere a nomine
+										<lb/>per similitudinem, ut dictum est.
+										<lb/>Respondebatur tamen ad hoc quod dico
+										<lb/>quod participium potest dici participium
+										<lb/>partem capiendo a nomine et a verbo in
+										<lb/>accidentibus, et non oportet quod acciperet
+										<lb/>a modis generalibus nominis et verbi.
+										<lb/>Conceda[n]tur quod participium non solum
+										<lb/>sumit partem accidentium a nomine
+										<lb/>et a verbo, sed etiam sumit partem modi
+										<lb/>significandi generalis a nomine et partem
+										<lb/>a verbo, scilicet illam partem quam accipit
+										<lb/>a verbo, vero modo accipit, scilicet
+										<lb/>modum fluentis. Illa autem quam accipit
+										<lb/>a nomine non est substantia que est modus
+										<lb/>permanentis, sed substantia que proportionalis
+										<lb/>est illi modi permanentis, et
+										<lb/>que accipitur in participio per redundationem
+										<lb/>modi permanentis nominalis. Non
+										<lb/>tamen redundat in participio ille modus
+										<lb/>permanentis ita vere sicut in nomine, sed
+										<lb/>aliqualiter est ille modus permanentis in
+										<lb/>participio, quia de illo modo participium
+										<pb n="149a"/>
+										<lb/>cum alio habet supponere. Non tamen
+										<lb/>debet appellare modus permanentis, sed
+										<lb/>modus inclinabilis sine distantia, idest
+									<lb/>non multum inclinabilis.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-2-4 al et 1-2-4 a2 &gt;</head> <p>Alia duo argumenta
+										<lb/>concedebantur, que probabant
+									<lb/>quod participium significabat actum.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-2-4 bl et 1-2-4 b2 &gt;</head> <p>Ad alia duo
+										<lb/>que probabant, quod participium significaret
+										<lb/>substantiam, dicendum est unica solutione,
+										<lb/>quod &lt; non &gt; est necesse ad hoc
+										<lb/>quod aliquid habeat casum et genus,
+										<lb/>quod est discretio sexus, et alia accidentia
+										<lb/>nominis, quod propter hoc habeat modum
+										<lb/>generalem significandi nominis, vel
+										<lb/>significat de modo significandi essentialis
+										<lb/>generalis substantiam nominalem, que est
+										<lb/>modus permanentis, sed sufficit quod habeat
+										<lb/>modum proportionalem ipsius substantie
+										<lb/>nominalis, per quem possit fieri
+										<lb/>unum extremum cum nomine Et sine tali
+										<lb/>distantia ad minus non potest aliquid habere
+										<lb/>casus et genus, quod est discretio sexus.
+										<lb/>Et talem substantiam habet participium.
+										<lb/>Et ideo potest habere accidentia
+									<lb/>quedam ipsius nominis.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-1-1 &gt;</head> <p>Ad argumenta que probabant,
+										<lb/>quod participium non significaret
+										<lb/>substantiam, dicendum est primo ad primum.
+										<lb/>Quando dicitur, quod effectus debet
+										<lb/>esse unigenus sue cause, hoc intelligitur
+										<lb/>de causa materiali non efficiente, et
+										<lb/>unigene non univoca. Non enim oportet,
+										<lb/>quod si domificator est homo, quod
+										<lb/>domus sic sit similis homini. Similiter non
+										<pb n="149b"/>
+										<lb/>oportet, si verbum de modo essentiali generali
+										<lb/>significet actum purum, quod etiam
+									<lb/>participium significet actum purum.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-1-2 &gt;</head> <p>Ad aliud dicendum, quod valet
+										<lb/>bene de significato speciali. Si enim legens
+										<lb/>de significato speciali significaret
+										<lb/>substantiam, hic esset nugatio <hi rend="italic">homo est
+										<lb/>legens</hi>. Sed non oportet quod sit nugatio,
+										<lb/>si <hi rend="italic">legens</hi> significaret substantiam de modo
+										<lb/>essentiali generali, quia verius esset ibi nugatio,
+										<lb/><hi rend="italic">homo albus</hi>, cum <hi rend="italic">albus</hi> veriori modo
+									<lb/>significaret substantiam quam <hi rend="italic">legens</hi>.</p>
+								</div>
+								<div>
+									<head><lb/>&lt; Ad 1-1-3 &gt;</head> <p>Ad ultimum dicendum, quod
+										<lb/>modi oppositi non sunt compossibiles in
+										<lb/>eodem. Hoc verum est. Sed modus significandi
+										<lb/>in participio, qui est significare
+										<lb/>substantiam, non est oppositus
+										<lb/>modo fluentis, quia in participio non est
+										<lb/>modus permanentis nominalis, qui recte
+										<lb/>opponitur modo fluentis verbi, sed est
+										<lb/>modus inclinabilis sine distantia, idest aptitudo
+										<lb/>faciendi &lt; unum &gt; extremum cum
+										<lb/>alio habente modo permanentis. Est modus
+										<lb/>significandi essentialis generalis participii
+										<lb/>significare per modum fluentis - et
+										<lb/>hoc habet a verbo -, inclinabilis ad aliud
+										<lb/>sine distantia, idest non maxima inclinabilitate,
+										<lb/>sicut facit verbum, sed sub tali modo
+										<lb/>quod cum alio possit facere extremum -
+										<lb/>hoc habet a nomine. Et ita significat per
+										<lb/>modum fluentis inclinabilis sine distantia.
+									<lb/></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; 2-UTRUM PARTICIPIUM POSSIT SUPPONERE &gt;</head>
+					<p><lb/>Ad evidentiam huius queritur, utrum participium
+						<pb n="150a"/>
+						<lb/>possit supponere. Et arguitur
+						<lb/>quod sic per auctores primo, postea per
+					<lb/>rationes.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 2-1-Quod sic &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt; 2-1-1 &gt;</head> <p>Per auctoritates. Priscianus, in
+								<lb/>principio secundo Minoris, dicit enim
+								<lb/><hi rend="italic">tractantes</hi> [omnes]. Et ita participium
+								<lb/>potest supponere. Ita dicit de suis exemplis
+								<lb/>frequentius accuso <hi rend="italic">legentem</hi>. Ergo per
+								<lb/>conversionem active in passivam <hi rend="italic">legens
+							<lb/>accusatur a me</hi>.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-1-2 &gt;</head> <p>Item, magis arguitur de intentione
+								<lb/>Prisciani non cassum humane lugunt.
+								<lb/>Ipse enim vult probare quod cassum
+								<lb/>sit participium. Et probat quod sic,
+								<lb/><hi rend="italic">cassum, a, um</hi> habet naturam terminandi
+								<lb/>a parte post, sed quia potest terminare a
+								<lb/>parte post, potest etiam terminare a parte
+								<lb/>ante sive [[app]] supponere. Quare videtur
+								<lb/>esse de intentione Prisciani, quod participium
+							<lb/>habeat naturam supponere.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-1-3 &gt;</head> <p>Item, per Aristotelis auctoritatem
+								<lb/>in Elenchis, ut <hi rend="italic">incipientes a primis, laborans
+								<lb/>sanabatur</hi>. Et ita videtur, quod participium
+							<lb/>supponat.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-1-4 &gt;</head> <p>Item, per rationem potest argui
+								<lb/>sic. Sicut se habet adiectivum ad adiacendum,
+								<lb/>ita se habet substantivum ad supponendum.
+								<lb/>Ergo permutata proportione, sicut
+								<lb/>se &lt; habet &gt; adiectivum ad supponendum,
+								<lb/>ita se habet substantivum ad apponendum.
+								<lb/>Sed substantivum congrue potest
+								<lb/>[[sup]] \ap/poni, ut <hi rend="italic">homo est animal</hi>.
+								<lb/>Ergo adiectivum poterit supponere. Et
+								<pb n="150b"/>
+								<lb/>est participium adiectivum. Quare videtur
+							<lb/>quod participium possit supponere.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-1-5 &gt;</head> <p>Item, substantia infinita specificata
+								<lb/>actu speciali potest supponere, ut <hi rend="italic">qui
+								<lb/>currit disputat</hi>. Sed substantiam infinitam
+								<lb/>determinatam per actum specialem significat
+								<lb/>ipsum participium, ut <hi rend="italic">legens, qui legit</hi>.
+							<lb/>Ergo participium potest supponere.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 2-2-Quod non &gt;</head>
+						<div>
+							<head><lb/>&lt; 2-2-1 &gt;</head> <p>In oppositum solet argui sic. Nullum
+								<lb/>adiectivum adiective retentum potest
+								<lb/>supponere. Hec est vera: in subiecto implicatur
+								<lb/>causa predicati. Sed omne participium
+								<lb/>est adiectivum adiective retentum;
+								<lb/>hoc declaratur ex hoc, quod omne participium,
+								<lb/>aut declinatur per tres diversas
+								<lb/>terminationes, aut per tria pronomi articularia,
+								<lb/>etsi aliquando non exprimatur.
+							<lb/>Ergo nullum participium supponit.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-2-2 &gt;</head> <p>Item, omne participium potest
+								<lb/>apponere et sine incongruitate. Ergo nullum
+								<lb/>potest supponere. Probatio huius
+								<lb/>consequentie: Omne illud quod potest
+								<lb/>apponere, habet modum adiacentis de
+								<lb/>modo significandi essentiali speciali. Sed
+								<lb/>quod habet modum adiacentis de modo
+								<lb/>essentiali significandi speciali, non habet
+								<lb/>modum per se stantis de modum significandi
+								<lb/>essentiali speciali, quia nihil unum
+								<lb/>et idem potest esse sub oppositis speciebus.
+								<lb/>Et illud quod non habet &lt; modum
+								<lb/>per se stantis &gt; de modo essentiali speciali
+								<lb/>non potest supponere. Ergo a posteriori,
+								<pb n="151a"/>
+								<lb/>quod potest supponere non potest
+								<lb/>apponere. Et ita, si omne participium
+							<lb/>apponit, nullum participium supponit.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-2-3 &gt;</head> <p>Item, si participium
+								<lb/>supponeret, aut hoc esset per naturam
+								<lb/>modi fluentis, aut per naturam modi inclinabilis
+								<lb/>ad aliud sine distantia - plura
+								<lb/>enim non habet in suo modo significandi
+								<lb/>essentiali generali. Sed per naturam modi
+								<lb/>fluentis non supponit, hoc nullum dubium
+								<lb/>est, quia iam verbum supponeret, et
+								<lb/>isti modi sunt oppositi, scilicet modus
+								<lb/>fluentis et modus permanentis. Item, nec
+								<lb/>per naturam modi inclinabilis ad aliud
+								<lb/>sine distantia, quia omne nomen adiectivum
+								<lb/>nominis veriori modo habet inclinationem
+								<lb/>sine distantia quam habeat participium,
+								<lb/>non tamen propter hoc supponit
+								<lb/>adiectivum nomen, ut albus. Ergo nec
+							<lb/>participium potest supponere.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio &gt;</head>
+						<lb/>
+						<div>
+							<head><lb/>&lt; Solutio quorundam &gt;</head>
+							<div>
+								<head><lb/>&lt;i&gt;</head> <p>Solutio. Quidam &lt;dicunt&gt; quod participium
+									<lb/>potest supponere gratia substantie
+									<lb/>intellecte, ut <hi rend="italic">legens, qui legens est</hi>, vel
+								<lb/><hi rend="italic">qui legit</hi>.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Contra &gt;</head> <p>Sed ista causa non valet, quia in
+									<lb/>hoc quod est legens dat intelligere substantiam,
+									<lb/>ita <hi rend="italic">albus</hi>, vel adiectivum, ut <hi rend="italic">albus</hi>,
+									<lb/>qui est albus. Et ideo si non valeat ista
+									<pb n="151b"/>
+									<lb/>causa in omni adiectivo, non valebit in
+								<lb/>participio.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; ii &gt;</head> <p>Ideo placet aliis quibusdam dicere,
+									<lb/>quod participium [non] supponat gratia
+									<lb/>substantie quam habet de modo significandi
+								<lb/>essentiali generali.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Contra &gt;</head> <p>Sed ista substantia non sufficit
+									<lb/>quod participium supponat, quia talem
+									<lb/>substantiam veriori modo &lt; habet &gt; <hi rend="italic">albus</hi>
+								<lb/>quam aliquod participium.</p>
+								<lb/>
+							</div>
+						</div>
+						<div>
+							<head><lb/>&lt; Solutio propria &gt;</head>
+							<p><lb/>Et propter hoc dicendum, quod participium
+								<lb/>non potest supponere. Et solum
+								<lb/>ponatur pro causa, quare est adiectivum
+								<lb/>et non substantivum, quia nullus modus
+								<lb/>significandi essentialis specialis, nec accidentalis,
+								<lb/>potest esse in aliqua parte, si repugnet
+								<lb/>modo essentiali generali. Propter
+								<lb/>hoc enim, quod modus fluentis in aliud
+								<lb/>
+								<lb/>repugnat modo significandi essentiali generali
+								<lb/>nominis, qui est modus permanentis,
+								<lb/>ideo talis modus non est in nomine, et
+								<lb/>ab hoc nullum nomen potest construi
+							<lb/>cum accusativo sine figura.</p>
+							<p><lb/>Similiter, si in participio esset alius modus
+								<lb/>significandi essentialis specialis, qui esset
+								<lb/>modus per se stantis, iste modus repugnaret
+								<lb/>modo significandi essentiali generali
+								<lb/>participii. Ideo nullum participium potest
+								<lb/>habere de modo significandi essentiali
+								<lb/>[[generali]] speciali per se stantiam, vel
+								<pb n="152b"/>
+								<lb/>sit participium, eo quod potest terminare
+								<lb/>actum, dicendum quod non fuit de intentione
+								<lb/>Prisciani quod participium terminaret,
+								<lb/>sed hoc dicendum quod loquebatur
+							<lb/>secundum usum communiter loquentium.</p>
+							<div>
+								<head><lb/>&lt; Ad 2-1-4 &gt;</head> <p>Ad rationem dicendum est,
+									<lb/>quod forte substantivum non potest apponere.
+									<lb/>Unde forte hac est incongrua
+									<lb/><hi rend="italic">homo est animal</hi>.
+									<lb/>Sed dicendum est aliter, quod &lt; in hac &gt;
+									<lb/><hi rend="italic">homo est animal</hi> &lt; <hi rend="italic">animal</hi> &gt; per se non
+									<lb/>[[su]] \ad/ponit, sed fit unum extremum
+									<lb/>cum verbo substantivo. Et similiter dicam,
+									<lb/>quod adiectivum cum alio potest
+								<lb/>supponere, sed non per se.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 2-1-5 &gt;</head> <p>Ad illud dicendum, quod
+									<lb/>substantia infinita cum actu speciali bene
+									<lb/>potest supponere, si substantia infinita
+									<lb/>per se exprimitur, ut <hi rend="italic">qui currit disputat</hi>
+									<lb/>Sed tamen substantia infinita intellecta
+									<lb/>cum actu speciali non supponit. Et ideo
+									<lb/>participium non supponit, licet in eo non
+									<lb/>intelligatur substantia infinita
+									<pb n="153a1"/>
+									<lb/>cum actu, que non potest supponere nisi
+								<lb/>exprimatur.</p>
+								<lb/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Gloses &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>(α) &lt;marge inférieure, f. 98v, avec un signe
+							<lb/>en marge du texte, appelant le signe
+							<lb/>écrit en face de la glose, S2&gt;</head> <p>Nota quod
+							<lb/>significare duobus modis summitur, uno
+							<lb/>modo summitur pro imponere, si&lt; c &gt; nomen
+							<lb/>significat substantiam cum qualitate
+							<pb n="153b1"/>
+							<lb/>prout sibi imposita est. Secundo modo
+							<lb/>summitur pro intelligere, sic est in participio.
+							<lb/>In substantia inplicatur causa predicati,
+							<lb/>ut dico oculo statim intelligitur visus.
+						<lb/>In medio ...</p>
+					</div>
+					<div>
+						<head><lb/>(β) &lt; marge droite, f. 98v, S1 &gt;</head> <p>Talia sunt
+						<lb/>predicata qualia permiserunt subiecta.</p>
+					</div>
+					<div>
+						<head><lb/>(γ) &lt; marge droite, f. 98v, S1 &gt;</head> <p>Supponit
+							<lb/>enim sicut nomen a parte ante, sicut verbum
+							<lb/>et regit accusativum, cum dicitur <hi rend="italic">legens
+						<lb/>librum</hi> (?) . . .</p>
+						<pb n="153a2"/>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>&lt; CAP. 5: DE PRONOMINE &gt;</head>
+				<lb/>
+				<div type="section">
+					<head><lb/>&lt; UTRUM PRONOMEN SIGNIFICET SUBSTANTIAM
+					<lb/>MERAM &gt;</head>
+					<lb/>
+					<p><lb/>Consequenter queritur de modo
+						<lb/>essentiali generali pronominis, utrum
+						<lb/>pronomen significet substantiam meram
+					<lb/>vel significat substantiam cum qualitate.</p>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-Quod non &gt;</head>
+						<div>
+							<head><lb/>&lt; 1-1 &gt;</head> <p>Et ostenditur quod non significet
+								<lb/>substantiam meram. Quod non significat
+								<lb/>substantiam, probatio. Solum est substantia
+								<lb/>triplex. Quedam est materia, quedam
+								<lb/>forma, quedam aggregatum, sive compositum.
+								<lb/>Quod non significet substantiam que est
+								<lb/>forma, probatio, quia iam non posset significare
+								<lb/>substantiam que est materia,
+								<lb/>quod tamen falsum est, quia id idem significat
+								<pb n="153b2"/>
+								<lb/>pronomen quod refert et demonstrat.
+								<lb/>Sed ego scio quod potest referre
+								<lb/>materiam solum, ut dicendum sic, <hi rend="italic">materia</hi>
+								<lb/>est principium naturae et ipsa ... privationes
+								<lb/><hi rend="italic">significat</hi>. Ergo materiam aliquando
+								<lb/>&lt; significat &gt;. Non ergo significabit formam,
+								<lb/>quia si significaret formam, non
+							<lb/>posset significare materiam.</p>
+							<p><lb/>Item eodem modo arguitur quod non significet
+								<lb/>materiam, quia si significaret materiam,
+								<lb/>iam nullum pronomen posset significare
+								<lb/>formam, quod tamen falsum est,
+								<lb/>quia pronomen bene potest referre formam,
+								<lb/>ut <hi rend="italic">albedo est qualitas et ipsa est disgregativa</hi>
+								<lb/>visus. Et potest ergo significare
+							<lb/>formam.</p>
+							<p><lb/>Item eodem modo arguitur, quod non significet
+								<lb/>aggregatum, quia iam non posset
+								<lb/>significare simplicem et meram &lt; substantiam &gt;,
+								<pb n="154a"/>
+								<lb/>quod falsum est. Et potest referre,
+								<lb/>dicendo sic, <hi rend="italic">Deus creavit omnia et ipse est
+								<lb/>finis omnium</hi>. Ergo et potest significare
+							<lb/>substantiam simplicem.</p>
+							<p><lb/>Et ita pronomen non significat aggregatum,
+								<lb/>nec formam, nec materiam. Ergo
+								<lb/>non significabit substantiam, quare nec
+							<lb/>significabit substantiam meram.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2 &gt;</head> <p>Ad idem, significatum partis debet
+								<lb/>esse intelligibile, cuius causa est, quia omnis
+								<lb/>modus significandi qui est in dictione
+								<lb/>prius fuit modus intelligendi in anima.
+								<lb/>Sed substantia mera non est intelli&lt; gi &gt;bilis,
+								<lb/>quia substantia mera est idem quod
+								<lb/>materia, materia autem non est intelligibilis
+								<lb/>sine forma. Unde Plato posuit eam medium
+								<lb/>inter ens et non ens. Ergo substantia
+								<lb/>mera non potest esse significatum
+								<lb/>generale partis. Et ita pronomen non poterit
+								<lb/>significare de modo significandi essentiali
+								<lb/>generali substantiam meram sine
+							<lb/>qualitate.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-3 &gt;</head> <p>Item, pars non distinguitur contra
+								<lb/>totum, licet totum habeat bene distingui
+								<lb/>contra partem. Sed substantia mera &lt; est &gt;
+								<lb/>significatum nominis vel &lt;pars&gt; modi significandi
+								<lb/>essentialis generalis - ubique
+								<lb/>accipitur hoc pro eodem. Ergo si pronomen
+								<lb/>substantiam meram significaret nam
+								<lb/>non debet &lt; dici &gt; distinctum a nomine,
+								<pb n="154b"/>
+								<lb/>quod falsum est. Ergo pronomen addit
+							<lb/>aliquid supra substantiam meram.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-4 &gt;</head> <p>Item, omnis modus essentialis generalis
+								<lb/>est qualitas informans suum subiectum.
+								<lb/>Sed omnis pars orationis habet
+								<lb/>modum significandi essentialem generalem,
+								<lb/>et per illum est pars. Ergo omnis
+								<lb/>pars significat qualitatem de modo essentiali
+								<lb/>generali. Et ita pronomen significat
+							<lb/>substantiam meram et qualitatem.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 2-Quod sic &gt;</head>
+						<div>
+							<head><lb/>&lt; 2-1 &gt;</head> <p>In oppositum arguitur per auctores
+								<lb/>artis gramatice. Dicit enim Donatus,
+								<lb/>quod pronomen ponitur pro nomine et
+								<lb/>tantundem pene significat.c Sed non significet
+								<lb/>tantundem pene si significaret
+								<lb/>qualitatem, sed equaliter tantundem.
+								<lb/>Ergo non videtur significare substantiam
+							<lb/>cum qualitate, sed substantiam solum.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio &gt;</head>
+						<p><lb/>Solutio. Dicendum ad questionem, quod
+							<lb/>dupliciter potest queri, quando queritur
+							<lb/>utrum pronomen significet substantiam
+							<lb/>solam, vel substantiam cum qualitate: aut
+							<lb/>querit&lt; ur &gt; de significato speciali, aut de
+							<lb/>modo significandi essentiali generali. Si
+							<lb/>primo modo queratur, dicendum est
+							<lb/>&lt; quod &gt; pronomen, de virtute sermonis,
+							<lb/>nullum significatum speciale habet, sed
+							<pb n="155a"/>
+							<lb/>ad omne significatum speciale pertinet.
+							<lb/>Unde a sua impositione habet aptitudinem
+							<lb/>ut possit representare omnem rem
+							<lb/>veram vel existentem in anima, significatam
+							<lb/>per vocabulum quod refert vel demonstrat
+							<lb/>ipsum pronomen. Et hoc est
+							<lb/>idem dicere, quod pronomen idem significat,
+						<lb/>quod refert vel demonstrat.</p>
+						<p><lb/>Si secundo modo queratur questio, scilicet
+							<lb/>quid pronomen significet de modo
+							<lb/>significandi essentiali generali, dicendum
+							<lb/>quod, quia pronomen inventum est
+							<lb/>ut habeat modum illius de quo
+							<lb/>aliud enuntiatur, ideo significat substantiam
+							<lb/>et per modum permanentis. Et quia
+							<lb/>pronomen ponitur pro omni nomine de
+							<lb/>suo significato speciali, tam pro nomine
+							<lb/>communi quam proprio, ideo impositor
+							<lb/>videns istam generalitatem significati
+							<lb/>istius specialis, imposuit sibi talem modum
+							<lb/>significandi conformem sibi, idest
+							<lb/>modum indeterminatum non specificatum
+							<lb/>aliqua qualitate propria vel communi,
+							<lb/>quia quodlibet pronomen potest
+							<lb/>pro omni nomine accipi. Sed si pronomen
+							<lb/>aliquam haberet qualitatem propriam,
+							<lb/>iam non posset accipi nisi pro propriis
+							<lb/>nominibus. Similiter &lt; si &gt; pronomen . . .
+							<lb/>haberet communem qualitatem, solum
+							<lb/>pro nomine communi poneretur. Propter
+							<lb/>hoc iste modus permanentis, qui est in
+							<lb/>pronomine, non est determinatus aliqua
+							<pb n="155b"/>
+							<lb/>&lt; qualitate &gt;, sicut propria vel communis.
+							<lb/>Significat ergo pronomen de significato
+							<lb/>essentiali generali substantiam meram
+							<lb/>sine qualitate in modo substantie qui non
+						<lb/>est determinatus aliquo modo qualitatis.</p>
+						<div>
+							<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+							<div>
+								<head><lb/>&lt; Ad 1-1 &gt;</head> <p>Ad argumenta in oppositum,
+									<lb/>dictum est quod primum argumentum
+									<lb/>procedit de significato speciali. Et verum
+									<lb/>est, quod pronomen nullum habet certum
+									<lb/>significatum speciale, quia nec semper significat
+									<lb/>materiam, nec semper formam,
+									<lb/>nec semper aggregatum, sicut obiciebatur.
+									<lb/>Si intelligatur de modo significandi
+									<lb/>essentiali generali, tunc minus sufficienter
+									<lb/>inducitur in substantiam que est ultima
+									<lb/>substantia[m], que est materia et forma et
+									<lb/>aggregatum. Alia substantia ... est modus
+									<lb/>permanentis in gramatica, quam significabit
+									<lb/>ipsum pronomen de modo essentiali
+								<lb/>generali.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-2 &gt;</head> <p>Ad secundum dicendum, quod
+									<lb/>minor est falsa si intelligatur de substantia
+									<lb/>que est modus permanentis, quia licet
+									<lb/>substantia que &lt; est &gt; materia sine forma
+									<lb/>nec sic intelligitur, tamen substantia que
+									<lb/>est modus permanentis non determinatus
+									<lb/>aliqua qualitate propria vel communis
+									<lb/>bene est intelligibilis. Et non valebit probatio
+									<lb/>minoris, quia iste modus substantie
+									<lb/>mere non est materia de qua dicit Plato
+								<lb/>quod est medium inter ens et non ens.</p>
+								<pb n="156a1"/>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-3 &gt;</head> <p>Ad tertium dicendum, quod
+									<lb/>pars potest considerari dupliciter, aut inquantum
+									<lb/>est pars et in ratione partis, aut
+									<lb/>prout est separata a toto, nec se habet
+									<lb/>plus in positione partis, sed est quid distinctum
+									<lb/>in se. Primo modo pars non habet
+									<lb/>facere diversum (?) a toto, hoc &lt; modo &gt;
+									<lb/>non est substantia que est in pronomine,
+									<lb/>nec est pars modi significandi essentialis
+									<lb/>generalis, nec ha6et ad ipsum respectum
+									<lb/>partis. Sed secundo modo, scilicet considerando
+									<lb/>partem in se et extra suum totum,
+									<lb/>hoc modo pars bene dividitur contra
+								<lb/>totum.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-4 &gt;</head> <p>Ad quartum dicendum, quod
+									<lb/>duplex est qualitas. Uno modo dicitur
+									<lb/>esse qualitas omne illud quod informat et
+									<lb/>determinat aliquid subiectum, alio modo
+									<pb n="156b1"/>
+									<lb/>dicitur qualitas sicut in gramatica significare
+									<lb/>proprie vel communiter. De qualitate
+									<lb/>primo modo non fit sermo in gramatica,
+									<lb/>et verum est quod hoc modo omnis
+									<lb/>pars habet qualitatem in suo modo significandi
+									<lb/>essentiali generali, qui6 modus significandi
+									<lb/>essentialis generalis est ipsa
+									<lb/>qualitas informans partem esse partem.
+									<lb/>Et de &lt; de &gt;nominatis [se] a tali qualitate
+									<lb/>non queritur, quando queritur utrum
+									<lb/>pronomen significet substantiam cum
+									<lb/>qualitate, immo queritur de illa qualitate
+									<lb/>que est modus significandi proprie vel
+									<lb/>communiter. Et dictum est quod non,
+									<lb/>quia visum est quod &lt;*** . Et sic ad &gt; argumenta.
+									<lb/>Ista sufficiant de modis significandi
+									<lb/>essentialibus generalibus partium
+								<lb/>declinabilium.</p>
+								<pb n="156a2"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div type="chapter">
+				<head><lb/>Queritur hic postea de gerundivis
+					<lb/>et supinis.</head> <p>Et de istis queruntur duo.
+					<lb/>Primum est sub quo modo significandi
+					<lb/>essentiali generali debeat &lt; cadere &gt;,
+					<lb/>utrum scilicet sint nomina vel verba. Secundo
+					<lb/>est de constructione ipsorum cum
+					<lb/>verbo substantivo, <hi rend="italic">legendum est musas</hi>,
+					<lb/>utrum ista constructio gerundivi cum
+				<lb/>verbo substantivo sit possibilis.</p>
+				<pb n="156b2"/>
+				<div type="section">
+					<head><lb/>&lt; 1-UTRUM GERUNDIA SUNT NOMINA VEL
+					<lb/>VERBA &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; 1-1-Quod sunt nomina &gt;</head>
+						<div>
+							<head><lb/>&lt; 1-1-1 &gt;</head> <p>De primo videtur, quod gerundia
+								<lb/>dicunt&lt; ur &gt; esse nomina - supponatur
+								<lb/>quod sint nomina vel verba.
+								<lb/>Quod non sunt verba probatio. Ver&lt; b &gt;um
+								<lb/>est, ut vult Priscianus in Maiori,
+								<pb n="157a"/>
+								<lb/>pars orationis cum modis et formis et
+								<lb/>temporibus, agendi vel patiendi significativum
+								<lb/>e[s]t sine casu. Sed gerundivum
+								<lb/>non est huiusmodi per Priscianum,
+								<lb/>[verbum... est sine casu] quia dicit
+								<lb/>quod gerundia non habent modos et tempora,
+								<lb/>sed habent casum. Verbum autem
+								<lb/>est sine casu. Ergo gerundia non sunt
+							<lb/>verba sed nomina.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-1-2 &gt;</head> <p>Item, illud quod habet propriam
+								<lb/>dispositionem substantie &lt; substantiam &gt;
+								<lb/>significat. Hec maior est vera, quia proprium
+								<lb/>non discernit illud cuius est proprium.
+								<lb/>Sed gerundivum habet propriam
+								<lb/>dispositionem substantie, scilicet casum.
+								<lb/>Ergo gerundivum substantiam significat.
+								<lb/>&lt; Quod substantiam significat &gt; non est
+							<lb/>verbum, nec gerundia erunt verba.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-1-3 &gt;</head> <p>Item, impossibile est duo contraria
+								<lb/>simul in eodem esse. Sed modus et casus
+								<lb/>contraria sunt. Ergo ubi unum ibi non
+								<lb/>reliquum. Sed casus est in gerundivo.
+								<lb/>Ergo non modus. Sed quod non habet
+								<lb/>modus, illud non est verbum, quia verbum
+								<lb/>est pars orationis cum modis et cetera.
+								<lb/>Et ita gerundia non sunt verba, in
+								<lb/>ista ratione solum, quod modus et casus
+								<lb/>sunt opposita. Et illud probatur sic, quia
+								<lb/>modus &lt;dicit habitudinem actus ad substantiam,
+								<lb/>casus vero dicit habitudinem
+								<pb n="157b"/>
+								<lb/>substantie ad actum, et iste habitudines
+								<lb/>opposite sunt. Ergo modus et casus opposita
+								<lb/>sunt. Quare videtur quod gerundiva
+							<lb/>sint nomina et non verba.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; 1-2-Quod sunt verba &gt;</head>
+						<div>
+							<head><lb/>&lt; 1-2-1 &gt;</head> <p>In oppositum arguitur tamen sic.
+								<lb/>Omne nomen aut est adiectivum aut est
+								<lb/>substantivum. Sed gerundiva non sunt
+								<lb/>adiectiva nomina, nec substantiva. Ergo
+								<lb/>non sunt nomina. Quod non sunt adiectiva
+								<lb/>hoc patet, quia adiectiva per se non
+								<lb/>possunt poni sine substantivo. Gerundivum
+								<lb/>autem nullum aliud nomen exigit
+								<lb/>sed per se ponitur, ut <hi rend="italic">vado ad legendum
+								<lb/>musas</hi> vel <hi rend="italic">vado lectum</hi>. Eadem sunt gerundia
+								<lb/>et supina. Ergo non sunt nomina
+								<lb/>adiectiva. Iterum, non sunt substantiva,
+								<lb/>quia nullum substantivum &lt; est &gt;, quin
+								<lb/>possit determinari aliquo adiectivo. Hoc
+								<lb/>apparet discurrendo per omnia substantiva.
+								<lb/>Sed nullum gerundivum seu suppinum
+								<lb/>potest secum pati aliquod adiectivum.
+								<lb/>Non enim bene diceretur <hi rend="italic">vado a legendum
+								<lb/>album musas</hi>, ita quod li <hi rend="italic">album</hi>
+								<lb/>esset adiectivum intransitive determinans
+								<lb/>ipsum gerundivum. Ergo non sunt nomina
+							<lb/>ista gerundia.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 1-2-1 &gt;</head> <p>Item, nullum nomen potest construi
+							<lb/>cum accusativo a parte post sine figura.</p>
+							<pb n="158a"/>
+							<p><lb/>Sed gerundia bene construuntur
+								<lb/>cum accusativo, ut <hi rend="italic">vado lectum,... in legendo
+								<lb/>Virgilium proficitur</hi>. Ergo ista gerundia
+								<lb/>non sunt nomina.
+							<lb/></p>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; 2-UTRUM ISTA CONSTRUCTIO VERBI SUBSTANTIVI
+						<lb/>CUM GERUNDIVO, <hi rend="italic">legendum est
+					<lb/>musas</hi>, SIT POSSIBILIS &gt;</head>
+					<lb/>
+					<p><lb/>Secundo queritur de ista constructione
+						<lb/>verbi substantivi cum gerundivo, <hi rend="italic">legendum
+						<lb/>est musas</hi>.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; 2-1-Quod non &gt;</head>
+						<p><lb/>Et videtur quod non sit possibilis, hoc est
+							<lb/>quia gerundivum non potest construi
+							<lb/>cum verbo substantivo, sic. Si construatur
+							<lb/>gerundivum cum verbo substantivo, aut
+							<lb/>hoc esset a parte ante, aut a parte post.
+							<lb/>Sed non a parte ante nec a parte post cum
+							<lb/>ipso construitur. Ergo etc. Quod a parte
+							<lb/>ante non possit construi probatur sic,
+							<lb/>quia si construetur a parte ante, oportet
+							<lb/>quod hoc esset in ratione suppositi. Sed
+							<lb/>quod gerundivum non posset supponere,
+							<lb/>hoc apparet, quia verbum est, ut apparebit
+						<lb/>in solutione primi problematis.</p>
+						<p><lb/>Item, non potest supponere hoc quod
+							<lb/>dico <hi rend="italic">legendum</hi>, quia accusativi casus est.
+							<lb/>Et est probatio consequentie, quod accusativis
+							<lb/>et nominativis, quibus concessa est
+							<pb n="158b"/>
+							<lb/>ratio suppositi, diversas habent et distinctas
+						<lb/>habitudines casuales.</p>
+						<p><lb/>Item, si gerundivum non potest supponere,
+							<lb/>videtur quod non possit construi
+						<lb/>cum verbo substantivo a parte ante.</p>
+						<p><lb/>Item, nec a parte post, quia nullum verbum
+							<lb/>absolutum potest construi cum accusativo
+							<lb/>a parte post, nisi mediante prepositione.
+							<lb/>Et enim si male dicatur <hi rend="italic">vado ecclesiam</hi>,
+							<lb/>bene tamen dicitur, mediante
+							<lb/>prepositione, <hi rend="italic">vado ad ecclesiam</hi>. Sed verbum
+							<lb/>substantivum <hi rend="italic">sum, es, est,</hi> verbum
+							<lb/>absolutum &lt; est &gt;, hoc de se patet. Ergo
+							<lb/>non poterit construi cum gerundio, cum
+							<lb/>sit accusativus a parte post,
+							<lb/>nisi mediante prepositione. Sed istam
+							<lb/>constructionem <hi rend="italic">est legendum musas</hi> nemo
+							<lb/>reciperet. Ergo videtur quod constructio
+							<lb/>gerundivi cum verbo substantivo a parte
+							<lb/>post non sit possibilis, nec a parte ante, ut
+							<lb/>prius visum est. Ergo etc.
+						<lb/></p>
+					</div>
+					<div>
+						<head><lb/>&lt; 2-2-Quod sic &gt;</head>
+						<div>
+							<head><lb/>&lt; 2-2-1 &gt;</head> <p>In oppositum arguitur, quod
+								<lb/>omne illud quod significat exitum ab otio
+								<lb/>in actum, vel per modum exitus ab otio
+								<lb/>in actum, potest construi cum illo, quod
+								<lb/>significat actum. Sed verbum substantivum
+								<lb/>significat per modum exitus ab otio
+								<lb/>in actum, gerundivum autem significat
+								<lb/>actum in ratione termini. Ergo verbum
+								<pb n="159a"/>
+								<lb/>substantivum potest construi cum gerundio
+							<lb/>a parte post.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; 2-2-2 &gt;</head> <p>Item, omne illud quod significat
+								<lb/>per modum indeterminati potest construi
+								<lb/>cum illo quod significat per modum determinati.
+								<lb/>Sed gerundivum significat per
+								<lb/>modum determinati, quia significat actum
+								<lb/>specialem. Verbum autem substantivum
+								<lb/>significat per modum indeterminati. Ergo
+								<lb/>gerundivum potest construi a parte post
+								<lb/>cum verbo substantivo in ratione illius
+							<lb/>specificantis.</p>
+							<lb/>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 1 &gt;</head>
+					<p><lb/>Solutio. Ad primum. Quando queritur,
+						<lb/>utrum gerundia sint nomina vel verba, rationes
+						<lb/>sunt inde contrarie, quia secundum
+						<lb/>Priscianum nomina sunt, secundum autem
+						<lb/>Donatum sunt verba. Quidam autem
+						<pb n="159b"/>
+						<lb/>dicunt quod sint nomina, sed quidam
+						<lb/>verba autem simpliciter.
+					<lb/></p>
+					<div>
+						<head><lb/>&lt; Solutio quorundam &gt;</head>
+						<div>
+							<head><lb/>&lt; i &gt;</head> <p>Quidam, dico, volunt quod gerundia
+								<lb/>
+								<lb/>sint nomina per istam causam. Dicunt
+								<lb/>enim quod gerundivum significat infinitivum
+								<lb/>cum articulo, ita quod infinitivus
+								<lb/>specificatur per ipsum articulum. Unde
+								<lb/>&lt; in &gt; infinitivo sunt duo, fieri scilicet et ipsum
+								<lb/>agere. Et actio est illud quod habet
+								<lb/>infinitivus de modo essentiali generali
+								<lb/>verbi, &lt; et &gt; ipsa actio est &lt;in&gt; infinitivo ipsum
+								<lb/>significatum speciale. Dicit ergo,
+								<lb/>quod articulus casualis adveniens infinitivo
+								<lb/>transmutat ipsum agere in qualitatem
+								<lb/>nominalem, et ipsam actionem transmutat
+								<lb/>in substantiam, ita quod gerundivum,
+								<lb/>confectum, ex infinitivo et articulo, significet
+								<pb n="160a"/>
+								<lb/>substantiam cum qualitate, ita quod
+								<lb/>sit nomen, eo quod habet modum significandi
+								<lb/>essentialem generalem nominis. Et
+								<lb/>dicunt, quod articulus adveniens infinitivo
+								<lb/>removet ab eo constructionem quam
+								<lb/>habet cum nomine a parte ante, sed constructionem
+							<lb/>eius a parte post non tollit.</p>
+							<p><lb/>Et ideo ad hoc retinet ipsum gerundivum
+								<lb/>&lt; illam constructionem &gt; scilicet a parte
+								<lb/>post, &lt; et &gt; illam constructionem, quam a
+								<lb/>parte &lt; ante habet &gt; ipsum verbum, non
+								<lb/>habet gerundivum, quia tollitur per articulum.
+							<lb/></p>
+						</div>
+						<div>
+							<head><lb/>&lt; Contra &gt;</head> <p>Sed ista positio in multis peccat.
+								<lb/>Dicit enim ista positio quod actio
+								<lb/>verbi infiniti transmutatur in substantiam
+								<lb/>nominalem et est falsum. Non enim debet
+								<lb/>nomen significare substantiam, si significet
+								<lb/>eam de significato speciali, sed
+								<lb/>quod eam significet de modo essentiali
+								<lb/>generali. Et supponit quod fieri ipsius infinitivi
+								<lb/>transmutetur in qualitatem nominis,
+								<lb/>et supponit quod gerundivum habeat
+								<lb/>constructionem cum substantia a parte
+								<lb/>post, causatur ab ipso fieri. Quod ergo
+								<lb/>non habet modum fieri non habebit ipsam
+								<lb/>constructionem. Igitur si gerundivum
+								<lb/>non retinet fieri ipsius infinitivi, sed
+								<pb n="160b"/>
+								<lb/>mutatur in qualitatem nominis, manifestum
+								<lb/>est quod nomen poterit habere illam
+								<lb/>constructionem que fit cum casuali a
+								<lb/>parte post. Item supponit, quod articulus
+								<lb/>adveniens infinitivo mutet eius modum significandi
+								<lb/>verbalem in modum nominalem.
+								<lb/>Quod falsum est, quia nullum accidentale
+								<lb/>transmutat essentiam. Sed adventus
+								<lb/>articuli est accidentalis infinitivo,
+								<lb/>et transmutatio modi significandi verbalis
+								<lb/>est in modo significandi nominis, et
+								<lb/>est transmutatio essentialis. Ergo adventus
+							<lb/>articuli non potest facere istam transmutationem.</p>
+							<p><lb/>Item, si articulus transmutaret infinitivum,
+								<lb/>magis transmu&lt; taret &gt; ipsum in naturam
+								<lb/>articuli, quam ad naturam5 alterius
+								<lb/>&lt; idest &gt; nominis. Rationale enim est quod
+								<lb/>illud quod transmutat aliud trahat ipsum
+								<lb/>ad naturam sui, magis quam ad naturam
+								<lb/>alterius, sicut calidum agens in materiam
+								<lb/>magis trahit eam ad naturam calidi quam
+							<lb/>ad naturam frigidi.</p>
+							<p><lb/>[Item.] Unde falsum assumit dicendo,
+								<lb/>quod gerundia sunt nomina et non verba.
+								<lb/>Et bene concedunt, quod gerundivum
+								<lb/>construatur a parte post. Ex hoc arguitur:
+								<lb/>quando aliquid dividitur per duas differentias
+								<lb/>essentiales, illud quod essentialiter
+								<pb n="161a"/>
+								<lb/>est sub una, inpossibile est
+								<lb/>&lt;esse&gt; sub aliud. Sed pars orationis principalis
+								<lb/>declinabilis est quoddam totum,
+								<lb/>quod dividitur per istas duas differentias,
+								<lb/>que sunt significare per modum fieri et
+								<lb/>&lt; significare per modum dependentis.
+								<lb/>Quod significat per modum fieri et &gt; dependentis,
+								<lb/>impossibile est participare modum
+								<lb/>habitus et quietis. Sed gerundivum
+								<lb/>habet modum fieri et dependentis, quod
+								<lb/>probatur ex concesso illorum, quia construitur
+								<lb/>cum casuali a parte post et cum
+								<lb/>accusativo sine figura. Et ita impossibile
+								<lb/>est gerundia esse nomina.
+							<lb/></p>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio propria &gt;</head>
+						<p><lb/>Et ideo dicendum quod indubitanter gerundia
+							<lb/>verba sunt. P Sed ad hoc intelligendum,
+							<lb/>quod grammaticus suos modos significandi
+							<lb/>probare non potest [[nec]] sicut
+							<lb/>et geometer sua principia. Non ergo possumus
+							<pb n="161b"/>
+							<lb/>probare gerundia esse verba per
+							<lb/>rationem a priori, nisi per effectum, sicut
+							<lb/>per constructionem, que est effectus
+							<lb/>modi significandi. Videmus autem quod
+							<lb/>gerundium habet illam constructionem
+							<lb/>quam habet verbum, unde verbum est.
+							<lb/>Ergo gerundivum videtur participare modum
+							<lb/>significandi verbi, unde verbum est.
+							<lb/>Quod autem gerundivum participet constructionem
+							<lb/>verbi, unde verbum est, apparet,
+							<lb/>quod non solum participet constructionem
+							<lb/>verbi quam habet a parte
+							<lb/>post, que communis est verbo et participio,
+							<lb/>sed etiam illam quam habet verbum a
+							<lb/>parte ante, et quam habet in ratione qua
+							<lb/>verbum, et per suum modum significandi
+							<lb/>essentialem generalem. Et quod hoc sit
+							<lb/>verum apparet per P.H. qui dicit, quod
+							<lb/>bene dicitur <hi rend="italic">vado me lectum, venio me lectum</hi>
+							<lb/>construendo li <hi rend="italic">me</hi> a parte ante cum
+							<lb/>gerundio intransitive et in ratione suppositi.
+							<pb n="162a"/>
+							<lb/>Cum ergo gerundivum participet
+							<lb/>constructionem verbi, quam habet verbum
+							<lb/>per suum modum significandi essentialem
+							<lb/>generalem, vel per alia consequentia
+							<lb/>modum significandi essentialem generalem
+							<lb/>(et dico hoc propter numerum et
+							<lb/>personam) videtur per effectum, quod gerundivum
+							<lb/>participet illum modum significandi
+							<lb/>essentialem generalem verbi.
+							<lb/>Manifestum est igitur quod sunt verba,
+							<lb/>nec differunt ab infinitivo, nisi accidentaliter.
+							<lb/>Sed ipsa sunt infinitivi modi, nisi
+							<lb/>quod addunt supra infinitivum rationem
+							<lb/>termini et habent tempora, secundum
+							<lb/>quod vult P.H. quod sunt omnia futuri
+							<lb/>temporis. Possunt etiam habere casum
+							<lb/>non repugnante modo significandi essentiali
+							<lb/>generali verbi quam habet, quia obliquus
+							<lb/>non repugnat verbo, licet nominativus
+						<lb/>repugnet ipsi verbo.</p>
+						<lb/>
+						<div>
+							<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+							<div>
+								<head><lb/>&lt; Ad 1-2-1 et 1-2-2 &gt;</head> <p>Ad argumenta in oppositum
+									<lb/>respondendum est, et concedantur
+								<lb/>illa que probant quod sunt verba.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-1-1 &gt;</head> <p>Et quod arguitur in oppositum,
+									<lb/>Priscianus qui dicit quod gerundia
+									<lb/>non habent modos et tempora, dicendum
+									<lb/>quod Priscianus, quia posuerat gerundia
+									<lb/>esse nomina, ideo fuit opus ut poneret in
+									<pb n="162b"/>
+									<lb/>convenientia multa, scilicet quod non haberent
+								<lb/>modos et tempora.</p>
+								<p><lb/>Dicendum ergo per interemptionem,
+									<lb/>quod gerundia habent modos et tempora,
+									<lb/>sicut verba, et sunt infinitivi modi et futuri
+								<lb/>temporis.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-1-2 &gt;</head> <p>Ad secundum dicendum,
+									<lb/>quod casus non est dispositio substantie
+									<lb/>in comparatione ad actum, idest partis significantis
+									<lb/>substantiam, sed est dispositio
+									<lb/>casualis in comparatione ad actum, quodcumque
+									<lb/>sit illud casuale, sive significans
+									<lb/>substantiam, sive significans actum. Itaque
+									<lb/>ex hoc apparet, quod gerundium non
+								<lb/>habet propriam dispositionem casualem.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 1-1-3 &gt;</head> <p>Ad tertium dicendum, quod
+									<lb/>licet modus et casus rectus sint opposita,
+									<lb/>tamen modus et obliquus casus non sunt
+									<lb/>opposita, et maxime casus obliquus et infinitivus
+									<lb/>modus. Ideo possunt se compati
+								<lb/>[[sicut]] in eodem, sicut in genere.</p>
+								<lb/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div type="section">
+					<head><lb/>&lt; Solutio ad 2 &gt;</head>
+					<lb/>
+					<div>
+						<head><lb/>&lt; Solutio quorundam &gt;</head>
+						<div>
+							<head><lb/>&lt; i &gt;</head> <p>Ad secundam questionem dicunt quidam,
+								<lb/>quod gerundium construitur cum
+								<lb/>verbo substantivo a parte ante et in ratione
+								<lb/>suppositi. Et dicunt, quod gerundivum
+								<lb/>habet casum nominativum eo quod
+							<lb/>habet aliquos obliquos.</p>
+							<pb n="163a"/>
+						</div>
+						<div>
+							<head><lb/>&lt; contra &gt;</head> <p>Sed hoc nichil est. Volunt enim
+								<lb/>omnes auctores quod gerundium significet
+								<lb/>actum, et hoc ratione termini actus. Et
+							<lb/>istud repugnat casu recto.</p>
+						</div>
+						<div>
+							<head><lb/>&lt; ii &gt;</head> <p>Alii dicunt, quod gerundium a parte
+								<lb/>post construitur cum verbo substantivo,
+								<lb/>ut verbo substantivo supponit hoc quod
+								<lb/>dico <hi rend="italic">dignum</hi> intellectum, ut <hi rend="italic">dignum est legendum
+								<lb/>musas</hi>, ita quod volunt verbum
+								<lb/>substantivum non posse impersonari.
+								<lb/>Et secundum hoc, quod est impossibile
+								<lb/>quod aliquod casuale construatur cum
+								<lb/>alio gratia intellecti, quod tamen per se
+								<lb/>non poterat construi (quia iam bene diceretur
+								<lb/><hi rend="italic">vir alba curri</hi> t vel <hi rend="italic">vir est alba</hi>), cum
+								<pb n="163b"/>
+								<lb/>in hoc quod dico vir intelligitur substantia),
+								<lb/>supponitur ergo quod hoc verbum
+								<lb/>est non possit impersonari, cuius contrarium
+								<lb/>probatur, quia ponitur in expositione
+								<lb/>[cum] verbi impersonalis, vel in
+								<lb/>suppletione eius, ut <hi rend="italic">lectum est</hi>, vel <hi rend="italic">lectum
+							<lb/>fuit</hi> etc. Ideo male ponebant.</p>
+							<lb/>
+						</div>
+					</div>
+					<div>
+						<head><lb/>&lt; Solutio propria &gt;</head>
+						<p><lb/>Et propter hoc dicendum aliter ad questionem,
+							<lb/>quod verbum substantivum
+							<lb/>cum gerundivo bene construitur. Ponitur
+							<lb/>gerundivum a parte post est <hi rend="italic">legendum
+							<lb/>musas</hi>. Sed verbum substantivum est impersonale
+							<lb/>causa constructionis a parte
+							<pb n="164a"/>
+							<lb/>verbi substantivi. Significat per modum
+							<lb/>indeterminati, et maxime hoc, que sit volentis
+							<lb/>specificari per aliquod sequens,
+							<lb/>quod se habeat in ratione specificantis in
+							<lb/>quocumque modo, et in quocumque
+							<lb/>cas&lt; uale &gt;, sive in nominativo, ut est dies,
+							<lb/>sive in genitivo, ut est <hi rend="italic">moris Eustachii</hi>,
+							<lb/>sive in quocumque obliquo. Nunc autem
+							<lb/>a parte gerundii hoc est quod ipsum gerundivum
+							<lb/>gratia actus... quod importat,
+							<lb/>et etiam in quod se habet in ratione terminantis,
+							<lb/>non potest se habere in ratione
+							<lb/>specificantis. Et ita apparet proportio inter
+							<lb/>verbum substantivum et gerundivum a
+						<lb/>parte post.</p>
+						<lb/>
+						<div>
+							<head><lb/>&lt; Responsio ad argumenta &gt;</head>
+							<div>
+								<head><lb/>&lt; Ad 2-2-1 et 2-2-2 &gt;</head> <p>Concedantur argumenta
+								<lb/>pro parte nostra.</p>
+							</div>
+							<div>
+								<head><lb/>&lt; Ad 2-1 &gt;</head> <p>Ad illud quod fit in oppositum,
+									<pb n="164b"/>
+									<lb/>dicendum quod nullum verbum absolutum
+									<lb/>construitur cum accusativo a parte
+									<lb/>post, sine prepositione, verum est &lt; si &gt; ille
+									<lb/>accusativus teneatur in ratione accusativi,
+									<lb/>hoc est in ratione terminantis transitum.
+									<lb/>Tamen si ille accusativus habet alium modum
+									<lb/>significandi proportionabilem verbo
+									<lb/>absoluto, mediante illo poterit construi
+									<lb/>cum verbo absoluto sine prepositione, sicut
+									<lb/>est in proposito EST LEGENDUM MUSAS.
+									<lb/>Ibi non tenetur iste accusativus LEGENDUM
+									<lb/>[nec] in ratione terminantis, sed
+									<lb/>in ratione determinantis et specificantis in
+									<lb/>determinationem verbi substantivi.
+								<lb/>Domne Nicolaus.</p>
+								<p><lb/>Expliciunt questiones Magistri Mathei
+									<lb/>Bononiensis super modos significandi et
+									<lb/>super grammaticam, reportate per manus
+									<lb/>Jo &lt; hannis &gt; . . . Sunt determinate omnes
+								<lb/>per Magistrum Matheum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

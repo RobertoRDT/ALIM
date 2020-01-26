@@ -1,0 +1,1920 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Liber de gestis in civitate Mediolani</title>
+				<author>Stephanardus de Vicomercato</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Giuseppe Calligaris</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="10424" unit="words">Parole: 10424</measure>
+				<measure quantity="62434" unit="characters_without_spaces">Caratteri (spazi esclusi): 62434</measure>
+				<measure quantity="71243" unit="characters_witht_spaces">Caratteri (spazi inclusi): 71243</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2012-07-17">17/07/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 10637
+					Caratteri: 72061
+				SM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Fratris Stephanardi de Vicomercato Liber de gestis in civitate Mediolani</title>
+						<editor>Giuseppe Calligaris</editor>
+						<imprint>
+							<pubPlace>Città di Castello</pubPlace>
+							<date>1910-1912</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Rerum Italicarum Scriptores, s.  II</title>
+						<biblScope unit="volume">9, 1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi/prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="3"/>
+		<div>
+			<head><lb/>INCIPIT LIBER DE GESTIS IN CIVITATE MEDIOLANI</head>
+			<p><lb/>Ad posterorum cautelam, gesta in civitate mediolanensi tempore domini Otonis
+				<lb/>de Vicecomitibus tunc eiusdem civitatis Archiepiscopi, per quem etiam magna
+				<lb/>fuerunt acta negocia, cogitavi scribere metrice ad ornatum operis: metri enim
+				<lb/>necessitas quandam habet venustatem annexam. Nec declinavi a fundamento
+				<lb/>ystorie, licet tantum quedam maiora prosequar, omittens minora quam plurima, non solum
+			<lb/>difficile arbitrans singula colligere, verum etiam sine fructu.</p>
+			<p><lb/>Aliqua etiam, tam poetice quam rethorice artis morem sequendo, addita sunt alicubi
+			<lb/>ornatus causa, non tamen veritati derogantia gestorum.</p>
+			<p><lb/>Quoniam vero ex auditu ista percepi que meo sunt expleta tempore, nec me longe distante,
+			<lb/>plus forte aliquid vel minus ad meam devenit noticiam.</p>
+			<p><lb/>Ideoque sine preiuditio veritatis hec scripta accipiat qui legerit, quoniam in hoc opusculo
+				<lb/>nec veritati detrahere intendo, nec falsitati favere: fidelis enim scriptor velud equus arbiter
+			<lb/>affectui privato renunciare debet et ipsis adherere rebus.</p>
+			<p><lb/>Ut autem subsequentium intelligentia facilius se offerat, prosaica dicendorum brevis
+			<lb/>explicatio premittitur.</p>
+			<p><lb/>In duos etiam libros opus divisi: quorum primus continet ea que ante conflictus sunt
+				<lb/>acta, licet in eo unus conflictus qui inter Cremonenses et Veronenses fuit in insula Fulcherii
+				<lb/>breviter percurratur; in secundo vero libro plures describuntur pugne, et aliqua etiam
+			<lb/>pauca, que pugnam ultimam secuta sunt, tanguntur.</p>
+			<pb n="4"/>
+			<div>
+				<head><lb/>[LIBER PRIMUS].</head>
+				<p><lb/>In primo itaque libro in principio prelibatio tocius operis tangitur, cui invocatio seu
+					<lb/>divini auxilii imploratio annectitur. In primo paragrafo innuitur multiplex conmendatio civitatis Mediolani.
+					<lb/>In secundo paragrafo, mutatione facta in peius, multiplex eius mala condicio exprimitur,
+					<lb/>et maxime civile discidium ex ambitione aliquorum civium sibi adversorum, querentium dominium
+					<lb/>in civitate, quorum uni parti militia adheret, alteri populus.
+					<lb/>In tercio paragrafo, prevalente populo et eius duce in civitate, Cremona federatur populo
+					<lb/>Mediolanensi, sed Verona militie iungitur; cuius princeps veniens in milicie mediolanensis
+					<lb/>subsidium, transito fluvio Abdua, cito est regressus, insequentibus eum Mediolanensibus, et
+					<lb/>pugnavit cum Cremonensibus ei obviantibus et vulneratus et captus succubuit cum suo exercitu.
+					<lb/>Quo facto, milicia mediolanensis patriis laribus cessit et trans Abduam fluvium fugit; que
+					<lb/>statim redire nitens, in castro Tebiago nomine capta fuit et in duro carcere reclusa. Qui
+				<lb/>autem castrum non intraverunt, ad loca secesserunt diversa.</p>
+				<p><lb/>In IIII° paragrafo describitur gemitus amicorum eorum qui capti fuerunt.</p>
+				<p><lb/>In V° paragrafo ponitur querella actoris huius operis super sui generis ruina.</p>
+				<p><lb/>In VI° paragrafo dicitur quomodo, vacante sede metropolitana, dominus Otto de Vicecomitibus,
+					<lb/>civis Mediolanensis, a papa Urbano IIII, duobus aliis exclusis, ecclesie preficitur.
+					<lb/>Quo facto, Pretor populi, dominans in civitate mediolanensi, dolens de sui fratris amotione,
+					<lb/>castra et possessiones Archiepiscopatus invadit. Sed dictus dominus Otto archiepiscopus
+					<lb/>creatus, iura repetit ecclesie sue a papa Clemente IIII, qui successit Urbano, qui etiam multum
+				<lb/>fervens fuit pro restitutione facienda et occupatores coram se citat.</p>
+				<p><lb/>In VII° paragrafo prefati Clementis sublimatio a sorore carnali prophetice previsa et
+				<lb/>eidem predicta cum recommendatione ordinis fratrum Predicatorum, cui devota erat, inseritur.</p>
+				<p><lb/>In VIII° paragrafo legati de Mediolano venisse ad papam Clementem docetur, qui et
+					<lb/>licentiavit eosdem nisi primo parere iurarent. Qui hoc recusantes vadunt ad regem Karolum
+					<lb/>dominum Apulie, qui ad eorum preces legatum misit, qui pro eis intercederet apud papam. Ipsi
+				<lb/>vero cum legato regis redeuntes, a domino papa sunt recepti et audientia est eisdem concessa.</p>
+				<p><lb/>In IX° paragrafo ponitur oratio legati regis pro Mediolanensibus.</p>
+				<p><lb/>In X° paragrafo oratio legati comunis Mediolani, et isti duo contra dominum Archiepiscopum
+					<lb/>et proscripto de Mediolano locuntur, quorum primus breviter se expedit, sed secundus
+				<lb/>prolixe obloquitur de eisdem.</p>
+				<p><lb/>In XI° texitur oratio domini Archiepiscopi, qui maxime intendit excusationi sue et proscriptorum
+				<lb/>et aliqualiter contra cives etiam de Mediolano aliqua alegat.</p>
+				<pb n="5"/>
+				<p><lb/>In XII° paragrafo oratio habetur legati proscriptorum qui maxime cives de Mediolano
+				<lb/>acusat et excusat proscriptos.</p>
+				<p><lb/>In XIII° paragrafo dicitur quomodo concionibus IIIIor prefatis coram papa et cardinalibus
+					<lb/>recitatis, dominus papa non revocat sententias excomunicationis et interdicti latas in civitatem
+					<lb/>Mediolani nisi legati comunis Mediolani iurent obedire. Qui, cognita constantia pape, iuraverunt
+				<lb/>et redierunt Mediolanum.</p>
+				<p><lb/>In XIIII° paragrafo subinfertur quomodo legatus pape sequitur legatos redeuntes. Qui
+					<lb/>veniens Mediolanum coram civibus proponit mandata pape, que recepta fuerunt, et iuramenta
+				<lb/>obedientie patrantur a civibus per plateas.</p>
+				<p><lb/>In XV° paragrafo ponitur oratio legati domini pape in consilio generali recitata, in qua
+					<lb/>ortatur cives ad amorem et obedientiam Ecclesie, eos mire laudans; et recipit iuramenta ac
+					<lb/>relaxat omnes sententias in comune Mediolani latas, et omnia iura Ecclesie mediolanensis
+				<lb/>repetit et recipit domini archiepiscopi nomine.</p>
+			</div>
+			<div>
+				<head><lb/>LIBER SECUNDUS.</head>
+				<p><lb/>In secundo libro multa describuntur bella. In primo paragrafo agitur de repululatione
+					<lb/>ire primatum civitatis mediolanensis contra dominum Archiepiscopum et contra eum iniusto
+					<lb/>statuto edito, cum iret per Placentiam Lugdunum, ad concilium generale, sequens papam
+					<lb/>Gregorium denum. Qui archiepiscopus in reditu stetit Bugelle in diocesi Vercellensi, quia
+				<lb/>papa rediens per Mediolanum, noluit quod cum eo veniret.</p>
+				<p><lb/>In secundo paragrafo narratur quod, Archiepiscopo stante Bugelle, comes Guifredus de
+					<lb/>Langusco potestas proscriptorum invasit cum proscriptis militibus castrum Seprii et arcem
+					<lb/>Englerie cum burgo, et de descriptione castri Seprii et Englerie et arcis eius; et de exitu
+					<lb/>civium Mediolanensium contra dictum comitem, et conflictu facto iuxta fluvium Guassam
+					<lb/>nomine, in quo conflictu Comes et multi de militibus proscriptis occisi fuerunt et alii in
+				<lb/>fugam conversi, et multi capitis sententia plexi.</p>
+				<p><lb/>In tercio paragrafo agitur de exortatione quam proscripti milites faciunt Archiepiscopo
+					<lb/>ut veniat et ei eorum principem esse placeat et de responsione Archiepiscopi et adventu eius
+					<lb/>in Novariam et inde in castrum Seprium et de exitu Mediolanensium contra Archiepiscopum
+					<lb/>et expugnatione castri, et de repulsa et fuga civium; de fuga tandem Archiepiscopi et suorum
+				<lb/>in Cumas et inde in Zurnigum.</p>
+				<p><lb/>In IIII° paragrafo agitur de adventu Archiepiscopi de Zurnigo in Canobium et de preparatione
+					<lb/>classis contra hostes et de bello navali habito iuxta Zerminagam, in lacu maiori,
+				<lb/>et de victoria Archiepiscopi et quorum, et eorum reditu ad Archiepiscopum.</p>
+				<p><lb/>In V° paragrafo habetur de reparatione adhuc belli navalis et de missione Symonis de
+					<lb/>Locarno, quem ducem fecit exercitus, ad obsidionem Arone, et de adventu domini marchionis
+					<lb/>Montis Ferrati et Novariensium et militum proscriptorum et Papiensium ad obsidionem eandem,
+					<lb/>his obsidentibus ex parte terre et Symone ex parte laci; et de subita fuga domini marchionis
+					<lb/>et exercitus eius et Symonis et exercitus eius ad adventum seu succursum civium
+					<pb n="6"/>
+					<lb/>mediolanensium, qui his, qui in castro Arone erant obsessi, succurrebant et de spoliatione
+					<lb/>quam fecerunt obsessi egredientes post hostes et recessu Symonis ab obsidione, que erat ex
+					<lb/>parte laci; et reditu castrorum et locorum ad civitatem que rebellaverant; et de intentione
+					<lb/>Symonis et studio ad bellum campestre, qui in navali succubuit cedendo ab Arona, et de
+				<lb/>exortatione Archiepiscopi quam fecit ad socios suos proscriptos, desolatos ex fuga.</p>
+				<p><lb/>In VI° paragrafo recitatur de reditu Archiepiscopi cum militibus proscriptis in Novariam
+					<lb/>et de eius studio iterum ad reditum in patriam suam; et de lite orta in Cumis et bello civili
+				<lb/>cumano et victoria partis Archiepiscopi.</p>
+				<p><lb/>In VII° paragrafo de introitu Archiepiscopi in Cumas et de subsidio ei a multis partibus
+					<lb/>veniente, de invasione plurium locorum diocesis Mediolani a comite Ricardo facta duce militum
+					<lb/>proscriptorum constituto, de ipsius comitis reditu in Cumas et de adventu eius cum
+				<lb/>Archiepiscopo in Desium et de prelio ibi facto et victoria ibidem optenta et captione hostium.</p>
+				<p><lb/>In VIII° paragrafo de exortatione et oratione quam facit dominus Archiepiscopus in introitu
+				<lb/>civitatis post victoriam.</p>
+				<p><lb/>In IX° paragrafo de introitu ipso in civitatem et letitia civium quam ostenderunt exeuntes
+				<lb/>obviam domino Archiepiscopo.</p>
+				<p><lb/>In X° paragrafo agitur de quadam exclamatione contra instabilitatem fortune et commendatione
+				<lb/>virtutis que caducis non innititur, sed semper manet.</p>
+				<p><lb/>In XI° describitur laus virtuosi, scilicet Iohannis baptiste qui fortune non innitens sed
+					<lb/>virtuti, vivit adhuc in laudabili memoria hominum et Herodes habitus est reprobus. Et hec
+					<lb/>descriptio facta est per metrum iambicum, quod maxime laudi convenit. Ultimo imponitur
+				<lb/>silentium ipsi Caliope ut desistat et gracias Deo referat cuius ope hoc opus est expletum.</p>
+			</div>
+		</div>
+		<pb n="7"/>
+		<div>
+			<head><lb/>INCIPIT LIBER DE GESTIS IN CIVITATE MEDIOLANI
+			<lb/>EDITUS A FRATRE STEPHANARDO DE VICOMERCATO DE ORDINE FRATRUM PREDICATORUM</head>
+			<div type="book">
+				<head><lb/>[LIBER PRIMUS]</head>
+				<lg>
+					<l>Metropolis lacrimas, civilis prelia litis,</l>
+					<l>Presulis exilium dubium cedentis in orbem,</l>
+					<l>Milicie reducis partum mucrone triumphum,</l>
+					<l>Diva, refer. Rupes vati pegasea faveto.</l>
+					<l n="5">Heroycis cedant elegi, quia fata relinquo</l>
+					<l>In patrios bacata lares; nunc gesta supersunt</l>
+					<l>Meonio pangenda metro. Pate, musa, superni</l>
+					<pb n="8"/>
+					<l>Numinis afflatum, vires aspiret amicas</l>
+					<l>Qui metro: fient et sic cudenda labori</l>
+					<l n="10">Pervia; pierius percurret et obice moto</l>
+					<l>Ardor opus, litus contingent vela secundo</l>
+					<l>Flamine, pigra manus celerem vertetur in usum.</l>
+				</lg>
+				<div type="chapter">
+					<head><lb/>I.</head>
+					<lg>
+						<l>Erroibus pollet, populi fecunda potentis,</l>
+						<l>Urbs nota et felix, longoque celebris ab evo,</l>
+						<l n="15">Imperii condam sedes ac emula iuris,</l>
+						<l>Lanea sus medio quam pretulit esse futuram</l>
+						<l>Miram visa loco quo structor menia iecit;</l>
+						<l>Nactaque prodigio est divino nomen ab ipso;</l>
+						<l>Ipso sive situ, medio amnum condita; dives</l>
+						<l n="20">Quin etiam scatebris arentes irrigat agros</l>
+						<pb n="9"/>
+						<l>Iugibus, ut gratos sic dent pro gramine flores:</l>
+						<l>Diliciis miranda suis hec plena decoris.</l>
+						<l>Hanc tenuit forti Gallorum marte iuventus,</l>
+						<l>Tuscis deletis, patriis prius ipsa fugata</l>
+						<l n="25">Sedibus, haud paciens fraterni pondera belli.</l>
+						<l>Urbibus honor Italie, Ligurisque potentia sevi,</l>
+						<l>Ambrosii decorata fuit fulgoribus almis;</l>
+						<l>Iusticie fomes, celesti sedula cultu,</l>
+						<l>Conscilli radios Lacium diffudit in omne.</l>
+						<l n="30">Urbibus et reliquis solita est prebere ducatum</l>
+						<l>Prudentem, ingentes et opes effundere sumptu</l>
+						<l>Magnifico, cuius victricia signa rebelles</l>
+						<l>Auditis tremuere minis, aciemque coruscam</l>
+						<l>Armis, innumero consertam milite. Florens</l>
+						<l n="35">Gaudebat;</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>II.</head>
+					<lg>
+						<l>sed ea civilia iurgia; sevit</l>
+						<pb n="10"/>
+						<l>Nuper livor edax, tractant privata coloni,</l>
+						<l>Et neglecta perit res publica: iura tribuni</l>
+						<l>Esse putant facinus, exlex regnatque voluntas.</l>
+						<l n="40">Soccumbit ratio, cedes viget atque rapina,</l>
+						<l>Iusticium infelix urbis dominatur in aula.</l>
+						<l>Diripit ambitio immeritos temeraria fasces.</l>
+						<pb n="11"/>
+						<l>Gurges avaritie nullo saciabilis haustu</l>
+						<l>Fundamenta quatit, titubant hinc menia, casum</l>
+						<l n="45">Inclinata gravem quasi iam ruitura minantur.</l>
+						<l>Importuna sitis, quamvis se proluat auro</l>
+						<l>Toto, semper avet, discrimina nulla veretur.</l>
+						<l>Gloria, dulce malum, dominandi seva cupido</l>
+						<l>Ad prerupta suos cives rapit, ardor ad ima</l>
+						<l n="50">Precipites quos sepe facit lugubris honoris.</l>
+						<l>Liber adest aditus sceleri, correptio cedit;</l>
+						<l>Corruit excusso Superum reverentia collo.</l>
+						<l>Consilium periit, suus est dementia princeps.</l>
+						<l>Vix ibi quid tutum est; sedes Astrea supernas</l>
+						<l n="55">Secedens petiit, fraudes subiere tumorque.</l>
+						<l>Nulla fides veterum fidei successit, et atrox</l>
+						<l>Infrenisque, loco prisci moderaminis, ira.</l>
+						<l>Delituere sacre leges et iura, patrumque</l>
+						<l>Abstulit infelix claros oblivio mores.</l>
+						<l n="60">Te super adduxit vecors inimicaque pacis</l>
+						<l>Ambitio cladem, populi quesita potestas</l>
+						<l>Quam quoque civili plures petiere tumulto.</l>
+						<l>Vix etenim patitur consors consortis honores.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>III.</head>
+					<lg>
+						<l>Arma silent; sibimet Cremonam federe iunxit;</l>
+						<l n="65">Hinc urbs concutitur, hinc bellis acta tabescit.</l>
+						<l>Dantur et adversis ducibus confinia; iussis</l>
+						<l>Contemptis repetit populi sed menia pretor</l>
+						<l>Festinus, vicosque capit, non obviat ullus.</l>
+						<pb n="12"/>
+						<l>Militie Verona favet, dominusque vocatur</l>
+						<l n="70">Ipsius ad litem civilem, milite septus,</l>
+						<l>Metropolis qui invasit agros: concussa pavore</l>
+						<pb n="13"/>
+						<l>Corda tremunt Ligurum, vires animumque resumunt</l>
+						<l>At cives acies ut norunt esse paratas</l>
+						<l>Fulgentemque armis celeri succurrere gressu</l>
+						<l n="75">Cremonam; arma petunt, egressi bella minantur.</l>
+						<l>Metropoli sed terga dedit Verona sequenti,</l>
+						<l>Cremone occurrit venienti, pila cohortes</l>
+						<l>Miscent opposite; cessit Verona, fugaque</l>
+						<l>Spem, duce percusso, sola posuere salutis.</l>
+						<l n="80">Non etenim dudum est certatum, principe capto.</l>
+						<l>Confractas acies ut miles vidit, amicas,</l>
+						<l>Metropolis gratam gemebundus deserit urbem;</l>
+						<l>Non hostile ferens robur, secessit et ultro</l>
+						<l>Edibus a patriis, lacualem transiit amnem,</l>
+						<l n="85">Abdua cui nomen, conatur protinus inde</l>
+						<pb n="14"/>
+						<l>Ad reditum, sed fate vetant: capiuntur in arce</l>
+						<l>Nomine Tebiago plures, que preminet undis</l>
+						<l>Lambri; nobilium, post prelia, dura ligatos</l>
+						<l>Plaustra vehunt multos; clauduntur carcere duro;</l>
+						<l n="90">Ignotas reliquos fatum dispersit in oras,</l>
+						<l>Desevire ferox ac implacabile semper</l>
+						<l>Ut cepit miseris, sed nec desistere novit</l>
+						<l>Ni tandem innumeris crassato cedibus ense.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>IV.</head>
+					<lg>
+						<l>Gaudent victores, meror perfudit amicos</l>
+						<l n="95">Vinctorum; tristes lacrime delubra frequentant</l>
+						<pb n="15"/>
+						<l>Liminibus devota sacris ac oscula fundunt</l>
+						<l>Merentes animi. Nunc illinc pectora tundunt,</l>
+						<l>Flectunt inde genu, nunc immerguntur ad aras.</l>
+						<l>Pulsant vota Deos, et munera templa coronant.</l>
+						<l n="100">Gaudia cesserunt miseris annalia fatis,</l>
+						<l>Leta iuventutis iam non consorcia florent.</l>
+						<l>Orrida mutata est iam serica vestis in arma,</l>
+						<l>Prelia pro ludo fraterna parantur equestri;</l>
+						<l>Occidit in lites mutue iam splendor atroces</l>
+						<l n="105">Gratus amicicie, patrii fomenta gemendi</l>
+						<l>Excidii; cessant iam simbola, luctus in edes</l>
+						<l>Funditur, ac risus lugubri fugit ab ore.</l>
+						<l>In te flagrantem pinum deiecit Erinis,</l>
+						<l>Iamque Megera, sue demens non immemor artis,</l>
+						<l n="110">Hospes adest; animi prisci furata vigorem,</l>
+						<l>In te litigeros vomuit clamosa tumultus.</l>
+						<l>Tisiphoneque tuis ululavit in edibus ultrix;</l>
+						<l>Impia bacatur, nullo satiata cruore.</l>
+						<l>Implevt laniata comas gemebunda teatra</l>
+						<pb n="16"/>
+						<l n="115">Flebilis Alecto. Turbantis regna cometis</l>
+						<l>Sidus signa dedit, caudam fundentis ad austrum</l>
+						<l>Axe sub artoo visum, num cladis amare?</l>
+						<l>Parte vel occidua micuit quod nuper ybero</l>
+						<l>Se mergens pelago, fumumque effudit eois</l>
+						<l n="120">Prodigium meroris erat stragisque future?</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>V.</head>
+					<lg>
+						<l>Patria, proh! miserum lesisti vulnere grandi</l>
+						<l>Vatem, conspicuum quem fecit seva ruina,</l>
+						<l>Exicio nam fama suo fit nocior eius.</l>
+						<l>Fulmineo nomen Capanei crevit ut ictu,</l>
+						<l n="125">Progenies facta est sic huius fabula vulgi,</l>
+						<l>Et pro cede sua lucrum suscepit honoris</l>
+						<l>Flebilis. In leto patruelis. flore inventus</l>
+						<l>Languit, ac geminos huic tu solatia fratres</l>
+						<l>Cara recidisti; probitas ornaverat ambos,</l>
+						<l n="130">Arridebat eis fallax fortuna, deditque</l>
+						<l>Praecipites; duro consumpsit carcere. Cedit</l>
+						<pb n="17"/>
+						<l>Semper successus iniusto vulnere. Livor</l>
+						<l>Sevior exarsit postremo, patre perempto</l>
+						<l>Iam sene, quem meror, quem iam confecerat evum,</l>
+						<l n="135">Longaque pauperies, quem triste fugarat in urbes</l>
+						<l>Fatum, iudicium quem tandem perculit atrox.</l>
+						<l>Cur in tam miseram gladium sevire senectam</l>
+						<l>Non puduit? Canos, heu!, non miseratio iuvit,</l>
+						<l>Non antiquus amor patrie, non sudor amice</l>
+						<l n="140">Militie exibitus etiam iuvenilibus annis:</l>
+						<l>Infausto nam nulla seni suffragia prosunt;</l>
+						<l>Spiritus ethereas cuius subvectus in auras,</l>
+						<l>Luciferas, prestante Deo, conscendat in edes.</l>
+						<l>Ultima fortune non sit sententia concors,</l>
+						<l n="145">Dii faciant! fato felici tristia cedant.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>VI.</head>
+					<lg>
+						<l>Interea divo cum sedes alma vacaret</l>
+						<l>Metropolis, clarus suscepit honorem</l>
+						<pb n="18"/>
+						<l>Octo flamineum, quem pretulit Aula duobus</l>
+						<l>Electis: sacris prefecit fascibus ipsum</l>
+						<pb n="19"/>
+						<l n="150">Urbanus, qui tunc fastigia summa tenebat</l>
+						<l>Ecclesie. Preceps hinc laxis fertur habenis</l>
+						<pb n="20"/>
+						<l>Ira potens Urbis Pretoris et occupat agros</l>
+						<l>Protinus Ecclesie: fit vis mensuraque iuris;</l>
+						<l>Presuleum pro fratre suo culmenque negatum</l>
+						<l n="155">Querit, sed votis obstat constantia Patrum.</l>
+						<l>Invasas Antistes opes fructusque refundi</l>
+						<l>Otto petit raptos suplex. A sede citantur</l>
+						<l>Metropolis Cives, quartus parereque iussit</l>
+						<l>Clemens, iusticia precinctus, fata Sinedris</l>
+						<l n="160">Quem posuere sacris, quem iusti secta Catonis</l>
+						<l>Extulit, huicque fidem faciunt responsa futuri</l>
+					</lg>
+				</div>
+				<pb n="21"/>
+				<div type="chapter">
+					<head><lb/>VII.</head>
+					<lg>
+						<l>Numinis. Alma soror, studiis intenta supernis,</l>
+						<l>Hec previsa refert. Fratrem vocat illa laborans</l>
+						<pb n="22"/>
+						<l>Extremo langore suum. Germane, reconde,</l>
+						<l n="165">Inquit, que didici condam lustrata superni</l>
+						<l>Luminis aflatu, longo celata sed euo.</l>
+						<l>(Conscilium celeste quidem reverentia servat</l>
+						<l>Interdum, fortasse suo ne vileat usu,</l>
+						<l>At tumulis tandem non id cum funere claudit</l>
+						<l n="170">Ne pereat divinus honos). Fastigia, fatur,</l>
+						<l>Te complura manent; virtus te, famaque, fasces</l>
+						<l>Efferet ad letos; conscendes alta per almos</l>
+						<l>Ipse gradus, mores pariter cum numine crescent,</l>
+						<l>Virtutisque datos studio complebis honores.</l>
+						<l n="175">Ordo tibi bicolor, doctrine semina spargens</l>
+						<l>Dive, carus erit. Superis hic sedulus offert</l>
+						<l>Obsequium gratum. Celestia. lumina vidi</l>
+						<l>Descendisse polo subito, lustrasseque sanctum</l>
+						<l>Ignem celicolas, ac ipsos esse probatos</l>
+						<l n="180">Ostendit famulos, et amoris plena calore</l>
+						<l>Alma divorum ferventia pectora fratrum.</l>
+						<l>Phebus et occiduas cum iam contingeret undas</l>
+						<l>Lucis adhuc terris splendore superstite, cum iam</l>
+						<l>Antiphonam devota cohors cantaret in unum</l>
+						<l n="185">Virginis excelse, solito de more salutans</l>
+						<l>Christiferam celi reginam, plebis asilium,</l>
+						<l>Alma Dei genitrix me coram substitit; inquit:</l>
+						<l>A pedibus nostris discedere, filia, noli.</l>
+						<l>Inde corum laudes lustravit utrumque canentem,</l>
+						<l n="190">Cuilibet inclinans, sancti reverenter amoris</l>
+						<l>Signa dat et placide, demisso vertice, laudis.</l>
+						<pb n="23"/>
+						<l>Cantica dant fratres et vocibus ethera pulsant.</l>
+						<l>Inclinata caput grates et Virgo rependit.</l>
+						<l>Singulus antidotum iubilans accepit honoris</l>
+						<l n="195">Exibiti, dum sic pia mater visitat omnes.</l>
+						<l>Denique, maturo gressu, processit ad aram</l>
+						<l>Et delata stetit paulisper lumina iuxta.</l>
+						<l>Mox subito sedes petiit festina supernas</l>
+						<l>Quam sequor affectu mira dulcedine fuso.</l>
+						<l n="200">Visio celestis triduo me fovit eadem</l>
+						<l>Hora, Virgineam curam testata Deique</l>
+						<l>Erga Celicolas locupletes munere Divum.</l>
+						<l>Ut pater his aderis, iugique fovebis amore</l>
+						<l>Illos, hos serva, nunquam fiducia desit</l>
+						<l n="205">His tua, iam dudum sincero pectore fovi</l>
+						<l>Quos ego; cum cara sit idem tibi velle sorore.</l>
+						<l>Hec germana tulit. Mox iam non fata morantur</l>
+						<l>Previsas offerre viro celestia sedes.</l>
+						<l>Claviger asumptus nutu num iura superno</l>
+						<l n="210">Non munire potest, non rebelles impugnare?</l>
+						<l>Quem ratio, quem lexque regit, naturaque format</l>
+						<l>Ipsa, rei privatus amor fortuneque cedit.</l>
+						<l>Nam nec honor nec opes nec vota domestica iusti</l>
+						<l>Iudicium avertunt, caris amplexibus heret</l>
+						<l n="215">Qui quoque iusticie, puro quam pretulit auro.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>VIII.</head>
+					<lg>
+						<l>Urbis legati veniunt ad limina missi</l>
+						<l>Iudicis etherei, qui sunt a sede repulsi</l>
+						<pb n="24"/>
+						<l>Ni parere velint: renuunt sed iussa penatum.</l>
+						<l>Sceptra petunt Karoli, querunt regisque favorem.</l>
+						<l n="220">Regia maiestas misit qui numina flectat</l>
+						<l>Legatum. Rediere simul, peciere sinedras,</l>
+						<l>In quibus ima regens residet clementia presul.</l>
+						<l>Iam datur accessus, permissa licentia fandi est,</l>
+						<l>Non concessa prius, tunc summus, luce statuta,</l>
+						<l n="225">Convocat Antistes claros ad sceptra penates.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>IX.</head>
+					<lg>
+						<l>Consedere patres, at turme Claviger alme</l>
+						<l>Eminet ethereus. Karoli sic nuncius orsus</l>
+						<pb n="25"/>
+						<l>Hec ait: O mundi sol, Clemens, vosque verendi</l>
+						<l>Patres, prima quibus funduntur lumina Phebi,</l>
+						<l n="230">Aures continat brevis hec oratio sacras.</l>
+						<l>Sidera phebeis radiis perfusa superno</l>
+						<l>Infima vivificant dono; distincta per almos</l>
+						<l>Sic apicis probitas proceres hunc confovet orbem.</l>
+						<pb n="26"/>
+						<l>Urbi vos igitur vestre conferte fideli</l>
+						<l n="235">Presidium, superi doni ne sola ait expers.</l>
+						<l>Gracia precellens ac indelebilis ullo</l>
+						<l>Tempore mente Patrum vivat quam, Sede iubente,</l>
+						<l>Prona tulit parens dilecte filia matri.</l>
+						<l>Nonne vias Regis grata ad iussa paravit</l>
+						<l n="240">Pontificis, multi discriminis immemor? Unde</l>
+						<l>Contigit Ecclesie libertas, Apula regna</l>
+						<l>E manibus direpta Ducis sunt, reddita presse</l>
+						<l>Ytalie quesita toga est. Hec sola superstes</l>
+						<l>Subiciet et Ligures Aule, servireque coget.</l>
+						<l n="245">Non bene Metropolis gladios in viscera mergens</l>
+						<l>Propria nobilitas egit, cum signa tiranni</l>
+						<l>Erigere in tanta vult formidabilis urbe;</l>
+						<l>Ottoque preficitur cur presul, sanguinis alti</l>
+						<l>Sit licet, invito populo, qui nominis extat</l>
+						<l n="250">Tanti, pro superis qui semper tanta peregit?</l>
+						<l>Vota precesque Ducis, sacris iam fundo potentis</l>
+						<l>Numinibus coram; dive &lt;o&gt; Clementia sedis</l>
+						<l>Metropolis precibus faveat; qui promptus in omni</l>
+						<l>Re parere tamen vobis est: hocque placebit</l>
+						<l n="255">Illi quod semper decreverit alma potestas,</l>
+						<l>Dum non posse neget sors, cui est velle paratum.</l>
+						<l>Vestrum iussa dari, Karoli complere quod optat</l>
+						<l>Sedes, cui numquam deerit fiducia Regis.</l>
+						<l>Hec ait et, patribus demisso vertice, sedit.</l>
+					</lg>
+				</div>
+				<pb n="27"/>
+				<div type="chapter">
+					<head><lb/>X.</head>
+					<lg>
+						<l n="260">Alter Metropoli sic fatur missus ab ipsa:</l>
+						<l>Orbis apex, cui astra favent, quem terra veretur,</l>
+						<l>Almi vosque Patres, consortes culminis alti,</l>
+						<pb n="28"/>
+						<l>Vera loquar, paciens dignatio prebeat ausum.</l>
+						<l>Longa quidem series? brevibus conserta patere</l>
+						<l n="265">Nescit. Cura tamen resecare superflua solers</l>
+						<l>Nunc erit, o Superi: narrandaque plura silebo.</l>
+						<l>Metropolis Ligurum, clarum cui nomen ab evo</l>
+						<l>Multo, Numinibus sacris que semper adhesit,</l>
+						<l>Sit memor Aula potens, quantos est passa labores.</l>
+						<l n="270">Hostibus Ecclesie constanti lite rebellis</l>
+						<l>Condam dira tulit, prisco quassataque numquam</l>
+						<l>Destitit a voto, nec enim olim matris amorem</l>
+						<l>Deseruit. Maiora pati pro iure tuendo</l>
+						<l>Ecclesie numquam vitabit dampna, sed una</l>
+						<l n="275">Vobiscum gaudere cupit, sentireque dira.</l>
+						<l>Sors semper comunis erit, nec lucro putaret</l>
+						<l>Letos successus si numina diva iacerent.</l>
+						<l>Iussa libens explet Superum, decretaque servat.</l>
+						<l>Ut iussere a Patres, Gallorum nonne maniplis</l>
+						<l n="280">Pandit iter Sicula petent cum regna, periclum</l>
+						<l>Contempsitque suum? quo fata dedere triumphum.</l>
+						<l>Non moveatque fides vos condam pacta tiranno.</l>
+						<l>In propriam citius naturam ficta redivit</l>
+						<l>Federeque rupto patrium revocavit amorem.</l>
+						<l n="285">Non oblita sui moris compulsa voluntas,</l>
+						<l>Cum licet usque statum repetit matura vetustum.</l>
+						<l>In scelus invisum nam nos timor impulit ingens,</l>
+						<l>Civibus infandis reliqui cum dextra tiranni</l>
+						<l>Se iunxit, Sillam nec non superasse Neronem</l>
+						<l n="290">Sanguine qui fertur. Ferro desevit iniquo.</l>
+						<l>Hic pietatis inops urbes populatus, et ipsas</l>
+						<l>Ingressus metas nostre regionis, ut urbis</l>
+						<l>Menia non modico tremerent concussa pavore.</l>
+						<l>Speravit populos Ligures vicisse, subacto</l>
+						<pb n="29"/>
+						<l n="295">Robore Metropolis; fuit obvia celica virtus</l>
+						<l>Illi, libertas ne tunc lombarda periret.</l>
+						<l>Vulnere Roma metus tanti non languit olim,</l>
+						<l>Vicinas Penus transcendit ut Anibal alpes,</l>
+						<l>Innumero septus plena tirone cohorte;</l>
+						<l n="300">Cesar ut hesperiis tumidus consedit in arvis</l>
+						<l>Agmine Gallorum comitatus in arma furente,</l>
+						<l>Nobilis Urbs quanti, subito preventa quirite,</l>
+						<l>Internis excita dolis; nam vulnus amicum</l>
+						<l>Plura pericla parit, semper letalius herens.</l>
+						<l n="305">In patrias leges quod cives arte prophani</l>
+						<l>Commisere scelus vesani mente, parantes</l>
+						<l>Arsuras in tecta faces, patriamque laresque,</l>
+						<l>Igniferi dum castra viri summeque rebellis</l>
+						<l>Aule conducunt? nam nulla piacula possent</l>
+						<l n="310">Hoc delere nefas; superat genus omne rigoris.</l>
+						<l>Non privata petunt hi dum nituntur in urbe</l>
+						<l>Tanta devicto soli regnare senatu.</l>
+						<pb n="30"/>
+						<l>Non satis id facinus: iuncti voluere tiranno</l>
+						<l>Quem quoque repulimus, sceleri connectere crimen.</l>
+						<l n="315">Tam pravos venia quis dignos iudicet ausus?</l>
+						<l>Crimina quid tanta o satis meruere, penates ?</l>
+						<l>In patrios agros iurata quis arma fovebit?</l>
+						<l>Excidium civile pium sed censuit esse</l>
+						<l>Ambrosii successor, opum, non urbis amator</l>
+						<l n="320">Natalis, veterum non degener ipse suorum.</l>
+						<l>Illius in patrias semper conata ruinas</l>
+						<l>Est quoque progenies. Dampnato milite fultus</l>
+						<l>Nuper et ipse ruit civilia fusus in arva.</l>
+						<l>Arma sacre movere manus, non fascibus apta</l>
+						<pb n="31"/>
+						<l n="325">Nempe suis, ipsi maculam a fuditque parentum</l>
+						<l>Impietas, potuit merito qua a sede repelli.</l>
+						<l>Infames nec honor tede, cum vota sororis</l>
+						<l>Ecclesie iunxit comiti fideique rebelli.</l>
+						<l>Hinc, exosa dati plebs numen Presulis, orret</l>
+						<l n="330">Ipsius adventum; pocius pastore carere</l>
+						<l>Que cupit, hostili quam se subponere cure.</l>
+						<l>Nobilitas patrie tutrix, fortuna superno</l>
+						<l>Cui favit iussu, superumque intenta favori</l>
+						<l>Zelatrix fidei, que debet munera tantis</l>
+						<l n="335">Sumere pro meritis, patres? meruit ne repelli</l>
+						<l>A pedibus sanctis, percelli tamque severo</l>
+						<l>Divorum gladio? merces hec debita tantis</l>
+						<l>Ergo viris, veteri patrie, fideique Deumque</l>
+						<l>Pro cultu? Meritum nunquid delebitur ingens</l>
+						<l n="340">Serpserit incautus licet illis error? At ipsi</l>
+						<l>Verberibus proni pacientia terga parantes</l>
+						<l>Ut libet a matris numquam vellentur honore.</l>
+						<l>Hec ubi sic fatus sedit legatus: utrinque</l>
+						<l>It concussa fides, alternaque murmura certant.</l>
+						<l n="345">Magestas immota silet sed fata recondit</l>
+						<l>Pectore celesti.</l>
+					</lg>
+				</div>
+				<pb n="32"/>
+				<div type="chapter">
+					<head><lb/>XI.</head>
+					<lg>
+						<l>Mox supplex Otto sedili</l>
+						<l>Astitit Antistes; veneranda voce Penates</l>
+						<l>Alloquitur sacros. Vos, orbis lumina clari,</l>
+						<l n="350">Inquit, et in varios nutantis regula mundi</l>
+						<l>Casus, iusticie fautores, lora labentum</l>
+						<l>In preceps hominum, sermones exulis alme</l>
+						<l>Suscipiant aures. Affectu condita semper</l>
+						<l>Urbs nativa fuit tenero, comunis honorque</l>
+						<l n="355">Estque dolor, cuius tantum mea portio maior.</l>
+						<pb n="33"/>
+						<l>Hoc caput o utinam civiles tollere clades</l>
+						<l>Dampnatum posset! tocius vulnera litis</l>
+						<l>Exciperem letus, sedarem iurgia cari</l>
+						<l>Ipse libens populi iuguli finita cruore</l>
+						<l n="360">Devoti. Data non hec sors. Iniuria saltem</l>
+						<l>Nulla fuit. Quis sit lesus? nisi forte quod urbis</l>
+						<l>Non placuere michi cedes, nec menia condam</l>
+						<l>Libera tam multis dominis servire, carebit</l>
+						<l>Quod nunquam livore truci, qui, semina belli</l>
+						<l n="365">Profert civilis, semper mersere potentes</l>
+						<l>Que populos: degit nam principe tuta sub uno</l>
+						<l>Urbs omnis: si forte biceps, disissa fatiscit.</l>
+						<l>Nutat in oppositos odio succensa tumultus</l>
+						<l>Civili, casum cicius tristemque minatur.</l>
+						<l n="370">Hinc odisse feror recte patriamne? Salutem</l>
+						<l>Cuius ego totis amplector viribus exul?</l>
+						<l>Quid genus? Urbis onus nostre si forte petatur</l>
+						<l>In testem non plus ipsam delator amabit.</l>
+						<l>Non aliud mihi crimen erit nisi forte quod olim</l>
+						<l n="375">Paruerim sedi captis ut fascibus audax</l>
+						<l>Iudicer oblatis. Veniam concedite, Patres,</l>
+						<pb n="34"/>
+						<l>Si qua tacenda loquor, pocius me noscite lesum.</l>
+						<l>Cum petitur venerandus Apex precibusque minisque</l>
+						<l>Aulaque disentit iuris vallata vigore</l>
+						<l n="380">Presul et instituor per Sedem, protinus ipsos</l>
+						<l>Invadunt fructus, inhibent et nomen honoris.</l>
+						<l>Post modo a sanguineas inhiant immittere palmas</l>
+						<l>In patrem, concessa michi cum missus ab almo</l>
+						<l>Iura peto solio, nam spes irritat honoris</l>
+						<l n="385">Irrita quesiti livorem; bella parantur</l>
+						<l>Impigre, castra struunt celeres, invador et ipse</l>
+						<l>Presul in Arona: confligunt fasque nefasque.</l>
+						<pb n="35"/>
+						<l>Heu fas succumbit. Quociens Astrea ruinam</l>
+						<l>Sustinet! at crebro recipit superata vigorem.</l>
+						<l n="390">Sternitur et nunquam cedit, que more resurgit</l>
+						<l>Antei, perpes succissum pululat eius</l>
+						<l>Germen , et in frondes plures succrescere novit.</l>
+						<l>Denique conveniunt partes, castrumque reliqui</l>
+						<l>Concessum, mediat fedus; quia sedula certat</l>
+						<l n="395">Impietas auro ferroque sed accrius auro.</l>
+						<l>Nam foris insultus, intus sed munera pugnant.</l>
+						<l>Eruitur castrum, mox opida cetera strage</l>
+						<l>Ecclesie celeri sternuntur funditus, uno</l>
+						<l>Servato, colubris id enim non incola novit.</l>
+						<l n="400">Non arsere meis patrii populatibus agri,</l>
+						<l>Non in dampna rui predo: mea iura petebam.</l>
+						<l>Hec grandis mea culpa fuit, quod solus, inermis</l>
+						<l>Non veni, fauces hostiles sanguine fuso</l>
+						<l>Ut sic implerem. Quid si vicina renitens</l>
+						<l n="405">In iuga Nobilitas, dudum fugitiva per orbem</l>
+						<l>Coniugibus natisque suis conpassa, volebat</l>
+						<l>Ad proprium remeare solum? num luctus eorum</l>
+						<l>Perpes erit; crimen penis ne piabitur umquam?</l>
+						<pb n="36"/>
+						<l>Sola quidem Manum nescit dampnatio finem.</l>
+						<l n="410">Acer in extinctos cineres heu prelia tandem</l>
+						<l>Movit delator, fidei quos tramite lapsos</l>
+						<l>Asserit. Est testis que matrem condidit urna</l>
+						<l>Quod postrema sue conclusit tempora vite</l>
+						<l>Relligio, sed ego testis pro patre fideli.</l>
+						<l n="415">Non fuit errori condam germana scelesto</l>
+						<l>Tradita, sed generi claro sine labe favoris.</l>
+						<l>Non furit in patrem tantum violenta potestas</l>
+						<l>Quin in summa tumet. Subiecto nonne gigantum</l>
+						<l>Terrarum spatio turris vestigia temptat</l>
+						<l n="420">Impugnare poli? sed tanto corruit ausu.</l>
+						<l>Par scelus, o Superi, simili num strage carebit?</l>
+						<l>Det penas meritas, vesania plexa rigorem</l>
+						<l>Sentiat ethereum, similis ne prodeat error.</l>
+						<pb n="37"/>
+						<l>Libera que totum currunt rescripta per orbem</l>
+						<l n="425">Non audent intrare suam condamque fidelem</l>
+						<l>Metropolim. Quid enim? prohibent edicta potentum,</l>
+						<l>Ecclesie spoliantur opes. Exactio crebra</l>
+						<l>Nempe gravat clerum, libertas debita cessit.</l>
+						<l>Afflixere pedes Christorum pondera ferri.</l>
+						<l n="430">Sermones cuperet longos iniuria grandis,</l>
+						<l>Pauca sed ex gravida satis hec sint edita mole:</l>
+						<l>Colligat ex serie prudentia diva minori</l>
+						<l>Pressuras reliquas, miseram defendite causam</l>
+						<l>Exulis, o patres, ausus compescite diros:</l>
+						<l n="435">Vulnera fortune vestrum est iniusta mederi.</l>
+						<l>Hec ait et patrum est ardor succensus ad almi</l>
+						<l>Presulis auxilium, prolataque crimina dampnant.</l>
+					</lg>
+				</div>
+				<pb n="38"/>
+				<div type="chapter">
+					<head><lb/>XII.</head>
+					<lg>
+						<l>Ultima proscripti ratio est, quo stante, rogavit</l>
+						<l>Orandi spacium. Tutum Clementia reddit</l>
+						<l n="440">Me, Clemens, inquit, quamquam pavor irruat artus</l>
+						<l>Me tantis astante viris. Expressit amorem</l>
+						<l>Urbis non totum, quem semper gessit ad aulam</l>
+						<l>Oppositus sermo, potuit nam plura referre;</l>
+						<l>Audeo sic fari, quoniam non ultima verax</l>
+						<l n="445">Pars est sermonis. Clades exercuit umquam</l>
+						<l>Quis tam ferales dilecta civis in urbe?</l>
+						<l>Aures nam vestre nuper stupuere, penates,</l>
+						<l>Cedibus auditis, quas Ditis, semina, celum</l>
+						<l>Quas pavet et tellus, quas conmisere potentes</l>
+						<l n="450">Urbis in interitum et regalis dedecus aule.</l>
+						<l>O furor infelix, o quanta licentia diri</l>
+						<l>Ausus! inmites violant sacra, iuraque calcant.</l>
+						<l>Publica res premitur, comunia comoda vertunt</l>
+						<pb n="39"/>
+						<l>In proprios usus, clerique invaditur arvum.</l>
+						<l n="455">Concives vellens, caret obice seva voluntas.</l>
+						<l>Hedificant turres, alienis sumptibus, altas,</l>
+						<l>Diripiunt et opes plebeio robore fulti.</l>
+						<l>Lucra volunt soli, reliquis at dampna refundunt.</l>
+						<l>Consortes renuunt, soli dominantur, honores</l>
+						<l n="460">Usurpant soli, veteres bacantur in urbis</l>
+						<l>Fautores, alios cogunt exire paternis</l>
+						<l>Edibus, ac alios recludunt carcere tetro:</l>
+						<l>Exicii crudele genus, cum vita negatur</l>
+						<l>Et mors tarda venit; nam tetra vorago colonos</l>
+						<l n="465">Affligit miseros, dum lumen et aera tollit</l>
+						<l>Publica dona viris etiam concessa nefandis,</l>
+						<l>Quod tegit obsequium vivos crudele sepulcri.</l>
+						<l>O stigie feritatis ymago! Stipendia poscunt</l>
+						<l>Proscriptis opibus, nequeunt quod reddere cogunt</l>
+						<l n="470">Solvere captivos, prohibentque cibaria vinctis.</l>
+						<l>Non licet et caris accedere; longa ministrat</l>
+						<l>Corda dapes, fertur fuso quandoque veneno.</l>
+						<l>Purgamenta vetant feces, miserabile dictu,</l>
+						<l>Naribus infestas emitti carcere fedo.</l>
+						<l n="475">Heu! miseris vite solatia cuncta negantur,</l>
+						<l>Leticieque loco spes mortis sola relicta</l>
+						<l>Est ipsis, dulcem quam fecit carceris orror.</l>
+						<l>(Hoc habet infelix oppressio muneris, atrum</l>
+						<l>Ne metuat funus; presentes deserit auras</l>
+						<l n="480">Usque libens, expersque metus, hoc culmine gaudet).</l>
+						<l>Longa nimis series non ingerat auribus almis</l>
+						<l>Tedia, materia est grandis noscendaque vobis</l>
+						<l>Qui scelerum iusta libratis pondera lance.</l>
+						<l>Curribus imponunt eductos carcere demum</l>
+						<pb n="40"/>
+						<l n="485">Innocuos, luctus plenam vectantur ad urbem.</l>
+						<l>(Tempore quid longo miseri meruere sepulti?)</l>
+						<l>Murmurat hinc gemitus, lacrimis ora inde rigantur.</l>
+						<l>Mesta dies tanti macula poluta rigoris.</l>
+						<l>Corda pavent, nullique audent obsistere cedi.</l>
+						<l n="490">At tamen inducti populi cessere tribuni</l>
+						<l>Ne tribuat tanto sceleri presentia robur.</l>
+						<pb n="41"/>
+						<l>Vota metus reprimit, conducunt era scelestos</l>
+						<l>Ac odium speciale, daturque licentia ferro.</l>
+						<l>Curritura ad facinus, vibratur mucro, bipennis</l>
+						<l n="495">Illinc exeritur, plaustrisque in frusta secantur.</l>
+						<l>Murmura non resonant, non est audita querella</l>
+						<l>Seu vox: fata manent taciti postrema, nec ictus</l>
+						<l>Declinant gladiis, ultro quin colla furori</l>
+						<l>Nuda parant, non est revocans miseratio ferrum.</l>
+						<l n="500">Excipiunt animo paciente volantia tela,</l>
+						<l>Impetitur facies, hinc cervix, indeque vertex,</l>
+						<l>Hic feriunt gutur, illic at brachia frangunt.</l>
+						<l>Servato nullo fit sevior ordine cedes.</l>
+						<l>Victa iacet pietas, statuunt ferale macellum.</l>
+						<l n="505">Funera quinque quidem decies et quatuor una</l>
+						<l>Occubuere, truci primatum cesa furore:</l>
+						<l>Quorum diva duos e mortis faucibus atre</l>
+						<l>Sors rapuit, cladis testes et signa sceleste.</l>
+						<l>Alter ego quorum quem cernitis alta reduxit</l>
+						<l n="510">Exanimem virtus ad vitam, seva referrem</l>
+						<l>Hec mox ut vobis, quibus est conmissa superni</l>
+						<l>Iudicii censura, scelus ne impune, lateret.</l>
+						<l>Sanguine nobilium diffuso terra madescit,</l>
+						<l>Lubricat, et rivi discurrunt fluminis instar.</l>
+						<l n="515">O dolor inmensus totam diffusus in Urbem!</l>
+						<l>Viscera que inconcussa manent? res magna dolore</l>
+						<pb n="42"/>
+						<l>Diraque cum miseris et eorum vulnere cedi.</l>
+						<l>Cur impune scelus par est? Iunxere tiranno</l>
+						<l>Se quoque dampnati, reliquo iunxereque dextram</l>
+						<l n="520">Cives, prima fuit quorum connexio; iunctus</l>
+						<l>Proscriptis socius Patribus parere spopondit:</l>
+						<l>Duratura fides nec erit secus. Illa salubri</l>
+						<l>Conditione caret civilis pactio, matris</l>
+						<l>Inmemor ecclesie, contempnens sedis honorem.</l>
+						<l n="525">Obvia que tandem virtus intrare volenti</l>
+						<l>Menia milicie gladio dilecta cruento?</l>
+						<l>Ledere nobilitas detractis noluit Urbem</l>
+						<l>Nam dominis: patrie libertas sola petita est.</l>
+						<l>Arguimur quia dextra fuit data nostra tiranno</l>
+						<l n="530">Qui dimisit eos, cui vere federe iuncti</l>
+						<l>Inviso fuimus; natos secus ire necesse est</l>
+						<l>Rebus in ignotum vacuos cum matribus orbem.</l>
+						<l>Si crimen, veniam tam tristia fata merentur.</l>
+						<l>Parcendum est: quem non placat miserabile vulnus?</l>
+						<l n="535">Numina nunc moveant clades, non flebilis error,</l>
+						<l>Quas non fama silet. Quid enim? nam crimina clamant,</l>
+						<l>Murmura plura gemunt, violataque iura queruntur,</l>
+						<l>Civilis patitur timor omnia, viribus haustis.</l>
+						<l>Nec fulcire potest illos permissa meatus</l>
+						<l n="540">Libertas. Cum tuta cohors data regna petivit</l>
+						<l>Gallica cum siculas acies transivit ad oras,</l>
+						<pb n="43"/>
+						<l>Montane fuit urbis opus, cui gratia digna</l>
+						<l>Est reddenda magis, Comitis que fedus inivit.</l>
+						<l>Regis et in faciem commissa protervia tanti</l>
+						<l n="545">Obsequium vacuat, dum sic contempnitur eius</l>
+						<l>Nuncius, enormis dum sic presumitur ausus,</l>
+						<l>Dum sic baccantur, dum sic discerpitur ordo</l>
+						<l>Iuris: non illos retrahit reverentia regis,</l>
+						<l>Aut amor, aut virtus, seu regia magna potestas.</l>
+						<l n="550">Non parvam maculam Sicula erexere corona</l>
+						<l>Que nota est cunctis et vix delebilis ullo</l>
+						<l>Tempore, dum titulus regalis foverit illos.</l>
+						<l>O Patres, urbi citius succurrite vestre.</l>
+						<l>Non patet auxilium, pressure fluctus inundat,</l>
+						<l n="555">Turbo furit validus, laxatur rima carine.</l>
+						<l>Pars inmersa ratis periit, nutatque superstes</l>
+						<l>Tempestate gravi casum concussa minatur.</l>
+						<l>Peniteat sevos scelerum, tam perfida facta</l>
+						<l>Eventus solet iste sequi.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>XIII.</head>
+					<lg>
+						<pb n="44"/>
+						<l n="560">Sic fatus: ut orror</l>
+						<l>Invadit gelidos artus cum monstra perurgent</l>
+						<l>Cognita, suspense sic obstupuere corone</l>
+						<l>Astantis populi, sic territa pectora divum,</l>
+						<l>Cladibus auditis, quas nullum noverit evum.</l>
+						<l n="565">Quem prius ethereum gladium vibraverat orbis</l>
+						<l>Claviger in cives sontes patrique rebelles</l>
+						<l>Non revocat, subeant aule nisi lora potentis.</l>
+						<l>Germine cum tellus et sidus luce carebit</l>
+						<l>Pisce salum, ventis aer, seu flamma calore</l>
+						<l n="570">Summus apex divum tunc non curabit honorem,</l>
+						<l>Iusticie nec fautor erit; sed iura negabit.</l>
+						<l>Ut norunt constans ac inplacabile pectus</l>
+						<l>Pontificis summi, cives discrimina cernunt.</l>
+						<l>Corda pavent, patriis et se summittere iussis</l>
+						<l n="575">Coguntur, concussa metu gladiique rigore</l>
+						<l>Etherei, licet his sors prospera prebeat ausum</l>
+						<l>Ambitione sua vires sensere minores.</l>
+						<l>Ut nubes oriens radius dispergit eoas,</l>
+						<l>Aut borreas subito vehementes diffugat imbres,</l>
+						<l n="580">Sic tumor in vanum cedit probitatis ad umbram</l>
+						<l>Constantisque animi pereunt fastigia nutu.</l>
+						<l>Legati remeant, non illos equa reduxit</l>
+						<l>Gloria, colla iugo referunt obnixa penatum.</l>
+					</lg>
+				</div>
+				<pb n="45"/>
+				<div type="chapter">
+					<head><lb/>XIV.</head>
+					<lg>
+						<l>Nec mora, quos sequitur solio legatus ab almo</l>
+						<pb n="46"/>
+						<l n="585">Ad Ligures missus, domuit quos nulla potestas,</l>
+						<l>Non fortuna potens et inexpugnabile fatum,</l>
+						<l>Non vis, colla sacris vinclet qui siniuga loris,</l>
+						<l>Ambrosii celeri peciit qui menia gressu.</l>
+						<l>Conscilium generale vocat, mandataque pandit</l>
+						<l n="590">Presulis etherei secum delata, salutis</l>
+						<l>Nuncia, grata piis animis, vinctura rebelles.</l>
+						<l>Suscipiunt cives, iussis et in ethera latus</l>
+						<l>Assentit clamor, sedi gaudetque subesse.</l>
+						<l>Uno conveniunt animo, non dissidet ullus.</l>
+						<l n="595">Confluit Urbs subito, firmant et sacra plateis</l>
+						<l>Iuramenta fidem, que non exacta sed ultro</l>
+						<l>Edita, parendi votum testantur amice</l>
+						<l>Aule, sic etiam pacis civilis amorem</l>
+						<l>Ac reditus Patris qui longis abfuit exul</l>
+						<l n="600">Temporibus: letantur oves quia Pastor ovile est</l>
+						<l>Venturus nutrire suum, renovareque sancta,</l>
+						<l>Et quia divine solvenda silentia laudis.</l>
+						<pb n="47"/>
+						<l>Mox exacta datur vicinis urbibus ipsi</l>
+						<l>Cautio legato, fidei sit sponsio facte</l>
+						<l n="605">Ut rata, ne violent titubantes iussa legati</l>
+						<l>Postmodo facta sibi, dirimant ne patria lora.</l>
+						<l>Hinc suppressa diu solvuntur cantica, letos</l>
+						<l>Dant delubra melos, misteria diva colonis</l>
+						<l>Redduntur, sacras populi concursus in edes</l>
+						<l n="610">Fit quoque. Ceu longa liquidos desiderat haustus</l>
+						<l>Faux exusta siti, sic plebs diffunditur, ymnos</l>
+						<l>Exaustura novos, iubilus iam pululat ingens.</l>
+						<l>De prope iam finis speratur adesse malorum.</l>
+						<l>Ut suffusa genas lacrimis, oppressa timore</l>
+						<l n="615">Mater in interitu nati, conplexa rigentes</l>
+						<l>Artus, dilectis oculisque cadentibus herens,</l>
+						<l>Febribus exaustum corpus repente calore</l>
+						<l>Anxia cum sentit vitali cedere morbum,</l>
+						<l>Lumina nectenti iam sompno lassa salubri,</l>
+						<l n="620">Ad solitum vena callem redeunte tenoris,</l>
+						<l>Erigitur, speratque trucem vitare dolorem,</l>
+						<l>Reddendam cicius prisce prolemque saluti,</l>
+						<l>Excutiturque prior facies que nubila, plausus</l>
+						<l>Exerit et letos,sic urbs civilibus armis</l>
+						<l n="625">Pressa diu, longo diri concussa pavore</l>
+						<l>Excidii, conpassa suis et civibus actis</l>
+						<l>Clade gravi, gaudet, medicam non excutit artem</l>
+						<l>Quod vulnus, coeunt dudum dississa que membra,</l>
+						<l>Iam sperata salus ad gaudia corda reducit.</l>
+						<l n="630">Hec ubi signa dari legatus iussit in urbe,</l>
+						<l>Nobiliumque vocat pariter populique senatum.</l>
+						<l>Pace reformari sperantes menia cives</l>
+						<l>Confluxere cito gressu, quibus orsus ab ore</l>
+						<l>Pendenti est populo sic fari.</l>
+					</lg>
+				</div>
+				<pb n="48"/>
+				<div type="chapter">
+					<head><lb/>XV.</head>
+					<lg>
+						<l n="635">Dedita sacris</l>
+						<l>Hec urbs usquepotens fama virtuteque, fines</l>
+						<l>Orbis ad extremi diffudit nomina prepes.</l>
+						<pb n="49"/>
+						<l>Libertas Ligurum, patribus devotaque divis</l>
+						<l>Extitit, urbs olim multis ornata triumphis.</l>
+						<l n="640">Conscilii decor est eius diffusus in omnem</l>
+						<l>Italiam. Decepta novis erroribus alte</l>
+						<l>Corruit at nuper, morisque oblita vetusti</l>
+						<l>Se dedit in preceps, patrios despexit honores</l>
+						<l>In caros bacata sinus, sua contulit arma</l>
+						<l n="645">Matris in obprobrium. Radiis lustrata supernis</l>
+						<l>Sed modo iam rediit, deflet confusa priores</l>
+						<l>Excessus, plenis iam votis lora resumit</l>
+						<l>Ecclesie, veteres iam leta reducit amores.</l>
+						<l>Evigilant etenim letali pressa sopore</l>
+						<l n="650">Lumina, preteritam superat nova gratia culpam.</l>
+						<l>Vos ad iussa patrum devocio magna paratos</l>
+						<l>Reddidit: ut cerno, nichil est iam ponderis ultra</l>
+						<l>Quod metuant animi devoti. Muneris ardor</l>
+						<l>Divini grave nescit onus, sed dulcia sentit</l>
+						<l n="655">Omnia, priscus amor rediit culturaque divum.</l>
+						<l>Iam quoque non vobis patriis parere molestum est</l>
+						<l>Iussis, ad vite felix conversio callem</l>
+						<l>Devia pestiferi erroris funesta relinquens.</l>
+						<l>En ego iam fidens vobis mandata refundo</l>
+						<l n="660">Presulis eximii, video vos namque paternis</l>
+						<l>Obsequiis promptos: patrem cognoscite vestrum</l>
+						<l>Octonem, iubet hoc fas et ius, alta potestas</l>
+						<l>Hoc quoque decrevit: ne sit fugitivus in orbem</l>
+						<l>Ulterius statuere patres. Ad sceptra redibit</l>
+						<l n="665">Collate sedis, vos hinc parebitis illi</l>
+						<l>Vos hinc subiecti dignos reddetis honores.</l>
+						<l>Predia reddetis concessaque iura tenebit</l>
+						<l>Presul, et in clerum proscriptio facta linetur</l>
+						<l>Restituentur opes rapte, fraudabitur ere</l>
+						<l n="670">Nemo suo, non hinc Christos iniuria ledet.</l>
+						<pb n="50"/>
+						<l>Lex exacta meo fastis delebitur omnis</l>
+						<l>Iuditio, vestre si forsan matris honori</l>
+						<l>Obviet, in reliquo libeat si plura iubere</l>
+						<l>Tempore, libertas mihi sit servata Locutus</l>
+						<l n="675">Hec siluit. Cives una favere iubenti.</l>
+						<l>Ut iurata fides illos et cautio iussa</l>
+						<l>Edita vinxerunt, his inpiger omnia conplens</l>
+						<l>Legatus connectit opus, repetitaque iura</l>
+						<l>Occupat Ecclesie, traduntur rura petenti,</l>
+						<l n="680">Corrigit et fastos, ac liber redditur omnis</l>
+						<l>Clerus, deletur proscriptio, nulla molesta</l>
+						<l>Iam lex, nulla premens exactio, nulla tyrannis</l>
+						<l>In clerum. Nundum sed pax sperata secuta est</l>
+						<l>Civilis, cuius iam iam fiducia maior.</l>
+						<l n="685">Nescit enim subito conduci magna cicatrix</l>
+						<l>Et semper langoris iners est cura vetusti</l>
+						<l>Artis si medice morbum primordia grandis</l>
+						<l>Non renuat caedens, pars est non parva salutis.</l>
+						<l>Sic antiqua nequit dirimi succensaque parvo</l>
+						<l n="690">Tempore lis turgens, opus est conamine longo</l>
+						<l>Spem parit ingentem cuius conventio quamvis</l>
+						<l>Ceperit ex illis, sed non heu vota secuntur.</l>
+					</lg>
+				</div>
+			</div>
+			<pb n="51"/>
+			<div type="book">
+				<head><lb/>LIBER SECUNDUS</head>
+				<head><lb/>IN SECUNDO LIBRO MULTA DESCRIBUNTUR BELLA</head>
+				<div type="chapter">
+					<head><lb/>I.</head>
+					<lg>
+						<l>Pululat ire latens sub pectore, proditur ulcus</l>
+						<l>Exterius mentis; iterato prisca tumore</l>
+						<pb n="52"/>
+						<l>Turget enim labes intra; mentita salutem</l>
+						<l>Non extersa prius sanie conducta cicatrix,</l>
+						<l n="5">Sub cute sordenti recidiva panditur unda.</l>
+						<l>Agmine Lugdunum sacro properante penatum</l>
+						<l>Dum foret Antistes summus comitansque caterva</l>
+						<l>Urbe placentina, sententia promitur atrox.</l>
+						<l>Metropolis statuunt cives ut premia dentur</l>
+						<l n="10">Plurima, letali si vulnere decidat exul</l>
+						<l>Archipater propriam presumens visere sedem.</l>
+						<pb n="53"/>
+						<l>Dedecus hoc aule est grandisque iniuria deni</l>
+						<l>Gregorii, tantum facinus qui sidere clauso</l>
+						<l>Dissimulat, legi metuens obsistere seve.</l>
+						<l n="15">Deserit Ytaliam festinus, transmeat Alpes,</l>
+						<l>Axe sub hesperio Rodani pervenit ad undas</l>
+						<l>Urbs quibus incumbit Lugdunum nomine, nuper</l>
+						<l>Acta ubi divorum patrum celebrata fuerunt.</l>
+						<l>In reditu celeri sequitur quem presul at ille</l>
+						<l n="20">Ipsius renuit comitatum, stare Bugelle</l>
+						<l>Elegit profugus.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>II.</head>
+					<lg>
+						<l>Sepri se fudit in arva</l>
+						<l>Hinc comes arma petens Gufredus nomine, clara</l>
+						<pb n="54"/>
+						<l>Ortus progenie, cuneo vallatus et ense</l>
+						<l n="25">Exule. Dux equitis natali limine pulsi</l>
+						<l>Robore magnanimo castro consedit Orone</l>
+						<l>Herenti rivo pariter quod lucis ab urbe</l>
+						<pb n="55"/>
+						<l>Distat, et est humili locus hic suspensus in arcem</l>
+						<l>Aggere, ceu sedes illis qui preminet oris</l>
+						<l n="30">Regia. Vasta latus communit utrumque vorago;</l>
+						<l>Clivus at a tergo preceps descendit in amnem.</l>
+						<l>A valvis aditus non arduus, atque vetusto</l>
+						<l>Frons eius muro est olim munita, ruinam</l>
+						<l>Cuius congeries reficit nova. Protinus omnis</l>
+						<l n="35">Plebs montana favet. Parent et menia lati</l>
+						<l>Englerie vicina laci, munitur et arcis</l>
+						<l>Presidium. Ligures hec quam tenuere coloni</l>
+						<l>Urbs antiqua fuit, antiquis diruta bellis</l>
+						<l>Ipsa redacta solo, pauco contenta colono</l>
+						<l n="40">Nobilitatis habens prisce vestigia servat</l>
+						<l>Delubra que reficit prope menia sparsa per agros.</l>
+						<l>Cingitur occiduis nec non australibus undis,</l>
+						<l>A borea erigitur collis qui culmina prefert</l>
+						<l>Invia, murali condam precincta corona.</l>
+						<l n="45">Hostibus est ullis vix expugnabile castrum.</l>
+						<l>Planicies illi spectabilis heret ab euro,</l>
+						<l>Inde tamen locus est valli munimine tutus.</l>
+						<l>Hec loca bina tenet tutissima miles ab urbe</l>
+						<l>Pulsus et his patrias edes se visere sperat.</l>
+						<l n="50">Hec spacii nimii non dividit opida iactus,</l>
+						<l>Auxilium sibi met propereque inpendere possunt.</l>
+						<pb n="56"/>
+						<l>Urbs excita novis rumoribus exilit, ira</l>
+						<l>Infremuit, catulis ut seva leena furore</l>
+						<l>Evehitur raptis. Micuerunt signa potentis</l>
+						<l n="55">Metropolis, properat sonipes faleratus et armis</l>
+						<l>Contectus miles, pariter vexilla quiritis</l>
+						<l>Germani precio conducti ad bella feruntur.</l>
+						<l>Engleriam invadunt seu fraudis sive pavoris</l>
+						<l>Auxilio, splendens gladius vibratur in hostes.</l>
+						<l n="60">Pars Comitis non dura ferens molimina Martis,</l>
+						<l>Innumero cedens equiti, seccessit in arcem.</l>
+						<l>Fama leves tendens alas se tollit in auras</l>
+						<l>Non contenta solo, Comitis pervenit ad aures:</l>
+						<l>Engleriam captam esse et amicos arce reclusos.</l>
+						<l n="65">Tunc armis animoque potens dux impiger agmen</l>
+						<l>Congerit, armatos Seprioque reliquit ephebos</l>
+						<l>Castro, festinans obsessis Marte potenti</l>
+						<l>Subsidium prestare citum. Fit proximus undis</l>
+						<l>Stagni. Metropolis conspexit preses ut hostes</l>
+						<pb n="57"/>
+						<l n="70">Accessisse, parat promptas ad bella cohortes,</l>
+						<l>Obvius egreditur, prope fit concursus utrinque.</l>
+						<l>Amnis erat medius, parvis qui labitur undis,</l>
+						<l>Sed nec ab Engleria spacium diffunditur ingens</l>
+						<l>Ad fluvium Guassam. Dextras ortatur in hostes</l>
+						<l n="75">Preses belligeras, cui est fiducia maior</l>
+						<l>Teutonicus miles, series distincta phalangas</l>
+						<l>Ordinat, umbones flavent, galeeque relucent,</l>
+						<l>Expasse fulgent aquile, sonipesque furorem</l>
+						<l>Efflat, belligeroque tube spiramine clangunt.</l>
+						<l n="80">Inde Comes patria proceres ad prelia voces</l>
+						<l>Proscriptos acuit, genus his proponit et edes</l>
+						<l>Virtutesque patrum, felices Urbis honores.</l>
+						<l>Audaces equites animo congessit in unum</l>
+						<l>Ac pedites. Non sic acies hec splenduit armis</l>
+						<l n="85">Impar et hec numero, sed spe quam robore maior.</l>
+						<l>Ipsa pericla cavens potuit nam cedere bellis,</l>
+						<l>Sed superare solet magni fiducia cordis</l>
+						<l>Consilium. Clamor subito miscetur utrinque,</l>
+						<l>Pene leves agitat nubes, conflictus initur.</l>
+						<l n="90">At latus, adverse Germanus tiro cohortis</l>
+						<l>Transiliens undas peciit, iam mixta geruntur</l>
+						<l>Prelia, desevit mucro, demittitur asta,</l>
+						<l>Excipiunt ictus galee, configitur umbo,</l>
+						<l>Ceditur hinc miles, cadit alter et inde supinus.</l>
+						<l n="95">Conseruere manus, letalia spicula miscent,</l>
+						<l>Nunc hunc nunc illum gladius consumit atroci</l>
+						<l>Vulnere, bacantur mavortia tela vicissim,</l>
+						<l>Armorumque fragor semotis funditur oris.</l>
+						<pb n="58"/>
+						<l>At Comes adversos cuneos ferit, atque laboris</l>
+						<l n="100">Belligeri paciens, sustentat pondera belli</l>
+						<l>Sevi, non hosti parcit, stragemque minatur.</l>
+						<l>Virtus tuta viri, laxis audacter habenis,</l>
+						<l>Obliquaque asta, medios prorupit in hostes.</l>
+						<l>Ictu stratus eques postremo fata sopori</l>
+						<l n="105">Iunxit, sed Comitis sonipes demersus in unda</l>
+						<l>Limosa cecidit. Coram producitur hoste</l>
+						<l>Detentusque comes, nomen qui nobile fassus</l>
+						<l>Confoditur subito diri mucrone furoris.</l>
+						<l>Tunc dampnata cohors cessit, tam tristia cernens</l>
+						<l n="110">Fata ducis, latebras querit, campumque reliquit.</l>
+						<l>Est fuga divulse fiducia sola phalange.</l>
+						<l>Pars defensa manu secessit in abdita diva,</l>
+						<l>Postmodo Novaria que se collegit in urbe;</l>
+						<l>Pars iacet in frutices, pars tristi fune ligatur,</l>
+						<l n="115">Quos subduxit atrox capitis sententia luci.</l>
+						<l>Funera terna iacent decies et quatuor icta</l>
+						<pb n="59"/>
+						<l>Guture. Cladigeri maduerunt flumine campi</l>
+						<l>Sanguineo, Galerate, tui, sed in orrea meste</l>
+						<l>Luxuriant frugis replentes aera fletu</l>
+						<l n="120">Ac gemitu. Lacrimas tante spectamine cedis</l>
+						<l>Qui tenuere suas? redeunt ad menia cives,</l>
+						<l>Victores gaudent, letum referuntque triumphum.</l>
+						<l>Magnanimus Presul mox linquens arva Bugelle</l>
+						<l>Vercellas peciit dubiam suspensus in artem</l>
+						<l n="125">Fortune, sperans post tristia fata beatos</l>
+						<l>Successus, nec enim novit sors fixa morari.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>III.</head>
+					<lg>
+						<l>Advenit proscriptus eques, suffragia poscit</l>
+						<l>Pontificemque rogat dampnate signa cohortis</l>
+						<pb n="60"/>
+						<l>Sumere. Divum opus est, inquit, quod convenit almis</l>
+						<l n="130">Hoc manibus: macula purgare tirannidis urbem.</l>
+						<pb n="61"/>
+						<l>Iusticium patriam oppressit, vidueque vagantur,</l>
+						<l>Exulat incerto pupillus et orfanus orbe,</l>
+						<l>Sacrate spoliantur opes, latique cruore</l>
+						<l>Rivi civili maduerunt fluminis instar.</l>
+						<l n="135">Trina quidem cedes quasi bis centena peregit</l>
+						<l>Funera nobilium: pars bello concidit atro,</l>
+						<pb n="62"/>
+						<l>Iudicii pars falce ruit concisa scelesti.</l>
+						<l>Proh dolor! Englerie, Vercellis, gesta Carate</l>
+						<l>Prelia tam dire cladis fecere ruinam.</l>
+						<l n="140">Morsa infausta animum Gufredi tangat amici,</l>
+						<l>Infandi libeat iuguli meminisse nepotis</l>
+						<l>Cari. Nobilitas suspensis te manet armis;</l>
+						<l>Ipsa quidem patrie te propter menia nutant,</l>
+						<l>Plebs cupit adventum Patris devota. Quid heres?</l>
+						<l n="145">Eya rumpe moras, te celi oracula poscunt,</l>
+						<l>Ad vetitam te fata vocant felicia sedem.</l>
+						<l>Tunc Antistes ait: Fusi non sanguinis ultor</l>
+						<l>Esse volo, sacri non hoc paciuntur honores,</l>
+						<l>Fasces quippe iubent scelus omne remittere divi.</l>
+						<pb n="63"/>
+						<l n="150">Hec vindicta mea est, cunctis ignoscere culpis,</l>
+						<l>Ista sacerdotis plena est victoria. Pacem</l>
+						<l>Exopto patrie, cives viduasque reduci</l>
+						<l>Ad natale solum, primique ad iura redire</l>
+						<l>Urbem prisca status, et plene libera reddi</l>
+						<l n="155">Sacra. Paratus ero nostrum prestare ducatum</l>
+						<l>Sic vobis. Numen pariter celeste petamus,</l>
+						<l>Quod solet oppressis invictum ferre iuvamen.</l>
+						<l>Non animos odium corrumpat, quisque virilis</l>
+						<l>Miles erit, quemquam armigerum succendant ad arma</l>
+						<l n="160">Fas, propriique lares. Tunc iussit cuncta parari</l>
+						<l>Bellica, Novariam venit, mox opida cepit</l>
+						<l>Plurima, qui Seprii, parva comitante cohorte,</l>
+						<l>Menibus Antistes vicinis sedit Orone.</l>
+						<l>Est enim tutus locus hic et nobile castrum.</l>
+						<l n="165">At ubi fama citis Urbi denunciat alis</l>
+						<l>Presulis adventum, boreales insupes oras</l>
+						<l>Archipatri parere suo, reliquasque paratas</l>
+						<l>Ad patris amplexus celeres, formidine pressi</l>
+						<l>Arma movent et amica vocant suffragia cives.</l>
+						<l n="170">Hinc Cremona venit, succurrit Lauda repente,</l>
+						<l>Parmaque tirones mittit, vagulosque per arva</l>
+						<l>Ad predam doctos equites dat Crema, quiritis</l>
+						<l>Assistit mucro Germani civibus audax</l>
+						<l>Conductus precio, Papia miles ab urbe</l>
+						<l n="175">Pulsus in auxilium celeratque expertus in armis.</l>
+						<l>Metropolis falerata acies non defuit illis.</l>
+						<l>Planicies ubi lata iacet tentoria figunt</l>
+						<l>Non longo spacii iactu prope menia Fultus</l>
+						<l>Presul magnanimus non multo milite, forti</l>
+						<l n="180">Spe tamen accincto, pedites congessit agrestes</l>
+						<l>Munitos animo, pro libertate paratos</l>
+						<l>In gladios et bella suas conmittere dextras.</l>
+						<l>Plebeios lorica viros non plurima texit</l>
+						<pb n="64"/>
+						<l>Ferrea, diploidis contentos tegmine solo.</l>
+						<l n="185">Circuit Antistes solerti menia cura,</l>
+						<l>Et iubet excubias, vigili custodeque servat</l>
+						<l>Castra. Trabes clausere vias ne callidus hostis</l>
+						<l>Irruat ut requie solvuntur menbra soporis,</l>
+						<l>Et subito madeant nocturno sanguine fessi.</l>
+						<l n="190">Intrepidus celeri circonspicit omnia nutu</l>
+						<l>Presul, moxque dato promptos ad prelia signo</l>
+						<l>Convocat armatos, quos hortans voce paterna</l>
+						<l>Hec ait: O socii, magnorum mole laborum</l>
+						<l>Pressi, vos patrie libertas, vos decus urbis,</l>
+						<l n="195">Vos natalis honos, Ligurum vos nobile germen,</l>
+						<l>Iusticie titulus moveat iam pectus ad arma.</l>
+						<l>Non habeat servos sine vulnere sedulus hostis.</l>
+						<l>Non vos servabit civilis mucro retentos,</l>
+						<l>Cervices celeri tingentur sanguine tristes.</l>
+						<l n="200">Pro natis pugnare licet, pro coniuge cara,</l>
+						<l>Pro laribus patrieque statu, pro rure paterno.</l>
+						<l>Gesta patrum moveant animos antiqua, timebat</l>
+						<l>Roboris ytalici quos lata potentia, quorum</l>
+						<l>Grande fuit longo diffusum nomen ab evo.</l>
+						<l n="205">Vos non degeneres talami non esseque prolem</l>
+						<l>Furtivi, non vos peregrino semine natos</l>
+						<l>Audax dextra probet. Patrie probitatis ymago</l>
+						<l>Testetur vos esse genus laudabile. Miles</l>
+						<l>Quem michi stravit apex veniat, mea signa sequetur</l>
+						<l n="210">Feudali si iure cupit gaudere, relinquat</l>
+						<l>Impia castra, meis vexillis pareat, omnem</l>
+						<l>Fascibus antiquis privant mea iussa rebellem.</l>
+						<l>Metropolis cuneos non multus transfuga miles</l>
+						<l>Se Patris expositis fato belloque maniplis</l>
+						<pb n="65"/>
+						<l n="215">Iungens deseruit, anceps fortuna timetur.</l>
+						<l>In civile pavet civis se opponere robur.</l>
+						<l>Nititur interea montes invadere sacri</l>
+						<l>Milicie pars magna ducis, quo pene relicto;</l>
+						<l>In seriem iungunt cives ad bella cohortes,</l>
+						<l n="220">Insultum faciunt. Ingens et ad ethera clamor</l>
+						<l>Tollitur, et temptant vacuatum irrumpere castrum.</l>
+						<l>Exteriora cadunt munimina strata furoris</l>
+						<l>Raptu. Tunc miles dubia sub sorte duellum</l>
+						<l>Singulus agreditur, cadit hinc adversus, et inde</l>
+						<l n="225">Alter confoditur, strages contrivit utrosque.</l>
+						<l>Qui steterat populus tandem confugit in arcem,</l>
+						<l>Custodire locum nitens, defendere vallum,</l>
+						<l>Impigra quod pugilum circondat leta corona.</l>
+						<l>Spicula miscentur, saxum hinc volat, inde sagitta</l>
+						<l n="230">Turbine rapta truci baliste, morte relicta.</l>
+						<l>Lancea belligeris illinc excussa lacertis,</l>
+						<l>Hinc ruit armatus, vallique crepidine strati</l>
+						<l>Ima petunt, pugnax miles cadit inde soluto</l>
+						<l>Arcu, sanguineus mucro desevit utrinque.</l>
+						<l n="235">Dum multo geritur bellum discrimine, cursu</l>
+						<l>Milicie cuneus celeri redit, atque repente</l>
+						<l>Currit in auxilium, resonat tuba, signa coruscant,</l>
+						<l>Inclusi gaudent, hostilia corda pavescunt,</l>
+						<l>Archipaterque suos hortatur, currit ad arma</l>
+						<l n="240">Quilibet, et vallum flaventia tela coronant,</l>
+						<l>Pontificisque acies, mox ut pervenit equestris</l>
+						<l>Miles, in arma fremit; preceps dimisit abenas,</l>
+						<pb n="66"/>
+						<l>In densos agitur cuneos, queritque per hostes</l>
+						<l>Tutus iter, pavidi subito qui terga dederunt,</l>
+						<l n="245">Inconbit gladius fugientibus, asta perurget,</l>
+						<l>Et sonipes, sessore carens, hinc inde vagatur.</l>
+						<l>Stratus eques rapidis pedibus calcatur equorum,</l>
+						<l>Alter inire fugam temptat sudore pedestri,</l>
+						<l>Eiectis latebras armis desiderat alter.</l>
+						<l n="250">Et pars cesa cadit, rediitque ad castra superstes.</l>
+						<l>Cessit eques campis, convertit frena, furoris</l>
+						<l>Heu pubes oblita sui, gladiumque veretur</l>
+						<l>Milicie urgentis, nam ferrum sanguine fumat</l>
+						<l>Cedibus impressum. Pietas conmota paterna</l>
+						<l n="255">Obviat, et iugulos fraterni vulneris horret,</l>
+						<l>Civiles metuens clades, intecta furenti</l>
+						<l>Milicie occurrens opponit pectora, tante</l>
+						<l>Bacantes prohibet gladios insistere cedi,</l>
+						<l>Ac odiis ad castra vocat civilibus actos,</l>
+						<l n="260">Precipites ne fraude ruant, in septa recludit.</l>
+						<l>Restaurare iubet festino cuncta labore</l>
+						<l>Diruta, supponit sacratos ipse lacertos</l>
+						<l>Quin operi, largos aer licet esset in imbres</l>
+						<l>Densatus, tonitrus crebros et fulgura nubes</l>
+						<l n="265">Funderet. Hos animat, custodes instruit, omnes</l>
+						<l>Officium lustrat, fit sedulus omnia presul.</l>
+						<l>Felix illa dies ingenti leta triumpho,</l>
+						<l>Sed timor invasit victores luce sequenti,</l>
+						<l>Plebs etiam montana trucis discrimina pugne</l>
+						<l n="270">Preterite timuit, querit, concussa pavore,</l>
+						<l>Devia, pars latebras, pars se convertit ad alpes.</l>
+						<pb n="67"/>
+						<l>Nobilitas prohibere fugam conatur, et enses</l>
+						<l>Exerit. Antistes revocat sed transfuga claudit</l>
+						<l>Aures, precipiti cursu queritque salutem.</l>
+						<l n="275">Plus valet ense timor, vox sacri Patris inanis</l>
+						<l>Nil agit. Inde cohors omnis cum plebe fugatur,</l>
+						<l>Atque petit Cumas. Valve clauduntur in urbis</l>
+						<l>Introitu, renuunt profugos admittere cives.</l>
+						<l>Dum rogat ingressum sibi supplex Otto patere,</l>
+						<l n="280">Hunc sequitur, foribus reseratis, tota caterva.</l>
+						<l>In quarn civilis subito furor arsit, et urbe</l>
+						<l>Cogunt Cumani lassos exire quirites:</l>
+						<l>Quin alios spoliant, alii ceduntur, in edes</l>
+						<l>Pars latet, Antistes semotas cessit in Alpes.</l>
+						<l n="285">Quem quoque nobilitas stimulo concussa doloris</l>
+						<l>Flebilibus comitata oculis. Consedit in ipso</l>
+						<l>Zurnigi castro, valles sibi subdere nitens</l>
+						<l>Ac montes. Populum legit non pluribus armis</l>
+						<l>Tectum, pars arcum leva, pars missile dextra</l>
+						<l n="290">Vulgus inerme gerit, caput arta casside pressum</l>
+						<l>Cingitur ense femur, vix plure pondere ferri</l>
+						<l>Quis tegitur, cordis tamen omnes robore freti</l>
+						<l>Diplois at reliquos artus tegit, umbo sinistram</l>
+					</lg>
+				</div>
+				<pb n="68"/>
+				<div type="chapter">
+					<head><lb/>IV.</head>
+					<lg>
+						<l>Post modo Canobii presul se contulit oris.</l>
+						<l n="295">Terricolis exire novus conpellitur hospes.</l>
+						<pb n="69"/>
+						<l>Est fuga sola salus, aiunt; tecumque neccesse est</l>
+						<l>Edes deleri patrias, quas incola reddis</l>
+						<l>Infaustas. Frustra quid niteris omina legem</l>
+						<l>Non explere suam? fatorum cede furori.</l>
+						<l n="300">Persequitur fortuna nocens tua numina, fatum</l>
+						<l>Te crudele premit; superis tibi bella moventur.</l>
+						<l>Presul ait: languent ingenti membra labore,</l>
+						<l>Sed nec abire queunt requie nisi fota leventur.</l>
+						<l>Sumere vel biduo liceat confracta vigorem.</l>
+						<l n="305">Concessere moram, lassi reverentia Patris</l>
+						<l>Est admissa loco, comitans exclusa caterva est.</l>
+						<l>Interea precibus temptat placare colonos.</l>
+						<l>Pars ad amiciciam trahitur clandestina blandis</l>
+						<l>Promissis, occulta petit munimina statim,</l>
+						<l n="310">Arma virosque vocat, clam nobile congregat agmen</l>
+						<l>Sedulus Antistes fusum per plana, per Alpes.</l>
+						<l>Nobilitas conmenta sacri Pastoris obaudit,</l>
+						<l>Que cito belligero sociata est robore Patria</l>
+						<pb n="70"/>
+						<l>Canobio, ingentis quod stagni fluctibus heret</l>
+						<l n="315">Ac montis radice sito, de fonte Ticini</l>
+						<l>Quod scaturit, qui fit tandem genitoris origo.</l>
+						<l>Antistes iam transtra parat, violata bipenne</l>
+						<l>Robora ceduntur, classi remos et silva ministrat.</l>
+						<l>Rostra ligant clavi, sternuntur stagna carinis.</l>
+						<l n="320">Protinus armorum ferrum laxatur ad usus.</l>
+						<l>Ad bellum navale rates armavit ephebis</l>
+						<l>Grandevisque simul. Residebat pervigil hostis</l>
+						<l>Englerie. Locus hic extremo lictore stagni</l>
+						<l>Est situs, impulsus declivi tramite gurges</l>
+						<l n="325">Ad quem declinat. Collecta classe propinqui</l>
+						<l>Littoris, armatis maiori robore naves</l>
+						<l>Munit, plure quidem constravit remige stagnum.</l>
+						<l>Ammovit statione rates, sulcatque profundum</l>
+						<l>Gurgitis. Appropians vicinas contigit oras</l>
+						<pb n="71"/>
+						<l n="330">Pontificis classi, statuitque adducere predam.</l>
+						<l>Se pelago mergens orbi cum Phebus ybero</l>
+						<l>Induxit tenebras, et nox iam fessa sopori</l>
+						<l>Menbra daret, molles lectos armata caterva</l>
+						<l>Querit, desertis ratibus, diffusa per edes.</l>
+						<l n="335">Noxia mollicies nimis est ac dissona bellis.</l>
+						<l>Prelia pectus amant durum, paciensque laboris,</l>
+						<l>Eventus dubios vigili quod precavet astu.</l>
+						<l>Zerminaga viris luxum laqueosque paravit.</l>
+						<l>Fama sed expassis errorem detulit alis</l>
+						<l n="340">Pontifici, celeres qui naves invehit undis.</l>
+						<l>Currit ad arma pedes subito milesque, carinas</l>
+						<l>Implent, non illos patrii secernit honoris</l>
+						<l>Gracia, comunes fasces, comuneque bellum,</l>
+						<l>Comunis labor est, et opus comune, nec ullus</l>
+						<l n="345">Iussa manet. Remis pulse tremuere carine;</l>
+						<l>Per medias verruntur aquas, at celsior omni</l>
+						<l>Puppe preit reliquis, armorum navis amictu</l>
+						<l>Resplendens conmissa duci. Non verbere grandi</l>
+						<l>Remorum fluxere rates, ne forte sepultos</l>
+						<l n="350">Sompno sollicitet sonus: omni voce remissa</l>
+						<l>Ora silent. Dulces non reddit fistula cantus,</l>
+						<l>Conticuere tube, vasto nec in ethere voces</l>
+						<l>Ulle miscentur, condicta silentia nullum</l>
+						<l>Admittunt strepitum. Mediis instructa gregatim</l>
+						<l n="355">Fluctibus invehitur Neptuni lassa per agros</l>
+						<pb n="72"/>
+						<l>Classis, et apropians hostilia robora querit.</l>
+						<l>Humentes nec dum tenebras eiecerat orbe</l>
+						<l>Occeano prolata dies, nec lampada Phebus</l>
+						<l>Protulerat, stigiis nec dum secesserat umbris</l>
+						<l n="360">Ut classis vicina fuit. Fragor undique motus</l>
+						<l>Tollitur, et classem, preciso fune, repertam</l>
+						<l>Littore seiungunt, custodum pectora remis</l>
+						<l>Pulsant, emissis texerunt aera telis.</l>
+						<l>Era sonant, aucto clamoreque bella geruntur.</l>
+						<l n="365">Hinc hostes in transtra cadunt, hinc cuspide fixi</l>
+						<l>Puppibus exanimes herent, hinc gurgite mersos</l>
+						<l>Accipit unda rubens, hostilis fitque sepulcrum</l>
+						<l>Funeris, ac reliqui victrici fune ligantur.</l>
+						<l>Dum bello fluctus miscentur et ethera voces</l>
+						<l n="370">Turbant, armorum concussio littora replet.</l>
+						<l>Experecta gravi sompno dispersa iuventus</l>
+						<l>Per talamos surgit discussa nube soporis,</l>
+						<l>Arma petit, sed tempus abest, nam sedulus hostis</l>
+						<l>Pugnam, dimisso ratibus custode, pedestrem</l>
+						<l n="375">Intemptat, latebras et lectos ense cruento</l>
+						<l>Perquirit, nudos invadit, sanguine rivi</l>
+						<l>Labuntur, sine rege cohors dispersa vagatur.</l>
+						<l>Est fuga comunis cunctis fiducia vite.</l>
+						<l>Victores redeunt, et rapte grandia classis</l>
+						<l n="380">Lucra Patri referunt et ovant vicisseque stagni</l>
+						<l>Opida tocius fidunt.</l>
+					</lg>
+				</div>
+				<pb n="73"/>
+				<div type="chapter">
+					<head><lb/>V.</head>
+					<lg>
+						<l>Mox esse paratos</l>
+						<l>Omnes Otto iubet, clipeos galeasque ratesque</l>
+						<pb n="74"/>
+						<l>Instaurant, tersa lorica rubigine splendet.</l>
+						<l n="385">Copia conseritur navalis, Symone classi</l>
+						<pb n="75"/>
+						<l>Prefecto, statuit cui cuncta negocia belli</l>
+						<l>Antistes, cui tidus erat, certaminis usu</l>
+						<l>Expertus siquidem longo, iugisque laboris.</l>
+						<l>Aronam celeri iubet hunc invadere bello</l>
+						<l n="390">Navali, iussis qui conserit agmina parens</l>
+						<l>Classica, signifera sublimi puppe resedit</l>
+						<l>Pretor, diducunt remos, dant carbasa ventis</l>
+						<l>Naute. Sternuntur late sic navibus unde,</l>
+						<l>Fluctibus in mediis labuntur robora classis,</l>
+						<l n="395">Cunctas precedit naves pretoria puppis;</l>
+						<l>Planicies et operta lacus navalibus alis,</l>
+						<l>Remigis intumuit concussis verbere limphis.</l>
+						<l>Aronam propero venit conamine Simon (sic)</l>
+						<l>Navigio fultus grandi, virtute potenti</l>
+						<l n="400">Armigeris acies stetit undis classica iussu</l>
+						<l>Pretoris, modico distans prope menia iactu</l>
+						<l>Spes omnis periit clauso navalis ab hoste.</l>
+						<l>Milite belligero stipatus Marchio prompte</l>
+						<l>Ferrato de monte venit, milesque pedesque</l>
+						<pb n="76"/>
+						<l n="405">Urbis Novarie, iuncta his proscriptaque virtus</l>
+						<l>Metropolis, nec non Papie nobile robur,</l>
+						<l>Qui cingunt lunare latus, quod collibus heret,</l>
+						<l>Aggeris erecto tellus defossa coronat</l>
+						<l>Quod tumulo, crates densos innexa sudesque,</l>
+						<l n="410">Pro muro paries stat ligneus. Arma corusci</l>
+						<l>Militis in giro rutilant muniminis alti.</l>
+						<l>Una quidem castris, clausa est pars altera classe,</l>
+						<l>Nec patet egressus illis et pabula desunt.</l>
+						<l>Munitus vallo locus est in littore stagni</l>
+						<l n="415">Hic situs, huic alte septum supereminet arcis</l>
+						<l>Miles ibi germanus adest, montanaque turba,</l>
+						<l>Metropolique equitum cuneus transmissus ab ipsa.</l>
+						<l>Pugna ferox agitur, nunc hinc nunc inde feruntur</l>
+						<l>Exanimes, sed dira fames infestius angit</l>
+						<l n="420">Obsessos, quos fata iuvant dum iuge redundat</l>
+						<l>Imbris diluvium, totusque resolvitur aer.</l>
+						<l>Effudit Neptunus opum sine lege suarum</l>
+						<l>Thesauros, Euro laxas dimisit abenas</l>
+						<l>Eolus ac Austro, Cephyro Borreaque reclusis</l>
+						<l n="425">Carcere. Castra natant, ceno iacuere iumenta.</l>
+						<l>Vixque boves alimenta trahunt, vix expicat alto</l>
+						<l>Seque luto sonipes. Clausis civile propinquat</l>
+						<l>Robur in auxilium, metuuntur militis arma</l>
+						<l>Metropolis, grandis venientis copia plebis.</l>
+						<l n="430">Marchio concutitur, turbantur castra pavore,</l>
+						<l>Celatusque timor densi velamine nimbi</l>
+						<l>Querit ab obsessis cedens vitare periclum.</l>
+						<l>Nobilis obstat eques sperans, munimine victo,</l>
+						<l>Mox patriam propriosque lares sine marte subactos.</l>
+						<pb n="77"/>
+						<l n="435">Nititur at frusta. Subito nam castra leguntur.</l>
+						<l>Novariamque petunt macula suffusa pudoris.</l>
+						<l>Quo nam signa ferunt imbelli victa timore?</l>
+						<l>Leta cohors inclusa diu petit arma, forasque</l>
+						<l>Egreditur, stimulis sonipes post terga cohortes</l>
+						<l n="440">Inpressis sequitur, que non revocantur ab hoste.</l>
+						<l>Indeque regrediens acies diffusa per agros</l>
+						<l>Spargitur, et rediit spollis intenta relictis.</l>
+						<l>Subsidium fit preda famis, dimissa reducunt</l>
+						<l>Plaustraque, leticie voces tolluntur in altum.</l>
+						<l n="445">Classis abit tristis, fit libera navibus unda.</l>
+						<l>Obsesse plebis, preciso fune, carina</l>
+						<l>Per medios fertur, iam tuto remige, fluctus.</l>
+						<l>Nec mora: cuncta lacus Urbi mox litora parent</l>
+						<l>Et naves. Frustrata Ducis fiducia stagno</l>
+						<l n="450">Cessit, canpestri vult se conmittere fato.</l>
+						<l>Iam remum mutare vacat tironis in astam,</l>
+						<l>Ac Cumanorum pulsat prece vota latenti.</l>
+						<l>Pressidioque novo sperat virtutis amice</l>
+						<l>Antistes, nullo belli discrimine motus.</l>
+						<l n="455">Fortunam sufferre potens solatur amicos,</l>
+						<l>Quos dolor oppressit, spes quorum languit; inquit:</l>
+						<l>Nostis an, o socii, dubia ludibria fati?</l>
+						<l>Humani est cursus semper mutabilis ordo,</l>
+						<l>Non idem fatis tenor est; post dira sequuntur</l>
+						<l n="460">Omina successus, emortua spesque virescet.</l>
+						<l>Corda cadunt duris? pressi graviora timetis?</l>
+						<pb n="78"/>
+						<l>Esse viros Ultor scelerum pacietur inultos</l>
+						<l>Hostes qui patrie civili cede foventur?</l>
+						<l>Non animos frangat res ista, resumite vires,</l>
+						<l n="465">Iam vos ad proprias edes remeare necesse est.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>VI.</head>
+					<lg>
+						<l>Hinc quoque nobilitas patriis congesta sub alis</l>
+						<l>Cum Patre Novariam petiit, temptatque redire</l>
+						<pb n="79"/>
+						<l>Ad natale solum, cuius dulcedinis umquam</l>
+						<l>Inmemor esse nequit. Mentem inclinare laborat</l>
+						<l n="470">Presulis Antistes Cumani federe. Pandit</l>
+						<l>Ingressum Cumis lis orta et amica precantum</l>
+						<l>Sedulitas, et opus constantis Symonis expers</l>
+						<l>Fraudis. Mox geritur bellum civile per urbem.</l>
+						<l>Archipatri pars una favet, pars altera civi</l>
+						<l n="475">Heret Metropolis; Cumanus marte potenti</l>
+						<l>Presul bella iuvat Patris exulis. Arma fragores</l>
+						<l>Excuciunt, ictus crebrescunt, omneque ferrum</l>
+						<l>Vulnere civili crassatur, sanguine flavet.</l>
+						<l>Missile letiferum, grave saxum, dira sagitta</l>
+						<l n="480">Aere concurrunt et nubis more nitentes</l>
+						<l>Pene tegunt radios, in cedes versa feruntur</l>
+						<l>Descensu sociata suo, sonus inde relictus</l>
+						<l>Vulnera vix superat. Turres armata coronat</l>
+						<l>Plebs altas, humilesque domos, ac robore vici</l>
+						<l n="485">Sternuntur denso, pilis intexitur aer.</l>
+						<l>Ictibus arma sonant crebris percussa, caduntque</l>
+						<l>Plures, alternis impletur vocibus ether.</l>
+						<l>Vim belli non passa trucis, pars denique cessit</l>
+						<pb n="80"/>
+						<l>Oppressis adversa viris, Patrique rebellis,</l>
+						<l n="490">Omneque comuni congessit robur in aula.</l>
+						<l>Munimen celeres tunc hostes denique cingunt,</l>
+						<l>Densus at ex alto lapidum dimittitur ymber,</l>
+						<l>Omne nocens iacitur et spicula fulguris instar.</l>
+						<l>Cassis et umbo grues ac crates excipit ictus.</l>
+						<l n="495">Sed labor imma petens, structure solvere muri</l>
+						<l>Temptat conpagem solidi, fossoria mergens</l>
+						<l>Desuper excepte contempnit spicula cedis.</l>
+						<l>Fundamenta quatit aries suspensus in altum,</l>
+						<l>Impulsuque suo forti muralia frangit.</l>
+						<l n="500">Denique fumiferis explentur prelia flammis,</l>
+						<l>Et bellatores captos munitio reddit.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>VII.</head>
+					<lg>
+						<l>Protinus adversa bello virtute subacta</l>
+						<l>Archipater Cumas conserto venit equestri</l>
+						<pb n="81"/>
+						<l>Robore, congessit peditumque equitumque catervas</l>
+						<l n="505">Exul nobilitas aquilis collecta sub almis</l>
+						<pb n="82"/>
+						<l>Exulis est Patris, properat milesque Ticino,</l>
+						<l>Novariensis eques, Cumani roboris ingens</l>
+						<l>Virtus, letiferas et turba accincta pharetras.</l>
+						<l>Ricardusque comes venit, qui signa, ducatu</l>
+						<l n="510">Sumpto, suscepit profuge dampnata cohortis.</l>
+						<l>Nobilis huic ortus, genitus de stirpe Lomelli,</l>
+						<l>Qui se montane fudit regionis in oras.</l>
+						<l>Quam cicius Clavate subest, ac menia. Leuci,</l>
+						<pb n="83"/>
+						<l>Vicinique lacus sita litore castra patenti;</l>
+						<l n="515">Opida multa duci parent et plurima spondent</l>
+						<l>Archipatris se signa sequi, comitique favere.</l>
+						<l>Rumor it et statim magnus fit in Urbe tumultus,</l>
+						<l>Ingens civilis pugne succenditur ardor,</l>
+						<l>Fraterneque acies ad bellum utrinque parantur.</l>
+						<l n="520">Ad Patrem rediit Comitis vexilla secuta</l>
+						<l>Nobilitas Cumas, se ut pugnatura maniplis</l>
+						<l>Iungat Cumanis, uno mox agmine pergat</l>
+						<l>Ut Presul. Falerata cohors at prodiit Urbe</l>
+						<l>Ambrosii, Desioque stetit. Civilis utrinque</l>
+						<l n="525">Sevit in arma furor. Procerum vexilla propinquant,</l>
+						<l>Archipatris crux alma preit. Speculator ab alto</l>
+						<l>Prospicit, atque duci festinos nunciat hostes</l>
+						<l>Metropolis non esse procul, spirare furorem.</l>
+						<l>Cives concussi tunc contremuere pavore,</l>
+						<l n="530">At tamen arma petunt, pugnax audatia texit</l>
+						<l>Incussumque metum. Clipei cervicibus herent,</l>
+						<l>Resplendens galea obsolvit caput, asta vibratur,</l>
+						<l>Ensiferique pedes equitis flectuntur in orbe.</l>
+						<pb n="84"/>
+						<l>Impaciens sonipes faleratus naribus iram</l>
+						<l n="535">Efflat, et hortantur pavidi se ad bella vicissim.</l>
+						<l>Sanguinis oblitus, nature federa nescit</l>
+						<l>Quilibet, in fratrem convertit vulnera frater.</l>
+						<l>Previus accedens Desii prope menia Presul</l>
+						<l>Pectus inherme gerit, munitus mente virili.</l>
+						<l n="540">Magnanimus tanti Pater est discumine belli</l>
+						<l>Tutus, nuda fuit cui crux protectio fortis.</l>
+						<l>Humane non tam virtutis robore fidit</l>
+						<l>Quam dive, Patris cui spes innititur almi.</l>
+						<l>Insonnuere tube, voces tolluntur in altum,</l>
+						<l n="545">It fragor armorum diffusus in aera late;</l>
+						<l>Pene soni nubes agitantur verbere dense.</l>
+						<l>Curritur ad bellum, solvuntur turbine magno</l>
+						<l>Baliste, lapides iaciuntur grandinis instar.</l>
+						<l>Ad valli manibus correpunt culmina, molis</l>
+						<l n="550">Fragmine letifere galeis clipeisque recepto.</l>
+						<l>Hostili cedente viam mucrone pararunt</l>
+						<l>Obice, terribili dant hostes terga furori.</l>
+						<l>Aggeris expulso munimine, menia fortes</l>
+						<l>Intrant armati, pugne concursus utrinque</l>
+						<l n="555">Fit trucis, at cedunt adversi Presulis almi.</l>
+						<l>Agmine sed redeunt converso, pila vibrantes,</l>
+						<l>Incumbunt victi dorsis fugientibus. Acris</l>
+						<l>Vi pugne fugiunt victores, fitque ruina</l>
+						<l>Aggeris a summo per preceps usque deorsum.</l>
+						<l n="560">Hostis ab impulsu, versis cervicibus, agmen</l>
+						<pb n="85"/>
+						<l>In se conpressum declini labitur orbe.</l>
+						<l>Pugna sub ancipiti fato conmittitur atrox.</l>
+						<l>Ensibus in faciem exactis revocatur ad arcem</l>
+						<l>Valli turba fugax, viceversa mittit in hostes</l>
+						<l n="565">Spicula propulsos, Desii diffunditur oris</l>
+						<l>Ulterius, fumo civilis sanguinis exul</l>
+						<l>Mucro madet. Foditur primo certamine Rector</l>
+						<l>Metropolis, clarusque cadit victoribus obstans</l>
+						<l>Civis magnanima dudum virtute rebellis,</l>
+						<l n="570">Milicie generisque fuit decoratus honore</l>
+						<l>Hic quoque, litigera princeps et in urbe secundus.</l>
+						<l>Milite cinguntur proscripto menia, valvas</l>
+						<l>Fregit Cumane plebis violenta securis,</l>
+						<l>Que Desii vicis dispergitur ense cruento.</l>
+						<l n="575">Hic cadit, ille pedes tremulos ad vincula tendit,</l>
+						<l>Hicque fugam querit frustra, conclusus in arto,</l>
+						<l>Nam vetuere fores obstruse robore firmo.</l>
+						<l>Consilio periere suo dum menia claudunt</l>
+						<l>Cives, dum vallum nullo violabile firmant</l>
+						<l n="580">Ingenio, fit opus proprium sic carcer eorum.</l>
+						<l>Sepe sagax in cede sua prudentia fiet</l>
+						<l>Infelix hominis, quociens delusa perire</l>
+						<l>Actores facit ipsa suos, traditque ruine.</l>
+						<l>Scrutatur latebras quisquis, solaque salute</l>
+						<l n="585">Contentus, iacit arma pavens, fortuna ruina</l>
+						<l>Involvit varia cives. Pretorius inde</l>
+						<l>Plebis apex capitur, dominus qui primus in Urbe</l>
+						<l>Extitit, ingenue quem stirpis gloria fecit</l>
+						<l>Conspicuum. Ceno sedet hic. Antistes amice</l>
+						<pb n="86"/>
+						<l n="590">Quem petit, ingrediens diri discrimina belli;</l>
+						<l>Quem patria pietate videns, oblitus amare</l>
+						<l>Cedis, dilecti quam colla tulere nepotis,</l>
+						<l>Infremuit, lacrimisque gene maduere solutis.</l>
+						<l>O falax, inquit, quociens fortuna revolvis</l>
+						<l n="595">Imis summa gradu, nam sidera splendida tangens</l>
+						<l>Volvitur ecce luto! flos est tua gloria vanus.</l>
+						<l>Inde supervenit fraterni sanguinis ultor</l>
+						<l>Mucro nitens Comitis, peciit qui membra secari</l>
+						<l>Hostis humi lutee residentis, versus in iram</l>
+						<l n="600">Quod prohibet Presul, sed eum sine vulnere servat.</l>
+						<l>O bonitas inmensa Patris, que sanguinis expers</l>
+						<l>Eximium victis putat indulgere triumphum.</l>
+						<l>Heu totum de Turre genus vel carcere squalet</l>
+						<l>Aut periit gladio, patulum vel oberrat in orbem,</l>
+						<l n="605">Cuius fautores simili periere ruira.</l>
+						<l>Stirpis at infauste maiores vincula stringunt</l>
+						<l>Ferrea sex numero, spoliis ditantur amici</l>
+						<l>Archipatris. Veniunt legati strage peracta</l>
+						<l>Metropolis Desium, vexilla reducere patris.</l>
+						<l n="610">Tunc Antistes ovans ingentis lucra triumphi</l>
+						<l>Numine lata ferens supero, festinat in Urbem.</l>
+						<l>Accedens natale solum mucrone cruento</l>
+						<l>Leta acies, multis olim conata periclis</l>
+						<l>Ad proprios remeare lares, comitatur erile</l>
+						<l n="615">Vexillum. Iussit prope menia stare cohortes</l>
+						<l>Presul, amor patrie cuius precordia care</l>
+						<l>Commovit. Qui sic inquit:</l>
+					</lg>
+				</div>
+				<pb n="87"/>
+				<div type="chapter">
+					<head><lb/>VIII.</head>
+					<lg>
+						<l>Iam vulnera a cessent,</l>
+						<l>Sanguineo sudore madens iam mucro quiescat,</l>
+						<l n="620">In fraterna rubet bacans heu vulnera cedes.</l>
+						<pb n="88"/>
+						<l>Hinc trucis a gladii iugulis desistite. Finis</l>
+						<l>Queratur bello civili: patria lucro</l>
+						<l>Sit satis hec vestro, longo sperata labore</l>
+						<l>Hactenus. Hanc vetuit semper fortuna rebellis</l>
+						<l n="625">Quam modo corridens offert victricibus armis.</l>
+						<l>Iam furor atque mine, iam dira licentia ferri</l>
+						<l>Cedat, et ad letos successus, hoste subacto,</l>
+						<l>Omine pax dudum adverso quesita reducat</l>
+						<l>Victores. Felix, socii, victoria non est</l>
+						<l n="630">Roboris hec vestri, non armis parta nec ense.</l>
+						<l>E celo micuit, vobis hanc fata dederunt</l>
+						<l>Legibus archanis supero manantia nutu.</l>
+						<l>Ipsa manus opus est supere. Censura rebelles</l>
+						<l>Celestis stravit. Insonti parcite plebi;</l>
+						<l n="635">Non edes spolietur inops, non orrea ditis,</l>
+						<l>Nullus ledatur, nullique iniuria fiat</l>
+						<l>E populo, quem nos ulnis gestamus amoris,</l>
+						<l>Quem colimus, titulis dignis efferre volentes,</l>
+						<l>Cui fuit antiquo venerabile nomen ab evo.</l>
+						<l n="640">Conducat fraternus amor, que prisca tulistis</l>
+						<l>Vulnera, preterite nullum meminisse iubemus</l>
+						<l>Offense, cuius felix oblivio vindex</l>
+						<l>Optimus est; genus hoc vincendi nobile clari</l>
+						<l>Nonne viri? fiet vester sic hostis amicus.</l>
+						<l n="645">Irarum fluctus humili sub pectore fervent</l>
+						<l>Omnibus infesto, cui non est longa potestas</l>
+						<l>Nec fortuna favens; subiti discriminis expers</l>
+						<l>Non erit in cives asper, proprieque ruine.</l>
+						<l>Iam satis est, venie iam tempus. Desinat omnis</l>
+						<l n="650">Impetus, et pietas expellat amica furorem.</l>
+						<l>Hinc odii civilis atrox discedat acredo.</l>
+						<l>Num scelerum rabies care dominabitur Urbi?</l>
+						<l>Discurrent vicis num rivi cede rubentes?</l>
+						<l>Sanguinea num laeta dies maculabitur unda?</l>
+						<pb n="89"/>
+						<l n="655">Quid si tecta gemant? madeant si delubra fletu?</l>
+						<l>Sive lares ululent? et sparso crine marito</l>
+						<l>Exanimi coniunx incumbat? siue parentes</l>
+						<l>Oscula pignoribus fundant merentia cesis?</l>
+						<l>Num sceleri tanto Superum miscebitur ingens</l>
+						<l n="660">Gracia? num tantis lacrimis seu funere tristi</l>
+						<l>Gaudia ledentur dono concessa superno?</l>
+						<l>Non erit hoc, proceres, non hoc felicibus aptum</l>
+						<l>Fatis, vobiscum non hac comitabitur hora</l>
+						<l>Meror in ingressu, non hec sunt consona divis</l>
+						<l n="665">Herrohibus, nam vos vetus et generosa propago</l>
+						<l>Edidit, et venia est semper coniuncta triumpho.</l>
+						<l>Sic sceleris gladium deponat leta inventus,</l>
+						<l>Gratas iam tollat palmas ad sidera miles,</l>
+						<l>Letetur tristem rugas posuisse vetustas</l>
+						<l n="670">Fortunam, facies cuius placabilis ad vos</l>
+						<l>Arridet renovata novis successibus, ora</l>
+						<l>Nubila mutavit, veterem posuitque rigorem.</l>
+						<l>O pietas inmensa Dei, que ferrea tetri</l>
+						<l>Vincula celesti virtute resolvit Averni,</l>
+						<l n="675">Tempore quo longo proceres gemuere sepulti</l>
+						<l>Metropolis, sed iam reserantur claustra doloris.</l>
+						<l>Extulit ad celum iam vos sublime, nec ultra</l>
+						<l>Deseret auxilium Superum, servata per evum</l>
+						<l>Gracia si fuerit, memor aut si muneris huius</l>
+						<l n="680">Sit dampnatus eques, quem gloria tanta reducit.</l>
+						<l>Pacifice resonent fauces, donaria reddat</l>
+						<l>Quisque Deo, solvat laudes ac oscula civi</l>
+						<l>Offerat, et dudum respublica pressa levetur.</l>
+						<l>Iam tenor antiqus patrumque modestia vestre</l>
+						<l n="685">Urbi reddatur, succedant iura profano</l>
+						<l>Iusticio, propriis comunia conmoda lucris.</l>
+						<pb n="90"/>
+						<l>Exul in ambiguum redeat maturius orbem</l>
+						<l>Ad sedes Astrea suas, orbataque dudum</l>
+						<l>Gaudeat aula potens ex nunc ornata decore</l>
+						<l n="690">Iusticie.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>IX.</head>
+					<lg>
+						<l>Presul sic fatus. Nemo resistit</l>
+						<l>Ortanti, monitis reverendi quilibet oris</l>
+						<l>Annuit et votis patriis parere spopondit.</l>
+						<pb n="91"/>
+						<l>Summissos clamore cohors testatur alacri</l>
+						<l n="695">Esse animos Patri dominoque, ducique per omne</l>
+						<l>Evum. Antistes ait: Victricia signa movete,</l>
+						<l>Victaque mox celeri pecierunt menia gressu</l>
+						<l>Presulis ad iussum victores, ense recluso,</l>
+						<l>Mutatis animis, iam non furor esse nec ira</l>
+						<l n="700">Cernitur in lesis, acclamant omnia pacem</l>
+						<l>Agmina. Felici pergunt sic omine, iam non</l>
+						<l>Bello, sic Urbem properant invadere gratam.</l>
+						<l>Ante Patrem delata micant insignia, Regis</l>
+						<l>Eterni: Crux alma nitens veneratur ab omni</l>
+						<l n="705">Occurrente sibi populo, comitatur at ipsum</l>
+						<l>Nobilitas olim peregrinas exul in oras</l>
+						<l>Ad patrium revocata solum. Proh quanta cohortis</l>
+						<l>Leticia est reducis! Resonant hinc timpana, totus</l>
+						<l>Indeque concutitur ether clangore tubarum.</l>
+						<l n="710">Et non ora silent letas resoluta per odas.</l>
+						<l>Urbs Patris adventu, festino mota tumultu</l>
+						<l>Occurrit gaudens, miscetur sexus et etas:</l>
+						<l>Confluxere senex, iuvenis, mulierque, sed agmen</l>
+						<pb n="92"/>
+						<l>Laudibus insistit devotum voce canora.</l>
+						<l n="715">Religiosa cohors series distincta per almas</l>
+						<l>Obvia, concentu modulaminis ethera leti</l>
+						<l>Pulsat, et adveniens dilecta Presul in urbe</l>
+						<l>Suscipitur, visitque prius pia limina sancti</l>
+						<l>Ambrosii, fuditque preces demersus ad aram.</l>
+						<l n="720">Grata tulit, genibus flexis, donaria miles.</l>
+						<l>Mox Antistes adit speratam tempore longo</l>
+						<l>Sedem, sicque domos reliqui peciere paternas.</l>
+						<l>Presul at, ut veteri statuatur in ordine iuris</l>
+						<l>Publica res satagit, priscum revocetur ad usum.</l>
+						<l n="725">Gaudia, libertas ac simbola, ludus in unum</l>
+						<l>Conveniunt, posuere diem celebremque beate</l>
+						<l>Agnetis cives redeuntes lege peremni,</l>
+						<l>Qua micuit sperata diu victoria celo.</l>
+						<l>Lex antiqua redit, premuraque cessit ab Urbe.</l>
+						<l n="730">Eger ut effeto languet, mortemque minatur</l>
+						<l>Corpore, cum labium palet, cum vena gravescit,</l>
+						<l>Orrescit facies, occuli sternuntur, annelum</l>
+						<l>Urgetur pectus, requie repente soporis</l>
+						<l>Erigitur, morbi matura labe, vetustum</l>
+						<l n="735">Motu rapta suo repetit natura tenorem,</l>
+						<l>Sic Urbs, prolixi langoris pressa dolore,</l>
+						<pb n="93"/>
+						<l>Crimine purgato, dive relevata vigore</l>
+						<l>Virtutis, fortique sui medicamine Patris,</l>
+						<l>Tendit ad antiqui cursum sanata tenoris.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/>X.</head>
+					<lg>
+						<l n="740">Quam dubio, fortuna, gradu mortalia ludis!</l>
+						<l>Heu quam precipites humana rotatur in orbes</l>
+						<l>Conditio! Nunc summa petit, nunc mergitur imis.</l>
+						<l>Vana quidem pereunt, transitque volatilis etas,</l>
+						<l>Rebus et innitens robur ruit omne caducis.</l>
+						<l n="745">Sola manet virtus, puro rutilantior auro,</l>
+						<l>Ethereos superat radios phebeaque vincit</l>
+						<l>Lumina, tota nitet divis splendoribus orta</l>
+						<l>Huic que progenies, quod opus, quo pignore gaudet</l>
+						<l>Aut que divitie, seu quo dotatur honore?</l>
+						<pb n="94"/>
+						<l n="750">Est eius sublimis honos, quo cetera dempto</l>
+						<l>Virtutis titulo clari privantur et ipsi</l>
+						<l>Dii quoque, sola decus probitas sibi vendicat istud.</l>
+						<l>He que augentur opes exauste pectore manant,</l>
+						<l>He sole comitantur herum, mors cetera perdit.</l>
+						<l n="755">Huic celeste genus, quam mens enixa superna est.</l>
+						<l>Fonteque prosiliens supero, delabitur imis.</l>
+						<l>Mortales differre facit, quia clarior alter</l>
+						<l>Cui comes est reliquo, sine qua nam quisque ferarum</l>
+						<l>Condictionis erit: fiet distante decore</l>
+						<l n="760">Nonne pecus virtutis homo? qui celsior astris</l>
+						<l>Hac famulante choris conpar celestibus, altas</l>
+						<l>Aggreditur deitatis opes, consorsque superni</l>
+						<l>Hec animi, sublime suis lucratur alumnis</l>
+						<l>Nomen, ut almorum numerentur in agmina divum.</l>
+						<l n="765">Quam felix huius proles, quam plena decoris!</l>
+						<l>Temperies siquidem que blandimenta cohercet</l>
+						<l>Carnis, metitur rerum Prudentia fines</l>
+						<l>Altera, Iusticia est harum non infima consors.</l>
+						<l>Quid melius natura dedit, quid gratius? Ortum</l>
+						<l n="770">Siderea de sede trahit, velud hespera fulget</l>
+						<l>In terris, etenim divine legia ymago est.</l>
+						<l>Federis humani vinclum morumque magistra</l>
+						<pb n="95"/>
+						<l>Expediens rectumque docet, nichil utile querit</l>
+						<l>Ipsa sibi, solers comunem respicit usum.</l>
+						<l n="775">Nam cunctis prodesse cupit, nullique nocere.</l>
+						<l>Ipsa parens legum, vigil est cohibere nocentes.</l>
+						<l>Illius ad nutum pigrescit nulla sororum.</l>
+						<l>At postrema, malis nullis concussa, flagellis</l>
+						<l>Diris arridet, duro certamine gaudet.</l>
+						<l n="780">O genus electum, proles divina, superstes</l>
+						<l>Germen, quod numquam consumere tempora possunt.</l>
+					</lg>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

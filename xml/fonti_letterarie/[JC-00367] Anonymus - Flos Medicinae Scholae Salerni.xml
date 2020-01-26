@@ -1,0 +1,4643 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Flos Medicinae Scholae Salerni</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>S. De Renzi</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="14658" unit="words">Parole: 14658</measure>
+				<measure quantity="90508" unit="characters_without_spaces">Caratteri (spazi esclusi): 90508</measure>
+				<measure quantity="103316" unit="characters_witht_spaces">Caratteri (spazi inclusi): 103316</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2007-01-15">15/01/2007</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Medicina</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Numero parole: 15148; numero caratteri 90681.
+				Le parti I-III, pp. 445-483 sono stati trascritti da LDF; le parti IV-X e l’epilogo, pp. 483-516 sono stati trascritti da FDD (FDD - LDF)</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Collectio Salernitana</title>
+						<editor>S. De Renzi</editor>
+						<imprint>
+							<publisher>Tipografia del Filiatre-Sedezio</publisher>
+							<pubPlace>Napoli</pubPlace>
+							<date>1856</date>
+							<biblScope unit="page">445-516</biblScope>
+						</imprint>
+					</monogr>
+					<!-- ristampa anastatica con premessa di A. Garzya, Napoli, D'Auria Editore, 2001-->
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Medicina</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-un testo in versi, ma con struttura molto ricca (i testi in versi normalmente non sono strutturati): in alcuni passi va fino al quarto livello (PARS -&gt; CAPITULUM -&gt; Articulus -&gt; §)
+-ho messo tutti i CAP., Art. e § in &lt;div&gt; separati, e i &lt;lg&gt; sono solo allo livelo più basso. Spesso tali &lt;lg&gt; hanno solo uno o due versi.
+-ho numerato i versi nelle singole Partes
+-i titoli di singole sezioni, Partes/CAP./Art/§, erano tutti scritti sulla stessa riga, insieme con il primo verso. Questo mi sembra strano, perché poi ci sarebbero righe molto lunghe come:
+"&lt;lb/&gt;PARS NONA - NOSOLOGICA. - CAP. I. Febres - Art. 1. Species febrium - Trina riget, quotidiana friget, tetraceus horrit."
+In tali casi ho spostato il verso sotto il &lt;lg&gt; e ho dato i titoli singoli in &lt;head&gt; separati positi in &lt;div&gt; corrispondenti:
+&lt;div type="book"&gt;
+	&lt;head&gt;PARS NONA&lt;/head&gt;
+	&lt;div type="chapter"&gt;
+		&lt;head&gt;CAP. I. Febres&lt;/head&gt;
+		&lt;div type="section"&gt;
+			&lt;head&gt;Art. 1. Species febrium&lt;/head&gt;
+			&lt;lg&gt;
+				&lt;l&gt;Trina riget, quotidiana friget, tetraceus horrit.&lt;/l&gt;
+				...
+il problema è che se davvero era tutto su una riga (ma mi sembra strano), ora è diviso in due (&lt;lb/&gt; e &lt;lg&gt;&lt;l&gt;)
+-ci sono alcune particolarità nella numerazione: nella PARS I, gli Articoli nei Capitoli I-IV sono numerati con i numeri romani, però dal Capitolo VII in poi sono sempre numerati con numeri arabi...
+Così, anche i § del PARS I/Cap II/Art. IV sono numerati con numeri romani, altrove con numeri arabi...
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="445"/>
+		<div>
+			<head><lb/>FLOS MEDICINAE / SCHOLAE SALERNI / PRAECEPTA GENERALIA</head>
+			<lg>
+				<l>Anglorum Regi scribit Schola tota Salerni,</l>
+				<l>Si vis incolumem, si vis te vivere sanum:</l>
+				<l>Curas tolle graves, irasci crede profanum,</l>
+				<l>Parce mero, coenato parum: non sit tibi vanum</l>
+				<l n="5">Surgere post epulas; somnum fuge meridianum,</l>
+				<l>Ne mictum retine, ne comprime fortiter anum.</l>
+				<l>Haec bene si serves, tu longo tempore vives.</l>
+				<l>Triste cor, ira frequens, bene si non sit, labor ingens,</l>
+				<l>Vitam consumunt haec tria fine brevi:</l>
+				<l n="10">Haec namque ad mortis cogunt te currere metas,</l>
+				<l>Spiritus exuItans facit ut tua floreat aetas,</l>
+				<l>Vitam declines tibi sint si prandia lauta:</l>
+				<l>Qui fluxum pateris, haec ni caveas, morieris:</l>
+				<l>Concubitum, nimium potum, cum frigore motum.</l>
+				<l n="15">Esca, labor, potus, somnus, mediocria cuncta:</l>
+				<l>Peccat si quis in his patitur natura molestis,</l>
+				<l>Surgere mane cito: spaciatum pergere sero,</l>
+				<l>Haec hominem faciunt sanum, hilaremque relinquunt,</l>
+				<l>Si tibi deficiant Medici, medici tibi fiant</l>
+				<l n="20">Haec tria: mens laeta, requies, moderata diaeta.</l>
+			</lg>
+			<div type="book">
+				<head><lb/>PARS PRIMA - HYGIENE.</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Exhortio sanitatis.</hi></head>
+					<lg>
+						<l>Testatur sapiens quod Deus Omnipotens</l>
+						<l>Fundavit physicam, prudens hic non figurat illam,</l>
+						<l>Cum sit hic natus, item accipe: praeperatus</l>
+						<pb n="446"/>
+						<l>Ad finem properat qui modo natus erat;</l>
+						<l n="5">Nunc oritur, moritur statim, sub ima sepelitur,</l>
+						<l>Sub pede calcatur, vermibus esca datur.</l>
+						<l>Custodit vitam qui custodit sanitatem,</l>
+						<l>Sed prior est sanitas quam sit curatio morbi.</l>
+						<l>Ars primitus surgat in causam, quum magis vigeatis.</l>
+						<l n="10">Qui vult longinquum vitam perducere in aevum,</l>
+						<l>Mature fiat moribus ante senex;</l>
+						<l>Senex mature, si velis esse dici.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Phisici influxus</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. I. Venti.</hi></head>
+						<lg>
+							<l>Sunt subsolanus, vulturnus, et eurus, eoi,</l>
+							<l>Circinus occasum, zephirusque, favonius afflent</l>
+							<l n="15">Atque die medio nothus haeret, africus, auster,</l>
+							<l>Et veniunt aquilo, boreas et chorus ab arcto.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. II. De aeris usu et qualitate.</hi></head>
+						<lg>
+							<l>Aer sit purus, sit lucidus, et bene clarus</l>
+							<l>Infectus per se, nec olens foetore cloacae,</l>
+							<l>Alteriusque rei corpus nimis inficientis</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. III. De quatuor anni tempestatibus.</hi></head>
+						<lg>
+							<l n="20">Temporis aestivi ieiunia corpora siccant;</l>
+							<l>Quolibet in mense confert vomitus, quoque purgat</l>
+							<l>Humores nocuos, stomachi lavat ambitus omnes.</l>
+							<l>Ver, autumnus, hiems, aestas dominantur in anno.</l>
+							<l>Tempore vernali colidus sit aer madidusque,</l>
+							<l n="25">Et nullurn tempus melius sit phlebotomiae;</l>
+							<l>Usus tunc homini veneris confert moderatus,</l>
+							<l>Corporis et motus, ventrisque solutio, sudor,</l>
+							<l>Balnea; purgentur tunc corpora per medicinas,</l>
+							<l>Aestas more calet, siccat, noscatur in illa</l>
+							<l n="30">Tunc quoque praecipue choleram rubeam dominari</l>
+							<l>Humida, frigida fercula dentur; sit venus extra;</l>
+							<l>Balnea non prosunt: sint rarae phlebotomiae:</l>
+							<l>Utilis est requies, sit cum moderamine potus.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. IV. De Mensibus</hi></head>
+						<div>
+							<head><hi rend="italic">§ I. Ianuarius.</hi></head>
+							<lg>
+								<l>In <hi rend="italic">Iano</hi> clarus calidisque cibis potiaris,</l>
+								<pb n="447"/>
+								<l n="35">Cedit enim medo tunc potatus bene credo,</l>
+								<l>Ni tibi languores sint, aptos sume liquores,</l>
+								<l>Nec nimium cogita, communia fercula vita</l>
+								<l>Balnea sunt grata, sed potio sit moderata:</l>
+								<l>Escas per Ianum calidas est sumere vanum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ II. Februarius.</hi></head>
+							<lg>
+								<l n="40">Nascitur occulta febris <hi rend="italic">Februo</hi>tibi multa,</l>
+								<l>Potibus et escis si caute vivere velis,</l>
+								<l>Tunc cave frigora, de pollice sume cruorem.</l>
+								<l>Si comedis betam, nec non anserem vel anetum,</l>
+								<l>Potio sumatur, in pollice tum minuatur</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ III. Martius</hi></head>
+							<lg>
+								<l n="45">. - <hi rend="italic">Martius</hi>humores pandit, generatque dolores.</l>
+								<l>Venas non pandes, radices sedulo mandes.</l>
+								<l>Sume cibum modice coctum si placet iure</l>
+								<l>Balnea, sint assa nec dulcia sint tibi cassa,</l>
+								<l>Vena nec ab dena nec potio sit tribuenda.</l>
+								<l n="50">Hic assaturi cibi sint et balnea curae.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ IV. Aprilis.</hi></head>
+							<lg>
+								<l>Se probat in vere Aprilis vires in habere;</l>
+								<l>Cuncta renascuntur, pori terrae aperiuntur,</l>
+								<l>In quo calefit sanguis recensque crescit,</l>
+								<l>Ergo solvatur venter cruorque minuatur.</l>
+								<l n="55">Venter solvendus, cruor pedis est minuendus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ V. Maius</hi></head>
+							<lg>
+								<l>. - <hi rend="italic">Maio</hi> secure laxare sit tibi curae;</l>
+								<l>Scindatur vena sic balnea dantur amaena:</l>
+								<l>Cum validis rebus sint balnea, vel cum speciebus.</l>
+								<l>Absynthii lotio edes cocta lacte caprino.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ VI. Iunius.</hi></head>
+							<lg>
+								<l n="60">In <hi rend="italic">Iunio</hi> gentes perturbat medo bibentes,</l>
+								<l>Atque novellarum fuge potum cerevisiarum:</l>
+								<l>Ne noceat cholera valet ita refectio vere;</l>
+								<l>Lactucae frondes ede, jejunus bibe fontes.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ VII. Iulius</hi></head>
+							<lg>
+								<l>Qui vult solamen<hi rend="italic">Iulio</hi> praebet hoc medicamen.</l>
+								<l n="65">Venam non scindat, nec ventrem potio laedat,</l>
+								<l>Somnia compescat et balnea cuncta pavescat,</l>
+								<l>Ac veneris vota, sit salvia anethum nota.</l>
+							</lg>
+						</div>
+						<pb n="448"/>
+						<div>
+							<head><lb/><hi rend="italic">§ VIII. Augustus</hi></head>
+							<lg>
+								<l>. - Quisquis sub <hi rend="italic">Augusto</hi> vivat moderamine iusto,</l>
+								<l>Raro dormitet, frigus quoque coitum vitet,</l>
+								<l n="70">Balnea non curet, nec multa comestio ducet,</l>
+								<l>Nemo laxari debet, nec phlebotomari;</l>
+								<l>Potio vitetur ac lotio nulla paretur.</l>
+								<l>Hic calidos vitare cibos hoc mense nocivos.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. September. -</hi></head>
+							<lg>
+								<l>Fructus maturi <hi rend="italic">Septembri</hi>sunt valituri,</l>
+								<l n="75">Et pira cum vino, pomis cum lacte caprino,</l>
+								<l>Atque diuretica tibi potio fertur amoena.</l>
+								<l>Tunc venam pandes, species cum semine mandes.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10. October.</hi></head>
+							<lg>
+								<l><hi rend="italic">October</hi>vina praestet cibos atque farina.</l>
+								<l>Nec non arietina caro valet et volucrina,</l>
+								<l n="80">Quamvis sint sana, non multa comaestio fiat,</l>
+								<l>Quatenus vis comede sed non proecordia laede.</l>
+								<l>Lac ede caprinum, cariophylus lacque ovinum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 11. November.</hi></head>
+							<lg>
+								<l>Nunc datur scire tibi suntque cernenda <hi rend="italic"/></l>
+								<l><hi rend="italic">novembri,</hi>Quaeque nociva vita tua sit pretiosa diaeta.</l>
+								<l n="85">Ipsa Novembre dat regula; medoque bibatur.</l>
+								<l>Spica recipiatur, mel, zinziber comedatur.</l>
+								<l>Balnea cum venere tunc ullum constat habere,</l>
+								<l>His vir languescit, mulieris hydrops quoque crescit.</l>
+								<l>Potio sit vana atque minucio sana.</l>
+								<l n="90">Hic utaris homo speciebus cum cynamomo</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 12. December.</hi></head>
+							<lg>
+								<l>Sanae sunt membris calidae res mense <hi rend="italic">Decembris;</hi></l>
+								<l>Caulis vitetur, capitalis vena secetur;</l>
+								<l>Lotio sit rara, sed phas et potio cara.</l>
+								<l>Frigore saepe tegas caput ut sanus bis degas:</l>
+								<l n="95">Ut minus aegrotes cinamomia reposita potes.</l>
+							</lg>
+						</div>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Confortatio cerebri, visus, aliorumque membrorum.</hi></head>
+					<lg>
+						<l>Lumina mane manus surgens frigida lavet aqua,</l>
+						<l>Hac, illac modicum pergat, modicum sua membra</l>
+						<l>Extendat, crines pectat, dentes fricet, ista</l>
+						<l>Confortant cerebrum, confortant caetera membra.</l>
+						<l n="100">Lote cale, sta pranse, vel i, frigesce minute.</l>
+						<l>Fons, speculus, gramen, haec dant oculos relevamen,</l>
+						<pb n="449"/>
+						<l>Mane igitur monts, sub sertum inquirito fontes</l>
+						<l>Hi praesertim oculos recreant, visumque colorant:</l>
+						<l>Coeruleus, viridisque et ianthinus, addito fuscum.</l>
+						<l n="105">Si fore vis sanus ablue saepe manus,</l>
+						<l>Lotio post mensam tibi confert munere bina:</l>
+						<l>Mundificat palmas et lumina reddit acuta.</l>
+						<l>Est oculis sanum saepe lavare manum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Somnus.</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. I. Tempus et modus dormiendi.</hi></head>
+						<lg>
+							<l>Sex horis dormire sat est iuvenique senique</l>
+							<l n="110">Septem vix pigro, nulli concedimus octo.</l>
+							<l>Ad minus horarum septem fac tibi sit somnus.</l>
+							<l>Si licet ad nonam, numquam ad decimam licet horam.</l>
+							<l>Si potes, ad noctis normam rege tempora somni;</l>
+							<l>Si natura dolet, lucis primum adde trientum:</l>
+							<l n="115">Praestat enim dormire die, quam membra quiete</l>
+							<l>Frustrare; et lucis pars prima aptissima somno est,</l>
+							<l>Utilis est somnus moderatus cuique animali,</l>
+							<l>At nimium diuturna quies mala plurima profert.</l>
+							<l>Pessima decumbendi forma est dormire supinum,</l>
+							<l n="120">Utilis est tussi pronus, sed lumina laedit;</l>
+							<l>In latus alterutrum praestat se praebere somno</l>
+							<l>Intentum, et, si nihil prohibet, latus elige dextrum.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. II. Somnus meridianus.</hi></head>
+						<lg>
+							<l>Sit brevis aut nullus tibi somnus meridianus.</l>
+							<l>Febris, pigrities, capitis dolor atque catharrus,</l>
+							<l n="125">Quatuor haec somno veniunt mala meridiano.</l>
+							<l>Mensibus in quibus R post prandia fit somnus aeger,</l>
+							<l>In quibus R non est somnus post prandia prodest.</l>
+							<l>Si quis forte cupit somno indulgere diurno,</l>
+							<l>Si consuevit ita, minus illi culpa nocebit;</l>
+							<l n="130">Dummodo non longus somnus, nec proximus escae,</l>
+							<l>Sed brevis, capite recto sumetur, et ipsi</l>
+							<l>Qui dormit, liceat sonitu finire modesto.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V. Egestio, ventositas et mictura.</hi></head>
+					<lg>
+						<l>In die mictura vicibus sex fit naturalis.</l>
+						<l>Tempore bis tali, vel ter, fit egestio pura.</l>
+						<pb n="450"/>
+						<l n="135">Antiquo more mingens pedit absque pudore.</l>
+						<l>Mingere cum bombis res est saluberrima lombis;</l>
+						<l>Nam ventrem stringes, retines bombum veteratum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. In gerendum balneum aliaque facienda.</hi></head>
+					<lg>
+						<l>Si vitare velis morbos, et vivere sanus,</l>
+						<l>Haec praecepta sequi debes, aliosque docere.</l>
+						<l n="140">Lotus, ieiunus, post somnum non bibas statim,</l>
+						<l>Et detecto capite sub frigore non gradieris</l>
+						<l>Nec sub sole, tibi sunt quia haec inimica.</l>
+						<l>Ieiunia, dolor capitis, oculi, febres, ulcera, plagae,</l>
+						<l>Repletus venter, densa aestas balnea vetent,</l>
+						<l n="145">Nec principiis obsunt, prosuntque minuta.</l>
+						<l>Cum male te sentis confert, si balnea vites.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VII. Cibatio.</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Dispositio ante cibi sumptionem.</hi></head>
+						<lg>
+							<l>Tu numquam comedas, stomachum nisi noveris esse</l>
+							<l>Purgatum, vacuumque cibo quam sumpseris ante,</l>
+							<l>Ex desiderio poteris cognoscere certo.</l>
+							<l n="150">Haec tibi sint signa: subtilis in ore salivae.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Generales regulae cibationis.</hi></head>
+						<lg>
+							<l>Non consuevisti coenam, coenare nocebi,</l>
+							<l>Res non consuetas, potus, cibos peregrinos;</l>
+							<l>Pisces et fructus, fuge crebras ebrietates.</l>
+							<l>Omnem post esum bibere, ne te fore laesum,</l>
+							<l n="155">Qui possit vere debet haec iussa tenere.</l>
+							<l>Non bibe ne sitias, et non comedas saturatus;</l>
+							<l>Est sitis atque fames moderata bonum medicamen,</l>
+							<l>Si super excedant, important saepe gravamen.</l>
+							<l>Cures quando bibes sanus post talia vives.</l>
+							<l n="160">Quandocumque potes, parce post balnea potes.</l>
+							<l>Quale, quid, et quando, quantum, quoties, ubi recta</l>
+							<l>Debent haec medico in victus ratione notari,</l>
+							<l>Ne male conveniens ingrediatur iter.</l>
+							<l>Coena brevis, vel coena levis fit raro molesta;</l>
+							<l n="165">Magna nocet medicina docet, res est manifesta.</l>
+							<pb n="451"/>
+							<l>O puer ante dabis tibi aquam post prandia dabis.</l>
+							<l>Omnibus assuetam iubeo servare diaetam,</l>
+							<l>Approbo sic esse, ni sit mutare necesse,</l>
+							<l>Ippocrates testis quoniam sequitur mala pestis;</l>
+							<l n="170">Fortior est meta medicinae certa diaeta,</l>
+							<l>Quam si non cures, fatue regis et male cures.</l>
+							<l>Pauperibus sanae sint escae quotidianae.</l>
+							<l>Coena completa completur tota diaeta,</l>
+							<l>Ex magna coena stomacho fit maxima poena;</l>
+							<l n="175">Ut sit nocte levis, sit tibi coena brevis;</l>
+							<l>Si fore vis sanus sit tibi parca manus;</l>
+							<l>Pone gulae metas ut sit tibi longior aetas;</l>
+							<l>Ut Medicus fatur parcus de morte levatur.</l>
+							<l>Post mensam bis aquam sumas, si forte lavaris,</l>
+							<l n="180">Ren tibi ulceras si tibi fundum non patiaris.</l>
+							<l>Os extra madefac, dum pluribus associatus,</l>
+							<l>Si solus fueris poteris interiora lavare.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Cibationes per tempora anni.</hi></head>
+						<lg>
+							<l>Temporibus veris modice prandere iuberis,</l>
+							<l>Sed calor aestatis dapibus nocet immoderatis;</l>
+							<l n="185">Autumni fructus caveas ne sint tibi luctus;</l>
+							<l>De mensa sume quantum vis tempore brunae.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 4. Ordo Coenae.</hi></head>
+						<lg>
+							<l>Proeludant offae, praecludant omnia Coffae:</l>
+							<l>Dulciter invadet, sed duriter ilia radet.</l>
+							<l>Spiritus ex vino quem fundit dextra propino;</l>
+							<l n="190">Sit tibi postremus panis in ore cibus;</l>
+							<l>Non iuvat a pastu sumpto flagrantior ignis;</l>
+							<l>Post coenam stabis aut passus mille meabis.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 5. De potu.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Potus ad tuendam valitudinem conferens.</hi></head>
+							<lg>
+								<l>Ut digestiva tibi pocula sint bona vina;</l>
+								<l>Inter prandendum sit saepe parumque bibendum;</l>
+								<l n="195">Ut minus aegrotes non inter fercula potes.</l>
+								<l>Ut vites poenam de potibus incipe coenam;</l>
+								<l>Singula post ova, pocula sume nova.</l>
+								<l>Saepe bibendo parum pondus laxas epularum,</l>
+								<l>Et liquor ipse tibi proderit, atque cibi.</l>
+								<l n="200">Vina bibant homines animantia caetera fontes;</l>
+								<pb n="452"/>
+								<l>Absit ab humano pectore potus aquae.</l>
+								<l>Omnis homo, primum perposcit nobile vinum,</l>
+								<l>Inde quod deterius pagina sacra docet.</l>
+								<l>Sunt nutritiva plus dulcia candida vina.</l>
+								<l n="205">Si vinum rubeum nimium quandoque bibatur,</l>
+								<l>Venter stipatur, vox limpida turbificatur.</l>
+								<l>Vinum lymphatum generat lepram cito potum,</l>
+								<l>Convenit ergo illud non sumere ni bene mixtum.</l>
+								<l>Si vis perfecte, si vis te vivere recte</l>
+								<l n="210">Disce parum bibere, sis procul a venere.</l>
+								<l>Si tibi serotina noceat potatio vini,</l>
+								<l>Hora matutina rebibas et erit medicina.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2. Melius vinum.</hi></head>
+							<lg>
+								<l>Gignit et humores melius vinum meliores;</l>
+								<l>Si fuerit nigrum corpus reddet tibi pigrum.</l>
+								<l n="215">Vinum sit clarum, vetus, subtile, maturum,</l>
+								<l>At bene lymphatum, saliens, moderamine sumptum.</l>
+								<l>Dum saltant atavi patet excellentia vini</l>
+								<l>Vina probantur odore, sapore, nitore, colore</l>
+								<l>Si bona vino cupis quinque F plaudentur in illis:</l>
+								<l n="220">Fortia, formosa, fragrantia, frigida fusca</l>
+								<l>Vinum spumosum nisi defluat est vitiosum.</l>
+								<l>Spuma boni vini in medio est in margine pravi.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Vinum subtilissimum</hi></head>
+							<lg>
+								<l>Numquam cardiaco cyathum missurus amico.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4. Bona potio.</hi></head>
+							<lg>
+								<l>Salvia cum ruta faciunt tibi pocula tuta;</l>
+								<l n="225">Adde rosae florem minuit potenter amorem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Potus aquae.</hi></head>
+							<lg>
+								<l>Potus aquae sumptus fit edenti valde nocivus</l>
+								<l>Hinc friget stomachus, crudus et inde cibus.</l>
+								<l>Si sitis est bibe quod satis est, ne te sitis urat,</l>
+								<l>Quod satis est, non quod nimis est, sapientia curat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6. Mustum</hi></head>
+							<lg>
+								<l n="230">Provocat urinam mustum, cito solvit et inflat;</l>
+								<l>Hepatis enfraxin splenis generat, lapidemque.</l>
+							</lg>
+						</div>
+						<pb n="453"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Cerevisia</hi></head>
+							<lg>
+								<l>Non sit acetosa cerevisia, sed bene clara,</l>
+								<l>De validis cocta granis satis ac veterata,</l>
+								<l>De qua potetur, stomachus non inde gravetur.</l>
+								<l n="235">Grossos humores nutrit cerevisia, virces,</l>
+								<l>Praestat, et augmentat carnem, generatque cruorem,</l>
+								<l>Provocat urinam, ventrem quoque mollit et inflat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8. Coffaeum</hi></head>
+							<lg>
+								<l>. - Impedit atque facit somnos, capitisque dolores</l>
+								<l>Tollere Coffaeum novit, stomachiquo vapores;</l>
+								<l n="240">Urinare facit; crebro muliebria movit;</l>
+								<l>Hoc cape selectum validum, mediocriter ustum</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Acetum.</hi></head>
+							<lg>
+								<l>-Infrigidat modicum, sed plus dessiccat acetum;</l>
+								<l>Emaciatque, melancholiam dat, sperma minorat,</l>
+								<l>Siccos infestet, nervos et pinguia siccat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10 Liquores e pomo et e piro.</hi></head>
+							<lg>
+								<l n="245">Iam sua neustriaci iactent pira, pomaque campi</l>
+								<l>De quibus elicies mustum, calidosque liquores,</l>
+								<l>Quod si sorbebis pinguescis atque valebis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 11. Medo.</hi></head>
+							<lg>
+								<l>O dulcis Medo, tibi pro dulcedine medo,</l>
+								<l>Pecus mundificat, ventrem tibi medo relaxat.</l>
+							</lg>
+						</div>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 6. Ciborum natura ac vires</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Cibi multum nutritivi.</hi></head>
+							<lg>
+								<l n="250">Ova recentia, vina rubentia, pinguia iura,</l>
+								<l>Cum simila pura, naturae sunt valitura.</l>
+								<l>Nutrit ac impinguat triticum, lac, caseus infans,</l>
+								<l>Testiculi, porcina caro, cerebella, medullae,</l>
+								<l>Dulcia vina, cibus gustu iucundior, ova,</l>
+								<l n="255">Sorbilia, maturae ficus, uvaeque recentes,</l>
+								<l>Pane novo, veteri vino, si possit haberi,</l>
+								<l>Carne frui iuvene, consulo, pisce sene-.</l>
+								<l>Caseus orbatus, panisque recens oculatus</l>
+								<l>Et pulli stulti, piscesque senes et adulti,</l>
+								<l n="260">Et vinum saliens, hoc michi conveniens.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2. Cibi nocivi</hi></head>
+							<lg>
+								<l>Persica, poma, pira, lac, caseus et caro salsa</l>
+								<l>Et caro cervina, leporina, bovina, caprina,</l>
+								<l>Haec melencholica sunt infirmis inimica</l>
+								<l>Est anserina caro salsa sicut est anatina.</l>
+								<l n="265">Frixa nocent, elixa favent, assata coercent;</l>
+								<pb n="454"/>
+								<l>Acria purgant, cruda sed inflant, salsaque siccant.</l>
+								<l>Non comedas crustam choleram quia gignit adustam.</l>
+								<l>Urunt res salsae visum, spermamque minorant,</l>
+								<l>Et generant scabiem, pruritum sive rigorem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Cundimenta.</hi></head>
+							<lg>
+								<l n="270">Vas condimenti praeponi debet edenti,</l>
+								<l>Nam sapit esca male, quae datur absque sale.</l>
+								<l>Sal primo poni debet, primoque reponi,</l>
+								<l>Non bene mensa tibi ponitur absque sale.</l>
+								<l>Sal virus refugat, et non sapidumque saporat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4 Bona salsa.</hi></head>
+							<lg>
+								<l n="275">Salvia, serpillum, piper, allia, sal, petrosillum:</l>
+								<l>Si bene condantur et aceto confiteantur</l>
+								<l>Ex his fit salsa, si non sit regula falsa.</l>
+							</lg>
+						</div>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 7. Sapores.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Calidi</hi></head>
+							<lg>
+								<l>Hi fervore vigent tres: salus, amarus, acutus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2. Frigidi et temperati.</hi></head>
+							<lg>
+								<l>Alget acetostis, sic stipans ponticus, atque</l>
+								<l n="280">Unctus, insipidus, dulcis dant temperamentum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Dulcis.</hi></head>
+							<lg>
+								<l>Humectat, lenit, nutrit bene, mundificatque.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4 Acetosus.</hi></head>
+							<lg>
+								<l>Dicunt infestat nervos, subtilia siccat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Ponticus</hi></head>
+							<lg>
+								<l>. - Comprimit, ingrossat, corrugat, thus cito laxat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6. Salsus.</hi></head>
+							<lg>
+								<l>Incidit grossa, penetrat, sed proximus exit,</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Unctuosus.</hi></head>
+							<lg>
+								<l n="285">Lubricat, evellit, repletque, supernatat ore.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8 Amarus.</hi></head>
+							<lg>
+								<l>Valde disopilat, confortat pectora, stringit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Acutus.</hi></head>
+							<lg>
+								<l>Subtiliat, mordet, calet, urit, grossa resolvit.</l>
+							</lg>
+						</div>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 8. Cibi varii.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Panis.</hi></head>
+							<lg>
+								<l>Panis salsatus, fermentatus, bene coctus,</l>
+								<l>Purus sit sanus, qui non ita sit tibi vanus</l>
+								<l n="290">Panis nec calidus, nec sit nimis inveteratus,</l>
+								<l>Non bis decoctus, non in sartagine frictus,</l>
+								<l>Sed fermentatusque, oculatus ac bene coctus,</l>
+								<pb n="455"/>
+								<l>«Et salsus modice, at frugibus validis electus.</l>
+								<l>Est omnis vitiosa repletio pessima panis.</l>
+								<l n="295">Plus panis comedas cum pisce, cum fructibus, herbis,</l>
+								<l>At cum pane minus, duris sed adhuc minus ovis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2 Vippa et Offa</hi></head>
+							<lg>
+								<l>. - Bis duo vippa facit: dentes mundat, dat acutum</l>
+								<l>Visum, quod minus est implet, minuit quod abundat;</l>
+								<l>Vippa famem frenat, oculos dentesque serenat,</l>
+								<l n="300">Et stomachum mundat, sic anhelitum quoque fugat.</l>
+								<l>Ingeniumque acuit; replet, minuit simul offa.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Furfur et Simila.</hi></head>
+							<lg>
+								<l>Et cortex parce sint furfura, mixta farinae.</l>
+								<l>Grossior est simila, subtilior ipsa farina.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4. Carnes variae.</hi></head>
+							<lg>
+								<l>Est caro porcina sine vino peior ovina:</l>
+								<l n="305">Si tribuis vina, tunc est cibus et medicina,</l>
+								<l>Carnes porcinae cum coepis sunt medicinae</l>
+								<l>Sunt gallinaciae, perdicinae et phasianae</l>
+								<l>Ast hedulinae carnes tibi sunt medicinae.</l>
+								<l>Sunt nutritivae multum carnes vitulinae.</l>
+								<l n="310">In medio aestatis caprae caro suavior extat;</l>
+								<l>Autumno vulpes, passer. ficedula, turdus;</l>
+								<l>Aestate anguilla et cervus ranaeque cavendae</l>
+								<l>Pingues sunt bruma gallina, aper, anser, alauda.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Animalium viscera.</hi></head>
+							<lg>
+								<l>Egeritur tarde cor, digeritur quoque dure,</l>
+								<l n="315">Similiter stomachus, melius fit in extremitates;</l>
+								<l>Reddit lingua bonum nutrimentum medicinae;</l>
+								<l>Digeritur facile pulmo, cito labitur ipse.</l>
+								<l>Est melius cerebrum gallinarum ac reliquorum</l>
+								<l>Sed bene turturis, aliud quocunque vitare.</l>
+								<l n="320">Cessat laus epatis nisi gallinae vel anatis</l>
+								<l>Dissuadentur edi renes nisi solius haedi;</l>
+								<l>Splen melancholiam gignit digestivam tibi tollit;</l>
+								<l>Splen caprae spleneticis estmansus saepe salubris;</l>
+								<l>Corda cervorum removebit sella dolorum;</l>
+								<l n="325">Corda suillarum remotio tristitiarum;</l>
+								<l>Ilia porcorum bona sunt, mala sunt reliquorum</l>
+								<l>Iam nisi natorum defuncta matre suorum</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6 Volatilia sana.</hi></head>
+							<lg>
+								<l>Sunt bona gallina, capo, turtur, sturna, columba</l>
+								<pb n="456"/>
+								<l>Quiscula, vel merula, phasianus, ortygometra</l>
+								<l n="330">Et perdix, frigellus, orex, tremulus, amarellus</l>
+								<l>Aucha petit bacchum mortua, viva lacum.</l>
+								<l>Aucha sitit coum mensis, campis acheloum.</l>
+								<l>O fluvialis anas, quanta dulcedine manas!</l>
+								<l>Si mihi cavissem, gulae si fraena dedissem,</l>
+								<l n="335">Febres quartanas non revocasset anas.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Pisces</hi></head>
+							<lg>
+								<l>. - Si pisces molles sunt, magno corpore tolles,</l>
+								<l>Si pisces duri, parvi sunt plus valituri:</l>
+								<l>In venerem impellunt pisces, atque omnia Salsa</l>
+								<l>Hinc est quod pelago dicitur orta Venus,</l>
+								<l n="340">Lucius et perca, saxaulis et albica, tinca</l>
+								<l>Gornus, plagitia, cum carpa, galbio, truta.</l>
+								<l>Grata dabunt pisces hi prae reliquis alimenta.</l>
+								<l>Vocibus anguillae nimis obsunt si comedantur</l>
+								<l>Qui physicam non ignorant hoc testificantur.</l>
+								<l n="345">Caseus, anguilla mortis cibus ille vel illa</l>
+								<l>Vel cui, vel quibus est ille, vel illa cibus</l>
+								<l>Ni tu saepe bibas et rebibendo bibas.</l>
+								<l>Percutitur lepra qui manducat insimul ista.</l>
+								<l>Non nocet anguilla vino si mergitur illa,</l>
+								<l n="350">Carnes propositae piscibus tibi sunt evitandae;</l>
+								<l>Si comedas pisces, cestosae sintque squamosae,</l>
+								<l>Tractae super aquam mundam, claramque, petrosam,</l>
+								<l>Et sint bulliti vino cum petroselino.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8. Ova.</hi></head>
+							<lg>
+								<l>Si sumas ovum, molle sit atque novum.</l>
+								<l n="355">Filia consulti iubet hoc pro lege teneri,</l>
+								<l>Quod bona sunt ova candida, longa, nova,</l>
+								<l>Haec tria sunt norma, vernalia sunt meliora.</l>
+								<l>Post ovum bibam medico clam surripio poenam.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Lac.</hi></head>
+							<lg>
+								<l>Lac ethicis sanum: caprinum post chamaelinum;</l>
+								<l n="360">Postque iumentinum chamaelinum et post asininum;</l>
+								<l>Ac nutritivum plus omnibus est asininum.</l>
+								<l>Plus nutritivum vaccinum sic et ovinum.</l>
+								<l>Si febriat, caput et doleat, non est bene sanum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10. Butyrum.</hi></head>
+							<lg>
+								<l>Lenit et humectat, solvit sine febre butyrum.</l>
+							</lg>
+						</div>
+						<pb n="457"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 11. Serum.</hi></head>
+							<lg>
+								<l n="365">Incidit atque lavat, penetrat, mundat quoque serum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 12. Caseus.</hi></head>
+							<lg>
+								<l>Caseus est frigidus, stipans, grossus, quoque durus;</l>
+								<l>Caseus ille bonus quem dat avara manus.</l>
+								<l>Caseus et panis, bonus est cibus hic bene sanis;</l>
+								<l>Si non sunt sani, non iungito casea pani.</l>
+								<l n="370">Caseus est nequam quia concoquit omnia sequam.</l>
+								<l>Ignari Medici me dicunt esse nocivum;</l>
+								<l>Sed tamen ignorant cur nocumenta feram;</l>
+								<l>Expertis reor esse ratum, nam commoditati</l>
+								<l>Languenti stomacho caseus addit opem.</l>
+								<l n="375">Caseus ante cibum confert; si defluat alvus;</l>
+								<l>Si post sumatur, terminat ille dapes:</l>
+								<l>Qui physicam non ignorant haec testificantur.</l>
+								<l>Ad fundum stomachi dum sumpta cibaria condit</l>
+								<l>Vim digestivam non minus ille iuvat.</l>
+								<l n="380">Si stomachus languet, vel si minus appetit, iste</l>
+								<l>Fit gratus stomacho, conciliansque cibum.</l>
+								<l>Si sit crustosus, per lucem non oculatus</l>
+								<l>Eiusdem sic onus dicitur esse bonus</l>
+								<l>Non argus largus, non Matusalem Madalena</l>
+								<l n="385">Non Petrus, Lazarus caseus iste bonus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 13. De leguminibus.</hi></head>
+							<lg>
+								<l>Pisum laudandum decrevimus ac reprobandum:</l>
+								<l>Est inflativum cum pellibus atque nocivum,</l>
+								<l>Pellibus allatis sunt bona pisa satis.</l>
+								<l>Manducare fabam caveas, parit ille podagram.</l>
+								<l n="390">Ius olerum, cicerumque bonum, substantia prava</l>
+							</lg>
+						</div>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 9. De herbis eduliis.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Olera veris</hi></head>
+							<lg>
+								<l>. - Omne virens vere tibi dicitur esse salubre;</l>
+								<l>Maxime betonica, lactuca, spinachia, radix,</l>
+								<l>Lupulus et caules petrosillo iunge lapasses.</l>
+								<l><hi rend="italic">. Olera aestatis</hi></l>
+								<l n="395">Blitus cum bleta, violaria crivolacanna,</l>
+								<pb n="458"/>
+								<l>Atriplices, malvae, lactucae, portuque laccae.</l>
+								<l>Sunt apium, rapa, sic basia, pastique naca</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Olera hibernia.</hi></head>
+							<lg>
+								<l>Nastur sub bruma, cererolia petroselina;</l>
+								<l>Neptam, cretanos, cum caepis addito porros.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4. Olera autumni.</hi></head>
+							<lg>
+								<l n="400">O borrago bona! tam dulcia sunt tua dona!</l>
+								<l>Dicít borrago: gaudia semper ago.</l>
+								<l>Cardiacos aufert borrago gaudia confert.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Rapa.</hi></head>
+							<lg>
+								<l>Rapa iuvat stomachum, novit producere ventum,</l>
+								<l>Provocat urinam, faciens in dente ruinam.</l>
+								<l n="405">Si male cocta datur hinc enfraxis generatur</l>
+								<l>Si male plena datur tibi torsio sic generatur.</l>
+								<l>Radix rapa bona est comedenti dat tria dona:</l>
+								<l>Visum clarificat, ventrem mollit, bene bombit.</l>
+								<l>Ventum saepe rapis, si tu vis vivere rapis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6. Caulis</hi></head>
+							<lg>
+								<l n="410">. - Ius caulis solvit, cuius substantia stringit,</l>
+								<l>Utraque quando datur, venter laxare paratur.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Beta vel Cicla.</hi></head>
+							<lg>
+								<l>Cicla parum nutrit, ventrem constipat, et eius</l>
+								<l>Coctio si detur, ventrem laare videtur.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8. Lactuca.</hi></head>
+							<lg>
+								<l>Lac lactuca facit, scotosim, spermamque minorat;</l>
+								<l n="415">Semine pollutos iuvat; sacro convenit igni.</l>
+								<l>Lactuca cibus frigidat hominum bene corpus</l>
+								<l>Et ventrem laxat, ut sic somno requiescat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Pastinaca.</hi></head>
+							<lg>
+								<l> - Pastinaca parum nutrit, quoniam sub acuta,</l>
+								<l>Confortat coitum, nec est ad menstra muta.</l>
+								<l n="420">Quod pastum tribuat, est pastinaca vocata,</l>
+								<l>Namque cibum nullae radices dant meliorem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10. Spinachia.</hi></head>
+							<lg>
+								<l>De cholera laeso spinachia convenit ori,</l>
+								<l>Et stomachis calidis huius valet esus amari.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 11 Apium</hi></head>
+							<lg>
+								<l>Humores apium subito totius adiuvat</l>
+								<pb n="459"/>
+								<l n="425">Corporis et capitis, vulvae; pueris epilen. dat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 12. Blitus</hi></head>
+							<lg>
+								<l>At blitus generat humores convenientes,</l>
+								<l>Irrorat phthisicos et compescit sitientes.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 13. Cycorea</hi></head>
+							<lg>
+								<l>. - Intuba, salsequium, cycorea, sponsaque solis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 14. Allia.</hi></head>
+							<lg>
+								<l>Allia qui mane ieiuno sumpserit ore,</l>
+								<l n="430">Hunc ignotarum non laedet potus aquarum,</l>
+								<l>Nec diversorum mutatio facta locorum.</l>
+								<l>Allia foetorem pellunt, variantque colorem,</l>
+								<l>Clarificant raucam cruda coctaque vocem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 15. Cepa.</hi></head>
+							<lg>
+								<l>De cepis Medici non consentive videntur:</l>
+								<l n="435">Fellitis non esse bonas, inquit Galienus,</l>
+								<l>Flegmaticis vero multum dicit esse salubris.</l>
+								<l>Nam modicus sanas Asclepias asserit illas.</l>
+								<l>Praesertim stomacho, pulchrumque creare colorem;</l>
+								<l>Appositas perhibent morsus curare caninos,</l>
+								<l n="440">Si tritae cum melle prius fuerit et aceto.</l>
+								<l>Contritis cepis loca denudata capillis</l>
+								<l>Saepe fricans, capitis poteris reparare decorem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 16. Porrus</hi></head>
+							<lg>
+								<l>. - Reddit foecundas mansum persaepe puellas;</l>
+								<l>Illo stillantem poteris retinere cruorem,</l>
+								<l n="445">Unges si nares intus medicamine tali.</l>
+							</lg>
+						</div>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 10. De fructibus.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Nux</hi></head>
+							<lg>
+								<l>Post pisces nux sit, post carnes caseus adsit,</l>
+								<l>Unica nux prodest, nocet altera, tertia mors est</l>
+								<l>Iudico de nucibus plus valet una tribus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2. Pyra et Poma</hi></head>
+							<lg>
+								<l>. - Adde pyro potum; nux medicina veneno.</l>
+								<l n="450">Fert pyra nostra pyrus, sine vino sunt pyra virus;</l>
+								<pb n="460"/>
+								<l>Si pyra sunt virus, sit meledicta pyrus.</l>
+								<l>Si coquis antidotum pyra sunt, sed cruda venenum.</l>
+								<l>Cruda gravant stomachum, relevant pyra cocta gravatum;</l>
+								<l>Post pyra da potum; post poma valde cacandum.</l>
+								<l n="455">Omnia mala mala, praeter Appia Salernitana.</l>
+								<l>Quando cupis pomo de vertice duc peryzoma,</l>
+								<l>Quando carpis pyra, tunc primo de vertice gira;</l>
+								<l>Tolle peripsimam, post ede pulpam, sperne arullam.</l>
+								<l>Persica, pyra, poma cum corticibus sunt meliora.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Cerasum.</hi></head>
+							<lg>
+								<l n="460">Cerasa si comedas tibi confert haec tria dona:</l>
+								<l>Expurgat stomachum, nucleum lapidem tibi tollet,</l>
+								<l>Et de carne sua sanguis eritque bonus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4. Pruna</hi></head>
+							<lg>
+								<l>. - Infrigidant, laxant, sedantque sitim tibi pruna.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Mora.</hi></head>
+							<lg>
+								<l>Mora sitim tollunt, recreant cum faucibus uvam.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6. Persica, passula, uva.</hi></head>
+							<lg>
+								<l n="465">Persica cum musto vobis datur ordine iusto</l>
+								<l>Sumere. Sic est mos nucibus sociando racemos.</l>
+								<l>Passa nocet spleni, tussi valet est bona reni.</l>
+								<l>Utilitas uvae sine granis et sine pelle:</l>
+								<l>Dat sedare sitim iecoris, choleraeque calorem</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Ficus.</hi></head>
+							<lg>
+								<l n="470">Pectus lenificant ficus, ventremque relaxant,</l>
+								<l>Seu dentur crudae, seu cum fuerint bene coctae.</l>
+								<l>Nutrit et impinguat varios curatque tumores.</l>
+								<l>Scrofa, tumor, glandes, ficus cataplasmate cedunt;</l>
+								<l>Iunge papaver ei, confracta foris trahit ossa;</l>
+								<l n="475">Pediculos, veneremque facit, sed cuilibet obstat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8. Mespila, Aescula.</hi></head>
+							<lg>
+								<l>Multiplicant mictum, ventrem dant mespila strictum;</l>
+								<l>Mespila dura bona sunt, sed mollia sunt meliora.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Granatum.</hi></head>
+							<lg>
+								<l>Sudorem profert granatum, lenit et alget.</l>
+								<l>Psidia granati cortex, balausti flos est.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10. Glans castanea.</hi></head>
+							<lg>
+								<l n="480">Ante cibus stringunt, post glans castanea solvunt.</l>
+							</lg>
+						</div>
+					</div>
+				</div>
+			</div>
+			<pb n="461"/>
+			<div type="book">
+				<head><lb/>PARS SECUNDA. - MATERIA MEDICA.</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. De simplicium virtutibus.</hi></head>
+					<div>
+						<head><hi rend="italic">§ 1. Abrotanum.</hi></head>
+						<lg>
+							<l>Abrotano crudo stomachi purgabitur humor</l>
+							<l>Confortat nervos et causas pectoris omnes</l>
+							<l>Serpentes nidore fugat, bibitumque venenum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 2. Absynthium.</hi></head>
+						<lg>
+							<l>Aurium depellit sonitum cum felle bovino;</l>
+							<l n="5">Obstat pestiferae cum vino sumpta cicutae.</l>
+							<l>Nausea non poterit quemquam vexare marina</l>
+							<l>Antea commixtam vino qui sumperit istam.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 3. Acedula.</hi></head>
+						<lg>
+							<l>Omne genus fluxus Acedulam stringere dicunt;</l>
+							<l>Qui portat secum non punget scorpius ipsum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 4. Agaricus.</hi></head>
+						<lg>
+							<l n="10">Pectus flegmaticum solvit, pellitque venenum;</l>
+							<l>Prodest pulmoni, splenis solvitque tumores,</l>
+							<l>Febribus occurrit, sic prodest sumpta venenis.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 5. Agrimonia.</hi></head>
+						<lg>
+							<l>Sciaticis simul ac oculi sanantur humore:</l>
+							<l>De collo scrophulas maculas haec unguine curat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 6. Aloes.</hi></head>
+						<lg>
+							<l n="15">Vulnera dessiccat aloes, carnemque creat et aufert</l>
+							<l>Praeputii cancrum, cilii cum melle nigrorem;</l>
+							<l>Auriculas, oculos, caput et linguam bene purgat,</l>
+							<l>Confortat stomachum, iuvat ictis, hepar reparabit,</l>
+							<l>Canitiem prohibet, sed solus viscera laedit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 7. Altea.</hi></head>
+						<lg>
+							<l n="20">Alteam malvae speciem nullus negat esse:</l>
+							<l>Ipsas scrophas, lapidem partum, mammasque minorat,</l>
+							<l>Iuncta mero, dentes iuvat acri condita vino.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 8. Ambrosia.</hi></head>
+						<lg>
+							<l>Ambrosia fugiunt mala mortua, fistula, cancer.</l>
+						</lg>
+					</div>
+					<pb n="462"/>
+					<div>
+						<head><lb/><hi rend="italic">§ 9. Anetum</hi></head>
+						<lg>
+							<l>. - Anetum ventos prohibet, minuitque tumores,</l>
+							<l n="25">Ventres repletos parvis facit esse minores.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 10. Anisum</hi></head>
+						<lg>
+							<l>. - Emendat visum, stomachum confortat anisum,</l>
+							<l>Copia dulcoris anisi sit melioris.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 11. Anthos id est Rosmarinus</hi></head>
+						<lg>
+							<l>. - Confortat stomachum, tolit nocumenta tenasmum:</l>
+							<l>Anthos exhilarat, membra sapore iuvat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 12. Aristologia.</hi></head>
+						<lg>
+							<l n="30">Plinius bene formare mares cum carne bovina;</l>
+							<l>Quidlibet inflxum super addita trita repellit;</l>
+							<l>Demonium fumus depellere dicitur huius;</l>
+							<l>Singultus sumpta sedare dicitur illa.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 13. Armoniacum.</hi></head>
+						<lg>
+							<l>Splenis armoniacum retinacula solvit, et eius</l>
+							<l n="35">Duritiem; vermes, urinas, menstrua ducit;</l>
+							<l>Adde nitrum cum melle, scrophas dispergit et aurert.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 14. Arthemisia</hi></head>
+						<lg>
+							<l>Urinas potata iuvat, lapidem tibi tollit,</l>
+							<l>Pellit abortivum potu vel subdita tantum,</l>
+							<l>Trita super stomachum viridis et ponitur herba.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 15. Atriplex.</hi></head>
+						<lg>
+							<l n="40">Atriplex fertur modicum nutribilis esse,</l>
+							<l>Dat vomitum sumpta, renes curat ex se.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 16. Betonica.</hi></head>
+						<lg>
+							<l>Si de betonica viridi sit facta corona</l>
+							<l>Circa serpentes, ut Plinius asserit auctor,</l>
+							<l>Audebunt nunquam positam transire coronam,</l>
+							<l n="45">Sed morsu proprio pereunt et verbere caudae.</l>
+							<l>Restringit lacrimas oculorum mensa vel hausta.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 17. Buglossa.</hi></head>
+						<lg>
+							<l>Vim memorem cerebri dicunt servare periti</l>
+							<l>Vinum potatum quo sit macerata buglossa;</l>
+							<l>Laetos convivos decoctio reddere fertur.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 18. Bolus.</hi></head>
+						<lg>
+							<l n="50">Est bolus ad pestes, remollit in inguine testes.</l>
+							<pb n="463"/>
+							<l>Sed si sumis eum studeas sociare lyeum</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 19. Camphora</hi></head>
+						<lg>
+							<l>. - Camphora per nares castrat odore mares</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 20. Cannella.</hi></head>
+						<lg>
+							<l>Vera cannella tibi plurima dona reportat,</l>
+							<l>Mentem, hepar, pectus, vocem, praecordia firmat,</l>
+							<l n="55">Innaturalem tollit de corde tremorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 21. Capillus veneris</hi></head>
+						<lg>
+							<l>. - Esse Capillatus veneris facit esse capillos</l>
+							<l>Veterique spleni, scrophulis, lapidique medetur</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 22. Capparis.</hi></head>
+						<lg>
+							<l>Capparis enfraxes hepatis splenisque resolvit,</l>
+							<l>Fortiter a stomacho, si sunt superflua, tollit.</l>
+							<l n="60">Cyperus os sanat, hepar; capparis splenem</l>
+							<l>Cogit, et astrictos urinae laxat amictus.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 23. Carvi.</hi></head>
+						<lg>
+							<l>Urinare facit carvi, ventosque repellit,</l>
+							<l>Lumbricosque necat, digestivamque refortat.</l>
+							<l>Dum carvi carui non sine febre fui.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 24. Cassia</hi></head>
+						<lg>
+							<l n="65">. - Ori foetenti, stomacho, cordique dolenti</l>
+							<l>Cassia, cardiacis commoda multa facit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 25. Centaurea</hi></head>
+						<lg>
+							<l>. - Centaurea iuvat nervos, pectusque, secundas</l>
+							<l>Educit, et vulnus solidat, visus meliorat;</l>
+							<l>Incisas carnex radix contrita resarcit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 26. Cerefolium.</hi></head>
+						<lg>
+							<l n="70">Adpositum cancris tritum cum melle medetur;</l>
+							<l>Cum vino potum lateris sedare dolorem.</l>
+							<l>Saepe solet, tritam si nectis desuper herbam</l>
+							<l>Saepe solet vomitum, ventremque tenere solutum</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 27. Chelidonia.</hi></head>
+						<lg>
+							<l>Coecatis pullis hac lumina mater hirudo.</l>
+							<l n="75">Plinius ut scribit, quamvis sint eruta, reddit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 28. Cinnamomum</hi></head>
+						<lg>
+							<l>. - Cinnamomum mane comaestum repellit odorem;</l>
+							<pb n="464"/>
+							<l>Foetorem mitigat si quemque laeserit ipse,</l>
+							<l>Alleviat mentem, tribuit semper bene sensum,</l>
+							<l>Dat bene calorem et auget semper amorem,</l>
+							<l n="80">Alleviat mentem sic et praecordia purgat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 29. Coriandrum</hi></head>
+						<lg>
+							<l>Si tria grana voret coriandri seminis aeger</l>
+							<l>Evadet febrem cui dat lux tertia nomen.</l>
+							<l>Xenocrates dicit totidem cessare diebus</l>
+							<l>Menstrua, quot mulier coriandri grana vorabit.</l>
+							<l n="85">Confortat stomachum, ventum removet coriandrum,</l>
+							<l>Et quod restringit humorum fluctus amandum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 30. Crocus</hi></head>
+						<lg>
+							<l>Confortare crocus dicitur laetificando,</l>
+							<l>Membraque delecta confortat hepar reparando</l>
+							<l>Crocus comaestus pulchrum dat semper odorem,</l>
+							<l n="90">Omnem foetorem tollit, et pellit amorem</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 31 Cuminum</hi></head>
+						<lg>
+							<l>Confortant stomachum, coitum, et mingere cogit;</l>
+							<l>Enfraxes hepatis reserat et menstrua stringit</l>
+							<l>Ventosum stomachum tibi tranquillatque cuminum,</l>
+							<l>Et dat pallentem permansum saepe colorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 32. Enula.</hi></head>
+						<lg>
+							<l n="95">Enula campana reddit praecordia sana,</l>
+							<l>Cum succo rutae si succus sumitur huius,</l>
+							<l>Affirmant ruptis nihil esse salubrius istis.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 33. Esula, Linaria, Cataputia, Anabula.</hi></head>
+						<lg>
+							<l>Esula laetescit, linaria lac dare nescit:</l>
+							<l>Esula radices praestat, cataputia semen,</l>
+							<l n="100">Sed lac et fustes medicis anabula ministrat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 34. Faba.</hi></head>
+						<lg>
+							<l>In mammis faba lac spargit, molIitque capillos;</l>
+							<l>Sistit eum fluxum quem facit hirudo cruoris.</l>
+							<l>Mitigat arthritim cocta cum lympha dolorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 35. Foeniculus</hi></head>
+						<lg>
+							<l>. - Semen cum vino sumptum veneris movet actus,</l>
+							<pb n="465"/>
+							<l n="105">Atque senes eius gustu iuvenescere dicunt.</l>
+							<l>Hic quoque pulmonis obstat iecorisque querelis.</l>
+							<l>Semen foeniculi fugat et spiracula culi</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 36. Foenugraecum.</hi></head>
+						<lg>
+							<l>Ad grossos flegma foenugraecum cura salubris.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 37. Furfur.</hi></head>
+						<lg>
+							<l>Ulcera cum scabie furfur bene mundat aceto,</l>
+							<l n="110">Cum vino, valet ulceribus cum lacte coacto.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 38. Galanga.</hi></head>
+						<lg>
+							<l>Flegmonem stomachi sumptum galanga resolvit;</l>
+							<l>Vim digestivam iuvat, colicisque medetur,</l>
+							<l>Oris non modicum mansum confortat odorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 39. Galla.</hi></head>
+						<lg>
+							<l>Galla negat fluxum matricis sistit et ani</l>
+							<l n="115">Ulcera tumque pedum, labiorum vulnera sanat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 40. Gariophilus.</hi></head>
+						<lg>
+							<l>Gariophilus suptus mane caput bene purgat,</l>
+							<l>Et fervorem capitis inflicti deprimit idem,</l>
+							<l>Humores siccat et auget cordis amorem,</l>
+							<l>Alleviat caput cerebro praestatque levamen</l>
+							<l n="120">Addet et somnum, confortat utique caput.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 41. Helleborus.</hi></head>
+						<lg>
+							<l>Pultibus admixtus pulvis mures necat eius,</l>
+							<l>Et cum melle datus est muscis perniciosus;</l>
+							<l>Hydropisin, tetanum, lepram fugat atque podagram.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 42. Hyssopus.</hi></head>
+						<lg>
+							<l>Hyssopus est erba purgans a pectore flegma;</l>
+							<l n="125">Ad pulmonis opus cum melle coquatur hyssopus;</l>
+							<l>Vultibus eximium fertur praestare colorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 43. Iuniperum.</hi></head>
+						<lg>
+							<l>Iuniperi grana pectus comaesta reformant,</l>
+							<l>Et tussim nimiam sedant atque inveteratam;</l>
+							<l>Expellunt seduli semper de carnem venenum,</l>
+							<l n="130">Et prosunt capiti carbonibus ista proiecta.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 44. Lapathum acutum.</hi></head>
+						<lg>
+							<l>Pruritus mordax, scabies hypocratice cedunt,</l>
+							<l>Eius saepe tepens si coetio gargaritetur,</l>
+							<l>Uvas sedabit, dentis tundetque dolorem.</l>
+						</lg>
+					</div>
+					<pb n="466"/>
+					<div>
+						<head><lb/><hi rend="italic">§ 45. Levistica.</hi></head>
+						<lg>
+							<l>Hepar opilatum frigore levistica quaerunt,</l>
+							<l n="135">Torsio ventosa, medicina, menstrua clausa.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 46. Lilium.</hi></head>
+						<lg>
+							<l>Praecisis nervis cum melle, combustaque membra,</l>
+							<l>Vultus deducit rugas, maculas fugat omnes</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 47. Liquiritia.</hi></head>
+						<lg>
+							<l>Sit tibi contenta liquiritia pulverulenta:</l>
+							<l>Pectus, pulmonem, venas refovendo rigabit;</l>
+							<l n="140">Pellit namque sitim, stomachi nociva repellit,</l>
+							<l>Spirituum cunctis sic subvenit ipsa strumentis.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 48. Lupinus.</hi></head>
+						<lg>
+							<l>Lumbricos vermes mundat cinis faexque lupini.</l>
+							<l>Lympha pilos vellit, atque redire negat,</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 49. Malangia.</hi></head>
+						<lg>
+							<l>Semen naturae melangia fertur acutae,</l>
+							<l n="145">Et choleram nigram viri non reddere pigrum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 50. Malva.</hi></head>
+						<lg>
+							<l>Dixerunt malvam veteres quod molliat alvum;</l>
+							<l>Malvae radices rasae deducere faeces,</l>
+							<l>Vulvam moverunt et fluxum saepe dederunt.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 51. Marathrum.</hi></head>
+						<lg>
+							<l>Bis duo dat marathrum, febres fugat atque venenum;</l>
+							<l n="150">Expurgat stomachum; lumen quoque reddit acutum;</l>
+							<l>Urinare facit, ventris flatusque repellit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 52. Mentha.</hi></head>
+						<lg>
+							<l>Mentitur mentha, si sit depellere lenta</l>
+							<l>Ventris lumbricos vermes stomachique nocivos.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 53. Muscata.</hi></head>
+						<lg>
+							<l>Balia muscata confortat debilitata</l>
+							<l n="155">Corda, iuvat stomachum, scotomiam tollens oculorum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 54. Myrrha.</hi></head>
+						<lg>
+							<l>Myrrha iuvat pectus, matricis vasa, caputque</l>
+							<l>Ascaris et stachesis, fistula tecta perit.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 55 Myrobalanorum vires.</hi></head>
+						<lg>
+							<l>Myrobalanorum species sunt quinque bonorum: ,</l>
+							<l>Citrinus, kebulus, belliricus, emblicus, indus.</l>
+							<l n="160">Primo trahit choleram citrinus, flegma secundo,</l>
+							<pb n="467"/>
+							<l>Kebulus vel contra, belliricus, emblicus acque,</l>
+							<l>Illud et hanc nigrae colore niger imperat indus.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 56. Nasturtium.</hi></head>
+						<lg>
+							<l>Nasturtii succus crines retinere fluentes</l>
+							<l>Illitus asseritur, dentisque levare dolorem,</l>
+							<l n="165">Et squammas succus curat cum melle perunctus.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 57. Nenufar</hi></head>
+						<lg>
+							<l>. - Nenurar canos reddit, hepar bene reserat alvum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 58. Nigella.</hi></head>
+						<lg>
+							<l>Cancros emundat, pascentia vulnera curat,</l>
+							<l>Cum raphano modicoque salis superaddita trita;</l>
+							<l>Tenias et lepras curam compescit eadem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 59. Papaver</hi></head>
+						<lg>
+							<l n="170">. - Menstrua, morphaeam, visum, papavere, cura.</l>
+							<l>Dente minuta trahit radix, de nare cruorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 60. Paconia</hi></head>
+						<lg>
+							<l>Si iungantur ei violenter amygdala trita,</l>
+							<l>Splen, iecur et renes cum mulsa sumpta iuvabit;</l>
+							<l>Ipse Dioscorides cunctis ait esse caducis</l>
+							<l n="175">Aptam, si bibitur vel si suspenditur ipsa.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 61. Pinea.</hi></head>
+						<lg>
+							<l>Tussim, ephimeras, ethicam tibi pinea tollit:</l>
+							<l>Mascula plus tussi valet, et passiva diarrhaeae.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 62. Piper</hi></head>
+						<lg>
+							<l>. - Piper de mane comaestum purgat aegrotum</l>
+							<l>Humores tollit de corpore male comaestus,</l>
+							<l n="180">Dat bene calorem, pravurn depellit odorem,</l>
+							<l>Est humidum certum sic sanum debet esse.</l>
+							<l>Quod piper est nigrum non est dissolvere pigrum,</l>
+							<l>Flegmata purgabit, digestivamque iuvabit.</l>
+							<l>Leucopiper nervis, stomacho, tussisque dolori</l>
+							<l n="185">Utile, praeveniet scotosim febrisque rigorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 63. Plantago</hi></head>
+						<lg>
+							<l>. - Hepar cum parit plantago stiptica dum sit</l>
+							<l>Prodest ernoptoycis, sacrumque coercet et ignem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 64. Portulaca.</hi></head>
+						<lg>
+							<l>Portulaca caput iuvat, dentisque stuporem</l>
+							<l>Curat, et ardorem matricis, vulnera renum.</l>
+						</lg>
+					</div>
+					<pb n="468"/>
+					<div>
+						<head><lb/><hi rend="italic">§ 65. Prassium.</hi></head>
+						<lg>
+							<l n="190">Pectoris haec varios compescit potio morbos;</l>
+							<l>Accelerat partus eadem, pellitque secundas</l>
+							<l>Dicitur haec eadem lateris sedare dolorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 66. Pulegium.</hi></head>
+						<lg>
+							<l>Cum vino choleram nigram potata repellit;</l>
+							<l>Adpositam viridem dicunt curare podagram;</l>
+							<l n="195">Et quosvis alios solet emendare tumores.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 67. Pyrethum</hi></head>
+						<lg>
+							<l>Masticet patiens vel gargarizetur aceto,</l>
+							<l>Hoc modo tumidam reprirnit a flegmate linguam,</l>
+							<l>Et collo pensum poterit prodesse caducis.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 68. Rhamnus.</hi></head>
+						<lg>
+							<l>Lepra, lapis, panni, lupus intereunt ope rhamni.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 69. Rheubarbarus.</hi></head>
+						<lg>
+							<l n="200">Rha partes laxas firmat hepar reparando</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 70. Rosa.</hi></head>
+						<lg>
+							<l>Curat haemorrhoidas rosa, semine, cortice demptis;</l>
+							<l>Gengivas, colicam, capitis iuvat ipsa dolentes.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 71. Rubus.</hi></head>
+						<lg>
+							<l>Styptica sunt folia rubi, ventremque fluentem</l>
+							<l>Continent, et fluxum etiam stringunt muliebrem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 72. Ruta.</hi></head>
+						<lg>
+							<l n="205">Nobilis est ruta, quia lumina reddit acuta;</l>
+							<l>Auxilio rutae, vir lippe, videbis acute.</l>
+							<l>Ruta comaesta recens oculos caligine purgat;</l>
+							<l>Ruta viris coitum minuit, mulieribus auget;</l>
+							<l>Ruta facit castum, dat lumen et ingerit astum;</l>
+							<l n="210">Cocta facit ruta de pulicibus loca tuta.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 73. Salix.</hi></head>
+						<lg>
+							<l>Auribus infusus vermes succus necat eius;</l>
+							<l>Cortex verrucas in aceto cocta resolvit;</l>
+							<l>Huius flos sumptus in aqua frigescere cogit</l>
+							<l>Instinctus veneris omnes, acres, stimulantes;</l>
+							<l n="215">Et sic desiccat ut nulla creatio fiat;</l>
+							<l>Pomorum succus, flos partus destruit eius.</l>
+							<l>Vulnera frondes eius valent solidare cruenta.</l>
+						</lg>
+					</div>
+					<pb n="469"/>
+					<div>
+						<head><lb/><hi rend="italic">§ 74. Salvia.</hi></head>
+						<lg>
+							<l>Cur moriatur homo cui salvia crescit in horto?</l>
+							<l>Contra vim mortis non est medicamen in hortis.</l>
+							<l n="220">Salvia confortat nervos, manuumque tremorem,</l>
+							<l>Tollit, et eius ope febris acuta fugit.</l>
+							<l>Salvia salvatrix, naturae conciliatrix;</l>
+							<l>Salvia dat sanum caput et facit hoc adrianum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 75. Sambucus</hi></head>
+						<lg>
+							<l>Lumbros ascarides sambuci sunt perimentes;</l>
+							<l n="225">Sambuci flores sunt sambuco meliores</l>
+							<l>Nam sambucus olet, flos redolere solet,</l>
+							<l>Et stomachum mollem reddunt vomitum facientes.</l>
+							<l>Frondes appositae possunt auferre tumorem.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 76. Sarcocolla.</hi></head>
+						<lg>
+							<l>Sarcocolla tenet lacrymas fluxumque cruoris</l>
+							<l n="230">Vuluera carne replet, lacrymas depellit ocelli.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 77. Scabiosa.</hi></head>
+						<lg>
+							<l>Fert scabiosa pilos, verbenaque non tenet illos.</l>
+							<l>Urbanus per se nescit pretium scabiosae:</l>
+							<l>Confortat pectus, quod deprimit aegra senectus;</l>
+							<l>Lenit pulmonem, tollit laterumque dolorem;</l>
+							<l n="235">Vino potatur et sic virus evacuatur;</l>
+							<l>Rumpit apostema leniter: ratione probatur;</l>
+							<l>Emplastrata foris necat anthracem tribus horis</l>
+							<l>Languorem pecudum tollit, dirimitque venenum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 78. Siler.</hi></head>
+						<lg>
+							<l>Siler montanum non sit tìbi sumere vanum:</l>
+							<l n="240">Dat lumen clarum quamvis gustu sit amarum,</l>
+							<l>Lumbricosque necat, digestivamque refortat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 79. Solatrum</hi></head>
+						<lg>
+							<l>. - Hepar amat solatrum, sed apostasis illud abhorret,</l>
+							<l>Si careat, stringit; menstrua clausa ciet.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 80. Sparagus.</hi></head>
+						<lg>
+							<l>Augmentat sperma sparagus, colicoque dolori</l>
+							<l n="245">Subvenit, in motoque denti convenit ori.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 81. Spodium.</hi></head>
+						<lg>
+							<l>Si cruor emant spodium sumptum cito sanat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 82. Squilla.</hi></head>
+						<lg>
+							<l>In quibus est squilla loca devitat lupus illa;</l>
+							<pb n="470"/>
+							<l>Squilla iuvat fluxum, valet ictericis et hydropi,</l>
+							<l>Fissurasque pedum sola reperta iuvat.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 83. Sinapis</hi></head>
+						<lg>
+							<l n="250">. - Est modicum granum siccum calidumque synapi;</l>
+							<l>Dat lacrymas, purgatque caput, tollitque veneum.</l>
+							<l>Esca mihi napi sunt bona, suntque synapi.</l>
+							<l>Synapis oculis, pectoribus allia prosunt.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 84. Trarabe vel Carale.</hi></head>
+						<lg>
+							<l>Quum sit eroticus trarabe, bene noscit amicus.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 85. Thus.</hi></head>
+						<lg>
+							<l n="255">Thus videt et memorat; flegma necat; medicatur</l>
+							<l>Ulcera, fissuras, verrucas; falsataque linguae,</l>
+							<l>Atque puellares fluxus mammasque coercet.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 86. Urtica.</hi></head>
+						<lg>
+							<l>Pacat et insomnes pacans urtica, vomentes;</l>
+							<l>Illius semen colicis cum melle medetur;</l>
+							<l n="260">Compescit tussim veterem si saepe bibatur,</l>
+							<l>Pellit pulmonis frigus, ventrisque tumorem</l>
+							<l>Omnibus et morbis ea subvenit articulorum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 87. Viola.</hi></head>
+						<lg>
+							<l>Crapula discutitur, capitis dolor atque gravedo</l>
+							<l>Purpuream dicunt violam curare caducos,</l>
+							<l n="265">Praecipue pueros si mixto sumitur amne.</l>
+							<l>Aegris dat somnum vomitum quoque tollit et esum.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 88. Virga pastoris.</hi></head>
+						<lg>
+							<l>Virgula pastoris tenet omnia fraena cruoris,</l>
+							<l>Est medela foris ficus, capitisque doloris.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 89. Zeduaria.</hi></head>
+						<lg>
+							<l>Zeduar ante datum morbum fugat inveteratum,</l>
+							<l n="270">Et pectus purgat, stomacho fastidia tollit;</l>
+							<l>Expellit flegma, constipatam digerit escam.</l>
+							<l>Si post sumatur bene digerit et sonat aegrum:</l>
+							<l>Postque datum mollit ventrem, fastidia tollit:</l>
+							<l>Tu me semper ama, quum tibi do Zeduara.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 90. Zinziber.</hi></head>
+						<lg>
+							<l n="275">Algores stomachi, thoracis, renibus aufert;</l>
+							<l>Idem conditum solamen zinziber affert.</l>
+							<l>Zinziber mane comaestus pectus bene purgat,</l>
+							<pb n="471"/>
+							<l>Mollificat pectus, renum flegmaque repellit,</l>
+							<l>Clarificat visum zinziber saepe comaestum,</l>
+							<l n="280">Humores siccat cruorem de corde repellit,</l>
+							<l>Auget calorem stomacho sic digerit escam.</l>
+							<l>Zingiber expurgat stomachum, cerebrumque refortat;</l>
+							<l>Atque sitim pellit, iuvenes quoque cogit amare.</l>
+						</lg>
+					</div>
+					<div>
+						<head><lb/><hi rend="italic">§ 91. Epilogus.</hi></head>
+						<lg>
+							<l>Herbae dum florent sumant quod sumere debent;</l>
+							<l n="285">Si desunt flores radices sumere debes;</l>
+							<l>Semen, fructus, olus, pecodes, lac, ales et orum</l>
+							<l>Deficient, autumni fructus funera praestant.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Pharmaceutices.</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Nomina medicamentorum.</hi></head>
+						<lg>
+							<l>Dicitur emplastrum quaevis confectio dura;</l>
+							<l>Tunc embrocamus cum membra liquore roramus;</l>
+							<l n="290">De pannis madidis fit fomentatio sola;</l>
+							<l>Estque synapisma superunctio pulvere solo;</l>
+							<l>Quaevis aposema decoctio fertur acerba,</l>
+							<l>Ex cataspasma cum sessio fit super herbas;</l>
+							<l>Si fumum recipis sit fumigatio dicta;</l>
+							<l n="295">Sacellatio fit cum sacco iure repleto;</l>
+							<l>Fertur epithema de succis unctio sola;</l>
+							<l>Sed cataplasma facis cum succum ponis et herbam;</l>
+							<l>Potio syrupus, ut dicit arabs, vocitatur;</l>
+							<l>Nomen ex electis capit electuarium speciebus;</l>
+							<l n="300">Conficitus pulvis ex siccis fit speciebus;</l>
+							<l>Antidotum plures species sed dicere debes;</l>
+							<l>Ex opio vel ope dici deben opiatae;</l>
+							<l>Oximel est trinum: simplex, squillae, diureticum;</l>
+							<l>Oximel in morbis confert ex frigore natis;</l>
+							<l n="305">Mel melius quod vernale fit, dulceque, spissum,</l>
+							<l>Quod rubet ut aurum, melius resudens prope fundum.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Compositio medicinae.</hi></head>
+						<lg>
+							<l>Est simplis duplas vires tollunt medicinis</l>
+							<l>Has componendo cur additur aut minus aut plus,</l>
+							<l>Et quod sit in ea basis, vel quid reponendum,</l>
+							<l n="310">Et quod in basi sit basis, quid quaerit habere,</l>
+							<l>Si contentus ea, si non ponas nocitiva;</l>
+							<l>Ipsam conforta tollens, reprimens nocitura.</l>
+						</lg>
+					</div>
+					<pb n="472"/>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art 2. Antidota, Electuaria et aliae Compositiones.</hi></head>
+						<div>
+							<head><hi rend="italic">§ 1. Aurea Alexandrina.</hi></head>
+							<lg>
+								<l>Aurea quae datur capitis dolor alleviatur,</l>
+								<l>Ac infestivos morbos fugit et nocivos,</l>
+								<l n="315">Ergo secure sumatur condita pure,</l>
+								<l>Ut cognoscatur his subscriptis recitatur.</l>
+								<l>Renes de reuma lapis, caput algida matrix</l>
+								<l>Vis apoplexiae, disuria, tethaneusque,</l>
+								<l>Haec si quem laedunt tibi funditus, Aurea, cedunt.</l>
+								<l n="320"><hi rend="italic">Aurea</hi>quando datur, caput a languore levatur.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 2. Adrianum.</hi></head>
+							<lg>
+								<l>In desperatis morbis gelidis quoque praeprimis,</l>
+								<l>Omnibus et morbis quibus Aurea des Adrianum,</l>
+								<l>Offensae lucis caligo, dolor capitalis,</l>
+								<l>Causa melancolici, renum pressura doloris,</l>
+								<l n="325">Delirium capitis, stomachi yeronoxa tumoris,</l>
+								<l>Stranguriae, splenis tumor, algentis hepatisque,</l>
+								<l>Si laedat, sanum faciens fugat haec Adrianum.</l>
+								<l>Curat quartanam si sumpserit hoc <hi rend="italic">adrianum</hi>;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 3. Athanasia.</hi></head>
+							<lg>
+								<l>Fluxum constringit ventris, muliebria sistit,</l>
+								<l n="330">Sanguinei sputi causas abstergit et undas,</l>
+								<l>Fortiter exiccat athanasia sanguine nares,</l>
+								<l>Sanguineum fluxum, guttam, capitisque dolorem,</l>
+								<l>Athanasia iuvat diabethen vel gonorrhaeam.</l>
+								<l>Et dissenteriae potus iuvat <hi rend="italic">athanasia</hi>.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 4. Acharistum.</hi></head>
+							<lg>
+								<l n="335">Sanat acharistum tusses et asthma, catarrhum,</l>
+								<l>Artheticum fluxum ventris frigore enatum,</l>
+								<l>Fluxus emoptoycus, artus dolor, et quod aegrotum,</l>
+								<l>Frigore constrictum penitus fugavit aetharistum.</l>
+							</lg>
+						</div>
+						<pb n="473"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 5. Alchalcolon.</hi></head>
+							<lg>
+								<l>Ictericos procurat epar confortat acutum,</l>
+								<l n="340">Mitigat et tussim, minuit tenebras oculorum,</l>
+								<l>Defectum colore profert Alchalcolon auris.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 6. Antimoron</hi></head>
+							<lg>
+								<l>. - Prodest <hi rend="italic">anthera</hi> cerebro fortissima <hi rend="italic">yera;</hi></l>
+								<l>Antimoron delicta uvae, nephresin, cephalaeam,</l>
+								<l>Offensam stomachi, matricis damna, podagra</l>
+								<l n="345">Stringit, et extantes emundat in ore procellas.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 7. Anthera.</hi></head>
+							<lg>
+								<l>Prodest <hi rend="italic">anthera</hi> cerebro fortissima <hi rend="italic">yera</hi>;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 8. Alipta.</hi></head>
+							<lg>
+								<l>Extirpans asma fragrans succurrit Alipta</l>
+								<l>Rigidis asmaticis, pueris lactique vomendo</l>
+								<l>Convenit, et stricto thoraci fumus aliptae</l>
+								<l n="350">Ipsius antidota substantia cara subintrat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 9. Apostolicon</hi></head>
+							<lg>
+								<l>Usus apostolicon ferrum trahit, et violat novum,</l>
+								<l>Mitigat vitiatum, fugat ex humore dolorem</l>
+								<l>Vulneris, et gracilis ex hoc fit grossa cicatrix.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 10. A rrogon</hi></head>
+							<lg>
+								<l>. - Tetaneum tetanum, spasmum artheticum, mala renum,</l>
+								<l n="355">Yliacam, tormenta sciae, capitisque dolorem</l>
+								<l>Arrogon ista fugat, loca fervida si iis inungatur.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 11. Antidotum</hi></head>
+							<lg>
+								<l>. - Antidotum detur emagogon menstruis atque</l>
+								<l>Educitur sanguis, matrix purgatur ab ipso,</l>
+								<l>Provocat urinam, frangit lapidemque vericae,</l>
+								<l n="360">Stranguriam sanat, ventre utrum trahit contra,</l>
+								<l>Reliquias purgat partus donando salutem,</l>
+								<l>Epatis enfraxin sanat pellem durumque mollit,</l>
+								<l>Sanat flegma, stomachum confortat et illud</l>
+								<l>Non medicamentum mulieribus aptius illo.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 12. Blanca.</hi></head>
+							<lg>
+								<l n="365">Ancantum dicas quia albos purgat humores,</l>
+								<l>Antiquum capitis oculi sanatque dolorem;</l>
+								<l>Lippam, paralisim sanat, morbumque caducum,</l>
+								<l>Ydropisin, tineam, phtisim, splenem, cephaleam,</l>
+								<l>Nervi defectum, lippos oculos, yeranoxam,</l>
+								<l n="370">Conservat blanca iusto moderamine sumpta.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 13. Benedicta</hi></head>
+							<lg>
+								<l>. - Artheticam guttam sanat fractamque podagram,</l>
+								<pb n="474"/>
+								<l>Et renes flores et vesicam benedicta,</l>
+								<l>Ulcera pedum, vesica dolens, dolor articularis,</l>
+								<l>Regnans in rene gravitas cedunt benedictae.</l>
+								<l n="375">Flegmam non ficte pellit dosis <hi rend="italic">Benedictae;</hi></l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 14. Catholicon.</hi></head>
+							<lg>
+								<l>Vomitum triteo portat confectia, Copho</l>
+								<l>Expellit choleram, constrictum solvere ventrem,</l>
+								<l>Dicta satis tute febri succurrit acutae.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 15. Ceroneum.</hi></head>
+							<lg>
+								<l>Invadens spathulas, pectus, dolor algidus, acris</l>
+								<l n="380">Duritias splenis minuit calore remisso,</l>
+								<l>Algens ydropisis, torpescens frigore matrix</l>
+								<l>Cedunt ceronio si membro ponitur aegro.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 16. Diacodion.</hi></head>
+							<lg>
+								<l> - Ad ventris fluxum confert diacodion, usum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 17. Daicalamentum.</hi></head>
+							<lg>
+								<l>Pectoris algori confert, tussique senili,</l>
+								<l n="385">Sanat quartanam cui nomen dat calamentum,</l>
+								<l>Abstergit vomitum digestionem iuvat et aufert</l>
+								<l>Rheuma, phtisim, proprium reddit ori colorem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 18. Diarrhodon.</hi></head>
+							<lg>
+								<l>Ictericis, ethicis, hepatis fervore perustis,</l>
+								<l>Cardiacis calidis confert diarrhodon istis,</l>
+								<l n="390">Quem phthisis consumit <hi rend="italic">diarodon</hi>ille resumit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 19. Diamargariton.</hi></head>
+							<lg>
+								<l>Laetificat cor, confortat stomachum, iuvat et vitat</l>
+								<l>Cardiaca nomen cui margarita ministrat.</l>
+								<l>Pellit cardiacam <hi rend="italic">diamargariton</hi>inunctam;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 20. Diapenidion.</hi></head>
+							<lg>
+								<l>Pulmonis vitium, raucedo sicca maligna</l>
+								<l n="395">Si tibi phtisis adest diapenidion tibi prodest.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 21. Diasatyrion.</hi></head>
+							<lg>
+								<l>Lascivos motus veneris perducit in usus,</l>
+								<l>Lumborum motus eleganter adiuvat usus,</l>
+								<l>Quod satyris aptum nomen redolet satirorum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 22. Dianthos</hi></head>
+							<lg>
+								<l>. - Tristes, cardiacos, macilentes, debilitatos,</l>
+								<pb n="475"/>
+								<l n="400">Vim chronici morbi reparat, sanatque dianthos</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 23. Diaciminum.</hi></head>
+							<lg>
+								<l>Reuma, phtisim, veteris quartanae frigora febris</l>
+								<l>Pectoris algorem, stomachi delicta relegat,</l>
+								<l>Cui nomen proprium confert ex parte ciminum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 24. Diaprunis.</hi></head>
+							<lg>
+								<l>Causonicis sinochicis et caumatibus peracutis</l>
+								<l n="405">Stranguriae vitium tollit, tibiaeque dolorem,</l>
+								<l>Frigida membra iuvat, paralitica lumina mundat,</l>
+								<l>Utilis est usus in infirmitatibus his diaprunis.</l>
+								<l>Cauma febris placat <hi rend="italic">diaprunis</hi>ac bene sedat;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 25. Diacastoreum.</hi></head>
+							<lg>
+								<l>Pillula castorici laxando commoda danti,</l>
+								<l n="410">Luxuriam, sitis extinguit, vomitum fugat, aufert.</l>
+								<l>Nervi defectus, cephalea nocens, yeronoxa,</l>
+								<l>Enfraxis splenis hepatisque, repletio renum,</l>
+								<l>Vertigo capitis, somnusque lethargicus, haec sunt</l>
+								<l>Quae dyacastoreum depellens liberat aegrum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 26. Diacitoniton.</hi></head>
+							<lg>
+								<l n="415">Constipat stomachum, ventrem cui coctana nomen.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 27. Diatesseron.</hi></head>
+							<lg>
+								<l>Algentem febrem matricis frigiditatem.</l>
+								<l>Latrantis morsum canis, antracisque venenum</l>
+								<l>Reptilium virus pellit diatessaron usus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 28. Diaolibanum.</hi></head>
+							<lg>
+								<l>Constringit fluxum diaolibanum lacrimarum,</l>
+								<l n="420">Et capitis vitium depellitur huius ad usum,</l>
+								<l>Ac <hi rend="italic">diaolibanum</hi> cerebro dat regere sanum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 29. Diacostum.</hi></head>
+							<lg>
+								<l>Algens hydropicis, inflati passo splenis,</l>
+								<l>Si noceant aegro cedunt penitus diacosto.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 30. Diasene.</hi></head>
+							<lg>
+								<l>Tristem cardiacum phantasma melancholicorum,</l>
+								<l n="425">Splenem, cardiaci vitium sanat diasene.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 31. Diadragagantum.</hi></head>
+							<lg>
+								<l>Extirpat phtisis, tussis, epatisque calorem,</l>
+								<l>Pulmonis vitium, cui nomen dat diadragagantum.</l>
+								<l>Et tussi stricte phthisi <hi rend="italic">diadragagantum;</hi></l>
+							</lg>
+						</div>
+						<pb n="476"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 32. Diacameron.</hi></head>
+							<lg>
+								<l>Quod cameron nomen denominat asthma, dolorem</l>
+								<l n="430">Depellit renum, prosternit debilitatem</l>
+								<l>Artheticae, phtisim, tussim, stomachique relegat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 33. Diamoron.</hi></head>
+							<lg>
+								<l>Reuma labentes diamoron sublevat omnes</l>
+								<l>Exiccans uvam guttur iuvat atque palatum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 34. Diaprassium.</hi></head>
+							<lg>
+								<l>Pectus mundatur <hi rend="italic">diaprassium</hi>si capiatur;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 35. Diayris.</hi></head>
+							<lg>
+								<l n="435">Effugiunt una diayri, tussis et asthma,</l>
+								<l>Et simul abscedit si frigida devia laedit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 36. Dialtea.</hi></head>
+							<lg>
+								<l>Pectoris et splenis morbos Dialtea pellit,</l>
+								<l>Durities omnis membri solvendo repellit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 37. Esdra.</hi></head>
+							<lg>
+								<l>Alleviat partum frigidum, fugat esdra timorem,</l>
+								<l n="440">Corrigit afflictos stomachi, laesam iuvat aurem,</l>
+								<l>Diminuit virus motivo munrre spasmos,</l>
+								<l>Latrantis rabidi depellit iura nocendi.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 38. Electuarium Ducis.</hi></head>
+							<lg>
+								<l>Electuarium Ducis antidotum succedit in usum,</l>
+								<l>Calculus exteritur, recedit violentia fumi</l>
+								<l n="445">Ventosi, digestivae etiam prosternitur error</l>
+								<l>Virtutis, gravis iliacae vis desinit esse.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 39. Euperiston.</hi></head>
+							<lg>
+								<l>Menstrua, rheuma, calor nocuus, asthmaque, podagra,</l>
+								<l>Salsi poena, sciae, phtisis, lithargicus error,</l>
+								<l>Artheticae torpor, oculi cerebri dolor, algor.</l>
+								<l n="450">Splenis, vertigo capitis, raucedo, nociva</l>
+								<l>Frigiditas stomachi, peripleumonia, screatus</l>
+								<l>Sanguinis ut cesset euperiston tibi praebet.</l>
+								<l><hi rend="italic">Euperiston</hi>amat quae propter menstrua clamat;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 40. Electuarium de succo rosarum.</hi></head>
+							<lg>
+								<l>Antidotum succi symptomata noxia salsi</l>
+								<l n="455">Flegmatis expellit ferventis, tormina pellit</l>
+								<l>Arthetici, cura placida est medicina rigoris.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 41. Esula. - Esulae</hi></head>
+							<lg>
+								<l>mixtura paralisis maxima cura.</l>
+							</lg>
+						</div>
+						<pb n="477"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 42. Gallia musta</hi></head>
+							<lg>
+								<l>. - Utilis antidotis cutis aurisque doloris,</l>
+								<l>Algentique febris capiti gelido yeranoxae,</l>
+								<l n="460">Vincit apostema compactum Gallia musta.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 43. Gariophilatum.</hi></head>
+							<lg>
+								<l>Proscribit ructus acidos et paectoris aestus,</l>
+								<l>Pressuras aperit, digestivam reparando</l>
+								<l>Ventris virtutem cui dat gariofila nomen.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 44. Hiera Galieni.</hi></head>
+							<lg>
+								<l>Luminibus, capiti, matrici, renibus, auri,</l>
+								<l n="465">Vesicae, spleni hiera portat opem Galieni.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 45. Hiera Ruffina.</hi></head>
+							<lg>
+								<l>Serpigo, scabies, a salso flegmate labes,</l>
+								<l>Lepra quae proprium nomen capit ac elephante,</l>
+								<l>Morphaea, quae maculat faciem, quae corpora foedat,</l>
+								<l>Hae sunt, Ruffine, credas nocumenta ruinae.</l>
+								<l n="470"><hi rend="italic">Ruffini yera</hi>leprae mundatio vera.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 46. Hiera Constantini.</hi></head>
+							<lg>
+								<l>Quam Constantinos tribuit purgat hiera visus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 47. Hiera Abbatis.</hi></head>
+							<lg>
+								<l>Nomine notitiam tibi dat hiera mira, guttam</l>
+								<l>Diluit et choleram purgat, cum flegmate nigra</l>
+								<l>Destruit algentem nervorum debilitatem,</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 48. Hygia.</hi></head>
+							<lg>
+								<l n="475">Hygia gingivae depellit rheuma, dolores</l>
+								<l>Ventris diminuit oculorum nubila solvit</l>
+								<l><hi rend="italic">Ygia</hi> fit denti medicina maxima patienti.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 49. Compositio hydromellis.</hi></head>
+							<lg>
+								<l>Tertia pars mellis iungatur partibus octo</l>
+								<l>Lymphae, coniunctis decoctum fit hydromellis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 50. Iustinum.</hi></head>
+							<lg>
+								<l n="480">Si nimium mingit, si corrumpat tibi lumbos</l>
+								<l>Calculus, yliacae si plecteris gravitate,</l>
+								<l>Utere iustino quod prodest strangurioso.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 51. Hidrocopion.</hi></head>
+							<lg>
+								<l>Oppresso triteo valet Idrocopion aegro</l>
+								<l>Frigora quartanat fugat et mala quotidianae.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 52. Imperiale.</hi></head>
+							<lg>
+								<l n="485">Pesti verrucosae stomacho valet Imperiale,</l>
+								<l>Yliacae vires elevat et absque dolore,</l>
+								<l>Consumit pingues, fervorem sanguinis aufert,</l>
+								<l>Et bene valet constrictos solvere ventres.</l>
+							</lg>
+						</div>
+						<pb n="478"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 53. Lithontripon.</hi></head>
+							<lg>
+								<l>Pertundit lapidem lithontripon et fugat omnem</l>
+								<l n="490">Iliacae causam, renum portans medicamen.</l>
+								<l>Cui ren aegrotet <hi rend="italic">lithontripon</hi> hic bene potet.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 54. Mitridatum.</hi></head>
+							<lg>
+								<l>Mitridatum vitium capitis quod procreat algor</l>
+								<l>Extinguit, confert timidis et sata medetur,</l>
+								<l>Causa melancholicis, oculis lacrimantibus, auris</l>
+								<l n="495">Succurrit vitio malae mala mitigat aegrum,</l>
+								<l>Evellit cani dentes mortale venenum,</l>
+								<l>Dissolvit pestis quartanae frigora, laxum</l>
+								<l>Constipat ventrem quem cocta balaustia firmat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 55. Musae aenea.</hi></head>
+							<lg>
+								<l>Si tibi quartana nocet hanc fugat aenea Musa,</l>
+								<l n="500">Cotidiana ruit, redit interrupta facultas</l>
+								<l>Mingendi, sudor vitam pronunciat aegro.</l>
+								<l><hi rend="italic">Musa</hi>facit sanae febri data quotidianae;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 56. Mel rosatum.</hi></head>
+							<lg>
+								<l>Cum calida stomachus medetur melle rosato,</l>
+								<l>Frigida si fuerit aqua confert debilitato,</l>
+								<l n="505">Humectum siccat pectus raucedine strictum.</l>
+								<l>Ampliat, et laterum castigat mel roseatum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 57. Memphitum Yerologodion.</hi></head>
+							<lg>
+								<l>Memphito cedunt, quae linguam noxia laedunt,</l>
+								<l>Phlegma, melancholicus humor, hieranoxa, dolores,</l>
+								<l>Algentis stomachi, vertigo, dolor capitalis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 58. Micleta.</hi></head>
+							<lg>
+								<l n="510">Sistit haemorrhoidas, tormentum mitigat, omnem</l>
+								<l>Compescit fluxum ventris micleta per usum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 59. Nephra potio.</hi></head>
+							<lg>
+								<l>Fert sterili foetum <hi rend="italic">nephra potio</hi>laetum;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 60. Oxymel Squilliticus.</hi></head>
+							<lg>
+								<l> - Squilliticum choleram purgat, castigat acutas,</l>
+								<l>Cocta satis tute febri succurit acutae,</l>
+								<l n="515">Curat ycteritiam, fervorem sanguinis aufert.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 61. Oxy simplex.</hi></head>
+							<lg>
+								<l> - Causonidis et sinochi vim simplex mitigat Oxy.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 62. Oxy laxativum.</hi></head>
+							<lg>
+								<l> - Quod ventrem laxat tritei discrimina cessat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 63. Oleum rosatum.</hi></head>
+							<lg>
+								<l>Mirrhae, mandragorae, violatus, iusquiamusque</l>
+								<l>Efflagrant oleum, quod fìt de flore rosarum,</l>
+								<l n="520">Artheticis calidis hepaticis confert et acutis</l>
+								<pb n="479"/>
+								<l>Si sit inuncta manu per nares tympora pulsus</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 64. Opopira.</hi></head>
+							<lg>
+								<l>Defectum mobile manuum, linguae, pedis, artus</l>
+								<l>Opopirae dosis fugat et confert tremulosis.</l>
+								<l><hi rend="italic">Oppopira</hi>si vis, cito pellit vitia paralisis;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 65. Oxycroceum</hi></head>
+							<lg>
+								<l n="525">. - Oxyrocei vis fracto convenit ossi,</l>
+								<l>Mitigat ingentes humore fluente dolores,</l>
+								<l>Solvit apostaseos ac indurata remollit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 66. Panchriston.</hi></head>
+							<lg>
+								<l>Panchriston capite gelidis renibus tribuatur</l>
+								<l>Solvit quartanam ventrern simul amphimerinam.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 67. Potio muscata.</hi></head>
+							<lg>
+								<l n="530">Potio muscata confortat debilitata,</l>
+								<l>Cordi iuvat, stomacho, scotosim solvens oculorum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 68. Pillula aurea.</hi></head>
+							<lg>
+								<l>Lumina clarificat, caput aurea pillula purgat.</l>
+								<l>Turbo ventosus stomachi ruit eius ad usus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 69. Pillulae sine quibus esse nolo.</hi></head>
+							<lg>
+								<l>Mundat visus quibus est nomen sine quibus</l>
+								<l n="535">Auribus, yliacae, veteri prosunt cephaleae.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 70. Pillulae masticis.</hi></head>
+							<lg>
+								<l>Tres partes aloes, masticis quarta, terantur</l>
+								<l>Cum succo solatri, pillulae sic conficiatur;</l>
+								<l>Confectus pillularum sic masticis fore dicunt.</l>
+								<l>Una quaeque die post coenam sumere possunt;</l>
+								<l n="540">Non laedunt non corrumpunt solvunt nec acute,</l>
+								<l>Et nihil est oculis, mi crede, salubrius istis,</l>
+								<l>Nam mundificant stomachum caput articulosque,</l>
+								<l>Humores nocivos et cum stercore purgant.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 71. Pigra Galieni.</hi></head>
+							<lg>
+								<l>Frigiditas capitis, matricis, nausea ventris,</l>
+								<l n="545">Errores stomachi pigra fugavit Galieni.</l>
+								<l><hi rend="italic">Pigra</hi>caput purgat, vitiis stomachique repugnat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 72. Pliris.</hi></head>
+							<lg>
+								<l>Et exacuit pliris sensus, oblivia tollit,</l>
+								<l>Tristitiae curas adimit, cor debile firmat,</l>
+								<l>Confortat cerebrum, hieranoxa liberat aegrum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 73. Philantropon.</hi></head>
+							<lg>
+								<l n="550">Stranguriam, lapidem, nephresim, laterisque dolorem</l>
+								<l>Splenis duriciem philoanthropos sedat ad unguem.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 74. Phylonium.</hi></head>
+							<lg>
+								<l>Pleuresis, iliaca, nephresis, colicus dolor, error</l>
+								<l>Algescens stomachus, peripleumonia, tumores</l>
+								<pb n="480"/>
+								<l>Splenis, vesicae vitium, vestigia sputi</l>
+								<l n="555">Sanguinei, vi phylonei sinit apta fugari.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 75. Potio Sacti Pauli.</hi></head>
+							<lg>
+								<l>Febri quartanae qua valet tua potio, Paule,</l>
+								<l>Nervos confortat, enervat vim hieranoxae.</l>
+								<l>Confert quartanae <hi rend="italic">Paulini potio</hi>sane;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 76. Paulinum.</hi></head>
+							<lg>
+								<l>Quam dat descensus humorum dextruit usum- Paulini tussim thoracis frigora tollit</l>
+								<l n="560">Quod chimus offendit, oculo sua via rependit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 77. Rosata novella</hi></head>
+							<lg>
+								<l>Sudores grata mala post diurria rosata.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 78. Rubea trociscata.</hi></head>
+							<lg>
+								<l>Eximat falsam rubeae vis quotidianam,</l>
+								<l>In triteo confert, descensum rheumatis aufert.</l>
+								<l>Et rubeae gustus colerae fugit humor adustus;</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 79. Requies magna.</hi></head>
+							<lg>
+								<l n="565">In synocha causon in acutis et peracutis</l>
+								<l>Ut sompnum facias exhibeas requiem;</l>
+								<l>Dat requies requiem quartanis, quotidianis,</l>
+								<l>Tertia quam revocat lux febris noxia cessat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 80. Stomatichum frigidum, et calidum.</hi></head>
+							<lg>
+								<l>Quod capit a stomacho nomen succurrit acutis,</l>
+								<l n="570">Fervorem reprimit, sitis nutrimenta repellit,</l>
+								<l>Si vis confectis dominatur frigiditatis;</l>
+								<l>Si calidum fuerit ventrem iuvat, ylia solvit,</l>
+								<l>Si medicina nocet modicum fluxum magis auget,</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 81. Sal Sacerdotale.</hi></head>
+							<lg>
+								<l>Sale Sacerdotis capitis dolor et malus oris</l>
+								<l n="575">Cedit odor, caligo cadit tenebras oculorum</l>
+								<l>Inducens, tusses fugiunt et anhelitus altus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 82. Sotira magna</hi></head>
+							<lg>
+								<l>. - Turbo melancholicus, oculi, dentis, dolor auris</l>
+								<l>Passio longeva, tussis violenta, podogra,</l>
+								<l>Impetus artheticae, peripleumonia, frenesis,</l>
+								<l n="580">Poena sciae, stomachi vomitus, vitium hieranoxae,</l>
+								<l>Sputum sanguineum, virus lethale, solutus</l>
+								<l>Venter, quartana, dolor asthmaticus, violenta</l>
+								<l>Dispnia, conturbans capitis dolor, ictericorum,</l>
+								<l>Munda cutis, Sotirae valescunt munere magnae.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 83. Syrupus violarum.</hi></head>
+							<lg>
+								<l n="585">Humectat febris siccitas, ventrisque reducit</l>
+								<l>Offensam, affectus sitis extinguit violatus.</l>
+							</lg>
+						</div>
+						<pb n="481"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 84. Sirupus rosarum.</hi></head>
+							<lg>
+								<l>Ventrem constipat, castigat caumala febris,</l>
+								<l>Confortat, pellitque sitim, fugat ariditatem</l>
+								<l>Syrupi virtus; rosa quem producit ad usum.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 85. Tyriaca.</hi></head>
+							<lg>
+								<l n="590">Vis apoplexiae, scotosis, cephalaea, venenum</l>
+								<l>Humida raucedo, pressuraque pectoris arti</l>
+								<l>Asthmatis insultus, peripleumonia, labores</l>
+								<l>Iliacae, dolor artheticus, nephresis, lapis, algens</l>
+								<l>Ydropisis, colicae violentia, menstrua, foetus</l>
+								<l n="595">Mortuus, ictericae labes, contagia leprae,</l>
+								<l>Fumositas stomachi hieranoxae passio splenis,</l>
+								<l>Defectus cerebri vitium, compressio splenis</l>
+								<l>Poena febris typicae magna cedit tyriaca</l>
+								<l>Solus<hi rend="italic"/>in anteriore confert potus <hi rend="italic">tyriacae</hi>.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 86. Trifera Saracenica.</hi></head>
+							<lg>
+								<l n="600">Ictericae labes, hepatis calor et cephalaea</l>
+								<l>Ex cholera, trifera duplex quem sepelit ardor,</l>
+								<l>Luminis offensae cholerae quem pungit acumen.</l>
+								<l>Si quemque laedunt tibi Sarracenica cedunt,</l>
+								<l>Potus <hi rend="italic">triphera</hi>e membri est menstrua vere.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 87. Trifera magna.</hi></head>
+							<lg>
+								<l n="605">Trifera magna vincit conceptum, menstrua promit,</l>
+								<l>Matricem mundat, sompnum surgentibus affert,</l>
+								<l>Corrigit errores stomachi, confert mulieri,</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 88. Triasandali.</hi></head>
+							<lg>
+								<l>Icterum, phtisim, stomachi, capitisque dolorem</l>
+								<l>Ex cholera pellit, cui nomen sandalus addit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 89. Theodericon anacardinum.</hi></head>
+							<lg>
+								<l n="610">Lethargia stupens, vertigo, frigida matrix,</l>
+								<l>Nervi debilitas, haec sunt si noxia cuivis</l>
+								<l>Et anacardino procedit causa salutis.</l>
+								<l><hi rend="italic">Theodoron</hi>gliscit, quem febris atra tumescit.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 90. Unguentum aureum.</hi></head>
+							<lg>
+								<l>Gutta pedum, vis stranguriae, destructio nervi,</l>
+								<l n="615">Calculus, hydropicis, et frigida passio, quaevis</l>
+								<l>Cedunt unguento, quod nomen sumit ab auro.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 91. Unguentum marciaton.</hi></head>
+							<lg>
+								<l>Thoracis, capitis, stomachi dolor, algor, acumen</l>
+								<l>Yliacae, dolor artheticus, scia, lepra, podagra,</l>
+								<l>Splen durum, sclirosis hepatis, renum mala, urina</l>
+								<l n="620">Deficiens haec sunt quae marciaton iuvat usus.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 92. Unguentum citrunum.</hi></head>
+							<lg>
+								<l>Lentigo, leprae, labes, inculta citratrix,</l>
+								<l>Postula, quam salsi producit flegmatis ardor,</l>
+								<l>Vi cadit unguenti decocti gramine citri.</l>
+							</lg>
+						</div>
+						<pb n="482"/>
+						<div>
+							<head><lb/><hi rend="italic">§ 93 Unguentum Agrippa.</hi></head>
+							<lg>
+								<l>Indignans nervus quivis timor et dolor omnis</l>
+								<l n="625">Corporis, absque mora tibi fervens cedit Agrippa.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 94. Unguentum populeon</hi></head>
+							<lg>
+								<l>Populeon fugat ardores et lenit acutas</l>
+								<l>Inducit sompnum, manibus, pede, tempora tactis.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 95. Unguentum fuscum.</hi></head>
+							<lg>
+								<l>Fuscum dum mundat siccando vulnera sanat.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 96. Zinziber conditum.</hi></head>
+							<lg>
+								<l>Plurima conditum solatia zinziber affert.</l>
+								<l n="630">Algorem stomacho, thoraci, renibus aufert.</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 97. Zuccorum rosatum</hi></head>
+							<lg>
+								<l>. - Artheticum, fluxum ventris, stomachique dolorem</l>
+								<l>Depellit zuccarae confortativa rosatae</l>
+							</lg>
+						</div>
+						<div>
+							<head><lb/><hi rend="italic">§ 98. Zuccarum violarum</hi></head>
+							<lg>
+								<l>. - Pectoris ariditas, ethicae, consumptio, phtisis,</l>
+								<l>Pleuretici, peripleumatici, pressura negatum</l>
+								<l n="635">Ventris usus, zuccarae, violatae cedit ad usus.</l>
+							</lg>
+						</div>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. De ponderibus ac mensuris.</hi></head>
+					<lg>
+						<l>Audi laetando quid dicam versificando.</l>
+						<l>Collige triticeis medicina pondera granis,</l>
+						<l>Grana quater quinque scrupoli pro pondere sume,</l>
+						<l>In drachmam scrupulus ter surgit multiplicatus;</l>
+						<l n="640">Si solidum quaeris, tres drachmas dimidiabis;</l>
+						<l>Exagium solido differt in nomine solo;</l>
+						<l>Aures exagio, solidoque parificatur;</l>
+						<l>Constat sex solidis, vel ter tribus uncia drachmis;</l>
+						<l>Uncia par librae duodena quis ambiget inde?</l>
+						<l n="645">Si quaeris pondus, quot habet sextarius unus,</l>
+						<l>Librarum quinque pondus debes dimidiare;</l>
+						<l>Cotyla sextario differt in nomine solo;</l>
+						<l>Continet heminas sextarius ut puta binas;</l>
+						<l>Ut fertur obolus semiscrupulus esse probatur;</l>
+						<pb n="483"/>
+						<l n="650">Caeterae mensurae non sint tibi nomina curae,</l>
+						<l>Nam quia sunt ficta surdescunt sunt derelicta,</l>
+						<l>Non eris illusus si tenes quod tenet usus.</l>
+					</lg>
+				</div>
+			</div>
+			<div type="book">
+				<head><lb/>PARS TERTIA - ANATOMICA -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. unicus. Humani corporis partes.</hi></head>
+					<lg>
+						<l>Ossibus ex denis bis centenisque novenis</l>
+						<l>Constat homo; denis bis dentibus et duodenis;</l>
+						<l>Ex tricentenis decies sex quinque venis.</l>
+						<l>Os, nervus, vena, caro, cartilagoque, corda,</l>
+						<l n="5">Pellis et axungia tibi sunt simplicia membra:</l>
+						<l>Hepar, fel, stomachus, caput, splen, pes, manus et cor,</l>
+						<l>Matrix et renes et vesica sunt officialia membra.</l>
+					</lg>
+				</div>
+			</div>
+			<pb n="483"/>
+			<div type="book">
+				<head><lb/>PARS QUARTA - PHYSIOLOGICA. -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Res naturales.</hi></head>
+					<lg>
+						<l>Res naturales septem sunt: scilicet aer,</l>
+						<l>Corpus, humor, opus, membrum, complexio virtus:</l>
+						<l>Istis annexa dicuntur quatuor ista</l>
+						<l>Esse, figura, color, aetas, distantia sexus.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. De quatuor complexionibus humorum.</hi></head>
+					<lg>
+						<l n="5">“Quatuor humores humano corpore constant.</l>
+						<l>“Sanguis cum cholera, melancholia quoque flegma,</l>
+						<l>“Terra melancholicis, aqua confert pituitae,</l>
+						<l>Aer sanguineis, ignea vis cholerae.</l>
+						<l>Humidus est sanguis, calet vis aeris illi;</l>
+						<l n="10">Alget, humet flegma, ac illi vis fit aquosa;</l>
+						<l>Sicca, calet cholera, sic est igni similata;</l>
+						<l>Melancholia vero friget, et dessiccat quasi terra.</l>
+					</lg>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 1. Sanguinei.</hi></head>
+						<lg>
+							<l>“Natura pingues isti sunt atque jocantes,</l>
+							<l>“Rumoresque novos cupiunt audire frequenter;</l>
+							<l n="15">“Hos Venus et Bacchus delectant, fercula, risus,</l>
+							<l>“Et facit hos claros et dulcia verba loquentes.</l>
+							<l>“Omnibus hi studiis habiles sunt et magis apti,</l>
+							<l>“Qualibet ex causa non hos leviter movet ira,</l>
+							<l>“Largus, amans, hilaris, ridens, rubeique coloris,</l>
+							<l n="20">“Cantans, carnosus, satis audax, atque benignus.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Cholerici.</hi></head>
+						<lg>
+							<l>“Est et humor cholerae qui compatit impetuosis,</l>
+							<l>“Hoc genus est hominum cupiens praecellere cunctos:</l>
+							<l>“Hi leviter discunt, multum comedunt, cito crescunt;</l>
+							<l>“Iidem magnanimes sunt, largi, summa petentes.</l>
+							<l n="25">“Hirsutus, fallax, irascens, prodigus, audax,</l>
+							<l>“Astutus, gracilis, siccus, croceique coloris.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Flegmatici.</hi></head>
+						<lg>
+							<l>“Flegma viros modicos tribuit, latosque, brevesque;</l>
+							<l>“Flegma facit pingues, sanguis reddit mediocres;</l>
+							<l>“Otia non studio tribuunt, sed corpora somno,</l>
+							<l n="30">“Sensus hebes, tardus motus, pigritia, somnus;</l>
+							<l>“Hic somnolentus, piger, in sputamine multus;</l>
+							<l>“Hebes ei sensus, pinguis facies, color albus.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 4. Melancholici.</hi></head>
+						<lg>
+							<l>“Restat adhnc cholerae virtutes dicere nigrae,</l>
+							<l>“Quae reddit tristes, pravos, perpauca loquentes;</l>
+							<l n="35">“Hi vigilant studio, nec mens est dedita somno:</l>
+							<l>“Servant propositum, sibi nil reputant fore tutum.</l>
+							<l>“Invidus et tristis, cupidus, dextraeque tenacis,</l>
+							<l>“Non expers fraudis, timidus, luteique coloris.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 5. Epilogus.</hi></head>
+						<lg>
+							<l>“Hi sunt humores, quos praestant cuique colores:</l>
+							<l n="40">“Omnibus in rebus ex flegmate fit color albus;</l>
+							<l>“Sanguine fit rubeus, cholera rubea quoque rufus;</l>
+							<l>Corporibus fuscum bilis dat nigra colorem;</l>
+							<l>Esse solent fusci quos bilis possidet atra.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 6. De tribus humiditatibus.</hi></head>
+						<lg>
+							<l>Est prima humiditas irrorans membra, secunda</l>
+							<l n="45">Perdita restaurat, tertia membra ligat.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 7. Digestio in hepate.</hi></head>
+						<lg>
+							<l>Excoquit humores hepar, istos meliores</l>
+							<l>Tollere membra facit, caetera membra jacit.</l>
+						</lg>
+					</div>
+					<pb n="485"/>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 8. Receptacula humorum.</hi></head>
+						<lg>
+							<l>Nigram splen choleram, dicatur sanguine vena,</l>
+							<l>Pulmo flegma capit, fel choleramque rapit.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 9. Generatio humorum et expulsio.</hi></head>
+						<lg>
+							<l n="50">Fit stomacho chylus, generatur in hepate chimus</l>
+							<l>Sanguis per venas purgatur, flegma veretro,</l>
+							<l>Fel per sudores, sed melancholia retro.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 10. Purgatio humorum.</hi></head>
+						<lg>
+							<l>Vis digestiva se purgat prima foecando,</l>
+							<l>Altera mingendo, trina sedimen tribuendo.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Consensus rerum.</hi></head>
+					<lg>
+						<l n="55">Consona sunt aer, sanguis, pueritia, verque;</l>
+						<l>Conveniunt ignis, aestas, choleraque, juventus;</l>
+						<l>Autumnus, terra, melancholia, senectus;</l>
+						<l>Decrepitus vel hyems, aqua, flegmaque sociantur</l>
+					</lg>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 1. Elementorum natura.</hi></head>
+						<lg>
+							<l>Aeris, ignis, aquae, terrae gravitas levitasque</l>
+							<l n="60">Dum convenire microcosmum constituere;</l>
+							<l>Ignis fervorem, visum dat, mobilitatem,</l>
+							<l>Externa carnem trahit et gravitatem.</l>
+							<l>Aer huic donat, quod flat, sonat, audit, odorat,</l>
+							<l>Gustum et olfactum, humor est et sanguinis usus.</l>
+							<l n="65">Aestas sicca calens, autumnus siccusque friget,</l>
+							<l>Friget et humet hyems, calidum ver extat et humet.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Parallelismus signorum coelestium cum partibus.</hi></head>
+						<lg>
+							<l>Ut Coelum signis praefulgens est duodenis</l>
+							<l>Sic hominis corpus assimilatur eis.</l>
+							<l>Nam caput et faciem <hi rend="italic">Aries</hi>sibi gaudet habere,</l>
+							<l n="70">Gutturis et colli vis tibi, <hi rend="italic">Taure,</hi>datur.</l>
+							<l>Brachia cum manibus <hi rend="italic">Gemini</hi>sunt apta decenter;</l>
+							<l>Natura intima <hi rend="italic">Cancer</hi>pectoris aulam gerit;</l>
+							<l>Ast <hi rend="italic">Leo</hi>vult stomachum, renes sibi vindicat idem;</l>
+							<l>Atque intestinis <hi rend="italic">Virgo</hi>praeesse cupit.</l>
+							<l n="75">Ambas <hi rend="italic">Libra</hi>nates, ambas sibi vindicat anchas,</l>
+							<l><hi rend="italic">Scorpio</hi>vult anum, vultque pudenda sibi.</l>
+							<l>Inde <hi rend="italic">Sagittarius</hi>in coxis vult dominari,</l>
+							<l>Amborum genubus vim<hi rend="italic">Capricornus</hi>habebit;</l>
+							<pb n="486"/>
+							<l>Regnat <hi rend="italic">Aquario</hi>crurum vi apta decenter;</l>
+							<l n="80"><hi rend="italic">Piscibus</hi>est demum congrua planta pedum.</l>
+							<l>Haec media lege bona thau. leo scor. mala valdo,</l>
+							<l>Sunt minus iata mala cancer, piscesque, chyrona.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Organorum vis psychica.</hi></head>
+						<lg>
+							<l>Cor sapit, pulmo loquitur, fel commovet iram,</l>
+							<l>Splen ridere facit, cogit amare jecor.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Generatio hominum.</hi></head>
+					<lg>
+						<l n="85">Massa rudis primo, post embrio, postea foetus</l>
+						<l>Conceptum semen sex primis crede diebus.</l>
+						<l>Est quasi lac, reliquisque novem fit sanguis, et inde</l>
+						<l>Consolidat duodena dies, bis nona deinceps</l>
+						<l>Effigiat, tempusque sequens producit in ortum.</l>
+						<l n="90">In mare terdena fit lux quaterve decena</l>
+						<l>Vel quadragena, quinta formatio plena,</l>
+						<l>..... motus duplat, partus triplat illum.</l>
+					</lg>
+				</div>
+			</div>
+			<div type="book">
+				<head><lb/>PARS QUINTA – ETIOLOGICA -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Signa Astrologica.</hi></head>
+					<lg>
+						<l>Nil capiti facies, <hi rend="italic">Aries</hi> cum luna refulget;</l>
+						<l>In manu minuas et balnea tutius intres;</l>
+						<l>Non tangas nares, nec barbam radere debes.</l>
+						<l>Arbor plantetur cum luna <hi rend="italic">Taurus</hi>habetur;</l>
+						<l n="5">Aedificari potes, et spergas semina terrae;</l>
+						<l>Et medicus timeat cum ferro tangere collum.</l>
+						<l>Brachia non minuas cum lustrat luna <hi rend="italic">Gemellos;</hi></l>
+						<l>Unguibus et manibus cum ferro curam neges,</l>
+						<l>Numquam praestabis a promissione petitum.</l>
+						<l n="10">Pectus, pulmo, jecur in <hi rend="italic">Cancro</hi>non minuatur;</l>
+						<l>Somnia falsa vides; est utilis emptio rerum;</l>
+						<l>Potio sumatur; securus pergit viator.</l>
+						<l>Cor gravat stomachum cum cernit luna <hi rend="italic">Leonem</hi>;</l>
+						<l>Non sarcies vestes, nec ad convivia vadas.</l>
+						<l n="15">Et nil ore vomas, nec sumes tunc medicinas.</l>
+						<l>Lunam <hi rend="italic">Virgo</hi>tenet, uxorem ducere noli;</l>
+						<l>Detur agro semen, dubitat intrare cubilem;</l>
+						<l>Costas unguentis tentes curare cyrurgicis</l>
+						<pb n="487"/>
+						<l><hi rend="italic">Libra</hi>tenet lunam, nemo tangat genitalia,</l>
+						<l n="20">Et renes, nates; nec iter capere tentes;</l>
+						<l>Extremam partem Librae cum luna tenebit.</l>
+						<l><hi rend="italic">Scorpius</hi>augmentat morbos in parte pudenda;</l>
+						<l>Vulnera ne cures; timeas ascendere naves;</l>
+						<l>Ne capias iter; caveas de morte ruinam.</l>
+						<l n="25">Luna tenet femori perpetes mota<hi rend="italic">Sagitta</hi>;</l>
+						<l>Flebothomia prodest, sed debita quaerere noli;</l>
+						<l>Rade caput; minuantur brachia, balnea quaere;</l>
+						<l>Ungues et crinem, poteris abscindere tute.</l>
+						<l><hi rend="italic">Caper</hi>nocet genibus, ipsa cum luna tenebit;</l>
+						<l n="30">Intrat anguis novis cito curabitur aeger;</l>
+						<l>Indugia timuit, nihilque durabit in ipso;</l>
+						<l>Capere viam tutius est, potio sumpta salutis;</l>
+						<l>Plantas ne medices, legatos mittere noli.</l>
+						<l><hi rend="italic">Aquarius</hi>lunam tenet, tunc crura tangere cave;</l>
+						<l n="35">Insere tunc plantas; excelsas erige turres;</l>
+						<l>Et si capis iter, ad locum tardius ibis.</l>
+						<l><hi rend="italic">Piscis</hi>habet lunam noli curare podagram;</l>
+						<l>Carpe viam tutus; fuit potio sumpta salubris;</l>
+						<l>Embrio conceptus epilepticus exit ab alvo.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. De mensibus plus laedentibus impregnata.</hi></head>
+					<lg>
+						<l n="40">Primus, post quartus, post septimus, inde novenus.</l>
+						<l>Quatuor hii menses plus laedunt parturientes.</l>
+						<l>Primo vexantur cum menstrua detineantur,</l>
+						<l>Quae quia stringuntur a febribus accipiuntur.</l>
+						<l>Quarto vexari debent, quia vivificari</l>
+						<l n="45">Foetum testatur, ita reperis unde gravatur.</l>
+						<l>Septimus hiis mensis gravis est quia jam velut ensis.</l>
+						<l>Illas incidit graviter; repedansque recidit;</l>
+						<l>Laedit eas nonus, quo debent ponere onus.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Causae variae</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Causae derivationis.</hi></head>
+						<lg>
+							<l>Debile suscipiens, impellens forte, cadens vis</l>
+							<l n="50">Retentiva simul fragilis via larga pororum,</l>
+							<l>Sunt causae cur ab hoc membro fluit humor in illud;</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Causae constipationis.</hi></head>
+						<lg>
+							<l>Deficient autumni fructus funerea praestant,</l>
+							<l>Impediunt ventrem, via stricta, virentia membra,</l>
+							<pb n="488"/>
+							<l>Ariditas, virtus victa, fumique graves.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Causae titubationis</hi></head>
+						<lg>
+							<l n="55">Impediunt linguam fructus, brevis humor, ineptus</l>
+							<l>Virtus, mens praeceps, mens peregrina, timor.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 4. Impedimenta auditus.</hi></head>
+						<lg>
+							<l>Balnea, sal, vomitus, anser, repletio, clamor,</l>
+							<l>“Et mox post escam dormire, nimisque moveri,</l>
+							<l>“Ista gravare solent auditum, ebrietasque.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 5</hi></head>
+						<lg>
+							<l n="60">. <hi rend="italic">Causae tinnitus</hi></l>
+							<l>“Motus, longa fames, vomitus, percussio, casus,</l>
+							<l>“Ebrietas, frigus, tinnitum causat in aure</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 6. Causae doloris aurium</hi></head>
+						<lg>
+							<l>Ventus, apostema, dolor, fames, ictus et aestus,</l>
+							<l>Atque clamor causae sunt quales quatuor istae.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 7. Nociva oculorum</hi></head>
+						<lg>
+							<l n="65">Ista nocent oculis: nocturna refectio, potus,</l>
+							<l>Pulvis, scriptura, fletus, vigilia, cura,</l>
+							<l>“Balnea, vina, venus, ventus, piper, allia, fumus,</l>
+							<l>“Porri cum caepis, lens, <hi rend="italic">fletus,</hi>faba, synapis,</l>
+							<l>“Sol, coitus, ignis, labor, ictus, acumina, <hi rend="italic">pulvis.</hi></l>
+							<l n="70">“Ista nocent oculis: sed vigilare magis.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 8. Causae raucitatis</hi></head>
+						<lg>
+							<l>“Nux, oleum, frigus capitis, anguillaque, potus</l>
+							<l>“Atque crudum pomum, faciunt hominem esse raucum.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 9. Causae febris</hi></head>
+						<lg>
+							<l>Efficit febrem, generat, custodit et auget,</l>
+							<l>Ut putredo, pori constrictio, prava diaeta.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 10. Causae febris putridae.</hi></head>
+						<lg>
+							<l n="75">Humor naturam spissus, liquidusque, cohaerens</l>
+							<l>Egressus pravique chimi, strictura pororum,</l>
+							<l>Sunt causae quare nascatur putrida febris.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 11. Morbi ex ventositate</hi></head>
+						<lg>
+							<l>“Quatuor ex vento veniunt in ventre retento:</l>
+							<l>“Spasmus, hydrops, colica, vertigo: quatuor ista.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 12. Causae hydropis vel aliorum.</hi></head>
+						<lg>
+							<l n="80">Frigiditas mala si sit per tempora longa</l>
+							<l>Nascitur in fine leucophlegmaticus inde,</l>
+							<l>Aut apoplexia, vel phtitis, vel cachexia.</l>
+						</lg>
+					</div>
+					<pb n="489"/>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 13. Abundantia sanguinis</hi></head>
+						<lg>
+							<l>“Si peccet sanguis, facies rubet, extat ocellus,</l>
+							<l>“Inflantur venae, corpus nimiumque gravatur:</l>
+							<l n="85">“Est pulsus frequens, plenus, mollis, dolor ingens</l>
+							<l>“Maxime fit frontis, et fit constipatio ventris,</l>
+							<l>“Siccaque lingua, sitis et somnia plena rubore,</l>
+							<l>“Dulcor adest sputi, sunt acria, dulcia quaeque.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 14. Morbi sanguinis.</hi></head>
+						<lg>
+							<l>Pleures et synochus, emothois hinc generatur;</l>
+							<l n="90">Pustula lata rubens, sic synocha, morphea talis,</l>
+							<l>Post longum tempus alchites exitialis,</l>
+							<l>Et ver, subtilis regio, similisque diaeta.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 15. Abundantia cholerae.</hi></head>
+						<lg>
+							<l>Accusant choleram dextri dolor, aspera lingua,</l>
+							<l>Tinnitus, vomitusque fraequens, vigilantia multa,</l>
+							<l n="95">Multa sitis, pinguis egestio, torsio ventris;</l>
+							<l>Nausea fit, morsus cordis; languescit orexis;</l>
+							<l>Pulsus adest gracilis, durus, veloxque, calescens,</l>
+							<l>Aret, amaretque os, incendia somnia fingunt.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 16. Morbi cholerae</hi></head>
+						<lg>
+							<l>Pruritus choleram jecorisque calor comitatur,</l>
+							<l n="100">Hinc fervor, hinc causon, hinc trina febris generatur;</l>
+							<l>Cancer, sive lupus, erysipela sacra creatur,</l>
+							<l>Morphea, siccus hydrops, icter, phtisis hinc generatur</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 17. Abundantia flegmatis</hi></head>
+						<lg>
+							<l>Flegma supergrediens proprias in corpore vires,</l>
+							<l>Os facit insipidum, fastidia crebra, salivas,</l>
+							<l n="105">Costarum, stomachi simul, occipitisque dolores;</l>
+							<l>Pulsus adest rarus, tardus, mollis, quoque inanis;</l>
+							<l>Praecedit fallax phantasmata somnus aquosa.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 18. Morbi flegmatis</hi></head>
+						<lg>
+							<l>Proxima paralysis nisi praecedat medicina;</l>
+							<l>Excubat in foribus nervorum passio letae,</l>
+							<l n="110">Longa quies tali dominatur suspicione,</l>
+							<l>Mollis hyems, senium, regio conformis et esca.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 19. Abundantia melancoliae</hi></head>
+						<lg>
+							<l>Humorum pleno dum faex in corpore regnat,</l>
+							<l>Nigra cutis, pulsus durus, tardus, tenuisque urina,</l>
+							<pb n="490"/>
+							<l>Sollicitudo, timor, et tristitia somnia tetra;</l>
+							<l n="115">Acescunt ructus, sapor et sputaminis idem,</l>
+							<l>Laevaque praecipue tinnit, vel sibilat auris;</l>
+							<l>Melanc. dat splenem, ructum crudum, scotomiamque.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 20. Morbi melancolias</hi></head>
+						<lg>
+							<l>Auris laeva sonat, corpus patitur cathociam;</l>
+							<l>Mania, cancer, hydrops, hemorrhois hinc generantur;</l>
+							<l n="120">Syncopis atque sanies, elephantica foeda creantur.</l>
+							<l>Hinc pars nigrescens hujus est indicatio pestis;</l>
+							<l>Temporis, aetatis mores, regionis et escae.</l>
+							<l>Cancer, lepra, elephas, scabies, quartanaque febris,</l>
+							<l>Atque melancholicus morbus de nomine dictus.</l>
+						</lg>
+					</div>
+				</div>
+			</div>
+			<div type="book">
+				<head><lb/>PARS SEXTA - SEMIOTICA -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Signa morborum.</hi></head>
+					<lg>
+						<l>Monstrat opus laesum, tumor egestum, dolor aegrum;</l>
+						<l>Infigit, pungit, extendit, aggravat, errat,</l>
+						<l>Sanguineus, croceus, juvenis, niger humor et aure.</l>
+						<l>Sanguis et vomitus ventris purgatio, sputum</l>
+						<l n="5">Sudor, aposthema medici dant tacita signa.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Prognosis bona</hi></head>
+					<lg>
+						<l>Vis, levitas, sensus, spirtus, mens, somnus et actus,</l>
+						<l>Ista notanda prius, post haec decoctio, fluxus,</l>
+						<l>Praestant infirmis verissima signa salutis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Prognosis mala</hi></head>
+					<lg>
+						<l>Febris acuta, rigor, spasmus, detractio vocis,</l>
+						<l n="10">Et vomitus, cordis defectio, linguae nigredo,</l>
+						<l>Rubeus oculus, tremulus, minus intra,</l>
+						<l>Mortem demonstrant fracta cervice futuram.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Prognosis ex oculo.</hi></head>
+					<lg>
+						<l>Haec oculi signa, cum febre novem mala signa</l>
+						<l>Peccant: animus, tenebrae, coitus, minor alter,</l>
+						<l n="15">Sanguineus, pallens, lippus, tremulus, nimis aestus.</l>
+					</lg>
+				</div>
+				<pb n="491"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V. Signa mortis</hi></head>
+					<lg>
+						<l>Prima tibi facies occurrit, prima notetur,</l>
+						<l>In se signa gerit, quibus aegri crisis habetur;</l>
+						<l>Lumina si lateant, aut sint subfusa rubore</l>
+						<l>Signa mortis habent, vario distincta colore.</l>
+						<l n="20">Livida si fuerint, aut effugientia lumen,</l>
+						<l>Hoc tibi designant, notantes mortis acumen.</l>
+						<l>Auris pulpa rigens, frons arida, tempora plana,</l>
+						<l>Naris acuta, labor immotus, somnia vana,</l>
+						<l>Algor in extremis, et calor et sitis interiorum.</l>
+						<l n="25">His visis abeas, curamque geras aliorum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. Semiotice moribundi</hi></head>
+					<lg>
+						<l>His signis moriens certis cognoscitur aeger:</l>
+						<l>Fronte rubet primo, pedibus frigescit in imo,</l>
+						<l>Inde supercilium deponit fine propinquo.</l>
+						<l>Decidit et mentus, laevus lacrimatur ocellus,</l>
+						<l n="30">Deficit auditus nasus summotenus albet.</l>
+						<l>Sponte suo plorans, mortis pronunciat horam.</l>
+						<l>Ante venit pulsus decurrens propero nisu.</l>
+						<l>Excubias patitur juvenis noctuque diuque,</l>
+						<l>Sique senes dormit, designat nocte resolvi.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VII. Semiotice urinae</hi></head>
+					<lg>
+						<l n="35">Qualibet urina si sanguis inundat abunde,</l>
+						<l>Apparent grossae rubeo dominante colore.</l>
+						<l>Si fel, subtiles, citroque colore nitentes;</l>
+						<l>Flegma quidem grossas, nec non determinat albas;</l>
+						<l>Sed niger humor eas subtiles reddit et albas,</l>
+						<l n="40">Sed sanativa vis tale videtur habere.</l>
+						<l>Et in eis tantum moderatio quatuor horis,</l>
+						<l>Parte quidem nona substitit hypostasis ulla.</l>
+						<l>Coctioni superet tantum tamen tunc parvula paret,</l>
+						<l>Quae si magna paret, jam tertia coctio languet.</l>
+						<l n="45">Nam penetrans morbus jam destillavit ad artus,</l>
+						<l>Unde venenosis infertur causa salutis,</l>
+						<l>Sic ut lauriolis et squillis et titimallis,</l>
+						<l>Quisquis urinas verissime noscere curas.</l>
+						<l>Et curata feras carmina nostra legas.</l>
+						<pb n="492"/>
+						<l n="50">Quicquid enim scribam probat ars et opus medicinae.</l>
+						<l>Estque mihi testis mons physicus pessulanus.</l>
+						<l>Prodeat in medium nec sint abscondita mecum,</l>
+						<l>Et commune fiat quod fuit ante meum.</l>
+						<l>Ut reor urinis calor extat causa ruboris,</l>
+						<l n="55">Frigiditas albi, sed humor grossitiei;</l>
+						<l>Subtilis, siccus generabunt qualia rufum;</l>
+						<l>Sanguis michiram spissam fundit rubicundum:</l>
+						<l>Album flegma facit spissam, similem quoque lacti;</l>
+						<l>Cholera micturam tenuem fundit rubicundam;</l>
+						<l n="60">Melancholia tenuem, permixtam palliditati;</l>
+						<l>Spissat ac tenues reddit mediocriter acre;</l>
+						<l>Flegma facit plenum quod sit glaciale, globosum,</l>
+						<l>Sed sanitatem nil tale videtur habere:</l>
+						<l>De prope spissa magis hominis mictura videtur,</l>
+						<l n="65">Nec liquor est alius cui talis regula detur:</l>
+						<l>In vitro puro mane totalem collige sane,</l>
+						<l>Non trasmutetur radians sol quando videtur;</l>
+						<l>Dum quis prospiciat iterato non calefiat.</l>
+						<l>Turbida, vel clara subalba, spissa vel ampla,</l>
+						<l n="70">Ampula, color et odor quae sint contenta notentur.</l>
+						<l>Crudificant color albus, glaucus, lacque traropos;</l>
+						<l>Pallidus incipiunt, subpall subtilis mediatque;</l>
+						<l>Citrinus cum rufo, subrufo quoque complent,</l>
+						<l>Subrubeus, rubeus, rubicundus, subrubicundus;</l>
+						<l n="75">Excedunt inopos, tryanos, viridis, niger urant;</l>
+						<l>Hi duo mortificant luridus atque niger;</l>
+						<l>Virginis urina diaphana sit aut maculata;</l>
+						<l>Turbida, spermatica loca sistunt insignia signa,</l>
+						<l>Praegnantis primo vel trino menseque bino,</l>
+						<l n="80">Clara sit et album sedimen, nebulaeque minutae,</l>
+						<l>A quarto foetu vivo serena videtur.</l>
+						<l>Urinam tingunt febris, paucus cibus et aestus,</l>
+						<l>Ira brevis, somnus, ira, diaeta, labor.</l>
+						<l>Saepius artificem deludit forma coloris,</l>
+						<l n="85">Et fraudat plerumque fidem censura liquoris;</l>
+						<l>Dant contenta fidem, fallit color et liquor artem;</l>
+						<l>Tu quoque cuncta vide, nec profer verba repente.</l>
+						<l>Est in contentis rata lex, descriptio trita,</l>
+						<l>Iudicii constare regulam recta fide.</l>
+						<l n="90">Ceterum postponens naturae conscius auctor</l>
+						<l>Hic Hippocras vim scientia firma trahit.</l>
+						<l>Nec contentorum seriatim forma vocetur,</l>
+						<l>Et caruit Hypocras significantia more.</l>
+						<l>Urinae fundo, medio, summo tria constant.</l>
+						<l n="95">Hypos. ene. nephilis, sedimen genus omnibus ist.</l>
+						<pb n="493"/>
+						<l>Crudorem valde tenuis dat spissaque valde.</l>
+						<l>Obscurus, pravus, glaucus, rubens, cinerosus,</l>
+						<l>Citrinus, viridis, niger, ypostaseos exit;</l>
+						<l>Album, citrinum, constans, residens pro meatum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VIII. Semiotice pulsuum.</hi></head>
+					<lg>
+						<l n="100">Qualiter urinam dirimat forma coloris</l>
+						<l>Sic etiam pulsuum species et forma tenoris.</l>
+						<l>Humorum non pulsum plenum determinat esse;</l>
+						<l>Ariditas vero subtilem denotat esse;</l>
+						<l>Si calor exundat, pulsus citus esse notetur;</l>
+						<l n="105">Causa quidem pigri, sic frigoris esse probatur.</l>
+						<l>Sanguis habet pulsum plenum quoque tarde meantem,</l>
+						<l>Sed niger humor subtilem multumque morantem.</l>
+						<l>Sicque secundum quatuor humorum rationes</l>
+						<l>Pulsus habet motus, et certam cognitionem</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IX. Pulsus in febre</hi></head>
+					<lg>
+						<l n="110">Est pesti febre pulsusque frequens quasi semper,</l>
+						<l>Debilis et parvus est, quo districtio major,</l>
+						<l>Hinc vehemens crebro, vel fortis fit prope noctem.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. X. Semiotice sanguinis amissi</hi></head>
+					<lg>
+						<l>Versiculos signa cernens quibus experimenta</l>
+						<l>Sanguis emissus de venis ordine tali.</l>
+						<l n="115">Si cruor est albus hominis quasi spuma repertus</l>
+						<l>Tussis designat, homini dolorque paratur.</l>
+						<l>Qui si coeruleus sanguis fuerit speculatus,</l>
+						<l>Est de fervore tunc dolor in jecore.</l>
+						<l>Sanguis praeterea si nare videtur in unda,</l>
+						<l n="120">Physicus hominem vultque pati lapidem.</l>
+						<l>Si siccus sanguis fuerit variique coloris,</l>
+						<l>Et veluti pannus scripaticus ac rubeusque,</l>
+						<l>Talem paralysis vexat ubique satis.</l>
+						<l>Si sanguis putide pellis dinoscitur esse,</l>
+						<l n="125">Intercutanea pestis ibi dominatur,</l>
+						<l>Si rufus, pulcher sit et unda pulchra parumper,</l>
+						<l>Est talis sanus, non sit tibi dubius.</l>
+						<l>Si natitant globuli, designat ulcera carni.</l>
+						<l>Sanguis purpureus cito lenus, et undique spissus</l>
+						<l n="130">Indicat hominem tibi marem fore sanum.</l>
+						<l>Sanguis purpureus ex omni parte stercosus,</l>
+						<l>Tusses catharros indicat esse duos.</l>
+						<l>Sanguis sulphuricus, cito spissus et undique fractus</l>
+						<l>Indicat humanam tibi naturam venturam.”</l>
+					</lg>
+				</div>
+				<pb n="494"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XI. Semiotice sudoris</hi></head>
+					<lg>
+						<l n="135">Multam materiam multus sudor notat aegri,</l>
+						<l>Aut fluidam, sed in hoc naturam fortificatam:</l>
+						<l>Paucus contrarium, sed hanc alibi vacuatam;</l>
+						<l>Fervorem calidus notat aut morbum diuturnum;</l>
+						<l>Frigidus in lenta, dubius, parcens in acuta;</l>
+						<l n="140">Sudor habet magis a calidis humoribus ortum;</l>
+						<l>Humores foetidus corruptos signat ubique;</l>
+						<l>Sudor laudatur crisis, quilibet habeatur;</l>
+						<l>Universalis bonus est, sed particularis,</l>
+						<l>Vel si capite fit, vel collo desuper adsit,</l>
+						<l n="145">Ipse loco morbi malus est, si syncopis adsit;</l>
+						<l>Vitam detexit, si sudor frigidus exit.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XII. Semiotice stercoris</hi></head>
+					<lg>
+						<l>Si stercus passim nimius atque magis parcus,</l>
+						<l>Tempore non solito si fit, depravat utrumqne;</l>
+						<l>Crassum vel pingue, viscosum membra resolvit;</l>
+						<l n="150">Ventrem spumosum, lumbricos, caumata signat;</l>
+						<l>Et subcitrinum laudabile, flegma dat album,</l>
+						<l>Si livens viride nigrum de morte figurat.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIII. Semiotice ventositatis</hi></head>
+					<lg>
+						<l>Ventulus absque sono figurat meliora sonoro,</l>
+						<l>Pessimus inclusus qui claustris sponte fit usus;</l>
+						<l n="155">Bombus non sponte frenesim notata atque dolores.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIV. Semiotice somni</hi></head>
+					<lg>
+						<l>Somnus nocturnus et certus est bonus usus,</l>
+						<l>Sed nil dormire frenesim notat atque dolores.</l>
+						<l>Somnus conveniens nocturnis competit horis,</l>
+						<l>Et si mane, valet, sed nil dormire, fluoris</l>
+						<l n="160">Est signum mortis intensi sive doloris.</l>
+						<l>Digerit, impinguat, animi calidumque vigorat;</l>
+						<l>Hinc mens clarescit, <hi rend="italic">requiescit tempora dudum,</hi></l>
+						<l>Vires confortat; dissolvit, digerit escas,</l>
+						<l>Apperit et gaudet, praeservat, digerit, ardet.</l>
+					</lg>
+				</div>
+			</div>
+			<pb n="495"/>
+			<div type="book">
+				<head><lb/>PARS SEPTIMA - PATHOLOCICA -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Res innaturales</hi></head>
+					<lg>
+						<l>Aer, esca, quies, repletio, gaudia, somnus:</l>
+						<l>Haec moderata juvant, immoderata nocent.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. De quinque modis morborum</hi></head>
+					<lg>
+						<l>Quinque modis morbi fiunt: de caumate primus;</l>
+						<l>Corporis ac animae commotio magna secundus;</l>
+						<l n="5">Ut calor est solis, sic tertius est cibus acris;</l>
+						<l>Quartus adest intra cum sit via larga vel stricta;</l>
+						<l>Quintus ut putridis humoribus ex febre factis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Genera morborum</hi></head>
+					<lg>
+						<l>Tres sunt, non plures, in nostro corpore morbi,</l>
+						<l>Morbus consiliaris, communis, et officialis.</l>
+						<l n="10">Morbum consiliarem causat complexio prava;</l>
+						<l>Si caret officio morbum facit officialem;</l>
+						<l>Morbus communis si sit peccabit utroque.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Morbi haereditarii</hi></head>
+					<lg>
+						<l>Morphaea cum lepra, tinea, phthisis atque podagra,</l>
+						<l>Haec in senibus et calculus haereditantur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V.</hi></head>
+					<lg>
+						<l n="15">. <hi rend="italic">Morbi contagiosi</hi></l>
+						<l>Febris acuta, phthisis, scabies, pedicon, sacer ignis</l>
+						<l>Anthrax, lippa, lepra, frenesis contagia praestant:</l>
+						<l>Iungitur ophtalmus congelans lippus et orba.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. Morbi supervenientes</hi></head>
+					<lg>
+						<l>Ista superveniunt: spasmus, febris, atque tenesmon,</l>
+						<l n="20">Torsio cum tussi, nihil appetit, et sitis ingens,</l>
+						<l>Fluxus, singultus, syncopis atque vomitus.</l>
+					</lg>
+				</div>
+				<pb n="496"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VII. Mictura</hi></head>
+					<lg>
+						<l><hi rend="italic">Dissincta se celat, canit asma</hi>, malumque revelat;</l>
+						<l>Orthomia quoque morbo vexatur utroque:</l>
+						<l>Gurria nil stran. , guttatim, dissur. que per horas.</l>
+					</lg>
+				</div>
+			</div>
+			<div type="book">
+				<head><lb/>PARS OCTAVA - THERAPEUTICA</head>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. I. Diaeta</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Diaetae species, et qualis in morbis</hi></head>
+						<lg>
+							<l>Debilitat tenuis, virtutes grossa vigorat;</l>
+							<l>Grossa diaeta chymos auget tenuisque minorat.</l>
+							<l>Ergo prolixis in morbis grossa paretur;</l>
+							<l>In peracutarum causis tenuis varietur.</l>
+							<l n="5">A primis detur tenuissima propter acuta,</l>
+							<l>Uberius reliquis des primo, postque minora.</l>
+							<l>Si morbi longi fuerint humoribus orbi,</l>
+							<l>Hanc addo metam tenuem non esse diaetam.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Ptisana</hi></head>
+						<lg>
+							<l>Ptisana cura datur sicut decet alleviatur</l>
+							<l n="10">Tunc dolor, ac alia; procreat tunc commoda multa.</l>
+							<l>Ptisana vitetur, si virtus debilitetur.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Conditiones in potione danda</hi></head>
+					<lg>
+						<l>Potio si danda sit haec bis quinque notanda:</l>
+						<l>Aer, aetas, regio, virtus, complexio, forma,</l>
+						<l>Mos et sinthoma, repletio, tempus et aura:</l>
+						<l n="15">Haec sunt pensanda medico purgare volenti:</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Dum quis laxatur</hi></head>
+					<lg>
+						<l>Edere dum laxat vitandum, somnus et absit.</l>
+						<l>Aurae temperies, motus, vomitus, reprimatur,</l>
+						<l>Laxativa vomit venter, dum languet in ore.</l>
+						<l>Semper est oppositus usus levitas medicinae,</l>
+						<l n="20">Oppositus curis vomitum laxare videbis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Quando medicina dari debet</hi></head>
+					<lg>
+						<l>Si calor est nimius, ventus vehemensque pruina</l>
+						<pb n="497"/>
+						<l>Nulla debet penitus purgans dari medicina.</l>
+						<l>Materia morbi purgans debita ratione,</l>
+						<l>Absque diaetae die crisis decoctio morbi,</l>
+						<l n="25">Post afrodisiam damus continuo medicinam.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V. Quibus fortis medicina non datur</hi></head>
+					<lg>
+						<l>Incolumis noviterque repletus, sanguis abundans,</l>
+						<l>Exhaustus, facileque movens, virtus gravidata,</l>
+						<l>Tempus ver, sicca complexio, fluxile rarum,</l>
+						<l>Aestas et pinguis aer, interior dolor, astra,</l>
+						<l n="30">Omnibus his tradi fortis medicina timetur.</l>
+						<l>Istae res prohibent: regimen laudabile, sanguis,</l>
+						<l>Debilitas, nova repletio, pars et inepta,</l>
+						<l>Corpus inanitum nimis, evacuatio, tempus.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. Dispositiones ad medicinam capiendam.</hi></head>
+					<lg>
+						<l>Ante datam debent medicinam multa videri:</l>
+						<l n="35">Corpus, materia, cibus, et digestio, victus,</l>
+						<l>Stomachus et venter, usus, quoque vis medicinae.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VII. De purgationibus.</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Purgatio debita</hi></head>
+						<lg>
+							<l>Si fuerit talis debet purgatio qualis,</l>
+							<l>Non est laesiva naturae sed juvativa,</l>
+							<l>Attendat medicus morbi cum corpore tempus,</l>
+							<l n="40">Aetates, chymum purgat qui legere surget.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. De purgationis causa</hi></head>
+						<lg>
+							<l>Nunc tibi demonstro cur evacuatio fiat,</l>
+							<l>Est mala materia morbi repletio causa.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VIII. Tempora morbi</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Tempora morbi salubris</hi></head>
+						<lg>
+							<l>Quolibet in morbo salubres sunt quatuor horae:</l>
+							<l>Prima cogit, reliqua <hi rend="italic">cremetur</hi>, tertia purgat,</l>
+							<l n="45">Reparat humores educit quarta nocivos.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. In paroxysmo</hi></head>
+						<lg>
+							<l>Tempore quo febris summe sentitur acuta,</l>
+							<l>Potus et esca simul tenuissima sint tibi parta.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Repressio</hi></head>
+						<lg>
+							<l>Ustio, lotio, pressio, tunc est coctio facta</l>
+						</lg>
+					</div>
+				</div>
+				<pb n="498"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IX. Indicationes variae</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Repercussio</hi></head>
+						<lg>
+							<l>Grossities, frigus, congestio copia virus,</l>
+							<l n="50">Mobile, plectoricum, crisis et causa forensis,</l>
+							<l>Omne retropellens, vitare jubemus in istis.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2 Evacuatio</hi></head>
+						<lg>
+							<l>Synoca cum colica, frenesis, squinantes et anthirax</l>
+							<l>Materias crudas evacuare jubent.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Intromissoria</hi></head>
+						<lg>
+							<l>Anum clystere purgat, pessaria vulvam;</l>
+							<l n="55">Algalia virgam, ciringa convenit auri;</l>
+							<l>Naso nastale, sed potio convenit ori;</l>
+							<l>Visco collyrium pro certo dicitur esse.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 4. Diuretica</hi></head>
+						<lg>
+							<l>Sunt diuretica: bruscus, sparagus, calamentum,</l>
+							<l>Spicaque, foeniculus, betonica, cassia, daucus,</l>
+							<l n="60">Squinantum, carvi, saxifraga, silercosque,</l>
+							<l>Petroselinum, levisticus, hjpericonque.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 5. Lithontritica</hi></head>
+						<lg>
+							<l>Sed frangunt lapidem: scolopendria, squilla, lupini,</l>
+							<l>Hircinus sanguis, sparagus, pulvisque cicadae,</l>
+							<l>Abrotanum, nitrum, saxifraga, granaque solis,</l>
+							<l n="65">Ius cicerum, ciperus, et petrosillus uterque.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 6. Incisiva</hi></head>
+						<lg>
+							<l>Utraque spica, thymus, poeonia, salvia, myrrha,</l>
+							<l>Acorus, agaricus, calamus quoque ruta, nigella,</l>
+							<l>Origanum, sic marrubium, centaurea, crocus,</l>
+							<l>Castoreum, daucus, squinantum, menstrua ducunt.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 7. Restrinctiva</hi></head>
+						<lg>
+							<l n="70">Iuniperus, cyperus, petrosellinus, uterque,</l>
+							<l>Thus, mastix, myrtus, athanasia, psidia, galla,</l>
+							<l>Sanguis draconis, hypocistidos, acacia, gummi,</l>
+							<pb n="499"/>
+							<l>Sumae, plantago, balaustia, mummia, bolus,</l>
+							<l>Castaneae glandes, corallus, menstrua stringunt.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 8. Repercussiva</hi></head>
+						<lg>
+							<l n="75">Ista repercutiunt: rosa, lilia, jusquiamusque, papaver,</l>
+							<l>Barba jovis, solatrum, viola, chimoleaque, galla.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 9. Maturativa</hi></head>
+						<lg>
+							<l>Maturant: foenugraecum, semen quoque lini,</l>
+							<l>Lilia, frumentum, stichados, altaea, butyrum,</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 10. Aperitiva</hi></head>
+						<lg>
+							<l>Rumpunt: cantharidos, asbestus, flammula, piper,</l>
+							<l n="80">Os sepiae, pyrethrum, synapis et allia trita</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 11. Consolidantia</hi></head>
+						<lg>
+							<l>Consolidant: aloes, thus, bolus, mummia, myrrha,</l>
+							<l>Lignorum caries, gypsus, balaustia, galla.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 12. Mundificantia</hi></head>
+						<lg>
+							<l>Fabae mundificant, orobus, terrae quoque fimus</l>
+							<l>Alfita, thus, ireos, aspaltum, myrrha, cerussa.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 13. Corrosiva</hi></head>
+						<lg>
+							<l n="85">Sunt quae corrodunt: aes ustum, vitriolumque,</l>
+							<l>Lemnias, antimonium, fel, nitrum, sapo, cerussa.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. X. Gaudium membrorum</hi></head>
+					<lg>
+						<l>Pulmo liquiritia, mace cor, stomachusque galanga,</l>
+						<l>Gaudet hepar spodio, splen cappare, cerebrum musco,</l>
+						<l>Membra quidem veneris congaudent satyrione.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XI. Septem cara</hi></head>
+					<lg>
+						<l n="90">Septem sunt cara, quae sunt bona, velque rara:</l>
+						<l>Balsamus, ambra, thirus, caro, lignum, camphora, muscus.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XII. Antidota.</hi></head>
+					<lg>
+						<l>“Allia, nux, ruta, pyra, raphanus et theriaea:</l>
+						<l>“Haec sunt antidotum contra mortale venenum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIII. Vomitus</hi></head>
+					<lg>
+						<l>Naturam vomitus volo nunc brevitate docere:</l>
+						<pb n="500"/>
+						<l n="95">Andreae vomilus, Scarpellae, Bartholomaei.</l>
+						<l>Debilis hic, fortis medius, mediocriter imus</l>
+						<l>Est raphanus, squilla, cataputia, cadmia, jarin</l>
+						<l>Assa, nux vomica, crocus, eucumer asininus,</l>
+						<l>Atque nigella, ficus, anabula, centaurea major</l>
+						<l n="100">Et minor, elleborus albus jungatur eisdem;</l>
+						<l>Est ebulus, fumus, sambucus, semina rapae,</l>
+						<l>Atriplicis radix, siccamia, sicca synapis;</l>
+						<l>Unda tepens, oleum, ficus, et commotio, girum,</l>
+						<l>Nastur, anethum, trifolia, quodlibet unctum,</l>
+						<l n="105">Et mollit stomachum vomitus sit temporis usus.</l>
+						<l>Stringe caput, claude oculos, os mundificabis;</l>
+						<l>Nec dulce fluidum postea cape cibum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIV. Regimen tempore pestis</hi></head>
+					<lg>
+						<l>Devita coitum, infirmos balnea, fructus;</l>
+						<l>Sit cibus autem tuus bonus, et vinum tibi potus;</l>
+						<l n="110">Illud sit vinum puroque flumine mixtum;</l>
+						<l>Adde cibo tuo, cum prandes, semper acetum;</l>
+						<l>Ex oloe myrrhaque, croco fit pilula firma;</l>
+						<l>Mane laves vultum dentes, manusque per acetum,</l>
+						<l>Sed caveas oculos ne tangas, nam nocet illis,</l>
+						<l n="115">Assatum panem per arctum propter odorem</l>
+						<l>In manibus serves, sed si fuerint tibi glaucas</l>
+						<l>Sanguine te minuas, infectum teque noscas.</l>
+						<l>Sic pestem fugies, hanc formam si bene serves:</l>
+						<l>Nux, ficus et ruta, muscatum, quatuor ista</l>
+						<l n="120">Iejune sumpta depellunt quaeque venena.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XV. Flebotomia</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Flebotomiae regulae</hi></head>
+						<lg>
+							<l>“Spiritus uberior exit per flebotomiam.</l>
+							<l>“Spiritus ex potu vini mox multiplicatur;</l>
+							<l>“Humorumque cibo damnum laute reparatur;</l>
+							<pb n="501"/>
+							<l>“Lumina clarificat, sincerat flebotomia</l>
+							<l n="125">“Mentes et cerebrum, calidas facit esse medullas.</l>
+							<l>“Viscera purgantur, ventrem, stomachumque coercet</l>
+							<l>“Puros dat sensus, dat somnum, taedia tollit,</l>
+							<l>“Auditum, vocem, vires producit, et auget.</l>
+							<l>Arthritis, paralysis, hydrops, apoplexia, pravus</l>
+							<l n="130">Corporis habitus, tremor, atque epilepsia manent.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Tempora ftebotomiae</hi></head>
+						<lg>
+							<l>“Tres insunt istis, majus, september, aprilis,</l>
+							<l>“Et sunt lunares, sunt velut hydra, dies;</l>
+							<l>“Prima dies primi, postremaque posterioris,</l>
+							<l>“Nec sanguis minui, nec carnibus anseris uti;</l>
+							<l n="135">Nec iter arripitur, nec medicina datur.</l>
+							<l>Haec: aries libra bona sunt, simul urna, sagitta;</l>
+							<l>Scorpio et pisces, gemini, cancer mediocres;</l>
+							<l>Taurus, virgo, leo, capricornus sunt mala signa.</l>
+							<l>“In sene vel juvene si venae sanguine plenae,</l>
+							<l n="140">“Omni mense plenae valet incisio venae,</l>
+							<l>lncidunt venas morboso sanguine plenas.</l>
+							<l>Iupiter et Venus bona sunt, Saturnus Marsque maligni;</l>
+							<l>Sol et Mercurius cum hi nam sint mediocres.</l>
+							<l>Ver Petro detur, aestas exinde sequetur:</l>
+							<l n="145">Hanc tenet Urbanus, autumnum Symphorianus,</l>
+							<l>Festum Clementis caput est hyemis venientis;</l>
+							<l>Vitus Lucia sunt duo solstitia viva;</l>
+							<l>Lamber Gregorii est nox adaequata diei.</l>
+							<l>Credo quod ignoret medicorum concio tota</l>
+							<l n="150">Cum bissex hominum membris sint tributa,</l>
+							<l>Summopere prohibet Alphagamus Ptolomaeus,</l>
+							<l>Astrologi summi, nec non Ajaxque Sabaeus,</l>
+							<l>Ut non laedantur membra quando respiciuntur.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Tempora flebotomiae ad lunam</hi></head>
+						<lg>
+							<l>Septima cum datur, tua tunc vena minuatur;</l>
+							<l n="155">Quinta nocet, mira vacuatis omnibus ira;</l>
+							<l>Ne careas vita, nonam quoque toxia vita;</l>
+							<l>Qui quaerit venas huic dat lux decima poenas;</l>
+							<l>Sub quinta decima sauguis teneat loca prima;</l>
+							<l>Tela necis portat, vibrat vicesima quarta;</l>
+							<l n="160">Non linquit totus vicesima quinta minutos;</l>
+							<l>Ante diem quintum et post vicesimum quintum</l>
+							<l>Lunae crescentis vel decrescentis abinde,</l>
+							<l>Venae parcatur, cum sanguis debilitatur.</l>
+							<l>In luna piena non tangatur tibi vena,</l>
+							<l n="165">Sin in momento novitatis, scire memento;</l>
+							<pb n="502"/>
+							<l>Sed ventosarum vobis item competit usus.</l>
+							<l>Quolibet in membro signum proprium videatur;</l>
+							<l>Non tantum laedatur, quia corpus debilitatur.</l>
+							<l>Summa tenet vervex, bos collum, brachia fratres,</l>
+							<l n="170">Cancer habet pectus, dorsum virgoque ventrem,</l>
+							<l>Renes libraque, draco vulvam, crura sagitta,</l>
+							<l>Capraque genua, pes pisces, tibia urna.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 4. Tempus necessitatis</hi></head>
+						<lg>
+							<l>Sit senium atque juventa, si sanguis abundat,</l>
+							<l>In sene vel juvene si venae sanguine plenae,</l>
+							<l n="175">Omni mense bene confert incisio venae.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 5. Tempus electionis</hi></head>
+						<lg>
+							<l>“Hi sunt tres menses, majus, september, aprilis</l>
+							<l>“In quibus eminuas, ut longo tempore vivas;</l>
+							<l>Martini, Blasii, Philippi, Bartholomaei</l>
+							<l>Venas praecidant, ut longo tempore vivas.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 6. Prohibentia flebotomiam</hi></head>
+						<lg>
+							<l n="180">“Frigida natura, frigens regio, dolor ingens,</l>
+							<l>“Post lavacrum, coitum, minor aetas atque senilis,</l>
+							<l>“Morbus prolixus, repletio potus et escae;</l>
+							<l>“Si fragilis vel subtilis sensus stomachi fit,</l>
+							<l>“Et fastiditi, tibi non sunt flebotomandi.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 7. Dispositio ad flebotomiam</hi></head>
+						<lg>
+							<l n="185">“Quid debes facere quando vis flebotomare,</l>
+							<l>“Vel quando minuis, fueris vel quando minutus:</l>
+							<l>“Unctio, sive potus, lavacrum, vel fascia, motus,</l>
+							<l>“Debent non fragili tibi singula mente teneri.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 8. Effectus flebotomiae</hi></head>
+						<lg>
+							<l>“Exhilarat tristes, iratos placat, amantes</l>
+							<l n="190">“Ne sint amantes flebotomia facit.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 9. Plaga venae</hi></head>
+						<lg>
+							<l>“Fac plagam largam mediocriter, ut cito fumus</l>
+							<l>“Exeas uberius, liberiusque cruor.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 10. Cautelae ad flebotomiam</hi></head>
+						<lg>
+							<l>“Sanguine subtracto sex horis est vigilandum,</l>
+							<l>“Ne somni fumus laedat sensibile corpus;</l>
+							<l n="195">“Ne nervum laedas non sit tibi plaga profunda;</l>
+							<l>“Sanguine purgatus non carpas protinus escas;</l>
+							<pb n="503"/>
+							<l>“Omnia de lacte vitabis rite, minute</l>
+							<l>“Et caveat a potu flebotomatus homo.</l>
+							<l>“Frigida vitabis, qua sunt inimica minutis;</l>
+							<l n="200">“Interdictus erit minutis nubilus aer:</l>
+							<l>“Spiritus exultat minutis luce per aures;</l>
+							<l>“Omnibus apta quies, est motus valde nocivus</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 11. Quibus morbis conveniat flebotomia.</hi></head>
+						<lg>
+							<l>“Principio minuas in acutis, perperacutis,</l>
+							<l>Confert in reliquis quod justum fuerit.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 12. Secundum aetates</hi></head>
+						<lg>
+							<l n="205">“Denus septenus vix phlebotomum petit annus;</l>
+							<l>“Aetate media multum de sanguine tolles,</l>
+							<l>“Sed puer atque senex tollet uterque parum.</l>
+							<l>“Vir tollet duplum, reliquum tempus tibi simplum.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 13. Quo et quando</hi></head>
+						<lg>
+							<l>“Aestas, ver dextras, hyems, autumnusque sinistras;</l>
+							<l n="210">“Diminuunt venas sic sit tibi longior aetas.</l>
+							<l>“Quatuor haec membra: cephe, cor, pes, hepar vacuanda.</l>
+							<l>“Vere cor, hepar aestas, ordo sequens reliqua.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 14. Venae convenientes</hi></head>
+						<lg>
+							<l>In curvaturis brachii sunt quinque rami unus</l>
+							<l>Sub utraque manu qui salvatella vocatur;</l>
+							<l n="215">In pede sunt trina poplitisque, sciique, saphena,</l>
+							<l>Unius venae ramos hos ita dicimus esse.</l>
+							<l>Lingua ranines, post aures sunt juveniles,</l>
+							<l>Istis incisis post hoc homo non generabit.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 15. Salvatellae effectus</hi></head>
+						<lg>
+							<l>“Dat salvatella tibi plurima dona minuta:</l>
+							<l n="220">“Purgat epar, splenem, pectus, praecordia, vocem;</l>
+							<l>“Innaturalem tollit de corde dolorem.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 16. Venae faclei</hi></head>
+						<lg>
+							<l>Frons, oculique, labra, minuuntur, tempora, lingua,</l>
+							<l>Ast inter omnes securior esto saphena.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 17. Indicium sanguinis</hi></head>
+						<lg>
+							<l>Postquam venarum numerus nomenque scitur.</l>
+							<l n="225">Si bonus aut malus est, inspectio sanguinis adsit,</l>
+							<l>Eumque cognosces odore, colore, sapore,</l>
+							<l>Prospicito cuncta, si spuma sit et fissura.</l>
+						</lg>
+					</div>
+					<pb n="504"/>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 18. Diaeta post flebotomiam</hi></head>
+						<lg>
+							<l>Prima die paucas tibi sumere praecipit escas;</l>
+							<l>Nam de pane bolum, post sorbile porrigit omne;</l>
+							<l n="230">Post jusselata dare praecipit ac biberata vel piperata.</l>
+							<l>Coctaque gallina minuentibus est medicina,</l>
+							<l>Post clarum vinum, post gingiber atque cuminum.</l>
+							<l>Altera dans pultes modice vult sumere ventres;</l>
+							<l>Etiam dans gallinas coctas, farfamine plenas;</l>
+							<l n="235">Pinguis ad haec hoedus prodest coctusque bidellus,</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVI. Scarificatio</hi></head>
+					<lg>
+						<l>Restat ventosa completa flebotomia,</l>
+						<l>Cujus multotiens communis et utilis usus;</l>
+						<l>Summa caraxamus, sed infima scarrificamus.</l>
+						<l>Si virtus fortis sit et humor particularis,</l>
+						<l n="240">Extra corruptus, vel est apostasis intus,</l>
+						<l>Casibus his junctis sic bene scarrificamus;</l>
+						<l>Si restringatur vel ad exteriora trahatur,</l>
+						<l>Aut aestas nimius seu pruina sit immoderata,</l>
+						<l>A quibus haec insunt debet ventosa caveri</l>
+						<l n="245">Mentum, sub spatula, lumbi, dorsum, nucha, pulpa</l>
+						<l>Cruris cum coxa, sciatica loca quaerit et apta.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVII. Balnea</hi></head>
+					<lg>
+						<l>Sunt universale tibi balnea particulare;</l>
+						<l>Dulcia, salsa, frigida, sicca, pinguia, macra,</l>
+						<l>Et solutiva fit pirea flumen et aura.</l>
+						<l n="250">Digerit et flatum, removens educit humores;</l>
+						<l>Post crisin mitigat, aperit, corpusque suave</l>
+						<l>Reddit, somnificat, spasmum, tenasmon quoque fugat.</l>
+						<l>Nobile, plectoricum, rigor, apostemaque, reuma,</l>
+						<l>Materia crudor deformis, languida virtus,</l>
+						<l n="255">A quibus haec insunt vitari balnea debent;</l>
+						<l>Quum malum sentitur prodest ut balnea vites.</l>
+						<l>Ipsa poros reserant phtisicis et corpora rorant;</l>
+						<l>Materia cocta, triteaque tetracea curant;</l>
+						<l>Frigora si noceant tibi balnea dantque juvamen.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVIII. Clysteria</hi></head>
+					<lg>
+						<l n="260">Multotiens prodest clysteria ponere, quare?</l>
+						<l>Expedit in colica ventosa, faecesque trahendo,</l>
+						<pb n="505"/>
+						<l>Hepatis et cordis sedatur passio, renum;</l>
+						<l>Si cibus est crudus, aut indigestio chymi,</l>
+						<l>Aut sit apostema, vel lapsus in inferiori</l>
+						<l n="265">Parte, vel ad tempus calidum, clystere retarda:</l>
+						<l>Quando tamen datur, patet hinc diversio morbi,</l>
+						<l>Attendes super hoc patientis conditiones:</l>
+						<l>Materiae debet commotio primitus esse;</l>
+						<l>Post clystere datum patiens requiescere debet;</l>
+						<l n="270">Si nihil inveniat, nescit vacuare remota</l>
+						<l>Effectus varios clystere probatur habere,</l>
+						<l>Ejus multotiens communis et utilis usus.</l>
+						<l>Ventrem mundificat, mordicat, mollificatque;</l>
+						<l>Astringit, solidat dum causa sit evacuandi.</l>
+						<l n="275">Cum mali malva, violaria, mercurialis,</l>
+						<l>In simul ista quoque, jus extrahe, collige, serva,</l>
+						<l>Furfuris adde parum, sal, oleum violarum.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIX. Suppositoria</hi></head>
+					<lg>
+						<l>Suppositoria sunt satis utiliter retinenda;</l>
+						<l>Fortia sunt quaedam, et sunt mediocria quaedam:</l>
+						<l n="280">Fortia: salgemma, nitrum, scammonea; mediocre</l>
+						<l>Fel cum centaurea, coloquintida, sapaque, creta,</l>
+						<l>Lardus cum malva, violaria, mercurialis,</l>
+						<l><hi rend="italic">At fructus,</hi>celidonia, jamque sal sit in istis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XX. Virtutes Agnus Dei</hi></head>
+					<lg>
+						<l>Balsamus et munda cera cum Chrismatis unda</l>
+						<l n="285">Conficiunt Agnum, quem do tibi munere, magnum;</l>
+						<l>Fonte velut natum, per mistica sanctificatum.</l>
+						<l>Fulgura de sursum pellit, genus omne malignum.</l>
+						<l>Portatus munde servat a fluctibus undae;</l>
+						<l>Praegnans servatur, sine vi partus liberatur.</l>
+						<l n="290">Peccatum frangit ut Christi sanguis et angit;</l>
+						<l>Dona dat, et dignis virtutes destruit ignis;</l>
+						<l>Morte repentina salvat sathanaeque ruina;</l>
+						<l>Si quis honoret eum, obtinebit ab hoste triumphum.</l>
+						<l>Agne Dei, miserere mei, qui crimina tollis.</l>
+					</lg>
+				</div>
+			</div>
+			<pb n="506"/>
+			<div type="book">
+				<head><lb/>PARS NONA - NOSOLOGICA. -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Febres</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Species febrium</hi></head>
+						<lg>
+							<l>Trina riget, quotidiana friget, tetraceus horrit.</l>
+							<l>Est febris vel epi, vel ethi, vel acuta putredo,</l>
+							<l>Dat cholera febrem cui dat lux tertia nomen,</l>
+							<l>Flegma facit febrem, quae quotidiana vocatur,</l>
+							<l n="5">De melancholia fit tibi tetracea febris;</l>
+							<l>Sanguis producit multas febres paracutas;</l>
+							<l>Synocha de multo, sed synochus ex putrefacto,</l>
+							<l>Est augmentaticus, epacmasticus, omothenusque,</l>
+							<l>Causonides et synochides, ac emitrita quoque.</l>
+							<l n="10">Primis emitriteus in venis flegma recondit,</l>
+							<l>Externis cholera mediis convertitur illi.</l>
+							<l>Pessimus humor inest majori frigidus extra;</l>
+							<l>Omnes emitriteos solus Christus sanat illos.</l>
+							<l>Hora brevis, humor mobilis, quoque mobile membrum;</l>
+							<l n="15">Gravia quae sunt homini morbum dant semper acutum,</l>
+							<l>Spiritus effemera, solidum tenet ethica membrum.</l>
+							<l>Sunt ethicae species tres, prima secundaque tertia.</l>
+							<l>Irae, tristitiae, calor, algor, balnea sicca,</l>
+							<l>Fervor, esca, labor, vigilans, jejunia, bubo.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Febris in spasmo.</hi></head>
+						<lg>
+							<l n="20">In spasmo febris veniens est causa salubris;</l>
+							<l>Paralisimque novam curat, ac ebrietatem;</l>
+							<l>Si sint ventosae, colicam fugat, iliacamque,</l>
+							<l>Utilis artheticae si sit cum frigiditate,</l>
+							<l>Nec ininus, ut fatur, artheticus inde juvatur.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 3. Triplex typus.</hi></head>
+						<lg>
+							<l n="25">Est triplex typus: rigor, horripilatio, frigus;</l>
+							<l>Frigus flegma facit, rigor est dum cholera pungit.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Ad spasmum.</hi></head>
+					<lg>
+						<l>Tibia si patitur spasmum, nervi retrahantur,</l>
+						<l>Tibia cum talo tendatur, moxque juvatur.</l>
+					</lg>
+				</div>
+				<pb n="507"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Ad stuporem membrorum.</hi></head>
+					<lg>
+						<l>Si manus aut membrum sentitur habere stuporem,</l>
+						<l n="30">Siccis ventosis studeas removere cruorem.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Ad paralysin.</hi></head>
+					<lg>
+						<l>“Salvia, castoreum, lavendula, primula veris,</l>
+						<l>“Nasturtium, athanas haec sanant paralitica membra.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V. De Gutta.</hi></head>
+					<div type="section">
+						<head><hi rend="italic">Art. 1. Guttae species.</hi></head>
+						<lg>
+							<l>Gutta petens latus dextrum fact haec paralysim;</l>
+							<l>Si petit ipsa pedes, generatur abinde podagra;</l>
+							<l n="35">Si petit ipsa manus, generatur abinde chiragra;</l>
+							<l>Membri juncturam arthetica dicitur inde;</l>
+							<l>Si petit ipsa sciam, fit abinde sciatica pestis;</l>
+							<l>Tetanus espansum totum membrum retinebit.</l>
+						</lg>
+					</div>
+					<div type="section">
+						<head><lb/><hi rend="italic">Art. 2. Cura guttae.</hi></head>
+						<lg>
+							<l>Vinum, castoreum, tapsus, camomilla coquantur:</l>
+							<l n="40">Per quae si foveas arthetica membra juventur,</l>
+							<l>Balsamus addatur cunctis cum prodesse putatur.</l>
+						</lg>
+					</div>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. Ad curandum rheuma.</hi></head>
+					<lg>
+						<l>“Jejuna, vigila, caleas dape, valde labora,</l>
+						<l>“Inspira calidum, calidam bibe, comprime flatum,</l>
+						<l>Jejunes, vigiles, caleas sic rheumata cures;</l>
+						<l n="45">“Haec bene tu serva, si vis depellere rheuma.</l>
+						<l>“Si fluat ad pectus dicitur rheuma catarrhus;</l>
+						<l>“Ad fauces branchus, ad nares esto, coriza.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VII. Ad apostema</hi></head>
+					<lg>
+						<l>Est ulcus durum, rubeum, mox caepa coquatur,</l>
+						<l>Desuper extendas, mollescit et evacuatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VIII. De Lepra et speciebus ejus</hi></head>
+					<lg>
+						<l n="50">Decidit alopecia cilium, lux ignea turget</l>
+						<l>Tuberibus succensa rubet facies saniosis.</l>
+						<l>Grossa tumet naris, pravum respirat odorem,</l>
+						<l>Putrida sanguineum sugit gengiva cruorem.</l>
+						<pb n="508"/>
+						<l>Glandescit cutis in tyria, mollescit et albet,</l>
+						<l n="55">Nec membris lymphae profusio facta cohaeret.</l>
+						<l>Signa leoninae manuum fissuraque pedum,</l>
+						<l>Aspera rupta cutis, macies, pruritus et ardor,</l>
+						<l>Vox et rauca, color citrinus, mobile lumen,</l>
+						<l>Ut gengivarum corrosio, naris acuta.</l>
+						<l n="60">Contrahit et spasmat species elephantica nervos,</l>
+						<l>Corrugat nares, oculos facit esse rotundos,</l>
+						<l>Tubera durat, riget caro livida, squallidus unguis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IX. Verrucarum medicinae</hi></head>
+					<lg>
+						<l>Est canis urina verrucarum medicina;</l>
+						<l>Verrucis duris medicamur sanguine muris.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. X. Adversus variolas</hi></head>
+					<lg>
+						<l n="65">Ne pariant teneris variolae funera natis,</l>
+						<l>Illorum venis variolas mitte salubres.</l>
+						<l>Seu potius morbi contagia tangere vitent</l>
+						<l>Aegrum aegrique halitus, velamina, lintea, vestes,</l>
+						<l>Ipseque quae tetigit male pura corpora dextra.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XI. Dolor capitis</hi></head>
+					<lg>
+						<l n="70">“Si dolor est capitis ex potu, lympha bibatur,</l>
+						<l>“Ex potu nimio nam febris acuta creatur;</l>
+						<l>“Si vertex capitis, vel frons aestu tribulentur,</l>
+						<l>“Tempora fronsque simul moderate saepe friceutur,</l>
+						<l>“Morella cocta nec non calidaque laventur;</l>
+						<l n="75">Istud enim credunt capitis prodesse dolori,</l>
+						<l>Styptica non comedat donec natura juvetur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XII. Ad emicraneam</hi></head>
+					<lg>
+						<l>Succus betonicae Baptistae nocte legetur,</l>
+						<l>Hunc bibe mane, sic emicranea saepe fugatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIII. Ad frenesim</hi></head>
+					<lg>
+						<l>Si caput exruciat frenesis mox rade capillos</l>
+						<l n="80">Iure lava raphani, post cataplasmatizando,</l>
+						<l>Et obmitte die, sed noctibus hoc iteretur,</l>
+						<l>Donec proficiat, et aceto mane lavetur.</l>
+					</lg>
+				</div>
+				<pb n="509"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIV. Purgantia capitis</hi></head>
+					<lg>
+						<l>Zinziber, pyrethrum, condita ruta, synapis,</l>
+						<l>Castoreum, pulvis aloes, aristologia,</l>
+						<l n="85">Sol, calor, et ignis, piper, ac elleborus albus:</l>
+						<l>Sternutare facit pulvis de qualibet horum.</l>
+						<l>Castoreum cerebrum purgat, scolpendria splenem.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XV. Morbi oculorum</hi></head>
+					<lg>
+						<l>Ungula cum tela, pannus, macula, cateracta,</l>
+						<l>Lippus et ophtalmus oculorum nomina morbi.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVI. Cura oculorum</hi></head>
+					<lg>
+						<l n="90">Sanguine vel sanie si perfundantur ocelli,</l>
+						<l>Cauterio colli poterit tibi noxa repelli;</l>
+						<l>Si sit pruritus, huic unda rosata medetur;</l>
+						<l>In panno tenui cuminum dente teratur,</l>
+						<l>Sic sputo tali lumen in mane juvatur.</l>
+						<l n="95">Si rubor aut tumor est et major noxa timetur,</l>
+						<l>Tunc solatri barba super albugo ligetur,</l>
+						<l>Sic tamen, ut clausis oculis, pannus medicetur.</l>
+						<l>Si lacrimae fluant, fronti restrictio detur,</l>
+						<l>Quae de viscosis et trito thure paretur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVII. Medicinae oculorum</hi></head>
+					<lg>
+						<l n="100">Camphora, sarcocolla, lycium, chelidonia, ruta,</l>
+						<l>Mel, aloes, marathrum, tutia, myrrha, merumque,</l>
+						<l>Lac muliebre, liquor casei, sanguisque columbae,</l>
+						<l>Obscuros oculos clarificare solent.</l>
+						<l>Limpha, <hi rend="italic">viror</hi>, speculum, clarificant oculum</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XVIII. Aqua pro oculis</hi></head>
+					<lg>
+						<l n="105">“Foeniculus, verbena, rosa, chelidonia, ruta,</l>
+						<l>Subveniunt oculis dira caligine pressis;</l>
+						<l>“Ex istis fit aqua, quae lumina reddit acuta.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XIX. Pro dentibus</hi></head>
+					<lg>
+						<l>“Sic dentes serva: porrorum collige grana,</l>
+						<l>“Ne careas jure, cum jusquiamo, quoque ure,</l>
+						<pb n="510"/>
+						<l n="110">“Sicque per embotum fumum cape dente remotum.</l>
+						<l>Lenitam pastam sub mento nocte ligabis</l>
+						<l>Pulvere cantharidis, sic tibi vesica creatur,</l>
+						<l>Per quam desudat dolor, hinc tormenta fugabis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XX. Pro uvula</hi></head>
+					<lg>
+						<l>Uvula si rubet et longa rubere videtur,</l>
+						<l n="115">Diameron, ne mora, pyrethrum quoque gargarizetur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXI. Ad squinanciam</hi></head>
+					<lg>
+						<l>Quando doles guttur velut ulcera si patiantur,</l>
+						<l>Protinus abstineas, minuas, sic alleviatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXII. Rigor colli</hi></head>
+					<lg>
+						<l>Si rigor est colli, vel distortum tribuletur,</l>
+						<l>Asse percutias plantas, sic nervi revificantur,</l>
+						<l n="120">Ut descendentes in planta corripiantur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXIII. Pleuresis</hi></head>
+					<lg>
+						<l>Pleuresis est vera cum spirandi gravitate</l>
+						<l>Febreque continua, tussi, laterisque dolore.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXIV. Contra pleuresim</hi></head>
+					<lg>
+						<l>Propter apostema sub costis mox minuatur:</l>
+						<l>Strictius abstineat patiens si punctura gravatur.</l>
+						<l n="125"><hi rend="italic">Ancharum medium si sentis eundo generatur,</hi></l>
+						<l>Pannis stuposum mox interpone paratum,</l>
+						<l>Hoc quoque modo non retro sed ante ligatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXV. Phthisicus</hi></head>
+					<lg>
+						<l>In phthisico fluxus ventris, casusque capilli,</l>
+						<l>Mala rubens, foetor sputi, sunt signa pericli.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXVI. Ad cor</hi></head>
+					<lg>
+						<l n="130">De margaritis, vel gemma, quae reperiuntur,</l>
+						<l>In cancri capite quae par virtute putatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXVII. Colica</hi></head>
+					<lg>
+						<l>Sunt colicae calor ac cibus, cum flegmate ventri,</l>
+						<pb n="511"/>
+						<l>Ulcus, lumbricus, sensus defectio causae.</l>
+						<l>Guttus, piscis, olus, tria sunt haec per sua jura</l>
+						<l n="135">Cum polipodio colicis aptissima cura.</l>
+						<l>Intestina dolens herbas super illa ligabis,</l>
+						<l>Pulegium, centaureamque, origanum, sal et avena,</l>
+						<l>In forti vino coque rosas, jungito furfur,</l>
+						<l>Vel laterem calidam superque illo teneto</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXVIII. Dissenteria</hi></head>
+					<lg>
+						<l n="140">Sunt dissenteriae, sanguis, rasura, caroque;</l>
+						<l>Est dissenteria mala, pejor, pessima, triplex;</l>
+						<l>Est hujus species, sanguis, rasura, caroque.</l>
+						<l>In dissenteria dari debet athanasia.</l>
+						<l>Cruda lien. simplexque diar. cum sanguine dissen.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXIX. Pro ventre duro</hi></head>
+					<lg>
+						<l n="145">Est venter durus, aqua pinguis cocta bibatur</l>
+						<l>Carnis porcinae, biduo post pulvere senae munda.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXX. Ad restringendum ventrem</hi></head>
+					<lg>
+						<l>Si vero venter fluit, hunc jus ex plantagine stringit.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXI. Ad tenesmon</hi></head>
+					<lg>
+						<l>Marrubium, tapsus, tenasmon, malva coquantur,</l>
+						<l>His supersedeat calidis et sic alleviatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXII. Hepar incensum</hi></head>
+					<lg>
+						<l n="150">Est hepar incensum furfurque morella terantur,</l>
+						<l>Hunc super imponas sensum mox alleviatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXIII. De hyctero</hi></head>
+					<lg>
+						<l>Hyctericis est viridis, hanc aggravatam vocitamus,</l>
+						<l>Nigram melanchteon vocant, extremam croceamque.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXIV. Hydrops</hi></head>
+					<lg>
+						<l>De fleu fit leuco. de melanc. nascitur hydrops;</l>
+						<l n="155">Alchites de sang. generatur tympana de col.</l>
+						<pb n="512"/>
+						<l>Noscas tympanidem prae cunctis deteriorem,</l>
+						<l>At cum devites id quod finitur in <hi rend="italic">ytes.</hi></l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXV. Cura hydropis</hi></head>
+					<lg>
+						<l>Asara baccara, cassia lignea, spicaque nardi</l>
+						<l>Hydropisin curant de causa frigidiori.</l>
+						<l n="160">Si friget hydropisis, ambrosia trita bibatur,</l>
+						<l>Cum melle sicomorum, sudoribus evacuatur;</l>
+						<l>Fortia vina bibet, naturae frigida vitet.</l>
+						<l>Si calet hydropisis plantago mane bibatur</l>
+						<l>Binis hebdomadis, et tum modice minuatur,</l>
+						<l n="165"><hi rend="italic">At lacticina</hi>salsaque marina vitatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXVI. Ad provocandas urinas</hi></head>
+					<lg>
+						<l>Mingere non poteris, fiat tibi tale juvamen;</l>
+						<l>Ex apii, marathri, levistici, pilariaque ligamen,</l>
+						<l>Haec super renes pectenque pone, fiat juvamen.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXVII. Contra dysuriam ex venere.</hi></head>
+					<lg>
+						<l>Legitimam venerem cole. Si male captum amorem</l>
+						<l n="170">Prosequeris vetitum, formidans munera foeda,</l>
+						<l>Ut sis certa salus, sit tibi nulla venus;</l>
+						<l>Ut sis certa venus, praesto tibi sit liquor unus,</l>
+						<l>Quo veretrum et nymphae prius et vagina laventur.</l>
+						<l>Lotio post coitum nova fecerit hunc fore tutum;</l>
+						<l n="175">Tunc quoque si mingas, apte servabis urethras.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXVIII. Ad haemorrhoyda</hi></head>
+					<lg>
+						<l>Propter haemorrhoydas super ignem caepa coquatur,</l>
+						<l>Huic super sedeat et mox dolor alleviatur.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XXXIX. Ad fistulam</hi></head>
+					<lg>
+						<l>“Auripigmentum, sulphur miscere memento,</l>
+						<l>“His debet apponi calcem; commisce saponi;</l>
+						<l n="180">“Quatuor haec misce, commixtis quatuor istis</l>
+						<l>“Fistula curatur, quater ex his si repleatur</l>
+					</lg>
+				</div>
+				<pb n="513"/>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XL. De partu in mala pelvis conformatione</hi></head>
+					<lg>
+						<l>Pelvis in angusta parientis fauce retentus</l>
+						<l>Qua via facta, non multis nisibus infans,</l>
+						<l>Si faciet medicina viam, si dextra juvabit.</l>
+						<l n="185">Nec jam Caesareum vulnus Lucina requiret;</l>
+						<l>Symphiseos pubis dissectio rite peracta</l>
+						<l>Damnatos telo partus simul atque parentes,</l>
+						<l>Protinus et certo, dulces servabit ad aures.</l>
+						<l>At mitemne adeo pubis divisa medelam</l>
+						<l n="190">Matribus ac pueris feret, ars ut mitius ullum</l>
+						<l>Auxilium nequeat, vel convenientibus ullum,</l>
+						<l>Quod possit repeti quoties natura jubebit.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. XLI. Ad praeveniendas in virginibus difformitates</hi></head>
+					<lg>
+						<l>Haec quoque rachiticis rite observanda jubebis:</l>
+						<l>Crebro purgentur, sed crebrius invigilentur;</l>
+						<l n="195">Quae metuis pueris mage sunt metuenda puellis.</l>
+						<l>Hi multum comedant, vacuumque per aera ludant;</l>
+						<l>Non sedeant, sed eant, et vitant vincla, thoraces.</l>
+						<l>Si tamen introrsum minitentur pessima dorsum,</l>
+						<l>Continuo spinam redigas in rectius, illam</l>
+						<l n="200">Extendens tractu leni simul atque perenni,</l>
+						<l>Convexosque premens interdum molliter arcus.</l>
+					</lg>
+				</div>
+			</div>
+			<div type="book">
+				<head><lb/>PARS DECIMA - DE ARTE -</head>
+				<div type="chapter">
+					<head><hi rend="italic">CAP. I. Laus medici</hi></head>
+					<lg>
+						<l>Sensus et ars Medici curant, non verba Sophistae;</l>
+						<l>Sic aegro relevat curis, verbis necat iste.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. II. Industria Medici</hi></head>
+					<lg>
+						<l>Nosse malum, sanos servando, aegrisque medendo;</l>
+						<l>Consule naturam, poteris prudentior esse;</l>
+						<l n="5">Est Medicus qui scit morbi cognoscere causam;</l>
+						<l>Quando talis erit nomen et omen habebit.</l>
+						<l>Sunt Medico plura super aegros respicienda:</l>
+						<l>In membro crasis, atque situs, plasmatio, virtus,</l>
+						<l>Morbi natura, patientis conditiones,</l>
+						<l n="10">Digere materiam, crudamque repelle nocivam,</l>
+						<pb n="514"/>
+						<l>Mollifica duram, compactam solve, fluentem</l>
+						<l>Spissa, liquefac spissam, lenique fluentem.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. III. Medicinae fines</hi></head>
+					<lg>
+						<l>Si Medicus cunctos aegros posset medicari</l>
+						<l>Divinus magis deberet iure vocari.</l>
+						<l n="15">Vitam prolongat, sed non Medicina perennat.</l>
+						<l>Non phisicus curat vitam, quamvis bene longat;</l>
+						<l>Natura, qua conservans, descendens corpora sanat</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. IV. Medici incommoda</hi></head>
+					<lg>
+						<l>Stercus et urina sunt Medico fercula prima;</l>
+						<l>Hydrops quartana sunt Medico scandala plana</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. V. Ad praecavendam aegrorum ingratitudinem</hi></head>
+					<lg>
+						<l n="20">Non didici gratis, nec musa sagax Hippocratis</l>
+						<l>Aegris in stratis serviet absque datis.</l>
+						<l>Empta solet care multum medicina juvare;</l>
+						<l>Si quae detur gratis, nil affert utilitatis.</l>
+						<l>Res dare pro rebus, pro verbis verba solemus:</l>
+						<l n="25">Pro vanis verbis montanis utimur herbis;</l>
+						<l>Pro caris rebus, pigmentis et speciebus.</l>
+						<l>Est medicinalis Medicis data regula talis:</l>
+						<l>Ut dicatur: <hi rend="italic">da, da,</hi>dum profert languidus <hi rend="italic">ha, ha!</hi></l>
+						<l>Da Medicis primo medium, medio nihil imo.</l>
+						<l n="30">Dum dolet infirmus Medicus sit pignore firmus;</l>
+						<l>Instanter quaerat nummos, vel pignus habere;</l>
+						<l>Fidus nam antiquum conservat pignus amicum,</l>
+						<l>Nam si post quaeris, quaerens inimicus haberis.</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">CAP. VI. Medicaster</hi></head>
+					<lg>
+						<l>Fingit se Medicus quivis idiota, prophanus,</l>
+						<l n="35">Iudaeus, monachus, histrio, rasor, anus,</l>
+						<l>Sicuti Alchemista Medicus fit aut Saponista,</l>
+						<l>Aut balneator, falsarius aut oculista.</l>
+						<l>Hic dum lucra quaerit, virtus in arte perit.</l>
+					</lg>
+				</div>
+				<pb n="515"/>
+				<div type="chapter">
+					<head><lb/>EPILOGUS</head>
+					<lg>
+						<l> - In metro pauca mox commemorantia multa</l>
+						<l>Quod phisis regimen statim compendio scitur,</l>
+						<l>Cura sic est prompta languor qua tollitur aeger.</l>
+						<l>Metra juvant animos, convertunt plurima paucis,</l>
+						<l n="5">Pristina commemorant, sunt haec tria grata legenti.</l>
+						<l>Haec bene servando longam vitam tibi mando.</l>
+						<l>Herbas in terris, celso quot sidera cernis</l>
+						<l>A me tot mille verba salutis habet.</l>
+						<l>Comoda dicendo fit in hiis non metra tenendo</l>
+						<l n="10">Versus per plures flores carpsi medicinae,</l>
+						<l>Opitulante Deo Musa cum tradita Clio,</l>
+						<l>Quorum suffragiis opus istud cessat in esse,</l>
+						<l>In quo quaeque bona tenens linguasque malignas</l>
+						<l>Grates Deo peragens actum qui sinerat istum</l>
+						<l n="15">Auctores cui sunt phisicus Arthigenis almi,</l>
+						<l>Maurus, Mathaeus, Salomon, Petrus, Urso, moderni</l>
+						<l>Sunt medici, per quos regnat medicina Salerni.</l>
+						<l>Hoc tamen medicis veris alitusque Sophiae</l>
+						<l>Clareat ad plenum quae Musarum turba jubente</l>
+						<l n="20">Nam tua decreti Majestas vilet, et omni</l>
+						<l>Privatur splendore sui si publica fiat.</l>
+						<pb n="516"/>
+						<l>Nam res vulgatae semper fastidia gignunt,</l>
+						<l>Ex re vulgata contemptus nausea surgit,</l>
+						<l>Nam majestatem minuit qui mystica vulgat,</l>
+						<l n="25">Nec decreta manent, quorum sit conscia turba.</l>
+						<l>Exul sit Medicus physicus secreta revelans.</l>
+						<l>Iam Deus Omnipotens Medicus summus Medicorum</l>
+						<l>Digne felicitet opus istud semper in aevum,</l>
+						<l>Ipsum confirmet quod nec Iovis ira nec ignis,</l>
+						<l n="30">Nec ferrum, nec aetas poterit abolere vetusta.</l>
+						<l>Istud complentem benedic, Deus, et facientem</l>
+						<l>Cui sit laus et honor, benedictio, gloria semper.</l>
+						<l>Amen</l>
+					</lg>
+				</div>
+				<div type="chapter">
+					<head><lb/><hi rend="italic">Explicit</hi></head>
+					<lg>
+						<l> - Explicit tractatus qui FLOS MEDICINAE vocatus;</l>
+						<l>Auctor erat gratus per quem fuit abbreviatus,</l>
+						<l>Sublimis status Coelo sit ei praeparatus</l>
+						<l>CHRISTI per latus stat cum Sanctis elevatus.</l>
+						<l>Amen</l>
+					</lg>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,1338 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Passio Arialdi</title>
+				<author>Andreas Strumensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>M. Navoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="11657" unit="words">Parole: 11657</measure>
+				<measure quantity="68738" unit="characters_without_spaces">Caratteri (spazi esclusi): 68738</measure>
+				<measure quantity="79563" unit="characters_witht_spaces">Caratteri (spazi inclusi): 79563</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-07-29">29/07/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell'opera: 1085
+					Parole: 11851
+					Caratteri: 68387
+					Il testo è pubblicato con traduzione a fronte (testo latino sulle pagine pari).
+				GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>Andrea da Strumi</author>
+						<title level="m">Passione del santo martire milanese Arialdo</title>
+						<editor>M. Navoni</editor>
+						<imprint>
+							<publisher>Jaca Books</publisher>
+							<pubPlace>Milano</pubPlace>
+							<date>1994</date>
+							<biblScope unit="page">52-159</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma alla fine della pagina 125 e all'inizio della 126 manca probabilmente del testo</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="52"/>
+		<div>
+                        <head><lb/>Incipit prologus in passionem sancti martyris Arialdi Mediolanensis.</head>
+                        <p><lb/>Praecepisti, venerande pater Rodulfe, ut beati martyris Arialdi passionem
+				<lb/>describerem. Quod licet facere conatus sim, in veritate, non pro humilitate
+				<lb/>sola, ut plerique sapientes solent, loquor. Quicquid in ea est quod
+				<lb/>conveniens sit etiam in ipsa verborum compositione, non meae sapientiae,
+				<lb/>quae sic est parva ut paene sit nulla, sed soli Dei gratiae meritisque ipsius
+				<lb/>atque tuae orationi tribuo. In qua sciat eam quicumque legerit me prorsus
+				<lb/>nihil dixisse, nisi quod, viris certis narrantibus, didicerim: a Marchione videlicet
+				<lb/>ipsius germano fideli, vel a Bonovisino eiusdem fidissimo famulo,
+				<lb/>qui ei a cunabulis est famulatus fideliter; immo de quibus tot existere possunt
+				<lb/>testes, quot illo in loco cum aetate perfecta sanoque sensu sunt homines.
+				<lb/>Verum per totum hunc libellum meum nomen celetur, quia talis sum
+				<lb/>ut magis conveniat nesciri quam sciri, cui iure congruit illud Isaiae: <hi rend="italic">Claude
+				<lb/>- inquit - ostium tuum et absconde te post illud, donec transeat ira Domini.</hi>
+				<pb n="54"/>
+				<lb/>Tuum vero nomen in eius fronte habeatur, quoniam, velis nolis, super
+				<lb/>candelabrum, ut omnibus luceas, te posuit Christus, quatenus is qui scripsit
+				<lb/>si ignoratur, ad quem scriptus est non ignoretur. Porro quia in hoc
+				<lb/>plura sunt in verbis et factis aedificationi utilia, duodecim monasteriis quibus
+				<lb/>te supernus iudex praeposuit, oro ut ad legendum tribuas, quatenus,
+				<lb/>dum audierint in defensione veritatis quid alii nostro in tempore dixerint
+				<lb/>et perpessi sunt, accendantur et ipsi ut talia dicant et, si necesse fuerit, pro
+                        <lb/>eadem veritate similia patiantur.</p>
+                        <lb/><p>Explicit prologus.</p>
+		</div>
+		<div>
+                        <head><lb/>Incipit vita et passio eiusdem.</head>
+			<div type="chapter">
+				<head><lb/>1.</head> <p>Licet iam sic senex sit mundus, ut iam iamque vicinus eius cernatur
+					<lb/>occasus, tamen, quia ab universis mortalibus ignoratur quando finiatur, libet
+					<lb/>novorum constantiam sanctorum supparem antiquorum saevitiamque
+					<lb/>perfidorum qui eos usque ad necem nostris temporibus immoque nostris
+					<lb/>sub oculis persecuti sunt, scriptis tradere atque posteris ad eorum aedificationem
+				<lb/>intimare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2.</head> <p>Igitur in Cutiaco quodam vico, inter Mediolanum Cumumque sito,
+					<lb/>miliario vigesimo distante a maiore, quinto vero a minore, ut in vulgari fertur
+					<lb/>opinione, Bezo quidam cum Beza sua uxore extitit, nobiles utrique natione,
+					<lb/>sed nobiliores probitate. In quorum profecto laude parumper immorari
+					<pb n="56"/>
+					<lb/>et sanctorum gestis quam plurimis instruimur, et cuncti scimus liberiorem
+					<lb/>fore laudem celsi aedificii, si ipsius certitudo habeatur manifesta
+					<lb/>firmi fundamenti. Ii namque causam reproborum, quae est rapacitas, tam
+					<lb/>exosam habebant, ut inter cetera eorum bona, cum in servis equisque nimis
+					<lb/>abundarent, nullus quippe erat audax ex ipsis servis, qui manipulum
+					<lb/>quidem vi furtimve alienae segetis raptum deferre auderet eisdem coram
+					<lb/>equis. Porro superbiam, quae est causa diaboli, ita execrabantur, ut, cum
+					<lb/>libere modis omnibus suis vicinis imminerent atque a nemine eorum, si
+					<lb/>nollent, constringi possent, ceu essent ex illorum minimis, sic se ultro subdebant
+					<lb/>ipsorum omni iustae conventioni. Verum, quoniam unicuique parum
+					<lb/>est non agere prava, nisi in bonis operibus exercitationem ponat, pauperum
+					<lb/>infirmorumque necessitati sic intendebant, ut ex vicinis nemo infirmitate
+					<lb/>oppressus in strato iaceret, qui a Beza, memoria digna, non visitaretur
+					<lb/>et suis, si egeret, huius substantiis non aleretur. Praeterea in ceterorum
+					<lb/>orphanorum egenorumque beneficiis quae illis sedule impendebat, Deo et
+					<lb/>hominibus eius vita sic erat grata, ut ipsi pauperes invicem conferrent dicentes:
+				<lb/>«Si haec obierit, profecto nobis vivere non expedit».</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3.</head> <p>Hoc quippe exercitum sanctae actualis vitae per multorum curricula
+					<lb/>annorum in venerabilis Bezae natorumque eius desudatione, viro
+					<lb/>ipsius iam defuncto, egomet vidi, ceteraque perplura aedificationi congrua,
+					<lb/>quae ideo praetermitto, quia velociter ad ea, quorum causa hoc
+					<lb/>opus assumpsi, venire concupisco. Huic utique, sicut illius relatione didici,
+					<lb/>nocte quadam dormienti, eius adhuc vivente viro, ex quo tunc in utero
+					<lb/>habebat filium, amirabile lumen in visione ceu solis meridiani splendor
+					<lb/>desuper illuxit, cuius claritas, omnibus tenebris ab ea expulsis, totam domum
+					<lb/>ubi erat iacens implevit. Mane autem facto, insolitam secum visionem
+					<lb/>admirans, antiquis matronis pandit, a quibus protinus audit habere
+					<pb n="58"/>
+					<lb/>se in utero infantem sexus masculini meritique futurum celsi. Quem cum
+					<lb/>enixa est, apto praestolato tempore, Arialdum vocant, clericum faciunt,
+					<lb/>scholis diligenter eo usque tradunt quousque provinciales magistri qui
+					<lb/>eum possent instruere deficiunt. A quibus, cum per tempora, ut scholaribus
+					<lb/>moris est, reverteretur, sicut a matre eius iam saepe dicta cognovi, et
+					<lb/>puellae ipsius ornatiores more solito nitidioresque se eius vultui praesentarent,
+					<lb/>quemadmodum essent viperae, sic exterminabant a sua facie, dicens:
+				<lb/>«Captio haec est Satanae».</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>4.</head> <p>Indesinenter denique in diversis terris scholasticis se studiis tam diu
+					<lb/>tradidit, donec optime tam liberalium quam divinarum litterarum haberet
+					<lb/>scientiam, simulque aetatem perfectam. Erat enim tunc ordo ecclesiasticus
+					<lb/>in tot erroribus seductus, ut ex illo vix quispiam existeret qui in suo loco
+					<lb/>veraciter reperiri posset. Nam alii cum canibus et accipitribus huc illucque
+					<lb/>pervagantes, suum venationi lubricae famulatum tradebant, alii vero tabernarii
+					<pb n="60"/>
+					<lb/>et nequam villici, alii impii usurarii existebant. Cuncti fere aut cum
+					<lb/>publicis uxoribus, sive scortis, suam ignominiose ducebant vitam. Omnes,
+					<lb/>quae sua erant, non quae Christi, quaerebant. Nam, quod sine gemitu dici
+					<lb/>vel audiri nec potest nec debet, universi sic sub simoniaca haeresi tenebantur
+					<lb/>impliciti, quatenus a minimo usque ad maximum nullus ordo vel gradus
+					<lb/>haberi posset, nisi sic emeretur quomodo emitur pecus. Et, quod est
+					<lb/>nequius, nemo tunc qui tantae perversitati resisteret apparebat. Sed, cum
+					<lb/>lupi essent rapaces, veri putabantur esse pastores. Ad quorum nimirum
+					<lb/>perversitatem detegendam et corrigendam, Mediolanum, ubi haec iniquitas
+					<lb/>tanto erat copiosior quanto urbibus ceteris ipsa est populosior, a Deo
+					<lb/>procul dubio praefatus missus est Arialdus, divinis, ut praediximus, legibus
+					<lb/>bene eruditus. Qui, ingressus urbem, populum paene universum ad
+					<lb/>eius verba confluentem fari sic adorsus est: «Volo, dilectissimi, vobis dicere,
+					<lb/>in nostri sermonis exordio, quae scire vos scio, ut paulatim sic vos introducam
+					<lb/>ad ea quae nescitis, et vobis scire magnopere necessaria sunt.
+					<lb/>Veraciter credo vos nosse humanum genus usque ad Christi domini nostri
+					<lb/>adventum cecum fuisse non oculis corporis sed cordis. Quod ideo erat cecum,
+					<lb/>quoniam quod erat falsum credebat verum, dicens lapidi lignoque et
+					<lb/>metallo: Deus meus es tu. Cuius cecitati et miseriae in tantum summa lux
+					<lb/>et aeterna compassa est, per quam omnia facta sunt et in qua universa consistunt,
+					<pb n="62"/>
+					<lb/>ut non ad hanc a cordibus hominum auferendam angelum mitteret,
+					<lb/>sed per semetipsam de caelo descendit, carnem assumpsit et, ut eam
+					<lb/>ab hominum cordibus penitus expelleret, usque ad crucis mortem libenter
+					<lb/>accessit. Qui, <hi rend="italic">in diebus carnis suae</hi> homines tot de mundo elegit, quot sufficere
+					<lb/>ad universitatis illuminationem ante saecula posse praevidit. Quos,
+					<lb/>omnibus falsitatis tenebris ab eorum cordibus expulsis, aeterna luce illuminavit
+					<lb/>eosque per mundum universum misit et lucem quam acceperant
+					<lb/>ubique deferre praecepit, sicque ad Patrem a quo venerat rediit. Haec
+					<lb/>quippe summa et aeterna vivaque lux duas in terra causas reliquit, in quibus
+					<lb/>omnes qui erant illuminandi illuminarentur, et usque in finem saeculi
+					<lb/>semper permanerent lucidi, tam isti qui adhuc erant illuminandi, quam qui
+					<lb/>iam fuerant illuminati. Vultis nosse haec res quae fuerunt? Verbum scilicet
+					<lb/>Dei et doctorum vita. De verbo autem Dei quod lux sit, non meum sed
+					<lb/>psalmistae audite testimonium: <hi rend="italic">Praeceptum</hi> - inquit - <hi rend="italic">Domini lucidum,
+					<lb/>illuminans oculos.</hi> Et item: <hi rend="italic">Lucerna pedibus meis verbum tuum.</hi> De vita vero
+					<lb/>doctorum, quod esse debeat lux, in verbis suis ipsa per se veritas aperte
+					<lb/>manifestat:<hi rend="italic">Vos</hi> - inquit - <hi rend="italic">estis lux mundi.</hi> Et protinus addidit:<hi rend="italic">Sic luceat
+					<lb/>lux vestra coram hominibus, ut videant opera vestra bona et glorificent Patrem
+					<lb/>vestrum qui est in caelis.</hi> Ex his itaque unam idem Dominus posuit
+					<lb/>ante illos, aliam ante vos. Hi vero, quibus scientiam scripturae dedit sibique
+					<lb/>ad ministrandum elegit, ut ad lumen verbi sui lucidi semper viverent
+					<lb/>constituit, et ut eorum vita esset vestra lectio, qui litteras nescitis, ordinavit.
+					<lb/>Sed inimico humani generis insidiante pariterque nostra neglegentia et
+					<lb/>peccato operante, illi se convertendo retrorsum perdiderunt suam, vos autem
+					<lb/>lucem perdidistis vestram. Verumtamen, ut securius vos idem inimicus
+					<lb/>deluderet, qui sanctitatis ab eis abstulit veritatem, eis permisit in exteriori
+					<lb/>habitu sanctitatis habere similitudinem. Quod gemens dico, non ad
+					<lb/>vestram ignominiam, sed ad cautelam. Nonne ad eandem cecitatem estis
+					<lb/>reversi, pro qua ab hominibus auferenda Christus de caelo misericorditer
+					<lb/>descendit? Si enim ideo humanum genus ante ipsius adventum, ut diximus,
+					<pb n="64"/>
+					<lb/>erat cecum, quia sumebat pro vero mendacium, quicumque nunc
+					<lb/>opus simile facit, nonne causam eandem incurrit? Nam sicut illi decepti lapides
+					<lb/>et ligna credebant deos, ita vos vestros sacerdotes putatis veros, quos
+					<lb/>incunctanter esse constat falsos. Unde hoc scire possumus? Vultis nosse
+					<lb/>unde? In tenebris sumus: ut hoc patenter cognoscamus, ad lucem eamus.
+					<lb/>Ad quam lucem? Ad verbum videlicet Dei. Ecce, Christus dicit: <hi rend="italic">Qui mihi
+					<lb/>ministrat, me sequatur.</hi> Quod est aperte dicere: A nemine quippe mihi ministratur,
+					<lb/>nisi ab eo qui me sequitur. Vestrorum vitam sacerdotum scio vos
+					<lb/>nosse. Et quo Christus pergat et quid dicat, audite, atque tunc plenius cognoscetis
+					<lb/>utrum isti sint eius ministri, an ipsius potius adversarii. Ecce Christus
+					<lb/>clamat: <hi rend="italic">Discite a me, quia mitis sum et humilis corde.</hi> Et iterum de se
+					<lb/>dicit: <hi rend="italic">Filius hominis non habet ubi caput reclinet.</hi> Et item: <hi rend="italic">Beati pauperes
+					<lb/>spiritu, quoniam ipsorum est regnum caelorum.</hi> E contra vero, ut inspicitis,
+					<lb/>vestri sacerdotes, qui effici possunt ditiores in terrenis rebus, excelsiores in
+					<lb/>aedificandis turribus et domibus, superbiores in honoribus, in mollibus
+					<lb/>delectatisque vestibus pulchriores, ipsi putantur beatiores. En ipsi, ut cernitis,
+					<lb/>sicut laici, palam uxores ducunt, stuprum, quemadmodum scelestes
+					<lb/>laici, sequuntur, atque ad nefandum hoc opus patrandum tanto sunt validiores,
+					<lb/>quanto a terreno labore minus oppressi, videlicet viventes de dono
+					<lb/>Dei. Christus autem in suis e contra ministris tantam munditiam quaerit et
+					<lb/>exoptat, ut non solum in opere, verum etiam stupri scelus damnet in corde
+					<lb/>dicens: <hi rend="italic">Qui viderit mulierem ad concupiscendum eam, iam moechatus est
+					<lb/>eam in corde suo.</hi> Redite, dilectissimi, ad corda vestra, redite, et sumere verum
+					<lb/>falsumque respuere discite. Nam conatus sum eos reducere ad suam
+					<lb/>lucem, sed nequivi; ut enim vos ad vestram reducam, huc ideo veni, et hoc
+					<pb n="66"/>
+					<lb/>aut fecero, aut pro vestra salute paratus sum animam meam tradere gladio».
+					<lb/>Haec et huiuscemodi quam plura vir Dei dum diceret, in verbis eius
+					<lb/>plebs fere universa sic est accensa, ut quos eatenus venerata erat ut Christi
+				<lb/>ministros, damnans proclamaret Dei hostes animarumque deceptores.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5.</head> <p>Factum est autem, dum agerentur haec, de medio multitudinis surgens
+					<lb/>quidam clericus nomine Landulfus, de urbanis excellentibus tam ordine
+					<lb/>quam natione, nimis potens in voce et sermone, silentium petiit. Quo
+					<lb/>concesso, huiusmodi laetiferam vocem prompsit: «Gratias - inquit - coram
+					<lb/>vobis omnipotenti Deo ago, qui nunc me ea audire permittit, unde
+					<lb/>meum cor per innumera tempora ignescit. Nam olim haec sciens dolensque
+					<lb/>ideo tacebam, quoniam cum quo ea dicerem non habebam. Nunc vero,
+					<lb/>domne Arialde carissime, quia Dei donum te dedit mihi, scito me ab ipso
+					<lb/>collatum tibi, et exinde, quicquid hac de re dixeris fecerisve, me facere et
+					<lb/>dicere et me meam animam, sicut tu professus es tuam, pro salute fratrum
+					<lb/>ponere esse paratum incunctanter te nunc reddo securum». Populus namque
+					<lb/>iam fidelis haec audiens, in Dei laudem crescens hilarescit; pars adversa
+					<lb/>tabescens deficit. Dei vero famulus Arialdus, oculis ac manibus sursum
+				<lb/>erectis, omnium bonorum Largitori inmensas et debitas reddit gratias.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6.</head> <p>Denique post haec quidam laicus surrexit alius, nomine Nazarius,
+					<pb n="68"/>
+					<lb/>officio monetarius, cuius vita valde erat ab omnibus laudabilis, licet coniugalis.
+					<lb/>Qui silentium petiit; quo accepto, coram omnibus tale responsum
+					<lb/>dedit: «Domne Arialde, ea quae dicis esse vera et utilia, non solum advertere
+					<lb/>possunt sapientes, verum etiam et vecordes. Quis tam insipiens est,
+					<lb/>qui non lucide perpendere possit quod eorum vita esse altius debeat a mea
+					<lb/>dissimilis, quos ego in domum meam ad benedicendum eam voco, iuxta
+					<lb/>meum posse reficio et post haec manus deosculans munus offero, et a quibus
+					<lb/>mysteria, pro quibus aeternam vitam expecto, omnia suscipio? Sed, ut
+					<lb/>omnes inspicimus, non solum non mundior, verum etiam sordidior perspicue
+					<lb/>cernitur. Verumtamen hoc scelus sic scito inter nos radicatum et inveteratum,
+					<lb/>quatenus aut vix aut cum grandi labore poterit evelli. Nunc autem,
+					<lb/>quia Largitor omnium bonorum mihi tanta contulit bona, quae satis
+					<lb/>et mihi sufficere possunt et tibi, obsecro te, per eundem omnipotentem
+					<lb/>Dominum, ut in domum meam ingredi digneris et exhinc bonis omnibus
+					<lb/>meis ut ego ita et tu fruaris, quatenus tua exhortatione assidua ab hoc errore
+					<lb/>liberari et in omni veritate confirmari possimus tam ego quam haec
+					<lb/>plebs universa. Cave ne ad sanguinem altum de quo ortus es et ad opem
+					<lb/>multam qua polles inspicias, ne forte, sacramento pro quo te adiuravi spreto,
+					<lb/>non quae Dei sed quae tua sunt quaerere videaris». Vir autem Domini
+					<lb/>haec audiens, et magnitudinem coniurationis et famam viri optimam considerans,
+					<lb/>omnia terrena quae sibi resistere possent conculcans, in domum se
+					<lb/>iuste invitantis libenter intravit et per plura tempora Marthae opus ab eo
+					<lb/>fideliter sumpsit, et quod operatus est Petrus in Cornelio suisque amicis,
+					<lb/>operatus Arialdus est in Nazario eiusque vicinis. In quibus utique tunc arbusta
+					<pb n="70"/>
+					<lb/>quae se Dominus per prophetam pollicitus est in deserto simul positurum,
+					<lb/>scilicet vitem et ulmum, procul dubium est completum, quatenus
+					<lb/>altera mentes debriaret, altera vero debriantem sustentaret. Exhortantibus
+					<lb/>denique Arialdo Landulfoque populum fideli et assidua doctrina, stupra
+					<lb/>clericorum nefanda et execranda eorum connubia sic ab eodem populo intra
+					<lb/>aliquanta tempora sunt persecuta et deleta, ut nullus existeret quin aut
+				<lb/>cogeretur tantum nefas dimittere vel ad altare non accedere.</p>
+			</div>
+			<pb n="72"/>
+			<div type="chapter">
+				<head><lb/>7.</head> <p>Per idem tempus decreverunt fideles Romam ad synodum Landulfum
+					<lb/>mittere, quoniam ut eos mendaciter eorum aemuli accusarent illo pergebant.
+					<pb n="74"/>
+					<lb/>Quem urbem Placentinam progredi non licuit, quia ibi a quodam
+					<lb/>profano est oppido percussus et sic Mediolanum regressus. Sed Arialdus
+					<lb/>Dei famulus, sumpto itinere, omnium adversariorum fraudem circumquaque
+					<lb/>positorum ad eum necandum scienter declinavit atque Romam, Deo
+					<lb/>illum protegente, incolumis pervenit. Qui coram summo pontifice se offerens,
+					<lb/>cum causam iam coeptam ei retulisset, post multam honorificentiam
+					<lb/>quam ipsi idem impendit, iussit a quibus sacerdotibus divina mysteria
+					<lb/>dehinc sumeret et sub inevitabili iussu ei praecepit ad opus coeptum regredi
+					<lb/>et tam diu in eo vehementer insistere, donec nefanda opera quae
+					<lb/>tunc inerant in ecclesiastica familia aut penitus deleret aut sanguinem pro
+					<lb/>Christo proprium inimicis fundendum praeberet. Qui in omnibus oboediens
+					<lb/>regreditur, iam saepe dictam causam competenter persequitur et
+					<lb/>constanter cum suo socio divinitus sibi collato, habentes dehinc doctrinam
+				<lb/>tam plenam auctoritate quam veritate.</p>
+			</div>
+			<pb n="76"/>
+			<div type="chapter">
+				<head><lb/>8.</head> <p>Hoc quippe impii civiles perpendentes clerici, quasi occulte in unum
+					<lb/>conveniunt: ideo, quia progenie altior erat Landulfus, eum occidere disponunt,
+					<lb/>putantes timore perterritum sic silere Arialdum. Ad patrandum vero
+					<lb/>tam scelestum opus, quendam audacem et impium conveniunt clericum,
+					<lb/>nimio praemio reddunt securum, si iam dictum extingueret virum. Qui,
+					<lb/>acquisito grandi carnificis gladio, quem saepe ego postea vidi, simulque
+					<lb/>toxico ad necandum citissimo, coepit eum prosequi per cenam Domini et
+					<lb/>parasceven sabbatumque sanctum clanculum necnon et sanctum diem paschae.
+					<lb/>Vera utique me dicere scio, utrum rei gestae ordinem teneam ignoro.
+					<lb/>Cumque ipsum in diebus his reperire minime potuerit absque turbis, in
+					<lb/>secunda tandem de albis feria ad impium et diu optatum pervenit votum.
+					<lb/>Nam in ipsius diei crepusculo solum illum ante quoddam repperit altare
+					<lb/>orantem. Mixturam impiam quam secum ferebat permiscuit illico, scilicet
+					<lb/>gladium cum toxico, et post tergum clam veniens eumque in collo graviter
+					<lb/>percussit et sic fugam protinus petiit. Sed, volente Deo, licet esset nimis
+					<lb/>velox ad fugiendum, in egressu basilicae per quendam captus est claudum.
+					<lb/>Clamor igitur vehemens attollitur, ab omnibus concurritur: quae esset causa
+					<lb/>tanti clamoris inquiritur. Cognita namque causa, nefandum clericum
+					<lb/>circumdederunt eumque cornu toxico plenum habentem reppererunt.
+					<lb/>Moerentes ergo percussum et eum qui percussit accipiunt ac sic ad domum
+					<lb/>Landulfi pergunt et ipsius obitum protinus praestolantur adfuturum.
+					<lb/>Sed magni prodigii evidentiam tunc ostendit Deus omnipotens, ut servo
+					<lb/>suo nihil plus venenum officeret quemadmodum si aqua esset. Nam idem
+					<lb/>professus est clericus se illud in pluribus pecudibus probasse, quae ut deglutiverunt
+					<lb/>cunctae post paululum vita caruerunt. O mira Domini potentia!
+					<lb/>Hunc virum postquam tetigit, etiam deglutitum nulli nocere quivit.
+					<lb/>Unde ipse reddens debitam Deo laudem, percussorem clericum dimisit incolumem,
+					<lb/>admonens ne ulterius tantam conaretur praesumptionem. Idem
+					<lb/>vero clericus, sua cernens molimina, nimio studio exquisita, a Dei evidenter
+					<pb n="78"/>
+					<lb/>virtute exinanita sibique ab eius famulis pro malis impensa bona, corde
+					<lb/>compunctus veniam petiit, tanti sceleris incentores prodidit, se ulterius tale
+				<lb/>quid minime conari promisit et postremo sic discessit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>9.</head> <p>Per idem tempus clerici suburbani in unum convenientes ad invicem
+					<lb/>dicunt: «Quid facimus? En Arialdus, qui nos nostrasque familias conturbavit
+					<lb/>et dispersit, in urbe conclusus atque a populo circumdatus inhabitat,
+					<lb/>ideoque ut eum perimamus nequaquam pertingere valemus. Si autem hoc
+					<lb/>nequimus, damnum dedecusque quod possumus illi saltim inferamus. In
+					<lb/>loca nostra nunc revertamur et exquisitis gladiis bene acutis rursum nocte
+					<lb/>alia conveniamus: una illuc ubi idem est hortus pergamus et ubi adhuc
+					<lb/>cum suis magna pollet possessione parentibus, atque ad ignominiam eius
+					<lb/>ecclesiam quam olim in praedio proprio construxit violemus, dissipemus.
+					<lb/>Arbores vero castaneas quas habet innumeras decorticemus, vineas autem
+					<lb/>quibus nimis habundat incidamus. Interim quidem ex nobis aliqui illuc
+					<lb/>pergant in die, qui ipsius substantiae plene habent notitiam: vineas eius et
+					<lb/>silvas evidenter designent, ut non tunc quid appareat, in quo quis errare
+					<lb/>debeat». Nocte igitur conveniunt condicta, ecclesiam extra vicum reperiunt,
+					<lb/>quam, ruptis ostiis, intrant. Altare frangunt et violant ceteraque
+					<lb/>utensilia dissipant et dedecus, quod infelices nequibant famulo, facere non
+					<lb/>sunt veriti Domino. Porro, cum ad designatas arbores vineasque vellent
+					<lb/>accedere, sicut ipsi postea professi sunt morientes, cum ingenti terrore tanta
+					<lb/>a iusto Dei iudicio sunt perculsi cecitate, ut neque ubi essent neque rem
+					<lb/>designatam invenire possent. O mira Domini pietas! Suam demoliri causam
+					<lb/>permisit, servi vero sui optime tutari novit. Sed ne miseri illam noctem
+					<lb/>inanem ducerent, vineas et silvas introgressi alienas, incidunt et decorticant.
+					<lb/>Verumtamen Deo gratias agens profiteor postea me vidisse persaepe
+					<pb n="80"/>
+					<lb/>ipsas arbores suis cultoribus uberrimos fructus reddere easque adhuc similiter
+				<lb/>credo facere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10.</head> <p>Per idem tempus Christi famuli, cernentes omnem populum ad sequendum
+					<lb/>quicquid dicerent esse promptissimum, de simoniaca quam eatenus
+					<lb/>reticuerant palam loqui incipiunt. Quorum primus in virtute scientiae
+					<lb/>et sanctitatis, scilicet Arialdus, licet illo eloquentior esset Landulfus,
+					<lb/>de simoniaca et contra ipsam tale exordium protulit ad populum: «Gratias
+					<lb/>- inquit - dilectissimi, omnipotenti Deo reddere debemus, qui dedit vobis
+					<lb/>velle quae vult ipse. Scire vos quidem volumus quod laborem non modicum
+					<lb/>quem usque modo contra insolentiam coniugatorum adulterorumque
+					<lb/>sumpsimus sacerdotum, magis nos fecisse necessitate quam voluntate.
+					<lb/>Nam utrum haeretici uxores habeant an non, parvi pendimus». Aspicientibus
+					<lb/>ergo ad invicem se turbis et admirantibus cur hoc diceret, adiecit:
+					<lb/>«Audistis, carissimi, dum legeretur liber actuum apostolorum, venisse Simonem
+					<lb/>magum ad beatum apostolum Petrum et postulasse per pecuniam
+					<lb/>Spiritus sancti gratiam. Lucas evangelista qui hoc scripsit, quid beatus ei
+					<lb/>Petrus responderit protinus adiunxit: <hi rend="italic">Pecunia</hi> - inquit - <hi rend="italic">tua tecum sit in
+					<lb/>perditione, quia existimasti donum Dei pecunia possideri.</hi> Quid est hoc?
+					<lb/>Nonne iste est ille Petrus cui septuagies septies peccanti fratri dimittere
+					<lb/>iussit Dominus? Est utique. Sed hunc non prospexit in se nec in homine
+					<lb/>peccare solummodo, sed in Deo. Nam nimis idem beatus Petrus peccasset,
+					<lb/>si auctorem tanti reatus silendo proficere sineret et aestimationem tantae
+					<lb/>nequitiae in ipsa sua radice minime damnasset. Quod lacrimabiliter validoque
+					<lb/>dolore profero: ecce nefas quod apostolorum princeps in ipsa aestimatione
+					<pb n="82"/>
+					<lb/>aeternae perditioni tradidit, per universum paene mundum sic obtinet
+					<lb/>principatum, quatenus nullus ad regimen pontificale vel abbaticum sive
+					<lb/>ad officium qualecumque ecclesiasticum perveniat, nisi per ipsum.
+					<lb/>Quis, quae dicturus sum, audit, dolens non obstupescit? En Christus verus
+					<lb/>Dominus, pastor bonus, suo gregi sollemne et salutare bonumque dedit
+					<lb/>praeceptum, quod oblivioni tantae proiectum est, ut nemo appareat qui
+					<lb/>eius iam reminisci audeat. Vultis audire quod est illud? <hi rend="italic">Gratis</hi> - inquit -
+					<lb/><hi rend="italic">accepistis, gratis date.</hi> E contra vero impia cogitatio quae maligne semel est
+					<lb/>exorta in impii Simonis corde et quae illico est damnata a tanto apostolo
+					<lb/>cum suo auctore, ubique sic est sparsa sollemniter, ut nemo fere ad altaris
+					<lb/>officio accedat, nisi prius agat opere quod idem cogitavit nequiter corde,
+					<lb/>et donec eidem maledictioni tanto profundius se subiciat, quanto esse noscitur
+					<lb/>peius malum facere quam cogitare. Utinam haec maledictio illos
+					<lb/>percuteret tantummodo qui Dei donum vendere aut emere praesumunt
+					<lb/>audaci corde et impio! Verumtamen hic tam noxius est reatus, ut non solum
+					<lb/>qui faciunt et qui consentiunt, verum etiam eos qui facientibus non resistunt
+					<lb/>et obpugnant, sic poenaliter obliget, quatenus maledictione quae
+					<lb/>Simoni a Petro est illata minime procul dubio careant. Ne forte mentiri me
+					<lb/>arbitremini, quid de hac re noster patronus sentiat beatus Ambrosius audite.
+					<lb/>Ait enim: «Nam et lepram cum Giezi a sancto suscepisse se credant
+					<lb/>Heliseo, qui gradum sacerdotalem se existimant pecuniis comparare.
+					<lb/>Nam, sicut validioribus morbis capite vitiato reliquum necesse est corpus
+					<lb/>inundatione superioris morbi letaliter irrigari, ita et ii qui caput videntur
+					<lb/>esse ecclesiae, morbo pestifero fraternum vitiant corpus, ut nihil ex totius
+					<lb/>corporis compage insauciatum possit evadere, quod neglegentium sacerdotum
+					<lb/>vitiositatis mortale non infecerit virus. Ita videas in ecclesia passim
+					<lb/>quos non merita sed pecuniae ad episcopatus ordinem provexerunt». Verumtamen,
+					<pb n="84"/>
+					<lb/><hi rend="italic">ut in ore duorum vel trium testium stet omne verbum</hi> , audite
+					<lb/>quid super hac re beatus dicat Gregorius: «Cur - inquit - non videtur,
+					<lb/>cur non perpenditur quia benedictio illi in maledictionem convertitur, qui
+					<lb/>ad hoc, ut fiat haereticus, ordinatur?». Et iterum: «Quisquis contra hanc
+					<lb/>simoniacam et neophitorum haeresim vehementer pro officii sui consideratione
+					<lb/>non arserit, cum Simone mago se non dubitet habere portionem,
+					<lb/>qui prius commisit hoc piaculare flagitium». Quoniam locus ille in hoc
+					<lb/>beati Gregorii sermone ubi praecipitur unicuique pro sui officii consideratione
+					<lb/>contra simoniacam ardere debere, non omnibus forsitan plene patet,
+					<lb/>vobis lucide nos explanare condecet. Tres quippe ordines in sancta ecclesia
+					<lb/>habentur: unus praedicatorum, alter continentium, tertius coniugatorum.
+					<lb/>Primus namque debet contra hanc ardere indefessa exhortatione,
+					<lb/>continentes autem assidua oratione, vos vero qui coniugati estis et de vestrarum
+					<lb/>labore manuum vivitis, ut Deus omnipotens hanc ab ecclesia sancta
+					<lb/>repellat et disperdat cotidie ardenterque operibus eleemosynarum instare
+					<lb/>debetis. Quisquis igitur nunc ex his tribus ordinibus contra simoniacam
+					<lb/>cum his iustitiae operibus ardenter minime pugnaverit, iuxta dicta Spiritus
+					<pb n="86"/>
+					<lb/>sancti, qui haec dixit per os beati Gregorii, poenam quam Simon magus
+					<lb/>nunc habet, quod eandem in fine effugere queat nullo modo credat. Si
+					<lb/>enim hi, quibus est scientia officiumque praedicandi commissum, qualibet
+					<lb/>ex causa tacuerint, non solum continentes, quorum praedicatio tanto esse
+					<lb/>debet liberior et veracior, quanto constat quia sunt ab omni re saeculari
+					<lb/>expediti et sacrae legis meditatione assidua edocti, verum etiam vos, qui
+					<lb/>estis idiotae ignarique scripturae, communibus verbis quibus valetis invicem
+					<lb/>vos cautos ab hac nequitia reddere debetis. Unde Dominus dixit: <hi rend="italic">Si
+					<lb/>homines tacuerint, parietes loquentur.</hi> Nonne de hac re dicit propheta: <hi rend="italic">Maledictus
+					<lb/>qui prohibet gladium suum a sanguine?</hi> Hoc est: ab interfectione
+					<lb/>huius nequissimae beluae». Haec quippe et huiuscemodi quam plura dicente
+					<lb/>beato Arialdo, in locum illum salutifer ille gladius est procul dubio
+					<lb/>missus, qui fideles dividit ab infidelibus et de quo locutus est Dominus:
+					<lb/><hi rend="italic">Non veni</hi> - inquit - <hi rend="italic">pacem mittere, sed gladium.</hi> Nam Wido, qui dicebatur
+					<lb/>archiepiscopus, et pars maxima clericorum et militum, nec non et multi
+					<lb/>de populo minore nequam viri, secernentes, dixerunt ad invicem: «Haec
+					<lb/>namque doctrina, si ad profectum venerit, nobis nostrisque filiis profecto
+					<lb/>nullo modo vivere expedit. Quae enim est nostra vita nisi ecclesiarum beneficia
+					<lb/>quae assidue a nobis venduntur et emuntur? Quapropter utilius est
+					<lb/>nobis ut huic novae doctrinae resistentes moriamur, quam venire hanc ad
+					<pb n="88"/>
+					<lb/>profectum, ut diximus, sinamus». E contra vero ad viros Dei fideles clamabant:
+					<lb/>«Audivimus - inquiunt - ex vestra assertione simoniacos haereticosque
+					<lb/>esse procul dubio, qui noscuntur emisse ea quae sunt sacra. Quo
+					<lb/>scelere qui immunis de sacerdotibus inter nos sit, sine dubio manifestum
+					<lb/>est quia nemo est. Nos autem, quia Christiani dicimur, absque Christi sacramento
+					<lb/>vivere nullatenus valemus. Quod si ab istis sumpserimus, potius
+					<lb/>dicitis nos sumere damnationem quam salutem. Et ideo his telis undique
+					<lb/>constringimur et quid agamus profecto nescimus». Quibus beatus Arialdus
+					<lb/>sic respondit: «Videte - inquit - dilectissimi, dum haec dicitis, ne
+					<lb/>supra vos veniat quod Spiritus sanctus per beatum Iacobum loquitur dicens:
+					<lb/><hi rend="italic">Vir duplex animo inconstans est in omnibus viis suis.</hi> Ideoque qui veritatem
+					<lb/>cupit veraciter invenire, constanter omnem debet falsitatem respuere.
+					<lb/>Quapropter, ut veritate quae Deus est perfrui perfecte valeatis, per
+					<lb/>ipsum vos obsecro ut a falsorum consortio sacerdotum penitus vos segregetis,
+					<lb/>quoniam luci cum tenebris, fidelibus cum infidelibus, Christo cum
+					<lb/>Belial nulla esse debet conventio aut pars sive societas. Sic enim scriptum
+					<lb/>est: <hi rend="italic">Exite de medio eorum et separamini et immundum ne tetigeritis, et ego
+					<lb/>recipiam vos, dicit Dominus.</hi> Quomodo potest fieri ut vobis petentibus minora
+					<lb/>non tribuat, id est pastores qui vos iuste regant, qui vobis adhuc non
+					<lb/>existentibus tribuit maiora, hoc est semetipsum pro salute vestra? Propterea
+					<lb/>omnium spreto haereticorum consortio, pastores bonos et fideles ab eo
+					<lb/>fiducialiter petite, et quia accipietis procul dubio scitote». His namque
+					<lb/>verbis multi viri ac mulieres sic sunt accensi, ut non solum deinceps simoniacorum
+					<lb/>actus omnes contemnerent, sed etiam cum eis nullo modo in
+					<lb/>uno oratorio orare vellent. In his autem diebus, si per illam urbem incederes,
+					<pb n="90"/>
+					<lb/>praeter huius rei contentionem undique vix aliquid audires. Alii siquidem
+					<lb/>simoniacam excusantes, alii eam constanter damnantes, nec mirum
+					<lb/>quoniam una domus tota erat fidelis, altera vero tota infidelis, tertia autem
+					<lb/>mater erat credula cum uno filio, pater incredulus cum altero. Et hac quidem
+				<lb/>confusione et contentione civitas tota erat plena et permixta.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11.</head> <p>In diebus illis quam plurimi clerici coeperunt consortium clericorum
+					<lb/>pravorum relinquere et beato Arialdo adhaerere. Inter quos quidam
+					<lb/>ex illis sacerdotibus, ipsius exhortatione compunctus, ecclesiam quandam
+					<lb/>quam grandi pretio male emerat dimittere disposuit. Sed, Christo ordinante,
+					<lb/>miles in cuius iure haec erat, iam de fidelibus existebat. Qui per beatum
+					<lb/>Arialdum edoctus, sicut ille eam deserere disposuerat qui illam emerat, sic
+					<lb/>iste suo e iure elegit hanc amittere ut dominam, qui hactenus ipsam nequiter
+					<lb/>usurparat ut famulam. Convenientibus igitur cum beato Arialdo in
+					<lb/>unum multis fidelibus, miles refutationem ab emptore accepit eamque super
+					<lb/>altare, viri Dei admonitione, posuit, et beato eidem Arialdo iussit ut
+					<lb/>deinceps eam disponeret secundum quod Deum velle sciret. Qui protinus
+					<lb/>tres clericos fideles et castos vocavit et refutationem quam miles in altare
+					<lb/>posuerat, eos pariter iussit tollere. Cumque idem a pluribus exoraretur ut
+					<lb/>eandem cum ipsis una sumeret, quatenus ad multorum profectum ibidem
+					<lb/>manere deberet, ait: «Cum ipsis quidem ad eorum instructionem et ceterorum
+					<lb/>salutem manebo, verumtamen ne verbo Dei mihi credito impedimentum
+					<pb n="92"/>
+					<lb/>sit sub iugo alicuius terrenae rei et ne huic Azoni in cuius ditione haec
+					<lb/>ecclesia est constructa sub hac occasione aliquod possit damnum inferri,
+					<lb/>huius rei sortem nequaquam sumo, quoniam tale tempus scitote procul
+					<lb/>dubio venturum, in quo nulli vivere liceat, nisi me a suis finibus expellat».
+					<lb/>Hic quippe sermo quomodo propheticus fuerit, in sequenti lectoris menti
+				<lb/>luce clarior patebit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12.</head> <p>Eo namque in eadem ecclesia manente, quanta beneficia tam verbis
+					<lb/>quam factis sive ipsis fratribus sive ceteris tam fidelibus quam infidelibus
+					<lb/>impenderit et quanta ab eis pro bonis mala per decem fere annos pertulerit,
+					<lb/>nemo nec omnia scribere, immo nec valet profecto dicere. Nam protinus
+					<lb/>legationem in domum paternam misit et ex ea viginti libras argenti
+					<lb/>sumpsit atque iuxta eandem ecclesiam habitaculum mirabiliter aptum aedificavit.
+					<lb/>Agitur denique res nova et paene ab eodem loco hactenus inscia:
+					<lb/>chorus namque alti circumdatione muri concluditur, in quo ostium ponitur;
+					<lb/>visio clericorum laicorumque ac mulierum, quae una erat et communis,
+					<lb/>dividitur; omnes de una arca vivere coguntur; fabulae ad mensam
+					<pb n="94"/>
+					<lb/>compescuntur, pro quibus sancta lectio super eam assidue profertur. Ceteri
+					<lb/>autem clerici mane omnes diei horas potius murmurabant quam decantarent:
+					<lb/>hic vero in die, tacto septies signo, fratribus una congregatis, magna
+					<lb/>cum veneratione debitam omnipotenti Deo laudem decantabat atque ad
+					<lb/>satisfactionem omnes in eodem officio, dum forte delinquerent, dicto et
+					<lb/>facto provocabat. Porro sicut beatus Arialdus laetus nimis est effectus eo
+					<lb/>quod ad votum diu nimisque optatum, videlicet ut cum fratribus ad ecclesiam
+					<lb/>communiter vivere posset, pervenerat; sic fideles multi laeti sunt effecti
+					<lb/>pro eo quod aptum locum haberent, ubi Domini verba mente libera
+					<lb/>audire possent et divina (mysteria) sacramenta percipere. Coepit autem
+					<lb/>tanta ibidem multitudo confluere, non solum de urbe sed etiam de villis et
+					<lb/>castellis, quatenus eos nullo modo valeret capere ipsa ecclesia, licet satis
+					<lb/>esset ampla. Quos tam constanti assiduaque doctrina vir Dei docebat, ut
+					<lb/>plerumque vocem sic amitteret, quatenus ab aliquibus iuxta se positis vix
+				<lb/>audiri posset.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13.</head> <p>Praeterea, quia canes muti effecti erant et latrare nequibant, multa
+					<lb/>mala et detestanda populus tunc commitebat. Quae ita idem ab exordio
+					<lb/>suae praedicationis universa damnavit, ut suum procul dubio illud dictum
+					<lb/>faceret, quod per beatum Paulum prolatum est: <hi rend="italic">Mundus</hi> - inquit - <hi rend="italic">sum
+					<lb/>a sanguine omnium vestrum. Non enim subterfugi quominus nuntiarem omne
+					<lb/>consilium Dei vobis.</hi> Per totum namque adventum absque contradictione
+					<pb n="96"/>
+					<lb/>ulla eos repperit nuptias sollemniter celebrare, uxores ducere, etiam in
+					<lb/>ipsa Domini natalis vigilia, si fortassis eveniret in dominica. Cui rei nefandae
+					<lb/>tam ardenter constanterque verbis coepit pariter et actibus obsistere,
+					<lb/>quatenus in eius venerabili transitu nemo paene reperiri posset, qui tam
+					<lb/>nefandum opus agere praesumeret. Nam in ipso nuptiali die, iam paratis
+					<lb/>omnibus quae in nuptiis solent parari, illuc ubi eaedem nuptiae agebantur,
+					<lb/>cum fratribus anxie occurrebat, et celebraturos omnium rerum Domini
+					<lb/>nuptias nitidos suis minime ruderibus esse debere sordidos occupatosque
+					<lb/>denuntiabat et tali modo illos cogebat omnia iam tractata omittere et in
+				<lb/>apto tempore servare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14.</head> <p>Duo denique clerici olim signum clericatus in ecclesia quadam,
+					<lb/>quae Sancta Maria Secreta nuncupatur, sumpserant. Quorum tamen nemo
+					<lb/>ipsius beneficio perfrui posset, donec, sicut in loco eodem mos erat, eiusdem
+					<lb/>ecclesiae sacerdos minime obisset. Quem per idem tempus obisse
+					<lb/>contigit. Sed cum iam dictam ecclesiam pridem qui primus designatus fuerat
+					<lb/>adipisci deberet, tantummodo si pro ea male usitatum praemium daret,
+					<lb/>viri Dei iam credulus verbis, distulit. Quem improbus suus minor anticipavit
+					<lb/>et neque Deum neque hominem erubuit nec veritus est ut eandem sibi
+					<lb/>cum pecunia non acquireret. Quod ut ad hominem Dei Arialdum fuisset
+					<lb/>perlatum, eum adscitum ad se sic allocutus est: «Inique praesumptor, cur,
+					<lb/>postquam me docente esse haereticum emptorem venditoremque sacri audisti,
+					<lb/>hanc iniquitatem committere non timuisti?». Quo obmutescente et
+					<lb/>nesciente quid responderet in excusatione et quia iam pro hoc a vicinis nimis
+					<lb/>habebatur execrabilis, tandem sic respondit: «Audita quidem manifesta
+					<lb/>ratione, me male fecisse video, sed quid exhinc agam penitus ignoro,
+					<pb n="98"/>
+					<lb/>quoniam abbas Sancti Victoris, cui hac de causa paene quicquid habebam
+					<lb/>dedi, Deum non sic timet, ut mihi meam semel acceptam pecuniam reddat,
+					<lb/>et hanc si non habuero, unde meam vitam mediocriter sustentem minime
+					<lb/>habeo». Cui vir Dei: «Quid - inquit - dedisti?». «Duodecim - inquit
+					<lb/>- libras argenti». Respondit autem vir Dei dicens: «Et si tibi reddantur,
+					<lb/>vis dimittere libenter quod comparasti nequiter?». Qui respondit: «Libentissime».
+					<lb/>At bonus discipulus, pium imitans magistrum, sequitur opere
+					<lb/>quod loquitur ore: de suo proprio patrimonio duodecim integre libras argenti
+					<lb/>sumpsit ipsique universas tradidit et sic iam fatam ecclesiam gratis alterum
+				<lb/>fecit habere, cui competebat iure.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>15.</head> <p>Per idem tempus Landulfus, sodalis ipsius, obiens superstitem germanum
+					<lb/>nomine Herlembaldum, prudentem et fidelem virum, licet laicum,
+					<lb/>reliquit. Hic nuper, ex Ierosolyma reversus, volebat tunc saeculum relinquere
+					<lb/>et se tradere vitae monasticae. Cuius fidem et constantiam beatus
+					<lb/>Arialdus agnoscens, coepit ei promittere quod sibi potiorem apud Deum
+					<lb/>gradum acquireret, si monasterium ingredi differet et fidem catholicam secum
+					<lb/>defenderet, atque cum ipso haereticis et Christi hostibus resisteret.
+					<lb/>Qui volens probare utrum in his quae a beato Arialdo sibi promittebantur
+					<lb/>veraciter auderet confidere, sumptis aliquantis fidelibus, perrexit Romam,
+					<lb/>non per viam regiam gradiens, sed per Dei cultores in eremo et in monasteriis
+					<lb/>circumquaque degentes de iam re dicta omnes interrogans. Cumque
+					<pb n="100"/>
+					<lb/>cuncti, in vera et pura fide accensi, sententiam ei concordem una cum beato
+					<lb/>Arialdo promerent, tandem pervenit Romam. Ubi, sub inevitabili imperio
+					<lb/>ab Alexandro papa et a cardinalibus ei praeceptum est redire et Christi
+					<lb/>adversariis in defensione iustitiae usque ad proprii sanguinis effusione viriliter
+					<lb/>cum beato Arialdo resistere. Cui etiam ex beati Petri parte mirificum
+					<lb/>vexillum dederunt, ut, quotiens haereticorum vesania ultra modum insaniret,
+					<lb/>illud in manu tenens eos reprimeret. Quod quam constanter per decem
+					<pb n="102"/>
+					<lb/>et octo fere annos implevit, nec lingua plene promere nec stilus meus exprimere
+					<lb/>est profecto idoneus. Erat enim nobilis Herlembaldus coram saeculo
+					<lb/>quasi dux in vestibus pretiosis et in equitibus ac armis, sed in abscondito
+					<lb/>coram Deo, sicut eremita agrestis, indutus erat laneis. Hunc in pedum
+					<lb/>ablutionem pauperum agere vidi, quod in alio nemine me reminiscor vidisse.
+					<lb/>Nam cum alicubi per urbem vallatus magna multitudine fidelium se gratis
+					<lb/>obsequentium incederet, et horrendos pauperes et debiles inspiceret,
+					<lb/>clam alicui ex suis famulis innuebat persistere atque pauperem post ipsum
+					<lb/>ad domum secum ducere. Dimissis igitur extraneis, allata aqua cintusque
+					<lb/>linteo, egeni pedes nimia cum veneratione abluebat et extergebat. Post haec
+					<pb n="104"/>
+					<lb/>autem, corpore in solo prostrato, sub ipsius pedibus caput ponebat et tali
+					<lb/>modo mendicum et pauperem faciebat se modicum conculcare divitem.
+					<lb/>Denique honorifice et abundanter ipsum reficiebat secum. Nam hoc opus
+					<lb/>sanctum interdum in numerum duodenum explere vidi pauperum. Verumtamen
+					<lb/>Dei zelo sic erat accensus, ut de eo in eius absentia plerumque vir
+					<lb/>Dei Arialdus suspirans diceret: «Pro dolor! Praeter Herlembaldum et Nazarium,
+					<lb/>clericum vix quemquam reperio, qui quoquo modo mihi sub falsa
+					<lb/>discretione tacere non suadeat, quatenus simoniaci et adulteri libere possint
+					<lb/>peragere opera diaboli». Multa namque bona de hoc viro familiariter cognovi,
+					<lb/>sed quia nuper in defensione iustitiae martyrio est coronatus, ea alteri
+					<lb/>tam volumini quam scriptori relinquo, quia beati Arialdi vitam perficere
+				<lb/>velociter cupio.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16.</head> <p>Per idem tempus abbas coenobii Sancti Celsi obiit; cuius locum
+					<lb/>quidam clericus nomine Lanfrancus protinus rapuit, refutato pro eo tirocinio
+					<lb/>non modico, quod annuatim sumebat de pontificali domo. Cuius nefandae
+					<lb/>praesumptioni tam constanter per tempora plurima vir Domini
+					<lb/>Arialdus cum Herlembaldo nobili socioque fideli obstitit, donec eum facerent
+					<lb/>exulem, non solum male emptae abbatiae regimine, sed etiam paene
+					<pb n="106"/>
+					<lb/>finibus eiusdem parroechiae. In eodem denique tempore, defuncto monasterii
+					<lb/>Sancti Ambrosii abbate, alius clericus cancellarius, nomine Ariprandus,
+					<lb/>clericale birrum eatenus ignominiose delatum reliquit, et huius monasterii
+					<lb/>nomen abbaticum sibi nefande usurpavit. Qui cum tantae esset celsitudinis
+					<lb/>pro natura superbi sanguinis, ut violenter nequaquam posset expelli,
+					<lb/>ait Arialdus vir Dei: «Si quod debemus in hoc improbo explere nequimus,
+					<lb/>quod valemus saltem faciamus». Protinus igitur, sumptis fratribus,
+					<lb/>ad eum perrexit, quo coram praevento dixit: «Quid est hoc? Heri clericus,
+					<lb/>hodie abbas. Magnum fecisti et velocem saltum. Et quare non timuisti
+					<lb/>contra sanctos canones et contra iusiurandum quod nuper in ecclesia
+					<pb n="108"/>
+					<lb/>Romana iurasti hoc usurpare?». Qui respondit: «Hoc, ut vides, actum est
+					<lb/>et relinquere id ulterius minime possum». Cui vir Dei: «Si vis - inquit -
+					<lb/>potes, et omnino ex Dei parte sanctaeque Romanae ecclesiae deprecor te
+					<lb/>ut rem contra Dei voluntatem sumptam et contra tuae animae salutem raptam
+					<lb/>relinquas». At ille: «Et ego - inquit - sub eodem iuramento quo
+					<lb/>adiurasti me adiuro te, ut tuis te vestibus nunc exuas et hic coram me te
+					<lb/>scopari facias». Qui protinus cucurrit, virgas adquisivit, vestibus se exuit
+					<lb/>et acriter se ab uno ex suis ibi coram omnibus scopari fecit. Haec itaque
+					<lb/>falsus abbas perpendens, quid ultra diceret nesciens, capite dimisso inde
+				<lb/>surrexit et induratus ut Pharao aliorsum declinavit.</p>
+			</div>
+			<pb n="110"/>
+			<div type="chapter">
+				<head><lb/>17.</head> <p>Sicut enim tot testari possunt, quot eum familiariter noverunt,
+					<lb/>huius intentio et exercitium aliud assidue non erat quam ut opere impleret
+					<lb/>quicquid in divinis legebat voluminibus. Nam sic erat largus, ut frequenter
+					<lb/>de ipso dicerent ii qui sedule cum eo morabantur: «Si hic arcam aureis plenam
+					<lb/>haberet, nisi petentes egentesque defuissent, uno in die omnia procul
+					<lb/>dubio expenderet». Cum enim alicubi incederet et obviantes pauperes
+					<lb/>eum, ut eis aliquid largiretur, exorarent, argentum, quod numquam peculiariter
+					<lb/>detinebat, a se sequentibus protinus commodabat, et sic eorum necessitati
+					<lb/>misericorditer subveniebat. Munditiam namque cordis corporisque
+					<lb/>sic diligebat, ut contra diabolicas illusiones quibus homines illudi solent
+					<lb/>nocturnis horis, universas ferme noctes medias insomnis et pervigil
+					<lb/>permaneret et quam plurimas usque ad galli cantum protelaret, partim
+					<lb/>orando, partim legendo, partim ad destructionem simoniacae haeresis cum
+					<lb/>ceteris fidelibus in consilio consistendo. Illum praeterea usum gulosum,
+					<lb/>qui carnales tam clericos quam laicos in sabbato sancto ad nonam cogit
+					<lb/>missarum sollemnia et baptismatum, quae in eadem sancta nocte agenda
+					<lb/>sunt, anticipare, valde damnabat, sed quia aliis in hoc non valebat, sibi
+					<lb/>consulebat. Prandente namque universa urbe, ipse sanctam noctem ieiunus
+					<lb/>cum fratribus aliquibus praestolabatur, atque cum eis ad quendam
+					<lb/>exibat locum qui dicitur Nemus, miliario a civitate secessus. Ibi enim
+					<lb/>adhuc est ecclesia a beato Ambrosio constructa et dedicata, ubi, sicut fertur,
+					<lb/>idem, fugiens populi tumultum, solitus erat degere librosque dictare.
+					<lb/>In hac autem vir Dei sanctam eandem noctem pernoctabat et debitas omnipotenti
+					<lb/>Deo laudes cum fratribus competenter reddebat. Numquam
+					<lb/>enim volebat solus bibere, numquam sine pauperibus clericis comedere,
+					<pb n="112"/>
+					<lb/>numquam sine sodalibus limitem forinsecum transire. In diebus vero ieiuniorum
+					<lb/>sollemnia nequaquam celebrabat sanctorum; e contra autem in
+					<lb/>sollemnitatibus nec genua flectebat nec ieiunabat, nec quemquam secum
+					<lb/>commorantem ieiunare sinebat. Triduanum namque illud ieiunium quod
+					<lb/>inter sanctos dies paschales contra antiquorum dicta sanctorum noviter est
+					<lb/>peragi usitatum sic vehementer horrebat, ut libenter diceret velle se tradere
+					<lb/>morti si tantum exhortari posset populum quatenus in tempus mutaretur
+					<lb/>licitum et aptum. Quapropter in uno eorum dierum, una omni iam ecclesia
+					<lb/>congregata, ut solito more ad letanias procederet, locum e quo docere
+					<lb/>solebat conscendit eisque talia verba proferre coepit: «Debet - inquit-,
+					<lb/>dilectissimi, iuxta apostoli dictum esse Domino Deo nostro rationabile
+					<lb/>obsequium nostrum, quod competenter tunc agitur quando cum sanctorum
+					<lb/>dictis noster actus concors invenitur. Hoc ieiunium quod nunc agitis
+					<lb/>scitote me penitus ignorare, cuius impulsione spiritus agatur. Si enim Dei
+					<lb/>sit valde miror, quoniam per illorum dicta sanctorum pro quibus Deum locutum
+					<lb/>non dubito ieiunare in his diebus paschalibus interdictum reperio.
+					<lb/>Est et res alia quae super hoc nimis me haesitare cogit: nam in istis diebus
+					<lb/>tam acriter vos affligere cerno, vestibus laneis induendo, nudis pedibus incedendo,
+					<pb n="114"/>
+					<lb/>in pane tantummodo et aqua ieiunando. Quomodo quando haec
+					<lb/>agere debite iussum est vos nullo modo facere inspicio? Scitote quia sicut
+					<lb/>unus ex diebus quadragesimalibus non debet frangi a ieiunio, qui hanc significant
+					<lb/>vitam, sic procul dubio nec unus ex his diebus quinquaginta est
+					<lb/>ieiunandus, qui significant futuram, praeter sabbatum pentecosten. Et hoc
+					<lb/>non propter afflictionem, sicut cetera ieiunia alterius temporis, ieiunandum
+					<lb/>est, sed propter novorum fratrum expectationem, qui ad nonam regenerantur,
+					<lb/>quorum renovationem nos oportet ieiunos praestolari. Verumtamen
+					<lb/>ut ea quae dico plena esse auctoritate demonstrem, sanctae synodo
+					<lb/>Nicenae, cuius instituta sic sunt recipienda quomodo sancta evangelia, per
+					<lb/>hos dies nec genua flectere nec ieiunia celebrare placuit. Nam ii dies, quod
+					<lb/>non sint ieiunandi, oranti pro hoc quondam cuidam patri venerando, nomine
+					<lb/>Apollonio, qui praeerat monachis circiter quingentis, satis declaratum
+					<lb/>est. Hic enim, quadragesimali rigore transacto, cum fratribus omnipotentem
+					<lb/>Deum rogavit ut eis dignaretur ostendere si eos more solito hos
+					<lb/>dies vellet ieiunare. Quibus ipse Dominus per incognitos viros ante eos illico
+					<lb/>tanta dona omnium rerum ad edendum congrua misit, quanta per hos
+					<lb/>omnes dies paschales eis abundanter sufficere possent. Et ut evidenter hac
+					<lb/>ulterius ambiguitate carerent, eadem dona sic fuerunt mensurata, ut, donec
+					<lb/>dies pentecostes complerentur, ipsa non deficerent, et dum completi
+					<lb/>sunt similiter consumpta universa sunt et illa. Quod beatus Benedictus
+					<lb/>cernens, cum omni tempore alio monachis ieiunium indixisset, hos ieiunare
+					<pb n="116"/>
+					<lb/>eos nullo modo iussit. Quid enim beatus Ambrosius noster patronus de
+					<lb/>his dixerit, commemorandum est. Ait enim: Hanc sanctam pentecosten
+					<lb/>diem qua ratione curemus vel cur istorum quinquaginta dierum numero sit
+					<lb/>iugis et continuata festivitas, ita ut hoc omni tempore neque ad observanda
+					<lb/>indicimus ieiunia neque ad exorandum Deum genibus incubamus, sed,
+					<lb/>sicut dominica facere solemus, erecti et feriati resurrectionem Domini celebremus.
+					<lb/>Ad instar enim dominicae tota quinquaginta dierum curricula
+					<lb/>celebrantur et omnes isti dies velut dominici deputantur. Sic enim disposuit
+					<lb/>Dominus, ut, sicut eius passionem quadragesimae ieiuniis maerebamus,
+					<lb/>ita eius resurrectione in quinquagesimae feriis laetaremur. Non igitur
+					<lb/>ieiunamus in quinquagesima quia in his diebus nobiscum Dominus commoratur.
+					<lb/>Non - inquam - ieiunamus praesente Domino, quia ipse ait:
+					<lb/>«<hi rend="italic">Numquid possunt filii sponsi ieiunare quamdiu cum illis est sponsus?</hi>». Haec
+					<lb/>cuncta beatus dixit Ambrosius, cuius dicta quomodo sint accipienda non
+					<lb/>solum novimus nos quorum est patronus, sed omnis etiam paene noscit
+					<lb/>mundus. Verumtamen haec nunc tantummodo meminisse vestrae caritati
+					<lb/>sufficiat. Ceterum, si vixerimus, hac de re, Christo auxiliante, plus dicemus».
+					<lb/>Post haec autem plebem dimisit et ad sancti Ambrosii corpus causa
+					<lb/>orandi perrexit. Quidam enim illico currentes ad ecclesiam maiorem, ubi
+					<lb/>iam civitas erat omnis congregata, retulerunt haec omnia. His itaque auditis,
+					<lb/>sacerdotum filii ceterique quam plurimi detestandi viri, accepta occasione
+					<lb/>diu praestolata, coeperunt insanire et dicere: «Modo aperte patet
+					<lb/>hunc qui tam sanctum opus damnat esse haereticum Deique inimicum».
+					<lb/>Et his dictis, levaverunt pariter voces et fustes, omnique plebe commota,
+					<lb/>in ecclesiam beati viri, quae Canonica nuncupabatur, cum magno impetu
+					<lb/>irruunt, quicquid inveniunt diripiunt domumque destruere incipiunt. Servum
+					<lb/>vero Dei ideo non interfecerunt, quia non invenerunt. Haec ut nobilis
+					<pb n="118"/>
+					<lb/>Herlembaldus ceterique fideles audierunt, sumptis armis in audacem
+					<lb/>plebem et temerariam irruerunt, quos protinus sic exterminaverunt omnes,
+					<lb/>quasi essent vilissimae pecudes. Immo cum virtute magna et potestate
+					<lb/>ad ecclesiam maiorem venientes violenter ab impiis abstulerunt quicquid
+					<lb/>de domo Domini rapuerant, et sic ecclesiae Dei paene cuncta sunt reddita,
+					<lb/>operante Christo per zelum piorum, quae ab ea fuerant rapta, operante Satana
+				<lb/>per furorem impiorum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>18.</head> <p>Sicut enim Arialdus cotidie Christi causas erigere et exaltare contendebat,
+					<lb/>ita Christus de virtute in virtutem Arialdum assidue provehebat.
+					<lb/>Nam tam potentem in oratione numquam reminiscor me vidisse alium
+					<lb/>quemquam, cuius qualitatem si dixero, gratam fore diligentibus Deum
+					<lb/>profuturamque spero. Tot enim sanctorum nomina de ipsius ore non solum
+					<lb/>semel in die sed etiam bis terque audiebam procedere, quot numquam
+					<lb/>scripta in codice vidi nec alium proferentem audivi. Nam, licet divinis
+					<lb/>ac liberalibus litteris sic imbutus esset, ut vix alicubi eius par inveniri
+					<lb/>posset, nullatenus plus in sua scientia confidebat, quam velut nec unam
+					<lb/>sciret litteram. Sed cum esset cum aliquo de fide altercaturus in publico,
+					<lb/>priusquam ipsa haberetur congressio, studebat per se sive per fratres directos
+					<lb/>circumquaque corpora sanctorum requirere atque eorum patrocinia
+					<lb/>ubi omnem suam spem collocarat obnixe flagitare. Nam cotidie vallatus
+					<lb/>fraterna ex acie sanctorum corpora circuibat atque coram eisdem Deo gemebundam
+					<pb n="120"/>
+					<lb/>fundebat precem. Exeuntes enim a domo singillatim privatimque
+					<lb/>orando incedebamus, donec populi tumultum transissemus. Quo transito,
+					<lb/>psalmos cantabamus reciproce, quos vero incipiebat ipse. Et hoc donec
+					<lb/>agebamus quousque ecclesiae ianuis proximi essemus ad quam pergebamus.
+					<lb/>Tunc, relicta psalmodia eiusque parte ultima memoriae tradita,
+					<lb/>quos ad laudem illius sancti pertinere cantus vel hymnos sciebat, sumebat
+					<lb/>sic quidem dicendo moderate lenique voce, ut, quod dicebat, possemus
+					<lb/>audire atque cum eo dicere. Et cum hoc sancto canore ante sanctum veniebamus
+					<lb/>altare. Quo venerabiliter adorato, si dies sollemnis vel paschalis
+					<lb/>non esset, utraque genua in terram ponebat, manus expandebat, oculos in
+					<lb/>caelum figebat, et sic in crucis modo ante altare stans, pro Romano summo
+					<lb/>pontifice atque pro pace, pro salute universalis ecclesiae ac pro eius adversariorum
+					<lb/>conversione et pro ceteris huiusmodi utilitatibus multis Deum
+					<lb/>exorabat cum gemitibus et lacrimis. Nos vero, post ipsum procumbentes,
+					<lb/>quod dicebat audiebamus et respondebamus. Tunc demum silenter paululum
+					<lb/>orabat idque unicuique nostrum agere sinebat. Denique se erigebat,
+					<lb/>altare honorifice adorabat et nobiscum iam regrediendo dicebat: <hi rend="italic">Angelum
+					<lb/>pacis et gratiae dona nobis, Domine Deus noster.</hi> Et tunc ibi psalmos dicere
+					<lb/>in ecclesiae exitum incipiebat, ubi eosdem in ingressum reliquerat. Cumque
+					<lb/>ad aliam veniremus ecclesiam, hoc in ea agebamus quod in alia feceramus.
+					<lb/>Et notandum quod, in loco quo psalterium finiebat, in eodem protinus
+					<lb/>idem incipiebat, etiamsi praeter psalmos tres minime ei de exordio
+					<lb/>tunc dicere liceret. Clericum enim fatebatur semper debere inter psalmodiam
+				<lb/>esse.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19.</head> <p>Peractis igitur novem annis in exercitio tam grandi atque admirabili,
+					<lb/>ventum est ad decimum, in quo pervenit ad votum diu nimis optatum.
+					<lb/>Nam sic pro Christo mori ardenter cupiebat, ut, cum quemlibet se Deumque
+					<lb/>cerneret pure diligentem, magna cum prece deposceret dicens: «Obsecro
+					<pb n="122"/>
+					<lb/>te per Christum, ut pro me precem fundas apud ipsum, quatenus
+					<lb/>sanguine proprio testari merear verbum eius quod praedico». Ad quod
+					<lb/>adipiscendum ei haec occasio fuit. Iuraverat enim illi omnis clerus tam
+					<lb/>maioris quam minoris ordinis, nec non ipse Wido qui pontifex dicebatur,
+					<lb/>quatenus cum eo deberent haeresim simoniacam ac neophitanam damnare
+					<lb/>et in catholicam fidem ulterius persistere. Sed cum ecclesiarum regimina
+					<lb/>eidem Widoni sine rectoribus apparebant, illico quod iuraverat oblivioni
+					<lb/>tradebat et, ceu canis ad vomitum, sic revertebatur ad suum antiquum reatum.
+					<lb/>Quod vir Dei Arialdus cernens, litteras per manus Herlembaldi ad
+					<lb/>apostolicum direxit, quatenus ipse decerneret quid de Widone adultero et
+					<lb/>simoniaco atque periuro fieri oporteret. Tunc enim duo clerici Modicenses
+					<lb/>ad Christi famulum venerunt, spondentes velle se relinquere opera et consortium
+					<lb/>diaboli et deinceps firmiter tenere et praedicare opera et fidem
+					<lb/>Christi. Nam unus ex his tantae erat audaciae et perversitatis, ut quasi ductor
+					<lb/>existeret adversae partis. Quibus vir Dei ait: «Tot quippe sunt qui hoc
+					<lb/>dicunt mendaciter, ut iam paene nemo est cui possit credi veraciter. Vos
+					<lb/>vero, si vultis ut vestris credam sermonibus, ite et operibus me firmum
+					<lb/>reddite». Regressi igitur domos, connubio illico a se repulso, coeperunt palam
+					<lb/>et constanter profiteri beati Arialdi verba esse plena veritate, quae
+					<lb/>hactenus erant professi fore plena falsitate. Haec ut Wido audierat, saevos
+					<lb/>illuc protinus apparitores mittens, eos capere iussit atque in Alpes ad castrum
+					<lb/>quod dicitur Leucum deportari. Ibi namque in tam dirum carcerem
+					<lb/>sunt missi, sicut ipsi nobis sunt postea professi, ut numquam eos contigerit
+					<lb/>audisse sanctos a paganis diriora perpessos. Quod Christi famulus dum
+					<pb n="124"/>
+					<lb/>audisset, convocata in unum civitatis multitudine, ait: «Volo vos, dilectissimi,
+					<lb/>scire quod christianus pro nulla causa gladium debeat ferre, nisi pro fidei
+					<lb/>defensione. Si ita est, immo quia ita est, vos qui christiani estis et arma
+					<lb/>fertis, cogitate quid nunc vos oporteat facere. Ecce enim duo clerici,
+					<lb/>quamdiu in perfidia persistentes opera diabolica sunt secuti, honorifice ab
+					<lb/>eo qui pontifex Mediolanensis dicitur sunt habiti, cum vero eandem perfidiam
+					<lb/>diabolicamque nequitiam decreverunt contemnere et Christum sequi,
+					<lb/>tunc sunt capti, tunc in diro carcere trusi». Haec cum cives christiani
+					<lb/>audissent, obstupefacti tantam perfidiam, cum magno clamore coeperunt
+					<lb/>damnare, ad arma cucurrerunt et ad vindicandum tantum scelus contra
+					<lb/>Widonem exire cooperunt. Christi vero famulus, timens ne ad fidei detrimentum
+					<lb/>pro absentia Herlembaldi populus praemio aut timore corrumperetur,
+					<lb/>eos praecessit in manu portans vexillum sanctae crucis. Wido autem,
+					<lb/>spe nimiae multitudinis equitum, pugnaturus occurrit in ruribus Modicensibus,
+					<lb/>milibus fere decem ab urbe distantibus. Vociferantibus itaque partibus
+					<lb/>utrisque, infidelem aciem protinus tantus invasit timor, quatenus ei
+					<lb/>nulla quidem remaneret spes fugiendi vel bellandi. Sed dantes statim obsides,
+					<lb/>clericos spoponderunt captos quantocius se reddituros. Et sic in eodem
+					<lb/>die reversi sunt gaudentes Deumque laudantes. Tertia enim die post
+					<lb/>haec ad ecclesiam viri Dei vox insonuit dicens: «En iam veniunt rudes
+					<lb/>martyres Christi» , clerici scilicet qui fuerant capti. Quibus Christi famulus
+					<lb/>cum multis fidelibus illico occurrit obvius eosque deosculans cum magno
+					<lb/>gaudio suscepit et excelsa voce <hi rend="italic">Te Deum laudamus</hi> cum fratribus cantare
+				<lb/>coepit illosque sic in ecclesiam introduxit. Quos tunc</p>
+			</div>
+			<pb n="126"/>
+			<div type="chapter">
+				<head><lb/>20.</head> <p>tos cruentosque. Coeperunt itaque Herlembaldum cohortari ut descenderet
+					<lb/>et Christi adversarios cum eis prosterneret. Quibus nullo modo
+					<lb/>adquiescens, nec descendit nec manus deposuit. Ipsi vero irruerunt protinus
+					<lb/>in eos et sicut enim ante validissimum ventum fumus, sic ante eos omnis
+					<lb/>illico infidelis evanuit populus. Widonem vero ante ianuas in equo reperiunt,
+					<lb/>quem iuste fustigantes spoliant, atque eorum manus vix evadere
+					<lb/>potuit, in cenaculum quoddam tractus potius quam delatus. Tot namque
+					<lb/>ocius tunc apparuere pro veritate certantes, quasi eidem nulli essent in eadem
+					<lb/>urbe resistentes. Magno igitur cum trophaeo ecclesiam intrantes,
+					<lb/>Herlembaldum descendere faciunt, immo laeti valde sunt effecti eo quod
+					<lb/>beatum Arialdum, quem credebant mortuum, reperiunt vivum. Quem ergo
+					<lb/>tollentes in atrium ecclesiae quae dicitur Rozoni deveniunt, ibique protinus
+					<lb/>tanta armatorum multitudo est congregata, quatenus inimicorum
+					<lb/>non solum corpora prosternere, verum etiam ipsorum possent libere omnia
+					<lb/>aedificia subruere. Ad quod namque patrandum dum anxie anhelarent,
+					<lb/>Herlembaldus iam vexillum in manu tenens erectum, ait: «Oportet ut
+					<lb/>domnum Arialdum inquiramus cuius domum evertere primitus debeamus».
+					<lb/>Haec vero ut Christi martyr audierit, in locum unde a cunctis posset
+					<lb/>audiri se iussit deferri, eoque, innuente manu, silentium factum est magnum.
+					<lb/>«Carissimi, - inquit - si in linguas verterentur nostra omnia
+					<lb/>membra, nullo modo valerent Dei laudare magnalia vobis hodie caelitus
+					<lb/>ostensa. Hodie enim, ut scitis, talis hora fuit, in qua nullus vestrum unum
+					<lb/>saltem pro veritate valebat verbum proferre. Nunc autem nullus est qui vel
+					<lb/>etiam contra vos, ut inspicitis, audeat mutire. Et quis vero est haec operatus,
+					<pb n="128"/>
+					<lb/>nisi Christus? Si igitur Dominus hodie cognovit famulos ad tuendum,
+					<lb/>dignum est ut famuli noscant Dominum ad venerandum. Nam si inimici
+					<lb/>Dei et nostri hodiernam noscerent sollemnitatem, quod egerunt nullatenus
+					<lb/>essent conati. Nos vero et Dei scire sollemnitatem venerando et eius audire
+					<lb/>praecepta obsequendo oportet. Ait enim: <hi rend="italic">Diligite inimicos vestros, benefacite
+					<lb/>his qui oderunt vos.</hi> Per ipsum ergo vos oro, ut nunc arma deponatis
+					<lb/>mecumque ad beati Ambrosii sacrum corpus veniatis et ibi Deo grates debitas
+					<lb/>pariter reddamus nostrosque aemulos diem hodiernum ducere letiferum
+					<lb/>sinamus necnon pro ipsis Deum suppliciter exoremus. Nam a quibus
+					<lb/>haec aguntur, alta celsituto adquiritur, quia de filiis hominum Dei filii, testante
+					<lb/>Christo, efficiuntur». Haec enim illa multitudo dum audisset, alii videlicet
+					<lb/>sapientiores, beatum Arialdum totum cruentum et seminecem
+					<lb/>spectantes, pacem vitamque inimicorum poscere audientes, mirantes abstupescebant,
+					<lb/>alii vero ferventiores spiritu his verbis nullo modo acquiescere
+					<lb/>volebant. Verumtamen, licet diversi vellent diversa, cuncta tamen illico
+				<lb/>sunt completa martyris verba.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>21.</head> <p>Sequenti denique nocte iterum cum Widone congregata est pars
+					<lb/>perversa dicens: «Non nos haec adversa omni modo deiciant. Popularis
+					<lb/>enim turba cito mutatur et in diversas partes facile inclinatur. Certi quidem
+					<lb/>sumus quod in urbe Arialdum extinguere nullo modo valemus. Tale
+					<lb/>igitur aliud consilium nostra sagacitas reperiat, quod ipse nullatenus evadere
+					<lb/>queat. Constituantur equidem per diversa urbis loca ex nobis viri
+					<lb/>prudentes, pecunias a nobis sibi collatas habentes copiose, quas per populum
+					<lb/>clam in noctibus tribuant, in diebus vero, omnibus omissis negotiis,
+					<lb/>assidue conveniamus. Et hoc tam diu agamus, quousque, nimis multiplicati,
+					<lb/>ipsum violenter ab urbe pellere valeamus. Quod cum fuerit factum, positis
+					<lb/>undique insidiis, capiatur captusque illico necetur. Quae cuncta si non
+					<lb/>impleverimus, pacem numquam habebimus. Quid multa?». Per dies enim
+					<lb/>quindecim duo populorum conventicula sunt in urbe vehementia assidue
+					<pb n="130"/>
+					<lb/>habita, unum scilicet fidelium ad ecclesiam Rozoni, alterum vero in curia
+					<lb/>pontificali. Crescebat autem nimis pars vesana pro pecunia sibi in noctibus
+					<lb/>data. Qua vero nequiter crescente, fideles paulatim taedentes coeperunt
+					<lb/>deficere. Quod perversa plebs cernens, coepit elata in beatum Arialdum
+					<lb/>cum nimiis clamoribus irruendi facere impetum, quatenus eum ibi necaret
+					<lb/>eiusque locum funditus desolaret. Erat enim Christi famulus inter adversa
+					<lb/>tam fortis et constans, ut nullus e fratribus in die tribulationis inde auderet
+					<lb/>aufugere nec quicquam asportare. Sed cum fremitum impiorum supervenientium
+					<lb/>audirent, se ante altare prosternebant ibique mortem expectabant.
+					<lb/>In uno enim horum dierum, cum iam clausis ostiis fratres ante altare
+					<lb/>iacebant, mortem praestolantes, unus eorum rem, quam maxime diligebat,
+					<lb/>latenter, aperto ostio, inde asportavit, eamque in domo cuiusdam civilis
+					<lb/>amici commendavit protinusque rediit. Quod vir Dei ut audierit, fratrem
+					<lb/>ad se accitum sic allocutus est: «Arnulfe - inquit -, nonne ecclesia haec
+					<lb/>in eius honore et nomine dedicata est cui assidue dicimus: <hi rend="italic">Sub tuum praesidium
+					<lb/>confugimus, Dei genitrix?</hi> Et nonne legisti: <hi rend="italic">Maledictus homo qui
+					<lb/>spem suam ponit in homine?</hi> Et cur contra haec nunc agere praesumpsisti?».
+					<lb/>Qui pavens obmutuit. Ut autem tam idem quam ceteri amodo non
+					<lb/>praesumerent talia, haec culpa acribus verberibus est protinus emendata.
+					<lb/>In his namque diebus ibidem tam gravis confusio vehemensque perturbatio
+					<lb/>erat, ut in hora constituta plerique fideles cibum capere desperarent,
+					<lb/>mortem adfuturam illico expectantes. Sed licet impii frementes insanirent,
+					<lb/>nullo modo facere audebant quod minabantur, quoniam totiens dolor in
+					<lb/>eorum capita vertebatur quotiens contra Christi famulum surgere nitebantur.
+					<lb/>Quapropter iniquum et publicum dant praeceptum, ut, donec Arialdus
+					<lb/>in urbe maneret, quicumque clericorum publice mysterium celebraret
+					<pb n="132"/>
+					<lb/>vel tintinnabula sonaret, aut laicus quisquam qui haec in sua agere ecclesia
+					<lb/>permitteret, non solum privaretur substantia, sed etiam vita. Haec vero
+					<lb/>non solum alibi, verum etiam in ecclesia ubi idem manebat, prae nimio timore
+					<lb/>iubente milite cuius ipsa iuris fuerat, servari coeperunt. Quod ipse
+					<lb/>super omnia quae ei hactenus acciderant gravius existimans, ait: «Absit ut
+					<lb/>mei ultra sint participes et fratres, qui nefandas haereticorum observant
+					<lb/>pro mortis timore institutiones». Qua de re etiam ipsis fratribus ignorantibus,
+					<lb/>assumpto tantum comite uno nomine Syro, nocte clam urbe exiit et
+					<lb/>ad sanctum Victorem ad Ulmum biduo cum ipso perlatuit. Denique hinc
+					<lb/>Herlembaldus cum multis fidelibus militibus utrosque suscepit et Papiam
+					<lb/>cum eis perrexit. Et parte quidem militum remissa, parte vero secum retenta,
+					<lb/>per Padum navigio coeperunt descendere, quatenus Romam pergerent
+					<lb/>et usque ad aliud tempus tantae irae cederent. In quo scilicet navigio
+					<lb/>sub quodam capti sunt oppido et ex medio sodalium ineffabiliter moerentium
+					<lb/>beatus Arialdus violenter solus est raptus et in arcem deductus. Ubi
+					<lb/>dum solitam in oratione et sermone teneret constantiam, miratus miles qui
+					<lb/>ipsum ceperat, ait: «Pontifex quippe Mediolanensis magnum quidem mihi
+					<lb/>se daturum promisit praemium, si te caperem eique te darem. Namque
+					<lb/>mihi ab eo est intimatum te esse haereticum, quod, ut cerno, omnino est
+					<lb/>falsum». Denique eum cum omni domo sua venerabiliter habere coepit et
+					<lb/>comitibus mestis Papiam iam reversis reddere festinavit. Post haec, scientes
+					<lb/>loca undique obsessa, ad quoddam castrum fidelis Herlembaldi sunt
+					<lb/>reversi. Tunc quidam fratres Canturienses ei mandarunt dicentes: «Nobis
+					<pb n="134"/>
+					<lb/>quidem hic pro nimia persecutione vivere non licet: nos vero ad te venire
+					<lb/>iube, si placet». Quibus et ipse: «Quicumque - inquit - mecum pro Christo
+					<lb/>mori est paratus, venire ad me festinet. Qui autem nondum est, aliorsum
+					<lb/>fugiens declinet». Haec, me praesente, dicta sunt. Post haec Herlembaldo
+					<lb/>ceterisque qui secum aderant sic locutus est: «Ex hac - inquit -
+					<lb/>terra exire nequimus, quia cum mortiferis insidiis omnes aditus obsessos
+					<lb/>scimus. Et hic manere non possumus, quoniam populus vesanus hic me
+					<lb/>persequi iam minatur et valde paveo ne insontes huius loci incolae sub hac
+					<lb/>occasione devastentur. Quapropter necesse est ut aliud reperiamus consilium,
+					<lb/>scilicet ut quaeramus quempiam fidelem virum qui me per dies aliquot
+					<lb/>in suam occultet domum, quatenus interim aut populi furor deferveat
+					<lb/>et in hac terra me vivere liceat, vel custodiae in insidiis ubique positae me
+					<lb/>desistant quaerere pro nimia securitate: et sic me hinc forte licebit exire».
+					<lb/>Qui responderunt dicentes: «Quae autem dicis cunctis placent, si inveniretur
+					<lb/>qui hoc fideliter faceret». Et ille: «Est - inquit - loco huic quidam
+					<lb/>presbyter vicinus, nuper ex Ierusolima regressus, qui hactenus mihi credere
+					<lb/>satis est visus, per quem, si placet, mittatur et super hac re diligenter inquiratur».
+					<lb/>Omnibus itaque volentibus, per nefandum presbyterum tunc
+					<lb/>missum est. Et post haec ecclesiam ingressus ipse est, in qua, quoniam in
+					<lb/>vigilia sancti Ioannis Baptistae erat, a mane usque ad horam quasi nonam
+					<lb/>in oratione permansit indeficiens. Et ecce detestandus presbyter veniens
+					<lb/>secrete diligenterque inquiritur si locum haberet aptum ad ipsum per tres
+					<lb/>saltem menses occultandum. Qui cum promitteret se iuxta ecclesiam locum
+					<lb/>sic habere secretum, ut in eo quempiam per multos annos tenere valeret
+					<lb/>celatum, media tandem nocte, libatis osculis cum gemitibus et lacrimis
+					<lb/>multis, usque ad portam cum ambobus processimus. Nam ipsum multum
+					<lb/>deprecati sumus ut unum, quem ex nobis vellet, in suum obsequium
+					<lb/>sumens duceret. Quibus et ipse: «Nequaquam - inquit -, quoniam, si
+					<lb/>una duo sunt, loquuntur et loquentes audiuntur». Quis enim fari potest
+					<pb n="136"/>
+					<lb/>quanta bona tunc Herlembaldus presbytero promisit, si ipse Christi famulum
+					<lb/>tractaret bene, et quanta mala, si male? Moerentes igitur utrosque abire
+					<lb/>permisimus, mane vero ad urbem devenimus. Presbyter ergo nequam,
+					<lb/>mox ut in suo conclavi illum concluserat, diabolico tractus spiritu, malo
+					<lb/>Widoni nuntiare festinavit dicens: «Quid vis mihi dare? Et ego tibi tradam
+					<lb/>Arialdum sine turba, sine Herlembaldo, immo absque viro aliquo». Cui ille,
+					<lb/>laetus nimis effectus, magnum praemium illico cum securitate promisit,
+					<lb/>si ipse quod promittebat impleret. Tunc sibi quam plures dari petiit milites,
+					<lb/>quos sumptos inter duas macerias ab habitatione secessas nocte constituit
+					<lb/>dicens: «Unus - inquit - ex vobis tantummodo in media iaceat via
+					<lb/>scuto coopertus: hunc enim, cum venero, percutiam calciamento. Tunc
+					<lb/>vos omnes velociter surgite et tam me quam ipsum capite. Ne forte quidem
+					<lb/>super alium surgatis incaute, vobis hoc fore signum scitote». Et post
+					<lb/>haec in his verbis ad virum Dei ingressus est: «Domne - inquit - Arialde,
+					<lb/>necesse est ut hinc velociter discedamus et ad castrum de quo te suscepi
+					<lb/>revertamur, quoniam te hic esse omnibus notum est. Nam si hic moram
+					<lb/>fecerimus, cras procul dubio capiemur». Cui vir Dei: «Tibi - inquit -
+					<lb/>via est nota: praecede ergo et ego sequar te». Traditore igitur praecedente,
+					<lb/>ad milites venerunt utrique, et ex calciamento facto condicto signo, omnes
+					<lb/>pariter in Dei virum irruunt eumque capiunt captumque stricte vinciunt et
+					<lb/>vinctum iumento superimponunt ac tacite conciteque contra Lacum Maiorem
+					<lb/>festinant pergere. Hoc enim ante horam diei tertiam, in quo vigilia
+					<lb/>sancti Petri celebratur, per totum Mediolanum est divulgatum. Unde factum
+					<pb n="138"/>
+					<lb/>est ut ubique esset luctus et lamentum piorum, atque e contra vesana
+					<lb/>exultatio reproborum. Quod ego audiens, tumultuosam et confusam protinus
+					<lb/>reliqui urbem eumque prosecutus sum. Die igitur eodem nocteque sequenti
+					<lb/>festine properans, die altero ad praefatum, iam sole oriente, perveni
+					<lb/>lacum. Supra cuius enim dum incederem litus et Stationi, ubi parentela
+					<lb/>mali Widonis habitabat, essem propinquus, obvius habui virum nomine
+					<lb/>Martinum, qui se dicebat fore presbyterum. Hic me interrogavit unde essem
+					<lb/>quove pergerem. Cui ego, ut veritatem securius ab eo inquirerem, ex
+					<lb/>parte mentitus sum dicens: «Ex illa plebe sum et compares mei huc me direxerunt,
+					<lb/>ut manifeste valeant scire utrum verum sit quod apud nos de
+					<lb/>Arialdo clericorum inimico noviter insonuit, scilicet quod extinctus sit et si
+					<lb/>eis super hoc pleniter laetandum sit». At ille: «Revertere - inquit - mecum
+					<lb/>et, cum ad ecclesiam, quam paululum post te reliquisti, redieris, optime
+					<lb/>de hoc instructus eris». Et tunc mihi secum revertenti ait: «Hesterna
+					<lb/>namque die vox laetifera nostro insonuit loco dicens: «Arialdus, clericorum
+					<lb/>adversarius, vinctus habetur in nave et in ripa laci». Ad quem illico
+					<lb/>cum multis aliis decurri et, arrepto palo optime acuto manuque erecta, in
+					<lb/>pectore eius illum infigere volui, sed enim non sum permissus. Missi sunt
+					<lb/>quidem quinque protinus viri a domina nepte archiepiscopi, de quorum
+					<lb/>ferocitate ipsa non dubitabat, qui eum a militibus dividerent et in locum
+					<lb/>quo ipsa eis iusserat ducerent. Quod sine more completum est. Et in tantam
+					<lb/>illico est ductus solitudinem, ut vix ibi sit aliquando accessus hominum
+					<lb/>et tantummodo navigantium, sed silvestrium solummodo habitatio
+					<lb/>bestiarum. Quid te verbis longius protraham? Ibi cadaver eius sine auribus,
+					<pb n="140"/>
+					<lb/>sine naribus, sine oculis, sine dextera manu, sine membro genitali esse
+					<lb/>fecerunt. Si absque omnibus his membris aliquando quemquam vidisti
+					<lb/>vivere, hunc esse mortuum noli credere. Nam sero nullo modo quiescere
+					<lb/>quiverim, donec ii qui in eum haec patrarunt sic me securum fecerunt,
+					<lb/>quatenus ultra non sit unde mea iam mens dubitare possit. Tu vero ad tuos
+					<lb/>revertere haec eis intimans eosque redde securos laetosque». Et post haec
+					<lb/>ab alterutro divisi sumus et, donec ecclesiam est ingressus, me redire finxi;
+					<lb/>postea vero, nolens verbis confidere perfidi, regressus sum ad iter quod reliqueram.
+					<lb/>Cum autem in iam praefatum ingrederer vicum, iuxta viam repperi
+					<lb/>ecclesiam in honorem sancti Petri dedicatam, ad quam tunc clericorum
+					<lb/>laicorumque multitudo cum processione exibat. Ibi quidem seorsum
+					<lb/>duas inveni mulieres, de his quae acciderant, conferentes et plorantes.
+					<lb/>Quibus appropinquans, inquisivi quid haberent et cur flerent. Quarum
+					<lb/>una ait: «Vere tu ex illo es ordine qui, cum deberet suis bonis dictis factisque
+					<lb/>omnes levare in caelum, e contra malis exemplis cunctos praecipitat
+					<lb/>in infernum. In hoc enim loco, machinante tuo ordine perverso, in his diebus
+					<lb/>tantum est perpetratum scelus, quatenus pro hoc omnes Deus in abyssum
+					<lb/>demergat anxie expectemus, et tu dicis cur flemus?». Videns igitur
+					<lb/>mulierum fidem, ipsis quod discipulus essem illius de quo flebant intimavi
+					<lb/>easque, si vera essent quae a praedicto audieram viro inquisivi. Quae statim
+					<lb/>factae apud me nimis gratae, omnia testantur esse vera, praeter hoc
+					<lb/>quod de eius morte adhuc erant incertae. Viam itaque mihi contra praefatam
+					<lb/>tendentem solitudinem ostendunt multumque deposcunt ut, revertens,
+					<lb/>eas facerem sciolas unde eis adhuc inerat dubietas. Verum ingentium
+					<lb/>praepeditus obstaculis saxorum, illuc accedere eundo per terram nequivi
+					<pb n="142"/>
+					<lb/>quique per navem illuc me transferre auderet reperire non potui, ideoque,
+					<lb/>praeter quae dicta sunt, pleniter de illo tunc scire non valui. Porro, secundum
+					<lb/>quod postea diligenter scrutatus sum, qualiter quibusque ex hac vita
+				<lb/>verbis migraverit, diligentibus Deum fore gratum credo, si id breviter intimavero.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22.</head> <p>A loco igitur quo captus est, psalmodiam decantavit. Ad Stationem
+					<lb/>enim a militibus, ut praedictum est, divisus et quinque ferocibus servulis
+					<lb/>est traditus, qui cum ipsum ducerent ad mortem, allocuti sunt dicentes:
+					<lb/>«Arialde, cur non recordaris ut neges quae hucusque dixisti et profitearis
+					<lb/>dominum nostrum esse verum pontificem? Nam, si hoc faceres, forte
+					<lb/>adhuc vivere posses». At ille: «Absit - inquit - ut coronam, quam verum
+					<lb/>dicendo in mea adquisivi vita, in fine mentiendo amittam. Nam me
+					<lb/>utrum nunc ducatis ad mortem ignoro, quod si facitis, scitote vestro domino
+					<lb/>meam mortem valde nocituram non solum in futura vita, sed etiam in
+					<lb/>praesenti». Et illi: «Videsne - inquiunt - illum magnum mortem? Si
+					<lb/>ipse profecto esset aureus et tuus totumque dares, ultra nullo modo viveres».
+					<lb/>Ille autem, haec audiens, se erexit et hymnum sanctorum apostolorum
+					<lb/>Petri et Pauli alta voce decantare coepit. Quo finito, ad solitudinem
+					<lb/>ad quam tendebant pervenerunt. Quem tollentes de nave, supra quoddam
+					<lb/>saxum vinctum posuerunt ad sedendum. Seorsum denique paululum remoti,
+					<lb/>haec dicere coeperunt ad invicem: «Quid faciemus? Si tantum occiderimus
+					<lb/>virum, nostrae animae nullum ultra poterunt adipisci remedium,
+					<lb/>et hoc si non fecerimus, nihilominus moriemur». In his enim dum haesitarent,
+					<lb/>aspexerunt naviculam concite venientem duosque homines deferentem.
+					<lb/>Et aiunt ad invicem: «Hos expectemus: hi forsitan boni nuntii baiuli
+					<lb/>sunt». Praedicta vero mali Widonis neptis, quae exhinc Iezabel et Herodias
+					<lb/>est nuncupata, postquam quinque ad Dei famulum necandum direxerat
+					<pb n="144"/>
+					<lb/>servulos, duos clericos, quos in eius mortem praecipue inhiare cognoverat,
+					<lb/>ad se vocatos, sic allocuta est: «Assumptis gladiis vestrum persequimini
+					<lb/>velociter inimicum, ne forte ceteros seducat et ulterius vivat». Hi vero
+					<lb/>erant qui cum nave tunc veniebant. Qui cum ad ceteros venissent,
+					<lb/>egressi de nave dicunt: «Ubi autem est Arialdus?». Qui responderunt dicentes:
+					<lb/>«Mortuus est». At illi: «Nobis - inquiunt - iussum est videre illum
+					<lb/>sive vivum sive mortuum». Et aspicientes viderunt illum eminus vinctum
+					<lb/>sedentem super saxum, in quem sic anxie irruunt, quomodo leonum
+					<lb/>catuli super praedam famelici. Evaginatis igitur gladiis, ipsius unus unam,
+					<lb/>alter vero auriculam arripit alteram, dicentes: «Dic, furcifer, si dominus
+					<lb/>noster verus est archiepiscopus». Qui respondit: «Non est nec fuit umquam,
+					<lb/>quia opus archiepiscopi in ipso nec est nunc nec fuit umquam».
+					<lb/>Tunc immites eius utrasque amputant aures. At ille, oculis in caelum elevatis,
+					<lb/>ait: «Gratias tibi ago, Christe, qui me hodie inter tuos martyres dignatus
+					<lb/>es connumerare». Interrogatur denique iterum si Wido verus esset
+					<lb/>archiepiscopus. Qui, solitam constantiam animi tenens, ait: «Non est».
+					<lb/>Quapropter nasus ipsius protinus cum labio superno est abscissus. Deinde
+					<lb/>ambo oculi sunt effossi. Postea vero dexteram detruncant manum dicentes:
+					<lb/>«Haec est quae faciebat epistulas Romam directas». Dehinc radicitus
+					<lb/>membrum amputant genitale, dicentes: «Praedicator castitatis eatenus fuisti:
+					<lb/>exhinc et tu castus eris». Postea vero desub gutture linguam extrahunt
+					<lb/>dicentes: «Modo sileat quae clericorum familias conturbavit et dispersit».
+					<lb/>Et sic illa sancta anima carne est soluta, corpus vero ibi quoquo modo terrae
+					<lb/>traditum est. Coeperunt denique illic post haec luminaria praeclara per
+					<lb/>noctes piscatoribus apparere. Quod ut impia Iezabel audivit, protinus in
+					<lb/>aliam insulam eum nocte transferri iussit. Sed cum eadem lux ibidem similiter
+					<pb n="146"/>
+					<lb/>crebro appareret, in locum tertium eundem asportari facit. Videns igitur
+					<lb/>quod non posset sanctum occultare corpus nec sub terra neque super
+					<lb/>terram, quia illud ubique lux eximia comitabatur, irata valde fecit saxa ingentia
+					<lb/>circa ipsum innecti et in profundum laci dimergi. Verumtamen ibi,
+					<lb/>ubi est proiectum, tanta est aquae altitudo, sicut didici a viris illius loci, ut
+					<lb/>vix fune centum cubitorum quisquam possit fundum attingere. Nam idem
+					<lb/>lacus pro sui magnitudine Maior nuncupatur et plus quinquaginta milibus
+					<lb/>in longum extenditur. In quo tam innumerabiles procul dubio immanesque
+					<lb/>sunt pisces, ut per tres menses facile devorarent quot in eadem parrochia
+					<lb/>sunt pecudes. Verum quia omnia haec occulte fuerunt peracta, de
+					<lb/>illo haesitatio et altercatio ubique erat non parva: alii dicebant quod esset
+					<lb/>mortuus, alii quod in vinculis clam detineretur. In cuius amorem tunc sic
+					<lb/>omnis populus est accensus, ut cuncti se sub iureiurando constringerent,
+					<lb/>quatenus illum aut habituri essent vivum sive mortuum, aut pro ipso ad
+					<lb/>mortem usque certaturi. Sed Deus omnipotens, cuius causam ipse patefecerat,
+					<lb/>nec illum passus est a pisce contaminari nec in laci profundo occulte
+				<lb/>morari.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>23.</head> <p>Transactis namque mensibus decem, quidam vir fidelis, nomine
+					<lb/>Algisius, per urbem coepit anxie discurrere dicens: «Nuper in die inventionis
+					<lb/>sanctae crucis, mei causa negotii, iuxta litus transibam laci Maioris.
+					<lb/>Et ecce aquila eadem supervolitabat litora, cetera expellens volucria. Quod
+					<lb/>ut viderunt pastores qui ibi pascebant suas pecudes, illuc festine coeperunt
+					<lb/>currere, cum quibus cucurri et ego. Et ecce beatissimus Arialdus, ex aqua
+					<lb/>proiectus, ibi integer, praeter octo membra quae ei erant cum ferro amputata,
+					<lb/>iacebat, mirifice candidus. Quem ego videns, optime illico agnovi hisque
+					<lb/>qui aderant lacrimabiliter omnibus dixi: «Videte - inquam - ut hic
+					<lb/>salvus sit, quia iste est beatus Arialdus, quem maestus universus quaerit
+					<lb/>populus». Dum enim ibi aliquantulum moraremur, subito de arce Arona
+					<pb n="148"/>
+					<lb/>missi sunt servi qui inde nos eiecerunt et in quandam quae ibi erat foveam
+					<lb/>leniter humaverunt». Hoc ego, qui haec scripsi, dum audissem, sumpto
+					<lb/>comite, illuc perrexi concite. Repertosque pastores utrumnam vera essent
+					<lb/>quae audieram diligenter cauteque inquisivi, qui cuncta esse procul dubio
+					<lb/>vera respondentes asseruerunt. Et ego: «Si vera sunt - inquam -, ubi ergo
+					<lb/>est ille?». At illi: «Ecce - inquiunt - locus ubi nobis videntibus sero
+					<lb/>est positus, mane vero revertentes locum quidem invenimus, de eo autem
+					<lb/>nihil. Hoc tantum putamus, quod nocte eadem sursum delatus sit in arcem».
+					<lb/>His auditis, velociter reversus, Herlembaldo viro prudenti quaeque,
+					<lb/>ut audieram, per ordinem cuncta narravi. Qui festine, omnibus convocatis
+					<lb/>civibus, iam in appetitu martyris, quem patefactum audierant, vehementer
+					<lb/>inhiantibus, ex illis viros elegit atque ad sanctum requirendum corpus direxit.
+					<lb/>Qui post biduum reversi, professi sunt hostes veritatis dixisse: «Mori
+					<lb/>potius parati sumus, quam quod quaeritis reddere corpus». Hoc autem
+					<lb/>ideo dicebant, quia idem dissipare temptarant. Nam nocte qua ad se illud
+					<lb/>detulerant, cernentes eius integritatem et decorem, dixerunt ad invicem:
+					<lb/>«Si enim hic fuerit quaesitus et ab omni populo tam decorus inspectus,
+					<lb/>semper quidem ipse erit in laude, nos vero in obbrobrio. Quapropter cutem
+					<lb/>cum capillis de eius radamus capite, pellem vero corporis albescentem
+					<lb/>ferreis dilaceremus ungulis, pedes abscidamus utrosque et in furno denique
+					<lb/>nimis candente illum aduramus, quatenus, si ad eum videndum missum
+					<lb/>fuerit, horridus et ignotus potius respuatur quam quaeratur». Verum,
+					<lb/>licet haec diabolica machinamenta in eo cuncta complessent, in deteriorem
+					<lb/>quam putarent ignominiam ceciderunt, quia non missum est ad videndum,
+					<lb/>sed petendum. Nam, auditis nuntiis, tintinnabulis tubisque concisius sonantibus,
+					<lb/>omnis civitas in unum convenit. Tunc dixit Herlembaldus:
+					<lb/>«Quoniam inimici Dei et nostri gratis sanctum nolunt reddere corpus, decet
+					<lb/>ut ab eis per nos violenter auferatur. Sed, quia res quam prosequimur,
+					<pb n="150"/>
+					<lb/>Dei creditur et dicitur esse, volo ut illuc iuste et cum ipsius incedamus honore.
+					<lb/>Non enim cum raptu et pauperum detrimento innocentium pergamus,
+					<lb/>sed nobiscum feramus unde vivere debeamus. Discurrant itaque nuntii
+					<lb/>circumquaque velociter, qui omnes ad bella aptos nobiscum cum armis
+					<lb/>rusticosque huc venire hortentur cum plaustris, quatenus illi nobiscum pugnent,
+					<lb/>isti vero nostra arma et victus deportent». Congregata igitur post
+					<lb/>paululum tanta sunt carra, ut per septem fere milia vix posset per publicam
+					<lb/>et communem viam turba pedestris vel equestris incedere. Confluebat
+					<lb/>autem undique, quasi harena maris, multitudo innumerabilis, arma ferens
+					<lb/>et victus supra dorsum famulorum sive iumentorum. Et sic incedentes, secundo
+					<lb/>tandem die ad vesperum reperimus pratum, quarto fere miliario a
+					<lb/>loco quo incedebamus distans, bene humectum amplumque, ibique, quia
+					<lb/>ad hoc aptum erat, castra metati sumus. Hinc Herlembaldus, vir prudens,
+					<lb/>iterum delegavit blandeque sanctum corpus quaesivit. Perterriti itaque hostes
+					<lb/>a sonitu pavendo frementis multitudinis super se venientis, prohibere
+					<lb/>quod petebatur ultra non ausi sunt. Et ecce, die altero illucescente, vox
+					<lb/>laetifera per castra insonuit dicens: «In litore quidem Ticini directum est
+					<lb/>in navem corpus beati Arialdi». His auditis, certatim omnes arripuerunt
+					<lb/>cursum. Ille namque habebatur tunc beatior, qui ad currendum erat
+					<lb/>promptior. Eo igitur levato in feretrum, cum tanta gloria et laude reverti
+					<lb/>coepimus, ut eas nullo modo exprimere possem, etiam si vocem linguamque
+					<pb n="152"/>
+					<lb/>ferream haberem. Nam de castellis, quibus se concluserant pro civium
+					<lb/>timore, exibant senum, iuvenum atque mulierum infinitae multitudines,
+					<lb/>cruces cerosque atque situlas aqua plenas, ut potarent aestuantes, deferentes,
+					<lb/>et unusquisque, prout valebat, voce excelsa immensas Deo gratias reddebat.
+					<lb/>Tintinnabula quippe personabant undique. Arbores namque quam
+					<lb/>plurimi scandebant, ut ipsum saltem videre possent. At, ubi Mediolano
+					<lb/>propinquavimus, totam paene urbem obviam habuimus, matronas nobiles
+					<lb/>et ignobiles, cereos innumerabiles deferentes, infantes et senes omnesque
+					<lb/>Deo laudem dantes. Etiam ipsos, quos in vita sua habuit aemulos, scilicet
+					<lb/>clericos, invenimus paratos non officium cantantes mortuorum sed, ut decebat,
+					<lb/>martyrum. Et sic in sancto die ascensionis Domini posuimus illum
+					<lb/>in medio ecclesiae sancti Ambrosii. Tunc nobilis Herlembaldus, in loco
+					<lb/>eminenti progressus, haec omnibus audientibus est locutus: «Videtis - inquit -,
+					<lb/>dilectissimi, quantum valet fides quam inter nos per decem annos
+					<lb/>docuit beatus Arialdus. Certe, ut videtis, ipsa eum servavit defunctum incolumem
+					<lb/>in profundo laci, inter innumerabiles immanesque pisces per decem
+					<lb/>menses. Haec autem coram vobis ipsum per decem hos dies aestivos
+					<lb/>conservet, videlicet usque ad sanctum diem pentecosten, quatenus de longinquo
+					<lb/>et proximo sexus diversae aetatis uterque huc venire et nostram fidem
+					<lb/>nostrorumque impietatem aemulorum evidenter possit contemplari».
+					<lb/>Clamabant tunc, nobis audientibus, ad illum daemonia dicentia: «Quid
+					<lb/>contra nos latras? Non potes tantum latrare, ut te non faciamus interimere
+					<lb/>sicut tuum fecimus socium et ut pingues et iniqui episcopi, abbates et presbyteri
+					<lb/>non sint nostri». In his quidem diebus eodem undique veniebat
+					<lb/>maxima multitudo, plurima munera offerens corpori sancto, quibus ad
+					<lb/>eum intuendum fas erat per dies, per noctes vero clericorum monachorumque
+				<lb/>veniebat maxima multitudo easque pervigiles ducebant psallendo.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24.</head> <p>In una autem harum noctium, timens valde ne forte ad obbrobrium
+					<lb/>Christi servorumque ipsius ibi per aestivum tempus diu permanens foeteret,
+					<lb/>assumpto lumine, paucis admodum vigilantibus, ad ipsum accessi et
+					<lb/>reperto foramine quod eius germanus ipsi sub ascella fecerat ut sciret qualiter
+					<lb/>illius haberentur interiora, intus prospexi, et ecce eius exta ut nix
+					<pb n="154"/>
+					<lb/>erant candida, iecur vero aereum habebat colorem. Quae cum intromissis
+					<lb/>duobus digitis tetigissem et confricassem eosque retractos naribus apposuissem,
+					<lb/>testor veritatem quae Deus est: tantam talemque odoris fragrantiam
+					<lb/>ex ipsis digitis emanare sensi, qualem quantamve numquam me alibi
+					<lb/>sensisse reminiscor. Et sicut mea conscientia tunc testabatur et nunc testatur,
+					<lb/>si ipsi digiti gladii bis acuti acumen habuissent, nares absque vulnere
+					<lb/>nullo modo evaderent. Quia odoris suavitas tam erat delectabilis, ut nares
+					<lb/>valentiores essent odoriferos digitos intra se ad trahendum, quam brachii
+					<lb/>virtus ad retrahendum. Nam quam plures dies, ut diu delectarer tanto
+				<lb/>odore, eos ab omni custodivi liquore.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>25.</head> <p>Congregata igitur est iterum in die sancto pentecosten tanta virorum
+					<lb/>ac mulierum diversae aetatis multitudo de proximo et longinquo, ut
+					<lb/>numquam se una tantam vidisse etiam senes dicerent, et sic cum magna
+					<lb/>gloria laudeque ineffabili ad monasterium delatus est sancti Celsi. Ibi namque
+					<lb/>in locum mirabiliter aptum traditus est sepulturae. Siquidem ex una
+					<lb/>parte habet ecclesiam in qua sancti Celsi venerabile nunc adoratur corpus,
+					<lb/>ex altera vero ecclesiam ubi quondam, ut fertur, diu sanctus perlatuit Nazarius.
+					<lb/>Exhinc quippe ibi a multis fidelibus adoratur et colitur, ab infidelibus
+				<lb/>autem nec Christus universorum dominus nec Arialdus ipsius famulus.</p>
+			</div>
+			<pb n="156"/>
+			<div type="chapter">
+				<head><lb/>26.</head> <p>Decem igitur annos beatus levita et martyr Arialdus duxit pro Christi
+					<lb/>lege viriliter certando; decem membra idem post haec per manus obtulit
+					<lb/>iniquorum, octo cum occideretur, duo ne agnosceretur; decem vero
+					<lb/>menses in profundo laci incolumis iacuit; decem autem milia illum nobis
+					<lb/>proximiorem lacus proiecit quam acceperit. Per dies enim decem aestivos
+					<lb/>ipsum in ecclesia sancti Ambrosii, videntibus cunctis, Christus conservavit
+					<lb/>eique post haec decimo anno Herlembaldum fidelem socium associavit, ut
+					<lb/>veraciter credo, in regno caelorum, peremptum scilicet per eorundem manus
+					<lb/>iniquorum. In quo decimo anno haec scripta sunt ad laudem Christi
+					<lb/>eiusque famuli Arialdi. Passus ergo est beatus levita et martyr Christi
+					<lb/>Arialdus quinto kalendas Iulii, anno ab incarnatione Domini millesimo
+					<lb/>sexagesimo sexto, praesidente sedi apostolicae secundo papa Alexandro,
+					<pb n="158"/>
+					<lb/>regnante domino nostro Iesu Christo cum Patre et Spiritu sancto per omnia
+				<lb/>saecula saeculorum. Amen.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

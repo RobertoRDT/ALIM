@@ -1,0 +1,723 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistolae</title>
+				<author>Zacharias papa</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>W. Gundlach</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EF">Edoardo Ferrarini</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4761" unit="words">Parole: 4761</measure>
+				<measure quantity="31054" unit="characters_without_spaces">Caratteri (spazi esclusi): 31054</measure>
+				<measure quantity="35334" unit="characters_witht_spaces">Caratteri (spazi inclusi): 35334</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2015-12-26">26/12/2015</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Numero parole: 4.814&#13;
+Numero caratteri (spazi esclusi): 31.316&#13;
+ES</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Zacharias papa</author>
+						<title>Epistolae</title>
+						<editor>W. Gundlach</editor>
+						<editor>E. Dümmer</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Epistolae Merowingici et Karolini aevi. Tomus I</title>
+						<imprint>
+							<pubPlace>Berlin</pubPlace>
+							<date>1892</date>
+							<biblScope unit="page">94</biblScope>
+                                                        <biblScope unit="page">336</biblScope>
+                                                        <biblScope unit="page">373-375</biblScope>
+                                                        <biblScope unit="page">467-468</biblScope>
+                                                        <biblScope unit="page">479-487</biblScope>
+                                                        <biblScope unit="page">710-711</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, Epp.</title>
+						<biblScope unit="volume">3</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="0701/0800">VIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EF">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-ok, ma...
+una delle lettere ha due varianti, le quale sono rappresentati nell'edizione originale in due colonne alla stessa pagina. È lo stesso problema, come in n. ..., qui però (perché si tratta di un breve brano di testo) ho definito la stuttura come segue:
+&lt;pb n="374"&gt;
+&lt;cb n="1"&gt;
+&lt;div&gt;
+ZACHARIAS PAPA BONIFATIO EPISCOPO
+...
+...
+&lt;pb n="375"&gt;
+&lt;cb n="1"&gt;
+...
+...
+&lt;/div&gt;
+&lt;pb n="374"&gt;
+&lt;cb n="2"&gt;
+&lt;div&gt;
+ZACHARIAS PAPA BONIFATIO EPISCOPO, v. 2
+...
+...
+&lt;pb n="375"&gt;
+&lt;cb n="2"&gt;
+...
+...
+&lt;/div&gt;
+
+cioè, ho "preferito" le colonne alle pagine. Non so se così è a posto, ma per gli altri testi sarebbe problematica anche questa soluzione, dato che i brani "radoppiati" sono lunghissimi...
+
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="94"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS EPISCOPUS, SERVUS SERVORUM DEI, REVERENTISSIMO
+			<lb/>FRATRI AUSTROBERTO, SANCTAE ECCLESIAE VIENNENSIS ARCHIEPISCOPO.</head>
+			<p><lb/>Venit ad nos presbyter Clemens missus a sanctitate vestra, referens nobis a concussione
+				<lb/>gentium turbatas ecclesias provinciae vestrae. Unde et nos valde tristes
+				<lb/>effecti sumus. Sed quid sanctitas vestra de talibus miratur, cum omnia praedicta a
+				<lb/>Domino esse in evangelio cognoscat: “Abundabit”, inquit, “iniquitas et refrigescet
+				<lb/>caritas multorum”? Nam et Langobardi, quorum saevitia ubique crevit, ita nostros
+				<lb/>fines devastant, ut, sicut de rege Babylonis propheta dicit, exossaverint nos.
+			<lb/>Consideremus Dei iusta iudicia et contabescamus iniquitatibus nostris.</p>
+			<p><lb/>Caeterum XI. Kalendas Aprilis synodum Romae fecimus, cuius exemplar dilectus
+			<lb/>presbyter noster vestrae sanctitati portabit.</p>
+			<p><lb/>De episcopis vero per pecuniam ordinatis hoc vobis rescribimus, ut, si utiles
+				<lb/>sunt, pro tali facto severissime corrigantur, non tamen penitus deiciantur a suo ordine
+			<lb/>doleantque semper.</p>
+			<p><lb/>Dalmaticam usibus vestris misimus, ut, quia ecclesia vestra ab hac sede doctrinam
+				<lb/>fidei percepit et morem habitus sacerdotalis, ab illa etiam percipiat decorem
+			<lb/>honoris.</p>
+			<p><lb/>Data Nonis Martii, Constantino augusto, anno imperii eius I.</p>
+		</div>
+		<pb n="336"/>
+		<div>
+			<head type="salutatio"><lb/>REVERENTISSIMO ET SANCTISSIMO FRATRI BONIFATIO COEPISCOPO
+			<lb/>ZACHARIAS SERVUS SERVORUM DEI.</head>
+			<p><lb/>Virgilius et Sedonius, religiosi viri apud Baioariorum provinciam degentes,
+				<lb/>suis nos litteris usi sunt, per quas intimaverunt, quod tua reverenda fraternitas eis
+				<lb/>iniungeret, christianos denuo baptizare. Quod audientes, nimis sumus conturbati et
+				<lb/>in admirationem quandam incidimus; si habetur, ut dictum est. Retulerunt quippe,
+				<lb/>quod fuerit in eadem provincia sacerdos, qui Latinam linguam penitus ignorabat et,
+				<lb/>dum baptizaret, nesciens Latini eloquii, infringens linguam diceret: Baptizo te in
+				<lb/>nomine patria et filia et spiritus sancti. Ac per hoc tua reverenda fraternitas consideravit
+				<lb/>rebaptizare. Sed, sanctissime frater, si ille qui baptizavit, non errorem introducens
+				<lb/>aut heresim, sed, pro sola ignorantia Romane locutionis infringendo linguam,
+				<lb/>ut supra fati sumus, baptizans dixisset, non possumus consentire, ut denuo baptizentur;
+				<lb/>quia, quod tua bene conpertum habet sancta fraternitas, quicumque baptizatus fuerit
+				<lb/>ab hereticis in nomine patris et filii et spiritus sancti, nullo modo rebaptizari debeatur,
+				<lb/>sed per sola manus inpositione purgari debeatur. Nam, sanctissime frater,
+				<lb/>si ita est ut nobis relatum est, non amplius a te illis predicetur huiusmodi, sed, ut
+			<lb/>sancti patres docent et predicant, tua sanctitas studeat conservare.</p>
+			<p><lb/>Deus te incolomem custodiat, reverentissime frater.</p>
+			<p><lb/>Data Kalendis Iulii, imperante domno piissimo augusto Constantino a Deo coronato
+			<lb/>magno imperatore anno XXVI, post consulatum eius anno IIII, indictione XIIII.</p>
+		</div>
+		<pb n="373"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS PAPA BONIFATIO EPISCOPO SANCTAE ECCLESIAE MOGONTIAE
+				<lb/>ET PER EUM IN EADEM VENERABILE ECCLESIAE PERPETUAM
+			<lb/>SALUTEM.</head>
+			<p><lb/>Qualiter dominus Deus noster propitiatus sit et laboribus sanctissime fraternitatis
+				<lb/>tuae cooperator extiterit, per singula edicere longum est tam, ut haec, quae obicimus,
+				<lb/>confirmemus. Quae ex parte te narrante prospeximus. Igitur, dum in Germania
+				<lb/>provincia tua fraterna sanctitas ad praedicandum fuisset directa a sanctae recordationis
+				<lb/>praedecessore nostro, domno Gregorio papa, et post inchoatum opus et
+				<lb/>aliqua ex parte spiritaliter aedificatum Roma reversus ab eo episcopus ordinatus et
+				<lb/>illie ad praedicandum denuo remissus es et elaborasti Deo praevio nunc usque per
+				<lb/>annos XXV in eadem praedicatione, ex quo episcopatum suscepisti. Sed et in
+				<lb/>provincia Francorum nostra vice concilium habuisti; et iuxta canonum instituta, Deo
+				<lb/>eis annuente, omnes flexi sunt oboedire. Et dum in his piis operibus occupata esset
+				<lb/>tua sancta fraternitas, nunc usque cathedralem sedem sibi minime vindicavit. At ubi
+				<lb/>vero Deus praedicationem tuam auxit, obtinere tibi cathedralem eclesiam vel successoribus
+				<lb/>tuis confirmare debemus iuxta eorundem filiorum Francorum petitionem.
+				<lb/>Et idcirco auctoritate beati Petri apostoli sancimus, ut supra dicta eclesia Mogontina
+				<lb/>nunc atque etiam perpetuis temporibus tibi et successoribus tuis metropolis sit confirmata,
+				<lb/>habens etiam sub se has V civitates – id est Tungris, Coloniam, Wormaciam,
+				<lb/>Spiratiam et Trectis – et omnes Germaniae gentes, quas tua fraternitas per
+				<lb/>suam predicationem Christi lumen cognoscere fecit. His a nobis definitis, huius nostrae
+				<lb/>confirmationis paginam in tua eclesia perpetuis temporibus pro sui confirmatione conservandam
+			<lb/>esse mandamus.</p>
+			<p><lb/>Bene valete.</p>
+			<p><lb/>Data pridie Nonas Novembris imperante domno piissimo augusto Constantino
+				<lb/>a Deo coronato magno imperatore anno tricesimo secundo, post consulatum eius
+			<lb/>anno undecimo, indictione quinta.</p>
+		</div>
+		<pb n="374"/>
+		<cb n="1"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS PAPA BONIFATIO EPISCOPO
+				<lb/>ET PER EUM IN MONASTERIO
+				<lb/>AB EO CONSTRUCTO SUCCESSIM
+			<lb/>ABBATIBUS IN PERPETUUM.</head>
+			<p><lb/>Quoniam semper sunt concedenda,
+				<lb/>quae rationabilibus congruunt desideriis,
+				<lb/>oportet, ut devotioni conditoris piae constructionis
+				<lb/>auctoritas in privilegiis prestandis
+				<lb/>minime denegetur. Igitur quia
+				<lb/>postulasti a nobis, quatenus monasterium
+				<lb/>Salvatoris a te constructum in loco, qui
+				<lb/>vocatur Boconia, erga ripam fluminis
+				<lb/>Vultaha, privilegii sedis apostolicae infulis
+				<lb/>decoretur, ut sub iurisdicione sanctae
+				<lb/>nostrae, cui Deo auctore deservimus,
+				<lb/>eclesiae constitutum, nullius alterius
+				<lb/>eclesiae iurisdicionibus submittatur; pro
+				<lb/>qua re piis desideriis faventes, hac nostra
+				<lb/>auctoritate id, quod exposcitur, effectui
+				<lb/>mancipamus. Et ideo omnem cuiuslibet
+				<lb/>eclesiae sacerdotem in praefato monasterio
+				<lb/>dicionem quamlibet habere aut
+				<lb/>auctoritatem praeter sedem apostolicam
+				<lb/>prohibemus; ita ut, nisi ab abbate monasterii
+				<lb/>fuerit invitatus, nec missarum
+				<lb/>ibidem sollempnitatem quispiam praesumat
+				<lb/>omnimodo celebrare, ut profecto,
+				<lb/>iuxta id quod subiectum apostolicae sedi
+				<lb/>firmitate privilegii consistit, inconcusse
+				<lb/>dotatum permaneat, locis et rebus, tam
+				<lb/>eis quas moderno tempore tenet vel
+				<lb/>possidet, quam quae futuris temporibus
+				<lb/>in iure ipsius monasterii divina pietas
+				<pb n="375"/>
+				<cb n="1"/>
+				<lb/>voluerit augere ex donis et oblationibus
+				<lb/>decimisque fidelium, absque ullius personae
+				<lb/>contradictione firmitate perpetua
+				<lb/>perfruatur. Constituimus quoque per
+				<lb/>huius decreti nostri paginam, ut, quicunque
+				<lb/>cuiuslibet eclesiae praesul vel quacunque
+				<lb/>dignitate praedita persona hanc
+				<lb/>nostri privilegii cartam, quam auctoritate
+				<lb/>principis apostolorum firmamus, temerare
+				<lb/>temptaverit, anathema sit et, iram Dei
+				<lb/>incurrens, a cetu sanctorum omnium extorris
+				<lb/>existat; et nihilominus praefati
+				<lb/>monasterii dignitas a nobis indulta perpetualiter
+				<lb/>inviolata permaneat, apostolica
+			<lb/>auctoritate subnixa, Bene vale.</p>
+		</div>
+		<pb n="374"/>
+		<cb n="2"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS PAPA BONIFACIO EPISCOPO
+				<lb/>ET PER EUM IN MONASTERIO
+				<lb/>AB EO CONSTRUCTO ET SUCCESS.
+			<lb/>ABBATIBUS IN PERPETUUM.</head>
+			<p><lb/>Quoniam semper sunt concedenda,
+				<lb/>quae rationabilibus congruunt desideriis,
+				<lb/>oportet, ut devotio conditoris piae constructionis
+				<lb/>oraculo in privilegiis praestandis
+				<lb/>minime denegetur. Igitur quia
+				<lb/>postulasti a nobis, quatenus monasterium
+				<lb/>Salvatoris a te constructum, situm in
+				<lb/>loco, qui vocatur Bochonia, erga ripam
+				<lb/>fluminis Fulda, privilegii sedis apostolicae
+				<lb/>infulis decoretur, ut sub iurisdictione
+				<lb/>sanctae nostrae, cui Deo auctore
+				<lb/>deservimus, ecclesiae constitutum, nullius
+				<lb/>alterius ecclesiae iurisdictionibus submittatur;
+				<lb/>pro qua re piis desideriis faventes,
+				<lb/>hac nostra auctoritate id, quod
+				<lb/>exposcitur, effectui mancipemus. Et
+				<lb/>ideo omnem cuiuslibet ecclesiae sacerdotem
+				<lb/>in praefato monasterio ditionem
+				<lb/>quamlibet habere hac auctoritate praeter
+				<lb/>sedem apostolicam prohibemus; ita ut,
+				<lb/>nisi ab abbate monasterii fuerit invitatus,
+				<lb/>nec missarum solemnitatem ibidem quispiam
+				<lb/>praesumat omnimodo celebrare, ut
+				<lb/>profecto, iuxta id quod subiecti apostolicis
+				<lb/>privilegiis consistunt, inconcusse dotatus
+				<lb/>permaneat. Constituentes per huius
+				<lb/>decreti nostri paginam atque interdicentes
+				<lb/>omnibus cuiuslibet omnino ecclesiae praesulibus
+				<lb/>vel cuiuscumque dignitati
+				<pb n="375"/>
+				<cb n="2"/>
+				<lb/>praeditis potestatem sub anathematis
+				<lb/>interpositionem: qui ei praesumpserit
+				<lb/>praesenti constituti, nobis praefati monasterii
+				<lb/>indulti, quolibet modo existere
+			<lb/>temerator. Bene vale.</p>
+		</div>
+		<pb n="467"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS EPISCOPUS, SERVUS SERVORUM DEI OMNIBUS SACERDOTIBUS,
+			<lb/>PRESBYTERIS PRANCORUM.</head>
+			<p><lb/>Egregius apostolus docet: “Diligentibus Deum omnia cooperantur in bonum”; et
+				<lb/>iterum idem ipse: “Dum tempus habemus, operemur bonum ad omnes”; in alio autem
+				<lb/>loco scriptura testatur: “Quam speciosi pedes evangelizantium pacem, evangelizantium
+				<lb/>bona”. Ergo quia innotuerunt nobis Optatus religiosus abbas, presbyter
+				<lb/>monasterii beati Benedicti, et Carolomannus Deo amabilis monachus, germanus filii
+				<lb/>nostri Pippini, excellentissimus reges maiori domos, per hos religiosos Dei servos
+				<lb/>monachos concordiae et pacis sermones inter eum et Griffonem fratrem eius mississe,
+				<lb/>ut et nos ea ipsa ammonendo dirigamus excellentiam eius, ut ad pacis
+				<lb/>concordiam redeant, vobis propter Deum pacifice mediantibus, verum etiam et pro
+				<lb/>corpore beati Benedicti, quod furtive ablatum est a suo sepulchro, ut ei restituatur.
+				<lb/>In hoc opere et pietatis et misericordiae libenter aurem accomodantes, hortamus
+				<lb/>dilectionem ac sanctitatem vestram, ut primum omnium cum suo fratre ad pacis
+				<lb/>redeant unitatem et confundatur iniquitas e medio eorum – caritas vero Dei, vobis
+				<pb n="468"/>
+				<lb/>predicantibus et ministrantibus, exsuperet inter eos – deinde et prefati beati Benedicti
+				<lb/>corpus iuxta petitionem Dei servorum monachorum illius sublimitas et vestra
+				<lb/>sanctitas indubiae ad proprium remittat locum, ut et ipsi gaudeant de suo restituto
+				<lb/>patre, vosque perennem habeatis mercedem et laudem, pro eo quod iuste
+				<lb/>operati fueritis, ipsum ad suum reverti tumulum, ex quo clam tultus est. Nec
+				<lb/>enim sanctitas vestra habuit in hoc bono opere restitutionis eius quod dubitationis
+				<lb/>offensione coram Deo, dum creditur, quia ad obtinendum hoc opus ipsius suffragantibus
+			<lb/>orationibus et voluntate prefati religiosi Dei servi sunt permoti.</p>
+			<p><lb/>Bene valete.</p>
+		</div>
+		<pb n="479"/>
+		<div>
+			<head type="salutatio"><lb/>DOMINO EXCELENTISSIMO ATQUE CHRISTIANISSIMO PIPPINO MAIORI
+				<lb/>DOMUS SEU DILECTISSIMIS NOBIS UNIVERSIS EPISCOPIS ECLESIARUM
+				<lb/>ET RELIGIOSIS ABBATIBUS ATQUE CUNCTIS DEUM TIMENTIBUS PRINCIPIBUS
+				<lb/>IN REGIONE FRANCORUM CONSTITUTIS ZACHARIAS EPISCOPUS
+				<lb/>SANCTAE DEI CATHOLICAE ET APOSTOLICAE ROMANAE ECCLESIAE IN
+				<lb/>DOMINO SALUTEM: GRATIA VOBIS ET PAX A DEO PATRE OMNIPOTENTE
+				<lb/>ET DOMINO IESU CHRISTO, UNICO FILIO EIUS, ET AB SPIRITU SANCTO
+			<lb/>MINISTRETUR.</head>
+			<p><lb/>Gaudio magno gaudemus in Domino, addiscentes per relationem sublimissimi et
+				<lb/>a Deo servati praedicti filii nostri Pippini vestram omnium bonam conversationem et
+				<lb/>quod in bonis et Deo placitis dispositionibus unanimes atque cooperatores estis; ita
+				<lb/>ut et eaeclesiae Dei et venerabilia loca per universam vestram provinciam sita adque
+				<lb/>earum praesules, sacerdotes et religiosi abbates, ut condecet, in sancto habitu et conversacione
+				<lb/>sacerdotali conversetis, vacantes orationibus, insistentes precibus ad implorandam
+				<lb/>divinam potentiam et caelitus victoriam tribuendam adversus paganas et infideles
+				<pb n="480"/>
+				<lb/>gentes propugnatoribus vestris. Etenim vobis in vera confessione et simplici
+				<lb/>corde ad Deum accedentibus, sicut Moyses ille amicus Dei orando pugnabat et Iesu
+				<lb/>Nave, cum populo Israel bella Domini preaeliando, vincebat, ita et vos agere oportet,
+				<lb/>karissimi mihi, ut sitis adiutores populo vestro, orando et bonis actibus inherendo,
+				<lb/>declinantes a curis et negotiis secularibus; scriptum est enim: “Vacate et videte, quoniam
+				<lb/>suavis est Dominus”; et iterum: “Accedite ad eum, et inluminamini; et vultus
+				<lb/>vestri non erubescent”. Principes et seculares homines atque bellatores convenit curam
+				<lb/>habere et sollicitudinem contra inimicorum astutiam et provintiae defensionem, praesulibus
+				<lb/>vero sacerdotibus adque Dei servis pertinet salutaribus consiliis et oracionibus
+				<lb/>vacare, ut, nobis orantibus et illis bellantibus, Deo presstante, provincia salva persistat,
+				<lb/>fiatque vobis in salutem laudem et mercedem perpetuam. Ex hoc quippe
+				<lb/>praesulatus vester apparebit in sanctitate, et principatus dilecti filii nostri Pippini adprobabitur
+			<lb/>per subiectorum potestatem et bonum dispositum.</p>
+			<p><lb/>Itaque, ut flagitavit a nobis cum vestro consultu superius effatus filius noster
+				<lb/>Pippinus, ut de omnibus capitulis, quibus innotuit, responsum demus, in quantum Domino
+				<lb/>dante valemus, de unoquoque capitulo inferius conscriptum, iuxta quod a sanctis
+				<lb/>patribus traditum habemus et sacrorum canonum sanxit auctoritas, etiam et nos, quod
+			<lb/>Deo inspirante apostolica auctoritate decernere potuimus, mandavimus in responsis.</p>
+			<div>
+				<head><lb/>Primum capitulum, quomodo honorari debeat metropolitanus episcopus a chorepiscopis
+				<lb/>et parrochialibus presbiteris.</head>
+				<p><lb/>In canone sanctorum apostolorum capitulo tricesimo quinto scriptum est: Episcopos
+					<lb/>gencium singularum scire convenit, quis inter eos primus habeatur, quem velud caput existiment;
+					<lb/>et nihil amplius praeter eius conscienciam gerant, quam illa sola singuli, quae parrochiae propriae
+					<lb/>et villis, quae sub ea sunt, competunt. Sed nec ille praeter omnium conscienciam faciat aliquid.
+					<lb/>Sic enim unanimitas erit et glorificabitur Deus per Christum in spiritu sancto. Item in canone
+					<lb/>Antiocheaeni concilii capitulo nono continetur ita: Per singulas regiones episcopos
+					<lb/>convenit nosse, metropolitanum episcopum tocius provinciae sollicitudinem gerere, propter quod ad
+					<lb/>metropolim omnes undique, qui negocia videntur habere, concurrent. Unde placuit, eum et honore
+					<lb/>praecellere, et nihil amplius praeter eum caeteros episcopos agere secundum antiquam a patribus
+					<lb/>nostris regulam constitutam, nisi ea tantum, quae ad suam diocesim pertinent possessionesque subiectas. Unusquisque enim episcopus habeat suae parrochiae potestatem, ut regat iuxta reverenciam
+					<lb/>singulis competentem, et providenciam gerat omnis possessionis, que sub eius est potestate; ita
+					<lb/>ut presbiteros et diaconos ordinet et singula suo iudicio comprehendat. Amplius autem nil agere
+					<lb/>temptet praeter antestitem metropolitanum; nec metropolitanus aliquid gerat sine caeterorum sacerdotum consilio. Item ex libro decretorum beati Leonis papae; capitulo tricesimo secundo
+					<lb/>continetur: Igitur secundum sanctorum patrum canones spiritu Dei conditos et tocius
+					<lb/>mundi reverencia consecratos metropolitanos singularum provinciarum episcopos, quibus ex delegacione nostra fraternitatis tuae cura praetenditur, ius traditae sibi antiquitus dignitatis intemeratum habere decernimus; ita ut a regulis prestitutis nulla aut neglegencia aut praesumpcione discedant, aut in habitu aut in incessu sanctitatis. Nam et nos ab apostolica auctoritate subiungimus, ut
+					<lb/>episcopus iuxta dignitatem suam indumentis utatur; simili modo et presbiteri cardinales.
+					<pb n="481"/>
+					<lb/>Et si monachica vita velle habeant vivendi, plebi quidem sibi subiectae
+					<lb/>preclariori veste induti debitum praedicationis persolvant et in secreto propositum sui
+					<lb/>servent cordis, ut, qui videt in abscondito, Deus reddat illis in palam; scriptum quippe
+					<lb/>est: “Quae dicitis in cordibus vestris, et in cubilibus vestris conpungimini”. Non enim
+					<lb/>nos honor commendat vestium, sed splendor animarum. Monachi vero lanea indumenta
+					<lb/>iuxta normam et regulam monachicae disciplinae atque traditionem sanctorum
+					<lb/>probabilium patrum sine intermissione utantur. Si enim, abrenuntiantes ea quae
+					<lb/>saeculi sunt, tota se Deo intentione contulerunt, de omnibus inlicitis debent abstinere,
+					<lb/>ut, quantum corpori suo sustinuerint laborem, tantum remunerationis praemium a Deo
+					<lb/>percipere mereantur. Apostolis quippe divinum datum est mandatum, duas tunicas
+					<lb/>non habendi – tunicas dixit utique laneas, non lineas. Qui ergo oboedierit dominico
+					<lb/>praecepto, bonis actibus inhaerens, habebit vitam aeternam. Item ex canone Antioceni
+					<lb/>concilii; capitulo decimo de his qui vocantur chorepiscopi decretum est: Qui in
+					<lb/>vicis vel possessionibus chorepiscopi norninantur, quamvis manus impositionem episcoporum perceperint
+					<lb/>et ut episcopi consecrati sint, tamen sanctae sinodo placuit, ut modum proprium recognoscant
+					<lb/>et gubernent subiectas sibi eclesias earumque moderamine curaque contenti sint; ordinent etiam
+					<lb/>lectores et subdiaconos atque exorcistas, quibus promotiones istae sufficiant. Nec presbiterum vero
+					<lb/>nec diaconum audeant ordinare praeter civitatis episcopum, cui ipse cum possessione subiectus est.
+					<lb/>Si quis autem transgredi statuta temptaverit, depositus, quo utebatur, honore privetur. Chorepiscopum
+				<lb/>vero civitatis episcopus ordinet, cui ille subiectus est.</p>
+			</div>
+			<div>
+				<head><lb/>Secundo capitulo de episcopis, presbiteris et diaconibus dampnatis, quod pristinum
+				<lb/>officium usurpare non debeant.</head>
+				<p><lb/>Ex libro canonum sanctorum apostolorum; capitulo vicesimo nono dictum est:
+					<lb/>Si quis episcopus aut presbiter aut diaconus depositus iuste super certis criminibus ausus fuerit
+				<lb/>attrectare ministerium dudum sibi commissum, hic ab eclesia penitus abscidatur.</p>
+			</div>
+			<div>
+				<head><lb/>Tertium capitulum de presbiteris supervenientibus.</head>
+				<p><lb/>Ex concilio Cartaginiense; capitulo undecimo: Si quis presbiter contra episcopum
+					<lb/>suum inflatus schisma fecerit, anathema sit. Ab universis episcopis dictum est ter:
+					<lb/>Anathema sit. Si quis presbiter a praeposito suo correptus fuerit, debet utique aput vicinos episcopos
+					<lb/>conqueri, ut ab ipsis eius causa possit audiri ac per ipsos suo episcopo reconciliari. Quod
+					<lb/>nisi fecerit, sed superbia, quod absit, inflatus secernendo se ab episcopi sui communione subduxerit
+					<lb/>ac separatim, cum aliquibus [ schisma] faciens, sacrificium Deo obtulerit, anathema habeatur et locum
+				<lb/>amittat. Si querimoniam iustam adversus episcopum non habuerit, inquirendum erit.</p>
+			</div>
+			<div>
+				<head><lb/>Quartum capitulum de presbiteris agrorum, quam obedienciam debent exhibere
+				<lb/>episcopis et presbiteris cardinalibus.</head>
+				<p><lb/>Ex concilio Neocesariensi; capitulo XIII, ita continetur: Presbiteri ruris in eclaesia
+					<lb/>civitatis, episcopo praesente vel presbiteris urbis ipsius, offerre non possunt nec panem sanctificatum
+					<lb/>dare calicemque porrigere. Si vero absentes hi fuerint, et ad dandam oracionem vocentur, soli
+					<lb/>dare debebunt. Chorepiscopi quoque ad exemplum quidem et formam septuaginta videntur esse,
+				<lb/>ut, quod ministraverint propter studium, quod erga pauperes exhibent, honorentur.</p>
+			</div>
+			<pb n="482"/>
+			<div>
+				<head><lb/>Quintum capitulum de monachis, id est ancillis Dei; de quibus flagitatum est, si
+					<lb/>liceat, eas ad missarum solemnia aut sabbato saneto pubplicae lecciones legere et ad
+				<lb/>missas psallere aut alleluia vel responsorium.</head>
+				<p><lb/>De his in libro decretorum beati Gelasii pape capitulo XXVI, destinatum est:
+					<lb/>Quod nefas sit, feminas sacris altaribus ministrare vel aliquid ex his, quae virorum
+					<lb/>sunt officiis deputata, praesumere. Nhilhominus inpacienter audivimus, tantum divinarum
+					<lb/>rerum subiisse despectum, ut feminae sacris altaribus ministrare firmentur cunctaque non
+					<lb/>nisi virorum famulatui deputata sexum, cui non competit, exhibere; nisi quod omnium delictorum,
+					<lb/>quae singilatim perstrincximus, noxiorum reatus omnis et crimen eos respicit sacerdotes, qui vel
+				<lb/>ista committunt vel committentes minime publicando pravis excessibus se favere significant.</p>
+			</div>
+			<div>
+				<head><lb/>Sextum capitulum de viduis, si possint im propriis habitaculis suis salvare animas.</head>
+				<p><lb/>Item ex eodem libro; capitulo XXI, ita continetur: Ut viduae non velentur,
+					<lb/>et si professam continenciam, proposito mutato, calcaverint, ipsae pro se racionem
+					<lb/>Deo pro suis sint actibus redditurae. Nam de viduis sine ulla benediccione velandis superius
+					<lb/>latius duximus disserendum, quae, si propria voluntate professam pristini coniugii castitatem mutabili
+					<lb/>mente calcaverint, periculi eius intererit, quali Deum debeat satisfaccione placare. Sicut enim,
+					<lb/>si se forsitan continere non poterat, secundum apostolum nullatenus nubere vetabatur, sic habitam
+					<lb/>secundum deliberacionem promissam Deo pudiciciae fidem debuit custodire. Nos autem nullum talibus
+					<lb/>laqueum debemus inicere; sed solum adhortaciones praemii sempiterni poenasque proponere divini
+				<lb/>iudicii, ut nostra sit absoluta conscientia et illarum pro se rationem Deo reddat intentio.</p>
+			</div>
+			<div>
+				<head><lb/>Septimum capitulum de laico pellente suam coniugem.</head>
+				<p><lb/>Ex canone sanctorum apostolorum XLVIII.: Si quis laicus, uxorem propriam pellens,
+				<lb/>alteram vel ab alio dimissam duxerit, communione privetur.</p>
+			</div>
+			<div>
+				<head><lb/>Octavum capitulum de presbiteris et diaconibus, qui se a ministerio aeclesiastico
+				<lb/>subtraunt et seorsum collectas faciunt.</head>
+				<p><lb/>Ex canone Antioceni concilii; capitulo V, promulgatum est: Si quis presbiter aut
+					<lb/>diaconus, episcopum proprium contempnens, se ab eclesia sequestraverit et seorsum colligens altare
+					<lb/>constituerit et commonenti episcopo non adquieverit nec consentire vel obedire voluerit semel et
+					<lb/>iterum convocanti, hic dampnetur omnimodo nec ultra remedium consequatur, quia suam recipere non
+					<lb/>potest dignitatem. Quodsi eclesiam turbare et sollicitare persistit, tamquam seditiosus per potestates
+				<lb/>exteras obprimatur.</p>
+			</div>
+			<div>
+				<head><lb/>Nonum capitulum de clericis et monachis non manentibus in suo proposito,
+				<lb/>quod interrogatum est.</head>
+				<p><lb/>In canone Calcedonensi capitulo VII, decretum est: Qui semel in clero deputati
+					<lb/>sunt aut monachorum vitam expetiverunt, statuimus neque ad militiam neque ad dignitatem aliquam
+					<lb/>venire mundanam; sed hoc temptantes et non agentes penitenciam commonere debeant, quod
+				<lb/>propter Deum primitus elegerant, anathematizari.</p>
+			</div>
+			<pb n="483"/>
+			<div>
+				<head><lb/>Decimum capitulum de clericis, qui sunt in ptochiis, monasteriis atque
+				<lb/>martyriis.</head>
+				<p><lb/>Ex canone Calcedonensis concilii; capitulo VIIII, ita decretum est: Clerici, qui
+					<lb/>praeficiuntur ptochiis vel ordinantur in monasteriis et basilicis martyrum, sub episcoporum, qui in
+					<lb/>unaquaque civitate sunt, secundum sanctorum patrum traditiones potestate permaneant nec per contumatiam ab episcopo suo desiliant. Qui vero audent evertere huiusmodi formam quocumque modo
+					<lb/>nec proprio subiciuntur episcopo, si quidem clerici sunt, canonum correptionibus subiacebunt, si vero
+				<lb/>laici vel monachi fuerint, communione priventur.</p>
+			</div>
+			<div>
+				<head><lb/>Undecimum capitulum: qui clerici etiam ab uxoribus abstinere debeant.</head>
+				<p><lb/>Ex concilio Affricano; capitulo XXXVII, ita continetur: Preterea, cum de quorundam
+					<lb/>clericorum, quamvis erga uxores proprias, incontinentia referetur, placuit, episcopos et presbiteros
+					<lb/>seu diaconos secundum propria statuta etiam ab uxoribus continere; quod nisi fecerint, ab
+					<lb/>aeclesiastico removeantur officio. Caeteros autem clericos non cogi, sed secundum uniuscuiusque
+				<lb/>aeclesiae consuetudinem observari debere.</p>
+			</div>
+			<div>
+				<head><lb/>Duodecimum capitulum de his, qui uxores aut qui viros dimittunt, ut sic
+				<lb/>maneant.</head>
+				<p><lb/>Ex concilio supra scripto Africano; capitulo LXVIIII, ita continetur: Placuit, ut
+					<lb/>secundum evvangelicam et apostolicam disciplinam neque dimissus ab uxore neque dimissa marito
+					<lb/>alteri coniungantur; sed ita maneant, aut sibi invicem reconcilientur. Quod si contempserint, ad
+				<lb/>penitentiam redigantur.</p>
+			</div>
+			<div>
+				<head><lb/>Tertium decimum capitulum: inquisitum est, quod monachus, si clericus factus
+				<lb/>fuerit, quid agi debeat.</head>
+				<p><lb/>Ex decreto beati Innocencii papae; capitulo XVII, continetur: De monachis, qui
+					<lb/>diu morantur in monasteriis et postea ad clericatus ordinem pervenerint, non debere eos a proprio
+					<lb/>proposito deviare. Aut enim, sicut in monasterio fuit et quod diu servavit, in meliori gradu positus
+					<lb/>amittere non debet; aut si correptus, postea baptizatus et in monasterio sedens, ad clericatus ordinem
+					<lb/>accedere voluerit, uxorem omnino habere non poterit, quia nec benedici cum sponsa potest iam
+					<lb/>antea correptus. Quae forma servatur in clericis maximae, cum vetus regula hoc habeat, ut, quisque
+				<lb/>correptus baptizatus clericus esse voluisset, sponderet, se uxorem omnino non ducere.</p>
+			</div>
+			<div>
+				<head><lb/>Quartum decimum capitulum: quod presbiteri aut diaconi, si in aliquo crimine
+					<lb/>prolapsi fuerint, non possint per manus inpositiones penitentiae remedium
+				<lb/>consequi.</head>
+				<p><lb/>In decreto beati Leonis papae capitulo XVI, decretum est ita: Alienum est a
+					<lb/>consuetudine eclesiastica, ut, qui in presbiterali honore aut diaconii gradu fuerint consecrati, hii pro
+					<lb/>crimine aliquo suo per manus inpositionem remedium accipiant penitendi. Quod sine dubio exapostolica traditione descendit, secundum quod scriptum est: Sacerdos si peccaverit, quis orabit pro illo?
+					<lb/>Unde huiusmodi lapsis ad promerendam misericordiam Dei probata est expetenda secessio, ubi illis
+				<lb/>satisfactio fuerit digna, sedi etiam fructuosa.</p>
+			</div>
+			<pb n="484"/>
+			<div>
+				<head><lb/>Quintum decimum capitulum pro eo, quod interrogatum est de laicis, qui aeclesias in
+				<lb/>suis proprietatibus construunt, quis ipsas debeat regere aut gubernare.</head>
+				<p><lb/>A sanctis patribus ita statutum est et in praeceptis apostolicis continetur: luxta
+					<lb/>petitoris imploratum, ut, si in quolibet fundo cuiuscumque iuris oratorium sive basilica fuerit constructa
+					<lb/>pro eius devotione in honorem cuiuscumque sancti, in cuius episcopi parrochia fuerit fundatum
+					<lb/>oratorium aut basilica, percepta primitus donatione legitima, id est praestantem tot, gestisque
+					<lb/>municipalibus allegatis, praedictum oratorium atque missas publicas solemniter consecratis, ita ut in
+					<lb/>eodem loco nec futuris temporibus baptisteria construantur nec presbiter constituatur cardinalis; sed,
+					<lb/>etsi missus ibi forte maluerit, ab episcopo noverit presbiterum postulandum, quatenus nihil tale a
+				<lb/>quolibet alio sacerdote nullatenus resistatur, nisi ab episcopo fuerit ordinatum.</p>
+			</div>
+			<div>
+				<head><lb/>Sextum decimum capitulum de clericis, qui proprias eclesias relinqnunt, quid
+				<lb/>de eis agi debeat.</head>
+				<p><lb/>Ex canone sanctorum apostolorum; capitulo XV, ita continetur: Si quis presbiter
+					<lb/>aut diaconus - aut quilibet de numero clericorum, relinquens propriam parrochiam, pergat ad alienam
+					<lb/>et omnino declinans praeter episcopi sui conscienciam in aliena parrochia commoretur, hunc ulterius
+					<lb/>ministrare non patirnur; praecipue si vocatus ab episcopo redire contempserit, in sua inquietudine
+				<lb/>perseverans. Tamen tamquam laicus ibi conmunicet.</p>
+			</div>
+			<div>
+				<head><lb/>Septimum decimum capitulum item pro episcopis, qui alterius clericos susceperint,
+				<lb/>ut excommunicentur.</head>
+				<p><lb/>In eodem canone capitulo XVI, continetur: Episcopus vero, apud quem memoratus
+					<lb/>esse constiterit, si, contra eos decretam cessationem pro nihilo reputans, tamquam clericos forte
+				<lb/>susceperit, velut magister inquietudinis communione privetur.</p>
+			</div>
+			<div>
+				<head><lb/>Octavum decimum capitulum: qui clerici uxores sortiri debeant.</head>
+				<p><lb/>In XXVII, capitulo canonum sanctorum apostolorum decretum est: Innuptis autem,
+					<lb/>qui ad clerum provecti sunt, praecipimus, ut, si voluerint, uxores accipiant, sed lectores cantoresque
+				<lb/>tantummodo.</p>
+			</div>
+			<div>
+				<head><lb/>Nonum decimum capitulum: ut nullus [ episcopus] presbiter aut diaconus sine commendaticiis
+				<lb/>suscipiatur epistolis.</head>
+				<p><lb/>In eodem canone sanctorum apostolorum continetur: Nullus episcoporum peregrinorum
+					<lb/>aut presbiterorum seu diaconorum sine commendaticiis suscipiatur epistolis; et cum scripta detulerint,
+					<lb/>discuciantur attentius et ita suscipiantur; si predicatores pietatis exstiterint minus, ne, quae
+					<lb/>sunt necessaria, subministrentur eis et ad communionem nullatenus admittantur, quia subrepcione
+				<lb/>multa proveniunt.</p>
+			</div>
+			<pb n="485"/>
+			<div>
+				<head><lb/>Vicesimum capitulum de virginibus vaelatis, si deviaverint, quid de illis
+				<lb/>agendum sit.</head>
+				<p><lb/>In libro decretorum beati Innocencii papae capitulo XVIIII, adsertum est:
+					<lb/>Que Christo spiritaliter nubunt et a sacerdote velantur, si postea vel puplice nupserint vel se clanculo
+					<lb/>corruperint, non eas admittendas esse ad agendam penitentiam, nisi is, cui se coniunxerat, de mundo
+					<lb/>recesserit. Si enim de hominibus haec ratio custoditur: quecumque, vivente viro, alteri nupserit,
+					<lb/>habeatur adultera nec ei agendi poenitentiam licencia concedatur, nisi unus ex his fuerit defunctus,
+					<lb/>quanto magis de illa tenenda est, que ante inmortali se sponso coniunxerat et postea humanas ad
+				<lb/>nuptias transmigravit!</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum primum capitulum idem de non velatis virginibus, si deviaverint.</head>
+				<p><lb/>In eodem libro XX, kapitulo continetur: Hae Vero, que, necdum sacro velamine
+					<lb/>tectae, tamen in proposito virginali semper se simulaverunt permanere, licet velate non fuerint, si
+					<lb/>forte nupserint, his agenda aliquanto tempore paenitencia est, quia sponsio eius Domino tenebatur.
+					<lb/>Si enim inter homines solet bone fidei contractus nulla racione dissolvi, quanto magis ista pollicitacio,
+					<lb/>quam cum Deo pepigit, solvi sine vindicta non poterit! Nam si apostolus Paulus, quae a proposito
+					<lb/>viduitatis discesserant, dixit “eas habere dampnacionem, quia primam fidem irritam fecerunt”,
+					<lb/>quanto pocius virgines, que prioris promissionis fidem frangere sunt conatae! Haec itaque, fratres
+					<lb/>karissimi, si plena vigilancia fuerint ab omnibus Dei sacerdotibus observata, cessabit ambicio, iniquitas
+					<lb/>superata calcabitur, veritas spiritali fervore fraglabit, pax predicata labiis cum voluntate animi
+					<lb/>concordabit, implebitur edictum apostoli, ut unanimes una sentientes permaneamus in Christo, nihil
+					<lb/>per contentionem nobis neque per inanem gloriam vindicantes, non hominibus, sed Deo nostro salvatori
+				<lb/>placentes.</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum secundum capitulum de his, quae duobus fratribus nupserint vel
+				<lb/>qui duas sorores uxores acceperint.</head>
+				<p><lb/>In concilio Neocesariense capitulo II, continetur: Mulier, si duobus fratribus nupserit,
+					<lb/>abiciatur usque ad mortem; verumtamen in exitu propter misericordiam, si promiserit, quod, facta
+					<lb/>incolumis, huius coniunccionis vincla dissolvat, fructum poenitentiae consequatur. Quod si defecerit
+					<lb/>mulier aut vir in tallibus nubtiis, difficilis erit poenitentia in vita permanenti. Nos autem, gracia
+					<lb/>divina suffragante, iuxta praedecessorum et antecessorum pontificum decreta multo
+					<lb/>amplius confirmantes dicimus, ut, dum usquae sese generacio cognoverit, iuxta ritum
+					<lb/>et normam christianitatis et religionem Romanorum non copulentur coniugiis. Sed nec
+					<lb/>spiritalem cummatrem aut filiam, quod absit, quis ducat temerario ausu uxorem;
+					<lb/>est namque nefas et perneciosum peccatum coram Deo et angelis eius. In tantum
+					<lb/>enim grave est, ut nullus sanctorum patrum atque sacrarum sinodorum adsertiones vel
+					<lb/>etiam in imperialibus legibus quippiam iudicatum sit; sed, terribile Dei iudicium metuentes,
+				<lb/>siluerunt sententiam dare.</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum tertium capitulum de his, qui homicidium sponte perpetraverunt.</head>
+				<p><lb/>In vicesimo primo capitulo Anquirani concilii continetur: Qui voluntariae homicidium
+				<lb/>fecerint, poenitentie iugiter se submittant; perfeccionem vero circa vite exitum consequantur.</p>
+			</div>
+			<pb n="486"/>
+			<div>
+				<head><lb/>Vicesimum quartum capitulum item de his, qui homicidium non sponte perpetraverunt.</head>
+				<p><lb/>In eodem concilio capitulo XXII. continetur: De homicidiis non sponte commissis
+					<lb/>prior quidem definitio post septem annorum poenitenciam perfeccionem consequi praecepit; secunda
+				<lb/>vero quinquennii tempus explere.</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum quintum capitulum de his, qui adulteras habent uxores, vel si ipsi
+				<lb/>adulteri conprobantur.</head>
+				<p><lb/>In concilio Anquirano capitulo XVIIII, continetur: Si cuius uxor adulterata fuerit,
+					<lb/>vel si ipse adulterium cummiserit, septem annorum poenitentia oportet eum perfeccionem consequi
+				<lb/>secundum pristinos gradus.</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum sextum capitulum de monachis et virginibus propositum non servantibus.</head>
+				<p><lb/>In libro decretorum beati Siricii papae capitulo VI, continetur: Praeterea monachorum
+					<lb/>quosdam atque monacharum, abiecto proposito sanctitatis, in tantam protestaris demersos
+					<lb/>esse lasciviam, ut prius clanculo vel sub monasteriorum pretextatu inlicita ac sacrilega se contagione
+					<lb/>miscuerint, postea vero, in abruptum conscienciae dissperacionem perducti, de inlicitis complexibus
+					<lb/>libere filios procrearent; quod et publice leges et eclesiastica iura condempnant. Has igitur inpudicas
+					<lb/>detestabilesque personas a monasteriorum coetu aeclesiarumque conventibus eliminandas esse mandamus,
+					<lb/>quatenus retrusae in suis ergastulis, tantum facinus continua lamentatione deflentes, purificat[ori]o
+					<lb/>possint penitudinis igne dequoquere, ut eis vel ad mortem saltim solius misericordiae intuitu per
+				<lb/>communionis graciam possit indulgentia subvenire.</p>
+			</div>
+			<div>
+				<head><lb/>Vicesimum septimum capitulum de his, qui non coacte sed voluntate propria virginitatis
+					<lb/>propositum susceperunt, quod delinquant cum nupserint, etsi nondum
+				<lb/>fuerint consecrati.</head>
+				<p><lb/>In libro decraetorum beati Leonis papae capitulo XXVIII. continetur: Puelle,
+					<lb/>quae non parentum coacte imperio, sed spontaneo iudicio virginitatis propositum adque habitum
+					<lb/>susceperunt, si postea nuptias eligunt, praevaricantur, etiam si nondum eis gracia consecrationis accessit; cuius utique non fraudarentur munere, si in proposito permanerent.
+					<lb/>Haec itaque, carissimi nobis et dilectissimi, que superius annexa sunt – in
+					<lb/>quantum miserante Deo valuimus, inter cetera capitula deflorantes tam de sanctorum
+					<lb/>apostolorum quamque etiam et beatorum patrum sanctiones seu etiam et probabilium
+					<lb/>beatissimorum pontificum decraeta, ut uniuscuiusque capituli sentencia continet, in
+					<lb/>brevi eloquio perstringentes – ad vestri praesulatus notitiam et praedicationem atque
+					<lb/>populis vobis a Deo creditis aedificacionem mandavimus ministranda atque perficienda,
+					<lb/>hortantes vestram omnium prudentissimam sanctitatem et procerum dileccionem:
+					<lb/>omnimoda racione, non declinantes a dextris aut sinistris, sed viam regiam incedentes,
+					<lb/>stantissime observetis apostolica mandata. Etenim haec, amantissimi nobis, vobis
+					<lb/>dedimus in mandatis, ut nec nos coram Deo de taciturnitate iudicemur nec vos de
+					<lb/>neglectu coram eo cogamini reddere racionem, sicut scriptum est in dominico praecepto:
+					<lb/>“Si non venissem et locutus eis fuissem, peccatum non haberent”. Itaque, nihil
+					<lb/>excusationis adhibentes, omnium racionabilium animarum salutem procuretis, ita currentes
+					<lb/>in agone, “ut non vituperetur ministerium vestrum”, sed magis de palma victoriae
+					<pb n="487"/>
+					<lb/>bravium accipietis, iuxta egregii apostoli dictum habentes, bonis actibus inherendo,
+					<lb/>repositam coronam iustitiae in siderea mansione quam vobis reddat in illum diem
+					<lb/>iustus iudex, dominus deus et salvator noster Iesus Christus, qui vivit in unitate cum
+				<lb/>Deo patre omnipotente et spiritu sancto per omnia secula seculorum. Amen.</p>
+			</div>
+		</div>
+		<pb n="710"/>
+		<div>
+			<head type="salutatio"><lb/>ZACHARIAS EPISCOPUS, SERVUS SERVORUM DEI, REVERENTISSIMO ET
+			<lb/>SANCTISSIMO FRATRI THEODORO EPISCOPO ECCLESIAE TICINENSIS.</head>
+			<p><lb/>Pittatium nobis tua veneranda fraternitas optulit, per quod nos sciscitari
+				<lb/>curasti, si liceat filium, cuius pater alterius filiam ex sacro baptismate suscepit
+				<lb/>id est spiritalem eiusdem patris filiam, quod dici crudele est, in matrimonio suscipere,
+				<lb/>quod apud te enormiter disseruisti contigisse. Sed bene tua sancta fraternitas
+				<lb/>compertum habet, quod Dominus per Moysen praecipiat dicens: Turpitudinem
+				<lb/>patris tui non revelabis; turpitudinem matris tueae non revelabis. Turpitudinem
+				<lb/>sororis tueae, filiae patris tui, non revelabis. Turpitudo enim tua est. Turpitudinem
+				<lb/>enim revelare dicitur, dum a propria consanguinitate praecipimur abstinere. Multo
+				<lb/>magis a spiritali patris nostri filia omnimodo omni occasione aut argumento
+				<lb/>reposito, sub nimia districtione cavere nos convenit, ne in iram divini examinis
+				<lb/>incidat, si quis tali facinore mixtus minime restrinxerit frena luxuriae. Unde et
+				<lb/>omnes omnino cavere debent talis sceleris commixtionem, ne in aeternum
+				<lb/>pereant. Sed hii qui huius pernitiosae temeritatis, anime sueae salutem despicientes,
+				<lb/>impiissimo se miscuit matrimonio, per omnia tua fraternitas studeat separare et
+				<pb n="711"/>
+				<lb/>poenitentiae dignae submittere, quatenus, ab aeterna erutas damnatione animas eorum
+			<lb/>lucreris ipso praestante Domino et deo salvatore nostro Iesu Christo.</p>
+			<p><lb/>De filiis autem, qui ex eis nati esse probantur, retulisti, si liceat eos coniugio
+				<lb/>copulari. Sed hi cur prohibeantur a coniugio aut pro huiusmodi poenitentiam
+				<lb/>agere compellantur, dum ex hoc absque condemnatione esse perhibentur? Quia non
+				<lb/>pater pro filio neque filius pro patre sustinebit tormenta, dicente Domino per prophetam:
+			<lb/>“Anima patris mea est anima filii mea est; anima quae peccaverit morietur.</p>
+			<p><lb/>Sed et, frater carissime, de his dixisse sufficiat. Cave autem, ne aliter agere
+				<lb/>subiectis concedas, ne a recto tramite inveniaris deviare. sed magis apostolicae sedis
+				<lb/>nostrae praecepta omnino assequi elabora, quatenus inoffense ante omnium conditorem
+				<lb/>dominum Deum nostrum, dum ad iudicandum venerit, consistere merearis ac dicere:
+				<lb/>“Ecce ego et pueri, quos dedisti mihi, non perdidi ex eis quemquam”, et ab ipso audias
+			<lb/>dicente: “Euge, serve bone”, et reliqua.</p>
+			<p><lb/>De illo vero capitulo, quod nobis insinuasti, in qua debeatur generatione de
+				<lb/>propria cognatione coniungi, quod alii sibi vendicare volunt hoc, quod a sancto Gregorio
+				<lb/>directum apud gentem Anglorum observandum usque in quartam progeniem.
+				<lb/>Sed ipse pius pater ut rudibus et noviter ad Christum venientibus licere quaedam
+				<lb/>imposuit, ne, si graviora imposuisset, duriter ferrent et dura gens omnia quae suscepissent
+				<lb/>penitus abicerent. Nos autem volumus, ut non populus tibi commissus, sicut
+				<lb/>qui noviter Christum susceperunt debeat observare, sed sicut qui in sancta catholica
+				<lb/>sunt a cunabulis nutriti ecclesia, ut, dum utique se de propria cognoverunt cognatione,
+				<lb/>modis omnibus abstineant, sicut hoc sancta Dei catholica et apostolica tenet et praedicat
+			<lb/>Romana ecclesia.</p>
+		</div>
+	</body>
+</text>
+</TEI>

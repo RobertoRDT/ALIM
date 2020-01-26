@@ -1,0 +1,962 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Visio Alberici</title>
+				<author>Albericus Casinensis</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>P. G. Schmidt</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="7316" unit="words">Parole: 7316</measure>
+				<measure quantity="43854" unit="characters_without_spaces">Caratteri (spazi esclusi): 43854</measure>
+				<measure quantity="50449" unit="characters_witht_spaces">Caratteri (spazi inclusi): 50449</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2003-03-02">02/03/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 7421
+					
+					Carattere: 41775
+					
+				GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Visio Alberici: die Jenseitswanderung des neunjahrigen Alberich in der vom Visionar um 1127 in Monte Cassino revidierten Fassung</title>
+						<editor>P. G. Schmidt</editor>
+						<imprint>
+							<publisher>Franz Steiner Verlag</publisher>
+							<pubPlace>Stuttgart</pubPlace>
+							<date>1997</date>
+							<biblScope unit="page">160-207</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Sitzung. der wissenschaflt. Gesellschaft und der Johann Wolfang Goethe-Universitaet Frankfurt am Main</title>
+						<biblScope unit="volume">35, 4</biblScope>
+					</series>
+				</biblStruct>
+				
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="160"/>
+		<div>
+			<head><lb/>Incipit epistola fratris Alberici Casinensis cenobii monachi in visione sua.</head>
+			<p><lb/>Quia nonnulli veritatem mendacio obumbrare consueverunt et iuxta suum velle in
+				<lb/>alienis opusculis aliquid addunt vel minuunt, hac de re ego Albericus Casinensis
+				<lb/>cenobii monachus, servus servorum Christi ultimus, necessarium duxi visionis
+				<lb/>nostre libellum tali scolia premunire, presertim cum idipsum a compluribus falsatum
+				<lb/>esse didicerim. Nam quidam pre oculis non habentes illam sententiam, que de verbis
+				<lb/>otiosis nos rationem reddituros testatur, in eadem visione nostra descripserunt,
+				<lb/>quod a nobis nunquam audierunt, non advertentes quia, licet multa sint mendaciorum
+				<lb/>genera, omnia tamen servus Christi respuere debet. Nullum est enim mendacium,
+				<lb/>quod non sit contrarium veritati, quia sicut veritas a Christo, ita mendacium
+				<lb/>procedit a diabolo. Nam sicut lux et tenebre, pietas et impietas, iustitia et iniquitas,
+				<lb/>sanitas et infirmitas, vita et mors, ita inter se sunt veritas mendaciumque contraria.
+				<lb/>Et quid mirum, si visio nostra a quampluribus corrumpatur, cum ipsos evangelii
+				<lb/>libros olim corruptos fuisse noverimus? Nam melius esset ex toto nichil referre
+				<lb/>quam falsum aliquod confictumque narrare. Quod idipsum Girardus abbas evenire
+				<lb/>prenoscens, Guidoni huius Casinensis cenobii presbytero olim preceperat, ut visionem
+				<lb/>nostram ad futurorum memoriam litteris traderet. Cuius ille imperio parens quamplura
+				<lb/>descripsit, quamplura dimisit. Huius igitur visionis libellum quidam accipiens, quod
+				<lb/>voluit addidit, et quod voluit abstulit, et quod voluit permutavit, et circumfert
+				<lb/>tanquam ex nostro nomine, insultans et ostendens ea, que ipse conscripsit. Que
+				<lb/>autem ibi sub nostro nomine inseruit, ista sunt: altitudo portarum inferni, de naucleris,
+				<lb/>qui erraverunt in mare, de martirio sancti Pandidi et de ecclesia confessoris Archilegii,
+				<lb/>allocutio Moysi ad Deum, de creatione Ade, de nomine eius, de cibo Ade post
+				<lb/>mortem, de vinea Noe, de altitudine celi. Hec et multa alia in nostra visione conficta
+				<lb/>repperi. Ob quam rem Seniorectus abbas nostram parvitatem evocans precepit, ut
+				<lb/>iterum illam emendans, superflua resecarem, amputata loco suo restituerem. Accito
+				<lb/>igitur Petro diacono ab ipsis, ut ita dicam, cunabulis nobis in Christi amore coniuncto
+				<lb/>triduanum laborem assumens, eam ad unguem usque correxi, falsa resecans et
+				<lb/>dempta loco suo restituens. Unde rogamus omnes ecclesie catholice filios, in
+				<lb/>quorum manibus libellus hic venerit, ut conferant ad exemplaria, quia, ut vidi, ut a
+				<lb/>beato Petro apostolo audivi, ita hic scribere feci, nec illam ulterius falsare permittant,
+				<pb n="162"/>
+				<lb/>illud beati Iohannis eis imprecans, ut si quis apposuerit ad hec, apponat Deus ad
+				<lb/>illum plagas scriptas in libro isto, et si quis diminuerit. diminuat Deus partem eius
+			<lb/>de bonis descriptis in libro isto.</p>
+			<p><lb/>Explicit epistola fratris Alberici.</p>
+		</div>
+		<div>
+			<head><lb/>Incipiunt capitula visionis eiusdem</head>
+			<p><lb/>I. Qualiter beatus Petrus apostolus cum duobus angelis ei apparuit.</p>
+			<p><lb/>II. De pena prune, in qua pueri unius anni purgantur.</p>
+			<p><lb/>III. De valle glaciali, in qua adulteri, incesti, stupratores et diversis luxuriis inherentes
+			<lb/>cruciantur.</p>
+			<p><lb/>IIII. De valle acutissimis, altissimis et spinosis arboribus plena, in qua mulieres
+			<lb/>misericordiam non habentes et, que viri sui torum violaverunt, torquebantur.</p>
+			<p><lb/>V. De scala ferrea et vase eius, in quo cruciabantur illi, qui se ab uxoribus suis in
+			<lb/>diebus dominicis et festivitatibus non continuerunt.</p>
+			<p><lb/>VI. De fornace sulphurea, in qua urebantur mulieres, que filios suos interficiunt, et
+			<lb/>domini, qui sibi subditos multis iniustitiis et calumpniis afflixerunt</p>
+			<p><lb/>VII. De lacu igneo, in quo homicide et odiosi urebantur.</p>
+			<p><lb/>VIII. De vase concowinio, here, stagno, plumbo, sulphure et resina pleno, in quo
+				<lb/>cremabantur episcopi, domini, patroni ac subditi ecclesiarum, qui scientes sacerdotem
+				<lb/>periurum, adulterum et excommunicatum, iniquitates eius sustinent, defendunt,
+			<lb/>consentiunt et officium eius audiunt.</p>
+			<p><lb/>VIIII. De locis Tartareis et ore infernalis baratri et verme infinite magnitudinis; qui,
+				<lb/>cum flatum traheret, animas deglutiebat, cum emitteret, animas in favillarum
+			<lb/>modum reiciebat exustas.</p>
+			<p><lb/>X. De lacu igneo, in quo sacrilegi cremabantur.</p>
+			<p><lb/>XI. De puteo flammas emittente. in quo symoniaci et, qui donum Dei emunt vel
+			<lb/>vendunt, incendebantur.</p>
+			<p><lb/>XII. De loco horrido, tenebroso, flammanti, serpentibus et eiulatibus, draconibus et
+				<lb/>stridoribus pleno, in quo cruciabantur, qui ordinem ecclesiasticum et regulam
+				<lb/>monasticam dimiserunt, qui desperaverunt, qui penitentiam acceperunt et non
+			<lb/>fecerunt.</p>
+			<p><lb/>XIII. De lacu aqua sulphurea et serpentibus ac scorpionibus pleno, in quo detractores
+			<lb/>et, qui falsum testimonium dixerunt, affligebantur.</p>
+			<p><lb/>XIIII. De cane et leone flammas sulphureas de ore proicientibus.</p>
+			<p><lb/>XV. Qualiter monachus ab ave ductus et in incendiis proiectus et exinde abstractus,
+				<lb/>et Albericus puer a beato Petro apostolo cum duobus angelis relictus et a demone
+			<lb/>circumventus et rursum ab apostolo Petro sit in campum gloriose visionis deductus.</p>
+			<p><lb/>XVI. De supplicio illorum, qui furtum et rapacitatem contraxerunt.</p>
+			<pb n="164"/>
+			<p><lb/>XVII. De flumine purgatorio.</p>
+			<p><lb/>XVIII. De non desperando, et exemplum de avaro et luxurioso divite, et similatione
+			<lb/>illius et heremite, et conflictu angeli et victoria ad mortem illius cum diabolo.</p>
+			<p><lb/>XVIIII. De campo trium dierum et noctium magnitudinis, spinarum et tribulorum
+				<lb/>densitate operto, et diabolo in specie militis super serpentem equitante, et per
+			<lb/>eundem animas persequente, et de ereptione anime a diabolo.</p>
+			<p><lb/>XX. De splendore, decore, gloria et magnitudine campi illius et paradiso in medietate
+			<lb/>eiusdem campi constituto.</p>
+			<p><lb/>XXI. Relatio de illis, qui iudicabuntur et non iudicabuntur.</p>
+			<p><lb/>XXII. Relatio de beato Benedicto et gloria sanctorum.</p>
+			<p><lb/>XXIII. De gloria monachorum et regula eorum eidem Alberico ab apostolo Petro
+			<lb/>tradita.</p>
+			<p><lb/>XXIIII. Ut monachi iniurias equanimiter sustineant.</p>
+			<p><lb/>XXV. Ut monachi diaboli astutias caveant.</p>
+			<p><lb/>XXVI. Ut monachi laborent manibus suis.</p>
+			<p><lb/>XXVII. De monachis, qui vitiis resistunt, quod similes martiribus sint.</p>
+			<p><lb/>XXVIII. Ut monachi dilectionem Dei et proximi ante omnia et super omnia teneant.</p>
+			<p><lb/>XXVIIII. Ut monachi semper timeant.</p>
+			<p><lb/>XXX. De altitudine campi et nomine ligni, de quo gustavit Adam.</p>
+			<p><lb/>XXXI. De lecto iuxta paradisum claris operimentis ornato, et iacente in eo.</p>
+			<p><lb/>XXXII. De tribus vitiis, unde omnes homines pereunt, et unde cetera peccata
+			<lb/>oriuntur.</p>
+			<p><lb/>XXXIII. Qualiter a columba et beato Petro apostolo et duobus angelis ductus est in
+			<lb/>primum celum, id est aereum</p>
+			<p><lb/>XXXIIII. De celo ethereo.</p>
+			<p><lb/>XXXV. De celo sydereo.</p>
+			<p><lb/>XXXVI. De quarto celo, quod vocatur orleon.</p>
+			<p><lb/>XXXVII. De quinto, quod dicitur iunion.</p>
+			<p><lb/>XXXVIII. De sexto celo, quod vocatur venustion.</p>
+			<p><lb/>XXXVIIII. De septimo celo, quod appellatur anapecon, in quo thronus Dei est, ubi
+				<lb/>Cherubin clamant "Sanctus, sanctus, sanctus dominus Deus Sabaoth", etiam in qua
+			<lb/>figura Cherubin stant ante Deum.</p>
+			<p><lb/>XL. Quia in sexto celo sunt angeli, archangeli et omnes chori sanctorum.</p>
+			<p><lb/>XLI. Qualiter ex iussu apostoli a columba ductus est in locum quendam, et ibi vidit,
+			<lb/>quod non licet homini loqui.</p>
+			<p><lb/>XLII. Qualiter ab apostolo Petro ductus est per regiones quinquaginta et unius
+			<lb/>provinciarum.</p>
+			<p><lb/>XLIII. De civitate et ecclesia destructa, in qua anime illorum, qui ibi habitaverunt,
+			<lb/>cum sacerdote et domino loci a demonibus cruciabantur.</p>
+			<p><lb/>XLIIII. De ecclesia sancti Pandidi, in qua stabat crucifixus super amulam cristallinam,
+			<lb/>qui cotidie plangit peccata hominum.</p>
+			<p><lb/>XLV. Quia multa alia loca et tormenta ei ostendit sanctus Petrus apostolus et multa
+				<pb n="166"/>
+				<lb/>eum docuit de veteri testamento et de hominibus in seculo viventibus plura peccata
+			<lb/>innotuit.</p>
+			<p><lb/>XLVI. De statura beati Petri apostoli.</p>
+			<p><lb/>XLVII. Qualiter beatus Petrus apostolus cartam mire magnitudinis in modum
+				<lb/>parvissime paginule plicans, et in ore ipsius Alberici mittens, eandem illi devorare
+			<lb/>precepit.</p>
+			<p><lb/>XLVIII. Iussio apostoli Petri ad eum et de reversione in semetipso.</p>
+			<p><lb/>XLVIIII. Allocutio sancti Pauli apostoli de ycona in visione ad matrem eius.</p>
+			<p><lb/>L. Qualiter relictis omnibus Casinense monasterium petiit atque a Girardo abbate
+			<lb/>sancte conversionis habitum indutus est.</p>
+			<p><lb/>Expliciunt capitula visionis Alberici monachi Casinensis.</p>
+		</div>
+		<div>
+			<head><lb/>Incipit prologus domni Guidonis presbiteri Casinensis in visionem Alberici
+			<lb/>eiusdem cenobii monachi</head>
+			<p><lb/>Humane mentis cecitatem nostrique cordis duritiam variis diversisque modis
+				<lb/>omnipotens Deus larga sue misericordie affluentia superna gratia illustrare dignatus
+				<lb/>est atque emollire consuevit. Hinc est, quod alios scripturarum eloquiis admonet et
+				<lb/>deterret, alios multimodis tribulationum angustiis castigat et ad penitentie lamenta
+				<lb/>convertit, alios vero quibusdam visionibus ac revelationibus informat et erudit, ut,
+				<lb/>qui scripturarum predicationibus et minis quadam mentis obstinatione sumus
+				<lb/>increduli, his saltem visionibus instructi nostrarum animarum ruinas timeamus,
+				<lb/>quibus in hac vita positis futuri seculi pena vel gloria manifestis indiciis ostenditur.
+				<lb/>Non est novum nec incredibile, quod dicimus, immo crebris sanctorum patrum
+				<lb/>relationibus et exemplis notissimum, quod et nostris quoque diebus in quodam
+				<lb/>puero omnipotens Deus mirabiliter monstrare dignatus est. Cuius rei notitiam ego
+				<lb/>Guido, Casinensis cenobii monachus, nequaquam silentio tegere, verum ad multorum
+				<lb/>edificationem quamquam indocto stilo litteris tradere existimavi congruum, presertim
+				<lb/>cum id michi a quibusdam venerabilibus fratribus obedientie precepto imperatum
+			<lb/>sit.</p>
+			<p><lb/>Explicit prologus.</p>
+		</div>
+		<pb n="168"/>
+		<div>
+			<head><lb/>&lt; Visio Alberici &gt;</head>
+			<p><lb/>In Campanie igitur provincia quoddam castellum est, quod ab accolis Septem
+				<lb/>Fratres nuncupatur eo, quod ibi ecclesia sanctorum Septem Fratrum vocabulo
+				<lb/>consecrata sit. In eo loco nobilis cuiusdam militis filius fuit nomine Albericus; qui
+				<lb/>puer decimo anno nativitatis sue inchoante languore correptus, graviter infirmatus
+				<lb/>est, quo tempore novem diebus totidemque noctibus immobilis et acsi mortuus sine
+				<lb/>sensu iacuit. In quo spatio admirabilem vidit visionem, quam postea in se reversus
+			<lb/>ita retulit:</p>
+			<div type="chapter">
+				<head><lb/>I.</head>
+				<p><lb/>"Quedam" inquiens, "avis candida, columbe similis, adveniens rostrumque suum in
+					<lb/>os meum iniciens, nescio quid exinde abstrahi sentiebam, ac deinde per
+					<lb/>comam capitis suo me ore apprehendens, ferre cepit, sublimem videlicet a terra,
+					<lb/>quantum unius statura est hominis. Tunc etiam beatus Petrus apostolus ac duo
+					<lb/>angeli apparuerunt michi; quorum alter Hemmanuel, alter vocabatur Heloy, qui me
+				<lb/>simul ducentes, loca penarum et inferni ostendere ceperunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>II.</head>
+				<p><lb/>Primum itaque locum quendam igneis prunis incendiosisque vaporibus estuantem
+					<lb/>vidi, in quo parvulorum unius anni anime purgabantur. Et tunc beatus Petrus
+					<lb/>apostolus, qui ductor itineris mei mearumque visionum ostensor erat, dixit michi:
+					<lb/>"Ne estimes te primum maiora tormenta videre, set minora. Ita est enim de penarum
+					<lb/>qualitatibus sicuti de hominis etate, eademque in eis ratio consideranda est. Est
+					<lb/>homo puer parvulus; crescit, adolescentie capit incrementa, ad iuvenile robur
+					<lb/>conscendit, paulatimque deficiendo vergit ad senectutem, ac per singulos etatis eius
+					<lb/>gradus delictorum augmenta cumulantur. Eodem modo et in penis pueri levius,
+					<lb/>adolescentes amplius, iuvenes gravius cruciantur, quousque diuturnis suppliciis
+					<lb/>paulatim deficientibus peccatis pena quoque veluti quadam senectute deficere
+					<lb/>incipiat. Et multi sunt, qui parvulos et infantes nullum habere peccatum, neque
+					<lb/>morientes aliqua pena detineri arbitrantur. Set non ita sentiendum est, quia nec unius
+					<lb/>diei infans sine peccato est, et sepe tales aut matrem contristando, vel in faciem
+					<lb/>cedendo, vel aliquibus humane fragilitatis casibus peccato omnino carere non
+					<lb/>possunt. Purgantur ergo in hoc igne pueri unius anni septem diebus, duorum
+				<lb/>quatuordecim, ita deinceps. Hec autem pena pruna vocatur."</p>
+			</div>
+			<pb n="170"/>
+			<div type="chapter">
+				<head><lb/>III.</head>
+				<p><lb/>Hec dicens apostolus ostendit michi vallem terribilem, in qua innumeros quasi
+					<lb/>congelate glaciei acervos conspexi tante nimirum altitudinis, ut vix eorum cacumina
+					<lb/>oculis aspicerem. Que tamen gelu et algorem ut glacies et ustionem quasi ignis
+					<lb/>miserorum animabus exhibet. Multos in eis vidi usque ad talos demergi, alios usque
+					<lb/>ad genua vel femora, alios usque ad pectus, iuxta peccati videlicet modum. Alios
+					<lb/>vero, qui maioris criminis noxa tenebantur, in ipsis summitatibus supersedere
+					<lb/>conspexi. Eos autem beatus Petrus dixit esse adulteros, incestos, stupratores vel
+				<lb/>concubinarum luxuriis inherentes et graviter in fornicatione lapsos</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IIII.</head>
+				<p><lb/>Inde in aliam vallem nimis terribiliorem deveni, plenam subtilissimis arboribus in
+					<lb/>modum hastarum sexaginta brachiorum longitudinem habentibus. Quarum
+					<lb/>omnium capita acsi sudes acutissima erant et spinosa. In quibus vidi transfixis
+					<lb/>uberibus mulieres dependentes, et uniuscuiusque illarum mamillas duo serpentes
+					<lb/>ebibebant. De quibus mulieribus beatus Petrus dixit, quod ipse essent, que orphanis
+					<lb/>et matres non habentibus dare ad bibendum mamillas noluerunt, aut dare se
+					<lb/>fingentes non dederunt. Multotiens enim evenit, ut aliquis infantulus matre destitutus
+					<lb/>in manus remaneat cuiuslibet parentis, qui eum salvare cupiens, vicinis vel aliis
+					<lb/>mulieribus nutriendum tradidit. Et alie quidem nulla miseratione commote, lac ei
+					<lb/>prebere recusant, alie, ut predixi, se dare promittentes, fallacia sua infantem famis
+					<lb/>interficiunt penuria, dum et infans nisi plorando murmurari nescit et parentes lac
+					<lb/>eum sufficienter habere credentes, ignorant eius mortis occasionem. Cuius rei
+					<lb/>femine nullam se sperantes habere culpam, nec sacerdoti quidem hoc dignantur
+					<lb/>confiteri; ideoque talem sustinent periculum. In eadem vero valle vidi alias mulieres
+					<lb/>a capillis suspensas flammis ardentibus concremari. De quibus michi dictum est,
+					<lb/>quod ideo talem patiuntur penam, quia viri sui torum maculantes et coniugalem
+				<lb/>fidem violantes cum aliis adulterium fecerunt.</p>
+			</div>
+			<pb n="172"/>
+			<div type="chapter">
+				<head><lb/>V.</head>
+				<p><lb/>Post hec vidi scalam ferream trecentorum sexaginta quinque cubitorum longitudinis,
+					<lb/>ita ardentem et scintillas emittentem acsi ferrum, cum de fornace trahitur. Ad cuius
+					<lb/>pedes vas quoddam magnum oleo, pice ac resina refertum pernimium bulliens
+					<lb/>fervebat. Pedes autem per scalam ascendentium et descendentium exurebantur in
+					<lb/>illis gradibus ignitis et, dum in illud vas ignivomum cecidissent, amplius ardebant.
+					<lb/>Tunc beatus Petrus apostolus dixit: "Isti, quos vides ita cruciari, idcirco taliter
+					<lb/>torquentur, quoniam dominicis diebus vel sanctorum festivitatibus atque precipuis
+					<lb/>ieiuniis a carnali voluptate et a suis uxoribus se nequaquam refrenare studuerunt.
+					<lb/>Sunt enim quidam, qui omni tempore licite et inculpabiliter cum coniugibus suis se
+					<lb/>luxuriari posse confidunt. Omnino tamen talibus diebus ab uxoribus abstinendum
+					<lb/>est, ne, si aliter fecerint, equo et mulo inveniantur similes, qui dicuntur esse
+					<lb/>Christiani. Iusti vero, qui his diebus se continuerunt, helemosinas fecerunt, captivis
+					<lb/>et tribulantibus miserti sunt aut mortuos sepelierunt, hoc tormentum non vident
+					<lb/>neque sentient; de aliis vero peccatis alias penas solvunt. Nam omnes, qui
+					<lb/>dicuntur iusti, non omnino iusti sunt, set ab aliquibus delictis iusti sunt. Et cum
+					<lb/>diversa ac varia sint penarum genera, omnis tamen peccator non omnia sentit aut
+					<lb/>videt, set ea tantum, que pro sui delicti meretur qualitate. Omne namque peccatum
+				<lb/>propriam habet penam deputatam."</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VI.</head>
+				<p><lb/>Post hec verba plurimos ignium globos sulphureasque flammas tamquam fornacis
+					<lb/>magne vidi. De quibus audivi apostolum dicentem: "In his incendiis puniuntur
+					<lb/>domini, qui subiectos sibi non ut domini gubernarunt, set ut crudeles tiranni multis
+					<lb/>eos iniustitiis et nimiis calumpniis afflixerunt. Qui ante eos stantes improperant
+					<lb/>dicentes: "Vos nobis talia tantaque mala intulistis." In eisdem vero incendiis
+					<lb/>comburuntur mulieres pessime suorumque homicide viscerum; que quibusdam
+					<lb/>facinoribus vel medicaminibus suos interficiunt, antequam nascantur, filios aut
+					<lb/>aliquo ingenio aborsos eos faciunt. Quique ante ipsas stantes dicunt: "Vos vestris
+					<lb/>impietatibus vitam nobis et salutem auferentes ad christianitatem venire non sivistis."
+					<lb/>Licet autem ipsi infantes filii earum esse videantur, non tamen ipsi sunt, set sunt
+					<lb/>maligni spiritus in eorum se figura ostendentes. Diversis quippe speciebus et
+					<lb/>imaginibus hominum vel bestiarum aut aliarum rerum transformantur demones,
+				<lb/>quatenus diversis modis animas hominum affligant."</p>
+			</div>
+			<pb n="174"/>
+			<div type="chapter">
+				<head><lb/>VII.</head>
+				<p><lb/>Deinde vidi lacum magnum, totum, ut michi videbatur, plenum sanguine. Set dixit
+					<lb/>michi apostolus quod non sanguis, set ignis est ad concremandos homicidas et
+					<lb/>odiosos deputatus. Hanc tamen similitudinem propter sanguinis effusionem retinet.
+					<lb/>"Homo," inquit, "homicida cum sine penitentia mortuus fuerit, malignum spiritum
+					<lb/>in figura eius, quem occidit, portat suspensum ad guttur annis tribus. Et sic postea
+				<lb/>reiecto eo demergitur in hunc lacum cruciandus."</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VIII</head>
+				<p><lb/>Vidi et aliud supplicium, graviorum scilicet criminum, quod audivi vocari
+					<lb/>concovinium. Quod ad instar cuiusdam vasis immense longitudinis atque vastitatis
+					<lb/>videbatur esse, plenum quoque erat ere, stagno, plumbo, sulphure et resina, ita
+					<lb/>omnibus liquescentibus et ferventibus acsi oleum in frixorio super ignem bulliens.
+					<lb/>In hoc vase ex uno capite tenebat caput equus quidam totus igneus, passuum
+					<lb/>sexaginta longitudinis, altitudinis triginta, viginti grossitudinis, ex alio vero
+					<lb/>capite per quoddam hostiolum ingrediebantur anime ibi cruciande. Quod cum ego
+					<lb/>valde territus aspicerem, beatus Petrus apostolus dixit michi: "In hoc tormento
+					<lb/>deputantur populares cuiuscumque ecclesie, qui scientes sacerdotem suum esse
+					<lb/>adulterum, periurum et excommunicatum, iniquitates eius tacite sustinent vel etiam
+					<lb/>defendunt et eius facinoribus assentientes officium eius audiunt. Si enim solius
+					<lb/>adulterii crimine reus esset, parrochia forsitan eius non tantum periculi sustineret;
+					<lb/>set solet evenire, ut de adulterio incidat in periurium vel excommunicationem. Et ita
+					<lb/>impletur illud, quod scriptum est: et qui in sordibus est, sordescat adhuc. Populares
+					<lb/>ergo, ut predixi, puniuntur in hoc supplicio tribus annis, non tamen omnes, quia nec
+					<lb/>omnes consentiunt. Dominus autem vel patronus ecclesie, qui eam quamvis iniuste
+					<lb/>possidet, quia non debet esse iuris sui, si talibus sui sacerdotis criminibus consenserit,
+					<lb/>patietur hoc sexaginta annis. Episcopus vero, qui scit presbyterum suum in talibus
+					<lb/>esse sceleribus, et non solum non emendat, verum etiam aliquod ab eo premium vel
+					<lb/>munus accipit, huic tormento deputatur annis octoginta. Sunt enim in civitatibus due
+					<lb/>ecclesie, in quibus unus sacerdos est bonus, iustus, castus, pudicus, Deum timens,
+					<lb/>anime sue curam gerens, qui plebem sibi commissam instruit, admonet, arguit,
+					<lb/>excommunicat et delinquentibus secundum culpe modum penitentiam imponit. Set
+					<lb/>hi, quibus animarum suarum cura non est, ea, que ob salutem suam illis a sacerdote
+					<lb/>predicantur, fastidientes respuunt; penitentiam vero, que illis iniungitur, contemnunt.
+					<lb/>Alter vero econtra pro eo, quod ipse adulter, periurus atque sacrilegus est, plebem
+					<lb/>sibi commissam non arguit, non excommunicat et peccantibus secundum culpe
+					<lb/>modum penitentiam imponere neglegit et peccata gravia levia facit et ob id, ut
+					<lb/>peccata, que ipse agit, tegat leviaque demonstret. Pravi vero homines ob hoc
+					<lb/>dimittentes sacerdotem suum ad eum accedunt, missam eius audiunt et ideo bonum
+					<lb/>dimittunt, quia illos arguit et penitentiam gravem imponit. Ad malum autem propter
+					<pb n="176"/>
+					<lb/>hoc accedunt, quia illos non increpat, nec penitentiam gravem imponit hi non
+					<lb/>recipiunt prophetam in nomine prophete, set peccatorem in nomine peccatoris.
+					<lb/>Populares autem ideo defendunt sacerdotem pravum, ut ipsi crimina sua licenter
+					<lb/>exerceant; officium vero, quod ab eo audiunt, et penitentiam, quam accipiunt, non
+					<lb/>eis proficit ad salvationem, set ad condempnationem. Alii vero ideo sacerdotem
+					<lb/>pravum defendunt, ne vitia et scelera illorum redarguat. Nam qui in Deo officium
+					<lb/>eius audiunt eumque causa timoris Dei venerantur, huic tormento non deputantur et
+					<lb/>prophetam istum nomine prophete accipiunt. Nonnulli vero, dum penitentiam
+					<lb/>accipiunt, sacerdotem sceleratum requirunt ob hoc, ne penitentiam illis gravem
+					<lb/>imponat; nam si imposuerit, ea, que sacerdos fecit, obiciunt. Qui vero a sacerdote
+					<lb/>bono penitentiam accipiunt, salvantur. Nec mirum, si omnes uni pene subiacent.
+					<lb/>Scriptum est enim: Facientes et consentientes par pena concludit4. Omnes autem,
+					<lb/>qui hic inciderint, non aliter egrediuntur, nisi traiciantur in ventrem equi, sicque per
+				<lb/>eius terga exeant."</p>
+			</div>
+			<pb n="178"/>
+			<div type="chapter">
+				<head><lb/>VIIII.</head>
+				<p><lb/>Post hec omnia ad loca Tartarea et ad os infernalis baratri deductus sum, qui similis
+					<lb/>videbatur puteo. Loca vero eadem horridis tenebris fetoribusque exhalantibus,
+					<lb/>stridoribus quoque et nimiis plena erant eiulatibus. Iuxta quem infernum vermis erat
+					<lb/>infinite magnitudinis, ligatus maxima catena; cuius catene alterum caput in inferno
+					<lb/>ligatum esse videbatur. Ante os ipsius vermis animarum innumerabilis stabat
+					<lb/>multitudo; quas omnes quasi muscas simul absorbebat ita, ut, cum flatum traheret,
+					<lb/>omnes simul deglutiret, cum flatum emitteret, omnes in favillarum modum reiceret
+					<lb/>exustas. Et tandiu ita fit, quousque purgetur peccatum, unde illa pena est, impleturque
+					<lb/>sermo propheticus, vermis eorum non morietur, et ignis non extinguetur. Tormenta
+					<lb/>vero, que peccatoribus preparata erant, in circuitu inferni vidi. Dixit etiam michi
+					<lb/>apostolus: "In tenebris illis, ubi infernus est, ibi sunt Iudas, Anna, Caypha et
+					<lb/>Herodes." Nescio tamen, utrum in tenebris, an in inferno eos positos dixerit. Ita
+					<lb/>autem tenebre dense erant et spisse, ut nulla ratione ibi cerni aliquid possit; stridorem
+					<lb/>tamen et eiulatum audiebam. Peccatores vero, qui ibi sunt, dixit michi apostolus,
+				<lb/>quod non iudicentur, set absque iudicio pereant</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>X.</head>
+				<p><lb/>Post hec vidi vallem, in qua erat lacus magnus, totus rubicundus acsi metallum
+					<lb/>liquefactum, undis valide crepitantibus et nunc sursum, nunc deorsum flammas
+				<lb/>emittentem, in quo sacrilegi cremabantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XI.</head>
+				<p><lb/>Vidi etiam os putei magnum, flammas emittentem, et nunc sursum, nunc deorsum
+					<lb/>descendentem. De quibus audivi apostolum dicentem: "In his incendiis cremantur
+				<lb/>symonyaci, qui donum Dei emunt vel vendunt.'</p>
+			</div>
+			<pb n="180"/>
+			<div type="chapter">
+				<head><lb/>XII.</head>
+				<p><lb/>Post hec vidi locum horridum et tenebrosum, fetoribus exhalantibus, flammis
+					<lb/>crepitantibus, serpentibus, draconibus, stridoribus quoque et terribilibus repletum
+					<lb/>eiulatibus. Quem dixit apostolus paratum esse his, qui ordinem ecclesiasticum
+					<lb/>reliquerunt, qui regulam monasticam dimiserunt et ad seculum reversi sunt et
+					<lb/>gaudiis eternis periture vite preposuerunt delicias; qui de peccatis suis desperaverunt,
+					<lb/>qui periurium admiserunt, qui adulterium, sacrilegium, falsum testimonium et
+					<lb/>reliqua crimina exercuerunt et penitentiam acceperunt, set fructum penitentie non
+					<lb/>fecerunt . Purgantur autem pro merito peccatorum, ut, qui plus sceleris admisit, plus
+					<lb/>ibi crucietur; similiter et qui parum deliquit. Pro qualitate criminum erit et pena
+					<lb/>suppliciorum. Tandiu autem ibi cruciantur, usque dum a delictis purgentur, unde illa
+					<lb/>pena est. Ita autem purgantur acsi aurum in fornace. Aurum namque dum purgatur,
+					<lb/>si aliquid stagni, plumbi, eris seu cuiuslibet rei immistum habuerit, tandiu coquitur,
+					<lb/>usquequo sordidatio illa evacuetur. Et ita completur, quod scriptum est: Uniuscuiusque
+				<lb/>opus quale sit, ignis probavit."</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIII.</head>
+				<p><lb/>Ostendit post hec michi apostolus lacum magnum tetrum et aqua sulphurea plenum,
+					<lb/>in quo animarum multitudo demersa erat, plenum serpentibus ac scorpionibus
+					<lb/>Stabant vero ibi et demones, serpentes tenentes et ora, vultus et capita hominum
+					<lb/>cum eisdem serpentibus percutientes. Quos dixit apostolus esse detractores et qui
+				<lb/>falsum dixerunt testimonium.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIIII.</head>
+				<p><lb/>Item vidi duos malignos spiritus in figura canis et leonis. De quorum ore flammeus
+					<lb/>ac sulphureus exibat flatus, de quo omnia tormenta, que extra infernum sunt, nasci
+					<lb/>et accendi videbantur. Animas autem, que ante ipsos stabant, ipso sui flatus impulsu
+					<lb/>in quamlibet penam impingebant velut cum turbo vehemens proicit pulverem ante
+				<lb/>faciem terre.</p>
+			</div>
+			<pb n="182"/>
+			<div type="chapter">
+				<head><lb/>XV.</head>
+				<p><lb/>Interea stante me ibi iuxta inferni claustra cum illam, que me capillo capitis
+					<lb/>portabat, columbam non viderem et maximo tremore trepidarem, subito
+					<lb/>respiciens sursum video avem quandam nimie magnitudinis atque pulchritudinis
+					<lb/>desuper advenientem et monachum quendam veteranum pusille, ut michi videbatur,
+					<lb/>stature ferentem sub remigio alarum suarum. Quodsi super illas ignivomas et
+					<lb/>squalidas tenebras venisset, eum ab alto dimittens, in ipsis incendiis cadere permisit.
+					<lb/>Quem maligni continuo spiritus circumdantes, se invicem ad eum percutiendum
+					<lb/>cohortari ceperunt, cum repente eadem avis advolans, eumque de illorum manibus
+					<lb/>eripiens, sursum revexit. Tunc michi ista cernenti beatus Petrus apostolus dixit:
+					<lb/>"Expecta me in isto loco, ut vadam et illi servo Dei aperiam." Cumque ego cum
+					<lb/>angelis relictus starem pavidus, unus ex illis Tartareis ministris horridus, hyspidus
+					<lb/>aspectuque procerus, festinus adveniens, me impellere vel quomodocumque nocere
+					<lb/>conabatur, cum ecce apostolus velocius accurrens meque subito arripiens, in quendam
+					<lb/>locum gloriose proiecit visionis. At ego pavefactus cum me continuo mori
+					<lb/>proclamarem, beatus Petrus apostolus dixit michi: "Ne timeas, quia modo non
+					<lb/>morieris, verumtamen revertere prius et fac, quod debes facere, et sic postea venies
+				<lb/>huc." Quid autem deberem facere, non innotuit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVI.</head>
+				<p><lb/>Vidi etiam quosdam viros nudos, in gutture, manibus pedibusque catenas habentes,
+					<lb/>adeo ardentes et scintillas emittentes acsi ferrum, cum de fornace trahitur. In
+					<lb/>catenis vero, que ad guttura eorum erant, masse ferree ardentes dependebant adeo
+					<lb/>gravissime, ut numquam eis erigendi daretur facultas. Hos autem dixit apostolus
+				<lb/>fures et rapaces fuisse.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVII.</head>
+				<p><lb/>Stans ergo in ipso campo, vidi flumen magnum de inferno procedere, ardens atque
+					<lb/>piceum. In cuius medio pons erat ferreus multam habens latitudinem; per quem
+					<lb/>pontem iustorum anime tam facilius tamque velocius transeunt, quam immunes
+					<lb/>inveniuntur a delictis. Peccatorum autem ponderibus gravati cum ad medium eius
+					<lb/>venerint, tam efficitur subtilis, ut ad fili quantitatem eius latitudo videatur redigi.
+					<lb/>Qua illi difficultate prepediti, in eundem flumen corruunt, rursumque assurgentes ac
+					<lb/>denuo recidentes; tandiu ibidem cruciantur, donec in morem carnium excocti et
+					<lb/>purgati liberam habeant transeundi pontis facultatem. Hoc autem insinuante
+				<lb/>apostolo purgatorii nomen habere cognovi.</p>
+			</div>
+			<pb n="184"/>
+			<div type="chapter">
+				<head><lb/>XVIII.</head>
+				<p><lb/>Adiunxit etiam apostolus dicens: "Nullus hominum de magnitudine scelerum suorum
+					<lb/>desperet, quia omnia in penitentia expiantur." Dedit autem michi apostolus talem
+					<lb/>exemplum. Fuit quidam potentissimus vir, omnium vitiorum labe repletus. Hic dum
+					<lb/>supra modum luxurie deserviret, cuiusdam viri uxorem per longum concupierat
+					<lb/>tempus, set effectus sui desiderium femina prepediente explere non potuit. Decreverat
+					<lb/>enim femina castitatem suam omnipotenti Deo viroque suo servare. Multi enim
+					<lb/>virgines sunt corpore, non tamen mente, iuxta illud evangelicum: Qui viderit
+					<lb/>mulierem ad concupiscendum eam, iam mechatus est eam in corde suo. Quid enim
+					<lb/>valet virginitatem in carne custodire et in corde perdere? Alii quidem sunt, qui
+					<lb/>virginitatem carnis non habent, castitatem tamen custodiunt. Accidit autem, ut
+					<lb/>supradicte femine vir a Saracenis caperetur. Uxor vero, ut aliquam requiem vir eius
+					<lb/>haberet in vinculis, quicquid in rebus habere videbatur, expendit. Cumque iam,
+					<lb/>quod pro viro suo tribueret, non haberet, accessit ad divitem, qui eam pravo amore
+					<lb/>dilexerat, et dixit ad eum: "Ego quidem, vir potentissime, decreveram castitatem
+					<lb/>meam omnipotenti Deo servare et ob hanc rem tuis hactenus votis nolui prebere
+					<lb/>assensum. Set quia virum meum ex vinculis liberare non valeo et, quid pro eo
+					<lb/>prebeam, non habeo, nunc ad tuam benignitatem adveni et ob viri mei liberationem
+					<lb/>ad tuum explendum desiderium me ipsam in potestatem tuam trado et rogo, ut, quia
+					<lb/>propter Deum aliquid largiri noluisti, saltim pro me pecuniam tribuas, quam pro viri
+					<lb/>mei liberatione dare debeam." His dives auditis contremuit et priorum facinorum,
+					<lb/>que commiserat, recordans, flevit amare, et advocans feminam, quicquid pro
+					<lb/>redemptione viri sui eam indigere perspexerat, clementer indulsit et cum ea pravum
+					<lb/>opus non exercuit. Ab illo vero die ita omnibus voluptatibus, ita se omnibus vitiis
+					<lb/>abdicavit, ut in maxima suis a subditis haberetur admiratione. Interea accidit, ut
+					<lb/>quidam Dei servus in heremo vitam solitariam ducens, omnipotentem Deum rogaret,
+					<lb/>ut, cui in futura vita similis esset, ostendere dignaretur. Ad quem divinitus responsum
+					<lb/>est: "Si vis scire similem tui, divitem illum noveris esse." Hec heremita audiens,
+					<lb/>contristatus cepit intra se tacite volvere: "Ego qui iam per tot annorum curricula
+					<lb/>Christo servivi, nunc diviti assimilatus sum?" Hec cum dixisset, ab heremo ad
+					<lb/>civitatem descendens venit ad divitem. Quem cum vidisset maxima gloria
+					<lb/>frequentissimaque ministrorum ac servorum copia adornari, obstupuit. Demum
+					<lb/>vero secretiorem expetens locum, quid boni dives ille egisset, inquirit. Qui cum
+					<lb/>respondisset multis se peccatorum criminibus esse obnoxium, nec se aliquid boni
+					<lb/>egisse, rursum heremita inquirit, ut secum sollicitius tractans, si aliquid boni fecisset,
+					<lb/>sibi referre non dubitaret. Tunc dives reminiscens, quid concupiscentie olim erga
+					<lb/>mulierem habuisset, vel quid exinde egisset, per ordinem retulit. Hec dum perorasset,
+					<lb/>ad locum suum heremita reversus est. Factum est autem, ut intra breve tempus dives
+					<lb/>ad extrema veniens, mortis debitum solveret. Quod heremita audiens, venit ad eum.
+					<lb/>Cum autem finem vite explesset, servus Dei aspiciens videt diabolum simul et
+					<pb n="186"/>
+					<lb/>angelum ad animam stantem ac unusquisque(!) illam sibi tollere festinantem. Tunc
+					<lb/>diabolus divitem numquam aliquando aliquid boni fecisse asseruit, ociusque coram
+					<lb/>angelo Domini librum magnum attulit, in quo facinora eius erant universa descripta .
+					<lb/>Cui angelus, ut librum aperiret, imperat. Quem dum aperuisset, servo Dei, qui
+					<lb/>eminus stabat, visum est, quod angelus Domini lacrimas, quas dives olim pro
+					<lb/>captione viri mulieris illius ac pro suis delictis fuderat, in ampulla teneret ac partem
+					<lb/>lacrimarum in librum proiceret. Angelus autem Domini dum hoc fecisset, demoni,
+					<lb/>ut librum clauderet et reseraret, imperat. Quem demon dum clausisset et aperuisset,
+					<lb/>invenit tertiam partem peccatorum deletam. Hoc autem ter actum est, et sic omnia
+					<lb/>peccata deleta sunt, et hac ex causa vite eterne destinatus est. Unde constat eum
+					<lb/>simul penitentiam, martirium ac helemosinam habuisse; penitentiam, quia de
+					<lb/>malefactis penituit et ulterius similia non patravit, martirium, quia passiones et
+					<lb/>carnis temptationes forti animo sustinuit, elemosinam, dum pecuniam mulieri pro
+					<lb/>redemptione viri sui dedit. Salutifera enim penitentia hec est: ex corde penitere,
+				<lb/>commissa deflere et ad prava opera iterum non declinare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVIIII.</head>
+				<p><lb/>Hec dum retulisset apostolus, ostendit post hec campum permaximum, trium
+					<lb/>dierum noctiumque, sicut beatus Petrus apostolus dixit, iter habentem, tantaque
+					<lb/>spinarum ac tribulorum densitate coopertum, ut ne vestigium quidem pedis nisi in
+					<lb/>illis punctionibus poni potuisse. In quo campo draco erat immanissimus, quem
+					<lb/>diabolus sella et freno aptans, magnumque serpentem manu tenens, in specie militis
+					<lb/>super eum equitabat et quamlibet animam in ipso campo incidentem instanter
+					<lb/>persequebatur, ac sicubi eam attingere quivisset, illo serpente percutiebat. Tandiu
+					<lb/>denique tali cursu per illos spinarum aculeos fatigatur anima, donec emundata a
+				<lb/>peccatis levior efficiatur eius fuga et expeditius fugiat inimicum persequentem.</p>
+			</div>
+			<pb n="188"/>
+			<div type="chapter">
+				<head><lb/>XX.</head>
+				<p><lb/>Cumque iam ab eo minime valeat attingi, in alium campum transit amenissimum.
+					<lb/>Per quem incedens, omnia membra et vestimenta eius, que in illius campi asperitate
+					<lb/>discerpta sibi et scissa videbantur, redintegrata sanantur. Illa tamen ingrediente
+					<lb/>omnes anime iustorum, que ibi requiescunt, assurgentes inclinant se ei reverenter,
+					<lb/>palmasque et oculos ad Deum levantes, gratias agunt, quod illam de inimici ereptam
+					<lb/>potestate ad refrigerium perducere dignatus est. Ipse vero campus splendidus,
+					<lb/>suavis ac decorus, quante magnitudinis, quante glorie, quanteque sit pulchritudinis,
+					<lb/>nulla lingua, nullusque sermo potest enarrare. Plenus est enim omni iocunditate et
+					<lb/>gaudio et letitia. Ibi liliorum et rosarum odor, ibi odoramentorum omnium redolet
+					<lb/>flagrantia, ibi manne omniumque eternarum deliciarum redundat abundantia. In
+					<lb/>huius campi medio paradisus est, in quem iustorum anime usque ad iudicii diem
+				<lb/>intrare nequeunt, set in illo campo circumquaque requiescunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXI.</head>
+				<p><lb/>Chorus etiam sanctorum angelorum et reliquorum sanctorum, qui in sexto celo sunt,
+				<lb/>non iudicabuntur. Hi vero, qui in circuitu paradisi sunt, iudicabuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXII.</head>
+				<p><lb/>Beatissimum vero Benedictum dixit apostolus Petrus esse in numero confessorum.
+					<lb/>Gloriam tamen habet maiorem quam alii. Omnes autem, qui eius precepta inoffense
+					<lb/>secuti sunt, cum eo sunt. Gloria vero illa, ait apostolus, non est ut gloria hominum.
+					<lb/>Gloria namque hominum nunc in saturitatem, nunc in fastidium vertitur. Set gloriam
+					<lb/>Dei quanto amplius iustorum anime acceperint, tanto magis sitiunt eam. Ita autem
+					<lb/>pro vite merito in eodem campo ordinati erant, sicut sunt in gloria chori apostolorum
+				<lb/>et postea martirum ac deinde confessorum et reliquorum sanctorum.</p>
+			</div>
+			<pb n="190"/>
+			<div type="chapter">
+				<head><lb/>XXIII.</head>
+				<p><lb/>Ostendit etiam michi apostolus in eodem campo chorum monachorum
+					<lb/>inestimabili gloria pre aliis refulgentem. De quibus dixit beatus Petrus gloriam illam
+					<lb/>humilitatis causa accepisse. Demum vero de monachorum obedientia, vita ac
+					<lb/>conversione beatus Petrus tali modo aggressus est loqui: "Monachi dum ad
+					<lb/>conversionem venerint, voluntates suas spernant, diabolo et pompis eius renuntient,
+					<lb/>carnis delectationes affectionemque parentum et mundi peritura relinquant; et maxime
+					<lb/>illos relinquant parentes, qui eos prepediunt ad Christi servitium festinare. Postquam
+					<lb/>ad monasterium venerint, exempla Christi et apostolorum sequi eos oportet. Hec
+					<lb/>secum in mentis sue archano assidue tractent, quia Christus ideo venit in mundum,
+					<lb/>ut ipse servorum suorum sit via, adiutor, exemplum. Sine ipso enim ad celestia
+					<lb/>regna pervenire non possumus. Ipse namque factus est pro nobis Deo patri obediens
+				<lb/>usque ad mortem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXIIII.</head>
+				<p><lb/>Christus namque sicut a Iudeis iniuriam et persecutionem sustinuit, ita et hi, qui ad
+					<lb/>sancte religionis habitum veniunt, iniurias a quolibet homine sibi illatas spe eternorum
+					<lb/>gaudiorum equanimiter sustineant. Obedientiam vero, que eis ab abbate suo precipitur,
+					<lb/>cum humilitate accipiant, superbiam caveant. Nam sicut diabolus per superbiam de
+					<lb/>celo cecidit, sic et monachos ibidem per humilitatem oportet ascendere. Eo autem
+					<lb/>gaudio a suo abbate obedientiam accipiant, quo peregrinus ab aliquo accipit vestem.
+					<lb/>Et sicut quis, a domino suo de patrimonio expulsus dum fuerit, tristatur ac, postquam
+					<lb/>ibidem restitutus fuerit, gaudet, sic et monachus, dum obedientiam suscipit, gaudeat.
+					<lb/>Gaudet siquidem ille pro re peritura, gaudere debent et monachi, quia per obedientiam
+				<lb/>ad gaudia sempiterna perveniunt, que finem non sunt habitura.</p>
+			</div>
+			<pb n="192"/>
+			<div type="chapter">
+				<head><lb/>XXV.</head>
+				<p><lb/>At postquam obedientiam fecerint, ea, que iam impleverunt, non cogitent, vanam
+					<lb/>gloriam fugiant, diaboli astutias caveant, vitent fastidium, retrorsum non respiciantl .
+					<lb/>Multos namque monachos diabolus talibus cogitationibus perversis supplantat:
+					<lb/>"Iam per multos annos Deo servivimus, obedientias nobis commissas bene
+					<lb/>tractavimus. Tempus iam instat, ut a laboribus nostris quiescamus, ut quietam
+					<lb/>vitam ducamus." Set non ita illos agi oportet. Nam sicut vir in peregrinatione
+					<lb/>constitutus, omni studio omnique conatu domum redire festinat ac retrorsum non
+					<lb/>respicit, set ad domum, quam reliquerat, reverti desiderat, et alius, dum in exilio
+					<lb/>fuerit, tristatur, cum autem revertendi facultas data fuerit, omnem merorem deponens
+					<lb/>ad domum suam letus et exultans redire contendit, ita et monachi postpositis
+					<lb/>abdicatisque rebus temporalibus eo gaudio, quo mundi amatores ad perituram, hi ad
+				<lb/>eternam vitam redire festinent</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXVI.</head>
+				<p><lb/>Laborent etiam manibus suis, ut habeant, unde tribuant necessitatem patienti, ut
+					<lb/>illud in futuro a domino Ihesu Christo audire mereantur: Esurivi et dedistis michi
+					<lb/>manducare, sitivi et dedistis michi bibere et cetera. Sollicitudo vero eorum ac
+					<lb/>mentis devotio talis sit, ut non causa cupiditatis vel congregandi divitias laborent,
+					<lb/>set ut indigentibus subveniant. Contra concupiscentias suas cotidie pugnent, quia de
+				<lb/>concupiscentia procedit homicidium et reliqua crimina.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXVII.</head>
+				<p><lb/>Monachi namque, qui concupiscentie ac vitiis resistunt et continentiam de illis
+					<lb/>habuerint, similes martiribus efficiuntur. Nam sicut martires paganis et infidelibus
+					<lb/>restiterunt et usque ad sanguinis effusionem ac mortem pro Christo pugnaverunt, sic
+					<lb/>et monachi adversus diabolum pugnent, contra concupiscentiam decertent usque ad
+					<lb/>mortem, sordidas cogitationes, libidinem, impudicitiam, amorem divitiarum, ventris
+				<lb/>ingluviem et reliqua crimina.</p>
+			</div>
+			<pb n="194"/>
+			<div type="chapter">
+				<head><lb/>XXVIII.</head>
+				<p><lb/>Monachi vero, qui contra concupiscentiam ita pugnant et voluntates suas
+					<lb/>concupiscentie non dant, similes martiribus sunt et coronas martirum in futuro
+					<lb/>accipiunt. Dilectionem Dei et proximi ante omnia et super omnia teneant. Sicut
+					<lb/>enim Christus propter nimiam caritatem et dilectionem suam, qua dilexit nos, ut
+					<lb/>nos liberaret a morte et vite donaret, semetipsum tradidit in mortem, ita et monachi
+					<lb/>Christum diligant, precepta eius adimpleant et proximos suos sicut se ipsos diligant,
+					<lb/>non ut si ipsi aliquem peccati vitium in se cognoscunt, proximos suos similiter
+					<lb/>habere cupiant, set si ipsi precepta Dei observant, ita desiderent proximos suos
+					<lb/>implere. Infirmitates vel corporum vel animarum aut paupertatem si eos habere
+					<lb/>perspexerint, ita doleant acsi ipsi haberent. Subveniant vero proximis suis sicut sibi.
+					<lb/>Ea vero, que circa illos agunt, non ob vanam gloriam aut terrenum amorem, set ob
+				<lb/>vite eterne premia faciant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXVIIII.</head>
+				<p><lb/>Fidem rectam et firmam teneant, de remissione peccatorum spem certam et bonam
+					<lb/>habeant, de operibus a se bene gestis semper timeant, a rectitudinis via non declinent.
+					<lb/>Dedit etiam michi sanctus apostolus hoc exemplum. "Ideo," inquit, "monachi
+					<lb/>timeant, ne illis eveniat, quod multis itinerantibus accidit." Viatores enim per viam
+					<lb/>rectam dum ambulant, campum iuxta viam cernentes spatiosum et pulchrum, oblitique
+					<lb/>itineris dicunt intra se: "Iter per campum istum faciamus, aut certe hic comedamus
+					<lb/>et dormiamus." Quod multis laqueus ruine est. Nam aliquotiens ibidem comedentes
+					<lb/>et dormientes ab hostibus capti vel interfecti sunt. Alii autem iter per campum
+					<lb/>facientes, viam semel dimissam aut vix aut nunquam invenerunt. Et ideo timeant
+					<lb/>monachi, ne sperando peccent, ne viam rectam, quam superius &lt;dixi&gt;, dimittant, ne
+					<lb/>dicant intra se: "Misericors est Deus, suscipit penitentem" et hac spe decipiantur
+					<lb/>Caveant monachi, ne crucem Christi, quam baiulant, dimittant. Multi enim animum
+					<lb/>ad delectationem carnis flectentes, viam bonam reliquerunt, et latam ac spatiosam,
+					<lb/>que ducit ad mortem, ingressi sunt, peccatisque peccata iungentes, peccandi vitium
+					<lb/>in naturam verterunt, atque ad viam vix reversi sunt. Multi namque in peccati ceno
+					<lb/>diu iacentes et de die in diem converti digerentes, ita illis accidit, sicut qui ab
+					<lb/>hostibus capti vel interfecti sunt. Nam subitanea morte percussi, nec unum momentum
+					<lb/>penitere potuerunt. Ideo monachus timeat, ne sperando peccet, quia vita hominis
+					<lb/>in incerto posita est. Vita enim hominis a mane in vesperum, a nocte in diem
+					<lb/>terminatur. Quodsi deliquerint monachi, ad dignam penitentiam confessionemque
+					<pb n="196"/>
+					<lb/>statim recurrant. Non solum autem monachi, verum etiam clerici et laici, qui
+					<lb/>voluntati carnis ita renuntiant atque adversus concupiscentiam pugnant ac manibus
+					<lb/>suis laborant, qui obedientie, humilitatis, fidei, spei, caritatis atque castitatis
+					<lb/>ceterarumque virtutum viam sequuntur, qui ad penitentiam et conversionem morum
+					<lb/>suorum ita convertuntur et Deum ex toto corde suo diligunt, proximosque tanquam
+					<lb/>se ipsos. Via ista illos ad hanc beatitudinem et gloriam, quam vides, ad finem vite
+					<lb/>perducit, dignique erunt in futuro examinis die audire: Venite, benedicti patris mei,
+				<lb/>percipite regnum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXX.</head>
+				<p><lb/>Idem vero campus altissimus valde celoque propinquus michi videbatur; planities
+					<lb/>vero eius erat inmensa. Paradisum, ubi lignum vite est, Cherubin custodiunt; et
+					<lb/>lignum, unde gustavit Adam, dixit michi beatus Petrus apostolus, quod vocaretur
+					<lb/>neptalim. De illis, qui modo sunt in paradiso, non dixit nomina nisi Abel, Abrae,
+				<lb/>Lazari et latronis.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXI.</head>
+				<p><lb/>Ostenditque michi circa parad1sum lectum claris et splendidissimis operimentis
+					<lb/>adornatum, duosque sacerdotes sacris vestibus indutos ex utraque parte lectuli cum
+					<lb/>turibulis astantes. In quo lecto quendam iacere conspexi, cuius nomen ab apostolo
+				<lb/>audivi, set prohibuit, ne cui illud dicerem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXII.</head>
+				<p><lb/>Interim vero idem beatus apostolus cepit michi dicere: "Tria sunt peccata, unde
+					<lb/>maxime genus humanum periclitatur et perit, et que seculares homines aut minimum
+					<lb/>aut nullum putant esse peccatum, id est gula, cupiditas et superbia. Et quomodo his
+					<lb/>tribus vitiis homines pereunt? Quia ex his cetera vitia et peccata oriuntur, ut puta, de
+					<lb/>gula nascitur ventris ingluvies, concupiscentia mala, fornicatio et cetera istiusmodi.
+					<lb/>Cupidus autem Deo et hominibus odibilis, animam suam dare Deo non vult, sua
+					<lb/>retinet, aliena rapit, helemosinam non facit, tribulantibus et necessitatem patientibus
+					<lb/>pro Deo non curat subvenire, nisi forte sit aliquis, quem timeat. De superbia vero
+					<lb/>oritur vana gloria, dominandi desiderium, sui altitudo, despectus alterius; de superbia
+					<lb/>nascitur iniuria, de iniuria odium, de odio homicidium, et sic his tribus vitiis cetera
+				<lb/>peccata coalescunt."</p>
+			</div>
+			<pb n="198"/>
+			<div type="chapter">
+				<head><lb/>XXXIII.</head>
+				<p><lb/>Post hec autem columba me ducente et cum beato Petro angelis me ducentibus veni
+					<lb/>ad primum celum, hoc est aereum. Et dixit michi apostolus: "In hoc primo celo est
+					<lb/>stella meridiana et desuper hoc celum est cursus lune, et non inferius, sicut hominibus
+				<lb/>videtur, que triginta diebus cursum suum peragit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXIIII.</head>
+				<p><lb/>Secundum dicitur ethereum, ibi est stella Martis.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXV.</head>
+				<p><lb/>Tertium sydereum, ubi est stella Mercurii.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVI.</head>
+				<p><lb/>Quartum vocatur orleon, per hoc agit cursum suum sol trecentis sexaginta
+				<lb/>quinque diebus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVII.</head>
+				<p><lb/>Quintum dicitur iunion, in quo est stella Iovis.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVIII</head>
+				<p><lb/>Sextum venustion, ibi est stella Veneris.</p>
+			</div>
+			<pb n="200"/>
+			<div type="chapter">
+				<head><lb/>XXXVIIII.</head>
+				<p><lb/>Septimum vocatur anapecon, et in eo est stella Saturni, que cursum suum implet
+					<lb/>trecentis sexaginta quinque diebus sicut sol; et ipsa est, que dat calorem soli et
+					<lb/>splendorem. Sicut enim mane et vespere temperatus est sol, sic esset tota die, nisi ab
+					<lb/>hac stella desuper ambulante accensionem acciperet et fortitudinem. In hoc autem
+					<lb/>supremo celo thronus Dei est, ubi ante magestatis eius gloriam Cherubin senas
+					<lb/>habentes alas, semper astantes non cessant clamare: "Sanctus, sanctus, sanctus
+					<lb/>dominus Deus Sabaoth." De ipsis Cherubin dictum est michi a sancto Petro, quod
+					<lb/>in ea similitudine stant ante Deum, qua Deus ante creationem celi et terre super
+				<lb/>pennas ventorum deambulabat</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XL</head>
+				<p><lb/>In sexto autem celo sunt omnes chori sanctorum, angelorum videlicet, archangelorum,
+					<lb/>patriarcharum, prophetarum, apostolorum, martirum, confessorum et virginum.
+					<lb/>Chorus tamen apostolorum altior et gloriosior est; set et beatus Petrus super alios
+					<lb/>apostolos eminentius residet. Spiritus vero angelici continuis et indefessis vocibus
+					<lb/>laudant et rogant creatorem suum; quorum utique clamor nichil aliud est quam
+					<lb/>voluntas et desiderium eorum. Ita autem stante me in primo celo omnia, que
+				<lb/>superius et inferius erant, michi lucida et aperta videbantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLI.</head>
+				<p><lb/>Postea iubente apostolo columba adduxit me ad locum quendam muris altissimis
+					<lb/>circumdatum. Et cum super ipsos muros me statuisset, aspexi, que intus erant;
+				<lb/>iussum tamen michi est, ut nulli hominum ea panderem .</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLII.</head>
+				<p><lb/>Post hec duxit me apostolus per regiones quinquaginta et unius provincie, id est
+					<lb/>Indie, Aionis, Fenicis, Mesopotamie, Sirie, Palestine, Comacine, Yrie, Apamie,
+					<lb/>Medie, Macedonie, Epiri, Tracie, Lidie, Asie, Licie, Pamphilie, Galatie, Bithinie,
+					<lb/>Paflagonie, Cilicie, Armenie maioris, Armenie minoris, Africe, Getulie, Numidie,
+					<lb/>Libie, Mauritanie, Iamphe possedit, Setifensis, Hispanie, Brittanie, Germanie,
+					<lb/>Belgice, Gallie comate, Gallie togate, Gallie cisalpine, Gallie transalpine, Pannonie,
+					<lb/>Piceni, Etrurie, Umbrie, Flamminie, Dalmatie, Illirici, Norici, Citharinie, Scropos,
+					<lb/>Scropan, Michale, Samarie. Harum omnium provinciarum et situs ostendit et
+					<pb n="202"/>
+					<lb/>nomina indicavit. Multa etiam oratoria sanctorum et venerabilia loca per easdem
+				<lb/>terras michi demonstravit. De quibus unum refero.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLIII.</head>
+				<p><lb/>In una ergo provinciarum ostendit michi apostolus civitatem desertam, cuius muri
+					<lb/>ad mensuram palmi super terram apparebant. In medio autem civitatis ecclesia
+					<lb/>destructa erat, altare tantum ibi permanente. Ante eandem vero ecclesiam
+					<lb/>multitudinem parvulorum et puellarum transeuntes celeriter vidi atque homines, qui
+					<lb/>predictos pueros ante se ducebant et verberibus illos ac tormentis cruciabant; erant
+					<lb/>tetri atque nigerrimi. Cumque ante ecclesiam venissent, cupiebant ibidem ingredi et
+					<lb/>signum sibi sancte crucis imprimi, in quo a demonibus tuerentur, set minime
+					<lb/>poterant, nam more tempestatis et turbinis illos ante se ducebant. Hi autem dum
+					<lb/>pertransissent, audivi in civitate vocem magnam in modum ululantis et lugentis,
+					<lb/>personam autem non vidi. Et ecce aspiciens vidi feminam nudam ante ecclesiam
+					<lb/>transeuntem, capillos usque ad pedes habentem, caligas vero usque ad genua
+					<lb/>portabat, cereosque duos in manibus tenebat accensos et volebat ecclesiam ingredi,
+					<lb/>set non poterat. Alius autem ante tortores fugiens ante altarium venit. Quo dum
+					<lb/>venisset, ceperunt eum demones gravissime flagellare. Eiulatus vero eius et luctus
+					<lb/>ut ululatus lupi audiebatur. Cumque ego timens et pavens astarem, beatus Petrus
+					<lb/>dixit michi: "Istos, quos in similitudine puerorum et puellarum vidisti, homines
+					<lb/>civitatis istius fuerunt, qui nil aliud nisi furta, periuria, adulteria atque latrocinia per
+					<lb/>totum vite sue tempus exercuerunt. Ad ecclesiam vero non ad orandum aut ad
+					<lb/>verbum Dei audiendum, set ad lites et contentiones conveniebant. Quodsi aliquis
+					<lb/>eorum ecclesiam intrabat, crucis sibi tantum signaculum imprimens, confestim
+					<lb/>foras egrediebatur; et nunc ecclesiam ingredi et ibi confugium facere cupiunt, set
+					<lb/>non possunt. Homines vero tetri atque nigerrimi, qui eos persequuntur et suppliciis
+					<lb/>illos atque cruciatibus afficiunt, demones sunt. Vocem vero luctuosam, quam
+					<lb/>audisti, dominus terre istius fuit, qui per totam vitam suam lucra sectatus est mundi.
+					<lb/>Periuria vero, homicidia, adulteria, falsa testimonia, susurrationes, detractiones,
+					<lb/>proditiones et reliqua crimina illi pro lucro maximo erant. Ad ecclesiam vero
+					<lb/>quotienscumque veniebat, sicut verba vite audierat, ita cum militibus suis, qualiter
+					<lb/>pauperes opprimeret, adulteria committeret, periuria faceret, aliena tolleret et diversas
+					<lb/>iniquitates exerceret, tractabat. Nunc vero ecclesiam ingredi et ibi confugium facere
+					<lb/>cupit, set nulla ratione hoc agere potest. Femina vero, quam vidisti, domina terre
+					<lb/>istius fuit, que per totum vite sue tempus de servitio Dei non pertractabat; cogitatio
+					<lb/>vero eius nulla alia erat, nisi corpus suum ornare, qualiter lederet homines eam
+					<lb/>intuentes. Capilli vero eius usque ad pedes descendentes, ignis est, qui eam consumit.
+					<lb/>Caligas autem, quas habet, cuidam pauperi dedit; quas Deus ei ob parum refrigerii
+					<lb/>preparavit. Cereos vero accensos, quos in manibus tenet, similitudo est non rei
+					<lb/>veritas. Nam dum in seculo erat et cereis, oleo atque lampadibus habundaret,
+					<lb/>numquam ecclesie luminaria dedit; quin etiam, que ibi offerebantur, tollebat. Et
+					<lb/>nunc, quando facultas illi dandi non est, luminaria ecclesie dare desiderat. Hominem
+					<pb n="204"/>
+					<lb/>vero, quem vidisti ante altare suppliciis affici, sacerdos istius ecclesie fuit, qui tota
+					<lb/>vita sua gregem sibi commissum non instruebat, set adulteria et rapinas diligebat.
+					<lb/>Ululatum vero ideo sicut lupus emittit, quia sicut lupus vivit ex creta, vento atque
+					<lb/>rapina, ita iste tota vita sua terrenis lucris inhiabat, otiosa verba et rapinas diligebat.
+					<lb/>Nam sicut sacerdotis vita in verbo Dei et doctrina scripturarum debet esse, ita iste
+					<lb/>terrena meditabatur. Predicationem vero non causa lucrandi animas faciebat, set ut
+					<lb/>res pauperum tolleret. Nam quia ipse adulter erat et immundus, ut sua crimina
+					<lb/>tegeret, ea predicabat, que illos audire velle sciebat. Et sicut sacerdos, qui in
+					<lb/>scripturis meditatur, verbum eructat bonum et seminat bonum semen, ita et iste
+					<lb/>terrenis lucris inhiabat et predicationem eructabat malam, per quam multe anime
+					<lb/>perierunt; pro quibus et cum quibus supplicia sustinet. Istos autem, quos vides,
+					<lb/>bonum nunc facere cupiunt, set non possunt sicut et dives, qui in inferno
+					<lb/>positus erat, dum ei licuit benefacere, non fecit; postquam vero in inferno fuit,
+				<lb/>cupiebat benefacere. cupiebat ad fratres mittere, set non poterat."</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLIIII.</head>
+				<p><lb/>In Galatia vero vidi quandam ecclesiam magnam valde, cuius totum pavimentum
+					<lb/>metallo constratum esse videbatur. In qua ecclesia celum quoddam in modum
+					<lb/>camere factum erat de pallio pulchro et ystoriato. Super quod altera camera erat de
+					<lb/>alio panno, ut quod inferius erat non sordidaretur. Intra eandem vero cameram super
+					<lb/>amulam cristallinam stabat crucifixus inestimabili magnitudine decorus et
+					<lb/>pulchritudine, qui, sicut michi videbatur, cotidie plangit et lacrimatur peccata
+					<lb/>hominum. Dictumque michi est, quoniam iccirco ita defleret cotidie, quia iniquitates
+					<lb/>hominum increverunt vehementer, et sicut bona opera debent redolere ante Deum,
+					<lb/>ita peccatorum fetor ascendit ante illum. Modo enim non solum laici, set etiam
+					<lb/>pontifices et episcopi et ecclesie ministri omnes a via veritatis declinantes, lucris
+					<lb/>tantummodo et curis seculi presentis intendunt, de perditione autem animarum aut
+					<lb/>raro aut nunquam cogitant; sicque peccata multiplicantur semper hominibus ad
+				<lb/>deteriora tendentibus. Vocabatur autem ipsa ecclesia sanctus Pandidus.</p>
+			</div>
+			<pb n="206"/>
+			<div type="chapter">
+				<head><lb/>XLV.</head>
+				<p><lb/>Multa preterea alia loca et tormenta ostendit michi beatus Petrus, multaque locutus
+					<lb/>est michi et docuit me de veteri testamento; de hominibus etiam adhuc in seculo
+					<lb/>viventibus plura peccata innotuit michi, precepitque, ut ea, que de illis audieram, eis
+				<lb/>referrem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLVI.</head>
+				<p><lb/>Ipsius autem beati Petri statura, quantum ego cognovi, nec longa multum nec brevis,
+					<lb/>set media et iusta erat, corpore compressus, vultu grossior, canis habens aspersum
+					<lb/>caput. Indutus erat tunica candidissima, quam circa pectus et collum torques aurea
+					<lb/>decorabat. Auream in capite gestabat coronam, claves quoque magnas manibus
+					<lb/>tenebat, in quibus omnium pretiosorum gemme inserte videbantur. Claves autem
+				<lb/>cuius essent speciei, cuiusque metalli, cognoscere non potui.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLVII.</head>
+				<p><lb/>Cartam etiam mire magnitudinis habebat in manibus, que tota erat subtiliter descripta.
+					<lb/>Et cum hec omnia michi ostendisset, plicavit eam in modum parvissime paginule,
+					<lb/>misitque in os meum dicens: "Non habeas licentiam neque potestatem qualicumque
+					<lb/>modo reiciendi eam, et sanguis tuus non possit eam delere." Ignoro tamen,
+				<lb/>utrum in corpus meum descenderit an non.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLVIII.</head>
+				<p><lb/>Rursumque dixit michi: "Vide, ut omnibus annis offeras oblationem tuam ad
+					<lb/>ecclesiam meam, cereum scilicet ad mensuram stature tue. Et nunc cum reversus
+					<lb/>fueris, altare nominis mei cingere debebis cereo." Tunc itaque nescio, quo ordine
+					<lb/>vel qua ratione, in memetipsum reversus sum. Ita tamen per aliquot dies stupefactus
+				<lb/>et exsensis fui, ut ne propriam quidem matrem cognoscerem.</p>
+			</div>
+			<pb n="208"/>
+			<div type="chapter">
+				<head><lb/>XLVIIII.</head>
+				<p><lb/>Deinde vidi per somnium stare me cum matre mea in quadam ecclesia sancti Petri.
+					<lb/>Que cum me quasi mortuum fleret, beatus Paulus apostolus de ycona, in qua
+					<lb/>depictus erat, descendebat et dicebat ei: "Noli flere, set vade et offer oblationem
+					<lb/>pro eo ad altare beati Petri, sicut ipse precepit ei, et continuo reddetur sanitati."
+					<lb/>Quod somnium cum matri mee retulissem, abiit et, ut preceptum fuerat, oblationem
+				<lb/>obtulit pro me, statimque sensui meo ad integrum restitutus sum."</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>L.</head>
+				<p><lb/>Hec et alia, que viderat, idem puer Albericus, cunctis passim vite sue curam
+					<lb/>gerentibus referebat, ac post relictis patre et matre Casinense monasterium petiit.
+					<lb/>Quem venerabilis Gerardus eiusdem cenobii abbas gratantissime nimis suscipiens,
+					<lb/>sancte conversionis habitu induit atque cum reliquis fratribus Domino sub beati
+				<lb/>Benedicti magisterio serviturum aggregavit.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

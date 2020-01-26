@@ -1,0 +1,652 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Constitutiones Romandiolae</title>
+				<author>Iohannes de Appia</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>L. Colini Baldeschi</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4112" unit="words">Parole: 4112</measure>
+				<measure quantity="25258" unit="characters_without_spaces">Caratteri (spazi esclusi): 25258</measure>
+				<measure quantity="28914" unit="characters_witht_spaces">Caratteri (spazi inclusi): 28914</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-10-19">19/10/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Diritto</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Pubblicate a Imola nel 1283&#13;
+Parole: 4168&#13;
+Caratteri: 25524&#13;
+p. 252 et ] ed <hi rend="italic">ed.</hi>&#13;
+GM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>L. Colini Baldeschi</editor>
+						<title>Le "Constitutiones Romandiolae" di Giovanni d'Appia</title>
+					</analytic>
+					<monogr>
+						<title level="j">Nuovi studi medievali</title>
+						<imprint>
+							<pubPlace>Roma</pubPlace>
+							<date>1925-1926</date>
+							<biblScope unit="volume">2, 1</biblScope>
+							<biblScope unit="page">221-252</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Diritto</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="241"/>
+		<div1>
+			<head><lb/>CONSTITUTIONES ROMANDIALE</head>
+			<p><lb/>In nomine Domine amen. Hec sunt constitutiones et ordinamenta
+				<lb/>facta, edita et firmata per nos Ioannem de Appia per Sanctam Romanam
+				<lb/>Ecclesiam totius provintie Romaniole civitatis bononiensis comitatus
+				<lb/>Bretenorii vel pertinentiarum eorundem comitem et rectorem
+				<lb/>generalem ad honorem et reverentiam omnipotentis Dei et beate
+				<lb/>Marie semper Virginis et beatorum appostolorum Petri et Pauli ac
+				<lb/>omnium Sanctorum atque Sanctarum Dei et ad honorem et reverentiam
+				<lb/>et exaltationem Romane Ecclesie ac sanctissimi patris domini
+				<lb/>Martini pape quarti et quorum fratrum et statum pacificum et tranquillum
+				<lb/>totius provincie Romaniole et iurisdictionis nobis comisse et
+				<lb/>ipsius Ecclesie fidelium devoctorum. In anno domini millesimo ducentesimo
+			<lb/>octuagesimo tertio, indicione undecima.</p>
+			<div2>
+				<head><lb/>[I]</head> <p>In primis nos Ioannes comes et rector predictus et presenti
+					<lb/>scripto sancimus, ut Ecclesie et clerici et persone et res ecclesiastice
+					<lb/>illa gaudeant libertate ac inmunitate, que a latis canonibus et legibus
+				<lb/>sunt eis concesse vel per specialia privilegia sunt indulte.</p>
+			</div2>
+			<div2>
+				<head><lb/>[II]</head> <p>Item easdem ecclesias clericos et personas ecclesiasticas, a
+					<lb/>quibuscumque angariis et perangariis et sordidis muneribus et indebitis
+					<lb/>executionibus exemptas et liberas esse iubemus; omnes constitutiones,
+					<lb/>statuta et reformationes secularia contra eas editas penitus
+				<lb/>irritamus.</p>
+			</div2>
+			<div2>
+				<head><lb/>[III]</head> <p>Item hereticos, patarenos credentes fauctores et receptatores
+					<lb/>eorum et cuiuslibet condicionis et secte ebxanimus, et diffidamus
+					<lb/>omnia bona ipsorum Camare Romane Ecclesie perpetuo applicantes
+					<lb/>fauctores insuper eorum omni pubblico officio et honore privantes,
+				<lb/>reservato nobis preterea arbitrio animavertendi gravius in eosdem.</p>
+			</div2>
+			<div2>
+				<head><lb/>[IV]</head> <p>Item ad tollendam omnem maliciam scandali statuimus quod
+					<lb/>nulla comunitas sive universitas, baro, vel nobilis faciat vel concedat
+					<lb/>vel permittat seu fieri vel concedi aliquam represaliam contra aliquas
+					<lb/>personas vel universitates provintie et iurisdictionis nobis commisse
+					<lb/>per se vel per allium absque nostra vel nostre Curie licentia specialia.
+					<lb/>Et qui contrafecerit comune civitas in V libr. usualis monete; castrum,
+					<lb/>comes et baro in CCC villa et quelibet specialis persona
+					<lb/>in C. libr. puniatur et nichilominus ablata restituat et dampnum
+				<lb/>emandat.</p>
+				<pb n="242"/>
+			</div2>
+			<div2>
+				<head><lb/>[V]</head> <p>Item statuimus et mandamus quod nullus auctoritate propria
+					<lb/>audeat auferre sive aprehendere seu intrare vel molestare possessionem
+					<lb/>alicuius [vel] aliquorum de re mobili vel immobili; et si quis contrafecerit,
+					<lb/>si comes vel baro in CCC libris, et si nobilis in CC usualis monete, si
+					<lb/>pedes in C libris puniatur et plus et minus nostro arbitrio, considerata
+					<lb/>qualitate rei et possessionis et personarum et possessionem restituat
+					<lb/>et a turbatione et molestatione desistat. Civitatem autem aut
+					<lb/>comunitatem et universitatem quamlibet in hoc delinquentem puniendam
+				<lb/>nostro arbitrio reservamus.</p>
+			</div2>
+			<div2>
+				<head><lb/>[VI]</head> <p>Item statuimus, mandamus et precipimus quod quelibet
+					<lb/>universitas civitatum castrorum et villarum quilibet etiam comes
+					<lb/>baro et dominus alicuius castri et roche vel ville stratas vel loca
+					<lb/>singula in suo territorio et districtu diligenter custodire et faciat custodiri,
+					<lb/>ita quod in eis rapine vel derobationes seu homicidia aliaque
+					<lb/>maleficia nullatenus comittantur alioquin ad emendationem dampni
+					<lb/>et robarie et ad tantumdem pro pena solvenda camere domini pape
+					<lb/>teneatur; penam autem pro homicidiis et spoliationibus infringendam
+					<lb/>eisdem nostro arbitrio reservamus, nisi malefactores infra octo dierum
+					<lb/>spatium a tempore comissi facinoris nobis vel nostre Curie fuerint
+					<lb/>assignati, et de robaria et spoliatione stetur sacramento derobati si
+					<lb/>exqualitate et fide persone et quantitate rerum ablatarum et circumstanciis
+					<lb/>negocii nobis seu nostre Curie videbitur expedire; et pro
+					<lb/>predictis servandis a predictis habentibus loca iusta stratas ydonea
+				<lb/>fideiussoria cautio exigetur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[VII]</head> <p>Item precipimus et ordinamus quod locus ad quem aliqua
+					<lb/>robaria duceretur vel malefactores se reducerent nostre iurisdictioni
+					<lb/>subiectus teneatur ad restitutionem rerum aportatarum vel ductarum
+					<lb/>ad ipsum locum per malefactores vel alios vel de extimatione, de
+					<lb/>quibus stetur iuramento dampnum passi vel heredis, et ad tantumdem
+				<lb/>Camare domini pape solvendum similiter teneatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[VIII]</head> <p>Item statuimus, precipimus et mandamus quod nulla civitas,
+					<lb/>comunitas seu universitas, comes seu baro, seu aliquis alius
+					<lb/>teneat, defendat vel receptet rebelles prodictores et publicos inimicos
+					<lb/>Romane Ecclesie atque nostros latrones publicos et robatores stratarum
+					<lb/>vel falsarios in rocha aut in domo sua seu aliena seu in alio
+					<lb/>loco tribuat eis auxilium vel favorem; et qui contrafecerit, si Comune
+					<lb/>civitatis in CC, comes et baro et Comune castri in C, nobilis in
+					<lb/>XXV, villa in quinquaginta et pedes in decem marchis argenti puniatur
+					<lb/>et nichilominus in destructione domus in qua fuerint recepti
+					<pb n="243"/>
+					<lb/>sive retenti et aliorum bonorum et aliter secundum nostrum et nostre
+					<lb/>Curie arbitrium. Si vero receptaverit vel tenuerit exbanditos Romane
+					<lb/>Ecclesie, atque nostros pro aliquo malefitio, vel eis tribuerit auxilium
+					<lb/>vel favorem, civitas in V libr., comes et baro et castrum in CCC,
+					<lb/>villa et nobilis in C, pedes in quinquaginta libris usualis monete
+				<lb/>puniatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[IX]</head> <p>Item cum iuris preceptum sit unicuique ius suum tribuere,
+					<lb/>precipimus, statuimus et firmiter ordinamus quod quelibet comunitas
+					<lb/>et universitas civitatum, castrorum aliorumque locorum et quecumque
+					<lb/>alia persona habens et retinens de rebus mobilibus vel immobilibus
+					<lb/>aut iuribus ad Romanam Ecclesiam spectantibus et que condam ipsa
+					<lb/>Romana Ecclesia aut Romanum Imperium aliquo tempore habuit
+					<lb/>tenuit et possedit per se vel aliquos nuncios et officiales suos vel
+					<lb/>alios quoscumque nomine eorum et pro eis in tota provintia et iurisdictione
+					<lb/>nobis commissa teneatur et debeat infra unum mensem
+					<lb/>post puplicationem presentum constitutionum ea relaxare, et Camare
+					<lb/>domini pape resignare, mandare et denunciare in scriptis, nisi forte
+					<lb/>aliquem iustum titulum habuerit, et eum hostenderit infra terminum
+					<lb/>sibi datum; et qui contrafecerit vel premissa facere obmiserit, teneatur
+					<lb/>ad restitutionem rerum habitarum et receptarum seu occupatarum et
+					<lb/>fructum perceptorum ex eis; et nichilominus comune, civitas teneatur
+					<lb/>solvere pro pena Camere domini pape mille marches argenti. Comune
+					<lb/>vero castri quingentas, villa et specialis persone CCC, et plus et minus
+					<lb/>nostro arbitrio secundum qualitatem rei habite, retente seu occupate,
+				<lb/>et habitis seu detentis etiam occupatis.</p>
+			</div2>
+			<div2>
+				<head><lb/>[X]</head> <p>Item statuimus, precipimus et mandamus quod omnia statuta,
+					<lb/>constitutiones, capitularia, ordinamenta, reformationes quelibet
+					<lb/>que in civitatibus castris et quibuslibet comitatibus et universitatibus
+					<lb/>facta sunt, vel in futurum fient contra libertatem Ecclesie Romane
+					<lb/>vel etiam aliarum ecclesiarum seu religiosorum locorum vel iura ipsorum
+					<lb/>vel contra has constitutiones vel contra iurisdictionem nostram directe
+					<lb/>vel indirecte, sint cassa et irrita et nullius valoris vel momenti existant;
+					<lb/>nec aliquis ea observare teneatur; et ex nunc decernimus non
+					<lb/>tenere, precipientes ea de statutis et capitulariis extrahi seu deleri
+					<lb/>usque ad XX dies a die publicationis presencium constitutionum
+					<lb/>computandos. Et qui contrafecerit, vel predicta adimplere neglexerit,
+					<lb/>si civitas V marcharum argenti, castrum vero CC, villa et alia qualibet
+					<lb/>comunitas C penam incurrat Camare Romane Ecclesie applicandarum,
+					<lb/>sententias vero latas et processus habitas, auctoritate predictorum
+					<pb n="244"/>
+					<lb/>statutorum, capitulorum, ordinamentorum seu reformationum exnunc
+				<lb/>cassas et irritas nuntiamus.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XI]</head> <p>Item statuimus quod nulla civitas aut alia qualibet universitas
+					<lb/>sive potestas vel officialis alicuius civitatis seu universitatis seu
+					<lb/>persona ecclesiastica vel secularis impediat vel impediri faciat vel
+					<lb/>concedat aliquos vel aliquem defferentes seu deferre volentes victualia,
+					<lb/>fodrum, seu grassiam ad locum, ubi nostra Curia morabitur, vel exercitus
+					<lb/>Ecclesie fuerit, et si quis contrafecerit, nostro arbitrio puniatur;
+					<lb/>statuta et ordinamenta cuiuscumque loci in contrarium edita vel
+					<lb/>edenda, nullius decernimus esse momenti; quelibet etiam persona
+					<lb/>possit ad dictum locum impune ac libere talia deportare. Et quod
+					<lb/>aliqua civitas vel comunitas vel locus vel singularis persona ecclesiastica
+					<lb/>vel secularis audeat vel presumat per se vel per interpositas
+					<lb/>personas exigere, capere vel extorquere aliquod pedagium, telloneum,
+					<lb/>gabellam, datium vel aliquam exactionem quocumque nomine censeatur
+					<lb/>de aliquibus victualibus, que ad civitatem vel locum, ubi fuerimus,
+					<lb/>vel ad exercitum Ecclesie portarentur; et per quamcumque
+					<lb/>personam portarentur, sive transducerentur cum bestiis vel alio modo,
+					<lb/>sub pena civitati mille marcharum argenti, universitati vel loco V,
+					<lb/>singulari persone CCC Camare Romane Ecclesie applicandarum, et
+					<lb/>plus et minus nostro arbitrio auferenda. Et hec constitutio locum
+				<lb/>habeat pro tempore, quo presens guerra durabit.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XII]</head> <p>Item statuimus, precipimus et mandamus quod si qua comunitas
+					<lb/>vel quelibet persona resistere temptaverit, iudicibus, notariis,
+					<lb/>vel baiulis sive plaçariis Curie nostre vel aliis officialibus iura redentibus,
+					<lb/>vel sententias seu precepta Curie executioni mandantibus, vel
+					<lb/>aliis suum officium exercentibus; si comunitas civitatis fuerit, CC marcharum
+					<lb/>argenti penam incurrat, si comes baro vel castrum C, nobilis
+					<lb/>et villa quinquaginta, et si pedes XXV, et nichilominus, si iniuriam
+					<lb/>intullerit dictis nostris oficialibus, iniurias (sic) pro qualitate
+				<lb/>pacientis et personarum nostro arbitrio puniatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XIII]</head> <p>Item statuimus quod nulla civitas vel comunitas cuiuscumque
+					<lb/>loci, vel potestas seu quivis alius offitialis civitatis aut universitatis
+					<lb/>alicuius, seu alia quacumque persona prohibeat vel impediat
+					<lb/>vel prohibi vel impediri faciat vel concedat occasione alicuius statuti
+					<lb/>seu ordinamenti vel reformationis publici vel occulti seu aliqua alia
+					<lb/>occasione aliquem volentem prosequi ius suum in Curia Romane
+					<pb n="245"/>
+					<lb/>Ecclesie vel nostra sive nostrorum officialium in causis appellationum
+					<lb/>nec appellantem seu appellare volentem, nec notarius qui de appellatione
+					<lb/>vocatus fuerit, facere instrumentum directe vel indirecte audeant
+					<lb/>in aliquo agravare, nec predicti presumant se aliquo modo
+					<lb/>intromittere vel cognoscere de appellationibus ad Romanam Curiam
+					<lb/>et nos vel nostram Curiam factis vel faciendis, sed eas defferant reverenter.
+					<lb/>Civitas, que contra predicta vel aliquod predictorum fecerit
+					<lb/>vel fieri concesserit, in V marchis argenteis et quelibet alia universitas
+					<lb/>in C. comes vel baro in C. et quilibet alius in XXV; officialis
+					<lb/>vero qui contravenerit in L marchis argenti puniatur et officio suo
+				<lb/>privetur; quam penam Camare Romane Ecclesie volumus applicari.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XIV]</head> <p>Item statuimus quod in causis appellationum ille qui appellatur
+					<lb/>ad nos seu Curiam nostram infra XX dies continuos a die
+					<lb/>appellationis interposite computandos dictam appellationem coram
+					<lb/>nobis seu nostra Curia prosequi teneatur; alioquin sententia rata
+					<lb/>maneat, et processus et mandatum sive preceptum factum habeatur,
+					<lb/>perinde ac si appellatum non esset; intelligimus autem in hoc casu
+					<lb/>aliquam prosequi appellationem, ita demum si infra dictum terminum
+					<lb/>super causa appellationis fecerit partem adversam ad iudicium evocari
+				<lb/>et se coram nostra Curia presentaverit in termino cytationis predicto.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XV]</head> <p>Item decernimus et iubemus quod nulla civitas, universitas,
+					<lb/>nullus comes vel baro in iurisdictione nobis commissa habeat aliquem
+					<lb/>officialem, qui cognoscat de appellatione per viam appellationis vel
+					<lb/>exgravamenti seu alio quocumque modo, et si quem habeat infra
+					<lb/>X dies a publicatione constitutionis huiusmodi cessare et licentiare
+					<lb/>debeat sub pena nostro arbitrio auferendi, et nos ipsum ex nunc ab
+					<lb/>offitio removemus et cassamus et quicquid per ipsum factum fuerit,
+				<lb/>exnunc pronunciamus esse ipso iure irritum et inanem.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XVI]</head> <p>Item statuimus quod potestates, vicarii, iudices, notarii
+					<lb/>ceterique officiales terrarum iurisdictionis nobis commisse teneantur
+					<lb/>et debeant appellantibus vel eorum procuratoribus requixiti ab ipsis
+					<lb/>vel ipsorum altero infra tercium diem post requisitionem huiusmodi
+					<lb/>omnia acta processuum et sententiam habitum et lectam contra
+					<lb/>eos in formam publicam exibere et facere exiberi pro sallario competentiet
+					<lb/>omni malitia, subtilitate et fraude remotis; officiales vero qui
+					<lb/>contrafecerint et predicta neglexerint adimplere puniendos nostro arbitrio
+				<lb/>et nostre Curie reservamus.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XVII]</head> <p>Item statuimus quod quelibet persona ad Curiam nostram
+					<lb/>vocata vel veniens ad eamdem pro quacumque causa secure in persona
+					<pb n="246"/>
+					<lb/>et rebus accedat, moretur et redeat, et nullus audeat vel atemptet
+					<lb/>eum in persona vel rebus offendere per se vel per alium; et qui contrafecerit
+					<lb/>nostro arbitrio puniatur in personis et rebus, hoc autem de
+					<lb/>illis intelligi volumus, qui non essent per nostras constitutiones vel
+					<lb/>per nostram Curiam exbaniti, vel alias propter sua facinora diffidati,
+				<lb/>nisi et securitatem a nobis et nostra Curia receperint specialem.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XVIII]</head> <p>Item statuimus quod nullus tabellio scienter conficiat
+					<lb/>instrumentum vel scripturam aliquam, nec intersit contractui, per que inferri
+					<lb/>posset aliquod preiuditium iurisdictioni seu libertati Romane
+					<lb/>Ecclesie sive nostre; et si quis contrafecerit ipso facto, perpetuo sit
+					<lb/>privatus offitio notarie et nichilominus penam centum libr. usualis
+				<lb/>monete incurrat.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XIX]</head> <p>Item statuimus quod nullus potestas, vicarius vel iudex
+					<lb/>seu alius offitialis in quocumque offitio existens seu etiam advocatus
+					<lb/>et quis alius intersit aliquibus consiliis parlamentis aut congregationibus,
+					<lb/>per que et quorum occasione posset verisimiliter detrimentum
+					<lb/>vel preiudicium aliquod fieri iurisdictioni vel libertati Romane Ecclesie.
+					<lb/>Si quis vero contrafecerit, ipso facto ab ipso offitio sit privatus, nec
+					<lb/>presumat in posterum uti eo absque sedis Apostolice licentia speciali
+				<lb/>vel nostra; et nichilominus penam centum marcharum argenti incurrat.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XX]</head> <p>Item statuimus quod omnia exaudimenta et diffidationes
+					<lb/>bandimenta seu refidationes scribantur et ponantur in quaternis
+					<lb/>nostre Curie per notarios nostros; et si in cedulis et non in quaternis
+				<lb/>reperta fuerint, pro nichillo habeantur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXI]</head> <p>Item statuimus quod si quis maledixerit aut blasfemaverit
+					<lb/>Deum vel Beatam Virginem Mariam in. X. libr. usualis monete condempnetur;
+					<lb/>si vero Beatum Petrum vel alios Sanctos et Sanctas Dei,
+					<lb/>in. C. solid. usualis monete puniatur. Et quilibet possit accusare
+					<lb/>eum, et accusator habeat dimidium dicte pene, et secreto teneatur;
+					<lb/>quam penam nisi infra tertiam diem post condempnationem factam
+					<lb/>solverit, quarto die publice fustigetur, pena constitutionis felicis recordationis
+					<lb/>domini Gregorii pape noni nichilominus in suo robore
+				<lb/>valitura.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXII]</head> <p>Item statuimus quod quilibet notarius requisitus a quibuscumque
+					<lb/>personis teneatur conficere instrumentum super representationibus
+					<lb/>quarumlibet litterarum, nec non de protestationibus et
+					<lb/>appellationibus coram quibuscumque personis seu officialibus faciendi
+					<lb/>seu interponendi; quod si facere denegaverit iusto impedimento cessante
+					<lb/>proqualibet vice in XXV libr. usualis monete puniatur; et ab
+					<pb n="247"/>
+					<lb/>offitio notarie per annum noverit se suspensum. Si vero de representatione
+					<lb/>litterarum appellationis editis vel nostrarum presertim super
+					<lb/>propriis negociis Ecclesie Romane aut Curie nostre ad aliqem transmissarum
+					<lb/>instrumentum requisitionis conficere denegaverit sive neglexerit,
+					<lb/>offitio notarius biennio sit privatus, et in quinquaginta libr.
+					<lb/>usualis monete puniatur; si quis autem notarius aliqua huiusmodi instrumenta
+					<lb/>conficere prohibere presumpserit sibi ne id faciat, gravamen
+					<lb/>aliquid inferens vel terrorem si comes vel baro fuerit in CC libr.
+					<lb/>usualis monete ei potestas vicarius vel aliquis alius officialis vel cuiuscumque
+					<lb/>loci in C puniatur et ipso facto exnunc offitio cuius occasione
+				<lb/>auctoritate id perhibuerit sit privatus.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXIII]</head> <p>Item statuimus quod si aliquis comiserit aliquod malefitium
+				<lb/>in conspectu nostro vel nostre Curie nostro arbitrio puniatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXIV]</head> <p>Item statuimus quod si alicui data fuerit possessio vel
+					<lb/>tenuta per nos vel nostram Curiam de re mobili vel immobili pro
+					<lb/>aliquo debito vel ex alia causa ille contra quem data fuerit infra
+					<lb/>duos menses recolligere teneatur alioquin exnunc detur sibi res ipsa
+					<lb/>per nostram Curiam insolutum vel licentia vendendi eam pro modo
+					<lb/>debiti declarati et pro expensis legittimis prius tamen debitore utrum
+				<lb/>eam recuperare voluerit requisito.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXV]</head> <p>Item statuimus quod hii quibus per bagolum seu plaçarium
+					<lb/>vel quemcumque executorem rerum quarumlibet possessio per nostram
+					<lb/>Curiam fuerit assignata licet eam propter resistencium potentiam
+					<lb/>aprehendere non potuerit vel aprehensam nequiverit retinere nichilominus
+					<lb/>eo iure utatur quo usi fuissent si potencia retinuissent
+				<lb/>eandem.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXVI]</head> <p>Item statuimus et ordinamus quod si quis insultum fecerit
+					<lb/>contra aliquam personam hense vel cultello evaginato vel cum aliis
+					<lb/>armis offendibilibus, si non percusserit et sanguis non exiverit in
+					<lb/>libr. XXV. puniatur; si autem sanguis exiverit in libr. centum multetur;
+					<lb/>si in alia parte quam in fatie facta fuerit percussio et sic in
+					<lb/>facie fuerit, puniatur in CC libr. et plus nostro arbitrio, inspectis
+					<lb/>condictione personarum et qualitate et forma delicti sive percussionis
+					<lb/>modo; si vero ex percussione sine vulneribus membrum aliquod debillitetur,
+					<lb/>ita quod non posset se iuvare, percussas solvat comittens
+					<lb/>libr. CC. et in eis puniatur; et pro emenda dampni illati in persona
+					<lb/>percussi libr. C., quas ipsi percusso solvere teneatur, et plus nostro
+					<lb/>arbitrio, personarum qualitate inspecta et atrocitate delicti; si autem
+					<lb/>ex ipsis vulneribus mortuus fuerit, tunc malefactor ultimo supplicio
+					<pb n="248"/>
+					<lb/>dampnetur; ita quod caput ei amputetur, si in forciam nostram vel
+					<lb/>nostre Curie pervenerit malefactor, sive unus fuerit, sive plures, si
+					<lb/>vero personaliter comprehendi non poterit, tunc si requisitus fuerit, ipse
+					<lb/>delinquens in persona vel ad domum quam habitabat tempore perpetrati
+					<lb/>maleficii per unum nuncium ex parte nostra vel alterius ex
+					<lb/>nostris iudicibus sive plurium quod infra terminum nostro arbitrio
+					<lb/>vel nostre Curie vel alterius ex iudicibus ordinandis, personaliter
+					<lb/>compareat coram nobis vel nostra Curia ad respondendum, deffendendum
+					<lb/>et excusandum se de perpetratis per ipsum et non venerit,
+					<lb/>baniatur a dicto termino inantea et in banno ponatur CC. libr. et
+					<lb/>plus nostro arbitrio et nostre Curie, inspecta qualitate personarum
+					<lb/>adiecto in ipso bauno terminus (sic) arbitrio nostre Curie ordinandi,
+					<lb/>infra quem se debeat presentare pro predictis; quod si neglexerit
+					<lb/>comparere, de banno postea exire non possit, nisi solverit Camere
+				<lb/>domini pape penam predictam.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXVII]</head> <p>Item statuimus et ordinamus quod quicumque positus
+					<lb/>fuerit in banno pro homicidio per nos vel nostram Curiam, impune
+				<lb/>a quoque possit offendi.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXVIII]</head> <p>Item statuimus et ordinamus quod in predictis malelefitiis
+					<lb/>et quibuscumque aliis publicis criminalibus vel privatis per
+					<lb/>nostram Curiam et nostros offitiales possit procedi et inquiri per modum
+					<lb/>accuse vel denuntiationis, si porecta fuerit, sive viam inquisitionis
+					<lb/>ex offitio nostre Curie et nostrorum officialium; et si accusa
+					<lb/>vel denuntiatio porrecta fuerit, et porrigens non prosequatur, nichilominus
+				<lb/>per nostram Curiam possit in predictis procedi et procedatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXIX]</head> <p>Item statuimus et ordinamus quod quicumque furtum
+					<lb/>comiserit a quinque solid. supra usque in X. libr. pro primo facto
+					<lb/>fustigetur, a decem supra auricula ei amputetur, pro secundo vero
+					<lb/>furto occulus vel pes vel manus amputetur, si duas habuerit et furtum
+					<lb/>restituat vel extimetur, pro tertio autem furto fur laqueo suspendatur,
+				<lb/>ita quod moriatur.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXX]</head> <p>Item statuimus et ordinamus quod porecta accusa vel denuntiatione
+					<lb/>super aliquo malefictio, iuramento recepto a porigente
+					<lb/>vera esse que in accusa vel denuntiatione continentur, sive simpliciter
+					<lb/>recepta denuntiatioue, vel si per modum suspicitionis processum
+					<lb/>fuerit, per nostram Curiam procedatur contra malefactores assignato
+					<lb/>termino pro arbitrio nostro vel nostrorum iudicum vel alterius eorum
+				<lb/>reo ad comparendum et respondendum et deffendendum.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXI]</head> <p>Item statuimus et ordinamus quod aliqua persona vel
+					<pb n="249"/>
+					<lb/>persone, universitas seu universitates iurisdictionis nobis commisse
+					<lb/>non debeant, audeant vel presumant facere aliquod monopolium vel
+					<lb/>aliquam coniurationem, conspirationem, adunanciam, coligationem,
+					<lb/>societatem seu legam quocumque nomine censeantur, cum aliquibus
+					<lb/>aliis personis vel universitatibus eiusdem iurisdictionis vel etiam
+					<lb/>aliunde absque speciali licentia domini nostri pape vel nostra, sub
+					<lb/>pena mille marcharum argenti pro qualibet universitate et plus et
+					<lb/>minus nostro arbitrio auferendi, et pro singulari persona, pena personarum
+					<lb/>et publicationes bonorum, que bona ex nunc prout extunc
+					<lb/>si per singularem personam contra presentem constitutionem factum
+					<lb/>fuerit, Camare Romane Ecclesie publicavimus et decernimus ipso iure
+					<lb/>ad ipsam Camaram pertinere; et si que facte sunt vel fuerint in futurum
+					<lb/>exnunc prout extunc eas cassamus et decernimus inutiles
+				<lb/>et inanes.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXII]</head> <p>Item statuimus et ordinamus quod si aliqui de hiis qui
+					<lb/>fuerunt actenus in rebellione Ecclesie et postmodum venerunt vel
+					<lb/>venient in futurum ad mandata domini Summi Pontificis Ecclesie
+					<lb/>Romane et nostra invenientur posmodum dicto seu facto auxilium
+					<lb/>prebuisse rebellibus Ecclesie vel ad ipsos rediisse vel posmodum
+					<lb/>cum eis absque licentia vicarii domini pape vel nostra coloquium vel
+					<lb/>tractatum habuisse tamquam prodictores manifesti et comitentes crimen
+					<lb/>lese maiestatis, capite puniantur; et ipsorum bona ipso facto
+					<lb/>Camare Romane Ecclesie publicentur. Et nos exnunc prout extunc
+					<lb/>bona ipsorum qui contra presentem constitutionem venerint seu fecerint,
+					<lb/>publicamus et decernimus ad Camaram Romane Ecclesie devenire
+					<lb/>presertim cum omnibus quibus cum ad mandata recepti sunt
+				<lb/>premissa specialiter ferint interdicta.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXIII]</head> <p>Item statuimus et ordinamus quod aliqua persona non
+					<lb/>habeat coloquium, parlamentum vel tractatum cum aliquibus rebellibus
+					<lb/>Romane Ecclesie sub pena capitis et publicatione bonorum Camare
+					<lb/>domini pape applicandorum absque licentia speciali domini vicarii
+				<lb/>domini pape vel nostra.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXIV]</head> <p>Item statuimus et ordinamus quod aliqua persona religiosa
+					<lb/>vel secularis non debeat, audeat vel presumat per se vel per
+					<lb/>interpositam personam emere vel aliquo alio titulo aquirere seu deffendere
+					<lb/>possessiones aliquas vel iura que fuerint aliquorum Lambertaciorum
+					<lb/>vel aliorum, qui sunt in rebellione Romane Ecclesie, sub
+					<lb/>pena nostro arbitrio auferendorum, et si aliqua persona religiosa vel
+					<lb/>secularis ab illo tempore citra, quo in rebellione fuerint, emptionem
+					<pb n="250"/>
+					<lb/>aliquam fecit vel aliquo titulo acquisivit de possessionibus bonis et
+					<lb/>iuribus predictorum infra. XX. dies a publicatione presentis constitutionis
+					<lb/>numerandos nobis et nostre Curie debeat in scriptis deferre,
+					<lb/>alioquin a dicto termino inantea dicte venditiones alienationes et
+					<lb/>acquisitiones pro nullis habeantur et nullius sint momenti et exnunc
+					<lb/>prout extunc eas iam factas et que fient in futurum cassamus et irritamus
+				<lb/>et eas esse decernimus inutiles et inhanes.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXV]</head> <p>Item statuimus, ordinamus et precipimus quod Peppus
+					<lb/>Çuffolli, Benatus Rodulfi, dominus Balduinus Nicholay Balduini, Arnolfucius
+					<lb/>domini Mathei, Palmerius domine Fusce, Bartholinus de
+					<lb/>Palatio, Iohannes Soldaderius, Gregorius de Aldrovandis, Iacobus
+					<lb/>Raynerii, dominus Girardus domini Aycardi, Guelfus de Açardis,
+					<lb/>Anthonius domini Açardi, Ugolinus et Almericus de Rustigellis, dominus
+					<lb/>Paucantra Raynerii, Milonçus de Milonçis Franciscus comitis
+					<lb/>Rodulfi, Albertus Bassanus, Cavalerius eius frater, Petrus Stulti, Ardolus
+					<lb/>Milonçolus, Leonardus domine Guglesche, Petrus Novellus,
+					<lb/>Gauçolus Vallis, Sanctus condam Marcucci, Andreas Tachus, Amaçabò
+					<lb/>notarius, Bonaventura Petri Blachi, Çambonus Diviti, Petrus Bonensegne
+					<lb/>et Tassonus de Perfelixiis omnes de civitate Çesene confinati
+					<lb/>et singulariter omnes et singuli confinati et etiam alii quicumque tam
+					<lb/>de civitate Forlivii, Çesene quam de aliis terris in rebellione Ecclesie
+					<lb/>existentibus, si infra festum Pascati Resurectionis Domini proxime
+					<lb/>non venerint et steterint ad mandata domini pape Romane Ecclesie
+					<lb/>et nostra et a confinibus sibi datis per comunitates rebellium recesserint
+					<lb/>ab inde in antea habeantur pro perfidis bannitis et rebellibus
+					<lb/>Ecclesie et licite et impune possint a quibuscumque offendi ubique
+					<lb/>et eos exnunc prout extunc infideles et rebelles Ecclesie decernimus
+					<lb/>et eorum bona Camare Ecclesie Romane publicamus; et insuper omnibus
+				<lb/>penis contra rebelles promulgatis eos decernimus subiacere.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXVI]</head> <p>Item statuimus et ordinamus quod possessiones vel
+					<lb/>iura illorum qui ad mandata domini pape Ecclesie Romane, et nostra
+					<lb/>venerint et venient in futurum, non vendantur nec alienentur per
+					<lb/>aliquas comunitates sive rectores civitatis vel locorum vel aliquam
+					<lb/>singularem personam de predictis civitatibus vel locis, que sunt in
+					<lb/>rebellione Romane Ecclesie; et quod aliqua persona que sit in rebellione
+					<lb/>Romane Ecclesie de possessionibus et iuribus predictorum, qui
+					<lb/>ad mandata venerunt et venient in futurum, non debeant emere nec
+					<lb/>alio modo vel forma acquirere, nec aliquis rector sive comunitas sive
+					<lb/>aliqua persona rebellis vel in dictis civitatibus et locis rebellium
+					<pb n="251"/>
+					<lb/>existens in bonis predictis vel iuribus ullum dampnum, iniuriam inferrat
+					<lb/>vel gravamen, sub pena nostro arbitrio auferenda; et omnes
+					<lb/>venditiones et alienationes et occupationes facte se predictis bonis et
+					<lb/>iuribus predictorum postquam ad mandate Romane Ecclesie et nostra
+					<lb/>venerint exnunc casse sint et irrite et exnunc prout extunc cassamus
+				<lb/>et irritamus; et eas ipso iure decernimus inutiles et inhanes.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXVII]</head> <p>Item statuimus et ordinamus quod si bona eorum qui
+					<lb/>sunt, venerunt et perseveraverunt et perseverabunt, vel qui venient ad
+					<lb/>mandata Ecclesie Romane et nostra, qui fuerunt vel sunt de terris
+					<lb/>que in rebellione sunt, per potestates vel rectores seu universitates
+					<lb/>vel suas generales personas lesa sunt vel fuerint vel destructa, vel ille
+					<lb/>universitates in cuius iurisdictione bona predicta fuerint sunt vel
+					<lb/>erunt vel persona singularis destruens vel que destrueret dicta bona
+					<lb/>emendare debeat et ad emendationem integram teneatur; hoc adito
+					<lb/>et cum hoc intellectu quod si per universitatem emenda fiet, prefati
+					<lb/>quorum bona essent lesa et illi qui sunt et perseverabunt vel erunt
+					<lb/>in devocione Ecclesie ad collationem predictarum emendarum minime teneantur,
+					<lb/>nec personis vel bonis eorum collecta aliqua imponatur predictarum
+				<lb/>occasionum emendationem.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXVIII]</head> <p>Item statuimus et ordinamus quod omnia vassallagia
+					<lb/>et homagia facta per quascumque personas in civitate Forlivii et aliis
+					<lb/>terris in rebellione existentibus a tempore quo in rebellione fuerint,
+					<lb/>et que fierent in futurum, sint ipso iure cassa et vana et nullius momenti;
+					<lb/>et ipsa exnunc, prout extunc, cassamus et cassas esse decernimus.
+					<lb/>Et hec constitutio locum habeat in hiis personis que venerunt
+				<lb/>ad mandata Romana Ecclesie et nostra vel infra duos menses venient.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XXXIX]</head> <p>Item statuimus et ordinamus quod universitas seu comunitas
+					<lb/>civitatis castrorum et aliorumque locorum eorumque potestates
+					<lb/>et alii officiales has nostras constitutiones a notario nostro infra
+					<lb/>unum mensem a presenti publicatione recolligant et eas inter alia eorum
+					<lb/>capitularia et ordinamenta inseri et scribi faciant et in publicum promulgari;
+					<lb/>alioquin civitas centum marcharum argentarum, castrum
+					<lb/>quinquaginta, villa vero et quelibet alia universitas XXV penam
+				<lb/>incurrant.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XL]</head> <p>Item statuimus precipimus et mandamus quod omnia et
+					<lb/>singula statuta et ordinamenta predicta et constitutiones ab omnibus
+					<lb/>universitatibus et singularibus personis nostre iurisdictionis integre
+					<lb/>observentur; salva et reservata domino legato et nobis et nostre Curie
+					<lb/>potestate dictis constitutionibus et ordinamentis addendi, minuendi
+					<pb n="252"/>
+					<lb/>et ea corrigendi, interpretandi et declarandi et gravius et minus puniendi,
+					<lb/>inspecta qualitate personarum, locorum et delictorum, sicut
+					<lb/>nobis et nostre Curie in posterum videbitur expedire pro honore et
+					<lb/>reverentia Romane Ecclesie et statu paciffico provincie et iurisdictionis
+					<lb/>nobis commisse; super penis autem malefitiorum, de quibus in presentibus
+					<lb/>constitutionibus mentio non habetur statuendi et disponendi
+					<lb/>puniendi deliberationi et provvidentie ad presens congruo loco et
+				<lb/>tempore duximus reservandum.</p>
+			</div2>
+			<div2>
+				<head><lb/>[XLI]</head> <p>Premisse constitutiones fuerunt promulgate et publicate in
+					<lb/>pleno et generali parlamento prelatorum, comitum, baronum, potestatum
+					<lb/>ambaxatorum civitatum et locorum et nobilium provintie Romagnole
+					<lb/>et pleno arengo congregato in civitate Imole, in pallatio Comunis,
+					<lb/>per magnificum et nobilem virum dominum Iohannem de Appia
+					<lb/>totius provincie Romagnole, civitatis Bononie et comittatus Bretenorii
+					<lb/>et pertinentiarum eorundem per Sanctam Romanam Ecclesiam comitem
+					<lb/>et generalem rectorem; et presentibus venerabili patre domino
+					<lb/>fratre Bonefatio archiepiscopo ravenatensi, domino Guillelmo Duranti
+					<lb/>domini pape vicario, domino Guidone episcopo ariminensi, domino
+					<lb/>Symbaldo episcopo imolensi, domino Malatesta de Veruclo potestate
+					<lb/>ariminensi, domino Nicholutio domini Balugani potestate bononiensi,
+					<lb/>domino Staldo Iacop de Florentia, domino Guidone condam domini
+					<lb/>Lamberti de Polenta, domino Forrexio de Aldemariis potestate Imole,
+					<lb/>domino Comacio de Galluciis potestate Faventie et multis aliis prelatis,
+					<lb/>potestatibus et nobilibus; sub annis Domini millesimo ducentesimo
+					<lb/>octuagesimo tertio, die tertiodecimo februarii. Indicione undecima;
+				<lb/>pontificatus domini Martini pape quarti.</p>
+				<p><lb/>Ego Guido Aldrevandini de Ravenna, imperiali auctoritate et
+					<lb/>nunc Curie dicti domini Comitis notarius et cancellarius, mandato
+					<lb/>ipsius domini comitis predictas constitutiones legi et vulgariçavi in
+					<lb/>predicto parlamento et arengo, et in presentia predictorum omnium
+					<lb/>et eas in publicam formam redegi; et istas constitutiones exibui ad
+				<lb/>petitionem singularis persone.</p>
+			</div2>
+		</div1>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,1819 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <teiHeader>
+		        <fileDesc>
+			      <titleStmt>
+				        <title>Edizione digitale di: <title>De duobus amantibus historia</title></title>
+				          <author>Aenaeas Silvius Piccolomini</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Iosephus Dévay</name>
+				</respStmt>
+				        <respStmt>
+					                    <resp>Edizione critica a stampa a cura di</resp>
+					          <name> Iosephus Dévay</name>
+				        </respStmt>
+				        <respStmt>
+					                    <resp>Edizione in formato TEI XML a cura di</resp>
+					          <name>E. B.</name>
+				        </respStmt>
+			      </titleStmt>
+			<extent>
+				<measure quantity="14275" unit="words">Parole: 14275</measure>
+				<measure quantity="82460" unit="characters_without_spaces">Caratteri (spazi esclusi): 82460</measure>
+				<measure quantity="95158" unit="characters_witht_spaces">Caratteri (spazi inclusi): 95158</measure>
+			</extent>
+			      <publicationStmt>
+				        <publisher>
+					          <ref target="http://www.alim.dfll.univr.it/">ALIM</ref>
+				        </publisher>
+				        <date when="2016-12-21">21/12/2016</date>
+				        <availability>
+					          <p>Copyright 2006- progetto ALIM</p>
+				        </availability>
+			      </publicationStmt>
+			      <sourceDesc>
+				                <biblStruct>
+					          <monogr>
+						            <author>Aenaeas Silvius Piccolomi</author>
+						            <title>De duobus amantibus historia</title>
+						            <editor>Iosephus Dévay</editor>
+						            <imprint>
+							              <pubPlace>Budapest</pubPlace>
+							              <publisher>Typis I. Heisleri</publisher>
+							              <date>1903</date>
+						            </imprint>
+					          </monogr>
+				        </biblStruct>
+			      </sourceDesc>
+		        </fileDesc>                       
+		    <encodingDesc>
+				<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+		      </projectDesc>
+		      <editorialDecl>
+			<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+				<list>
+					<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+						precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+						fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+						resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+					È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+				</list>
+			</ab>
+			<ab type="level">ALIM2_1</ab>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+                <keywords>
+	<term type="form">Prosa</term>
+	          <term type="source">Letteraria</term>
+	          <term type="genre">Favolistica</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date> secolo XV</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2016-12" who="EB">Prima trascrizione nel formato TEI P5 (schema: TEI ALIM Lite)</change>
+    <change when="2018-07" who="JC" type="noteJCtratteDaiLogTxt">Note relative alla revisione del file di luglio 2018 (adeguamento al livello di codifica ALIM2_1):
+<list type="listaNoteJC"><item type="itemNotaJC">-ok.</item></list></change></revisionDesc>
+  </teiHeader>
+<text>
+	<body>
+		<div>
+			<pb n="1"/>
+			<head><lb/>Aeneae Sylvii, Senensis poetae laureati, viri clarissimi,de duobus amantibus
+			<lb/>historia, ad Casparum Schlick militem, ut eam legat, feliciter incipit</head>
+			<div>
+				<head><lb/>Dedicatio</head>
+				<p><lb/>Magnifico et generoso militi, domino Caspari Schlick, domino novi
+					<lb/>castri, caesareo cancellario ac terrarum Egrae Cubitique capitaneo:
+					<lb/>domino suo praecipuo, Aeneas Sylvius poeta, imperialisque secretarius,
+				<lb/>salutem plurimam dicit et se reddit commendatum.</p>
+				<p><lb/>Marianus Sozinus Senensis, conterraneus meus, vir tum mitis
+					<lb/>ingenii, tum litterarum multarum, cuius adhuc similem visurusne sim,
+					<lb/>haereo: duos amantes sibi ut describerem, rogatum me his diebus fecit;
+					<lb/>nec referre dixit, rera veram agerem, an more poetico fingerem.
+					<lb/>Scis qui vir sit? Mirabere si tibi hominem expendam. Nihil ei,
+					<lb/>praeter formam, natura invidit Homuncio est. Nasci ex familia mea
+					<lb/>debuit, (Piccolomini) cui parvorum hominum est cognomen. Vir est
+					<lb/>eloquens, iuris utriusque consultus; historias omnes novit; poeticae
+					<lb/>peritus est. Carmen facit et latinum et tuscum; philosophiae tam scitus
+					<lb/>est quam Plato; geometer quasi Boethius; in numeris Macrobio similis;
+					<lb/>nullum instrumentum ignorat musicum; agriculturam quasi Vergilius
+					<lb/>novit; nihil civile ignotum viro. Dum iuvenili adhuc stabant in
+					<lb/>corpore vires, alter Entellus erat luctandi magister. Non cursu,
+				<lb/>non saltu, non caestu poterat superari.</p>
+				<p><lb/>Pretiosiora sunt interdum parvi corporis vascula; ut gemmae, lapillique
+					<lb/>testantur. Nec ab re fuerit et illud in hunc referre, quod de
+					<lb/>Tydeo scribit Statius:
+				<emph>«Maior in exiguo regnabat corpore virtus»</emph>.</p>
+				<p><lb/>Dii formam huic homini et immortalitatem si dedissent: is
+					<lb/>etiam erat deus. Sed nemo sortitus est omnia inter mortales. Nullum
+					<lb/>adhuc novi, cui pauciora, quam huic defuerint. Quid? quae minutissima
+					<lb/>etiam didicit. Quasi alter Apelles, sic pingit. Nihil emendatius, nihil
+					<lb/>lucidius, quam sua manu scripti codices. Sculpit ut Praxiteles, nec medicinae
+					<lb/>ignarus est. Adde virtutes morales, quae alios regunt ducuntque.
+					<lb/>Novi meis diebus plerosque studiis litterarum deditos, disciplinis
+					<lb/>qui admodum abundabant, sed hi nihil civilitatis habebant, nec rem publicam,
+					<lb/>nec domesticam regere norant. – Stupuit Paglarensis et furti
+					<lb/>villicum accusavit, qui suem fetam undecim porcellos, asinam unam
+					<lb/>dumtaxat enixam pullum retulerat. Bonitius Mediolanensis gravidum se
+					<lb/>putavit, diuque partum veritus est, quia se uxor adscendit. Hi tamen
+				<lb/>iuris maximum lumen habiti sunt.</p>
+				<p><lb/>In aliis praeterea vel fastum, vel avaritiam invenies; hic perliberalis
+					<lb/>est. Plena illi semper est domus honestis hospitibus. – Nulli
+					<lb/>adversus est; pupillos tuetur; aegros solatur; pauperibus subvenit; viduas
+					<lb/>iuvat; nulli indigenti deest. Vultus eius quasi socraticus, semper
+					<lb/>est idem. In adversis fortem animum praebet; nulla fortuna inflatur:
+					<pb n="2"/>
+					<lb/>versutias, non ut exerceat, sed ut caveat, quaslibet novit: civibus dilectus
+					<lb/>est, peregrinis amatus; nulli odiosus est, nulli gravis.
+					<lb/>At, homo tantarum virtutum, cur nunc rem leviusculum exigat?
+					<lb/>nescio. Id scio, nihil mihi illi negare, fas esse. Eum namque, dum
+					<lb/>Senis essem, unice dilexi; nec diminutus est amor, quamvis separatus
+					<lb/>sit. Is quoque, cum esset caeteris naturae dotibus praeditus, tamen hac
+					<lb/>maxime pollebat, ut nullius, erga se sterilem esse amorem sineret.
+					<lb/>Huius ergo rogatus non censui respuendos, scripsique duorum
+					<lb/>amantium casus; nec finxi. Res enim acta est Senis, dum Sigismundus
+					<lb/>imperator ibi degeret. Tu etiam aderas et, si verum his auribus hausi,
+					<lb/>operam amori dedisti. Civitas Veneris est. Aiunt, qui te norant, vehementer
+					<lb/>quam arseris, quodque nemo te calidior fuerit. Nihil ibi amatoriae
+				<lb/>gestum, te inscio, putant.</p>
+				<p><lb/>Ideo, historiam hanc ut legas, precor et an vera scripserim, videas;
+					<lb/>nec reminisci te pudeat, si quid huiusmodi nonnumquam evenerit
+					<lb/>tibi; homo enim fueras. Qui numquam vere sensit amoris ignes, aut
+					<lb/>lapis est, aut bestia, Isse namque vel per deorum medullas, non latet,
+				<lb/>igneam favillam. Vale!</p>
+			</div>
+			<div>
+				<head><lb/>Praefatio</head>
+				<p><lb/> Aeneas Sylvius poeta, imperialisque secretarius, salutem plurimam
+					<lb/>dicit Mariano Sozino, utriusque iuris interpreti et concivi suo.
+					<lb/>Rem petis haud convenientem aetati meae, tuae vero et adversam
+					<lb/>et repugnantem. Quid enim est, quod vel me, iam pene quadragenarium,
+					<lb/>scribere, vel te quinquagenarium, de amore conveniat audire?
+					<lb/>Iuvenes animos res ista delectat et tenera corda deposcit. Senes autem
+					<lb/>tam idonei sunt amoris auditores, quam prudentiae iuvenes. Nec quidquam
+					<lb/>est senectute deformius, quae Venerem affectat sine viribus. Invenires
+				<lb/>tamen et aliquos senes amantes, – amatum vero nullum:</p>
+				<p><lb/>nam et matronis et puellis est despectum senium. Nullius amore tenetur
+					<lb/>mulier, nisi quem viderit aetate florentem; siquid aliter audis,
+					<lb/>deceptio subest. Ego vero cognosco, amatorium scriptum mihi non
+					<lb/>convenire, qui iam meridiem praetergressus, in vesperum feror: sed
+					<lb/>non minus me scribere, quam te poscere dedecet. Ego debeo tibi morigerus
+					<lb/>esse; tu vide, quid postules. Nam, quanto es natu maturior,
+					<lb/>tanto aequius est, parere amicitiae legibus. Quas, si tua iustitia non veretur
+					<lb/>mandando infringere, nec stultitia mea timebit transgredi obediendo.
+					<lb/>Tua in me tot sunt beneficia, ut nil negare petitionum tuarum
+				<lb/>queam, etiamsi admixtum sit aliquid turpituditiis.</p>
+				<p><lb/>Parebo igitur petitioni tuae, iam decies multiplicatae; nec amplius
+					<pb n="3"/>
+					<lb/>negabo, quod tanto convicio postulas. Non tamen, ut ipse flagitas, fictor
+					<lb/>ero; nec poetae utemur tuba, dum licet vera referre. Quis enim tam
+				<lb/>nequam est, ut mentiri velit, cum se vero potest tueri?</p>
+				<p><lb/>Quia tu saepe amator fuisti, nec igne cares, vis tibi, ut duorum
+					<lb/>amantum historiam texam. Nequitia est, quae te non sinit esse senem.
+					<lb/>Ero morigerus cupiditati tuae et hanc inguinis aegri canitiem prurire
+				<lb/>faciam; nec fingam, quando tanta est copia veri.</p>
+				<p><lb/>Quid enim est toto terrarum orbe amore communius? Quae
+					<lb/>civitas, quod oppidulum quae familia vacat exemplis? Quis tricesimum
+					<lb/>natus annum, amoris causa, nullum peregit facinus? Ego de me facio
+					<lb/>coniecturam, quem amor in mille pericula misit. Ago superis gratias,
+					<lb/>quod structas insidias milies fugi, felicior astro Martis quem Vulcanus,
+					<lb/>cum Venere iacentem, terreo illaqueavit reticulo, deridendumque
+				<lb/>diis caeteris ostentavit.</p>
+				<p><lb/>Sed alienos, quam meos, amores attingam, ne, dum vetusti cineres
+					<lb/>ignis evolvo, scintillam adhuc viventem reperiam. Referam
+					<lb/>autem mirum amorem, peneque incredibilem, quo duo amantes, ne
+					<lb/>dicam amentes, invicem exarsere. Nec vetustis, nec obliteratis utar
+					<lb/>exemplis, sed nostri temporis ardentes faces exponam. Nec troianos,
+					<lb/>nec babylonios, sed nostrae urbis amores audies; quamvis ex amantibus
+				<lb/>alter sub arctico natus fuerit coelo.</p>
+				<p><lb/>Forsitan et hinc sugere aliquid utilitatis licebit. Nam cum puella,
+					<lb/>quae in argumentum venit, amatore perdito, inter plorandum, moestam
+					<lb/>et indignantem exhalaverit animam, alter vero posthac numquam verae
+					<lb/>laetitiae particeps fuerit: commonitio quaedam iuvenibus erit, his ut
+					<lb/>abstineant nugis. Audiant igitur adulescentulae et, hoc edoctae casu,
+				<lb/>videant, ne post amores iuvenum se eant perditum.</p>
+				<p><lb/>Instruit haec historia iuvenes, ne militiae se accingant amoris,
+					<lb/>quae plus fellis habet quam mellis; sed omissa lascivia, quae homines
+					<lb/>reddit insanos: virtutis incumbant studiis, quae possessorem sui sola
+				<lb/>beare petest.</p>
+				<p><lb/>In amore autem quot lateant mala, si quis aliunde nescit, hinc
+				<lb/>poterit scire.</p>
+				<p><lb/>Tu vale! et historiae, quam me cogis scribere, attentus auditor esto.
+					<pb n="4"/>
+					<lb/>Vrbem Senam, unde tibi et mihi origo est, intranti Sigismundo Caesari
+					<lb/>quot honores impensi fuerint, iam ubique vulgatum est. Palatium
+					<lb/>illi apud sacellum sanctae Marthae super vicum, qui ad tophorum
+				<lb/>ducit portam strictam, paratum fuit.</p>
+				<p><lb/>Huc, postquam caeremoniae peractae sunt, cum venisset Sigismun¬dus:
+					<lb/>quatuor maritatas obviam habuit, nobilitate, forma, aetate
+					<lb/>ornatuque pene pares. Non mortales sed deas quisque putavit. – Si
+					<lb/>tres dumtaxat fuissent, illae videri poterant quas referunt, Paridem
+					<lb/>per quietem vidisse. Erat Sigismundus, licet grandaevus, in libidinem
+					<lb/>pronus, matronarum alloquiis admodum oblectabatur et femineis
+					<lb/>blanditiis gaudebat, nec suavius illi quicquam fuit illustrium aspectu
+					<lb/>mulierum. Vt ergo has vidit, desiliens equo, inter manus earum exceptus
+					<lb/>est et ad comites versus, ait:
+					<lb/><q>"Similesne unquam his feminis vidistis? Ego dubius sum, an
+					<lb/>facies humanae sint, an angelici vultus; sunt coelestes certe".</q>
+					<lb/>Illae, oculos humi deiicientes, ut verecundiores fiunt, sic pulchriores
+					<lb/>redduntur. Sparso namquie inter genas rubore, tales dabant
+					<lb/>ore colores, quales indicum ebur. ostro violatum, aut quales reddunt
+					<pb n="5"/>
+					<lb/>alba immixta purpureis rosis lilia. Praecipue tamen inter eas nitore
+					<lb/>Lucretia fulsit. Adolescentula nondum annos viginti nata, in familia
+					<lb/>Camillorum, praediviti viro Menelao nupta; indigno tamen, cui tantum
+					<lb/>decus domi serviret, sed digno quem uxor deciperet et, sicut
+				<lb/>nos dicimus, cornutum quasi cervum redderet.</p>
+				<p><lb/>Statura mulieris eminentior reliquis. Comae illi copiosae et aureis
+					<lb/>laminis similes quas, non more virginum retrofusas miserat, sed auro
+					<lb/>gemmisque incluserat. Frons alta spatiique decentis, nulla intersecta
+					<lb/>ruga. Supercilia in arcum tensa, pilis paucis nigrisque, debito intervallo
+					<lb/>disiuncta. Oculi tanto nitore splendentes ut, in solis modum,
+					<lb/>respicientium intuitus hebetarent. His illa et occidere, quos voluit, poterat
+					<lb/>et mortuos, cum libuisset, in vitam resumere. Nasus in filum directus,
+					<lb/>roseas genas aequali mensura disterminabat. Nihil his genis
+					<lb/>amabilius, nihil delectabilius visu; quae, cum mulier risit, in parvam
+					<lb/>utrimque dehiscebant foveam. Nemo has vidit, qui non cuperet osculari.
+					<lb/>Os parvum decensque. Labia corallini coloris, ad morsum aptissima.
+					<lb/>Dentes parvuli et in ordinem positi, ex cristallo videbantur: per
+					<lb/>quos tremula lingua discurrens non sermonem, sed harmoniam suavissimam
+				<lb/>movebat. Quid dicam mentis speciem, aut gulae candorem?</p>
+				<p><lb/>Nihil illo in corpore non laudabile. Interioris formae indicium
+					<lb/>faciebat exterior. Nemo hanc aspexit, qui viro non invideret. Erant
+					<lb/>insuper in ore eius multae facetiae. Sermo is fuit, qualem rumor est
+					<lb/>Gracchorum matrem habuisse Corneliam, sive Hortensii filiam, nec
+					<lb/>suavius aliquid eius oratione, nec modestius fuit. Non ut pleraeque
+					<lb/>tristi facie, honestatem ostendebat, sed alacri vultu modestiam. Non timida,
+					<lb/>non audax, sed temperatum verecundiae metum, virilem animum
+				<lb/>femineo corde gerebat.</p>
+				<p><lb/>Vestes illi multiplices erant. Non monilia, non fibulae, non baltei,
+					<lb/>non armillae deerant. Redimicula capitis mirifica. Multi uniones
+					<lb/>adamantesque, tum in digitis, tum in serto fuere. Non Helenam
+					<lb/>pulchriorem fuisse crediderim, quo die Paridem in convivium Menelaus
+					<lb/>excepit, nec ornatiorem Andromachen, cum sacris Hectoris
+				<lb/>initiata est nuptiis.</p>
+				<p><lb/>Inter has (nempe: quatuor maritatas) et Catharina Petrusia fuit
+					<lb/>quae paulo post diem defuncta, Caesarem in funebribus habuit qui et
+					<lb/>natum eius militia, ante sepulcrum donavit quamvis infantem. Huius
+					<lb/>quoque mirabilis formae decus elucebat, inferior tamen Lucretia erat.
+					<lb/>Omnis de Lucretia sermo audiebatur. Hanc Caesar, hanc caeteri commendabant
+					<lb/>intuebanturque. Quocunque illa vertebatur, eo et oculi
+					<lb/>sequebantur adstantium. Et, sicut Orpheus, sono citharae silvas et
+					<lb/>saxa secum fertur traxisse, sic ista homines suo, quecunque volebat,
+				<lb/>intuitu ducebat</p>
+				<pb n="6"/>
+				<p><lb/>Unus tamen inter illos omnes plus aequo in illam ferebatur
+					<lb/>Euryalus Franco, quem nec forma, nec divitiae, amori reddebant
+					<lb/>ineptum. Duorum et triginta annorum erat, non eminentis staturae
+					<lb/>sed laetae grataeque habitudinis illustribus oculis, malis ad gratiam
+					<lb/>rubescentibus, caeteris membris non sine quadam maiestate decoris,
+				<lb/>staturae correspondentibus, decoratus erat.</p>
+				<p><lb/>Reliqui curiales propter longinquam militiam, omnes auro excussi
+					<lb/>erant. Hic, quia et domi abundabat et propter amicitiam Caesaris
+					<lb/>magna munera recipiebat, in dies ornatior conspectibus hominum
+					<lb/>reddebatur. Longum famulorum ordinem pone ducebat. Nunc
+					<lb/>auro illitis, nunc muricis tyrii sanguine tinctis, nunc filis, quae ultimi
+					<lb/>legunt Seres, textis vestibus utebatur. Tum equi tales illi erant
+				<lb/>quales, ut in fabulis est ad Troiam venisse Memnonis.</p>
+				<p><lb/>Nihil huic, ad excitandum illum blandum animi calorem magnamque
+				<lb/>mentis vim, quam amorem vocant, praeter otium, deerat.</p>
+				<p><lb/>Sed vicit iuventa et luxus tum laeta fortunae bona, quibus ille nutritur.
+					<lb/>Nec erat potens Euryalus sui, ut Lucretiam vidit; ardere
+					<lb/>puellam coepit haerensque vultui, nihil satis vidisse putabat. Nec
+				<lb/>impune dilexit.</p>
+				<p><lb/>Mira res! multi egregia forma iuvenes, sed unum hunc Lucretia:
+					<lb/>plures honesti corporis mulieres, sed hanc unam Euryalus sibi
+					<lb/>delegit. Non tamen hac ipsa die vel in se flammam Lucretia cognovit
+					<lb/>Euryali, vel ille Lucretiae: sed amare se frustra uterque putavit.
+					<lb/>Vt igitur ceremoniis sacro Caesaris capiti peractis, modus fuit et
+					<lb/>illa domum reversa, in Euryalum tota, in Lucretiam totus Euryalus
+				<lb/>ferebatur.</p>
+				<p><lb/>Quis nunc Thisbes et Pyrami fabulam demiretur, inter quos
+					<lb/>notitiam, primosque gradus vicinia fecit? et, quia domos habuere contiguas,
+				<lb/>tempore crevit amor.</p>
+				<p><lb/>Hi nusquam se prius viderant, nec fama cognoverant. Hic Franco,
+					<lb/>haec Etrusca fuit; nec linguae commercium intercessit, sed oculis
+				<lb/>tantum res acta est, cum alter alteri placuisset.</p>
+				<p><lb/>Saucia ergo gravi cura Lucretia et igne capta coeco, iam se
+					<lb/>maritatam obliviscitur. Virum odit et alens venereum vulnus infixos
+					<lb/>pectore tenet Euryali vultus; nec ullam membris suis quietem
+				<lb/>praebet; secumque:</p>
+				<p><lb/><q>"Nescio quid obstat,"</q> ait, <q>";ut amplius haerere viro nequeam.
+						<lb/>Nil me iuvant eius amplexus, nil oblectant oscula; fastidium verba ingerunt.
+						<lb/>Peregrini semper ante oculos est imago, qui hodie proprior erat
+						<lb/>Caesari. Excute conceptas e casto pectore flammas, si potes infelix.
+						<lb/>Si possem non essem aegra ut sum. Nova me vis invitam trahit.
+						<lb/>Aliud cupido suadet, alia mens. Scio quid sit melius, quod deterius
+						<pb n="7"/>
+						<lb/>est sequor. O! civis egregia ac nobilis, quid tibi cum peregrino
+						<lb/>est? Quid in extraneo ureris? Quid thalamos alieni concipis orbis?
+						<lb/>Si virum fastidis, haec etiam dare potest terra quod ames. Sed heu
+						<lb/>mihi! quae nam illius est facies? Quam non moveat eius forma,
+						<lb/>aetas, genus, virtus? Certe pectora mea movit et nisi fert opem
+						<lb/>dispereo. Dii meliora dent!"</q></p>
+				<p><lb/><q>";Vah! prodam ego castos hymenaeos meque advenae, nescio
+						<lb/>cui, credam? qui, dum abusus me fuerit, abeat, virque sit alterius et
+						<lb/>me poenae relinquat? Sed non is est eius vultus, non ea nobilitas
+						<lb/>animi videtur, nec gratia formae illa est, ut timeam fraudes et amoris
+						<lb/>oblivia nostri, et dabit ante fidem, cur tuta timeam? Accingar et
+						<lb/>omnem moram pellam. Ego quoque ita sum pulchra, ut non me minus
+						<lb/>ille velit, quam ego ipsum cupiam. Semper se mihi debebit, si semel
+						<lb/>ad oscula fuerit receptus mea. Quot me ambiunt proci quocunque
+						<lb/>pergo! Quot rivales ante fores excubant meas! "</q></p>
+				<p><lb/> <q>";Dabo amori operam. Aut hic manebit, aut me secum abiturus
+						<lb/>abducet. Ergo ego et matrem et virum et patriam relinquam? Saeva
+						<lb/>est mater et meis semper infesta gaudiis. Viro carere quam potiri
+						<lb/>malo. Patria illic est, ubi delectat vivere. At famam prodam! Quid
+						<lb/>mihi rumores hominum, quos ipsa non audiam? Nihil audet qui famae
+						<lb/>nimis studet. Multae hoc fecerunt aliae. Rapi Helena voluit, non invitam
+						<lb/>asportavit Paris. Quid Ariadnem referam vel Medeam? Nemo
+						<lb/>errantem arguit, qui cum multis errat "</q>.</p>
+				<p><lb/>Sic Lucretia. Nec intra pectus minora incendia nutriebat Euryalus.
+					<pb n="8"/>
+					<lb/>Medias inter Caesaris curiam et Euryali domum Lucretia aedes
+					<lb/>habuit. Nec palatium petere Euryalus potuit, quin illam ex altis se
+					<lb/>ostentantem fenestris haberet in oculis. Sed erubuit semper Lucretia cum
+					<lb/>Euryalum vidit, quae res Caesarem fecit amoris conscium. Nam cum,
+					<lb/>ex sua consuetudine, nunc huc, nunc equitaret illuc et hac saepe
+					<lb/>transiret, animadvertit, mutari feminam Euryali adventu, qui sibi
+					<lb/>quasi Octaviano Maecenas adstabat. Ad quem versus:
+					<lb/><q>";Eu, Euryale "</q>, ait, <q>";siccine uris feminas? Mulier illa te ardet "</q>.
+					<lb/>Semel vero, tamquam amanti invideret, ubi ad aedes Lucretiae
+				<lb/>ventum est, Euryalo oculos pilo contexit.</p>
+				<p><lb/> <q>";Nec videbis "</q>, inquit, <q>";quod amas, ego hoc spectaculo fruar "</q>.</p>
+				<p><lb/>Tum Euryalus:
+					<lb/><q>";Quid hoc signi est, Caesar? Nihil mihi cum illa est. Sed hoc
+					<lb/>facere incautum est, ne circumstantes in suspicionem adducas "</q>.
+					<lb/>Erat Euryalo spadix equus, arduae cervicis argutique capitis,
+					<lb/>quem et brevis alvus et obesa terga spectabilem reddebant, animoso
+					<lb/>pectore, thoris luxuriante, qui sonante tuba stare loco nesciebat. Nutabat
+					<lb/>auribus et collectum fremens, volvebat sub naribus ignem. Densa
+					<lb/>iuba et dextro iactata recumbebat in armo et cavans tellurem solido
+					<lb/>cornu graviter sonabat ungula. Similis illi fiebat, Euryalo visa Lucretia.
+					<lb/>Quae licet, dum sola fuit, claudere viam destinasset amori: ut
+					<lb/>tamen illum aspexit, nec modum flammae, nec sibi ponebat; sed, ut
+					<pb n="9"/>
+					<lb/>siccus ager, qui admisso igne, comburitur, si chori perflent altius
+				<lb/>flammescit: sic infelix Lucretia exardebat.</p>
+				<p><lb/> Ita est sane ut sapientibus videtur: humiles tantum casas
+					<lb/>habitat castitas solaque pauperies affectu sano tenetur et quae domus
+					<lb/>se coercet modico. Divites aedes nescit pudicitia. Quisquis rebus
+					<lb/>secundis exsultat, luxu fluit, semperque insolita appetit. Delicatas
+					<lb/>eligit domos et penates magnos, dira fortunae comes libido.
+					<lb/>Intuens igitur Euryalum, quam saepe transeuntem, Lucretia,
+					<lb/>nec ardorem compescere potens: diu secum cogitavit cui se patefaceret.
+					<lb/>Nam qui tacitus ardet, magis uritur. Erat inter viri servos
+					<lb/>Sosias teutonicus senex heroque fidus, cui iam servierat diu liberaliter.
+					<lb/>Hunc aggreditur amans, plus nationi quam homini credens.
+					<lb/>Ibat magna procerum stipante caterva per urbem Caesar,
+					<lb/>iamque Lucretiae domum praeteribat; quae, ubi adesse Euryalum
+				<lb/>cognovit. –</p>
+				<p><lb/> <q>"Adesto,"</q> inquit, <q>";Sosia, paucis te volo. Respice deorsum ex
+						<lb/>fenestra. Vbinam gentium iuventus est huic similis? Vide, ut omnes calamistrati
+						<lb/>sunt, e recti, eminentibus humeris. Aspice caesareos et madido
+						<lb/>cirro contortos crines. O quales facies. Omnes lactea colla ferunt,
+						<lb/>quo sese ore ferunt, quam forti pectore. Aliud est hoc hominum
+						<lb/>genus, quam quod terra nostra producat. Semen hoc deorum est,
+						<lb/>aut e coelo missa progenies. O! si ex his mihi virum fortuna dedisset.
+						<lb/>Nisi oculi testes essent, numquam tibi narranti haec credidissem, et
+						<lb/>si fama fuerit, praestare omnibus gentibus Germanos, credo subiectam
+						<lb/>Boreae fore plagam et ex frigore magno albedinem mutuari. Sed nostine
+						<lb/>tu aliquos?"</q></p>
+				<p><lb/><q>";Quam plurimos"</q> inquit Sosias. Tum Lucretia:</p>
+				<p><lb/><q>"; Euryalum Franconem nosti?"</q>.</p>
+				<p><lb/> <q>";Tanquam me"</q>, ait Sosias. <q>";Cur tamen hoc rogas?"</q>.</p>
+				<p><lb/> <q>";Dicam"</q> inquit Lucretia, <q>";scio quod inapertum non ibit. Hanc
+						<lb/>spem mihi bonitas tua facit. Ex his, qui Caesari adstant, nemo mihi
+						<lb/>est Euryalo gratior. In hunc animus meus commotus est. Nescio
+						<lb/>quibus exuror flammis. Nec illum oblivisci, nec mihi pacem possum
+						<lb/>dare, nisi me ei facio notam. Perge, oro, Sosia, conveni Euryalum:
+						<lb/>dic me ipsum amare. Nil volo ex te amplius; nec tu frustra hoc
+						<lb/>nuntium facies"</q>.</p>
+				<p><lb/><q>"Quid audio,"</q> refert Sosias, <q>"haeccine me flagitia facere
+						<lb/>aut cogitare, hera, decet? Prodamne ego dominum meum, iamque senex
+						<lb/>incipiam fallere, quod iuvenis abhorrui? Quin potius clara progenies
+						<lb/>huius urbis exturba nefandas flammas e casto pectore. Ne obsequere
+						<lb/>dirae spei. Exstingue ignem. Non aegre amorem pellit, qui
+						<lb/><pb n="10"/>
+						<lb/>primis obstat insultibus. Qui dulce malum blandiendo nutrit: duri
+						<lb/>et insolentis domini servituti se dat; nec cum vult excutere iugum
+						<lb/>potest. Quodsi hoc resciret maritus, heu! quibus te ille laceraret
+						<lb/>modis! Nullus diu latere potest amor"</q>.</p>
+				<p><lb/><q>"Tace!"</q> inquit Lucretia <q>"nihil loci terrori est, nihil timet qui
+						<lb/>non timet mori. Quemcunque dederit exitum casus, feram"</q>.</p>
+				<p><lb/><q>"Quo misera pergis?"</q> Sosias retulit. <q>"Domum infamem reddis,
+						<lb/>solaque tui generis eris adultera? Tutum esse facinus reris? Mille circa
+						<lb/>te oculi sunt. Non sinet genitrix occultum scelus; non vir, non cognati,
+						<lb/>non ancillae, servi ut taceant, iumenta loquentur; canes et postes
+						<lb/>et mormora te accusabunt. Atque, ut celes omnia, qui videt omnia,
+						<lb/>celare non potes Deum. Disce quid poena praesens, consciae mentis
+						<lb/>pavor et animus culpa plenus seque ipsum timens. Negata est magnis
+						<lb/>sceleribus fides. Compesce, obscero, impii amoris flammas. Expelle facinus,
+						<lb/>mente casta, horridum. Metue concubitus novos miscere thalamis
+						<lb/>mariti"</q>.</p>
+				<p><lb/><q>"Scio rectum esse quod dicis,"</q> retulit Lucretia; <q>"sed furor
+						<lb/>cogit sequi peiora. Scit animus, quantum praecipitium instat et ruit
+						<lb/>sciens. Vincit et regnat furor potensque mente tota dominatur amor.
+						<lb/>Stat sequi, quod regnum iubet Amoris. Nimis, heu! nimis reluctata
+						<lb/>sum frustra. Perfer, si mei te miseret, nuntium"</q>.</p>
+				<p><lb/>Ingemuit super his Sosias <q>"Perque has"</q>, dixit, <q>"canas senectae
+						<lb/>comas, fessumque curis pectus et fida, quae praebui generi tuo,
+						<lb/>servitia, precor supplex: siste furorem teque ipsam adiuva. Pars sanitatis
+						<lb/>est, velle sanari"</q>.</p>
+				<p><lb/>Tum Lucretia: <q>"non omnis"</q>, ait, <q>"ingenium relinquit pudor.
+						<lb/>Parebo tibi, Sosia. Amorem, qui tegi non vult, vincam. Vnicum effugium
+						<lb/>est huius mali, morte ut praevertam nefas"</q>.</p>
+				<p><lb/>Exterritus hac Sosias voce, <q>"moderare,"</q> inquit, <q>"hera, mentis
+						<lb/>effrenae impetus; coerce animos. Nunc vita es digna, quia te nece
+						<lb/>dignam putas"</q>.</p>
+				<p><lb/><q>"Decretum est"</q>, ait Lucretia, <q>"mori. Admissum scelus Collatini
+						<lb/>uxor gladio vindicavit. Ego honestius praeveniam morte committendum.
+						<lb/>Genus laeti quaero. Laqueo, ferro, praecipitio, veneno
+						<lb/>vindicare castitatem licet. Vnum hoc aggrediar"</q>.</p>
+				<p><lb/><q>"Non patiar,"</q> inquit Sosias. At Lucretia: <q>"si quis mori constituit,
+						<lb/>prohiberi non potest,"</q> ait. <q>"Porcia Catonis filia, mortuo
+						<lb/>Bruto, cum ferrum sibi subtractum esset, carbones ardentes ebibit"</q>.</p>
+				<p><lb/><q>"Si tam protervus"</q>, inquit Sosias, <q>"incubat menti furor tuae,
+						<pb n="11"/>
+						<lb/>magis vitae quam famae consulendum est. Fallax saepe fama est,
+						<lb/>quae malo melior, bono peior nonnumquam datur. Temptemus hunc
+						<lb/>Euryalum et amori operam demus. Meus erit iste labor tibique, ni
+						<lb/>fallor, rem confectam dabo"</q>.</p>
+				<p><lb/>His dictis incensum animum inflammavit amore, spemque dedit
+					<lb/>dubiae menti. Sed non illi animus erat ut quod dixerat esset
+					<lb/>facturus. Differre animum feminae quaerebat furoremque imminuere;
+					<lb/>ut saepe tempus exstinguit flammas et adimit aegritudinem dies.
+					<lb/>Existimavit Sosias falsis gaudiis puellam producere donec vel Caesar
+					<lb/>abiret, vel mens illius mutaretur; ne, si negasset, alius quaereretur
+					<lb/>nuntius, aut in se manus mulier iniiceret. Saepe igitur ire atque redire se
+					<lb/>finxit et illum gaudere amore suo et tempus idoneum quaerere, quo
+					<lb/>invicem affari possent. Dixit interdum, non fuisse loquendi opportunitatem.
+					<lb/>Nonnumquam se mitti extra urbem studuit ac in reditum gaudia
+					<lb/>distulit. Sic diebus multis aegrotum pavit animum et, ne per omnia
+				<lb/>mentiretur, semel tamen adortus Euryalum,</p>
+				<p><lb/><q>"O! quam hic dilectus es,"</q> ait, <q>"si scires"</q>. Nec illi quaerenti, quid hoc esset, ultra respondit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>At Euryalus, certo Cupidinis arcu percussus, nullam membris
+					<lb/>quietem dabat, igne furtivo populante venas, qui totas penitus vorabat
+					<lb/>medullas. Non tamen Sosiam novit, nec Lucretia missum
+				<lb/>putavit.</p>
+				<p><lb/>Vt omnes minus spei habemus, quam cupiditatis, hic, ubi
+					<lb/>ardere se vidit, diu imprudentiam suam miratus est, seque multotiens
+				<lb/>increpavit:</p>
+				<p><lb/><q>"En Euryale, quid sit amoris imperium, nosti: longi luctus,
+						<lb/>breves risus, parva gaudia, magni metus, semper moritur et numquam
+					<lb/>mortuus est qui amat. Quid tu te his nugis inmisces iterum?"</q>
+					<lb/>At, cum se frustra niti videret, – <q>"quid tandem"</q>, ait, <q>"incassum,
+						<lb/>miser amori repugno? Num me licebit quod Iulium non licuit,
+						<lb/>quod Alexandrum, quod Hannibalem? Sed quid viros armatos refero?
+						<lb/>Aspice poetas! Vergilius, per funem tractus, ad mediam turrim pependit,
+						<lb/>dum se mulierculae sperat usurum amplexibus. Excuset quis
+						<lb/>poetam, ut laxioris vitae cultorem. Quid de philosophis dicemus,
+						<lb/>disciplinarum magistris et artis bene vivendi praeceptoribus? Aristotelem,
+						<lb/>tamquam equum, mulier ascendit, freno coercuit et calcaribus pupugit"</q>.</p>
+				<p><lb/> <q>"Diis aequa potestas est Caesaris. Non est verum quod
+						<lb/>vulgo dicitur: non bene conveniunt, nec in una sede morantur maiestas
+						<lb/>et amor. Quis est maior amator quam noster Caesar? Quotiens
+						<pb n="12"/>
+						<lb/>hic amori operam dedit? Herculem dicunt, qui fuit fortissimus
+						<lb/>et certa deorum soboles, pharetris et leonis spolio positis, colum
+						<lb/>suscepisse, passumque aptari digitis smaragdos et dari legem rudibus
+						<lb/>capillis et manu, qua clavam gestare solebat, properante fuso, duxisse
+						<lb/>fila. Naturalis est haec passio"</q>.</p>
+				<p><lb/><q>"Sentit ignes genus aligerum. Nam niger a viridi turtur amatur
+						<lb/>ave et variis albae saepe iunguntur columbae, si verborum memini
+						<lb/>quae ad Phaonem Siculum scribit Sappho. Quid quadrupedia referam?
+						<lb/>Movet pro coniugio bella iumentum; timidi cervi proelia poscunt et
+						<lb/>concepti furoris dant signa mugientes. Vruntur Hircanae tigrides;
+						<lb/>vulnificos aper dentes acuit; poeni quatiunt terga leones, cum movit
+						<lb/>amor, ardent insani ponti beluae. Nihil immune est, nihil amori
+						<lb/>negatum; odium perit cum iussit amor. Iuvenum feroces concitat
+						<pb n="13"/>
+						<lb/>flammas, senibusque fessis rursus exstinctos revocat calores; virginum
+						<lb/>ignoto ferit igne pectus. Quid ego naturae legibus renitar?
+						<lb/>Omnia vincit amor; et nos cedamus amori"</q>.</p>
+				<p><lb/>Haec ubi firmata sunt, lenam quaerit, cui ceras ad nuptam ferendas
+					<lb/>committat. Nisus huic fidus comes erat, harum rerum callidus
+					<lb/>magister. Hic provinciam suscipit mulierculamque conducit, cui litterae
+				<lb/>committuntur in hanc sententiam scriptae:</p>
+				<p><lb/><q>"Salutarem te, Lucretia, meis scriptis, si qua mihi salutis copia
+						<lb/>foret; sed omnis tum salus, tum vitae spes meae, ex te pendet. Ego
+						<lb/>te magis quam me amo, nec te puto latere meum ardorem laesi pectoris.
+						<lb/>Index tibi potuit esse vultus meus, saepe lacrimis madidus, et quae
+						<lb/>vidente te, emisi suspiria. Fer benigne, te precor, si me tibi aperio.
+						<lb/>Cepit me decus tuum vinctumque tenet eximia, qua omnibus praestas,
+						<lb/>venustatis gratia."</q></p>
+				<p><lb/><q>"Quid esset amor antehac nescivi. Tu me Cupidinis imperio
+						<lb/>subiecisti. Pugnavi diu, fateor, violentum ut effugerem dominum, sed
+						<lb/>vicit conatus meos splendor tuus. Vicerunt oculorum radii quibus
+						<lb/>es sole potentior."</q></p>
+				<p><lb/><q>"Captivus sum tuus, nec mei amplius compos sum. Tu mihi
+						<lb/>somni et cibi et potus usum abstulisti. Te dies noctesque amo; te
+						<lb/>desidero, te voco, te exspecto; de te cogito, te spero, de te me oblecto,
+						<lb/>tuus est animus, tecum sum totus. Tu me sola servare potes
+						<lb/>solaque perdere. Elige horum alterum et, quid mentis habeas, rescribe.</q></p>
+				<pb n="14"/>
+				<p><lb/><q>"Nec durior erga me verbis esto, quam fueras oculis, quibus me
+						<lb/>colligasti."</q></p>
+				<p><lb/><q>Non peto rem grandem. Vt alloquendi te copiam habeam, postulo.
+						<lb/>Hoc tantum volunt hae litterae meae, ut quae scribo, dicere
+						<lb/>possim coram te. Hoc si das, vivo et felix vivo; sin negas, exstinguitur
+					<lb/>cor meum, quod te magis quam me amat."</q>
+					<lb/><q>"Ego me tibi et tuae commendo fidei. Vale, anime mi et vitae
+					<lb/>subsidium meae"</q>.
+				</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Has ubi gemma signatas accepit lena: festino gradu Lucretiam
+					<lb/>poscit, eaque sola inventa, <q>"hanc tibi epistolam"</q>, inquit, <q>"tota
+						<lb/>caesarea nobilior et potentior curia mittit amator, utque sui te misereat,
+						<lb/>magnis precibus rogat"</q>.</p>
+				<p><lb/>Erat lenocinio notata mulier; nec id Lucretiam latebat permolesteque
+				<lb/>tulit infamem feminam ad se mitti. Atque in eam versa:</p>
+				<p><lb/><q>"Quae te"</q>, ait, <q>"scelesta in hanc domum audacia duxit? Que
+						<lb/>te dementia adire meam praesentiam suasit? Tu nobilium aedes ingredi,
+						<lb/>tu matronas temptare potentes et violare audes legitimas
+						<lb/>faces? Vix me contineo, quin in capillos involem tuos. Tu des
+						<lb/>mihi litteras? Tu me alloquaris? Tu me respicias? Nisi plus quod
+						<lb/>me decet adtenderem, quam quod tibi convenit: te efficerem hodie,
+						<lb/>ne posthac tabellas amatorias ferres. I, ocius venefica, tuasque litteras
+						<lb/>tecum defer: imo, da potius, ut lacerem ignique dedam"</q>.</p>
+				<pb n="15"/>
+				<p><lb/>Arripiensque papirum in partes diversas scidit et calcatam saepe
+				<lb/>pedibus atque consputam, in cinerem projecit.</p>
+				<p><lb/><q>"Ac sic de te"</q>, ait, <q>"sumi supplicium lena deberet, igne quam
+						<lb/>vino dignior. Sed abi ocius, ne te vir inveniat meus et, quas tibi remisi,
+						<lb/>de te poscat poenas; cavetoque admodum ne ante conspectum redeas
+						<lb/>meum"</q>.</p>
+				<p><lb/>Timuisset alia mulier; sed haec matronarum noverat mores
+					<lb/>et intra se ait: <q>"nunc vis maxime quia te nolle ostendis"</q>. Moxque
+				<lb/>ad illam:</p>
+				<p><lb/><q>"Parce"</q>, ait, <q>"domina, putavi me bene facere, tibique placitum
+						<lb/>iri. Si secus est, da veniam imprudentiae meae. Si non vis ut
+					<lb/>redeam, parebo. Tu, quem despicis amantem, videris"</q>.
+				<lb/>Atque his dictis e conspectu recessit. Euryalo autem invento:</p>
+				<p><lb/><q>"Respira"</q>, inquit, <q>"felix amator; plus amat mulier quam amator. Sed
+						<lb/>nunc non fuit rescribendi otium. Inveni moestam Lucretiam: at ubi
+						<lb/>te nomino tuasque litteras dedi: hilarem vultum fecit miliesque
+					<lb/>papirum basiavit. Ne dubita, mox responsum dabit"</q>. Et abiens
+					<lb/>vetula, cavit ne amplius inveniretur, ne pro verbis referret verbera.
+					<lb/>Lucretia vero, postquam anus evasit, fragmenta perquirens
+					<lb/>epistolae, particulas quasque suo loco reposuit et lacera verba contexuit,
+					<lb/>iamque legibile chirographum fecerat; quod, postquam milies egit, miliesque
+					<lb/>deosculata est, tandemque involutum sindone: inter
+					<lb/>pretiosa iocalia collocavit et nunc hoc repetens, nunc illud verbum,
+					<lb/>maiorem horatim bibebat amorem, Euryaloque rescribere statuit atque
+				<lb/>hunc in modum dictatam epistolam misit:</p>
+				<pb n="16"/>
+				<p><lb/><q>"Desine sperare, quod assequi non licet, Euryale. Parce litteris
+						<lb/>et nuntiis me vexare. Nec me illarum ex grege credito, quae se
+						<lb/>pretio vendunt. Non sum quam putas, nec cui submittere lenam
+						<lb/>debeas. Quaere aliam incestandam. Me nullus amor, nisi pudicus
+						<lb/>sequatur. Cum aliis ut libet agito: ex me nil postules te meque
+						<lb/>indignum. Vale"</q>.</p>
+				<p><lb/>Haec epistola, quamvis durior Euryalo visa est et contraria
+					<lb/>lenae dictis, viam tamen ostendit, ultro citroque missitandi.
+					<lb/>Nec dubitavit Euryalus credere, cui fidem Lucretia praebuisset; sed
+					<lb/>angebatur quia sermonis italici nescius erat; ideoque ferventi studio
+					<lb/>curabat ediscere et, quia sedulum faciebat amor: brevi tempore doctus
+					<lb/>evasit solusque sibi dictavit epistolas, quia prius ab aliis mutuabatur,
+					<lb/>quidquid etrusco sermone scribi oportuit. Respondit ergo Lucretiae:
+					<lb/>Nil succensendum esse sibi, quod infamem submiserit feminam,
+					<lb/>cum id se peregrinum lateret, quia alio uti nuntio non potuerat. Missionis
+					<lb/>amorem fuisse causam, qui nil quaereret inhonesti. Credere se
+					<lb/>fore ipsam pudicam, castissimamque atque idcirco maiore dignam
+					<lb/>amore. Insolentem feminam, honorisque sui prodigam, nedum se non
+					<lb/>diligere, sed maximo odio persequi. Pudicitia namque amissa, nil esse,
+					<lb/>quod in femina commendetur. Formam fore delectabile bonum, sed
+					<lb/>fragile caducumque et cui, nisi pudor assit, nihil pretii detur. Quae
+					<lb/>pudicitiam formae adiunxerit, eam divinam esse mulierem, ipsamque
+					<lb/>utraque dote pollentem scire ac propterea coli a se, qui nihil
+					<lb/>ab ea peteret libidinosum, aut obfuturum famae. Optare se tantum
+					<lb/>alloqui, ut animum suum, qui scriptis plene ostendi nequit, verbis aperiat.
+					<lb/>Cumque his litteris munera misit, non solum materia sed etiam
+				<lb/>opere pretiosa. Ad haec Lucretia sic rescripsit:</p>
+				<p><lb/><q>"Accepi litteras tuas iamque nil amplius de lena queror. Quod
+						<lb/>me ames, non magnifacio, quia nec primus es, nec solus, quem mea
+						<lb/>forma decepit. Multi et amaverunt et amant me alii; sed, ut illorum,
+						<lb/>sic et tuus erit vacuus labor. Habere verba tecum nec possum
+						<lb/>nec volo. Invenire me solam, nisi fias hirundo, non potes. Altae sunt
+						<lb/>domus et aditus custodia clausi. Munera tua suscepi, quia oblectavit
+						<lb/>me opus illorum. Sed, ne quid tuum gratis apud me sit, neve
+						<lb/>hoc pignus videatur amoris: remitto ad te annulum quem matri
+						<lb/>meae vir dedit, ut apud te, quasi pretium sit venditorum iocalium.
+						<lb/>Nec enim pretii minoris est gemma eius, quam munus tuum. Vale."</q></p>
+				<p><lb/>His Euryalus sic replicavit:
+					<lb/><q>"Magno mihi gaudio fuit epistola tua, quia finem fecit querelae
+						<lb/>de lena. Sed angit me, quod amorem parvi pendas meum. Nam, etsi
+						<lb/>te plures ament, nullorum tamen ignis comparandus est meo. At
+						<pb n="17"/>
+						<lb/>tu hoc non credis, quia loqui nequeo tecum. Id si daretur, non me
+						<lb/>contemneres."</q></p>
+				<p><lb/><q>"O! utinam fieri possem hirundo; sed libentius transformari in
+						<lb/>pulicem vellem ne mihi fenestram clauderes. At ego, non quod nequeas,
+						<lb/>sed quod nolis doleo; nam quid ego nisi animum respicio.
+						<lb/>Ah! mea Lucretia, quid dixisti te nolle? An, si fieri possit, me nolis
+						<lb/>alloqui qui tuus sum totus? Qui nihil magis cupio quam tibi gerere
+						<lb/>morem; quae, si iubes in ignem ire, citius obediam quam praecipias.
+						<lb/>Mitte, obsecro, verbum hoc."</q></p>
+				<p><lb/><q>"Si non datur facultas, assit voluntas tamen. Neque me verbis
+						<lb/>eneca, quae vitam mihi oculis praebes. Si non placet me alloquium
+						<lb/>petere, quia non sit impetrandum, obsequar. Sed muta sententiam
+						<lb/>illam, qua laborem meum vacuum dixisti futurum. Absit haec crudelitas,
+						<lb/>mitior esto amanti tuo. "</q></p>
+				<p><lb/><q>"Si pergis sic loqui, fies homicida, nec dubita. Facilius tu me
+						<lb/>verbis interimeres, quam alius quivis gladio. Desino iam plura poscere;
+						<lb/>ut redames tantum postulo. Nihil hic est, quod obiicias; nemo
+						<lb/>potest tibi hoc prohibere. Dic te me amare et beatus sum."</q></p>
+				<p><lb/><q>"Munuscula mea, quovis modo apud te sint: gratum est, quia
+						<lb/>illa te aliquando mei admonebunt amoris, sed parva illa fuerunt et
+						<lb/>minora sunt quae nunc mitto. Tu tamen noli spernere, quod amator
+						<lb/>donat, maioraque in dies ex patria debent mihi afferri; cum aderunt,
+						<lb/>ex me recipies. Annulus tuus numquam ex digito meo recedet et
+						<lb/>illum, vice tua, crebris osculis reddam madidum. Vale, delicium meum
+						<lb/>et mihi quod potes solatium dato."</q></p>
+				<p><lb/>Sic cum frequenter replicatum esset, in hunc tandem modum
+				<lb/>Lucretia dedit epistolam:</p>
+				<p><lb/><q>"Vellem tibi, Euryale, morem gerere teque, ut petis, amoris
+						<lb/>mei participem facere, nam id nobilitas tua meretur et mores tui
+						<lb/>deposcunt, ut in cassum ne ames. Taceo quantum mihi placet forma
+						<lb/>tua et plena benignitate facies; sed mihi non est usui, te ut diligam.
+						<lb/>Nosco me ipsam. Si amare incipiam, nec modum, nec regulam servabo.
+						<lb/>Tu hic diu esse non potes, nec ego te, postquam in ludum
+						<lb/>venerim, possem carere. Tu me nolles abducere et ego nollem manere."</q></p>
+				<p><lb/><q>"Movent me multarum exempla, quae per peregrinos amantes
+						<lb/>desertae sunt, ne tuum amorem sequar. Iason Medeam decepit, cuius
+						<lb/>auxilio vigilem interemit draconem et vellus aureum asportavit.
+						<lb/>Tradendus erat Theseus Minotauro in escam; sed Ariadnae fretus
+						<lb/>consilio, evasit; illam tamen desertam apud insulam dimisit. Quid
+						<lb/>Dido infelix quae profugum recepit Aeneam? Nonne illi peregrinus
+						<lb/>amor interitum dedit"</q>.</p>
+				<pb n="18"/>
+				<p><lb/><q>"Scio, quanti periculi sit amorem extraneum admittere. Nec
+						<lb/>me tantis obiciam discriminibus. Vos viri solidiores estis animi
+						<lb/>furoremque magis conpescitis. Femina, ubi furere incipit, sola potest
+						<lb/>morte assequi terminum. Non amant, sed insaniunt mulieres, et nisi
+						<lb/>correspondeat amor, nil est amante femina terribilius. Postquam
+						<lb/>receptus est ignis, nec famam curamus, nec vitam. Vnicum remedium
+						<lb/>est, si copia sit amati. Nam quo magis caremus, eo magis cupimus,
+						<lb/>nec discrimen timemus ullum, dummodo nostrae libidini satisfiat."</q></p>
+				<p><lb/><q>"Mihi ergo nuptae, nobili, diviti, consultum est, amori viam
+						<lb/>procludere et tuo praesertim, qui non potest esse diurnus: ne vel
+						<lb/>rhodopeia Phyllis dicar, aut altera Sappho. Ideo te oratum volo,
+						<lb/>ne ultro meum exposcas amorem et tuum ut paullatim comprimas
+						<lb/>exstinguasque. Nam id est viris quam feminis multo facilius. Nec tu,
+						<lb/>si me, ut dicis, amas: ex me quaerere debes, quod mihi exitio sit.
+						<lb/>Pro tuis donis remitto auream crucem, margaritis ornatam; licet
+					<lb/>brevis sit, non tamen pretio caret. Vale!"</q>
+					<lb/>Non tacuit Euryalus his acceptis, sed, ut erat novis scriptis
+				<lb/>incensus, calamum suscepit atque sub hac forma dictavit epistolam:</p>
+				<p><lb/><q>"Salve, mi anima, Lucretia, quae me tuis litteris salvum facis,
+						<lb/>etsi nonnihil fellis immisceas, sed hoc spero me audito detrahes.
+						<lb/>Venit in manus meas epistola tua clausa et tua gemma signata. Hanc
+						<lb/>et legi saepe et deosculatus sum saepius; sed haec aliud suadet
+						<lb/>quam tuus animus videtur fuisse."</q></p>
+				<p><lb/><q>"Rogas me ut amare desinam, quia non expedit tibi peregrini
+						<lb/>flammas amoris sequi et ponis exempla deceptarum. Sed hoc tam
+						<lb/>ornate culteque scribis, ut mirari magis et amare tuum ingenium
+						<lb/>debeam quam oblivisci. Quis est ille, qui tunc amare desinat, quando
+						<lb/>prudentiorem et sapientiorem animadvertit amicam? Si meum
+						<lb/>minuere amorem volebas, non oportuit doctrinam tuam ostendisse.
+						<lb/>Nam hoc non est incensum exstinguere, sed ignem maximum ex
+						<lb/>parva conflare favilla."</q></p>
+				<p><lb/><q>"Ego, dum legi, magis exarsi videns formae tuae praeclarae
+						<lb/>et honestati coniunctam esse doctrinam. Verba sunt tantum, quibus
+						<lb/>rogas, ut amare desistam. Roga montes, ut in planum veniant, utque
+						<lb/>fontes sua repetant flumina. Tam possem ego te non amare,
+						<lb/>quam suum relinquere Phoebus cursum. Si possunt carere nivibus
+						<lb/>Scythiae montes, aut maria piscibus, et feris silvae: poterit et oblivisci
+						<lb/>Euryalus tui."</q></p>
+				<p><lb/><q>"Non est pronum viris, ut reris Lucretia, flammas exstinguere:
+						<lb/>nam quod tu sexui nostro ascribis, plerique vestro assignant. Sed
+						<lb/>nolo hoc certamen nunc ingredi. Ad ea me respondere oportet quae
+						<lb/>in adversum retulisti. Idcirco enim nolle te mihi correspondere amanti</q></p>
+				<pb n="19"/>
+				<p><lb/><q>"Sed possem ego quoque plures referre, quos feminae reliquerunt:
+						<lb/>Troilum, sicut nosti, Priami filium, Chryseis decepit. Deiphobum
+						<lb/>Helena prodidit. Amantes Circe suos medicamentis vertit in
+						<lb/>sues atque aliarum terga ferarum."</q></p>
+				<p><lb/><q>"Sed iniquum est, ex paucarum consuetudine, totum vulgus censere.
+						<lb/>Nam si sic pergimus, et tu, propter duos, tresve malos aut
+						<lb/>etiam decem viros omnes accusabis horrebisque: et propter todiem
+						<lb/>feminas caeterae omnes erunt odio mihi? Quin potius alia sumamus
+						<lb/>exempla, qualis amor Antonii Cleopatraeque fuit et aliorum quos
+						<lb/>epistolae brevitas referre non sinit."</q></p>
+				<p><lb/><q>"Sed tu Ovidium legisti, invenistique; post Troiam dirutam,
+						<lb/>Achivorum plurimos, dum remeant, peregrinis retentos amoribus,
+						<lb/>numquam in patriam revertisse. Haeserunt namque amatricibus suis,
+						<lb/>carereque potius necessariis, domo, regnis et aliis, quae sunt in patria
+						<lb/>cuique gratissima, voluerunt quam amicas relinquere."</q></p>
+				<p><lb/><q>"Haec te rogo, mea Lucretia, cogites non illa quae nostro sunt
+						<lb/>amori adversa et quae pauci fecerunt. Ego ea mente te sequor, ut perpetuo
+						<lb/>te amem, simque perpetuo tuus. Nec tu me peregrinum dixeris;
+						<lb/>magis namque civis sum, quam qui hic nascitur; nam illum casus
+						<lb/>fecit civem, me vero electio. Nulla mihi patria erit, nisi ubi tu sis
+						<lb/>et, quamvis aliquando contingat, me hinc abire, reditus tamen festinus
+						<lb/>erit. Nec ego in Teutoniam revertar, nisi res meas compositurus
+						<lb/>ordinaturusque, ut tecum esse quamdiu possim. Facile manendi
+						<lb/>apud te reperietur occasio. Multa his in partibus Caesari negotia sunt.
+						<lb/>Haec mihi committi expedienda curabo. Nunc legatione fungar, nunc
+						<lb/>munus exercebo. Vicarium in Etruria Caesarem habere oportet. Hanc
+						<lb/>ego provinciam impetrabo."</q></p>
+				<p><lb/><q>"Nec dubita, suavium meum Lucretia, meumque cor, spes mea:
+						<lb/>si vivere absque corde possum et te relinquere possum. Age iam
+						<lb/>tandem; miserere amantis tui, qui tamquam nix ad solem eliquescit.
+						<lb/>Considera meos labores et modum iam denique meis martyriis statue.
+						<lb/>Quid me tamdiu crucias? Miror ego mei, quod tot tormenta perpeti
+						<lb/>potuerim, qui tot noctes insomnes duxi, qui tot ieiunia toleravi. Vide
+						<lb/>quam macer sum et pallidus. Parva res est, quae spiritum alligatum
+						<lb/>corpori detinet."</q></p>
+				<p><lb/><q>"Si tibi aut parentes aut filios occidissem: non poteras de me
+						<lb/>maius quam hoc supplicium sumere. Si sic me punis, qui te amo:
+						<lb/>quid ergo illi facies, qui tibi damnum dederit, aut malum? Ah!
+						<lb/>mea Lucretia, mea hera, mea salus, meum refugium! Suscipe me in
+						<lb/>gratiam; demum rescribe, me tibi carum. Nil aliud volo, liceat mihi
+						<lb/>dicere: servus Lucretiae sum. Et reges et Caesares amant servos, ubi
+						<lb/>fideles noverint. Nec dii dedignantur redamare, qui illos amant. Vale!
+						<lb/>spes mea, meusque metus."</q></p>
+				<pb n="20"/>
+				<p><lb/>Vt turris quae, fracta interius, inexpugnabilis videtur exterius,
+					<lb/>si vero aries admotus fuerit, mox confringitur: sic Euryali verbis
+					<lb/>Lucretia victa est. Postquam enim sedulitatem amantis aperte cognovit,
+					<lb/>et ipsa dissimulatum patefecit amorem atque his litteris Euryalo
+				<lb/>se aperuit:</p>
+				<pb n="21"/>
+				<p><lb/> <q>"Non possum tibi amplius adversari, nec te amplius, Euryale,
+						<lb/>mei amoris expertem habere possum. Vicisti iamque sum tua. Me
+						<lb/>miseram! quae tuas suscepi litteras! Nimium multis exponenda sum
+						<lb/>periculis, nisi tua me fides et prudentia iuvet. Vide, ut serves, quae
+						<lb/>scripsisti. In amorem iam tuum venio. Si me deseris et crudelis et
+						<lb/>proditor et omnium pessimus es. Facile est feminam decipere; sed
+						<lb/>quanto facilius, tanto turpius."</q></p>
+				<p><lb/><q>"Adhuc res integra est. Si putas me deserendam: dicito, antequam
+						<lb/>magis amor ardet. Nec incipiamus, quod postmodum incepisse
+						<lb/>poeniteat. Omnium rerum respiciendus est finis. Ego, ut feminarum
+						<lb/>est, parum video. Tu vir es, te mei et tui curam habere oportet. Do
+						<lb/>me iam tibi, tuamque sequor fidem. Nec tua esse incipio nisi ut sim
+						<lb/>perpetuo tua. Vale! meum praesidium meaeque ductor vitae."</q></p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Post hanc plures epistolae missae utrimque sunt; nec tam ardenter
+					<lb/>scripsit Euryalus, quam ferventer Lucretia respondit. Vnum
+					<lb/>iam utriusque desiderium erat simul conveniendi; sed arduum ac
+					<lb/>pene impossibile videbatur, omnium oculis Lucretiam observantibus;
+					<lb/>quae nec sola unquam egrediebatur, nec unquam custode carebat. Nec
+					<lb/>tam diligenter bovem Iunonis Argus custodivit, quam Menelaus
+					<lb/>iusserat observari Lucretiam. Vitium hoc late apud Italos patet; feminam
+					<lb/>suam, quasi thesaurum, quisque recludit; meo iudicio minus
+					<lb/>utiliter. Sunt enim fere huiusmodi mulieres omnes, ut id potissimum
+					<lb/>cupiant quod maxime denegatur: quae ubi velis nolunt, ubi
+					<lb/>nolis cupiunt ultro. Eae, si liberas habent habenas, minus delinquunt.
+					<lb/>Exinde tam facile est invitam custodire mulierem, quam in
+					<lb/>fervente sole pulicum gregem observasse. Nisi suapte casta sit mulier,
+					<lb/>frustra maritus nititur ponere seram. Cohibe! sed quis custodiet
+					<lb/>ipsos custodes? Cauta est et ab illis incipit uxor. Indomitum
+				<lb/>animal est mulier, nullisque frenis retinendum.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Erat Lucretiae spurius frater; huic saepe tabellas commiserat,
+					<lb/>Euryalo deferendas; hunc enim sui amoris conscium fecerat. Cum hoc
+					<lb/>igitur convenitur, Euryalum ut clam domi suscipiat; habitabatque
+					<lb/>hic apud novercam suam, Lucretiae matrem, quam Lucretia saepe
+					<lb/>visitabat et ab ea saepius visitabatur; nec enim magno intervallo
+				<lb/>distabant.</p>
+				<p><lb/>Ordo ergo is erat: ut, clauso in conclavi Euryalo, postquam
+					<lb/>mater ecclesiasticas auditura cerimonias exivisset: Lucretia superveniret,
+					<lb/>tamquam matrem domi conventura; qua non inventa, reditum
+					<pb n="22"/>
+					<lb/>exspectaret; interea vero apud Euryalum esset. Post biduum statutus
+					<lb/>erat terminus. At hi dies quasi anni visi sunt amantibus longi, ut
+					<lb/>bene sperantibus horae productae sunt, male timentibus correptae.
+					<lb/>Sed non arrisit amantum desideriis fortuna. Praesensit namque
+					<lb/>insidias mater; atque, ut dies venit, egressa domum privignum exclusit,
+					<lb/>qui mox Euryalo triste nuntium tulit; cui non magis quam
+					<lb/>Lucretiae fuit molestum; quae, postquam detectos agnovit dolos: <q>"hac
+						<lb/>non successit, alia,"</q> inquit, <q>"aggrediamur via. Nec potens erit
+						<lb/>mater meis obsistere voluptatibus"</q>.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Pandalus viro affinis erat, quem iam Lucretia fecerat arcanorum
+					<lb/>scium; nec enim poterat ignitus animus quiescere. Significat ergo
+					<lb/>Euryalo, hunc ut alloquatur, quia fidus sit et conveniendi viam possit
+					<lb/>monstrare. At Euryalo non videbatur tutum illi se credere, quem
+					<lb/>Menelao semper haerentem intuebatur et subesse fallaciam verebatur.
+					<lb/>Inter deliberandum autem iussus est Euryalus Romam petere
+					<lb/>atque, cum Pontifice Maximo, de coronatione transigere; quae res
+					<lb/>tum sibi, tum amicae molestissima fuit; sed oportebat Caesaris imperium
+					<lb/>ferre. Iter ergo, mora duorum mensium fuit. Lucretia interim
+					<lb/>domi manere, fenestras claudere, moestas induere vestes coepit, nusquam
+					<lb/>exire voluit. Mirari omnes coeperunt, nec causam noscere potuerunt.
+					<lb/>Senae ipsae viduae videbantur et, tamquam sol defecisset,
+					<lb/>cuncti se putabant in tenebris agere. Domestici, qui eam saepe incubantem
+					<pb n="23"/>
+					<lb/>lectulo et numquam laetam videbant, aegritudini imputabant
+					<lb/>et quidquid remediorum afferri poterat, perquirebant. Sed numquam
+					<lb/>illa vel risit, vel thalamum egredi voluit, nisi, postquam redire Euryalum
+					<lb/>et illi Caesarem obviam esse cognovit. Tunc enim, quasi e gravi somno
+					<lb/>excitata, lugubri veste deposita et ornamentis redimita prioribus, fenestras
+					<lb/>aperuit, laetabundaque illum exspectavit. Quam ut Caesar vidit:
+					<lb/><q>"ne nega amplius, Euryale"</q>, inquit, <q>"detecta res est. Nemo unquam,
+						<lb/>absente te, Lucretiam videre potuit; nunc, quia redisti, auroram cernimus.
+						<lb/>Quis enim modus assit amori? Tegi non potest amor, nec abscondi
+						<lb/>tussis"</q>.</p>
+				<p><lb/> <q>"Iocaris mecum ut soles, Caesar, et me in risum ducis"</q>, Euryalus
+					<lb/>ait. <q>"Ego quod hoc sit non scio. Hinnitus equorem et prolixae
+					<lb/>turbae strepitus tuae, illam forsitan excitavit"</q>. Atque sic effatus, Lucretiam
+					<lb/>furtim aspexit et oculos coniecit in oculos. Eaque post reditum,
+				<lb/>prima consolatio fuit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Paucis deinde interiectis diebus, Nisus Euryalo fidus comes, dum
+					<lb/>anxius amici causae favet: tabernam speculatus est, quae post Menelai
+					<lb/>domum sita, in Lucretiae cameram retrorsum habebat intuitum. Cauponem
+					<lb/>igitur sibi conciliat, spectatoque loco, Euryalum adducit et: «hac»,
+					<lb/>inquit, <q>"ex fenestra Lucretiam alloqui poteris"</q>.
+					<lb/>Media inter utramque domum cloaca fuit, nec homini nec soli
+					<pb n="24"/>
+					<lb/>accessa, triumque ulnarum distantia fenestram Lucretiae disterminabat.
+					<lb/>Hic diu consedit amator, exspectans, si quis casus Lucretiam
+					<lb/>ostenderet. Nec deceptus est. Affuit tandem Lucretia; tumque huc atque
+					<lb/>illuc respiceret: <q>"quid agis"</q>, ait Euryalus, <q>"vitae rectrix meae? quo
+						<lb/>tendis lumina, meum cor? huc, huc dirige oculos, praesidium meum.
+						<lb/>Tuus hic Euryalus est: Me, me, assum, me respice"</q>.</p>
+				<p><lb/><q>"Tune hic ades?"</q> inquit Lucretia. <q>"O mi Euryale! Iam te alloqui
+						<lb/>possum, utinam et amplecti valerem!"</q>.</p>
+				<p><lb/> At istud ait Euryalus:
+					<lb/><q>"Non magno conatu faciam. Scalam huc admovebo. Obsera thalamum.
+						<lb/>Amoris nostri gaudia nimium distulimus"</q>.</p>
+				<p><lb/><q>"ave, mi Euryale, si me vis salvam. Fenestra hic ad dexteram
+						<lb/>est vicinusque pessimus; nec cauponi credendum est qui parva pecunia,
+						<lb/>te et me perderet. Sed alia incedemus via. Sat est si hinc sermoni
+						<lb/>nostro patet accessus"</q>, respondit Lucretia.</p>
+				<p><lb/><q>"At mihi"</q>, inquit Euryalus, <q>"mors est haec visio, nisi te simul
+						<lb/>amplector meisque bracchiis teneo mediam"</q>.</p>
+				<p><lb/>Diu ex hoc loco tractus est sermo, missaque hinc per arundinem
+					<lb/>sunt munera. Nec Euryalus in donis quam Lucretia liberalior
+				<lb/>fuit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Sensit dolos Sosias; secumque: <q>"Frustra"</q>, inquit, <q>"amantum conatibus
+						<lb/>obsto. Nisi hastu provideo et hera peribit et dominus infamiam
+						<lb/>subibit. Ex his malis satius est unum avertere. Amet hera, nihil nocebit,
+						<lb/>si clam fit. Ipsa prae amore caeca est, nec quid agat satis prospicit.
+						<lb/>Si non potest custodiri pudicitia, satis est rumorem tollere, ne
+						<lb/>domus infamis fiat, neve parricidium committatur."</q></p>
+				<p><lb/><q>"Adibo et operam praebebo meam. Restiti quoad potui ne committeretur
+						<lb/>nefas. Id, quia non licuit, meum est curare ut quod peius
+						<lb/>agitur, occultum sit, (parum enim refert non agere) et sic agere, ut
+						<lb/>nemo sciat. Commune malum libido est; nec homo est quem pestis
+					<lb/>haec non agitet et ille castior habetur qui cautius agit"</q>.
+					<lb/>Dum sic fatur, Lucretiam egressam thalamo videt; aggressusque
+				<lb/>feminam:</p>
+				<p><lb/><q>"Quid nam est"</q>, inquit, <q>"quod nihil amoris mihi committas?
+						<lb/>Euryalus tibi nihilominus dilectus est et, ut clam ames, vide cui des
+						<lb/>fidem. Primus sapientiae gradus est non amare, secundus, ut si ames,
+						<lb/>ne palam flat. Sola hoc sine internuntio, facere non potes. Quanta
+						<lb/>mihi apud te sit fides, longo iam tempore didicisti. Si quid mihi committere
+						<lb/>vis, iube. Mihi maxima cura est ne amor iste detegatur et tu
+						<lb/>poenam luas et vir omnium oblocutiones ferat"</q>.</p>
+				<p><lb/>Ad haec Lucretia:
+					<lb/><q>"Sic est, ut ais Sosia"</q>, inquit, <q>"et tibi magnam habeo fidem, sed
+						<pb n="25"/>
+						<lb/>tu visus es, nescio quo modo, negligens et meis adversus desideriis.
+						<lb/>Nunc, quia sponte te offers, utar obsequiis tuis; nec abs te decipi timebo.
+						<lb/>Tu scis quantum ardeo; diu ferre non possum hanc flammam. Iuva
+						<lb/>me, ut simul esse possimus. Euryalus amore languet et ego morior.
+						<lb/>Nihil peius est quam obstare cupidini nostrae. Si semel invicem convenerimus,
+						<lb/>temperantius amabimus et noster tectus erit amor. Vade igitur,
+						<lb/>Euryaloque viam unicam me accedendi dicito"</q>.</p>
+				<p><lb/> <q>"Si abhinc quadriduo, dum rustici frumentum afferunt, vectoris
+						<lb/>personam induat, opertusque sacco, triticum per scalas in horreum
+						<lb/>ferat. Tute scis, thalamum meum ad scalas habere ostium, atque omnia
+						<lb/>Euryalo dicito. Hic diem manebo et, dum erit tempus, sola in cubili
+					<lb/>ero. Ipse ostium impellat, dum solus sit, ad me ingrediatur"</q>.
+					<lb/>Sosias, quamvis arduum facinus esset, maiora veritus mala, provinciam
+					<lb/>suscepit, Euryaloque invento cuncta ex ordine nuntiat, quae
+					<lb/>ille iudicans levia, libenter amplectitur seque imperatis accingit, nec
+				<lb/>aliud queritur, quam nimiam moram.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>O insensatum pectus amantis! O mentem coecam! O animam
+					<lb/>audacem corque intrepidum! Quid est tam invium quod tibi non pervium
+					<lb/>videatur? quid tam arduum quod planum non aestimes? Quid
+					<lb/>tam clausum quod tibi non sit apertum? Tu omne discrimen parvi
+					<lb/>facis; tu nihil difficile censes. Inanis est apud te omnis custodia
+					<lb/>maritorum. Nullae te leges tenent, nulli metui, nulli pudori obnoxius
+				<lb/>es. Omnis labor tibi est ludus, tibi nil obstat unquam.</p>
+				<p><lb/>O rerum Amor domitor omnium! Tu virum primatem, Caesari
+					<lb/>acceptissimum, divitiis affluentem, aetate maturum, imbutum litteris,
+					<lb/>prudentia clarum, eo perducis, ut posita purpura, saccum induat, vultum
+					<lb/>fuco tegat, servus ex domino fiat et, qui nutritus in deliciis
+					<lb/>fuerat, iam humeros gestandis oneribus aptet seque publicum baiulum
+				<lb/>mercede locet.</p>
+				<p><lb/>O rem mirandam, peneque incredibilem! Virum alioquin consilio
+					<lb/>gravissimum, inter catervas vectorum cernere atque in colluvie illa,
+					<lb/>faeceque hominum contubernium habuisse! Quis transformationem querat
+					<lb/>maiorem? Hoc est, quod Ovidius Metamorphoseon innuere vult,
+					<lb/>dum fieri ex hominibus aut bestias scribit, aut lapides aut plantas.
+					<lb/>Hoc et poetarum eximius Maro sensit, dum Circes amatores in terga
+					<lb/>ferarum verti cantavit. Nam ita est, ex amoris flamma sic mens hominis
+				<lb/>alienatur: ut parum a bestiis differat.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<pb n="26"/>
+				<p><lb/> Linquens croceum Tithoni Aurora cubile, iam diem reserabat
+					<lb/>optatum, moxque suum rebus colorem Apollo reddens: exspectantem
+					<lb/>recreat Euryalum, qui tunc se fortunatum beatumque censuit, cum
+				<lb/>admixtum se vilibus servis, nulli noscendum vidit.</p>
+				<p><lb/>Pergit igitur, ingressusque Lucretiae domum frumento se oneravit,
+					<lb/>positoque in horreo tritico: ultimus descendentium fuit atque,
+					<lb/>ut erat perdoctus, ostium maritalis thalami, quod in medio scalarum
+					<lb/>clausum videbatur, impulit, seque intro recepit et, reclusis foribus,
+					<lb/>solam Lucretiam serico intentam videt atque accedens propius:
+					<lb/>«Salve, mi anime», inquit, <q>"salve, unicum vitae praesidium,
+						<lb/>spesque mea! Nunc te solam offendi. Nunc, quod semper optavi, semotis
+						<lb/>arbitris, te amplector. Nullus iam paries, nulla distantia meis
+						<lb/>obstat osculis"</q>.</p>
+				<p><lb/>Lucretia, quamvis ordinem ipsa dedisset: primo congressu stupuit,
+					<lb/>nec Euryalum, sed spiritum se videre putabat, ut quae virum
+					<lb/>tantum ad ea pericula iturum sibi non suadebat. At ubi, inter amplexus
+				<lb/>et oscula, suum agnovit Euryalum, impavida ait:</p>
+				<p><lb/><q>"Tune hic es"</q>, inquit, <q>"paupercule? Tune hic ades, Euryale?"</q>, et rubore
+					<lb/>per genas fuso, complexa est arctius hominem et media fronte dissaviata.
+				<lb/>Moxque repetens sermonem:</p>
+				<p><lb/><q>"Heu! quanto te"</q>, ait, <q>"discrimini subiecisti! Quid amplius dicam?
+						<lb/>Iam me tibi charissimam scio; iam tui amoris feci periculum,
+						<pb n="27"/>
+						<lb/>sed neque tu me aliam invenies. Dii tantum fata secundent et amori
+						<lb/>nostro prosperum eventum dent. Dum spiritus hos reget artus, praeter
+						<lb/>te nemo Lucretiae potens erit, ne maritus quidem, si rite maritum
+						<lb/>appello qui mihi invitae datus est et in quem numquam animus consensit
+						<lb/>meus. Sed age, mea voluptas, meum delicium, abiicito saccum
+						<lb/>hunc teque mihi, ut es, ostende. Exue vectoris speciem. Hos funes
+						<lb/>missos fac, Euryalum me videre concedito"</q>.</p>
+				<p><lb/>Iam ille, depositis sordibus, ostro fulgebat et auro et amoris in
+				<lb/>officium pronus ibat. Tum Sosias ante ostium pulsitans:</p>
+				<p><lb/><q>"Cavete"</q>, inquit, <q>"amantes; nescio quid rerum quaerens, Menelaus
+						<lb/>huc festinat, tegite furta vestra dolisque virum fallite. Nihil est
+						<lb/>quod egredi putetis"</q>.</p>
+				<p><lb/>Tum Lucretia:
+					<lb/><q>"Latibulum parvum sub strato est, illic pretiosae res sunt. Scis,
+						<lb/>quid tibi scripserim, si te mecum existente, vir adventaret. Ingredere
+					<lb/>huc, tutus his tenebris eris. Neque te moveris neque screatum dederis"</q>.
+					<lb/>Anceps quid agat, Euryalus mulieris imperium subit. Illa, foribus
+					<lb/>patefactis ad sericum redit. Tum Menelaus et una Bertus assunt,
+					<lb/>chirographa nonnulla, ad rem publicam pertinentia, quaesituri; quae
+				<lb/>postquam nullis inventa sunt scriniis:</p>
+				<p><lb/><q>"In latibulo nostro"</q>, inquit Menelaus, <q>"forsitan erunt. I, Lucretia,
+						<lb/>lumenque affer, hic intus quaerendum est"</q>.</p>
+				<p><lb/>His exterritus Euryalus vocibus exsanguis fit iamque Lucretiam
+				<lb/>odisse incipit atque inter se:</p>
+				<p><lb/><q>"Heu, me fatuum"</q>, inquit, <q>"quis me huc venire compulit nisi
+						<lb/>levitas mea? Nunc deprehensus sum, nunc infamis fio, nunc Caesaris
+						<lb/>gratiam perdo. Quid gratiam? utinam mihi vita supersit! Quis me
+						<lb/>hinc vivum eripiet? Emori certum est"</q>.</p>
+				<p><lb/><q>"O me vanum et stultorum omnium stultissimum! In hanc sentinam
+						<lb/>volens cecidi. Quid haec amoris gaudia, si tanti emuntur? Brevis
+						<lb/>est illa voluptas, dolores longissimi. O si nos haec pro regno coelorum
+						<lb/>subiremus! Mira est hominum stultitia. Labores breves nolumus pro
+						<lb/>longissimis tolerare gaudiis. Amoris causa, cuius laetitia fumo comparari
+						<lb/>potest, infinitis nos obiectamus angustiis."</q></p>
+				<p><lb/><q>"Ecce me ipsum! Iam ego exemplum, iam fabula omnium ero,
+						<lb/>nec quis exitus pateat, scio. Hinc si me deorum quispiam traxerit,
+						<lb/>nusquam me rursus amor illaqueabit. O Deus! eripe me hinc, parce
+						<lb/>iuventuti meae! Noli meas metiri ignorantias! Reserva me, ut horum
+						<lb/>delictorum poenitentiam agam!"</q></p>
+				<p><lb/><q>"Non me amavit Lucretia, sed quasi cervum in casses voluit deprehendere.
+						<lb/>Ecce! venit dies meus. Nemo me adiuvare potest, nisi tu
+						<lb/>Deus meus. Audieram ego saepe mulierum fallacias; nec declinare scivi.
+					<lb/>At, si nunc evasero: nulla me unquam mulieris techna deludet"</q>.
+					<pb n="28"/>
+					<lb/>Sed nec Lucretia minoribus urgebatur molestiis, quae non solum
+					<lb/>suae, sed amantis quoque saluti timebat. At, ut est in periculis subitaneis,
+				<lb/>mulierum quam virorum promptius ingenium, excogitato remedio:</p>
+				<p><lb/> <q>"Age"</q>, inquit, <q>"mi vir! Cistella illic super fenestra est ubi te
+						<lb/>memini monimenta nonnulla recondidisse. Videamus an illic chirographa
+					<lb/>sint reclusa"</q>. Subitoque decurrens, tamquam vellet aperire cistellam,
+				<lb/>latenter illam deorsum impulit et, quasi casu cecidisset:</p>
+				<p><lb/> <q>"Proh! mi vir"</q>, ait, <q>"adesto ne quid damni sentiamus. Cistella
+						<lb/>ex fenestra decidit, perge ocius! ne iocalia vel scripturae dispereant.
+						<lb/>Ite, ite ambo! Quid statis? Ego hinc, ne quis furtum faciat, oculis
+						<lb/>observabo"</q>.</p>
+				<p><lb/> Vide audaciam mulieris! I nunc et feminis credito. Nemo
+					<lb/>tam oculatus est, ut falli non possit. Is dumtaxat non fuit illusus, quem
+					<lb/>coniunx fallere non temptavit. Plus fortuna quam ingenio sumus felices.
+					<lb/>Motus hoc facto Menelaus Bertusque una repente in viculum se
+					<lb/>praecipitant. Domus, etrusco more, altior fuit multique gradus descendendi
+					<lb/>erant. Hinc datum est Euryalo spatium mutandi locum, qui
+				<lb/>ex monitu Lucretiae in novas latebras se recepit.</p>
+				<p><lb/> Illi, collectis iocalibus atque scripturis, quia chirographa quibus
+					<lb/>opus erat, non repererant, ad scrinia, iuxta quae latuerat Euryalus,
+					<lb/>transeunt ibique voti compotes facti, consalutata Lucretia recesserunt.
+					<pb n="29"/>
+				<lb/>Illa obducto foribus pessulo:</p>
+				<p><lb/> <q>"Exi, mi Euryale! exi, mi anime!"</q> inquit. <q>"Veni gaudiorum summa
+						<lb/>meorum. Veni fons delectationum mearum, scaturigo laetitiae, favum
+						<lb/>mellis. Veni, dulcedo incomparabilis mea. Iam tuta sunt omnia, iam
+						<lb/>nostris sermonibus liber campus patet, iam locus est amplexibus tutus.
+						<lb/>Adversari osculis nostris fortuna voluit, sed aspiciunt dii nostrum
+						<lb/>amorem; nec tam fidos amantes deserere voluerunt. Veni iam meas
+						<lb/>in ulnas! Nihil est quod amplius vereare, meum lilium, rosarumque
+						<lb/>cumulus. Quid stas? quid times? Tua hic sum Lucretia. Quid cunctaris
+						<lb/>Lucretiam amplexari?"</q>.</p>
+				<p><lb/> Euryalus, vix tandem formidine posita, sese recepit complexusque
+				<lb/>mulierem:</p>
+				<p><lb/> <q>"Numquam me"</q>, inquit, <q>"tantus invasit timor, sed digna tu es,
+						<lb/>cuius causa talia tollerentur. Nec ista oscula et tam dulces amplexus
+						<lb/>obvenire cuipiam gratis debent. Nec ego, ut verum fatear, satis emi
+						<lb/>tantum bonum. Si post mortem vivere possem, teque perfrui,
+						<lb/>emori millies vellem, si hoc pretio tui possent amplexus coemi. O!
+						<lb/>mea felicitas! O! mea beatitudo! Visum video an ita est? Teneo te,
+						<lb/>aut somniis illudor vanis? Tu certe hic es et ego te habeo"</q>.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Erat Lucretia levi vestita palla quae membris absque ruga haerebant;
+					<lb/>nec vel pectus vel clunes mentiebantur; ut erant arctus sic
+					<lb/>se ostentabant. Gulae candor nivalis, oculorum lumen tamquam solis
+					<lb/>iubar. Intuitus laetus, facies alacris, genae veluti lilia, purpureis immixta
+					<lb/>rosis. Risus in ore suavis atque modestus. Pectus amplum, papillae
+					<lb/>quasi duo punica poma ex utroque latere tumescebant pruritumque
+				<lb/>palpitantibus movebant.</p>
+				<p><lb/> Non potuit Euryalus ultra stimulum cohibere sed, oblitus timoris,
+				<lb/>modestiam quoque abs se repulit aggressusque feminam:</p>
+				<p><lb/> <q>"Iam"</q>, inquit, <q>"fructum sumamus amoris"</q>, remque verbis iungebat.
+					<lb/>Obstabat mulier curamque sibi honestatis et famae fore dicebat;
+				<lb/>nec aliud eius amorem quam verba et oscula poscere.</p>
+				<p><lb/> Ad quae subridens Euryalus:
+					<lb/><q>"Aut scitum est"</q>, inquit, <q>"me huc venisse aut nescitum. Si
+						<lb/>scitum, nemo est qui non caetera suspicetur et stultum est infamiam
+						<lb/>sine re subire. Si vero nescitum et hoc quoque sciet nullus. Hoc pignus
+						<lb/>amoris est, emoriar prius, quam hoc caream"</q>.</p>
+				<p><lb/> <q>"Ah, scelus est!"</q> inquit Lucretia.</p>
+				<p><lb/> <q>"Scelus est"</q>, refert Euryalus, <q>"bonis non uti cum possis. At
+					<lb/>ego occasionem mihi concessam, tam quaesitam, tam optatam, amitterem?"</q>.
+					<lb/>Acceptaque mulieris veste, pugnantem feminam, quae vincere
+				<lb/>nolebat, abs negotio vicit.</p>
+				<pb n="30"/>
+				<p><lb/>Nec Venus haec satietatem, ut Amnoni cognita Tamar peperit,
+					<lb/>sed maiorem sitim excitavit amoris. Memor tamen discriminis Euryalus,
+					<lb/>postquam vini cibique paulisper hausit, repugnante Lucretia, recessit;
+					<lb/>nec sinistre quisquam suspicatus est, quia unus ex baiulis
+				<lb/>putabatur.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Admirabatur se ipsum Euryalus, dum viam pergeret; secumque:
+					<lb/><q>"O! si nunc"</q>, inquit, <q>"se obvium mihi daret Caesar, meque
+						<lb/>agnosceret, quam illi habitus hic suspicionem faceret, quam me rideret!
+						<lb/>Fabula omnibus essem et illi iocus. Numquam me missum faceret, donec
+						<lb/>sciret omnia. Dicendum esset quid sibi haec rustica vestis vellet.
+						<lb/>Sed fingerem, non hanc, sed aliam me dicerem adiisse matronam; nam
+						<lb/>et ipse hanc amat, nec ex usu est, meum sibi amorem patere. Lucretiam
+						<lb/>numquam proderem, quae me suscepit servavitque"</q>.</p>
+				<p><lb/>Dum sic loquitur, Nisum, Achatem, Palinurumque vidit, eosque
+					<lb/>praeit: nec prius ab his cognitus est quam domi fuit; ubi, positis saccis,
+					<lb/>praetextaque sumpta, rerum pandit eventum; dumque, quis timor et
+					<lb/>quod gaudium intercessit, memoriter narrat: nunc timenti, nunc exultanti
+				<lb/>similis fit. Inter timendum autem:</p>
+				<p><lb/><q>"Heu me stultum!"</q> inquit, <q>"feminae meum commisi caput. Non
+						<lb/>sic me pater admonuit, dum me nullius feminae fidem sequi debere
+						<lb/>docebat? Ille feminam dicebat animal esse indomitum, infidum, mutabile,
+						<lb/>crudele, mille passionibus deditum. Ego, paternae immemor
+						<pb n="31"/>
+						<lb/>disciplinae vitam meam mulierculae tradidi. Quid si me, oneratum
+						<lb/>frumento, aliquis agnovisset? Quod dedecus, quaenam infamia mihi et
+						<lb/>meis posteris evenisset! Alienum me Caesar fecisset, tamquam levem
+					<lb/>et insanum punivisset. Potuissem haec contemnere."</q>
+					<lb/><q>"Quid autem, si me vir, dum scrinia versabat, latentem invenisset?
+						<lb/>Saeva est lex iulia moechis. Exigit tamen dolor mariti maiores poenas,
+						<lb/>quam lex ulla concesserit. Necat haec ferro, necat ille cruentis verberibus;
+						<lb/>quosdam moechos et mugilis intrat. Sed putemus virum pepercisse
+						<lb/>vitae meae. Num me in vinculis coniecisset aut infamem Caesari
+						<lb/>tradidisset? Dicamus et illius me manus effugere potuisse, quia inermis
+						<lb/>erat, mihique fidus ensis haerebat lateri. At vir comitatus erat
+						<lb/>et arma ex pariete pendebant captu facilia; in domo longus famulorum
+						<lb/>ordo. Clamores mox invaluissent et ostia fuissent clausa; tunc de me
+						<lb/>supplicium sumptum fuisset</q>".</p>
+				<p><lb/><q>"Heu me dementem! Nulla me prudentia liberavit ab hoc discrimine,
+						<lb/>sed casus. Quid casus? imo et promptum ingenium Lucretiae.
+						<lb/>O fidam feminam! O amatricem prudentem! O insignem et nobilissimum
+						<lb/>amorem! Cur me tibi non credam? Cur tuam non sequar fidem?
+						<lb/>Mille mihi assint cervices, omnes tibi committam. Tu fidelis es, tu
+						<lb/>cauta, tu prudens, scis amare et amantem tueri</q>".</p>
+				<p><lb/><q>"Quis tam cito excogitare potuisset viam qua me quaerentes
+						<lb/>averteret, ut tu ipsa cogitasti? Tu mihi hanc vitam servasti, eandem
+						<lb/>tibi devoveo. Non meum est sed tuum quod spiro. Non erit mihi
+						<lb/>durum perdere propter te, quod per te teneo. Tu vitae meae ius habes,
+						<lb/>tu necis imperium</q>".</p>
+				<p><lb/><q>"O candidum pectus! O dulcem linguam! O suaves oculos! O
+						<lb/>ingenium velox! O membra marmorea succique plena! Quando ego
+						<lb/>vos revisam? quando iterum corallina labia mordebo? quando tremulam
+						<lb/>linguam ori meo inmurmurantem denuo sentiam? papillasque
+						<lb/>unquam illas retractabo?</q>"</p>
+				<p><lb/><q>"Parum est, Achates, quod in hac muliere vidisti. Quo propior
+						<lb/>est femina eo formosior est. Vtinam una mecum fuisses! Non Candaulis
+						<lb/>regis Lydiae formosa uxor formosior fuit, quam ista est.
+						<lb/>Non miror, illum voluisse nudam coniugem socio demonstrare, ut plenius
+						<lb/>sumeret gaudium. Ego quoque itidem facerem. Si facultas esset,
+						<lb/>Lucretiam tibi nudam ostenderem. Aliter autem nec tibi effari, quanta
+						<lb/>sit eius pulchritudo possum, nec tu, quam solidum, quamque plenum
+						<lb/>meum fuerit gaudium, potes considerare. Sed congaude mecum, quia
+						<lb/>maior fuit voluptas, quam verbis possit exponi</q>".</p>
+				<p><lb/>Sic Euryalus cum Achate. Nec pauciora secum Lucretia dicebat;
+					<lb/>eius tamen tanto minor laetitia fuit, quo taciturnior. Aliis fidem non
+					<lb/>habuit ut rem posset referre: Sosiae prae verecundia totum non
+				<lb/>audebat narrare.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<pb n="32"/>
+				<p><lb/>Pacorus interea, Pannonius eques, domo nobilis, qui Caesarem
+					<lb/>Vsequebatur, ardere Lucretiam coepit et, quia formosus erat, redamari
+					<lb/>putabat, solamque feminae pudicitiam obstare sibi rebatur. Illa, sicut
+					<lb/>mos est nostris dominabus, omnes vultu blando intuebatur. Ars est,
+					<lb/>sive deceptio potius, ne verus amor palam fiat. Insanit Pacorus, nec
+				<lb/>consolari potest, nisi Lucretiae mentem persentiat.</p>
+				<p><lb/> Solent matronae senenses, ad primum lapidem, sacellum divae
+					<lb/>Mariae, quod in Bethlehem nuncupatur, saepius visitare. Huc Lucretia,
+					<lb/>duabus comitata virginibus et anu quadam, proficiscebatur. Sequitur
+					<lb/>Pacorus violam in manibus gestans, deauratis foliis, in cuius collo
+					<lb/>epistolam amatoriam, subtilibus inscriptam membranis, absconderat.
+					<lb/>Nec mirere; tradit enim Cicero, Iliadem omnem, ita subtiliter
+					<lb/>scriptam, sibi ostensam fuisse, ut testa nucis clauderetur.
+					<lb/>Offert violam Lucretiae seque commendat Pacorus. Respuit donum
+					<lb/>Lucretia. Instat Pannonius magnis precibus. Tum anus: <q>"Recipe</q>",
+					<lb/>inquit, <q>"hera, donatum florem. Quid times, ubi nullum est periculum?
+						<lb/>Parva res est, qua potes hunc militem placare</q>".</p>
+				<p><lb/> Secuta est Lucretia anilem suasionem violamque recepit
+					<lb/>Parumper ultra progressa, violam alteri ex virginibus didit. Nec diu
+					<lb/>post obviam facti sunt duo studentes, qui virgunculam, ut sibi florem
+					<lb/>traderet, non magno negotio induxerunt apertoque violae stipite,
+					<lb/>carmen amatorium invenerunt. Solebat enim hominum genus
+					<lb/>pergratum esse matronis nostris. Sed, postquam Caesaris curia Senas
+					<lb/><pb n="33"/>
+					<lb/>venit, irrideri, despici et odio haberi coepit, quia plus armorum strepitus,
+					<lb/>quam litterarum lepor, nostras feminas oblectabat. Hinc grandis
+					<lb/>livor et simultas ingens erat, quaerebantque togae vias omnes, quibus
+				<lb/>possent sagis.</p>
+				<p><lb/> Vt ergo violae dolus patuit, ad Menelaum mox itur, epistolamque
+					<lb/>ut legat rogatur. Ille moestus domum pergit, uxorem increpat domumque
+					<lb/>clamoribus implet. Negat se ream uxor, remque gestam exponit
+					<lb/>et anus adducit testimonium. Itur ad Caesarem, fit querela, vocatur
+					<lb/>Pacorus. Is crimen fatetur, petensque veniam, numquam se posthac
+					<lb/>Lucretiam vexaturum, iure iurando confirmat; sciens tamen Iovem
+					<lb/>non irasci, sed arridere periuriis amantum: sterilem flammam, ut
+				<lb/>magis prohibitus erat, eo diligentius sequebatur.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Venit hiems exclusisque Nothis, solum Boream admittebat.
+					<lb/>Cadunt ex coelo nives; solvitur in ludum civitas; iactant matronae
+					<lb/>in vicos, iuvenes in fenestras, nivem. Hinc nactus occasionem Pacorus,
+					<lb/>epistolam alteram cera includit, ceramque nive tegit et cingit, factaque
+				<lb/>pila, in fenestram Lucretiae iacit.</p>
+				<p><lb/> Quis non omnia regi fortuna dicat? Quis non favorabilem eius
+					<lb/>cupit flatum? Fati enim plus valet hora benigni, quam si te Veneris
+					<lb/>commendet epistola Marti. Dicunt quidam, nihil esse, quod in
+					<lb/>sapiente queat fortuna. Hoc ego his sapientibus concedo, qui sola
+					<lb/>virtute gaudent, qui et pauperes et aegroti et in tauro Phalaridis
+					<pb n="34"/>
+					<lb/>clausi, vitam se credunt possidere beatam; qualem nullum adhuc vel
+				<lb/>vidi, vel fuisse putarim.</p>
+				<p><lb/>Communis hominum vita favoris indiget fortunae. Haec quos
+					<lb/>vult elevat et quos vult deprimit. Quis Pacorum perdidit nisi fortuna?
+					<lb/>Numquid prudentis consilii fuit, in nodis violae clausisse tabellas
+					<lb/>et nunc, beneficio nivis, epistolam transmisisse? Dicet aliquis
+					<lb/>fieri cautius potuisse. Quodsi hoc consilium iuvisset fortuna et cautus
+					<lb/>hic et prudentissimus iudicatus fuisset. Sed obstans fatum, pilam, ex
+					<lb/>Lucretiae manibus lapsam, apud ignem duxit, ubi, solutis calore nivibus
+					<lb/>liquefactaque cera, tabellas manifestavit; quas tum vetulae, quae
+					<lb/>se calefaciebant, tum Menelaus, qui aderat perlegerunt novasque lites
+					<lb/>excitaverunt, quas Pacorus, non excusatione, sed fuga vitavit.
+					<lb/>Hic amor ex usu venit Euryalo. Nam vir, dum gressus et actus
+					<lb/>Pacori speculatur, insidiis Euryali locum facit, verumque est, quod
+					<lb/>dici solet: non facile custodiri quod a pluribus amatur vel
+				<lb/>expugnatur.</p>
+				<p><lb/> Exspectabant amantes, post primum concubitum, secundas nuptias.
+					<lb/>Viculus erat, inter aedes Lucretiae atque vicini perarctus erat, per
+					<lb/>quem, pedibus in utrumque parietem porrectis, in fenestram Lucretiae
+					<lb/>haud difficilis praebebatur ascensus; sed hac ascendere solum noctu
+				<lb/>licebat.</p>
+				<p><lb/>Menelao petendum rus erat ibique pernoctandum; qui dies ab
+					<lb/>amantibus, tamquam Saturnaliorum exspectabatur. Fit recessus. Mutatis
+					<pb n="35"/>
+					<lb/>Euryalus vestibus in viculum se recepit. Stabulum illic Menelaus
+					<lb/>habebat, quod Euryalus, docente Sosia, ingressus est ibique noctem
+				<lb/>manens, sub foeno latebat.</p>
+				<p><lb/>Tum ecce Dromo, qui erat Menelai secundus famulus, equis
+					<lb/>praepositus, impleturus praesepia, foenum ex Euryali latere suscepit,
+					<lb/>eratque amplius suscepturus et Euryalum furca percussurus, nisi Sosias
+				<lb/>obviasset, qui, ut discrimen agnovit:</p>
+				<p><lb/><q>"Da mihi hanc operam</q>", inquit, <q>"frater bone. Ego pabulum
+						<lb/>equis praebebo. Tu interea loci vide, an nobis cena instructa sit.
+						<lb/>Gaudendum est, dum herus abest. Melius est nobis cum domina, quam
+						<lb/>cum illo. Haec iucunda est et perliberalis; ille iracundus, clamorosus,
+						<lb/>avarus, difficilis. Numquam nobis bene est, dum ille adest. Videsne,
+						<lb/>ut ventres nostros iniquo castigat modio, qui semper esurit, ut nos
+						<lb/>fame cruciet; nec sustinet mucida frusta caerulei panis consumi, sed
+						<lb/>hesternum minutal servat in mensem uniusque cenae siluros et
+						<lb/>anguillas salsas in alteram differt et numerata fila sectivi porri, ne
+						<lb/>quid tangamus, signata recludit. Miser, qui per haec tormenta quaerit
+						<lb/>divitias. Nam quid stultius quam vivere pauperem, ut locuples moriaris?
+						<lb/>Quanto melius nobis hera, quae non contenta vitulis nos pascere et teneris
+						<lb/>hoedis, gallinas quoque turdosque ministrat et vini copiam melioris.
+						<lb/>I, Dromo, cura ut quam uncta popina sit</q>".</p>
+				<p><lb/><q>"Istud</q>", inquit Dromo, <q>"curae habebo et mensam potius, quam
+						<lb/>equos fricabo. Herum hodie in rus deduxi, quod sibi male succedat.
+						<lb/>Numquam mihi verbum dixit, nisi vesperi, cum me remisit et equos
+						<lb/>renuntiarique dominae iussit non se redditurum hac nocte.
+						<lb/>«Laudo te, Sosia, qui tandem odire coepisti domini mores. Ego
+						<lb/>iam mutassem dominum, nisi me domina matutinis retinuisset offellis.
+						<lb/>Nihil dormiendum est hac nocte. Bibamus, voremus, donec veniat dies.
+						<lb/>Non tantum per mensem lucrabitur herus, quantum nos una cena
+						<lb/>consumemus</q>".</p>
+				<p><lb/>Audiebat haec Euryalus libens, tametsi mores servorum notabat et
+					<lb/>idem sibi fieri non dubitabat, cum domo abesset. Et, cum huiusmodi
+					<lb/>verba aliquantulum deducta fuissent, utique Dromo recessit. Assurgens
+				<lb/>Euryalus:</p>
+				<p><lb/><q>"O quam</q>", inquit, <q>"beatam noctem, Sosia, tuo beneficio sum
+						<lb/>habiturus, qui me huc duxisti et, ne patefierem, probe curasti. Vir
+						<lb/>bonus es, meritoque te amo, nec tibi non gratus inveniar</q>".</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<pb n="36"/>
+				<p><lb/>Aderat hora praescripta. Laetus Euryalus, quamvis duobus perfunctus
+					<lb/>discriminibus, murum ascendit, ad apertam fenestram subintrat,
+					<lb/>Lucretiam penes foculum sedentem paratisque obsoniis exspectantem,
+					<lb/>reperit. Illa, ut amantem cognovit, assurgens, medium
+					<lb/>complexa est. Fiunt blanditiae, dantur oscula, itur in Venerem tensis
+				<lb/>velis, – fessamque navigio Cytheream nunc Ceres reficit, nunc Bacchus.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Heu! quam breves voluptates sunt, quam longae sollicitudines.
+					<lb/>Vix horam Euryalus laetam habuerat; tum ecce Sosiam qui reditum
+					<lb/>Menelai nuntiat, gaudiumque perturbat. Timens Euryalus fugere studet.
+					<lb/>Lucretia, mensis absconditis, obviam viro pergit reversumque
+				<lb/>salutat, et:</p>
+				<p><lb/><q>"O mi vir!</q>" inquit, <q>"quam bene redisti; nam ego iam te re
+						<lb/>villica inviscatum rebar. Quid tu tamen rure tam diu fecisti? Cave
+						<lb/>ne quid olfaciam! Cur non domi manes? Quid me tua contristari
+						<lb/>absentia studes? Semper, dum abes, timeo tibi; tum ne quam ardeas,
+						<lb/>formido ut sunt infidi uxoribus suis viri. Quo metu, si me vis solvere,
+						<lb/>numquam extra dormias; nec enim sine te nox est mihi ulla iucunda.
+						<lb/>Sed cena hic iam, post cubitum ibimus</q>".</p>
+				<p><lb/>Erant tum in aula, ubi prandere familia solet, ibique virum
+					<lb/>detinere Lucretia nititur, donec Euryalus abeundi spatium suscepisset,
+					<lb/>cui necessaria erat morula quaedam. Menelaus autem foris cenatus
+					<lb/>erat seque in thalamum recipere festinabat. Tum Lucretia:
+					<pb n="37"/>
+					<lb/>«Parum me amas», inquit, «cur non potius domi apud me cenasti?
+					<lb/>Ego, quia tu aberas, nec comedi hodie, nec bibi quidquam. Venerunt
+					<lb/>tamen villici ex Rosalia, nescio quid vini portantes: optimum esse
+					<lb/>ferebant trebianum. Ego pare moestitia nihil gustavi. Nunc, quoniam
+					<lb/>ades, eamus, si placet, in cellarium introrsum, gustemusque vinum,
+				<lb/>si, ut illi dixerunt, tam suavissimum sit».</p>
+				<p><lb/>Hisque dictis, laternam dextra, virum sinistra manu recipit et
+					<lb/>in intimum penum descendit, tamque diu nunc hunc, nunc illum cadum
+					<lb/>terebravit ac cum viro pitissavit, donec Euryalum putavit abiisse.
+					<lb/>Ac ita demum ad ingratos hymenaeos cum viro transivit. Euryalus
+				<lb/>intempesta nocte domum repetiit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/> Sequenti luce, sive quod sic expediebat camerae, sive suspicio
+					<lb/>mala fuit, muro fenestram Menelaus obstruxit. Credo, ut sunt concives
+					<lb/>nostri in coniuncturas acuti, suspicionumque pleni: timuisse Menelaum
+					<lb/>loci commoditatem, utque parum fidebat uxori, occasionem demere voluisse.
+					<lb/>Nam, etsi nihil conscius erat illi, vexatam tamen
+					<lb/>feminam, multis dietim temptatam precibus, non ignorabat et animum
+					<lb/>cognoscebat mulieris instabilem, cuius tot sunt voluntates quot
+					<lb/>in arboribus folia. Sexus enim femineus novitatis est cupidus, raroque
+					<lb/>virum amat, cuius copiam habet. Sequebatur ergo viam maritorum
+					<lb/>pervulgatam, quorum opinio est, infortunium bonis excludi
+				<lb/>custodiis.</p>
+				<p><lb/>Erepta est hinc conveniendi facultas, nec mittendis litteris permissa
+					<lb/>libertas est, nam et cauponem, qui post aedes Lucretiae vinariam
+					<lb/>tabernam conduxerat, ex qua Euryalus solebat affari Lucretiam
+					<lb/>et litteras per arundinem mittere, sicut Menelaus suasit, magistratus
+				<lb/>expulit.</p>
+				<p><lb/>Restabat solus oculorum intuitus, nutuque tantum se consultabant
+					<lb/>amantes; neque istac, amoris extrema linea, commode perfrui
+					<lb/>poterant. Erat ingens dolor utrique, cruciatusque morti similis, quia
+				<lb/>nec amoris poterant oblivisci, nec in eo perseverare.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<pb n="38"/>
+				<p><lb/>Dum sic anxius Euryalus, quid consilii capiat meditatur: venit
+					<lb/>in mentem Lucretiae monitum, quod sibi de Pandalo scripserat,
+					<lb/>Menelai sobrino, – peritosque medicos imitatus, quibus mos est in
+					<lb/>periculosis aegritudinibus anceps adhibere medicamentum et ultima
+					<lb/>potius experiri, quam morbum sine cura relinquere. Aggredi Pandalum
+					<lb/>statuit remediumque suscipere, quod antea refutarat. Hinc igitur,
+				<lb/>eo accersito et in penitiorem domus partem vocato:</p>
+				<p><lb/><q>"Sede</q>", inquit, <q>"amice; rem grandem tibi dicturus sum, indigentem
+						<lb/>his, quas in te scio sitas: diligentia, fide et taciturnitate.
+						<lb/>Volui haec dudum iam tibi dixisse; sed non eras mihi adhuc plene
+						<lb/>cognitus; nunc et te nosco et, quia probatae fidei es, amo et observo:
+						<lb/>quod, si aliud de te nescirem: satis est, quia omnes tui concives
+						<lb/>te laudant; tum comites mei quibuscum amicitiam conflavisti et, qui
+						<lb/>sis et quanti pendendus, me certum fecere; ex quibus te cupere
+						<lb/>meam benivolentiam didici, cuius te iam facio participem, quia non
+						<lb/>minus illa es dignus, quam ego sum tua. Nunc, quid velim, quoniam
+						<lb/>inter amicos res agitur, paucis exponam</q>".</p>
+				<p><lb/><q>"Tu scis mortale genus quam in amorem sit pronum, seu virtutis sit,
+						<lb/>seu vitii. Late patet ista calamitas, nec cor est, si modo
+						<lb/>carneum est, quod amoris non aliquando sentiat stimulos. Scis, quia
+						<lb/>nec sanctissimum David, nec sapientissimum Salamonem, nec Samsonem
+						<lb/>fortissimum ista passio dimisit immunem</q>".</p>
+				<pb n="39"/>
+				<p><lb/><q>"Incensi praeterea pectoris et amoris imbibiti ea natura est, ut
+						<lb/>si quis prohibeat, magis ardeat. Nulla re magis ista curatur pestis
+						<lb/>quam dilecti copia. Fuerunt plures, tum viri, tum mulieres, tam nostra,
+						<lb/>quam maiorum nostrorum memoria, quibus inhibitio durissimae necis
+						<lb/>fuit occasio. Contra vero, plerosque novimus, qui post concubitum
+						<lb/>et amplexus passim concessos, mox furere desiverunt</q>".</p>
+				<p><lb/><q>"Nihil consultius est, postquam amor ossibus haesit: quam
+						<lb/>furori cedere. Nam, qui adversus tempestatem nititur, saepe naufragium
+						<lb/>facit et, qui obtemperat procellae superat. Haec ideo dixi, quia
+						<lb/>te scire meum amorem volo et quid mei causa sis facturus. Tibi
+						<lb/>quod emolumentum hinc sit oriturum, nihil tacebo, quia iam mei
+						<lb/>cordis alteram te reputo partem</q>".</p>
+				<p><lb/> <q>"Ego Lucretiam diligo; neque hoc, mi Pandale, mea culpa est
+						<lb/>factum, sed regente fortuna, in cuius manu est, quem colimus orbis.
+						<lb/>Mihi non erant noti mores vestri, nec huius urbis consuetudines
+						<pb n="40"/>
+					<lb/></q>noram. Putabam ego, feminas vestras, quod oculis monstrant in
+					<lb/>corde sentire. Sed inescant homines vestrae maritatae, non amant.
+					<lb/>Hinc deceptus sum. Credidi namque amatum me Lucretiae fore, dum
+					<lb/>me luminibus intuebatur placidis, coepique contra diligere. Nec tam
+				<lb/>elegantem dominam dignam putavi, cui vices non redderentur amoris.</p>
+				<p><lb/><q>"Nondum te noram vel tuum genus. Amavi, putans amari".
+						<lb/>Quis enim tam saxeus est aut ferreus qui non amet amatus? Sed
+						<lb/>postquam fraudes novi meque dolis irretitum, ne meus sterilis esset
+						<lb/>amor: nisus sum omnibus artibus, illam incendere, ut par pari referretur</q>".</p>
+				<p><lb/> <q>"Ardere namque, nihilque urere, tum rubor erat, tum anxietas
+						<lb/>animi, quae me, die noctuque, mirum in modum cruciabat et eram
+						<lb/>adeo introrsus, ut egredi nullo pacto valerem. Factum est igitur,
+						<lb/>ut me continuante par sit amor amborum. Illa incensa est, ego
+						<lb/>ardeo; ambo perimus; nec remedium protelandae vitae videmus ullum,
+						<lb/>nisi tu sis adiumento</q>".</p>
+				<p><lb/> <q>"Vir eam custodit et frater. Non tam vellus aureum pervigil
+						<lb/>draco servabat, nec aditum Orci Cerberus, quam ista diligenter
+						<lb/>recluditur. Novi ego familiam vestram. Scio, quia nobiles estis inter
+						<lb/>primores urbis, divites, potentes, amati. Vtinam numquam novissem
+						<lb/>hanc feminam! Sed quis est, qui possit resistere fatis? Non elegi
+						<lb/>hanc, sed casus dedit amandam</q>".</p>
+				<p><lb/> <q>"Sic res se habet. Tectus est adhuc amor; sed nisi bene regatur,
+						<lb/>magnum adhuc, quod Superi avertant, malum pariet. Possem ego me
+						<lb/>fortass is compescere, si hinc abirem; quod, quamquam mihi esset
+						<lb/>gravissimum: facerem tamen, vestrae familiae gratia, si hoc putarem
+						<lb/>ex usu fore. Sed nosco illius furorem. Aut me sequeretur, aut manere
+						<lb/>coacta, mortem sibi conscisceret, quod esset domui vestrae dedecus
+						<lb/>perpetuum</q>".</p>
+				<p><lb/><q>"Quod igitur te volebam teque vocabam, vestri causa est, ut
+						<lb/>obviemus his malis. Nec alia via est, nisi ut amoris nostri aurigam
+						<lb/>te praebeas, curesque, ut bene dissimulatus ignis non fiat apertus.
+						<lb/>Ego me tibi commendo, do, devoveo. Obsequere nostro furori; ne,
+						<lb/>dum oppugnatur, magis incendatur. Cura, ut semel convenire possimus,
+						<lb/>quo facto mox humiliabitur amor, tollerabiliorque reddetur.
+						<lb/>Tute scis aditus domus: scis quando vir abest: scis quomodo me
+						<lb/>valeas introducere</q>".</p>
+				<p><lb/><q>"Frater viri avertendus est, qui est ad has res nimium perspicax,
+						<lb/>Lucretiamque, – tamquam locum germani teneat, – magna
+						<lb/>cura custodit, inversaque Lucretiae verba, eversas cervices, gemitus,
+						<lb/>screatus, tussim, risus attente considerat. Hunc eludere sententia
+						<lb/>est; nec sine te fieri potest</q>".</p>
+				<pb n="41"/>
+				<p><lb/><q>"Assis ergo et, quando abfuturus sit vir, me instrue remanentemque
+						<lb/>fratrem diverte, ne custos adfixus Lucretiae sit, neve custodes
+						<lb/>adhibeat alios. Tibi credet et, quod dii faxint, hanc tibi provinciam
+						<lb/>fortasse committet: quam si susceperis et me iuveris, ut
+						<lb/>spero, in vado res est. Poteris enim me clam, dum caeteri dormiunt,
+						<lb/>intromittere et amorem lenire furentem</q>".</p>
+				<p><lb/><q>"Ex his quot emergant utilitates, arbitror, te pro tua prudentia
+						<lb/>palam cernere. Servabis namque imprimis honorem domus, amorem
+						<lb/>teges, qui non posset absque vestra infamia manifestari. Sobrinam tuam
+						<lb/>in vita tenebis, Menelao uxorem custodies, cui non tam obest una nox
+						<lb/>mihi concessa, nesciis omnibus, quam si, sciente populo, illam perdiderit
+						<lb/>me sequentem. Nupta senatori romano secuta est Hippia ludium
+						<lb/>ad Pharon et Nilum famosaque moenia Lagi. Quid, si me domi
+						<lb/>nobilem atque potentem Lucretia sequi statuat? Quod dedecus vestri
+						<lb/>generis, quis populi risus? Quae nedum vestra, sed totius civitatis infamia!
+						<lb/>Diceret forsitan aliquis: absumenda potius ferro, aut exstinguenda
+						<lb/>venenis est mulier, quam id agat. Sed vae illi, qui se humano
+						<lb/>sanguine polluit et maiori scelere vindicat minus. Non augenda sunt
+						<lb/>mala, sed minuenda. Nos hoc scimus, ex duobus bonis melius deligendum
+						<lb/>aut ex malo, et bono, quod sit bonum; sed ex malis duobus, quod
+						<lb/>minus obsit.</q>"</p>
+				<p><lb/><q>"Omnis via periculi plena est, sed haec, quam monstro minus
+						<lb/>habet discriminis, per quam nedum sanguini tuo consules, sed mihi
+						<lb/>quoque proderis, qui paene insanio, dum mei causa video Lucretiam
+						<lb/>cruciari, cui potius esse odio vellem, quam te rogare. Sed hic sumus,
+						<lb/>eo deducta res est, ut, nisi tuis artibus, tua cura, ingenio atque sollicitudine
+						<lb/>navis regatur: nulla salutis spes maneat.</q>"</p>
+				<p><lb/><q>"Iuva igitur et illam et me, tuamque domum absque nota conserva.
+						<lb/>Nec me putes ingratum. Scis, apud Caesarem quanti sim.
+						<lb/>Quidquid petieris, impetratum tibi efficiam et hoc ante omnia tibi
+						<lb/>polliceor, doque fidem, palatinum te comitem futurum, omnemque
+						<lb/>tuam posteritatem hoc titulo gavisuram. Ego tibi Lucretiam, meque
+						<lb/>et nostrum amorem et famam nostram et tui generis decus committo,
+						<lb/>tuaeque mando fidei. Tu arbiter es; omnia haec in te sita
+						<lb/>sunt. Vide, quid agas; et servare potes ista et perdere</q>".</p>
+				<p><lb/>Subrisit his Pandalus, factaque morula: <q>"noram haec, Euryale</q>",
+					<lb/>dixit, <q>"et utinam non accidissent; sed eum in locum, sicut abs te
+						<lb/>dictum est, res rediit, ut necesse sit, me, quod iubes efficere, nisi et
+						<lb/>nostrum genus affici contumeliis et scandalum ingens cupiam exoriri.
+						<lb/>Ardet mulier, sicut dixisti, et impotens sui est; nisi occurro, ferro
+						<lb/>se fodiet aut ex fenestris se dabit praecipitem. Nec vitae iam sibi nec
+						<lb/>honoris est cura.</q>"</p>
+				<pb n="42"/>
+				<p><lb/>Ipsa mihi suum ardorem patefecit. Restiti, increpavi, lenire
+					<lb/>flammam studui, nihil profeci. Omnia praeter te parvi facit. Nihil
+					<lb/>nisi te curat. Tu illi semper in mente sedes; te petit, te desiderat,
+				<lb/>te solum cogitat. Saepe me vocitans, <q>"audi precor, Euryale</q>", dixit.</p>
+				<p><lb/><q>"Sic mulier ex amore mutata est, ut iam non eadem videatur. Heu
+						<lb/>pietas, heu dolor! Nulla prius in urbe tota vel castior vel prudentior
+						<lb/>Lucretia fuit. Mira res, si tantum iuris natura dedit amori
+						<lb/>in mentes humanas. Medendum est huic aegritudini; nec alia cura
+						<lb/>est, nisi quam tu monstrasti. Accingam me huic operi teque, dum
+						<lb/>tempus erit, commonefaciam. Nec ex te gratiam quaero, quia non
+						<lb/>est officium boni viri, cum is nil promereatur, gratiam poscere. Ego,
+						<lb/>ut vitem infamiam nostrae imminentem familiae, hoc ago; quod, si
+						<lb/>tibi conducit, non propterea sum praemiandus</q>".</p>
+				<p><lb/><q>"At enim</q>", Euryalus inquit, <q>"ego vel sic tibi gratiam habeo, ut
+						<lb/>creari te comitem, ut dictum est, faciam; tu modo dignitatem istam
+						<lb/>non spernas</q>".</p>
+				<p><lb/><q>"Non sperno</q>", inquit Pandalus <q>"sed ne hinc profecta sit, volo.
+						<lb/>Si ventura est, libere veniat. Nihil ego conditionale facio. Si potuisset
+						<lb/>hoc, te nesciente fieri, mea ut opera apud Lucretiam esses: libentius
+						<lb/>id egissem. Vale!</q>"</p>
+				<p><lb/><q>"Et tu vale!</q>" retulit Euryalus. <q>"Postquam animum reddidisti,
+						<lb/>fac, finge, inveni, effice ut simul simus</q>".</p>
+				<p><lb/><q>"Laudabis</q>", inquit Pandalus, laetusque abiit, quod tanti viri
+					<lb/>gratiam invenisset; tum quia se comitem fore iam sperabat, cuius
+					<lb/>dignitatis tanto erat cupidior, quanto se minus cupere demonstrabat.
+					<lb/>Sunt enim homines quidam ut mulieres quae tum maxime nolle dicunt:
+					<lb/>tunc maxime volunt. Hic lenocinii mercedem sortitus est:
+				<lb/>comitatum et auream bullam suae nobilitatis posteritas demonstrabit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>In nobilitate multi sunt gradus, mi Mariane, et sane, si cuiuslibet
+					<lb/>originem quaeras, sicut mea sententia fert: aut nullas nobilitates
+					<lb/>invenies, aut admodum paucas, quae sceleratum non habuerint
+					<lb/>ortum. Cum enim hos dici nobiles videamus, qui divitiis abundant,
+					<lb/>divitiae vero raro virtutis sint comites: quis non videt, ortum
+					<lb/>nobilitatis esse degenerem. Hunc usurae ditaverunt, illum spolia, proditiones
+					<lb/>alium. Hic veneficiis ditatus est, ille adulationibus. Huic
+					<lb/>adulteria lucrum praebent, nonnullis mendacia prosunt. Quidam faciunt
+					<lb/>ex coniuge quaestum, quidam ex gnatis. Plerosque homicidia
+					<lb/>iuvant. Rarus est, qui iuste divitias congreget. Nemo fascem amplum
+					<lb/>facit, nisi qui omnes metit herbas. Congregant homines divitias
+					<lb/>multas nec unde veniant, sed quam multae veniant, quaerunt.
+					<lb/>Omnibus hic versus placet: <q>"unde habeas querit nemo, sed oportet
+						<pb n="43"/>
+					<lb/>habere.</q>" Postquam vero plena est arca, tunc nobilitas poscitur quae,
+					<lb/>sic quaesita, nihil est aliud, quam praemium iniquitatis.
+					<lb/>Maiores mei nobiles habiti sunt, sed nolo mihi blandiri; non
+					<lb/>puto meliores fuisse proavos meos aliis, quos sola excusat antiquitas,
+					<lb/>quia non sunt in memoria eorum vitia. Mea sententia nemo est nobilis,
+					<lb/>nisi virtutis amator. Non miror aureas vestes, equos, canes,
+					<lb/>ordinem famulorum, lautas mensas, marmoreas aedes, villas, praedia,
+					<lb/>piscinas, iurisdictiones, silvas, – nam et haec omnia stultus assequi
+					<lb/>potest, quem, si quis nobilem dixerit: ipse fiet stultus. Pandalus noster
+				<lb/>lenocinio nobilitatus est.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/> Non multis post diebus rure, inter Menelai rusticos, rixatum
+					<lb/>est et occisi nonnulli, qui plus aequo biberant, opusque fuit ad res
+				<lb/>componendas Menelaum proficisci. Tum Lucretia:</p>
+				<p><lb/><q>"Mi vir</q>", inquit, <q>"gravis es homo debilisque; equi tui graviter
+					<lb/>incedunt; quare gradiarium aliquem recipe commodatum</q>". Cumque
+					<lb/>ille percunctaretur ubinam esset aliquis: –
+					<lb/><q>"Optimum</q>", inquit Pandalus, <q>"nisi fallor, Euryalus habet et
+						<lb/>tibi libens concedet, si me vis petere</q>".</p>
+				<p><lb/><q>"Pete</q>", inquit Menelaus.</p>
+				<p><lb/>Rogatus Euryalus, mox equum iussit adduci, idque signum sui gaudii
+				<lb/>recepit; secumque tacite dixit:</p>
+				<p><lb/><q>"Tu meum equum ascendes, Menelae, ego tuam uxorem equitabo</q>".
+					<lb/>Conventum erat, ut noctis ad horam quintam in vico Euryalus
+				<lb/>esset, speraretque bene si cantantem Pandalum audiret.</p>
+				<pb n="44"/>
+				<p><lb/>Abierat Menelaus, iamque coelum noctis obduxerant tenebrae.
+					<lb/>Mulier in cubili tempus manebat, Euryalus ante fores erat signumque
+					<lb/>morabatur; nec cantum audiebat, nec screatum. Iam praeterierat hora
+					<lb/>et, ut abiret Euryalus, suadebat Achates delusumque dicebat. Durum
+					<lb/>erat amanti recedere et nunc unam, nunc aliam causam manendi
+				<lb/>quaerebat.</p>
+				<p><lb/>Non canebat Pandalus, quia Menelai frater domi manserat et
+					<lb/>omnes aditus scrutabatur, ne quid insidiarum fieret noctemque trahebat
+				<lb/>insomnem. Cui Pandalus:</p>
+				<p><lb/><q>"Numquamne hac nocte cubitum ibimus? Iam nox medium poli
+						<lb/>transcendit axem et me gravis occupat somnus. Miror te, cum iuvenis
+						<lb/>sis, senis habere naturam, quibus siccitas somnum auffert, numquam
+						<lb/>dormiunt, nisi paululum prope diem, dum currus volvitur septentrionalis
+						<lb/>Helices, cum iam tempus esset surgendi. Eamus tamen tandem
+						<lb/>dormitum. Quid tibi haec volunt vigiliae?</q>".</p>
+				<p><lb/><q>"Eamus</q>", inquit Agamemnon, <q>"si tibi sic videtur; antea tamen
+					<lb/>inspiciendae sunt fores, an satis firmatae sint, ne furibus pateant</q>".
+					<lb/>Veniensque ad ostium, nunc unam, nunc aliam seram admovit et
+					<lb/>pessulum addidit. Erat illic ingens ferrum, quod vix duo poterant
+					<lb/>elevare, quo nonnumquam ostium claudebatur; quod postquam Agamemnon
+				<lb/>movere non potuit:</p>
+				<p><lb/><q>"Iuva me</q>", inquit, <q>"Pandale, admoveamus ferrum hoc ostio ne
+					<lb/>fures subeant; tum dormire in utramvis aurem otiose poterimus.</q>"
+					<lb/>Audiebat hos sermones Euryalus et: <q>"actum est</q>", tacitus ait,
+				<lb/><q>"si hoc ferramentum adjungitur.</q>" Tum Pandalus:</p>
+				<p><lb/><q>"Quid tu paras, Agamemnon? Tanquam domus obsidenda sit
+						<lb/>firmare ostium paras. An tuti sumus in civitate? Libertas hic est
+						<lb/>et quies omnibus eadem, cum hostes procul sunt, quibuscum bella
+						<lb/>gerimus, Florentini. Si fures times, sat clausum est: si hostes, nihil
+						<lb/>est, quod hac in domo te possit tueri. Ego hac nocte non subibo hoc
+						<lb/>onus, quia scapulas doleo et infra sum fractus, nec gestandis oneribus
+						<lb/>sum idoneus. Aut tute leva, aut sine</q>".</p>
+				<p><lb/><q>"Vah! satis est</q>", inquit Agamemnon <q>"dormitumque cessit</q>".
+				<lb/>– Tum Euryalus:</p>
+				<p><lb/><q>"Manebo hic adhuc horam</q>", ait,<q>"si forte quis adaperiat</q>".
+					<lb/>Taedebat Achatem morae tacitusque maledicebat Euryalo, qui
+					<lb/>se tamdiu retineret insomnem. Nec diu mansum est, tum per rimulam
+					<lb/>visa est Lucretia, parvum quid luminis secum ferens; versus
+				<lb/>quam pergens Euryalus:</p>
+				<p><lb/><q>"Salve, mi anime, Lucretia</q>", dixit. At illa exterrita fugere
+				<lb/>primum voluit. Exinde rogitans: <q>"Quis tu es vir?</q>" ait.</p>
+				<p><lb/><q>"Euryalus tuus</q>", inquit Euryalus. <q>"Aperi, mea voluptas, iam
+						<lb/>mediam noctem te hic operior</q>".</p>
+				<p><lb/>Agnovit Lucretia vocem, sed quia simulationem timebat, non
+					<lb/>prius ausa aperire quam secreta tantum inter se nota percepit.
+					<pb n="45"/>
+					<lb/>Post haec magno labore seras removit; sed quia plurima ferramenta
+					<lb/>fores retinebant, quae manus feminae ferre non poterat: ad semipedis
+				<lb/>dumtaxat amplitudinem ostium patuit:</p>
+				<p><lb/><q>"Nec hoc</q>", ait Euryalus, <q>"obstabit</q>"; extenuansque corpus per
+					<lb/>dexterum latus intro se coniecit mulieremque mediam amplexatus
+				<lb/>est. Achates foris in excubiis mansit.</p>
+				<p><lb/>Tum Lucretia, sive timore nimio, sive gaudio, exanimata; inter
+					<lb/>Euryali deficiens bracchia, pallida facta est, et amisso verbo ac oculis
+					<lb/>clausis, per omnia similis mortuae videbatur, nisi quod adhuc calor
+					<lb/>pulsusque manebant. Exterritus Euryalus subito casu, quid ageret,
+				<lb/>nesciebat; secumque:</p>
+				<p><lb/><q>"Si abeo</q>", inquit, <q>"mortis sum reus qui feminam in tanto discrimine
+						<lb/>deseruerim. Si maneo, interveniet Agamemnon, aut alius ex
+						<lb/>familia et ego peribo. Heu! amor infelix, quam plus fellis, quam mellis
+						<lb/>habes. Non tam absinthium est amarum quam tu. Quot me iam
+						<lb/>discriminibus obiecisti? quot mortibus meum caput devovisti? Hoc
+						<lb/>nunc restabat, ut meis in bracchiis feminam exanimares? Cur me non
+						<lb/>potius interemisti? Cur me leonibus non obiecisti? Heu! quam optabilius
+						<lb/>erat in huius me potius gremio, quam istam in meo sinu
+						<lb/>defecisse!</q>".</p>
+				<p><lb/>Vicit amor virum, abiectaque propriae cura salutis, cum femina
+					<lb/>mansit, elevansque altius mutum corpus atque deosculans, madidus
+				<lb/>lacrimis:</p>
+				<pb n="46"/>
+				<p><lb/><q>"Heu! Lucretia</q>", inquit, <q>"ubi nam gentium es? ubi aures
+						<lb/>tuae? cur non respondes? cur non audis? Aperi oculos, obsecro,
+						<lb/>meque respice. Arride mihi ut soles. Tuus hic Euryalus assum, tuus
+						<lb/>te amplectitur Euryalus. Mi anime! Cur me non contrabasias? mi
+						<lb/>cor! obisti, an dormis? ubi te quaeram? cur, si mori volebas, non
+						<lb/>me monuisti ut occidissem me una? Nisi me audis, en! iam latus
+						<lb/>meum aperiet gladius et ambos habebit exitus unus. Ah! vita mea,
+						<lb/>suavium meum, deliciae meae, spes unica, integra quies! Siccine te,
+						<lb/>Lucretia, perdo? Attolle oculos, eleva caput! Nondum mortua es.
+						<lb/>Video, adhuc cales, adhuc spiras. Cur mihi non loqueris? sic me
+						<lb/>recipis? ad haec me gaudia vocas? hanc mihi das noctem? Assurge,
+					<lb/>rogo, requies mea! Respice tuum Euryalum. Assum tuus Euryalus!</q>"
+					<lb/>Ac sic fatus, lacrimarum flumen super frontem et mulieris tempora
+					<lb/>fluit, quibus, tamquam rosarum aquis, excitata mulier, quasi de
+				<lb/>gravi somno surrexit, amantemque videns:</p>
+				<p><lb/><q>"Heu me!</q>", inquit, <q>"Euryale, ubi nam fui? Cur non me potius
+						<lb/>obire sivisti? Beata iam moriebar in tuis manibus. Vtinam sic decederem,
+						<lb/>antequam tu hac urbe discederes</q>".</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Quum sic invicem fantur, in thalamum pergunt, ubi talem noctem habuerunt, qualem
+					<lb/>credimus inter duos amantes fuisse, postquam
+					<lb/>navibus altis raptam Helenam Paris abduxit, tamque dulcis
+					<lb/>nox ista fuit, ut ambo negarent, tam bene inter Martem Veneremque
+				<lb/>fuisse.</p>
+				<p><lb/><q>"Tu meus es Ganymedes, tu meus Hippolitus, Diomedesque
+						<lb/>meus</q>", dicebat Lucretia.</p>
+				<p><lb/><q>"Tu mihi Polyxena es</q>", Euryalus referebat <q>"tu mihi Aemilia,
+					<lb/>tu Venus ipsa</q>". Et nunc os, nunc genas, nunc oculos commendabat;
+					<lb/>elevataque nonnumquam lodice, secreta, quae non viderat antehac,
+				<lb/>contemplabatur et:</p>
+				<p><lb/><q>"Plus</q>", dicebat, <q>"invenio quam putaram. Talem levantem
+						<lb/>vidit Actaeon in fonte Dianam. Quid his membris formosius, quid
+						<lb/>candidius? Iam redemi pericula. Quid est, quod propter te non debeat
+						<lb/>sustineri? O pectus decorum, o papillae praenitidae! Vosne tango, vosne
+						<lb/>habeo, vosne meas incidistis manus? O teretes artus!
+						<lb/>O redolens corpus! Tene ego possideo? Nunc mori satius est, quando
+						<lb/>hoc gaudium est recens; ne qua interveniat calamitas.</q>"</p>
+				<p><lb/><q>"Anime mi! teneo te an somnio? Verane ista voluptas est,
+						<lb/>an extra mentem positus, sic reor? Non somnio, certe vera res
+						<lb/>agitur. O suavia basia, o dulces amplexus, o melliflui morsus! Nemo
+						<lb/>me felicius vivit, nemo beatius.</q>"</p>
+				<pb n="47"/>
+				<p><lb/><q>"Sed heu, quam veloces horae! Invida nox, cur fugis? Mane
+						<lb/>Apollo, mane apud inferos diu! Cur equos tam cito in iugis trahis?
+						<lb/>sine ut plus graminis edant. Da mihi noctem, ut Alcmenae dedisti.
+						<lb/>Cur tu tam repente Tithoni tui cubile relinquis, Aurora? Si tam
+						<lb/>grata illi esses, quam mihi Lucretia, haud tam mane surgere te permitteret.
+						<lb/>Numquam mihi nox visa est hac brevior, quamvis apud
+						<lb/>Britannos Dacosque fuerim</q>".</p>
+				<p><lb/>Sic Euryalus; nec minora dicebat Lucretia. Nec osculum, nec
+					<lb/>verbum irrecompensatum praeteriit. Stringebat hic, stringebat illa.
+					<lb/>Nec post Venerem lassi iacebant, sed, ut Antaeus ex terra validior
+					<lb/>resurgebat: sic post bellum alacriores isti robustioresque fiebant.
+					<lb/>Nocte peracta, cum crines suos ex Oceano tolleret Aurora,
+					<lb/>discessum est, nec post multos dies redeundi copia fuit, crescentibus
+					<lb/>dietim custodiis; sed omnia superavit amor, viamque tandem conveniendi
+				<lb/>reperit, qua se usi amantes sunt.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Interea Caesar, qui iam Eugenio reconciliatus erat, Romam petere
+					<lb/>destinavit. Sensit hoc Lucretia; quid enim non sentit amor? aut
+				<lb/>quis possit fallere amantem? Sic igitur Lucretia scripsit Euryalo:</p>
+				<pb n="48"/>
+				<p><lb/><q>"Si posset animus meus irasci tibi, iam succenserem, quod
+						<lb/>abiturum te dissimulasti: sed amat te quam me magis spiritus meus,
+						<lb/>nullaque potest ex causa adversus te moveri. Heu mi cor! quid est,
+						<lb/>quod mihi Caesarem non dixisti recessurum? Ille itineri se parat,
+						<lb/>nec tu hic manebis; scio. Quid, obsecro, de me fiet? quid agam misera?
+						<lb/>ubi quiescam? Si me relinquis, non vivo biduum. Per ergo
+						<lb/>has litteras, meis lacrimis madidas, per tuam dexteram et datam
+						<lb/>fidem, si de te quidquam merui, aut fuit tibi quidquam dulce meum,
+						<lb/>miserere, oro, infelicis amantis.</q>"</p>
+				<p><lb/><q>"Non peto ut maneas, sed tolle me tecum. Fingam me vesperi
+						<lb/>Bethlehem petere velle, unicamque recipiam anum. Assint illic duo
+						<lb/>tresve famuli ex tuis, meque rapiant. Nihil negotii est volentem
+						<lb/>eripere. Nec tibi dedecori puta, nam filius Priami coniugem sibi
+						<lb/>raptu paravit.</q>"</p>
+				<p><lb/><q>"Non iniuriaberis viro meo; is enim omnino me perditurus
+						<lb/>est. Namque, nisi me abducas, mors illi me aufferet. Sed noli tu
+						<lb/>esse crudelis, meque morituram relinquere, quae te pluris semper
+						<lb/>quam me feci.</q>"</p>
+				<p><lb/>Ad haec Euryalus in hunc modum rescripsit:
+					<lb/><q>"Celavi te usque nunc, mea Lucretia, ne te nimium afflictares
+						<pb n="49"/>
+						<lb/>antequam tempus esset. Scio mores tuos. Novi, quia te nimis crucias.
+						<lb/>Nec Caesar sic recedet, ut non sit reversurus. Ex Vrbe postquam
+						<lb/>revenerimus, hac iter est nobis in patriam. Quodsi Caesar aliam viam
+						<lb/>fecerit, me certe, si vixero, reducem videbis. Negent mihi patriam
+						<lb/>superi, errabundoque me similem reddant Vlixi, nisi huc revertar.
+						<lb/>Respira ergo, mi anime, sumeque vires; noli te macerare, quin vive
+						<lb/>potius laeta.</q>"</p>
+				<p><lb/><q>"Quod dicis de raptu, esset mihi tum gratum, tum iucundissimum;
+						<lb/>nec maior mihi voluptas praestari posset, quam te semper
+						<lb/>mecum habere ac meo ex arbitrio potiri. Sed consulendum est magis
+						<lb/>honori tuo quam meae cupiditati. Exigit namque fides tua, qua me
+						<lb/>complexa es, tibi ut consilium fidele praebeam et quod in rem
+						<lb/>sit tuam.</q>"</p>
+				<p><lb/><q>"Tu te scis praenobilem esse et in clara familia nuptam. Nomen
+						<lb/>habes tum pulcherrimae tum pudicissimae mulieris; nec apud Italos
+						<lb/>solum tua fama clauditur, sed et Teutones et Pannonii et Bohemi
+						<lb/>et omnes septemtrionis populi tuum nomen agnoscunt. Quodsi ego
+						<lb/>te rapiam, mitto dedecus meum, quod tui causa flocci faciam? Qua
+						<lb/>ignominia tuos afficeres necessarios? Quibus doloribus matrem pungeres?
+						<lb/>Quid de te diceretur? Quis rumor exiret in orbem! <q>«Ecce
+							<lb/>Lucretiam, quae Bruti coniuge castior, Penelopeque melior dicebatur:
+							<lb/>iam moechum sequitur, immemor domus, parentum et patriae. Non
+						<lb/>Lucretia, sed Hippia est, vel Iasonem secuta Medea!</q>» Heu me!
+						<lb/>quantus moeror haberetur, cum de te talia dici sentirem!</q>"</p>
+				<p><lb/><q>"Nunc amor noster clam est, nemo te non laudat. Rapina
+						<lb/>turbaret omnia; nec unquam tam laudata fuisti, quam tunc vituperareris.
+						<lb/>Sed mittamus famam. Quid, quum nos amore perfrui
+						<lb/>non valeremus? Ego Caesari servio; is me virum fecit potentem,
+						<lb/>divitem; nec ab eo recedere possum sine mei status ruina. Quodsi
+						<lb/>eum desererem, non quirem te decenter habere. Si curiam sequerer,
+						<lb/>nulla quies esset. Omni die castra movemus; nusquam Caesari tanta
+						<lb/>mora fuit, quanta nunc Senis; idque belli necessitas fecit.</q>"</p>
+				<p><lb/><q>"Quod si te circumducerem et quasi publicam feminam in castris
+						<lb/>haberem: vide, quam esset mihi et tibi decorum? His ex rebus
+						<lb/>te obsecro, mea Lucretia, mentem ut istam exuas, honorique consulas.
+						<lb/>Nec furori magis quam tibi blandiaris. Alius fortassis amator
+						<lb/>aliter suaderet et ultro te fugere precaretur, ut te, quamdiu posset,
+						<lb/>abuteretur, nihil futuri providus, dum praesenti satisfaceret aegritudini.
+						<lb/>Sed is non esset amator verus, qui libidini magis, quam famae
+						<lb/>consuleret.</q>"</p>
+				<p><lb/><q>"Ego, mea Lucretia, quod frugi est, moneo. Mane hic, te rogo;
+						<lb/>nec me dubita rediturum. Quidquid apud Etruscos incumbet agendum
+						<lb/>Caesari: mihi committi curabo daboque operam, ut te frui,
+						<lb/>abs tuo incommodo possim.</q>"</p>
+				<pb n="50"/>
+				<p><lb/><q>"Vale, vive, ama; nec meum quam tuus est, ignem putato
+						<lb/>minorem, aut me non invitissimum hinc abscedere. Iterum vale, mea
+						<lb/>suavitas et animae cibus meae.</q>"</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Acquievit his mulier et imperata facturam rescripsit.</p>
+				<p><lb/>Paucis post diebus Euryalus cum Caesare Romam perrexit;
+					<lb/>nec diu moratus illic, febribus est incensus. Infelix penitus; qui cum
+					<lb/>arderet amore, febriumque coepit ignibus aestuare, cumque iam vires
+					<lb/>amor extenuasset, abiectis morbi doloribus: parum supererat vitae,
+					<lb/>tenebaturque spiritus medicorum remediis potius, quam manebat.
+					<lb/>Caesar dietim ad eum veniebat et, quasi filium, solabatur omnesque
+					<lb/>curas Apollinis adhiberi iubebat. Sed nulla fuit valentior medela, quam
+					<lb/>Lucretiae scriptum, quo viventem illam et sospitem cognovit; quae
+					<lb/>res aliquantisper febres imminuit, Euryalumque surgere in pedes
+					<lb/>fecit, qui et coronationi Caesaris interfuit ac ibi militiam suscepit et
+				<lb/>aureum calcar.</p>
+				<p><lb/>Post haec, cum Caesar Perusium peteret, is Romae mansit,
+					<lb/>nondum ex integro sanus. Exinde Senas venit, quamvis adhuc debilis,
+					<lb/>extenuatusque faciem. Sed intueri potuit, non alloqui Lucretiam.
+					<lb/>Epistolae plures utrimque missae sunt, rursusque de fuga tractatum
+					<lb/>est. Triduo illic mansit Euryalus. Demum, cum sibi aditus omnes
+					<lb/>videret ereptos; recessum eius amanti renuntiavit. Numquam tanta
+					<lb/>dulcedo in conversando fuit, quanta in recedendo moestitia.
+					<lb/>Erat in fenestra Lucretia. Per vicum iam Euryalus equitabat.
+					<lb/>Humidos oculos alter in alterum iecerat. Flebat unus, flebat alter;
+					<lb/>ambo doloribus urgebantur, ut qui suis ex sedibus cor evelli violenter
+				<lb/>sentiebant.</p>
+				<p><lb/>Vt si quis, in obitu, quantus sit dolor, ignorat: duorum amantum
+					<lb/>separationem consideret, quamvis maior hic anxietas inest et
+					<lb/>cruciatus ingentior. Dolet animus in morte, quia corpus relinquit
+					<lb/>amatum. Corpus, absente spiritu, nec dolet nec sentit. At cum duo
+					<lb/>invicem, conglutinati per amorem, sunt animi, tanto poenosior
+					<lb/>est separatio, quanto sensibilior est uterque dilectus. Et hic sane non
+					<lb/>erant spiritus duo, sed, quemadmodum inter amicos putat Aristophanes:
+					<lb/>unius animae duo corpora facta erant. Itaque non recedebat
+					<lb/>animus ab animo, sed unicus animus scindebatur in duos, tum
+					<lb/>cor in partes dividebatur; mentis pars ibat et pars remanebat et
+					<lb/>omnes invicem sensus disgregabantur et a se ipsis discedere flebant.
+					<lb/>Non manebat in amantium faciebus sanguinis gutta. Nisi lacrimae
+					<lb/>fuissent et gemitus, simillimi mortuis videbantur. Quis scribere,
+					<lb/>quis referre, quis cogitare posset illarum mentium molestias: nisi
+				<lb/>qui aliquando insanivit?</p>
+				<pb n="51"/>
+				<p><lb/>Laodamia recedente Protesilao et ad sacras Ilii pugnas eunte:
+					<lb/>exanguis cecidit. Eadem, postquam viri mortem agnovit, vivere amplius
+					<lb/>non potuit. Dido Phoenissa, post fatalem Aeneae recessum, se
+					<lb/>ipsam interemit, nec Portia, post Bruti necem, voluit superesse.
+					<lb/>Haec nostra, postquam Euryalus ex visu recessit, in terram
+					<lb/>collapsa, per famulas recepta est, cubilique data, donec resumeret
+					<lb/>spiritum. Vt vero ad se rediit, vestes aureas purpureasque et
+					<lb/>omnem laetitiae ornatum reclusit, pullisque tunicis usa. Numquam
+					<lb/>posthac cantare audita est, minimeque visa ridere; nullis facetiis, nullo
+					<lb/>gaudio, nullisque unquam iocis in laetitiam potuit revocari. Quo in
+					<lb/>statu dum aliquandiu perseverat, aegritudinem incidit et, quia cor
+					<lb/>suum aberat, nullaque menti consolatio dari poterat: inter multum
+					<lb/>plorantis bracchia matris ac collacrimantes et frustra consolatoriis
+				<lb/>verbis utentes necessarios indignantem animam exhalavit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Euryalus, postquam ex oculis, numquam amplius se visuris
+					<lb/>abiit: nulli inter eundum locutus, solam in mente Lucretiam gerebat
+					<lb/>et, an unquam reverti posset, meditabatur, venitque tandem ad Caesarem
+					<lb/>Perusii manentem, quem deinde Ferrariam, Mantuam, Tridentum,
+					<lb/>Constantiam et Basileam secutus est ac demum in Hungariam
+					<pb n="52"/>
+					<lb/>atque Bohemiam. Sed, ut ipse Caesarem, sic eum Lucretia sequebatur
+					<lb/>insomnis nullamque noctem sibi quietam permittebat, quam ut
+					<lb/>obiisse verus amator cognovit: magno dolore permotus, lugubrem
+					<lb/>vestem recepit, nec consolationem admisit, nisi postquam Caesar ex
+					<lb/>ducali sanguine, virginem sibi, tum formosam, tum castissimam atque
+				<lb/>prudentem matrimonio iunxit.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Habes amoris exitum, Mariane mi amantissime, non ficti neque
+					<lb/>felicis; quem qui legerint, periculum ex aliis faciant, quod sibi ex
+					<lb/>usu fiet, nec amatorium poculum bibere studeant, quod longe plus
+				<lb/>aloes habet quam mellis. Vale.</p>
+				<p><lb/>Ex Vienna, quinto nonas Iulias, anno Domini millesimo quadringen¬tesimo
+				<lb/>quadragesimo quarto.</p>
+			</div>
+			<div>
+				<head><lb/>§§§§§§</head>
+				<p><lb/>Explicit opusculum Aeneae Sylvii de duobus amantibus.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

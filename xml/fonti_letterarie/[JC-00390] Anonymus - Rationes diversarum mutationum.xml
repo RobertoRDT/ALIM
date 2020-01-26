@@ -1,0 +1,819 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rationes diversarum mutationum</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>F.  Bognini</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="5160" unit="words">Parole: 5160</measure>
+				<measure quantity="30437" unit="characters_without_spaces">Caratteri (spazi esclusi): 30437</measure>
+				<measure quantity="35114" unit="characters_witht_spaces">Caratteri (spazi inclusi): 35114</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-07-14">14/07/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: parole: 5202
+					caratteri (spazi esclusi): 30685
+					[...] indicano espunzioni dell'editore
+					&lt;...&gt; indicano integrazioni dell'editore
+					(...)indicano scioglimento di abbreviazione resa tramite punto in basso o compedio posto sopra la lettera
+				GCA</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>Un inedito trattato retorico-grammaticale della scuola di Alberico di Montecassino</title>
+						<editor>F.  Bognini</editor>
+					</analytic>
+					<monogr>
+						<title level="j">Studii medievali</title>
+						<imprint>
+							<date>2008</date>
+							<biblScope unit="volume">49</biblScope>
+                                                        <biblScope unit="page">189-252</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="234"/>
+		<div type="chapter">
+			<head><lb/>I.</head> <p/><div type="section"> <p>Quando verbum personale in inpersonale mutatur, nominativus
+					<lb/>est vertendus in ablativum cum 'a' vel 'ab', ut: "ego lego",
+					<lb/>legitur a me; et e contrario, quando inpersonale mutatur in personale,
+					<lb/>ablativus est vertendus in nominativum, ut: "legitur a
+				<lb/>me", ego lego.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2.</head> <p>Quando activum mutatur in passivum, nominativus est vertendus
+					<lb/>in ablativum cum 'a' vel 'ab', et accusativus in nominativum,
+					<lb/>ut: "ego lego Virgilium", a me legitur Virgilius; et e contrario,
+					<lb/>quando passivum mutatur in activum, ablativus est vertendus
+					<lb/>in nominativum, et in accusativum nominativus vertendus,
+				<lb/>ut: "a me legitur Virgilius", ego lego Virgilium.</p>
+			</div>
+			<div type="section">
+				<head><lb/>3.</head> <p>Quando verbum est mutandum in nominativum participii
+					<lb/>presentis, si fuerit solum indiget verbo substantivo, ut: "ambulo",
+					<lb/>ambulans sum; si vero fuerint plura coherentia verba, non
+					<lb/>indiget verbo substantivo, set coniunctio media est &lt;a&gt;bicienda,
+					<lb/>ut: "ego lego et doceo", ego legens doceo. Et e contrario,
+					<lb/>quando nominativus participii presentis est vertendus in verbum,
+					<lb/>si fuerit ibi verbum substantivum, abiciendum est, ut: "legens
+					<lb/>sum", lego; si vero non fuerit ibi verbum substantivum, coniunctio
+				<lb/>est adicienda, ut: "legens doceo", lego et doceo.</p>
+				<pb n="235"/>
+				<p><lb/>Quando verbum est mutandum in ablativum absolutum presentis
+					<lb/>participii, diversarum debent esse verba personarum, sine reconversione,
+					<lb/>ut: "ego lego et tu scribis", me legente tu scribis, vel: "cum
+					<lb/>ego legam, tu scribis". In huiusmodi autem mutatione semper vel
+					<lb/>coniunctio vel adverbium abiciendum est, sicut superioribus patescit
+					<lb/>exemplis. Sic e contrario, cum ablativus absolutus presentis
+					<lb/>participii mutatur in verbum, coniunctio vel adverbium adiciendum
+					<lb/>est, ut: "me legente tu scribis", ego lego et tu scribis.
+					<lb/>Quando reconversio agitur in nominativum per obliquum aliquem,
+					<lb/>precedens verbum est vertendum in consimilem obliquum
+					<lb/>presentis participii, ut: "cum Iohannes iuraret, ego audivi vocem
+					<lb/>eius", Iohannis iurantis ego audivi vocem. In huiusmodi conversione
+					<lb/>et reconversio et copulatio abicienda est, sicut patet in
+					<lb/>superiori exemplo. E contrario autem, cum huiusmodi obliquus
+					<lb/>mutatur in verbum, et reconversio et copulatio est adicienda,
+					<lb/>ut: "Iohannis iurantis ego audivi vocem", cum Iohannes iuraret,
+					<lb/>ego audivi vocem eius; et hec abiectio vel adiectio reconversionis
+					<lb/>vel copulationis est obseruanda in omnibus talibus
+				<lb/>mutationibus.</p>
+				<p><lb/>Quando reconversio fit in obliquum aliquem per nominativum,
+					<lb/>sequens verbum est mutandum in consimilem obliquum
+					<lb/>presentis participii, ut: "Deus miseretur eius qui famulatur sibi",
+				<lb/>Deus miseretur famulantis sibi.</p>
+				<p><lb/>Quando reconversio fit vel per nominativum in accusativum,
+					<lb/>vel per accusativum in nominativum, vel per accusativum in accusativum,
+					<lb/>et precedentis verbi &lt;et&gt; consequentis potest fieri in
+					<lb/>parti&lt;ci&gt;pia reconversio, hoc modo: "Deus remuneravit Petrum
+					<lb/>qui oboedivit ei", Deus remuneravit Petrum oboedientem sibi,
+					<lb/>aut ita: Petrus, qui oboedivit Deo, vel oboediens Deo, est remuneratus
+					<lb/>ab eo. Item: "cum Petrus caneret, ego audivi eum", Petrum
+					<lb/>canentem ego audivi; cum Petrus caneret, vel Petrus canens, a
+					<lb/>me est auditus. Item: "Deus remuneravit Petrum, quem dilexit",
+					<lb/>Deus rem(u)n(e)r(a)v(it) P(etrum) diligentem se, vel ita: Petrus,
+				<lb/>qui dilexit Deum, vel diligens Deum, est remuneratus a Deo.</p>
+			</div>
+			<div type="section">
+				<head><lb/>4.</head> <p>Communiter dicimus quod in omni reconversione, quę fit
+					<lb/>per accusativum, sequens verbum est mutandum in talem casum
+					<pb n="236"/>
+					<lb/>preteriti participii, qualis est ille, in quem fit reconversio; et in
+					<lb/>omni reconversione, quę fit in accusativum, precedens verbum
+					<lb/>est mutandum in talem casum preteriti participii, qualis est per
+					<lb/>quem fit reconversio, quod si verbum regat accusativum, sine reconversione
+					<lb/>in ablativum absolutum preteriti participii commutabitur.
+					<lb/>Horum exempla hec sunt: "Deus correptor est hominis
+					<lb/>quem diligit", Deus correptor est hominis a se dilecti; "amo
+					<lb/>Iohannem qui obsequitur mihi", amatus a me Iohannes obsequitur
+					<lb/>mihi; "deservi Iohannem et adhesi Martino", &lt;deserto Iohanne
+				<lb/>adhesi Martino&gt;.</p>
+			</div>
+			<div type="section">
+				<head><lb/>5.</head> <p>Item de nominativo communiter dicimus quod in omni reconversione,
+					<lb/>quę per nominativum fit, sequens verbum est mutandum
+					<lb/>in talem casum presentis participii, qualis est ille, in
+					<lb/>quem fit reconversio; et in omni reconversione, quę in nominativum
+					<lb/>fit, precedens est mutandum in talem casum presentis participii,
+					<lb/>qualis est per quem fit reconversio. Exempla horum hec:
+					<lb/>"misereor Iohannis qui mihi famulatur", misereor Iohannis famulantis
+					<lb/>mihi; "Iohannes famulatur mihi, quem diligo", Iohannem
+				<lb/>famulantem mihi diligo.</p>
+				<p><lb/>In his notandum quod &lt;'in'&gt; notat precedens verbum, 'per' vero
+					<lb/>sequens; et quod in commutationibus 'in' ad 'per', et 'per' ad
+				<lb/>'in' spectat.</p>
+			</div>
+			<div type="section">
+				<head><lb/>6.</head> <p>Quando reconversio fit in obliquum per obliquum, quorum
+					<lb/>neuter sit accusativus, nulla huiusmodi commutatio facienda est,
+				<lb/>ut: "auxilior Iohanni, cuius tu non misereris".</p>
+			</div>
+			<div type="section">
+				<head><lb/>7.</head> <p>Verborum quibus 'quod' vel 'ut' preponuntur varię et multiplices
+					<lb/>commutationes sunt, quę facilius per exempla in ceteris similibus
+					<lb/>cognoscuntur, quam per traditionem regularum discunt&lt;ur&gt;:
+				<lb/>unde exemplis tantummodo insistemus.</p>
+				<pb n="237"/>
+				<p><lb/>De presenti. "Scio quod tu legis": te legere, te legentem esse,
+				<lb/>te legentem; sic in ceteris similibus.</p>
+				<p><lb/>De preterito. "Scio quod tu legisti": scio te legisse, a te lectum
+				<lb/>esse, a te lectum; sic in ceteris similibus.</p>
+				<p><lb/>De futuro. "Scio quod tu leges": scio quod lecturus es, scio te
+					<lb/>lectum ire, te lecturum esse, te lecturum, a te lecturum, a te legendum
+				<lb/>esse, a te legendum; sic in ceteris similibus.</p>
+				<p><lb/>De preterito inperfecto coniunctivo. "Sciebam quod hec ageres",
+					<lb/>id est quod hec agebas, vel "sciebam quod hec acturus esses".
+					<lb/>In priore significatione talis est commutatio: sciebam te hec
+					<lb/>agere, hec agentem esse, hec agentem. In secunda vero significatione
+					<lb/>talis est commutatio: hec actum ire, hec acturum esse, hec
+					<lb/>acturum, hec a te actum iri, hec a te agenda esse, hec a te
+				<lb/>agenda.</p>
+				<p><lb/>"Volo ut legas": volo te legere, te legentem esse, te legentem;
+					<lb/>s(ic) i(n) c(eteris) s(imilibus). "Volui ut legeres": volui te legere,
+					<lb/>te legentem esse, te legentem; s(ic) i(n) c(eteris) s(imilibus). "Volui
+					<lb/>ut tu legisses": volui te legisse, a te lectum esse, a te
+				<lb/>lectum; s(ic) i(n) c(eteris) s(imilibus).</p>
+				<p><lb/>"Labor est mihi quod lego Virgilium", vel "ut legam Virgilium":
+					<lb/>labor est mihi legere Virgilium, legendi Virgilium, in legendo
+					<lb/>Virgilium, lectum iri a me Virgilium. Labor vel labori
+					<lb/>est mihi legendus Virgilius, labor est mihi legendi Virgilii, legendo
+					<lb/>Virgilio, ad legendum Virgilium, in legendo Virgilio. Labor vel
+					<lb/>labori est mihi lectio Virgilii, ad lectionem Virgilii, in lectione
+				<lb/>Virgilii; s(ic) i(n) c(eteris) s(imilibus).</p>
+				<p><lb/>"Veni ut legam Virgilium": veni lecturus Virgilium, legendi
+					<lb/>Virgilii (subauditur 'causa'), legendo, melius, Virgilio, ad legendum
+					<lb/>Virgilium, ad lectionem Virgilii; s(ic) i(n) c(eteris) s(imilibus).
+					<lb/>/*
+					<lb/>Non possunt autem huiusmodi commutationes fieri, si quis
+					<lb/>dicat: "veni ut legas Virgilium", propterea quia personę diversę
+				<lb/>sunt.</p>
+			</div>
+			<div type="section">
+				<head><lb/>8.</head> <p>'Debeo', 'oportet', 'necesse est' exigunt commutationem verbi
+					<lb/>in gerundivum in '–dum', vel in participia, ut nomen finitum
+					<lb/>in '–dus', ut: "debeo" vel "oportet" vel "necesse est me legere
+					<pb n="238"/>
+					<lb/>Virgilium", legendum est mihi Virgilium, legendus est mihi
+					<lb/>Virgilius. Per participium etiam finitum in '–rus' proferuntur ista
+				<lb/>interdum, ut: lecturus sum Virgilium.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/>II.</head> <div type="section"><p>Sinonima sunt quę idem vel fere idem significant; horum
+				<lb/>autem multiplex decensque est commutatio.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2.</head> <p>Interdum enim sinonima quattuor unius nominis loco funguntur
+					<lb/>in hunc modum mutata: "otium, quies, tranquillitas, placiditas",
+					<lb/>otiosę quietis tranquillitas placida; vel: quietis otii tranquilla
+					<lb/>placiditas; vel: otii quieta tranquillaque placiditas.
+					<lb/>Si tantum tria fuerint, talis erit mutatio: otiosę quietis tranquillitas,
+				<lb/>vel: otii quieta tranquillitas.</p>
+				<p><lb/>Si duo tantum fuerint, taliter mutabuntur: quietis otium, vel
+				<lb/>otii quies.</p>
+			</div>
+			<div type="section">
+				<head><lb/>3.</head> <p>Quattuor adiectivorum nominum mutatio huiusmodi erit:
+					<lb/>"otiosus, quietus, tranquillus, placidus", otiosa quiete tranquille
+					<lb/>vel tranquillissime placidus; vel: otiosa quiete tranquillus et placidus;
+					<lb/>vel: otiosę quietis tranquillitate placidus; vel, cum additamento,
+					<lb/>taliter: otiosę quietis tranquillitate placidissima fruens vel
+				<lb/>exhuberans, vel aliquid huiusmodi.</p>
+				<p><lb/>Si fuerint tantum tria adiectiva, huius talis erit conversio:
+					<lb/>otiosa quiete tranquillus; vel: otii quiete tranquillus; vel: otiosę
+				<lb/>quietis tranquillitate fruens.</p>
+				<p><lb/>Si tantum duo fuerint, taliter convertentur: otio quietus, vel
+					<lb/>otiose quietus, vel otii quiete potiens; vel illud, cuius adiectiva
+					<lb/>sunt, proferetur per genitivum casum, ut Ciprianus, volens significare
+				<lb/>"vox pura et sincera", dixit: «vocis pura sinceritas».</p>
+			</div>
+			<div type="section">
+				<head><lb/>4.</head> <p>Fiunt autem huiusmodi conversiones non solum in adiectivis
+					<lb/>sinonimis, verum etiam, interdum, in ceteris pluribus adiectivis,
+					<lb/>quę in una re eademque conveniunt, ut Ciprianus, in epistula
+					<lb/>ad Donatum, volens significare "verba rudia simplicia", dixit:
+				<lb/>«rudi veritate simplicia».</p>
+			</div>
+			<div type="section">
+				<head><lb/>5.</head> <p>In adverbiis etiam pluribus, qęuę in re eadem coherent,
+					<lb/>aguntur tales mutationes, ut Gregorius in proemio libri pastoralis,
+					<lb/>volens significare "benigne, humiliter ac intente reprehendis",
+					<pb n="239"/>
+				<lb/>dixit: «Benigna me atque humillima intentione reprehendis».</p>
+			</div>
+			<div type="section">
+				<head><lb/>6.</head> <p>Verba etiam in hunc modum mutantur, ut Ovidius in Phetontis
+					<lb/>fabula, volens significare "pectus pavere, trepidare, formidare",
+				<lb/>dixit: «Pavida trepidet formidine pectus».</p>
+			</div>
+			<div type="section">
+				<head><lb/>7.</head> <p>Fiunt autem huiusmodi mutationes decentius in sinonimis
+					<lb/>significantibus fere idem, quam in significantibus prorsus idem.
+					<lb/>In huiusmodi vero conversionibus non solum sinonima exquirenda
+					<lb/>sunt, set etiam quoquo modo congruenter ad hec herentia nomina,
+					<lb/>seu adiectiva, seu fixa verba etiam, et adverbia, ut, si de
+					<lb/>aliquo significare velimus, quod in omnibus iustus sit, dicamus:
+				<lb/>omnia equa lance iustitię discretissime librat.</p>
+			</div>
+			<div type="section">
+				<head><lb/>8.</head> <p>Ea, quę faciliore intelligentia per obliquum aliquem,
+					<lb/>vel sine prepositione, vel cum prepositione proferemus,
+					<lb/>venustiorem orationem interdum per nominativum proferimus,
+					<lb/>ut Ambrosius, in ymno cuius initium est «Deus creator omnium»,
+					<lb/>volens significare "te diligamus casto amore",
+					<lb/>dixit «te diligat castus amor»; volens significare
+					<lb/>"concrepemus te canora voce", dixit «Te vox canora concrepet»;
+					<lb/>volens significare "ut reddamos artos solutos laboris
+					<lb/>usui per quietem", dixit «artus solutos ut quies reddat laboris
+					<lb/>usui». In huiusmodi autem mutatione tempus, locus,
+					<lb/>instrumentum, causa, qualitas verbi, qualitas sinonimi, alia
+					<lb/>etiam quoquo modo adherentia sunt attendenda: tempus, ut "ver
+					<lb/>producit flores", flores producuntur in vere; locus, ut «Mantua
+					<lb/>me genuit», id est Mantuę genitus sum; instrumentum, ut "mucro
+					<lb/>meus amputabit caput tuum", id est mucrone meo amputabo
+					<lb/>caput tuum; causa, ut in superiore exemplo «artus solutos ut
+					<lb/>quies reddat laboris usui»; qualitas verbi, ut illud apostoli
+					<lb/>«Expectatio creaturę revelationem filiorum Dei expectat»;
+					<lb/>qualitas sinonimi, ut in superiore exemplo «te diligat castus
+					<lb/>amor»; alia quoquo modo coherentia, ut «Te vox canora
+				<lb/>concrepet, te mens adoret sobria».</p>
+			</div>
+			<div type="section">
+				<head><lb/>9.</head> <p>Quando aliquod adiectivum sociatur parti vel accidenti,
+					<lb/>multiplex est decora mutatio, ut si hominem habentem decorum
+					<lb/>vultum, vel clarum genus significare velimus, dicamus: homo decori
+					<lb/>vultus, homo decoro vultu, homo decorus vultu, homo decor&lt;us&gt;
+					<lb/>vultum; homo clari generis, homo claro genere, homo
+					<lb/>clarus genere, homo clarus genus. In huiusmodi positione dicitur:
+					<lb/>"quis es genus?" Pro: quis es genere? Hoc tamen non est generale,
+					<pb n="240"/>
+					<lb/> ut in accidentibus iungamus adiectiva accusativo casui.
+					<lb/>Invenimus preterea "fidens animi" et "ferox animi" et "felix animi",
+					<lb/>pro: habens animum fidentem, ferocem, felicem; et hoc
+				<lb/>iterum non est generale.</p>
+				<p><lb/>Quando vero simpliciter adiectivum aliquod alicui fixo adicitur,
+					<lb/>vel ipsum adiectivum in genitivum qualitatis, vel fixum in
+					<lb/>suum genitivum eleganti varietate mutabimus, ut: "gaudeo novis
+				<lb/>rebus", gaudeo rebus novitatis, vel gaudeo novitate rerum.</p>
+			</div>
+			<div type="section">
+				<head><lb/>10.</head> <p>Quoniam genitivi mentio incidit, hoc dicendum, quod venustissimi
+					<lb/>loquutores frequentissime id, quod &lt;per&gt; casum alterum
+					<lb/>proferri poterat, facta mutatione per genitivum proferunt;
+					<lb/>cuius positionis, quia multifida est varietas, exempli&lt;s&gt; duxi pluribus
+				<lb/>insistendum.</p>
+				<p><lb/>Principium sit illud, quod paulo ante premissum est: "res novitatis",
+					<lb/>vel "novitas rei", pro: nova res. Sic in ceteris huiusmodi:
+					<lb/>"quid rerum?" pro: quę res?; "quid istius hominis est?" pro:
+					<lb/>quis iste homo? "Hoc regni", pro: hoc regnum; "aspera frigoris",
+					<lb/>pro: asperum frigus; "quis hominum?" pro: quis homo? "Nullus
+					<lb/>hominum", pro: nullus homo. "Ceteri hominum", pro: ceteri homines,
+					<lb/>et similia. "Ille hoc retulit mihi": illius relatio ad me hec
+					<lb/>fuit; "ille hoc mihi fecit": illius factum ad me hoc fuit; "ille sic
+					<lb/>mihi loquutus est": illius loquutio ad me sic fuit, et similia.
+					<lb/>Similiter: "refert" vel "interest Iohannis facere hoc", id est:
+					<lb/>prodest Iohanni, vel pertinet ad Iohannem, facere hoc; sic in ceteris
+					<lb/>talibus. Sunt tamen sex ablativi casus, quibus hec duo verba
+					<lb/>iunguntur in hac eadem significatione, videlicet mea, tua, sua,
+					<lb/>nostra, vestra, cuia. Dicimus enim: "mea refert", vel "interest" facere
+					<lb/>hoc, id est mihi prodest, vel ad me pertinet; sic cetera.
+					<lb/>"Boni viri" est hoc vel illud facere, id est ad bonum virum pertinet;
+				<lb/>"non est nostri iudicii", id est: non pertinet ad nostrum iudicium.</p>
+			</div>
+			<div type="section">
+				<head><lb/>11.</head> <p>De se ipso: ego hoc feci, mei vel mea parvitas, exiguitas,
+				<lb/>tenuitas, mediocritas.</p>
+				<p><lb/>Ad patrem: tu hoc fecisti, tui vel tua paternitas, vel dilectio,
+				<lb/>vel karitas hoc fecit.</p>
+				<pb n="241"/>
+				<p><lb/>Ad potestatem: tui vel tua dominatio, maiestas, potestas, preminentia,
+					<lb/>sublimitas, precellentia, dignitas. Potest ex horum
+					<lb/>etiam altero genitivus fieri in hunc modum: tuę potestatis sublimitas,
+				<lb/>tuę dominationis maiestas.</p>
+				<p><lb/>Ad filium vel discipulum: tui vel tua filiatio, dilectio, karitas.
+				<lb/>Ad servum: tua fidelitas, tua fidelis subiectio.</p>
+				<p><lb/>Ad religiosas personas: tua sanctitas, pietas, religio, devotio.
+				<lb/>Subdevotio ad inferiores personas pertinet.</p>
+				<p><lb/>Ad amicum: tua amicitia, unanimitas, dilectio.</p>
+				<p><lb/>In supplicatione: tua misericordia, clementia, benignitas, suavitas,
+				<lb/>meracitas, dulcedo.</p>
+				<p><lb/>In vituperatione: tua nequitia, feritas, crudelitas.</p>
+				<p><lb/>Et sic in omnibus proprietates spectandę sunt.</p>
+			</div>
+			<div type="section">
+				<head><lb/>12.</head> <p>Inveniuntur tantum huiusmodi qualitates pro ipsis qualitatibus
+					<lb/>etiam sine rectione genitivorum casuum, ut: nobilitas pro nobiles,
+					<lb/>auctoritas pro auctores, sapientia pro sapientes. In huiusmodi
+					<lb/>vero rectoribus genitivi casus plura considerantur. Universalis interdum,
+					<lb/>ut: fornicationis crimen vel delictum, libidinis vitium, karitatis
+					<lb/>virtus, virtutis munus; instrumentum interdum, ut: Iohannis os, vel
+					<lb/>labia, vel lingua, libri stilus; interdum sinonima, ut: dilectionis
+					<lb/>karitas; interdum quomodo libet iuncta, ut virginitas pudoris, vel
+					<lb/>pudor virginitatis; «rubor verecundie», vel verecundia
+					<lb/>ruboris; interdum situs, ut: «prerupta montium»,
+					<lb/>«concava vallium», «intima
+					<lb/>medullarum» vel cordis; interdum similitudo
+					<lb/>vel metaphora, ut: luce vel sole sapientię fulgeo; «amoris facibus
+				<lb/>inardesco».</p>
+			</div>
+			<div type="section">
+				<head><lb/>13.</head> <p>Per mutationes verbi in omnes casus nominis qualitatis
+				<lb/>sue venusta plerumque fit eloquutio his modis.</p>
+				<p><lb/>"Cremo": crematio a me agitur, vel fit, vel est; cremationem
+					<lb/>sum agens, vel faciens; cremationi insisto, immineo, insto, incumbo,
+					<lb/>insudo, invigilo, vaco, indulgeo, studeo, studium prebeo,
+					<lb/>diligentiam adhibeo, me exhibeo; cremationem ago vel facio; crematione
+				<lb/>non vaco.</p>
+				<pb n="242"/>
+				<p><lb/>"Cremo tecta": tectorum a me crematio agitur, vel fit; vel tectorum
+					<lb/>crematio sum, vel tectis crematio a me traditur; tectorum cremationis
+					<lb/>sum auctor, vel actor, vel factor, vel causa, vel agens [vel
+					<lb/>faciens]; do tecta cremationi, vel tectorum cremationi non parco;
+					<lb/>vel sum tectis cremationi, pro: ad cremationem; vel per me traduntur
+					<lb/>tecta cremationi; tectorum [vel tectus] cremationem ago, vel facio;
+					<lb/>vel tectis cremationem trado; vel tecta per me patiuntur cremationem,
+					<lb/>vel per me sunt in crematione; non vaco crematione tectorum;
+				<lb/>vel me faciente tecta [non] sunt in crematione.</p>
+				<p><lb/>"Cremor": a me crematio sustinetur vel suffertur; cremationis
+					<lb/>sum patiens; cremationi inhereo; cremationem patior; in crematione sum.
+					<lb/>"Amo": a me habetur amor; sum habens, vel patiens,
+					<lb/>vel plenus amoris; astrictus vel applicitus sum amori; habeo vel patior
+					<lb/>amorem; non careo amore; vel sum in amore, vel sum plenus
+				<lb/>amore.</p>
+				<p><lb/>"Amor": amor sum tibi, amori sum tibi, amoris causa sum tibi,
+					<lb/>in amorem sum tibi, in amore sum tuo, quod tamen ad
+				<lb/>eum qui amat et ad eum qui amatur referri potest.</p>
+				<p><lb/>Fiunt quędam harum mutationum interdum ipso verbo manente,
+					<lb/>ut: «Expectatio creaturę revelationem filiorum Dei expectat»;
+					<lb/>«gaudio gaudet propter vocem sponsi», sed
+				<lb/>cum adiectivo hoc congruentius dicitur: magno gaudio gaudet.</p>
+			</div>
+			<div type="section">
+				<head><lb/>14.</head> <p>Fiunt huiusmodi mutationes et maxime in genitivum et
+					<lb/>per ablativum casum, vel per significantia idem, vel per significantia
+					<lb/>fere idem, vel per universaliora, vel per quomodo libet
+					<lb/>iuncta, vel per metaphoras. Per significantia idem, ut: amo te
+					<lb/>karitate dilectionis, vel amo te dilectione magna. Per significantia
+					<lb/>fere idem, ut: plaudo in letitia iubilationis, vel plaudo in iubilatione.
+					<lb/>Per universaliora, ut: amo te affectione dilectionis, vel mira
+					<lb/>affectione. Per quomodo libet iuncta, ut: amo te immensi tate
+					<lb/>amoris. Per metaphoras, ut: ardeo, flagro, excandesco,
+					<lb/>incendor, aduror amore tuo vel igne, facibus vel estibus vel incendio
+					<lb/>vel flammis tui amoris; compungor, stimulor, perfodior,
+					<lb/>conforor stimulis, spinis, dumis, iaculo, telo, sagittis, catapultis,
+				<lb/>zimbinnis amoris, differor mucrone vel ense vel pugione amoris.</p>
+			</div>
+			<pb n="243"/>
+			<div type="section">
+				<head><lb/>15.</head> <p>Fit etiam huiusmodi mutatio nonnumquam cum adminiculo
+					<lb/>dictionum copulativarum, vel habere, seu haberi, vel motionem,
+					<lb/>vel situm, vel dationem, vel receptionem significantium:
+					<lb/>– copulativarum dictionum, ut: copulatus, astrictus, conexus,
+					<lb/>colligatus sum amori, vel amor tuus mihi; vel copulavi, conexui,
+					<lb/>colligavi animum amori tuo, vel ad amorem tuum; vinctus sum
+					<lb/>amore tuo, vel nexibus amoris tui, vel nexus sub vinculo amoris
+					<lb/>tui; affectus sum amore tuo; dispositus sum circa amorem
+					<lb/>tuum; et similia;
+					<lb/>– habere vel haberi significantium, ut: habeo, gero, fero amorem
+					<lb/>tuum; detineor, repleor, profusus sum, plenus sum, imbutus
+					<lb/>sum amore tuo;
+					<lb/>– motionem significantium, ut: moui, appuli, applicui, induxi,
+					<lb/>detuli animum ad amorem vel in amorem tuum vel amorem
+					<lb/>tuum in animum meum; inductus sum in amorem tuum; allexit,
+					<lb/>attraxit me sibi amor tuus, venit in animum meum amor tuus;
+					<lb/>– situm significantium, ut: situs, positus est, fixus est, radicatus
+					<lb/>est, radicem fixit; sedet, iacet, stat, manet, heret, moratur
+					<lb/>in animo meo amor tuus, vel animus meus in amore tuo;
+					<lb/>– dationem significantium, ut: datus, traditus sum amori tuo;
+					<lb/>dedi, tradidi, contuli me amori tuo; contulit se mihi amor tuus;
+					<lb/>– receptionem significantium, ut: recepi, suscepi, admisi amorem
+					<lb/>tuum; captus sum amore tuo; coepit, rapuit me sibi amor
+				<lb/>tuus.</p>
+				<p><lb/>Ad huiusmodi positionem adverbia etiam vel coniunctiones
+					<lb/>vel prepositiones adminiculantur, secundum significationem
+					<lb/>uniuscuiusque. Adverbia localia ita: "ubi ego scribo, tu legis",
+				<lb/>idem locus est scriptionis meę et lectionis tuę.</p>
+			</div>
+			<div type="section">
+				<head><lb/>16.</head> <p>"Moror te", id est morari te facio; et moror absolute.
+					<lb/>"Commemoro te illius rei" et "commemoro tibi illam rem".
+					<lb/>"Interdicitur mihi illa re", pro: illa res interdicitur mihi. Qua
+					<lb/>grammatica Seneca utitur: admoneo te illius rei; Salustius: «tanti
+				<lb/>viri nos tempus admonuit».</p>
+				<pb n="244"/>
+				<p><lb/>Queror tibi et te: Iuvenalis «nec quereris patri», Virgilius
+				<lb/>«queror divos».</p>
+				<p><lb/>"In dies", pro: per singulos dies; "in horas", pro: per singulas
+					<lb/>horas; "in annos", id est: per singulos annos; "in milites", id est:
+					<lb/>per singulos milites; "in naves", id est: per singulas naves; sic similia.
+				<lb/>"Quot annis", id est: per singulos annos.</p>
+				<p><lb/>"Deverto domi" et "domum"; "ruo illam rem" pro: eruo; et
+				<lb/>ruo absolute.</p>
+				<p><lb/>«Sensit medios illapsus in hostes», pro: sensit
+					<lb/>se illapsum; "confitetur osculatus virginem", "criminatus innoxium",
+					<lb/>"furatus codicem", "mechatus", "lapsus", "latrocinatus",
+					<lb/>pro: se osculatum, se criminatum, se furatum, se mechatum, se
+				<lb/>lapsum, se latrocinatum.</p>
+				<p><lb/>"Prohibeo illam periclitantem" et "periclitari" et "ne periclitetur";
+					<lb/>"prohibeo illum furantem" et "furari" et "ne furetur"; sic
+				<lb/>similia.</p>
+				<p><lb/>«Exhibebat mihi alterum Nichodemum»,
+					<lb/>subauditur 'se'; "exhibuit mihi patrem", subauditur 'se'; "prebuit
+					<lb/>mihi fratrem", "ostendit sodalem", subauditur 'se'; "et senator
+					<lb/>esse desisti et monachum non fecisti", subauditur 'te'; sic
+				<lb/>similia.</p>
+				<p><lb/>«Redolet gloriam», redolet improprium, sic
+					<lb/>similia: "has nugas redolet scriptum illius", id est his nugis plenus
+					<lb/>est, vel his nugis sordet. "Has exornationes", vel "has figures
+					<lb/>redolet oratio illius", id est: his exornationibus vel his figuris pollet;
+					<lb/>s(ic) s(imilia). "Latrinam olet † illius", id est fetet ut latrina.
+					<lb/>"Balsamum olet" vel "redolet", id est fraglat ut balsamum;
+					<lb/>s(ic) s(imilia). «Ne vinum redoleas», id
+					<lb/>est ne emittas odorem vini; "vinum olet potus iste", id est vini
+					<lb/>odorem habet; "vinum sapit", id est vini saporem habet. "Non sapit
+					<lb/>hoc furtulum salem", id est: non habet saporem salis; s(ic)
+					<lb/>s(imilia). Oleo et redoleo tomesa sunt et ponuntur pro fraglo et
+					<pb n="245"/>
+					<lb/>pro redoleo. Flagro per 'fl' et 'gr' significat ardeo, fraglo per 'fr'
+					<lb/>et 'gl' significat redoleo; plerique tamen per 'gr' scribent utrumque.
+					<lb/>Dicitur autem flagro componi ex flamma vel ex flatu, et uro,
+					<lb/>vel ardeo, per intermissionem; et fraglo ex frango et oleo, propterea
+					<lb/>quia fracta aromata huberius redolent. Sapio et ad saporem et ad
+					<lb/>scientiam pertinet; dicitur autem in utraque significatione et absolute,
+					<lb/>sine rectione accusativi casus, et transitive, id est cum rectione
+					<lb/>accusativi casus. Dicimus enim: bene sapit potus iste, et mel sapit
+					<lb/>potus iste; «non sapis ea quę Dei sunt», id est nescis;
+					<lb/>"si fecero ista non sapiam", id est: non ero sapiens.
+					<lb/>"Abstineo illius rei" et "illa re" et "ab illa re", et "abstineo me illa
+					<lb/>re" vel "ab illa re"; sed "abstineo illius rei" urbanior est oratio.
+					<lb/>"Vaco illi rei", id est: do opera illi rei; "vaco illa re", id est:
+				<lb/>cesso ab illa re.</p>
+				<p><lb/>"Parco vanitati", et "parco a vanitate", unde in Psalmo:
+					<lb/>«et non pepercit a morte animarum eorum», vel, ut alia
+					<lb/>translatio habet, «et non pepercit a morte animabus eorum»:
+				<lb/>in quo palam est posse dici: parco tibi ab illa re.</p>
+				<p><lb/>"Propius illam rem" et "illi rei", "proxime illam rem": Salustius
+					<lb/>«Propius mare Africum», Tullius «Proxime
+				<lb/>deos».</p>
+				<p><lb/>"In ordinem redacti sunt", id est: de honore depositi et inter
+					<lb/>abiectos connumerati; "extra ordinem sunt", id est: egregii
+				<lb/>et primates.</p>
+				<p><lb/>"Metu mutatur gaudium", pro: gaudio
+					<lb/>mutatur metus. "Mutat Lucretilem Liceo",
+				<lb/>pro: mutat Liceum Lucretili.</p>
+				<p><lb/>"Albeo nivem", "candeo argentum", "rubeo minium", "fulgeo
+					<lb/>Luciferum", id est: ut nix, ut argentum, ut minium, ut Lucifer.
+					<lb/>"Vel maxime", pro: quam maxime; "vel doctissimus", pro:
+					<lb/>quam doctissimus. Sic in ceteris superlativis 'vel' et 'quam'; et
+				<lb/>'oppido' et 'impendio' pro 'valde' accipiuntur.</p>
+				<p><lb/>"Clarus genere" et "clarus genus"; "ferox", "fidens", "tantus"
+					<lb/>"animo" et "animi" dicitur, set per genitivum urbanius.
+					<pb n="246"/>
+					<lb/>"Pro viribus", id est: secundum vires; "pro solito", id est: secundum
+					<lb/>solitum; "pro potentia", "pro scientia", id est: secundum
+					<lb/>potentiam vel scientiam."Pro posse", "pro scire" dicendum non
+					<lb/>est, quia infinitus modus non accipitur apud Latinos nisi pro nominativo
+					<lb/>et accusativo casu, ut: "posse" vel "scire tuum magnum",
+					<lb/>id est potentia vel scientia tua; "video posse et scire
+				<lb/>tuum", id est potentiam et scientiam tuam.</p>
+				<p><lb/>"Pro foribus", id est: ante fores.</p>
+				<p><lb/>"Recuso ne faciam", pro: recuso facere.</p>
+				<p><lb/>"Pro se quisque laborant", id est: quisque secundum vires
+				<lb/>suas.</p>
+				<p><lb/>"Undeviginti", id est x et viiii.</p>
+			</div>
+			<div type="section">
+				<head><lb/>17.</head> <p>REPETITIO "Miramur ultra quam dici, quam credi, quam existimari
+					<lb/>possit": ARTICULUS Miramur indicibiliter, incredibiliter, inestimabiliter.
+					<lb/>ARTICULUS Replemur stupore ineffabili, incredibili, inautumabili.
+					<lb/>GRADATIO Obstupescentes miramur mirantesque deficimus,
+					<lb/>deficientes vero in admiratione diem otiosi noctemque pernoctantes
+					<lb/>transigimus. ARTICULUS Miramur, obstupescimus et pre stupore animi
+					<lb/>et extasi mentis deficientes ebescimus. Quanta admiratione,
+					<lb/>quanto mentis stupore et extasi animi repleamur, non litterarum
+					<lb/>apicibus exarari, non viva, prout aiunt, voce explicari, non denique
+					<lb/>si scriptis vel sermonibus expediri valeat alicuius, credulitate posse
+					<lb/>percipi suspicamur. Quanta admiratio mihi mentem repleverit,
+					<lb/>quantus qualisque me stupor oppresserit non, ut verum fatear,
+					<lb/>scripto, non vivę valeo vocis explicare officio. ARTICULUS Miramur,
+					<lb/>obstupescimus, deficimus; retundimur, reverberamur, ebescimus,
+					<lb/>quasi portentum ducimus, quasi prodigium estimamus, monstri simile
+					<lb/>deputamus. MEMBRUM Novum hoc esse dicimus, insolitum credimus,
+				<lb/>inauditum habemus.</p>
+				<p><lb/>ARTICULUS "Timere": metuere, formidare, pavere, terreri, tremere,
+					<lb/>palpitare, pallescere, sudare, caput circumflectere. MEMBRUM
+					<pb n="247"/>
+					<lb/>Tremore concuti, pallore affici, sudore madefieri, mentem
+					<lb/>perdere, caput huc illuc circumflectere. Stare attonitus, stupefactus,
+					<lb/>turbatus; ignorare omnia, semet ipsum nescire; balbuttire,
+					<lb/>verba infringere, inconditas interiectiones crebro emittere;
+					<lb/>astantes non videre, circumstrepentium sonitum, loquentium vocem,
+					<lb/>vociferantium etiam clamorem non audire. Timor et tremor
+					<lb/>et ebitudo mentis cecidit super me; pelagus obduxit me, abissus
+					<lb/>operuit caput meum, membra concutiuntur, viscera dissolvuntur;
+					<lb/>cum adhuc sit dies nocturnę me tenebrę obduxerunt, vel circumvallant;
+					<lb/>cum adhuc sol dilucidet aera, caligo me tenebrosa
+					<lb/>obvelat, «necdum cęlo venientibus astris desuper in terram nox
+				<lb/>funditur».</p>
+				<p><lb/>CIRCUMITIO "Mortuus est": viam universe carnis intravit, extremum
+					<lb/>spiritum exalavit, carnea est egressus ergastula, diem clausit
+					<lb/>extremum, venit ad mortem, mortem obiit, hominem exuit,
+					<lb/>debitum letale persolvit, eius spiritus purum volavit ad ethera,
+					<lb/>eius &lt;spiritus&gt; morsum, qui a vetiti mali morsu nomen
+					<lb/>accepit, persensit; natura animantem carnem destituit, eius
+					<lb/>quadriforme corporeum incorporeo virtutis triplicis destituitur,
+					<lb/>eius quadrifidum a tripartito relinquitur, illius portio tripartita
+				<lb/>virtute portionem materia quadripartita deservit.</p>
+				<p><lb/>"Gaudet": lętatur, exultat, iocundatur, tripudiat, gratulatur,
+					<lb/>gaudio gaudet, exultat lętitia, iocundatione lętatur.
+					<lb/>"Gratulare": iubila, facie serenare, exulta satis, plaude manibus,
+					<lb/>illustra faciem, erumpe in vocem, exi in laudem, «insufflet
+					<lb/>Boreas, pellantur nubila cuncta». Iocundare animo, serenare
+					<lb/>aspectu, audiatur ex ore tuo clamor laudis, erumpat vox lętitię
+					<lb/>et exultationis. Floreat omne nemus, ver assit, discedat hiems, adest
+				<lb/>Phillis, venit «formosus Alexis».</p>
+				<p><lb/>"Vertit fortuna rotam": quę herebant in imis, in summis locata
+					<lb/>sunt; «scissa est tellus arida in stagnum et sitiens in fontes
+					<lb/>aquarum». «Excutere de pulvere, consurge»,
+					<pb n="248"/>
+					<lb/>expergiscere, «induere vestimentum glorię tuę »,
+					<lb/>erige verticem, respice cęlum, lętare et diem festum age.
+					<lb/>"Quomodo te, frater, habes?": in qua rote portione versaris?
+					<lb/>"Qui non miratur, mirandus est": qui non lętatur, lugendus
+					<lb/>est; qui &lt;non&gt; exultat, deflendus est; qui non obstupescit, hebescit;
+					<lb/>qui super hac re admirationem et stuporem non admisit,
+					<lb/>mentem vel numquam habuit vel amisit; qui non super hac re
+					<lb/>movetur, lapideus est; qui hinc ad stuporem non scinditur, saxeus
+				<lb/>est, immo, prout mens opinatur, animus adamantinus.</p>
+				<p><lb/>"Mirantur": triumphantur, lętantur, extendunt ambas ad cęli
+					<lb/>sidera palmas, creatrici deitati referunt immensas ex medullis
+				<lb/>intimis gratias.</p>
+				<p><lb/>"Laudo": effero, extollo.</p>
+				<p><lb/>"Laudanda sunt": efferenda sunt et extollenda sunt, summa
+					<lb/>sunt celebranda laude, summis efferenda preconiis, summis sunt
+					<lb/>equiperanda sideribus. Digna sunt laude, digna magnificatione,
+					<lb/>digna preconio. Qui hec non laudat, aut est lividus aut stolidissimus;
+					<lb/>qui hec vituperat, vituperandus est; qui non probat hec,
+					<lb/>inprobandus; qui exsecratur hec, exsecrabilis ipse, detestabilis
+					<lb/>atque abhominandus est. Cui hec non placent, ei nec dulcia sunt
+					<lb/>mella nec amara venena; cui hec displicent, adeo optusus, adeo
+					<lb/>durus et hebes est, ut ei displiceant et Orphei cithara et Mantuana
+					<lb/>fistula. Vere sunt hęc et stupenda et mentis intimo et tam personanda
+				<lb/>oris quam stili exaranda officio.</p>
+				<p><lb/>"In qua modo rotę portione versaris, amice?": qui tua
+					<lb/>perflant carbasa venti? Erga te modo agit mare, vel adversatur
+					<lb/>(quod absit)? Arridetne tibi equor, aut faciem turbulentam ostentat?
+					<lb/>Sulcant tue modo pelagus pacatum carine? Noxne super te
+					<lb/>faciem tetro velavit peplo, an dies tua in domo linteamen lucidum
+					<lb/>dilatavit? Sospitasne modo in exteriori, an exultatio tua
+					<lb/>domo interiore versatur? Quid modo frater? Aer arridet [aer] et
+					<lb/>serenum declarat aspectum? Verne modo virore blanditur et autumnus
+					<lb/>sua tibi influit hubertate? Tuamne ad mensam cibum capere
+					<lb/>ad presens medicina confidit? Rubus, spineta, urtice et tribuli
+					<lb/>absunt procul ab hortis tuis? Absunt quoque a satis zizania?
+					<lb/>"Bene me habeo": grates Deo et sanctis eius et orationibus
+					<lb/>tuis non me sors in parte rotę subteriore locavit, nondum insanum
+					<pb n="249"/>
+					<lb/> spirans Auster decus florum seu foliorum meis decussit arbusculi
+					<lb/>Aquilo nubes universas fugavit; in thesauro meo quantulocumque
+				<lb/>nondum deitate custode potuit Vulcanus crassari.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/>III. DE MUTATIONE VERBI IN PRESENS PARTICIPIUM.</head>
+			<div type="section">
+				<p><lb/>Quando plura verba coherentia sunt eiusdem personę, que
+					<lb/>mutatio est facienda? Alterum eorum vertendum in nominativum
+					<lb/>participii. Quomodo? Ut: "cum proficiscerer domum, obviavi
+				<lb/>amico", proficiscens domum obviavi amico.</p>
+			</div>
+			<div type="section">
+				<head><lb/>2.</head> <p>Quando reconversio in nominativum per genitivum casum
+					<lb/>fit, q(uę) m(utatio) e(st) f(acienda)? Nominativus est vertendus
+					<lb/>in genitivum sui, et verbum in genitivum participii. Quomodo?
+					<lb/>"Iohannes ægrotat et tu non misereris eius", Iohannis ægrotantis
+				<lb/>tu non misereris.</p>
+				<p><lb/>Quando reconversio fit in nominativum per dativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nominativus est vertendus in dativum
+					<lb/>sui, et verbum in dativum participii. Quomodo? Ut: "Iohannes
+					<lb/>ægrotat et tu non subvenis ei", Iohanni ęgrotanti tu non subvenis.
+				<lb/>/*</p>
+				<p><lb/>Quando fit reconversio in nominativum per accusativum,
+					<lb/>q(ue) m(utatio) e(st) f(acienda)? Nominativus est vertendus
+					<lb/>in accusativum sui, et verbum in accusativum participii. Quomodo?
+					<lb/>Ut: "Iohannes egrotat et tu non adiuvas eum", Iohannem ęgrotantem
+				<lb/>tu non adiuvas.</p>
+				<p><lb/>Quando fit reconversio in nominativum per ablativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nominativus est vertendus in ablativum
+				<lb/>sui, et verbum in ablativum participii. Quomodo? Ut:</p>
+				<p><lb/>"Iohannes ęgrotat et tu nullam curam habes de eo", tu de Iohanne
+				<lb/>ęgrotante nullam curam habes.</p>
+			</div>
+			<div type="section">
+				<head><lb/>3.</head> <p>Quando fit reconversio in genitivum per nominativum,
+					<lb/>q(ue) m(utatio) e(st) f(acienda)? Sequens verbum est vertendum
+					<lb/>in genitivum participii. Quomodo? Ut: "ego misereor Iohannis
+					<lb/>et is me non amat", ego misereor Iohannis me non amantis.
+					<lb/>Quando reconversio fit in dativum per nominativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Sequens verbum est vertendum in dativum
+					<lb/>participii. Quomodo? Ut: "ego misereor Iohanni et is me
+				<lb/>non amat", ego misereor Iohanni me non amanti.</p>
+				<pb n="250"/>
+				<p><lb/>Quando fit reconversio in accusativum per nominativum,
+					<lb/>q(ue) e(st) f(acienda) m(utatio)? Sequens verbum est vertendum
+					<lb/>in accusativum. Quomodo? "Ego amo Iohannem et is me non
+				<lb/>amat", ego amo Iohannem me non amantem.</p>
+				<p><lb/>Est tamen in talibus et alia mutatio. Et quę est illa? Accusativus
+					<lb/>mutatur in nominativum sui, et verbum, a quo regitur, in nominativum
+					<lb/>passivi, et nominativus in ablativum, cum 'a' vel 'ab'.
+					<lb/>Quomodo? "Ego amo Iohannem et is me non amat", a me amatus
+				<lb/>Iohannes me non amat.</p>
+				<p><lb/>Quando reconversio fit in ablativum per nominativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Sequens verbum est vertendum in
+					<lb/>ablativum participii, et in omnibus reconversio abicienda. Quomodo?
+					<lb/>Ut: "ego curam habeo de Iohanne et is me non amat",
+				<lb/>ego curam habeo de Iohanne me non amante.</p>
+			</div>
+			<div type="section">
+				<head><lb/>4.</head> <p>Quando sunt plura verba coherentia diversarum personarum
+					<lb/>et nulla est reconversio, q(ue) m(utatio) e(st) f(acienda)? Alterum
+					<lb/>eorum est vertendum in ablativum absolutum participii. Quomodo?
+					<lb/>Ut: "cum ego lego, tu scribis", me legente tu scribis. Quę sunt verba
+					<lb/>coherentia? Quę monstrant aliqua pro eodem simul fieri tempore.
+					<lb/>Quomodo? Ut: "cum proficiscerer domum, obviavi amico", profectio
+				<lb/>mea et amici obviatio simul facta fuere.</p>
+			</div>
+			<div type="section">
+				<head><lb/>5.</head> <p>Quę sunt illę dictiones, per quas fiunt reconversiones? Is,
+					<lb/>ille, ipse, qui, cum femininis et neutris et omnibus obliquis eorum.
+					<lb/>Quomodo? Ut: "Iohannes languet et nemo miseretur eius"
+					<lb/>vel "illius" vel "ipsius", vel "cuius nemo miseretur"; sic et de ceteris
+					<lb/>casibus. Fit reconversio per alias dictiones interdum etiam
+					<lb/>per idem nomen, interdum etiam per idem pronomen. Per idem
+					<lb/>nomen quomodo? Ut: "Iohannes languet et nemo miseretur
+					<lb/>Iohannis". Per idem pronomen quomodo? Ut: "ego langueo et nemo
+				<lb/>miseretur mei", "tu langues et nemo miseretur tui".</p>
+			</div>
+			<div type="section">
+				<head><lb/>6.</head> <p>Quando fit reconversio in genitivum per genitivum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego misereor filii
+				<lb/>tui et tu non misereris eius".</p>
+				<p><lb/>Quando fit reconversio in genitivum per dativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego misereor filii
+				<lb/>tui et tu non parcis illi".</p>
+				<p><lb/>Quando fit reconversio in genitivum per accusativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Sequens verbum est vertendum in genitivum
+					<pb n="251"/>
+					<lb/>passivi participii. Quomodo? Ut: "ego misereor filii tui,
+					<lb/>quem tu non amas", ego misereor filii tui a te non amati.
+					<lb/>Quando fit reconversio in genitivum per ablativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego misereor filii
+				<lb/>tui, de quo tu nullam curam habes".</p>
+			</div>
+			<div type="section">
+				<head><lb/>7.</head> <p>Quando fit reconversio per genitivum in dativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego parco filio
+				<lb/>tuo et tu non misereris eius".</p>
+				<p><lb/>Quando fit reconversio in dativum per dativum, q(ue) m(utatio)
+					<lb/>e(st) f(acienda)? Nulla. Quomodo? Ut: "ego parco filio tuo et
+				<lb/>tu non parcis illi".</p>
+				<p><lb/>Quando fit reconversio in dativum per accusativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Sequens verbum est vertendum in dativum
+					<lb/>participii passivi. Quomodo? Ut: "ego parco filio tuo,
+					<lb/>quem tu non amas", ego parco filio tuo a te non amato.
+					<lb/>Quando fit reconversio in dativum per ablativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego &lt;parco&gt; filio
+				<lb/>tuo, de quo tu non curas".</p>
+			</div>
+			<div type="section">
+				<head><lb/>8.</head> <p>Quando fit reconversio per genitivum in accusativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Accusativus est vertendus in genitivum
+					<lb/>sui, et verbum in genitivum participii passivi. Quomodo?
+					<lb/>Ut: "ego amo filium tuum, cuius non misereris", a me amati filii
+				<lb/>tui tu non misereris.</p>
+				<p><lb/>Quando fit reconversio in accusativum per dativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Accusativus est vertendus in dativum, et
+					<lb/>verbum in dativum participii passivi. Quomodo? Ut: "ego amo filium
+					<lb/>tuum, cui tu non parcis", a me amato filio tuo tu non parcis.
+					<lb/>Quando reconversio fit in accusativum per accusativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Quodlibet verborum est vertendum in
+					<lb/>accusativum. Quomodo? Ut: "ego doceo filium tuum, quem tu
+					<lb/>non amas", a me doctum filium tuum tu non amas, vel: ego doceo
+				<lb/>filium tuum a te non amatum.</p>
+				<p><lb/>Quando reconversio fit in accusativum per ablativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Accusativus est vertendus in ablativum,
+					<lb/>et verbum in ablativum participii passivi. Quomodo? Ut:
+					<lb/>"ego amo Iohannem, de quo tu nullam curam habes", de
+				<lb/>Iohanne a me amato tu nullam curam habes.</p>
+			</div>
+			<pb n="252"/>
+			<div type="section">
+				<head><lb/>9.</head> <p>Quando fit reconversio in ablativum per genitivum casum,
+					<lb/>q(ue) m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego nulla
+				<lb/>curam habeo de Iohanne, cuius tu non misereris".</p>
+				<p><lb/>Quando fit reconversio in ablativum per dativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego nullam curam
+				<lb/>habeo de Iohanne, cui tu non misereris".</p>
+				<p><lb/>Quando fit reconversio in ablativum per accusativum, q(ue)
+					<lb/>m(utatio) e(st) f(acienda)? Sequens verbum est vertendum in
+					<lb/>ablativum participii. Quomodo? Ut: "ego nullam curam habeo de
+					<lb/>Iohanne, quem tu non amas", ego nulla curam habeo de Iohanne
+				<lb/>a te non amato.</p>
+				<p><lb/>Quando fit reconversio in ablativum per ablativum casum,
+					<lb/>q(ue) m(utatio) e(st) f(acienda)? Nulla. Quomodo? Ut: "ego fruor
+				<lb/>Iohanne, de quo tu non curas".</p>
+			</div>
+			<div type="section">
+				<head><lb/>10.</head> <p>Quando verbum regit accusativum, et nulla reconversio fit
+					<lb/>in ipsum, q(ue) m(utatio) e(st) f(acienda)? Accusativus est vertendus
+					<lb/>in ablativum absolutum, verbum etiam in ablativum absolutum
+					<lb/>participii passivi. Quomodo? Ut: "ego dereliqui seculum et
+				<lb/>ivi ad monasterium", ego derelicto seculo ivi ad monasterium.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,584 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De balneis puteolanis</title>
+				<author>Petrus de Ebulo</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>Michael Hanly</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="AC">Antonio Corvino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="2628" unit="words">Parole: 2628</measure>
+				<measure quantity="15119" unit="characters_without_spaces">Caratteri (spazi esclusi): 15119</measure>
+				<measure quantity="17519" unit="characters_witht_spaces">Caratteri (spazi inclusi): 17519</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when-iso="2005-06-04">04/06/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Medicina</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Tipo: </note>
+				<note>Note: Il testo edito  si compone di un prologo e di 33 componimenti, che sono stati caricati in rete come entità singole: per il riferimento specifico alle pagine dell'edizione si rimanda al file doc allegato. &#13;
+2.907 parole&#13;
+22.142 caratteri&#13;
+(LDF)</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>An edition of Richart Eude’s French Translation of Pietro da Eboli’s De balneis Puteolanis</title>
+						<editor>Michael Hanly</editor>
+					</analytic>
+					<monogr>
+						<title level="j">Traditio, Studies in Ancient and Medieval History, Thought, and Religion</title>
+						<imprint>
+							<date>1996</date>
+							<biblScope unit="volume">51</biblScope>
+							<biblScope unit="page">232-254</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Medicina</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="AC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma mancano i &lt;pb&gt;: contenevano non i numeri delle pagine, ma delle strofe.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<lg>
+				<head>[Prologus]</head> <l>Inter opes rerum Deus est laudandus in illis</l>
+				<l>In quibus humane deficit artis opus.</l>
+				<l>Res satis est dictu mirabilis horrida visu</l>
+				<l>A tormentorum prouenit ede salus:</l>
+				<l n="5">Nam que defunctos aqua feruens punit in ymis, </l>
+				<l>Nec eadem nobis missa ministrat opem</l>
+				<l>Cetera cum rebus curantur regna syrupis</l>
+				<l>Balnea, que curant, terra laboris habet.</l>
+				<l>Vos igitur, quibus est nullius gutta metalli,</l>
+				<l n="10">Querite, que gratis auxiliantur, aquas </l>
+				<l>Quarum virtutes et nomina Maxime Cesar,</l>
+				<l>Presens pro vestra laude libellus habet.</l>
+			</lg>
+			<lg>
+				<head>I. [Sudatoria]</head> <l>Absque liquore domus bene Sudatoria dicta,</l>
+				<l>Nam solo paciens aere sudat homo.</l>
+				<l>Ante domum lacus est ranis plenusque colubris,</l>
+				<l>Non fera non pisces inueniuntur ibi ingreditur</l>
+				<l n="5">Si quis parue testudinis umbram</l>
+				<l>More niuis tacte corpora sole madent.</l>
+				<l>Evacuat chimos leue corpus redit; in ip[s]o</l>
+				<l>Quouis apposita vase calescit aqua.</l>
+				<l>Hec aqua languentes restaurat et ylia sanat.</l>
+				<l n="10">Ulcera desiccat sub cute si qua latent. </l>
+				<l>Hac te germanus capue caput ede repertum</l>
+				<l>Ad sacra paschasi pascua thure tulit.</l>
+			</lg>
+			<lg>
+				<head>II. [Sulfatara]</head> <l>Mollificat neruos lavacrum de sulphure dictum.</l>
+				<l>Cessat in hoc scabies infectaq[u]e membra nouantur.</l>
+				<l>Impregnat steriles capitis stomachiq[u]e dolorem</l>
+				<l>Destruit et lacrimas in lumine stringit aquosas.</l>
+				<l n="5">Ad vomitum prodest oculos bene reddit acutos. </l>
+				<l>Flegmata dissoluit; febrem cum frigore tollit.</l>
+				<l>Presertim si preueniat purgacio termas.</l>
+				<l>Intrabis securus aquas nam corpora pura,</l>
+				<l>Quam semel accipiunt, seruant sine labe salutem.</l>
+				<l n="10">Inspirant quocunq[u]e modo non Balnea culpes: </l>
+				<l>Affectum virtutis, ama: nam sepe videmus</l>
+				<l>Quod fugiunt nares fugat hoc a corpore morbos.</l>
+			</lg>
+			<lg>
+				<head>III. [Bulla]</head> <l>Est aqua que bullit et ob hoc bene Bulla vocantur.</l>
+				<l>Humani quantum bulla timoris habet.</l>
+				<l>Et Rogus inspirat saxis crepitantib[u]s intus</l>
+				<l>Sic locus ignito corda fragore mouet.</l>
+				<l n="5">Quam metuenda magis tanto magis utilis egris, </l>
+				<l>Si studeant in ea sepe lauare caput.</l>
+				<l>Et si forte caret quo possint membra lauari</l>
+				<l>Alterius curant sumere fontis aquam.</l>
+				<l>Hec virtute loci prestat calefacta salutem:</l>
+				<l n="10">Luminis antidotum seu medicina potens </l>
+				<l>Hec caput emendat matricem purgat et inguen.</l>
+				<l>Liberat et splem congrua purgat epar.</l>
+			</lg>
+			<lg>
+				<head>IV. [Astrunis]</head> <l>Dentibus Astrunis prodest, quos reuma relaxat.</l>
+				<l>Hec reddit ad solitum, si cadat uua, locum</l>
+				<l>Faucibus apta satis Brancos ex reumate passis,</l>
+				<l>Et lesis oculis hec aqua prestat opem.</l>
+				<l n="5">Pulmonem recreat quem tussis causa fatigat. </l>
+				<l>Inflammat corpus cui dominatur aqua.</l>
+				<l>Incitat os dapibus; stomachi fastidia tollit;</l>
+				<l>Aufert in miltis reumatis omne malum.</l>
+				<l>Pigriciam tollit membrorum pectora lenit.</l>
+				<l n="10">Vocis ad obsequium gutturis aptat iter. </l>
+				<l>Sepius unde solet multis occasio nasci,</l>
+				<l>Ne fluat a summo uertice, flegma vetat.</l>
+			</lg>
+			<lg>
+				<head>V. [Juncare]</head> <l>- Balnea Juncare que sunt in litore Ponti</l>
+				<l>Prosunt consumptis in sit adusta cutis.</l>
+				<l>Pectoris amissas reparant in pectore vires.</l>
+				<l>Letificant animos; gaudia sumpta fouent.</l>
+				<l n="5">Que veniunt per se mentis suspiria tollunt,</l>
+				<l>Et faciunt alacres in muliere viros.</l>
+				<l>Efficiunt renes Veneris ad prelia fortes</l>
+				<l>Confortant stomachum lumina lesa iuvant.</l>
+				<l>Quas hominum certas febres int[er]polat usus</l>
+				<l n="10">Anichilant necnon triste medentur epar.</l>
+				<l>Talibus usus aquis discrimina nulla timebit</l>
+				<l>Que quandoq[u]e solent extenuare cutim.</l>
+			</lg>
+			<lg>
+				<head>VI. [Balneolum]</head> <l>Inter aquas pelagi prope litus sub pede rupis</l>
+				<l>Magnus in effectu, fons breue nomen habet.</l>
+				<l>Balneolum dictum tante virtutis amicum</l>
+				<l>Ut paciens illic senciat e[ss]e deum.</l>
+				<l n="5">De morbo quocunq[u]e doles, seu caumate quouis, </l>
+				<l>Lotus aqua tali tempore liber abis.</l>
+				<l>Et caput et stomachum renes et cetera membra</l>
+				<l>Confortat, tepidam si renouabis aquam.</l>
+				<l>Hec prodest oculis, oculorum nube fugata.</l>
+				<l n="10">Consumptos reficit quos tenet egra fames. </l>
+				<l>Materiam tritici consumit et amphimerine. </l>
+				<l>Plus genus hoc aliis parthenopensis amat.</l>
+			</lg>
+			<lg>
+				<head>VII. [Foris Cripte]</head> <l>Limpha foris cripte iuxta maris edita litus</l>
+				<l>A stomacho pellit debilitatis onus.</l>
+				<l>Sed nocet ydropicis, cum sit dulcissima potu:</l>
+				<l>Vim consumendi non habet, unde nocet</l>
+				<l n="5">Leniter ignitos assueta refrigerat artus. </l>
+				<l>Pulmonem lesum sanat et inde Jecur.</l>
+				<l>Pectoris antidotum, tussis medicamen amicum.</l>
+				<l>Desiccata febris caumate membra rigat</l>
+				<l>Ip[s]a per occultos telluris ducta meatus</l>
+				<l n="10">Subuenit egrotis est quibus egra cutis. </l>
+				<l>Ut dicunt veteres: satis est mirabile dictu.</l>
+				<l>Ipsa foris cripte bulla ministrat aquam.</l>
+			</lg>
+			<lg>
+				<head>VIII. [Petra]</head> <l>Cui petra dat nomen, mirum reor e[ss]e lauacrum.</l>
+				<l>Quod lapidem pos[si]t frangere nomen habet.</l>
+				<l>Et caput a multis absoluit triste querelis.</l>
+				<l>Auribus auditum presta et addit opem.</l>
+				<l n="5">Lumina detergit tunicis maculosa piatis. </l>
+				<l>Pectoris et cordis e[ss]e medela potest.</l>
+				<l>Vesicas aperit; a renibus urget arenam.</l>
+				<l>Huius aque potus interiora lauat:</l>
+				<l>Q[ua]mplures vidi calidam potare petrosos,</l>
+				<l n="10">In quibus urina post lapidosa fuit. </l>
+				<l>Vos igitur, quibus est durus cum pondere mictus,</l>
+				<l>Assiduue talie liberat usus aque.</l>
+			</lg>
+			<lg>
+				<head>IX. [Calatura]</head> <l>Pulmoni prebet solitam Calatura quietem,</l>
+				<l>Inde fugat tussim quam grave reuma parit.</l>
+				<l>Hec stomachi vires reparat; vim crescit edendi:</l>
+				<l>Sepius assumptas decoquit ille dapes.</l>
+				<l n="5">Declarat faciem; mentem corroborat et cor </l>
+				<l>Letificat; turpes radit ab ore notas.</l>
+				<l>Formidat quicumq[u]e tisim cum tusse paratam.</l>
+				<l>Ut timor abscedat, depius intret aquam.</l>
+				<l>Inueterata suis sicut radicibus arbor</l>
+				<l n="10">Nequaq[ua]m poterit absq[u]e labore rapi: </l>
+				<l>Non aliter veteris serpencia semina morbi</l>
+				<l>Possunt euelli qualibet arte semel.</l>
+			</lg>
+			<lg>
+				<head>X. [Subvenit Homini]</head> <l>Ex re nomen habet lauacrum quia subvenit egris.</l>
+				<l>Nominis effectum gaudet habere sui.</l>
+				<l>Purgat pulmonem; deponit pondera splenis.</l>
+				<l>Depurat tumidum certa medela iecur.</l>
+				<l n="5">Tristicie causam gelido de pectore tollit. </l>
+				<l>Humores ventris leuiter unda lauat.</l>
+				<l>Defectum stomachi tollit confortat et ip[su]m</l>
+				<l>Ut solitum solitas appetat ore dapes.</l>
+				<l>Vocem sincerat genus aufert omne doloris.</l>
+				<l n="10">Talis amatores recreat unda suos: </l>
+				<l>Hic eciam deponit onus longeue podagre</l>
+				<l>Hic datur articulis induciata quies.</l>
+			</lg>
+			<lg>
+				<head>XI. [Sancta Anastasia]</head>
+				<l>Ascribunt homines tibi, nastasia, lauacrum</l>
+				<l>Usibus humanis comoda multa facit.</l>
+				<l>Corporis ingrati recreatos efficit artus.</l>
+				<l>Virtutes eciam corporis unda novat.</l>
+				<l n="5">Res miranda quidem quicunq[u]e cauabit arenam, </l>
+				<l>In medio fosse feruida manat aqua.</l>
+				<l>Illa recens in fonte suo sinthomata tollit,</l>
+				<l>Languidus ardorem si paciatur aque.</l>
+				<l>Fonte relicta suo nichil affert utilitatis;</l>
+				<l n="10">Hec eadem prodest frigida facta parum. </l>
+				<l>Qui petit ergo sui bene de langore iuuari,</l>
+				<l>Senciet auxilium, si renouabit aquam.</l>
+			</lg>
+			<lg>
+				<head>XII. [Cantarellus]</head> <l>- Inter aquas pelagi feruens aqua manat et ip[s]am</l>
+				<l>Ne fluat in pontum, fictile claudit opus.</l>
+				<l>Cum Mare feruescit locus obpugnatur ab vndis:</l>
+				<l>Vix aliquis poterit eger adire locum.</l>
+				<l n="5">Cantarus humana fruitur uirtute medendi. </l>
+				<l>Nam plagas ueteres consolidatq[u]e nouas.</l>
+				<l>Ulcera, que patitur Cutis ex humorib[us] extra,</l>
+				<l>Cantarus abstringit; lumina clara facit.</l>
+				<l>Sanguinis obturat uenam quandoq[u]e fluentem.</l>
+				<l n="10">Subuenit arteficis; fit medicina pedum.</l>
+				<l>Utilis ad febres et frigora sed tamen huius</l>
+				<l>Usua aque lateri continuatus obest.</l>
+			</lg>
+			<lg>
+				<head>XIII. [Prato]</head> <l>Est aqua quam populi de prato Balnea dicunt;</l>
+				<l>Creditur a multis hoc ciceronis opus.</l>
+				<l>Est via difficilis que ducit ad inferiora</l>
+				<l>In quibus inueniet, quam petit eger, aquam.</l>
+				<l n="5">Hec bene uisceribus fertur conferre modestis </l>
+				<l>Alleuiat corpus quod grauat humor inhers.</l>
+				<l>Dicitur et duros mire mollire lacertos,</l>
+				<l>Et caput et scapulas ad sua iura trahit.</l>
+				<l>Lipposos oculos declarat et ulcera tergit.</l>
+				<l n="10">In toto pariter corpore prestat opem, </l>
+				<l>In sudore madens fugiat pro te[m]pore frigus</l>
+				<l>Nec potum sumant dum sua membra calent.</l>
+			</lg>
+			<lg>
+				<head>XIV. [Tripergula]</head> <l>Est lacus astrata quo portas Christus Averni</l>
+				<l>Fregit et eduxit mortuus inde suos.</l>
+				<l>Hec domus est duplex, de iure tripergula dicta;</l>
+				<l>Una capit uestes, altera servat aquam.</l>
+				<l n="5">Utilis unda satis multum sudantibus; aufert </l>
+				<l>Defectum me[n]tis cum grauitate pedum.</l>
+				<l>Hec stomachi varis facit absentare querelas.</l>
+				<l>Flebile de toto corpore tollit onus.</l>
+				<l>Debilis atq[u]e piger quibus est non multa facultas</l>
+				<l n="10">Consulimus tali sepe fruatur aqua. </l>
+				<l>Cuius amoator aque sinthomata nulla timebit</l>
+				<l>Incolumi semper corpore letus erit.</l>
+			</lg>
+			<lg>
+				<head>XV. [Arcus]</head> <l>Dulce satis lauacrum quod nomen sumit ab arcu,</l>
+				<l>Virtutem magne comoditatis habet.</l>
+				<l>Hec aqua consumptos restaurat corporis artus.</l>
+				<l>Dat stomacho vires; arida membra rigat.</l>
+				<l n="5">Si quis in extremis patitur, festinet ad undam. </l>
+				<l>Omnia, ne dubidet, inferiora iuuat:</l>
+				<l>Non tamen hiis prodest tumidi quos sarcina ventris</l>
+				<l>Aggrauat atq[u]e dolent splene tumente iecur.</l>
+				<l>Rem loquor expertam prop[ri]o quam lumine vidi;</l>
+				<l n="10">Teste michi populo que scio certa loquor: </l>
+				<l>Vidi consumptum tantum cum pelle relictum</l>
+				<l>Tempore non longo restituisse cutim.</l>
+			</lg>
+			<lg>
+				<head>XVI. [Raynerius]</head> <l>Balnea Raynerii que corpora putrida sanant</l>
+				<l>Est quor[um] salsi flegmatis hostis aqua.</l>
+				<l>Si qua cicatrizat corpis serpigo uel erpes.</l>
+				<l>A scabie q[uam]uis exteriora lauat.</l>
+				<l n="5">Infectam mundare cutim quicunq[u]e laboras, </l>
+				<l>Utere raynerio, de Cute sanus eris.</l>
+				<l>Ne tamen incurras iterum discrimina morbi</l>
+				<l>Terribiles tribuli sanus adibis aquas.</l>
+				<l>Vidi q[uam]plures hoc fastidire lauacro</l>
+				<l n="10">Fecerat hoc hominum pingue putredo putens. </l>
+				<l>Raynerii refrenat aquas aqua turgida stagni.</l>
+				<l>Felix qui pingue evacuabit aquas.</l>
+			</lg>
+			<lg>
+				<head>XVII. [Ferris]</head> <l>Ante domum vatis lacus est ubi dictus Averni,</l>
+				<l>Grande ruinose preminet artis opus.</l>
+				<l>Hic lauacrum ferri quod habet ferruginis instar.</l>
+				<l>Dicitur umbrosa q[uo]d caret umbra domo.</l>
+				<l n="5">Si quis emigraneum patitur quandoq[u]e Dolorem </l>
+				<l>Siue supercilii, sepius inter aquam.</l>
+				<l>Cum vicio capitus nubem caliginis aufert.</l>
+				<l>Tollitur ex oculis sanguis, ab aure sonus.</l>
+				<l>Si quis aque talis vires cognosceret eger</l>
+				<l n="10">Collirio nunq[ua]m lesus haberet Opus </l>
+				<l>Pannosos oculos sincerat et ephetat aures. </l>
+				<l>Congaudet capiti trina suo.</l>
+			</lg>
+			<lg>
+				<head>XVIII. [Silvia]</head> <l>Sylvia diua parens inuenit forte lauacrum;</l>
+				<l>De proprio tribuit nomine nomen aque.</l>
+				<l>Hec aqua matrices quouis humore grauatus</l>
+				<l>Mundat et has steriles fructificare facit.</l>
+				<l n="5">Menstrua, si fugiant forsan, In uita redibunt. </l>
+				<l>Et facit hoc lauacrum ne sine lege fluant.</l>
+				<l>Quas patitur matrix causas obtemperat egras</l>
+				<l>Unde queri possit femina, causa perit.</l>
+				<l>Vos igitur steriles moneat si gracia prolis</l>
+				<l n="10">Viuere et annosi temporis egra dies: </l>
+				<l>tam uir q[uam] mulier te, Siluiana, frequentant,</l>
+				<l>Tam uir q[uam] mulier frigidus e[ss]e potest.</l>
+			</lg>
+			<lg>
+				<head>XIX. [Culma]</head> <l>Inter aquas alias mirabile culma lauacrum.</l>
+				<l>Huius ad accessum non via recta patet.</l>
+				<l>Ymo per obliquum medicis accreditur undis;</l>
+				<l>Monstrat iter dubium preuia flamma tibi.</l>
+				<l n="5">Unda lateris intus sudorem prouocat intus. </l>
+				<l>Et facit ad neruos quos graue flegma grauat.</l>
+				<l>Luminibus lumen reddit, vestigia claudis,</l>
+				<l>Passio ni fuerit inueterata diu.</l>
+				<l>Rem loquitur certam non est incognita multis:</l>
+				<l n="10">Culma nocet sanis, morbida membra iuuat. </l>
+				<l>Hac igitur caueat ui non eget arte medendi;</l>
+				<l>Quam si forte peti, nitet in amne moram.</l>
+			</lg>
+			<lg>
+				<head>XX. [Trituli]</head> <l>Est locus antiqua testudine ductus in aluum</l>
+				<l>Rupe sub ingenti celte cauata domus.</l>
+				<l>Plena figura[rum] morborum conscia formis</l>
+				<l>Ad quid aque valeant queq[ue] figura notat.</l>
+				<l n="5">Res miranda satis, satis est horrendaq[ue] visu. </l>
+				<l>Hic veniente die mittitur unda semel:</l>
+				<l>Hec eadem partim primum petit equora, partim</l>
+				<l>Extenuata fluens refluit unde venit.</l>
+				<l>Plus hic q[uam] dudum bessayda que semel anno</l>
+				<l n="10">Uni prestabat mota saluits opem, </l>
+				<l>Hic aqua cotidie q[uam] multos mota medetur</l>
+				<l>Reuma fugat Stomachum roborat atq[ue] caput</l>
+				<l>Libera ydropicos hic omnes gutta fugatur.</l>
+				<l>Flegmaticis prodest, febricitare vetat.</l>
+			</lg>
+			<lg>
+				<head>XXI. [Arculus]</head> <l>Qui breue nomen habet, magne virtutis habetur.</l>
+				<l>Arculus a flammis quod calet arcet epar.</l>
+				<l>Reumatis et stomachi vicium de corpore tollit. </l>
+				<l>Liberat a multa frigiditate caput;</l>
+				<l n="5">Lintheis oculis obtalpa sana ministrat. </l>
+				<l>Deficit arculea triste papauer aqua;</l>
+				<l>Et si forte fugit vigilancia lumina sompnus,</l>
+				<l>Arculus adducto membra sopore fouet.</l>
+				<l>Balnea quod trituli q[uo]d culme limpha ministrat,</l>
+				<l n="10">Arculus in multis hec operatur idem. </l>
+				<l>Qua[m]uis inter aquas trituli fit gracior unda</l>
+				<l>Consulo non dubites hoc breuiore frui.</l>
+			</lg>
+			<lg>
+				<head>XXII. [Palumbare]</head> <l>Cripta palumbare fuerit vel grata palumbis,</l>
+				<l>Vel quia q[uod] lumbis fertur obesse parum.</l>
+				<l>Unda palumbare lesos cum vertice renes</l>
+				<l>Sanat et urine sumpta recludit iter.</l>
+				<l n="5">Ex oculis nebulas • et ab auribis excutit euros. </l>
+				<l>Cardiacam tollit artheticamq[ue] fugat.</l>
+				<l>Et maiora facit, si scis seruare dietam:</l>
+				<l>A salsis caueas, frigida queq[ue] fuge.</l>
+				<l>Algentis vitabis atque consuesce[re] potum:</l>
+				<l n="10">Utere lymphato, quod parit uva, mero. </l>
+				<l>Crede michi q[uod] aque faciunt quodcu[n]q[ue] syrupi,</l>
+				<l>Si bene seruetur, sola dieta facit.</l>
+			</lg>
+			<lg>
+				<head>XXIII. [Pugillus]</head> <l>Cum maris unda tumet, tanti vacat unda pugilli</l>
+				<l>Pro stacione loci, tam breue nomen habet:</l>
+				<l>Est iter obliquum paruam quod ducit ad undam;</l>
+				<l>Vix hominum septem creditur e[ss]e capax.</l>
+				<l n="5">Ani tollit onus; ventrem cessare Solutum </l>
+				<l>Cogit et ydropicos attenuare potest.</l>
+				<l>Si patitur cum splene caput, cum frigore corpus</l>
+				<l>Febrierit, certam senciet eger opem.</l>
+				<l>Qui de te referam, nimis admirande pugille,</l>
+				<l n="10">Quod proprio vidi lumine testor ego: </l>
+				<l>Aridus, usus aqua, baculis adiutus amicis,</l>
+				<l>Discessit sanus non ope vectis egens.</l>
+			</lg>
+			<lg>
+				<head>XXIV. [Sanctus Georgius]</head> <l>Est aqua que poterit de iure Georgica dici:</l>
+				<l>Abdita telluris vena ministrat aquam.</l>
+				<l>Qua nullus poterit flamma non indice fungi:</l>
+				<l>Nam via sub terris plena tumore latet.</l>
+				<l n="5">Quantum mens hominis timet ingrediendo lauacrum, </l>
+				<l>Mirificam tantum leta relinquit aquam.</l>
+				<l>Hec lapidem frangit; urmam soluit ad usum.</l>
+				<l>In multis prohibet articulare malum.</l>
+				<l>Si scia, si crura, si pes, si brachia, si frons</l>
+				<l n="10">Egrotant sanctis hiis releuantur aquis. </l>
+				<l>Hoc bene contestor; quidem cu[m] mingere vellet</l>
+				<l>Euomuit lapides virga coacta duos.</l>
+			</lg>
+			<lg>
+				<head>XXV. [Petroleo; Olivum]</head> <l>Non procul a culma locus est qui fundit olivum.</l>
+				<l>Hoc lauacrum multum comoditatus habet.</l>
+				<l>Hoc vicium lepre, genus hoc serpiginis omne</l>
+				<l>Tollit et a stomacho flegmata salsa fugat.</l>
+				<l n="5">Extiunguit coleram; grossos subtiliat artus. </l>
+				<l>Exhilarat tristes cor bene reddit ouans.</l>
+				<l>Noxia de gelidis depellit frigora membris:</l>
+				<l>Omnia letantur membra vigore suo.</l>
+				<l>Cuiuscunq[ue] genas nigra si morpheabit,</l>
+				<l n="10">Hec aqua rugosas delet ab ore notas. </l>
+				<l>Virtutem lauacri demonstrat nomen oliui:</l>
+				<l>Hoc oleum prestat quod petra sudat aqua.</l>
+			</lg>
+			<lg>
+				<head>XXVI. [Sol et Luna]</head> <l>Cesaris est lauacrum quod Sol et luna vocatur:</l>
+				<l>Sicut sol stellis preualet istud aquis.</l>
+				<l>Omne genus gutte tollit; genus omne doloris</l>
+				<l>Fistula ni violet viribus ossa suis.</l>
+				<l n="5">Subuenit antique lauacrum regale podagre, </l>
+				<l>Ni faciat fractos inueterata pedes.</l>
+				<l>Sed tamen ignorant ubi sit tam nobilis unda</l>
+				<l>Obruit antiquum forte ruyna locum.</l>
+				<l>Vos igitur quos longa dies fastidit et etas, </l>
+				<l n="10">Quos tam longeuos nutrit Auersa senes,</l>
+				<l>Demonstrare locum qui sol et luna vocatur:</l>
+				<l>Utilis a multis edificandus erit.</l>
+			</lg>
+			<lg>
+				<head>XXVII. [Fons Episcopi]</head> <l>Nomine fons tali fruitur q[uo]d episcopat egris,</l>
+				<l>Vel quia pontificis cura refecit opus.</l>
+				<l>Arteticis prodest; tollit genus omne podagre,</l>
+				<l>Hunc habet expertum pontificale genus.</l>
+				<l n="5">Et quia prelatis requies nocet atq[ue] Parassis </l>
+				<l>In se deficiunt sepe dolore pedum.</l>
+				<l>Cum constipantur, notus includit[ur] intus,</l>
+				<l>Inde dolent ventres, ylia densa crepant.</l>
+				<l>Pontifices fontem perquirite pontificalem;</l>
+				<l n="10">Utilis est vobis pontificalis aqua. </l>
+				<l>Indulgete cibis ne digestiua fatigent,</l>
+				<l>Que morbi causa sepius esse solent.</l>
+			</lg>
+			<lg>
+				<head>XXVIII. [Bracula]</head> <l>Faucibus antidotum bene confert bracula Grossis.</l>
+				<l>Et vox si fuerit rauca, fit apta sono.</l>
+				<l>Si patitur capitis pupis vel prora dolorem, </l>
+				<l>Si dolet oppressum splene tumente Iecur,</l>
+				<l n="5">Si caligo diem, noctis germana, minorat, </l>
+				<l>Omnibus hiis viciis bracula prestat opem.</l>
+				<l>Quartanam perimit; necnon necat amphimerinam,</l>
+				<l>Hic intermisse febris origo perit.</l>
+				<l>Vos igitur, quobus est odiosa planetica febris,</l>
+				<l n="10">Huius, si sapitis, querite fontis opem. </l>
+				<l>Non opus est intrare semel; quia balnea quantum</l>
+				<l>Quis magis ingreditur, tam magis ip[sa] Iuuant.</l>
+			</lg>
+			<lg>
+				<head>XXIX. [Gimborosus]</head> <l>Est Aqua mirandi nimium noua dicta lauacri</l>
+				<l>De Gimberosi nomine nomen habens.</l>
+				<l>Pene per octo gradus paciens descendit ad undam.</l>
+				<l>Circinat intus aquas per latus omne gradus.</l>
+				<l n="5">Ylia componit; vetat in matrice dolorem. </l>
+				<l>Sanguineos fluxus in muliere vetat.</l>
+				<l>A superis exire cruor prohibetur et idem,</l>
+				<l>Ne fluat insolitus, inferiora fugit.</l>
+				<l>Vesicam curat quociens urina negatur:</l>
+				<l n="10">Ulla patet melior renibus e[ss]e salus </l>
+				<l>Si lapides vel pilos, seu si paciantur arenam</l>
+				<l>Quolibet a morbo membra grauata iuuat.</l>
+			</lg>
+			<lg>
+				<head>XXX. [Spelunca]</head> <l>Ultima termarum laudem Spelunca meretur.</l>
+				<l>Huius aqua poterit simplice nemo frui:</l>
+				<l>Ingenio faciente modum cadit unda doloris,</l>
+				<l>Sic intrabit aquas ingeniosus homo.</l>
+				<l n="5">Cuiscunq[ue] velis, p[er]imit sinthomata gutte, </l>
+				<l>Sic fugit ydropisis tussis iniqua perit.</l>
+				<l>Ut Galienus ait, si dragmas quinq[ue] calenti</l>
+				<l>Quisq[ua]m cotidie sumere curet aque:</l>
+				<l>Et super et subter que sunt, diafragma medetur.</l>
+				<l n="10">Reumatis excludit quod nocet omne genus. </l>
+				<l>Non domus erroris non est spelunca latronum,</l>
+				<l>Cripta salutarem continet intus aquam ~</l>
+			</lg>
+			<lg>
+				<head>XXXI. [Dedicatio]</head> <l>Suscipe, Sol mundi, ubi quem presento libellum.</l>
+				<l>De tribus ad d[omi]n[u]m tercius iste venit.</l>
+				<l>Primus [h]abet patrios Civili marte t[ri]umphos:</l>
+				<l>Mira Frederici gesta secundus habet;</l>
+				<l n="5">Tam loca, q[uam] vires, q[uam] nomina pene sepulta, </l>
+				<l>Tercius eboycis iste reformat aquis.</l>
+				<l>Cesaris ad laudem tres scripsimus ecce libellos;</l>
+				<l>Firmius est verbum quod stat in ore trium.</l>
+				<l>Si placet, annales verbum lege,cesar auorum</l>
+				<l n="10">Pauper in austero nemo poeta fuit </l>
+				<l>Ebolei vatis, Cesar, reminiscere v[est]ri</l>
+				<l>Ut posset nati scribere facta tui.</l>
+			</lg>
+			<lg>
+				<head>XXXII. [Subcellarium]</head> <l>Est subcellarium lauacrum quod conuenit Egris.</l>
+				<l>Lucida quo multum dulcis et unda manet.</l>
+				<l>Pondus et arborem vesice soluit • et egris</l>
+				<l>Prouocat urinam tencio cuius obest.</l>
+				<l n="5">Hac hominis varii pertolus curatur in undis; </l>
+				<l>Dentes gingiuas in mundificando iuuat.</l>
+				<l>Passus in estate triteam vel cotidianam</l>
+				<l>Aut tepidas febres, senciat eius opem </l>
+				<l>Pulmonis, Iecoris vicium splenisq[ue] medetur.</l>
+				<l n="10">Tussis ob hoc lauacrum pectore pulsa fugit. </l>
+				<l>Appetit et stomacus ista pertolus in unda:</l>
+				<l>Nam bene digestus redditur inde cibus.</l>
+				<l>Lentigo, scabies, turpis pannus faciei,</l>
+				<l>Hec curantur aqua quando lauantur ibi.</l>
+				<l n="15">Reddit prolixos et claros ip[s]a capillos, </l>
+				<l>Et totum corpus exhylarando iuuat.</l>
+			</lg>
+			<lg>
+				<head>XXXIII. [De Cruce]</head> <l>Hoc lauacrum Crucis satis est laudabilis unda.</l>
+				<l>Quibus podagra iam indurata fuit.</l>
+				<l>Confortata neruos et fleuma expellit ab ip[s]is</l>
+				<l>Prodest ydropicis qui exfleumate grosso.</l>
+				<l n="5">Consueuit eam splene tumente Jecur.</l>
+				<l>Proficit et ventris qui ypocondri grauat.</l>
+				<l>Ad guttam frigidam que est imbita neruis</l>
+				<l>Frequentant aquam que euacuata crescit.</l>
+				<l>Vidi quendam ego ad balneum sepe balneare</l>
+				<l n="10">Qui minime poterat ad os porrigere manum </l>
+				<l>Tempore in breui aque virtute fluendi</l>
+				<l>Teste michi multo cito discessit sanus.</l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

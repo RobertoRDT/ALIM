@@ -1,0 +1,978 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Assise regum regni Sicilie</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>O. Zecchino</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+					<name key="CC">Chiara Casali</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="5694" unit="words">Parole: 5694</measure>
+				<measure quantity="36591" unit="characters_without_spaces">Caratteri (spazi esclusi): 36591</measure>
+				<measure quantity="41599" unit="characters_witht_spaces">Caratteri (spazi inclusi): 41599</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-10-13">13/10/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Diritto</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: L'edizione riporta le Assise tramandate da due differenti codici, il Codice Vaticano Latino 8782 (da p. 22) e il Codice Cassinese 468 (da p. 70).
+					5.784 parole
+					42.738 caratteri
+				(LDF)</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Le assise di Ariano</title>
+						<editor>O. Zecchino</editor>
+						<imprint>
+							<publisher>Di Mauro</publisher>
+							<pubPlace>Cava dei Tirreni</pubPlace>
+							<date>1984</date>
+							<biblScope unit="page">22-102</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Diritto</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB, CC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok, ma:</item><item type="itemNotaJC">-il testo è riportato due volte, secondo due manoscritti. Ho segnato ogni versione con &lt;div type="treatise"&gt;</item><item type="itemNotaJC">-alla fine della p. 93, c'è "C. I. XII. De tironibus. Nullus tiro ga aut veteranus aut censibus obnoxius ad militia accedat.". Non capisco però cosa sia il C. I. XII.: in questa parte, i capitoli sono numerati con numeri arabi (e non ne manca nessuno)... E ancora sulla stessa riga: "Nullus tiro ga aut veteranus..." Cosa è il "ga"?</item><item type="itemNotaJC">-versione 1 - XI: "De raptum virginum". L'ho corretto in "De raptu"</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="22"/>
+		<div type="treatise">
+			<p><lb/>Dignum et necessarium est o proceres si quod de nobis et universi
+				<lb/>regni nostri statu meritis non presumimus; a largitate divina gratia consecuta recepimus; divinis beneficiis quibus valemus obsequis respondeamus,
+				<lb/>ne tante gratie penitus ingrati simus. Si ergo sua misericordia nobis
+				<lb/>deus pius prostratis hostibus pacem reddidit, integritatem regni, tranquillitate gratissima, tam in carnalibus quam in spiritualibus, reformavit,
+				<lb/>reformare cogimur iustitie simul et pietatis itinera, ubi videmus eam et
+				<lb/>mirabiliter esse distortam. Hoc enim ipsum quod ait, inspiramentum,
+				<lb/>de munere ipsius largitoris, accepimus, dicente ipso: per me reges regnant
+				<lb/>et conditores legum decernunt iustitiam. Nichil enim gratius deo
+				<lb/>esse putamus, quam si id simpliciter offerimus, quod eum esse cognovimus, misericordiam scilicet atque iustitiam. In qua oblatione regni officium
+				<lb/>quoddam sibi sacerdotii vendicat privilegium. Unde quidam sapiens
+				<lb/>legisque peritus iuris interpres, iuris sacerdotes appellat. Iure itaque qui
+				<lb/>iuris et legum auctoritatem per ipsius gratiam optinemus, eas in meliorem
+				<lb/>statum partim erigere, partim reformare, debemus et qui misericordiam
+				<lb/>consecuti sumus in omnibus eas tractare misericordius, interpretari
+				<lb/>benignius, presertim ubi severitas earum quandam inhumanitatem
+				<lb/>inducit. Neque hoc ex supercilio quasi iustiores aut moderatores nostris
+				<lb/>predecessoribus in condendis legibus interpretandisve nostris vigiliis arrogamus,
+				<lb/>set quia in multis delinquimus et ad delinquendum et ad delinquendum
+				<pb n="26"/>
+				<lb/>procliviores sumus, parcendum delinquentibus cum
+				<lb/>moderatia nostris temporibus apta conveniens esse censemus. Nam et ipsa
+				<lb/>pietas ita nos instruit dicens: Estote misericordes sicut et pater vester
+				<lb/>misericors est. Et rex et propheta: Universe vie domini misericordia et
+				<lb/>veritas. Et proculdubio tenebimus, quia iudicium sine misericordia erit ei
+			<lb/>qui iudicium fecerit sine misericordia.</p>
+			<p><lb/>Volumus igitur et iubemus ut sanctiones quas in presenti corpore
+				<lb/>sive promulgatas a nobis, sive compositas nobis facimus exhiberi, fideliter
+			<lb/>et alacriter recipiatis.</p>
+			<div type="chapter">
+				<head><lb/>I. De legum interpretatione</head>
+				<p><lb/>Leges a nostra maiestate noviter promulgatas pietatis intuitu asperitatem
+					<lb/>nimiam mitigantes mollia quodam moderamine exaucuentes; obscura
+					<lb/>dilucidantes, generaliter ab omnibus precipimus observari, moribus, consuetudinibus, legibus non cassatis pro varietate populorum nostro regno
+				<lb/>subiectorum, sicut usque nunc apud eos optinuit, nisi forte nostris his sanctionibus adversari quid in eis manifestissime videatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>II. De privilegio sanctarum ecclesiarum</head>
+				<p><lb/>Noverint ergo omnes nostre potestati subiecti, quoniam in voto nobis
+					<lb/>semper fuit, et erit, ecclesias dei pro quibus dominus Ihesus sanguinem
+					<lb/>suum fudit, protegere, defensare, augere modis omnibus, sicut et proienitores
+					<lb/>nostri consueta liberalitate, id ipsum facere studuerunt, ideoque multa
+					<lb/>et innumera beneficia a deo consecuti sunt semper in melius. Itque sacrarum ecclesiarum res omnes et possesiones in nostra post deum et sanctos
+					<lb/>ejus custodia collacatas atque commissas ab omnibus incursibus malignantium,
+					<lb/>gladio materiali nobis a deo concessas defendimus et inviolatas
+					<lb/>custodimus; principibus, comitibus, baronibus et omnibus nostris
+					<lb/>fidelibus commendamus, scituri, quod nostrum decretum quisquis violare
+				<lb/>voluerit, nostram se sentiat ledere majestatem.</p>
+			</div>
+			<pb n="28"/>
+			<div type="chapter">
+				<head><lb/>III. Monitio generalis</head>
+				<p><lb/>Monemus principes, comites, barones, maiores atque minores, archiepiscopos, episcopos, abbates, cunctos denique qui subditos habent cives,
+					<lb/>burgenses, rusticos, sive cuiuscumque professionis homines, eos humane tractare, misericordiam adhibere, maxime cum debitum adiutorium conveniens
+					<lb/>et moderatum valent ab ipsis quos habent subditos, postulare.
+					<lb/>Gratum enim deo faciunt, et nobis maximum gaudium, cuius potestati
+					<lb/>atque regimini divina dispositio, tam prelatos subdidit quam subiectos. Quod
+					<lb/>si fuerit neglectum, nostram spectabit sollicitudinem male factum in melius
+				<lb/>reformare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IV. De rebus regalibus</head>
+				<p><lb/>Scire volumus principes nostros, comites, barones universos archiepiscopos, episcopos , abbates, quicumque de regalibus nostris magnum vel
+					<lb/>modicum quid tenet, nullo modo, nullo ingenio, possit ad nostra regalia
+					<lb/>pertinens alienare, vel vendere, vel in totum vel in partem minuere, unde
+				<lb/>iura rerum regalium minuantur, aut subvertantur sive aliquod etiam dampnum patiantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>V. De sanctarum reliquiarum venditione</head>
+				<p><lb/>Sanccimus nemini licere martirum, vel quorucumque sanctorum
+					<lb/>reliquias vendere, vel comparare. Quod si presumptum fuerit, nondum
+					<lb/>pretio numerato nichil ets consecuturus si venditor emptorem voluerit
+					<lb/>convenire. Si autem numeratio facta est, emptori repetitionem non esse,
+					<lb/>fiscum vero vendicare. Nostram spectabit providentiam temeritatem contrahentium cohercere, et ubi decuerit, reliquias cum consilio antistitum
+				<lb/>collocare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VI. De confugio ad ecclesiam</head>
+				<p><lb/>Presente lege sanccimus per loca regni nostri omnia deo propitio
+					<lb/>in perpetuum valitura nullos penitus, cuiuscumque condicionis de sacrosantis
+					<lb/>expelli ecclesiis, aut protrahi confugas, nec pro his venerabiles episcopos,
+					<lb/>aut yconomos exigi, que debentur ab eis qui hoc moliri aut facere
+					<lb/>presumpserit, capitis periculo,
+					<pb n="32"/>
+					<lb/>aut bonorum omnium ammissione plectendis. Interim confugis victualia
+					<lb/>non negentur. Sane si servus, aut colonus, aut servus glebe se ipsum
+					<lb/>subtraxerit domino, vel furatus res ad loca sancta confugerit, cum rebus
+					<lb/>quas detulit, domino presentetur, ut pro qualitae commissi subeat ultionem,
+					<lb/>aut intercessione procedente restituatur et gratie. Nemini
+				<lb/>quippe ius suum est detrahendum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VII. De privilegiis ecclesiarum non violandis</head>
+				<p><lb/>Si venerabilis ecclesie privilegia cuiscumque fuerint temeritate violata
+					<lb/>dolove suppressa commissum iuxta dampnositatem ecclesie compensetur.
+					<lb/>Quod si non sufficiat ad condempnationis mulctam, regis iudicio vel
+					<lb/>officialium arbitrio committetur. Nichilominus pro qualitate commissi
+				<lb/>regis providentie, vel officialium arbitrio subiacebit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VIII. De episcoporum privilegio</head>
+				<p><lb/>Episcopus ad testimonium non flagiterur, nisi forte in causis ecclesiasticis,
+					<lb/>vel publicis, cum necessitas, aut regis auctoritas postulaverit.
+					<lb/>Presbiteri non cogantur corporale sacramentum in negotiis exibere;
+					<lb/>diacones, subdiacones et infra positos altari sacri ministros, ab obsequiis
+					<lb/>sordidis alienos esse precipimus; presbiteros tantum non etiam ceteros
+				<lb/>omnibus angariis personalibus prohibemus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IX. De illicitis conventiculis</head>
+				<p><lb/>Conventiculam illicitam extra ecclesiam in privatis edibus celebrari
+					<lb/>vetamus, proscriptionis domus periculo imminente, si dominus eius in eam
+					<lb/>clericos novam vel tumultuosam conventiculam celebrantes, susceperit non
+				<lb/>ignarus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>X. De ascripticiis volentibus clericari</head>
+				<p><lb/>Ascripticios sine voluntate et assensu eorum quorum iuri subditi
+					<lb/>sunt, et potestati, nullus episcoporum ordinare presumat, neque de aliensa
+					<lb/>parrochia, per litteras commendatorias secundum canonum instituta, vel
+				<lb/>ab episcopo, vel a proprio capitulo.</p>
+				<p><lb/>Hii quorum ascripticii sunt, si quod premium pro data licentia consecrandi
+					<lb/>suscepisse convicti fuerint, huiusce ascriptii perdant qui dedit pecuniam
+					<lb/>ab ordine cadat, fisco vero cum omnibus rebus suis vendicetur.
+					<pb n="34"/>
+					<lb/>Solent sancto voto atque proposito sanctis occasionibus pravitas se ingerere,
+					<lb/>et dei servitium atque ecclesie ministerium perturbare. Ne ergo
+					<lb/>sinistrum aliquod aliquando possit nostris institutionibus obviare, si forte
+					<lb/>in rure vel in vico ecclesia assignatos habuerit sacerdotes quibus decedentibus
+					<lb/>sint alii subrograndi et domini ruris vel vici super ascripticiis, episcopo
+					<lb/>fieri subgorationem negaverint, presertim cum ex ipsis ascripticiis persona
+					<lb/>ydonea ab episcopo expectatur, dignum nostre clementie videtur,
+					<lb/>atque iustissium ad iustam petitionem ecclesie ascripticiorum dominum
+					<lb/>iure cogendum; filii vero decedentis presbiteri ad asripticiorum condicionem
+				<lb/>reddatur omni occasione remota.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XI. De raptu virginum</head>
+				<p><lb/>Si quis rapere sacratas deo virgines aut nondum velatas causa iungendi
+					<lb/>matrimonium presumpserit, capitali pena feriatur, vel alia pena quam
+				<lb/>regia censura decreverit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XII.</head>
+				<p><lb/>Iudeus paganus servum christianum nec vendere, nec comparare
+					<lb/>audeat, nec ex aliquo titulo possidere seu pignori detinere. Quod si presumpserit,
+					<lb/>omnes res eius infiscentur, et curie servus fiat. Quem si forte
+					<lb/>ausu vel nefario vel suasu circumcidi vel fidem abnegare fecerit, capitali
+				<lb/>supplicio puniatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIII. De apostatantibus</head>
+				<p><lb/>Apostantes a fide catholica penitus execramus, ultionibus insequimur,
+					<lb/>bonis omnibus spoliamus, a professione vel voto naufragantes legibus
+				<lb/>coartamus, succesiones tollimus, omne ius legitimum abdicamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIV. De ioculatoribus</head>
+				<p><lb/>Mimi et qui ludibrio corporis sui questum faciunt, publico habitu
+					<lb/>earum virginum, que deo dicate sunt, vel veste monachica non utantur,
+				<lb/>nec clericali; si fecerint verberibus publice afficiantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XV. De pupillis et orphanis</head>
+				<p><lb/>Pupillis et orphanis pietatis intuitu, multa privilegia priscis legibus confirmata
+					<lb/>pro qualitate temporum quibus absolverint in ultimo
+					<pb n="38"/>
+					<lb/>delegamus nostri iudicibus ubi iactura tollerabilis non est, favorabiliter
+				<lb/>commendamus.</p>
+				<p><lb/>Mulieribus nichilominus ubi non modice lese sunt, propter fragiliorem
+					<lb/>sexum, legum equitatem sectantes tam per nos, quam per officiales
+					<lb/>nostros ex pietatis visceribus subveniendum decrevimus, sicut decet et
+				<lb/>oportet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVI. De indigne anelantibus ad sacerdotum</head>
+				<p><lb/>Nemo sacerdotum dignitatem pretio petere audeat, contumeliam pro
+					<lb/>premio reportaturus et penam, mox ut fuerit propria petitione detectus.
+					<lb/>Ille enim honore se privat, qui inpudenti fronte, velud importunus
+				<lb/>expostulat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVII. De sacrilegiis</head>
+				<p><lb/>Disputari de regis iudicio, consiliis, institutionibus, factis non oportet.
+					<lb/>Est enim par sacrilegio disputare de eius iudiciis, institutionibus, factis
+					<lb/>atque consiliis et an is dignus sit quem rex elegerit, aut decernit.
+					<lb/>Multe leges sacrilegos severissime punierunt, set pena moderanda
+					<lb/>est arbitrio iudicantis, nisi forte manufacta templa dei fracta sunt violenter,
+					<lb/>aut dona et vasa sacra, noctu sublata sunt, hoc enim casu capitale
+				<lb/>est.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVIII. De crimine maiestatis</head>
+				<p><lb/>Quisquis cum milite uno vel cum pluribus, seu privato scelestem
+					<lb/>inierit factionem aut factionis dederit, vel susceperit sacramentum, de
+					<lb/>nece etiam virorum illustrium, qui consiliis et consistorio nostro intersunt,
+					<lb/>cogitaverint et tractaverint, eadem severitate voluntatem sceleris qua
+					<lb/>effectum puniri iura voluerunt, ipse quidem ut pote reus majestatis gladio
+					<lb/>feriatur, bonis eius omnibus fisco addictis; filii vero eius nullum unquam
+					<lb/>beneficium sive a nostro beneficio seu iure consensum optineant.
+					<lb/>Sit ei mors solacium et vita supplicium. Quod si qiusquam de factiosis mox
+					<lb/>sine mora factum detexerit, veniam et gratiam mox sequatur.
+					<pb n="40"/>
+					<lb/>Crimen majestatis post mortem rei etiam incipit et tractatur; rei
+					<lb/>memoria condempnatur, adeo ut quicquid contraxerit, fecerit, statuerit, a
+					<lb/>die criminis nullam habeat firmitatem; set omne quod habuit, fisci
+				<lb/>iuribus vendicetur.</p>
+				<p><lb/>Hoc crimine qui parentem purgaverit, eius successionem meretur.
+					<lb/>Hoc crimine tenentur omnes, quorum consilio fugiunt obsides, armantur
+					<lb/>cives, seditiones moventur, concitantur tumultus, magistratus necantur,
+					<lb/>exercitus deseritur, ad hostem fugitur, socius proditur, dolo malo
+					<lb/>cuneus discinditur, bellis ceditur, ars desolatam relinquitur, sociis
+					<lb/>auxilium denegatur, cetaraque hujusmodi sicut regii consilii explorator, summissor
+					<lb/>et publicator, et qui susceperit hospitio hostes regni, et ductum prbeuerit
+				<lb/>non ignarus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIX. De nova militia</head>
+				<p><lb/>Divine iustitie consentientes probanda probamus contrarium refutamus.
+					<lb/>Sicut, enim, nullatenus exasperandi sunt boni, ita beneficiis non
+					<lb/>sunt fovendi mali. Sanccimus, itaque tale proponentes edictum, ut si quicumque
+					<lb/>novam militiam arripuerit, contra regni nostri beatitudinem, atque
+					<lb/>pacem, sive integritatem, militie nomine et professione, penitus decidat,
+					<lb/>nisi forte a militari genere per successionem duxerit prosapiam.
+					<lb/>Idemque statuimus de sortientibus qualiscumque professinis ordinem, ut
+					<lb/>puta si vel auctoritatem iudicii optinuit, sive notariorum officium, ceterisque
+				<lb/>similibus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XX. De falso</head>
+				<p><lb/>Qui litteras regias aut mutat aut quas ipse scripsit notho sigillo subsignat,
+				<lb/>capitaliter puniatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXI. De cutendibus monetam</head>
+				<p><lb/>Adulterinam monetam cudentibus, vel scienter eam accipientibus,
+					<lb/>penam capitis irrogamus, et eorum substantiam publicamus; consentientes
+				<lb/>etiam hac pena ferimus.</p>
+				<pb n="44"/>
+				<p><lb/> Qui nummos aureos vel argenteos raserint tinxerint, vel quocumque
+					<lb/>modo imminuerint, tam personas eorum, quam bona omnia publicamus.
+					<lb/>Ubi questio falso inciderit, diligens inquisitio mox sequatur, argumentis,
+					<lb/>testibus, collatione scripturarum, et aliis vestigiis veritatis. Non
+					<lb/>solum accusator probationibus honeretur, set inter utramque personam
+					<lb/>iudex sit medius, ut omnibus que competunt exquisitis, demum sententiam
+					<lb/>ferat. Capitali post probationem supplicio secuturo si id exigat magnitudo
+				<lb/>supplicii, vel alia pena pro qualitate delicti.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXII. De falso instrumento</head>
+				<p><lb/>Qui falso instrumento nesius utitur, falsi crimine non punitur.
+				<lb/>Qui falsitatem testibus astruxerit, falsi pena cohercetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXIII. De abolitione testamenti</head>
+				<p><lb/>Amator testamentorum, publicorum instrumentorum, celator,
+				<lb/>delator, perversor, eadem pena tenetur.</p>
+				<p><lb/>Si quis patris testamentum deleverit, ut quasi ab intestato succedat,
+				<lb/>patris hereditate privatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXIV. De officialibus publicis</head>
+				<p><lb/>Qualitas persone gravat et relevat penam falsi.</p>
+				<p><lb/>Officiales reipublice, vel iudicis qui tempore amministrationis
+					<lb/>pecunias publicas subtraxerint, obnoxii crimini peculatus, capite puniantur,
+				<lb/>nisi regia pietas indulserit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXV. De bonis publicis</head>
+				<p><lb/>Qui sua negligentia bona publica deperire, vel minui permiserit, in
+					<lb/>persona propria et rebus suis, constituetur obnoxius, et hoc prospectu
+				<lb/>pietatis rege.</p>
+				<p><lb/>Qui sciens furantibus assensum prebuerit, eadem lege tenetur.</p>
+			</div>
+			<pb n="46"/>
+			<div type="chapter">
+				<head><lb/>XXVI. De coniugiis legitime celebrandis</head>
+				<p><lb/>Quoniam ad curam et sollecitudinem regni pertinet leges condere, populum gubernare, mores instruere, pravas consuetudines extirpare, dignum
+					<lb/>et equum visum est nostre clementie, quandam pravam consuetudinem,
+					<lb/>que quasi clades et lues huc usque per diuturna tempora, partem nostri
+					<lb/>populi perrependo pervasit edicti nostri mucrone decidere, ne liceat vitiosas
+					<lb/>pullulas de cetero propagare. Absurdum quippe moribus repugnans
+					<lb/>sacrorum canonum institutis, christianis auribus inauditum est, matrimonium
+					<lb/>velle contrahere, legitimam sobolem procreare, indivisibile vite consortium
+					<lb/>alligare, nec dei favorem et gratiam nuptis nuptiarum in stabulis
+					<lb/>querere, et tantum in Christo et ecclesia ut dicit apostulus sacramentum
+					<lb/>confirmandum per sacerdotum ministerium creare. Sancimus itaque lege
+					<lb/>presenti deo propitio perpetuo valitura, volentibus omnibus legitimum
+					<lb/>contrahere matrimonium necessitatem imponi, quatinus post sponsalia
+					<lb/>nuptias celebraturi sollempniter quisque pro suo modulo seu commodo,
+					<lb/>limen petant ecclesie sacerdotum benedictionem post scrutinium consecutum
+					<lb/>anulum ponat, pretii postulationique sacerdotali subdantur, si
+					<lb/>volunt futuris heredibus successionem relinquere. Alioquin noverint ammodo
+					<lb/>molientes contra nostrum regale preceptum, neque ex testamento,
+					<lb/>neque ab intestato se habituros heredes legitimos, ex illecito per nostram
+					<lb/>sanctionem matrimonio procreatos. Mulieres etiam dotes, et aliis nubentibus
+					<lb/>legitime debitas non habere. Rigorem cuius sanctionis, omnibus illis
+					<lb/>remittimus, qui promulgationis eius tempore, iam matrimonium contraxerunt.
+				<lb/>Viduas vero volentibus ducere, huius necessitatis vinculum relaxamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXVII. De adulteris</head>
+				<p><lb/>Generali lege presente sancimus pietatis intuitu, cui viscera tota debemus,
+					<lb/>quotiens a nostra provisione et ordinatione iura regentibus accusatio
+					<lb/>adulterii aut stupri fuerit presentata, oculo non caligante personam
+					<lb/>despicere, condiciones notare, etates
+					<pb n="50"/>
+					<lb/>et consilium animi investigare, si deliberatione vel consultatione, vel lubrico
+					<lb/>etatis proruperint, ad facimus, vel prolapse sint. Utrum earum fortuna
+					<lb/>tenuis sit an torosa, petulantia stimulate fuerint, an dolore maxime materiali.
+					<lb/>Ut, his omnibus perquisitis, probatis vel manifestis, non de rigore
+					<lb/>iuris, set de lance equitatis, super commissis excessibus, lenior vel asperior
+					<lb/>sententia feratur. Sic, enim, perfecta iustitia divine iustitie respondebit. Nam
+					<lb/>nec nos poterit illa divina sententia: in qua mensura mensi fueritis remetietur
+				<lb/>vobis.</p>
+				<p><lb/>Legum igitur asperitate lenita, non ut olim gladio agendum, set
+					<lb/>rerum ad eam pertinentium confiscatio inducetur, si filios legitimos ex eo
+					<lb/>matrimonio violato, vel alio non habuerit. Periniquum est successione quippe
+					<lb/>fraudari, qui nati sint eo tempore quo thori lex legaliter servabatur. Aut
+					<lb/>viro traenda est, nullatenus ad vite periculum servituro, set ultionem thori
+					<lb/>violati, nasi truncatione, quod sevius et atrocius inducitur persecuturo. Ultra
+					<lb/>enim, neque viro, neque parentibus sevire licebit. Quod si vie eius noluerit
+					<lb/>in eam dare vindictam, nos huiusmodi maleficium non sinemus inultum,
+				<lb/>precipimus publice flagellandum.</p>
+				<p><lb/>Qui coram se spectante, vel arbitrio, permittit cum ganeis suam
+					<lb/>coniugem lascivire, non facile poterit vero iudicio accusare. Viam quippe
+				<lb/>mechandi aperit, qui cum possit prohibere consentit.</p>
+				<p><lb/>Quamvis uxorem suspectam quis habeat, eum lenocinii non dapnamus.
+					<lb/>Quis enim alieni thori iure inquitet quietem. Quod si patenter
+					<lb/>deprehendimus quempiam habere uxorem questuosam, dignam nostris temporibus
+					<lb/>mox sequimur pene vindictam, eum quoque pena infamie
+				<lb/>condempnamus.</p>
+				<p><lb/>Femine penitus, et adulterii et stupri severitate iudiciaria prestentur
+				<lb/>immunes, quas vilitas vite dignas legum observatione non credit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXVIII.De eodem</head>
+				<p><lb/>Que passim venalem formam exhibuit, et vulgo prostitutam se prebuit,
+					<lb/>huius criminis accusationem ammovit. Violentiam tamen ei ingeri
+					<lb/>prohibemus, et inter boni testimonii feminas, ei habitationem vetamus.
+					<pb n="52"/>
+					<lb/>Adulter, adultera simul accusari non possunt, alter singulariter est
+					<lb/>accusandus, et rei exitus expectandus. Nam si adulter defendi poterit, mulier
+					<lb/>est secura, nulli ulterius responsura. Si vero fuerit condempnatus, tunc
+				<lb/>demum mulier accusatur.</p>
+				<p><lb/>Lex delectum non facit, quis primum conveniri debeat. Set si uterque
+				<lb/>presens est, vir conveniendus est primum.</p>
+				<p><lb/>Repudium in accusatione est semper permittendum; neque violentia
+				<lb/>seu detentio est adhibenda.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXIX. De lenocinio</head>
+				<p><lb/>Lenas sollicitantes alienam scilicet castitatem genus criminis pessimum, tamquam ipsas adulteras puniendas presente lege sanccimus.
+					<lb/>Matres virgines filias venalicias proponentes, et maritalia federa fugientes,
+					<lb/>ut lenas ipsas persequimur, scilicet ut nasus ejus abscidatur. Castitatem
+					<lb/>enim suorum viscerum vendere inhumanum est et crudele. Quod
+					<lb/>si filia se ipsam tamen prostituerit, mater vero solummodo consentit,
+				<lb/>iudicum arbitrio relinquatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXX. De violatione thori</head>
+				<p><lb/>Si providentia rege celsitudinis nullo modo patitur inter regni nostri
+					<lb/>militem baronum nostrorum quemlibet alterius castrum invadere, predas
+					<lb/>committere, cum armis insurgere, vel inique
+					<pb n="56"/>
+					<lb/>fraudari, quin pro commisso bonorum omnium iactura ipsum afficiat,
+					<lb/>quanto amplius dampnandum censemus si compatris et vicini thorum violare presumpserit. Intolerabile prorsus de iure videtur. Sanccimus itaque
+					<lb/>si de tali facto nobis aliquando fuerit proclamatum,manifestum fuerit, vel
+				<lb/>probatum, bonorum omnium mulctatione plectendum.</p>
+				<p><lb/>Si maritus uxorem in ipso actu adulterii deprehenderit, tam uxorem,
+				<lb/>quam adulterum occidere licebit, nulla tamen mora protracta.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXI. De adulterio</head>
+				<p><lb/>Lex maritum lenocinii pena cohercet, qui uxorem in adulterio
+					<lb/>deprehensam, retinuerit, adulterumque dimiserit, nisi forte sine sua culpa
+				<lb/>ille diffugit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXII. De desistendibus ab accusatione</head>
+				<p><lb/>Qui post crimen adulterii intentatum uxorem receperit, destitisse
+				<lb/>videtur ab accusatione ideoque suscitare qustionem ultra non poterit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXIII. De iniuriis privatis personis illatis</head>
+				<p><lb/>Quod iuri et rationi est consentaneum satis iure cunctis est gratum,
+					<lb/>et quod a ratione equitatis dicrepat, universis ingratitudinem representat.
+					<lb/>Nulli igitur mirum si quod in homine deus carius et dignius posuerit, cum
+					<lb/>negligitur atque despicitur, et inprobo iudicio vilipenditur, sapiens et honestatis
+					<lb/>amicus rationabiliter indignatur. Quid enim absurdius quam equa
+					<lb/>lance pensari ubi iumenti cauda decerpitur, et ubi honestissimi viri barba
+				<lb/>depilatur.</p>
+				<p><lb/>Pro suggestione ergo populi nostro regno subiecti atque supplicatione
+					<lb/>legum suarum ineptitudinem cognoscentis hanc legem et edictum
+					<lb/>proponimus. Ut cuicumque de popularibus excusato, tamen et deliberatione
+					<lb/>barba fuerit depilata, reus talis commissi pena huiusmodi feriatur
+					<lb/>solidis aureis scilicet regiis sex; si vero in rixa factum fuerit, sine
+				<lb/>deliberatione et studio, de eisdem sol. III.</p>
+			</div>
+			<pb n="58"/>
+			<div type="chapter">
+				<head><lb/>XXXIV. De iniuriis personis illatis curialibus</head>
+				<p><lb/>Observent diligentissime iudices, ut in actione iuriariarum, curialium
+					<lb/>dignitatem personarum considerent, et iuxta personarum qualitatem
+					<lb/>sententiam ferant, eorum scilicet quibus fiunt, et eorum qui faciunt, et
+					<lb/>quando ubi temeritas presumitur, et iuxta qualitatem personarum sententiam
+					<lb/>ferant; ipsis autem facta iniuria, non ad ipsos dumtaxat, set etiam
+				<lb/>ad regie dignitatis spectat offensam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXV. De mederi volentibus</head>
+				<p><lb/>Quisquis ammodo mederi voluerit, officialibus et vicibus nostri se
+					<lb/>presentet, eorum discutiendus iudicio. Quod si sua temeritate presumpserit,
+					<lb/>carcere constringatur, bonis ejus omnibus publicatis. Hoc autem prospectum
+					<lb/>est, ne quilibet nostro regno subiecti periclitentur imperitia
+				<lb/>medicantum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVI. De plagiariis</head>
+				<p><lb/>Qui sciens liberum hominem vendiderit hac pena legitima teneatur,
+					<lb/>ut ex bonis suis venditus redimatur; ipse vero maleficus curie nostre servus
+					<lb/>sit, bonorum suorum residuo publicato. Quod si non poterit redimi, pro
+					<lb/>servo tradatur parentibus venditi, bonis eius curie addictis. Quocumque
+					<lb/>autem venditus redeat, maleficus curie servus fiat, fillis etiam post hunc
+				<lb/>casum nascentibus subiectis curie perpetue servituti.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVII. De siccariis</head>
+				<p><lb/>Qui aggressorem vel latronem in dubio vite discrimine constitutis
+				<lb/>occiderit, nullam ob id factam calumpniam metuere debet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXVIII. De infantibus et furiosis</head>
+				<p><lb/>Infans sine malignitate animi et furiosus si hominem occiderit,
+					<lb/>non tenetur. Quia alterum innocentia consilii, alterum fati infelicitas
+				<lb/>excusat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXXIX. De fure</head>
+				<p><lb/>Nocturnum furem qui occiderit, impune ferat si aliter comprehendi
+					<lb/>non potuerit,
+					<pb n="62"/>
+				<lb/>dum modo clamore id fiat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XL. De incendiariis</head>
+				<p><lb/>Qui dolose domum incenderit capitis pena plectatur, velud
+				<lb/>incendiarius.</p>
+				<p><lb/>In maleficiis voluntas spectatur non exitus; nichil enim interest occidat
+				<lb/>quis an mortis causam prebeat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLI. De precipitatoribus</head>
+				<p><lb/>Qui de alto se ipsum precipitat, et hominem occiderit, et ramum
+					<lb/>incautus prohiciens, non proclamaverit, seu lapidem ad aliud iecit, hominemque
+				<lb/>occidit, huic pene non succumbit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLII. De poculo</head>
+				<p><lb/>Mala et noxia medicamenta, ad alienandos animos, seu venena
+					<lb/>quis dederit, vendiderit, habuerit, capitali sententia feriatur.
+					<lb/>Poculum amatorium, vel aliquem cibum noxium, quisquis instruxerit,
+				<lb/>etiam si neminem leserit, impunis non erit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XLIII. Si iudex litem suam fecerit.</head>
+				<p><lb/>Iudex si accepta pecunia reum quem criminis et mortis fecerit, capitis
+				<lb/>periculo subiacebit.</p>
+				<p><lb/>Si iudex fraudulenter atque dolose sententiam contra leges protulerit,
+					<lb/>auctoritate iudiciaria inrecuperabiliter cadat, notetur infamia, rebus eius
+					<lb/>omnibus publicatis. Quod si ignorantia a iuris sententia oberraverit,
+					<lb/>ferens iudicium pro simplicitate animi manifesta, regie misericordie et
+				<lb/>providentie subiacebit.</p>
+			</div>
+		</div>
+		<pb n="70"/>
+		<div type="treatise">
+			<p><lb/>Leges a nostra maiestate noviter promulgatas, generaliter ab omnibus
+				<lb/>precipimus observari, moribus, consuetudine, et legibus non cassatis, nisi
+			<lb/>forte nostris his sanctionibus adversari quid in eis manifeste videatur.</p>
+			<div type="chapter">
+				<head><lb/>1. De privilegiis ecclesiarum</head>
+				<p><lb/>Primo itaque iura sanctarum ecclesiarum, res omnes et possesiones
+					<lb/>earum in nostra post deum et sanctos ejus custodia collacatas ab omnibus
+					<lb/>incursibus malignantium, gladio materiali a deo nobis concesso defendimus
+					<lb/>et inviolatas custodimus; quisquis hoc nostrum decretum violare voluerit,
+				<lb/>nostram senserit ledere maiestatem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>2. Ut domini subiectos humane tractent</head>
+				<p><lb/>Monemus, princeps, comites, et barones, omnesque dominos, subiectos
+					<lb/>humane tractare, misericordiam adhibere, maxime cum debitum adiutorium
+					<lb/>et moderatum et conveniens volent ab ipsis, quos habent subiectos,
+				<lb/>postulare.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3. Ut regalia non minuantur</head>
+				<p><lb/>Quicumque de regalibus nostris magnum vel modicum quid tenet,
+					<lb/>nullo modo, nullo ingenio possit ad nostra regalia pertinens donare, vendere,
+				<lb/>vel alienare, vel in totum vel in partem minuere.</p>
+			</div>
+			<pb n="72"/>
+			<div type="chapter">
+				<head><lb/>4. De sacrosanctis ecclesiis, et episcopis, et clericis</head>
+				<p><lb/>Sancimus nemini licere sanctorum reliquias vendere vel comparare.
+					<lb/>Sancimus sub capitis periculo nullos penitus cuiuscumque condicionis
+					<lb/>de sacrosanctis ecclesiis expelli aut protrahi confugas; nec pro his venerabiles episcopos vel iconomos exigi que debentur ab eis; nec ipsis confugis interim
+					<lb/>victualia negentur. Servus vero, colonus, seu gleba servus, subtrahens
+					<lb/>se domino, vel furatus res ad loca sacra confugiens, cum rebus
+				<lb/>quas detulit domino presentetur.</p>
+				<p><lb/>Privilegia ecclesiarum inconcussa serventur.</p>
+				<p><lb/>Episcopus ad testimonium non flagiterur, nisi forte in causis ecclesiasticis
+					<lb/>vel publicis, et cum summa necessitas, aut regis auctoritas postulaverit.
+					<lb/>Diaconos et subdiaconos et infra positos altari sacri ministros, ab
+				<lb/>obsequiis sordidis, alienos esse precipimus.</p>
+				<p><lb/>Presbiteros vero tantum non etiam ceteros ab angariis personalibus
+				<lb/>prohibemus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5. De illicitis conventiculis</head>
+				<p><lb/>Conventiculam illicita extra ecclesiam in privatis edibus celebrari vetamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>6. Ne servi vel ascripticii clericentur</head>
+				<p><lb/>Ascripticios sine voluntate eorum quorum iuri subditi sunt, nullus
+				<lb/>episcoporum ordinare presumat.</p>
+				<p><lb/>Iudeus, paganus, servum christianum, nec compare audeat nec ex
+				<lb/>aliquo titulo possidere.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7. De ioculatoribus</head>
+				<p><lb/>Mimi et mime, et qui ludibrio corporis sui questum faciunt, publico
+					<lb/>habitu veste monachica, vel clericali non utantur; quod si fecerit, verberibus
+				<lb/>publice afficiantur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8. De raptu</head>
+				<p><lb/>Si quis rapere sacratas virgines, aut nondum velatas causa iungendi
+				<lb/>matrimonium presumpserit, capitali pena feriatur.</p>
+			</div>
+			<pb n="74"/>
+			<div type="chapter">
+				<head><lb/>9. De apostatis</head>
+				<p><lb/>Apostatas insequimur ultionibus, bonis omnibus spoliamus.</p>
+				<p><lb/>A professione vero naufragantes seu voto legibus coartamus, succesiones
+				<lb/>tollimus, omne ius legitimum abdicamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>10. De pupillis et orphanis</head>
+				<p><lb/>Leges que pro pupillis et orphanis faciunt relevamus.</p>
+				<p><lb/>Mulieribus lesis ex pietatis visceribus
+					<pb n="78"/>
+				<lb/>propter fragiliorem sexum subveniendum decrevimus sicut decet, et quatenus oportet.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11. De sacrilegis consiliis</head>
+				<p><lb/>Disputari de regis iudiciis, consiliis, institutionibus et factis non oportet;
+				<lb/>talis disputatio par sacrilegio computatur.</p>
+				<p><lb/>Multe leges sacrilegos severissime punierunt, set pena moderata est
+					<lb/>arbitrio iudicantis, nisi forte manu facta templum dei fractum est violenter,
+				<lb/>aut dona et vasa sacra noctu sublata sunt, hoc enim casu capitale est.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>12. De crimine maiestatis</head>
+				<p><lb/>Quisquis cum milite uno aut pluribus seu privato villano scelestam
+					<lb/>inhierit factionem aut factionis dederit vel susceperit sacramentum, de nece
+					<lb/>etiam virorum illustrium, qui consiliis et consistorio nostro intersunt, cogitaverint
+					<lb/>et tractaverint, eadem enim severitate voluntatem sceleris qua effectum
+					<lb/>puniri iura voluerint, ipse quidem ut pote reus majestatis gladio
+					<lb/>feriatur, bonis eius fisco addictis. Filii vero eius nullum unquam beneficium
+					<lb/>sive a nostro beneficio seu iure confertum optineant;sit ei mors solacium
+					<lb/>et vita supplicium. Quod si quisquam de factiosis mox sine mora
+				<lb/>factam detexerit, et premio a nobis et honore donabitur.</p>
+				<p><lb/>Is vero qui usus fuerit factione, si vero tamen incognita adhuc patefecerit
+					<lb/>et conciliorum archana absolutione tantum ac venia dignus habebitur;
+					<lb/>sic tamen, si suis assertionibus veri fides fuerit opitulata, laudem
+					<lb/>maximam et premium a nostra clementia consequetur; alioquin capitali
+				<lb/>pena plectetur.</p>
+				<p><lb/>Crimen maiestatis post mortem rei etiam incipit et tractatur, et rei memoria condempnatur adeo ut quicquid contraxerit, fecerit, statuerit, a die criminis
+					<lb/>nullam habeat firmitatem; hoc crimine qui parentem purgaverit, eius successionem meretur.
+					<pb n="80"/>
+					<lb/>Hoc crimine tenentur omnes quorum consilio fugiunt obsides,
+					<lb/>armantur cives, seditiones moventur, concitantur tumultus, magistratus
+					<lb/>necantur, exercitus deseritur, ad hostem fugitur, dolo modo cuneus scinditur,
+					<lb/>socius proditur, bellis ceditur, arx desolatur vel relinquitur, sociis
+					<lb/>auxilium denegatur, cetaraque huiusmodi, ut regii consilii explorator, sive
+					<lb/>missorum publicator et qui susceperit hostes regni hospitio, vel ductum prebuerit
+				<lb/>non ignarus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13. De jnjuriis curialium</head>
+				<p><lb/>Observent iudices diligentissime, ut in actionem injuriarium curialium
+					<lb/>personarum dignitatem et qualitem eorum quibus illate sunt, et
+					<lb/>eorum qui faciunt, et quando, et ubi, huiusmodi temeritates presumuntur,
+					<lb/>et sic ferant sententiam; quia non ad ipsos dumtaxat, sed ad regie dignitatis
+				<lb/>spectat offensam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>14. De crimine falsi</head>
+				<p><lb/>Qui litteras regias aut mutat, aut quas ipse scripsit notho sigillo subsignat
+				<lb/>capitaliter puniatur.</p>
+				<p><lb/>Qui falso instrumento utitur nescius, falsi crimine non punitur.
+					<lb/>Adulterinam monetam cudendibus vel scienter eam succipientibus, et
+					<lb/>utentibus, penam capitis irrogamus, et eorum substantiam publicamus; consentientes etiam, hac pena ferimus.
+					<lb/>Qui nummos aureos vel argenteos raserit, tinxerit, vel aliquo modo
+				<lb/>minuerit, tam personas eorum, quam bona omnia publicamus.</p>
+				<p><lb/>Qui falsitatem testibus astruxerit falsi pena coherceantur.
+					<lb/>Motor testamentorum publicorum, instrumentorum celator, deletor,
+				<lb/>perversor, eadem pena tenetur.</p>
+				<p><lb/>Si quis patris testamentum aboleverit, ut quasi ab intestato succedat,
+				<lb/>patris hereditate privetur.</p>
+				<p><lb/>Qualitas persone gravat et relevat penam falsi.</p>
+			</div>
+			<pb n="82"/>
+			<div type="chapter">
+				<head><lb/>15. De coniugiis</head>
+				<p><lb/>Sancimus lege presenti, volentibus omnibus legitimum contrahere matrimonium necessitatem imponi, quatenus post sponsalia celebraturi nuptias
+					<lb/>sollempniter quisque pro modulo suo seu quomodolibet limen petat
+					<lb/>ecclesie, sacerdotum benedictionem post scrutinium consecuturum anulum
+					<lb/>ponat, preci postulationique sacerdotali subdantur, si voluerint futuris
+					<lb/>heredibus successiones relinquere. Alioquin amodo molientes contra
+					<lb/>regale nostrum edictum, neque ex testamento neque ab intestato, habituros
+					<lb/>se legitimos filios heredes ex illicito matrimonio per nostram sanctionem
+					<lb/>noverint procreatos; mulieres etiam aliis nubentes legitimas dotes debitas
+					<lb/>non habere. Viduas vero volentibus ducere hoc necessitatis vinculum
+				<lb/>relaxamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16. De crimine adulterii</head>
+				<p><lb/>Generali lege sancimus quotiens nostra provisione et ordinatione iura regentibus accusatio adulterii vel strupi fuerit presentata, oculo non caligante personas despicere, condiciones notare, etates et consilium animi investigare, si deliberatione, consultatione, vel lubrico etatis proruperint ad facinus vel prolapse sint, an dolore maxime maritali; ut, his omnibus perquisitis, probatis vel manifestis, non de rigore iuris set de lance equitatis super commissis excessibus levior vel asperior sententia proferatur. Sic enim profecto iustitia nostra divine iustitie re(spondet).
+					<lb/>Legum igitur asperitate lenita, non ut olim gladio agendum, set rerum
+					<lb/>ad eam pertinentium confiscatio inducetur, si filios legitimos ex eo
+					<lb/>matrimonio violato vel alio non habuerit. Iniquum enim est eos successione
+					<lb/>privari, qui nati sunt eo tempore quo thori lex legaliter servabatur.
+					<lb/>Aut viro tradenda est nullatenus ad vite periculum servituro, set ultionem
+					<lb/>thori violati nasi truncatione quod sevius et atrocius inducitur persecutor;
+					<lb/>ultro enim nec viro nec parentibus sevire licebit. Quod si vir eius noluerit
+					<lb/>in eam dare vindictam, nos maleficium huiusmodi non sinemus inultum;
+				<lb/>precipimus igitur publice flagellandum.</p>
+				<pb n="84"/>
+				<p><lb/>Qui coram se spectante, vel arbitrio permittit cum ganeis coniugem suam
+					<lb/>lascivire non facile nostro iudicio poterit accusare. Viam quippe peccandi
+				<lb/>mechandi aperit, qui cum possit prohibere consentit.</p>
+				<p><lb/>Quamvis uxorem suspectam quis habeat, quamvis famosam, si tamen
+					<lb/>fidem habet, eum lenocinii non dampnamus; quis enim iure thori alieni
+					<lb/>inquietet quietem. Quod si patenter deprehendimus quempiam habere
+					<lb/>incestuosam uxorem, dignam mox sequemur pene vindictam; eum quoque
+				<lb/>pena infamie condempnamus.</p>
+				<p><lb/>Femine penitus et adulterii et stupri prestentur immunes iudiciaria
+					<lb/>severitate, quas vilitas vite dignas legum observatione non credidi, sicut
+				<lb/>ministre caupone.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17. De meretricibus</head>
+				<p><lb/>Que passim formam venalem exhibuit, et vulgo prostitutam se prebuit,
+					<lb/>huius criminis accusationem amovit; violentiam tamen ei ingeri prohibemus,
+				<lb/>et inter boni testimonii feminas habitare vetamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>18. De accusatione adulterii</head>
+				<p><lb/>Adulter et adultera simul accusari non possunt, alter singulariter est
+					<lb/>accusandus, et rei exitus expectandus; nam si adulter defendi poterit, mulier
+					<lb/>est secura, nulli ulterius responsura. Si vero fuerit condempnatus,
+				<lb/>tunc demum mulier accusatur.</p>
+				<p><lb/>In Co. De crimine adulteri pacisci non licet, et par delictum accusatoris prevaricatoris et refugientis veritatis inquisitionem. Qui autem pretium pro comperto stupro accepit, pena legis Julie de adulteriis tenetur. Crimen adulterii maritum retenta in matrimonio uxore, inferre non posse nemini dubium est.
+					<pb n="88"/>
+					<lb/>Lex delectum non facit, quis primum debeat conveniri, set, si uterque
+				<lb/>est presens, vir convenendus est primum.</p>
+				<p><lb/>Repudium in hac accusatione pretermittendum, neque violentia seu
+				<lb/>detentio adhibenda.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19. De officialibus rei publice</head>
+				<p><lb/>Officiales rei publice vel iudices qui in tempore amministrationis pecunias
+					<lb/>publicas subtraxerint, obnoxii crimine peculatus, capite puniuntur,
+				<lb/>nisi regia pietas indulserit.</p>
+				<p><lb/>Qui sua negligentia bona publica deperire vel minui permiserit, et
+					<lb/>in persona propria et in rebus suis constituetur obnoxius; et hoc prospectu
+				<lb/>regie pietatis.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>20. De furtis</head>
+				<p><lb/>Qui sciens, furanti sinum prebuit, eadem pena tenetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>21. De crimine lenocinii</head>
+				<p><lb/>Lenas sollicitantes alienam castitatem genus criminis pessimum tamquam
+				<lb/>ipsas adulteras puniendas, presenti lege sancimus.</p>
+				<p><lb/>Matres virgines filias venalicias proponentes et maritalia federa fugientes,
+					<lb/>ut lenas ipsas persequimur, scilicet ut nasus earum abscidantur; castitatem
+					<lb/>enim et virginitatem suorum viscerum vendere inhumanum est et
+					<lb/>crudele; quod si filia se ipsam tamen prostituit, mater vero tantum consentit,
+				<lb/>iudicis arbitrio relinquetur.</p>
+				<p><lb/>Co. Crimen lenocinii contrahunt, qui deprehensam in adulterio uxorem in matrimonio tenuerit, non qui suspectam adulteram habuerunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22. De eodem</head>
+				<p><lb/>Si providentia rege celsitudinis nullo modo patitur inter regni nostri
+					<lb/>limitem baronum nostrorum quemlibet alterius castrum invadere, predas
+					<lb/>committere, cum armis insurgere, vel inique fraudari, quin pro commisso
+					<lb/>bonorum omnium ipsum iactura afficiat; quanto amplius dampnandum
+					<lb/>censemus, si compatris vel vicini thorum violare presumpserit quis intolerabile
+					<lb/>prorsus de iure videtur. Sancimus itaque si de tali facto nobis aliquando
+					<lb/>fuerit proclamatum, et manifestum fuerit vel probatum, bonorum
+				<lb/>omnium mulctatione plectendum.</p>
+			</div>
+			<pb n="90"/>
+			<div type="chapter">
+				<head><lb/>23. De vindicta adulterantium</head>
+				<p><lb/>Si maritus uxorem in ipso actu adulterii deprehenderit, tam adulterum
+				<lb/>quam uxorem occidere licebit, nulla tamen mora protracta.</p>
+				<p><lb/>Lex maritum lenocinii pena cohercet, qui uxorem in adulterio deprehensam
+					<lb/>retinuit, adulterumque dimisit; nisi forte sine sua culpa ille
+				<lb/>diffugerit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24. De desistentibus ab accusatione</head>
+				<p><lb/>Qui post crimen adulterii intemptatum uxorem receperit, destitisse
+				<lb/>videtur, ideoque suscitare questionem ultra non poterit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>25. De plagiariis</head>
+				<p><lb/>Qui sciens liberum hominem vendiderit, hac pena legitima teneatur,
+					<lb/>ut ex bonis suis venditus redimatur; ipse vero maleficus curie servus sit,
+					<lb/>bonorum suorum residuo publicato; quod si ex rebus ipsius redimi non
+					<lb/>poterit, pro servo tradatur parentibus venditi, bonis eius curie addictis;
+					<lb/>quocumque autem casu venditus redeat, maleficus curie servus fiat, filiis
+					<lb/>etiam post hunc casum nascentibus subiecti sint curie perpetua
+				<lb/>servitute.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>26. De sicariis secundum legem corneliam</head>
+				<p><lb/>Qui aggressorem vel latronem, in dubio vite discrimine constitutis
+					<lb/>occiderit, nullam, ob id factum, calumpniam metuere debet.
+					<lb/>Qui aggressorem ad se venientem ferro repulerit, non homicida set
+				<lb/>defensor salutis est.</p>
+				<p><lb/>Nocturnum furem qui occiderit, impune feret, si aliter comprehendi
+				<lb/>nequiverit, si modo cum clamore id fiat.</p>
+				<p><lb/>Infans sine malignitate animi et furiosus si hominem occiderit, non
+					<lb/>tenetur; quia alterum innocentia consili alterum facti infelicitas excusat
+				<lb/>Nichil interest occidat quis, an mortis causam prebeat.</p>
+				<p><lb/>In maleficiis voluntas spectatur non exitus.</p>
+				<p><lb/>Qui de alto se ipsum precipitat et hominem occidit, qui ramum incautus
+					<lb/>deiciens non proclamavit, seu lapidem aut aliud deiecit hominemque
+				<lb/>occidit, huic pene succumbit.</p>
+			</div>
+			<pb n="92"/>
+			<div type="chapter">
+				<head><lb/>27. De incendiis</head>
+				<p><lb/>Qui dolose domum incenderit, capitis pena plectetur velut
+				<lb/>incendiarius.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>28. De noxiis medicaminibus</head>
+				<p><lb/>Poculum amatorium vel aliquem cibum noxium quisquis instruxerit,
+				<lb/>etiam si neminem leserit, impunis non erit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>29. De eisdem</head>
+				<p><lb/>Mala et noxia medicamenta ad alienandos animos, seu venena qui dederit,
+				<lb/>vendiderit, habuerit, capitali sententia feriatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>30. De iudice depravato</head>
+				<p><lb/>Si iudex accepta pecunia reum quemlibet criminis et mortis fecerit,
+				<lb/>capitis periculo subiacebit.</p>
+				<p><lb/>Si iudex fraudulenter atque dolose sententiam contra leges protulerit,
+					<lb/>auctoritate iudiciaria inrecuperabiliter cadat, notetur infamia, rebus
+					<lb/>eius omnibus publicatis. Quod si iuris ignorantia a iuris sententia
+					<lb/>aberraverit, ferens iudicium pro simplicitate manifestum regie misericordie
+				<lb/>subiacebit.</p>
+				<p><lb/>In maleficiis voluntas spectatur non exitus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>31. De arripientibus novam militiam</head>
+				<p><lb/>Quicumque novam militiam arripuit contra regni nostri beatitudinem
+					<lb/>et pacem sine integritate militie nomine et professione penitus cadat, nisi
+				<lb/>forte a militari genere per successionem duxerit prosapiam.</p>
+				<p><lb/>C. I. XII. De tironibus. Nullus tiro ga aut veteranus aut censibus obnoxius ad militia accedat.</p>
+			</div>
+			<pb n="94"/>
+			<div type="chapter">
+				<head><lb/>32. De iniuriis privatorum</head>
+				<p><lb/>Cuicumque de popularibus ex consulto tamen et deliberatione barba
+					<lb/>fuerit depilata, reus soldorum aureorum VI regalium pena condempnetur;
+					<lb/>si vero in rixa factum fuerit, sine deliberatione, solidorum III.
+				<lb/>Vel iumenti cauda decerpitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>33. De fugacibus</head>
+				<p><lb/>Si quis temerario ausu presumpserit bona in quiete et tranquillitate
+					<lb/>regni habita, cum pro ipso laborare expedit, labores fugiendo obmittere,
+				<lb/>omnia bona sua dominus eius habeat, et illius persona curie assignetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>34. De seditionariis</head>
+				<p><lb/>Si quis in exercitu seditiones, iurgia seu aliud fecerit, uti exercitus
+					<lb/>noster turbetur, persona eius cum omnibus suis bonis mercedi curie
+				<lb/>subiacebit.</p>
+				<p><lb/>Si quis ficte vel fraudulenter ad magnum exercitum non venerit, seu,
+					<lb/>postquam venerit, ab exercitu sine licentia curie recesserit, capitalem subibit sententiam, vel in manibus curie tradetur, ut ipse et eius heredes
+				<lb/>culusti fiant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>35. De mordisonibus</head>
+				<p><lb/>Comperit nostra serenitas infra regni nobis a deo concessi fines quorundam immanitate clandestina incendia, tam in urbanis quam rusticis prediis,
+					<lb/>perpetrari, arbores quoque et vites furtim cedere. Proinde hac edictali
+					<lb/>pragmatica sanctione in perpetuum valitura deo propitio sancimus, ut si
+					<lb/>quis amodo de hujusmodi reatu fuerit appellatus, si suspectione careat et
+					<lb/>eius conversatio per bonorum testimonia illibata consistat, pro tenore veterum
+					<lb/>legum, aut cuiuscumque loci consuetudine se expurget. Si vero
+					<lb/>tanti reatus non levis suspitio de eo fuerit, vel preterite vite sue probrosus
+					<lb/>cursus extiterit, opinionemque eius apud bonos et graves dehonestaverit,
+					<lb/>de calumpnia prius actore iurante, non ut actenus set ceteris super hoc
+					<lb/>legibus sopitis et moribus, igniti ferri subeat iudicium. Predicti denique
+					<lb/>criminis confessus aut convictus, dampno prius lese partis de eius facultatibus
+					<lb/>resarcito, vite sue periculum, vel membrorum suorum privatione pro
+				<lb/>beneplacito maiestatis nostre incurret.</p>
+			</div>
+			<pb n="96"/>
+			<div type="chapter">
+				<head><lb/>36. Que sit potestas justitiarii</head>
+				<p><lb/>Sancimus ut latrocinia, fracture domorum, insultus viarum, vis mulieribus
+					<lb/>illata, duella, homicidia, leges parabiles, calumpnie criminum,
+					<lb/>incendia, forisfacte omnes, de quibus quilibet de corpore et rebus suis mercedi
+					<lb/>curie debeat subiacere, a iustitiariis iudicentur, clamoribus supradictorum
+				<lb/>baiulis depositis, cetera vero a baiulis poterunt definiri.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>37. De intestatis</head>
+				<p><lb/>Nuper ad nostri culminis pervenit audientiam quod cum aliquis burgensium
+					<lb/>vel aliorum hominum civitatum intestatus decedit, sive filii ex eo
+					<lb/>existant sive non, res eius ad opus curie nostre capiebantur, quod admodum
+				<lb/>maiestati displicuit et grave tulimus.</p>
+				<p><lb/>Nos itaque, ex solita nostre benignitatis gratia, hanc pravam consuetudinem
+					<lb/>penitus resecare volentes, precipimus, ut, si quis burgensium vel
+					<lb/>aliorum, qui in ipsa civitate devenerit, intestatus decesserit, si ex eo filius
+					<lb/>vel filia exiterit, ipse sui patris heres existat, et tertia pars omnium
+				<lb/>rerum eius pro ipsius anima erogetur.</p>
+				<p><lb/>Si vero nulli filii ex eo existant, tunc proximiores eius tam ex linea
+					<lb/>ascendentium et descendentium quam ex latere venientium, qui de iure
+					<lb/>ei succedere debent, heredes existant, si de feudo vel de servitio non fuerit,
+					<lb/>tertia tamen parte rerum suarum pro defuncti anima distributa.
+					<lb/>Si autem filius vel filia ex eo nullus exiterit, vel alius tam ex linea
+					<lb/>ascendentium quam et descendentium, vel ex latere venientium, qui de
+					<lb/>iure ei succedere debeat, tunc etiam tertia parte omnium rerum suarum
+					<lb/>ut dictum est integre pro defuncti anima prestita, residuum ad opus
+				<lb/>curie nostre capiatur.</p>
+				<p><lb/>Si vero cum herede seu sine herede testatus decesserit, ultima eius
+				<lb/>voluntas in integrum observetur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>38. De excessu prelatorum et dominorum</head>
+				<p><lb/>De prelatis autem ecclesiarum sic a regia munificentia statutum est,
+					<lb/>ut in his tantum ab hominibus suis adiutorum exigant, vidilicet, pro
+					<lb/>consecratione sua, cum ad concilium a domino papa vocantur, pro servitio
+					<lb/>exercitus nostri, si quando in exercitu servierint, vel si vocati fuerint
+					<lb/>a rege vel missi, pro corredo nostro si quando in terris eorum nos hospitari
+					<lb/>vel corredum ab eis recipere contigerit. Et in his tantum casibus a
+					<lb/>prelatis omnibus, comitibus,
+					<pb n="102"/>
+				<lb/>baronibus et militibus moderate secundum facultates hominum suorum audiutoria exigant et accipiant.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>39. Rescriptum pro cleris</head>
+				<p><lb/>De eo autem quod male interpretatum est videlicet quod de nostre
+					<lb/>maiestatis constitutione villani non audeant ad ordinem clericatus accedere,
+					<lb/>sine voluntate et assensu dominorum suorum, ita statutum est, quod
+					<lb/>si aliquis villanus est et servire debet personaliter intuitu persone, ut sunt
+					<lb/>ascripticii et servi glebe, et alii huiusmodi, qui non respectu tenimentorum
+					<lb/>vel alius beneficii servire debent, set intuitu personarum, que persone
+					<lb/>eorum sunt obligate servitis isti quidem, sine assensu et voluntate
+					<lb/>dominorum suorum ad ordinem clericatus accedere nequerunt. Illi vero,
+					<lb/>qui non intuitu personarum set respectu testimentorum vel aliquorum
+					<lb/>beneficiorum que tenent servire debent dominis suis, si voluerint ad
+					<lb/>ordinem clericatus accedere, liceat eis etiam sine voluntate dominorum
+				<lb/>suorum, prius tamen renuntiatis his que tenent a dominis suis.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

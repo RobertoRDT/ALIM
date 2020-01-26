@@ -1,0 +1,592 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Chronica monasterii Sancti Michaelis Clusini</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Schwartz</name>
+                                        <name>E. Abegg</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="4959" unit="words">Parole: 4959</measure>
+				<measure quantity="31212" unit="characters_without_spaces">Caratteri (spazi esclusi): 31212</measure>
+				<measure quantity="35783" unit="characters_witht_spaces">Caratteri (spazi inclusi): 35783</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-08-09">09/08/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione dell' opera: sec. XI, seconda metà
+					Parole: 5015
+					Caratteri: 31351
+				MGF</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Anonymus</author>
+						<title>Chronica monasterii Sancti Michaelis Clusini</title>
+						<editor>G. Schwartz</editor>
+						<editor>E. Abegg</editor>
+					</analytic>
+					<monogr>
+						<title level="m">MGH, Scriptorum Tomi XXX. Pars II.</title>
+						<imprint>
+							<publisher>Karl W. Hiersmann</publisher>
+							<pubPlace>Leipzig</pubPlace>
+							<date>1929</date>
+							<biblScope unit="page">959-970</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, SS</title>
+						<biblScope unit="volume">30, 2</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="960"/>
+		<div>
+			<head><lb/>INCIPIT PROLOGUS IN LEGENDA CONSECRATIONIS BASILICAE BEATI
+			<lb/>MICHAELIS ARCHANGELI DE CLUSA.</head>
+			<div type="chapter">
+				<head><lb/>I.</head> <p>Ad laudem et honorem regis aeterni mirificam beati Michaelis archangeli revelationem
+					<lb/>in monte Pirchiriana habitam, prout scriptis et virorum fidelium veridica attestatione
+					<lb/>edoceri potui, scripto commendare decrevi, in praefato videlicet monte qualiter
+					<lb/>virtus eius et magnificentia mortalibus primum illuxerit, quove ordine ipsius movente et
+					<lb/>disponente providentia constructa prius ibidem basilica processu temporis magnifica coenobii
+					<lb/>susceperit incrementa. Et quoniam ad hoc opus nullo ingenii fultus praesidio acquisita
+					<lb/>lepori urbanitate verborumque faleris utendum minirme censeo, tuum michi, o alme Spiritus,
+					<lb/>adventum humiliter efflagito, ut, qui es veritatis magister, veram huius relationis indaginem
+					<lb/>insinues cordi meo tuaque de omnibus huius rei gestis me doceat unctio pulso penitus
+					<lb/>a mentis aditu fuco ac fastu rethorico, qui merito contempnitur ac reprobatur sapientium
+					<lb/>exagio. Tu quoque magnalia tua cupienti depromere non dedigneris factor et adiutor
+					<lb/>michi tuo servo humillimo adesse, Michael archangele, mi princeps gloriose, cui proprium
+					<lb/>et quasi singulare est superbis, actu nudis, more tui Domini resistere, sicut tuo inclito
+					<lb/>proditur nomine, impetra michi, quaeso, tuis egregiis meritis spiritum intellectus ab illo,
+					<lb/>cui ab aevo cum tuis beatis astas concivibus, fontem aeternae sapientiae, qui hunc locum
+					<lb/>tibi in sedem providisti pia ac clementi dignatione. Quod etiam demonstrasti eximia et
+				<lb/>multiplici miraculorum exibitione.</p>
+				<p><lb/>Item prologus super eodem.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>II.</head> <p>Multis sacrae scripturae didicimus documentis, beatum Michaelem non solum
+					<lb/>possidere nutu deitatis primatum in caelis inter choros militiae caelestis, verum etiam
+					<lb/>principatum quendam gerere in terris et curam humanae salutis. Cum enim in apocalipsin
+					<lb/>Iohannis4dicatur expressius atque nominatim proeliari cum suis angelis antiqui
+					<lb/>draconis proelium, liquet profecto illis esse praelatum, quibus aduitentibus et subditis
+					<lb/>noscitur cothidie de hoste antiquo reportare trophaeum. Quod autem in nostra principetur
+					<lb/>republica fideliumque salvandorum sit illi cura praecipua, manifeste et enodius declaratur
+					<lb/>in Danielis prophetia, cui sic dicitur voce angelica: "Et nemo est adiutor meus in omnibus
+					<lb/>his, nisi Michael archangelus princeps vester". Et item: "In tempore illo consurget Michael
+					<lb/>archangelus princeps vester, qui stat pro filiis populi tui". Vides ergo hunc beatissimum
+					<lb/>spiritum quodammodo, ut ita dixerim, humanum et ad illius Iudaici populi, qui id temporis
+					<lb/>fidelis erat, favorem et tutelam promtissimum. At vero post illius populi diram saevitiam
+					<lb/>et infidelitatis nimiam obstinationem, qua per crucem in auctorem omnium crassatus est,
+					<lb/>cum post eiusdem Domini nostri ascensionem auditae essent voces angelorum in templo:
+					<lb/>"Transeamus ab his sedibus, voluit idem archangelus, quemadmodum et sancti apostoli,
+					<lb/>desertis ludeae finibus, suae dilectionis ae benivolentiae extendere sinus et humani generis
+					<lb/>pius provisor sui gloriosi nominis notitiam cunctis manifestare gentibus, maxime in horis;
+					<lb/>occidentalibus. Et sicut Roma, urbium maxima, summorum apostolorum Petri et Pauli
+					<lb/>purpurea decoratur victoria, ut quae erat tunc orbis domina et totius caput superstitionis,
+					<lb/>fieret etiam clarissima apice religionis, sic respectu divinae pietatis meruit sublimari prae
+					<lb/>omnibus Romana dignitas solatiante ipso primate angelicae virtutis. In occiduis namque
+					<lb/>finibus orbis tria sibi archangelus Domini peculiaria loca delegit quam maxime quae
+					<pb n="961"/>
+					<lb/>sua suorumque luciflua inviseret illustratione: primum quidem montem illum Garganum
+					<lb/>toto iam orbi notissimum; secundum circa oceanum, qui dicitur Ad maris periculum;
+					<lb/>tertium in horum medio iustissima meta positum, montem videlicet Pyrchirianum. Merito
+					<lb/>quippe in terris, ceu humana vitans contagia, celsis in montium gaudet cacuminibus, qui
+					<lb/>summo pastore quaerente perditam ovem in convallibus cum ceteris beatis angelorum
+					<lb/>agminibus desertus scribitur fuisse in montibus, unde divinam maiestatem contemplatur
+				<lb/>vicinius. Sed iam omissis ceteris ad illud, quod proposuimus, stilum vertamus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>III.</head> <p>In Itali finibus mons quidam extat insignis XII milibus passuum distans ab
+					<lb/>Alpibus, qui vulgari nomine, sed non vulgari errore aut casu Pyrchiriana seu Pyrchariana,
+					<lb/>id est ignis Domini vel ignea civitas, vocatus est ab incolis propter angelorum, ut reor,
+					<lb/>ibi futuram frequentiam et dilectam Domino sedem, qui facit angelos suos spiritus et
+					<lb/>ministros suos ignem urentem. Is undique tractu satis arduo sublime caput in aera
+					<lb/>exerit ipsasque nubes suo vertice tangit parvique collis discrimine a ceteris seiunctus una
+					<lb/>admodum arta via potest adiri, ut facile intelligas illum quodam divino privilegio donari.
+					<lb/>Amoenus quippe puris et suo murmure dilabentibus e vicino fontium rivulis, redimitus
+					<lb/>quoque frondosis ac pomiferis arboribus et silvis, ubi garrula voce aves immurmurant
+					<lb/>diversi generis, solo nudato supremo cacumine beati Michaelis gestat aecclesiam, non
+					<lb/>tam metallorum fulgore et humano opificio rutilam seu politam quam crebra signorum
+					<lb/>experienti evidentia conspicuam. Quae tantam ac talem aspicientibus divinae contemplationis
+					<lb/>suo quodam secreto infundit dulcedinem, ut illius domicilio illecti ac contubernio
+					<lb/>clament medulitus prae desiderio: "Mons in quo beneplacitum est Deo habitare in eo", et
+					<lb/>"sicut ros Hermon, qui descendit in montem Syon, quoniam illic mandavit Dominus benedictionem
+					<lb/>et vitam usque in saeculum". Aecclesiam ergo illam hoc ordine inibi constructam
+				<lb/>primitus verissima antiquitatis relatione accepimus".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IV.</head> <p>Erat quidam Ravennas nomine Iohannes cognomento Vincentius, vir mirae simplicitatis
+					<lb/>ac spiritualis intelligentiae gratia adprime ornatus, qui in genitali quidem solo episcopali
+					<lb/>fertur functus dignitate, sed solitariae vitae ardore flammatus multis provintiis perlustratis
+					<lb/>in montem, qui Caprasius dicitur, praedicto monti a parte septentrionali oppositum
+					<lb/>sese conduxerat, ut Domino, cui inter turbas positus, quarum fuerat offensus obsequiis,
+					<lb/>sitiebat inseparabiliter adhaerere, nullo deinceps humano consortio retrahente facilius
+					<lb/>uniretur. Qui locus tunc adeo remotus erat, ut heremi secreta haud desideraret. Ubi
+					<lb/>multo tempore ille famulus Dei delitescens tanta intentione divinae theoriae hominum
+					<lb/>devitabat aspectus, ut angelorum cotidiano consortio delectari ac perfrui non immerito
+				<lb/>crederetur.</p>
+			</div>
+			<pb n="962"/>
+			<div type="chapter">
+				<head><lb/>V.</head> <p>Huic per visionem sanctus Domini archangelus Michael apparens sic eum famliariter
+					<lb/>alloquitur: "Quid agis, Iohannes ? Cur contemplationis studium non sedulo adiuvas
+					<lb/>opere manuum ? Nescis theoreticae propositum practicae egere subsidio ?" Ad quem
+					<lb/>lohannes: "Quis", inquit, "tu es, mi domine ?" "Ego sum", ait, "Michael archangelus, qui in
+					<lb/>conspectu Domini semper assisto. Propera et ad opus accingere et vel lignario sumptu
+					<lb/>basilicam mihi construe." Cumque sanctus anachoreta se huius artis ignarum nec ab
+					<lb/>ineunte aetate hoc opificio exercitatum simpliciter fateretur, adiecit: "Noli trepidare, quoniam
+					<lb/>ego tuus ero adiutor, meaque praesentia corpore quamvis viribus exausto invalidus
+					<lb/>robustior semper assurges." Mane ergo facto coepit vir sanctus post matutinos ymnos
+					<lb/>angelicae admonitionis hortamenta animo revolvere et de Dei certus adminiculo proximam
+				<lb/>silvam totis viribus occupat diemque illum alacriter in opere consumit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VI.</head> <p>Sequenti vero die, membris nocturna quiete ad laborem innovatis, veniens ad
+					<lb/>locum, ubi pridie operatus fuerat, sed nil eorum repperiens, quae paraverat, haesit et,
+					<lb/>quae necessitas in tam denso nemore nocturnum furem compulisset, vehementer admiratus
+					<lb/>laborem tamen resumit. Dumque omnin humano destitutus solatio piis dat operam
+					<lb/>studiis, ecce videt columbas innumeras facto grege advolare ipsasque ligni dolaturas
+					<lb/>certatim rostris insumere et ad montem Pyrchirianam saepe deferre; sed nesciens quid
+					<lb/>hoc miraculum portenderet, minime cessat a coepto opere. Viderat quoque iam dudum
+					<lb/>noctu vigiliis inserviens a praefato monte globum igneum frequenter usque ad coelum
+				<lb/>longo tractu porrigi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VII.</head> <p>Iam vero tertia die ad opus suum sicut prius exiens, cum nichil caesorum
+					<lb/>lignorum, quae paraverat, invenisset, diriguit et quasi desperatus residens haec secum
+					<lb/>"Quid est", ait, "domine Deus meus ? Quis tam malignus homo labori meo tantopere insidiatur,
+					<lb/>ut, quod ego mihi per diem facio, ipse nocturna fraude surripiat ? Quid esr
+					<lb/>archangele Christi, cur me servum tuum sic pateris deludi ? Ubi est consilii tui pollicitatio ?
+					<lb/>Non apparent certe nunc tua promissa. Nunc fefellit me tua species imperiosa ?
+					<lb/>An forte quod iussisti alio pacto vis compleri ? Respice, quaeso, beate, famulum tuum
+					<lb/>et, quid ipse mavis edoce !" Et haec dicens interdum ab incepto quiescere deliberavit.
+					<lb/>Nox astra detexerat vixque sompnus viri Dei ocellis irrepserat, et iam adest archangelus
+					<lb/>quiescenti et ait: "Cur segnis es ? Et quare iussa non imples ? Quamobrem opus tuum
+					<lb/>imperfectum sic interposuisti ? Surge diluculo et montis illius cacumen, unde globum
+					<lb/>igneum ad coelum tendere crebro notasti, quo etiam columbas lignorum minutias ferendo
+					<lb/>convolare non ignoras, conscende intrepidus et, cum omnia, quae tibi furto ablata verebaris,
+					<lb/>ibi collata inveneris, opus, quod imperaveram, in eodem loco perficere ne cuncteris !
+					<lb/>Locum namque illum michi in sedem elegi multum equidem profuturum, hic habitabo,
+				<lb/>quoniam elegi eam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>VIII.</head> <p>Expergefactus itaque vir Dei et certificatus angelico affamine oppositi montis
+					<lb/>celsam rupem, quamvise diverso fatigatus anfractu, subiit, et cum aliquantisper solotenus
+					<lb/>prostratus obortis orasset lacrimis, respiciens vidit totam lignorum materiam, quam perisse
+					<lb/>putaverat, et satis super se gavisus grates Deo suaeque sedis ministro immensa persolvit;
+				<lb/>sicque novus ille incola animatus cum gaudio ligna concinat, ecclesiam in brevi consumat.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>IX.</head> <p>Altare quoque de eadem rupe nativa in honore angelorum principis Michaelis
+					<lb/>miro opere, sed humanae artis industria non satis polito incidit. Tandem ill eminenti
+					<lb/>scopulo quibus potuit impensis perfecto aedificio Taurinensem episcopum Amizonem nomine
+					<pb n="963"/>
+					<lb/>adiit et, qualiter per visionem angelicam in saepe dicto loco ecclesiam aedificaverit, ordine
+					<lb/>pandit illiusque consecrationem humili prece deposcit. At ille sanctus pontifex audiens
+					<lb/>beatum Michaelem in loco, qui suae erat diocesis, voluisse revelari suis temporibus, in
+					<lb/>laudes prorupit creatoris et plenus lacrimis, quas profundebat suavis amor archangeli,
+					<lb/>contra montem illico genua flexit et expansis manibus et intentis in caelum oculis sic
+					<lb/>fatur: "Grates agimus gratiae tuae, summe pater, rex saeculorum, qui nullum tempus absque
+					<lb/>bonitatis tuae testimonio nobis transire permittis". Ecce enim indignos nos famulos tuos
+					<lb/>populumque tuum per summum maiestatis tuae ministrum visitare non dedignaris, quem
+				<lb/>nostris bonis votis rebusque tutandis non dubitamus fore patronum".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>X.</head> <p>Dixerat et famulum Domini Iohannem advocat, de nomine, patria simul et religione
+					<lb/>sciscitatur, quibus ortus maioribus, quave occasione et quo tempore advenerit, quaerit et
+					<lb/>audit. Unde etiam quamplurimum in Domino gavisus ad illius postulata libenter assensum
+					<lb/>praebuit diemque dedicationis illi praestituit omnique clero et populo, ut illuc sollempniter
+					<lb/>conveniant, indicit. Confluit hominum multitudo innumerabilis ex diversis urbibus,
+					<lb/>opidis et villis tantae rei fama admonita, sicut mos est, ac studio novitatis; et ante diem
+					<lb/>consecrationis totam fere occupavit planiciem ab ipsa Taurinensi civitate vacantem amplis
+					<lb/>territorii spatiis, ubi eatenus rarus incola morabatur, donec pro angelica revelatione
+				<lb/>coepit honori et amori haberi ipsa regio, quae antea inculta et vilis habebatur".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XI.</head> <p>Venerabilis quoque praesul Amizo ad locum appropinquans in castro hospitatur
+					<lb/>Avilliano. Ecce autem circa noctis medium, dictu mirabile, immensus ignis instar magnae
+					<lb/>columpnae videtur e caelo supra montem descendere suisque flammis coruscis aere sereno
+					<lb/>totum circumlambere. Cuius novitate miraculi populi stratis exciti supplices ad caelum
+					<lb/>manus tendere, pectora pugnis tunderem. Vociferantur cuncti Pyrchirianam penitus exuri.
+					<lb/>Tollitur clamor ad sydera. Episcopus ipse tanto rumore attonitus surrexit partemque
+					<lb/>rutilae lucis iam iamque residentis contemplatus sic ait suis: "O quam metuendus est
+					<lb/>locus iste ! A Domino vere factum est istud, et est mirabile in oculis nostris. Hic
+					<lb/>est ille ardens rubus, in quo Moysi quondam apparuit Dominus; hic est mons alter
+					<lb/>Syna, igneam legem per dispositionem angelorum accepturus". In crastinum igitur, cum
+					<lb/>ad locum ventum fuisset et honorabilis pontifex cum venerando coetu foribus humilis
+					<lb/>basilicae astitisset, aspexit ab alto tamquam olei liquorem effluere et effigiem crucis
+					<lb/>humore crasso per aecclesiolae quosdam scopulos eminentes apparere. At ille obstupefactus
+					<lb/>et cum omni populo terrore perculsus humilis ingreditur et humi prostratus archangelo
+					<lb/>mediante a dominatore caeli et terrae perfectum finem tantae virtuti obnixius imprecatur.
+					<lb/>Oratione autem finita cum oculos lacrimis suffusos levasset, videt titulum
+					<lb/>mirae pulchritudinis erectum, procul dubio manibus angelicis coaptatum, et balsamo atque
+					<lb/>oleo per circuitum supraque affluenter resudare in tantum, ut ad terram usque videretur
+					<lb/>effluere. Quod cernens accepto festinus linteo oleum reverenter extersit et sic operto
+					<lb/>titulo missarum ibi sollempnia devotissime celebravit. A linteo vero, quo sacra extersa
+					<lb/>est ara, quanta processerit virtus, non est nostrae facultatis evolvere, quia non inbecillis,
+					<lb/>non a daemone possessus, non qualibet infirmitate detentus aliquis inde tactus est, quem
+					<lb/>inexpertem divinae pietatis mox sanitate recepta virtus archangeli permiserit existere.
+					<lb/>Tantis pius antistes miraculis motus anachoretae precibus et ab honestis nobilium personis,
+					<lb/>qui affuerant, exoratus cum interminatione sempiterni anathematis constituit, ut a
+					<lb/>suo successorumque suorum saeculari dominatu vel inpedimento liber esset per saecula
+					<pb n="964"/>
+					<lb/>locus ea ratione, ut, si quis eius constitutionis in posterum contemptor fieret, apostolicae
+				<lb/>sedis esset iudicii reus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XII.</head> <p>Ab illo tempore itaque sanctus heremita Iohannes usus cellula iuxta posita
+					<lb/>montem solus incolere coepit, et sanctus Domini archangelus loci sui dilectorem et provisorem
+					<lb/>se esse luce clarius manifestare non distulit. Non multum namque temporis
+					<lb/>effluxerat, et ecce viri sanctorum apostolorum Petri et Pauli limina necnon et eiusdem
+					<lb/>sancti archangeli patrocinia in monte Gargani adire festinabant. Cumque in Segusiana
+					<lb/>valle positi praescriptam ecclesiam in summitate montis tamquam in specula sitam conspicerent,
+					<lb/>ignari rerum, a quo constructa vel cuius nomini dicata esset, studiose requirunt.
+					<lb/>Quibus cum senex nuper gesta retulisset, unus illorum, qui podagrae morbo graviter
+					<lb/>vexabatur, laetus valde effectus, socios hoc modo affatur: "Nostis, o sodales, quanto pedum
+					<lb/>meorum torquear dolore et quam saepe vos offenderim in hoc itinere mea tarditate Unde
+					<lb/>quoniam ad illum sanctum Gargani montem, sicut proposueram, nequeo pertingere, obtestor
+					<lb/>per eum, quem animarum fidelium ducem post mortem maxime credimus, ut liceat mihi
+					<lb/>saltem istud sanctum oratorium illi dicatum invisere eumque, ut in hora exitus sit animae
+					<lb/>meae propitius, exorare, vosque ipsi aut mecum pro vestra mercede ascendatis aut in
+					<lb/>montis calce reditum meum maturum expectetis." At illi in eum maligne tumultuantes,
+					<lb/>ita illi exprobrant: "Quid est, miser homo, quod loqueris ? Quo nisu vales per aspera et
+					<lb/>ardua scandere, qui planae et dudum tritae viae laederis planitie ? Abi quo vis, insane,
+					<lb/>dispereat, qui te expectaverit." Tunc ille deserto comitum contubernio sumptaque fiducia
+					<lb/>ex amore archangeli, quod impossibile putabant, aggreditur et magis genibus et manibus
+					<lb/>reptando vix tandem victor optato potitur desiderio. Intransque eclesiam uberrimis
+					<lb/>humectavit solum lacrimis et inter vota et preces, quas ex affectu intimo fundebat Domino
+					<lb/>eiusque archangelo, quod sit derelictus a viris suaeque facit mentionem infirmitatis.
+					<lb/>Interea, ut assolet fieri, prae labore et maestitia somnus hominem corripit, et post aliquot
+					<lb/>horas sopore solutus coram altari sancti Michaelis in monte nimirum Gargani sese sospitem
+					<lb/>et incolumem invenit. Quanta tunc flens largiter, ibi quoque lacrimarum prae gaudio
+					<lb/>fuderit flumina, si vellet exprimere, Tulliana, ni fallor, succumberet facundia. Fortassis,
+					<lb/>quod loquimur, pro sui novitate et miraculi magnitudine cuilibet videtur incredibile. Sed,
+					<lb/>o tu, qui inde ambigis, veterem Danielis historiam non te pigeat retexere, et quo pacto
+					<lb/>angelus Domini per terrarum tot spacia Abacuc per capillum Danieli in lacu Babilonico
+					<lb/>sedenti et famelico asportaverit, si ratione non conpreendis, indubitanter actum crede.
+					<lb/>An negabis, incredule, quod tunc factum est per angelum, non potuisse nunc fieri per
+					<lb/>summum archangelum ? Vir igitur ille, cum suae sospitatis auctori quantas potuit gratiarum
+					<lb/>ibi persolvisset actiones, laetus et exiliens inde repedabat. Iamque Romam
+					<lb/>transierat, cum infidi comites eius nondum ad Urbem pervenerant. Quem cum sibi obviam
+					<lb/>eminus redeuntem contemplarentur, ammirantes mutuo alter aiebat ad alterum: "Ho, Deus,
+					<lb/>quem video ? num iste est noster socius, qui apud Clusam a nobis est relictusus ?" Et
+					<lb/>alter: "Non est", ait, "ille, sed similis eius. Nam ille podager, iste incedit firmus et incolumis.
+					<lb/>Sed quid ? Certe is ipse est. Salve, bone vir." At ille: "Salvete vos, o boni
+					<lb/>sodales." "Quid est hoc ?", inquiunt, "quis te huc adduxit aut quomodo sanus effectus es ?"
+					<lb/>Quibus cum praescripti miraculi seriem retulisset, tantae rei novitate attoniti dixerunt ad
+					<lb/>eum: "Num ista sancto apostolico per ordinem non aperuisti ? Revertere nobiscum, ingrate
+					<lb/>revertere et narra, quanta tibi Deus fecerit !" Et ille: "Faciam ita, tametsi vos non promeruistis".
+					<lb/>Rediit, narravit et ad amorem venerabilis huius loci Romam matrem civitatum
+				<lb/>accendit, totaque Italia, qua veniebant, huius miraculi fama pertonuit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIII.</head> <p>Per idem tempus imperante Ottone iuniore augusto quidam nobilium Hugo
+					<pb n="965"/>
+					<lb/>nomine de Arvernensi comitatu cum propria uxore sancti apostolorum principis Petri
+					<lb/>limina petiit et, licet innumerabilium graviumque peccatorum sibi esset conscius, beati
+					<lb/>tamen apostoli misericordia, cui pius Dominus ad sui amoris periculum ter suas oves
+					<lb/>pascendas commisit, reformari ad spem vitae non cassam fiduciam sumpsit. Veniens
+					<lb/>igitur Romam horribile primum et lucrosum miraculum de se ipso cunctis intuentibus
+					<lb/>praebuit, cum ad gradus exteriores ecclesiae sancti Petri veniens nec ultra valens progredi
+					<lb/>fixus et immobilis haesit. Et quanto magis, ut intrare posset, rotabatur in circuitu,
+					<lb/>tanto longius propellebatur a sacro templi aditu. Quod intelligens sibi contingere facinorum
+					<lb/>suorum immensitate torquetur dolore miserae nimis et peccatricis conscientiae plurimaque
+					<lb/>turbatur anxietate. Nitebatur Petrum, communem spem miserorum, lacrimosis suspiriis
+					<lb/>nec se palam prodentibus, ut sui misereretur, inflectere, quia palpitabat lingua mala confusione,
+					<lb/>quae peccatum celando solet accumulare, et erubescebat fateri, quod non erubuit
+					<lb/>perpetrare. Tandem coactus uxori suisque circumstantibus, quo cruciaretur igne conscientiae,
+					<lb/>proclamat et tam papam tunc temporis Silvestrum quam ministros altaris sancti
+					<lb/>evocari exoptat. Quibus clementer venientibus dolorem dolorisque causas exponit et in
+					<lb/>suis vicariis experiri Petri mansuetudinem suppliciter humi prostratus exposcit. "Apostolica
+					<lb/>sedes", ait ad eos, "quos iudicat, tamquam filios advocat et tenerae pietatis dulcedine re
+					<lb/>vera sicut mater, quos percutit, amat. Inaudito torqueor miser conscientiae peccatricis
+					<lb/>cruciatu, quia in tranquillo, quod alii nunquam reor accidisse periclitor portu, dum fons
+					<lb/>misericordiae post magistrum, qui etiam nolentes suis ad salutem retibus trahit, me
+					<lb/>quasi filium gehennae omnino repellit. Sed exigit, scio procul dubio, singularis dulcedinis
+					<lb/>pastor criminum confessionem et secundam post baptismum, quandoquidem prima me
+					<lb/>comprobat apostatam, hostis abrenuntiationem. Assentio et confiteor, abrenuntio et a
+					<lb/>fonte Davit, qui in ablutionem menstruatae patet, per ministerium domini mei Petri
+					<lb/>consilium requiro." Haec querimonia dulcia Romanae pietatis viscera concussit, et tantorum
+					<lb/>criminum reus de constructione unius coenobii, ubi perpetualiter a monachis Domino
+					<lb/>serviretur, sponsionem fecit, exigentibus tam memorato papa quam ministris apostolicis.
+					<lb/>Purgatus itaque tali poenitentia et confessione, sic demum limina sancta ingredi et locum
+					<lb/>vestigiorum Domini permissus est osculari; et facere gestiens, quod promiserat, ad propria
+				<lb/>coepit cum gaudio regredi.</p>
+			</div>
+			<pb n="966"/>
+			<div type="chapter">
+				<head><lb/>XIV.</head> <p>Emensis igitur longioris viae spatiis cum boni desiderii plenus una cum uxore
+					<lb/>suisque Segusiam venisset et in familiari sibique bene nota domo cum vetere amico
+					<lb/>hospitatus esset, ab eodem hospite causa familiaritatis diligenter coepit inquiri, qualiter
+					<lb/>cursum explesset itineris sui. Seriatim cuncta retulit et universae rei, quam praefati
+					<lb/>sumus, mirabilem notitiam dedit. Attonitus hospes tanti stupore miraculi simulque laudibus
+					<lb/>diutius immoratus omnipotentissimae misericordiae Domilli dixit ad eum: "O domine Hugo,
+					<lb/>si desideras boni voti compos existere, nulli alii melius post gratiam principis apostolorum,
+					<lb/>quam principi caelestis exercitus archangelo Michaeli te decet coenobium construere,
+					<lb/>ut dimissis omnibus peccatis tuis in diet exitus tui de hoc exilio animae tuae iste sit
+					<lb/>ut ereptor et Petrus receptor." Simul etiam locum praefatum, quoniam proximus, videlicet
+					<lb/>duodecim milibus esset, ostendens et praefatorum miraculorum nobilissimam narrationem
+					<lb/>prosequens animos viri iam dudum ad id intentos exhortationis bonae scintillis accendit;
+					<lb/>atque sic tandem et verba salutis et diem, quo fessi venerant, nox subsequens clausit.
+					<lb/>Adest archangelus per visionem soporatis utrisque coniugibus et eadem specie eisdemque
+					<lb/>verbis conspicitur et auditur a duobus. Hortatur et imperat, ut in loco, quem hospes
+					<lb/>designaverat, totius consilii vires figat et absque omni dubitatione monasterium fabricans
+					<lb/>animae suae caeleste se construere palatium non diffidat. Vir post revelationem prior
+					<lb/>evigilat, et dum uxori Isengardae nomine totius tenorem visionis narrat, postquam et
+					<lb/>ipsa retulit suae concordiam visionis, otior stratu se proripit et hospitibus sciscitatis,
+					<lb/>quomodo melius ad effectum res ducatur, sagaciter consilium quaerit. Tunc uxor hospitis
+					<lb/>Eva, melior consiliis Evae prioris, verborum, quae sero contulerant " nam his ipsa plurimum
+					<lb/>Institerat " narrationem archangeli monitis corroboratam gavisa una cum viro, quantis
+					<lb/>valet ingeniis, omnes directos aditus incipiendae finiendaeque rei perquirit, tandemque
+					<lb/>simul conferentibus sani vena consilii a fonte sapientiae patris processit, qui in evangelio
+					<lb/>sius promittit fidelibus dicens: "Ubi duo vel tres congregati fuerint in nomine meo, ibi
+				<lb/>sum in medio eorum".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XV.</head> <p>Igitur levaturi tanti molem palatii Hugo et uxor eius omnibus modis harenam
+					<lb/>nocituram prudenter explorant et eam obstruere felici conamine parant, ut supra firmam
+					<lb/>petram secure fundamentum nunquam casurum iaciant. Ascensi ergo diluculo vehiculis
+					<lb/>Hardoini marchionis curiam, quae tredecim tantum milibus in castro Avilliano tunc
+					<lb/>aberat, celeriter adeunt eumque ibi cum uxore nichilominus nutu divinitatis, ne diutius
+					<lb/>fatigentur, inveniunt. Nobiles et elegantis habitudinis peregrini ex cismontanis partibus
+					<lb/>advenisse principi nuntiantur moxque ab eo, sicuti nobilibus mos quodammodo naturaliter
+					<lb/>inest, si boni sunt, honorifice suscipiuntur. Adventus causas exponunt et licentiam construendi
+					<lb/>coenobii in memorato multotiens loco petunt, ea videlicet ratione, ut gloriosus
+					<lb/>marchio, quantum vellet auri vel argenti, mulorum ceterorumque vehiculorum, quae
+					<lb/>adduxerant, optimam copiam benigne reciperet et locum ab omni sua proheredumque
+					<lb/>suorum saeculari potestate scripto iudiciali solveret, quatinus in posterum Deo inibi servituris
+					<lb/>a cunctis, quae saeculi potestatibus vel ex debito vel ex terrore fiunt, expedita
+					<lb/>libertas condicionibus esset. Liberalissimus princeps libenter annuit et in primis gratis,
+					<lb/>quae petebantur, exequi volens, postmodum saniori consilio precium, quod iustum visum
+					<lb/>est, benigne recepit, ut et evangelico exemplo, quemadmodum de pretio Domini emptus
+					<lb/>est ager in sepulturam peregrinorum, monachis saeculo morituris in eodem loco pretio
+					<lb/>vitalis sepultura proveniret et futuris temporibus refragandae coenobii libertatis occasio
+					<pb n="967"/>
+					<lb/>nulla foret. Post haec ad ospitium laetus Hugo regreditur et consilio nichilominus hospitis
+					<lb/>virum, cui tutelam loci committeret, quaesiturus, interim, quia viae occasio se praebuit,
+					<lb/>cum paucis ad montis cacumen habitudinem loci visurus potius animi quam vi corporis "
+					<lb/>nam via erat difficillima " trahitur. Aestu ergo vel labore fessus admodum, imo omnino
+					<lb/>siti nutu Dei deficiens ad pedes heremitae, cuius aecclesiae contigua erat cella parvissima,
+					<lb/>prosternitur et, ut archangeli, si non humano consilio tanti periculi medelam quantotius
+					<lb/>inveniat, deprecatur. Audivit ab illo aquam in proximo non haberi, vinum autem in ampullula parva, quantum ad unius missae celebrationem vix posset sufficere, contineri;
+					<lb/>penes se nil omnino remedii fore, nam virtutem archangeli procul dubio omnia posse.
+					<lb/>Instante, quem sitis et aestus periculum cohartabat, heremita tandem pietate concutitur
+				<lb/>et archangelum, si status loci sibi placeat, devoti viri mederi periculo deprecatur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVI.</head> <p>Mox " mira dicturus sum " praedictam cernit ampullulam, quasi ab imo scaturiente
+					<lb/>vena fontis, inundare et summum archangelum virtutem visibilem exhibere. Quantum
+					<lb/>oportuit, potati sunt, qui venerant, et accepta benedictione redeuntes, sicut praediximus,
+					<lb/>virum tutelae loci congruum " nam heremitae nulla iam nisi de caelestibus cura erat "
+					<lb/>reperire desiderantes ad ospitium properant. Retulit hospiti vir Deo devotus, quod acciderat,
+					<lb/>et inter verba locutionis, aestu boni desiderii non minus quam prius siti corporis
+					<lb/>aestuans, iterum atque iterum de loci tutela, cui esset oportune committenda, verbum
+					<lb/>repetebat. Aderat ibi quidam nutu Domini vir religiosus ordinis monastici nomine Atvertus,
+					<lb/>qui in Lisathio monasterio abbatis prius officio functus atque ab hoc a contrariis sanctae
+					<lb/>religionis expulsus, tunc a liminibus apostolorum regressus in eodem per aliquot dies
+					<lb/>fuerat hospitio remoratus. "Hunc", ait hospes, "ut reor, gratia divina providit, qui non
+					<lb/>ut novus, sed expertus officii monastici parvas expensas adhuc incompositi locelli, spiritu
+					<lb/>pauper, amore religionis amabit et humili suae paupertatis obsequio servituris in posterum
+					<lb/>Christo, quae satis sint, divitias aggregabit. Auditis his venerabilis peccator Hugo in
+					<lb/>laudem redemptoris attollitur et hoc quasi auspicio iam poenitentiam suam Deum quodammodo
+					<lb/>recepisse gratulatur. Praefatum ergo virum religiosum Atvertum multis precibus
+					<lb/>vincit et relictis, quantum ad praesens ut peregrinus poterat, necessariis, ei locum committens,
+				<lb/>citius rediturus ad sua cum gaudio rediit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVII.</head> <p>Exinde vir Deo plenus Advertus omnino plena devotione satagens oportuna
+					<lb/>monachis aedificiola secundum situm loci " nam scopulis asperrimum erat " coepit construere
+					<lb/>et, quicquid usquam colligere poterat, modico victu contentus, ad id solum expendere.
+					<lb/>Tempore constituto, sicut promiserat, Hugo rediit et omnibus necessariis impensis
+					<lb/>ad perficiendam aecclesiae fabricam datis iterum ad praefatum marchionem transitum
+					<lb/>fecit et ab eo, sicut et prius dato pretio villulam monti contiguam nomine Clusam et
+					<lb/>aedificandis villulis congruas terras nichilominus contiguas adquisivit. Ut autem libertatis
+					<lb/>loci, pro qua praecipue satagebat, scrupulus omnino nullus inesset, Taurinensem pontificem,
+					<lb/>qui Amizo dicebatur, adiit et oblatis, quae tantum virum decebant, muneribus
+					<lb/>cunctis iterum locum solvi condicionibus cum anathematis etiam interpositione favorabiliter
+					<lb/>impetravit; indeque Romam profectus omnium praedictarum sponsionum tam pontificis
+					<lb/>quam marchionis tenores omnemque sui operis hordiens hystoriam papae Silvestro
+					<lb/>retulit et eius ad praesens, imo principis apostolorum auctoritate, postea vero etiam
+					<lb/>imperatoriae maiestatis corroborari locum literis et nomine fecit. Post haec, quo advixit,
+					<pb n="968"/>
+					<lb/>omnia monasterio secundum posse necessaria vel attulit vel direxit, et exinde coenobium
+					<lb/>incrementis oportunis es tempore Deo favente meritis hactenus archangeli crevit et variis
+					<lb/>miraculis coruscans diversis populis gratum et venerabile fuit. Ne autem aliqua dubietas
+					<lb/>ex his, quae relata sunt, in cordibus fidelium possit oriri, testis est praedicti Hugonis
+					<lb/>filius Mauricius, testis et ipsa familia, quorum vel suis vel parentum proximis diebus
+				<lb/>tantis indiciis angelica virtus dignata est propalari.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XVIII.</head> <p>Igitur venerabilis papa Nicholaus, quod nomen victoriam populi nimirum
+					<lb/>catholici sonat, narrationis huius ordiendae laudator atque praeceptor extitit, ut cunctis
+					<lb/>legentibus innotesceret praedicti loci curam specialiter ad sedem apostolicam pertinere et
+					<lb/>quisquis fidelium in fine caducae atque transitoriae vitae pennis angelicis ad caelos opitat
+					<lb/>evehi, contra locum, quem Michael princeps angelorum dilexit et elegit, vereatur aliquid
+					<lb/>iniquum moliri, quatinus in domo sua absque scissionibus cordium cum pace, quae hominum
+					<lb/>bonae voluntatis propria est, sit nomen Domini semper benedictum, qui omnes
+					<lb/>suos spiritus administratorios propter eos, qui hereditatem capiunt salutis, implere gratuite
+				<lb/>in aeclesiae suae mittit ministerium.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XIX.</head> <p>Anno igitur nongentesimo sexagesimo sexto incarnationis dominicae constructis,
+					<lb/>ut fertur, in eodem loco feliciter officinis coenobialibus, prout erat possibile, cum ille
+					<lb/>vir illustris Hugo in armis strenuus, sed in Dei rebus circa finem magis devotus, locum,
+					<lb/>quem, sicut supra retulimus, pretio sibi ut proprium vendicaverat et apostolica auctoritate
+					<lb/>seu praeceptis regalibus munierat, abbati dumtaxat ac monachis abendum tradidisset,
+					<lb/>postquam etiam sanctus Iohannes heremita necnon et bonae memoriae Advertus abbas
+					<lb/>migrassent ad Dominum, successit ei in regimine fratrum consensu et electione vir mirae
+					<lb/>simplicitatis ac prudentiae, merito Benedictus et nomine. Hic cum plurimis floreret virtutibus,
+					<lb/>tanta dicitur caritatis affluentia refertus et hospitalitatis liberalitate munificus,
+					<lb/>ut omnes ad se venientes et montis ardua ob archangeli patrocinia petentes maximeque
+					<lb/>Galliarum, Aquitanicorum et Hispaniarum populos Romam adeuntes libentissime susciperet,
+					<lb/>foveret eisque munera retentis, quae fratruma tantum usibus poterant competere,
+					<lb/>benignus impertiret. Cuius quam plurimi gratiam amirati " erat quippe moribus et canis
+					<lb/>angelicis decoratus " aiebant: "Ecce vir prudens, qui aedificavit domum suam supra petram,
+					<lb/>in cuius ore dolus non invenitur, quo fideli dispensatores archangelus Domini gratulatur
+					<lb/>et huius loci fama sua ubique extendit insignia". Coeperunt namque nonnulli et praecipue
+					<lb/>de ultra montes ad hunc locum gratia religionis concurrere et saeculo renuntiantes
+					<lb/>sub illo sene glorioso normae regulari sese subdere. Langobardi enim quam plures
+					<lb/>fulti inimica fidei calliditate haud facile acquiescunt monachilem habitum suscipere.
+					<lb/>Multi vero nobilium atque divitum gratiam cupientes referre eius benedictionibus quo
+					<lb/>sibi principem angelorum conciliarent in die suie exitus, alii ditaverunt locum suis honoribus,
+					<lb/>alii tradebant pueros suos Domino educandos immaturis teneros aetatibus. Est namque
+					<lb/>locus ab omni impedimento et saeculari tumultu semotus, nullus hominum seu animalium
+					<pb n="969"/>
+					<lb/>ibi perstrepit clamor atque rugitus, iacet porrecta Italiae planicies suis iocunda locis
+					<lb/>ac fluminibus, humanos interdum quae valeat recreare visus. Tepidae sunt hiemes, aestas
+					<lb/>vernum imitatur tempus, gravibus morbis nec nocet autumpnus. Mens Deo famulantium
+					<lb/>tali fota quiete et admonita qualibet terrena pulcra rerum oportunitate vociferatur
+					<lb/>iubilando frequenter cum exultatione: "Magnus Dominus et laudabilis valde in civitate Dei
+				<lb/>nostri in monte sancto eius".</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XX.</head> <p>Dilectus itaque Deo et hominibus ille venerandus senex Benedictus, optime
+					<lb/>agens gregis commissi custodiam, utpote pastor egregius, sanctitatis gratia claruit suis
+					<lb/>temporibus ampliavitque monasterium, favente archangelo, rebus, personis et honoribus.
+					<lb/>Et cum a plerisque hospitibus et monachis quasi pro consilio hortaretur magnorum
+					<lb/>coenobiorum tutelae et ordinationi locum suum committere eorumque consuetudines admittere,
+					<lb/>non adquiescebat dicens: "Sinite, fratres, sinite sancti patris nostri Benedicti
+					<lb/>regula parvitatem nostram contentam esse, quae, si quid videtur addendum, abbatis
+					<lb/>admittit arbitrio supplendum pro ratione et tempore. Non ita est, ut dicitis. Videtis
+					<lb/>locum conductu difficilem et arduum altera consuetudine modificandum. Neque enim
+					<lb/>humano quolibet indiget magisterio, qui angelorum saepe fruitur solatio tantique provisoris
+					<lb/>gaudet patrocinio et satis metuendo quandoque addicitur ministerio. In hoc nimirum
+					<lb/>monte nullus est locus crimini, nec est fas sub eius conspectu scelerato latebras
+					<lb/>delitiscendo quaerere quem ipse statim insequitur sua fulminea et terrifica lampade.
+					<lb/>Aliquando etiam, si uspiam in monte facinus committitur, sacras iaculatur et arces, adeo
+					<lb/>ut plerosque terreat innocentes neque novit igneum ponere tumultum, donec, quod
+					<lb/>humanum latebat oculum et maneleat inultum, satisfactione ac confessione forte fiat
+					<lb/>indultum." Sic pater inclitus aiebat, sic apostolica disertus simplicitate callebat, regulam
+					<lb/>tantum almi patris et eximii dueis monachorum Benedicti suadebat perscrutari et observare
+					<lb/>et super ea clamare, ceterum in cuiusque abbatis arbitrio ordinationem sui monasterii
+				<lb/>pendere; quod eiusdem loci conventus usque hodie habuit celebre.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXI.</head> <p>Praetereundum silentio non arbitror quoddam miraculum, quod sanctae memoriae
+					<lb/>Aicius, prior aeque ipso actu reverendus, de abbate iam dicto referre solebat.
+					<lb/>Cuius ob hoc testimonium veritate creditur subnixum, quia fuit homo, ut aiunt, ad
+					<lb/>unguem factus et in religiosa conversatione totus sibi teres atque rotundus. Qui inter
+					<lb/>ceteras animi virtutes, quibus admodum pollebat, discretionis gratia, quae omnium virtutum
+					<lb/>generatrix, custos atque moderatrix patrum diffinitione praedicatur, fuit ita praeditus,
+					<lb/>ut nullius diei feriati atque profesti occasione solitae ciborum districtioni seu quantitati
+					<lb/>quippiam addere vellet aut demere. Constans semper in sancto proposito et vigiliis
+					<lb/>crebro inserviens flagris proprium corpusculum coercebat, operi manuum et lectioni
+					<lb/>sedulus operam dabat. Castus mente et corpore, tandem multiplicatus in senecta uberi
+					<lb/>concessit naturae. Cuius sepulcrum recenter aperientes quidam fratrum eius alumpni
+					<lb/>quadam curiositate ducti mira odoris fragrantia sunt repleti. Hic namque, inquam, prior
+					<lb/>de illo venerabili Benedicto asserebat, quod moris illi fuerat beatae Mariae genitricis
+					<pb n="970"/>
+					<lb/>Domini et Salvatoris nostri laudum officia nocte dieque ante eius venerandum altare, quod
+					<lb/>illius gloriosae et incomparabilis imaginis praesentia insignitur, devote ac sollempniter
+					<lb/>agere. Quod opus cum nullatenus intermitteret, nocte quadam lecturus ibi ex more
+					<lb/>lectionem lucernam ipse tenebat, quae venti flamine, ut assolet fieri, extincta est. Quo
+					<lb/>casu cum pro lectionis dilatione magis anxiaretur, de cereo, qui ante sancti Michaelis
+					<lb/>altare perpetuis fovetur ignibus, subito sese flamma prorupit et in manu illius non sine
+					<lb/>fratrum admiratione lucernam accendit. Quod ubi Dei famulus vidit, vehementer obstupuit
+					<lb/>et solotenus prostratus diutius adoravit et fratribus, quo adviveret, ne cui miraculum
+					<lb/>proderent, interdixit. Quid plura ? Annis XL et IIII monasterium viriliter rexit tandemque
+				<lb/>sicut oliva fructifera in domo Domini in pace quievit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>XXII.</head> <p>Tale habuit sanctus ille locus sui primordii incrementum, talibus gloriatur
+					<lb/>auctoribus et tam gloriosus quam venerabilis extunc et nunc cunctis extitit gentibus, exceptis
+					<lb/>Taurinensibus, qui tanquam Scyllei canes semper oblatraverunt et livido oculo
+					<lb/>coenobii commoda obliquare non cessaverunt. Eorum tamen dentes omniumque male
+					<lb/>loco insidiantium vires archangelus ita potenter obtrivit, ut, si non voce, rebus equidem
+					<lb/>clamaret: "Qui hos tangit, quasi si tangat pupillam oculi mei". Nemo enim locum
+					<lb/>seu illa, quae iuris eius sunt, aliquando iniuriis impetivit et illaesus abiit. Vocatus et
+					<lb/>non vocatus adest et sibi in aula sua digne famulantium seseque humiliter deprecantium
+					<lb/>vota benignus attendit et ab ore saevissimi drachonis incessanter protegit. Illius ergo
+					<lb/>quem caelestis curiae primatem, o grex Clusine, specialiter tibi delegisti, innitere patrocinio !
+					<lb/>Illum te decet prae omnibus venerari et glorificare cultu perpetuo, qui te sub
+					<lb/>umbra alarum suarum pie fovendo sic defendat in proelio, ne damneris sine fine in
+				<lb/>tremendo iudicio.</p>
+				<p><lb/>EXPLICIT.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

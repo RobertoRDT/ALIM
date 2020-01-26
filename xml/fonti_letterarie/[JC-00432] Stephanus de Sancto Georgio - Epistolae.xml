@@ -1,0 +1,1733 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistolae</title>
+				<author>Stephanus de Sancto Georgio</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>F. Delle Donne</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="12777" unit="words">Parole: 12777</measure>
+				<measure quantity="82118" unit="characters_without_spaces">Caratteri (spazi esclusi): 82118</measure>
+				<measure quantity="93627" unit="characters_witht_spaces">Caratteri (spazi inclusi): 93627</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-08-30">30/08/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 13115
+					Caratteri (spazi esclusi): 82590
+					VA
+				</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Una silloge epistolare della seconda meta del XIII secolo. I «Dictamina» provenienti dall'Italia meridionale del ms. Paris, Bibl. Nat. Lat. 8567</title>
+						<editor>F. Delle Donne</editor>
+						<imprint>
+							<publisher>SISMEL. Edizioni del Galluzzo</publisher>
+							<pubPlace>Firenze</pubPlace>
+							<date>2007</date>
+							<biblScope unit="page">3-89</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Edizione nazionale dei testi mediolatini</title>
+						<biblScope unit="volume">19</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Epistolografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item><item type="itemNotaJC">-sono lettere. Non so se trasformare le salutaciones in &lt;head&gt;. In alcuni casi avrebbe senso ("Littere de cappellania, per Stephanum."), però in molti suonerebbe strano ("Idem eidem"). Per ora non ho messo nessun &lt;head&gt; (con l'eccezione degli ultimi due testi, che non sono lettere, ma sermones) per coerenza, ma è da discutere (non solo in questo file, ma in generale)</item><item type="itemNotaJC">-in alcune righe era presente escaped html code: [&amp;lt;br&amp;gt;]. L'ho tolto</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="3"/>
+		<div>
+			<head type="salutatio"><lb/>Parentibus et fratri Stephanus.</head>
+			<p><lb/>Mortis nuntias, doloris baiulas et tristitie relatrices leta manu recepi,
+				<lb/>sed corde lugubri, lingua balbutienti ac oculis lacrimosis legi litteras quas
+				<lb/>misistis, ex quarum singultuosa et plena suspiriis lectione, proch dolor,
+				<lb/>intellecto quod … frater meus, iuventutis in eo flore nimis intempestive
+				<lb/>preciso, debitum fragilitatis humane persolvit, lacrimas continere non
+				<lb/>potuit oculus, sed tristitie nebula genas obducens offuscavit etiam tetra
+				<lb/>doloris caligine letitie mee dies, fecitque suam in me funerei doloris
+				<lb/>immensitas, quantum debuit, quantumque licuit, sessionem. Fine siquidem
+				<lb/>posito luctibus et post doloris angustias de fratre perdito, quem visurus
+				<pb n="4"/>
+				<lb/>sum in patria quo processit, celeri consolatione resumpta, dum vobis
+				<lb/>crederem consolationis unguenta porrigere et dolores vestros litteratorie
+				<lb/>mitigare, subito de letifera fortune pharetra sagitta prosiliens et dire nimis
+				<lb/>animum meum pungens dolores adiecit doloribus et angustias angustiis
+				<lb/>cumulavit. Sicque mestitia cordis mei, que sepulta iam fuerat, multiplicatis
+				<lb/>aculeis me resumpsit. Nam, quod cum amaritudine cordis refero, dominus
+				<lb/>et benefactor meus, dominus … de …, quo tunc pro quibusdam
+				<lb/>domini mei Anglie regis illustris negotiis promovendis accesseram, et qui
+				<lb/>fuerat meus hospes ibidem, viam est universe carnis ingressus! Cuius casus,
+				<lb/>utpote mihi nimis amarus, tantis replevit amaritudinibus mentem meam,
+				<lb/>quod quodammodo vi doloris absortus, horum, que prius ad leniendos
+				<lb/>dolores vestros conceperam, sim oblitus. Sicque consolationibus egeo, qui
+				<lb/>solebam interdum alios consolari. Sane inter huius doloris angustias, quibus
+				<lb/>premor, dum universam carnem cogito per semitam mortis incedere,
+				<lb/>dumque nichil morte certius in humanis excogito, consolationis licet exigue
+				<lb/>aliquando sumo spiritum, rogans et supplicans ut de obitu fratris predicti,
+				<lb/>qui Creatore iubente, qui resurrectio est et vita, celestem migravit
+				<lb/>ad patriam, consolationis spiritum assumatis, mihique mesto de predicti
+				<lb/>mei benefactoris occasu, consolatorias aliquas litteras transmittatis. De
+				<lb/>statu vero meo et circumstantiis eius … vos certificare poterit viva voce,
+				<lb/>quem plene de illis et aliis informavi. Valete; valeo corpore, sed mente
+				<lb/>confodior et nescit quo, pre dolore memorati benefactoris mei, scribentis
+				<lb/>animus se divertat. Saluto … fratres meos et utinam non esset sic cito, sic
+			<lb/>subito quinarius fratrum numerus minoratus.</p>
+		</div>
+		<pb n="5"/>
+		<div>
+			<head type="salutatio"><lb/>... patri et … avunculo Stephanus.</head>
+			<p><lb/>Ecce cupiens omnes nostros consanguineos ad statum prosperum promovere,
+				<lb/>amore vestri, avuncule mi karissime, impetravi a domino nostro abbate
+				<lb/>Casinensi quod reciperet … in monachum Casinensem. Propter quod excito
+				<lb/>vos et exhortor ut ipsum faciatis bene in cantu et lectionibus perstudere,
+				<lb/>ut, cum idem dominus abbas advenerit, in oculis suis appareat gratiosus.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Reverende genitrici sue Stephanus.</head>
+			<pb n="6"/>
+			<p><lb/>Audio, mater, quod incessanter lamentamini et lugetis, quod mihi grave
+				<lb/>est admodum et molestum. Unde pro Deo supplico, quatenus, considerantes
+				<lb/>quod nec lamenta nec lacrime redimere queant mortuos de sepulchris,
+				<lb/>qui in pace requiescunt in illum qui resurrectio est et vita cunctorum,
+				<lb/>finem huiusmodi luctibus imponatis, circa domestica curam et sollicitudinem
+				<lb/>adhibentes, ac patris mei animam in vestris orationibus et elemosinis
+				<lb/>habentes efficaciter commendatam. Hec enim anime sue proderunt. Hec
+				<lb/>penas purgatorias leviabunt. Hec deducent eam expiatam omni contagione
+				<lb/>in locum refrigerii et quietis. Lacrime mortuis solamenta non prosunt,
+				<lb/>Deum provocant et materiam redargutionis inducunt, nec reputetis vos
+				<lb/>viduam, postquam Deus vobis filios reservavit, qui locum vobis mariti retinent
+				<lb/>et in mundo isto, qui fluctuat velut mare, vobis contra procellas existunt
+				<lb/>anchora firmitatis, et cum devotione filiali in omnibus et per omnia
+				<lb/>dominio vestro subsunt. Et sic conquestus viduitatis queso non nominetur
+				<lb/>in vobis, cum post patris occasum et matris et patris habeatis in filiis principatum.
+				<lb/>Sic igitur super hiis sapienter decetero vos geratis, quod et laudem
+				<lb/>ab hominibus et a nobis acquiratis gratiarum multimodas actiones. Datum.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Domine … genitrici sue Stephanus.</head>
+			<p><lb/>Consolationem inextimabilem habeo inter labores infinitos quos patior
+				<lb/>et mentales dolores quos subeo, dum audio vos per Dei gratiam iocunda
+				<lb/>corporis incolumitate potiri. In materno respiro nomine, in materna glorior
+				<lb/>sospitate, patre pariter et germano in tam modici temporis orbatus interstitio
+				<pb n="7"/>
+				<lb/>gemebundo; et illud est inter cetera desiderabile cordi meo, persone
+				<lb/>vestre mihi dulcissime perfrui visione. Ad quod obtinendum viam paro et
+				<lb/>quam citius potero veniam vos visurus, a vobis, mater dulcissima, revidendus,
+				<lb/>qui per Dei gratiam sanus vivo, quod de vobis audire desidero incessanter.
+				<lb/>Recomendo me benedictionibus vestris humiliter et devote.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>… fratri … frater salutem et concupite gratiam visionis.</head>
+			<p><lb/>Die iovis … litteras tuas recepi et, dum ipsas legendo percurrerem, leticia
+				<lb/>licet vana fuit animus meus respersus, dum vitam incolumem et maternam
+				<lb/>mendaciter assererent sospitatem. At cum communis sororis Agnetis
+				<lb/>lectio litterarum, occultum mihi longo iam tempore, nimis improvide,
+				<lb/>veraciter et provide matris transitum revelaret, preconcepta nugaciter
+				<lb/>ipsa letitia in mestitiam subito fuit conversa. Ruperunt lacrime, irruere
+				<lb/>singultus et hominis utriusque compago irriguit pre nimietate doloris; sicque
+				<lb/>me orbatum utroque parente conspiciens, et me iturum ad eos, non ad
+				<lb/>me reversuros eosdem considerans, laudavi nomen Altissimi, qui mortis et
+				<lb/>vite tenet imperium, et in Ipso, post lacrimas et singultus, consolationem
+				<lb/>assumpsi. Laudo te, frater, in hoc non laudo, quod obitum dicte matris
+				<lb/>tanto tempore occultasti. An putas me ipsam debere credere immortalem,
+				<lb/>ut ex novitate quadam me coniectares irremediabiliter consolari et exacerbare
+				<pb n="8"/>
+				<lb/>contumaciter nomen Dei? An ignoras, quod tales ictus frequenter
+				<lb/>ferre sum solitus? Sane noscere debueras, quod infra modici temporis
+				<lb/>intervallum de paterno et fraterno sumere pertuli diros ictus, nec constristatus
+				<lb/>fui, sicut et ceteri, qui spem forte non habent, sed cum illis, qui
+				<lb/>resurrectionem corporum credunt firmiter et constanter, lacrimas non tam
+				<lb/>debitas, quam pias effudi. Numquid enim morem in auditu paterni funeris
+				<lb/>immutassem? Nempe servassem morem et servo. Nam fudi lacrimas;
+				<lb/>restrinxi singultus et consolatus sum; luxi et consolatus sum. Revera
+				<lb/>fateor, quod adeo in materno nomine gloriabar, adeo in maternis benedictionibus
+				<lb/>confidebam, quod, ipsa matre vivente, nec mortis imperium
+				<lb/>pavescebam, nec maris aut terre pericula formidabam; deinceps vero benedictionis
+				<lb/>materne deficiente suffragio, illic timore trepido, ubi timor non
+				<lb/>est, ibique formido periculum, ubi periculum nullum adest. Quid igitur
+				<lb/>faciam, ubi pericula imminebunt? Ad quem confugiam? Quis pro me
+				<lb/>misero et vagabundo orabit? Quis mihi decetero benedicet? Pater meus,
+				<lb/>frater meus, mater mea vermibus. Ubi est, ergo, nunc prestolatio mea?
+				<lb/>Ipse est Dominus Deus meus, quem oro suppliciter, ut mihi clementer
+				<lb/>gratiam largiatur, quod eadem urna, que parentum corpora contegit, tandem,
+				<lb/>cum Sibi placuerit, corpusculum meum capiat atque tegat, ut simul
+				<lb/>cum ipsis et fratre, in novissima tuba, in momento, in ictu oculi, in illa
+				<lb/>die districti iudicii, me nostro restituat Creatori. Fine vero posito luctibus
+				<lb/>et querelis, scire te volo, quod sororem predictam constituo in domo mea
+			<lb/>loco matris ad regimen et custodiam intrinsecam dicte domus.</p>
+		</div>
+		<pb n="9"/>
+		<div>
+			<head type="salutatio"><lb/>Fratri Petro germano suo Stephanus.</head>
+			<p><lb/>Miror te, frater, sic fidem frivolis relatibus adhibere, quos nec scriptura
+				<lb/>fidedigna corroborat, nec verbalis cum intersignis aliquibus insinuatio
+				<lb/>comitatur. Rumores igitur fugiens, ne incipias novus actor haberi, nec
+				<lb/>ipsos proprii cogitatus adinventione confingas, nec confictos ab aliis credas
+				<lb/>leviter cum animi levitate, sciturus quod quam cito dominus Casinensis
+				<lb/>electus fuerit confirmatus, id voto tuo per litteras meas nuntiare curabo
+				<lb/>et personaliter, sicut consulis, veniam cum eodem. Vale.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Idem eidem.</head>
+			<pb n="10"/>
+			<p><lb/>Ecce communem patrem visurus et dominum montana cum festinatione
+				<lb/>conscendo. Eo tamen pacto, ut, post preteriti temporis quatragesimalis
+				<lb/>excursum, inter famelicos cenobitas viatoris stomacho delicato propinet
+				<lb/>esum pinguium abba pater. Vale.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Idem eidem.</head>
+			<p><lb/>Cum honoris integritate et innocentie puritate est communis germanus
+				<lb/>de imposito sibi crimine, veritate faciente, que Christus existit, emulorum
+				<lb/>relatibus nequaquam obstantibus liberatus. Et per hoc corpore
+				<lb/>pariter letificatus et spiritu, hoc instanti die montana communem patrem
+				<lb/>visurus et dominum cum festinatione conscendam. Eo tamen pacto, ut,
+				<lb/>post preteriti temporis quatragesimalis excursum, inter famelicos cenobitas
+			<lb/>ascensoris stomacho lacessito esus pinguium propinetur.</p>
+		</div>
+		<pb n="11"/>
+		<div>
+			<head type="salutatio"><lb/>Domino legato Stephanus.</head>
+			<p><lb/>De presumptione que me ad scribendum tanto patri et domino, apud
+				<lb/>quem nulla pro me precedentis obsequii exhibitio intercedit, impellit,
+				<lb/>venia cum devotione petita, reverende paternitati vestre, cui, si libeat,
+				<lb/>humilem me offero servitorem, devotis precibus supplico, petens supliciter,
+				<lb/>quatenus preces domini mei, domini cardinalis, vobis pro fratre meo
+				<lb/>sub spe gratie obtinende directas, contemplatione dicti domini mei et
+				<lb/>intuitu mee devotionis, qua me, licet modicum, voluntati vestre devoveo
+				<lb/>ad cuncta que placeant, ad benigne dignemini gratiam exauditionis admittere,
+				<lb/>et illarum, si placet, per executionis optate successum oportunitatis
+			<lb/>tempore reminisci.</p>
+		</div>
+		<pb n="12"/>
+		<div>
+			<head type="salutatio"><lb/>Domino abbati fratri … Stephanus.</head>
+			<p><lb/>Litteras tuas novissime mihi directas recepi, inter cetera continentes
+				<lb/>inesse tibi votum ad … monasterium, per viam permutationis, non absque
+				<lb/>ambitionis et inconstantie vitio, convolandi: quod multum displicuit et
+				<lb/>merito votis meis, cum planta que intempestive sepeque transfertur minime
+				<lb/>consueverit convalere. Propter quod scire te volo, quod super hoc partes
+				<lb/>meas nullatenus interponam, cum dominus cancellarius velit et desideret,
+				<lb/>et iam proposuerit, cum in regno erimus, te provehi per favorem
+				<lb/>regium ad maiora. Laudo igitur et consulo bona fide, ut in ea qua vocatus
+				<lb/>es sorte persistas, donec te dormiente faverit, amicis flantibus et super te
+				<lb/>vigilantibus, fortuna prosperior, que consolari poterit ambitiosam et instabilem
+				<lb/>mentem tuam. Item vehementer admiror, cum voraginem tue cupiditatis,
+				<lb/>que sevior ignibus Ethne facta experientia comprobatur, nulla possit
+				<lb/>promotio saturare, et tu me ex omni parte deplumas et ad me nullam
+				<lb/>compassionem extendis. Caro mea mihi non compatitur quid faciat aliena,
+				<lb/>et non considerat me tantis laboribus subiacere. Nam per promotionem
+				<lb/>tuam relevari sperabam, quod a direptione rerum mearum decetero abstineres
+				<lb/>et sufficerent tibi tue. Hoc autem in contrarium incedit, cum nec mee, nec
+				<lb/>tue res tuam valeant cupiditatem inexplebilem satiare. Scripsisti
+				<lb/>mihi de molendinis; respondeo: non concessit mihi natura volatum, ut
+				<lb/>veloci traiectu secans aera venire possim de Francia in Apuliam una die.
+				<lb/>Non sitis namque corda leporina habentes, ut permittatis vos a malivolis
+			<lb/>conculcari, sed corda leonina viriliter assumentes.</p>
+		</div>
+		<pb n="13"/>
+		<div>
+			<head type="salutatio"><lb/>... fratri suo religioso Stephanus.</head>
+			<p><lb/>Ut Deo et hominibus te exhibeas gratiosum, ad mores esto compositus,
+				<lb/>in dilectione fervidus, in societate mansuetus, ad concordiam pronus, ad
+				<lb/>patientiam fortis, in loquela modestus, in agendo strenuus, in responsionibus
+				<lb/>circumspectus. Quinimmo, frater, exhibe te maioribus devotum,
+				<lb/>minoribus blandum, equalibus mansuetum; superbis autem humilitate
+				<lb/>resistas, ut humilium gratiam assequaris. Et ut viam qua gradiaris ad ista
+				<lb/>te doceam, sic cum hominibus conversare, quasi Deus spectet desuper acta
+				<lb/>tua, cui omnis voluntas loquitur in aperto. Et quod tibi a quoquam fieri
+				<lb/>nolles, hoc aliis facere tu caveto.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... fratri suo Stephanus.</head>
+			<pb n="14"/>
+			<p><lb/>Quid super meis negotiis tibi scribam in pectore non remansit, quidve
+				<lb/>cogitem non habetur, cum decretum meum previa tibi scripta in sui multiplicitate
+				<lb/>depromant, et cursorum labia, quibus usque ad interulam me
+				<lb/>nudavi, vota mentalia reserarint, nisi tamen vel ea minutim effregeris vel
+				<lb/>proprie domus postem respuerint contingere viatores. Reducens igitur in
+				<lb/>duorum forte defectu ad tuam memoriam, quid in illis litteris et meis
+				<lb/>desideriis habeatur, te rogo, quatenus ad supplectionem votorum meorum
+				<lb/>vigilanter intendas et sollerter invigiles, ut apud remotos et proximos
+				<lb/>plene laudis titulo extollaris, meumque proberis animum actualiter
+				<lb/>demulxisse.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Nicolao fratri suo Stephanus salutem.</head>
+			<p><lb/>Audio quod una de plantis arangiorum in orto nostro preterito vere
+				<lb/>plantatis, humore radicitus exausto, iam aruit et inutiliter terram occupat
+				<lb/>arefacta. Propter quod volo et mando ut et ipsius loco plantam aliam ramis
+				<lb/>suffultam, radicibus et frondibus virentibus redimitam substituas, et
+				<lb/>decem plantis aliis eiusdem generis ac duabus aliis limonnarum novelle
+				<lb/>plantationis officio decorare studeas, hoc instanti vere, quod plantationibus
+			<lb/>arborum ex institutione celestis agricole congruit ortum ipsum.</p>
+		</div>
+		<pb n="15"/>
+		<div>
+			<head type="salutatio"><lb/>… sorori sue Stephanus.</head>
+			<p><lb/>Ad ea, que me per tuas litteras, quas gratanter accepi, facturum rogasti,
+				<lb/>de tunica scilicet atque zona, duxi taliter respondendum, quod, quam cito
+				<lb/>ad id mihi se facultas obtulerit, petitionem tuam ad gratiam exauditionis
+				<lb/>admittam. Tamen non turbetur cor tuum si petitionis executio aliquantulum
+				<lb/>differatur. Nam quod differtur non aufertur, maxime ubi scribentis
+				<lb/>voluntas occurrit affectui petitricis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Gregorio et Goffrido nepotibus suis Stephanus salutem et sic studere
+			<lb/>quod fructus inde perveniat expectatus.</head>
+			<pb n="16"/>
+			<p><lb/>Utinam vigeret in vobis, filioli mei, tanta discretio, ut affectum meum
+				<lb/>circa profectum vestrum sciretis advertere, et sic periugem subventionis
+				<lb/>vobis gratis exposite meditationem tempus amplecti, ut tenella satageret
+				<lb/>etas lucrifacere vobis illud, ne saltem inutiliter laberetur. Cum adeo temporis
+				<lb/>iactura sit gravis, quod lapsus nec recuperari valeat nec etiam
+				<lb/>redemptionem extimationis admittat, moneo igitur vos et hortor, quatenus
+				<lb/>sic diebus et noctibus studio curetis insistere ut, iuxta Catonis vestri
+				<lb/>sententiam, pro lucro sibi vestrum quilibet ponat diem quocumque laborat,
+				<lb/>et ego per id inducar et animer nequaquam a continuatione subventionis
+				<lb/>incepte disinere, sed indesinenter et ylariter, superne, non vestre,
+				<lb/>retributionis intuitu, vestris illam necessitatibus propinare.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Bartolomeo nepoti Stephanus.</head>
+			<p><lb/>Si ex litteris tuis possem elicere intellectum, responderem tibi non parce
+				<lb/>sed diffusius, ut rogasti. At quia misteria profunda, que, velut abyssus,
+				<lb/>multa meis capacia sensibus non existunt, eruptas, molestum, queso, non
+				<lb/>feras, si presens cedula succincta sit officio calami brevitate sulcata. Ad
+				<lb/>querimonias vero tuas, quas ex sensu cuiusdam vaticinationis expressisti,
+				<lb/>possem respondere breviloquus, quod fideliter me hactenus ad promotionem
+				<lb/>tui status erexi. Sed quantumvis verborum semina sparserim, quantumvis
+				<lb/>sata rigaverim, que, ut plene nosti, fructum verisimiliter promittebant,
+				<pb n="17"/>
+				<lb/>celestis tamen agricola, cuius est nunc plenas, nunc vacuas dare spicas, dare
+				<lb/>noluit incrementum. Illi ergo, non mihi, si iuste tamen fieri
+				<lb/>poterit, irascaris, sed cavendum fore suggero, dum durum tibi sit contra
+			<lb/>stimulum calcitrare.</p>
+		</div>
+		<pb n="18"/>
+		<div>
+			<head type="salutatio"><lb/>Bartholomeo Stephanus salutem et in doctrina proficere puerorum.</head>
+			<p><lb/>Cum probatio dilectionis in operis exhibitione consistat, excitans te
+				<lb/>exhortor et exhortans excito, quatenus sic cura profectum studii nepotulorum
+				<lb/>meorum vigilanter intendas et sollerter invigiles, ut ex ipsorum utilis
+				<lb/>et evidentis informationis eventu tam circa morum exercicium, quam
+				<lb/>doctrine me in ipsis et ipsos in me pure, non ficte, diligere comproberis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>… affini … affinis, id est Stephanus.</head>
+			<p><lb/>Ecce, pro quibusdam meis negotiis exequendis, mitto illuc … latorem
+				<lb/>presentium super hiis, ex parte mea vestrum auxilium petiturum. Propter
+				<lb/>quod vos affectuose deposco, quatenus eidem super omnibus, que vobis ex
+				<lb/>parte mea verbotenus referet, credentes indubitabiliter tanquam mihi, ea
+				<lb/>contemplatione mei sicut expediet consumetis, ut affinitatem vestram in
+			<lb/>hiis saltem primitiis experiat fructuosam.</p>
+		</div>
+		<pb n="20"/>
+		<div>
+			<head type="salutatio"><lb/>Eidem electo respondet idem S. camerarius.</head>
+			<p><lb/>Cum operis perquam laudati vocalis oblatio conversa fuerit offerentis
+				<lb/>manuali munificentia in realem, et recipientis oculus mentis et corporis auctoris
+				<lb/>semitas intentionis incognitas, caligando saltem, inspexerit, temptata
+				<lb/>rudis paupertas ingenii ad conditiones appositas respondebit, ignara presertim
+				<lb/>de operis invisi, licet fecunde vene, sublimibus evecti preconiis disserere
+				<lb/>qualitates. Mira tamen res apud me geritur, ut is de census inopia conqueratur,
+				<lb/>cuius inexhaustis referta gazis eraria superstagnant, et difficultatem
+				<lb/>ad operis scribendi copiam nanciscendam de scribarum oportunitate
+				<lb/>pretendat, cuius votis anxiis tota quasi plena scribis et phariseis curia
+				<lb/>Romana, quam incolit, ad membranam et calamum voracibus se hyatibus
+				<lb/>nedum ingerens, sed invitans, habunde poterit – nisi forsan congesti census
+			<lb/>cumuli plenitudo, que minui respuit, vitio contradicat avaritie – subvenire.</p>
+		</div>
+		<pb n="22"/>
+		<div>
+			<head type="salutatio"><lb/>Electo camerarius.</head>
+			<p><lb/>Precedentium laudum titulis et aliarum adiectione multiplici non indignum,
+				<lb/>cuius fuerat ad realis eventum paranimpha vocalis oblatio, Cypriani
+				<lb/>martiris opus eximium manu prompta, non desidi, mente pura, non
+				<lb/>ficta, et devota non minus quam avida cordis affectione recepi, grates
+				<lb/>copiosas ex altero et tributa glorie prerogantis ex reliquo, tanti comunicativa
+				<lb/>boni, non coacte sed sponte, largitati vestre prona cervice persolvens.
+				<lb/>Ante cuius operis missionem, si recipientis tantisper animus hesitavit, nec
+				<lb/>mirari debuit transmittentis caritativa sinceritas, nec hesitatio laudanda
+				<lb/>redargui receptoris. Solet enim plerumque rei desiderium et dilatio humana
+				<lb/>vota lacessere et in hesitationis excessum mentes impellere fervens desiderium
+				<lb/>possidendi. Lippis siquidem non linceis intellectus oculis opere
+				<lb/>transmissi dictaminis perlustrato, miratus sum valde sublimis stilum eloquii,
+				<lb/>actricis intuitionis sanctimoniam, moralitatis elegantiam, istructionis
+				<lb/>erudimentum, capitulorum ordinem, et dictionum tam insignem, tam
+				<lb/>politam et tam congruam contexturam. Nec minus admiror ubi tanti
+				<lb/>sudoris opus tantorum decursu temporum absque comunione marcuerit,
+				<lb/>ubi magnopere perpetuis annalibus commendandum latuerit, quin ad
+				<lb/>communem utilitatem studentium voce preconia fuerit ab ipsis sue compilationis
+				<lb/>initiis publicatum, ut profecto per hoc ex operis ipsius uberibus
+				<pb n="23"/>
+				<lb/>parvuli lac suxissent, et edissent in eius fertili campo messium panem solidum
+				<lb/>iam provecti. Revera si terrear, in hiis terreor, quod intellectus hebes
+				<lb/>ascendere nequeat, ignorantie cece prepediente caligine, ad intelligentiam
+				<lb/>operis tam sublimis. Hiis tamen perterritus, illius precipue fiducie sumo
+				<lb/>vires, quod scientie vestre radius luminosus, e mente mea ignorantie tenebris
+				<lb/>effugatis, ad aliqualis speculationis particularem viam parabit, et rectificabit,
+				<lb/>ducatu virtutis et luminis, ruditatis et cecitatis mee devium et
+				<lb/>ambulantem in tenebris intellectum. Sane conflictus intra me geritur:
+				<lb/>affectus ut scribendum opus aggrediar stat armatus; occupatio servitutis
+				<lb/>inermis – que servi profectus et operas interdicit, domini vero procax indicit
+				<lb/>– ne id fiat, libertatis emula, contradicit. Sic itaque, tacite mecum
+				<lb/>alternato certamine, occupationi misere conditionis ea lege cedit affectus,
+				<lb/>ut communicandum tandem scribentis affectibus opus ipsum inventi iam
+				<lb/>scribe manus expediat, totam vel partem promisse pro labore mercedis de
+				<lb/>crumena propria, iuxta vestre vocis arbitrium, receptura.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Eidem electo idem camerarius.</head>
+			<p><lb/>Optatum negotium totius amplectar conatibus, ne semen vipereum,
+				<lb/>redivivis insidiis, iterato contra miseros invalescat. Impedimentis, que fellea
+			<lb/>propinat intentio, antidotab pro viribus preparabo.</p>
+		</div>
+		<pb n="24"/>
+		<div>
+			<head type="salutatio"><lb/>Domino Beneventano archiepiscopo Stephanus.</head>
+			<p><lb/>Ad bonos pertinere mores arbitror dominos in sublimi positos servitorum
+				<lb/>et devotorum aliquotiens reminisci, eosque prosequi gratia quam
+				<lb/>meruisse cernuntur. Hec adduco suplicans et adducens supplico reverenter,
+				<lb/>quatenus non sic habitus vos circumveniat status vestri, ut a devoto
+				<lb/>vestro magistro Petro de Benevento, domini pape scriptore, quem tunc a
+				<lb/>fato dependens status non habitus quem habetis carum vobis effecerit et
+				<lb/>acceptum, cui etiam sicut et pluribus aliis plerumque terram promisistis
+				<lb/>et mare, sic vestram obliviscibilem memoriam abdicetis, quin ipsum
+				<lb/>beneficiorum vestrorum, que saltem in crumenam vestram ponere non
+				<lb/>potestis, participem faciatis. Silere non possum, sed cum venie protestatione
+				<lb/>vos alloquor: quoniam omnibus hoc vitium est, ut honoris apicem
+				<lb/>non adepti promissionis verbis ampullose sint dapsiles, iam adepti et sibi
+				<lb/>et aliis sint tenaces, utinam tales, ut talionem reciperent, cursum senilem
+			<lb/>retrogradum sustinerent.</p>
+		</div>
+		<pb n="25"/>
+		<div>
+			<head type="salutatio"><lb/>… archiepiscopo Cantuariensi Hugo cardinalis, per Stephanum.</head>
+				<p><lb/>Invective redargutionis aculeis transmisse nobis novissime pagine vestre
+				<lb/>series, quam honore condigno recipimus, amaricavit et pupugit mentem
+				<lb/>nostram. Nec mirum sane. Ipsa namque sagictis armata, quas nunquam
+				<lb/>meruisse credidimus, ut innocentem nocenter infigeret emissa de pharetra
+				<lb/>vestre maturitatis accedens, postes nostri domicilii introivit, que
+				<lb/>metaphoris obiurgationis occulte et tacite quodammodo questionis non
+				<lb/>segniter communita, licet nos hactenus, per familiaris conversationis
+				<lb/>experientiam, amatores fuisse iusticie fateatur, nunc tamen a concepto
+				<lb/>iam dudum laudabilis opinionis spiritu de scribentis actibus minus iuste
+				<lb/>resiliens asseverat ab ipsius amore iusticie nos aversos, pro eo quod, sicut
+				<lb/>in predicta vestra pagina continetur, minoribus ad quosdam de maioribus
+				<lb/>Anglie destinatis, intellexisse vos dicitis, causam … electi, a vobis – ut
+				<lb/>asseritis – exigente iusticia reprobatam, nitimur promovere. Et quia eundem
+				<lb/>electum nostrum, ut scribitis, fecimus commensalem, miranda siquidem,
+				<lb/>bone pater, et stupenda conscribitis, de quibus conscientie nulla nos
+				<lb/>nota redarguit nec probabilis stimulus veritatis impugnat. Nam posito
+				<lb/>quod electum prefatum in sua iusticia foveremus, respondite, si placet,
+				<lb/>quam vobis propter hoc faceremus iniuriam vel gravamen. Etsi electum
+				<lb/>eundem interdum, sicut et alios nostre nationis clericos in Romana curia
+				<pb n="26"/>
+				<lb/>commorantes, ad mensam nostram invitamus previa caritate, numquid
+				<lb/>per hoc idem electus noster reputari debeat commensalis? Vel posito quod
+				<lb/>per cotidiane familiaritatis accessum huiusmodi commensalitas ageretur,
+				<lb/>in quo vestra per hoc iusticia lederetur? Numquid nos, reverende pater,
+				<lb/>iusticiam vestram offendimus in hac parte? Vel numquid aut tante temeritatis,
+				<lb/>aut tante potentie fore nos creditis, ut possimus aut velimus in
+				<lb/>Romana curia iura pervertere? Porro, pater, etsi esset talis in nobis potentia,
+				<lb/>temeritas non adesset! Unde igitur tanti constantia presulis, unde
+				<lb/>tanti primatis et patris auctoritas sic subito ad relatus ambiguos, immo
+				<lb/>malivolos, potuere pervinci, ut de antiquo vestro benivolo et amico talia
+				<lb/>crederetis, vel sub dissimulatione credulitatis talem nobis faceret vestra
+				<lb/>circumspecta sagacitas invectivam ut vestem apparere nuptialem invitationis
+				<lb/>nostre sollempniis putaretis? Certe si possibilitas voluntatis
+				<lb/>promptitudini responderet, libenter vestem huiusmodi vestiremus, ne
+				<lb/>propter defectum vestis huiusmodi, Deo dante, de summi patrisfamilias,
+				<lb/>cum veritas nos liberet ab obiectis, palatio expellemur? Prodeant, quesumus,
+				<lb/>bone pastor, in publicum falsitatis huiusmodi relatores, prodeant littere
+				<lb/>super talibus per nos misse. Sicque veritas in talibus apparebit, cum
+				<lb/>non omni spiritui sit credendum, sed legitimis probationibus iudicandum.
+				<lb/>Absit quoque ut nos ea que contra vos dicuntur in curia crederemus,
+				<lb/>nisi ea conspiceremus legitime comprobata. Scitis enim quod cum alios
+				<lb/>alii dampnent obloquiis et lacerent detractionum dentibus venenosis
+				<lb/>nemo sine crimine vivit. Rogamus igitur paternitatem vestram attente, ut
+				<lb/>decetero de nobis aliqua sinistra vestra credere nolit auctoritas, nisi ea
+				<lb/>conspexerit legitimis amminiculis comprobata, cum intentionis nostre
+				<lb/>semper extiterit et existat illa peragere iugiter, que nostri honoris et fame
+				<lb/>continuum pro nostris viribus respiciant incrementum, si tamen vobis
+				<lb/>placuerit nobis uti et de actibus nostris sapere, quod saltem veritatis, que
+			<lb/>non querit angulos, puritas suadebit.</p>
+		</div>
+		<pb n="29"/>
+		<div>
+			<head type="salutatio"><lb/>Collegium cappellanorum domini Hugonis cardinalis … concappellano
+			<lb/>eorum, per Stephanum de Sancto Georgio, camerarium ipius cardinalis.</head>
+			<p><lb/>Triformis conflictus militantis Ecclesie – mundi, carnis et demonis – ad
+				<lb/>triumphantis Ecclesie gestiens pervenire consortium, adventus quatruplicis
+				<lb/>verbi Dei, ex illa de qua fuerat virgine prophetatum «ecce virgo concipiet
+				<lb/>et pariet filium», a tota trinitate communiter incarnati – de sinu videlicet
+				<lb/>patris in mundum, de triclinio trinitatis in animum, de solio equitatis ad
+				<lb/>particulare anime corporisque divortium et ad universale de maiestatis
+				<lb/>throno iudicium – celebrat devote solennia. Inter que illa presertim exclamatoria
+				<lb/>vaticinia prophetarum misteriose proclamant, que, mistice facientia
+				<lb/>de singulis adventibus mentionem, statuit in augmentum virtutis et
+				<lb/>gratie mater ecclesia super canticum illud virgineum iubileis hoc tempore
+				<lb/>vocibus concinenda. Que siquidem in cordis et vocis serena sonoritate cantata,
+				<lb/>preter spiritualis gratie dona, que tribuunt, propinant utique cum aromaticis
+				<lb/>speciebus genimina grece vitis et nectaris, que, fecundis exhausta
+				<lb/>calicibus, mentes et corda letificant, ac linguas disertas faciunt potatorum.
+				<lb/>Cupientes igitur fructus exclamationum huiusmodi, tam spiritualis, quam
+				<lb/>etiam corporalis, ut ipsius sit nobis possessio communicata iocundior, una
+				<lb/>nobiscum participio vos gaudere, cras die sabbati nos hylariter ad nostras
+				<lb/>vesperas invitamus, ut antiphonam illam: «O oriens splendor lucis eterne»,
+				<lb/>excelse vocis organis decantantes, laxatis sodalium cantorum pre
+				<lb/>cantu spiritibus in erogatione pigmentaria specierum et liquoris exhibitione
+			<lb/>greci simul atque nectarei festiva noctis illius initia peragatis.</p>
+		</div>
+		<pb n="30"/>
+		<div>
+			<head><lb/>Cedula, per Stephanum.</head>
+			<p><lb/>Ad hec reverende paternitati vestre ad gratiarum uberes actiones assurgimus,
+				<lb/>flexis genibus inclinantes, ex eo quod placitum extitit tanto patri,
+				<lb/>tantique primatis votis ultroneum, de cappellanis humilitatis nostre
+				<lb/>memoriam agere et de ipsorum status continentia cogitare.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>… archiepiscopo … Hugo cardinalis, per Stephanum.</head>
+			<p><lb/>Quia honoris vestri veluti proprii cupimus incrementum, ad noticiam
+				<lb/>vestram duximus deducendum, quod per quorundam, de quibus vos forte
+				<lb/>confiditis, malignitatis astutiam, qui proprie possunt cornupete appellari,
+				<lb/>et quos ad vestra gerenda officia deputastis, statui vestro, prius quam
+				<lb/>dici valeat, in Romana curia derogatur. Asseritur enim quod vos, ad ipsorum
+				<lb/>cornupetorum suggestionem, de spoliis subditorum vobis vivere
+				<lb/>cupitis clericorum, propter quod graves contra vos in Romana curia querimonie
+				<pb n="31"/>
+				<lb/>proponuntur. Sicque veremur ne, propter huiusmodi que deferuntur
+				<lb/>gravamina, vester ad eandem curiam procuretur adventus, ut ibidem
+				<lb/>finire faciant in angustiis cordis et laboribus corporis dies vestros. Cum
+				<lb/>igitur, per Dei gratiam, satis unde honorifice et splendide vivere poteritis,
+				<lb/>de proprio habeatis, paternitati vestre consulimus bona fide, quatenus
+				<lb/>super predictis, quod melius honori vestro expedire videritis, salubre
+				<lb/>remedium apponatis. Scitis enim quod non est censendus incolumis neque
+				<lb/>sanus, cui latera sunt debilia seu infirma. Et quia etiam intelleximus quod
+				<lb/>predicti cornupete nos in nostris negotiis, que habemus in partibus ipsis,
+				<lb/>infestare nituntur, sciant ipsi quod, nisi a talibus resipiscant, cornua eis,
+				<lb/>per que improvide feriunt, procurabimus amoveri.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... episcopis Hugo cardinalis, per Stephanum.</head>
+			<p><lb/>Rem honestam et victoriosam apud Dominum agere credimus et tunc
+				<lb/>opus impendere pietatis, cum illis personis favoris nostri dexteram aperimus,
+				<lb/>que hospitalitatis cultrices existunt et, ut egentibus erogent, ab
+				<lb/>habundantibus suffragia mendicata conquirunt, ut pietatis opus exerceant,
+				<lb/>pie petunt et caritative postulant, ut caritatis opera postulantibus largiantur.
+				<lb/>Cum igitur … fratres, fidelium compassivis suffragiis, quibus hec
+				<lb/>opera comendatione profecto dignissima, quorum exercitio se dedere, continuare
+				<lb/>valeant et huiusmodi relevare pressuras, quamplurimum indigere
+			<lb/>noscantur, caritatem vestram etc.</p>
+		</div>
+		<pb n="32"/>
+		<div>
+			<head type="salutatio"><lb/>Venerabili in Christo patri … etc. Hugo Cardinalis, per Stephanum.</head>
+			<p><lb/>Etsi familiaris amicitie vinculum nondum in unum coniunxerit mentes
+				<lb/>nostras, quod firmam alteri de altero spem reserandi vota mentalia stabiliret,
+				<lb/>ex illius tamen communis amicitie lege, quam christiana caritas commensurat,
+				<lb/>novellam de benivolentia vestra, velut e novo puteo aquam
+				<lb/>novam, fiduciam haurientes, pulsamus vos precibus, quasi contractus amicitie
+				<lb/>longeve precesserit confidenter, qui profecto pulsari nequaquam versa
+				<lb/>vice renuimus, sed passive pulsationis ictus a vobis cum aperiendi prompto
+				<lb/>proposito prestolamur. Eapropter paternitatem vestram ex intimo cordis
+				<lb/>affectu requirimus et rogamus, quatenus dilectum cappellanum nostrum
+				<lb/>… exhibitorem presentium, virum utique bone vite et conversationis
+				<lb/>honeste, qui sub nostre ruditatis magisterio dudum incepit sufficienter in
+				<lb/>artibus et decenter, habentes, si placet, nostri amoris intuitu, favoris gratia
+				<lb/>commendatum et propriam nostram curialiter honorantes in sua, eidem
+				<lb/>velitis, quinimmo nobis in ipso, contemplatione nostri, de aliqua prebenda
+				<lb/>in ecclesia vestra, quam cito ad id se facultas obtulerit, liberaliter providere.
+				<lb/>Nos enim per hoc vobis et ecclesie vestre ad omnia, que honoris ipsius
+			<lb/>et vestri proventum sapiant, teneri volumus tenaciter obligati.</p>
+		</div>
+		<pb n="33"/>
+		<div>
+			<head type="salutatio"><lb/>… comitisse Hugo cardinalis, per Stephanum.</head>
+			<p><lb/>De innumeris curialitatibus et honoribus, tam in exhibitione venationum
+				<lb/>pinguium, dum nostram in … ecclesia residentiam faceremus, quam
+				<lb/>in aliis caris rebus per liberalitatem vestram retroactis temporibus nobis
+				<lb/>factis ad gratiarum vobis assurgimus uberes actiones. Per hec igitur
+				<lb/>cupientes bonitati vestre per alicuius retributionis eventum recensita
+				<lb/>memoria respondere, beneplacitis vestris in Domino, tam libenter, quam
+				<lb/>ylariter offerimus nos et nostra, rogantes ut pro vobis et vestris vos fiducialiter
+				<lb/>in hiis que grata vobis fuerint requiratis. Nam paratos nos invenietis
+				<lb/>et promptos ad omnia, que per evidentiam operis vestris affectibus
+				<lb/>sint accepta. Rescribatis nobis, si placet, quesumus, continentiam status
+				<lb/>vestri, quem prosperum et iocundum audire iugiter affectamus.
+			<lb/> </p>
+		</div>
+		<div>
+			<head><lb/>Littere de cappellania, per Stephanum.</head>
+			<p><lb/>Hugo cardinalis … cappellano nostro etc. Meritis tue probitatis, de qua
+				<lb/>nobis laudabile testimonium perhibetur, inducti, contemplatione quoque
+				<lb/>Scocti germani tui, pro te nobis humiliter supplicantis, volentes gratiam
+				<lb/>tibi facere specialem, te in cappellanum et familiarem nostrum duximus
+				<lb/>admittendum, te aliorum cappellanorum et familiarium nostrorum consortiis
+			<lb/>de speciali gratia aggregantes. In cuius rei testimonium etc.</p>
+		</div>
+		<pb n="34"/>
+		<div>
+			<head><lb/>Super eodem, per Stephanum.</head>
+			<p><lb/>Hugo cardinalis … cappellano nostro etc. Tue probitatis meritis, que te
+				<lb/>nobis per familiaris conversationis experientiam gratum reddunt, inducti,
+				<lb/>et per hoc tuam personam honorare volentes, te in cappellanum et familiarem
+				<lb/>nostrum de speciali gratia duximus admittendum, te aliorum cappellanorum
+				<lb/>et familiarium nostrorum consortiis, ut per hoc de virtute in
+			<lb/>virtutem proficere valeas, aggregantes.</p>
+		</div>
+		<pb n="36"/>
+		<div>
+			<head><lb/>Forma litterarum de commissione spiritualis et temporalis administrationis
+			<lb/>… ecclesie. Per Stephanum.</head>
+			<p><lb/>Hugo cardinalis … canonico. Inter cetera, que cotidie sollicitant mentem
+				<lb/>nostram, id nimirum existit precipuum, ut animarum gubernatio,
+				<lb/>maxime quarum cura nobis imminet, salutaribus proficiat incrementis. Ad
+				<lb/>quod auctore Domino salubriter adimplendum, cum impresentiarum
+				<lb/>nequeamus in urbe comode nostram presentiam exhibere, ad personam
+				<lb/>vestram fidedignorum testimonia nostre mentis oculos direxerunt. Propter
+				<lb/>quod, de circumspectione vestra plenam in domino fiduciam obtinentes,
+				<lb/>curam et amministrationem, tam in spiritualibus, quam in temporalibus
+				<lb/>… ecclesie nostre etc., ut ipsi pareant vestris salutaribus monitis et
+				<lb/>mandatis etc.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Sociis suis clericis guardarobe regie Stephanus salutem.</head>
+			<p><lb/>Gloria in excelsis Deo, pax in terra benivolis, triumphus Anglis,
+				<lb/>Odwardo regi victoria, honor ecclesie, christiane fidei iubilus, confusio
+				<pb n="37"/>
+				<lb/>emulis, consternatio invidis et Wallensibus sit exterminium sempiternum.
+				<lb/>Etenim sicut die veneris XXII ianuarii proximo preteriti letabundus venit
+				<lb/>rumor ad curiam, ille serpens antiquus, proditionis pater, rebellionis alumpnus,
+				<lb/>iniquitatis filius, seditionis inventor, ingratitudinis fautor, periurii
+				<lb/>reus et caput omnis malitie, quondam princeps Wallie Lewolinus penam
+				<lb/>quam multis retroactis temporibus iuste meruerat, in campestri victus
+				<lb/>agone, iam subiit, et, qui pridem absque capitis diminutione stare nescierat,
+				<lb/>in improbum sensum datus et contra dominum suum, qui pie sibi
+				<lb/>dudum vitam donaverat, rebellionis iterate calcaneum erigens superbus,
+				<lb/>eliditur et volatilibus celi et bestiis terre fidelis militis mucronis officio,
+				<lb/>christiane sepulture latibulo prorsus indignum, deiectum humo relinquitur
+				<lb/>acephalum corpus eius ac eidem regi catholico, cuius gressus dirigit
+				<lb/>Rex celestis, proditoris eiusdem caput nequissimum, in signum finalis
+				<lb/>exterminii versipellium et proditorum Walensium, legatione victoriosa
+				<lb/>fidelium presentatur. Vivat igitur, vivat, regnet, vincat et imperet rex
+				<lb/>noster invictissimus Edwardus, vivant et dimicent generosi commilitones
+				<lb/>eius et strenui bellatores, qui potenter auferentes obprobrium gentis
+				<lb/>sue, hostem quasi domesticum, quo nulla pestis efficacior ad nocendum
+				<lb/>existit, Anglice pacis emulum, turbatorem tranquillitatis et status pacifici
+				<lb/>subversorem, victorioso certamine peremerunt. Mira siquidem licet
+				<lb/>iusta res agitur, ut, sicut comuniter fertur, miles cui est cognomen extraneus,
+				<lb/>sed qui domesticus est ex fide, extraneum re per infidelitatis errorem,
+			<lb/>rebellem et proditorem capite puniverit Lewolinum.</p>
+		</div>
+		<pb n="38"/>
+		<div>
+			<head type="salutatio"><lb/>Eisdem clericis idem Stephanus etc.</head>
+			<p><lb/>Qualiter egregii principes, domini Karolus Sycilie et Petrus Aragonie
+				<lb/>reges illustres, in terra Vasconie convenire et in planitie Burdegalensi,
+				<lb/>kalendis videlicet iunii proximo futuri, ipsorum regum quolibet se centesimo
+				<lb/>milite particulare certamen inire simulque confligere iure iurando
+				<lb/>firmaverant, ad vestram iam credo notitiam fame relatione volatilis pervenisse.
+				<lb/>At quia vulgaris plerumque loquacitas terminos veritatis excedere ac
+				<lb/>aliter rem narrare, quam ordo facti se habeat, consuevit etc.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Regi Anglorum illustri Stephanus clericus.</head>
+			<pb n="39"/>
+			<p><lb/>Ex absolutione sententie in prefatum dominum Symonem promulgate
+				<lb/>possent multa inconvenientia et pericula provenire. Nam cum magna pars
+				<lb/>hominum Regni vestri, tam nobilium, quam popularium, tam religiosorum
+				<lb/>quam secularium, falsa credulitate et impia pietate reputet eum sanctum,
+				<lb/>reputaret ipsum post munus absolutionis exhibite sanctiorem, et si
+				<lb/>corpus eius sepeliretur in cimiterio benedicto maior pars hominum dicti
+				<lb/>regni ad eius liberius conflueret sepulcrum, adoraret ut martirem, revereretur
+				<lb/>ut sanctum et mortem eius simulate humanitatis et adulterine compassionis
+				<lb/>officio reploraret; per hoc autem filii sui canonizationem eius
+				<lb/>peterent; et si forsan de ipso miracula falso aliqua probarentur, habentibus
+				<lb/>se ut nunc cursu favoris et temporis qualitate, de facili fortassis super hoc
+				<lb/>apostolica sedes, que per false probationis figmenta falli consuevit interdum,
+				<lb/>votis annueret filiorum. Et sic novissimus error, priore deterior,
+				<lb/>haberetur. Possent etiam post hoc iidem filii hereditatem sibi vendicare
+				<lb/>paternam et multa alia machinari, que, quod absit, honoris regii saperent
+				<lb/>lesionem. Unde hiis et aliis, que plenius investigare poterit regia celsitudo,
+				<lb/>prudenter et sollicite ponderatis, nominis sui si placet honorem non
+				<lb/>negligat et minima non contempnat, ubi maxime scintilla modica in
+				<lb/>magnam excrescere flammam et arduus quoque currus ex lapilli parvi
+			<lb/>possent perversione subverti.</p>
+		</div>
+		<pb n="40"/>
+		<div>
+			<head type="salutatio"><lb/>Laudes facte de domino Odduardo rege Anglie per Stephanum de Sancto
+			<lb/>Georgio.</head>
+			<p><lb/>Inter magnificos et preclaros alumpnos, quos pregnantis nature peperit
+				<lb/>uterus et mamma lactavit, in unum profecto scilicet excellentissimum
+				<lb/>principem dominum Odduardum Anglie regem illustrem graciarum suarum
+				<lb/>dona et diviciarum suarum dotes natura mater specialiori quadam
+				<lb/>opulentia dinoscitur adunasse, ut sicut suorum splendore natalium altique
+				<lb/>sanguinis generositate prepollet, sic ex omni parte beatus et hinc inde
+				<lb/>dotatus in felicitate muneribus sceptro ac dyademate non indignus, plenus
+				<lb/>fastigiis potentiaque suffultus, strenuitate preclarus, claritate sublimis,
+				<lb/>sublimitate flexibilis vivat et regnet rex ipse cum regibus gloriosus. Cuius
+				<lb/>nempe fama concelebris tantam iam redolet suavitatem odoris, ut in
+				<lb/>omnem terram exiverit sonus eius et intonuerit longe lateque mirifice
+				<lb/>nomen suum in terminos orbis terre. Quis ergo possit amplo famine prepotens
+				<lb/>eius ample preconia laudis exprimere cuius ab ipsis nature cunabulis
+				<lb/>gesta conspicua memorialibus sunt comendanda perpetuis et cuius etate
+				<lb/>crescente cum tempore facta magnifica calamo sunt exaranda codicibus,
+				<lb/>sed celte potius sculpenda silicibus ad memoriam futurorum? Quis,
+				<lb/>inquam, possit explicare sermonibus graciarum uberes dotes eius, qui statura
+				<lb/>decorus placet aspectibus speciosus forma pre filiis hominum desideratur
+				<lb/>a gentibus, qui trahit effluentia largitatis ut adamas, et sic apparet in
+				<lb/>oculis omnium graciosus ut favorem quasi possideat omnis carnis? Porro
+				<lb/>lingue deficiunt, ora succumbunt, labia tremefiunt et facundia subticet
+				<lb/>tulliana. Hic est enim de quo scriptum est: «aquila grandis magnarum alarum,
+				<lb/>longo membrorum ductu, plena plumis et varietate» decora. Et hic
+				<pb n="41"/>
+				<lb/>est cuius emissa de pharetra nunquam rediit sagitta retrorsum, cuiusque
+				<lb/>gladius eductus ut perderet non est reversus inanis, dum sic incessanter
+				<lb/>strenue dimicarit in hostes ut magnificus semper in bellicis actibus extiterit
+				<lb/>triumphator. Surgite igitur, o quirites et iuvenes bellicosi, explicate
+				<lb/>vexilla, clangite tubis et diem festum agite tanto regi, qui viriliter sumens
+				<lb/>ab adolescentia sua scutum et ad viriles annos usque perveniens, indefesse
+				<lb/>pugnavit et strenue pro populo christiano. Si quis ergo Martis adiscere prelia
+				<lb/>concupiscit, festinus hunc regem adeat, qui docet manus imperitas ad
+				<lb/>prelium et humeros pulchre parat ad sarcinas ponderum bellicorum.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Scribit rex Anglie … priori generali fratrum predicatorum, quod corrigat
+				<lb/>quendam priorem ordinis sui super hiis que littera continet, per
+			<lb/>Stephanum.</head>
+			<p><lb/>Dum conscientie nostre revolvimus scrutinio debite meditationis archana
+				<lb/>multa, nobis et progenitoribus nostris, ex zelo dilectionis, quam ad
+				<lb/>ordinem vestrum habuisse gaudemus et in futurum habere continuatione
+				<lb/>grata temporis nos delectat, salutis comoda provenisse fatemur. Etsi veritas
+				<pb n="42"/>
+				<lb/>in nube non lateat, credimus, ut non improperando sed suaviter rememorando
+				<lb/>loquamur, quod, per nostre ac progenitorum ipsorum sincere
+				<lb/>dilectionis et caritatis affectum, vestre religionis ordo continua incrementa
+				<lb/>suscepit, dum nos et ipsos confratres vestri, religionis eiusdem cultores,
+				<lb/>pro nostro et ipsorum posse, ad provectum et commodum ordinis vestri
+				<lb/>predicti invenere semper pios, propitios, favorabiles et benignos. Et quamquam
+				<lb/>sit affectibus nostris gratum, et zeli fervor ad id sua virtute nos excitet
+				<lb/>a cultu devotionis huius non recedere nec tepere, sed uberiora potius ad
+				<lb/>productionem fructuum placidorum exhibere liberaliter nutrimenta, non
+				<lb/>tamen possumus, si secundum carnem vivitur, non moveri, cum ab hiis
+				<lb/>odium pro dilectione recipimus et maledictionem pro benedictionibus
+				<lb/>sustinemus, quos semper caritative tractare studuimus, et eorum sategimus
+				<lb/>pro viribus comoda procurare. Sane ut ad littere compendia redeamus,
+				<lb/>discretionem vestram volumus non latere, quod hiis diebus frater … de
+				<lb/>ordine vestro, prior de …, qua occasione nescimus, in plures de gente
+				<lb/>nostra Vasconie turbationis virus effundens, commovit populum et multos
+				<lb/>fecit suo errore devio a rectitudine nostre fidei deviare, multaque in terra
+				<lb/>nostra scandala et in agro pacis zizania, quod cum dolore cordis referimus,
+				<lb/>seminavit, et quicquid malignitatis potuit in honoris nostri detrimentum
+				<lb/>non est veritus, per iniquitatis exercitium, operari, sicut vobis veridice
+				<lb/>referre poterit … archiepiscopus, cui super hoc indubitatam fidem adhibere
+				<lb/>velitis, oraculo vive vocis. Consideret igitur vestre caritatis integritas
+				<lb/>si religionis sancte cultores debitum divine servitutis exerceant, dum illis
+				<lb/>dissidiis incaute se implicant, ex quibus odia, lites et iurgia multa proveniunt
+				<lb/>et animarum multiplicia detrimenta nascuntur, et si Patris almi
+				<lb/>dominici sectatores dominica mandata reverenter adimpleant, dum pacem
+				<lb/>suffocant inter spinas et a subditis crimen lese maiestatis committi procurant
+				<lb/>in dominos, qui predicare deberent tantummodo verbum Dei ac Illius
+				<lb/>correctionis penam. In predictum priorem exercere velitis, iuxta vestri
+				<lb/>ordinis disciplinam, quod pena eius, in metus multorum transiens, a perpetratione
+				<lb/>similium coherceat auditores, et ex opere pateat quantum eiusdem
+				<lb/>prioris incauta presumptio vestris sensibus sit infesta, nosve proinde
+				<lb/>fortius animemur in devotionis antique fervore, quam habemus ad predictum
+			<lb/>vestrum ordinem remanere.</p>
+		</div>
+		<pb n="45"/>
+		<div>
+			<head><lb/>Responsiva dicti regis Anglie ad litteras suprascriptas, per
+			<lb/>Stephanum.</head>
+			<p><lb/>Nuntiatus nobis per litteras vestras, quas honorificentia condigna recepimus,
+				<lb/>rumor de creatione novorum cardinalium letabundus mentem
+				<lb/>nostram in iubilum exultationis erexit et presagio vallavit fortis fiducie
+				<lb/>latus nostrum, ex ipsius insinuatione percepto, quod aliqui cardinalium
+				<lb/>predictorum specialis amicitie federe, aliqui vero unione vobis sanguinis,
+				<lb/>coniunguntur. Fortitudinem namque vestram vestreque domus propriam
+				<lb/>reputamus et promotionem vestrorum, qui gubernaculo vestro reguntur
+				<lb/>vestreque ratis velis amplissimis provehuntur, carissimam nobis atque dulcissimam,
+				<lb/>in sinceritatis azimis amplexamur, fiducie fertilis ubertate subvecti,
+				<lb/>quod, sicut scripsistis, vos, talibus stipati confratribus, talibus amicis
+				<lb/>et consanguineis communiti, efficacius posse creditis nostra beneplacita
+				<lb/>promovere. Concedat, oramus, Altissimus et illis, ut gubernatoris pariter
+				<lb/>et vectoris intendat arbitrio, gratitudinis imitande gratiam, et nobis
+				<lb/>corda eorum taliter moderandi, quod urbi et orbi in fulcimentum Christiane
+				<lb/>fidei, sicut credulitas vestra tenere se asserit, et nos etiam tenemus
+				<lb/>et credimus, in promotione ipsorum, salubriter sit provisum, sicque nos
+				<lb/>possumus, ingruente necessitatis articulo, ad vos in ipsis et ad ipsos in
+				<lb/>vobis unanimiter vobiscum in domo Domini ambulantes recurrere confidenter
+				<pb n="46"/>
+				<lb/>et ad eos propterea, in hiis que ipsis grata fuerint, expandere benivolentie
+				<lb/>nostre sinum. Amicitiam vestram, quam, in significando predicta,
+				<lb/>patenter et curialiter ostendistis, plenis gratiarum actionibus prosequentes,
+				<lb/>et exultantes in Domino, quod statum vestrum salubrem accepimus,
+				<lb/>gratia divina favente, qui nostrum vobis, eadem gratia, ut optatis,
+				<lb/>iocundum et prosperum nuntiamus. Sane cum gratiarum relatione gratanter
+				<lb/>audivimus ea, que, occasione venerandi patris … archiepiscopi Eboracensis,
+				<lb/>seorsum nobis, per alias vestras litteras nostri zelatrices honoris et
+				<lb/>oppositi fugatrices, vestra sinceritas patefecit, et precamina pro ipso porrecta
+				<lb/>affectumque dilectionis, quam ad personam habetis ipsius, animadvertimus
+				<lb/>diligenter, gavisi non modicum, quod quem, ob merita sua, amavimus
+				<lb/>hactenus et amamus, amatis, et carus vobis existit, quem carum
+				<lb/>habuimus et habemus. Sed ex eo scire vos volumus ipsum futurum nostris
+				<lb/>oculis gratiorem, quod vobis fortiter eumdem cognovimus amicitie lege
+				<lb/>coniunctum vestraque benivolentia communitum. Verumtamen non ignorare
+				<lb/>debetis, quod antequam prefate vestre pro ipso directe littere terminos
+				<lb/>commisse sibi legationis attingerent, eidem satisfecisse curavimus
+				<lb/>super negotio quod scripsistis, ita quod se per hoc habere potuit et habet
+				<lb/>utique pro contento, pro quo nichilominus, contemplatione vestri, tam in
+				<lb/>pretacto negotio, quam in aliis suis oportunitatibus facere semper intendimus
+				<lb/>que Deo placeant, honori nostro congruant, grata vobis occurrant et
+				<lb/>satisfaciant votis eiusdem. Ceterum de adauctis vobis fortune donis in
+				<lb/>Regno nostro uberrimis gaudiis exultamus, utpote qui prosperitatem
+				<lb/>vestram et augmentum ipsius in spiritualibus et temporalibus affectamus,
+				<lb/>sumentes ex hoc efficax argumentum, quod deinceps, ex quodam gratitudinis
+				<lb/>debito, nedum ecclesiis, in quibus promoti estis, sed et toti regno
+				<lb/>eiusque principi ad omnem honorem et comodum eorumdem obnixius
+			<lb/>iam sitis astricti.</p>
+		</div>
+		<pb n="47"/>
+		<div>
+			<head type="salutatio"><lb/>Idem rex … cardinali, per Stephanum.</head>
+			<p><lb/>Vacante nuper … ecclesia, prior et conventus eiusdem … episcopum
+				<lb/>cancellarium nostrum in episcopum eiusdem ecclesie unanimiter et concorditer
+				<lb/>postularunt. Cumque idem episcopus, ante obitum felicis recordationis
+				<lb/>… quondam genitoris nostri regis Anglie illustris, tempore illius
+				<lb/>generalis turbationis, que totum fere regnum nostrum dampnabiliter conquassavit,
+				<lb/>velut columpna immobilis prestiterit fide firmus et devotione
+				<lb/>sincerus, nec se presumpserit a fidelitatis nostre cultu aliquorum impulsibus
+				<lb/>deici sive flecti, ac post obitum dicti genitoris nostri de virtute proficiens
+				<lb/>vel gradiens in virtutem in absentia nostra dictum regnum in tranquillitate
+				<lb/>rexerit et studio suo servarit in pace, affectaremus toto cordis
+				<lb/>affectu, tota anima, tota mente, ut dictus postulatus ad eandem transferretur
+				<lb/>ecclesiam, maxime quia in illa, que posita est quasi in umbilico regni
+				<lb/>nostri, nobis, ipsi regno et toti Anglicane ecclesie locum teneret insignem
+				<lb/>et multa eis per hoc tam in spiritualibus, quam in temporalibus comoda
+				<lb/>provenirent. Nos etiam securius ei, cum nos regnum contingeret egredi,
+				<lb/>regimen committeremus ipsius et nostrorum custodiam filiorum, sicque
+				<lb/>in ipso quiesceret spiritus noster, nec in absentia persone nostre procellas,
+				<lb/>quas constantia fidei sue sciret prudenter elidere ab experto, alicuius turbinis
+				<lb/>formidare possemus. Consideramus insuper, quod si dux fidei nostre
+				<lb/>eidem postulato non aperiret, quod absit, ianuam gratiarum, nobis exinde
+				<pb n="48"/>
+				<lb/>rubigo ignominie et eidem confusionis duplicate stigmata remanerent.
+				<lb/>Rogamus igitur paternitatem et benivolentiam vestram, quatenus premissa,
+				<lb/>si placet, attente considerationis acie advertentes, omnem viam et
+				<lb/>omnem modum amici regis contemplatione rogantis excogitare velitis, ut
+				<lb/>negotium postulationis eiusdem honorabilem exitum sortiatur, et ita, si
+				<lb/>placet, ut, si ad falsorum testimonia in alia postulatione dictus postulatus
+				<lb/>non absque nostri iniuria fuit repulsus, in ista saltem, ut non duplicetur
+				<lb/>iniuria, gratiam mereatur.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Summo pontifici rex Anglie, per Stephanum.</head>
+			<p><lb/>Quos gloriosa religio triumphantis ecclesie, que non fallitur
+				<lb/>neque fallit, post devictum consumatumque triforme certamen mundi, carnis et
+				<lb/>demonis, ad consortium supernorum civium ovanter admittit et glorianter
+				<lb/>honorat, decet nimirum et convenit, ut militantis quoque cura sollers
+				<lb/>Ecclesie prosequatur in terris honoribus, gaudiis excolat et laudibus veneretur,
+				<lb/>quatinus eorum suffragiis et patrociniis apud Deum, qui est gloriosus
+				<lb/>in sanctis suis et in sua maiestate terribilis, inter mundanos conflictus
+				<lb/>et turbines adiuvetur. Ex hoc siquidem inducitur et movetur animus
+				<lb/>noster ad sanctitatis vestre deferre notitiam, quod pie memorie R. Lincolinensis
+				<lb/>episcopus, vir utique in ergastulo adhuc corporis positus reverendus,
+				<lb/>meritis clare vite et claritate meritorum insignium clarus vixit et
+				<pb n="49"/>
+				<lb/>velut stella matutina in medio nebule et quasi lucerna non sub modio, sed
+				<lb/>supra candelabrum posita sparsit aliis lumen sapientie et doctrine, in
+				<lb/>domo Domini virtutum iubare corruscando, adeo quod in divini nominis
+				<lb/>confexione legitime certatur et contra mundum, carnem et demonem
+				<lb/>triumphans athleta non degener, tandem confexor inclitus et virtutum
+				<lb/>opifex pastorque bonus in populo cursum corruscantem miraculis feliciter
+				<lb/>consumavit, de peregrino civis effectus celicus et beatorum confexorum
+				<lb/>sanctis agminibus aggregatus. Hec de ipso agonista nobili Anglia mater
+				<lb/>tenet, hec pontificalis narrat auctoritas, hec memoria seniorum retinet, clerus
+				<lb/>indicat, miles meminit, testatur populus et omnis utriusque sexus etas,
+				<lb/>recenter quodammodo velut a patribus annuntiata filiis recordatur. Proinde
+				<lb/>dignum extimantes et congruum tam reverendum virum debere condignis
+				<lb/>in terris honoribus excoli, quem in celis cives sanctorum et domestici
+				<lb/>Dei honorant, immo ipse sanctorum Dominus, stola glorie redimitum,
+				<lb/>ad paradysi ianuam coronavit, Beatitudini vestre duximus humiliter supplicandum,
+				<lb/>quatenus iuxta formam, quam in talibus servare sacrosancta
+				<lb/>Romana consuevit Ecclesia, nuntiis, qui propter hoc personam vestre reverende
+				<lb/>paternitatis adeunt, benignam dignemini, si placet, audientiam
+				<lb/>impartiri, ut per promerite canonizationis eventum idem episcopus valeat
+				<lb/>per apostolicam sedem ascribi beatorum cathalogo confexorum, sicque ipse
+				<lb/>per hoc honoretur in terris et glorificetur altissimus in excelsis. Valeat et
+				<lb/>vigeat vita vestra per tempora longiora.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Idem rex Anglie domino Pape, per Stephanum.</head>
+			<pb n="50"/>
+			<p><lb/>Ad curam spectat sancte Romane ecclesie tales preficere viduatis ecclesiis
+				<lb/>antistites et pastores, qui nedum commissas sibi ecclesias bene regant,
+				<lb/>sed et universas et singulas diocesum ecclesiarum ipsarum personas tam
+				<lb/>humiles, quam sublimes in pace et benevolentia spirituali conservent.
+				<lb/>Hec, pater et domine reverende, ea ratione preloquimur cum humili porrectione
+				<lb/>rogaminum, ut, si forte, quod evenire nollemus, non contingeret
+				<lb/>… electum, vel propter defectum iuris, vel alterius impedimenti obicem,
+				<lb/>prefici in episcopum Wintonensem, qui magnam partem sue substantie
+				<lb/>etc., amicitia et benivolentia coniungatur, ut per hoc ipsi comiti et eidem
+				<lb/>ecclesie pacis tranquillitas preparetur et omnis materia inter ipsos dissensionis
+				<lb/>et scandali precidatur.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Domino pape rex Anglie, super ipsius creatione novella, per
+			<lb/>Stephanum.</head>
+			<p><lb/>Redemptor noster, in cuius ditione cuncta sunt posita, volens ex sue
+				<lb/>miserationis habundantia sacrosancte Romane et universali Ecclesie, sponse
+				<lb/>sue, effusione sui preciosi sanguinis rubricate, gemitibus, quos frequentis
+				<lb/>turbinis, in occasu summorum pontificum, miseranda calamitas attulit,
+				<lb/>finem imponere miseranter, ad summum hiis diebus gradum sacerdotii vos
+				<lb/>elegit et provexit ad apicem apostolice dignitatis, suum vos in terris vicarium
+				<pb n="51"/>
+				<lb/>secreta provisione constituens et alta consilii dispositione stabiliens
+				<lb/>apostolorum principis successorem. De quo tanto munere, tanto bono
+				<lb/>maiestati divine eo sollempnius agimus dies festos, eoque devotius gratiarum
+				<lb/>et laudum sibi cantica personamus, quo firmius credimus et speramus,
+				<lb/>temporibus vestris sacris, eiusdem Ecclesie cum grege dominico reparandas
+				<lb/>angustias et gemitus redimendos, quoque certius arbitramur et novimus
+				<lb/>totius orbis per vos et precipue Terre Sancte, quam idem redemptor apertura
+				<lb/>sui gloriosi lateris consecravit sedanda que imminent fore dissidia, et
+				<lb/>concordiam, que iam exilium patitur, restaurandam. Ex eo sumentes efficax
+				<lb/>argumentum, quod, qui hactenus in rumoribus constituti ab ipsis nature
+				<lb/>vestre cunabulis extitistis columpna fidei, patronus iustitie, honestatis speculum,
+				<lb/>auctor pacis et discordie reformator, futuri deinceps sitis virtutum
+				<lb/>tam insignium servatores, vocati nunc celestis provisione gratie in plenitudinem
+				<lb/>potestatis, ut sitis, sicut stella matutina in medio nebule et sicut
+				<lb/>sol in domo Domini fulgeatis, facti non absque misterio de filio pater
+				<lb/>patrum, de subdito dominus, de domino servus servorum Dei, et de servo
+				<lb/>vicarius Iesu Christi. Cupientes igitur eminentie vestre, sanctissime pater
+				<lb/>et domine, propriorum missionibus nuntiorum, que personaliter, propter
+				<lb/>locorum longam intercapedinem, non valemus tributa prone visitationis
+				<lb/>exolvere, … virum utique providum et discretum, virum probate fidei et
+				<lb/>virtutis experte et de cuius industria, per longe conversationis habitum,
+				<lb/>quam in curia recolende memorie domini patris nostri et nostra contraxit,
+				<lb/>plene confidimus, necnon et … ad sanctitatis vestre personam decrevimus
+				<lb/>transmittendos. Iterum vestre beatitudini supplicamus; augeat Dominus
+				<lb/>dies vestros, et protrahat feliciter terminum vite vestre.
+				<pb n="56"/>
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Sanctissimo in Christo patri … summo Pontifici sui humiles et devoti
+			<lb/>filii universi episcopati per Cantuariensem provinciam constituti etc.</head>
+			<p><lb/>Eterne Deus potentie, qui mundum perpetua ratione gubernat, humane
+				<lb/>nature fabricam videns et providens per abusum liberi arbitrii ruituram,
+				<lb/>dum par in parem imperium non haberet, presides ad eius regimen
+				<lb/>constituit et rectores, quorum nutibus et preceptis inferiores ceteri obedirent,
+				<pb n="57"/>
+				<lb/>quorumque iudiciis et censuris vita regulata cuiuslibet morum proficeret
+				<lb/>disciplinis. Sicque statuit duo luminaria supra terram, maius scilicet
+				<lb/>atque minus, ut in ipsis universalis humane compaginis consisteret
+				<lb/>fundamentum. In quibus pontificalis auctoritas et regalis potentia designantur:
+				<lb/>una videlicet qua spiritualia, et alia qua corporalia regerentur.
+				<lb/>Ad subsistentiam itaque machine spiritualis, utpote dignioris, beatum
+				<lb/>Petrum apostolorum principem, et in ipso pontifices successores, qui potestatis
+				<lb/>ligandi atque solvendi plenitudinem obtinerent, Summus Pontifex
+				<lb/>in eternum unigenitus Dei filius Iesus Christus, qui humano generi doctrinam
+				<lb/>tribuit salutarem, magistros esse voluit et pastores, alios sub ipsis
+				<lb/>antistites pia miseratione constituens, qui ad instar apostolorum eius, per
+				<lb/>universa mundi climata in partem sollicitudinis evocati, singuli singulis
+				<lb/>decretis sibi provinciis per exacte cooperationis ministerium presiderent
+				<lb/>ad corporalis vero compaginis firmamentum, cuius facilis est profecto
+				<lb/>disiunctio. Reges, principes et seculares potestates, Rex regum et Dominus
+				<lb/>dominantium idem ipse preesse voluit Iesus Christus, ut illi quidem
+				<lb/>in executione pontificalis officii spiritualibus vacando negotiis proficerent
+				<lb/>ad salutem, et hii salubriter in excellentia regie dignitatis et mundane
+				<lb/>potestatis officium corporalia gubernando rei publice gerenda negotia perversorum
+				<lb/>repressis maliciis adaugerent, et sic machina fieret utriusque figmenti
+				<lb/>stabilior, dum haberet quodlibet proprium servatorem. Ad huius
+				<lb/>autem stabilimenti fructum desiderabilem capescendum, tunc profecto
+				<lb/>facilius devenitur, cum et summus rector spiritualium et corporalium presides,
+				<lb/>ille zelo paterne dilectionis ad istos, et isti fervore filialis devotionis
+				<lb/>ad illum in executione suscepti regiminis per mutue cooperationis participium
+				<lb/>coniunguntur; tunc etiam sumit gustati fructus huius perventio
+				<lb/>incrementum, cum et hii, qui sub eodem rectore in partem sollicitudinis
+				<lb/>presidere noscuntur, regionum conditiones, subditorum mores et alia, quibus
+				<lb/>cura presidentis instruitur, per experientie longe studium non ignorant,
+				<lb/>ut sciant singulis viam monstrare salutis, et valeant pro qualitate personarum
+				<lb/>et temporum prebere subditis antidota sanitatum. Ex horum
+				<lb/>siquidem consideratione inducimur et monemur, ut, pro tranquillitate et
+				<pb n="58"/>
+				<lb/>prospero statu nostro et totius Ecclesie Anglicane, quam gravis admodum
+				<lb/>turbationis procella retroactis temporibus conquassavit, supplicum precum
+				<lb/>instantia vestre propitiationis auditorium propulsemus sperantes firmiter,
+				<lb/>ut inde nobis futuri presidii fructus proveniat quem optamus, unde
+				<lb/>fidei christiane dependet universalis cura regiminis et manat, velut a fonte
+				<lb/>rivulus, particularis auctoritas dignitatis. Cum itaque, vacante nuper sede
+				<lb/>… ecclesie, per translationem … archipresulis, nos considerantes, preterite
+				<lb/>turbationis dissidiis lacessiti, quod futurus sue translationis eventus,
+				<lb/>cuius persona multis gratiarum meritis et multiplicium virtutum titulis
+				<lb/>insignitur etc., et qui temporibus … murum se prebuerit firmitatis, Beatitudini
+				<lb/>vestre, omni devotione qua possumus, flexis genibus supplicamus,
+				<lb/>quatenus considerantes etc., et considerationis vestre aciem dirigentes
+				<lb/>nobis, dignemini exauditionis ianuam aperire, quos non privata, sed communis
+				<lb/>inducit utilitas.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Thesaurarius regis Anglie magistro B. de Neapoli, per Stephanum.</head>
+			<pb n="59"/>
+			<p><lb/>Ut verbis alludam, nunc scio vere et certus existo, quod hii, qui de
+				<lb/>diversis mundi climatibus curiam Romanam advenerint, archas vestras et
+				<lb/>loca vacua scrineorum sic replevere muneribus habundanter, quod ipsis
+				<lb/>omnino factis egenis et vobis, ex superhabundantia divitiarum vestrarum,
+				<lb/>usque ad tertium celum raptis, nulla subservit memoria de amicis, et de
+				<lb/>ipsis non aliter quam de tertii pedis carentia cogitatis. Certe, domine, tempore
+				<lb/>meo vidi quamplures eque sicut vos divitiis, in quibus habebant fiduciam,
+				<lb/>exaltatos, sed quia minores et pauperes habebant, per elationis
+				<lb/>vitium, in despectum, subito corruerunt. Consideret igitur amicus olim et,
+				<lb/>ex opum succrescentium ubertate, nunc dominus, quanta pena dignos suos
+				<lb/>reddat elatio faustuosa cultores, dum illos ipsi despiciunt, quibus eos
+				<lb/>rerum sufficientia temperata iungebat amicos quosque sibi reddit nature
+				<lb/>conditio coequales, et amicum visitet saltem litterulis, qui de prospera
+				<lb/>continentia status sui cum gaudio exultaret. Ceterum, quia scio vos prosperitatis
+				<lb/>regie avidum auditorem, notifico vobis ad gaudium, quod dominus
+				<lb/>meus Anglie rex illustris, cum domina regina consorte sua, grato per
+				<lb/>Dei gratiam fruitur beneficio corporee sospitatis, et ego cum eis, eadem
+				<lb/>gratia, sanus vivo, quod de vobis anxius audire peropto. Conservet vos
+			<lb/>dominus Deus et dyabolus non confundat.</p>
+		</div>
+		<pb n="60"/>
+		<div>
+			<head type="salutatio"><lb/>Illustri Regi Castelle, Stephanus devotum terre osculum ante pedes.</head>
+			<p><lb/>Inter alios Reges et principes orbis terre, quos unitas fidei orthodosse
+				<lb/>connectit quosque reddit celebris fame relatio gloriosos, fama vestra, rex
+				<pb n="61"/>
+				<lb/>inclite, dulci personans in auribus hominum melodia, magnificentiam
+				<lb/>vestram pullulat preroganter excellere, ut de aliis quibus latera vestra
+				<lb/>sunt predita taceatur, virtutis quatruplicis maiestate. Volat siquidem
+				<lb/>ipsa nec subticet quod prudentia, qua presentia, pulchre quis ordinat,
+				<lb/>futura previdet et preterita recordatur; fortitudo, qua prava in directa et
+				<lb/>vias aspera convertuntur in planas; iustitia, qua redditur unicuique ius
+				<lb/>suum; ac largitas, qua munifica dextera beneficia conferuntur, in vestri
+				<lb/>cordis armario sua tabernacula posuerunt. Satis est enim mundo notorium,
+				<lb/>immo iam in omnem terram sonus exivit, quod cuncta, que vos,
+				<lb/>princeps egregie, qui prudenter nostis per distinctionem temporum concordare
+				<lb/>scripturas, magnifice peregistis hucusque, decreta nunc agitis et
+				<lb/>agenda decernitis, sale prudentie sunt condita et condita sapienter, ac pre
+				<lb/>sue dignitatis titulo calamo sunt scribenda codicibus ad memoriam futurorum.
+				<lb/>Id autem universalis tenet opinio, quod velut athleta fortissimus
+				<lb/>contra perfidiam Agarenice feritatis pro fide catholica dimicantes et per
+				<lb/>fortitudinis robur excitantes potentie vestre vires Sarracenorum duritiam
+				<lb/>domuistis, et gladius vester qui vinci nusquam potuit, regna regnis adiciens
+				<lb/>potenter subditas sibi faciat barbaras nationes. Nec latet, inquam,
+				<lb/>angulos mundi huius, magnifice domine, immo est iam in auribus hominum
+				<lb/>divulgatum, quod equa lance iustitie subditorum vestrorum merita
+				<lb/>trutinans regia manus vestra et reddens unicuique iura sua, regit in iustitia
+				<lb/>populos, gubernat in pace subiectos. Et dum auctoritas vestra sacra ita
+				<lb/>magnum iudicat sicut parvum, non est apud eam acceptio muneris vel
+				<lb/>persone. Illud etiam non ignoratur, munifice domine, per cardines orbis
+				<lb/>terre quod largiflua manus vestra sic se petentibus aperit affluenter, ut
+				<lb/>quicquid a vobis iuste petitur vel honeste vel etiam flagitatur, ex dono
+				<lb/>sine quolibet improperio largiatur claudi nescia et inscia non donare. Quid
+				<pb n="62"/>
+				<lb/>plura? Nullus unquam a latere vestro vacuus, nullus inops, nullus gratia
+				<lb/>vestra non preditus dicitur recessisse. Felices igitur ego reputans ex premissis
+				<lb/>eos qui vestris gratis merentur astare conspectibus et ex hiis maiestatis
+				<lb/>vestre personam amabilem, brachiis fidei, devotionis et amoris
+				<lb/>amplexans, in ea parvitate qua dego, totum me servitiis vestris offero,
+				<lb/>totum me vestre potentie pedibus recomendo. Augeat vobis Dominus dies
+			<lb/>letos et protrahat feliciter terminum vite vestre. Amen.</p>
+			<p><lb/>Datum Laudi die quo a patre filioque procedens suos replevit apostolos
+				<lb/>charismatibus spiritus almus.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Epistula directa … archiepiscopo de liberatione regis Sicilie.</head>
+			<p><lb/>Improba malefide fortune proprietas, orbem volubili orbe versans, in
+				<lb/>vicissitudine mutabilitatis extollitur, et tunc se gloriatur esse magnificam,
+				<lb/>cum per inconstantiam rote, quam instabili dextra girat, federa pacis enervat,
+				<lb/>dissentiones inserit et inter presidentes ac subditos caritatem vulnerat,
+				<pb n="63"/>
+				<lb/>fidem ferit, soliaque regnorum evertens gloriosos ingloriosos efficit, liberos
+				<lb/>in carcerem redigit et, mutato rationis ordine, victoriosos plerumque
+				<lb/>victos et vincendos facit esse victores, virtuososque respuens et sceleratos
+				<lb/>admittens, exaltandos humiliat, et humiliandos exaltat. In hiis siquidem
+				<lb/>ceca suas fortuna vires exercet, in hiis inconstantiam suam probat et, post
+				<lb/>prosperitatis austum aliquamdiu degustate, amaritudinis fellee calices
+				<lb/>fecundos innectit, quo fit ut cum multis amaritunibus sit mundane felicitatis
+				<lb/>dulcedo respersa. Nemo est qui non ex aliqua parte cum status sui
+				<lb/>qualitate rixetur. Hec naufraga et errabunda fortuna non defert regibus,
+				<lb/>non viros illustres, non principes egregios reveretur. Nec verita quoque
+				<lb/>fuit recolende memorie dominum K., quondam regem Sicilie, genitorem
+				<lb/>nostrum inclitum, et nos etiam non obmisit, cum primo in genitorem
+				<lb/>ipsum spicula sue malignitatis immitteret, cum, post multa certamina
+				<lb/>gloriosa, que ipse Dei athleta fortissimus pro Ipsius ecclesia pertulit, impetens
+				<lb/>pacemque in regno Sicilie nepharie sibi turbans, corda subditorum sic
+				<lb/>commovit graviter contra ipsum, ut fierent hostes ex subditis et munitiones
+				<lb/>in formidinem verterentur. Et in nos postmodum terra marique adeo
+				<lb/>eadem fortuna desevit, quod, preter iacturas alias ignominiasque multiplices,
+				<lb/>contra rationem, opinionem hominum votaque fidelium, in manus
+				<lb/>hostiles tradidit et, sicut mundum latere non credimus, carceri nos
+				<lb/>addixit, qui longo iam curriculo temporis prolem regiam dire satis detinuit
+				<lb/>compeditam. Cumque non haberet in pharetra seva ipsa fortuna iacula
+				<lb/>seviora, que iaceret, tandem divina potentia, quoslibet fortunales eventus
+				<lb/>exuperans, nostri misericorditer recordata, corda hostium hucusque
+				<lb/>lapidea convertit in carnea, carcerem potenter aperuit et, interveniente
+				<lb/>magnifico et egregio principe … rege Anglorum illustri, consobrino
+				<lb/>nostro karissimo, ac aliis probis viris, nos, licet sub certis pactis et conditionibus
+				<lb/>inter nos et hostes habitis, die … clementer restituit libertati.
+				<lb/>Quod vobis ideo nuntiamus, ut, quos novimus tribulationum nostrarum
+				<lb/>participes tanti gaudii non relinquamus expertes et quos carcer si non corpore,
+				<lb/>virtute compassionis, tenuit una nobiscum compeditos in luctibus,
+				<pb n="64"/>
+				<lb/>libertas reddita faciat in corde et corpore gaudiis et letitia letabundos.
+				<lb/>Gaudeatis igitur et exultetis in Domino et Sibi, pro tanto munere tantoque
+				<lb/>bono, una cum ceteris benivolis et fidelibus nostris, gratiarum et laudum
+				<lb/>cantica personetis, pro firmo tenentes, quod tam personam vestram
+				<lb/>quam commissam vobis ecclesiam benivolentia condigna in sinceritatis
+				<lb/>azimis prosequi semper intendimus ac vobis, in vestris et vestrorum oportunitatibus,
+				<lb/>quantum bono modo poterimus, auctore Domino, qui nos de
+				<lb/>carcere servitutis eripuit, complacere.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... rex … fidelibus suis super coronatione sua, per Stephanum.</head>
+			<p><lb/>Divine provisionis acies, que in sui dispositione non fallitur neque fallit,
+				<lb/>ne genus humanum per abusum liberi arbitrii laberetur, dum par in
+				<lb/>parem imperium non haberet, ad ipsius regimen reges constituit et varias
+				<lb/>alias statuit dignitates. Huius siquidem immensa potentia stabilivit imperia
+				<lb/>regnaque firmavit, per hanc profecto reges regnant in soliis et potestas
+				<lb/>quelibet regitur super terram. Hec quoque nos licet immeritos et indignos,
+				<lb/>principibus regalis prefecture fastigiis adornatis sua voluntate nos aggregans,
+				<lb/>hereditatis paterne dignanter habere voluit successorem. Nam nobis,
+				<lb/>longo iam tempore infestis eventibus fatigatis, ad sinum recurrentibus
+				<pb n="65"/>
+				<lb/>sacrosancte Romane ecclesie, matris nostre, mater eadem in amplexus occurens
+				<lb/>diem nostre coronationis ad hunc diem dominicum, in festo videlicet
+				<lb/>pentecosten, duxit, deliberatione prehabita, ut hereditatis eiusdem successionem
+				<lb/>verus heres acciperet, statuendum. Quo siquidem die sponsus inclitus
+				<lb/>eiusdem ecclesie, Christi vicarius, cum festivitatis celebritate sollempnis,
+				<lb/>propriis manibus regali nos dyademate coronavit, quod ideo vobis ad
+				<lb/>gaudium nuntiamus, quia scimus firmiter vos exaltationem celsitudinis
+				<lb/>nostre vel nostri nominis desideranter appetere et auspiciorum nostrorum
+				<lb/>felicia ferventibus desideriis vel animis affectare. Datum …
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Super eodem, per Stephanum.</head>
+			<p><lb/>Rex regum et dominus dominantium Regis eterni filius, auferens sceptrum
+				<lb/>de Iuda et regalem transferens secundum ordinatissimam dispositionem
+				<lb/>temporum unctionem, Ecclesiam novelle plantationis erexit, in qua
+				<lb/>reges constituit et varias alias distribuit dignitates. Inter regales autem
+				<lb/>prosapias christianitatis caractere insignitas, ab ipsis fidei christiane primordiis,
+				<lb/>idem Altissimi filius stirpem regiam inclite domus Francie altis
+				<lb/>provexit radicibus et provectam gubernare non desinit in gloria et honore.
+				<lb/>Ex ipsa siquidem christianissima domo, velut virgula fumi ex aromatibus
+				<lb/>prodiens, dive recordationis dominus pater noster, regis filius et postmodum
+				<lb/>Dei et ecclesie athleta non degener, regni Sicilie dyademate per ipsam
+				<pb n="66"/>
+				<lb/>ecclesiam coronatus, regnum ipsum per actus et sudores bellicos conquisivit,
+				<lb/>cuius nos, licet tunc carceri mancipatos, in ultime sue voluntatis eulogio
+				<lb/>et heredem instituit et statuit successorem. Post nostre vero liberationis
+				<lb/>eventum, ad sinum sacrosancte Romane ecclesie, matris nostre, refugium
+				<lb/>habuimus et recursum, que nobis materne benignitatis habundantia
+				<lb/>suadente in amplexus occurrens, post multe suavitatis et dilectionis indicia
+				<lb/>nobis exhibita, diem nostre coronationis, ut hereditatem paterne successionis
+				<lb/>verus heres acciperet, ad hunc diem dominicum, in festo scilicet
+				<lb/>pentecosten, quo suos replevit apostolos karismatibus spiritus almus,
+				<lb/>duxit, deliberatione prehabita, statuendum. Quo videlicet die, nos eiusdem
+				<lb/>sponsus ecclesie Christi vicarius propriis manibus, cum festive sollempnitatis
+				<lb/>tripudiis et sollempnis festivitatis auspiciis, regni prefati dyademate
+				<lb/>coronavit. Quod vobis ad iocunditatem et gaudium nuntiamus, ut
+				<lb/>sitis honoris et letitie nostre participes, qui adversitatum et tribulationum
+				<lb/>nostrarum non fuistis extorres.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Idem rex populo Gaietano, per Stephanum.</head>
+			<p><lb/>Tanta est et esse debet subditorum fides ad dominos, quod, pro ipsa servanda,
+				<lb/>dampna rerum, pericula corporum et demum mortem subire formidare
+				<lb/>non debent. Huius procul dubio fidelitatis integritas difficiles res
+				<lb/>facit faciles, graves leves, et reputat gravia dampna lucra. Pro hac profecto
+				<lb/>tuenda inhumanis cibis innumeros narrat antiquitas et testantur moderna
+				<lb/>tempora usos esse, quinimmo et inhumanis ac humanis deficientibus
+				<pb n="67"/>
+				<lb/>postremo cibariis, ne in infidelitatis obprobrium dilabantur, hostium se
+				<lb/>ferris obiciunt et crudelis mortis exitio se exponunt, ut fama vivant et sic
+				<lb/>mortui vivere glorientur. Hec vos, viri fidelissimi, viri serenissimi, prudentissime
+				<lb/>meditantes contra perfidiam hostium, qui terra marique artum
+				<lb/>dedere, vos callide, viriliter et fidelissime vos gerentes, pro fide nostri
+				<lb/>nominis dampna rerum exterius, interius autem tribulationum caminos,
+				<lb/>quibus probari constantia fidelium convenit, fortissime tolerastis, et certi
+				<lb/>sumus quod, si foret expediens, et inhumanis vesci cibariis et morti crudelissime
+				<lb/>tradere vitam vestram, antequam fluctuaret in aliquo, vestra laudanda
+				<lb/>fidelitas non paveret. Ex hiis sane in compassionis animo tribulationum
+				<lb/>et dampnorum vestrorum facti participes, universitatem vestram
+				<lb/>firmiter scire volumus et tenere, quod sic alte, sic munifice vestra dampna,
+				<lb/>tam in arboribus et viridariis, quam in domibus et in quibuscumque rebus
+				<lb/>aliis existentia tam intus quam extra civitatem vestram Gaiete, vobis
+				<lb/>emendare proponimus et etiam resarcire.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... rex universis scolaribus Bononie, per Stephanum.</head>
+			<p><lb/>Cum amenitate cordis et iocunditate mentis conditiones insignes inclite
+				<lb/>civitatis Bononiae, que, velut humanarum legum mater et alumpna virtutum,
+				<lb/>sitientibus labiis scientie margaritam querentium, plenis uberibus
+				<lb/>sapientie nectar stillat, recensitas ex lectione vestre transmisse pagine
+			<lb/>nuper audivimus etc.</p>
+		</div>
+		<pb n="68"/>
+		<div>
+			<head type="salutatio"><lb/>... episcopo Suessano … papa, per Stephanum.</head>
+			<p><lb/>Firmam gerimus in mente fiduciam, quod preces nostras reverenter excipias
+				<lb/>et eas reverentius ad gratiam exauditionis admittas, illas maxime, quas
+				<lb/>pro illis personis porrigere nos contingit, quas nobis idemptitas sanguinis
+				<lb/>caras reddit et obsequiorum longa grataque prestatio facit acceptas. Cum
+				<lb/>igitur dilecto filio … nepoti nostro, qui diu nobis servivit fideliter et
+				<lb/>devote, cuiusque vitam, mores et actus laudabiles familiariter longo tempore
+				<lb/>sumus experti, de canonicatu et prebenda, per mortem quondam …,
+				<lb/>qui apud apostolicam sedem decessit, in Ecclesia tua vacantibus, sub certa
+				<lb/>verborum forma per nostras duxerimus litteras providendum, … et … sibi
+				<lb/>super hoc a nobis executoribus deputatis, fraternitatem tuam requirimus et
+				<lb/>rogamus attente, per apostolica scripta mandantes, quatenus, ob reverentiam
+				<lb/>apostolice sedis et nostram, … procuratori dicti nepotis nostri favorabilis
+				<lb/>et benignus assistas desque opem et operam efficaces, quod huiusmodi
+				<lb/>nostra provisio circa eiusdem nepotis nostri personam optatum sortiatur
+				<lb/>effectum et omnis impedimenti obstaculum tui oportuni favoris suffragio
+				<lb/>penitus excludatur, ita quod per tue cooperationis ministerium, apud nos
+				<lb/>apostolici tibi favoris vendices gratiam et securius pro tuis et ecclesie tue
+				<lb/>commissis negotiis ingruente necessitatis tempore recurrere ad nos possis et
+				<lb/>apostolicum confidentius implorare favorem. Et ut precum nostrarum primitias
+				<lb/>in hac parte de archivo pectoris nostri prodire cognoscas, ipsarum
+			<lb/>baiulas presentes iussimus sub bulle nostre munimine roborari.</p>
+		</div>
+		<pb n="69"/>
+		<div>
+			<head type="salutatio"><lb/>Dominus … papa … priori Lateranensi, per Stephanum.</head>
+			<p><lb/>Ad salutis merenda premia fideles Christi libenter inducimus et eos ad
+				<lb/>acceptabile Domino, semetipsos, obsequium exhibendum gratiosis et
+				<lb/>oportunis suffragiis invitamus. Sane, prout nuper accepimus, cum in
+				<lb/>Urbe multi, utriusque sexus, mares et mulieres instinctu pro tempore
+				<lb/>solaminis inspirati, vivifice crucis suscepto signaculo, suas Terre Sancte
+				<lb/>devoveant voluntates, dum nos interdum exinde abesse contingit, nec
+				<lb/>ibidem alius reperitur qui crucesignatis in eiusdem Terre Sancte subsidium
+				<lb/>profecturis concessas indulgentias administret; indulgentiarum
+				<lb/>huiusmodi assecutione cessante, fervor eorum et salutare propositum
+				<lb/>refrigescit, in eiusdem Terre non modicum detrimentum. Volentes igitur
+				<lb/>super hiis prefate Terre dispendiis tam oportuno quam debito remedio
+				<lb/>providere, quo se memorate Terre voventibus, ut ardentius emissa vota
+				<lb/>percompleant, satisfiat, discretioni tue, de qua plenam in Domino fiduciam
+				<lb/>obtinemus, crucesignatis et crucesignandis omnibus de Urbe predicta,
+				<lb/>ibidem, in apostolice sedis absentia, privilegia, libertates omnes et
+				<lb/>indulgentias concedendi, que crucesignatis in dicte Terre Sancte subsidium
+				<lb/>in generali concilio sunt concessa, liberam damus atque concedimus
+			<lb/>auctoritate presentium facultatem.</p>
+		</div>
+		<pb n="70"/>
+		<div>
+			<head type="salutatio"><lb/>... domino … archiepiscopo Neapolitano Stephanus.</head>
+			<p><lb/>Laxatis retibus in nominis vestri verbo, quod est ori meo celebre dulce
+				<lb/>melos, quas usibus vestri gustus ea lege transmitto ut, ab esus participio
+				<lb/>germanum et dominum vestra generosa curialitas non excludat, favente
+				<lb/>tantisper latice, votivis piscatoris affectibus cepi tructas. Ipsas itaque benigne
+				<lb/>queso recipiat vestre benignitatis auctoritas et post esum sapidum,
+				<lb/>sanitatis regimine non ignara, nucum presulis manus adhibeat tyriacam.
+				<pb n="71"/>
+				<lb/>Reverendo in Christo patri domino et benefactori suo domino B. Dei
+				<lb/>gratia Casinensi abbati suus devotus clericus Stephanus de Sancto Georgio
+				<lb/>cum recomendatione, se totum ad eius beneplacita preparatum.
+				<lb/>Vox lamentationis, vox luctus, vox amaritudinis, vox meroris insonuit
+				<lb/>nuper auribus meis, que, funereis comitata conquestibus, spiritualis patris
+				<lb/>et benefactoris mei Neapolitani archipresulis, fratris vestri, obitum querelose
+				<lb/>denuntians, merores et gemitus, quos de carnalis patris mei transitu
+				<lb/>velut e calice Babylonis exhauseram, in me, proh dolor, repentini vulneris
+				<lb/>ictibus innovavit et desolationem, quam meis precordiis casus eiusdem
+				<lb/>genitoris ingesserat, quamque solite consolationis spiritualis patris
+				<lb/>eiusdem prestolans eventibus aboleri speraveram, lamentabiliter duplicavit.
+				<lb/>Sicque, pater et domine, angor angustiis undique: hinc de parentis
+				<lb/>amissione carnalis, diri iactus mucrone confossus, inde de spiritualis
+				<lb/>patris translatione gemenda, tam corde, quam corpore sauciatus, in cuius
+				<lb/>enim sinu, post carnalis patris occasum, mea spes reposita quiescebat.
+				<lb/>Hunc heu lugere, hunc heu lamentari compellor, et de utriusque communiter
+				<lb/>tam gravi iactura, quam perfero, amaras ab oculis lacrimas consternatus
+				<lb/>emittens, ac tempus illud funereum, quod utroque parente prepropere,
+				<lb/>sub tam brevi dierum – inter funus et funus – interstitio, me orbavit,
+				<lb/>singultuosa lamentatione deplorans, vobis, meo patri et domino, de
+				<lb/>fratris eiusdem eclipsi devote mentis acerbitate vel amaricatione compatior
+				<lb/>et turbata spiritum dispositione contristor. Scio namque, nec hesito,
+				<lb/>quod in dissolutione fratris ipsius, quem vobis, a patriis laribus eminus
+				<lb/>abdicatis, vel elongatis, in peregrina quasi provincia superna dispositio
+				<lb/>dederat ad solamen, dissoluta sunt sabbata cordis vestri, amaricatus est spiritus
+				<lb/>vester, et tota mentis et corporis compago turbata. Ad huius autem
+				<pb n="72"/>
+				<lb/>turbationis et turbinis deliramenta sedanda, vellem libenter et cuperem
+				<lb/>illius vobis consiliaris discretionis posse remedio subvenire, que, pulsis
+				<lb/>causis et casibus passionum huiusmodi, nutrimenta vobis in anima consolationis
+				<lb/>et pacis insereret et stabiliret in quietis dulcedine vitam vestram.
+				<lb/>De penuria igitur mea recipientes, si placet, in consolationis eventum,
+				<lb/>cum patientia, que scribuntur, rogo et supplico, petita de presumptione
+				<lb/>venia, persuadens, quatinus, divine legis in primos parentes nostros, qua
+				<lb/>mortis in eos, si terminos Eius excederent, celestis pretorii Iudex ipse
+				<lb/>iustissimus sententiam promulgavit, que penam ipsorum, post culpam
+				<lb/>commissam, in totam propaginem humane posteritatis extendit, ordinem
+				<lb/>advertatis; et considerantes quod ab huiusmodi sententia, que iam per
+				<lb/>tempora et etates in rem transiit iudicatam, a quoquam cuiusvis eminentie
+				<lb/>conditionis aut status appellari non possit, nec ipsius vel suspendi finalis
+				<lb/>effectus, vel in toto, seu parte, maioris auctore iudicis retractari, cum
+				<lb/>nec etiam Iudex ipse filium suum, pro redemptione humani generis incarnatum,
+				<lb/>ab observatione legis huius exemerit, quin – ut tam ipsi quam
+				<lb/>aliis, omnis carnis pusillis et magnis, equa esset ista penalitas – debitum
+				<lb/>humane fragilitatis exolveret, genas lacrimis lintheo consolationis abstergite
+				<lb/>et in eius virtute fortitudinis spiritum, de tam gravi casus acerbitate,
+				<lb/>suscipite, qui aufert spiritum principum et, cum vult, omnis carnis figmenta
+				<lb/>dissolvit. Illam vero de salute fratris eiusdem spem assumatis in
+				<lb/>Domino, ut eius anima, post vite presentis exilium, quam plenus ipse dierum
+				<lb/>in sancta monastice religionis observantia, in pontificalis officii executione
+				<lb/>laudabili, in exhibitione iusta iustitie, in sanctarum orationum
+				<lb/>iugi perseverantia, in elemosinarum erogatione largiflua, in ecclesiasticorum
+				<lb/>sacramentorum receptione purissima et catholice fidei confessione firmissima
+				<lb/>consumavit, ad sanctorum pontificum insigne consortium transmigravit,
+				<lb/>visionis Eius participio fruitura, qui vita vivens est in se credentium
+			<lb/>et resurrectio glorifica mortuorum.</p>
+		</div>
+		<pb n="73"/>
+		<div>
+			<head type="salutatio"><lb/>Domino abbati Casinensi Stephanus.</head>
+			<p><lb/>Ascendit fumus aromatum de aureo propitiationis vestre thuribolo prodiens
+				<lb/>et sic habunde replevit nares cordis et corporis vis odoris, quod interior
+				<lb/>homo gaudiis exultans uberibus paternitatis vestre nomini …
+				<lb/>ympnum concineret, novum canticum personaret. Est siquidem fumus iste
+				<lb/>odor suavissimus fame vestre, que oleo effuso consimilis in odorem
+				<lb/>unguentorum vestrorum et odorantes allicit et alliciendo attrahit e longinquis,
+				<lb/>aromaticus pertulit rumor ad curiam, quod, alias vestras virtutes
+				<lb/>innumeras consolidans, pastorum fundamina, idem ipsorum verba vel
+				<lb/>facta confibulans, columpne locum inmobilis prelatorum tenens in actibus,
+				<lb/>dominatrix constantia comitatur, prudentie similis ac providentie
+				<lb/>glutino basibus sic innixa, ut, spirituum perversorum conatus irridens,
+				<lb/>adulatorum flamina vorticosa comminuens et detractorum labia mendosa
+				<lb/>concludens, supra firmam petram vestrorum actuum beneplacens et margaritis
+				<lb/>renitens intentio sit fundata. Hec, pater, pastorem inserviunt, hec
+				<lb/>prelatum reverendum faciunt, hec subditorum tumentia corda subtiliant,
+				<lb/>hec viam falsis fratribus in vestimentis ovium gradientibus, intrinsecus
+				<lb/>autem rapacitatem lupinam gestantibus, intercludunt. Det ergo vobis
+				<lb/>Deus gratiam, quod et mala possitis evitare consilia et processus vestros
+			<lb/>et actus salubris perpetuitate consilii roborare.</p>
+		</div>
+		<pb n="74"/>
+		<div>
+			<head type="salutatio"><lb/>Domino … abbati Casinensi Stephanus.</head>
+			<p><lb/>Memoria vestra, pater, aromatum fragrantiam et unguentorum exuperans,
+				<lb/>inter verba mea tenaciter collocata remansit. Utinam apud vos mea
+				<lb/>saltem inter vestre paternitatis brachia commoretur. Queso ergo, mi pater
+				<lb/>et domine, cum bene vobis fuerit temporalium multiplicatione bonorum,
+				<lb/>vestri, qui persecutionis vestre tempore nubiloso, fideliter vobis astitit et
+				<lb/>constanter, Stephani mementote. Scio enim, domine, quod huius prosperitatis
+				<lb/>vestre tempore malefide fortune placiditas multos vobis aggregavit
+				<lb/>amicos, qui, nubilo tempore retroacto, rota vobis in sui orbitatione longis
+				<lb/>temporibus adversante, vos veluti capitales inimici reliquerant prorsus
+				<lb/>solum. Ut scriptura poetica impleretur: «Cum fueris felix» etc. ait quoque
+				<lb/>Boetius. Neque enim quod ante oculos situm est sufficit intueri. Rerum
+				<lb/>exitus prudentia metitur. Negotii ergo vestri exitum, et per quos ad hunc
+			<lb/>exitum devenistis, vestra solerter prudentia metiatur. Vale.</p>
+		</div>
+		<pb n="75"/>
+		<div>
+			<head type="salutatio"><lb/>Domino episcopo Sabinensi apostolice sedis legato, Stephanus de Sancto
+			<lb/>Georgio.</head>
+			<p><lb/>Quasi celeste munus a superis mihi missum, reverende paternitatis
+				<lb/>vestre litteras prona devotione recepi, per quas, licet immeritum et indignum
+				<lb/>cappellanorum vestrorum consortiis aggregatum, familiaritatis me
+				<lb/>vestre titulo decorastis. Reddat vobis Dominus, in retributione iustorum,
+				<lb/>honoris prefati profusum ultro mihi a vestre largitatis ubertate collati,
+				<lb/>diesque vestros in continue sospitatis augmento stabiliat et in longeve vite
+				<lb/>spatium sua clementi propitiatione protrahat stabilitos. Ego siquidem de
+				<lb/>honoris huiusmodi collatione gratuita, gratiarum actiones et laudum, non
+				<lb/>quas debeo, sed quas possum, cum capitis inclinatione devota et subiectiva
+				<lb/>poplitum flexione, dominationi vestre defectivus exolvo. In signum
+				<lb/>vero concepte devotionis et debite servitutis, quibus me fateor vobis deinceps
+				<lb/>obnixum, unam bursam sericam cum duabus zonis sericis de opere
+				<lb/>anglicano benignitati vestre transmitto, rogans et supplicans ut, postquam
+				<lb/>vobis placuit recipere me in vestrum, mihi semper precipiatis ut vestro.
+				<lb/>Nam et volo et, per gratiam Dei, possum, si experiri vobis id placeat,
+				<lb/>vestris incessanter, plus realiter quam vocaliter, iussionibus obedire. Ceterum
+				<lb/>germanum meum P. de Sancto Georgio, vestararium Casinensem,
+				<lb/>bonitati vestre, a qua promotionis sue, cum auctoritati vestre placuerit,
+				<lb/>dependet eventus, humiliter recomendo.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... abbati Stephanus.</head>
+			<pb n="76"/>
+			<p><lb/>Noveris me, frater, per Dei gratiam plena corporis incolumitate vigere,
+				<lb/>quod de te ac nostris omnibus audire, sed plus videre iugiter concupisco, de
+				<lb/>tua, licet exilis fructus, promotione letatus, que ab importuna te subiectione
+				<lb/>Casinensium liberavit, sed vita comite dominis et amicis nostris provehi
+				<lb/>poteris auctore Domino ad maiora. Passum etenim, si bene cogites, difficilem,
+				<lb/>propter multiplicis difficultatis obicem, transivisti, quo transito non
+				<lb/>absque forsitan invidia plurimorum patet tibi facile sicut spero ad altiora
+				<lb/>progressus, temporalis pinguedinis promissivus, dummodo super pauca
+				<lb/>fidelis dispensator existas, et super talento tibi credito prudenter exercites
+				<lb/>curas tuas. Laudo igitur et consulo bona fide, ut sapienter agas in omnibus,
+				<lb/>ita quod a Deo meritum et laudem ab hominibus assequaris et quod
+				<lb/>… monachum habeas ex virtute gratitudinis efficaciter commendatum.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Eidem idem Stephanus.</head>
+			<p><lb/>Postquam, per Dei gratiam et favorem regium, perpetuam es provisionem
+				<lb/>adeptus, laudo et consulo, ut bona temporalia in tuis manibus non
+				<lb/>liquescant, nec longi temporis victum brevis hora consumat, pauperibus
+				<lb/>et maxime vicinis tuis te patrem misericordem ostendas, ut voceris merito
+			<lb/>abba pater.</p>
+		</div>
+		<pb n="77"/>
+		<div>
+			<head type="salutatio"><lb/>Suo presbitero Bartholomeo Stephanus, cum consolationis affectu salutem.</head>
+			<p><lb/>Rem non novam sed assuetam mortalibus et innatam, quasi novum quod
+				<lb/>sub sole prospexeris, seriosa mihi mentis amaritudine descripsisti, de profundis
+				<lb/>in vocem lamentationis erumpens, quod emula vite mors impia, in
+				<lb/>precipitio patris tui migrantis a seculo, dire nimis et acerbe te mordens,
+				<lb/>quietis tue sabbata inquieta revolutione turbavit, honorem in nichilum et
+				<lb/>citharam convertens in luctum. Profecto, vir sacer, scio, nec hesito, similis
+				<lb/>casus asperitatem expertus, quod tactus dolore cordis intrinsecus lenimenta
+				<lb/>compassionis et consolationis efflagitas, et pre nimietate doloris querelas
+				<lb/>querulas, que amicos adeant implorature solamen, cohibere non potes.
+				<lb/>Ut igitur inveniat mens amaricata quod petiit et amarus animus quod cupivit,
+				<lb/>scire te volo, quod et te scire non ambigo, dolorum tuorum me fore participem
+				<lb/>et passionum, quas perfert tue carnis idemptitas, non expertem.
+				<lb/>Suggero igitur, tibi compatiens, ut vultum tuum, nube meroris obductum,
+				<lb/>lintheo consolationis abstergas et, ne ignorans de dormientibus videaris,
+				<lb/>sperare debes visurum te patrem in patria, quem mundane peregrinationis
+				<lb/>exilium, cum dormitione, stola pietatis indutum, non ambigis evasisse.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>Scribitur … cardinali per quendam clericum, quod recipiat eum in
+			<lb/>familiarem, pro quo ei scripserat … archiepiscopus, per Stephanum.</head>
+			<pb n="78"/>
+			<p><lb/>Benignitatis vestre rore complutus et exauditionis dominice mihi gratis
+				<lb/>oblate gratia persuasus, inducor ut securus sacros hospitii vestri postes
+				<lb/>introeam et vestre mansuetudinis aures petitorio pulsare presumam, sperans
+				<lb/>ut me, quem precedentium obsequiorum exhibitio in exhaudiendo
+				<lb/>non adiuvat, vestra benignitas sacra confoveat et domini mei Neapolitani
+				<lb/>presulis in subsidium favoris accedat oblata pro me vobis intercessio litteralis.
+				<lb/>Cum igitur, reverende pater et domine, inter desiderabilia mundi
+				<lb/>huius affectem sub vestre protectionis alis vestrique favoris patrocinio
+				<lb/>respirare dominationem vestram, quam votivis augeat Altissimus incrementis
+				<lb/>et exaltet honoribus, humillima prece deposco, quatenus me, si
+				<lb/>placet, in libro vestri favoris, quo soci plurimi iocundantur, stilo gratie
+				<lb/>conscribentes, si dignus inveniar, sub vestre protectionis alis in vestrum
+			<lb/>clericum admittatis.</p>
+		</div>
+		<pb n="79"/>
+		<div>
+			<head type="salutatio"><lb/>Riccardo Stephanus salutem.</head>
+			<p><lb/>Miror multum quod, post obitum patris mei, nullam mihi litterulam
+				<lb/>direxisti. Unde hoc proveniat prorsus ignoro, cum nuntiorum hoc non possis
+				<lb/>imputare defectui, nec ignorantie, que calamum et membranam ad scribendum
+				<lb/>novit assumere, manus tue. Quicquid sit tamen, recomendo me,
+				<lb/>de tanto defectu sive contemptu, illis rusticis de montanis, qui te de commisse
+				<lb/>tibi visitationis, ut non dicam inquisitionis, officio, sic curialiter
+			<lb/>expulerunt, ut, vacua crumena regrediens, retrorsum aspicere non auderes.</p>
+		</div>
+		<pb n="80"/>
+		<div>
+			<head type="salutatio"><lb/>... suis … Stephanus.</head>
+			<p><lb/>Non turbetur cor vestrum, nec formidet si post recessum meum de urbe
+				<lb/>nullas vobis direxi litteras certificatorias status mei. Nam frequentes et
+				<lb/>graves infirmitates, quas passus sum, non permiserunt me vacare scripturis.
+				<lb/>Nunc vero, per Dei gratiam, ab ipsis infirmitatibus liberatus, dignum
+				<lb/>duxi vobis ad solacium litteras destinare. Noveritis itaque, quod dudum
+				<lb/>ante quindenam Natalis Domini proximo preteriti applicui Burdegalam,
+				<lb/>ubi … morabatur rex. Apud &lt;eum&gt; mansi per sex septimanas ibidem,
+				<lb/>regia benignitate receptus et honorificentia condigna tractatus ab ipso.
+				<lb/>Dicatis namque mercatoribus creditoribus meis, quod patientiam in me
+				<lb/>habeant et omnia reddam eis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... notariis Stephanus.</head>
+			<p><lb/>Possem vos increpare desidie, cum a vobis numquam vel raro salutatorias
+				<lb/>saltem litteras habere meruerim, ut a me vos vice mutua reciperetis et
+				<lb/>meas. Et licet ex hoc merito scribentis se manus ad membranam et calamum
+				<pb n="81"/>
+				<lb/>reddere segnem posset, mavult tamen liberalem se prebere sodalibus,
+				<lb/>quam vitio redargui parcitatis. Mittitur itaque vobis hec cedula, que
+				<lb/>vos pungat et excitet, ut, mihi vestro, litterulam aliquam transmittatis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... Stephanus viro magne scientie ac probitatis eximie …</head>
+				<p><lb/>Pro devoto et dilecto meo …, qui subest vestre ferule discipline, qua
+				<lb/>vitia pellitis et, novella quadam plantatione, virtutes inseritis, affectuose
+				<lb/>vos deprecor, quatenus ipsum, mei contemplatione rogantis, habere velitis,
+				<lb/>prerogativa profectus, si placet, favorabiliter commendatum. Ita quod
+				<lb/>ipse, quem amore prosequor speciali ex precibus meis, que, sub antique
+				<lb/>societatis fiducia et dilectionis federe quo unimur, a socio porriguntur,
+				<lb/>benivolum sibi doctorem inveniat et sentiat fructuosum, et me vobis
+				<lb/>proinde, si augmentum plenitudo suscipiat, ad vestra strictius beneplacita
+				<lb/>obligetis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... amico Stephanus.</head>
+			<pb n="82"/>
+			<p><lb/>Honoris et fame vestre zelator, circumspectionem vestram deprecor et
+				<lb/>exhortor, quatenus super causa litigii, que inter vos ex parte una, et neptem
+				<lb/>vestram ex altera vertitur, sic curialiter, sic benigne gerere vos velitis,
+				<lb/>ut multiloqui vulgi lingua de inordinate cupiditatis vitio non condempnet,
+				<lb/>sed de beneficentie gratia, qua ipsam tenemini carnaliter prosequi,
+				<lb/>merito vos commendet. Vale.
+			<lb/> </p>
+		</div>
+		<div>
+			<head><lb/>Littera consolatoria missa per Stephanum cuidam iuveni qui noviter
+				<lb/>venerat ad curiam et qui conquerebatur de fortuna, pro eo quod non poterat
+			<lb/>cito ad statum prosperum promoveri.</head>
+			<p><lb/>Ut malefide fortune dona non segnis exquireres, abdicatis patriis laribus,
+				<lb/>venisti nuper ad curiam, aptus servire quod placeas et laudabilibus,
+				<lb/>qui precipue requiruntur in iuvene, moribus informatus. At quia volvente
+				<lb/>rota non cito proveheris, lacer exululas et in fortunam singultuosas aggregas
+				<lb/>questiones. Sed si diligenter, amice, revolveres, vis querele tibi non
+				<lb/>subvenit, quantumvis a te subtraxisse videatur nubila vultum suum. Scis
+				<lb/>enim licitum esse celo nunc lucidos dies proferre, nunc eosdem condere
+				<lb/>noctibus tenebrosis. Scis, inquam, licere anno terre vultum nunc florum
+				<lb/>distinctibus et frugum ubertate redimire, nunc eamdem sterilitate confundere
+				<lb/>nimbis, frigoribus et ymbribus pluviosis. Illud etiam non ignoras,
+				<lb/>amice, quod vis est mari nunc equore strato blandiri, nunc ipsum horrescere
+				<lb/>turgentibus fluctibus et procellis. Quid ergo ingemiscis? Num fortune
+				<lb/>concludere poteris, ut exercere sibi non liceat iura sua? Minime
+				<lb/>inquam etiam quantiscumque te articulis communires. Igitur si fortune
+				<pb n="83"/>
+				<lb/>legibus te dedisti regendum et sectando graderis vias eius,
+				<lb/>oportet ut eius moribus absque conquestibus obsecundes, ea ludicri lege videlicet, ut
+				<lb/>pressus asse non murmures, et, in summo positus, cum libebit, descendere
+				<lb/>non contempnas. Cum itaque fortuna eadem, rotam volubili orbe versans,
+				<lb/>hunc continuum ludum ludat, ut illos deprimat, hos exaltet, refrena
+				<lb/>murmur et in Illum iactes tui animi cogitatum, qui, fortunales eventus
+				<lb/>exuperans, consuevit in se sperantibus non deesse. Figens igitur pedes
+				<lb/>tuos et cursum perficiens, quem cepisti, in ea qua vocatus es sorte persiste,
+				<lb/>ut ex federe pacto cum tempore, illius versiculi sumas avidius usufructum:
+				<lb/>«grata superveniet que non sperabitur hora», sicque in experientie libro
+				<lb/>leges quod potuisti frequenter legere in membranis.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... amici congratulatio ad ... amicum super ortu nove prolis, per
+			<lb/>Stephanum.</head>
+			<p><lb/>Congaudeo vobis de sobole masculina, in cuius concessione divina clementia,
+				<lb/>misericordiam vobiscum faciens, vestram consolata est istis novissimis
+				<lb/>temporibus orbitatem. Faciat igitur, oro, eam crescere Dominus, ut
+			<lb/>cedat vobis et domine coniugi vestre semper ad gaudium et solamen.</p>
+		</div>
+		<pb n="84"/>
+		<div>
+			<head type="salutatio"><lb/>… dilecte … dilectus salutem et sincerissimam caritatem, per
+			<lb/>Stephanum.</head>
+			<p><lb/>Speciosissimas litteras, quas rethoricus ordinavit orator, ex parte tua
+				<lb/>noviter mihi missas iocundissimo corde recepi, velut a supercelestibus
+				<lb/>destinatas. Sed o utinam illa preclara virtutum cohors, quas mihi series
+				<lb/>ipsarum attribuit, vendicaret in me veraciter sibi locum, et, cum hominem
+				<lb/>peccatorem me noverim, non efferor in attributione virtutum tam insignium
+				<lb/>nec exaltor.
+			<lb/> </p>
+		</div>
+		<div>
+			<head type="salutatio"><lb/>... officiali suo Stephanus salutem et illam commisse villicationi curam
+				<lb/>apponere, quod orrea victualibus repleantur, torcularia vino redundent et
+                                <lb/>oleo non modico vasa restagnent.</head>
+			<lb/>
+			<p><lb/>Recipe tamen substantiam Stephaninam, ne longi temporis victum brevis
+				<lb/>hora consumet. Ego enim ex verbis tuis laude plenis non efferor, sed
+				<lb/>Catonis rethoris cum effecto simplicitatis inherens, plus aliis de me quam
+				<lb/>egomet mihi credere nolo, et presertim cum intendam vagationibus
+			<lb/>omnino metam imponere et domestica statione gaudere.</p>
+		</div>
+		<pb n="85"/>
+		<div>
+			<head><lb/>Sermo in festo Resurrectionis dominice, per Stephanum dictatus.</head>
+			<p><lb/>Pascalium dapum dies, per occisionem celestis agni, Maiestati altissime
+				<lb/>dedicatos, decet christicolas universos devotis mentibus venerari, ut,
+				<lb/>luvione pulsa procul a mentibus et virtutum germine succrescente radicitus,
+				<lb/>manu plena manipulis possimus occurrere Redemptori, qui mortem
+				<lb/>nostram destruens moriendo, preclusam nobis, peccatis exigentibus
+				<lb/>prothoplausti, celestis Ierusalem ianuam reseravit. Et quia nichil nobis
+				<lb/>nasci profuit, nisi redimi profuisset, idem ipse agnus unigenitus Dei filius
+				<lb/>Iesus Christus, mortem subiciens temporalem, ad inferna descendit, ubi,
+				<lb/>confractis hostis antiqui viribus prepotenter, et desideratus adveniens solvit
+				<lb/>a pena miseros, quos, dicere non cessantes «utinam celos dirumperes et
+				<lb/>venires», diris artarat compedibus humani generis inimicus. Horum ergo
+				<lb/>dierum, huius salutifere, sed mirande non minus dominice resurrectionis
+				<lb/>misteriis, in quibus exultat angelica turba celorum, in quibus infernus
+				<lb/>ululat spoliatus, sic sobria iocunditate fruamur, quod, Ieremie prophete
+				<lb/>trenica lamentatione silente, lingua digne resumat et concinat resurgenti
+				<lb/>a mortuis illud letitie canticum «alleluia»; qui serenissimo Regi nostro ac
+				<lb/>illustrissime Regine consorti sue sospitatis optabilis incrementa clementer
+			<lb/>indulgeat et subditas sibi faciat barbaras nationes.</p>
+			<pb n="86"/>
+			<p><lb/>Antiqua sanctorum patrum, quos spiritus veritatis afflaverat, testimonia
+				<lb/>veneranda, ad lapsum humani generis reparandum, quod primi parentis
+				<lb/>primitiva transgressio legi mortalitatis addixit, sacris proclamavere preconiis
+				<lb/>coeternum et consubstantialem patri fore Dei filium incarnandum.
+				<lb/>Proclamatum autem sub diversis prophetiis et vaticiniis admirandis, in
+				<lb/>carne positi patres ipsi, quem fide cernebant interna, anxiis quoque videre
+				<lb/>de regalibus sedibus venientem desideriis materiali officio affectabant.
+				<lb/>Carne vero soluti et in limbum inferni potentia principis mundi huius,
+				<lb/>quam ipse nequam adversarius, ex prothoplausti ruina quam intulit, non
+				<lb/>est vetitus usurpare, deducti, in optate redemptionis eventum descendere,
+				<lb/>sedentes in tenebris et umbra mortis, vincti nihilominus in mendicitate et
+				<lb/>ferro, ipsum Dei filium, lucem quidem que lucet in tenebris, totis visibus
+				<lb/>totisque desideriis proclamabant etc.
+			<lb/> </p>
+		</div>
+		<div>
+			<head><lb/>Sermo Stephani ad collegium cappellanorum domini Hugonis cardinalis,
+			<lb/>de nativitate Domini.</head>
+			<pb n="87"/>
+			<p><lb/>Incarnationis divine misterium, prophetice tube vaticiniis patribus
+				<lb/>repromissum, paranimphi angeli mirande salutationis eloquiis virgini
+				<lb/>nuntiatum, celatum mortalibus et spiritibus elationis occultum, cum christiane
+				<lb/>religionis devotione, fratres carissimi suscepturi archana mentis et
+				<lb/>cordis cellulas, inquisitionis exacte studio perscrutemur, ut, pulsis vitiis,
+				<lb/>virtutibus insitis, mundatis sordibus, surrogatis munditiis, sollempnia
+				<lb/>nativitatis eius, qui verbum erat in principio apud Dominum, per quem
+				<lb/>celi firmati sunt et tota mundi machina stabilita subsistit, puris mentibus
+				<lb/>celebrantes sacramentum sui gloriosi corporis immolati et sanguinis pretiosi,
+				<lb/>quem dire lancee mucro militaris effudit, digne suscipere mereamur.
+				<lb/>Ita nos continuatione bonorum operum virtutibus exercendo, ut sic
+				<lb/>susceptus ipse – qui panis, vinus et cibus angelorum existens, se cum tota
+				<lb/>trinitate venturum ad eos qui eum diligunt et sermones eius observant, ac
+				<lb/>apud ipsos mansurum evangelici vatis testimonio repromisit – dignetur
+				<lb/>apud nos ad salutem animarum et corporum inamissibilem facere mansionem.
+				<lb/>Huius autem incarnationis admirande misterium, in qua quidem
+				<lb/>natura solitos cursus mutat, usitatum deserit ordinem et latentis operationis
+				<lb/>inauditam seculo aggreditur novitatem, mortalibus in terra figmentis
+				<lb/>et viventibus in celo spiritibus vehementis materiam admirationis inducit.
+				<lb/>Quis enim non miretur et stupeat incarnationis tante misterium, per quod,
+				<lb/>mutatis nature legibus, fit unio Dei et hominis, fit unio matris et virginis?
+				<lb/>Quis non stupendo miretur et timeat conceptionis nove primordia, novi
+				<lb/>partus initia, per quem matri non tollitur in prolis conceptione virginitas
+				<lb/>nec in editione partus adimitur pudoris integritas virginalis? Siquidem,
+				<lb/>admirationis tante nexibus involuti, ad te clamamus exules filii Eve, virgo
+				<lb/>mater et domina, a te postulamus, gloriosa virgo puerpera, indica servulis
+				<lb/>tuis, si placet, indica: misterium aperi, nodum admirationis abscide, et
+				<lb/>causam edissere tui partus. Concepisti modo mirabili filium, cuius esse
+				<lb/>non ambigis filiam, non ambigis creaturam. Baiulasti filium, qui baiulat
+				<lb/>totum orbem, lactasti infantulum, qui lac est parvulis et solidus cibus
+				<lb/>adultis. Pavisti puerum, qui universas pascit – nec improperat – creaturas.
+				<lb/>Dic, quesumus, responde, si placet: quis claustrum tue virginitatis clausum,
+				<pb n="88"/>
+				<lb/>quis tibi pudoris virginei pudicitiam custodivit? Respondemus nos
+				<lb/>utique nobis ipsis, cum indignos nos tuis responsionibus fateamur, et cum
+				<lb/>angelico vate constanter asserimus quod spiritus sanctus supervenit in te
+				<lb/>et virtus tibi Altissimi obumbravit, qui te, ancillam suam humiliter confitentem,
+				<lb/>ante partum, in partu et post partum virginem conservavit. Legimus
+				<lb/>siquidem prothoplaustum de limo terre, sociam vero ipsius Evam de
+				<lb/>costa eius divine manus operatione formatos, filios autem Eve universos et
+				<lb/>singulos per coniunctionem maris et femine de maternis uteris communis
+				<lb/>lex generationis eduxit, quos tu, per angelicum illud «ave», a «ve» matris
+				<lb/>Eve, editione tui partus, eripiens «ve», in «ave» mirabiliter convertisti; in
+				<lb/>te autem ille, qui supra omnem naturam est et exuperat omnem sensum,
+				<lb/>nature solite cursum mutans, uterum tuum spiritus sancti spiramine fecundavit.
+				<lb/>Benedicta igitur inter mulieres existis, que illum peperisti seculo salvatorem,
+				<lb/>quem terra, pontus, ethera colunt, adorant, predicant trinam
+				<lb/>mundi machinam continentem. Laudet te virgo mater et predicet omnis
+				<lb/>lingua, laudet et glorificet omnis caro. Ex te enim ortus est sol iustitie
+				<lb/>Lucifer matutinus, qui sedentibus in tenebris et umbra mortis illuxit, et
+				<lb/>eos, quos diris captivarat compedibus inimicus, de infernalis limbo tenebrositatis
+				<lb/>eripiens ad patriam, que splendet perpetua claritate, transvexit.
+				<lb/>Rogemus itaque, dilectissimi fratres, hanc matrem Domini, hanc reginam
+				<lb/>clementie flagitemus, ut ipsa piis humilitatis nostre pulsata precibus rorem
+				<lb/>nobis sue benedictionis infundat et celestis gratie plenitudinem largiatur,
+				<lb/>quatinus cuiuslibet peccati sordibus expiati hymnum illum angelicum
+				<lb/>«gloria in excelsis Deo et in terra pax hominibus bone voluntatis», regi
+				<lb/>nato, qui regit omnia, digne concinere valeamus et tandem ad consortium
+				<lb/>supernorum civium – qui in regressu regis huius post calicem passionis ad
+				<lb/>patrem «quis est iste qui venit de Edom tinctis vestibus de Bosra?» admirative
+				<pb n="89"/>
+				<lb/>vocis organis proclamabant visionis sue participio fruituri – feliciter
+				<lb/>pervenire possimus. Quod ipse nobis prestare dignetur, quem nubes pluerunt
+				<lb/>iustum et super quem celi desuper roraverunt, qui cum Deo patre et
+			<lb/>spiritu paraclito vivit, regnat et imperat in secula seculorum. Amen.</p>
+		</div>
+	</body>
+</text>
+</TEI>

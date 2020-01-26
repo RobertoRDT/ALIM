@@ -1,0 +1,890 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>[Liber de natura falconum]</title>
+				<author>Dancus rex</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Tilander</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="CC">Chiara Casali</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="5404" unit="words">Parole: 5404</measure>
+				<measure quantity="27199" unit="characters_without_spaces">Caratteri (spazi esclusi): 27199</measure>
+				<measure quantity="32053" unit="characters_witht_spaces">Caratteri (spazi inclusi): 32053</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2003-03-01">01/03/2003</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Scienze naturali</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note> Note:</note>
+				<note>Livello di codifica: 1</note>
+				<note>Note: Parole: 5457
+					Caratteri: 32166
+					(testo latino alle pp. pari)
+				GM</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Dancus Rex, Guillelmus Falconarius, Gerardus Falconarius: les plus anciens traités de fauconnerie de l'Occident publiés d'après tous les manuscrits connus</title>
+						<editor>G. Tilander</editor>
+						<imprint>
+							<publisher>C. Bloms</publisher>
+							<pubPlace>Lund</pubPlace>
+							<date>1963</date>
+							<biblScope unit="page">48-117</biblScope>
+						</imprint>
+					</monogr>
+					
+					<series>
+						<title level="s">Cynegetica</title>
+						<biblScope unit="volume">9</biblScope>
+					</series>
+				</biblStruct>
+				
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Scienze naturali</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="CC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-all'inizio della pagina 58 manca qualche riga di testo</item><item type="itemNotaJC">-il "Dancus rex" sulla prima riga è il titolo di tutta l'opera o solo della prima parte con i "prologhi"?</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="48"/>
+		<div>
+			<head><lb/>Dancus rex.</head>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di CNPTVXY.</hi></head>
+				<head type="h_2"><lb/>De infirmitatibus et medicinis secundum Danchum regem.</head>
+				<p><lb/>Danchus rex stabat in suo pallatio. Ante eum stabant
+					<lb/>discipuli sui, et tenebant placitum de falchonibus suis et
+					<lb/>cogitabant quomodo possent ipsos sanos habere, falchones vel
+					<lb/>astures suos vel speriverios, et qualiter possent eos facere
+					<lb/>arditos et tenere in suo ardimento. Ipse fuit bonus divinus;
+				<lb/>novit hiis necessaria providere.</p>
+				<p><lb/>Et audivit dici rex Gallacianus et venit ad eum causa
+					<lb/>videndi et audiendi utrum verum esset quod dicebant ad
+					<lb/>Antram civitatem suam, et hospitatus est in capite civitatis
+					<lb/>et nontiavit se volentem adiscere de falchone. Et quando
+					<lb/>[Danchus] audivit, risit de eo et multum placuit, et mandavit ut
+					<lb/>ad se veniret et duxit eum in camera[m] sua[m]. Camera
+					<lb/>erat bona, plena odoribus multis, et celum camere erat depictum,
+					<lb/>ibique erant facta mirabilia que sicut stelle celi non
+					<lb/>poterant numerari, et parietes et fundamentum mirabiliter
+					<lb/>erant ornati, et lectus eburneus, funiculi erant de bestia
+					<lb/>silvestri que vocatur uncia, et cohopertus erat una cultra
+					<lb/>de palio quod dicitur scoramentum et faciunt ex unda maris,
+					<lb/>et desuper jacebat rex Danchus. Ductus rex Gallatianus
+					<lb/>in cameram suam, cum vidit eum sedere in lecto, camera[m]
+					<pb n="50"/>
+					<lb/>sicque depincta[m], admiratus est. Rex Danchus interogat
+					<lb/>sapienter sic, sicut facere debet, qua de causa sibi placebat
+				<lb/>venire ed eum.</p>
+				<p><lb/>Rex Gallatianus respondit: " Venio sicut rex ut videam
+					<lb/>et audiam si est verum, sicut homo dicit, quod sapiens homo
+					<lb/>es et artem unam scis qua sapientiores estis, scilicet quod
+					<lb/>facitis unam avem capere aliam, unde ego volo esse vester
+				<lb/>discipulus. "</p>
+				<p><lb/>Qui cum audivit, risit et ait: " Placet michi quod sis
+					<lb/>meus discipulus. Veni cras mecum, et videbis quid facient
+				<lb/>aves mee. "</p>
+				<p><lb/>In sequenti die rex Gallatianus ivit in campum, et
+					<lb/>quando vidit volare aves, placuit sibi valde dictum et plus
+					<lb/>placuit factum. Et dixit quod verum erat quod audierat,
+					<lb/>et cepit multum hobedire ei. Et quando venit in mane,
+				<lb/>cepit interogare quid placeret.</p>
+				<p><lb/>Respondit rex: "Quicquid tibi placet. "
+					<lb/>Dixit Gallatianus: " Ego volo licentiare omnes homines
+					<lb/>qui venerunt mecum, et ego volo manere tuus discipulus. "
+					<lb/>Respondit rex Danchus: " Ego non [sum] dignus ut sis
+					<lb/>meus discipulus, sed si habes voluntatem adiscendi et habes
+					<lb/>aliquem filium, mitte eum ad me, et amore tui doceam eum
+				<lb/>omnia que sciero et que excogitare potero."</p>
+				<pb n="52"/>
+				<p><lb/>Tunc rex Gallatianus multum regratiatus est ei et voluit
+					<lb/>cadere ad pedes eius. Accepit licentiam et rediit in terram
+					<lb/>suam, et fecit venire Athanasium filium suum et dixit ei:
+				<lb/>" Vis adiscere de arte falchonum ? "</p>
+				<p><lb/>Quando audivit, multum fuit letus et dixit statim:
+				<lb/>" Manda me! "</p>
+				<p><lb/>Et mandavit eum ad curiam regis Danchi. De omnibus
+					<lb/>erat curialis nisi de falchone. Rex Danchus fecit ei multum
+					<lb/>servire, et sic fuit boni ingenii quod in uno anno didicit que
+				<lb/>rex Danchus sciebat.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di F.</hi></head>
+				<p><lb/>Rex Gallicianus filium suum misit ad regem Danchum ut eum
+				<lb/>doceret curam falconum, ancipitrum et asturum.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di B.</hi>.</head>
+				<p><lb/>Ad Natasium. Incipiunt ysagoge Danci regis ad Galianum
+				<lb/>et ad Riatasium.</p>
+				<p><lb/>Danchus rex stabat in suo palacio. Ante eum stabant
+					<lb/>discipuli eius, et tenebant placitum de falconibus suis et cogitabat
+					<lb/>quomodo ipse possit habere falcones sanos vel astores
+					<lb/>vel spariverios et quomodo possit facere arditos et qualiter
+					<lb/>possit capere magnos ocelos cum falconibus suis, scilicet gruam,
+					<lb/>sternam et ocham et qualiler possit tenere in ipso ardimento.
+					<lb/>Ipse fuit divinus; sapuit quod defuit videre, quod debuit
+					<lb/>esse dicere. Audivit dicere rex Galicianus et venit ad eum
+					<lb/>ut videret et intelligeret si verum erat quod homo sibi dicebat
+				<lb/>ad Baltram civitatem suam. Herbergare [cepit] jam in</p>
+			</div>
+			<pb n="53"/>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di U.</hi></head>
+				<head type="h_2"><lb/>De avibus rapacibus.</head>
+				<p><lb/>Dancus rex eruditus in venatione avium rapacium instruxit
+					<lb/>filium regis Galacii Anatasium in Baldach civitate quomodo
+					<lb/>posset curare morbos falconum, astorionum vel sperivariorum
+				<lb/>et aliarum.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di Z.</hi></head>
+				<p><lb/>Incipiunt ysagoge Dauci ad Galacianum et ad Otonasium.
+					<lb/>Daucus rex stabat in suo palacio, et ante eum stabant
+					<lb/>discipuli sui, et tenebant placitum sive raciocinabant de
+					<lb/>falconibus suis et cogitabat quomodo ipse posset habere sanos
+					<lb/>falcones suos vel astores vel sparaveros et quomodo posset
+					<lb/>facere eos audaces et quomodo posset capere magnas aves a falcone,
+					<lb/>gruem et sternam et aucam et qualiter posset eos tenere in
+					<lb/>ipsa audacia. Ipse fuit divinus, sapiens quidem fuit videre
+					<lb/>quid debet esse. Et cum rex Galacianus audivit hec, venit
+				<lb/>ad eum causa videndi et intelligendi si esset veritas quod homo</p>
+			</div>
+			<pb n="53"/>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di U.</hi></head>
+				<head type="h_2"><lb/>De avibus rapacibus.</head>
+				<p><lb/>Dancus rex eruditus in venatione avium rapacium instruxit
+					<lb/>filium regis Galacii Anatasium in Baldach civitate quomodo
+					<lb/>posset curare morbos falconum, astorionum vel sperivariorum
+				<lb/>et aliarum.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di Z.</hi></head>
+				<p><lb/>Incipiunt ysagoge Dauci ad Galacianum et ad Otonasium.
+					<lb/>Daucus rex stabat in suo palacio, et ante eum stabant
+					<lb/>discipuli sui, et tenebant placitum sive raciocinabant de
+					<lb/>falconibus suis et cogitabat quomodo ipse posset habere sanos
+					<lb/>falcones suos vel astores vel sparaveros et quomodo posset
+					<lb/>facere eos audaces et quomodo posset capere magnas aves a falcone,
+					<lb/>gruem et sternam et aucam et qualiter posset eos tenere in
+					<lb/>ipsa audacia. Ipse fuit divinus, sapiens quidem fuit videre
+					<lb/>quid debet esse. Et cum rex Galacianus audivit hec, venit
+					<lb/>ad eum causa videndi et intelligendi si esset veritas quod homo
+					<pb n="54"/>
+					<lb/>capite civitatis, et mandavit quod volebat scire de falcone.
+					<lb/>Quando [Danchus] audivit, risit de eo quod dicebat et
+					<lb/>multum placuit ei, et mandavit ut ad se veniret et fecit venire
+					<lb/>in cameram suam. Camera erat bona et pretiosa et de
+					<lb/>omnibus odoribus plena, et celum camere erat pictum de tantis
+					<lb/>mirabilibus que non potera[n]t numerari sicut stellas celi,
+					<lb/>et parietes et fundamenta era[n]t mirabiliter ornata, et
+					<lb/>lectus erat de avolio blanco et corde erant de betiia silvaticha
+					<lb/>que vocatur onzia, et erat coopertum de una cultra de
+					<lb/>palio quod vocatur siarimatico ke medium faciunt ex una
+					<lb/>parte maris, et desuper jacebat rex Danchus. Et fecit
+					<lb/>venire Galicianum in camera[m] sua[m], et quando vidit,
+					<lb/>sedere fecit super lectum suum, et quando vidit camaram sic
+					<lb/>pictam, fuit miratus multum. Rex Danchus querebat
+					<lb/>sapienter, sicut facere debet, quare placuit ei venire ad eum.
+					<lb/>Rex Galicianus sapienter respondit sicut rex: " Ego veni
+					<lb/>ad te videre et audire si est verum quod homines dicunt quod
+					<lb/>tu scis sapiencior aliis sicut audivi, quia tu facis artem
+					<lb/>unam de qua es multum curialis, quia facis unum ocelum
+				<lb/>capere alium, et ego volo esse tuus discipulus. "</p>
+				<p><lb/>Et quando audivit, risit et dixit: " Placet mihi quod sis
+					<lb/>meus discipulus. Veni cras mecum, et videbis quid faciunt mei
+				<lb/>oceli. "</p>
+				<p><lb/>In alio vero die iverunt in canpum, et vidit volare et
+					<lb/>placuit ei dictum et plus factum. Et dixit sibi: "Credo
+					<lb/>verbum verum quod audivi ", et cepit mulium obedire ei.
+					<lb/>Et quando venit mane, cepit interrogare quid placet.
+				<lb/>Respondit rex: " Quidquid vobis placet. "</p>
+				<p><lb/>Dixit Galicianus: " Ego volo remitere omnes meos
+				<lb/>homines, et volo manere pro tuo discipulo. "</p>
+				<p><lb/>Respondit Dauchus: " Non sum tantum dignus, sed si
+					<lb/>tu habes voluntatem discendi et habes filios, manda mihi eos,
+				<lb/>et pro tuo amore dicam omnia que scio et que habere potero. "</p>
+				<p><lb/>Tunc rex Galicianus accepit licentiam et redit in
+					<lb/>terram suam, et misit ei filium suum Tanaxium ad curiam
+					<lb/>regis Dauci, qui de omnibus rebus erat curialis excepto falcone.
+					<pb n="55"/>
+					<lb/>sibi dicebat ad Balatram civitatem suam. Et cepit jam
+					<lb/>hospitari in capite civitatis et misit ad Daucum quod volebat
+					<lb/>scire et instrui de falcone. Et cum rex Dancus hec audivit,
+					<lb/>risit de eo et multum ei placuit, et misit ut ad eum veniret;
+					<lb/>fecitque eum ingredi in cameram suam. Camera autem erat
+					<lb/>eburnea et preciosa et fragrabat ex omni genere odoramentorum,
+					<lb/>et tectum camerule erat depictum innumerabilibus picturis
+					<lb/>atque mirandis sicut stelle celi. Paries autem et fundamentum
+					<lb/>mirabiliter erant ornata, et lectus erat de
+					<lb/>avolio albo et çone erant ex bestia silvatica que nominatur
+					<lb/>uncia, et erat coopertum cultra una de pallio quod dicitur
+					<lb/>scaramato lebidium faciunt ex una parte maris, et desuper
+					<lb/>jacebat rex Dancus, qui fecit venire Galacianum in cameram
+					<lb/>suam, et quando eum vidit, fecit sedere in lectulo suo.
+					<lb/>Cum autem vidit Galacianus cameram tam bene depictam,
+					<lb/>miratus est. Rex autem Dancus inquirebat sapienter, ut
+					<lb/>debebat, qua de causa placebat ei venire ed eum.
+					<lb/>Galacianus autem respondebat ei sapienter: "Ego venio
+					<lb/>ad te causa videndi et audiendi si verum est que homo dicit
+					<lb/>quia tu sis sapientior homo quam umquam audiverim et
+					<lb/>scis unam artem de qua es multum curialis, quia facis unam
+				<lb/>avem capere aliam, unde ego volo esse discipulus tuus."</p>
+				<p><lb/>Cum autem hoc audivit Daucus rex, risit dixitque ei:
+					<lb/>" Mihi placet quod tu sis meus discipulus. Venite cras et videbitis
+				<lb/>quid facinut mei occelli. "</p>
+				<p><lb/>In crastina vero die ivit in campo, et eum vidit eos
+					<lb/>volare, placuit ei dictum sed multomagis factum. Et dixit
+					<lb/>bene esse verum quod audiverat de eo, cepitque multum obedire
+					<lb/>eum. Et quando venerat in mane, cepit interrogare
+				<lb/>Galacianus quid ei placeret.</p>
+				<p><lb/>Respondit Daucus rex: " Quicquid vobis placet. "
+					<lb/>Tunc dixit Galacianus: " Ego volo mittere omnes homines
+				<lb/>meos, et volo pro tuo discipulo remanere. "</p>
+				<p><lb/>Respondit Daucusa: " Non tantum ego sum dignus ut tu
+					<lb/>sis meus discipulus, sed si habes voluntatem adiscendi et habes
+					<lb/>aliquos filios, mittas eos ad me, et ego pro tuo amore instruam
+				<lb/>eos et dicam omnia que scio et que invenire potero. "</p>
+				<pb n="56"/>
+				<p><lb/>Et fuit tanti boni odoris quod in uno anno omnia
+				<lb/>scivit que Dauchus sciebat.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di E.</hi></head>
+				<p><lb/>Incipit liber de natura falconum componitus per regem
+				<lb/>Danctum.</p>
+				<p><lb/>Danchus rex stabat in palalcio suo. Ante eum stabant
+					<lb/>discipuli ejus, et tenebant placitum de falconibus suis. Ipse
+					<lb/>vero cogitabat quomodo posset habere sanos falcones, ancipitres
+					<lb/>et astures suos et qualiler ipse posset capere magnos
+					<lb/>ocellos cum falconibus suis, scilicet gruam, sternam et ocham,
+					<lb/>et quomodo posset tenere eos in illo ardimento. Ipse vero
+					<lb/>fuit bonus magister et sapiens et cognovit bene naturam eorum.
+					<lb/>Et cum hoc intellexis[s]et rex Galatianus, venit ad eum ut
+					<lb/>adisceret artem falconum, quia ipse audivit a pluribus eum
+					<lb/>esse in predicta arte meliorem magistrum de mundo. Et
+					<lb/>incontinenti fecit parare milites suos, et statim ivit ad civitatem
+					<lb/>regis Danci et cepit albergariam in capite civitatis illius. Postea
+					<lb/>vero ivit ad palacium eius cum militibus suis. Tunc rex
+					<lb/>Dancus descendit de palatio suo cum militibus suis et recepit
+					<lb/>eum cum magno honore et duxit eum ad cameram suam.
+					<lb/>Camera vero erat valde preciosa et pulcra nimis et plena magno
+					<lb/>odore, celum vero camere erat mirabiliter pictum, et
+					<lb/>paries et fundamentum erant mirabiliter ornata. Lectum
+					<lb/>vero ejus erat de avolio, et corde erant de quadam bestia salvatica
+					<lb/>que appelatur vindia. Erat autem ecopertum de
+					<lb/>uno palio qui dicitur scaramatido, quem Jebi faciunt ex una
+					<lb/>parte maris, et sederunt ambo desuper. Postea vero
+					<lb/>rex Dancus cepit interogare eum pro qua causa venisset ad
+					<pb n="57"/>
+					<lb/>Galacianus autem rex inclinavit ei multum, voluitque
+					<lb/>ad pedes eius cadere, et accepit licentiam et rediit in terram
+					<lb/>suam, et fecit ad se venire Thanasium filium suum et
+				<lb/>dixit ei:</p>
+				<p><lb/>" Si velles ire ad adiscendum de arte falconis? "
+					<lb/>Et quando hoc audivit, gavisus est valde et dixit ei:
+				<lb/>" Mitte me ad illum! "</p>
+				<p><lb/>Qui misit eum ad curiam Dauci regis; puer autem erat
+					<lb/>in omnibus rebus curialis et doctus, preter in arte falconis.
+					<lb/>Tunc rex Dancus fecit ei multum servire, quia ipse didicit
+				<lb/>uno anno et sciebat universa omnia que rex Daucus sciebat.</p>
+			</div>
+			<div>
+				<head><lb/><hi rend="italic">Prologo di M.</hi></head>
+				<p><lb/>Dancus rex stabat in palatio quo, et ante eum stabant
+					<lb/>discipuli sui, et disputabant inter se quomodo possent
+					<lb/>habere sanos falcones suos, sparaverios et astores et quomodo
+					<lb/>possent eos facere arditos et quomodo possent capere
+					<lb/>magnas aves, gruem, sternam et anserem, et qualiter possent
+					<lb/>eos tenere in suo ardimento. Ipse quidem fuit divinus, sciens
+					<lb/>videre quod fuit aut quod esse debet. Qui cum audisset rex
+					<lb/>Galtianus, venit ad eum ut videret et intelligeret si verum esset
+					<lb/>quod audierat de eo in civitate Batam. Et veniens cepit
+					<lb/>hospitari in capitate civitatis et mandavit regi Danco quod
+					<lb/>volebat adiscere de falcone. Quod cum rex Dancus audivit,
+					<lb/>risit et mandavit ei quod veniret ad (ms. a ad) cameram suam.
+					<lb/>Camera vero erat ebrunea et preciosa et de omnibus bonis
+					<lb/>odoribus repleta, et celum camere erut pinctum de tantis
+					<lb/>mirabilibus quod non poterant numerari sicut stelle celi, et
+					<lb/>parietes et fundamentum mirabiliter erat ornatum, et lectus
+					<lb/>erat de ebore albo et corde lecti erant de quadam bestia
+					<lb/>silvestri que vocatur uncia, et erat copertus de una cultra
+					<lb/>sirici constantinopolitani et vocatur xaminum. Desuper jacebat
+					<lb/>rex Dancus. Qui cum vidisset Galitianum, fecit eum sedere
+					<lb/>in loco suo. Galitianus autem rex quando vidit cameram sic
+					<lb/>pinctam, valde miratus est. Rex vero Dancus sapiens sapienter
+					<lb/>quesivit qua de causa placuit ei venire ad ipsum.
+					<pb n="58"/>
+					<lb/>terram suam et quid sibi placeret. Tunc rex Galacianus
+					<lb/>sapienter respondit: "Ego veni ad videndum vos, quia audivi a
+					<lb/>pluribus de sensu et curialitate vestra et etiam vos melius scire
+					<lb/>naturam falconum et infirmitates eorum cognoscere et eas
+					<lb/>curare et quod bene scitis magnos ocelos capere cum eis,
+				<lb/>unde volo, si vobis placet, me esse vestrum discipulum. "</p>
+				<p><lb/>Respondit rex Dancus: " Non sum dignus ut scitis meus
+					<lb/>discipulus, sed eamus cras ambo ad campos, et videbitis ocelare
+				<lb/>meos ocellos " .</p>
+				<p><lb/>Et ita fecerunt. Rex Galacianus vidit eum bene ocelale.
+					<lb/>Dixit ei: "Certe verum est quod audivi de vobis, quia
+					<lb/>optime scitis artem ocelandi. " Et reversi sunt domum.
+				<lb/>Dixit rex Dancus: " Quid vobis placet? "</p>
+				<p><lb/>Respondit rex Galacianus: " Ego volo remittere omnes
+					<lb/>milites meos ad terram meam, et volo remanere vobiscum ad
+				<lb/>adis[c]endum artem falconum. "</p>
+				<p><lb/>Dixit ei rex Dancus: " Si vos desideratis scire artem
+					<lb/>falconum, [redite] ad terram vestram et mittite michi Athanasium
+					<lb/>filium vestrum, et pro amore vestro docebo eum ea que
+				<lb/>s[c]io de arte falconum. "</p>
+				<p><lb/>Tunc rex Galacianus retullit ei magnas grates et inclinavit
+					<lb/>ei vultum. Et accepit licenciam: " Abeo. " Et reversus
+					<lb/>fuit ad terram suam, et statim fecit venire ad se Anathasium
+				<lb/>filium suum et dixit ei:</p>
+				<p><lb/>" Vis tu adiscere artem falconum? "</p>
+				<p><lb/>Qui respondit: "Libenter volo."</p>
+				<p><lb/>Et statim rex Galatianus misit eum ad curiam regis
+					<lb/>Danci. Ipse vero recepit eum cum magno honore et valde
+					<lb/>gavisus de adventu ejus. Ipse autem Anathasius erat bonus,
+					<lb/>prudens et curialis, et tanti boni ingenii fuit quod in uno anno
+					<lb/>didicit omnia que rex Dancus sciebat de arte falconum, et de
+					<lb/>omnibus infirmitatibus infrascriptis scivit optime curam earum,
+				<lb/><hi rend="italic">videlicet (segue la tavola).</hi></p>
+				<pb n="59"/>
+				<p><lb/>Galicianus respondit ei et dixit: " Ego veni ad te ut
+					<lb/>audirem et viderem si est verum quod de te dicitur quia tu es
+					<lb/>sapientior homo qui sit in toto mundo et scis unam artem
+					<lb/>que facit unam avem capere aliam. Et ego volo esse tuus discipulus. "
+					<lb/>Cui rex Dancus dixit: " Venite cras mecum, et videbitis
+				<lb/>quid faciunt aves mee. "</p>
+				<p><lb/>Alia die ivit in campum secum, et quando vidit volare
+					<lb/>aves, placuit ei et dixit: " Bene est verum quod audivi " ,
+					<lb/>et cepit multum obedire ei. Mane vero Dancus interogavit
+				<lb/>Galicianum quid placebat ei.</p>
+				<p><lb/>Cui dixit Galicianus: " Volo remittere omnes meos homines
+					<lb/>qui mecum sunt, et remanebo pro tuo discipulo. "
+					<lb/>Cui rex Dancus respondit: " Ego non sum dignus ut tu
+					<lb/>sis meus discipulus, verumtamen si tu multum affectas artem
+					<lb/>istam scire, si tu habes filium, mitte ipsum ad me, et ego
+				<lb/>amore tuo docebo eum omnia que scio et que invenire potero. "</p>
+				<p><lb/>Cui dixit Galicianus: " Multum mihi placet id quod
+				<lb/>dicis. "</p>
+				<p><lb/>Et accepta ab eo licentia, rediit ad patriam suam, et
+					<lb/>fecit ad se venire Anarem filium suum et dixit ei:
+				<lb/>" Vis tu, fili, ire ad adiscendum artem falconum? "</p>
+				<p><lb/>Et respondit: " Volo, pater. "</p>
+				<p><lb/>Et misit eum ad curiam Danci regis. Rex vero Dancus
+					<lb/>honorifice eum recepit et eum docuit de arte falconum, sparaveriorum
+					<lb/>et astorum. Ille vero tam supertilis ingenii fuit
+					<lb/>quod in uno anno didicit omnia quecumque rex Dancus de
+				<lb/>ipsa arte sciebat.</p>
+			</div>
+		</div>
+		<pb n="60"/>
+		<div>
+			<div>
+				<head><lb/>[Tabula]</head>
+				<p><lb/>Incipiunt quedam capitula certarum infirmitatum que nasci
+				<lb/>possunt avibus rapacibus.</p>
+				<p><lb/>1. De dolore capitis qui dicitur furtivus</p>
+				<p><lb/>2. De malo agro</p>
+				<p><lb/>3. De gutta arthetica</p>
+				<p><lb/>4. De malo agro tesgo</p>
+				<p><lb/>5. De gutta que nascitur in gurga, que dicitur naturalis</p>
+				<p><lb/>6. Cum renes capit gutta mortalis</p>
+				<p><lb/>7. De gutta filera</p>
+				<p><lb/>8. De gutta granfo</p>
+				<p><lb/>Et hii sunt morbi que apparent de foris:</p>
+				<p><lb/>9. De pediculis</p>
+				<p><lb/>10. De febribus que pulmonem exurunt quando colluctantur</p>
+				<p><lb/>11. Et nascitur petra in magone que dicitur malfelon</p>
+				<p><lb/>12. Petra accidit in fundamento</p>
+				<p><lb/>13. Et postea de lumbricis
+				<lb/>14. Et de tinea que nascitur [in ala]</p>
+				<p><lb/>15. De mala infusione</p>
+				<p><lb/>16. [De ardimento]</p>
+				<p><lb/>17. [De naturis falconum]</p>
+				<p><lb/>18. [De gentilitate]</p>
+				<pb n="62"/>
+				<p><lb/>19. De podagra</p>
+				<p><lb/>20. De agro fumo</p>
+				<p><lb/>21. [Quando se percutit]</p>
+				<p><lb/>22. [De nutrimento]</p>
+				<p><lb/>23. De vulneribus</p>
+				<p><lb/>24. De mutatione</p>
+				<p><lb/>25. De pinguedine</p>
+				<p><lb/>26. De coctura</p>
+				<p><lb/>27. De marcea</p>
+				<p><lb/>28. De ungula</p>
+				<p><lb/>29. De balnea</p>
+				<p><lb/>30. De veneno</p>
+				<p><lb/>31. [De falconibus montenariis]</p>
+				<p><lb/>32. [De punctura pedum]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>1. Primo de furtivo.</head>
+				<p><lb/>Quando videris quod avis claudit oculos et move[t] caput,
+					<lb/>scietis quod furtivum habet. Sic medicari opportet: Tolle
+					<lb/>lardum et piper et misce et da ei manducare, et alia die
+				<lb/>de aloe cum carne pullina calida.</p>
+			</div>
+			<pb n="64"/>
+			<div type="chapter">
+				<head><lb/>2. De malo agro.</head>
+				<p><lb/>Quando vides quod apperit rostrum et latus et flancos
+					<lb/>movet, sciatis quod habet agrum. Sic medicari opportet:
+					<lb/>Tolle acum arge[n]team et calefac ad ignem et coque nares et
+					<lb/>onge eum oleo olive, quod si non potes habere, unge cum
+				<lb/>butiro</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>3. De malo tesgo.</head>
+				<p><lb/>Quando rigatus fuerit, sic medicare: Stafisagriam
+					<lb/>et piper equaliler et trita in mortario de petra vel de covro vel
+					<lb/>de metalo. Cum forti aceto distempera et mitte in nares
+				<lb/>cum bombace. Postea da ei carnem pullinam calidam.</p>
+			</div>
+			<pb n="66"/>
+			<div type="chapter">
+				<head><lb/>4. De arthetica.</head>
+				<p><lb/>Quando vides collum inflatum, scias quod arthetica est.
+					<lb/>Sic medicari opportet: Depilla collum avis et tolle sanguinem
+					<lb/>de vena originali et da ei comedere ranas. Si vides
+				<lb/>quod digerit. sanus erit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>5. De morbo.</head>
+				<p><lb/>Quando vides quod gorgia exsuflat et inflatur, scias quod
+					<lb/>morbum habet. Sic medicari opporet: Tolle sanquinem
+					<lb/>pavonis et muscatum et mirabollani et gariofolos et cinamomum
+					<lb/>et de zinzibre de colibet unciam unam, et facies
+					<lb/>novem morsus, et cottidie da ei unum ad tertiam, et
+				<lb/>postea ad nonam da sibi soricum.</p>
+			</div>
+			<pb n="68"/>
+			<div type="chapter">
+				<head><lb/>6. De morbo in renibus.</head>
+				<p><lb/>Quando habent morbum in renibus suis, scias quod non
+					<lb/>possunt smaltire longe, et quando se non poterunt alis
+					<lb/>verberare, eundem morbum paciuntur. Accipe mumiam et
+					<lb/>pillos leporinos et da ei comedere cum carnibus gatinis, et da
+					<lb/>ei usque ad novem dies. Et si utuntur illo pastu, sine dubio
+				<lb/>sanabuntur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>7. De gutta filera.</head>
+				<p><lb/>Ad falchonem qui habet guttam fileram. Si vis, potes
+					<lb/>agnos[c]ere ad ungula pedum et ad spectum rostri quod
+					<pb n="70"/>
+					<lb/>albescit; scias quod morbum illum habet. Accipe serpentem
+					<lb/>nigrum et incide ad mensuram palme unius a capite
+					<lb/>et tantumdem a cauda, et tolle illud de medio et minuta
+					<lb/>illud in olla nova, et accipe pinguedinem calidam quam
+					<lb/>faciet in olla et da ei cum carne pavonis usque ad octavum
+					<lb/>diem. Post octavam vero diem accipe porcellam et depilla
+					<lb/>eam cum aqua calida, et accipe teneritatem pectoris cum
+					<lb/>forcella et da ei comedere. Si bene digerit, procul dubio
+				<lb/>sanus erit.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>8. [Ad gutam granfam.]</head>
+				<p><lb/>Ad falconem qui habet guttam que grampha dicitur et
+					<lb/>deforis aparet, quod scias quando ponit unum pedem supra
+					<lb/>alium et percutit rostrum, tunc tolle ei sanguinem de vena
+				<lb/>que est inter pedem et gambam, sic sanus erit.</p>
+			</div>
+			<pb n="72"/>
+			<div type="chapter">
+				<head><lb/>De pediculis.</head>
+				<p><lb/>Quando vides falchones habere pediculos, sic medicari
+					<lb/>opportet: Accipe argentum vivum [et bacile unum] et mitte
+					<lb/>sputum hominis et cinerem et misce insimul donec argentum
+					<lb/>morietur, et accipe assungiam veterem et misce hec
+					<lb/>omnia et unge eum in sumitate capitis, et accipe fillum
+					<lb/>lane et liga ad collum eius, et sic occides eos. Et si ista
+					<lb/>nolueris facere, accipe piper et granula de fuxano et mitte
+				<lb/>omnia in olla nova cum aqua et lava eum totum, et sic sanabitur.</p>
+			</div>
+			<pb n="74"/>
+			<div type="chapter">
+				<head><lb/>10. De febre.</head>
+				<p><lb/>Quando vides pedem falchonis calidum, febrem habet.
+					<lb/>Si vis medicare, accipe de aloe et assungiam galline et
+					<lb/>mitte hec omnia in forti aceto et da ei comedere. Et si hoc
+					<lb/>pastu utitur, sanabitur. [Et in alio die accipe bixiam scutellariam
+					<lb/>et da ei ad manducandum. Si tenet illud pastum,
+				<lb/>sanus est.]</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>11. Quando habet lapidem in magone.</head>
+				<p><lb/>Quando vides quod ipse accipit carnem cum rostro et
+					<lb/>statim eam proicit, tunc habet lapidem in magone. Sic
+					<lb/>medicare opportet: .Accipe passeres et gariofores et trita et
+					<lb/>misce pulverem de garioforis cum passere et da ei comedere.
+				<lb/>Et in alio die da ei pupionem. Et si utetur, sanabitur.</p>
+			</div>
+			<pb n="76"/>
+			<div type="chapter">
+				<head><lb/>12. De lapide.</head>
+				<p><lb/>Quando non potest smaltire, scias quod habet lapidem.
+					<lb/>Sic medicare opportet: Accipe cor porcinum et setam porcinam
+					<lb/>et incide setam et misce cum carne et da ei comedere
+				<lb/>usque in tertiam diem, et sanabitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>13. De lumbricis.</head>
+				<p><lb/>Quando vides falchonem proic[i]entem lumbricos, sic
+					<lb/>medicare debes: Accipe limaturam ferri et pulveriza carnem
+					<lb/>porcinam et da ei comedere usque in tertiam diem, et sic
+				<lb/>sanabitur.</p>
+			</div>
+			<pb n="78"/>
+			<div type="chapter">
+				<head><lb/>14. De tinea.</head>
+				<p><lb/>Quando vides tineam malam, sic medica: Accipe
+					<lb/>ceram rubeam et muscatum et mirabal[an]um citrini et salgema,
+					<lb/>rutam et gumam edere et grana furmenti et mitte
+					<lb/>omnia in bacile cum forti aceto et dimitte per novem dies ad
+					<lb/>serenum, et postea pone in ampula vitr[e]a et lava tantum
+					<lb/>falchonem donec purificatur pluma. Et postea accipe
+					<lb/>aquam rosaceam et lava eum et mitte ad solem, et sanabitur.
+				<lb/>De unoquoque unziam unam et de cera libram mediam.</p>
+			</div>
+			<pb n="80"/>
+			<div type="chapter">
+				<head><lb/>15. De infundesonem.</head>
+				<p><lb/>Quando vides quod non accipit pastum et habet oculos
+					<lb/>grossos, scias quod patitur infundesonem. Accipe bonam
+					<lb/>lixivam et cinere sarmenti et ter colla ipsum, et exinde
+					<lb/>imple gorgiam falchonis et dimitte tantum donec digerit,
+				<lb/>et postea accipe lacertam et da ei comedere, et sanabitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>16. [De ardimento.]</head>
+				<p><lb/>Quando vis facere falchones arditos, tene multum falchonem
+					<lb/>in manu et da ei de carne pullina coxam unam in hora
+					<lb/>tertie et postea mitte eum in aqua ut se balneet. Postea
+					<lb/>mitte eum ad solem donec se perungat et postea mitte eum
+					<pb n="82"/>
+					<lb/>in obscuro loco usque ad vesperam et postea teneas eum in
+					<lb/>manu usque ad hora[m] eundi ad lectum ad primum sompnum
+					<lb/>et postea dimitte eum ex una parte et lucernam ardentem ante
+					<lb/>eum per totam noctem. Et quando audis campanam diei,
+					<lb/>asperge eum vino et postea mitte eum ad solem vel ad ignem.
+					<lb/>Quando postea erit hora, vade venatum cum quatuor ve
+					<lb/>cum quinque hominibus. Et si videris quod voluntatem
+					<lb/>habeat capiendi aves, dimitte eum ire ad aves, et si ceperit,
+					<lb/>ciba eum de eve capta quantum voluerit. Si autem non
+					<lb/>capiet, da ei de una gallina allam unam et coxam mediam
+				<lb/>et postea mitte eum in obscuro.</p>
+				<p><lb/>In alio die dicta eum: Accipe pullum parvulum et mitte
+					<pb n="84"/>
+					<lb/>coxam in aqua frigida et dimitte ibi a mane usque ad
+					<lb/>tertiam et pasce eum cum tribus purgatoriis [et da ei mediam
+					<lb/>coxam cum purgatoriis,] et postea pone eum in obscuro
+					<lb/>usque ad vesperam. Postea tolle eum in manu et tene eum
+					<lb/>usque ad primum sompnum et mitte ante eum lucerna[m]
+					<lb/>ardentem per totam noctem. Et quando audis matutinum,
+					<lb/>asperge eum vino et mane vade venatum. Si capit bene
+					<lb/>aves, tene eum [in] illa dieta, si autem non capiet, da ei
+					<lb/>solomodo purgatoria in aqua et non aliud. Si autem per
+					<lb/>hoc non capiet, alia die da ei forte acetum cum carne pulli
+					<lb/>parvuli coxam unam cum tribus purgatoriis de bombice,
+					<lb/>et postea mitte eum in obscuro usque ad vesperum et
+					<lb/>postea teneas eum in manu usque ad primum sompnum.
+					<pb n="86"/>
+					<lb/>Et calefac aquam et balnea eum et mitte ad serenum usque
+					<lb/>ad matutinum, postea calefac eum ad igem et vade
+				<lb/>venatum.</p>
+				<p><lb/>Ista sunt tormenta falchonum, et tu, magister falchonum,
+					<lb/>prospice virtutem eorum, et secundum virtutem fatiga
+					<lb/>eos. Si forte satur fuerit, da ei lardum in aqua frigida
+				<lb/>in sero.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>17. De multis naturis falchonum.</head>
+				<p><lb/>[De multis naturis] sunt. Quedam ad venandum sunt
+					<lb/>agiles cum sunt pingues, quedam cum sunt macre. De hiis,
+					<lb/>magister falchonum, cognitionem [habeas]. Omnes falchones
+					<lb/>capere debent magnas aves, et tu, magister, ingenio tuo
+					<lb/>facias eos capere magnas aves, sicut supradiximus, [et] postea
+				<lb/>parvulas.</p>
+				<p><lb/>Omnes falcones qui habent pennam albam sunt mellancolici.
+					<pb n="88"/>
+					<lb/>Convenit medicari eum medicinis calidis et shumidis,
+					<lb/>sicut sunt aloe, piper paulinum, carnes pulli magni, passeres,
+				<lb/>columbi magni et capre magne et yrci.</p>
+				<p><lb/>Omnes falcones qui habent pennam albam sunt flegmatici,
+					<lb/>et scici. Convenit medicari cum medicinis calidis et
+					<lb/>scicis, sicut sunt piper, cuminum, cinamomum, [gariofoli],
+					<lb/>sirmontanum, tymi, cardamomum, carnes yrci, cornicule et
+					<lb/>nilvi rubei, frexones, piccarusuli et carnes grandium animalium
+				<lb/>et passeres magni.</p>
+				<p><lb/>Omnes falchones qui habent pennas rubeas sunt sanguinei,
+					<lb/>sic convenit medicari cum medicinis frigidis et humidis,
+					<lb/>sicut sunt mortina, tamarendi, medula cassiafistule,
+					<lb/>manna, et omnia ista in aceto, carnes pulline, agneline, camici,
+				<lb/>agirones et scarças.</p>
+			</div>
+			<pb n="90"/>
+			<div type="chapter">
+				<head><lb/>18. [De gentilitate.]</head>
+				<p><lb/>Quando vis cognoscere nobilitatem falchonum, aspice si
+					<lb/>habet caput rotundum, in sumitate eius planum, et rostrum et
+					<lb/>curtum et crossum et collum lungum et spatulas amplas
+					<lb/>et penas allarum subtilles et coxias lungam et tibiam curtam
+					<lb/>et crossam, pedes lividos, spartos et macros. Scias quia
+					<lb/>nobiles sunt. Ista est bona cognitio falchonum. Tamen
+				<lb/>multi rustici sunt boni.</p>
+				<p><lb/>Quando vides falchonem rusticum bonum esse, poteris
+					<lb/>venari cum eo securius quam cum nobili. Et debes custodire
+					<lb/>pennas suas ne frangantur cum aqua calida, et debes
+					<lb/>illum multum medicari cum aloe. Et da ei comedere de
+					<pb n="92"/>
+					<lb/>tertio in tertium diem. Custodias eum ut sedeat super lignum,
+					<lb/>et ne mittas super petram. Custodias omnes falchones,
+				<lb/>astures et speriverios ne approximent et tangant calcinam.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>19. De podagra.</head>
+				<p><lb/>Quando vides falchonem habere oculos et pedes inflatos,
+					<lb/>scias quod podagram habet. Sic medicari opportet: Accipe
+					<lb/>butirum et oleum olive et aloe dragmam unam, de butiro onciam
+					<lb/>unam, de oleo onciam unam, et misce omnia simul et
+					<lb/>unge pedes eius quatuor vicibis de die in diem et mitte eum ad
+				<lb/>solem. Et da ei comedere carnem gatti, et sanabitur.</p>
+			</div>
+			<pb n="94"/>
+			<div type="chapter">
+				<head><lb/>20. [De agro fumo.]</head>
+				<p><lb/>Quando vides falchonrm cum rostro tangere pedes suos
+					<lb/>et extrait sibi pennas de cauda, tunc patitur agrum fumum.
+					<lb/>Sic medicari opportet: Accipe stercus anseris et fimatam
+					<lb/>peccorinam et aloe et forte acetum, equaliter de omnibus,
+					<lb/>et omnia pone in bacilli ereo et misce in simul et dimitte ad
+					<lb/>serenum per tres dies et balnea postea totum falchonem
+					<lb/>et da ei comedere carnem columbinam et cum melle et cum
+					<lb/>piper et mitte eum in obscuro et fac ita per novem dies.
+					<lb/>Quando videbis bonam pennam venire in cauda, accipe
+				<lb/>aquam rosaceam et lava eum, et sanabitur</p>
+			</div>
+			<pb n="96"/>
+			<div type="chapter">
+				<head><lb/>21. [Quando se percutit.]</head>
+				<p><lb/>Quando falcho tuus se percutit cum alia ave et corrumpit
+					<lb/>se intus, sic medicari opportet: Accipe pomeriam et da ei
+					<lb/>comedere cum carne pupionis calidi et fac ita per novem dies,
+				<lb/>et sanabitur.</p>
+				<p><lb/>Et ista sunt mala vitia que magistri potuerunt invenire
+				<lb/>in falchonibus et in aliis avibus.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>22. [De nutrimento].</head>
+				<p><lb/>Quando aliquis vult nutrire falchonem parvulum sine
+					<lb/>vitio, pascat eum carnibus ircinis et pullinis, et si aliam
+					<lb/>carnem comederit, perdet: allam vel coxam vel aliud membrum.
+					<lb/>De prima ave quam capiet da ei comedere quantum voluerit
+					<lb/>usque ad tertiam avem. Quando vis ut capiat aliam
+				<lb/>avem, stringe eum ut supra diximus.</p>
+			</div>
+			<pb n="98"/>
+			<div type="chapter">
+				<head><lb/>23. [De vulneribus.]</head>
+				<p><lb/>Quando habes falchonem vulneratum super pennam ubi
+					<lb/>nascitur, sic medicari opportet: Accipe albumen ovi et
+					<lb/>oleum olive et misce in simul et unge ubi est vulnus, et custodias
+					<lb/>eum ab aqua ne tangat ibi. Quando vis mutare, lava
+					<lb/>cum vino calico et fac ita donec habuerit crossam. Et si
+					<lb/>videris quod tangat sibi vulnus, pone ibi de aloe. Et si
+					<lb/>videris quod vulneratus sit sub alla vel in pectore vel in costatum
+					<lb/>vel in coxa, mitte ibi stupam crossam bene tritam
+					<lb/>cultello donec cum mala carne corrodatur. Postea accipe
+					<lb/>thus et ceram equaliter et sepum et pinguedinem, [et distempera]
+					<lb/>omnia in olla ad ignem, et hoc erit attractum. Quando
+					<pb n="100"/>
+					<lb/>vis ungere, fac illud calidum et unge cum pena donec faciat
+					<lb/>crossam. Et si videris quod sit de mala carnositate quod
+					<lb/>non liberatur, accipe de viride ere et mitte ibi donec mala caro
+					<lb/>corrodatur. Postea vero accipe unguentum album et mitte
+				<lb/>ibi, et sanabitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>24. [De mutatione.]</head>
+				<p><lb/>Quando vis eum cito mutare, a medio februarii mitte
+					<lb/>eum in muta et da ei comedere omnes carnes usque ad medium
+					<lb/>marcium. Postea mitte eum in concha plena aque et da ei
+					<lb/>multum comedere. Et si videris quod ita non mutet, accipe
+					<lb/>recocta lactis cum melle et unge carnem et da ei. Et si non
+					<lb/>muttat, accipe ranam et fac in pulverem et pulveriza carnem
+					<lb/>et da ei. Et si se muttabit, cave ne tollas eum de mutta
+					<pb n="102"/>
+					<lb/>donec penne non sint complete. Et quando tolles eum de
+					<lb/>mutta, cave ne teneas eum ad calorem. Postea pasce eum
+					<lb/>cum carne pullina lavata in aqua et teneas eum multum in
+					<lb/>manu. Et non ibis venatum usque ad XV dies, postea, si
+					<lb/>poteris, facias eum capere avem que dicitur livertinus.
+					<lb/>Et tu, magister, secundum voluntatem tuam mutta,
+				<lb/>quare non potest esse mala nisi culpa tui.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>25. [De pinguedine.]</head>
+				<p><lb/>Quando vides quod nimis est pinguis, non veneris cum
+					<lb/>ea. Si venaberis cum ea, non capiet avem et cito volabit in
+					<lb/>aliam partem et non rediret ad te. Fac ita: Accipe carnem
+					<lb/>pulli parvi et mitte in aquam frigidam et da ei comedere donec
+					<lb/>mediam carnem habeat. Et si videris quod voluntarie redibit
+					<pb n="104"/>
+					<lb/>ad te, dimitte eum volare ad avem, et si bene ceperit
+					<lb/>avem, semper teneas eum in ipsa pinguedine, et, [si non
+					<lb/>feceris ita, malus magister es, et] propter hoc omnes falchones
+				<lb/>et astures et spereverii vicium adiscunt.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>26. [De coctura.]</head>
+				<p><lb/>Danchus rex hoc cogitavit et cognovit qualiter posset
+					<lb/>cauterizare aves suas ne guttam incur[r]a[n]t. Cauteriza
+					<lb/>prius sub oculis et confert visui, postmodum in sumitate capitis
+					<lb/>pro dolore et supra nodum ale pro gutta [et in renibus pro
+					<lb/>gutta] et in planta pedis pro gutta. Et iste cauteriçationes
+				<lb/>faciende sunt in mense marcii.</p>
+			</div>
+			<pb n="106"/>
+			<div type="chapter">
+				<head><lb/>27. De fistula.</head>
+				<p><lb/>Quando videris putredinem fluere per nares avis et non
+					<lb/>potest comedere et fetet, scies quod fistulam habet. Sic
+					<lb/>medicari opportet: Depilla eum aliquantulum retro caput et
+					<lb/>unge cum assungia, et si non habueris assungiam, de butiro
+					<lb/>unge eum. Et postea invenies venam que vadit ad oculos
+					<lb/>et incide eam. Accipe acum ferream et calefac ad ignem et
+					<lb/>cauteriza sic ut exeat ex [alia] parte, et tolle butirum cottidie
+					<lb/>et unge et pone eum in calido loco usque ad novem dies,
+				<lb/>et sanabitur.</p>
+			</div>
+			<pb n="108"/>
+			<div type="chapter">
+				<head><lb/>28. [De ungula.]</head>
+				<p><lb/>Quando vides falchonem qui perdit ungulas pedum, sic
+					<lb/>medicari opportet: Accipe cartam bombacis et acende cum
+					<lb/>candella et coque digitum in sumitate unde cadit ungula.
+					<lb/>Et accipe postea mel et unge eum et liga cum carte bombacis
+				<lb/>et dimitte eum per octo dies, et sanabitur.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>29. [De balneo.]</head>
+				<p><lb/>Quando balneas falchonem, vide [ne] mittas eum super
+					<lb/>lignum marcidum, et ideo non debes mittere ne sit ibi
+					<lb/>venenum serpentis vel tarantule vel ranie vel rospi. [Et si
+					<lb/>evenerit quod ista falconem morderent,] accipe triacam et grana
+					<pb n="110"/>
+					<lb/>juniperi tria, da sibi cum petra asinina et custodi eum ab aqua
+					<lb/>usque ad octo dies. Et accipe rana[m] et arde in testu et
+					<lb/>fac pulverem et pulveriza carnem gatti et da ei comedere, et
+				<lb/>sanabitur.</p>
+				<p><lb/>Si aliqua bestia mordebit falchonem, sic medicare opportet:
+					<lb/>Depila eam ubi mordicata est, et si est parva plaga,
+					<lb/>amplifica eam cum araxorio, et calefac butirum et unge eum.
+					<lb/>Et postea fac atractum de thure et de rasa et cera et de
+				<lb/>sepo, et unge ibi.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>30. [De veneno.]</head>
+				<p><lb/>Quando falcho est balneatus et ipse se perungit, malum
+					<pb n="112"/>
+					<lb/>est tangere eum, quia venenosum habet flatum et pedes. Et
+					<lb/>si vis portare eum foras, habeas bonam cyrothecam, quia, si
+					<lb/>forabit manum, malum faciet tibi. Et si vis cito venari,
+				<lb/>asperge eum cum aqua et vade venatum.</p>
+				<p><lb/>Ista est perfecta natura falchonum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>31. [De falconibus montenariis.]</head>
+				<p><lb/>Alii sunt falchones qui appelantur falchoni montenarii.
+					<lb/>Isti sunt magni ardi[men]ti, et sunt multum perv[er]si.
+					<lb/>Nullus scit ita custodire falchones istos sicut alios, nisi
+					<lb/>ita custodiat sicut iste liber dicit. Tales falchones non
+					<pb n="114"/>
+					<lb/>capiunt parvas aves sed magnas. Plus opportet eum tenere
+					<lb/>in manu et facere vigilare, plus quam alios falchones. Et
+					<lb/>tu, magister, habeas eos multum pingues, nec multum
+					<lb/>macros, et si infirma[n]tur, ita cura. Si alium morbum, ut
+					<lb/>superius dictum est, incur[r]it, non medicare eum nisi cum
+					<lb/>passere et pipione. Et postea accipe ollam novam et imple
+					<lb/>eam aqua et mitte in furno et coque eam intus, et si biberit,
+					<lb/>sanabitur. Et si non biberit, medicare eum cum dictis
+					<lb/>medicinis et mitte eum [in obscuro]. Et si potes eos
+					<lb/>habere sanos, scias bene quod isti sunt meliores falchones qui
+				<lb/>sint in mundo.</p>
+				<p><lb/>Quando vis eos constringere, ita constringe: decoria
+					<pb n="116"/>
+					<lb/>gallinam et fac tria purgatoria et da eis. Et si vis eos
+					<lb/>habere sanos, unge cyrothecam muscato, et erunt sani,
+					<lb/>et non dimittas eos stare foras in campo. Et quando vis
+					<lb/>eos dimittere vollare ad aves, prius dimittas quam alios falchones.
+					<lb/>Et si non capiet, non timeas, quia ipse revertetur ad
+				<lb/>pugnum.</p>
+			</div>
+			<div type="chapter">
+				<head><lb/>32. [De punctura pedum.]</head>
+				<p><lb/>De punctura pedum. Et si pes inflatur, sic medicare
+					<lb/>opportet: Accipe malv[a]m et mitte in testa ovi cum aqua
+					<lb/>et mitte ad ignem et decoque et trahe foras et pista malvam,
+					<lb/>et postea accipe similam furmenti et oleum olive, tantum
+					<lb/>de uno quantum de altero, et misce omnia in simul in
+					<lb/>bacili et mitte supra pedem inflatum et liga eum. Et fac
+				<lb/>ita cottidie, et sic sanabitur.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

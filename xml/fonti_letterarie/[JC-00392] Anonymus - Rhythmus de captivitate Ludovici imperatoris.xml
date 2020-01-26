@@ -1,0 +1,164 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rhythmus de captivitate Ludovici imperatoris</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>C. Russo Mailler</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="204" unit="words">Parole: 204</measure>
+				<measure quantity="1217" unit="characters_without_spaces">Caratteri (spazi esclusi): 1217</measure>
+				<measure quantity="1389" unit="characters_witht_spaces">Caratteri (spazi inclusi): 1389</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2012-11-15">15/11/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Poesia lirica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 229
+					Caratteri (con spazi): 1548
+				SM</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>C. Russo Mailler</editor>
+						<title>La politica meridionale di Ludovico II e il "Rhythmus de captivitate Ludovici imperatoris"</title>
+					</analytic>
+					<monogr>
+						<title level="j">Quaderni medievali XIV</title>
+						<imprint>
+							<date>1982</date>
+							<biblScope unit="page">6-27</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Poesia lirica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="0801/0900">IX</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok. Anche qui si (mi pare) vi sono versi divisi in due parti, separate con una lacuna. Questa lacuna era scritta come una serie di spazi vuoti. Il problema è che i browser ignorano tali serie di spazi e le riducono a solo uno spazio. Seguendo le TEI guidlines, per tali versi si deve usare il tag &lt;seg&gt; per ognuna delle due metà (&lt;l&gt;&lt;seg&gt;Inclitorum Pisanorum&lt;/seg&gt; &lt;seg&gt;scripturus istoriam&lt;/seg&gt;&lt;/l&gt;). Ho quindi seguito questa indicazione.</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="18"/>
+		<div>
+			<lg>
+				<l><seg>Audite, omnes fines terre,</seg> <seg>orrore cum tristitia</seg></l>
+				<l><seg>quale scelus fuid factum</seg> <seg>in Benevento civitas:</seg></l>
+				<l><seg>Lhuduicum compreenderunt</seg> <seg>sancto pio augusto.</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Beneventani se adunarunt</seg> <seg>ad unum consilium,</seg></l>
+				<l n="5"><seg>Adelferio loquebatur</seg> <seg>et dicebant principi:</seg></l>
+				<l><seg>«Si nos eum vivum dimitemus,</seg> <seg>certe nos peribimus;</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Celus magnum praeparavit</seg> <seg>in istam provintiam,</seg></l>
+				<l><seg>regunm nostrum nobis tollit</seg> <seg>nos habet pro nihilum,</seg></l>
+				<l><seg>plures mala nobis fecit</seg> <seg>rectum est ut moriad.»</seg></l>
+			</lg>
+			<lb/>
+			<pb n="19"/>
+			<lg>
+				<l n="10"><seg>Deposuerunt sancto pio</seg> <seg>de suo palatio</seg></l>
+				<l><seg>Adelferio illum ducebat</seg> <seg>usque ad pretorium;</seg></l>
+				<l><seg>ille vero gade visum</seg> <seg>tamquam ad martirium.</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Exierunt Sado et Saducto</seg> <seg>inoviabant imperio;</seg></l>
+				<l><seg>ete ipse sancte pius</seg> <seg>incipiebat dicere:</seg></l>
+				<l n="15"><seg>«Tamquam ad latronem venistis</seg> <seg>cum gladibus et fustibus.</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Fuid namque tempus</seg> <seg>vos allevavi in omnibus,</seg></l>
+				<l><seg>modo vero surrexistis</seg> <seg>adversum me consilium;</seg></l>
+				<l><seg>nescio pro quid causam</seg> <seg>vultis me occidere.</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Generacio crudelis</seg> <seg>veni interficere,</seg></l>
+				<l n="20"><seg>ecclesieque sanctis Dei</seg> <seg>venio diligere,</seg></l>
+				<l><seg>sanguine veni vindicare</seg> <seg>quod super terram fusus est.»</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Kalidus ille temtator</seg> <seg>ratum adque nomine</seg></l>
+				<l><seg>coronam imperii sibi in caput ponet</seg> <seg>et dicebat populo:</seg></l>
+				<l><seg>«Ecce sumus imperator,</seg> <seg>possum vobis regere.»</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l n="25"><seg>Leto animo habebat</seg> <seg>de illo que fecerat,</seg></l>
+				<l><seg>a demonio vexatur,</seg> <seg>ad terram ceciderat:</seg></l>
+				<l><seg>exierunt multe turme</seg> <seg>videre mirabilia</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Magnus dominus Jesus Christus</seg> <seg>iudicavit iudicium:</seg></l>
+				<l><seg>multa gens paganorum</seg> <seg>exit in Calabria,</seg></l>
+				<l n="30"><seg>super Salerno pervenerunt</seg> <seg>possidere civitas.</seg></l>
+			</lg>
+			<lb/>
+			<lg>
+				<l><seg>Iuratum est ad</seg> <seg>sante Dei reliquie</seg></l>
+				<l><seg>ipse regnum defendendum</seg> <seg>et alium requirere.</seg></l>
+			</lg>
+		</div>
+	</body>
+</text>
+</TEI>

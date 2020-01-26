@@ -1,0 +1,1790 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vita Sancti Francisci</title>
+				<author>Iulianus de Spira</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Cremascoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="ALIM">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="12484" unit="words">Parole: 12484</measure>
+				<measure quantity="78659" unit="characters_without_spaces">Caratteri (spazi esclusi): 78659</measure>
+				<measure quantity="89700" unit="characters_witht_spaces">Caratteri (spazi inclusi): 89700</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2005-04-21">21/04/2005</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Agiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Caratteri (con spazi): 93.513&#13;
+M.R.</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+                                        <analytic>
+                                                <author>Iulianus de Spira</author>
+                                                <editor>G. Cremascoli</editor>
+                                                <title>Vita Sancti Francisci</title>
+                                        </analytic>
+					<monogr>
+						<title level="m">Fontes franciscani</title>
+						<editor>S. Brufani</editor>
+						<editor>E. Menesto et alii</editor>
+						<imprint>
+							<publisher>Edizioni Porziuncola</publisher>
+							<pubPlace>Assisi</pubPlace>
+							<date>1995</date>
+							<biblScope unit="page">1025-1095</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Agiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="ALIM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-07" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="1025"/>
+		<div>
+			<head><lb/><hi rend="bold">Prologus.</hi></head>
+			<p><lb/>In Nomine Domini.</p>
+			<p><lb/>Introitus in vitam sancti Francisci.</p>
+			<p><lb/>Ad hoc quorumdam, quos speciali meritorum praerogativa Dominus
+				<lb/>privilegiare disposuit, priora quaedam in divinis eloquiis commemorantur
+				<lb/>infirma sanctorum, quatenus inscrutabilem divini consilii
+				<lb/>profunditatem mirantes pariter et laudantes, quo lapsi quidam excellentioribus
+				<lb/>super plerosque iustorum meritis sublimantur, nec innocentes
+				<lb/>quasi de <hi rend="italic">sua confisi iustitia</hi> in imo vitiorum prostratos
+				<lb/>despiciant, nec tamen de suis impii flagitiis desperantes pro venia
+				<lb/>postulanda propinquare ad fontem misericordiae Dominum pertimescant.
+				<lb/>Sic nimirum pia iustorum humilitas Domini iudicis iustitiam
+				<lb/>metuit, ne ruinosus eos praesumptionis tumor extollat; sic tam firma
+				<lb/>quam discreta lapsorum spes de pii patris benignitate praesumit,
+				<lb/>ne horrenda ipsos vorago desperationis absorbeat; sic quoque stupenda
+				<lb/>in omnibus et laudanda <hi rend="italic">magnificentiae</hi> Domini <hi rend="italic">gloria</hi> praedicatur,
+				<lb/>quae et gratuito diligens sustentat iustos ne <hi rend="italic">corruant</hi>, et
+				<lb/>benigne commiserans <hi rend="italic">erigit elisos</hi> ne pereant. Hinc Christum negasse
+				<lb/>primum eiusdem vicarium; hinc et ipsum <hi rend="italic">vas electionis</hi> Christi
+				<lb/>legimus <hi rend="italic">Ecclesiam persecutum</hi>; ob hoc etiam publicanus ille, qui
+				<lb/>et apostolus et evangelista vocatur; sed et illa specialis Christi discipula
+				<lb/>septem daemoniis obsessa narratur. Hinc gloriosi confessoris
+				<pb n="1026"/>
+				<lb/>et levitae Christi Francisci breviter utcumque gesta scripturi, priora
+				<lb/>quaedam ipsius infirma praemittimus, ut conversationis eius ultimis
+				<lb/>quae plene vel digne explicare non possumus, ad prima collatis, conversionis
+				<lb/>illius auctor magnifice ab omnibus collaudetur, pia innocentibus
+			<lb/>humilitas augeatur, firmiorque prolapsis de venia spes donetur.</p>
+			<p><lb/>Explicit prologus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput I - Quo ordine sit conversus ac sua vendiderit, et quanta</hi>
+			<lb/><hi rend="bold">a patre eum persequente sustinuit.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">1</hi></head> <p>Fuit igitur in vallis Spoletanae finibus, civitate Assisio, vir
+					<lb/>quidam nomine Franciscus, negotiator officio, praedives transitoriis
+					<lb/>opibus, sed <hi rend="italic">iustitiae</hi> pauper <hi rend="italic">operibus</hi>. Nam a primaevo aetatis
+					<lb/>suae tempore in mundi vanitatibus indecenter nutritus, suis etiam
+					<lb/>nutritoribus insolentior est effectus. Quid multa? Hic saeculi miserrimae
+					<lb/>felicitati et gloriae penitus intendebat; caeterosque in his praeire
+					<lb/>conatus, cordis inquieti lasciviam iocis et lusibus, gestu et habitu, verbis
+					<lb/>impudicis et cantibus ostentabat. Et cum esset pecuniarum cautissimus
+					<lb/>conquisitor, etsi in dispensando vel retinendo largitatis
+					<lb/>medium non tenebat, plus tamen in partem prodigalitatis quam avaritiae
+					<lb/>declinabat. Unde cum propter inanem suorum dissipationem
+					<lb/>videretur affabilis et humanus, multorum ob hoc sibi cohaerentium
+					<lb/><hi rend="italic">caudam</hi> post se <hi rend="italic">traxit</hi> iniquam, qui ipsum veluti caput et ducem
+					<lb/>sequebantur praecipites ad ruinam. Sic, suorum complicum stipatus
+					<lb/>agminibus, usque ad annum aetatis suae fere vigesimum quintum
+					<pb n="1027"/>
+					<lb/>in via perditionis incessit; donec ad declarandam <hi rend="italic">mirabilium
+					<lb/>suorum</hi> gloriam Domino complacuit, ut miranda in illo <hi rend="italic">dexterae Excelsi
+					<lb/>mutatio</hi> et in stuporis exemplum posteris fieret, respirandique
+				<lb/>in gratiam peccatoribus spem praeberet.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">2</hi></head> <p>Aggreditur itaque primum divina miseratio, ad illius multorumque
+					<lb/>salutem, corporalibus molestiis erroneum revocare, et diutinis
+					<lb/>attritum languoribus coëgit iam solitis dissimilia cogitare; sicque
+					<lb/>factum est ut inciperet, etsi non plene, mansuescere sub flagellis,
+					<lb/>quod antea nesciebat in prosperis. Tandem namque tantillo virium
+					<lb/>resumpto, ut baculi adminiculo sustentatus incederet, totam ei circumiacentem
+					<lb/>contemplanti provinciam quodam modo taedium generabat
+					<lb/>quidquid visu pulchrum in desiderio prius habuerat; sed et
+					<lb/>talium amatores stultissimos reputabat.
+					<lb/>Sed quoniam prosperitas post periculum facile consuevit incautos
+					<lb/>decipere, coepit vir iste, arridentibus iterum prosperis, adhuc sibi maiora
+					<lb/>prioribus de saeculi vanitate promittere, qui plene necdum perversae
+					<lb/>servitutis <hi rend="italic">iugum excusserat de cervice</hi>. Nam quodam nobili civitatis
+					<lb/>Assisii vanis laudibus augendisque pecuniis inhiante et ob hoc
+					<lb/>militaribus ornamentis ad eundum in Apuliam se parante, Franciscus,
+					<lb/>iam pristino corporis recuperato vigore, non minus divitiarum et gloriae
+					<lb/>cupidus, eidem nobili sociare se studuit, veluti qui levis animo
+					<lb/>iam iam paternae correctionis non meminit. Sed in hoc satis est divini
+					<lb/>dispositio miranda consilii, quod is, qui iam pridem mansuescere
+					<lb/>coeperat per languores meritoque ad plenum corrigi flagellatus debuerat,
+					<lb/>iam nunc secundo coepit inde mirabilius a suo proposito revocari,
+				<lb/>unde rationabiliter videbatur ad hoc debuisse potius animari.</p>
+				<pb n="1028"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">3</hi></head> <p>Nam nocte, cum ad iter Apuliae consummandum tota
+					<lb/>se dedisset, ostensa est ei per visionem domus sua militaribus
+					<lb/>apparatibus plena, quae venalium esse consueverat pannorum
+					<lb/>cumulis occupata. Stupenti igitur ad eventum rei insolitum responsum
+					<lb/>est, haec omnia fore sua militumque suorum. Evigilans autem,
+					<lb/>quamvis huiusmodi visionem suo proposito videret applaudere et ad illud
+					<lb/>exsequendum prosperitatis eam praesagium reputaret, subito tamen
+					<lb/>et mirabiliter circa haec eadem quae conceperat coepit tepescere,
+					<lb/>ita ut ad haec explenda iam a seipso vim fieri sibimet oporteret;
+					<lb/>donec tandem, non multo post, ire in Apuliam penitus recusaret. Sic
+					<lb/>novae militiae dux futurus ex hac ipsa sui mutatione perpendit, iam
+					<lb/>dictam visionem longe aliud quam crediderat importare; sic armis
+					<lb/>caelestibus, quibus postmodum contra omnes tentationes viriliter utebatur,
+					<lb/>acceptis, coepit ex tunc mores pristinos ad plenum mutare.
+					<lb/>Franciscus itaque iam a publicae negotiationis tumultu se subtrahens,
+					<lb/>evangelicus <hi rend="italic">negotiator</hi> efficitur, et quasi <hi rend="italic">bonas margaritas</hi>,
+					<lb/>donec <hi rend="italic">unam pretiosam inveniat, quaerit</hi>, dum ad videndum quid
+					<lb/>Deo placentius inchoet, diversarum meditando virtutum officinas ingreditur.
+					<lb/>Cumque sic in agrum dominicum meditari secedit, <hi rend="italic">thesaurum</hi>
+					<lb/>illic <hi rend="italic">absconditum invenit</hi> et recondit, eumque cum <hi rend="italic">agro, venditis
+				<lb/>omnibus</hi>, comparare proponit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">4</hi></head> <p>Iam novi propositi novum consiliarium quaerit: Deum, quid
+					<lb/>agat, unicum consulit, nullique mortalium quid intendat exponit.
+					<lb/>Solum tamen quemdam sibi prae caeteris familiarem gaudii sui participem
+					<lb/>esse desiderans, quin potius occasionem, ut verbis aliquando
+					<pb n="1029"/>
+					<lb/>laetitiam mentis exprimeret, quaerens, ipsum ad loca secretiora saepius
+					<lb/>evocabat; et quidem sub aenigmate loquens, sed omnino propositi
+					<lb/>sui secreta non reserans, magnum se pretiosumque thesaurum
+					<lb/>reperisse dicebat. Congratulabatur sibi vir ille non modicum, laetanter
+					<lb/>cum ipso, quotiescumque vocabatur, egrediens et de thesauro
+					<lb/>utcumque loquenti libentissime colloquens. Intrabat autem crebro
+					<lb/>vir novo perfusus spiritu quamdam cryptam, socio deforis exspectante
+					<lb/>et quid intus ageret penitus ignorante; ibique cum lacrimis
+					<lb/>caelestem exorabat <hi rend="italic">in abscondtto Patrem</hi>, ut, viam ipsius dirigens,
+					<lb/>suam ei plenius ostenderet voluntatem. Sic iugiter in oratione persistens,
+					<lb/>semetipsum graviter affligebat, et donec divinitus qualiter
+					<lb/>inchoandum cognosceret, affectionum sibi vicissim succedentium importunitas
+					<lb/>ipsum quiescere non sinebat. Alternabantur namque in
+					<lb/>illo gaudium pro gustati dulcedine spiritus, dolor gravissimus pro peccatis
+					<lb/>praeteriti temporis, timor non modicus de futuris, fervensque
+				<lb/>desiderium super iis quae conceperat consummandis.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">5</hi></head> <p>Tandem, miseratione divina plenius invocata, pro optato meruit
+					<lb/>exaudiri, caelicoque infallibiliter indicio quid ageret edoceri. Tantoque
+					<lb/>deinceps perfusus est gaudio, ut, iam se continere non valens, quaedam
+					<lb/>etiam nolens in publicum verbotenus depromeret: ire quidem in Apuliam
+					<lb/>recusaret, sed grandia se facturum in propriae nationis terra promitteret.
+					<lb/>Mirantibus igitur cunctis et sciscitantibus an ducere vellet uxorem,
+					<lb/>sponsam se ducturum respondit plus sapientem, plus nobilem, plus
+				<lb/>omnibus, quam umquam viderint, amabilem et decoram.</p>
+				<pb n="1030"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">6</hi></head> <p>Iam vir divino munere confirmatus pium mentis desiderium
+					<lb/>complere non distulit; sed facultate se temporis offerente, laetus
+					<lb/>exsurgens confidenter se crucis signo munivit, assumptisque secum
+					<lb/>pannis venalibus pretiosis, ad vicinam, quae Fulgineum dicitur, civitatem
+					<lb/>perrexit. Quibus ibidem cum equo cui insederat, venditis,
+					<lb/>onustus pecunia repedavit; cum statim in opere Dei fervens, piis illam
+					<lb/>pauperum usibus, piis aliarum necessitatum obsequiis mancipare
+					<lb/>disposuit. Iam tam graviter ipsa pecunia cor, a curis liberum esse
+					<lb/>procurans, offendit, quod et eius, quam velut arenam reputabat, gravamen
+					<lb/>non sustinens, quantocius illam deponere festinavit. Invenit
+					<lb/>itaque prope Assisium quamdam ecclesiam, olim in honore sancti Damiani
+					<lb/>constructam, sed iam ruinae prae nimia vetustate propinquam.
+					<lb/>Cuius ipse continuo necessitatem commiserans, reverenter introivit
+					<lb/>in illam. Ubi invento quodam paupere presbytero, primum
+					<lb/>illi reverentiam, manibus deosculatis, exhibuit; deinde pecuniam pro
+					<lb/>resarciendis ecclesiae parietibus obtulit. Videns autem sacerdos virum,
+					<lb/>quem totaliter paulo ante saeculo deditum noverat, vehementer
+					<lb/>in facto illius obstupuit; et ab eo sibi illudi existimans, pecuniam
+					<lb/>non recepit. Denique propositum suum plenius exponenti vix credens,
+					<lb/>ad ultimum ut secum morari posset instanter roganti consensit,
+					<lb/>pecuniam tamen metu parentum illius omnino recipere renuit.
+					<pb n="1031"/>
+					<lb/>Quam ut refutari verus ille pecuniarum contemptor aspexit, in
+				<lb/>quadam fenestra deiectam veluti pulverem vilipendit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">7</hi></head> <p>Igitur pater illius, quidnam de ipso factum esset ignorans,
+					<lb/>quam plurimum sollicitus esse non destitit, donec ei tandem post longam
+					<lb/>inquisitionem innotuit, qualiter in loco praefato filius eius misere
+					<lb/>degendo delituit. Turbatus itaque non mediocriter ad subitum rei
+					<lb/>eventum, <hi rend="italic">convocatis amicis</hi> et notis, sine mora cucurrit ad locum.
+					<lb/>Sed novo Christi militi, adventum minasque persequentium audienti,
+					<lb/><hi rend="italic">irae locum dare</hi> complacuit; et ne videretur a patre, cuidam caveae,
+					<lb/>quam ad hoc ante providerat, se immersit. In hac ergo quasi
+					<lb/>per mensem integrum latitanti ab uno solo forsitan locum sciente clandestinum
+					<lb/>impendebatur obsequium; et inde raro vix aliqua necessitate
+					<lb/>compulsus egrediens, divinam illic clementiam <hi rend="italic">in ieiuniis et
+					<lb/>fletu</hi> non desiit implorare, ut a <hi rend="italic">persequentium manibus</hi> ipsum dignaretur
+					<lb/><hi rend="italic">eripere</hi>. Infusa est proinde in tenebris exoranti mira
+					<lb/>quaedam et inexperta laetitia, ex qua subito in tantam mentis animatur
+					<lb/>constantiam, ut non solum, persecutoribus spretis, in publicum
+					<lb/>prodeat, verum etiam, quia segniter latuerit, torporis et ignaviae
+					<lb/>se graviter arguat. Videntes itaque noti eius virum a statu pristino
+					<lb/>penitus alteratum macieque et squalore confectum, non id supernae
+					<lb/>gratiae sed dementiae potius imputabant; et eidem miserabiliter insultantes
+					<pb n="1032"/>
+					<lb/>insultantes, luto eum et lapidibus impetebant. Sed <hi rend="italic">vir Dei</hi> nulla
+					<lb/>fractus iniuria, velut aure surda transibat et gratias illi, a quo desuper
+					<lb/>confortabatur, agebat.Tandem rumor auribus patris insonuit,
+					<lb/>suum taliter filium comparuisse; qui, non paterno sed ferali modo
+				<lb/>festinus accurrens, coepit in illum plus caeteris omnibus insanire</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">8</hi></head> <p>Domi namque satis inhoneste pertractum, putans ab incepto
+					<lb/>per adversa reflectere, primo quidem contumeliis verberibusque crudeliter
+					<lb/>afficit; sed demum vinculatum in carcerem, omni miseratione
+					<lb/>subtracta, detrudit. Quanto autem in Christi militem
+					<lb/>tribulationis pressura desaevit, tanto amplius validum reddit et firmum;
+					<lb/>nec valet a statu rectitudinis per adversa deflecti, cui est Dominus
+					<lb/><hi rend="italic">in tribulatione refugium</hi>. Accidit autem die quadam
+					<lb/>patrem eius a domo causa rei familiaris abscedere, cum mater illius
+					<lb/>factum mariti non approbans, blandis filium allocuta sermonibus, sic
+					<lb/>illum a suo attentabat proposito revocare. Quod cum se non posse
+					<lb/>conspiceret materna pietate commota latenter vincula rupit, filioque
+					<lb/>soluto liberum abire permisit. At ille veluti iam in tentatione probatus,
+					<lb/>solito securior est effectus, et gratias omnipotenti Domino referens,
+					<lb/>in magna animi libertate ad locum, in quo prius steterat,
+					<lb/>est reversus. Quod factum ut domum rediens pater agnovit, iratus
+					<lb/>uxorem contumeliis lacessivit; nec adhuc cessans, animo post filium
+					<pb n="1033"/>
+					<lb/>effrenato cucurrit. Nitebatur enim ut eum saltem ab illius terrae
+					<lb/>confinio penitus elongaret, si illum a suo proposito flectere non valeret.
+					<lb/>Cuius adventui se filius liber et intrepidus offerens, iam patris
+					<lb/>furiae non cedebat, ut antea fecerat; sed adhuc maiora pati pro Christo
+					<lb/>gratanter se velle clamabat. Videns igitur pater inflexibilem
+					<lb/>eius constantiam, demum ad pecuniam convertitur extorquendam;
+					<lb/>1qua ubi vir sanctus illam proiecerat inventa pariter et sublata, iam
+					<lb/>erga filium mitius agere coepit, quia avaritiae sitis paulisper exstincta
+				<lb/>furorem simul animi temperavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">9</hi></head> <p>Post haec illum ad episcopum loci perduxit, ut ei cuncta coram
+					<lb/>illo quae habuit redderet, omnesque facultates suas in ipsius manibus
+					<lb/>resignaret. At ille promptus et hilaris ad hoc ipsum, prius etiam quam
+					<lb/>postularetur, se offerens, omnia quae habuit indumenta, nec femoralibus
+					<lb/>quidem retentis, deponens, ea patri restituit; sicque omnino nudus corarm
+					<lb/>omnibus remanens, in mundo se exsulem designavit. Episcopus
+					<lb/>vero, tantum viri fervorem admirans, nequaquam haec sine nutu
+					<lb/>divino fieri posse cognovit; et ex tunc illi paternae caritatis affectu
+					<lb/>paratus assistere, inter brachia sua collectum pallio quo induebatur
+					<lb/>obtexit. Iam se vir Dei nudus in cruce nudato conformat, iam perfecte
+					<lb/>consilium de omnibus renuntiandis impleverat, quem a divino
+				<lb/>contuitu iam nil terrenum, nisi solus carnis paries, separabat.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput II - De iis quae de manibus patris ereptus primum passus</hi>
+				<lb/>est, et quae fecit in habitu saeculari, et de prima habitus
+			<lb/><hi rend="bold">sui mutatione.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">10</hi></head> <p>Postquam ergo beatus Franciscus immanitatem paternae
+					<lb/>persecutionis evaserat, accidit die quadam ut ipse novae legis zelator
+					<pb n="1034"/>
+					<lb/>in quodam nemore seminudus incederet, et sic Domino laudes in
+					<lb/>gallica lingua decantans, subito <hi rend="italic">in latrones incideret</hi>. Quibus ferali
+					<lb/>modo quisnam esset quaerentibus, nil trepidans prophetice sic respon
+					<lb/>dit: "Praeco sum <hi rend="italic">magni Regis!</hi> Quid ad vos?". At illi indignantes
+					<lb/>servum Dei in foveam nivibus plenam post verbera proiecerunt, et
+					<lb/>futuro dominici gregis pastori taliter insultando dixerunt: "Iace, rustice
+					<lb/>praeco Dei!". Ipse vero, recedentibus illis nefariis, de fovea
+				<lb/>laetus exsiliit, et omnium Creatori laudes alacriore voce personuit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">11</hi></head> <p>Tandem qui pretiosis uti consueverat indumentis, in sola vili
+					<lb/>camisia venit ad quoddam coenobium monachorum, ubi nimirum
+					<lb/>nec agnitus nec reputatus, cum victus penuria viliter in coquina permissus
+					<lb/>est; donec, viso quod nuditatem eius miserationis oculis nemo
+					<lb/>respiceret, post plures dies sola necessitate compulsus abiret.
+					<lb/>Postea tamen, cum sanctitatis eius circumquaque fama crebresceret,
+					<lb/>prior loci, graviter ob curam tanti viri neglectam compunctus,
+					<lb/>usque ad illum dolens pervenit et humiliter ab eo pro se suisque veniam
+					<lb/>postulavit.Progressus igitur a monasterio supradicto pauperculus
+					<lb/>Iesu Christi, veniensque in civitatem cui nomen Eugubium,
+					<lb/>illic quemdam suum, quem noverat, amicum pristinum requisivit, qui
+				<lb/>ob veterem amicitiam tunicula nuditatem illius obtexit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">12</hi></head> <p>Post haec humilis sui contemptor, et iam se ab hominibus
+					<pb n="1035"/>
+					<lb/>contemni contemnens, ad leprosos se transtulit. Quibus devotissime
+					<lb/>serviens, et eorum humiliter ulcera lavit, saniemque detergere
+					<lb/>non abhorruit. Antea tamen huiusmodi in tantum despexerat, quod
+					<lb/>non solum illos e vicino, sed et eorum domos e longinquo prospiciens,
+					<lb/>nares manibus obturare consueverat. At ubi sua illum Dominus gratia
+					<lb/>visitavit, adhuc in saeculari habitu constituto quidam fortuito leprosus
+					<lb/>occurrit; quo etsi solito more horreret aspecto, vim tamen
+					<lb/>sibimet faciens vicit seipsum, et constanter <hi rend="italic">accedens osculatus est</hi>
+					<lb/>illum. Ex hoc itaque ad sui contemptum ferventius inardescens,
+					<lb/>bella sibi ipsi continua coepit ingerere, donec desuper ei daretur perfectam
+					<lb/>de se victoriam obtinere. Fecit igitur, sicut ipse postmodum
+					<lb/>testatus est, misericordiam cum leprosis, quos etiam videre non poterat,
+					<lb/>cum adhuc viveret in peccatis. Alios vero pauperes et afflictos,
+					<lb/>cum adhuc saeculo deditus esset, pio semper compassionis
+					<lb/>affectu respexit, et libentissime se pro Deo petentibus misericordiae
+					<lb/>manum porrexit. Exprobrans autem praeter morem quadam vice
+					<lb/>pauperi se pro Deo roganti, mox super hoc compunctus gravissime
+					<lb/>doluit; et nimis arbitrabatur indignum denegare quidquam pro tanti
+					<lb/>Regis nomine postulanti. Itaque ex hoc a se pro Deo pauperibus
+					<lb/>aliquid petituris statuit repulsam non facere; quod et pro posse suo
+					<lb/>sollicite studuit adimplere. Quo autem post conversionem erga
+					<lb/>pauperes compassionis spiritu moveretur, etsi satis perpendi valeat
+				<lb/>ex praesenti, postmodum tamen aliquantulum plenius exprimetur.</p>
+				<pb n="1036"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">13</hi></head> <p>Verum, cum vir sanctus adhuc, quae sibi ventura forent,
+					<lb/>penitus ignoraret, primam post haec, inter alia quae fecit, operam
+					<lb/>pietatis impendit ut ecclesiam Sancti Damiani, apud quam primitus
+					<lb/>moram fecerat, resarciret. Quod utique opus, sicut imminentis ruinae
+					<lb/>necessitati compassus incepit, sic et in brevi, <hi rend="italic">Domino cooperante</hi>,
+					<lb/>complevit. Hic est ille locus celebri memoria dignus, in quo
+					<lb/>illa tantarum virtutum plenitudine praedita, pauperum videlicet Dominarum
+					<lb/>virginumque sanctarum religio, ab eodem sancto viro quasi
+					<lb/>post sextum suae conversionis annum felix exordium sumpsit;
+					<lb/>quam non modicae perfectionis praerogativa laudabilem hodie Dominus
+				<lb/>per diversas Italiae partes magnifice dilatavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">14</hi></head> <p>Interea Dei servus habitum mutans, ad alium non longe ab
+					<lb/>Assisio locum migravit, ubi et quamdam ecclesiam similiter ruinosam
+					<lb/>reaedificare incipiens, donec coeptum perficeret non cessavit. Post
+					<lb/>haec ad locum tertium, qui Portiuncula dicitur, haud longe a
+					<lb/>praedicta civitate se transtulit, ubi quondam ecclesia fuerat in honore
+					<lb/>gloriosissimae Genitricis Dei Mariae constructa, sed tunc desolata
+					<lb/>pariter et evulsa. Cuius ruinae misertus, sed et devotione quam in
+					<lb/>Beata Virgine specialiter habebat inductus, ibidem assiduus morabatur,
+					<pb n="1037"/>
+					<lb/>donec annus conversionis suae tertius, reparata iam dicta ecclesia,
+					<lb/>volvebatur. Non hoc arbitror absque dignioris rei mysterio
+					<lb/>gestum, quod videlicet iste sanctus tres ecclesias supradictas erexit;
+					<lb/>at illud nimirum nutu Dei praevio per hoc existimo figuratum, quod
+					<lb/>et ipse vir simplex mirabiliter adimplevit, qui tres celebres Ordines,
+					<lb/>de quibus suo loco vel breviter tangendum est, inchoans, ipsos ad
+				<lb/>perfectionis statum vita verboque provexit.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput III - Qualiter evangelicam perfectionem aggrediens habitum</hi>
+				<lb/>secundo mutavit, praedicavit et socios fratres habere
+				<lb/>coepit; et quomodo sui et illorum exitum praecognovit, binos
+			<lb/><hi rend="bold">per mundum divisit et iterum congregare obtinuit.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">15</hi></head> <p>Beatus itaque Franciscus trium, ut dictum est, ecclesiarum
+					<lb/>opere consummato, habitum adhuc eremiticum tunc temporis habuit,
+					<lb/>baculumque manu gestans, pedibus calceatis et corrigia cinctus incessit.
+					<lb/>- Audiens autem die quadam inter missarum solemnia ea
+					<lb/>quae Christus in Evangelio missis ad praedicandum discipulis loquitur,
+					<lb/>ne videlicet <hi rend="italic">aurum</hi> vel <hi rend="italic">argentum possideant</hi>, ne <hi rend="italic">peram in via
+					<lb/>vel <hi rend="italic">sacculum</hi>, ne <hi rend="italic">virgam</hi> vel <hi rend="italic">panem portent</hi>, ne <hi rend="italic">calceamenta</hi> vel</hi>duas
+					<lb/><hi rend="italic">tunicas habeant</hi>; intelligensque haec eadem postmodum plenius
+					<lb/>ab ipso presbytero, indicibili gaudio mox repletus: "Hoc" , inquit, "est
+					<pb n="1038"/>
+					<lb/>quod quaero; hoc est quod totis praecordiis concupisco! ". Igitur
+					<lb/>cunctis, quae audierat, tenaci memoriae commendatis, laetanter his
+					<lb/>adimplendis innititur, duplicibusque sine mora depositis, ex hoc iam
+					<lb/>virga, calceamentis, sacculoque vel pera non utitur. Fecit proinde
+					<lb/>tunicam plurimum contemptibilem et incultam, reiectaque corrigia
+				<lb/>funiculo cinxit illam.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">16</hi></head> <p>Omnem quoque sollicitudinem cordis apponens qualiter au
+					<lb/>ditus novae gratiae verba perficeret, coepit instinctu divino evange
+					<lb/>licae perfectionis annuntiator exsistere, coepit poenitentiae in publicum
+					<lb/>simpliciter verba proponere. Erant autem ipsius eloquia non
+					<lb/>inania nec risu digna, erant virtute <hi rend="italic">sancti Spiritus plena</hi>, erant
+					<lb/>medullas cordis penetrantia et in vehementem audientes stuporem
+					<lb/>provocantia. Sed et sicuti postmodum ipse testatus est quod huius
+					<lb/>modi salutationem, Domino revelante, didicerat ut diceret: "<hi rend="italic">Dominus
+					<lb/>det tibi pacem</hi>", sic in omni praedicatione sua, pacem annun
+					<lb/>tians, populum in sermonis exordio salutabat. Subito ergo spiritu
+					<lb/>prophetarum perfusus, iuxta sermonem propheticum <hi rend="italic">annuntiabat pa
+					<lb/>cem, praedicabat salutem</hi>; factumque est ut salutaribus monitis
+					<lb/>foederaret plurimos verae paci, qui discordes a Christo prius exstite
+				<lb/>rant a salute longinqui.</p>
+				<pb n="1039"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">17</hi></head> <p>Innotescente igitur apud multos beati Francisci tam doctrinae
+					<lb/>simplicis veritate quam vitae, coeperunt post modicum viri quidam
+					<lb/>ipsius exemplo ad poenitentiam animari et eidem, <hi rend="italic">relictis
+					<lb/>omnibus</hi>, habitu vitaque coniungi. Ut autem novis filiis sancti iam
+					<lb/>merita remunerari coeperunt, coepit et amplius ipse nova spiritus
+					<lb/>consolatione repleri, coepit et illorum diligentius invigilare saluti.
+					<lb/>Hinc paterno eos affectu demulcens et fovens, novis non destitit
+					<lb/>monitis informare, docens ipsos sanctae paupertatis et verae simplicitatis
+					<lb/>viam indeclinabiliter ambulare. Iam sex fratrum septimus
+					<lb/>ipse pater iucunda societate gaudebat, qui inter minores in omnibus
+					<lb/>non ut maior sed ut minimus se gerebat, cum adhuc sui suorumque
+					<lb/>processum prorsus ignorans, scire <hi rend="italic">pusilli gregis</hi> exitum vehementer
+				<lb/>optabat.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">18</hi></head> <p>Cum ergo se quadam die devotius, uti consueverat, orationi
+					<lb/>dedisset, et super impensis sibi divinitus beneficiis <hi rend="italic">gratias agens</hi>
+					<lb/>annosque male transactos <hi rend="italic">in amaritudine animae</hi> suae recogitans,
+					<lb/>Domino tremebundus assisteret, coepit passim menti ipsius mira quaedam
+					<lb/>suavitas et laetitia superfundi, in tantum ut etiam a seipso deficeret;
+					<lb/>donec tandem de peccatis concreta caligo penitus fugaretur,
+					<lb/>sibique usque ad quadrantem novissimum remissionis debiti culparum
+					<pb n="1040"/>
+					<lb/>certitudo daretur. Dehinc supra se raptus et in quadam mirandi
+					<lb/>luminis claritate totus absorptus est; ubi, dilatato mentis sinu, certificari
+					<lb/>de iis quae desideraverat meruit, et <hi rend="italic">ex omni natione</hi> suorum
+					<lb/>moltiplicationem luculente prospexit. Non solum autem haec,
+					<lb/>sed et alia plura de futuris arcana contemplans, tandem ad se reversus
+					<lb/><hi rend="italic">cuncta per ordinem</hi> fratribus enarravit, <hi rend="italic">spiritu</hi>que nimirum
+					<lb/>totaliter <hi rend="italic">innovatus</hi>, nec de ipsorum nec de sua eos simplicitate diffidere
+					<lb/>monuit, sed veluti usque ad fines orbis multipliciter dilatandos
+				<lb/><hi rend="italic">in Domino confortavit</hi>.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">19</hi></head> <p>Eo tempore <hi rend="italic">appositus est</hi> eis quidam vir alius, et sic octonarius
+					<lb/>ipsorum completus est numerus. Tunc sanctus, ad se convocans
+					<lb/>universos et ad mittendum in diversas mundi partes binos
+					<lb/>binosque confoederans, plura illis <hi rend="italic">de regno Dei</hi>, de mundi suique
+					<lb/>contemptu dulciter et intente proposuit, et inter alia praecipue de
+					<lb/>patientia et humilitate praecepit. Gaudet igitur grex humilis ad vocem
+					<lb/>pastoris, et ad recipiendum salutaris obedientiae mandatum gratanter
+					<lb/>obtemperans, ad pedes eius humiliter se provolvit. Quos ipse
+					<lb/>pastor benignissimus erigens et affectuose veluti filios mater amplectens,
+					<lb/>singulos ad oscula suscipit, singulos illo prophetico sermone
+					<lb/>communit: "<hi rend="italic">Iacta</hi> cogitatum <hi rend="italic">tuum in Domino, et ipse te enutriet</hi>";
+					<pb n="1041"/>
+					<lb/>hoc verbum frequenter, quoscumque mittebat pronuntians. Sic
+					<lb/>omnem fratrum sollicitudinem in Deum dirigere voluit, sic erroneam
+					<lb/>illis et interminam cupiditatis viam praecludere procuravit, sic et <hi rend="italic">in
+				<lb/>zonis aes</hi> pro crastino cor prorsus a curis extraneum non providit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">20</hi></head> <p>Igitur sex illorum binis in diversas regiones ad pacem cum
+					<lb/>poenitentia nuntiandam divisis, ipse quoque in aliam mundi partem,
+					<lb/>uno secum retento, secessit. Sed paternus affectus absentiam novae
+					<lb/>prolis non sustinens prorogari, coepit ad videndum eos non multo
+					<lb/>post affici desiderio vehementi. Quaesivit ergo, ad obtinendum
+					<lb/>quod concupierat, orationis consuetae refugium; et sic a Domino meruit
+					<lb/>exaudiri, ut in brevi omnes improvise et mirabiliter <hi rend="italic">congregarentur
+					<lb/>in unum</hi>. Quibus taliter adunatis, non mirum si pius pater
+					<lb/>iucundabatur in filiis. Congratulabantur quoque filii gaudio patris,
+					<lb/>mirantesque pariter et laetantes glorificabant unanimiter magnificentiam
+					<lb/>Salvatoris. Referebat ille quo ordine <hi rend="italic">desiderium suum</hi> Dominus
+					<lb/><hi rend="italic">adimpleverat</hi>; illi quoque beneficia sibi divinitus impensa
+					<lb/>narrabant, et humiliter de omnibus semetipsos ingratitudinis arguebant.
+					<lb/>Factum est autem post haec ut eidem <hi rend="italic">pusillo gregi</hi> quatuor
+					<lb/>alii viri idonei iungerentur, et sic duodenarius fratrum numerus
+					<lb/>impleretur. Coepit itaque sancti viri suorumque iam latius fama diffundi;
+					<lb/>sed et quo super peccatorum conversione <hi rend="italic">sine personaram
+					<lb/>acceptione</hi> gaudebant, illorum in Domino quotidie gaudium augmentari.
+				<lb/>/*</p>
+				<pb n="1042"/>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput IV - Qualiter a Papa regulam et praedicandi auctoritatem</hi>
+				<lb/>accepit; in solitudine refectus est; perpetuo pauper esse
+				<lb/>et proximis proficere statuit; et quam districta se et suos vigilantia
+			<lb/><hi rend="bold">custodivit.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">21</hi></head> <p>Cernens igitur beatus Franciscus passim accrescere numerum
+					<lb/>fratrum, plenius illis exposuit cordis sui propositum, necnon et
+					<lb/>divinae revelationis arcanum. Brevi ergo regulam sermone conscripsit,
+					<lb/>interpositis in illa sacris Evangelii verbis, ad cuius perfectionem,
+					<lb/>quantum poterat, anhelavit. Desiderans autem quae scripserat
+					<lb/>a summo Pontifice confirmari, undecim quos habuit <hi rend="italic">secum</hi> fratres
+					<lb/><hi rend="italic">assumpsit</hi> et Romam cum illis duodecimus ipse perrexit. Quo
+					<lb/>perveniens, ad quemdam ex episcopis cardinalibus, virum probatum
+					<lb/>et discretum, accessit, eique per ordinem adventus sui causam plenius
+					<lb/>explanavit. Qui, diligenter audito pauperum Christi negotio
+					<lb/>etsi propositum tam laudabile non immerito commendaret, in primis
+					<lb/>tamen illi suggessit, ut ad vitam eremiticam sive monasticam se transferret.
+					<lb/>Sed famuli Christi constantia coepto perseveranter insistens,
+					<lb/>persuasiones huiusmodi quanto poterat humilius non admisit
+					<lb/>Qui et usque adeo tandem <hi rend="italic">Domino cooperante</hi> praevaluit, donec
+					<lb/>eodem episcopo fideliter procurante, ad summi Pontificis audientiam
+					<lb/>res pervenit. Concomitabatur quoque beatum virum divina providentia
+					<lb/>in omnibus quae agebat, et securum per crebras revelationes
+					<pb n="1043"/>
+					<lb/>visionesque reddebat. Vidit etiam tunc temporis visionem, suo
+					<lb/>domini Papae consensum proposito pollicentem: quamdam videlicet
+					<lb/><hi rend="italic">arborem magnam</hi> miraeque <hi rend="italic">proceritatis</hi> cuius ipse cacumen manibus
+					<lb/>leviter ad terram usque deflexit. Quod utique rei exitus evidenter
+					<lb/>postmodum comprobavit, dum se ad condescendendum viro
+					<lb/>pauperi vir excellentissimus et magnanimus, dominus videlicet Innocentius
+					<lb/>papa tertius, qui tunc Ecclesiae praeerat, inclinavit.
+					<lb/>Dans igitur duodenario fratrum pium summus Pontifex de regula
+					<lb/>confirmanda consensum, dans et eisdem de poenitentia praedicanda
+					<lb/>mandatum, cum gaudio illos data benedictione dimisit; sed et eisdem
+				<lb/>adhuc ampliora multiplicatis in posterum compromisit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">22</hi></head> <p>Beatus igitur Franciscus magnum non immerito reputans
+					<lb/>tanta se a Christi vicario beneficia consecutum, divinae super omnibus
+					<lb/>clementiae gratias egit; et visitatis principis Apostolorum liminibus
+					<lb/>et oratione completa, gaudenter cum suis ab Urbe recessit.
+					<lb/>Movebat eum protinus dati ratio, ne forsitan remaneret ingratus,
+					<lb/>piaque cum fratribus incepit tractare consilia, qualiter in observando
+					<lb/>regulam primum in semetipsis per virtutum incrementa proficerent,
+					<lb/>dehinc qualiter aedificando proximos in mna sibi credita Domino
+					<lb/>foenerarent. Haec et his similia pie conferentibus illis, accidit
+					<lb/>ut in quemdam <hi rend="italic">locum desertum, iam hora</hi> diei progrediente, venirent,
+					<pb n="1044"/>
+					<lb/>ubi humano destituti videbantur auxilio, cum refectione corporis
+					<lb/>prae labore itineris indigerent. Sed pauperibus suis providentia
+					<lb/>divina non defuit, quae mirabiliter illis panem per quemdam inopinate
+					<lb/>venientem et subito disparentem porrexit. Comedentes itaque
+					<lb/>pariter et mirantes, gratias Domino retulerunt; et non modicum confortati
+					<lb/>in coepto itinere processerunt. Venerunt ergo ad locum
+					<lb/>quemdam solitarium prope civitatem Ortensem, ubi quibusdam eorum
+					<lb/>in eadem civitate mendicantibus, in magna necessariorum penuria
+					<lb/>fere per dies quadraginta manserunt, ibique cum ingenti
+					<lb/>gaudio sanctae paupertatis initia renovantes, pacto illam perpetuo
+				<lb/>firmaverunt.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">23</hi></head> <p>Post haec vallem Spoletanam intrantes, pium novae iustitiae
+					<lb/>zelatores habuere tractatum, utrum in locis solitariis an potius
+					<lb/>inter homines foret illis morandum. At vero sanctus vir Dei, veluti
+					<lb/>de sua diffisus industria, devotis orationum studiis negotia cuncta
+					<lb/>praeveniens, ibi quid ageret infallibiliter didicit, zeloque ductus divino
+					<lb/>proximorum lucris intendere quam sibi soli vivere praeelegit.
+					<lb/>Tunc sanctus Franciscus, in Domino confortatus, ex auctoritate
+					<lb/>apostolica <hi rend="italic">fiducialius agere</hi> coepit, et per <hi rend="italic">civitates</hi> villasque <hi rend="italic">castella
+					<pb n="1045"/>
+					<lb/>circuiens</hi>, poenitentiam constantissime praedicavit. Curabat
+					<lb/>praecipue <hi rend="italic">semetipsum irreprehensibilem</hi> in omnibus <hi rend="italic">exhibere</hi>, ne
+					<lb/>veritatem cogeretur verbis adulatoriis palliare. Mirabantur viri litterati
+					<lb/>eius, quem non homo docuerat, verborum virtutem, videntes
+					<lb/>ad ipsum nobiles et ignobiles divites et egenos turmatim confluere,
+					<lb/>eique, veluti novo sideri in tenebris orienti sollerter intendere.
+					<lb/>Omni namque ordini, conditioni, aetati et sexui congruenter documenta
+					<lb/>salutis impendit; omnibus vivendi regulam tribuit, cuius hodie
+					<lb/>felicem ducatum in utroque sexu sequentium triumphare se gaudet
+					<lb/>Ecclesia triplici militia salvandorum.Tres enim, ut supra tetigimus,
+					<lb/>Ordines ordinavit; quorum primum ipse professione simul et habitu
+					<lb/>super omnes excellentissime tenuit, quem et Ordinem Fratrum
+					<lb/>Minorum, sicut in Regula scripserat, appellavit. Secundus etiam, qui
+					<lb/>supra memoratus est, pauperum Dominarum et virginum felix ab eo
+					<lb/>sumpsit exordium. Tertius quoque non mediocris perfectionis Ordo
+					<lb/>Poenitentium dicitur, qui clericis et laicis, virginibus, continentibus
+				<lb/>coniugatisque communis, sexum salubriter utrumque complectitur.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">24</hi></head> <p>Verum qualiter ipse beatus Franciscus Ordinem Fratrum Minorum
+					<lb/>in omni virtutum culmine magnifice supererogando servaverit,
+					<lb/>qualiterve ad omnia, quae sunt verae religionis, suos fratres et
+					<pb n="1046"/>
+					<lb/>filios informaverit, quis enarrare per singula poterit? Nam in omnibus,
+					<lb/>quae perfecta sunt doctrice Spiritus sancti gratia sufficienter in
+					<lb/>structus, omnem in semetipso perfectionem voluit experientia teste
+					<lb/>cognoscere; et sic fratres omnia primum factis edocuit, quae et
+					<lb/>postmodum ipsos frequentia melliflui sermonis admonuit.
+					<lb/>Qualiter autem et fratres, sub tanto duce personaliter militantes,
+					<lb/>ad illius exemplum et doctrinam in omni perfectione profecerint,
+					<lb/>potius arbitror subticendum, quam diminute etiam cum sermonis
+					<lb/>prolixitate dicendum. Summa namque vigilantia vir beatus <hi rend="italic">super
+					<lb/>suam</hi> suorumque <hi rend="italic">custodiam stabat</hi>; summa continue diligentia
+					<lb/>praecavebat, ne non solum forsitan aliquem manifestum peccati paterentur
+					<lb/>incursum, verum etiam ne qua latens cogitatio germinaret
+					<lb/>in vitium, sed et ne quis sub virtutis specie vel necessitatis occasione
+					<lb/>se dolus ingereret, aut per incautas exteriorum sensuum aperturas
+					<lb/>ad interiorem forsitan hominem mors intraret. Non est
+					<lb/>passus in se vel in aliis, ut quidquam disciplina plectendum impune
+					<lb/>transiret, ne forte remissa manus negligentiae torporem induceret.
+					<lb/>Tantum quippe in seipso iustitiae rigorem exercuit, quod, si quando,
+					<lb/>ut assolet, tentatio carnis surreperet, hiemali tempore in locum
+				<lb/>glacie vel nivibus plenum usque ad illiciti motus abscessum se mergeret.</p>
+				<pb n="1047"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">25</hi></head> <p>Provocabantur quoque fratres alii similia facere, videntes illum
+					<lb/>sub tanta se districtione tenere. Tanto itaque, ut dictum est,
+					<lb/>vir Dei non solum carnis incentiva rigore repressit, verum etiam corporis
+					<lb/>sensus, ne quidquam vanitatis haurirent, summae cautelae repagulis
+					<lb/>obfirmavit. Nam, cum moram in loco qui dicitur Rigus
+					<lb/>Tortus prope Assisium faceret, accidit ut Romae coronandus imperator
+					<lb/>Otto cum magno illac comitatu et pompa transiret. Beatus vero
+					<lb/>Franciscus, cum secus viam cum suis fratribus moraretur, ad
+					<lb/>videndum imperatorem nec ipse nec aliquis suorum egredi saltem vel
+					<lb/>aspicere de tugurio voluit, praeter unum solum ex ipsis, cui huiusmodi
+					<lb/>gloriam modicum duraturam eidem imperatori constanter nuntiare
+				<lb/>praecepit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">26</hi></head> <p>Recollegerat autem se verissimus ille paupertatis zelator
+					<lb/>cum fratribus suis in quoddam praedicti loci domicilium derelictum,
+					<lb/>ut ibidem se utcumque ab aestu pluviaque defenderent; quod videlicet
+					<lb/>adeo strictum fuit, ut etiam commode in illo requiescere
+					<lb/>non valerent. Sed tamen loci angustia cordis latitudinem non artavit,
+					<lb/>quin ibidem laetanter in summa penuria viverent et in continua
+					<lb/><hi rend="italic">gratiarum actione</hi> et <hi rend="italic">laude</hi> persisterent. Scribebat quoque
+					<lb/>vir sanctus per tigna domunculae nomina fratrum, ne quis alterum
+					<pb n="1048"/>
+					<lb/>quiescere vel orare volentem inquietare vel modicum posset, sed locum
+					<lb/>sibi deputatum unusquisque cognosceret.Quadam vero die
+					<lb/>vir quidam cum asino venit ad locum; et ad umbram fortasse quaerendam
+					<lb/>volens introire tugurium, ut sine repulsa liberius intraret
+					<lb/>sic allocutus est asinum: "Ingredere, quia loco huic benefaciemus
+					<lb/>adhuc". Sed homo Dei verbum viri et intentionem graviter ferens
+					<lb/>(qui videlicet eos illic pro domibus aedificandis et dilatando vel appropriando
+					<lb/>sibi locello credidit adunatos), domicilium mox reliquit
+					<lb/>et ad locum, qui Portiuncula dicitur, ubi gloriosae Virginis ecclesiam
+				<lb/>reaedificaverat, transmigravit.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput V - Qualiter fratres orare, quae etiam credere docuit et</hi>
+				<lb/>servare; de obedientia et simplicitate fratrum, et de consolationibus
+				<lb/>quas habuerunt per ipsum; et de ipsius transfiguratione
+			<lb/><hi rend="bold">et spiritu prophetico.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">27</hi></head> <p>Rogatus a fratribus eo tempore beatus Franciscus ut eos
+					<lb/>orare doceret, simpliciter illis huiusmodi formam tradidit dicens:
+					<lb/>"<hi rend="italic">Cum orabitis dicite: Pater noster</hi>, et Adoramus te, Domine Iesu
+					<lb/>Christe, ad omnes ecclesias tuas, quae sunt in toto mundo, et benedicimus
+					<lb/>tibi, quia per sanctam crucem tuam redemisti mundum.
+					<lb/>Quod ipsi fratres humiliter exsequentes et verbum simplex pro
+					<pb n="1049"/>
+					<lb/>mandato obedientiae reputantes, se etiam ad ecclesias quas e longinquo
+					<lb/>prospicere poterant inclinabant, et proni in terra, prout instructi
+					<lb/>fuerant, adorabant. Fratres quoque, tunc sacerdotes Ordinis
+					<lb/>non habentes, confitebantur saecularibus sacerdotibus indifferenter
+					<lb/>bonis et malis; nec peccatum in aliquo considerabant, sed ad exemplum
+					<lb/>et doctrinam sancti patris maximam omnibus reverentiam
+				<lb/>exhibebant.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">28</hi></head> <p>Hoc enim ipse vir catholicus et totus apostolicus in praedicatione
+					<lb/>sua principaliter monuit, ut Romanae Ecclesiae fides inviolabiliter
+					<lb/>servaretur, et ob Dominici sacramenti quod ministerio
+					<lb/>sacerdotum conficitur, dignitatem, in summa sacerdotalis ordo reverentia
+					<lb/>teneretur. Sed et divinae legis doctores et omnes ecclesiasticos
+					<lb/>ordines docebat summopere reverendos.Erat autem tanta
+					<lb/>fratrum simplicitas, quod cum quidam sacerdos, qui non ignorabatur
+					<lb/>infamis, uni e fratribus diceret: "Vide, ne sis hypocrita!", ipse frater
+					<lb/>se esse hypocritam certissime crederet, eo quod sacerdotem mentiri
+					<lb/>non posse putaret. Cumque diu super hoc dictus frater gravissime
+					<lb/>turbaretur, ad sancti patris <hi rend="italic">ignitum eloquium</hi>,quo frequenter
+					<lb/>omne nubilum a fratrum cordibus fugabatur, tandem consolationem
+				<lb/>recepit, qui verbum sacerdotis et intentionem sagaciter excusavit.</p>
+				<pb n="1050"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">29</hi></head> <p>Crebris quoque revelationibus fratrum simplicitas consolabatur
+					<lb/>tunc temporis, quas utique meruerunt recipere ex praesentia
+					<lb/>tanti patris. Nam cum nocte quadam se beatus Franciscus a fratribus
+					<lb/>absentasset, ecce circa mediam noctis horam, quibusdam fratrum
+					<lb/>quiescentibus, aliis autem orantibus, <hi rend="italic">currus igneus</hi> per ostiolum domus
+					<lb/>introiens huc illucque per domunculam pluries se convertit,
+					<lb/>super quem globus non modicus, speciem solis habens, ipsas quoque
+					<lb/>sua claritate noctis tenebras effugavit. Convenientibus ergo
+					<lb/>cunctis, et invicem quid hoc esset cum magno stupore quaerentibus,
+					<lb/>celebri memoria digna res accidit, quod videlicet ex virtute mirandi
+					<lb/>luminis alterius alteri conscientia nuda fuit. Intellexerunt igitur
+					<lb/>hanc animam esse patris sanctissimi, quam ob praecipuam sui puritatem
+					<lb/>in filiorum solatium ipse sic meruerat transfiguratam ostendi.
+					<lb/>Vere hic sanctus triplicis militiae, de qua supra dictum est, <hi rend="italic">currus
+					<lb/>et auriga</hi> digne dici promeruit, qui in solari specie, quadriga vectus
+					<lb/>ignea, adhuc vivens in carne mortali praerogativam transfigurationis
+					<lb/>obtinuit.Reversus itaque corporaliter ad fratres suos vir
+					<lb/>Dei, coepit conscientiarum illorum subtiliter arcana rimari, quae et
+					<lb/>ipsum non latere fuerant crebro non inexperti. Res utique nostris
+					<lb/>temporibus stuporis et gaudii plena, infirmum scilicet hominem alienarum
+					<lb/>mentium diiudicare secreta! Multis namque <hi rend="italic">cordium</hi> suorum
+					<pb n="1051"/>
+					<lb/>occulta vir iste gloriosus aperuit; absentium quoque fratrum multoties
+					<lb/>acta cognovit, aliis quidem in somnis, ne hoc vel hoc facerent
+					<lb/>prohibens, aliis autem istud vel illud agendum praecipiens.
+					<lb/>Multorum etiam, qui boni in facie videbantur, mala damnabilia
+					<lb/>praevidens nuntiavit; sed et eorum, qui mali, dona gratiarum futura
+					<lb/>praedixit. Vere <hi rend="italic">duplex</hi> in ipso prophetarum <hi rend="italic">spiritus</hi> requievit, qui
+					<lb/>et tantis, ut in parte patebit, in vita miraculis claruit, et de futuris,
+				<lb/>quorum pauca prosequimur, tanta praevidit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">30</hi></head> <p>Saepius quoque fratribus suis vir Dei solatia gaudii spiritualis
+					<lb/>impendit, quibus ipse, <hi rend="italic">corpore quidem absens</hi>, sed <hi rend="italic">spiritu praesens</hi>
+					<lb/>fuit. Referam breviter unum de multis. Nam tempore quodam,
+					<lb/>fratre Iohanne de Florentia capitulum in Provincia celebrante,
+					<lb/>ubi a beato Francisco minister fuerat constitutus, intererat eidem capitulo
+					<lb/>venerabilis ille frater, qui nunc sanctus et gloriosus Christi confessor,
+					<lb/>Antonius. Ubi dum sanctus iste, in exponendis divinarum
+					<lb/>Paginarum eloquiis <hi rend="italic">sapientiae spiritu plenus</hi> super hac materia:
+					<lb/>"<hi rend="italic">Iesus Nazarenus, Rex Iudaeorum</hi>" fratribus adunatis verbum
+					<lb/>exhortationis affectuose proponeret, frater quidam, Monaldus nomine,
+					<lb/>sacerdos, vir simplex et multarum virtutum ornatu praeclarus, faciem
+					<lb/>suam ad ostium domus convertit, viditque corporeis oculis
+					<pb n="1052"/>
+					<lb/>qualiter beatus Franciscus in aere sublevatus, veluti manibus in cruce
+					<lb/>protensis, fratres qui aderant benedixit. Tantumque subito singulis
+					<lb/>et universis gaudium spiritus est infusum, ut, quod idem sacerdos
+					<lb/>postea de ipsa visione narrabat, cunctis mirantibus ipsa faceret
+				<lb/>experientia fide dignum.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">31</hi></head> <p>Qualiter autem alienorum cordium saepius occulta pandebat,
+					<lb/>unum de plurimis enarrare sufficiat. Frater quidam Richerius
+					<lb/>nomine, tam moribus quam genere nobilis, in tantum de beati Francisci
+					<lb/>meritis praesumebat, ut divinam profecto mereri gratiam crederet,
+					<lb/>si quis ipsius sancti dono benevolentiae potiretur, aut, si quis
+					<lb/>illa careret, Dei nihilominus iracundiam mereretur. Cumque ad
+					<lb/>obtinendum familiaritatis ipsius beneficium vehementius aspiraret,
+					<lb/><hi rend="italic">timuit valde</hi> ne quid in ipso vitii vir sanctus occulte forsitan deprehenderet,
+					<lb/>cuius occasione se ab illius gratia magis elongari contingeret.
+					<lb/>Igitur huiusmodi timore iam dictum fratrem continue et
+					<lb/>graviter affligente, nec illo cogitationem suam cuiquam hominum revelante,
+					<lb/>accidit ipsum die quadam solito more turbatum ad cellulam,
+					<lb/>in qua beatus Franciscus orabat, accedere. Cuius adventum simul
+					<lb/>et animum vir Dei cognovit, et benigne ad se vocato sic ait: "Nullus
+					<lb/>te timor de caetero, nulla te, fili, conturbet tentatio, quoniam carissimus
+					<lb/>mihi es et inter praecipue caros speciali caritate te diligo.
+					<pb n="1053"/>
+					<lb/>Securus ad me, cum tibi placuerit, venias, et a me libere pro tua
+					<lb/>voluntate recedas". Obstupuit non modicum et laetatus est frater
+					<lb/>in sermonibus sancti patris; et deinceps, de ipsius dilectione securus
+				<lb/>crevit etiam, sicut crediderat, in <hi rend="italic">gratia Salvatoris</hi>.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput VI - De paupertatis custodia, et abstinentia, et vitae illius</hi>
+				<lb/>mirando rigore; et qualiter laudem hominum fugiens se
+			<lb/><hi rend="bold">vilissimum voluit reputari.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">32</hi></head> <p>Sanctus Christi confessor Franciscus omni studio praecavebat,
+					<lb/>ne, sanctae summaeque paupertatis metas transiliens, ad superflua
+					<lb/>quoquo modo difflueret, ita ut, magis semper ad indigentiam
+					<lb/>quam ad abundantem sufficientiam vel excessum declinans, usque
+					<lb/>ad maximae necessitatis exigentiam, vix vasculum saltem in domo
+					<lb/>relinqueret. Quid de cibariis delicatis aut vini potu, quidve de
+					<lb/>aliorum etiam vilium superfluitate dicamus, cum et rarissime coctis
+					<lb/>utens, ea cineribus vel aqua frigida commisceret, et de ipsa sufficienter
+					<lb/>aqua non biberet? Difficillimum enim asserebat necessitati
+					<lb/>satisfacere et voluptati non obedire. Saepius quoque, cum poenitentiam
+					<lb/>praedicans circuiret et invitatus refectionem in domibus saecularium
+					<lb/>sumeret, visus quidem comedere carnes, ad os manum
+					<lb/>ducebat, sed tantum propter Evangelii verbum, quo dicitur: <hi rend="italic">Edentes
+					<lb/>et bibentes quae apud illos sunt</hi>, minimum quid perraro degustans,
+					<pb n="1054"/>
+					<lb/>reliquas in sinum subtili cautela mittebat. Nuda humus
+					<lb/>dormire coacto, tunicula tantum interposita, lectus erat; et saepius
+					<lb/>sedens, non iacens, inclinato ad lignum vel lapidem capite, dormitabat.Accidit
+					<lb/>quoque ut, infirmitatis necessitate de pullo quadam
+					<lb/>vice manducans, viribus postmodum utcumque resumptis, cuidam fratrum
+					<lb/>districte praeciperet ut, collo ipsius fune ligato, eum tamquam
+					<lb/>latronem per medium civitatis Assisii duceret et praeconia nihilominus
+					<lb/>voce clamaret: "Ecce, videte glutonem, qui se gallinarum carnibus
+					<lb/>impinguavit, quas secreto vobis ignorantibus manducavit".
+					<lb/>Factumque est ut multi, ad tam mirandum compuncti spectaculum
+					<lb/>lacrimabili nimirum voce lugerent, seseque miserrimos, veluti quotidianis
+				<lb/>voluptatibus deditos, proclamarent.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">33</hi></head> <p>Multa quoque in hunc modum saepius faciebat, ut et semetipsum
+					<lb/>perfecte contemneret, et ad sui contemptum caeteros provocaret.
+					<lb/>Sed et hic verissimus sui contemptor, cum non immerito <hi rend="italic">magnificaretur
+					<lb/>ab omnibus</hi>, mirabiliter favorem hominum, solus se
+					<lb/>vilissimum reputans, arcebat pro foribus. Cum enim extolli se laudibus
+					<lb/>humanis audiret, alicui fratrum per obedientiam, graviter hoc
+					<lb/>ferens, iniunxit ut viliter ipsum a latere verbis contumeliosis afficeret,
+					<pb n="1055"/>
+					<lb/>et adversus laudantium mendacia veritatis verba proferret. Quem
+					<lb/>dum frater invitus rusticum et mercenarium inutilem appellaret, sanctissimus
+					<lb/>ille iucundo applausu subrisit et sic exprobranti respondit:
+					<lb/>"<hi rend="italic">Benedicat tibi Dominus</hi>, fili carissime, quia verissima loqueris, et
+					<lb/>talia filium Petri de Bernardone decet audire! "Cupiens quoque
+					<lb/>se perfecte vilem ab omnibus reputari, peccata sua non erubuit in
+					<lb/>praedicatione publica confiteri; sed et, si quid sinistri surreperet levi
+					<lb/>cogitatione de aliquo, id ipsum eidem de quo cogitaverat confitens,
+					<lb/>humiliter veniam postulavit ab illo. Ex hoc ipso etiam leviter
+					<lb/>advertenti patebit, qualiter vir iste murmurationis et detractionis verba
+					<lb/>vitavit. Quid plura? In omni genere perfectionis usque ad summum
+					<lb/>apicem pertingere cupiens, favorem summopere devitabat
+					<lb/>humanum, et ut conscientia teste <hi rend="italic">vas sanctificationis</hi> interius <hi rend="italic">possideret,
+				<lb/>factus</hi> est sibimetipsi exterius <hi rend="italic">tamquam vas perditum</hi>.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput VII - Quomodo martyr esse desiderabat; nautas a maris</hi>
+			<lb/><hi rend="bold">periculo liberavit; et qualiter coram Soldano comparuit.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">34</hi></head> <p>Ardentissimo martyrii desiderio fervens, beatus Franciscus
+					<lb/>sexto conversionis suae anno ad partes Syriae voluit proficisci, ut
+					<pb n="1056"/>
+					<lb/>ibidem Saracenis annuntiaret Evangelium Iesu Christi. Igitur ad
+					<lb/>eundum quidem in Syriam iter arripuit; sed, ventis contrariis flantibus,
+					<lb/>in Sclavoniae partes navis, in qua ducebatur, applicuit. Audiens
+					<lb/>autem a nautis eo anno navem illam in Syriam transire non
+					<lb/>posse, voto suo fraudatus in aliam, quae Anconam tendebat, a nautis
+					<lb/>expensarum defectum timentibus vix permissus intravit; in qua
+					<lb/>et <hi rend="italic">Dominus</hi> per eum <hi rend="italic">mirabilium suorum memoriam fecit</hi>. Gravi
+					<lb/>namque et diutina maris tempestate suborta, iam demum post longos
+					<lb/>labores ipsis nautis cibaria deerant, dum, cui prius introitum navis
+					<lb/>defectus victualium timore negaverant, illius tunc subsidio mortis
+					<lb/>evasere iacturam. Nam quaedam, etsi non tanta ut multis quoquo
+					<lb/>modo sufficerent, beatus Franciscus, Domino sibi providente, latenter
+					<lb/>intulerat; quae tunc ad ipsius merita tantum sumpsere divinitus
+					<lb/>incrementum, ut abundanter usque ad portum Anconae necessitatibus
+					<lb/>omnium subvenirent, quamvis plures adhuc dies itineris superessent.
+					<lb/>Quod nautae videntes, immensas agebant omnium Salvatoris
+					<lb/>clementiae gratias, qui de mortis eos per famulum suum Franciscum
+				<lb/>periculo liberarat.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">35</hi></head> <p>Ut autem vir sanctus in terram a mari descendit, divini rursum
+					<lb/>verbi semina iacere coepit, fructumque ex illis de sequentibus
+					<lb/>ipsum pluribus viris idoneis recollegit. Verum adhuc in ipso martyrii
+					<pb n="1057"/>
+					<lb/>fervor non tepuit, quin ad fidem Christi Miramamolino suisque
+					<lb/>complicibus praedicandam versus Marrochium non multo post iter
+					<lb/>arripiens, tanto ad hoc aliquoties impetu festinaret, ut etiam peregrinationis
+					<lb/>suae comitem, prae spiritus ebrietate solus praecurrendo,
+					<lb/>desereret. Sed cum iam usque in Hispaniam ferventissime processisset,
+					<lb/>Domino ad aliorum multorum salutem aliud ordinante eique
+					<lb/>per gravissimas corporis aegritudines occursante, rursus in Italiam
+				<lb/>rediit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">36</hi></head> <p>Veniensque, aliquantulam apud Sanctam Mariam de Portiuncula
+					<lb/>moram fecit. Eo quoque tempore quosdam litteratos ad
+					<lb/>Ordinem nobilesque recepit, quibus discretione praecipua, qua in alios
+					<lb/>mirabiliter ipse pollebat, curam digne et decenter adhibuit.Porro
+					<lb/>vir sanctus, quamvis suum cogeretur vel invitus protelare propositum,
+					<lb/>tamen a coepto martyrii fervore non destitit, donec tandem tertiodecimo
+					<lb/>conversionis suae anno ad partes Syriae transmeavit. Et
+					<lb/>licet quotidiana tunc inter christianos et infideles praelia gererentur,
+					<pb n="1058"/>
+					<lb/>ipse tamen <hi rend="italic">in Domino confisus</hi> adire Soldanum nec cum evidenti
+					<lb/>periculo verebatur. Unde et multis gravibusque verberibus et iniuriis,
+					<lb/>antequam perveniret, affectus, tandem ipsius Soldani conspectu
+					<lb/>personaliter est potitus. Sed narratui longum foret, in quanta mentis
+					<lb/>constantia coram illo perstiterit, quantaque facundia fidei christianae
+					<lb/>oblatrantium verba retuderit. Soldanus vero cum ingenti
+					<lb/>illum honore suscepit, pluraque sibi et pretiosa valde donaria protulit.
+					<lb/>Quae sancto Dei veluti quasdam immunditias vilipendente, ipse
+					<lb/>Soldanus tamquam de viro cunctis dissimili magis obstupuit, et illius
+					<lb/>eo diligentius verbis intendit. Sed nimirum in his omnibus <hi rend="italic">suum
+					<lb/>vir beatus desiderium non implevit</hi>; cui mirabilius in singularis
+					<lb/>gratiae praerogativam gerenda suorum Dominus insignia stigmatum
+				<lb/>reservavit.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput VIII - Quomodo volucribus praedicavit; et qualiter bruta</hi>
+				<lb/>sibi animalia obediebant et ad ipsum secure confugiebant;
+			<lb/><hi rend="bold">et de aqua in vinum sibi conversa.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">37</hi></head> <p>Beatus Franciscus, vir columbina simplicitate plenissimus,
+					<lb/>dum more solito quadam vice per vallem Spoletanam transitum faceret,
+					<pb n="1059"/>
+					<lb/>accidit ut non longe a castello, cui nomen Mevanium, multitudinem
+					<lb/>magnam diversi generis avium convolasse videret. Et quoniam
+					<lb/>ob praecipuum Creatoris amorem miro in omnes etiam creaturas ducebatur
+					<lb/>affectu, sociis in via relictis, alacriter contra locum ubi stabant
+					<lb/>adunatae cucurrit, easque, prout ei consuetudinis erat, veluti
+					<lb/>rationis humanae participes salutavit. Videns autem quod propter
+					<lb/>ipsum loco non cederent, admirans usque ad illas accessit; sed nec
+					<lb/>tunc una quidem illarum, dum adveniret, abscessit. Repletus itaque
+					<lb/>gaudio magno, vir Dei sollicite illas ad audiendum Domini verbum
+					<lb/>intendere monuit, et his similia simpliciter eis inter alia plura
+					<lb/>proposuit: "Fratres mei volucres, multum tenemini vestrum laudare
+					<lb/>et diligere Creatorem, qui plumis vos induit, qui pennis a terra vos
+					<lb/>subvehit, qui vobis inter creaturas nobilibus in puriore mansiones aëre
+					<lb/>tribuit; qui nec <hi rend="italic">serentes nec metentes</hi>, nec <hi rend="italic">in horrea congregantes</hi>,
+					<lb/>absque vestra sollicitudine vos enutrit et abundanter in omnibus quae
+					<lb/>vobis sunt opportuna providit". Ipsae vero aviculae, rostris apertis,
+					<lb/>alis collisque protensis, suo modo mirabiliter gestientes, sanctum
+					<lb/>Dei talia proponentem intuebantur, et verbis suis diligenter intendere
+					<lb/>videbantur. Sanctus vero Franciscus, <hi rend="italic">per medium illarum transiens</hi>
+					<lb/>et revertens, tunica eas tangebat ut voluit; nec illis quidem
+					<lb/>se prius a loco moventibus, donec benedictione cum signo crucis et
+					<pb n="1060"/>
+					<lb/>licentia eis data, similiter ipse recessit.Tunc coepit se magnae
+					<lb/>negligentiae coram fratribus incusare, eo quod hactenus omiserat avibus
+					<lb/>praedicare. Igitur ab illo tempore vir Dei, cuius ori semper laus
+					<lb/>affuit, laus utique Salvatoris, non solum homines ut laudarent ipse
+					<lb/>laudans admonuit, sed et aves et bestias et quaslibet creaturas
+					<lb/>alias, fratrum vel sororum nominibus nuncupans ad omnium Conditoris
+				<lb/>laudem sollicitus invitavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">38</hi></head> <p>Sed et hic qui totum se nutui Creatoris subiecerat, non immerito
+					<lb/>creaturis sibi inferioribus, Altissimi <hi rend="italic">nomen invocans</hi> imperabat,
+					<lb/>quarum etiam obedientiam ipsa frequenter experientia
+					<lb/>cognoscebat. Et ut referam pauca de multis, accidit die quadam
+					<lb/>apud castrum quod dicitur Albianum, ut cum Dei verbum populo illic
+					<lb/>adunato proponere vellet, prae nimio strepitu et multitudine hirundinum
+					<lb/>ibidem nidificantium audiri non posset. Quibus ita garrientibus
+					<lb/>taliter est locutus: "Sorores meae hirundines, iam <hi rend="italic">tempus
+					<lb/>est ut</hi> et ego loquar, quia vos quidem satis usque nunc estis locutae;
+					<lb/>sed deinceps, usque dum <hi rend="italic">sermo</hi> Domini <hi rend="italic">compleatur</hi> loqui
+					<lb/>omnino cessate!". At illae, veluti rationis capaces, continuo tacuerunt,
+					<lb/>nec ab ipso loco, donec consummaretur praedicatio, se moverunt.
+					<pb n="1061"/>
+					<lb/>Quo viso miraculo, cuncti qui aderant Deum glorificabant et
+				<lb/>beati viri saltem vestimenta contingere cupiebant.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">39</hi></head> <p>Confugiebant quoque saepius ad beatum Franciscum bestiae
+					<lb/>silvestres, veluti ad portum tutissimum, ac si ratione ductae ipsius
+					<lb/>erga se cognoscerent pietatis affectum. - Nam cum moram faceret
+					<lb/>apud castellum nomine Graecium, quemdam lepusculum laqueo
+					<lb/>captum vivum a quodam fratre vidit adductum; ad quem pietate
+					<lb/>magna permotus, sic ait vir ille mitissimus: "Frater lepuscule, veni
+					<lb/>ad me! Quare sic te decipi permisisti?. Qui dimissus a fratre, statim
+					<lb/>veluti securus ad virum Dei cucurrit et in sinu eius, domiti animalis
+					<lb/>more, quievit. Quoties autem a beato viro super terram
+					<lb/>depositus est ut abiret, toties ad illum, non aliam libertatem quaerendo,
+					<lb/>recurrit, donec tandem ad vicinum nemus ipsum a fratribus
+					<lb/>asportari praecepit. De cuniculo quoque, quod animal valde indomabile
+					<lb/>est, huic simile quiddam fecit, quando in insula laci Perusini
+				<lb/>tempore quodam mansit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">40</hi></head> <p>Similiter quadam vice, cum in lacu Reatino resideret in navi,
+					<lb/>piscis quidam non parvus, qui vulgo tinca vocatur, vivus oblatus
+					<lb/>est ei. Quem ipse vir sanctus non manducandum sed libertati restituendum
+					<lb/>hilariter et benigne recipiens, ipsum fratrem piscem vocavit,
+					<pb n="1062"/>
+					<lb/>oransque et <hi rend="italic">nomen Domini</hi> benedicens, in aquam reposuit.
+					<lb/>Persistente autem ipso in oratione et laudibus, piscis in aqua ludens
+					<lb/>a navicula non recessit, donec ei licentiam beatus Franciscus, oratione
+					<lb/>completa, concessit.
+					<lb/>Sic igitur gloriosus Christi confessor non solum sensibilibus, de
+					<lb/>quibus perlongum esset narrare per singula, bestiis videlicet et avibus
+					<lb/>imperavit, sed ad illius obsequium in alteram naturam insensibilia
+					<lb/>etiam Dominus elementa convertit. De quorum similibus
+					<lb/>unum quoque libet ut breviter enarremus. Nam cum ipse vir sanctus
+					<lb/>apud eremum Sancti Urbani quadam vice graviter aegrotaret, aqua
+					<lb/>sibi mirabiliter in vinum mutata est; factumque est ut ad gustum
+					<lb/>illius tam facile sanitatem reciperet, quod divinum hoc esse miraculum
+				<lb/>nullus ambigeret.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput IX - De affectu ipsius ad omnes creaturas propter amorem</hi>
+				<lb/>Creatoris; et quantam reverentiam nomini Domini et verbis
+			<lb/><hi rend="bold">exhibuit; et de compassione pauperum.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">41</hi></head> <p>Tanta beati Francisci mentem divini amoris dulcedo repleverat,
+					<lb/>ut in omnibus opera Creatoris miranda considerans, maxima
+					<lb/>etiam erga cunctas afflueret pietatis teneritudine creaturas. Inter
+					<pb n="1063"/>
+					<lb/>alias tamen illas praecipue diligebat, quas, ut puta oviculas, simplicioris
+					<lb/>et mansuetioris naturae videbat, quarum etiam nominibus Christum
+					<lb/>ob aliquam similitudinem figurari in Scripturis audierat. Nam
+					<lb/>tempore quodam per Marchiam Anconae cum fratre Paulo, quem ibidem
+					<lb/><hi rend="italic">ministrum constituerat</hi>, transiens, quemdam hircorum et caprarum
+					<lb/>vidit in pascuis non modicum gregem, et unicam inter omnes
+					<lb/>iam dicti gregis pecudes oviculam depascentem. Ad cuius intuitum
+					<lb/>graviter ingemiscens, dixit ad fratrem: "Nonne vides hanc solam oviculam
+					<lb/>inter hircos et capras simpliciter ambulantem? Sic utique Dominus
+					<lb/>noster Iesus Christus innocens, mansuetus et humilis inter
+					<lb/>scribas et pharisaeos et sacerdotum principes ambulavit. Solvamus
+					<lb/>ergo, fili carissime, pretium, et <hi rend="italic">educamus</hi> illam de <hi rend="italic">medio</hi> gregis caprarum.
+				<lb/>/*</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">42</hi></head> <p>Cumque nihil aliud praeterquam viles tunicas habentes de
+					<lb/>ove redimenda solliciti starent, ecce quidam mercator transiens se
+					<lb/>ad hoc voluntarius obtulit, pretioque soluto ipsam ovem sancto viro
+					<lb/>reliquit. Qui gaudens illam secum in civitatem quae dicitur Auximum,
+					<lb/>quo tendebat, adduxit, et ad eiusdem loci episcopum hospitandi
+					<lb/>gratia declinavit. Miranti igitur primum episcopo quare sic
+					<lb/>oviculam duceret, longam de illa parabolam coepit retexere, donec
+					<lb/>et ipse episcopus Altissimo gratias ageret, non modicum de tanta hominis
+					<pb n="1064"/>
+					<lb/>Dei compunctus simplici puritate.Sequenti autem die per
+					<lb/>quoddam claustrum Dominarum apud Sanctum Severinum vir Dei
+					<lb/>transitum fecit, ubi eisdem Christi famulabus oviculam commendavit;
+					<lb/>quam illae ob sancti reverentiam devotissime suscipientes, diligenter
+					<lb/>eam longo tempore nutrierunt, donec tunicam de ipsius
+					<lb/>tandem lana texentes, illam beato viro munus acceptissimum de fratre
+				<lb/>ovicula transmiserunt.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">43</hi></head> <p>Alio quoque tempore per eamdem Marchiam, iam dicto fratre
+					<lb/>comite, transiens, invenit in itinere quemdam virum, qui duos
+					<lb/>in humeris portabat agniculos ad vendendum. Quos ut pius pater
+					<lb/><hi rend="italic">balantes audivit, <hi rend="italic">commota sunt</hi> ex intimis viscera eius</hi> et accedens
+					<lb/>benigne eos veluti mater plorantes filios attrectavit. Dixit autem ad
+					<lb/>virum: "Quare fratres meos agniculos sic ligatos et suspensos excrucias?".
+					<lb/>Qui cum respondisset quod eos ad forum pretii necessitate
+					<lb/>deferret, quaerentique quid de illis postea fieret vir eos mactandos
+					<lb/>assereret, ait sanctus: "Absit ut hoc fiat! Quin potius mantellum
+					<lb/>hunc, quo contegor, accipe, et fratres meos agniculos mihi relinque!".
+					<lb/>Acquievit voluntarius homo ille; multo enim maioris pretii erat
+					<lb/>mantellus, quem vir Dei frigoris necessitate compulsus a quodam fideli
+					<lb/>mutuaverat ipsa die. Igitur acceptis agniculis, quid de ipsis ageret
+					<lb/>sollicitus exstitit; tandem cum socio fratre deliberans, gubernandos
+					<lb/>eidem viro commisit, et ne vel eos venderet ullo tempore laederetve
+				<lb/>districte praecepit.</p>
+				<pb n="1065"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">44</hi></head> <p>Non solum autem huiusmodi bestiis et dignioribus creaturis,
+					<lb/>sed et alus vilibus et minimis simili affectu compassionis adhaesit.
+					<lb/>Nam quia de Salvatore legitur: <hi rend="italic">Ego sum vermis et non homo</hi>,
+					<lb/>vermiculos etiam, ne contererentur multoties de via legebat; sed
+					<lb/>et apibus, ne deficerent, forte vinum vel mel in hieme ministrabat.
+					<lb/>Diligenter enim, non tam illarum, quam et aliarum creaturarum efficaciam
+					<lb/>attendebat, et quidquid admirationis, delectamenti seu cuiuscumque
+					<lb/>valoris in unaquaque perpendere poterat, id totum in
+					<lb/>omnium Factoris gloriam regerebat. Quid putas, in sole, luna firmamentoque
+					<lb/>et stellis; quid in elementis et eorum effectibus sive ornatibus;
+					<lb/>quid, inquam, in omnibus omnium Creatoris potentiam,
+					<lb/>sapientiam bonitatemque contemplans, verae cognitionis, dulcedinis
+					<lb/>hausit et gratiae? Utique quempiam mortalium non arbitror hoc
+					<lb/>posse verbis exprimere.Et quoniam ad unum principium omnia
+					<lb/>retorquebat, propter hoc omnia fraterno nomine nuncupabat, omnia
+					<lb/>ad unius Conditoris laudem continuus ipse in laudibus invitabat.
+					<lb/>Ipse vero, <hi rend="italic">nomen Domini nominans</hi>, totus supra hominis intellectum
+					<lb/>afficiebatur, totus in iubilo, totusque alterius saeculi videbatur.
+					<lb/>Propterea et tantam nomini Salvatoris reverentiam
+					<lb/>exhibebat, quod et qualecumque scriptum inveniret inhoneste locatum,
+					<pb n="1066"/>
+					<lb/>reverenter illud recolligens, in loco reponebat honesto, ne
+					<lb/>forte verba divina vel nomina, vel etiam litterae quibus illa scribuntur,
+				<lb/>continerentur in illo.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">45</hi></head> <p>Quanto autem, putas, erga pauperes homines compassionis
+					<lb/>ardore fervebat, qui tanta non solum ad animalia bruta, verum etiam
+					<lb/>ad insensibiles et infimas affluebat pietatis dulcedine creaturas?
+					<lb/>Nam hic vere pauperum patriarcha omnium pauperrimus esse desiderans,
+					<lb/>etsi supra vilem tunicam nihil possessionis appeteret, noluit
+					<lb/>tamen in hac unica necessitate parcere sibi ipsi, quin et illam
+					<lb/>pluries indigenti cuiquam promptissime cuperet impertiri.Vestes
+					<lb/>quoque diversas a divitibus in hieme postulabat, quas, illis libentissime
+					<lb/>dantibus, ita ut nec ad restitutionem teneretur, accipiens, eas egenis,
+					<lb/>quos prius habere contingeret obvios, in frigore porrigebat.
+					<lb/>Gravissimum erat illi, si alicui pauperum verbo vel facto perciperet
+					<lb/>quidquam molestiae fieri. Audiens enim tempore quodam unum
+					<lb/>e fratribus pauperi cuidam huiusmodi verbum invectionis inferre:
+					<lb/>"Vide ne forsitan falso simules paupertatem!", durius increpatum
+					<lb/>fecit coram eodem paupere nudum procidere et, pedibus eius deosculatis
+					<lb/>humiliter ab ipso veniam postulare. Ait enim: "Qui pauperi
+					<lb/>maledicit, Christo facit iniuriam, cuius nobile signum gerit, qui voluntarie
+					<lb/>pauperem pro nobis in hoc mundo se fecit". Ipse quoque,
+					<pb n="1067"/>
+					<lb/>etsi minimum quid haberet corporalium virium, humeros tamen
+					<lb/>proprios saepius ad sublevanda supposuit onera pauperum. Quorum
+					<lb/>etiam pio zelo multa alia faciebat frequentius in hunc modum, quae,
+				<lb/>nisi brevitati studeremus, scribere non fuisset indignum.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput X - De fructu praedicationis illius, et de devotione populi</hi>
+				<lb/>circa ipsum; et de quibusdam miraculis eius, et de solemnitate
+			<lb/><hi rend="bold">praesaepii et visione.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">46</hi></head> <p>Sanctus vir Dei Franciscus, eo tempore quo, ut dictum est,
+					<lb/>volucribus praedicavit, per <hi rend="italic">civitates et castella</hi> longe lateque <hi rend="italic">circuiens</hi>,
+					<lb/>tantorum divina virtute ad poenitentiam corda commovit,
+					<lb/>quod et aliquoties ad religionis habitum simul triginta recepit.
+					<lb/>Tanto namque desiderio turmatim populus confluebat ad ipsum, ut
+					<lb/>si quis vel eius vestimenta contingere posset, felicem se prae devotione
+					<lb/>permaxima reputaret. Introeunte ipso civitatem aliquam
+					<lb/>vel castellum, pulsatis illum campanis solemniter exceperunt, et cum
+					<lb/>ingenti gaudio adventui eius unanimiter applaudentes, obviam sibi
+					<lb/>quandoque cum ramis arborum processerunt. Confundebatur haeretica
+					<lb/>pravitas, fides extollebatur catholica, quam non solum hic sanctus
+					<pb n="1068"/>
+					<lb/>vita magnificavit et verbis, sed et plurimis extulit miraculorum
+					<lb/>prodigiis. Nam et omnem languorem, divini nominis invocata virtute
+					<lb/>curavit, verbo magnifice daemones effugavit, nullaque oranti
+					<lb/>necessitatis seu periculi difficultas obsistere potuit. Cuius miracula
+					<lb/>etsi prolixiori tractatui reservemus, pauca tamen huic opuscolo breviter
+				<lb/>inseremus.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">47</hi></head> <p>In civitate Tuscanella miles quidam beatum Franciscum hospitio
+					<lb/>devote collegerat; cuius <hi rend="italic">unicus filius</hi> etsi iam annos ablactationis
+					<lb/>transierat, adhuc tamen in cunabulis claudus et toto corpore
+					<lb/>debilis decubabat. Hic beati viri pedibus humiliter se prostravit,
+					<lb/>eumque flebiliter pro filii sui sanitate rogavit. Sed Dei famulus, ad
+					<lb/>talia indignum se reputans, nequaquam primitus acquievit, donec ad
+					<lb/>ultimum victus instantia deprecantis ad orationem se contulit, factoque
+					<lb/>deinde signo crucis, <hi rend="italic">in nomine Domini</hi> puerum <hi rend="italic">allevavit</hi>.
+					<lb/>Puer autem, cunctis videntibus, incontinenti surrexit, et sanus per
+				<lb/>domum huc atque illuc, prout voluit, ambulavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">48</hi></head> <p>Alio tempore quidam vir Petrus nomine, in civitate quae
+					<lb/>Narnium dicitur, sic omnium membrorum fuerat officio destitutus,
+					<lb/>ut per quinque mensium spatium quasi truncus immobilis iacens,
+					<lb/>linguam saltem utcumque moveret et oculos miserabiliter aperiret.
+					<pb n="1069"/>
+					<lb/>Hic, audito quod beatus Franciscus illic applicuisset, mox ad episcopum
+					<lb/>loci suppliciter rogans misit, ut ad se divinae pietatis intuitu
+					<lb/>servum Dei venire rogaret, eo quod ex ipsius praesentia <hi rend="italic">sanitati restituendum</hi>
+					<lb/>se crederet. Ad quem vir Dei pietate commotus accedens,
+					<lb/>signum crucis super eum a capite usque ad pedes protraxit;
+					<lb/>et mox, omni morbo fugato, in <hi rend="italic">virtute Altissimi</hi> sanum erexit.
+					<lb/>In eadem civitate quaedam mulier oculorum lumen amiserat, quae
+					<lb/>et a beato Francisco illuminari cum gaudio meruit, statim ut ab eo
+					<lb/>super oculos signum crucis accepit.Quaedam mulier civitatis Eugubii
+					<lb/>sic ambas habebat manus contractas, ut ad omne opus agendum
+					<lb/>penitus essent inutiles. Quae cum beatum Franciscum illic
+					<lb/>advenisse cognosceret, moestitiae plena cucurrit ad illum, ut suam
+					<lb/>ei miserandam necessitatem ostenderet. Quam visam vir Dei commiserans
+					<lb/>tetigit ac sanavit, ita ut illa propriis manibus caseatam continuo
+					<lb/>praepararet, eamque famulo Dei, de qua et ipse paulisper ob
+				<lb/>devotionem mulieris accepit, offerret.</p>
+				<pb n="1070"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">49</hi></head> <p>Frater quidam miseranda nescio cuius infirmitatis angustia
+					<lb/>torquebatur, nisi quod pessimum a plerisque daemonium fuisse putatur.
+					<lb/>Nam nunc allisus <hi rend="italic">volutabatur spumans</hi> et aspectu horribilis,
+					<lb/>nunc autem rigidus et extensus, nunc curvus iacuit et contractus,
+					<lb/>nunc vero ad staturam hominis a terra, pedibus aequatis capiti, levabatur,
+					<lb/>miserabiliter illico relapsurus. Ad quem infirmitate illius
+					<lb/>agnita, pater sanctus accessit; primo quidem orationem pro eo fundens
+					<lb/>ad Dominum, ac deinde signum crucis exprimens super illum.
+					<lb/>Ad quod subito mirabiliter factum est, ut frater ille sic immunis a
+					<lb/>passione huiusmodi pessima fieret, ne vel motum prorsus ex tunc exiguum
+				<lb/>de illa sentiret.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">50</hi></head> <p>Apud <hi rend="italic">castellum</hi> Sancti Gemini quodam tempore beatus
+					<lb/>Franciscus <hi rend="italic">praedicans regnum Dei</hi>, cum tribus fratribus domum
+					<lb/>cuiusdam viri devote receptus intravit; cuius uxorem, sicut omnibus
+					<lb/>loci illius incolis notum fuit, <hi rend="italic">daemonium male vexavit</hi>. Pro
+					<lb/>qua vir sanctus, eo quod hominum timeret applausum, diu antequam
+					<lb/>acquiesceret exoratus, tandem victus prece, tres fratres suos in tribus
+					<pb n="1071"/>
+					<lb/>angulis domus ad orandum pro illa constituit, et in quartum similiter
+					<lb/>oraturus ipse secessit. Post haec ad mulierem miserabiliter se
+					<lb/>gerentem confidenter accessit, et <hi rend="italic">in Christi nomine</hi> daemoni ut
+					<lb/>exiret per obedientiam imperavit. Qui, Domino id ad humilitatem
+					<lb/>famuli sui conservandam agente, tam subito horrende stridens egressus
+					<lb/>est, ut vir Dei sibi fuisse illusum certissime crederet, statimque
+					<lb/>a loco cum vultus suffusione recederet.Unde et alia vice per
+					<lb/>idem castellum transitum faciens, ipsam mulierem post se, ut ei loqueretur,
+					<lb/>devote currentem et <hi rend="italic">vestigia pedum eius deosculantem</hi>
+					<lb/>videre vel alloqui noluit, donec vere illam daemoniacam fuisse, cunctis
+					<lb/>hoc attestantibus, tandem vix credidit.Erat quoque in Civitate
+					<lb/>de Castello quaedam mulier <hi rend="italic">habens daemonium</hi>, quae, adveniente
+					<lb/>illuc beato Francisco, perducta venit ad ipsum. Aderat autem multitudo
+					<lb/>populi civitatis ad rogandum pro illa, quae se crebra ipsius daemoniacae
+					<lb/>gravatam conquerebatur insania. Quam ut audivit beatus
+					<lb/>Franciscus clamantem pro foribus et furentem, scire volens an esset
+					<lb/>vere daemonium, emisit ad illam primitus quemdam fratrem.
+					<lb/>1o Quem illa videns, novit non esse beatum Franciscum et nequiter
+					<pb n="1072"/>
+					<lb/>subridens quasi pro modico duxit illum. Interim autem vir Dei in
+					<lb/>oratione prostratus, ea tandem completa, ad mulierem fiducialiter
+					<lb/>est egressus. cuius illa sustinere non valens praesentiam, volutabatur
+					<lb/>coram illo cum fremitu super terram. Ipse vero per obedientiam
+					<lb/>imperavit exire spiritui; qui egrediens nec ad momentum resistere
+				<lb/>valuit imperanti.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">51</hi></head> <p>Haec et his similia plura per beati Francisci non solum corporalem
+					<lb/>praesentiam gesta sunt, verum etiam, si qua fortasse vel manu
+					<lb/>contingeret, erant in eius absentia contra diversas clades salubre
+					<lb/>remedium. Nam in finibus civitatis Aretii supra modum quaedam
+					<lb/>mulier gravida torquebatur, eo quod <hi rend="italic">virtutem pariendi</hi> parturiens
+					<lb/>non haberet, ita ut omnino spes de ipsius salute non esset. Accidit
+					<lb/>autem tunc temporis beatum Franciscum propter infirmitatem corporis
+					<lb/>et debilitatem ad eremum quamdam in equo fuisse deductum,
+					<lb/>et eumdem equum reduci a quodam fratre per illum locum.
+					<lb/>Videntes autem homines loci fratrem, ipsum esse beatum Franciscum
+					<lb/>sperabant, quem qui iam aliunde transierat, illac transiturum
+					<lb/>audierant. Cumque non sine gravi dolore comperissent ipsum non
+					<lb/>esse, non tamen adhuc penitus desperantes, coeperunt rem aliquam
+					<pb n="1073"/>
+					<lb/>a sancti viri manibus attrectatam diligenter inquirere. Invenientes
+					<lb/>autem freni habenas, quas manu vir Dei tenuerat, ipsum frenum ab
+					<lb/>equi ore velociter extrahebant, ponentes id super mulierem quam periclitari
+					<lb/>videbant; factumque est ut statim illa cum gaudio pareret
+				<lb/>et ultra periculum penitus non sentiret.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">52</hi></head> <p>Vir quidam religiosus Gaufreducius nomine, Castrum Plebis
+					<lb/>inhabitans, quemdam penes se devote funiculum conservabat, quo
+					<lb/>se beatus Franciscus quandoque praecinxerat. Accidit autem in eodem
+					<lb/>castello plurimos utriusque sexus graviter infirmari, cum iam
+					<lb/>dictus vir aegrotantium loca circuiens ipsius funiculi partem in aqua
+					<lb/>tinxit vel eidem aquae minimum quid de illo immiscuit, et sic in aegritudinis
+					<lb/>lecto decubantibus potum dedit. Sicque mirabiliter factum
+					<lb/>est ut, si qui languentium ex huiusmodi potione gustarent, optatam
+					<lb/>continuo sanitatem reciperent.Panes etiam ad benedicendum
+					<lb/>beato Francisco saepius offerebant, de quibus aegri gustantes
+					<lb/>a diverso languoris incommodo resurgebant. Crebro quoque pius
+					<lb/>pater quasi seminudus a populo derelictus est, eo quod tunicam illius
+					<lb/>per particulas cum cultellis inciderent, easque devote contra diversa
+				<lb/>pericula pro salutis remedio conservarent.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">53</hi></head> <p>Accidit praeterea res quaedam mirabilis anno ante felicem
+					<lb/>beati Francisci transitum tertio, quam, multis aliis praetermissis, digne
+					<lb/>recolendam existimo. Ipse namque vir sanctus ea praecipue
+					<pb n="1074"/>
+					<lb/>quae circa Christum gesta sunt assidua meditatione revolvens,noluit
+					<lb/>eorum quae sacris Evangelii voluminibus enarrantur pro sua possibilitate
+					<lb/>vel unicum iota vel apicem transgredi; quin in omnibus, quae
+					<lb/>de Christo scripta perpendit, super omnia quae in huius vitae volubilitate
+					<lb/>geruntur, <hi rend="italic">iugum</hi> ipsius Domini <hi rend="italic">suavis</hi>simum <hi rend="italic">onus</hi>que <hi rend="italic">levis</hi>simumt
+					<lb/>cuperet experiri. Igitur solemnitate quadam dominicae
+					<lb/>nativitatis instante, humilem nascentis in Bethlehem Salvatoris infantiae
+					<lb/>paupertatem, similitudine qua poterat, vir Dei repraesentare
+					<lb/>desiderans, ad castellum de Graecio quemdam virum religiosum et
+					<lb/>nobilem nomine Iohannem praemisit; qui ad hoc bovem sibi et asinum
+				<lb/>cum praesaepio contra venturae festivitatis gaudia praeparavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">54</hi></head> <p>Advenit denique nox solemnis, aderatque beatus Franciscus,
+					<lb/>pluribus illic secum fratribus adunatis. Praeparato itaque
+					<lb/>praesaepio foenum imponitur, adducti bos et asinus ad praesaepium
+					<lb/>collocantur, et sic cum gaudio vigiliae celebres inchoantur. Confluente
+					<lb/>igitur e diversis locis multitudine populi, facta est nox illa
+					<lb/>iucunditatis insolitae plena, facta est cereis et facibus luminosa, novoque
+					<lb/>ritu celebrantur Bethlehem novae solemnia. Fratres quoque
+					<lb/>laudes Domino debitas exsolvebant; sed et cuncti qui aderant novis
+					<lb/>laetitiae canticis applaudebant. Stabat autem coram praesaepio
+					<lb/>beatus Franciscus; stabat, inquam, suspiriis prae gaudio plenus; stabat
+					<lb/>indicibili suavitate perfusus. Tandem super ipsum praesaepe sacra
+					<pb n="1075"/>
+					<lb/>missarum aguntur solemnia, cum et ipse sanctus Dei levita, solemnibus
+					<lb/>ornamentis indutus, Evangelium voce sonora pronuntiat,
+					<lb/>ac deinde populo de nato in Bethlehem Rege paupere melliflua praedicat.
+					<lb/>Tanta vero pietatis dulcedine circa iam dicti Regis afficiebatur
+					<lb/>infantiam, ut, si quando Iesum Christum nominare deberet, ipsum
+					<lb/>veluti balbutiens "puerum de Bethlehem" prae nimia amoris teneritudine
+				<lb/>nuncuparet.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">55</hi></head> <p>Sed et ne facta putentur haec omnia sine nutu divino, miranda
+					<lb/>talis ibidem cuidam viro virtutis ostensa est visio. Vidit namque
+					<lb/>ad saepedictum praesaepe beatum Franciscum accedere et
+					<lb/>quemdam, qui in illo iacere videbatur exanimis, velut a somni sopore
+					<lb/>puerulum excitare. Creditur itaque non immerito suam Dominus Iesus
+					<lb/>Christus infantiam recolenti in huiusmodi formula non absurde
+					<lb/>monstratus; quippe qui in multorum cordibus per oblivionem quasi
+					<lb/>sopitus et mortuus, veluti per beati Francisci doctrinam et exemplum
+					<lb/>evigilans ad memoriam est reductus. Finitis igitur tantis cum
+					<lb/>exsultatione solemniis, unusquisque laetus ad propria remeavit.
+					<lb/>At vero de foeno praesaepii conservato plura diversimode postmodum
+					<lb/>ab utriusque sexus hominibus sunt remota pericula, necnon et
+					<lb/>brutis animalibus morbidis sanitatis collata remedia.Porro locus
+					<lb/>praesaepii <hi rend="italic">templum Domino</hi> consecratur, et altare super ipsum
+					<pb n="1076"/>
+					<lb/>praesaepe constructum ad sancti patris honorem et facti memoriam
+				<lb/>dedicatur.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">56</hi></head> <p>Tot et tantis refulsit beatus Franciscus, tum adhuc vivens
+					<lb/>in carne, tum post excessum vitae, miraculis, quod ea plenius explicare
+					<lb/>multo prolixioris est operis. Nam praeter alia quasi innumera,
+					<lb/>quae in diversis aegritudinum, necessitatum seu periculorum
+					<lb/>generibus gessit, multos etiam mirifice mortuos suscitavit; quorum,
+					<lb/>etsi de pluribus non sumus incerti, numerum tamen ad praesens certum
+					<lb/>non ponimus, nisi quod undecim esse a viris fide dignis accepimus.Haec
+					<lb/>igitur de miraculis eius in praesentiarum utcumque
+					<lb/>tetigisse sufficiat, ne cursum vitae eius breviter audire volentes taedio
+					<lb/>miraculorum narratus afficiat. Quid enim miraculis, quae sanctitatem
+					<lb/>magis ostentant quam faciunt, immoremur, cum etiam miraculosae
+					<lb/>conversationis eius insignia, quorum pauca perstringimus,
+					<lb/>plurima propter brevitatem subticere cogamur? Paucissimas enim
+					<lb/>arbitror esse virtutes, in quarum exercitiis vir iste beatus notabilia
+					<lb/>multa non gesserit, quae ad narrandum forent utique potiora miraculis.
+				<lb/>/*</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput XI - De studio orationis et conflictu eius cum diabolo; de</hi>
+				<lb/>constantia praedicationis; de apertione libri et visione Seraph
+			<lb/><hi rend="bold">crucifixi, et de apparentibus in ipso Christi stigmatibus.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">57</hi></head> <p>Ad omnia vero quae gloriosus pater Franciscus intendit et
+					<lb/>fecit tutissimum eius refugium oratio crebra fuit. Nam etsi ardentissimo
+					<lb/>zelo proximorum lucris intenderet, studuit tamen summopere,
+					<pb n="1077"/>
+					<lb/>ne sui ipsius curam in omni perfectionis experimento negligeret.
+					<lb/>Ad hoc solitaria loca quaesivit, ad hoc in eremi vastitate resedit;
+					<lb/>sed et inter homines habitans, ad ecclesias domosve desertas solus
+					<lb/>nocte perrexit. O quantos in huiusmodi locis terrores, quantaque
+					<lb/>diaboli machinamenta devicit! Cui non solum intus malignus ille pestifera
+					<lb/>saepe suggessit, sed et in aliqua horrenda effigie <hi rend="italic">manu ad manum</hi>
+					<lb/>cum illo conflixit.Talia, inquam, loca intrepidus, ut in oratione
+					<lb/>sibimet invigilaret, elegit; ibi prius didicit, quae postmodum alios
+					<lb/>docuit. Didicit autem non ut curiose quae loqueretur verba confingeret,
+					<lb/>sed sic supra modulum eruditionis humanae ex affluentia doctrinae
+					<lb/>caelestis uberrime bibens, ut non tam verbis quam <hi rend="italic">virtute
+				<lb/>Spiritus</hi> ad eructandum proximis opportuno tempore plenus esset.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">58</hi></head> <p>Nam, etsi quando haec vel illa dicere cogitasset, accidit ut
+					<lb/>ad praedicandum veniens omnium illorum quae praecogitarat oblitus,
+					<lb/>omnino quid diceret non haberet; sed nec tunc quidem defectum
+					<lb/>suum confiteri coram cunctis erubuit, et sic subito mira verborum
+					<lb/>eloquentia affluere coepit. Sic spe tota iugiter in solius Domini provida
+					<lb/>largitate suspensus, de propria penitus diffidebat industria, eademque
+					<lb/>mentis constantia multis loquebatur ut paucis, eadem
+					<lb/>diligentia uni soli praedicavit ut multis. Nullius quoque verebatur
+					<lb/>personam, quin aequanimiter sapientibus et indoctis, magnisque
+					<lb/>loqueretur et parvis. Nam et cardinalibus coram domino papa Honorio
+					<lb/>congregatis constantissime praedicavit, non utique tam verborum
+					<pb n="1078"/>
+					<lb/>simplicitate movens ad risum, quam mirando spiritus fervore
+				<lb/>compunctionis extorquens suspirium.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">59</hi></head> <p>Igitur vir iste sanctissimus, qui sibi et proximis utiliter
+					<lb/>dividere tempora novit, quadam vice relictis ex more saecularium
+					<lb/>turbis, locum solitudinis petiit, paucosque, qui suam ab omni incursantium
+					<lb/>tumultu quietem defenderent, secum duxit. Cupiebat
+					<lb/>enim ad tempus soli Deo vacare, et si quid pulveris ex hominum conversatione
+					<lb/>forsitan contraxisset, extergere. Cumque, mentis aliquantulum
+					<lb/>continuata quiete, contemplationis fructum sapidius
+					<lb/>degustasset, totis praecordiis desiderabat agnoscere, quid agendo sacrificium
+					<lb/>de se Domino magis gratum posset offerre. Iam vir mirandae
+					<lb/>virtutis consummaverat, cum se adhuc vix incepisse credebat.
+					<lb/>Summum eius studium fuerat ad anteriora se semper extendere, et
+					<lb/>retroacta quasi in nihilum computare. Cupiebat igitur adhuc de novo
+					<lb/>omnes corporis passiones cunctasque mentis pati angustias, quo
+				<lb/>perfectius compleretur in ipso beneplaciti divini voluntas.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">60</hi></head> <p>Cumque huic desiderio quanto diutius tanto ferventius
+					<lb/>anhelaret die quadam in eremitorio quo manebat ad altare devotus accessit;
+					<lb/>super quod Evangeliorum librum cum reverentia et timore
+					<lb/>deposuit. Post haec humiliter se coram altari in oratione prosternens,
+					<lb/>quanta poterat devotione <hi rend="italic">clamavit ad Dominum</hi>, ut in prima
+					<pb n="1079"/>
+					<lb/>libri apertione sui de ipso beneplaciti dare dignaretur indicium.
+					<lb/>Tandem <hi rend="italic">corde contrito ab oratione consurgens</hi> se crucis simo
+					<lb/>munivit, librumque de altari reverenter acceptum aperuit. Cui cum
+					<lb/>Domini nostri Iesu Christi passio primum occurreret, suspicatus est
+					<lb/>ne casu hoc forsitan accidisset. Unde et rursus librum claudens,
+					<lb/>rursus aperuit, pluriesque hoc ipsum reiterans, idem quod prius vel
+					<lb/>simile prorsus invenit. Ad hoc Christi miles intrepidus non expavit;
+					<lb/>et qui iam dudum martyr desiderio fuit, etiam tunc se ad omne,
+					<lb/>quod pro Christo sustineri poterat, flagrantius animavit.Et quoniam
+					<lb/>pro his omnibus Domino laetitiae cantica corde iucundo deprompsit,
+					<lb/>propterea non multo post maioris revelatione mysterii
+				<lb/>dignus fuit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">61</hi></head> <p>Nam duobus annis antequam vir ille beatus felicem Domino
+					<lb/>spiritum redderet, moram in eremitorio quod Alverna dicitur faciens,
+					<lb/><hi rend="italic">vidit in visione</hi> quasi <hi rend="italic">Seraph</hi> unum in aëre <hi rend="italic">sex alas</hi>
+					<lb/>habentem, cruci <hi rend="italic">manibus extensis pedibusque coniunctis</hi> affixum.
+					<lb/><hi rend="italic">Alarum</hi> vero <hi rend="italic">duas super caput</hi> erectas et <hi rend="italic">duas ad volandum extensas</hi>
+					<lb/>habebat; porro <hi rend="italic">duabus</hi> totum <hi rend="italic">corpus</hi> tegebat. 0bstupuit vehementer
+					<lb/>vir sanctus ad visum, et alternabantur in ipso timor et
+					<pb n="1080"/>
+					<lb/>gaudium. Delectabat eum speciei illius mirabilis pulchritudo; deterrebat
+					<lb/>plurimum horrenda crucis affixio; sed et hoc laetificabat, quod
+					<lb/>gratiose se respici videbat ab illo. Cumque diutius anxio spiritu cogitaret
+					<lb/>quid huiusmodi visionis novitas importaret, nihil de illa liquido
+					<lb/>intelligere poterat, donec in se ipso tandem vidit gloriosissimum
+					<lb/>illud miraculum: miraculum, inquam, omnibus, ut arbitror, retroactis
+				<lb/>saeculis inauditum.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">62</hi></head> <p>Apparebant namque in manibus eius et pedibus quasi <hi rend="italic">fixurae
+					<lb/>clavorum</hi>, latusque ipsius dextrum veluti lancea perforatum.
+					<lb/>Manuum videlicet interior et pars pedum superior supereminentia
+					<lb/>quaedam ex ipsa carne veluti clavorum capita protendebat; manus
+					<lb/>autem exterius et pedes inferius signa quaedam oblonga gerebant,
+					<lb/>veluti retorta clavorum acumina, quae et ipsa carnem similiter reliquam
+					<lb/>excedebant. In latere vero dextro cicatrice obductum vulnus
+					<lb/>apparuit, quod et sacrum sanguinem saepius evaporans tunicam ipsius
+					<lb/>necnon et aliquoties femoralia tinxit. Talibus igitur vir Dei
+					<lb/>in se resultantibus margaritis, studuit summopere pretiosissimum illum
+					<lb/>thesaurum, quo speciali eum Dominus praerogativa ditaverat,
+					<lb/>ab omnium omnino viventium oculis conservare reconditum, ne quod
+					<lb/>vel minimum conscii cuiusquam familiaritatis occasione fortassis incurreret
+					<pb n="1081"/>
+					<lb/>detrimentum. Unde et quia rarissime perpaucis praecipua
+					<lb/>consueverat revelare mysteria, ea quoque, quae tam gloriose parebant
+				<lb/>in ipso, maxime sibi familiaribus diu erant incognita.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">63</hi></head> <p>Periculosum enim existimans inclitum apparere in oculis hominum,
+					<lb/>sed et pro magno non reputans occulta quorumlibet bona non
+					<lb/>esse maiora iis quae proferuntur in publicum, ruminabat multoties
+					<lb/>illud in ore propheticum: <hi rend="italic">In corde meo abscondi eloquia tua, ut non
+					<lb/>peccem tibi</hi>. Fratribus quoque circa ipsum conversantibus dederat
+					<lb/>tale signum, ut si quando eum cum extraneis occupatum praedictum
+					<lb/>versiculum recitare perciperent, illum, ne forsitan in verba sibi nociva
+					<lb/>difflueret, curialiter ab eorumdem colloquiis expedirent.Itaque
+					<lb/>vulnus lateris, quoadusque vixit in corpore, diligenter viro Dei
+					<lb/>celante, solus hoc frater Helias casu utcumque prospicere meruit.
+					<lb/>Frater vero Rufinus, ad eum scalpendum admissus, <hi rend="italic">manu</hi> illud sensibiliter,
+					<lb/>sed fortuito, <hi rend="italic">contrectavit</hi>; Sad cuius contactum vir sanctus
+					<lb/>remurmurans gravissime doluit, et iam dictum fratrem inculpans, ut
+				<lb/>hoc sibi <hi rend="italic">Dominus indulgeret</hi> adiunxit.</p>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput XII - De iis quae ante mortem sustinuit, fecit et dixit;</hi>
+			<lb/><hi rend="bold">de fervore ipsius et patientia; et de transitu eius et exsequiis.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">64</hi></head> <p>Iam beatissimus pater Franciscus, annis a conversione sua
+					<lb/>decem et octo peractis, nullam vel modicam carni requiem dederat,
+					<pb n="1082"/>
+					<lb/>sed per diversas mundi partes praedicando laboriose circuiens, inusitatis
+					<lb/>eam et novi generis disciplinis affligere non cessarat; et quamvis
+					<lb/>ei in multis languoribus effluxissent dies praeteriti, duobus tamen
+					<lb/>annis, qui adhuc vitae eius erant residui, gravioribus coepit et magis
+					<lb/>continuis infirmitatibus perurgeri.Sed et licet caro naturali corruptelae
+					<lb/>necessarioque se praesentiret propinquare defectui, non tamen
+					<lb/>adhuc dissensit, quantum poterat, sub assueti rigoris lege teneri.
+					<lb/>In tantum enim vir reverendus se sibi subiecerat, tantaque corpus
+					<lb/>harmonia spiritui concordarat, ut etiam carnis repugnantiam vix sentiret
+					<lb/>in omnibus quae spiritus agenda dictabat. Igitur vir sanctus
+					<lb/>spiritu ad omne bonum promptissimus, qui tanto hactenus animarum
+					<lb/>zelo fervebat, adhuc in praedicatione non desistens intendere proximorum
+					<lb/>saluti, corpus emortuum fecit in asino per <hi rend="italic">civitates et castella</hi>
+				<lb/>circumvehi.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">65</hi></head> <p>Suadebant autem fratres eique cum omni precum instantia
+					<lb/>supplicabant, ut infirmitatibus suis medicorum auxilio subveniri permitteret:
+					<lb/>videntes utique quod de die in diem magis magisque deficeret.
+					<lb/>Ipse vero consentire in hoc fratribus penitus recusabat,
+					<lb/>veluti qui hactenus carnis curam non egerat, iamque <hi rend="italic">dissolvi et esse
+					<lb/>cum Christo</hi> multo melius anhelabat. Verum quamvis <hi rend="italic">stigmata
+					<lb/>Domini Iesu in corpore suo portaret</hi> quia tamen in ipso oportuit
+					<lb/><hi rend="italic">ea quae passionum Christi deerant</hi> adhuc amplius <hi rend="italic">adimpleri</hi>, coepit
+					<pb n="1083"/>
+					<lb/>et aliis languoribus infirmitas oculorum gravissima superaddi.
+					<lb/>Tunc supradictus frater Helias, quem veluti loco matris elegerat et
+					<lb/>adhuc vivens gregi suo pastorem praefecerat, compulit eum et rationibus
+					<lb/>induxit, ut sibi mederi permitteret, timens ne forte per incuriam
+					<lb/>penitus oculorum lumen amitteret. Cui vir sanctus humiliter
+					<lb/>obtemperans tamquam patri, plura suis ex tunc oculis medicamina
+					<lb/>patiebatur apponi, quamvis ingravescente malo, nullius essent
+					<lb/>remedii.
+					<lb/>Tandem Reatam curandae iam dictae infirmitatis occasione perductus
+					<lb/>est, ubi, et domino Honorio papa tertio moram tunc temporis
+					<lb/>faciente, honorifice a curia Romana devoteque susceptus est. Familiarius
+					<lb/>tamen ei prae caeteris dominus Hugo, tunc Ostiensis episcopus,
+					<lb/>affuit, quem vir sanctus eodem domino annuente Honorio,
+					<lb/>in patrem ac dominum prae cunctis elegerat, cuius se cum universo
+					<lb/>Ordine suo tutelae commiserat, necnon et obedientiae mandato
+					<lb/>subiecerat, sed et eumdem, prophetico spiritu ductus, apostolico
+					<lb/>honori provisum fore non solum verbis praedixerat, sed et factis
+				<lb/>multimode praesignarat.</p>
+				<pb n="1084"/>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">65</hi></head> <p>Hic igitur erga virum sanctum mirando dilectionis affectu
+					<lb/>flagrabat; hic pauperculo Iesu Christi, tamquam famulus domino, ministrabat.
+					<lb/>Contestabatur idem ipse postmodum ad apostolicam dignitatem
+					<lb/>provectus, se numquam in tanta perturbatione fuisse, quin
+					<lb/>omne mentis nubilum in solo viri Dei intuitu vel affatu discederet,
+					<lb/>subitaque serenitatis suavitas et iucunditatis dulcedo rediret. Unde
+					<lb/>et quoties ipsum videbat, ei tamquam <hi rend="italic">Christi apostolo</hi> reverentiam
+					<lb/>exhibebat. Hic itaque beatum Franciscum, ut curam sui gereret,
+					<lb/>instanter admonuit; cui et ipse sanctus in hoc humiliter, sicut et in
+					<lb/>aliis omnibus, obedivit. Factis igitur cocturis in capite, venis incisis,
+					<lb/>collyriis et emplastris adhibitis, <hi rend="italic">nihil</hi> penitus ad sanitatem <hi rend="italic">profecit</hi>;
+					<lb/>quin potius ipsum malum medicaminibus multiplicatis accrevit.
+					<lb/>Ipse vero tot incommoda corporis in omni patientia et gratiarum
+					<lb/>actione sustinuit; despectisque corporalium membrorum molestiis, totam
+					<lb/>ad Deum intentionem, spiritu confortato, direxit. Et ut internae
+					<lb/>consolationi liberius posset intendere, quatuor fratrum, <hi rend="italic">virorum
+					<lb/>virtutis</hi>, deputabatur custodiae, qui et omni sollicitudine insistebant
+					<lb/>ipsius non solum necessitudini corporis procurandae, verum
+				<lb/>etiam quietudini spiritus observandae.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">67</hi></head> <p>Iam gloriosus pater, in tantarum non mediocriter virtutum
+					<lb/>gratia consummatus, transegisse se dies vacuos reputavit; et quamvis
+					<lb/>esset ad exteriora corporis exercitia prorsus inutilis, semetipsum
+					<lb/>tamen adhuc ad triumphos novi certaminis incitavit. Dicebat enim:
+					<pb n="1085"/>
+					<lb/>"Incipiamus, fratres, Deo servire. Incipiamus", inquit, "et proficiamus,
+					<lb/>quoniam parum hucusque profecimus". Volebat rursus ad
+					<lb/>simplicitatis redire primordia; volebat leprosis contemptibiliter de novo
+					<lb/>servire, et ab hominum conversatione ad loca remotissima se transferre.
+					<lb/>Ab omni quoque se cura regiminis cupiebat eximere, eo
+					<lb/>quod multis de causis periculosum assereret, maxime in hoc tempore,
+					<lb/>praelationis locum tenere; esse vero plurimis utile magis regi quam
+					<lb/>regere.
+					<lb/>Cumque <hi rend="italic">moram faceret</hi> apud Senas, quasi mense sexto ante
+					<lb/>obitum suum, toto corpore gravius quam solebat attritus, propinquare
+					<lb/>videbatur ad exitum. Festinato itaque de longinquo frater Helias
+					<lb/>accurrit, eumque in adventu suo paululum respirantem secum
+					<lb/>ad Cellam de Cortona perduxit. Ubi dum stetisset per modicum,
+					<lb/>acrius invalescente morbo, deduci se rogavit Assisium. Quo postquam
+					<lb/>pervenit, facta est non modica totius exsultatio civitatis; et
+					<lb/><hi rend="italic">gratias agentes</hi> laudaverunt unanimiter Dominum, quod tantum penes
+				<lb/>se <hi rend="italic">recondi</hi> speravere <hi rend="italic">thesaurum</hi>.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">68</hi></head> <p>Adductus igitur in palatium Assisiani episcopi, coepit non
+					<lb/>multo post totius corporis virtute destitui et tam atrociter per singula
+					<lb/>membra torqueri, ut interrogatus an potius martyrium a carnifice
+					<pb n="1086"/>
+					<lb/>sustineret, triduanam huiusmodi passionem, etsi pro voluntate
+					<lb/>divina sibi placitam et acceptam, graviorem tamen quovis martyrio
+					<lb/>responderet. Cernens itaque proximare diem vitae novissimum,
+					<lb/>quem per revelationem iam biennio ante didicerat, <hi rend="italic">convocavit
+					<lb/>ad se</hi> fratres <hi rend="italic">quos voluit</hi>, singulosque, prout sibi <hi rend="italic">dabatur
+					<lb/>desuper</hi>, benedixit. Cumque caligantibus oculis videre non posset,
+					<lb/>sicut quondam patriarcha Iacob, manibus cancellatis, <hi rend="italic">dexteram
+					<lb/>fratri, qui a sinistris eius sedebat, imposuit</hi>; interrogansque quis
+					<lb/>esset et intelligens esse fratrem Heliam (quem, ut dictum est, substituerat
+					<lb/>loco sui), sic se velle respondit. Primum igitur illi, ac
+					<lb/>deinceps universis in eius persona fratribus benedixit, et bona illi
+					<lb/>plurima imprecatus, benedictiones in eo multimodas confirmavit.
+					<lb/>Quibus completis, adiecit: "Valete, filii, omnes <hi rend="italic">in timore Domini
+					<lb/>et</hi>permanete semper in ipso, quoniam tribulatio vobis approximat
+					<lb/>et maxima super vos est futura tentatio. Felices autem illi sunt <hi rend="italic">qui</hi>
+					<lb/>in bonis <hi rend="italic">perseveraverint</hi>, quae coeperunt. Tunc sine mora ad
+					<pb n="1087"/>
+					<lb/>Sanctam Mariam de Portiuncula se transferri poscebat, volens illic
+					<lb/>animam reddere Domino, ubi primo, ut dictum est, perfecte <hi rend="italic">viam
+					<lb/>veritatis</hi> agnoverat. Illum quoque locum in omni reverentia et
+					<lb/>honore fratribus custodire praeceperat; hunc specialiter asserebat
+					<lb/>divinis obsequiis et orationibus congruum; hunc supernorum dicebat
+				<lb/>spirituum frequentia visitatum.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">69</hi></head> <p>Igitur in loco sibi desiderato paucis diebus quievit, donec
+					<lb/>tandem mortis horam instare cognoscens, duos ad se fratres vocavit,
+					<lb/>quibus de transitu eius vicino Laudes alacriter Domino decantare praecepit.
+					<lb/>Ipse vero, prout potuit, in hunc psalmum prorupit: "<hi rend="italic">Voce
+					<lb/>mea ad Dominum clamavi, voce mea ad Dominum deprecatus
+					<lb/>sums</hi>". Unus autem e fratribus qui adstabant, pro cunctis sollicitus,
+					<lb/>dixit ad eum: "Heu, pater benigne, ecce filii tui remanent sine
+					<lb/>patre! Recordare igitur orphanorum quos deseris, et, omnibus culpis
+					<lb/>remissis, tam praesentes quam absentes tua sancta benedictione
+					<lb/>consolari digneris". Cui piissimus pater respondit: "Ecce ego quidem
+					<pb n="1088"/>
+					<lb/>iam vocor a Domino, fili! Fratribus vero meis tam absentibus
+					<lb/>quam praesentibus omnes offensas et culpas remitto, et eos sicut possum
+					<lb/>absolvo; quibus tu haec, fili, denuntians, ex parte mea omnibus benedicas".
+					<lb/>Porro Evangelium secundum Iohannem ab eo loco ubi incipit:
+					<lb/><hi rend="italic">Ante diem festum paschae</hi> sibi legi poposcit; deinde se cilicio
+					<lb/>superponi cinereque conspergi praecepit. Et sic, filiis circumstantibus
+				<lb/>et lugentibus, pater sanctus <hi rend="italic">in Domino</hi> feliciter <hi rend="italic">obdormivit</hi>.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">70</hi></head> <p>Unus autem ex illis, specialis eius discipulus, vir fama non
+					<lb/>modicum celeber, cuius nomen ideo subticetur eo quod tanto nollet
+					<lb/>praeconio gloriari dum viveret, vidit illam gloriosam animam carne
+					<lb/>solutam in stellae grandis et radiantis effigie; vidit, inquam, veluti
+					<lb/><hi rend="italic">super aquas multas, candida</hi> subvectam <hi rend="italic">nubecula</hi> in <hi rend="italic">caelum</hi> directe
+					<lb/><hi rend="italic">conscendere</hi>.
+					<lb/>Sic nimirum, qui contemptibilter in area vitae huius laboriosae
+					<lb/><hi rend="italic">spicam</hi> carnis terrena <hi rend="italic">terendo confregerat</hi>, iam excussa <hi rend="italic">palea</hi>, granum
+					<lb/>purum <hi rend="italic">in horrea</hi> summi Regis ingreditur; sic mortali vita defunctus,
+					<lb/>aeternaliter victurus, <hi rend="italic">vivo pani</hi> coniungitur, qui turbam
+					<lb/>Christi famelicam, <hi rend="italic">ne in via deficeret</hi>, de paupertatis horreo satiarat.
+					<lb/>Et bene <hi rend="italic">super aquas multas</hi> in specie stellae, <hi rend="italic">candida</hi> sub
+					<pb n="1089"/>
+					<lb/>vectae <hi rend="italic">nubecula</hi>, videbatur ascendere; quippe qui mundus ex <hi rend="italic">aquis</hi>
+					<lb/>terrenae delectationis <hi rend="italic">assumptus</hi> multitudini populorum tam miraculis
+					<lb/>quam vita splenduerat et doctrina; quibus <hi rend="italic">in lata perditionis
+					<lb/>via</hi> quasi caecis <hi rend="italic">errantibus</hi> luminosum iter pandens ad gloriam,
+					<lb/>eam, quae prius stricta <hi rend="italic">paucis</hi> in illa gradientibus timebatur, ampliaverat
+					<lb/>se turmatim sequentibus <hi rend="italic">vitae viam</hi>. Regnat ergo dives in
+					<lb/>patria pro paupertatis transitoriae copia; regnat, inquam, sibi regibus
+					<lb/>huius mundi substratis, quos hic misera rerum pereuntium ditat
+				<lb/>inopia.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">71</hi></head> <p>Factus est itaque <hi rend="italic">concursus populorum</hi> civitatis Assisii
+					<lb/><hi rend="italic">Deum</hi> unanimi iucunditate <hi rend="italic">laudantium</hi>, eo quod tantum illis dignaretur
+					<lb/>commendare depositum. Erat autem primitus pro tanti patris
+					<lb/>subtractione planctus filiorum non modicus, qui non multo post in
+					<lb/>laetitiae canticum est conversus. Videbant namque novum illud,
+					<lb/>quod fecerat <hi rend="italic">Dominus super terram</hi>; videbant, inquam, non planctu
+					<lb/>sed plausu dignum miraculum, sacrum videlicet corpus, Christi
+					<lb/>stigmatibus decoratum. Aspiciebant membra eius, morbida prius
+					<lb/>et rigida, iam tractabiliter pro tangentis se voluntate flectentia; carnem
+					<lb/>quoque, duram prius et lividam, veluti pueruli teneritudine
+					<lb/>iam resumpta, mirando candore nitentem, et quasi carnis glorificatae
+					<lb/>speciem prae decoris magnitudine praetendentem. Gloriosum
+					<pb n="1090"/>
+					<lb/>tunc erat in carne tam candida videre similitudinem <hi rend="italic">fixurae clavorum</hi>
+					<lb/>immo, nigros ut ferrum clavos ex ipsa carne formatos in medio
+					<lb/>pedum et manuum, dextrumque latus sacro sanguine rubricatum.
+					<lb/>Lacrimabantur itaque filii prae <hi rend="italic">gaudio cordis</hi>, et osculabantur
+				<lb/>in patre signacula summi Regis.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">72</hi></head> <p>Facta est igitur nox illa, in qua sanctus decessit, in divinis
+					<lb/>laudibus, in multitudine populi et luminarium claritate solemnis,
+					<lb/>donec, <hi rend="italic">mane facto</hi>, cum universis qui ex circumiacentibus locis
+					<lb/>copiose confluxerant, illic civitatis Assisii communitas tota convenit.
+					<lb/>Sublatum ergo sacrum corpus cum hymnis et laudibus tubarumque
+					<lb/>clangoribus honorifice detulerunt, et sacras exsequias solemniter
+					<lb/>exsequentes, <hi rend="italic">ramos arborum</hi> nihilominus in manibus <hi rend="italic">acceperunt</hi>.
+					<pb n="1091"/>
+					<lb/>Portantes autem filii pium patrem, ad ecclesiam Sancti Damiani,
+					<lb/>quam primam, ut dictum est, ipse construxerat, substiterunt; eumque
+					<lb/>filiabus ipsius, quas ibidem plantaverat, pauperibus videlicet Dominabus
+					<lb/>et sacris virginibus, ostenderunt. Et ecce pia mater illarum,
+					<lb/>prima scilicet illius religionis planta, re Clara et nomine, ad
+					<lb/>videndum corpus dilectissimi patris cum filiabus admissa, coepit miserande
+					<lb/>nimium <hi rend="italic">plangere super illum</hi>, nimirum cui ex cunctis mortalibus
+					<lb/>tam irrecuperabile subtrahebatur solatium. Sed et caeterae,
+					<lb/>quantum pudori virgineo licuit, complanxerunt; tandemque singulae
+					<lb/>manus illius pretiosissimis gemmis ornatas deosculatae sunt; et
+					<lb/>sic efferendum, prout oportuit, cum dolore permaximo dimiserunt.
+					<lb/>Tunc perlatum est in civitatem corpus sanctissimum et in loco,
+					<lb/>ubi primum litteras puerulus ipse didicerat, ubique postmodum primitus
+					<lb/>praedicaverat, est sepultum, ut convenienter felix initium
+					<lb/>mediumque felicius ac felicissimam consummationem per hoc sibi confluxisse
+				<lb/>pateret in unum gloriae cumulum.</p>
+				<pb n="1092"/>
+			</div>
+		</div>
+		<div type="chapter">
+			<head><lb/><hi rend="bold">Caput XIII - Quot annis post conversionem vixit, qua die transiit,</hi>
+				<lb/>et sub quibus Romanae Sedis Pontificibus cursum suum peregit;
+				<lb/>de modo et temporibus canonizationis et translationis
+			<lb/><hi rend="bold">illius.</hi></head>
+			<div type="section">
+				<head><lb/><hi rend="bold">73</hi></head> <p>Iam viginti annorum spatium erat elapsum, ex quo primum
+					<lb/>gloriosus Christi confessor et levita Franciscus consiliis evangelicae
+					<lb/>perfectionis adhaeserat et in vita mandatorum divinae legis inoffenso
+					<lb/>pede cucurrerat. Transiit autem venerabilis idem pater ex
+					<lb/>huius mundi naufragio anno Dominicae Incarnationis millesimo ducentesimo
+					<lb/>vicesimo sexto, quarto nonas Octobris, die dominico, sepultus,
+					<lb/>ut dictum est, in civitate Assisio. Coeperat autem cursum
+					<lb/>suum vir iste beatus sub illustri viro domino papa Innocentio
+					<lb/>tertio, quem feliciter sub eiusdem successore consummat Honorio.
+					<lb/>Quorum prior, sicut in omnibus viro Dei, ut supra dictum est,
+					<lb/>de Ordinis institutione consensit, sic et alter, ut in Regula tangitur,
+					<lb/>omnia eidem sancto benigne postmodum confirmavit. Quibus salubriter
+					<lb/>dominus Gregorius papa succedens, qui videlicet in minore officio
+					<pb n="1093"/>
+					<lb/>constitutus novellam eiusdem religionis plantationem ab evellentium
+					<lb/>importuno impulsu defenderat et, donec firmius radicaret
+					<lb/>nutrierat, ac veluti fidelissimus hortulanus ad multimodum cum Dei
+					<lb/>adiutorio fructum provexerat, ipsum patrem sanctissimum, non solum
+					<lb/>innumeris et probatis famosum miraculis, verum etiam cuius miraculosam
+					<lb/>conversationem sensibiliter ipse cognoverat, amplius magnificandum
+					<lb/>duxit in terris, quem glorificatum iam nemo dubitabat
+				<lb/>in caelis.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">74</hi></head> <p>Nam anno Dominicae Incarnationis millesimo ducentesimo
+					<lb/>vigesimo octavo, habito cum cardinalibus et aliis quam plurimis ecclesiarum
+					<lb/>praelatis super ipsius sancti canonizatione tractatu, cum
+					<lb/>totius curiae Romanae frequentia et omnium praelatorum qui tunc
+					<lb/>penes curiam residebant, necnon et principum terrae et infinita populi
+					<lb/>multitudine, personaliter a civitate Perusina ad sepulcrum illius
+					<lb/>accessit, eumque glorifice cum missarum mysteriis, exhortatione
+					<lb/>sermonis, miraculorum recitatione, indumentorum gloria, luminarium
+					<lb/>rutilatione, campanarum sonitu, tubarum clangoribus, laudantium
+					<lb/>concentu et iubilo, laetantium applausu et tripudio, necnon et maximis,
+					<lb/>quae longum foret enarrare, solemniis, de communi universorum
+					<lb/>consensu catalogo Sanctorum adscripsit, eiusque festivitatem
+					<lb/>die obitus sui, id est quarto nonas Octobris, universaliter per totius
+					<pb n="1094"/>
+					<lb/>mundi partes solemniter celebrandam instituit ac mandavit, sicut et
+					<lb/>ipse suis postmodum litteris declaravit.
+					<lb/>Facta est autem haec ipsa beati Francisci canonizationis praeclara
+				<lb/>solemnitas die dominico, die kalendarum augusti septimo decimo.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">75</hi></head> <p>Anno vero Domini millesimo ducentesimo trigesimo, non
+					<lb/>modica fratrum multitudine pro ipsius sancti translatione, necnon et
+					<lb/>generali Capitulo celebrandis ad saepedictam civitatem e diversis mundi
+					<lb/>partibus adunata, iam praefatus eorumdem specialissimus pater,
+					<lb/>dominus papa Gregorius, cuius certa sperabatur ad hanc translationis
+					<lb/>solemnitatem praesentia personalis, sed tunc temporis aliis quibusdam
+					<lb/>urgentibus Ecclesiae praepediebatur negotiis, solemnes illuc
+					<lb/>cum suis litteris nuntios destinavit, quibus suae non solum insperatae
+					<lb/>causam absentiae necessariam declaravit, sed et filiis, quos
+					<lb/>paterno consolabatur affectu, de quodam mortuo per beatum Franciscum
+					<lb/>resuscitato certius intimavit. Ad haec per eosdem nuntios
+					<lb/>crucem auream, opere quidem gemmario pretiosam, sed omni auro
+					<lb/>et gemmis pretiosius lignum Crucis Dominicae complectentem; insuper
+					<lb/>ornamenta et vasa quaeque ad altaris ministerium pertinentia,
+					<lb/>necnon et decentissima solemnibus usibus indumenta transmisit.
+					<lb/>Quae omnia pretiosissima basilicae beati Francisci, quae ab omni iurisdictione
+					<lb/>inferiore exempta sua construebatur auctoritate, cuius et
+					<lb/>ipse primarium lapidem fundamenti posuerat, assignavit; sed et alia
+					<pb n="1095"/>
+					<lb/>non modica tam ad eiusdem fabricae quam ad instantis solemnitatis
+				<lb/>impensas donaria deputavit.</p>
+			</div>
+			<div type="section">
+				<head><lb/><hi rend="bold">76</hi></head> <p>Translatum est igitur corpus sanctissimum ad eamdem constructam
+					<lb/>foris prope muros civitatis ecclesiam, sabbato, kalendarum
+					<lb/>iunii die octavo, cum tanto videlicet apparatu solemni, qui brevi sermone
+					<lb/>describi non posset; tantaque, quae ad ipsius translationis festa
+					<lb/>confluxerat, multitudine populi, ut, civitate illum capere non
+					<lb/>valente, gregum more turmatim circumquaque per campos accumberet.
+					<lb/>Porro, sicuti gloriosus hic sanctus multis in vita claruerat
+					<lb/>miraculorum prodigiis, sic et a die transitus sui usque in praesens
+					<lb/>ad ipsius patrocinia, non solum in loco ubi pretiosus ossium suorum
+					<lb/>thesaurus reconditur, verum etiam quacumque parte terrarum pie
+					<lb/>et fideliter implorata, innumeris miraculis coruscare se gaudet Ecclesia.
+					<lb/>Nam caecis et surdis, mutis et claudis, hydropicis et paralyticis,
+					<lb/>daemoniacis et leprosis, naufragis et captivis, omnium ipsius
+					<lb/>meritis aegritudinum, necessitatum seu periculorum remedia conferuntur.
+					<lb/>Sed et multi mirifice mortui suscitantur, operante haec
+					<lb/>omnia virtutis Altissimi magnificentia, cui soli est omnis honor et
+				<lb/>gloria per infinita saeculorum saecula. Amen.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

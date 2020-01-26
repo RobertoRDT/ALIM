@@ -1,0 +1,669 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ars Aregandi</title>
+				<author>Iacobus de Dinanto</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>A. Wilmart</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">compilato da </resp>
+					<name key="A">ALIM</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3939" unit="words">Parole: 3939</measure>
+				<measure quantity="24449" unit="characters_without_spaces">Caratteri (spazi esclusi): 24449</measure>
+				<measure quantity="27953" unit="characters_witht_spaces">Caratteri (spazi inclusi): 27953</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2007-06-18">18/06/2007</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 4.042&#13;
+Caratteri spazi esclusi: 24.772&#13;
+Correzioni al testo: p. 123 ant corretto in aut&#13;
+CD</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title>L'"Ars arengandi" de Jacques de Dinant avec un Appendice sur ses ouvrages "De dictamine"</title>
+					</analytic>
+					<monogr>
+						<title level="m">Analecta Reginensia: extraits des manuscrits latins de la reine Christine conservés au Vatican</title>
+						<editor>A. Wilmart</editor>
+						<imprint>
+							<publisher>Biblioteca Apostolica Vaticana</publisher>
+							<pubPlace>Città del Vaticano</pubPlace>
+							<date>1933</date>
+							<biblScope unit="page">121-135</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Studi e testi</title>
+						<biblScope unit="volume">59</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="A">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<div>
+			<pb n="121"/>
+			<lg>
+				<l><seg>Ars arengandi</seg> <seg>datur hoc sub breuitate,</seg></l>
+				<l><seg>Discrete fandi</seg> <seg>que non caret utilitate.</seg></l>
+				<l><seg>Concio miratur</seg> <seg>si prudens quisque loquatur.</seg></l>
+				<l><seg>Quam sit preclarum</seg> <seg>bene dicere, quam quoque rarum</seg></l>
+				<l n="5"><seg>Omnes cognoscunt</seg> <seg>qui mundi climata noscunt,</seg></l>
+				<l><seg>Dum non ignoscunt</seg> <seg>miseris qui premia poscunt.</seg></l>
+				<l><seg>Quam per scripturam</seg> <seg>non audiui specialem</seg></l>
+				<l><seg>Tradi, per curam</seg> <seg>dare nunc uolui generalem.</seg></l>
+				<l><seg>Salomon huic primus</seg> <seg>auctor nec Tullius ymus</seg></l>
+				<l n="10"><seg>Dicitur, et nummus</seg> <seg>dicar qui sum quasi limus.</seg></l>
+				<l><seg>Deposco ueniam</seg> <seg>uanitatis quam michi non do.</seg></l>
+				<l><seg>Non paret inuidiam,</seg> <seg>dico non propria condo.</seg></l>
+				<l><seg>Tullius est auctor</seg> <seg>cunctorum si uideatur,</seg></l>
+				<l><seg>Sim uelut extractor,</seg> <seg>ne liuor in hoc acuatur.</seg></l>
+				<l n="15"><seg>Iacobus est nomen</seg> <seg>scribentis, consonet omen,</seg></l>
+				<l><seg>Dinanto natus,</seg> <seg>monachi uoto religatus.</seg></l>
+			</lg>
+		</div>
+		<div type="chapter">
+			<head><lb/>(1.)</head> <p>Concionatoris officium est de hiis rebus posse dicere que res ad
+				<lb/>usum ciuilem legibus moribus ue constitute sunt, quo aptius fieri poterit.
+				<lb/>Est autem sciendum quod ea que requiruntur in oratore siue aduocato,
+				<lb/>excepta sciencie subtilitate quantum ad practicam, suo modo requiruntur
+			<lb/>in concionatore, qui uulgo dicitur arengator.</p>
+			<p><lb/>Nomen concionatoris proprie fuit ipsius prudentissimi Salomonis; qui
+				<lb/>Salomon ecclesiasten se uoluit nominare. Dicitur enim ecclesiastes secundum
+				<lb/>linguam Hebraycam concionator. Salomon autem in libro qui dicitur
+				<lb/>Ecclesiastices ecclesiasten se dixit. VANITAS, inquit, VANITATUM DIXIT
+				<lb/>ECCLESIASTICES, VANITAS VANITATUM ET OMNIA VANITAS. Ex hiis liquido
+				<lb/>patet quante nobilitatis sit concionatoris officium, quod quidem ab oratoris
+				<pb n="122"/>
+				<lb/>officio noscitur emanasse, quod deinde a tam nobilissimo exemplari,
+				<lb/>uidelicet Salomone qui concionatorem se dixit, sumpsit paradigma nominis
+			<lb/>et ominis, regulam denominationis proprie siue formam.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(2.)</head> <p>Sunt autem tria genera causarum que spectant ad officium concionatoris:
+			<lb/>demonstratiuum, deliberatiuum, iudiciale.</p>
+			<p><lb/>Demonstratiuum est quod attribuitur in alicuius persone laudem uel
+				<lb/>uituperationem, ut si uelim arengare quod seruus sit dignus laude uel
+			<lb/>uituperio.</p>
+			<p><lb/>Deliberatiuum est quod, positum in consultatione, habet in se suasionem
+				<lb/>&lt;uel&gt; dissuasionem, ut an debeat fieri exercitus contra Reginos uel
+			<lb/>non.</p>
+			<p><lb/>Iudiciale est quod, positum in controuersia, habet accusationem
+				<lb/>cum defensione, ut si accusem seruum de furto uel petam X solidos
+			<lb/>ab eodem.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(3.)</head> <p>Notandum autem quod demonstratiuum respicit tempus preteritum,
+			<lb/>deliberatiuum futurum, iudiciale presens.</p>
+			<p><lb/>Debet igitur habere concionator V.</p>
+			<p><lb/>Recepta namque causa demonstratiua uel deliberatiua uel iudiciali,
+				<lb/>procurare debet concionator quomodo necessaria ad causam suam inueniat.
+			<lb/>Secundo, quomodo inuenta disponat.</p>
+			<p><lb/>Tertio, quomodo inuenta eloqui debeat.</p>
+			<p><lb/>Quarto, quomodo inuentorum et dispositorum memoriam habeat.
+				<lb/>Quinto, quomodo coram iudice uel aliis quorum interest pronunciare
+			<lb/>debeat tam inuenta quam etiam disposita per eundem.</p>
+			<p><lb/>Et sciendum quod inuentio est rerum uerarum aut uerisimilium que
+			<lb/>reddunt probabilem concionem.</p>
+			<p><lb/>Dispositio est ordo et distributio rerum que demonstrat quod quibus
+			<lb/>locis sit collocandum in concionando.</p>
+			<p><lb/>Eloquutio est ydonea uerborum et sentenciarum ad concionem accomodatio.
+			<lb/>/*</p>
+			<p><lb/>Memoria est firma rerum ac uerborum animi perceptio.</p>
+			<p><lb/>Pronunciatio est uocis, uultus, gestus moderacio cum uenustate.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(4.)</head> <p>In oratione concionatoria exiguntur VI, quemadmodum in oratione
+				<lb/>rethorica, ex quibus partibus concionator conficit dictum suum.
+			<lb/>Prima pars est exordium.</p>
+			<p><lb/>Secunda narratio.</p>
+			<p><lb/>Tertia diuisio.</p>
+			<p><lb/>Quarta confirmatio.</p>
+			<p><lb/>Quinta confutatio.</p>
+			<p><lb/>Sexta conclusio.</p>
+			<pb n="123"/>
+			<p><lb/>Debet enim concionator in causa demonstratiua, si causam suscipiat
+				<lb/>defendendam uel impugnandam, et similiter in causa deliberatiua et
+				<lb/>iudiciali: primo inuenire exordium cause, secundo narrationem et sic
+				<lb/>de singulis, ita uidelicet ut primo exordiatur. Secundo exordita debet narrare,
+				<lb/>tercio narrata diuidere, quarto diuisa confirmare, quinto dicta uel que
+			<lb/>dici possent in contrarium dicti sui confutare, sexto et ultimo concludere.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(5.)</head> <p>Igitur exordium est principium orationis per quod animus auditoris
+			<lb/>uel iudicis constituitur uel comparatur ad audiendum.</p>
+			<p><lb/>Narratio est rerum gestarum aut proinde &lt;ut&gt; gestarum expositio.
+				<lb/>Diuisio est per quam aperimus quid conueniat, quid in controuersia
+				<lb/>sit, &lt;et&gt; per quam exponimus quibus de rebus dicturi sumus.
+				<lb/>Confirmatio est nostrorum argumentorum expositio cum assertione.
+				<lb/>Confutatio est contrariorum locorum dissolutio, idest argumentorum.
+			<lb/>Conclusio est artificiosus terminus orationis.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(6.)</head> <p>Exordiorum due sunt species: principium et insinuatio.
+				<lb/>Est autem principium, cum statim auditoris animum nobis ydoneum
+			<lb/>reddimus ad audiendum.</p>
+			<p><lb/>Insinuatio eius modi debet esse ut occulta dissimulatione illa eadem
+				<lb/>faciamus per insinuationem que facere intendimus per principium.
+				<lb/>Unde hec est differentia inter principium et insinuationem, quia principium
+				<lb/>statim et aperte reddit ydoneum auditoris animum ad audiendum,
+				<lb/>insinuatio uero occulte et per dissimulationem eadem facit que principium.
+				<lb/>Iterum alia &lt;est&gt; differentia inter principium et insinuationem, quia, cum
+			<lb/>principio uti non possumus nec debemus, tunc insinuatione uti debemus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(7.)</head> <p>Notandum quod sunt tria que debemus a iudice uel ab auditore
+				<lb/>acquirere per principium et insinuationem: docilitatem, attentionem,
+			<lb/>beniuolenciam.</p>
+			<p><lb/>Dociles auditores habere poterimus, si summam breuiter exponemus et
+				<lb/>si attentos eos faciemus. Nam docilis est ille qui attente uult audire.
+				<lb/>Attentos habebimus, si pollicebimur nos de rebus magnis et inusitatis
+			<lb/>uerba facturos.</p>
+			<p><lb/>Beniuolos faciemus IIII modis: a nostra &lt;persona&gt;, ab aduersariorum
+			<lb/>nostrorum persona, ab auditorum persona, a rebus ipsis.</p>
+			<p><lb/>A nostra persona beniuolenciam contrahemus, si nostrum officium
+				<lb/>sine arrogancia laudabimus, aut in rem publicam, quales fuerimus, aut in
+				<lb/>parentes, aut in amicos, aut in eos ipsos qui audiunt aliquid referemus;
+				<lb/>cum hec omnia ad eam ipsam rem de qua agitur si&lt;nt&gt; accomodata; item
+				<lb/>si incommoda nostra proferemus, solitudinem, calamitatem, et si orabimus
+			<lb/>ut nobis sint auxilio, si simul ostendemus nos in aliis spem habere noluisse.</p>
+		</div>
+		<pb n="124"/>
+		<div type="chapter">
+			<head><lb/>(8.)</head> <p>Ab aduersariorum persona captabitur beniuolencia, si eos in
+			<lb/>odium, in inuidiam, &lt;in&gt; contemptionem adducemus.</p>
+			<p><lb/>In odium rapiemus, si quid eorum spurce, superbe, perfidiose, crudeliter,
+			<lb/>flagitiose, confidenter, maliciose factum proferimus.</p>
+			<p><lb/>&lt;In&gt; inuidiam trahemus, si vim, si potentiam, factionem, diuicias,
+				<lb/>incontinenciam, nobilitatem, clientulos, ospicium, sodalitatem, affinitatem
+			<lb/>aduersariorum aperiemus.</p>
+			<p><lb/>In contemptionem adducemus, si inherciam, ignauiam, desidiam,
+			<lb/>luxuriam aduersariorum proferemus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(9.)</head> <p>Ab auditorum persona similiter captatur beniuolencia, si res eorum
+				<lb/>feliciter, sapienter, mansuete, magnifice iudicatas proferemus, si que
+			<lb/>de hiis estimatio, que iudicio exspectatio sit aperiemus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(10.)</head> <p>A rebus ipsis beniuolum faciemus auditorem, si nostram causam
+			<lb/>laudando extollemus, aduersariorum per contemptionem deprimemus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(11.)</head> <p>Videndum est quot sunt conditiones causarum sine questionum
+				<lb/>quantum ad earum proprietates siue denominationem, ut sciamus in quo
+			<lb/>genere uel in qua specie concionator loquatur.</p>
+			<p><lb/>Est autem quadruplex: honestum, turpe, dubium, humile.</p>
+			<p><lb/>Honestum est, cum aut id defendimus quod ab omnibus defendendum
+				<lb/>uidetur, aut oppugnamus quod uidetur &lt;ab&gt; omnibus oppugnandum, ut
+			<lb/>pro uiro forti contra par&lt;r&gt;icidam.</p>
+			<p><lb/>Turpe genus intelligitur, cum aut honesta res oppugnatur aut defenditur
+			<lb/>turpis.</p>
+			<p><lb/>Dubium genus est quod habet in se causa honestatis aut turpitudinis
+			<lb/>partem.</p>
+			<p><lb/>Humile genus est, cum contempta res ante fertur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(12.)</head> <p>Si dubium genus cause habebimus, ne quid illa turpitudinis
+			<lb/>pars nobis obesse possit, a beniuolentia constituemus.</p>
+			<p><lb/>Si humile genus cause erit, faciemus attentos.</p>
+			<p><lb/>Si turpe genus erit cause, insinuatione utendum est, nisi quid nacti
+			<lb/>erimus, quare, aduersario criminando, beniuolenciam captare possimus.</p>
+			<p><lb/>Si honestum genus erit cause, licebit recte uel uti uel non uti principio.</p>
+			<p><lb/>Si uti uolemus, aut id opportebit ostendere quare causa sit honesta,
+				<lb/>aut breuiter quibus de rebus dicturi sumus exponere. Si principio uti
+				<lb/>nolemus, a lege, &lt;a&gt; scriptura, uel ab aliquo firmissimo nostre cause
+			<lb/>adiumento principio carere opportebit.</p>
+		</div>
+		<pb n="125"/>
+		<div type="chapter">
+			<head><lb/>(13.)</head> <p>Sciendum quod uti principio nos non possumus, si causam turpem
+				<lb/>habebimus; hoc est cum ipsa res animum auditoris a nobis alienat,
+				<lb/>aut cum animus auditoris persuasus esse uidetur ab hiis qui ante contradixerunt,
+			<lb/>aut cum defessi sunt eos audiendo qui ante dixerunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(14.)</head> <p>Notandum quod, si causa turpitudinem habebit, exordiri poterimus:
+				<lb/>hiis rationibus hominem non rem, aut rem non hominem spectari
+				<lb/>opporteret, non placere nobis ipsis que facta dicantur ab aduersariis et
+				<lb/>esse indigna et nefaria. Deinde, cum diu rem auxerimus, nichil simile a
+				<lb/>nobis ostendemus factum, aut aliquorum iudicium de simili causa aut de
+				<lb/>maiori aut de minori proferemus. Deinde ad nostram causam pedetentim
+				<lb/>accedemus et similitudinem conferemus. Item, si negabimus nos de aduersariis
+			<lb/>aut de aliqua re dicturos, et tamen dicemus interiectione uerborum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(15.)</head> <p>Notandum quod, si dicta partis aduerse fidem fecerint contra
+				<lb/>partem nostram, si uolumus exordiri, insinuabimus ad causam nostram
+				<lb/>de eo quod aduersarii firmissimum adiumentum sibi putauerint, de illo
+				<lb/>primo pollicebimur nos dicturos, aut ab aduersariis dicta exordiemur,
+				<lb/>et ab eo maxime quod ille nuperrime dixit, aut dubitatione utemur
+				<lb/>quid potissimum dicamus, aut cui loco primo respondeamus cum adfirmatione.
+			<lb/>/*</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(16.)</head> <p>Sciendum quod, si auditores erunt defessi per eos qui antea contra
+				<lb/>nos dixerunt, debemus exordiri ab aliqua re que risum mouere possit,
+				<lb/>uel apollogo uel fabula uel uerisimili immutatione, deprauatione,
+				<lb/>inuersione ab ambiguo, suspitione, irrisione, stulticia, exurpatione,
+				<lb/>collectione, litterarum mutatione, preterea exspectatione, similitudine,
+				<lb/>nouitate, istoria, uersu aut aliter interpellatione aut arrisione. Et si promiserimus
+				<lb/>aliter, ut parati fuerimus, nos dicturos esse, nos non eodem
+				<lb/>modo, ut cuncti soleant, uerba facturos, quod alii soleat, quod nos
+			<lb/>facturi sumus, [quod] breuiter exponemus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(17.)</head> <p>Tria sunt que debent seruari in exordio, et nomine exordii intelligitur
+				<lb/>principium et insinuatio. Primum est ut leuis sit sermo; secundo
+				<pb n="126"/>
+				<lb/>ut usitata &lt;sit&gt; uerborum consuetudo; tertio, ut non apparata uideatur
+			<lb/>oratio esse.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(18.)</head> <p>Dictum est quibus modis exordium fieri debeat, hoc est que sunt
+				<lb/>condiciones exordii laudabiles. Nunc uidendum est que uicient exordium.
+				<lb/>Sunt autem VII. Primum uiciosum exordium est quod in plures causas
+				<lb/>accomodari potest, quod uulgare dicitur. Secundo uitiosum est exordium
+				<lb/>quo nichilominus aduersarius uti potest, quod commune appellatur. Tercio
+				<lb/>uiciosum est illud quo aduersarius ex contrario poterit uti. Quarto uiciosum
+				<lb/>est quod nimium apparate propositum est. Quinto uiciosum est quod nimium
+				<lb/>proprie cohereat cum narratione. Septimo et ultimo uiciosum est
+				<lb/>exordium quod neque beniuolum neque docile neque attentum faciat
+			<lb/>auditorem.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(19.)</head> <p>Tria conuenit habere narrationem, ut sit breuis, ut sit dilucida,
+			<lb/>ut sit uerisimilis.</p>
+			<p><lb/>Breuis erit, si inde incipiemus narrare unde necesse erit; et si non ab
+				<lb/>ultimo initio repetere uolemus; et si summatim, non particulariter, narrabimus;
+				<lb/>et si non ad extremum, sed usque quo opus erit, persequemur; et
+				<lb/>si translationibus nullis utemur; et si non deherrabimus ab eo quod cepimus
+				<lb/>exponere; si exitus rerum ita exponemus ut ante quoque que facta
+				<lb/>sunt fieri possunt, tamen et si nos reticuerimus; quod genus est, si
+				<lb/>dicam me ex prouincia rediisse, profectum quoque in prouinciam intelligatur.
+				<lb/>Et omnino non modo id quod obest, si id quod neque obest neque adiuuat
+				<lb/>sacius est preterire. Et ne bis aut sepius idem dicamus, cauendum est
+			<lb/>etiam ne id quod supra semel diximus deinceps repetamus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(20.)</head> <p>Verisimilis narratio erit, si, ut morum, ut oppinio, ut natura
+				<lb/>postulat, dicemus; si spacia temporum, dignitas personarum, consiliorum
+				<lb/>rationes, locorum oportunitates constabunt, ne refelli possit aut
+				<lb/>temporis parum fuisse, aut causam nullam, aut locum ydoneum non
+				<lb/>fuisse, aut homines ipsos facere aut pati non potuisse. Si uera res
+				<lb/>erit, nichilominus hec omnia conseruanda sunt; nam sepe ueritas, nisi
+				<pb n="127"/>
+				<lb/>exornata sit, fidem non potest facere; si erit ficta, eo magis est conseruanda.
+			<lb/>/*</p>
+			<p><lb/>De hiis rebus caute confingendum est; quibus in rebus tabule aut alicuius
+			<lb/>firma auctoritas uidebitur interfuisse.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(21.)</head> <p>Causarum divisio in duas partes distributa est.</p>
+			<p><lb/>Primum percreata narracione debemus aperire quod nobis conueniat
+				<lb/>cum aduersariis, quid in controuersia relinquatur. Demum, cum hoc
+				<lb/>fecerimus, distributione uti debemus; ea diuiditur in duas partes in enuntiatione
+			<lb/>et &lt;in&gt; expositione.</p>
+			<p><lb/>Enuntiatione utemur, cum dicemus de numero, quot de rebus dicturi
+				<lb/>sumus. Eam plus quam trium partium numero contineri non opportet.
+				<lb/>Nam et periculosum est, ne quando minus plus ue dicamus, et suspitionem
+				<lb/>affert auditori meditationis et artificii, que res fidem abrogat orationis.
+				<lb/>Expositio est, cum res de quibus dicturi sumus exponimus breuiter et
+			<lb/>absolute.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(22.)</head> <p>De quarta et quinta et sexta parte orationis concionatorie est
+				<lb/>sciendum quomodo de hiis promiscue tractat Tullius. Sed quantum ad
+				<lb/>hanc artem spectat que illi subalternatur tanquam menbrum nobile, sic
+				<lb/>erit notandum quod, habito principio et inuento uel insinuatione reperta,
+				<lb/>ubi insinuatio habet locum, statim debemus post principium et insinuationem
+				<lb/>narrationem aggredi, et breuiter et dilucide et uerisimiliter quantum
+			<lb/>possumus enarrare.</p>
+			<p><lb/>Cauendum tamen ne narrationem que multa continet aliquando de
+				<lb/>necessitate uelimus uiolenter abbreuiare, omissis aliquibus de contingentibus
+				<lb/>uel necessariis. Narratione completa, oportet narrationem diuidere
+				<lb/>et enuntiare, et enuntiata exornare. Quibus factis debemus exornata probare.
+				<lb/>Dictis nostris confirmatis, debemus si qua dicantur in contrarium
+				<lb/>confutare, hoc est &lt;con&gt;sensionem debitam dare. Sed quia confirmatio
+				<lb/>dictorum nostrorum et confutatio aduersariorum tot exigit doctrinas
+				<lb/>uarias quot sunt genera siue species siue indiuidua rerum de quibus potest
+				<lb/>aliquis concionari, idcirco, quia talia sunt quasi infinita, et infinitorum
+				<lb/>non potest dari doctrina nisi forsitan generalis, que datur pocius ab
+				<lb/>intellectu naturali et ingenio quam doctrina, maxime in diuersis articulis,
+				<lb/>idcirco istas duas partes, confirmationem et confutationem, necnon eam
+				<lb/>que sequitur sextam partem, uidelicet conclusionem, relinquamus pocius
+			<lb/>ingenio quam doctrine.</p>
+		</div>
+		<pb n="128"/>
+		<div type="chapter">
+			<head><lb/>(23.)</head> <p>Nunc absoluta difficillima parte artis concionatorie, inuentione
+				<lb/>uidelicet et eius partibus, que sunt VI, que sunt etiam partes orationis
+				<lb/>concionatorie, nunc de secunda parte principali tocius artis, dispositione
+			<lb/>uidelicet, pertractemus.</p>
+			<p><lb/>Et sciendum est quod dispositio in dicendis duplex consideratur.
+				<lb/>Est enim una dispositio que ex artis institutione proficiscitur, et illa
+				<lb/>est que seruat ordinem trium parcium predictarum, uidelicet quod concionatur
+				<lb/>per inuentionem sciat exordiri, narrare, diuidere, confirmare,
+			<lb/>confutare, demum concludere.</p>
+			<p><lb/>Secunda &lt;est&gt; que ad casum temporis accomodatur, quando uidelicet
+				<lb/>concionator non potest predictum ordinem obseruare. Nam dictum est
+				<lb/>quod in turpi causa et in aliis duobus casibus concionator debet uti principio.
+				<lb/>Aliquando non potest uti insinuatione, et tunc incipere debet a
+				<lb/>narratione. Aliquando uero, cum narratio uerisimilitudinem non habet,
+				<lb/>tunc incipiendum est a confirmatione, idest ab aliqua firma ratione. Sed
+				<lb/>in firmis rationibus nota ordinem ualde cautum. Nam concionator inprimis
+				<lb/>firmissimam ponere debet rationem, similiter et in fine: in principio,
+				<lb/>quoniam animus auditoris exspectat qua ratione dictum confirmari
+				<lb/>debeat; in fine similiter, et id quod postremo dicitur facile memorie commendatur;
+				<lb/>in medio uero, mediocres et minus utiles ad dicendum, que si
+				<lb/>per se dicerentur infirme uiderentur, quod patet in exemplo sub oculis
+				<lb/>posito. Nam instructio militum in preliis modo supradicto per boni
+				<lb/>ducis industriam ordinatur. Nam in prima acie uel cheria, que dicitur
+				<lb/>fronteria, fortissimi milites preponuntur; similiter et in fine que dicitur
+				<lb/>retroguardia; in medio uero persone minoris probitatis communiter collocantur.
+			<lb/>/*</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(24.)</head> <p>Pronunciatio dividitur in figuram uocis et corporis motum; et
+			<lb/>primo, de figura uocis, que sic describitur.</p>
+			<p><lb/>Figura uocis est ea que suum quemdam possidet habitum oratione et
+				<lb/>industria comparatum. Ea diuiditur in tres partes: magnitudinem, firmitudinem,
+			<lb/>mollitudinem.</p>
+			<p><lb/>Firmitudinem maxime comparat natura, non nichil adauget et maxime
+				<lb/>conseruat excercitatio declamationis; magnitudinem uocis maxime
+				<lb/>comparat natura, non nichil adauget, sed maxime cura conseruat; mollitudinem
+				<lb/>uocis, hoc est ut eam retorquere in dicendo pro nostro commodo
+			<lb/>possimus, maxime facit excercitatio declamationis.</p>
+		</div>
+		<pb n="129"/>
+		<div type="chapter">
+			<head><lb/>(25.)</head> <p>Primo requiritur quod sedata et depressa uoce principia nostra
+				<lb/>dicimus. Nam leduntur arterie, si, antequam uox bene permulsa est acri
+			<lb/>clamore compleatur.</p>
+			<p><lb/>Secundo requiritur ut interuallis longioribus &lt;utamur&gt;; reuertitur
+			<lb/>enim spiritu uox et arterie reticendo acquiescunt.</p>
+			<p><lb/>Tertio, ut continuum sermonem remittamus et ad sermonem transeamus.
+				<lb/>Commutationes enim faciunt, ut nullo genere uocis effuso in omni
+			<lb/>uoce integri simus.</p>
+			<p><lb/>Quarto, ut acutas uoces exclamationis uitemus; ictus enim fit, et
+				<lb/>uulnerantur arterie acuta atque attenuata nimis exclamatione.
+				<lb/>Quinto oportet ut uno spiritu continenter multa dicamus extrema
+				<lb/>oratione; fauces enim calefiunt et arterie complentur et uox que
+				<lb/>[tractata varie] &lt;est&gt; reducitur in quemdam sonum equabilem atque
+				<lb/>constantem. – De magnitudine uero uocis eadem sunt precepta que de
+			<lb/>firmitudine dicta sunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(26.)</head> <p>Molitudo uocis diuiditur in sermonem, contentionem, amplificationem.
+			<lb/>/*</p>
+			<p><lb/>Sermo est oratio remissa et finitima cotidiane locutioni.</p>
+			<p><lb/>Contentio est oratio acris ad confirmandum et ad confutandum accomod&lt;at&gt;a.
+			<lb/>/*</p>
+			<p><lb/>Amplificatio est oratio que uel &lt;in&gt; iracundiam inducit aut ad misericordiam
+			<lb/>trahit animum auditoris.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(27.)</head> <p>Sermo diuiditur in quatuor partes: dignitatem, demonstrationem,
+			<lb/>narrationem, iocationem.</p>
+			<p><lb/>Dignitas est oratio cum aliqua grauitate.</p>
+			<p><lb/>Demonstratio est oratio que docuit quomodo quid fieri potuit aut non
+			<lb/>potuit.</p>
+			<p><lb/>Narratio est rerum gestarum aut proinde ut gestarum expositio.
+				<lb/>Iocatio est oratio que ex aliqua re uerisimili risum pudentem et liberalem
+			<lb/>potest comparare.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(28.)</head> <p>Contentio diuiditur in continuationem et distributionem.
+				<lb/>Continuatio est orationis annunciande acceleratio clamosa.
+				<pb n="130"/>
+				<lb/>Distributio est oratio frequens cum raris et breuibus interuallis acri
+			<lb/>uociferatione.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(29.)</head> <p>Ampli&lt;fi&gt;catio diuiditur in cohertionem et conquestionem.
+				<lb/>Cohertio est oratio aliquod peccatum amplificans, auditorem ad iracundiam
+				<lb/>prouocans
+				<lb/>Conquestio est oratio que incommodorum amplificatione animum auditoris
+			<lb/>ad misericordiam perducit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(30.)</head> <p>Si fuerit sermo in dignitate, plenis faucibus, quam sedatissima
+				<lb/>et depressissima uoce uti conuenit, ita tamen ne ab oratoria consuetudine
+				<lb/>[ad tragicam] transeamus. – Cum autem est sermo in demonstratione,
+				<lb/>uoce paululum attenuata crebris interuallis et diuisionibus uti oportebit,
+				<lb/>ut in ipsa pronunciatione eas res quas demonstrabimus inserere atque
+			<lb/>intersecare uideamur in animis auditorum.</p>
+			<p><lb/>Cum autem est sermo in narratione, uocum uarietates exponi possunt,
+				<lb/>ut, quo quidque pacto gestum sit, ita narrari uideatur; strennue quod
+				<lb/>uolumus ostendere factum, celeriuscule dicere, aut aliud otiose retractabimus.
+				<lb/>Deinde autem modo acri aut clementer, meste, hilariter in omnes
+				<lb/>partes commutabimus ut [ si ] uerba ista, pronunciationem; si qua inciderint
+				<lb/>in narratione dicta, rogata, responsa, sique admirationes, de quibus
+				<lb/>narrabimus, diligenter animaduertamus, ut omnes personarum sensus
+			<lb/>atque animos uoce exprimamus.</p>
+			<p><lb/>Si erit sermo in iocatione, leuiter tremebunda uoce cum parua significatione
+				<lb/>risus sine ulla suspicione nimis cachinationis leuiter oportebit
+			<lb/>a sermone serie retorquere ad liberalem iocum uel uocem.</p>
+			<p><lb/>Cum autem contendere oportebit in continuatione, adaucto mediocriter
+				<lb/>sono uocis, uerbis continuandis uocem quoque adiungere oportebit
+				<lb/>et torquere sonum et celeriter cum clamore uerba conficere, ut uim nobilem
+				<lb/>orationis uociferatio consequi possit. In contentione, cum distributione
+				<pb n="131"/>
+				<lb/>utemur, uocem ab imis faucibus exclamationem quamdam
+				<lb/>clarissimam adhibere oportet, et quantum spatii per singulas exclamationes
+				<lb/>sumpserimus, tantum in singula interualla spatii consumere iubemus.
+				<lb/>In amplificationibus, in cohertione utemur uoce attenuatissima,
+				<lb/>clamore leni, sono equali, commutationibus crebris, maxima celeritate;
+				<lb/>in conquestione utemur depressis uerbis, inclinato sono, crebris interuallis,
+			<lb/>longis spatiis, magnis commutationibus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(31.)</head> <p>Motus corporis est gestus corporis, uultus moderatio quedam que
+				<lb/>pronuncianti conuenit. Conuenit igitur in uultu pudore&lt;m&gt; et agrimoniam
+				<lb/>inesse, in gestu nec uenustatem inspiciendam nec turpitudinem inesse,
+				<lb/>ne aut histriones aut operarii uideamur esse. Ad easdem igitur partes,
+				<lb/>in quas uox distributa est, motus quoque corporis ratio uidetur accomod&lt;and&gt;a
+				<lb/>esse. Nam si erit sermo cum dignitate, stantes in uestigio leui
+				<lb/>dextre motu loqui oportebit, hilaritate, tristicia, mediocritate uultus ad
+				<lb/>sermonis sententias accomodata. – Si erit in demonstratione sermo, paululum
+				<lb/>corpus a ceruicibus dimittemus; nam hoc est a natura datum ut
+				<lb/>quam proxime uultum admoveamus ad auditores, si quam rem docere
+				<lb/>eos et uehementer instigare uolumus. – Si erit sermo in narratione, idem
+				<lb/>motus poterit ydoneus esse, qui paulo ante demonstrabatur in dignitate.
+				<lb/>- Si in iocatione, uultu quamdam hilaritatem debemus significare
+				<lb/>sine commutatione gestus. – Si contendemus in continuatione, brachio
+				<lb/>celeri, mobili uultu, acri aspectu utemur. – Si in contentione fiet per
+				<lb/>distributionem, porrectione celeris brachii, ambulatione pedis dextri,
+				<lb/>rara subplausione, acri et defixo aspectu uti oportebit. – Si utemur amplificatione
+				<lb/>per conquestionem fremendo plangore et capitis ictu, non&lt;n&gt;umquam
+				<lb/>sedato et constanti gestu, mesto et conturbato uultu uti
+				<lb/>oportebit. – Si utemur amplificatione per cohertionem, paulo certiore
+				<lb/>consideratione gestu conuenit uti, similibus ceteris rebus sicut in contentione
+			<lb/>per continuationem.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(32.)</head> <p>Notandum igitur quod duplex est memoria: una naturalis, alia
+				<lb/>artificialis. Naturalis est ea que nostris animis est insita uel simul cum cogitatione
+				<lb/>nata. Artificiosa est ea quam confirmat induxio quedam et ratio
+			<lb/>preceptionis.</p>
+		</div>
+		<pb n="132"/>
+		<div type="chapter">
+			<head><lb/>(33.)</head> <p>Memoria artificiosa duobus constat: locis et imaginibus. Locos
+				<lb/>appellamus eos qui breuiter perfectione insigniunt, aut natura aut manu
+				<lb/>absoluti sunt, ut eos facili naturali memoria comprehendere ualeamus,
+				<lb/>ut edes, intercolumpnium, angulum et fornicen et alia que hiis similia
+			<lb/>sunt.</p>
+			<p><lb/>Ymagines sunt quedam forme et note et simulacra eius &lt;rei&gt; quam meminisse
+				<lb/>uolumus; quod genus equi, leonis et aquile; memoriam artificiosam
+				<lb/>habere si uolemus, ymagines eorum in certis locis collocare nos
+			<lb/>oportebit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(34.)</head> <p>Quemadmodum qui litteras sciunt possunt id quod dictum est
+				<lb/>scribere et recitare quod scripserunt, ita quod in modico didicerunt, possunt
+				<lb/>ea que didicerunt in locis collocare et hos memoriter pronunciare.
+				<lb/>Nam loci cere aut carte similimi sunt, ymagines litteris, dispositio et
+				<lb/>collocatio ymaginum scripture, pronunciatio lectioni. Oportebit igitur, si
+				<lb/>uolumus multa meminisse, multos [ nos ] nobis locos comparare, ut in multis
+			<lb/>locis multas ymagines collocare possimus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(35.)</head> <p>In primis loci debent ex ordine constitui, ne quando perturbatione
+				<lb/>ordinis impediamur quo serius, quoto quoque loco licebit, uel
+				<lb/>a superiore uel ab inferiore parte ymaginem sequi, ut ea que mandata
+				<lb/>locis erunt uidere et proferre possimus. Nam ut, si in ordine stantes
+				<lb/>notas quam plures uideamus, nichil nostra intersit utrum a summo uel
+				<lb/>ab ymo aut in medio nomina eorum incipiamus, ita in locis ex ordine collocatis
+				<lb/>ueniet, ut in quamlibet partem quoquo loco libebit ymaginibus admoniti
+			<lb/>dicere possimus id quod locis mandauerimus.</p>
+			<p><lb/>Secundo locos quos sumpserimus egregie commeditari oportebit, ut
+				<lb/>perpetuo nobis herere possint. Nam ymagines sicut littere delentur, nisi
+			<lb/>in hoc utimur; loci tanquam cera manere debe&lt;n&gt;t.</p>
+			<p><lb/>Tertio, ne forte in numero locorum falli possimus, quintum quemque
+				<pb n="133"/>
+				<lb/>nominari placet; quod genus si in quinto loco manum auream collocemus,
+				<lb/>[ si ] in decimo aliquem notum cui prenomen sit Decimus; nam
+				<lb/>facile erit deinceps similes notas quinto quoque loco collocare.
+				<lb/>Quarto, commodius in derelictum quam in celeberrimam regionem
+				<lb/>locos comparare, propterea quod frequens obambulatio hominum perturbat
+				<lb/>et infirmat ymaginum notas, solitudo conseruat integras simulacrorum
+			<lb/>figuras.</p>
+			<p><lb/>Quinto, dissimili forma atque natura loci comparandi sunt, ut distincte
+				<lb/>interlucere possint. Nam siquis multa intercollumpnia sumpserit, conturbabitur
+				<lb/>similitudine locorum et ignorabit quid in quo loco collocauit.
+				<lb/>Sexto, magnitudine modica et mediocri locos habere oportebit.
+				<lb/>Nam et preter modum ampli uagas ymagines reddunt, et nimis angusti
+			<lb/>sepe non uidentur posse capere ymaginum collocationem.</p>
+			<p><lb/>Septimo, nec nimis illustres nec uehementer obscuros locos habere
+				<lb/>oportet, ne aut obsecentur tenebris ymagines aut splendore prefulgeant.
+				<lb/>Octauo, interualla locorum mediocria placet esse, fere paulo plus
+				<lb/>aut minus pedum trinum. Nam ut aspectus, ita cogitatio minus ualet,
+				<lb/>si aut nimis procul remoueris aut uehementer prope admoueris id quod
+			<lb/>oportet uideri.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(36.)</head> <p>Rerum similitudines exprimuntur, cum summatim ipsorum
+				<lb/>negotiorum ymagines comparamus, ut tocius rei memoriam sepe una
+				<lb/>nota et ymagine simplici comprehendimus; hoc modo, ut si accusator
+				<lb/>dixerit a reo hominem ueneno necatum et hereditatis causa factum arguerit
+				<lb/>et eius rei multos dixerit testes et conscios, - si hoc ipsum, ut
+				<lb/>ad defendendum nobis expeditum sit meminisse uolemus, in primo loco
+				<lb/>rei totius ymaginem confirmabimus: egrotum in loco cubantem faciemus
+				<lb/>eum de quo agitur, si formam eius retinebimus; si eum non agnouerimus,
+				<lb/>aliquem egrotum non de uno loco sumemus, ut cito in mente uenire
+				<pb n="134"/>
+				<lb/>possit, et reum ad lectum eius statuemus, dextera poculum, sinistra tabulas,
+				<lb/>medi&lt;c&gt;o testiculos arietinos tenentem, hoc modo testium et hereditatis
+			<lb/>et ueneno necati memoriam habere poterimus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(37.)</head> <p>Licet autem elocutio sit tercia res quam debet habere concionator
+				<lb/>secundum dispositionem et ordinem partium superius positarum,
+				<lb/>tamen, quia concionator in aliquo differt ab oratore nec ipsum totaliter
+				<lb/>imitatur, idcirco uoluimus pronunciationem et memoriam preponere, et
+				<lb/>in hoc loco, quinto uidelicet et ultimo, de elocutione tractare. Nos enim
+				<lb/>utilius fuisse credimus prius instruere concionatorem in uoce et corporis
+				<lb/>motu, que sunt partes pronunciationis, deinde de elocutione dicere, que
+			<lb/>uidetur de exsecutione officii concionatorii.</p>
+			<p><lb/>Sciendum igitur quod elocutio tria continet: eleganciam, compositionem,
+			<lb/>dignitatem.</p>
+			<p><lb/>Elegancia est ea que facit ut unumquodque pure et aperte dici uideatur.
+			<lb/>Hec diuiditur in Latinitatem et explanationem.</p>
+			<p><lb/>Latinitas est que sermonem purum conseruat ab omni uicio remotum.
+				<lb/>Vicia in sermone quo minus Latinus sit duo possunt esse: soloecismus et
+				<lb/>barbarismus. Soloecismus est cum in uerbis pluribus consequens uerbum
+				<lb/>superiori non accomodatur. Barbarismus est cum uerbum aliquod uiciose
+			<lb/>effertur.</p>
+			<p><lb/>Explanatio est que reddit apertam et lucidam orationem. Ea comparatur
+			<lb/>duabus rebus: usitatis uerbis et propriis.</p>
+			<p><lb/>Usitata sunt ea que uersantur in sermone et consuetudine cotidiana.
+			<lb/>Propria sunt, que eius rei uerba sunt aut esse possunt de qua loquimur.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>(38.)</head> <p>Elocutio debet habere eleganciam, compositionem et dignitatem,
+				<lb/>ut dictum est. Dicto de elegancia, nunc dicendum est de compositione.
+			<lb/>/*</p>
+			<p><lb/>Est autem compositio uerborum constructio equabiliter perpolita; ea
+				<lb/>conseruabitur, si fugiamus crebras uocalium concursiones que uastam
+				<lb/>atque hiantem reddunt orationem, ut est hoc: " Bacce aeree amenissime
+				<lb/>impendebant " ; - et ei uitabimus eiusdem littere nimiam assiduitatem,
+				<lb/>ut si diceremus: " O Tite tute tibi tanta tyranne tulisti " ; - et si eiusdem
+				<lb/>uerbi assiduitatem nimiam fugeremus, ut est hoc: " Cuius rationis ratio
+				<lb/>non exstat, ei rationi ratio non est fidem adhibere " ; - et si non utemur
+				<lb/>continenter similiter cadentibus, hoc modo: " Flentes plorantes lacrimantes
+				<lb/>obtestantes " ; - et si uerborum transitionem uitabimus, nisi erunt concinna,
+				<lb/>ut in hoc exemplo: " Has res ad te scriptas, Luci, misimus, Hely " .
+				<lb/>Item fugere opportet longam continuationem, que auditoris aures et oratoris
+			<lb/>ledit spiritum.</p>
+			<p><lb/>Dignitas est que reddit ornatam orationem et uarietate distinctam.
+			<lb/>Hec in uerborum et sententiarum exornationes diuiditur.</p>
+			<pb n="135"/>
+			<p><lb/>Verborum exornatio est que ipsius sermonis insignita continet perpollitione.
+			<lb/>/*</p>
+			<p><lb/>Sententiarum exornatio est que non in uerbis, sed in ipsis rebus quamdam
+			<lb/>habet dignitatem.</p>
+			<p><lb/>Notandum autem quod arengator uulgaris omnia predicta potest
+				<lb/>habere suo modo quodammodo et litteraliter, quod per singula perscrutandi
+			<lb/>patet ad sensum subtiliter intuenti.</p>
+		</div>
+	</body>
+</text>
+</TEI>

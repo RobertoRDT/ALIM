@@ -1,0 +1,1348 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Praecepta dictaminum</title>
+				<author>Adalbertus Samaritanus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>F.-J. Schmale</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EB">Elisabetta Bartoli</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="6844" unit="words">Parole: 6844</measure>
+				<measure quantity="43713" unit="characters_without_spaces">Caratteri (spazi esclusi): 43713</measure>
+				<measure quantity="49501" unit="characters_witht_spaces">Caratteri (spazi inclusi): 49501</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-07-18">18/07/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Retorica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 6934&#13;
+Caratteri (spazi esclusi): 43902&#13;
+[ ] indica
+				                    integrazione&#13;
+VA</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					
+					<monogr>
+						<author>Adalbertus Samaritanus</author>
+						<title level="m">Praecepta Dictaminum</title>
+						<editor>F.-J. Schmale</editor>
+						<imprint>
+							<publisher>Herman Böhlaus Nachfolger</publisher>
+							<pubPlace>Weimar</pubPlace>
+							<date>1961</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">MGH, Quellen zur Geistesgeschichte des Mittelalters</title>
+						<biblScope unit="volume">3</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Retorica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1101/1200">XII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="EB">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-10" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+- la struttura è piena di casi come questo:
+&lt;div&gt;
+	&lt;p&gt;Spiegazione di qualche problema...&lt;/p&gt;
+	&lt;div&gt;&lt;p&gt;Lettera modello, in cui si mostra questo problema&lt;/p&gt;
+		&lt;p&gt;La lettera ha spesso più paragrafi&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;p&gt;Di nuovo si parla del problema...&lt;/p&gt;
+&lt;/div&gt;
+Cioè, dopo un &lt;div&gt; segue un &lt;p&gt; allo stesso livello, cosa che non è corretta secondo TEI XML
+- il testo è spesso diviso su due colonne, le quali contengono diverse versioni testuali di diversi manoscritti. Probabilmente rendono la struttura ancora più intricata. Come li devo segnare? Posso usare il &lt;cb/&gt;? Credo, però, che questo sia un caso diverso
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+<text>
+	<body>
+		<pb n="28"/>
+		<div>
+			<lb/><head>PRAECEPTA DICTAMINUM</head>
+			<div>
+				<lb/><head>I</head>
+				<lb/><p>Albertus Samaritanus Bononiensibus scolaribus philosophicis
+				<lb/>studiis inherentibus.</p>
+				<lb/><p>Si doctrine studiis ut vanis fabulis rebusque caducis et
+					<lb/>nihilo profuturis, at nonnumquam pericula prestantibus mortalium
+					<lb/>pectora insudarent, nequaquam res humane tot casibus
+					<lb/>vacilarent nec hominum animi tot et tantis ignorantiarum
+					<lb/>calamitatibus titubarent, sed ex inscitie cecitate depulsa eo
+					<lb/>claritudinis provenirent, ubi a mortalitate ad immortalitatem
+					<lb/>procul dubio pertransirent. Ceterum mentes desidia torpentes
+					<lb/>nil altum sapere, nil utile concupiscere, nil honestum queunt
+					<lb/>iustumve capescere. Sectantur voluptatum pestifera gaudia et
+					<lb/>cupiunt nancisci vere virtutis premia. Quod quantum a calle
+					<lb/>longius errent quantumque a veritate abhorreant, cogeret illos
+					<lb/>videre necessitas, nisi eos deprimeret caliginose cecitatis densitas.
+					<lb/>Non enim id, quod conantur, valent inertia adipisci
+					<lb/>nec, quod nituntur, assequi. Hinc erigenda est mentis acies,
+					<lb/>deponenda carnalis moles, fugienda lasciviarum illecebra mollities
+					<lb/>totisque nisibus [oportet] <hi rend="italic">corporis</hi>, ut ait Crispus, <hi rend="italic">uti
+					<lb/>servitio, animi frui imperio, [quorum aliud nobis est] commune
+					<lb/>cum summis, aliud commune cum infimis</hi>. Ad hoc utilitas nos
+					<lb/>invitat et natura consequenter incitat. Naturalis igitur rationis
+					<pb n="29"/>
+					<lb/>iure perfusus vestrique amoris hortatu compulsus precipuum
+					<lb/>quoddam atque perutile aggressus sum opus, non
+					<lb/>ingenii confidentia, sed vestre supplicationis sedula instantia.
+					<lb/>Petitis nempe et indesinenter flagitatis, ut dictaminum
+					<lb/>precepta tradam et introductionis imitans modum modos epistolarum
+					<lb/>ostendam; rem quidem utilem, [multo tamen] difficilem,
+					<lb/>preclarum opus, sed grande onus, vestri tamen amore
+					<lb/>commoto leve mihi videtur tam pregrave onus. Ad legenda
+					<lb/>itaque hec vos summopere invitans oro et moneo: ponite desidiam,
+					<lb/>adhibete diligentiam, estote tenaces memoria, legendi
+				<lb/>assiduitas habeatur eximia.</p>
+			</div>
+			<div>
+				<lb/><head>II</head>
+				<lb/><p>Adalbertus Samaritanus, superno munere [si] quid
+					<lb/>est, monti pulcro suo discipulo amantissimo ad meliora semper
+				<lb/>proficere.</p>
+				<lb/><p>Inter cetera egregii ingenii bona principium hoc approbo,
+					<lb/>quod video te philosophie deditum ad eius studium inhianter
+					<lb/>[mentem] erigere. Singulare etenim privilegium sapientie post
+					<lb/>quoque mortem facit vivere, sic econtrario desidia, mater
+					<lb/>inscientie, noverca sapientie torpescendo perimere. In adolescentuli
+					<lb/>itaque lasciva etate constitutus et circa hec tempora
+					<lb/>amori atque labori deditus doctrine, merito es laudabilis, cum
+					<lb/>et tue etatis et paribus studiorum prebes exemplum, iuvenibus
+					<lb/>rudimentum, senibus experimentum. Huius igitur tam preclari
+					<lb/>studii affectione ulnis te cordis amplectens tuis petitionibus,
+					<pb n="30"/>
+					<lb/>licet arduis, libens acquiesco, non mei ingenii confidentia, sed
+				<lb/>tue supplicationis sedula instantia.</p>
+				<lb/><p>Petis nempe et indesinenter flagitas, ut dictaminum tibi
+					<lb/>precepta tradam et introductionum imitans modum epistolarum
+					<lb/>modos ostendam; rem quidem utilem, multo tamen difficilem,
+					<lb/>preclarum opus, sed grande onus, tui tamen amoris
+					<lb/>supplicatione conmotus leve mihi videtur tam pergrave onus.
+					<lb/>Ad legenda itaque hec te summopere invitans oro et moneo:
+					<lb/>pone desidiam, adhibeas diligentiam, sit tenax maxime memoria,
+				<lb/>legendi assiduitas adhibeatur [eximia].</p>
+			</div>
+			<div>
+				<lb/><head>III</head>
+				<lb/><p>Sociorum assidua pulsatione coactus, naturalis etiam
+					<lb/>rationis incitamento astrictus, aggressus sum rem arduam, sed
+					<lb/>professionis officio iniunctam et prosaicas orationes fingere
+					<lb/>cupientibus satis idoneam, opus difficile, sed tamen perutile.
+					<lb/><hi rend="italic">Non enim</hi>, ut ait Marcus Cato, Platonis sententiam imitans,
+					<lb/><hi rend="italic">solis nobis nati sumus</hi>, sed toti mundo natura nos peperit,
+					<lb/>educavit et docuit. Verum quia ab hominibus nostrorum
+					<lb/>temporum spernuntur aspera et spinosa dictamina et non
+					<lb/>amplectuntur diffusa, sed brevia, quedam pro capacitate
+					<lb/>ingenii sub brevitate perstrinximus et compendiosa tradizione
+					<lb/>sociis nostris tradere dignum duximus, quod, licet emulorum
+					<lb/>mordeatur invidia, sapientium tamen iudicabit dignum censura,
+					<lb/>quod caritas amicis petentibus, communibus etiam utilitatibus
+					<lb/>preparabat, brevitas et utilitas commendabat. Oro
+					<lb/>itaque et moneo vos, socii, desidiam ponite, lasciviam fugite,
+					<lb/>vanas et ineptas fabulas devitate, studium adhibite, sollerti
+					<pb n="31"/>
+					<lb/>meditatione hanc veram traditiunculam legite, sollicita indagatione
+					<lb/>discutite, sagaci intellectu capite, tenaci memorie
+				<lb/>commendate.</p>
+				<lb/><p>Inter breve enim temporis spatium, si meis
+					<lb/>ammonitionibus obsecundare volueritis, huius artis scientiam
+					<lb/>adipisci valebitis ac per nostrarum regularum compendiosam
+					<lb/>traditionem prosaicarum epistolarum poteritis comprehendere
+					<lb/>rationem, quam specialiter vestre utilitati enucleandam
+					<lb/>suscepi, generaliter tamen omnibus profuturam nullius spernat
+				<lb/>invidia.</p>
+				<lb/><p>Primum itaque dictatorem oportet cognoscere grammaticam,
+					<lb/>rhetoricam, dialeticam, eloquentie studia huic operi
+				<lb/>necessaria.</p>
+				<lb/><p><hi rend="italic">Grammatica</hi> enim, cum sit <hi rend="italic">recte loquendi scientia</hi>, verba
+					<lb/>cum nominibus docet coniungere ceterasque dictiones congrua
+					<lb/>ratione disponere. Hec autem sunt fundamenta et
+				<lb/>huius artis initia et primordialia indicia.</p>
+				<lb/><p>Rhetorica vero distincte, ornate, expolite componere,
+					<lb/>unicuique persone, necnon ordini et dignitati congrua
+					<lb/>accidentia distribuere, ordinem et modum discernere.
+					<lb/>Dialetica autem proponere et assumere mostrat
+				<lb/>et concludere.</p>
+				<pb n="32"/>
+				<lb/><p>Que omnia, qualiter dictatori sint necessaria, in sequentibus
+					<lb/>monstrabo per singula. Absque harum igitur aliquantula
+					<lb/>saltim scientia nulla erit dictandi notitia. Sunt tamen
+					<lb/>nonnulli adeo facilia habentes ingenia, ut ignoratis harum
+					<lb/>artium preceptis perpulchra componant dictamina. Quod
+					<lb/>tamen illis non arte accedit, sed natura. Omnis enim ars a
+					<lb/>natura sumit initium, que, dum secundum Platonem inest
+					<lb/>anime per naturam, ignoratur tamen a plerisque, nisi a
+					<lb/>magistro discant, per carnis hebetis coniecturam. Excitatur
+					<lb/>ergo a doctoribus torpens animus et quasi e somno vigilans
+				<lb/>naturaliter meminit, que docentur.</p>
+				<lb/><p>His ergo prelibatis, quod nomen ipsum epistole significet,
+				<lb/>discutiamus.</p>
+				<div>
+					<lb/><head>A</head>
+					<lb/><p>Epistola grecum nomen est compositum, epi
+						<lb/>enim supra, stola missio interpretatur; que ob hoc ita nuncupatur,
+						<pb n="33"/>
+						<lb/>quia cum duobus modis fit legatio: una viva voce,
+						<lb/>altera litteris; hec supra illa est, que viva voce mittitur;
+						<lb/>in epistolis namque ita legator loquitur acsi ore ad os et
+						<lb/>presens, cui legatur, adesset. Carius ergo accipitur, honorabilius
+					<lb/>et tenetur.</p>
+					<lb/><p>Huic ergo tam preclaro operi operam dantes oportet
+						<lb/>cognoscere salutationem unicuique esse preponendam epistole,
+						<lb/>in qua lex ista servatur: Si minor scripserit maiori, maior
+						<lb/>persona preponitur, minor subsequitur. Si maior minori,
+						<lb/>eadem semper precedit. Si par pari utralibet potest preponi
+						<lb/>et subponi iuxta placitum scriptoris. Salutatio vero diversa
+						<lb/>qualitate personam et ordinem designat, aliter enim superiorem,
+					<lb/>aliter inferiorem, aliter salutamus equalem.</p>
+					<lb/><p>Verum primo de modis, dehinc de salutationibus seriatim
+					<lb/>tractabimus.</p>
+				</div>
+				<div>
+					<lb/><head>B</head>
+					<lb/><p>Ut tres hominum ordines, sic sunt tres epistolarum
+						<lb/>species: sublimis, mediocris et exilis. Quam minor scribit
+						<lb/>maiori, nuncupamus sublimem ob duas causas; vel quia de
+						<lb/>inferiori ad superiorem ascendit vel quia in se tria accidentia
+						<lb/>continet: blanditiem in principio, causam blanditiei in medio,
+						<lb/>petitionem in fine. Alioquin, nisi hi serventur ordines, etsi
+						<lb/>honesta sit compositio, erit tamen absque ordine rethorico
+					<lb/>plena vitio.</p>
+					<lb/><p>Hoc Tullius in rethoricis, hoc monstrat unusquisque
+						<pb n="34"/>
+						<lb/>sapiens in suis epistolis. Hic usitatus modus est locutionis
+						<lb/>in concionibus, nos quoque hoc per singula demonstrabimus
+					<lb/>in sequentibus.</p>
+					<lb/><p>Que a maiori ad minorem mittitur, ob duas similiter
+						<lb/>causas exilis dicitur; vel quia descendit vel quia unum tantum
+						<lb/>habet accidens: imperium in domnis, in aliis maioribus personis
+						<lb/>petitionem continet. At si quis contra asserat maiores
+						<lb/>quoque personas et domnos persepe blandiendo postulare,
+						<lb/>respondendum est, quia tunc non servat ordinem sue dignitatis;
+						<lb/>eo enim ipso, quod postulat, inferior esse monstratur. Omnis
+					<lb/>namque postulans minor est eo, quod postulatur.</p>
+					<lb/><p>Que vero a pari ad parem epistola scribitur, mediocris
+						<lb/>idcirco dicitur, quia inter sublimem et exilem media nec
+						<lb/>ascendit ad superiorem nec descendit ad inferiorem, sed servans
+						<lb/>parilitatem duo in se continet accidentia: blanditiem et petitionem;
+						<lb/>atque hoc hactenus, nunc de salutationibus succincte
+					<lb/>tractemus.</p>
+				</div>
+				<div>
+					<lb/><head>C</head>
+					<lb/><p>Salutationes, ut diximus, epistolis preponende diverse
+						<lb/>secundum diversitatem personarum sunt adhibende. Aliter
+						<lb/>enim ecclesiasticas, aliter seculares salutamus personas. Item
+						<lb/>ecclesiasticarum multe sunt differentie, nam aliter salutamus
+						<lb/>honore fulgentes, aliter nulla dignitate sublimatos, aliter canonicos,
+						<lb/>aliter monachos, aliter episcopos, aliter abbates; alium
+						<lb/>laudamus de sapientia, alium de religione, alium de utroque.
+						<pb n="35"/>
+						<lb/>Secularium personarum similiter nonnulle sunt discrepantie.
+						<lb/>Nempe aliter patrem, aliter matrem, aliter fratrem,
+						<lb/>aliter sororem, aliter filium vel filiam, aliter propinquum,
+						<lb/>aliter extraneum salutamus; aliter nobilem, aliter sapientem,
+						<lb/>aliter principatum habentem, aliter nulla dignitate utentem.
+						<lb/>Que omnia in subsequentibus liquido declarabimus, ut per
+					<lb/>subiecta exempla plura, que non dicimus, concipiantur.</p>
+					<div>
+						<lb/><head>1.</head> <p>G. venerabili et amabili clerico divina et humana
+							<lb/>sapientia imbuto R. suus fidelissimus quicquid utriusque vite
+						<lb/>felicius.</p>
+					</div>
+					<div>
+						<lb/><head>2.</head> <p>A. clericorum eximio, omni commendando tripudio O.
+							<lb/>suorum amicorum fidelissimus quicquid potest scribi
+							<lb/>iocundius; vel: quicquid est contrarium malo preter ipsum
+						<lb/>malum.</p>
+					</div>
+					<div>
+						<lb/><head>3.</head> <p>Ad monachum. Domno M. venerabili monacho, regularibus
+							<lb/>disciplinis adprime instructo A. in omnibus et per
+							<lb/>omnia subditus fidelitatis obsequium; vel aliter: sincere
+						<lb/>devotionis famulatum.</p>
+					</div>
+					<div>
+						<lb/><head>4.</head> <p>M. Dei gratia religiosissimo
+							<lb/>cenobite Benedicti
+							<lb/>regula renitenti B. humillimus
+							<lb/>frater et peccator monachus in
+							<lb/>Domino eternam salutem, vere
+							<lb/>felicitatis pereternitatem. Aliter:
+							<pb n="36"/>
+							<lb/>quicquid huius vite iocundius
+							<lb/>et future felicius;
+							<lb/>aliter: Marie officia post Marthe exercitia; aliter: Rachelis
+							<lb/>pulchritudinem post Lie lippitudinem, post practicen
+						<lb/>theoreticen.</p>
+					</div>
+					<div>
+						<lb/><head>5.</head> <p>Domno et venerabili patri R. Lucensi episcopo religione
+							<lb/>et sapientia eminentissimo G. suorum clericorum ultimus
+							<lb/>quicquid patri peramans filius, perseverantem in sua
+						<lb/>voluntate famulatum, fidelissime servitutis augmentum.</p>
+					</div>
+					<div>
+						<lb/><head>6.</head> <p>A. Arimenensi fratri et coepiscopo utraque sophia
+							<lb/>inbuto, religionis gemmis suffulto B. Tusculanus solo nomine
+							<lb/>dictus episcopus fraternitatis et dilectionis fidelissimum famulamen;
+							<lb/>fidele cum continua oratione servitium; eternam utriusque
+						<lb/>hominis sospitatem.</p>
+					</div>
+					<div>
+						<lb/><head>7.</head> <p>R., licet peccator, Dei
+							<lb/>gratia humillimus Lucensis
+							<lb/>episcopus P. Pisano fratri et
+							<lb/>coepiscopo salutem in Domino;
+							<lb/>vel: quicquid est vel esse
+						<lb/>valet melius.</p>
+					</div>
+					<pb n="37"/>
+					<div>
+						<lb/><head>8.</head> <p>H. Cesar Dei gratia
+							<lb/>Romanorum imperator augustus
+							<lb/>cunctis Italicis fidelibus
+							<lb/>gratiam et bonam
+						<lb/>voluntatem.</p>
+					</div>
+					<div>
+						<lb/><head>9.</head> <p>Reverentissimo patri
+							<lb/>pape Paschali Alexius imperator
+							<lb/>Constantinopolitanus
+							<lb/>superno munere victor augustus
+							<lb/>et triumphator, apostolice
+							<lb/>sedi omnimodo subditus
+							<lb/>reverentiam et debitam
+						<lb/>obedientiam.</p>
+					</div>
+					<div>
+						<lb/><head>10.</head> <p>A. suo filio clerico G.
+							<lb/>sibi intimus quicquid Eurialo
+						<lb/>Nisus vel Perithoo Theseus.</p>
+					</div>
+					<div>
+						<lb/><head>11.</head> <p>Religiosissimo et amantissimo
+							<lb/>fratri G. canonico
+							<lb/>sancte Marie Parmensis ecclesie
+							<lb/>veterem hominem refutare
+							<lb/>Adam et novo incorporari;
+							<lb/>aliter: sex diebus manna colligere
+							<lb/>et in sabbato quiescere;
+							<lb/>aliter: cum Abraham peregrinari,
+							<lb/>cum Isaac puteos
+							<lb/>fodere; vel: cum Iacob lapidem
+							<lb/>erigere in Bethel et angelos
+							<lb/>ascendentes et descendentes
+							<pb n="38"/>
+							<lb/>conspicere et eterne vite
+							<lb/>gloriam et presentis continue
+						<lb/>valitudinis copiam.</p>
+						<lb/><p>Deo venerabilis et precipue
+						<lb/>amabilis.</p>
+						<lb/><p>Vive, vale, valeat, qui te
+							<lb/>valuisse triumphat.
+							<lb/>Quot sacer Helyas, tot
+						<lb/>felix tempora vivas.</p>
+					</div>
+					<div>
+						<lb/><head>12.</head> <p>V. venerando patri ac
+							<lb/>religiosorum benignissimo O.
+							<lb/>suorum fidelissimus corporis
+						<lb/>letitiam et mentis in Deo gaudium.</p>
+					</div>
+					<div>
+						<lb/><head>13.</head> <p>V. Dei gratia Pisane
+							<lb/>ecclesie episcopo P. Mutinensis
+							<lb/>ecclesie quamvis indigne
+						<lb/>episcopus in Christo salutem.</p>
+					</div>
+					<div>
+						<lb/><head>14.</head> <p>B. pastori dilectissimo,
+							<lb/>divine gratie dispensatori
+							<lb/>optimo perenne cum Petro
+						<lb/>consortium.</p>
+					</div>
+					<div>
+						<lb/><head>15.</head> <p>R. digno presuli, pontificali
+							<lb/>scemate nitenti G. religionis
+							<lb/>famulus [Christi] vestigia
+						<lb/>sequi.</p>
+					</div>
+					<div>
+						<lb/><head>16.</head> <p>A. militi strenuissimo
+							<lb/>huius sublimitatis servulus
+							<lb/>mentis integritatem ac
+							<lb/>utriusque vite alacritatem;
+							<lb/>vel: utriusque vite successus,
+							<pb n="39"/>
+							<lb/>utriusque vite potissimum
+							<lb/>bonorum omnium statum, hominis
+							<lb/>utriusque vite salutem,
+							<lb/>perpetuam in Christo
+						<lb/>salutem.</p>
+					</div>
+					<div>
+						<lb/><head>17.</head> <p>V. patri filius, que
+						<lb/>preceptori discipulus.</p>
+					</div>
+					<div>
+						<lb/><head>18.</head> <p>P. servus servorum
+							<lb/>Dei, Romane sedis episcopus
+							<lb/>H. Romanorum imperatori
+							<lb/>augusto gratiam et apostolicam
+						<lb/>benedictionem.</p>
+					</div>
+					<div>
+						<lb/><head>19.</head> <p>H. Dei gratia Romanorum
+							<lb/>imperator augustus
+							<lb/>Firmensi duci suo fedelissimo
+						<lb/>gratiam et bonam voluntatem.</p>
+					</div>
+					<div>
+						<lb/><head>20.</head> <p>I. domno ac reverendissimo
+							<lb/>Firmensis ecclesie
+							<lb/>pontifici G. Antiocenus episcopus
+							<lb/>fidelem orationis
+						<lb/>devotionem.</p>
+					</div>
+					<div>
+						<lb/><head>21.</head> <p>Inferioris persone ad
+							<lb/>antistitem. P. summa veneratione
+							<lb/>summeque laudis celebratione
+							<lb/>dignissimo domno
+							<pb n="40"/>
+							<lb/>divine largitatis
+						<lb/>magnificentiam.</p>
+					</div>
+					<div>
+						<lb/><head>22.</head> <p>Pastori quam optimo
+							<lb/>M. quicquid domno vernacula
+							<lb/>summe fidelissimus, quicquid
+						<lb/>patri peramans filius.</p>
+						<lb/><p>Reverentissimo ac sanctissimo
+							<lb/>Cassinensis abbati cenobii B. insolubile
+						<lb/>fidelitatis vinculum.</p>
+					</div>
+					<div>
+						<lb/><head>23.</head> <p>B. divina providentia
+							<lb/>Cassinensis monasterii abbati
+							<lb/>venerabili M. quicquid dignum
+						<lb/>tanto patri et domno.</p>
+					</div>
+					<div>
+						<lb/><head>24.</head> <p>Venerabilissimo et religiosissimo
+							<lb/>patri et domno
+							<lb/>B. abbati monasterii de Monte
+							<lb/>Cassino M. peccator monachus
+							<lb/>in sexta cum Martha
+							<lb/>laborare, in septima redintegrare,
+							<lb/>in octava cum Maria
+						<lb/>iocundari.</p>
+					</div>
+					<div>
+						<lb/><head>25.</head> <p>P. divina favente clementia
+							<lb/>prime sedis pontifici,
+						<lb/>domino et universali patri R.</p>
+						<lb/><p>Papiensis episcopus in omnibus
+							<lb/>et per omnia sinceram
+						<lb/>obedientiam.</p>
+						<lb/><p>Domino et venerabili patri P.
+							<lb/>summo et universali pontifici B.
+							<lb/>debite servitutis obsequium vel
+						<lb/>perenne cum Petro consortium.</p>
+					</div>
+					<pb n="41"/>
+					<div>
+						<lb/><head>26.</head> <p>G. episcopus servus
+							<lb/>servorum Dei A. Arimenensi
+							<lb/>episcopo salutem et apostolicam
+						<lb/>benedictionem.</p>
+					</div>
+					<div>
+						<lb/><head>27.</head> <p>Domno venerando multis
+							<lb/>virtutibus decorato, Deo
+							<lb/>caro Albericus frater et omnes
+							<lb/>amici post practicen
+						<lb/>theoreticen.</p>
+					</div>
+					<div>
+						<lb/><head>28.</head> <p>V. virtutum exercitio
+							<lb/>Deo et omnibus hominibus
+							<lb/>dilecto I. beati Benedicti regule
+							<lb/>imitationem. Cunctis huic
+							<lb/>ecclesie famulantibus, vobis
+							<lb/>precipue regentibus perfeliciter
+						<lb/>regere.</p>
+					</div>
+					<div>
+						<lb/><head>29.</head> <p>Domno venerabili E.
+							<lb/>pontifici S. utriusque vite
+						<lb/>felicitatem.</p>
+					</div>
+					<div>
+						<lb/><head>30.</head> <p>Multiplicis nobilitatis
+							<lb/>vita decorato domno V.
+							<lb/>Dei gratia presuli venerando
+							<lb/>G. in omnibus fidelissimus
+							<lb/>intimum amorem cum devotissimo
+						<lb/>servitio.</p>
+					</div>
+					<div>
+						<lb/><head>31.</head> <p>Domno multiplici nobilitate
+							<lb/>predito cunctique dogmatis
+							<lb/>peritia inbuto A. fidelissimus
+							<lb/>totis animi viribus
+							<pb n="42"/>
+							<lb/>cordisque medullis utriusque
+							<lb/>hominis felicitatem; vel: quicquid
+							<lb/>unquam melius ac in Domino
+							<lb/>felicius, post huius vite
+							<lb/>cursum perenne bravium, lucem
+						<lb/>post tenebras.</p>
+					</div>
+					<div>
+						<lb/><head>32.</head> <p>Magistro clientulus, domno
+							<lb/>servulus, duci tirunculus,
+							<lb/>amico unanimi amicus unanimis
+							<lb/>B. idem velle et idem nolle in
+						<lb/>Domino.</p>
+					</div>
+					<div>
+						<lb/><head>33.</head> <p>Etate filio, dignitate
+							<lb/>patri, nobilitate prestanti A.
+						<lb/>debite famulitium servitutis.</p>
+					</div>
+					<div>
+						<lb/><head>34.</head> <p>Eloquentie micanti fulgoribus
+							<lb/>trifide et mathematheos
+							<lb/>radiante lampade quadrifide,
+							<lb/>Rachelis conubia post Lie
+							<lb/>basia [aut] Rachelis suavia.
+							<lb/>Et de salutationibus ista
+							<lb/>sufficiunt, nunc ad modos accedamus,
+							<lb/>sed a sublimi
+							<lb/>incipiamus.
+							<lb/>Nam quibuslibet personis
+							<lb/>quomodolibet scribi valeat, ut
+							<lb/>opinor, diximus, quibus diligenter
+							<lb/>perspectis lector alias potest concipere.
+							<lb/>Nam quibuslibet personis
+							<lb/>quomodolibet scribi valeat, ut
+							<lb/>opinor, diximus, quibus diligenter
+							<lb/>perspectis lector alias
+							<lb/>potest concipere. Nunc vero
+							<lb/>de unoquoque modo singulas
+							<lb/>epistolas subiciamus, sed primum
+							<lb/>a sublimi incipiamus.
+							<pb n="43"/>
+							<lb/>G. egregio et nobilissimo viro W. societatis et dilectionis
+							<lb/>vinculum.
+							<lb/>Bonorum frequens astipulatio de tuis sanctis moribus
+							<lb/>in hoc me desiderium provocavit, ut amicitias tuas ardenter
+							<lb/>exoptem, nam qui bonorum plurium ore celebrantur et
+							<lb/>probitatis sunt fama laudabiles, merito a bonis omnibus sunt
+							<lb/>amabiles. Preconia etenim, que de te a pluribus efferuntur,
+							<lb/>veraci, ut expertus sum, ore promuntur. Es quippe natura
+							<lb/>preclarus, sollerti pectore gnarus, factis conspicuus, moribus
+							<lb/>egregius, largitate perfusus, in amicorum dapsilis usus.
+							<lb/>Idcirco, amabilissime domne, tuam, ut dixi, amicitiam incomparabiliter
+							<lb/>expetens, has tibi litteras scripsi, orans et
+							<lb/>summa prece deposcens, ut, quid tibi super his placeat,
+							<lb/>quam cito rescribas.
+							<pb n="44"/>
+							<lb/>G. superno munere, si quid est, W. honeste indolis
+							<lb/>adolescentulo mutue affectionis dilectionem.
+							<lb/>Litteras nostre amicitie petitorias, frater amabilis,
+							<lb/>direxisti, quibus nostro cordi ingentem letitiam ingessisti.
+							<lb/>Quis enim sane mentis sciolus tuis honestis moribus non avide
+							<lb/>inhereat? Quis enim tue preclare dilectionis unionem adipisci
+							<lb/>valens, non adeptam non mereat? Quis nobilis viri familiaritatem
+							<lb/>spernat, affabilitatem contempnat, industriam
+							<lb/>fugiat? Nam, ut omittam cetera maxima et egregia tui ingenii
+							<lb/>insignia, cunctos prepollentis patrie viros industrios facundia
+							<lb/>Tulliana superas et antecessorum largifluam munificentiam
+							<lb/>noviter decoras. Unde, ut debeo, ad postulata blande
+							<lb/>respondeo.
+							<lb/>Quod me in epistola tua plurimorum bonorum commemoratione
+							<lb/>commendas, quantum ad te non est mea gloria fallax,
+							<lb/>sed opinione fraudaris; non enim in me tot bona cognosco.
+							<pb n="45"/>
+							<lb/>Quod vero postulas, ut rescribam, quid de petitione tua mihi
+							<lb/>placeat, paucis adverte. Auro obrizo preciosior, cunctis
+							<lb/>opibus est tua mihi dilectio carior ac per hoc quarta feria
+							<lb/>proxime ebdomade in urbem conveniamus et amicitiam verbis
+						<lb/>inceptam revenire satagamus. Vale!</p>
+					</div>
+				</div>
+				<div>
+					<lb/><head>D</head>
+					<lb/><p>Inter hoc sciendum est incipientem posse scribere,
+						<lb/>quodcumque voluntas aut necessitas vel utilitas scribere
+						<lb/>imperat vel delectat, rescribentem vero priori singula reddere
+						<lb/>et ita responsionem aptare, ut similia vel contraria
+						<lb/>rependere, equiperare semper, superare nonnumquam studeat;
+					<lb/>aliter vitiosa erit responsio.</p>
+					<lb/><p>Oportet quoque cognoscere tam prosaico quam metrico
+						<lb/>tria esse dictamini necessaria: cola, commata, periodos.
+						<lb/>Cola, id est membrum, evenit, quotiens in versum diversa
+						<lb/>ponuntur nullomodo sibi per consequentiam coherentia, ut
+						<lb/>est illud: Natura insignis, clarus moribus, militie gloria
+						<lb/>fulgidus, sophie dogmate splendidus merito a quoquo
+					<lb/>optimo laudatur et colitur.</p>
+					<pb n="46"/>
+					<lb/><p>Comma, id est cesura, ubi quantum dictum est de
+						<lb/>sententia, tantum restat per consequentiam, ut in subiecto
+						<lb/>claret exemplo: Cum bonarum sit mentium proprium consimilium
+						<lb/>familiaritatem appetere cumque mihi sit cordi me
+						<lb/>bonis velle adiungere, tuam primitus meis litteris amicitiam,
+						<lb/>optime frater Dionisi, studui supplicanter petere.
+						<lb/>Periodos vero, ubi precedente cola vel commata sententia
+						<lb/>conclusa terminatur. Interpretatur enim periodos sententie
+						<lb/>terminatio, peri enim circum, oda laus, videlicet cum
+						<lb/>circuiens argumentando dictator ad laudem, id est ad conclusionem,
+						<lb/>pervenit; quedam etenim laus est proposita recte
+					<lb/>concludere.</p>
+					<lb/><p>Preterea sciendum est, quando prolixa, quando brevia
+						<lb/>sunt scribenda, quando sit vel non prefatio adhibenda, quod
+					<lb/>in mediocri patebit epistola.</p>
+					<div>
+						<lb/><head>3</head>
+						<pb n="47"/>
+						<lb/><p>Symmachus Flaviano salutem fraternam.</p>
+						<lb/><p>Probatis et precognitis pauca loquenda sunt. Sincera
+							<lb/>quippe mentis devotio non commendatur verborum serie,
+							<lb/>probitate quoque et honore pollentibus nihil aliena addit oratio. Sua
+							<lb/>enim luce conspicui preclaris testimoniis non iuvantur. Qualis igitur
+							<lb/>quantusque sit frater meus Chromatius cum in aperto sit, merito
+							<lb/>eius laudibus nostrum cedit ingenium. Hoc unum tamen pretereundum
+							<lb/>non puto summam mihi cum illo esse officiorum familiarium societatem,
+							<lb/>que res tibi etiam minora merita plerumque commendat. Unde arbitror
+							<lb/>ex habundanti promptam fore in eo tue preclare mentis
+							<lb/>affectionem, quam illi et decus proprium et mee amicitie
+						<lb/>prerogativa conciliat.</p>
+					</div>
+					<div>
+						<lb/><head>4</head>
+						<lb/><p>Andronicus Eugenio fraterne dilectionis unionem.</p>
+						<lb/><p>Prefato opus est, si ardua postulentur; pronis ac facilibus
+							<lb/>admoveri ambitum non oportet. Breviter igitur et astrictim, quid
+							<pb n="48"/>
+							<lb/>frater meus Fulvius de vobis favoris poscat, advertite. Sororem Pompeiani
+							<lb/>olim viro maturam te auspice in manus optat accipere, nec
+							<lb/>genere minor et re fortassis uberior. Nam laudabiles mores eius et ex
+							<lb/>bonorum amicitiis spes secundas inter sponsalia ornamenta non numero;
+							<lb/>sibi enim quisque habet, quicquid laudi et spei dicitur. Mihi autem
+							<lb/>tanta est perficiende coniunctionis huius antiquitas, ut in grandi dono
+						<lb/>habiturus sim, si illius voluntati mea cura profuerit.</p>
+					</div>
+					<div>
+						<lb/><head>5</head>
+						<lb/><p>Reverentissimo et sanctissimo patri R. Romane apostolice
+							<lb/>sedis antistiti V. sancte Bononiensis ecclesie dictus episcopus
+						<lb/>reverentiam et debitam obedientiam.</p>
+						<lb/><p>Sedem apostolicam, pater reverentissime, super re dubia
+							<lb/>consulere, ut debuimus, equum duximus. Iuxta sacrorum enim
+							<lb/>canonum instituta cunete difficiliores questiones, omnia obscuriora
+							<lb/>negotia, cunctarum causarum perplexe sententie huic
+							<lb/>sacrosancte matri ecclesie quasi capiti sunt afferende eiusque
+							<lb/>iudicio ventilande ac diffiniende. Ac per hoc vestri apostolatus
+							<lb/>benignissimas aures humiliter imploramus, mente sincera
+							<lb/>postulamus in re ambigua vestra enucleare consilia.
+							<pb n="49"/>
+							<lb/>Ad nostram urbem cum parvula filia quidam iamdudum
+							<lb/>venerunt ex Anglia. Cum tempore brevi puella utroque parente
+							<lb/>orbata [sit], utrum sacra necne baptismatis unda sit lota,
+							<lb/>manet ignara. Anime igitur periculum pertimescens, gehenne
+							<lb/>incendium expavescens ad nos sepissime venit, genibus provoluta
+							<lb/>sacrum fontem expetiit. Verum quia inter fratres nostros
+							<lb/>varie super hoc sunt dissidentes sententie, nihil inde agere sine
+							<lb/>vestra auctoritate decrevimus. Doceat ergo discipulum magistralis
+							<lb/>benignitas, instruat filium paternalis caritas ac suum
+						<lb/>de cetero servum confirmet Romane ecclesie mitissima pietas.</p>
+					</div>
+					<div>
+						<lb/><head>6</head>
+						<lb/><p>P. servus servorum Dei V. Bononiensi dilecto in Christo
+						<lb/>fratri et coepiscopo salutem et apostolicam benedictionem.</p>
+						<lb/><p>Lectis tue dilectionis litteris, frater venerabilis, ingenti cum
+							<lb/>ammiratione mens nostra fuit repleta letitia. Nam quia sedem
+							<lb/>apostolicam, ut debuisti, consulere decrevisti, letum me reddidisti.
+							<lb/>Quod autem in re tam aperta dubitasti, nos et fratres
+							<lb/>nostros ammiratos turbasti. Tua quippe fraternitas a cunabulis
+							<lb/>sacris litteris erudita, exterioribus et studiis adprime
+							<lb/>inbuta et huius sacrosancte sedis auctoritate munita indubitanter,
+							<lb/>ut credimus, nosse debet tale, quod sub ambiguo non
+							<lb/>debere relinqui, sed ad certitudinem luce clarius constat oportere
+							<lb/>adduci, ne anima pretioso Christi cruore redempta per
+							<pb n="50"/>
+							<lb/>incuriam nostram excludatur a patria, detrudatur in Tartara.
+							<lb/>Omni ergo altercatione sopita talibus verbis prelibatis puella,
+							<lb/>super qua consuluisti, sacri fontis unda ungatur: Si baptizata
+							<lb/>es, non te baptizo, sed tantum corpore lavo; alioquin in nomine
+							<lb/>Trinitatis te baptizo, ne Christi gratia defrauderis. Valeas in
+						<lb/>Christo, frater amantissime.</p>
+					</div>
+				</div>
+				<div>
+					<lb/><head>E</head>
+					<lb/><p>Notabile preterea quoddam non est pretermittendum,
+						<lb/>quod gignit obscuritatem brevitas, tedium parit
+						<lb/>prolixitas. Tunc ergo est laudabilis brevitas, si ob eam non
+						<lb/>generetur obscuritas, quia, cum propter fastidium vitatur
+						<lb/>multiloquium, sed obscurum incurritur, restat aliud vitium.
+						<lb/>Hinc Flaccus in sermonibus:
+						<lb/>Stulti dum vitant vitium, in contraria currunt,
+						<lb/>quod vitari potest, si verborum concatenatio sit plena, si
+						<lb/>hyperbaton vitio aliena, si non peregrina et inusitata fuerint
+						<lb/>posita, si fuerint Tulliano melle circumlita, Sallustiana serie
+						<lb/>composita, in divinis vero dulcedine Gregoriana, rethorica
+						<lb/>Ambrosiana, argumentatione Augustiana, sententiarum pondere
+						<lb/>Ieronimi innodata.
+						<lb/>Horum ergo omnium et consimilium lectionum cupidus
+						<lb/>dictator assistat, pernoctans insudet, imitans existat,
+						<pb n="51"/>
+						<lb/>perlegat, relegat, donec habitum ex dispositione faciat.
+						<lb/>Spernat aspera et spinosa dictamina Alberici monachi insolubilia,
+						<lb/>nisi Sphingi monstro familiaria, que auctores componunt;
+						<lb/>magis ex necessitate quam voluntate id faciunt;
+					<lb/>quos legens per te ipsum cognosces.</p>
+					<div>
+						<lb/><head>7</head>
+						<lb/><p>P. episcopus servus servorum Dei E. dilectissimo filio
+							<lb/>Romanorum imperatori magnifico salutem et apostolicam
+						<lb/>benedictionem.</p>
+						<lb/><p>Talis debet esse salutatio pape, [qui] ordinem humilitatis,
+							<lb/>non superbie vel contumacie gerit. Ante tempora namque
+							<lb/>beati Gregorii alii prime sedis pontifices alii summi sacerdotes,
+							<lb/>alii universales se in epistolis appellabant. Sed id pater
+							<lb/>humillissimus rescribens Iohanni Constantinopolitano,
+							<lb/>qui se universalem appellabat, ratione ostendit hoc esse
+							<lb/>proprium pontificis, qui tantum pro humilitate, ut in oratione
+							<lb/>sua legitur, deinceps servus servorum Dei se nominare
+						<lb/>instituit.</p>
+						<pb n="52"/>
+						<lb/><p>Nunc ad epistolam revertamur.</p>
+						<lb/><p>Dici non potest, dilectissime fili, Romanorum maxime
+							<lb/>princeps, hostium subiugator, humilium sublevator, inclite
+							<lb/>triumphator, iustitie cultor, pravitatis depopulator, pacis amator,
+							<lb/>quanto gaudio cor tripudiat, quanta letitia mens iubilat,
+							<lb/>cum nostris auribus a compluribus refertur te per tramitem
+							<lb/>iustitie incedentem calumnias pravorum hominum extra regni
+							<lb/>tui limitem depellere et ecclesie Dei statum ubique insudanter
+							<lb/>erigere. Hoc, quod regnum tuum corroborat, hoc exaltat; hoc,
+							<lb/>quod, quocumque te verteris, reddit victorem, hoc est, quod
+							<lb/>te facit rebellium subiugatorem. Age itaque, venerabilis princeps,
+							<lb/>bonum inceptum ad meliorem ducas effectum. <hi rend="italic">Non enim</hi>,
+							<lb/>ut ait Salvator, <hi rend="italic">qui cepit, sed qui perseveraverit in bono</hi>,
+							<lb/><hi rend="italic">salvabitur</hi>. Bonorum regum tibi iugis sit recordatio, malorum
+							<pb n="53"/>
+							<lb/>nequaquam assit oblivio. Numquam immemor sis Saulis, de quo
+							<lb/>in libro regum refertur, <hi rend="italic">filium unius anni esse, cum regnare
+							<lb/>cepisset</hi>, id est ita purus ut unius anni parvulus, qui postea
+							<lb/>depravatus ob mentis pervicaciam audire meruit: <hi rend="italic">cum esses
+							<lb/>parvulus in oculis tuis, caput in tribubus Israel te constitui</hi>, acsi
+							<lb/>aperte diceret: Cum tu apud te esses parvus, ego te magnum
+							<lb/>feci, cum vero apud te magnus sis, parvum te faciam. Qui, quia
+							<lb/>voci correctionis non obtemperavit, regnum cum vita amisit.
+							<lb/>Hoc David exemplo provocatus, divino amore stimulatus, cum
+							<lb/>nudus ante arcam Domini luderet et a Michol, filia Saulis,
+							<lb/>despectus fuisset, <hi rend="italic">ludam</hi>, inquit, <hi rend="italic">et vilior fiam plus quam factus
+							<lb/>sum et ero humilis in oculis meis</hi>, acsi aliis verbis diceret: non
+							<lb/>ero patri tuo similis, qui fastu mentis erectus humilitatem
+							<lb/>deseruit, sed Moisi mansuetudinem sectabor, ob quam populi
+							<lb/>Dei ducatum promeruit. Recordare, quia, licet sis rex, mortalis
+							<lb/>tamen es. Prudentes et Deum timentes viri lateri tuo indesinenter
+							<lb/>inhereant. Semper in mente habeas Roboam filium
+							<lb/>Salomonis, qui contempsit consilium senum et adhesit fatuo
+							<lb/>consilio iuvenum, ob quam causam imminutum est regnum.
+							<lb/>Iustos enim viros et sapientes regibus adherere regni est supplementum,
+							<lb/>fatuos et lascivos adolescentes maximum detrimentum.
+							<lb/>Esto memor dominici precepti dicentis: <hi rend="italic">Principem te
+							<lb/>populi mei constitui, esto inter illos quasi unus ex illis</hi>. Reminiscere
+							<lb/>Omnipotentem superbos deponere et humiles in excelsum
+							<lb/>erigere. Domini sacerdotes honora, ecclesie statum decora.
+							<lb/>Symoniacam pestem devita, ecclesiasticas omnes personas
+							<lb/>dominice venerare, sacra mysteria noli tractare. Memento quia
+							<lb/>propter impietatem Hieroboam cum stirpe periit, Achab et
+							<lb/>Iezebel crudelitas delevit, Ozias propter divina, que tractare
+							<lb/>voluit, lepra percussus est. Sic malorum regum tyrannidem
+							<pb n="54"/>
+							<lb/>fugias, ut bonorum tramitem iuste teneas. Noli me velut hominem,
+							<lb/>imperator, contempnere; Deum in nobis venerare, qui
+							<lb/>per nos tibi loquitur. Ait enim ipse: <hi rend="italic">Qui vos spernit, me spernit</hi>.
+							<lb/>Noli oblivisci, quia <hi rend="italic">infirmas mundi elegit</hi> animas, <hi rend="italic">ut confundat
+							<lb/>fortia</hi>. Elegit Petrum piscatorem, per quem sprevit Neronem
+							<lb/>imperatorem. Nam cum ipse sit magnus in magnis, mirabilia
+							<lb/>tamen operatur in minimis. Nulla potentia, nulla <hi rend="italic">sapientia</hi>,
+							<lb/>nullum domicilium, nullum profugium <hi rend="italic">contra Dominum</hi>, qui
+							<lb/><hi rend="italic">brachia Pharaonis regis Egipti confregit</hi> et velut irsutam pecudem
+						<lb/>Nabuchodonosor pascere fecit.</p>
+						<lb/><p>Hec, domne mi fili Henrice, victoriosissime princeps, non
+							<lb/>contra te, sed propter te loquens invito, ammoneo, arguo, increpo,
+							<lb/>obsecro, ut debeo, ut hec in memoria teneas, opere
+							<lb/>compleas. Hoc enim cum sectaberis, obtinebis Daviticum
+							<lb/>clementer imperium et Salomonis sapientissimum et pacificum
+							<lb/>regnum eruntque tecum angeli Dei et quecumque iuste poposceris,
+							<lb/>impetrabis. Plura scriberem, sed affectio in te animi mei
+							<lb/>non est verbis extimanda, sed sincera fide contemplanda.
+							<lb/>Quapropter licet hec sint brevia, sana tamen mente tritura,
+							<lb/>ut per pauca, que suscipis, plurima in protentam proventionem
+							<lb/>suscipias et terrenum regnum tibi rerum [dispensator] stabiliat
+						<lb/>et perpetuum tribuat.</p>
+					</div>
+					<div>
+						<lb/><head>8</head>
+						<pb n="55"/>
+						<lb/><p>HE. Cesar Dei gratia Romanorum imperator augustus
+							<lb/>cunctis Italie principibus et civitatibus, maioribus et minoribus,
+						<lb/>gratiam et bonam voluntatem.</p>
+						<lb/><p>Nosse volumus cunctos populos, quos clementie nostre
+							<lb/>regit imperium, nostre imperialis iussionis edictum, videlicet
+							<lb/>nos velle et iubere eos per legum tramites incedere, pravorum
+							<lb/>hominum iniquitates expellere, quatenus nostri regni status
+							<lb/>assidue succrescat et victoria nobis a celesti numine prestita
+							<lb/>semper vigeat ac pace reddita cunctus in commune Romanus
+							<lb/>orbis gaudeat, ac per hoc imperiali auctoritate vobis precipiendo
+							<lb/>mandamus, ut unusquisque vestrum de finibus suis
+							<lb/>iniquitatem expellat, invasiones et iniurias corrigat, lites et
+							<lb/>iurgia sopiat et ecclesias Dei ante omnia veneretur, summa
+							<lb/>cautela et tutela muniat, iudiciali arbitrio cuncta equa lance
+							<lb/>disponat. Hoc profecto sollerter exequentes nostre pietatis
+							<lb/>mansuetudinem sentiunt, rebelles vero vel negligentes nostri
+						<lb/>examinis animi adversionem incurrunt. Valete!</p>
+					</div>
+					<div>
+						<lb/><head>9</head>
+						<lb/><p>Domino et universali patri pape Pascali R. licet indignus
+							<lb/>Lucensis episcopus omnimodam reverentiam et apostolice sedi
+						<lb/>debitam obedientiam.</p>
+						<pb n="56"/>
+						<lb/><p>Presentium latorem paternitati vestre dirigimus, qui
+							<lb/>omnes difficiliores questiones, que ad nos perveniunt, iuxta
+							<lb/>canonum precepta vobis innotescere sanum duximus. Beatus
+							<lb/>apostolus quippe, <hi rend="italic">vas electionis, doctor gentium</hi>, cum de circumcisione
+							<lb/>questio ventilaretur, non per se diffinire presumpsit, sed
+							<lb/>Hierosolimam ad principem apostolorum detulit, hoc profecto
+							<lb/>patenter insinuans nihil difficile debere diffiniri sine apostolice
+							<lb/>sedis auctoritate. Hunc ergo hominem vestre sanctitati directum
+							<lb/>benigne, ut debetis et soletis, audite, causam eius secundum
+							<lb/>datam vobis a Deo sapientiam investigate et, quicquid inde
+						<lb/>diffinietis, litteris nobis insinuate.</p>
+					</div>
+					<div>
+						<lb/><head>10</head>
+						<lb/><p>P. venerabili fratri et coepiscopo B. solo nomine Reginus
+						<lb/>antistes perpetuam salutem in Domino.</p>
+						<lb/><p>Quoniam pravorum hominum crassante impietate ecclesie
+							<lb/>Dei statum labefactari cottidie cernitur et fere nullus adversus
+							<lb/>eos pro domo Israel insurgit partim amore, partim secularium
+							<lb/>potestatum timore, idcirco, reverentissime frater, te,
+							<lb/>quem et sapientia preditum et religione inclitum esse perpendo,
+							<lb/>paucis ammoneo, ut cum ceteris provincialibus episcopis
+							<lb/>in unum quam primum conveniamus et ea, que ad correctionem
+							<lb/>malorum et ad salutem bonorum attinent, sollicite pertractemus.
+							<pb n="57"/>
+							<lb/>Dignum nempe est et saluberrimum, ut sapientia
+							<lb/>et religio, que in vestro sanctissimo pectore lucet, fratrum
+						<lb/>necessitati subveniat et utilitati provideat.</p>
+						<lb/><p>Fraternitatem vestram
+						<lb/>Christus incolumem servet.</p>
+						<lb/><p>Valete!</p>
+						<lb/><p>Vestre quidem pietatis
+							<lb/>benignitas, ex quo tempore
+							<lb/>nostre persone noticiam habere
+							<lb/>dignata est, nos in omnibus
+							<lb/>nullo modo iuvare dubitavit,
+							<lb/>et quod nostre voluntatis
+							<lb/>desiderium fuit, vestre
+							<lb/>pietatis clementia fraterno affectu
+							<lb/>ad finem perducere libenter
+						<lb/>studuit.</p>
+						<lb/><p>Explicit.</p>
+					</div>
+				</div>
+				<div>
+					<lb/><head>F</head>
+					<lb/><p>De singulis igitur modis, fili dulcissime, epistolarum
+						<lb/>breviter pertractatis, ad quarum similitudinem plures
+						<lb/>poterit componere cor docibile, nunc de modis diversarum
+						<lb/>positionum et orationum pauca subnectere studeamus et quandam
+						<lb/>viam incipientibus et quasi ianuam aperire
+					<lb/>introeuntibus.</p>
+					<lb/><p>Positionum modi sunt diversi; sunt numero septem.
+						<lb/>Nam alius fit per similitudinem, alius per comparationem,
+						<lb/>alius per conditionem, alius per absolutionem, alius per
+						<lb/>coniunctionem, alius per repetitionem, alius per conversionem.
+						<pb n="58"/>
+						<lb/>De quibus omnibus singillatim tractabimus in sequentibus, sed
+						<lb/>primum ostendendum est
+						<lb/>propter quosdam simplices
+						<lb/>interrogantes epistolas ab omnibus
+						<lb/>partibus orationis convenienter
+						<lb/>posse incipere, ut in
+						<lb/>auctorum diversorum epistolis
+						<lb/>et nostris potest cognosci.
+						<lb/>De quibus omnibus singillatim tractabimus in sequentibus, sed
+						<lb/>prius ostendendum est
+						<lb/>non eas nenias debere inquiri,
+						<lb/>quas Albericus in libro
+						<lb/>dictaminum finxit et quidam
+						<lb/>nugigeruli per latum
+						<lb/>spargunt, id est qualiter per
+						<lb/>indicativum ceterosque modos
+						<lb/>et impersonalis fieri
+						<lb/>decet epistola. Tales enim
+						<lb/>reciprocationes et barbaras
+						<lb/>inusitationes sapientes nostri seculi spernunt, sed hoc
+						<lb/>preteritum morem fuisse credimus. Sed artis analogiam
+						<lb/>a Prisciani constructionibus cottidie fingendo et usitando
+						<lb/>et a ceteris doctoribus addiscas.
+						<lb/>Usum vero et stilum epistolas scribentium et
+						<lb/>maxime Tullii, Macrobii, Boethii, Sallustii et Terentii
+						<lb/>sumas, quorum lectione allectus exempla capias et similia
+						<lb/>condas, quos, quantum potuimus, in hoc opusculo
+						<lb/>imitati sumus. Imitamini ergo et vos, dilectissimi, pervigili
+						<lb/>cura. Summo enim labore, assiduo exercitio huius
+						<lb/>doctrine tibi est habenda perfectio; nam non credas
+						<lb/>esse quiddam materiale et corporale ut quidam stulti,
+						<lb/>qui tam leviter et suaviter hoc volunt adipisci velut
+						<lb/>electuarium. Hos ab hoc opere removeo quasi desides,
+						<lb/>negligentes et hebetes. Illis vero datur huius
+						<lb/>opusculi lectio, qui meditari et excogitare voluerunt
+						<lb/>et ex paucorum grammaticorum seminibus grandia
+						<pb n="59"/>
+						<lb/>complere horrea, qui scire potuerunt prolixa constringere
+						<lb/>et brevia extendere. Ideoque necesse est legere,
+						<lb/>nam studio sapientia crescit, eadem negligentia
+					<lb/>decrescit.</p>
+				</div>
+				<div>
+					<lb/><head>G</head>
+					<lb/><p>Primum ergo modum similitudinis
+					<lb/>animadverte.</p>
+					<lb/><p>Ubicumque est amicitia, ibi est benivolentia; ut enim
+						<lb/>malivolentia inimicitie, ita benivolentia consequens est amicitie.
+						<lb/>Quocirca P., si meus vis esse amicus, consequitur, ut
+						<lb/>erga me sis benivolus, quia sicut aliquis alicui minime inimicus
+						<lb/>esse invenitur sine malivolentia, ita tu sine benivolentia mihi
+					<lb/>amicari non potes. Igitur, ut amici habeamur, benivoli inveniamur.</p>
+				</div>
+				<div>
+					<lb/><head>H</head>
+					<lb/><p>Quanto quisque est ditior atque potentior, tanto
+						<lb/>debet esse humilior propheta testante, qui ait: <hi rend="italic">Quanto
+						<lb/>magnus es, humilia te in omnibus</hi>. Quapropter G., Romane
+						<lb/>apostolice, in quantum omnibus Christianis sublimior es
+						<lb/>effectus, eo in cunctis magis humiliare te convenit dicente
+					<lb/>Domino: <hi rend="italic">Discite a me, quia mitis sum et humilis</hi>.</p>
+				</div>
+				<pb n="60"/>
+				<div>
+					<lb/><head>I</head>
+					<lb/><p>Si cives cum civibus, qualiter ius civile precipit,
+						<lb/>viverent ac concordarent, honorem et statum sue civitatis
+						<lb/>equabiliter retinerent, quod consequeretur, si in omni
+						<lb/>utilitate ac honestate rei publice concordarent. Parmenses
+						<lb/>igitur consules, si vos civiliter ac concorditer vitam duceretis,
+						<lb/>sicut conveniret, honor, vigor statusque vestre civitatis in
+						<lb/>vobis retineretur et conservaretur; quod ut sit possibile, in
+					<lb/>nullis rebus utilibus ac honestis discordetis.</p>
+				</div>
+				<div>
+					<lb/><head>L</head>
+					<lb/><p>Grassante effrenis populi perfidia ac temeritate
+						<lb/>sollicitatur atque confunditur vigor et religio sancte ecclesie
+						<lb/>catholice. Perfidi enim et temerarii maioribus consentientibus
+						<lb/>facultatem ecclesie catholice nullo modo, quippe malivoli,
+						<lb/>cessant diripere atque invadere. Bone ergo rex, tue dignitatis
+						<lb/>est effrenatos refrenare ac superbos humiliare, quatenus recuperata
+						<lb/>sancte ecclesie preda totus clerus tibi servire ac pro te
+					<lb/>orare queat.</p>
+				</div>
+				<div>
+					<lb/><head>M</head>
+					<lb/><p>Legitimum est quemque consulum iuste ac
+						<lb/>misericorditer querentibus consulere, iniuste iniuriantibus
+						<lb/>obviam ire atque iniuriatis misericorditer subvenire, pauperibus
+						<lb/>iniuste dampnatis ac spoliatis in omnibus protectionem
+						<pb n="61"/>
+						<lb/>prebere. Consulare enim officium ita legitime tractatur, si
+						<lb/>consul iure ac legaliter tractat civilia iura ac publice ac
+						<lb/>private rei civium omniumque sibi conquerentium causas
+						<lb/>diligenter examinat. Condecens igitur est, o Uberte, te statum
+						<lb/>consularem in Parmensi consulatu consulte atque discrete
+						<lb/>agere, consulendi officium iustificando iustificandos,
+						<lb/>dampnando dampnandos tractare, ut ante eterni iudicis
+						<lb/>tribunal ad universale placitum in ordine sanctorum consulum
+					<lb/>merearis illud Euge! audire: <hi rend="italic">Venite, benedicti patris mei</hi>.</p>
+				</div>
+				<div>
+					<lb/><head>N</head>
+					<lb/><p>Diligenter discutiendum est, quid subditi prepositis
+						<lb/>maximeque pastoribus debeant. Pastoribus est obtemperandum,
+						<lb/>pastoribus famulandum, pastoribus suppliciter
+						<lb/>suppeditandum; a quibus enim regenerationis baptisma, a
+						<lb/>quibus sacrosancte oblationis, a quibus sancte ecclesie ac
+						<lb/>clericis sacramentum consecrationis, a quibus pabulum vite
+						<lb/>pro vigili tutela eorum omnium Sancto Spiritu secretius
+						<lb/>operante distribui conceditur, eorum iure iussionibus obeditur.
+						<lb/>Parmenses igitur Christicole, vos vestros pastores
+						<lb/>obediendo reveremini, obtemperando miremini, suppeditando
+						<lb/>veneremini, admirando magnificate, quatenus vos observando
+						<lb/>apostolicum preceptum: <hi rend="italic">Obedite prepositis vestris et
+						<pb n="62"/>
+						<lb/>subiacete eis</hi>, pascua celestis ovilis summo pastore duce
+					<lb/>mereamini participare.</p>
+					<div>
+						<lb/><head>11</head>
+						<lb/><p>P. episcopus servus servorum Dei fratribus per Emiliam
+						<lb/>constitutis salutem in Christo.</p>
+						<lb/><p>Cum in omnibus rebus precipua debeat esse equitatis ratio
+							<lb/>ac vires superemineat discretionis moderatio, maxime in ecclesiasticis
+							<lb/>negotiis iustitie debet vigere correctio. Si quid igitur
+							<lb/>ignorantia delinquit, si quid terrene potestatis metu contra
+							<lb/>evangelium vel apostolica instituta enormiter committitur,
+							<lb/>nullius esse momenti Romanorum pontificum decreta decernunt,
+							<lb/>hoc sancte sedis auctoritate frangitur et cassatur et
+							<lb/>sine mora funditus annullatur. Ait enim papa Calistus:
+							<lb/><hi rend="italic">Iniustum iudicium et iniusta diffinitio regio metu aut cuiuscumque
+							<pb n="63"/>
+							<lb/>potestatis terrore ordinata non valeat. Omne enim, quod
+							<lb/>inreprehensibile est, catholica defendit ecclesia</hi> contra potestatem
+							<lb/>vel contra iura diffinitum inrefragabili damnat sententia. Quicquid
+							<lb/>ergo regis timore, nuper in Italia tyrannidem exercens,
+							<lb/>a nobis vel a fratribus nostris actum est, frivolum ducimus et
+							<lb/>cassamus et omnimodis annullamus utque hoc fraternitati
+							<lb/>vestre non sit occultum, his apicibus assignamus et, ut a vobis
+							<lb/>adhibite pareatur, ex auctoritate beati Petri apostolorum principis
+						<lb/>precipiendo mandamus.</p>
+					</div>
+					<div>
+						<lb/><head>12</head>
+						<lb/><p>P. episcopus Dodoni Mutinensi episcopo.</p>
+						<lb/><p>Dudum ad nos multorum relatione pervenit monasterium
+							<lb/>Nonantulanum in vestro territorio constitutum vestre fraternitatis
+							<lb/>dominio pregravari, ita ut occasione quasi regiminis [ea],
+							<lb/>quod dici grave est, velut in proprietate possideant. Quibus non
+							<lb/>modicum condolentes predecessori vestro litteras misimus, ut hoc
+							<pb n="64"/>
+							<lb/>emendare debuisset. Sed quoniam vite est termino citius occupatus, ne
+							<lb/>hoc onus monasterio remaneret, fraternitati vestre eadem nos scripsisse
+							<lb/>recolimus et quia, ut comperimus, in huius rei hactenus correctione
+							<lb/>cessatum est, hoc audiens ad vos iterum previdimus scripta dirigere.
+							<lb/>Hortamus ergo, ut omni mora omnique excusatione summota ita monasterium
+							<lb/>ipsum ab huiusmodi studeatis gravamine relevare, quatenus
+							<lb/>nullam in eodem cenobio vestra fraternitas inquietudinem
+						<lb/>faciat, ne aliter monasterii quieti prospicere compellamur.</p>
+					</div>
+					<div>
+						<lb/><head>13</head>
+						<lb/><p>L. episcopus omnibus episcopis.</p>
+						<lb/><p>Quam sit necessarium monasteriorum quieti prospicere et de
+							<lb/>eorum perpetua securitate tractare, anteactum nos officium, quod in
+							<lb/>regimine cenobii exhibuimus, informat, et quia in plurimis monasteriis
+							<lb/>multa a presulibus preiudicia atque gravamina monachos pertulisse
+							<lb/>cognoscimus, oportet ut nostre fraternitatis provisio de futura quiete
+							<lb/>eorum salubri disponat ordinatione, quatenus conversantes in illis in
+							<lb/>Dei servitio gratia ipsius suffragante mente libera perseverent. Sed ne
+							<lb/>ex ea, que magis emendanda est, consuetudine quisquam monachis
+							<lb/>quicquam molestie presumat inferre, necesse est, ut hec, que inferius
+							<lb/>enumerare curabimus [ita] studio fraternitatis episcoporum debeant
+							<lb/>custodiri, ut ex eis non possit ulterius inferende inquietudinis occasio
+						<lb/>reperiri.</p>
+					</div>
+					<pb n="65"/>
+					<div>
+						<lb/><head>14</head>
+						<lb/><p>G. episcopus Iohanni Ravennati episcopo.</p>
+						<lb/><p>Pervenit ad me, quod in ecclesiis fraternitatis tue aliqua loca
+							<lb/>dudum monasteriis consecrata nunc habitacula clericorum aut laicorum
+							<lb/>facta sunt, dumque hi, qui in ecclesiis sunt, fingunt se religiose vivere,
+							<lb/>monasteriis preponi appetunt et per eorum vitam monasteria destruuntur.
+							<lb/>Nemo etenim potest et ecclesiasticis obsequiis deservire et in
+							<lb/>monachica regula ordinate persistere, ut ipse districtionem monasterii
+							<lb/>teneat, qui cottidie in ministerio ecclesiastico cogitur permanere. Proinde
+							<lb/>fraternitas tua hoc quolibet in loco factum est emendare festinet, quia
+						<lb/>ego nullomodo patiar loca sacra ut pro clericorum ambitu destruatur.</p>
+					</div>
+					<div>
+						<lb/><head>15</head>
+						<lb/><p>P. episcopus servus servorum Dei V. Bononiensi episcopo.
+							<lb/>Agnes uxor Urbani conquesta est virum suum contra voluntatem
+							<lb/>suam in monasterio sancti Proculi esse conversum. Quapropter
+							<lb/>experientie tue precipimus, ut diligenti inquisitione discutiat,
+							<pb n="66"/>
+							<lb/>ne forte eius voluntate conversus sit vel ipsa se mutare promiserit, et
+							<lb/>si hoc reppererit, et illum in monasterio permanere provideat et hanc,
+							<lb/>sicut promisit, mutare compellat. Si vero nihil [horum] est nec quoddam
+							<lb/>fornicationis crimen, propter quod licet uxorem dimittere, predictam
+							<lb/>mulierem commisisse cognovisses, ne illius conversio uxori relicte in
+							<lb/>seculo fieri possit perditionis occasio, volumus, ut maritum suum illi,
+							<lb/>etiam si iam tonsoratus est, reddere debeas omni excusatione cessante,
+							<lb/>quia etsi mundana lex precipit conversionis gratia utro libet invito
+							<lb/>solvi posse coniugium, divina tamen lex fieri non permittit. Nam excepta
+							<lb/>fornicationis causa virum uxorem dimittere nulla ratione conceditur,
+							<lb/>quia postquam copulatione coniugii viri atque mulieris unum corpus
+						<lb/>efficitur, non potest ex parte converti et ex parte in seculo remanere.</p>
+					</div>
+					<div>
+						<lb/><head>16</head>
+						<lb/><p>C. genitori, si dici fas est, dulcissimo et G. genitrici,
+							<lb/>quondam melliflue, nunc autem, ut re ipsa patet, noverce
+						<lb/>amarissime, quicquid iure valet [et] debet.</p>
+						<lb/><p>Superstitibus an rebus humanis exemptis loquar ambiguus,
+							<lb/>scribo mestissimus; duobus namque lustris exactis postquam
+							<lb/>patria exul doctrine studio peregre profectus sum, nullam
+							<lb/>post hanc consolationem paternam vel maternam suscepi,
+							<lb/>nullam legationem, ut debui, accepi. Cur hoc accidit ignoro.
+							<lb/>Si meis culpis exigentibus, si facinoribus prepedientibus
+							<pb n="67"/>
+							<lb/>[peccavi, penas] equanimiter tolero, patienter suffero. Si
+							<lb/>paterna iussa recusavi, si in matrem vel levi sermone peccavi,
+							<lb/>si utriusque iussionibus pronus non parui, merito patior, equo
+							<lb/>animo tolero. Si penuria vos arceret, si egestas cohiberet, si
+							<lb/>necessariarum rerum copia non vobis habundanter afflueret,
+							<lb/>fortune vestre calamitas patientie mihi documentum existeret.
+							<lb/>At, ut opinor, in patrem non deliqui, genitricem non lesi,
+							<lb/>eisdem pro posse parui, adversus in nullo exstiti. Penuria non
+							<lb/>vos arcet, egestas non cohibet. Quo magis ammiror, cur natum
+							<lb/>paterna sprevit affectio et quid genitricis sui geniti sic est
+						<lb/>oblita dilectio.</p>
+						<lb/><p>Cum igitur causam opinari non valeo, sedens mereo, cogitationum
+							<lb/>validis procellis illidor, immensis mestitie fluctibus
+							<lb/>quattior. Illud tantillum pecunie, quod domo extuli, cum processi,
+							<lb/>non adulteriis, non scortis, non conviviis, ut plerique
+							<lb/>et fere omnes adolescentuli faciunt, prodigus consumpsi, sed
+							<lb/>in variis et necessariis usibus, pater, expendi, tum corporis
+							<lb/>necessitudinibus sustentandis, tum libris conficiendis, partim
+							<lb/>doctoribus mercedibus persolvendis. Quibus deficientibus mendicare
+							<lb/>erubescens libros pignore obligavi, quos absque cunctatione
+							<lb/>amittam, nisi in nativitate Domini proxima solvam.
+							<lb/>Multis itaque diebus per dubitationem consumptis, quasi de
+							<lb/>vestra vita diffisum, cor meum merens mecum ita confabulatur:
+							<lb/>Si genitor mihi viveret, nequaquam sibi dilectum filium
+							<lb/>delinqueret; si genitrix vitales auras carperet, sui uteri
+							<lb/>fructus immemor non existeret! Hinc est cordi innata mestitia,
+						<lb/>hinc imo pectori longa suspiria.</p>
+						<lb/><p>Interea loci dum sic coartor, dum vehementer angustior,
+							<lb/>cedit nostris partibus quidam, [qui] mihi notus affuit, qui vos
+							<lb/>vivere et valere constanter asseruit. Hinc est menti natum
+							<pb n="68"/>
+							<lb/>inopinabile gaudium, sed non minore cum indignatione confusum.
+							<lb/>Indignor enim et merito, cur parentes postposuere
+							<lb/>filium velut ova fructui. Relictus ergo a vobis, quos appellem,
+							<lb/>quos invocem, quos implorem, quos obsecrem? Num Normannos,
+							<lb/>num Gallos, num Britannos an Allobroges an Guascones
+							<lb/>an alias gentes et feras nationes, inter quas habito? Quos nescio,
+							<lb/>qualiter misereri valeant, cum vos, quorum visceribus prodii,
+						<lb/>me dereliquisse videant.</p>
+						<lb/><p>Redigite ergo ad memoriam filium, subeat vobis paternus
+							<lb/>animus; etsi non filiali affectione, saltim me vestris alimoniis
+							<lb/>visitate, vestre generositatis victum parate mihi, quem hinc
+							<lb/>penuria angustat, hinc mestitia cruciat, quia neque hic manere
+						<lb/>valeo et domo redire sine dedecore nequeo.</p>
+					</div>
+					<div>
+						<lb/><head>17</head>
+						<lb/><p>A. Pauce Pallee suo equivoco, Aristotelicis disciplinis
+							<lb/>admodum erudito A. non a patria, sed cognomine Samaritanus
+							<lb/>eiusdem amicitie cupidus amoris indissolubile vinculum.
+							<lb/>Marco Tullio Cicerone, viro eloquentissimo, asserente didicimus
+							<lb/>amicitie copulam cunctis terrenis rebus eminere, omnibus,
+							<pb n="69"/>
+							<lb/>que sub sole volvuntur, excellere, eam et dispersa congregare,
+							<lb/>congregata sua luce irradiare, debilia consolidare, consolidata
+							<lb/>tenacius coaptare et, quod dictu quoque difficillimum, mortua
+							<lb/>vivificare, sine qua nil firmum, nil stabile, nil fidum valet
+							<lb/>esse vel conspici, qua remotaque, quod esse videtur, annullatur
+							<lb/>et ad non esse redigitur. <hi rend="italic">Agrigentinum quoque quendam doctum
+							<lb/>virum Grecis carminibus vaticinatum</hi> idem orator testatur <hi rend="italic">ea</hi>,
+							<lb/><hi rend="italic">que in toto mundo et in rerum natura consisterent, amicitiam
+							<lb/>contrahere, discordiam dissipare</hi>, quod ex oppugnationibus
+							<lb/>nulla arx tam natura vel arte munita, que odiis et discidiis
+							<lb/>funditus non evellatur et radicitus subruatur. Hinc Salustius
+							<lb/>in persona Micipse filios ammonentis: <hi rend="italic">concordia</hi>, inquit, <hi rend="italic">parve
+						<lb/>res crescunt, discordia maxime dilabuntur</hi>.</p>
+						<lb/><p>Quod, cum ita sit, frater, ut diximus, et multorum doctorum
+							<lb/>luce clarius potes discere assertionibus, miror te prudentem
+							<lb/>virum sic dampnare, ut concordiam, virtutum altricem,
+							<lb/>fugias, discordie, viciorum seminatrici, inhereas et cum socio
+							<lb/>et amicissimo nostro Gerhardo, dudum tibi karissimo, nuper
+							<lb/>autem, nescio, qua de causa, exoso bellum geras, cum quo
+							<lb/>coniunctissime vixisti, cuius mihi fidem sepe laudasti, cuius
+							<lb/>constantiam inmensis preconiis extulisti, cuius animi munificentiam
+							<lb/>et liberalitatem coram multis sepissime predicasti.
+							<pb n="70"/>
+							<lb/>Te tedeat negare, quod laudasti, pudeat negare, quod affirmasti;
+							<lb/>turpe est insectari, quem dilexeris. Fraternaliter itaque
+							<lb/>moneo, amicabiliter consulo, ut ab indignatione desinas, ire
+							<lb/>frenum ponas in animo gerens modestiam, in lingua temperantiam
+							<lb/>et quasi non dissidium inter vos usque ad Domini adventum
+							<lb/>dissimula. In huius proximi idibus Deo propitio, vita
+							<lb/>comite, causa componende pacis adveniam et, si quid te lesit,
+						<lb/>satisfacere faciam.</p>
+					</div>
+					<div>
+						<lb/><head>18</head>
+						<lb/><p>Liberalibus disciplinis adprime erudito, clara eloquentia
+							<lb/>perito, ingenio raro, morum elegantia claro D. Lucensis clericus,
+							<lb/>cum se ipso nihil possideat carius, se ipsum totum dicat
+						<lb/>interius, spondet exterius.</p>
+						<lb/><p>Locorum longa intervalla non separant, quos individua
+							<lb/>mentis caritas copulat, nec adeo valet in disiungendo corporum
+							<lb/>separatio, quantum in copulando animorum coniunctio. Cum
+							<lb/>enim duabus substantiis, anima videlicet et corpore, constet
+							<pb n="71"/>
+							<lb/>homo compositus, cumque hec celica illa sit terrena et cum
+							<lb/>terrena subiecta, divina sit potior, longa terrarum intercapedo
+							<lb/>non omnino sequestrat, quos corpore divisos nectit, iungit ac
+							<lb/>pene unit pectoris unitas, attestante etenim Lelio: <hi rend="italic">Verus
+							<lb/>amicus alter tamquam idem</hi>. Ac per hoc, licet corporali presentia
+							<lb/>montium, vallium arduarum Alpium, densorum nemorum,
+							<lb/>immensarum paludum sinistra sequestratione seiunctus,
+							<lb/>indissolubili tamen vobis ardore coniunctus vos dies et noctes
+							<lb/>amoris ulnis indesinenter amplector, vobis adhereo, vobis
+							<lb/>anhelo, fecunditate vestra gaudeo, infortunio, quod absit, non
+							<lb/>secus te ipso mereo. Nulla letitia me insolenter a vobis alienat,
+							<lb/>nulla mestitia deserenat. Nulla sic tangit adversitas, nulla sic
+							<lb/>extollit prosperitas, ut vos non venerer, vos non verear, vos
+						<lb/>non diligam veneranter et excolam.</p>
+						<lb/><p>Ceterum quibusdam occupationibus prepeditus, cum corpore
+							<lb/>non valeo, litterarum officio visito; hoc, quippe cum non
+							<lb/>suppetit alia, satis est apta facundia, hoc absentiam facit
+							<lb/>presentiam, hoc leta plerumque reddit corda merentia. Hac ergo
+							<lb/>vos visito, vos imploro, vehementer exoro, sospitatem meam
+							<lb/>insinuo, vestram vicariam stili functionem desidero. Sed ne
+							<lb/>miretur magistralis pietas, si mihi non adest polita locutio,
+							<lb/>cum de fonte Parnasi vestra manu propinante parva est propinata
+						<lb/>brevi tempore potio.</p>
+						<lb/><p>Misimus quoque cum his, que credimus vobis grata
+							<lb/>munuscula, que benigne, ut solet, suscipiat doctoris clemens
+							<lb/>sollertia, cui traderem, si valerem, Assyriorum et Romanorum
+							<lb/>quondam regna florentia. Expeto et a vobis quedam vestri
+							<lb/>amoris insignia, non tam necessaria quam mutue dilectionis
+							<lb/>representaria: accipitrem, hastas fraxineas sequentemque leporem
+							<pb n="72"/>
+							<lb/>canem sagacem. Preter hec rependite, queso, colloquia et
+							<lb/>stili collocutio non denegetur amico, que crebro confertur et
+						<lb/>inimico vicaria.</p>
+					</div>
+					<div>
+						<lb/><head>19</head>
+						<lb/><p>Maximus Eugenio verbis et corde salutem.</p>
+						<lb/><p>Mellito sermone et Tulliano lepore oratione circumlita
+							<lb/>nostram mediocritatem tua iussit fraternitas, cui per singula,
+							<lb/>ut debui, respondissem, [ni]si me calami officio imparem sensissem.
+							<lb/>Quis enim Ciceroniana eloquentia sic habundans, quis
+							<lb/>sic Maroniana proprietate redundans, quis prime artis sic
+							<lb/>precepta eructat, quis Aristotelicas sic disputationes coniectat,
+							<lb/>quis tibi vini pocula sic propinat, quis ad quadrivii fastigia
+							<lb/>sic aspirat, quis ita affectat singula, ut post fidem universa?
+							<lb/>Denique mihi Latialis utcumque stridit camena, tibi Attica
+							<lb/>vernat eloquentia; attamen aliquibus intentionem meam
+							<lb/>aperire curabo; quia me in epistola tua obiurgasti longo transacto
+							<lb/>tempore me te non visisse ac ideo tibi videri me veterem
+							<lb/>amicitiam deseruisse, paucis respondeo. Rationalis impedimenti
+							<lb/>interventio non est familiaritatis desertio. Ut enim Phebi radius
+							<lb/>nube tectus, etsi non videatur in terra, integer tamen ardet
+							<lb/>in celo, ita amoris flagrantia quibusdam occupationibus irretita,
+							<lb/>[etsi] non spectatur crebro in opere, integra tamen ardet in
+						<lb/>mente.</p>
+						<pb n="73"/>
+						<lb/><p>De me ergo sic accipe, sic absque ambiguitate cognosce:
+							<lb/>Ut lassus requiem, ut eger salutem, cibum famelicus, potum
+							<lb/>aque frigide sitibundus, haut secus tuam familiaritatem appeto,
+							<lb/>parere desidero in omnibus et per omnia utilitatibus vel necessitatibus
+							<lb/>tuis adesse percupio, ut Nisus Eurialo, Perithoo
+							<lb/>Theseus, ut Scipioni uno magnifico senex Lelius. Neque hec ad
+							<lb/>hoc refero, ut te in aliquo indigere sciam vel velim, sed si
+							<lb/>occasio necessitatis fuerit, te postulo experiri, que si defuerit,
+						<lb/>verus a falso amicus dignosci non poterit.</p>
+						<lb/><p>Epistolaris igitur vicaria non desit affatio, que mutue
+							<lb/>presentie, corporalis absentie fiat representatio. Iube ergo, quod
+							<lb/>placeat, precipe, quod amicus valeat, invenies, quantum in eo
+						<lb/>fiat, quod tue caritatis oculis non displiceat.</p>
+					</div>
+					<div>
+						<lb/><head>20</head>
+						<lb/><p>V. Dei gratia sancte Bononiensis ecclesie humillissimus
+							<lb/>episcopus Dodoni Mutinensi venerabili fratri et coepiscopo
+						<lb/>salutem et orationes continuas.</p>
+						<lb/><p>Cum sancte ecclesie prosit sequi evangelica precepta
+							<lb/>dicentia: <hi rend="italic">Qui recipit prophetam in nomine prophete, mercedem
+							<lb/>prophete accipiet et qui recipit iustum in nomine iusti, mercedem
+							<lb/>iusti accipiet</hi>, cumque universe ecclesie per universa mundi
+							<lb/>climata constitute quasi unus Christi sint thalamus propter
+							<pb n="74"/>
+							<lb/>idque [in] Canticorum Cantico legitur: <hi rend="italic">Una est columba mea</hi>,
+							<lb/><hi rend="italic">una matris sue filia</hi>, fiducialiter hunc fratrem et conpresbyterum
+							<lb/>nostrum nomine Herimannum vestre fraternitati dirigimus
+							<lb/>orando et supplicando, ut eum caritative suscipiatis et
+							<lb/>fraternitatis munera inpendatis eumque in vestra diocesi ministrare
+							<lb/>permittatis et si necessitas fuerit et vestra cum illius
+							<lb/>voluntate consenserit, in vestris eum ecclesiis ordinetis, quem
+							<lb/>non a nobis ob suam nequitiam expulsum, sed iusta et rationabili
+							<lb/>causa dimissum esse cognoscatis, quod, ut verius credatur,
+							<lb/>nostre ecclesie anulo insigniri et Grecis litteris hunc inde
+						<lb/>muniri iussimus.</p>
+						<lb/><p>Data octavo Kalendas Iunii anno dominice incarnationis
+						<lb/>millesimo centesimo quintodecimo indictione octava. N.V.N.</p>
+						<lb/><p>V.B.A.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

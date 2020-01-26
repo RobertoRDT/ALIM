@@ -1,0 +1,655 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Carmen in victoria Pisanorum</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>G. Scalia</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="OK">Omar Khalaf</name>
+					<name key="MB">Marina Buzzoni</name>
+					<name key="CC">Chiara Casali</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="1897" unit="words">Parole: 1897</measure>
+				<measure quantity="11248" unit="characters_without_spaces">Caratteri (spazi esclusi): 11248</measure>
+				<measure quantity="12780" unit="characters_witht_spaces">Caratteri (spazi inclusi): 12780</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2012-05-12">12/05/2012</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Poesia epica</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: data di composizione del carme: 1088
+					[...] indicano integrazioni congetturali dell'editore
+					Parole: 2008
+					Caratteri(spazi inclusi): 17501
+					GCA
+				</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<editor>G. Scalia</editor>
+						<title>Il carme pisano sull'impresa contro i Saraceni del 1087</title>
+					</analytic>
+					<monogr>
+						<title level="m">Studi di filologia romanza offerti a Silvio Pellegrini</title>
+						<imprint>
+							<publisher>Liviana</publisher>
+							<pubPlace>Padova</pubPlace>
+							<date>1971</date>
+							<biblScope unit="page">565-627</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Versi</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Poesia epica</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1001/1100">XI</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="OK, MB, CC">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+-ok, ma:
+1) è un poema lungo (292 versi) diviso in strofe di 4 versi. I versi erano però numerati attraverso tutto il poema (1-292), mentre i numeri erano segnati alla fine di ogni quinto verso. Ho cancellato questi numeri, ma ho numerato l'opera nello stesso modo: i @n di &lt;l&gt; vanno allora da 5 a 290, non si contano per le strofe singole. È ok cosi?
+2) si tratta di versi divisi in due parti, separate con una lacuna:
+"Inclitorum Pisanorum            scripturus istoriam"
+...
+Questa lacuna era scritta come una serie di spazi vuoti. Il problema è che i browser ignorano tali serie di spazi e le riducono a solo uno spazio (si vede anche al sito ALIM: http://it.alim.unisi.it/dl/resource/360).
+Secondo le TEI guidlines, per tali versi si deve usare il tag &lt;seg&gt; per ognuna delle due metà (&lt;l&gt;&lt;seg&gt;Inclitorum Pisanorum&lt;/seg&gt; &lt;seg&gt;scripturus istoriam&lt;/seg&gt;&lt;/l&gt;). Ho quindi seguito questa indicazione. 
+
+</change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="597"/>
+		<div>
+			<lg>
+				<head>1.</head>
+				<l><seg>Inclitorum Pisanorum</seg> <seg>scripturus istoriam,</seg></l>
+				<l><seg>antiquorum Romanorum</seg> <seg>renovo memoriam:</seg></l>
+				<l><seg>nam extendit modo Pisa</seg> <seg>laudem admirabilem,</seg></l>
+				<l><seg>quam recepit olim Roma</seg> <seg>vincendo Cartaginem.</seg></l>
+			</lg>
+			<lg>
+				<head>2.</head>
+				<l n="5"><seg>Manum primo Redemptoris</seg> <seg>collaudo fortissimam, </seg></l>
+				<l><seg>qua destruxit gens Pisana</seg> <seg>gentem impiissimam.</seg></l>
+				<l><seg>Fit hoc totum Gedeonis</seg> <seg>simile miraculo,</seg></l>
+				<l><seg>quod perfecit sub unius</seg> <seg>Deus noctis spatio.</seg></l>
+			</lg>
+			<pb n="598"/>
+			<lg>
+				<head>3.</head>
+				<l><seg>Hic cum tubis et lanternis</seg> <seg>processit ad prelium,</seg></l>
+				<l n="10"><seg>nil armorum vel scutorum</seg> <seg>protendit in medium:</seg></l>
+				<l><seg>sola virtus Creatoris</seg> <seg>pugnat terribiliter,</seg></l>
+				<l><seg>inter se Madianitis</seg> <seg>cesis mirabiliter.</seg></l>
+			</lg>
+			<lg>
+				<head>4.</head>
+				<l><seg>Sunt et [hi] Madianite</seg> <seg>signati ex nomine:</seg></l>
+				<l><seg>hos in malo nam Madia</seg> <seg>nutriebat omine,</seg></l>
+				<l n="15"><seg>sita pulchro loco maris,</seg> <seg>civitas hec impia,</seg></l>
+				<l><seg>que captivos constringebat</seg> <seg>plus centena milia.</seg></l>
+			</lg>
+			<pb n="599"/>
+			<lg>
+				<head>5.</head>
+				<l><seg>Hic Timinus presidebat,</seg> <seg>Saracenus impius,</seg></l>
+				<l><seg>similatus Antichristo,</seg> <seg>draco crudelissimus,</seg></l>
+				<l><seg>habens portum iuxta urbem</seg> <seg>factum artificio,</seg></l>
+				<l n="20"><seg>circumseptum muris magnis</seg> <seg>et plenum navigio.</seg></l>
+			</lg>
+			<lg>
+				<head>6.</head>
+				<l><seg>Hic tenebat duas urbes</seg> <seg>opibus ditissimas</seg></l>
+				<l><seg>et Saracenorum multas</seg> <seg>gentes robustissimas,</seg></l>
+				<l><seg>stultus et superbus nimis,</seg> <seg>elatus in gloria,</seg></l>
+				<l><seg>qua de causa Pisanorum</seg> <seg>fit clara victoria.</seg></l>
+			</lg>
+			<pb n="600"/>
+			<lg>
+				<head>7.</head>
+				<l n="25"><seg>Hic cum suis Saracenis</seg> <seg>devastabat Galliam,</seg></l>
+				<l><seg>captivabat omnes gentes</seg> <seg>que tenent Ispaniam</seg></l>
+				<l><seg>et in tota ripa maris</seg> <seg>turbabat Italiam,</seg></l>
+				<l><seg>predabatur Romaniam</seg> <seg>usque Alexandriam.</seg></l>
+			</lg>
+			<lg>
+				<head>8.</head>
+				<l><seg>Non est locus toto mundo</seg> <seg>neque maris insula,</seg></l>
+				<l n="30"><seg>quam Timini non turbaret</seg> <seg>orrenda perfidia:</seg></l>
+				<l><seg>Rodus, Ciprus, Creta [simul],</seg> <seg>simul et Sardinia</seg></l>
+				<l><seg>vexabantur, et cum illis</seg> <seg>nobilis Sicilia.</seg></l>
+			</lg>
+			<lg>
+				<head>9.</head>
+				<l><seg>Hinc captivi Redemptorem</seg> <seg>clamabant altissime</seg></l>
+				<l><seg>et per orbem universum</seg> <seg>flebant amarissime:</seg></l>
+				<l n="35"><seg>reclamabant ad Pisanos</seg> <seg>planctu miserabili,</seg></l>
+				<l><seg>concitabant Genuenses</seg> <seg>fletu lacrimabili.</seg></l>
+			</lg>
+			<pb n="601"/>
+			<lg>
+				<head>10.</head>
+				<l><seg>Hoc permotus terremotu</seg> <seg>hic uterque populus</seg></l>
+				<l><seg>iniecerunt manus suas</seg> <seg>ad hoc opus protinus</seg></l>
+				<l><seg>et componunt mille naves</seg> <seg>solis tribus mensibus,</seg></l>
+				<l n="40"><seg>quibus bene preparatus</seg> <seg>stolus lucet inclitus.</seg></l>
+			</lg>
+			<lg>
+				<head>11.</head>
+				<l><seg>Convenerunt Genuenses</seg> <seg>virtute mirabili</seg></l>
+				<l><seg>et adiungunt se Pisanis</seg> <seg>amore amabili.</seg></l>
+				<l><seg>Non curant de vita mundi</seg> <seg>nec de suis filiis,</seg></l>
+				<l><seg>pro amore Redemptoris</seg> <seg>se donant periculis.</seg></l>
+			</lg>
+			<pb n="602"/>
+			<lg>
+				<head>12.</head>
+				<l n="45"><seg>His accessit Roma</seg> <seg>potenspotenti auxilio, </seg></l>
+				<l><seg>suscitata pro Timini</seg> <seg>infami martirio:</seg></l>
+				<l><seg>renovatur hinc in illa</seg> <seg>antiqua memoria,</seg></l>
+				<l><seg>quam illustris Scipionis</seg> <seg>olim dat victoria.</seg></l>
+			</lg>
+			<lg>
+				<head>13.</head>
+				<l><seg>Et refulsit inter istos</seg> <seg>cum parte exercitus</seg></l>
+				<l n="50"><seg>Pantaleo Malfitanus,</seg> <seg>inter Grecos hypatus, </seg></l>
+				<l><seg>cuius fortis et astuti</seg> <seg>potenti astutia</seg></l>
+				<l><seg>est confusa maledicti</seg> <seg>Timini versutia.</seg></l>
+			</lg>
+			<pb n="603"/>
+			<lg>
+				<head>14.</head>
+				<l><seg>Hos conduxit Iesus Christus,</seg> <seg>quem negabat Africa,</seg></l>
+				<l><seg>et constrinxit omnes ventos</seg> <seg>preter solum Iapiga.</seg></l>
+				<l n="55"><seg>Cherubin emittit illum,</seg> <seg>cum aperit ostia, </seg></l>
+				<l><seg>qui custodit paradisum</seg> <seg>discreta custodia.</seg></l>
+			</lg>
+			<lg>
+				<head>15.</head>
+				<l><seg>Pervenerunt navigando</seg> <seg>quandam maris insulam,</seg></l>
+				<l><seg>quam Pantalaream dicunt,</seg> <seg>cum arce fortissima.</seg></l>
+				<l><seg>Huius incole palumbos</seg> <seg>emittunt cum litteris,</seg></l>
+				<l n="60"><seg>qui renuntient Timino</seg> <seg>de viris fortissimis. </seg></l>
+			</lg>
+			<lg>
+				<head>16.</head>
+				<l><seg>Hic est castrum ex natura</seg> <seg>et arte mirabile,</seg></l>
+				<l><seg>nulli umquam in hoc mundo</seg> <seg>castro comparabile.</seg></l>
+				<l><seg>Duo milia virorum</seg> <seg>hoc tenebant oppidum,</seg></l>
+				<l><seg>qui nec Deum verebantur</seg> <seg>nec virtutem hominum.</seg></l>
+			</lg>
+			<pb n="604"/>
+			<lg>
+				<head>17.</head>
+				<l n="65"><seg>Accesserunt huc econtra</seg> <seg>mirandi artifices</seg></l>
+				<l><seg>et de lignis nimis altis</seg> <seg>facte sunt turricule.</seg></l>
+				<l><seg>Destruxerunt, occiderunt,</seg> <seg>sicut Deus voluit,</seg></l>
+				<l><seg>et fecerunt quod a mundo</seg> <seg>nunquam credi potuit.</seg></l>
+			</lg>
+			<lg>
+				<head>18.</head>
+				<l><seg>Sex, ut puto, soli viri,</seg> <seg>qui ex his evaserant,</seg></l>
+				<l n="70"><seg>alios mandant palumbos,</seg> <seg>qui factum edisserant. </seg></l>
+				<l><seg>Quo audito, rex Timinus</seg> <seg>desperat de viribus</seg></l>
+				<l><seg>et hoc factum perturbatus</seg> <seg>tractat cum principibus.</seg></l>
+			</lg>
+			<pb n="605"/>
+			<lg>
+				<head>19.</head>
+				<l><seg>Inter hec regalis stolus</seg> <seg>discedit et navigat,</seg></l>
+				<l><seg>et iam videt illas urbes</seg> <seg>quas Timinus habitat.</seg></l>
+				<l n="75"><seg>Mare, terra, muri pleni</seg> <seg>paganis teterrimis, </seg></l>
+				<l><seg>quos conduxerat superbus</seg> <seg>ab extremis terminis.</seg></l>
+			</lg>
+			<lg>
+				<head>20.</head>
+				<l><seg>Hic incepit adulando</seg> <seg>demulcere populum</seg></l>
+				<l><seg>et captivos promittendo</seg> <seg>protrahebat otium.</seg></l>
+				<pb n="606"/>
+				<l><seg>Sed hoc sprevit Benedictus</seg> <seg>astutus [episcopus],</seg></l>
+				<l n="80"><seg>Dei nutu luminatus</seg> <seg>luce Sancti Spiritus.</seg></l>
+			</lg>
+			<pb n="607"/>
+			<lg>
+				<head>21.</head>
+				<l><seg>Vocat Petrum et Sismundum,</seg> <seg>principales consules,</seg></l>
+				<l><seg>[et] Lambertum et Glandulfum,</seg> <seg>cives claros nobiles;</seg></l>
+				<l><seg>revelat quod hoc Timinus</seg> <seg>facit ex insidia,</seg></l>
+				<l><seg>hoc totum ex tradimento</seg> <seg>et mira perfidia.</seg></l>
+			</lg>
+			<lg>
+				<head>22.</head>
+				<l n="85"><seg>Hinc conscendunt parvas naves,</seg> <seg>tracti ad concilium:</seg></l>
+				<l><seg>decreverunt solam pugnam,</seg> <seg>parati ad prelium,</seg></l>
+				<l><seg>ut hoc solum iudicaret</seg> <seg>divinum iudicium</seg></l>
+				<l><seg>........................................……………………………</seg></l>
+			</lg>
+			<pb n="608"/>
+			<lg>
+				<head>23.</head>
+				<l><seg>Hoc fuit antiquum festum</seg> <seg>Sancti Sisti nobile,</seg></l>
+				<l n="90"><seg>quo sunt semper Pisanorum</seg> <seg>de celo victorie.</seg></l>
+				<l><seg>In hoc Benedictus presul</seg> <seg>populum alloquitur,</seg></l>
+				<l><seg>et, silentio indicto,</seg> <seg>murmur omne moritur:</seg></l>
+			</lg>
+			<lg>
+				<head>24.</head>
+				<l><seg>“Preparate vos ad pugnam,</seg> <seg>milites fortissimi,</seg></l>
+				<l><seg>“et pro Christo omnes mundi</seg> <seg>vos obliviscimini.</seg></l>
+				<l n="95"><seg>“Maris iter restat longum,</seg> <seg>non potestis fugere, </seg></l>
+				<l><seg>“terram tenent quos debetis</seg> <seg>vos hostes confundere.</seg></l>
+			</lg>
+			<lg>
+				<head>25.</head>
+				<l><seg>“Non expavescatis, [queso],</seg> <seg>de eorum numero:</seg></l>
+				<l><seg>“nam sunt turpiter defuncti</seg> <seg>timentes in heremo;</seg></l>
+				<l><seg>“neque vos conturbent domus</seg> <seg>altis edificiis:</seg></l>
+				<l n="100"><seg>“Hierico namque prostrata</seg> <seg>cum muris altissimis.</seg></l>
+			</lg>
+			<pb n="609"/>
+			<lg>
+				<head>26.</head>
+				<l><seg>“Inimici sunt Factoris,</seg> <seg>qui creavit omnia,</seg></l>
+				<l><seg>“et captivant Christianos</seg> <seg>pro inani gloria.</seg></l>
+				<l><seg>“Mementote vos Golie,</seg> <seg>gigantis eximii,</seg></l>
+				<l><seg>“quem prostravit unus lapis</seg> <seg>David, parvi pueri.</seg></l>
+			</lg>
+			<lg>
+				<head>27.</head>
+				<l n="105"><seg>“Machabeus ille clarus,</seg> <seg>confidens in Domino,</seg></l>
+				<l><seg>“non expavit ad occursum</seg> <seg>plurimorum hominum,</seg></l>
+				<l><seg>“nec confidens in virtute</seg> <seg>cuiusquam fortissimi,</seg></l>
+				<l><seg>“sed in maiestate sola</seg> <seg>Dei potentissimi.</seg></l>
+			</lg>
+			<lg>
+				<head>28.</head>
+				<l><seg>“Vos videtis Pharaonis</seg> <seg>fastum et superbiam,</seg></l>
+				<l n="110"><seg>“qui contempnit Deum celi</seg> <seg>regnantem in secula,</seg></l>
+				<l><seg>“Dei populum affligit</seg> <seg>et tenet in carcere.</seg></l>
+				<l><seg>“Vos coniuro propter Deum,</seg> <seg>iam nolite parcere.</seg></l>
+			</lg>
+			<pb n="610"/>
+			<lg>
+				<head>29.</head>
+				<l><seg>His incitamentis claris</seg> <seg>[et] multis similibus</seg></l>
+				<l><seg>inardescunt omnes corde,</seg> <seg>irritantur viribus;</seg></l>
+				<l n="115"><seg>offerunt corde devoto</seg> <seg>Deo penitentiam</seg></l>
+				<l><seg>et communicant vicissim</seg> <seg>Christi eucharistiam.</seg></l>
+			</lg>
+			<lg>
+				<head>30.</head>
+				<l><seg>Universi Creatorem</seg> <seg>laudant unanimiter,</seg></l>
+				<l><seg>habent vitam atque mortem</seg> <seg>utrumque similiter.</seg></l>
+				<l><seg>Invocabant nomen tuum,</seg> <seg>Iesu bone, celitus,</seg></l>
+				<l n="120"><seg>ut turbares paganorum</seg> <seg>duplices exercitus.</seg></l>
+			</lg>
+			<lg>
+				<head>31.</head>
+				<l><seg>Iam armati petunt terram</seg> <seg>cum parvis naviculis</seg></l>
+				<l><seg>et temptabant maris fundum</seg> <seg>cum astis longissimis,</seg></l>
+				<l><seg>sed emergunt ut leones,</seg> <seg>postquam terram sentiunt,</seg></l>
+				<l><seg>aquilis velociores</seg> <seg>super hostes irruunt.</seg></l>
+			</lg>
+			<pb n="611"/>
+			<lg>
+				<head>32.</head>
+				<l n="125"><seg>Et excelsi Agareni</seg> <seg>invocant Machumata,</seg></l>
+				<l><seg>qui conturbat orbem terre</seg> <seg>de sua perfidia:</seg></l>
+				<l><seg>inimicus Trinitatis</seg> <seg>atque sancte fidei,</seg></l>
+				<l><seg>negat Iesum Nazarenum</seg> <seg>Verbum Dei fieri.</seg></l>
+			</lg>
+			<lg>
+				<head>33.</head>
+				<l><seg>Sed fit clamor Pisanorum</seg> <seg>altus et nobilior:</seg></l>
+				<l n="130"><seg>nam intonuit de celo</seg> <seg>sonus terribilior.</seg></l>
+				<l><seg>Michael cecinit tuba</seg> <seg>ad horum presidium,</seg></l>
+				<l><seg>sicut fecit pro dracone</seg> <seg>cum commisit prelium.</seg></l>
+			</lg>
+			<pb n="612"/>
+			<lg>
+				<head>34.</head>
+				<l><seg>Altera ex parte Petrus</seg> <seg>cum cruce et gladio</seg></l>
+				<l><seg>Genuenses et Pisanos</seg> <seg>confortabat animo,</seg></l>
+				<l n="135"><seg>et conduxerat huc princeps</seg> <seg>cetum apostolicum:</seg></l>
+				<l><seg>nam videbat signum sui</seg> <seg>in scarsellis positum.</seg></l>
+			</lg>
+			<lg>
+				<head>35.</head>
+				<l><seg>Et econtra Agareni</seg> <seg>concurrunt similiter,</seg></l>
+				<l><seg>telis, spatis et sagittis</seg> <seg>hos petunt hostiliter.</seg></l>
+				<l><seg>Fit hic pugna dura nimis,</seg> <seg>sed in parvo tempore:</seg></l>
+				<l n="140"><seg>nam ceperunt Agareni</seg> <seg>statim terga vertere.</seg></l>
+			</lg>
+			<lg>
+				<head>36.</head>
+				<l><seg>Misit namque Deus celi</seg> <seg>angelum fortissimum,</seg></l>
+				<l><seg>qui Senacherib percussit</seg> <seg>in nocte exercitum.</seg></l>
+				<l><seg>Quod cum vident hi qui stabant</seg> <seg>intra muros fieri,</seg></l>
+				<l><seg>obserarunt portas illis</seg> <seg>qui fugebant miseri.</seg></l>
+			</lg>
+			<pb n="613"/>
+			<lg>
+				<head>37.</head>
+				<l n="145"><seg>Occiduntur et truncantur</seg> <seg>omnes quasi pecudes,</seg></l>
+				<l><seg>non est illis fortitudo</seg> <seg>qua possint resistere.</seg></l>
+				<l><seg>Perimuntur in momento</seg> <seg>paganorum milia,</seg></l>
+				<l><seg>antequam intrarent portas</seg> <seg>et tenerent menia.</seg></l>
+			</lg>
+			<lg>
+				<head>38.</head>
+				<l><seg>Postquam desuper et subter</seg> <seg>intrarunt fortissime,</seg></l>
+				<l n="150"><seg>pervagantur totam urbem</seg> <seg>absque ulla requie.</seg></l>
+				<l><seg>Occiduntur mulieres</seg> <seg>virgines et vidue</seg></l>
+				<l><seg>et infantes alliduntur,</seg> <seg>ut non possint vivere.</seg></l>
+			</lg>
+			<lg>
+				<head>39.</head>
+				<l><seg>Non est domus neque via</seg> <seg>in tota Sibilia,</seg></l>
+				<l><seg>que non esset rubicunda</seg> <seg>et sanie livida:</seg></l>
+				<l n="155"><seg>tot Saracenorum erant</seg> <seg>cadavera misera, </seg></l>
+				<l><seg>que exalant iam fetorem</seg> <seg>per centena milia.</seg></l>
+			</lg>
+			<pb n="614"/>
+			<lg>
+				<head>40.</head>
+				<l><seg>Urbs est una desolata,</seg> <seg>festinant ad aliam</seg></l>
+				<l><seg>et contendunt transilire</seg> <seg>ad alta palatia,</seg></l>
+				<l><seg>ubi stabat rex Timinus,</seg> <seg>satis miserabilis,</seg></l>
+				<l n="160"><seg>qui despiciebat Deum,</seg> <seg>ut insuperabilis.</seg></l>
+			</lg>
+			<lg>
+				<head>41.</head>
+				<l><seg>Iussit portas aperire</seg> <seg>et leones solvere,</seg></l>
+				<l><seg>ut turbarent Christianos</seg> <seg>pugnantes improvide,</seg></l>
+				<l><seg>sed conversi sunt leones</seg> <seg>ad honorem glorie:</seg></l>
+				<l><seg>nam vorarunt Saracenos</seg> <seg>in laude victorie.</seg></l>
+			</lg>
+			<lg>
+				<head>42.</head>
+				<l n="165"><seg>Hic evenit tibi, Pisa,</seg> <seg>magnum infortunium:</seg></l>
+				<l><seg>nam hic perdis capud urbis</seg> <seg>et coronam iuvenum.</seg></l>
+				<l><seg>Cadit Ugo vicecomes,</seg> <seg>omnium pulcherrimus.</seg></l>
+				<l><seg>Dolor magnus Pisanorum</seg> <seg>et planctus miserrimus!</seg></l>
+			</lg>
+			<pb n="615"/>
+			<lg>
+				<head>43.</head>
+				<l><seg>Nam, cum omnes Saraceni</seg> <seg>erupissent subito,</seg></l>
+				<l n="170"><seg>sustinet hic mille viros</seg> <seg>cum asta et clippeo.</seg></l>
+				<l><seg>Cum nescit cessare loco</seg> <seg>et recusat fugere,</seg></l>
+				<l><seg>mille cesis Saracenis,</seg> <seg>cadit ante iuvenes.</seg></l>
+			</lg>
+			<lg>
+				<head>44.</head>
+				<l><seg>Hic inponunt illum scuto</seg> <seg>et ad naves deferunt.</seg></l>
+				<l><seg>Plangunt omnes super illum,</seg> <seg>quasi unigenitum:</seg></l>
+				<l n="175"><seg>“O decus et dolor magnus</seg> <seg>Pisanorum omnium!</seg></l>
+				<l><seg>“O confusio triumphi</seg> <seg>et magnum incommodum!</seg></l>
+			</lg>
+			<lg>
+				<head>45.</head>
+				<l><seg>“O dux noster atque princeps</seg> <seg>cum corde fortissimo!</seg></l>
+				<l><seg>“Similatus es Grecorum</seg> <seg>regi nobilissimo,</seg></l>
+				<l><seg>“qui sic fecit, ut audivit</seg> <seg>responsum Apollinis:</seg></l>
+				<l n="180"><seg>“nam ut sui triumpharent</seg> <seg>sponte mortem subiit.</seg></l>
+			</lg>
+			<pb n="616"/>
+			<lg>
+				<head>46.</head>
+				<l><seg>“Sic infernus spoliatur</seg> <seg>et Sathan destruitur,</seg></l>
+				<l><seg>“cum Iesus, redemptor mundi,</seg> <seg>sponte sua moritur,</seg></l>
+				<l><seg>“pro cuius amore, care,</seg> <seg>et cuius servicio</seg></l>
+				<l><seg>“martyr pulcher rutilabis</seg> <seg>venturo iudicio.</seg></l>
+			</lg>
+			<lg>
+				<head>47.</head>
+				<l n="185"><seg>“Non iacebis tu sepultus</seg> <seg>hac in terra pessima</seg></l>
+				<l><seg>“ne te tractent Saraceni,</seg> <seg>qui sunt quai bestia.</seg></l>
+				<l><seg>“Pisa nobilis te ponet</seg> <seg>in sepulcrum patrium,</seg></l>
+				<l><seg>“te Italia plorabit,</seg> <seg>legens epitaphium.</seg></l>
+			</lg>
+			<lg>
+				<head>48.</head>
+				<l><seg>“Erimus in domo tua</seg> <seg>fideles et placidi</seg></l>
+				<l n="190"><seg>“et vivemus apud tuos</seg> <seg>tutores et baiuli.</seg></l>
+				<l><seg>“Nullus umquam contra tuos</seg> <seg>levabit audaciam,</seg></l>
+				<l><seg>“quia tu, care, pro Pisa</seg> <seg>posuisti animam”.</seg></l>
+			</lg>
+			<pb n="617"/>
+			<lg>
+				<head>49.</head>
+				<l><seg>Non est mora, corpus findunt</seg> <seg>et eiectant viscera,</seg></l>
+				<l><seg>balsamum infundunt multum</seg> <seg>et cuncta aromata</seg></l>
+				<l n="195"><seg>et componunt quadam capsa de</seg> <seg>ligno composito,</seg></l>
+				<l><seg>ut mater et coniux eum</seg> <seg>videant quoquo modo.</seg></l>
+			</lg>
+			<lg>
+				<head>50.</head>
+				<l><seg>Hinc exarsit ira tanta</seg> <seg>his et Genuensibus,</seg></l>
+				<l><seg>quod non homo neque murus</seg> <seg>neque quicquam penitus</seg></l>
+				<l><seg>valet horum sustinere</seg> <seg>furores et fremitus:</seg></l>
+				<l n="200"><seg>unde fit Saracenorum</seg> <seg>maximus interitus.</seg></l>
+			</lg>
+			<lg>
+				<head>51.</head>
+				<l><seg>Sic irrumpunt omnes portas</seg> <seg>et Madiam penetrant</seg></l>
+				<l><seg>et accurrunt illuc prope</seg> <seg>quo stat fera pessima,</seg></l>
+				<l><seg>que turbabat omnes gentes</seg> <seg>de sua perfidia:</seg></l>
+				<l><seg>modo latet circumclusa</seg> <seg>in muris altissima.</seg></l>
+			</lg>
+			<pb n="618"/>
+			<lg>
+				<head>52.</head>
+				<l n="205"><seg>Alii petunt meschitam</seg> <seg>pretiosam scemate,</seg></l>
+				<l><seg>mille truncant sacerdotes</seg> <seg>qui erant Machumate,</seg></l>
+				<l><seg>qui fuit heresiarcha</seg> <seg>potentior Arrio,</seg></l>
+				<l><seg>cuius error iam permansit</seg> <seg>longo mundi spatio.</seg></l>
+			</lg>
+			<lg>
+				<head>53.</head>
+				<l><seg>Alii confundunt portum</seg> <seg>factum mirabiliter,</seg></l>
+				<l n="210"><seg>darsanas et omnes turres</seg> <seg>perfringunt similiter,</seg></l>
+				<l><seg>mille naves traunt inde</seg> <seg>que cremantur litore,</seg></l>
+				<l><seg>quarum incendium Troie</seg> <seg>fuit vere simile.</seg></l>
+			</lg>
+			<lg>
+				<head>54.</head>
+				<l><seg>Alii irrumpunt castrum</seg> <seg>atque turres diruunt,</seg></l>
+				<l><seg>equos regios et mulas</seg> <seg>omnes interficiunt,</seg></l>
+				<l n="215"><seg>aurea vexilla mille</seg> <seg>traunt et argentea,</seg></l>
+				<l><seg>que in Pisa gloriosa</seg> <seg>sunt triumphi premia.</seg></l>
+			</lg>
+			<pb n="619"/>
+			<lg>
+				<head>55.</head>
+				<l><seg>Concurrentes pervenerunt</seg> <seg>ad illud palatium,</seg></l>
+				<l><seg>mille passuum, ut credo,</seg> <seg>quod tenebat spatium;</seg></l>
+				<l><seg>quinquaginta cubitorum</seg> <seg>murus latitudine</seg></l>
+				<l n="220"><seg>erat idem quater tanta</seg> <seg>murus altitudine.</seg></l>
+			</lg>
+			<lg>
+				<head>56.</head>
+				<l><seg>Super hunc procere turres,</seg> <seg>ad nubes altissime,</seg></l>
+				<l><seg>ubi vix mortalis homo</seg> <seg>iam possit aspicere;</seg></l>
+				<l><seg>scale facte circumflexe,</seg> <seg>faciles contendere,</seg></l>
+				<l><seg>ubi nullus neque valet</seg> <seg>neque scit ascendere.</seg></l>
+			</lg>
+			<lg>
+				<head>57.</head>
+				<l n="225"><seg>Multitudo paganorum</seg> <seg>hoc tenebant cassarum</seg></l>
+				<l><seg>(nam cassandi sic appellant</seg> <seg>hoc tale palatium),</seg></l>
+				<l><seg>quod Pisani circumfusi</seg> <seg>contendunt destruere,</seg></l>
+				<l><seg>sed lassati iam non audent</seg> <seg>hoc tale confundere.</seg></l>
+			</lg>
+			<lg>
+				<head>58.</head>
+				<l><seg>Et iam isti fatigati</seg> <seg>pausabant in requie,</seg></l>
+				<l n="230"><seg>ipse rex misellus nimis</seg> <seg>pacem ceplt petere.</seg></l>
+				<l><seg>Donat auri et argenti</seg> <seg>infinitum pretium,</seg></l>
+				<l><seg>ditat populum Pisanum</seg> <seg>atque Genuensium.</seg></l>
+			</lg>
+			<pb n="620"/>
+			<lg>
+				<head>59.</head>
+				<l><seg>Iuravit per Deum celi,</seg> <seg>suas legens litteras:</seg></l>
+				<l><seg>iam ammodo Christianis</seg> <seg>non ponet insidias</seg></l>
+				<l n="235"><seg>et non tollet tulineum</seg> <seg>his utrisque populis, </seg></l>
+				<l><seg>serviturus in eternum</seg> <seg>eis quasi dominis.</seg></l>
+			</lg>
+			<lg>
+				<head>60.</head>
+				<l><seg>Terram iurat Sancti Petri</seg> <seg>esse sine dubio,</seg></l>
+				<l><seg>et ab eo tenet eam</seg> <seg>iam absque conludio,</seg></l>
+				<l><seg>unde semper mittet Romam</seg> <seg>tributa et premia;</seg></l>
+				<l n="240"><seg>auri puri et argenti</seg> <seg>nunc mandat insignia.</seg></l>
+			</lg>
+			<pb n="621"/>
+			<lg>
+				<head>61.</head>
+				<l><seg>Et cum starent ad videndam</seg> <seg>donorum potentiam,</seg></l>
+				<l><seg>ecce gentes Arrabites</seg> <seg>intrarunt Sibiliam,</seg></l>
+				<l><seg>leves multum supra modum</seg> <seg>cum discurrunt pedites,</seg></l>
+				<l><seg>Euro vento leviores</seg> <seg>cum bellantur equites.</seg></l>
+			</lg>
+			<lg>
+				<head>62.</head>
+				<l n="245"><seg>Docti retro et sueti</seg> <seg>fugendo respicere,</seg></l>
+				<l><seg>valent melius in fuga</seg> <seg>hostes interficere,</seg></l>
+				<l><seg>leves super omnes gentes,</seg> <seg>in giro volubiles,</seg></l>
+				<l><seg>macris equis insidentes,</seg> <seg>corporibus ductiles.</seg></l>
+			</lg>
+			<pb n="622"/>
+			<lg>
+				<head>63.</head>
+				<l><seg>Et istorum tam valentum</seg> <seg>iam centena milia</seg></l>
+				<l n="250"><seg>urbs relicta a Pisanis</seg> <seg>tenebat Sibilia.</seg></l>
+				<l><seg>Ripa maris insistentes</seg> <seg>et implentes litora,</seg></l>
+				<l><seg>turbant reliquos Pisanos,</seg> <seg>servantes navilia.</seg></l>
+			</lg>
+			<lg>
+				<head>64.</head>
+				<l><seg>Quod cum audiunt quistabant</seg> <seg>in Madia nobiles,</seg></l>
+				<l><seg>plus quam leopardi currunt,</seg> <seg>ordinati, mobiles.</seg></l>
+				<l n="255"><seg>Ipse rex Timinus spectat</seg> <seg>altis edificiis,</seg></l>
+				<l><seg>letaturus utriusque</seg> <seg>populi periculis.</seg></l>
+			</lg>
+			<lg>
+				<head>65.</head>
+				<l><seg>Sed nec armis nec virtute</seg> <seg>confiderunt Arabes,</seg></l>
+				<l><seg>fuga nimium veloci</seg> <seg>fugientes agiles;</seg></l>
+				<l><seg>nam quicumque remanserunt</seg> <seg>depugnantes navibus</seg></l>
+				<l n="260"><seg>Pisanorum figit telum</seg> <seg>et detruncat gladius.</seg></l>
+			</lg>
+			<pb n="623"/>
+			<lg>
+				<head>66.</head>
+				<l><seg>Sic Madia superata,</seg> <seg>recepta Sibilia,</seg></l>
+				<l><seg>iam Pisani gloriosi</seg> <seg>intrarunt navilia,</seg></l>
+				<l><seg>destruxerunt pretiosa</seg> <seg>passim edificia,</seg></l>
+				<l><seg>cuncta simul reportantes</seg> <seg>cum parvis eximia.</seg></l>
+			</lg>
+			<lg>
+				<head>67.</head>
+				<l n="265"><seg>Captivorum persolverunt</seg> <seg>plus ad centum milia,</seg></l>
+				<l><seg>quos recepit Romania</seg> <seg>iam ex longo misera.</seg></l>
+				<l><seg>Saracenos et captivos</seg> <seg>ducunt sine numero,</seg></l>
+				<l><seg>quod est totum tuum donum,</seg> <seg>Iesu, sine dubio.</seg></l>
+			</lg>
+			<lg>
+				<head>68.</head>
+				<l><seg>Ecce iterum Ebrei</seg> <seg>Egyptum expoliant</seg></l>
+				<l n="270"><seg>et confuso Pharaone</seg> <seg>iterum coniubilant.</seg></l>
+				<l><seg>Transeunt in mari magno,</seg> <seg>ut terra siccissima,</seg></l>
+				<l><seg>Moyses educit aquas</seg> <seg>de petra durissima.</seg></l>
+			</lg>
+			<pb n="624"/>
+			<lg>
+				<head>69.</head>
+				<l><seg>Nam, ut veniunt ad Curras,</seg> <seg>quasdam maris insulas,</seg></l>
+				<l><seg>ubi nullus vidit aquas</seg> <seg>ad potandum limpidas,</seg></l>
+				<l n="275"><seg>fit hoc visu et auditu</seg> <seg>nimis admirabile:</seg></l>
+				<l><seg>terra parum circumfossa,</seg> <seg>potant aquas largiter.</seg></l>
+			</lg>
+			<lg>
+				<head>70.</head>
+				<l><seg>Sunt reversi gloriosi</seg> <seg>virtute mirabili</seg></l>
+				<l><seg>et quo durat iste mundus</seg> <seg>honore laudabili.</seg></l>
+				<l><seg>Sancto Sisto consecrarunt</seg> <seg>perpulchram ecclesiam</seg></l>
+				<l n="280"><seg>et per orbem universum</seg> <seg>sanctis mandant premia.</seg></l>
+			</lg>
+			<pb n="625"/>
+			<lg>
+				<head>71.</head>
+				<l><seg>Sed tibi, Regina celi,</seg> <seg>stella maris inclita,</seg></l>
+				<l><seg>donant cuncta pretiosa</seg> <seg>et cuncta eximia,</seg></l>
+				<l><seg>unde tua in eternum</seg> <seg>splendebit ecclesia,</seg></l>
+				<l><seg>auro, gemmis, margaritis</seg> <seg>et pallis splendida.</seg></l>
+			</lg>
+			<lg>
+				<head>72.</head>
+				<l n="285"><seg>Clericis qui remanserunt</seg> <seg>pro tuo servitio</seg></l>
+				<l><seg>donaverunt partes du[as],</seg> <seg>communi consilio</seg></l>
+				<l><seg>Sic volebas tu, Regina,</seg> <seg>sic rogasti Filium,</seg></l>
+				<l><seg>cuius illis prebuisti</seg> <seg>in cunctis auxilium.</seg></l>
+			</lg>
+			<lg>
+				<head>73.</head>
+				<l><seg>Sit laus tibi, trine Deus,</seg> <seg>unus et altissime,</seg></l>
+				<l n="290"><seg>super omnes gloriose,</seg> <seg>in cunctis fortissime,</seg></l>
+				<l><seg>qui timeri et amari</seg> <seg>debes super omnia,</seg></l>
+				<l><seg>cuius manet sine fine</seg> <seg>sempiterna gloria.</seg></l>
+			</lg>
+			<p><lb/>Amen</p>
+			<p><lb/>Anno Domini millesimo octuagesimo octavo</p>
+		</div>
+	</body>
+</text>
+</TEI>

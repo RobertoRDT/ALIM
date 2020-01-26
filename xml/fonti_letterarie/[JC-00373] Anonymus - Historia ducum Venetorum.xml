@@ -1,0 +1,1356 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Historia ducum Venetorum</title>
+				<author>Anonymus</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>L. A. Berto</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="PM">Paolo Monella</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="9472" unit="words">Parole: 9472</measure>
+				<measure quantity="57631" unit="characters_without_spaces">Caratteri (spazi esclusi): 57631</measure>
+				<measure quantity="65986" unit="characters_witht_spaces">Caratteri (spazi inclusi): 65986</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2002-08-08">08/08/2002</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Storiografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Data di composizione del testo: dopo il 1228
+					Parole: 9464
+					Caratteri: 57710
+					Il testo è stato pubblicato con traduzione a fronte (testo latino sulle pagine pari).
+					[...] indicano spazi lasciati bianchi dal copista
+					&lt;...&gt; indicano interventi congetturali dell' editore 
+				LBA</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">Testi storici veneziani (XI-XIII secolo)</title>
+						<editor>L. A. Berto</editor>
+						<imprint>
+							<publisher>CLEUP</publisher>
+							<pubPlace>Padova</pubPlace>
+							<date>1999</date>
+							<biblScope unit="page">2-83</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Medioevo Europeo</title>
+						<biblScope unit="volume">1</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga 
+							precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla 
+							fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto
+							resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina.
+						È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+				<ab type="level">ALIM2_1</ab>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="lat">Latino</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<term type="form">Prosa</term>
+					<term type="source">Fonti Letterarie</term>
+					<term type="genre">Storiografia</term>
+				</keywords>
+			</textClass>
+			<creation>
+				<date when-iso="1201/1300">XIII</date>
+			</creation>
+		</profileDesc>
+		<revisionDesc>
+			<change who="PM">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+			<change when="2018-06" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+<list type="listaNoteJC"><item type="itemNotaJC">-ok</item></list></change>
+		</revisionDesc>
+	</teiHeader>
+
+<text>
+	<body>
+		<pb n="2"/>
+		<div type="chapter">
+			<head><lb/>[1.]</head> <p>Cum Deus omnipotens, a quo bona cuncta procedunt, multam
+				<lb/>gratiam et gloriam Venetis semper contulerit et honoribus ac diviciis
+				<lb/>per universum fere orbem eos claros reddiderit honestum duximus et
+				<lb/>ratione dignum ut ex pluribus que retro ab annis multis sub ducibus
+				<lb/>Venecie et per duces, Deo propitio, facta fuisse noscuntur, sicut relatione
+				<lb/>eorum qui interfuerunt didicimus et gestarum rerum narrat hystoria
+				<lb/>ea scire desiderantibus hoc brevi dictamine pauca saltem lucide
+				<lb/>exponeremus. Ex his namque que scribimus quedam narrantibus
+				<lb/>maioribus didicimus, que eciam hodie in re ipsa cernuntur, quedam
+				<lb/>vero nostro tempore vidimus conpleta, quedam quoque ex lectione
+			<lb/>annalium nobis innotuerunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[2.]</head> <p>Tempore itaque illo, quo Alexius Constantinopolitanum regebat
+				<lb/>imperium, Ordelafus Faletro, vir illustris et preclarus ingenio,
+				<lb/>ad ducatus Venecie regimen, licet iuvenis, fuit promotus. Et cum rex
+				<lb/>Ungarorum Iaderam invasisset eamque ab eodem imperatore, cui Veneti
+				<lb/>illam donaverunt, violenter accepisset, Dalmaciam quoque occupasset,
+				<lb/>nec voluisset illam aliquatenus relinquere, idem dux maximum
+				<lb/>fecit exercitum bellicarum navium et fortium virorum ac militum
+				<lb/>et ad debellandos Ungaros, qui Iaderam et Dalmaciam invaserant,
+				<lb/>audacter exivit et per aliquot tempus fortiter illam expugnans,
+				<lb/>fugavit Ungaros et civitates omnes in virtute sui exercitus occupavit
+				<lb/>Iadratinos et Dalmatinos ad suam successorumque suorum fidelitatem
+				<lb/>reducens. A quibus postea obsides accepit, quot et quales voluit.
+				<pb n="4"/>
+				<lb/>Verum ibidem aliquantulum demorans, exercitum cum gloria remisit
+				<lb/>ad propria et post paucum tempus apud predictam civitatem Iadere
+				<lb/>ab hostibus interfectus fuit. Cuius postea corpus in Venetia translatum,
+				<lb/>apud sanctum Marcum constat esse humatum. Reliqua autem
+				<lb/>ducis Ordelafi facta et bella que gessit et tempus vite ipsius in Venetorum
+			<lb/>chronica credimus esse digesta.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[3.]</head> <p>Cui successit Dominicus Michael, vir bellicosus et plenus dierum,
+			<lb/>qui strages multas de hostibus fecit.</p>
+			<p><lb/>Is vero, cum ducatum sibi creditum feliciter gubernaret et cum omnibus
+				<lb/>pacem haberet nefanda gens Saracenorum, que tempore illo civitatem
+				<lb/>Tyri et Ascalonis adhuc possidebat, quasdam civitates Ierosolimitani
+				<lb/>regni violenter invaderat et Iopem civitatem obsidebat et
+				<lb/>multorum christianorum effuderat sanguinem et plures christiane
+				<lb/>gentis detinebat captivos. Cum propter hec et alia ingens tremor ac
+				<lb/>pavor regem et principes Ierosolimorum invasisset, ad pontificem
+				<lb/>qui tunc Romane ecclesie preerat et ad ipsum ducem Venecie nuncios
+				<lb/>direxerunt supplicantes instancius et petentes et ecclesie transmarine
+			<lb/>festinum providerent auxilium.</p>
+			<p><lb/>At papa ille, hoc oportunius per Venetos posse fieri reputans, ad
+				<lb/>prefatum ducem nuncios destinavit, diligenter illum et populum Venecie
+				<lb/>ammonens et exortans, ut intuitu fidei fidelibus Christi succurere festinarent.
+				<lb/>Dux vero, legatione regis et Ierosolimorum principum intellecta et
+				<lb/>apostolica commonitione reverenter suscepta, cum omni devocione
+				<lb/>crucem cum multis nobilibus suscipiens, ducentas quamtocius naves
+				<lb/>inter bellicas et honerarias, que exercitui necessaria portarent fecit
+				<lb/>parare ad eiusdem eciam ducis robur et vires augendas. Cum papa
+				<lb/>predictus vexillum beati Petri sibi misisset, memoratus dux illud reverenter
+			<lb/>suscepit et paratis omnibus in nomine Domini iter arripuit.</p>
+		</div>
+		<pb n="6"/>
+		<div type="chapter">
+			<head><lb/>[4.]</head> <p>Porro, quia tempore illo Veneti, qui defensores Románie semper
+				<lb/>extiterant, contra imperatorem Caloiannem, predicti Alexii imperatoris
+				<lb/>filium comoti fuerant propterea quia imperator ille chrisobulli
+				<lb/>paginam iuxta patris predecessorumque statuta eis dare nolebat.
+				<lb/>Cum venissent cum tam glorioso exercitu apud Curfum, castrum illud
+			<lb/>fortissimum fortiter expugnantes obsidere ceperunt.</p>
+			<p><lb/>Et quoniam christiani nimium tunc a Saracenis urgebantur, maxime
+				<lb/>quia rex et quidam principes iam a Saracenis capti fuerant, predicti
+				<lb/>Veneti ab obsidione ipsius castri recesserunt, festinantes in auxilium
+			<lb/>christianorum.</p>
+			<p><lb/>Cum itaque ad partes Ierosolimitani regni prospere accessissent, Iope
+				<lb/>memorata civitas ?obsessa? a multitudine Saracenorum milia navigio
+				<lb/>veniebant. Cum quibus Veneti invocato de celo auxilio, quam
+				<lb/>primum conflixerunt, eosque adiuvante Deo et beato Marco, videntibus
+				<lb/>Iopensibus christianis et Saracenis, qui civitatem obsidebant, hoc
+				<lb/>idem aspicientibus, audacter ceperunt et paganorum sanguinem fuderunt
+				<lb/>atque universas illorum naves obtinuerunt. Tota quidem pelagi
+				<lb/>aqua sanguine Saracenorum erat infecta ita quod magis sanguis
+				<lb/>quam aqua videretur. Cum autem ad terram applicuissent fugientes
+				<lb/>Saracenos ab obsidione una cum Iopensibus christianis insecutí fuerunt
+			<lb/>cedem de eis maximam facientes.</p>
+			<pb n="8"/>
+			<p><lb/>Inde vero ad fortissimam Tyri civitatem accedentes, eam per aliquod
+				<lb/>tempus obsederunt, ubi et galeas in terram extrahi ac de singulis
+				<lb/>singulas tabulas eici fecerunt. Insuper etiam centum milia aureorum
+				<lb/>patriarche Ierosolimitano et principibus atque exercitui Francorum,
+				<lb/>qui ad eandem venerant obsidionem mutuaverunt. Civitas enim
+				<lb/>illa magna erat satis et populosa, terra et mari fortissima et muris ex
+				<lb/>omni parte circundata et munita turribus; eratque in ea gens Saracenorum
+				<lb/>innumerabilis. Hanc itaque Veneti diucius obsidentes et diversis
+				<lb/>illam bellorum generibus expugnantes ceperunt eam et bonis
+			<lb/>omnibus expoliaverunt.</p>
+			<p><lb/>Cumque gaudium magnum super his fieret christianis ita quod et
+				<lb/>ducem libentissime vellent in regem promovere et ipse eorum contradiceret
+				<lb/>voluntati medietatem, immo eciam duas partes Tyri Venetis
+				<lb/>dare voluerunt. Sed Veneti tertia tantum parte se contentos esse
+				<lb/>dicentes, privilegio super hoc a patriarcha et principibus Ierosolimitani
+				<lb/>regni inde confecto et iureiurando firmato, cum gaudio et letitia
+			<lb/>magna redierunt victores.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[5.]</head> <p>Cum autem Rodum venissent et mercatum accepturi pacifice
+				<lb/>ad cives intrassent, noluerunt eis Rodenses alimenta precio vel precibus
+				<lb/>dare, sed eos pocius ut hostes exprobare ceperunt. Unde Veneti
+				<lb/>ira commoti cucurrerunt ad arma et, fractis portis civitatis murisque
+				<lb/>violenter occupatis, civitatem invaserunt et eam auro, argento et rebus
+			<lb/>omnibus expoliaverunt.</p>
+			<pb n="10"/>
+			<p><lb/>Inde vero venerunt Chium et ceperunt civitatem ipsam sederuntque
+				<lb/>in ea per totam yemem, rerum copiam hinc inde coadunantes. A
+				<lb/>Chio autem recedentes Samum, Medolanum, Andrum et alias quam
+				<lb/>plures civitates ceperunt. Modonem quoque, civitatem opulentissimam,
+			<lb/>invaserunt et eam bonis omnibus expoliaverunt.</p>
+			<p><lb/>Cum ergo ad Sclavoniam venissent et quasdam civitates Dalmatie
+				<lb/>ad Ungaros invenissent conversas, Spalatum et Traurium et quasdam
+				<lb/>alias civitates violenter invaserunt et cives earum omnes ad ducis et
+				<lb/>successorum eius fidelitatem reduxerunt. Belgradum vero pro eo
+				<lb/>quod eius cives duci et exercitui temptaverant resistere, rebus ac bonis
+				<lb/>omnibus denudaverunt et eam funditus destruxerunt sicut hodie
+				<lb/>cuique fas est inspicere et Ungaros omnes in fortitudine sua inde eiecerunt.
+				<lb/>Iaderam vero cum venissent ad quendam exierunt locum et
+				<lb/>auri argentique ac rerum copiam civitatum earum quas contriverant
+				<lb/>in medium adducentes et partem orphanis, viduis ac pauperibus primo
+				<lb/>exinde facientes, cetera iubente duce, inter se diviserunt; et ita
+				<lb/>'Te Deum laudamus' cantantes, in letitia et gaudio magno redierunt
+				<lb/>ad propria. Steterat enim exercitus iste per tres annos, hec et alia
+			<lb/>multa faciens.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[6.]</head> <p>Et licet predictus imperator contra Venetos non modicum esset
+				<lb/>comotus propter sui imperii civitates, quas memoratus exercitus eorum
+				<lb/>destruxerat et ob hoc Veneti ad terras imperatoris per tres fere
+				<lb/>annos mercationis causa minime accessissent, occulte tamen supradicto
+				<lb/>duci mandavit, ut suos ad eum dirigeret nuncios. Dux ergo, iam
+				<lb/>senex et pacis amator, legatos ad imperatorem misit pacemque cum
+				<lb/>illo fecit firmissimam. Et cum hec et alia dux idem fecisset, que in
+				<lb/>Venetorum chronica habentur digesta, plenus dierum, obiit in pace et
+			<lb/>apud Sanctum Georgium corpus quiescit humatum.</p>
+		</div>
+		<pb n="12"/>
+		<div type="chapter">
+			<head><lb/>[7.]</head> <p>Post hunc itaque Petrus Polanus, vir strenuus et sapiens ad ducatus
+				<lb/>provehitur dignitatem. Qui Venetos sapienter gubernans et regens,
+				<lb/>cum omnibus habuit pacem. Fuit autem vir curialis et largus
+				<lb/>duosque magni nominis filios habuit; alter quorum Wido comes,
+			<lb/>alius vero Naymerius comes vocabatur.</p>
+			<p><lb/>Tempore enim quo ipse ducatum gubernabat Venecie, Manuel, prefati
+				<lb/>Caloiohannis imperatoris filius, imperii Constantinopolitani obtinuit
+				<lb/>dignitatem. Nam et Rogerius, primus rex Siculus, Sicilie regnum
+				<lb/>in diebus illis regebat. Is quidem Rogerius rex, cum predictum Manuelem
+				<lb/>imperatorem et Grecos admodum haberet exosos, Romaniam
+				<lb/>sepius offendebat. Qui eciam magnum fecit exercitum navium et militum
+				<lb/>et veniens fortissimum Curfu castrum viriliter cepit posuitque
+				<lb/>ibi fortissimos viros ad castrum illud suo nomini semper servandum
+				<lb/>et recedens inde, Nigropum invasit et Stivis occupavit civitatem et
+			<lb/>Corinthum eamque auro et rebus omnibus expolians, ad propria rediit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[8.]</head> <p>Quod comperiens imperator et Venetorum auxilium oportunissimum
+				<lb/>suo imperio reputans, suos ad ducem nuncios protinus misit,
+				<lb/>rogans obnixius et instancius petens, ut consueta benignitate dux et
+				<lb/>Veneti suum Romanie preberent auxilium. Dux vero, legatione imperatoris
+				<lb/>suscepta, mox ad ipsius peticionem copiosum paravit exercitum,
+				<lb/>mandans protinus Venetis, qui causa negociationis in Romania
+				<lb/>fuerant, ut et ipsi inde ad Venetorum exercitum quamtocius properarent.
+				<lb/>Porro rex predictus anno eodem exercitum paraverat et ad
+				<lb/>offendendam Romaniam eum miserat. Cum itaque exercitus Venetorum
+				<lb/>paratus fuisset iamque propositum cepisset iter, dux quoque, qui
+				<lb/>ad petitionem imperatoris cum ipso erat iturus, iam usque Caprulas
+				<lb/>venisset, gravi pressus corporis languore, post paucos dies concessit
+				<lb/>nature. Cuius corpus in Venecia reductum apud Sanctum Cyprianum
+			<lb/>cum patribus in pace positum fuit.</p>
+		</div>
+		<pb n="14"/>
+		<div type="chapter">
+			<head><lb/>[9.]</head> <p>Successit autem ei Domincus Maurocenus, vir nobilis et mitis,
+				<lb/>qui ad prefati exercitus custodiam fratrem filiumque ducis Petri Polani
+				<lb/>misit. Cum ergo exercitus Venetorum Romaniam fuisset ingressus
+				<lb/>et ad obsidendum castrum Curfu, quod predicto regi servabatur,
+				<lb/>prospere accessisset iamque ipsius regis exercitus usque Constantinopolim
+				<lb/>venisset, una cum exercitu imperatoris pars exercitus Venetorum
+				<lb/>contra regis exivit exercitum; et obvians ei apud Maleum venientibus
+				<lb/>Grecis, qui numero plures fuerant atque fugientibus agressi
+				<lb/>fuerunt Veneti inimicos et cum illis fortiter dimicantes XXXX illorum
+				<lb/>naves ceperunt aliasque plures submerserunt. Ceteras quoque, que
+			<lb/>evaserant, usque ad terras regis fuerunt insecuti.</p>
+			<p><lb/>His ergo imperator non modicum letus factus et Venetorum auxilio
+				<lb/>nunc admodum corroboratus, ad inimicos, qui castrum Curfu de
+				<lb/>mandato regis servabant, se cum suo convertit exercitu,dulci prece
+				<lb/>Venetos rogans, ut cum eo castrum et inimicos suos obsiderent, promittens
+			<lb/>se multa beneficia eis et honores plurimos collaturum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[10.]</head> <p>Veneti autem imperatoris annuentes peticioni et maiorum vestigia,
+				<lb/>qui semper defensores Romanie extiterant, sequi volentes, obsederunt
+				<lb/>castrum ubi scalas facientes ac machinas, inimicos acrititer
+				<lb/>expugnabant. Erat enim ibi exercitus copiosus et genus hominum infinitum.
+				<lb/>Sed Veneti inter ceteras naves bellicas gattos habebant fortissimos,
+				<lb/>in quibus scalas faciebant, castrum pernimium expugnantes
+				<lb/>et inimicos potenter offendentes; fiebat quidem ibi cedes hominum
+			<lb/>magna et ab utraque parte multi cadebant.</p>
+			<pb n="16"/>
+			<p><lb/>Cum autem obsidio ista diucius perdurasset et ex fortissimis Venecie
+				<lb/>viris multi corruissent fuissentque saxa fere omnia Venetorum infecta
+				<lb/>sanguine, nec ab obsidione Veneti quomodolibet se averterent,
+				<lb/>licet maximum Venetorum genus ibi cecidisset, factum est, divina
+				<lb/>iubente clementia, quod predictum castrum captum et in imperatoris
+				<lb/>potestatem fuit redactum. Et cum hec et alia pro imperatore et Romania
+				<lb/>Veneti fecissent, ad propria redierunt victores, Deo gratias omnes
+			<lb/>agentes.</p>
+			<p><lb/>Cum ergo propter hec rex predictus Venetos valde odiret, cepit eos
+				<lb/>per se et per quos poterat in personis et rebus offendere. Sed cum diu
+				<lb/>inter regem et Venetos huiusmodi werra durasset et plurimi hinc inde
+				<lb/>ducerentur captivi, duxque predictus pacis quietisque fuisset
+				<lb/>amator, faciente Deo, qui malis finem imponit ad pacem venerunt
+				<lb/>uterque. Hac itaque pace facta et his aliisque sub eodem duce feliciter
+				<lb/>peractis, que in Venetorum chronica digesta putamus, dux idem
+			<lb/>predictus obiit in pace et apud Sanctam Crucem cum patribus iacet.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[11.]</head> <p>Post hunc igitur Vitalis Michael, vir egregius, sapientia et
+				<lb/>pulcritudine decoratus, ad ducatus Venecie regimen est promotus.
+				<lb/>Qui cum prospere fuisset fortune et preclarus ingenio, ab omnibus
+				<lb/>reverebatur, sicut etiam rerum subsequentium probat eventus.
+				<lb/>Nam tempore illo, quo Adrianus papa tercius Romane ecclesie
+				<lb/>preerat ducatum ipse Venecie feliciter gubernabat. Cum predicto
+				<lb/>quoque Manuele imperatore pacem habuit non fictam, adeo ut sepius
+				<lb/>ad defensionem Romanie et Grecorum galeas mitteret et multa pro
+				<lb/>imperio illo faceret, servans predecessorum suorum vestigia, qui
+			<lb/>semper Romanie extiterant defensores.</p>
+			<pb n="18"/>
+			<p><lb/>Cum rege Willelmo eciam, predicti regis Rogerii filio, quem Veneti
+				<lb/>propter predictum imperatorem sepius leserant, pacem habuit et
+				<lb/>amicitiam. Sed et Pisani, qui per multos annos eum Venetis habuerant
+			<lb/>inimicicias, ad pacem et veram amiciciam eum ipso duce venerunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[12.]</head> <p>Cum rege quoque Ungarico dux idem inimicicias habuit, tum
+				<lb/>quia rex ille imperatorem predictum in multis leserat unde Veneti
+				<lb/>Ungaros ubicumque poterant offendebant, tum eciam quia Iaderam
+				<lb/>XXXta milibus virorum propter Iadrensium proditionem occupaverat
+				<lb/>eamque violenter tenebat. Oderant enim Iadrenses Venetos, propterea
+				<lb/>quod archiepiscopatum suum ipse dux patriarchatui Gradensi subesse
+				<lb/>debere dicebat, cum eciam ipsa Iadrensis civitas sub iurisdictione
+				<lb/>Venecie dudum fuisset ducibusque Venecie Iadratini fidelitatem
+				<lb/>semper iurassent. Unde memoratus dux paratis XXXta galeis, civitatem
+				<lb/>Iadrensem in propria persona adivit; quem prefate civitatis
+				<lb/>cives recipere noluerunt. Et propter hoc iratus rediens, exercitum paravit
+				<lb/>copiosum galearum et gattorum et militum et eum ad debellandam
+				<lb/>Iaderam destinavit. Cumque omnis terra esset Ungaris occupata,
+				<lb/>expugnata est Iadera potenter a Venetis; sed fracta scala cuiusdam
+				<lb/>gatti, multi perierunt nobiles loricati. Porro, quia timor et tremor ita
+				<lb/>invaserat Ungaros, qui nullum putarent se posse obtinere subsidium,
+				<lb/>relictis tentoriis et suppellectili universa miseri aufugerunt. Iadrenses
+				<lb/>etiam se et civitatem Venetis sine condicione reddiderunt iurantes
+				<lb/>omnes a duodecimo anno et supra domino duci fidelis archiepiscopatum
+				<lb/>suum ex tunc Gradensi patriarchatui subponentes. His ergo feliciter
+				<lb/>peractis, predictus Venetorum exercitus cum victoria et letitia
+				<lb/>magna Veneciam est reversus. Et post paucos dies nobiliores Iadere
+				<lb/>ferme ducenti ad ducem venerunt pecieruntque humiliter, ut dux comitem
+				<lb/>Iadrensibus daret quemcumque vellet. At dux virum illis providum
+				<lb/>comitem dedit, Dominicum scilicet Maurocenum, memorati
+				<lb/>ducis Dominici Mauroceni filium, qui eciam prefati exercitus capitaneus
+			<lb/>extiterat.</p>
+			<pb n="20"/>
+			<p><lb/>Predictus namque rex Ungaricus amicus fuit postea memorato duci,
+				<lb/>quia et filio illius Leonardo comiti Absari ducis Desse filiam, qui potentior
+				<lb/>fuit in tota Ungaria, dedit uxorem. Alter quoque illius filius,
+				<lb/>scilicet Nicholaus, comes Arbensis, Ladisclavi regis Ungarici filiam
+			<lb/>accepit in coniugem.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[13.]</head> <p>Set et cum Federico Alemanie imperatore, qui ad Romanum
+				<lb/>fuit promotus imperium, predictus dux, quamdiu vixit, inimicicias
+				<lb/>habuit, pro eo quod idem Federicus imperator ipsum ducem et Venecias
+				<lb/>suo laboravit subiugare imperio. Siquidem vivente duce predicto
+				<lb/>imperator Federicus in Ytaliam secundo intravit. Primo namque cum
+				<lb/>adhuc rex esset, venit in Ytaliam et Romam adivit ibique a supradicto
+				<lb/>domino papa Adriano Romani imperii coronam suscepit; qui illo
+			<lb/>eodem anno migravit ad Dominum.</p>
+			<p><lb/>Cui successit dominus Alexander papa tercius, qui a principio sui
+				<lb/>apostolatus a prefacto imperatore graves sustinuit inimicicias, ita
+				<lb/>quod scismaticum et ecclesie persecutorem illum vocaret; nam et imperator
+				<lb/>versa vice illum scismaticum et non papam appellabat. Divisio
+				<lb/>enim electionis a cardinalibus facte huius scismatis principium
+				<lb/>extitit, quia, cum sanior pars et maior numero dominum Alexandrum
+				<lb/>elegisset, pauci partem facientes, in odium illius Octavianum elegerunt,
+				<lb/>qui fuerat cardinalis et ex nobilissimo Romane urbis genere ortus,
+			<lb/>papam illum Victorem vocantes.</p>
+			<pb n="22"/>
+			<p><lb/>Quorum siquidem electionem memoratus imperator, quia dominum
+				<lb/>papam Alexandrum oderat cum esset adhuc in Ytalia fovere cepit et
+				<lb/>per se et per quos poterat manutenere. Denique electio memorati domini
+				<lb/>pape Alexandri, quia canonice fuerat celebrata a memorato duce
+				<lb/>et patriarcha et episcopis Venecie primo approbata fuit et postmodum
+			<lb/>ab ecclesiasticis Ytalie viris suscepta.</p>
+			<p><lb/>Tanta itaque instantia et furore cepit imperator dominum Alexandrum
+				<lb/>papam persequi, quod ipse dominus papa in Franciam ivit et
+				<lb/>cum rege Francie et rege Anglie diucius demoratus est. Et exinde
+				<lb/>universi fere archiepiscopi et episcopi et ecclesiastici viri ac seculares
+				<lb/>principes eidem domino Alexandro pape obedire ceperunt. Octavianus
+				<lb/>in Ytalia autem scisma faciens non longum tempus vixit et apud
+				<lb/>Lucensem civitatem universe carnis viam ingressus est. Cui successit
+				<lb/>in scismate Wido de Crema, qui papa Pascalis a suis scismaticis
+				<lb/>vocabatur; sed modico vivens tempore, apud [?] in scismate
+			<lb/>mortuus fuit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[14.]</head> <p>Eo tamen adhuc vivente, sepedictus imperator secundo in
+				<lb/>Ytaliam venit in maximo exercitu subiugavitque eam imperio suo,
+				<lb/>episcopos qui sue parti favere nolebant eiciens et alios violenter intrudens,
+				<lb/>suam quoque virtutem potenter ostendens. Qui eciam Mediolanum
+			<lb/>obsedit, cepit atque destruxit.</p>
+			<p><lb/>Cepit autem tempore illo et Veneciam vexare et circumpositas Venecie
+				<lb/>civitates graviter expugnare, volens eam suo subiugare imperio.
+				<lb/>Non enim, preterquam in mare, in aliquam partem Veneti exire
+			<lb/>audebant.</p>
+			<pb n="24"/>
+			<p><lb/>Predictus namque dux, vir probus et clarus consilio nichil curans
+				<lb/>de imperatore supradictum Manuelem Constantinopolitanum imperatorem
+				<lb/>et regem Siculum Wilelmum habebat amicos et pro eis, maxime
+				<lb/>pro imperatore Constantinopolitano, eidem imperatori Federico
+				<lb/>se opponebat. Minabatur etiam imperator ille, quod totam destrueret
+				<lb/>Greciam et Grecos suo supponeret dominio. Cum ergo civitates Ytalie
+				<lb/>de mandato eiusdem imperatoris Veneciam offendere totis viribus
+				<lb/>laborarent nec eas Veneti vel in aliquo timerent, sed potius eas et reliqua
+				<lb/>loca Marchie sepius lederent et ex eis multos captivos in Venecia
+			<lb/>ducerent.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[15.]</head> <p>Contigit castrum Capitis Aggeris per proditionem a Veronensibus,
+				<lb/>Paduanis et Ferrariensibus capi et depredari; ubi quidam viri
+				<lb/>Venecie, qui ad custodiam castri missi fuerant, capti sunt. Tunc autem
+				<lb/>cum navibus bellicis Veneti euntes, Arianum et Adriam invaserunt
+				<lb/>et utramque ceperunt civitatem, rebus eas omnibus expoliantes;
+				<lb/>viros et mulieres adduxerunt captivas. Post hec vero cepit dux sapienter
+				<lb/>laborare circa Marchianos et occulte promittens multas peccunias,
+				<lb/>ut contra dominum suum imperatorem simul omnes iurarent.
+				<lb/>Cumque duodecim milia marcarum illis dedisset, fecissetque eos
+				<lb/>contra imperatorem secum iurare, venit Odelricus Aquilegensis patriarcha
+				<lb/>cum comitibus, viris et cum maxima militum multitudine super
+				<lb/>Gradum, volens capere castrum ipsum. Quod cum duci nunciatum
+				<lb/>fuisset, paratas quas habebat protinus misit galeas. Sed quedam
+				<lb/>galea de contratis, alias precedens galeas, venit ad locum ad quem
+				<lb/>venerant hostes; quos quidem Veneti, qui cum ipsa galea venerant,
+				<lb/>tanta virtute agressi sunt, quod patriarcham et comites ac omnes magnates
+				<lb/>salva manu ceperunt. Multi enim de hostibus audatiam Venetorum
+			<lb/>fugientes in paludibus necati fuerunt.</p>
+			<pb n="26"/>
+			<p><lb/>Fuit ergo letitia magna Venetis et de tanta victoria cuncti gratulabantur,
+				<lb/>Deo et beato evangeliste Marco gratias agentes. Fuit autem
+				<lb/>prefatus patriarcha in vinculis apud Venetos cum septingentis fere
+				<lb/>viris, qui capti fuerant, non per modicum tempus. Cum ergo hec et
+				<lb/>alia fecissent Veneti iamque Marchianos sibi data eis peccunia associassent,
+				<lb/>cepit virtus imperatoris admodum deficere et esse tristis,
+				<lb/>quod infidelium suorum consilio Venetos offendere temptaverat.
+				<lb/>Porro prefatus dux, his omnibus letus factus, contra imperatorem cotidie
+				<lb/>agebat dans quoque et Lombardis peccuniam multam et eos
+				<lb/>cum Marchianis iurare fatiens societatem. Sed cum iam imperator
+			<lb/>nec a Lombardis reciperetur, confusus et deiectus rediit in Alemaniam.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[16.]</head> <p>Memoratus autem papa Alexander, his omnibus auditis, gavisus
+				<lb/>est multum et corroboratus regum Francie et Anglie ac principum
+				<lb/>reliquorum auxilio in Ytaliam venit Deo gratias agens et duci ac
+				<lb/>Venetis plurimas refferens grates, quia cardinales et eiectos episcopos
+				<lb/>susceperant et tantum pro Dei ecclesia opus patraverant. Porro
+				<lb/>cum Wido de Crema, quem supra memoravimus, mortuus fuisset,
+				<lb/>electus est a scismaticis quidam abbas de Struma et papa Calixtus
+				<lb/>vocatus est. Qui apud Romagnam et Tusciam sedens, scissuras faciebat
+				<lb/>et scismata. Propter scisma istud ecclesie destruebantur et
+				<lb/>comburebantur et ecclesiastici interficiebantur viri contumeliisque
+				<lb/>ac obprobriis efficiebantur et multa mala fiebant in terra. Cumque
+				<lb/>multi religiosi viri et seculares principes sollicite laborarent ut ad pacem
+				<lb/>ecclesie imperatoris animum revocarent et maxime rex Francie,
+				<lb/>qui sicut vir bonus et honestus huic paci multum intendebat, super
+				<lb/>his operam propensius daret, nec potuisset illum in aliquo a proposito
+				<lb/>suo imperatorem removere et huiusmodi error in ecclesia Dei iam
+			<lb/>per duodecim annos permansisset.</p>
+		</div>
+		<pb n="28"/>
+		<div type="chapter">
+			<head><lb/>[17.]</head> <p>Veneti quoque negociationes suas ubique maxime in terram
+				<lb/>Manuelis Constantinopolitani imperatoris, qua semper usu fuerant,
+				<lb/>libere exercerent et isdem Manuel Constantinopolitanus imperator
+				<lb/>ducem et Venetos sepius nunciis suis honeste et honorifice visitasset.
+				<lb/>Temporibus illis duos honoratos ad ducem et Venetos misit legatos,
+				<lb/>invitans Venetos, ut omnes ad eum et ad terras eius imperii sicut
+				<lb/>ad propria properarent quantocius et peccuniam ad plenum secum
+				<lb/>deferrent, quia eis solis Romaniam totam dare proposuerat et volebat
+			<lb/>quod ipsi soli uterentur ea in mercationibus suis.</p>
+			<p><lb/>Iam conceperat malum in corde suo contra Venetos, videns eos divitiis
+				<lb/>habundare et virtutibus refulgere. Et cum non posset illos iuxta
+				<lb/>desiderium suum pactione aliqua secum habere tacite secum deliberaverat,
+				<lb/>ut vel vim eis inferendo pacatos sibi esse inveniret. Timebat
+			<lb/>enim illos multum sciens eos multa fecisse.</p>
+			<p><lb/>Sed dux de consueta imperatorum Romanie benivolentia admodum
+				<lb/>confidens, de ipso quoque imperatore Manuele, pro quo multum laboraverat,
+				<lb/>non modicum sperans Grecorum credidit adulationjbus
+				<lb/>ignorans omnino quid imperator in corde conceperat. Venetis ergo
+				<lb/>licentiam tribuit, precipiens eis, ut ad terras imperatoris confidenter
+			<lb/>irent.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[18.]</head> <p>Exierunt autem anno illo fere viginti milia Venetorum in Romaniam,
+				<lb/>portantes secum peccunias infinitas et arma copiosa et naves
+				<lb/>multas et magnas. Et tunc missi fuerunt ad imperatorem duo legati,
+				<lb/>potentiores et sapientiores totius Venecie, scilicet Sebastianus
+				<lb/>Çiani et Aurius Mastropetro quos idem imperator honeste suscepit
+				<lb/>atque magnifice, promittens eis, quod Veneciam sicut Romaniam custodiret
+				<lb/>et Venetos ut filios diligeret, quibus Romaniam dare proposuerat,
+			<lb/>ut ipsi soli uterentur illa.</p>
+			<pb n="30"/>
+			<p><lb/>Cumque loqueretur eis verba dulcia in dolo, crederentque ei nuncii,
+				<lb/>dictum est nunciis ipsis, quod imperator dolose loqueretur eis et
+				<lb/>quod malum contra Venetos cogitasset. Qui intraverunt ad eum, dicentes:
+				<lb/>«Domine imperator, audivimus sed non credimus, quod imperium
+				<lb/>tuum contra Venetos multa mala excogitasset». Et publice
+				<lb/>per preconem clamare fecit, ut si quis in aliquo offenderet Venetum,
+			<lb/>se ipsum suspenderet.</p>
+			<p><lb/>Cum itaque Veneti accepta securitate starent securi et maxima militum
+				<lb/>peditumque multitudo ex diversis partibus tunc Constantinopolim
+				<lb/>venisset et essent muri ac palatia adeo munita, quasi deberet civitas
+				<lb/>ab inimicis expugnari, subito irruit imperator in Venetos sicut
+				<lb/>leo et, dato impietatis precepto, post tercium diem trahebantur ad
+				<lb/>carceres et omnia illorum bona ab eis ablata fuerunt intromissa. Inventi
+				<lb/>sunt enim in Constantinopoli eo tempore fere decem milia Venetorum.
+				<lb/>Multum timebat imperator de Venetis, ne se defenderent et idcirco
+				<lb/>multas in Constantinopoli congregaverat gentes. Nam et ipsi voluerunt
+				<lb/>se defendere, sed a memoratis legatis prohibiti fuerunt. Fuit autem
+				<lb/>hec Venetorum capcio facta per totum imperium Constantinopolitanum,
+				<lb/>iubente prefato Manuele imperatore, anno Domini millesimo
+				<lb/>centesimo septuagesimo primo, die duodecima intrante mense
+			<lb/>marcii, indictione IIIIa.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[19.]</head> <p>His itaque gestis, nunciata sunt hec omnia duci; dux vero, his
+				<lb/>auditis, et nesciens quare ita imperator fecisset, sapientibus viris illa
+				<lb/>notificavit. Et ceperunt singuli dolere super facto isto et de parentibus
+			<lb/>suis.</p>
+			<pb n="32"/>
+			<p><lb/>Cumque ad inveniendum, quid super his faciendum esset, consilia
+				<lb/>celebrarentur et deliberassent dux et sapientes viri, legatos ad imperatorem
+				<lb/>mittere et inquirere ab eo quare hoc fecerit, quidam Venetorum,
+				<lb/>qui de Armiro fugerant cum viginti navibus, Veneciam tanto
+				<lb/>impetu intraverunt, quod universa que statuta fuerant irrita fecerunt,
+				<lb/>clamantes omnes et dicentes: «Impie egit contra nos imperator. Accedamus
+				<lb/>contra eum cum magno exercitu et vindicemus iniuriam
+				<lb/>quam sine culpa nobis intulit». Quia ergo fere universi his vocibus
+				<lb/>prebuerunt assensum, statutum est de comuni consilio omnium facere
+				<lb/>exercitum centum galearum et viginti navium, que exercitui victualia
+				<lb/>portarent et machinas ad bellum necessarias. Fuerunt enim
+				<lb/>centum galee de novo edificate et ad omnia parate in quattuor mensiun
+				<lb/>spacio. Nam, cum in mense madio parari cepisset exercitus,
+				<lb/>mense septembris consumato de Venecia egressus est. Prefatus siquidem
+			<lb/>dux dominus et capitaneus huius exercitus extitit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[20.]</head> <p>Cum exercitus iste Venetorum a Venecia egressus fuisset et
+				<lb/>de Iadera et aliis locis Dalmacie decem galee obviam ei exissent
+				<lb/>atque sagitte plurime hinc inde ad servitium exercitus venissent stetissentque
+				<lb/>omnes in servitio Venecie cum ipso exercitu. Ragusei, qui
+				<lb/>ut ceteri domino duci iuramento fidelitatis tenebantur, ei obviam exire
+				<lb/>noluerunt immo, quasi insultantes exercitui, de civitate omnes armati
+				<lb/>exierant. Quapropter irati omnes de exercitu contra Raguseos
+				<lb/>exierunt et eos usque ad portas civitatis persequentes, tanta virtute
+				<lb/>ipso eodem die, cum nona hora esset civitatem ceperunt expugnare,
+				<lb/>quod multi ex civibus ceciderunt, ut, muros civitatis occupantes quasdam
+				<lb/>turres ceperunt, ducis vexillum desuper ponentes et usque ad
+			<lb/>noctem civitatem ipsam viriliter debellantes.</p>
+			<pb n="34"/>
+			<p><lb/>Cumque altera die summo mane homines et machine pararentur ad
+				<lb/>bellum, egrediens Tribunus Michael archiepiscopus Raguseorum de
+				<lb/>civitate et clerici ac nobiles viri cum crucibus ad pedes ducis se prostraverunt,
+				<lb/>veniam sibi et ceteris postulantes et se et civitatem sine
+			<lb/>tenore duci reddentes.</p>
+			<p><lb/>Dux vero serenus et providus, pietate commotus, de consilio suorum
+				<lb/>recepit eos. Et intrantes omnes civitatem laudes duci cantaverunt,
+				<lb/>fidelitatem omnes a duodecimo anno et supra ei et successoribus
+			<lb/>eius iurantes.</p>
+			<p><lb/>Insuper eciam peccuniam et vinum cuique galee dederunt et secundum
+				<lb/>mandatum ducis partem murorum civitatis destruentes; quandam
+				<lb/>turrim, que imperatori erat deputata, deiecerunt. Iuraverunt quoque
+				<lb/>subponere archiepiscopatum suum patriarchatui Gradensi, domino
+				<lb/>papa concedente. His itaque gestis, statuit dux vicecomitem ibi
+			<lb/>Raynerium Ianne, iuvenem egregium.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[21.]</head> <p>Et recedens inde cum suo exercitu, intravit Romaniam, occupans
+				<lb/>civitates, insulas et opida et casalia multa. Et veniens Nigropum
+				<lb/>occupavit civitatem et expolians eam bonis omnibus, sedit in ea aliquot
+				<lb/>diebus. Et cum esset ibi exercitus Grecorum multus nimis, non
+				<lb/>fuerunt ausi defendere civitatem. Sed ita factum est, quod petentibus
+				<lb/>quibusdam viris nobilibus de curia imperatoris, qui cum ipso exercitu
+				<lb/>aderant duo ad imperatorem legati missi fuerunt, videlicet magister
+				<lb/>Pascalis episcopus Equilensis, qui Grecam noverat linguam et in
+				<lb/>literis Grecis adprime erat instructus, munus quoque consecrationis
+				<lb/>ab archiepiscopo Iadratino de mandato patriarce apud Iaderam tunc
+			<lb/>susceperat et Manasse Badovarius.</p>
+			<p><lb/>Exercitus vero Nigropum relinquens venit Chium et civitatem invasit
+				<lb/>et totam insulam atque ibi per totam yemem sedit usque ad sextam
+				<lb/>Quadragesime septimanam, mandans semper galeas ad lesionem
+				<lb/>Romanie civitatum. Porro legati, qui missi fuerant, redierunt ad ducem,
+				<lb/>dicentes se imperatorem non vidisse, quemdam tamen imperatoris
+			<lb/>nuncium secum ducentes.</p>
+			<pb n="36"/>
+			<p><lb/>Iam quidem cor imperatoris induratum erat, quia Venetos quos credebat
+				<lb/>ad nichilum deduxisse, tanto furore et tanta fortitudine terram
+				<lb/>sui imperii videbat intrasse. At dux, suscepto imperatoris nuncio ad
+				<lb/>ipsius instantiam eosdem nuncios suos et tercium cum eis Phyllippum
+			<lb/>Grecum ad imperatorem iterum misit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[22.]</head> <p>Cum autem hec agerentur, maxima infirmitas cepit de exercitu
+				<lb/>multos, ita quod intra paucum tempus fere mille viri mortui sunt.
+				<lb/>Comunis enim fama apud omnes erat, quod imperator putheos et vina
+				<lb/>fecerat toxicare. Quapropter Veneti omnes, relinquentes Chium,
+				<lb/>venerunt ad insulam que Sancta Panachia dicitur, ubi eciam mors secuta
+				<lb/>est eos tollens de exercitu multos. Sed legati predicti redeuntes,
+				<lb/>se sicut prius fecisse dixerunt. Quidam imperatoris nuncius cum eis
+				<lb/>venit qui ostendit quam dure imperator acceperat hec que Veneti fecerant
+				<lb/>et peciit, ut iterum dux ad imperatorem nuncios delegaret promittens,
+				<lb/>quod hac vice reciperet eos imperator. Dux siquidem, pacis
+				<lb/>amator, fidem dans verbis nuncii, iterum duos legatos misit, Henricum
+			<lb/>Dandalum et Phylippum Grecum.</p>
+			<p><lb/>Exiens Sancta Panagia, venit ad insulam Medolini; ibique facto
+				<lb/>consilio, ad insulam Stalimini voluit ire, ut Pasce festum ibi celebraret,
+				<lb/>sed ventorum vi faciente compulsus est ad Skirum insulam venire
+				<lb/>et ibi Pascha in luctu celebrare et lamentatione propter homines
+				<lb/>qui cotidie moriebantur. Cumque clamores populi prefactus dux ferre
+				<lb/>posset non de comuni consilio Veneciam rediit, et Raynerium Ianne,
+				<lb/>quem apud Ragusium dimiserat, secum duxit; qui eciam post
+			<lb/>paucum tempus mortuus est.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[23.]</head> <p>Reverso autem in Venecia exercitu, multi ex his qui venerant
+				<lb/>et qui domi steterant, viri et mulieres, mortui fuerunt. Cum ergo quidam,
+				<lb/>qui ducem oderant, scisma cotidie facientes in populo, acclamarent,
+				<lb/>dicentes: «Traditi sumus et male ducti et idcirco venit super
+				<lb/>nos tanta tribulatio», concionem in aulam ducis vocassent contra ducem
+			<lb/>cum cultellis et lapidibus nimium furentes.</p>
+			<pb n="38"/>
+			<p><lb/>Sapientes quidam qui cum duce aderant, timore percussi, unus post
+				<lb/>unum a concione exierunt duce relicto. Dux vero gladiatores super se
+				<lb/>venire videns, a palatio exiens, venit ad ripam, et per pontem transiens,
+				<lb/>ad Sanctum Çachariam fugere cepit et cum ante fores ecclesie
+				<lb/>venisset, quidam latro nefandissimus ei fuit obvius, qui sine interrogatione
+				<lb/>cultello eum peremit et fugit. Sed dux se percussum sentiens,
+				<lb/>sacerdoti cuidam, qui ad aperiendas [ianuas] obvius ei exierat, confessus
+			<lb/>migravit ad Dominum.</p>
+			<p><lb/>Hec quidem amici ducis et sanior pars populi ignorabant. Sed cum
+				<lb/>auditum est quod factum erat commota est Venetia tota. Hinc inde
+				<lb/>populus concurrentibus et «Heu! super tanto ac tali domino!» acclamantibus,
+				<lb/>et quare hoc acciderat omnino ignorantibus; latro namque
+			<lb/>fugerat et se occultaverat.</p>
+			<p><lb/>Altera vero die patriarcha et episcopi ac honesti viri et universi
+				<lb/>convenerunt populi et ponentes corpus in monumento marmoreo in
+				<lb/>ecclesia beati Çacharie, ad ecclesiam sancti Marci omnes venerunt et
+				<lb/>ibi alterum statuerunt invenire dominum. Non enim sine duce diucius
+			<lb/>esse poterant.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[24.]</head> <p>De comuni ergo voto et concordia tocius populi electi sunt
+				<lb/>undecim nobiles viri, qui iuraverunt se electuros in ducem eum quem
+				<lb/>scirent sapientiorem et utiliorem ad regimen ducatus, non inspecto
+			<lb/>precio, odio vel amore.</p>
+			<pb n="40"/>
+			<p><lb/>Qui, iuramento prestato, pari voto et comuni concordia post tertium
+				<lb/>diem elegerunt dominum Sebastianum Çiani, virum providum et discretum,
+				<lb/>sapientem et benignum atque diviciis infinitis exuberantem.
+				<lb/>Cuius electioni nec unus de populo contradixit, sed omnes concorditer
+				<lb/>acclamaverunt, dicentes: «Vivat talis dux et utinam per eum possimus
+			<lb/>pacem obtinere».</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[25.]</head> <p>Qui cum iam septuaginta fere esset annorum et honeste fuisset
+				<lb/>conversationis et magne humilitatis, pacem cum omnibus habere
+				<lb/>voluit. Cepit itaque sollicite laborare, ut cum honore Venecie ad pacem
+				<lb/>veniret predicti imperatoris Constantinopolitani et misit ad eum
+				<lb/>nobiles viros, Vitalem Dandolum, Manassen Badovarium et Vitalem
+				<lb/>Faletrum, postquam predictos duos nuncios, quos dux Vitalis miserat
+			<lb/>ad imperatorem, sanos recepit.</p>
+			<p><lb/>Porro pretermittendum non est quid factum fuerit de latrone, qui
+				<lb/>ducem sepedictum interfecerat. Cum enim per aliquot dies latuisset
+				<lb/>et a querentibus fuisset sub terra inventus, ad presentiam ducis Sebastiani
+				<lb/>adductus est et ad populi petitionem iuditio iudicum fuit suspensus.
+				<lb/>Predicti autem legati ad imperatorem euntes, ducis voluntatem ei
+				<lb/>insinuarunt et cum eo de pace diucius pertractantes, cum duobus eiusdem
+				<lb/>imperatoris nunciis ad ducem redierunt. Dux autem de pace
+				<lb/>confidens, iterum duos, scilicet predictum Vitalem Dandulum et
+				<lb/>Henricum Navigosum, cum imperatoris nunciis ad eum remisit. Qui
+				<lb/>nichil fecerunt de pace; sed Vitalis Dandulus ibidem mortuus fuit.
+			<lb/>Alter vero Henricus rediens, alios secum duos ad ducem reduxit legatos.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[26.]</head> <p>Tempore enim illo invitatus dux a Guilielmo rege Scicilie, supradicti
+				<lb/>Guilielmi regis filio, legatos ad eum miserat, videlicet Aurium
+				<lb/>Mastropetro, cuius superius memoriam fecimus et Aurium
+			<lb/>Dauro et cum eo pacem iam fecerant et amicitiam.</p>
+			<pb n="42"/>
+			<p><lb/>Super qua quidem pace imperator predictus nimium movebatur et
+				<lb/>ultra quam credi potest tristis fuerat factus et laborabat propensius,
+				<lb/>ut, si quo modo posset, illam infringeret. Sed cum legati quos miserat
+				<lb/>alios peterent legatos, promittentes firmissime quod hac vice pacem
+				<lb/>faceret imperator, missi sunt tres viri egregii, scilicet Leonardus
+				<lb/>comes Absari, memorati ducis Vitalis bone memorie filius et Marinus
+				<lb/>Michael eius consanguineus atque Phylippus Greco; qui Phylippus
+				<lb/>postea in ipsa obiit legatione. Quos imperator suscipiens eosque
+				<lb/>de pace reddens securos, duos cum eis ad ducem nuncios misit;
+				<lb/>qui verba dulcia in dolo coram ducem loquentes, de pace iam ab imperatore
+				<lb/>promissa nichil fecerunt. Quos ergo dux retro mandavit et
+			<lb/>aliquos deinceps mittere cessavit.</p>
+			<p><lb/>Fecerat enim pacem firmissimam cum domino Babylonie et cum
+				<lb/>domino Massamutorum. Et ibant Veneti ad omnes terras securi, negociationes
+				<lb/>libere suas exercentes preterquam ad terras Grecorum,
+			<lb/>quas Veneti propter imminentem imperatoris werram sepius leserant.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[27.]</head> <p>In illis autem diebus, cum predictus dominus papa Alexander
+				<lb/>in confiniis Romane urbis sederet, quidam Magontinus archiepiscopus
+				<lb/>nomine Christianus, quem, ut supra memoratus Phedericus imperator
+				<lb/>ad partes Tuscie et Romagne miserat, Anconam voluit obsidere,
+				<lb/>ut, cum iam Romagnam, Tusciam et marchiam Anconitanam
+				<lb/>suo subiugaret dominio, Anconam quoque Romano subicere imperio
+				<lb/>niteretur. Eundem papam vexabat, non voluntarie, ut credo, sed mandatis
+			<lb/>sui domini satisfaciens.</p>
+			<pb n="44"/>
+			<p><lb/>Sed cum Anconitanos juxta desiderium suum offendere non potuisset,
+				<lb/>auxilium Venetorum cepit sibi opportunissimum et imperio Romano
+				<lb/>excogitare. Quapropter nuncios ad ducem misit, et facta cum
+				<lb/>eo amicicia, phedus contraxit, ut cum Venetis Anconitanos, intendentes
+				<lb/>imperii, expugnaret. Oderant enim Veneti Anconitanos, tum
+				<lb/>propter inimicitias que inter eos fuerant, cum etiam propter inimicos
+				<lb/>eorum Grecos, quos ipsi in odium et contrarietatem Venetiarum suscipiebant.
+				<lb/>Unde prefatus dux exercitum galearum et aliarum navium preparari
+				<lb/>iussit et ad expugnandos Anconitanos ipsum misit anno Domini
+				<lb/>1173. Fuit ergo Ancona a Venetorum exercitu per mare obsessa et
+				<lb/>tam ab ipsis Venetis quam ab exercitu archiepiscopi Christiani, cancellarii
+				<lb/>imperatoris, in circuitu fortiter per aliquod tempus expugnata.
+				<lb/>Et cum iam viribus et victualiis Anconitani defecissent nec possent
+				<lb/>exercitibus resistere et se Venetis libentissime rendere vellent,
+				<lb/>de quorum fide confidebant non modicum, quidam Lombardorum,
+				<lb/>qui pecuniam imperatoris Grecorum acceperant causam imperatoris
+				<lb/>Romanorum destruere cupientes et Venetorum victorie invidentes,
+				<lb/>congregaverunt maximum exercitum et in auxilium Anconitanorum,
+				<lb/>qui penes iam exanimes effecti fuerant, festinaverunt. Veneti vero
+				<lb/>asperitatem hiemis timentes et in portu Ancone diutius propter hiemem
+			<lb/>esse non audentes, redierunt ad propria.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[28.]</head> <p>Anno vero illo imperator Phedericus tertio venit in Italiam
+				<lb/>cum maxima militum et peditum multitudine; sed Lombardi eum non
+				<lb/>reciperunt confidentes de societate quam fecerant contra eum, accepta
+			<lb/>Venetorum pecunia.</p>
+			<pb n="46"/>
+			<p><lb/>Quasdam tamen eorum civitates imperator violenter obtinuit; et
+				<lb/>procedendo inde quamdam civitatem Alexandriam, quam Lombardi
+				<lb/>in odium edificaverant, obsidere cepit et eam ac Lombardos contra
+				<lb/>se venientes expugnat. Sed Papienses sponte ad eum redierunt iurantes
+				<lb/>ei fidelitatem; quod etiam et paulo post Cremonenses fecerunt
+				<lb/>qui cum de societate Lombardorum fuissent, mediatores inter ipsos
+				<lb/>et imperatorem extiterunt. Quanta ergo fecerit contra Lombardos
+				<lb/>tempore illo imperator et quam viriliter eos expugnaverit, quantum
+				<lb/>etiam Lombardi tunc fatigati fuerint expensis et exercitibus, non est
+			<lb/>nostre parvitati exponere.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[29.]</head> <p>Anno igitur eodem, qui fuit ab incarnatione Domini 1174 qui
+				<lb/>fuit convintus captionis Venetorum cum esset imperator apud civitates
+				<lb/>predictas et suos expugnaret inimicos, audiens de pace, quam dux
+				<lb/>cum prefato Christiano archiepiscopo et sui imperii principe fecerat
+				<lb/>gavisus est multum. Idem enim archiepiscopus super pacem ecclesie
+				<lb/>laborabat et diligentius ducem quoque sepius invitabat, ut ipse super
+			<lb/>pace ecclesie suum prestaret auxilium et consilium.</p>
+			<p><lb/>Nam et imperator in tantum ducem et Venetos diligere cepit, ut
+				<lb/>scriberet multoties duci, quod eius arbitrio et laudationi de pace ecclesie
+				<lb/>informanda stare vellet libenter. Confidebat quidem de ducis
+				<lb/>honestate et Venetorum constantia, et laborabat propensius, ut et ipsum
+				<lb/>ducem et Venetos sibi faceret fidos amicos. Cum ergo super pace
+				<lb/>ecclesie etiam ipse dux sincere laboraret et fide et quidam honesti
+				<lb/>viris quos reges Francie et Anglie duxerant ad reformandum dominum
+				<lb/>papam et imperatorem iam firme induxissent, mandavit idem
+				<lb/>dominus papa duci, quod ad pacem hanc reformandam Venetias accedere,
+			<lb/>duce annuente, volebat.</p>
+			<p><lb/>Quod verbum placuit duci et Venetis omnibus. Mandaverat enim
+				<lb/>tam dominus papa quam imperator ad diversas partes mundi, ut archiepiscopi,
+				<lb/>episcopi, abbates quoque et ecclesiastici viri ac seculares
+				<lb/>principes, ut apud Venetias convenirent, quia Venetia tuta erat
+				<lb/>omnibus et fertilis et abundans in omnibus et gens eius quieta et pacis
+			<lb/>amatrix.</p>
+		</div>
+		<pb n="48"/>
+		<div type="chapter">
+			<head><lb/>[30.]</head> <p>Anno, inquam, Domini 1177 cum principibus et magnatibus
+				<lb/>Alemanie, Francie, Anglie et Hispanie et Ungherie et totius Italie,
+				<lb/>tam ecclesiasticis quam secularibus, plures in civitate Venetiarum
+				<lb/>convenissent, quorum nomina inferius sunt descripta, pacem ecclesie
+				<lb/>dicti inter dominum papam et imperatorem cupientes ipsumque dominum
+				<lb/>papam ibi diutius expectantes, die septimo exeunte mense
+				<lb/>martii venit dominus papa cum undecim galeis, quas ei rex Wilielmus
+				<lb/>dederat et apud Sanctum Nicolaum a filiis ducis et honestis viris
+			<lb/>receptus, ibidem die illo fuit hospitatus.</p>
+			<p><lb/>Altera autem die, que fuit vigilia annuntiationis beate Marie, ipse
+				<lb/>dux et magnates Veneti, patriarca quoque ac episcopi et clerici omnes,
+				<lb/>induti sacerdotalibus vestibus, honeste satis et magnifice cum
+				<lb/>crucibus et aptatis navibus ad domini pape venerunt pedes et inde recepto
+				<lb/>domino papa in nave ducis, que satis gloriose preparata fuerat,
+				<lb/>sedit dux ad dexteram eius et patriarca Henricus Dandulus ad sinistram;
+				<lb/>et ita cum processione et gloria magna venerunt omnes ad ecclesiam
+				<lb/>beati Marci, ubi tanta erat multitudo virorum ac mulierum,
+				<lb/>adventum domini pape expectantes, qui non solum ecclesiam repleverunt
+				<lb/>totam, sed etiam superiora ecclesie et totius brolii occupaverant
+			<lb/>loca.</p>
+			<p><lb/>Ibique super pace ecclesie Dei et Lombardorum cum duce et sapientibus
+				<lb/>viris consilia per decem septem dies celebravit. Vocatus
+				<lb/>autem a Lombardis, qui pacem imperatoris occulte fugiebant, adivit
+				<lb/>Ferrariam et illic per aliquot dies demoratus, iterum venit Venetias et
+			<lb/>secundo a duce, clero ac populo, sicut primo, fuit receptus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[31.]</head> <p>Venerat quidem predictus Christianus archiepiscopus in Venetias,
+				<lb/>qui inter dominum papam et imperatorem quasi mediator extiterat
+				<lb/>et cum viris honestis, quos reges Francie et Anglie miserant ac
+			<lb/>cum duce prefato pacis loquebatur verbum.</p>
+			<pb n="50"/>
+			<p><lb/>Factum est autem, quod cooperante Spiritus Sancti gratia pax ipsa,
+				<lb/>quam totius fere mundus cupiebat, fuit statuta; et missum est ad imperatorem,
+				<lb/>ut et ipse Venetias in propria, sicut diu optaverat, veniret
+				<lb/>persona. Qui letus factus cum de pace, quam divino tactus spiritu optabat,
+				<lb/>tum etiam de ducis et Venetorum prudentia, quos sua amicitia
+				<lb/>copulare satagebat, hoc ordine venit Venetias. Ducis namque filius
+				<lb/>Petrus, qui satis bone indolis erat, usque Ravennam cum multis nobilibus
+				<lb/>obviam ei exivit et cum Clugiam cum eo omnes honeste venissent,
+				<lb/>ubi et cardinales domini pape obviam illi venerant cum sex galeis
+				<lb/>proborum virorum, quas dux ad eum recipiendum miserat usque
+				<lb/>ad Sanctum Nicolaum venit, ubi alter ducis filius Iacobus, iuvenis
+			<lb/>egregius, et multi cum eo nobiles viri eum receperunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[32.]</head> <p>Altera vero die que fuit vigilia beati Iacobi apostoli, dux, patriarca
+				<lb/>et episcopi et clerus ac populus cum magna pompa et paratis
+				<lb/>navibus ad eum venerunt. Recipiens eum dux in navi sua, quam magnifice
+				<lb/>preparaverat, sedit ad dexteram eius et patriarca ad sinistram
+				<lb/>et venerunt omnes cum gratia et letitia magna ad ecclesiam beati
+				<lb/>Marci, ubi inaudita convenerat multitudo, que venerat ad tantum
+			<lb/>gaudium et ad eum videndum.</p>
+			<p><lb/>Stabat enim papa in ianua ecclesie, super solium sedens et circa
+				<lb/>eum cardinales, archiepiscopi et episcopi, abbates, priores et multi
+				<lb/>honesti viri erant; ad quem accedens imperator, primo pedes, deinde
+				<lb/>eius coram omnibus est osculatus. Inde vero surgentes papa medius
+				<lb/>inter imperatorem et ducem, ecclesiam intrantes, 'Te Deum laudamus'
+			<lb/>cantaverunt.</p>
+			<pb n="52"/>
+			<p><lb/>Et exinde omnes gratias Deo egerunt, gaudentes et exultantes
+				<lb/>et pro nimia letitia flentes et sic accessit imperator ad altare beati Marci
+				<lb/>et ibi munera obtulit non pauca. Recepit autem eum dux in palatio
+				<lb/>suo cum nobilibus et militibus, qui secum venerant et cum familia
+			<lb/>sua.</p>
+			<p><lb/>Fuit ergo letitia magna die illo in Venetiis et super pace universe
+				<lb/>letabantur gentes, dicentes Venetis: «O, quam beati estis, quia tanta
+				<lb/>pax apud vos potuit reformari; hoc quidem erit memoriale nominis
+				<lb/>vestri in eternum». Fuit ergo pax ecclesie inter dominum papam et
+				<lb/>imperatorem in Venetiis corroborata et apud omnes vulgata eodem
+			<lb/>die.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[33.]</head> <p>Cepit ergo dominus papa ex tunc solicite laborare, ut ad gratiam
+				<lb/>et pacem imperatoris Lombardos reduceret; sed cum eos conditionaliter
+				<lb/>recipere noluisset, ad hoc inductus est, quod treguam usque
+				<lb/>ad sex annos eis fecit. Nam et predicto regi Siculo, cuius cause dominus
+				<lb/>papa paterne fovebat, ad eiusdem domini pape instantiam
+				<lb/>quindecim annorum treguam se observaturum promisit. Cum duce
+				<lb/>autem et Venetis pacem, quamcumque voluerunt fecit et amicitiam;
+				<lb/>et sic in letitia et gaudio magno duobus fere mensibus in Venetiis
+				<lb/>moram faciens, multos honores se Venetis exibiturum promisit et fecit,
+			<lb/>antequam recessit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[34.]</head> <p>Sic constat manifeste in historia de hiis continente et exinde
+				<lb/>amicissimus eorum factus, ad terras sui imperii, quas diligebat, accessit.
+				<lb/>Dominus vero papa, negotiis ecclesie attendens, intrusos eiecit
+				<lb/>et deletos restituit episcopos et ecclesiasticos viros, qui etiam usque
+				<lb/>ad medium mensem octobris in Venetiis demoratus, grates plurimas
+				<lb/>duci et Venetis attulit. Hic indulgentiam de pena et de culpa
+				<lb/>omnibus dedit vere penitentibus et confessis, si qui ad ecclesiam
+				<lb/>sancti Marci in die ascensionis domini nostri Ihesu Christi peregere
+				<lb/>fuerit, die illo incipiente a vesperis vigilie illius diei, finiente die sequenti
+				<lb/>tota. Et comendans illos Deo ac benedicens cum quatuor galeis
+				<lb/>proborum virorum, quas dux illi dedit, in Apuliam transit, inde
+			<lb/>ad propria accessurus.</p>
+		</div>
+		<pb n="54"/>
+		<div type="chapter">
+			<head><lb/>[35.]</head> <p>Pretermittendum non est, quod dominus predictus quinta dominica
+				<lb/>Quadragesime, que est Letare Ierusalem, missa apud Sanctum
+				<lb/>Marcum celebravit et processionem tunc fecit, in qua rosam detulit
+				<lb/>auream satis speciosam et magnam, quam imperatori vel regi dare
+				<lb/>consuetudinem habet, qua quidem celebrata missa, duci propria obtulit
+				<lb/>manu. Qui dominus papa celebravit missam apud Sanctum Petrum
+				<lb/>de Castello et Sanctum Danielem, apud Sanctum Marcum plures
+				<lb/>et tres in Rivoalto ecclesias consecravit et ecclesiam sancte Marie
+				<lb/>de Caritate die nona mensis aprilis, ecclesiam sancti Salvatoris
+				<lb/>die [?], mensis [?]. Sed et munera magna et plura a duce et a
+				<lb/>commune Venetiarum atque etiam a multis nobilibus viris et mulieribus
+			<lb/>diebus illis fuit dominus papa consecutus.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[36.]</head> <p>Qui interfuerunt predicte paci sunt infrascripti.</p>
+			<p><lb/>Pontius Claremontis episcopus cum hominibus 30.</p>
+			<p><lb/>Bonevallis abbas cum hominibus 13.</p>
+			<p><lb/>Qui ambo a rege Francie et a rege Anglie missi sunt huius pacis
+			<lb/>exsistere mediatores.</p>
+			<p><lb/>Urlicus Aquilejensis patriarca cum quodam episcopo suo et comite
+			<lb/>Migenardo cum hominibus 300.</p>
+			<p><lb/>Phiilippus Coloniensis archiepiscopus cum Mindensi abbate et abbate
+				<lb/>Verdensi et abbate Papiensi de Aureo Celo et preposito Bononiensi
+			<lb/>et comite Federico de Altena cum hominibus 400.</p>
+			<p><lb/>Christianus Maguntinus archiepiscopus cum Pisaurensi electo et
+				<lb/>cum abbate Sancti Iacobi et Henrico decano maioris ecclesie et quatuor
+				<lb/>prepositis et quodam comite fratre suo et aliis quatuor comitibus
+			<lb/>cum hominibus 300.</p>
+			<p><lb/>Virchmanus Madeburghensis episcopus cum abbate de Berga et
+				<lb/>aliis abbatibus et quatuor prepositis et duobus comitibus et uno marchione
+			<lb/>cum hominibus 300.</p>
+			<p><lb/>Arnaldus Trevirensis archiepiscopus cum hominibus 50.</p>
+			<p><lb/>Corradus Salisburgensis archiepiscopus cum Ottone palatino comite
+			<lb/>cum hominibus 125.</p>
+			<pb n="56"/>
+			<p><lb/>Albertus archiepiscopus Salisburgensis, qui deiectus fuit cum quodam
+			<lb/>preposito et priore et duobus comitibus, cum hominibus 60.</p>
+			<p><lb/>Algisius Mediolanensis archiepiscopus cum Milone episcopo Tauriensi
+				<lb/>et archidiacono et archipresbitero suo et abbate Sancti Dionisii
+			<lb/>cum hominibus 60.</p>
+			<p><lb/>Romualdus archiepiscopus Salernitanus cum hominibus 60.</p>
+			<p><lb/>Rogerius comes Andrie cum duobus notariis curie regis dicti, cum
+			<lb/>hominibus 330.</p>
+			<p><lb/>Girardus archiepiscopus Ravenatensis cum hominibus 50.</p>
+			<p><lb/>Bertrandus Acquensis archiepiscopus cum Forojuliensi episcopo
+			<lb/>cum hominibus 12.</p>
+			<p><lb/>Robertus Vienensis archiepiscopus cum Petro Morincensi episcopo
+			<lb/>et duobus abbatibus cum hominibus 50.</p>
+			<p><lb/>Everardus Bisantinus archiepiscopus cum magistro cantore ecclesie
+			<lb/>cum hominibus 30.</p>
+			<p><lb/>Lampridius Iadratinus archiepiscopus cum hominibus 12.</p>
+			<p><lb/>Artuycus Augustensis episcopus cum duobus abbatibus et decano
+			<lb/>maioris ecclesie et duobus prepositis cum hominibus 100.</p>
+			<p><lb/>Ludovicus Basiliensis episcopus cum quodam abbate cum hominibus
+			<lb/>30.</p>
+			<p><lb/>Rodolfus Argentiniensis episcopus cum archidiacono et preposito
+			<lb/>suo cum hominibus 50.</p>
+			<p><lb/>Enricus Lubicanus episcopus cum prepositis duobus et alius quidam
+			<lb/>episcopus cum eo cum quodam preposito suo cum hominibus 10.</p>
+			<p><lb/>Arno Mindensis episcopus cum hominibus 20.</p>
+			<p><lb/>Arnaldus Osnabrugensis episcopus cum hominibus 30.</p>
+			<p><lb/>Conradus Vormatiensis electus cum decano suo cum hominibus 30.</p>
+			<p><lb/>Eberardus Merburgensis episcopus cum quodam abbate suo cum
+			<lb/>hominibus 30.</p>
+			<p><lb/>Wolricus Alvensantensis episcopus cum hominibus 16.</p>
+			<p><lb/>Romanus Gurgensis episcopus cum duobus prepositis, cum hominibus
+			<lb/>50.</p>
+			<p><lb/>Hermanus Bamburgensis episcopus, qui iacet apud sanctum Marcum
+				<lb/>in ecclesia sancti Ioannis Baptiste et cum eo tres archidiaconi et
+			<lb/>quatuor prepositi et decanus matricis ecclesie cum hominibus 100</p>
+			<pb n="58"/>
+			<p><lb/>Sigifredus Brandeburgensis episcopus cum quodam abbate suo
+			<lb/>cum hominibus 30.</p>
+			<p><lb/>Thebaldus Pataviensis episcopus cum duobus archidiaconis cum
+			<lb/>hominibus 50.</p>
+			<p><lb/>Marsilius Balneoriensis episcopus cum hominibus 25.</p>
+			<p><lb/>Salamon Tridentinensis episcopus cum hominibus 30.</p>
+			<p><lb/>Otto Albensis episcopus cum hominibus 10.</p>
+			<p><lb/>Thebaldus Placentinensis episcopus cum hominibus 20.</p>
+			<p><lb/>Iohannes Bonnoniens episcopus cum quodam preposito suo cum
+			<lb/>hominibus 30.</p>
+			<p><lb/>Gualla Bergomensis episcopus cum hominibus 21.</p>
+			<p><lb/>Albericus Laudensis episcopus cum abbate Sancti Petri et preposito</p>
+			<p><lb/>Sancti Geminiani et quatuor consulibus cum hominibus 18.</p>
+			<p><lb/>Ioannes episcopus Mantue qui eiectus fuit cum hominibus 20.</p>
+			<p><lb/>Offredus Cremonensis episcopus cum hominibus 40.</p>
+			<p><lb/>Ioannes Brissiensis episcopus cum hominibus 30.</p>
+			<p><lb/>Garsendonius Mantuanus episcopus cum hominibus 28.</p>
+			<p><lb/>Guilelmus Astensis electus cum hominibus 15.</p>
+			<p><lb/>Anselmus Comensis episcopus cum quodam archidiacono suo cum
+			<lb/>hominibus 20.</p>
+			<p><lb/>Albriconius Regiensis episcopus cum archidiacono et preposito suo
+			<lb/>cum hominibus 40.</p>
+			<p><lb/>Gerardus Paduanus cum archidiacono Sacensi cum hominibus 26.</p>
+			<p><lb/>Obertus Acquensis episcopus cum ?hominibus? 17.</p>
+			<p><lb/>Omnibonus Veronensis episcopus cum ?hominibus? 25.</p>
+			<p><lb/>Sigifredus Tuunenis episcopus cum ?hominibus? 10.</p>
+			<p><lb/>Ugo Mutinensis episcopus cum ?hominibus? 20.</p>
+			<p><lb/>Petrus Papiensis episcopus cum archipresbitero et preposito suo
+			<lb/>cum hominibus 30.</p>
+			<p><lb/>Oldericus Tarvisiensis episcopus cum hominibus 20.</p>
+			<p><lb/>Quidam alius episcopus Cremonensis qui eiectus fuit, cum
+			<lb/>?hominibus? 20.</p>
+			<p><lb/>Drudus Feltrensis episcopus cum ?hominibus? 20.</p>
+			<p><lb/>Gerardus Concordiensis episcopus cum ?hominibus? 20.</p>
+			<p><lb/>Stephanus Pisariensis electus cum ?hominibus? 20.</p>
+			<pb n="60"/>
+			<p><lb/>Gentilis Auximanus episcopus cum ?hominibus? 25.</p>
+			<p><lb/>Rizolinus Ariminensis episcopus cum ?hominibus? 20.</p>
+			<p><lb/>Ermenganus Provincialis, electus Beati Egidii, cum duobus comitibus
+			<lb/>et advocatore ecclesie cum hominibus 30.</p>
+			<p><lb/>Guielmus Amaneus, de Silva Majoris electus cum quodam priore
+			<lb/>cum hominibus 22.</p>
+			<p><lb/>Philippus Pollensis episcopus cum hominibus 17.</p>
+			<p><lb/>Warnandus Tergestinus episcopus cum ?hominibus? 30.</p>
+			<p><lb/>Pravedinus Ferrariensis episcopus cum ?hominibus? 26.</p>
+			<p><lb/>Parentinus episcopus cum hominibus 8.</p>
+			<p><lb/>Henricus Insurgnensis abbas cum [?]</p>
+			<p><lb/>Rogerius Numburiensis, abbas Sancti Georgii cum ?hominibus? 10.</p>
+			<p><lb/>Sigifredus eiusdem loci abbas cum hominibus 25.</p>
+			<p><lb/>Bertoldus Mislevensis abbas cum hominibus 25.</p>
+			<p><lb/>Henricus Salisburgensis abbas cum alio Henrico abbate Elsimbanensi
+			<lb/>cum hominibus 5.</p>
+			<p><lb/>Abbas Gigus Sancti Salvatoris Papie cum hominibus 6.</p>
+			<p><lb/>Rodulfus de Ponte Usentie prior cum hominibus 11.</p>
+			<p><lb/>Iohannes abbas Acque nigre cum quodam comite cum hominibus 25.</p>
+			<p><lb/>Quidam abbas de Parisiis cum hominibus 15.</p>
+			<p><lb/>Quidam abbas Burgundie cum hominibus 8.</p>
+			<p><lb/>Daniel electus abbas, duo abbates Papie cum hominibus 12.</p>
+			<p><lb/>Guilelmus Frasinorensis abbas cum hominibus 20.</p>
+			<p><lb/>Gottifredus Sextensis abbas cum hominibus 20.</p>
+			<p><lb/>Ugo abbas Dumentensis cum hominibus 10.</p>
+			<p><lb/>Gualterius abbas Ariminensis de Sancto Gaudentio cum hominibus 5.</p>
+			<p><lb/>Petrus abbas Sancti Vitalis Ravenne cum hominibus 5.</p>
+			<p><lb/>Iohannes Fontis Volani prior cum hominibus 10.</p>
+			<p><lb/>Deodatus Massiliensis abbas cum hominibus 5.</p>
+			<p><lb/>Quidam prior Francie cum hominibus 5.</p>
+			<p><lb/>Brocardus prepositus Maguntie Sancti Petri et Henricus decanus
+			<lb/>maioris ecclesie cum quodam abbate cum hominibus 21.</p>
+			<p><lb/>Ardoynus prothonotarius imperialis cum duobus prepositis cum hominibus
+			<lb/>40.</p>
+			<pb n="62"/>
+			<p><lb/>Gottifredus cancellarius imperatoris cum quodam preposito et uno
+				<lb/>comite cum hominibus 60.Decanus et cantor Viceburgensis cum hominibus
+			<lb/>7.</p>
+			<p><lb/>Uderlicus Aquileie archidiaconus cum preposito et archidiacono
+			<lb/>Salisburgensi cum hominibus 25.</p>
+			<p><lb/>Sigimbertus Salisburgensis prepositus et archidiaconus cum quodam
+			<lb/>alio archidiacono et tribus prepositis cum hominibus 35.</p>
+			<p><lb/>Theodoricus Misinensis prepositus cum hominibus 8.</p>
+			<p><lb/>Gottifredus clericus et nuncius regis Anglie cum aliis clericis Anglie
+			<lb/>cum hominibus 42.</p>
+			<p><lb/>Archipresbiter Novarie cum alio archipresbitero cum hominibus 5.</p>
+			<p><lb/>Dominicus Senensis prepositus cum hominibus 12.</p>
+			<p><lb/>Pelagius prior Sancti Isidori et Iohannes sacrista Sancti Facundii
+			<lb/>cum hominibus 15.</p>
+			<p><lb/>Quidam archidiaconus Leodiensis et archidiaconus Berdeciensis
+			<lb/>cum hominibus 25.</p>
+			<p><lb/>Cosmar prepositus Quinque ecclesiarum in Ungharia cum hominibus
+			<lb/>10.</p>
+			<p><lb/>Iohannes archidiaconus Polle cum hominibus 15.</p>
+			<p><lb/>Quatuor canonici Sanorienses cum hominibus 15.</p>
+			<p><lb/>Rogerius archipresbiter Florentie cum hominibus 10.</p>
+			<p><lb/>Decanus Lingonensis cum hominibus 25.</p>
+			<p><lb/>Ugo decanus Aurelianensis cum hominibus 16.</p>
+			<p><lb/>Et alii clerici Francie quinque cum hominibus 15.</p>
+			<p><lb/>Gualterius Laudinensis archidiaconus cum hominibus 10.</p>
+			<p><lb/>Burcardus Sancte Marie Carnotensis archidiaconus et cancellarius
+			<lb/>cum hominibus 20.</p>
+			<p><lb/>Otho Acbergensis prepositus cum hominibus 16.</p>
+			<p><lb/>Leopoldus dux Austrie cum hominibus 160.</p>
+			<p><lb/>Dux Carinthie cum hominibus 125.</p>
+			<p><lb/>Henricus Pratenorius comes et Coradus Autenensis marchio et Artwicus
+			<lb/>de Caunato Camnens cum hominibus 36.</p>
+			<p><lb/>Matthias Magnus archidiaconus Aquileiensis ecclesie cum hominibus
+			<lb/>40.</p>
+			<p><lb/>Conradus de Bella luce comes imperialis cum hominibus 30.</p>
+			<p><lb/>Conradus Latinerius, princeps imperatoris et marchio cum hominibus
+			<lb/>60.</p>
+			<pb n="64"/>
+			<p><lb/>Florentinus comes Hollandie cum hominibus 60.</p>
+			<p><lb/>Marchio Marchello cum hominibus 15.</p>
+			<p><lb/>Marchio Malespina cum hominibus 40.</p>
+			<p><lb/>Tonerisondus potestas Verone et magnates quidam cum eo cum hominibus
+			<lb/>20.</p>
+			<p><lb/>Duo advocati Veronensium cum hominibus 11.</p>
+			<p><lb/>Potestas Bergomi cum hominibus 20.</p>
+			<p><lb/>Rogerius vicecomes et potestas Vercelli cum hominibus 16.</p>
+			<p><lb/>Consules 10 de Cremona cum hominibus 85.</p>
+			<p><lb/>Consules quatuor Placentini cum hominibus 15.</p>
+			<p><lb/>Pinamonte potestas Bononie cum hominibus 15.</p>
+			<p><lb/>Girardus della Capella et alius Magnus cum eo cum hominibus 35.</p>
+			<p><lb/>Consules Mediolanenses cum hominibus 20.</p>
+			<p><lb/>Gerardus Carpenedi cum hominibus 25.</p>
+			<p><lb/>Gerardus Reginorum potestas cum hominibus 15.</p>
+			<p><lb/>Ubertus comes Blandinande cum hominibus 25.</p>
+			<p><lb/>Duodecim de potentioribus Cremone cum hominibus 65.</p>
+			<p><lb/>Corradinus palatiensis comes cum hominibus 25.</p>
+			<p><lb/>Manfredus Tarvisinus cum hominibus 13.</p>
+			<p><lb/>Taurellus Ferrarensis cataneus cum hominibus 20.</p>
+			<p><lb/>Tarvisinorum cattanei VIIII cum hominibus 45.</p>
+			<p><lb/>Saurus comes Verone cum hominibus 30.</p>
+			<p><lb/>Guezellon de Camin cum hominibus 30.</p>
+			<p><lb/>Schinella comes Tarvisii cum hominibus 15.</p>
+			<p><lb/>Guezelletus Prate cum hominibus 25.</p>
+			<p><lb/>Albertus de Obizo marchio de Este cum hominibus 110.</p>
+			<p><lb/>Albertus de Castello novo comes cum hominibus 20.</p>
+			<p><lb/>Consules Ferrarie cum hominibus 20.</p>
+			<p><lb/>Rainerius potestas Perusie cum comite Vultarino cum hominibus
+			<lb/>20.</p>
+			<p><lb/>Leo de Monumenta, Romanus princeps cum hominibus 18.</p>
+			<p><lb/>Pepo rector Urbis veteris cum hominibus 10.</p>
+			<p><lb/>Consules Pisanorum cum hominibus 37.</p>
+			<p><lb/>Comes Aldobrandinus cum hominibus 33.</p>
+			<p><lb/>Comes Wido Guerra cum hominibus 100.</p>
+			<p><lb/>Comes Cavacarontergo cum hominibus 30.</p>
+			<pb n="66"/>
+			<p><lb/>Comes Walterius cum hominibus 15.</p>
+			<p><lb/>Sunt omnes in numero 8420.</p>
+			<p><lb/>De singulis civitatibus Lombardie, Marchie, Tuscie atque Romagne
+				<lb/>ac marchie Anconitane interfuerunt cattanei et potentes viri,
+			<lb/>quorum nomina et numerum ignoramus et memorate paci interfuerunt.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[37.]</head> <p>Exeuntibus itaque universis e Venetiis et ad propria redeuntibus,
+				<lb/>vixit prefatus dux Sebastianus non longo tempore. Ante tamen
+				<lb/>quam moreretur hoc tetigit, in infirmitate positus, consilio et virtute
+				<lb/>sapientum virorum, ut quatuor honesti laici et Deum timentes, qui
+				<lb/>electi fuerant, super evangelia iurarent, quod quadraginta viros sine
+				<lb/>suspicione eligerent, qui in electione alterius ducis facienda aptiores
+				<lb/>sibi viderentur. Quod factum placuit omnibus et ita iuraverunt illi
+			<lb/>quatuor viri.</p>
+			<p><lb/>Dux vero, his stabilitis, in pace maxima pasche resurectionis festo
+				<lb/>celebrato, palatium reliquit et petiit sibi sancti Georgii monasterium;
+				<lb/>ubi tantum die [...] vivens migravit ad Dominum anno dominice incarnationis
+				<lb/>1178, mensis Aprilis, filiorum causis optime stabilitis et
+				<lb/>bene compositis. Sepultus enim in sepulcro marmoreo fuit, quod ipse
+			<lb/>vivens sibi fecit parari.</p>
+		</div>
+		<pb n="70"/>
+		<div type="chapter">
+			<head><lb/>[38.]</head> <p>et in civitatem quam cicius redierunt, cum paucis ipso nequam
+				<lb/>Alexio fugiente. Suos nuncios ad dominum ducem dicti Greci
+				<lb/>transmittentes illico sine mora, ut cum eo de pace tractarent, et quod
+				<lb/>vellent recipere Alexium puerum, Ysacci filium, in dominum et rectorem.
+				<lb/>Quod placuit domino duci et suo consilio ac dictis comitibus
+				<lb/>universis et fecerunt statim dictum puerum Alexium coronari, terre
+				<lb/>nichil molestie inferentes. Qui tamen de consilio iniquo, sicut creditur,
+				<lb/>patris ceci, solvere promissam peccuniam nec voluit nec persolvit,
+				<lb/>quamvis et ipse puer interfectus fuerit infidelissimo consilio
+				<lb/>cuiusdam Murciphy, qui post puerum imperii tenuit principatum,
+				<lb/>promittens duci et comitibus, residuum argenti se plenarie soluturum;
+				<lb/>falso intimans, quod dictus puer, qui circa quadraginta milia
+				<lb/>marcas solverat, non esset interfectus, sed morte propria decesisset.
+				<lb/>Ibidem autem duce ac comitibus expectantibus solutionem vel securitatem
+				<lb/>pecunie que remansit, Murciccus accensas naves suas ad
+				<lb/>incendendum Venetorum navigium destinavit; ex quo, Domino procurante,
+				<lb/>nulla navis nisi una conbusta fuit navicula Pisanorum. Considerantes
+				<lb/>vero, quod fraudulenter puerum occidisset et mortem Venetorum,
+				<lb/>sicut poterat, preparasset, unanimiter ad expugnandam civitatem
+				<lb/>preparati, invocato nomine Domini, tale pactum inter se fecerunt,
+				<lb/>quale scriptum invenies inferius. Per muros audacter ac viriliter
+				<lb/>ascendentes, fugato misero Murcicco, civitatem procurante divina
+				<lb/>sapientia occuparunt, ipsam in pace nulloque contradicente possidentes.
+				<pb n="72"/>
+				<lb/>Post que omnia venerabilis dux, tribus annis et dimidio transactis,
+				<lb/>vitam feliciter consumavit, et honorifice sepultus in sancte Sophye
+				<lb/>ecclesia requiescit. Vixit annis XIII in ducatu et que voluit in vita sua
+			<lb/>nobilissime adimplevit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[39.]</head> <p>Sed quia de Murcipho mencio facta est, non est pretermittendum,
+				<lb/>qualiter Dominus in ipso vindictam fecerit secundum nequitiam quam
+				<lb/>fecerat fraudulenter. Fugiente namque ipso, sicut dictum
+				<lb/>est, de Constantinopolim a facie Venetorum, perexit ad supra memoratum
+				<lb/>Alexium suum socerum quem videns dictus Alexius, nimia ira
+				<lb/>motus in ipsum, statim fecit eum capi et ambobus oculis abstractis, a
+				<lb/>se turpiter fecit expelli ob hoc quod nepotem suum Alexium, filium
+				<lb/>Ysacci fratris sui, occiderat fraudulenter et sibi nequiter abstulerat
+			<lb/>imperii principatum.</p>
+			<p><lb/>Post parvum tempus transactum imperator nobilis Balduinus et magnificus
+				<lb/>Henricus Dandulo dux Venetorum miserunt suos exquisitores
+				<lb/>ad inquirendum eundem Murcyphum sic ceccatum; et, invento
+				<lb/>eo, turpiter Constantinopolim conduxerunt et super statuam magnam,
+				<lb/>que Thaurus vocabatur, coram omni populo posuerunt et in
+				<lb/>ipsum precipitari fecerunt et postmodum ad caudam cameli ligatum
+			<lb/>turpiter per totam terram trahi iusserunt; et sic miserabiliter vitam finivit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[40.]</head> <p>Post mortem inclite recordationis Henrici Danduli, de cuius
+				<lb/>maxima probitate supra mentio facta est missa fuit galea de Constantinopoli
+				<lb/>et mense Iulii intravit portum Venecie, in qua fuerunt
+				<lb/>nuncii portantes rumores, quod dictus Henricus dux mortuus esset.
+				<lb/>Igitur Rainerius Dandulus, qui vice patris sui dignitatem regebat,
+				<lb/>convocatis sex consiliariis, ex quibus Petrus Çiani, illustris comes
+				<lb/>Arbensis, unus existebat, habito consilio aliorum magistratuum, misit,
+				<lb/>ut cuncti homines a Capite Argeris usque Gradum convenirent ad
+			<lb/>urbem magnam, que vocatur Rivum altum.</p>
+			<pb n="74"/>
+			<p><lb/>Cumque illuc accessisset innumerabilis multitudo populi, convenerunt
+				<lb/>ad ecclesiam sancti Marci ibique in electione secundum morem
+				<lb/>precedente, mense videlicet Augusto in vigilia salvatoris nostri Ihesu
+				<lb/>Christi, electi fuerunt XL sapientes et legales viri ad faciendum ducis
+				<lb/>electionem. Qui cedentes in partem, divina disponente gratia, ita in
+				<lb/>brevi hora concordes inventi sunt, ut vix tres ab aliis dissentirent. Et
+				<lb/>cum data fuisset pronuntiatio electionis cuidam Petro nomine statim,
+				<lb/>antequam loqueretur, vox de populo facta est: «De Petro in Petrum
+			<lb/>ibit electio ista».</p>
+			<p><lb/>Pronuntiavit itaque electionem in dictum dominum Petrum Çiani
+				<lb/>concorditer pro exaltatione et statu tocius patrie celebratam, nec potuit
+				<lb/>complere sermonem, quia populus eundem electum pre gaudio
+				<lb/>manibus undique assumens in altum duxit ad investituram altaris
+				<lb/>beati Marci primum eum, deinde in sedem palacii ducatus mire devocionis
+				<lb/>honorifice collocando. Ducatus ergo preclaram dignitatem
+				<lb/>adeptus, cum ingenti cura et mansuetudine et iustitia, discretione,
+				<lb/>que mater est virtutum, vestitus et sine aliqua iusta reprehensione
+			<lb/>studuit comissi sibi populi ducatum et regimen gubernare.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[41.]</head> <p>Eo tempore Henricus Piscator comes de Malta et Ianuensis civis
+				<lb/>cum magno exercitu Cretensem insulam intraverat, que adhuc
+				<lb/>possidebatur a Grecis et obtinuit quasi omnes civitates, munitiones et
+				<lb/>castra ipsius et insulam suo dominio subiugavit. In tantam namque
+				<lb/>erat elatus superbiam et audatiam quod omnes circumadiacentes insulas
+				<lb/>et provincias sibi subiugare credebat. Audiens hec idem Petrus
+				<lb/>Çiani dux et conspiciens in obprobrium et detrimentum ducatus Venecie
+				<lb/>fieri, nec valens ipsius Henrici Piscatoris superbiam sustinere,
+				<lb/>magnum congregavit exercitum et ad prefatam insulam cum magno
+			<lb/>labore et expensis pluries destinavit.</p>
+			<pb n="76"/>
+			<p><lb/>Et non destitit, donec triumphum obtinuit de cunctis locis que ceperat
+				<lb/>dictus Henricus ipsumque expulit ab insula et partibus illis ibique
+				<lb/>ducem constituit et suis nobilibus Venetis terram possidendam
+			<lb/>sub certis miliciis ordinavit.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[42.]</head> <p>Post modicum vero temporis surrexit contra Venetos principaliter
+				<lb/>quidam famosus cursariorum princeps nomine comes Alamannus,
+				<lb/>qui eciam civis erat Ianuensis; et exivit in mare super Crete
+				<lb/>cum una nave magna valde et duabus galeis, in quibus erant viri fortes,
+				<lb/>armati ferro, plus quam D et alii fere totidem, omnes ad pugnam
+				<lb/>docti. Cumque vidisset venientes duas naves mercatorum et scivisset,
+				<lb/>quod naves Venetorum essent, quia iam prope insulam Crete
+				<lb/>pergebant, preparavit se cum suis, ut veniret ad eas. Sencientes hoc
+				<lb/>quidam nobiles et probissimi Veneti, qui erant in Crete, armati
+				<lb/>ascenderunt in illas duas naves. Et volventes navium proras contra
+				<lb/>Alamannum et suos, vento impellente, irruerunt in eos et, invocato
+				<lb/>nomine domini Dei et beati Marci, ferientes intraverunt audacter navem
+				<lb/>ipsorum et dure dimicare ceperunt ad invicem. Et procurante divina
+				<lb/>clementia et precibus beatissimi Marci, navem et galleas cum
+				<lb/>tota illa pirratarum multitudine debellantes, captos et vinctos cum ingenti
+				<lb/>triumpho perduxerunt Veneciam beato Marco et glorioso duci
+				<lb/>Petro Çiani predam simul et victoriam tribuentes. Et sic insidias,
+				<lb/>quas Venetis posuerunt, in eorum caput redundare fecerunt.
+				<lb/>Nec parum videatur huius rei et victorie memoriam relinquere posteris,
+				<lb/>cum inauditum sit, naves honeratas mercibus et de inimicis incautas
+				<lb/>et ita paucas numero in navem et galleas sic ordinatas ad bellum
+				<lb/>et tanta multitudine armatorum munitas primo insultum fecisse
+				<lb/>et habuisse triumphum. Fuerunt autem in vinculis longo tempore Venecie,
+				<lb/>donec Ianuenses redierunt ad pacem cum Venetis; et sic comes
+			<lb/>licenciatus honorabiliter recessit cum suis.</p>
+			<pb n="78"/>
+			<p><lb/>Sed ante ipsam pacem, procurante eodem duce inclito, mandate
+				<lb/>fuerunt due naves in curso a Veneciis cum quibusdam galleis et in
+				<lb/>eodem cursu ceperunt plus quam [?] naves Ianuensium plenas pro
+				<lb/>maiori parte magnis diviciis mercatorum. Et quia expensas gerere et
+				<lb/>labores ferre non poterant, causa fuit, quod quam cicius ad concordiam
+			<lb/>redierunt.</p>
+			<p><lb/>Pisanos quoque idem gloriosus dux Petrus Çiani, in non modicam
+				<lb/>erectos audatiam, hisdem temporibus et simili modo de cursu et potestate
+				<lb/>pelagi taliter profugavit, quod parvam habent potestatem et
+			<lb/>audatiam navigandi.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[43.]</head> <p>Post hec vero, eo in magna pace et tranquilitate gubernante
+				<lb/>ducatum, cum de longe positis inimicis obtinuisset victoriam, voluit
+				<lb/>probare eum Dominus, si adeo strenue contra prope positos se haberet.
+				<lb/>Et quia nulla pestis efficatior est ad nocendum quam familiaris
+				<lb/>inimicus, ex causa ludi cuiusdam facti apud Tervisium in Spineta,
+				<lb/>quem inceperant facere Paduani, faciente sola invidia, moti sunt contra
+				<lb/>Venetos Paduani et eciam Trivisienses; et contra honorem Venecie
+				<lb/>simul sociati, itinera prohibuerunt et victum. Et Paduani, qui tunc
+				<lb/>maiori invidia torquebantur, ad turrem Baibe cum universo potentatu
+				<lb/>suo venerunt erant enim inter milites et pedites fere LX milia armatorum
+				<lb/>et castra metati sunt ex alia parte fluminis versus turrem. Ubi
+				<lb/>tam prudenter et magnanimiter predictus dux egregius cum gente sua
+				<lb/>se habuit, cooperante auxilio Dei et beati Marci, quod victi fuerunt et
+			<lb/>in fugam conversi.</p>
+			<p><lb/>Ex melioribus vero ipsorum captivi ducti sunt Veneciam CCCL, ex
+				<lb/>quibus milites fuerunt CC et confalonerii IIII, inter quos fuit Ieremias
+				<lb/>de Petraga super cunctos, qui ante reformationem pacis defunctus
+			<lb/>fuit.</p>
+			<pb n="80"/>
+			<p><lb/>Quam captionem non suis vel suorum viribus attribuit, sed pocius
+				<lb/>iusticie Dei, quia, eo cum Venetis pacem desiderantibus, Paduani et
+				<lb/>Trivisienses ex sola superbia sine causa ad guerram processerant
+			<lb/>contra ipsos.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[44.]</head> <p>In tantum enim erat amator pacis, quod si cum aliqua gente
+				<lb/>guerram habuit, non poterat inveniri, quod a principio aliqua per eum
+				<lb/>fuisset occasio vel causa discordie. Immo sepe, ubi erant magnates et
+				<lb/>sapientes Venecie, concionando dicebat: «Vos, domini, rogo, quod,
+				<lb/>pacem studiose inveniatis, servetis eandem, quia guerram quandocumque
+				<lb/>volueritis valebimus invenire»; et ideo rex pacificus ipsum inimicorum
+			<lb/>suorum fecit esse victorem.</p>
+			<p><lb/>De exercitu autem prefato fuerunt capta arma cuiuslibet generis,
+				<lb/>inumerabilia mancullele et tres pectrere magne et currus et plaustra
+				<lb/>plurima et victualia omnia, que reliquerant fugientes; et his ante capti
+				<lb/>fuerant Paduani in eodem loco semel sub domino Ordelafo Faletro
+			<lb/>et iterum sub domino Petro Pollano ducibus Venetorum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[45.]</head> <p>Interea, dum mortua fuisset eius uxor, nobilis et decora nimis,
+				<lb/>Maria dukissa, de domo Basiliorum, de consilio sapientum, quia prole
+				<lb/>carebat, Constanciam nobilissimam dominam, illustris Tancredi
+				<lb/>regis Sycilie ?filiam duxit uxorem de qua? filium suscepit et filias in
+				<lb/>senectute sua. Cum qua ducatum regendo tranquille pluribus annis
+				<lb/>magna sapientia in sua dignitate fulgebat. Reverentiam quoque ei pro
+				<lb/>fidei sue et sapientie magnitudine exibebant non solum Venetia sed
+				<lb/>eciam barones et magnates Marchie et Lombardie et circumpositarum
+				<lb/>terrarum et pro suis et civitatum arduis negociis tamquam ad patrem
+			<lb/>et dominum recurrebant.</p>
+			<pb n="82"/>
+			<p><lb/>Memoriam semper habuit ita perfectam, quod, ut de aliis taceatur,
+				<lb/>quandoque de Lonbardia et Marchia XXII legationes fuerunt coram
+				<lb/>eo, in quibus erant plures qui sapienter et subtiliter proponebant, timebant
+				<lb/>tamen aliqui, ne intelligerentur ab eo, quia dormire a pluribus
+				<lb/>credebatur. Et cum omnes suas arengas copiose complerent, ipse
+				<lb/>oculos aperiens, humili et plana voce modo mirabili respondebat;
+				<lb/>quia incipiebat a primo et ea que dixerat sub brevi eloquio recitabat,
+				<lb/>et post modicum secundo et tertio, ut eo ordine quo dixerant dicta ipsorum
+				<lb/>usque ad ultimum recitaret; et postmodum simili ordine a primo
+				<lb/>incipiens, sic omnibus respondebat, quod salvaret honorem Venecie
+			<lb/>et quilibet reputaret sibi pro sue voluntatis arbitrio satisfactum.</p>
+		</div>
+		<div type="chapter">
+			<head><lb/>[46.]</head> <p>Potens fuit valde in diviciis ultra omnes homines ducatus Venecie
+				<lb/>et in amicis ?benivolus? et multum ab omnibus timebatur. Circa
+				<lb/>pauperes et iustos humilis, circa superbos et iniustos severus.
+				<lb/>Amator sancte Romane ecclesie et catholicus valde, iugiter ad orandam
+				<lb/>in media nocte surgebat. Incessanter elemosinas largiebatur in
+				<lb/>maxima quantitate. Nam preter ea que in vita distribuit, ultra valens XX
+			<lb/>milia libras in obitu pauperibus dereliquid.</p>
+			<p><lb/>Patrem habuit Sebastianum, inclitum ducem Venecie, magis divitem
+				<lb/>quam omnes Veneti et filium dimisit omnibus ditiorem. Multos
+				<lb/>nobiles, qui ad paupertatem devenerunt in tantum adiuvavit administrando
+				<lb/>necessaria et concedendo peccuniam ad lucrandum, quod de
+				<lb/>nichilo eos fecit ad honores et divitias pervenire. Clericos quam plures
+			<lb/>suis expensis ad studium destinavit.</p>
+			<p><lb/>Igitur in ducatus regimine perfectis XXIII annis et dimidio, decrepitus
+				<lb/>iam et plenus dierum, presciens sibi diem mortis inminere, ducatum
+				<lb/>provida deliberatione habita refutavit et ad domum paternam in
+				<lb/>hora sancte Iustine rediit cum prefata dukissa uxore et filiis et universa
+				<lb/>sua familia et ordinavit quod filii in potestate matris cum tota
+				<lb/>hereditate remanerent. Post hoc autem finivit vitam, XVII diebus transactis;
+				<lb/>et sepultus fuit in cenobio sancti Georgii maioris in sepulcro
+			<lb/>patris sui Sebastiani Çiani.</p>
+		</div>
+	</body>
+</text>
+</TEI>

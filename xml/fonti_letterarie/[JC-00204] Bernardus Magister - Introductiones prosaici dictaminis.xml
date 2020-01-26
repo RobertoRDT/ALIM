@@ -1,0 +1,501 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Introductiones prosaici dictaminis</title>
+				<author>Bernardus Magister</author>
+				<respStmt>
+					<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+					<name>H. Kalbfuss</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_0">esportazione in formato TEI XML livello 0 effettuata da </resp>
+					<name key="EBr">Elisa Brunoni</name>
+				</respStmt>
+				<respStmt>
+					<resp key="ALIM2_1">Edizione in formato TEI XML, livello ALIM2_1, a cura di </resp>
+					<name key="JC">Jan Ctibor</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure quantity="3437" unit="words">Parole: 3437</measure>
+				<measure quantity="22784" unit="characters_without_spaces">Caratteri (spazi esclusi): 22784</measure>
+				<measure quantity="25927" unit="characters_witht_spaces">Caratteri (spazi inclusi): 25927</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>ALIM</publisher>
+				<date when="2013-06-07">07/06/2013</date>
+			</publicationStmt>
+			<notesStmt>
+				<note>Genere: Epistolografia</note>
+				<note>Tipo: Fonti Letterarie</note>
+				<note>Note: Parole: 3444&#13;
+Caratteri: 22814&#13;
+Note: Edizione di alcune lettere tratte
+					                    dalle Introductiones prosaici dictaminis di Magister Bernardus secondo il Ms. Mantova Biblioteca
+					                    Comunale 32, (ff. 73r-122v). L’editore numera e trascrive le seguenti epistole: I-XVI e
+					                    XXV-XXXIV. Delle epistole XVII-XXIV e XXXV-LV l’editore propone in tedesco la sintesi
+					                    dell’argomento (che qui non è stata riprodotta). &#13;
+Il doppio spazio separa la
+					                    salutatio dal resto della lettera. &#13;
+( ): indicano integrazione dell’autore. Il
+					                    corsivo segnala le citazioni (dalle Sacre Scritture) che l’editore ha rinvenuto nel testo.
+				                    &#13;
+E.B. &#13;
+</note>
+				<note>Livello di codifica: 1</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<editor>H. Kalbfuss</editor>
+						<title level="m">Eine Bologneser Ars dictandi des XII Jahrhunderts</title>
+						<imprint>
+							<pubPlace>Roma</pubPlace>
+							<publisher>Deutsches Historisches Institut</publisher>
+							<date>1914</date>
+							<biblScope unit="page">14-35</biblScope>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Quellen und Forschungen aus Italienischen Archiven und Bibliotheken</title>
+						<biblScope unit="volume">16</biblScope>
+					</series>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio:
+					<list>
+						<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il resto della riga a stampa e vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+					</list>
+				</ab>
+                                <ab type="level">ALIM2_1</ab>
+		</editorialDecl>
+	</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="lat">Latino</language>
+		</langUsage>
+		<textClass>
+			<keywords>
+				<term type="form">Prosa</term>
+				<term type="source">Fonti Letterarie</term>
+				<term type="genre">Epistolografia</term>
+			</keywords>
+		</textClass>
+		<creation>
+			<date when-iso="1101/1200">XII</date>
+		</creation>
+	</profileDesc>
+	<revisionDesc>
+		<change who="EBr">Export nel formato TEI P5 a partire da ALIM 1 [livello ALIM2_0]</change>
+                <change when="2018-05" who="JC">Aggiornamento da livello 0 a livello 1, schema TEI ALIM Lite [livello ALIM2_1]. Note: 
+- c'erano già i &lt;p&gt;, ma mancavano gli &lt;lb/&gt;. Ho messo un &lt;lb/&gt; all'inizio di ogni riga, ma non so se le righe nel file corrispondano a quelle nell'edizione a stampa...
+- ci sono due livelli di &lt;head&gt;:
+&lt;lb/&gt;&lt;head&gt;I. &lt;/head&gt;
+&lt;lb/&gt;&lt;head type="h_2"&gt;Epistola imperatoris cuiuslibet ciuitatis consulibus et populo.&lt;/head&gt;
+
+</change>
+        </revisionDesc>
+</teiHeader>
+<text>
+	<body>
+		<pb n="14"/>
+		<div>
+			<head type="numeral"><lb/>I.</head>
+			<head type="h2"><lb/>Epistola imperatoris cuiuslibet ciuitatis consulibus et populo.</head>
+                        <head><lb/>CORRadus Dei gratia Romanorum imperator augustus Bononiensium consulibus et reliquo eiusdem ciuitatis
+                                <lb/>populo gratiam et bonam uoluntatem.</head> <p>Sicut prauorum imprudentia fidelium dominorum decus ad ima
+				<lb/>descendere cognoscitur, ita bonorum subleuari operatione dignoscitur. Quia igitur caros et maxime
+				<lb/>honorandos nostros fideles uos esse cognoscimus, uobis notificare nullatenus dubitamus, quod Florentini,
+				<lb/>Romani imperio semper contrari uolentes, comitis Uidonis fidelis nostri possessiones inuadunt et eius
+				<lb/>castella uelut propria sibi uendicare nullatenus erubescunt. Cuius causa uos plurimum rogando mandamus,
+				<lb/>quatinus predictis Florentinis, Romani imperii inimicis pro uiribus resistatis, et iam dicti fidelis
+			<lb/>nostri iura defendere modis omnibus procuretis. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>II.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+                        <head><lb/>INuictissimo domino et gloriosissimo triumphatori Corrado Dei gratia Romanorum imperatori semper augusto
+                                <lb/>Bononienses consules et reliquus eiusdem ciuitatis populus summe fidelitatis obsequium.</head> <p>Cum manifesta
+				<lb/>ueritate sciantur, excellentissime d(omine), quod nostra, immo uestra ciuitas ab ipso sue fundationis
+				<lb/>principio mandata uestra deuota mente suscepit et in uestra fidelitate sollicita et debita cura
+				<lb/>permanist, stulti ueraciter et omnino			
+                                <pb n="15"/>
+                                <lb/>dementes ab omnibus non immeriti iudicaremur, si preceptionibus uestris obedire magna cum deuotione
+				<lb/>nollemus. Unde siquidem est, quod in mentibus nostris nihil aliud esse noueritis, nisi que mandastis
+				<lb/>effectui Deo concedente taliter mancipare curabimus, quod item nobis comune debitas gratias poterit
+			<lb/>exhibere et uestram bonam uoluntatem poterimus obtinere. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>III.</head>
+			<head type="h2"><lb/>Epistola imperatoris ad quemlibet nobilem.</head>
+                        <head><lb/>Guidoni comiti gratiam et suam bonam uoluntatem (uel: gratiam et promptum sue benignitatis fauorem).</head> <p>A
+				<lb/>nobilitate tua uolumus nullatenus esse remotum, quod Fred(ericus) dux, qui Romano imperio fidelis esse
+				<lb/>deberet, Himolam ciuitatem nostram die dominico proxime uenturo disposuit obsidere et quot nobis
+				<lb/>incommoda potuerit exhibere, sicut ueridica multorum relatione cognouimus, stulto iuramento firmauit.
+				<lb/>Quia igitur Romani dignitas imperii sine bonorum suffragio fidelium non ualet integra permanere, tibi
+				<lb/>firmiter dicendo mandamus, quatinus tui comitatus omnibus uiribus collectis proxima VI. feria ad nos
+				<lb/>uenire sollicita consideratione labores, ut prefatus hostis tuo adiutorio nostris pedibus conteratur et
+			<lb/>nostris imperatoribus Romanum regnum sua integritate seruetur. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>IV.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+			<p><lb/>Ex quo uestrarum series litterarum diligenter intellexi, serenissime domine, quibus me in uestri gratia
+				<lb/>ueraciter esse cognoui, illas siquidem summa cum deuotione suscepi, et sicut mea progenies a longis
+				<lb/>retro temporibus facere consueuit, mandatis uestris et uoluntatibus obtemperare sollicita consideratione
+				<lb/>curaui. Inde siquidem est, quod termino a uobis constituto sicut mihi mandastis ad uos uenire studebo,
+				<lb/>et quicquid uobis imperare placuerit, effectu prosequente facere plurimum laborabo.
+			</p>
+		</div>
+		<pb n="16"/>
+		<div>
+			<head type="numeral"><lb/>V.</head>
+			<head type="h2"><lb/>Imperatoris ad dominum papam.</head>
+                        <head><lb/>REUerendo et in Christo plurimum metuendo patri et domino Eug(genio) Dei gratia totius sancte ecclesie
+				<lb/>summo pontifici Cor(radus) Dei gratia Romanorum imperator debite reuerentie famulatum.</head> <p>Lator presentium,
+				<lb/>Aretine maioris ecclesie archidiaconus, qui pro eiusdem ecclesie grauaminibus presentiam uestram uidere
+				<lb/>ardenti uoto desiderat, ut pro eo uobis scribere cogeremur, precibus impetrauit. Cuius rei gratia, pater
+				<lb/>in Christo karissime, sanctitatem uestram plurimum deprecamus, quatinus suis iustis petitionibus uestre
+				<lb/>pietatis animum inclinetis et suam ecclesiam immo uestram in Domino a prauorum excessibus uestri
+				<lb/>priuilegii pagina defendatis, ut in ea Domino fratres seruire uolentes diuina officia quiete ualeant
+			<lb/>celebrare. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>VI.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+                        <head><lb/>Eug(enius) episcopus seruuus seruorum Dei dilecto in Christo filio Cor(rado) Dei gratia Romanorum
+				<lb/>imperatori semper augusto salutem et apostolicam benedictionem.</head> <p>Quonaim ex officio nobis a Deo
+				<lb/>apostulatus inuncto omnibus ecclesiis debitores existamus, illis tamen pro quibus tuas nobis preces
+				<lb/>dirigis, propensiori cura nos conuenit prouidere. Dilectus filius noster M. sancte Aretine ecclesie
+				<lb/>archidiaconus, pro quo nos plurimum rogauistis, ad nos uenit et suis iustis petitionibus satisfacientes
+				<lb/>qualiter eum pro amore tuo debita benignitate tractauimus, idem tibi poterit manifeste notare. Quia
+				<lb/>igitur ad te specialiter pertinere cognoscitur, Dei ecclesias sollicita cura defendere, per presentia
+				<lb/>scripta tibi plurimum rogando mandamus, quatinus prefatam ecclesiam manuteneas et ab illicitis
+				<lb/>grauaminibus protegere filiali deuotione procures. Nam si sancta loca tueri filiali affectione malueris,
+				<lb/>tuum regnum in sua stabilitate ueraciter permanebit.
+			</p>
+		</div>
+		<pb n="17"/>
+		<div>
+			<head type="numeral"><lb/>VII.</head>
+			<head type="h2"><lb/>Domini pape ad imperatorem.</head>
+                        <head><lb/>KARISSIMO filio in Christo Cor(rado) illustri Romanorum imperatori semper augusto salutem et apostolicam
+				<lb/>benedictionem.</head> <p>Qui post terrene dignitatis honorem celestem patriam habere desiderat, expedit ei, ut,
+				<lb/>dum in hoc mortali corpore uixerit, sacrosanctas ecclesias diligat et ecclesiasticas religiosasque
+				<lb/>personas debita reuerentia studeant honorare. Uenerabilis frater noster I. Aretinus episcopus se nostro
+				<lb/>conspectui representans nobis plurimum conquestus est, quod Guido de Mudillano comes sue ecclesie
+				<lb/>possessiones contra iustitiam auferat, et personam suam turpiter et inhoneste tractare non dubitat. Pro
+				<lb/>quo celsitudinem tuam plurimum rogando mandamus et exortamur in Domino, quatinus eum pro beati Petri et
+				<lb/>nostra reuerentia manuteneas et honores ecclesie sue de possessionibus suis nullam molestiam a prefato
+			<lb/>comite irrogari permittas. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>VIII.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+			<p><lb/>Quanto cordis desiderio quantaque mentis alacritate, pie pater, uestras litteras recipere et mandatis
+				<lb/>uestris obedire debeamus, ille, quem ex eorum diligenti obseruatione fructum consequimur, euidenter
+				<lb/>ostendit. Nam si mandata uestra obseruare plenarie uoluerimus, uitam eternam ueraciter habere poterimus.
+				<lb/>Unde siquidem est, quod Ier(onimum) iam de sue ecclesie possessionibus eum aliquam iniuriam sustinere
+				<lb/>nullatenus permittemus. Preterea, karissime pater, sanctitatem uestram humiliter deprecamur, quatinus
+				<lb/>eum omnipotentem plurimum exhoretis, ut Romani imperii dignitas de sui status prerogatiua nullatenus
+			<lb/>minuatur.</p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>IX.</head>
+			<pb n="18"/>
+			<head type="h2"><lb/>Domini pape ad imperatorem.</head>
+			<p><lb/>REGUM corda diuinitus inspirata, quanto plus religiosa melius tractare cognoscuntur, tanto magis
+				<lb/>altitudini superni consili et diuino numini gratie sunt agende, et in omnibus, que pie religioseque
+				<lb/>procurant, eorum uoluntati est cum omni deuotionis alacritate parendum. Relatum est nobis, dilecte in
+				<lb/>Christo fili, quod dilectos filios nostros de Claraualle bene honesteque tractare inceperis et eis pro
+				<lb/>peccatorum redemptione tuorum multas de possessionibus tuis laudabiliter contulisti. Quia igitur non
+				<lb/>incipientis, sed perseuerantis premium esse cognoscitur, per presentia scripta personam tuam plurimum
+				<lb/>rogando mandamus et exhortamur in Domino, quatinus, sicut eidem loco misericordie et pietatis intuitu
+				<lb/>benefacere incepisti, ita diligenti studio perseuerare procures, ut Deus omnipotens de tuis bonis
+			<lb/>actibus honoretur et Romanum imperium iugiter dignum suscipiat incrementum. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>X.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+			<p><lb/>TUNC, pater in Christo karissime, meus animus manifeste letatur et Romanum imperium aperta ueritate
+				<lb/>congaudet, cum me uestris litteris informetis et in bono proposito perseuerare et ad utiliora semper
+				<lb/>intendere commonetis. Nam benigni patris ueraciter esse cognoscitur et pro animarum suorum salute
+				<lb/>filiorum plurimum laborare, et filiorum esse nullatenus dubitatur suorum patrum mandatis iugiter obedire
+				<lb/>et ea nimia ei diligenti cura seruare. Quapropter, pater karissime et sanctissime, de uestris preceptis
+				<lb/>semper obedire desidero, et eidem loco, de quo plurimum rogando mandastis, si mihi benefacendi nulla
+				<lb/>foret uoluntas iugiter tamen meliora uestre me preces prouidere compellunt. Preterea, karissime pater,
+			<lb/>etc. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XI.</head>
+			<head type="h2"><lb/>Epistola cuiuslibet ecclesiastici prelati ad suum maiorem.</head>
+                        <head><lb/>REuerendo et plurimum metuendo patri et domino Eug(enio) Dei gratia totius sancte ecclesie summo
+				<lb/>pontifici M. Rauennatis ecclesie archiepiscopus
+                                <pb n="19"/>
+                                <lb/>licet indignus debitam in Christo reuerentiam atque subiectionem.</head> <p>Quoniam, pater karissime et domine
+				<lb/>plurimum metuende, ex officio mihi a uestra paternitate iniuncto pro uestro et sancte Romane ecclesie
+				<lb/>honore me plurimum decet esse sollicitum, idcirco, qualiter pro seruitio uestro laborare curauerim,
+				<lb/>uobis significare desidero. Noueritis itaque me uidelicet Io., qui, cum in curia uestra dictandi locum
+				<lb/>haberet, plurimas falsas litteras componere superba temeritate presumpsit, cepisse et illum pro suis
+				<lb/>excessibus duris carceribus mancipasse. Cuius rei causa, pater in Christo karissime, sanctitatem uestram
+				<lb/>multa prece deposco, quatinus quicquid de eo me facere uelitis, uestris mihi litteris significetis. Nam
+			<lb/>quicquid de eo significare placuerit, illud me executioni mandare manifesta ueritate noueritis. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XII.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+                        <head><lb/>Eug[enius] episcopus seruus seruorum Dei uenerabili fratri Rauennati episcopo salutem et apostolicam
+				<lb/>benedictionem.</head> <p>Quantum sit utile pro sancte ecclesie honore debitam sollicitudine gerere, tua sicut
+				<lb/>credimus fraternitas non ignorat, et inter cetera precepta legalia, que omnipotens Dominus populo suo
+				<lb/>iniunxisse cognoscitur, cum magne auctoritas commendatione nobis imperando confirmat dicens:
+				<lb/><hi rend="italic">honora patrem tuum et matrem tuam, ut sis longeuuus super terram</hi>. Quod nimirum
+				<lb/>quamuis de parentibus et nostre carnis educatoribus quantum ad litteram recipere debeamus, de sancta
+				<lb/>tamen ecclesia id ipsum intelligere nichilominus approbatur. Super eo, uenerabilis frater, quod te Io.
+				<lb/>nostrarum litterarum falsatorem cepisse et duris uinculis tradidisse nobis significasti, nos plurimum
+				<lb/>letatos esse cognoueris, quoniam id siquidem facere uoluisti, unde plurima sancte ecclesie seruitia
+				<lb/>contulisti. Cuius rei causa per presentia tibi scripta firmiter dicendo mandamus, quatinus prefatum Dei
+				<lb/>ecclesie inimicum bene facias custodiri, donec pro eo proprios nuntios mittere curabimus. Quod profecto
+				<lb/>facere si forte nolueris, nobis plurimum esse molestum minime dubitabis.
+			</p>
+		</div>
+		<pb n="20"/>
+		<div>
+			<head type="numeral"><lb/>XIII.</head>
+			<head type="h2"><lb/>Domini pape ad quemlibet prelatum.</head>
+			<p><lb/>CUM liquidum sit capite infirmante uniuersa membra languescere, idoneum est, ut membra studeant efficere,
+				<lb/>quod caput nihil infirmitatis ualeat suscipere, unde reliqua membra aliquid incommodi ualeant sustinere.
+				<lb/>Fraternitatem tuam latere non credimus, quod Romana ecclesia, que caput et magistra omnium ecclesiarum
+				<lb/>superno est a numine constituta, multis tribulationibus et angustiis, ponderibus et calamitatibus
+				<lb/>affligi[tur], conteritur et opprimitur et ab inuidiis et sancte ecclesie inimicis quasi pedibus turpiter
+				<lb/>in omnium filiorum suorum obprobium conculcantur. Cur ergo subiectionis ei debito non succurrunt? Cur
+				<lb/>illam saltim in tantis perturbationibus non aspiciunt? Que, siquidem eos per aquam baptismatis parturit,
+				<lb/>lacte doctrine et pane celesti cotidie fouet ac reficit? Quia igitur personam tuam eius membrum inter
+				<lb/>cetera spetialius esse cognoscimus, per presentia tibi scripta mandamus atque precipimus, quatinus
+				<lb/>dominica qua legitur ego sum pastor bonus proxime uentura omni occasione et dilatione remota Uiterbi
+				<lb/>nostro te conspectui representes, ubi siquidem de eiusdem ecclesie liberatione Deo concedente taliter
+			<lb/>disponemus, quod sue dignitatis honor nullatenus minetur et suorum compago membrorum minime dissoluetur. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XIV.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+			<p><lb/>PLURIma sunt, pater in Christo karissime, que me uobis scribere et mandatis uestris iugiter obedire
+				<lb/>compellunt. Quorum siquidem unum esse cognoscitur, quod antequam ad huius officii dignitatem esse
+				<lb/>electus, multa mihi beneficia contulistis. Alterum uero manifeste uidetur, quod uidelicet, postquam
+				<lb/>huius dignitatis officium uobis mihi placuit iniungere, uestris me bonis magnifice ditauistis et inter
+				<lb/>uestre ecclesie uenerabiles fratres, que omnum Dei fidelium mater existit, me spetialem esse dicere
+				<lb/>dignati estis.
+                                <pb n="21"/>
+                                <lb/>Proinde est, pater in Christo sanctissime, quod me nichil aliud ordinasse noueritis, nisi ad effectui
+				<lb/>mancipare, que mihi percipere uoluistis. Uobis igitur tempore a uestra paternitate constituto meam
+				<lb/>Domino largiente presentiam exibebo, et que mihi iniungere uolueritis, executioni mandare pro uestra
+			<lb/>uoluntate curabo. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XV.</head>
+			<head type="h2"><lb/>Cuiuslibet ecclesiastici ad subditum.</head>
+                        <head><lb/>U. sancte Rauennatis ecclesie archiepiscopus licet indignus uenerabili fratri R. Corneliensi episcopo
+				<lb/>salutem et in Christo benedictionem.</head> <p>Postquam, frater in Christo plurimum diligende, omnium redemptori
+				<lb/>ad pontificalis officii dignitatem personam tuam per nostrum ministerium placuit promouere, quamuis
+				<lb/>eiusdem officii ante susceptionem te uera Christi caritate plurimum dilexerimus, postmodum tamen aperta
+				<lb/>ueritate cognoscis, quod te in nostra curia neminem habuimus cariorem. Cuius rei gratia fraternitati tue
+				<lb/>notificare dignum duximus, quod dominus papa suis nobis litteris firmiter precipiendo mandauit, quatinus
+				<lb/>in sancta pentecostes festiuitate suo nos conspectui presentaremus, que de omnibus nobis obicerentur
+				<lb/>plenarie responsuros. Quia igitur personam nostram tantum laborem sufferre non posse manifeste
+				<lb/>cognoscis, te plurimum rogando mandamus quatinus expensis de nostra camera pro tua uoluntate receptis
+				<lb/>huius itineris laborem pro amore nostro suscipias et causam nostram ante prefatum dominum, prout melius
+				<lb/>tua fraternitas nouit, tractare et nos excusare perstudias. Quod siquidem si executioni mandare
+                                <lb/>studueris, digna te remuneratione gaudere cognoueris. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XVI.</head>
+			<pb n="22"/>
+			<head type="h2"><lb/>Responsiua.</head>
+                        <head><lb/>KARISSIMo patri ac domino plurimum metuendo M. Dei gratia sancte Rauennatis ecclesie archiepiscopo R.
+				<lb/>Corneliensis ecclesie minister licet indignus debitam subiectionem.</head> <p>Quamuis, pater in Christo karissime,
+				<lb/>mihi hoc tempore plurimum sit molestum uestra precepta seruare, quia tamen obedientia mater est omnum
+				<lb/>uirtutum, cuius siquidem premium magnum esse cognoscitur, ideo scilicet uestre uoluntati modis omnibus
+				<lb/>obedire decreui. Quoniam igitur Romane curie mores aperta ueritate nouistis et pluribus indiget qui
+				<lb/>tantum laborem assumit, prouidentie uestre notifico, quatinus, si forte uobis placuerit, sex palafredos
+				<lb/>honeste paratos et totidem auri libras mihi mittatis, ut uestra negotia conuenienter effectu prosequente
+				<lb/>complere et dominos cardinales, qui uobis seruire studuerint, honeste sicut dignum esse cognoscitis
+				<lb/>possim remunerare. Quod quidem facere si paternitati uestre placuerit, causam uestram Domino
+				<lb/>contemplante congruenter minabo, et quod residuum fuerit, ad uestri cameram cum integritate reducturum
+				<lb/>manifeste noueritis.
+			</p>
+		</div>
+		<pb n="24"/>
+		<div>
+			<head type="numeral"><lb/>XXV.</head>
+			<head type="h2"><lb/>Domini pape fere ad omnes prelatos pro elemosina.</head>
+                        <head><lb/>Eug(enius) episcopus seruus seruorum Dei uniuersis archiepiscopis episcopis abbatibus plebanis et omnibus
+				<lb/>Dei fidelibus per Tusciam et Longobardiam constitutis, ad quos littere iste peruenerint, salutem et
+				<lb/>apostolicam benedictionem.</head> <p>Apostolo ammonente didicimus, quod sicut<hi rend="italic">acqua extinguit
+				<lb/>ignem</hi>, ita <hi rend="italic">elemosina</hi> extinguit <hi rend="italic">peccatum</hi>, et
+				<lb/>iterum: <hi rend="italic">date elemosinam, et ecce omnia munda sunt uobis</hi>. Uel: qui secularibus
+				<lb/>dediti sunt diuinis libere uacare non possunt, pro locis, qui ad Dei honorem constituuntur, plurimum
+				<lb/>debent esse solliciti, et ut suas personas peccatorum mole depressas possint exhonerare, eis pietatis et
+				<lb/>caritatis intuitu digna suffragia ministrare. Lator presentium M. nomine, nobilis Aretine ciuitatis et
+				<lb/>indigena, mundum relinquere et Deo seruire desiderans quandam ospitalem domum ad humani generis
+				<lb/>liberatoris honorem hedificare incepit, cui possessiones et uniuersa bona sua deuotissime contulit, ubi
+				<lb/>siquidem pauperes recipiuntur, debiles membrorum quiete suscepta reficiuntur, infirmis omnibus diuersa
+				<lb/>humanitatis beneficia exhibentur, et si aliquem ibi mori contigit honorifice sepelitur. Quia igitur ad
+				<lb/>tantum opus perficiendum (uel: ad tantum seruitium Dei perficiendum) proprie facultates non suppetunt,
+				<lb/>per presentia scripta uniuersitatem uestram rogamus, monemus et exhortamur in Domino, quatinus de bonis
+				<lb/>uestris a Deo prestitis uestras ei elemosinas impendatis, ut per hec et alia bona, que feceritis,
+				<lb/>pertingere ad eterna gaudia ualeatis.
+			</p>
+		</div>
+		<pb n="25"/>
+		<div>
+			<head type="numeral"><lb/>XXVI.</head>
+			<head type="h2"><lb/>Cuiuslibet ecclesiastici ad dominum papam pro [pe]n[i]t[enti].</head>
+                        <head><lb/>REUerendo patri et plurimum metuendo domino Eug(enio) Dei gratia totius ecclesie summo pontifici
+				<lb/>Ier(onimus) Aretine ecclesie episcopus licet indignus debitam semper reuerentiam.</head> <p>Quoniam summe pietatis
+				<lb/>patrem presentium latorem, M. nomine, nostre ecclesie filium ad misericordiam uestram summa cum fiducia
+				<lb/>mittere nullatenus dubitamus. Qui siquidem post multorum peccatorum excessus quandam ecclesiam cum
+				<lb/>libris et suis omnibus ornamentis suadente diabolo combussit et sacerdotem in eadem domo diuina officia
+				<lb/>celebrantem grauiter uulnerare presumpsit. Quia igitur illis, qui uiolentas manus in clericos illicere
+				<lb/>nullatenus pertimescunt, penitentiam imponere sine mandato uestro non possumus nec debemus, ut uestro se
+				<lb/>conspectui presentaret et mandatis uestris obtemperaret canonica censura coegimus. Sanctitatem itaque
+				<lb/>uestram plurimum deprecamus, quatinus, postquam supplex ad penitentiam rediit cor contritum et
+			<lb/>satisfacere que sibi iniunxeritis, effectui mancipare congaudeat. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXVII.</head>
+			<head type="h2"><lb/>Cuiuslibet ecclesiastici prelati ad inferiorem.</head>
+			<p><lb/>QUOtiens fratres nostros episcopos ea sequi cognoscimus que iusticie et rationis ordini nullatenus
+				<lb/>contrarie, sed modis omnibus consentire noscuntur totiens animus noster exultat et magno mentis affectu
+				<lb/>gaudemus. Quod latorem presentium M., quem multa crimina diabolo suadente commisisse
+                                <pb n="26"/>
+                                <lb/>scripsisti, nostro se conspectui presentare canonice coegisti, tua fraternitas fecit rem iustitie
+				<lb/>congruentem, et nos ab eo iuramentum suscepto, quod in clericos nisi pro sui corporis tuitione de cetero
+				<lb/>nequaquam manus iniceret, pro delictis, que nobis significasti, XV annorum penitentiam imposuimus. Ipsum
+				<lb/>itaque ad fraternitatem tuam remittimus, quatinus eius anime et corporis diligens procurator existas et
+				<lb/>iniunctam sibi penitentiam summa cum sollicitudine eum facias obseruare. Si autem uelut
+				<lb/><hi rend="italic">canis ad uomitum</hi> rediens sui creatoris memoriam habere contempserit, canonicam in
+			<lb/>eum censuram exercere nullatenus differas. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXVIII.</head>
+			<head type="h2"><lb/>Quorumlibet clericorum ad maiorem suum pro suo episcopo consecrando.</head>
+                        <head><lb/>DOMINO et in Christo patri plurimum metuendo Eu(genio) Dei gratia totius sancte ecclesie procuratori
+				<lb/>eximio B. archidiaconus, P. prepositus et clerici bononiensis episcopatus tam maiores quam minores
+				<lb/>deuotissimam reuerentiam.</head> <p>Quantum meroris et tristitie mors propii pastoris crudelissima nobis exhibere
+				<lb/>noluerit, quicunque uitam suam moresque cognouit, ualet aperta ueritate cognoscere. Sed ne ecclesia
+				<lb/>nostra diu proprio pastore uiduata posset aliquod detrimentum incurrere, magistrum Pepum ecclesie sancti
+				<lb/>Fridiani canonicum idoneum, siquidem honestum, religiosum et satis litteratam personam, populi petitione
+				<lb/>secundum canonum statuta precedente communi consensi et pari voluntate nobis in patrem et nostrarum
+				<lb/>animarum rectorem eligimus. Cuius rei gratia sanctitatem uestra pia prece deposcimus, quatinus eandem
+				<lb/>electionem, si placet, confirmare dignemini et, quando prefata personam a uestris piis manibus
+			<lb/>consecrandum nos uobis exhibere placuerit, uestre paternitatis litteris nobis significetis. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXIX.</head>
+			<head type="h2"><lb/>Responsiua eiusdem.</head>
+			<pb n="27"/>
+                        <head><lb/>Eug(enius) episcopus seruuus seruorum Dei dilectis filiis B. archidiacono, P. preposito et omnibus
+				<lb/>Bononiensis episcopatus clericis tam maioribus quam minoribus salutem et apostolicam benedictionem.</head>
+                                <p><lb/>Pastoralis nos cura constringit, ecclesiis sacerdotis regimine uel munimine destitutis sollicita
+				<lb/>consideratione prospicere, ne proprio decedente pastore contrarium aliquid nostro pro neglectu, quod
+				<lb/>absit, ualeat inueniri. (uel: Quotiens ea concedere, que ortari) nos conuenit, postulamur, moras ad
+				<lb/>concedendum facere non debemus, ne differre bona desideria, que fouenda sunt, uideamur; uel: Ex iniuncto
+				<lb/>nobis a Deo apostulatus officio uolumus omnibus ecclesiis salubriter prouidere et iustis petentium uotis
+				<lb/>annuere clementer; uel: Propositi nostri nos sollicitudo uehementer astringit, ut in apostolice sedis
+				<lb/>regimine disponente Domino constituti pro omnium ecclesiarum statu ita debeamus esse solliciti, quatinus
+				<lb/>nulla in eis culpa neglectus appareat). Ideo, quamuis amaras uestre dilectionis litteras, quibus de
+				<lb/>morte Iohannis beate recordationis quondam episcopi uestri cognouimus, libenter minime suscepimus,
+				<lb/>uestris tamen iustis et idoneis postulationis effectum congruum parare uolumus. Quapropter per presentia
+				<lb/>uobis scripta mandamus, quatinus V feria proxime uentura electum uestrum cum uestrarum aliquibus
+				<lb/>personarum Uiterbi nostro conspectui presentetis, ubi siquidem sancti spiritus inuocata gratia eum uobis
+			<lb/>in patrem et uestrarum animarum episcopum consecrabimus. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXX.</head>
+			<head type="h2"><lb/>Epistola domini pape commendata.</head>
+                        <head><lb/>Dilectis filiis B. archidiacono, P. preposito et uniuerso clero, consulibus et cuncto Bononiensi tam
+				<lb/>ciuitatis quam comitatus populo salutem et apostolicam benedictionem.</head> <p>Uenerabilem fratrem nostrum P.,
+				<lb/>episcopum uestrum, ad nos uenientem (uel: Dilectum filium nostrum P. electum uestrum; ceteris non
+				<lb/>mutatis) debita benignitate suscepimus et inter fratres nostros prout decuit honorantes eum uobis in
+				<lb/>rectorem consecrauimus. Ipsum itaque cum nostrarum litterarum prosecutione ad patriam propriam
+				<lb/>remeantem,
+                                <pb n="28"/>
+                                <lb/>per presentia scripta uniuersitatem uestram plurimum rogando mandamus et mandando precipimus quatinus eum
+				<lb/>deuote recipiatis, diligatis et honoretis, tanquam proprio pastori et uestrarum animarum episcopo
+                                <lb/>debitam in omnibus reuerentiam exhibeatis. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXXI.</head>
+			<head type="h2"><lb/>Domini pape ad subditos.</head>
+                        <head><lb/>Eu(genius) episcopus eruuus seruorum Dei dilecto filio G. beati Martini ecclesie salutem et apostolicam
+				<lb/>benedictionem.</head> <p>Dignum et rationabile est, ut quos erga beatum Petrum et nos ipsos deuotiores
+				<lb/>inuenerimus, artoris caritatis et familiaritatis uinculo nobis astringamus. Apostolice sedis namque
+				<lb/>benignitas fidelibus suis semper consueuit esse benignior et obedientibus sibi ad beneficia prestanda
+				<lb/>propensior (uel aliter: Apostolice sedis clementia deuotos et humiles filios et assuete pietatis officio
+				<lb/>propensior consueuit diligere et sue protectionis munimine confouere. Et eapropter etc.). Equitatis et
+				<lb/>iustitie ratio persuader (uel: postulat), ut quos erga beatum Petrum et nos ipsos deuotiores esse
+				<lb/>cognoscimus, amplius diligamus, ne prauorum hominum agitentur molestiis, paterna sollicitudine prouidere
+				<lb/>curemus, ut quemadmodum patres uocamur in nomine, ita nichilominus comprobemur in opere. Huius rei
+				<lb/>gratia, dilecte in Chritsto fili L., quoniam de persona tua fructum Dei ecclesie prouenturum speramus
+				<lb/>(uel aliter: uenerabilis fratri I. precibus episcopi inclinati), te in specialem filium apostolice sedis
+				<lb/>assumimus, tuam personam cum omnibus bonis tam ecclesiasticis quam mundanis, que in presentiarium iuste
+				<lb/>et canonice possides aut in futurum prestante Deo poteris adipisci, beati sub Petri et nostra
+				<lb/>protectione suscipimus et presentis scriptis patrocinio firmare decernimus, statuentes ut, si te
+				<lb/>grauatum in aliquo esse presenseris, libere tibi sedem apostolicam liceat appellare. Nulli hominum fas
+				<lb/>sit personam tuam uel bona tua temere perturbare, grauare, seu qui[bus]libet molestiis fatigare.
+                                <pb n="29"/>
+                                <lb/>Si quis autem id attemptare presumpserit, indignationem omnipotentis Dei et beatorum Petri et P[auli]
+			<lb/>apostolorum eius se nouerit incursurum (uel: incurrat). AMEN. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXXII.</head>
+			<head type="h2"><lb/>Domini pape ad imperatorem.</head>
+                        <head><lb/>Eug(enius) episcopus seruus seruorum Dei dilecto filio in Christo Corrado Dei gratia inuictissimo
+				<lb/>Romanorum imperatori semper augusto salutem et apostolicam benedictionem.</head> <p>Cum rex regum et dominus
+				<lb/>dominatium te imperatorem per nostrum ministerium et iustitie rectorem uoluit constituere, expedit tibi
+				<lb/>suas ecclesias a prauorum incursionibus defensare et in eisdem deuote seruientes corporali gladio
+				<lb/>manutenere. Celsitudini tue notificare uolumus, quod Romani, qui sibi maiorem uel parem habere adhuc
+				<lb/>minime uoluerunt, personam nostram a propria sede eicerunt et dilectos filios nostros cardinales, quod
+				<lb/>siquidem sine lacrimis dicere non possumus, ad excellentiam tuam per presentia scripta plurimum rogando
+				<lb/>mandamus, quatinus uniuersis regni tui uiribus collectis Aritium ad nos uenire proxima beate Marie
+			<lb/>festiuitate labores, ubi nimirum quod nobis fuerit faciendum, tuo consilio faciemus. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXXIII.</head>
+			<head type="h2"><lb/>R(esponsio) eiusdem.</head>
+			<p><lb/>Quotiens, in Christo karissime pater, de uestra sancte Romane ecclesie, que caput et omnium mater est
+				<lb/>Domino uolente statuta, aduersitate aliquid certi cognosco, totiens doleo, dolendo contribor et ad
+				<lb/>utriusque liberationem
+                                <pb n="30"/>
+                                <lb/>uelud possum libenter intendo. Hinc est utique, quod uisis uestre paternitatis litteris, quibus uos
+				<lb/>aduersitatem sustinere mihi significastis, continuo duces, marchiones, comites et uniuersos Romani regni
+				<lb/>barones, quos potui, ad meam presentiam conuocaui et omnium habito consilio statuto tempore ad uos
+				<lb/>Aritium uenire disposui. Uestre itaque est pro Romani imperii incolumitate omnipotentem Dominum exorare,
+			<lb/>ut per suam pietatem et largum beneficium suam me misericordiam sequi et preuenire cognoscam. </p>
+		</div>
+		<div>
+			<head type="numeral"><lb/>XXXIV.</head>
+			<head type="h2"><lb/>Epistola imperatoris omnibus de regno suo.</head>
+                        <head><lb/>CORRadus Dei gratia Romanorum imperator augustus uniuersis ducibus, principibus, marchionibus, comitibus
+				<lb/>et omnibus Romani regni baronibus gratiam et bonam uoluntatem.</head> <p>Quamuis celestis architector, qui omnia
+				<lb/>creauit, ex nulla preiacente materia nos Romani regni maiorem locum per suam sanctam misericordiam 
+				<lb/>fecerit obtinere, uos tamen secundario membra uoluit constituere, ut quod per se caput facere non
+				<lb/>ualeret, uestra uniueristas cum integritate suppleret. Notum sit uobis dominum apostolicum suis nobis
+				<lb/>litteris significasse, quod Romani, qui sue uoluntati parere deberent, eum a propria sede expulerint et,
+				<lb/>unde lacrimas continere non poterat, cardinales ceperint turpiter et inhoneste tractauerint. Cuius rei
+				<lb/>causa nos plurimum rogando mandauerit, quatinus nobis collectis, qui nostri regni uires esse
+				<lb/>cognoscimini, proxima beate Marie festiuitate Aritii sui nos conspectui presentemus, ubi siquidem
+				<lb/>quicquid est Deo concedente facturus, eum uelle facere nostro consilio recognouimus. Quia igitur tam
+				<lb/>benigni patris nostri uoluntatem minime preterire debemus, uobis uniuersis firmiter dicendo mandamus,
+				<lb/>quatinus armis susceptis, fidelibus undique conuocatis ita honeste paremini, quod statuto ab eodem
+			<lb/>domino termino eius presentiam sicut nos decet adire possimus. </p>
+		</div>
+	</body>
+</text>
+</TEI>
