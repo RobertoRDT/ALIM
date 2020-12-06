@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>Vita Barbati episcopi Beneventani</title>
+        <author>Anonimo</author>
+        <respStmt>
+        	<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+          <name>G. Waitz</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+          <name key="GV">Arianna Agresti</name>
+        </respStmt>
+      </titleStmt>
+
+      <extent>
+        <measure quantity="159530" unit="words">Parole: 3446</measure>
+        <measure quantity="941396" unit="characters_without_spaces">Caratteri (spazi esclusi): 20916</measure>
+      </extent>
+
+      <publicationStmt>
+        <publisher>
+          <ref target="http://alim.unisi.it/">ALIM</ref>
+        </publisher>
+        <date when="2018-04-20">20/04/2018</date>
+        <availability>
+          <p>Copyright 2006- progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+          	<author>George Waitz, Oswald Holder-Egger, Agnello Ravennate, Ambrogio Autperto, Papa Gregorio I, Erchemperto, Andrea da Bergamo, Paolo Diacono</author>
+          	<title>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</title>
+          	<editor>G.Waitz</editor>
+            <imprint>
+            	<pubPlace>Hannover: Impensis Bibliopolii Hahniani</pubPlace>
+              <publisher>Societas Aperiendis Fontibus Rerum Germanicarum Medii Aevi</publisher>
+              <date>1878</date>
+            </imprint>
+          </monogr>
+          <series>
+          	<title level="s">Monumenta Germaniae Historica, Scriptores, Sezione III</title>
+            <biblScope unit="vol">1</biblScope>
+          </series>
+        </biblStruct>
+
+      	<bibl>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinit Italiana del Medioevo.</p>
+      </projectDesc>
+    
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+        	<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola  sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola  stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+          </list>
+        </ab>
+        <ab type="level">ALIM2_2</ab>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="genre">Storiografia</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date when-iso="801/900">IX secolo</date>
+      </creation>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2018-04" who="AA">Prima trascrizione nel formato TEI P5 [livello ALIM2_1]</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text>
+    <body>
+	<!--
+	<pb n="555"/>
+		<p>
+			<lb/><hi rend="italic">Qui sancti Barbati Beneventani vitam conscripsit non ante saeculum nonum
+			<lb/>operi calamum admovisse videtur, quippe qui Pauli Historia Langobardorum usus si
+			<lb/>et quae huic addidit ex populi rumore magis quam ex certa rerum cognitione
+			<lb/>hausisse videatur<note n="l" type="critical">Prologus ad fidelium provocat relationem. Etiam quae c. 7. de divisione redituum episcopalium a Barbato instituta traduntur ita sunt judicanda.</note>. Revera duo tantum sunt quae memoriae tradidit, simulacri a Langobardis
+			<lb/>culti destructionem, ex quo patera et calix ecclesiae Beneventanae facti esse
+			<lb/>narrantur, et jura huic episcopatui a duce Romualdo impertita, ita ut haec vitae
+			<lb/>scribendae ansam praebuisse credere liceat. Auctor quisquis fuerit sermone utitur
+			<lb/>tumido, ad grammaticae regulas parum exculto; quod ne ipsum quidem fugisse videtur,
+			<lb/>qui modestis verbis 'dictantis ignaviam' lectorum commendat indulgentiae. Eo vero
+			<lb/>alii quidam adducti esse videntur, ut menda gravissima tollerent et quae ipsis minus
+			<lb/>placebant mutarent, alia etiam de suo adderent. ldeo codices qui exstant inter se
+			<lb/>saepe differunt, neque genuina auctoris verba ex ipsis elicere ubique licet.
+			<lb/>1) Romanus Vallicellianus IV, membr. fol. s. XII, litteris Beneventanis
+			<lb/>exaratus, ubi in magna Vitarum collectione f. 124 sq. haec quoque exstat. Codex
+			<lb/>ab interpolatione liber quae in reliquos omnes praeter 5 irrepsit, primo loco nominandus
+			<lb/>est, quamvis negligentius scriptus et mendis non paucis maculatus.
+			<lb/>2) Romanus Vallicellianus IX, membr. fol. s. XI, litteris Beneventanis exaratus,
+			<lb/>ubi majori Vitarum collectioni inserta fol. 25. haec legitur, satis accurate ut
+			<lb/>videtur scripta, sed quae loco illo interpolatoris manum haud effugit.
+			<lb/>3) Neapolitanus bibliothecae publicae VIII, B, 6, olim Trojanus, cum libris
+			<lb/>Aemilii Cavalerii episcopi Trojani in bibliothecam tunc regiam Borbonicam delatus,
+			<lb/>membr. S. XI, litteris Beneventanis exaratus, quo itidem Vitarum collectio continetur.
+			<lb/>In verborum formis magis etiam quam 1 et 2 linguae rusticae vestigia ostendit, quod
+			<lb/>utrum auctori an amanuensi tribuendum sit, vix certo diffiniri potest. Ideo ea tantum
+			<lb/>quae altero codice vel aliis collatis locis confirmarentur recipere satius duxi.
+			<lb/>4) Vaticanus Nr. 5834, s. XVI. Petri Ferretti Ravennatis manu scriptus, qui
+			<lb/>varia collegit vel excerpsit opera (cf. Arch. XII, p. 253; supra p. 268), praecipuis
+			<lb/>locis cum 1-3 convenit.
+			<lb/>5) Benedicti chronicon in cod. Romano bibliothecae Chigianae F IV, 75,
+			<lb/>membr. c. a. 1000. scripto, integram fere Barbati Vitam recepit, quam quamvis scriptor
+			<lb/>ille vere barbarus non paucis vel parvis maculaverit mendis, nonnulla etiam de suo
+			<lb/>addiderit, nonnumquam tamen, cum liber omnium sit antiquissimus, verae lectioni restituendae
+			<lb/>conducit.
+			<lb/>Correctoris manum alii codices ostendunt:
+			<lb/>6) Casinensis Nr. 145, membr. fol. max. s. XI ex., ubi haec cum aliis sanctorum
+			<lb/>vitis conjuncta est. Cum hoc conveniunt
+			<lb/>6a) et 6b) Casinenses Nr. 146 et Nr. 110 (cf. Arch. V, p. 47; XII, p.500). Ex Casinensi
+			<lb/>Nr. 145. descriptus est cod. Romanus coll. Sapientiae, s. XVII (Arch. XII, p. 418).</hi>
+		</p>
+	<pb n="556"/>
+		<p>
+			<hi rend="italic">
+			<lb/>7) Neapolitanus bibl. publicae VIII, B, 5, olim Aemilii Cavalerii episcopi
+			<lb/>Trojani, membr. s. XII, magnae vitarum collectionis quinque voluminibus comprehensae
+			<lb/>pars, litteris Beneventanis exarata.
+			<lb/>8) Romanus S. Crucis de Hierusalem<note n="1"><hi rend="italic">Nescio an bibliothecae Victoris Emanuelis illatus, ubi nonnulli S. Crucis codices desiderantur; cf. N. Arch. II, p. 327.</hi>.</note> Nr. 49, olim Nonantulanus, membr.
+			<lb/>s. XII, ubi etiam aliae Vitae continentur (cf. Arch. XII, p. 397).
+			<lb/>9) Vaticanus Nr. 1197, olim capituli eccl. Valvensium S. Pelini in Pelignis,
+			<lb/>membr. fol. max. s. XI ex. vel XII, litteris Beneventanis exaratus, ubi complures
+			<lb/>Vitae sunt conjunctae (cf. Arch. XII, p. 223).
+			<lb/>10) Romanus bibliothecae Vallicellianae VI, membr. fol. max. s. XIII ex.,
+			<lb/>in magna vitarum collectione, cujus quaternione uno deperdito, finis deest.
+			<lb/>10a) Romanus bibliothecae Vallicellianae H. 4, chart. fol. s. XVII, manu
+			<lb/>Antonii Gallonii ex 10 descriptus, sed ita ut finis sive ex codice illo tunc integro
+			<lb/>sive altero quodam sumtus adsit.
+			<lb/>11) Montis Virginis in Vitarum collectione, de quo nihil certi compertum
+			<lb/>habemus (Arch. XII, p. 531).
+			<lb/>Qui primus Vitam edidit Ughelli (Ital. sacra VIII, p. 21) codicem secutus est Beneventanum
+			<lb/>S. Sophiae, qui ad 6-10 prope accedit, Bollandini (Febr. III, p. 139)
+			<lb/>S.Johannis Capuanum ad manus habuerunt. Neutra editio genuinum expressit exemplum.
+			<lb/>Novam vitae recensionem exhibet Cod. Vaticanus Nr. 781O, membr. fol. s. X ex.
+			<lb/>vel XI, ita incipiens:</hi> Considerandum nobis est, dilecti fratres, quomodo mater ecclesia <hi rend="italic">etc.,
+			<lb/>quam nullius esse pretii judicavit Bethmann. Brevior vita legitur in cod. Avenionensi
+			<lb/>Nr. 251, chart. s. XV:</hi> Tempore quo Grimuald <hi rend="italic">etc. (Arch. VII, p. 209), edita Acta
+			<lb/>SS. l. l., p. 142-145, ex mss. ecclesiae Beneventanae. Fragmenta etiam codici Pauli
+			<lb/>Parmensi (supra p. 30) inserta sunt<note n="2"><hi rend="italic">Carmina ex vita hausta edidit Borgia, Storia di Benevento II, p. 277 n</hi>.</note>. Nonnulla capita in Germanicam linguam vertit
+			<lb/>O. Abel una cum Pauli historia.
+			<lb/>Bethmann, qui hujus vitae editioni non vulgarem curam adhibuit, codices omnes
+			<lb/>praeter 5, cujus lectiones b. m. Pertz enotaverat, cum editis comparavit, nimiam vero
+			<lb/>iis fidem dedit qui puriorem praebent sermonem. Ideo codices 1-3, quos propius ad
+			<lb/>genuinam libri formam accedere cognovi, praeterea 7, iterum accuratissime excussi.
+			<lb/>Capitum divisionem codicum aliquot vestigia secutus institui. G.W.</hi>
+			-->
+
+
+   <div>
+
+   	<head>PASSIO<note n="a" type="critical">P. b. B. 1; Vita vel obitus sancti Barbati episcopi 2; V. et ob. s. B. confessoris et episcopi 7.</note> BEATI BARBATI EPISCOPI ET MARTIRIS.</head>
+
+   	<p>
+    	<lb/>[Incipit prologus<note n="b" type="critical"><hi rend="italic">ita</hi> 2; Inc. pr. in vitam S. B. conf. 6; Inc. prol. in v. s. B. ep. et conf. 8. 10; Prologus 9; <hi rend="italic">deest</hi> 1. 3. 4. 5. 7.</note>.] Sicut evidentissime fidelium relatione comperimus<note n="c" type="critical">comperi 7.</note> de celeberrimo<note n="d" type="critical">celeberrimi 2.</note>
+			<lb/>sanctissimi patris Barbati more vel meritis, quamquam indignus ad tam eximii
+			<lb/>presulis exponendas laudes atque omnibus philosophiae deterior sectatoribus, annuente
+			<lb/>mentium scrutatore, qui non philosophandi<note n="e" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; philosophari <hi rend="italic">cett</hi>.</note> sed simplicibus verbis suos discipulos euangelizandi<note n="f" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; euangelizare <hi rend="italic">cett</hi>.</note>
+			<lb/>sacra misteria sancxit, inculto licet sermone, tamen<note n="g" type="critical"><hi rend="italic">ita</hi> 1. 2 (<hi rend="italic">ubi</hi> promerendam). 3; t. a. p. <hi rend="italic">des. cett</hi>.</note> ad proferendam gloriam<note n="h" type="critical">gratiam 4. 6. 7. 8. 9; <hi rend="italic">deest</hi> 10.</note>,
+			<lb/>quae caelitus<note n="i" type="critical"><hi rend="italic">deest</hi> 7.</note> in beatissimo Barbato effulsit, propero<note n="k" type="critical">prope 1.</note> devotissimus<note n="l" type="critical">devotissimo 3.</note> enarrare<note n="m" type="critical">effare 1.</note>. Et si quis<note n="n" type="critical">quid 1.</note>
+			<lb/>fortasse liberalibus disciplinis aprime<note n="o" type="critical"><hi rend="italic">ita</hi> 1. 2.</note> inbutus accuratius legerit haec quae de tanti viri
+			<lb/>gestis repperit<note n="p" type="critical"><hi rend="italic">ita</hi> 1. 3. 7; reppererit <hi rend="italic">cett</hi>.</note> apicibus prenotata<note n="q" type="critical">annotata 6. 7. 8. 9; preannotata 10.</note>, non dictantis<note n="r" type="critical">dictandis <hi rend="italic">corr</hi>. dictandi 3.</note> perpendat ignaviam<note n="s" type="critical">innaviam 1; ignabia <hi rend="italic">corr</hi>. ignabiam 3.</note>, sed meritorum
+
+	<pb n="557"/>
+
+			<lb/>eius excellentiam, de quo summo mentis conamine, postposita verecundia<note n="a" type="critical">vereundia 1.</note>, ut temerarius
+			<lb/>loquor. [Explicit prologus<note n="a*">E. p. <hi rend="italic">des</hi>. 1. 3. 7.</note>].
+		</p>
+		
+   </div>
+    	
+		<div>
+			
+    	<head>[INCIPIT<note n="b" type="critical"><hi rend="italic">ita</hi> 2.</note> VITA SANCTI BARBATI EPISCOPI].</head>
+  	
+    	<p>
+			<lb/>1. Tempore quo Grimoalt<note n="c" type="critical">Grimoualt 3; Grimoaldus 1; Grimoald <hi rend="italic">cett</hi>.; rex <hi rend="italic">add</hi>. 3.</note> Langobardorum<note n="d" type="critical">Long. 2 <hi rend="italic">semper</hi>.</note> regni moderabat<note n="e" type="critical"><hi rend="italic">ita</hi> 2. 3; moderabatur <hi rend="italic">cett</hi>.</note> abenas eiusque
+			<lb/>filius Romualt<note n="f" type="critical"><hi rend="italic">ita</hi> 1; Romoualt 3 <hi rend="italic">semper</hi>; Romuald 2. 4. 5. 8.</note> Samnitibus<note n="g" type="critical">Sampn. 1.</note> imperabat, insignis sacerdos Barbatus nomine, ut fatus<note n="h" type="critical">factus 1; prephatus 5; ut f. s. <hi rend="italic">des</hi>. 6. 7. 8. 9. 10.</note> sum,
+			<lb/>Redemptoris nutu<note n="i" type="critical">nutum 5.</note> claruit Beneventi<note n="k" type="critical">Benebenti 3; Beneventum 1.</note>, actionibus celeps<note n="l" type="critical">celebs 1; celebris <hi rend="italic">Ugh</hi>.</note> miraculisque coruscus. His
+			<lb/>quoque<note n="m" type="critical">vero 6. 7. 8. 9. 10.</note> diebus quamvis sacri<note n="n" type="critical">sacris 1. 5. 7. - baptismati 1.</note> baptismatis unda Langobardi abluerentur, tamen priscum
+			<lb/>gentilitatis ritum tenentes, sicut bestiali mente degebant, bestiae simulacro, quae
+			<lb/>vulgo vipera nominatur, flectebant colla, quae debite<note n="o" type="critical">debiti 3.</note> suo debebant flectere<note n="p" type="critical">flecti 3.</note> Creatori<note n="1"><hi rend="italic">De viperae simulacro Beneventi servato, quae huic narrationi ansam praebuisse videtur, cf. Borgia l. l. p.</hi> 70.</note>.
+			<lb/>Verum<note n="q" type="critical">quin 6. 7. 8. 9. 10.</note> etiam non longe a Beneventi menibus quasi sollempnem<note n="r" type="critical"><hi rend="italic">ita</hi> 2. 3; <hi rend="italic">fortasse</hi> diam = deam <hi rend="italic">legendum</hi>; sollempne die 5; m. devotissime sacrilegam c. 1. 6. 7. 8. 9. 10.</note> diem sacram colebant
+			<lb/>arborem, in qua suspendentes<note n="s" type="critical">suspendente 3; suspendebant corium 4; suspenso corio 6. 7. 8. 9. 10.</note> corium, cuncti qui adherant<note n="t" type="critical"><hi rend="italic">ita</hi> 2. 3.</note> terga vertentes arbori, celerius
+			<lb/>equitabant, calcaribus<note n="u" type="critical">calcaneis 1; calcanibus 3.</note> cruentantes equos, ut unus<note n="v" type="critical">alter alteri 1; u. alterum 6. 8. 10; altum u. 7.</note> alteri possit<note n="w" type="critical">posset 6. 7. 8. 9. 10.</note> prehire<note n="x" type="critical"><hi rend="italic">ita</hi> 3; preire <hi rend="italic">cett</hi>.</note>; atque
+		    <lb/>in eodem<note n="y" type="critical">eius 3.</note> cursu retroversis<note n="z" type="critical">retroversi 1; retroversum 3.</note> manibus corium<note n="a" type="critical">in c. 6. 7. 8. 9. 10.</note> iaculabant<note n="b" type="critical"><hi rend="italic">ita</hi> 2. 3; iaculabantur <hi rend="italic">cett</hi>.</note>, iaculatoque<note n="c" type="critical">sicque 6. 7. 8. 9. 10. - particula modica 1.</note> particulam
+		    <lb/>modicam ex eo comedendi<note n="d" type="critical">commedendi 3; comedendam 4. 6. 7. 8. 9. 10; comendi <hi rend="italic">corr</hi>. comedi 1.</note> superstitiose<note n="e" type="critical">superstitionem <hi rend="italic">corr</hi>. superstitione 3.</note> accipiebant. Et quia stulta illic persolvebant
+			<lb/>vota, ab actione nomen loci illius<note n="f" type="critical">loco illi 6. 7. 8. 9. 10.</note>, sicut actenus dicitur, Votum imposuerunt<note n="2"><hi rend="italic">Ecclesia S. Mariae de Voto. De deo Wodan Abel, Vers. germ, p. 249, nimis audacter cogitavit. - In vita altera haec ita expressa sunt:</hi> Unde usque hodie sicut pro voto arboris Votum, ita et locus ille, census devotionis ubi vipere reddebantur, dignoscitur appellari.</note>.
+		</p>
+    	
+    <p>
+			<lb/>2. Quae vir Domini<note n="g" type="critical">Dei 3.</note> Barbatus cernens, incessabiliter eis annuncians<note n="h" type="critical"><hi rend="italic">ita</hi> 2. 3. 5; annunciabat <hi rend="italic">cett</hi>.</note>, duobus
+			<lb/>dominis<note n="i" type="critical">domini 1.</note> servientes non posse salvari, et nequaquam inter filiorum Dei numeros<note n="k" type="critical">numero 5; numerum 6. 7. 8. 9.</note> merentur<note n="l" type="critical"><hi rend="italic">deest</hi> 1. 6. 7. 8. 9. 10.</note>
+			<lb/>adgregari, qui se apostatae angeli ditioni subdiderint<note n="m" type="critical">subdidissent 6. 7. 8. 9. 10.</note>. Haec et alia illis indesinenter
+			<lb/>beatissimus<note n="n" type="critical">beatus 2; illis b. 7.</note> Barbatus huc atque illuc discurrens anxie predicabat, cupiens eos Creatori
+			<lb/>suo purgatos erroribus presentare<note n="o" type="critical">presentari 7.</note>. At illi ferina caecati dementia, nihil<note n="p" type="critical">nil 2. 7, <hi rend="italic">alii</hi>.</note> aliud nisi
+			<lb/>bellorum meditantes usus<note n="q" type="critical">usum 3; huius 2.</note>, optimum esse fatebantur cultum legis maiorum suorum, quos
+			<lb/>nominatim bellicosissimos asserebant, ideoque viri Dei monita funditus abdicabant. Sed
+			<lb/>omnipotens atque ineffabilis Deus, qui pro<note n="r" type="critical"><hi rend="italic">deest</hi> 1.</note> humanis erroribus formam servi accipiens
+			<lb/>sanguinem suum fudit, eo quod neminem vult perire, non desinit etiam ingratos ad se
+			<lb/>congruentibus modis perducere, ut salvari queant. Hic piissimus medicus inprovisus
+			<lb/>aegro assistit, cumque compellit, ut de sua poscat salute<note n="s" type="critical">s. p. salutem 1; sua salutem poscat 3; ut suam deposcat salutem 7.</note>.
+    </p>
+    	
+    <p>
+			<lb/>3. Cumque caritatem<note n="t" type="critical">claritatem 9. - beati B. 6. 7. 8. 9. 10.</note> Barbati illorumque perpenderet infirmitatem<note n="u" type="critical">infirmitate <hi rend="italic">corr</hi>. infirmitates 3.</note>, concessit,
+			<lb/>ut, sicut eos<note n="v" type="critical"><hi rend="italic">deest</hi> 5? 6. 8. 9. 10; <hi rend="italic">cf. n. w</hi>.</note> sanctissimus vir divinis medicaminibus conabatur a<note n="w" type="critical">conabantur 7; <hi rend="italic">eos</hi> a. 5? 6. 8. 9. 10.</note> peccatorum febribus
+			<lb/>et ex intimis squalida profluente sanie<note n="x" type="critical">saniem <hi rend="italic">corr</hi>. sanie 3.</note> emundare<note n="y" type="critical">emundaret 6. 7. 8. 9; promundare 1.</note> atque [a<note n="z" type="critical">a <hi rend="italic">deest</hi> 1. 2.</note>] protoplausti<note n="a" type="critical">protoplasti 2. 3.</note> subversoris
+
+	<pb n="558"/>
+
+			<lb/>servitio ad filiorum Dei perducere<note n="a" type="critical">producere 5; perduceret 6. 7. 8. 10; produceret 9.</note> libertatem, etiam mirabilibus signis suae predicationis<note n="b" type="critical">predicationibus 1. 3.</note>
+			<lb/>verba firmaret; ut, si non verbis<note n="c" type="critical">verba 7.</note>, ad suam salutem visis miraculis flecterentur<note n="d" type="critical">flecterent 2; flecteret 5.</note>. Nam
+			<lb/>demonia ex obsessis corporibus aliquando fusis ad Dominum<note n="e" type="critical">Deum 3. 6. 7. 8. 9; a. f. a. D. p. <hi rend="italic">des</hi>. 1.</note> precibus, aliquando minis
+			<lb/>tantum eiciebat. Et nunc usque ad corporis eius reliquias, cooperante Domino<note n="f" type="critical">Deo 3.</note>, saepius
+			<lb/>a demonio plures salvari conspicimus. Necnon expleta<note n="g" type="critical"><hi rend="italic">ita</hi> 2. 3; expletis m. sollempniis <hi rend="italic">cett</hi>.; et exp. 1.</note> missarum sollempnia lotisque
+			<lb/>viri Dei manibus, austa<note n="h" type="critical"><hi rend="italic">ita</hi> 3.</note> aqua, quae de illius manibus defluebat, continuo, a quacumque
+			<lb/>detenti essent infirmitate, saluti pristinae restituebantur<note n="i" type="critical">restituebant 3.</note>. Sed quoniam longo senio
+			<lb/>saucia membra non possunt fomentis vel unctione levi curari nisi medicaminibus duris,
+			<lb/>quae ex alto vulneris ex<note n="k" type="critical">et ex 1. 6. 7. 8. 9. 10; v. vetustatem 5; qui ex alto v. ex vetustate <hi rend="italic">corr</hi>. quae ex alta v. vetustate 3.</note> vetustate induratam saniem<note n="l" type="critical">sanitatem 1.</note> ad superficiem cutis perducant<note n="m" type="critical">perducat 2. 3.</note>
+			<lb/>ac deinde evulsa putredine concite queant sanari: idcirco misericors Deus, cum cerneret
+			<lb/>quod<note n="n" type="critical"><hi rend="italic">deest</hi> 2. 3.</note> nihil<note n="o" type="critical">nil 1. 3.</note> effectum<note n="p" type="critical">affectum 1; affectus 9; effectus 5. 6. 7. 8; effectu 10.</note> haberet in eorum salute<note n="q" type="critical">salutem 2. 3.</note> servi sui predicatio vel innumera signorum
+			<lb/>ostensio, condolens eorum internitioni, suarumque<note n="r" type="critical">suarum 6. 7. 8. 9; suorum 2. 3.</note> miserationum non est<note n="s" type="critical"><hi rend="italic">deest</hi> 1. 4; est et f. 6. 7. 8 9.</note> oblitus,
+			<lb/>fortia<note n="t" type="critical">ferocia 6? 9. 10.</note> mundi regna super eos adduxit, ut, qui pacis tempore<note n="u" type="critical">tempora 1.</note> salutaria monita abiciebant
+			<lb/>recte suum Creatorem sequi nolentes, tandem necessitate<note n="v" type="critical">necessitatem 3.</note> conpulsi [ab his<note n="w" type="critical">iis 6. 9; hiis 4; is 7; ab his <hi rend="italic">des</hi>. 2. 3; nequibant <hi rend="italic">deest</hi> 3.</note>] quibus
+			<lb/>nequibant obsistere viribus ad suum Redemptorem conversi<note n="x" type="critical">convers 1.</note> divinis opitulationibus eruerentur<note n="y" type="critical">fruerentur 3.</note>.
+    </p>
+    	
+    <p>
+			<lb/>4. Constantinus autem, qui et Constans est appellatus, eo tempore Constantinopolitanum
+			<lb/>regebat imperium. Qui a<note n="z" type="critical">et 1.</note> Langobardorum manibus Italiam<note n="a" type="critical">Italia 3.</note> eripere cupiens suaeque reducere
+			<lb/>ditioni, sicut olim precedentium se<note n="b" type="critical">sue 3; <hi rend="italic">deest</hi> 4. - im 1; potestatem <hi rend="italic">corr</hi>. potestati 3; se fuerat potestatem 5; in pr. s. f. 6. 7. 8. 9. 10.</note> fuerat in potestate<note n="b" type="critical">sue 3; <hi rend="italic">deest</hi> 4. - im 1; potestatem <hi rend="italic">corr</hi>. potestati 3; se fuerat potestatem 5; in pr. s. f. 6. 7. 8. 9. 10.</note>, innumera multitudine
+			<lb/>suorum collecta, mare transgressus, Tarentum<note n="c" type="critical">Tarantutum 1.</note> penetravit. Indeque profectus, pene omnes
+			<lb/>Apuliae urbes depopulavit<note n="d" type="critical">depopulatus est 6. 7. 8. 9. 10.</note>. Pergensque opulentissimam urbem Luceriam<note n="e" type="critical">Lucerinam 1.</note> gravissimis
+			<lb/>preliis cepit, eiusque omnia predonum direpta<note n="f" type="critical">omnibus p. direptis 2. 4. 6. 7. 8. 9. 10; noibus p. directis 1.</note> manibus, ad<note n="g" type="critical">eam ad 1; ad s. eam 6. 7. 8. 9. 1O.</note> solum usque prostravit. De
+			<lb/>cuius excidio<note n="h" type="critical">excidione 9; exilio 1.</note> alacer effectus augustus<note n="i" type="critical">agust. 3.</note>, concitus<note n="k" type="critical"><hi rend="italic">ita</hi> 2. 3. 5; concite <hi rend="italic">cett</hi>.</note> sua castra movens, iuxta Beneventi<note n="l" type="critical">Venebenti 3.</note>
+			<lb/>moenia collocavit<note n="m" type="critical">tenuit 1.</note>. Nec mora, coacervato exercitu, ad expugnandam urbem cum diversis
+			<lb/>bellorum machinis suos magnates<note n="n" type="critical">ostes 5; <hi rend="italic">deest</hi> 7.</note> instituit. In qua urbe Romualt, de quo<note n="o" type="critical">qua 1. 3.</note> supra<note n="1"><hi rend="italic">Cap</hi>. 1.</note> retulimus,
+			<lb/>cum paucis, sed<note n="p" type="critical">se 1.</note> validissimis inerat Langobardis. Ibique sanctissimus pater Barbatus
+			<lb/>morabatur cum illis. Circumdata namque<note n="q" type="critical">igitur 6. 7. 8. 9. - urbem <hi rend="italic">corr</hi>. urbe 3.</note> urbe terribiliter atque inaudite, capiendi<note n="r" type="critical">ad capiendum 6. 8. 10; ad capiendam 7. 9; capiende a nobis 5. - nobis 3.</note>
+			<lb/>eam novis certaminibus per plurimum temporis pugnaverunt. At<note n="s" type="critical">Atque 3.</note> contra Romualt, ut
+			<lb/>erat magnanimis inperterritus<note n="t" type="critical">et i. 5. 6. 7. 8. 9. 10.</note>, eis<note n="u" type="critical">ei 2.</note> fortiter resistens, nunc ex muris, nunc per<note n="v" type="critical"><hi rend="italic">deest</hi> 2.</note> inprovisam
+			<lb/>interruptionem plurimam suorum hostium partem adtrivit<note n="w" type="critical">plurima s. parte attribuit 5; s. h. stratem arribuit 1.</note>. Nam pro paucitate<note n="x" type="critical">paucitatem 3.</note>
+			<lb/>sui exercitus acies contra eum in patulis pavebat dirigere. Tamen cum expeditis<note n="y" type="critical">viris <hi rend="italic">post add</hi>. 3.</note>
+			<lb/>incessabiliter hinc atque inde subito<note n="z" type="critical">subitus 2. 3.</note> inimicorum prostrabat catervas<note n="a" type="critical">caterva 3.</note>. Sed prephatus
+			<lb/>augustus quanto plus sibi<note n="b" type="critical">illum <hi rend="italic">add</hi>. 6. 7. 8. 9. 10.</note> attentius cernebat obsistere, tanto eis<note n="c" type="critical">ei 6. 7. 8. 9.</note> ferventissime<note n="d" type="critical">ferventius 6. 7. 8. 9. 10.</note> nova
+			<lb/>certamina obiciebat.
+		</p>
+    	
+	<pb n="559"/>
+    	
+		<p>
+			<lb/>5. Cumque<note n="a" type="critical">Cum 1.</note> se iam prephatus princeps eiusque<note n="b" type="critical">que <hi rend="italic">e corr</hi>. 3.</note> concives undique artatos<note n="c" type="critical">armatos 1. 3.</note> aspicerent<note n="d" type="critical">consp. 3. 6. 7. 8. 9. 10.</note>,
+			<lb/>ita ut<note n="e" type="critical"><hi rend="italic">deest</hi> 7.</note> extra murum egredi non valerent<note n="f" type="critical">valeret 5. <hi rend="italic">Parm</hi>.</note> et frequenter saevissimis preliis lacesserentur<note n="g" type="critical">lascer. 3.</note>,
+			<lb/>funditusque ab<note n="h" type="critical">hab 3.</note> eis spes salutis esset ablata, et<note n="i" type="critical"><hi rend="italic">deest</hi> 1. 3.</note> capiendos se fore universi<note n="k" type="critical"><hi rend="italic">ita</hi> 1. 3. 7; universos <hi rend="italic">cett</hi>.</note>
+			<lb/>predonibusque dirimendos<note n="l" type="critical">diri merendos 1.</note> valido<note n="m" type="critical"><hi rend="italic">deest</hi> 2. 5; validu eiululatu 3; ululatu 4; eiulato 7; eiulando fleret 5.</note> eiulatu flerent, decreverunt, ut urbis patefierent
+			<lb/>portae et<note n="n" type="critical"><hi rend="italic">deest</hi> 2. 3.</note> egressi uterque<note n="o" type="critical">utrique 4.</note> sexus unanimes interirent pugnando. Mox sanctissimus pater
+			<lb/>Barbatus astitit inter eos et ait: 'Convertimini, filii<note n="p" type="critical">Langobardorum <hi rend="italic">add</hi>. 5.</note>, ad Creatorem<note n="q" type="critical">Great. <hi rend="italic">corr</hi>. Creat. 3.</note> vestrum, ut salvemini.
+			<lb/>Ipse enim conteret bella, ducit ad inferos et reducit, humiliat et sublimat. Relinquite
+			<lb/>ergo<note n="r" type="critical"><hi rend="italic">deest</hi> 9.</note> vanitatem, quam<note n="s" type="critical">qua 1.</note> suggerente diabolo usque nunc estis secuti, unde quantotius
+			<lb/>ad animae et corporis interitum properatis, et solo<note n="t" type="critical"><hi rend="italic">ita</hi> 3; soli <hi rend="italic">cett</hi>.</note> Deo Patri et Filio sanctoque Spiritui<note n="u" type="critical">sp. trino canora, <hi rend="italic">ceteris omissis</hi> 6. 7. 8. 9.</note>,
+			<lb/>tribus in personis, sed uno<note n="v" type="critical"><hi rend="italic">ita</hi> 1. 3; uni <hi rend="italic">cett</hi>.</note> Deo coaeterno<note n="w" type="critical">quoaet. 1.</note> et consubstantiali<note n="x" type="critical">consubstantialis 1. 3.</note>, canora voce concinite
+			<lb/>laudes, precesque ad eum fundite qui scrutatur<note n="y" type="critical">scrutat 3.</note> renes et corda, et ipsi soli vos<note n="z" type="critical"><hi rend="italic">deest</hi> 2. 5.</note> servituros
+			<lb/>devotissime<note n="a" type="critical">devotissimes 1.</note> pollicemini, et<note n="b" type="critical"><hi rend="italic">deest</hi> 7.</note> liberabit<note n="c" type="critical">liberavit 1.</note> vos ab his qui querunt animas vestras'.
+		</p>
+    	
+    <p>
+			<lb/>6. Hoc audito, Romualt ait: 'Si, ut<note n="d" type="critical">a. sicut 1. 3; si sicut 2.</note> asseris, ita est, ut ab hostibus<note n="e" type="critical">h. Grecorum non calamo abiaque omnia me et gens mea que ritum g. 5.</note> non capiamur<note n="f" type="critical">camur 1.</note>,
+			<lb/>abiciam omnia quae ritu gentis colueram<note n="g" type="critical">coluerunt 3.</note>, et solo<note n="h" type="critical"><hi rend="italic">ita</hi> 3.</note> Deo me serviturum promitto<note n="i" type="critical">promittam 6. 7. 8. 9.</note>, teque
+			<lb/>per omnem<note n="k" type="critical">omne 1. 3 (<hi rend="italic">corr</hi>. omnem); omnes m. p. urbes 6. 7. 8. 9.</note> provinciae meae urbem prediis colonibusque<note n="l" type="critical"><hi rend="italic">ita</hi> 2. 3; colonisque l. 7; coloniisque 6. 7. 8. 9. 10.</note> ditabo atque<note n="m" type="critical">atque - concedo <hi rend="italic">des</hi>. 3.</note> civitatis huius<note n="n" type="critical">h. Veneventi te presule e. dabo 5.</note>
+			<lb/>te presulem effici concedo, ut mei<note n="o" type="critical">meis 1.</note> curam velud optimus pater habere digneris'. Ad<note n="p" type="critical"><hi rend="italic">deest</hi> 6. 7. 8. 9.</note>
+			<lb/>instar autem eiusdem<note n="q" type="critical">frs eius sermonum 1; sermonum 7.</note> sermonis omnes<note n="r" type="critical">o. Langobardos 5.</note> se velle dixerunt<note n="s" type="critical">promiserunt 5.</note>, et qui<note n="t" type="critical">quis 7.</note> prius beatissimum
+			<lb/>Barbatum vociferantem spernebant, deinceps necessitate compulsi catervatim confluentes<note n="u" type="critical">confluunt 3.</note>,
+			<lb/>obnixe ab eo salutis suae documenta captabant. Continuo pius pater Barbatus non
+			<lb/>honoris aut divitiae<note n="v" type="critical"><hi rend="italic">ita</hi> 2. 3. 5; divitiarum <hi rend="italic">cett</hi>.</note> avidus, sed ancxius de illorum salute, genitricis Dei ingressus<note n="w" type="critical">e. i. 1.</note>
+			<lb/>aecclesiam, humoque prostratus, cum lacrimis gemitibusque<note n="x" type="critical">gemitusque 3.</note> deprecabatur eam, ut magnificis
+			<lb/>eius suffragiis Redemptor omnium eruere Langobardos de exterioris hostis manibus
+			<lb/>dignaretur, ut per temporalem ereptionem a malignorum spirituum servitute erepti aeternae
+			<lb/>gloriae participes<note n="y" type="critical">particeps 1.</note> fieri mererentur. Sed omnipotens Deus, qui ore proprio profiteri
+			<lb/>dignatus est<note n="z" type="critical">est dicens 3.</note>, quod magis gaudium in supernis sit super unum poenitentem<note n="a" type="critical">uno penitente 6. 7. 8. 9. 10; uno peccatore penitentiam agente 1.</note> quam
+      <lb/>supra nonaginta novem iustos<note n="b" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; iustis 6. 7. 8. 9.</note> qui non indigent poenitentia<note n="c" type="critical">penitentiam 1. 3, <hi rend="italic">sed corr</hi>.'</note>, atque alibi testatur<note n="1"><hi rend="italic">Sequentia in sacra scriptura ita non leguntur</hi>.</note>, ut,
+			<lb/>qua hora convertatur<note n="d" type="critical">conversus fuerit 6. 7. 8. 9. 10.</note> ab iniquitate peccator, oblivioni preterita eius delicta tradantur<note n="e" type="critical">deleantur 5.</note>
+			<lb/>et vivat in sua iustitia, quam<note n="f" type="critical">qua 2. 3.</note> fuerit operatus, preces famuli sui non sprevit eumque ut
+			<lb/>poposcerat exaudivit. Beatissimus quoque Barbatus divina<note n="g" type="critical">d. sibi 5? 6. 7. 8. 9. 10.</note> revelante misericordia se
+			<lb/>exauditum agnoscens<note n="h" type="critical">cognoscens 2.</note>, ad Romualt reversus<note n="i" type="critical">conversus 5. 6. 10.</note>, ait: 'Perpende<note n="k" type="critical">o princeps <hi rend="italic">add</hi>. 5? 6. 7. 8. 9. 10. 11; ne <hi rend="italic">deest</hi> 3.</note>, ne tu et universi<note n="l" type="critical">universis 1.</note>, qui
+			<lb/>solo<note n="m" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; soli <hi rend="italic">cett</hi>.</note> Christo Ihesu domino Deo erepti a vestris insidiatoribus servire polliciti estis,
+			<lb/>pactum promissionis irritum faciatis<note n="n" type="critical">non faciatis 3; facitis 5.</note> et<note n="o" type="critical">ne 6?</note> deterius<note n="p" type="critical">deteritus p. v. 5; deteriora v. 1; deteriora post hec 6. 7.</note> peiora vobis contingant, ut<note n="q" type="critical">et 2. 5. 9; <hi rend="italic">deest</hi> 3.</note> relicti
+
+    <pb n="560"/>
+
+    		<lb/>a Deo non<note n="a" type="critical">n. s. <hi rend="italic">des</hi>. 6.</note> sit qui eripiat vos. Nam profecto<note n="b" type="critical">pro certo 6. 7. 8. 9. 10.</note> scitote, quia Christus, ad quem conversi
+    		<lb/>estis, liberabit<note n="c" type="critical">liberavit 3.</note> vos. Cesaris quoque et eius populi gressus Beneventi<note n="d" type="critical">Benebenti 3.</note> aditus
+    		<lb/>non penetrabunt; sed concite revoluti<note n="e" type="critical">revolute 2.</note>, suos<note n="f" type="critical">vros 3.</note> adeunt fines. Et ut<note n="g" type="critical"><hi rend="italic">deest</hi> 2.</note> scias, me incunctanter
+    		<lb/>vera predicere, pariter subeamus murum, ubi<note n="h" type="critical">ibi 2. 6. 7. 8. 9. 10.</note> piissimam Dei genitricem<note n="i" type="critical">virginem <hi rend="italic">add</hi>. 6. 7. 8. 9. 10.</note> Mariam
+    		<lb/>tibi ostendam, quae<note n="k" type="critical">qui 3.</note> ad Deum salutares pro vobis preces effudit et nunc exaudita<note n="l" type="critical">exauta 3.</note>
+    		<lb/>ad adiuvandum vos<note n="m" type="critical">nos 2. 3.</note> venit'. Quo audito, lacrimas pre gaudio fudit; uterque<note n="n" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; pariterque <hi rend="italic">cett</hi>.</note> subeuntes
+    		<lb/>murum, visa Dei genitrice, in faciem<note n="o" type="critical">facie 5.</note> decidit<note n="p" type="critical">cecidit 3.</note> princeps, nimio<note n="q" type="critical">nimioque 7. 8. 9.</note> pavore territus<note n="r" type="critical">perterritus 7. 8. 9. 10.</note> [et<note n="s" type="critical">et p. <hi rend="italic">des</hi>. 2. 3.</note>
+    		<lb/>pene] exanimis solo consternatus iacebat<note n="t" type="critical">iacebant 2. 3.</note>. Quem vir Dei<note n="u" type="critical">Domini 1.</note> Barbatus, confortans, a terra
+    		<lb/>levavit<note n="v" type="critical">levabit 3.</note>; ilico<note n="w" type="critical">qui i. 6. 7. 8. 9. 10.</note> ad se reversus, gratias agens<note n="x" type="critical"><hi rend="italic">ita</hi> 2. 3; egit <hi rend="italic">cett</hi>.</note> Deo, qui dignatus est eum ad sui misterii
+    		<lb/>cognitionem perducere.
+    </p>
+    	
+    <p>
+    		<lb/>7. Sequenti namque<note n="y" type="critical">vero 6. 7. 8. 9. 10.</note> die divinis opitulationibus is<note n="z" type="critical">hic 3.</note> qui usque ad internitionem
+    		<lb/>moliebatur<note n="a" type="critical">moliebat 1.</note> urbem cum suis habitatoribus perdere, et non quibant<note n="b" type="critical">quiebant 1; et quem n. q. ad 7. 8. 9. 10.</note> cum ad misericordiam
+    		<lb/>flectere inmensa pondera<note n="c" type="critical"><hi rend="italic">ita</hi> 2. 5; immensi ponderis argenti vel auri 3; i. p. argentum v. aurum 1. 4. 7. 8 <hi rend="italic">(sed corr.)</hi>. 9. 10.</note> argenti vel auri atque innumera<note n="d" type="critical">innumerarum 1, <hi rend="italic">ubi</hi> mult. - marg. <hi rend="italic">des</hi>.</note> multitudo pretiosorum<note n="e" type="critical">pretiosarum 2. 3.</note>
+    		<lb/>lapidum et margaritarum<note n="f" type="critical">m. distribuens 3.</note>, accepta so1ummodo sorore<note n="g" type="critical"><hi rend="italic">ita</hi> 1. 3, <hi rend="italic">et e corr</hi>. 2; sororem <hi rend="italic">alii</hi>.</note> eiusdem Romualt, Beneventum<note n="h" type="critical">Benebentum 3.</note>
+    		<lb/>deserens, Neapolim est ingressus. Repente beatissimus Barbatus securem accipiens, Votum<note n="i" type="critical">et ad V. 6. 7. 8. 9. 10.</note>
+    		<lb/>pergens, et<note n="k" type="critical"><hi rend="italic">deest</hi> 4. 6. 8. 9. 10.</note> suis manibus nefandam arborem<note n="l" type="critical"><hi rend="italic">deest</hi> 2.</note>, in qua per tot temporis spatia Langobardi
+    		<lb/>exitiale sacrilegium perficiebant, defossa<note n="m" type="critical">defossam 1.</note> humo a radicibus incidit, ac<note n="n" type="critical">hac 3.</note> desuper
+    		<lb/>terrae congeriem fecit, ut nec inditium<note n="o" type="critical">indicioni <hi rend="italic">corr</hi>. indicionem 3.</note> ex ea<note n="p" type="critical">eam 3.</note> quis valeat<note n="q" type="critical">q. postea valuerit 7. 8. 9. 10.</note> repperire. Recesso<note n="r" type="critical">Recedente 4. 7. 8. 9. 10.</note> igitur
+    		<lb/>hoste, uterque<note n="s" type="critical">omnis 7. 8. 9. 10.</note> sexus et aetas ad beatissimi Barbati episcopatus<note n="t" type="critical"><hi rend="italic">e corr</hi>. 3.</note> electionem unanimiter<note n="u" type="critical">unianim. 3; u. c. l. <hi rend="italic">des</hi>. 9.</note>
+    		<lb/>confluxerunt, letantes eo quod talem mererentur<note n="v" type="critical">merentur 2.</note> habere patrem, qui suis precibus
+    		<lb/>hostem<note n="w" type="critical">hoste 3; ostes 5.</note> repellat. Electo<note n="x" type="critical"><hi rend="italic">ita</hi> 2. 5; Electoque 3. 6; quo electo in 1. 4. 7. 8. 9. 10.</note> itaque in ordine episcopatus, voluit eum Romualt, sicut pollicitus
+    		<lb/>fuerat, per singulas provinciae suae urbes prediis colonibusque<note n="y" type="critical">coloniisque 9. 10; p. dit. et colonis 4; colonisque 1. 6. 7; diis colonibusque 2. 3 <hi rend="italic">(in rasura)</hi>; colonisque 8 <hi rend="italic">e corr</hi>.</note> ditare<note n="z" type="critical">ditari 2.</note>. Quae vir
+    		<lb/>Domini Barbatus accipere rennuit. At ille cogebat<note n="a" type="critical">cogebant <hi rend="italic">corr</hi>. cogebat 3.</note> eum, dicens: 'Non me inter
+    		<lb/>filiorum tuorum numeros<note n="b" type="critical">numero 2; numerum 4. 7. 8. 9. 10.</note> adgregari credo, si munus, quod ob meam salutem offerre
+    		<lb/>studeo, rennuis'<note n="c" type="critical">recusas 7. 8. 9. 10.</note>. Coactus<note n="d" type="critical">C. itaque 7. 8. 9. 10.</note> eiusdem<note n="e" type="critical">eius 3.</note> precibus, ait beatissimus Barbatus: 'Si munus tuae
+    		<lb/>salutis offerre studes, unum impende beneficium, ut beati Michahelis archangeli<note n="f" type="critical">archangelis 1. 3.</note> domum,
+    		<lb/>quae<note n="g" type="critical">qui <hi rend="italic">corr</hi>. que 3.</note> in Gargano sita<note n="h" type="critical">posita 4 <hi rend="italic">et e corr</hi>. 7; e. s. 3.</note> est, et omnia quae sub ditione Sepontini<note n="i" type="critical"><hi rend="italic">ita</hi> 3. 5; Sipontini 1. 2. 6. 7. 9. 10; Siponti 8.</note> episcopatus sunt<note n="k" type="critical"><hi rend="italic">deest</hi> 1.</note> ad
+    		<lb/>sedem<note n="l" type="critical">s. sedi 7. 8. 9. 10.</note> beatissimae genitricis<note n="m" type="critical">D. g. 3. 6. 7. 8. 9. 10.</note> Dei, ubi nunc indigne presum, in omnibus subdas. Et
+    		<lb/>quoniam absque cultoribus omnia depravantur<note n="n" type="critical">deprabantur 3.</note>, unde nec<note n="o" type="critical">nunc 1; <hi rend="italic">deest</hi> 4.</note> sedulum Deo illic officium
+    		<lb/>persolvi potest, melius a nobis disposita tibi proficiant ad<note n="p" type="critical">proficiat ad s. 3. 5; proficirent in s. 1. 6. 7. 8. 9. 10.</note> salutem'. Ilico princeps viri
+    		<lb/>Dei consensit petitionibus, eo<note n="q" type="critical">et eo 6. 7. 8. 9. 10.</note> ordine ut fati<note n="r" type="critical">prephati 3; o. quo fatus est 8 <hi rend="italic">(corr.)</hi>. 9; o. quo factus est 6. 7. 10.</note> sumus, sicut mos est, per preceptum
+    		<lb/>genitricis Dei sedi universa concessit. Et ut resonat<note n="s" type="critical">resonet 3.</note> in futuro, anathematizaverunt
+
+    <pb n="561"/>
+
+    		<lb/>qui contra haec agens irritam<note n="a" type="critical">irrita 2.</note> hanc facere voluerit concessionem. Impetratis<note n="b" type="critical">igitur <hi rend="italic">add</hi>. 7. 8. 9. 10.</note> omnibus
+    		<lb/>ut poposcerat<note n="c" type="critical">poposcebat 2.</note> vir sanctus<note n="d" type="critical">Dei 2. 3.</note>, non est oblitus mandatorum Dei. In<note n="e" type="critical">atque in 6. 7. 8. 9. 10.</note> quattuor partes
+    		<lb/>cunctum<note n="f" type="critical">cuncti 2.</note> ecclesiae reditum omni tempore sancxit fideliter dispertiri: unam<note n="g" type="critical">videlicet <hi rend="italic">add</hi>. 6. 7. 8. 9. 10.</note> egentibus,
+    		<lb/>sequens<note n="h" type="critical">sequentem 1. 4. 7. 8. 9. 10.</note> his qui Deo sedulas in ecclesiis exibent laudes, tertia<note n="i" type="critical"><hi rend="italic">ita</hi> 2. 3; tertiam <hi rend="italic">cett</hi>.</note> pro ecclesiarum restauratione
+    		<lb/>distribui iussit, quartam<note n="k" type="critical">quarta 2.</note> vero suis peragendum<note n="l" type="critical">peragendis 6. 7. 8. 9.</note> utilitatibus episcopus<note n="m" type="critical">ut <hi rend="italic">add</hi>. 6. 7. 8. 9. 10.</note> habeat<note n="n" type="critical">habebat 3. 4; decrevit <hi rend="italic">add</hi>. 8. 9. 1O.</note>.
+    		<lb/>Et actenus, sicut ab<note n="o" type="critical">hab 3.</note> eo disposita sunt, impertiri cuncta<note n="p" type="critical"><hi rend="italic">deest</hi> 3.</note> videntur<note n="1"><hi rend="italic">Haec jam s. V. in Italia in usu fuerunt; cf. Richter-Dove 'Kirchenrecht' § 308, p. 118.</hi></note>.
+    </p>
+    	
+    <p>
+    		<lb/>8. Preterea Romualt eiusque sodales prisco caecati errore, quamquam mirabiliter
+    		<lb/>eos Omnipotens<note n="q" type="critical">o. Deus 2; Deus o. 6. 7. 8. 9. 10.</note> de laqueis inimicorum suorum per famuli sui preces<note n="r" type="critical">prece 2.</note> eripuisset, palam
+    		<lb/>se<note n="s" type="critical"><hi rend="italic">deest</hi> 2.</note> solum Deum<note n="t" type="critical">Domini 1; soli Deo 4. 10.</note> secundum beatissimi Barbati predicationem<note n="u" type="critical">predicatione 2.</note> colere fatebantur, et in
+    		<lb/>abditis viperae<note n="v" type="critical">vipera 1; abditi sui per sim. <hi rend="italic">corr</hi>. abditis suis s. 3.</note> simulacrum ad<note n="w" type="critical">s. sua pernicie 5.</note> suam perniciem adorabant<note n="2"><hi rend="italic">Cf. quae Borgia in historia Beneventana II, p. 42. 70. annotavit</hi>.</note>. Quod virum Dei non
+    		<lb/>latuit. Conpertoque hoc exitiali<note n="x" type="critical">exitiale 3.</note> contagio, eo quod caritas Dei erat in eo, illorum facinus
+    		<lb/>ad suam internicionem deputans esse futurum, inmensas coram Deo lacrimas fudit,
+    		<lb/>ut, sicut illius potentiae nihil est inpossibile faciendi<note n="y" type="critical">ad faciendum 7. 8. 9. 10.</note>, quo ordine illi placitum sit<note n="z" type="critical">est 3. 4; esset 7. 8. 9. 10.</note>, ab
+    		<lb/>hac mentis<note n="a" type="critical">tumentis 2. - vessania 3.</note> vesania eos eripere dignaretur et non eos humani generis insidiatori<note n="b" type="critical"><hi rend="italic">ita</hi> 1. 2. 3; insidiatoris 6. 7. 8. 9. 10.</note>
+    		<lb/>errore capiendi<note n="c" type="critical">capiendos 1. 4; captos 6. 7. 8. 9. 10.</note> ad aeternae gehennae<note n="d" type="critical">gehene 2.</note> incendium deputaret. Hoc ita faciens<note n="e" type="critical">H. autem ideo faciebat 7. 8. 9. 10.</note>, quoniam
+    		<lb/>eo<note n="f" type="critical">eos 1.</note> spiritu replebatur, quo Paulus egregius predicator et doctor gentium repletus dicebat:
+    		<lb/>'Quis infirmatur, et ego non infirmor? quis<note n="g" type="critical">qui 3.</note> scandalizatur, et ego non uror'? Interea
+    		<lb/>uxor prephati Romualt Theodorada<note n="h" type="critical"><hi rend="italic">ita</hi> 2. 5; Theuderada 3; Theoderada <hi rend="italic">cett</hi>.</note> nomine<note n="i" type="critical">et Ragysi germano Theoderade cognatus Romuald <hi rend="italic">add</hi>. 5.</note>, omni abiecto errore, verum<note n="k" type="critical">verum - viri sui errorem <hi rend="italic">des</hi>. 3.</note> dominum
+    		<lb/>Ihesum Christum secundum canonicam sanctionem<note n="l" type="critical">iussionem 2.</note> colebat, omnino viri sui errorem<note n="m" type="critical"><hi rend="italic">reliqua in 10 cum quaternione sequente abscisa</hi>.</note>
+    		<lb/>abiciens. Cumque venatum<note n="n" type="critical">venatu 1.</note> Romualt pergeret<note n="o" type="critical">pergere 3.</note>, vir Dei Barbatus visitandi gratia<note n="p" type="critical">gratiam 1.</note> ad
+    		<lb/>eam perrexit. Coepitque<note n="q" type="critical">Cepitque <hi rend="italic">deest</hi> 1.</note> cum ea de viri eius<note n="r" type="critical"><hi rend="italic">deest</hi> 5.</note> ignavia<note n="s" type="critical">nequitia 7. 8. 9.</note> conloqui. At illa ex alto
+    		<lb/>suspiria trahens, his est exorsa sermonibus: 'Utinam pro eo ad Omnipotentem tu<note n="t" type="critical">tuas 3.</note> preces
+    		<lb/>fudisses! Evidenter<note n="u" type="critical">enim <hi rend="italic">add</hi>. 3.</note> scio, ut<note n="v" type="critical">quod 6. 7. 8. 9.</note> tuis eum interventionibus Dominus, ut<note n="w" type="critical"><hi rend="italic">deest</hi> 6. 7. 8. 9, <hi rend="italic">ubi</hi> incedere.</note> per viam veritatis
+    		<lb/>incederet, concessisset'. Cui vir Domini Barbatus respondit: 'Si veraciter in Deum, ut estimo;
+    		<lb/>habes<note n="x" type="critical">haberes 2; habens 3.</note> fiduciam, ne formides, sed consiliis meis adquiesce, ut mihi viperae tribuas simulacrum<note n="y" type="critical">aureum <hi rend="italic">add</hi>. 5.</note>,
+    		<lb/>et salvabitur vir tuus'. Illaque respondit: 'Si hoc perpetravero, pater, veraciter
+    		<lb/>scio me morituram'. Beatus<note n="z" type="critical"><hi rend="italic">ita</hi> 2; Beatissimus autem B. dixit ei 1; Et ille respondit M. inquid aet. 3; Beatus autem B. ait ei 6. 7. 8. 9.</note> inquit Barbatus: 'Memento aeternae vitae remunerationum<note n="a" type="critical">remunerationem 1.</note>,
+    		<lb/>filia, quoniam non mors, sed magnum est premium, pro<note n="b" type="critical">ut pro - pertingas 1. 6. 7. 8. 9.</note> fide Christi ab hac instabili
+    		<lb/>luce subtracta ad eam pertingere, ubi ipse Christus cum angelis et sanctorum multitudine<note n="c" type="critical">multitudinem 3.</note>
+    		<lb/>gloriatur. In qua gloria nemo rigore vel aestu coangustatur, non morborum<note n="d" type="critical">borborum 1.</note>
+    		<lb/>accedit ruina, non egestas quemquam dilacerat, non mestitia ibi accidit aut fessa membra<note n="e" type="critical">a. fessa mens. q. 5; mem <hi rend="italic">corr</hi>. membra 3.</note>
+    		<lb/>quietem requirunt<note n="f" type="critical">requirit 2.</note>; non invidus<note n="g" type="critical">lividus 7. 8. 9.</note> aut invidiosus<note n="h" type="critical">libidinosus 2.</note> vel murmurans repperitur<note n="i" type="critical">requirit 3.</note> in ea.
+
+    <pb n="562"/>
+
+    		<lb/>Evulsa est ab ea suspicio mortis et<note n="a" type="critical">aut 2. 3. - amisso 1.</note> amissio gloriae. Et quid per singula discurrere
+    		<lb/>conor<note n="b" type="critical">cogor 2.</note>, cum dicitur<note n="c" type="critical">dicatur de ea 6. 7. 8. 9.</note>, quod "oculus non vidit nec auris audivit nec in cor hominis ascendit
+    		<lb/>quae preparavit Deus diligentibus se"? Et cum haec omnia, ut fati<note n="d" type="critical">prephati 2.</note> sumus, indubitanter
+    		<lb/>credis, accede ovans<note n="e" type="critical">ob hanc 3.</note>, si expedit, ut, relicta hac erumnosa<note n="f" type="critical">v. herumn. 2.</note> vita, ad eam ducaris,
+    		<lb/>in qua sine fine et insatiabiliter glorieris<note n="g" type="critical">gloriaris 3.</note>. Tamen<note n="h" type="critical">Tam 4.</note> fidenter<note n="i" type="critical">fideliter 1; confidenter 3. 7. 8. 9.</note> meis crede promissionibus,
+    		<lb/>quia nil<note n="k" type="critical">nichil 1. 2.</note> adversi<note n="l" type="critical">adverse 2. 3.</note> de hoc tibi<note n="m" type="critical">t. aliquid 3.</note> continget. Tantum bestiae mihi simulacrum<note n="n" type="critical">aureum <hi rend="italic">add</hi>. 5.</note>
+    		<lb/>affer<note n="o" type="critical"><hi rend="italic">deest</hi> 7. 8. 9; affer - simulacrum <hi rend="italic">des</hi>. 1.</note>, ut perficiatur in te quod olim scriptum est: "Salvabitur<note n="p" type="critical">Salvavitur 3.</note> vir infidelis per mulierem
+    		<lb/>fidelem". Illaque<note n="q" type="critical">Illa quoque 2. 3. 4; Illa vero 7. 8. 9.</note> viri Dei promissionibus nimium credula, concite ad eum attulit simulacrum.
+    		<lb/>Acceptoque<note n="r" type="critical">Quod acceptum episcopus 7. 8. 9.</note> statim eum<note n="s" type="critical"><hi rend="italic">ita</hi> 2. 3; illud 1; <hi rend="italic">deest</hi> 7. 8. 9.</note> igne dissolvit, plurimisque auri opificibus<note n="t" type="critical">aurificibus 1.</note> accersitis<note n="u" type="critical">accersiti 2.</note>,
+    		<lb/>disponens<note n="v" type="critical">disposuit 1. 6. 7. 8. 9.</note>, ut ante adventum<note n="w" type="critical">adventu 3.</note> principis ad offerendum corpus et sanguinem Christi mirae
+    		<lb/>magnitudinis atque decoris ex eo pateram<note n="x" type="critical">patenam 6. 8. 9; p. et c. o. (operarent 3) ex eo 2. 3.</note> et calicem operarentur*, ut** in memoriale
+    		<lb/>servetur futuris temporibus in beatissimae genitricis Dei ecclesia, per quam ab interiore
+    		<lb/>et exteriore fuerant hoste salvati.
+    </p>
+    	
+    <p>
+    		<lb/>9. Expletis<note n="y" type="critical">itaque <hi rend="italic">add</hi>. 4.</note> omnibus ut vir Dei Barbatus preceperat, contigit autem<note n="z" type="critical"><hi rend="italic">ita</hi> 2. 3; <hi rend="italic">deest cett</hi>.</note>, ut sacro
+    		<lb/>resurrectionis die<note n="a" type="critical">diem 3.</note> Romualt venatu<note n="b" type="critical">venatum 3.</note> revertens ingredi Beneventum deberet. Cui sanctissimus
+    		<lb/>Barbatus in<note n="c" type="critical"><hi rend="italic">deest</hi> 3.</note> itinere direxit, ut ante ad<note n="c" type="critical"><hi rend="italic">deest</hi> 3.</note> Dei genitricis ecclesiam pergeret missarumque
+    		<lb/>sollempnia celebraret<note n="d" type="critical">celebrare 3.</note>, postmodum<note n="e" type="critical">vero <hi rend="italic">add</hi>. 7. 8. 9.</note> ad regiam pergeret domum<note n="f" type="critical"><hi rend="italic">deest</hi> 2.</note>. At ille viri
+    		<lb/>Dei iussis obtemperans<note n="g" type="critical"><hi rend="italic">sequentia desunt in 9, folio absciso</hi>.</note>, cum universo<note n="h" type="critical">universu 3; universis 6. 7.</note> comitatu suo ingressus<note n="i" type="critical">i. est 1. 6. 7. 8.</note> ecclesiam dominicam<note n="k" type="critical">ad d. celebrandam s. 6. 7. 8; d. c. s. gratia 4.</note>
+    		<lb/>celebrandi sollempnitatem<note n="l" type="critical">sollemnitate 2.</note>. In hora<note n="m" type="critical">horam e. quam 3.</note> etenim<note n="n" type="critical">autem 6. 7. 8.</note> qua expedierat allata<note n="o" type="critical"><hi rend="italic">ita</hi> 2. 3; oblata 1. 6. 7. 8.</note> sunt vasa ex bestiae<note n="p" type="critical">vestiae 3.</note>
+    		<lb/>simu1acro patrata, ferentes<note n="q" type="critical"><hi rend="italic">ita</hi> 2. 3; ferentia <hi rend="italic">cett</hi>.</note> dominicum corpus et sanguinem per<note n="r" type="critical">ut per - offereretur 3; ut per - offerri deberent 2.</note> manus<note n="s" type="critical">manum 2.</note> viri Dei Barbati<note n="t" type="critical">Barbatus 3.</note>
+    		<lb/>altissimo Domino<note n="u" type="critical">Deo 1.</note> offerendum***. Expletisque<note n="v" type="critical">Expletis itaque 6. 7. 8.</note> missarum<note n="w" type="critical">misarum 1.</note> sollempniis cunctisque
+    		<lb/>divinis refectis<note n="x" type="critical">refecti 3.</note> muneribus, accedens vir Dei ad principem, cum iurgio ait: 'Ecce, o
+    		<lb/>princeps, in Dei et eius genitricis astamus presentia; memor esto, quia te vidente per
+    		<lb/>huius genitricis suae<note n="y" type="critical"><hi rend="italic">deest</hi> 6.</note> intercessionem<note n="z" type="critical">intercessione 1; seu adiutorio <hi rend="italic">add</hi>. 3.</note> te Deus ab inimicis tuis<note n="a" type="critical">tui 1.</note> eripuit, et tu abiectis
+    		<lb/>omnibus ydolis voveras solo<note n="b" type="critical"><hi rend="italic">ita</hi> 2; soli <hi rend="italic">cett</hi>.</note> Deo catholice<note n="c" type="critical">te c. 3.</note> deservire, et nunc in<note n="d" type="critical"><hi rend="italic">deest</hi> 2.</note> domus tuae penetrabilibus<note n="e" type="critical"><hi rend="italic">ita</hi> 1. 3. 4. 7; penetralis 2; penetralibus 6. 8.</note>
+    		<lb/>bestiae simulacra colis. Putasne, si hominibus lates, ut<note n="f" type="critical"><hi rend="italic">ita</hi> 2. 3; <hi rend="italic">deest cett</hi>.</note> Deo quicquam<note n="g" type="critical">quoque 6. 7. 8.</note>
+    		<lb/>abscondere queas? Nonne<note n="h" type="critical">non 4; nunquid 6. 7. 8.</note> parum tibi videtur tot vicibus temptare Deum, etsi conversus<note n="i" type="critical">c. fueris 6. 8; et sicut versus fuerit 7.</note>,		
+    		<lb/>*) 2. 3. 4. 6. 7. 8. 9. <hi rend="italic">addunt</hi>: ex eo, necnon instar<note n="k" type="critical">a. i. 2. 3. 6.</note> Beneventi<note n="l" type="critical">Venebenti 3.</note>, quam ab inimicis eruerat<note n="m" type="critical">eruat 2.</note>
+    		<lb/>Deus, ex eodem auro civitatem perficerent, ut <hi rend="italic">etc</hi>.
+    		<lb/>**) 2. 3. 7. 8. 9 <hi rend="italic">pergunt</hi>: ut in Dei genitricis ecclesia, sicut per<note n="n" type="critical">ec. qualiter e. 7. 8. 9.</note> eius intercessionibus<note n="o" type="critical">intercessionem 2.</note>
+    		<lb/>Beneventus<note n="p" type="critical">Venebentus 3.</note> erepta est, futuris temporibus in memoria servaretur<note n="q" type="critical">reservetur 3; reservaretur 8. 9.</note>.
+    		<lb/>***) 4 <hi rend="italic">addit</hi>: et civitatem ad exultationem laetitiae pro victoria triumphata. - 2. 3. 6. 7. 8
+    		<lb/><hi rend="italic">addunt</hi>: et super dominicum corpus<note n="r" type="critical">ad <hi rend="italic">add</hi>. 2.</note> instar Beneventi<note n="l" type="critical">Venebenti 3.</note> ex eodem auro perfecta<note n="s" type="critical">perfectas 2.</note> civitas<note n="t" type="critical"><hi rend="italic">deest</hi> 2.</note>
+    		<lb/>baiulabatur.
+
+	<pb n="563"/>
+
+    		<lb/>ut<note n="a" type="critical">si 6; <hi rend="italic">deest</hi> 3.</note> de iniquitatibus tuis<note n="b" type="critical">suis 4.</note> ulciscatur, ante<note n="c" type="critical">an ante 4.</note> faciem eius<note n="d" type="critical">f. obsistit v. s. 2. 3.</note> te proteget viperae simulacrum
+    		<lb/>aut<note n="e" type="critical">et 2. 3.</note> dicet<note n="f" type="critical"><hi rend="italic">ita</hi> 1. 6. 7; dicit <hi rend="italic">cett</hi>.</note> ei: "Ne percutias eum'', aut<note n="e" type="critical">et 2. 3.</note> eruet te<note n="g" type="critical">eum 2.</note> de manibus eius? Perpende, ne<note n="h" type="critical"><hi rend="italic">deest</hi> 1.</note> veniat<note n="i" type="critical">veniant 4.</note>
+    		<lb/>ultionis dies<note n="k" type="critical">diem 2. - ut 3.</note>, et non sit qui eripiat te nec tui clamoris audiat vocem'.
+    </p>
+    	
+    <p>
+    		<lb/>10. Audiens haec<note n="l" type="critical">hoc 2.</note> Romualt, humiliter ferens<note n="m" type="critical">perens 3; tulit 6. 8; h. f. <hi rend="italic">des</hi>. 1.</note> seque reum et graviter deliquisse
+    		<lb/>confessus est, petens, ut sibi a Domino veniam posceret<note n="n" type="critical">poposc. 3.</note>, et statim suae perditionis simulacrum
+    		<lb/>pollicitus est abicere et in manus eius tradere perficiendum quod vellet<note n="o" type="critical">voluerit 3.</note>. Cui
+    		<lb/>vir Dei: 'Non opus<note n="p" type="critical">est op. 2.</note> est', inquid<note n="q" type="critical">i. ait enim ut 3.</note>, 'ut illud<note n="r" type="critical">eum 2; <hi rend="italic">deest</hi> 3.</note> tribuas mihi, quoniam<note n="s" type="critical">quia 2.</note> favente Deo haec, in
+    		<lb/>quibus dominicum corpus et sanguinem sumpsimus, ex eo compacta sunt, et quod<note n="t" type="critical">quae 4.</note> prius
+    		<lb/>ad vestrum interitum suggerente diabolo consistebat, nunc in eo<note n="u" type="critical">ea 4.</note> omnium operamur<note n="v" type="critical">eo Deus omn. operatur 7. 8; operatur 3. 4.</note>
+    		<lb/>salutem'. Ad haec Romualt ait: 'Peto, dilectissime pater, ut mihi insinues, quo ordine
+    		<lb/>tibi allatum est<note n="w" type="critical">fuit 1.</note>'. 'Fateor', ait beatus Barbatus, 'me cum<note n="x" type="critical">tu cum 1.</note> tua coniuge cum merore nimio
+    		<lb/>de tuo interitu conloquente<note n="y" type="critical">colloquentem 6. 7. 8.</note>, ab<note n="z" type="critical">hab 3; hoc ab e. 4; ab hoc 1; hoc <hi rend="italic">deest</hi> 6. 7. 8.</note> ea hoc expetii<note n="a" type="critical">expetivisse et accepisse 6. 7. 8.</note> et accepi'. Repente unus ex circumstantibus<note n="b" type="critical">Langobardis <hi rend="italic">add</hi>. 5.</note>
+    		<lb/>ait: 'Si mea uxor talia perpetrasset, nullo interposito momento abscideram<note n="c" type="critical">absciderat 5.</note>
+    		<lb/>capud illius<note n="d" type="critical">illis 1; eius 3.</note>'. Ad<note n="e" type="critical">At 3.</note> quem beatissimus Barbatus conversus ait: 'Quia diabolum adiuvare<note n="f" type="critical">diabolo adiubare 3.</note>
+    		<lb/>niteris, diabolo manciperis<note n="g" type="critical">manciparis 3.</note>'. Continuo<note n="h" type="critical">qui cont. 7. 8.</note> a diabolo correptus<note n="i" type="critical">coreptus 3.</note>, acrius coepit torqueri.
+    		<lb/>Addensque ei: 'Ut<note n="k" type="critical">eius 3; <hi rend="italic">deest</hi> 2.</note> indicium', ait<note n="l" type="critical"><hi rend="italic">deest</hi> 2.</note>, 'sit in<note n="m" type="critical"><hi rend="italic">deest</hi> 1.</note> posterum Langobardorum genti, quod<note n="n" type="critical">quod quia 3; quod a d. 1.</note> tu diabolo
+    		<lb/>consensisses, usque ad tot generationes ex te<note n="o" type="critical">g. sexte 2.</note> procedentes non sit tempus, quod<note n="p" type="critical">quo 3. 4. 7. 8.</note>
+    		<lb/>de tuo genere quispiam a<note n="q" type="critical"><hi rend="italic">deest</hi> 3.</note> diabolo non vexetur'. Non enim recolitur, quot<note n="r" type="critical">quod 2. 3, <hi rend="italic">corr</hi>. quot 1.</note> generationes
+    		<lb/>instituit; tamen usque nunc, qui de illo sunt propagati, quilibet ex eis semper a<note n="l" type="critical"><hi rend="italic">deest</hi> 2.</note> maligno
+    		<lb/>spiritu agitari conspicitur. Ceteri quidem<note n="s" type="critical">vero 6. 7.</note> pavore<note n="t" type="critical">timore 3.</note> nimio territi, repulsis omnibus quae<note n="u" type="critical">qui i <hi rend="italic">corr</hi>. quae 3.</note>
+    		<lb/>superstitiose coluerant, totis viribus ad Deum<note n="v" type="critical">Dominum 2.</note> conversi, deinceps per viri<note n="w" type="critical"><hi rend="italic">deest</hi> 4.</note> Dei documenta
+    		<lb/>catholicam fidem<note n="x" type="critical">fide 1; catholica fide 6. 7.</note> pleniter instructi usque nunc<note n="y" type="critical">eam <hi rend="italic">add</hi>. 7. 8.</note> Deo favente custodiunt<note n="z" type="critical"><hi rend="italic">hic desinit</hi> 5.</note>.
+    </p>
+    	
+    <p>
+    		<lb/>11. Hic autem piissimus pater Omnipotentis solamine fretus, simpliciter atque prudenter
+    		<lb/>deguit in sui<note n="a" type="critical">suis 3.</note> episcopatus honore annos decem et octo et menses undecim<note n="b" type="critical">quinque <hi rend="italic">Parm</hi>.; et m... <hi rend="italic">erasa</hi>. 3.</note>*.
+    		<lb/>Qui divina evocatus<note n="c" type="critical">divine vocatus 3.</note> misericordia premia<note n="d" type="critical">m. ad p. s. o. capienda 6. 7. 8.</note> suorum operum capiendi, de<note n="e" type="critical"><hi rend="italic">deest</hi> 6. 7. 8; d. h. i. l. p. <hi rend="italic">des</hi>. 1.</note> hac instabili
+    		<lb/>1uce privatus, ad caelestia regna, 11.** Kal. Martii, a nativitate sua anno octogesimo, est
+    		<lb/>advectus, ubi sine fine cum sanctis angelis gloriatur; in quibus nunc<note n="f" type="critical">nuc 1.</note> alacer ea<note n="g" type="critical">eam 2.</note> per
+    		<lb/>caritatem amplectitur, non per speculum in enigmate, sed facie ad faciem [sicuti<note n="h" type="critical"><hi rend="italic">ita</hi> 2. 3; <hi rend="italic">des. cett.</hi></note> est],
+    		<lb/>quae<note n="i" type="critical">in <hi rend="italic">add</hi>. 6. 7. 8.</note> mortali carne consistens per fidem et spem in enigmate cotidie amplexabatur***,
+    		<lb/>favente domino nostro Ihesu Christo, qui cum Patre in<note n="k" type="critical">et spiritu sancto 3. 6. 7. 8.</note> unitate Spiritus sancti per
+    		<lb/>immensa secula vivit et regnat<note n="l" type="critical">sec. regnat amen 2; vivit et r. in s. sec. ameu 3. 4; vivit et r. Deus per omnia s. sec. amen 6. 7. 8.</note>.
+      <lb/>*) 4 <hi rend="italic">add</hi>.: Fuit autem vigesimus episcopus Beneventi.
+    		<lb/>**) 2. 3 <hi rend="italic">pergunt</hi>: ubi cum sanctis sine fine gloriatur<note n="m" type="critical">glorietur 3.</note>. Anno ab incarnatione Domini
+    		<lb/><hi rend="italic">(in 2 linea fere integra vacua relicta)</hi> advectus<note n="n" type="critical">adventus 3.</note> est. In <hi rend="italic">etc</hi>.
+    		<lb/>***) 3 <hi rend="italic">addit</hi>: Sanctus Barbatus vicesimus episcopus Beneventi sedit annos decem et octo
+    		<lb/>et vixit annos octoginta et menses undecim; obiit per confessionem undecimo Kal.
+    		<lb/>Mart., id est nonodecimo die mensis Febroarii.
+    	</p>
+
+		</div>
+
+    </body>
+  </text>
+</TEI>

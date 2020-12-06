@@ -1,0 +1,1159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chrysis</title>
+        <author>Aeneas Silvius Piccolomini</author>
+        <respStmt>
+          <resp>Edizione critica a stampa a cura di</resp>
+          <name>Enzo Cecchini</name>
+        </respStmt>
+        <respStmt>
+          <resp corresp="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+          <name corresp="MP">Martina Pavoni</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure quantity="5289" unit="words">Parole:5289</measure>
+        <measure quantity="28124" unit="characters_without_spaces">Caratteri (spazi esclusi):28124</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <ref target="http://alim.unisi.it/">ALIM</ref>
+        </publisher>
+        <date when="2018-04-02">02/04/2018</date>
+        <availability>
+          <p>Copyright 2018 - progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aeneas Silvius Piccolomini</author>
+            <title>Chrysis</title>
+            <editor>Enzo Cecchini</editor>
+            <imprint>
+              <pubPlace>Firenze</pubPlace>
+              <publisher>Sansoni Editore</publisher>
+              <date>1966</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+            <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+          </list>
+        </ab>
+        <ab type="level">ALIM2_2</ab>
+        <ab type="specific">Le abbreviazioni che marcano i personaggi parlanti sono state marcate con <tag>seg</tag>,
+            cui è stato attribuito @type="speaker" e un attributo @corresp che identifica univocamente il parlante,
+            puntando ad elementi <tag>castItem</tag> in <tag>castList</tag> nel <tag>teiHeader</tag>.
+            L'elemento <tag>castList</tag> è stato inserito in
+            <tag>teiHeader</tag>/<tag>encodingDesc</tag>/<tag>tagsDecl</tag>/<tag>namespace</tag>/<tag>tagUsage</tag>
+            perché nel testo-fonte a stampa non si trova una lista completa dei personaggi, quindi non sarebbe
+            stato corretto inserire <tag>castList</tag> all'interno dell'elemento <tag>text</tag>.
+        </ab>
+        </editorialDecl>
+        <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+                <tagUsage gi="seg">
+                    Di seguito, le dramatis personae indicate nell'attributo @corresp degli
+                    elementi <tag>seg</tag> con @type="speaker". Non è stato possibile, per
+                    l'attuale stuttura degli elementi in <tag>body</tag>, usare il tag <tag>speaker</tag>:
+                <castList>
+                    <castItem><role xml:id="sedu">SEDULIUS</role></castItem>
+                    <castItem><role xml:id="py">PYTHIAS</role></castItem>
+                    <castItem><role xml:id="con">CONGRIO servus</role></castItem>
+                    <castItem><role xml:id="ar">ARCHIMENIDES amator</role></castItem>
+                    <castItem><role xml:id="char">CHARINUS</role></castItem>
+                    <castItem><role xml:id="ly">LYBIPHANES </role></castItem>
+                    <castItem><role xml:id="an">ANTIPHILA meretrix</role></castItem>
+                    <castItem><role xml:id="can">CANTHARA</role></castItem>
+                    <castItem><role xml:id="dyo">DIOPHANES amator</role></castItem>
+                    <castItem><role xml:id="chry">CHRYSIS</role></castItem>
+                    <castItem><role xml:id="theo">THEOBOLUS</role></castItem>
+                    <castItem><role xml:id="cas">CASSINA meretrix</role></castItem>
+                </castList>
+            </tagUsage>
+            </namespace>
+        </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Poesia</term>
+          <term type="source">Letteraria</term>
+          <term type="genre">Commedia</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date>XV secolo</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-09-29" who="PM">Il file XML presente sul portale viene aggiornato con le modifiche del febbraio 2019 [livello ALIM2_2]</change>
+      <change when="2019-02" who="PM">Ulteriore revisione Commissione caricamento testi (inserito elemento castList e relativi attributi @corresp) [livello ALIM2_2]</change>
+      <change when="2018-04" who="EF">Revisione e interventi della Commissione caricamento testi [livello ALIM2_1]</change>
+      <change when="2018-04" who="MP">Creazione in formato TEI P5 [livello ALIM2_1]</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      
+      <pb n="3"/>
+      <div>   
+       <head>INCIPIT COMEDIA ENEE SILVII POETE,
+         <lb/>QUE INTITULATUR
+         <lb/>CHRYSIS</head>
+      </div>
+      
+      <div n="1" type="scene">
+        <head>1. DYOPHANES, THEOBOLUS</head>
+        <lg>
+          <l n="1"><seg type="speaker" corresp="#dyo">DYO.</seg> Edepol nulla, opinor, est ratio prior,</l>
+          <l n="2">quod emuli nimium clero sunt populi:</l>
+          <l n="3">nam commoditates nobis invident bonas.</l>
+          <l n="4">Soli miseri carent invidia viri;</l>
+          <l n="5">quisquis beatus est, huic livor est comes.</l>
+          <l n="6">Nobis divitie sunt, opes, delicie;</l>
+          <l n="7">ad esum nati tantum et ad potum sumus;</l>
+          <l n="8">dormire possumus et satis quiescere;</l>
+          <l n="9">vivimus nobis, alii vivunt aliis.</l>
+          <l n="10">Nulli pulchra est quam nobis gratior Venus;</l>
+          <l n="11">non, ut alii, stabilem uxorem ducimus</l>
+          <l n="12">que, si stomacosa sit, habenda est tamen;</l>
+          <l n="13">nova in dies connubia, himeneos novos</l>
+          <l n="14">celebramus: si placet amor, revertimur;</l>
+          <l n="15">ubi displicet, alio flectimus iter.</l>
+          <l n="16">Ex mille cum periculum fecimus, eam</l>
+          <l n="17">que cordi fuit stabili prosequimur fide.</l>
+          <l n="18"><seg type="speaker" corresp="#theo">THEO.</seg> Mihi sic videtur. Sed quali iam nos putas</l>
+          <l n="19">usuros nocte? Dum subagitabis tuam,</l>
+          <l n="20">egon, adherentem pectori meo meam</l>
+          <l n="21">tenens, dabo suavium et labrum mordicus</l>
+
+          <pb n="4"/>
+
+          <l n="22">stringam et niveas milies premam papillas?</l>
+          <l n="23">Vah, quotiens inter sua crura tibias</l>
+          <l n="24">innectam meas! Sed hoc molestum est mihi...</l>
+	  <l n="25"><seg type="speaker" corresp="#dyo">DYO.</seg> Quid istuc est? <seg type="speaker" corresp="#theo">THEO.</seg> «Antiqua est palla mea; novam </l>
+          <l n="26">faxo ut habeam: quatuor mihi da minas.</l>
+          <l n="27">Baltheum nullum est mihi etiam; adiuva ut habeam».</l>
+          <l n="28">Hec vox mihi semper sonat in auribus.</l>
+          <l n="29">Talentum impertitus sum, sed quo plus do, magis</l>
+          <l n="30">expetit «Hoc indigeo, hoc prebe, hoc volo.</l>
+          <l n="31">Es quidem nullum in crumena superest mea;</l>
+          <l n="32">despoliandus est quisquis indigens mei</l>
+          <l n="33">advenerit. Ligari amantis marsupium</l>
+          <l n="34">nequit». Nil satis est meretricibus malis.</l>
+          <l n="35">Sed unum singraphum quam facimus hodie</l>
+          <l n="36">persolvet cenam; tum post, aliud aliam.</l>
+          <l n="37">At iam in angiportu, ubi manendum est, sumus.</l>
+          <l n="38">Nihil tumulti audio. Vereor... vereor</l>
+          <l n="39">huc ne frustra venerimus. Sed pulta hostium.</l>
+          <l n="40"><seg type="speaker" corresp="#dyo">DYO.</seg> Ah, nescis publicam custodes ad ianuam</l>
+          <l n="41">e proximo? <seg type="speaker" corresp="#theo">THEO.</seg> Ergo fac signum, ut veniat anus.</l>
+          <l n="42">At ego expectando crucior miserrime;</l>
+          <l n="43">nil mora peius, nil expectacionibus.</l>
+          <l n="44">Mane, mane! Observat nos ianitor, quem pii</l>
+          <l n="45">omnes dii perdant! <seg type="speaker" corresp="#dyo">DYO.</seg> Tace parum, et signum dabo.</l>
+        </lg>
+      </div>
+      
+      <div n="2" type="scene">
+        <head>2. CHRYSIS meretrix, LYBIPHANES familiaris, SEDULIUS
+          <lb/>amator</head>
+        <lg>
+          <l n="46"><seg type="speaker" corresp="#chry">CHRY.</seg> Cur hac noctu non es mecum? Quo nunc properas?</l>
+          <l n="47">Mane, amabo! Dormito hic, ut nudi simul</l>
+
+          <pb n="5"/>
+
+          <l n="48">in amplexu simus. Cur mihi suppetias</l>
+          <l n="49">quasi gravastellus das? <seg type="speaker" corresp="#sedu">SEDU.</seg> Ne noceam tibi.</l>
+          <l n="50"><seg type="speaker" corresp="#chry">CHRY.</seg> Ohe! Ne noceas, ais? <seg type="speaker" corresp="#sedu">SEDU.</seg> Aio: balneum</l>
+          <l n="51">quis tibi persolvit, aut tu cur hodie</l>
+          <l n="52">preter morem lavisti? Tete illic habeat,</l>
+          <l n="53">argentum qui dedit. Nam qui dat, ipsus parum</l>
+          <l n="54">iniurius, si tibi lucrum auferat, siet.</l>
+          <l n="55"><seg type="speaker" corresp="#chry">CHRY.</seg> Parvi me pensitas et me facis nihili,</l>
+          <l n="56">qui rivalibus me quam tibi vis potius.</l>
+          <l n="57">At at... <seg type="speaker" corresp="#sedu">SEDU.</seg> Quid «at at»? Tui causa facio,</l>
+          <l n="58">ne dantes abigam, qui prebeo perparum.</l>
+          <l n="59"><seg type="speaker" corresp="#chry">CHRY.</seg> Hem! Dantes! Quasi me plurimi nunc habeant,</l>
+          <l n="60">quod tu solus et unus, vel... <seg type="speaker" corresp="#sedu">SEDU.</seg> Aha, «vel»! Scio:</l>
+          <l n="61">nemo nisi ego te unus, vel centum alii!</l>
+          <l n="62"><seg type="speaker" corresp="#chry">CHRY.</seg> Expetessunt plures, paucis datur frui.</l>
+          <l n="63">Sic me dii amassint, ut preter te vix duo</l>
+          <l n="64">consueverint mihi. Nunc, ut mundior tibi</l>
+          <l n="65">advenirem, lavi. Tibin sum morigera?</l>
+          <l n="66">Anime mi, mane, mane! Noli irascier.</l>
+          <l n="67"><seg type="speaker" corresp="#ly">LY.</seg> Ut blanda est meretrix! Iam tendit insidias.</l>
+          <l n="68">Viden ut amplectitur, quasi amatrix probe?</l>
+          <l n="69">Non mihi has induceres sicophantias;</l>
+          <l n="70">aurum his verbis ut venerit studes, pessuma!</l>
+          <l n="71">Novi ego mores meretricis; namque, cum</l>
+          <l n="72">pauper est, arridet et quidvis facit.</l>
+          <l n="73">Amare assimilat, non amat, quando lacrimas</l>
+
+          <pb n="6"/>
+
+          <l n="74">ut lubet vortit atque ut volt: obediunt</l>
+          <l n="75">meretrici lacrime. At istic sese putat</l>
+          <l n="76">alterum Ganimedem aut Parin coli alterum.</l>
+          <l n="77">Nosce te, Seduli: istuc etatis hominem</l>
+          <l n="78">non amat mulier; si quid das, amat.</l>
+          <l n="79">Aliam vitam et mores iam debes alios</l>
+          <l n="80">istac etate induere; nam vesperus adest.</l>
+          <l n="81"><seg type="speaker" corresp="#sedu">SEDU.</seg> Sic est, nec me quod dicis latet. Nugas scio</l>
+          <l n="82">istarum. <seg type="speaker" corresp="#ly">LY.</seg> Quid igitur heres? Quid hic agis?</l>
+          <l n="83">Nulla hic habenda est mora, postquam Venus iacet.</l>
+          <l n="84">Quin imus et aliis cedimus? <seg type="speaker" corresp="#sedu">SEDU.</seg> Animo</l>
+          <l n="85">gerundus mos est; lubet ridere cum ioco.</l>
+          <l n="86">Scortis ut scortis utor: simulant, simulo;</l>
+          <l n="87">fingo me captum nec sum; par pari refero.</l>
+          <l n="88"><seg type="speaker" corresp="#ly">LY.</seg> At istuc, hercle, magni plenum est discriminis.</l>
+          <l n="89">Urit amor pusillatim clamque ingreditur,</l>
+          <l n="90">et iocos scimus in seria mutarier.</l>
+          <l n="91">Vide, sis: nam, si ardere incepisses, spoliis</l>
+          <l n="92">te direptionique para, quasi sies</l>
+          <l n="93">captivus. Tigris est, non mulier, meretrix;</l>
+          <l n="94">cum amari scit, petit, capit, spoliat, rapit.</l>
+          <l n="95"><seg type="speaker" corresp="#sedu">SEDU.</seg> Desine, scio. Quid, malum, in fornice venis</l>
+          <l n="96">philosophari? Leno hic, non Cato, loquitur.</l>
+          <l n="97"><seg type="speaker" corresp="#ly">LY.</seg> Decet ubique bene loqui atque facere.</l>
+
+          <pb n="7"/>
+
+          <l n="98">Non veto scortari, sed scortari nimium.</l>
+          <l n="99"><seg type="speaker" corresp="#chry">CHRY.</seg> Quid vos inter vos his murmurationibus</l>
+          <l n="100">concertatis? Adesto, Seduli, propera.</l>
+          <l n="101"><seg type="speaker" corresp="#sedu">SEDU.</seg> Adsum. <seg type="speaker" corresp="#chry">CHRY.</seg> Sequere me huc intro. <seg type="speaker" corresp="#sedu">SEDU.</seg> Sequor lubens.</l>
+        </lg>
+      </div>
+        
+      <div n="3" type="scene">
+        <head>3. LYBIPHANES, PYTHIAS</head>
+        <lg>
+          <l n="102"><seg type="speaker" corresp="#ly">LY.</seg> Illi iam intus secundas agunt nuptias.</l>
+          <l n="103">Perlepida est istec tua soror, Pythias.</l>
+          <l n="104">Sed ubinam illam invenisti? Quo balneo</l>
+          <l n="105">lavit? Estne, ut opinor, quod Theobolus</l>
+          <l n="106">stipem dederit? nam ille hanc noctem redemit pretio.</l>
+          <l n="107">Dic, amabo. Soli sumus, nusquam effluet.</l>
+          <l n="108">Tum te hic agnoscam et coniacebimus simul.</l>
+          <l n="109"><seg type="speaker" corresp="#py">PY.</seg> Quis tibi istec dixit? <seg type="speaker" corresp="#ly">LY.</seg> Qui scit: ipsus hodie</l>
+          <l n="110">in foro Theobolus. <seg type="speaker" corresp="#py">PY.</seg> Rem omnem, ut est, tenes.</l>
+          <l n="111">Ego, ut adventastis huc, rapio pallam,</l>
+          <l n="112">in balneas curro festina, Chrysim voco.</l>
+          <l n="113">«Heus, Chrysis!» inquam «Chrysis! frater adest domi,</l>
+          <l n="114">peregre reversus. Quid stas? An nondum venis?».</l>
+          <l n="115">Ille, qui argentum dederat, rubet illico,</l>
+          <l n="116">post pavet. «Hem, mea Chrysis, hoccine» ait</l>
+          <l n="117">«te facere? Insalutatum me deserere?».</l>
+          <l n="118">Illa «Bonum animum» inquit «habe: redeam,</l>
+          <l n="119">ad cenam veniam ubi decretum est. Vale».</l>
+          <l n="120"><seg type="speaker" corresp="#ly">LY.</seg> Dixin ego? Sed quid Cassina? <seg type="speaker" corresp="#py">PY.</seg> Etiam redit.</l>
+          <l n="121">Charinus obviam fuit, qui illam domum</l>
+
+          <pb n="8"/>
+
+          <l n="122">perduxit. Nunc reor ambos permolere.</l>
+          <l n="123">Sed nos quid agimus? Cur non coimus etiam?</l>
+          <l n="124"><seg type="speaker" corresp="#ly">LY.</seg> Pone puellum. <seg type="speaker" corresp="#py">PY.</seg> Iam dormit. Ah, vir veniet!</l>
+          <l n="125"><seg type="speaker" corresp="#ly">LY.</seg> Ne dubita. Cadum hunc exhaurire prius</l>
+          <l n="126">sententia est; nam fauces omnes arent. Bibe.</l>
+          <l n="127"><seg type="speaker" corresp="#py">PY.</seg> Bene admones; nam potus eque atque coitus</l>
+          <l n="128">sapiunt mihi. Istec si absint, nolim vivere.</l>
+          <l n="129">Sed infelix est omnis nupta, que imperium</l>
+          <l n="130">fert viri. <seg type="speaker" corresp="#ly">LY.</seg> Infelicior istic, qui femine</l>
+          <l n="131">subiectus est. Emori velim quam nubere.</l>
+          <l n="132"><seg type="speaker" corresp="#py">PY.</seg> At nullum fidelem invenias virum sue</l>
+          <l n="133">coniugi. <seg type="speaker" corresp="#ly">LY.</seg> Nec ullam marito feminam.</l>
+          <l n="134">Casta est quam nemo rogat, nemo stimulat.</l>
+          <l n="135">Oculo pocius solo quam solo viro</l>
+          <l n="136">contenta est mulier: indomitum est animal,</l>
+          <l n="137">nullis regendum frenis nullisque monitis.</l>
+          <l n="138">Tolerabile est, si quis inscius colla dat</l>
+          <l n="139">maritali capistro semel tantum; sed hic</l>
+          <l n="140">qui, liber factus, novis se iugis implicat,</l>
+          <l n="141">tam excusari potest quam qui bis naufragium</l>
+          <l n="142">pertulit, primo non sat admonitus malo.</l>
+          <l n="143">Scite, mehercule, canones eos abigunt</l>
+          <l n="144">sacerdotio qui secundas in nuptias</l>
+          <l n="145">migrant: namque stultis sunt stultiores quidem</l>
+          <l n="146">indignique templis ministrare biiuges.</l>
+
+          <pb n="9"/>
+
+          <l n="147">Coniugis maritus est vile mancipium,</l>
+          <l n="148">servitutem malam quod servit et pessimam.</l>
+          <l n="149">Is sapit qui vobis sic utitur ut ego:</l>
+          <l n="150">tu mihi vas tuum das, ego tibi meum</l>
+          <l n="151">utendum; tantum tibi obligor quantum tu mihi.</l>
+          <l n="152">Popisma ut emisimus, liberi ambo sumus.</l>
+          <l n="153"><seg type="speaker" corresp="#py">PY.</seg> Nimis sciolus es, postquam bibisti satis!</l>
+          <l n="154">Sed veni, mi columbe, mi passerule,</l>
+          <l n="155">mi turtur, mi galle! Quid agis? <seg type="speaker" corresp="#ly">LY.</seg> Hem, venio.</l>
+        </lg>
+      </div>
+          
+      <div n="4" type="scene">
+        <head>4. CHARINUS</head>
+        <lg>
+          <l n="156">O stultas hominum mentes et vanas nimis!</l>
+          <l n="157">O mortalium ceca pectora! O Furie</l>
+          <l n="158">Eumenides, quid vexatis humanum genus?</l>
+          <l n="159">Quo sapientiorem se quisque iudicat,</l>
+          <l n="160">eo stultior est. Vidi plures in foro</l>
+          <l n="161">nuper propter Armeniacos ire anxios;</l>
+          <l n="162">illos namque invasisse dolent imperium</l>
+          <l n="163">et occidisse quosdam Suicenses truces.</l>
+          <l n="164">Hostem volunt alii externum propulsarier</l>
+          <l n="165">ulciscique suos. Tum post quidam togati</l>
+          <l n="166">non capio quid divisionis flebile</l>
+          <l n="167">inter pontifices aiunt esse maxumos.</l>
+          <l n="168">Ego sapientis verbum mente teneo:</l>
+          <l n="169">curas post tergum decet inanes mittier.</l>
+
+          <pb n="10"/>
+
+          <l n="170">Ut in cavea certant pulli gallinacii</l>
+          <l n="171">esce causa, quibus cras est decretum mori,</l>
+          <l n="172">sic propter imperium contendunt homines,</l>
+          <l n="173">quod quam diu tenere debeant nesciunt.</l>
+          <l n="174">At ubi carendum sit, imperio prius</l>
+          <l n="175">quam cibo malim carere. Quid refert mea,</l>
+          <l n="176">Gallus an Theutonicus uter imperet?</l>
+          <l n="177">Stulta est cura que nihil parturit commodi.</l>
+          <l n="178">Nil animo melius placido et libero;</l>
+          <l n="179">nec regnum nec honor cum quiete convenit.</l>
+          <l n="180">Qui, paucis contentus, ad naturam sibi</l>
+          <l n="181">instituit vitam nec studet honoribus,</l>
+          <l n="182">istic, me iudice, sapit; hunc ego sequor,</l>
+          <l n="183">huic me parem preparo; que sunt, divitias</l>
+          <l n="184">effundo, non quero novas. Qui me sequitur,</l>
+          <l n="185">illic sibi curet. Nil post obitum volo.</l>
+          <l n="186">Nemo funera faxit mortuo nec mihi</l>
+          <l n="187">sarcophagum statuat. Quid gloria vanius</l>
+          <l n="188">sepulchrali? Seu me vermes edant vel aves,</l>
+          <l n="189">tantundem facio, dummodo vivens edam</l>
+          <l n="190">et bibam quod placet, dummodo letus meus</l>
+          <l n="191">sit animus. Hoc ago curoque sedulo.</l>
+          <l n="192">Nunc ex balneo Cassinam accersivi meam</l>
+          <l n="193">et ad me iussit ut veniret. Quamvis alius</l>
+          <l n="194">argentum dederat, sibi ut esset mundior,</l>
+          <l n="195">ast ego primitias habeo. Ter Venus</l>
+          <l n="196">restincta est illinc, euax!, quo lubet modo.</l>
+        </lg>
+      </div>
+          
+      <pb n="11"/>
+            
+      <div n="5" type="scene">
+        <head>5. ARCHIMENIDES amator, ANTIPHILA meretrix, CANTHARA
+          <lb/>lena</head>
+        <lg>
+          <l n="197"><seg type="speaker" corresp="#ar">AR.</seg> Tu sola hic es? Ubinam alie, Antiphila?</l>
+          <l n="198">Ubi alii? <seg type="speaker" corresp="#an">AN.</seg> Sola, et anus hec. Sole sumus;</l>
+          <l n="199">sed aderunt, ut autumo, quam citissime;</l>
+          <l n="200">cena iam cocta est, et vinum affertur vetus.</l>
+          <l n="201"><seg type="speaker" corresp="#can">CAN.</seg> At istuc primum esse oportuit, Antiphila!</l>
+          <l n="202">Viden ut arent fauces? Pulmone nihil</l>
+          <l n="203">est meo siccius. Proh, vix queo spuere,</l>
+          <l n="204">vix loqui! O vinum! Heu vinum! Cur, vinum taces?</l>
+          <l n="205">Non vereor vera loqui: sum multibiba,</l>
+          <l n="206">merobiba, non limphibiba aut medobiba,</l>
+          <l n="207">neque cervisiam bibo neque siceram:</l>
+          <l n="208">Theucris hec largior et Boemis pocula.</l>
+          <l n="209">Quasi lagena sum, ubi vinum solet Chium</l>
+          <l n="210">condi. Quid opus verbis? Sum vinosissima,</l>
+          <l n="211">et fluvium, si vini siet, recipiam... Ah,</l>
+          <l n="212">flos veteris vini meis naribus</l>
+          <l n="213">obiectus est! Nunc eius amor me cupidam</l>
+          <l n="214">letificat. Ubi, ubi est? Euax, est me prope!</l>
+          <l n="1215"><seg type="speaker" corresp="#ar">AR.</seg> Eccum, accipe vitrum. Pota, festiva, bibe!</l>
+          <l n="216">Esto mihi propitia, suscipe phialam.</l>
+
+          <pb n="12"/>
+
+          <l n="217"><seg type="speaker" corresp="#can">CAN.</seg> Canthara mihi est nomen: ex cantharo bibam.</l>
+          <l n="218">Ah, habeo! Salve, anime mi, Liberi lepos!</l>
+          <l n="219">Ut veteris, vetusti vini sum cupida!</l>
+          <l n="220">Nam omnium unguentum odos pre tuo nausea est.</l>
+          <l n="221">Tu mihi cinamomum, tu rosa, tu crocus,</l>
+          <l n="222">tu cassia es. Nam ubi tu profusus fueris,</l>
+          <l n="223">illic ego me sepultam, hercule, pervelim.</l>
+          <l n="224">Ut dulcis nasum odos obsecutus es meum,</l>
+          <l n="225">da vicissim meo gutturi gaudium.</l>
+          <l n="226">Accede, Bacche! Tete ipsum expeto tangere,</l>
+          <l n="227">tuos liquores peramo. Sitio, bibam!</l>
+          <l n="228">Vah, quam molliter, quam percurrit arterias</l>
+          <l n="229">suaviter! Iam venas omnes letarier</l>
+          <l n="230">sentio; cor salit, redeunt iam spiritus.</l>
+          <l n="231">Hoc est vivere, hoc agere est hominis!</l>
+          <l n="232"><seg type="speaker" corresp="#ar">AR.</seg> Bella potatrix! Viden ut pulcre ingurgitat?</l>
+          <l n="233">Eapse merum sic condidicit bibere,</l>
+          <l n="234">aliis aquam, ut bibant, dat mulieribus.</l>
+          <l n="235">Sed ubi tu nunc es, libello Venereo</l>
+
+          <pb n="13"/>
+
+          <l n="236">que me citasti? Ecce, me sisto; contrane ades?</l>
+          <l n="237"><seg type="speaker" corresp="#an">AN.</seg> Adsum; nam, si absim, nihil mihi recusem mali.</l>
+          <l n="238"><seg type="speaker" corresp="#ar">AR.</seg> Anime mi, non est consentaneum procul</l>
+          <l n="239">amantem abesse. Retine me, amplectere.</l>
+          <l n="240"><seg type="speaker" corresp="#an">AN.</seg> Hoc etiam est quamobrem cupio vivere,</l>
+          <l n="241">quia te ipsum video, teneo, potior.</l>
+          <l n="242"><seg type="speaker" corresp="#can">CAN.</seg> Enimvero quis non istos iam nunc arguat?</l>
+          <l n="243">Bonum est parum amare sane, insane non bonum est;</l>
+          <l n="244">verum totum insane amare, hoc isti faciunt.</l>
+          <l n="245"><seg type="speaker" corresp="#ar">AR.</seg> Sibi habeant regna reges et divitias,</l>
+          <l n="246">sibi honores, sibi virtutes, pugnas sibi,</l>
+          <l n="247">sibi prelia, sibi quodlibet, dum mihi</l>
+          <l n="248">abstineant invidere; sibique habeat</l>
+          <l n="249">quod suum est quisque; tu mihi semper, Antiphila,</l>
+          <l n="250">ut nunc placeas teque perpetuo fruar.</l>
+          <l n="251"><seg type="speaker" corresp="#can">CAN.</seg> Vos istec missa facite; post repetite,</l>
+          <l n="252">cum accubabitis. Iam cenare nos et bibere</l>
+          <l n="253">tempus est. Sed forum crepitum et cardinum</l>
+          <l n="254">visa sum audire. Apage te, iam veniunt.</l>
+        </lg>
+      </div>
+          
+      <pb n="14"/>
+      
+      <div n="6" type="scene">
+        <head>6. DYOPHANES, THEOBOEUS amantes, CANTHARA lena</head>
+        <lg>
+          <l n="255"><seg type="speaker" corresp="#dyo">DYO.</seg> Nimirum fallimur, decepti sumus!</l>
+          <l n="256">Silentium magnum est hic in edibus.</l>
+          <l n="257">Sed eccam Cantharam. Salve, Canthara.</l>
+          <l n="258"><seg type="speaker" corresp="#can">CAN.</seg> Salvete, mea vindemia, messis mea!</l>
+          <l n="259">Quin ascenditis, aucupium meum?</l>
+          <l n="260"><seg type="speaker" corresp="#theo">THEO.</seg> Ha he he! <seg type="speaker" corresp="#can">CAN.</seg> Quid rides? <seg type="speaker" corresp="#theo">THEO.</seg> Te rideo. <seg type="speaker" corresp="#can">CAN.</seg> Cur?</l>
+          <l n="261"><seg type="speaker" corresp="#theo">THEO.</seg> Quia veridica es, remque, ut est, ais.</l>
+          <l n="262">Nam, nisi nos simus, fame pereas.</l>
+          <l n="263"><seg type="speaker" corresp="#can">CAN.</seg> Siti perire possum, non fame.</l>
+          <l n="264">Sed vide, quia non bene dixi aucupium</l>
+          <l n="265">vos esse; sed questus quem facio</l>
+          <l n="266">similis est aucupii. In aucupio</l>
+          <l n="267">hec sunt: auceps, area, cibus, aves.</l>
+          <l n="268">Hec domus est area, cibus est meretrix,</l>
+          <l n="269">ego sum auceps ac vos estis aves,</l>
+          <l n="270">qui bene salutati consuescitis</l>
+          <l n="271">et, compellati blanditer suaviis,</l>
+          <l n="272">attractu papillarum et oratione venustula,</l>
+          <l n="273">tamquam aves deprendimini retibus.</l>
+          <l n="274"><seg type="speaker" corresp="#dyo">DYO.</seg> Nunquam melius dici verum vidi prius.</l>
+
+          <pb n="15"/>
+
+          <l n="275">Sed ubi esca est nostra et nostri calamitas</l>
+          <l n="276">fundi? Perii, Theobole, nil video.</l>
+          <l n="277">Interii, miser! Quid iam dicam aut faciam?</l>
+          <l n="278"><seg type="speaker" corresp="#can">CAN.</seg> At iam aderunt. <seg type="speaker" corresp="#dyo">DYO.</seg> Istuc «iam» annus erit!</l>
+          <l n="279"><seg type="speaker" corresp="#can">CAN.</seg> Imo mox venient. <seg type="speaker" corresp="#dyo">DYO.</seg> «Mox», more Gallico,</l>
+          <l n="280">quod annis quatuor et decem perficitur.</l>
+          <l n="281">Heu me miserum! Argentum ut aliis lavaret dedi.</l>
+          <l n="282">Siccine fit, Cassina? Siccine me trahis</l>
+          <l n="283">promerentem optime? Hoccine premium</l>
+          <l n="284">bene merenti reddis? At malo cum tuo,</l>
+          <l n="285">perlecebre, pernicies, exitium!</l>
+          <l n="286">Nam mare non mare est ut tu es mare.</l>
+          <l n="287">Ingrata atque irrita sunt omnia</l>
+          <l n="288">que dedi aut, pol, feci bene! At posthac tibi</l>
+          <l n="289">male quod potero facere faciam.</l>
+          <l n="290">Ego, pol, te ulciscar ut digna es utque meres</l>
+          <l n="291">de me, ut que sis nunc et que fueris scias.</l>
+          <l n="292">Redigam te unde orta es, ad egestatis terminos;</l>
+          <l n="293">que, priusquam te adii, pane sordido</l>
+
+          <pb n="16"/>
+
+          <l n="294">vitam oblectabas et in pannis inopia.</l>
+          <l n="295">Nunc quia est melius me, cuius opera est, fugitas,</l>
+          <l n="296">meque ignoras, mala, qui vestibus</l>
+          <l n="297">te nudam operui. Sed reddam iam te ex fera</l>
+          <l n="298">mansuetam, si vivo, et humilem fame.</l>
+          <l n="299"><seg type="speaker" corresp="#theo">THEO.</seg> Vin meum experiri consilium? <seg type="speaker" corresp="#dyo">DYO.</seg> Quid est?</l>
+          <l n="300"><seg type="speaker" corresp="#theo">THEO.</seg> Sine eas venire. <seg type="speaker" corresp="#dyo">DYO.</seg> Si venerint tamen.</l>
+          <l n="301"><seg type="speaker" corresp="#theo">THEO.</seg> At venient, hercle! Rimate stabula</l>
+          <l n="302">postquam fuerint omnia et omnes viculos</l>
+          <l n="303">percurrerint, venient. Squalide, sordide,</l>
+          <l n="304">inmunde, fimo ac stercore fetide,</l>
+          <l n="305">dicent rem seriam sese fecisse domi,</l>
+          <l n="306">sed odos teter indicabit scelus.</l>
+          <l n="307">Venient, quia nemo cubilibus</l>
+          <l n="308">dignatur eas; nec ipsi qui fricant equos,</l>
+          <l n="309">postquam restinctus ignis est, retinent eas.</l>
+          <l n="310">Colluvies primitus omnis hominum</l>
+          <l n="311">fexque populi debet saturarier;</l>
+          <l n="312">tum, culinarum peruncte abdomine</l>
+          <l n="313">eruptatoque vino in nostros madide</l>
+          <l n="314">migrabunt amplexus; et quo nunc coquos</l>
+          <l n="315">ac muliones ore et sandapilas,</l>
+          <l n="316">histriones et mimos et tibicines</l>
+
+          <pb n="17"/>
+
+          <l n="317">exosculantur, eodem nobis savium</l>
+          <l n="318">oppegisse volent. Tum nos hic in angulis</l>
+          <l n="319">spernentes eas sedebimus, nec bibere</l>
+          <l n="320">aut comedere, nec condormire quoque</l>
+          <l n="321">dignabimur. Hoc eas cruciatu nimis</l>
+          <l n="322">afficiemus, ulciscemurque iniurias.</l>
+          <l n="323"><seg type="speaker" corresp="#dyo">DYO.</seg> Si nos amarent, tunc istoc utier</l>
+          <l n="324">modo liceret; sed ille nos nihili</l>
+          <l n="325">pendunt. <seg type="speaker" corresp="#theo">THEO.</seg> Dum quod damus amant iam diu!</l>
+          <l n="326">Nos amittant, facileque iniurias</l>
+          <l n="327">illis damus. <seg type="speaker" corresp="#dyo">DYO.</seg> At istuc nobis multo egrius</l>
+          <l n="328">quam illis erit, si neque loqui neque tangere</l>
+          <l n="329">licet. <seg type="speaker" corresp="#theo">THEO.</seg> Quid ais, ridiculum capitulum?</l>
+          <l n="330"><seg type="speaker" corresp="#dyo">DYO.</seg> Male ulcisci qui plus sibi quam hosti nocet.</l>
+          <l n="331">Carere cena et potu queo, cubatu non queo.</l>
+          <l n="332">Ego in sinu mee dormire volo,</l>
+          <l n="333">vel si caprum oleat. <seg type="speaker" corresp="#theo">THEO.</seg> Si sic devincier</l>
+          <l n="334">sinis teque captivum prebes, iam funditus</l>
+          <l n="335">occidisti. Nam te fixum sentiet</l>
+          <l n="336">aput se clavo Cupidinis nec redimi</l>
+          <l n="337">posse; nec tibi parcet; nam meretrix,</l>
+          <l n="338">cum amanti parcit, sibi non retur parcere.</l>
+          <l n="3398">Actum est, ilicet, et conclamatum est: rapiet</l>
+
+          <pb n="18"/>
+
+          <l n="340">actutum quicquid est usquam tibi gentium.</l>
+          <l n="341">In frena te stringet, sellam coget ut feras,</l>
+          <l n="342">quasi mule dorso insedebit tuo.</l>
+          <l n="343">Heu, quibus te miserum lacerabit modis</l>
+          <l n="344">tua Celeno! Nam quem meretricis amor</l>
+          <l n="345">urget, is, nisi amorem dissimulat,</l>
+          <l n="346">perditior est perditis in lacu Stigis.</l>
+          <l n="347"><seg type="speaker" corresp="#dyo">DYO.</seg> Quid igitur faciam? <seg type="speaker" corresp="#theo">THEO.</seg> Ut simules te nihil</l>
+          <l n="348">curare hanc. <seg type="speaker" corresp="#dyo">DYO.</seg> At neque istec quicquam magis</l>
+          <l n="349">me faciet. <seg type="speaker" corresp="#theo">THEO.</seg> Faciet. <seg type="speaker" corresp="#dyo">DYO.</seg> Qui? Si ego renuo?</l>
+          <l n="350"><seg type="speaker" corresp="#theo">THEO.</seg> Nosco mulierum mores et ingenia;</l>
+          <l n="351">nam que velis nolunt, que nolis volunt.</l>
+          <l n="352"><seg type="speaker" corresp="#dyo">DYO.</seg> Si sic admones, parebo. <seg type="speaker" corresp="#theo">THEO.</seg> Sic facto est opus.</l>
+          <l n="353">Sed heus, tu! <seg type="speaker" corresp="#dyo">DYO.</seg> Quid vis? <seg type="speaker" corresp="#theo">THEO.</seg> Non tamen prohibeo</l>
+          <l n="354">hanc illis exprobrarier contumeliam,</l>
+          <l n="355">at verbis. <seg type="speaker" corresp="#dyo">DYO.</seg> Verbis constantibus, mordacibus.</l>
+          <l n="356">Sed quid iam nunc illic clamitat coquus?</l>
+        </lg>
+      </div>
+      
+      <div n="7" type="scene">
+        <head>7. ARTRAX coquus</head>
+        <lg>
+          <l n="357">Obsonium coctum est; iam cena deperit.</l>
+          <l n="358">Iam disquamavi pisces; congros, murenulas</l>
+          <l n="359">exdorsuavi, iam faxo exossatas sient.</l>
+          <l n="360">Pulli gallinacii et pigargi bulliunt.</l>
+          <l n="361">Oricem veru tenet et leporem.</l>
+
+          <pb n="19"/>
+
+          <l n="362">Clunes apri optumo more condiam.</l>
+          <l n="363">Ardee quoque due atque merule decem</l>
+          <l n="364">asse sunt istic cum duobus pavonibus.</l>
+          <l n="365">Perdices dum vivo iam plus mille memini</l>
+          <l n="366">coxisse, sed his nunquam meliores puto.</l>
+          <l n="367">Vah! cena bona, uncta, sapida, lepida!</l>
+          <l n="368">Ipsus mihi, dum narro, salivam moveo.</l>
+          <l n="369">Sed huius quid si crus alterum voro gruis?</l>
+          <l n="370">Facile hoc genus avis dicam monopedum,</l>
+          <l n="371">que semper in pratis uno consistit pede.</l>
+          <l n="372">Vah, comedant isti frigidum, ego calidum!</l>
+        </lg>
+      </div>
+      
+      <div n="8" type="scene">
+        <head>8. CHARINUS et SEDULIUS amantes, LYBIPHANES
+          <lb/>familiaris</head>
+        <lg>
+          <l n="373"><seg type="speaker" corresp="#char">CHAR.</seg> Nil amor est aput homines nisi</l>
+          <l n="374">dura carnificina, aspera et teterrima.</l>
+          <l n="375">Hoc ego in me sentio, qui omnes homines</l>
+          <l n="376">supero animi cruciabilitatibus.</l>
+          <l n="377">Iactor, vorsor, agitor, stimulor, crucior</l>
+          <l n="378">in amoris rota; miser, exanimor.</l>
+          <l n="379">Feror, differor, distrahor, dirupior,</l>
+
+          <pb n="20"/>
+
+          <l n="380">ita meo nulla mens est animo,</l>
+          <l n="381">ita ingenium omne perdidi meum.</l>
+          <l n="382">Quod lubet non lubet iam id continuo,</l>
+          <l n="383">ita me amor lapsum animo ludificat;</l>
+          <l n="384">fugat, agit, appetit, raptat, retinet;</l>
+          <l n="385">quod dat non dat, deludit, quod suasit modo</l>
+          <l n="386">iam dissuadet, quod dissuasit mox imperitat.</l>
+          <l n="387">Ubi sum, ibi non sum; ubi non sum, illic est animus;</l>
+          <l n="388">ut maris fluctus huc et illuc trahor;</l>
+          <l n="389">iam mihi nulla abest perdito pernicies.</l>
+          <l n="390"><seg type="speaker" corresp="#sedu">SEDU.</seg> Quid hic secum duriter amorem culpitat?</l>
+          <l n="391">Edepol, qui amat, si eget, miseris</l>
+          <l n="392">erumnis afficitur! Adibo atque alloquar.</l>
+          <l n="393">Salve, Charine. Quid est? <seg type="speaker" corresp="#char">CHAR.</seg> Hem, Seduli, quid est</l>
+          <l n="394">rogas? Exedor, maceror et exenteror;</l>
+          <l n="395">amando miser perii, occidi, interii!</l>
+          <l n="396"><seg type="speaker" corresp="#sedu">SEDU.</seg> Absurde facis, qui te sic angas animi;</l>
+          <l n="397">in re mala animo iuvat utier bono.</l>
+          <l n="398"><seg type="speaker" corresp="#char">CHAR.</seg> Consule quid agam. <seg type="speaker" corresp="#sedu">SEDU.</seg> Morbum patefacito.</l>
+
+          <pb n="21"/>
+
+          <l n="399"><seg type="speaker" corresp="#char">CHAR.</seg> Mea Cassina et tua Chrysis dormient</l>
+          <l n="400">aput Cantharam lenam in edicula.</l>
+          <l n="401"><seg type="speaker" corresp="#sedu">SEDU.</seg> Scio. <seg type="speaker" corresp="#char">CHAR.</seg> Scis et taces? <seg type="speaker" corresp="#sedu">SEDU.</seg> Scio et taceo.</l>
+          <l n="402">Nam scortum fortunati est oppidi simile,</l>
+          <l n="403">quod rem non servat sine multis viris.</l>
+          <l n="404">Nubere volt meretrix quotidie</l>
+          <l n="405">novis maritis. Nupsit hodie mihi;</l>
+          <l n="406">hac noctu nubat ut aliis decet.</l>
+          <l n="407">Nunquam vidua cubare volt domi;</l>
+          <l n="408">nam, si non nubit sepe, fame perit.</l>
+          <l n="409">Num tibi sat est horis compluribus</l>
+          <l n="410">in eius amplexu iacuisse quam amas?</l>
+          <l n="411">Da locum aliis, queso: nihil diminuent.</l>
+          <l n="412">Que nunc est hec, etiam cras eadem</l>
+          <l n="413">ad te redibit. <seg type="speaker" corresp="#char">CHAR.</seg> Hau! Hau! Frustra tecum loquor.</l>
+          <l n="414">Quid tu, Lybiphanes, mihi nunc ais?</l>
+          <l n="415"><seg type="speaker" corresp="#ly">LY.</seg> Eum qui amat hominem miserrimum.</l>
+          <l n="416"><seg type="speaker" corresp="#char">CHAR.</seg> Imo, ecastor, qui pendet multo est miserior!</l>
+          <l n="417">Sed consule, obsecro atque reobsecro, mihi.</l>
+          <l n="418"><seg type="speaker" corresp="#ly">LY.</seg> Si mihi auscultas, excudi iam consilium.</l>
+          <l n="419">Scio Dyophanem atque Theobolum</l>
+          <l n="420">nunc his succensere, quia tardiuscule</l>
+          <l n="421">cenatum vadunt. Monebo has meretriculas,</l>
+          <l n="422">illorum ut temnant iras atque irrideant;</l>
+
+          <pb n="22"/>
+
+          <l n="423">nam sic eos ludificabunt magis.</l>
+          <l n="424">Tum rixam miscebunt seseque divident.</l>
+          <l n="425">Vos in insidiis ibidem presto eritis,</l>
+          <l n="426">ut, his abeuntibus, ingrediamini.</l>
+          <l n="427"><seg type="speaker" corresp="#char">CHAR.</seg> At si lena faveat; nam me nescit ea.</l>
+          <l n="428"><seg type="speaker" corresp="#ly">LY.</seg> Cedo argentum; cuius est ymagine</l>
+          <l n="429">signatum? <seg type="speaker" corresp="#char">CHAR.</seg> Cesaris. <seg type="speaker" corresp="#ly">LY.</seg> At hec novit Cesarem,</l>
+          <l n="430">et te lubentius quam Lubentiam</l>
+          <l n="431">agnoscet; nam crumena illorum est vacua,</l>
+          <l n="432">et tua nova est et plena plenior.</l>
+          <l n="433">Idem est lene amator quod piscis quidem:</l>
+          <l n="434">nam piscis nequam est nisi sit recens;</l>
+          <l n="435">is habet sucum, is suavitatem,</l>
+          <l n="436">quovis pacto coquas atque condias.</l>
+          <l n="437">En, quam leta erit te piscem advenisse novum!</l>
+          <l n="438">Sed eccas euntes. Nisi te tenes, eo.</l>
+          <l n="439"><seg type="speaker" corresp="#char">CHAR.</seg> I, frugi servule, iam nos sequimur.</l>
+        </lg>
+      </div>
+      
+      <div n="9" type="scene">
+        <head>9. CHARINUS</head>
+        <lg>
+          <l n="440">Hoc quod iste facit servi faciunt boni,</l>
+          <l n="441">qui neque more neque molestie imperium</l>
+
+          <pb n="23"/>
+
+          <l n="442">habent herile sibi. Nam qui ex sententia</l>
+          <l n="443">servire postulat hero, hunc in herum</l>
+          <l n="444">matura, in se sera condecet capessere.</l>
+          <l n="445">Et qui servus amare cognoscit dominum,</l>
+          <l n="446">is retinere ad salutem herum, vel si tacet,</l>
+          <l n="447">debet, ut istic occipissit modo.</l>
+          <l n="448">Nam, quamvis dissimulat Sedulius,</l>
+          <l n="449">non tamen ardet minus; quod servulus</l>
+          <l n="450">agnoscit callidus. Ideo, quasi mihi</l>
+          <l n="451">salutem procurassit, vel illi consulit.</l>
+          <l n="452">Namque erubescit hic amorem faterier,</l>
+          <l n="453">quia meretrix est quod amat. Ego</l>
+          <l n="454">nil mihi dedecoris existumo fore,</l>
+          <l n="455">si quod palam est venale nummis emo.</l>
+          <l n="456">Nemo me ire publica prohibet via,</l>
+          <l n="457">dum ne per agrum clausum faciam semitam.</l>
+          <l n="458">Si nuptis abstineo, vidua, virgine,</l>
+          <l n="459">nemo me scortum amare prohibet aut vetat.</l>
+        </lg>
+      </div>
+      
+      <div type="scene" n="10">
+        <head>10. CHRYSIS, CASSINA meretrix</head>
+        <lg>
+          <l n="460"><seg type="speaker" corresp="#chry">CHRY.</seg> Recte, ut opinor, Lybiphanes ait:</l>
+          <l n="461">acerbis quam blandis retinetur artius</l>
+          <l n="462">amator verbis, quom captus est semel.</l>
+
+          <pb n="24"/>
+
+          <l n="463">At eant hi quo velint, abeant, fugiant;</l>
+          <l n="464">an forma nostra est que vendi nequeat?</l>
+          <l n="465">Satis hos emunximus; nam sanguinem</l>
+          <l n="466">elicias oppido, si premas amplius.</l>
+          <l n="467">Quod si procos redamassimus novos,</l>
+          <l n="468">de pleno melius promeremus ubere.</l>
+          <l n="469">Volt placere novus amator statim,</l>
+          <l n="470">volt posci, volt dare, volt effundere,</l>
+          <l n="471">volt placere sese lene, volt mihi,</l>
+          <l n="472">volt pedisseque, volt catulo meo,</l>
+          <l n="473">auroque gravem porrigit manum.</l>
+          <l n="474">Subblanditur semper amator novos,</l>
+          <l n="475">antiquus semper inclamitat. Decet</l>
+          <l n="476">ad suum quemque questum esse callidum.</l>
+          <l n="477"><seg type="speaker" corresp="#cas">CAS.</seg> Ita est ut dicis. Ego istuc sedulo,</l>
+          <l n="478">sic me dii servassint, adnitor facere.</l>
+          <l n="479">Nemo mihi plus mense amator sapit;</l>
+          <l n="480">semper nove kalende amores novos</l>
+          <l n="481">afferunt mihi. <seg type="speaker" corresp="#chry">CHRY.</seg> Nimis amas solide!</l>
+          <l n="482">Nam nonas et ydus celebrare nuptiis</l>
+          <l n="483">convenit recentibus; vel, ut ego</l>
+          <l n="484">institui vitam, cum novo sole novos</l>
+          <l n="485">concubinos querere. Sed eccam in hostio</l>
+          <l n="486">Cantharam. <seg type="speaker" corresp="#cas">CAS.</seg> Ipsa est, an non? <seg type="speaker" corresp="#chry">CHRY.</seg> Ipsissima est.</l>
+        </lg>
+      </div>
+     
+      <pb n="25"/>
+      
+      <div n="11" type="scene">
+        <head>11. CANTHARA lena, CHRYSIS meretrix</head>
+        <lg>
+          <l n="487"><seg type="speaker" corresp="#can">CAN.</seg> Quis tantum auri vel argenti in loculis</l>
+          <l n="488">servassit suis quantum nos, que sine</l>
+          <l n="489">prediis vivimus, largimur foras?</l>
+          <l n="490">Argento solem et lunam et aquam et diem</l>
+          <l n="491">et noctem non emimus aut tenebras;</l>
+          <l n="492">cetera que volo Gallica mercor fide.</l>
+          <l n="493">A pistore cum panem petierim,</l>
+          <l n="494">vel cum vinum posco ex cenopolio</l>
+          <l n="495">aut ex macello piscem, agnum vel edum,</l>
+          <l n="496">vacua redeo nisi es dederim.</l>
+          <l n="497">Itidem amatores ex me sentiunt:</l>
+          <l n="498">nemo huc intrat nisi dat argentum prius.</l>
+          <l n="499">Non pascor verbis, credo quod video.</l>
+          <l n="500">Illi iam suum dederunt symbolum,</l>
+          <l n="501">et mihi quod equum fuit. Si tamen duo</l>
+          <l n="502">adveniant novi, qui argentum novum</l>
+          <l n="503">afferant, non recusabo pandere</l>
+          <l n="504">posticum, ut intrent domum clanculum.</l>
+          <l n="505">Sed quisnam est qui Vulcanum in cornu gerit?</l>
+          <l n="506">Chrysin video. Salve, Chrysis mea.</l>
+          <l n="507"><seg type="speaker" corresp="#chry">CHRY.</seg> Salvam hercle gaudeo te esse, Canthara.</l>
+          <l n="508">Quid nostri homines? <seg type="speaker" corresp="#can">CAN.</seg> Subtristes accubant.</l>
+
+          <pb n="26"/>
+
+          <l n="509"><seg type="speaker" corresp="#chry">CHRY.</seg> Duc nos supra; iam faxo ut sint hilares.</l>
+          <l n="510"><seg type="speaker" corresp="#can">CAN.</seg> Ite, pascua mea et feraces vinee!</l>
+        </lg>
+      </div>
+      
+      <div type="scene" n="12">
+        <head>12. CHRYSIS, CASSINA meretrix, THEOBOLUS et DYOPHANES 
+          <lb/>amantes</head>
+        <lg>        
+          <l n="511"><seg type="speaker" corresp="#chry">CHRY.</seg> Salvere iubeo amatores optumos;</l>
+          <l n="512">salvete, qui fidem facitis maxumi!</l>
+          <l n="513">Ducite ex animo curam et hilares</l>
+          <l n="514">hac noctu, fidi amantes, gaudio</l>
+          <l n="515">operam date. Salvete, animuli,</l>
+          <l n="516">vite nostre, festivitates mere.</l>
+          <l n="517">Quid agitis, voluptates et festi dies?</l>
+          <l n="518">Quid agitis, passeres, columbi, lepores?</l>
+          <l n="519">Facessat meror. Quid aiunt? Proh, tacent!</l>
+          <l n="520"><seg type="speaker" corresp="#cas">CAS.</seg> Indignis qui bene dicit, is dicit male.</l>
+          <l n="521">Potin tacere, cum sic ipsi tacent?</l>
+          <l n="522"><seg type="speaker" corresp="#chry">CHRY.</seg> Indigna digna habenda sunt, que facit amor.</l>
+          <l n="523"><seg type="speaker" corresp="#cas">CAS.</seg> Mitte has, precor, statuas marmoreas.</l>
+          <l n="524">Nemo plane sua intelligit bona</l>
+          <l n="525">nisi, cum in potestate habuit, perdidit.</l>
+          <l n="526"><seg type="speaker" corresp="#chry">CHRY.</seg> Noli obloqui, nec mirere quod silent:</l>
+          <l n="527">decet verecundos esse adolescentulos!</l>
+          <l n="528">Istec barba vix annos est tonsa bis decem.</l>
+          <l n="529"><seg type="speaker" corresp="#theo">THEO.</seg> Viden ut magna ingenia in occulto latent?</l>
+
+          <pb n="27"/>
+
+          <l n="530">Nasci te virum, Chrysis, par fuerat!</l>
+          <l n="531">Proh, verum est quod dicitur: mulieres duas</l>
+          <l n="532">peiores esse quam unam. Sic experior!</l>
+          <l n="533">Ite, meretricum genus pessimum,</l>
+          <l n="534">que quasi musceque culicesque et pulices</l>
+          <l n="535">omnibus estis damno atque molestie,</l>
+          <l n="536">bono usui nulli! Nec quisquam hominum</l>
+          <l n="537">vobiscum frugi consistere potest.</l>
+          <l n="538">Qui consistit, culpant eum ceteri,</l>
+          <l n="539">ipsumque remque fidemque dicunt perdere.</l>
+          <l n="540">An satis peccasse fuit, nisi ultro etiam</l>
+          <l n="541">irrisum nos veniretis, meretricule?</l>
+          <l n="542"><seg type="speaker" corresp="#cas">CAS.</seg> Quid nos peccavimus aut fecimus mali?</l>
+          <l n="543">Venire diximus, ventum est. Pueri</l>
+          <l n="544">non faxint que facitis. An nos aves</l>
+          <l n="545">creditis, que volatu quo petitis</l>
+          <l n="546">actutum percurramus? Exquirite alias!</l>
+          <l n="547"><seg type="speaker" corresp="#dyo">DYO.</seg> En audaciam muliebrem: viden</l>
+          <l n="548">in manifesto ut se excusant scelere?</l>
+          <l n="549"><seg type="speaker" corresp="#cas">CAS.</seg> Nulla tam parvi est mulier pretii</l>
+
+          <pb n="28"/>
+
+          <l n="550">que, si culpam in sese nullam admiserit,</l>
+          <l n="551">nomen non velit suum retinere bonum.</l>
+          <l n="552">Sed nihil ego vos demiror modo,</l>
+          <l n="553">nam hec inter amandum sepe interveniunt.</l>
+          <l n="554">Incidunt voluptates atque miserie,</l>
+          <l n="555">intervenit ira, redit rursus gratia.</l>
+          <l n="556">At ire si que forte interveniunt,</l>
+          <l n="557">si reventum in gratiam post fuerit,</l>
+          <l n="558">bis tanto crescit amor quam perprius fuit.</l>
+          <l n="559">Consulto agitis, ut maior voluptas siet,</l>
+          <l n="560">in nostram cum remeaveritis gratiam.</l>
+          <l n="561"><seg type="speaker" corresp="#dyo">DYO.</seg> Vestram nos redeamus in gratiam?</l>
+          <l n="562">Ite in malam crucem ut estis merite, lupe!</l>
+          <l n="563">Subicite vos quibus placet lenonibus,</l>
+          <l n="564">que nulla non taberna prostatis hodie.</l>
+          <l n="565"><seg type="speaker" corresp="#cas">CAS.</seg> Per Iovem iuro et matrem familias</l>
+          <l n="566">Iunonem et, quam vereri me decet, Venerem:</l>
+          <l n="567">nemo me hodie extra te unum tetigit.</l>
+          <l n="568"><seg type="speaker" corresp="#dyo">DYO.</seg> Vera istec velim. <seg type="speaker" corresp="#cas">CAS.</seg> Vera dico. <seg type="speaker" corresp="#dyo">DYO.</seg> Mulier es,</l>
+          <l n="569">audacter iuras atque falsum iuras sciens.</l>
+          <l n="570"><seg type="speaker" corresp="#cas">CAS.</seg> Dii me omnes, nisi sum veridica, perduint!</l>
+          <l n="571"><seg type="speaker" corresp="#dyo">DYO.</seg> At vos neque deos creditis neque deas</l>
+          <l n="572">usquam esse, et animas cum corporibus</l>
+
+          <pb n="29"/>
+          
+          <l n="573">extingui putatis, scelestissime!</l>
+          <l n="574">Verum, ut tu, Cassina, meam sententiam</l>
+          <l n="575">et quid animi geram erga te scias,</l>
+          <l n="576">ita me dii deeque superi et inferi</l>
+          <l n="577">et medioxumi et Iuno regina</l>
+          <l n="578">et Iovis supremi Pallas filia,</l>
+          <l n="579">ac me Saturnus ipsius patruus</l>
+          <l n="580">atque Ops opulenta illius avia</l>
+          <l n="581">servassint et amassint diutius,</l>
+          <l n="582">ut ego te, pessuma, dum vixero,</l>
+          <l n="583">nec tangam posthac unquam nec alloquar,</l>
+          <l n="584">quamvis per annos vivam Nestoreos.</l>
+          <l n="585"><seg type="speaker" corresp="#cas">CAS.</seg> Hei mihi, iam perimus, Chrysis! Quid agimus?</l>
+          <l n="586">Amatores bellos amisimus, teneros.</l>
+          <l n="587">Ubinam gentium reperire similes</l>
+          <l n="588">quimus? Proh, iam deserte, iam sumus vidue.</l>
+          <l n="589">Heu, iam pullas oportet nos vestes emere!</l>
+          <l n="590">At his saltem pretium emundis duint.</l>
+          <l n="591"><seg type="speaker" corresp="#chry">CHRY.</seg> Sed meus hic amator me non relinquet, scio.</l>
+          <l n="592"><seg type="speaker" corresp="#theo">THEO.</seg> Quia reliqui, et dedi te tuis stabulis.</l>
+          <l n="593">Abi ex oculis, nefandissima, citius,</l>
+          <l n="594">que nummis preditata recalcitras meis.</l>
+          <l n="595">Quod dedi datum nollem, reliquum non dabo.</l>
+          <l n="596"><seg type="speaker" corresp="#chry">CHRY.</seg> Si peccatum esset quod putatis, madide</l>
+
+          <pb n="30"/>
+
+          <l n="597">adhuc essemus. Sed agite periculum,</l>
+          <l n="598">introspicite: sicut ex balneo</l>
+          <l n="599">exivimus, munde et nitide sumus;</l>
+          <l n="600">nec videri, si placet, refugimus.</l>
+          <l n="601"><seg type="speaker" corresp="#theo">THEO.</seg> Abite, inverecunde, sceleste, fetide!</l>
+          <l n="602">Abite, ni vultis experirier</l>
+          <l n="603">nostri quam pugni sint hedie graves!</l>
+          <l n="604"><seg type="speaker" corresp="#chry">CHRY.</seg> Res seria est. Quid agimus, Cassina?</l>
+          <l n="605">Si nunc nos suspendimus, operam lusimus,</l>
+          <l n="606">et ultra operam restim perdidimus,</l>
+          <l n="607">atque his voluptatem creaverimus,</l>
+          <l n="608">qui tamquam inimici nostro gauderent malo.</l>
+          <l n="609">Vivamus potius et comedamus satis;</l>
+          <l n="610">sic illis fiet egre plus quam velint.</l>
+        </lg>
+      </div>
+      
+      <div n="13" type="scene">
+        <head>13. ARCHIMENIDES amator, solus</head>
+        <lg>
+          <l n="611">Parva res est voluptas in etate hominum</l>
+          <l n="612">at molestie quidem longissime.</l>
+          <l n="613">Voluptati semper est meror comes;</l>
+          <l n="614">humana ut sunt, nihil est perpetuum datum.</l>
+          <l n="615">Hoc ego plane iam nunc experior,</l>
+
+          <pb n="31"/>
+
+          <l n="616">hanc qui noctem mihi iocundissimam</l>
+          <l n="617">futuram rebar. En, que nunc est turbatio!</l>
+          <l n="618">Esuriales illi iam ducunt ferias.</l>
+          <l n="619">Cum caduceo, quasi Mercurius,</l>
+          <l n="620">componere hos inimicos volui;</l>
+          <l n="621">iste mihi auscultarent, illi non audiunt.</l>
+          <l n="622">Sed quid ego amicorum causa crucier,</l>
+          <l n="623">si sponte sua dolent, cum possint fungier</l>
+          <l n="624">isdem, quibus ego fruor, voluptatibus?</l>
+          <l n="625">Herebo iam his voratricibus modo,</l>
+          <l n="626">hisque me letum dabo atque subblandiar.</l>
+          <l n="627">Stultum est curis se vexare superfluis;</l>
+          <l n="628">viden ut vinum ingurgitant ebriole?</l>
+          <l n="629">Nihil est in his mestitie: sapiunt.</l>
+          <l n="630">Cum his sapere volo, non cum illis desipere.</l>
+          <l n="631">En fortunatus ego, qui nubere</l>
+          <l n="632">uni putabam; iam nubam tribus!</l>
+        </lg>
+      </div>
+      
+      <div type="scene" n="14">
+        <head>14. CANTHARA lena, CHARINUS et SEDULIUS amatores</head>
+        <lg>             
+          <l n="633"><seg type="speaker" corresp="#can">CAN.</seg> Quis illic est qui nunc posticum movet?</l>
+          <l n="634"><seg type="speaker" corresp="#char">CHAR.</seg> Amicus tuus. <seg type="speaker" corresp="#can">CAN.</seg> Quis amicus? <seg type="speaker" corresp="#char">CHAR.</seg> Ego.</l>
+          <l n="635"><seg type="speaker" corresp="#can">CAN.</seg> Quis tu «ego» es? <seg type="speaker" corresp="#char">CHAR.</seg> Charinus. <seg type="speaker" corresp="#can">CAN.</seg> Quis Charinus, amabo?</l>
+          <l n="636"><seg type="speaker" corresp="#char">CHAR.</seg> Charinus qui Cassinam perit tuam.</l>
+          <l n="637"><seg type="speaker" corresp="#can">CAN.</seg> Qui sies nescio. <seg type="speaker" corresp="#char">CHAR.</seg> Scit Cassina qui siem.</l>
+          <l n="638"><seg type="speaker" corresp="#can">CAN.</seg> Quid tibi vis? <seg type="speaker" corresp="#char">CHAR.</seg> Intromitti postulo.</l>
+          <l n="639"><seg type="speaker" corresp="#can">CAN.</seg> Quam ob rem? <seg type="speaker" corresp="#char">CHAR.</seg> Quia videre illam cupio.</l>
+          <l n="640"><seg type="speaker" corresp="#can">CAN.</seg> Quid amplius? <seg type="speaker" corresp="#char">CHAR.</seg> Et condormire illi flagito.</l>
+
+          <pb n="32"/>
+
+          <l n="641"><seg type="speaker" corresp="#can">CAN.</seg> Quis tecum est? <seg type="speaker" corresp="#char">CHAR.</seg> Sedulis, amator Chrysidis.</l>
+          <l n="642"><seg type="speaker" corresp="#can">CAN.</seg> Quid poscit hic? <seg type="speaker" corresp="#char">CHAR.</seg> Idem quod ego peto.</l>
+          <l n="643"><seg type="speaker" corresp="#can">CAN.</seg> Quid dabitis? <seg type="speaker" corresp="#sedu">SEDU.</seg> Quecunque volueris.</l>
+          <l n="644"><seg type="speaker" corresp="#can">CAN.</seg> Auri dragmam postulo. <seg type="speaker" corresp="#sedu">SEDU.</seg> Dabitur maxime.</l>
+          <l n="645"><seg type="speaker" corresp="#can">CAN.</seg> Quando istuc erit? <seg type="speaker" corresp="#sedu">SEDU.</seg> Cras primo diluculo.</l>
+          <l n="646"><seg type="speaker" corresp="#can">CAN.</seg> Nisi nunc dabitis, operam perditis.</l>
+          <l n="647"><seg type="speaker" corresp="#sedu">SEDU.</seg> Dabimus, ecastor; ne trepida, mulier!</l>
+          <l n="648"><seg type="speaker" corresp="#can">CAN.</seg> At in presentiarum volo dari.</l>
+          <l n="649"><seg type="speaker" corresp="#sedu">SEDU.</seg> An nescis quales hic sumus viri?</l>
+          <l n="650"><seg type="speaker" corresp="#can">CAN.</seg> Bonos puto, sed non volo fallier.</l>
+          <l n="651"><seg type="speaker" corresp="#sedu">SEDU.</seg> Nec scimus fallere, nec volumus.</l>
+          <l n="652">Que bonis fit viris gratia, gravida est bonis.</l>
+          <l n="653">Inescabis nos, si admiseris modo,</l>
+          <l n="654">et optume fenerabis beneficium.</l>
+          <l n="655"><seg type="speaker" corresp="#can">CAN.</seg> Qui cavet decipi, vix cavens cavet;</l>
+          <l n="656">sepe cautor captus est, dum cavisse putat.</l>
+          <l n="657"><seg type="speaker" corresp="#char">CHAR.</seg> At huius cras duplum dabimus tibi.</l>
+          <l n="658"><seg type="speaker" corresp="#can">CAN.</seg> Nunquam ego tam fui astuta aut callida,</l>
+          <l n="659">quin bonum dari vellem in presentia.</l>
+          <l n="660"><seg type="speaker" corresp="#char">CHAR.</seg> At si nihil est auri aput nos modo?</l>
+          <l n="661"><seg type="speaker" corresp="#can">CAN.</seg> Ite hinc et nummosi revertimini.</l>
+          <l n="662">Interdictus amor est pauperibus.</l>
+          <l n="663"><seg type="speaker" corresp="#char">CHAR.</seg> Quid, si arraboni dedero pallium?</l>
+          <l n="664"><seg type="speaker" corresp="#can">CAN.</seg> Nichil facies. <seg type="speaker" corresp="#char">CHAR.</seg> Quid, si aureum cingulum?</l>
+
+          <pb n="33"/>
+
+          <l n="665"><seg type="speaker" corresp="#can">CAN.</seg> Admittam. <seg type="speaker" corresp="#char">CHAR.</seg> Accipe, sed servato probe.</l>
+          <l n="666"><seg type="speaker" corresp="#can">CAN.</seg> Ite huc; animam silendo premite,</l>
+          <l n="667">ne illi verba vestra arbitrari queant</l>
+          <l n="668">amatores, in scannis qui iacent, alii.</l>
+          <l n="669">Pulchram, ecastor, fallaciam struimus;</l>
+          <l n="670">at fallere non est fallere, nisi astus siet,</l>
+          <l n="671">sed malum maximum, si venit palam.</l>
+          <l n="672">Manete hic; ego vinum et cene particulam</l>
+          <l n="673">ad vos afferam. Post Archimenidem</l>
+          <l n="674">in hanc rem mihi conciliavero,</l>
+          <l n="675">namque is etiam hic cum sua dormiet.</l>
+          <l n="676"><seg type="speaker" corresp="#sedu">SEDU.</seg> Perge, lenarum omnium quas novi melior!</l>
+        </lg>
+      </div>
+      
+      <div n="15" type="scene">
+        <head>15. DIOPHANES amator, CONGRIO servus</head>
+        <lg>
+          <l n="677"><seg type="speaker" corresp="#dyo">DYO.</seg> Quanto magis rem hanc animo repeto,</l>
+          <l n="678">tanto egritudo resurgit auctior.</l>
+          <l n="679">Siccine sublitum esse os decuit?</l>
+          <l n="680">Quod cum scibitur, pulchre irridebimur.</l>
+          <l n="681">Ad forum cum venerimus, omnes referent:</l>
+          <l n="682">«Hi sunt, quibus heri verba sunt data».</l>
+          <l n="683">Sed quid tu nobis iam suades, Congrio?</l>
+
+          <pb n="34"/>
+
+          <l n="684">Hiccine dormimus an imus domum?</l>
+          <l n="685"><seg type="speaker" corresp="#con">CON.</seg> Manere necessum hic est, namque custodibus</l>
+          <l n="686">observantur publicis omnes vie.</l>
+          <l n="687"><seg type="speaker" corresp="#dyo">DYO.</seg> At dormire hic non possum. <seg type="speaker" corresp="#con">CON.</seg> Ergo vigilia.</l>
+          <l n="688"><seg type="speaker" corresp="#dyo">DYO.</seg> Ah scelestas meretrices! <seg type="speaker" corresp="#con">CON.</seg> Scelestissimas</l>
+          <l n="689">verius voces. <seg type="speaker" corresp="#dyo">DYO.</seg> Cras illam mulctabo male.</l>
+          <l n="690"><seg type="speaker" corresp="#con">CON.</seg> Quid facies? <seg type="speaker" corresp="#dyo">DYO.</seg> Crinibus in terram dabo.</l>
+          <l n="691"><seg type="speaker" corresp="#con">CON.</seg> Recte. <seg type="speaker" corresp="#dyo">DYO.</seg> Post hec, insultabo calcibus.</l>
+          <l n="692"><seg type="speaker" corresp="#con">CON.</seg> Pulcre. <seg type="speaker" corresp="#dyo">DYO.</seg> Linguam mox eripiam sibi.</l>
+          <l n="693"><seg type="speaker" corresp="#con">CON.</seg> Viriliter. <seg type="speaker" corresp="#dyo">DYO.</seg> Stat mens oculos eruere.</l>
+          <l n="694"><seg type="speaker" corresp="#con">CON.</seg> Fortiter. <seg type="speaker" corresp="#dyo">DYO.</seg> Ossa confringam quelibet.</l>
+          <l n="695"><seg type="speaker" corresp="#con">CON.</seg> Sicut meruit. <seg type="speaker" corresp="#dyo">DYO.</seg> Quid, si enasare lubet?</l>
+          <l n="696"><seg type="speaker" corresp="#con">CON.</seg> Probo. <seg type="speaker" corresp="#dyo">DYO.</seg> Nec aures indulgebo sibi.</l>
+          <l n="697"><seg type="speaker" corresp="#con">CON.</seg> Indigna est auribus. <seg type="speaker" corresp="#dyo">DYO.</seg> At nunc irruo,</l>
+          <l n="698">vel cras potius? <seg type="speaker" corresp="#con">CON.</seg> Cras melius censeo.</l>
+          <l n="699"><seg type="speaker" corresp="#dyo">DYO.</seg> Scin tu quid mihi alias obtigerit?</l>
+          <l n="700"><seg type="speaker" corresp="#con">CON.</seg> Nisi dicas, nescio. <seg type="speaker" corresp="#dyo">DYO.</seg> Bachidem colui</l>
+          <l n="701">Maguntie. Hec me frustra occepit habere;</l>
+          <l n="702">ego dissimulare, illa me reposcere.</l>
+          <l n="703">Revertor. Dum cena coquitur, miles adest;</l>
+          <l n="704">orat me Bachis cedere militi.</l>
+          <l n="705">Ego irasci, illa rogitare magis:</l>
+          <l n="706">amplectitur, osculatur, tractitat.</l>
+          <l n="707">Ego inter basiandum arripio dentibus</l>
+          <l n="708">nasum et fugio. <seg type="speaker" corresp="#con">CON.</seg> Vah, militare facinus!</l>
+
+          <pb n="35"/>
+
+          <l n="709"><seg type="speaker" corresp="#dyo">DYO.</seg> At quid illud? Dixin tibi quo pacto Senis</l>
+          <l n="710">dilaniarim mecam? <seg type="speaker" corresp="#con">CON.</seg> Plus milies.</l>
+          <l n="711"><seg type="speaker" corresp="#dyo">DYO.</seg> Accipe rursus atque audito ordinem.</l>
+          <l n="712"><seg type="speaker" corresp="#con">CON.</seg> Iam me somnus opprimit, narra Theobolo;</l>
+          <l n="713">is tecum vigilat. Si sim rex ego,</l>
+          <l n="714">ex amantibus tantum deligam vigiles.</l>
+          <l n="715">His ego in asseribus iacebo et dormiam;</l>
+          <l n="716">vos vigilate, fidi custodes urbium.</l>
+          <l n="717"><seg type="speaker" corresp="#dyo">DYO.</seg> Haud iniquum optas. Res otium petit</l>
+          <l n="718">quam incipisso. Nisi Theobolus mihi</l>
+          <l n="719">aures dat, tibi vel dormienti referam.</l>
+        </lg>
+      </div>
+      
+      <div n="16" type="scene">
+        <head>16. ARTRAX coquus</head>
+        <lg>
+          <l n="720">Iupiter, amas me, measque auges opes;</l>
+          <l n="721">voluptates opiperas offers mihi;</l>
+          <l n="722">cure sum tibi, tot das mihi ferias,</l>
+          <l n="723">potationes, saturitates, gaudia!</l>
+          <l n="724">Sed cena, ut video, adhuc restat dubia.</l>
+          <l n="725">Edepol, ne ego me prius explevi probe!</l>
+          <l n="726">At reliqui in ventre celle uni locum,</l>
+          <l n="727">ubi reliquiarum ponam reliquias.</l>
+          <l n="728">Proh, Iupiter, quam diversa sunt hominum officia!</l>
+
+          <pb n="36"/>
+
+          <l n="729">Pars in amplexu meretricum iacet,</l>
+          <l n="730">pars eiulando fortunam incusat suam.</l>
+          <l n="731">Ego, quod optimum est, ventri consulo meo.</l>
+        </lg>
+      </div>
+      
+      <div n="17" type="scene">
+        <head>17. CANTHARA lena, CASSINA et CHRYSIS meretrices</head>
+        <lg>
+          <l n="732"><seg type="speaker" corresp="#can">CAN.</seg> Illi iam abierunt nunc hospites novi</l>
+          <l n="733">expleti; sed assunt adhuc veteres.</l>
+          <l n="734">Elevabo vocem: volo ut audiant.</l>
+          <l n="735">Cassina, Chrysis! Quid agitis, paupercule?</l>
+          <l n="736"><seg type="speaker" corresp="#chry">CHRY.</seg> Nil, ecastor, hac noctu dormivi, misera!</l>
+          <l n="737"><seg type="speaker" corresp="#cas">CAS.</seg> Haud dubito, nam subagitata es probe.</l>
+          <l n="738"><seg type="speaker" corresp="#can">CAN.</seg> Quid obstat tibi? <seg type="speaker" corresp="#chry">CHRY.</seg> Qui me vexat amor.</l>
+          <l n="739"><seg type="speaker" corresp="#can">CAN.</seg> Cuius istic est amor? <seg type="speaker" corresp="#chry">CHRY.</seg> Theoboli.</l>
+          <l n="740"><seg type="speaker" corresp="#can">CAN.</seg> Quid tu, Cassina? <seg type="speaker" corresp="#cas">CAS.</seg> Eodem modo pereo.</l>
+          <l n="741"><seg type="speaker" corresp="#can">CAN.</seg> Quid te cruciat? <seg type="speaker" corresp="#cas">CAS.</seg> Dyophanis amor.</l>
+          <l n="742"><seg type="speaker" corresp="#can">CAN.</seg> Insulse, stulte, fatue, bestie!</l>
+          <l n="743">Illi vos temnunt, vos contra diligitis?</l>
+          <l n="744">Ubi nunc verba que dicta sunt heri?</l>
+          <l n="745">Emori prius velim quam illa tolerem.</l>
+          <l n="746"><seg type="speaker" corresp="#chry">CHRY.</seg> Quod ira dicitur, meminisse non decet.</l>
+          <l n="747"><seg type="speaker" corresp="#can">CAN.</seg> At illi ex animo dixerunt malo.</l>
+          <l n="748"><seg type="speaker" corresp="#cas">CAS.</seg> Non illi, sed amor locutus fuit.</l>
+          <l n="749"><seg type="speaker" corresp="#can">CAN.</seg> Ego, ut natu maior, sic sum sapientior;</l>
+          <l n="750">auscultate mihi, si bene consulo.</l>
+          <l n="751">Mittite hos aridos concubinos querulos;</l>
+          <l n="752">ego alios dabo, formosos, iuvenes,</l>
+          <l n="753">potentes, divites, qui vos vestibus,</l>
+          <l n="754">si vultis, aureis actutum vestient,</l>
+          <l n="755">qui vobis et mihi bene facient.</l>
+          <l n="756"><seg type="speaker" corresp="#chry">CHRY.</seg> Ah, mea Canthara, quid ais? Quid est</l>
+
+          <pb n="37"/>
+
+          <l n="757">quod in mentem modo cecidit tuam?</l>
+          <l n="758">Si possunt retro redire flumina</l>
+          <l n="759">atque convexo sidera celo cadere,</l>
+          <l n="760">potero et ego mei Theoboli</l>
+          <l n="761">immemor esse. <seg type="speaker" corresp="#can">CAN.</seg> Quid tu ais, Cassina?</l>
+          <l n="762"><seg type="speaker" corresp="#cas">CAS.</seg> Prius inter arandum pisces invenient</l>
+          <l n="763">atque in arboribus summis ruricole,</l>
+          <l n="764">quam meo decidat Dyophanes pectore.</l>
+          <l n="765"><seg type="speaker" corresp="#can">CAN.</seg> Nunquam rem facietis ambo, si viris</l>
+          <l n="766">tam vultis esse fideles: hoc decet,</l>
+          <l n="767">si matronas; meretrices dedecet.</l>
+          <l n="768"><seg type="speaker" corresp="#chry">CHRY.</seg> Quin sinis nos, ut volumus, vivere?</l>
+          <l n="769"><seg type="speaker" corresp="#can">CAN.</seg> Quia vos mendicas esse doleo;</l>
+          <l n="770">assunt dites, qui vos amant, milites.</l>
+          <l n="771"><seg type="speaker" corresp="#cas">CAS.</seg> Incassum faris; stat fidem servare datam.</l>
+          <l n="772"><seg type="speaker" corresp="#can">CAN.</seg> Vino, non amore, bonum est uti vetere.</l>
+          <l n="773"><seg type="speaker" corresp="#cas">CAS.</seg> Enecas. Quin taces, dum fixas vides?</l>
+          <l n="774"><seg type="speaker" corresp="#can">CAN.</seg> Taceo; sed vos hoc agetis, si sapitis.</l>
+        </lg>
+      </div>
+      
+      <div n="18" type="scene">
+        <head>18. DIOPHANES, <seg type="speaker" corresp="#theo">THEO.</seg>OLUS, CANTHARA, ARCHIMENIDES</head>
+        <lg>
+          <l n="775"><seg type="speaker" corresp="#dyo">DYO.</seg> Audistin que ille inter se dicerent?</l>
+          <l n="776"><seg type="speaker" corresp="#theo">THEO.</seg> Usque a principio omnia, et gaudeo.</l>
+          <l n="777"><seg type="speaker" corresp="#dyo">DYO.</seg> Quid ergo dicis? <seg type="speaker" corresp="#theo">THEO.</seg> Nos malos et illas bonas.</l>
+          <l n="778"><seg type="speaker" corresp="#dyo">DYO.</seg> Quid faciemus? <seg type="speaker" corresp="#theo">THEO.</seg> Revertemur in gratiam,</l>
+          <l n="779">orabimus veniam, supplicabimus.</l>
+          <l n="780"><seg type="speaker" corresp="#dyo">DYO.</seg> An nescis quam dure iurarim miser?</l>
+
+          <pb n="38"/>
+
+          <l n="781"><seg type="speaker" corresp="#theo">THEO.</seg> Iurasti lingua, mens iniurata manserat.</l>
+          <l n="782"><seg type="speaker" corresp="#dyo">DYO.</seg> Ah, nefas est iusiurandum spernere!</l>
+          <l n="783"><seg type="speaker" corresp="#theo">THEO.</seg> Nulla tenet amantes religio.</l>
+          <l n="784">Quia lingua iurasti, eadem ut deiures volo.</l>
+          <l n="785">Ridet istec ex alto periuria Iovis.</l>
+          <l n="786"><seg type="speaker" corresp="#dyo">DYO.</seg> Siccine suades? <seg type="speaker" corresp="#theo">THEO.</seg> Et suadeo et imperito.</l>
+          <l n="787"><seg type="speaker" corresp="#dyo">DYO.</seg> Imperio qui malus est, minus est malus.</l>
+          <l n="788">Sed nostrum Archimenidem compellare placet.</l>
+          <l n="789">Heus, Archimenides! <seg type="speaker" corresp="#ar">AR.</seg> Quis me vocat?</l>
+          <l n="790"><seg type="speaker" corresp="#dyo">DYO.</seg> Propera huc properanter. <seg type="speaker" corresp="#ar">AR.</seg> Hic etiam</l>
+          <l n="791">estis? Iussissem vos dudum accersirier,</l>
+          <l n="792">si scissem. Vah, quam vellem vos nosse omnia!</l>
+          <l n="793">Ut iurgate iste sunt invicem mulieres!</l>
+          <l n="794">Nunquam vos illis tam dilectos censueram.</l>
+          <l n="795"><seg type="speaker" corresp="#dyo">DYO.</seg> Audivimus omnia. Sed quid nunc consulis?</l>
+          <l n="796"><seg type="speaker" corresp="#ar">AR.</seg> Id quod res monet. Ne succensete Canthare,</l>
+          <l n="797">si quod lenam decet admonuit probe;</l>
+
+          <pb n="39"/>
+
+          <l n="798">nam lena non lena est, si non est mala.</l>
+          <l n="799">Eapse vos primam rediget in gratiam.</l>
+          <l n="800"><seg type="speaker" corresp="#dyo">DYO.</seg> Recte admones; suum facit officium.</l>
+          <l n="801"><seg type="speaker" corresp="#ar">AR.</seg> Accede huc, Canthara; hos sui erroris penitet.</l>
+          <l n="802">Optimi vini veteris tres cados</l>
+          <l n="803">in penam duint. Tu iam illas reconcilia.</l>
+          <l n="804"><seg type="speaker" corresp="#can">CAN.</seg> At puellis si dederint cingulum.</l>
+          <l n="805"><seg type="speaker" corresp="#ar">AR.</seg> Dabitur. <seg type="speaker" corresp="#can">CAN.</seg> Et onustum auro bono.</l>
+          <l n="806"><seg type="speaker" corresp="#ar">AR.</seg> Fiet. Vosque iam valet et plaudite,</l>
+          <l n="807">spectatores optimi. Quid sibi fabula</l>
+          <l n="808">hec nunc velit, scitis. Nam virtutibus</l>
+          <l n="809">insudandum est; sint procul meretrices,</l>
+          <l n="810">lenones, parasiti, convivia.</l>
+          <l n="811">Virtus omnibus rebus prestat; nihil</l>
+          <l n="812">illi deest, quem penes est virtus, viro.</l>
+          <l n="813">Finis est</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

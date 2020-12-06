@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+    <teiHeader>   
+        <fileDesc> 
+            <titleStmt>
+                <title>Chronica Sancti Benedicti Casinensis</title>
+                <author>Anonimo</author>
+                <respStmt>
+                    <resp key="print_editor">Edizione critica a stampa a cura di</resp>
+                    <name>Georg Waitz</name>
+                </respStmt>
+                <respStmt>
+                    <resp key="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+                    <name key="CDM">Chiara De Martin</name>
+                </respStmt>
+            </titleStmt>
+            
+            <extent>
+                <!-- È necessario uno script per rifare i conteggi in maniera affidabile in ALIM2. Sostituire i numeri con quelli corretti -->
+                <measure quantity="159530" unit="words">Parole: 159530</measure>
+                <measure quantity="941396" unit="characters_without_spaces">Caratteri (spazi esclusi): 941396</measure>
+            </extent>
+            
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://alim.unisi.it/">ALIM</ref>
+                </publisher>        
+                <date when="2017-04-28">28/04/2017</date>
+                <availability>
+                    <p>Copyright 2006 - progetto ALIM</p>
+                </availability>
+            </publicationStmt>
+                    
+            <sourceDesc>
+                <biblStruct>
+                    <analytic> 
+                        <title>Chronica Sancti Benedicti Casinensis</title>
+                        <author>Anonimo</author>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Monumenta Germaniae Historica. Scriptores rerum Langobardicarum et Italicarum saec VI-IX</title>
+                        <imprint>
+                            <pubPlace>Hannover</pubPlace>
+                            <publisher>Hannover: Impensis bibliopoli Hahniani</publisher>
+                            <date>1878</date>
+                            <biblScope unit="pages">467-488</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+           
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+                    ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+                    <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+                        precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+                        fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+                        resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+                        stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+                </list>
+                </ab> 
+                <ab type="level">ALIM2_2</ab>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latino</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form">Prosa</term>
+                    <term type="source">Documentaria</term>
+                    <term type="genre">Storiografia</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when-iso="800/900">IX</date>
+            </creation>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2020-02-03" who="PM">Si potrebbero rivedere alcuni <gi>quote</gi>, che probabilmente
+                andrebbero meglio marcati con <gi>said</gi>, dato che si tratta di discorsi diretti.</change> 
+            <change when="2017-04" who="CDM">Prima trascrizione nel formato TEI P5 [livello 2]</change> 
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        
+       <front>
+           <head>
+               <bibl>
+                   <title level="a">Chronica Sancti Benedicti Casinensis</title>, in
+                   <title level="m">Monumenta Germaniae Historica, Scriptores rerum Langobardicarum et Italicarum saec. VI-IX</title>, 
+                   <publisher>Hannover: Impensis bibliopoli Hahniani</publisher>, <date when="1878">1878</date>, <biblScope>pp.467-488</biblScope>.
+               </bibl>
+           </head>
+       </front>
+        
+       <body>
+             
+           <pb n="468"/>  
+            
+       <div type="section" n="1">
+      
+         <head>Annorum supputatio de monasterio sanctissimi Benedicti.</head>
+            
+           <p n="1" xml:id="p1">
+               <lb/>Quidam ex nostris scire volentes, quot anni essent a tempore sanctissimi Benedicti 
+               <lb/>patris usque nunc, nos quoque amore ducti, quantum potuimus sub calculandi 
+               <lb/>estimatione collegimus. Ab anno incarnationis Domini quingentesimo vicesimo nono 
+               <lb/>sub Iustiniano imperatore sunt anni a diebus eiusdem beatissimi Benedicti usque ad 
+               <lb/>Petronacem abbatem centum octoginta et unum. Et a Petronace abbate usque nunc 
+               <lb/>annum domni Berthari abbatis, qui est Deo praesule in coenobio tertius decimus pastor,
+               <lb/>dinumerantur circiter anni ...., quod est annus dominicae incarnationis....</p>
+          
+          
+           <p n="2" xml:id="p2">
+               <lb/>Paululum aliquid et de Langobardorum gente, quomodo in Italiam properarit, 
+               <lb/>commemorandum est. Narsis quoque patricius pro Gothorum gente, quae Hitaliam 
+               <lb/>invaserat, Langobardos federatos elegit et cum Grecis suis pariter ac Romanis ab eisdem
+               <lb/>finibus, hoc est Romanorum terminos, pepulit Gothos. Qui Narsis Neapolim residens, 
+               <lb/>legatos ad Langobardorum gentem dirigit, mandans, ut paupertina Pannonie rura desererent
+               <lb/>et ad Italiam cunctam refertam divitiis possidendam venirent. Simulque multimoda pomorum 
+               <lb/>genera aliarumque rerum species, quarum Italia ferax est, mittit, quatenus eorum ad veniendum
+          
+           <pb n="469"/>
+            
+               <lb/>animos possit inlicere. Langobardi vero laeta nuntia et quae ipsi praeoptabant gratanter 
+               <lb/>suscipiunt deque futuris commodis animos attollunt. Tunc Langobardi sedes proprias, hoc
+               <lb/>est Pannoniam, amicis suis Hunnis contribuunt, eo scilicet ordine, ut, si quo tempore Langobardis
+               <lb/>necesse esset reverti, sua rursus arva repeterent. Igitur Langobardi, relicta Pannonia,
+               <lb/>cum uxoribus et natis omnibus et suppellectile Italiam properant possessuri. Habitavere autem 
+               <lb/>in Pannonia annis quadraginta duobus. De qua egressi sunt mense April., per indictionem 
+               <lb/>primam, alio quidem die post sanctum pascha, cuius festivitas eo anno iuxta calculi rationem 
+               <lb/>in ipsis Kalendis Aprilibus fuit, cum iam a Domini incarnatione anni quingenti sexaginta et 
+               <lb/>octo essent evoluti. Post hoc dominantes Italiam, Beneventum [properantes] introeunt
+               <lb/>ad habitandum. Horum autem princeps militie celestis exercitus Michahel extitit archangelus; 
+               <lb/>Neapolites ad fidem Christi perducti; Alzechus Vulgar suis cum hominibus ad
+               <lb/>habitandum suscipitur. Grecorum Romanorumque Langobardi gentes superantes,totam
+               <lb/>simul Beneventi possiderunt patriam. <quote rend="PRE lsquo POST rsquo" xml:id="q1" next="#q2">Omne quippe regnum</quote>, ut ait Dominus, <quote rend="PRE lsquo POST rsquo" xml:id="q2" prev="#q1">in se 
+               <lb/>ipsum divisum desolabitur;</quote> et: <quote rend="PRE lsquo POST rsquo">Quod quis serens seminaverit, hoc et metet.</quote> Propterea 
+               <lb/>divisus Israheliticus populus in omnem ventilatus est mundum. Sic et hec Langobardorum
+               <lb/>gens dissidentes mentibus etiam suos interfecere principes. Ob id patriae facta
+               <lb/>divisio, Beneventanorum principatus duobus equidem partibus efficit divisus. A quibus 
+               <lb/>vicissim Franci Sarracenique unus contra alterum evocati; post tandem fraus Saracenorum 
+               <lb/>Barim noctu capiens; post demum Tarantum obsidentes introeunt, totumque pene in 
+               <lb/>integrum postmodum regnum igne ferroque vastantes, demoliti sunt, et ad solum usque 
+               <lb/>perductum circiter per annos ferme triginta. Langobardi vero dum nimia suis pro
+               <lb/>factis pericula sustinerent, ob hoc nimium afflicti necessitatemque compulsi, Franciam
+               <lb/>legatos dirigunt atque gloriosi imperatoris Hludowici implorant augusti clementiam, ut 
+               <lb/>patria sua cum gente veniens, eos omnino a Saracenis quantocius eriperet. Qui beniens, 
+               <lb/>hoc decretum suae reliquid patriae:</p>
+          
+          
+           <p n="3" xml:id="p3">
+               <lb/><quote rend="PRE lsquo POST rsquo">Constitutio promotionis exercitus observationis partibus Beneventi, sub indictione
+               <lb/>15. Quicumque de mobilibus widrigild suum habere potest, pergat in hoste. Qui 
+               <lb/>vero medium widrigild habet, duos iuncti in unum qualitatem instruant, ut bene ire 
+               <lb/>possint. Pauperes vero personae ad custodiam maritimam vel patrie pergant, ita videlicet,
+               <lb/>ut, qui plus quam decem solidos habet de mobilibus, ad eandem custodiam vadant,
+               <lb/>qui vero non plus quam decem solidos habet de mobilibus, nil ei requiratur. Si pater 
+               <lb/>quoque unum filium habuerit, et ipse filius utilior patre est, instructus a patre pergat.
+               <lb/>Nam si pater utilior est, ipse pergat. Si vero duos filios habuerit, quicumque ex eis 
+               <lb/>utilior fuerit, ipse pergat, alius autem cum patre remaneat. Quod si plures filios habuerit,
+               <lb/>utiliores omnes pergant; tantum unus remaneat, qui inutilior fuerit. De fratribus indivisis
+               <lb/>iuxta capitularem domini et genitoris nostri volumus, ut, si duos fuerint, ambo
+               <lb/>pergant; si tres fuerint, unus qui inutilior apparuerit, remaneat, ceteri pergant; si
+               <lb/>quoque plures omnes utiliores apparuerint, pergant, unus inutilior remaneat. De qua
+               <lb/>condicione volumus, ut neque per praeceptum neque per advocationem aut quamcumque 
+               <lb/>occasionem excusatus sit, aut comes aut gastaldus vel ministri eorum ullum excusatum
+               <lb/>habeant, preter quod comes in unoquoque comitatu unum relinquat, qui eundem 
+               <lb/>locum custodiat, et duos cum uxore sua. Episcopi ergo nullum laicum relinquant. Quicumque
+               <lb/>enim contra hanc institutionem remanere presumpserit, proprium eius a missis,
+          
+           <pb n="470"/>
+            
+               <lb/>quod subter ordinatum habemus, praesentaliter ad nostrum opus recipere iussimus et
+               <lb/>illum foras eicere. Omnibus enim notum esse volumus, quia iam a prioribus nostris
+               <lb/>iuxta hanc institutionem tultae fuerunt, sed pro misericordia recuperare meruerunt. Nunc
+               <lb/>autem certissime scitote, cuiuscumque proprietas tulta fuerit, vix a nobis promerebitur 
+               <lb/>recuperatione. A flubio Pado usque Trebia sit missus Iotselmus. Inter Padum et 
+               <lb/>Ticinum Eriulfus. Inter Ticinum et Adda Erembertus. Inter Adda et Addiza Landebertus.
+               <lb/>Ab Addiza usque Forum Iulii Ceodoldus. Petrus et Arthemius episcopi, iunctis
+               <lb/>secum missis episcoporum et comitum, Pisa, Luca. Pistoris et Lunis Teutmundus. 
+               <lb/>Florentia, Volterra et Aritio Rodselmus. Clusio et Sena Andreas. In ministerio Witonis 
+               <lb/>Rimmo et Iohannes episcopus de Forcona. In ministerio Verengari Hiselmundus episcopus. 
+               <lb/>In litore Italico Ermefridus, Macedo et Vulfericus. Hi volumus ut populum 
+               <lb/>eiciant et custodiam praevideant et populum in castella residere faciant, etiam et cum
+               <lb/>pace. Nam si missus aliquis ausus fuerit pretermittere, quin ominibus remanserint,
+               <lb/>presentaliter proprium tollant et eum foris eiciant. Et si inventus fuerit ipse missus,
+               <lb/>proprium suum perdat. Et si comes aliquem excusatum aut bassallum suum, preter 
+               <lb/>quod superius diximus, dimiserit, honorem suum perdat. Similiter eorum ministri, si 
+               <lb/>aliquem dimiserint, et proprium et ministerium perdant. Quod si comes aut bassi nostri
+               <lb/>aliqua infirmitate detenti remanserint aut aliquem excusatum retinuerint, aut abbates 
+               <lb/>vel abbatissae si plenissime homines suos non direxerint, ipsi suos honores perdant, et
+               <lb/>eorum bassalli et proprium et beneficium amittant. De episcopis autem, cuiuscumque 
+               <lb/>bassallus remanserint, et proprium et beneficium perdant. Si quoque episcopus absque
+               <lb/>manifesta infirmitate remanserit, pro tali neglegentia ita emendet, ut in ipsa marcha
+               <lb/>resideat, quousque alia vice exercitus illuc pergat. Et ut certissime sciatis, quia hanc
+               <lb/>expeditionem, in quantum Dominus largire dignatus fuerit, plenissime explere volumus, 
+               <lb/>constituimus, ut episcopus, comes aut bassus noster, si in infirmitate incerta detentus
+               <lb/>fuerit, episcopus quippe per suum missum, quem meliorem habet, comes vero et bassi
+               <lb/>nostri per se ipsos hoc sub sacramentum affirment, quod pro nulla occasione remansissent,
+               <lb/>nisi quod pro certissima infirmitate hoc age non potuissent. Omnes enim, volumus,
+               <lb/>ut omni hostili apparatu secum deferant, ut, cum nos hoc prospexerimus et 
+               <lb/>inbreviare fecerimus, non neglegentes appareant, sed gratiam quoque nostram habere
+               <lb/>mereantur. Vestimenta autem habeant ad annum unum, victualia vero quousque novum 
+               <lb/>fructum ipsa patria habere poterit. Fagidis enim quicumque eundo et redeundo commotionem 
+               <lb/>fecerit, vitae incurrat periculum. Et quia etiam temporis congruentia imminet 
+               <lb/>quadragesimale, in quo studenda sunt praecepta Dei, constituimus, ut, quicumque ecclesiam
+               <lb/>Dei fregerit, adulteria et incendia fecerit, vitae incurrat periculum. Quicumque
+               <lb/>caballum, bovem, friskingas, vestes, arma vel alia mobilia tollere ausus fuerit, triplici
+               <lb/>lege componat, et liber cum armiscara, id est sella ad suum dorsum, ante nos a suis
+               <lb/>senioribus dirigatur, et usque ad nostram indulgentiam sustineat. Servi vero flagellentur
+               <lb/>et tundantur, et illorum domini, quae ipsi tulerunt, restituant. Quod si clamor ad seniores
+               <lb/>venerit, et ipsi talia non emendaverint, tunc horum seniores ipsam compositionem 
+               <lb/>faciant et eadem armiscara, quamdiu nobis placuerit, sufficere compellantur. Et hoc
+               <lb/>constituimus, ut ex utraque parte iustitia servetur. Videlicet nostri sicut circavicini, 
+               <lb/>quae necessaria sunt, emenda. Vicini autem nullatenus carius quam suis circavicinis 
+               <lb/>vendere presumant. Qui vero homicidia indiscrete et presumptiose fecerit, vitae incurrat
+               <lb/>periculum. Iter enim erit nostrum per Ravennam, exin mediante mense Martio in
+          
+          
+           <pb n="471"/>
+          
+               <lb/>Piscaria, et omnis exercitus Italicus nobiscum. Tuscani autem cum populo qui de ultra 
+               <lb/>veniunt per Romam veniant ad Pontem Curvum, inde Capuam, et per Beneventum 
+               <lb/>descendant nobis obviam Luceria octavo Kalendas Aprilis.</quote></p>
+          
+          
+           <p n="4" xml:id="p4">
+               <lb/>His igitur prelibatis et hac lege sancita, dictus domnus imperator Hludowicus
+               <lb/>augustus cum uxore sua pariter gloriosa Angelberga augusta Benevento properantes,
+               <lb/>Iunio mense ad monasterium veniunt sanctissimi Benedicti patris; ubi a venerabili Berthario 
+               <lb/>abbate cum sacerdotali officio, lampadibus ac tymiamatibus necnon et fratrum 
+               <lb/>laudibus, honorifice susceptus est. Ascendens autem montem, ubi dicti almi patris pii
+               <lb/>Benedicti sacrum corpus humatum est, pari gloria ibidem susceptus, aliquid ibidem 
+               <lb/>sancto et Benedicto conferens munere, omne coenobium conspiciens laudabiliter, ammiratus
+               <lb/>descendit. Inibi Capuanorum frustrata calliditate, post dies aliquot possidens 
+               <lb/>optinuit Capuam, ingreditur Salerno, navigans Malfim, Puteolim utitur lavacris, et per
+               <lb/>Neapolim Sessulanam adiit urbem; dehinc castrametatur Caudim. Mense autem Decembrio,
+               <lb/>Dei omnipotentis opitulante gratia, ingressus est Beneventum, anno quidem septimo 
+               <lb/>decimo augustalis imperii sui. Et ecce congreditur cum Saracenis, tropeum primitus
+               <lb/>bellicans sumpsit ex eis victoriae, ac demum omnia illorum capiens castra, sole tantum
+               <lb/>illius civitates remanserunt, Barim scilicet necnon atque Tarantum. Nam omnium 
+               <lb/>quidem eorum gloria, munitissima capta est urbs Materia, quaeque igne ferroque ad
+               <lb/>nichilum redacta est; Augusto autem mense reversus est Beneventum. In cuius obsequium 
+               <lb/>dum essent ibidem Berthari abba; nam illuc in Sanctam Sophiam inchoatum
+               <lb/>fuerat oratorium a decessore suo reverentissimo viro Bassacio, quod omne studium perfecit
+               <lb/>et in honorem sancti construxit Benedicti; dedicata est autem a Stephano Teanensis 
+               <lb/>sedis episcopo et ab Angelari levitae studio opus perficitur.</p>
+          
+          
+           <p n="5" xml:id="p5">
+               <lb/>Si forte nosse cupis quis lector futurus eris, quam ob causam Beneventanorum 
+               <lb/>regionem Saraceni dominassent, occasio videlicet exstitit talis. Sichard Beneventanorum 
+               <lb/>princeps a suis interfectus, Radelchis zetarius palatii ei successit in principatum. Tunc 
+               <lb/>apud Tarantum morabatur Siconolfus armipotens, bone memorie Siconis magni principis
+               <lb/>filius. Interea his temporibus Capuanites plurima perpetrantes flagitia, etiam suos 
+               <lb/>maiores sibi occiserunt parentes, illorumque omnia diripientes, semed ipsos sublime in 
+               <lb/>spectaculum constituerunt mundi. Ob hoc verebantur adire Beneventum principisque
+               <lb/>sui Radelchisi oboedire praeceptis. Nam novi fraudum iniere machinis, seque Tarantum 
+               <lb/>contulerunt ad Siconolfum, predicti principis filium, et cum ceteris sibi socios et in
+               <lb/>flagitiis pariter consimiles dictum sibi constituerunt Siconolfum principem. Qui nec
+               <lb/>multo post introiens Salernum, magnaque pars Beneventi regio secuta est eum. Contra 
+               <lb/>quem Radelchis principis libor exarsit, et eum disperdere nitebatur e terra. Quatenus 
+               <lb/>alterutrum per tempora longa dimicaverint, quanta per hos gesta fuerint vicissim mala,
+               <lb/>nulla sustinere valet pagina, nullus doctoris explanare sensus, sed neque scribentis potest
+               <lb/>esse omnino facultas. Nam eo tempore dictus Radelchis princeps per Barensem Pandonem 
+               <lb/>gastaldeum in auxilium sibi transmarinos invitabit Saracenos, qui diu erga Barim 
+               <lb/>residentes, intempesta videlicet noctis hora more solito nominatam rapuerunt civitatem;
+               <lb/>quae urbs iuxta Grecorum stilum <foreign xml:lang="grc">Βαρην</foreign>, brachia gravis sive fortis, interpretatur. Vocabulum
+               <lb/>ex eo olim promeruit, ob delinquentium facinora ab hac gravis vel fortis Saracenorum
+               <lb/>vastatio ut in nos utique sic nimium saeviret. Horum iniquorum primus
+               <lb/>venientum vocabatur Kalfon rex, obsitis siquidem vestimentis et calciamentis, saltem nec
+          
+           <pb n="472"/>
+          
+               <lb/>tara bene succintis, sed solis harundinibus manu gestantes. Cum his quoque Radelchis
+               <lb/>totam devastavit Siconolfi regionem Capuamque primariam universam redegit in cinerem;
+               <lb/>exinde hinc omnia corruunt pariter in peius. Hoc in tempore bellum inter utrosque 
+               <lb/>factum est in Cannis.</p>
+         
+         
+           <p n="6" xml:id="p6">
+               <lb/>His diebus Saraceni egressi Romam, horatorium totum devastaverunt beatissimorum
+               <lb/>principis apostolorum Petri beatique ecclesiam Pauli multosque ibidem peremerunt
+               <lb/>Saxones aliosque quam plurimos utriusque sexus et aetatis. Fundensemque 
+               <lb/>capientes urbem vicinaque depraedantes loca, Septembrio quoque mense secus Gaietam
+               <lb/>castrametati sunt. Contra quos pervenit Francorum exercitus, sed superatus a Saracenis
+               <lb/>quarto Nobemrii Idus, iniit fugam; quos persequentes Saraceni illorumque omnia
+               <lb/>capientes, tandem ad Sanctum devenerunt Andream, cuiusque cellam igne cremaverunt. 
+               <lb/>Quique dum pervenissent ad cellam praesulis beatissimi Apolinaris cognomento Albianum,
+               <lb/>e vicino sanctum beatissimi confessoris Christi conspexerunt montem; quo ilico 
+               <lb/>pergere satagebant, sed tardior quippe eos transire hora vitabat. Igitur tanta tunc et
+               <lb/>caeli serenitas et terrae siccitas, ut flubium pede quisque volens pertransire posset. Beatissimi
+               <lb/>vero Benedicti patris monachi tam vicinam sibi mortem cernentes, protinus vicissim 
+               <lb/>pacem dederunt, obsecrantes misericordem Dominum, ut illorum propitius in pace 
+               <lb/>animas susciperet, quas in velocitatem mortis continuo expectabant migrare. Ilico universi
+               <lb/>nudis plantis et cinere sperso capite cum laetaniis ad patronem suum se contulerunt
+               <lb/>Benedictum beatum. Dum nimius esset pavor et formidolosa expectatio et copiosa 
+               <lb/>fieret ad omnipotentem Dominum exoratio, per visum Bassacio patri paruit praedecessor
+               <lb/>eius Apollinarius abbas: <quote rend="PRE lsquo POST rsquo" xml:id="q3" next="#q4">Quid</quote>, inquiens, <quote rend="PRE lsquo POST rsquo" xml:id="q4" prev="#q3">habetis? Quare moerorem patimini?</quote> Et Bassacius
+               <lb/>ad hec: <quote rend="PRE lsquo POST rsquo">Imminet, imquam, mors, pater, et non verendum?</quote> <quote rend="PRE lsquo POST rsquo" xml:id="q5" next="#q6">Nolite</quote>, inquid, ait, 
+               <lb/><quote rend="PRE lsquo POST rsquo" xml:id="q6" prev="#q5">timere; Benedictus pius pater vestram obtinuit salutem. Deprecamini igitur sedule
+               <lb/>Deum cum laetaniis et missarum sollemniis; Dominus cito exaudiat voces clamantium 
+               <lb/>ad se; denique et nos vobiscum in ecclesiis stantes, caelorum cum civibus communiter
+               <lb/>pro vobis Iesum Christum dominum exorare non desistimus.</quote> Cumque a somno surrexisset 
+               <lb/>Bassaciu pastor et hoc fratribus indicassed, in commune omnes exelsa voce 
+               <lb/>Deum benedixerunt, qui salvat misericorditer sperantes in se. Tum subito inmanis facta
+               <lb/>est pluvia, coruscationes et tonitrua tam vehementia, ita siquidem ut etiam Carnellus
+               <lb/>fluvius ultra terminos excrescens redundaret; et quem pridie adversarii transire poterant
+               <lb/>pede, sequenti videlicet die, divina cohereiti repulsione, neque ripam attingere valebant 
+               <lb/>fluvii. Nitebantur quolibet fluvium transmeare modo, sed dum nullus adesset eis ad 
+               <lb/>coenovium transmeandi aditus, sicut est illorum dira barbaries, digitos corrodentes 
+               <lb/>manuum fremebantque seu stridebant dentibus, huc illucque furibundi discurrentes. Et 
+               <lb/>ut non habesset illorum assuetus facinus, cellas beatissimorum martirum Stephani seu
+               <lb/>Georgeii igne cremaverunt, et per Duos Leones ad castra remearunt. Post dies aliquot
+               <lb/>suos subnervantes equos, navigare ceperunt. Qui dum proprius suae adessent provincie,
+               <lb/>ita ut etiam iam vicinos cernerent montes, nautico plausu laudem suo more dederunt. 
+               <lb/>Mox inter eos una paruit navicula, quae duos ferebat homines, unius velut speciem clerici,
+               <lb/>alterius ut monachi habitu habentes. Qui dixerunt ad eos: <quote rend="PRE lsquo POST rsquo">Unde venitis, vel 
+               <lb/>quo itis?</quote> At illi responderunt dicentes: <quote rend="PRE lsquo POST rsquo" xml:id="q7" next="#q8">A Petro revertimur; Roma omne illius devastabimus 
+               <lb/>oratorium, populum cum regione depraedata; Francos superabimus cellasque
+            
+           <pb n="473"/>
+            
+               <lb/>Benedicti igne cremavimus. Et vos</quote>, inquiunt, <quote rend="PRE lsquo POST rsquo" xml:id="q8" prev="#q7">quinam estis?</quote> Aiunt illi: <quote rend="PRE lsquo POST rsquo">Qui nos
+               <lb/>quoque sumus, modo visuri eritis.</quote> Ilico facta est tempestas valida et procella vehemens; 
+               <lb/>omnes igitur naves confractae sunt cunctique adversarii peremti; nullus umquam ex eis
+               <lb/>penitus remansit, qui ceteris talia nuntiaret. Sequenti itaque tempore Leo venerabilis 
+               <lb/>papa oratorium ambiens beati Petri muris firmissimis et excelsis, ne umquam talis Romae
+               <lb/>ulterius aliquando ebentus eveniret.</p>
+          
+          
+           <p n="7" xml:id="p7">
+               <lb/>Per idem tempus Siconolfus princeps pro Spanis tribuendum de beatissimi 
+               <lb/>Benedicti coenobio thesaurum abstulit perplurimum. Siquidem vice prima baziam argenteam,
+               <lb/>1, vaucas par 1, in gemmis et smaragdis spora par 1 saricamque sericam de
+               <lb/>silfori cum auro et gemmis. In alia igitur vice centum triginta in vasis auro libras. 
+               <lb/>Tertia itaque vice trecenti sexaginta quinque argento libras et tredecim milia solidos
+               <lb/>auro figuratos. Quarta videlicet vice vatias duos pensantes libras triginta et fundatos 
+               <lb/>duplices septem. Quinta nichilhominus vice matiatos solidos ae praedolatos quattuordecim
+               <lb/>abstulit milia. Et post hec in agrifis batiam unam et scaptonem 1, Constantinopolitano
+               <lb/>deaurate fabrofacte vasa opere. Porro insequenti vice sexta per Landonem 
+               <lb/>comitem et Aldemarium gastaldeum vim ex coenobio sustulit isdem Siconolfus praedolati
+               <lb/>solidos duo milia et sui principis coronam Siconis genitorisque de auro ac gemmis
+               <lb/>smaragdinis ornatam. Et hoc neque sibi profuit, animamque iugulavit suam; sed
+               <lb/>neque quod fallere monachos promittendo nisus est, ei neque profuit nichilominus seu 
+               <lb/>patriae; sed videlicet abhinc nullum ei amplius evenit triumphum victoriae. His diebus
+               <lb/>inter utrosque principes factum est in Cancellos bellum perexecrabilem. Aliquantis
+               <lb/>interim elapsis temporibus, Massar dux Benevento residens in auxilium Radelchisi principis,
+               <lb/>beatissimae Dei genitricis in Cingla Mariae monasterium devastabit castellumque 
+               <lb/>postmodum Sancti qui cognominatur Viti coepit. Telesinium possidens castrum,
+               <lb/>Sitim humiliabit totamque devastabit Apuliam et caetera nichilominus loca. Quandoque
+               <lb/>pervenit secus almi Benedicti monasterium. Cuius adeo ita divinitus mens immutata 
+               <lb/>est, et, dum unus eius canis vellet in pratis unam comprehendere aucam, per semed 
+               <lb/>ipsum eum flagello concurrit et eadem de ore captoris expulit abem. Cumque ante
+               <lb/>ianuas assisteret monasterii, protinus portas claudere iussit, ne subsequentes introire
+               <lb/>magaritae praesumerent. His expositis, pertransiit Aquinum ac depraedavit Arcem 
+               <lb/>vicinaque loca; Novembrio autem mense post dies octo reversus est Beneventum.</p>
+          
+          
+           <p n="8" xml:id="p8">
+               <lb/>Mortuo itaque Siconolfo apud Salernum, Sico, filius eius, specietenus ei successit
+               <lb/>in principatum. Isque post aliquantulum Franciam puerulus transducitur.</p>
+          
+           <p n="9" xml:id="p9">
+               <lb/>Mense Iunio generalis per totam Beneventi regionem terremotus factus est 
+          
+           <pb n="474"/>
+          
+               <lb/>magnus, ita ut Iserniensem funditus urbem obrueret multumque perimeret populum; 
+               <lb/>ad ultimum etiam et praesulem extinxit eiusdem civitatis. Pari ruina aedificiorum extitit 
+               <lb/>apud Sanctum Vincentium, similique vim fuit terremoti ad Benedicti beati coenobium,
+               <lb/>sed nec unus quidem lapidis suo de loco labsus est. Quod dum Massaro nuntiatum 
+               <lb/>fuisset, ut ruinosam depredaret Iserniam ait enim: <quote rend="PRE lsquo POST rsquo">Dominus omnium illuc iratus 
+               <lb/>est, et ego peramplius desebiam? Non utique ibo!</quote> Telesis nova secus primariam in
+               <lb/>planitiem sui cognominis construitur.</p>
+          
+          
+           <p n="10" xml:id="p10">
+               <lb/>Inter haec tempora, breviter ut superius dictum est, infra Capuanites filii Landolfi 
+               <lb/>gastaldii, hoc est Lando comes, Landolfus episcopus, Pando marepahis, Pandinolfus 
+               <lb/>gastaldius, huius patriae insignes habebantur. Sed ob scelera commorantium crebro 
+               <lb/>eorum urbs incendio cremabatur. Non poenitentiae remedium neque divinam postulantes
+               <lb/>misericordiam aut emendationem facinorum, sed quodam tandem reperto consilio, ad Casolini 
+               <lb/>pontem construunt civitatem. Quamque ludo secundam vocitabant Romam. Nam sicut 
+               <lb/>qui effugerit a facie leonis et incurrerit in ursum, sic ab istis remota civitas ipsa ab igne
+               <lb/>pari in ultione corruit in abyssum. Qua gloria sperabatur erigi, carmen indicat istud:
+          
+          <quote rend="align(central)"><l>Quae primum senio marcebat tempore longo,</l>
+                                       <l>Cernitur, en, amplis consurgere moenibus urbem!</l>
+                                       <l>Illa senatorum pollebat fulta caterbis,</l>
+                                       <l>Nomine sed Capua vocitatur et ista secunda.</l>
+                                       <l>Providus in cunctis patriae populique iuvamen,</l>
+                                       <l>Lando comes studio sollerti hanc condidit urbem.</l>
+                                       <l>Aurea porta vocatur, fert quia lucis honorem.</l>
+                                       <l>Arma, salus, virtus perpetua Christus in urbe</l>
+                                       <l>Hac maneat, populo tempus in omne suo;</l>
+                                       <l>Pellat et hinc hostem saevum fraudemque malignum,</l>
+                                       <l>Civibus et praestet pacis honore frui!</l></quote></p>
+            
+          
+           <p n="11" xml:id="p11">
+               <lb/>Hoc videlicet tempore Tarantum fame obsessa a Saracenis capitur.</p>
+          
+          
+           <p n="12" xml:id="p12">
+               <lb/>Per idem tempus Bassacius abbas, rogatus a primatibus patriae, adiit Franciam,
+               <lb/>qui obsecrans gloriosum imperatorem Hludowicum; veniens Barim, et in quantum 
+               <lb/>possibilitas fuit totis viribus cum Saracenis dimicabit; post complures autem dies venit 
+               <lb/>Beneventum. Igitur sabbato vigilia sanctum pentecosten infra Beneventanam urbem 
+               <lb/>interempti Saraceni, Radelchisi principatum gerens, Massari capitur, ad imperatorem 
+               <lb/>adductus capite plectitur; Hludowicus exin repedavit in patriam. His temporibus Bassacius 
+               <lb/>abbas defunctus est, expletis in regimine annis decem et novem. Cuius quale 
+               <lb/>quantumque fuit sursum deorsumque in ecclesiis studium, et ipsi vidimus qui scribimus, 
+               <lb/>et carmina illius nobis descripta resonant. Huic successit in regimine Berthari sacerdos,
+               <lb/>eius discipulus, moribus et vita strenuus et omni bonitate conspicuus. Castelli sursum 
+               <lb/>monitionem ipse ambiens; calicem ad honorem Dei officium operatus est; civitatem iuso 
+               <lb/>fieri voluit et inchoabit. Et quomodo totis viribus contra Saracenos in Gaietam dimicabit,
+               <lb/>nostra plenissime comperit aetas; quomodo autem suos dilexit commissos et
+               <lb/>quatenus pro ipsis decertavit, praecepta indicant coenobio facta imperatorum. Eo tempore
+          
+           <pb n="475"/> 
+          
+               <lb/>Ademari princeps erat apud Salernum. Teanensis ecclesiae presul Lupoald obiit; 
+               <lb/>Hilarius levita et beati Benedicti monachus ad episcopale decus eligitur. Bone
+               <lb/>memorie Aloara, Landonis coniux comitis, una cum Surano medico eiusque interventu
+               <lb/>tam benefactrix erat monachorum, ut Madium totum mensem stipendia praeveret ac
+               <lb/>aleret fratres.</p>
+          
+          
+           <p n="13" xml:id="p13">
+               <lb/>Lampert, filius Widonis, et Ildepert comites nisi sunt manus erigere contra 
+               <lb/>Hludowicum imperatorem; sed relata illorum fraude, persecutus est eos Hludowicus usque
+               <lb/>Marsim. At illi demum ante faciem eius fugerunt Benevento apud Adelchisum principem. 
+               <lb/>Hildepert vero pertransiens, habiit Barim. Libentissime quidem a Seodane rege
+               <lb/>susceptus est, et habitavit ibi tempore quo voluit. Hludowicus ergo imperator persequens 
+               <lb/>eos, devenit in Hiserniam; quam cum infidelem sibi comperisset, bellando cepit.
+               <lb/>Ac deinde pertransiens Aliphem, post plura bella urbs capta est. Per Telesiam igitur
+               <lb/>devenit ad civitatem quae dicitur Sanctae Agathe et urbem expugnare coepit. Quae
+               <lb/>dum valde esset munita, multis diebus obsedit eam; erat enim tunc aestivum tempus.
+               <lb/><quote rend="PRE lsquo POST rsquo" xml:id="q9" next="#q10">Nemo umquam</quote>, ut apostolus ait, <quote rend="PRE lsquo POST rsquo" xml:id="q10" prev="#q9">carnem suam odio habet, sed nutrit et fobet eam.</quote> 
+               <lb/>Tandem Berthari abbas condoluit super Hisembardum, consanguineum sibi et gastaldium
+               <lb/>obsesse civitatis, et intervenit pro eo apud imperatorem augustum. Cuius et promeruit
+               <lb/>gratiam et pactum dedit civitati, ac illius iuri protinus urbs mancipata est. Adelchis
+               <lb/>princeps ad pedes prostratus clementissimi imperatoris, et suam obtinuit veniam et fugacibus
+               <lb/>comitibus; abhinc tandem Hludowichus rediit Franciam. Hoc in tempore Magenolfus 
+               <lb/>clericus Hingenam, neptem imperatricis, accepit coniugem. Ademari iunctus 
+               <lb/>cum Neapolitis nitebatur quiddam dolose erga suos; ob hoc oculi eius evulsi, spernitur 
+               <lb/>a principatu, et Waiferi Salerni factus est princeps. Nam dictus Ademari Suram, Erpinum, 
+               <lb/>Vicum Album et Atinen tradidit Francis, id est Widoni comitis. In his locis
+               <lb/>praeerat Landolfus gastaldius; quae dum amississet loca, prae nimia est tristitia defunctus. 
+               <lb/>Iuvamine Landonis comitis et fere sacerdotis Teano monasterium construitur famulabus 
+               <lb/>Dei.</p>
+           
+           
+           <p n="14" xml:id="p14">
+               <lb/>Defuncto igitur aput Capuanam urbem Lando comes, Pando, germanus eius,
+               <lb/>ei successit in comitatu; qui iunctus cum Landolfo episcopo, venerabilem Aloaram,
+               <lb/>cognatam suam, de Capua excutientes; quae exul cum natis et facultatibus propriis
+               <lb/>aput Salernum habitatura devenit. Per idem tempus Neapolites audacter super Capuanos
+               <lb/>venire in bellum conati sunt, eo siquidem die quo beati Michaelis est festivitas.
+               <lb/>Huius Langobardi auxilio freti, exierunt adversus Querites, et tanta in illis caeda
+               <lb/>bachati sunt, ut plurimi ex eis gladio fuissent peremti multique capti, nonnulli in fluvio
+               <lb/>se proicientes; residui vero perpauci vulnerati in urbe reversi sunt suam. Caesarius 
+               <lb/>autem, magistri militis filius, capitur, Capuaque adductus, ferro in compedibus habetur.
+               <lb/>Secunda Neapolitis haec ruina extitit similis, quo olim in Gargano cum beato Michechelo 
+               <lb/>archangelo agere temptaverunt. Quod ex utroque latere Seudan audiens factum,
+               <lb/>irrisit, dicens: <quote rend="PRE lsquo POST rsquo">Stuppa cum tomentis pariter iuncta fecerunt bellum.</quote> Eo autem tempore
+               <lb/>in Aquini villam Rodoald gastaldius secus Pontem Curvum construxit castellum. 
+               <lb/>Hoc facto subduxit se a iure Capuanorum; qui vehementer ob hoc affligebatur a Capuanis. 
+               <lb/>His diebus Magenolfus, de quo supra paululum diximus, pergebat Franciam, ut sibi 
+               <lb/>ab imperatore glorioso petere, quo vivere loco seu et habitare posset. Cui Rodoald
+               <lb/>legatarium quendam Ursum transmisit presbiterum, ut reversus veniret ac pariter commorarentur
+          
+           <pb n="476"/>
+          
+               <lb/>suoque presidio iuvaret eum a persequentibus se. Regressus ergo Magenolfus
+               <lb/>de itinere coepto, et in Pontem introibit Curvum. Nec multo post profectus est Salernum, 
+               <lb/>sumptaque coniuge omni cum supellectile ac familia et rediens in castrum. 
+               <lb/>Neque diu latuit misterium iniquitatis. Nam quodam die cum suis cepit Rodoaldum
+               <lb/>eumque in custodiam retrusit, duos quoque filios eius in turrem proiecit omnemque 
+               <lb/>facultatem ipsius abstulit, thesaurum, peculia, mancipia, servi, populum, castrum, villam
+               <lb/>et omnia subiugavit sibi. Rurem populum et indisciplinatum, quem invenit, docuit more 
+               <lb/>palatii esse prudentissimum; et qui prius non noverant nisi caepe et alei, nunc ab eis 
+               <lb/>censum principales exquiruntur solidi, etiam et in hostili armati proficiscuntur exercitu.
+               <lb/>Rodoald offertus dum beato Benedicto fuisset, vix a venerabili viro Berthari abbate et a
+               <lb/>monachis liberatus est, ut Esepus doctor fabularum ait: <quote rend="PRE lsquo POST rsquo">Hoc patiatur, qui fortiorem 
+               <lb/>sibi induxerit in domum suam!</quote></p>
+        
+        
+           <p n="15" xml:id="p15">
+               <lb/>Dum in Eublogimenopolis urbis moenia struerentur, vir quidam tunc ibi erat 
+               <lb/>suis cum sociis in constructionem civitatis. Is quondam prae nimia infirmitate linguae
+               <lb/>perdiderat officium et per annos circiter septem nullum omnimodo valuit proferre sermonem.
+               <lb/>Quadam itaque nocte lassus ab opere manuum, dum fratres in oratorio beatissimi 
+               <lb/>Benedicti Deo laudes peragerent, idem mutus ad columnae pedem cum aliis residens, 
+               <lb/>obdormivit. Quem beatus Benedictus per visum baculo capite percutiens, increpans 
+               <lb/>ait: <quote rend="PRE lsquo POST rsquo" xml:id="q911" next="#q12">Huc properasti</quote>, inquid, <quote rend="PRE lsquo POST rsquo" xml:id="q12" prev="#q11">ad dormiendum? Evigila ergo et tribus vicibus expue
+               <lb/>in terram!</quote> Qui cum hoc fecisset, surgens a somno, beneficium sibi collatum coepit
+               <lb/>omnibus effari et ita perfecte loqui, ut ante septennium nec melius solitus erat. At
+               <lb/>omnes Deo laudem pariter dederunt.</p>
+          
+          
+           <p n="16" xml:id="p16">
+               <lb/>Interim gladius dominicae indignationis huc illucque discurrens, in deliquentium 
+               <lb/>cervicibus grassabatur. Nam egressus de vagina sua, omnes terminos per circuitum 
+               <lb/>devastabat. Ille impiissimus atque crudelissimus latro, <quote rend="PRE lsquo POST rsquo">quem Dominus percutiat 
+               <lb/>gladio oris sui et destruat illustratione adventus sui!</quote> ille pestifer Seodan quodam tempore
+               <lb/>egressus a Barim, totam devastabit Capuam, Cantias, Leborem, et suo nequissimo
+               <lb/>throno posuit in campo de Neapolim. Nullus omnino praeteribat dies, quod ad
+               <lb/>quingentos et eo amplius non interficeret homines. Et hoc pars Dei esse dicebat, ut 
+               <lb/>illud compleretur evangelicum: <quote rend="PRE lsquo POST rsquo">Omnis qui interficit vos arbitratur se obsequium prestare 
+               <lb/>Deo.</quote> Nam sevus ille tyrannus super cadavera mortuorum sedens, edebat tamquam 
+               <lb/>unus putridus canis. Tandem quasi e gravi somno evigilantes, sed gravati atque praepediti 
+               <lb/>nimiis miseriis Wandelpert et Maielpotus gastaldius et Garard comes eum plurimis
+               <lb/>aliis nobilibus properaverunt Beneventum, ut communi consilio ulciscerent se de 
+               <lb/>Saracenis. Salubre quidem fuit consilium, sed inutilis ordo. Non uno agmine, non una
+               <lb/>eademque intentione per cohortes incedebant, sed divisi ab alterutro inhordinate proficiscebant.
+               <lb/>Igitur propinquaverunt secus Saracenos ad Arium; quod hi cernentes, se
+               <lb/>protinus straverunt in terram. Iamque sol ad occasum tendebat. Hi vero qui a Benevento
+               <lb/>venerunt, sicuti fuerant lassi et nimium equidem fatigati sitientesque valde, continuo
+               <lb/>in aciem introierunt. Ilico Saraceni subito erecti, ut erant in uno agmine conglobati,
+               <lb/>repente irruerunt super eos. Hi vero terga vertentes, fugere coeperunt. Plurimi 
+               <lb/>interempti a gladiis, nonnulli cadentes, in alterutrum inpingentes, praefocabantur; alii in
+            
+           <pb n="477"/>
+            
+               <lb/>fossatis, sepibus et cavernis terrae, inlesi a gladiis, sed prae siti mortui inveniebantur.
+               <lb/>Saraceni autem victores effecti, coeptum peregerunt iter.</p>
+         
+         
+           <p n="17" xml:id="p17">
+               <lb/>Inter Capuam, Teanum necnon Aliphem auditur esse mons quidam, in quo 
+               <lb/>dicitur adesse angelica virtus ad instar beati Michahelis archangeli in monte Gargano,
+               <lb/>ita stillari aquam et iugiter effodi criptam et patere basilicam atque ibidem divina crebro
+               <lb/>fieri prodigia. Ex ortatum autem Landolfi praesulis Hilari Teanensis ecclesiae episcopus
+               <lb/>dedicabit illuc sanctorum altaria, et peramplius extunc fiunt multorum sanitatum
+               <lb/>signa et prodigia ad gloriam et laudem nominis Ihesu Christi.</p>
+          
+          
+           <p n="18" xml:id="p18">
+               <lb/>Mos etenim est apud monachos utrorumque coenobiorum, videlicet sanctorum 
+               <lb/>Vincentium martiris et beati confessoris Benedicti, diebus sanctae quadragesimae vicissim
+               <lb/>sibi rogum exhibere caritatis gratia. Dum hoc quadam die apud Sanctum Vincentium
+               <lb/>fratres spiritaliter agerent et illuc de Sancto ob hoc Benedicto fratres adessent, die
+               <lb/>Veneris tamquam pernicitatem volucri repente super eos Seodan rex Saracenorum cum 
+               <lb/>suis satellitibus venit. Monachi vero, quamquam nudi, tamen incolumes ad suum confugerunt
+               <lb/>castellum. Adest illius misericordia, qui suis fidelibus ait: <quote rend="PRE lsquo POST rsquo">Pater meus usque
+               <lb/>nunc operatur, et ego operor.</quote> <quote rend="PRE lsquo POST rsquo" xml:id="q13" next="#q14">Ego</quote>, inquam, <quote rend="PRE lsquo POST rsquo" xml:id="q14" prev="#q13">vobiscum sum omnibus diebus;</quote> et: <quote rend="PRE lsquo POST rsquo">Ex 
+               <lb/>obibus meis nemo potest rapere de manu patris mei;</quote> quia <quote rend="PRE lsquo POST rsquo">ubi duo vel tres congregati
+               <lb/>fuerint in nomine meo, ibi sum in medio eorum!</quote> Sed neque minus in hoc quam 
+               <lb/>dudum suo fideli concessit Dominus Benedicto, quia, etsi res tradita fuisset gentibus, 
+               <lb/>animas tamen custodiret. Saraceni vero omne demolierunt monasterium, confringentes
+               <lb/>omnia, frumenta et legumina in flumine proicientes. Et dum huc illucque foderent, 
+               <lb/>plurimum absconsum reppererunt thesaurum, coronas videlicet, ministeria sacra, et quotquot 
+               <lb/>valuit esse ecclesiasticus honor. Nefandissimus autem Seodan rex in sacris calicibus
+               <lb/>bibebat et cum turibulis aureis incensum sibi fieri iubebat. Post diem autem tertium 
+               <lb/>veloci cursu properavit cum suis ministris usque ad portas Capuane civitatis, plaustra
+               <lb/>onusta, animalia, homines plurimos capiens; atque eo die rediens, secus Teanum castrametatus 
+               <lb/>est. Verentes autem beatissimi Benedicti monachi et illius vicinum adventum
+               <lb/>et suorum periculum, per Ragenaldum diaconem, ipsius ut mitigari potuissent ferocitatem,
+               <lb/>prima vice pro pactu contulerunt ei.</p>
+          
+          
+           <p n="19" xml:id="p19">
+               <lb/>Pando Capuanitis gastaldius contra Waiferium principem cum suis hominibus 
+               <lb/>exivit in bellum; mox quidem ipse prius corruit, dehinc qui fuerunt cum eo, 
+               <lb/>victoriamque adeptus est Waiferius princeps. Per haec tempora Seodan cum omni
+               <lb/>suo exercitu per dies quadraginta debellabat Consiam urbem, et nimium obsedit
+               <lb/>eam tempore multo; quamque Dominus suo praesidio eripuit, et Seodan cum suis
+               <lb/>turpiter ab ea recessit. Pandinolfus, Pandonis dicti filius, Capuana in urbe factus
+               <lb/>est gastaldius. Quemque non post multum Landolfus episcopus sua seclusit ab
+               <lb/>urbe; et sua cum facultate veniens, habitavit in Sessam. Landolfus autem extitit 
+               <lb/>suis civibus non solum episcopus, sed et comes et iudex, non solum praesul, verum
+               <lb/>etiam gastaldius, neque tantum pontifex, quin velut miles super cunctos praeerat.
+     
+           <pb n="478"/>
+     
+               <lb/>Item benefactor noster, id est omnium contrarius hostis, Seodan venit in Benafrum; 
+               <lb/>postquam eorum coeperat civitatem et postquam omnem devastavit villam et in circuitu 
+               <lb/>eius tamquam rex potens in medio resedit terrae. Initium siquidem tunc erat quadragesimae
+               <lb/>sanctae. Eo autem die sanctam dominicam more solito Berthari abbas suum 
+               <lb/>exortabat divinis praeceptis beatissimum gregem. Cuius vicinitatem cum certo fratres 
+               <lb/>comperissent, concito gresu ad Sanctum conscenderunt Benedictum. Sequenti die Mercoris
+               <lb/>nefandus ipsius regis exercitus secus Sancti Benedicti pervenit monasterium, haud 
+               <lb/>non longe quasi stadia dua. Hoc est, dum vellent Saraceni per montes descendere Atinen,
+               <lb/>hic qui eos deducebat descendit cum eis in vallem Rotundam, dehinc in Rapidum. 
+               <lb/>Cumque in planitiis devenissent, praedari coeperunt. In sancti aecclesiam dum introissent 
+               <lb/>Heliae, parum aliquod damnum ibidem facientes, per Circlarias in Ortum dominicum,
+               <lb/>et per Pascarium in Fontanam Lucii, abhinc Peolem, ibidemque senem ante cancellos
+               <lb/>interfecerunt, qui eorum fallitus est viam. Cesam Constantii, Olibetum, Matronolam
+               <lb/>loca perscrutantes, omnes iumentas et vaccas monasterii auferentes, ad socios
+               <lb/>in Benafrum iam sero reversi sunt. Hic finis in his fuit, Deo propellente partibus 
+               <lb/>beati Benedicti tam Seodan regis quamque omnium satellitum eius.</p></div>
+          
+          
+       <div type="section" n="2">    
+         
+         <div>
+             <head rend="align(center)">Cronica de monasterio sanctissimi Benedicti</head>
+             
+             <p n="20" xml:id="p20">
+                 <lb/>Diebus Iustiniani orthodoxi imperatoris beatus Benedictus pater, qui monachorum
+                 <lb/>regulam instituit, et prius in loco qui Sublacu dicitur, qui ab urbe Roma quadraginta 
+                 <lb/>milibus adest, et postea in castro Casini, quod Arx appellatur, et magnae vitae meritis et
+                 <lb/>apostolicis virtutibus fulsit. Cuius vitam, sicut notum est, beatus papa Gregorius in suis dialogis
+                 <lb/>suavi sermone composuit; ego quoque pro parvitate ingenii mei ad honorem tanti patris 
+                 <lb/>singula eius miracula per singula eius distica elegiaco metro contexui.
+          
+                 <label rend="align(center)"/>In laude sancti Benedicti versus Pauli diaconi.
+          
+                     <lg>
+                        <l>Ordiar unde tuos, sacer o Benedicte, triumphos,</l>
+                        <l>Virtutum cumulos ordiar unde tuos?</l>
+                     </lg>
+          
+                 <lb/>Et in fine:
+                 
+                     <lg>
+                       <l>Sint, precor, apta tibi, celestis tramitis index;</l>
+                       <l>O Benedicte pater, sint, precor, apta tibi.</l>
+                     </lg>
+          
+                 <lb/>Et in ultimo:
+                 
+                     <lg>     
+                       <l>Perfice cuncta, precor, per eum quem semper amasti;</l>
+                       <l>Dulcis amande pater, perfice cuncta precor.</l>
+                     </lg>
+          
+                 <lb/>Ymnus:
+                 
+                     <lg>
+                       <l>Fratres, alacri pectore, venite concentu pari, fruamur</l>
+                       <l>Huius inclitte festivitatis gaudiis.</l>
+                     </lg>
+          
+                 <lb/>Hec alibi requirantur suo in loco.     
+                 <lb/>Libet me breviter referre quod beatus papa Gregorius minime in huius sanctissimi Benedicti
+                 <lb/>patris vitam descripsit.
+                 <lb/>Denique eum divina ammonitione a Sublacu in hunc, ubi requiescit, locum per quinquaginta 
+                 <lb/>ferme milia adventaret, tres eum corvi, quos alere solitus erat, sunt circumvolitantes 
+          
+             <pb n="479"/>
+          
+                 <lb/>secuti. Cui ad omne bivium, usque dum huc veniret, duo angeli in figura iuvenum apparentes,
+                 <lb/>ostenderunt ei, quam viam arripere deberet. In loco autem isto quidam Dei servus tunc habitaculum
+                 <lb/>habebat, ad quem divinitus ita dictum est:        
+                 <lb/><quote rend="PRE lsquo POST rsquo align(center)">His tu parce locis, alter amicus adest.</quote> 
+                 <lb/>Hic autem, hoc est in Casini arcem, perveniens, in magna se semper abstinentia coartavit;
+                 <lb/>sed precipue quadragesimae tempore inclausus et remotus a mundi strepitu mansit. Haec 
+                 <lb/>omnia ex Marci poetae carmine sumpsi, qui ad eundem venerabilem patrem huc veniens, hos 
+                 <lb/>versus in eius laudem composuit:
+                 <lb/><quote rend="PRE lsquo POST rsquo align(center)">Caeca prophanatas coleret dum turba figuras
+                 <lb/>Et manibus factos crederet esse deos.</quote>       
+                 <lb/>Requirantur alibi.  
+                 <lb/>Certum est, hunc egregium patrem vocatum caelitus ob hoc ad hunc fertilem locum et
+                 <lb/>cui opima vallis subiacet advenisse, ut hic multorum monachorum, sicut et nunc, Deo presule, 
+                 <lb/>facta est, congregatio fieret, ut scriptum est:
+                 <lb/><quote rend="align(center)">Quos Pater omnipotens hic mundi a finibus unum
+                 <lb/>Esse dedit, plures diverso germine ductos.</quote>
+                 <lb/>Coenobium vero beati Benedicti patris, quod in Casini vertice situm fuerat quodque
+                 <lb/>postea rursum ab edificantibus castrum Eublogimonopolis, id est Benedicti civitas,a
+                 <lb/>Langobardis noctu invaditur. Qui universa diripientes, nec unum ex monachis tenere potuerunt, 
+                 <lb/>ut prophetia venerabilis patris Benedicti, quam longe ante praeviderat, impleretur, qua dixit:
+                 <lb/><quote rend="PRE lsquo POST rsquo">Vix optinui apud Deum omnipotentem, ut ex hoc loco animae mihi cederentur.</quote> Fugientes 
+                 <lb/>quoque ex eodem loco monachi Romam petierunt, secum codicem sanctae regulae quam prephatus 
+                 <lb/>pater composuerat, necnon pondus panis et mensuram vini et quicquid ex supellectili 
+                 <lb/>subripere poterant deferentes. Siquidem post beatum Benedictum Constantinus, post hunc Simplicius,
+                 <lb/>post quem Vitalis, ad extremum autem Bonitus congregationem ipsam facit; sub quo 
+                 <lb/>haec destructio facta est.</p>
+         </div>
+         
+         <div>
+             <head rend="align(center)">Exordium de monasterio almi Benedicti patris</head>
+             
+             <p n="21" xml:id="p21">
+                 <lb/>Ut Deus omnipotens electorum monachorum sub beati Benedicti institutionem augeret 
+                 <lb/>numerus, principium occasionis extitit, ut Petronax, cives Brexianae urbis, divino amore
+                 <lb/>compunctus, Romam venisset. Hortatuque tunc Gregorii apostolicae sedis papae hoc Casinum
+                 <lb/>castrum petiit, atque ad sacrum corpus beati patris Benedicti perveniens, ubi cum aliquibus
+                 <lb/>simplicibus viris iam residentibus habitare coepit. Qui eundem venerabilem virum Petronacem
+                 <lb/>sibi seniorem statuerunt. Hinc non post multum tempus, cooperante divina misericordia et
+                 <lb/>suffragantibus meritis almi Benedicti patris, iamque evolutis fere centum et decem annis, ex
+                 <lb/>quo locus ille habitatione hominum destitutus erat, multorum ibi monachorum, nobilium et
+                 <lb/>mediocrium, ad se concurrentium pater effectus, sub sanctae regulae iugo et beati Benedicti
+                 <lb/>institutione, reparatis habitaculis, vivere coepit atque hoc coenobium in statum quo nunc cernitur 
+                 <lb/>erexit. Huic venerabili viro Petronacio in sequenti tempore sacerdotum praecipuus et 
+                 <lb/>Deo dilectus pontifex Zacharias plura contulit adiutoria, libros scilicet sanctae scripturae et 
+                 <lb/>alia quaeque ad utilitatem monasterii pertinentia; insuper regulam, quam beatus pater Benedictus
+                 <lb/>suis sanctis manibus conscripsit, paterna pietate concessit.
+                 <lb/>Gisolfus quoque Beneventanorum dux a Suram Romanorum civitatem, Arpinam, Atinen
+                 <lb/>atque Arcem pari modo oppida cepit. Qui Gisulfus tempore Iohannis papae sua omni cum
+                 <lb/>virtute Campaniam venit, incendia et depredationes faciens, multos cepit captivos. Et usque
+                 <lb/>in locum qui Horrea dicitur perveniens, castrametatus est, nullusque ei resistere potuit.
+                 <lb/>Ad hunc pontifex missis sacerdotibus cum apostolicis donariis, universos captivos de eorum 
+      
+             <pb n="480"/>
+      
+                 <lb/>manibus redemit, ipsumque ducem suo cum exercitu ad propria repedare fecit. Cuius uxor, 
+                 <lb/>Scauniperga nomine, in urbe Casinatium in idolorum templo beati apostolorum principis 
+                 <lb/>Petri honore beataeque scilicet gloriosae semper virginis Mariae necnon et Michahelis
+                 <lb/>argangeli altaria statuens, igonas et ministeria vel ceteris ac optimis muneribus
+                 <lb/>illustrans, et devota mente succedue memoranda reliquid. In eiusdem vero urbis arcem
+                 <lb/>quo Mello dicitur, ubi decenter beati corpus Benedicti humatum est, isdem Gisulfus 
+                 <lb/>armipotens dux cum conscendisset, tum divino tactus amore, beato patri Benedicto
+                 <lb/>cuncta in circuitu montana et planiora conferens, et fixis donariis posteris habenda imperpetuum
+                 <lb/>concessit. Sed propter hostium irruptionem marchas tantum ad incolarum
+                 <lb/>tutamina dimisit; caeterum ob laborum suffragia exercendum vicinis precepit, tam in 
+                 <lb/>seminibus quam messium tempora monachis oboedituros.</p>
+         </div>
+            
+         <div>
+             <p n="22" xml:id="p22">
+                 <lb/>Libet a breviter, ut ex maiorum dictis reppertum est, med ixisse sufficiat; nunc 
+                 <lb/>vero cursim iterandum est huius nostrae cronice succinctio, ut lector facile agnoscere 
+                 <lb/>queat, quae tempora vel quis princeps huius patriae extitit vel pastor loci istius quo
+                 <lb/>deguit, et ex brevi memorabilique calculo langa qui velit extendat pagina, et narrator 
+                 <lb/>existat dolorum tempora.</p>
+         </div>
+           
+         <div>
+             <table>
+                 <head rend="align(center)">Incipit cronica Langobardorum seu monachorum de monasterio
+                                    <lb/>sanctissimi Benedicti.</head>
+                 <row>
+                     <cell></cell><cell>Ciprianus.</cell><cell>15.</cell><cell>Poto abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>Gregorius.</cell><cell>Petronax abbas.</cell><cell>16-21.</cell><cell>2-7.</cell>
+                 </row>
+                 <row>
+                     <cell>2.</cell><cell>2.</cell><cell>22.</cell><cell>Theodemar abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>3.</cell><cell>3.</cell><cell>23-29.</cell><cell>2-8.</cell>
+                 </row>
+                 <row>
+                     <cell>4.</cell><cell>4.</cell><cell>30. Carolus ad monasterium <lb/>ind.11</cell><cell>9.</cell>
+                 </row>
+                 <row>
+                     <cell>5.</cell><cell>5.</cell>
+                 </row>
+                 <row>
+                     <cell>6.</cell><cell>6.</cell><cell>Grimoald.</cell><cell>10.</cell>
+                 </row>
+                 <row>
+                     <cell>7.</cell><cell>7.</cell><cell>2-10.</cell><cell>11-19.</cell>
+                 </row>
+                 <row>
+                     <cell>Godelscalcus.</cell><cell>8.</cell><cell>11.</cell><cell>Gisulfus abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>2.3.4.5.6.</cell><cell>9.10.11.12.13.</cell><cell>12-20.</cell><cell>2-10.</cell>
+                 </row>
+                 <row>
+                     <cell>Gisolfus.</cell><cell>14.</cell><cell>Grimoald storesaiz.</cell><cell>11.</cell>
+                 </row>
+                 <row>
+                     <cell>2-17.</cell><cell>15-30.</cell><cell>2-11.</cell><cell>12-21.</cell>     
+                 </row>
+                 <row>
+                     <cell>Liudprand.</cell><cell>31.</cell><cell>Sico princeps.</cell><cell>Apollinaris abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>2.</cell><cell>32.</cell><cell>2-11.</cell><cell>2-11.</cell>      
+                 </row>
+                 <row>
+                     <cell>3.</cell><cell>Optatus abbas.</cell><cell>12.</cell><cell>Deusdedit abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>4-8.</cell><cell>2-6.</cell><cell>13-16.</cell><cell>2-5.</cell>
+                 </row>
+                 <row>
+                     <cell>Arechis.</cell><cell>7.</cell><cell>Sichard.</cell><cell>6.</cell>
+                 </row>
+                 <row>
+                     <cell>2.3.</cell><cell>8.9.</cell><cell>2.</cell><cell>Adupert abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>4.</cell><cell>Ermeris abbas.</cell><cell>3.4.</cell><cell>2.3.</cell>
+                 </row>
+                 <row>
+                     <cell>5.</cell><cell>Gratianus abbas.</cell><cell>5.</cell><cell>Bassacius abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>6.7.8.</cell><cell>2.3.4.</cell><cell>6.7.</cell><cell>2.3.</cell>
+                 </row>
+                 <row>
+                     <cell>9.</cell><cell>Thomichis abbas.</cell><cell>Radelchis Siconolfus</cell><cell>4.</cell>
+                 </row>
+                 <row>
+                     <cell>10-14.</cell><cell>2-6.</cell><cell>Divisio terre.</cell><cell></cell>
+                 </row>
+                 
+             <pb n="481"/>        
+                 
+                 <row>
+                    <cell></cell><cell></cell><cell>[Reges Saracnorum.</cell><cell></cell>
+                 </row>
+                 <row>
+                    <cell>2.</cell><cell>2.</cell><cell>Calfon de Barim.</cell><cell>5.</cell>
+                 </row>
+                 <row>
+                     <cell>3.</cell><cell>3.</cell><cell>2.</cell><cell>6.</cell> 
+                 </row>
+                 <row>
+                     <cell>4.</cell><cell>4.</cell><cell>3.</cell><cell>7.</cell>
+                 </row>
+                 <row>
+                     <cell rend="align(center)">Siconolfus tulit aurum de monasterio</cell>
+                 </row>
+                 <row>
+                     <cell>5.</cell><cell>5.</cell><cell>4.</cell><cell>8.</cell>
+                 </row>
+                 <row>
+                     <cell>6.</cell><cell>6.</cell><cell>5. et mense 5.</cell><cell>9.</cell>
+                 </row>
+                 <row>
+                     <cell>7. Saraceni</cell><cell>7.</cell><cell>Ali. Saraceni in Aquino.</cell><cell>10.</cell>
+                 </row>
+                 <row>
+                     <cell>8.</cell><cell>8.</cell><cell>2.</cell><cell>11.</cell>
+                 </row>
+                 <row>
+                     <cell>9.</cell><cell>9.</cell><cell>Aiu.</cell><cell>12.</cell>
+                 </row>
+                 <row>
+                     <cell>10.</cell><cell>10.</cell><cell>Ferraci.</cell><cell>13.</cell>
+                 </row>
+                 <row>
+                     <cell>11.</cell><cell>11.</cell><cell>2.</cell><cell>14.</cell>
+                 </row>
+                 <row>
+                     <cell>12.</cell><cell>Sico.</cell><cell>3. et menses 6.</cell><cell>15.</cell>
+                 </row>
+                 <row>
+                     <cell>13.</cell><cell>2.</cell><cell>Seodan.</cell><cell>16.</cell>
+                 </row>
+                 <row>
+                     <cell></cell><cell></cell><cell></cell><cell>omnia iuso renovata sunt altaria.</cell>
+                 </row>
+                 <row>
+                     <cell>Radelgari.</cell><cell>3.</cell><cell>2.</cell><cell>17.</cell>
+                 </row>
+                 <row>
+                     <cell>2.</cell><cell>Ademari.</cell><cell>3.</cell><cell>18.</cell>
+                 </row>
+                 <row>
+                     <cell>3.</cell><cell>2.</cell><cell>4.</cell><cell>19.</cell>
+                 </row>
+                 <row>
+                     <cell>4.</cell><cell>3.</cell><cell>5.</cell><cell>Berthari abbas.</cell>
+                 </row>
+                 <row>
+                     <cell>Adelchis.</cell><cell>4.</cell><cell>6.</cell><cell>2.</cell>
+                 </row>
+                 <row>
+                     <cell>2-6.</cell><cell>5-9.</cell><cell>7-11.</cell><cell>3-7.</cell>
+                 </row>
+                 <row>
+                     <cell>7.</cell><cell>Dauferi.</cell><cell>12.</cell><cell>8.</cell>
+                 </row>
+                 <row>
+                     <cell>8.</cell><cell>2.</cell><cell>13.</cell><cell>Hludowicus imp.</cell><cell>9.</cell>
+                 </row>
+                 <row>
+                     <cell>9.</cell><cell>3.</cell><cell>14.</cell><cell>2.</cell><cell>10.</cell>
+                 </row>
+                 <row>
+                     <cell>9.</cell><cell>3.</cell><cell>14.</cell><cell>2.</cell><cell>10.</cell>
+                 </row>
+                 <row>
+                     <cell>10.</cell><cell>4.</cell><cell>15.</cell><cell>3.capiens</cell><cell>11.</cell>
+                 </row>
+                 <row>
+                     <cell>11.</cell><cell>5.</cell><cell></cell><cell>omnis civitas <lb/>....Sarac.</cell><cell></cell>
+                 </row>
+                 <row>
+                     <cell>12.</cell><cell>6.</cell><cell>16.</cell><cell>4.</cell><cell>12.</cell>
+                 </row>
+                 <row>
+                     <cell>13.</cell><cell>7.</cell><cell>17.</cell><cell>5. et mens. 2.</cell><cell>13.</cell>
+                 </row>
+                 <row>
+                     <cell>14-17.</cell><cell>8-11.</cell><cell></cell><cell>6.</cell><cell>14.</cell>
+                 </row>
+                 <row>
+                     <cell>18.</cell><cell>12.</cell><cell></cell><cell></cell><cell>15-18.</cell>    
+                 </row>
+                 <row>
+                     <cell>Ben.</cell><cell>Sal.</cell><cell>Sarac.]</cell><cell>Franci.</cell><cell>19.</cell>
+                 </row>
+             </table>
+         </div>
+         
+         <div>
+             <head rend="align(center)">Apostolici viri</head>
+             
+             <p n="23" xml:id="p23">
+                 <lb/>Petrus apostolus sedit in Antiochiae cathedra episcopali annos 5. Hic Petrus 
+                 <lb/>ingressus in urbe Roma, sedit in cathedra episcopali ann. 25.
+                 <lb/>Linus sedit ann. 15, mens. 4, dies 11.
+                 <lb/>Cletus sedit ann. 12, mens. 1, dies 11.
+                 <lb/>Clemens sedit ann. 9, mens. 2, dies 10.   
+                 <lb/>Anaclietus sedit ann. 12, mens. 10, d. 12.     
+                 <lb/>Eugaristus sedit ann. 13, mens. 6, d. 2.     
+                 <lb/>Alexander sedit ann. 10, mens. 7, d. 2.       
+                 <lb/>Xistus ann. 10, mens. 3, d. 21.         
+                 <lb/>Telesforus sedit ann. 11, mens. 3, d. 21.   
+                 <lb/>Eleuterius sedit ann. 11, mens. 3, d. 21.     
+                 <lb/>Iginus sedit ann. 8, mens. 3, d. 8.
+                 <lb/>Pius sedit ann. 19, mens. 4, d. 3.       
+                 <lb/>Anicetus sedit ann. 8, mens. 3, dies 3.  
+                 <lb/>Soter sedit ann. 9, mens. 3.       
+         
+             <pb n="482"/>
+         
+                 <lb/>Eleutherius sedit ann. 15, mens. 6, d. 5. 
+                 <lb/>Victor sedit ann. 10, mens. 2, d. 10. 
+                 <lb/>Zefirus sedit ann. 17, mens. 9, d. 10.
+                 <lb/>Calistus sedit ann. 5, mens. 2, d. 10.
+                 <lb/>Urbanus sedit ann. 13, mens. 11, d. 12.
+                 <lb/>Pontianus sedit ann. 5, mens. 2.
+                 <lb/>Antherus sedit ann. 12, mens. 1, d. 15.
+                 <lb/>Favianus sedit ann. 14, mens. 11, d. 11.
+                 <lb/>Cornelius sedit ann. 2, mens. 2, d. 3.
+                 <lb/>Lucius sedit ann. 3, mens. 3, d. 3.
+                 <lb/>Stefanus sedit ann. 7, mens. 5, d. 2.
+                 <lb/>Xistus sedit ann. 1, mens. 10, dies 33.
+                 <lb/>Dionisius sedit ann. 6, mens. 2, d. 4.
+                 <lb/>Felix sedit ann. 4, mens. 3, d. 25.
+                 <lb/>Euthicianus ann. 1, mens. 1, d. 1. 
+                 <lb/>Gaius ann. 11, mens. 4, d. 19.
+                 <lb/>Marcellinus sedit ann. 9, mens. 4, d. 16.
+                 <lb/>Marcellus sedit ann. 5, mens. 7, d. 21.
+                 <lb/>Eusevius sedit ann. 7, mens. 1, d. 3.
+                 <lb/>Miltiades sedit ann. 4, mens. 7, d. 7.
+                 <lb/>Silvester sedit ann. 26, mens. 10, d. 11.
+                 <lb/>Marcus sedit ann. 2, mens. 8, d. 20.
+                 <lb/>Iulius ann. 20, mens. 2, d. 6.
+                 <lb/>Liberius sedit ann. 6, mens. 3, d. 4. 
+                 <lb/>Felix sedit ann. 1, mens. 3, d. 2. 
+                 <lb/>Damasus sedit ann. 18, mens. 3, d. 11.
+                 <lb/>Syricius ann. 15, mens. 11, d. 15. Anastasius ann. 3, d. 10.
+                 <lb/>Innocentius ann. 15, mens. 2, d. 20.
+                 <lb/>Zosimus ann. 1, mens. 3, d. 12.
+                 <lb/>Bonifatius sedit ann 3, mens. 8, d. 7.
+                 <lb/>Celestinus ann. 8, mens. 10, d. 17.
+                 <lb/>Xistus ann. 8, d. 19.
+                 <lb/>Leo ann. 21, mens. 1, d. 13.
+                 <lb/>Hilarius ann. 6, mens. 3, d. 10.
+                 <lb/>Simplicius ann. 15, mens. 1, d. 7.
+                 <lb/>Felix ann. 8, mens. 1, d. 17.
+                 <lb/>Gelasius ann. 3, mens. 8, d. 18. 
+                 <lb/>Anastasius sedit ann. 1, mens. 1, d. 24.
+                 <lb/>Simmachus ann. 15, mens. 7, d. 28.
+                 <lb/>Hormisda ann. 9, d. 17.
+                 <lb/>Iohannes sedit ann. 2, mens. 9, d. 17.
+                 <lb/>Felix ann. 4, mens. 2 d. 13.
+                 <lb/>Bonifacius ann. 2, d. 26. [Huius tempore beatus Benedictus claruit].
+                 <lb/>Iohannes sedit ann. 2, mens. 4, d. 6.
+                 <lb/>Agapitus sedit mens. 11, d. l8.
+                 <lb/>Silvester sedit ann. 2, mens. 5, d. 11.
+                 <lb/>Vigilius ann. 17, mens. 6, d. 26.
+                 <lb/>Pelagius sedit ann. 11, mens. 10, d. 23.
+                 <lb/>lohannes sedit ann. 16, mens. 11, d. 26(?)
+         
+             <pb n="483"/>
+         
+                 <lb/>Benedictus ann. 4, mens. 1, d. 24.
+                 <lb/>Pelagius ann. 10, mens. 1, d. 10.
+                 <lb/>Gregorius ann. 13, mens. 6, d. 10.
+                 <lb/>Savinianus ann. 1, mens. 5, d. 19 (24?).
+                 <lb/>Bonifatius mens. 8, d. 22.
+                 <lb/>Bonifatius ann. 6, mens. 8, d. 13.
+                 <lb/>Deusdedit ann. 3, d. 23.
+                 <lb/>Bonifacius ann. 5, mens. 10.
+                 <lb/>Honorius sedit ann. 7, mens. 11, d. 17 (?).
+                 <lb/>Severinus mens. 2, d. 4.
+                 <lb/>Iohannes ann. 1, mens. 9, d. 18.
+                 <lb/>Theodorus ann. 6, mens. 5, d. 18 (?).
+                 <lb/>Martinus ann. 6, mens. 1, d. 20 (?).
+                 <lb/>Eugenius ann. 2, mens. 9, d. 24.
+                 <lb/>Vitalianus ann. 14, mens. 6. 
+                 <lb/>Adeodatus ann. 4, mens. 2, d. 5.
+                 <lb/>Donus sedit ann. 1, mens. 5, d. 10.
+                 <lb/>Agatho ann. 2, mens. 6, d. 4.
+                 <lb/>Leo mens. 10, d. 17.
+                 <lb/>Benedictus mens. 10, d. 12.
+                 <lb/>Iohannes ann. 1, mens. 1, d. 9.
+                 <lb/>Conon mens. 11.
+                 <lb/>Sergius ann. 13, mens. 8, d. 23.
+                 <lb/>Iohannes ann. 3, mens. 2, d. 12. [Tempore istius fuit Gisulf dux Beneventi].
+                 <lb/>Iohannes ann. 9, mens. 7, d. 17.
+                 <lb/>Sisinnius d. 20.
+                 <lb/>Constantinus ann. 7, d. 15.
+                 <lb/>Gregorius ann. 15, mens. 9, d. 22. 
+                 <lb/>Gregorius ann. 10, mens. 8, d. 24.
+                 <lb/>Zacharias ann. 10, mens. 3, d. 15. Iste restauravit monasterium sancti Benedicti. 
+                 <lb/>Stefanus sedit ann. 5, d. 29.
+                 <lb/>Paulus ann. 10, mens… 
+                 <lb/>Stefanus ann. 3, mens. 5, d. 27 (?).
+                 <lb/>Adrianus ann. 24, mens. 3, d. 27.
+                 <lb/>Leo ann. 20, mens. 10, d. 13.
+                 <lb/>Stefanus mens. 7. 
+                 <lb/>Paschalis ann. 7, d. 16.
+                 <lb/>Eugenius ann. 3, mens. 7, d. 22.
+                 <lb/>Valentinus mens. 1, d. 10.
+                 <lb/>Gregorius ann. 16.
+                 <lb/>Sergius ann. 3. [Sub isto Sergio depraedaverunt Saraceni ecclesiam sancti Petri].
+                 <lb/>Leo ann. 8, mens. 3, d. 7. [Iste Leo fecit castellum Sancti Petri et renovabit ecclesiam 
+                 <lb/>sancte Marie et ecclesiam sanctorum quattuor Coronatorum].
+                 <lb/>Benedictus ann. 2, mens. 6, d. 11. Nicolaus ann. 9, mens. 6, d. 13. Adrianus ann. 5.
+                 <lb/>Iohannes ann. 10. 
+                 <lb/>Marinus ann. 1, mens. 5.
+                 <lb/>Adrianus [Teanensis] ann. 1, mens. 4, d. 1. Iste Adrianus cecavit Georgium de
+                 <lb/>Abentinum et Mariam superistanam nudam per totam Romam fusticavit.
+                 <lb/>Stefanus ann. 6, d. 8.
+         
+             <pb n="484"/>
+         
+                 <lb/>Formosus ann. 4, mens. 6, d. 2.
+                 <lb/>Bonifatius d. 15.
+                 <lb/>Stefanus ann. 1, mens. 2.
+                 <lb/>Romanus mens. 3.
+                 <lb/>Theodorus mens. 1, d. 15. 
+                 <lb/>Iohannes ann. 2, d. 10.
+                 <lb/>Benedictus ann. 3 et mens. 10.
+                 <lb/>[Leo mens. 2.
+                 <lb/>Christophorus mens. 6].
+                 <lb/>Sergius [ann. 7, mens. (?)].
+                 <lb/>Anastasius [ann. 2, mens. (?)]. 
+                 <lb/>Lando [ann. 1 (?)], mens. (?). 
+                 <lb/>Iohannes [archiepiscopus Rabennatis eclesie, invitatus a primatibus Romane urbis, 
+                 <lb/>contra instituta canonum agens, Romane eclesie invasor factus, prefuit in ea annos
+                 <lb/>sedecim; quibus expletis, ab illis occulto Dei iudicio, tamen iusto, vivus depositus est].   
+                 <lb/>[Leo papa sedit menses 10.
+                 <lb/>Stephanus papa sedit].</p>
+         </div>
+         <div>
+             <head rend="align(center)">Imperatores Romani</head>
+             
+             <p n="24" xml:id="p24">
+                 <lb/>Augustus regnavit ann. 56.
+                 <lb/>Tiberius regn. ann. 23.
+                 <lb/>Gaius ann. 3, mens. 4.
+                 <lb/>Claudius ann. 13, mens. 8.
+                 <lb/>Nero ann. 13, mens. 7.
+                 <lb/>Galba mens. 7. 
+                 <lb/>Otho mens. 3.
+                 <lb/>Vitellius mens. 8.
+                 <lb/>Vespasianus ann. 10.
+                 <lb/>Titus ann. 2, mens. 2, d. 20.
+                 <lb/>Domitianus ann. 15.
+                 <lb/>Nerva mens. 16, d. 10.
+                 <lb/>Traianus ann. 20.
+                 <lb/>Adrianus ann. 22.
+                 <lb/>Antoninus ann. 23.
+                 <lb/>Marcus ann. 18.
+                 <lb/>Lu[cius] ann. 9.
+                 <lb/>Commodus ann. 13.
+                 <lb/>Helius ann. 6.
+                 <lb/>Iovianus mens. 2.
+                 <lb/>Septimus ann. 10.
+                 <lb/>Antoninus ann. 7, mens. 6.
+                 <lb/>Macrinus ann. 1.
+                 <lb/>Antoninus ann. 14.
+                 <lb/>Alexander ann. 14.
+                 <lb/>Maximus ann. 3.
+                 <lb/>Pompianus mens. 3.
+                 <lb/>Philippus et Philippus ann. 17. [Isti primi omnium inperatorum christiani in Roma 
+                 <lb/>facti sunt.
+                 <lb/>Decius ann. 1, mens. 3].
+         
+             <pb n="485"/>
+         
+                 <lb/>Gallus et Volusianus ann. 13.
+                 <lb/>Valerianus et Galienus filius ann. 15.
+                 <lb/>[Postumus annis 10].
+                 <lb/>Claudius ann. 1.
+                 <lb/>Quintillus dies 18.
+                 <lb/>Aurelianus ann. 5, mens. 6.
+                 <lb/>Tacitus mens. 6.
+                 <lb/>Florianus ann. 20.
+                 <lb/>Probus ann. 6, mens. 6.
+                 <lb/>Carus ann. 1.
+                 <lb/>Carinus Numerius ann. 2. Diocletianus ann. 20.
+                 <lb/>Maximianus ann. 18.
+                 <lb/>Constans pauper ann. 9.
+                 <lb/>Severinus ann. 15.
+                 <lb/>Maximinus ann. 19. 
+                 <lb/>Licinius ann. 17.
+                 <lb/>Maximus ann. 13.
+                 <lb/>Constantinus, filius Constantini, ann. 31.
+                 <lb/>Constantinus ann. 14.
+                 <lb/>Constantinus ann. 24.
+                 <lb/>Constans ann. 12.
+                 <lb/>Iulianus ann. 2.
+                 <lb/>Iovianus mens. 8.
+                 <lb/>Valentinianus ann. 13.
+                 <lb/>Valens cum Valentiniano, germano suo, ann. 13, m.
+                 <lb/>Gratianus [cum Valentiniano, fratre suo, ann. 6].
+                 <lb/>[Valentinus novus].
+                 <lb/>Theodosius [mag.] ann. 16.
+                 <lb/>[Arcadius cum fratre Honorio ann. 13.
+                 <lb/>Honorius ann. 15 cum Theodosio, nep. suo.
+                 <lb/>Theodosius minor, Arcadii filius, ann. 25].
+                 <lb/>Valentinianus ann. 28.
+                 <lb/>Marcianus ann. 6, mens. 5.
+                 <lb/>Avitus ann. 1, mens. 5.
+                 <lb/>Maurinus ann. 3.
+                 <lb/>Severus ann. 5.
+                 <lb/>Leo [mag. cum Leone parvo ann. 17].
+                 <lb/>Anthimus ann. 6.
+                 <lb/>Holibrius ann. 1.
+                 <lb/>Zeno ann. 17, mens. 2.
+                 <lb/>Anastasius ann. 27, mens. 4.
+                 <lb/>Iustinus [maior] ann. 29.
+                 <lb/>Iustin[ianus] ann. [39].
+                 <lb/>[Iustinus minor ann. 11].
+                 <lb/>Tiberius ann. 6, d. 2.
+                 <lb/>Mauricius ann. 20, d. 3.
+         
+             <pb n="486"/>
+         
+                 <lb/>Foca regn. ann. 7, mens. 10.
+                 <lb/>Heraclius ann. [31].
+                 <lb/>Heracleonas ann. 2.
+                 <lb/>[Constans, qui mortuus est in Occidente, ann. 7].
+                 <lb/>Constantinus, filius Heraclii, mens. 6.
+                 <lb/>Constantinus, filius Constantini, ann. 28.
+                 <lb/>Constantinus, filius Constantini superioris regis, ann. 17.
+                 <lb/>Iustinianus minor, filius Constantini, ann. 10.
+                 <lb/>Leo ann. 3.
+                 <lb/>Tiberius [qui et Absimarus ann. 7].
+                 <lb/>Iustinianus secundo cum Tiberio filio ann. 6.
+                 <lb/>Philippicus [qui et Bardanius ann. 2].
+                 <lb/>Anastasius [qui et Anthemius ann. 3].
+                 <lb/>Theodosius ann. 1.
+                 <lb/>Leo[n Ysabrus ann. 24.
+                 <lb/>Constantinus persecutor ann. 35.
+                 <lb/>Leon qui et Chazaris ann. 5. Iste Leo imperabat Romanis, quando Carolus rex 
+                 <lb/>Beneventum venit. Cuius tempore Grimoaldus princeps erat Beneventi.
+                 <lb/>Constantinus cum Irini, matre sua, ann. 10.
+                 <lb/>Constantinus solus ann. 7. Sub isto ceperunt Franci dominare Romanos.
+                 <lb/>Irini sola, mater Constantini, ann. 5.
+                 <lb/>Niciforus ann. 9.
+                 <lb/>Stauracius cum filio suo mens. 2.
+                 <lb/>Michahel Coropalatis ann. 2.
+                 <lb/>Leon ann. 7, et occisus est in ecclesia. Iste destruxit sanctas imagines et eiecit
+                 <lb/>Niciforum patriarcha.
+                 <lb/>Michahel alter ann. 9. Sarraceni Cretam et Siciliam ingressi sunt.
+                 <lb/>Ab inicio mundi usque in hoc tempore ann. sex milia trecenti 24.
+                 <lb/>Theofilus, filius eius, ann. 12. Michahel Porphyrogenitus cum matre sua ann. 14.
+                 <lb/>Michahel regn. ann. 12.
+                 <lb/>Basilius paracimomenus solus ann. 11. Cum Leone et Alexandro, filios suos, ann. 9.
+                 <lb/>Leo et Alexander cum supradictis 9 ann. regnaverunt ann. 35.
+                 <lb/>Constantinus, filius supradicti Leonis].</p>
+         </div>
+         <div>
+             <head rend="align(center)">Reges Langobardorum</head>
+             
+             <p n="25" xml:id="p25">
+                 <lb/>Alboin regn. ann. 3, mens. 6.
+                 <lb/>Cleb regn. ann. 5.
+                 <lb/>Auctari crinitus regn. ann. 8.
+                 <lb/>Agilulfus regn. ann. 25.
+                 <lb/>Adepaldus crinitus regn. ann. 10. Iste primus calciavit osam Particam.
+                 <lb/>Arioaldus regn. ann. 12.
+                 <lb/>Rottari regn. ann. 16, mens. 6.
+                 <lb/>Rodoaldus regn. mens. 4, d. 6.
+                 <lb/>Aripert regn. ann. 9.
+                 <lb/>Grimoald regn. ann. 9.
+                 <lb/>Bertarit regn. ann. 17.
+                 <lb/>Cunipert regn. ann. 10.
+         
+             <pb n="487"/>
+         
+                 <lb/>Liutpert regn. ann. 2, mens. 10.
+                 <lb/>Aripert alter regn. Ann. 12 (?)
+                 <lb/>Ansprant regn. mens. 3, d. 5.
+                 <lb/>Liutprand regn. ann. 30.
+                 <lb/>Hilprand regn. Mens. 8.
+                 <lb/>[Rachis rex Langobardorum, dimisso regno, ad beati Benedicti limina cum sua
+                 <lb/>uxore Tasia et Rottruda filia, uterque monachico abitu induti. Iste hic in Casino, illa
+                 <lb/>in Blombarolia vita finierunt. Et istius temporibus Carolus magnus regno dimisso et
+                 <lb/>monachus factus hic habitabit, et postea in Francia legatus pro rei publice a papa missus,
+                 <lb/>ibi vitam finivit; sed a fratre Pipino rege corpus eius in locello aureo misso atque in 
+                 <lb/>Monte Casino directo, ibi quiescit].
+                 <lb/>Aistolfus regn. ann. 5, mens. 6. Iste possedit Romam et appraehendit Ravenam.
+                 <lb/>Desiderius regn. ann. 18, mens. 2, dieb. 10. Capta est Papia civitas mense Iunio die 
+                 <lb/>Martis. In isto complentur reges 20.
+                 <lb/>A Zottone primo duce Beneventi usque ad quintum decimum annum Siconis 
+                 <lb/>sunt anni 272 temporibus Tiberii imperatoris, qui imperavit ann. 6.
+                 <lb/>Gisulfus prior dux Beneventi devastavit Campaniam, qui prefuit Samnitibus 
+                 <lb/>ann. 17. Ab isto Gisulfus usque ad alium Gisolfum iuniorem sunt ann. 53.
+                 <lb/>A Gisolfo iuniore usque ad quintum decimum annum Siconis sunt anni 84.
+                 <lb/>A beato Benedicto usque ad Gregorium papam sunt anni 78.
+                 <lb/>A Gregorio papa usque ad quintum decimus annum Siconis sunt anni 206.
+                 <lb/>Temporibus Iustini imperatoris maioris et Iustiniani fuit sanctus Benedictus sub
+                 <lb/>Iohanne papa. Eodem tempore Theodericus rex in Italia praefuit.</p>
+         </div>
+         <div>
+             <head rend="align(center)">Duces Beneventi</head>
+             
+             <p n="26" xml:id="p26">
+                 <lb rend="align(center)"/>Zotto sedit ann. 20.
+                 <lb/>Arichis sedit ann. 1, mens. 5. Iste dimicavit cum Sclavis ad Aufidum, et interfecerunt
+                 <lb/>illum per ingenium.
+                 <lb/>Radoaldus sedit ann. 5.
+                 <lb/>Grimoaldus sedit ann. 25.
+                 <lb/>Romoald, [filius eius], sedit ann. 16. Temporibus istius venit Constans imperator
+                 <lb/>super Beneventum et obsedit eam.
+                 <lb/>[Grimoaldus, filius eius, sedit annos 3.
+                 <lb/>Gisulfus maior, frater istius Grimoald, sedit ann. 17.
+                 <lb/>Romoaldus, flius istius Gisulfi, sedit annis 26.
+                 <lb/>Gisulfus puerulus, filius istius Romoaldi, dux factus, deportatus est Papiam a Lioprando
+                 <lb/>rege.
+                 <lb/>Gregorius, nepos Lioprandi, sedit ann. 3.
+                 <lb/>Godescalcus ann. 3.
+                 <lb/>Gisulfus supradictus puerulus revocatus in Benevento, dux ibi extitit].
+                 <lb/>Arechis sedit ann. 29, mens. 6. Iste primus appellatus est princeps, et fecit duo
+                 <lb/>palatia, unum in Benevento et alium in Salerno, et Sanctam Sofiam edificavit in Benevento.
+                 <lb/>Grimoaldus, filius eius, sedit annis [20. Huius temporibus venit Carolus rex Beneventi
+                 <lb/>provinciam].
+                 <lb/>Alter Grimoaldus sedit ann. 11, mens. 1, d. 10.
+                 <lb/>Sico sedit ann. 16, mens. 2:
+                 <lb/>Sicardus, filius eius, sedit ann. 6, mens. 10, [indict. 2].
+        
+             <pb n="488"/>
+         
+                 <lb/>Radelchis sedit ann. 14. Huius temporibus divisum est principatum Beneventanum 
+                 <lb/>inter Siconolfum et ipsum.
+                 <lb/>Radelgarius, filius eius, sedit ann. 9, mens. 3.
+                 <lb/>Adelchis, frater eius, sedit ann. 24, mens. 5.
+                 <lb/>Gaideris, filius supradicti Radelgarii, sedit ann. 2, mens. 6, d. 19.
+                 <lb/>Radelchis, filius supradicti Adelchis, sedit ann. 3, mens. 8, diebus 21.
+                 <lb/>Aio, frater eiusdem Radelchis, sedit ann. 6.
+                 <lb/>Ursus, filius predicti Aionis, puer decennis, sedit anno 1. Cuius tempore Sybbaticius
+                 <lb/>stratigos cum valida manu Grecorum venit Beneventum tertio ldus Iulii, obseditque 
+                 <lb/>eam usque quintum decimum Kalend. Novembriarum diem; quos benigne paciscens, 
+                 <lb/>in eam ipse ingressus est eodem die; completis trecentis triginta annis et aliquot mensibus
+                 <lb/>a Zottone primo duce Beneventi, quibus Langobardi primatum tenuere Beneventanae
+                 <lb/>provinciae.
+                 <lb/>Tribus denique annis novemque mensibus et diebus biginti dominatio Grecorun
+                 <lb/>tenuit Beneventum Samniique provinciam.
+                 <lb/>Postea vero [Liudo marchio], ann. 1 et mensibus octo expletis, postquam Greci
+                 <lb/>Benevento fuerant expulsi, in eadem ingressa est pridie Kalend. Aprilis [14 indict.]
+                 <lb/>et [postea imperatrix, mulier supradicti marchionis] nominatum Radelchis, fratrem
+                 <lb/>suum, Beneventano principatui restituit, qui fere duodecim annis ab eo fuerat expulsus;
+                 <lb/>et postea sedit annos 2 et [medium]; ind. erat 15.
+                 <lb/>Domnus Atenolfus sedit annos 2, mens…, indict. 13.
+                 <lb/>Domnus Landolfus et domnus Atenolfus, frater eius, filii supradicti Atenolfi, 
+                 <lb/>sedit annis 10.
+         
+                 <lb/>[Arechis sedit ann. 29, mens. 6. Iste primus appellatus est princeps, et fecit duo 
+                 <lb/>palatia, unum in Benevento et alium in Salerno. Et, ut refert Archempertus grammaticus 
+                 <lb/>in historia quam de Langobardorum gente composuit, quia iste iam supradictus 
+                 <lb/>Arechis infra moenia Beneventi templum Domino opulentissimum ac decentissimum condidit,
+                 <lb/>quod Greco vocabulo <foreign xml:lang="grc">AGHAN CUlFHAN</foreign>, id est sanctam sapientiam, nominavit; ditatumque
+                 <lb/>amplissimis prediis et variis opibus, sanctimonialium cenobium statuens, idque sub iure beati
+                 <lb/>Benedicti tradidit in perpetuum permanendum. Pari etiam modo in territorio Alifano predictus
+                 <lb/>Deo amabilis vir ecclesiam in honore domini Salvatoris construxit, puellare coenobium 
+                 <lb/>instituit atque dicioni sanctissimi Vincentii martyris subdidit.
+                 <lb/>[Primo anno principatus Grimoaldi, qui post Arechis principem extitit princeps, 
+                 <lb/>venit Carolus rex Beneventum. Et a tempore eiusdem Carolis usque ad tertium decimum 
+                 <lb/>annum principatus domni Landolfi principis sunt anni 142, temporibus Adriani
+                 <lb/>papae, qui fuit successor Stefani papae quinti (?)].</p>
+         </div>
+         
+     </div>
+     </body>
+    </text>
+</TEI>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>Historia Langobardorum Florentina</title>
+        <author>Anonimo</author>
+        <respStmt>
+        	<resp key="print_editor">Edizione critica a stampa a cura di</resp>
+          <name>G. Waitz</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+          <name key="AA">Arianna Agresti</name>
+        </respStmt>
+      </titleStmt>
+
+      <extent>
+        <measure quantity="1728" unit="words">Parole: 1728</measure>
+        <measure quantity="10154" unit="characters_without_spaces">Caratteri (spazi esclusi): 10154</measure>
+      </extent>
+
+      <publicationStmt>
+        <publisher>
+          <ref target="http://alim.unisi.it/">ALIM</ref>
+        </publisher>
+      	<date when="2017-11-17">17/11/2017</date>
+        <availability>
+          <p>Copyright 2006- progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+				<biblStruct>
+					<monogr>
+						<author>George Waitz, Oswald Holder-Egger, Agnello Ravennate, Ambrogio Autperto, Papa Gregorio I,
+							Erchemperto, Andrea da Bergamo, Paolo Diacono</author>
+						<title>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</title>
+						<editor>G.Waitz</editor>
+						<imprint>
+							<pubPlace>Hannover: Impensis Bibliopolii Hahniani</pubPlace>
+							<publisher>Societas Aperiendis Fontibus Rerum Germanicarum Medii Aevi</publisher>
+							<date>1878</date>
+						</imprint>
+					</monogr>
+					<series>
+						<title level="s">Monumenta Germaniae Historica, Scriptores, Sezione III</title>
+						<biblScope unit="vol">1</biblScope>
+					</series>
+				</biblStruct>
+      	<bibl>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+    
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+            <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+              fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+              resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+              stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+          </list>
+        </ab>
+        <ab type="level">ALIM2_2</ab>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="genre">Storiografia</term>
+        </keywords>
+      </textClass>
+      <creation>
+      	<date when-iso="1201/1300">XIII secolo</date>
+      </creation>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2017-11" who="AA">Prima trascrizione nel formato TEI P5 [livello ALIM2_1]</change>
+    </revisionDesc>
+
+  </teiHeader>
+ 
+  <text>
+    <body>
+		<div>
+			<pb n="599"/>
+			<head type="main">Historia Langobardorum Florentina</head>
+			<head>Brevis hystoria regum Longobardorum.</head>
+
+			<p>
+					<lb/>Germania provincia est in occidentali parte per septentrionalem plagam versus
+					<lb/>orientem protensa, a septemtrione habent occeanum mare, a meridie mare Ponticum
+					<lb/>atque Danubium, ab oriente flumen Thanay<note n="a" type="critical">Thanaym <hi rend="italic">Thom</hi>.</note>, qui de Rifeis montibus descendens paludes
+					<lb/>Meothidas facit, ab occidente vero Rheno flumine<note n="b" type="critical">fluvio <hi rend="italic">Th</hi>.</note> terminatur. Continet autem in
+					<lb/>se multas et magnas provincias, tam in terra firma quam in insulis in se contentis.
+					<lb/>Nam in terra firma sunt hee, videlicet Saxonia, Frixia, Suevia, Franconia, Bavaria,
+					<lb/>Austria, Boemia, Polonia, Gothya et Pannonia. Insule vero Dacia, Norvegia, Scandana
+					<lb/>vel Scandinaria. Hec insula a<note n="c" type="critical">in <hi rend="italic">Th</hi>.</note> septentrionali plaga in occeano posita sepe tanta habitatorum
+					<lb/>frequentia repleta est, ut necesse fuerit aliquando habitatores exire ad sibi querendam
+					<lb/>habitationem. Quodam vero tempore sortibus evenit, ut duo nobiles principes
+					<lb/>emicterentur cum multitudine iuvenum virorum fortium atque mulierum, ut sibi terram
+					<lb/>ad habitandum perquirerent. Quorum mater nomine Gambara<note n="d" type="critical"><hi rend="italic">ita
+						Th.;</hi> Garabar <hi rend="italic">c</hi>.</note>, magna prudentia predita,
+					<lb/>filios sequi decrevit, plus filiorum utilitati in hoc consulere credens quam sue senili
+					<lb/>etati. Egressi igitur de Scandinaria, nationes finitimas satis pacifice et innocenter transibant,
+					<lb/>pretio<note n="e" type="critical">pretio-sinebant <hi rend="italic">des. Th</hi>.</note> necessaria ab eis
+				    ementes; qui eos pacifice transire sinebant. Cumque ad
+					<lb/>Wandalorum fines venissent, Wandali non solum non<note n="f" type="critical"><hi rend="italic">deest
+						c.</hi></note> trasire permictebant, set sue
+					<lb/>servituti subdere voluerunt. Cumque viderent se in arto positos, quia redire facile non
+					<lb/>erat et procedere eis impossibile videretur<note n="g" type="critical">videbatur
+						<hi rend="italic">Th.</hi></note>, cum inde<note n="h" type="critical">ingens m. <hi rend="italic">c.</hi></note>
+				    gens maior se et crudelior
+					<lb/>obsistere videbatur<note n="i" type="critical">obsisteret <hi rend="italic">Th.</hi></note>: consilio matris
+				    accesserunt ad quendam nomine Godan, qui tante
+					<lb/>fame erat, ut sive magica arte sive spiritu prophetie futura predicere diceretur, et cui
+					<lb/>benedicebat<note n="k" type="critical">benediceret <hi rend="italic">Th.</hi></note>, benedictum, et cui
+				    maledicebat<note n="l" type="critical">malediceret <hi rend="italic">Th.</hi></note>, maledictum se reputaret.
+				    Cumque ad
+					<lb/>partes eius venissent, nolebat eis responsum dare. Gombarei ergo muneribus uxorem
+					<lb/>Godan aggressi<note n="m" type="critical">hoc <hi rend="italic">add. Th.</hi></note>, ab ea consilium
+				    acceperunt, ut summo mane sint in campo ante turrim
+					<lb/>in qua Godan morabatur, et quia imberbes videre odiebat, mulieres ad menta capillos
+					<lb/>flecterent, mares vero caudas vaccarum et vellera ovium pro barbis sibi appenderent, ut
+					<lb/>sic omnes barbati viderentur. Inde<note n="n" type="critical">In mane <hi rend="italic">Th.</hi></note> ergo
+				    ab uxore ad fenestram sui palatii Godan
+					<lb/>adducitur, adstantesque in campo intuens , ait: <said rend="PRE(') POST(')">Qui sunt isti Longobardi</said>? Tunc uxor
+					<lb/>intulit: <said rend="PRE(') POST(')">Rogo<note n="o" type="critical">obsecro <hi rend="italic">Th.</hi></note>, ut quibus dedisti nomen,
+				    dones<note n="p" type="critical">des <hi rend="italic">Th.</hi></note> victoriam et benedictionem</said>. Tunc ipse
+					<lb/>subdidit: <said rend="PRE(') POST(')">Sint victores hostium suorum</said>! Et extune qui Hunni dicebantur vocati sunt
+					<lb/>Longobardi; nam<note n="q" type="critical">nam longo lunga et barba barba eorum ydeomate dicebantur <hi rend="italic">Th.</hi></note> barda eorum lingua barbam sonat<note n="1"><hi rend="italic">Jacobus de Voragine narrat:</hi> Albinus...Ytaliam intravit. Erat autem eis consuetudo longas valde barbas portare. Unde dum quadam vice, ut aiunt, exploratores ad eos venire deberent, precepit Albinus, ut omnes mulieres solutos crines circa mentum ducerent, ut barbati homines ab exploratoribus crederentur, et inde Longobardi [a longis barbis] postmodum sunt vocati. Barba enimm in eorum lingua barda (barban <hi rend="italic">ed.;</hi> barda-barba <hi rend="italic">Ultr., ubi sequentia desunt</hi>) sonabat. Alii dicunt, quod, cum Winnuli eum Wandalis pugnaturi essent et ad quendam qui habebat spiritum prophetie accessissent, ut pro eorum victoria exoraret et eis benediceret, de consilio uxoris iuxta fenestram, in qua mane ad orientem orabat, se posuerunt et</note>. Huius igitur<note n="r" type="critical">Huiusmodi <hi rend="italic">Th.</hi></note> vaticinio confortati,
+					<lb/>ad transitum audacter se preparant, mandantque Vandalis, aut cedere aut ad pugnam
+
+		<pb n="600"/>
+
+					<lb/>se preparare. Acta itaque pugna, Longobardi victores existunt, incutiturque terror in
+					<lb/>omnium<note n="a" type="critical">terror eorum cunctis circumiacent. reg. <hi rend="italic">Th.</hi></note>
+				    circumadiacentibus regionibus. Et tandem per diversos terrarum transitus<note n="b" type="critical"><hi rend="italic">deest Th.</hi></note>
+					<lb/>in Ungariam devenerunt. Suscipiuntur pacifice ab Ungaris<note n="c" type="critical">Et hoc pacto eis P.
+						assignatus, ut, si rem. <hi rend="italic">Th.</hi></note> hoc pacto, ut eis Pannonia
+					<lb/>assignetur, et si remanere voluerint, fratres et sotii extimentur; si vero ad aliam terram
+					<lb/>se transtulerint, sine contentione Pannonia in potestate Ungarorum remaneat. Sicque
+					<lb/>ibi habitaverunt annis quadraginta, videlicet usque ad tempus imperatoris qui Iustinus
+					<lb/>iunior dictus est.
+		  </p>
+
+			<p>
+					<lb/>Huius uxor imperatoris Sophia occasionem dedit Narsiti<note n="d" type="critical">Narciso
+						<hi rend="italic">Th.</hi></note> patritio, qui fuerat defensor
+					<lb/>imperii in Italia maxime<note n="e" type="critical">maxime - peremerat <hi rend="italic">des. Th.</hi></note>
+				    contra Totylam<note n="1">Narses vir quidam nobilis et strennuus, qui contra Gothos, qui totam Italiam invaserant,
+				    procedens, ipsos superavit et regem eorum Attilam flagellum Dei occidit et universam Ytaliam placatam reddidit.
+				    <hi rend="italic">Epit. Ultraj.</hi></note>, quem exercitu suo peremerat, ut fieret
+					<lb/>proditor; prout<note n="f" type="critical">Qualiter autem hoc contigerit, plene narratum est in gestis Iustini
+						imper. <hi rend="italic">Th.</hi></note> hec in gestis Iustini imperatoris continentur<note n="2"><hi rend="italic">Ita fortasse Thomas.</hi></note>. Narsites<note n="g" type="critical">Narsissis <hi rend="italic">Th.</hi></note> igitur per
+					<lb/>Sophyam imperatori suspectus effectus, Albuinum tunc Longobardorum regem in Pannonia
+					<lb/>commorantem invitat, cum tota gente in Italia venire. Albuinus non piger principum
+					<lb/>suorum consilio exercitum preparat, et se festinanter, deserta Pannonia, per
+					<lb/>Bavariam et Forum Iulii Italiam intrare festinat. Set in ipso introitu cum<note n="h" type="critical">rege
+						<hi rend="italic">add. c.</hi></note> Bavarorum
+					<lb/>exercitu ipsorum regem occidit. Cuius filius renovato exercitu iterum cum Albuino
+					<lb/>pugnans, devictus et ab eo occisus est. Filia quoque regis Rosimunda nomine ab
+					<lb/>Albuino captiva<note n="i" type="critical">captivata <hi rend="italic">Th.</hi></note> tandem in uxorem
+				    assumitur. De craneo capitis regis Bavarorum Albuinus
+					<lb/>cuppam<note n="k" type="critical">cupam <hi rend="italic">Th.</hi></note> fecit, quam argento et auro conclusit, et in festis in eo<note n="l" type="critical">ea <hi rend="italic">Th.</hi></note> bibebat. Devictis
+					<lb/>igitur principibus qui ei in introitu resistebant, septem<note n="m" type="critical">brevi tempore id est s.
+						<hi rend="italic">Th.</hi></note> mensibus totam terram ceperunt,
+					<lb/>que inter Abduam flumen et Padum continetur, id est Tervisium, Vicentiam, Veronam,
+					<lb/>Brixiam, Pergamum, Cremonam. Padua vero et Mons Silicis et Mantua diutius resisterunt.
+					<lb/>Ad Papiam vero Albuinus veniens, tribus annis eam obsedit. Quidam autem
+					<lb/>dyaconus ecclesiae Papiensis nomine Tommas, viribus fortis et corpore grandis, ad singulare
+					<lb/>certamen Albuinum<note n="n" type="critical"><hi rend="italic">deest c.</hi></note> provocat, si forte vincendo civitatem a tanto excidio<note n="o" type="critical">incendio <hi rend="italic">c.</hi></note> liberaret.
+					<lb/>At Albuinus ignorans, quod pugnaturus clericus esset, audacter exiit ad pugnam.
+					<lb/>Cumque diu pugnatum esset, Tommas vincitur, et inventus quod clericus esset decapitatur<note n="3"><hi rend="italic">Cf. Paul.</hi> V, 40. 38.</note>.
+					<lb/>Et indignans Albuinus, quod sibi clericum obvium transmisissent, iuravit, quod, si civitatem
+					<lb/>caperet, omnes habitatores in ore gladii feriret et de testiculis clericorum puteum
+					<lb/>impleret. Civitas tandem per famem ad deditionem cogitur. Cumque rex civitatem
+					<lb/>intraret, equs eius in porta genua fixit, et cum calcaribus diutius urgeretur, se movere
+					<lb/>non potuit; donec quidam christianus regem admonuit, quod<note n="p" type="critical">ut <hi rend="italic">Th.</hi></note> votum pie revocaret, quod
+					<lb/>impie in furore emisisset. Tunc rex iuramentum retractavit et statim feliciter civitatem
+					<lb/>intravit ipsamque regni Longobardorum caput instituit. Brevi autem tempore regnum<note n="q" type="critical">r. ampliavit <hi rend="italic">Th.</hi></note>
+					<lb/>eius ita ampliatum est, ut totam fere Italiam<note n="4"><hi rend="italic">Jacobus de Voragine narrat:</hi> Mediolanum ergo Longobardi ingressi, totam pene Ytaliam intra breve temporis spatium subiugarunt preter Romam et Romaniolam (Romagniolam <hi rend="italic">ed.; et ita post</hi>), que Romandola est vocata quasi altera Roma, ex eo scilicet quod Rome semper adhesisset.</note> possideret, a Papia usque Beneventum,
+					<lb/>preter Ravennam, Romam, Romandiolam, que sic appellata est quasi altera Roma, eo
+					<lb/>quod sic fideliter Romano adhesit imperio, ut ab eo nequiverit separari. Prius enim
+
+			<pb n="601"/>
+
+				  <lb/>Pentapolis dicebatur. Rex autem Albuinus victoria clarus<note n="a" type="critical">elatus <hi rend="italic">Th.</hi></note> principes per Longobardiam
+					<lb/>instituit, Veroneque regalem curiam convocans, celebre convivium ordinavit, in quo
+					<lb/>scyphum de capite regis Bavarorum, quem confici fecerat, apportari iussit, bibitque cum
+					<lb/>eo, et Rosimundam bibere cum eo fecit, dicens: <said rend="PRE(') POST(')">Bibe cum patre tuo</said><note n="1"><hi rend="italic">Jacobus de Voragine</hi>: Cum igitur rex Albinus Verone esset et quoddam magnum convivium preparasset, et seyphum suum, quem de capite regis fecerat, afferri faciens, ex eo bibit et uxorem suam nomine Rosymundam de eo bibere fecit, dicens: <said rend="PRE(') POST(')">Bibe cum patre tuo</said>. Quod cum Rosimunda didicisset, odium magnum contra regem cepit.</note>. At illa factum
+					<lb/>sapienter dissimulans, altum contra eum odium in corde concepit. Eratque tunc in
+					<lb/>curia dux regi<note n="b" type="critical">regis <hi rend="italic">Th.</hi></note> valde dilectus nomine Sperendeus, viribus fortis et animo audax. Hic
+					<lb/>amabat quandam regine pedissequam et non ignorante regina cum ea dormiebat.
+					<lb/>Absente rege regina pedisseque se credidit et lectum eius nocte sibi concedi rogavit,
+					<lb/>et nomine pedisseque Sperendeus evocatus advenit, in silentio pedisseque cubiculum
+					<lb/>ingressus, regine carnaliter commixtus est, credens eam esse pedissequam. At regina post
+					<lb/>factum se manifestat, inquiens Sperendeo: <said rend="PRE(') POST(')">Talem rem perpetrasti, quod aut Albuinum
+					<lb/>occides aut Albuini gladio interibis</said>. At ille se inde in arto positum videns, sceleri
+					<lb/>consensit<note n="2"><hi rend="italic">Jacobus de Voragine:</hi> Cui cum ille non acquiesceret, alium tamen se invenire compromisit, qui hoc negotium perpetraret.</note>. Illa ergo diem observans negotio aptum<note n="c'" type="critical">actum <hi rend="italic">c. Th.?</hi></note>, ensem quem Albuinus tenebat ad
+					<lb/>lectum, ne evaginari posset, cum capulo fortiter ligavit. Dum ergo in stratu dormiret rex,
+					<lb/>homicida venit<note n="c" type="critical">intravit <hi rend="italic">Th.</hi></note>. Set rex sentiens ad ensem<note n="d" type="critical">spatham <hi rend="italic">Th.</hi></note> manum convertit; set cum evaginare non
+					<lb/>posset, ad scabellum suppedaneum se convertit et cum eo aliquamdiu se defendit; set
+					<lb/>prevalens qui armatus erat eum occidit. Accipiensque omnes regis thesauros qui ibi
+					<lb/>erant, cum Rosimunda Ravennam aufugit, que Longobardis subiecta non erat. Ubi<note n="3"><hi rend="italic">Jacobus:</hi> Sed cum Rosimunda quendam iuvenem pulcherrimum, prefectum scilicet Ravenne, vidisset, ipsum in virum habere desiderans, venenum viro in calice propinavit. Cuius amaritudinem ipse presentiens, iubet uxori, ut residuum biberet. Quod eum recusaret, coegit (ille evaginato gladio eam ibi bibere coegit <hi rend="italic">Ultr.</hi>); et sic ambo ibidem perierunt.</note>
+					<lb/>cum Rosimunda iuvenem pulcherrimum urbis prefectum videret<note n="e" type="critical">vidisset <hi rend="italic">Th.</hi></note>, in eum oculos iniecit,
+					<lb/>ei nubere desiderans. Sperendeo quadam vice in calice venenum propinat; quo non
+					<lb/>ad plenum ebibito, presentiens veneni malitiam, Rosimunde gladio necem minans bibere
+					<lb/>coegit. Et sic uterque, adulter et homicida, ibidem pariter mortui sunt.
+			</p>
+			
+			<p>
+					<lb/>Intèrfecto<note n="f" type="critical">Interfecto A. qui in Pannonia regnaverat super L. et in Ytalie finibus <hi rend="italic">Th.</hi></note> Albuino, qui super Longobardos regnaverat in Italie finibus 3 annis,
+					<lb/>mensibus 6, alibi annis pluribus, duces Longobardorum regnum tenuerunt<note n="4"><hi rend="italic">Jacobus et Historia Ultraj. de regibus Adaloald et Agisulfo et Theodelina regina referunt.</hi> Que, <hi rend="italic">inquiunt</hi>, virum suum nomine Agisulfum ... ad fidem convertit (et) cum Romano imperio et ecclesia cum pacem habere fecit. Sicque in festo Gervasii et Prothasii (<hi rend="italic">Jun.</hi> 19) facta est pax inter Romanos et Longobardos. Et ideo Gregorius in eodem festo cantare instituit in officio misse: <said rend="PRE(') POST(')">Loquetur Dominus pacem</said> <hi rend="italic">etc.</hi> In nativatate quoque sancti Iohannis baptiste (<hi rend="italic">Jun.</hi> 24) predictorum pax et conversio amplius confirmata fuit.</note> post obitum
+					<lb/>eius annis 10. Post quos regnavit Rothari annis 17. Grimaldus<note n="g" type="critical">Gerimoaldus
+						<hi rend="italic">Th.</hi></note> rex annis 8. Gertarith
+					<lb/>et Lupertus, filius Limpert, annis 2. Ampertus, filius Thagiperti, annis 11. Usimprandus
+					<lb/>annis 3. Luyprandus, filius eius, annis 33. Ulprandus mensibus 9. Papis,
+					<lb/>filius Panommii, annis 5. Astulphus, filius Rachis, annis 8. Desiderius post eum annis 17
+					<lb/>cum filio; quem Carolus Magnus de regno eiecit ad instantiam pape, et terras ecclesie
+					<lb/>restituit, et Desiderium cathenatum Parisius duxit, et ibi in carceribus mortuus est.
+					<lb/>Fuerunt ergo reges Longobardorum 15, qui regnaverunt annis 148. Quorum gesta si
+					<lb/>quis scire voluerit, hystoriam legat Longobardorum.
+				</p>
+
+		</div>
+	</body>
+  </text>
+</TEI>

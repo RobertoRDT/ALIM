@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Origo Gentis Langobardorum</title>
+                <author>Anonimo</author>
+                <respStmt>   
+                    <resp key="print_editor">Edizione critica a stampa a cura di</resp>
+                    <name>Georg Waitz</name>
+                </respStmt>
+                <respStmt>                    
+                    <resp key="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+                    <name key="CDM">Chiara De Martin</name>
+                </respStmt>
+            </titleStmt>
+            
+            <extent>
+                <!-- È necessario uno script per rifare i conteggi in maniera affidabile in ALIM2. Sostituire i numeri con quelli corretti -->
+                <measure quantity="159530" unit="words">Parole: 159530</measure>
+                <measure quantity="941396" unit="characters_without_spaces">Caratteri (spazi esclusi): 941396</measure>
+            </extent>
+            
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://alim.unisi.it/">ALIM</ref>
+                </publisher>
+                <date when="2017-06-04">4/06/2017</date>
+                <availability>
+                    <p>Copyright 2006 - progetto ALIM</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Anonimo</author>
+                        <title>Origo Gentis Langobardorum</title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Monumenta Germaniae Historica. Scriptores rerum Langobardicarum et Italicarum saec VI-IX</title>
+                        <imprint>
+                            <pubPlace>Hannover</pubPlace>
+                            <publisher>Hannover: Impensis bibliopoli Hahniani</publisher>
+                            <date>1878</date>
+                            <biblScope unit="pages">1-6</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>      
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+                    ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+                    <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+                        precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+                        fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+                        resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+                        stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+                </list>
+                </ab>
+                <ab type="level">ALIM2_2</ab>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">Latino</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form">Prosa</term>
+                    <term type="source">Documentaria</term>
+                    <term type="genre">Storiografia</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when-iso="601/700">VII secolo</date>
+            </creation>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2020-02-03" who="PM">Revisione del markup da parte dell'équipe di codifica.
+                Corretti alcuni <gi>quote</gi> in <gi>said</gi> perché si tratta di discorso diretto, non
+                di citazioni da altri testi (vd. par. 3.2 Livello 2 [livello medio] / sottoparagrafo 3.2.2 Elementi
+                del manuale di codifica).</change>
+            <change when="2017-06" who="CDM">Prima trascrizione nel formato TEI P5 [livello ALIM2_2]</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+                   <pb n="2"/>
+            
+            <div>
+                <head rend="align(center) small-caps">IN NOMINE DOMINI INCIPIT ORIGO GENTIS LANGOBARDORUM.</head>
+
+                   <p n="1" xml:id="p1">Est insula qui dicitur Scadanan, quod interpretatur excidia, in partibus aquilonis,
+                       <lb/>ubi multae gentes habitant; inter quos erat gens parva quae Winnilis vocabatur. 
+                       <lb/>Et erat cum eis mulier nomine Gambara, habebatque duos filios, nomen uni 
+                       <lb/>Ybor et nomen alteri Agio; ipsi cum matre sua nomine Gambara principatum tenebant
+                       <lb/>super Winniles. Moverunt se ergo duces Wandalorum, id est Ambri et 
+                       <lb/>Assi, cum exercitu suo, et dicebant ad Winniles: <said rend="PRE lsquo POST rsquo">Aut solvite nobis tributa, aut
+                       <lb/>praeparate vos ad pugnam et pugnate nobiscum.</said> Tunc responderunt Ybor et Agio
+                       <lb/>cum matre sua Gambara: <said rend="PRE lsquo POST rsquo">Melius est nobis pugnam praeparare, quam Wandalis
+                       <lb/>tributa persolvere.</said> Tunc Ambri et Assi, hoc est duces Wandalorum, rogaverunt Godan,
+                       <lb/>ut daret eis super Winniles victoriam. Respondit Godan dicens: <said rend="PRE lsquo POST rsquo">Quos sol surgente 
+                       <lb/>antea videro, ipsis dabo victoriam.</said> Eo tempore Gambara cum duobus filiis suis, id
+                       <lb/>est Ybor et Agio, qui principes erant super Winniles, rogaverunt Fream, [uxorem
+                       <lb/>Godam], ut ad Winniles esset propitia. Tunc Frea dedit consilium, ut sol surgente
+                       <lb/>venirent Winniles et mulieres eorum crines solutae circa faciem in similitudinem barbae
+                       <lb/>et cum viris suis venirent. Tunc luciscente sol dum surgeret, giravit Frea, uxor 
+                       
+                   <pb n="3"/>
+                       
+                       <lb/>Godan, lectum ubi recumbebat vir eius, et fecit faciem eius contra orientem, et excitavit
+                       <lb/>eum. Et ille aspiciens vidit Winniles et mulieres ipsorum habentes crines solutas
+                       <lb/>circa faciem; et ait: <said rend="PRE lsquo POST rsquo">Qui sunt isti longibarbae?</said> Et dixit Frea ad Godan: <said rend="PRE lsquo POST rsquo">Sicut
+                       <lb/>dedisti nomen, da illis et victoriam.</said> Et dedit eis victoriam, ut ubi visum esset vindicarent
+                       <lb/>se et victoriam haberent. Ab illo tempore Winnilis Langobardi vocati sunt.</p>
+            
+                   <p n="2" xml:id="p2">Et moverunt se exhinde Langobardi, et venerunt in Golaidam, et postea
+                       <lb/>possiderunt aldonus Anthaib et Bainaib seu et Burgundaib; et dicitur, quia fecerunt 
+                       <lb/>sibi regem nomine aAgilmund, filium Agioni, ex genere Gugingus. Et post ipsum
+                       <lb/>regnavit Laiamicho ex genere Gugingus. Et post ipsum regnavit Lethuc, et 
+                       <lb/>dicitur, quia regnasset annos plus minus quadraginta. Et post ipsum regnavit Aldihoc,
+                       <lb/>filius Lethuc. Et post ipsum regnavit Godehoc.</p>
+            
+                   <p n="3" xml:id="p3">Illo tempore exivit rex Audoachari de Ravenna cum exercitu Alanorum, 
+                       <lb/>et venit in Rugilanda et inpugnavit Rugos, et occidit Theuvane regem Rugorum, 
+                       <lb/>secumque multos captivos duxit in Italiam. Tunc exierunt Langobardi de suis regionibus,
+                       <lb/>et habitaverunt in Rugilanda annos aliquantos.</p>
+            
+                   <p n="4" xml:id="p4">Post eum regnavit Claffo, filius Godehoc. Et post ipsum regnavit Tato,
+                       <lb/>filius Claffoni. Sederunt Langobardi in campis Feld annos tres. Pugnavit Tato 
+                       <lb/>cum Rodolfo rege Herulorum, et occidit eum, tulit vando ipsius et capsidem. Post
+                       <lb/>eum Heruli regnum non habuerunt. Et occidit Wacho, filius Unichis, Tatonem 
+                       <lb/>regem barbanem suum cum Zuchilone. Et pugnavit Wacho, et pugnavit Ildichis, 
+                       <lb/>filius Tatoni, et fugit Ildichis ad Gippidos, ubi mortuus est. Iniuria vindicanda
+                       <lb/>Gippidi scandalum commiserunt cum Langobardis. Eo tempore inclinavit Wacho
+                       
+                   <pb n="4"/>
+                       
+                       <lb/>Suavos sub regno Langobardorum. Wacho habuit uxores tres: Raicundam, filia 
+                       <lb/>Fisud regis Turingorum; et postea accepit uxorem Austrigusa, filiam Gippidorum;
+                       <lb/>et habuit Wacho de Austrigusa filias duas, nomen unae Wisigarda, quam tradidit 
+                       <lb/>in matrimonium Theudiperti regis Francorum; et nomen secundae Walderada, quam
+                       <lb/>habuit uxorem Scusuald rex Francorum, quam odio habens, tradidit eam Garipald 
+                       <lb/>in uxorem. Filia regis Herulorum tertiam uxorem habuit nomen Silinga; de ipsa
+                       <lb/>habuit filium nomine Waltari. Mortuus est Wacho, et regnavit filius ipsius Waltari
+                       <lb/>annos septem; farigaidus: isti omnes Lethinges fuerunt.</p>
+            
+                   <p n="5" xml:id="p5">Et post Waltari regnavit Auduin; ipse adduxit Langobardos in Pannonia.
+                       <lb/>Et regnavit Albuin, filius ipsius, post eum, cui mater est Rodelenda. Eo tempore
+                       <lb/>pugnavit Albuin cum rege Gippidorum nomine Cunimund, et mortuus est Cunimund
+                       <lb/>in ipsa pugna, et debellati sunt Gippidis. Tulit Albuin uxore Rosemunda, filia Cunimundi,
+                       <lb/>quae praedaverat, quia iam mortua fuerat uxor ipsius Flutsuinda, quae fuit
+                       <lb/>filia Flothario regis Francorum; de qua habuit filia nomine Albsuinda. Et habitaverunt 
+                       <lb/>Langobardi in Pannonia annis quadraginta duo. Ipse Albuin adduxit Langobardos
+                       <lb/>in Italia, invitatos a Narsete scribarum; et movit Albuin rex Langobardorum
+                       <lb/>de Pannonia mense Aprilis a pascha indictione prima. Secunda vero 
+                       <lb/>indictione coeperunt praedare in Italia. Tertia autem indictione factus est dominus
+                       <lb/>Italiae. Regnavit Albuin in Italia annos tres, et occisus est in Verona in palatio ab 
+                       
+                   <pb n="5"/>
+                       
+                       <lb/>Hilmichis et Rosemunda uxore sua per consilium Peritheo. Voluit regnare Hilmichis,
+                       <lb/>et non potuit, quia volebant eum Langobardi occidere. Tunc mandavit Rosemunda
+                       <lb/>ad Longinum praefectum, ut eam reciperet Ravenna. Mox ut audivit 
+                       <lb/>Longinus, gavisus est, misit navem angarialem, et tulerunt Rosemunda et Hilmichis
+                       <lb/>et Albsuindam, filia Albuin regis, et omnes thesauros Langobardorum secum duxerunt
+                       <lb/>in Ravenna. Tunc ortare coepit Longinus praefectus Rosemunda, ut occideret Hilmichis
+                       <lb/>et esset uxor Longini. Audito consilium ipsius, temperavit venenum, et post 
+                       <lb/>valneum dedit ei in caldo bibere. Cumque bibisset Hilmichis, intellexit, quod
+                       <lb/>malignum bibisset; praecepit, ut ipsa Rosemunda biberet invita; et mortui sunt
+                       <lb/>ambo. Tunc Longinus praefectus tulit thesauros Langobardorum, et Albsuinda, filia
+                       <lb/>Albuin regis, iussit ponere in navem et transmisit eam Constantinopolim ad 
+                       <lb/>imperatorem.</p>
+                       
+                   <p n="6" xml:id="p6">Reliqui Langobardi levaverunt sibi regem nomine Cleph de Beleos, et regnavit
+                       <lb/>Cleph annos duos, et mortuus est. Et iudicaverunt duces Langobardorum annos
+                       <lb/>duodecim; posthaec levaverunt sibi regem nomine Autarine, filio Claffoni; et
+                       <lb/>accepit Autari uxorem Theudelenda, filia Garipald et Walderade de Baiuaria. Et
+                       <lb/>venit cum Theudelenda frater ipsius nomine Gundoald, et ordinavit eum Autari rex
+                       <lb/>ducem in civitatem Astense. Et regnavit Autari annos septem. Et exivit Acquo 
+                       <lb/>dux Turingus de Thaurinis, et iunxit se Theudelendae reginae, et factus est rex 
+                       <lb/>Langobardorum; et occidit duces revelles suos, Zangrolf de Verona, Mimulf de
+                       <lb/>insula Sancti Juliani et Gaidulf de Bergamum, et alios qui revelles fuerunt; et 
+                       <lb/>genuit Acquo de Theodelenda filiam nomine Gunperga. Et regnavit Acquo annos VI. 
+                       <lb/>Et post ipso regnavit Aroal annos duodecim. Et post ipso regnavit Rothari ex genere
+                       <lb/>Arodus, et rupit civitatem vel castra Romanorum quae fuerunt circa litora
+                       
+                   <pb n="6"/>
+                       
+                       <lb/>apriso Lune usque in terra Francorum quam Ubitergium ad partem orienti, et 
+                       <lb/>pugnavit circa fluvium Scultenna, et ceciderunt a parte Romanorum octo milia 
+                       <lb/>numerus.</p>
+            
+                   <p n="7" xml:id="p7">Et regnavit Rothari annos decem et septem. Et post ipsum regnavit Aripert
+                       <lb/>annos novem. Et post ipsum regnavit Grimoald. Eo tempore exivit Constantinus 
+                       <lb/>imperator de Constantinopolim, et venit in partes Campaniae, et regressus est in Sicilia,
+                       <lb/>et occisus est a suis.
+                       <lb/>[Et regnavit Grimoald annos novem; et post regnavit Berthari.]</p>
+               
+            </div>
+        </body>
+    </text>
+</TEI>
+

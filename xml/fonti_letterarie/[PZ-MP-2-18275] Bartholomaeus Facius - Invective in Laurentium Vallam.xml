@@ -1,0 +1,2268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Invective in Laurentium Vallam</title>
+        <author>Bartholomaeus Facius</author>
+        <respStmt>
+          <resp>Edizione critica a stampa a cura di</resp>
+          <name>Ennio I. Rao</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_2">Edizione in formato TEI XML a cura di</resp>
+          <name key="MP">Martina Pavoni</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure quantity="18264" unit="words">Parole: 18264</measure>
+        <measure quantity="105804" unit="characters_without_spaces">Caratteri (spazi esclusi): 105804</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <ref target="http://alim.unisi.it/">ALIM</ref>
+        </publisher>
+        <date when="2019-04-28">28/04/2019</date>
+        <availability>
+          <p>Copyright 2019 - progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Bartholomaeus Facius</author>
+            <title>Invective in Laurentium Vallam</title>
+            <editor>Ennio I. Rao</editor>
+            <imprint>
+              <pubPlace>Napoli</pubPlace>
+              <publisher>Società Editrice Napoletana</publisher>
+              <date>1978</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list><item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+          precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+          fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+          resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+          stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item></list>
+        </ab>
+        <ab type="level">ALIM2_2</ab>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Letteraria</term>
+          <term type="genre">Invettiva</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date when-iso="1401/1500">XV secolo</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+        <change when="2019-04" who="PM">Revisione e interventi della Commissione caricamento testi: aggiornamento della codifica da livello 1 a livello 2 [livello ALIM2_2]. Versione 2.0 del file. Il file è pronto per essere caricato su portale. Interventi specifici:
+            <list>
+                <item>Ho aggiunto <gi>trailer</gi></item>
+                <item>Ho tolto @type="Invectiva" dai <gi>div</gi>. I valori di
+                    @type sono infatti limitati dal manuale di codifica ai seguenti valori:
+                    per i testi in prosa "book", "chapter", "paragraph";
+                    per i testi teatrali "act" o "scene".
+                    Nessuno di questi valori si adattava veramente all'opera. Dato che @type
+                    non è obbligatorio, ho omesso l'attributo del tutto.</item>
+                <item>Ho strasformato tutti gli
+                    <gi>emph rend ="italic"</gi> in
+                    <gi>distinct rend ="italic" type="ling"</gi>, dopo aver verificato
+                    che rientravano tutti in quella tipologia.
+                </item>
+            </list>
+        </change>
+        <change when="2019-02" who="MP">Invio del testo alla Commissione caricamento testi</change>
+        <change when="2018-08" who="MP">Aggiornamento della codifica da livello 0 a livello 1 [livello ALIM2_1]. Versione 1.0 del file</change>
+        <change when="2018-08" who="MP">Creazione in formato TEI P5 [livello ALIM2_0]</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="61"/>
+      <div n="1">         
+          <head>BARTHOLOMAEI FACII IN LAURENTIUM VALLAM <lb/>INVECTIVA PRIMA INCIPIT</head>                     
+          <p>
+            <lb/>Lingue tue petulantiam et maledicta, Laurenti, sepenumero 
+            <lb/>ridens preterii et equo animo ferenda duxi, modestie mee magis 
+            <lb/>quam maledicentie tue ratione habita, meque sustinui ad hunc 
+            <lb/>diem, ne quid omnino in te scriberem, quod mihi persuadebam 
+            <lb/>fore, ut ab ista insania ad sanitatem animum aliquando revocares. 
+            <lb/>Verum cum videam furorem tuum in dies augescere, nec maledictis 
+            <lb/>et obtrectationibus a te finem statui teque per contemptum 
+            <lb/>patientia mea abuti, vicit tandem constantiam meam temeritas 
+            <lb/>tua, ut me longius continere nequiverim, quin tibi meritas 
+            <lb/>gratias referam. Et sane nondum tela e pharetra mihi depromenda 
+            <lb/>existimassem, nisi tam impudenter coram inclito rege 
+            <lb/>nostro in tot clarissimorum procerum virorumque consessu te 
+            <lb/>locutum de me esse nuper accepissem; apud quos cum in Antonium 
+            <lb/>Panormitam, virum ingenio, doctrina et existimatione prestantem, 
+            <lb/>pro tua consuetudine invehereris acerbius et ille a te 
+            <lb/>lacessitus me forte nominasset, ea de me dicere non puduit, que 
+            <lb/>ne de indoctissimo quidem homine sine summo rubore quispiam 
+            <lb/>sanus diceret. Sed profecto regis causa minus graviter eam rem 
+            <lb/>tuli, qui pro sua summa sapientia ac singulari iudicio satis intelligit 
+            <lb/>quanti sis quantumve absis ab eo viro quem te facis. Ceterum 
+            <lb/>id fuit multo gravius ac molestius, quod illud persuadere 
+            <lb/>conatus sis aliis quibusdam qui aderant, qui propter parvam litterarum 
+            <pb n="62"/>
+            <lb/>scientiam non tam bene neque tam recte possunt de 
+            <lb/>hominum ingeniis ac scientia iudicare. A quibus nescio quomodo 
+            <lb/>suscepta est, te ipso de te predicante ac refellente nullo, falsa 
+            <lb/>quedam de te opinio, quam profecto, si quid erit in me in dicendo 
+            <lb/>facultatis, totam evertam atque eruam. Patefaciam igitur in 
+            <lb/>primis tuam litterarum ignorantiam, et quidem manifestissimis 
+            <lb/>argumentis rebusque a te scriptis convincam nec rhetorem esse 
+            <lb/>te, nec certe grammaticum. Quod est multo vitiosius in eo homine 
+            <lb/>qui sublimiorum rerum atque artium studia consectetur; 
+            <lb/>ut posthac fallere indoctos homines ista futili vaniloquentia et 
+            <lb/>loquacitate desinas, ac probos homines insectari. Post id aliqua 
+            <lb/>de moribus tuis perstringam, in quo, si modestie leges et consuetudinis 
+            <lb/>mee terminos excessero, certe mihi verendum non 
+            <lb/>puto, ne qui legerint, cognita presertim impudentia et temeritate 
+            <lb/>tua, me reprehendant aut vituperent: atque huius nostre 
+            <lb/>contentionis iudicem mihi statuo regem nostrum, qui cum multarum 
+            <lb/>rerum lectione optimo sit, ut dixi, gravissimoque iudicio, 
+            <lb/>facillime his de rebus iudicare poterit; nisi forte eius iudicium 
+            <lb/>contemnis ac respuis et alium iudicem desideras. At ne sim 
+            <lb/>longior, opera tua bellissima videamus. Scripsisti res gestas 
+            <lb/>regis Ferdinandi, patris huius summi regis nostri, sed eas ita 
+            <lb/>barbare scripsisti ut, si pudoris quippiam in te foret, erubescendum 
+            <lb/>tibi esset in conspectum regis prodire, cuius patris 
+            <lb/>res preclaras summa interdum levitate turpificas. Percurri primum 
+            <lb/>dumtaxat librum et in eo plus quam quingentos errores 
+            <lb/>repperi, alios circa latinitatem, alios circa explanationem, in 
+            <lb/>quibus te principem facis, alios circa historie dignitatem atque 
+            <lb/>artem. Necdum tamen omnes annotare volui, quoniam nunquam 
+            <lb/>esset inventus labori meo finis, sed tantum insigniores et qui 
+            <lb/>ne in puero quidem tolerandi essent. Quos putarem forte negligentia 
+            <lb/>quadam cecidisse, nisi scirem a te sepius in huiusmodi 
+            <lb/>rebus erratum esse, quem, me teste et contradicente, defendere 
+            <lb/>non puduit; nec a <distinct rend ="italic" type="ling">pendo, -dis</distinct>, preteritum <distinct rend ="italic" type="ling">pependi</distinct>, sed <distinct rend ="italic" type="ling">pendi</distinct>; 
+            <lb/>nec a <distinct rend ="italic" type="ling">frigeo, -ges, frixi</distinct>, sed <distinct rend ="italic" type="ling">frigui</distinct> fieri; et a <distinct rend ="italic" type="ling">parco, -cis, parcitum</distinct> 
+            <pb n="63"/>
+            <lb/>supinum, et ex eo <distinct rend ="italic" type="ling">parciturus</distinct> participium trahi: in qua quidem 
+            <lb/>heresi te adhuc perstare deprehendi in hoc tuo preclarissimo 
+            <lb/>opere. Preterea <distinct rend ="italic" type="ling">sisto, -stis, statum</distinct> supinum facere, cum 
+            <lb/>auctore Prisciano, nullum ex eo neque ex <distinct rend ="italic" type="ling">sterto</distinct> oriatur supinum, 
+            <lb/>ducaturque <distinct rend ="italic" type="ling">status, stata, statum,</distinct> eodem Prisciano teste, a 
+            <lb/><distinct rend ="italic" type="ling">statum, statu</distinct>, eius verbi supino, quod est <distinct rend ="italic" type="ling">sto</distinct>. Illud vero est 
+            <lb/>omnium vitiosissimum, quod dicis <distinct rend ="italic" type="ling">horresco</distinct>, <distinct rend ="italic" type="ling">horrui</distinct> preteritum 
+            <lb/>mittere et inchoativa preteritum habere, cum solum <distinct rend ="italic" type="ling">descisco</distinct>, 
+            <lb/>auctore Prisciano, preteritum <distinct rend ="italic" type="ling">descivi</distinct> faciat. Quod tamen, et id 
+            <lb/>est verisimilius, cum cetera eius forme verba preteritis careant, 
+            <lb/>a <distinct rend ="italic" type="ling">descio</distinct> magis fieri putat. Sed his omissis ad operis tui disquisitionem 
+            <lb/>veniamus, quod maiori cura et studio excogitasse et 
+            <lb/>confecisse te verisimile est, quam ea que disputationis causa 
+            <lb/>aliquando in medium protulisti; ut quo ingenio quave doctrina 
+            <lb/>sis et eloquentia a doctis hominibus iudicari possit. Quod opus 
+            <lb/>dicere non potes a te non esse editum, cum illud iam regi obtuleris 
+            <lb/>et in eius bibliotheca iam pridem reponendum dederis. Primo 
+            <lb/>autem loco quod ad elegantiam, secundo quod ad dignitatem 
+            <lb/>historie et ad artem attinet, errata tua demonstrabo. In operis 
+            <lb/>tui titulo, qui esse debet ab omni vitio purus et integer, sic 
+            <lb/>scribis: 
+            <lb/>«Tres libri historiarum Ferdinandi que gessit». Ut omittam 
+            <lb/>hoc loco quod ad explanationem attinet, in latinitate abs te vehementer 
+            <lb/>peccatum est. Antecedenti enim, quod est feminini 
+            <lb/>generis, relativum neutri generis reddidisti: quod etiam turpe 
+            <lb/>esset puero prima elementa discenti.
+            <lb/>«Europam tertiam orbis terrarum esse partem fere traditum 
+            <lb/>est, eamque Africa haud multo maiorem quam Asia minorem». 
+            <lb/>Magistrum te grammatice profiteris et ignoras hoc latine 
+            <pb n="64"/>
+            <lb/>dici non posse. Ut enim dicimus: «Cesar quam Pompeius 
+            <lb/>fecilior fuit», sic dici necesse est, si infinito uti volumus quod 
+            <lb/>ante se quartum casum postulat: «dico Cesarem feliciorem 
+            <lb/>fuisse quam Pompeium».
+            <lb/>«Horum lingua similior est Mediterraneis Castellanis quam 
+            <lb/>Catalanis aut Valentinis». Magis latine si dixisses «quam Castellane 
+            <lb/>aut Valentine», quoniam subaudis lingue, non hominibus 
+            <lb/>aut linguis.
+            <lb/>«Quibus ob spem potiendi oppidi hactenus parcitum erat». 
+            <lb/>Nunquam ulla ratione abduci a pertinacia tua poteris quin perstare 
+            <lb/>in eo velis ut <distinct rend ="italic" type="ling">parco, -cis</distinct>, contra Prisciani auctoritatem et 
+            <lb/>omnium veterum ac iuniorum usum, <distinct rend ="italic" type="ling">parcitum</distinct> supinum faciat, 
+            <lb/>cum a <distinct rend ="italic" type="ling">parsi parsum</distinct>, a <distinct rend ="italic" type="ling">peperci</distinct> vero nullum oriatur supinum. 
+            <lb/>Livius XXV <title rend ="italic">ab urbe condita</title>: «Nedum Capue parsuros credam».
+            <lb/>«Res primo prospere ire, neminem predatoribus cum armis 
+            <lb/>obviam se ferre, pastores et eos raros ad primum incursum 
+            <lb/>diffugere». Nec hoc quidem tacebit Parmeno. Est enim maximum 
+            <lb/>vitium et puerilis error. Que enim per nominativum casum 
+            <lb/>efferre debuisti, ea nomina per accusativum protulisti. Sic enim 
+            <lb/>latine dicendum fuit: «Res enim primo prospere ire nemo predatoribus 
+            <lb/>obviam se ferre. Pastores et hi quidem rari diffugere». 
+            <lb/>Hic enim modus infinitus per preteritum imperfectum 
+            <lb/>indicativi modi resolvitur, ut sit sensus: «Res primo prospere 
+            <lb/>ibant, nemo predatoribus se obviam ferebat, pastores et ii quidem 
+            <lb/>rari diffugiebant».
+            <lb/>«Tubicines autem cum fremitus hostium ac tumultum misceri 
+            <lb/>cepisset». Ego semper hic <distinct rend ="italic" type="ling">tumultus</distinct> masculino genere 
+            <lb/>legi. Tu vero ubi hoc <distinct rend ="italic" type="ling">tumultum</distinct> reppereris nescio. Sed illud magis 
+            <lb/>puto somniaveris, quod etiam sicubi forte reperiatur fugiendum 
+            <lb/>est quoniam obsoletum.
+            <lb/>«Per id tempus temptata». Ubique hoc participium per <distinct rend ="italic" type="ling">m</distinct> 
+            <pb n="65"/>
+            <lb/>et <distinct rend ="italic" type="ling">p</distinct> litteras scribis nescius illud non a <distinct rend ="italic" type="ling">temno</distinct>, sed a <distinct rend ="italic" type="ling">teneo</distinct> duci, 
+            <lb/>quod supinum facit <distinct rend ="italic" type="ling">tentum</distinct> per <distinct rend ="italic" type="ling">n</distinct> solam. Sic etiam <distinct rend ="italic" type="ling">tento, -as,</distinct> 
+            <lb/>absque <distinct rend ="italic" type="ling">p</distinct> scribi debet, quod ipsa verbi significatio demonstrat. 
+            <lb/>Tentare enim experiri est, vel inquirere et verbo vel re quasi 
+            <lb/>manu tenere. Cicero in <title rend ="italic">Paradoxis</title>: «Tentare volui an ita dici 
+            <lb/>possent ut probarentur»; idem in <title rend ="italic">Officiis</title>: «Tentata res est ab 
+            <lb/>omni genere hominum». Virgilius in secundo <title rend ="italic">Eneidos</title>: «Vix 
+            <lb/>primi prelia tentant portarum vigiles»; idem in quarto: «Tentaturum 
+            <lb/>aditus et que mollissima fandi tempora». Nam si a 
+            <lb/><distinct rend ="italic" type="ling">temno</distinct> veniret, spernere utique, non experiri aut exquirere 
+            <lb/>significaret.
+            <lb/>«Supter dextrum femur». Supter per <distinct rend ="italic" type="ling">p</distinct> enuntias quod per <distinct rend ="italic" type="ling">b</distinct> 
+            <lb/>apud veteres scribitur et apud eruditos etatis nostre.
+            <lb/>«Ut dimidium regni qua parte ad hostes obiectum est velut 
+            <lb/>fiduciarum pignus cedat». «Fidei», non «fiduciarum» a te 
+            <lb/>dicendum fuit. Fiduciam enim non pro fide sed pro animi fortitudine 
+            <lb/>a sanis hominibus usitatum invenies, grammaticorum 
+            <lb/>princeps.
+            <lb/>«In cervicibus suis imminentem». Male usus es ablativo 
+            <lb/>casu; non enim hic locus «imminet in capite meo», sed «capiti 
+            <lb/>meo» dicimus, si grammatice loqui volumus.
+            <lb/>«Quos dux ipse putavit supticendos, ego quoque supticebo». 
+            <lb/>Tu utrunque per <distinct rend ="italic" type="ling">p</distinct> litteram Theutonicorum more, ego vero per 
+            <lb/>b antiquorum more enuntiandum puto, quem errorem ubique servas. 
+            <lb/>Sub enim quando componitur cum dictione incipiente a <distinct rend ="italic" type="ling">c</distinct> 
+            <lb/>vel <distinct rend ="italic" type="ling">f</distinct> vel <distinct rend ="italic" type="ling">g</distinct> vel <distinct rend ="italic" type="ling">m</distinct> vel <distinct rend ="italic" type="ling">p</distinct> in eas transit litteras ut <distinct rend ="italic" type="ling">succino</distinct>, <distinct rend ="italic" type="ling">sufficio</distinct>, 
+            <lb/><distinct rend ="italic" type="ling">suggero</distinct>, <distinct rend ="italic" type="ling">summitto</distinct>, <distinct rend ="italic" type="ling">suppeto</distinct>; in reliquis vero manet integra, auctore 
+            <lb/>Prisciano. Sic dicimus <distinct rend ="italic" type="ling">subblandior</distinct>, <distinct rend ="italic" type="ling">subduco</distinct>, <distinct rend ="italic" type="ling">subiicio</distinct>, <distinct rend ="italic" type="ling">subruo</distinct> 
+            <lb/>et <distinct rend ="italic" type="ling">subtraho</distinct>, licet Quintilianus dicat <distinct rend ="italic" type="ling">b</distinct> sequente <distinct rend ="italic" type="ling">t</distinct> sonum <distinct rend ="italic" type="ling">p</distinct> 
+            <lb/>littere habere, quod non debet mirum videri, cum <distinct rend ="italic" type="ling">Caius</distinct>, <distinct rend ="italic" type="ling">Cneus</distinct> 
+            <pb n="66"/>
+            <lb/>et <distinct rend ="italic" type="ling">Amurca</distinct>, ut placet Servio quamvis per <distinct rend ="italic" type="ling">c</distinct> litteram scribantur, 
+            <lb/>tamen per <distinct rend ="italic" type="ling">g</distinct> proferri debeant.
+            <lb/>«Excitabatur machina duodeviginti carris imposita proceram 
+            <lb/>scalam sustinens». Tu, qui grammaticus es et tot milia librorum 
+            <lb/>(ut dicis) evolvisti, profecto ignorare non debuisti <distinct rend ="italic" type="ling">scalas</distinct> singulari 
+            <lb/>numero non proferri, sed plurali tantum, ut <distinct rend ="italic" type="ling">minas</distinct> et <distinct rend ="italic" type="ling">Kalendas</distinct> 
+            <lb/>dicimus. Sallustius: «Postquam une atque altere scale 
+            <lb/>comminute sunt, qui supersteterant afflicti sunt».
+            <lb/>«Ut stante intra intimam fossam machina procumbere scala». 
+            <lb/>Rursum indocte in superius vitium incidisti; nam «procumbentes 
+            <lb/>scale», non «procumbens scala» dicendum fuit.
+            <lb/>«Horum incole circiter ad tria milia». Non «circiter ad 
+            <lb/>tria milia», sed vel «circiter tria milia», vel «ad tria milia» 
+            <lb/>dicendum fuit. Cum «ad» et «circiter» in historia idem 
+            <lb/>significent.
+            <lb/>«Gnave acta opera». Licet grammatice regula <distinct rend ="italic" type="ling">gnave</distinct> adverbium 
+            <lb/>et <distinct rend ="italic" type="ling">ignave</distinct> dici velit, tamen <distinct rend ="italic" type="ling">gnaviter</distinct> et <distinct rend ="italic" type="ling">ignaviter</distinct> sicut a 
+            <lb/><distinct rend ="italic" type="ling">firmus firmiter</distinct> et a <distinct rend ="italic" type="ling">durus</distinct>, <distinct rend ="italic" type="ling">duri</distinct>, <distinct rend ="italic" type="ling">duriter</distinct>, usus tenuit euphonie, 
+            <lb/>ut arbitror, id est aurium suavitati consulens.
+            <lb/>«Et principio quidem cuniculi uni erant». Et hoc quoque 
+            <lb/>ex illa tua Laurentiana grammatica depromptum est, qui ignoras 
+            <lb/>non posse dici «unos cuniculos», cum «cuniculum» singulari 
+            <lb/>numero dicamus. Vegetius: «Inventum est remedium per 
+            <lb/>noctem sub fundamentis muri cuniculum fodi». Item alibi: «Aliud 
+            <lb/>genus expugnationis est subterraneum atque secretum, quod 
+            <lb/>cuniculum vocant a leporibus, qui cavernas sub terris fodiunt 
+            <lb/>ibique conduntur». Sic et Cesar scriptor elegantissimus: «De 
+            <lb/>tertia vigilia animadversum est aggerem fumare, quem cuniculo 
+            <lb/>hostes succenderant». Sic Curtius: «Ultima pestis urbis fuit 
+            <lb/>cuniculo subrutus murus, per cuius ruinas hostis intravit». 
+            <lb/>Idem: «Cuniculo ergo suffossa menia ingens nudavere spatium».
+            <pb n="67"/>
+            <lb/>«Ideoque inter eos reges fere convenit veluti conspiratos et 
+            <lb/>inter se amant». Si grammaticus esses, non utique «conspiratos» 
+            <lb/>reges, sed «conspirantes» dixisses; non enim a «conspiror», 
+            <lb/>quod deponens non invenio, sed a «conspiro» neutro 
+            <lb/>«conspirans» fit, cuius simplex neutrum est, non activum.
+            <lb/>«In castra versus». Nunquam apud historicos repperi huiuscemodi 
+            <lb/>barbariem, sed vel «versus castra»,vel «ad castra», 
+            <lb/>vel «in castra» sepius. Et hoc vitio uteris pene omnibus in locis 
+            <lb/>ignarus quam vim he propositiones habeant. 
+            <lb/>Hactenus de latinitate dictum sit. Potest enim satis intelligi 
+            <lb/>ac iudicari ex his qualis grammaticus sis, qui te in ea re Prisciano 
+            <lb/>superiorem putas. Nunc explanationem, que est altera 
+            <lb/>elegantie pars, spectemus.
+            <lb/>«Tres libri historiarum Ferdinandi que gessit». Crassus profecto 
+            <lb/>et supinus error hic est, nec ferendus in eo homine qui 
+            <lb/>historiam velit scribere. Neque enim «historiam geri» dicimus, 
+            <lb/>quod nunquam usitatum est, cum historiam scribi, res autem 
+            <lb/>vel bella geri dicamus; ut historiographi sit historiam scribere, 
+            <lb/>imperatoris vero rem gerere.
+            <lb/>«Et cum ceteris aliis». Nunquam, bone vir, hoc sermone 
+            <lb/>usos bonos auctores invenies. Nam ceteri et alii inter se nihil 
+            <lb/>differunt; cum «ceteri omnes» et «ceteris omnibus» apud Livium 
+            <lb/>frequentissimum sit.
+            <lb/>«Alfonsi primigenii». Hoc verbum novum est, quod ut a 
+            <lb/>navi scopulus, sic a disertis hominibus fugiendum est. Id autem 
+            <lb/>a Varrone, ut arbitror, suffuratus es: sed verbi vim ac proprietatem 
+            <lb/>non intellexisti. Ille enim primigenia verba primarie 
+            <lb/>positionis, id est a nullo derivata, appellat. Quod verbum in istum 
+            <lb/>sensum nisi impudenter transferre non potes. Si primogeniti dixisses, 
+            <lb/>usitato, vulgari tamen et non eleganti vocabulo usus 
+            <lb/>esses. Sed quis est tam verborum inops, te excepto, qui nesciat 
+            <lb/>primogenitum per circuitionem honestius explicare, cum illum 
+            <lb/>vel «e regiis filiis natu maximum», vel «maiorem fratrum», 
+            <pb n="68"/>
+            <lb/>vel «inter regis liberos etate antecedentem» eleganter dicere 
+            <lb/>possumus? Sic Cesar <title rend ="italic">Commentariorum</title> libro XI: «In testamento 
+            <lb/>Ptolomei patris heredes scripti erant, ex duobus filiis maior, 
+            <lb/>ex duabus filiabus ea que etate antecedebat». Sic Iustinus: «Interea 
+            <lb/>Darius, cum bellum restauraret in ipso apparatu decidit, 
+            <lb/>relictis multis filiis et in regno et ante regnum susceptis. Ex 
+            <lb/>his Artamenes maximus natu etatis privilegio regnum sibi vendicabat». 
+            <lb/>Livius XXVIIII <title rend ="italic">ab urbe condita</title>: «Haud multo post 
+            <lb/>de Zalce quoque mortuo maior ex duobus filiis eius Capussa, 
+            <lb/>puero admodum altero, paternum imperium accepit».
+            <lb/>«Ceteri multo plures sequentur». Nunquam hec duo coniuncta 
+            <lb/>repperi: videlicet «ceteri plures» non sine vitio dici posse 
+            <lb/>existimo. Melius si, prima dictione subtracta, illud tantum dixisses 
+            <lb/>«multo plures sequentur». Nam hoc nomine, nisi in rebus 
+            <lb/>certis ac definitis, non utimur: nisi forte putas si rex in senatu 
+            <lb/>dicat: «Unus loquatur, ceteri audiant», de absentibus etiam 
+            <lb/>dici vel de his quoque qui nondum nati sunt. Cum igitur libri 
+            <lb/>quos polliceris nondum a te scripti sint, «ceteri plures sequentur» 
+            <lb/>dicere vitiosum est.
+            <lb/>«Qui non tam preteritorum virorum gesta narrant». «Preteritorum 
+            <lb/>temporum», non «virorum preteritorum» facta dicimus, 
+            <lb/>sed «maiorum nostrorum», vel «antiquorum», vel «veterum».
+            <lb/>«Hec nos in universum prefatos esse». Apud elegantem 
+            <lb/>scriptorem, bonarum litterarum ignare, non «in universum», 
+            <lb/>sed «in genere» scriptum reperies.
+            <lb/>«Cum multum in prima, tum multo plus in posteriore parte». 
+            <lb/>Quis te hoc modo loqui docuit, barbare, ut primum et posterius 
+            <lb/>correlativa facias? Hoc ne pueri quidem ignorant, grammatice 
+            <lb/>rudimentis imbuti, <distinct rend ="italic" type="ling">primum</distinct> et <distinct rend ="italic" type="ling">postremum</distinct>, vel <distinct rend ="italic" type="ling">secundum</distinct> 
+            <pb n="69"/>
+            <lb/>et item <distinct rend ="italic" type="ling">prius</distinct> ac <distinct rend ="italic" type="ling">posterius</distinct> corresponsiva esse, non autem <distinct rend ="italic" type="ling">primum</distinct> 
+            <lb/>et <distinct rend ="italic" type="ling">posterius</distinct>, si quis proprie loqui velit.
+            <lb/>«Filiam primigeniam quod nomen est proprium cuius futura 
+            <lb/>est successio». Nunquam hoc tibi concessero, nisi probatum auctorem 
+            <lb/>ostenderis, ut primigenia appelletur ea ad quam regni 
+            <lb/>successio pertineat: quod si feceris, tibi homini indigno servire 
+            <lb/>non recuso.
+            <lb/>«Nihil obstante eo». Pedagogice sane et vere laurentine dictum! 
+            <lb/>Quanto elegantius si dixisses: «Nec illud obstat» vel 
+            <lb/>«nec illud impedit».
+            <lb/>«Rex aliquandiu cum prolem non substulisset». Si non susceperat 
+            <lb/>ex uxore liberos, male a te dictum, cum tollere «enutrire» 
+            <lb/>significet; si vero susceperat, recte. Iuvenalis: «Tollere 
+            <lb/>dulcem cogitat heredem». Terentius: «Quicquid peperisset decreverunt 
+            <lb/>tollere».
+            <lb/>«Quos prius iuraverant populi in se regnaturos». Exquisita 
+            <lb/>profecto et Laurentio digna oratio. Elegantius si ita dixisses: 
+            <lb/>«Quibus populi iureiurando fidem dederant sese illis potestatem 
+            <lb/>regnandi facturos» aut «sic sese illis regnum permissuros».
+            <lb/>«Iohannes est rex, dicite rex Iohannes». Facete sane dictum! Dicite 
+            <lb/>io pean, o barbare, o inepte homo! Et quid te pudet 
+            <lb/>huiuscemodi sermonibus plebeis uti in historia regis amplissimi? 
+            <lb/>Ita ne es eloquentie expers, ut ista elegantius proferre nescias? 
+            <lb/>Qui vix primas litteras attigisset, is profecto non incultius 
+            <lb/>hanc particulam expressisset. Si quod in te robur eloquentie 
+            <lb/>foret, profecto sic dixisses: «Ferdinandus cum intelligeret 
+            <lb/>prefectum exercitus sententiam eius expectare, antequam regem 
+            <lb/>aliquem pronuntiaret, elato in humeros puero, ‘Hunc, inquit, hunc 
+            <lb/>regem statuo,’ hunc omnes regem, quod ei felix faustumque s
+            <lb/>it, leta voce ac plausu consalutent». Hoc modo, bone vir, rem 
+            <lb/>sine dubio digniorem et concinniorem aliquanto reddidisses.
+            <lb/>«Omni humana ope restituti iuvent hispanam circuncisionem». 
+            <lb/>Honestior elocutio si dixisses: «Afros Hispanie incolas», 
+            <lb/>aut «in Hispania degentes».
+            <pb n="70"/>
+            <lb/>«Ceteras naves in salum deducit». Erras, bone vir, quod 
+            <lb/>«in salum» addidisti, cum deducere simpliciter sit e terra in 
+            <lb/>mare navim emittere. Virgilius: «Deducunt socii naves et littora 
+            <lb/>complent».
+            <lb/>«Sub ipsum solis ortum conspicantur classem hostium non 
+            <lb/>longius a se quam duodecim milibus passuum, nec a terra quam 
+            <lb/>bis tantum». Preclarus profecto sermo et distintissimo homine 
+            <lb/>dignus. Nemo est certe tam rudis artis grammatice pedagogus, 
+            <lb/>qui non rectius et cultius loqueretur. Unde didicisti «bis tantum» 
+            <lb/>dicere? A quo preceptore? Profer nomen. Nescis, indocte, 
+            <lb/>nescis <distinct rend ="italic" type="ling">duplum</distinct> et <distinct rend ="italic" type="ling">duplex</distinct> a grammatico id dici, quod tu <distinct rend ="italic" type="ling">bis tantum</distinct>? 
+            <lb/>Si grammatice modo loqui volebas, hoc modo dici a te 
+            <lb/>oportebat: «Nec a terra plus quam duplo vel duplici spatio». 
+            <lb/>Si vero eleganter, sic dicendum fuit: «Conspicantur hostium 
+            <lb/>classem non longius a se duodecim milibus passuum, nec a terra 
+            <lb/>plus quatuor et viginti».
+            <lb/>«At Maurus cum ad primum conspectum totius classis aliquantum 
+            <lb/>vela dimisisset, non minus in deliberando quam in preparando 
+            <lb/>se ad bellum cursum repressisset». Crassus nimium 
+            <lb/>est error tuus, si <distinct rend ="italic" type="ling">bellum</distinct> a <distinct rend ="italic" type="ling">prelio</distinct> differre non putas, cum <distinct rend ="italic" type="ling">bellum</distinct> 
+            <lb/>totum discordie tempus sit, <distinct rend ="italic" type="ling">prelium</distinct> vero cum manus conseruntur. 
+            <lb/>Ita fit ut in uno bello plura prelia committantur.
+            <lb/>«Hostem adipiscuntur». Improprie sane dictum, nam «adipisci 
+            <lb/>hostem» non dicimus, sed «nacti», vel «assecuti», vel 
+            <lb/>«adepti sunt». Sicut enim <distinct rend ="italic" type="ling">nanciscor</distinct> verbum et <distinct rend ="italic" type="ling">nactus</distinct> participium 
+            <lb/>significato differunt, cum nancisci acquirere sit, nactus 
+            <lb/>vero qui invenit, sic aliud <distinct rend ="italic" type="ling">adipisci</distinct>, aliud <distinct rend ="italic" type="ling">adeptum esse</distinct> dicimus. 
+            <lb/>Elegantius igitur si dixisses: «Hostem nacti», vel «assecuti», 
+            <lb/>vel «adepti sunt».
+            <lb/>«Utrinque in alteros emisso». Hoc quidem barbare abs te 
+            <lb/>prolatum est, ut reliqua. Quid enim opus fuit «in alteros» dicere, 
+            <lb/>cum «utrinque» satis esset? Atque si illud quoque exprimere 
+            <pb n="71"/>
+            <lb/>volebas, non «in alteros», sed aut «invicem», aut «mutuo», 
+            <lb/>aut «inter se emisso» dicendum fuit.
+            <lb/>«Non nihil prius de expugnatione oppidi Ferdinandus agendum 
+            <lb/>statuit». Improprie hoc verbo sepenumero uteris, quod tibi 
+            <lb/>turpissimum est historiam scribere volenti. Qui enim fieri potest, 
+            <lb/>ut nescias illud interesse inter <distinct rend ="italic" type="ling">pugnare</distinct> et <distinct rend ="italic" type="ling">expugnare</distinct>, quod 
+            <lb/>inter orare et exorare, cum <distinct rend ="italic" type="ling">pugnare</distinct> sit manus conserere, <distinct rend ="italic" type="ling">expugnare</distinct> 
+            <lb/>vero pugnando vincere, quemadmodum <distinct rend ="italic" type="ling">exorare</distinct> orando 
+            <lb/>impetrare dicimus?
+            <lb/>«Cum cibis iam armisque defecti essent». Hoc quidem minus 
+            <lb/>eleganter a te dictum. Non enim «cibis», sed vel «commeatibus», 
+            <lb/>vel «re frumentaria» dicendum fuit, vel etiam «omni 
+            <lb/>humana ope destituti». Huiuscemodi enim verbis frequenter 
+            <lb/>utuntur historici. Elegantius igitur si dixisses: «Cum non iam 
+            <lb/>solum commeatus, sed etiam arma deessent»; aut sic: «Cum 
+            <lb/>iam omni humana ope destituti essent».
+            <lb/>«Proceram scalam». Improprie sane hoc abs te prolatum 
+            <lb/>est, ut omittam latinitatis vitium, quod <distinct rend ="italic" type="ling">scalam</distinct> singulari numero 
+            <lb/>effers, cum tantum plurale veterum usu sit, ut dixi. Non enim 
+            <lb/>«Proceras scalas», aut «proceram columnam» dicimus, sed 
+            <lb/>«longas scalas» et «longam columnam»; proceras autem alnos 
+            <lb/>vel abietes vel alias huiusmodi arbores natura non arte longas 
+            <lb/>appellamus, vel etiam hominis staturam. Virgilius: «Atque solo 
+            <lb/>proceras erigit alnos». Cicero in <title rend ="italic">Catone maiore</title>: «Cumque miraretur 
+            <lb/>et proceritatem arborum et directos in quincuncem ordines». 
+            <lb/>Catullus: «Plangebant alie proceris tympana palmis». 
+            <lb/>Quod etiam patet ex definitione Festi Pompei. Ait enim: «Procera 
+            <lb/>prolixa esse in longum producta, quasi ex cera ob eius facultatem, 
+            <lb/>id est vi propria».
+            <lb/>«Alio genere expugnationis». Vitium proprietatis inexcusabile, 
+            <lb/>quod sepius incurristi. Non enim «expugnationis», sed «oppugnationis» 
+            <lb/>dicendum fuit.
+            <pb n="72"/>
+            <lb/>«Hoc cum genus expugnationis instituebat». Idem et frequens 
+            <lb/>vitium tuum.
+            <lb/>«Quod diceret ab re esse». Ineleganter profecto immo ruditer 
+            <lb/>a te dictum. «Ab re» enim «temere» et «sine causa», 
+            <lb/>non id quod tu putas significat. Illud potius dicere debuisti, 
+            <lb/>quod non e dignitate regia esse duceret regem in expeditionem, 
+            <lb/>nisi adversus regem proficisci.
+            <lb/>«Ferdinandum enim infantem esse Castelle». Vulgari nomine 
+            <lb/>uti nihil te puduit, cum ea que propria non sunt liceat 
+            <lb/>nobis iudicio arbitrioque nostro per circuitionem proferre elegantius. 
+            <lb/>Quis autem est tam imperitus rerum scriptor aut tam 
+            <lb/>illitteratus homo, qui nesciat infantes regis filios appellari?
+            <lb/>«Et a presenti periculo nonnunquam relaxati». Improprie 
+            <lb/>quidem nam <distinct rend ="italic" type="ling">relaxatos</distinct> curis et corporis defatigatione dicunt historici, 
+            <lb/><distinct rend ="italic" type="ling">levatos</distinct> vero et <distinct rend ="italic" type="ling">liberatos</distinct> periculo.
+            <lb/>«Virtus tamen militis omnia impedimenta vincebat». Improprie 
+            <lb/>ut multa <distinct rend ="italic" type="ling">impedimenta</distinct> protulisti, nam apud rerum scriptores 
+            <lb/><distinct rend ="italic" type="ling">impedimenta</distinct> plurali numero appellantur que sarcinas vulgo 
+            <lb/>dicimus: <distinct rend ="italic" type="ling">difficultates</distinct> autem dicuntur que tu impedimenta 
+            <lb/>dixisti. Licet tamen eo nomine uti singulari numero in eam sententiam 
+            <lb/>in quam accipis.
+            <lb/>«Ad edem Dive Marie cognomine Custodientis». O ineptum 
+            <lb/>hominem, o verborum inopem! Quanto elegantius si dixisses: 
+            <lb/>«Quoniam puerum servavit, ad edem Dive Marie Servatricis»; 
+            <lb/>sic Iuppiter Stator appellatus est quia Romanos a Sabinis in 
+            <lb/>urbe fusos invocatus stare ac fugam sistere fecerit.
+            <lb/>«Ascendente iam die ac calescente». Hoc te profecto historiographus 
+            <lb/>nullus docuit, sed quispiam (ut puto) sutor aut faber 
+            <lb/>tignarius. Historicus enim sic diceret: «Sub horam diei quartam», 
+            <lb/>vel «quintam», vel «sub meridiem».
+            <lb/>«Aliis assidue super alios applicantibus». Plebeia sane oratio. 
+            <lb/>Quanto elegantius si dixisses: «Cum nova quotidie auxilia 
+            <lb/>supervenirent», aut «alii super alios adventarent».
+            <lb/>«Maometani se habere victoriam in manibus testabantur».
+            <pb n="73"/>
+            <lb/>Non «Mahometanos», sed «Mauritanos», vel «Afros Hispanie 
+            <lb/>incolas» appellare debuisti, et id esset elegantius.
+            <lb/>«Quandoquidem non statim paruerunt, dixit se non relinquere 
+            <lb/>eis nisi vestes». O elegantissimum historiographum! Puer 
+            <lb/>adhuc ad grammaticum proficiscens ista profecto non incultius 
+            <lb/>diceret. An tibi ita verba deficiunt, ut aliter dicere nescias? 
+            <lb/>Quanto elegantius si dixisses: «Quod vero non statim primo 
+            <lb/>imperatoris edicto in deditionem venerant, cum singulis tantum 
+            <lb/>vestimentis abeundi singulis potestatem fecit».
+            <lb/>«Quibus de tertia vigilia receptis conscensisque». Et hoc 
+            <lb/>quoque improprie: neque enim dici potest equos ab illis <distinct rend ="italic" type="ling">receptos</distinct> 
+            <lb/>fuisse, qui non venissent in hostium potestatem cum <distinct rend ="italic" type="ling">recipere</distinct> 
+            <lb/>recuperare sit, vel periculo liberare. Cicero in Catone: «Nam 
+            <lb/>nisi tu amisisses, ego nunquam recepissem». Virgilius: «Frugesque 
+            <lb/>receptas et torrere parant flammis».
+            <lb/>«Reliquas virilibus partibus inter se dividendas censuit». <distinct rend ="italic" type="ling">Virilibus 
+            <lb/>partibus</distinct> nunquam legi quod meminerim. Nec latine puto 
+            <lb/>in hanc sententiam proferri posse, sed <distinct rend ="italic" type="ling">viritim</distinct> et equis <distinct rend ="italic" type="ling">portionibus</distinct> 
+            <lb/>crebro repperi. Pro virili enim parte idem est, quod pro 
+            <lb/>viribus meis.
+            <lb/>«Iubet bombardas ictus emittere». Elegantius multo si dixisses: 
+            <lb/>«Iubet tormentis muros quati»: quod verbum, a maioribus 
+            <lb/>usitatum, etiam in iuniorum consuetudinem venit; cum sit 
+            <lb/><distinct rend ="italic" type="ling">tormentum</distinct> generale vocabulum omnium machinarum bellicarum 
+            <lb/>ingentia saxa torquentium.
+            <lb/>«Ut venator facit, qui dispositis per diversa loca retibus 
+            <lb/>interdum plus prede nanciscitur, ubi minus opinabatur». Et hoc
+            <lb/>quoque verbo <distinct rend ="italic" type="ling">nanciscitur</distinct> imprudenter usus es, sicut etiam alibi: 
+            <lb/>neque enim <distinct rend ="italic" type="ling">nancisci</distinct> invenire, sed <distinct rend ="italic" type="ling">adipisci</distinct> dicimus. Non enim 
+            <lb/>habet, ut putas, significationem participii sui <distinct rend ="italic" type="ling">nactus</distinct>. <distinct rend ="italic" type="ling">Nanciscitur</distinct> 
+            <lb/>enim qui acquirit, <distinct rend ="italic" type="ling">nactus</distinct> vero qui invenit. Nec est mirandum 
+            <pb n="74"/>
+            <lb/>cum <distinct rend ="italic" type="ling">fruor</distinct> quoque et <distinct rend ="italic" type="ling">fretus</distinct> eius participium et <distinct rend ="italic" type="ling">adipiscor</distinct> atque 
+            <lb/><distinct rend ="italic" type="ling">adeptus</distinct> significato differant. Fruitur enim litteris, qui fructum 
+            <lb/>ex eis capit; <distinct rend ="italic" type="ling">fretum</distinct> vero alieno consilio confisum dicimus.
+            <lb/>«Ut qui vagi palantesque persequentibus hostibus abierant 
+            <lb/>longius vestigia nanciscerentur». Iterum in eundem errorem 
+            <lb/>incidisti, indocte.
+            <lb/>«Et odia conciliationem recipiunt». <distinct rend ="italic" type="ling">Reconciliationem</distinct> dicere 
+            <lb/>debuisti, non <distinct rend ="italic" type="ling">conciliationem</distinct>, nobilis grammatice. «Concilior enim 
+            <lb/>regi», exempli causa, si illi ignotus in eius gratiam venio. «Reconcilior 
+            <lb/>autem regi», si qua de causa is mihi iratus, deposita 
+            <lb/>ira, me rursus recipiat in eius gratiam.
+            <lb/>«Invidia nullo pacto conciliari potest». In idem vitium, imprudens,
+            <lb/>iterum incidisti: <distinct rend ="italic" type="ling">reconciliari</distinct> enim, non <distinct rend ="italic" type="ling">conciliari</distinct> potius 
+            <lb/>dicere debuisti; sed melius et magis proprie <distinct rend ="italic" type="ling">mitigari</distinct> et 
+            <lb/>sedari.
+            <lb/>«Et hoc peius nocere potest». Neque eleganter neque recte 
+            <lb/>dictum. Non enim «peius nocere», sed «gravius», vel «vehementius» 
+            <lb/>dicimus.
+            <lb/>«Ubi sub oculis hostis fuit, quam occultissime poterant, subsequuntur, 
+            <lb/>ut lateant, credentem se latere alios, fallantque cum 
+            <lb/>fallit». Pedagogicus sane et perobscurus sermo, quem non emendavi, 
+            <lb/>quoniam talis est ut ne Edipus quidem, qui Spingi interpres 
+            <lb/>fuit, illum si reviviscat intelligat.
+            <lb/>«Inflato torrenti». Melius «Aucto imbribus».
+            <lb/>«Et ut illi loquuntur duabus leugis». Hoc modo vulgus loquitur, 
+            <lb/>non illi qui se eruditissimos profitentur.
+            <lb/>Taceo illud «portentosa mendacia» , quod «portenti similia», 
+            <lb/>aut certe «portentuosa» sicut «monstruosa» dicere debuisti: 
+            <lb/>et illud «ob factiosam potentiam» quod «ob factionem 
+            <lb/>et potentiam»: et illud «due ippagines» quod «due actuarie» 
+            <lb/>vel «vectorie naves»: et illud poeticum «acre prelium surgit» 
+            <lb/>quod «oritur» dicendum fuit eleganter scribendo. Pretereo et 
+            <lb/>illud «ea carne se exercitus illa nocte, quam pervigilem comessando 
+            <lb/>et perpotando duxit, in preteritum pavit», quod est 
+            <pb n="75"/>
+            <lb/>preter historie dignitatem: et illud «nostri stupere, dolere, pudere, 
+            <lb/>inter se lamentari ac queri proditionem et inussitare», 
+            <lb/>quod perabsurde et incomposite prolatum est: et illud: «magis 
+            <lb/>impie magisque inexpiabiliter grassatur proditio», quod ieiune 
+            <lb/>et aride a te dictum est: et illud «propter desuetudinem rusticorum 
+            <lb/>ab agris», quod «propter intermissam agrorum culturam» 
+            <lb/>dicendum fuit: et illud «fugate atque exterrite», quod 
+            <lb/>prepostere protulisti: et illud «ab agmine armatorum fugientes», 
+            <lb/>quod «agmen fugientes» dicere honestius fuit: et illud «ad capiendam 
+            <lb/>venationem», quod «ad capiendam predam»: et illud 
+            <lb/>«menia concludens», quod «urbem circumsidens» dicendum 
+            <lb/>fuit: et illud «totidem alii latebant», quod absque ea particula 
+            <lb/>«alii» proferri debuit. Omitto et illud «ad certius explorandum», 
+            <lb/>quod «ad explorandum» tantummodo dici debuit: et 
+            <lb/>illud «alibi effusa fuga, alibi confusa fuga», quod confuse 
+            <lb/>protulisti: et illud «poscentium misericordiam», quod «veniam 
+            <lb/>potentium» dicere debuisti: et illud «cibum quem poterant, deinde 
+            <lb/>quietem capiunt», quod «deinde corpora curatum abeunt» 
+            <lb/>dicendum fuit: et illud «a sociis videri, ab hostibus non videri 
+            <lb/>possumus», quod incomposite protulisti. Pretermitto et illud 
+            <lb/>«sed tantus proprie salutis metus», quod «sed tanta recuperate 
+            <lb/>salutis letitia»: et illud «aut ritu pecudum caprarumque 
+            <lb/>mactabunt», quod «veluti pecudes, caprasve mactabunt»: et 
+            <lb/>illud poeticum «ignis convolvens flammeas pilas», quod «late 
+            <lb/>iactans incendia»: et illud «sagittabantur», quod «sagittis precipue 
+            <lb/>hostes incessebantur»: et illud poeticum «templum mugiebat», 
+            <lb/>quod «resonabat», vel «sonitu complebatur» dicere 
+            <lb/>debuisti. Omnia enim ista ut leviora transeo. 
+            <lb/>Sed de elegantie tue vitiis satis in presentia dictum sit. Nunc 
+            <lb/>errores tuos circa historie dignitatem et dicendi artem, neque 
+            <lb/>tamen omnes, sed paucos e multis in medium proferam.
+            <lb/>«Europam tertiam partem orbis terrarum esse fere traditum 
+            <lb/>est», et reliqua, que scribere longum esset. Descriptio ista 
+            <lb/>orbis terrarum ex aliqua parte superflua et vitiosa est, maxime 
+            <pb n="76"/>
+            <lb/>ubi probare niteris Hispaniam orbis terrarum caput et eam 
+            <lb/>trium partium, in quas mundus dividitur, esse maximam. Satis 
+            <lb/>enim fuerit, cum de Hispaniis solum mentio futura esset, Hispaniarum 
+            <lb/>situm gentesque describere. Dicis te historiam incipere 
+            <lb/>et cosmographiam ingrederis, que res ab historiographi officio 
+            <lb/>separata est, nisi quantum pertinet ad eas regiones de quibus 
+            <lb/>scripturus sit, ut ante dixi. Est enim contra precepta narrationis 
+            <lb/>de brevitate, quod est, et si non ab ultimo initio repetemus.
+            <lb/>«Verum sicut ad celum Hispania, quia vergit in occasum, 
+            <lb/>in dextra esse censenda est, ita ad ipsum orbem terrarum, quia 
+            <lb/>certissimum est caput, Europe caput nominari potest».Vehementer 
+            <lb/>erras, cosmographe, si putas Hispaniam, quia in occasum 
+            <lb/>vergat, in dextra parte celi censendam esse. Qui enim mundi 
+            <lb/>partes dimetiuntur, non ad antarticum polum, aut ad orientem, 
+            <lb/>sed ad articum, qui polus certissimus est, se convertunt. 
+            <lb/>Atque ita eorum dextra ad orientem, sinistra vero ad occidentem 
+            <lb/>vergit. Atque in hunc modum omnes celi terreque dimensiones 
+            <lb/>a sanis hominibus fieri videas. Nec vero minus infirma 
+            <lb/>est altera ratio tua, qua probare niteris Hispaniam esse Europe 
+            <lb/>caput, quoniam nullis montibus nulloque flumine terminetur, ut 
+            <lb/>dicis. Tu qui logice repastinatorem te facis, nomen profecto 
+            <lb/>rei conveniens, hoccine consequens affirmabis? Hispania nullis 
+            <lb/>montibus nulloque flumine, sed aperto vastoque mari terminatur: 
+            <lb/>igitur Hispania Europe est caput. Si hoc affirmas ad dialecticum 
+            <lb/>redi.
+            <lb/>«Alter fratrum sperat se relicturum Mariam suam Castelle 
+            <lb/>reginam: cum alter fratrum, qui non sperabat, suam Mariam 
+            <lb/>relicturus esset. Ille putat se hos coniuges regni sui facturum 
+            <lb/>heredes, et hic qui non putabat sui facturus erat». Huiuscemodi 
+            <lb/>exornatio aliena est a rerum gestarum expositione, que debet 
+            <lb/>esse pura et minime fucata. Convenit autem proprie confirmationi, 
+            <pb n="77"/>
+            <lb/>vel confutationi in oratione. Taceo vero compositionem, que 
+            <lb/>qualis sit, vides.
+            <lb/>«Preclareque cum exercitu ac populo agitur si dum maiori 
+            <lb/>parti bene consultum sit, minori male consulitur». Inepta certe 
+            <lb/>et improbanda sententia. Nescio unde istam preclaram philosophiam 
+            <lb/>didiceris, que doceat minori parti male consulendum esse. 
+            <lb/>Neque enim minus consulendum est paucis quam multis, si fieri 
+            <lb/>possit. Quod si quo fato aut casu fieri non possit, plurium saluti 
+            <lb/>prospiciendum erit. Sed tamen paucioribus non male consulendum: 
+            <lb/>illud enim inhumanum est, sed quoad fieri poterit, adiuvandi 
+            <lb/>erunt. Sanius igitur si particula ista subtracta sic dixisses: 
+            <lb/>«Preclareque cum exercitu ac populo agitur, si plurium saluti 
+            <lb/>consultum sit».
+            <lb/>«Dura videbatur omni ex parte ratio; inquireret sontes, 
+            <lb/>quos magnos viros esse suspicabatur. At ne ad delictum quidem 
+            <lb/>potuerat ulcisci. Reficeret turrim? At magnum dispendium et ut 
+            <lb/>in fame magis ac magis invalescente in dies militum contumacia 
+            <lb/>proponebatur. Rediret infacta re? At non aliorum culpa sed 
+            <lb/>ducis argueretur». Neque hec quoque exornatio huic loco convenit, 
+            <lb/>que non narrationi, sed confirmationi, vel magis proprie 
+            <lb/>confutationi accommodata est in oratione.
+            <lb/>«Vexillis precedentibus, quorum primum habebat imaginem 
+            <lb/>Domini Nostri Iesu Christi in cruce pendentis; alterum matris 
+            <lb/>eius cum Angelo Gabriele conceptum Spiritus Sancti anuntiante; 
+            <lb/>tertium Sancti Iacobi». Plebeia sane ac vere Laurentio digna 
+            <lb/>elocutio et supervacua in primis rerum narratio brevitati contraria. 
+            <lb/>Hec enim summatim non particulatim narranda sunt. 
+            <lb/>Quid enim opus erat de vexillis hoc loco mentionem facere? An 
+            <lb/>vidisti uspiam Livium, cum de consulibus Romanis in expeditionem 
+            <lb/>euntibus scribit, de signis que ferebant mentionem facere? 
+            <lb/>Et tamen sine signis eos non isse ad bellum gerendum scimus. 
+            <lb/>Secus autem facit cum hostium signa capta erant, quoniam eam 
+            <lb/>rem dignitati populo Romano sciebat esse.
+            <pb n="78"/>
+            <lb/>«Quasi vero non sint non solum alii principes interdum maiores 
+            <lb/>regibus, ideoque regaliores, ut olim Romani imperatores, 
+            <lb/>sed certe qui obsidet alterius regnum, ipse rege obsesso non inferior 
+            <lb/>censendus est». Hec porro sententia tuo illi summo subtilique 
+            <lb/>iudicio maxime consentanea est. Tu enim cum loquaris 
+            <lb/>de dignitate persone, opibus ac potentia, illam ad postremum 
+            <lb/>definis. Dixisti prius regi Africano e dignitate non videri in bellum 
+            <lb/>prodire, in quo non sit rex alter cum eo certaturus: postea 
+            <lb/>subdis multos principes, quoniam potentia superent, multis maiores 
+            <lb/>esse. Non vides in quem errorem incidas? Potestate et viribus 
+            <lb/>esse aliquos principes, qui fortasse vincant hunc aut illum 
+            <lb/>regem tibi concedetur, si voles. Sed quod ii principes, a quibus 
+            <lb/>vincuntur opibus aut obsidentur, dignitate superent, nunquam 
+            <lb/>tibi plane concedam. Quare ista sententiola tua tanquam falsa 
+            <lb/>et perridicula tota reiicienda est, precipue cum ad dedecus regie 
+            <lb/>maiestatis attineat, que in terris amplissima est.
+            <lb/>«Qua tertiam partem sibi tubicinibusque ac sociis, quos revocaverat, 
+            <lb/>distribuendam adiudicavit». Tubicinum, ut video, amator 
+            <lb/>es, quos secundo loco numerandos in prede divisione iudicasti. 
+            <lb/>Res est profecto digna historie gravitate. Sic Livius, Sallustius 
+            <lb/>et Cesar, a quibus credo id sumpseris.
+            <lb/>«Ut renovemus in nobis ea que de Orlando ac Rainaldo 
+            <lb/>in hac regione gesta memorantur, qualia fuisse Hectoris, Enee 
+            <lb/>Achillis aliorumque principum frequenter audivi». Hic plane 
+            <lb/>apertissime indicas admirabilem prudentiam tuam, qui vulgaria 
+            <lb/>inducens exempla Orlandum nescio quem et Rainaldum, de quibus 
+            <lb/>vel apud Gallos, unde orti sunt, vix ulla extat memoria litterarum 
+            <lb/>monumentis prodita, Hectori, Enee atque Achilli, quos 
+            <lb/>summi poete et historici summis in celum laudibus extulerunt, 
+            <lb/>comparas.
+            <lb/>«Socii, ut ipse vestri adventus et (ut sors tulit) vestri periculi 
+            <lb/>auctor sum, sic meum est vestri reditus ac vestre salutis 
+            <lb/>curam habere, non solum mee. Si locus hic ubi sumus satis apertus 
+            <lb/>ad fugam esset, si satis etiam distantie ab hostibus, nimirum 
+            <pb n="79"/>
+            <lb/>tam ferox temerariusque sum, ut pugnam moramve suaderem. 
+            <lb/>Nunc cum et locum ceperimus angustum, quo veniremus 
+            <lb/>occultius, et hostis non absit longius quadringentis passibus, ut 
+            <lb/>opinor recentioribus quam nos equis, quam spem salutis tantam 
+            <lb/>ponimus in una celeritate equorum? At fessis si plus quinque 
+            <lb/>et viginti milibus passuum remetiendum est, quos isti incompositos 
+            <lb/>ac dissipatos insecuti, ut quenque primum assequentur, 
+            <lb/>trucidabunt, et, ut certum habeo, usque ad unum. Non enim firmiores 
+            <lb/>nostri equi, aut, ut dixi, recentiores sunt ad perferendum 
+            <lb/>cursum. Modo tres quatuorve illorum, qui plures nobis sunt, 
+            <lb/>si pernicibus equis insideant, instabunt fugientibus, terga cedent 
+            <lb/>et aut morari compellent, aut ritu ovium caprarumque mactabunt 
+            <lb/>singuli plurimos. Ut renovemus in nobis ea que de Orlando 
+            <lb/>ac Rainaldo in hac regione gesta memorantur, qualia 
+            <lb/>fuisse Hectoris, Enee, Achillis aliorumque priscorum frequenter 
+            <lb/>audivi. Ex quo non mortem refugerimus, sed honestam mortem 
+            <lb/>refugerimus. Est autem honesta mors in pugna, non in fuga. 
+            <lb/>Ad quam mortem vos hortari ausim, si nihil aliud sit reliqui. 
+            <lb/>Nunc etiam spes salutis ac victorie ostenditur, si fortunam belli 
+            <lb/>tentemus. Sepe enim pauciores vel consilio, vel virtute, vel, quod 
+            <lb/>maximum est, necessitate ac desperatione vicerunt. Magna 
+            <lb/>res est proponere animo, aut vincendum, aut mortem, dedecus 
+            <lb/>atque omnia extrema patienda. Sepe infirmiores fere, que in 
+            <lb/>aperto singulas robustiorum ferarum fugissent, cum se inclusas 
+            <lb/>viderunt, contracta rabie, adversus plures insurgunt et non 
+            <lb/>nunquam eiulare et fugere compellunt. Ego vidi vulpem 
+            <lb/>unam, vulneratis plerisque canibus, evasisse. Non ergo tot vulpes, cum 
+            <lb/>rem nostram in angusto videamus positam, paulo plures canes 
+            <lb/>extimescemus invadere, si incolumes et cum laude volumus evadere. 
+            <lb/>Quid quod nostrum adiuvat fortuna consilium? Si invadimus, 
+            <lb/>speciem prebebimus nos partem insidiatorum esse, non totam 
+            <lb/>manum: neque enim compertum habent numerum nostrum. 
+            <pb n="80"/>
+            <lb/>Videtis ut lente cunctanterque veniunt, ut duos longius premiserunt 
+            <lb/>explorandi causa et ipsos hesitantes ac circumspicientes. 
+            <lb/>Audendum igitur antequam certum explorent: et tanquam fiducia 
+            <lb/>sociorum qui lateant, feroces simus, ferociter irruamus. Victoria 
+            <lb/>imperatoris nostri omnia facit eis formidolosa, nobis audenda: 
+            <lb/>unde aut victores cum preda et gloria redibimus, aut 
+            <lb/>certe honestissimam mortem oppetemus. Quam nefas est appellare 
+            <lb/>mortem, fruituros apud vite parentem vita eterna. Speroque 
+            <lb/>in Iesu Christo, qui me de pristina mortalitate ad spem 
+            <lb/>eternitatis revocavit, eum hanc meam spem non frustraturum. 
+            <lb/>Atque eius invocato nomine feror in suos hostes». Oratio ista 
+            <lb/>perpetua cum ii de quibus loqueris neque in castris, neque pro 
+            <lb/>castris essent, neque munitionibus ullis, neque loci situ defenderentur 
+            <lb/>abessentque a suis, ut scribis, viginti milibus passuum 
+            <lb/>ab hostibus vero non plus quadrigentos passus, adversus se concitatis 
+            <lb/>equis adventantibus, ut orandi per otium facultas non 
+            <lb/>daretur. Preterea hostes trecenti erant, ipsi vero non plures 
+            <lb/>centum et recentiores equos habebant, ut scribis. Malacha enim, 
+            <lb/>unde exierant, vicina erat, ut retardari impetus hostium, presertim 
+            <lb/>conspecta paucitate, non debuerit: prius enim opprimi et 
+            <lb/>in vincula coniici potuerunt omnes a Malacheis, quam orandi 
+            <lb/>finis factus esset: uno enim et continenti equorum cursu quadringenti 
+            <lb/>passus ab hoste confici poterant. Nec illud obstat huic 
+            <lb/>rationi, quod ais hostes insidias fortasse verituros, et ab incursu 
+            <lb/>temperaturos, quoniam et ipsi centum de quibus agitur, de 
+            <lb/>maiori hostium numero timere non minus poterant, quod illi 
+            <lb/>propinquiores oppido, quam hi castris erant. Oratio, ut scias, 
+            <lb/>debet esse loco et tempori accommodata et ex eo iudicatur oratoris 
+            <lb/>prudentia. Non omni enim tempori ac loco convenit perpetua 
+            <lb/>et ex omnibus partibus perfecta oratio. Satis enim fuerat, 
+            <lb/>cum utrique in conspectu essent neque plus quadringentos passus 
+            <lb/>distarent, oratione cesa uti et paucis verbis ostendere pugnandi 
+            <lb/>necessitatem, nisi turpiter cedere quam honeste mori 
+            <lb/>mallent, salutem, si qua erat, non in fuga, sed in una virtute 
+            <lb/>ponendam esse, forti atque intrepido animo congrediendum antequam 
+            <lb/>eorum paucitas perspecta hostibus contemptum sui faceret, 
+            <lb/>fortibus viris sepenumero fortunam affuisse. Itaque tota 
+            <pb n="81"/>
+            <lb/>illa argumentatio, qua demonstras quid crudelitatis hostes in illos 
+            <lb/>fugientes edituri sint, et exempla illa fabulosa de Orlando et 
+            <lb/>Rainaldo, inepte atque aniliter introducta, et illa de mortis genere 
+            <lb/>accurata disputatio et comparationes de vulpe et cane, vacui 
+            <lb/>capitis non hominis sani, omnia vitiosa et preter artem ac 
+            <lb/>historie dignitatem, quoniam, ut dixi, nec tempus nec locus ferebat 
+            <lb/>hanc verborum inanem magnitudinem, cum hostes ad 
+            <lb/>unum equi cursum proximi citatis equis in se ferrentur, et ipsi 
+            <lb/>nullo munimento loci tuti essent. Preterea notatione digna est 
+            <lb/>illa contradictio, quam facis in initio orationis huius. Verba enim 
+            <lb/>tua hec sunt: «Profecti cum iam octo milibus passuum ab urbe 
+            <lb/>abessent, sub lucem trecentos, ut colligi poterat, equites ex adverso 
+            <lb/>se ferentes conspiciunt moxque conspiciunt invicem, parva 
+            <lb/>iam utrosque dirimente intercapedine». Ac paulo post ais: 
+            <lb/>«At fessis plus quinque et viginti milibus passuum remetiendum 
+            <lb/>est». Qui enim octo modo milibus passuum a castris progressis 
+            <lb/>quinque et viginti milia passuum remetienda erant?
+            <lb/>«Querebant nonnulli vel ioco vel serio an socios cum equis 
+            <lb/>amisissent. Respondit quidam: ‘Immo interrogate equos et ornamenta 
+            <lb/>ac vestes quosnam socios amiserunt. ‘Iohannes etiam 
+            <lb/>facetius, ut sumus in victoria faceti ac dicaces: ‘Nos vero in 
+            <lb/>nemore sumus venati, et quot animalia manus nostras effugerunt 
+            <lb/>non perdidimus, perdidimus quot non effugerunt. Hec sola 
+            <lb/>nec effugerunt, nec perdidimus'». Tu hoc appellas facete dictum, 
+            <lb/>ego vero infacetum et prorsus insulsum. Est enim pueriliter 
+            <lb/>et ieiune atque inepte prolatum, ac preterea preter historie 
+            <lb/>dignitatem, in qua huiusmodi frivolarum quarumque rerum 
+            <lb/>et maxime problemate enunciata, quod ne Edipus quidem interpretari 
+            <lb/>sciat, supervacanea est: cuius generis oratio a rerum 
+            <lb/>scriptore diligenter vitanda est.
+            <lb/>«Quod si hoc conceditur, illud multo magis concessum iri 
+            <lb/>necesse est, quos vulgo caballerios vocant, eos vocare equerios». 
+            <lb/>Hoc tibi nunquam concedet Parmeno, ut in narratione 
+            <pb n="82"/>
+            <lb/>rerum gestarum disputationem inducas longiorem de verborum 
+            <lb/>significatione. Est enim vitiosa digressio brevitati contraria. Videris 
+            <lb/>enim non historiam velle scribere, sed grammaticorum 
+            <lb/>precepta tradere. Itaque totam istam de militis et equitis vocabulo 
+            <lb/>disputationem, ut superfluam atque ineptam vitiosissimam 
+            <lb/>puto. Nec minus hoc loco elegantiam tuam damnandam atque 
+            <lb/>irridendam censeo, cum velis nova et absurdissima formare 
+            <lb/>nomina, quando propriis usitatis atque honestis uti liceat. Equerios 
+            <lb/>enim appellari vis quod eruditi homines equites et equestris 
+            <lb/>ordinis vocant, quod nomen usus pridem admisit et comprobat. 
+            <lb/>Hic enim ordo medius inter patres ac plebem Rome fuit, 
+            <lb/>in quo et Cicero extitit.
+            <lb/>«Atque ita ad imperatorem capti perducuntur, quo ille 
+            <lb/>spectaculo ita magnos risus excitasse fertur, ut vix unquam 
+            <lb/>sit visus risisse hilarius». Non intelligis, imprudens, te gravissimum 
+            <lb/>virum et regem summa notare levitate? Nihil profecto 
+            <lb/>minus verisimile; quid enim hic dignum tanto cachinno affertur? 
+            <lb/>An quod videat rex miseros captivos sue gentis cultu corporis 
+            <lb/>preditos? O singularem hominis prudentiam! O singulare iudicium! 
+            <lb/>Ubi est acumen tuum? Ubi illa ingenii vis? An tibi iusta 
+            <lb/>videtur causa, cur regem cachinnantem inducat miserorum captivorum 
+            <lb/>in sua veste conspectus? An illud fortasse te movet, 
+            <lb/>quod postea subiicis, puduisse captivos quod in tali habitura 
+            <lb/>cernerentur? At te magis pudere debuit, Laurenti, isto modo 
+            <lb/>scribere. Quid enim erat cur captivi pudore affici deberent, si 
+            <lb/>suis armis suoque habitu ornati erant? Magis profecto illis erubescendum 
+            <lb/>fuerat, si in Romano cultu et in Romanis armis conspecti 
+            <lb/>essent. Qua vero eloquentia et gratia ista explices, omitto.
+            <lb/>«Pegna amatorum, hoc est petra amantium». Non illi profecto 
+            <lb/>tam amantes erant, quam tu amens, qui verbo incognito 
+            <lb/>uteris et fabulam pro vera accuratissime scribis, quam postea 
+            <lb/>a te non credi inquis. Hec enim verba tua sunt: «Huius nominis 
+            <lb/>causam quia non iniocunda auditu est, satius est perstringere, 
+            <lb/>quam omittere. Iuvenis quidam» et reliqua. Subinde dicis: 
+            <lb/>«Quod ne credam sequentia inducunt» et multis verbis explicas 
+            <lb/>quod te paucis complexurum promiseras.
+            <pb n="83"/>
+            <lb/>«Ex quibus intellectum est non pluribus lignis opus esse ad 
+            <lb/>cremanda humana cadavera, que presertim tum erant solibus 
+            <lb/>incocta adipibusque defluebant, non nihil alimenti flamme prebentibus». 
+            <lb/>Feda profecto et tragica, non historica narratio. 
+            <lb/>Quodcunque enarras mihi, sic incredulus odi.
+            <lb/>«Huius eventus etsi non nihil me quoque miseratio subit, 
+            <lb/>tamen misericordia indignos ob id fuisse apud Deum existimo, 
+            <lb/>quod et puella amores suos videtur, non religionem secuta, et 
+            <lb/>iuvenis audacior fuisse, cum rapina ad se vindicandum in libertatem, 
+            <lb/>quam prius sine rapina, que causa, ut iter sibi tardius et 
+            <lb/>persecutores acriores et minorem spem venie pararet, extitit. 
+            <lb/>Preterea neuter in extremis suis rebus bene de Dei bonitate sensit». 
+            <lb/>Inepta sane et inconcinna sententia, tum rationibus, tum 
+            <lb/>verbis, in quibusque enim rebus vel minutissimis philosophari 
+            <lb/>vis. Non ita Livius, non ita Cesar, quorum opera percurrisse te 
+            <lb/>concedo, sed certe eorum virtutes haud quaquam intellexisse. 
+            <lb/>Ubi enim incidit quicquam grave et dignum memoria, sententiam 
+            <lb/>afferre et quid probes improbesve explicare non incongruum 
+            <lb/>puto, si modo id raro et moderate facias.
+            <lb/>«Imperator iubet aggerem devolvi in fossam, ligonibus, bidentibus, 
+            <lb/>marris». Curiosus es in enumerandis omnibus instrumentis. 
+            <lb/>Sed cur non et corbes et cophinos addidisti, quibus terra 
+            <lb/>e fossa transfertur et qui in opere desudantibus potum ministrarent? 
+            <lb/>Non intelligis in hac parte quam sis brevitati contrarius?
+            <lb/>«Quod superioribus diebus impedimento fuit, commilitones,
+            <lb/>id satis emendatum videtis, quod reliquum est, non nisi in vestra 
+            <lb/>manu positum est». Falsa est hec propositio, nam etsi parata 
+            <lb/>sunt ad oppugnandum et vincendum omnia, tamen multa fert 
+            <lb/>casus, multa fortuna in rebus bellicis.
+            <lb/>«Multi nec opinantes domi sunt oppressi. Horum unus etiam 
+            <lb/>texens, qui cum audisset urbem expugnatam non obseravit fores, 
+            <lb/>non fugit, non etiam surrexit; sed tanquam fieri non posset, 
+            <lb/>texere perseveravit atque ita sedens telam suam, antequam detexta 
+            <pb n="84"/>
+            <lb/>esset, sanguine suo tinxit». O imperitum hominem! Miror 
+            <lb/>equidem cur et alium mingentem non induxeris. Hoccine est historiam 
+            <lb/>scribere? Hoccine est illustrissimi et maximi regis res 
+            <lb/>gestas commendare? Huiuscemodi res, presertim tam inepte, 
+            <lb/>historie inserere? Frange igitur calamos vigilataque prelia dele, 
+            <lb/>queque facis dona Veneris bone Valla marito. Licuit tamen tibi 
+            <lb/>et huius rei mentionem facere, si modo illam apte et cum aliqua 
+            <lb/>dignitate verborum expressisses. Hominis constantiam laudans 
+            <lb/>atque ostendens, tantum in eo mortis contemptum fuisse, 
+            <lb/>ut cum patriam expugnatam diripi, et cives passim cedi videret, 
+            <lb/>tamen interritus ab opere non discessit donec, texendo perseverans, 
+            <lb/>occisus est. Sic rem cognitione et admiratione dignam effecisses: 
+            <lb/>que isto modo posita, puerilis atque irridenda est. Preterea 
+            <lb/>quam arida quamque exanguis sit ista oratio aliis iudicandum 
+            <lb/>relinquo.
+            <lb/>«Re bene ac feliciter gesta, proceres, exacta iam estate 
+            <lb/>appetit autumnus, ut quicquid ante hiemem agi posset, id non 
+            <lb/>magni sane momenti esse censendum sit. At maximi momenti 
+            <lb/>est curam in res Aragonie me intendere, meo pariter et publico 
+            <lb/>nomine. Iam primum plerosque vestrum audisse reor. Avunculum 
+            <lb/>meum Martinum regem diem suum obiisse, anno vertente, 
+            <lb/>post mortem Martini filii, quem ego cum classe venturum 
+            <lb/>ad hoc bellum, sicut uterque promiserat, sperabam. Ex quo primum 
+            <lb/>presidio, deinde consobrino, tum avunculo privatus sum 
+            <lb/>duobus regibus nulli principum nostra memoria secundis. Horum 
+            <lb/>morte regnum Aragonie ad me tanquam ceteris proximiorem 
+            <lb/>pertinet, ut semper a consultis viris accepi. Sed id mea 
+            <lb/>absentia ne vi occupetur summopere verendum est, et, ut ad 
+            <lb/>me perfertur, non via iudiciorum et viris, sed factionibus, potentia, 
+            <lb/>armis agitur. Quod si pro iustitia sua annitentes qui litigant, 
+            <lb/>tamen egre obtinent quod postulant, quid futurum de non 
+            <lb/>annitente putandum est, inter tot competitores et in aliis litibus 
+            <lb/>plerumque satis est habere bonam causam bonumque iudicem. 
+            <pb n="85"/>
+            <lb/>At in lite de regno contra improbitatem adversariorum male 
+            <lb/>nobiscum agitur, si in sola et cause et iudicis bonitate spem 
+            <lb/>ponimus. Armis ac potentia contra hostem armatum potentemque 
+            <lb/>opus est. Itaque si quid apud vos gratia mea valet, queso 
+            <lb/>mihi vestro consilio vires huius belli aliqua ex parte illuc transferre 
+            <lb/>liceat, ut populos ad recte iudicandum nostra auctoritate 
+            <lb/>inducamus, cum presertim hec res non modo ad benivolentiam 
+            <lb/>mei, ad honoremque iustitie spectet, sed etiam ad amplitudinem 
+            <lb/>regni, ad gloriam Hispanie, ad incrementum religionis. Etenim 
+            <lb/>si alius quam ego rex Aragonum creetur, inter quem ac regem 
+            <lb/>Castelle, ut memoria patrum scimus accidisse, discordia, ex 
+            <lb/>qua bella oriuntur, incidat, an speramus occupatos nos duplici 
+            <lb/>marte, ex utrisque hostibus victoriam reportaturos, aut Granatam 
+            <lb/>expugnaturos? Hoc ego ne si occulta quidem fuerint odia, 
+            <lb/>nedum si aperta, speraverim futurum. Quid si non simultas, sed 
+            <lb/>invidia subierit? Que nonnunquam magis ad nocendum valet, 
+            <lb/>quam ullus affectus, et odia conciliationem recipiunt, invidia 
+            <lb/>nullo pacto conciliari potest et hoc peius nocere solet, quo magis 
+            <lb/>ex occulto grassatur. Quid si metus? An aliquid est, quod 
+            <lb/>maiores aut crebriores habeat ad male cogitandum causas? 
+            <lb/>Castelle regnum in omni Hispania maximum est. Hoc, cetera ne 
+            <lb/>dicam, oderunt invidentque, certe metuunt, et ab eo sicut infirmiores 
+            <lb/>quadrupedes volucresve a leone, aut ab aquila cavent. 
+            <lb/>Nam rex Aragonum, etsi prepotens est ac maris, ut ait, dominus, 
+            <lb/>tamen eius vires multo minores fama sunt. Quid enim 
+            <lb/>Sardinie regnum male pacatum ac prope nominis Catalani inimicum 
+            <lb/>adiuvaret Aragonie regem, bella gerentem cum rege Castelle? 
+            <lb/>Quid Sicilia, que vix didicit iugum ferre alienigenarum, 
+            <lb/>queque, ut audio, iam nunc non satis quieta est? Omnis igitur 
+            <lb/>vis atque omne robur regis illius residet in Hispania. Que Hispania 
+            <lb/>cum nostra nequaquam est comparanda. Ex quo necesse est 
+            <lb/>humana imbecillitate metuat potentiorem. Ideoque inter eos reges 
+            <lb/>fere convenit, veluti conspiratos, ut inter se ament. Regem 
+            <lb/>Castelle vel destructum vel deminutum vellent. Quid si accedat 
+            <pb n="86"/>
+            <lb/>avaritia, omnium vitiorum magistra et parens? An si offulserit 
+            <lb/>spes Aragonie regi aliquo portu oppidove regni Granatensis pro 
+            <lb/>mercede potiendi, speratis fore, ut non inveniat causas, cur ab 
+            <lb/>hoste contra nos stet in bello? Quid si hec omnia aut certe plura 
+            <lb/>subsint, odium, invidia, metus, spes, quo tandem tempore existimatis 
+            <lb/>regnum hoc in nostram potestatem esse venturum? Quod 
+            <lb/>nostra etate hoc incommodi usu non venerit, propinquitas regum 
+            <lb/>Aragonie cum nostra domo, in causa fuit. Et iam extincta 
+            <lb/>in pristinum dissidium, primo quoque tempore redibitur. Ne 
+            <lb/>autem redeant, una ratione effici potest; ut hec duo regna sanguine 
+            <lb/>cohereant, hoc est ut ego rex illius regni declarer. Quod 
+            <lb/>commodum nimirum tanto plus erit quam fuit rege Martino, 
+            <lb/>Iohanne ac Petro, quanto ego coniunctior sum huic genti quam 
+            <lb/>illi fuerunt. Unde consociatis utriusque regni viribus, nullo negotio 
+            <lb/>barbarum perdomabimus, ut brevi tempore duo regna alia 
+            <lb/>nostre genti subsint, quod nunquam fando est cognitum, nec de 
+            <lb/>reliquis quoque duobus desperandum sit. Ita, quod in primis opto 
+            <lb/>et quo nihil mihi videre est longius, omnis Hispania Christianis 
+            <lb/>principibus obtemperabit. Quare vestrum est probare sententiam 
+            <lb/>meam ac cause favere, quicumque publice quidem amplitudinem 
+            <lb/>laudemque religionis et patrie amatis, privatim vero 
+            <lb/>dignitatem meam, potentiam, gloriam, iustitia et industria quesitam, 
+            <lb/>non sine aliqua ratione vestrorum commodorum, qui de 
+            <lb/>me estis benemeriti, quos multo prolixius remunerare ac magnificentius 
+            <lb/>potero rex, quam privatus. Nullum enim ex omni 
+            <lb/>mea felicitate fructum percipere me arbitrabor, quam dum iis, 
+            <lb/>quibus debeo gratiam et quidem cumulatissimam referam. Hec 
+            <lb/>Ferdinandus». Quid erat opus, artificiose rhetor, hac artificiosa 
+            <lb/>exornatione? Quo spectat? Quid agit? Quid sibi vult? Dixeras 
+            <lb/>ante non iudicio, non iure, sed factione, potentia, armis de regni 
+            <lb/>Aragonie possessione agi. Postea hec subdis, inducens argumentum 
+            <lb/>a minori, quasi ea res obscura sit, vel in dubium 
+            <pb n="87"/>
+            <lb/>venire possit: si, postquam dixeras, non via iudiciorum, sed potentia 
+            <lb/>et armis certari, statim subdidisses illud, quod a te post 
+            <lb/>argumentationem hanc dicitur: armis ac potentia contra hostem 
+            <lb/>armatum ac potentem opus est, belle a te dictum confiterer. 
+            <lb/>Itaque totum illud superflue ac vitiose prolatum puto. Nec profecto 
+            <lb/>minus improbo subsequentis argumentationis tue in tot 
+            <lb/>capita distinctionem. Cum enim ostendere propositum sit discordiam 
+            <lb/>inter Hispanie et Aragonie reges oriri posse, quid oportebat 
+            <lb/>enumerare causas, unde bella oriri soleant? Cum satis esset 
+            <lb/>in modo dicere, posse aliquando bellum inter ipsos reges excitari, 
+            <lb/>quod si accideret, fore ut gravissima belli necessitas Hispano 
+            <lb/>regi incumberet: presertim si ad Aragonici regis partes 
+            <lb/>barbarus rex accederet. Et in demonstrandis utriusque regis 
+            <lb/>opibus non erat indecens te longiorem esse. Sed in eo scilicet 
+            <lb/>occupatus es, ut docens bellum aut odio, aut simultate, aut invidia, 
+            <lb/>aut metu, aut avaritia nasci solere. Quasi vero non aliis 
+            <lb/>de causis bellum oriri possit. An ignoras interdum suspicione 
+            <lb/>iniurie, interdum aliena gloria, interdum feminarum raptu, vel 
+            <lb/>alia huiuscemodi gravi causa atrocissima bella suscitari? Sed 
+            <lb/>non erat opus hoc loco, bone orator, ad eas species devenire, 
+            <lb/>que magis ostentationem quandam artificii quam prudentiam significare 
+            <lb/>videantur. Crede mihi nisi ingenii tui rectum ac sincerum 
+            <lb/>sit iudicium, frustra laborabis cum artificio tuo, etiam si 
+            <lb/>ea re Ciceronem vel Quintilianum, quem illi preponis, exsuperes. 
+            <lb/>Quid quod in eadem re tibi ipsi non constas, sed aperte contradicis? 
+            <lb/>Hec sunt verba tua ne calumniari me putes: «Etenim si 
+            <lb/>alius quam ego rex Aragonum creetur, inter quem ac regem 
+            <lb/>Castelle, ut memoria patrum scimus accidisse, discordia, ex qua 
+            <lb/>bella oriuntur, incidat. An speramus occupatos nos duplici marte 
+            <lb/>ex utrisque hostibus victoriam reportaturos aut Granatam expugnaturos?» 
+            <lb/>Ac paulo post subdis: «Castelle regnum in omni 
+            <lb/>Hispania maximum est. Hoc, cetera ne dicam, oderunt invidentque, 
+            <lb/>certe metuunt et ab eo sicut infirmiores quadrupedes volucresve 
+            <pb n="88"/>
+            <lb/>a leone, aut ab aquila cavent. Nam etsi rex Aragonum 
+            <lb/>prepotens est ac maris, ut ait, dominus, tamen eius vires multo 
+            <lb/>minores fama sunt. Quid enim Sardinie regnum male pacatum, 
+            <lb/>ac prope nominis Catalani inimicum, adiuvaret Aragonie regem, 
+            <lb/>bella gerentem cum rege Castelle? Quid Sicilia, que vix didicit 
+            <lb/>iugum ferre alienigenarum, queque, ut audio, iam nunc non 
+            <lb/>satis quieta est? Omnis igitur vis atque omne robur regis ipsius 
+            <lb/>residet in Hispania. Que Hispania cum nostra nequaquam comparanda 
+            <lb/>est». In priori parte ostendis timendam esse Hispano 
+            <lb/>regi discordiam ac bellum Aragonici regis, tua enim verba hunc 
+            <lb/>sine dubio sensum habent, ut sit timendum, si Aragonicus rex 
+            <lb/>cum barbaro se coniungat, ne Hispanus rex utrisque resistere 
+            <lb/>non possit. Sed contorte sententiam istam dicis. In posteriore 
+            <lb/>vero parte ostendis non esse metuendas Aragonici regis vires 
+            <lb/>Hispano, quoniam Castelle sive Bethice et Lusitanie regnum, ut 
+            <lb/>antiqui dicerent, omnium regnorum Hispanie maximum atque 
+            <lb/>opulentissimum sit et ceteris regnis omnibus formidabile, quod 
+            <lb/>regis Aragonici vires minores fama et opinione hominum sint, 
+            <lb/>quod Sardiniam inimicam habeat, quod Siciliam inquietam et rerum 
+            <lb/>novarum cupidam, quod denique omne robur in ea Hispanie 
+            <lb/>parte, quam tenet, positum sit, que cum ulteriore Hispania 
+            <lb/>nequaquam sit conferenda. Sed hec quidem hactenus.
+            <lb/>Hec sunt, Laurenti, que ut illustriora cursim annotavi in 
+            <lb/>primo magnificentissimi operis tui libro, in quo etiam plura errata 
+            <lb/>consulto preterii, ne vel minutissima queque colligere videar 
+            <lb/>et in eo scilicet te ipsum imitari, qui, nihil aquilinum in 
+            <lb/>te habens, musculas semper in alienis operibus, tanquam araneus, 
+            <lb/>curiosissime aucuparis atque insequeris. Nunquam profecto 
+            <lb/>eo tempore quo te amico et benivolo me uti putabam, tibi aliquid 
+            <lb/>meum ostendi, in quo grave quippiam et censore dignum animadverteris. 
+            <lb/>Percurram, sed per otium, et duos posteriores libros, 
+            <lb/>in quibus iam nunc mihi videre videor innumerabiles errores, 
+            <lb/>quos nolo in occulto esse, ut agnoscatur quam bonus grammaticus 
+            <lb/>quamque preclarus rhetor existas, qui te unum grammaticum 
+            <pb n="89"/>
+            <lb/>et rhetorem esse non tantum existimas, sed etiam gloriando 
+            <lb/>predicas. Maxime vero congruit opus istud cum sermone 
+            <lb/>tuo, qui cum in ea urbe educatus sis, in qua eloquentie princeps 
+            <lb/>Cicero regnum forense tenuit, nihil minus Romanum minusve 
+            <lb/>Tullianum quam linguam habes. Est tibi, fateor, sermo promptus, 
+            <lb/>sed certe barbarus, incultus et indocti hominis sermoni simillimus. 
+            <lb/>Idem etiam iudicari licet ex omnibus reliquis operibus 
+            <lb/>tuis, in quibus oratio omnis tua plebeia sine elegantia, sine 
+            <lb/>dignitate, sine sale, enervis, ieiuna et exanguis esse 
+            <lb/>deprehenditur.
+            <lb/>Que sit ingenii atque eloquentie tue vis mihi satis demonstrasse 
+            <lb/>videor. Nunc, ut de moribus aliquid dicam, que sit imprudentia 
+            <lb/>atque intemperantia tua paucis docebo. Imprudentia quidem 
+            <lb/>ea est (imprudentia ne dicam an dementia) ut nesciam quo 
+            <lb/>pacto possit esse maior. Nam cum prudentie prima pars sit, se 
+            <lb/>ipsum agnoscere, proxima alios, tu certe nec te ipsum nec alios 
+            <lb/>agnoscis. Sed de te uno quam optime existimans, ceteros omnes 
+            <lb/>contemnis ac negligis. Non legisti Delphicum illud, ut opinor 
+            <lb/>celitus demissum, quod latine interpretatum «Nosce te ipsum» 
+            <lb/>designat, vel, si legisti, utique negligendum putasti. Altera pars 
+            <lb/>imprudentie tue est, quod cum putes te solum scire omnia, incognita 
+            <lb/>pro cognitis plerumque habes et ob eam rem in maximis 
+            <lb/>persepe versaris erroribus. Ex hoc imprudentie fonte manat 
+            <lb/>tua illa obscurissimarum et infructuosarum artium pererratio. 
+            <lb/>Que res quantum a prudentia remota quamque distracta sit, 
+            <lb/>Senecam unum auctorem affero. Voluisti omnia artium et scientiarum 
+            <lb/>genera percurrere, nec huic nec illi insistens, sed modo hanc modo 
+            <lb/>illam olfaciens, tanquam apis que ex omnibus floribus 
+            <lb/>nullum omnino relinquit intactum, quamquam illa hoc te 
+            <lb/>prestantior, quod facit mella dulcissima, cum tu favos sardoniis 
+            <lb/>herbis vel absintiis amariores effingas. Sed de imprudentia satis 
+            <lb/>dictum sit. Quid autem de intemperantia dixerim, ex qua temeritas, 
+            <pb n="90"/>
+            <lb/>arrogantia, impudentia ac maledicentia nascuntur? Que 
+            <lb/>omnia in te insignia esse perspicuum est. Potestne esse aut excogitari 
+            <lb/>quispiam ex omni hominum numero magis temerarius, 
+            <lb/>qui eo usque ineptiarum progressus es, ut nullo respectu, nulla 
+            <lb/>ratione persone, loci et temporis habita, inter colloquentes serio 
+            <lb/>te ingeras, interpelles, sermonem seras, sententias eructes? Quotiens 
+            <lb/>ego te vidi, legente Antonio Panormita, eruditissimo viro, 
+            <lb/>Livium apud hunc excellentissimum regem nostrum, ceteris qui 
+            <lb/>aderant per summum silentium audientibus, illum a te interpellari 
+            <lb/>et molestas disputationes a te inferri, nec tempori certe 
+            <lb/>nec loco consentaneas? Ut sepe miratus sim tam patientes esse 
+            <lb/>regis aures, quin te sublimem rapi ac loris cedi, tanquam loquacem 
+            <lb/>ac molestum interpellatorem iusserit. Decantantem in compitis 
+            <lb/>fabulosa nemo est qui interpellet, nemo qui maledictum 
+            <lb/>arguat: tu doctissimum hominem de seriis ac maximis rebus 
+            <lb/>legentem interrumpes? Nescis, imperite, nescis adstantis officium 
+            <lb/>esse per silentium audire? Aut discere certe vis, aut docere: 
+            <lb/>si discere, silendum est, si docere, ridiculus es, qui eum 
+            <lb/>docere velis, qui regem doceat quive ut illum doceas, nihil postulet. 
+            <lb/>Huius temerarie loquacitatis et intempestive interpellationis 
+            <lb/>tue quando per imprudentiam peccares, admonere te saltem 
+            <lb/>debuit reliqui conventus taciturnitas. Quemnam enim vides in 
+            <lb/>toto consessu et circumstantium cetu nisi interrogante rege, 
+            <lb/>preter te unum, lectorem interpellare? Disce igitur ex aliis modestus 
+            <lb/>esse, quandoquidem rationis inopia per te modestus esse 
+            <lb/>non potes, atque ubi maior te loquatur, silere disce et lingue 
+            <lb/>tue frenum adhibe. Sed certe hoc nunquam mihi concedes propter 
+            <lb/>innatam arrogantiam tuam, que eo usque processit, ut neminem 
+            <lb/>putes preter te unum doctum esse, Guarinum atque Aretinum, 
+            <lb/>duo lumina et ornamenta Italie, te ipso inferiores ducens. 
+            <lb/>Audivi te sepe dicentem, cum eorum auctoritatem efferrem: 
+            <lb/>«Quem tu mihi Guarinum? Quem tu mihi Aretinum commemoras? 
+            <lb/>Nanque utrumvis eorum mihi preferri indignor ac moleste 
+            <lb/>fero: et ego quoque litteras grecas et latinas scio et cum utroque 
+            <pb n="91"/>
+            <lb/>sepe de gravissimis rebus disputavi atque contendi, qua 
+            <lb/>in re illi mihi nonnunquam cessere». Antonium Panormitam, 
+            <lb/>singularem poetam (et quo magis vituperandus es) optime de te 
+            <lb/>meritum, a rege atque adeo ab omnibus prestantissimum iudicatum 
+            <lb/>et in magno honore habitum, irrides atque despicis. Sed 
+            <lb/>quid mirandum est illos a te sperni, qui nostra etate nati sunt, 
+            <lb/>quorum laudes propter invidiam equis auribus ferre non potes, 
+            <lb/>cum etiam antiquis auctoribus, et his quidem probatissimis et 
+            <lb/>clarissimis, detrahas? Priscianum, optimum grammatice auctorem, 
+            <lb/>nescisse grammaticam arguis, cuius te plus quam ducentos 
+            <lb/>errores correxisse gloriaris, cum tu ipse, ut paulo ante ostendi, 
+            <lb/>grammaticam ignores. Ciceronem, e cuius cerebro eloquentia 
+            <lb/>nata dici potest, ut e Iovis cerebro Minervam illam aiunt, in 
+            <lb/>traditione preceptorum artis multos errores commisisse predicas. 
+            <lb/>Quin etiam in eum impudenter ausus es invehi, Aristotelem 
+            <lb/>quoque petulantissimis verbis ledis, quem dialectice nescium 
+            <lb/>fuisse dicis, quam quidem scientiam, ante omnes quas tenuit 
+            <lb/>et de quibus tradidit, scivisse dicitur. Nec Livio quoque pepercisti, 
+            <lb/>cum nescio quam historiam de Tarquiniis non satis scisse 
+            <lb/>deblacteras. Boetium quoque, eruditissimum virum, mordere ausus 
+            <lb/>es, illum de predestinatione male sensisse arguens. Nec a 
+            <lb/>iurisconsultis quoque abstinuisti, Bartholum virum sapientissimum 
+            <lb/>existimatum incessens et ius civile ab eo perperam interpretatum 
+            <lb/>asserens, in quem cum invectivam quandam Papie 
+            <lb/>edidisses, ab iis qui legibus operam dabant discerptus fuisses, 
+            <lb/>nisi te e templo quodam elapsum et mori velle clamitantem, Antonius 
+            <lb/>Panormita eius intercursu ex illorum manibus eripuisset. 
+            <lb/>Augustinum quoque, sive Hieronymum, quibus nihil habet religio 
+            <lb/>nostra prestantius, carpis nec verbis modo, sed etiam scriptis 
+            <lb/>erratum a se dictitans. Denique nec vivo nec mortuo cuique 
+            <lb/>parcis, scilicet in id studens, ut tibi ex aliena vituperatione laudem 
+            <lb/>vendices. Me vero (ut etiam aliquid de me dicam), qui nullam 
+            <lb/>tibi iniuriam feceram quod sciam, convitiis insectaris, minutissimum 
+            <pb n="92"/>
+            <lb/>appellans inter minutissimos. Fateor me quidem corpore 
+            <lb/>minuto esse: te vero ingenio animoque et cerebro diminuto. 
+            <lb/>Sed ut Hortensii ad Torquatum verbis utar, qui illum Dionysiam 
+            <lb/>saltatriculam appellabat, sic minutus esse malo quam 
+            <lb/>quod tu, Laurenti, quem grammatici contemnunt, oratores irrident, 
+            <lb/>philosophi floccifaciunt, theologi damnant, immo vero igni 
+            <lb/>subiiciendum iudicassent in episcopali templo, cum de te ut de 
+            <lb/>heretico et de fide Christiana male sentiente existimarent, nisi 
+            <lb/>supplex, monentibus quibusdam misericordia commotis, errorum 
+            <lb/>tuorum veniam a iudicibus petere festinasses. Si quis autem in 
+            <lb/>conventu aliquo sermo habetur, continuo sermonem ad laudem 
+            <lb/>tuam refers, opera tua extollens, aliena deprimens, tua 
+            <lb/>solum legenda iactitans. «Elegantiarum, inquis, librum composui, in 
+            <lb/>quo (utar enim verbis tuis) sunt duo milia rerum que non erant 
+            <lb/>note nostris, nisi ego fuissem. Repastinationem dialectice et philosophie 
+            <lb/>edidi, que Laurentiana appellatur, que anteponenda est 
+            <lb/>omnium dialecticorum et philosophorum scriptis». dic, queso, 
+            <lb/>unde istas disciplinas didicisti? Num ab his quos damnas, an 
+            <lb/>a te ipso? Si ab his quos vituperas, at tibi turpe est eos contemnere, 
+            <lb/>a quibus didiceris. Si vero a te ipso et sine preceptore, 
+            <lb/>ut ipse predicas, scientia ista tua omnino nulla est. «Librum de 
+            <lb/>summo bono conscripsi, quo nihil est scriptum hac nostra tempestate 
+            <lb/>illustrius. Alia insuper multa effeci, que summo usui 
+            <lb/>sunt, non solum mediocribus, sed etiam doctis hominibus». O 
+            <lb/>elegantissimum elegantiarum scriptorem, qui cum ipse nec dicere 
+            <lb/>nec scribere eleganter scias, tamen de elegantia tradere 
+            <lb/>precepta audeas! Repastinationem logice et philosophie condidisti, 
+            <lb/>nomen mehercule operi conveniens! Tu enim cum arator, magis 
+            <lb/>quam orator sis, logicam identidem ut vitem repastinari putasti, 
+            <lb/>in qua quidem tot peccata abs te commissa audio, ut plura prope 
+            <lb/>errata quam verba insint. Quamquam si que sunt, que laude 
+            <lb/>digna videantur, aliena sunt omnia. Librum de summo bono te 
+            <pb n="93"/>
+            <lb/>scripsisse gloriaris, qui quidem a patruo tuo docto homine, ut 
+            <lb/>accepi, conditus fuit, quem tanquam fucus labores apum devorans 
+            <lb/>in alvearia tua, mutatis quibusdam verbis, furtim coniecisti, 
+            <lb/>quamquam in furto deprehensus es, cum forte Antonii Lusci, 
+            <lb/>qui in eo opere a patruo inducebatur, nomen delere forte oblitus 
+            <lb/>esses. Quod idem de Homeri traductione effecisti? Cum enim 
+            <lb/>opus illud latinum factum scisses Florentie esse, ubi iam supra 
+            <lb/>centesimum annum est et in Nicolai Nicoli bibliotheca visum, 
+            <lb/>paucis quibusdam permutatis, permutatis ne dicam an perversis, 
+            <lb/>tuum efficere voluisti. Sed tibi parum creditum est, presertim 
+            <lb/>cum sint qui intelligant, quam minimum grecarum litterarum 
+            <lb/>teneas. Crede mihi, crede mihi, inquam, Laurenti, sunt iudices 
+            <lb/>qui tuam insolentiam non ferunt. Cum in aliquo cetu es, ubi 
+            <lb/>nullus sit grecarum litterarum doctus, continuo grecissas; ubi 
+            <lb/>grecus quispiam superveniret, latinissas. Ita sit, ut inter grecos 
+            <lb/>latinus sis, inter latinos grecus, inter utrosque neuter. Peream, 
+            <lb/>nisi malim penitus ignorare litteras grecas, quam illarum tam 
+            <lb/>parvam quam te scientiam attigisse, quibus ne aspersus quidem 
+            <lb/>es, ut si quis a te petat quo modo τύπτω verbum declinetur, 
+            <lb/>ignores. In ede sacra libellum grece scriptum legis spectante 
+            <lb/>populo, ut vulgo grece doctus esse videaris. Et tamen quanvis 
+            <lb/>ita sit, tanta est in te pudoris inopia ut grecorum veterum more 
+            <lb/>de quacumque materia et scientia te in publico disputare velle 
+            <lb/>alias proposueris, cum apud quesitorem accusatus esses. Ede 
+            <lb/>quid illum esse putes? Quenvis hominem secum attulit ad nos. 
+            <lb/>Grammaticus, rhetor, geometres, pictor, aliptes, augur, schenobates, 
+            <lb/>medicus, magus? Omnia novit. Quid illa tua in disputando 
+            <pb n="94"/>
+            <lb/>pertinacissima contentio, que tanta est, ut nullis unquam 
+            <lb/>rationibus te vinci sinas, nunquam alicui cedas, omnes mortales 
+            <lb/>te uno virtute ac sapientia inferiores ducens? Quin etiam, si intelligis 
+            <lb/>alienam scientiam meliorem esse quam tuam, tamen ea 
+            <lb/>est pervicacia tua, ut malis in opinione tua impudentissime persistere, 
+            <lb/>quam errorem tuum atque inscitiam confiteri. Quod quidem 
+            <lb/>a sapientia dissidet plurimum. Sed quid ego plura de ineptiis 
+            <lb/>tuis nunc proferam, quarum profecto nunquam posset exitus 
+            <lb/>inveniri? Illud unum si dixero, quod plane reticere non possum 
+            <lb/>huic parti finem statuam. Quid nam illud est? O arrogantissimum 
+            <lb/>hominem, ausus es profiteri apud regem dum legeretur 
+            <lb/>et apud quem regem, regem, inquam, summe sapientie summique 
+            <lb/>iudicii, te emendaturum omnes depravationes, que in operibus 
+            <lb/>Livii librariorum vitio ceciderunt. Quod nec Aretinus, nec 
+            <lb/>Guarinus, nec ante eorum etatem Franciscus Petrarcha, nec 
+            <lb/>multi alii nostre etatis doctissimi viri corrigere ausi sunt. Id tu, 
+            <lb/>homo indocte, corrigere audebis? Si corrigi liceret proprio arbitratu 
+            <lb/>atque iudicio, quod a te fieri intelligo, quot censes esse, 
+            <lb/>qui te hac parte superarent, a quibus ingenio et eloquentia vinceris, 
+            <lb/>qui pudore ac modestia id facere desinunt? Sed nescis 
+            <lb/>adhuc, ut video, qua ratione textus corrigendi sint. At ego illud 
+            <lb/>ostendam et gratis. Oportet enim in emendando aliquo depravato 
+            <lb/>ut similitudo et numerus litterarum conveniat. Sed quid 
+            <lb/>ego hec ad te? Qui cum nihil recte scias, omnia te rectissime 
+            <lb/>tenere non solum putas, sed etiam gloriaris? Quanta vero impudentia 
+            <lb/>sis, quanvis ex superioribus satis declaratum sit atque 
+            <lb/>omnibus notum, tamen hoc unum abunde testatur, quod quamvis 
+            <lb/>sepius apud regem et alios plerosque clarissimos viros, tuorum 
+            <lb/>puerilium circa latinitatem errorum convictus fueris, tamen non 
+            <lb/>erubescis quotidie eodem reverti, et de his que leguntur disputare 
+            <lb/>cum magno astantium risu. Quorum alius te ut imprudentem, 
+            <lb/>alius ut impudentem, alius ut temerarium et insanum increpat, 
+            <lb/>femine impudice persimilis, que amissa semel pudicitia, 
+            <pb n="95"/>
+            <lb/>ore, ut dici solet, pro clipeo utitur. Nec mirum. «Nam quis peccandi 
+            <lb/>finem posuit sibi? Quando recepit eiectum semel attrita 
+            <lb/>de fronte ruborem?» Ut ait satyrus noster. Sed desinam hoc 
+            <lb/>loco plura de vitiis tuis dicere, que quidem ipse corporis motus 
+            <lb/>clare indicat: erecta cervix, lingua loquax, gesticulatrix manus, 
+            <lb/>gressus concitatior. Recognosce igitur aliquando te ipsum, 
+            <lb/>ut, te ipso cognito, alios non negligas. Ac tandem temeritate, insolentia, 
+            <lb/>maledicentia et impudentia deposita, modestus et temperans 
+            <lb/>esse disce. Cuius consuetudinem vides omnes viri boni 
+            <lb/>aspernantur atque ut vesanum effugiunt. Hec ego abs te lacessitus, 
+            <lb/>Laurenti, licet invitus, ac preter naturam et consuetudinem 
+            <lb/>meam scribere statui ut, si quam mihi detrahendo voluptatem 
+            <lb/>ebibisti, hanc totam male de te legendo evomas.
+          </p>
+      </div>
+      <div n="2">        
+            <head>BARTHOLOMAEI FACCII IN LAURENTIUM VALLAM <lb/>INVECTIVA SECUNDA INCIPIT</head>
+        <p>
+            <lb/>Statui quod promiseram prestare, Laurenti, ne quis me putet 
+            <lb/>aut timore deterritum obticuisse, aut libros duos postremos, 
+            <lb/>quos de rege Ferdinando scripsisti reprehensione carere, in quibus 
+            <lb/>longe maiora vitia profecto repperi quam in primo, presertim 
+            <lb/>cum te audiam maledictis et obtrectationibus haud finem 
+            <lb/>facere librumque meum <title rend ="italic">De vite felicitate</title> carpere atque contemnere; 
+            <lb/>quem si scirem tibi probari vererer sane ne sapientibus 
+            <lb/>improbaretur; ut nullum mihi firmius maiusve argumentum 
+            <lb/>relinquatur ipsum improbandum non esse, quam quod illum 
+            <lb/>improbes. Quippe cum nullius iudicii sis, ita etiam habeare, ab 
+            <lb/>his presertim qui excellenti ingenio ac doctrina prediti iudicio 
+            <lb/>pollent. Neque enim quisquam eorum est, qui non intelligat morbo 
+            <pb n="96"/>
+            <lb/>quodam animi et rationis rectique iudicii defectu a te omnes 
+            <lb/>vituperari ac floccifieri, maxime cum non minus mortuos, et 
+            <lb/>eos quidem omnes, qui summam auctoritatem eorum scriptis consecuti 
+            <lb/>sunt; quam homines eruditos ac probos etatis nostre persequaris, 
+            <lb/>quos quotidie mordes, laceras, spernis. Quibus me aliqua 
+            <lb/>ex parte patrocinium non prestare mihi turpe ducerem, 
+            <lb/>quando illorum beneficio, si quid est in me doctrine, excultus 
+            <lb/>sum. Non sum tamen confutaturus hoc loco, que contra illos 
+            <lb/>scripsisti, id enim fuerit alterius temporis, quoniam magnitudo 
+            <lb/>voluminis modum non caperet. Sed tamen ostendam ex erroribus, 
+            <lb/>quos in hoc tuo historiarum, vel potius nugarum libro, imprudentissime 
+            <lb/>commisisti, tuum de illorum operibus iudicium 
+            <lb/>frivolum et contemnendum esse. Quos cum legis discipulis tuis 
+            <lb/>non tam in illis exponendis quam damnandis occupatum esse te 
+            <lb/>audio, totamque lectionem tuam in illis reprehendendis consumi. 
+            <lb/>Quo facto adolescentium animos depravas et impudentia quadam 
+            <lb/>ac infinitis erroribus imbuis. In primis vero docebo secundi libri 
+            <lb/>tui vitia, post id paucis vero respondebo iis, que reprehendis in 
+            <lb/>opusculo meo. Tertii libri reprehensio alterius laboris fuerit, singulorum 
+            <lb/>enim librorum singillatim confutationes facere institui, 
+            <lb/>quo melius prudentia et eloquentia tua perspici ac diiudicari 
+            <lb/>queat. At ne sim longior, ad rem ipsam disquirendam veniamus. 
+            <lb/>Hec est oratio tua que sequitur.
+            <lb/>«Hic cum cerneret regem subinde, ut putabat, orationi sue 
+            <lb/>indormientem, quod oculis conniventibus capiteque dimisso sterteret, 
+            <lb/>intersistebat. Rex vero contra cognoscens cur interquiesceret 
+            <lb/>iubebat eum pergere, non enim se dormire, etsi oculis 
+            <lb/>clausis sterteret. Aut si corpus dormiret, non tamen dormire 
+            <lb/>animum». Hoc quidem in primis contra precepta narrationis de 
+            <lb/>verisimilitudine abs te dictum est. Non enim solum veram, sed 
+            <lb/>etiam verisimilem narrationem esse oportet, si sibi fidem vendicare 
+            <lb/>velit. Cui enim credibile videatur, regem legatos audientem, 
+            <lb/>non dicam stertere sed dormire? An tibi parum videbatur esse 
+            <lb/>illum dormitantem facere? An ignoras id indecorum regie maiestatis 
+            <lb/>esse? Non regem, sed ebrium quendam hominem videris 
+            <lb/>velle demonstrare; quem si animi torpor ex corporis langore 
+            <pb n="97"/>
+            <lb/>proficiscens interdum rapiebat, tamen stertentem inducere vitiosum 
+            <lb/>fuit. Scribendum est enim sic, bone magister artis, ut 
+            <lb/>personarum dignitates serventur, alioquin probabilis non erit 
+            <lb/>narratio sibique fidem derogabit.
+            <lb/>«Sunt qui dicant nullo pacto, nec medicorum arte, nec multifariis 
+            <lb/>machinis potuisse eum vel concumbere cum muliere, vel 
+            <lb/>puelle virginitatem demere. Licet mater alieque nonnulle femine 
+            <lb/>velut ministre puelle adessent, licet quoque viri aliquot 
+            <lb/>auxilio regi essent, qui ventrem quasi appensum per fascias a 
+            <lb/>lacunari pendentes, quibus tumor proni ventris cohiberetur, dimitterent 
+            <lb/>eum sensim in gremium puelle ac sustinerent». Et 
+            <lb/>hoc quoque a te multo vitiosius prolatum est. Est enim primum 
+            <lb/>contra preceptum brevitatis. Nam sepe satis est quod factum 
+            <lb/>sit dicere, non ut narres quenadmodum factum sit. Satis enim 
+            <lb/>id fuerat: «Sunt qui dicant regem nulla arte nullove consilio 
+            <lb/>ex regina liberos gignere potuisse», ut non fuerit necesse que 
+            <lb/>turpia sunt auditu referre. Potest etiam argui id esse contra 
+            <lb/>probabilitatis preceptum, de quo ante dictum est, quod dignitates 
+            <lb/>personarum servate non sint. Quid enim turpius dici potest, 
+            <lb/>quam quod rex presente socru et etiam adiuvante cum 
+            <lb/>uxore coierit? Quid inhonestius, quam quod socrus generi virilia 
+            <lb/>spectaret? Quid indecentius, quam quod regina pudicissima corpus 
+            <lb/>suum spectandum daret iis, qui regem adiuvabant? Hoc 
+            <lb/>vel meretrix impudica abhorreret, quod tu regine honestissime 
+            <lb/>tribuis. Sed hoc hactenus.
+            <lb/>«Neque plane esse illegitimum quod ex patre celibe ac 
+            <lb/>matre innupta». Celibem hominem puto dicis, qui vitam celestem 
+            <lb/>in terris agat, procul ab uxore et femine concubitu. Tu 
+            <lb/>autem illum ex celibe natum esse vis; quem si continentem appellasses, 
+            <lb/>aliquanto magis proprie dixisses.
+            <lb/>«Prophetare tamen audere». Semper, ut video, in summa 
+            <lb/>copia laborabis verborum inopia. Dic, queso, ubinam apud Livium 
+            <lb/>aut Cesarem aut Sallustium hoc verbum repperisti? Cum 
+            <pb n="98"/>
+            <lb/>historiam scribas, historiographos imitari debuisti, qui id tum 
+            <lb/><distinct rend ="italic" type="ling">divinare</distinct>, tum <distinct rend ="italic" type="ling">presagire</distinct>, tum <distinct rend ="italic" type="ling">augurari</distinct>, tum <distinct rend ="italic" type="ling">vaticinari</distinct>, tum <distinct rend ="italic" type="ling">ariolari</distinct> 
+            <lb/>dixerunt: ut unum e tam multis tibi in mentem venire debuerit. 
+            <lb/>Sed aliquid ecclesiasticum scribere te putasti.
+            <lb/>«Primum habitans in predio suo, cui nomen Pulcher Aspectus, 
+            <lb/>de quo supra dixi, deinde in habitaculis monasterii in Valle 
+            <lb/>Donzelle non procul a muris». Hoc quidem precepto brevitatis 
+            <lb/>in primis repugnat, quod est «etsi non longius quam scitu 
+            <lb/>opus est, in narrando procedetur». Quid enim oportebat sciri ubi 
+            <lb/>rex primum habitasset? Solum id dicere ubi habitaret satis 
+            <lb/>fuit, si et de loco ubi divertebat mentio necessario facienda 
+            <lb/>erat; cum id quod neque obest, neque adiuvat, preterire satius sit. 
+            <lb/>Sed quam eleganter ista dicas, alterius sit iudicium.
+            <lb/>«Nunc referam id quod an veneni, an pestis, an alterius 
+            <lb/>rei sit signum medici viderint, quod ipse qui vidit, quid fuerit 
+            <lb/>se scire negat idem qui regem perisse veneno non credit, is 
+            <lb/>est Borra, scurrarum eximius, quattuor et octaginta hodie natus 
+            <lb/>annos, necdum a scurrando vacans. De quo ne quis miretur 
+            <lb/>me mentionem facere, in tanta fuit apud complures semper 
+            <lb/>reges dignitate, ne dicam an opinione, an benivolentia, ut eum in 
+            <lb/>libris meis fastidire non debeam, quem reges nullo quamlibet 
+            <lb/>serio in negotio fastidierunt, cum presertim (quod apud vulgi 
+            <lb/>opinionem valet plurimum) dives sit adeo ut ad centum milia 
+            <lb/>aureorum profiteri possit: vir profecto natus ad exprobrandum 
+            <lb/>litterarum scientieque ac sapientie studiosos, qui doctrinam non 
+            <lb/>veri contemplatione, non summi boni fine, non ipsa virtutum 
+            <lb/>laude, sed pecunia et umbratili populorum honore metiuntur. 
+            <lb/>Ad hos quotidianum Borre convitium pertinet, dicentis plus se 
+            <lb/>honoris et pecunie comparasse dum stultum agit, quam qui litterarum 
+            <lb/>et sapientie studiosi vocantur. Quod cum audiunt plerique 
+            <lb/>litterati ornatumque hominis regalem vident et erubescunt 
+            <lb/>et dolent, et, si vera fateri volunt, etiam invident. Nimirum 
+            <pb n="99"/>
+            <lb/>infra omnes scurras, histriones mimosque detrudendi, male 
+            <lb/>meriti de liberalibus artibus, quibus invidiosam esse vitam scurrilem 
+            <lb/>volunt. Hic igitur Borra de numero illorum erat, qui suis 
+            <lb/>rebus non sibi timerent, in quibus asportandis, cum aliquot horis 
+            <lb/>districtus fuisset, tandem ad conspectum rediit regis. Cui 
+            <lb/>ille vix supetente voce: «Unde, inquit, domine Borra, qui tam 
+            <lb/>diu abfuisti?» Hic simul ut rem dissimularet, simul ut regem 
+            <lb/>cupidum suavis alloquii, si posset hilaritate afficeret: «Ego 
+            <lb/>vero, inquit, e vicina vinea redeo, ubi nescio qui hinulum meum 
+            <lb/>per caudam ad ficum suspenderat, quasi ficos furto adisset, 
+            <lb/>qui nondum maturi sunt». Ad hanc facetiam cum rex arrisisset, 
+            <lb/>mox animam celerius agere cepit. Borra, ut erat ex adverso, 
+            <lb/>videbat umbram quandam, breve loci spatium occupantem, paulatim 
+            <lb/>a medio ventre ascendentem, prout anima inferiora continenter 
+            <lb/>relinquebat, ubi ad guttur evasit, et ipsa evanuit». Commisisti 
+            <lb/>hac in parte tot errores supinos et crassos, qui satis essent, 
+            <lb/>quando nusquam alibi peccasses, ad te perpetuo vituperandum damnandumque. 
+            <lb/>Hos profecto vix crederem a te commissos esse, quanvis 
+            <lb/>omnia inscitie et ruditatis exempla de te credi possint, nisi 
+            <lb/>librum tua manu correctum et in marginibus rubris litteris annotatum, 
+            <lb/>hisce oculis vidissem. Quis enim credat hominem, qui 
+            <lb/>se principem et doctorem omnium artium et scientiarum profiteatur, 
+            <lb/>in tot errata incidisse? Profecto si quid in te ruboris 
+            <lb/>esset, quem iam pridem amisisti, non auderes in hominum 
+            <lb/>doctorum oculos venire. Sed quid iuvat te hominem pertinacem 
+            <lb/>admonere? Rem ipsam potius exquiramus. Primum ubi dicis: 
+            <lb/>«Is est Borra, scurrarum eximius». Contra artem facis, nisi 
+            <lb/>forte Quintilianus, quem artificio anteponis Ciceroni, hoc te docuit. 
+            <lb/>In re enim gravissima, que est veneni questio, levissimum 
+            <lb/>testem adducis, et quem laudare a prudentia et virtute testem 
+            <lb/>debes, hunc a scurrilitate non laudas, sed vituperas. Quod dicis: 
+            <lb/>«Necdum a scurrando vacans», id perspicue contra brevitatem 
+            <lb/>esse dignoscitur. Quid enim scitu opus est, an adhuc se scurram 
+            <pb n="100"/>
+            <lb/>gerat, nec ne? Ut omittam verbum illud «scurrando», quod 
+            <lb/>rarissime usitatum est et pro obsoleto habendum, ut puto. Quod 
+            <lb/>dicis: «Ne quis miretur me mentionem facere, in tanta fuit 
+            <lb/>apud complures semper reges, dignitate ne dicam an opinione 
+            <lb/>an benivolentia, ut eum in libris meis fastidire non debeam»: 
+            <lb/>vide quantum erres ? Videris dubitare an in dignitate, an in opinione, 
+            <lb/>esse possit persona scurre. Loquor enim non de illo tantum, 
+            <lb/>sed de genere toto, cum dignitas et opinio in eos solum 
+            <lb/>cadat, qui vel in aliquo sunt illustri honoris gradu, vel ingenii, 
+            <lb/>aut doctrine prestantia quadam magnam laudem et gloriam 
+            <lb/>assecuti sunt. Licet et in malam partem opinio accipi possit. 
+            <lb/>Itaque in tanta non dignitate, non opinione, sed voluptate a te 
+            <lb/>dicendum fuit. Quod dicis: «Quem reges nullo quamlibet serio 
+            <lb/>negotio fastidierunt», honesta ratio cur de scurre persona mentionem 
+            <lb/>in historia regis facere debueris, presertim cum id falsum 
+            <lb/>esse perspicuum est. Quis enim vidit unquam in senatum 
+            <lb/>aut ubi de maximis et gravissimis rebus consultetur ad consulendum 
+            <lb/>scurram vocari? Quod dicis: «Cum presertim (quod 
+            <lb/>apud vulgi opinionem valet plurimum) dives sit adeo ut ad centum 
+            <lb/>milia aureorum profiteri possit»: vehemens et hec quoque 
+            <lb/>ratio, cur scurram testem in re maximi ponderis afferre et 
+            <lb/>historie tue inserere debueris. Videlicet, quoniam dives sit, argumentum 
+            <lb/>a divitiis multum valet apud te, ut video, ad faciendam 
+            <lb/>fidem et locupletandam historiam. Pauperis igitur testimonium 
+            <lb/>nullum aut leve erit? O prudentiam hominis singularem! 
+            <lb/>O artificem admirabilem! Puer ista profecto non diceret, 
+            <lb/>qui vix prima artis precepta didicisset. Recte doces, si isto 
+            <lb/>modo doces discipulos tuos. Sed ad alia procedamus. Quod 
+            <lb/>dicis: «Quod cum audiunt plerique litterati, ornatumque hominis 
+            <lb/>regalem vident et erubescunt et dolent, et, si vera fateri 
+            <lb/>volunt, etiam invident»: hoc loco et imprudenter loqueris et 
+            <lb/>magnam litteris iniuriam facis, si quenpiam egregie litteratum, 
+            <lb/>non litteris intinctum, ut aiunt, invidere putas hominis scurre 
+            <lb/>conditioni. Fieri quidem potest, ut divitiis hominis invidia habeatur, 
+            <lb/>sed conditioni et statui nequaquam credendum est, nisi 
+            <lb/>forte litteratus ille vacui capitis sit, cuiusmodi te esse ex oratione 
+            <pb n="101"/>
+            <lb/>tua satis constat. Te enim facile credam ac sine teste 
+            <lb/>ullo, quoniam nullum tibi presidium in litteris est, propter intemperantiam 
+            <lb/>et vesaniam tuam non autem illarum culpa, non 
+            <lb/>solum eius divitiis, sed etiam arti invidere, et illius vitam anteferre 
+            <lb/>tue. Quod si quis doctus sibi aurum Borre exoptet, mirandum 
+            <lb/>profecto non puto, his presertim temporibus, quibus divitie 
+            <lb/>in pretio sunt. Quod dicis: «E vicina vinea mea redeo, ubi 
+            <lb/>nescio qui hinulum meum per caudam ad ficum suspenderat, 
+            <lb/>quasi ficos furto edisset, qui nondum maturi sunt»: quid oportebat, 
+            <lb/>homo doctissime, hominis verba presertim tam aride et 
+            <lb/>tam incompte explicare, cum satis esset, suppressis iocis, id 
+            <lb/>dicere: «Tentasse Borram per iocos regem ad hilaritatem revocare». 
+            <lb/>Sapienter ille quisquis ait: «Et que desperat tractata 
+            <lb/>nitescere posse, relinquit». Quid autem intempestivius iocis in 
+            <lb/>morte? Cui enim fiet verisimile regem morientem iocorum cupidum 
+            <lb/>fuisse? Sed, bone grammatice, unde didicisti <distinct rend ="italic" type="ling">ficos</distinct> masculini 
+            <lb/>generis esse? Nescis <distinct rend ="italic" type="ling">ficus</distinct> vel <distinct rend ="italic" type="ling">ficos</distinct> pro fructu feminino 
+            <lb/>genere dici omniaque fructuum nomina aut neutri generis esse, 
+            <lb/>ut <distinct rend ="italic" type="ling">pirum</distinct>, <distinct rend ="italic" type="ling">malum</distinct>, <distinct rend ="italic" type="ling">prunum</distinct>, aut feminini, quod genus <distinct rend ="italic" type="ling">nux</distinct>, <distinct rend ="italic" type="ling">glans</distinct>, 
+            <lb/><distinct rend ="italic" type="ling">oliva</distinct>, <distinct rend ="italic" type="ling">castanea</distinct>? Dicemus <distinct rend ="italic" type="ling">ficus</distinct> quas scimus in arbore nasci; 
+            <lb/>dicemus <distinct rend ="italic" type="ling">ficos</distinct>, o bone Valla, tuos. Sic Martialis, sic Priscianus, 
+            <lb/>sic Iuvenalis, inquiens «si vis aliam decerpere ficum», sic 
+            <lb/>usus dicendi magister, «quem penes arbitrium est et ius et norma 
+            <lb/>loquendi». Et quid te pudet ista ignorare, que pueros nescire 
+            <lb/>turpe est? Sed hoc omitto. Quid illud quod sequitur: «Ad hanc 
+            <lb/>facetiam cum rex arrisisset?» Nescis <distinct rend ="italic" type="ling">facetias</distinct> pluraliter tantum 
+            <lb/>dici, non <distinct rend ="italic" type="ling">facetiam</distinct>, sicut <distinct rend ="italic" type="ling">ferias</distinct>, <distinct rend ="italic" type="ling">quisquilias</distinct>, <distinct rend ="italic" type="ling">indutias</distinct>? Cicero 
+            <lb/>libro <title rend ="italic">De oratore</title>: «Accedat huc oportet iocus facetieque et 
+            <lb/>eruditio libero digna». Quid est quod scias, si hec, que ad pedagogum 
+            <lb/>pertinent, ignoras? Postremo dicis: «Borra, ut erat 
+            <lb/>ex adverso, videbat umbram quandam, breve loci spatium occupantem, 
+            <lb/>paulatim a ventre ascendentem» et reliquia. O proceres, 
+            <pb n="102"/>
+            <lb/>censore opus est an aruspice nobis? Si quis rem huiuscemodi 
+            <lb/>in conventu aliquo pro vera recitaret, quot censes esse 
+            <lb/>qui in illum id dicerent: «In mare nemo hunc abicit seva dignum 
+            <lb/>veraque Carybdi? Nam citius ciianes (sic) et concurrentia 
+            <lb/>saxa crediderim plenos et tempestatibus utres, et cum remigibus 
+            <lb/>grunnisse Elpenora porci». Aut credis ista vera esse, 
+            <lb/>aut non credis? Si credis stultior es stultissimo, qui putes morientis 
+            <lb/>animam conspici posse. Si vero non credis, cur fabellam 
+            <lb/>historie inseris vix dignam, que ab anicula decrepita puellis 
+            <lb/>ad lucernam enarretur?
+            <lb/>«Adiecta ei appendice Catalonia que viris ad illam sesquialtera 
+            <lb/>est». O elegantissimum historiographum! Heccine verba 
+            <lb/>oratoris sunt? Heccine historici? Ubique ostendis tuam verborum 
+            <lb/>penuriam, ignarus quam sit elegantie contrarium verbis 
+            <lb/>inusitatis et impropriis uti. Quanto elegantius si dixisses: «Adiecta 
+            <lb/>ei Catalonia finitima, que dimidio amplior quam illa est». 
+            <lb/>«Itaque visus est minus solvisse questionem quam innodasse». 
+            <lb/>Hoc quidem incomposite et ineleganter a te dictum. 
+            <lb/>Est enim ambiguus et obscurus sermo et contorte prolata sententia. 
+            <lb/>Neque enim isto modo dicendum fuit, sed sic potius: 
+            <lb/>«Itaque magis innodasse questionem, quam solvisse vel explicuisse 
+            <lb/>visus est». 
+            <lb/>«Iam concilium, quod illi parlamentum vocant». Nequeo 
+            <lb/>mirari satis imprudentiam tuam. Quid enim erat necesse parlamentum 
+            <lb/>addere, quod nec elegans, nec latinum est? Putabas te non 
+            <lb/>satis intellegi, si tantum <distinct rend ="italic" type="ling">concilium</distinct> dixisses?
+            <lb/>«Tandem per conventus universos, hoc est per terna brachia 
+            <lb/>Valentie et Catalonie, ecclesiastica, patritia, plebeia, ultra 
+            <lb/>quattuor illa Aragonie, que diximus, locus delectus est in Aragonia». 
+            <lb/>Eleganter profecto ut cetera. Si eloquens esses, profecto 
+            <lb/>sic diceres: «Tandem post aliquot menses, summo trium 
+            <lb/>ordinum consensu, qui ex Catalonia Valentiaque convenerant, 
+            <pb n="103"/>
+            <lb/>sacerdotum scilicet, nobilitatis ac plebis, concilii locus in Aragonia 
+            <lb/>constitutus est». Et scire debes quod non omnes nobiles 
+            <lb/><distinct rend ="italic" type="ling">patritii</distinct> appellantur, sed tantum Romani, a primis patribus, a 
+            <lb/>Romulo constitutis, orti, vel ii etiam qui rem publicam more 
+            <lb/>Romanorum gerunt per similitudinem quandam, sed improprie. 
+            <lb/>Non enim patritios Cartaginiensium aut Campanorum legimus, 
+            <lb/>sed <distinct rend ="italic" type="ling">nobiles</distinct> aut <distinct rend ="italic" type="ling">nobilitatem</distinct>.
+            <lb/>«Gilibertus Centelia cum bene magna manu clientum in 
+            <lb/>agrum Valentinum incursionem facit». Mendicus, ut video, semper 
+            <lb/>eris. «Cum bene magna manu»: isto modo diceret sutor 
+            <lb/>aliquis aut caupo, non certe historiographus, quo verbo hactenus 
+            <lb/>iam ter aut sepius usus es, quasi nescias, aut cum satis 
+            <lb/><distinct rend ="italic" type="ling">magna</distinct>, aut si <distinct rend ="italic" type="ling">bene</distinct> pro <distinct rend ="italic" type="ling">valde</distinct> accipi vis, cum <distinct rend ="italic" type="ling">permagna militum 
+            <lb/>manu</distinct> dicere.
+            <lb/>«Hinc quattuor, illinc sex leugis distante». Latinus es et 
+            <lb/>non pudet loqui gallice? An hec tibi pulchrior dimensio videtur, 
+            <lb/>quam per <distinct rend ="italic" type="ling">milia passuum</distinct>, quod verbum Romanum est et notum 
+            <lb/>et usitatum? Sed voluisti applaudere genti de qua scribis, ut 
+            <lb/>video, et ob id verbo externo uti voluisti sapienter. 
+            <lb/>«Et id temporis non poterat sententia pro aliquo competitorum 
+            <lb/>ferri, nisi a sesquialtera parte iudicum». Iterum in superius 
+            <lb/>vitium inelegantie cecidisti, quoniam id verbum inusitatum 
+            <lb/>est, aut certe rarissimum, maxime in historia. Elegantius 
+            <lb/>igitur si sic diceres: «Atque id temporis pro nullo competitorum 
+            <lb/>iudicium ferri poterat, nisi ex omni iudicum numero due 
+            <lb/>partes in sententiam convenissent».
+            <lb/>«Ex Aragonia quidem delecti sunt Dominicus Ramus, episcopus Oscensis, quem postea Ilerdensem 
+            <lb/>ad extremum episcopum Theraconensem, eundemque cardinalem 
+            <lb/>scimus nuper diem suum obisse, post omnes collegas 
+            <lb/>illius iudicii, in quo ipse sederat primus, de cuius scientia, vita 
+            <lb/>et auctoritate dicere parum attinet, cum iudicia hominum, hoc 
+            <lb/>est honores habiti, testimonium dicant. Franciscus Aranda vestitu 
+            <pb n="104"/>
+            <lb/>ac barba horridior, quod videlicet renuntiasset rebus humanis, 
+            <lb/>alioquin ita accommodatus ad domos principum quibus diu 
+            <lb/>prefuerat moderandas, ut nusquam non et in consultandis et 
+            <lb/>administrandis rebus ac maturandis primas obtinerit partes, idque 
+            <lb/>sola nature bonitate atque ingenii dotibus, citra ullam scientiam 
+            <lb/>ac citra ullas prope modum litteras: ut appareat ex homine 
+            <lb/>nativis bonis excellenti formari potius precepta sapientie, 
+            <lb/>quam ex preceptis sapientie formari hominem excellentem. In 
+            <lb/>quo illud precipue mirabamur, cum quasi pater esset, aut quasi 
+            <lb/>tutor potentissimi cuiusque, tam modico exiguoque contentus 
+            <lb/>foret. Ideoque libertatis mire ac nemini obnoxius erat». Hoc 
+            <lb/>loco abs te vehementer erratum est, bone rhetor. Enumeratio 
+            <lb/>enim debet esse brevis et continuata. Etsi de moribus vel virtute 
+            <lb/>iudicum commemorare propositum erat, paucis verbis id a 
+            <lb/>te faciendum fuit. Quid enim oportebat dicere: «Quem scimus 
+            <lb/>nuper diem suum obisse, post omnes collegas illius iudicii, in 
+            <lb/>quo ille primus sederat?» Quid oportebat dicere de Francisci 
+            <lb/>vestitu ac barba? Quid de rerum humanarum derelictione? Quid 
+            <lb/>de eiusdem hominis tot verbis aptitudine ad res principum administrandas? 
+            <lb/>Quid illam sententiam interiectam, quod magis 
+            <lb/>ex ingenio hominis sapientia, quam ingenium hominis ex sapientia 
+            <lb/>conformetur? Que tota contra te est, cum nullis sapientie 
+            <lb/>preceptis unquam potueris institui? Quid aliorum quos enumeras, 
+            <lb/>sunt enim decem, si recte memini, non solum virtutum sed 
+            <lb/>etiam honorum ac factorum prope omnium ad fastidium usque 
+            <lb/>prolixa commemoratio. Habes exemplum optimum huius rei a 
+            <lb/>principe artis Cicerone nostro in <title rend ="italic">Pompeiana</title>. Sic enim dicit: «Quod 
+            <lb/>si auctoritatibus hanc causam, Quirites, confirmandam putatis, 
+            <lb/>est vobis auctor vir bellorum omnium maximarumque rerum 
+            <lb/>peritissimus P. Servilius, cuius tante res geste terra marique 
+            <lb/>extiterunt, ut cum de bello deliberaretis auctor vobis nemo 
+            <lb/>gravior esse debeat. Est C. Curio, summis vestris beneficiis 
+            <lb/>maximisque rebus gestis, summo ingenio et prudentia preditus. 
+            <lb/>Est C. Lentulus, in quo omnes pro amplissimis vestris honoribus 
+            <pb n="105"/>
+            <lb/>summum consilium summamque gravitatem esse cognoscitis. 
+            <lb/>Est C. Crassus integritate, virtute et constantia singulari».
+            <lb/>«Quem quia noverat sue partis esse saviatus est». Hoc 
+            <lb/>verbum scire debes comicum, non historicum esse et propterea 
+            <lb/>in historia fugiendum.
+            <lb/>«Dum pacificavit interposita sua auctoritate dissidentes». 
+            <lb/>Eleganter profecto more tuo. Sed ego sic dicerem: «Dum inter 
+            <lb/>dissidentes pacem componeret, vel dum dissentientes ad pacem 
+            <lb/>et concordiam revocare conaretur».
+            <lb/>«Diversabatur regina in propinquo monasterio cum sanctimonialibus». 
+            <lb/>Magnifica profecto oratio et vere Tulliana, vel 
+            <lb/>eius qui elegantie parens haberi velit. Ego vero sic dicerem 
+            <lb/>et id esset fortasse pulchrius: «Diversabatur regina apud virgines 
+            <lb/>Divo Dominico dicatas, que a regia non procul aberant». 
+            <lb/>«Ille post multa verba, que ad purgationem facti attinebant, 
+            <lb/>dicitur Bernardus intulisse coniugii mentionem et ad ea turbato 
+            <lb/>vultu regina subiecisse: hui senex scabide!» Immo vero, ne 
+            <lb/>plura dicam, hui stulte, hui barbare, qui tam scabide loqueris. 
+            <lb/>«Venerat iam regina Panormum tenebatque in domo regia, 
+            <lb/>que dicitur illorum lingua Hosterium». Et hoc quoque ex illo 
+            <lb/>tuo errore consueto. Quid enim necesse erat illud adiicere, quod 
+            <lb/>Hosterium dicitur, quod totam orationem deformat atque 
+            <lb/>dehonestat?
+            <lb/>«Dignum profecto risu spectaculum, si cui ridere in tali 
+            <lb/>casu vacaret et alienum periculum turpitudinemque spectare voluptati 
+            <lb/>foret. Mulieres crinibus passis, nocturna tamen veste 
+            <lb/>indute, aut altera quoque circumvolute, magis quam amicte, et 
+            <lb/>inter eas reginam ut dignitate sic celeritate precipuam, quasi 
+            <lb/>pro corona currentes divaricatasque ad femora, irrupere in 
+            <lb/>mare pene glaciatum». Magnum cum ceteris in partibus, tum 
+            <lb/>maxime hoc loco prudentie et dicendi artis documentum edidisti, 
+            <lb/>reginam a pedum velocitate laudans. Id enim solet in 
+            <lb/>primis laudibus Didonis a summo poetarum poni, et ab historicis, 
+            <lb/>quos credo imitatus sis. Nec illud minori reprehensione dignum, 
+            <lb/>quod dicis «dignum risu spectaculum». Erat enim res 
+            <pb n="106"/>
+            <lb/>non digna risu sed commiseratione videre reginam, quam fortuna 
+            <lb/>paulo ante in amplissimo statu collocarat, in tam atrocem 
+            <lb/>casum incidisse. Dicendum potius sic fuit: «Dignum erat omnium 
+            <lb/>commiseratione spectaculum, reginam, cuius tante opes et 
+            <lb/>dignitas fuerant, eo angustiarum et calamitatis redactam esse, 
+            <lb/>ut si pudicitie et honori consultum vellet, vel per medium mare 
+            <lb/>absque navis auxilio illi fugiendum esset». Preterea et illud 
+            <lb/>odiosum, quod reginam usque ad femora succinctam facis. Quanto 
+            <lb/>enim honestius erat hanc partem obticere, quam exprimere 
+            <lb/>turpe est.
+            <lb/>«Atque ita indignabundus Bernardus Caprera ad cubiculum 
+            <lb/>regine perrexit intravitque; ubi cernens cubile turbatum, quale 
+            <lb/>solet ad subitum timorem relinqui, ‘Perdicem, ait, perdidi, sed 
+            <lb/>nidum teneo.’ Protinusque depositis vestibus, ut adhuc erat tepidum, 
+            <lb/>subit, ac per totum se volutans et subinde spiritum per 
+            <lb/>nares trahens, significabat more venatici canis ad lustrum 
+            <lb/>fere ipso se odore delectari. Tanta ei, inter maximarum rerum 
+            <lb/>conatus, cura amoris fuit, tanta etiam intemperantia». Hec que 
+            <lb/>dictu turpia et feda sunt, brevissimis verbis preteriri decet. Aliter 
+            <lb/>enim historicus, aliter satyrus scribit. Satis erat id dicere: 
+            <lb/>«Tanta fuit Bernardi imprudentia et quedam veluti amoris rabies, 
+            <lb/>ut regine adhuc tepenti lectulo sese volutare non 
+            <lb/>erubuerit». 
+            <lb/>«Cum he triremim, Bernardus domum ingreditur». Tu, qui 
+            <lb/>grammatice precepta tradis, ignoras hoc nomen triremis quartum 
+            <lb/>casum <distinct rend ="italic" type="ling">triremem</distinct> facere, non <distinct rend ="italic" type="ling">triremim</distinct>. Nam sive substantivum, 
+            <lb/>sive adiectivum id nomen accipias, accusativum casum 
+            <lb/>in <distinct rend ="italic" type="ling">em</distinct>, non in <distinct rend ="italic" type="ling">im</distinct> mittit, quod tibi tanto grammatico ignotum esse 
+            <lb/>non debuit. Nec dicere potes hoc vitio eius qui librum trascripsit 
+            <lb/>cecidisse, quoniam quater hoc accusativo in <distinct rend ="italic" type="ling">im</distinct> uteris.
+            <lb/>«Educitur e profundo lacu obscuraque testudine Bernardus 
+            <lb/>modo Sicilie Regulus, veste, capillo, toto corpore madenti et 
+            <lb/>ut vix credibile videatur, ex pluvia». Libera nos, Domine, de 
+            <lb/>penis Inferni et de profundo lacu et de ore leonis, ne absorbeat 
+            <lb/>nos Tartarus: credo id dicere volueris. O exquisitam eloquentiam, 
+            <pb n="107"/>
+            <lb/>o dignam repastinatore dialectice orationem! Experiri 
+            <lb/>libet hoc loco an possim eloquentiam tuam equare, qua te 
+            <lb/>omnibus prestare putas. Ego sic dicerem: «Bernardus, cui 
+            <lb/>paulo ante propter opes et copias ac popularem gratiam Sicilia 
+            <lb/>parebat, toto corpore perfusus ac pene imbri enectus, miserando 
+            <lb/>conspectu et tenebris in lucem producitur».
+            <lb/>«Proxima nocte de tertia vigilia, summissa fune, Bernardus 
+            <lb/>caligis ad genua complicatis, nulla amictus tunica, demittitur, 
+            <lb/>custode, ut validius conturbaret miseri consilium, urgente 
+            <lb/>ad descendendum». Nec minus hic artem et eloquentiam desidero, 
+            <lb/>homo disertissime (hui disertissime! dicere volui) primum 
+            <lb/>quod supervacua narras. Quid enim necesse est a te memorari 
+            <lb/>utrum caligas laxas ad genua haberet, an ligulis contentas 
+            <lb/>et utrum veste amictus esset, an lintea tantum tunica? Ubi brevis 
+            <lb/>esse debes, longus es, verborum non necessariorum multitudine, 
+            <lb/>quod est contra artis precepta de brevitate. Preterea 
+            <lb/>qua elegantia ista exprimis? Multo elegantius si sic dixisses: 
+            <lb/>«Proxima nocte de tertia vigilia, Bernardus custodis ope confisus 
+            <lb/>per funem demitti cepit, ipso custode simulatione quadam 
+            <lb/>pietatis, ut properaret, hortante».
+            <lb/>«Cuius turpitudini hic quoque cumulus accessit, ut cum 
+            <lb/>ad transitum notorum atque honestorum virorum faciem vellet 
+            <lb/>avertere, prohiberetur, ne illis posteriora ostenderet». Et hic 
+            <lb/>quoque a te peccatum est verborum superabundantia et turpitudinis 
+            <lb/>commemoratione. Satis enim erat id dicere: «Cuius 
+            <lb/>turpitudini hic quoque cumulus accessit, quod in eum modum 
+            <lb/>fune alligatus erat, ne a pretereuntium aspectu ora posset 
+            <lb/>avertere».
+            <lb/>Hos paucos e prope innumerabilibus erroribus tuis secundi 
+            <lb/>libri breviter collegisse satis sit. Neque enim sum tam otiosus 
+            <lb/>ut possim, nec tam in ea re una occupatus ut velim omnia 
+            <lb/>errata tua in eo libro refellere, presertim cum mihi restet tertia 
+            <lb/>pars laboris, quam cum primum otium fuerit absolvam. Nunc 
+            <lb/>superest ut libri mei <title rend ="italic">De vite felicitate</title>, quem vituperas, defensionem 
+            <lb/>subeam. Sed ero brevior, quoniam tibi responsum esse 
+            <pb n="108"/>
+            <lb/>satis potest ea epistola, quam Roberto Stroze viro claro scripsi. 
+            <lb/>Reprehendis, ut audio, quod collocutores non fecerim sepius repugnantes 
+            <lb/>et precipue quod Lamola facilis sit in assentiendo iis 
+            <lb/>que Guarinus asserit. Ego, ut rationem propositi mei teneas, 
+            <lb/>non temere id feci, sed multis adductus rationibus ita necessario 
+            <lb/>faciendum existimavi. In primis cum mihi propositum esset 
+            <lb/>ostendere in hisce rebus humanis non constare veram perpetuamque 
+            <lb/>felicitatem, iudicavi non longius progrediendum esse, 
+            <lb/>quam ut enumerarem que bona et que mala in hisce humanis 
+            <lb/>facultatibus esse censentur. Quibus commemoratis, diiudicari 
+            <lb/>facile sit in nulla harum rerum eam felicitatem, de qua est 
+            <lb/>questio, inesse. Nam cum semel declaratum esset, cur ea bona 
+            <lb/>non sint, que Lamola bona censebat, ut exempli causa divitie, 
+            <lb/>quid erat opus Lamolam rursum velle novis argumentis defendere 
+            <lb/>ea bona esse talia, presertim que solidam et immortalem 
+            <lb/>beatitudinem parare possint ? Nam non nego esse bona, que 
+            <lb/>etiam Aristoteles vult esse bona et concurrere ad presentis vite 
+            <lb/>felicitatem; sed ea esse eiusmodi nego, ut possint eam felicitatem 
+            <lb/>conferre, que nunquam a nobis discessura sit. Quam non 
+            <lb/>esse nec reperiri in hoc orbe terrarum posse, quis est tam orbatus 
+            <lb/>ingenii lumine qui non videat? Quod si mihi recensenti 
+            <lb/>omnes artes, facultates atque ordines humani generis propositum 
+            <lb/>fuisset, de quaque re bona ne an mala sit, certe et accurate 
+            <lb/>disputare, quando esset inventus operi meo exitus, cum de unaquaque 
+            <lb/>prope re magni voluminis disputatio fieri possit? Est 
+            <lb/>alia ratio. Nam cum quis loquens aut disputans inducitur, eius 
+            <lb/>mores spectandi sunt, quod placet Horatio dicenti: «Aut famam 
+            <lb/>sequere, aut sibi convenientia finge, scriptor, honoratum si forte 
+            <lb/>reponis Achillem, impiger, iracundus, inexorabilis, acer, iura 
+            <lb/>neget sibi nata, nihil non arroget armis» et reliqua. Itaque cum 
+            <lb/>scirem Lamolam natura facilem et non pertinacem esse, volui 
+            <lb/>hominem secundum naturam et consuetudinem eius disputantem 
+            <lb/>facere, ne contra decorum viderer agere. Si vero te disputantem 
+            <lb/>induxissem, quem scio contentiosum, repugnantem, pertinacem 
+            <pb n="109"/>
+            <lb/>et ab opinione tua nunquam recedentem, putassem equidem 
+            <lb/>me contra decorum facere, si postquam milies nedum decies 
+            <lb/>contradixisses Guarino et refragatus esses, in eius sententiam 
+            <lb/>te euntem facerem, meque iure carpi ab omnibus arbitrarer 
+            <lb/>posse, quod pervicacia tua omnibus nota est. Cui enim concedes, 
+            <lb/>qui Prisciano, Ciceroni, Aristoteli, Livio non concedis, 
+            <lb/>qui illorum scripta impudentissime cum omnium risu carpis ac 
+            <lb/>despicis? Est et alia ratio propositi mei, quod preter dignitatem 
+            <lb/>putarem esse, cum Lamola Guarini discipulus extiterit, illum 
+            <lb/>non repugnantem concedere, que Guarinus asseveret, qui 
+            <lb/>et etate et studio et longo rerum usu iure optimo debet esse 
+            <lb/>sapientior. Hec sunt, bone Laurenti, quibus motus sum, ne frequentiores 
+            <lb/>contradictiones in libello meo induxerim. Sed eum 
+            <lb/>tibi improbari facile fero, modo illum probari sciam et theologis 
+            <lb/>et oratoribus omnibus, quibus illum antequam ediderim ostendi, 
+            <lb/>quorum iudicium summum habetur, tuoque, quod aut nullum aut 
+            <lb/>leve est, longe antefertur. Sed cur me inelegantie non carpsisti? 
+            <lb/>Cur non false latinitatis, ut ego te, fons elegantie et eloquentie 
+            <lb/>flumen? An te pudor tenuit? At ille iam pridem in te extinctus 
+            <lb/>est. An timor? At audacia perdita es. An religio? At contra 
+            <lb/>fidei nostre doctores invectus es. Nihil ergo aliud est quod destiteris, 
+            <lb/>nisi quia nihil eiusmodi, quod reprehenderes repperisti. 
+            <lb/>Sed iam de his satis. In tertii enim libri tui reprehensione que 
+            <lb/>relicta sunt proferentur.
+        </p>
+      </div>
+      <div n="3">
+            <head>BARTHOLOMAEI FACII IN LAURENTIUM VALLAM <lb/>INVECTIVA TERTIA INCIPIT</head>
+        <p>
+            <lb/>Audaciam tuam ac temeritatem inauditam presertim in tantis 
+            <lb/>ac tam manifestis erroribus tuis et tanta scribendi barbarie 
+            <lb/>nequeo profecto mirari satis, Laurenti. Tu enim cum nemine 
+            <pb n="110"/>
+            <lb/>sermonem habes, quicumque is est, quem ignorantie non accuses, 
+            <lb/>si is paulum modo opinioni tue adversetur ac non statim 
+            <lb/>assentiat; eius autem rei causa est ingenii tui pravitas. Ut enim 
+            <lb/>bene instituta ingenia pudore infirmantur, sic male composita 
+            <lb/>audacia confirmari solent. Nam qui est animo bene compositus, 
+            <lb/>is et alium veretur inscitie carpere et sicubi commisisse errorem 
+            <lb/>arguatur, non modo non contemnit reprehensorem, sed 
+            <lb/>etiam correctionem equo animo accipit. Equidem nescio quenquam 
+            <lb/>tam parvo ingenio ac iudicio hominem, qui tam multa, 
+            <lb/>que in historia inseruisti, litteris mandanda censuisset, nec 
+            <lb/>quenquam tam parum versatum in hisce humanitatis studiis, 
+            <lb/>qui tam inculte et tam exiliter diceret. Et te magistrum artis 
+            <lb/>facis atque elegantie precepta tradis! Quem librum tuum, si 
+            <lb/>quando mihi otium fuerit, ut perspicere ac resupinare valeam, 
+            <lb/>fortasse adhuc efficiam, ut qui eius exemplum a te habent, eum 
+            <lb/>tanquam rem inutilem et frivolam in latrinam abiiciant. Nam 
+            <lb/>quando in historia regi dicata et tradita totiens et tam insigniter 
+            <lb/>peccasti, que debet esse elaborata et ab omni vitio pura, 
+            <lb/>quid existimandum est de eo libello, quem incuriosius edidisti? 
+            <lb/>Sed hoc alias. Nunc tamen quod ad vitia libri tui tertii attinet 
+            <lb/>explicetur, que nisi maxima esse ostendam, maxima ipse reprehensione 
+            <lb/>dignus sim. 
+            <lb/>«Nam ubi ad ianuam regie pervenit, ex equo delapsus, ante 
+            <lb/>ipsam ianuam genu posuit. Iterum ad aule ostium, tertio ad fores 
+            <lb/>conclavis, in quo rex illum excepturus sedebat, postremo ad 
+            <lb/>pedes regis dexteramque eius amplexatam exosculatamque ori 
+            <lb/>suo admovit osculumque mutuum dedit». Huiusmodi vitium superiore 
+            <lb/>libro commisisti, quod quidem est contra brevitatis preceptum. 
+            <lb/>Nam quod dicis: «Ante ipsam ianuam genu posuit. Iterum 
+            <lb/>ad aule ostium, postremo ad pedes regis», id tribus verbis 
+            <lb/>expediri potuit. Satis enim id fuerat dicere: «Ubi ad regem 
+            <lb/>venit, ad eius genua procubuit»; aut sic: «Ad eius genua se 
+            <lb/>summisit». Nihil enim opus est cognitu quotiens genua summiserit, 
+            <pb n="111"/>
+            <lb/>nec illud quoque magis necessarium scitu erat, quod dicis 
+            <lb/>illum exosculatam et amplexatam dexteram regis ori suo admovisse, 
+            <lb/>cum hoc de more inferiorum sit, eorum maxime qui alieno 
+            <lb/>parent imperio regum dexteras osculari.
+            <lb/>«Rex sermonem intulit de sumptu domestico quesivitque 
+            <lb/>a puero quid ita magnos sumptus faceret in tanto comitatu 
+            <lb/>alendo. Ille ut puer respondet nullum ob id se facere sumptum, 
+            <lb/>sed eos pro se unumquenque, cum sint singularum artium magistratus. 
+            <lb/>‘Tot enim habeo, inquit, oppida castellaque!’ Admiratus 
+            <lb/>rex tantam pueri potentiam, tum suas, ut regis, tenues 
+            <lb/>opes. ‘Tu vero, inquit, feliciter, honeste atque ipso rege regalius 
+            <lb/>ceterique tui ordinis, quibus sua iura constant, quorum nemo 
+            <lb/>non ex oppidis plus multo percipit, quam rex proportione ex 
+            <lb/>suis. Ut haud dubie vectigalia nostra ad nihilum redacta sint, 
+            <lb/>idque tum negligentia regum, tum fraude atque perfidia subditorum. 
+            <lb/>Olim comes Barcellone percipiebat ex Catalonia librarum 
+            <lb/>quadraginta milia, nunc piget ac pudet quantum percipimus, 
+            <lb/>pene precario regnamus. Nec mihi in dubio est nostram auctoritatem 
+            <lb/>apud alios reges non satis amplam haberi et quodammodo 
+            <lb/>contemni, cum auxilia bellorum aliarumque rerum magnarum 
+            <lb/>a populis nostris corrogare habeamus eorumque arbitrio 
+            <lb/>pendeamus. Certe cum regnum paternum et hoc considero, 
+            <lb/>illic regnum videtur esse, hic procuratio, et postea aiunt 
+            <lb/>preter ceteras gentes Catalani se fideles esse in regem. Equidem 
+            <lb/>nolim quicquam detractum de laudibus populorum meorum, 
+            <lb/>sed utinam verius quam gloriosus dicerent. Nam si recte existimemus, 
+            <lb/>sibi fideliores esse quam regi reperientur. Non dico 
+            <lb/>quia non est causa cur rebellent, ut sit apud illos, qui onera 
+            <lb/>a regibus imposita ferre nequeunt, veluti decem tribus Israel, 
+            <lb/>que a Salamone desciverunt, et alii multi et hodie in Italia precipue, 
+            <lb/>sed quia regem suum patrimonio exuunt; quod nulli alii 
+            <lb/>faciunt. Ut in hoc sint pace, Catalanorum dictum est, fideliores 
+            <lb/>appellandi. Atque si qui rebellant ideo rebellant, ut ius suum 
+            <lb/>retineant, hi vero idcirco a rebellando abstinent, ut ius regium 
+            <pb n="112"/>
+            <lb/>preripiant. At enim aiunt se a regibus illa coemisse. Taceo quantum 
+            <lb/>fraude interceptum. Quis ignorat nunquam reges ea vendituros 
+            <lb/>fuisse, nisi pecunia ad necessitates indiguissent, nec aliter 
+            <lb/>a populis auxilia impetrare potuissent? En fides in principem 
+            <lb/>admiranda! Non habent aurum quo illius necessitates sublevent, 
+            <lb/>habent quo dignitatem exhauriant. Et ego de bonitate ac 
+            <lb/>humanitate populorum loquor, qui non vetiti sed sponte auctoritatem 
+            <lb/>regiam nec imminuerent, nec paterentur imminui. Nunc 
+            <lb/>etiam vetante lege in quam iuraverunt, qua sancitum est ne 
+            <lb/>quid regi liceat de patrimonio alienare et si quis ab eo quicquam 
+            <lb/>vel emerit, vel pignori acceperit, eum continuo proditionis 
+            <lb/>crimen incurrere vocarique apud Aragonenses traditorem, 
+            <lb/>apud Catalanos barram. Verum nisi propositum animi mei preripiat 
+            <lb/>mors, regni decus profligatum pessundatumque instaurabo 
+            <lb/>atque restituam; nec desinam dum ostendam, absit invidia 
+            <lb/>dicto, non minorem per me, quam mihi per regium nomen obvenisse 
+            <lb/>dignitatem. Quid enim attinet externa comparare, si 
+            <lb/>interna non reparas? Et alios redigere in servitutem, si domum 
+            <lb/>tuam non afferas in libertatem? Ego pro amplificando filii fratris 
+            <lb/>regno bella gessi, pro afferendo mei ipsius segnior ero? 
+            <lb/>Sed nondum rescindendi ulceris tempus est, ut nuper Cesarauguste 
+            <lb/>cognoscere licuit, cum in vectigali advectitii vini tam 
+            <lb/>acres, ut aiunt, publice libertatis exhibuere se defensores. Experiar 
+            <lb/>apertius, ubi eorum tam celebrata in regem fides, ubi bonitas, ubi 
+            <lb/>iustitia. Est quidem optandum, ut quod postulamus, 
+            <lb/>non graventur, sin minus, et asperis et mollibus medicamentis 
+            <lb/>utemur. Certumque mihi est, si ius meum neque extorquere, 
+            <lb/>neque impetrare potero, paterni regni pecunia redimere, ut non 
+            <lb/>imbecillior sim, ego regni propugnator, quam ceteri oppugnatores’». 
+            <lb/>Nihil inconvenientius dici potest quam huiusmodi conquestio 
+            <lb/>huic loco et tempori, rhetor egrege. Nihil enim minus 
+            <lb/>verisimile est, quam quod rex prius pene quam regni habenas 
+            <lb/>susceperit et cognoverit, qui iuste quive iniuste aliquid de regio 
+            <lb/>patrimonio teneant, diminuta regni membra et procerum opes 
+            <pb n="113"/>
+            <lb/>nimias queratur. Tunc enim primum ingressus erat regnum antea 
+            <lb/>sibi ignotum et inaccessum. Qui si scire potuerat tam brevi 
+            <lb/>spatio qui nam iniuste possiderent, illud a te prius ostendi oportuit, 
+            <lb/>ne rex avaritie simul et iniustitie iure accusari posse videretur. 
+            <lb/>Quis vero dicat eos qui emerant iniustos possessores esse? 
+            <lb/>Rex meam pecuniam habeat, ego rem suam nullam habeam? 
+            <lb/>Preterea presente comite Lune, cui comminari videbatur tali 
+            <lb/>querimonia, nequaquam sapientis regis videtur esse, quin etiam 
+            <lb/>si quid ab illo usurpatum fuisset, dissimulandum a rege illo 
+            <lb/>presente erat. Quapropter totam istam conquestionem, ut ineptam 
+            <lb/>et minime probabilem reiiciendam puto, ut taceam rationes 
+            <lb/>levissimas, quas asserentem gravissimum regem facis. Cur 
+            <lb/>qui emerint iniuste possideant? Et verba ista «Aragonenses»? 
+            <lb/>Cum ab Aragonia Arago fiat, non Aragoniensis, ut a Macedonia 
+            <lb/>Macedo et a Paphlagonia Paphlago ducitur. Et «traditorem» et 
+            <lb/>«barram» barbare et inepte a te prolata. «Sed utinam verius 
+            <lb/>quam gloriosius dicerent». Rectius quoad artem grammaticam 
+            <lb/>si dixisses «atque utinam vere magis quam gloriose dicerent», 
+            <lb/>cum sit comparatio ad se ipsum non ad extrinsecam personam. 
+            <lb/>In huiusmodi enim constructionibusmagis quam particulam 
+            <lb/>honestius interponimus, ut si dicam: «Cesar fortiter magis 
+            <lb/>quam moderate res gessit». Posse id tamen auctoritate tollerari 
+            <lb/>non abnuerim. Sed hoc rectius Livius XXX ab urbe condita: 
+            <lb/>«Novi spiritus magis magnos quam utiles». Idem paulo 
+            <lb/>post: «Omnibus tuis rebus secundis nostris dubiis iam aperta 
+            <lb/>et speciosa danti est pax nobis petentibus magis necessaria 
+            <lb/>quam honesta».
+            <lb/>«Cum plurimas clientelas multos ex nobilitate beneficiarios 
+            <lb/>haberet». Et hic quoque sermo e tua nobili schola depromptus 
+            <lb/>est. Ego vero non <distinct rend ="italic" type="ling">beneficiarios</distinct>, sed <distinct rend ="italic" type="ling">beneficio devinctos</distinct> dicerem. 
+            <lb/><distinct rend ="italic" type="ling">Beneficiarii</distinct> enim, ut scias, sunt quoddam genus militum, qui 
+            <lb/>ex eo ita appellantur, quia promoventur ad honores beneficio 
+            <pb n="114"/>
+            <lb/>tribunorum, ut inquit Vegetius; idque confirmatur auctoritate Cesaris 
+            <lb/>in <title rend ="italic">Commentariis</title> suis, cuius verba hec sunt: «Hec erant milia 
+            <lb/>XLV, evocatorum circiter duo, que ex beneficiariis superiorum 
+            <lb/>exercituum ad eum convenerant, que tota acie dispersa erant». 
+            <lb/>«Atque quo crepitus bombardarum horribilior et ictus perniciosior 
+            <lb/>foret, omnes eodem non momento sed pene puncto 
+            <lb/>temporis laxabantur. Ad quarum impulsum pulvereus ex discussis 
+            <lb/>parietibus fumus diu in aere visebatur». Admirabilis profecto 
+            <lb/>est eloquentia tua, Sallustianam ne illam dicam, an Livianam? 
+            <lb/>Ubique deprehenditur tua Romane lingue paupertas. Ego
+            <lb/>vero sic dicerem, qui Ligur sum: «Et quo tormentorum eneorum
+            <lb/>fragor plus terroris ac metus incuteret, quove illorum impulsus 
+            <lb/>vehementior foret, omnia uno eodemque momento laxari 
+            <lb/>iubebat, quorum tantus impetus erat, ut post iactum ater pulvere 
+            <lb/>commixtus fumus in aere diu conspiceretur». 
+            <lb/>«Quippe hec ad regem commeare et tractare inter utrosque 
+            <lb/>ceperat». Ambiguus et diminutus hic sermo est, nisi pacem, 
+            <lb/>aut concordiam, aut quid tractarent adiicias. Nec enim sic simpliciter 
+            <lb/>prolatum ullum integrum sensum habet. Quare male abs 
+            <lb/>te dictum.
+            <lb/>«Ubi ad conspectum regis venit, in angusta sedentis sella, 
+            <lb/>extra iactum lapidis, ex equo descendit, genuque posuit, paulumque 
+            <lb/>progressus, iterum adoravit, tertio non procul a rege 
+            <lb/>cum adorasset, nec rex assurgeret» et reliqua. Hic est ille 
+            <lb/>creber error tuus, qui non intelligis quam sit ista locutio brevitati 
+            <lb/>contraria. 
+            <lb/>«Constat inter omnes, qui illi festo affuerunt, nec vidisse, 
+            <lb/>nec audisse celebriores pompas cerimoniasque». Scribis de honore 
+            <lb/>summo regi habito et uteris sacrorum verbis. Pompe enim 
+            <lb/>carimonieque ad sacra pertinent. Elegantioribus igitur et magis 
+            <lb/>propriis verbis usus esses, si ita dixisses: «Constat sane inter 
+            <lb/>omnes, qui illi celebritati affuerunt, se magnificentius, aut splendidius 
+            <lb/>aliquid nec vidisse nec audisse unquam».
+            <pb n="115"/>
+            <lb/>«Augebat autem iocunditatem solemnitatis, quod quinque 
+            <lb/>filii circa patrem visebantur, quorum medius inspectante omni 
+            <lb/>cetu, patrem, priusquam regali chrismate tingeretur, cinxit ense 
+            <lb/>equeriatus, utpote preditus illa dignitate, quod magister equeriorum 
+            <lb/>Sancti Iacobi esset. Nondum enim equerius erat, quales 
+            <lb/>alii multi, quorum et rex Petrus et talem priusquam regem esse 
+            <lb/>necesse est». Et hoc quoque depromptum est ex illa tua impudentie 
+            <lb/>officina, quem vero non pudet, ut priore libro dixi, 
+            <lb/>verba nova formare, cum vetera extent, honesta illa quidem 
+            <lb/>et usu comprobata. Saltem e greco expressisses ea verba, nam 
+            <lb/>ut ait Horatius: «Et nova fictaque nuper habebunt verba fidem, 
+            <lb/>si greco fonte cadant parce detorta». <distinct rend ="italic" type="ling">Equerium</distinct> primo libro 
+            <lb/>formaveras: hoc <distinct rend ="italic" type="ling">equeriatum</distinct> scilicet alter Varro vel tertius 
+            <lb/>Cato ad locupletandam latinam linguam a celo lapsus. 
+            <lb/>«Sed aiunt eum qui creatus est rex posse sibi suapte auctoritate 
+            <lb/>tribuere illam dignitatem. Hec est recepta hominum opinio, 
+            <lb/>hec militarium virorum velut sanctio, quasi quisquam sibi 
+            <lb/>queat esse auctor, ac se ornare dignitate, aut si habet, eam 
+            <lb/>prerogativam regii culminis opus sit ab altero quoque accipere, 
+            <lb/>aut sacrosancta maiestas, que ritu sacerdotum ungitur, unde 
+            <lb/>christi vocantur, necesse habeat titulo equerii decorari, exili, 
+            <lb/>frivolo et ex ignorantia nato. Ausim dicere: quod pace tum aliorum 
+            <lb/>tum, precipue regum dictum sit, contumeliam regie maiestati 
+            <lb/>faciunt, qui hanc dignitatem, si hoc nomen meretur, suscipiunt, 
+            <lb/>non secus ac si supra diadema sertum ex rosis floribusque 
+            <lb/>suspenderent». Magnam pre te fers hoc loco prudentiam, 
+            <lb/>primum qui non vides te longius progredi quam oporteat et a 
+            <lb/>suscepta narratione de equestri dignitate disputando divertere, 
+            <lb/>quod est contra brevitatis preceptum. Secundo autem loco eam 
+            <lb/>dignitatem vituperas, que semper magno in honore fuit. Nec 
+            <lb/>eam modo dignitatem, sed etiam veteres, a quibus instituta est, 
+            <lb/>contemnis. Taceo explanationem, que qualis sit nemo non videt. 
+            <lb/>«Sed anticipato die venit quasi officii gratia papam excepturus». 
+            <pb n="116"/>
+            <lb/>Tullianum vero hoc est. Sed qui eloqui didicerunt non 
+            <lb/>«anticipato die venit», quod pedagogicum est verbum, dicerent, 
+            <lb/>sed «pridie ante constitutam diem».
+            <lb/>«Advenit Sancius episcopus Palentinus, ducens sponsam pronubus 
+            <lb/>et velut parens puelle». Non utimur hoc nomine, bone 
+            <lb/>grammatice, nisi feminino genere, sicut nec <distinct rend ="italic" type="ling">nuptum</distinct>, quamvis 
+            <lb/><distinct rend ="italic" type="ling">novum nuptum</distinct> Plautus Calinum semel dixerit. Hec enim ad 
+            <lb/>feminas, non ad mares pertinent officia. <distinct rend ="italic" type="ling">Pronubam</distinct> enim dicimus 
+            <lb/>eam que novam nuptam in cubiculo sponso copulat, quod 
+            <lb/>est femine, non maris officium. 
+            <lb/>«Rex tamen neque prophetanti plane crediderat». Cum scribes 
+            <lb/>aliquid theologicum isto verbo utitor, sed cum scribes historiam, 
+            <lb/>putato tibi non licere, bone magister elegantie, qui tam 
+            <lb/>frequenter eo usque adhuc usus es.
+            <lb/>«Cetera neglexit papa pre umbra illius nominis». Non «pre 
+            <lb/>umbra», imperite, sed «pre splendore illius nominis». Neque 
+            <lb/>enim umbram, sed splendorem eximium pre se fert pontificis 
+            <lb/>nomen, quo honore nullus in terris illustrior.
+            <lb/>«Disposita itaque re familiari consilii princeps Cevellerius 
+            <lb/>conditoque testamento, occlusis ostiis ac fenestris domus, extincto 
+            <lb/>igni, sedentibus in pavimento uxore ac filiabus, prosequentibus 
+            <lb/>aliquantum collegis ac ceteris, veluti damnatum destinatumque 
+            <lb/>inspectantibus ac miserantibus, ad regiam pergit». Credo 
+            <lb/>nunquam preceptum ullum de iis, que ad brevitatem narrationis 
+            <lb/>pertinent, videris, tam frequenter in eo peccas. De quibus 
+            <lb/>si nihil unquam traditum esset, tamen si quid valeres ingenio, 
+            <lb/>iudicares ista superflua esse que narras. Quid enim oportebat 
+            <lb/>sciri, utrum condito testamento an secus, utrum occlusis fenestris 
+            <lb/>an apertis, utrum extincto igni an excitato, utrum sedentibus 
+            <lb/>uxore ac filiabus in pavimento an stantibus in balneo, 
+            <lb/>is de quo loqueris ad regem se contulerit? Preterea quis credat 
+            <pb n="117"/>
+            <lb/>tantum terrorem et metum huic homini iniectum, quoniam a 
+            <lb/>rege vocaretur propter tumultum in plebe excitatum presertim 
+            <lb/>a quo ille abfuisset? Num ad leonem, num ad tigridem ibat? Non 
+            <lb/>vides regem truculentie et feritatis a te latenter accusari, qui 
+            <lb/>erat humanissimus? Quomodo plus timoris et desperationis ostendere 
+            <lb/>potuisses, si regem occidere, vel prodere conatus esset. 
+            <lb/>Satis itaque id fuerat dicere: «Cevellerius cum a rege vocaretur, 
+            <lb/>rebus suis primum compositis, veritus ne per iram rex in 
+            <lb/>se male consuleret, in regiam profectus est». 
+            <lb/>«Ubi Cevellerius pervenit ad ianuam conclavis, ubi a rege 
+            <lb/>expectabatur, nam ministros in prima aula (ut moris est) reliquerat, 
+            <lb/>ianitor, semiaperto ostio, quis esset interrogat, an Iohannes 
+            <lb/>Cevellerius. Hic aliquid favoris ex nomine magistratus acquirere 
+            <lb/>volens, ‘Consiliarius sum, inquit, civitatis.’ ‘An Cevellerius?’ 
+            <lb/>‘Civitatis, inquit, consiliarius.’ ‘Responde an Cevellerius.’ 
+            <lb/>‘Respondeo quod consiliarius.’ ‘Responde quod rogo: nam 
+            <lb/>alium quam Cevellerium intromittere iussus non sum.’ ‘An me 
+            <lb/>intromittas, an excludas in tua manu est. Ego consiliarius unus, 
+            <lb/>sed pro omnibus sum.’» Ecce alterum errorem insigniorem tuum 
+            <lb/>contra brevitatem. Nam si reprehendit Cicero, qui dixit, aut 
+            <lb/>dicat: «Accessi ad edes, puerum vocavi, respondit, quesivi dominum; 
+            <lb/>domi negavit esse», quanto magis reprehendendus es 
+            <lb/>tu, qui eadem repetis et replicas sepius, cum id dici eleganter 
+            <lb/>his pauculis verbis potuerit: «Ubi Cevellerius ad ianuam cubiculi 
+            <lb/>regii pervenit, ianitor quis esset interrogat, ille se consiliarium 
+            <lb/>civitatis esse respondit. Cum autem ille nomen exquireret, 
+            <lb/>sepius interrogatus nunquam se nisi a nomine dignitatis 
+            <lb/>appellare voluit. Tanta fuit hominis sive constantia, sive 
+            <lb/>pertinacia».
+            <lb/>«At non est hec abiectissimorum hominum contumacia atque 
+            <lb/>ambitio et Luciferi arrogantia, qui dicit: ‘Ponam sedem meam 
+            <lb/>ad aquilonem et ero similis altissimo.’» Elocutio sane digna 
+            <lb/>historiographo eloquentissimo, ne plura dicam.
+            <lb/>«Additum quoque est non esse tentandum, quid facere audeant 
+            <pb n="118"/>
+            <lb/>qui primigenio dicere ausi sunt, die quodam in dissensione, 
+            <lb/>de supplicio sontis cuiusdam. Nondum exsiccatum atramentum, 
+            <lb/>quo exarata sunt instrumenta declarationis de successione». 
+            <lb/>Ornatissime profecto et exquisitissime, ut cetera. Recte 
+            <lb/>tu quidem ne a more tuo recedas. Sed ego sic dicerem: «Erant 
+            <lb/>etiam qui dicerent tentandum non esse, quid illi audeant. Qui 
+            <lb/>cum alias de supplicio sontis cuiusdam dissensio esset, dicere 
+            <lb/>non pertimuerint, nondum satis exaruisse publici documenti litteras, 
+            <lb/>quo eius successio sancita sit». 
+            <lb/>«Quod si quemadmodum a sapientibus dictum est, acerbiora 
+            <lb/>sunt adversa quam iocundiora prospera, dicamus preclare cum 
+            <lb/>Ferdinando actum esse». Honestior elocutio si dixisses: «Quod 
+            <lb/>si plus acerbitatis adversis inest, quam iocunditatis prosperis, 
+            <lb/>preclare cum Ferdinando actum esse existimemus». 
+            <lb/>«Sed Iohannes imperite atque indocte. Homo quidem gravis 
+            <lb/>probusque ac strenuus, sed idiota». Tu certe magis idiota 
+            <lb/>quam ille, qui sic barbare loqueris. Quanto elegantius fuerat 
+            <lb/>dicere «illitteratus»,vel «litterarum ignarus».
+            <lb/>«Non afferam e regno patris mei, non ex aliis huius etatis 
+            <lb/>exempla. Certe Lacedemonii, apud quos bini reges erant et magis 
+            <lb/>perpetui consules quam reges, ita parum in urbe, in bello 
+            <lb/>multum poterant, voluerunt illos huius contumelie expertes esse. 
+            <lb/>Taceo gentilia. Quis unquam Hebreorum regum aliquem vectigal 
+            <lb/>audivit pependisse, etiam non potius regis vectigalia esse 
+            <lb/>pensitata? Non id nunc postulo ut mihi pensitentur, quamquam 
+            <lb/>et possem, sed ut ratio dignitatis constet». Exempla placent, validissimo 
+            <lb/>inniteris argumento. Lacedomonii reges et Hebrei nullum 
+            <lb/>vectigal populis suis pendebant, igitur omnes reges a vectigalibus 
+            <lb/>immunes ac liberi esse debent. Recta conclusio, si dixisses 
+            <lb/>superiores reges Aragonicos non esse solitos vectigal pendere; 
+            <lb/>consequens erat quod nec ei quoque solvendum vectigal 
+            <lb/>esset. Nunquid qua lege unus aut duo non tenentur, ceteros omnes 
+            <lb/>solutos esse dixeris? Si hac conditione regnum acceperat, ut 
+            <lb/>maiorum leges servaret et maiores ea vectigalia pensitarant, 
+            <lb/>iniustum regem facis qui leges non servet, quibus erat obstrictus. 
+            <lb/>Si vero nulla lege tenebatur, ostendi oportebat non esse solvendum. 
+            <pb n="119"/>
+            <lb/>An nescis aliis regibus plus licere in populos, aliis minus? 
+            <lb/>Esse quosdam populos immunes a tributis, esse alios qui 
+            <lb/>gravia persolvant? Si equum est, ut iusta regi solvantur, cur 
+            <lb/>iniquum fuerit, reges, quod debent, populis persolvere? Iniuste 
+            <lb/>itaque regem loquentem facis ad quod quidem nulla te historie 
+            <lb/>lex cogebat. Vitia in oratione non tribuentur regi, sed tibi, sicut 
+            <lb/>ars et elegantia non iis qui loquuntur, sed historiographis, a 
+            <lb/>quibus orationes confecte sunt, dari solet. Sed hoc omitto. Quid? 
+            <lb/>Illud preteritum <distinct rend ="italic" type="ling">pependisse</distinct>, quod tanta pertinacia olim negabas 
+            <lb/>reperiri simplex? Cur eo nunc usus es, si nusquam reperitur? 
+            <lb/>Sed tandem comperisti me vera dicere, qui usitatum asseverabam 
+            <lb/>et a Cesare in <title rend ="italic">Commentariorum</title> primo dictum sciebam. Si 
+            <lb/>vis grammaticus esse, Priscianum ne contemnas, quem prestantissimi 
+            <lb/>nostre etatis auctorem habent, alioquin, mihi crede, 
+            <lb/>irrideberis.
+            <lb/>«Neque enim nunc de pecunia res est, de qua si certaretur, 
+            <lb/>pudendum vobis erat, tantulum sumptum regi vestro non gratificari. 
+            <lb/>Sed de pudore meo, de auctoritate huius sedis apud exteras 
+            <lb/>nationes». Quo magis magisque tua lego, eo magis inscitiam 
+            <lb/>tuam intelligo. <distinct rend ="italic" type="ling">Pudorem</distinct> dicis quod <distinct rend ="italic" type="ling">honorem</distinct> dicere debuisti. 
+            <lb/>Neque enim id pertinet ad verecundiam, sed ad honorem 
+            <lb/>ac dignitatem regiam, quod regi sua non gratificarentur. Melius 
+            <lb/>itaque et correctius loqui disce. 
+            <lb/>«Quibus rebus cum nos adversemini, quid aliud nisi cupidos 
+            <lb/>esse significatis nostre turpitudinis, dedecoris, infamie, sine 
+            <lb/>ulla vestra, si saperetis, laude ac dignitate?» Nec minus hic 
+            <lb/>quam ceteris in locis tuam requiro prudentiam, qui turpitudini 
+            <lb/>esse regi dicas et infamie si vectigal pendat. Utrum infame et 
+            <lb/>turpe regi an populis est, qui velint regem vectigal pendere, 
+            <lb/>quod nulla culpa nullo regis vitio admittitur, id regi turpe et 
+            <lb/>inhonestum argues. Turpitudo et infamia eius est qui infert, 
+            <lb/>non qui patitur aliquid indignum, precipue si ei qui patitur non 
+            <lb/>liceat eam indignitatem iure repellere. Fac igitur reges sapienter 
+            <lb/>et iuste loqui ac dicere que illis convenientia et decora sint, 
+            <lb/>si vis laudem ex scriptis tuis assequi. Que facta sunt narrari 
+            <lb/>oportet quo ordine facta sint, que vero dicta ab historico componi 
+            <lb/>possunt. Sed quis expectet regem a te moderatum et iustum 
+            <pb n="120"/>
+            <lb/>induci, qui ipse immoderatus preceps et inconsultus sis, nec 
+            <lb/>ullum rerum delectum in oratione tua habeas? Neque enim potest 
+            <lb/>quis dare quo ipse careat, non magis quam ego possum digito 
+            <lb/>celum tangere.
+            <lb/>Hi sunt errores, quos veluti e grandi quodam acervo e libro 
+            <lb/>tuo excerpsi, historiographe bellissime. Qui ideo turpiores sunt 
+            <lb/>tibi, quod a te omnes qui unquam fuerint historicos, oratores 
+            <lb/>et poetas atque adeo omnes omnium scientiarum inventores et 
+            <lb/>preceptores superari putas, nec putas solum, sed etiam sine rubore 
+            <lb/>predicas. Que idcirco in medium proferre volui, quemadmodum 
+            <lb/>initio dixi, ut tua summa eloquentia ac sapientia omnibus 
+            <lb/>pateat, iis presertim quibus tua quadam garulitate persuasisti 
+            <lb/>alium neminem preter te unum sapere. Qui non dubito, si voluerint 
+            <lb/>sincere iudicare, his pensitatis et animadversis, facile 
+            <lb/>desistent a sententia teque nihil minus quam eloquentem et 
+            <lb/>prudentem hominem esse censebunt. Quod si te urent scripta 
+            <lb/>mea, id tue importunitati ac temeritati non mihi assignare debebis. 
+            <lb/>Quin etiam mihi te magis debere iudicabis, si quid prudentie 
+            <lb/>tibi reliquum furor fecerit, qui vera dixi, quam iis, qui 
+            <lb/>laudando et assentando te ex stulto insanum reddiderunt. Sed 
+            <lb/>quid sperem aut ego aut alius quisquam tuos mores immutare 
+            <lb/>reprehensione posse, cui nihil sanitatis a capite, ut aiunt, ad 
+            <lb/>calcem relictum est? Aurum geris omni verecundia abiecta. 
+            <lb/>Cur? An quia eques? Dic a quo principe aut a quo rege in 
+            <lb/>equestrem ordinem relatus sis. An quia iuris civilis aut pontificii 
+            <lb/>aut physice doctor? Ede ubi doctoratus insignia acceperis, 
+            <lb/>a quo collegio, quo tempore, quibus presentibus. An vero quia 
+            <lb/>olim Caiete in convivio cum inusitate magnitudinis peregrino 
+            <lb/>ariete clipeo pugnans certasti? Honesta profecto ratione, cur 
+            <lb/>auri usum tibi licenter assumere debueris. Est enim facinus viro 
+            <lb/>gravi et erudito dignum. Hoc idem sepe factitavit Hercules. Sed 
+            <lb/>iam satis de ineptiis tuis dictum sit, presertim cum omnibus 
+            <lb/>tam note sint, ut nihil novum, nihil inauditum cuiquam a me 
+            <lb/>afferri iam possit.
+        </p>
+      </div>
+            <pb n="121"/>
+      <div n="4">
+            <head>BARTHOLOMAEI FACCII IN LAURENTIUM VALLAM <lb/>INVECTIVA QUARTA ET ULTIMA INCIPIT</head>
+        <p>
+            <lb/>Erras, Laurenti, si putas veniam datam esse erroribus tuis, 
+            <lb/>quod librum tuum a rege repetieris et quod illum non editum 
+            <lb/>et nondum correctum dixeris. Ista enim libri repetitio plane confessio 
+            <lb/>est erroris tui, non purgatio. Quam tamen, etsi impudens 
+            <lb/>es, ipse negare non es ausus, presente rege, cum ego errata 
+            <lb/>tua coram maiestate sua proferre contenderem. Neque enim 
+            <lb/>passus es ista a me legi et recitari, que tu ipse sciebas a te 
+            <lb/>nulla via, nisi solita pertinacia defendi posse. Neque enim eras 
+            <lb/>nescius cuiusmodi essent omnia, que in libro tuo reprehenderam, 
+            <lb/>cum libellum meum cuidam e discipulis tuis tibi primo ostendendum 
+            <lb/>et subinde ei transcribendum dedissem, qui scio quatriduo 
+            <lb/>in manibus tuis fuit, vixque a te divelli potuit. Quod ego ideo 
+            <lb/>feci, ut scires quam parvi te faciam, quantumque tua hebetissima 
+            <lb/>tela contemnam. Nanque ita me amet Deus, ita mihi propitii 
+            <lb/>sint omnes superi, ut si nihil aliud negotii sit mihi quam 
+            <lb/>certare tecum scriptis, non magis id laborem, quam si mihi 
+            <lb/>equo in regiam domo eundum sit. Nam quid est tuo genere dicendi 
+            <lb/>ineptius? Quid ieiunius? Quid rancidius? Quid incomptius? 
+            <lb/>Quid denique aridius? Pumex profecto non eque aridus, 
+            <lb/>ut Plautinis verbis utar, atque ipsa oratio tua est, que semper 
+            <lb/>humi serpens ac veluti languens sese nescit erigere. Preterea 
+            <lb/>in te si quando igniculus aliquis forte excitatur, quemadmodum 
+            <lb/>culmo iniectus ignis, subito vel in ipsa excitatione atque ortu 
+            <lb/>extinguitur. Nunquam tibi ipsi constas, sed more navis gubernaculo 
+            <lb/>soluto huc illuc vagaris et quasi a fluctu quodam in diversa 
+            <lb/>raperis. Non coherent sententie, non verba rebus accommodata, 
+            <lb/>que ab eloquenti homine, qualem te haberi vis, proficisci 
+            <pb n="122"/>
+            <lb/>videantur, sed e media pedagogorum scola deprompta. 
+            <lb/>Qualis enim sermo tuus est, talis est profecto oratio, quem multi 
+            <lb/>iudicio decepti, quod sunt ignari eloquentie, disertum et tersum 
+            <lb/>putant. Qui si quid in his studiis profecissent, facile deprehenderent 
+            <lb/>linguam tuam non romanam esse, sed barbaram. «Ego 
+            <lb/>vos puniam ambos», minitans Antonio et mihi dixisti in conspectu 
+            <lb/>regis, ne dicam cetera inepta et irridenda. Sed si romane 
+            <lb/>et latine loqui scisses, non «vos puniam ambos» dixisses, 
+            <lb/>quod rudius et inornatius dici non potuit, sed «utrique meritas 
+            <lb/>referam gratias» vel «utrunque ulciscar». O quam multa notarem 
+            <lb/>in sermone tuo si te audire vellem! Sed insanum ac dementem, 
+            <lb/>presertim in nugis quibus affluis. Non audio, que multi 
+            <lb/>ut belle et ornate a te dicta laudant et mirantur. Verum non 
+            <lb/>ex sermone iudicatur hominis facundia et doctrina, sed e scriptis 
+            <lb/>et operibus quibus maior vis ingenii maiorve cogitatio et 
+            <lb/>cura adhibetur. Conferantur tua scripta cum meis et equum habeamus 
+            <lb/>iudicem, tunc videris quam parum disertus sis. Nec tamen 
+            <lb/>is sum, qui existimem me parem esse quibusdam etatis 
+            <lb/>nostre eloquentissimis atque illustribus viris, a quibus et eloquentia
+            <lb/>et multarum rerum scientia me vinci facile concesserim. 
+            <lb/>Sed si me tibi in dicendo antepono, videor id mihi absque arrogantie 
+            <lb/>suspicione facere posse, quoniam disertis et eruditis hominibus, 
+            <lb/>qua eloquentia sis perspectum est. Sed quod dicis librum 
+            <lb/>a te nondum editum esse, qua fronte, quo vultu, quove 
+            <lb/>ore dicere id potes? Quem putas esse tam imperitum rerum ex 
+            <lb/>omnibus, qui interfuere, cum tibi a rege redditus est liber, aut 
+            <lb/>eorum quibus illum prius ostenderam, qui non intelligat librum 
+            <lb/>editum esse, et pro edito habendum? Primum enim librum ipsum 
+            <lb/>regi statim post reditum eius ex Brutiis una cum secretario 
+            <lb/>eius viro clarissimo obtulisti, quasi degustationem quandam 
+            <lb/>castrensis eloquentie tue, ut, si regi placeret opus, tu is esses 
+            <lb/>cui rerum a se gestarum celebratio mandaretur, invidia quadam 
+            <lb/>permotus quod sciebas id negotii mihi datum esse, et illum in
+            <lb/>regia bibliotheca reponendum reliquisti, ubi iam supra decimum 
+            <lb/>mensem conditus est. Quem si noluisses editum esse, non 
+            <lb/>est verisimile te illum tam diu ibidem reliquisse, presertim cum 
+            <pb n="123"/>
+            <lb/>scires multo antequam Romam peteres, illum a me multis locis 
+            <lb/>esse reprehensum. Quis enim, nisi stultus, relinquat in bibliotheca 
+            <lb/>regia, in qua non nisi perfecta et elaborata opera reponi 
+            <lb/>solent, librum quem edi nolit? Sed si libri eius lectione regem 
+            <lb/>inducere studebas, ut te historiographum suum efficeret, quis 
+            <lb/>credat illum a te imperfectum ad se delatum esse? Quonam 
+            <lb/>enim modo allici poterat rex, si et scripta inepta atque ridicula 
+            <lb/>essent et oratio ipsa non modo non militaris, sed plerunque vulgaris 
+            <lb/>et barbara? Quid quod liber ipse compaginatus ac tabellis 
+            <lb/>contectus manuque tua correctus et per capita rubris litteris 
+            <lb/>distinctus est, cum proemio ad regem et in fine polliceris historias 
+            <lb/>regis nostri? Verba enim tua hec sunt: «Finis historiarum 
+            <lb/>regis Ferdinandi. Sequuntur historie regis Alfonsi». Nonne 
+            <lb/>hec omnia testantur ac demonstrant librum perfectum et absolutum 
+            <lb/>esse? Quod si afferre vis, ut fecisti, ipsum non videri 
+            <lb/>absolutum, quoniam membranis non est positus, scito non membranis, 
+            <lb/>sed ingenio et lima opus perfici. Nihil enim refert utrum 
+            <lb/>in membranis, an in tabulis opus transcribatur, modo sit perfectum 
+            <lb/>et elimatum. Quod si ipsum librum rege haud dignum 
+            <lb/>esse contenderis, ut dixisti, facile id tibi concedam, immo nec 
+            <lb/>unquam te effecturum, ut eius aut patris maiestate dignus 
+            <lb/>evadat. Illud vero perridiculum est et nulla omnino excusatione 
+            <lb/>dignum, quod dixisti te ad regem librum attulisse, ut illum 
+            <lb/>emendaret, quasi regis officium sit libros emendare. Non erubescis 
+            <lb/>ista dicere? Non vides apud quos loquaris? Aliud negotium 
+            <lb/>regi est, alia cura, alius labor quam librorum correctio. 
+            <lb/>Si de rerum scriptarum veritate atque ordine fortasse dubitabas, 
+            <lb/>non regis, sed eorum qui regem secuti sunt, fuit exquirenda sententia. 
+            <lb/>Sed in latinitate et elegantia et historie dignitate quis te 
+            <lb/>coegit peccare? Celeritasne? Quis te impellebat, ut tam celeriter 
+            <lb/>rem imperfectam et corruptam ederes? Sed esto quod dixisti: 
+            <lb/>a secretario, ut properares, hortareris. Utrum alieno consilio, 
+            <lb/>an honori tuo potius consulere debuisti, stolide? Hanc festinationem 
+            <lb/>edendi operis non te docuit Horatius, quem si secutus 
+            <lb/>esses, fortasse non tam multa peccasses. Ait enim, nescio 
+            <lb/>si scias: «Vos, o Pompilius sanguis, carnem reprehendite, 
+            <pb n="124"/>
+            <lb/>quod non multa dies et multa litura coercuit, atque perfectum 
+            <lb/>decies non castigavit ad unguem». Sed quando nulla alia restabat 
+            <lb/>tibi excusationis facies, hanc excusationem frivolam et nemini 
+            <lb/>satisfacientem attulisti. Putabas, demens, me invidere tibi 
+            <lb/>et egre ferre a te quoque historiam scribi. Sed vide, queso, 
+            <lb/>quam tua te opinio deceperit. Tantum enim abest ut ego id moleste 
+            <lb/>ferrem, ut a rege nuper petierim multis presentibus, tibi 
+            <lb/>hanc communem esse materiam, eandemque tibi quam mihi rerum 
+            <lb/>notitiam tradi. Idque profecto admodum cupio, et si potero 
+            <lb/>consequar. Spero enim scripta tua meorum gratiam si qua est 
+            <lb/>futura, non nihil auctura. Quod autem dicis librum nondum correctum 
+            <lb/>esse, nemo est omnium qui viderint, qui id neget; nemo 
+            <lb/>qui non corruptum, immo vero corruptissimum esse fateatur, 
+            <lb/>nec corrigi posse, nisi uratur. Tot enim errata insunt, ut e 
+            <lb/>deligendis insignioribus vix me explicare potuerim et sepius 
+            <lb/>dubitarim, quid potissimum annotarem. Mihique persuadeo, 
+            <lb/>quamvis multa correxerim, te nunquam adeo correcturum omnia, 
+            <lb/>quin adhuc egeas labore meo. Quem tibi profecto quantum 
+            <lb/>regia negotia patientur impendam. Nolo enim pati, ut libri tui 
+            <lb/>corrupti ad posteros transeant. Sed iam de his satis. Negotio 
+            <lb/>enim interpellor, ne plura nunc scribam, que in aliud tempus 
+            <lb/>differri placet.
+            </p>
+            <trailer>
+                <lb/>BARTHOLOMAEI FACCII IN LAURENTIUM VALLAM INVECTIVA QUARTA ET ULTIMA FINIT.
+                <lb/>SIT CHRISTO LAUS.
+            </trailer>
+      </div>                      
+    </body>
+  </text>
+</TEI>
