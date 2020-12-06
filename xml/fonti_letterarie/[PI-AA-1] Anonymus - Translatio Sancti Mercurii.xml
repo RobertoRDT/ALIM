@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>Translatio Sancti Mercurii</title>
+        <author>Anonimo</author>
+        <respStmt>
+          <resp>Edizione critica a stampa a cura di</resp>
+          <name>G. Waitz</name>
+        </respStmt>
+        <respStmt>
+          <resp key="ALIM2_1">Edizione in formato TEI XML a cura di</resp>
+          <name key="AA">Arianna Agresti</name>
+        </respStmt>
+      </titleStmt>
+
+      <extent>
+        <measure quantity="811" unit="words">Parole: 811</measure>
+        <measure quantity="5294" unit="characters_without_spaces">Caratteri (spazi esclusi): 5294</measure>
+      </extent>
+
+      <publicationStmt>
+        <publisher>
+          <ref target="http://alim.unisi.it/">ALIM</ref>
+        </publisher>
+        <date when="2018-08-02">02/08/2018</date>
+        <availability>
+          <p>Copyright 2006- progetto ALIM</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>George Waitz, Oswald Holder-Egger, Agnello Ravennate, Ambrogio Autperto, Papa Gregorio I, Erchemperto, Andrea da Bergamo, Paolo Diacono</author>
+            <title>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</title>
+            <editor>G. Waitz</editor>
+            <imprint>
+              <pubPlace>Hannover: Impensis Bibliopolii Hahniani</pubPlace>
+              <publisher>Societas Aperiendis Fontibus Rerum Germanicarum Medii Aevi</publisher>
+              <date>1878</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title level="s">Monumenta Germaniae Historica, Scriptores, Sezione III</title>
+            <biblScope unit="volume">1</biblScope>
+            <biblScope unit="page" from="576" to="578">576-578</biblScope>
+            <span type="page" from="#pag576" to="#pag578">Translatio Sancti Mercurii</span>
+          </series>
+        </biblStruct>
+
+        <bibl>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX.</bibl>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
+          ALIM - Archivio della Latinità Italiana del Medioevo.</p>
+      </projectDesc>
+    
+      <editorialDecl>
+        <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
+          <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+            precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola è sillabata alla
+            fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
+            resto della riga a stampa è vuoto), la parola è stata registrata tutta nella riga in cui essa termina. È
+            stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
+          </list>
+        </ab>
+        <ab type="level">ALIM2_1</ab>
+        <ab type="specific">L'edizione originale fa uso del simbolo asterisco per una nota 
+          critica, nella codifica l'asterisco è stato modificato facendo 
+          uso del numero Romano "I" per evitare possibili problemi di elaborazione.</ab>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latino</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">Prosa</term>
+          <term type="source">Documentaria</term>
+          <term type="genre">Storiografia</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <date>VIII-IX secolo</date>
+      </creation>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2018-08" who="AA">Prima trascrizione nel formato TEI P5 [livello ALIM2_2]</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="part">
+        <pb n="576" xml:id="pag576"/>
+            <head>TRANSLATIO SANCTI MERCURII.</head>
+          <p n="1">
+            <lb/>[Constans<note n="I"><hi rend="italic">Altera translationis historia in 12 lectiones divisa, quam edidit Giovardi p. 55, ita incipit:</hi> Translationis siquidem corporis beati Mercurii,	qua	transvectum est Quintodecimo Beneventum	et ad sanctae Sophiae basilicam deportatum, inpraesentiarum	sollemniter celebratur. Valde tamen esse conveniens et narrationis series postulare videtur, ut, qua occasione ipsum sacrum corpus Cesarea Cappadocie, ubi primum humatum	extiterat, Quintumdecimum delatum fuerit, innotescat. Imperator Constantinopoleos Constantinus <hi rend="italic">etc</hi>.</note> imperator], quibuscumque concupiscibilibus ablatis, maximeque aulam beate
+            <lb/>Dei genitricis semper virginis Marie, que quondam pantheon dicebatur, ereis laterculis
+            <lb/>retectam, ut in gestis Longobardorum legitur<note n="2"><hi rend="italic">Paul. V, 11. In altera Translationis historia Constantis expeditio et Beneventi obsidio longius narrantur</hi>, ut in vita beati Barbati et in historiis Langobardorum gentis scriptum plenius repperitur.</note>, non sit veritus violare. Qui talibus
+            <lb/>onustus rapinis ut Constantinopolim repedaret, Trinacriam<note n="a" type="critical">Finacriam <hi rend="italic">ed</hi>.</note> reversus, non sine divini examinis
+            <lb/>animadversione a suis in valneo interemptus, infelici morte infelicior ipse interiit.
+            <lb/>Extunc sane usque ad tempus Arechis Beneventanorum celeberrimi principis ita posteros
+            <lb/>de beati Mercurii corpore nonaginta quinque annis et mense uno intercepit oblivio, ut
+            <lb/>ubi<note n="b" type="critical">ibi <hi rend="italic">ed</hi>.</note> iaceret penitus nesciretur. Ecclesie tamen eius post civitatis destructionem facte,
+            <lb/>ubi prioris ruina fuerat, miserante Deo memoria non potuit aboleri, quin prefati	martiris
+            <lb/>nomine illustraretur et signis. Arechis igitur princeps illustris, perfecta iam sancte
+          <pb n="577" xml:id="pag577"/>
+            <lb/>Sophie basilica, quam ad exemplar illius condidit Iustiniane; iamque in ea cum aliis
+            <lb/>non paucis sanctorum martirum duodecim fratrum corporibus, que sparsim prius iacuerant,
+            <lb/>sub ara una honore debito tumulatis; dum circa martirum venerationem fervidus
+            <lb/>ac tanquam dulciori gustu avidior factus, ad exquirendum adhuc sollicitius insudaret,
+            <lb/>divino instigatus oraculo, ad memoriam beati Mercurii sic animum excitavit.
+          </p>
+          <p n="2">
+            <lb/>2.	Erant in diebus eius Quintodecimi<note n="1"><hi rend="italic">Civitas Quintodecimo, quindecim milliariis Benevento distans</hi>.</note> sanctimoniales aliquot; quarum evi morumque
+            <lb/>maturitas professioni satis poterat suffragari, indefessas martiri excubias actitantes,
+            <lb/>quas coeuntium illuc caterve populorum ob virtutum opitulationes, quas ibi Dominus
+            <lb/>per militem suum Mercurium operabatur, notas<note n="a" type="critical">notis <hi rend="italic">ed</hi>.</note> in multis fama sanctitatis, effecerant
+            <lb/>notiores. His itaque vulgari opinione diffusis, egregius princeps omnia rite scrutatus,
+            <lb/>accito Beneventi pontifice, optimatum ac plebis, qui ob id cohierant, stipatus agminibus,
+            <lb/>eo, ut in tali negotio solet fieri, festinus accedit. Tum oratione premissa, presul et princeps,
+            <lb/>arreptis ligonibus, fodientium	primi rudus eiciunt et facta vicissitudine, alios pro
+            <lb/>se denuo substituunt intraturi. Accurrunt interea iuvenes ac vegeti, proruit omnis etas,
+            <lb/>et quicquid in tali impetu ad fodiendum fervor ministraverat, sibi invicem preripientes e
+            <lb/>manibus, felici emulatione sese alterutrum gestiunt anteisse. Sic tota dies expenditur,
+            <lb/>et eiecto rudere ac terra, que viva subter erat inventa, martiris tumulus non videtur.
+            <lb/>Confestim meror omnes invasit, et animis depositis evirati diriguere, sicque nox imminens
+            <lb/>diem diremit et studium. Noctem illam princeps ducit insomnem, ac viritim singulos
+            <lb/>aggrediens, ut orationibus insistant, non desinit supplicare. Adest interim in visione
+            <lb/>presuli sanctus, et ne ceptum deserant adhortatur. Cumque diei sol oriens daret initium,
+            <lb/>comperto quod antistiti fuerat revelatum, undique certatim concurritur, et quia instrumentis
+            <lb/>non suppetit, terra unguibus effossa latatur: cum subito martiris venitur ad tumulum,
+            <lb/>et loculo elevato et lectice imposito, Beneventum cum tripudio remeatur. Hinc
+            <lb/>melos et cantica, hinc ymni et iubili, clero populoque	dulci modulamine decantantibus,
+            <lb/>celum faciunt resonare, sicque vexillis precedentibus, velut tropheo habito, martiris expeditio
+            <lb/>iam appropiat Benevento.
+          </p>
+          <p n="3">
+            <lb/>3.	Rivus quidam ab ortu quasi stadiis duobus distans a menibus, Calorum<note n="2"><hi rend="italic">Calore.	De ponte v. notam p. 580</hi>.</note> ad
+            <lb/>dextram ingreditur, super quem ponticulus structura veteri fabricatus, petentibus urbem
+            <lb/>sinistram bivii ad portam que Summa, dexteram vero pandit ad eam que Aurea nuncupatur.
+            <lb/>Quo transgresso, reda substitit, et veredis facultas interdicta est divinitus abeundi.
+            <lb/>Extemplo<note n="b" type="critical">Exemplo <hi rend="italic">ed</hi>.</note> antistes humeros cum clero subposuit, biga tamen perstitit inconcussa. Repente
+            <lb/>omnes attoniti et subito stupore perculsi, resolvuntur in lacrimas, quique intra muros
+            <lb/>erant confestim prosiliunt; omnis ordo, sexus et etas accurrit, tamque innumerabiles
+            <lb/>phalanges erumpunt, ut in cleri plebisque copia poli solique accolas diceres<note n="c" type="critical">dicere <hi rend="italic">ed</hi>.</note> concurrisse.
+            <lb/>Undique singultus auditur et gemitus, et prostratorum solo clamoribus ether impletur.
+            <lb/>Hinc cleri beata phalanx, queque procedentibus sunt assueta protensis, inde populi
+            <lb/>spectabilis multitudo Dominum toto precantur affectu, quatenus sese tanto non sineret
+            <lb/>patrono destitui. Dum hec geruntur, Arechis nobilis heros, principali ornatu deposito,
+            <lb/>indutus<note n="d" type="critical">inductus <hi rend="italic">ed</hi>.</note> cilicio, ante corpus martiris humi prosternitur, atque iure ratus, velle sanctum,
+            <lb/>ut et oblatione munerum bone mentis nitorem pretenderet, ut de purpureis gausapis
+            <lb/>taceam et telis Phocaico stagmine textis et vasis argento aurove celatis, quibus etiam
+            <lb/>plurimum decoris extrinsecus margaritae<note n="e" type="critical">margaritis <hi rend="italic">ed</hi>.</note> electro variante polita clusione rutilantes addiderant,
+            <lb/>predia martiri obtulit numerosa.	Quin etiam sub protestatione adiecit, quod in
+            <lb/>basilica, ad quam vehendus erat, altare ipsius, hoc ei privilegio dignitatis, sicut ecclesiis<note n="f" type="critical">ecclesia <hi rend="italic">ed</hi>.</note>
+            <lb/>principalibus consuevit, impenso, ut festis precipuis in missarum aliorumve officiorum,
+            <lb/>que sibi queque prout est poscit solemnitas, celebrationibus devotius et specialius assistendo,
+          <pb n="578" xml:id="pag578"/>
+            <lb/>inter cetera principalius esset habendum. Quibus votis ylico birotum, cedente
+            <lb/>invisibili obice qui obstiterat, ad corpus martiris evehendum se tam facile prebuit,	ut
+            <lb/>tunc presentium nullus, quin divinitus ageretur, ambigere potuisset.	Sic denique presul
+            <lb/>ipse cum principe, cleri, optimatum, popularium agminibus, preeuntem martirem partim
+            <lb/>subsequentium, partim preeuntium, constipati, tandem sue urbis menia pangendo melos
+            <lb/>altisonum subintrarunt.
+          </p>
+          <p n="4">
+            <lb/>4.	Itaque miles Christi Mercurius ad sancte Sophie basilicam deportatur, in qua
+            <lb/>duodecim fratrum senatus requiescit egregius aliorumque utriusque ordinis corpora beatorum,
+            <lb/>eorumque non impar et busti dignioris ante sanctorum aram duodecim fratrum
+            <lb/>et	ceterorum, ut ita	dixerim dominii eiusdem	loci tutor et urbis, disponente Domino,
+            <lb/>meruit	principatum. Reconditum est autem corpus beati Mercurii martiris in basilica
+            <lb/>sancte Sophie intra menia Beneventi septimo Kalendis Septembris, anno vero ab incarnatione
+            <lb/>domini nostri lhesu Christi septingentesimo sexagesimo octavo, ad tutelam urbis
+            <lb/>et honorem et gloriam eiusdem domini nostri lhesu Christi, qui cum Deo Patre et Spiritu
+            <lb/>sancto vivit et regnat Deus per immortalia secula seculorum, amen.       
+        </p>
+    </div>
+  </body>
+  </text>
+</TEI>
