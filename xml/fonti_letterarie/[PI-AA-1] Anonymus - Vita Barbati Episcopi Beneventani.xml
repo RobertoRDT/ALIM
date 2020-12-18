@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
   <teiHeader>
 
     <fileDesc>
@@ -36,9 +37,10 @@
       <sourceDesc>
         <biblStruct>
           <monogr>
-          	<author>George Waitz, Oswald Holder-Egger, Agnello Ravennate, Ambrogio Autperto, Papa Gregorio I, Erchemperto, Andrea da Bergamo, Paolo Diacono</author>
-          	<title>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</title>
-          	<editor>G. Waitz</editor>
+            <author>George Waitz, Oswald Holder-Egger, Agnello Ravennate, Ambrogio Autperto, Papa Gregorio I,
+              Erchemperto, Andrea da Bergamo, Paolo Diacono</author>
+            <title>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX</title>
+            <editor>G. Waitz</editor>
             <imprint>
               <pubPlace>Hannover: Impensis Bibliopolii Hahniani</pubPlace>
               <publisher>Societas Aperiendis Fontibus Rerum Germanicarum Medii Aevi</publisher>
@@ -46,16 +48,16 @@
             </imprint>
           </monogr>
           <series>
-          	<title level="s">Monumenta Germaniae Historica, Scriptores, Sezione III</title>
+            <title level="s">Monumenta Germaniae Historica, Scriptores, Sezione III</title>
             <biblScope unit="volume">1</biblScope>
-          	<biblScope unit="page" from="555" to="563">555-563</biblScope>
-          	<span type="page" from="#pag555" to="#pag556">Introduzione argomentazioni testo G. W.</span>
-          	<span type="page" from="#pag556" to="#pag557">Passio Beati Barbati Episcopi et Martiris (Prologo)</span>
-          	<span type="page" from="#pag557" to="#pag563">Vita Sancti Barbati Episcopi</span>
+            <biblScope from="555" to="563" unit="page">555-563</biblScope>
+            <span from="#pag555" to="#pag556" type="page">Introduzione argomentazioni testo G. W.</span>
+            <span from="#pag556" to="#pag557" type="page">Passio Beati Barbati Episcopi et Martiris (Prologo)</span>
+            <span from="#pag557" to="#pag563" type="page">Vita Sancti Barbati Episcopi</span>
           </series>
         </biblStruct>
 
-      	<bibl>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX.</bibl>
+        <bibl>Monumenta Germaniae Historica, Scriptores Rerum Langobardicarum et Italicarum Saec. VI-IX.</bibl>
       </sourceDesc>
 
     </fileDesc>
@@ -65,20 +67,20 @@
         <p>Testo codificato nel formato TEI XML, versione P5, per essere incluso fra i testi che compongono il progetto
           ALIM - Archivio della Latinità Italiana del Medioevo.</p>
       </projectDesc>
-    
+
       <editorialDecl>
         <ab type="boilerplate">La codifica segue le norme standard stabilite dal progetto ALIM, in dettaglio: <list>
-        	<item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
-              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola  sillabata alla
+            <item>Sono state eliminate le sillabazioni: la parola spezzata da un 'a capo' è stata unita alla riga
+              precedente (anche alla pagina precedente, ove necessario). Eccezione: quando una parola sillabata alla
               fine di una riga e nella successiva riga appare solo la seconda parte della parola sillabata (quindi il
-              resto della riga a stampa è vuoto), la parola  stata registrata tutta nella riga in cui essa termina. È
+              resto della riga a stampa è vuoto), la parola stata registrata tutta nella riga in cui essa termina. È
               stato ritenuto prioritario, infatti, mantenere il numero complessivo delle righe di ogni pagina.</item>
           </list>
         </ab>
         <ab type="level">ALIM2_1</ab>
-      	<ab type="specific">L'edizione originale usa degli asterischi per numerare alcune note 
-      		critiche, nella codifica questa numerazione è stata modificata facendo 
-      		uso di numeri romani per evitare possibili problemi di elaborazione.</ab>
+        <ab type="specific">L'edizione originale usa degli asterischi per numerare alcune note critiche, nella codifica
+          questa numerazione è stata modificata facendo uso di numeri romani per evitare possibili problemi di
+          elaborazione.</ab>
       </editorialDecl>
     </encodingDesc>
 
@@ -94,7 +96,7 @@
         </keywords>
       </textClass>
       <creation>
-        <date>IX secolo</date>
+        <date when-iso="801/900">IX secolo</date>
       </creation>
     </profileDesc>
 
